@@ -16,6 +16,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | [Kissaten Counter](themes/kissaten-counter) | Coffee shops and kissaten cafes | business | dark, warm | cozy, handmade | [kissaten-counter.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kissaten-counter.zip) |
 | [Ma Vertical](themes/ma-vertical) | Craft studios and ateliers | portfolio | warm, earthy | vertical-type, wabi-sabi, minimal | [ma-vertical.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/ma-vertical.zip) |
 | [Shashin Folio](themes/shashin-folio) | Photographers | portfolio | monochrome, cool, dark | minimal, cinematic | [shashin-folio.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/shashin-folio.zip) |
+| [Yuzu Chaya](themes/yuzu-chaya) | Japanese tea and wagashi shops (WooCommerce store) | store | yellow, light | playful, modular | [yuzu-chaya.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/yuzu-chaya.zip) |
 
 ## Install a theme
 
