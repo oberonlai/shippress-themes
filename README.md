@@ -9,6 +9,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | Theme | For | Type | Colors | Style | Download |
 |-------|-----|------|--------|-------|----------|
 | [Hinoki Yado](themes/hinoki-yado) | Ryokan and small hot-spring inns | hospitality | green, natural | serene, organic | [hinoki-yado.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/hinoki-yado.zip) |
+| [Ikebana Kyoshitsu](themes/ikebana-kyoshitsu) | Ikebana and flower-arranging schools | education | pastel, pink | botanical, asymmetric | [ikebana-kyoshitsu.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/ikebana-kyoshitsu.zip) |
 | [Kenchiku Grid](themes/kenchiku-grid) | Architecture studios | business | monochrome, cool | minimal, editorial | [kenchiku-grid.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kenchiku-grid.zip) |
 | [Kissaten Counter](themes/kissaten-counter) | Coffee shops and kissaten cafes | business | dark, warm | cozy, handmade | [kissaten-counter.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kissaten-counter.zip) |
 | [Ma Vertical](themes/ma-vertical) | Craft studios and ateliers | portfolio | warm, earthy | vertical-type, wabi-sabi, minimal | [ma-vertical.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/ma-vertical.zip) |
