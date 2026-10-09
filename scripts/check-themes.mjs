@@ -16,7 +16,8 @@ const PAGE_TEMPLATES = {
   home: ["front-page", "home"], about: ["page-about", "page"], news: ["home", "index"], article: ["single"],
   category: ["category", "archive"], tag: ["tag", "archive"], newsletter: ["page-newsletter", "page"], contact: ["page-contact", "page"],
 };
-const TYPES = ["portfolio", "business", "blog", "shop", "hospitality", "education"];
+// "store": a WooCommerce shop theme (WooCommerce templates + sample products, still works without WooCommerce).
+const TYPES = ["portfolio", "business", "blog", "shop", "store", "hospitality", "education"];
 const CJK = /[\u3040-\u30ff\u3400-\u9fff\uff00-\uffef\u3000-\u303f]/;
 const TEXT = /\.(php|html|json|css|md|txt|js|svg)$/;
 const SECRETS = [
@@ -96,6 +97,20 @@ export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SH
   if (has("parts/header.html")) for (const [, attrs, inner] of read("parts/header.html").matchAll(/<!-- wp:navigation (\{.*?\}) (\/)?-->/g)) {
     if (!inner || /"ref":/.test(attrs)) errs.push("parts/header.html: the navigation block must be empty (<!-- wp:navigation {...} /-->) so it shows the imported menu");
   }
+  // Sample products (store themes; imported only while WooCommerce is active): images, categories and tags must exist.
+  const pcats = new Set((demo.productCategories ?? []).map((c) => c.slug)), ptags = new Set((demo.productTags ?? []).map((t) => t.slug));
+  for (const c of demo.productCategories ?? []) if (c.parent && !pcats.has(c.parent)) errs.push(`product category ${c.slug}: unknown parent ${c.parent}`);
+  for (const p of demo.products ?? []) {
+    if (!p.slug || !p.name || !/^\d+(\.\d{1,2})?$/.test(String(p.price ?? ""))) errs.push(`product ${p.slug}: needs slug, name and a price like 18 or 18.50`);
+    for (const c of p.categories ?? []) if (!pcats.has(c)) errs.push(`product ${p.slug}: unknown product category ${c}`);
+    for (const t of p.tags ?? []) if (!ptags.has(t)) errs.push(`product ${p.slug}: unknown product tag ${t}`);
+    for (const img of p.images ?? []) {
+      const name = img.replace(/^.*\//, "").replace(/\.\w+$/, "");
+      if (!["jpg", "jpeg", "png", "webp"].some((x) => has(`assets/images/demo/${name}.${x}`))) errs.push(`product ${p.slug}: no raster copy assets/images/demo/${name}.jpg|png|webp`);
+    }
+  }
+  if (meta?.type === "store" && !(demo.products ?? []).length) errs.push("a store theme needs sample products in demo-content.json");
+  if (meta?.type === "store" && !["archive-product", "single-product"].every((t) => has(`templates/${t}.html`))) errs.push("a store theme needs templates/archive-product.html and templates/single-product.html");
   if (has("assets/images")) for (const f of readdirSync(join(dir, "assets/images")).filter((f) => f.endsWith(".svg"))) {
     const name = f.slice(0, -4);
     if (!["jpg", "jpeg", "png", "webp"].some((x) => has(`assets/images/demo/${name}.${x}`))) errs.push(`assets/images/${f} has no raster copy in assets/images/demo/ (scripts/rasterize-images.py)`);

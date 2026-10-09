@@ -103,3 +103,25 @@ test("demo copy may not name real magazines, awards or people", () => {
     assert.ok(!checkTheme(t, slug).join("\n").includes("names a real"));
   } finally { rmSync(dir, { recursive: true, force: true }); }
 });
+
+test("store themes: sample products must point at real images and terms", () => {
+  const store = slugs.find((s) => JSON.parse(readFileSync(join(THEMES, s, "theme-meta.json"), "utf8")).type === "store");
+  assert.ok(store, "at least one store theme");
+  const dir = mkdtempSync(join(tmpdir(), "theme-store-"));
+  try {
+    const t = join(dir, store);
+    cpSync(join(THEMES, store), t, { recursive: true });
+    const demo = JSON.parse(readFileSync(join(t, "demo-content.json"), "utf8"));
+    demo.products[0].images = ["assets/images/no-such-cover.svg"];
+    demo.products[0].categories = ["no-such-shelf"];
+    demo.products[1].price = "about ten";
+    writeFileSync(join(t, "demo-content.json"), JSON.stringify(demo));
+    const errs = checkTheme(t, store).join("\n");
+    for (const want of ["no raster copy assets/images/demo/no-such-cover", "unknown product category no-such-shelf", "needs slug, name and a price"]) assert.match(errs, new RegExp(want), want);
+    demo.products = [];
+    writeFileSync(join(t, "demo-content.json"), JSON.stringify(demo));
+    assert.match(checkTheme(t, store).join("\n"), /a store theme needs sample products/);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+});
