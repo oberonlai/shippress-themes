@@ -32,12 +32,12 @@ test("catches broken themes", () => {
     cpSync(join(THEMES, slugs[0]), t, { recursive: true });
     const write = (p, s) => writeFileSync(join(t, p), s);
     const css = readFileSync(join(t, "style.css"), "utf8");
-    write("style.css", css.replace(/License: .*/, "License: Proprietary"));
+    write("style.css", css.replace(/License: .*/, "License: Proprietary").replace(/Version: .*/, "Version: 1.0 beta"));
     rmSync(join(t, "templates/tag.html"));
     write("templates/category.html", readFileSync(join(t, "templates/front-page.html"), "utf8"));
     write("functions.php", readFileSync(join(t, "functions.php"), "utf8") + "\n// https://fonts.googleapis.com/css2 /workspace/x jane@gmail.com\n");
     const errs = checkTheme(t, slugs[0]).join("\n");
-    for (const want of ["License must be GPL-2.0-or-later", "templates/tag.html is missing", "category.html is a copy of front-page.html", "remote font host", "local path", "real-looking email"])
+    for (const want of ["License must be GPL-2.0-or-later", "templates/tag.html is missing", "category.html is a copy of front-page.html", "remote font host", "local path", "real-looking email", "Version must look like 1.2.3"])
       assert.match(errs, new RegExp(want.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   } finally { rmSync(dir, { recursive: true, force: true }); }
 });

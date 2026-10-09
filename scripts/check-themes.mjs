@@ -115,6 +115,7 @@ export function checkTheme(dir, slug) {
     for (const k of ["Theme Name", "Description", "Version", "Requires at least", "License", "License URI", "Text Domain"]) if (!h[k]) errs.push(`style.css header has no "${k}"`);
     if (h.License && !/^(GPL-2\.0-or-later|GNU General Public License v2 or later)$/.test(h.License)) errs.push(`style.css License must be GPL-2.0-or-later, not "${h.License}"`);
     if (h["License URI"] && !/gnu\.org\/licenses\/gpl-2\.0/.test(h["License URI"])) errs.push("style.css License URI must point to the GPL-2.0 text");
+    if (h.Version && !/^\d+\.\d+\.\d+$/.test(h.Version)) errs.push(`style.css Version must look like 1.2.3 (it names the release ${slug}-v<Version>), not "${h.Version}"`);
     if (h["Text Domain"] && h["Text Domain"] !== slug) errs.push(`style.css Text Domain "${h["Text Domain"]}" must equal the folder name "${slug}"`);
   }
   if (!has("theme.json")) errs.push("theme.json is missing"); else json("theme.json");

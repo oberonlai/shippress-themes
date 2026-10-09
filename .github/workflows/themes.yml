@@ -1,7 +1,10 @@
-# Checks every theme on pull requests and pushes; on main, zips each theme folder and uploads it to the
-# "themes" release, so a single theme downloads from
-#   https://github.com/oberonlai/shippress-themes/releases/download/themes/<slug>.zip
-# Stock actions + the preinstalled gh CLI only.
+# Checks every theme on pull requests and pushes. On main, publishes each new theme version to its own immutable
+# release and refreshes the moving "themes" release:
+#   https://github.com/oberonlai/shippress-themes/releases/download/<slug>-v<Version>/<slug>.zip   never changes (ShipPress pins this + sha256)
+#   https://github.com/oberonlai/shippress-themes/releases/download/themes/<slug>.zip              always the newest (for people)
+#   https://github.com/oberonlai/shippress-themes/releases/download/themes/releases.json           slug, version, url, sha256 per theme
+# A theme whose files changed needs a new Version in its style.css: pull requests fail early, and a push never
+# replaces a published version (scripts/release-themes.mjs). Stock actions + the preinstalled gh CLI only.
 name: themes
 
 on:
@@ -13,18 +16,26 @@ on:
 permissions:
   contents: write
 
+# One publishing run at a time (two pushes must not race to create the same tag); pull requests check on their own.
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('themes-pr-{0}', github.ref) || 'themes-release' }}
+  cancel-in-progress: false
+
 jobs:
   check-and-release:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      PUBLISH: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - name: Check themes
-        run: node --test scripts/check-themes.test.mjs && node scripts/check-themes.mjs
+        run: node --test scripts/check-themes.test.mjs scripts/release-themes.test.mjs && node scripts/check-themes.mjs
       - name: Build one zip per theme
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
           mkdir -p dist
           cd themes
@@ -35,10 +46,12 @@ jobs:
             find "$slug" -print | LC_ALL=C sort | TZ=UTC zip -qX "../dist/$slug.zip" -@
             sha256sum "../dist/$slug.zip"
           done
-      - name: Upload to the "themes" release
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
-        env:
-          GH_TOKEN: ${{ github.token }}
+      # Pull requests: read-only check that no released version would change. main: publish new versions first, so
+      # releases.json never names a download that doesn't exist yet.
+      - name: Versioned releases (<slug>-v<Version>, never overwritten)
+        run: node scripts/release-themes.mjs --dist dist ${{ env.PUBLISH == 'true' && '--publish' || '' }}
+      - name: Refresh the moving "themes" release and releases.json
+        if: env.PUBLISH == 'true'
         run: |
-          gh release view themes >/dev/null 2>&1 || gh release create themes --title "Themes" --notes "One zip per theme, rebuilt on every push to main. Install: WordPress admin → Appearance → Themes → Add New Theme → Upload Theme."
-          gh release upload themes dist/*.zip --clobber
+          gh release view themes >/dev/null 2>&1 || gh release create themes --title "Themes" --latest --notes "The newest zip of every theme, rebuilt on every push to main. Install: WordPress admin → Appearance → Themes → Add New Theme → Upload Theme. Each version also has its own release (<slug>-v<version>) whose download never changes; releases.json lists them with their sha256."
+          gh release upload themes dist/*.zip dist/releases.json --clobber
