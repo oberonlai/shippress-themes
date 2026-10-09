@@ -14,11 +14,11 @@
 
 <!-- wp:group {"className":"is-style-tategaki ma-keep-tategaki","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-tategaki ma-keep-tategaki"><!-- wp:paragraph {"className":"ma-haiku__verse"} -->
-<p class="ma-haiku__verse">The old pond —<br>a frog leaps in,<br>the sound of water.</p>
+<p class="ma-haiku__verse">Morning frost —<br>the potter's thumbprint<br>still on the cup.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ma-haiku__cite"} -->
-<p class="ma-haiku__cite">Matsuo Bashō</p>
+<p class="ma-haiku__cite">Tae Hoshino</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

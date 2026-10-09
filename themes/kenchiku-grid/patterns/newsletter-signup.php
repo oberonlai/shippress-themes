@@ -84,7 +84,7 @@
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Book — “In Praise of Shadows”, again</li>
+<li>Book — “A Room Without Corners”, again</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>

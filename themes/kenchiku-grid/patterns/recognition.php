@@ -29,7 +29,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:table {"className":"is-style-project-index kg-awards","style":{"layout":{"columnSpan":6,"columnStart":7}}} -->
-<figure class="wp-block-table is-style-project-index kg-awards"><table><thead><tr><th>Year</th><th>Distinction</th><th>Project</th></tr></thead><tbody><tr><td>2026</td><td>JIA Newcomer Award</td><td>Hanare House</td></tr><tr><td>2026</td><td>Casa Brutus No. 296 — cover</td><td>Hanare House</td></tr><tr><td>2025</td><td>Good Design Award, Best 100</td><td>Kiyosumi Workshop</td></tr><tr><td>2024</td><td>Kyoto Landscape Prize</td><td>Uji Tea Archive</td></tr><tr><td>2023</td><td>Venice Biennale, Japan Pavilion — model</td><td>Naoshima Tea Pavilion</td></tr><tr><td>2021</td><td>AR House Award, shortlist</td><td>Tateshina Cabin</td></tr></tbody></table></figure>
+<figure class="wp-block-table is-style-project-index kg-awards"><table><thead><tr><th>Year</th><th>Distinction</th><th>Project</th></tr></thead><tbody><tr><td>2026</td><td>Hokusetsu Newcomer Award</td><td>Hanare House</td></tr><tr><td>2026</td><td>Engawa Review No. 296 — cover</td><td>Hanare House</td></tr><tr><td>2025</td><td>Northlight Design Award, Best 100</td><td>Kiyosumi Workshop</td></tr><tr><td>2024</td><td>Kamogawa Landscape Prize</td><td>Uji Tea Archive</td></tr><tr><td>2023</td><td>Harbourlight Architecture Biennial — model</td><td>Naoshima Tea Pavilion</td></tr><tr><td>2021</td><td>Open Hearth House Award, shortlist</td><td>Tateshina Cabin</td></tr></tbody></table></figure>
 <!-- /wp:table --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

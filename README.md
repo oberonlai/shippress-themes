@@ -47,8 +47,9 @@ themes/<slug>/
 2. Put a GPL-2.0-or-later header in `style.css` (`License`, `License URI`, `Text Domain: <slug>`).
 3. **Fonts:** bundle only fonts under the SIL OFL, Apache 2.0 or another GPL-compatible license. Put the files in `assets/fonts/` with their license text and register them as `fontFace` in `theme.json`. Never load fonts from Google Fonts or another CDN.
 4. **Images:** use only your own work, generated artwork, or CC0 / public-domain images, and note the source of each in `readme.txt`.
-5. Never include secrets, API keys, real email addresses (use `@example.com` or `*.example`), personal data or local file paths. Sample copy is English.
+5. Never include secrets, API keys, real email addresses (use `@example.com` or `*.example`), personal data or local file paths. Sample copy is English and names only fictional people, companies, publications and awards (real city names are fine); `check-themes.mjs` refuses a list of known real ones.
 6. Add `theme-meta.json` (copy an existing one) and `demo-content.json` with a `screens` URL for each page in `pages`.
+   Copy `shared/inc/demo-import.php` to `inc/demo-import.php` unchanged (the check compares the bytes) and `require_once` it from `functions.php`. It imports the demo content on activation, from the wp-admin "Import demo content" button and with `wp shippress demo-import [--reading]`. Every run is safe to repeat: items are found again by their `_shippress_demo` tag, an empty page with the same slug or title (such as a blank "Home" made by a host) is filled in instead of doubled, any other existing page is used as it is and never changed, and one run at a time holds a lock. ShipPress tests this on fresh local sites for every theme (`mcp-server/theme-idempotency.test.mjs` in the app repo).
 7. Run `node scripts/check-themes.mjs --write` to validate the theme and regenerate `index.json`, then `node --test scripts/check-themes.test.mjs`. Open a pull request: CI runs the same checks.
 
 ShipPress then renders the theme on a throwaway local WordPress and keeps its full-page desktop and mobile screenshots, plus a copy of the metadata, in the app repo.

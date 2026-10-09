@@ -1,6 +1,6 @@
 # Ma Vertical
 
-A calm WordPress **block theme** for **craft studios and ateliers**: makers of handmade objects in ceramics, lacquer, paper, textile or wood, and studios that pair the work with editorial storytelling (journals, small books, seasonal letters). It is built around *ma*, the Japanese idea of meaningful negative space, and *tategaki*, vertical type. The aim is Awwwards / FWA-level restraint, not decoration.
+A calm WordPress **block theme** for **craft studios and ateliers**: makers of handmade objects in ceramics, lacquer, paper, textile or wood, and studios that pair the work with editorial storytelling (journals, small books, seasonal letters). It is built around *ma*, the Japanese idea of meaningful negative space, and *tategaki*, vertical type. The aim is gallery-level restraint, not decoration.
 
 All sample copy is in English. The sample studio, **Margin Atelier** in Kyoto, has three seasonal works, a studio philosophy, notes from the workshop, a monthly letter and a contact page. Replace it with your own studio's story.
 

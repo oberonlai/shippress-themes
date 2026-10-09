@@ -26,6 +26,17 @@ const SECRETS = [
   [/\b(api[_-]?key|secret|password|token)\s*[:=]\s*["'][^"']{6,}["']/i, "hard-coded credential"],
   [/fonts\.(googleapis|gstatic)\.com|use\.typekit\.net|fonts\.bunny\.net/, "remote font host (bundle fonts instead)"],
 ];
+// Demo copy names only fictional people, companies, publications and awards. Real ones that have slipped in before
+// (or are the obvious next temptation for a Japanese-inspired theme) are refused; real city names are fine.
+export const REAL_NAMES = [
+  "Casa Brutus", "JIA", "Japan Institute of Architects", "Good Design Award", "Venice Biennale", "AR House Award",
+  "Pritzker", "Architectural Association", "Tokyo University of the Arts", "Kyoto Institute of Technology",
+  "Shinkenchiku", "GA Houses", "Dezeen", "ArchDaily", "Wallpaper*", "Monocle", "Kinfolk", "Brutus", "Popeye", "Pen magazine",
+  "Awwwards", "FWA", "Red Dot", "iF Design Award", "Bashō", "Basho", "In Praise of Shadows", "Tanizaki",
+  "Tadao Ando", "Kengo Kuma", "Kazuyo Sejima", "SANAA", "Toyo Ito", "Shigeru Ban", "Sou Fujimoto", "Kenya Hara",
+  "Naoto Fukasawa", "Muji", "Blue Bottle", "Starbucks", "Kissa Tanpopo", "Shonan Kogyo", "Oka Structural Design",
+];
+const REAL_NAME = new RegExp(`(?<![A-Za-z])(${REAL_NAMES.map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})(?![A-Za-z])`, "g");
 const EMAIL = /[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\.)+[A-Za-z]{2,}/g;
 const SAFE_EMAIL = /@([A-Za-z0-9-]+\.)*(example(\.com|\.org|\.net)?|[A-Za-z0-9-]+\.example)$/i;
 
@@ -41,11 +52,12 @@ export function styleHeader(css) {
 export const SHARED_IMPORTER = fileURLToPath(new URL("../shared/inc/demo-import.php", import.meta.url));
 
 /** Problems with a theme's demo content + shared importer (the "ready-to-use website" rule). */
-export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SHARED_IMPORTER, "utf8")) {
+export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SHARED_IMPORTER)) {
   const errs = [];
   if (!has("inc/demo-import.php")) errs.push("inc/demo-import.php is missing (copy shared/inc/demo-import.php)");
-  else if (read("inc/demo-import.php") !== importer) errs.push("inc/demo-import.php differs from shared/inc/demo-import.php (copy it again, change the shared one only)");
-  else if (!/add_action\(\s*'after_switch_theme'/.test(importer)) errs.push("the importer has no after_switch_theme hook");
+  // Byte for byte (not as decoded text), so a BOM, line endings or a stray encoding change count as a difference too.
+  else if (!readFileSync(join(dir, "inc/demo-import.php")).equals(Buffer.from(importer))) errs.push("inc/demo-import.php differs from shared/inc/demo-import.php (copy it again, change the shared one only)");
+  else if (!/add_action\(\s*'after_switch_theme'/.test(String(importer))) errs.push("the importer has no after_switch_theme hook");
   if (has("functions.php") && !/require_once\s+get_template_directory\(\)\s*\.\s*'\/inc\/demo-import\.php'/.test(read("functions.php"))) errs.push("functions.php must require_once get_template_directory() . '/inc/demo-import.php'");
   if (!demo) return errs;
   if (!demo.site?.title) errs.push("demo-content.json needs site.title");
@@ -151,6 +163,7 @@ export function checkTheme(dir, slug) {
       for (const [re, what] of SECRETS) if (re.test(line)) errs.push(`${rel}:${i + 1}: ${what}`);
       for (const e of line.match(EMAIL) ?? []) if (!SAFE_EMAIL.test(e)) errs.push(`${rel}:${i + 1}: real-looking email ${e} (use an example.com / .example address)`);
       if (CJK.test(line)) errs.push(`${rel}:${i + 1}: theme copy must be English`);
+      if (!rel.startsWith("inc/")) for (const [, real] of line.replace(/#[0-9A-Fa-f]{3,8}\b/g, "").matchAll(REAL_NAME)) errs.push(`${rel}:${i + 1}: names a real ${real} (demo copy uses fictional people, companies, publications and awards)`);
     });
   }
   return errs;

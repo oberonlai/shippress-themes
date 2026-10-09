@@ -104,7 +104,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Oka Structural Design</p>
+<p class="has-small-font-size">Kasugai Structural Atelier</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -114,7 +114,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Shonan Kogyo Co., formwork by Kenji Iwata</p>
+<p class="has-small-font-size">Kaigan Formworks Co., formwork by Kenji Iwata</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

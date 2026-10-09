@@ -18,8 +18,14 @@
  * - sets Reading (static front page + posts page) when the site has no real front page yet, pretty permalinks
  *   when they are still "Plain", and the site title/tagline only while they are WordPress defaults.
  * It never edits or deletes existing content. Every item it creates is tagged with the `_shippress_demo` post meta
- * ("<theme>:<kind>:<key>"); items that already exist (also in the trash) are skipped, so running it again only adds
- * what is missing. Existing terms with the same slug are reused as they are.
+ * ("<theme>:<kind>:<key>", saved together with the post); items that already exist (also in the trash) are skipped,
+ * so running it again only adds what is missing. Before creating a page or post it also looks for one with the same
+ * slug (or, for pages, the same title) in any status but the trash:
+ * - an empty, untagged one (e.g. the blank "Home" a host or `wp post create` made as a front page) is filled in
+ *   and tagged instead of getting a second "Home" next to it;
+ * - anything else (the user's own page, or another ShipPress theme's demo page) is used as it is, never changed.
+ * Existing terms with the same slug are reused as they are. One import runs at a time per site (a lock row in
+ * wp_options), so activation, the button, WP-CLI and a page load racing each other cannot create doubles.
  *
  * @package shippress
  * @license GPL-2.0-or-later
@@ -32,18 +38,29 @@ if ( ! defined( 'ABSPATH' ) ) {
 if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 
 	/**
+	 * Thrown when another import holds the lock for too long.
+	 */
+	class ShipPress_Demo_Import_Busy extends RuntimeException {
+	}
+
+	/**
 	 * Demo-content importer for ShipPress themes.
 	 */
 	final class ShipPress_Demo_Import {
 
-		const VERSION  = 1;
+		const VERSION  = 2;
 		const META     = '_shippress_demo';
+		const LOCK     = 'shippress_demo_import_lock';
+		const LOCK_TTL = 600; // A lock older than this (seconds) is from a crashed run and is taken over.
 		const ACTION   = 'shippress_demo_import';
 		const STATUSES = array( 'publish', 'draft', 'pending', 'private', 'future', 'inherit', 'trash' );
 
 		/** Site titles / taglines WordPress (or its installer) uses when nobody has set one. */
 		const DEFAULT_TITLES   = array( '', 'WordPress', 'My WordPress Website', 'My WordPress Site', 'My Blog' );
 		const DEFAULT_TAGLINES = array( '', 'Just another WordPress site' );
+
+		/** Items created by earlier runs in this request (the activation hook fires on the same load as a WP-CLI command). */
+		private static $created_before = 0;
 
 		/**
 		 * Hooks: automatic import on activation, admin fallback button, WP-CLI command.
@@ -90,7 +107,9 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 				return;
 			}
 			try {
-				self::run();
+				self::run( false, 0 ); // Another run already holds the lock: it does the work, so this one just stops.
+			} catch ( ShipPress_Demo_Import_Busy $e ) {
+				return;
 			} catch ( Throwable $e ) {
 				update_option( self::option_name(), array( 'version' => self::VERSION, 'error' => $e->getMessage() ), false );
 			}
@@ -100,12 +119,61 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 		 * Runs the import and records the result.
 		 *
 		 * @param bool $force_reading Also point Reading at the demo Home/News pages when the site already has a front page.
+		 * @param int  $wait          Seconds to wait for a run that is already going (then this one finds everything done).
 		 * @return array Counts of created and skipped items.
+		 * @throws ShipPress_Demo_Import_Busy When another import still holds the lock after $wait seconds.
 		 */
-		public static function run( $force_reading = false ) {
-			$counts = self::import( self::load(), $force_reading );
-			update_option( self::option_name(), array( 'version' => self::VERSION, 'imported' => time(), 'counts' => $counts ), false );
+		public static function run( $force_reading = false, $wait = 120 ) {
+			$demo = self::load();
+			if ( ! self::lock( $wait ) ) {
+				throw new ShipPress_Demo_Import_Busy( 'Another demo import is still running on this site. Try again in a minute.' );
+			}
+			try {
+				$counts = self::import( $demo, $force_reading );
+				self::$created_before += $counts['created'];
+				update_option( self::option_name(), array( 'version' => self::VERSION, 'imported' => time(), 'counts' => $counts ), false );
+			} finally {
+				self::unlock();
+			}
 			return $counts;
+		}
+
+		/**
+		 * Takes the site-wide import lock: a plain INSERT of a unique wp_options row, which only one request can win
+		 * (add_option() would not do: it upserts). A lock left by a crashed run expires after LOCK_TTL seconds.
+		 *
+		 * @param int $wait Seconds to keep trying.
+		 * @return bool Whether this request now holds the lock.
+		 */
+		public static function lock( $wait ) {
+			global $wpdb;
+			$deadline = time() + max( 0, (int) $wait );
+			while ( true ) {
+				$quiet = $wpdb->suppress_errors( true );
+				$won   = $wpdb->query( $wpdb->prepare( "INSERT INTO {$wpdb->options} (option_name, option_value, autoload) VALUES (%s, %s, 'off')", self::LOCK, (string) time() ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+				$wpdb->suppress_errors( $quiet );
+				wp_cache_delete( self::LOCK, 'options' );
+				wp_cache_delete( 'notoptions', 'options' );
+				if ( $won ) {
+					return true;
+				}
+				$since = $wpdb->get_var( $wpdb->prepare( "SELECT option_value FROM {$wpdb->options} WHERE option_name = %s", self::LOCK ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+				if ( null !== $since && time() - (int) $since > self::LOCK_TTL ) {
+					$wpdb->query( $wpdb->prepare( "DELETE FROM {$wpdb->options} WHERE option_name = %s AND option_value = %s", self::LOCK, $since ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+					continue;
+				}
+				if ( time() >= $deadline ) {
+					return false;
+				}
+				sleep( 1 );
+			}
+		}
+
+		/** Releases the import lock. */
+		public static function unlock() {
+			global $wpdb;
+			$wpdb->delete( $wpdb->options, array( 'option_name' => self::LOCK ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+			wp_cache_delete( self::LOCK, 'options' );
 		}
 
 		/** Parsed demo-content.json. */
@@ -134,9 +202,51 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 			return $ids ? (int) $ids[0] : 0;
 		}
 
-		/** Tags a created post. */
-		private static function tag( $id, $kind, $key ) {
-			update_post_meta( $id, self::META, self::slug() . ':' . $kind . ':' . $key );
+		/**
+		 * What to do with one demo page/post, as array( id, how ):
+		 * - 'own'   this theme imported it before (any status, trash included): leave it;
+		 * - 'adopt' an empty, untagged page/post with the same slug (pages: or title), e.g. a blank "Home" made by a
+		 *           host or `wp post create`: fill it in instead of adding a second one next to it;
+		 * - 'keep'  a page/post with real content (the user's, or another ShipPress theme's) with that slug or title:
+		 *           use it as it is, change nothing;
+		 * - 'new'   nothing there yet (id 0): create it.
+		 */
+		public static function claim( $kind, $slug, $post_type, $title = '' ) {
+			$id = self::find( $kind, $slug, $post_type );
+			if ( $id ) {
+				return array( $id, 'own' );
+			}
+			$live  = array_values( array_diff( self::STATUSES, array( 'trash', 'inherit' ) ) );
+			$query = array( 'post_type' => $post_type, 'post_status' => $live, 'numberposts' => 1, 'fields' => 'ids', 'orderby' => 'ID', 'order' => 'ASC', 'suppress_filters' => true );
+			$ids   = get_posts( $query + array( 'name' => $slug ) );
+			if ( ! $ids && '' !== $title && 'page' === $post_type ) {
+				$ids = get_posts( $query + array( 'title' => $title ) );
+			}
+			if ( ! $ids ) {
+				return array( 0, 'new' );
+			}
+			$id    = (int) $ids[0];
+			$empty = '' === trim( (string) get_post_field( 'post_content', $id ) ) && ! get_post_meta( $id, self::META, true );
+			return array( $id, $empty ? 'adopt' : 'keep' );
+		}
+
+		/**
+		 * Creates a demo page/post, or fills in the empty one claim() found. The tag is saved with the post itself
+		 * (meta_input), so a run that stops halfway never leaves an untagged demo item behind to be doubled later.
+		 */
+		private static function save( array $postarr, $kind, $key, array $meta = array() ) {
+			$postarr['meta_input'] = array( self::META => self::slug() . ':' . $kind . ':' . $key ) + $meta;
+			$id = empty( $postarr['ID'] ) ? wp_insert_post( $postarr, true ) : wp_update_post( $postarr, true );
+			if ( is_wp_error( $id ) ) {
+				throw new RuntimeException( $id->get_error_message() );
+			}
+			return (int) $id;
+		}
+
+		/** First administrator: owner of what an import without a logged-in user (WP-CLI, activation by code) creates. */
+		public static function default_author() {
+			$admins = get_users( array( 'role' => 'administrator', 'orderby' => 'ID', 'order' => 'ASC', 'number' => 1, 'fields' => 'ID' ) );
+			return $admins ? (int) $admins[0] : 0;
 		}
 
 		/**
@@ -156,8 +266,7 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 			// Owner of the new content: whoever runs the import, else the first administrator (WP-CLI, activation by code).
 			$author = get_current_user_id();
 			if ( ! $author ) {
-				$admins = get_users( array( 'role' => 'administrator', 'orderby' => 'ID', 'number' => 1, 'fields' => 'ID' ) );
-				$author = $admins ? (int) $admins[0] : 0;
+				$author = self::default_author();
 			}
 			$bump   = function ( $created ) use ( &$counts ) {
 				++$counts[ $created ? 'created' : 'skipped' ];
@@ -190,14 +299,12 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 					if ( ! $id ) {
 						$tmp = wp_tempnam( basename( $file ) );
 						copy( $file, $tmp );
-						$id = media_handle_sideload( array( 'name' => basename( $file ), 'tmp_name' => $tmp ), 0, ucwords( str_replace( '-', ' ', $name ) ) );
+						// Tag and owner are saved with the attachment itself (see save()).
+						$attachment = array( 'meta_input' => array( self::META => self::slug() . ':media:' . $name ) ) + ( $author ? array( 'post_author' => $author ) : array() );
+						$id         = media_handle_sideload( array( 'name' => basename( $file ), 'tmp_name' => $tmp ), 0, ucwords( str_replace( '-', ' ', $name ) ), $attachment );
 						if ( is_wp_error( $id ) ) {
 							wp_delete_file( $tmp );
 							throw new RuntimeException( 'Could not import ' . basename( $file ) . ': ' . $id->get_error_message() );
-						}
-						self::tag( $id, 'media', $name );
-						if ( $author ) {
-							wp_update_post( array( 'ID' => $id, 'post_author' => $author ) );
 						}
 					}
 					$media[ $name ] = (int) $id;
@@ -225,28 +332,25 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 				$pages = array();
 				$fresh = array();
 				foreach ( $demo['pages'] as $p ) {
-					$id = self::find( 'page', $p['slug'], 'page' );
-					$bump( ! $id );
-					if ( ! $id ) {
-						$id = wp_insert_post(
-							array(
-								'post_type'   => 'page',
-								'post_status' => 'publish',
-								'post_author' => $author,
-								'post_title'  => $p['title'],
-								'post_name'   => $p['slug'],
-								'post_parent' => ( isset( $p['parent'] ) && isset( $pages[ $p['parent'] ] ) ) ? $pages[ $p['parent'] ] : 0,
-								'menu_order'  => count( $pages ),
-							),
-							true
+					list( $id, $how ) = self::claim( 'page', $p['slug'], 'page', $p['title'] );
+					$bump( 'new' === $how || 'adopt' === $how );
+					if ( 'new' === $how || 'adopt' === $how ) {
+						$page = array(
+							'post_type'   => 'page',
+							'post_status' => 'publish',
+							'post_title'  => $p['title'],
+							'post_parent' => ( isset( $p['parent'] ) && isset( $pages[ $p['parent'] ] ) ) ? $pages[ $p['parent'] ] : 0,
+							'menu_order'  => count( $pages ),
 						);
-						if ( is_wp_error( $id ) ) {
-							throw new RuntimeException( $id->get_error_message() );
+						if ( 'new' === $how ) {
+							$page += array( 'post_author' => $author, 'post_name' => $p['slug'] );
+						} else {
+							$page['ID'] = $id;
+							if ( ! (int) get_post_field( 'post_author', $id ) ) {
+								$page['post_author'] = $author;
+							}
 						}
-						self::tag( $id, 'page', $p['slug'] );
-						if ( ! empty( $p['template'] ) ) {
-							update_post_meta( $id, '_wp_page_template', $p['template'] );
-						}
+						$id = self::save( $page, 'page', $p['slug'], empty( $p['template'] ) ? array() : array( '_wp_page_template' => $p['template'] ) );
 						$fresh[ $p['slug'] ] = true;
 					}
 					$pages[ $p['slug'] ] = (int) $id;
@@ -255,25 +359,26 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 				// 4. Posts.
 				$posts = array();
 				foreach ( isset( $demo['posts'] ) ? $demo['posts'] : array() as $p ) {
-					$id = self::find( 'post', $p['slug'], 'post' );
-					$bump( ! $id );
-					if ( ! $id ) {
-						$id = wp_insert_post(
-							array(
-								'post_type'    => 'post',
-								'post_status'  => 'publish',
-								'post_author'  => $author,
-								'post_title'   => $p['title'],
-								'post_name'    => $p['slug'],
-								'post_date'    => $p['date'] . ' 09:00:00',
-								'post_excerpt' => $p['excerpt'],
-							),
-							true
+					list( $id, $how ) = self::claim( 'post', $p['slug'], 'post' );
+					$bump( 'new' === $how || 'adopt' === $how );
+					if ( 'new' === $how || 'adopt' === $how ) {
+						$post = array(
+							'post_type'    => 'post',
+							'post_status'  => 'publish',
+							'post_title'   => $p['title'],
+							'post_name'    => $p['slug'],
+							'post_date'    => $p['date'] . ' 09:00:00',
+							'post_excerpt' => $p['excerpt'],
 						);
-						if ( is_wp_error( $id ) ) {
-							throw new RuntimeException( $id->get_error_message() );
+						if ( 'new' === $how ) {
+							$post['post_author'] = $author;
+						} else {
+							$post['ID'] = $id;
+							if ( ! (int) get_post_field( 'post_author', $id ) ) {
+								$post['post_author'] = $author;
+							}
 						}
-						self::tag( $id, 'post', $p['slug'] );
+						$id   = self::save( $post, 'post', $p['slug'] );
 						$cats = array();
 						foreach ( isset( $p['categories'] ) ? $p['categories'] : array() as $s ) {
 							if ( isset( $terms['category'][ $s ] ) ) {
@@ -314,7 +419,7 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 					$id = self::find( 'navigation', 'primary', 'wp_navigation' );
 					$bump( ! $id );
 					if ( ! $id ) {
-						$id = wp_insert_post(
+						self::save(
 							array(
 								'post_type'    => 'wp_navigation',
 								'post_status'  => 'publish',
@@ -322,12 +427,9 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 								'post_title'   => isset( $demo['navigation']['title'] ) ? $demo['navigation']['title'] : 'Main menu',
 								'post_content' => wp_slash( self::navigation_markup( $demo['navigation']['items'], $pages, $terms ) ),
 							),
-							true
+							'navigation',
+							'primary'
 						);
-						if ( is_wp_error( $id ) ) {
-							throw new RuntimeException( $id->get_error_message() );
-						}
-						self::tag( $id, 'navigation', 'primary' );
 					}
 				}
 
@@ -387,7 +489,7 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 				}
 			}
 			foreach ( isset( $demo['posts'] ) ? $demo['posts'] : array() as $p ) {
-				$id = self::find( 'post', $p['slug'], 'post' );
+				list( $id ) = self::claim( 'post', $p['slug'], 'post' );
 				if ( $id ) {
 					$map[ '/' . $p['slug'] . '/' ] = get_permalink( $id );
 				}
@@ -529,6 +631,8 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 			try {
 				self::run();
 				set_transient( self::ACTION . '_result', array( 'status' => 'ok' ), 300 );
+			} catch ( ShipPress_Demo_Import_Busy $e ) {
+				set_transient( self::ACTION . '_result', array( 'status' => 'error', 'message' => $e->getMessage() ), 300 );
 			} catch ( Throwable $e ) {
 				update_option( self::option_name(), array( 'version' => self::VERSION, 'error' => $e->getMessage() ), false );
 				set_transient( self::ACTION . '_result', array( 'status' => 'error', 'message' => $e->getMessage() ), 300 );
@@ -555,7 +659,11 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 		 */
 		public static function cli( $args, $assoc_args ) {
 			try {
+				$before = self::$created_before;
 				$counts = self::run( ! empty( $assoc_args['reading'] ) );
+				// What activation created moments ago on this same load counts as created by this command too.
+				$counts['created'] += $before;
+				$counts['skipped']  = max( 0, $counts['skipped'] - $before );
 			} catch ( Throwable $e ) {
 				WP_CLI::error( $e->getMessage() );
 				return;

@@ -5,7 +5,7 @@ import { cpSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync }
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildIndex, checkTheme, styleHeader } from "./check-themes.mjs";
+import { buildIndex, checkTheme, REAL_NAMES, styleHeader } from "./check-themes.mjs";
 
 const THEMES = fileURLToPath(new URL("../themes/", import.meta.url));
 const slugs = readdirSync(THEMES).sort();
@@ -65,7 +65,41 @@ test("enforces the ready-to-use website rule (shared importer + demo content)", 
   } finally { rmSync(dir, { recursive: true, force: true }); }
 });
 
-test("every theme's importer is the shared one", () => {
-  const shared = readFileSync(new URL("../shared/inc/demo-import.php", import.meta.url), "utf8");
-  for (const s of slugs) assert.equal(readFileSync(join(THEMES, s, "inc/demo-import.php"), "utf8"), shared, s);
+test("every theme's importer is the shared one, byte for byte", () => {
+  const shared = readFileSync(new URL("../shared/inc/demo-import.php", import.meta.url));
+  for (const s of slugs) assert.ok(readFileSync(join(THEMES, s, "inc/demo-import.php")).equals(shared), s);
+});
+
+test("an importer copy that only differs in bytes (BOM, CRLF) is refused", () => {
+  const dir = mkdtempSync(join(tmpdir(), "theme-bytes-check-"));
+  try {
+    const t = join(dir, slugs[0]);
+    cpSync(join(THEMES, slugs[0]), t, { recursive: true });
+    const php = readFileSync(join(t, "inc/demo-import.php"), "utf8");
+    for (const variant of ["\uFEFF" + php, php.replace(/\n/g, "\r\n")]) {
+      writeFileSync(join(t, "inc/demo-import.php"), variant);
+      assert.match(checkTheme(t, slugs[0]).join("\n"), /differs from shared/);
+    }
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+test("demo copy may not name real magazines, awards or people", () => {
+  assert.ok(REAL_NAMES.includes("Casa Brutus") && REAL_NAMES.includes("JIA"));
+  const dir = mkdtempSync(join(tmpdir(), "theme-names-check-"));
+  try {
+    const slug = slugs[0];
+    const t = join(dir, slug);
+    cpSync(join(THEMES, slug), t, { recursive: true });
+    const demo = JSON.parse(readFileSync(join(t, "demo-content.json"), "utf8"));
+    demo.posts[0].title = "Featured in Casa Brutus";
+    demo.posts[0].excerpt = "Winner of the JIA Newcomer Award.";
+    writeFileSync(join(t, "demo-content.json"), JSON.stringify(demo, null, 2));
+    writeFileSync(join(t, "README.md"), readFileSync(join(t, "README.md"), "utf8") + "\nAwwwards-level polish, after Tadao Ando.\n");
+    const errs = checkTheme(t, slug).join("\n");
+    for (const name of ["Casa Brutus", "JIA", "Awwwards", "Tadao Ando"]) assert.ok(errs.includes(`names a real ${name}`), `${name} in:\n${errs}`);
+    // Real cities, fictional names and hex colours are fine.
+    cpSync(join(THEMES, slug, "demo-content.json"), join(t, "demo-content.json"));
+    writeFileSync(join(t, "README.md"), "Kyoto, Tokyo, Hokusetsu Newcomer Award, Engawa Review, #FAFAFA, Jiangsu\n");
+    assert.ok(!checkTheme(t, slug).join("\n").includes("names a real"));
+  } finally { rmSync(dir, { recursive: true, force: true }); }
 });

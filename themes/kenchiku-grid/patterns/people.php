@@ -38,7 +38,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Born 1978 in Sendai. Studied at Tokyo University of the Arts and worked for six years in Basel before returning to Tokyo. Teaches a design studio at the Kyoto Institute of Technology. Draws sections first, always.</p>
+<p class="has-small-font-size">Born 1978 in Sendai. Studied at Sumida Academy of Fine Arts and worked for six years in Basel before returning to Tokyo. Teaches a design studio at the Higashiyama Institute of Design. Draws sections first, always.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -52,7 +52,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Born 1980 in Kyoto. Trained as a structural engineer before turning to architecture at the Architectural Association, London. Leads the Kyoto studio and every concrete pour we have ever made.</p>
+<p class="has-small-font-size">Born 1980 in Kyoto. Trained as a structural engineer before turning to architecture at the Thameside School of Architecture, London. Leads the Kyoto studio and every concrete pour we have ever made.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
