@@ -1,0 +1,1023 @@
+/*
+Theme Name: Kenchiku Grid
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/kenchiku-grid
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Kenchiku Grid — a monochrome, editorial block theme for architecture studios. A visible 12-column grid with hairline gutters, numbered modules, large cropped concrete-and-light imagery, a confident grotesk with small mono project indices, and a single pale blueprint-blue accent used only for hairlines and markers. Templates for projects, a project index, journal, studio, newsletter and contact.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kenchiku-grid
+Tags: block-patterns, full-site-editing, grid-layout, portfolio, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, one-column, two-columns, three-columns
+*/
+
+/* ==========================================================================
+   0. Tokens + base
+   ========================================================================== */
+
+:root {
+	--kg-gutter: var(--wp--preset--spacing--20);
+	--kg-line: var(--wp--custom--gridline);
+	--kg-ink: var(--wp--preset--color--charcoal);
+	--kg-paper: var(--wp--preset--color--paper);
+	--kg-grey: var(--wp--preset--color--concrete);
+	--kg-hair: var(--wp--preset--color--concrete-light);
+	--kg-accent: var(--wp--preset--color--blueprint);
+	--kg-mono: var(--wp--preset--font-family--mono);
+	--kg-ease: cubic-bezier(.2, .7, .2, 1);
+	--kg-col: calc((100% + var(--kg-gutter)) / 12 - var(--kg-gutter));
+	/* 12 columns, a 1px line on both edges of every column (gutters read as narrow bands). */
+	--kg-grid-lines: linear-gradient(to right,
+		transparent 0,
+		var(--kg-line) 0,
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 0 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 0 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 1 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 1 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 1 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 1 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 1 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 1 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 1 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 1 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 2 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 2 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 2 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 2 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 2 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 2 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 2 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 2 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 3 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 3 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 3 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 3 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 3 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 3 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 3 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 3 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 4 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 4 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 4 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 4 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 4 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 4 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 4 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 4 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 5 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 5 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 5 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 5 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 5 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 5 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 5 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 5 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 6 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 6 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 6 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 6 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 6 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 6 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 6 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 6 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 7 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 7 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 7 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 7 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 7 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 7 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 7 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 7 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 8 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 8 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 8 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 8 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 8 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 8 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 8 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 8 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 9 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 9 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 9 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 9 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 9 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 9 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 9 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 9 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 10 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 10 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 10 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 10 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 10 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 10 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 10 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 10 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 11 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 11 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 11 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 11 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 11 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 11 / 12),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 11 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 11 / 12 + 1px),
+		transparent calc((100% + var(--kg-gutter)) * 12 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 12 / 12 - var(--kg-gutter) - 1px),
+		var(--kg-line) calc((100% + var(--kg-gutter)) * 12 / 12 - var(--kg-gutter)),
+		transparent calc((100% + var(--kg-gutter)) * 12 / 12 - var(--kg-gutter)));
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-feature-settings: "kern", "liga", "calt";
+	overflow-x: hidden;
+}
+
+::selection {
+	background: var(--kg-accent);
+	color: var(--kg-ink);
+}
+
+:where(h1, h2, h3, h4, h5, h6, p, figure, blockquote, ul, ol) {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+:where(h1, h2, h3, .kg-section-title, .kg-cta__title) {
+	text-wrap: balance;
+}
+
+:where(p) {
+	text-wrap: pretty;
+}
+
+img {
+	display: block;
+}
+
+:focus-visible {
+	outline: 1px solid var(--kg-accent);
+	outline-offset: 3px;
+}
+
+/* ==========================================================================
+   1. The visible grid
+   ========================================================================== */
+
+.wp-site-blocks {
+	position: relative;
+	isolation: isolate;
+}
+
+.wp-site-blocks::before,
+.is-style-grid-lines::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	z-index: -1;
+	width: min(var(--wp--style--global--wide-size), calc(100% - var(--wp--style--root--padding-left) - var(--wp--style--root--padding-right)));
+	transform: translateX(-50%);
+	background-image: var(--kg-grid-lines);
+	pointer-events: none;
+}
+
+.is-style-grid-lines {
+	position: relative;
+	isolation: isolate;
+	--kg-line: var(--wp--custom--gridline-dark);
+}
+
+/* Dark sections: text + hairlines flip. */
+.has-charcoal-background-color {
+	--kg-hair: rgba(242, 242, 240, 0.2);
+}
+
+.has-charcoal-background-color a:where(:not(.wp-element-button)) {
+	color: var(--kg-paper);
+}
+
+/* ==========================================================================
+   2. Type utilities + block styles
+   ========================================================================== */
+
+.is-style-mono-label,
+.kg-label {
+	font-family: var(--kg-mono);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 400;
+	letter-spacing: 0.06em;
+	line-height: 1.55;
+	text-transform: uppercase;
+	color: var(--kg-grey);
+}
+
+h1.is-style-mono-label,
+h2.is-style-mono-label,
+h3.is-style-mono-label,
+h4.is-style-mono-label {
+	letter-spacing: 0.06em;
+}
+
+.has-charcoal-background-color .is-style-mono-label {
+	color: rgba(242, 242, 240, 0.52);
+}
+
+.is-style-mono-label a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.is-style-mono-label a:hover {
+	color: var(--kg-ink);
+}
+
+.is-style-display-tight {
+	font-size: var(--wp--preset--font-size--display);
+	font-weight: 500;
+	line-height: 0.94;
+	letter-spacing: -0.046em;
+}
+
+.is-style-lead {
+	font-size: var(--wp--preset--font-size--large);
+	line-height: 1.36;
+	letter-spacing: -0.016em;
+}
+
+.is-style-index-number {
+	font-family: var(--kg-mono);
+	font-size: 0.75rem;
+	letter-spacing: 0.04em;
+	color: var(--kg-grey);
+}
+
+.has-charcoal-background-color .is-style-index-number {
+	color: rgba(242, 242, 240, 0.52);
+}
+
+/* Numbered module: hairline on top with a short accent tick. */
+.is-style-module {
+	position: relative;
+	border-top: 1px solid var(--kg-hair);
+	padding-top: 1rem;
+}
+
+.is-style-module::before {
+	content: "";
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 2.5rem;
+	height: 2px;
+	background: var(--kg-accent);
+}
+
+.is-style-module > * + * {
+	margin-top: 0.75rem;
+}
+
+/* Spec card */
+.is-style-spec-card {
+	border: 1px solid var(--kg-ink);
+	padding: var(--wp--preset--spacing--30);
+	background: var(--wp--preset--color--white);
+}
+
+/* Separators */
+.wp-block-separator.is-style-accent-tick {
+	width: 2.5rem;
+	height: 0;
+	margin-left: 0;
+	border: 0;
+	border-top: 2px solid var(--kg-accent);
+}
+
+.wp-block-separator.is-style-rule {
+	border: 0;
+	border-top: 1px solid var(--kg-ink);
+	width: 100%;
+}
+
+/* Registration marks on images */
+.is-style-grid-frame {
+	position: relative;
+}
+
+.is-style-grid-frame::before,
+.is-style-grid-frame::after {
+	content: "";
+	position: absolute;
+	top: -7px;
+	z-index: 1;
+	width: 15px;
+	height: 15px;
+	pointer-events: none;
+	background:
+		linear-gradient(var(--kg-accent), var(--kg-accent)) center / 1px 100% no-repeat,
+		linear-gradient(var(--kg-accent), var(--kg-accent)) center / 100% 1px no-repeat;
+}
+
+.is-style-grid-frame::before {
+	left: -7px;
+}
+
+.is-style-grid-frame::after {
+	right: -7px;
+}
+
+.wp-block-image img,
+.wp-block-post-featured-image img {
+	width: 100%;
+	background: var(--kg-hair);
+}
+
+.wp-block-image figcaption,
+.wp-element-caption {
+	margin-top: 0.75rem;
+	margin-bottom: 0;
+}
+
+.wp-block-image figcaption::before {
+	content: "";
+	display: inline-block;
+	width: 1rem;
+	height: 1px;
+	margin-right: 0.6em;
+	vertical-align: 0.3em;
+	background: var(--kg-accent);
+}
+
+.has-charcoal-background-color .wp-element-caption {
+	color: rgba(242, 242, 240, 0.52);
+}
+
+/* Buttons */
+.wp-block-button__link {
+	transition: background-color .25s var(--kg-ease), color .25s var(--kg-ease), border-color .25s var(--kg-ease);
+}
+
+.wp-block-button.is-style-arrow-link .wp-block-button__link {
+	padding: 0 0 0.4rem;
+	background: transparent;
+	color: var(--kg-ink);
+	border: 0;
+	border-bottom: 1px solid var(--kg-ink);
+}
+
+.wp-block-button.is-style-arrow-link .wp-block-button__link::after {
+	content: "→";
+	display: inline-block;
+	margin-left: 0.75em;
+	transition: transform .25s var(--kg-ease);
+}
+
+.wp-block-button.is-style-arrow-link .wp-block-button__link:hover {
+	border-bottom-color: var(--kg-accent);
+}
+
+.wp-block-button.is-style-arrow-link .wp-block-button__link:hover::after {
+	transform: translateX(4px);
+}
+
+.has-charcoal-background-color .wp-block-button.is-style-arrow-link .wp-block-button__link {
+	color: var(--kg-paper);
+	border-bottom-color: var(--kg-paper);
+}
+
+/* Index list */
+.is-style-index-list {
+	list-style: none;
+	padding-left: 0;
+	counter-reset: kg-li;
+	border-top: 1px solid var(--kg-ink);
+}
+
+.is-style-index-list li {
+	position: relative;
+	counter-increment: kg-li;
+	padding: 0.75rem 0 0.75rem 3.5rem;
+	border-bottom: 1px solid var(--kg-hair);
+}
+
+.is-style-index-list li::before {
+	content: counter(kg-li, decimal-leading-zero);
+	position: absolute;
+	left: 0;
+	top: 0.95rem;
+	font-family: var(--kg-mono);
+	font-size: 0.6875rem;
+	color: var(--kg-grey);
+}
+
+/* Pull quote */
+.wp-block-quote.is-style-pull {
+	position: relative;
+	padding: var(--wp--preset--spacing--30) 0 0;
+	border-top: 1px solid var(--kg-ink);
+}
+
+.wp-block-quote.is-style-pull::before {
+	content: "";
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 2.5rem;
+	height: 2px;
+	background: var(--kg-accent);
+}
+
+.wp-block-quote.is-style-pull p {
+	font-size: var(--wp--preset--font-size--x-large);
+	font-weight: 500;
+	line-height: 1.16;
+	letter-spacing: -0.028em;
+}
+
+.wp-block-quote cite {
+	display: block;
+	margin-top: 1rem;
+	font-family: var(--kg-mono);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-style: normal;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--kg-grey);
+}
+
+/* Tables: project index + spec sheet */
+.wp-block-table {
+	margin: 0;
+}
+
+.wp-block-table.is-style-project-index table,
+.wp-block-table.is-style-spec-sheet table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.wp-block-table.is-style-project-index :where(th, td),
+.wp-block-table.is-style-spec-sheet :where(th, td) {
+	border: 0;
+	border-bottom: 1px solid var(--kg-hair);
+	padding: 0.95rem 1rem 0.95rem 0;
+	text-align: left;
+	vertical-align: baseline;
+}
+
+.wp-block-table.is-style-project-index thead {
+	border: 0;
+}
+
+.wp-block-table.is-style-project-index thead th {
+	padding-top: 0;
+	padding-bottom: 0.6rem;
+	border-bottom: 1px solid var(--kg-ink);
+	font-family: var(--kg-mono);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 400;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--kg-grey);
+}
+
+.wp-block-table.is-style-project-index td {
+	font-size: 0.9375rem;
+	color: var(--wp--preset--color--graphite);
+}
+
+.wp-block-table.is-style-project-index td:first-child,
+.wp-block-table.is-style-project-index td:nth-child(5),
+.wp-block-table.is-style-project-index td:last-child {
+	font-family: var(--kg-mono);
+	font-size: 0.75rem;
+	letter-spacing: 0.02em;
+	color: var(--kg-grey);
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+
+.wp-block-table.is-style-project-index :where(th, td):last-child {
+	text-align: right;
+	padding-right: 0;
+}
+
+.wp-block-table.is-style-project-index td:nth-child(2) {
+	font-size: 1.125rem;
+	font-weight: 500;
+	letter-spacing: -0.015em;
+	color: var(--kg-ink);
+}
+
+.wp-block-table.is-style-project-index td a {
+	text-decoration: none;
+	background: linear-gradient(var(--kg-accent), var(--kg-accent)) 0 100% / 0 1px no-repeat;
+	transition: background-size .35s var(--kg-ease);
+}
+
+.wp-block-table.is-style-project-index tbody tr {
+	transition: background-color .2s ease;
+}
+
+.wp-block-table.is-style-project-index tbody tr:hover {
+	background: var(--wp--preset--color--white);
+}
+
+.wp-block-table.is-style-project-index tbody tr:hover td a {
+	background-size: 100% 1px;
+}
+
+.wp-block-table.is-style-spec-sheet {
+	border-top: 1px solid var(--kg-ink);
+}
+
+.wp-block-table.is-style-spec-sheet td {
+	font-size: 0.875rem;
+	padding: 0.7rem 0;
+}
+
+.wp-block-table.is-style-spec-sheet td:first-child {
+	width: 40%;
+	font-family: var(--kg-mono);
+	font-size: var(--wp--preset--font-size--x-small);
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--kg-grey);
+}
+
+/* ==========================================================================
+   3. Header + navigation
+   ========================================================================== */
+
+.kg-header {
+	position: relative;
+	border-bottom: 1px solid var(--kg-ink);
+	background: var(--kg-paper);
+}
+
+.kg-header__grid {
+	align-items: center;
+}
+
+.kg-brand {
+	align-items: center;
+}
+
+.kg-brand__mark {
+	position: relative;
+	display: grid;
+	place-items: center;
+	flex: none;
+	width: 1.9rem;
+	height: 1.9rem;
+	border: 1px solid var(--kg-ink);
+	font-family: var(--kg-mono);
+	font-size: 0.625rem;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+	line-height: 1;
+}
+
+.kg-brand__mark::after {
+	content: "";
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 5px;
+	height: 5px;
+	background: var(--kg-accent);
+}
+
+.kg-brand .wp-block-site-title {
+	margin: 0;
+	white-space: nowrap;
+}
+
+.kg-header__meta {
+	margin: 0;
+}
+
+.kg-nav,
+.kg-nav .wp-block-navigation__responsive-container-content,
+.kg-nav .wp-block-navigation__container {
+	justify-content: flex-end;
+}
+
+.kg-nav .wp-block-navigation__responsive-container {
+	width: auto;
+}
+
+.kg-nav .wp-block-navigation__container {
+	counter-reset: kg-nav;
+}
+
+.kg-nav .wp-block-navigation-item {
+	counter-increment: kg-nav;
+}
+
+.kg-nav .wp-block-navigation-item__content {
+	position: relative;
+	padding: 0.2rem 0;
+}
+
+.kg-nav .wp-block-navigation-item__content::before {
+	content: counter(kg-nav, decimal-leading-zero);
+	margin-right: 0.45rem;
+	font-family: var(--kg-mono);
+	font-size: 0.625rem;
+	font-weight: 400;
+	letter-spacing: 0.04em;
+	vertical-align: 0.35em;
+	color: var(--kg-grey);
+}
+
+.kg-nav .wp-block-navigation-item__label {
+	background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat;
+	padding-bottom: 2px;
+	transition: background-size .3s var(--kg-ease);
+}
+
+.kg-nav .wp-block-navigation-item__content:hover .wp-block-navigation-item__label {
+	background-size: 100% 1px;
+}
+
+.kg-nav .current-menu-item .wp-block-navigation-item__label {
+	background-image: linear-gradient(var(--kg-accent), var(--kg-accent));
+	background-size: 100% 2px;
+}
+
+/* ==========================================================================
+   4. Sections, heads, titles
+   ========================================================================== */
+
+.kg-section-head {
+	position: relative;
+	border-top: 1px solid var(--kg-ink);
+	padding-top: 0.7rem;
+	align-items: baseline;
+}
+
+.kg-section-head::before {
+	content: "";
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: var(--kg-col);
+	height: 2px;
+	background: var(--kg-accent);
+}
+
+.has-charcoal-background-color .kg-section-head {
+	border-top-color: rgba(242, 242, 240, 0.55);
+}
+
+.kg-section-head__no {
+	color: var(--kg-ink);
+	font-weight: 500;
+}
+
+.has-charcoal-background-color .kg-section-head__no {
+	color: var(--kg-paper);
+}
+
+.kg-section-title {
+	font-size: var(--wp--preset--font-size--xx-large);
+	font-weight: 500;
+	line-height: 1.0;
+	letter-spacing: -0.042em;
+}
+
+/* ==========================================================================
+   5. Home — hero
+   ========================================================================== */
+
+.kg-hero__kicker {
+	padding-top: 0.9rem;
+	color: var(--kg-ink);
+}
+
+.kg-hero__title {
+	max-width: 12.5em;
+}
+
+.kg-hero__aside {
+	justify-content: space-between !important;
+	align-items: stretch !important;
+}
+
+.kg-hero__aside > .wp-block-buttons {
+	margin-top: auto;
+}
+
+.kg-figures {
+	border-top: 1px solid var(--kg-ink);
+}
+
+.kg-figures > .kg-figure {
+	margin: 0;
+}
+
+.kg-figure {
+	display: grid;
+	grid-template-columns: 5.5rem 1fr;
+	align-items: baseline;
+	padding: 0.65rem 0 0.7rem;
+	border-bottom: 1px solid var(--kg-hair);
+}
+
+.kg-figure strong {
+	font-size: 2.125rem;
+	font-weight: 500;
+	letter-spacing: -0.04em;
+	line-height: 1;
+	font-variant-numeric: tabular-nums;
+}
+
+.kg-figure span {
+	font-family: var(--kg-mono);
+	font-size: var(--wp--preset--font-size--x-small);
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--kg-grey);
+}
+
+/* ==========================================================================
+   6. Project cards
+   ========================================================================== */
+
+.kg-mosaic {
+	align-items: start;
+}
+
+.kg-card > * {
+	margin-block-start: 0 !important;
+}
+
+.kg-card__meta {
+	margin-top: 1rem !important;
+	padding-top: 0.6rem;
+	border-top: 1px solid var(--kg-ink);
+}
+
+.kg-card__meta p {
+	margin: 0;
+}
+
+.kg-card__title {
+	margin-top: 0.7rem !important;
+	font-size: clamp(1.375rem, 1rem + 1vw, 2rem);
+	font-weight: 500;
+	letter-spacing: -0.03em;
+	line-height: 1.08;
+}
+
+.kg-card__title a,
+.kg-row__title a,
+.wp-block-post-title a {
+	text-decoration: none;
+	background: linear-gradient(var(--kg-accent), var(--kg-accent)) 0 100% / 0 1px no-repeat;
+	transition: background-size .35s var(--kg-ease);
+}
+
+.kg-card__title a:hover,
+.kg-row__title a:hover,
+.wp-block-post-title a:hover {
+	background-size: 100% 1px;
+}
+
+.kg-card__sub {
+	margin-top: 0.45rem !important;
+	max-width: 32em;
+	font-size: var(--wp--preset--font-size--small);
+	line-height: 1.5;
+	color: var(--wp--preset--color--graphite);
+}
+
+.kg-mosaic > .kg-card--drop {
+	margin-top: var(--wp--preset--spacing--70);
+}
+
+.kg-card .wp-block-image img {
+	transition: filter .5s var(--kg-ease);
+}
+
+.kg-card:hover .wp-block-image img {
+	filter: contrast(1.08) brightness(1.03);
+}
+
+/* ==========================================================================
+   7. Method (dark)
+   ========================================================================== */
+
+.kg-method .is-style-module h3 {
+	margin-top: 2.25rem;
+	font-size: var(--wp--preset--font-size--x-large);
+}
+
+.kg-method .is-style-module p:not(.is-style-index-number) {
+	color: rgba(242, 242, 240, 0.72);
+	max-width: 30em;
+}
+
+.kg-method__image {
+	align-self: start;
+}
+
+/* ==========================================================================
+   8. Post grids + rows
+   ========================================================================== */
+
+.kg-post-grid {
+	row-gap: var(--wp--preset--spacing--50) !important;
+}
+
+.kg-post-grid > li > * + * {
+	margin-top: 0;
+}
+
+.kg-post-meta {
+	margin-top: 1rem !important;
+	padding-top: 0.6rem;
+	border-top: 1px solid var(--kg-ink);
+}
+
+.kg-post-meta > * {
+	margin: 0;
+}
+
+.kg-post-grid .wp-block-post-title {
+	margin-top: 0.7rem;
+	font-weight: 500;
+	letter-spacing: -0.022em;
+	line-height: 1.16;
+}
+
+.kg-post-grid .wp-block-post-excerpt {
+	margin-top: 0.6rem;
+	max-width: 34em;
+}
+
+.wp-block-post-terms a {
+	color: var(--kg-grey);
+}
+
+.wp-block-post-terms a:hover {
+	color: var(--kg-ink);
+}
+
+/* ==========================================================================
+   9. Commission CTA
+   ========================================================================== */
+
+.kg-cta__title {
+	font-size: var(--wp--preset--font-size--xx-large);
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: -0.042em;
+	max-width: 14em;
+}
+
+.kg-cta__email {
+	font-size: clamp(1.75rem, 0.5rem + 4.4vw, 5.25rem);
+	font-weight: 500;
+	letter-spacing: -0.045em;
+	line-height: 1.05;
+}
+
+.kg-cta__email a {
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.14em;
+	text-decoration-color: var(--kg-accent);
+}
+
+.kg-cta__email a:hover {
+	text-decoration-color: var(--kg-ink);
+}
+
+/* ==========================================================================
+   10. Footer
+   ========================================================================== */
+
+.kg-footer a {
+	color: var(--kg-paper);
+	text-decoration-color: rgba(242, 242, 240, 0.35);
+}
+
+.kg-footer a:hover {
+	text-decoration-color: var(--kg-accent);
+}
+
+.kg-footer__col > * + * {
+	margin-top: 0.9rem;
+}
+
+.kg-footer__col .has-small-font-size {
+	line-height: 1.65;
+	color: rgba(242, 242, 240, 0.86);
+}
+
+.kg-footer__nav {
+	font-size: var(--wp--preset--font-size--small);
+	font-weight: 400;
+}
+
+.kg-footer__nav .wp-block-navigation-item__content:hover {
+	color: var(--kg-accent);
+}
+
+.kg-footer__mark {
+	margin-top: var(--wp--preset--spacing--70) !important;
+	padding-top: 1rem;
+	border-top: 1px solid rgba(242, 242, 240, 0.25);
+	overflow: hidden;
+}
+
+.kg-footer__wordmark {
+	font-size: var(--wp--preset--font-size--giant);
+	font-weight: 500;
+	letter-spacing: -0.062em;
+	line-height: 0.8;
+	white-space: nowrap;
+	padding-bottom: 0.08em;
+}
+
+.kg-footer__base {
+	margin-top: var(--wp--preset--spacing--40) !important;
+	padding-top: 1rem;
+	border-top: 1px solid rgba(242, 242, 240, 0.25);
+}
+
+.kg-footer__base p {
+	margin: 0;
+}
+
+/* ==========================================================================
+   99. Responsive
+   ========================================================================== */
+
+@media (max-width: 1080px) {
+	.kg-header__meta {
+		display: none;
+	}
+
+	.kg-header__grid > .kg-brand {
+		grid-column: span 5 !important;
+	}
+
+	.kg-header__grid > .kg-nav {
+		grid-column: span 7 !important;
+	}
+}
+
+@media (max-width: 781px) {
+	.kg-grid,
+	.kg-post-grid {
+		grid-template-columns: minmax(0, 1fr) !important;
+	}
+
+	.kg-grid > * {
+		grid-column: 1 / -1 !important;
+		grid-row: auto !important;
+	}
+
+	.kg-header__grid {
+		grid-template-columns: 1fr auto !important;
+	}
+
+	.kg-header__grid > .kg-brand,
+	.kg-header__grid > .kg-nav {
+		grid-column: auto !important;
+	}
+
+	.kg-mosaic > .kg-card--drop {
+		margin-top: 0;
+	}
+
+	.kg-section-head > .has-text-align-right {
+		text-align: left;
+	}
+
+	.wp-block-table.is-style-project-index :where(th, td):nth-child(3),
+	.wp-block-table.is-style-project-index :where(th, td):nth-child(4) {
+		display: none;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		transition: none !important;
+		scroll-behavior: auto !important;
+	}
+}

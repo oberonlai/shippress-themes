@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EEEAE1"/><stop offset="1" stop-color="#E2DCD0"/></linearGradient>
+    <linearGradient id="m1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9C978E"/><stop offset="1" stop-color="#9C978E" stop-opacity="0"/></linearGradient>
+    <linearGradient id="m2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6E6A63"/><stop offset=".8" stop-color="#6E6A63" stop-opacity="0"/></linearGradient>
+    <linearGradient id="m3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2E2C29"/><stop offset="1" stop-color="#2E2C29" stop-opacity=".2"/></linearGradient>
+    <filter id="mist"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="7" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 0.12  0 0 0 0 0.11  0 0 0 0 0.10  0 0 0 0.09 0"/></filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#sky)"/>
+  <circle cx="560" cy="300" r="46" fill="#B5523B" opacity=".85"/>
+  <path d="M0 560 C 120 470 200 430 300 500 C 380 440 470 380 560 450 C 640 420 720 470 800 440 L800 1000 L0 1000Z" fill="url(#m1)" filter="url(#mist)"/>
+  <path d="M0 660 C 90 600 160 540 250 610 C 320 560 400 520 470 590 C 560 540 650 600 800 560 L800 1000 L0 1000Z" fill="url(#m2)" filter="url(#soft)"/>
+  <path d="M0 800 C 120 740 210 690 300 760 C 360 730 420 700 520 780 C 620 760 700 720 800 760 L800 1000 L0 1000Z" fill="url(#m3)" filter="url(#soft)"/>
+  <rect y="860" width="800" height="140" fill="#E8E3D8" opacity=".55" filter="url(#mist)"/>
+  <rect width="800" height="1000" filter="url(#grain)"/>
+</svg>

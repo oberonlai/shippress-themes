@@ -1,0 +1,1208 @@
+/*
+Theme Name: Ma Vertical
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/ma-vertical
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Ma Vertical — a calm, Japanese-inspired block theme for craft studios and ateliers, built on negative space (ma) and vertical type. Washi paper, sumi ink, hairlines and a single vermilion seal. Vertical titles via the "Tategaki" block style on headings, paragraphs, groups, post titles and excerpts; horizontal body text for comfortable reading.
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ma-vertical
+Tags: block-patterns, full-site-editing, one-column, two-columns, custom-colors, editor-style, style-variations, translation-ready, wide-blocks, blog, portfolio
+*/
+
+/* ==========================================================================
+   0. Base — paper, ink, rhythm
+   ========================================================================== */
+
+:root {
+	--ma-hairline: 1px solid var(--wp--preset--color--hairline);
+	--ma-ease: cubic-bezier(.22, .61, .36, 1);
+	--ma-header-h: 6.5rem;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	font-feature-settings: "palt" 0;
+	line-break: strict;
+	word-break: normal;
+	overflow-wrap: anywhere;
+}
+
+::selection {
+	background: var(--wp--preset--color--shu);
+	color: var(--wp--preset--color--paper);
+}
+
+/* Template-level regions sit flush; sections own their own ma. */
+.wp-site-blocks > * + * {
+	margin-block-start: 0;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+	font-feature-settings: "palt" 1;
+	text-wrap: balance;
+}
+
+img {
+	display: block;
+}
+
+/* ==========================================================================
+   1. Tategaki — the vertical-writing block style
+   --------------------------------------------------------------------------
+   Registered in functions.php for core/heading, core/paragraph, core/group,
+   core/post-title, core/post-excerpt, core/query-title and core/quote.
+   - The column length is capped by max-height (in em of the element) so
+     long lines wrap into new columns, read right → left.
+   - Alignment: "Align right" pushes the block to the right edge (the
+     natural start of a Japanese page); "Align center" centers it.
+   ========================================================================== */
+
+.is-style-tategaki {
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	font-feature-settings: "vpal" 1;
+	letter-spacing: 0.14em;
+	line-height: 1.85;
+	text-align: start;
+	max-height: var(--wp--custom--tategaki--measure, 14em);
+	max-width: none;
+	inline-size: auto;
+	box-sizing: content-box;
+}
+
+p.is-style-tategaki,
+.wp-block-post-excerpt.is-style-tategaki,
+.wp-block-quote.is-style-tategaki {
+	max-height: var(--wp--custom--tategaki--measure-long, 22em);
+	line-height: 2.1;
+}
+
+/* A vertical group: children flow right → left, gap becomes the space between columns. */
+.wp-block-group.is-style-tategaki {
+	height: auto;
+	max-height: var(--ma-tate-h, 26rem);
+	letter-spacing: 0.12em;
+}
+
+.is-style-tategaki .is-style-tategaki,
+.wp-block-group.is-style-tategaki > * {
+	max-height: none;
+}
+
+/* Logical margins follow the element's own writing mode, so reset flow spacing to physical. */
+:where(.is-layout-flow, .is-layout-constrained) > .is-style-tategaki {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-top: var(--wp--style--block-gap, 1.5rem);
+}
+
+:where(.is-layout-flow, .is-layout-constrained) > .is-style-tategaki:first-child {
+	margin-top: 0;
+}
+
+.is-style-tategaki > .is-style-tategaki,
+.is-style-tategaki > * {
+	margin-top: 0;
+}
+
+.wp-block-group.is-style-tategaki > * + * {
+	margin-block-start: var(--ma-tate-gap, 1.75rem);
+}
+
+/* Alignment of a vertical block within a horizontal container. */
+.is-style-tategaki.has-text-align-right,
+.is-layout-constrained > .is-style-tategaki.has-text-align-right {
+	margin-left: auto !important;
+	margin-right: 0 !important;
+	text-align: start;
+}
+
+.is-style-tategaki.has-text-align-left,
+.is-layout-constrained > .is-style-tategaki.has-text-align-left {
+	margin-left: 0 !important;
+	margin-right: auto !important;
+	text-align: start;
+}
+
+.is-style-tategaki.has-text-align-center {
+	margin-left: auto !important;
+	margin-right: auto !important;
+	text-align: start;
+}
+
+/* A vertical group inside a column hugs the right edge (start of a Japanese page). */
+.wp-block-column > .wp-block-group.is-style-tategaki {
+	margin-left: auto !important;
+	margin-right: 0 !important;
+}
+
+/* Upright numerals in vertical text: <span class="tcy">26</span> */
+.is-style-tategaki .tcy,
+.is-style-tategaki time .tcy {
+	-webkit-text-combine: horizontal;
+	text-combine-upright: all;
+	letter-spacing: 0;
+}
+
+/* Vertical post title links */
+.wp-block-post-title.is-style-tategaki a {
+	display: inline;
+}
+
+/* Hairline that follows the vertical title — a quiet "brush rest". */
+.wp-block-heading.is-style-tategaki.has-shu-mark::after,
+.is-style-tategaki .has-shu-mark::after,
+.ma-shu-mark::after {
+	content: "";
+	display: inline-block;
+	inline-size: 2.5rem;
+	block-size: 1px;
+	margin-inline-start: 0.6em;
+	vertical-align: middle;
+	background: var(--wp--preset--color--shu);
+}
+
+/* ==========================================================================
+   2. Other block styles
+   ========================================================================== */
+
+/* Hanko — a small vermilion seal carrying a two-letter monogram. */
+p.is-style-hanko {
+	-webkit-writing-mode: horizontal-tb;
+	writing-mode: horizontal-tb;
+	display: inline-grid;
+	place-content: center;
+	box-sizing: border-box;
+	width: 2.75rem;
+	height: 2.75rem;
+	padding: 0.2rem;
+	margin: 0;
+	background: var(--wp--preset--color--shu);
+	color: var(--wp--preset--color--paper);
+	font-family: var(--wp--preset--font-family--serif);
+	font-size: 0.9375rem;
+	font-weight: 600;
+	line-height: 1;
+	letter-spacing: 0.04em;
+	text-align: center;
+	border-radius: 3px;
+	box-shadow: inset 0 0 0 2px var(--wp--preset--color--shu), inset 0 0 0 3px rgba(246, 243, 236, .55);
+	filter: saturate(.92);
+	transform: rotate(-1.5deg);
+	user-select: none;
+}
+
+p.is-style-hanko.has-large-font-size,
+p.is-style-hanko.ma-hanko-lg {
+	width: 4rem;
+	height: 4rem;
+	font-size: 1.1875rem !important;
+}
+
+/* Eyebrow — "01 — Philosophy" */
+p.is-style-eyebrow {
+	font-family: var(--wp--preset--font-family--sans);
+	font-size: var(--wp--preset--font-size--x-small);
+	letter-spacing: 0.28em;
+	line-height: 1.6;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--grey);
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+p.is-style-eyebrow::before {
+	content: "";
+	flex: 0 0 2.25rem;
+	height: 1px;
+	background: var(--wp--preset--color--shu);
+}
+
+p.is-style-eyebrow.is-style-tategaki::before,
+.is-style-tategaki p.is-style-eyebrow::before {
+	flex-basis: auto;
+	width: 1px;
+	height: 2.25rem;
+}
+
+/* Shu rule — a short vermilion rule */
+.wp-block-separator.is-style-shu-rule {
+	width: 2.5rem;
+	max-width: 2.5rem !important;
+	border: 0;
+	border-top: 1px solid var(--wp--preset--color--shu) !important;
+	margin-left: 0 !important;
+	opacity: 1;
+}
+
+.wp-block-separator {
+	border: 0;
+	border-top: 1px solid currentColor;
+	opacity: 1;
+}
+
+/* Washi frame — image floating on a kinari mount */
+.wp-block-image.is-style-washi-frame img {
+	padding: clamp(1rem, 3vw, 2.5rem);
+	background: var(--wp--preset--color--paper-deep);
+	box-sizing: border-box;
+}
+
+/* Text arrow — quiet text link button */
+.wp-block-button.is-style-text-arrow .wp-block-button__link {
+	padding: 0 0 0.5rem;
+	border: 0;
+	border-bottom: var(--ma-hairline);
+	border-bottom-color: var(--wp--preset--color--ink);
+	background: transparent !important;
+	color: var(--wp--preset--color--ink) !important;
+	transition: border-color .4s var(--ma-ease), color .4s var(--ma-ease), gap .4s var(--ma-ease);
+	display: inline-flex;
+	gap: 1.25rem;
+	align-items: center;
+}
+
+.wp-block-button.is-style-text-arrow .wp-block-button__link::after {
+	content: "→";
+	font-family: var(--wp--preset--font-family--serif);
+	letter-spacing: 0;
+}
+
+.wp-block-button.is-style-text-arrow .wp-block-button__link:hover,
+.wp-block-button.is-style-text-arrow .wp-block-button__link:focus {
+	color: var(--wp--preset--color--shu) !important;
+	border-color: var(--wp--preset--color--shu);
+	gap: 1.75rem;
+}
+
+.wp-element-button,
+.wp-block-button__link {
+	transition: background-color .4s var(--ma-ease), color .4s var(--ma-ease);
+}
+
+/* ==========================================================================
+   3. Header & footer
+   ========================================================================== */
+
+.ma-header {
+	min-height: var(--ma-header-h);
+	box-sizing: border-box;
+}
+
+.ma-brand {
+	align-items: center;
+}
+
+.ma-brand .wp-block-site-title {
+	margin: 0;
+}
+
+.ma-brand .wp-block-site-tagline {
+	margin: 0;
+	padding-left: 1.25rem;
+	border-left: var(--ma-hairline);
+}
+
+.wp-block-navigation .wp-block-navigation-item__content {
+	position: relative;
+	padding-block: 0.25rem;
+}
+
+.wp-block-navigation .wp-block-navigation-item__content::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -0.1rem;
+	height: 1px;
+	background: var(--wp--preset--color--shu);
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform .5s var(--ma-ease);
+}
+
+.wp-block-navigation .wp-block-navigation-item__content:hover::after,
+.wp-block-navigation .current-menu-item > .wp-block-navigation-item__content::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+.wp-block-navigation .wp-block-navigation-item__content:hover {
+	color: var(--wp--preset--color--ink);
+}
+
+.ma-footer {
+	border-top: var(--ma-hairline);
+}
+
+.ma-footer .wp-block-navigation {
+	font-size: var(--wp--preset--font-size--x-small);
+}
+
+.ma-footer p {
+	margin: 0;
+}
+
+.ma-footer__label {
+	color: var(--wp--preset--color--grey);
+	font-size: var(--wp--preset--font-size--x-small);
+	letter-spacing: 0.24em;
+	text-transform: uppercase;
+	margin-bottom: 0.75rem !important;
+}
+
+.ma-footer__base {
+	border-top: var(--ma-hairline);
+}
+
+/* ==========================================================================
+   4. Hero — Room for the hand.
+   ========================================================================== */
+
+.ma-hero {
+	position: relative;
+	min-height: calc(min(100vh, 920px) - var(--ma-header-h));
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.ma-hero > .wp-block-columns {
+	width: 100%;
+	flex: 1 1 auto;
+	align-items: stretch !important;
+	margin-block: 0;
+}
+
+.ma-hero__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.ma-hero__titles.wp-block-group.is-style-tategaki {
+	--ma-tate-h: min(34rem, calc(100vh - var(--ma-header-h) - 6rem));
+	height: var(--ma-tate-h);
+	--ma-tate-gap: 2.25rem;
+	margin-left: auto !important;
+	margin-right: clamp(0rem, 4vw, 4rem) !important;
+}
+
+.ma-hero__titles h1 {
+	font-size: var(--wp--preset--font-size--display);
+	line-height: 1.5;
+	letter-spacing: 0.08em;
+	font-weight: 500;
+	margin: 0;
+}
+
+.ma-hero__titles .ma-hero__sub {
+	color: var(--wp--preset--color--ink-soft);
+	font-family: var(--wp--preset--font-family--serif);
+	font-size: var(--wp--preset--font-size--small);
+	letter-spacing: 0.2em;
+	padding-top: 7.5rem;
+	line-height: 2.2;
+}
+
+.ma-hero__titles .is-style-hanko {
+	display: grid;
+	/* The seal is set horizontally inside a vertical group, so use physical margins:
+	   top:auto drops it to the foot of its column. */
+	margin-top: auto !important;
+	margin-bottom: 0 !important;
+	margin-right: 1.5rem !important;
+}
+
+.ma-hero__visual {
+	position: static;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.ma-enso {
+	margin: 0 !important;
+	position: absolute;
+	top: 44%;
+	left: 26%;
+	width: min(28rem, 38vw);
+	transform: translate(-50%, -50%) rotate(-8deg);
+	opacity: .9;
+	pointer-events: none;
+}
+
+.ma-enso img {
+	width: 100%;
+	height: auto;
+	mix-blend-mode: multiply;
+}
+
+.ma-hero__lead {
+	position: relative;
+	margin-top: auto !important;
+	max-width: 21rem;
+	padding-bottom: var(--wp--preset--spacing--40);
+}
+
+.ma-hero__lead p {
+	font-size: var(--wp--preset--font-size--x-small);
+	letter-spacing: 0.08em;
+	line-height: 2.1;
+	color: var(--wp--preset--color--ink-soft);
+}
+
+.ma-scroll {
+	position: absolute;
+	right: calc(var(--wp--style--root--padding-right) / 2 - 0.4rem);
+	bottom: var(--wp--preset--spacing--40);
+	margin: 0 !important;
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+	font-size: 0.625rem;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--grey);
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.ma-scroll::after {
+	content: "";
+	width: 1px;
+	height: 4rem;
+	background: linear-gradient(var(--wp--preset--color--grey), transparent);
+}
+
+/* ==========================================================================
+   5. Sections
+   ========================================================================== */
+
+/* Desktop: right-to-left reading order for columns (title column on the right). */
+@media (min-width: 782px) {
+	.wp-block-columns.ma-reverse {
+		flex-direction: row-reverse;
+	}
+}
+
+/* Large outlined word — "Ma" */
+p.ma-big-kanji {
+	font-family: var(--wp--preset--font-family--serif);
+	font-size: clamp(6rem, 2rem + 11vw, 15rem);
+	white-space: nowrap;
+	line-height: 1;
+	letter-spacing: 0;
+	color: transparent;
+	-webkit-text-stroke: 1px var(--wp--preset--color--grey);
+	margin: 0;
+	user-select: none;
+	opacity: .7;
+}
+
+.ma-section-head {
+	position: relative;
+}
+
+.ma-section-head .wp-block-heading.is-style-tategaki {
+	font-size: var(--wp--preset--font-size--xx-large);
+	line-height: 1.6;
+}
+
+.ma-lead {
+	text-wrap: pretty;
+	font-family: var(--wp--preset--font-family--serif);
+	font-size: var(--wp--preset--font-size--large);
+	line-height: 2.1;
+	letter-spacing: 0.08em;
+}
+
+.ma-muted {
+	color: var(--wp--preset--color--ink-soft);
+}
+
+.ma-small {
+	font-size: var(--wp--preset--font-size--small);
+}
+
+/* Seasonal notes — staggered, scroll-like cards */
+.ma-stagger > .wp-block-column:nth-child(2) {
+	padding-top: var(--wp--preset--spacing--70);
+}
+
+.ma-stagger > .wp-block-column:nth-child(3) {
+	padding-top: var(--wp--preset--spacing--50);
+}
+
+.ma-card {
+	align-items: flex-start !important;
+}
+
+.ma-card .wp-block-image {
+	flex: 1 1 auto;
+	margin: 0;
+	overflow: hidden;
+}
+
+.ma-card .wp-block-image img {
+	width: 100%;
+	height: auto;
+	transition: transform 1.6s var(--ma-ease);
+}
+
+.ma-card:hover .wp-block-image img {
+	transform: scale(1.03);
+}
+
+.ma-card .wp-block-heading.is-style-tategaki {
+	flex: 0 0 auto;
+	font-size: var(--wp--preset--font-size--large);
+	line-height: 1.5;
+	max-height: 12em;
+}
+
+.ma-card__meta {
+	margin-top: 1.25rem !important;
+}
+
+/* Haiku band */
+.ma-haiku {
+	position: relative;
+	overflow: hidden;
+}
+
+.ma-haiku__ripple {
+	position: absolute !important;
+	left: 50%;
+	top: 50%;
+	width: min(60rem, 90vw);
+	max-width: none !important;
+	transform: translate(-50%, -50%);
+	margin: 0 !important;
+	opacity: .5;
+	pointer-events: none;
+}
+
+.ma-haiku__ripple img {
+	width: 100%;
+	height: auto;
+}
+
+.ma-haiku .is-style-tategaki {
+	position: relative;
+}
+
+.ma-haiku__verse {
+	font-family: var(--wp--preset--font-family--serif);
+	font-size: var(--wp--preset--font-size--x-large);
+	letter-spacing: 0.08em !important;
+	line-height: 2.4 !important;
+	white-space: nowrap;
+}
+
+.ma-haiku__cite {
+	padding-top: 9rem;
+	font-size: var(--wp--preset--font-size--small);
+	color: var(--wp--preset--color--ink-soft);
+	letter-spacing: 0.16em;
+}
+
+/* ==========================================================================
+   6. Query loops
+   ========================================================================== */
+
+.wp-block-post-template {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Rows — date · category · title, separated by hairlines */
+.ma-rows > li {
+	border-top: var(--ma-hairline);
+	margin: 0 !important;
+}
+
+.ma-rows > li:last-child {
+	border-bottom: var(--ma-hairline);
+}
+
+.ma-row {
+	display: grid !important;
+	grid-template-columns: 8.5rem 7.5rem 1fr auto;
+	align-items: baseline;
+	gap: 1.5rem;
+	padding-block: 1.6rem;
+	transition: padding .5s var(--ma-ease);
+}
+
+.ma-row > * {
+	margin: 0 !important;
+}
+
+.ma-row .wp-block-post-title {
+	font-size: var(--wp--preset--font-size--medium);
+	letter-spacing: 0.1em;
+}
+
+.ma-row .wp-block-post-terms a {
+	color: var(--wp--preset--color--grey);
+}
+
+.ma-row::after {
+	content: "→";
+	font-family: var(--wp--preset--font-family--serif);
+	color: var(--wp--preset--color--grey);
+	transition: transform .5s var(--ma-ease), color .5s var(--ma-ease);
+}
+
+.ma-rows > li:hover .ma-row {
+	padding-left: 0.75rem;
+}
+
+.ma-rows > li:hover .ma-row::after {
+	color: var(--wp--preset--color--shu);
+	transform: translateX(0.4rem);
+}
+
+/* Tanzaku — vertical strips, newest on the right */
+.ma-tanzaku.wp-block-post-template {
+	display: grid !important;
+	grid-template-columns: repeat(var(--ma-tanzaku-cols, 4), minmax(0, 1fr));
+	gap: 0 !important;
+	direction: rtl;
+	border-left: var(--ma-hairline);
+}
+
+.ma-tanzaku > li {
+	direction: ltr;
+	border-right: var(--ma-hairline);
+	padding: var(--wp--preset--spacing--40) clamp(1rem, 2.4vw, 2.25rem);
+	margin: 0 !important;
+	display: flex;
+	flex-direction: column;
+	min-height: 32rem;
+	box-sizing: border-box;
+	transition: background-color .6s var(--ma-ease);
+}
+
+.ma-tanzaku > li:hover {
+	background: color-mix(in srgb, var(--wp--preset--color--paper-deep) 55%, transparent);
+}
+
+.ma-tanzaku > li > * {
+	margin: 0 !important;
+}
+
+.ma-tanzaku .wp-block-post-date {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ma-tanzaku .ma-tanzaku__body.wp-block-group.is-style-tategaki {
+	--ma-tate-h: 22rem;
+	--ma-tate-gap: 1.25rem;
+	height: var(--ma-tate-h);
+	margin: var(--wp--preset--spacing--40) 0 var(--wp--preset--spacing--30) auto !important;
+	flex: 1 0 auto;
+}
+
+.ma-tanzaku .wp-block-post-title {
+	font-size: var(--wp--preset--font-size--large);
+	line-height: 1.6;
+	letter-spacing: 0.16em;
+}
+
+.ma-tanzaku .wp-block-post-excerpt {
+	font-size: 0.8125rem;
+	line-height: 2.05;
+	letter-spacing: 0.12em;
+}
+
+.ma-tanzaku .wp-block-post-excerpt__excerpt {
+	margin: 0;
+}
+
+.ma-tanzaku .wp-block-post-terms {
+	margin-top: auto !important;
+	padding-top: 1rem;
+	border-top: var(--ma-hairline);
+}
+
+.ma-tanzaku .wp-block-post-terms a {
+	color: var(--wp--preset--color--shu);
+}
+
+.ma-tanzaku--3 {
+	--ma-tanzaku-cols: 3;
+}
+
+/* Featured lead post on the news index */
+.ma-lead-post .wp-block-post-featured-image {
+	margin: 0;
+}
+
+.ma-lead-post .wp-block-post-featured-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.ma-lead-post .wp-block-post-title.is-style-tategaki {
+	font-size: var(--wp--preset--font-size--xx-large);
+	line-height: 1.5;
+	max-height: 9.5em;
+}
+
+/* Pagination */
+.wp-block-query-pagination {
+	font-size: var(--wp--preset--font-size--x-small);
+	letter-spacing: 0.2em;
+	gap: 1.5rem;
+}
+
+.wp-block-query-pagination a {
+	text-decoration: none;
+}
+
+.wp-block-query-pagination-numbers .page-numbers {
+	display: inline-block;
+	min-width: 2rem;
+	text-align: center;
+}
+
+.wp-block-query-pagination-numbers .current {
+	color: var(--wp--preset--color--shu);
+	border-bottom: 1px solid var(--wp--preset--color--shu);
+}
+
+/* ==========================================================================
+   7. Single / page
+   ========================================================================== */
+
+.ma-article-head .wp-block-post-title.is-style-tategaki {
+	font-size: var(--wp--preset--font-size--xx-large);
+	line-height: 1.55;
+	max-height: 10em;
+}
+
+.ma-article-head .ma-article-meta {
+	align-items: flex-end !important;
+	text-align: right;
+	margin-top: var(--wp--preset--spacing--40) !important;
+}
+
+.ma-article-meta {
+	font-size: var(--wp--preset--font-size--x-small);
+	letter-spacing: 0.2em;
+	color: var(--wp--preset--color--grey);
+}
+
+.ma-article-meta .wp-block-post-terms a {
+	color: var(--wp--preset--color--shu);
+}
+
+.ma-prose {
+	font-size: 1.0625rem;
+	line-height: 2.15;
+}
+
+.ma-prose > p:first-of-type::first-letter {
+	font-family: var(--wp--preset--font-family--serif);
+}
+
+.ma-prose h2,
+.ma-prose h3 {
+	margin-top: var(--wp--preset--spacing--50);
+	position: relative;
+}
+
+.ma-prose h2::before {
+	content: "";
+	display: block;
+	width: 2.5rem;
+	height: 1px;
+	margin-bottom: 1.5rem;
+	background: var(--wp--preset--color--shu);
+}
+
+.ma-prose blockquote,
+.wp-block-quote {
+	margin-block: var(--wp--preset--spacing--50);
+	padding: 0;
+	border: 0;
+}
+
+.wp-block-quote p {
+	font-family: var(--wp--preset--font-family--serif);
+}
+
+.wp-block-quote cite {
+	display: block;
+	margin-top: 1rem;
+	font-size: var(--wp--preset--font-size--x-small);
+	font-style: normal;
+	letter-spacing: 0.2em;
+	color: var(--wp--preset--color--grey);
+}
+
+.wp-block-quote.is-style-tategaki,
+:where(.is-layout-flow, .is-layout-constrained) > .wp-block-quote.is-style-tategaki {
+	margin-top: var(--wp--preset--spacing--60) !important;
+	margin-bottom: var(--wp--preset--spacing--60) !important;
+	margin-inline: auto;
+	max-height: 16em;
+	font-size: var(--wp--preset--font-size--large);
+}
+
+.wp-block-image figcaption,
+.wp-element-caption {
+	margin-top: 0.85rem;
+	text-align: left;
+}
+
+.ma-post-nav a {
+	text-decoration: none;
+	font-family: var(--wp--preset--font-family--serif);
+}
+
+.ma-post-nav .post-navigation-link-previous,
+.ma-post-nav .post-navigation-link-next {
+	font-size: var(--wp--preset--font-size--small);
+	letter-spacing: 0.1em;
+}
+
+.wp-block-quote.is-style-tategaki cite {
+	margin-top: 0;
+	margin-block-start: 1.5rem;
+	text-align: end;
+}
+
+/* Comments — quiet */
+.wp-block-comments .comment-reply-title {
+	font-size: var(--wp--preset--font-size--large);
+}
+
+.wp-block-post-comments-form input:not([type="submit"]):not([type="checkbox"]),
+.wp-block-post-comments-form textarea {
+	border: 0;
+	border-bottom: var(--ma-hairline);
+	background: transparent;
+	font: inherit;
+	padding: 0.75rem 0;
+	width: 100%;
+}
+
+/* ==========================================================================
+   8. Newsletter & contact
+   ========================================================================== */
+
+.ma-newsletter-form {
+	display: flex;
+	align-items: flex-end;
+	gap: 1.5rem;
+	max-width: 32rem;
+	margin-top: var(--wp--preset--spacing--40);
+}
+
+.ma-newsletter-form label {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	font-size: var(--wp--preset--font-size--x-small);
+	letter-spacing: 0.24em;
+	color: var(--wp--preset--color--grey);
+}
+
+.ma-newsletter-form input[type="email"] {
+	border: 0;
+	border-bottom: 1px solid var(--wp--preset--color--ink);
+	border-radius: 0;
+	background: transparent;
+	padding: 0.75rem 0;
+	font-family: var(--wp--preset--font-family--serif);
+	font-size: var(--wp--preset--font-size--large);
+	letter-spacing: 0.06em;
+	color: var(--wp--preset--color--ink);
+	outline: none;
+}
+
+.ma-newsletter-form input[type="email"]::placeholder {
+	color: var(--wp--preset--color--hairline);
+}
+
+.ma-newsletter-form input[type="email"]:focus {
+	border-bottom-color: var(--wp--preset--color--shu);
+}
+
+.ma-newsletter-form button {
+	flex: 0 0 auto;
+	border: 1px solid var(--wp--preset--color--ink);
+	background: var(--wp--preset--color--ink);
+	color: var(--wp--preset--color--paper);
+	font-family: var(--wp--preset--font-family--sans);
+	font-size: var(--wp--preset--font-size--x-small);
+	letter-spacing: 0.24em;
+	padding: 1rem 1.75rem;
+	cursor: pointer;
+	transition: background-color .4s var(--ma-ease), border-color .4s var(--ma-ease);
+}
+
+.ma-newsletter-form button:hover,
+.ma-newsletter-form button:focus {
+	background: var(--wp--preset--color--shu);
+	border-color: var(--wp--preset--color--shu);
+}
+
+.ma-newsletter-note {
+	font-size: var(--wp--preset--font-size--x-small);
+	color: var(--wp--preset--color--grey);
+	letter-spacing: 0.08em;
+}
+
+.ma-info > .wp-block-group {
+	display: grid !important;
+	grid-template-columns: 8rem 1fr;
+	gap: 1.5rem;
+	padding-block: 1.4rem;
+	border-top: var(--ma-hairline);
+	margin: 0 !important;
+}
+
+.ma-info > .wp-block-group:last-child {
+	border-bottom: var(--ma-hairline);
+}
+
+.ma-info > .wp-block-group > * {
+	margin: 0 !important;
+}
+
+.ma-info__key {
+	font-size: var(--wp--preset--font-size--x-small);
+	letter-spacing: 0.24em;
+	color: var(--wp--preset--color--grey);
+	padding-top: 0.3rem;
+}
+
+.ma-info__val {
+	font-family: var(--wp--preset--font-family--serif);
+	letter-spacing: 0.08em;
+}
+
+.ma-email a {
+	font-family: var(--wp--preset--font-family--serif);
+	font-size: clamp(1.25rem, 0.9rem + 1.2vw, 1.875rem);
+	white-space: nowrap;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	border-bottom: 1px solid var(--wp--preset--color--shu);
+	padding-bottom: 0.2rem;
+}
+
+/* Values — I II III */
+.ma-values > .wp-block-column {
+	border-left: var(--ma-hairline);
+	padding-left: var(--wp--preset--spacing--40);
+}
+
+.ma-values .ma-numeral {
+	font-family: var(--wp--preset--font-family--serif);
+	font-size: var(--wp--preset--font-size--xx-large);
+	line-height: 1;
+	color: var(--wp--preset--color--shu);
+	margin-bottom: var(--wp--preset--spacing--40) !important;
+}
+
+/* ==========================================================================
+   9. Archive headers
+   ========================================================================== */
+
+.ma-archive-head .wp-block-query-title.is-style-tategaki {
+	font-size: var(--wp--preset--font-size--xx-large);
+	max-height: 8em;
+	line-height: 1.5;
+}
+
+.ma-archive-head .wp-block-term-description {
+	font-family: var(--wp--preset--font-family--serif);
+	font-size: var(--wp--preset--font-size--large);
+	line-height: 2.1;
+	letter-spacing: 0.08em;
+}
+
+.ma-archive-head .wp-block-term-description p {
+	margin: 0;
+}
+
+.ma-hash {
+	color: var(--wp--preset--color--shu);
+}
+
+/* ==========================================================================
+   10. Responsive — vertical titles fall back gracefully
+   ========================================================================== */
+
+@media (max-width: 781px) {
+	:root {
+		--ma-header-h: 5rem;
+	}
+
+	/* Most vertical text becomes horizontal on narrow screens… */
+	.is-style-tategaki:not(.ma-keep-tategaki) {
+		-webkit-writing-mode: horizontal-tb;
+		writing-mode: horizontal-tb;
+		max-height: none !important;
+		height: auto !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		letter-spacing: 0.08em;
+	}
+
+	.wp-block-group.is-style-tategaki:not(.ma-keep-tategaki) > * + * {
+		margin-block-start: 1rem;
+	}
+
+	/* …except where a group is explicitly marked to stay vertical (hero). */
+	.ma-keep-tategaki.wp-block-group.is-style-tategaki {
+		--ma-tate-h: 22rem;
+		--ma-tate-gap: 1.25rem;
+	}
+
+	.ma-hero {
+		min-height: calc(100svh - var(--ma-header-h));
+	}
+
+	.ma-hero__titles.wp-block-group.is-style-tategaki {
+		margin-right: 0 !important;
+	}
+
+	.ma-hero__titles h1 {
+		font-size: clamp(2.5rem, 11vw, 3.25rem);
+	}
+
+	.ma-hero__titles .ma-hero__sub {
+		padding-top: 2.5rem;
+		font-size: 0.8125rem;
+		letter-spacing: 0.14em;
+	}
+
+	.ma-enso {
+		left: 18%;
+		top: 62%;
+		width: 64vw;
+		opacity: .18;
+	}
+
+	.ma-hero__lead {
+		padding-top: var(--wp--preset--spacing--50);
+	}
+
+	.ma-hero__visual {
+		position: static;
+	}
+
+	.ma-hero > .wp-block-columns {
+		position: relative;
+	}
+
+	.ma-scroll {
+		display: none;
+	}
+
+	.ma-brand .wp-block-site-tagline {
+		display: none;
+	}
+
+	.ma-stagger > .wp-block-column:nth-child(n) {
+		padding-top: 0;
+	}
+
+	.ma-card .wp-block-heading.is-style-tategaki {
+		writing-mode: vertical-rl !important;
+		max-height: 10em !important;
+	}
+
+	.ma-tanzaku.wp-block-post-template {
+		grid-template-columns: 1fr;
+		direction: ltr;
+		border-left: 0;
+	}
+
+	.ma-tanzaku > li {
+		border-right: 0;
+		border-top: var(--ma-hairline);
+		min-height: 0;
+		padding-inline: 0;
+	}
+
+	.ma-tanzaku .ma-tanzaku__body.wp-block-group.is-style-tategaki {
+		margin: 1rem 0 !important;
+	}
+
+	.ma-row {
+		grid-template-columns: 1fr auto;
+		gap: 0.25rem 1rem;
+	}
+
+	.ma-row .wp-block-post-title {
+		grid-column: 1 / -1;
+		order: 3;
+	}
+
+	.ma-row::after {
+		display: none;
+	}
+
+	p.ma-big-kanji {
+		font-size: 7rem;
+	}
+
+	.ma-email a {
+		white-space: normal;
+		overflow-wrap: anywhere;
+	}
+
+	.ma-newsletter-form {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.ma-info > .wp-block-group {
+		grid-template-columns: 1fr;
+		gap: 0.25rem;
+	}
+
+	.ma-values > .wp-block-column {
+		border-left: 0;
+		border-top: var(--ma-hairline);
+		padding-left: 0;
+		padding-top: var(--wp--preset--spacing--30);
+	}
+
+	.ma-haiku__cite {
+		padding-top: 5rem;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		transition: none !important;
+	}
+}

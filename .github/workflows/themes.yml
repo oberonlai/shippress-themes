@@ -1,0 +1,38 @@
+# Checks every theme on pull requests and pushes; on main, zips each theme folder and uploads it to the
+# "themes" release, so a single theme downloads from
+#   https://github.com/oberonlai/shippress-themes/releases/download/themes/<slug>.zip
+# Stock actions + the preinstalled gh CLI only.
+name: themes
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check themes
+        run: node --test scripts/check-themes.test.mjs && node scripts/check-themes.mjs
+      - name: Build one zip per theme
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          mkdir -p dist
+          cd themes
+          for d in */; do slug="${d%/}"; zip -qr "../dist/$slug.zip" "$slug"; echo "$slug.zip"; done
+      - name: Upload to the "themes" release
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view themes >/dev/null 2>&1 || gh release create themes --title "Themes" --notes "One zip per theme, rebuilt on every push to main. Install: WordPress admin → Appearance → Themes → Add New Theme → Upload Theme."
+          gh release upload themes dist/*.zip --clobber

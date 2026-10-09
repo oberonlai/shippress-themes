@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <filter id="brush" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.022" numOctaves="3" seed="3" result="warp"/>
+      <feDisplacementMap in="SourceGraphic" in2="warp" scale="12" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.35 0.02" numOctaves="2" seed="21" result="dry"/>
+      <feColorMatrix in="dry" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.6 1.75" result="dryA"/>
+      <feComposite in="d" in2="dryA" operator="in" result="c"/>
+      <feGaussianBlur in="c" stdDeviation="0.6"/>
+    </filter>
+  </defs>
+  <g filter="url(#brush)" fill="none" stroke="#1F1E1C" stroke-linecap="round">
+    <path d="M 336 96 A 206 206 0 1 1 152 160" stroke-width="38" opacity="0.92"/>
+    <path d="M 330 92 A 212 212 0 0 1 508 262" stroke-width="22" opacity="0.5"/>
+    <path d="M 152 160 A 210 210 0 0 1 206 116" stroke-width="20" opacity="0.7"/>
+    <path d="M 206 116 A 210 210 0 0 1 246 101" stroke-width="7" opacity="0.5"/>
+  </g>
+</svg>
