@@ -11,6 +11,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | [Kenchiku Grid](themes/kenchiku-grid) | Architecture studios | business | monochrome, cool | minimal, editorial | [kenchiku-grid.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kenchiku-grid.zip) |
 | [Kissaten Counter](themes/kissaten-counter) | Coffee shops and kissaten cafes | business | dark, warm | cozy, handmade | [kissaten-counter.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kissaten-counter.zip) |
 | [Ma Vertical](themes/ma-vertical) | Craft studios and ateliers | portfolio | warm, earthy | vertical-type, wabi-sabi, minimal | [ma-vertical.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/ma-vertical.zip) |
+| [Shashin Folio](themes/shashin-folio) | Photographers | portfolio | monochrome, cool, dark | minimal, cinematic | [shashin-folio.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/shashin-folio.zip) |
 
 ## Install a theme
 
