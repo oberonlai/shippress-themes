@@ -23,7 +23,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"className":"is-style-index sf-facts-table","style":{"layout":{"columnSpan":4,"columnStart":9}}} -->
-<figure class="wp-block-table is-style-index sf-facts-table"><table><tbody><tr><td>Place</td><td>Yuigahama, Kamakura</td></tr><tr><td>Years</td><td>2019–2025</td></tr><tr><td>Format</td><td>6×7, Tri-X 400</td></tr><tr><td>Frames</td><td>34 in the sequence</td></tr><tr><td>Book</td><td>Hiru Press, 2026</td></tr></tbody></table></figure>
+<figure class="wp-block-table is-style-index sf-facts-table"><table><tbody><tr><td>Place</td><td>Yuigahama, Kamakura</td></tr><tr><td>Years</td><td>2019–2025</td></tr><tr><td>Format</td><td>6×7, black-and-white 400</td></tr><tr><td>Frames</td><td>34 in the sequence</td></tr><tr><td>Book</td><td>Hiru Press, 2026</td></tr></tbody></table></figure>
 <!-- /wp:table --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -49,7 +49,7 @@
 
 <!-- wp:group {"align":"wide","className":"sf-grid","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|30"}}},"layout":{"type":"grid","columnCount":12}} -->
 <div class="wp-block-group alignwide sf-grid"><!-- wp:image {"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-still","style":{"layout":{"columnSpan":8,"columnStart":3}}} -->
-<figure class="wp-block-image size-full is-style-still"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/snow-country.svg' ) ); ?>" alt="A beach under snow with a line of footprints toward the water" style="aspect-ratio:3/2;object-fit:cover"/><figcaption class="wp-element-caption">Fr. 21 — The only morning it snowed, February 2022</figcaption></figure>
+<figure class="wp-block-image size-full is-style-still"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/snow-plain.svg' ) ); ?>" alt="A beach under snow with a line of footprints toward the water" style="aspect-ratio:3/2;object-fit:cover"/><figcaption class="wp-element-caption">Fr. 21 — The only morning it snowed, February 2022</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

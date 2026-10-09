@@ -65,7 +65,7 @@ All "photographs" are original procedural vector artwork drawn in code for this 
 - assets/images/night-platform.svg
 - assets/images/portrait.svg
 - assets/images/rain-glass.svg
-- assets/images/snow-country.svg
+- assets/images/snow-plain.svg
 - assets/images/stairwell.svg
 - assets/images/studio-map.svg
 - assets/images/window-dawn.svg
@@ -81,7 +81,7 @@ Raster copies of the same artwork, imported into the Media Library by the demo i
 - assets/images/demo/night-platform.jpg
 - assets/images/demo/portrait.jpg
 - assets/images/demo/rain-glass.jpg
-- assets/images/demo/snow-country.jpg
+- assets/images/demo/snow-plain.jpg
 - assets/images/demo/stairwell.jpg
 - assets/images/demo/studio-map.jpg
 - assets/images/demo/window-dawn.jpg

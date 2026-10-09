@@ -31,7 +31,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"is-style-frame-number sf-hero__caption","style":{"layout":{"columnSpan":12}}} -->
-<p class="is-style-frame-number sf-hero__caption"><span>Fr. 01 / 24</span><span>Low Tide — Yuigahama, Kamakura</span><span>05:12, March 2023</span><span>Tri-X 400, pushed one stop</span></p>
+<p class="is-style-frame-number sf-hero__caption"><span>Fr. 01 / 24</span><span>Low Tide — Yuigahama, Kamakura</span><span>05:12, March 2023</span><span>black-and-white 400, pushed one stop</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->

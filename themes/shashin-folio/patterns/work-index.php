@@ -65,7 +65,7 @@
 
 <!-- wp:group {"className":"sf-work-card","layout":{"type":"default"}} -->
 <div class="wp-block-group sf-work-card"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"custom","className":"is-style-still"} -->
-<figure class="wp-block-image size-full is-style-still"><a href="/work/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/snow-country.svg' ) ); ?>" alt="Bare trees and telephone poles across a snow field" style="aspect-ratio:4/5;object-fit:cover"/></a></figure>
+<figure class="wp-block-image size-full is-style-still"><a href="/work/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/snow-plain.svg' ) ); ?>" alt="Bare trees and telephone poles across a snow field" style="aspect-ratio:4/5;object-fit:cover"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"is-style-frame-number"} -->
@@ -73,7 +73,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-x-large-font-size"><a href="/work/">Snow Country</a></h3>
+<h3 class="wp-block-heading has-x-large-font-size"><a href="/work/">Snow Plain</a></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sf-work-card__meta","fontSize":"small"} -->

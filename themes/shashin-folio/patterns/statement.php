@@ -21,7 +21,7 @@
 
 <!-- wp:group {"align":"wide","className":"sf-grid sf-facts","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"},"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|20"}}},"layout":{"type":"grid","columnCount":12}} -->
 <div class="wp-block-group alignwide sf-grid sf-facts" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:paragraph {"className":"sf-fact","style":{"layout":{"columnSpan":3,"columnStart":3}}} -->
-<p class="sf-fact"><strong>12</strong><span>Years on film, mostly Tri-X and a borrowed Pentax 67</span></p>
+<p class="sf-fact"><strong>12</strong><span>Years on film, mostly black-and-white 400 film and a borrowed 6×7 camera</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sf-fact","style":{"layout":{"columnSpan":3}}} -->

@@ -15,7 +15,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"className":"is-style-index","style":{"layout":{"columnSpan":10}}} -->
-<figure class="wp-block-table is-style-index"><table><thead><tr><th>No.</th><th>Month</th><th>Letter</th><th>Frame</th></tr></thead><tbody><tr><td>41</td><td>October 2026</td><td>A wet week in June, finally printed</td><td>Roll 214 / 15A</td></tr><tr><td>40</td><td>September 2026</td><td>Hanging Snow Country at Gallery Hiru</td><td>Roll 207 / 3</td></tr><tr><td>39</td><td>August 2026</td><td>Why the ferry pictures are all vertical</td><td>Roll 188 / 9</td></tr><tr><td>38</td><td>July 2026</td><td>The last morning on the beach</td><td>Roll 201 / 6</td></tr><tr><td>37</td><td>June 2026</td><td>On being bad at waiting</td><td>Roll 196 / 11</td></tr></tbody></table></figure>
+<figure class="wp-block-table is-style-index"><table><thead><tr><th>No.</th><th>Month</th><th>Letter</th><th>Frame</th></tr></thead><tbody><tr><td>41</td><td>October 2026</td><td>A wet week in June, finally printed</td><td>Roll 214 / 15A</td></tr><tr><td>40</td><td>September 2026</td><td>Hanging Snow Plain at Gallery Hiru</td><td>Roll 207 / 3</td></tr><tr><td>39</td><td>August 2026</td><td>Why the ferry pictures are all vertical</td><td>Roll 188 / 9</td></tr><tr><td>38</td><td>July 2026</td><td>The last morning on the beach</td><td>Roll 201 / 6</td></tr><tr><td>37</td><td>June 2026</td><td>On being bad at waiting</td><td>Roll 196 / 11</td></tr></tbody></table></figure>
 <!-- /wp:table --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

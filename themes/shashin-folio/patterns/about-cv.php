@@ -27,23 +27,23 @@
 
 <!-- wp:list {"className":"is-style-credits"} -->
 <ul class="wp-block-list is-style-credits"><!-- wp:list-item -->
-<li><span>2026</span> Snow Country — Gallery Hiru, Tokyo (solo)</li>
+<li><span>2026</span> Snow Plain — Gallery Hiru, Tokyo (solo)</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><span>2025</span> Low Tide — Kamakura Museum of Photography (solo)</li>
+<li><span>2025</span> Low Tide — Yuigahama Photo House (solo)</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><span>2024</span> After Hours — Photo Basel Platform (group)</li>
+<li><span>2024</span> After Hours — Rhine Print Fair Platform (group)</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><span>2022</span> Last Train — Kyotographie satellite (solo)</li>
+<li><span>2022</span> Last Train — Kamogawa Photo Days satellite (solo)</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><span>2019</span> New Silence — Tokyo Photographic Society (group)</li>
+<li><span>2019</span> New Silence — Sumida Camera Circle (group)</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group -->
@@ -79,11 +79,11 @@
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><span>2023</span> Grand Prize, New Documents Award</li>
+<li><span>2023</span> Grand Prize, Quiet Frame Award</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><span>2020</span> Shortlist, First Book Award</li>
+<li><span>2020</span> Shortlist, Lantern Photobook Prize</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->

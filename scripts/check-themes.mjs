@@ -35,6 +35,9 @@ export const REAL_NAMES = [
   "Awwwards", "FWA", "Red Dot", "iF Design Award", "Bashō", "Basho", "In Praise of Shadows", "Tanizaki",
   "Tadao Ando", "Kengo Kuma", "Kazuyo Sejima", "SANAA", "Toyo Ito", "Shigeru Ban", "Sou Fujimoto", "Kenya Hara",
   "Naoto Fukasawa", "Muji", "Blue Bottle", "Starbucks", "Kissa Tanpopo", "Shonan Kogyo", "Oka Structural Design",
+  "Kyotographie", "Photo Basel", "Paris Photo", "Leica", "Pentax", "Hasselblad", "Mamiya", "Tri-X", "Kodak", "Fujifilm", "Ilford",
+  "Kamakura Museum of Photography", "Tokyo Photographic Art Museum", "New Documents Award", "First Book Award", "MACK",
+  "Snow Country", "Kawabata", "Daido Moriyama", "Nobuyoshi Araki", "Rinko Kawauchi", "Hiroshi Sugimoto", "Masahisa Fukase",
 ];
 const REAL_NAME = new RegExp(`(?<![A-Za-z])(${REAL_NAMES.map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})(?![A-Za-z])`, "g");
 const EMAIL = /[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\.)+[A-Za-z]{2,}/g;

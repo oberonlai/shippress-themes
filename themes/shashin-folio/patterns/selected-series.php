@@ -69,7 +69,7 @@
 
 <!-- wp:group {"align":"wide","className":"sf-grid sf-series__row","style":{"spacing":{"margin":{"top":"var:preset|spacing|70"},"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"layout":{"type":"grid","columnCount":12}} -->
 <div class="wp-block-group alignwide sf-grid sf-series__row" style="margin-top:var(--wp--preset--spacing--70)"><!-- wp:image {"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"custom","className":"is-style-still","style":{"layout":{"columnSpan":7,"columnStart":3}}} -->
-<figure class="wp-block-image size-full is-style-still"><a href="/work/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/snow-country.svg' ) ); ?>" alt="Bare trees and telephone poles across a snow field" style="aspect-ratio:3/2;object-fit:cover"/></a></figure>
+<figure class="wp-block-image size-full is-style-still"><a href="/work/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/snow-plain.svg' ) ); ?>" alt="Bare trees and telephone poles across a snow field" style="aspect-ratio:3/2;object-fit:cover"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"sf-series__caption","style":{"layout":{"columnSpan":3,"columnStart":10}},"layout":{"type":"default"}} -->
@@ -78,7 +78,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Snow Country</h3>
+<h3 class="wp-block-heading">Snow Plain</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->

@@ -94,9 +94,9 @@ test("demo copy may not name real magazines, awards or people", () => {
     demo.posts[0].title = "Featured in Casa Brutus";
     demo.posts[0].excerpt = "Winner of the JIA Newcomer Award.";
     writeFileSync(join(t, "demo-content.json"), JSON.stringify(demo, null, 2));
-    writeFileSync(join(t, "README.md"), readFileSync(join(t, "README.md"), "utf8") + "\nAwwwards-level polish, after Tadao Ando.\n");
+    writeFileSync(join(t, "README.md"), readFileSync(join(t, "README.md"), "utf8") + "\nAwwwards-level polish, after Tadao Ando. Shot on a Leica with Tri-X for Kyotographie.\n");
     const errs = checkTheme(t, slug).join("\n");
-    for (const name of ["Casa Brutus", "JIA", "Awwwards", "Tadao Ando"]) assert.ok(errs.includes(`names a real ${name}`), `${name} in:\n${errs}`);
+    for (const name of ["Casa Brutus", "JIA", "Awwwards", "Tadao Ando", "Leica", "Tri-X", "Kyotographie"]) assert.ok(errs.includes(`names a real ${name}`), `${name} in:\n${errs}`);
     // Real cities, fictional names and hex colours are fine.
     cpSync(join(THEMES, slug, "demo-content.json"), join(t, "demo-content.json"));
     writeFileSync(join(t, "README.md"), "Kyoto, Tokyo, Hokusetsu Newcomer Award, Engawa Review, #FAFAFA, Jiangsu\n");
