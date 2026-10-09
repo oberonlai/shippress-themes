@@ -16,7 +16,7 @@ const PAGE_TEMPLATES = {
   home: ["front-page", "home"], about: ["page-about", "page"], news: ["home", "index"], article: ["single"],
   category: ["category", "archive"], tag: ["tag", "archive"], newsletter: ["page-newsletter", "page"], contact: ["page-contact", "page"],
 };
-const TYPES = ["portfolio", "business", "blog", "shop"];
+const TYPES = ["portfolio", "business", "blog", "shop", "hospitality"];
 const CJK = /[\u3040-\u30ff\u3400-\u9fff\uff00-\uffef\u3000-\u303f]/;
 const TEXT = /\.(php|html|json|css|md|txt|js|svg)$/;
 const SECRETS = [

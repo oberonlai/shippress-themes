@@ -2,12 +2,13 @@
 
 Japanese-inspired WordPress block themes for [ShipPress](https://github.com/oberonlai/shippress-themes), the desktop app that builds WordPress sites with AI.
 
-Each theme is a complete, standalone WordPress **block theme** (full-site editing: `theme.json`, HTML templates, template parts and block patterns). Every theme covers the same eight pages (home, about, news, article, category, tag, newsletter and contact), ships English sample copy, and bundles its own fonts, so it makes no third-party requests. ShipPress shows the themes on its template wall, using the metadata in `index.json` and screenshots it renders itself.
+Each theme is a complete, standalone WordPress **block theme** (full-site editing: `theme.json`, HTML templates, template parts and block patterns). Every theme covers the same eight pages (home, about, news, article, category, tag, newsletter and contact), plus pages of its own industry (such as rooms or a menu), ships English sample copy, and bundles its own fonts, so it makes no third-party requests. ShipPress shows the themes on its template wall, using the metadata in `index.json` and screenshots it renders itself.
 
 ## Themes
 
 | Theme | For | Type | Colors | Style | Download |
 |-------|-----|------|--------|-------|----------|
+| [Hinoki Yado](themes/hinoki-yado) | Ryokan and small hot-spring inns | hospitality | green, natural | serene, organic | [hinoki-yado.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/hinoki-yado.zip) |
 | [Kenchiku Grid](themes/kenchiku-grid) | Architecture studios | business | monochrome, cool | minimal, editorial | [kenchiku-grid.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kenchiku-grid.zip) |
 | [Kissaten Counter](themes/kissaten-counter) | Coffee shops and kissaten cafes | business | dark, warm | cozy, handmade | [kissaten-counter.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kissaten-counter.zip) |
 | [Ma Vertical](themes/ma-vertical) | Craft studios and ateliers | portfolio | warm, earthy | vertical-type, wabi-sabi, minimal | [ma-vertical.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/ma-vertical.zip) |
