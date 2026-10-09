@@ -28,7 +28,13 @@ jobs:
         run: |
           mkdir -p dist
           cd themes
-          for d in */; do slug="${d%/}"; zip -qr "../dist/$slug.zip" "$slug"; echo "$slug.zip"; done
+          # Reproducible zips: fixed timestamps, sorted entries, no extra attributes, so a theme's zip (and the sha256
+          # pinned in the ShipPress app catalogue) only changes when that theme's files change.
+          for d in */; do slug="${d%/}"
+            find "$slug" -exec touch -h -d '2000-01-01 00:00:00 UTC' {} +
+            find "$slug" -print | LC_ALL=C sort | TZ=UTC zip -qX "../dist/$slug.zip" -@
+            sha256sum "../dist/$slug.zip"
+          done
       - name: Upload to the "themes" release
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         env:
