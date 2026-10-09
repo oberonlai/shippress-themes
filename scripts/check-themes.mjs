@@ -17,7 +17,7 @@ const PAGE_TEMPLATES = {
   category: ["category", "archive"], tag: ["tag", "archive"], newsletter: ["page-newsletter", "page"], contact: ["page-contact", "page"],
 };
 // "store": a WooCommerce shop theme (WooCommerce templates + sample products, still works without WooCommerce).
-const TYPES = ["portfolio", "business", "blog", "shop", "store", "hospitality", "education", "health", "food-drink"];
+const TYPES = ["portfolio", "business", "blog", "shop", "store", "hospitality", "education", "health", "food-drink", "events"];
 const CJK = /[\u3040-\u30ff\u3400-\u9fff\uff00-\uffef\u3000-\u303f]/;
 const TEXT = /\.(php|html|json|css|md|txt|js|svg)$/;
 const SECRETS = [
