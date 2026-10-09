@@ -9,6 +9,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | Theme | For | Type | Colors | Style | Download |
 |-------|-----|------|--------|-------|----------|
 | [Aizome Shoten](themes/aizome-shoten) | Independent bookshops and small presses (WooCommerce store) | store | blue, indigo | typographic, retro | [aizome-shoten.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/aizome-shoten.zip) |
+| [Fuji Shinkyu](themes/fuji-shinkyu) | Acupuncture, moxibustion and bodywork clinics | health | purple, pastel | geometric, airy | [fuji-shinkyu.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/fuji-shinkyu.zip) |
 | [Hinoki Yado](themes/hinoki-yado) | Ryokan and small hot-spring inns | hospitality | green, natural | serene, organic | [hinoki-yado.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/hinoki-yado.zip) |
 | [Ikebana Kyoshitsu](themes/ikebana-kyoshitsu) | Ikebana and flower-arranging schools | education | pastel, pink | botanical, asymmetric | [ikebana-kyoshitsu.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/ikebana-kyoshitsu.zip) |
 | [Kenchiku Grid](themes/kenchiku-grid) | Architecture studios | business | monochrome, cool | minimal, editorial | [kenchiku-grid.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kenchiku-grid.zip) |
