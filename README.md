@@ -31,6 +31,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | [Shiro Horitsu](themes/shiro-horitsu) | Boutique law firms, solicitors and legal practices | business | neutral, blue | minimal, editorial | [shiro-horitsu.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/shiro-horitsu.zip) |
 | [Shashin Folio](themes/shashin-folio) | Photographers | portfolio | monochrome, cool, dark | minimal, cinematic | [shashin-folio.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/shashin-folio.zip) |
 | [Sumai Realty](themes/sumai-realty) | Estate agents, letting offices and small property developers | business | blue, cool | minimal, geometric | [sumai-realty.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/sumai-realty.zip) |
+| [Wagu Mono](themes/wagu-mono) | Furniture workshops and furniture stores selling chairs, tables, benches and shelves (WooCommerce store) | store | warm, neutral | handmade, cozy, minimal | [wagu-mono.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/wagu-mono.zip) |
 | [Yuzu Chaya](themes/yuzu-chaya) | Japanese tea and wagashi shops (WooCommerce store) | store | green, neutral | minimal, editorial | [yuzu-chaya.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/yuzu-chaya.zip) |
 
 ## Install a theme
