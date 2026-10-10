@@ -112,5 +112,8 @@ screenshot.png: composed from the theme's own pages and artwork, same copyright 
 
 == Changelog ==
 
+= 1.0.1 =
+* The shop and product-search templates use the current search block (limited to products) instead of the outdated WooCommerce Product Search block, so the Site Editor no longer asks to upgrade it.
+
 = 1.0.0 =
 * First release.

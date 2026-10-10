@@ -122,6 +122,9 @@ screenshot.png: a rendering of this theme's home page design with its own sample
 
 == Changelog ==
 
+= 2.0.1 =
+* The shop and product-search templates use the current search block (limited to products) instead of the outdated WooCommerce Product Search block, so the Site Editor no longer asks to upgrade it.
+
 = 2.0.0 =
 * Redesign: a quiet, editorial look. New palette (washi, kinari, sumi, sencha, pale sencha, hojicha and a sparing yuzu accent), Shippori Mincho and Hanken Grotesk in place of Bricolage Grotesque, Nunito and Patrick Hand, hairline rules instead of rounded tiles, and a dark "Yoru" style variation in place of "Matcha Latte".
 * AI-generated photographs replace the hand-drawn illustrations; the map and the brewing-temperature diagram are redrawn as simple line drawings.
