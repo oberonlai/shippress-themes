@@ -5,7 +5,7 @@ import { cpSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync }
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildIndex, checkTheme, REAL_NAMES, styleHeader } from "./check-themes.mjs";
+import { buildIndex, checkTheme, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
 
 const THEMES = fileURLToPath(new URL("../themes/", import.meta.url));
 const slugs = readdirSync(THEMES).sort();
@@ -23,6 +23,20 @@ test("index.json is generated from the theme-meta.json files", () => {
 
 test("styleHeader reads the style.css comment", () => {
   assert.deepEqual(styleHeader("/*\nTheme Name: X\nText Domain: x\n*/\nbody{}"), { "Theme Name": "X", "Text Domain": "x" });
+});
+
+test("theme types: nonprofit is accepted, an unknown type is refused", () => {
+  assert.ok(TYPES.includes("nonprofit"));
+  const dir = mkdtempSync(join(tmpdir(), "theme-type-check-"));
+  try {
+    const t = join(dir, slugs[0]);
+    cpSync(join(THEMES, slugs[0]), t, { recursive: true });
+    const meta = JSON.parse(readFileSync(join(t, "theme-meta.json"), "utf8"));
+    writeFileSync(join(t, "theme-meta.json"), JSON.stringify({ ...meta, type: "nonprofit" }));
+    assert.doesNotMatch(checkTheme(t, slugs[0]).join("\n"), /type must be one of/);
+    writeFileSync(join(t, "theme-meta.json"), JSON.stringify({ ...meta, type: "charity-shop" }));
+    assert.match(checkTheme(t, slugs[0]).join("\n"), /type must be one of/);
+  } finally { rmSync(dir, { recursive: true, force: true }); }
 });
 
 test("catches broken themes", () => {
