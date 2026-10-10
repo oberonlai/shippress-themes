@@ -28,6 +28,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | [Seiji Utsuwa](themes/seiji-utsuwa) | Handmade ceramics and tableware shops (WooCommerce store) | store | teal, cool | sculptural, gallery | [seiji-utsuwa.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/seiji-utsuwa.zip) |
 | [Shiro Horitsu](themes/shiro-horitsu) | Boutique law firms, solicitors and legal practices | business | neutral, blue | minimal, editorial | [shiro-horitsu.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/shiro-horitsu.zip) |
 | [Shashin Folio](themes/shashin-folio) | Photographers | portfolio | monochrome, cool, dark | minimal, cinematic | [shashin-folio.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/shashin-folio.zip) |
+| [Sumai Realty](themes/sumai-realty) | Estate agents, letting offices and small property developers | business | blue, cool | minimal, geometric | [sumai-realty.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/sumai-realty.zip) |
 | [Yuzu Chaya](themes/yuzu-chaya) | Japanese tea and wagashi shops (WooCommerce store) | store | green, neutral | minimal, editorial | [yuzu-chaya.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/yuzu-chaya.zip) |
 
 ## Install a theme
