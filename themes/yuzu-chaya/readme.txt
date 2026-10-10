@@ -6,13 +6,13 @@ Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A playful, modular theme for small Japanese tea and wagashi shops that sell loose-leaf sencha, hojicha and matcha, teaware and seasonal sweets online, laid out like a bento box: rounded tiles in yuzu yellow, pale kinari paper, fresh matcha and charcoal-green ink, small hand-drawn tea leaves, yuzu and curls of steam, temperature stickers and handwritten notes, a brewing guide, a monthly tea box subscription, and WooCommerce shop, product, cart, checkout and account templates styled to match.
+A quiet, editorial theme for small Japanese tea and wagashi shops that sell loose-leaf sencha, hojicha and matcha, teaware and seasonal sweets online: washi paper and kinari surfaces, sumi ink, sencha green and roasted hojicha brown with a single dot of yuzu, large still-life photography, Shippori Mincho titles over Hanken Grotesk text, hairline rules and generous whitespace, a brewing guide, a monthly tea box subscription, and WooCommerce shop, product, cart, checkout and account templates styled to match.
 
 == Description ==
 
 A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). See README.md for the design notes, templates and patterns.
 
-WooCommerce is optional. With WooCommerce active the theme declares support, styles the shop, product, cart, checkout, account, order confirmation and product search templates, and adds twelve sample products. Without it, the Shop page shows the tea list as tiles with prices and orders by email, and nothing store-specific is loaded.
+WooCommerce is optional. With WooCommerce active the theme declares support, styles the shop, product, cart, checkout, account, order confirmation and product search templates, and adds twelve sample products. Without it, the Shop page shows the tea list with photographs and prices and orders by email, and nothing store-specific is loaded.
 
 == Installation ==
 
@@ -40,60 +40,50 @@ GNU General Public License for more details.
 
 = Fonts =
 
-Bricolage Grotesque
-Files: assets/fonts/bricolage-grotesque-variable-latin.woff2
-Copyright 2022 The Bricolage Grotesque Project Authors (https://github.com/ateliertriay/bricolage)
-License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-BricolageGrotesque.txt, https://openfontlicense.org)
-Latin subset (variable WOFF2, optical size, width 75-100% and weight 200-800 axes), bundled so the theme makes no third-party requests.
+Shippori Mincho
+Files: assets/fonts/shippori-mincho-400-latin.woff2, assets/fonts/shippori-mincho-500-latin.woff2, assets/fonts/shippori-mincho-600-latin.woff2
+Copyright 2021 The Shippori Mincho Project Authors (https://github.com/fontdasu/ShipporiMincho)
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-ShipporiMincho.txt, https://openfontlicense.org)
+Latin subset (WOFF2, weights 400, 500 and 600), bundled so the theme makes no third-party requests.
 
-Nunito
-Files: assets/fonts/nunito-variable-latin.woff2, assets/fonts/nunito-italic-variable-latin.woff2
-Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito)
-License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-Nunito.txt, https://openfontlicense.org)
-Latin subset (variable WOFF2, weight 200-1000, with italic), bundled so the theme makes no third-party requests.
-
-Patrick Hand
-Files: assets/fonts/patrick-hand-400-latin.woff2
-Copyright (c) 2010-2012 Patrick Wagesreiter (https://github.com/google/fonts/tree/main/ofl/patrickhand)
-License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-PatrickHand.txt, https://openfontlicense.org)
-Latin subset (WOFF2, regular), bundled so the theme makes no third-party requests.
+Hanken Grotesk
+Files: assets/fonts/hanken-grotesk-variable-latin.woff2, assets/fonts/hanken-grotesk-italic-variable-latin.woff2
+Copyright 2021 The Hanken Grotesk Project Authors (https://github.com/marcologous/hanken-grotesk)
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-HankenGrotesk.txt, https://openfontlicense.org)
+Latin subset (variable WOFF2, weight 100-900, with italic), bundled so the theme makes no third-party requests.
 
 = Images =
 
-All illustrations and product pictures are original procedural vector artwork drawn in code for this theme by the ShipPress contributors (wobbly hand-drawn-style outlines over off-register flat fills, with an SVG turbulence filter for paper grain; no text, no photographs, stock images or third-party artwork; every shop, farm and person they show is fictional), Copyright 2026 ShipPress contributors, License: GPL-2.0-or-later.
-- assets/images/area-map.svg
-- assets/images/brewing-temperatures.svg
-- assets/images/cold-brew-genmaicha.svg
-- assets/images/hero-yuzu-cup.svg
-- assets/images/hojicha-roasting.svg
-- assets/images/keeper-hana.svg
-- assets/images/keeper-teru.svg
-- assets/images/kyusu-pouring.svg
-- assets/images/matcha-whisking.svg
-- assets/images/newsletter-letter.svg
-- assets/images/product-asahi-sencha.svg
-- assets/images/product-chasen-set.svg
-- assets/images/product-genmaicha-with-matcha.svg
-- assets/images/product-hikari-matcha.svg
-- assets/images/product-hillside-fukamushi.svg
-- assets/images/product-kihada-kyusu.svg
-- assets/images/product-monthly-tea-box.svg
-- assets/images/product-seasonal-wagashi.svg
-- assets/images/product-twice-roasted-hojicha.svg
-- assets/images/product-yunomi-pair.svg
-- assets/images/product-yuzu-monaka.svg
-- assets/images/product-yuzu-sencha.svg
-- assets/images/shop-counter.svg
-- assets/images/tea-box-flatlay.svg
-- assets/images/tea-field-hill.svg
-- assets/images/teaware-small-table.svg
-- assets/images/yuzu-winter-sweets.svg
+Photographs: AI-generated for this theme, released under GPL-2.0-or-later / CC0 (no stock images, no real people, places, brands or products; every shop, farm and person they suggest is fictional).
+- assets/images/cold-brew-genmaicha.jpg
+- assets/images/hero-tea-cup.jpg
+- assets/images/hojicha-roasting.jpg
+- assets/images/keeper-hana.jpg
+- assets/images/keeper-teru.jpg
+- assets/images/kyusu-pouring.jpg
+- assets/images/matcha-whisking.jpg
+- assets/images/newsletter-letter.jpg
+- assets/images/product-asahi-sencha.jpg
+- assets/images/product-chasen-set.jpg
+- assets/images/product-genmaicha-with-matcha.jpg
+- assets/images/product-hikari-matcha.jpg
+- assets/images/product-hillside-fukamushi.jpg
+- assets/images/product-kihada-kyusu.jpg
+- assets/images/product-monthly-tea-box.jpg
+- assets/images/product-seasonal-wagashi.jpg
+- assets/images/product-twice-roasted-hojicha.jpg
+- assets/images/product-yunomi-pair.jpg
+- assets/images/product-yuzu-monaka.jpg
+- assets/images/product-yuzu-sencha.jpg
+- assets/images/shop-counter.jpg
+- assets/images/tea-box-flatlay.jpg
+- assets/images/tea-field-hill.jpg
+- assets/images/teaware-small-table.jpg
+- assets/images/yuzu-winter-sweets.jpg
 
-Raster copies of the same artwork, imported into the Media Library by the demo import and used as product images (rendered from the SVGs above with scripts/rasterize-images.py; same copyright and license):
-- assets/images/demo/area-map.jpg
-- assets/images/demo/brewing-temperatures.jpg
+The same photographs, imported into the Media Library by the demo import and used as featured and product images (identical files; same license):
 - assets/images/demo/cold-brew-genmaicha.jpg
-- assets/images/demo/hero-yuzu-cup.jpg
+- assets/images/demo/hero-tea-cup.jpg
 - assets/images/demo/hojicha-roasting.jpg
 - assets/images/demo/keeper-hana.jpg
 - assets/images/demo/keeper-teru.jpg
@@ -118,11 +108,25 @@ Raster copies of the same artwork, imported into the Media Library by the demo i
 - assets/images/demo/teaware-small-table.jpg
 - assets/images/demo/yuzu-winter-sweets.jpg
 
-The paper grain, tea leaf, yuzu, steam and squiggle motifs in style.css and assets/css/woocommerce.css are inline SVG and CSS written for this theme (same copyright and license).
+Diagrams: a line map and a brewing-temperature scale drawn in code for this theme by the ShipPress contributors, Copyright 2026 ShipPress contributors, License: GPL-2.0-or-later.
+- assets/images/area-map.svg
+- assets/images/brewing-temperatures.svg
 
-screenshot.png: a rendering of this theme's home page design with its own sample content and artwork, Copyright 2026 ShipPress contributors, License: GPL-2.0-or-later.
+Raster copies of the diagrams for the Media Library (rendered from the SVGs above with scripts/rasterize-images.py; same copyright and license):
+- assets/images/demo/area-map.jpg
+- assets/images/demo/brewing-temperatures.jpg
+
+The logo mark and the small arrow and chevron icons in style.css and assets/css/woocommerce.css are inline SVG written for this theme (same copyright and license).
+
+screenshot.png: a rendering of this theme's home page design with its own sample content and photographs, Copyright 2026 ShipPress contributors, License: GPL-2.0-or-later.
 
 == Changelog ==
+
+= 2.0.0 =
+* Redesign: a quiet, editorial look. New palette (washi, kinari, sumi, sencha, pale sencha, hojicha and a sparing yuzu accent), Shippori Mincho and Hanken Grotesk in place of Bricolage Grotesque, Nunito and Patrick Hand, hairline rules instead of rounded tiles, and a dark "Yoru" style variation in place of "Matcha Latte".
+* AI-generated photographs replace the hand-drawn illustrations; the map and the brewing-temperature diagram are redrawn as simple line drawings.
+* New page-my-account template (it was empty).
+* Pages imported with 1.x keep their content; their layout stays readable with the new styles.
 
 = 1.0.0 =
 * Initial release.

@@ -20,7 +20,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | [Ma Vertical](themes/ma-vertical) | Craft studios and ateliers | portfolio | warm, earthy | vertical-type, wabi-sabi, minimal | [ma-vertical.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/ma-vertical.zip) |
 | [Seiji Utsuwa](themes/seiji-utsuwa) | Handmade ceramics and tableware shops (WooCommerce store) | store | teal, cool | sculptural, gallery | [seiji-utsuwa.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/seiji-utsuwa.zip) |
 | [Shashin Folio](themes/shashin-folio) | Photographers | portfolio | monochrome, cool, dark | minimal, cinematic | [shashin-folio.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/shashin-folio.zip) |
-| [Yuzu Chaya](themes/yuzu-chaya) | Japanese tea and wagashi shops (WooCommerce store) | store | yellow, light | playful, modular | [yuzu-chaya.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/yuzu-chaya.zip) |
+| [Yuzu Chaya](themes/yuzu-chaya) | Japanese tea and wagashi shops (WooCommerce store) | store | green, neutral | minimal, editorial | [yuzu-chaya.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/yuzu-chaya.zip) |
 
 ## Install a theme
 

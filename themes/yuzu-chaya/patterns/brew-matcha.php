@@ -3,20 +3,24 @@
  * Title: Brewing guide — whisking matcha
  * Slug: yuzu-chaya/brew-matcha
  * Categories: yuzu-chaya, text, media
- * Keywords: matcha, whisk, chasen, how to
+ * Keywords: matcha, whisk, steps
  * Viewport Width: 1440
- * Description: A matcha tile with four numbered steps beside the whisking illustration.
+ * Description: Four numbered steps for whisking a bowl of matcha beside a photograph of the whisk at work (the photograph comes first on a phone).
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"yc-section","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-section" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"align":"wide","className":"yc-bento","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"grid","columnCount":12}} -->
-<div class="wp-block-group alignwide yc-bento"><!-- wp:group {"className":"yc-tile yc-tile--matcha","style":{"layout":{"columnSpan":6},"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--matcha"><!-- wp:paragraph {"className":"is-style-label"} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"yc-section","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yc-section"><!-- wp:group {"align":"wide","className":"yc-split yc-split--5-7 yc-split--flip yc-split--middle","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-split yc-split--5-7 yc-split--flip yc-split--middle"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"yc-figure"} -->
+<figure class="wp-block-image size-full yc-figure"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/matcha-whisking.jpg' ) ); ?>" alt="A bamboo whisk frothing bright matcha in a dark ceramic bowl" style="aspect-ratio:4/5;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"yc-stack","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-stack"><!-- wp:paragraph {"className":"is-style-label"} -->
 <p class="is-style-label">Matcha</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Whisking a <em>bowl</em></h3>
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Whisking a <em>bowl</em></h2>
 <!-- /wp:heading -->
 
 <!-- wp:list {"ordered":true,"className":"is-style-steps"} -->
@@ -37,15 +41,9 @@
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
-<!-- wp:paragraph {"className":"is-style-note"} -->
-<p class="is-style-note">No whisk yet? A small jar with a lid and a good shake works too.</p>
+<!-- wp:paragraph {"className":"is-style-fine"} -->
+<p class="is-style-fine">No whisk yet? A small jar with a lid and a good shake works too.</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"yc-tile yc-tile--image","style":{"layout":{"columnSpan":6}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--image"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/matcha-whisking.svg' ) ); ?>" alt="A bamboo whisk moving through bright green foam in a yellow bowl" style="aspect-ratio:4/3;object-fit:cover"/></figure>
-<!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

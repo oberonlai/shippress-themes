@@ -2,27 +2,29 @@
 /**
  * Title: The Steep — past letters
  * Slug: yuzu-chaya/past-letters
- * Categories: yuzu-chaya, columns
- * Keywords: newsletter, archive, past issues
+ * Categories: yuzu-chaya, text, columns
+ * Keywords: newsletter, archive, letters
  * Viewport Width: 1440
- * Description: Three tiles with past letters: number, title, a line about what was in it and the date in handwriting.
+ * Description: On kinari paper: three past letters, each with its number, title, a line about what was in it and the month.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"yc-section","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-section" style="margin-top:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"align":"wide","className":"yc-section-head","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
-<div class="wp-block-group alignwide yc-section-head"><!-- wp:heading -->
-<h2 class="wp-block-heading">Past <em>letters</em></h2>
-<!-- /wp:heading -->
+<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--kinari","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yc-section yc-section--kinari"><!-- wp:group {"align":"wide","className":"yc-head","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-head"><!-- wp:group {"className":"yc-head__titles","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-head__titles"><!-- wp:paragraph {"className":"is-style-label"} -->
+<p class="is-style-label">A taste of what you'd get</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"is-style-note"} -->
-<p class="is-style-note">A taste of what you'd get</p>
-<!-- /wp:paragraph --></div>
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Past <em>letters</em></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide","className":"yc-bento","style":{"spacing":{"margin":{"top":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"grid","columnCount":12}} -->
-<div class="wp-block-group alignwide yc-bento" style="margin-top:var(--wp--preset--spacing--40)"><!-- wp:group {"className":"yc-tile yc-tile--pale yc-lift","style":{"layout":{"columnSpan":4},"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--pale yc-lift"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">No. 31</p>
+<!-- wp:group {"align":"wide","className":"yc-cols yc-cols--3","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-cols yc-cols--3"><!-- wp:group {"className":"yc-card yc-card--text","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card yc-card--text"><!-- wp:paragraph {"className":"yc-item__no"} -->
+<p class="yc-item__no">No. 31</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -33,14 +35,14 @@
 <p>The first autumn hojicha, why we roast twice, and a chestnut sweet for the end of the month.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"is-style-note"} -->
-<p class="is-style-note">October 2026</p>
+<!-- wp:paragraph {"className":"is-style-fine"} -->
+<p class="is-style-fine">October 2026</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yc-tile yc-tile--leaf yc-lift","style":{"layout":{"columnSpan":4},"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--leaf yc-lift"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">No. 30</p>
+<!-- wp:group {"className":"yc-card yc-card--text","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card yc-card--text"><!-- wp:paragraph {"className":"yc-item__no"} -->
+<p class="yc-item__no">No. 30</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -51,14 +53,14 @@
 <p>Three cold brews we drank all August, a water-jelly recipe and the kiln's new cups.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"is-style-note"} -->
-<p class="is-style-note">September 2026</p>
+<!-- wp:paragraph {"className":"is-style-fine"} -->
+<p class="is-style-fine">September 2026</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yc-tile yc-lift","style":{"layout":{"columnSpan":4},"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-lift"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">No. 29</p>
+<!-- wp:group {"className":"yc-card yc-card--text","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card yc-card--text"><!-- wp:paragraph {"className":"yc-item__no"} -->
+<p class="yc-item__no">No. 29</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -69,8 +71,8 @@
 <p>Walking the rows with the Hatano family before the second picking, and what they had for lunch.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"is-style-note"} -->
-<p class="is-style-note">August 2026</p>
+<!-- wp:paragraph {"className":"is-style-fine"} -->
+<p class="is-style-fine">August 2026</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

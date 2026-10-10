@@ -5,24 +5,30 @@
  * Categories: yuzu-chaya, featured, columns
  * Keywords: products, tea, shop, shelf, featured
  * Viewport Width: 1440
- * Description: Four tea tiles in a bento row (two to a row on a phone), each with its picture, name, a handwritten note, price and brewing temperature, under a section title with a link to the shop.
+ * Description: Four teas in a row (two to a row on a phone), each with a tall photograph, name, a short note, price and brewing temperature, under a section title with a link to the shop.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-shelf","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-section yc-shelf" style="margin-top:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","className":"yc-section-head","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
-<div class="wp-block-group alignwide yc-section-head"><!-- wp:heading -->
-<h2 class="wp-block-heading">This week's <em>shelf</em></h2>
-<!-- /wp:heading -->
+<!-- wp:group {"tagName":"section","align":"full","className":"yc-section","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yc-section"><!-- wp:group {"align":"wide","className":"yc-head","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-head"><!-- wp:group {"className":"yc-head__titles","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-head__titles"><!-- wp:paragraph {"className":"is-style-label"} -->
+<p class="is-style-label">This week at the counter</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Four teas on the <em>shelf</em></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"yc-link"} -->
-<p class="yc-link"><a href="/shop/">The whole shop →</a></p>
+<p class="yc-link"><a href="/shop/">The whole shop</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide","className":"yc-bento yc-bento--quarters","style":{"spacing":{"margin":{"top":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"grid","columnCount":12}} -->
-<div class="wp-block-group alignwide yc-bento yc-bento--quarters" style="margin-top:var(--wp--preset--spacing--40)"><!-- wp:group {"className":"yc-tile yc-tea-card yc-lift yc-stretch yc-tile--sm","style":{"layout":{"columnSpan":3},"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tea-card yc-lift yc-stretch yc-tile--sm"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-asahi-sencha.svg' ) ); ?>" alt="Asahi Sencha: hand-drawn illustration" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- wp:group {"align":"wide","className":"yc-cols yc-cols--4 yc-cols--m2","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-cols yc-cols--4 yc-cols--m2"><!-- wp:group {"className":"yc-card","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"yc-figure"} -->
+<figure class="wp-block-image size-full yc-figure"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-asahi-sencha.jpg' ) ); ?>" alt="A small heap of deep green sencha needles on a pale dish" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"is-style-label"} -->
@@ -33,24 +39,24 @@
 <h3 class="wp-block-heading"><a href="/shop/">Asahi Sencha</a></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"is-style-note"} -->
-<p class="is-style-note">The tea we drink first thing every morning.</p>
+<!-- wp:paragraph -->
+<p>The tea we drink first thing every morning.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"yc-tea-card__foot","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
-<div class="wp-block-group yc-tea-card__foot"><!-- wp:paragraph {"className":"yc-price"} -->
+<!-- wp:group {"className":"yc-card__foot","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card__foot"><!-- wp:paragraph {"className":"yc-price"} -->
 <p class="yc-price">$16</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"yc-small-print"} -->
-<p class="yc-small-print">70°C · 1 min</p>
+<!-- wp:paragraph {"className":"yc-fine"} -->
+<p class="yc-fine">70°C · 1 min</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yc-tile yc-tile--pale yc-tea-card yc-lift yc-stretch yc-tile--sm","style":{"layout":{"columnSpan":3},"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--pale yc-tea-card yc-lift yc-stretch yc-tile--sm"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-twice-roasted-hojicha.svg' ) ); ?>" alt="Twice-Roasted Hojicha: hand-drawn illustration" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- wp:group {"className":"yc-card","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"yc-figure"} -->
+<figure class="wp-block-image size-full yc-figure"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-twice-roasted-hojicha.jpg' ) ); ?>" alt="A heap of roasted brown hojicha stems and leaves on a pale dish" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"is-style-label"} -->
@@ -61,24 +67,24 @@
 <h3 class="wp-block-heading"><a href="/shop/">Twice-Roasted Hojicha</a></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"is-style-note"} -->
-<p class="is-style-note">Our evening tea. Smells like the shop in October.</p>
+<!-- wp:paragraph -->
+<p>Our evening tea. Smells like the shop in October.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"yc-tea-card__foot","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
-<div class="wp-block-group yc-tea-card__foot"><!-- wp:paragraph {"className":"yc-price"} -->
+<!-- wp:group {"className":"yc-card__foot","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card__foot"><!-- wp:paragraph {"className":"yc-price"} -->
 <p class="yc-price">$14</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"yc-small-print"} -->
-<p class="yc-small-print">95°C · 30 s</p>
+<!-- wp:paragraph {"className":"yc-fine"} -->
+<p class="yc-fine">95°C · 30 s</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yc-tile yc-tile--leaf yc-tea-card yc-lift yc-stretch yc-tile--sm","style":{"layout":{"columnSpan":3},"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--leaf yc-tea-card yc-lift yc-stretch yc-tile--sm"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-hikari-matcha.svg' ) ); ?>" alt="Hikari Ceremonial Matcha: hand-drawn illustration" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- wp:group {"className":"yc-card","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"yc-figure"} -->
+<figure class="wp-block-image size-full yc-figure"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-hikari-matcha.jpg' ) ); ?>" alt="A small mound of vivid green matcha on a pale dish with a bamboo scoop" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"is-style-label"} -->
@@ -89,24 +95,24 @@
 <h3 class="wp-block-heading"><a href="/shop/">Hikari Ceremonial Matcha</a></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"is-style-note"} -->
-<p class="is-style-note">Creamy enough to drink without milk.</p>
+<!-- wp:paragraph -->
+<p>Creamy enough to drink without milk.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"yc-tea-card__foot","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
-<div class="wp-block-group yc-tea-card__foot"><!-- wp:paragraph {"className":"yc-price"} -->
+<!-- wp:group {"className":"yc-card__foot","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card__foot"><!-- wp:paragraph {"className":"yc-price"} -->
 <p class="yc-price">$28</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"yc-small-print"} -->
-<p class="yc-small-print">80°C · whisk 15 s</p>
+<!-- wp:paragraph {"className":"yc-fine"} -->
+<p class="yc-fine">80°C · whisk 15 s</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yc-tile yc-tile--pale yc-tea-card yc-lift yc-stretch yc-tile--sm","style":{"layout":{"columnSpan":3},"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--pale yc-tea-card yc-lift yc-stretch yc-tile--sm"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-yuzu-sencha.svg' ) ); ?>" alt="Yuzu Sencha: hand-drawn illustration" style="aspect-ratio:1;object-fit:cover"/></figure>
+<!-- wp:group {"className":"yc-card","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"yc-figure"} -->
+<figure class="wp-block-image size-full yc-figure"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-yuzu-sencha.jpg' ) ); ?>" alt="Green sencha needles flecked with dried yuzu peel in a pale bowl" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"is-style-label"} -->
@@ -117,17 +123,17 @@
 <h3 class="wp-block-heading"><a href="/shop/">Yuzu Sencha</a></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"is-style-note"} -->
-<p class="is-style-note">Once a year, until the peel runs out.</p>
+<!-- wp:paragraph -->
+<p>Once a year, until the peel runs out.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"yc-tea-card__foot","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
-<div class="wp-block-group yc-tea-card__foot"><!-- wp:paragraph {"className":"yc-price"} -->
+<!-- wp:group {"className":"yc-card__foot","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-card__foot"><!-- wp:paragraph {"className":"yc-price"} -->
 <p class="yc-price">$17</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"yc-small-print"} -->
-<p class="yc-small-print">75°C · 1 min</p>
+<!-- wp:paragraph {"className":"yc-fine"} -->
+<p class="yc-fine">75°C · 1 min</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

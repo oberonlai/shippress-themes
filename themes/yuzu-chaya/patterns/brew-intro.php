@@ -2,61 +2,75 @@
 /**
  * Title: Brewing guide — page head
  * Slug: yuzu-chaya/brew-intro
- * Categories: yuzu-chaya, featured, banner
- * Keywords: brewing, guide, how to, temperature
+ * Categories: yuzu-chaya, banner
+ * Keywords: brewing, guide, intro, temperature
  * Viewport Width: 1440
- * Description: The brewing guide opening: a pale matcha title tile, the cooling-cups illustration and three tiles with the basic numbers (leaf, water, time).
+ * Description: The brewing guide opening: a large title and introduction, a line diagram of brewing temperatures and three facts (leaf, water, time) divided by hairlines.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"yc-page-head","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-page-head" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide","className":"yc-bento","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"grid","columnCount":12}} -->
-<div class="wp-block-group alignwide yc-bento"><!-- wp:group {"className":"yc-tile yc-tile--leaf","style":{"layout":{"columnSpan":7},"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--leaf"><!-- wp:paragraph {"className":"is-style-label"} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"yc-page-head","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yc-page-head"><!-- wp:group {"align":"wide","className":"yc-split yc-split--7-5 yc-split--end","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-split yc-split--7-5 yc-split--end"><!-- wp:group {"className":"yc-page-head__intro","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-page-head__intro"><!-- wp:paragraph {"className":"is-style-label"} -->
 <p class="is-style-label">Brewing guide</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">Brew it <em>gently</em></h1>
-<!-- /wp:heading -->
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
 
-<!-- wp:paragraph {"className":"is-style-lead"} -->
+<!-- wp:group {"className":"yc-stack","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-stack"><!-- wp:paragraph {"className":"is-style-lead"} -->
 <p class="is-style-lead">Japanese green tea is generous, but it does not like boiling water. Here is how we brew every tea in the shop: how much leaf, how hot, how long, and what to do with the second cup.</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yc-tile yc-tile--image","style":{"layout":{"columnSpan":5}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--image"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/brewing-temperatures.svg' ) ); ?>" alt="Three cups in a row, brown, yellow and green, with less steam rising from each one" style="aspect-ratio:4/3;object-fit:cover"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:group -->
+<!-- wp:image {"align":"wide","sizeSlug":"full","linkDestination":"none","className":"yc-figure yc-diagram yc-diagram--wide"} -->
+<figure class="wp-block-image alignwide size-full yc-figure yc-diagram yc-diagram--wide"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/brewing-temperatures.svg' ) ); ?>" alt="A line scale of water temperatures from 60 to 100°C marking matcha and sencha at the cool end, genmaicha and hojicha near boiling"/></figure>
+<!-- /wp:image -->
 
-<!-- wp:group {"className":"yc-tile yc-tile--pale yc-tile--sm","style":{"layout":{"columnSpan":4},"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--pale yc-tile--sm"><!-- wp:paragraph {"className":"yc-big"} -->
-<p class="yc-big">4<sup>g</sup></p>
+<!-- wp:group {"align":"wide","className":"yc-facts","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-facts"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"className":"is-style-label"} -->
+<p class="is-style-label">Leaf</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"yc-small-print"} -->
-<p class="yc-small-print">of leaf, about one heaped teaspoon</p>
+<!-- wp:paragraph {"className":"yc-num"} -->
+<p class="yc-num">4 g</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>of leaf, about one heaped teaspoon.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yc-tile yc-tile--sm","style":{"layout":{"columnSpan":4},"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--sm"><!-- wp:paragraph {"className":"yc-big"} -->
-<p class="yc-big">150<sup>ml</sup></p>
+<!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"className":"is-style-label"} -->
+<p class="is-style-label">Water</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"yc-small-print"} -->
-<p class="yc-small-print">of soft water, for one cup</p>
+<!-- wp:paragraph {"className":"yc-num"} -->
+<p class="yc-num">150 ml</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>of soft water, for one cup.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yc-tile yc-tile--yuzu","style":{"layout":{"columnSpan":4},"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--yuzu"><!-- wp:paragraph {"className":"yc-big"} -->
-<p class="yc-big">60<sup>s</sup></p>
+<!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"className":"is-style-label"} -->
+<p class="is-style-label">Time</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"yc-small-print"} -->
-<p class="yc-small-print">for the first cup, then shorter for the next three</p>
+<!-- wp:paragraph {"className":"yc-num"} -->
+<p class="yc-num">60 s</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>for the first cup, then shorter for the next three.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

@@ -83,42 +83,30 @@ add_filter( 'hooked_block_types', 'yuzu_chaya_header_shop_blocks', 20, 4 );
 function yuzu_chaya_block_styles() {
 	$styles = array(
 		'core/paragraph' => array(
-			'label' => __( 'Label (small capitals with a yuzu dot)', 'yuzu-chaya' ),
-			'note'  => __( 'Handwritten note', 'yuzu-chaya' ),
+			'label' => __( 'Label (small capitals after a hairline)', 'yuzu-chaya' ),
 			'lead'  => __( 'Lead paragraph', 'yuzu-chaya' ),
-			'temp'  => __( 'Temperature sticker (round)', 'yuzu-chaya' ),
+			'fine'  => __( 'Fine print', 'yuzu-chaya' ),
+			'dot'   => __( 'Yuzu dot (use once on a page)', 'yuzu-chaya' ),
 		),
 		'core/heading'   => array(
-			'label' => __( 'Label (small capitals with a yuzu dot)', 'yuzu-chaya' ),
+			'label' => __( 'Label (small capitals after a hairline)', 'yuzu-chaya' ),
 		),
 		'core/group'     => array(
-			'tile'        => __( 'Tile (washi)', 'yuzu-chaya' ),
-			'tile-yuzu'   => __( 'Tile (yuzu yellow)', 'yuzu-chaya' ),
-			'tile-matcha' => __( 'Tile (fresh matcha)', 'yuzu-chaya' ),
-			'tile-ink'    => __( 'Tile (charcoal ink)', 'yuzu-chaya' ),
-			'reveal'      => __( 'Gentle reveal on scroll', 'yuzu-chaya' ),
-		),
-		'core/image'     => array(
-			'sticker' => __( 'Sticker (white border, tilted)', 'yuzu-chaya' ),
-			'blob'    => __( 'Blob (soft round crop)', 'yuzu-chaya' ),
+			'reveal' => __( 'Gentle fade on scroll', 'yuzu-chaya' ),
 		),
 		'core/separator' => array(
-			'squiggle' => __( 'Squiggle (hand-drawn wave)', 'yuzu-chaya' ),
+			'short' => __( 'Short sencha rule', 'yuzu-chaya' ),
 		),
 		'core/button'    => array(
-			'yuzu'       => __( 'Yuzu (yellow pill)', 'yuzu-chaya' ),
-			'arrow-link' => __( 'Arrow link', 'yuzu-chaya' ),
+			'text-link' => __( 'Text link with an arrow', 'yuzu-chaya' ),
 		),
 		'core/table'     => array(
-			'brew' => __( 'Brewing chart (rounded rows)', 'yuzu-chaya' ),
-			'info' => __( 'Info (dotted rows)', 'yuzu-chaya' ),
+			'chart' => __( 'Brewing chart (hairline rows)', 'yuzu-chaya' ),
+			'info'  => __( 'Info (label and value rows)', 'yuzu-chaya' ),
 		),
 		'core/list'      => array(
-			'steps'  => __( 'Steps (numbered circles)', 'yuzu-chaya' ),
-			'leaves' => __( 'Leaves (a tea leaf per item)', 'yuzu-chaya' ),
-		),
-		'core/quote'     => array(
-			'speech' => __( 'Speech bubble', 'yuzu-chaya' ),
+			'steps'    => __( 'Steps (numbered, hairline rows)', 'yuzu-chaya' ),
+			'hairline' => __( 'Hairline rows', 'yuzu-chaya' ),
 		),
 	);
 
@@ -144,7 +132,7 @@ function yuzu_chaya_pattern_categories() {
 		'yuzu-chaya',
 		array(
 			'label'       => __( 'Yuzu Chaya', 'yuzu-chaya' ),
-			'description' => __( 'Bento-box sections for a tea and wagashi shop: the tea shelf, brewing temperatures, seasonal sweets, the monthly tea box, the journal, the newsletter and a visit.', 'yuzu-chaya' ),
+			'description' => __( 'Quiet editorial sections for a tea and wagashi shop: the tea shelf, brewing temperatures, seasonal sweets, the monthly tea box, the journal, the newsletter and a visit.', 'yuzu-chaya' ),
 		)
 	);
 }

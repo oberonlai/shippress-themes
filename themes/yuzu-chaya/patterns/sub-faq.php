@@ -3,15 +3,15 @@
  * Title: Tea box — questions
  * Slug: yuzu-chaya/sub-faq
  * Categories: yuzu-chaya, text
- * Keywords: faq, questions, subscription, pause, gift
+ * Keywords: faq, questions, subscription
  * Viewport Width: 1440
- * Description: An ink tile with the section title beside a list of subscription questions that open on click.
+ * Description: On kinari paper: the section title beside subscription questions in hairline rows that open on click.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"yc-section","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-section" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"align":"wide","className":"yc-bento","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"grid","columnCount":12}} -->
-<div class="wp-block-group alignwide yc-bento"><!-- wp:group {"className":"yc-tile yc-tile--ink yc-motif yc-motif--steam","style":{"layout":{"columnSpan":4},"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--ink yc-motif yc-motif--steam"><!-- wp:paragraph {"className":"is-style-label"} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--kinari","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yc-section yc-section--kinari"><!-- wp:group {"align":"wide","className":"yc-split yc-split--4-7 yc-split--sticky","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-split yc-split--4-7 yc-split--sticky"><!-- wp:group {"className":"yc-stack","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-stack"><!-- wp:paragraph {"className":"is-style-label"} -->
 <p class="is-style-label">Questions</p>
 <!-- /wp:paragraph -->
 
@@ -24,7 +24,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yc-faq","style":{"layout":{"columnSpan":8}},"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"yc-faq","layout":{"type":"default"}} -->
 <div class="wp-block-group yc-faq"><!-- wp:details -->
 <details class="wp-block-details"><summary>When does the box arrive?</summary><!-- wp:paragraph -->
 <p>We pack on the last Thursday of the month and post on the first Friday. Most boxes arrive the following week.</p>

@@ -2,16 +2,16 @@
 /**
  * Title: Contact — page head
  * Slug: yuzu-chaya/contact-intro
- * Categories: yuzu-chaya, featured, banner
- * Keywords: contact, hours, visit, intro
+ * Categories: yuzu-chaya, banner, contact
+ * Keywords: contact, hours, intro
  * Viewport Width: 1440
- * Description: The contact page opening: a pale title tile beside a yuzu tile with the opening hours.
+ * Description: The contact page opening: a large title and introduction beside the opening hours in hairline rows.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"yc-page-head","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-page-head" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide","className":"yc-bento","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"grid","columnCount":12}} -->
-<div class="wp-block-group alignwide yc-bento"><!-- wp:group {"className":"yc-tile yc-tile--pale","style":{"layout":{"columnSpan":8},"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--pale"><!-- wp:paragraph {"className":"is-style-label"} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"yc-page-head","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yc-page-head"><!-- wp:group {"align":"wide","className":"yc-split yc-split--6-5 yc-split--end","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-split yc-split--6-5 yc-split--end"><!-- wp:group {"className":"yc-page-head__intro","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-page-head__intro"><!-- wp:paragraph {"className":"is-style-label"} -->
 <p class="is-style-label">Visit &amp; contact</p>
 <!-- /wp:paragraph -->
 
@@ -24,8 +24,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yc-tile yc-tile--yuzu yc-motif yc-motif--yuzu yc-motif--bottom","style":{"layout":{"columnSpan":4},"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--yuzu yc-motif yc-motif--yuzu yc-motif--bottom"><!-- wp:paragraph {"className":"is-style-label"} -->
+<!-- wp:group {"className":"yc-stack","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-stack"><!-- wp:paragraph {"className":"is-style-label"} -->
 <p class="is-style-label">Opening hours</p>
 <!-- /wp:paragraph -->
 

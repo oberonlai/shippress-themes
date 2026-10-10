@@ -2,38 +2,34 @@
 /**
  * Title: Visit — hours and the way to the shop
  * Slug: yuzu-chaya/visit-cta
- * Categories: yuzu-chaya, call-to-action
- * Keywords: visit, hours, map, address, contact
+ * Categories: yuzu-chaya, call-to-action, contact
+ * Keywords: visit, hours, address, map
  * Viewport Width: 1440
- * Description: A map tile beside an ink tile with the opening hours, the address and a button to the contact page.
+ * Description: On kinari paper: a simple line map beside the opening hours, the address and a link to the contact page.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-visit","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-section yc-visit" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"align":"wide","className":"yc-bento","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"grid","columnCount":12}} -->
-<div class="wp-block-group alignwide yc-bento"><!-- wp:group {"className":"yc-tile yc-tile--image","style":{"layout":{"columnSpan":7}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--image"><!-- wp:image {"aspectRatio":"16/10","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/area-map.svg' ) ); ?>" alt="A hand-drawn map: the river, the station and the shop marked with a yuzu" style="aspect-ratio:16/10;object-fit:cover"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:group -->
+<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--kinari","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yc-section yc-section--kinari"><!-- wp:group {"align":"wide","className":"yc-split yc-split--6-5 yc-split--middle","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-split yc-split--6-5 yc-split--middle"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"yc-figure yc-diagram"} -->
+<figure class="wp-block-image size-full yc-figure yc-diagram"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/area-map.svg' ) ); ?>" alt="A simple line map: the station, the river, the bridge, the bakery corner and the shop on Kihada-dori"/></figure>
+<!-- /wp:image -->
 
-<!-- wp:group {"className":"yc-tile yc-tile--ink yc-motif yc-motif--steam","style":{"layout":{"columnSpan":5},"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group yc-tile yc-tile--ink yc-motif yc-motif--steam"><!-- wp:paragraph {"className":"is-style-label"} -->
+<!-- wp:group {"className":"yc-stack yc-stack--loose","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-stack yc-stack--loose"><!-- wp:paragraph {"className":"is-style-label"} -->
 <p class="is-style-label">Come by the counter</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Tea is better <em>in person</em></h3>
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Tea is better in <em>person</em></h2>
 <!-- /wp:heading -->
 
 <!-- wp:table {"className":"is-style-info"} -->
-<figure class="wp-block-table is-style-info"><table class="has-fixed-layout"><tbody><tr><td>Thursday — Monday</td><td>10:00 — 18:00</td></tr><tr><td>Tasting at the counter</td><td>Free, every afternoon</td></tr><tr><td>Address</td><td>2-8 Kihada-dori, Aoi-ku, Shizuoka</td></tr></tbody></table></figure>
+<figure class="wp-block-table is-style-info"><table class="has-fixed-layout"><tbody><tr><td>Thursday — Monday</td><td>10:00 — 18:00</td></tr><tr><td>Tasting</td><td>Free, every afternoon</td></tr><tr><td>Address</td><td>2-8 Kihada-dori, Aoi-ku, Shizuoka</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">How to find us</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
+<!-- wp:paragraph {"className":"yc-link"} -->
+<p class="yc-link"><a href="/contact/">How to find us</a></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
