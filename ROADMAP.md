@@ -57,7 +57,7 @@ Status values: todo / claimed (date) / done (commit, date). No two adjacent rows
 
 | # | Batch | Name / slug | Industry | Type | Palette | Fonts | Style | H | F | L | Motif / extra pages | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 1 | Hakuba Dental / hakuba-dental | dental clinic | health | #FFFFFF #E8F1F8 #2F7FC1 #0F2A44 / blue, light | Sora + Inter | clean, clinical | H9 | F11 | L6 | tooth-shaped bento cells; treatments, fees, first visit | done (commit TBD, 2026-10-10) |
+| 1 | 1 | Hakuba Dental / hakuba-dental | dental clinic | health | #FFFFFF #E8F1F8 #2F7FC1 #0F2A44 / blue, light | Sora + Inter | clean, clinical | H9 | F11 | L6 | tooth-shaped bento cells; treatments, fees, first visit | done (36971f1, 2026-10-10) |
 | 2 | 1 | Komugi Pan / komugi-pan | bakery | store | #F6E7D3 #C9893F #5A3A22 #FFFFFF / orange-brown, mid | Young Serif + Outfit | warm, playful | H2 | F8 | L11 | flour-dust texture, daily bake board; bake schedule | todo |
 | 3 | 1 | Kaze Yoga / kaze-yoga | yoga studio | health | #EEF0EB #9AAE9A #2E3B34 / sage, light | Gowun Batang + Lexend | calm, airy | H4 | F7 | L13 | breath-wave line; timetable, teachers, trial | todo |
 | 4 | 1 | Kami Salon / kami-salon | hair salon | business | #111111 #F2F2F2 #E5007E / black + magenta, dark | Syne + Inter | edgy, fashion | H10 | F1 | L8 | scissor-cut diagonal crops; stylists, menu, booking | todo |
