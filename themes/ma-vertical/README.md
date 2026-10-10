@@ -14,7 +14,7 @@ All sample copy is in English. The sample studio, **Margin Atelier** in Kyoto, h
 
 | Axis | Choice |
 |------|--------|
-| Palette (warm, earthy) | Washi paper `#F6F3EC`, sumi ink `#1F1E1C`, hairline `#D8D2C6`, one vermilion seal accent, **Shu** `#B5523B`. Supporting tones: Kinari `#ECE7DC`, Usuzumi `#4A4743`, Nezumi `#8C877E` |
+| Palette (warm, earth) | Washi paper `#F6F3EC`, sumi ink `#1F1E1C`, hairline `#D8D2C6`, one vermilion seal accent, **Shu** `#B5523B`. Supporting tones: Kinari `#ECE7DC`, Usuzumi `#4A4743`, Nezumi `#8C877E` |
 | Style | Vertical type + wabi-sabi + minimal |
 | Type | Serif (Shippori Mincho) for display and vertical titles; sans (Zen Kaku Gothic New) for horizontal body text. Both fonts are bundled (Latin subsets, SIL OFL 1.1) and registered in `theme.json`, with system fallbacks |
 | Layout | Wide margins, long vertical rhythm, hairline rules, ink-wash and enso SVG ornaments. No busy grids |

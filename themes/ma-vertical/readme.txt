@@ -72,5 +72,8 @@ screenshot.png: a screenshot of this theme's home page rendered on WordPress wit
 
 == Changelog ==
 
+= 1.0.1 =
+* Catalogue colour tag "earthy" renamed to "earth" (shared spelling across themes). No design changes.
+
 = 1.0.0 =
 * Initial release.
