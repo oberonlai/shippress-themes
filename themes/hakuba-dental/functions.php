@@ -10,6 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require_once get_template_directory() . '/inc/demo-import.php';
+require_once get_template_directory() . '/inc/clinic-info.php';
 
 define( 'HAKUBA_DENTAL_VERSION', wp_get_theme()->get( 'Version' ) );
 

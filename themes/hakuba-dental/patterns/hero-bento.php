@@ -49,9 +49,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hd-cell hd-cell--blue hd-cell--link hd-c-3 hd-today-cell","layout":{"type":"default"}} -->
-<div class="wp-block-group hd-cell hd-cell--blue hd-cell--link hd-c-3 hd-today-cell"><!-- wp:paragraph {"className":"hd-today"} -->
-<p class="hd-today"><span class="hd-today__all">Mon–Sat from 9:00, closed Sundays</span><span class="hd-today__day hd-today__day--mon"><strong>Open today</strong> 9:00–13:00 · 14:30–18:30</span><span class="hd-today__day hd-today__day--tue"><strong>Open today</strong> 9:00–13:00 · 14:30–18:30</span><span class="hd-today__day hd-today__day--wed"><strong>Open today</strong> 9:00–13:00 · 14:30–18:30</span><span class="hd-today__day hd-today__day--thu"><strong>Open today</strong> 9:00–13:00</span><span class="hd-today__day hd-today__day--fri"><strong>Open today</strong> 9:00–13:00 · 14:30–18:30</span><span class="hd-today__day hd-today__day--sat"><strong>Open today</strong> 9:00–13:00</span><span class="hd-today__day hd-today__day--sun"><strong>Closed today</strong> Back on Monday at 9:00</span></p>
-<!-- /wp:paragraph -->
+<div class="wp-block-group hd-cell hd-cell--blue hd-cell--link hd-c-3 hd-today-cell"><!-- wp:hakuba-dental/clinic-info {"show":"today"} /-->
 
 <!-- wp:paragraph {"className":"hd-cell__link"} -->
 <p class="hd-cell__link"><a href="#hours">This week's hours <span aria-hidden="true">→</span></a></p>

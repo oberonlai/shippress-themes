@@ -44,9 +44,7 @@
 <h3 class="wp-block-heading hd-ico hd-ico--pin">The clinic</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>Hakuba Dental Clinic<br>2F Shirakaba Building, 5-3-1 Hakubazaka<br>Bunkyo, Tokyo 113-0000</p>
-<!-- /wp:paragraph -->
+<!-- wp:hakuba-dental/clinic-info {"show":"address"} /-->
 
 <!-- wp:paragraph {"className":"is-style-fine"} -->
 <p class="is-style-fine">Four minutes from Hakubazaka station, exit 2. Lift from the street.</p>
@@ -58,9 +56,7 @@
 <h3 class="wp-block-heading hd-ico hd-ico--phone">Call or write</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p><a href="tel:+81355550148">03-5555-0148</a><br><a href="mailto:hello@hakuba-dental.example">hello@hakuba-dental.example</a></p>
-<!-- /wp:paragraph --></div>
+<!-- wp:hakuba-dental/clinic-info {"show":"phone-email"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hd-cell hd-cell--blue hd-c-5","layout":{"type":"default"}} -->

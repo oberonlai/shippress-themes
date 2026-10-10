@@ -20,18 +20,18 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Book online, call 03-5555-0148, or ask at the desk. Tell us if you are nervous, if something hurts, or if you would like to bring someone with you.</p>
+<p>Book online, call us, or ask at the desk. Tell us if you are nervous, if something hurts, or if you would like to bring someone with you.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons -->
+<!-- wp:group {"className":"hd-actions","layout":{"type":"flex","flexWrap":"wrap"}} -->
+<div class="wp-block-group hd-actions"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a visit</a></div>
-<!-- /wp:button -->
-
-<!-- wp:button {"className":"is-style-soft"} -->
-<div class="wp-block-button is-style-soft"><a class="wp-block-button__link wp-element-button" href="tel:+81355550148">Call 03-5555-0148</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:hakuba-dental/clinic-info {"show":"call-button"} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hd-cell hd-cell--photo hd-cell--crown hd-c-5","layout":{"type":"default"}} -->

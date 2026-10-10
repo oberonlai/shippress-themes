@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"is-style-lead"} -->
-<p class="is-style-lead">The quickest way is to call 03-5555-0148. You can also send the form below and we will reply within a working day with two or three times to choose from.</p>
+<p class="is-style-lead">The quickest way is to call us (the number is below). You can also send the form below and we will reply within a working day with two or three times to choose from.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

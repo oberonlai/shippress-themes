@@ -20,7 +20,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 
 On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php, driven by demo-content.json): it creates its pages with all their text and images, sample journal posts with categories and tags, the menu, and sets the front page and posts page. Then you only change the text, the hours and the fees and swap in your own pictures. It never changes or deletes existing content, and running it again only adds what is missing. If the automatic setup did not run, use the "Import demo content" button shown in wp-admin, or run: wp shippress demo-import
 
-The opening hours appear in three places: the header strip (parts/header.html, one line per weekday; the visitor's weekday is picked by a one-line inline script, assets/js/today.js), the footer table (parts/footer.html) and the contact page. Edit all three when your hours change.
+Your opening hours, phone number, email and address are kept in one place: Appearance > Clinic details. Change them there once and the header strip, the home page's "today" cell, the footer and the Contact page all update (they show the theme's "Clinic details" block, inc/clinic-info.php). Each weekday's hours are worked out from the hours table, and the visitor's weekday is picked by a one-line inline script, assets/js/today.js.
 
 The sample clinic, its people, address, telephone number and fees are fictional. The site content is general information, not medical advice. The contact and newsletter forms are plain HTML: connect their action to your own form or email service.
 
@@ -79,6 +79,10 @@ The brand mark (a tooth drawn as one inline SVG path in parts/header.html), the 
 screenshot.png: a rendering of this theme's home page design with its own sample content and photographs, Copyright 2026 ShipPress contributors, License: GPL-2.0-or-later.
 
 == Changelog ==
+
+= 1.0.1 =
+* Opening hours, phone, email and address now live in one place, Appearance > Clinic details, instead of being typed separately into the header, footer, home page and Contact page. A new "Clinic details" block shows them in each place; the header's "Open today" line, the closed-day dot and the hours tables are all worked out from the same hours.
+* Sites set up with 1.0.0 keep their sample details until the form is saved. If you had already edited the header or footer in the Site Editor, your edited copy is kept: replace its hours, phone and address with the Clinic details block to use the single source.
 
 = 1.0.0 =
 * Initial release.

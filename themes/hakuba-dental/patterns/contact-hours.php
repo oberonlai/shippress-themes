@@ -19,9 +19,7 @@
 <h3 class="wp-block-heading">When we are open</h3>
 <!-- /wp:heading -->
 
-<!-- wp:table {"hasFixedLayout":false,"className":"is-style-hours"} -->
-<figure class="wp-block-table is-style-hours"><table><thead><tr><th>Hours</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead><tbody><tr><td>9:00–13:00</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>–</td></tr><tr><td>14:30–18:30</td><td>✓</td><td>✓</td><td>✓</td><td>–</td><td>✓</td><td>–</td><td>–</td></tr></tbody></table><figcaption class="wp-element-caption">✓ open · – closed. Closed on Sundays and public holidays.</figcaption></figure>
-<!-- /wp:table --></div>
+<!-- wp:hakuba-dental/clinic-info {"show":"hours"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hd-cell hd-c-4","layout":{"type":"default"}} -->
