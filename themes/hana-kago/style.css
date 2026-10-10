@@ -1,0 +1,1231 @@
+/*
+Theme Name: Hana Kago
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/hana-kago
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Hana Kago — a romantic, lush store theme for florists who sell bouquets, baskets, dried flowers, wreaths and flower subscriptions online, with WooCommerce templates styled to match. Blush-paper pages with a faint paper grain drawn in CSS, coral petals and deep leaf green, DM Serif Display headings (with its italic for the tender words) over DM Sans text. A header that lies transparent over the photograph and turns into blush paper as you scroll, a home page laid out as a pressed-flower masonry: every bouquet, quote and note sits on a card with soft, deckled paper edges and album photo corners, a little askew, like specimens pressed into a book. The footer opens with the Monday stem letter (a newsletter-led block) before the shop details and the menu. Pages for home, the shop, delivery (areas, cut-off times and fees), subscriptions (weekly, fortnightly and monthly), about, the journal, a newsletter and contact, plus shop, product, cart, checkout, account, order confirmation and product search templates (WooCommerce optional: without it the shop page shows every bouquet with prices and orders go by phone or email). The address, hours, phone, email and social links, and the delivery areas with their cut-off times and fees, live in two synced patterns, so they are edited once.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hana-kago
+Tags: block-patterns, full-site-editing, e-commerce, blog, pink, orange, green, light, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, one-column, two-columns, three-columns, grid-layout
+*/
+
+/* ==========================================================================
+   0. Tokens + base
+   ========================================================================== */
+
+:root {
+	--hk-paper: var(--wp--preset--color--paper);
+	--hk-card: var(--wp--preset--color--card);
+	--hk-petal: var(--wp--preset--color--petal);
+	--hk-coral: var(--wp--preset--color--coral);
+	--hk-coral-deep: var(--wp--preset--color--coral-deep);
+	--hk-leaf: var(--wp--preset--color--leaf);
+	--hk-moss: var(--wp--preset--color--moss);
+	--hk-ink: var(--wp--preset--color--ink);
+	--hk-muted: var(--wp--custom--muted);
+	--hk-line: var(--wp--custom--line);
+	--hk-line-strong: var(--wp--custom--line-strong);
+	--hk-blush: var(--wp--custom--blush-on-dark);
+	--hk-ease: var(--wp--custom--ease);
+	--hk-header-h: var(--wp--custom--header-height);
+	--hk-serif: var(--wp--preset--font-family--serif);
+	--hk-sans: var(--wp--preset--font-family--sans);
+	--hk-gap: clamp(1rem, 2.2vw, 2rem);
+	/* Paper grain: coral, green and white specks on prime-sized tiles, so the pattern never visibly repeats. */
+	--hk-grain:
+		radial-gradient(circle at 17% 31%, rgba(166, 63, 44, .07) 0 .8px, transparent 1.3px),
+		radial-gradient(circle at 63% 72%, rgba(62, 92, 58, .06) 0 .9px, transparent 1.4px),
+		radial-gradient(circle at 88% 14%, rgba(255, 255, 255, .7) 0 1.1px, transparent 1.7px);
+	--hk-grain-size: 31px 37px, 43px 41px, 53px 47px;
+	/* Deckled (soft, torn) paper edge: an inset rectangle plus rows of bumps of two sizes on every side. The two
+	   frequencies never line up, so the edge looks hand-torn rather than scalloped. Used as a mask. */
+	--hk-deckle:
+		linear-gradient(#000 0 0) 50% 50% / calc(100% - 14px) calc(100% - 14px) no-repeat,
+		radial-gradient(circle at 50% 100%, #000 6.1px, #0000 6.9px) 0 0 / 9px 8px repeat-x,
+		radial-gradient(circle at 50% 100%, #000 7.6px, #0000 8.4px) 4px 0 / 14px 9px repeat-x,
+		radial-gradient(circle at 50% 0, #000 6.1px, #0000 6.9px) 3px 100% / 9px 8px repeat-x,
+		radial-gradient(circle at 50% 0, #000 7.6px, #0000 8.4px) 0 100% / 13px 9px repeat-x,
+		radial-gradient(circle at 100% 50%, #000 6.1px, #0000 6.9px) 0 2px / 8px 9px repeat-y,
+		radial-gradient(circle at 100% 50%, #000 7.6px, #0000 8.4px) 0 6px / 9px 14px repeat-y,
+		radial-gradient(circle at 0 50%, #000 6.1px, #0000 6.9px) 100% 5px / 8px 9px repeat-y,
+		radial-gradient(circle at 0 50%, #000 7.6px, #0000 8.4px) 100% 0 / 9px 13px repeat-y;
+	--hk-shadow: drop-shadow(0 1px 1px rgba(42, 63, 39, .08)) drop-shadow(0 16px 22px rgba(42, 63, 39, .1));
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--hk-header-h) + 1rem); }
+
+body {
+	background-image: var(--hk-grain);
+	background-size: var(--hk-grain-size);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+img { display: block; max-width: 100%; height: auto; }
+
+.wp-site-blocks > * { margin-block-start: 0; }
+
+:where(.wp-block-post-content) > .alignfull { margin-block: 0; }
+
+:where(h1, h2, h3, h4) { text-wrap: balance; }
+
+:where(p) { text-wrap: pretty; }
+
+/* The tender words in a title: DM Serif Display italic, in deep coral. */
+:where(h1, h2, h3, .wp-block-post-title) em {
+	font-style: italic;
+	color: var(--hk-coral-deep);
+}
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+	outline: 2px solid var(--hk-coral-deep);
+	outline-offset: 3px;
+	border-radius: 4px;
+}
+
+.skip-link.screen-reader-text:focus { background: var(--hk-card); color: var(--hk-ink); }
+
+::selection { background: color-mix(in srgb, var(--hk-coral) 35%, transparent); }
+
+hr.wp-block-separator { border: 0; border-top: 1px solid var(--hk-line-strong); opacity: 1; }
+
+/* A stem with one petal: a thin green line ending in a coral petal. */
+hr.wp-block-separator.is-style-stem {
+	width: min(14rem, 60%);
+	height: 14px;
+	border: 0;
+	margin-inline: 0;
+	background:
+		radial-gradient(ellipse 7px 4px at calc(100% - 7px) 50%, var(--hk-coral) 0 98%, transparent 100%),
+		linear-gradient(var(--hk-leaf), var(--hk-leaf)) 0 50% / calc(100% - 14px) 1.5px no-repeat;
+}
+
+/* ==========================================================================
+   1. Type helpers + block styles
+   ========================================================================== */
+
+/* Specimen label: small capitals after a short stem with a coral bud, like the label under a pressed flower. */
+.is-style-label,
+.hk-label {
+	display: inline-flex;
+	align-items: center;
+	gap: .65rem;
+	width: fit-content;
+	margin: 0;
+	font-family: var(--hk-sans);
+	font-size: var(--wp--preset--font-size--x-small) !important;
+	font-weight: 600;
+	letter-spacing: .14em;
+	line-height: 1.3;
+	text-transform: uppercase;
+	color: var(--hk-leaf);
+}
+
+.is-style-label::before,
+.hk-label::before {
+	content: "";
+	flex: 0 0 auto;
+	width: 1.9rem;
+	height: 9px;
+	background:
+		radial-gradient(circle at calc(100% - 4.5px) 50%, var(--hk-coral) 0 4px, transparent 4.6px),
+		linear-gradient(var(--hk-leaf), var(--hk-leaf)) 0 50% / calc(100% - 8px) 1.5px no-repeat;
+}
+
+.is-style-lead {
+	font-size: var(--wp--preset--font-size--large) !important;
+	line-height: 1.55;
+}
+
+.is-style-fine,
+.hk-fine {
+	font-size: var(--wp--preset--font-size--small) !important;
+	line-height: 1.6;
+	color: var(--hk-muted);
+}
+
+/* Arrow link button. */
+.wp-block-button.is-style-arrow .wp-block-button__link {
+	display: inline-flex;
+	align-items: center;
+	gap: .55rem;
+	padding: .5rem 0 !important;
+	border-radius: 0;
+	background: none !important;
+	color: var(--hk-leaf) !important;
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
+	text-decoration-color: var(--hk-coral);
+	text-underline-offset: .4em;
+}
+
+.wp-block-button.is-style-arrow .wp-block-button__link::after {
+	content: "→";
+	transition: transform .4s var(--hk-ease);
+}
+
+.wp-block-button.is-style-arrow .wp-block-button__link:hover::after { transform: translateX(.3rem); }
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+	border: 1.5px solid var(--hk-leaf);
+	background: transparent;
+	color: var(--hk-leaf);
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover { border-color: var(--hk-coral-deep); background: var(--hk-coral-deep); color: var(--hk-card); }
+
+.wp-block-button__link { transition: background-color .35s ease, color .35s ease, border-color .35s ease; }
+
+.wp-block-buttons { gap: .75rem 1.5rem; align-items: center; }
+
+/* Images: soft paper edge, album mount, oval. */
+.wp-block-image.is-style-deckle img,
+.hk-deckle img {
+	-webkit-mask: var(--hk-deckle);
+	mask: var(--hk-deckle);
+}
+
+.wp-block-image.is-style-deckle,
+.hk-deckle { filter: var(--hk-shadow); }
+
+/* Album mount: the photograph on a white mount, held by four photo corners. */
+.wp-block-image.is-style-mounted {
+	position: relative;
+	padding: clamp(.6rem, 1.4vw, 1rem);
+	background: var(--hk-card);
+	box-shadow: 0 1px 2px rgba(42, 63, 39, .1), 0 18px 34px -26px rgba(42, 63, 39, .45);
+}
+
+.wp-block-image.is-style-mounted::after {
+	content: "";
+	position: absolute;
+	inset: clamp(.15rem, .6vw, .4rem);
+	pointer-events: none;
+	--c: color-mix(in srgb, var(--hk-coral-deep) 55%, var(--hk-card));
+	background:
+		linear-gradient(135deg, var(--c) 0 50%, transparent 50%) 0 0 / 1.5rem 1.5rem no-repeat,
+		linear-gradient(225deg, var(--c) 0 50%, transparent 50%) 100% 0 / 1.5rem 1.5rem no-repeat,
+		linear-gradient(45deg, var(--c) 0 50%, transparent 50%) 0 100% / 1.5rem 1.5rem no-repeat,
+		linear-gradient(315deg, var(--c) 0 50%, transparent 50%) 100% 100% / 1.5rem 1.5rem no-repeat;
+	opacity: .85;
+}
+
+.wp-block-image.is-style-mounted img { width: 100%; }
+
+.wp-block-image.is-style-oval img { border-radius: 50%; aspect-ratio: 4 / 5; object-fit: cover; width: 100%; }
+
+.wp-block-image figcaption,
+.hk-caption {
+	margin-top: .75rem;
+	font-family: var(--hk-serif);
+	font-size: 1rem;
+	font-style: italic;
+	color: var(--hk-muted);
+	text-align: left;
+}
+
+/* Lists: petal bullets. */
+ul.is-style-petals {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.is-style-petals > li {
+	position: relative;
+	padding: .55rem 0 .55rem 1.75rem;
+}
+
+ul.is-style-petals > li::before {
+	content: "";
+	position: absolute;
+	left: .15rem;
+	top: 1.05rem;
+	width: .85rem;
+	height: .5rem;
+	border-radius: 100% 0;
+	background: var(--hk-coral);
+	transform: rotate(-30deg);
+}
+
+/* ==========================================================================
+   2. Pressed paper (the signature): soft deckled edges, a slight tilt
+   ========================================================================== */
+
+/* A group with this style is a sheet of pressed-flower paper. The shadow sits on the wrapper (.hk-tile) or on the
+   element itself through filter, which is applied after the mask, so it follows the torn edge. */
+.is-style-paper,
+.hk-paper {
+	position: relative;
+	padding: clamp(1.4rem, 2.6vw, 2.25rem);
+	background-color: var(--hk-card);
+	background-image: var(--hk-grain);
+	background-size: var(--hk-grain-size);
+	-webkit-mask: var(--hk-deckle);
+	mask: var(--hk-deckle);
+}
+
+.is-style-paper > *,
+.hk-paper > * { margin-block: 0; }
+
+.is-style-paper > * + *,
+.hk-paper > * + * { margin-block-start: 1rem; }
+
+.hk-tile { filter: var(--hk-shadow); transition: transform .7s var(--hk-ease); }
+
+.hk-tile > * { margin: 0 !important; }
+
+.hk-paper--petal { background-color: var(--hk-petal); }
+
+.hk-paper--leaf { background-color: var(--hk-leaf); background-image: none; color: var(--hk-paper); }
+
+.hk-paper--leaf.hk-person .hk-person__role { color: var(--hk-paper); }
+
+.hk-paper--leaf :where(h2, h3, h4) { color: var(--hk-paper); }
+
+.hk-paper--leaf :where(h2, h3, h4) em { color: var(--hk-blush); }
+
+.hk-paper--leaf .is-style-label { color: var(--hk-paper); }
+
+.hk-paper--leaf .is-style-label::before {
+	background:
+		radial-gradient(circle at calc(100% - 4.5px) 50%, var(--hk-blush) 0 4px, transparent 4.6px),
+		linear-gradient(var(--hk-paper), var(--hk-paper)) 0 50% / calc(100% - 8px) 1.5px no-repeat;
+}
+
+.hk-paper--leaf a:where(:not(.wp-element-button)) { color: var(--hk-paper); text-decoration-color: var(--hk-blush); }
+
+.hk-paper--leaf .wp-block-button__link { background: var(--hk-paper); color: var(--hk-leaf); }
+
+.hk-paper--leaf .wp-block-button__link:hover { background: var(--hk-blush); color: var(--hk-moss); }
+
+.hk-paper--leaf .is-style-fine { color: color-mix(in srgb, var(--hk-paper) 86%, transparent); }
+
+/* ==========================================================================
+   3. Layout helpers
+   ========================================================================== */
+
+/* The header is fixed, so every page starts below it; the home page's photograph runs underneath it instead. */
+.hk-main { padding-top: var(--hk-header-h); }
+
+.hk-main--front { padding-top: 0; }
+
+.hk-section { padding-block: var(--wp--preset--spacing--50); }
+
+.hk-section--tight { padding-block: var(--wp--preset--spacing--40); }
+
+.hk-section--flush-top { padding-top: 0; }
+
+.hk-section--petal { background-color: var(--hk-petal); }
+
+.hk-head {
+	display: grid;
+	gap: 1rem;
+	max-width: 48rem;
+	margin-bottom: var(--wp--preset--spacing--40);
+}
+
+.hk-head > * { margin: 0 !important; }
+
+.hk-head--center { margin-inline: auto; text-align: center; justify-items: center; }
+
+.hk-head--row {
+	max-width: none;
+	align-items: end;
+}
+
+@media (min-width: 900px) {
+	.hk-head--row { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); column-gap: var(--wp--preset--spacing--40); }
+	.hk-head--row > .is-style-label { grid-column: 1 / -1; }
+}
+
+.hk-stack > * { margin-block: 0; }
+
+.hk-stack > * + * { margin-block-start: 1.15rem; }
+
+.hk-split {
+	display: grid;
+	gap: var(--wp--preset--spacing--40);
+	align-items: center;
+}
+
+@media (min-width: 860px) {
+	.hk-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.hk-split--5-7 { grid-template-columns: 5fr 7fr; }
+	.hk-split--7-5 { grid-template-columns: 7fr 5fr; }
+	.hk-split--top { align-items: start; }
+}
+
+.hk-split > * { margin: 0 !important; }
+
+.hk-cols {
+	display: grid;
+	gap: var(--hk-gap);
+}
+
+@media (min-width: 760px) {
+	.hk-cols--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.hk-cols--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.hk-cols > * { margin: 0 !important; }
+
+/* ==========================================================================
+   4. Header (H8): transparent over the top of the page, blush paper once you scroll
+   ========================================================================== */
+
+.hk-header {
+	position: fixed;
+	top: var(--wp-admin--admin-bar--height, 0px);
+	left: 0;
+	right: 0;
+	z-index: 60;
+	padding-block: 1.1rem;
+	background-color: transparent;
+	transition: background-color .45s ease, box-shadow .45s ease, padding .45s var(--hk-ease);
+}
+
+/* Browsers with scroll-driven animations: the paper fades in over the first 160 px of scrolling, no script. */
+@supports (animation-timeline: scroll()) {
+	.hk-header {
+		animation: hk-header-solid linear both;
+		animation-timeline: scroll(root block);
+		animation-range: 0 160px;
+	}
+	@keyframes hk-header-solid {
+		to {
+			padding-block: .55rem;
+			background-color: color-mix(in srgb, var(--wp--preset--color--paper) 94%, transparent);
+			box-shadow: 0 1px 0 var(--wp--custom--line), 0 16px 32px -28px rgba(42, 63, 39, .55);
+		}
+	}
+}
+
+/* Other browsers: assets/js/header.js adds .is-solid after 40 px. */
+.hk-header.is-solid {
+	padding-block: .55rem;
+	background-color: color-mix(in srgb, var(--hk-paper) 94%, transparent);
+	box-shadow: 0 1px 0 var(--hk-line), 0 16px 32px -28px rgba(42, 63, 39, .55);
+}
+
+@supports (backdrop-filter: blur(1px)) {
+	.hk-header.is-solid { backdrop-filter: blur(10px) saturate(1.1); }
+}
+
+/* In the Site Editor the header stays in the flow, so it never covers what is being edited. */
+.editor-styles-wrapper .hk-header,
+.block-editor-iframe__body .hk-header { position: relative; top: 0; animation: none; background-color: var(--hk-paper); }
+
+.hk-header__bar {
+	display: flex;
+	align-items: center;
+	gap: 1rem 1.5rem;
+	min-height: 3.1rem;
+}
+
+.hk-header__bar > * { margin: 0 !important; }
+
+.hk-brand {
+	display: flex;
+	align-items: center;
+	gap: .6rem;
+	margin-right: auto !important;
+}
+
+.hk-brand > * { margin: 0 !important; }
+
+/* The mark: a four-petal coral flower with a blush centre (CSS only). */
+.hk-mark {
+	display: block;
+	flex: 0 0 auto;
+	width: 1.9rem;
+	height: 1.9rem;
+	background:
+		radial-gradient(circle at 50% 50%, var(--wp--preset--color--paper) 0 13%, transparent 14%),
+		radial-gradient(circle at 50% 50%, var(--wp--preset--color--coral-deep) 0 20%, transparent 21%),
+		radial-gradient(circle at 50% 24%, var(--wp--preset--color--coral) 0 23%, transparent 24%),
+		radial-gradient(circle at 76% 50%, var(--wp--preset--color--coral) 0 23%, transparent 24%),
+		radial-gradient(circle at 50% 76%, var(--wp--preset--color--coral) 0 23%, transparent 24%),
+		radial-gradient(circle at 24% 50%, var(--wp--preset--color--coral) 0 23%, transparent 24%);
+	transition: transform 1.2s var(--hk-ease);
+}
+
+.hk-brand:hover .hk-mark { transform: rotate(45deg); }
+
+.hk-brand .wp-block-site-title { white-space: nowrap; }
+
+.hk-header .wp-block-navigation__container { gap: .3rem 1.75rem; }
+
+.hk-header .wp-block-navigation-item__content {
+	position: relative;
+	padding-block: .3rem;
+	color: var(--hk-leaf);
+}
+
+.hk-header .wp-block-navigation-item__content::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -.1rem;
+	height: 1.5px;
+	background: var(--hk-coral);
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform .45s var(--hk-ease);
+}
+
+.hk-header .wp-block-navigation-item__content:hover::after,
+.hk-header .current-menu-item > .wp-block-navigation-item__content::after,
+.hk-header [aria-current="page"]::after { transform: scaleX(1); }
+
+.hk-header .wp-block-navigation__responsive-container-open,
+.hk-header .wp-block-navigation__responsive-container-close { color: var(--hk-leaf); }
+
+.hk-header .wp-block-navigation__responsive-container.is-menu-open {
+	padding: 2rem 1.5rem;
+	background-color: var(--hk-paper) !important;
+	background-image: var(--hk-grain);
+	background-size: var(--hk-grain-size);
+}
+
+.hk-header .is-menu-open .wp-block-navigation__container {
+	gap: 1rem;
+	font-family: var(--hk-serif);
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.hk-header .is-menu-open .wp-block-navigation-item__content::after { display: none; }
+
+@media (max-width: 599px) {
+	.hk-header { padding-block: .7rem; }
+	.hk-brand .wp-block-site-title { font-size: 1.45rem !important; }
+	.hk-mark { width: 1.6rem; height: 1.6rem; }
+}
+
+.hk-header--checkout { position: relative; top: 0; animation: none; background: var(--hk-card); box-shadow: 0 1px 0 var(--hk-line); }
+
+.hk-header--checkout + * .hk-main,
+.hk-main--checkout { padding-top: 0; }
+
+.hk-header__note { margin: 0; font-size: var(--wp--preset--font-size--small); color: var(--hk-muted); }
+
+/* ==========================================================================
+   5. Home hero: the photograph under the transparent header
+   ========================================================================== */
+
+.hk-hero {
+	position: relative;
+	display: grid;
+	padding: 0 !important;
+}
+
+.hk-hero > * { grid-area: 1 / 1; margin: 0 !important; }
+
+.hk-hero__photo { margin: 0; }
+
+.hk-hero__photo img {
+	width: 100%;
+	height: 100%;
+	min-height: min(94svh, 60rem);
+	object-fit: cover;
+	object-position: 30% 50%;
+}
+
+/* A blush veil at the top (under the header) and on the right (under the words). */
+.hk-hero::before {
+	content: "";
+	grid-area: 1 / 1;
+	z-index: 1;
+	pointer-events: none;
+	background:
+		linear-gradient(180deg, rgba(253, 242, 239, .8), rgba(253, 242, 239, 0) 22%),
+		linear-gradient(90deg, rgba(253, 242, 239, 0) 38%, rgba(253, 242, 239, .62) 62%, rgba(253, 242, 239, .9));
+}
+
+.hk-hero__copy {
+	z-index: 2;
+	align-self: end;
+	justify-self: end;
+	width: min(36rem, 100%);
+	padding: 0 var(--wp--style--root--padding-right, 2rem) var(--wp--preset--spacing--50) 1rem;
+}
+
+.hk-hero__copy > * { margin-block: 0; }
+
+.hk-hero__copy > * + * { margin-block-start: 1.35rem; }
+
+.hk-hero__copy h1 { font-size: clamp(3rem, 1.6rem + 4.4vw, 6.25rem); }
+
+@media (max-width: 859px) {
+	.hk-hero > * { grid-area: auto; }
+	.hk-hero::before { display: none; }
+	.hk-hero__photo img { min-height: 0; height: 64svh; object-position: 30% 50%; }
+	.hk-hero__photo { position: relative; }
+	.hk-hero__photo::after { content: ""; position: absolute; inset: 0 0 auto; height: 30%; background: linear-gradient(180deg, rgba(253, 242, 239, .85), transparent); }
+	.hk-hero__copy { justify-self: stretch; width: auto; padding: var(--wp--preset--spacing--40) var(--wp--style--root--padding-right, 1.25rem) var(--wp--preset--spacing--30) var(--wp--style--root--padding-left, 1.25rem); }
+}
+
+/* ==========================================================================
+   6. Pressed-flower masonry (L8)
+   ========================================================================== */
+
+/* CSS columns: each card keeps its own height, like pressed flowers laid out in an album. */
+.hk-masonry {
+	columns: 3 17.5rem;
+	column-gap: var(--hk-gap);
+}
+
+.hk-masonry > * {
+	display: block;
+	margin: 0 0 var(--hk-gap) !important;
+	break-inside: avoid;
+}
+
+/* A slight, irregular tilt; a card straightens when pointed at. */
+.hk-masonry > :nth-child(4n + 1) { transform: rotate(-.7deg); }
+.hk-masonry > :nth-child(4n + 2) { transform: rotate(.5deg); }
+.hk-masonry > :nth-child(4n + 3) { transform: rotate(.9deg); }
+.hk-masonry > :nth-child(4n) { transform: rotate(-.35deg); }
+
+.hk-masonry > .hk-tile:hover { transform: rotate(0) translateY(-4px); }
+
+/* Four cards of about the same height: four columns, so none is left alone on a row. */
+.hk-masonry--four { columns: 4 14rem; }
+
+/* Phones: bouquets two by two, and every text card across both columns between the pairs. */
+@media (max-width: 599px) {
+	.hk-masonry { columns: 1; }
+	.hk-masonry--pair { columns: 2; column-gap: .8rem; }
+	.hk-masonry--pair > * { margin-bottom: .8rem !important; }
+	.hk-masonry--pair > .hk-tile--wide { column-span: all; margin-block: .4rem 1.2rem !important; }
+	.hk-masonry--pair .hk-specimen.hk-paper { padding: .55rem .55rem 1rem; }
+	.hk-masonry--pair .hk-specimen__no { margin-top: .6rem !important; font-size: .6875rem; letter-spacing: .08em; }
+	.hk-masonry--pair .hk-specimen__name { font-size: 1.2rem !important; }
+	.hk-masonry--pair .hk-specimen__note,
+	.hk-masonry--pair .hk-specimen__price span { display: none; }
+	.hk-masonry--pair .hk-specimen__price { margin-top: .5rem !important; padding-top: .5rem; }
+}
+
+/* Specimen card: a photograph on pressed paper, a number, the name, a field-note line and the price. */
+.hk-specimen.hk-paper { padding: .85rem .85rem 1.35rem; }
+
+.hk-specimen > * + * { margin-block-start: .5rem; }
+
+.hk-specimen__photo { margin: 0 !important; overflow: hidden; }
+
+.hk-specimen__photo img { width: 100%; transition: transform 1.4s var(--hk-ease); }
+
+.hk-tile:hover .hk-specimen__photo img { transform: scale(1.04); }
+
+.hk-specimen__no {
+	margin-top: .9rem !important;
+	padding-inline: .3rem;
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: .14em;
+	text-transform: uppercase;
+	color: var(--hk-muted);
+}
+
+.hk-specimen__name {
+	padding-inline: .3rem;
+	font-size: clamp(1.45rem, 1.2rem + .7vw, 1.85rem) !important;
+	line-height: 1.08;
+}
+
+.hk-specimen__name a { color: inherit; text-decoration: none; }
+
+.hk-specimen__name a::after { content: ""; position: absolute; inset: 0; }
+
+.hk-specimen__note {
+	padding-inline: .3rem;
+	font-family: var(--hk-serif);
+	font-size: 1rem;
+	font-style: italic;
+	line-height: 1.4;
+	color: var(--hk-muted);
+}
+
+.hk-specimen__price {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-top: .85rem !important;
+	padding: .7rem .3rem 0;
+	border-top: 1px solid var(--hk-line-strong);
+	font-size: var(--wp--preset--font-size--small);
+	color: var(--hk-muted);
+}
+
+.hk-specimen__price strong {
+	font-family: var(--hk-serif);
+	font-size: 1.35rem;
+	font-weight: 400;
+	color: var(--hk-coral-deep);
+}
+
+/* Note card: a quote in big italic serif on petal paper. */
+.hk-note .hk-note__quote {
+	margin: 0;
+	padding: 0;
+	font-family: var(--hk-serif);
+	font-size: clamp(1.6rem, 1.2rem + 1.1vw, 2.15rem);
+	font-style: italic;
+	line-height: 1.18;
+	color: var(--hk-coral-deep);
+}
+
+.hk-note .hk-note__quote p { margin: 0; }
+
+.hk-note .hk-note__quote cite {
+	display: block;
+	margin-top: 1rem;
+	font-family: var(--hk-sans);
+	font-size: var(--wp--preset--font-size--small);
+	font-style: normal;
+	color: var(--hk-muted);
+}
+
+.hk-big {
+	font-family: var(--hk-serif);
+	font-size: clamp(2.6rem, 1.8rem + 2.4vw, 3.75rem) !important;
+	line-height: .95;
+	color: var(--hk-leaf);
+}
+
+.hk-paper--leaf .hk-big { color: var(--hk-paper); }
+
+/* A full photograph card (no paper border), deckled edges and a caption written underneath. */
+.hk-tile--photo .wp-block-image { margin: 0; }
+
+/* ==========================================================================
+   7. Shared details (synced patterns)
+   ========================================================================== */
+
+.hk-info {
+	display: grid;
+	gap: 1.25rem 2rem;
+}
+
+@media (min-width: 600px) {
+	.hk-info { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.hk-info__item--social { grid-column: 1 / -1; }
+}
+
+.hk-info > * { margin: 0 !important; }
+
+.hk-info__item > * { margin: 0; }
+
+.hk-info__key {
+	margin-bottom: .35rem !important;
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 700;
+	letter-spacing: .12em;
+	text-transform: uppercase;
+	color: inherit;
+	opacity: .8;
+}
+
+.hk-info__item p:not(.hk-info__key) { line-height: 1.55; }
+
+.hk-info a { color: inherit; text-decoration-color: var(--hk-coral); text-underline-offset: .25em; }
+
+.hk-social.wp-block-social-links { gap: .5rem; margin: .25rem 0 0; }
+
+.hk-social .wp-social-link { background: transparent !important; color: currentColor !important; border: 1px solid currentColor; }
+
+.hk-social .wp-social-link a { padding: .45rem; }
+
+.hk-social .wp-social-link:hover { background: var(--hk-coral) !important; border-color: var(--hk-coral); }
+
+.hk-delivery > * { margin-block: 0; }
+
+.hk-delivery > * + * { margin-block-start: 1rem; }
+
+.hk-delivery__key {
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 700;
+	letter-spacing: .12em;
+	text-transform: uppercase;
+	color: var(--hk-leaf);
+}
+
+.hk-delivery__table { margin: 0; }
+
+.hk-delivery__table table { width: 100%; border-collapse: collapse; border: 0; }
+
+.hk-delivery__table thead { border: 0; }
+
+.hk-delivery__table th {
+	padding: .4rem .75rem .6rem 0;
+	border: 0;
+	border-bottom: 1.5px solid var(--hk-leaf);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: .08em;
+	text-align: left;
+	text-transform: uppercase;
+	color: var(--hk-leaf);
+}
+
+.hk-delivery__table td {
+	padding: .85rem .75rem .85rem 0;
+	border: 0;
+	border-bottom: 1px dashed var(--hk-line-strong);
+	vertical-align: baseline;
+	line-height: 1.45;
+}
+
+.hk-delivery__table td:first-child {
+	font-family: var(--hk-serif);
+	font-size: 1.3rem;
+	color: var(--hk-leaf);
+}
+
+.hk-delivery__table td:nth-child(2) { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--hk-coral-deep); }
+
+.hk-delivery__table td:last-child { font-size: var(--wp--preset--font-size--small); color: var(--hk-muted); }
+
+.hk-delivery__table tr:last-child td { border-bottom: 0; }
+
+.hk-delivery__note { font-size: var(--wp--preset--font-size--small); color: var(--hk-muted); }
+
+@media (max-width: 599px) {
+	.hk-delivery__table th:last-child { display: none; }
+	.hk-delivery__table tr { display: grid; grid-template-columns: 1fr auto; column-gap: 1rem; padding: .7rem 0; border-bottom: 1px dashed var(--hk-line-strong); }
+	.hk-delivery__table thead tr { padding-top: 0; border-bottom: 1.5px solid var(--hk-leaf); }
+	.hk-delivery__table th { border: 0; padding: 0; }
+	.hk-delivery__table td { padding: 0; border: 0; }
+	.hk-delivery__table td:last-child { grid-column: 1 / -1; }
+}
+
+/* ==========================================================================
+   8. Sections: story, plans, steps, journal cards, forms, FAQ
+   ========================================================================== */
+
+.hk-pressed__photo { transform: rotate(-2.5deg); }
+
+.hk-pressed__photo.is-style-mounted { transform: rotate(-2.5deg); }
+
+/* Subscription plans. */
+.hk-plans { align-items: start; }
+
+.hk-plan .hk-plan__price {
+	font-family: var(--hk-serif);
+	font-size: clamp(2.8rem, 2rem + 2vw, 3.75rem);
+	line-height: 1;
+	color: var(--hk-coral-deep);
+}
+
+.hk-plan .hk-plan__price sub,
+.hk-plan .hk-plan__per {
+	font-family: var(--hk-sans);
+	font-size: var(--wp--preset--font-size--small);
+	color: var(--hk-muted);
+}
+
+.hk-paper--leaf .hk-plan__price { color: var(--hk-blush); }
+
+.hk-paper--leaf .hk-plan__per,
+.hk-paper--leaf ul.is-style-petals { color: var(--hk-paper); }
+
+.hk-paper--leaf ul.is-style-petals > li::before { background: var(--hk-blush); }
+
+@media (min-width: 760px) {
+	.hk-plans > :nth-child(2) { transform: translateY(-1.25rem); }
+}
+
+/* Numbered steps. */
+.hk-step > * + * { margin-block-start: .65rem; }
+
+.hk-step__no {
+	font-family: var(--hk-serif);
+	font-size: 3rem !important;
+	font-style: italic;
+	line-height: 1;
+	color: var(--hk-coral);
+}
+
+.hk-step h3 { font-size: var(--wp--preset--font-size--large) !important; }
+
+.hk-step p:last-child { font-size: var(--wp--preset--font-size--small); color: var(--hk-muted); }
+
+/* People. */
+.hk-person h3 { font-size: var(--wp--preset--font-size--large) !important; }
+
+.hk-person .hk-person__role { font-size: var(--wp--preset--font-size--x-small); font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--hk-coral-deep); }
+
+/* Journal cards (query loops): pressed paper in masonry columns. */
+.hk-posts .wp-block-post-template {
+	display: block !important;
+	columns: 3 17rem;
+	column-gap: var(--hk-gap);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.hk-posts .wp-block-post-template > li {
+	display: block;
+	width: auto !important;
+	margin: 0 0 var(--hk-gap) !important;
+	break-inside: avoid;
+	filter: var(--hk-shadow);
+}
+
+.hk-posts .wp-block-post-template > li:nth-child(3n + 1) { transform: rotate(-.5deg); }
+.hk-posts .wp-block-post-template > li:nth-child(3n + 2) { transform: rotate(.6deg); }
+
+.hk-post {
+	position: relative;
+	padding: .8rem .8rem 1.4rem !important;
+	background-color: var(--hk-card);
+	background-image: var(--hk-grain);
+	background-size: var(--hk-grain-size);
+	-webkit-mask: var(--hk-deckle);
+	mask: var(--hk-deckle);
+}
+
+.hk-post > * { margin: 0; }
+
+.hk-post .wp-block-post-featured-image { margin: 0 0 1rem; overflow: hidden; }
+
+.hk-post .wp-block-post-featured-image img { width: 100%; height: auto; transition: transform 1.4s var(--hk-ease); }
+
+.hk-posts li:hover .wp-block-post-featured-image img { transform: scale(1.04); }
+
+.hk-post-body { display: grid; gap: .55rem; padding-inline: .4rem; }
+
+.hk-post-body > * { margin: 0 !important; }
+
+.hk-post-meta { gap: .4rem 1rem; align-items: center; }
+
+.hk-post-meta .wp-block-post-terms a { color: var(--hk-coral-deep); text-decoration: none; letter-spacing: .1em; text-transform: uppercase; }
+
+.hk-post-body .wp-block-post-title { font-size: clamp(1.4rem, 1.15rem + .6vw, 1.75rem); line-height: 1.12; }
+
+.hk-post-body .wp-block-post-excerpt { font-size: var(--wp--preset--font-size--small); color: var(--hk-muted); }
+
+.hk-post-body .wp-block-post-excerpt__excerpt { margin: 0; }
+
+.hk-pagination { margin-top: var(--wp--preset--spacing--40); font-weight: 600; }
+
+.hk-pagination a { text-decoration: none; }
+
+.hk-pagination .page-numbers.current {
+	display: inline-grid;
+	place-items: center;
+	width: 2.2rem;
+	height: 2.2rem;
+	border-radius: 50%;
+	background: var(--hk-leaf);
+	color: var(--hk-paper);
+}
+
+/* Category chips. */
+.hk-chips { display: flex; flex-wrap: wrap; gap: .5rem; }
+
+.hk-chips a {
+	padding: .4rem 1rem;
+	border: 1px solid var(--hk-line-strong);
+	border-radius: 999px;
+	font-size: var(--wp--preset--font-size--small);
+	font-weight: 500;
+	color: var(--hk-leaf);
+	text-decoration: none;
+	transition: background-color .3s ease, border-color .3s ease;
+}
+
+.hk-chips a:hover { border-color: var(--hk-leaf); background: var(--hk-card); }
+
+/* Page head (inner pages and archives). */
+.hk-page-head { padding-block: var(--wp--preset--spacing--40); }
+
+.hk-page-head .wp-block-query-title,
+.hk-page-head h1 { font-size: var(--wp--preset--font-size--xx-large); }
+
+.hk-page-head--big h1 { font-size: var(--wp--preset--font-size--display); }
+
+.hk-page-head .hk-split { align-items: end; }
+
+/* Forms (contact + newsletter: plain HTML, connect to your form service). */
+.hk-form { display: grid; gap: 1rem; }
+
+.hk-form label { display: grid; gap: .35rem; font-size: var(--wp--preset--font-size--small); font-weight: 600; }
+
+.hk-form input,
+.hk-form textarea,
+.hk-form select {
+	width: 100%;
+	box-sizing: border-box;
+	padding: .85rem 1.1rem;
+	border: 1px solid var(--hk-line-strong);
+	border-radius: 999px;
+	background: var(--hk-card);
+	font: inherit;
+	color: var(--hk-ink);
+}
+
+.hk-form textarea { border-radius: 1.25rem; }
+
+.hk-form input:focus,
+.hk-form textarea:focus,
+.hk-form select:focus { border-color: var(--hk-coral-deep); outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--hk-coral) 30%, transparent); }
+
+.hk-form button {
+	justify-self: start;
+	padding: .9rem 1.8rem;
+	border: 0;
+	border-radius: 999px;
+	background: var(--hk-leaf);
+	color: var(--hk-paper);
+	font: 600 var(--wp--preset--font-size--small) / 1 var(--hk-sans);
+	letter-spacing: .02em;
+	cursor: pointer;
+	transition: background-color .3s ease;
+}
+
+.hk-form button:hover { background: var(--hk-coral-deep); }
+
+.hk-form--inline { grid-template-columns: minmax(0, 1fr) auto; align-items: end; }
+
+@media (max-width: 599px) {
+	.hk-form--inline { grid-template-columns: 1fr; }
+}
+
+/* FAQ. */
+.hk-faq .wp-block-details {
+	padding: 1.15rem 0;
+	border-bottom: 1px solid var(--hk-line-strong);
+}
+
+.hk-faq .wp-block-details summary { font-family: var(--hk-serif); font-size: var(--wp--preset--font-size--large); color: var(--hk-leaf); cursor: pointer; }
+
+.hk-faq .wp-block-details > p { margin: .75rem 0 0; color: var(--hk-muted); }
+
+/* Letters list (newsletter page). */
+.hk-letters .hk-paper h3 { font-size: var(--wp--preset--font-size--large) !important; }
+
+/* ==========================================================================
+   9. Articles
+   ========================================================================== */
+
+.hk-article__head { max-width: 52rem; margin-inline: auto; text-align: center; }
+
+.hk-article__head > * { margin-block: 0; }
+
+.hk-article__head > * + * { margin-block-start: 1.1rem; }
+
+.hk-article__head .wp-block-post-title { font-size: var(--wp--preset--font-size--xx-large); }
+
+.hk-article__meta { justify-content: center; }
+
+.hk-article__picture { filter: var(--hk-shadow); }
+
+.hk-article__picture img { -webkit-mask: var(--hk-deckle); mask: var(--hk-deckle); }
+
+.hk-article__dek { font-family: var(--hk-serif); font-size: var(--wp--preset--font-size--large); font-style: italic; color: var(--hk-muted); }
+
+.hk-prose > p:first-child::first-letter {
+	float: left;
+	margin: .15rem .65rem 0 0;
+	font-family: var(--hk-serif);
+	font-size: 4.2rem;
+	font-style: italic;
+	line-height: .85;
+	color: var(--hk-coral-deep);
+}
+
+.hk-prose .wp-block-image { filter: var(--hk-shadow); }
+
+.hk-prose .wp-block-image img { -webkit-mask: var(--hk-deckle); mask: var(--hk-deckle); }
+
+.hk-prose :where(h2) { font-size: var(--wp--preset--font-size--x-large); margin-top: 2.5rem; }
+
+.hk-prose :where(h3) { font-size: var(--wp--preset--font-size--large); }
+
+.hk-prose .wp-block-quote { margin-block: 2rem; font-size: clamp(1.5rem, 1.2rem + .9vw, 2rem); }
+
+.hk-prose .wp-block-quote cite { display: block; margin-top: .75rem; font-family: var(--hk-sans); font-size: var(--wp--preset--font-size--small); font-style: normal; color: var(--hk-muted); }
+
+.hk-article__foot { max-width: var(--wp--style--global--content-size); margin: var(--wp--preset--spacing--40) auto 0; padding-top: 1.5rem; border-top: 1px solid var(--hk-line-strong); display: grid; gap: .75rem; }
+
+.hk-article__foot > * { margin: 0; }
+
+/* ==========================================================================
+   10. Footer (F4): the Monday stem letter leads, then the shop details
+   ========================================================================== */
+
+.hk-footer {
+	position: relative;
+	margin-top: var(--wp--preset--spacing--40);
+	background-color: var(--hk-leaf);
+	color: var(--hk-paper);
+}
+
+/* A deckled top edge where the page's blush paper meets the green. */
+.hk-footer::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -8px;
+	height: 16px;
+	background: var(--hk-leaf);
+	-webkit-mask:
+		radial-gradient(circle at 50% 100%, #000 6.1px, #0000 6.9px) 0 0 / 9px 8px repeat-x,
+		radial-gradient(circle at 50% 100%, #000 7.6px, #0000 8.4px) 4px 0 / 14px 9px repeat-x,
+		linear-gradient(#000 0 0) 0 100% / 100% 9px no-repeat;
+	mask:
+		radial-gradient(circle at 50% 100%, #000 6.1px, #0000 6.9px) 0 0 / 9px 8px repeat-x,
+		radial-gradient(circle at 50% 100%, #000 7.6px, #0000 8.4px) 4px 0 / 14px 9px repeat-x,
+		linear-gradient(#000 0 0) 0 100% / 100% 9px no-repeat;
+}
+
+.hk-footer :where(h2, h3) { color: var(--hk-paper); }
+
+.hk-footer :where(h2, h3) em { color: var(--hk-blush); }
+
+.hk-footer a:where(:not(.wp-element-button)) { color: var(--hk-paper); text-decoration-color: var(--hk-blush); }
+
+.hk-letter {
+	display: grid;
+	gap: var(--wp--preset--spacing--40);
+	align-items: center;
+	padding-block: var(--wp--preset--spacing--60) var(--wp--preset--spacing--50);
+}
+
+@media (min-width: 900px) {
+	.hk-letter { grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); }
+}
+
+.hk-letter > * { margin: 0 !important; }
+
+.hk-letter__copy > * { margin-block: 0; }
+
+.hk-letter__copy > * + * { margin-block-start: 1.35rem; }
+
+.hk-letter__copy h2 { font-size: clamp(2.75rem, 1.7rem + 3.6vw, 5.5rem); line-height: .98; }
+
+.hk-letter .is-style-label { color: var(--hk-paper); }
+
+.hk-letter .is-style-label::before {
+	background:
+		radial-gradient(circle at calc(100% - 4.5px) 50%, var(--hk-blush) 0 4px, transparent 4.6px),
+		linear-gradient(var(--hk-paper), var(--hk-paper)) 0 50% / calc(100% - 8px) 1.5px no-repeat;
+}
+
+.hk-letter .is-style-lead { max-width: 36rem; }
+
+.hk-letter .is-style-fine { color: color-mix(in srgb, var(--hk-paper) 85%, transparent); }
+
+.hk-letter .hk-form input { border-color: transparent; background: var(--hk-paper); }
+
+.hk-letter .hk-form label { color: var(--hk-paper); }
+
+.hk-letter .hk-form button { background: var(--hk-coral-deep); color: var(--hk-card); }
+
+.hk-letter .hk-form button:hover { background: var(--hk-moss); }
+
+.hk-letter__photo { justify-self: center; width: min(22rem, 80%); margin: 0 !important; transform: rotate(3deg); }
+
+.hk-letter__photo img { aspect-ratio: 4 / 5; object-fit: cover; }
+
+@media (max-width: 899px) {
+	.hk-letter__photo { width: min(16rem, 70%); }
+}
+
+.hk-colophon {
+	display: grid;
+	gap: var(--wp--preset--spacing--40);
+	padding-block: var(--wp--preset--spacing--40);
+	border-top: 1px solid color-mix(in srgb, var(--hk-paper) 22%, transparent);
+}
+
+@media (min-width: 900px) {
+	.hk-colophon { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, .8fr); }
+}
+
+.hk-colophon > * { margin: 0 !important; }
+
+.hk-colophon__brand > * { margin-block: 0; }
+
+.hk-colophon__brand > * + * { margin-block-start: .9rem; }
+
+.hk-colophon__name { font-size: var(--wp--preset--font-size--x-large) !important; }
+
+.hk-colophon__name a { color: var(--hk-paper) !important; text-decoration: none; }
+
+.hk-colophon__brand p:not(.hk-colophon__name) { font-size: var(--wp--preset--font-size--small); color: color-mix(in srgb, var(--hk-paper) 86%, transparent); }
+
+.hk-footer .wp-block-navigation { font-size: var(--wp--preset--font-size--small); }
+
+.hk-footer .wp-block-navigation a { color: var(--hk-paper); }
+
+.hk-footer .wp-block-navigation a:hover { color: var(--hk-blush); }
+
+.hk-footer .wp-block-navigation__container { gap: .55rem; }
+
+.hk-footer__base {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: .5rem 2rem;
+	padding-block: 1.25rem 1.75rem;
+	border-top: 1px solid color-mix(in srgb, var(--hk-paper) 22%, transparent);
+	font-size: var(--wp--preset--font-size--x-small);
+	color: color-mix(in srgb, var(--hk-paper) 85%, transparent);
+}
+
+.hk-footer__base > * { margin: 0 !important; }
+
+/* ==========================================================================
+   11. 404, search
+   ========================================================================== */
+
+.hk-lost { text-align: center; }
+
+.hk-lost .wp-block-search { max-width: 32rem; margin-inline: auto; }
+
+.hk-lost__no { font-family: var(--hk-serif); font-size: clamp(6rem, 18vw, 13rem) !important; font-style: italic; line-height: .9; color: var(--hk-coral); }
+
+.hk-search-form .wp-block-search__inside-wrapper { border: 1px solid var(--hk-line-strong); border-radius: 999px; padding: .3rem; background: var(--hk-card); }
+
+.hk-search-form .wp-block-search__input { border: 0; background: transparent; padding-inline: 1rem; }
+
+.hk-search-form .wp-block-search__button { border-radius: 999px; margin: 0; }
+
+/* ==========================================================================
+   12. Motion: a soft rise on scroll; nothing moves under reduced motion
+   ========================================================================== */
+
+@supports (animation-timeline: view()) {
+	.is-style-rise {
+		animation: hk-rise linear both;
+		animation-timeline: view();
+		animation-range: entry 0% entry 40%;
+	}
+	@keyframes hk-rise {
+		from { opacity: 0; translate: 0 2rem; }
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		transition: none !important;
+		scroll-behavior: auto !important;
+	}
+	.is-style-rise { animation: none !important; }
+	.hk-masonry > .hk-tile:hover { transform: none; }
+}
