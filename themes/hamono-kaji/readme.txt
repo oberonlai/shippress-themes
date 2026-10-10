@@ -97,3 +97,12 @@ Photographs: AI-generated for this theme, released under GPL-2.0-or-later / CC0 
 - assets/images/demo/workshop.jpg
 
 The logo mark (an octagon with a blade, drawn as an inline SVG mask in style.css) is original work for this theme, Copyright 2026 ShipPress contributors, License: GPL-2.0-or-later.
+
+== Changelog ==
+
+= 1.0.1 =
+* The shop and product-search templates use the current search block (limited to products) instead of the outdated WooCommerce Product Search block, so the Site Editor no longer asks to upgrade it.
+* The product details block in the single-product template is written in the same full form the editor saves.
+
+= 1.0.0 =
+* First release.

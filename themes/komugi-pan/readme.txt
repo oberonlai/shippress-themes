@@ -95,3 +95,12 @@ Photographs: AI-generated for this theme, released under GPL-2.0-or-later / CC0 
 - assets/images/demo/shopfront.jpg
 
 The wheat-ear badge icon (an inline SVG mask in style.css) and the flour-dust texture (CSS gradients) are original work for this theme, Copyright 2026 ShipPress contributors, License: GPL-2.0-or-later.
+
+== Changelog ==
+
+= 1.0.1 =
+* The daily bake board now marks trays "Out" and "Next" by the bakery's clock: the site timezone (Settings > General) and the server time printed with the page, not the visitor's own timezone.
+* The shop and product-search templates use the current search block (limited to products) instead of the outdated WooCommerce Product Search block, so the Site Editor no longer asks to upgrade it.
+
+= 1.0.0 =
+* First release.

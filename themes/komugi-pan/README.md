@@ -8,7 +8,7 @@ A warm, playful block theme for **neighbourhood bakeries** that sell loaves, pas
 
 - **Flour, crust and rye.** Flour-cream pages with a faint **flour-dust texture** drawn only in CSS (four speckle layers on prime-sized tiles, so it never visibly repeats), white cards, golden crust as the one warm accent and rye brown for text.
 - **Products first (L11).** The home page opens with a short greeting and then the bread itself: eight white cards with **loaf-topped (arched) photographs** and **round, slightly askew price stickers**, in a gentle zig-zag like loaves on a cooling rack. The same card is used in the WooCommerce shop and related products.
-- **The daily bake board.** A dark oven-brown board lists what comes out of the oven at which time. A tiny script (`assets/js/bake-board.js`) reads the visitor's clock and marks the trays already **Out** and the **Next** one; without it the board reads the same.
+- **The daily bake board.** A dark oven-brown board lists what comes out of the oven at which time. A tiny script (`assets/js/bake-board.js`) reads the bakery's clock (the site timezone from Settings → General and the server time, not the visitor's timezone) and marks the trays already **Out** and the **Next** one; without it the board reads the same.
 - **Playful details.** A scalloped paper-bag edge under the header, a wheat badge that tilts on hover, round "bun" portraits, dotted rows, crumb separators, soft spring easing. Everything stops under `prefers-reduced-motion`.
 
 ## Header, footer, layout (ROADMAP codes)

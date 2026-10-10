@@ -49,6 +49,20 @@ function komugi_pan_enqueue() {
 			'strategy'  => 'defer',
 		)
 	);
+	// The board follows the bakery's clock, not the visitor's: the site timezone (Settings > General), its offset
+	// right now (for "UTC+9"-style settings) and the server time in milliseconds.
+	$now = time();
+	wp_add_inline_script(
+		'komugi-pan-bake-board',
+		'window.komugiPanBakeBoard = ' . wp_json_encode(
+			array(
+				'timezone' => wp_timezone_string(),
+				'offset'   => wp_timezone()->getOffset( new DateTime( '@' . $now ) ),
+				'now'      => $now * 1000,
+			)
+		) . ';',
+		'before'
+	);
 }
 add_action( 'wp_enqueue_scripts', 'komugi_pan_enqueue' );
 
