@@ -1,73 +1,43 @@
 <?php
 /**
- * Title: Toppings: noodle firmness
+ * Title: Toppings: how firm
  * Slug: menya-kaen/toppings-firmness
  * Categories: menya-kaen
- * Keywords: noodles, firmness, kata, futsu, free
+ * Keywords: noodles, firmness, how to order
  * Viewport Width: 1440
- * Description: A photograph of fresh noodles beside the four firmness words as big ticket stubs (free to choose).
+ * Description: A ruled list of the three ways the noodles can be cooked.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"mk-section mk-section--white","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull mk-section mk-section--white"><!-- wp:group {"align":"wide","className":"mk-split mk-split--photo","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide mk-split mk-split--photo"><!-- wp:image {"sizeSlug":"large","className":"mk-photo"} -->
-<figure class="wp-block-image size-large mk-photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/noodles.jpg' ) ); ?>" alt="Fresh ramen noodles dusted with flour on a wooden board"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:group {"className":"mk-split__text","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-split__text"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">Free, just say it</p>
+<!-- wp:group {"tagName":"section","align":"full","className":"mk-section","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull mk-section"><!-- wp:group {"className":"mk-chapter","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-chapter"><!-- wp:paragraph {"className":"mk-chapter__no"} -->
+<p class="mk-chapter__no">I</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"className":"mk-huge"} -->
-<h2 class="wp-block-heading mk-huge">How firm?</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Tell us when you hand over your ticket. Firmness is free; it only changes how long the noodles stay in the water.</p>
+<!-- wp:paragraph {"className":"is-style-label"} -->
+<p class="is-style-label">Noodles</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"mk-firm","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-firm"><!-- wp:group {"className":"mk-firm__item","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-firm__item"><!-- wp:heading {"level":3,"className":"mk-firm__word"} -->
-<h3 class="wp-block-heading mk-firm__word">Barikata</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Barely cooked. Twenty seconds, for tonkotsu fans.</p>
-<!-- /wp:paragraph --></div>
+<!-- wp:heading {"className":"mk-chapter__title"} -->
+<h2 class="wp-block-heading mk-chapter__title">How firm</h2>
+<!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"mk-firm__item","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-firm__item"><!-- wp:heading {"level":3,"className":"mk-firm__word"} -->
-<h3 class="wp-block-heading mk-firm__word">Kata</h3>
-<!-- /wp:heading -->
-
 <!-- wp:paragraph -->
-<p>Firm. Our recommendation for every thin noodle.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
+<p>Tell us when you order. If you say nothing, we cook them the way the bowl was meant.</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"mk-firm__item","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-firm__item"><!-- wp:heading {"level":3,"className":"mk-firm__word"} -->
-<h3 class="wp-block-heading mk-firm__word">Futsu</h3>
-<!-- /wp:heading -->
+<!-- wp:list {"className":"is-style-ruled"} -->
+<ul class="wp-block-list is-style-ruled"><!-- wp:list-item -->
+<li><strong>Firm.</strong> Fifteen seconds less. Good if you eat slowly or plan to add more noodles.</li>
+<!-- /wp:list-item -->
 
-<!-- wp:paragraph -->
-<p>Regular. The cook decides.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
+<!-- wp:list-item -->
+<li><strong>As it comes.</strong> How the cook makes it for herself.</li>
+<!-- /wp:list-item -->
 
-<!-- wp:group {"className":"mk-firm__item","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-firm__item"><!-- wp:heading {"level":3,"className":"mk-firm__word"} -->
-<h3 class="wp-block-heading mk-firm__word">Yawa</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Soft. For a slow eater or a long conversation.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></section>
+<!-- wp:list-item -->
+<li><strong>Soft.</strong> Fifteen seconds more. Gentle, and kind to the broth.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></section>
 <!-- /wp:group -->

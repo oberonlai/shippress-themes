@@ -1,5 +1,5 @@
 /**
- * Menya Kaen: on small screens the bottom bar’s navigation collapses into a menu button that opens the core
+ * Menya Kaen: on small screens the vertical navigation on the right edge collapses into a menu button that opens the core
  * Navigation block's full-screen overlay (which already traps focus, closes on Escape and returns focus to the button).
  * This keeps the button's aria-expanded and aria-controls in step with the overlay, so screen readers hear whether the
  * menu is open.
@@ -21,7 +21,7 @@
 		new MutationObserver( update ).observe( panel, { attributes: true, attributeFilter: [ 'class' ] } );
 	}
 	function init() {
-		document.querySelectorAll( '.mk-dock .wp-block-navigation' ).forEach( sync );
+		document.querySelectorAll( '.mk-top .wp-block-navigation' ).forEach( sync );
 	}
 	if ( document.readyState === 'loading' ) {
 		document.addEventListener( 'DOMContentLoaded', init );

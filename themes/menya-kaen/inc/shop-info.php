@@ -1,16 +1,16 @@
 <?php
 /**
- * Menya Kaen: the shop details, the ticket machine and the toppings machine, each kept in ONE place.
+ * Menya Kaen: the shop details, the menu card and the add-ons card, each kept in ONE place.
  *
- * The shop's address, opening hours, phone number, email and social links (the "shop" card) appear in the footer of
- * every page, on the Map page and on the Contact page; the ticket machine (every bowl, side and drink with its price)
- * appears on the home page and the Menu page; the toppings machine (every topping with its price) appears on the Menu
- * page and the Toppings page. Each of them is a synced pattern (a reusable `wp_block` post, listed under Appearance >
+ * The shop's opening hours, address, telephone, email and social links (the "shop" block) appear in the footer of
+ * every page (its vertical text column), on the home page, the Access page and the Contact page; the menu card (every
+ * bowl, small plate and drink with its price) appears on the home page and the Menu page; the add-ons card (every
+ * topping and extra noodles with its price) appears on the Toppings page. Each of them is a synced pattern (a reusable `wp_block` post, listed under Appearance >
  * Editor > Patterns), and every place that shows it holds only a reference to it (<!-- wp:block {"ref":…} /-->).
  * Edit the pattern once and every page changes together.
  *
  * The first copy of each pattern is created from inc/info/<key>.html when the theme is activated (or, failing that,
- * the first time a page asks for it). Site-relative links in it ("/menu/#kaen-shoyu") get this site's address. Each
+ * the first time a page asks for it). Site-relative links in it ("/menu/#shoyu") get this site's address. Each
  * one is tagged with the `_menya_kaen_info` post meta, so it is found again in any status and never created twice; a
  * synced pattern the user moved to the trash is respected (it stays there and renders nothing) until it is deleted for
  * good. Nothing the user wrote is ever changed.
@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 if ( ! class_exists( 'Menya_Kaen_Info' ) ) {
 
 	/**
-	 * Synced patterns for the shop details, the ticket machine and the toppings machine.
+	 * Synced patterns for the shop details, the menu card and the add-ons card.
 	 */
 	final class Menya_Kaen_Info {
 
@@ -35,9 +35,9 @@ if ( ! class_exists( 'Menya_Kaen_Info' ) ) {
 		/** Pattern key => title shown in the Patterns screen. */
 		public static function blocks() {
 			return array(
-				'shop'     => __( 'Menya Kaen: address, hours, phone, email and social links', 'menya-kaen' ),
-				'menu'     => __( 'Menya Kaen: ticket machine (bowls, sides and drinks with prices)', 'menya-kaen' ),
-				'toppings' => __( 'Menya Kaen: toppings machine (toppings with prices)', 'menya-kaen' ),
+				'shop'     => __( 'Menya Kaen: hours, address, telephone, email and social links', 'menya-kaen' ),
+				'menu'     => __( 'Menya Kaen: menu card (bowls, small plates and drinks with prices)', 'menya-kaen' ),
+				'toppings' => __( 'Menya Kaen: add-ons card (toppings and extra noodles with prices)', 'menya-kaen' ),
 			);
 		}
 
@@ -58,7 +58,7 @@ if ( ! class_exists( 'Menya_Kaen_Info' ) ) {
 		public static function source( $key ) {
 			$file   = __DIR__ . '/info/' . $key . '.html';
 			$markup = is_readable( $file ) ? trim( (string) file_get_contents( $file ) ) : ''; // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
-			// Site-relative links ("/menu/#kaen-shoyu") point at this site, also when WordPress lives in a subfolder.
+			// Site-relative links ("/menu/#shoyu") point at this site, also when WordPress lives in a subfolder.
 			return preg_replace_callback(
 				'#href="(/[a-z0-9/_-]*)([\#"])#i',
 				function ( $m ) {

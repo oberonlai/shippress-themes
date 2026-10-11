@@ -27,23 +27,21 @@ function menya_kaen_setup() {
 add_action( 'after_setup_theme', 'menya_kaen_setup' );
 
 /**
- * Front-end styles and two small scripts: the menu button's aria-expanded state (assets/js/menu.js) and the footer
- * ticker's pause button (assets/js/ticker.js).
+ * Front-end styles and one small script that keeps the small-screen menu button's aria-expanded state in step with
+ * the menu (assets/js/menu.js).
  */
 function menya_kaen_enqueue() {
 	wp_enqueue_style( 'menya-kaen-style', get_stylesheet_uri(), array(), MENYA_KAEN_VERSION );
-	foreach ( array( 'menu', 'ticker' ) as $script ) {
-		wp_enqueue_script(
-			'menya-kaen-' . $script,
-			get_theme_file_uri( 'assets/js/' . $script . '.js' ),
-			array(),
-			MENYA_KAEN_VERSION,
-			array(
-				'in_footer' => true,
-				'strategy'  => 'defer',
-			)
-		);
-	}
+	wp_enqueue_script(
+		'menya-kaen-menu',
+		get_theme_file_uri( 'assets/js/menu.js' ),
+		array(),
+		MENYA_KAEN_VERSION,
+		array(
+			'in_footer' => true,
+			'strategy'  => 'defer',
+		)
+	);
 }
 add_action( 'wp_enqueue_scripts', 'menya_kaen_enqueue' );
 
@@ -53,29 +51,21 @@ add_action( 'wp_enqueue_scripts', 'menya_kaen_enqueue' );
 function menya_kaen_block_styles() {
 	$styles = array(
 		'core/paragraph' => array(
-			'label' => __( 'Label (small capitals with a red tab)', 'menya-kaen' ),
+			'label' => __( 'Label (small spaced capitals after a vermilion hairline)', 'menya-kaen' ),
 			'lead'  => __( 'Lead paragraph', 'menya-kaen' ),
 		),
-		'core/heading'   => array(
-			'outline' => __( 'Outlined letters', 'menya-kaen' ),
-		),
 		'core/separator' => array(
-			'tear' => __( 'Ticket tear line', 'menya-kaen' ),
+			'dots' => __( 'Three quiet dots', 'menya-kaen' ),
 		),
 		'core/button'    => array(
-			'ticket'    => __( 'Ticket machine button', 'menya-kaen' ),
-			'text-link' => __( 'Text link with an arrow', 'menya-kaen' ),
-		),
-		'core/group'     => array(
-			'ticket-card' => __( 'Ticket stub card', 'menya-kaen' ),
+			'text-link' => __( 'Text link with a hairline', 'menya-kaen' ),
 		),
 		'core/list'      => array(
-			'route' => __( 'Route with stops', 'menya-kaen' ),
-			'steps' => __( 'Steps (big numbers)', 'menya-kaen' ),
-			'dash'  => __( 'Dash list (red dashes)', 'menya-kaen' ),
+			'ruled' => __( 'Ruled list (hairlines between items)', 'menya-kaen' ),
+			'route' => __( 'Route with numbered stops', 'menya-kaen' ),
 		),
 		'core/details'   => array(
-			'faq' => __( 'Question (plus sign)', 'menya-kaen' ),
+			'faq' => __( 'Question (hairline and a plus sign)', 'menya-kaen' ),
 		),
 	);
 
@@ -101,8 +91,37 @@ function menya_kaen_pattern_categories() {
 		'menya-kaen',
 		array(
 			'label'       => __( 'Menya Kaen', 'menya-kaen' ),
-			'description' => __( 'Loud sections for a ramen shop: oversized type, the ticket machine, bowls, toppings, the walk from the station, house rules, news, the newsletter and contact.', 'menya-kaen' ),
+			'description' => __( 'Quiet sections for a small ramen-ya: a long-read home page, the printed menu card, add-ons, the walk from the station, the people, notes, the newsletter and contact.', 'menya-kaen' ),
 		)
 	);
 }
 add_action( 'init', 'menya_kaen_pattern_categories' );
+
+/**
+ * Pages imported by version 1 show photographs straight from the theme folder (assets/images/<name>.jpg). Version 2
+ * retired some of those files; this points each retired name at the version 2 photograph that takes its place, so an
+ * updated site shows no broken images. The page content itself is never changed.
+ *
+ * @param string $html Rendered block.
+ * @return string
+ */
+function menya_kaen_retired_images( $html ) {
+	if ( false === strpos( $html, 'assets/images/' ) ) {
+		return $html;
+	}
+	$base    = get_theme_file_uri( 'assets/images/' );
+	$retired = array(
+		'shoyu'            => 'hero',
+		'miso'             => 'shio',
+		'chef'             => 'hands',
+		'noodles'          => 'hands',
+		'street'           => 'noren',
+		'gyoza'            => 'tare',
+		'toppings-flatlay' => 'tare',
+	);
+	foreach ( $retired as $old => $new ) {
+		$html = str_replace( $base . $old . '.jpg', $base . $new . '.jpg', $html );
+	}
+	return $html;
+}
+add_filter( 'render_block', 'menya_kaen_retired_images' );

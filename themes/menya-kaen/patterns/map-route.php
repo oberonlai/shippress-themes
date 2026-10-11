@@ -1,49 +1,51 @@
 <?php
 /**
- * Title: Map: the walk from the station
+ * Title: Access: the walk from the station
  * Slug: menya-kaen/map-route
  * Categories: menya-kaen
- * Keywords: map, route, directions, station, walk
+ * Keywords: map, access, route, directions, station
  * Viewport Width: 1440
- * Description: The route from the station as a line with numbered stops, beside a photograph of the lantern alley.
+ * Description: The walk from the station as a quiet numbered route, beside the noren photograph.
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"mk-section","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull mk-section"><!-- wp:group {"align":"wide","className":"mk-split mk-split--route","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide mk-split mk-split--route"><!-- wp:group {"className":"mk-split__text","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-split__text"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">From the station, on foot</p>
+<section class="wp-block-group alignfull mk-section"><!-- wp:group {"className":"mk-chapter","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-chapter"><!-- wp:paragraph {"className":"mk-chapter__no"} -->
+<p class="mk-chapter__no">I</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"className":"mk-huge"} -->
-<h2 class="wp-block-heading mk-huge">Four stops.<br>Four minutes.</h2>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"is-style-label"} -->
+<p class="is-style-label">On foot</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"mk-chapter__title"} -->
+<h2 class="wp-block-heading mk-chapter__title">Six minutes</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
 
 <!-- wp:list {"ordered":true,"className":"is-style-route"} -->
 <ol class="wp-block-list is-style-route"><!-- wp:list-item -->
-<li><strong>Nakano station, north exit</strong> Turn right out of the ticket gates.</li>
+<li><strong>Kawabe station, west exit.</strong> Leave by the small exit at the end of the platform, not the main gates.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>The covered shopping street</strong> Walk straight for about two hundred metres.</li>
+<li><strong>Turn left onto Kaede-dori.</strong> The street with the maple trees. Walk past the bookshop and the bathhouse chimney.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>The lantern alley</strong> Turn left under the first row of yellow lanterns.</li>
+<li><strong>Cross at the stone lantern.</strong> About four minutes in. Stay on the shaded side.</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><strong>The yellow door</strong> Last door on the right, under the red curtain.</li>
+<li><strong>The third doorway after the tofu shop.</strong> A dark wooden front, a linen noren with no name. If the noren is up, we are open.</li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
-<!-- wp:paragraph -->
-<p>The address and opening hours are below. The alley is too narrow for cars and bicycles; leave them at the parking on the main street.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
+<!-- wp:paragraph {"className":"mk-small"} -->
+<p class="mk-small">There is no parking. Bicycles can be left beside the bathhouse.</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:image {"sizeSlug":"large","className":"mk-photo mk-photo--tall"} -->
-<figure class="wp-block-image size-large mk-photo mk-photo--tall"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/street.jpg' ) ); ?>" alt="A narrow evening alley lit by rows of yellow paper lanterns, with red curtains and people walking"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:group --></section>
+<!-- wp:image {"sizeSlug":"large","className":"mk-figure mk-figure--portrait"} -->
+<figure class="wp-block-image size-large mk-figure mk-figure--portrait"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/noren.jpg' ) ); ?>" alt="A plain linen noren curtain with three panels hanging in a dark wooden doorway, lit warmly from inside"/><figcaption class="wp-element-caption">Look for this. If it is up, we are open.</figcaption></figure>
+<!-- /wp:image --></section>
 <!-- /wp:group -->

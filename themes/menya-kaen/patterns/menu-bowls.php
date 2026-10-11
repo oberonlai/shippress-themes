@@ -1,93 +1,125 @@
 <?php
 /**
- * Title: Menu: the bowls, with photographs
+ * Title: Menu: the bowls in detail
  * Slug: menya-kaen/menu-bowls
  * Categories: menya-kaen
- * Keywords: menu, bowls, ramen, photos
+ * Keywords: menu, bowls, ramen, detail
  * Viewport Width: 1440
- * Description: Four bowls as alternating photograph and text rows, each with an anchor the ticket buttons jump to.
+ * Description: A tall photograph and a few lines on each of the five bowls (each with an anchor the menu card links to).
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"mk-section","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull mk-section"><!-- wp:group {"align":"wide","className":"mk-bowls","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide mk-bowls"><!-- wp:group {"className":"mk-bowl","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-bowl"><!-- wp:image {"sizeSlug":"large","className":"mk-photo"} -->
-<figure class="wp-block-image size-large mk-photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/shoyu.jpg' ) ); ?>" alt="A black bowl of clear brown shoyu ramen with bamboo shoots and nori, steaming on a wooden counter"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:group {"className":"mk-bowl__text","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-bowl__text"><!-- wp:paragraph {"className":"mk-bowl__kicker"} -->
-<p class="mk-bowl__kicker">The first bowl · since 2019</p>
+<!-- wp:group {"tagName":"section","align":"full","className":"mk-section mk-section--last","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull mk-section mk-section--last"><!-- wp:group {"className":"mk-chapter","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-chapter"><!-- wp:paragraph {"className":"mk-chapter__no"} -->
+<p class="mk-chapter__no">I</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"className":"mk-bowl__name"} -->
-<h2 class="wp-block-heading mk-bowl__name" id="kaen-shoyu">Kaen Shoyu</h2>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"is-style-label"} -->
+<p class="is-style-label">In detail</p>
+<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>Clear chicken and dashi broth seasoned with three soy sauces, thin straight noodles, bamboo shoots and two sheets of nori. The bowl the shop was built on.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<!-- wp:heading {"className":"mk-chapter__title"} -->
+<h2 class="wp-block-heading mk-chapter__title">The five bowls</h2>
+<!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"mk-bowl mk-bowl--flip","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-bowl mk-bowl--flip"><!-- wp:image {"sizeSlug":"large","className":"mk-photo"} -->
-<figure class="wp-block-image size-large mk-photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/miso.jpg' ) ); ?>" alt="A blue-rimmed bowl of red miso ramen with corn, scallions, chashu, a halved soft egg and chili flakes"/></figure>
+<!-- wp:image {"sizeSlug":"large","className":"mk-figure mk-figure--portrait"} -->
+<figure class="wp-block-image size-large mk-figure mk-figure--portrait"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/shio.jpg' ) ); ?>" alt="Looking down on a bowl of pale shio ramen with chashu, a soft egg, menma, leek and nori on a linen cloth"/><figcaption class="wp-element-caption">Shio, with a seasoned egg added.</figcaption></figure>
 <!-- /wp:image -->
 
-<!-- wp:group {"className":"mk-bowl__text","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-bowl__text"><!-- wp:paragraph {"className":"mk-bowl__kicker"} -->
-<p class="mk-bowl__kicker">Hot · our loudest bowl</p>
+<!-- wp:group {"className":"mk-bowl","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-bowl"><!-- wp:paragraph {"className":"mk-bowl__no"} -->
+<p class="mk-bowl__no">01</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"className":"mk-bowl__name"} -->
-<h2 class="wp-block-heading mk-bowl__name" id="red-miso-fire">Red Miso Fire</h2>
+<!-- wp:heading {"level":3,"anchor":"shoyu","className":"mk-bowl__name"} -->
+<h3 id="shoyu" class="wp-block-heading mk-bowl__name">Shoyu</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Red miso and roasted chili paste in pork broth, wavy medium noodles, sweet corn, scallions, a soft egg and a heap of chili flakes. Ask for a chili bomb if it is not enough.</p>
+<p>The first bowl we made and still the one most people order. Clear broth, a soy tare aged in cedar for a season, thin straight noodles.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mk-bowl__detail"} -->
+<p class="mk-bowl__detail">Chashu, menma, leek, nori</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"mk-bowl","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-bowl"><!-- wp:image {"sizeSlug":"large","className":"mk-photo"} -->
-<figure class="wp-block-image size-large mk-photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero.jpg' ) ); ?>" alt="A bowl of creamy tonkotsu ramen with chashu, a soft egg and scallions under warm light"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:group {"className":"mk-bowl__text","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-bowl__text"><!-- wp:paragraph {"className":"mk-bowl__kicker"} -->
-<p class="mk-bowl__kicker">Rich · pork bone</p>
+<div class="wp-block-group mk-bowl"><!-- wp:paragraph {"className":"mk-bowl__no"} -->
+<p class="mk-bowl__no">02</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"className":"mk-bowl__name"} -->
-<h2 class="wp-block-heading mk-bowl__name" id="tonkotsu-black">Tonkotsu Black</h2>
+<!-- wp:heading {"level":3,"anchor":"shio","className":"mk-bowl__name"} -->
+<h3 id="shio" class="wp-block-heading mk-bowl__name">Shio</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Pork bone broth boiled white for eighteen hours, thin noodles, chashu, scallions and a spoon of black garlic oil on top. Heavy, savoury, best after midnight.</p>
+<p>The same broth seasoned only with sea salt from the southern islands and a curl of yuzu peel. The lightest bowl, and the one the cook eats.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mk-bowl__detail"} -->
+<p class="mk-bowl__detail">Chashu, mitsuba, yuzu</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"mk-bowl mk-bowl--flip","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-bowl mk-bowl--flip"><!-- wp:image {"sizeSlug":"large","className":"mk-photo"} -->
-<figure class="wp-block-image size-large mk-photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/gyoza.jpg' ) ); ?>" alt="Golden pan-fried dumplings joined by a lacy crisp skirt on a black plate with a dish of dipping sauce"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:group {"className":"mk-bowl__text","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-bowl__text"><!-- wp:paragraph {"className":"mk-bowl__kicker"} -->
-<p class="mk-bowl__kicker">Side · pan-fried</p>
+<!-- wp:group {"className":"mk-bowl","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-bowl"><!-- wp:paragraph {"className":"mk-bowl__no"} -->
+<p class="mk-bowl__no">03</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"className":"mk-bowl__name"} -->
-<h2 class="wp-block-heading mk-bowl__name" id="gyoza">Gyoza, six</h2>
+<!-- wp:heading {"level":3,"anchor":"niboshi","className":"mk-bowl__name"} -->
+<h3 id="niboshi" class="wp-block-heading mk-bowl__name">Niboshi</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Pork, cabbage and garlic chives in thin wrappers, fried in one piece with a crisp lace skirt. Dip in vinegar, soy and chili oil.</p>
+<p>Small dried sardines simmered separately, then joined to the clear broth. Darker, slightly bitter, very good in winter.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mk-bowl__detail"} -->
+<p class="mk-bowl__detail">Chashu, raw onion, nori</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"mk-bowl","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-bowl"><!-- wp:paragraph {"className":"mk-bowl__no"} -->
+<p class="mk-bowl__no">04</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"anchor":"tsukemen","className":"mk-bowl__name"} -->
+<h3 id="tsukemen" class="wp-block-heading mk-bowl__name">Tsukemen</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Thick noodles rinsed cold, served beside a warm, concentrated broth for dipping. At the end we add hot broth to the bowl so you can drink it.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mk-bowl__detail"} -->
+<p class="mk-bowl__detail">Chashu, menma, a seasoned egg</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"mk-bowl","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-bowl"><!-- wp:paragraph {"className":"mk-bowl__no"} -->
+<p class="mk-bowl__no">05</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"anchor":"kombu-shiitake","className":"mk-bowl__name"} -->
+<h3 id="kombu-shiitake" class="wp-block-heading mk-bowl__name">Kombu and shiitake</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>No meat and no fish. Kelp and dried shiitake steeped overnight, roasted onion oil, white soy tare.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mk-bowl__detail"} -->
+<p class="mk-bowl__detail">Grilled leek, greens, sesame</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"className":"mk-links"} -->
+<div class="wp-block-buttons mk-links"><!-- wp:button {"className":"is-style-text-link"} -->
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/toppings/">Add-ons and extra noodles</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></section>
 <!-- /wp:group -->

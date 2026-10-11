@@ -1,61 +1,69 @@
 <?php
 /**
- * Title: Newsletter: past issues
+ * Title: Newsletter: past letters
  * Slug: menya-kaen/newsletter-past
  * Categories: menya-kaen
- * Keywords: newsletter, issues, archive
+ * Keywords: newsletter, archive, letters
  * Viewport Width: 1440
- * Description: Three past issues as ticket-stub cards.
+ * Description: A ruled list of earlier letters, each with its season and a one-line summary.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"mk-section","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull mk-section"><!-- wp:group {"align":"wide","className":"mk-issues__wrap","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide mk-issues__wrap"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">Past sheets</p>
+<!-- wp:group {"tagName":"section","align":"full","className":"mk-section mk-section--last","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull mk-section mk-section--last"><!-- wp:group {"className":"mk-chapter","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-chapter"><!-- wp:paragraph {"className":"mk-chapter__no"} -->
+<p class="mk-chapter__no">I</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"mk-issues","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-issues"><!-- wp:group {"className":"mk-issue is-style-ticket-card","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-issue is-style-ticket-card"><!-- wp:paragraph {"className":"mk-issue__n"} -->
-<p class="mk-issue__n">No. 23 · September</p>
+<!-- wp:paragraph {"className":"is-style-label"} -->
+<p class="is-style-label">Archive</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">The red miso gets redder</h3>
+<!-- wp:heading {"className":"mk-chapter__title"} -->
+<h2 class="wp-block-heading mk-chapter__title">Earlier letters</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"mk-letters","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-letters"><!-- wp:group {"className":"mk-letter","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-letter"><!-- wp:paragraph {"className":"mk-letter__date"} -->
+<p class="mk-letter__date">Autumn 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"mk-letter__title"} -->
+<h3 class="wp-block-heading mk-letter__title">The niboshi returns</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>A second chili paste, why we toast the miso, and the corn that only lasts until October.</p>
+<p>Why the sardine bowl only appears when the air turns cold, and a note on the new sardines from the south.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"mk-issue is-style-ticket-card","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-issue is-style-ticket-card"><!-- wp:paragraph {"className":"mk-issue__n"} -->
-<p class="mk-issue__n">No. 22 · August</p>
+<!-- wp:group {"className":"mk-letter","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-letter"><!-- wp:paragraph {"className":"mk-letter__date"} -->
+<p class="mk-letter__date">Summer 2026</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Cold tsukemen for hot nights</h3>
+<!-- wp:heading {"level":3,"className":"mk-letter__title"} -->
+<h3 class="wp-block-heading mk-letter__title">Closed for the August week</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The dip, the ice bath, and how to ask for soup-wari like a regular.</p>
+<p>The dates we close, where the cook goes, and the cold shio we serve for the week after.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"mk-issue is-style-ticket-card","layout":{"type":"default"}} -->
-<div class="wp-block-group mk-issue is-style-ticket-card"><!-- wp:paragraph {"className":"mk-issue__n"} -->
-<p class="mk-issue__n">No. 21 · July</p>
+<!-- wp:group {"className":"mk-letter","layout":{"type":"default"}} -->
+<div class="wp-block-group mk-letter"><!-- wp:paragraph {"className":"mk-letter__date"} -->
+<p class="mk-letter__date">Spring 2026</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">The machine gets a new button</h3>
+<!-- wp:heading {"level":3,"className":"mk-letter__title"} -->
+<h3 class="wp-block-heading mk-letter__title">Twelve years of broth</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Yuzu soda arrives, the oldest button retires, and the summer closing dates.</p>
+<p>A short history of the pot, and a home recipe for a clear chicken and kombu stock.</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
