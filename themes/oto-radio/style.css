@@ -1,0 +1,2375 @@
+/*
+Theme Name: Oto Radio
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/oto-radio
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Oto Radio — a retro block theme for podcasts, radio shows and audio series. A deep violet ground, cream type and one amber on-air light, Darker Grotesque headlines over Work Sans text. The header is a programme-guide masthead: a dateline row with the on-air time and a pulsing amber "On air" lamp, a giant wordmark across the page, then the menu on a ruled bar with a tuning-scale edge. The home page is a broadcast log: after a cover with a tuning dial, the latest episodes stand as stops on a vertical amber timeline, each with its date, an amber node, the episode number, running time, a waveform that plays when pointed at, the title and a record sleeve whose vinyl slides out. Then the running order of an hour as programme-guide rows, the two hosts, and a letter from a listener. The footer is led by the newsletter: a full-width amber band with one large email field. With an Episodes index (number, title, topic, date, running time and waveform per row), Hosts with the crew, About with a week of making an episode as a timeline, show notes with category and tag archives, single episodes with a listen bar, a newsletter, contact, search and 404. Episode numbers and running times are written once, in the episode's listen bar, and every list reads them from there (a block binding). The on-air time and the subscribe links, email addresses and social links are two synced patterns: edit once, the masthead, footer and Contact page update. No JavaScript of its own; motion stops for visitors who prefer reduced motion. WCAG AA colours throughout.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: oto-radio
+Tags: block-patterns, full-site-editing, blog, entertainment, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, one-column, two-columns, three-columns, grid-layout
+*/
+
+/* ==========================================================================
+   0. Tokens + base
+   ========================================================================== */
+
+:root {
+	--oto-violet: var(--wp--preset--color--violet);
+	--oto-amber: var(--wp--preset--color--amber);
+	--oto-cream: var(--wp--preset--color--cream);
+	--oto-night: var(--wp--preset--color--night);
+	--oto-plum: var(--wp--preset--color--plum);
+	--oto-haze: var(--wp--preset--color--haze);
+	--oto-heading: var(--wp--preset--font-family--heading);
+	--oto-body: var(--wp--preset--font-family--body);
+	--oto-ease: var(--wp--custom--ease);
+	--oto-pad: var(--wp--style--root--padding-right, clamp(1rem, 4vw, 3rem));
+	--oto-rule: 1px solid var(--oto-plum);
+	--oto-line: rgba(247, 243, 234, 0.22);
+	/* One period of the waveform: 28 bars of different heights (stretched to the element's height). */
+	--oto-wave: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 168 40' preserveAspectRatio='none'%3E%3Crect x='0' y='15' width='3' height='10' rx='1.5'/%3E%3Crect x='6' y='11' width='3' height='18' rx='1.5'/%3E%3Crect x='12' y='7' width='3' height='26' rx='1.5'/%3E%3Crect x='18' y='13' width='3' height='14' rx='1.5'/%3E%3Crect x='24' y='4' width='3' height='32' rx='1.5'/%3E%3Crect x='30' y='9' width='3' height='22' rx='1.5'/%3E%3Crect x='36' y='1' width='3' height='38' rx='1.5'/%3E%3Crect x='42' y='6' width='3' height='28' rx='1.5'/%3E%3Crect x='48' y='12' width='3' height='16' rx='1.5'/%3E%3Crect x='54' y='8' width='3' height='24' rx='1.5'/%3E%3Crect x='60' y='3' width='3' height='34' rx='1.5'/%3E%3Crect x='66' y='10' width='3' height='20' rx='1.5'/%3E%3Crect x='72' y='14' width='3' height='12' rx='1.5'/%3E%3Crect x='78' y='5' width='3' height='30' rx='1.5'/%3E%3Crect x='84' y='2' width='3' height='36' rx='1.5'/%3E%3Crect x='90' y='11' width='3' height='18' rx='1.5'/%3E%3Crect x='96' y='7' width='3' height='26' rx='1.5'/%3E%3Crect x='102' y='13' width='3' height='14' rx='1.5'/%3E%3Crect x='108' y='9' width='3' height='22' rx='1.5'/%3E%3Crect x='114' y='3' width='3' height='34' rx='1.5'/%3E%3Crect x='120' y='6' width='3' height='28' rx='1.5'/%3E%3Crect x='126' y='12' width='3' height='16' rx='1.5'/%3E%3Crect x='132' y='15' width='3' height='10' rx='1.5'/%3E%3Crect x='138' y='8' width='3' height='24' rx='1.5'/%3E%3Crect x='144' y='4' width='3' height='32' rx='1.5'/%3E%3Crect x='150' y='10' width='3' height='20' rx='1.5'/%3E%3Crect x='156' y='13' width='3' height='14' rx='1.5'/%3E%3Crect x='162' y='16' width='3' height='8' rx='1.5'/%3E%3C/svg%3E");
+	--oto-wave-size: 168px 100%;
+}
+
+html,
+body {
+	overflow-x: clip;
+}
+
+body {
+	font-variant-numeric: tabular-nums;
+	-webkit-font-smoothing: antialiased;
+}
+
+::selection {
+	background: var(--oto-amber);
+	color: var(--oto-violet);
+}
+
+a {
+	text-underline-offset: 0.18em;
+	text-decoration-thickness: 1px;
+}
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+	outline: 2px solid var(--oto-amber);
+	outline-offset: 3px;
+}
+
+.oto-letter :where(a, button, input, select, textarea):focus-visible,
+.is-style-cream :where(a, button, input, select, textarea):focus-visible {
+	outline-color: var(--oto-violet);
+}
+
+:where(.oto-main) .wp-block-post-content > .alignfull {
+	margin-block: 0;
+}
+
+h1, h2, h3, h4 {
+	text-wrap: balance;
+}
+
+p {
+	text-wrap: pretty;
+}
+
+/* ==========================================================================
+   1. Small parts: labels, lead, buttons, lists, quotes, the waveform
+   ========================================================================== */
+
+.is-style-label,
+.oto-head__kicker,
+.oto-cover__kicker {
+	display: flex;
+	gap: 0.65rem;
+	align-items: center;
+	margin: 0;
+	color: var(--oto-amber);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: 0.18em;
+	line-height: 1.4;
+	text-transform: uppercase;
+}
+
+/* A short stretch of waveform in front of every label. */
+.is-style-label::before,
+.oto-head__kicker::before,
+.oto-cover__kicker::before {
+	content: "";
+	flex: none;
+	width: 2.25rem;
+	height: 0.9rem;
+	background: var(--oto-amber);
+	-webkit-mask: var(--oto-wave) repeat-x left center / 84px 100%;
+	mask: var(--oto-wave) repeat-x left center / 84px 100%;
+}
+
+.is-style-lead {
+	color: var(--oto-cream);
+	font-size: var(--wp--preset--font-size--large);
+	line-height: 1.45;
+	max-width: 38ch;
+}
+
+.oto-muted,
+.oto-small,
+.oto-empty {
+	color: var(--oto-haze);
+}
+
+.oto-small {
+	margin: 0;
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.oto-credits {
+	padding-top: 1rem;
+	border-top: var(--oto-rule);
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.wp-block-buttons {
+	gap: 0.75rem;
+}
+
+.wp-block-button.is-style-outline > .wp-block-button__link {
+	border-color: var(--oto-cream);
+	background: transparent;
+	color: var(--oto-cream);
+}
+
+.wp-block-button.is-style-outline > .wp-block-button__link:hover,
+.wp-block-button.is-style-outline > .wp-block-button__link:focus-visible {
+	background: var(--oto-cream);
+	color: var(--oto-violet);
+}
+
+.wp-block-button.is-style-arrow > .wp-block-button__link {
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: none;
+	color: var(--oto-amber);
+	font-size: 1.375rem;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.25em;
+}
+
+.wp-block-button.is-style-arrow > .wp-block-button__link::after {
+	content: " →";
+	display: inline-block;
+	margin-left: 0.25em;
+	text-decoration: none;
+	transition: transform 0.3s var(--oto-ease);
+}
+
+.wp-block-button.is-style-arrow > .wp-block-button__link:hover {
+	background: none;
+	color: var(--oto-cream);
+}
+
+.wp-block-button.is-style-arrow > .wp-block-button__link:hover::after {
+	transform: translateX(0.3rem);
+}
+
+.is-style-dash {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.is-style-dash li {
+	position: relative;
+	padding: 0.3rem 0 0.3rem 1.75rem;
+}
+
+.is-style-dash li::before {
+	content: "";
+	position: absolute;
+	top: 1.05em;
+	left: 0;
+	width: 1rem;
+	height: 2px;
+	background: var(--oto-amber);
+}
+
+/* Programme-guide rows: a time (or year, or step) in amber, then the item. */
+.is-style-rundown {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-bottom: var(--oto-rule);
+}
+
+.is-style-rundown li {
+	display: grid;
+	grid-template-columns: 6.5rem minmax(0, 1fr);
+	gap: 1.25rem;
+	align-items: baseline;
+	padding: 1rem 0;
+	border-top: var(--oto-rule);
+}
+
+.is-style-rundown li > strong {
+	color: var(--oto-amber);
+	font-family: var(--oto-heading);
+	font-size: 1.75rem;
+	font-weight: 800;
+	line-height: 1;
+}
+
+.is-style-rundown li > span {
+	font-size: var(--wp--preset--font-size--medium);
+}
+
+/* The waveform: amber bars drawn with a mask, so the colour follows the theme. */
+.wp-block-separator.is-style-wave {
+	width: 100% !important;
+	max-width: none;
+	height: 2rem;
+	margin: 0.75rem 0 !important;
+	border: 0 !important;
+	background: var(--oto-amber) !important;
+	opacity: 1;
+	-webkit-mask: var(--oto-wave) repeat-x 0 center / var(--oto-wave-size);
+	mask: var(--oto-wave) repeat-x 0 center / var(--oto-wave-size);
+}
+
+@keyframes oto-play {
+	to {
+		-webkit-mask-position: -168px center;
+		mask-position: -168px center;
+	}
+}
+
+@keyframes oto-pulse {
+	0%,
+	100% {
+		box-shadow: 0 0 0 0 rgba(245, 197, 66, 0.55);
+	}
+	60% {
+		box-shadow: 0 0 0 0.6rem rgba(245, 197, 66, 0);
+	}
+}
+
+@keyframes oto-blink {
+	50% {
+		opacity: 0.25;
+	}
+}
+
+.wp-block-quote.oto-pull,
+.oto-prose .wp-block-quote {
+	margin: 0;
+	padding: 0 0 0 1.5rem;
+	border-left: 4px solid var(--oto-amber);
+}
+
+.wp-block-quote.oto-pull p {
+	font-size: clamp(2rem, 1.4rem + 2vw, 3.25rem);
+	line-height: 0.98;
+}
+
+.wp-block-quote cite {
+	display: block;
+	margin-top: 1rem;
+	color: var(--oto-haze);
+	font-family: var(--oto-body);
+	font-size: var(--wp--preset--font-size--small);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+.oto-topics {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 0;
+}
+
+.oto-topics a {
+	padding: 0.35rem 0.95rem;
+	border: 1px solid var(--oto-line);
+	border-radius: 999px;
+	color: var(--oto-cream);
+	font-size: var(--wp--preset--font-size--small);
+	text-decoration: none;
+	transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.oto-topics a:hover,
+.oto-topics a:focus-visible,
+.oto-topics a[aria-current] {
+	border-color: var(--oto-amber);
+	background: var(--oto-amber);
+	color: var(--oto-violet);
+}
+
+.is-style-cream {
+	background: var(--oto-cream);
+	color: var(--oto-violet);
+}
+
+.is-style-cream :where(h1, h2, h3, h4, a) {
+	color: var(--oto-violet);
+}
+
+/* ==========================================================================
+   2. Header (H5): programme-guide masthead
+   ========================================================================== */
+
+.oto-mast {
+	position: relative;
+	z-index: 30;
+	padding: 0.85rem var(--oto-pad) 0;
+}
+
+.oto-mast > * {
+	margin-block: 0 !important;
+}
+
+.oto-mast__dateline {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+	gap: 1rem;
+	align-items: center;
+	padding-bottom: 0.8rem;
+	border-bottom: 1px solid var(--oto-line);
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 500;
+	letter-spacing: 0.14em;
+	line-height: 1.4;
+	text-transform: uppercase;
+}
+
+.oto-mast__dateline > * {
+	margin: 0 !important;
+}
+
+.oto-mast__place {
+	text-align: right;
+}
+
+.oto-mast .oto-onair__more {
+	display: none;
+}
+
+.oto-mast .wp-block-site-title.oto-mast__title {
+	margin: 0.1em 0 0.02em !important;
+	font-size: clamp(3.5rem, 19.6vw, 17.75rem);
+	letter-spacing: -0.015em;
+	line-height: 0.78;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.oto-mast__title a {
+	color: var(--oto-cream);
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.oto-mast__title a:hover,
+.oto-mast__title a:focus-visible {
+	color: var(--oto-amber);
+}
+
+/* Inner pages: the same masthead, set smaller. */
+body:not(.home) .oto-mast .wp-block-site-title.oto-mast__title {
+	font-size: clamp(3.5rem, 12vw, 10.5rem);
+}
+
+/* The menu row: a double rule on top, a tuning scale along the bottom. */
+.oto-mast__bar {
+	position: relative;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.7rem 0 1.25rem;
+	border-top: 4px double var(--oto-cream);
+}
+
+.oto-mast__bar::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 0.6rem;
+	background:
+		repeating-linear-gradient(90deg, var(--oto-haze) 0 1px, transparent 1px 100px) bottom left / 100% 0.6rem no-repeat,
+		repeating-linear-gradient(90deg, var(--oto-line) 0 1px, transparent 1px 10px) bottom left / 100% 0.35rem no-repeat;
+}
+
+.oto-mast__bar > * {
+	margin: 0 !important;
+}
+
+.oto-nav .wp-block-navigation__container {
+	gap: 0.25rem clamp(1rem, 2.4vw, 2.25rem);
+}
+
+.oto-nav .wp-block-navigation-item__content {
+	position: relative;
+	color: var(--oto-cream);
+	font-size: clamp(1.2rem, 1rem + 0.5vw, 1.5rem);
+	font-weight: 800;
+	letter-spacing: 0.04em;
+	line-height: 1.2;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: color 0.2s;
+}
+
+.oto-nav .wp-block-navigation-item__content:hover,
+.oto-nav .wp-block-navigation-item__content:focus-visible,
+.oto-nav .wp-block-navigation-item__content[aria-current] {
+	color: var(--oto-amber);
+}
+
+.oto-nav .wp-block-navigation-item__content[aria-current]::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: -0.2rem;
+	left: 0;
+	height: 2px;
+	background: var(--oto-amber);
+}
+
+/* Phones: the core menu button opens a full-screen programme list. */
+.oto-nav .wp-block-navigation__responsive-container-open,
+.oto-nav .wp-block-navigation__responsive-container-close {
+	color: var(--oto-cream);
+}
+
+.oto-nav .wp-block-navigation__responsive-container-open {
+	gap: 0.5rem;
+	align-items: center;
+	padding: 0.4rem 0.9rem 0.4rem 0.6rem;
+	border: 1px solid var(--oto-line);
+	border-radius: 999px;
+}
+
+@media (max-width: 599px) {
+	.oto-nav .wp-block-navigation__responsive-container-open:not(.always-shown) {
+		display: inline-flex;
+	}
+}
+
+.oto-nav .wp-block-navigation__responsive-container-open::after {
+	content: "Menu";
+	font-family: var(--oto-heading);
+	font-size: 1.2rem;
+	font-weight: 800;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.oto-nav .wp-block-navigation__responsive-container.is-menu-open {
+	padding: clamp(1.25rem, 5vw, 2rem);
+	background: var(--oto-violet) !important;
+	color: var(--oto-cream) !important;
+}
+
+.oto-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
+	padding-top: 4rem;
+	align-items: flex-start;
+}
+
+.oto-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container {
+	gap: 0;
+	width: 100%;
+}
+
+.oto-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item {
+	width: 100%;
+	padding: 0.6rem 0;
+	border-bottom: var(--oto-rule);
+}
+
+.oto-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content {
+	font-size: clamp(2.5rem, 12vw, 3.5rem);
+	line-height: 1;
+}
+
+.oto-mast__search .wp-block-search__inside-wrapper {
+	gap: 0.4rem;
+}
+
+.oto-mast__search .wp-block-search__button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.6rem;
+	height: 2.6rem;
+	margin: 0;
+	padding: 0;
+	border: 1px solid var(--oto-line);
+	border-radius: 50%;
+	background: transparent;
+	color: var(--oto-cream);
+}
+
+.oto-mast__search .wp-block-search__button:hover {
+	border-color: var(--oto-amber);
+	color: var(--oto-amber);
+}
+
+.oto-mast__search .wp-block-search__button svg {
+	width: 1.35rem;
+	height: 1.35rem;
+	fill: currentColor;
+}
+
+.oto-mast__search .wp-block-search__input {
+	min-width: 12rem;
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--oto-line);
+	border-radius: 999px;
+	background: var(--oto-night);
+	color: var(--oto-cream);
+}
+
+/* ==========================================================================
+   3. The on-air time and the station details (synced patterns)
+   ========================================================================== */
+
+.oto-onair > * {
+	margin: 0;
+}
+
+.oto-onair__live {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.3rem 0.7rem;
+	align-items: center;
+	justify-content: center;
+	color: var(--oto-cream);
+}
+
+.oto-onair__live strong {
+	display: inline-flex;
+	gap: 0.45rem;
+	align-items: center;
+	padding: 0.28rem 0.75rem 0.28rem 0.6rem;
+	border-radius: 999px;
+	background: var(--oto-amber);
+	color: var(--oto-violet);
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	animation: oto-pulse 2.4s ease-out infinite;
+}
+
+.oto-onair__live strong::before {
+	content: "";
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background: var(--oto-violet);
+	animation: oto-blink 1.2s steps(1, end) infinite;
+}
+
+.oto-onair__more {
+	margin-top: 0.6rem !important;
+	color: var(--oto-haze);
+}
+
+.oto-contact__info .oto-onair {
+	margin-bottom: 2.5rem;
+}
+
+.oto-contact__info .oto-onair__live {
+	justify-content: flex-start;
+	font-family: var(--oto-heading);
+	font-size: 1.75rem;
+	font-weight: 800;
+	line-height: 1.1;
+}
+
+.oto-contact__info .oto-onair__live strong {
+	font-family: var(--oto-body);
+	font-size: 0.75rem;
+	text-transform: uppercase;
+}
+
+.oto-station {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 2rem;
+}
+
+.oto-station > *,
+.oto-station__item > * {
+	margin: 0 !important;
+}
+
+.oto-station__item > * + * {
+	margin-top: 0.6rem !important;
+}
+
+.oto-station__key {
+	color: var(--oto-amber);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.oto-station__value {
+	font-family: var(--oto-heading);
+	font-size: 1.6rem;
+	font-weight: 800;
+	line-height: 1.1;
+	overflow-wrap: anywhere;
+}
+
+.oto-station__value a,
+.oto-station__links a {
+	color: var(--oto-cream);
+}
+
+.oto-station__value a:hover,
+.oto-station__links a:hover {
+	color: var(--oto-amber);
+}
+
+.oto-station__more {
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.oto-station__more a {
+	color: var(--oto-haze);
+}
+
+.oto-station__links {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.oto-station__links li {
+	padding: 0.15rem 0;
+}
+
+.oto-station__links a {
+	font-family: var(--oto-heading);
+	font-size: 1.45rem;
+	font-weight: 800;
+	line-height: 1.2;
+	text-decoration: none;
+}
+
+.oto-station__links a::after {
+	content: "\00a0↗";
+	color: var(--oto-amber);
+}
+
+.oto-social.wp-block-social-links {
+	gap: 0.5rem;
+}
+
+.oto-social .wp-social-link {
+	border: 1px solid var(--oto-line);
+	background: transparent !important;
+	color: var(--oto-cream) !important;
+	transition: border-color 0.2s, color 0.2s;
+}
+
+.oto-social .wp-social-link:hover {
+	border-color: var(--oto-amber);
+	color: var(--oto-amber) !important;
+	transform: none;
+}
+
+.oto-social .wp-social-link a {
+	padding: 0.55rem;
+}
+
+/* Contact keeps the station details in a narrow column. */
+.oto-contact__info .oto-station {
+	grid-template-columns: minmax(0, 1fr);
+	gap: 1.75rem;
+	margin-bottom: 2.5rem;
+}
+
+/* ==========================================================================
+   4. Page heads, sections, splits, panels
+   ========================================================================== */
+
+.oto-head {
+	padding-block: clamp(3rem, 6vw, 5.5rem) clamp(2.5rem, 4vw, 3.5rem);
+	border-bottom: var(--oto-rule);
+}
+
+.oto-head__inner > * {
+	margin-block: 0;
+}
+
+.oto-head__inner > * + * {
+	margin-top: 1.5rem;
+}
+
+.oto-head__title {
+	max-width: 14ch;
+}
+
+.oto-head__inner .oto-topics {
+	margin-top: 2rem;
+}
+
+.oto-section {
+	padding-block: var(--wp--preset--spacing--50);
+}
+
+.oto-section--tight {
+	padding-block: var(--wp--preset--spacing--40) var(--wp--preset--spacing--50);
+}
+
+.oto-section--rule {
+	border-top: var(--oto-rule);
+}
+
+.oto-section--night {
+	background: var(--oto-night);
+}
+
+.oto-split {
+	display: grid;
+	grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+	gap: clamp(2rem, 6vw, 6rem);
+	align-items: start;
+}
+
+.oto-split > * {
+	margin: 0 !important;
+}
+
+.oto-split__a > *,
+.oto-split__b > * {
+	margin-block: 0;
+}
+
+.oto-split__a > * + *,
+.oto-split__b > * + * {
+	margin-top: 1.25rem;
+}
+
+.oto-split--photo {
+	align-items: center;
+}
+
+.oto-split--form {
+	grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+}
+
+.oto-panel {
+	padding: clamp(1.5rem, 3vw, 2.75rem);
+	border: var(--oto-rule);
+	border-radius: 1.5rem;
+	background: var(--oto-night);
+}
+
+.oto-panel .oto-form {
+	margin-top: 1.75rem !important;
+}
+
+.oto-panel__title {
+	font-size: clamp(2rem, 1.6rem + 1.2vw, 2.75rem);
+}
+
+.oto-photo-tall img,
+.oto-photo-wide img {
+	width: 100%;
+	border-radius: 1.25rem;
+	object-fit: cover;
+}
+
+.oto-photo-tall img {
+	aspect-ratio: 4 / 5;
+}
+
+.oto-photo-wide img {
+	aspect-ratio: 4 / 3;
+}
+
+.wp-block-image figcaption {
+	margin-top: 0.75rem;
+}
+
+/* ==========================================================================
+   5. Home: programme cover and the tuning dial
+   ========================================================================== */
+
+.oto-cover {
+	padding-block: clamp(2.5rem, 5vw, 4.5rem) clamp(1rem, 2vw, 2rem);
+}
+
+.oto-cover__inner {
+	display: grid;
+	grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+	gap: clamp(2rem, 5vw, 5rem);
+	align-items: end;
+}
+
+.oto-cover__inner > * {
+	margin: 0 !important;
+}
+
+.oto-cover__text > * {
+	margin-block: 0;
+}
+
+.oto-cover__text > * + * {
+	margin-top: 1.5rem;
+}
+
+.oto-cover__title {
+	font-size: clamp(3.25rem, 1.6rem + 6vw, 7.75rem);
+}
+
+.oto-cover__photo img {
+	width: 100%;
+	aspect-ratio: 5 / 4;
+	border: 2px solid var(--oto-plum);
+	border-radius: 2.25rem;
+	object-fit: cover;
+}
+
+/* A tuning scale with the needle on the station. */
+.oto-dial {
+	position: relative;
+	margin-top: clamp(2.5rem, 5vw, 4rem) !important;
+	padding: 0.4rem 0 1.5rem;
+	border-top: var(--oto-rule);
+	background:
+		repeating-linear-gradient(90deg, var(--oto-haze) 0 1px, transparent 1px calc(100% / 8)) bottom left / calc(100% + 1px) 0.9rem no-repeat,
+		repeating-linear-gradient(90deg, var(--oto-line) 0 1px, transparent 1px calc(100% / 70)) bottom left / 100% 0.45rem no-repeat;
+}
+
+.oto-dial > * {
+	margin: 0 !important;
+}
+
+.oto-dial::after {
+	content: "";
+	position: absolute;
+	top: -0.75rem;
+	bottom: 0;
+	left: 62%;
+	width: 3px;
+	border-radius: 2px;
+	background: var(--oto-amber);
+	box-shadow: 0 0 14px rgba(245, 197, 66, 0.7);
+}
+
+.oto-dial__scale {
+	color: var(--oto-haze);
+	font-family: var(--oto-heading);
+	font-size: clamp(1rem, 0.8rem + 0.6vw, 1.4rem);
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	text-align: justify;
+	text-align-last: justify;
+}
+
+.oto-dial__station {
+	position: absolute;
+	top: -1.9rem;
+	left: calc(62% + 0.85rem);
+	color: var(--oto-amber);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+/* ==========================================================================
+   6. Home: the broadcast log (L12) — episodes as stops on a vertical timeline
+   ========================================================================== */
+
+.oto-log__head {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+	gap: 1rem clamp(2rem, 6vw, 6rem);
+	align-items: end;
+}
+
+.oto-log__head > * {
+	margin: 0 !important;
+}
+
+.oto-log__head > .is-style-label {
+	grid-column: 1 / -1;
+}
+
+.oto-log__intro {
+	max-width: 36ch;
+	color: var(--oto-haze);
+}
+
+.oto-timeline,
+.oto-chapters {
+	--oto-when: 8.5rem;
+	--oto-gap: 4.5rem;
+	--oto-rail: calc(var(--oto-when) + var(--oto-gap) / 2);
+}
+
+.oto-timeline .wp-block-post-template,
+.oto-chapters {
+	position: relative;
+	margin-top: clamp(2.5rem, 5vw, 4rem) !important;
+	padding: 0;
+	list-style: none;
+}
+
+/* The line itself: amber, fading out after the last stop. */
+.oto-timeline .wp-block-post-template::before,
+.oto-chapters::before {
+	content: "";
+	position: absolute;
+	top: 0.6rem;
+	bottom: 0;
+	left: calc(var(--oto-rail) - 1px);
+	width: 2px;
+	background: linear-gradient(var(--oto-amber), var(--oto-amber) 82%, rgba(245, 197, 66, 0));
+}
+
+.oto-timeline .wp-block-post-template > li {
+	margin: 0;
+}
+
+.oto-stop {
+	position: relative;
+	display: grid;
+	grid-template-columns: var(--oto-when) minmax(0, 1fr) 11rem;
+	column-gap: var(--oto-gap);
+	padding-bottom: clamp(2.5rem, 4vw, 3.75rem);
+}
+
+.oto-stop > * {
+	margin: 0 !important;
+}
+
+/* The node on the line. */
+.oto-stop::before,
+.oto-chapter::before {
+	content: "";
+	position: absolute;
+	top: 0.35rem;
+	left: calc(var(--oto-rail) - 0.75rem);
+	width: 1.5rem;
+	height: 1.5rem;
+	box-sizing: border-box;
+	border: 3px solid var(--oto-amber);
+	border-radius: 50%;
+	background: var(--oto-violet);
+	transition: background 0.25s;
+}
+
+/* The newest stop is on air: a filled, pulsing node. */
+.oto-timeline .wp-block-post-template > li:first-child .oto-stop::before {
+	background: var(--oto-amber);
+	animation: oto-pulse 2.4s ease-out infinite;
+}
+
+.oto-stop:hover::before,
+.oto-stop:focus-within::before {
+	background: var(--oto-amber);
+}
+
+.oto-stop__when {
+	display: grid;
+	align-content: start;
+	justify-items: end;
+	text-align: right;
+}
+
+.oto-stop__when > * {
+	margin: 0 !important;
+}
+
+.oto-stop__day {
+	color: var(--oto-amber);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+
+.oto-stop__date {
+	font-family: var(--oto-heading);
+	font-size: 2.4rem;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.oto-stop__year {
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.oto-stop__body > * {
+	margin-block: 0;
+}
+
+.oto-stop__body > * + * {
+	margin-top: 0.75rem;
+}
+
+.oto-stop__meta,
+.oto-card__meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.35rem 1rem;
+	align-items: baseline;
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.oto-stop__meta > *,
+.oto-card__meta > * {
+	margin: 0 !important;
+}
+
+.oto-no {
+	color: var(--oto-amber);
+	font-family: var(--oto-heading);
+	font-size: 1.5rem;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.oto-no:empty,
+.oto-time:empty {
+	display: none;
+}
+
+.oto-row__time:empty {
+	visibility: hidden;
+}
+
+.oto-stop__terms a,
+.oto-card__terms a,
+.oto-row__terms a {
+	color: var(--oto-haze);
+	text-decoration: none;
+}
+
+.oto-stop__terms a:hover,
+.oto-card__terms a:hover,
+.oto-row__terms a:hover {
+	color: var(--oto-amber);
+}
+
+.oto-stop .wp-block-separator.is-style-wave {
+	max-width: 30rem;
+	height: 1.75rem;
+	opacity: 0.55;
+	transition: opacity 0.3s;
+}
+
+.oto-timeline .wp-block-post:nth-child(3n + 2) .is-style-wave,
+.oto-index .wp-block-post:nth-child(3n + 2) .is-style-wave {
+	-webkit-mask-position: -54px center;
+	mask-position: -54px center;
+}
+
+.oto-timeline .wp-block-post:nth-child(3n) .is-style-wave,
+.oto-index .wp-block-post:nth-child(3n) .is-style-wave {
+	-webkit-mask-position: -114px center;
+	mask-position: -114px center;
+}
+
+.oto-stop:hover .is-style-wave,
+.oto-stop:focus-within .is-style-wave {
+	opacity: 1;
+}
+
+.oto-stop__title {
+	font-size: clamp(1.9rem, 1.4rem + 1.6vw, 3rem);
+	line-height: 0.95;
+}
+
+.oto-stop__title a,
+.oto-card__title a,
+.oto-row__title a {
+	color: var(--oto-cream);
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.oto-stop__title a:hover,
+.oto-card__title a:hover,
+.oto-row__title a:hover,
+.oto-stop__title a:focus-visible,
+.oto-card__title a:focus-visible,
+.oto-row__title a:focus-visible {
+	color: var(--oto-amber);
+}
+
+.oto-stop__excerpt {
+	max-width: 52ch;
+	color: var(--oto-haze);
+}
+
+.oto-stop__excerpt p {
+	margin: 0;
+}
+
+.oto-stop__more.wp-block-read-more,
+.oto-stop__more {
+	display: inline-block;
+	color: var(--oto-amber);
+	font-weight: 600;
+}
+
+.oto-stop__more::after {
+	content: " →";
+}
+
+/* The record sleeve, with the vinyl peeking out (and sliding out on hover). */
+.oto-stop__sleeve,
+.oto-episode-head__sleeve {
+	position: relative;
+	isolation: isolate;
+	align-self: start;
+}
+
+.oto-stop__sleeve::before,
+.oto-episode-head__sleeve::before {
+	content: "";
+	position: absolute;
+	top: 5%;
+	right: 4%;
+	z-index: -1;
+	width: 90%;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	background:
+		radial-gradient(circle, var(--oto-amber) 0 13%, #120A20 13.5% 15%, transparent 15.5%),
+		repeating-radial-gradient(circle, #120A20 0 2px, #22163A 2px 3px);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4);
+	transition: transform 0.6s var(--oto-ease);
+	transform: translateX(16%);
+}
+
+.oto-stop:hover .oto-stop__sleeve::before,
+.oto-stop:focus-within .oto-stop__sleeve::before {
+	transform: translateX(32%) rotate(40deg);
+}
+
+.oto-stop__sleeve img,
+.oto-episode-head__sleeve img,
+.oto-card__sleeve img {
+	border-radius: 0.5rem;
+	box-shadow: 0 1.25rem 2.5rem -1.5rem rgba(0, 0, 0, 0.6);
+}
+
+.oto-log__more {
+	margin-top: 0.5rem !important;
+	padding-left: calc(var(--oto-when, 8.5rem) + var(--oto-gap, 4.5rem));
+}
+
+/* ==========================================================================
+   7. Home: hosts teaser, the letters box
+   ========================================================================== */
+
+.oto-hosts-teaser {
+	display: grid;
+	grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+	gap: clamp(2rem, 6vw, 6rem);
+	align-items: start;
+}
+
+.oto-hosts-teaser > * {
+	margin: 0 !important;
+}
+
+.oto-hosts-teaser__head > * {
+	margin-block: 0;
+}
+
+.oto-hosts-teaser__head > * + * {
+	margin-top: 1.5rem;
+}
+
+.oto-hosts-teaser__cards {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: clamp(1.25rem, 3vw, 2.5rem);
+}
+
+.oto-hosts-teaser__cards > *,
+.oto-host-card > * {
+	margin: 0 !important;
+}
+
+.oto-host-card > * + * {
+	margin-top: 0.6rem !important;
+}
+
+.oto-host-card__photo {
+	margin-bottom: 1.25rem !important;
+}
+
+.oto-host-card__photo img {
+	width: 100%;
+	aspect-ratio: 4 / 5;
+	border-radius: 1.25rem;
+	object-fit: cover;
+}
+
+.oto-host-card__role,
+.oto-crew__role {
+	color: var(--oto-amber);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.oto-host-card__name {
+	font-size: clamp(2rem, 1.6rem + 1.2vw, 2.75rem);
+}
+
+.oto-host-card__line {
+	color: var(--oto-haze);
+}
+
+.oto-letterbox {
+	display: grid;
+	grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
+	gap: clamp(2rem, 6vw, 6rem);
+	align-items: center;
+}
+
+.oto-letterbox > * {
+	margin: 0 !important;
+}
+
+.oto-letterbox__photo img {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	border-radius: 2.25rem;
+	object-fit: cover;
+}
+
+.oto-letterbox__text > * {
+	margin-block: 0;
+}
+
+.oto-letterbox__text > * + * {
+	margin-top: 1.75rem;
+}
+
+/* ==========================================================================
+   8. Episodes index: programme-guide rows
+   ========================================================================== */
+
+.oto-index {
+	--oto-cols: 7.25rem minmax(0, 1fr) 9rem 6rem 9rem;
+}
+
+.oto-index__labels,
+.oto-row {
+	display: grid;
+	grid-template-columns: var(--oto-cols);
+	gap: 1.5rem;
+	align-items: center;
+}
+
+.oto-index__labels {
+	padding-bottom: 0.75rem;
+	border-bottom: 2px solid var(--oto-cream);
+}
+
+.oto-index__labels > *,
+.oto-row > * {
+	margin: 0 !important;
+}
+
+.oto-index__label {
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.oto-index .wp-block-post-template {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.oto-index .wp-block-post-template > li {
+	margin: 0;
+	border-bottom: var(--oto-rule);
+}
+
+.oto-row {
+	padding: 1.2rem 0.5rem 1.2rem 0;
+	transition: background 0.25s;
+}
+
+.oto-row:hover,
+.oto-row:focus-within {
+	background: linear-gradient(90deg, transparent, rgba(61, 42, 99, 0.7) 20%);
+}
+
+.oto-row__no {
+	white-space: nowrap;
+	color: var(--oto-amber);
+	font-family: var(--oto-heading);
+	font-size: 2.25rem;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.oto-row__main > * {
+	margin: 0;
+}
+
+.oto-row__title {
+	font-size: clamp(1.5rem, 1.2rem + 1vw, 2.1rem);
+	line-height: 1;
+}
+
+.oto-row__terms {
+	margin-top: 0.35rem !important;
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.oto-row__date,
+.oto-row__time {
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.oto-row__time {
+	color: var(--oto-cream);
+	font-weight: 600;
+}
+
+.oto-row .wp-block-separator.is-style-wave {
+	height: 1.5rem;
+	margin: 0 !important;
+	opacity: 0.45;
+}
+
+.oto-row:hover .is-style-wave,
+.oto-row:focus-within .is-style-wave {
+	opacity: 1;
+}
+
+.oto-index__foot {
+	margin-top: 2.5rem !important;
+}
+
+.oto-pagination {
+	margin-top: 2.5rem;
+	font-weight: 600;
+}
+
+.oto-pagination a {
+	color: var(--oto-cream);
+}
+
+.oto-pagination .current {
+	color: var(--oto-amber);
+}
+
+/* ==========================================================================
+   9. Hosts and the crew
+   ========================================================================== */
+
+.oto-host {
+	display: grid;
+	grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+	gap: clamp(2rem, 6vw, 6rem);
+	align-items: center;
+}
+
+.oto-host + .oto-host {
+	margin-top: var(--wp--preset--spacing--50) !important;
+}
+
+.oto-host > * {
+	margin: 0 !important;
+}
+
+.oto-host--flip {
+	grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+}
+
+.oto-host--flip .oto-host__photo {
+	order: 2;
+}
+
+.oto-host__photo img {
+	width: 100%;
+	aspect-ratio: 4 / 5;
+	border-radius: 2.25rem;
+	object-fit: cover;
+}
+
+.oto-host__text > * {
+	margin-block: 0;
+}
+
+.oto-host__text > * + * {
+	margin-top: 1.1rem;
+}
+
+.oto-host__name {
+	font-size: clamp(3rem, 2rem + 4vw, 6rem);
+}
+
+.oto-host__sub {
+	padding-top: 1rem;
+	border-top: var(--oto-rule);
+	font-size: 1.5rem;
+}
+
+.oto-crew > .oto-crew__item {
+	display: grid;
+	grid-template-columns: 11rem minmax(0, 14rem) minmax(0, 1fr);
+	gap: 1.5rem;
+	align-items: baseline;
+	margin: 0 !important;
+	padding: 1.25rem 0;
+	border-top: var(--oto-rule);
+}
+
+.oto-crew__item > * {
+	margin: 0 !important;
+}
+
+.oto-crew__name {
+	font-size: 1.9rem;
+}
+
+.oto-crew__line {
+	color: var(--oto-haze);
+}
+
+.oto-crew__note {
+	padding-top: 1.5rem;
+	border-top: var(--oto-rule);
+	color: var(--oto-haze);
+}
+
+/* ==========================================================================
+   10. About: a week as chapters on the line
+   ========================================================================== */
+
+.oto-chapter {
+	position: relative;
+	display: grid;
+	grid-template-columns: var(--oto-when) minmax(0, 1fr);
+	column-gap: var(--oto-gap);
+	margin: 0 !important;
+	padding-bottom: clamp(2rem, 3.5vw, 3rem);
+}
+
+.oto-chapter > * {
+	margin: 0 !important;
+}
+
+.oto-chapter__day {
+	color: var(--oto-amber);
+	font-family: var(--oto-heading);
+	font-size: 1.75rem;
+	font-weight: 800;
+	line-height: 1.1;
+	text-align: right;
+}
+
+.oto-chapter__body > * {
+	margin: 0;
+}
+
+.oto-chapter__title {
+	font-size: clamp(1.9rem, 1.4rem + 1.4vw, 2.75rem);
+}
+
+.oto-chapter__text {
+	max-width: 52ch;
+	margin-top: 0.6rem !important;
+	color: var(--oto-haze);
+}
+
+.oto-chapters .oto-chapter:last-child::before {
+	background: var(--oto-amber);
+}
+
+/* ==========================================================================
+   11. Forms
+   ========================================================================== */
+
+.oto-form {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 1.1rem 1rem;
+	margin: 0;
+}
+
+.oto-field {
+	display: grid;
+	grid-column: 1 / -1;
+	gap: 0.45rem;
+	margin: 0;
+}
+
+.oto-field--half {
+	grid-column: auto;
+}
+
+.oto-field label {
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.oto-field :where(input[type="text"], input[type="email"], select, textarea) {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.8rem 1rem;
+	border: 2px solid var(--oto-plum);
+	border-radius: 0.75rem;
+	background: var(--oto-violet);
+	color: var(--oto-cream);
+	font: inherit;
+}
+
+.oto-field :where(input, select, textarea):focus-visible {
+	border-color: var(--oto-amber);
+	outline-offset: 1px;
+}
+
+.oto-field ::placeholder {
+	color: var(--oto-haze);
+	opacity: 1;
+}
+
+.oto-field--check {
+	display: flex;
+	gap: 0.65rem;
+	align-items: center;
+}
+
+.oto-field--check label {
+	color: var(--oto-cream);
+	font-size: var(--wp--preset--font-size--small);
+	font-weight: 400;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.oto-field input[type="checkbox"] {
+	width: 1.2rem;
+	height: 1.2rem;
+	accent-color: var(--oto-amber);
+}
+
+.oto-field button {
+	justify-self: start;
+	cursor: pointer;
+}
+
+.oto-searchform .wp-block-search__inside-wrapper {
+	max-width: 34rem;
+	padding: 0.3rem;
+	border: 2px solid var(--oto-plum);
+	border-radius: 999px;
+	background: var(--oto-night);
+}
+
+.oto-searchform .wp-block-search__input {
+	padding: 0.6rem 1rem;
+	border: 0;
+	background: transparent;
+	color: var(--oto-cream);
+}
+
+.oto-searchform .wp-block-search__input::placeholder {
+	color: var(--oto-haze);
+}
+
+.oto-searchform .wp-block-search__button {
+	margin: 0;
+	border-radius: 999px;
+}
+
+/* ==========================================================================
+   12. Show notes cards (posts page, archives, search)
+   ========================================================================== */
+
+.oto-cards .wp-block-post-template {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: clamp(2.5rem, 4vw, 3.5rem) clamp(1.25rem, 3vw, 2.5rem);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.oto-cards .wp-block-post-template > li {
+	margin: 0;
+}
+
+.oto-card > * {
+	margin-block: 0;
+}
+
+.oto-card > * + * {
+	margin-top: 0.8rem;
+}
+
+.oto-card__sleeve {
+	margin-bottom: 1.25rem !important;
+}
+
+.oto-card__title {
+	font-size: clamp(1.75rem, 1.4rem + 1vw, 2.25rem);
+	line-height: 0.98;
+}
+
+.oto-card .wp-block-post-excerpt {
+	color: var(--oto-haze);
+}
+
+.oto-card .wp-block-post-excerpt__excerpt {
+	margin: 0;
+}
+
+.oto-card__terms {
+	font-size: var(--wp--preset--font-size--small);
+}
+
+/* ==========================================================================
+   13. A single episode: head with the sleeve, the listen bar, show notes
+   ========================================================================== */
+
+.oto-episode-head {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 22rem);
+	gap: clamp(2rem, 6vw, 7rem);
+	align-items: center;
+}
+
+.oto-episode-head > * {
+	margin: 0 !important;
+}
+
+.oto-episode-head__text > * {
+	margin-block: 0;
+}
+
+.oto-episode-head__text > * + * {
+	margin-top: 1.25rem;
+}
+
+.oto-head--episode .oto-head__title {
+	max-width: 16ch;
+	font-size: clamp(3rem, 1.6rem + 5vw, 6.75rem);
+}
+
+.oto-episode-head__dek {
+	max-width: 46ch;
+	font-size: var(--wp--preset--font-size--large);
+	line-height: 1.45;
+}
+
+.oto-episode-head__dek p {
+	margin: 0;
+}
+
+.oto-episode-head__sleeve {
+	margin-right: 3rem !important;
+}
+
+.oto-episode-head__sleeve::before {
+	transform: translateX(28%);
+}
+
+.oto-head--episode .oto-card__meta a {
+	color: var(--oto-haze);
+}
+
+.oto-article .oto-prose {
+	padding-block: var(--wp--preset--spacing--40) 0;
+}
+
+.oto-prose > * + * {
+	margin-top: 1.4rem;
+}
+
+.oto-prose h2 {
+	margin-top: 3rem;
+	font-size: clamp(2.1rem, 1.6rem + 1.6vw, 3rem);
+}
+
+.oto-prose .wp-block-image img {
+	border-radius: 1rem;
+}
+
+.oto-prose .wp-block-quote p {
+	font-family: var(--oto-heading);
+	font-size: clamp(1.75rem, 1.3rem + 1.4vw, 2.4rem);
+	font-weight: 700;
+	line-height: 1.02;
+}
+
+/* The listen bar that opens every episode. */
+.oto-listen {
+	display: grid;
+	grid-template-columns: auto auto minmax(0, 1fr);
+	gap: 0.75rem 1.5rem;
+	align-items: center;
+	padding: 1.25rem 1.5rem;
+	border: var(--oto-rule);
+	border-radius: 1.5rem;
+	background: var(--oto-night);
+}
+
+.oto-listen > * {
+	margin: 0 !important;
+}
+
+.oto-listen__play a {
+	display: inline-flex;
+	gap: 0.6rem;
+	align-items: center;
+	padding: 0.6rem 1.25rem 0.7rem 0.75rem;
+	border-radius: 999px;
+	background: var(--oto-amber);
+	color: var(--oto-violet);
+	font-family: var(--oto-heading);
+	font-size: 1.35rem;
+	font-weight: 800;
+	line-height: 1;
+	text-decoration: none;
+	transition: background 0.2s;
+}
+
+.oto-listen__play a::before {
+	content: "▶";
+	display: grid;
+	place-items: center;
+	width: 1.6rem;
+	height: 1.6rem;
+	padding-left: 0.12rem;
+	box-sizing: border-box;
+	border-radius: 50%;
+	background: var(--oto-violet);
+	color: var(--oto-amber);
+	font-family: Arial, sans-serif;
+	font-size: 0.7rem;
+}
+
+.oto-listen__play a:hover,
+.oto-listen__play a:focus-visible {
+	background: var(--oto-cream);
+}
+
+.oto-listen__info > * {
+	margin: 0;
+}
+
+.oto-listen__no {
+	color: var(--oto-amber);
+	font-family: var(--oto-heading);
+	font-size: 1.5rem;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.oto-listen__time {
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.oto-listen .wp-block-separator.is-style-wave {
+	height: 2.75rem;
+	margin: 0 !important;
+}
+
+.oto-listen:hover .is-style-wave,
+.oto-listen:focus-within .is-style-wave {
+	animation: oto-play 3.5s linear infinite;
+}
+
+.oto-listen__note {
+	grid-column: 1 / -1;
+	padding-top: 0.75rem;
+	border-top: var(--oto-rule);
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.oto-article__foot {
+	max-width: var(--wp--style--global--content-size, 720px);
+	margin: var(--wp--preset--spacing--40) auto 0 !important;
+	padding-bottom: var(--wp--preset--spacing--50);
+}
+
+.oto-article__foot > * {
+	margin-block: 0;
+}
+
+.oto-article__foot > * + * {
+	margin-top: 1.5rem;
+}
+
+.oto-article__tags-label {
+	margin: 0 0 0.6rem;
+	color: var(--oto-amber);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+.oto-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.oto-tags a {
+	padding: 0.3rem 0.85rem;
+	border: 1px solid var(--oto-line);
+	border-radius: 999px;
+	color: var(--oto-cream);
+	font-size: var(--wp--preset--font-size--small);
+	text-decoration: none;
+}
+
+.oto-tags a:hover {
+	border-color: var(--oto-amber);
+	color: var(--oto-amber);
+}
+
+.oto-tags .wp-block-post-terms__separator {
+	display: none;
+}
+
+.oto-post-nav {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 1.5rem;
+}
+
+.oto-post-nav > * {
+	margin: 0 !important;
+}
+
+.oto-post-nav a {
+	color: var(--oto-cream);
+	font-family: var(--oto-heading);
+	font-size: 1.5rem;
+	font-weight: 800;
+	line-height: 1.05;
+	text-decoration: none;
+}
+
+.oto-post-nav a:hover {
+	color: var(--oto-amber);
+}
+
+.oto-post-nav .post-navigation-link__label {
+	display: block;
+	margin-bottom: 0.35rem;
+	color: var(--oto-amber);
+	font-family: var(--oto-body);
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+}
+
+/* ==========================================================================
+   14. 404
+   ========================================================================== */
+
+.oto-head--404 {
+	padding-block: var(--wp--preset--spacing--60);
+	border-bottom: 0;
+}
+
+.oto-404 > * {
+	margin-block: 0;
+}
+
+.oto-404 > * + * {
+	margin-top: 1.75rem;
+}
+
+/* ==========================================================================
+   15. Footer (F4): the newsletter band leads, then the station details
+   ========================================================================== */
+
+.oto-foot {
+	background: var(--oto-night);
+}
+
+.oto-foot > * {
+	margin-block: 0;
+}
+
+.oto-letter {
+	position: relative;
+	padding-block: clamp(3.5rem, 7vw, 6.5rem) clamp(5rem, 9vw, 8rem);
+	overflow: hidden;
+	background: var(--oto-amber);
+	color: var(--oto-violet);
+}
+
+/* A long, faint waveform along the bottom of the band. */
+.oto-letter::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: 1.25rem;
+	left: 0;
+	height: 3.5rem;
+	background: var(--oto-violet);
+	opacity: 0.16;
+	-webkit-mask: var(--oto-wave) repeat-x 0 center / 220px 100%;
+	mask: var(--oto-wave) repeat-x 0 center / 220px 100%;
+	pointer-events: none;
+}
+
+/* The Newsletter page already has the form: no second one in its footer. */
+body:has(.oto-main .oto-signup) .oto-letter {
+	display: none;
+}
+
+.oto-letter__inner {
+	position: relative;
+	z-index: 1;
+	display: grid;
+	grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+	gap: 2rem clamp(2rem, 6vw, 6rem);
+	align-items: end;
+}
+
+.oto-letter__inner > * {
+	margin: 0 !important;
+}
+
+.oto-letter__copy > * {
+	margin-block: 0;
+}
+
+.oto-letter__copy > * + * {
+	margin-top: 1.25rem;
+}
+
+.oto-letter__kicker {
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 700;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+
+.oto-letter .oto-letter__title {
+	max-width: 16ch;
+	color: var(--oto-violet);
+	font-size: clamp(2.75rem, 1.6rem + 4.4vw, 6rem);
+	line-height: 0.88;
+}
+
+.oto-letter__text {
+	max-width: 44ch;
+	font-size: var(--wp--preset--font-size--large);
+	line-height: 1.4;
+}
+
+.oto-letter__form > * {
+	margin-block: 0;
+}
+
+.oto-letter__form > * + * {
+	margin-top: 0.9rem;
+}
+
+.oto-form--letter {
+	grid-template-columns: minmax(0, 1fr);
+}
+
+.oto-letter .oto-field label {
+	color: var(--oto-violet);
+}
+
+.oto-inline {
+	display: flex;
+	gap: 0;
+	padding: 0.35rem;
+	border: 2px solid var(--oto-violet);
+	border-radius: 999px;
+	background: var(--oto-cream);
+}
+
+.oto-letter .oto-field .oto-inline input[type="email"] {
+	min-width: 0;
+	padding: 0.8rem 1.1rem;
+	border: 0;
+	background: transparent;
+	color: var(--oto-violet);
+	font-size: 1.15rem;
+}
+
+.oto-letter .oto-field ::placeholder {
+	color: #5B4A7A;
+}
+
+.oto-letter .oto-inline .wp-block-button__link {
+	flex: none;
+	border-color: var(--oto-violet);
+	background: var(--oto-violet);
+	color: var(--oto-amber);
+}
+
+.oto-letter .oto-inline .wp-block-button__link:hover,
+.oto-letter .oto-inline .wp-block-button__link:focus-visible {
+	border-color: var(--oto-night);
+	background: var(--oto-night);
+	color: var(--oto-cream);
+}
+
+.oto-letter__small {
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.oto-letter a:not(.wp-block-button__link) {
+	color: var(--oto-violet);
+	font-weight: 600;
+}
+
+.oto-foot__base {
+	display: grid;
+	grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+	gap: 3rem clamp(2rem, 6vw, 6rem);
+	padding-block: var(--wp--preset--spacing--50) var(--wp--preset--spacing--40);
+}
+
+.oto-foot__base > * {
+	margin: 0 !important;
+}
+
+.oto-foot__brand > * {
+	margin-block: 0;
+}
+
+.oto-foot__brand > * + * {
+	margin-top: 1rem;
+}
+
+.oto-foot .wp-block-site-title.oto-foot__title {
+	font-size: clamp(3rem, 2rem + 3vw, 4.5rem);
+}
+
+.oto-foot__title a {
+	color: var(--oto-amber);
+	text-decoration: none;
+}
+
+.oto-foot__tag {
+	max-width: 26ch;
+	color: var(--oto-haze);
+}
+
+.oto-foot__nav {
+	margin-top: 1.75rem !important;
+}
+
+.oto-foot__nav .wp-block-navigation__container {
+	gap: 0.35rem;
+}
+
+.oto-foot__nav .wp-block-navigation-item__content {
+	color: var(--oto-cream);
+	font-size: 1.35rem;
+	font-weight: 800;
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.oto-foot__nav .wp-block-navigation-item__content:hover {
+	color: var(--oto-amber);
+}
+
+/* The Contact page already shows the station details: the footer does not repeat them there. */
+body:has(.oto-main .oto-station) .oto-foot__station {
+	display: none;
+}
+
+.oto-foot__legal {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 2rem;
+	justify-content: space-between;
+	padding-block: 1.5rem 2rem;
+	border-top: var(--oto-rule);
+	color: var(--oto-haze);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.oto-foot__legal > * {
+	margin: 0 !important;
+}
+
+/* ==========================================================================
+   16. Smaller screens
+   ========================================================================== */
+
+@media (max-width: 1080px) {
+	.oto-stop {
+		grid-template-columns: var(--oto-when) minmax(0, 1fr);
+	}
+
+	.oto-stop__sleeve {
+		display: none;
+	}
+
+	.oto-index {
+		--oto-cols: 6.5rem minmax(0, 1fr) 7.5rem 5rem;
+	}
+
+	.oto-row .is-style-wave {
+		display: none;
+	}
+
+	.oto-index__labels > :nth-child(5) {
+		display: none;
+	}
+
+	.oto-station {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.oto-crew > .oto-crew__item {
+		grid-template-columns: minmax(0, 1fr);
+		gap: 0.35rem;
+	}
+}
+
+@media (max-width: 781px) {
+	.oto-mast__dateline {
+		grid-template-columns: minmax(0, 1fr);
+		justify-items: center;
+		gap: 0.5rem;
+		text-align: center;
+	}
+
+	.oto-mast__issue,
+	.oto-mast__place {
+		display: none;
+	}
+
+	.oto-mast__bar {
+		padding-bottom: 1.1rem;
+	}
+
+	.oto-split,
+	.oto-split--form,
+	.oto-cover__inner,
+	.oto-log__head,
+	.oto-hosts-teaser,
+	.oto-letterbox,
+	.oto-host,
+	.oto-host--flip,
+	.oto-episode-head,
+	.oto-letter__inner,
+	.oto-foot__base {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.oto-host--flip .oto-host__photo {
+		order: 0;
+	}
+
+	.oto-cover__photo img {
+		aspect-ratio: 4 / 3;
+		border-radius: 1.5rem;
+	}
+
+	.oto-dial__scale {
+		font-size: 0.95rem;
+	}
+
+	.oto-dial::after {
+		left: 74%;
+	}
+
+	.oto-dial__station {
+		left: 0;
+	}
+
+	.oto-timeline,
+	.oto-chapters {
+		--oto-rail: 0.75rem;
+	}
+
+	.oto-stop,
+	.oto-chapter {
+		grid-template-columns: minmax(0, 1fr);
+		row-gap: 0.5rem;
+		padding-left: 2.75rem;
+	}
+
+	.oto-stop__when {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.6rem;
+		align-items: baseline;
+		justify-items: start;
+		text-align: left;
+	}
+
+	.oto-stop__date {
+		font-size: 1.75rem;
+	}
+
+	.oto-chapter__day {
+		text-align: left;
+	}
+
+	.oto-log__more {
+		padding-left: 2.75rem;
+	}
+
+	.oto-hosts-teaser__cards {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.oto-index__labels {
+		display: none;
+	}
+
+	.oto-index {
+		--oto-cols: 5rem minmax(0, 1fr);
+	}
+
+	.oto-row {
+		row-gap: 0.4rem;
+		align-items: start;
+	}
+
+	.oto-row__date,
+	.oto-row__time {
+		grid-column: 2;
+	}
+
+	.oto-row__date {
+		margin-top: -0.25rem !important;
+	}
+
+	.oto-row__no {
+		grid-row: span 3;
+		font-size: 1.85rem;
+	}
+
+	.oto-row__date,
+	.oto-row__time {
+		display: inline;
+	}
+
+	.oto-cards .wp-block-post-template {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.oto-episode-head__sleeve {
+		max-width: 15rem;
+	}
+
+	.oto-listen {
+		grid-template-columns: auto minmax(0, 1fr);
+	}
+
+	.oto-listen .wp-block-separator.is-style-wave {
+		grid-column: 1 / -1;
+	}
+
+	.oto-station {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.oto-form {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.oto-field--half {
+		grid-column: 1 / -1;
+	}
+
+	.oto-post-nav {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.oto-post-nav .has-text-align-right {
+		text-align: left;
+	}
+
+	.is-style-rundown li {
+		grid-template-columns: 4.75rem minmax(0, 1fr);
+		gap: 0.9rem;
+	}
+
+	.is-style-rundown li > strong {
+		font-size: 1.4rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.oto-letter .oto-field .oto-inline input[type="email"] {
+		padding: 0.7rem 0.6rem 0.7rem 0.9rem;
+		font-size: 1rem;
+	}
+
+	.oto-letter .oto-inline .wp-block-button__link {
+		padding-inline: 1rem;
+		font-size: 1.1rem;
+	}
+}
+
+/* ==========================================================================
+   17. Motion
+   ========================================================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+	.oto-stop:hover .is-style-wave,
+	.oto-stop:focus-within .is-style-wave,
+	.oto-row:hover .is-style-wave,
+	.oto-row:focus-within .is-style-wave {
+		animation: oto-play 3.5s linear infinite;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation: none !important;
+		transition: none !important;
+	}
+}

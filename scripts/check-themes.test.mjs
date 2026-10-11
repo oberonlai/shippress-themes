@@ -25,14 +25,17 @@ test("styleHeader reads the style.css comment", () => {
   assert.deepEqual(styleHeader("/*\nTheme Name: X\nText Domain: x\n*/\nbody{}"), { "Theme Name": "X", "Text Domain": "x" });
 });
 
-test("theme types: nonprofit is accepted, an unknown type is refused", () => {
+test("theme types: nonprofit and media are accepted, an unknown type is refused", () => {
   assert.ok(TYPES.includes("nonprofit"));
+  assert.ok(TYPES.includes("media")); // podcasts, radio shows (oto-radio)
   const dir = mkdtempSync(join(tmpdir(), "theme-type-check-"));
   try {
     const t = join(dir, slugs[0]);
     cpSync(join(THEMES, slugs[0]), t, { recursive: true });
     const meta = JSON.parse(readFileSync(join(t, "theme-meta.json"), "utf8"));
     writeFileSync(join(t, "theme-meta.json"), JSON.stringify({ ...meta, type: "nonprofit" }));
+    assert.doesNotMatch(checkTheme(t, slugs[0]).join("\n"), /type must be one of/);
+    writeFileSync(join(t, "theme-meta.json"), JSON.stringify({ ...meta, type: "media" }));
     assert.doesNotMatch(checkTheme(t, slugs[0]).join("\n"), /type must be one of/);
     writeFileSync(join(t, "theme-meta.json"), JSON.stringify({ ...meta, type: "charity-shop" }));
     assert.match(checkTheme(t, slugs[0]).join("\n"), /type must be one of/);
