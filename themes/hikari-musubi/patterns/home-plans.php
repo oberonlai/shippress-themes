@@ -20,7 +20,7 @@
 <p class="has-text-align-center hm-centre">Every plan includes our full attention on the day. Prices are for weddings of up to forty guests in Kamakura and the Shonan coast.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:pattern {"slug":"hikari-musubi/plans"} /-->
+<!-- wp:pattern {"slug":"hikari-musubi/plans-prices"} /-->
 
 <!-- wp:buttons {"className":"hm-buttons","layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons hm-buttons"><!-- wp:button {"className":"is-style-quiet"} -->
