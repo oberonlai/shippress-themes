@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/sakura
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Sakura Juku — a friendly, rounded block theme for language schools, tutoring centres and small academies. White pages, sakura-pink and clear-blue cards, Zen Maru Gothic headings over Nunito text. The header is centred: the school's name sits in a pink pill in the middle, the menu splits to its left and right, and a row of petal dots runs underneath. The home page is one bento grid of rounded cells: a blue welcome, a classroom photo, the five levels, the word of the week, a teacher, the street in spring, online lessons, the free trial lesson, three numbers, the latest journal posts and a student's quote. Hiragana stickers (a single decorative kana on a small rounded badge, tilted, drawn in CSS) sit on the corners of cards across the site; every readable word stays English. The footer is centred on the opening-hours table in a white card, with the address, email and social links underneath. With Courses (six course cards with prices), Levels (five levels from Seed to Canopy as a rising staircase, with a five-minute level chat), Schedule (the weekly class timetable and four term cards), About with the teachers, a school journal with category and tag archives, a newsletter, contact, search and 404. The opening hours, the weekly timetable and the address, email and social links are three synced patterns: edit once, every page updates. No JavaScript of its own; WCAG AA colours throughout.
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -704,7 +704,8 @@ img { max-width: 100%; height: auto; }
 	.sj-timetable td:first-child,
 	.sj-timetable td:last-child { padding: 0; border-radius: 0; background: none !important; }
 	.sj-timetable td:nth-child(3) { grid-column: 1 / -1; font-size: 1.15rem; }
-	.sj-timetable td:nth-child(4)::before { content: "Level: "; font-weight: 400; }
+	/* Column name from the table's own header row (data-label, see sakura_juku_table_labels()). */
+	.sj-timetable td:nth-child(4)[data-label]::before { content: attr(data-label) ": "; font-weight: 400; }
 	.sj-timetable td:nth-child(5) { text-align: right; color: var(--sj-slate); }
 }
 

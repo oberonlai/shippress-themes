@@ -1,11 +1,11 @@
 // node --test scripts/check-themes.test.mjs
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { cpSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildIndex, checkTheme, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
+import { buildIndex, checkTheme, cssWords, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
 
 const THEMES = fileURLToPath(new URL("../themes/", import.meta.url));
 const slugs = readdirSync(THEMES).sort();
@@ -141,4 +141,28 @@ test("store themes: sample products must point at real images and terms", () => 
   } finally {
     rmSync(dir, { recursive: true, force: true });
   }
+});
+
+test("CSS content may not put editable words (badges, labels) on the page", () => {
+  assert.deepEqual(cssWords('.x::before { content: "Most chosen"; }'), ["Most chosen"]);
+  assert.deepEqual(cssWords(".x::before { content: 'Glass '; color: red }"), ["Glass "]);
+  assert.deepEqual(cssWords('.x::after { content: attr(data-label) ": "; }'), []);
+  assert.deepEqual(cssWords('.x::before { content: ""; } .y::before { content: "\\3042" / ""; }'), []);
+  assert.deepEqual(cssWords('.x::before { content: "No. " counter(n); } .m::after { content: "Menu"; }'), []);
+  assert.deepEqual(cssWords(".x { align-content: center; }"), []);
+  for (const s of slugs) for (const f of ["style.css", "assets/css/woocommerce.css"]) {
+    const p = join(THEMES, s, f);
+    if (existsSync(p)) assert.doesNotMatch(readFileSync(p, "utf8"), /content\s*:\s*["']Most chosen/i, `${s}/${f}`);
+  }
+});
+
+test("the shared importer trashes WordPress's sample post only while it is untouched", () => {
+  const php = readFileSync(new URL("../shared/inc/demo-import.php", import.meta.url), "utf8");
+  const fn = php.slice(php.indexOf("public static function trash_hello_world()"), php.indexOf("An item this theme imported before"));
+  assert.ok(fn.length > 200, "trash_hello_world() exists");
+  assert.match(php, /\$result\['trashed'\] = self::trash_hello_world\(\);/, "called from import()");
+  for (const rule of ["'publish' !== $post->post_status", "'Hello world!' !== $post->post_title", "'hello-world'", "post_modified_gmt === $post->post_date_gmt", "wapuu@wordpress.example", "count( $comments ) > 1", "null !== self::tag( $post->ID )", "get_post_meta( $post->ID, self::HELLO, true )"])
+    assert.ok(fn.includes(rule), rule);
+  assert.match(fn, /wp_trash_post\( \$post->ID \)/);
+  assert.doesNotMatch(fn, /wp_delete_post|force_delete|wp_update_post/);
 });

@@ -80,6 +80,9 @@ screenshot.png: a rendering of this theme's home page design with its own sample
 
 == Changelog ==
 
+= 1.0.2 =
+* Demo import: WordPress's sample "Hello world!" post now goes to the trash on a fresh site, but only while it is untouched (published, never edited, no comments but the sample one). An edited one is never changed, and running the import again does nothing more.
+
 = 1.0.1 =
 * Opening hours, phone, email and address now live in one place, Appearance > Clinic details, instead of being typed separately into the header, footer, home page and Contact page. A new "Clinic details" block shows them in each place; the header's "Open today" line, the closed-day dot and the hours tables are all worked out from the same hours.
 * Sites set up with 1.0.0 keep their sample details until the form is saved. If you had already edited the header or footer in the Site Editor, your edited copy is kept: replace its hours, phone and address with the Clinic details block to use the single source.

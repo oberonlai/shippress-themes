@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/beni-k
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Beni Kappo — a bold, layered block theme for small counter restaurants: kappo and izakaya counters, omakase bars and chef's tables. Pages are hung like noren curtains: red panels with slit hems overlap full-bleed, lantern-lit pictures; lacquer cards edged in gold leaf sit on top of them; and each course of the evening is announced by a huge vermilion brush numeral. Sumi lacquer black ground, beni vermilion and shu red, warm gold-leaf highlights and off-white washi text (WCAG AA throughout); heavy Playfair Display titles with italic second voices, Schibsted Grotesk text and Kaushan Script numerals. Templates for home, the menu with three courses and prices, this week's course in order and the sake list, reservations with the counter seating plan, seatings, policies and a reservation request form, about with the story and the cooks, the journal, a monthly season letter and contact, plus a "Noon Noren" daylight style variation. Panels drop in, titles rise line by line and lanterns flicker slowly; every movement stops under reduced motion.
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -670,8 +670,9 @@ strong, b { font-weight: 700; }
 	}
 	.wp-block-table.is-style-sake td { border: 0; padding: 0; }
 	.wp-block-table.is-style-sake td:first-child { grid-column: 1 / -1; }
-	.wp-block-table.is-style-sake td:nth-child(3)::before { content: "Glass "; font-family: var(--bk-sans); font-weight: 400; font-size: .75rem; color: var(--bk-mute); }
-	.wp-block-table.is-style-sake td:nth-child(4)::before { content: "Carafe "; font-family: var(--bk-sans); font-weight: 400; font-size: .75rem; color: var(--bk-mute); }
+	/* Column names from the table's own header row (data-label, see beni_kappo_table_labels()). */
+	.wp-block-table.is-style-sake td:nth-child(3)[data-label]::before,
+	.wp-block-table.is-style-sake td:nth-child(4)[data-label]::before { content: attr(data-label) " "; font-family: var(--bk-sans); font-weight: 400; font-size: .75rem; color: var(--bk-mute); }
 }
 
 .wp-block-quote.is-style-chef {

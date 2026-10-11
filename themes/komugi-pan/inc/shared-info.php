@@ -11,7 +11,8 @@
  * The first copy of each pattern is created from inc/info/<key>.html when the theme is activated (or, failing that,
  * the first time a page asks for it). Each one is tagged with the `_komugi_pan_info` post meta, so it is found again
  * in any status and never created twice; a synced pattern the user moved to the trash is respected (it stays there
- * and renders nothing) until it is deleted for good. Nothing the user wrote is ever changed.
+ * and renders nothing) until it is deleted for good. Nothing the user wrote is ever changed: a theme update only
+ * refreshes a synced pattern that is still exactly an earlier version's default (see upgrade()).
  *
  * @package komugi-pan
  * @license GPL-2.0-or-later
@@ -87,6 +88,7 @@ if ( ! class_exists( 'Komugi_Pan_Info' ) ) {
 			);
 			if ( $found ) {
 				$cache[ $key ] = (int) $found[0];
+				self::upgrade( $key, $cache[ $key ] );
 				return $cache[ $key ];
 			}
 			$markup = self::source( $key );
@@ -107,6 +109,36 @@ if ( ! class_exists( 'Komugi_Pan_Info' ) ) {
 			);
 			$cache[ $key ] = is_wp_error( $id ) ? 0 : (int) $id;
 			return $cache[ $key ];
+		}
+
+		/**
+		 * Gives a synced pattern this version's default markup, but only while it is still exactly an earlier version's
+		 * default (inc/info/legacy/<key>-<version>.html, as WordPress stored it): nobody edited it, so nothing the user
+		 * wrote is lost. An edited pattern is never touched.
+		 *
+		 * @param string $key Pattern key.
+		 * @param int    $id  Post ID of the synced pattern.
+		 */
+		public static function upgrade( $key, $id ) {
+			$legacy = glob( __DIR__ . '/info/legacy/' . $key . '-*.html' );
+			$post   = $legacy ? get_post( $id ) : null;
+			if ( ! $post ) {
+				return;
+			}
+			$squash = function ( $html ) {
+				return preg_replace( '/\s+/', '', (string) $html );
+			};
+			$stored = $squash( $post->post_content );
+			foreach ( $legacy as $file ) {
+				$old = trim( (string) file_get_contents( $file ) );
+				if ( $stored === $squash( $old ) || $stored === $squash( wp_kses_post( $old ) ) ) {
+					$markup = self::source( $key );
+					if ( '' !== $markup && $stored !== $squash( $markup ) ) {
+						wp_update_post( wp_slash( array( 'ID' => $id, 'post_content' => $markup ) ) );
+					}
+					return;
+				}
+			}
 		}
 
 		/**

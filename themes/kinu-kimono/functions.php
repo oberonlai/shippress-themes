@@ -127,26 +127,3 @@ function kinu_kimono_pattern_categories() {
 	);
 }
 add_action( 'init', 'kinu_kimono_pattern_categories' );
-
-/**
- * After a demo import of this theme, WordPress's own "Hello world!" post goes to the trash, but only while it is
- * untouched (never modified since it was installed, still published, no comments of its own). An edited one stays.
- */
-function kinu_kimono_trash_hello_world() {
-	$last = get_option( 'shippress_demo_last' );
-	if ( ! is_array( $last ) || empty( $last['theme'] ) || 'kinu-kimono' !== $last['theme'] ) {
-		return;
-	}
-	$post = get_page_by_path( 'hello-world', OBJECT, 'post' );
-	if ( ! $post || 'publish' !== $post->post_status || 'Hello world!' !== $post->post_title || $post->post_modified_gmt !== $post->post_date_gmt ) {
-		return;
-	}
-	foreach ( get_comments( array( 'post_id' => $post->ID, 'status' => 'all' ) ) as $comment ) {
-		if ( 'wapuu@wordpress.example' !== $comment->comment_author_email ) {
-			return;
-		}
-	}
-	wp_trash_post( $post->ID );
-}
-add_action( 'add_option_shippress_demo_last', 'kinu_kimono_trash_hello_world', 20, 0 );
-add_action( 'update_option_shippress_demo_last', 'kinu_kimono_trash_hello_world', 20, 0 );

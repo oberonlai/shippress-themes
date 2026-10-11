@@ -1,4 +1,6 @@
 /* Komugi Pan: marks the trays already out of the oven ("Out") and the next one ("Next") on every daily bake board,
+   with the words of the board's own legend (the .kp-board__key--out / --next paragraphs, editable in the synced
+   pattern; no legend, no words),
    by the bakery's own clock: the site's timezone (Settings > General) and the server time printed with the page
    (window.komugiPanBakeBoard, see functions.php), never the visitor's timezone. The board reads the same without it. */
 (function () {
@@ -28,18 +30,28 @@
 		var local = new Date(ms);
 		return local.getHours() * 60 + local.getMinutes();
 	}
+	function label(board, which) {
+		var key = board && board.querySelector(".kp-board__key--" + which);
+		return key ? key.textContent.trim() : "";
+	}
+	function status(row, which, text) {
+		row.classList.add(which);
+		if (row.cells[1] && text) row.cells[1].setAttribute("data-status", text);
+	}
 	function mark() {
 		var t = siteMinutes(Date.now() + skew);
 		document.querySelectorAll(".kp-board__table tbody tr").forEach(function (row) {
 			row.classList.remove("is-out", "is-next");
+			if (row.cells[1]) row.cells[1].removeAttribute("data-status");
 		});
 		document.querySelectorAll(".kp-board__table tbody").forEach(function (body) {
-			var next = null;
+			var next = null, board = body.closest ? body.closest(".kp-board") : null;
+			var out = label(board, "out"), soon = label(board, "next");
 			Array.prototype.forEach.call(body.rows, function (row) {
 				var at = minutes(row.cells[0] && row.cells[0].textContent);
 				if (at < 0) return;
-				if (at <= t) row.classList.add("is-out");
-				else if (!next) { next = row; row.classList.add("is-next"); }
+				if (at <= t) status(row, "is-out", out);
+				else if (!next) { next = row; status(row, "is-next", soon); }
 			});
 		});
 	}

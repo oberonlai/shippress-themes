@@ -98,6 +98,10 @@ The wheat-ear badge icon (an inline SVG mask in style.css) and the flour-dust te
 
 == Changelog ==
 
+= 1.0.2 =
+* The "Out" and "Next" labels on the daily bake board now come from a small legend under the table in the synced bake board pattern, so you can reword them in the editor. A bake board pattern that was never edited gets the legend automatically; an edited one is kept as it is.
+* Demo import: WordPress's sample "Hello world!" post now goes to the trash on a fresh site, but only while it is untouched (published, never edited, no comments but the sample one). An edited one is never changed, and running the import again does nothing more.
+
 = 1.0.1 =
 * The daily bake board now marks trays "Out" and "Next" by the bakery's clock: the site timezone (Settings > General) and the server time printed with the page, not the visitor's own timezone.
 * The shop and product-search templates use the current search block (limited to products) instead of the outdated WooCommerce Product Search block, so the Site Editor no longer asks to upgrade it.

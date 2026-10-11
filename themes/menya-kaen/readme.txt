@@ -32,6 +32,9 @@ Version 2.0.0 is a new design (the yellow street-poster look, the docked bar, th
 
 == Changelog ==
 
+= 2.0.1 =
+* Demo import: WordPress's sample "Hello world!" post now goes to the trash on a fresh site, but only while it is untouched (published, never edited, no comments but the sample one). An edited one is never changed, and running the import again does nothing more.
+
 = 2.0.0 =
 * New design: quiet and refined. Washi ground, sumi ink, dark wood and one vermilion accent; Shippori Mincho B1 and Zen Kaku Gothic New replace Anton and Lato.
 * Header: a linen noren with the shop's name at the top, the menu in vertical type on the right edge (a menu button on phones).

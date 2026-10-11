@@ -94,3 +94,41 @@ function sakura_juku_pattern_categories() {
 	);
 }
 add_action( 'init', 'sakura_juku_pattern_categories' );
+
+/**
+ * Timetable column names for small screens.
+ * On small screens the table's header row is hidden, so each cell shows its column name in front of it. The names
+ * come from the table's own header row (edited in the block editor) as data-label attributes, never from CSS text.
+ *
+ * @param string $html  Rendered table block.
+ * @param array  $block Parsed block.
+ * @return string
+ */
+function sakura_juku_table_labels( $html, $block ) {
+	$class = isset( $block['attrs']['className'] ) ? (string) $block['attrs']['className'] : '';
+	if ( false === strpos( $class, 'sj-timetable' ) || ! preg_match( '#<thead[^>]*>(.*?)</thead>#is', $html, $head ) || ! class_exists( 'WP_HTML_Tag_Processor' ) ) {
+		return $html;
+	}
+	preg_match_all( '#<th\b[^>]*>(.*?)</th>#is', $head[1], $cells );
+	$labels = array_map(
+		function ( $cell ) {
+			return trim( html_entity_decode( wp_strip_all_tags( $cell ), ENT_QUOTES, 'UTF-8' ) );
+		},
+		$cells[1]
+	);
+	$tags   = new WP_HTML_Tag_Processor( $html );
+	$column = 0;
+	while ( $tags->next_tag() ) {
+		$name = $tags->get_tag();
+		if ( 'TR' === $name ) {
+			$column = 0;
+		} elseif ( 'TD' === $name ) {
+			if ( isset( $labels[ $column ] ) && '' !== $labels[ $column ] ) {
+				$tags->set_attribute( 'data-label', $labels[ $column ] );
+			}
+			++$column;
+		}
+	}
+	return $tags->get_updated_html();
+}
+add_filter( 'render_block_core/table', 'sakura_juku_table_labels', 10, 2 );

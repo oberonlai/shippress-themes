@@ -72,6 +72,9 @@ screenshot.png: a screenshot of this theme's home page rendered on WordPress wit
 
 == Changelog ==
 
+= 1.0.2 =
+* Demo import: WordPress's sample "Hello world!" post now goes to the trash on a fresh site, but only while it is untouched (published, never edited, no comments but the sample one). An edited one is never changed, and running the import again does nothing more.
+
 = 1.0.1 =
 * Catalogue colour tag "earthy" renamed to "earth" (shared spelling across themes). No design changes.
 

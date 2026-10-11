@@ -40,6 +40,17 @@ export const REAL_NAMES = [
   "Kamakura Museum of Photography", "Tokyo Photographic Art Museum", "New Documents Award", "First Book Award", "MACK",
   "Snow Country", "Kawabata", "Daido Moriyama", "Nobuyoshi Araki", "Rinko Kawauchi", "Hiroshi Sugimoto", "Masahisa Fukase",
 ];
+// Words on the page (badges like "Most chosen", table labels, status chips) live in post content or a synced pattern,
+// where the site owner can edit them, never in CSS `content:`. Only these small interface glyphs may stay in CSS.
+export const CSS_GLYPHS = ["Menu", "REC", "No. "];
+/** CSS `content:` strings in one line that put words on the page (empty = fine). */
+export function cssWords(line) {
+  const out = [];
+  for (const [, value] of line.matchAll(/(?<![-\w])content\s*:\s*([^;}]*)/g))
+    for (const [, , text] of value.matchAll(/(["'])((?:\\.|(?!\1).)*)\1/g))
+      if (/[A-Za-z]{2,}/.test(text.replace(/\\[0-9A-Fa-f]{1,6}\s?/g, "")) && !CSS_GLYPHS.includes(text)) out.push(text);
+  return out;
+}
 const REAL_NAME = new RegExp(`(?<![A-Za-z])(${REAL_NAMES.map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})(?![A-Za-z])`, "g");
 const EMAIL = /[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\.)+[A-Za-z]{2,}/g;
 const SAFE_EMAIL = /@([A-Za-z0-9-]+\.)*(example(\.com|\.org|\.net)?|[A-Za-z0-9-]+\.example)$/i;
@@ -182,6 +193,7 @@ export function checkTheme(dir, slug) {
       for (const [re, what] of SECRETS) if (re.test(line)) errs.push(`${rel}:${i + 1}: ${what}`);
       for (const e of line.match(EMAIL) ?? []) if (!SAFE_EMAIL.test(e)) errs.push(`${rel}:${i + 1}: real-looking email ${e} (use an example.com / .example address)`);
       if (CJK.test(line)) errs.push(`${rel}:${i + 1}: theme copy must be English`);
+      if (rel.endsWith(".css")) for (const w of cssWords(line)) errs.push(`${rel}:${i + 1}: CSS content "${w}" puts words on the page that nobody can edit (move them into the page content or a synced pattern)`);
       if (!rel.startsWith("inc/")) for (const [, real] of line.replace(/#[0-9A-Fa-f]{3,8}\b/g, "").matchAll(REAL_NAME)) errs.push(`${rel}:${i + 1}: names a real ${real} (demo copy uses fictional people, companies, publications and awards)`);
     });
   }

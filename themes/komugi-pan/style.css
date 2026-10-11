@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/komugi
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Komugi Pan — a warm, playful store theme for neighbourhood bakeries that sell loaves, pastries and sweet buns online, with WooCommerce templates styled to match. Flour-cream pages with a faint flour-dust texture drawn in CSS, golden crust and rye-brown accents, white loaf-topped product cards with round price stickers, Young Serif headings over Outfit text. A centred header with a round wheat badge between a split menu and a scalloped paper-bag edge, a product-first home page, a daily bake board that lights up the trays already out of the oven, and a footer that opens with a strip of photographs from the week's ovens. Pages for home, the shop, a bake schedule, about, the journal, a newsletter and contact, plus shop, product, cart, checkout, account, order confirmation and product search templates (WooCommerce optional: without it the shop page lists every bread with prices and orders by phone). The address, opening hours, phone number and bake times live in two synced patterns, so they are edited once. Includes a dark "Night Bake" style variation.
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -611,9 +611,11 @@ ul.is-style-dotted > li::before {
 
 .kp-board__table tr:last-child td { border-bottom: 0; }
 
-/* Set by assets/js/bake-board.js from the visitor's clock. */
-.kp-board__table tr.is-out td:nth-child(2)::after,
-.kp-board__table tr.is-next td:nth-child(2)::after {
+/* Set by assets/js/bake-board.js by the bakery's clock; the words come from the legend under the table
+   (.kp-board__key paragraphs of the synced bake board), so they are edited there. */
+.kp-board__table tr.is-out td:nth-child(2)[data-status]::after,
+.kp-board__table tr.is-next td:nth-child(2)[data-status]::after,
+.kp-board__key {
 	display: inline-block;
 	margin-left: .55rem;
 	padding: .1rem .5rem;
@@ -626,9 +628,22 @@ ul.is-style-dotted > li::before {
 	vertical-align: .15em;
 }
 
-.kp-board__table tr.is-out td:nth-child(2)::after { content: "Out"; background: var(--kp-crust); color: var(--kp-oven); }
+.kp-board__table tr.is-out td:nth-child(2)[data-status]::after,
+.kp-board__table tr.is-next td:nth-child(2)[data-status]::after { content: attr(data-status); }
 
-.kp-board__table tr.is-next td:nth-child(2)::after { content: "Next"; border: 1.5px solid var(--kp-crust); color: var(--kp-crust); }
+.kp-board__table tr.is-out td:nth-child(2)::after,
+.kp-board__key--out { background: var(--kp-crust); color: var(--kp-oven); }
+
+.kp-board__table tr.is-next td:nth-child(2)::after,
+.kp-board__key--next { border: 1.5px solid var(--kp-crust); color: var(--kp-crust); }
+
+.kp-board__legend { gap: .35rem .6rem; align-items: center; margin-top: 1rem; font-size: var(--wp--preset--font-size--small); color: color-mix(in srgb, var(--kp-on-dark) 80%, transparent); }
+
+.kp-board__legend > p { margin: 0; }
+
+.kp-board__legend > .kp-board__key { margin-left: 0; vertical-align: baseline; }
+
+.kp-board__legend > p:not(.kp-board__key) + .kp-board__key { margin-left: .6rem; }
 
 .kp-board__table tr.is-next td:first-child { animation: kp-warm 2.4s ease-in-out infinite; }
 

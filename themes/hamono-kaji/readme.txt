@@ -100,6 +100,9 @@ The logo mark (an octagon with a blade, drawn as an inline SVG mask in style.css
 
 == Changelog ==
 
+= 1.0.2 =
+* Demo import: WordPress's sample "Hello world!" post now goes to the trash on a fresh site, but only while it is untouched (published, never edited, no comments but the sample one). An edited one is never changed, and running the import again does nothing more.
+
 = 1.0.1 =
 * The shop and product-search templates use the current search block (limited to products) instead of the outdated WooCommerce Product Search block, so the Site Editor no longer asks to upgrade it.
 * The product details block in the single-product template is written in the same full form the editor saves.

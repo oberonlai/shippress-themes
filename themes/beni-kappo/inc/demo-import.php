@@ -17,6 +17,7 @@
  *   navigation block has no links of its own, so WordPress shows this menu);
  * - sets Reading (static front page + posts page) when the site has no real front page yet, pretty permalinks
  *   when they are still "Plain", and the site title/tagline only while they are WordPress defaults.
+ * - moves WordPress's sample "Hello world!" post to the trash, only while it is untouched (see trash_hello_world()).
  * It never deletes anything and never changes what the user wrote. Every item it creates is tagged with the
  * `_shippress_demo` post meta ("<theme>:<kind>:<key>", saved together with the post) and fingerprinted with
  * `_shippress_demo_hash` (sha256 of its title + "\n" + content exactly as stored), so a later run can tell whether
@@ -68,6 +69,7 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 		const META     = '_shippress_demo';
 		const HASH     = '_shippress_demo_hash';    // Fingerprint (sha256 of title + "\n" + content) when the import wrote it; 'pending' while a run fills it.
 		const DRAFTED  = '_shippress_demo_drafted'; // Set when a theme switch moved this unedited demo item to Draft (switching back publishes it again).
+		const HELLO    = '_shippress_demo_hello';   // Set on WordPress's sample post once the import trashed it (restored, it is never trashed again).
 		const LAST     = 'shippress_demo_last';     // Result of the latest import on this site (any ShipPress theme), for the admin notice.
 		const LOCK     = 'shippress_demo_import_lock';
 		const LOCK_TTL = 600; // A lock older than this (seconds) is from a crashed run and is taken over.
@@ -170,7 +172,7 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 			try {
 				$counts = self::import( $demo, $force_reading );
 				self::$created_before += $counts['created'];
-				foreach ( array( 'replaced', 'added', 'drafted' ) as $list ) {
+				foreach ( array( 'replaced', 'added', 'drafted', 'trashed' ) as $list ) {
 					self::$earlier[ $list ] = self::merge_items( isset( self::$earlier[ $list ] ) ? self::$earlier[ $list ] : array(), $counts[ $list ] );
 				}
 				$numbers = array( 'created' => $counts['created'], 'skipped' => $counts['skipped'] );
@@ -179,7 +181,7 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 				$prev   = get_option( self::LAST );
 				$again  = is_array( $prev ) && isset( $prev['theme'] ) && self::slug() === $prev['theme'];
 				$record = array( 'theme' => self::slug(), 'name' => self::name(), 'time' => time(), 'keptEdited' => $counts['keptEdited'] );
-				foreach ( array( 'replaced', 'added', 'drafted' ) as $list ) {
+				foreach ( array( 'replaced', 'added', 'drafted', 'trashed' ) as $list ) {
 					$record[ $list ] = self::merge_items( $again && isset( $prev[ $list ] ) ? $prev[ $list ] : array(), $counts[ $list ] );
 				}
 				// Dismissed stays dismissed until the list of kept pages changes.
@@ -416,7 +418,8 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 		 * @param bool  $force_reading See run().
 		 * @return array Counts ('created', 'skipped') and the result lists: 'replaced' (another theme's unedited demo
 		 *               items that now have this theme's version), 'keptEdited' (demo items left as they are because they
-		 *               were edited), 'added' (created, filled in or published again) and 'drafted'.
+		 *               were edited), 'added' (created, filled in or published again), 'drafted' and 'trashed'
+		 *               (WordPress's untouched "Hello world!" post, see trash_hello_world()).
 		 */
 		public static function import( array $demo, $force_reading = false ) {
 			require_once ABSPATH . 'wp-admin/includes/file.php';
@@ -425,7 +428,7 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 			require_once ABSPATH . 'wp-admin/includes/misc.php';
 
 			$counts = array( 'created' => 0, 'skipped' => 0 );
-			$result = array( 'replaced' => array(), 'keptEdited' => array(), 'added' => array(), 'drafted' => array() );
+			$result = array( 'replaced' => array(), 'keptEdited' => array(), 'added' => array(), 'drafted' => array(), 'trashed' => array() );
 			// Owner of the new content: whoever runs the import, else the first administrator (WP-CLI, activation by code).
 			$author = get_current_user_id();
 			if ( ! $author ) {
@@ -660,10 +663,57 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 
 				// 7. Settings that only change while they are still unset / defaults.
 				self::settings( $demo, $pages, $force_reading );
+
+				// 8. WordPress's own sample post, only while nobody has touched it.
+				$result['trashed'] = self::trash_hello_world();
 			} finally {
 				self::end();
 			}
 			return $counts + $result;
+		}
+
+		/**
+		 * Moves WordPress's sample "Hello world!" post to the trash (never deletes it), but only while it is exactly as the
+		 * installer left it: published, titled "Hello world!" (slug hello-world, ID 1 on a fresh site), never edited (its
+		 * modified date is its publish date, or its content is still WordPress's default text) and no comments but the
+		 * sample one. Anything else (edited, drafted, a real comment) leaves it alone, and so does any later run once it
+		 * has been trashed (restored and published again, it stays), so running the import again does nothing more.
+		 *
+		 * @return array The trashed post as an item (see item()), or an empty list.
+		 */
+		public static function trash_hello_world() {
+			$post = get_post( 1 );
+			if ( ! $post || 'post' !== $post->post_type || 'hello-world' !== $post->post_name ) {
+				$post = get_page_by_path( 'hello-world', OBJECT, 'post' );
+			}
+			if ( ! $post || 'post' !== $post->post_type || 'publish' !== $post->post_status || 'Hello world!' !== $post->post_title || null !== self::tag( $post->ID ) ) {
+				return array();
+			}
+			$text     = 'Welcome to WordPress. This is your first post. Edit or delete it, then start writing!';
+			$defaults = array();
+			foreach ( array_unique( array( $text, __( $text ) ) ) as $line ) { // phpcs:ignore WordPress.WP.I18n -- WordPress's own string, in the site language.
+				$defaults[] = "<!-- wp:paragraph -->\n<p>" . $line . "</p>\n<!-- /wp:paragraph -->";
+				$defaults[] = $line; // Installs from before the block editor.
+			}
+			$normal = function ( $html ) {
+				return trim( preg_replace( '/\s+/', ' ', str_replace( "\r", '', (string) $html ) ) );
+			};
+			$unedited = $post->post_modified_gmt === $post->post_date_gmt || in_array( $normal( $post->post_content ), array_map( $normal, $defaults ), true );
+			if ( ! $unedited ) {
+				return array();
+			}
+			$comments = get_comments( array( 'post_id' => $post->ID, 'status' => 'all', 'type' => 'all' ) );
+			if ( count( $comments ) > 1 || ( $comments && 'wapuu@wordpress.example' !== $comments[0]->comment_author_email ) ) {
+				return array();
+			}
+			if ( get_post_meta( $post->ID, self::HELLO, true ) ) {
+				return array(); // Trashed once already and the user brought it back.
+			}
+			if ( ! wp_trash_post( $post->ID ) ) {
+				return array();
+			}
+			update_post_meta( $post->ID, self::HELLO, time() );
+			return array( self::item( $post->ID, 'post' ) );
 		}
 
 		/**
@@ -1183,7 +1233,7 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 				// What activation did moments ago on this same load counts as done by this command too.
 				$counts['created'] += $before;
 				$counts['skipped']  = max( 0, $counts['skipped'] - $before );
-				foreach ( array( 'replaced', 'added', 'drafted' ) as $list ) {
+				foreach ( array( 'replaced', 'added', 'drafted', 'trashed' ) as $list ) {
 					$counts[ $list ] = self::$earlier[ $list ];
 				}
 			} catch ( Throwable $e ) {
