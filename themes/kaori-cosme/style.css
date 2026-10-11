@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/kaori-
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Kaori Cosme — An elegant, restrained store theme for a small clean-skincare atelier in Tokyo, with WooCommerce templates styled to match. Lilac-grey pages, paper-white panels and ink-violet text and bands, with muted lilac kept to fine lines and small accents; Literata for headings and Mulish for text. A floating frosted pill header, a home page that opens on a full-bleed photograph, quiet glass-drop reflections on product cards, cells and dividers (soft CSS highlights, still for those who ask for less motion), the shelf of featured products, four ingredients (yuzu, rice, camellia, green tea), the morning and evening routines, the journal, and a one-line footer. Pages for home, shop, ingredients, routines, about, the journal, a seasonal newsletter and contact, plus shop, product, cart, checkout, account, order confirmation and product search templates (WooCommerce optional: without it the shop page shows the shelf and orders go by phone or email). The atelier address and hours, and the shelf with its prices and badge, live in two synced patterns, so each is edited once.
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -1032,6 +1032,13 @@ a { text-decoration-color: color-mix(in srgb, var(--kc-gold) 80%, transparent); 
 .kc-intro > *, .kc-letter-cta > * { margin: 0 !important; }
 
 .kc-intro > * + *, .kc-letter-cta > * + * { margin-top: 1.4rem !important; }
+
+/* One centred axis: the reset above would pin the drops left, and the label's tick would push its text off centre. */
+.kc-intro > .kc-drop, .kc-letter-cta > .kc-drop, .kc-lost > .kc-drop { margin-inline: auto !important; }
+
+.kc-intro .is-style-label { justify-content: center; text-align: center; }
+
+.kc-intro .is-style-label::before { display: none; }
 
 .kc-intro .wp-block-buttons, .kc-letter-cta .wp-block-buttons { justify-content: center; }
 

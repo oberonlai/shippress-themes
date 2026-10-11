@@ -80,3 +80,11 @@ Photographs: AI-generated for this theme, released under GPL-2.0-or-later / CC0 
 screenshot.png: made from the theme's own pages, GPL-2.0-or-later.
 
 The glass-drop marks are CSS gradients (no image files). Everything else in the theme: GPL-2.0-or-later.
+
+== Changelog ==
+
+= 1.0.1 =
+* Home ("The atelier"), the newsletter invitation and the 404 page: the label, both glass-drop dividers, the heading and the text now share one centred line on phones and desktops. The dividers used to sit to the left and the label had a small tick that pushed it off centre.
+
+= 1.0.0 =
+* First release.

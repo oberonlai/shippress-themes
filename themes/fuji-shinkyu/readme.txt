@@ -92,6 +92,9 @@ screenshot.png: a rendering of this theme's home page design with its own sample
 
 == Changelog ==
 
+= 1.0.2 =
+* Booking invitation: the "Appointments" label now sits on the same centre line as the title and text. The ring before it used to push the words a little to the right.
+
 = 1.0.1 =
 * Demo import: WordPress's sample "Hello world!" post now goes to the trash on a fresh site, but only while it is untouched (published, never edited, no comments but the sample one). An edited one is never changed, and running the import again does nothing more.
 
