@@ -1,0 +1,279 @@
+/*
+Theme Name: Tabi Note
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/tabi-note
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Tabi Note — a calm, refined block theme for small walking-tour and slow-travel agencies. Japanese minimal: a mist-mint ground with paper cards, deep ink text, deep teal headings, links and dark bands, and amber used only for tiny stamp marks and route dots. Klee One (a handwritten-feel display face, used sparingly) over Noto Sans. The signature is a quiet stamped route map: a dashed hand-drawn-feeling route line with a small circular stamp at each stop opens the home page, and the stops sit below as editable text. A two-tier header (note strip above the wordmark and menu) and a deep-teal footer with a small street-map card beside the office details. Templates for home, about, journeys with days, difficulty and prices, a day-by-day sample itinerary, a journal with article, category and tag archives, a seasonal letter, an enquiry form, search and 404. The office address, hours, phone and email, and the journeys with their prices and badges, are each one synced pattern: edit once, every page updates. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tabi-note
+Tags: block-patterns, full-site-editing, blog, light, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, one-column
+*/
+
+/* 0. Tokens + base */
+:root {
+	--tn-mist: var(--wp--preset--color--mist);
+	--tn-paper: var(--wp--preset--color--paper);
+	--tn-line: var(--wp--preset--color--line);
+	--tn-quiet: var(--wp--preset--color--quiet);
+	--tn-teal: var(--wp--preset--color--teal);
+	--tn-deep: var(--wp--preset--color--teal-deep);
+	--tn-amber: var(--wp--preset--color--amber);
+	--tn-ink: var(--wp--preset--color--ink);
+	--tn-hand: var(--wp--preset--font-family--display);
+	--tn-pad: clamp(1.25rem, 5vw, 4rem);
+}
+html { overflow-x: clip; }
+body { -webkit-font-smoothing: antialiased; }
+img { display: block; max-width: 100%; height: auto; }
+:where(.wp-site-blocks) > * { margin-block-start: 0; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 2px solid var(--tn-deep); outline-offset: 3px; }
+.tn-main { padding-bottom: 0; }
+
+/* 1. Block styles */
+.is-style-label { font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--tn-quiet); font-weight: 500; margin-bottom: 0.75rem; }
+.is-style-lead { font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem); line-height: 1.7; color: var(--tn-ink); }
+hr.wp-block-separator.is-style-hairline { border: 0; border-top: 1px solid var(--tn-line); background: none; height: 0; width: 100% !important; max-width: none; opacity: 1; margin-block: 2rem; }
+.wp-block-button.is-style-quiet .wp-block-button__link { background: transparent; color: var(--tn-deep); box-shadow: inset 0 0 0 1px var(--tn-deep); }
+.wp-block-button.is-style-quiet .wp-block-button__link:hover { background: var(--tn-deep); color: var(--tn-paper); }
+.wp-block-group.is-style-card { background: var(--tn-paper); border: 1px solid var(--tn-line); border-radius: 14px; padding: clamp(1.25rem, 3vw, 2.25rem); }
+ul.is-style-ruled { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--tn-line); }
+ul.is-style-ruled li { padding: 0.8rem 0 0.8rem 1.5rem; border-bottom: 1px solid var(--tn-line); position: relative; }
+ul.is-style-ruled li::before { content: ""; position: absolute; left: 0.2rem; top: 1.45rem; width: 7px; height: 7px; border-radius: 50%; background: var(--tn-amber); }
+.wp-block-details.is-style-faq { border-bottom: 1px solid var(--tn-line); padding: 1rem 0; }
+.wp-block-details.is-style-faq summary { cursor: pointer; font-weight: 500; color: var(--tn-deep); }
+.wp-block-details.is-style-faq p { margin: 0.75rem 0 0; color: var(--tn-quiet); }
+
+/* 2. Shared pieces */
+.tn-section { padding-block: clamp(3.5rem, 8vw, 7rem); }
+.tn-section__head { max-width: 640px; margin-bottom: clamp(1.75rem, 4vw, 3rem); }
+.tn-section__head h2 { margin: 0; }
+.tn-section__head .is-style-lead { margin-top: 1rem; color: var(--tn-quiet); font-size: 1.0625rem; }
+.tn-section > *, .tn-head > *, .tn-hero > * { max-width: var(--wp--style--global--wide-size) !important; }
+.tn-head { padding-top: clamp(3rem, 7vw, 5.5rem); }
+.tn-head h1 { margin: 0 0 1rem; max-width: 18ch; }
+.tn-head .is-style-lead { max-width: 640px; color: var(--tn-quiet); }
+.tn-split { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 6vw, 6rem); align-items: start; }
+.tn-split > * { margin: 0 !important; }
+.tn-buttons { gap: 0.75rem; margin-top: 1.75rem; }
+.tn-stamp { font-family: var(--tn-hand); font-weight: 600; font-size: 0.9375rem; color: var(--tn-deep); width: 2.75rem; height: 2.75rem; flex: none; display: grid; place-items: center; border-radius: 50%; border: 1.5px solid var(--tn-amber); box-shadow: 0 0 0 4px var(--tn-mist), 0 0 0 5px color-mix(in srgb, var(--tn-amber) 45%, transparent); margin: 0; line-height: 1; transform: rotate(-6deg); }
+.tn-note { font-family: var(--tn-hand); color: var(--tn-quiet); font-size: 1rem; line-height: 1.7; }
+.tn-info { display: grid; gap: 0.5rem; }
+.tn-info__item { margin: 0; font-size: 0.9375rem; }
+.tn-info__key { display: inline-block; min-width: 4.5rem; font-size: 0.6875rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--tn-quiet); }
+
+/* 3. Header (H9 two-tier) */
+.tn-header { background: var(--tn-mist); }
+.tn-strip { border-bottom: 1px solid var(--tn-line); padding-block: 0.5rem; }
+.tn-strip__row { display: flex; justify-content: space-between; gap: 1rem; align-items: center; }
+.tn-strip__row > * { margin: 0 !important; }
+.tn-strip__note { font-size: 0.75rem; letter-spacing: 0.08em; color: var(--tn-quiet); }
+.tn-strip__link { font-family: var(--tn-hand); font-size: 0.875rem; }
+.tn-strip__link a { text-decoration: none; color: var(--tn-deep); }
+.tn-strip__link a::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--tn-amber); margin-right: 0.5rem; vertical-align: middle; }
+.tn-bar { padding-block: 1.1rem; }
+.tn-bar__row { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; }
+.tn-bar__row > * { margin: 0 !important; }
+.tn-brand { display: flex; align-items: baseline; gap: 0.85rem; }
+.tn-brand > * { margin: 0 !important; }
+.tn-wordmark { position: relative; padding-left: 1.6rem; }
+.tn-wordmark::before { content: ""; position: absolute; left: 0; top: 50%; width: 0.95rem; height: 0.95rem; margin-top: -0.5rem; border-radius: 50%; border: 1.5px solid var(--tn-amber); box-shadow: inset 0 0 0 3px var(--tn-mist), inset 0 0 0 10px var(--tn-amber); }
+.tn-brand__sub { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--tn-quiet); }
+.tn-nav { font-size: 0.9375rem; }
+.tn-nav .wp-block-navigation-item__content { text-decoration: none; color: var(--tn-ink); padding-block: 0.25rem; border-bottom: 1px solid transparent; }
+.tn-nav .wp-block-navigation-item__content:hover, .tn-nav .current-menu-item > .wp-block-navigation-item__content { border-bottom-color: var(--tn-amber); color: var(--tn-deep); }
+.tn-nav .wp-block-navigation__container { gap: clamp(1.25rem, 2.5vw, 2.25rem); }
+nav.tn-nav .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--tn-mist); color: var(--tn-ink); padding: 1.5rem var(--tn-pad); }
+nav.tn-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { font-family: var(--tn-hand); font-size: 1.75rem; color: var(--tn-deep) !important; }
+nav.tn-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { gap: 1rem; }
+
+/* 4. Home: the stamped route map (L10 map first) */
+.tn-hero { padding-block: clamp(2.5rem, 6vw, 5rem) clamp(3rem, 6vw, 5rem); display: grid !important; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
+.tn-hero > * { margin: 0 !important; }
+.tn-display { font-size: clamp(2.125rem, 1.5rem + 2.6vw, 3.75rem) !important; line-height: 1.25; margin: 0 0 1.25rem; color: var(--tn-deep); }
+.tn-hero__intro .is-style-lead { color: var(--tn-quiet); }
+.tn-map { background: var(--tn-paper); border: 1px solid var(--tn-line); border-radius: 18px; padding: clamp(1.25rem, 3vw, 2.25rem); position: relative; }
+.tn-map > * { margin: 0 !important; }
+.tn-map__title { font-family: var(--tn-hand); color: var(--tn-quiet); font-size: 0.9375rem; }
+.tn-route { margin: 0.5rem 0 1.25rem !important; }
+.tn-route svg { display: block; width: 100%; height: auto; }
+.tn-route__contours path { stroke: var(--tn-line); }
+.tn-route__line { stroke: var(--tn-teal); }
+.tn-route__stops circle { fill: var(--tn-paper); stroke: var(--tn-amber); stroke-width: 1.6; }
+.tn-route__stops .tn-route__dot { fill: var(--tn-amber); stroke: none; }
+.tn-route__compass { stroke: var(--tn-line); }
+.tn-stops { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem 1.5rem; border-top: 1px dashed var(--tn-line); padding-top: 1.25rem; }
+.tn-stop { display: grid; grid-template-columns: auto 1fr; column-gap: 0.75rem; align-items: start; }
+.tn-stop > * { margin: 0 !important; }
+.tn-stop .tn-stamp { grid-row: span 2; width: 2.1rem; height: 2.1rem; font-size: 0.8125rem; box-shadow: none; }
+.tn-stop__name { font-size: 1.0625rem !important; color: var(--tn-deep); line-height: 1.4; }
+.tn-stop__text { font-size: 0.8125rem; line-height: 1.55; color: var(--tn-quiet); }
+
+.tn-band { padding-block: 0 clamp(1rem, 3vw, 2rem); }
+.tn-band > * { max-width: var(--wp--style--global--wide-size) !important; }
+.tn-band__photo img { width: 100%; aspect-ratio: 21 / 8; object-fit: cover; border-radius: 18px; }
+.tn-band .tn-note { margin-top: 0.85rem; }
+
+.tn-intro { background: var(--tn-paper); border-block: 1px solid var(--tn-line); }
+.tn-intro .tn-section__head { margin: 0; }
+.tn-figures { display: grid; gap: 0; border-top: 1px solid var(--tn-line); }
+.tn-figure { display: grid; grid-template-columns: 7rem 1fr; gap: 1.25rem; align-items: baseline; padding-block: 1.1rem; border-bottom: 1px solid var(--tn-line); }
+.tn-figure > * { margin: 0 !important; }
+.tn-figure__num { font-family: var(--tn-hand); font-size: 2rem; color: var(--tn-teal); line-height: 1; }
+.tn-figure__text { color: var(--tn-quiet); }
+
+/* 5. Journeys (synced list) */
+.tn-tours { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 2.5vw, 2rem); }
+.tn-tour { position: relative; background: var(--tn-paper); border: 1px solid var(--tn-line); border-radius: 14px; padding: 0.75rem 0.75rem 1.5rem; display: flex; flex-direction: column; }
+.tn-tour > * { margin: 0 0.75rem !important; }
+.tn-tour > .tn-tour__photo { margin: 0 0 1.1rem !important; }
+.tn-tour__photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 9px; }
+.tn-tour__badge { position: absolute; z-index: 1; top: 1.35rem; left: 1.35rem; margin: 0 !important; background: var(--tn-paper); color: var(--tn-deep); font-family: var(--tn-hand); font-size: 0.8125rem; padding: 0.2rem 0.75rem 0.2rem 1.5rem; border-radius: 999px; }
+.tn-tour__badge::before { content: ""; position: absolute; left: 0.65rem; top: 50%; width: 6px; height: 6px; margin-top: -3px; border-radius: 50%; background: var(--tn-amber); }
+.tn-tour__region { font-size: 0.6875rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--tn-quiet); }
+.tn-tour__name { font-size: clamp(1.25rem, 1.15rem + 0.4vw, 1.4375rem) !important; margin-top: 0.35rem !important; }
+.tn-tour__text { font-size: 0.9375rem; color: var(--tn-quiet); margin-top: 0.6rem !important; flex: 1; }
+.tn-tour__facts { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem !important; font-size: 0.8125rem; }
+.tn-tour__facts span { border: 1px solid var(--tn-line); border-radius: 999px; padding: 0.1rem 0.7rem; color: var(--tn-ink); }
+.tn-tour__price { margin-top: 1rem !important; padding-top: 0.9rem; border-top: 1px dashed var(--tn-line); font-family: var(--tn-hand); font-weight: 600; font-size: 1.375rem; color: var(--tn-deep); }
+.tn-tour__per { font-family: var(--wp--preset--font-family--body); font-weight: 400; font-size: 0.75rem; color: var(--tn-quiet); letter-spacing: 0.04em; }
+.tn-tours-section .tn-buttons { margin-top: 2.5rem; }
+.tn-facts--large { font-size: 0.875rem; margin-top: 1.5rem !important; }
+
+/* 6. Guide, about, cards */
+.tn-split--guide { grid-template-columns: minmax(0, 4fr) minmax(0, 6fr); align-items: center; }
+.tn-guide__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 18px; }
+.tn-quote { font-family: var(--tn-hand); font-size: clamp(1.25rem, 1.1rem + 0.7vw, 1.75rem); line-height: 1.65; color: var(--tn-deep); }
+.tn-guide__name { font-size: 0.875rem; color: var(--tn-quiet); }
+.tn-guide { background: var(--tn-paper); border-block: 1px solid var(--tn-line); }
+.tn-latest__items { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.5rem); list-style: none; padding: 0; }
+.tn-latest__image img { border-radius: 12px; }
+.tn-latest__date { margin-top: 1rem; font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--tn-quiet); }
+.tn-latest__title { font-size: 1.25rem !important; margin-top: 0.35rem; }
+.tn-latest__title a { text-decoration: none; }
+.tn-about { padding-top: clamp(3rem, 7vw, 5.5rem); }
+.tn-about h1 { margin: 0 0 1.25rem; }
+.tn-about__photo img { width: 100%; aspect-ratio: 5 / 4; object-fit: cover; border-radius: 18px; }
+.tn-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 2.5vw, 2rem); }
+.tn-card { background: var(--tn-paper); border: 1px solid var(--tn-line); border-radius: 14px; padding: clamp(1.25rem, 2.5vw, 2rem); }
+.tn-card h3 { margin: 1.25rem 0 0.25rem; }
+.tn-card__role { font-size: 0.8125rem; color: var(--tn-quiet); margin-top: 0 !important; }
+.tn-card .tn-stamp { box-shadow: none; }
+.tn-guides { background: var(--tn-paper); border-block: 1px solid var(--tn-line); }
+.tn-guides .tn-card { background: var(--tn-mist); }
+.tn-scale { font-size: 0.875rem; color: var(--tn-quiet); margin-top: 1.5rem; }
+
+/* 7. Itinerary */
+.tn-split--days { grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); }
+.tn-days { position: relative; display: grid; gap: 0; }
+.tn-days::before { content: ""; position: absolute; left: 1.375rem; top: 1.5rem; bottom: 1.5rem; border-left: 2px dashed var(--tn-teal); opacity: 0.55; }
+.tn-day { display: grid; grid-template-columns: auto 1fr; gap: 1.5rem; padding-bottom: 2.25rem; position: relative; }
+.tn-day > * { margin: 0 !important; }
+.tn-day .tn-stamp { font-size: 0.6875rem; width: 2.75rem; height: 2.75rem; text-align: center; background: var(--tn-mist); }
+.tn-day__body > * { margin: 0; }
+.tn-day__title { font-size: 1.375rem !important; }
+.tn-day__km { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--tn-quiet); margin: 0.25rem 0 0.6rem !important; }
+.tn-day__night { font-family: var(--tn-hand); color: var(--tn-deep); font-size: 0.9375rem; margin-top: 0.6rem !important; }
+.tn-days__aside { position: sticky; top: 2rem; }
+.tn-days__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 18px; }
+.tn-days__aside .tn-note { margin-top: 0.85rem; }
+.tn-days-section { padding-top: clamp(1rem, 3vw, 2rem); }
+
+/* 8. Contact, forms, newsletter */
+.tn-split--contact { grid-template-columns: minmax(0, 6fr) minmax(0, 4fr); }
+.tn-contact { padding-top: clamp(1rem, 3vw, 2rem); }
+.tn-form p { margin: 0 0 1.1rem; }
+.tn-form label { display: block; font-size: 0.8125rem; color: var(--tn-quiet); margin-bottom: 0.35rem; }
+.tn-form input, .tn-form select, .tn-form textarea { width: 100%; box-sizing: border-box; font: inherit; color: var(--tn-ink); background: var(--tn-mist); border: 1px solid var(--tn-line); border-radius: 8px; padding: 0.7rem 0.85rem; }
+.tn-form button { cursor: pointer; border: 0; border-radius: 999px; background: var(--tn-deep); color: var(--tn-paper); font: inherit; font-size: 0.9375rem; padding: 0.9rem 1.75rem; }
+.tn-form button:hover { background: var(--tn-ink); }
+.tn-contact__aside .tn-info { margin-bottom: 1.25rem; }
+.tn-contact__photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 14px; margin-top: 1.5rem; }
+.tn-newsletter { padding-top: clamp(3rem, 7vw, 5.5rem); }
+.tn-newsletter h1 { margin: 0 0 1rem; }
+.tn-newsletter .tn-form-card { margin-top: 1.75rem; }
+
+/* 9. Journal */
+.tn-list { padding-block: 1rem clamp(4rem, 8vw, 6rem); }
+.tn-list > * { max-width: var(--wp--style--global--wide-size) !important; }
+.tn-list__items { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.5rem, 3vw, 2.5rem); list-style: none; padding: 0; }
+.tn-entry > * { margin: 0; }
+.tn-entry__image img { border-radius: 12px; }
+.tn-entry__cat { margin-top: 1rem !important; font-size: 0.6875rem; letter-spacing: 0.18em; text-transform: uppercase; }
+.tn-entry__cat a { text-decoration: none; color: var(--tn-quiet); }
+.tn-entry__title { font-size: 1.3125rem !important; margin-top: 0.35rem !important; }
+.tn-entry__title a { text-decoration: none; }
+.tn-entry__excerpt { font-size: 0.9375rem; color: var(--tn-quiet); margin-top: 0.5rem !important; }
+.tn-entry__excerpt p { margin: 0; }
+.tn-entry__date { font-size: 0.75rem; color: var(--tn-quiet); margin-top: 0.75rem !important; }
+.tn-pagination { margin-top: 3rem; gap: 1rem; }
+.tn-article { padding-bottom: clamp(4rem, 8vw, 6rem); }
+.tn-article .wp-block-post-date { font-size: 0.8125rem; color: var(--tn-quiet); }
+.tn-article__image img { border-radius: 18px; }
+.tn-prose { margin-top: 2.5rem; }
+.tn-prose h2 { font-size: clamp(1.375rem, 1.2rem + 0.7vw, 1.75rem); margin-top: 2.5rem; }
+.tn-tags { margin-top: 2.5rem; font-size: 0.875rem; }
+.tn-tags a { display: inline-block; border: 1px solid var(--tn-line); border-radius: 999px; padding: 0.1rem 0.75rem; text-decoration: none; margin: 0 0.25rem 0.4rem 0; }
+.tn-tags .wp-block-post-terms__separator { display: none; }
+.tn-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--tn-line); font-size: 0.9375rem; }
+.tn-search { max-width: 520px; margin-top: 1.5rem; }
+.tn-search .wp-block-search__input { border: 1px solid var(--tn-line); border-radius: 999px; padding: 0.65rem 1.1rem; background: var(--tn-paper); }
+.tn-search .wp-block-search__button { border-radius: 999px; margin-left: 0.5rem; }
+.tn-404 { padding-bottom: clamp(4rem, 8vw, 6rem); }
+.tn-404__stamp { width: 4rem; height: 4rem; font-size: 1rem; margin-bottom: 1.5rem !important; }
+
+/* 10. Footer (F6 map + address card) */
+.tn-footer { background: var(--tn-deep); color: var(--tn-paper); padding-block: clamp(3.5rem, 7vw, 5.5rem) 1.5rem; margin-top: 0; }
+.tn-footer a { color: var(--tn-paper); }
+.tn-footer__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: stretch; }
+.tn-footer__grid > * { margin: 0 !important; }
+.tn-footer__map { border: 1px solid color-mix(in srgb, var(--tn-paper) 28%, transparent); border-radius: 18px; padding: clamp(1rem, 2.5vw, 1.75rem); }
+.tn-mini-map { margin: 0; }
+.tn-mini-map svg { display: block; width: 100%; height: auto; max-height: 260px; }
+.tn-mini-map g path { stroke: color-mix(in srgb, var(--tn-paper) 22%, transparent); }
+.tn-mini-map .tn-mini-map__river { stroke: color-mix(in srgb, var(--tn-mist) 30%, transparent); }
+.tn-mini-map__walk { stroke: var(--tn-paper); }
+.tn-mini-map__stamp { fill: none; stroke: var(--tn-amber); stroke-width: 1.6; }
+.tn-mini-map__dot { fill: var(--tn-amber); }
+.tn-mini-map__station { fill: var(--tn-paper); }
+.tn-footer__directions { font-family: var(--tn-hand); font-size: 0.9375rem; margin: 1rem 0 0; color: var(--tn-mist); }
+.tn-footer__card { background: var(--tn-paper); color: var(--tn-ink); border-radius: 18px; padding: clamp(1.5rem, 3vw, 2.5rem); }
+.tn-footer__card a { color: var(--tn-deep); }
+.tn-footer__card > * { margin: 0; }
+.tn-footer__name { font-size: 1.75rem !important; }
+.tn-footer__tag { color: var(--tn-quiet); font-size: 0.9375rem; margin: 0.25rem 0 1.5rem !important; }
+.tn-footer__card .wp-block-button.is-style-quiet .wp-block-button__link { color: var(--tn-deep); }
+.tn-footer__line { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.75rem 1.5rem; margin-top: 2.5rem !important; padding-top: 1.25rem; border-top: 1px solid color-mix(in srgb, var(--tn-paper) 25%, transparent); font-size: 0.8125rem; }
+.tn-footer__line > * { margin: 0 !important; }
+.tn-footer__links a { text-decoration: none; }
+.tn-footer__links a:hover { text-decoration: underline; }
+
+/* Grid children: no flow-layout block gap (it pushed every card but the first down) */
+.tn-tours > *, .tn-cards > *, .tn-stops > *, .tn-figures > *, .tn-days > *, .tn-latest__items > *, .tn-list__items > * { margin: 0 !important; }
+.tn-wordmark, .tn-figure__num { white-space: nowrap; }
+
+/* 11. Responsive */
+@media (max-width: 1000px) {
+	.tn-hero { grid-template-columns: 1fr; }
+	.tn-tours, .tn-list__items, .tn-latest__items, .tn-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 781px) {
+	.tn-split, .tn-split--guide, .tn-split--days, .tn-split--contact, .tn-footer__grid { grid-template-columns: 1fr; }
+	.tn-stops { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.tn-days__aside { position: static; }
+	.tn-band__photo img { aspect-ratio: 4 / 3; }
+	.tn-guide__photo img { aspect-ratio: 4 / 3; }
+}
+@media (max-width: 599px) {
+	.tn-strip__link { display: none; }
+	.tn-strip__note { font-size: 0.6875rem; }
+	.tn-brand__sub { display: none; }
+	.tn-tours, .tn-list__items, .tn-latest__items, .tn-cards, .tn-stops { grid-template-columns: 1fr; }
+	.tn-figure { grid-template-columns: 5rem 1fr; }
+	.tn-post-nav { flex-direction: column; }
+	.tn-header .wp-block-navigation__responsive-container-open:not(.always-shown) { color: var(--tn-deep); }
+}
