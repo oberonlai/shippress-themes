@@ -6,7 +6,7 @@ Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A quiet, editorial store theme for small washi paper and stationery shops: paper white and kozo surfaces, sumi ink and a deep ai indigo with one pale persimmon dot, large still-life photography on an asymmetric grid with vertical section marks, Cormorant titles over Zen Kaku Gothic New text, a makers page, Saturday workshops with a booking form, a monthly letter, and WooCommerce shop, product, cart, checkout and account templates styled to match.
+A quiet, editorial store theme for small washi paper and stationery shops: paper white and kozo surfaces, sumi ink and a deep ai indigo with one pale persimmon dot, a paper side rail, a home page laid out as a shelf mosaic of hairline compartments, a footer signed with a vertical line and a persimmon seal, large still-life photography, Cormorant titles over Zen Kaku Gothic New text, a makers page, Saturday workshops with a booking form, a monthly letter, and WooCommerce shop, product, cart, checkout and account templates styled to match.
 
 == Description ==
 
@@ -109,6 +109,12 @@ The same photographs, imported into the Media Library by the demo import and use
 The logo mark and the small arrow and chevron icons in style.css and assets/css/woocommerce.css are inline SVG written for this theme (same copyright and license as the theme).
 
 == Changelog ==
+
+= 1.1.0 =
+* Layout refresh. Header: a paper side rail fixed on the left of wide screens (brand, the menu with a short ink stroke before each item, account and cart, and the season's note set top to bottom like a spine label); below 1024 px it folds into a top bar, with the full menu behind a button on phones.
+* Footer: signed like a letter, with the atelier's name as a vertical line and a stamped persimmon seal beside the statement, address and links (the giant wordmark is gone).
+* Home: a shelf mosaic. The opening, the shelf, the making and the fibres sit in hairline compartments like a type case (one large piece and three smaller ones on the shelf), and the journal shows one large post with two beside it. Section marks are now ruled labels above each section.
+* Same palette, fonts, copy, demo content and importer. Pages imported by an earlier version keep their layout and still look right; only new imports use the mosaic patterns.
 
 = 1.0.2 =
 * Demo import: WordPress's sample "Hello world!" post now goes to the trash on a fresh site, but only while it is untouched (published, never edited, no comments but the sample one). An edited one is never changed, and running the import again does nothing more.

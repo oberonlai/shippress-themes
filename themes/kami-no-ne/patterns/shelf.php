@@ -3,9 +3,9 @@
  * Title: The paper shelf — four favourites
  * Slug: kami-no-ne/shelf
  * Categories: kami-no-ne, featured, columns
- * Keywords: shop, products, staggered, grid
+ * Keywords: shop, products, mosaic, grid
  * Viewport Width: 1440
- * Description: Four favourite things from the shop on a staggered, asymmetric grid with photographs, a line about each and the price, and a link to the whole shop.
+ * Description: Four favourite things from the shop laid out as a shelf mosaic: one large piece and three smaller ones in hairline compartments, with photographs, a line about each and the price, and a link to the whole shop.
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kn-section kn-section--marked","layout":{"type":"constrained"}} -->
@@ -13,8 +13,9 @@
 <p class="kn-vmark"><span>01</span> The shelf</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"align":"wide","className":"kn-head","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide kn-head"><!-- wp:group {"className":"kn-head__titles","layout":{"type":"default"}} -->
+<!-- wp:group {"align":"wide","className":"kn-mosaic kn-mosaic--shelf","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide kn-mosaic kn-mosaic--shelf"><!-- wp:group {"className":"kn-tile kn-tile--head kn-head","layout":{"type":"default"}} -->
+<div class="wp-block-group kn-tile kn-tile--head kn-head"><!-- wp:group {"className":"kn-head__titles","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-head__titles"><!-- wp:paragraph {"className":"is-style-label"} -->
 <p class="is-style-label">This month on the shelf</p>
 <!-- /wp:paragraph -->
@@ -29,9 +30,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide","className":"kn-cols kn-cols--4 kn-cols--m2 kn-cols--stagger","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide kn-cols kn-cols--4 kn-cols--m2 kn-cols--stagger"><!-- wp:group {"className":"kn-card","layout":{"type":"default"}} -->
-<div class="wp-block-group kn-card"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"kn-figure"} -->
+<!-- wp:group {"className":"kn-card kn-tile kn-tile--item","layout":{"type":"default"}} -->
+<div class="wp-block-group kn-card kn-tile kn-tile--item"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"kn-figure"} -->
 <figure class="wp-block-image size-full kn-figure"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-kozo-sheets.jpg' ) ); ?>" alt="A loose stack of thin handmade kozo sheets with long visible fibres beside a dish of indigo ink" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
@@ -58,8 +58,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"kn-card","layout":{"type":"default"}} -->
-<div class="wp-block-group kn-card"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"kn-figure"} -->
+<!-- wp:group {"className":"kn-card kn-tile kn-tile--item","layout":{"type":"default"}} -->
+<div class="wp-block-group kn-card kn-tile kn-tile--item"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"kn-figure"} -->
 <figure class="wp-block-image size-full kn-figure"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-thread-notebook.jpg' ) ); ?>" alt="A thread-bound notebook with a deep indigo cover standing open on linen cloth" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
@@ -86,8 +86,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"kn-card","layout":{"type":"default"}} -->
-<div class="wp-block-group kn-card"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"kn-figure"} -->
+<!-- wp:group {"className":"kn-card kn-tile kn-tile--item","layout":{"type":"default"}} -->
+<div class="wp-block-group kn-card kn-tile kn-tile--item"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"kn-figure"} -->
 <figure class="wp-block-image size-full kn-figure"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-inkstone-set.jpg' ) ); ?>" alt="A black slate inkstone with a pool of indigo ink and a square ink stick on a pale wooden tray" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
@@ -114,8 +114,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"kn-card","layout":{"type":"default"}} -->
-<div class="wp-block-group kn-card"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"kn-figure"} -->
+<!-- wp:group {"className":"kn-card kn-tile kn-tile--item","layout":{"type":"default"}} -->
+<div class="wp-block-group kn-card kn-tile kn-tile--item"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"kn-figure"} -->
 <figure class="wp-block-image size-full kn-figure"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/product-furoshiki-gift.jpg' ) ); ?>" alt="A small gift wrapped in persimmon cotton cloth tied with an indigo knot, on handmade paper" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 

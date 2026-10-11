@@ -7,11 +7,13 @@ A quiet, editorial block theme for **small washi paper and stationery shops** th
 ## Concept: a sheet of paper on a quiet desk
 
 - **Paper and ink.** Paper white for the page, kozo for the quieter surfaces, sumi for text, ai indigo for everything you can press. Sections are told apart by the paper they sit on and by 1 px hairlines, never by shadows. Corners are square.
-- **One persimmon dot.** Pale persimmon (kaki) appears only as a dot (beside the logo seal, the topbar news, the hero index, "Most booked", this month in the workshop calendar), the sale tag and the outer focus halo — never as text.
-- **An asymmetric grid.** Twelve columns on wide screens. The hero title overlaps a tall photograph; splits run 7/5, 5/7 and 6/5; product shelves and the latest journal posts are *staggered* (every second card steps down, like objects laid on a table); a vertical section mark ("01 The shelf") sits in the left margin of each section on wide screens and becomes a small label on a phone.
+- **One persimmon dot.** Pale persimmon (kaki) appears only as a dot (beside the logo seal, the season's note in the rail, the hero index, "Most booked", this month in the workshop calendar), the sale tag, the outer focus halo and the stamped seal in the footer — never as text colour.
+- **A paper side rail (H3).** On wide screens the header is a paper column fixed on the left: the seal mark and name, the tagline in italics, the menu (a short ink stroke before each item lengthens on the current page), account and cart, and the season's note set top to bottom like a spine label. Below 1024 px it folds into a top bar; on phones the menu opens as a full-screen sheet.
+- **A shelf mosaic (L8).** Twelve columns on wide screens. The home page is laid out like a type case: hairline compartments hold the title, a tall desk photograph, the introduction and three facts; the shelf shows one large piece and three smaller ones (the last lying on its side); the making and the fibres follow in the same compartments, and the journal shows one large post with two beside it. Each section opens with a ruled label ("01 The shelf"). Inner pages keep their 7/5, 5/7 and 6/5 splits.
+- **Signed like a letter (F12).** The indigo footer ends with the atelier's name written as a vertical line, and a persimmon seal pressed beneath it, beside the statement, the address and the links.
 - **Mounted prints.** The process photographs sit on a kozo mat with a hairline edge, like prints in a portfolio (block style "Mounted print" on the Image block).
 - **Editorial type.** Cormorant, set large and light, with indigo italics for emphasis ("Paper that *remembers* the hand."); Zen Kaku Gothic New for text, with small spaced capitals for labels.
-- **390 px first.** One calm column; product grids stay two to a row with a gentle stagger; the menu opens as a full-screen sheet with large serif links.
+- **390 px first.** One calm column; the shelf stays two to a row; the menu opens as a full-screen sheet with large serif links.
 
 Motion is slow and CSS-only: the first title rises a few pixels, the hero photograph settles, blocks rise as they scroll into view (they are fully visible before, so captures and print are never blank), photographs zoom 3 % on hover, link underlines draw themselves, and a line of materials drifts across the home page (it pauses on hover). Under `prefers-reduced-motion` nothing moves and the line can be scrolled by hand.
 
@@ -34,7 +36,7 @@ Style variation **Sumi-yo** (`styles/sumi-yo.json`, "ink night"): ground `#16181
 
 Both fonts are OFL-1.1, subset to Latin and bundled as WOFF2 (identical copies of the files in Hinoki Yado and Ma Vertical). Nothing is loaded from a CDN.
 
-- **Cormorant** (variable 300–700, with italic): titles, italics, prices, big numbers, years and the footer wordmark.
+- **Cormorant** (variable 300–700, with italic): titles, italics, prices, big numbers, years and the footer signature and seal.
 - **Zen Kaku Gothic New** (400, 500): body text, labels, navigation, forms and buttons.
 
 ## Pages
@@ -43,7 +45,7 @@ Demo content (`demo-content.json`, imported on activation) creates:
 
 | Page | Template | Patterns |
 |---|---|---|
-| Home (front page) | `front-page` | hero (title over a tall photograph, three facts), materials line, the paper shelf (staggered), the making (mounted print + steps), three fibres, workshops band, latest journal, The Deckle Edge |
+| Home (front page) | `front-page` | shelf mosaic: opening (title, tall photograph, introduction, three facts), materials line, the paper shelf (one large piece, three smaller), the making (mounted print, essay, steps), three fibres, workshops band, latest journal (one large, two beside), The Deckle Edge |
 | Shop | `page-wide` (WooCommerce: `archive-product`) | the paper list with orders by email, The Deckle Edge |
 | Workshops | `page-workshops` | page head with details, four workshops with prices, the next four months, questions, booking form |
 | About | `page-about` | three people at one long table, the story in four years, the makers, four things we keep, visit |

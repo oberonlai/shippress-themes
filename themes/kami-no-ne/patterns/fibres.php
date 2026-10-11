@@ -5,7 +5,7 @@
  * Categories: kami-no-ne, text, columns
  * Keywords: fibres, paper, guide, weights
  * Viewport Width: 1440
- * Description: Three rows divided by hairlines, one per fibre, with its weight, its character and what it is good for, beside a portrait photograph of loose sheets.
+ * Description: A shelf-mosaic section: the title, a photograph of loose sheets and one compartment per fibre with its weight, its character and what it is good for.
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kn-section kn-section--marked","layout":{"type":"constrained"}} -->
@@ -13,10 +13,9 @@
 <p class="kn-vmark"><span>03</span> The fibres</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"align":"wide","className":"kn-split kn-split--7-5","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide kn-split kn-split--7-5"><!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:group {"align":"wide","className":"kn-head","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide kn-head"><!-- wp:group {"className":"kn-head__titles","layout":{"type":"default"}} -->
+<!-- wp:group {"align":"wide","className":"kn-mosaic kn-mosaic--fibres","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide kn-mosaic kn-mosaic--fibres"><!-- wp:group {"className":"kn-tile kn-tile--head kn-head","layout":{"type":"default"}} -->
+<div class="wp-block-group kn-tile kn-tile--head kn-head"><!-- wp:group {"className":"kn-head__titles","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-head__titles"><!-- wp:paragraph {"className":"is-style-label"} -->
 <p class="is-style-label">Choosing a paper</p>
 <!-- /wp:paragraph -->
@@ -31,9 +30,12 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"kn-rows","layout":{"type":"default"}} -->
-<div class="wp-block-group kn-rows"><!-- wp:group {"className":"kn-row","layout":{"type":"default"}} -->
-<div class="wp-block-group kn-row"><!-- wp:paragraph {"className":"kn-row__name"} -->
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kn-figure kn-tile kn-tile--photo"} -->
+<figure class="wp-block-image size-full kn-figure kn-tile kn-tile--photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/washi-sheets.jpg' ) ); ?>" alt="A loose stack of thin handmade sheets with long visible fibres next to a dish of indigo ink and a persimmon"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"kn-row kn-tile kn-tile--fibre","layout":{"type":"default"}} -->
+<div class="wp-block-group kn-row kn-tile kn-tile--fibre"><!-- wp:paragraph {"className":"kn-row__name"} -->
 <p class="kn-row__name">Kozo</p>
 <!-- /wp:paragraph -->
 
@@ -50,8 +52,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"kn-row","layout":{"type":"default"}} -->
-<div class="wp-block-group kn-row"><!-- wp:paragraph {"className":"kn-row__name"} -->
+<!-- wp:group {"className":"kn-row kn-tile kn-tile--fibre","layout":{"type":"default"}} -->
+<div class="wp-block-group kn-row kn-tile kn-tile--fibre"><!-- wp:paragraph {"className":"kn-row__name"} -->
 <p class="kn-row__name">Mitsumata</p>
 <!-- /wp:paragraph -->
 
@@ -68,8 +70,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"kn-row","layout":{"type":"default"}} -->
-<div class="wp-block-group kn-row"><!-- wp:paragraph {"className":"kn-row__name"} -->
+<!-- wp:group {"className":"kn-row kn-tile kn-tile--fibre","layout":{"type":"default"}} -->
+<div class="wp-block-group kn-row kn-tile kn-tile--fibre"><!-- wp:paragraph {"className":"kn-row__name"} -->
 <p class="kn-row__name">Gampi</p>
 <!-- /wp:paragraph -->
 
@@ -85,11 +87,5 @@
 <p>The rarest of the three, translucent and almost silky. Good for tracing, layering and the last page of a letter.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kn-figure kn-figure--tall kn-reveal"} -->
-<figure class="wp-block-image size-full kn-figure kn-figure--tall kn-reveal"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/washi-sheets.jpg' ) ); ?>" alt="A loose stack of thin handmade sheets with long visible fibres next to a dish of indigo ink and a persimmon"/></figure>
-<!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

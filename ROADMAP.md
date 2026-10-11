@@ -24,7 +24,7 @@ H = header pattern, F = footer pattern, L = home layout archetype (codes in sect
 | kura-shizuku | sake-brewery | store | #F4EFE4 #B8954F #4B3326 / gold, neutral | EB Garamond + Albert Sans | luxe, symmetric | H2 | F3 | L7 centred symmetric long column | label frames, gold drop |
 | yuzu-chaya (2.0) | tea-shop | store | #F5F0E6 #55673F #7B5A43 #D9A93A / green, neutral | Shippori Mincho + Hanken Grotesk | minimal, editorial | H1 | F2 | L2 split hero + stat row + product row | yuzu dot |
 | mori-no-kai | forest-nonprofit | nonprofit | #EFF0EA #3F5B3C #8A4E2D / green, earth | Newsreader + Instrument Sans + DM Mono | minimal, organic | H1 | F2 | L1 full-bleed photo + stat row | margin field-note rail |
-| kami-no-ne | stationery | store | #F7F5F0 #1F2026 #2E3A63 #E8A07A / indigo, neutral | Cormorant + Zen Kaku Gothic New | minimal, editorial | H1 | F2 | L2 split hero + stat row + staggered shelf | vertical section marks |
+| kami-no-ne | stationery | store | #F7F5F0 #1F2026 #2E3A63 #E8A07A / indigo, neutral | Cormorant + Zen Kaku Gothic New | minimal, editorial | H3 | F12 | L8 shelf mosaic: hairline type-case compartments (title, desk photo, intro, three facts; one large piece and three smaller ones; making; fibres; journal as one large post and two beside it) | paper side rail with ink-stroke menu and a vertical spine note; footer signed like a letter (vertical line + persimmon seal); refreshed 1.1.0 (2026-10-12), was H1 + F2 + L2 split |
 | shiro-horitsu | law-firm | business | #F4F1EA #1D1F24 #2A3A5E / neutral, blue | EB Garamond + Hanken Grotesk | minimal, editorial | H1 | F2 | L2 split hero + stat row + index list | § marks |
 | hamono-kaji (in progress) | kitchen-knives | store | #121415 #A3A8AB #D8B98E #E0693C / dark, neutral | Archivo + Instrument Sans + JetBrains Mono | minimal, bold | H6 | F5 | L11 product-first grid | spec sheets |
 | hakuba-dental | dental-clinic | health | #FFFFFF #E8F1F8 #2F7FC1 #0F2A44 / blue, light | Sora + Inter | minimal, geometric (clean, clinical) | H9 | F11 | L6 bento grid with tooth-shaped cells | tooth-crown cells, tooth-silhouette mask, hours table |
@@ -102,7 +102,7 @@ Status values: todo / claimed (date) / done (commit, date). No two adjacent rows
 
 ## 5. Refresh plan (one per round, minor version, after a new theme or when the queue is blocked)
 1. shiro-horitsu → H5 masthead, F9 colophon, L3 index list (1.1.0)
-2. kami-no-ne → H3 side rail, F12 seal column, L8 shelf mosaic
+2. kami-no-ne → H3 side rail, F12 seal column, L8 shelf mosaic (1.1.0, refreshed 2026-10-12)
 3. seiji-utsuwa → H2 centred, F1 wordmark, L13 sticky object + scrolling text
 4. yuzu-chaya → H8 transparent, F4 newsletter, L1 full-bleed tea photo
 5. mori-no-kai → H4 overlay, F6 map, L12 seasons timeline
