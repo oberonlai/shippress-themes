@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/tabi-n
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Tabi Note — a calm, refined block theme for small walking-tour and slow-travel agencies. Japanese minimal: a mist-mint ground with paper cards, deep ink text, deep teal headings, links and dark bands, and amber used only for tiny stamp marks and route dots. Klee One (a handwritten-feel display face, used sparingly) over Noto Sans. The signature is a quiet stamped route map: a dashed hand-drawn-feeling route line with a small circular stamp at each stop opens the home page, and the stops sit below as editable text. A two-tier header (note strip above the wordmark and menu) and a deep-teal footer with a small street-map card beside the office details. Templates for home, about, journeys with days, difficulty and prices, a day-by-day sample itinerary, a journal with article, category and tag archives, a seasonal letter, an enquiry form, search and 404. The office address, hours, phone and email, and the journeys with their prices and badges, are each one synced pattern: edit once, every page updates. WCAG AA colours; no entrance animations.
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -57,6 +57,11 @@ ul.is-style-ruled li::before { content: ""; position: absolute; left: 0.2rem; to
 .tn-head { padding-top: clamp(3rem, 7vw, 5.5rem); }
 .tn-head h1 { margin: 0 0 1rem; max-width: 18ch; }
 .tn-head .is-style-lead { max-width: 640px; color: var(--tn-quiet); }
+/* Page heads and post lists above wide content line up with the header (wide); their text keeps a reading measure, left-aligned.
+   On the page template the head goes wide only when the page is built from full-width sections, not for plain page text. */
+.tn-main > .tn-head:not(:has(+ .wp-block-post-content)), .tn-main:has(> .wp-block-post-content > .alignfull) > .tn-head, .wp-block-post-content > .tn-head, .tn-main > .tn-list { max-width: var(--wp--style--global--wide-size) !important; }
+.tn-head > :not(hr) { max-width: var(--wp--style--global--content-size) !important; margin-left: 0 !important; }
+.tn-head > .is-style-lead { max-width: 640px !important; }
 .tn-split { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 6vw, 6rem); align-items: start; }
 .tn-split > * { margin: 0 !important; }
 .tn-buttons { gap: 0.75rem; margin-top: 1.75rem; }
@@ -92,7 +97,8 @@ nav.tn-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-nav
 nav.tn-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { gap: 1rem; }
 
 /* 4. Home: the stamped route map (L10 map first) */
-.tn-hero { padding-block: clamp(2.5rem, 6vw, 5rem) clamp(3rem, 6vw, 5rem); display: grid !important; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
+/* The grid spans the full-width section, so its tracks are capped at the wide size (header width) and centred */
+.tn-hero { --tn-hero-gap: clamp(2rem, 5vw, 4.5rem); --tn-hero-w: min(100%, var(--wp--style--global--wide-size)); padding-block: clamp(2.5rem, 6vw, 5rem) clamp(3rem, 6vw, 5rem); display: grid !important; grid-template-columns: minmax(0, calc((var(--tn-hero-w) - var(--tn-hero-gap)) * 4 / 11)) minmax(0, calc((var(--tn-hero-w) - var(--tn-hero-gap)) * 7 / 11)); justify-content: center; gap: var(--tn-hero-gap); align-items: center; }
 .tn-hero > * { margin: 0 !important; }
 .tn-display { font-size: clamp(2.125rem, 1.5rem + 2.6vw, 3.75rem) !important; line-height: 1.25; margin: 0 0 1.25rem; color: var(--tn-deep); }
 .tn-hero__intro .is-style-lead { color: var(--tn-quiet); }
@@ -258,7 +264,7 @@ nav.tn-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-nav
 
 /* 11. Responsive */
 @media (max-width: 1000px) {
-	.tn-hero { grid-template-columns: 1fr; }
+	.tn-hero { grid-template-columns: minmax(0, var(--tn-hero-w)); }
 	.tn-tours, .tn-list__items, .tn-latest__items, .tn-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 781px) {

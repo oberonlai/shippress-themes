@@ -73,3 +73,12 @@ The same photographs, imported into the Media Library by the demo import and use
 The route map, the footer street map and the stamp marks are simple SVG/CSS line drawings made for this theme (same license as the theme).
 
 screenshot.png: made from the theme's own pages (same license as the theme).
+
+== Changelog ==
+
+= 1.0.1 =
+* Home: the opening title and route map now line up exactly with the header on desktop (they ran about 56 px wider on each side).
+* Journeys, Sample itinerary, Contact, Journal, archive, search and 404 pages: the page title block and the journal list now start at the same left edge as the header and the sections below, instead of sitting in a narrower centred column. Titles and intro text keep a comfortable reading width.
+
+= 1.0.0 =
+* First release.
