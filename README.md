@@ -46,6 +46,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | [Kuyuru Incense](themes/kuyuru-incense) | Small incense houses selling hand-rolled sticks and cones, with a burn-time timeline home page (WooCommerce store) | store | purple, light | minimal, serene, elegant | [kuyuru-incense.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kuyuru-incense.zip) |
 | [Mimi Veterinary](themes/mimi-veterinary) | Calm neighbourhood veterinary clinics for dogs, cats and small animals, with a map-first home page and locator card | health | teal, green, light | clean, serene, minimal | [mimi-veterinary.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/mimi-veterinary.zip) |
 | [Tsuya Lacquer](themes/tsuya-lacquer) | Small urushi lacquerware workshops selling bowls, trays and table pieces, with a full-bleed glossy bowl and layer counts on every piece (WooCommerce store) | store | red, dark | luxe, minimal, elegant | [tsuya-lacquer.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/tsuya-lacquer.zip) |
+| [Tsumiki Accounting](themes/tsumiki-accounting) | Small accounting practices, bookkeepers and tax offices, with an editorial masthead, a numbered service index with fees in tabular figures and a month-by-month tax calendar | business | blue, light | minimal, editorial, precise | [tsumiki-accounting.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/tsumiki-accounting.zip) |
 
 <!-- gallery:start -->
 ## Gallery
@@ -112,7 +113,11 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <td align="center" valign="top" width="33%"><a href="themes/tabi-note"><img src="themes/tabi-note/screenshots/home-desktop.webp" width="260" alt="Tabi Note"></a><br><a href="themes/tabi-note">Tabi Note</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/tsumiki-accounting"><img src="themes/tsumiki-accounting/screenshots/home-desktop.webp" width="260" alt="Tsumiki Accounting"></a><br><a href="themes/tsumiki-accounting">Tsumiki Accounting</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/tsuya-lacquer"><img src="themes/tsuya-lacquer/screenshots/home-desktop.webp" width="260" alt="Tsuya Lacquer"></a><br><a href="themes/tsuya-lacquer">Tsuya Lacquer</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/undo-ba"><img src="themes/undo-ba/screenshots/home-desktop.webp" width="260" alt="Undo Ba"></a><br><a href="themes/undo-ba">Undo Ba</a></td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%"><a href="themes/wagu-mono"><img src="themes/wagu-mono/screenshots/home-desktop.webp" width="260" alt="Wagu Mono"></a><br><a href="themes/wagu-mono">Wagu Mono</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="themes/yuzu-chaya/screenshots/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
