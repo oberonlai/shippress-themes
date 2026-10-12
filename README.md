@@ -45,6 +45,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | [Yuzu Chaya](themes/yuzu-chaya) | Japanese tea and wagashi shops (WooCommerce store) | store | green, neutral | minimal, editorial | [yuzu-chaya.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/yuzu-chaya.zip) |
 | [Kuyuru Incense](themes/kuyuru-incense) | Small incense houses selling hand-rolled sticks and cones, with a burn-time timeline home page (WooCommerce store) | store | purple, light | minimal, serene, elegant | [kuyuru-incense.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kuyuru-incense.zip) |
 | [Mimi Veterinary](themes/mimi-veterinary) | Calm neighbourhood veterinary clinics for dogs, cats and small animals, with a map-first home page and locator card | health | teal, green, light | clean, serene, minimal | [mimi-veterinary.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/mimi-veterinary.zip) |
+| [Tsuya Lacquer](themes/tsuya-lacquer) | Small urushi lacquerware workshops selling bowls, trays and table pieces, with a full-bleed glossy bowl and layer counts on every piece (WooCommerce store) | store | red, dark | luxe, minimal, elegant | [tsuya-lacquer.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/tsuya-lacquer.zip) |
 
 <!-- gallery:start -->
 ## Gallery
