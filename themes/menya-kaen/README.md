@@ -92,3 +92,26 @@ menya-kaen/
 ## License
 
 GPL-2.0-or-later. Fonts: SIL OFL 1.1. Photographs: AI-generated for this theme, released under GPL-2.0-or-later / CC0. See `readme.txt`.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Menya Kaen home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Menya Kaen home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Menu: [desktop](screenshots/menu-desktop.webp) · [mobile](screenshots/menu-mobile.webp)
+- Toppings: [desktop](screenshots/toppings-desktop.webp) · [mobile](screenshots/toppings-mobile.webp)
+- Access: [desktop](screenshots/access-desktop.webp) · [mobile](screenshots/access-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+<!-- screenshots:end -->

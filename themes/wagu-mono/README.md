@@ -58,3 +58,27 @@ Block styles: paragraph *Drawing label*, *Lead*, *Fine print*; image *Drawing pl
 ## Photographs
 
 AI-generated for this theme (no text, logos or real people), released under GPL-2.0-or-later / CC0; see readme.txt.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Wagu Mono home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Wagu Mono home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Makers: [desktop](screenshots/makers-desktop.webp) · [mobile](screenshots/makers-mobile.webp)
+- Furniture care: [desktop](screenshots/furniture-care-desktop.webp) · [mobile](screenshots/furniture-care-mobile.webp)
+- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+<!-- screenshots:end -->

@@ -76,3 +76,25 @@ AA contrast for all text (see the palette). Visible amber focus rings (violet on
 ## Credits
 
 Fonts: Darker Grotesque and Work Sans, SIL Open Font License 1.1 (see `readme.txt`). Photographs: AI-generated for this theme, GPL-2.0-or-later / CC0. Everything else: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Oto Radio home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Oto Radio home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Episodes: [desktop](screenshots/episodes-desktop.webp) · [mobile](screenshots/episodes-mobile.webp)
+- Hosts: [desktop](screenshots/hosts-desktop.webp) · [mobile](screenshots/hosts-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+<!-- screenshots:end -->

@@ -89,3 +89,26 @@ Paragraph: Label, Lead, Fine print, Yuzu dot. Heading: Label. Group: Gentle fade
 ## Images
 
 Twenty-five AI-generated photographs made for this theme (`assets/images/*.jpg`, the same files in `assets/images/demo/` for the Media Library), released under GPL-2.0-or-later / CC0, and two line diagrams drawn in code (`area-map.svg`, `brewing-temperatures.svg`, raster copies in `assets/images/demo/`). See `readme.txt`.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Yuzu Chaya home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Yuzu Chaya home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Brewing guide: [desktop](screenshots/brewing-guide-desktop.webp) · [mobile](screenshots/brewing-guide-mobile.webp)
+- Tea subscription: [desktop](screenshots/tea-subscription-desktop.webp) · [mobile](screenshots/tea-subscription-mobile.webp)
+- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+<!-- screenshots:end -->
