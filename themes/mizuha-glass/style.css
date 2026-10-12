@@ -1,0 +1,1269 @@
+/*
+Theme Name: Mizuha Glass
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/mizuha-glass
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Mizuha Glass — a serene, sculptural store theme for a small glass studio in a quiet river-mouth town, making hand-blown and kiln-formed tableware in old bottle green, with WooCommerce templates styled to match. Mist pages, sage glass panels, deep ink text and a bottle-green accent; Cardo for display, Source Sans 3 for text. A transparent header lies over a full-bleed photograph of backlit glass and turns solid mist with a hairline as the page scrolls (H8); the home page moves in long pauses between full-bleed photographs and a few calm sections (L1): the studio idea, a shelf of glass, a second photograph, how we make it, the shipping promise and the journal. Product cells and frames carry soft refraction highlights drawn only with CSS gradients. The studio and Shipping & care pages, journal, newsletter and contact; one quiet line of footer (F3). The studio address, showroom hours, telephone and email, and the shipping and breakage policy, each live in one synced pattern (WooCommerce optional: without it the shop shows a static shelf and orders go by email).
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mizuha-glass
+Tags: block-patterns, full-site-editing, e-commerce, blog, green, light, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, one-column, two-columns, three-columns, grid-layout
+*/
+
+/* ==========================================================================
+   0. Tokens + base
+   ========================================================================== */
+
+:root {
+	--mz-mist: var(--wp--preset--color--mist);
+	--mz-paper: var(--wp--preset--color--paper);
+	--mz-haze: var(--wp--preset--color--sage);
+	--mz-dusk: var(--wp--preset--color--quiet);
+	--mz-ink: var(--wp--preset--color--ink);
+	--mz-gold: var(--wp--preset--color--bottle);
+	--mz-panel: var(--wp--custom--panel, #233026);
+	--mz-on-dark: var(--wp--custom--on-dark);
+	--mz-on-dark-muted: var(--wp--custom--on-dark-muted);
+	--mz-line: var(--wp--custom--line);
+	--mz-line-strong: var(--wp--custom--line-strong);
+	--mz-ease: var(--wp--custom--ease);
+	--mz-sans: var(--wp--preset--font-family--sans);
+	--mz-mono: var(--wp--preset--font-family--sans);
+	--mz-serif: var(--wp--preset--font-family--serif);
+	--mz-plum: var(--wp--preset--color--ink);
+	--mz-gold-deep: var(--wp--preset--color--bottle-deep);
+	--mz-rice: var(--wp--preset--color--paper);
+	--mz-wide: var(--wp--style--global--wide-size, 1240px);
+	--mz-pad: var(--wp--style--root--padding-left, clamp(1.25rem, 4vw, 3rem));
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern";
+}
+
+img { display: block; max-width: 100%; height: auto; }
+
+.wp-site-blocks > * { margin-block-start: 0; }
+
+:where(.wp-block-post-content) > .alignfull { margin-block: 0; }
+
+:where(h1, h2, h3, h4) { text-wrap: balance; }
+
+:where(p) { text-wrap: pretty; }
+
+a { text-decoration-thickness: 1px; text-underline-offset: .22em; text-decoration-color: var(--mz-gold); }
+
+a:hover { text-decoration-color: currentColor; }
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+	outline: 2px solid var(--mz-gold);
+	outline-offset: 3px;
+}
+
+.skip-link.screen-reader-text:focus { background: var(--mz-paper); color: var(--mz-ink); }
+
+hr.wp-block-separator { border: 0; border-top: 1px solid var(--mz-line-strong); opacity: 1; }
+
+
+/* ==========================================================================
+   1. Type helpers + block styles
+   ========================================================================== */
+
+/* Label: small spaced capitals. */
+.is-style-label,
+.mz-label {
+	display: flex;
+	align-items: center;
+	gap: .75rem;
+	margin: 0;
+	font-family: var(--mz-mono);
+	font-size: var(--wp--preset--font-size--x-small) !important;
+	font-weight: 400;
+	letter-spacing: .12em;
+	line-height: 1.4;
+	text-transform: uppercase;
+	color: var(--mz-dusk);
+}
+
+.is-style-label::before,
+.mz-label::before {
+	content: "";
+	flex: 0 0 auto;
+	width: 1.25rem;
+	height: 1px;
+	background: var(--mz-gold);
+}
+
+.is-style-lead {
+	font-size: var(--wp--preset--font-size--large) !important;
+	font-weight: 300;
+	line-height: 1.55;
+	letter-spacing: -.005em;
+}
+
+.is-style-fine { font-size: var(--wp--preset--font-size--small) !important; color: var(--mz-dusk); }
+
+.is-style-spec { font-family: var(--mz-mono); font-size: var(--wp--preset--font-size--small) !important; letter-spacing: .02em; color: var(--mz-dusk); }
+
+/* Ruled rows list. */
+ul.is-style-ruled,
+ol.is-style-ruled { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--mz-line); }
+
+ul.is-style-ruled > li,
+ol.is-style-ruled > li { margin: 0; padding: .9rem 0 .9rem 2rem; border-top: 1px solid var(--mz-line); position: relative; }
+
+ul.is-style-ruled > li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 1.55rem;
+	width: .9rem;
+	height: 1px;
+	background: var(--mz-gold);
+}
+
+ul.is-style-ruled strong { font-weight: 500; }
+
+/* Drawing frame: hairline corner ticks around the photograph, a monospace figure caption. */
+.wp-block-image.is-style-drawing { position: relative; margin-block: 0; padding: 0; }
+
+.wp-block-image.is-style-drawing::before {
+	content: "";
+	position: absolute;
+	inset: -.6rem;
+	z-index: 1;
+	pointer-events: none;
+	--t: var(--mz-line-strong);
+	background:
+		linear-gradient(var(--t) 0 0) top left / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) top left / 1px .9rem no-repeat,
+		linear-gradient(var(--t) 0 0) top right / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) top right / 1px .9rem no-repeat,
+		linear-gradient(var(--t) 0 0) bottom left / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) bottom left / 1px .9rem no-repeat,
+		linear-gradient(var(--t) 0 0) bottom right / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) bottom right / 1px .9rem no-repeat;
+}
+
+.wp-block-image.is-style-drawing:has(figcaption)::before { bottom: calc(-.6rem + 2.4rem); }
+
+.wp-block-image.is-style-drawing img { width: 100%; object-fit: cover; }
+
+.wp-block-image figcaption.wp-element-caption,
+.wp-block-image .wp-element-caption {
+	display: flex;
+	align-items: center;
+	gap: .6rem;
+	margin: .9rem 0 0;
+	font-family: var(--mz-mono);
+	font-size: .75rem;
+	letter-spacing: .04em;
+	text-align: left;
+	color: var(--mz-dusk);
+}
+
+.wp-block-image .wp-element-caption::before { content: ""; width: .6rem; height: 1px; background: var(--mz-gold); flex: 0 0 auto; }
+
+/* Paper sheet panel. */
+.wp-block-group.is-style-sheet { padding: clamp(1.25rem, 3vw, 2rem); background: var(--mz-paper); border: 1px solid var(--mz-line); }
+
+/* Underlined link with an arrow (button style). */
+.wp-block-button.is-style-arrow .wp-block-button__link {
+	display: inline-flex;
+	align-items: center;
+	gap: .6rem;
+	padding: .35rem 0;
+	border-radius: 0;
+	background: transparent;
+	color: var(--mz-ink);
+	border-bottom: 1px solid var(--mz-ink);
+}
+
+.wp-block-button.is-style-arrow .wp-block-button__link::after {
+	content: "\2192";
+	font-family: var(--mz-mono);
+	transition: transform .4s var(--mz-ease);
+}
+
+.wp-block-button.is-style-arrow .wp-block-button__link:hover { background: transparent; color: var(--mz-ink); border-bottom-color: var(--mz-gold); }
+
+.wp-block-button.is-style-arrow .wp-block-button__link:hover::after { transform: translateX(.3rem); }
+
+.wp-block-buttons { gap: 1rem 1.75rem; align-items: center; }
+
+.wp-element-button,
+.wp-block-button__link { transition: background-color .3s ease, color .3s ease, border-color .3s ease; }
+
+/* ==========================================================================
+   2. Layout helpers
+   ========================================================================== */
+
+.mz-section { padding-block: var(--wp--preset--spacing--50); }
+
+.mz-section--flush-top { padding-top: 0; }
+
+.mz-section--paper { background-color: var(--mz-paper); }
+
+.mz-section--rule { border-top: 1px solid var(--mz-line); }
+
+.mz-section--opening { padding-top: var(--wp--preset--spacing--40); }
+
+.mz-section--dark { background-color: var(--mz-panel); color: var(--mz-on-dark); }
+
+.mz-section--dark :where(h1, h2, h3, h4) { color: var(--mz-on-dark); }
+
+.mz-section--dark .is-style-label { color: var(--mz-on-dark-muted); }
+
+.mz-section--dark .wp-block-button:not(.is-style-arrow) .wp-block-button__link { background: var(--mz-on-dark); color: var(--mz-panel); }
+
+.mz-section--dark .wp-block-button:not(.is-style-arrow) .wp-block-button__link:hover { background: var(--mz-paper); }
+
+.mz-stack > * { margin-block: 0; }
+
+.mz-stack > * + * { margin-block-start: 1.25rem; }
+
+.mz-stack > .wp-block-buttons,
+.mz-stack > .wp-block-image,
+.mz-stack > .mz-steps,
+.mz-stack > .wp-block-list { margin-block-start: 2rem; }
+
+.mz-head {
+	display: grid;
+	gap: 1rem;
+	max-width: 46rem;
+	margin-bottom: var(--wp--preset--spacing--40);
+}
+
+.mz-head > * { margin: 0 !important; }
+
+.mz-head--row {
+	max-width: none;
+	grid-template-columns: minmax(0, 1fr) auto;
+	align-items: end;
+}
+
+.mz-head__note { font-family: var(--mz-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--mz-dusk); }
+
+.mz-split {
+	display: grid;
+	gap: var(--wp--preset--spacing--40) var(--wp--preset--spacing--50);
+	align-items: center;
+}
+
+.mz-split > * { margin: 0 !important; min-width: 0; }
+
+@media (min-width: 782px) {
+	.mz-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.mz-split--5-7 { grid-template-columns: 5fr 7fr; }
+	.mz-split--7-5 { grid-template-columns: 7fr 5fr; }
+	.mz-split--top { align-items: start; }
+}
+
+@media (max-width: 781px) {
+	.mz-head--row { grid-template-columns: 1fr; }
+}
+
+.mz-center-text { text-align: center; }
+
+/* Opening title block: big light title on the left, lead and buttons on the right, a hairline under both. */
+.mz-opening {
+	display: grid;
+	gap: var(--wp--preset--spacing--30) var(--wp--preset--spacing--50);
+	align-items: end;
+	padding-bottom: var(--wp--preset--spacing--40);
+}
+
+.mz-opening > * { margin: 0 !important; min-width: 0; }
+
+.mz-opening__title > * + * { margin-block-start: 1.5rem; }
+
+.mz-opening__title > *,
+.mz-opening__side > * { margin-block-end: 0; }
+
+.mz-opening__side > * { margin-block-start: 0; }
+
+.mz-opening__side > * + * { margin-block-start: 1.5rem; }
+
+.mz-opening h1,
+.mz-opening .wp-block-query-title { max-width: 14em; font-size: var(--wp--preset--font-size--display); font-weight: 300; line-height: 1.02; letter-spacing: -.035em; }
+
+@media (min-width: 900px) {
+	.mz-opening { grid-template-columns: 7fr 5fr; }
+}
+
+.mz-page-head--simple .wp-block-post-title { font-size: var(--wp--preset--font-size--xx-large); }
+
+/* Sheet head: a ruled monospace row above a grid, like the top band of a drawing sheet. */
+.mz-sheet-head {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: .5rem 2rem;
+	padding: .8rem 0;
+	border-top: 1px solid var(--mz-ink);
+	font-family: var(--mz-mono);
+	font-size: .75rem;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+}
+
+.mz-sheet-head > * { margin: 0 !important; }
+
+.mz-sheet-head__meta { color: var(--mz-dusk); }
+
+p.mz-sheet-head__title { margin: 0; font-family: var(--mz-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; }
+
+/* Wide photographs. */
+.mz-wide-picture { margin-top: var(--wp--preset--spacing--30) !important; }
+
+.mz-wide-picture img { aspect-ratio: 21 / 9; }
+
+@media (max-width: 781px) {
+	.mz-wide-picture img { aspect-ratio: 4 / 3; }
+}
+
+/* ==========================================================================
+   5. Steps, cells, rows, spec sheets
+   ========================================================================== */
+
+.mz-steps { display: grid; gap: 1.75rem 2rem; }
+
+@media (min-width: 600px) {
+	.mz-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.mz-steps--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.mz-steps > * { margin: 0 !important; }
+
+.mz-step { position: relative; padding-top: 1rem; border-top: 1px solid var(--mz-line-strong); }
+
+.mz-step::before { content: ""; position: absolute; left: 0; top: -1px; width: 1.5rem; height: 2px; background: var(--mz-gold); }
+
+.mz-step > * { margin: 0 !important; }
+
+.mz-step__no { font-family: var(--mz-mono); font-size: .75rem; letter-spacing: .08em; color: var(--mz-dusk); }
+
+.mz-step__title { margin-top: .5rem !important; font-size: var(--wp--preset--font-size--large) !important; font-weight: 400 !important; }
+
+.mz-step__text { margin-top: .5rem !important; font-size: var(--wp--preset--font-size--small); line-height: 1.6; color: var(--mz-dusk); }
+
+/* People cells. */
+.mz-cells { display: grid; border-top: 1px solid var(--mz-line-strong); }
+
+@media (min-width: 782px) {
+	.mz-cells--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.mz-cells--3 > .mz-cell + .mz-cell { border-left: 1px solid var(--mz-line); }
+}
+
+.mz-cells > * { margin: 0 !important; }
+
+.mz-cell { padding: 1.5rem clamp(0rem, 2vw, 1.75rem) 2rem; border-bottom: 1px solid var(--mz-line); }
+
+.mz-cell:first-child { padding-left: 0; }
+
+.mz-cell > * { margin: 0 !important; }
+
+.mz-cell > * + * { margin-top: .6rem !important; }
+
+.mz-cell__no { font-family: var(--mz-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--mz-dusk); }
+
+.mz-cell__title { margin-top: 1.5rem !important; font-size: var(--wp--preset--font-size--x-large) !important; font-weight: 300 !important; }
+
+.mz-cell__role { font-family: var(--mz-mono); font-size: .8125rem; color: var(--mz-ink); }
+
+.mz-cell p:last-child { font-size: var(--wp--preset--font-size--small); color: var(--mz-dusk); }
+
+@media (max-width: 781px) {
+	.mz-cell { padding-inline: 0; }
+}
+
+/* Spec sheet: monospace key, value. */
+.mz-spec { border-bottom: 1px solid var(--mz-line); }
+
+.mz-spec__row {
+	display: grid;
+	grid-template-columns: minmax(7.5rem, 2fr) 5fr;
+	gap: 1rem;
+	padding: .85rem 0;
+	border-top: 1px solid var(--mz-line);
+}
+
+.mz-spec__row > * { margin: 0 !important; }
+
+.mz-spec__key { font-family: var(--mz-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--mz-dusk); padding-top: .2rem; }
+
+.mz-spec__value { font-size: var(--wp--preset--font-size--medium); }
+
+.mz-spec > .mz-spec__row:first-child { border-top-color: var(--mz-line-strong); }
+
+/* Facts row (builds head). */
+.mz-facts {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	border-top: 1px solid var(--mz-ink);
+	border-bottom: 1px solid var(--mz-line);
+}
+
+@media (min-width: 782px) {
+	.mz-facts { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+.mz-facts > * { margin: 0 !important; }
+
+.mz-fact { padding: 1.1rem 1.25rem 1.25rem 0; }
+
+.mz-fact + .mz-fact { padding-left: 1.25rem; border-left: 1px solid var(--mz-line); }
+
+@media (max-width: 781px) {
+	.mz-fact:nth-child(3) { padding-left: 0; border-left: 0; }
+	.mz-fact:nth-child(n+3) { border-top: 1px solid var(--mz-line); }
+}
+
+.mz-fact > * { margin: 0 !important; }
+
+.mz-fact__key { font-family: var(--mz-mono); font-size: .6875rem; letter-spacing: .08em; text-transform: uppercase; color: var(--mz-dusk); }
+
+.mz-fact__value { margin-top: .4rem !important; font-size: var(--wp--preset--font-size--large); font-weight: 300; letter-spacing: -.01em; }
+
+/* Process rows (builds). */
+.mz-rows { border-bottom: 1px solid var(--mz-line); }
+
+.mz-row {
+	display: grid;
+	grid-template-columns: 3rem minmax(0, 3fr) minmax(0, 2fr) minmax(0, 6fr);
+	gap: .5rem 1.5rem;
+	align-items: baseline;
+	padding: 1.4rem 0;
+	border-top: 1px solid var(--mz-line);
+	position: relative;
+}
+
+.mz-rows > .mz-row:first-child { border-top-color: var(--mz-ink); }
+
+.mz-row > * { margin: 0 !important; }
+
+.mz-row__no { font-family: var(--mz-mono); font-size: .75rem; color: var(--mz-dusk); }
+
+.mz-row__title { font-size: var(--wp--preset--font-size--x-large) !important; font-weight: 300 !important; }
+
+.mz-row__time { font-family: var(--mz-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; }
+
+.mz-row__text { color: var(--mz-dusk); }
+
+@media (max-width: 781px) {
+	.mz-row { grid-template-columns: 2.25rem minmax(0, 1fr); }
+	.mz-row__time,
+	.mz-row__text { grid-column: 2; }
+}
+
+/* Gallery. */
+.mz-gallery {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: var(--wp--preset--spacing--30);
+}
+
+@media (min-width: 782px) {
+	.mz-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.mz-gallery > * { margin: 0 !important; }
+
+.mz-gallery__item img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: var(--mz-paper); }
+
+/* ==========================================================================
+   6. Synced blocks: workshop card, price list
+   ========================================================================== */
+
+.mz-house { border-bottom: 1px solid var(--mz-line); }
+
+.mz-house__row {
+	display: grid;
+	grid-template-columns: 6.5rem minmax(0, 1fr);
+	gap: 1rem;
+	padding: .9rem 0;
+	border-top: 1px solid var(--mz-line);
+}
+
+.mz-house__row > * { margin: 0 !important; }
+
+.mz-house__key { padding-top: .2rem; font-family: var(--mz-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--mz-dusk); }
+
+.mz-house__value { line-height: 1.6; }
+
+.mz-prices { border-bottom: 1px solid var(--mz-line); }
+
+.mz-price {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 8rem 6.5rem;
+	gap: 1rem;
+	align-items: baseline;
+	padding: .85rem 0;
+	border-top: 1px solid var(--mz-line);
+}
+
+.mz-price > * { margin: 0 !important; }
+
+.mz-price--head { padding-block: .6rem; border-top: 1px solid var(--mz-ink); font-family: var(--mz-mono); font-size: .6875rem; letter-spacing: .08em; text-transform: uppercase; color: var(--mz-dusk); }
+
+.mz-price--head p:last-child,
+.mz-price__cost { text-align: right; }
+
+.mz-price__time { font-family: var(--mz-mono); font-size: .75rem; color: var(--mz-dusk); }
+
+.mz-price__cost { font-family: var(--mz-mono); font-size: .9375rem; font-weight: 500; white-space: nowrap; }
+
+.mz-prices__note { margin: 0 !important; padding: .9rem 0; border-top: 1px solid var(--mz-line); font-size: var(--wp--preset--font-size--small); color: var(--mz-dusk); }
+
+@media (max-width: 599px) {
+	.mz-price { grid-template-columns: minmax(0, 1fr) auto; gap: .2rem 1rem; }
+	.mz-price__name { grid-column: 1 / -1; }
+	.mz-price--head p:nth-child(2) { display: none; }
+}
+
+.mz-repair__prices > * + * { margin-top: 0 !important; }
+
+.mz-repair__prices .mz-sheet-head__title { padding-bottom: .9rem; }
+
+/* ==========================================================================
+   7. Journal: posts in ruled cells, the article
+   ========================================================================== */
+
+.mz-chips { display: flex; flex-wrap: wrap; gap: 0; margin: 0; border-left: 1px solid var(--mz-line-strong); }
+
+.mz-opening__side > .mz-chips { width: fit-content; margin-top: 1.5rem !important; }
+
+.mz-chips a {
+	padding: .45rem .9rem;
+	border: 1px solid var(--mz-line-strong);
+	border-left: 0;
+	font-family: var(--mz-mono);
+	font-size: .75rem;
+	letter-spacing: .04em;
+	color: var(--mz-ink);
+	text-decoration: none;
+	transition: background-color .3s ease;
+}
+
+.mz-chips a:hover { background: var(--mz-paper); }
+
+.mz-posts .wp-block-post-template {
+	gap: 0 !important;
+	border-top: 1px solid var(--mz-line-strong);
+	border-left: 1px solid var(--mz-line);
+}
+
+.mz-posts .wp-block-post-template > li {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: clamp(1rem, 2vw, 1.5rem);
+	border-right: 1px solid var(--mz-line);
+	border-bottom: 1px solid var(--mz-line);
+	transition: background-color .4s ease;
+}
+
+.mz-posts .wp-block-post-template > li:hover { background: var(--mz-paper); }
+
+.mz-posts .wp-block-post-featured-image { margin: 0; overflow: hidden; background: var(--mz-paper); }
+
+.mz-posts .wp-block-post-featured-image img { transition: transform 1.2s var(--mz-ease); }
+
+.mz-posts li:hover .wp-block-post-featured-image img { transform: scale(1.03); }
+
+.mz-post-body { margin-top: 1.1rem !important; }
+
+.mz-post-body > * { margin: 0 !important; }
+
+.mz-post-body > * + * { margin-top: .6rem !important; }
+
+.mz-post-meta { gap: .35rem 1rem; align-items: baseline; }
+
+.mz-post-meta > * { margin: 0 !important; }
+
+.mz-post-meta .wp-block-post-terms a { color: var(--mz-dusk); text-decoration: none; }
+
+.mz-post-meta .wp-block-post-terms a:hover { color: var(--mz-ink); }
+
+.mz-posts .wp-block-post-title { font-size: var(--wp--preset--font-size--large) !important; font-weight: 400; line-height: 1.3; letter-spacing: -.01em; }
+
+.mz-posts .wp-block-post-excerpt { font-size: var(--wp--preset--font-size--small); color: var(--mz-dusk); }
+
+.mz-posts .wp-block-post-excerpt__excerpt { margin: 0; }
+
+@media (max-width: 781px) {
+	.mz-posts .wp-block-post-template { grid-template-columns: 1fr !important; }
+}
+
+.mz-pagination { margin-top: var(--wp--preset--spacing--40) !important; font-family: var(--mz-mono); font-size: .8125rem; }
+
+.mz-pagination a { text-decoration: none; }
+
+.mz-article { padding-top: var(--wp--preset--spacing--40); }
+
+.mz-article__head { max-width: 58rem; }
+
+.mz-article__head > * { margin: 0 !important; }
+
+.mz-article__head > * + * { margin-top: 1.25rem !important; }
+
+.mz-article__head .wp-block-post-title { font-size: var(--wp--preset--font-size--xx-large); }
+
+.mz-article__dek { font-size: var(--wp--preset--font-size--large); font-weight: 300; line-height: 1.5; color: var(--mz-dusk); }
+
+.mz-article__dek p { margin: 0; }
+
+.mz-article__picture { margin-top: var(--wp--preset--spacing--40) !important; }
+
+.mz-prose { margin-top: var(--wp--preset--spacing--40) !important; }
+
+.mz-prose > * { max-width: 680px; }
+
+.mz-prose p,
+.mz-prose li { font-size: 1.0625rem; line-height: 1.75; }
+
+.mz-prose h2 { margin-top: 2.5rem; font-size: var(--wp--preset--font-size--x-large); font-weight: 400; }
+
+.mz-prose h3 { margin-top: 2rem; }
+
+.mz-prose blockquote { margin-block: 2rem; }
+
+.mz-prose blockquote cite { display: block; margin-top: .75rem; font-family: var(--mz-mono); font-size: .75rem; font-style: normal; letter-spacing: .06em; text-transform: uppercase; color: var(--mz-dusk); }
+
+.mz-prose ul { padding-left: 1.25rem; }
+
+.mz-prose li::marker { color: var(--mz-gold); }
+
+.mz-article__foot {
+	display: grid;
+	gap: 1rem 2rem;
+	margin-top: var(--wp--preset--spacing--40) !important;
+	padding-top: 1.25rem;
+	border-top: 1px solid var(--mz-line-strong);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.mz-article__foot > * { margin: 0 !important; }
+
+@media (min-width: 782px) {
+	.mz-article__foot { grid-template-columns: 1fr 1fr; }
+	.mz-article__foot > .wp-block-post-terms { grid-column: 1 / -1; }
+	.mz-article__foot > .post-navigation-link-next { text-align: right; }
+}
+
+.mz-article__foot a { text-decoration: none; }
+
+.mz-article__foot .wp-block-post-navigation-link { font-family: var(--mz-mono); font-size: .75rem; letter-spacing: .04em; text-transform: uppercase; color: var(--mz-dusk); }
+
+.mz-article__foot .wp-block-post-navigation-link a { display: block; margin-top: .35rem; font-family: var(--mz-sans); font-size: var(--wp--preset--font-size--medium); letter-spacing: 0; text-transform: none; color: var(--mz-ink); }
+
+/* Closing call-to-action band (builds). */
+.mz-cta { padding: var(--wp--preset--spacing--40) 0; border-top: 1px solid var(--mz-ink); border-bottom: 1px solid var(--mz-line); }
+
+/* ==========================================================================
+   8. Newsletter, contact, forms, FAQ, index, 404
+   ========================================================================== */
+
+.mz-letter-cta { max-width: 40rem; margin-inline: auto; text-align: center; }
+
+.mz-letter-cta > * { margin: 0 !important; }
+
+.mz-letter-cta > * + * { margin-top: 1.25rem !important; }
+
+.mz-letter-cta > hr.wp-block-separator { margin-inline: auto !important; }
+
+.mz-letter-cta .is-style-label { justify-content: center; margin-top: 2rem !important; }
+
+.mz-letter-cta .is-style-label::before { display: none; }
+
+.mz-letter-cta .wp-block-buttons { justify-content: center; margin-top: 2rem !important; }
+
+.mz-form { display: grid; gap: 1.1rem; }
+
+.mz-form label { display: grid; gap: .45rem; font-family: var(--mz-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--mz-dusk); }
+
+.mz-form input,
+.mz-form select,
+.mz-form textarea {
+	box-sizing: border-box;
+	width: 100%;
+	padding: .8rem 1rem;
+	border: 1px solid var(--mz-line-strong);
+	border-radius: 0;
+	background: var(--mz-paper);
+	color: var(--mz-ink);
+	font: 400 1rem / 1.4 var(--mz-sans);
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.mz-form input,
+.mz-form select { height: calc(3rem + 2px); }
+
+.mz-form input:focus,
+.mz-form select:focus,
+.mz-form textarea:focus { border-color: var(--mz-ink); outline: 0; }
+
+.mz-form button {
+	justify-self: start;
+	padding: .9rem 1.6rem;
+	border: 0;
+	border-radius: 0;
+	background: var(--mz-ink);
+	color: var(--mz-paper);
+	font: 500 var(--wp--preset--font-size--small) / 1 var(--mz-sans);
+	letter-spacing: .02em;
+	cursor: pointer;
+	transition: background-color .3s ease;
+}
+
+.mz-form button:hover { background: var(--mz-dusk); }
+
+.mz-form--inline { grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 0; max-width: 32rem; }
+
+.mz-form--inline button { height: calc(3rem + 2px); }
+
+@media (max-width: 420px) {
+	.mz-form--inline { grid-template-columns: 1fr; gap: .6rem; }
+}
+
+.mz-faq { border-bottom: 1px solid var(--mz-line); }
+
+.mz-faq > * { margin: 0 !important; }
+
+.mz-faq details { border-top: 1px solid var(--mz-line); }
+
+.mz-faq details:first-child { border-top-color: var(--mz-ink); }
+
+.mz-faq summary {
+	position: relative;
+	padding: 1.1rem 2.5rem 1.1rem 0;
+	font-size: var(--wp--preset--font-size--large);
+	font-weight: 400;
+	list-style: none;
+	cursor: pointer;
+}
+
+.mz-faq summary::-webkit-details-marker { display: none; }
+
+.mz-faq summary::after {
+	content: "+";
+	position: absolute;
+	right: 0;
+	top: 1.05rem;
+	font-family: var(--mz-mono);
+	font-weight: 400;
+	color: var(--mz-dusk);
+	transition: transform .3s ease;
+}
+
+.mz-faq details[open] summary::after { transform: rotate(45deg); }
+
+.mz-faq details > p { margin: 0 0 1.25rem; max-width: 40rem; color: var(--mz-dusk); }
+
+.mz-index { border-bottom: 1px solid var(--mz-line); }
+
+.mz-index__row {
+	display: grid;
+	grid-template-columns: 5rem 9rem minmax(0, 1fr);
+	gap: 1rem;
+	align-items: baseline;
+	padding: 1rem 0;
+	border-top: 1px solid var(--mz-line);
+}
+
+.mz-index > .mz-index__row:first-child { border-top-color: var(--mz-ink); }
+
+.mz-index__row > * { margin: 0 !important; }
+
+.mz-index__no,
+.mz-index__date { font-family: var(--mz-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--mz-dusk); }
+
+.mz-index__title { font-size: var(--wp--preset--font-size--large); font-weight: 300; }
+
+@media (max-width: 599px) {
+	.mz-index__row { grid-template-columns: 4rem minmax(0, 1fr); gap: .2rem 1rem; }
+	.mz-index__title { grid-column: 1 / -1; }
+}
+
+.mz-lost { max-width: 40rem; margin-inline: auto; padding-block: var(--wp--preset--spacing--40); text-align: center; }
+
+.mz-lost > * { margin: 0 auto !important; }
+
+.mz-lost > * + * { margin-top: 1.5rem !important; }
+
+.mz-lost__no { font-family: var(--mz-mono); font-size: clamp(4rem, 3rem + 6vw, 8rem); font-weight: 400; line-height: 1; letter-spacing: -.04em; color: var(--mz-ink); }
+
+.mz-lost__title { font-size: var(--wp--preset--font-size--xx-large) !important; }
+
+.mz-lost .wp-block-buttons { justify-content: center; }
+
+.mz-search-form .wp-block-search__inside-wrapper { gap: 0; border: 0; padding: 0; }
+
+.mz-search-form .wp-block-search__input {
+	padding: .8rem 1rem;
+	border: 1px solid var(--mz-line-strong);
+	border-radius: 0;
+	background: var(--mz-paper);
+	color: var(--mz-ink);
+	font-family: var(--mz-sans);
+}
+
+.mz-search-form .wp-block-search__button {
+	margin-left: 0;
+	padding: .8rem 1.3rem;
+	border: 0;
+	border-radius: 0;
+	background: var(--mz-ink);
+	color: var(--mz-paper);
+	font-family: var(--mz-sans);
+	font-weight: 500;
+}
+
+.mz-lost .mz-search-form { max-width: 28rem; }
+
+/* ==========================================================================
+   10. Motion: none for those who ask for less
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+	html { scroll-behavior: auto; }
+	*,
+	*::before,
+	*::after { animation: none !important; transition: none !important; }
+}
+
+/* ==========================================================================
+   11. Mizuha Glass: transparent header over the photograph (H8), long pauses
+       between full-bleed photographs (L1), refraction highlights on product
+       cells and frames, and the one-line footer (F3)
+   ========================================================================== */
+
+:root {
+	--mz-sage: var(--wp--preset--color--sage);
+	--mz-hair: var(--wp--preset--color--hairline);
+	--mz-bottle: var(--wp--preset--color--bottle);
+	--mz-deep: var(--wp--preset--color--bottle-deep);
+	--mz-head-h: 4.75rem;
+	--mz-admin: 0px;
+	/* Refraction: a soft diagonal streak of light and a faint caustic pool, gradients only. */
+	--mz-streak: linear-gradient(118deg, transparent 0 34%, rgba(255, 255, 255, .26) 41%, rgba(255, 255, 255, .06) 46%, transparent 52%, transparent 60%, rgba(255, 255, 255, .12) 63%, transparent 67%);
+	--mz-caustic: radial-gradient(60% 34% at 72% 88%, rgba(207, 220, 203, .55), transparent 70%), radial-gradient(28% 18% at 22% 14%, rgba(255, 255, 255, .35), transparent 75%);
+}
+
+.admin-bar { --mz-admin: 32px; }
+
+@media (max-width: 782px) {
+	.admin-bar { --mz-admin: 46px; }
+}
+
+:where(h1, h2, h3, h4, .wp-block-post-title) { font-family: var(--mz-serif); font-weight: 400; letter-spacing: 0; }
+
+:where(h1, h2, h3, h4) em { font-style: italic; color: var(--mz-deep); }
+
+a { text-decoration-color: var(--mz-bottle); }
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible { outline-color: var(--mz-deep); }
+
+.mz-opening h1, .mz-opening .wp-block-query-title { max-width: 15em; font-size: clamp(2.3rem, 1.6rem + 2.6vw, 4rem); font-weight: 400; letter-spacing: -.01em; line-height: 1.12; }
+
+.is-style-lead { font-weight: 400; color: var(--mz-dusk); line-height: 1.75; }
+
+.is-style-label, .mz-label { gap: .8rem; font-family: var(--mz-sans); font-size: .72rem !important; font-weight: 600; letter-spacing: .22em; color: var(--mz-deep); }
+
+.is-style-label::before, .mz-label::before { width: 1.75rem; height: 1px; background: var(--mz-bottle); }
+
+.mz-head--center { max-width: 40rem; margin-inline: auto; text-align: center; justify-items: center; }
+
+.mz-head--center .is-style-label { justify-content: center; }
+
+.mz-head--center .is-style-label::after { content: ""; width: 1.75rem; height: 1px; background: var(--mz-bottle); }
+
+.mz-head-wrap > .mz-head { margin-bottom: var(--wp--preset--spacing--50); }
+
+.mz-head .wp-block-buttons { margin: 0; }
+
+.mz-quiet { color: var(--mz-dusk); }
+
+.mz-main { padding-top: var(--mz-head-h); }
+
+.mz-main--front { padding-top: 0; }
+
+.mz-section--sage { background-color: var(--mz-sage); }
+
+.mz-section--sage .is-style-lead, .mz-section--sage .mz-quiet { color: var(--mz-ink); }
+
+.mz-section--paper { background-color: var(--mz-paper); }
+
+/* Long pauses (L1): the home sections breathe with very generous space. */
+.mz-main--front .mz-section { padding-block: clamp(5rem, 3rem + 8vw, 11rem); }
+
+.mz-main--front .mz-section--promise { padding-block: clamp(4rem, 2.5rem + 6vw, 8rem); }
+
+/* Glass edge: a 1px sage hairline with a lighter inner line, for cards and frames. */
+.wp-block-group.is-style-edge,
+.mz-card { position: relative; padding: clamp(1.25rem, 3vw, 2.25rem); background: color-mix(in srgb, var(--mz-paper) 70%, transparent); border: 1px solid var(--mz-hair); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .7); }
+
+.wp-block-separator.is-style-edge { width: 5rem !important; height: 3px; border: 0 !important; background: linear-gradient(var(--mz-hair) 0 0) top / 100% 1px no-repeat, linear-gradient(#fff 0 0) bottom / 100% 1px no-repeat; }
+
+.mz-section--sage .mz-card { background: color-mix(in srgb, var(--mz-mist) 72%, transparent); }
+
+/* Framed photographs: hairline glass edge + the refraction overlay. */
+.mz-frame { position: relative; margin: 0 !important; overflow: hidden; border: 1px solid var(--mz-hair); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .6); }
+
+.mz-frame img { width: 100%; height: 100%; object-fit: cover; }
+
+.mz-frame--portrait img { aspect-ratio: 4 / 5; }
+
+.mz-frame::after,
+.mz-cell__picture::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	background: var(--mz-streak), var(--mz-caustic);
+	background-size: 220% 100%, 100% 100%;
+	background-position: 30% 0, 0 0;
+	mix-blend-mode: soft-light;
+	opacity: .85;
+	transition: background-position 1.6s var(--mz-ease);
+}
+
+.mz-frame:hover::after,
+.mz-cell:hover .mz-cell__picture::after { background-position: 0 0, 0 0; }
+
+.mz-split__picture img { aspect-ratio: 5 / 4; }
+
+.mz-split__picture.mz-frame--portrait img { aspect-ratio: 4 / 5; }
+
+/* ---- Buttons: ink blocks with mist text, squared; the arrow link in deep bottle green. */
+.wp-block-button.is-style-arrow .wp-block-button__link { gap: .7rem; padding: .3rem 0; font-family: var(--mz-sans); font-size: .8rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--mz-ink); border-bottom: 1px solid var(--mz-bottle); }
+
+.wp-block-button.is-style-arrow .wp-block-button__link::after { font-family: var(--mz-serif); letter-spacing: 0; }
+
+.wp-block-button.is-style-arrow .wp-block-button__link:hover { color: var(--mz-deep); border-bottom-color: var(--mz-deep); }
+
+/* ---- Header (H8): a quiet mist bar on every page; over the home photograph it starts transparent and turns
+   solid mist with a hairline as the page scrolls (CSS scroll timeline, script fallback in assets/js/header.js). */
+.mz-header {
+	position: fixed;
+	z-index: 50;
+	top: var(--mz-admin);
+	left: 0;
+	right: 0;
+	padding-block: 1.25rem;
+	background-color: rgba(238, 242, 236, .97);
+	border-bottom: 1px solid var(--mz-line);
+	transition: background-color .5s var(--mz-ease), border-color .5s var(--mz-ease);
+}
+
+.mz-header--checkout { position: relative; top: 0; }
+
+body:has(.mz-header--checkout) .mz-main { padding-top: 0; }
+
+body:has(.mz-hero) .mz-header { background-color: transparent; border-bottom-color: transparent; }
+
+@supports (animation-timeline: scroll()) {
+	@keyframes mz-solid {
+		from { background-color: rgba(238, 242, 236, 0); border-bottom-color: rgba(35, 48, 38, 0); }
+		to { background-color: rgba(238, 242, 236, .97); border-bottom-color: rgba(35, 48, 38, .13); }
+	}
+	body:has(.mz-hero) .mz-header { animation: mz-solid linear both; animation-timeline: scroll(root); animation-range: 0 120px; }
+}
+
+body:has(.mz-hero) .mz-header.is-scripted.is-solid { background-color: rgba(238, 242, 236, .97); border-bottom-color: var(--mz-line); }
+
+.mz-header__bar { gap: 1.5rem; }
+
+.mz-header .wp-block-site-title { margin: 0; font-family: var(--mz-serif); font-size: 1.5rem; font-weight: 400; letter-spacing: .02em; line-height: 1; white-space: nowrap; }
+
+.mz-header .wp-block-site-title a { color: var(--mz-ink); }
+
+.mz-nav { margin-inline-start: auto; }
+
+.mz-nav .wp-block-navigation__container { gap: clamp(1.25rem, 2.6vw, 2.5rem) !important; }
+
+.mz-nav .wp-block-navigation-item__content { padding-block: .3rem !important; color: var(--mz-ink); font-size: .78rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; background: linear-gradient(var(--mz-bottle), var(--mz-bottle)) 0 100% / 0 1px no-repeat; transition: background-size .5s var(--mz-ease); }
+
+.mz-nav .wp-block-navigation-item__content:hover,
+.mz-nav .current-menu-item > .wp-block-navigation-item__content { background-size: 100% 1px; }
+
+/* The open overlay (phones): a mist sheet with the menu in Cardo. */
+.mz-header .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--mz-mist); color: var(--mz-ink); }
+
+.mz-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content { padding-top: 5rem; }
+
+.mz-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { gap: 1.4rem !important; }
+
+.mz-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { font-family: var(--mz-serif); font-size: 1.75rem; font-weight: 400; letter-spacing: 0; text-transform: none; }
+
+@media (max-width: 599px) {
+	.mz-header { padding-block: 1rem; }
+	.mz-header__bar { gap: .9rem; }
+	.mz-header .wp-block-site-title { font-size: 1.25rem; }
+	.mz-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: inline-flex; align-items: center; gap: .55rem; padding: .4rem 0; color: var(--mz-ink); font-size: .72rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; }
+	.mz-nav .wp-block-navigation__responsive-container-open svg { display: none; }
+	.mz-nav .wp-block-navigation__responsive-container-open::before { content: ""; width: 20px; height: 5px; border-block: 1px solid currentColor; }
+	.mz-nav .wp-block-navigation__responsive-container-open::after { content: "Menu"; }
+}
+
+/* ---- L1 hero: the backlit photograph, full-bleed, under the header. A faint mist scrim at the top only. */
+.mz-hero {
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	min-height: max(34rem, min(100vh, 60rem));
+	margin-block: 0 !important;
+	padding-block: calc(var(--mz-head-h) + 2rem) clamp(3rem, 2rem + 6vw, 7.5rem);
+	overflow: hidden;
+	isolation: isolate;
+	background: var(--mz-sage);
+}
+
+.mz-hero > .mz-hero__picture { position: absolute; inset: 0; z-index: -2; max-width: none !important; width: 100%; height: 100%; margin: 0 !important; }
+
+.mz-hero__picture img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 50%; }
+
+.mz-hero::before { content: ""; position: absolute; inset: 0 0 auto; z-index: -1; height: 11rem; pointer-events: none; background: linear-gradient(180deg, rgba(238, 242, 236, .72), rgba(238, 242, 236, 0)); }
+
+.mz-hero__inner { width: 100%; }
+
+.mz-hero__text { max-width: 34rem; }
+
+.mz-hero__text > * { margin: 0 !important; }
+
+.mz-hero__title { font-size: clamp(2.5rem, 1.7rem + 3.2vw, 4.75rem) !important; line-height: 1.06; letter-spacing: -.015em; color: var(--mz-ink); }
+
+.mz-hero__title em { display: block; color: var(--mz-deep); }
+
+.mz-hero__text .wp-block-buttons { margin-top: 2.25rem !important; }
+
+@media (max-width: 781px) {
+	.mz-hero { align-items: flex-start; min-height: 40rem; padding-top: calc(var(--mz-head-h) + 2.5rem); }
+	.mz-hero__picture img { object-position: 68% 50%; }
+	.mz-hero::before { height: 60%; background: linear-gradient(180deg, rgba(238, 242, 236, .82), rgba(238, 242, 236, .4) 60%, rgba(238, 242, 236, 0)); }
+}
+
+/* ---- The studio idea: one paragraph, centred, long pauses. */
+.mz-pause { max-width: 44rem; margin-inline: auto; }
+
+.mz-pause > * { margin: 0 !important; }
+
+.mz-pause > * + * { margin-top: 2.25rem !important; }
+
+.mz-pause .is-style-label { justify-content: center; }
+
+.mz-pause .is-style-label::after { content: ""; width: 1.75rem; height: 1px; background: var(--mz-bottle); }
+
+.mz-idea { font-family: var(--mz-serif); font-size: clamp(1.4rem, 1.15rem + 1vw, 2.05rem); line-height: 1.5; color: var(--mz-ink); }
+
+.mz-pause .wp-block-buttons { justify-content: center; }
+
+/* ---- Second photograph, full-bleed, with a one-line caption. */
+.mz-still { margin-block: 0 !important; padding: 0; }
+
+.mz-still > .mz-still__picture { max-width: none !important; width: 100%; margin: 0 !important; }
+
+.mz-still__picture img { width: 100%; height: clamp(22rem, 52vw, 46rem); object-fit: cover; }
+
+.mz-still__line { margin-top: 1.1rem !important; }
+
+.mz-still__caption { margin: 0; font-family: var(--mz-serif); font-style: italic; font-size: 1rem; color: var(--mz-dusk); }
+
+/* Grids built from flow groups: no stacked block-gap margins on their cells. */
+.mz-steps-3 > *, .mz-notes > *, .mz-shelf > *, .mz-pair > *, .mz-makers > * { margin-block: 0 !important; }
+
+/* ---- How we make it: three quiet steps. */
+.mz-steps-3 { display: grid; gap: clamp(2.5rem, 4vw, 4rem) clamp(1.5rem, 3vw, 3rem); }
+
+@media (min-width: 782px) {
+	.mz-steps-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.mz-steps-3 > .mz-step:nth-child(2) { margin-top: 4rem !important; }
+}
+
+.mz-steps-3 .mz-step { padding-top: 0; border-top: 0; }
+
+.mz-steps-3 .mz-step::before { display: none; }
+
+.mz-step > * { margin: 0 !important; }
+
+.mz-step__picture img { aspect-ratio: 4 / 5; }
+
+.mz-step__num { margin-top: 1.5rem !important; font-family: var(--mz-serif); font-style: italic; font-size: 1.6rem; line-height: 1; color: var(--mz-bottle); }
+
+.mz-step__title { margin-top: .6rem !important; font-size: 1.6rem !important; }
+
+.mz-step__text { margin-top: .75rem !important; max-width: 24rem; color: var(--mz-dusk); }
+
+/* ---- Notes (care). */
+.mz-notes { display: grid; gap: 2.5rem clamp(1.5rem, 3vw, 3rem); }
+
+@media (min-width: 782px) {
+	.mz-notes { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+.mz-note { padding-top: 1.25rem; border-top: 1px solid var(--mz-hair); }
+
+.mz-note > * { margin: 0 !important; }
+
+.mz-note .mz-step__num { margin-top: 0 !important; }
+
+.mz-note .mz-step__text { color: var(--mz-ink); }
+
+.mz-pair { display: grid; gap: clamp(1rem, 2vw, 1.75rem); }
+
+.mz-pair > .mz-frame img { aspect-ratio: 3 / 2; }
+
+.mz-pair--row { margin-top: var(--wp--preset--spacing--50) !important; }
+
+@media (min-width: 782px) {
+	.mz-pair--row { grid-template-columns: 1fr 1fr; }
+	.mz-pair--row > .mz-frame img { aspect-ratio: 4 / 3; }
+}
+
+/* ---- Makers. */
+.mz-makers { display: grid; gap: 0; margin-top: 2.25rem !important; border-bottom: 1px solid var(--mz-line); }
+
+.mz-maker { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: .25rem 1.5rem; padding: 1.25rem 0; border-top: 1px solid var(--mz-line); }
+
+.mz-maker > * { margin: 0 !important; }
+
+.mz-maker__name { font-size: 1.3rem !important; }
+
+.mz-maker__role { grid-column: 1; font-size: .72rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--mz-deep); }
+
+.mz-maker__text { grid-column: 2; grid-row: 1 / span 2; color: var(--mz-dusk); }
+
+@media (max-width: 599px) {
+	.mz-maker { grid-template-columns: 1fr; }
+	.mz-maker__text { grid-column: 1; grid-row: auto; margin-top: .5rem !important; }
+}
+
+/* ---- Static shelf (no WooCommerce): the same refraction cells as the shop. */
+.mz-shelf { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2.5rem, 4vw, 3.5rem) clamp(1rem, 2vw, 2rem); }
+
+@media (min-width: 960px) {
+	.mz-shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+.mz-cell > * { margin: 0 !important; }
+
+.mz-cell__picture { position: relative; overflow: hidden; background: var(--mz-paper); border: 1px solid var(--mz-hair); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .7); }
+
+.mz-cell__picture img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+
+.mz-cell__cat { margin-top: 1.1rem !important; font-size: .7rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--mz-deep); }
+
+.mz-cell__title { margin-top: .35rem !important; font-size: 1.3rem !important; line-height: 1.25; }
+
+.mz-cell__price { margin-top: .35rem !important; font-family: var(--mz-serif); font-size: 1.1rem; font-variant-numeric: lining-nums tabular-nums; }
+
+/* ---- Synced cards: studio details and the shipping policy (key / value rows). */
+.mz-studio, .mz-policy { border-bottom: 1px solid var(--mz-line); }
+
+.mz-studio__row, .mz-policy__row { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 1rem; padding: .95rem 0; border-top: 1px solid var(--mz-line); }
+
+.mz-studio__row:first-child, .mz-policy__row:first-child { border-top-color: var(--mz-hair); }
+
+.mz-studio__row > *, .mz-policy__row > * { margin: 0 !important; }
+
+.mz-studio__key, .mz-policy__key { padding-top: .2rem; font-size: .72rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--mz-deep); }
+
+.mz-studio__value, .mz-policy__value { line-height: 1.6; }
+
+.mz-card > .mz-studio, .mz-card > .mz-policy { border-bottom: 0; }
+
+.mz-card > .mz-studio > .mz-studio__row:first-child, .mz-card > .mz-policy > .mz-policy__row:first-child { padding-top: 0; border-top: 0; }
+
+@media (max-width: 480px) {
+	.mz-studio__row, .mz-policy__row { grid-template-columns: 1fr; gap: .3rem; }
+}
+
+/* Short form (home): packing and the breakage promise only. */
+.mz-card--short .mz-policy__row--delivery,
+.mz-card--short .mz-policy__row--returns { display: none; }
+
+/* On the product page: the breakage promise and delivery, quietly. */
+.mz-product-note { padding-top: 1.5rem; border-top: 1px solid var(--mz-line); }
+
+.mz-product-note > * { margin: 0 !important; }
+
+.mz-product-note > * + * { margin-top: 1rem !important; }
+
+.mz-product-note .mz-policy__row--packing,
+.mz-product-note .mz-policy__row--returns { display: none; }
+
+.mz-product-note .mz-policy__row { grid-template-columns: 6rem minmax(0, 1fr); padding: .7rem 0; font-size: .92rem; }
+
+.mz-product-note .mz-policy__row--breakage { border-top: 1px solid var(--mz-line) !important; }
+
+.mz-product-note__more { font-size: .85rem; }
+
+/* ---- Footer (F3): one calm line, centred; wraps into two or three centred lines on phones. */
+.mz-foot { padding-block: 2.25rem; border-top: 1px solid var(--mz-hair); background: var(--mz-mist); }
+
+.mz-foot__line { display: flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: .5rem 0; font-size: .82rem; letter-spacing: .04em; color: var(--mz-dusk); text-align: center; }
+
+.mz-foot__line > * { margin: 0 !important; }
+
+.mz-foot__item + .mz-foot__item::before { content: "\00B7"; margin-inline: .9rem; color: var(--mz-bottle); }
+
+.mz-foot__name { font-family: var(--mz-serif); font-size: .95rem; letter-spacing: .02em; color: var(--mz-ink); }
+
+.mz-foot a { color: var(--mz-ink); text-decoration: none; }
+
+.mz-foot a:hover { color: var(--mz-deep); text-decoration: underline; }
+
+/* The synced studio card read as a line: the town and the email only. */
+.mz-foot__studio { display: inline-flex; }
+
+.mz-foot__studio .mz-studio { display: inline-flex; border: 0; }
+
+.mz-foot__studio .mz-studio > * { margin: 0 !important; }
+
+.mz-foot__studio .mz-studio__row { display: none; }
+
+.mz-foot__studio .mz-studio__row--address,
+.mz-foot__studio .mz-studio__row--email { display: inline; padding: 0; border: 0; }
+
+.mz-foot__studio .mz-studio__row--email::before { content: "\00B7"; margin-inline: .9rem; color: var(--mz-bottle); }
+
+.mz-foot__studio .mz-studio__key,
+.mz-foot__studio .mz-studio__street,
+.mz-foot__studio .mz-studio__more { display: none; }
+
+.mz-foot__studio .mz-studio__value { display: inline; line-height: inherit; }
+
+.mz-foot__links a + a::before { content: "\00B7"; margin-inline: .9rem; color: var(--mz-bottle); }
+
+@media (max-width: 599px) {
+	.mz-foot__line { flex-direction: column; align-items: center; gap: .55rem; }
+	.mz-foot__item + .mz-foot__item::before { display: none; }
+}
+
+/* ---- Journal cells on mist. */
+.mz-posts .wp-block-post-template { border-top-color: var(--mz-hair); }
+
+.mz-posts .wp-block-post-featured-image { position: relative; }
+
+.mz-posts .wp-block-post-featured-image::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: var(--mz-streak); background-size: 220% 100%; background-position: 30% 0; mix-blend-mode: soft-light; transition: background-position 1.6s var(--mz-ease); }
+
+.mz-posts li:hover .wp-block-post-featured-image::after { background-position: 0 0; }
+
+.mz-posts .wp-block-post-title { font-family: var(--mz-serif); font-size: 1.35rem !important; }
+
+.mz-section--rule { border-top-color: var(--mz-hair); }
+
+/* Less motion: the scroll timeline is switched off, so the header over the photograph is simply solid. */
+@media (prefers-reduced-motion: reduce) {
+	body:has(.mz-hero) .mz-header { background-color: rgba(238, 242, 236, .97); border-bottom-color: var(--mz-line); }
+}
