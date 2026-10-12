@@ -123,19 +123,20 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/sumai-realty"><img src="themes/sumai-realty/screenshots/home-desktop.webp" width="260" alt="Sumai Realty"></a><br><a href="themes/sumai-realty">Sumai Realty</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/sushi-ginza"><img src="themes/sushi-ginza/screenshots/home-desktop.webp" width="260" alt="Sushi Ginza"></a><br><a href="themes/sushi-ginza">Sushi Ginza</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/tabi-note"><img src="themes/tabi-note/screenshots/home-desktop.webp" width="260" alt="Tabi Note"></a><br><a href="themes/tabi-note">Tabi Note</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/suzuri-shodo"><img src="themes/suzuri-shodo/screenshots/home-desktop.webp" width="260" alt="Suzuri Shodo"></a><br><a href="themes/suzuri-shodo">Suzuri Shodo</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/tabi-note"><img src="themes/tabi-note/screenshots/home-desktop.webp" width="260" alt="Tabi Note"></a><br><a href="themes/tabi-note">Tabi Note</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsuki-silver"><img src="themes/tsuki-silver/screenshots/home-desktop.webp" width="260" alt="Tsuki Silver"></a><br><a href="themes/tsuki-silver">Tsuki Silver</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsumiki-accounting"><img src="themes/tsumiki-accounting/screenshots/home-desktop.webp" width="260" alt="Tsumiki Accounting"></a><br><a href="themes/tsumiki-accounting">Tsumiki Accounting</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/tsuya-lacquer"><img src="themes/tsuya-lacquer/screenshots/home-desktop.webp" width="260" alt="Tsuya Lacquer"></a><br><a href="themes/tsuya-lacquer">Tsuya Lacquer</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/tsuya-lacquer"><img src="themes/tsuya-lacquer/screenshots/home-desktop.webp" width="260" alt="Tsuya Lacquer"></a><br><a href="themes/tsuya-lacquer">Tsuya Lacquer</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/undo-ba"><img src="themes/undo-ba/screenshots/home-desktop.webp" width="260" alt="Undo Ba"></a><br><a href="themes/undo-ba">Undo Ba</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/wagu-mono"><img src="themes/wagu-mono/screenshots/home-desktop.webp" width="260" alt="Wagu Mono"></a><br><a href="themes/wagu-mono">Wagu Mono</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="themes/yohaku-studio/screenshots/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="themes/yohaku-studio/screenshots/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="themes/yuzu-chaya/screenshots/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
 </table>
