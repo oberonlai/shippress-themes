@@ -44,6 +44,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | [Wagu Mono](themes/wagu-mono) | Furniture workshops and furniture stores selling chairs, tables, benches and shelves (WooCommerce store) | store | warm, neutral | handmade, cozy, minimal | [wagu-mono.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/wagu-mono.zip) |
 | [Yuzu Chaya](themes/yuzu-chaya) | Japanese tea and wagashi shops (WooCommerce store) | store | green, neutral | minimal, editorial | [yuzu-chaya.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/yuzu-chaya.zip) |
 | [Kuyuru Incense](themes/kuyuru-incense) | Small incense houses selling hand-rolled sticks and cones, with a burn-time timeline home page (WooCommerce store) | store | purple, light | minimal, serene, elegant | [kuyuru-incense.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kuyuru-incense.zip) |
+| [Mimi Veterinary](themes/mimi-veterinary) | Calm neighbourhood veterinary clinics for dogs, cats and small animals, with a map-first home page and locator card | health | teal, green, light | clean, serene, minimal | [mimi-veterinary.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/mimi-veterinary.zip) |
 
 ## Install a theme
 
