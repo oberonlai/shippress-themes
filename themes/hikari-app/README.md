@@ -38,3 +38,26 @@ Both are created by `inc/app-info.php` on activation (never twice). Demo import:
 ## Credits
 
 Fonts: Sora and Inter (SIL OFL 1.1, from google/fonts). Photographs: AI-generated for this theme, GPL-2.0-or-later / CC0 (see readme.txt).
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hikari App home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hikari App home page on mobile"></td>
+</tr>
+</table>
+
+- Features: [desktop](screenshots/features-desktop.webp) · [mobile](screenshots/features-mobile.webp)
+- Pricing: [desktop](screenshots/pricing-desktop.webp) · [mobile](screenshots/pricing-mobile.webp)
+- Changelog: [desktop](screenshots/changelog-desktop.webp) · [mobile](screenshots/changelog-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+<!-- screenshots:end -->

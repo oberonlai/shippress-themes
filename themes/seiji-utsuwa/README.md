@@ -90,3 +90,26 @@ Paragraph: Label, Lead. Heading: Label. Group: Plinth, Plinth (pale celadon), Pl
 ## Images
 
 Twenty-eight original illustrations drawn in code for this theme (`assets/images/*.svg`, raster copies in `assets/images/demo/` for the Media Library): ten product pictures, the hero bowl, the four kilns, the map, the viewing room, two keepers, glaze test tiles, the wood kiln at night, a parcel being wrapped, a golden repair, an autumn table, centring on the wheel, celadon crackle, a bowl in a basin and a letter. GPL-2.0-or-later, see `readme.txt`.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Seiji Utsuwa home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Seiji Utsuwa home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Kilns: [desktop](screenshots/kilns-desktop.webp) · [mobile](screenshots/kilns-mobile.webp)
+- Care guide: [desktop](screenshots/care-guide-desktop.webp) · [mobile](screenshots/care-guide-mobile.webp)
+- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+<!-- screenshots:end -->

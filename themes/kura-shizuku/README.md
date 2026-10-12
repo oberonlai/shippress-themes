@@ -95,3 +95,26 @@ Paragraph: Label, Lead. Heading: Label. Group: Bottle label (double gilt frame),
 ## Images
 
 Twenty-four original illustrations drawn in code for this theme (`assets/images/*.svg`, raster copies in `assets/images/demo/` for the Media Library): ten product pictures, the hero bottle in its ripples, rice at four polish ratios, the koji room, drip pressing, the cedar ball, the storehouse in snow, the tasting room, a tasting flight, rice fields in winter, two people, the access map, a sealed letter and an autumn table. GPL-2.0-or-later, see `readme.txt`.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kura Shizuku home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kura Shizuku home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Brewery: [desktop](screenshots/brewery-desktop.webp) · [mobile](screenshots/brewery-mobile.webp)
+- Tasting room: [desktop](screenshots/tasting-room-desktop.webp) · [mobile](screenshots/tasting-room-mobile.webp)
+- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+<!-- screenshots:end -->

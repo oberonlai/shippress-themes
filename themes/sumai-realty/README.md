@@ -82,3 +82,25 @@ Both are created once from `inc/info/office.html` and `inc/info/directory.html` 
 ## Images
 
 Seven photographs, AI-generated for this theme and released under GPL-2.0-or-later / CC0 (see `readme.txt`): a low grey house at dusk, a slatted townhouse, a pale apartment building, a living room, a kitchen, a bedroom with paper screens and the managing agent (AI-generated; not a real person). One more generated photograph was dropped because it showed a readable number engraved on a key. No hand-drawn illustrations: the plans, frames, dimension lines and the map are CSS lines.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Sumai Realty home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Sumai Realty home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Listings: [desktop](screenshots/listings-desktop.webp) · [mobile](screenshots/listings-mobile.webp)
+- Listing: [desktop](screenshots/listing-desktop.webp) · [mobile](screenshots/listing-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+<!-- screenshots:end -->

@@ -41,3 +41,27 @@ All three are created by `inc/hall-info.php` on activation (never twice). Demo i
 ## Credits
 
 Fonts: Space Grotesk, Inter and IBM Plex Mono (SIL OFL 1.1). Photographs: AI-generated for this theme, GPL-2.0-or-later / CC0 (see readme.txt).
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Neiro Hall home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Neiro Hall home page on mobile"></td>
+</tr>
+</table>
+
+- Calendar: [desktop](screenshots/calendar-desktop.webp) · [mobile](screenshots/calendar-mobile.webp)
+- Artists: [desktop](screenshots/artists-desktop.webp) · [mobile](screenshots/artists-mobile.webp)
+- Venue: [desktop](screenshots/venue-desktop.webp) · [mobile](screenshots/venue-mobile.webp)
+- Tickets: [desktop](screenshots/tickets-desktop.webp) · [mobile](screenshots/tickets-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+<!-- screenshots:end -->

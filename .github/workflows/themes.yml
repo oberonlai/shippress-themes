@@ -34,16 +34,19 @@ jobs:
         with:
           node-version: 22
       - name: Check themes
-        run: node --test scripts/check-themes.test.mjs scripts/release-themes.test.mjs scripts/komugi-bake-board.test.mjs && node scripts/check-themes.mjs
+        run: node --test scripts/check-themes.test.mjs scripts/release-themes.test.mjs scripts/komugi-bake-board.test.mjs scripts/sync-screenshots.test.mjs && node scripts/check-themes.mjs
       - name: Build one zip per theme
         run: |
           mkdir -p dist
           cd themes
           # Reproducible zips: fixed timestamps, sorted entries, no extra attributes, so a theme's zip (and the sha256
           # pinned in the ShipPress app catalogue) only changes when that theme's files change.
+          # Catalogue screenshots (scripts/sync-screenshots.mjs) are not part of a theme: leave out screenshots/ and the
+          # README section that shows them (stripped on this throwaway checkout), so syncing them never changes a zip.
+          node ../scripts/sync-screenshots.mjs --strip
           for d in */; do slug="${d%/}"
-            find "$slug" -exec touch -h -d '2000-01-01 00:00:00 UTC' {} +
-            find "$slug" -print | LC_ALL=C sort | TZ=UTC zip -qX "../dist/$slug.zip" -@
+            find "$slug" -path "$slug/screenshots" -prune -o -exec touch -h -d '2000-01-01 00:00:00 UTC' {} +
+            find "$slug" -path "$slug/screenshots" -prune -o -print | LC_ALL=C sort | TZ=UTC zip -qX "../dist/$slug.zip" -@
             sha256sum "../dist/$slug.zip"
           done
       # Pull requests: read-only check that no released version would change. main: publish new versions first, so
