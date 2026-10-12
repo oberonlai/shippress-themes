@@ -39,3 +39,27 @@ Optional. With it active, `inc/woo-import.php` adds three product categories (Bo
 ## Licence
 
 GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated for this theme, released under GPL-2.0-or-later / CC0.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tsuya Lacquer home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tsuya Lacquer home page on mobile"></td>
+</tr>
+</table>
+
+- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+- The craft: [desktop](screenshots/the-craft-desktop.webp) · [mobile](screenshots/the-craft-mobile.webp)
+- Care guide: [desktop](screenshots/care-guide-desktop.webp) · [mobile](screenshots/care-guide-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+<!-- screenshots:end -->
