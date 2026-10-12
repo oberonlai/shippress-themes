@@ -7,10 +7,14 @@
 # replaces a published version (scripts/release-themes.mjs). Stock actions + the preinstalled gh CLI only.
 name: themes
 
+# Root docs (README, ROADMAP) and catalogue screenshots never change a zip (screenshots/ is left out of them), so they skip
+# this workflow (#15). Pull requests cancel their own older run; publishing on main never cancels.
 on:
   push:
     branches: [main]
+    paths-ignore: ['*.md', 'docs/**', 'themes/*/screenshots/**', 'ROADMAP.md', 'LICENSE']
   pull_request:
+    paths-ignore: ['*.md', 'docs/**', 'themes/*/screenshots/**', 'ROADMAP.md', 'LICENSE']
   workflow_dispatch:
 
 permissions:
@@ -19,11 +23,12 @@ permissions:
 # One publishing run at a time (two pushes must not race to create the same tag); pull requests check on their own.
 concurrency:
   group: ${{ github.event_name == 'pull_request' && format('themes-pr-{0}', github.ref) || 'themes-release' }}
-  cancel-in-progress: false
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   check-and-release:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     env:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
