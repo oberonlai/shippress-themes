@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/mimi-v
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Mimi Veterinary — a clean, serene and minimal block theme for a calm neighbourhood veterinary clinic, animal hospital or pet-care practice. A mist ground, sage-mist panels, deep teal ink for text and dark bands, and one muted teal used only for paw dots, map pins and hairlines; Lora headings over Be Vietnam Pro. Every page opens with a two-tier header: a utility strip with today's opening hours and the phone number, over the main bar with a small paw mark, the menu and a "Book a visit" pill. The home page is map first: the title sits beside a paper locator card with a quiet abstract street map, the address, parking, nearest station, today's hours and the night-emergency partner; then three care promises, the services, the vets, the first-visit steps, a fees teaser and the journal. Quiet paw-print dot dividers. The footer is a deep teal "Book a visit" band over the clinic details and a small sitemap. Templates for home, services, first visit, fees, about, contact, journal with article, category and tag archives, search and 404. Opening hours, phone, address and the emergency partner are edited once in Appearance > Clinic details; the locator card and fees are synced patterns. WCAG AA colours.
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -122,8 +122,16 @@ nav.mv-nav { margin-left: auto !important; }
 @media (max-width: 599px) {
 	.mv-strip { font-size: 0.75rem; }
 	.mv-strip .mv-strip__long { display: none; }
-	.mv-bar__cta { display: none; }
-	.mv-brand .wp-block-site-title { font-size: 1.2rem; }
+	/* v1.0.1: wordmark and "Book a visit" each stay on one line from 360px up. */
+	.mv-bar__row { gap: 0.65rem; }
+	.mv-brand { gap: 0.4rem; min-width: 0; }
+	.mv-brand__mark { width: 22px; height: 22px; }
+	.mv-brand .wp-block-site-title { font-size: 1.0625rem; white-space: nowrap; }
+	.mv-bar__cta { flex: none; flex-wrap: nowrap; }
+	.mv-bar__cta .wp-block-button__link { padding: 0.5rem 0.85rem; font-size: 0.8125rem; white-space: nowrap; }
+}
+@media (max-width: 379px) {
+	.mv-brand__mark { display: none; }
 }
 
 /* ---------- sections ---------- */

@@ -1,0 +1,1142 @@
+/*
+Theme Name: Kasumi Bar
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/kasumi-bar
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Kasumi Bar — a quiet, night-dark block theme for a small reservation-first cocktail bar, wine bar or listening room. A green-black ground, deep bottle-green panels, parchment type and fine antique-gold hairlines; Noto Serif Display over Josefin Sans. The bar's name and every chapter title are set in vertical type, the menu runs down the right edge (a compact menu button on phones), and the home page is one sparse column: the name beside a candle-lit counter, tonight's seasonal drinks, the bar, the visit details and the journal. The menu card has fine gold dotted leaders, and the footer is a single hairline-gold line with the name, address, hours and a reservations link. With a menu, reservations, about, journal, newsletter and contact. The seasonal drinks, the menu card and the visit details (address, hours, reservation policy) are synced patterns, edited once. No neon, no entrance animations; slow fades only. WCAG AA colours.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kasumi-bar
+Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, block-styles, one-column, dark
+*/
+
+/* ==========================================================================
+   1. Tokens and base
+   ========================================================================== */
+
+:root {
+	--kb-night: var(--wp--preset--color--night);
+	--kb-bottle: var(--wp--preset--color--bottle);
+	--kb-parchment: var(--wp--preset--color--parchment);
+	--kb-gold: var(--wp--preset--color--gold);
+	--kb-quiet: var(--wp--preset--color--quiet);
+	--kb-serif: var(--wp--preset--font-family--display);
+	--kb-sans: var(--wp--preset--font-family--body);
+	--kb-hair: 1px solid rgba(168, 139, 85, 0.42);
+	--kb-hair-soft: 1px solid rgba(168, 139, 85, 0.22);
+	--kb-rail: 6.5rem;
+	--kb-ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+	--kb-slow: 0.6s;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	overflow-x: clip;
+}
+
+::selection {
+	background: var(--kb-gold);
+	color: var(--kb-night);
+}
+
+:where(h1, h2, h3, .wp-block-heading) {
+	text-wrap: balance;
+}
+
+a {
+	text-decoration-color: rgba(168, 139, 85, 0.7);
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.3em;
+	transition: color var(--kb-slow) var(--kb-ease), text-decoration-color var(--kb-slow) var(--kb-ease);
+}
+
+a:hover {
+	color: var(--kb-gold);
+}
+
+:focus-visible {
+	outline: 1px solid var(--kb-gold);
+	outline-offset: 4px;
+}
+
+figure {
+	margin: 0;
+}
+
+.wp-block-image img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.kb-main {
+	margin-block: 0;
+}
+
+.kb-main > .wp-block-post-content > * + *,
+.kb-main > .wp-block-post-content {
+	margin-block-start: 0;
+}
+
+/* ==========================================================================
+   2. Header (H11): the name and the menu in vertical type on the right edge
+   ========================================================================== */
+
+.kb-rail {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	margin: 0;
+	padding: 1.1rem var(--wp--style--root--padding-right) 1.1rem var(--wp--style--root--padding-left);
+	border-bottom: var(--kb-hair-soft);
+}
+
+.kb-rail__title {
+	margin: 0;
+	font-family: var(--kb-serif);
+	font-size: 1.25rem;
+	font-weight: 300;
+	letter-spacing: 0.16em;
+	line-height: 1.2;
+	white-space: nowrap;
+}
+
+.kb-rail__title a {
+	color: var(--kb-parchment);
+	text-decoration: none;
+}
+
+.kb-nav .wp-block-navigation-item__content {
+	color: var(--kb-quiet);
+	font-size: 0.75rem;
+	font-weight: 400;
+	letter-spacing: 0.26em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: color var(--kb-slow) var(--kb-ease);
+}
+
+.kb-nav .wp-block-navigation-item__content:hover,
+.kb-nav .wp-block-navigation-item__content:focus-visible,
+.kb-nav .current-menu-item > .wp-block-navigation-item__content {
+	color: var(--kb-parchment);
+}
+
+@media (min-width: 600px) {
+	body:not(.editor-styles-wrapper) .wp-site-blocks {
+		padding-right: var(--kb-rail);
+	}
+
+	body:not(.editor-styles-wrapper) .kb-rail {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 40;
+		flex-direction: column;
+		justify-content: flex-start;
+		gap: 0;
+		width: var(--kb-rail);
+		padding: 3rem 0 2.5rem;
+		overflow-y: auto;
+		border-bottom: 0;
+		border-left: var(--kb-hair-soft);
+		background: var(--kb-night);
+	}
+
+	body:not(.editor-styles-wrapper) .kb-rail__title {
+		font-size: 1.375rem;
+		letter-spacing: 0.2em;
+		writing-mode: vertical-rl;
+		text-orientation: mixed;
+	}
+
+	/* A fine gold line falls from the name. */
+	body:not(.editor-styles-wrapper) .kb-rail__title::after {
+		content: "";
+		display: inline-block;
+		width: 1px;
+		height: 3.25rem;
+		margin-top: 1.5rem;
+		vertical-align: middle;
+		background: var(--kb-gold);
+	}
+
+	body:not(.editor-styles-wrapper) .kb-rail .kb-nav {
+		padding-top: 2.5rem;
+	}
+
+	.kb-rail .kb-nav .wp-block-navigation__container {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+		gap: 1.75rem;
+	}
+
+	.kb-rail .kb-nav .wp-block-navigation-item__content {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.8em;
+		padding: 0.2rem 0;
+		writing-mode: vertical-rl;
+		text-orientation: mixed;
+	}
+
+	.kb-rail .kb-nav .wp-block-navigation-item__content::before {
+		content: "";
+		width: 3px;
+		height: 3px;
+		border-radius: 50%;
+		background: transparent;
+		transition: background-color var(--kb-slow) var(--kb-ease);
+	}
+
+	.kb-rail .kb-nav .current-menu-item > .wp-block-navigation-item__content::before,
+	.kb-rail .kb-nav .wp-block-navigation-item__content:hover::before {
+		background: var(--kb-gold);
+	}
+}
+
+/* Phones: one compact bar with the name and a menu button; it scrolls away with the page. */
+.kb-rail .wp-block-navigation__responsive-container-open {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	width: 2.75rem;
+	height: 2.75rem;
+	border: var(--kb-hair);
+	color: var(--kb-parchment);
+}
+
+@media (max-width: 599px) {
+	.kb-rail .wp-block-navigation__responsive-container-open:not(.always-shown) {
+		display: flex;
+	}
+}
+
+.kb-rail .kb-nav.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) {
+	padding: 1.25rem clamp(1.25rem, 6vw, 3rem);
+	background: var(--kb-night);
+	color: var(--kb-parchment);
+}
+
+.kb-rail .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
+	align-items: stretch;
+	padding-top: 5rem;
+}
+
+.kb-rail .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container {
+	align-items: stretch;
+	gap: 0;
+	width: 100%;
+	border-bottom: var(--kb-hair-soft);
+}
+
+.kb-rail .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item {
+	border-top: var(--kb-hair-soft);
+}
+
+.kb-rail .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content {
+	padding: 1.1rem 0;
+	color: var(--kb-parchment);
+	font-family: var(--kb-serif);
+	font-size: 1.5rem;
+	font-weight: 300;
+	letter-spacing: 0.08em;
+	text-transform: none;
+}
+
+.kb-rail .wp-block-navigation__responsive-container-close {
+	top: 1.25rem;
+	right: clamp(1.25rem, 6vw, 3rem);
+	width: 2.75rem;
+	height: 2.75rem;
+	align-items: center;
+	justify-content: center;
+	border: var(--kb-hair);
+	color: var(--kb-parchment);
+}
+
+/* ==========================================================================
+   3. Sections and chapters (L5): vertical titles beside one sparse column
+   ========================================================================== */
+
+.kb-section {
+	padding-block: clamp(4rem, 9vw, 8rem) 0;
+	margin-block: 0 !important;
+}
+
+.kb-section--last {
+	padding-bottom: clamp(5rem, 11vw, 10rem);
+}
+
+.kb-head {
+	padding-top: clamp(4rem, 10vw, 9rem);
+}
+
+.kb-head + .kb-section {
+	padding-top: clamp(3rem, 6vw, 5rem);
+}
+
+.kb-chapter {
+	display: grid;
+	grid-template-columns: minmax(4.5rem, auto) minmax(0, 1fr);
+	column-gap: clamp(1.5rem, 5vw, 4.5rem);
+	align-items: start;
+}
+
+.kb-chapter > .kb-vt {
+	grid-column: 1;
+	justify-self: center;
+	position: sticky;
+	top: 3rem;
+}
+
+.kb-chapter > .kb-chapter__body {
+	grid-column: 2;
+	min-width: 0;
+	margin: 0;
+}
+
+.kb-chapter__body > :first-child {
+	margin-top: 0;
+}
+
+/* Vertical titles: real headings in reading order, rotated with writing-mode. */
+.kb-vt {
+	margin: 0;
+	font-size: var(--wp--preset--font-size--x-large);
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	line-height: 1;
+	white-space: nowrap;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+
+.kb-vt::after {
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 3rem;
+	margin-top: 1.5rem;
+	vertical-align: middle;
+	background: var(--kb-gold);
+}
+
+h1.kb-vt {
+	font-size: clamp(2.5rem, 1.8rem + 2.8vw, 4.25rem);
+}
+
+.kb-chapter--head .kb-chapter__body {
+	padding-top: 0.5rem;
+}
+
+.kb-chapter__lead,
+.is-style-lead {
+	margin-top: 0;
+	font-family: var(--kb-serif);
+	font-size: var(--wp--preset--font-size--large);
+	font-weight: 300;
+	line-height: 1.55;
+	color: var(--kb-parchment);
+}
+
+.is-style-label {
+	margin: 0;
+	color: var(--kb-gold);
+	font-size: 0.75rem;
+	font-weight: 400;
+	letter-spacing: 0.28em;
+	line-height: 1.6;
+	text-transform: uppercase;
+}
+
+.kb-small {
+	color: var(--kb-quiet);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.kb-chapter__body > .wp-block-image,
+.kb-chapter__body > .kb-panel,
+.kb-chapter__body > .kb-card {
+	margin-block: 0 2.5rem;
+}
+
+.kb-chapter__body > .kb-chapter__lead + * {
+	margin-top: 3rem;
+}
+
+.kb-photo img {
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+}
+
+.kb-photo--tall {
+	width: min(100%, 26rem);
+}
+
+.kb-photo--tall img {
+	aspect-ratio: 4 / 5;
+}
+
+.kb-quote {
+	margin-top: 2rem;
+	padding-left: 1.5rem;
+	border-left: var(--kb-hair);
+	font-family: var(--kb-serif);
+	font-size: var(--wp--preset--font-size--large);
+	font-style: italic;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+/* Buttons */
+.kb-links {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 1.25rem 2.25rem;
+	margin-top: 2.5rem;
+}
+
+.wp-block-button .wp-block-button__link {
+	transition: background-color var(--kb-slow) var(--kb-ease), color var(--kb-slow) var(--kb-ease), border-color var(--kb-slow) var(--kb-ease);
+}
+
+.wp-block-button.is-style-outline > .wp-block-button__link,
+.wp-block-button:not(.is-style-text-link) > .wp-block-button__link {
+	border: 1px solid var(--kb-gold);
+	background: transparent;
+	color: var(--kb-parchment);
+	padding: 1rem 2rem 0.85rem;
+}
+
+.wp-block-button:not(.is-style-text-link) > .wp-block-button__link:hover,
+.wp-block-button:not(.is-style-text-link) > .wp-block-button__link:focus-visible {
+	background: rgba(168, 139, 85, 0.14);
+}
+
+.wp-block-button.is-style-text-link > .wp-block-button__link {
+	padding: 0 0 0.45rem;
+	border: 0;
+	border-bottom: 1px solid var(--kb-gold);
+	background: none;
+	color: var(--kb-parchment);
+}
+
+.wp-block-button.is-style-text-link > .wp-block-button__link:hover {
+	color: var(--kb-gold);
+}
+
+/* ==========================================================================
+   4. Home hero: the name in large vertical type beside the counter
+   ========================================================================== */
+
+.kb-hero {
+	padding-top: clamp(3rem, 8vw, 7rem);
+}
+
+.kb-hero__grid {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr);
+	column-gap: clamp(1.25rem, 5vw, 5rem);
+	align-items: start;
+	max-width: var(--wp--style--global--wide-size) !important;
+}
+
+.kb-hero__title {
+	margin: 0;
+	font-size: clamp(3.25rem, 1.6rem + 6vw, 7.5rem);
+	font-weight: 300;
+	letter-spacing: 0.08em;
+	line-height: 1;
+	white-space: nowrap;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+
+.kb-hero__title::after {
+	height: 4.5rem;
+	margin-top: 2rem;
+}
+
+.kb-hero__body {
+	min-width: 0;
+}
+
+.kb-hero__photo {
+	margin-bottom: 2.5rem;
+}
+
+.kb-hero__photo img {
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+
+.kb-hero__lead {
+	max-width: 30em;
+	margin-top: 1rem;
+	font-size: clamp(1.375rem, 1.1rem + 1vw, 1.875rem);
+}
+
+/* ==========================================================================
+   5. The menu: seasonal drinks and the card with fine gold leaders
+   ========================================================================== */
+
+.kb-seasonal {
+	display: flex;
+	flex-direction: column;
+	gap: clamp(3.5rem, 8vw, 6.5rem);
+	margin-block: 3rem 0;
+}
+
+.kb-drink {
+	margin: 0;
+}
+
+.kb-drink__photo {
+	width: min(100%, 22rem);
+	margin: 0 0 1.75rem;
+}
+
+.kb-drink:nth-child(even) .kb-drink__photo {
+	margin-left: auto;
+}
+
+.kb-drink__photo img {
+	aspect-ratio: 4 / 5;
+	object-fit: cover;
+}
+
+.kb-item {
+	margin: 0;
+}
+
+.kb-item + .kb-item {
+	margin-top: 1.6rem;
+}
+
+.kb-item__line {
+	display: flex;
+	align-items: baseline;
+	gap: 0;
+}
+
+.kb-item__name {
+	display: flex;
+	flex: 1 1 auto;
+	align-items: baseline;
+	margin: 0;
+	font-family: var(--kb-serif);
+	font-size: 1.25rem;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	line-height: 1.35;
+	text-wrap: pretty;
+}
+
+h3.kb-item__name {
+	font-size: clamp(1.375rem, 1.2rem + 0.6vw, 1.75rem);
+}
+
+/* The leader: a fine gold dotted line between the name and the price. */
+.kb-item__name::after {
+	content: "";
+	flex: 1 1 1.5rem;
+	min-width: 1.5rem;
+	margin: 0 0.9rem;
+	height: 2px;
+	background-image: radial-gradient(circle, var(--kb-gold) 0.75px, transparent 1px);
+	background-position: left center;
+	background-size: 6px 2px;
+	transform: translateY(-0.32em);
+}
+
+.kb-item__price {
+	flex: none;
+	margin: 0;
+	color: var(--kb-gold);
+	font-family: var(--kb-serif);
+	font-size: 1.125rem;
+	font-variant-numeric: lining-nums tabular-nums;
+	letter-spacing: 0.04em;
+	white-space: nowrap;
+}
+
+.kb-item__note {
+	max-width: 34em;
+	margin: 0.35rem 0 0;
+	color: var(--kb-quiet);
+	font-size: var(--wp--preset--font-size--small);
+	line-height: 1.7;
+}
+
+.kb-card__group + .kb-card__group {
+	margin-top: clamp(3rem, 6vw, 4.5rem);
+}
+
+.kb-card__title {
+	margin: 0 0 1.75rem;
+	padding-bottom: 0.9rem;
+	border-bottom: var(--kb-hair-soft);
+	color: var(--kb-gold);
+	font-family: var(--kb-sans);
+	font-size: 0.75rem;
+	font-weight: 400;
+	letter-spacing: 0.28em;
+	line-height: 1.6;
+	text-transform: uppercase;
+}
+
+.kb-card__note {
+	margin-top: 3rem;
+	padding-top: 1.25rem;
+	border-top: var(--kb-hair-soft);
+	color: var(--kb-quiet);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+/* ==========================================================================
+   6. Visit details (synced): a card in pages, one line in the footer
+   ========================================================================== */
+
+.kb-panel {
+	padding: clamp(1.75rem, 4vw, 3rem);
+	border: var(--kb-hair-soft);
+	background: var(--kb-bottle);
+}
+
+.kb-visit,
+.kb-visit__line,
+.kb-visit__more {
+	margin: 0;
+}
+
+.kb-visit__item,
+.kb-visit__row {
+	display: grid;
+	grid-template-columns: 7.5rem minmax(0, 1fr);
+	gap: 1rem;
+	margin: 0;
+	padding: 0.85rem 0;
+	border-top: var(--kb-hair-soft);
+	line-height: 1.6;
+}
+
+.kb-visit__key {
+	padding-top: 0.15em;
+	color: var(--kb-gold);
+	font-size: 0.75rem;
+	letter-spacing: 0.24em;
+	text-transform: uppercase;
+}
+
+.kb-visit__name {
+	display: block;
+	padding: 0 0 1rem;
+	border-top: 0;
+	font-family: var(--kb-serif);
+	font-size: 1.625rem;
+	font-weight: 300;
+	letter-spacing: 0.08em;
+}
+
+.kb-visit__book {
+	display: block;
+	padding-left: 8.5rem;
+}
+
+.kb-visit__book a {
+	color: var(--kb-parchment);
+	font-size: 0.75rem;
+	letter-spacing: 0.24em;
+	text-transform: uppercase;
+	text-decoration-color: var(--kb-gold);
+}
+
+.kb-visit__more .kb-visit__row:last-child {
+	padding-bottom: 0;
+}
+
+/* ==========================================================================
+   7. Steps, lists, people, journal
+   ========================================================================== */
+
+.kb-steps {
+	border-bottom: var(--kb-hair-soft);
+}
+
+.kb-step {
+	display: grid;
+	grid-template-columns: 3rem minmax(0, 1fr);
+	gap: 1rem;
+	margin: 0;
+	padding: 1.5rem 0;
+	border-top: var(--kb-hair-soft);
+}
+
+.kb-step__no {
+	margin: 0;
+	color: var(--kb-gold);
+	font-family: var(--kb-serif);
+	font-size: 1.25rem;
+	line-height: 1.3;
+}
+
+.kb-step > *,
+.kb-step__text > *,
+.kb-item__line > * {
+	margin: 0 !important;
+}
+
+.kb-step__title {
+	margin-bottom: 0.4rem;
+	font-size: 1.375rem;
+}
+
+.kb-step__text p {
+	color: var(--kb-quiet);
+}
+
+.wp-block-list.is-style-ruled {
+	margin: 0;
+	padding: 0;
+	border-bottom: var(--kb-hair-soft);
+	list-style: none;
+}
+
+.wp-block-list.is-style-ruled li {
+	padding: 0.9rem 0;
+	border-top: var(--kb-hair-soft);
+}
+
+.kb-people {
+	border-bottom: var(--kb-hair-soft);
+}
+
+.kb-person {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 0.25rem 1.5rem;
+	margin: 0;
+	padding: 1.25rem 0;
+	border-top: var(--kb-hair-soft);
+}
+
+.kb-person > * {
+	margin: 0;
+}
+
+.kb-person__name {
+	font-size: 1.5rem;
+}
+
+.kb-person__role {
+	color: var(--kb-quiet);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+/* Home journal: a quiet ruled list. */
+.kb-list .wp-block-post-template {
+	margin: 0;
+	padding: 0;
+	border-bottom: var(--kb-hair-soft);
+	list-style: none;
+}
+
+.kb-list .wp-block-post {
+	display: grid;
+	grid-template-columns: 7.5rem minmax(0, 1fr);
+	gap: 1rem;
+	align-items: baseline;
+	margin: 0;
+	padding: 1.1rem 0;
+	border-top: var(--kb-hair-soft);
+}
+
+.kb-list .wp-block-post > * {
+	margin: 0;
+}
+
+.kb-list .wp-block-post-date,
+.kb-posts .wp-block-post-date,
+.kb-article__date {
+	color: var(--kb-gold);
+	font-size: 0.75rem;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+}
+
+.kb-list .wp-block-post-title {
+	font-size: 1.375rem;
+}
+
+.wp-block-post-title a {
+	color: var(--kb-parchment);
+	text-decoration: none;
+}
+
+.wp-block-post-title a:hover {
+	color: var(--kb-gold);
+}
+
+/* Archives: one column of notes. */
+.kb-posts .wp-block-post-template {
+	display: flex;
+	flex-direction: column;
+	gap: clamp(3.5rem, 7vw, 5rem);
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.kb-posts .wp-block-post > * {
+	margin: 0;
+}
+
+.kb-posts .wp-block-post-featured-image {
+	margin-bottom: 1.5rem;
+}
+
+.kb-posts .wp-block-post-title {
+	margin-top: 0.6rem;
+	font-size: clamp(1.625rem, 1.3rem + 1vw, 2.25rem);
+}
+
+.kb-posts .wp-block-post-excerpt {
+	margin-top: 0.75rem;
+	color: var(--kb-quiet);
+}
+
+.kb-posts .wp-block-post-excerpt__excerpt {
+	margin: 0;
+}
+
+.kb-pagination {
+	margin-top: 4rem;
+	gap: 1.5rem;
+	font-size: 0.75rem;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+.kb-pagination a {
+	color: var(--kb-parchment);
+}
+
+.kb-chips {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1.75rem;
+	margin-top: 2rem;
+}
+
+.kb-chips a {
+	color: var(--kb-quiet);
+	font-size: 0.75rem;
+	letter-spacing: 0.24em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.kb-chips a:hover {
+	color: var(--kb-gold);
+}
+
+.kb-chapter--flat > .kb-chapter__body {
+	grid-column: 2;
+}
+
+.kb-head__title {
+	margin: 1rem 0 0;
+	font-size: clamp(2.25rem, 1.6rem + 2.4vw, 3.75rem);
+	font-weight: 300;
+}
+
+/* Article */
+.kb-article {
+	padding-top: clamp(4rem, 10vw, 8rem);
+}
+
+.kb-article__cat a {
+	color: var(--kb-gold);
+	font-size: 0.75rem;
+	letter-spacing: 0.26em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.kb-article__date {
+	margin-top: 1.25rem;
+}
+
+.kb-article__figure {
+	margin: 3rem 0;
+}
+
+.kb-prose > p {
+	max-width: 36em;
+}
+
+.kb-prose a {
+	color: var(--kb-parchment);
+	text-decoration: underline;
+}
+
+.wp-block-separator.is-style-hairline {
+	width: 3rem !important;
+	margin: 4rem 0 2rem;
+	border: 0;
+	border-top: 1px solid var(--kb-gold);
+	opacity: 1;
+}
+
+.kb-tags a {
+	color: var(--kb-quiet);
+	font-size: 0.75rem;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+}
+
+.kb-post-nav {
+	margin-top: 3rem;
+	gap: 2rem;
+}
+
+.kb-post-nav a {
+	color: var(--kb-parchment);
+	font-family: var(--kb-serif);
+	text-decoration: none;
+}
+
+.kb-post-nav .post-navigation-link__label {
+	display: block;
+	margin-bottom: 0.4rem;
+	color: var(--kb-gold);
+	font-family: var(--kb-sans);
+	font-size: 0.75rem;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+}
+
+/* Forms and search */
+.kb-form {
+	display: grid;
+	gap: 1.5rem;
+	max-width: 30rem;
+	margin: 0;
+}
+
+.kb-field {
+	margin: 0;
+}
+
+.kb-field label {
+	display: block;
+	margin-bottom: 0.4rem;
+	color: var(--kb-gold);
+	font-size: 0.75rem;
+	letter-spacing: 0.24em;
+	text-transform: uppercase;
+}
+
+.kb-form input,
+.kb-search .wp-block-search__input {
+	width: 100%;
+	padding: 0.75rem 0;
+	border: 0;
+	border-bottom: 1px solid var(--kb-gold);
+	border-radius: 0;
+	background: transparent;
+	color: var(--kb-parchment);
+	font: inherit;
+}
+
+.kb-form .wp-element-button,
+.kb-search .wp-block-search__button {
+	padding: 1rem 2rem 0.85rem;
+	border: 1px solid var(--kb-gold);
+	background: transparent;
+	color: var(--kb-parchment);
+	font-size: 0.75rem;
+	letter-spacing: 0.24em;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.kb-search {
+	max-width: 30rem;
+	margin-top: 2rem;
+}
+
+.kb-search .wp-block-search__inside-wrapper {
+	gap: 1rem;
+	border: 0;
+}
+
+/* ==========================================================================
+   8. Footer (F3): one hairline-gold line
+   ========================================================================== */
+
+.kb-foot {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: center;
+	margin-top: 0;
+	padding-block: 1.75rem 2rem;
+	border-top: 1px solid rgba(168, 139, 85, 0.6);
+}
+
+.kb-foot > * {
+	max-width: none !important;
+	margin: 0 !important;
+}
+
+.kb-foot .kb-visit,
+.kb-foot .kb-visit__line {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: center;
+}
+
+.kb-foot .kb-visit__more {
+	display: none;
+}
+
+.kb-foot .kb-visit__key {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+
+.kb-foot .kb-visit__item,
+.kb-foot__legal {
+	display: block;
+	margin: 0;
+	padding: 0 1.25rem;
+	border: 0;
+	border-left: var(--kb-hair);
+	color: var(--kb-quiet);
+	font-size: 0.75rem;
+	letter-spacing: 0.18em;
+	line-height: 1.4;
+	text-transform: uppercase;
+}
+
+.kb-foot .kb-visit__name {
+	border-left: 0;
+	color: var(--kb-parchment);
+	font-family: var(--kb-serif);
+	font-size: 1rem;
+	letter-spacing: 0.14em;
+	text-transform: none;
+}
+
+.kb-foot .kb-visit__book a {
+	color: var(--kb-gold);
+	font-size: inherit;
+}
+
+@media (max-width: 781px) {
+	.kb-foot,
+	.kb-foot .kb-visit,
+	.kb-foot .kb-visit__line {
+		flex-direction: column;
+		align-items: center;
+		gap: 0.6rem;
+		text-align: center;
+	}
+
+	.kb-foot .kb-visit__item,
+	.kb-foot__legal {
+		padding: 0;
+		border-left: 0;
+	}
+
+	.kb-foot__legal {
+		margin-top: 0.4rem !important;
+	}
+}
+
+/* ==========================================================================
+   9. Small screens
+   ========================================================================== */
+
+@media (max-width: 599px) {
+	.kb-chapter {
+		grid-template-columns: minmax(2.5rem, auto) minmax(0, 1fr);
+		column-gap: 1.25rem;
+	}
+
+	.kb-vt {
+		font-size: 1.75rem;
+	}
+
+	h1.kb-vt {
+		font-size: 2.5rem;
+	}
+
+	.kb-vt::after {
+		height: 2rem;
+		margin-top: 1rem;
+	}
+
+	.kb-hero__photo img {
+		aspect-ratio: 4 / 5;
+	}
+
+	.kb-hero__title::after {
+		height: 2.5rem;
+		margin-top: 1.25rem;
+	}
+
+	.kb-visit__item,
+	.kb-visit__row {
+		grid-template-columns: minmax(0, 1fr);
+		gap: 0.2rem;
+	}
+
+	.kb-visit__book {
+		padding-left: 0;
+	}
+
+	.kb-list .wp-block-post {
+		grid-template-columns: minmax(0, 1fr);
+		gap: 0.3rem;
+	}
+
+	.kb-step {
+		grid-template-columns: 2rem minmax(0, 1fr);
+	}
+
+	.kb-item__name::after {
+		min-width: 1rem;
+		margin: 0 0.6rem;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}

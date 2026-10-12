@@ -26,6 +26,9 @@ The booking request is a button that opens an email with the subject "Booking re
 
 == Changelog ==
 
+= 1.0.1 =
+* Phones (360–599px): the wordmark and the "Book a visit" button each stay on one line in the header.
+
 = 1.0.0 =
 * Initial release.
 
