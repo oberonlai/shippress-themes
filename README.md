@@ -54,6 +54,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 | [Nameshi Leather](themes/nameshi-leather) | Small leather ateliers making vegetable-tanned wallets, bags and belts by hand, with a centred wordmark and split menu over a stitched seam, a filter-first directory by item and leather with a patina strip on every product, Patina guide and Repairs pages and a split two-tone footer | store | brown, mid | handmade, minimal, crafted | [nameshi-leather.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/nameshi-leather.zip) |
 | [Eda Bonsai](themes/eda-bonsai) | Small bonsai nurseries selling nursery-grown trees, handmade pots, tools and soil, with a slim right-edge rail, four chapters beside one sticky tree photograph, a seasonal care calendar and weekend workshops (WooCommerce store) | store | green, light | organic, minimal, elegant | [eda-bonsai.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/eda-bonsai.zip) |
 | [Kage Gallery](themes/kage-gallery) | Small contemporary art galleries showing painting, works on paper and small sculpture, with the current exhibition title set oversized over white space, works with shadow edges and wall labels, a full-screen pale-wall menu and a one-line footer | portfolio | grey, light | minimal, gallery, typographic | [kage-gallery.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/kage-gallery.zip) |
+| [Shigure Umbrellas](themes/shigure-umbrellas) | Small umbrella ateliers making and mending umbrellas by hand, with a centred wordmark between ferrule tip marks and split navigation, a slow sideways canopy rail of opened umbrellas with rib counts, a rain letter footer on deep slate, care & repair and a size guide | store | blue, light | minimal, elegant, airy | [shigure-umbrellas.zip](https://github.com/oberonlai/shippress-themes/releases/download/themes/shigure-umbrellas.zip) |
 
 <!-- gallery:start -->
 ## Gallery
@@ -132,29 +133,30 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/seiji-utsuwa"><img src="themes/seiji-utsuwa/screenshots/home-desktop.webp" width="260" alt="Seiji Utsuwa"></a><br><a href="themes/seiji-utsuwa">Seiji Utsuwa</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shashin-folio"><img src="themes/shashin-folio/screenshots/home-desktop.webp" width="260" alt="Shashin Folio"></a><br><a href="themes/shashin-folio">Shashin Folio</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/shiori-review"><img src="themes/shiori-review/screenshots/home-desktop.webp" width="260" alt="Shiori Review"></a><br><a href="themes/shiori-review">Shiori Review</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/shigure-umbrellas"><img src="themes/shigure-umbrellas/screenshots/home-desktop.webp" width="260" alt="Shigure Umbrellas"></a><br><a href="themes/shigure-umbrellas">Shigure Umbrellas</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/shiori-review"><img src="themes/shiori-review/screenshots/home-desktop.webp" width="260" alt="Shiori Review"></a><br><a href="themes/shiori-review">Shiori Review</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shiro-horitsu"><img src="themes/shiro-horitsu/screenshots/home-desktop.webp" width="260" alt="Shiro Horitsu"></a><br><a href="themes/shiro-horitsu">Shiro Horitsu</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/sumai-realty"><img src="themes/sumai-realty/screenshots/home-desktop.webp" width="260" alt="Sumai Realty"></a><br><a href="themes/sumai-realty">Sumai Realty</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/sushi-ginza"><img src="themes/sushi-ginza/screenshots/home-desktop.webp" width="260" alt="Sushi Ginza"></a><br><a href="themes/sushi-ginza">Sushi Ginza</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/sushi-ginza"><img src="themes/sushi-ginza/screenshots/home-desktop.webp" width="260" alt="Sushi Ginza"></a><br><a href="themes/sushi-ginza">Sushi Ginza</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/suzuri-shodo"><img src="themes/suzuri-shodo/screenshots/home-desktop.webp" width="260" alt="Suzuri Shodo"></a><br><a href="themes/suzuri-shodo">Suzuri Shodo</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tabi-note"><img src="themes/tabi-note/screenshots/home-desktop.webp" width="260" alt="Tabi Note"></a><br><a href="themes/tabi-note">Tabi Note</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/tsuki-silver"><img src="themes/tsuki-silver/screenshots/home-desktop.webp" width="260" alt="Tsuki Silver"></a><br><a href="themes/tsuki-silver">Tsuki Silver</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/tsuki-silver"><img src="themes/tsuki-silver/screenshots/home-desktop.webp" width="260" alt="Tsuki Silver"></a><br><a href="themes/tsuki-silver">Tsuki Silver</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsumiki-accounting"><img src="themes/tsumiki-accounting/screenshots/home-desktop.webp" width="260" alt="Tsumiki Accounting"></a><br><a href="themes/tsumiki-accounting">Tsumiki Accounting</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsuya-lacquer"><img src="themes/tsuya-lacquer/screenshots/home-desktop.webp" width="260" alt="Tsuya Lacquer"></a><br><a href="themes/tsuya-lacquer">Tsuya Lacquer</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/undo-ba"><img src="themes/undo-ba/screenshots/home-desktop.webp" width="260" alt="Undo Ba"></a><br><a href="themes/undo-ba">Undo Ba</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/undo-ba"><img src="themes/undo-ba/screenshots/home-desktop.webp" width="260" alt="Undo Ba"></a><br><a href="themes/undo-ba">Undo Ba</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/wagu-mono"><img src="themes/wagu-mono/screenshots/home-desktop.webp" width="260" alt="Wagu Mono"></a><br><a href="themes/wagu-mono">Wagu Mono</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="themes/yohaku-studio/screenshots/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yuge-sento"><img src="themes/yuge-sento/screenshots/home-desktop.webp" width="260" alt="Yuge Sento"></a><br><a href="themes/yuge-sento">Yuge Sento</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yuge-sento"><img src="themes/yuge-sento/screenshots/home-desktop.webp" width="260" alt="Yuge Sento"></a><br><a href="themes/yuge-sento">Yuge Sento</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="themes/yuzu-chaya/screenshots/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
 </table>
