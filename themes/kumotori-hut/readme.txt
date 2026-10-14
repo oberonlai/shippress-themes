@@ -6,7 +6,7 @@ Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-An organic, serene and technical hospitality theme for a mountain hut at a 2,017 m saddle. Alpine moss pages, lichen panels, pine ink text and one muted pine accent; Faustina for display over Readex Pro. The hero and decorations are 2.5D isometric raster illustrations (the saddle and its trails, the hut, a cutaway bunk room, the ridge). A slim bar docked at the bottom of the screen (H7) holds the wordmark, the menu and a Reception open / Closed chip worked out on the server from the site's timezone, like a trail signpost. The home page is map first (L10): the isometric trail map beside the title with a numbered legend for the hut, the three routes and the water points, then this season's dates, reception hours and weather note, the synced rates card, the routes and the journal. The footer (F12) is the hut's summit stamp, the address card and a vertical altitude line from trailhead to saddle. Routes, Stay & booking, Season, Journal, Newsletter and Contact. Season dates, reception hours, weather note, address and phone are edited once in Appearance > Hut details; the rates and beds card is one synced pattern. WCAG AA colours; no entrance animations.
+An organic, serene and technical hospitality theme for a mountain hut at a 2,017 m saddle. Alpine moss pages, lichen panels, pine ink text and one muted pine accent; Faustina for display over Readex Pro. The hero and decorations are 2.5D isometric raster illustrations (the saddle and its trails, the hut, a cutaway bunk room, the ridge). Every page opens with a washi header (H1): the hut's name (and logo, if set) under a small "Mountain hut" label on the left, the menu on the right, a Reception open / Closed chip worked out on the server from the site's timezone and a "Book a bunk" button to Stay & booking; it stays at the top while you scroll, and on phones the menu folds into a numbered full-screen trail card while the chip and the button sit in a slim strip at the bottom. The home page is map first (L10): the isometric trail map beside the title with a numbered legend for the hut, the three routes and the water points, then this season's dates, reception hours and weather note, the synced rates card, the routes and the journal. The footer (F12) is the hut's summit stamp, the address card and a vertical altitude line from trailhead to saddle. Routes, Stay & booking, Season, Journal, Newsletter and Contact. Season dates, reception hours, weather note, address and phone are edited once in Appearance > Hut details; the rates and beds card is one synced pattern. WCAG AA colours; no entrance animations.
 
 == Description ==
 
@@ -21,7 +21,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php, driven by demo-content.json): it creates its pages with all their text and images, five journal posts with three categories and six tags, the menu, and sets the front page and posts page. It never changes or deletes existing content, and running it again only adds what is missing. WordPress's untouched sample "Hello world!" post goes to the trash. If the automatic setup did not run, use the "Import demo content" button shown in wp-admin, or run: wp shippress demo-import
 
 Two things are kept in one place each:
-- Appearance > Hut details (inc/hut-info.php): reception hours for each weekday, the closed season, the weather note, address, trailhead, telephone, email and an optional map link. The "Hut details" block (kumotori-hut/hut-info) shows them in the bottom bar (Reception open / Closed chip), on the home page, in the footer address card and on the Stay, Season and Contact pages. "Now" is worked out on the server in the site's timezone (Settings > General), never from the visitor's clock.
+- Appearance > Hut details (inc/hut-info.php): reception hours for each weekday, the closed season, the weather note, address, trailhead, telephone, email and an optional map link. The "Hut details" block (kumotori-hut/hut-info) shows them in the header and the phone strip (Reception open / Closed chip), on the home page, in the footer address card and on the Stay, Season and Contact pages. "Now" is worked out on the server in the site's timezone (Settings > General), never from the visitor's clock.
 - The synced pattern "Kumotori Hut: rates and beds" (Appearance > Editor > Patterns), created once by inc/shared-info.php: nightly rates, beds and extras. Shown on the home page and the Stay page.
 
 The Contact form needs no backend: assets/js/visit.js opens the visitor's email app with the message written out, addressed to the email in Hut details. The hut, keepers, ridge, trailheads, address, telephone numbers and rates are fictional.
@@ -43,6 +43,12 @@ Images: AI-generated for this theme with Grok Build image_gen, 2.5D isometric il
 - assets/images/demo/ridge.webp (demo import copy of assets/images/ridge.webp)
 
 == Changelog ==
+
+= 1.0.1 =
+* A real header at the top of every template (front page, blog, pages, posts, archives, search, 404): site logo (when one is set) and site title under a small editable "Mountain hut" label, the main menu, the Reception open / Closed chip and a "Book a bunk" button to the Stay & booking page. It stays at the top while scrolling and sits below the WordPress toolbar when you are logged in.
+* Phones and tablets: the menu folds into a Menu button that opens a full-screen washi trail card with numbered stages (01, 02 …).
+* The bottom bar no longer repeats the title and the menu: on phones only a slim strip with the Reception chip and the booking button stays at the bottom; on larger screens it is gone.
+* The booking button is written as a site-relative link (/stay/) and is pointed at this site's page with that path when the page is shown, so it keeps working in a sub-folder install; change the link or the text in the Site Editor (Patterns > Header).
 
 = 1.0.0 =
 * First release.

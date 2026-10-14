@@ -7,12 +7,12 @@ The demo hut is fictional: forty bunks at Kumotori Saddle on the fictional Okuya
 ## Concept: the trail map first
 
 - **Palette.** Alpine moss `#DDE2DA` ground, lichen `#C2CBBE` panels and footer, pine ink `#1F2A22` text (11.3:1 on moss). Deep pine `#34503D` for links and buttons (6.8:1 / 5.3:1); quiet moss `#48554B` for secondary text; hut paper `#ECEFE9` for cards. Muted pine `#5C7563` only for numerals, rules and marks.
-- **Type.** Faustina (wordmark, headings, numerals, the summit stamp) over Readex Pro (text, bar, labels). Both OFL-1.1, unmodified variable TTFs (Readex Pro carries the RFN "RevReading Lexend").
+- **Type.** Faustina (wordmark, headings, numerals, the summit stamp) over Readex Pro (text, header, labels). Both OFL-1.1, unmodified variable TTFs (Readex Pro carries the RFN "RevReading Lexend").
 - **Visual style: 2.5D isometric.** Four raster WebP illustrations from Grok Build image_gen: the saddle as a trail map, the hut, a cutaway bunk room and the ridge routes. No SVG illustration.
 
 ## Header, footer, layout (ROADMAP codes)
 
-- **H7 bottom-docked bar**: a slim moss bar at the bottom of the screen like a trail signpost: wordmark, menu (Home, Routes, Stay, Season, Journal, Contact) and a Reception open / Closed chip worked out on the server.
+- **H1 washi header** (1.0.1; 1.0.0 was the H7 bottom bar): hut-paper header with a faint contour grid and a double hairline, sticky below the WordPress toolbar. On the left the site logo (when set) and the site title under a small "Mountain hut" label on a pine rule; the menu (Home, Routes, Stay, Season, Journal, Contact) to the right, then the Reception open / Closed chip worked out on the server and a "Book a bunk" button to Stay & booking. Under 960 px the menu becomes a Menu button with a full-screen numbered trail card; under 600 px the chip and the button move to a slim strip at the bottom (no second menu or title).
 - **F12 summit stamp + vertical text column**: a round, slightly rotated summit stamp (Kumotori · 2,017 m), the address card and a vertical altitude line from the trailhead to the saddle.
 - **L10 map / locator first**: the isometric trail map beside the title with a numbered legend (the hut, three routes, water points) and today's reception line, then the season, weather and rates, the three routes and the journal.
 
