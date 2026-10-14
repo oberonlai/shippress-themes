@@ -29,8 +29,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--flush-top yc-section--shelf yc-section--box","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-section yc-section--flush-top yc-section--shelf yc-section--box"><!-- wp:group {"align":"wide","className":"yc-shelf yc-box","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide yc-shelf yc-box"><!-- wp:group {"className":"yc-cell yc-box__cell","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull yc-section yc-section--flush-top yc-section--shelf yc-section--box"><!-- wp:group {"align":"wide","className":"yc-shelf yc-box yc-tanzaku","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-shelf yc-box yc-tanzaku"><!-- wp:group {"className":"yc-cell yc-box__cell","layout":{"type":"default"}} -->
 <div class="wp-block-group yc-cell yc-box__cell"><!-- wp:image {"sizeSlug":"large","linkDestination":"custom","className":"yc-cell__picture"} -->
 <figure class="wp-block-image size-large yc-cell__picture"><a href="/contact/"><img src="{{theme}}/assets/images/p01-rose-dome.webp" alt="Rose Dome, bonbons by Yoru Chocolate"/></a></figure>
 <!-- /wp:image -->

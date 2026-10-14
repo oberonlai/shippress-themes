@@ -29,7 +29,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"large","className":"yc-frame yc-split__picture"} -->
-<figure class="wp-block-image size-large yc-frame yc-split__picture"><img src="{{theme}}/assets/images/hero.webp" alt="Bonbons and a broken tablet on a dark stone slab"/></figure>
+<figure class="wp-block-image size-large yc-frame yc-split__picture"><img src="{{theme}}/assets/images/night-window.webp" alt="Maki-e drawing in gold on navy: the lit window of the old print shop on Kanzaki-dori at night"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

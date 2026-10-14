@@ -3,12 +3,12 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Version: 1.0.0
-Stable tag: 1.0.0
+Version: 1.1.0
+Stable tag: 1.1.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A luxe, quiet store theme for a small bean-to-bar chocolatier: cocoa-black pages, dark ganache panels, warm cream text and one rose-clay accent, Fanwood Text with Gantari, bonbons on a stone slab, an origins table, Origins and Gift boxes pages, and WooCommerce shop, product, cart, checkout and account templates styled to match.
+A bold, quiet store theme for a small bean-to-bar chocolatier, written vertically (tategaki): iron-navy (tetsukon) pages on washi, yamabuki-yellow marks and bands, Kaisei Decol with BIZ UDPGothic, maki-e lacquer illustrations, a menu written down a rail on the right edge, an origins table, Origins and Gift boxes pages, and WooCommerce shop, product, cart, checkout and account templates styled to match.
 
 == Description ==
 
@@ -48,25 +48,29 @@ GNU General Public License for more details.
 
 = Fonts =
 
-Fanwood Text
-Files: assets/fonts/FanwoodText-Regular.ttf, assets/fonts/FanwoodText-Italic.ttf
-Copyright (c) 2011, Barry Schwartz
-License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-FanwoodText.txt, https://openfontlicense.org).
-Shipped as the unmodified TTF files from https://github.com/google/fonts/tree/main/ofl/fanwoodtext, bundled so the theme makes no third-party requests.
+Kaisei Decol
+Files: assets/fonts/KaiseiDecol-Regular.woff2, assets/fonts/KaiseiDecol-Bold.woff2
+Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-KaiseiDecol.txt, https://openfontlicense.org). No Reserved Font Name.
+Latin subset (WOFF2) of https://github.com/google/fonts/tree/main/ofl/kaiseidecol, bundled so the theme makes no third-party requests.
 
-Gantari
-Files: assets/fonts/Gantari-wght.ttf
-Copyright 2022 The Gantari Project Authors (https://github.com/Lafontype/Gantari)
-License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-Gantari.txt, https://openfontlicense.org).
-Shipped as the unmodified variable TTF from https://github.com/google/fonts/tree/main/ofl/gantari, bundled so the theme makes no third-party requests.
+BIZ UDPGothic
+Files: assets/fonts/BIZUDPGothic-Regular.woff2, assets/fonts/BIZUDPGothic-Bold.woff2
+Copyright 2022 The BIZ UDGothic Project Authors (https://github.com/googlefonts/morisawa-biz-ud-gothic)
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-BIZUDPGothic.txt, https://openfontlicense.org). No Reserved Font Name.
+Latin subset (WOFF2) of https://github.com/google/fonts/tree/main/ofl/bizudpgothic, bundled so the theme makes no third-party requests.
 
 = Images =
 
-Images: AI-generated for this theme with Grok Build image_gen, 3D soft render illustration style, released under GPL-2.0-or-later (no stock images, no real people or brands; the chocolatier, its people and its products are fictional). Copies in assets/images/demo/ are the same pictures, used by the demo import.
-- assets/images/hero.webp (home: bonbons on a stone slab)
-- assets/images/bonbons-grid.webp (home: twelve bonbons; Gift boxes; journal)
-- assets/images/cacao.webp (Origins; journal)
-- assets/images/gift-box.webp (Gift boxes; journal)
+Images: AI-generated for this theme with Grok Build image_gen, maki-e lacquer illustration style (gold and yamabuki lacquer on navy), released under GPL-2.0-or-later (no stock images, no real people or brands; the chocolatier, its people and its products are fictional). Version 1.1.0 redrew the 1.0 pictures in place under the same file names. Copies in assets/images/demo/ are the same pictures, used by the demo import.
+- assets/images/hero.webp (home hero: a crescent moon over an open box of bonbons and a cacao branch)
+- assets/images/night-window.webp (home: the print shop's window at night; Origins; journal)
+- assets/images/step-roast.webp (home: roast; journal)
+- assets/images/step-grind.webp (home: grind)
+- assets/images/step-temper.webp (home: temper; journal)
+- assets/images/bonbons-grid.webp (Origins: twelve bonbons in a box; journal)
+- assets/images/cacao.webp (Origins: a cacao branch)
+- assets/images/gift-box.webp (home and Gift boxes: a furoshiki-wrapped box; Contact; journal)
 - assets/images/p01-rose-dome.webp (Rose Clay Dome)
 - assets/images/p02-hojicha-square.webp (Hōjicha Square)
 - assets/images/p03-sesame-swirl.webp (Black Sesame Swirl)
@@ -75,10 +79,12 @@ Images: AI-generated for this theme with Grok Build image_gen, 3D soft render il
 - assets/images/p06-walnut-oval.webp (Walnut & Kuromitsu Oval)
 - assets/images/p07-tablet.webp (Tanzania 70% Tablet)
 - assets/images/p08-box-twelve.webp (Box of Twelve)
-- assets/images/demo/hero.webp (demo import copy of assets/images/hero.webp)
+- assets/images/washi.webp (washi fibre texture under every surface: a greyscale, mirrored crop of one generated washi sheet)
 - assets/images/demo/bonbons-grid.webp (demo import copy of assets/images/bonbons-grid.webp)
 - assets/images/demo/cacao.webp (demo import copy of assets/images/cacao.webp)
 - assets/images/demo/gift-box.webp (demo import copy of assets/images/gift-box.webp)
+- assets/images/demo/hero.webp (demo import copy of assets/images/hero.webp)
+- assets/images/demo/night-window.webp (demo import copy of assets/images/night-window.webp)
 - assets/images/demo/p01-rose-dome.webp (demo import copy of assets/images/p01-rose-dome.webp)
 - assets/images/demo/p02-hojicha-square.webp (demo import copy of assets/images/p02-hojicha-square.webp)
 - assets/images/demo/p03-sesame-swirl.webp (demo import copy of assets/images/p03-sesame-swirl.webp)
@@ -87,5 +93,19 @@ Images: AI-generated for this theme with Grok Build image_gen, 3D soft render il
 - assets/images/demo/p06-walnut-oval.webp (demo import copy of assets/images/p06-walnut-oval.webp)
 - assets/images/demo/p07-tablet.webp (demo import copy of assets/images/p07-tablet.webp)
 - assets/images/demo/p08-box-twelve.webp (demo import copy of assets/images/p08-box-twelve.webp)
+- assets/images/demo/step-grind.webp (demo import copy of assets/images/step-grind.webp)
+- assets/images/demo/step-roast.webp (demo import copy of assets/images/step-roast.webp)
+- assets/images/demo/step-temper.webp (demo import copy of assets/images/step-temper.webp)
 
 All other artwork (rules and ornaments) is CSS, GPL-2.0-or-later.
+
+== Changelog ==
+
+= 1.1.0 =
+* Redesign (tategaki vertical scroll): iron-navy (tetsukon #17184B) pages on washi with yamabuki (#F8B500) marks and one full yamabuki band, washi-light sections, Kaisei Decol + BIZ UDPGothic.
+* Header H11: a fixed rail on the right edge with the wordmark and the menu written vertically (top bar below 1100 px, overlay menu on phones).
+* Home L5: full-height vertical title beside a tall maki-e drawing; section titles down vertical spines; products as staggered tall strips with vertical names; origins as vertical columns; steps descending right to left; journal as vertical spines. Footer: Yoru written vertically beside a yamabuki moon.
+* New maki-e lacquer illustrations; the 1.0 file names are kept so pages imported with 1.0 keep their pictures; 1.0 class names keep working.
+
+= 1.0.0 =
+* First release.

@@ -2,21 +2,23 @@
 
 A luxe, quiet block theme for a **small bean-to-bar chocolatier** and its online shop. A ShipPress **store** theme: WooCommerce templates styled to match, eight sample products in three categories, and a shop that still works without WooCommerce.
 
-Version 1.0.0.
+Version 1.1.0 (redesign, tategaki vertical scroll).
 
 The demo chocolatier is fictional: Yoru Chocolate, working at night in a former print shop at 3-8 Kanzaki-dōri, Hoshikawa City, founded in 2014 by chocolatier Nao Fujisaki with roaster Ken Arima. Shop hours Wednesday to Sunday, 12:00 – 19:00; closed Monday and Tuesday.
 
-## Concept: night and cacao
+## Concept: a page written vertically at night
 
-- **Palette.** Cocoa `#201816` pages, ganache `#2E2421` panels, cream `#EDE4DA` text and one rose-clay accent `#A36A5A`, kept to rules, numerals and small accents.
-- **Type.** Fanwood Text (display, prices, italic accents) and Gantari (text, labels, the origins table).
+- **Archetype.** Tategaki vertical scroll: titles are written top to bottom and read right to left, with wide empty space (ma), asymmetric placement and washi fibres under every surface.
+- **Palette.** Iron navy (tetsukon) `#17184B` over most of the page, yoru night `#0F1035` for the rail and night bands, kinari `#F4EFE3` text (14.4:1), yamabuki `#F8B500` for marks, buttons and one full band (9.1:1 against tetsukon both ways), washi `#EDE6D3` light sections with tetsukon text (13.3:1) and usuzumi `#5A5878` quiet text (5.4:1). On washi, yamabuki never carries text; emphasis becomes sesame dots (bōten).
+- **Type.** Kaisei Decol (display, vertical titles, menu, prices) and BIZ UDPGothic (text, labels, forms), both OFL, Latin subsets.
+- **Illustrations.** Maki-e lacquer drawings in gold and yamabuki on navy (Grok Build image_gen), one picture per use.
 - **Details as product attributes.** Origin, cacao, pieces or weight and keeping time are attributes of each product; cacao and origin print under every price ("Cacao 70% · Tanzania"), from that one source.
 
 ## Header, footer, layout (ROADMAP codes)
 
-- **H3 header.** Fanwood Text wordmark, core navigation, account and mini cart when WooCommerce is active.
-- **F1 footer.** The wordmark, the origins table and the shop card (chocolatier, address, hours, telephone, email).
-- **L11 home layout.** Bonbons on a dark stone slab; then the idea in one paragraph, a shelf of four bonbons, a grid of twelve, how a bonbon is made, the warm-weather shipping note and the latest journal.
+- **H11 header.** A fixed rail on the right edge: the wordmark and tagline written vertically, the whole menu as vertical columns, account and mini cart below. Under 1100 px a slim top bar; on phones the overlay menu.
+- **F1 footer.** On washi: Yoru written huge and vertically beside a yamabuki moon, the shop line, links and the synced shop card.
+- **L5 home layout.** A full-height vertical title beside a tall maki-e drawing of a moon over a box of bonbons; every section title down a vertical spine with a Japanese numeral; eight pieces as staggered tall strips with vertical names (washi); the four origins as vertical columns (yamabuki band); the shop window at night; roast, grind, temper stepping down from right to left; gift boxes (washi); the journal as vertical spines.
 
 ## One source for shared details
 
@@ -39,7 +41,7 @@ Optional. With it active, `inc/woo-import.php` adds three product categories (Bo
 
 ## Licence
 
-GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`): Fanwood Text and Gantari, shipped as unmodified TTF. Images AI-generated for this theme with Grok Build image_gen, 3D soft render illustration style, released under GPL-2.0-or-later.
+GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`): Kaisei Decol and BIZ UDPGothic, Latin WOFF2 subsets (no Reserved Font Names). Images AI-generated for this theme with Grok Build image_gen, maki-e lacquer illustration style, released under GPL-2.0-or-later.
 
 <!-- screenshots:start -->
 ## Screenshots

@@ -31,7 +31,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--flush-top","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull yc-section yc-section--flush-top"><!-- wp:group {"align":"wide","className":"yc-split","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide yc-split"><!-- wp:image {"sizeSlug":"large","className":"yc-frame yc-split__picture"} -->
-<figure class="wp-block-image size-large yc-frame yc-split__picture"><img src="{{theme}}/assets/images/gift-box.webp" alt="A dark gift box tied with a rose-clay ribbon"/></figure>
+<figure class="wp-block-image size-large yc-frame yc-split__picture"><img src="{{theme}}/assets/images/gift-box.webp" alt="Maki-e drawing in gold on navy: a chocolate box wrapped in furoshiki cloth and tied with a gold cord"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"yc-card","layout":{"type":"default"}} -->

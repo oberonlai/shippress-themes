@@ -29,7 +29,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"large","className":"yc-frame yc-split__picture"} -->
-<figure class="wp-block-image size-large yc-frame yc-split__picture"><img src="{{theme}}/assets/images/bonbons-grid.webp" alt="Twelve bonbons in four rows of three, seen from above"/></figure>
+<figure class="wp-block-image size-large yc-frame yc-split__picture"><img src="{{theme}}/assets/images/bonbons-grid.webp" alt="Maki-e drawing: twelve bonbons in an open box, four rows of three, seen from above"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
