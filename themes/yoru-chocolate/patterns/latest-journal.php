@@ -1,15 +1,15 @@
 <?php
 /**
- * Title: Journal: latest three
+ * Title: Journal: latest three (vertical spines)
  * Slug: yoru-chocolate/latest-journal
  * Categories: yoru-chocolate, posts
- * Keywords: latest, journal
+ * Keywords: latest, journal, vertical
  * Viewport Width: 1440
- * Description: The three latest journal posts in a row.
+ * Description: The three latest journal posts as tall vertical spines read right to left, each with its date, its title set vertically and a short excerpt.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--rule","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-section yc-section--rule"><!-- wp:group {"align":"wide","className":"yc-head yc-head--row","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--rule yc-section--night","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yc-section yc-section--rule yc-section--night"><!-- wp:group {"align":"wide","className":"yc-head yc-head--row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide yc-head yc-head--row"><!-- wp:group {"className":"yc-stack","layout":{"type":"default"}} -->
 <div class="wp-block-group yc-stack"><!-- wp:paragraph {"className":"is-style-label"} -->
 <p class="is-style-label">Journal</p>
@@ -27,20 +27,16 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:query {"queryId":21,"query":{"perPage":3,"pages":1,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"align":"wide","className":"yc-posts"} -->
-<div class="wp-block-query alignwide yc-posts"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
-<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2"} /-->
+<!-- wp:query {"queryId":21,"query":{"perPage":3,"pages":1,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"align":"wide","className":"yc-posts yc-spines"} -->
+<div class="wp-block-query alignwide yc-posts yc-spines"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"className":"yc-post-body yc-spine","layout":{"type":"default"}} -->
+<div class="wp-block-group yc-post-body yc-spine"><!-- wp:post-date {"format":"Y.m.d","className":"yc-spine__date"} /-->
 
-<!-- wp:group {"className":"yc-post-body","layout":{"type":"default"}} -->
-<div class="wp-block-group yc-post-body"><!-- wp:group {"className":"yc-post-meta","layout":{"type":"flex","flexWrap":"wrap"}} -->
-<div class="wp-block-group yc-post-meta"><!-- wp:post-date {"format":"Y.m.d"} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"className":"yc-spine__title"} /-->
 
-<!-- wp:post-terms {"term":"category"} /--></div>
-<!-- /wp:group -->
+<!-- wp:post-excerpt {"excerptLength":16,"className":"yc-spine__excerpt"} /-->
 
-<!-- wp:post-title {"level":3,"isLink":true} /-->
-
-<!-- wp:post-excerpt {"excerptLength":20} /--></div>
+<!-- wp:post-terms {"term":"category","className":"yc-spine__cat"} /--></div>
 <!-- /wp:group -->
 <!-- /wp:post-template --></div>
 <!-- /wp:query --></section>

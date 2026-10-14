@@ -1,15 +1,15 @@
 <?php
 /**
- * Title: Home: four origins
+ * Title: Home: four origins (yamabuki band)
  * Slug: yoru-chocolate/home-idea
  * Categories: yoru-chocolate
- * Keywords: chocolate, bonbons, cacao
+ * Keywords: chocolate, cacao, origins, vertical
  * Viewport Width: 1440
- * Description: A quiet strip of the four origins and their cacao percentage, with a link to Origins.
+ * Description: A full yamabuki-yellow band: the title down a vertical spine, then the four origins as vertical columns read right to left, each with its cacao percentage, farm and tasting note.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--origins","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-section yc-section--origins"><!-- wp:group {"align":"wide","className":"yc-head-wrap","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--origins yc-section--yamabuki","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yc-section yc-section--origins yc-section--yamabuki"><!-- wp:group {"align":"wide","className":"yc-head-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide yc-head-wrap"><!-- wp:group {"className":"yc-head yc-head--row","layout":{"type":"default"}} -->
 <div class="wp-block-group yc-head yc-head--row"><!-- wp:group {"className":"yc-stack","layout":{"type":"default"}} -->
 <div class="wp-block-group yc-stack"><!-- wp:paragraph {"className":"is-style-label"} -->
@@ -29,8 +29,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide","className":"yc-origins","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide yc-origins"><!-- wp:group {"className":"yc-origin","layout":{"type":"default"}} -->
+<!-- wp:group {"align":"wide","className":"yc-origins yc-origins--tate","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-origins yc-origins--tate"><!-- wp:group {"className":"yc-origin","layout":{"type":"default"}} -->
 <div class="wp-block-group yc-origin"><!-- wp:paragraph {"className":"yc-origin__pct"} -->
 <p class="yc-origin__pct">70%</p>
 <!-- /wp:paragraph -->

@@ -22,7 +22,7 @@
 
 <!-- wp:group {"className":"yc-opening__side","layout":{"type":"default"}} -->
 <div class="wp-block-group yc-opening__side"><!-- wp:paragraph {"className":"is-style-lead"} -->
-<p class="is-style-lead">Every box is filled to order, wrapped in paper and tied by hand with a narrow rose-clay band. Here is what goes in, how long it keeps and when we ship.</p>
+<p class="is-style-lead">Every box is filled to order, wrapped in paper and tied by hand with a gold cord. Here is what goes in, how long it keeps and when we ship.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

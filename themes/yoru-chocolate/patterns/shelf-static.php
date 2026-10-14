@@ -8,8 +8,8 @@
  * Description: Eight bonbons and tablets as a box of square cells with origin and cacao percentage, each linking to the Contact page (used where WooCommerce is not active).
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--shelf yc-section--box","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull yc-section yc-section--shelf yc-section--box"><!-- wp:group {"align":"wide","className":"yc-head-wrap","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--shelf yc-section--box yc-section--washi","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yc-section yc-section--shelf yc-section--box yc-section--washi"><!-- wp:group {"align":"wide","className":"yc-head-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide yc-head-wrap"><!-- wp:group {"className":"yc-head yc-head--row","layout":{"type":"default"}} -->
 <div class="wp-block-group yc-head yc-head--row"><!-- wp:group {"className":"yc-stack","layout":{"type":"default"}} -->
 <div class="wp-block-group yc-stack"><!-- wp:paragraph {"className":"is-style-label"} -->
@@ -17,7 +17,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Twelve squares, <em>one night’s work.</em></h2>
+<h2 class="wp-block-heading">Eight pieces, <em>one night of work.</em></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -29,8 +29,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide","className":"yc-shelf yc-box","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide yc-shelf yc-box"><!-- wp:group {"className":"yc-cell yc-box__cell","layout":{"type":"default"}} -->
+<!-- wp:group {"align":"wide","className":"yc-shelf yc-box yc-tanzaku","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yc-shelf yc-box yc-tanzaku"><!-- wp:group {"className":"yc-cell yc-box__cell","layout":{"type":"default"}} -->
 <div class="wp-block-group yc-cell yc-box__cell"><!-- wp:image {"sizeSlug":"large","linkDestination":"custom","className":"yc-cell__picture"} -->
 <figure class="wp-block-image size-large yc-cell__picture"><a href="/contact/"><img src="{{theme}}/assets/images/p01-rose-dome.webp" alt="Rose Dome, bonbons by Yoru Chocolate"/></a></figure>
 <!-- /wp:image -->

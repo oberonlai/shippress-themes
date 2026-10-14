@@ -31,7 +31,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"yc-section yc-section--flush-top","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull yc-section yc-section--flush-top"><!-- wp:group {"align":"wide","className":"yc-wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide yc-wide"><!-- wp:image {"sizeSlug":"large","className":"yc-frame yc-wide-picture"} -->
-<figure class="wp-block-image size-large yc-frame yc-wide-picture"><img src="{{theme}}/assets/images/cacao.webp" alt="A split cacao pod with pale beans in white pulp"/></figure>
+<figure class="wp-block-image size-large yc-frame yc-wide-picture"><img src="{{theme}}/assets/images/cacao.webp" alt="Maki-e drawing in gold on navy: a cacao branch with ripe pods, one split open to show the beans"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

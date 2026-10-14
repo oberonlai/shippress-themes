@@ -81,11 +81,11 @@
 
 <!-- wp:group {"align":"wide","className":"yc-pair yc-pair--row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide yc-pair yc-pair--row"><!-- wp:image {"sizeSlug":"large","className":"yc-frame"} -->
-<figure class="wp-block-image size-large yc-frame"><img src="{{theme}}/assets/images/p08-box-twelve.webp" alt="The Box of Twelve, open, from above"/></figure>
+<figure class="wp-block-image size-large yc-frame"><img src="{{theme}}/assets/images/p08-box-twelve.webp" alt="Maki-e drawing: the Box of Twelve, closed and tied with a decorative gold cord"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"large","className":"yc-frame"} -->
-<figure class="wp-block-image size-large yc-frame"><img src="{{theme}}/assets/images/p01-rose-dome.webp" alt="A single rose dome bonbon on dark stone"/></figure>
+<figure class="wp-block-image size-large yc-frame"><img src="{{theme}}/assets/images/p01-rose-dome.webp" alt="Maki-e drawing: a single dome bonbon with a gold petal on top"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

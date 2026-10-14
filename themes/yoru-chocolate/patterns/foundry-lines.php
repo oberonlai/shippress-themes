@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"yc-section","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull yc-section"><!-- wp:group {"align":"wide","className":"yc-split yc-split--5-7 yc-split--top","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide yc-split yc-split--5-7 yc-split--top"><!-- wp:image {"sizeSlug":"large","className":"yc-frame yc-frame--portrait yc-split__picture"} -->
-<figure class="wp-block-image size-large yc-frame yc-frame--portrait yc-split__picture"><img src="{{theme}}/assets/images/p07-tablet.webp" alt="A dark tablet broken in two on stone"/></figure>
+<figure class="wp-block-image size-large yc-frame yc-frame--portrait yc-split__picture"><img src="{{theme}}/assets/images/p07-tablet.webp" alt="Maki-e drawing: a dark chocolate tablet with one corner snapped off beside a cacao pod"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"yc-stack","layout":{"type":"default"}} -->
