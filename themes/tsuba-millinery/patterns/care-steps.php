@@ -81,7 +81,7 @@
 
 <!-- wp:group {"align":"wide","className":"tm-pair tm-pair--row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tm-pair tm-pair--row"><!-- wp:image {"sizeSlug":"large","className":"tm-frame"} -->
-<figure class="wp-block-image size-large tm-frame"><img src="{{theme}}/assets/images/fit.webp" alt="A tape measure round the crown of a felt hat"/></figure>
+<figure class="wp-block-image size-large tm-frame"><img src="{{theme}}/assets/images/care.webp" alt="Etching of a soft horsehair brush beside the brim of an indigo felt hat"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"large","className":"tm-frame"} -->

@@ -1,47 +1,37 @@
 <?php
 /**
- * Title: Journal: latest three
+ * Title: Journal: latest three as a ruled index
  * Slug: tsuba-millinery/latest-journal
- * Categories: tsuba-millinery, posts
+ * Categories: tsuba-millinery
  * Keywords: latest, journal, millinery
  * Viewport Width: 1440
- * Description: The three latest notes from the atelier in a row.
+ * Description: The three latest notes from the atelier as ruled index rows: date, a large title with a short excerpt, and a small etching on the right.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"tm-section tm-section--rule","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull tm-section tm-section--rule"><!-- wp:group {"align":"wide","className":"tm-head tm-head--row","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide tm-head tm-head--row"><!-- wp:group {"className":"tm-stack","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-stack"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">Journal</p>
-<!-- /wp:paragraph -->
+<!-- wp:group {"tagName":"section","align":"full","className":"tm-index-sec","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull tm-index-sec"><!-- wp:group {"className":"tm-index-sec__head","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-index-sec__head"><!-- wp:heading {"className":"tm-index-sec__title"} -->
+<h2 class="wp-block-heading tm-index-sec__title">Notes from the bench</h2>
+<!-- /wp:heading -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Notes from <em>the workbench.</em></h2>
-<!-- /wp:heading --></div>
-<!-- /wp:group -->
-
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-arrow"} -->
-<div class="wp-block-button is-style-arrow"><a class="wp-block-button__link wp-element-button" href="/journal/">All journal notes</a></div>
+<!-- wp:buttons {"className":"tm-links"} -->
+<div class="wp-block-buttons tm-links"><!-- wp:button {"className":"is-style-arrow"} -->
+<div class="wp-block-button is-style-arrow"><a class="wp-block-button__link wp-element-button" href="/journal/">All notes</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:query {"queryId":21,"query":{"perPage":3,"pages":1,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"align":"wide","className":"tm-posts"} -->
-<div class="wp-block-query alignwide tm-posts"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
-<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2"} /-->
+<!-- wp:query {"queryId":21,"query":{"perPage":3,"pages":1,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"className":"tm-index-list"} -->
+<div class="wp-block-query tm-index-list"><!-- wp:post-template -->
+<!-- wp:post-date {"format":"Y.m.d","className":"tm-index-list__date"} /-->
 
-<!-- wp:group {"className":"tm-post-body","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-post-body"><!-- wp:group {"className":"tm-post-meta","layout":{"type":"flex","flexWrap":"wrap"}} -->
-<div class="wp-block-group tm-post-meta"><!-- wp:post-date {"format":"Y.m.d"} /-->
+<!-- wp:group {"className":"tm-index-list__body","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-index-list__body"><!-- wp:post-title {"level":3,"isLink":true} /-->
 
-<!-- wp:post-terms {"term":"category"} /--></div>
+<!-- wp:post-excerpt {"excerptLength":22} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:post-title {"level":3,"isLink":true} /-->
-
-<!-- wp:post-excerpt {"excerptLength":20} /--></div>
-<!-- /wp:group -->
+<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2","className":"tm-index-list__picture"} /-->
 <!-- /wp:post-template --></div>
 <!-- /wp:query --></section>
 <!-- /wp:group -->

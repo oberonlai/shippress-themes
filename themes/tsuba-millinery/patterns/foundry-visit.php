@@ -29,7 +29,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"large","className":"tm-frame tm-split__picture"} -->
-<figure class="wp-block-image size-large tm-frame tm-split__picture"><img src="{{theme}}/assets/images/hero.webp" alt="A wide-brim felt hat on a wooden hat block with ribbons"/></figure>
+<figure class="wp-block-image size-large tm-frame tm-split__picture"><img src="{{theme}}/assets/images/j-felt.webp" alt="Etching of indigo wool felt being steamed over a hat block"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

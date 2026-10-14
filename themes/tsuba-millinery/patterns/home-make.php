@@ -5,75 +5,59 @@
  * Categories: tsuba-millinery
  * Keywords: millinery, atelier, handmade
  * Viewport Width: 1440
- * Description: Measure, block, finish: three quiet steps with three photographs.
+ * Description: Asymmetric: a tall etching of the workbench set low on the left, and on the right three steps (measure, block, finish) with large vermilion numerals.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"tm-section tm-section--make","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull tm-section tm-section--make"><!-- wp:group {"align":"wide","className":"tm-head-wrap","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide tm-head-wrap"><!-- wp:group {"className":"tm-head tm-head--center","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-head tm-head--center"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">From block to brim</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Measure, block, <em>finish.</em></h2>
-<!-- /wp:heading --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"align":"wide","className":"tm-steps-3","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide tm-steps-3"><!-- wp:group {"className":"tm-step","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-step"><!-- wp:image {"sizeSlug":"large","className":"tm-frame tm-step__picture"} -->
-<figure class="wp-block-image size-large tm-frame tm-step__picture"><img src="{{theme}}/assets/images/fit.webp" alt="A tape measure wrapped round the crown of a hat"/></figure>
+<!-- wp:group {"tagName":"section","align":"full","className":"tm-make","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull tm-make"><!-- wp:image {"sizeSlug":"large","className":"tm-make__picture"} -->
+<figure class="wp-block-image size-large tm-make__picture"><img src="{{theme}}/assets/images/atelier.webp" alt="Etching of a milliner’s workbench with wooden hat blocks, a kettle, pins and shears, an indigo felt hood drying on one block"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:paragraph {"className":"tm-step__num"} -->
-<p class="tm-step__num">i</p>
+<!-- wp:group {"className":"tm-make__text-col","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-make__text-col"><!-- wp:paragraph {"className":"tm-kicker"} -->
+<p class="tm-kicker">From block to brim</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"className":"tm-step__title"} -->
-<h3 class="wp-block-heading tm-step__title">Measure</h3>
+<!-- wp:heading {"className":"tm-make__title"} -->
+<h2 class="wp-block-heading tm-make__title">Measure, block, <em>finish.</em></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"tm-step__text"} -->
-<p class="tm-step__text">Every hat begins with a head size and a conversation: how you wear it, where, and in which light.</p>
+<!-- wp:group {"className":"tm-make__steps","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-make__steps"><!-- wp:group {"className":"tm-make__step","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-make__step"><!-- wp:heading {"level":3,"className":"tm-make__name"} -->
+<h3 class="wp-block-heading tm-make__name">Measure</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"tm-make__text"} -->
+<p class="tm-make__text">Every hat begins with a head size and a conversation: how you wear it, where, and in which light.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"tm-step","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-step"><!-- wp:image {"sizeSlug":"large","className":"tm-frame tm-step__picture"} -->
-<figure class="wp-block-image size-large tm-frame tm-step__picture"><img src="{{theme}}/assets/images/atelier.webp" alt="A milliner’s workbench with wooden hat blocks and pins"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"className":"tm-step__num"} -->
-<p class="tm-step__num">ii</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"className":"tm-step__title"} -->
-<h3 class="wp-block-heading tm-step__title">Block</h3>
+<!-- wp:group {"className":"tm-make__step","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-make__step"><!-- wp:heading {"level":3,"className":"tm-make__name"} -->
+<h3 class="wp-block-heading tm-make__name">Block</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"tm-step__text"} -->
-<p class="tm-step__text">Felt is steamed and straw is dampened, then drawn over a wooden block and left to dry overnight.</p>
+<!-- wp:paragraph {"className":"tm-make__text"} -->
+<p class="tm-make__text">Felt is steamed and straw is dampened, then drawn over a wooden block and left to dry overnight.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"tm-step","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-step"><!-- wp:image {"sizeSlug":"large","className":"tm-frame tm-step__picture"} -->
-<figure class="wp-block-image size-large tm-frame tm-step__picture"><img src="{{theme}}/assets/images/collection.webp" alt="Eight finished hats arranged in two rows of four"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:paragraph {"className":"tm-step__num"} -->
-<p class="tm-step__num">iii</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"className":"tm-step__title"} -->
-<h3 class="wp-block-heading tm-step__title">Finish</h3>
+<!-- wp:group {"className":"tm-make__step","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-make__step"><!-- wp:heading {"level":3,"className":"tm-make__name"} -->
+<h3 class="wp-block-heading tm-make__name">Finish</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"tm-step__text"} -->
-<p class="tm-step__text">The brim is wired, the sweatband sewn and the ribbon tied by hand, one hat at a time.</p>
+<!-- wp:paragraph {"className":"tm-make__text"} -->
+<p class="tm-make__text">The brim is wired, the sweatband sewn and the ribbon tied by hand, one hat at a time.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"className":"tm-links"} -->
+<div class="wp-block-buttons tm-links"><!-- wp:button {"className":"is-style-arrow"} -->
+<div class="wp-block-button is-style-arrow"><a class="wp-block-button__link wp-element-button" href="/made-to-order/">Made to order</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

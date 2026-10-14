@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tm-section","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull tm-section"><!-- wp:group {"align":"wide","className":"tm-split tm-split--5-7 tm-split--top","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tm-split tm-split--5-7 tm-split--top"><!-- wp:image {"sizeSlug":"large","className":"tm-frame tm-frame--portrait tm-split__picture"} -->
-<figure class="wp-block-image size-large tm-frame tm-frame--portrait tm-split__picture"><img src="{{theme}}/assets/images/collection.webp" alt="Eight hats from the collection laid out in two rows of four"/></figure>
+<figure class="wp-block-image size-large tm-frame tm-frame--portrait tm-split__picture"><img src="{{theme}}/assets/images/fitting.webp" alt="Etching of a vermilion felt hat on a wooden head form beside fabric swatches and a looped measuring ribbon"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"tm-stack","layout":{"type":"default"}} -->

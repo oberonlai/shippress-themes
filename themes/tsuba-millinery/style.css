@@ -3,15 +3,15 @@ Theme Name: Tsuba Millinery
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/tsuba-millinery
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Tsuba Millinery — an elegant, sculptural store theme for a small milliner's atelier in Hoshikawa City, with WooCommerce templates styled to match. Felt-blush pages, ink text and one muted mauve accent; Della Respira for display, Sen for text. A wordmark with a numbered menu list in the corner (H12), a filter-first home catalogue where each hat sits on a plain blush cell (L14), and a one-line footer of shop details (F3). Layered paper-cut illustrations. Fit & sizing, Made to order, Atelier, journal, newsletter and contact; the shop card, the sizing guide and the shapes table each live in one synced pattern (WooCommerce optional).
-Version: 1.0.0
+Description: Tsuba Millinery — a bold, Japanese-minimal store theme for a small milliner's atelier in Hoshikawa City, with WooCommerce templates styled to match. Washi paper with a faint fibre texture, large fields of edo-murasaki purple, ai indigo and matcha, a shu vermilion seal and sumi ink; Kaisei Opti for display (vertical titles) and M PLUS 2 for text. A vertical signboard menu read from the right in the top-left corner (H11), an asymmetric 12-column home in vertical type (L5) that keeps the filter-first shelf (shape, material, head size) with the hats in a staggered grid, and a letter-led footer: a vermilion band over a sumi base with the wordmark set vertically (F4). Hand-tinted copperplate etching illustrations. Fit & sizing, Made to order, Atelier, journal, newsletter and contact; the shop card, the sizing guide and the shapes table each live in one synced pattern (WooCommerce optional).
+Version: 1.1.0
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: tsuba-millinery
-Tags: block-patterns, full-site-editing, e-commerce, blog, pink, light, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, one-column, two-columns, three-columns, grid-layout
+Tags: block-patterns, full-site-editing, e-commerce, blog, purple, blue, light, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, grid-layout
 */
 
 /* ==========================================================================
@@ -949,7 +949,7 @@ a { text-decoration-color: var(--tm-rust); }
 
 .tm-hero__picture img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 50%; }
 
-.tm-hero::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(180deg, rgba(246, 239, 239, .0), rgba(32, 24, 22, 0) 9rem), linear-gradient(90deg, rgba(246, 239, 239, .0), rgba(32, 24, 22, 0) 60%); }
+.tm-hero::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(180deg, rgba(244, 239, 227, .0), rgba(32, 24, 22, 0) 9rem), linear-gradient(90deg, rgba(244, 239, 227, .0), rgba(32, 24, 22, 0) 60%); }
 
 .tm-hero__inner { width: 100%; }
 
@@ -966,7 +966,7 @@ a { text-decoration-color: var(--tm-rust); }
 @media (max-width: 781px) {
 	.tm-hero { align-items: flex-start; min-height: 40rem; padding-top: calc(var(--tm-head-h) + 2.5rem); }
 	.tm-hero__picture img { object-position: 68% 50%; }
-	.tm-hero::before { background: linear-gradient(180deg, rgba(246, 239, 239, .0), rgba(246, 239, 239, .0) 55%, rgba(32, 24, 22, 0) 80%); }
+	.tm-hero::before { background: linear-gradient(180deg, rgba(244, 239, 227, .0), rgba(244, 239, 227, .0) 55%, rgba(32, 24, 22, 0) 80%); }
 }
 
 /* ---- One quiet paragraph, centred, long pauses. */
@@ -1173,57 +1173,6 @@ a { text-decoration-color: var(--tm-rust); }
 	--tm-band: var(--wp--preset--color--seam);
 }
 
-/* ---- Header shared (checkout keeps a plain bar). */
-.tm-header { z-index: 50; margin: 0 !important; background-color: var(--wp--preset--color--petal); color: var(--tm-stone); }
-
-.tm-header .wp-block-site-title { margin: 0; font-family: var(--tm-serif); font-weight: 400; line-height: 1; white-space: nowrap; }
-
-.tm-header .wp-block-site-title a { color: var(--tm-stone); text-decoration: none; }
-
-.tm-header--checkout { position: relative; padding-block: 1.1rem; border-bottom: 1px solid var(--tm-band); }
-
-.tm-header--checkout .wp-block-site-title { font-size: 1.35rem; letter-spacing: .08em; }
-
-.tm-header__note { margin: 0; font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--tm-ash); }
-
-/* ---- H12: wordmark on the left, a numbered menu list set in the corner on the right. */
-.tm-corner { position: relative; padding: 1.25rem var(--tm-pad) 1rem; background: var(--wp--preset--color--blush); border-bottom: 1px solid var(--tm-band); }
-
-.tm-corner__inner { display: flex; flex-wrap: nowrap; align-items: flex-start; justify-content: space-between; gap: 1.5rem; max-width: var(--tm-wide); margin-inline: auto; }
-
-.tm-corner__inner > *, .tm-corner__brand > *, .tm-corner__tools > * { margin: 0 !important; }
-
-.tm-corner .wp-block-site-title { font-size: clamp(1.5rem, 1.2rem + 1vw, 2.1rem); letter-spacing: .06em; }
-
-.tm-corner__note { margin-top: .4rem !important; font-size: .7rem; letter-spacing: .2em; text-transform: uppercase; color: var(--tm-ash); }
-
-.tm-corner__tools { display: flex; align-items: flex-start; gap: 1.5rem; }
-
-.tm-nav--numbered .wp-block-navigation__container { counter-reset: tm-nav; display: grid !important; grid-template-columns: repeat(2, auto); gap: .35rem 2.25rem !important; }
-
-.tm-nav--numbered .wp-block-navigation-item { counter-increment: tm-nav; }
-
-.tm-nav--numbered .wp-block-navigation-item__content { display: inline-flex; align-items: baseline; gap: .7rem; color: var(--tm-stone); font-size: .82rem; letter-spacing: .04em; text-decoration: none; }
-
-.tm-nav--numbered .wp-block-navigation-item__content::before { content: counter(tm-nav, decimal-leading-zero); font-family: var(--tm-serif); font-size: .78rem; color: var(--tm-rose); }
-
-.tm-nav--numbered .wp-block-navigation-item__content:hover { color: var(--tm-rose-light); }
-
-.tm-nav .wp-block-navigation__responsive-container-open { color: var(--tm-stone); }
-
-.tm-header .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--tm-iron); color: var(--tm-stone); }
-
-.tm-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { display: flex !important; gap: 1.2rem !important; }
-
-.tm-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { font-family: var(--tm-serif); font-size: 1.8rem; }
-
-.tm-main { padding-top: 0; }
-
-@media (max-width: 599px) {
-	.tm-corner__note { display: none; }
-	.tm-corner__inner { align-items: center; }
-	.tm-corner__tools { align-items: center; }
-}
 
 /* ---- Hero: short now, so the box comes straight after it. */
 .tm-hero, .tm-hero--short { min-height: clamp(26rem, 62vh, 40rem); padding-block: 3rem clamp(2.5rem, 2rem + 4vw, 5rem); }
@@ -1291,38 +1240,6 @@ a { text-decoration-color: var(--tm-rust); }
 
 .tm-origin__note { margin-top: .4rem !important; font-size: .85rem; color: var(--tm-ash); }
 
-/* ---- F3: one line of shop details. */
-.tm-foot { padding-block: 1.75rem; border-top: 1px solid var(--tm-band); background: var(--tm-iron); color: var(--tm-stone); }
-
-.tm-foot__row { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .75rem 2rem; font-size: .8rem; color: var(--tm-ash); }
-
-.tm-foot__row > * { margin: 0 !important; min-width: 0; overflow-wrap: anywhere; }
-
-.tm-foot__mark { font-family: var(--tm-serif); font-size: 1.35rem; letter-spacing: .08em; }
-
-.tm-foot__mark a { color: var(--tm-stone); text-decoration: none; }
-
-.tm-foot__links { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; }
-
-.tm-foot__links a { color: var(--tm-stone); font-size: .7rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; text-decoration: none; }
-
-.tm-foot a:hover { color: var(--tm-rose-light); }
-
-.tm-foot__info .tm-foundry { display: flex; flex-wrap: wrap; gap: .3rem 1.25rem; padding: 0; border: 0; background: none; }
-
-.tm-foot__info .tm-foundry > * { margin: 0 !important; }
-
-.tm-foot__info .tm-foundry__row { display: block; padding: 0; border: 0; }
-
-.tm-foot__info .tm-foundry__row--phone,
-.tm-foot__info .tm-foundry__row--email,
-.tm-foot__info .tm-foundry__row--maker,
-.tm-foot__info .tm-foundry__more,
-.tm-foot__info .tm-foundry__key { display: none; }
-
-.tm-foot__info .tm-foundry__value { font-size: .8rem; color: var(--tm-ash); }
-
-.tm-foot__fine { font-size: .72rem; letter-spacing: .04em; }
 
 /* ---- L14: find your shape. Filter chips above the catalogue; each hat on a plain blush cell. */
 .tm-filters { display: flex; flex-wrap: wrap; gap: 1rem 2.5rem; margin-block: 0 2rem !important; padding-block: 1.25rem; border-block: 1px solid var(--tm-band); }
@@ -1342,7 +1259,7 @@ a { text-decoration-color: var(--tm-rust); }
 /* ---- Hero: the paper-cut hat block on the left, the words in the blush space on the right. */
 .tm-hero { background: var(--wp--preset--color--blush); }
 
-.tm-hero::before { background: linear-gradient(270deg, rgba(246, 239, 239, .88), rgba(246, 239, 239, .6) 38%, rgba(246, 239, 239, 0) 62%); }
+.tm-hero::before { background: linear-gradient(270deg, rgba(244, 239, 227, .88), rgba(244, 239, 227, .6) 38%, rgba(244, 239, 227, 0) 62%); }
 
 .tm-hero__picture img { object-position: 30% 50%; }
 
@@ -1363,3 +1280,643 @@ a { text-decoration-color: var(--tm-rust); }
 .tm-box .wc-block-product-template { row-gap: 0 !important; column-gap: 0 !important; }
 
 .tm-box .wc-block-product { margin: 0 !important; }
+
+/* ==========================================================================
+   13. Tsuba Millinery 1.1: washi, edo-murasaki, ai indigo, matcha, a shu seal and sumi.
+       A vertical signboard menu at the top left (H11), vertical titles set in
+       an asymmetric 12-column grid (L5) with the filter-first shelf kept, and a
+       letter-led footer: an Edo purple band over a shikon base (F4).
+   ========================================================================== */
+
+:root {
+	--tm-washi: var(--wp--preset--color--blush);
+	--tm-kinari: var(--wp--preset--color--petal);
+	--tm-fibre: var(--wp--preset--color--seam);
+	--tm-sumi: var(--wp--preset--color--ink);
+	--tm-nezumi: var(--wp--preset--color--muted);
+	--tm-shu: var(--wp--preset--color--mauve);
+	--tm-shu-deep: var(--wp--preset--color--mauve-deep);
+	--tm-ai: var(--wp--preset--color--ai);
+	--tm-matcha: var(--wp--preset--color--matcha);
+	--tm-gofun: var(--wp--preset--color--gofun);
+	--tm-ai-pale: #BFD6E2;
+	--tm-murasaki: var(--wp--preset--color--mauve-deep);
+	--tm-shikon: var(--wp--preset--color--shikon);
+	--tm-fuji: #C9B8DD;
+	--tm-iron: var(--tm-washi);
+	--tm-graphite: var(--tm-kinari);
+	--tm-hair: var(--tm-fibre);
+	--tm-rust: var(--tm-shu);
+	--tm-ember: var(--tm-shu-deep);
+	--tm-rose: var(--tm-shu);
+	--tm-rose-light: var(--tm-shu-deep);
+	--tm-band: var(--tm-fibre);
+	--tm-g: clamp(1rem, 2.2vw, 2rem);
+	--tm-cols: minmax(var(--tm-pad), 1fr) repeat(12, minmax(0, 5.25rem)) minmax(var(--tm-pad), 1fr);
+	--tm-display: var(--tm-serif);
+	--tm-line: color-mix(in srgb, var(--tm-sumi) 14%, transparent);
+	--tm-line-strong: color-mix(in srgb, var(--tm-sumi) 32%, transparent);
+}
+
+/* Washi: a faint fibre texture under every page. */
+body {
+	background-color: var(--tm-washi);
+	background-image: url("assets/images/washi.webp");
+	background-size: 900px auto;
+	background-repeat: repeat;
+}
+
+:where(h1, h2, h3, h4, .wp-block-post-title) { font-family: var(--tm-display); font-weight: 400; letter-spacing: .01em; }
+
+:where(h1, h2, h3, h4) em { font-style: normal; color: var(--tm-shu-deep); }
+
+a { text-decoration-color: var(--tm-shu); }
+
+::selection { background: var(--tm-shu); color: var(--tm-sumi); }
+
+/* Labels: fewer, larger, a small vermilion square instead of a rule. */
+.is-style-label, .tm-label, .tm-kicker {
+	display: flex;
+	align-items: center;
+	gap: .7rem;
+	margin: 0;
+	font-family: var(--tm-sans);
+	font-size: .8125rem !important;
+	font-weight: 500;
+	letter-spacing: .16em;
+	text-transform: uppercase;
+	color: var(--tm-shu-deep);
+}
+
+.is-style-label::before, .tm-label::before, .tm-kicker::before { content: ""; flex: 0 0 auto; width: .55rem; height: .55rem; background: var(--tm-shu); }
+
+.is-style-lead { font-size: var(--wp--preset--font-size--large) !important; font-weight: 400; line-height: 1.75; color: var(--tm-nezumi); }
+
+.tm-quiet { color: var(--tm-nezumi); }
+
+/* Buttons: sumi blocks; on hover the seal vermilion. */
+.wp-block-button:not(.is-style-arrow) .wp-block-button__link { padding: 1rem 1.9rem; border-radius: 0; }
+
+.wp-block-button.is-style-arrow .wp-block-button__link { gap: .7rem; padding: .35rem 0; font-family: var(--tm-sans); font-size: .9375rem; font-weight: 500; letter-spacing: .06em; text-transform: none; color: var(--tm-sumi); border-bottom: 2px solid var(--tm-shu); }
+
+.wp-block-button.is-style-arrow .wp-block-button__link:hover { color: var(--tm-shu-deep); border-bottom-color: var(--tm-shu-deep); }
+
+/* Etchings sit on the paper: the print's own cream margins melt into the washi. */
+.tm-open__print img, .tm-cell__picture img, .tm-product__image img, .tm-make__picture img, .tm-strips-sec__picture img, .tm-index-list__picture img, .tm-posts .wp-block-post-featured-image img, .tm-frame img, .tm-still__picture img { mix-blend-mode: multiply; }
+
+.tm-frame { border: 0; background: transparent; }
+
+/* ---- Page heads: big titles, a vermilion square before the first line. */
+.tm-section--opening { padding-top: clamp(2.5rem, 1.5rem + 3vw, 4.5rem); }
+
+.tm-opening { padding-bottom: clamp(2.5rem, 2rem + 2vw, 4rem); border-bottom: 1px solid var(--tm-line-strong); }
+
+.tm-opening h1, .tm-opening .wp-block-query-title, .tm-page-head--simple .wp-block-post-title { max-width: 14em; font-size: var(--wp--preset--font-size--xx-large) !important; font-weight: 400; line-height: 1.12; letter-spacing: 0; }
+
+.tm-head h2, .tm-stack > h2 { font-size: var(--wp--preset--font-size--xx-large); }
+
+.tm-main--front .tm-section { padding-block: clamp(5rem, 3rem + 7vw, 10rem); }
+
+/* ---- H11: the vertical signboard. A vermilion seal with the wordmark set vertically, the menu as vertical columns
+   read from the right, the cart beside them. It sits in the top-left corner of every page. */
+.tm-tate { position: relative; z-index: 40; margin: 0 !important; padding: 0 var(--tm-pad); color: var(--tm-sumi); }
+
+.tm-tate__inner { display: flex; flex-direction: row; align-items: flex-start; justify-content: flex-start; gap: clamp(1rem, 2vw, 2rem); max-width: calc(var(--tm-wide) + 2 * var(--tm-pad)); margin-inline: auto; }
+
+.tm-tate__inner > *, .tm-tate__seal > *, .tm-tate__tools > * { margin: 0 !important; }
+
+.tm-tate__seal { display: flex; flex-direction: row; align-items: flex-start; gap: .9rem; }
+
+.tm-tate .wp-block-site-title {
+	display: block;
+	writing-mode: vertical-rl;
+	padding: 1.6rem .8rem 1.4rem;
+	background: var(--tm-shu);
+	font-family: var(--tm-display);
+	font-size: 1.55rem;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: .2em;
+	white-space: nowrap;
+}
+
+.tm-tate .wp-block-site-title a { color: var(--tm-gofun); text-decoration: none; }
+
+
+.tm-tate__note { padding-top: 1.6rem; writing-mode: vertical-rl; font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: var(--tm-nezumi); white-space: nowrap; }
+
+.tm-tate__tools { display: flex; flex-direction: row; align-items: flex-start; gap: .9rem; padding-top: 1.1rem; }
+
+.tm-tate__tools > .wp-block-woocommerce-customer-account, .tm-tate__tools > .wc-block-mini-cart { margin-right: .35rem !important; }
+
+.tm-nav--tate .wp-block-navigation__container { counter-reset: tm-nav; }
+
+.tm-nav--tate .wp-block-navigation-item { counter-increment: tm-nav; }
+
+@media (min-width: 600px) {
+	.tm-nav--tate .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container { writing-mode: vertical-rl; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; gap: 0 !important; }
+	.tm-nav--tate .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item { display: block; }
+	.tm-nav--tate .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item + .wp-block-navigation-item { border-right: 1px solid var(--tm-line); }
+	.tm-nav--tate .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item__content { display: block; padding: .4rem .75rem 1rem; font-size: .9375rem; line-height: 1.2; letter-spacing: .14em; color: inherit; text-decoration: none; white-space: nowrap; }
+	.tm-nav--tate .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item__content::before { content: counter(tm-nav, cjk-decimal); display: inline-block; margin-bottom: .7rem; font-family: var(--tm-display); font-size: .9rem; letter-spacing: 0; color: var(--tm-shu-deep); }
+	.tm-nav--tate .wp-block-navigation-item__content:hover, .tm-nav--tate .current-menu-item > .wp-block-navigation-item__content { color: var(--tm-shu-deep); }
+}
+
+.tm-tate .wc-block-mini-cart__button, .tm-tate .wc-block-customer-account__account-icon, .tm-tate .wp-block-woocommerce-customer-account a { color: inherit; }
+
+.tm-tate .wp-block-navigation__responsive-container-open { color: var(--tm-sumi); }
+
+/* The open overlay: deep indigo, the menu still vertical, read from the right. */
+.tm-tate .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--tm-ai); color: var(--tm-gofun); }
+
+.tm-tate .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content { align-items: flex-end; padding-top: 4rem; }
+
+.tm-tate .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { flex-direction: row-reverse !important; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start !important; gap: 1.25rem 1.5rem !important; }
+
+.tm-tate .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { writing-mode: vertical-rl; font-family: var(--tm-display); font-size: 1.7rem; letter-spacing: .1em; color: var(--tm-gofun) !important; text-decoration: none; }
+
+.tm-tate .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-close { color: var(--tm-gofun); }
+
+@media (max-width: 599px) {
+	.tm-tate { padding-block: 0 .5rem; }
+	.tm-tate__inner { flex-direction: row; justify-content: space-between; align-items: flex-start; }
+	.tm-tate__seal { flex-direction: row; }
+	.tm-tate .wp-block-site-title { padding: 1.1rem .55rem 1rem; font-size: 1.15rem; }
+	.tm-tate__note { padding-top: 1.1rem; font-size: .6875rem; }
+	.tm-tate__tools { flex-direction: row; align-items: center; padding-top: 1rem; }
+}
+
+/* Home, wide screens: the signboard stands in the top-left corner of the opening, on washi. */
+@media (min-width: 1100px) {
+	body:has(.tm-open) .tm-tate { position: absolute; top: var(--tm-admin); left: 0; right: 0; pointer-events: none; }
+	body:has(.tm-open) .tm-tate__inner > * { pointer-events: auto; }
+}
+
+/* ---- The 12-column paper grid used by the home sections. */
+.tm-open, .tm-shape, .tm-strips-sec, .tm-make, .tm-fit, .tm-index-sec, .tm-foot__letter, .tm-foot__base {
+	display: grid;
+	grid-template-columns: var(--tm-cols);
+	column-gap: var(--tm-g);
+	margin-block: 0 !important;
+	padding-inline: 0 !important;
+}
+
+.tm-open > *, .tm-shape > *, .tm-strips-sec > *, .tm-make > *, .tm-fit > *, .tm-index-sec > *, .tm-foot__letter > *, .tm-foot__base > * { margin: 0 !important; min-width: 0; max-width: none !important; }
+
+.tm-shape__body > *, .tm-strips-sec__text > *, .tm-make__text-col > *, .tm-fit__text > *, .tm-strip > *, .tm-make__step > *, .tm-open__text > *, .tm-shape__rail > *, .tm-index-sec__head > * { margin-block: 0 !important; }
+
+/* ---- L5 opening: the title set vertically on washi, an etching laid over the Edo purple field. */
+.tm-open { position: relative; grid-template-rows: auto auto; min-height: clamp(42rem, 94vh, 58rem); overflow: hidden; isolation: isolate; }
+
+.tm-open__field::before { content: "\9354" / ""; position: absolute; z-index: 0; right: calc(var(--tm-pad) - .06em); top: -.06em; font-family: var(--tm-display); font-size: clamp(12rem, 6rem + 12vw, 20rem); font-weight: 700; line-height: 1; color: transparent; -webkit-text-stroke: 1px color-mix(in srgb, var(--tm-gofun) 55%, transparent); pointer-events: none; }
+
+.tm-open__field { grid-column: 10 / -1; grid-row: 1 / -1; position: relative; background: var(--tm-murasaki); }
+
+.tm-open__field::after { content: ""; position: absolute; right: var(--tm-pad); bottom: clamp(2rem, 4vw, 3.5rem); width: clamp(3.5rem, 6vw, 5.5rem); aspect-ratio: 1; border-radius: 50%; background: var(--tm-shu); }
+
+.tm-open__print { position: absolute !important; z-index: 2; left: calc(-1 * clamp(6rem, 9vw, 9.5rem)); bottom: clamp(3rem, 6vw, 6rem); width: clamp(15rem, 21vw, 21rem); margin: 0 !important; padding: clamp(.6rem, 1vw, 1rem); background: var(--tm-washi); box-shadow: 0 1.5rem 3rem -1.5rem rgba(30, 10, 40, .5); }
+
+.tm-open__print img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
+
+.tm-open__title {
+	grid-column: 4 / 9;
+	grid-row: 1 / span 2;
+	margin-right: clamp(1rem, 4vw, 4rem) !important;
+	justify-self: end;
+	align-self: start;
+	padding-top: clamp(3rem, 6vw, 6rem);
+	writing-mode: vertical-rl;
+	font-size: clamp(3rem, 1.6rem + 4.2vw, 6.25rem) !important;
+	font-weight: 700 !important;
+	line-height: 1.18 !important;
+	letter-spacing: .04em !important;
+	color: var(--tm-sumi);
+	white-space: nowrap;
+}
+
+.tm-open__title em { display: block; padding-top: 2.5em; color: var(--tm-murasaki); }
+
+.tm-open__text { grid-column: 2 / 6; grid-row: 2; align-self: end; margin-top: 15rem !important; max-width: 27rem !important; padding-bottom: clamp(3rem, 6vw, 6rem); }
+
+.tm-open__kicker { display: flex; align-items: center; gap: .7rem; font-size: .8125rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--tm-shu-deep); }
+
+.tm-open__kicker::before { content: ""; width: .55rem; height: .55rem; background: var(--tm-shu); }
+
+.tm-open__lead { margin-top: 1.25rem !important; font-size: var(--wp--preset--font-size--large); line-height: 1.75; color: var(--tm-sumi); }
+
+.tm-open__links { margin-top: 2.25rem !important; gap: 1rem 2rem; }
+
+@media (max-width: 1099px) {
+	.tm-open { grid-template-rows: auto auto auto; min-height: 0; }
+	.tm-open__field::before { font-size: clamp(10rem, 40vw, 16rem); }
+	.tm-open__title { grid-column: 9 / 14; grid-row: 1; justify-self: end; padding-top: 1.5rem; font-size: clamp(2.6rem, 1.5rem + 5vw, 4.5rem) !important; }
+	.tm-open__text { grid-column: 2 / 9; grid-row: 1; align-self: end; margin-top: 0 !important; padding-bottom: 1rem; }
+	.tm-open__field { grid-column: 1 / -1; grid-row: 2; display: flex; justify-content: center; margin-top: clamp(2rem, 6vw, 3.5rem) !important; padding: clamp(2.5rem, 8vw, 4rem) var(--tm-pad); }
+	.tm-open__print { position: relative !important; left: auto; bottom: auto; width: min(22rem, 78%); }
+	.tm-open__field::after { width: 3rem; bottom: 1.5rem; }
+}
+
+@media (max-width: 599px) {
+	.tm-open__field::before { font-size: 11rem; }
+	.tm-open__title { grid-column: 9 / -1; padding-right: var(--tm-pad); font-size: clamp(2.2rem, 1.2rem + 6vw, 3rem) !important; }
+	.tm-open__text { grid-column: 2 / 10; }
+	.tm-open__lead { font-size: 1.0625rem; }
+}
+
+/* ---- L5 + filter-first: a vertical title in the margin, a ruled filter table, the hats in a staggered grid. */
+.tm-shape { padding-block: clamp(5rem, 3rem + 6vw, 9rem); }
+
+.tm-shape__rail { grid-column: 2 / 4; display: flex; flex-direction: row-reverse; justify-content: flex-end; align-items: flex-start; gap: 1rem; align-self: start; position: sticky; top: calc(var(--tm-admin) + 2rem); }
+
+.tm-shape__title { writing-mode: vertical-rl; font-size: clamp(2.4rem, 1.4rem + 2.8vw, 4.2rem) !important; font-weight: 700 !important; line-height: 1.1 !important; letter-spacing: .04em !important; white-space: nowrap; }
+
+.tm-shape__title::after { content: "\578B" / ""; display: inline-block; margin-top: .4em; width: 1.3em; height: 1.3em; padding: 0; background: var(--tm-shu); color: var(--tm-gofun); font-size: .5em; text-align: center; line-height: 1.3em; writing-mode: horizontal-tb; vertical-align: middle; }
+
+.tm-shape__count { writing-mode: vertical-rl; padding-top: .4rem; font-size: .8125rem; letter-spacing: .16em; text-transform: uppercase; color: var(--tm-nezumi); white-space: nowrap; }
+
+.tm-shape__body { grid-column: 4 / 14; }
+
+.tm-shape__targets { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+
+.tm-filters--table { display: block; margin: 0 0 clamp(3rem, 5vw, 4.5rem) !important; padding: 0; border-block: 1px solid var(--tm-sumi); }
+
+.tm-filters--table .tm-filters__group { display: block; padding: .9rem 0; }
+
+.tm-filters--table .tm-filters__group + .tm-filters__group { border-top: 1px solid var(--tm-line); }
+
+.tm-filters--table p { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; margin: 0; }
+
+.tm-filters--table .tm-filters__label { flex: 0 0 9rem; margin: 0 !important; font-size: .8125rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--tm-nezumi); }
+
+.tm-chip, .tm-filters a { display: inline-block; padding: .5rem 1.05rem; border: 1px solid var(--tm-line-strong); border-radius: 0; background: transparent; color: var(--tm-sumi); font-size: .9375rem; letter-spacing: .02em; text-decoration: none; transition: background-color .3s var(--tm-ease), color .3s var(--tm-ease), border-color .3s var(--tm-ease); }
+
+.tm-chip:hover, .tm-filters a:hover { border-color: var(--tm-ai); background: var(--tm-ai); color: var(--tm-gofun); }
+
+/* The staggered shelf: three columns, the middle one set lower. */
+.tm-stagger.tm-shelf, .tm-stagger .wc-block-product-template { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: clamp(2.5rem, 4vw, 4.5rem) var(--tm-g) !important; margin: 0; padding: 0; border: 0 !important; }
+
+.tm-stagger .tm-cell, .tm-stagger .wc-block-product { margin: 0 !important; padding: 0 !important; border: 0 !important; background: transparent !important; }
+
+.tm-stagger > .tm-cell:nth-child(3n + 2), .tm-stagger .wc-block-product:nth-child(3n + 2) { margin-top: clamp(3rem, 6vw, 6rem) !important; }
+
+.tm-stagger .tm-cell__picture, .tm-stagger .tm-product__image { margin: 0 !important; border: 0 !important; background: transparent !important; overflow: hidden; }
+
+.tm-stagger .tm-cell__picture img, .tm-stagger .tm-product__image img { aspect-ratio: 1 !important; object-fit: cover; transform: scale(1.06); transition: transform 1.2s var(--tm-ease); }
+
+.tm-stagger .tm-cell:hover img, .tm-stagger .wc-block-product:hover .tm-product__image img { transform: scale(1.1); }
+
+.tm-stagger .tm-cell__cat, .tm-stagger .tm-product__cat { margin-top: 1.1rem !important; font-size: .8125rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--tm-shu-deep); }
+
+.tm-stagger .tm-product__cat a { color: inherit; text-decoration: none; }
+
+.tm-stagger .tm-cell__title, .tm-stagger .tm-product__title { margin-top: .4rem !important; font-family: var(--tm-display); font-size: clamp(1.3rem, 1.1rem + .6vw, 1.75rem) !important; line-height: 1.25; }
+
+.tm-stagger .tm-cell__title a, .tm-stagger .tm-product__title a { color: var(--tm-sumi); text-decoration: none; }
+
+.tm-stagger .tm-cell__price, .tm-stagger .tm-product__price { margin-top: .4rem !important; font-family: var(--tm-sans); font-size: 1.0625rem; font-variant-numeric: tabular-nums; color: var(--tm-sumi); }
+
+.tm-stagger .tm-size, .tm-cell .tm-size { margin-top: .25rem !important; font-size: .875rem; color: var(--tm-nezumi); }
+
+.tm-shape__more { margin-top: clamp(3rem, 5vw, 4.5rem) !important; justify-content: flex-end; }
+
+.tm-shape__note { max-width: 40rem; margin-top: clamp(3rem, 5vw, 4.5rem) !important; padding-top: 1.25rem; border-top: 1px solid var(--tm-line-strong); color: var(--tm-nezumi); }
+
+/* No JavaScript filtering: the chips are anchors, :target hides the rest. */
+.tm-shape:has(#cloche:target) .tm-cell:not(.is-cloche),
+.tm-shape:has(#boater:target) .tm-cell:not(.is-boater),
+.tm-shape:has(#bucket:target) .tm-cell:not(.is-bucket),
+.tm-shape:has(#wide-brim:target) .tm-cell:not(.is-wide-brim),
+.tm-shape:has(#felt:target) .tm-cell:not(.is-felt),
+.tm-shape:has(#straw:target) .tm-cell:not(.is-straw),
+.tm-shape:has(#cotton:target) .tm-cell:not(.is-cotton) { display: none; }
+
+.tm-shape:has(.tm-shape__targets :target) .tm-stagger > .tm-cell { margin-top: 0 !important; }
+
+@media (max-width: 899px) {
+	.tm-shape__rail { grid-column: 2 / -2; position: static; flex-direction: column; gap: .75rem; margin-bottom: 2.5rem !important; }
+	.tm-shape__title, .tm-shape__count { writing-mode: horizontal-tb; white-space: normal; }
+	.tm-shape__title::after { display: inline-block; margin: 0 0 0 .4em; vertical-align: middle; }
+	.tm-shape__body { grid-column: 2 / -2; }
+	.tm-stagger.tm-shelf, .tm-stagger .wc-block-product-template { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+	.tm-stagger > .tm-cell:nth-child(3n + 2), .tm-stagger .wc-block-product:nth-child(3n + 2) { margin-top: 0 !important; }
+	.tm-stagger > .tm-cell:nth-child(even), .tm-stagger .wc-block-product:nth-child(even) { margin-top: 2.5rem !important; }
+	.tm-filters--table .tm-filters__label { flex-basis: 100%; }
+}
+
+/* ---- Four shapes on a matcha band, tall strips read from the right. */
+.tm-strips-sec { padding-block: clamp(5rem, 3rem + 6vw, 9rem); background: var(--tm-matcha); color: var(--tm-sumi); }
+
+.tm-strips-sec__text { grid-column: 2 / 7; align-self: start; }
+
+.tm-strips-sec .tm-kicker { color: var(--tm-sumi); }
+
+.tm-strips-sec .tm-kicker::before { background: var(--tm-ai); }
+
+.tm-strips-sec__title { margin-top: 1.25rem !important; font-size: var(--wp--preset--font-size--xx-large) !important; }
+
+.tm-strips-sec__title em { color: var(--tm-ai); }
+
+.tm-strips-sec__lead { margin-top: 1.5rem !important; max-width: 30rem; font-size: var(--wp--preset--font-size--large); line-height: 1.7; }
+
+.tm-strips-sec .tm-links { margin-top: 2rem !important; }
+
+.tm-strips-sec .wp-block-button.is-style-arrow .wp-block-button__link { border-bottom-color: var(--tm-sumi); }
+
+.tm-strips-sec .wp-block-button.is-style-arrow .wp-block-button__link:hover { color: var(--tm-ai); border-bottom-color: var(--tm-ai); }
+
+.tm-strips-sec__picture { margin-top: clamp(2.5rem, 5vw, 4rem) !important; }
+
+.tm-strips-sec__picture img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+
+.tm-strips { grid-column: 8 / 14; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); direction: rtl; border-block: 1px solid var(--tm-sumi); }
+
+.tm-strip { direction: ltr; display: flex; flex-direction: column; align-items: center; gap: 1.25rem; min-height: clamp(22rem, 30vw, 28rem); padding: 1.75rem .5rem 2rem; border-left: 1px solid color-mix(in srgb, var(--tm-sumi) 35%, transparent); }
+
+.tm-strip:last-child { border-left: 0; }
+
+.tm-strip > * { margin: 0 !important; }
+
+.tm-strip__cm { font-family: var(--tm-display); font-size: clamp(2.6rem, 1.8rem + 2.4vw, 4.4rem); font-weight: 700; line-height: 1; color: var(--tm-ai); font-variant-numeric: lining-nums; }
+
+.tm-strip__cm span { font-size: .32em; font-weight: 400; letter-spacing: .06em; color: var(--tm-sumi); }
+
+.tm-strip__name { writing-mode: vertical-rl; font-size: clamp(1.6rem, 1.2rem + 1.2vw, 2.4rem) !important; font-weight: 700 !important; letter-spacing: .08em; white-space: nowrap; }
+
+.tm-strip__note { writing-mode: vertical-rl; max-height: 15rem; font-size: .9375rem; line-height: 1.7; letter-spacing: .04em; }
+
+@media (max-width: 899px) {
+	.tm-strips-sec__text { grid-column: 2 / -2; }
+	.tm-strips { grid-column: 2 / -2; margin-top: 3rem !important; }
+	.tm-strip { min-height: 24rem; padding-inline: .25rem; }
+	.tm-strip__note { max-height: 12rem; font-size: .875rem; }
+}
+
+@media (max-width: 480px) {
+	.tm-strips { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.tm-strip:nth-child(2) { border-left: 0; }
+	.tm-strip:nth-child(n + 3) { border-top: 1px solid color-mix(in srgb, var(--tm-sumi) 35%, transparent); }
+}
+
+/* ---- From block to brim: a tall etching set low, three steps with large vermilion numerals. */
+.tm-make { padding-block: clamp(5rem, 3rem + 7vw, 10rem); }
+
+.tm-make__picture { grid-column: 2 / 7; grid-row: 1; align-self: end; margin-top: clamp(4rem, 10vw, 10rem) !important; }
+
+.tm-make__picture img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
+
+.tm-make__text-col { grid-column: 8 / 14; grid-row: 1; align-self: start; }
+
+.tm-make__title { margin-top: 1.25rem !important; font-size: var(--wp--preset--font-size--xx-large) !important; }
+
+.tm-make__steps { counter-reset: tm-step; margin-top: clamp(2.5rem, 4vw, 3.5rem) !important; border-bottom: 1px solid var(--tm-line-strong); }
+
+.tm-make__step { counter-increment: tm-step; display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: .3rem 1.5rem; padding: 1.75rem 0; border-top: 1px solid var(--tm-line-strong); }
+
+.tm-make__step::before { content: counter(tm-step, cjk-decimal); grid-row: 1 / span 2; font-family: var(--tm-display); font-size: 3.2rem; font-weight: 700; line-height: 1; color: var(--tm-shu); }
+
+.tm-make__name { grid-column: 2; font-size: var(--wp--preset--font-size--x-large) !important; }
+
+.tm-make__text { grid-column: 2; max-width: 30rem; color: var(--tm-nezumi); }
+
+.tm-make .tm-links { margin-top: 2.25rem !important; }
+
+@media (max-width: 899px) {
+	.tm-make__picture { grid-column: 2 / 11; grid-row: 2; margin-top: 3.5rem !important; }
+	.tm-make__text-col { grid-column: 2 / -2; }
+	.tm-make__step { grid-template-columns: 3.25rem minmax(0, 1fr); }
+	.tm-make__step::before { font-size: 2.4rem; }
+}
+
+/* ---- Fit and sizing on a deep indigo band; the etching rises over the band's top edge. */
+.tm-fit { margin-top: clamp(4rem, 8vw, 9rem) !important; padding-block: clamp(4.5rem, 3rem + 5vw, 8rem); background: var(--tm-ai); color: var(--tm-gofun); }
+
+.tm-fit__text { grid-column: 2 / 8; }
+
+.tm-fit .tm-kicker { color: var(--tm-ai-pale); }
+
+.tm-fit__title { margin-top: 1.25rem !important; font-size: var(--wp--preset--font-size--xx-large) !important; color: var(--tm-gofun); }
+
+.tm-fit__title em { color: var(--tm-matcha); }
+
+.tm-fit__lead { margin-top: 1.5rem !important; max-width: 34rem; font-size: var(--wp--preset--font-size--large); line-height: 1.75; }
+
+.tm-fit .tm-card { margin-top: 2.25rem !important; padding: 1.25rem 1.5rem; background: transparent; border: 1px solid color-mix(in srgb, var(--tm-gofun) 35%, transparent); }
+
+.tm-fit .tm-care__row { border-top-color: color-mix(in srgb, var(--tm-gofun) 22%, transparent); }
+
+.tm-fit .tm-care__key { color: var(--tm-ai-pale); }
+
+.tm-fit a:not(.wp-block-button__link) { color: var(--tm-gofun); text-decoration-color: var(--tm-matcha); }
+
+.tm-fit .tm-links { margin-top: 2.25rem !important; }
+
+.tm-fit .wp-block-button:not(.is-style-arrow) .wp-block-button__link { background: var(--tm-gofun); color: var(--tm-ai); }
+
+.tm-fit .wp-block-button:not(.is-style-arrow) .wp-block-button__link:hover { background: var(--tm-shu); color: var(--tm-sumi); }
+
+.tm-fit__picture { grid-column: 9 / 14; align-self: start; margin-top: calc(-1 * clamp(7rem, 14vw, 13rem)) !important; padding: clamp(.6rem, 1vw, 1rem); background: var(--tm-washi); }
+
+.tm-fit__picture img { width: 100%; aspect-ratio: 1; object-fit: cover; mix-blend-mode: multiply; }
+
+@media (max-width: 899px) {
+	.tm-fit__text { grid-column: 2 / -2; grid-row: 2; }
+	.tm-fit__picture { grid-column: 5 / -2; grid-row: 1; margin-bottom: 3rem !important; }
+}
+
+/* ---- Journal as a ruled index; its title stands vertically on the right. */
+.tm-index-sec { padding-block: clamp(5rem, 3rem + 6vw, 9rem); }
+
+.tm-index-sec__head { grid-column: 12 / 14; grid-row: 1; display: flex; flex-direction: column; align-items: flex-end; gap: 1.5rem; }
+
+.tm-index-sec__title { writing-mode: vertical-rl; font-size: clamp(2.2rem, 1.4rem + 2.2vw, 3.6rem) !important; font-weight: 700 !important; letter-spacing: .04em; white-space: nowrap; }
+
+.tm-index-sec__head .tm-links { writing-mode: vertical-rl; }
+
+.tm-index-sec__head .wp-block-button.is-style-arrow .wp-block-button__link { border-bottom: 0; border-left: 2px solid var(--tm-shu); padding: 0 .35rem; }
+
+.tm-index-list { grid-column: 2 / 12; grid-row: 1; }
+
+.tm-index-list .wp-block-post-template { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--tm-line-strong); }
+
+.tm-index-list .wp-block-post-template > li { display: grid; grid-template-columns: 7rem minmax(0, 1fr) clamp(9rem, 18vw, 15rem); gap: 1rem var(--tm-g); align-items: start; margin: 0; padding: clamp(1.5rem, 2.5vw, 2.25rem) 0; border-top: 1px solid var(--tm-line-strong); }
+
+.tm-index-list li > * { margin: 0 !important; }
+
+.tm-index-list__date { padding-top: .5rem; font-family: var(--tm-sans); font-size: .875rem; letter-spacing: .08em; color: var(--tm-shu-deep); font-variant-numeric: tabular-nums; }
+
+.tm-index-list__body > * { margin: 0 !important; }
+
+.tm-index-list__body > * + * { margin-top: .75rem !important; }
+
+.tm-index-list .wp-block-post-title { font-size: clamp(1.45rem, 1.15rem + 1vw, 2.1rem) !important; line-height: 1.3; }
+
+.tm-index-list .wp-block-post-title a { color: var(--tm-sumi); text-decoration: none; }
+
+.tm-index-list .wp-block-post-title a:hover { color: var(--tm-shu-deep); }
+
+.tm-index-list .wp-block-post-excerpt { max-width: 36rem; color: var(--tm-nezumi); }
+
+.tm-index-list .wp-block-post-excerpt__excerpt { margin: 0; }
+
+.tm-index-list__picture { overflow: hidden; }
+
+@media (max-width: 899px) {
+	.tm-index-sec__head { grid-column: 2 / -2; flex-direction: row; justify-content: space-between; align-items: baseline; margin-bottom: 2rem !important; }
+	.tm-index-sec__head { flex-wrap: wrap; gap: 1rem 2rem; }
+	.tm-index-sec__title, .tm-index-sec__head .tm-links { writing-mode: horizontal-tb; white-space: normal; }
+	.tm-index-sec__head .wp-block-button.is-style-arrow .wp-block-button__link { border-left: 0; border-bottom: 2px solid var(--tm-shu); padding: .35rem 0; }
+	.tm-index-list { grid-column: 2 / -2; grid-row: 2; }
+	.tm-index-list .wp-block-post-template > li { grid-template-columns: minmax(0, 1fr) 7.5rem; }
+	.tm-index-list__date { grid-column: 1 / -1; padding: 0; }
+}
+
+/* ---- F4: the letter on an Edo purple band, then a shikon base with the vertical wordmark. */
+.tm-foot { margin-top: 0 !important; padding: 0; border: 0; background: none; color: var(--tm-sumi); }
+
+.tm-foot--letter > * { margin: 0 !important; }
+
+.tm-foot__letter { align-items: end; padding-block: clamp(4rem, 3rem + 4vw, 7rem); background: var(--tm-murasaki); color: var(--tm-gofun); }
+
+.tm-foot__kicker { grid-column: 2 / 8; font-size: .8125rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--tm-fuji); }
+
+.tm-foot__title { grid-column: 2 / 11; margin-top: 1rem !important; font-size: clamp(1.9rem, 1.3rem + 2.2vw, 3.4rem) !important; line-height: 1.22 !important; color: var(--tm-gofun); }
+
+.tm-foot__cta { grid-column: 11 / 14; justify-content: flex-end; }
+
+.tm-foot__cta .wp-block-button__link { background: var(--tm-gofun) !important; color: var(--tm-murasaki) !important; }
+
+.tm-foot__cta .wp-block-button__link:hover { background: var(--tm-shu) !important; color: var(--tm-sumi) !important; }
+
+.tm-foot__base { row-gap: 2.5rem; padding-block: clamp(3.5rem, 3rem + 3vw, 6rem) 2.5rem; background: var(--tm-shikon); color: var(--tm-gofun); }
+
+.tm-foot__mark { grid-column: 2 / 5; grid-row: 1 / span 2; writing-mode: vertical-rl; font-family: var(--tm-display); font-size: clamp(4rem, 2.5rem + 5vw, 8rem); font-weight: 700; line-height: 1; letter-spacing: .08em; }
+
+.tm-foot__mark a { color: var(--tm-shu); text-decoration: none; }
+
+
+.tm-foot__info { grid-column: 5 / 10; }
+
+.tm-foot__nav { grid-column: span 2; }
+
+.tm-foot__head { margin: 0 0 1rem !important; font-size: .8125rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--tm-fuji); }
+
+.tm-foot__links { display: flex; flex-direction: column; gap: .55rem; margin: 0 !important; }
+
+.tm-foot__links a { color: var(--tm-gofun); font-size: 1rem; text-decoration: none; }
+
+.tm-foot__base a:hover { color: var(--tm-shu); }
+
+.tm-foot__info .tm-foundry { border: 0; }
+
+.tm-foot__info .tm-foundry__row { grid-template-columns: 6.5rem minmax(0, 1fr); padding: .6rem 0; border-top: 1px solid color-mix(in srgb, var(--tm-gofun) 16%, transparent); }
+
+.tm-foot__info .tm-foundry__row:first-child { border-top: 0; padding-top: 0; }
+
+.tm-foot__info .tm-foundry__key { color: var(--tm-fuji); }
+
+.tm-foot__info .tm-foundry__value, .tm-foot__info .tm-foundry__value a { color: var(--tm-gofun); }
+
+.tm-foot__info .tm-foundry__row--maker, .tm-foot__info .tm-foundry__more { display: none; }
+
+.tm-foot__fine { grid-column: 5 / 14; padding-top: 1.25rem; border-top: 1px solid color-mix(in srgb, var(--tm-gofun) 16%, transparent); font-size: .8125rem; color: var(--tm-fuji); }
+
+@media (max-width: 899px) {
+	.tm-foot__kicker, .tm-foot__title, .tm-foot__cta { grid-column: 2 / -2; }
+	.tm-foot__cta { justify-content: flex-start; margin-top: 2rem !important; }
+	.tm-foot__mark { grid-column: 2 / 5; grid-row: 1 / span 3; font-size: 3.6rem; }
+	.tm-foot__info { grid-column: 5 / -2; }
+	.tm-foot__nav { grid-column: 5 / 9; grid-row: 2; }
+	.tm-foot__nav + .tm-foot__nav { grid-column: 9 / -2; }
+	.tm-foot__fine { grid-column: 2 / -2; }
+}
+
+@media (max-width: 480px) {
+	.tm-foot__info .tm-foundry__row { grid-template-columns: 1fr; gap: .2rem; }
+}
+
+/* ---- Inner pages, journal, older home markup: the same papers and inks. */
+.tm-section--paper { background-color: var(--tm-kinari); }
+
+.tm-section--graphite { background-color: var(--tm-ai); color: var(--tm-gofun); }
+
+.tm-section--graphite :where(h1, h2, h3, h4) { color: var(--tm-gofun); }
+
+.tm-section--graphite :where(h1, h2, h3, h4) em { color: var(--tm-matcha); }
+
+.tm-section--graphite .is-style-label, .tm-section--graphite .tm-care__key { color: var(--tm-ai-pale); }
+
+.tm-section--graphite .is-style-lead, .tm-section--graphite .tm-quiet { color: var(--tm-gofun); }
+
+.tm-section--graphite .tm-card { background: transparent; border-color: color-mix(in srgb, var(--tm-gofun) 35%, transparent); }
+
+.tm-section--graphite .tm-care__row { border-top-color: color-mix(in srgb, var(--tm-gofun) 22%, transparent); }
+
+.tm-section--graphite .wp-block-button.is-style-arrow .wp-block-button__link { color: var(--tm-gofun); border-bottom-color: var(--tm-matcha); }
+
+.tm-section--graphite a:not(.wp-block-button__link) { color: var(--tm-gofun); }
+
+.tm-card { background: color-mix(in srgb, var(--tm-gofun) 55%, transparent); border-color: var(--tm-fibre); }
+
+.tm-hero { background: var(--tm-washi); }
+
+.tm-step__num, .tm-origin__pct { font-family: var(--tm-display); font-style: normal; color: var(--tm-shu); }
+
+.tm-posts .wp-block-post-template > li:hover { background: color-mix(in srgb, var(--tm-kinari) 60%, transparent); }
+
+.tm-posts .wp-block-post-title { font-family: var(--tm-display); font-size: 1.5rem !important; }
+
+.tm-article__head .wp-block-post-title { font-size: var(--wp--preset--font-size--xx-large); line-height: 1.15; }
+
+.tm-prose h2 { font-family: var(--tm-display); }
+
+.tm-prose blockquote { border-left-color: var(--tm-shu); }
+
+.tm-crumbs, .tm-crumbs a { font-size: .875rem; color: var(--tm-nezumi); }
+
+.tm-lost__no { font-family: var(--tm-display); color: var(--tm-shu); }
+
+.tm-header--checkout { padding: 1.25rem var(--tm-pad); background: var(--tm-washi); border-bottom: 1px solid var(--tm-line-strong); }
+
+.tm-header--checkout .wp-block-site-title { font-family: var(--tm-display); font-size: 1.4rem; font-weight: 700; letter-spacing: .12em; }
+
+.tm-header--checkout .wp-block-site-title a { color: var(--tm-sumi); text-decoration: none; }
+
+.tm-header--checkout .tm-header__note { margin: 0; font-size: .8125rem; letter-spacing: .14em; text-transform: uppercase; color: var(--tm-nezumi); }
+
+@media (prefers-reduced-motion: reduce) {
+	.tm-stagger img, .tm-stagger .tm-cell:hover img { transform: scale(1.06) !important; }
+}
+
+/* Break-frame: the cut-out hat rises out of the matcha band over the shelf above. */
+.tm-strips-sec__cutout { position: relative; z-index: 3; width: min(100%, 30rem); margin: calc(-1 * clamp(10rem, 17vw, 16rem)) 0 clamp(1.5rem, 3vw, 2.5rem) clamp(-2rem, -2vw, 0rem) !important; pointer-events: none; }
+
+.tm-strips-sec__cutout img { width: 100%; height: auto; filter: drop-shadow(0 1.75rem 1.5rem rgba(40, 44, 10, .28)); }
+
+.tm-strips-sec { position: relative; }
+
+/* Indigo sections on inner pages: etchings keep their own paper, rows read in gofun white. */
+.tm-section--graphite .tm-frame { padding: clamp(.5rem, 1vw, .9rem); background: var(--tm-washi); }
+
+.tm-section--graphite .tm-frame img { mix-blend-mode: multiply; }
+
+.tm-section--graphite .tm-rows, .tm-section--graphite .tm-row { border-color: color-mix(in srgb, var(--tm-gofun) 24%, transparent); }
+
+.tm-section--graphite .tm-rows > .tm-row:first-child { border-top-color: var(--tm-gofun); }
+
+.tm-section--graphite .tm-row__no, .tm-section--graphite .tm-row__time { color: var(--tm-ai-pale); }
+
+.tm-section--graphite .tm-row__text, .tm-section--graphite .tm-step__text, .tm-section--graphite .tm-note .tm-step__text { color: var(--tm-gofun); }
+
+.tm-section--graphite .tm-step__num { color: var(--tm-matcha); }
+
+/* A page that already shows the synced atelier card keeps the footer to the wordmark and links. */
+body:has(.tm-main .tm-foundry) .tm-foot__info { visibility: hidden; }
+
+/* Shop archive: the chips as two rows of squared tags. */
+.tm-chips--shop { gap: .5rem; border: 0; }
+
+.tm-chips--shop a { border: 1px solid var(--tm-line-strong); padding: .45rem .95rem; font-family: var(--tm-sans); font-size: .875rem; }
+
+.tm-chips--shop a:hover { background: var(--tm-ai); border-color: var(--tm-ai); color: var(--tm-gofun); }
+
+.tm-opening__side > .tm-chips + .tm-chips { margin-top: .6rem !important; }
