@@ -15,7 +15,7 @@ A clean, serene and modern block theme for a **small neighbourhood physiotherapy
 
 - **H9 two-tier header.** A wash utility strip with today's opening hours (in the site's timezone) and the phone number, over the main bar with the site title, the menu and a "Book an assessment" pill.
 - **F7 CTA band footer.** A quiet deep-teal "Book an assessment" band, over the clinic details (address, phone and email, hours table) and a small sitemap.
-- **L7 single-column long read.** The home page walks through one first appointment in four chapters (assessment, hands-on, exercises, follow-up), each with a small line drawing. The combination H9 + F7 + L7 is not used by any other theme.
+- **L7 single-column long read.** The home page walks through one first appointment in four chapters (assessment, hands-on, exercises, follow-up), each one row with its number on a dotted rail and a line drawing. The combination H9 + F7 + L7 is not used by any other theme.
 
 ## One source for shared details
 

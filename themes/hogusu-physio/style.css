@@ -3,8 +3,8 @@ Theme Name: Hogusu Physio
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/hogusu-physio
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Hogusu Physio — clean, serene and modern health theme for a small neighbourhood physiotherapy clinic in a fictional town. Sea-glass mist pages, a pale sea-glass wash for panels, deep sea ink for text and one muted deep teal for lines, dots and numerals; Wix Madefor Display for headings over Wix Madefor Text. The hero and the chapter pictures are continuous single-line drawings (raster WebP; one unbroken deep-teal stroke per figure). Every page opens with a two-tier header (H9): a utility strip with today's hours and the phone number over the main bar with the menu and a "Book an assessment" pill. The home page is a single-column long read (L7) that walks through one first appointment in four chapters - assessment, hands-on, exercises, follow-up - each with a small line drawing, then fees, the team and the journal. The footer is a quiet "Book an assessment" band over the clinic details and a small sitemap (F7). Pages: Treatments, Your first visit, Fees, Team, Journal, Newsletter and Contact. Hours, phone and address are edited once in Appearance > Clinic details; the locator card and the fees table are synced patterns. WCAG AA colours.
-Version: 1.0.0
+Description: Hogusu Physio — clean, serene and modern health theme for a small neighbourhood physiotherapy clinic in a fictional town. Sea-glass mist pages, a pale sea-glass wash for panels, deep sea ink for text and one muted deep teal for lines, dots and numerals; Wix Madefor Display for headings over Wix Madefor Text. The hero and the chapter pictures are continuous single-line drawings (raster WebP; one unbroken deep-teal stroke per figure). Every page opens with a two-tier header (H9): a utility strip with today's hours and the phone number over the main bar with the menu and a "Book an assessment" pill. The home page is a single-column long read (L7) that walks through one first appointment in four chapters - assessment, hands-on, exercises, follow-up - each one row with its number on a dotted rail and a line drawing, then fees, the team and the journal. The footer is a quiet "Book an assessment" band over the clinic details and a small sitemap (F7). Pages: Treatments, Your first visit, Fees, Team, Journal, Newsletter and Contact. Hours, phone and address are edited once in Appearance > Clinic details; the locator card and the fees table are synced patterns. WCAG AA colours.
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -232,19 +232,35 @@ nav.mv-nav { margin-left: auto !important; }
 .mv-person__role { grid-column: 1; font-size: 0.8125rem; color: var(--mv-moss); }
 .mv-person__note { grid-column: 2; grid-row: 1 / span 2; font-size: 0.9375rem; }
 
-/* steps */
+/* steps: one row per chapter - number on a dotted rail | fixed-ratio drawing | text */
 .mv-steps-sec .mv-intro { text-align: center; }
 .mv-steps-sec .mv-intro .is-style-label { justify-content: center; }
 .mv-steps-sec .mv-intro__title { margin-inline: auto; }
+.mv-steps-sec .mv-intro__lead { max-width: 40rem; margin-inline: auto; text-wrap: pretty; }
 .mv-steps-sec--page { padding-top: clamp(2.5rem, 5vw, 4rem); }
-.mv-steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.5rem); position: relative; }
-.mv-step:not(:last-child)::after { content: ""; position: absolute; left: 3.6rem; right: 0.4rem; top: calc(1.5rem - 2px); height: 4px; background: radial-gradient(circle, var(--mv-teal) 0 1.4px, transparent 1.8px) 0 50% / 12px 4px repeat-x; opacity: 0.7; }
-.mv-steps > * { margin: 0 !important; }
-.mv-step { position: relative; }
-.mv-step > * { margin-top: 0 !important; }
-.mv-step__no { width: 3rem; height: 3rem; border-radius: 50%; background: var(--mv-mist); border: 1px solid var(--mv-teal); display: flex; align-items: center; justify-content: center; font-family: var(--wp--preset--font-family--display); font-size: 1.125rem; margin-bottom: 1.25rem !important; position: relative; }
+.mv-steps-sec, .mv-steps { --mv-step-no: 3rem; --mv-step-img: clamp(11rem, 24vw, 17rem); --mv-step-gap: clamp(1.25rem, 3vw, 2.5rem); --mv-step-space: clamp(2.25rem, 4.5vw, 3.5rem); }
+.mv-section.mv-steps-sec > .mv-steps, .mv-section.mv-steps-sec > .mv-step { max-width: min(100%, 60rem); margin-inline: auto !important; }
+.mv-steps > .mv-step { margin-block: 0 !important; }
+.mv-steps-sec > .mv-step { margin-block: 0 !important; }
+.mv-steps-sec > .mv-step + :not(.mv-step) { margin-top: var(--mv-step-space) !important; }
+.mv-step { position: relative; display: grid; grid-template-columns: var(--mv-step-no) var(--mv-step-img) minmax(0, 1fr); column-gap: var(--mv-step-gap); row-gap: 0; align-items: start; padding-bottom: var(--mv-step-space); }
+.mv-step:not(:has(+ .mv-step)) { padding-bottom: 0; }
+.mv-step > * { margin: 0 !important; grid-column: 3; }
+.mv-step > .mv-step__no { grid-column: 1; grid-row: 1 / span 3; }
+.mv-step > .mv-step__img { grid-column: 2; grid-row: 1 / span 3; }
+/* A list without any drawing drops the picture column; a single missing drawing keeps it so the text stays aligned. */
+:is(.mv-steps, .mv-steps-sec):not(:has(.mv-step__img)) .mv-step { grid-template-columns: var(--mv-step-no) minmax(0, 1fr); }
+:is(.mv-steps, .mv-steps-sec):not(:has(.mv-step__img)) .mv-step > :not(.mv-step__no) { grid-column: 2; }
+.mv-step:has(+ .mv-step)::before { content: ""; position: absolute; left: calc(var(--mv-step-no) / 2 - 2px); top: calc(var(--mv-step-no) + 0.75rem); bottom: 0.75rem; width: 4px; background: radial-gradient(circle, var(--mv-teal) 0 1.4px, transparent 1.8px) 50% 0 / 4px 12px repeat-y; opacity: 0.7; pointer-events: none; }
+.mv-step__no { width: var(--mv-step-no); height: var(--mv-step-no); border-radius: 50%; background: var(--mv-mist); border: 1px solid var(--mv-teal); display: flex; align-items: center; justify-content: center; font-family: var(--wp--preset--font-family--display); font-size: 1.125rem; line-height: 1; position: relative; z-index: 1; }
 .mv-band .mv-step__no { background: var(--mv-sage); }
-.mv-step__title { margin-bottom: 0.4rem !important; }
+.mv-step__img, .mv-step__img img { width: 100% !important; max-width: none; }
+.mv-step__img img { aspect-ratio: 3 / 2; height: auto; object-fit: cover; object-position: center; border-radius: calc(var(--mv-radius) * 0.6); background: var(--mv-sage); }
+.mv-step > .mv-step__title { margin-bottom: 0.6rem !important; }
+.mv-step__body > * { margin-top: 0 !important; }
+.mv-step__body > * + * { margin-top: 0.6rem !important; }
+.mv-step__body > .mv-step__title { margin-bottom: 0 !important; }
+.mv-step__title { line-height: 1.25; padding-top: calc((var(--mv-step-no) - 1.25em) / 2); }
 .mv-step__note { color: var(--mv-moss); font-size: 0.9375rem; }
 
 /* journal cards */
@@ -314,8 +330,6 @@ nav.mv-nav { margin-left: auto !important; }
 /* ---------- responsive ---------- */
 @media (max-width: 1023px) {
 	.mv-foot__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-	.mv-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-	.mv-step::after { display: none; }
 }
 @media (max-width: 781px) {
 	.mv-hero__grid, .mv-split, .mv-split--fees, .mv-split--contact, .mv-promises { grid-template-columns: minmax(0, 1fr); }
@@ -328,7 +342,13 @@ nav.mv-nav { margin-left: auto !important; }
 }
 @media (max-width: 599px) {
 	.mv-foot__grid { grid-template-columns: minmax(0, 1fr); }
-	.mv-steps { grid-template-columns: minmax(0, 1fr); }
+	.mv-steps-sec, .mv-steps { --mv-step-no: 2.5rem; --mv-step-gap: 1rem; }
+	.mv-step, :is(.mv-steps, .mv-steps-sec):not(:has(.mv-step__img)) .mv-step { grid-template-columns: var(--mv-step-no) minmax(0, 1fr); }
+	.mv-step > *, .mv-step > .mv-step__img { grid-column: 2; grid-row: auto; }
+	.mv-step > .mv-step__no { grid-column: 1; grid-row: 1 / span 3; }
+	.mv-step > .mv-step__img { margin-bottom: 1rem !important; }
+	.mv-step__img img { aspect-ratio: 16 / 9; }
+	.mv-step__title { padding-top: 0; }
 	.mv-loc__row { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
 	.mv-band-cta__row { align-items: flex-start; }
 }
