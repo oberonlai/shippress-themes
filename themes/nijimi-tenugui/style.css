@@ -1,0 +1,1297 @@
+/*
+Theme Name: Nijimi Tenugui
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/nijimi-tenugui
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Nijimi Tenugui — a handmade, organic store theme for a small tenugui dye workshop by the river in the fictional town of Kawasoe, pour-dyeing (chusen) cotton tenugui cloths in indigo since 1962, with WooCommerce templates styled to match. Pale indigo paper pages, an indigo wash for panels, deep indigo ink text and one muted dyer's blue; Kiwi Maru for display, Mona Sans for text. The hero and decorations are calm 2D flat vector illustrations (solid shapes, no outlines, repeat-pattern feel); product pictures are photographs. A floating pill header in pale indigo carries the menu, the account link and the cart (H10). The home page is an unfolding cloth (L13): one illustration of a tenugui stays pinned on the left while the chapters scroll beside it, and it changes from folded to opened to hung as each chapter comes into view; then a shelf of four cloths, the pour (paste, pour, rinse) as a wide flat illustration, the dye notes and care, and the journal. The footer opens with a strip of four cloth patterns cropped square (F8), then the name, the menu, the workshop address and hours. Pages: Shop, Patterns (the four stencil repeats with their meanings), How to use & care, The workshop (people, the dye week, visiting), Journal, Newsletter and Contact. The workshop details and the dye notes and care each live in one synced pattern (the care card shows in short form on the home page, in full on How to use & care and beside add-to-cart on every product); each cloth's specifications are product attributes (size, dye, cotton, method, ends), and size and dye print under every price (WooCommerce optional: without it the shop shows a static shelf and orders go by email).
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nijimi-tenugui
+Tags: block-patterns, full-site-editing, e-commerce, blog, blue, light, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, one-column, two-columns, three-columns, grid-layout
+*/
+
+/* ==========================================================================
+   0. Tokens + base
+   ========================================================================== */
+
+:root {
+	--nt-paper: var(--wp--preset--color--paper);
+	--nt-card: var(--wp--preset--color--card);
+	--nt-wash: var(--wp--preset--color--wash);
+	--nt-quiet: var(--wp--preset--color--quiet);
+	--nt-ink: var(--wp--preset--color--ink);
+	--nt-dyer: var(--wp--preset--color--dyer);
+	--nt-panel: var(--wp--custom--panel, #2B2D2F);
+	--nt-on-dark: var(--wp--custom--on-dark);
+	--nt-on-dark-muted: var(--wp--custom--on-dark-muted);
+	--nt-line: var(--wp--custom--line);
+	--nt-line-strong: var(--wp--custom--line-strong);
+	--nt-ease: var(--wp--custom--ease);
+	--nt-sans: var(--wp--preset--font-family--sans);
+	--nt-mono: var(--wp--preset--font-family--sans);
+	--nt-serif: var(--wp--preset--font-family--serif);
+	--nt-ink: var(--wp--preset--color--ink);
+	--nt-deep: var(--wp--preset--color--deep);
+	--nt-card: var(--wp--preset--color--card);
+	--nt-wide: var(--wp--style--global--wide-size, 1240px);
+	--nt-pad: var(--wp--style--root--padding-left, clamp(1.25rem, 4vw, 3rem));
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern";
+}
+
+img { display: block; max-width: 100%; height: auto; }
+
+.wp-site-blocks > * { margin-block-start: 0; }
+
+:where(.wp-block-post-content) > .alignfull { margin-block: 0; }
+
+:where(h1, h2, h3, h4) { text-wrap: balance; }
+
+:where(p) { text-wrap: pretty; }
+
+a { text-decoration-thickness: 1px; text-underline-offset: .22em; text-decoration-color: var(--nt-dyer); }
+
+a:hover { text-decoration-color: currentColor; }
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+	outline: 2px solid var(--nt-dyer);
+	outline-offset: 3px;
+}
+
+.skip-link.screen-reader-text:focus { background: var(--nt-card); color: var(--nt-ink); }
+
+hr.wp-block-separator { border: 0; border-top: 1px solid var(--nt-line-strong); opacity: 1; }
+
+
+/* ==========================================================================
+   1. Type helpers + block styles
+   ========================================================================== */
+
+/* Label: small spaced capitals. */
+.is-style-label,
+.nt-label {
+	display: flex;
+	align-items: center;
+	gap: .75rem;
+	margin: 0;
+	font-family: var(--nt-mono);
+	font-size: var(--wp--preset--font-size--x-small) !important;
+	font-weight: 400;
+	letter-spacing: .12em;
+	line-height: 1.4;
+	text-transform: uppercase;
+	color: var(--nt-quiet);
+}
+
+.is-style-label::before,
+.nt-label::before {
+	content: "";
+	flex: 0 0 auto;
+	width: 1.25rem;
+	height: 1px;
+	background: var(--nt-dyer);
+}
+
+.is-style-lead {
+	font-size: var(--wp--preset--font-size--large) !important;
+	font-weight: 300;
+	line-height: 1.55;
+	letter-spacing: -.005em;
+}
+
+.is-style-fine { font-size: var(--wp--preset--font-size--small) !important; color: var(--nt-quiet); }
+
+.is-style-spec { font-family: var(--nt-mono); font-size: var(--wp--preset--font-size--small) !important; letter-spacing: .02em; color: var(--nt-quiet); }
+
+/* Ruled rows list. */
+ul.is-style-ruled,
+ol.is-style-ruled { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--nt-line); }
+
+ul.is-style-ruled > li,
+ol.is-style-ruled > li { margin: 0; padding: .9rem 0 .9rem 2rem; border-top: 1px solid var(--nt-line); position: relative; }
+
+ul.is-style-ruled > li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 1.55rem;
+	width: .9rem;
+	height: 1px;
+	background: var(--nt-dyer);
+}
+
+ul.is-style-ruled strong { font-weight: 500; }
+
+/* Drawing frame: hairline corner ticks around the photograph, a monospace figure caption. */
+.wp-block-image.is-style-drawing { position: relative; margin-block: 0; padding: 0; }
+
+.wp-block-image.is-style-drawing::before {
+	content: "";
+	position: absolute;
+	inset: -.6rem;
+	z-index: 1;
+	pointer-events: none;
+	--t: var(--nt-line-strong);
+	background:
+		linear-gradient(var(--t) 0 0) top left / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) top left / 1px .9rem no-repeat,
+		linear-gradient(var(--t) 0 0) top right / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) top right / 1px .9rem no-repeat,
+		linear-gradient(var(--t) 0 0) bottom left / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) bottom left / 1px .9rem no-repeat,
+		linear-gradient(var(--t) 0 0) bottom right / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) bottom right / 1px .9rem no-repeat;
+}
+
+.wp-block-image.is-style-drawing:has(figcaption)::before { bottom: calc(-.6rem + 2.4rem); }
+
+.wp-block-image.is-style-drawing img { width: 100%; object-fit: cover; }
+
+.wp-block-image figcaption.wp-element-caption,
+.wp-block-image .wp-element-caption {
+	display: flex;
+	align-items: center;
+	gap: .6rem;
+	margin: .9rem 0 0;
+	font-family: var(--nt-mono);
+	font-size: .75rem;
+	letter-spacing: .04em;
+	text-align: left;
+	color: var(--nt-quiet);
+}
+
+.wp-block-image .wp-element-caption::before { content: ""; width: .6rem; height: 1px; background: var(--nt-dyer); flex: 0 0 auto; }
+
+/* Paper sheet panel. */
+.wp-block-group.is-style-sheet { padding: clamp(1.25rem, 3vw, 2rem); background: var(--nt-card); border: 1px solid var(--nt-line); }
+
+/* Underlined link with an arrow (button style). */
+.wp-block-button.is-style-arrow .wp-block-button__link {
+	display: inline-flex;
+	align-items: center;
+	gap: .6rem;
+	padding: .35rem 0;
+	border-radius: 0;
+	background: transparent;
+	color: var(--nt-ink);
+	border-bottom: 1px solid var(--nt-ink);
+}
+
+.wp-block-button.is-style-arrow .wp-block-button__link::after {
+	content: "\2192";
+	font-family: var(--nt-mono);
+	transition: transform .4s var(--nt-ease);
+}
+
+.wp-block-button.is-style-arrow .wp-block-button__link:hover { background: transparent; color: var(--nt-ink); border-bottom-color: var(--nt-dyer); }
+
+.wp-block-button.is-style-arrow .wp-block-button__link:hover::after { transform: translateX(.3rem); }
+
+.wp-block-buttons { gap: 1rem 1.75rem; align-items: center; }
+
+.wp-element-button,
+.wp-block-button__link { transition: background-color .3s ease, color .3s ease, border-color .3s ease; }
+
+/* ==========================================================================
+   2. Layout helpers
+   ========================================================================== */
+
+.nt-section { padding-block: var(--wp--preset--spacing--50); }
+
+.nt-section--flush-top { padding-top: 0; }
+
+.nt-section--paper { background-color: var(--nt-card); }
+
+.nt-section--rule { border-top: 1px solid var(--nt-line); }
+
+.nt-section--opening { padding-top: var(--wp--preset--spacing--40); }
+
+.nt-section--dark { background-color: var(--nt-panel); color: var(--nt-on-dark); }
+
+.nt-section--dark :where(h1, h2, h3, h4) { color: var(--nt-on-dark); }
+
+.nt-section--dark .is-style-label { color: var(--nt-on-dark-muted); }
+
+.nt-section--dark .wp-block-button:not(.is-style-arrow) .wp-block-button__link { background: var(--nt-on-dark); color: var(--nt-panel); }
+
+.nt-section--dark .wp-block-button:not(.is-style-arrow) .wp-block-button__link:hover { background: var(--nt-card); }
+
+.nt-stack > * { margin-block: 0; }
+
+.nt-stack > * + * { margin-block-start: 1.25rem; }
+
+.nt-stack > .wp-block-buttons,
+.nt-stack > .wp-block-image,
+.nt-stack > .nt-steps,
+.nt-stack > .wp-block-list { margin-block-start: 2rem; }
+
+.nt-head {
+	display: grid;
+	gap: 1rem;
+	max-width: 46rem;
+	margin-bottom: var(--wp--preset--spacing--40);
+}
+
+.nt-head > * { margin: 0 !important; }
+
+.nt-head--row {
+	max-width: none;
+	grid-template-columns: minmax(0, 1fr) auto;
+	align-items: end;
+}
+
+.nt-head__note { font-family: var(--nt-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--nt-quiet); }
+
+.nt-split {
+	display: grid;
+	gap: var(--wp--preset--spacing--40) var(--wp--preset--spacing--50);
+	align-items: center;
+}
+
+.nt-split > * { margin: 0 !important; min-width: 0; }
+
+@media (min-width: 782px) {
+	.nt-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.nt-split--5-7 { grid-template-columns: 5fr 7fr; }
+	.nt-split--7-5 { grid-template-columns: 7fr 5fr; }
+	.nt-split--top { align-items: start; }
+}
+
+@media (max-width: 781px) {
+	.nt-head--row { grid-template-columns: 1fr; }
+}
+
+.nt-center-text { text-align: center; }
+
+/* Opening title block: big light title on the left, lead and buttons on the right, a hairline under both. */
+.nt-opening {
+	display: grid;
+	gap: var(--wp--preset--spacing--30) var(--wp--preset--spacing--50);
+	align-items: end;
+	padding-bottom: var(--wp--preset--spacing--40);
+}
+
+.nt-opening > * { margin: 0 !important; min-width: 0; }
+
+.nt-opening__title > * + * { margin-block-start: 1.5rem; }
+
+.nt-opening__title > *,
+.nt-opening__side > * { margin-block-end: 0; }
+
+.nt-opening__side > * { margin-block-start: 0; }
+
+.nt-opening__side > * + * { margin-block-start: 1.5rem; }
+
+.nt-opening h1,
+.nt-opening .wp-block-query-title { max-width: 14em; font-size: var(--wp--preset--font-size--display); font-weight: 300; line-height: 1.02; letter-spacing: -.035em; }
+
+@media (min-width: 900px) {
+	.nt-opening { grid-template-columns: 7fr 5fr; }
+}
+
+.nt-page-head--simple .wp-block-post-title { font-size: var(--wp--preset--font-size--xx-large); }
+
+/* Sheet head: a ruled monospace row above a grid, like the top band of a drawing sheet. */
+.nt-sheet-head {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: .5rem 2rem;
+	padding: .8rem 0;
+	border-top: 1px solid var(--nt-ink);
+	font-family: var(--nt-mono);
+	font-size: .75rem;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+}
+
+.nt-sheet-head > * { margin: 0 !important; }
+
+.nt-sheet-head__meta { color: var(--nt-quiet); }
+
+p.nt-sheet-head__title { margin: 0; font-family: var(--nt-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; }
+
+/* Wide photographs. */
+.nt-wide-picture { margin-top: var(--wp--preset--spacing--30) !important; }
+
+.nt-wide-picture img { aspect-ratio: 21 / 9; }
+
+@media (max-width: 781px) {
+	.nt-wide-picture img { aspect-ratio: 4 / 3; }
+}
+
+/* ==========================================================================
+   5. Steps, cells, rows, spec sheets
+   ========================================================================== */
+
+.nt-steps { display: grid; gap: 1.75rem 2rem; }
+
+@media (min-width: 600px) {
+	.nt-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.nt-steps--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.nt-steps > * { margin: 0 !important; }
+
+.nt-step { position: relative; padding-top: 1rem; border-top: 1px solid var(--nt-line-strong); }
+
+.nt-step::before { content: ""; position: absolute; left: 0; top: -1px; width: 1.5rem; height: 2px; background: var(--nt-dyer); }
+
+.nt-step > * { margin: 0 !important; }
+
+.nt-step__no { font-family: var(--nt-mono); font-size: .75rem; letter-spacing: .08em; color: var(--nt-quiet); }
+
+.nt-step__title { margin-top: .5rem !important; font-size: var(--wp--preset--font-size--large) !important; font-weight: 400 !important; }
+
+.nt-step__text { margin-top: .5rem !important; font-size: var(--wp--preset--font-size--small); line-height: 1.6; color: var(--nt-quiet); }
+
+/* People cells. */
+.nt-cells { display: grid; border-top: 1px solid var(--nt-line-strong); }
+
+@media (min-width: 782px) {
+	.nt-cells--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.nt-cells--3 > .nt-cell + .nt-cell { border-left: 1px solid var(--nt-line); }
+}
+
+.nt-cells > * { margin: 0 !important; }
+
+.nt-cell { padding: 1.5rem clamp(0rem, 2vw, 1.75rem) 2rem; border-bottom: 1px solid var(--nt-line); }
+
+.nt-cell:first-child { padding-left: 0; }
+
+.nt-cell > * { margin: 0 !important; }
+
+.nt-cell > * + * { margin-top: .6rem !important; }
+
+.nt-cell__no { font-family: var(--nt-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--nt-quiet); }
+
+.nt-cell__title { margin-top: 1.5rem !important; font-size: var(--wp--preset--font-size--x-large) !important; font-weight: 300 !important; }
+
+.nt-cell__role { font-family: var(--nt-mono); font-size: .8125rem; color: var(--nt-ink); }
+
+.nt-cell p:last-child { font-size: var(--wp--preset--font-size--small); color: var(--nt-quiet); }
+
+@media (max-width: 781px) {
+	.nt-cell { padding-inline: 0; }
+}
+
+/* Spec sheet: monospace key, value. */
+.nt-spec { border-bottom: 1px solid var(--nt-line); }
+
+.nt-spec__row {
+	display: grid;
+	grid-template-columns: minmax(7.5rem, 2fr) 5fr;
+	gap: 1rem;
+	padding: .85rem 0;
+	border-top: 1px solid var(--nt-line);
+}
+
+.nt-spec__row > * { margin: 0 !important; }
+
+.nt-spec__key { font-family: var(--nt-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--nt-quiet); padding-top: .2rem; }
+
+.nt-spec__value { font-size: var(--wp--preset--font-size--medium); }
+
+.nt-spec > .nt-spec__row:first-child { border-top-color: var(--nt-line-strong); }
+
+/* Facts row (builds head). */
+.nt-facts {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	border-top: 1px solid var(--nt-ink);
+	border-bottom: 1px solid var(--nt-line);
+}
+
+@media (min-width: 782px) {
+	.nt-facts { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+.nt-facts > * { margin: 0 !important; }
+
+.nt-fact { padding: 1.1rem 1.25rem 1.25rem 0; }
+
+.nt-fact + .nt-fact { padding-left: 1.25rem; border-left: 1px solid var(--nt-line); }
+
+@media (max-width: 781px) {
+	.nt-fact:nth-child(3) { padding-left: 0; border-left: 0; }
+	.nt-fact:nth-child(n+3) { border-top: 1px solid var(--nt-line); }
+}
+
+.nt-fact > * { margin: 0 !important; }
+
+.nt-fact__key { font-family: var(--nt-mono); font-size: .6875rem; letter-spacing: .08em; text-transform: uppercase; color: var(--nt-quiet); }
+
+.nt-fact__value { margin-top: .4rem !important; font-size: var(--wp--preset--font-size--large); font-weight: 300; letter-spacing: -.01em; }
+
+/* Process rows (builds). */
+.nt-rows { border-bottom: 1px solid var(--nt-line); }
+
+.nt-row {
+	display: grid;
+	grid-template-columns: 3rem minmax(0, 3fr) minmax(0, 2fr) minmax(0, 6fr);
+	gap: .5rem 1.5rem;
+	align-items: baseline;
+	padding: 1.4rem 0;
+	border-top: 1px solid var(--nt-line);
+	position: relative;
+}
+
+.nt-rows > .nt-row:first-child { border-top-color: var(--nt-ink); }
+
+.nt-row > * { margin: 0 !important; }
+
+.nt-row__no { font-family: var(--nt-mono); font-size: .75rem; color: var(--nt-quiet); }
+
+.nt-row__title { font-size: var(--wp--preset--font-size--x-large) !important; font-weight: 300 !important; }
+
+.nt-row__time { font-family: var(--nt-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; }
+
+.nt-row__text { color: var(--nt-quiet); }
+
+@media (max-width: 781px) {
+	.nt-row { grid-template-columns: 2.25rem minmax(0, 1fr); }
+	.nt-row__time,
+	.nt-row__text { grid-column: 2; }
+}
+
+/* Gallery. */
+.nt-gallery {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: var(--wp--preset--spacing--30);
+}
+
+@media (min-width: 782px) {
+	.nt-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.nt-gallery > * { margin: 0 !important; }
+
+.nt-gallery__item img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: var(--nt-card); }
+
+/* ==========================================================================
+   6. Synced blocks: workshop card, price list
+   ========================================================================== */
+
+.nt-house { border-bottom: 1px solid var(--nt-line); }
+
+.nt-house__row {
+	display: grid;
+	grid-template-columns: 6.5rem minmax(0, 1fr);
+	gap: 1rem;
+	padding: .9rem 0;
+	border-top: 1px solid var(--nt-line);
+}
+
+.nt-house__row > * { margin: 0 !important; }
+
+.nt-house__key { padding-top: .2rem; font-family: var(--nt-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--nt-quiet); }
+
+.nt-house__value { line-height: 1.6; }
+
+.nt-prices { border-bottom: 1px solid var(--nt-line); }
+
+.nt-price {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 8rem 6.5rem;
+	gap: 1rem;
+	align-items: baseline;
+	padding: .85rem 0;
+	border-top: 1px solid var(--nt-line);
+}
+
+.nt-price > * { margin: 0 !important; }
+
+.nt-price--head { padding-block: .6rem; border-top: 1px solid var(--nt-ink); font-family: var(--nt-mono); font-size: .6875rem; letter-spacing: .08em; text-transform: uppercase; color: var(--nt-quiet); }
+
+.nt-price--head p:last-child,
+.nt-price__cost { text-align: right; }
+
+.nt-price__time { font-family: var(--nt-mono); font-size: .75rem; color: var(--nt-quiet); }
+
+.nt-price__cost { font-family: var(--nt-mono); font-size: .9375rem; font-weight: 500; white-space: nowrap; }
+
+.nt-prices__note { margin: 0 !important; padding: .9rem 0; border-top: 1px solid var(--nt-line); font-size: var(--wp--preset--font-size--small); color: var(--nt-quiet); }
+
+@media (max-width: 599px) {
+	.nt-price { grid-template-columns: minmax(0, 1fr) auto; gap: .2rem 1rem; }
+	.nt-price__name { grid-column: 1 / -1; }
+	.nt-price--head p:nth-child(2) { display: none; }
+}
+
+.nt-repair__prices > * + * { margin-top: 0 !important; }
+
+.nt-repair__prices .nt-sheet-head__title { padding-bottom: .9rem; }
+
+/* ==========================================================================
+   7. Journal: posts in ruled cells, the article
+   ========================================================================== */
+
+.nt-chips { display: flex; flex-wrap: wrap; gap: 0; margin: 0; border-left: 1px solid var(--nt-line-strong); }
+
+.nt-opening__side > .nt-chips { width: fit-content; margin-top: 1.5rem !important; }
+
+.nt-chips a {
+	padding: .45rem .9rem;
+	border: 1px solid var(--nt-line-strong);
+	border-left: 0;
+	font-family: var(--nt-mono);
+	font-size: .75rem;
+	letter-spacing: .04em;
+	color: var(--nt-ink);
+	text-decoration: none;
+	transition: background-color .3s ease;
+}
+
+.nt-chips a:hover { background: var(--nt-card); }
+
+.nt-posts .wp-block-post-template {
+	gap: 0 !important;
+	border-top: 1px solid var(--nt-line-strong);
+	border-left: 1px solid var(--nt-line);
+}
+
+.nt-posts .wp-block-post-template > li {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: clamp(1rem, 2vw, 1.5rem);
+	border-right: 1px solid var(--nt-line);
+	border-bottom: 1px solid var(--nt-line);
+	transition: background-color .4s ease;
+}
+
+.nt-posts .wp-block-post-template > li:hover { background: var(--nt-card); }
+
+.nt-posts .wp-block-post-featured-image { margin: 0; overflow: hidden; background: var(--nt-card); }
+
+.nt-posts .wp-block-post-featured-image img { transition: transform 1.2s var(--nt-ease); }
+
+.nt-posts li:hover .wp-block-post-featured-image img { transform: scale(1.03); }
+
+.nt-post-body { margin-top: 1.1rem !important; }
+
+.nt-post-body > * { margin: 0 !important; }
+
+.nt-post-body > * + * { margin-top: .6rem !important; }
+
+.nt-post-meta { gap: .35rem 1rem; align-items: baseline; }
+
+.nt-post-meta > * { margin: 0 !important; }
+
+.nt-post-meta .wp-block-post-terms a { color: var(--nt-quiet); text-decoration: none; }
+
+.nt-post-meta .wp-block-post-terms a:hover { color: var(--nt-ink); }
+
+.nt-posts .wp-block-post-title { font-size: var(--wp--preset--font-size--large) !important; font-weight: 400; line-height: 1.3; letter-spacing: -.01em; }
+
+.nt-posts .wp-block-post-excerpt { font-size: var(--wp--preset--font-size--small); color: var(--nt-quiet); }
+
+.nt-posts .wp-block-post-excerpt__excerpt { margin: 0; }
+
+@media (max-width: 781px) {
+	.nt-posts .wp-block-post-template { grid-template-columns: 1fr !important; }
+}
+
+.nt-pagination { margin-top: var(--wp--preset--spacing--40) !important; font-family: var(--nt-mono); font-size: .8125rem; }
+
+.nt-pagination a { text-decoration: none; }
+
+.nt-article { padding-top: var(--wp--preset--spacing--40); }
+
+.nt-article__head { max-width: 58rem; }
+
+.nt-article__head > * { margin: 0 !important; }
+
+.nt-article__head > * + * { margin-top: 1.25rem !important; }
+
+.nt-article__head .wp-block-post-title { font-size: var(--wp--preset--font-size--xx-large); }
+
+.nt-article__dek { font-size: var(--wp--preset--font-size--large); font-weight: 300; line-height: 1.5; color: var(--nt-quiet); }
+
+.nt-article__dek p { margin: 0; }
+
+.nt-article__picture { margin-top: var(--wp--preset--spacing--40) !important; }
+
+.nt-prose { margin-top: var(--wp--preset--spacing--40) !important; }
+
+.nt-prose > * { max-width: 680px; }
+
+.nt-prose p,
+.nt-prose li { font-size: 1.0625rem; line-height: 1.75; }
+
+.nt-prose h2 { margin-top: 2.5rem; font-size: var(--wp--preset--font-size--x-large); font-weight: 400; }
+
+.nt-prose h3 { margin-top: 2rem; }
+
+.nt-prose blockquote { margin-block: 2rem; }
+
+.nt-prose blockquote cite { display: block; margin-top: .75rem; font-family: var(--nt-mono); font-size: .75rem; font-style: normal; letter-spacing: .06em; text-transform: uppercase; color: var(--nt-quiet); }
+
+.nt-prose ul { padding-left: 1.25rem; }
+
+.nt-prose li::marker { color: var(--nt-dyer); }
+
+.nt-article__foot {
+	display: grid;
+	gap: 1rem 2rem;
+	margin-top: var(--wp--preset--spacing--40) !important;
+	padding-top: 1.25rem;
+	border-top: 1px solid var(--nt-line-strong);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.nt-article__foot > * { margin: 0 !important; }
+
+@media (min-width: 782px) {
+	.nt-article__foot { grid-template-columns: 1fr 1fr; }
+	.nt-article__foot > .wp-block-post-terms { grid-column: 1 / -1; }
+	.nt-article__foot > .post-navigation-link-next { text-align: right; }
+}
+
+.nt-article__foot a { text-decoration: none; }
+
+.nt-article__foot .wp-block-post-navigation-link { font-family: var(--nt-mono); font-size: .75rem; letter-spacing: .04em; text-transform: uppercase; color: var(--nt-quiet); }
+
+.nt-article__foot .wp-block-post-navigation-link a { display: block; margin-top: .35rem; font-family: var(--nt-sans); font-size: var(--wp--preset--font-size--medium); letter-spacing: 0; text-transform: none; color: var(--nt-ink); }
+
+/* Closing call-to-action band (builds). */
+.nt-cta { padding: var(--wp--preset--spacing--40) 0; border-top: 1px solid var(--nt-ink); border-bottom: 1px solid var(--nt-line); }
+
+/* ==========================================================================
+   8. Newsletter, contact, forms, FAQ, index, 404
+   ========================================================================== */
+
+.nt-letter-cta { max-width: 40rem; margin-inline: auto; text-align: center; }
+
+.nt-letter-cta > * { margin: 0 !important; }
+
+.nt-letter-cta > * + * { margin-top: 1.25rem !important; }
+
+.nt-letter-cta > hr.wp-block-separator { margin-inline: auto !important; }
+
+.nt-letter-cta .is-style-label { justify-content: center; margin-top: 2rem !important; }
+
+.nt-letter-cta .is-style-label::before { display: none; }
+
+.nt-letter-cta .wp-block-buttons { justify-content: center; margin-top: 2rem !important; }
+
+.nt-form { display: grid; gap: 1.1rem; }
+
+.nt-form label { display: grid; gap: .45rem; font-family: var(--nt-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--nt-quiet); }
+
+.nt-form input,
+.nt-form select,
+.nt-form textarea {
+	box-sizing: border-box;
+	width: 100%;
+	padding: .8rem 1rem;
+	border: 1px solid var(--nt-line-strong);
+	border-radius: 0;
+	background: var(--nt-card);
+	color: var(--nt-ink);
+	font: 400 1rem / 1.4 var(--nt-sans);
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.nt-form input,
+.nt-form select { height: calc(3rem + 2px); }
+
+.nt-form input:focus,
+.nt-form select:focus,
+.nt-form textarea:focus { border-color: var(--nt-ink); outline: 0; }
+
+.nt-form button {
+	justify-self: start;
+	padding: .9rem 1.6rem;
+	border: 0;
+	border-radius: 0;
+	background: var(--nt-ink);
+	color: var(--nt-card);
+	font: 500 var(--wp--preset--font-size--small) / 1 var(--nt-sans);
+	letter-spacing: .02em;
+	cursor: pointer;
+	transition: background-color .3s ease;
+}
+
+.nt-form button:hover { background: var(--nt-quiet); }
+
+.nt-form--inline { grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 0; max-width: 32rem; }
+
+.nt-form--inline button { height: calc(3rem + 2px); }
+
+@media (max-width: 420px) {
+	.nt-form--inline { grid-template-columns: 1fr; gap: .6rem; }
+}
+
+.nt-faq { border-bottom: 1px solid var(--nt-line); }
+
+.nt-faq > * { margin: 0 !important; }
+
+.nt-faq details { border-top: 1px solid var(--nt-line); }
+
+.nt-faq details:first-child { border-top-color: var(--nt-ink); }
+
+.nt-faq summary {
+	position: relative;
+	padding: 1.1rem 2.5rem 1.1rem 0;
+	font-size: var(--wp--preset--font-size--large);
+	font-weight: 400;
+	list-style: none;
+	cursor: pointer;
+}
+
+.nt-faq summary::-webkit-details-marker { display: none; }
+
+.nt-faq summary::after {
+	content: "+";
+	position: absolute;
+	right: 0;
+	top: 1.05rem;
+	font-family: var(--nt-mono);
+	font-weight: 400;
+	color: var(--nt-quiet);
+	transition: transform .3s ease;
+}
+
+.nt-faq details[open] summary::after { transform: rotate(45deg); }
+
+.nt-faq details > p { margin: 0 0 1.25rem; max-width: 40rem; color: var(--nt-quiet); }
+
+.nt-index { border-bottom: 1px solid var(--nt-line); }
+
+.nt-index__row {
+	display: grid;
+	grid-template-columns: 5rem 9rem minmax(0, 1fr);
+	gap: 1rem;
+	align-items: baseline;
+	padding: 1rem 0;
+	border-top: 1px solid var(--nt-line);
+}
+
+.nt-index > .nt-index__row:first-child { border-top-color: var(--nt-ink); }
+
+.nt-index__row > * { margin: 0 !important; }
+
+.nt-index__no,
+.nt-index__date { font-family: var(--nt-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--nt-quiet); }
+
+.nt-index__title { font-size: var(--wp--preset--font-size--large); font-weight: 300; }
+
+@media (max-width: 599px) {
+	.nt-index__row { grid-template-columns: 4rem minmax(0, 1fr); gap: .2rem 1rem; }
+	.nt-index__title { grid-column: 1 / -1; }
+}
+
+.nt-lost { max-width: 40rem; margin-inline: auto; padding-block: var(--wp--preset--spacing--40); text-align: center; }
+
+.nt-lost > * { margin: 0 auto !important; }
+
+.nt-lost > * + * { margin-top: 1.5rem !important; }
+
+.nt-lost__no { font-family: var(--nt-mono); font-size: clamp(4rem, 3rem + 6vw, 8rem); font-weight: 400; line-height: 1; letter-spacing: -.04em; color: var(--nt-ink); }
+
+.nt-lost__title { font-size: var(--wp--preset--font-size--xx-large) !important; }
+
+.nt-lost .wp-block-buttons { justify-content: center; }
+
+.nt-search-form .wp-block-search__inside-wrapper { gap: 0; border: 0; padding: 0; }
+
+.nt-search-form .wp-block-search__input {
+	padding: .8rem 1rem;
+	border: 1px solid var(--nt-line-strong);
+	border-radius: 0;
+	background: var(--nt-card);
+	color: var(--nt-ink);
+	font-family: var(--nt-sans);
+}
+
+.nt-search-form .wp-block-search__button {
+	margin-left: 0;
+	padding: .8rem 1.3rem;
+	border: 0;
+	border-radius: 0;
+	background: var(--nt-ink);
+	color: var(--nt-card);
+	font-family: var(--nt-sans);
+	font-weight: 500;
+}
+
+.nt-lost .nt-search-form { max-width: 28rem; }
+
+/* ==========================================================================
+   10. Motion: none for those who ask for less
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+	html { scroll-behavior: auto; }
+	*,
+	*::before,
+	*::after { animation: none !important; transition: none !important; }
+}
+
+/* ==========================================================================
+   11. Nijimi Tenugui: floating pill header (H10), the unfolding cloth with
+       scrolling chapters (L13), flat indigo cards, and the strip of cloth
+       patterns at the top of the footer (F8)
+   ========================================================================== */
+
+:root {
+	--nt-wash: var(--wp--preset--color--wash);
+	--nt-hair: var(--wp--preset--color--hairline);
+	--nt-dyer: var(--wp--preset--color--dyer);
+	--nt-deep: var(--wp--preset--color--deep);
+	--nt-head-h: 4rem;
+	--nt-head-top: .9rem;
+	--nt-admin: 0px;
+}
+
+.admin-bar { --nt-admin: 32px; }
+
+@media (max-width: 782px) {
+	.admin-bar { --nt-admin: 46px; }
+}
+
+:where(h1, h2, h3, h4, .wp-block-post-title) { font-family: var(--nt-serif); font-weight: 400; letter-spacing: 0; }
+
+/* Kiwi Maru has no italic: emphasis is a quiet change of blue instead. */
+:where(h1, h2, h3, h4) em { font-style: normal; color: var(--nt-dyer); }
+
+a { text-decoration-color: var(--nt-dyer); }
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible { outline-color: var(--nt-deep); }
+
+.nt-opening h1, .nt-opening .wp-block-query-title { max-width: 15em; font-size: clamp(2.2rem, 1.6rem + 2.4vw, 3.75rem); font-weight: 400; letter-spacing: -.01em; line-height: 1.2; }
+
+.is-style-lead { font-weight: 400; color: var(--nt-quiet); line-height: 1.75; }
+
+/* Label: spaced capitals after a small dyed square. */
+.is-style-label, .nt-label { gap: .7rem; font-family: var(--nt-sans); font-size: .72rem !important; font-weight: 600; letter-spacing: .2em; color: var(--nt-deep); }
+
+.is-style-label::before, .nt-label::before { width: .5rem; height: .5rem; background: var(--nt-dyer); }
+
+.nt-head--center { max-width: 40rem; margin-inline: auto; text-align: center; justify-items: center; }
+
+.nt-head--center .is-style-label { justify-content: center; }
+
+.nt-head-wrap > .nt-head { margin-bottom: var(--wp--preset--spacing--40); }
+
+.nt-head .wp-block-buttons { margin: 0; }
+
+.nt-quiet { color: var(--nt-quiet); }
+
+.nt-main, .nt-main.nt-main--front { padding-top: calc(var(--nt-head-h) + var(--nt-head-top) + 1rem); }
+
+body:has(.nt-header--checkout) .nt-main { padding-top: 0; }
+
+.nt-section--wash { background-color: var(--nt-wash); }
+
+.nt-section--paper { background-color: var(--nt-card); }
+
+/* Cards: cloth white with a hairline. */
+.wp-block-group.is-style-sheet,
+.nt-card { position: relative; padding: clamp(1.25rem, 3vw, 2.25rem); background: var(--nt-card); border: 1px solid var(--nt-hair); border-radius: 4px; }
+
+.wp-block-separator.is-style-edge { width: 5rem !important; height: 3px; border: 0 !important; background: linear-gradient(var(--nt-hair) 0 0) top / 100% 1px no-repeat, linear-gradient(var(--nt-dyer) 0 0) bottom / 100% 1px no-repeat; }
+
+/* Framed pictures: a soft hairline, square corners kept small. */
+.nt-frame { position: relative; margin: 0 !important; overflow: hidden; border-radius: 4px; background: var(--nt-card); }
+
+.nt-frame img { width: 100%; height: 100%; object-fit: cover; }
+
+.nt-frame--art { background: var(--nt-card); border: 1px solid var(--nt-hair); }
+
+.nt-frame--art img { object-fit: contain; }
+
+.nt-frame--portrait img { aspect-ratio: 4 / 5; }
+
+.nt-split__picture img { aspect-ratio: 5 / 4; }
+
+.nt-split__picture.nt-frame--art img { aspect-ratio: 4 / 5; }
+
+/* ---- Buttons: deep indigo pills (like the header); the arrow link underlined in dyer's blue. */
+.wp-block-button:not(.is-style-arrow) .wp-block-button__link { border-radius: 999px; background: var(--nt-ink); color: var(--nt-paper); }
+
+.wp-block-button:not(.is-style-arrow) .wp-block-button__link:hover { background: var(--nt-deep); color: var(--nt-paper); }
+
+.wp-block-button.is-style-arrow .wp-block-button__link { gap: .7rem; padding: .3rem 0; font-family: var(--nt-sans); font-size: .8rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--nt-ink); background: none; border-radius: 0; border-bottom: 1px solid var(--nt-dyer); }
+
+.wp-block-button.is-style-arrow .wp-block-button__link:hover { color: var(--nt-deep); border-bottom-color: var(--nt-deep); }
+
+.nt-links { gap: 1rem 1.75rem; align-items: center; }
+
+/* ---- Header (H10): a floating pill in pale indigo, never touching the page edges, with the cart at its end. */
+.nt-header {
+	position: fixed;
+	z-index: 50;
+	top: calc(var(--nt-admin) + var(--nt-head-top));
+	left: 0;
+	right: 0;
+	margin: 0 !important;
+	padding-inline: var(--nt-pad);
+	pointer-events: none;
+}
+
+.nt-header--checkout { position: relative; top: 0; padding-block: var(--nt-head-top); }
+
+.nt-pill {
+	pointer-events: auto;
+	max-width: var(--nt-wide);
+	min-height: var(--nt-head-h);
+	margin-inline: auto;
+	padding: .5rem .6rem .5rem 1.6rem;
+	gap: 1.25rem;
+	border-radius: 999px;
+	background: color-mix(in srgb, var(--nt-wash) 86%, transparent);
+	-webkit-backdrop-filter: blur(12px);
+	backdrop-filter: blur(12px);
+	box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--nt-dyer) 22%, transparent), 0 14px 32px -26px rgba(31, 36, 51, .55);
+}
+
+.nt-brand { flex: 0 0 auto; display: flex; align-items: center; gap: .65rem; margin: 0; font-family: var(--nt-serif); font-size: 1.2rem !important; font-weight: 500 !important; letter-spacing: .04em !important; white-space: nowrap; }
+
+/* A small folded-cloth mark: two offset squares of indigo. */
+.nt-brand::before { content: ""; width: .8rem; height: .8rem; background: linear-gradient(135deg, var(--nt-dyer) 0 50%, var(--nt-ink) 50%); box-shadow: .22rem .22rem 0 0 color-mix(in srgb, var(--nt-dyer) 35%, transparent); }
+
+.nt-brand a { color: var(--nt-ink); }
+
+.nt-nav { flex: 1 1 auto; }
+
+.nt-nav .wp-block-navigation__container { gap: clamp(.9rem, 2vw, 1.9rem) !important; }
+
+.nt-nav .wp-block-navigation-item__content { padding-block: .3rem !important; color: var(--nt-ink); font-size: .8rem; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; background: linear-gradient(var(--nt-dyer), var(--nt-dyer)) 50% 100% / 0 1px no-repeat; transition: background-size .4s var(--nt-ease); }
+
+.nt-nav .wp-block-navigation-item__content:hover,
+.nt-nav .current-menu-item > .wp-block-navigation-item__content { background-size: 100% 1px; }
+
+.nt-header__note { margin: 0; font-size: .75rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--nt-quiet); }
+
+.nt-pill > .wp-block-woocommerce-customer-account,
+.nt-pill > .wp-block-woocommerce-mini-cart { flex: 0 0 auto; margin: 0; }
+
+.nt-header .wc-block-mini-cart__button,
+.nt-header .wc-block-customer-account a { display: inline-flex; align-items: center; gap: .4rem; min-height: 2.8rem; padding: 0 1rem; border-radius: 999px; color: var(--nt-ink); font-size: .8rem; text-decoration: none; background: transparent; }
+
+.nt-header .wc-block-mini-cart__button { background: var(--nt-paper); }
+
+.nt-header .wc-block-mini-cart__button:hover { background: var(--nt-card); }
+
+.nt-header .wc-block-mini-cart__badge { background: var(--nt-ink); color: var(--nt-paper); border-color: var(--nt-ink); }
+
+.nt-header .wc-block-customer-account__account-icon, .nt-header .wc-block-mini-cart__icon { width: 1.25rem; height: 1.25rem; }
+
+@media (max-width: 1100px) {
+	.nt-header .wc-block-mini-cart__amount, .nt-header .wc-block-customer-account__label { display: none; }
+}
+
+/* The open overlay (phones): a pale indigo sheet with the menu in Kiwi Maru. */
+.nt-header .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--nt-paper); color: var(--nt-ink); }
+
+.nt-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content { padding-top: 5rem; }
+
+.nt-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { gap: 1.3rem !important; }
+
+.nt-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { font-family: var(--nt-serif); font-size: 1.6rem; font-weight: 400; letter-spacing: 0; text-transform: none; }
+
+@media (max-width: 599px) {
+	:root { --nt-head-h: 3.4rem; --nt-head-top: .6rem; }
+	.nt-pill { padding: .35rem .4rem .35rem 1.1rem; gap: .5rem; }
+	.nt-brand { font-size: 1rem !important; gap: .5rem; }
+	.nt-brand::before { width: .65rem; height: .65rem; }
+	.nt-nav { flex: 0 0 auto; margin-inline-start: auto; }
+	.nt-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: inline-flex; align-items: center; justify-content: center; width: 2.6rem; height: 2.6rem; border-radius: 50%; background: var(--nt-paper); color: var(--nt-ink); }
+	.nt-header .wc-block-customer-account { display: none; }
+	.nt-header .wc-block-mini-cart__button { min-height: 2.6rem; padding: 0 .75rem; }
+}
+
+/* ---- L13: the unfolding cloth. One picture is pinned on the left while the chapters scroll on the right; the
+   picture follows the chapter in view (assets/js/unfold.js sets data-step). */
+.nt-fold { padding-block: clamp(1.5rem, 1rem + 2vw, 3rem) var(--wp--preset--spacing--50); }
+
+.nt-fold__grid { display: grid; gap: var(--wp--preset--spacing--40) var(--wp--preset--spacing--50); align-items: start; }
+
+.nt-fold__grid > *, .nt-fold__media > *, .nt-fold__text > * { margin: 0 !important; }
+
+.nt-fold__media { position: relative; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 4px; background: var(--nt-card); }
+
+.nt-fold__figure { position: absolute; inset: 0; opacity: 0; transition: opacity .9s var(--nt-ease); }
+
+.nt-fold__figure img { width: 100%; height: 100%; object-fit: contain; }
+
+.nt-fold__figure--1,
+.nt-fold[data-step="2"] .nt-fold__figure--2,
+.nt-fold[data-step="3"] .nt-fold__figure--3 { opacity: 1; }
+
+.nt-fold[data-step="2"] .nt-fold__figure--1,
+.nt-fold[data-step="3"] .nt-fold__figure--1 { opacity: 0; }
+
+.nt-fold__intro > * { margin: 0 !important; }
+
+.nt-fold__intro > * + * { margin-top: 1.6rem !important; }
+
+.nt-fold__headline { font-size: clamp(2.3rem, 1.5rem + 2.8vw, 4.1rem) !important; line-height: 1.16; }
+
+.nt-fold__headline em { display: block; }
+
+.nt-fold__intro .wp-block-buttons { margin-top: 2.25rem !important; }
+
+.nt-fold__step:not(.nt-fold__intro) { position: relative; padding-top: 1.5rem; border-top: 1px solid var(--nt-hair); }
+
+.nt-fold__step > * { margin: 0 !important; }
+
+.nt-fold__num { font-family: var(--nt-serif); font-size: 1.1rem; color: var(--nt-dyer); }
+
+.nt-fold__title { margin-top: .5rem !important; font-size: clamp(1.7rem, 1.3rem + 1.4vw, 2.5rem) !important; }
+
+.nt-fold__text { margin-top: 1rem !important; max-width: 30rem; color: var(--nt-quiet); }
+
+@media (min-width: 782px) {
+	.nt-fold__grid { grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); }
+	.nt-fold__media { position: sticky; top: calc(var(--nt-admin) + var(--nt-head-h) + var(--nt-head-top) + 1.5rem); max-height: calc(100vh - var(--nt-admin) - var(--nt-head-h) - var(--nt-head-top) - 3rem); width: 100%; aspect-ratio: auto; height: min(calc((100vw - 2 * var(--nt-pad)) * .54 * 1.25), calc(100vh - var(--nt-admin) - var(--nt-head-h) - var(--nt-head-top) - 3rem)); }
+	.nt-fold__text { display: grid; gap: 0; }
+	.nt-fold__intro { min-height: 58vh; padding-block: 2rem 4rem; }
+	.nt-fold__step:not(.nt-fold__intro) { min-height: 52vh; padding-block: 1.75rem 4rem; }
+}
+
+/* Phones: no pinning; the three stages sit in a row above the text. */
+@media (max-width: 781px) {
+	.nt-fold__media { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; aspect-ratio: auto; background: none; }
+	.nt-fold__figure { position: static; opacity: 1 !important; aspect-ratio: 4 / 5; background: var(--nt-card); border-radius: 4px; }
+	.nt-fold__text { display: grid; gap: 2rem; }
+}
+
+/* ---- The pour: a wide illustration on the indigo wash and three short steps. */
+.nt-wide > .wp-block-image { margin: 0 !important; }
+
+.nt-section--pour .nt-wide-picture { margin-top: 0 !important; }
+
+.nt-section--pour .nt-wide-picture img { aspect-ratio: 16 / 10; object-fit: contain; }
+
+.nt-steps-3 > *, .nt-notes > *, .nt-shelf > *, .nt-makers > *, .nt-patterns > * { margin-block: 0 !important; }
+
+.nt-steps-3 { display: grid; gap: 2rem clamp(1.5rem, 3vw, 3rem); margin-top: var(--wp--preset--spacing--40) !important; }
+
+@media (min-width: 782px) {
+	.nt-steps-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.nt-steps-3 .nt-step { padding-top: 1.1rem; border-top: 1px solid var(--nt-dyer); }
+
+.nt-steps-3 .nt-step::before { display: none; }
+
+.nt-step > * { margin: 0 !important; }
+
+.nt-step__num { font-family: var(--nt-serif); font-size: 1rem; line-height: 1; color: var(--nt-dyer); }
+
+.nt-step__title { margin-top: .7rem !important; font-size: 1.45rem !important; }
+
+.nt-step__text { margin-top: .6rem !important; max-width: 24rem; color: var(--nt-quiet); }
+
+/* ---- Notes (ways to use). */
+.nt-notes { display: grid; gap: 2rem clamp(1.5rem, 3vw, 3rem); }
+
+@media (min-width: 782px) {
+	.nt-notes { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+.nt-note { padding: 1.4rem 1.25rem 1.6rem; background: var(--nt-card); border-radius: 4px; }
+
+.nt-note > * { margin: 0 !important; }
+
+.nt-note .nt-step__text { color: var(--nt-ink); }
+
+.nt-sending { max-width: 46rem; margin-top: var(--wp--preset--spacing--50) !important; padding-top: 1.5rem; border-top: 1px solid var(--nt-hair); }
+
+.nt-sending > * { margin: 0 !important; }
+
+.nt-sending > * + * { margin-top: 1rem !important; }
+
+.nt-sending p:not(.is-style-label) { color: var(--nt-quiet); }
+
+/* ---- Patterns: square swatches with name and meaning. */
+.nt-patterns { display: grid; gap: clamp(2rem, 4vw, 3.5rem) clamp(1.5rem, 3vw, 3rem); }
+
+@media (min-width: 782px) {
+	.nt-patterns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+.nt-pattern { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 1.5rem; align-items: start; }
+
+.nt-pattern > * { margin: 0 !important; }
+
+.nt-pattern__swatch { margin: 0 !important; overflow: hidden; border-radius: 4px; }
+
+.nt-pattern__swatch img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+
+.nt-pattern__body > * { margin: 0 !important; }
+
+.nt-pattern__name { font-size: 1.6rem !important; }
+
+.nt-pattern__meaning { margin-top: .45rem !important; font-size: .72rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--nt-deep); }
+
+.nt-pattern__text { margin-top: .9rem !important; color: var(--nt-quiet); }
+
+@media (max-width: 480px) {
+	.nt-pattern { grid-template-columns: 1fr; }
+}
+
+/* ---- Makers. */
+.nt-makers { display: grid; gap: 0; margin-top: 2.25rem !important; border-bottom: 1px solid var(--nt-hair); }
+
+.nt-maker { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: .25rem 1.5rem; padding: 1.25rem 0; border-top: 1px solid var(--nt-hair); }
+
+.nt-maker > * { margin: 0 !important; }
+
+.nt-maker__name { font-size: 1.25rem !important; }
+
+.nt-maker__role { grid-column: 1; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--nt-deep); }
+
+.nt-maker__text { grid-column: 2; grid-row: 1 / span 2; color: var(--nt-quiet); }
+
+@media (max-width: 599px) {
+	.nt-maker { grid-template-columns: 1fr; }
+	.nt-maker__text { grid-column: 1; grid-row: auto; margin-top: .5rem !important; }
+}
+
+.nt-rows .nt-row__time { color: var(--nt-deep); }
+
+/* ---- Static shelf (no WooCommerce). */
+.nt-shelf { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2.5rem, 4vw, 3.5rem) clamp(1rem, 2vw, 2rem); }
+
+@media (min-width: 960px) {
+	.nt-shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+.nt-cell > * { margin: 0 !important; }
+
+.nt-cell__picture { position: relative; overflow: hidden; border-radius: 4px; background: var(--nt-card); }
+
+.nt-cell__picture img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+
+.nt-cell__cat { margin-top: 1rem !important; font-size: .7rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--nt-deep); }
+
+.nt-cell__title { margin-top: .35rem !important; font-size: 1.25rem !important; line-height: 1.3; }
+
+.nt-cell__price { margin-top: .3rem !important; font-family: var(--nt-serif); font-size: 1.05rem; font-variant-numeric: lining-nums tabular-nums; }
+
+.nt-cell .nt-size { margin-top: .25rem !important; font-size: .8rem; color: var(--nt-quiet); }
+
+/* ---- Synced cards: the workshop details and the dye notes and care (key / value rows). */
+.nt-workshop, .nt-care { border-bottom: 1px solid var(--nt-hair); }
+
+.nt-workshop__row, .nt-care__row { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 1rem; padding: .95rem 0; border-top: 1px solid var(--nt-hair); }
+
+.nt-workshop__row > *, .nt-care__row > * { margin: 0 !important; }
+
+.nt-workshop__key, .nt-care__key { padding-top: .2rem; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--nt-deep); }
+
+.nt-workshop__value, .nt-care__value { line-height: 1.6; }
+
+.nt-card > .nt-workshop, .nt-card > .nt-care { border-bottom: 0; }
+
+.nt-card > .nt-workshop > .nt-workshop__row:first-child, .nt-card > .nt-care > .nt-care__row:first-child { padding-top: 0; border-top: 0; }
+
+@media (max-width: 480px) {
+	.nt-workshop__row, .nt-care__row { grid-template-columns: 1fr; gap: .3rem; }
+}
+
+/* Short form (home): the dye, the first wash and the cut ends. */
+.nt-card--short .nt-care__row--wash,
+.nt-card--short .nt-care__row--dry { display: none; }
+
+/* On the product page: the dye notes and care, quietly. */
+.nt-product-note { padding-top: 1.5rem; border-top: 1px solid var(--nt-hair); }
+
+.nt-product-note > * { margin: 0 !important; }
+
+.nt-product-note > * + * { margin-top: 1rem !important; }
+
+.nt-product-note .nt-care__row--dry { display: none; }
+
+.nt-product-note .nt-care__row { grid-template-columns: 6.5rem minmax(0, 1fr); padding: .7rem 0; font-size: .92rem; }
+
+.nt-product-note .nt-care__row--dye { border-top: 1px solid var(--nt-hair) !important; }
+
+.nt-product-note__more { font-size: .85rem; }
+
+/* ---- Footer (F8): a strip of four cloth patterns cropped square, then the name, the menu and the workshop. */
+.nt-foot { padding: 0 0 2.25rem; background: var(--nt-wash); color: var(--nt-ink); }
+
+.nt-foot > .nt-strip { margin-block: 0 !important; margin-inline: 0 !important; max-width: none; width: 100%; }
+
+.nt-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; }
+
+.nt-strip > * { margin: 0 !important; }
+
+.nt-strip__tile { overflow: hidden; }
+
+.nt-strip__tile a { display: block; }
+
+.nt-strip__tile img { width: 100%; aspect-ratio: 1; object-fit: cover; transition: transform 1.2s var(--nt-ease), opacity .4s; }
+
+.nt-strip__tile a:hover img { transform: scale(1.04); opacity: .92; }
+
+@media (min-width: 1100px) {
+	.nt-strip__tile img { aspect-ratio: 3 / 2; }
+}
+
+.nt-foot__cols { display: grid; gap: 2.5rem clamp(2rem, 5vw, 5rem); padding-block: clamp(3rem, 2rem + 3vw, 5rem); }
+
+.nt-foot__cols > *, .nt-foot__cols > * > * { margin: 0 !important; }
+
+.nt-foot__cols > * > * + * { margin-top: 1.1rem !important; }
+
+@media (min-width: 900px) {
+	.nt-foot__cols { grid-template-columns: 5fr 3fr 5fr; }
+}
+
+.nt-foot__name { font-family: var(--nt-serif); font-size: clamp(1.6rem, 1.3rem + 1vw, 2.2rem); line-height: 1.15; }
+
+.nt-foot__name a { color: var(--nt-ink); text-decoration: none; }
+
+.nt-foot__line { max-width: 26rem; color: var(--nt-quiet); }
+
+.nt-foot__nav .wp-block-navigation__container { gap: .55rem !important; }
+
+.nt-foot__nav .wp-block-navigation-item__content { color: var(--nt-ink); font-size: .95rem; text-decoration: none; }
+
+.nt-foot__nav .wp-block-navigation-item__content:hover { color: var(--nt-deep); text-decoration: underline; }
+
+.nt-foot__info .nt-workshop { border-bottom: 0; }
+
+.nt-foot__info .nt-workshop__row { grid-template-columns: 6.5rem minmax(0, 1fr); padding: .6rem 0; font-size: .92rem; }
+
+.nt-foot__info .nt-workshop__row:first-child { border-top-color: var(--nt-hair); }
+
+.nt-foot__info .nt-workshop__row--maker, .nt-foot__info .nt-workshop__more { display: none; }
+
+.nt-foot__legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; padding-top: 1.5rem; border-top: 1px solid var(--nt-hair); font-size: .8rem; color: var(--nt-quiet); }
+
+.nt-foot__legal > * { margin: 0 !important; }
+
+.nt-foot a:hover { color: var(--nt-deep); }
+
+/* ---- Journal cells. */
+.nt-posts .wp-block-post-featured-image { position: relative; }
+
+.nt-posts .wp-block-post-featured-image img { aspect-ratio: 4 / 3; object-fit: cover; }
+
+.nt-posts .wp-block-post-title { font-family: var(--nt-serif); font-size: 1.3rem !important; }
+
+.nt-section--rule { border-top-color: var(--nt-hair); }
+
+.nt-split .nt-card { margin-top: 0; }
+
+.nt-stack > .nt-card { margin-top: 2rem !important; }
