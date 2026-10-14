@@ -26,6 +26,9 @@ The cinema, the films, the people, the address, telephone numbers and prices are
 
 == Changelog ==
 
+= 1.0.1 =
+* theme-meta.json: industry is the slug "independent-cinema" (the ShipPress catalogue only accepts slugs). No visual change.
+
 = 1.0.0 =
 * Initial release.
 
