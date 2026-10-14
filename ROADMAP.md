@@ -178,7 +178,7 @@ Planned against every theme above: the section 1 inventory, the batch 1 and batc
 
 ### Visual style per theme (added 2026-10-14)
 
-From batch 3 #4 on, the hero and the decorative pieces of every theme are vector illustrations (SVG), not photographs, and the illustration style changes from theme to theme so no two adjacent themes (and no two rows below) share one. Product and dish pictures may stay raster photographs. Every picture, vector or raster, is generated with Grok Build (`grok --always-approve -p`, one image per call); builders do not hand-draw SVG. Each SVG gets a raster copy in assets/images/demo/ for the Media Library (scripts/rasterize-images.py). Batch 3 #1–#3 (Shigure, Kenban, Kurogane) were built before this rule with photographs and keep them.
+From batch 3 #4 on, the hero and the decorative pieces of every theme are illustrations, not photographs, and the illustration style changes from theme to theme so no two adjacent themes (and no two rows below) share one. Updated 2026-10-14 (#49): illustrations are RASTER images (WebP) painted in the row's style (watercolour, sketch, 2D flat, 2.5D isometric, 3D render…), not SVG. Generate each one with Grok Build's built-in image_gen tool through `scripts/grok-image.sh assets/images/<name>.webp "<subject>, <style>, no text"` (one image per call, about 20–30 s; 180 s cap per attempt, one retry, blank-image check, longest side ≤ 1600 px). Builders never hand-draw or code-draw SVG; small UI marks (rules, icons) may stay CSS/inline SVG. Product and dish pictures may stay raster photographs, also from Grok Build. WebP files import into the Media Library directly, so scripts/rasterize-images.py is only for older SVG themes (Kinari Soba). Batch 3 #1–#3 (Shigure, Kenban, Kurogane) were built before this rule with photographs and keep them.
 
 | # | Theme | Visual style (hero + decoration) |
 |---|---|---|
@@ -205,7 +205,7 @@ From batch 3 #4 on, the hero and the decorative pieces of every theme are vector
 2. Follow its industry, type, palette, fonts, header, footer and layout exactly. Record H/F/L codes in meta.json as `header`, `footer` and `layout`.
 3. At the end, set the row to `done (<commit>, YYYY-MM-DD)` and add the theme to the section 1 inventory.
 4. Any deviation (a font swap, a palette tweak) must be noted in the row and must not break the no-adjacent-repeat rule.
-5. When every batch-1 row is done, plan the next 20 (batch 2) with the same no-repeat rules checked against all existing themes, then continue. Repeat for each later batch. Every planned row also names its vector visual style (see "Visual style per theme"), different from the rows beside it and from the batch before.
+5. When every batch-1 row is done, plan the next 20 (batch 2) with the same no-repeat rules checked against all existing themes, then continue. Repeat for each later batch. Every planned row also names its illustration style (see "Visual style per theme"), different from the rows beside it and from the batch before.
 
 ## 5. Refresh plan (one per round, minor version, after a new theme or when the queue is blocked)
 1. shiro-horitsu → H5 masthead, F9 colophon, L3 index list (1.1.0)
