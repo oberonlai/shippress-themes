@@ -26,6 +26,10 @@ The booking request is a button that opens an email with the subject "Booking re
 
 == Changelog ==
 
+= 1.0.1 =
+* "One appointment, in four quiet chapters" (home) and the first-visit steps: the intro is centred and capped at about 40rem; every chapter is one row - the number circle on a vertical dotted rail, a fixed-ratio drawing (3:2, cropped to fit, so any replacement picture keeps the row tidy) and the text; one column on phones with the rail kept on the left. The dotted line no longer runs across the drawings.
+* Chapter 4 (Follow-up) gets its own line drawing (assets/images/follow-up.webp); the drawings' alt text now describes what they show.
+
 = 1.0.0 =
 * Initial release.
 
@@ -65,3 +69,5 @@ assets/images/hands-on.webp - continuous single-line drawing, AI-generated for t
 assets/images/demo/hands-on.webp - continuous single-line drawing, AI-generated for this theme with Grok Build (image_gen); License: GPL-2.0-or-later / CC0
 assets/images/exercises.webp - continuous single-line drawing, AI-generated for this theme with Grok Build (image_gen); License: GPL-2.0-or-later / CC0
 assets/images/demo/exercises.webp - continuous single-line drawing, AI-generated for this theme with Grok Build (image_gen); License: GPL-2.0-or-later / CC0
+assets/images/follow-up.webp - continuous single-line drawing, AI-generated for this theme with Grok Build (image_gen); License: GPL-2.0-or-later / CC0
+assets/images/demo/follow-up.webp - continuous single-line drawing, AI-generated for this theme with Grok Build (image_gen); License: GPL-2.0-or-later / CC0
