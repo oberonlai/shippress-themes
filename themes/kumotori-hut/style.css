@@ -3,8 +3,8 @@ Theme Name: Kumotori Hut
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/kumotori-hut
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Kumotori Hut — An organic, serene and technical hospitality theme for a mountain hut at a 2,017 m saddle. Alpine moss pages, lichen panels, pine ink text and one muted pine accent; Faustina for display over Readex Pro. The hero and decorations are 2.5D isometric raster illustrations (the saddle and its trails, the hut, a cutaway bunk room, the ridge). A slim bar docked at the bottom of the screen (H7) holds the wordmark, the menu and a Reception open / Closed chip worked out on the server from the site's timezone, like a trail signpost. The home page is map first (L10): the isometric trail map beside the title with a numbered legend for the hut, the three routes and the water points, then this season's dates, reception hours and weather note, the synced rates card, the routes and the journal. The footer (F12) is the hut's summit stamp, the address card and a vertical altitude line from trailhead to saddle. Routes, Stay & booking, Season, Journal, Newsletter and Contact. Season dates, reception hours, weather note, address and phone are edited once in Appearance > Hut details; the rates and beds card is one synced pattern. WCAG AA colours; no entrance animations.
-Version: 1.0.0
+Description: Kumotori Hut — An organic, serene and technical hospitality theme for a mountain hut at a 2,017 m saddle. Alpine moss pages, lichen panels, pine ink text and one muted pine accent; Faustina for display over Readex Pro. The hero and decorations are 2.5D isometric raster illustrations (the saddle and its trails, the hut, a cutaway bunk room, the ridge). Every page opens with a washi header (H1): the hut's name (and logo, if set) under a small "Mountain hut" label on the left, the menu on the right, a Reception open / Closed chip worked out on the server from the site's timezone and a "Book a bunk" button to Stay & booking; it stays at the top while you scroll, and on phones the menu folds into a numbered full-screen trail card while the chip and the button sit in a slim strip at the bottom. The home page is map first (L10): the isometric trail map beside the title with a numbered legend for the hut, the three routes and the water points, then this season's dates, reception hours and weather note, the synced rates card, the routes and the journal. The footer (F12) is the hut's summit stamp, the address card and a vertical altitude line from trailhead to saddle. Routes, Stay & booking, Season, Journal, Newsletter and Contact. Season dates, reception hours, weather note, address and phone are edited once in Appearance > Hut details; the rates and beds card is one synced pattern. WCAG AA colours; no entrance animations.
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -27,11 +27,12 @@ Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, tran
 	--kh-grout: rgba(31, 42, 34, 0.05);
 	/* a faint contour-grid texture */
 	--kh-grid: repeating-linear-gradient(0deg, var(--kh-grout) 0 1px, transparent 1px 22px), repeating-linear-gradient(90deg, var(--kh-grout) 0 1px, transparent 1px 22px);
-	--kh-bar-h: 3.75rem;
+	--kh-head-h: 5.25rem;
+	--kh-dock-h: 3.5rem;
 	--kh-pause: clamp(4.5rem, 9vw, 8rem);
 }
 
-body { -webkit-font-smoothing: antialiased; padding-bottom: calc(var(--kh-bar-h) + env(safe-area-inset-bottom, 0px)); }
+body { -webkit-font-smoothing: antialiased; }
 :where(.wp-site-blocks) > * { margin-block-start: 0; }
 .kh-main { margin-block: 0; }
 .kh-main > .wp-block-post-content > * { margin-block-start: 0; }
@@ -184,32 +185,79 @@ hr.wp-block-separator.is-style-tiles {
 .kh-card__row dd { margin: 0; overflow-wrap: anywhere; }
 .kh-card__map { margin-top: 1.1rem; font-weight: 500; }
 
-/* ---------- the bottom bar (H7) ---------- */
-.wp-site-blocks > header.kh-bar-part {
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
+/* ---------- the header (H1): a washi signboard at the top of every page ---------- */
+/* Hut name on the left under a small "Mountain hut" label on a pine rule, the menu to the right, then the Reception chip and the
+   booking button. It sticks to the top of the window below the WordPress toolbar; nothing in it is fixed height,
+   so a longer title, a logo or more menu items only make it a little taller. */
+.wp-site-blocks > header.kh-head-part {
+	position: sticky;
+	top: 0;
 	z-index: 90;
 	margin: 0 !important;
 }
-.kh-bar {
-	background-color: var(--kh-tile);
+body.admin-bar .wp-site-blocks > header.kh-head-part { top: 32px; }
+@media (max-width: 782px) {
+	body.admin-bar .wp-site-blocks > header.kh-head-part { top: 46px; }
+}
+@media (max-width: 600px) {
+	body.admin-bar .wp-site-blocks > header.kh-head-part { top: 0; }
+}
+html { scroll-padding-top: 6.5rem; }
+.kh-head {
+	background-color: var(--kh-foam);
 	background-image: var(--kh-grid);
-	border-top: 1px solid rgba(34, 50, 63, 0.16);
-	padding-top: 0 !important;
-	padding-bottom: env(safe-area-inset-bottom, 0px) !important;
+	border-bottom: 1px solid var(--kh-rule);
+	box-shadow: 0 3px 0 -2px var(--kh-foam), 0 4px 0 -2px var(--kh-rule);
+	padding-block: 0 !important;
 	margin: 0 !important;
 }
-.kh-bar__inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; min-height: var(--kh-bar-h); }
-.kh-bar__inner > * { margin: 0 !important; }
-.kh-bar .kh-bar__title { font-family: var(--kh-serif); font-size: 1.125rem; font-weight: 400; letter-spacing: 0.04em; white-space: nowrap; flex: none; }
-.kh-bar .kh-bar__title a { color: var(--kh-ink); text-decoration: none; }
-.kh-bar .kh-bar__nav { font-size: 0.8125rem; font-weight: 500; letter-spacing: 0.02em; }
-.kh-bar .kh-bar__nav .wp-block-navigation__container { gap: clamp(1rem, 2.2vw, 2.25rem); }
-.kh-bar .kh-bar__nav .wp-block-navigation-item__content { color: var(--kh-ink); text-decoration: none; padding-block: 0.3rem; }
-.kh-bar .kh-bar__nav .wp-block-navigation-item__content:hover { color: var(--kh-deep); }
-.kh-bar .kh-bar__nav .current-menu-item > .wp-block-navigation-item__content { box-shadow: inset 0 -1px 0 var(--kh-slate); }
+.kh-head__inner {
+	display: grid;
+	grid-template-columns: minmax(min(12rem, 100%), 1fr) auto auto;
+	align-items: center;
+	column-gap: clamp(1.5rem, 4vw, 3.5rem);
+	min-height: var(--kh-head-h);
+	padding-block: 0.7rem;
+}
+.kh-head__inner > * { margin: 0 !important; }
+.kh-head__brand { display: flex; align-items: center; gap: 0.9rem; min-width: 0; }
+.kh-head__brand > * { margin: 0 !important; }
+.kh-head__name { display: flex; flex-direction: column; gap: 0.2rem; min-width: 0; padding-inline-start: 0.85rem; border-inline-start: 1px solid var(--kh-slate); }
+.kh-head__name > * { margin: 0 !important; }
+.kh-head__tag { display: flex; align-items: center; gap: 0.55rem; font-size: 0.625rem; line-height: 1.2; letter-spacing: 0.24em; text-transform: uppercase; font-weight: 500; color: var(--kh-deep); }
+.kh-head__tag::before { content: ""; width: 1.25rem; height: 1px; background: var(--kh-slate); flex: none; }
+.kh-head__logo { flex: none; }
+.kh-head__logo img { display: block; height: auto; max-height: 3rem; width: auto; }
+.kh-head .kh-head__title { font-family: var(--kh-serif); font-size: 1.5rem; overflow-wrap: anywhere; max-width: 22ch; font-weight: 400; line-height: 1.15; letter-spacing: 0.02em; min-width: 0; }
+.kh-head .kh-head__title a { color: var(--kh-ink); text-decoration: none; }
+.kh-head .kh-head__title a:hover { color: var(--kh-deep); }
+
+.kh-head .kh-head__nav { font-size: 0.8125rem; font-weight: 500; letter-spacing: 0.04em; justify-self: end; }
+.kh-head .kh-head__nav .wp-block-navigation__container { gap: clamp(1rem, 2vw, 2rem); }
+.kh-head .kh-head__nav .wp-block-navigation-item__content { color: var(--kh-ink); text-decoration: none; padding-block: 0.35rem; }
+.kh-head .kh-head__nav .wp-block-navigation-item__content:hover { color: var(--kh-deep); }
+.kh-head .kh-head__nav .current-menu-item > .wp-block-navigation-item__content { box-shadow: inset 0 -1px 0 var(--kh-slate); }
+.kh-head__aside { display: flex; align-items: center; gap: 1rem; padding-inline-start: clamp(1rem, 2vw, 1.75rem); border-inline-start: 1px solid var(--kh-rule); }
+.kh-head__aside > * { margin: 0 !important; }
+.kh-head .kh-state__hours, .kh-dock .kh-state__hours { display: none; }
+
+/* the booking button (header and phone strip) */
+.kh-book .wp-block-button__link {
+	background: var(--kh-deep);
+	color: var(--kh-foam);
+	border: 1px solid var(--kh-deep);
+	border-radius: 2px;
+	font-family: inherit;
+	font-size: 0.8125rem;
+	font-weight: 500;
+	letter-spacing: 0.06em;
+	line-height: 1.2;
+	padding: 0.7rem 1.15rem;
+	white-space: nowrap;
+	text-decoration: none;
+}
+.kh-book .wp-block-button__link:hover { background: var(--kh-ink); border-color: var(--kh-ink); color: var(--kh-foam); }
+
 .kh-state { display: flex; align-items: center; gap: 0.9rem; white-space: nowrap; font-size: 0.8125rem; font-variant-numeric: tabular-nums; flex: none; }
 .kh-state__hours { color: var(--kh-quiet); }
 .kh-state__chip { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.3rem 0.75rem; border: 1px solid var(--kh-misty); border-radius: 999px; background: var(--kh-foam); font-weight: 500; color: var(--kh-ink); }
@@ -217,35 +265,111 @@ hr.wp-block-separator.is-style-tiles {
 .kh-state__chip.is-open { border-color: var(--kh-slate); color: var(--kh-deep); }
 .kh-state__chip.is-open .kh-state__dot { background: var(--kh-deep); border-color: var(--kh-deep); box-shadow: 0 0 0 3px var(--kh-misty); }
 
-/* the Menu button and the full-screen menu, read from the bottom up */
-.kh-bar .wp-block-navigation__responsive-container-open { font-size: 0.8125rem; font-weight: 500; color: var(--kh-ink); padding: 0.35rem 0; letter-spacing: 0.02em; }
-body .kh-bar nav.kh-bar__nav:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) {
-	background-color: var(--kh-tile);
+/* the Menu button and the full-screen menu: a washi trail card with numbered stages */
+.kh-head .wp-block-navigation__responsive-container-open { color: var(--kh-ink); padding: 0.4rem; margin-inline-end: -0.4rem; }
+.kh-head .wp-block-navigation__responsive-container-open svg { width: 26px; height: 26px; }
+body .kh-head nav.kh-head__nav:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) {
+	background-color: var(--kh-foam);
 	background-image: var(--kh-grid);
 	color: var(--kh-ink);
 }
-.kh-bar .is-menu-open .wp-block-navigation__responsive-container-content { justify-content: flex-end; padding-bottom: calc(var(--kh-bar-h) + 1.5rem); }
-.kh-bar .is-menu-open .wp-block-navigation__container { gap: 0.4rem !important; }
-.kh-bar .is-menu-open .wp-block-navigation-item__content { font-family: var(--kh-serif); font-size: 1.875rem; font-weight: 400; letter-spacing: 0.01em; color: var(--kh-ink); }
-.kh-bar .wp-block-navigation__responsive-container-close { color: var(--kh-ink); }
-
-@media (min-width: 600px) and (max-width: 959px) {
-	.kh-bar .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
-	.kh-bar nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
+.kh-head .is-menu-open { padding: clamp(1.25rem, 5vw, 2.5rem) !important; }
+.kh-head .is-menu-open::after {
+	content: "Menu";
+	position: absolute;
+	left: clamp(1.25rem, 5vw, 2.5rem);
+	top: calc(clamp(1.25rem, 5vw, 2.5rem) + 1.1rem);
+	font-size: 0.6875rem;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: 0.28em;
+	text-transform: uppercase;
+	color: var(--kh-deep);
+	padding: 0.35rem 0.2rem 0.35rem 0.65rem;
+	border-inline-start: 1px solid var(--kh-slate);
+	pointer-events: none;
 }
-@media (max-width: 1199px) {
-	.kh-state__hours { display: none; }
+.kh-head .is-menu-open .wp-block-navigation__responsive-container-content { align-items: stretch !important; justify-content: flex-start; padding-top: clamp(3.5rem, 12vw, 5rem); max-width: 30rem; }
+.kh-head .is-menu-open .wp-block-navigation__container { gap: 0 !important; align-items: stretch !important; counter-reset: kh-stage; border-top: 1px solid var(--kh-rule); width: calc(100% - 3rem); }
+.kh-head .is-menu-open .wp-block-navigation-item { border-bottom: 1px solid var(--kh-rule); counter-increment: kh-stage; }
+.kh-head .is-menu-open .wp-block-navigation-item__content {
+	display: flex !important;
+	align-items: baseline;
+	gap: 1rem;
+	width: 100%;
+	padding-block: 0.85rem !important;
+	font-family: var(--kh-serif);
+	font-size: 1.75rem;
+	font-weight: 400;
+	letter-spacing: 0.01em;
+	line-height: 1.15;
+	color: var(--kh-ink);
+	box-shadow: none !important;
+}
+.kh-head .is-menu-open .wp-block-navigation-item__content::before {
+	content: counter(kh-stage, decimal-leading-zero);
+	font-size: 0.875rem;
+	letter-spacing: 0.08em;
+	color: var(--kh-slate);
+	font-variant-numeric: lining-nums tabular-nums;
+	min-width: 1.6rem;
+}
+.kh-head .is-menu-open .current-menu-item > .wp-block-navigation-item__content { color: var(--kh-deep); }
+.kh-head .wp-block-navigation__responsive-container-close { color: var(--kh-ink); top: clamp(1.25rem, 5vw, 2.5rem) !important; right: clamp(1.25rem, 5vw, 2.5rem) !important; }
+.kh-head .wp-block-navigation__responsive-container-close svg { width: 28px; height: 28px; }
+
+/* the phone strip: only Reception and the booking button, docked at the bottom on small screens (no menu, no title) */
+.kh-dock { display: none; }
+@media (max-width: 599px) {
+	body { padding-bottom: calc(var(--kh-dock-h) + env(safe-area-inset-bottom, 0px)); }
+	.kh-dock {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 89;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.75rem;
+		min-height: var(--kh-dock-h);
+		margin: 0 !important;
+		padding: 0.5rem var(--wp--style--root--padding-right, 1.25rem) calc(0.5rem + env(safe-area-inset-bottom, 0px)) var(--wp--style--root--padding-left, 1.25rem);
+		background-color: var(--kh-foam);
+		border-top: 1px solid var(--kh-rule);
+	}
+	.kh-dock > * { margin: 0 !important; }
+	.kh-dock .kh-state { font-size: 0.75rem; }
+	.kh-dock .kh-book .wp-block-button__link { padding: 0.6rem 1rem; }
+	.kh-head__aside { display: none; }
+}
+
+/* small laptops: the menu and the booking button come first; the chip waits for room */
+@media (min-width: 960px) and (max-width: 1279px) {
+	.kh-head .kh-head__aside .kh-state { display: none; }
+}
+
+/* tablets: the menu folds into the Menu button sooner, so the chip and the button keep their room */
+@media (min-width: 600px) and (max-width: 959px) {
+	.kh-head .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
+	.kh-head nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
 }
 @media (max-width: 959px) {
-	.kh-bar__inner { gap: 0.9rem; }
-	.kh-bar .kh-bar__title { flex: 1; }
-	.kh-state { order: 2; }
-	.kh-bar__nav { order: 3; }
+	.kh-head__inner { grid-template-columns: minmax(0, 1fr) auto auto; column-gap: 1rem; }
+	.kh-head__aside { order: 2; border: 0; padding: 0; }
+	.kh-head .kh-head__nav { order: 3; }
+	.kh-head .kh-head__title { font-size: 1.25rem; }
 }
-@media (max-width: 420px) {
-	.kh-bar .kh-bar__title { font-size: 1rem; letter-spacing: 0.02em; }
-	.kh-state { font-size: 0.75rem; }
-	.kh-state__chip { padding: 0.25rem 0.6rem; gap: 0.4rem; }
+@media (max-width: 599px) {
+	.kh-head__inner { grid-template-columns: minmax(0, 1fr) auto; min-height: var(--kh-dock-h); padding-block: 0.55rem; }
+	.kh-head__brand { gap: 0.7rem; }
+	.kh-head__name { padding-inline-start: 0.7rem; }
+	.kh-head__tag { font-size: 0.5625rem; letter-spacing: 0.2em; }
+	.kh-head__logo img { max-height: 2.25rem; }
+	.kh-head .kh-head__title { font-size: 1.125rem; }
+}
+@media (max-width: 380px) {
+	.kh-dock .kh-state__chip { padding: 0.25rem 0.55rem; gap: 0.4rem; }
 }
 
 /* ---------- footer (F6): waterline, street plan, address card ---------- */

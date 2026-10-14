@@ -52,6 +52,37 @@ function kumotori_hut_group( $content, $block ) {
 add_filter( 'render_block_core/group', 'kumotori_hut_group', 10, 2 );
 
 /**
+ * The booking buttons in the header and the phone strip (class kh-book) are written with a site-relative link
+ * ("/stay/"), because template parts are not run through the demo importer. On the page they point at this site's
+ * page with that path (its permalink, so a site in a sub-folder or with other permalink settings still works), or at
+ * home_url( path ) when there is none. A full URL typed in the editor is left alone.
+ *
+ * @param string $content Rendered block.
+ * @param array  $block   Parsed block.
+ * @return string
+ */
+function kumotori_hut_book_link( $content, $block ) {
+	$class = isset( $block['attrs']['className'] ) ? (string) $block['attrs']['className'] : '';
+	if ( false === strpos( $class, 'kh-book' ) ) {
+		return $content;
+	}
+	return preg_replace_callback(
+		'#href="(/[^"/][^"]*|/)"#',
+		function ( $m ) {
+			$raw   = html_entity_decode( $m[1] );
+			$path  = (string) wp_parse_url( $raw, PHP_URL_PATH );
+			$rest  = substr( $raw, strlen( $path ) );
+			$page  = '' !== trim( $path, '/' ) ? get_page_by_path( trim( $path, '/' ) ) : null;
+			$url   = ( $page && 'publish' === $page->post_status ) ? get_permalink( $page ) . $rest : home_url( $raw );
+			return 'href="' . esc_url( $url ) . '"';
+		},
+		$content,
+		1
+	);
+}
+add_filter( 'render_block_core/button', 'kumotori_hut_book_link', 10, 2 );
+
+/**
  * Block style variations. All CSS lives in style.css.
  */
 function kumotori_hut_block_styles() {
