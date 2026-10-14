@@ -175,12 +175,36 @@ Planned against every theme above: the section 1 inventory, the batch 1 and batc
 | 19 | 3 | Ori Wine / ori-wine | wine merchant | store | #F3EEEE #E3D8D8 #2B2023 #7D4450 / red, light (lees blush, one muted claret accent) | Ysabeau + Ysabeau Office | elegant, editorial, minimal | H7 | F1 | L3 | Wine list: a masthead then an index list of bottles by region (grower, cuvée, vintage, a one-line tasting note, price), unlike Aoi Hanga's print catalogue and Sushi's cover index; H7 bottom-docked bar with the cart (Kumotori's is a trail sign, Neiro dark); F1 a giant claret wordmark on blush. Delivery + tasting evening dates (synced) on Home, products and Tastings.; extra pages: tastings, delivery | todo |
 | 20 | 3 | Mado Films / mado-films | documentary film production | media | #D8DEDB #C1CAC6 #1D2624 #4E6F6A / teal, mid (fog grey-teal, one muted deep-teal accent) | Funnel Display + Funnel Sans | cinematic, editorial, minimal | H5 | F3 | L13 | Sticky still: one film still stays pinned while the synopsis, chapters and screenings scroll beside it, unlike Nijimi's cloth or Kaze's yoga photos; H5 masthead is the current film's title with a dateline 'In production · 2026'; F3 one-line credits. Screenings + festival dates (synced) on Home, Films and Screenings.; extra pages: films, screenings, about the studio | todo |
 
+### Visual style per theme (added 2026-10-14)
+
+From batch 3 #4 on, the hero and the decorative pieces of every theme are vector illustrations (SVG), not photographs, and the illustration style changes from theme to theme so no two adjacent themes (and no two rows below) share one. Product and dish pictures may stay raster photographs. Every picture, vector or raster, is generated with Grok Build (`grok --always-approve -p`, one image per call); builders do not hand-draw SVG. Each SVG gets a raster copy in assets/images/demo/ for the Media Library (scripts/rasterize-images.py). Batch 3 #1–#3 (Shigure, Kenban, Kurogane) were built before this rule with photographs and keep them.
+
+| # | Theme | Visual style (hero + decoration) |
+|---|---|---|
+| 4 | Kinari Soba | watercolour washes (soft translucent pigment, dry-brush ink lines) |
+| 5 | Nijimi Tenugui | 2D flat (solid shapes, no outlines, repeat-pattern feel) |
+| 6 | Hogusu Physio | continuous single-line drawing (one unbroken stroke per figure) |
+| 7 | Yoru Chocolate | 3D soft render (clay-like volumes, soft shadows) |
+| 8 | Asagao Kinema | risograph duotone (two inks, grain, slight misregistration) |
+| 9 | Tsuba Millinery | layered paper-cut (stacked cut-paper planes with small drop shadows) |
+| 10 | Kumotori Hut | 2.5D isometric (30° isometric scene, flat-shaded faces) |
+| 11 | Aoi Hanga | woodcut / linocut (carved gouge marks, one or two block colours) |
+| 12 | Tsunagi Translation | geometric minimal (circles, bars and grids only) |
+| 13 | Amime Bamboo | pencil sketch with cross-hatching |
+| 14 | Nagi Botanical Garden | botanical engraving (fine stipple and line, natural-history plate) |
+| 15 | Kizami Watches | technical blueprint line drawing (exploded movement, thin construction lines) |
+| 16 | Toji Bindery | pen-and-ink sketch (loose nib lines, light ink wash) |
+| 17 | Inaho Rice | dotwork stipple (forms built from dots) |
+| 18 | Mato Kyudo | sumi brush (bold single brush strokes, dry-brush edges) |
+| 19 | Ori Wine | gouache editorial illustration (opaque matte paint, simple forms) |
+| 20 | Mado Films | 3D low-poly (faceted polygon scene, soft gradient light) |
+
 ## 4. Rules for the theme routine
 1. At the start of a round, take the first `todo` row, set it to `claimed (YYYY-MM-DD)`, and commit that change.
 2. Follow its industry, type, palette, fonts, header, footer and layout exactly. Record H/F/L codes in meta.json as `header`, `footer` and `layout`.
 3. At the end, set the row to `done (<commit>, YYYY-MM-DD)` and add the theme to the section 1 inventory.
 4. Any deviation (a font swap, a palette tweak) must be noted in the row and must not break the no-adjacent-repeat rule.
-5. When every batch-1 row is done, plan the next 20 (batch 2) with the same no-repeat rules checked against all existing themes, then continue. Repeat for each later batch.
+5. When every batch-1 row is done, plan the next 20 (batch 2) with the same no-repeat rules checked against all existing themes, then continue. Repeat for each later batch. Every planned row also names its vector visual style (see "Visual style per theme"), different from the rows beside it and from the batch before.
 
 ## 5. Refresh plan (one per round, minor version, after a new theme or when the queue is blocked)
 1. shiro-horitsu → H5 masthead, F9 colophon, L3 index list (1.1.0)
