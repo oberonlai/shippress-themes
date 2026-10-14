@@ -8,7 +8,7 @@ The demo workshop is fictional: Sayo Kurata, Ren Ogino and Hana Ide, pour-dyeing
 
 - **Palette.** Pale indigo paper `#EEF0F4` pages, an indigo wash `#D9DEE8` for panels and the footer, deep indigo ink `#1F2433` text (13.6:1) and one muted dyer's blue `#4A5A7D` (6.0:1 on paper) for rules, numerals, emphasis and the label square; deep dyer's blue `#3A4867` for links and small labels (8.0:1), slate `#4F586C` for secondary text (6.3:1), cloth-white cards `#F7F8FA` and a hairline `#C3CAD8`. Buttons are deep indigo pills.
 - **Type.** Kiwi Maru (display; headings, wordmark, prices; it has no italic, so emphasis is a change of blue) and Mona Sans (text, labels in spaced capitals).
-- **Pictures.** The hero and the decorations are calm **2D flat vector illustrations** (solid shapes, no outlines, a repeat-pattern feel); the product pictures are photographs. Every picture was generated with Grok Build.
+- **Pictures.** The hero and the decorations are calm **2D flat raster illustrations** (WebP; solid shapes, no outlines, a repeat-pattern feel; the four pattern swatches are small geometric SVG tiles); the product pictures are photographs. Every picture was generated with Grok Build.
 - **Cloth specs as product attributes.** Size, dye, cotton, method and ends are attributes of each product; size and dye print under every price ("90 × 34 cm · Two indigos"), from that one source.
 
 ## Header, footer, layout (ROADMAP codes)

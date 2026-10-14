@@ -29,7 +29,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"large","className":"nt-frame nt-frame--art nt-split__picture"} -->
-<figure class="wp-block-image size-large nt-frame nt-frame--art nt-split__picture"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cloth-open.svg' ) ); ?>" alt="A flat illustration of a tenugui opened flat, printed with indigo waves"/></figure>
+<figure class="wp-block-image size-large nt-frame nt-frame--art nt-split__picture"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cloth-open.webp' ) ); ?>" alt="A flat illustration of a tenugui opened flat, printed with indigo waves"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

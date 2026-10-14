@@ -6,7 +6,7 @@ Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A handmade, organic store theme for a small tenugui dye workshop by the river in the fictional town of Kawasoe, pour-dyeing (chusen) cotton tenugui cloths in indigo since 1962, with WooCommerce templates styled to match. Pale indigo paper pages, an indigo wash for panels, deep indigo ink text and one muted dyer's blue; Kiwi Maru for display, Mona Sans for text. The hero and decorations are calm 2D flat vector illustrations (solid shapes, no outlines, repeat-pattern feel); product pictures are photographs. A floating pill header in pale indigo carries the menu, the account link and the cart (H10). The home page is an unfolding cloth (L13): one illustration of a tenugui stays pinned on the left while the chapters scroll beside it, and it changes from folded to opened to hung as each chapter comes into view; then a shelf of four cloths, the pour (paste, pour, rinse) as a wide flat illustration, the dye notes and care, and the journal. The footer opens with a strip of four cloth patterns cropped square (F8), then the name, the menu, the workshop address and hours. Pages: Shop, Patterns (the four stencil repeats with their meanings), How to use & care, The workshop (people, the dye week, visiting), Journal, Newsletter and Contact. The workshop details and the dye notes and care each live in one synced pattern (the care card shows in short form on the home page, in full on How to use & care and beside add-to-cart on every product); each cloth's specifications are product attributes (size, dye, cotton, method, ends), and size and dye print under every price (WooCommerce optional: without it the shop shows a static shelf and orders go by email).
+A handmade, organic store theme for a small tenugui dye workshop by the river in the fictional town of Kawasoe, pour-dyeing (chusen) cotton tenugui cloths in indigo since 1962, with WooCommerce templates styled to match. Pale indigo paper pages, an indigo wash for panels, deep indigo ink text and one muted dyer's blue; Kiwi Maru for display, Mona Sans for text. The hero and the cloth and pour pictures are calm 2D flat raster illustrations (WebP; solid shapes, no outlines, repeat-pattern feel); the four pattern swatches are small geometric SVG tiles; product pictures are photographs. A floating pill header in pale indigo carries the menu, the account link and the cart (H10). The home page is an unfolding cloth (L13): one illustration of a tenugui stays pinned on the left while the chapters scroll beside it, and it changes from folded to opened to hung as each chapter comes into view; then a shelf of four cloths, the pour (paste, pour, rinse) as a wide flat illustration, the dye notes and care, and the journal. The footer opens with a strip of four cloth patterns cropped square (F8), then the name, the menu, the workshop address and hours. Pages: Shop, Patterns (the four stencil repeats with their meanings), How to use & care, The workshop (people, the dye week, visiting), Journal, Newsletter and Contact. The workshop details and the dye notes and care each live in one synced pattern (the care card shows in short form on the home page, in full on How to use & care and beside add-to-cart on every product); each cloth's specifications are product attributes (size, dye, cotton, method, ends), and size and dye print under every price (WooCommerce optional: without it the shop shows a static shelf and orders go by email).
 
 == Description ==
 
@@ -60,11 +60,11 @@ The unmodified upstream variable font from https://github.com/google/fonts/tree/
 
 = Images =
 
-Illustrations (SVG, 2D flat vector) and photographs: AI-generated for this theme with Grok Build, released under GPL-2.0-or-later / CC0 (no stock images, no real people, brands or workshops; the workshop, its people and its cloths are fictional). Files in assets/images/demo/ are raster copies of the same pictures (made with scripts/rasterize-images.py for the illustrations), used by the demo import because the Media Library does not accept SVG.
-- assets/images/chusen-pour.svg
-- assets/images/cloth-folded.svg
-- assets/images/cloth-hung.svg
-- assets/images/cloth-open.svg
+Illustrations (2D flat raster WebP made with Grok Build image_gen; the four pattern swatches are small geometric SVG tiles) and photographs: AI-generated for this theme with Grok Build, released under GPL-2.0-or-later / CC0 (no stock images, no real people, brands or workshops; the workshop, its people and its cloths are fictional). Files in assets/images/demo/ are raster copies of the same pictures, used by the demo import because the Media Library does not accept SVG.
+- assets/images/chusen-pour.webp
+- assets/images/cloth-folded.webp
+- assets/images/cloth-hung.webp
+- assets/images/cloth-open.webp
 - assets/images/pattern-dots.svg
 - assets/images/pattern-hemp.svg
 - assets/images/pattern-stripe.svg
@@ -78,10 +78,10 @@ Illustrations (SVG, 2D flat vector) and photographs: AI-generated for this theme
 - assets/images/p06-ame.jpg
 - assets/images/p07-bokashi.jpg
 - assets/images/p08-gift-set.jpg
-- assets/images/demo/chusen-pour.jpg
-- assets/images/demo/cloth-folded.jpg
-- assets/images/demo/cloth-hung.jpg
-- assets/images/demo/cloth-open.jpg
+- assets/images/demo/chusen-pour.webp
+- assets/images/demo/cloth-folded.webp
+- assets/images/demo/cloth-hung.webp
+- assets/images/demo/cloth-open.webp
 - assets/images/demo/dye-workshop.jpg
 - assets/images/demo/p01-seigaiha.jpg
 - assets/images/demo/p02-asanoha.jpg

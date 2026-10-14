@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"nt-section nt-section--flush-top","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull nt-section nt-section--flush-top"><!-- wp:group {"align":"wide","className":"nt-split nt-split--top","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide nt-split nt-split--top"><!-- wp:image {"sizeSlug":"large","className":"nt-frame nt-frame--art nt-split__picture"} -->
-<figure class="wp-block-image size-large nt-frame nt-frame--art nt-split__picture"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cloth-hung.svg' ) ); ?>" alt="A flat illustration of a tenugui hanging to dry from a bamboo pole"/></figure>
+<figure class="wp-block-image size-large nt-frame nt-frame--art nt-split__picture"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cloth-hung.webp' ) ); ?>" alt="A flat illustration of a tenugui hanging to dry from a bamboo pole"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"nt-stack","layout":{"type":"default"}} -->

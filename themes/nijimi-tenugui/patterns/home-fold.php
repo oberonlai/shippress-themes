@@ -12,15 +12,15 @@
 <section class="wp-block-group alignfull nt-fold"><!-- wp:group {"align":"wide","className":"nt-fold__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide nt-fold__grid"><!-- wp:group {"className":"nt-fold__media","layout":{"type":"default"}} -->
 <div class="wp-block-group nt-fold__media"><!-- wp:image {"sizeSlug":"large","className":"nt-fold__figure nt-fold__figure--1"} -->
-<figure class="wp-block-image size-large nt-fold__figure nt-fold__figure--1"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cloth-folded.svg' ) ); ?>" alt="A flat illustration of a tenugui folded into a neat rectangle, printed with an indigo wave pattern"/></figure>
+<figure class="wp-block-image size-large nt-fold__figure nt-fold__figure--1"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cloth-folded.webp' ) ); ?>" alt="A flat illustration of a tenugui folded into a neat rectangle, printed with an indigo wave pattern"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"large","className":"nt-fold__figure nt-fold__figure--2"} -->
-<figure class="wp-block-image size-large nt-fold__figure nt-fold__figure--2"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cloth-open.svg' ) ); ?>" alt="The same tenugui opened out flat: a long rectangle of indigo waves on off-white"/></figure>
+<figure class="wp-block-image size-large nt-fold__figure nt-fold__figure--2"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cloth-open.webp' ) ); ?>" alt="The same tenugui opened out flat: a long rectangle of indigo waves on off-white"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"large","className":"nt-fold__figure nt-fold__figure--3"} -->
-<figure class="wp-block-image size-large nt-fold__figure nt-fold__figure--3"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cloth-hung.svg' ) ); ?>" alt="The same tenugui hanging to dry from a bamboo pole"/></figure>
+<figure class="wp-block-image size-large nt-fold__figure nt-fold__figure--3"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cloth-hung.webp' ) ); ?>" alt="The same tenugui hanging to dry from a bamboo pole"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

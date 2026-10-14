@@ -23,7 +23,7 @@
 
 <!-- wp:group {"align":"wide","className":"nt-wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide nt-wide"><!-- wp:image {"sizeSlug":"large","className":"nt-wide-picture"} -->
-<figure class="wp-block-image size-large nt-wide-picture"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chusen-pour.svg' ) ); ?>" alt="A flat illustration of a small spouted kettle pouring indigo onto a tall stack of folded white cotton"/></figure>
+<figure class="wp-block-image size-large nt-wide-picture"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chusen-pour.webp' ) ); ?>" alt="A flat illustration of a small spouted kettle pouring indigo onto a tall stack of folded white cotton"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
