@@ -3,8 +3,8 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Version: 1.1.0
-Stable tag: 1.1.0
+Version: 1.1.1
+Stable tag: 1.1.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -100,6 +100,12 @@ Images: AI-generated for this theme with Grok Build image_gen, maki-e lacquer il
 All other artwork (rules and ornaments) is CSS, GPL-2.0-or-later.
 
 == Changelog ==
+
+= 1.1.1 =
+* Roomier right-hand menu (feedback: the rail's menu items were too cramped). The rail now holds only the menu: wider (fluid, about 11-13rem), with fluid inner padding, a fluid gap between the vertical columns (about 1-1.4rem instead of 0.5rem), more line spacing and letter spacing, and no item touches the rail's edges. A longer menu wraps into a new tier below, aligned to the same right edge, instead of running out of the rail; if a menu is ever taller than the window, the rail scrolls.
+* A real top header on every width: the wordmark and tagline, an "Order a box" button (to the shop page), the account link and the cart sit in a band across the top; from 1100 px the menu hangs down the rail on the right edge, below that band.
+* 600-1099 px: wordmark and buttons on the first line, the menu on its own ruled line below, wrapping with even gaps. Phones keep the Menu overlay; a long site title wraps onto two lines and, under 480 px, the Menu button shows only its two lines, so the bar never overlaps.
+* The "Order a box" button is saved with the site-relative link /shop/ and pointed at this site's shop page when shown (WooCommerce shop, else a page with the slug "shop", else the home page); change its text or link in the Site Editor (Patterns > Header).
 
 = 1.1.0 =
 * Redesign (tategaki vertical scroll): iron-navy (tetsukon #17184B) pages on washi with yamabuki (#F8B500) marks and one full yamabuki band, washi-light sections, Kaisei Decol + BIZ UDPGothic.

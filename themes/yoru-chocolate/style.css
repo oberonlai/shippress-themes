@@ -3,8 +3,8 @@ Theme Name: Yoru Chocolate
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/yoru-chocolate
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Yoru Chocolate — a bold, quiet store theme for a small bean-to-bar chocolatier working at night in a former print shop in Hoshikawa City, with WooCommerce templates styled to match. Tategaki vertical scroll on iron-navy (tetsukon) pages with washi fibres, kinari text, washi-light sections and a full yamabuki-yellow band; Kaisei Decol for display, BIZ UDPGothic for text, maki-e lacquer illustrations. A fixed rail on the right edge with the wordmark and menu written vertically (H11), a home page whose titles run down vertical spines beside staggered tall product strips (L5), and a footer that writes Yoru huge and vertically beside a yamabuki moon (F1). Origins, Gift boxes, journal, newsletter and contact; the shop details, the gift and shipping note and the origins table each live in one synced pattern (WooCommerce optional: without it the shop shows a static shelf and orders go by email).
-Version: 1.1.0
+Description: Yoru Chocolate — a bold, quiet store theme for a small bean-to-bar chocolatier working at night in a former print shop in Hoshikawa City, with WooCommerce templates styled to match. Tategaki vertical scroll on iron-navy (tetsukon) pages with washi fibres, kinari text, washi-light sections and a full yamabuki-yellow band; Kaisei Decol for display, BIZ UDPGothic for text, maki-e lacquer illustrations. A top header on every width (wordmark, an Order a box button, account and cart) with, from 1100 px, the menu written vertically down a rail on the right edge (H11), a home page whose titles run down vertical spines beside staggered tall product strips (L5), and a footer that writes Yoru huge and vertically beside a yamabuki moon (F1). Origins, Gift boxes, journal, newsletter and contact; the shop details, the gift and shipping note and the origins table each live in one synced pattern (WooCommerce optional: without it the shop shows a static shelf and orders go by email).
+Version: 1.1.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -1367,7 +1367,6 @@ a { text-decoration-color: var(--yc-rust); }
 	--yc-washi: var(--wp--preset--color--washi);
 	--yc-usu: var(--wp--preset--color--usuzumi);
 	--yc-kinari: var(--wp--preset--color--cream);
-	--yc-tate-w: 9.5rem;
 	--yc-tex: url("assets/images/washi.webp");
 	--yc-head-h: 3.75rem;
 }
@@ -1443,7 +1442,18 @@ a { text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 
 :is(.yc-section--paper, .yc-section--washi, .yc-section--yamabuki) .wp-block-button.is-style-arrow .wp-block-button__link { color: var(--yc-navy); border-bottom-color: var(--yc-navy); }
 
-/* ---- Header: a fixed right-hand rail on wide screens (menu written vertically), a slim top bar below 1100 px. */
+/* ---- Header (1.1.1): a real top header on every width: wordmark, menu, "Order a box", account and cart. From 1100 px
+   the menu leaves the bar and hangs down a rail on the right edge, written vertically. Every gap is fluid and the menu
+   wraps instead of overflowing, so a longer menu keeps the same breathing room (a new tier in the rail, a new line in
+   the bar). */
+:root {
+	--yc-tate-w: clamp(10.75rem, 8.25rem + 4vw, 13rem);
+	--yc-band-h: 4.5rem;
+	--yc-rail-pad: clamp(1.25rem, .5rem + 1.25vw, 1.75rem);
+	--yc-rail-item: clamp(1rem, .25rem + 1.25vw, 1.375rem);
+	--yc-rail-tier: clamp(2rem, 1rem + 1.6vw, 2.75rem);
+}
+
 .yc-tate {
 	position: sticky;
 	top: var(--yc-admin);
@@ -1458,21 +1468,27 @@ a { text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 	color: var(--yc-kinari);
 }
 
-.yc-tate__inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem 1.5rem; min-height: var(--yc-head-h); }
+.yc-tate__inner { display: flex; flex-wrap: nowrap; align-items: center; gap: 0 clamp(1rem, 2.4vw, 1.75rem); min-height: var(--yc-head-h); }
 
 .yc-tate__inner > *, .yc-tate__brand > * { margin: 0 !important; }
 
-.yc-tate__brand { display: flex; align-items: baseline; gap: 1rem; min-width: 0; }
+.yc-tate__inner > .yc-tate__brand { display: flex; align-items: baseline; gap: 1rem; min-width: 0; margin-right: auto !important; }
+
+nav.yc-tate__nav { order: 1; }
+
+.yc-tate__cta { order: 2; flex: 0 0 auto; }
+
+.yc-tate__inner > .wp-block-woocommerce-customer-account { order: 3; }
+
+.yc-tate__tools { order: 4; display: flex; align-items: center; gap: 1rem; }
+
+.yc-tate__tools > * { margin: 0 !important; }
 
 .yc-tate .wp-block-site-title { font-family: var(--yc-serif); font-size: 1.35rem; font-weight: 700; letter-spacing: .12em; line-height: 1; white-space: nowrap; }
 
 .yc-tate .wp-block-site-title a { color: var(--yc-yama); text-decoration: none; }
 
-.yc-tate__tag { display: none; font-size: .72rem; letter-spacing: .18em; color: var(--yc-ash); }
-
-.yc-tate__tools { display: flex; align-items: center; gap: 1rem; }
-
-.yc-tate__tools > * { margin: 0 !important; }
+.yc-tate__tag { display: none; font-size: .72rem; letter-spacing: .18em; color: var(--yc-ash); white-space: nowrap; }
 
 .yc-tate .wp-block-navigation-item__content { font-family: var(--yc-serif); font-size: 1rem; letter-spacing: .1em; color: var(--yc-kinari); }
 
@@ -1481,30 +1497,113 @@ a { text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 
 .yc-tate .wc-block-mini-cart__button, .yc-tate .wc-block-customer-account a { color: var(--yc-kinari); }
 
-@media (min-width: 600px) {
-	.yc-tate .yc-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: none !important; }
-	.yc-tate .yc-tate__nav .wp-block-navigation__container { flex-direction: row; flex-wrap: wrap; gap: .4rem 1.5rem !important; }
+/* The call to action: a quiet yamabuki outline that fills on hover. */
+.yc-tate .yc-tate__cta .wp-block-button .wp-block-button__link {
+	padding: .6rem 1.05rem;
+	border: 1px solid var(--yc-yama);
+	border-radius: 0;
+	background: transparent;
+	color: var(--yc-kinari);
+	font-family: var(--yc-sans);
+	font-size: .7rem;
+	font-weight: 700;
+	letter-spacing: .18em;
+	line-height: 1.2;
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
+.yc-tate .yc-tate__cta .wp-block-button .wp-block-button__link:hover { background: var(--yc-yama); color: var(--yc-navy); }
+
+@media (max-width: 599px) {
+	.yc-tate__inner { column-gap: .9rem; }
+	/* A long site title wraps onto two lines instead of running under the buttons. */
+	.yc-tate__inner > .yc-tate__brand { flex: 0 1 auto; }
+	.yc-tate .wp-block-site-title { min-width: 0; font-size: clamp(1.1rem, .8rem + 1.6vw, 1.35rem); line-height: 1.1; white-space: normal; }
+	.yc-tate .yc-tate__cta .wp-block-button .wp-block-button__link { padding: .45rem .7rem; font-size: .62rem; letter-spacing: .14em; }
+}
+
+@media (max-width: 479px) {
+	.yc-tate .yc-nav .wp-block-navigation__responsive-container-open { padding: .55rem .2rem; }
+	.yc-tate .yc-nav .wp-block-navigation__responsive-container-open::before { width: 20px; height: 7px; }
+	.yc-tate .yc-nav .wp-block-navigation__responsive-container-open::after { content: none; }
+}
+
+@media (max-width: 359px) {
+	.yc-tate__cta { display: none; }
+}
+
+@media (min-width: 600px) {
+	.yc-tate .yc-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: none !important; }
+	.yc-tate .yc-tate__nav .wp-block-navigation__container { flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: .6rem clamp(1.25rem, 2.6vw, 2.25rem) !important; }
+}
+
+/* Tablets and small laptops: wordmark and buttons on the first line, the menu on its own ruled line below. */
+@media (min-width: 600px) and (max-width: 1099px) {
+	.yc-tate__inner { flex-wrap: wrap; }
+	.yc-tate__inner > .yc-tate__brand { min-height: var(--yc-head-h); align-items: center; }
+	nav.yc-tate__nav { order: 9; flex: 1 0 100%; padding: .75rem 0 .95rem; border-top: 1px solid color-mix(in srgb, var(--yc-kinari) 12%, transparent); }
+}
+
+/* Wide screens: the top band keeps the wordmark, tagline and buttons; the menu hangs down the right-hand rail. */
 @media (min-width: 1100px) {
-	.yc-tate {
+	.yc-tate { position: relative; }
+	.yc-tate__inner { min-height: var(--yc-band-h); }
+	.yc-tate .wp-block-site-title { font-size: 1.6rem; letter-spacing: .2em; }
+	.yc-tate__tag { display: block; letter-spacing: .26em; text-transform: uppercase; font-size: .66rem; }
+	.yc-tate nav.yc-tate__nav {
+		box-sizing: border-box;
 		position: fixed;
 		top: var(--yc-admin);
 		right: 0;
 		bottom: 0;
+		z-index: 2;
+		display: block;
 		width: var(--yc-tate-w);
-		padding: 2.5rem 0 2rem;
-		border-bottom: 0;
+		padding: calc(var(--yc-band-h) + var(--yc-rail-tier)) var(--yc-rail-pad) var(--yc-rail-pad);
+		overflow-x: hidden;
+		overflow-y: auto;
+		scrollbar-width: thin;
+		background-color: var(--yc-night);
+		background-image: var(--yc-tex);
+		background-size: 640px;
+		background-blend-mode: multiply;
 		border-left: 1px solid var(--wp--preset--color--band);
 	}
-	.yc-tate__inner { flex-direction: column; align-items: center; justify-content: flex-start; gap: 2.25rem; height: 100%; min-height: 0; }
-	.yc-tate__brand { flex-direction: row-reverse; align-items: flex-start; gap: .6rem; padding-bottom: 2.25rem; border-bottom: 1px solid var(--yc-yama); }
-	.yc-tate .wp-block-site-title { writing-mode: vertical-rl; font-size: 1.75rem; letter-spacing: .24em; }
-	.yc-tate__tag { display: block; writing-mode: vertical-rl; font-size: .7rem; letter-spacing: .3em; text-transform: uppercase; }
-	.yc-tate .yc-tate__nav .wp-block-navigation__container { writing-mode: vertical-rl; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; gap: .5rem !important; }
-	.yc-tate .yc-tate__nav .wp-block-navigation-item__content { font-size: .98rem; letter-spacing: .2em; padding: 0; line-height: 1.5; }
+	/* The band's hairline runs on across the rail; a short yamabuki rule marks where the menu starts. */
+	.yc-tate nav.yc-tate__nav::before {
+		content: "";
+		position: absolute;
+		top: var(--yc-band-h);
+		left: 0;
+		right: 0;
+		border-top: 1px solid var(--wp--preset--color--band);
+	}
+	.yc-tate nav.yc-tate__nav::after {
+		content: "";
+		position: absolute;
+		top: calc(var(--yc-band-h) + var(--yc-rail-tier) / 2);
+		right: var(--yc-rail-pad);
+		width: 1.5rem;
+		border-top: 1px solid var(--yc-yama);
+	}
+	.yc-tate nav.yc-tate__nav :is(.wp-block-navigation__responsive-container, .wp-block-navigation__responsive-close, .wp-block-navigation__responsive-dialog, .wp-block-navigation__responsive-container-content) { display: block; width: 100%; }
+	/* vertical-rl + column: items run right to left, each label top to bottom; when the rail is full the next items
+	   start a new tier below, aligned to the same right edge. */
+	.yc-tate .yc-tate__nav .wp-block-navigation__container {
+		writing-mode: vertical-rl;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		align-content: flex-start;
+		justify-content: flex-start;
+		width: 100%;
+		gap: var(--yc-rail-item) var(--yc-rail-tier) !important;
+	}
+	.yc-tate .yc-tate__nav .wp-block-navigation-item { margin: 0; }
+	.yc-tate .yc-tate__nav .wp-block-navigation-item__content { padding: 0; font-size: clamp(1rem, .85rem + .25vw, 1.0625rem); line-height: 1.75; letter-spacing: .22em; white-space: nowrap; }
 	.yc-tate .current-menu-item > .wp-block-navigation-item__content { -webkit-text-emphasis: filled sesame var(--yc-yama); text-emphasis: filled sesame var(--yc-yama); }
-	.yc-tate__tools { flex-direction: column; gap: 1.1rem; }
 	body:has(.yc-tate) .wp-site-blocks { padding-right: var(--yc-tate-w); }
 }
 
