@@ -2,7 +2,7 @@
 
 A luxe, quiet block theme for a **small bean-to-bar chocolatier** and its online shop. A ShipPress **store** theme: WooCommerce templates styled to match, eight sample products in three categories, and a shop that still works without WooCommerce.
 
-Version 1.1.0 (redesign, tategaki vertical scroll).
+Version 1.1.1 (roomier vertical menu rail and a top header on every width; 1.1.0 was the tategaki vertical scroll redesign).
 
 The demo chocolatier is fictional: Yoru Chocolate, working at night in a former print shop at 3-8 Kanzaki-dōri, Hoshikawa City, founded in 2014 by chocolatier Nao Fujisaki with roaster Ken Arima. Shop hours Wednesday to Sunday, 12:00 – 19:00; closed Monday and Tuesday.
 
@@ -16,7 +16,7 @@ The demo chocolatier is fictional: Yoru Chocolate, working at night in a former 
 
 ## Header, footer, layout (ROADMAP codes)
 
-- **H11 header.** A fixed rail on the right edge: the wordmark and tagline written vertically, the whole menu as vertical columns, account and mini cart below. Under 1100 px a slim top bar; on phones the overlay menu.
+- **H11 header.** A top band on every width with the wordmark, tagline, an "Order a box" button, account and mini cart. From 1100 px the menu hangs down a fixed rail on the right edge as vertical columns read right to left, with fluid rail width, padding and column gaps; a longer menu continues as a second tier below instead of overflowing (1.1.1). From 600 to 1099 px the menu has its own ruled line under the wordmark and buttons; on phones the overlay menu (a long site title wraps to two lines).
 - **F1 footer.** On washi: Yoru written huge and vertically beside a yamabuki moon, the shop line, links and the synced shop card.
 - **L5 home layout.** A full-height vertical title beside a tall maki-e drawing of a moon over a box of bonbons; every section title down a vertical spine with a Japanese numeral; eight pieces as staggered tall strips with vertical names (washi); the four origins as vertical columns (yamabuki band); the shop window at night; roast, grind, temper stepping down from right to left; gift boxes (washi); the journal as vertical spines.
 
