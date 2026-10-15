@@ -5,7 +5,7 @@
  * Categories: tsuba-millinery
  * Keywords: millinery, atelier, handmade
  * Viewport Width: 1440
- * Description: Asymmetric: a tall etching of the workbench set low on the left, and on the right three steps (measure, block, finish) with large vermilion numerals.
+ * Description: Asymmetric: a tall etching of the workbench set low on the left, and on the right three steps (measure, block, finish) with large koubai numerals.
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"tm-make","layout":{"type":"default"}} -->

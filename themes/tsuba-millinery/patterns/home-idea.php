@@ -3,15 +3,15 @@
  * Title: Home: four shapes on a matcha band
  * Slug: tsuba-millinery/home-idea
  * Categories: tsuba-millinery
- * Keywords: millinery, shapes, brim, vertical type
+ * Keywords: millinery, shapes, brim, ruled list
  * Viewport Width: 1440
- * Description: A matcha-green band: the four house shapes as tall vertical strips read right to left (brim width, name set vertically, a short note), beside a short text; a cut-out etching of a hat breaks over the top edge of the band.
+ * Description: A matcha-green band: the four house shapes as a ruled list read left to right (brim width, name, a short note), beside a short text; a cut-out etching of a hat breaks over the top edge of the band.
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"tm-strips-sec","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tm-strips-sec"><!-- wp:group {"className":"tm-strips-sec__text","layout":{"type":"default"}} -->
 <div class="wp-block-group tm-strips-sec__text"><!-- wp:image {"sizeSlug":"large","className":"tm-strips-sec__cutout"} -->
-<figure class="wp-block-image size-large tm-strips-sec__cutout"><img src="{{theme}}/assets/images/brim-cutout.webp" alt="Etching of an indigo wide-brim felt hat with a vermilion band and a tape measure looped round the crown"/></figure>
+<figure class="wp-block-image size-large tm-strips-sec__cutout"><img src="{{theme}}/assets/images/brim-cutout.webp" alt="Etching of an indigo wide-brim felt hat with a plum-pink band and a tape measure looped round the crown"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tm-kicker"} -->

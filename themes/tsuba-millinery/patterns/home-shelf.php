@@ -5,7 +5,7 @@
  * Categories: tsuba-millinery
  * Keywords: products, hats, shop, filters
  * Viewport Width: 1440
- * Description: Filter-first: a vertical title in the margin, shape, material and head size as a ruled filter table, then the eight hats in a staggered three-column grid while WooCommerce is active; otherwise the static shelf.
+ * Description: Filter-first: a horizontal title with the count standing in the left margin, shape, material and head size as a ruled filter table, then the eight hats in an asymmetric masonry of three unequal columns while WooCommerce is active; otherwise the static shelf.
  */
 ?>
 <?php

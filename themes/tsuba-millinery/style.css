@@ -3,7 +3,7 @@ Theme Name: Tsuba Millinery
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/tsuba-millinery
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Tsuba Millinery — a bold, Japanese-minimal store theme for a small milliner's atelier in Hoshikawa City, with WooCommerce templates styled to match. Washi paper with a faint fibre texture, large fields of edo-murasaki purple, ai indigo and matcha, a shu vermilion seal and sumi ink; Kaisei Opti for display (vertical titles) and M PLUS 2 for text. A vertical signboard menu read from the right in the top-left corner (H11), an asymmetric 12-column home in vertical type (L5) that keeps the filter-first shelf (shape, material, head size) with the hats in a staggered grid, and a letter-led footer: a vermilion band over a sumi base with the wordmark set vertically (F4). Hand-tinted copperplate etching illustrations. Fit & sizing, Made to order, Atelier, journal, newsletter and contact; the shop card, the sizing guide and the shapes table each live in one synced pattern (WooCommerce optional).
+Description: Tsuba Millinery — a bold, Japanese-minimal store theme for a small milliner's atelier in Hoshikawa City, with WooCommerce templates styled to match. Washi paper with a faint fibre texture, large fields of edo-murasaki purple, ai indigo and matcha, a koubai plum-blossom accent and sumi ink; Kaisei Opti for display and M PLUS 2 for text. A formal top header with a horizontal numbered menu and a small hanging koubai tag (H11), an asymmetric 12-column home read left to right with a blank left margin for section numbers (L5) that keeps the filter-first shelf (shape, material, head size) with the hats in an asymmetric masonry, and a letter-led footer: an Edo purple band over a shikon base with the wordmark set vertically in koubai (F4). Hand-tinted copperplate etching illustrations. Fit & sizing, Made to order, Atelier, journal, newsletter and contact; the shop card, the sizing guide and the shapes table each live in one synced pattern (WooCommerce optional).
 Version: 1.1.0
 Requires at least: 6.6
 Tested up to: 7.1
@@ -1282,10 +1282,11 @@ a { text-decoration-color: var(--tm-rust); }
 .tm-box .wc-block-product { margin: 0 !important; }
 
 /* ==========================================================================
-   13. Tsuba Millinery 1.1: washi, edo-murasaki, ai indigo, matcha, a shu seal and sumi.
-       A vertical signboard menu at the top left (H11), vertical titles set in
-       an asymmetric 12-column grid (L5) with the filter-first shelf kept, and a
-       letter-led footer: an Edo purple band over a shikon base (F4).
+   13. Tsuba Millinery 1.1: washi, edo-murasaki, ai indigo, matcha, a koubai accent and sumi.
+       A formal top header with a horizontal numbered menu (H11), an asymmetric
+       12-column home read left to right with a blank left margin column for the
+       section numbers (L5, asymmetric masonry shelf), and a letter-led footer:
+       an Edo purple band over a shikon base (F4).
    ========================================================================== */
 
 :root {
@@ -1294,8 +1295,8 @@ a { text-decoration-color: var(--tm-rust); }
 	--tm-fibre: var(--wp--preset--color--seam);
 	--tm-sumi: var(--wp--preset--color--ink);
 	--tm-nezumi: var(--wp--preset--color--muted);
-	--tm-shu: var(--wp--preset--color--mauve);
-	--tm-shu-deep: var(--wp--preset--color--mauve-deep);
+	--tm-koubai: var(--wp--preset--color--mauve);
+	--tm-koubai-deep: var(--wp--preset--color--koubai-deep);
 	--tm-ai: var(--wp--preset--color--ai);
 	--tm-matcha: var(--wp--preset--color--matcha);
 	--tm-gofun: var(--wp--preset--color--gofun);
@@ -1306,10 +1307,10 @@ a { text-decoration-color: var(--tm-rust); }
 	--tm-iron: var(--tm-washi);
 	--tm-graphite: var(--tm-kinari);
 	--tm-hair: var(--tm-fibre);
-	--tm-rust: var(--tm-shu);
-	--tm-ember: var(--tm-shu-deep);
-	--tm-rose: var(--tm-shu);
-	--tm-rose-light: var(--tm-shu-deep);
+	--tm-rust: var(--tm-koubai-deep);
+	--tm-ember: var(--tm-murasaki);
+	--tm-rose: var(--tm-koubai-deep);
+	--tm-rose-light: var(--tm-murasaki);
 	--tm-band: var(--tm-fibre);
 	--tm-g: clamp(1rem, 2.2vw, 2rem);
 	--tm-cols: minmax(var(--tm-pad), 1fr) repeat(12, minmax(0, 5.25rem)) minmax(var(--tm-pad), 1fr);
@@ -1328,13 +1329,13 @@ body {
 
 :where(h1, h2, h3, h4, .wp-block-post-title) { font-family: var(--tm-display); font-weight: 400; letter-spacing: .01em; }
 
-:where(h1, h2, h3, h4) em { font-style: normal; color: var(--tm-shu-deep); }
+:where(h1, h2, h3, h4) em { font-style: normal; color: var(--tm-murasaki); }
 
-a { text-decoration-color: var(--tm-shu); }
+a { text-decoration-color: var(--tm-koubai); }
 
-::selection { background: var(--tm-shu); color: var(--tm-sumi); }
+::selection { background: var(--tm-koubai); color: var(--tm-sumi); }
 
-/* Labels: fewer, larger, a small vermilion square instead of a rule. */
+/* Labels: fewer, larger, a small koubai square instead of a rule. */
 .is-style-label, .tm-label, .tm-kicker {
 	display: flex;
 	align-items: center;
@@ -1345,28 +1346,28 @@ a { text-decoration-color: var(--tm-shu); }
 	font-weight: 500;
 	letter-spacing: .16em;
 	text-transform: uppercase;
-	color: var(--tm-shu-deep);
+	color: var(--tm-murasaki);
 }
 
-.is-style-label::before, .tm-label::before, .tm-kicker::before { content: ""; flex: 0 0 auto; width: .55rem; height: .55rem; background: var(--tm-shu); }
+.is-style-label::before, .tm-label::before, .tm-kicker::before { content: ""; flex: 0 0 auto; width: .55rem; height: .55rem; background: var(--tm-koubai); }
 
 .is-style-lead { font-size: var(--wp--preset--font-size--large) !important; font-weight: 400; line-height: 1.75; color: var(--tm-nezumi); }
 
 .tm-quiet { color: var(--tm-nezumi); }
 
-/* Buttons: sumi blocks; on hover the seal vermilion. */
+/* Buttons: sumi blocks; on hover koubai with sumi text. */
 .wp-block-button:not(.is-style-arrow) .wp-block-button__link { padding: 1rem 1.9rem; border-radius: 0; }
 
-.wp-block-button.is-style-arrow .wp-block-button__link { gap: .7rem; padding: .35rem 0; font-family: var(--tm-sans); font-size: .9375rem; font-weight: 500; letter-spacing: .06em; text-transform: none; color: var(--tm-sumi); border-bottom: 2px solid var(--tm-shu); }
+.wp-block-button.is-style-arrow .wp-block-button__link { gap: .7rem; padding: .35rem 0; font-family: var(--tm-sans); font-size: .9375rem; font-weight: 500; letter-spacing: .06em; text-transform: none; color: var(--tm-sumi); border-bottom: 2px solid var(--tm-koubai); }
 
-.wp-block-button.is-style-arrow .wp-block-button__link:hover { color: var(--tm-shu-deep); border-bottom-color: var(--tm-shu-deep); }
+.wp-block-button.is-style-arrow .wp-block-button__link:hover { color: var(--tm-murasaki); border-bottom-color: var(--tm-murasaki); }
 
 /* Etchings sit on the paper: the print's own cream margins melt into the washi. */
 .tm-open__print img, .tm-cell__picture img, .tm-product__image img, .tm-make__picture img, .tm-strips-sec__picture img, .tm-index-list__picture img, .tm-posts .wp-block-post-featured-image img, .tm-frame img, .tm-still__picture img { mix-blend-mode: multiply; }
 
 .tm-frame { border: 0; background: transparent; }
 
-/* ---- Page heads: big titles, a vermilion square before the first line. */
+/* ---- Page heads: big titles, a koubai square before the first line. */
 .tm-section--opening { padding-top: clamp(2.5rem, 1.5rem + 3vw, 4.5rem); }
 
 .tm-opening { padding-bottom: clamp(2.5rem, 2rem + 2vw, 4rem); border-bottom: 1px solid var(--tm-line-strong); }
@@ -1377,82 +1378,80 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-main--front .tm-section { padding-block: clamp(5rem, 3rem + 7vw, 10rem); }
 
-/* ---- H11: the vertical signboard. A vermilion seal with the wordmark set vertically, the menu as vertical columns
-   read from the right, the cart beside them. It sits in the top-left corner of every page. */
-.tm-tate { position: relative; z-index: 40; margin: 0 !important; padding: 0 var(--tm-pad); color: var(--tm-sumi); }
+/* ---- H11 (1.1.0 fix): a formal top header read left to right. A small koubai tag with the decorative kanji
+   hangs from the top edge beside the wordmark; the menu runs horizontally with numbered items; the cart at the end.
+   It is never fixed and never a side rail. */
+.tm-top { position: relative; z-index: 40; margin: 0 !important; padding: 0 var(--tm-pad); color: var(--tm-sumi); border-bottom: 1px solid var(--tm-line-strong); }
 
-.tm-tate__inner { display: flex; flex-direction: row; align-items: flex-start; justify-content: flex-start; gap: clamp(1rem, 2vw, 2rem); max-width: calc(var(--tm-wide) + 2 * var(--tm-pad)); margin-inline: auto; }
+.tm-top__inner { display: flex; flex-wrap: wrap; align-items: center; gap: 0 clamp(1.25rem, 3vw, 3rem); max-width: var(--tm-wide); min-height: 5.5rem; margin-inline: auto; }
 
-.tm-tate__inner > *, .tm-tate__seal > *, .tm-tate__tools > * { margin: 0 !important; }
+.tm-top__inner > *, .tm-top__brand > *, .tm-top__tools > * { margin: 0 !important; }
 
-.tm-tate__seal { display: flex; flex-direction: row; align-items: flex-start; gap: .9rem; }
+.tm-top__brand { display: grid; grid-template-columns: auto auto; column-gap: 1rem; align-items: center; align-self: stretch; }
 
-.tm-tate .wp-block-site-title {
-	display: block;
-	writing-mode: vertical-rl;
-	padding: 1.6rem .8rem 1.4rem;
-	background: var(--tm-shu);
-	font-family: var(--tm-display);
-	font-size: 1.55rem;
-	font-weight: 700;
-	line-height: 1;
-	letter-spacing: .2em;
-	white-space: nowrap;
+.tm-top__brand::before { content: "\9354" / ""; grid-row: 1 / span 2; align-self: start; display: block; padding: 1.35rem .5rem .7rem; background: var(--tm-koubai); color: var(--tm-sumi); font-family: var(--tm-display); font-size: 1.3rem; font-weight: 700; line-height: 1; writing-mode: vertical-rl; }
+
+.tm-top .wp-block-site-title { grid-column: 2; align-self: end; font-family: var(--tm-display); font-size: 1.5rem; font-weight: 700; line-height: 1.1; letter-spacing: .05em; white-space: nowrap; }
+
+.tm-top .wp-block-site-title a { color: var(--tm-sumi); text-decoration: none; }
+
+.tm-top__note { grid-column: 2; align-self: start; padding-top: .3rem; font-size: .6875rem; letter-spacing: .16em; text-transform: uppercase; color: var(--tm-nezumi); white-space: nowrap; }
+
+.tm-nav--top { margin-left: auto !important; }
+
+.tm-top__tools { display: flex; align-items: center; gap: .9rem; }
+
+.tm-nav--top .wp-block-navigation__container { counter-reset: tm-nav; gap: clamp(1rem, 2.2vw, 2.25rem) !important; }
+
+.tm-nav--top .wp-block-navigation-item { counter-increment: tm-nav; }
+
+.tm-nav--top .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item__content { display: inline-flex; align-items: baseline; gap: .45rem; padding: .35rem 0; border-bottom: 2px solid transparent; font-size: .9375rem; letter-spacing: .04em; color: var(--tm-sumi); text-decoration: none; white-space: nowrap; }
+
+.tm-nav--top .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item__content::before { content: counter(tm-nav, decimal-leading-zero); font-family: var(--tm-display); font-size: .75rem; letter-spacing: .04em; color: var(--tm-koubai-deep); }
+
+.tm-nav--top .wp-block-navigation-item__content:hover, .tm-nav--top .current-menu-item > .wp-block-navigation-item__content { border-bottom-color: var(--tm-koubai) !important; }
+
+.tm-top .wc-block-mini-cart__button, .tm-top .wc-block-customer-account__account-icon, .tm-top .wp-block-woocommerce-customer-account a { color: inherit; }
+
+.tm-top .wp-block-navigation__responsive-container-open { color: var(--tm-sumi); }
+
+/* The open overlay (phones): deep indigo, the menu as large numbered lines. */
+.tm-top .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--tm-ai); color: var(--tm-gofun); }
+
+.tm-top .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content { align-items: flex-start; padding-top: 4.5rem; }
+
+.tm-top .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { flex-direction: column !important; align-items: flex-start !important; gap: 1.1rem !important; }
+
+.tm-top .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { display: inline-flex; align-items: baseline; gap: .8rem; font-family: var(--tm-display); font-size: 1.9rem; color: var(--tm-gofun) !important; text-decoration: none; }
+
+.tm-top .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content::before { content: counter(tm-nav, decimal-leading-zero); font-size: .9rem; color: var(--tm-ai-pale); }
+
+.tm-top .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-close { color: var(--tm-gofun); }
+
+/* Tablets: the menu takes its own row under the wordmark. */
+@media (min-width: 600px) and (max-width: 1023px) {
+	.tm-top__inner { padding-bottom: .4rem; }
+	.tm-nav--top { order: 3; flex: 1 0 100%; margin-left: 0 !important; padding-top: .5rem; border-top: 1px solid var(--tm-line); }
+	.tm-top__tools { margin-left: auto; }
 }
-
-.tm-tate .wp-block-site-title a { color: var(--tm-gofun); text-decoration: none; }
-
-
-.tm-tate__note { padding-top: 1.6rem; writing-mode: vertical-rl; font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: var(--tm-nezumi); white-space: nowrap; }
-
-.tm-tate__tools { display: flex; flex-direction: row; align-items: flex-start; gap: .9rem; padding-top: 1.1rem; }
-
-.tm-tate__tools > .wp-block-woocommerce-customer-account, .tm-tate__tools > .wc-block-mini-cart { margin-right: .35rem !important; }
-
-.tm-nav--tate .wp-block-navigation__container { counter-reset: tm-nav; }
-
-.tm-nav--tate .wp-block-navigation-item { counter-increment: tm-nav; }
-
-@media (min-width: 600px) {
-	.tm-nav--tate .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container { writing-mode: vertical-rl; flex-direction: column; flex-wrap: nowrap; align-items: flex-start; gap: 0 !important; }
-	.tm-nav--tate .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item { display: block; }
-	.tm-nav--tate .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item + .wp-block-navigation-item { border-right: 1px solid var(--tm-line); }
-	.tm-nav--tate .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item__content { display: block; padding: .4rem .75rem 1rem; font-size: .9375rem; line-height: 1.2; letter-spacing: .14em; color: inherit; text-decoration: none; white-space: nowrap; }
-	.tm-nav--tate .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item__content::before { content: counter(tm-nav, cjk-decimal); display: inline-block; margin-bottom: .7rem; font-family: var(--tm-display); font-size: .9rem; letter-spacing: 0; color: var(--tm-shu-deep); }
-	.tm-nav--tate .wp-block-navigation-item__content:hover, .tm-nav--tate .current-menu-item > .wp-block-navigation-item__content { color: var(--tm-shu-deep); }
-}
-
-.tm-tate .wc-block-mini-cart__button, .tm-tate .wc-block-customer-account__account-icon, .tm-tate .wp-block-woocommerce-customer-account a { color: inherit; }
-
-.tm-tate .wp-block-navigation__responsive-container-open { color: var(--tm-sumi); }
-
-/* The open overlay: deep indigo, the menu still vertical, read from the right. */
-.tm-tate .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--tm-ai); color: var(--tm-gofun); }
-
-.tm-tate .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content { align-items: flex-end; padding-top: 4rem; }
-
-.tm-tate .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { flex-direction: row-reverse !important; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start !important; gap: 1.25rem 1.5rem !important; }
-
-.tm-tate .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { writing-mode: vertical-rl; font-family: var(--tm-display); font-size: 1.7rem; letter-spacing: .1em; color: var(--tm-gofun) !important; text-decoration: none; }
-
-.tm-tate .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-close { color: var(--tm-gofun); }
 
 @media (max-width: 599px) {
-	.tm-tate { padding-block: 0 .5rem; }
-	.tm-tate__inner { flex-direction: row; justify-content: space-between; align-items: flex-start; }
-	.tm-tate__seal { flex-direction: row; }
-	.tm-tate .wp-block-site-title { padding: 1.1rem .55rem 1rem; font-size: 1.15rem; }
-	.tm-tate__note { padding-top: 1.1rem; font-size: .6875rem; }
-	.tm-tate__tools { flex-direction: row; align-items: center; padding-top: 1rem; }
+	.tm-top__inner { min-height: 4.25rem; gap: 0 .9rem; }
+	.tm-top__brand { column-gap: .7rem; }
+	.tm-top__brand::before { padding: 1.1rem .4rem .55rem; font-size: 1.05rem; }
+	.tm-top .wp-block-site-title { font-size: 1.2rem; }
+	.tm-top__note { font-size: .625rem; letter-spacing: .12em; }
+	.tm-top__tools { order: 2; margin-left: auto; }
+	.tm-nav--top { order: 3; margin-left: 0 !important; }
 }
 
-/* Home, wide screens: the signboard stands in the top-left corner of the opening, on washi. */
-@media (min-width: 1100px) {
-	body:has(.tm-open) .tm-tate { position: absolute; top: var(--tm-admin); left: 0; right: 0; pointer-events: none; }
-	body:has(.tm-open) .tm-tate__inner > * { pointer-events: auto; }
+@media (max-width: 400px) {
+	.tm-top__note { display: none; }
+	.tm-top .wp-block-site-title { align-self: center; grid-row: 1 / span 2; }
 }
 
-/* ---- The 12-column paper grid used by the home sections. */
+/* ---- The 12-column paper grid used by the home sections: columns 2-3 are a blank left margin that only carries
+   the section number (and, in the opening, the season line set vertically); the content reads left to right in 4-13. */
 .tm-open, .tm-shape, .tm-strips-sec, .tm-make, .tm-fit, .tm-index-sec, .tm-foot__letter, .tm-foot__base {
 	display: grid;
 	grid-template-columns: var(--tm-cols);
@@ -1463,78 +1462,106 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-open > *, .tm-shape > *, .tm-strips-sec > *, .tm-make > *, .tm-fit > *, .tm-index-sec > *, .tm-foot__letter > *, .tm-foot__base > * { margin: 0 !important; min-width: 0; max-width: none !important; }
 
-.tm-shape__body > *, .tm-strips-sec__text > *, .tm-make__text-col > *, .tm-fit__text > *, .tm-strip > *, .tm-make__step > *, .tm-open__text > *, .tm-shape__rail > *, .tm-index-sec__head > * { margin-block: 0 !important; }
+.tm-shape__body > *, .tm-strips-sec__text > *, .tm-make__text-col > *, .tm-fit__text > *, .tm-strip > *, .tm-make__step > *, .tm-open__text > *, .tm-index-sec__head > * { margin-block: 0 !important; }
 
-/* ---- L5 opening: the title set vertically on washi, an etching laid over the Edo purple field. */
-.tm-open { position: relative; grid-template-rows: auto auto; min-height: clamp(42rem, 94vh, 58rem); overflow: hidden; isolation: isolate; }
+.tm-main--front .wp-block-post-content { counter-reset: tm-sec; }
+
+.tm-main--front :is(.tm-open, .tm-shape, .tm-strips-sec, .tm-make, .tm-fit, .tm-index-sec) { counter-increment: tm-sec; }
+
+.tm-main--front :is(.tm-open, .tm-shape, .tm-strips-sec, .tm-make, .tm-fit, .tm-index-sec)::before {
+	content: counter(tm-sec, decimal-leading-zero);
+	grid-column: 2 / 4;
+	grid-row: 1;
+	align-self: start;
+	justify-self: start;
+	width: 2.75rem;
+	padding-top: .6rem;
+	border-top: 2px solid var(--tm-koubai);
+	font-family: var(--tm-display);
+	font-size: 1.05rem;
+	line-height: 1;
+	letter-spacing: .06em;
+	color: var(--tm-murasaki);
+}
+
+.tm-main--front .tm-fit::before { color: var(--tm-ai-pale); }
+
+.tm-main--front .tm-strips-sec::before { color: var(--tm-sumi); border-top-color: var(--tm-ai); }
+
+.tm-main--front .tm-open::before { margin-top: clamp(3.5rem, 7vw, 7rem); }
+
+@media (max-width: 899px) {
+	.tm-main--front :is(.tm-open, .tm-shape, .tm-strips-sec, .tm-make, .tm-fit, .tm-index-sec)::before { display: none; }
+}
+
+/* ---- L5 opening (asymmetric, horizontal): a large headline on washi, the season line standing in the left margin,
+   an etching laid over the Edo purple field on the right. */
+.tm-open { position: relative; grid-template-rows: auto 1fr; min-height: clamp(38rem, 86vh, 52rem); overflow: hidden; isolation: isolate; }
 
 .tm-open__field::before { content: "\9354" / ""; position: absolute; z-index: 0; right: calc(var(--tm-pad) - .06em); top: -.06em; font-family: var(--tm-display); font-size: clamp(12rem, 6rem + 12vw, 20rem); font-weight: 700; line-height: 1; color: transparent; -webkit-text-stroke: 1px color-mix(in srgb, var(--tm-gofun) 55%, transparent); pointer-events: none; }
 
 .tm-open__field { grid-column: 10 / -1; grid-row: 1 / -1; position: relative; background: var(--tm-murasaki); }
 
-.tm-open__field::after { content: ""; position: absolute; right: var(--tm-pad); bottom: clamp(2rem, 4vw, 3.5rem); width: clamp(3.5rem, 6vw, 5.5rem); aspect-ratio: 1; border-radius: 50%; background: var(--tm-shu); }
+.tm-open__field::after { content: ""; position: absolute; right: var(--tm-pad); bottom: clamp(2rem, 4vw, 3.5rem); width: clamp(3.5rem, 6vw, 5.5rem); aspect-ratio: 1; border-radius: 50%; background: var(--tm-koubai); }
 
 .tm-open__print { position: absolute !important; z-index: 2; left: calc(-1 * clamp(6rem, 9vw, 9.5rem)); bottom: clamp(3rem, 6vw, 6rem); width: clamp(15rem, 21vw, 21rem); margin: 0 !important; padding: clamp(.6rem, 1vw, 1rem); background: var(--tm-washi); box-shadow: 0 1.5rem 3rem -1.5rem rgba(30, 10, 40, .5); }
 
 .tm-open__print img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
 
+.tm-open__kicker { grid-column: 2 / 4; grid-row: 1 / -1; align-self: start; justify-self: start; display: flex; align-items: center; gap: .7rem; margin-top: clamp(7rem, 11vw, 11rem) !important; writing-mode: vertical-rl; font-size: .8125rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--tm-murasaki); white-space: nowrap; }
+
+.tm-open__kicker::before { content: ""; width: .55rem; height: .55rem; background: var(--tm-koubai); }
+
 .tm-open__title {
-	grid-column: 4 / 9;
-	grid-row: 1 / span 2;
-	margin-right: clamp(1rem, 4vw, 4rem) !important;
-	justify-self: end;
-	align-self: start;
-	padding-top: clamp(3rem, 6vw, 6rem);
-	writing-mode: vertical-rl;
-	font-size: clamp(3rem, 1.6rem + 4.2vw, 6.25rem) !important;
+	grid-column: 4 / 10;
+	grid-row: 1;
+	align-self: end;
+	padding-top: clamp(3.5rem, 7vw, 7rem);
+	padding-right: var(--tm-g);
+	font-size: clamp(3rem, 1.2rem + 5.2vw, 7.25rem) !important;
 	font-weight: 700 !important;
-	line-height: 1.18 !important;
-	letter-spacing: .04em !important;
+	line-height: 1.02 !important;
+	letter-spacing: -.01em !important;
 	color: var(--tm-sumi);
-	white-space: nowrap;
 }
 
-.tm-open__title em { display: block; padding-top: 2.5em; color: var(--tm-murasaki); }
+.tm-open__title em { display: block; color: var(--tm-murasaki); }
 
-.tm-open__text { grid-column: 2 / 6; grid-row: 2; align-self: end; margin-top: 15rem !important; max-width: 27rem !important; padding-bottom: clamp(3rem, 6vw, 6rem); }
+.tm-open__text { grid-column: 4 / 9; grid-row: 2; align-self: start; max-width: 30rem !important; padding: clamp(2rem, 3vw, 3rem) 0 clamp(4rem, 7vw, 7rem); border-top: 1px solid var(--tm-line-strong); margin-top: clamp(2rem, 3vw, 3rem) !important; }
 
-.tm-open__kicker { display: flex; align-items: center; gap: .7rem; font-size: .8125rem; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--tm-shu-deep); }
-
-.tm-open__kicker::before { content: ""; width: .55rem; height: .55rem; background: var(--tm-shu); }
-
-.tm-open__lead { margin-top: 1.25rem !important; font-size: var(--wp--preset--font-size--large); line-height: 1.75; color: var(--tm-sumi); }
+.tm-open__lead { font-size: var(--wp--preset--font-size--large); line-height: 1.75; color: var(--tm-sumi); }
 
 .tm-open__links { margin-top: 2.25rem !important; gap: 1rem 2rem; }
 
 @media (max-width: 1099px) {
-	.tm-open { grid-template-rows: auto auto auto; min-height: 0; }
-	.tm-open__field::before { font-size: clamp(10rem, 40vw, 16rem); }
-	.tm-open__title { grid-column: 9 / 14; grid-row: 1; justify-self: end; padding-top: 1.5rem; font-size: clamp(2.6rem, 1.5rem + 5vw, 4.5rem) !important; }
-	.tm-open__text { grid-column: 2 / 9; grid-row: 1; align-self: end; margin-top: 0 !important; padding-bottom: 1rem; }
-	.tm-open__field { grid-column: 1 / -1; grid-row: 2; display: flex; justify-content: center; margin-top: clamp(2rem, 6vw, 3.5rem) !important; padding: clamp(2.5rem, 8vw, 4rem) var(--tm-pad); }
+	.tm-open { grid-template-rows: auto auto auto auto; min-height: 0; }
+	.tm-open__kicker { grid-column: 2 / -2; grid-row: 1; margin-top: clamp(2.5rem, 6vw, 3.5rem) !important; writing-mode: horizontal-tb; white-space: normal; }
+	.tm-open__title { grid-column: 2 / -2; grid-row: 2; padding-top: 1.25rem; font-size: clamp(2.6rem, 1.2rem + 6vw, 5rem) !important; }
+	.tm-open__text { grid-column: 2 / -2; grid-row: 3; margin-top: 1.75rem !important; padding: 1.75rem 0 0; }
+	.tm-open__field { grid-column: 1 / -1; grid-row: 4; display: flex; justify-content: center; margin-top: clamp(2.5rem, 6vw, 3.5rem) !important; padding: clamp(2.5rem, 8vw, 4rem) var(--tm-pad); }
 	.tm-open__print { position: relative !important; left: auto; bottom: auto; width: min(22rem, 78%); }
 	.tm-open__field::after { width: 3rem; bottom: 1.5rem; }
+	.tm-main--front .tm-open::before { display: none; }
 }
 
 @media (max-width: 599px) {
 	.tm-open__field::before { font-size: 11rem; }
-	.tm-open__title { grid-column: 9 / -1; padding-right: var(--tm-pad); font-size: clamp(2.2rem, 1.2rem + 6vw, 3rem) !important; }
-	.tm-open__text { grid-column: 2 / 10; }
 	.tm-open__lead { font-size: 1.0625rem; }
 }
 
-/* ---- L5 + filter-first: a vertical title in the margin, a ruled filter table, the hats in a staggered grid. */
-.tm-shape { padding-block: clamp(5rem, 3rem + 6vw, 9rem); }
+/* ---- Find your shape: a horizontal title over a ruled filter table, the count standing in the margin, the hats in an
+   asymmetric masonry of three unequal columns. */
+.tm-shape { padding-block: clamp(5rem, 3rem + 6vw, 9rem); grid-template-rows: auto auto; }
 
-.tm-shape__rail { grid-column: 2 / 4; display: flex; flex-direction: row-reverse; justify-content: flex-end; align-items: flex-start; gap: 1rem; align-self: start; position: sticky; top: calc(var(--tm-admin) + 2rem); }
+.tm-shape__rail { display: contents; }
 
-.tm-shape__title { writing-mode: vertical-rl; font-size: clamp(2.4rem, 1.4rem + 2.8vw, 4.2rem) !important; font-weight: 700 !important; line-height: 1.1 !important; letter-spacing: .04em !important; white-space: nowrap; }
+.tm-shape__title { grid-column: 4 / 14; grid-row: 1; margin-bottom: clamp(2rem, 3.5vw, 3rem) !important; font-size: clamp(2.4rem, 1.4rem + 2.8vw, 4.2rem) !important; font-weight: 700 !important; line-height: 1.1 !important; letter-spacing: 0 !important; }
 
-.tm-shape__title::after { content: "\578B" / ""; display: inline-block; margin-top: .4em; width: 1.3em; height: 1.3em; padding: 0; background: var(--tm-shu); color: var(--tm-gofun); font-size: .5em; text-align: center; line-height: 1.3em; writing-mode: horizontal-tb; vertical-align: middle; }
+.tm-shape__title::after { content: "\578B" / ""; display: inline-block; margin-left: .35em; width: 1.3em; height: 1.3em; background: var(--tm-koubai); color: var(--tm-sumi); font-size: .5em; text-align: center; line-height: 1.3em; vertical-align: middle; }
 
-.tm-shape__count { writing-mode: vertical-rl; padding-top: .4rem; font-size: .8125rem; letter-spacing: .16em; text-transform: uppercase; color: var(--tm-nezumi); white-space: nowrap; }
+.tm-shape__count { grid-column: 2 / 4; grid-row: 2; align-self: start; justify-self: start; position: sticky; top: calc(var(--tm-admin) + 2rem); writing-mode: vertical-rl; font-size: .8125rem; letter-spacing: .16em; text-transform: uppercase; color: var(--tm-nezumi); white-space: nowrap; }
 
-.tm-shape__body { grid-column: 4 / 14; }
+.tm-shape__body { grid-column: 4 / 14; grid-row: 2; }
 
 .tm-shape__targets { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 
@@ -1552,12 +1579,14 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-chip:hover, .tm-filters a:hover { border-color: var(--tm-ai); background: var(--tm-ai); color: var(--tm-gofun); }
 
-/* The staggered shelf: three columns, the middle one set lower. */
-.tm-stagger.tm-shelf, .tm-stagger .wc-block-product-template { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: clamp(2.5rem, 4vw, 4.5rem) var(--tm-g) !important; margin: 0; padding: 0; border: 0 !important; }
+/* Asymmetric masonry: three unequal columns, the middle and right ones set lower by different amounts. */
+.tm-stagger.tm-shelf, .tm-stagger .wc-block-product-template { display: grid !important; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) minmax(0, 3.5fr) !important; align-items: start; gap: clamp(2.5rem, 4vw, 4.5rem) var(--tm-g) !important; margin: 0; padding: 0; border: 0 !important; }
 
 .tm-stagger .tm-cell, .tm-stagger .wc-block-product { margin: 0 !important; padding: 0 !important; border: 0 !important; background: transparent !important; }
 
-.tm-stagger > .tm-cell:nth-child(3n + 2), .tm-stagger .wc-block-product:nth-child(3n + 2) { margin-top: clamp(3rem, 6vw, 6rem) !important; }
+.tm-stagger > .tm-cell:nth-child(3n + 2), .tm-stagger .wc-block-product:nth-child(3n + 2) { margin-top: clamp(4rem, 8vw, 8rem) !important; }
+
+.tm-stagger > .tm-cell:nth-child(3n), .tm-stagger .wc-block-product:nth-child(3n) { margin-top: clamp(1.5rem, 3vw, 3rem) !important; }
 
 .tm-stagger .tm-cell__picture, .tm-stagger .tm-product__image { margin: 0 !important; border: 0 !important; background: transparent !important; overflow: hidden; }
 
@@ -1565,7 +1594,7 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-stagger .tm-cell:hover img, .tm-stagger .wc-block-product:hover .tm-product__image img { transform: scale(1.1); }
 
-.tm-stagger .tm-cell__cat, .tm-stagger .tm-product__cat { margin-top: 1.1rem !important; font-size: .8125rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--tm-shu-deep); }
+.tm-stagger .tm-cell__cat, .tm-stagger .tm-product__cat { margin-top: 1.1rem !important; font-size: .8125rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; color: var(--tm-murasaki); }
 
 .tm-stagger .tm-product__cat a { color: inherit; text-decoration: none; }
 
@@ -1593,20 +1622,20 @@ a { text-decoration-color: var(--tm-shu); }
 .tm-shape:has(.tm-shape__targets :target) .tm-stagger > .tm-cell { margin-top: 0 !important; }
 
 @media (max-width: 899px) {
-	.tm-shape__rail { grid-column: 2 / -2; position: static; flex-direction: column; gap: .75rem; margin-bottom: 2.5rem !important; }
-	.tm-shape__title, .tm-shape__count { writing-mode: horizontal-tb; white-space: normal; }
-	.tm-shape__title::after { display: inline-block; margin: 0 0 0 .4em; vertical-align: middle; }
-	.tm-shape__body { grid-column: 2 / -2; }
-	.tm-stagger.tm-shelf, .tm-stagger .wc-block-product-template { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
-	.tm-stagger > .tm-cell:nth-child(3n + 2), .tm-stagger .wc-block-product:nth-child(3n + 2) { margin-top: 0 !important; }
+	.tm-shape__title { grid-column: 2 / -2; margin-bottom: .75rem !important; }
+	.tm-shape__count { grid-column: 2 / -2; position: static; margin-bottom: 2.5rem !important; writing-mode: horizontal-tb; white-space: normal; }
+	.tm-shape__body { grid-column: 2 / -2; grid-row: 3; }
+	.tm-stagger.tm-shelf, .tm-stagger .wc-block-product-template { grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) !important; }
+	.tm-stagger > .tm-cell:nth-child(n), .tm-stagger .wc-block-product:nth-child(n) { margin-top: 0 !important; }
 	.tm-stagger > .tm-cell:nth-child(even), .tm-stagger .wc-block-product:nth-child(even) { margin-top: 2.5rem !important; }
 	.tm-filters--table .tm-filters__label { flex-basis: 100%; }
 }
 
-/* ---- Four shapes on a matcha band, tall strips read from the right. */
+/* ---- Four shapes on a matcha band: a ruled list read left to right (brim width, name, note); a cut-out etching
+   of a hat breaks over the top edge of the band. */
 .tm-strips-sec { padding-block: clamp(5rem, 3rem + 6vw, 9rem); background: var(--tm-matcha); color: var(--tm-sumi); }
 
-.tm-strips-sec__text { grid-column: 2 / 7; align-self: start; }
+.tm-strips-sec__text { grid-column: 4 / 9; grid-row: 1; align-self: start; }
 
 .tm-strips-sec .tm-kicker { color: var(--tm-sumi); }
 
@@ -1624,47 +1653,36 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-strips-sec .wp-block-button.is-style-arrow .wp-block-button__link:hover { color: var(--tm-ai); border-bottom-color: var(--tm-ai); }
 
-.tm-strips-sec__picture { margin-top: clamp(2.5rem, 5vw, 4rem) !important; }
+.tm-strips { grid-column: 9 / 14; grid-row: 1; align-self: end; display: grid; grid-template-columns: minmax(0, 1fr); border-bottom: 1px solid var(--tm-sumi); }
 
-.tm-strips-sec__picture img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.tm-strip { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); column-gap: 1.5rem; align-items: baseline; padding: 1.5rem 0 1.6rem; border-top: 1px solid color-mix(in srgb, var(--tm-sumi) 35%, transparent); }
 
-.tm-strips { grid-column: 8 / 14; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); direction: rtl; border-block: 1px solid var(--tm-sumi); }
-
-.tm-strip { direction: ltr; display: flex; flex-direction: column; align-items: center; gap: 1.25rem; min-height: clamp(22rem, 30vw, 28rem); padding: 1.75rem .5rem 2rem; border-left: 1px solid color-mix(in srgb, var(--tm-sumi) 35%, transparent); }
-
-.tm-strip:last-child { border-left: 0; }
+.tm-strip:first-child { border-top-color: var(--tm-sumi); }
 
 .tm-strip > * { margin: 0 !important; }
 
-.tm-strip__cm { font-family: var(--tm-display); font-size: clamp(2.6rem, 1.8rem + 2.4vw, 4.4rem); font-weight: 700; line-height: 1; color: var(--tm-ai); font-variant-numeric: lining-nums; }
+.tm-strip__cm { grid-row: 1 / span 2; font-family: var(--tm-display); font-size: clamp(2.6rem, 1.8rem + 2.2vw, 4rem); font-weight: 700; line-height: 1; color: var(--tm-ai); font-variant-numeric: lining-nums; }
 
 .tm-strip__cm span { font-size: .32em; font-weight: 400; letter-spacing: .06em; color: var(--tm-sumi); }
 
-.tm-strip__name { writing-mode: vertical-rl; font-size: clamp(1.6rem, 1.2rem + 1.2vw, 2.4rem) !important; font-weight: 700 !important; letter-spacing: .08em; white-space: nowrap; }
+.tm-strip__name { grid-column: 2; font-size: clamp(1.5rem, 1.2rem + .9vw, 2.1rem) !important; font-weight: 700 !important; letter-spacing: .02em; }
 
-.tm-strip__note { writing-mode: vertical-rl; max-height: 15rem; font-size: .9375rem; line-height: 1.7; letter-spacing: .04em; }
+.tm-strip__note { grid-column: 2; margin-top: .35rem !important; font-size: .9375rem; line-height: 1.6; }
 
 @media (max-width: 899px) {
 	.tm-strips-sec__text { grid-column: 2 / -2; }
-	.tm-strips { grid-column: 2 / -2; margin-top: 3rem !important; }
-	.tm-strip { min-height: 24rem; padding-inline: .25rem; }
-	.tm-strip__note { max-height: 12rem; font-size: .875rem; }
+	.tm-strips { grid-column: 2 / -2; grid-row: 2; margin-top: 3rem !important; }
+	.tm-strip { grid-template-columns: 5.5rem minmax(0, 1fr); column-gap: 1rem; }
 }
 
-@media (max-width: 480px) {
-	.tm-strips { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-	.tm-strip:nth-child(2) { border-left: 0; }
-	.tm-strip:nth-child(n + 3) { border-top: 1px solid color-mix(in srgb, var(--tm-sumi) 35%, transparent); }
-}
-
-/* ---- From block to brim: a tall etching set low, three steps with large vermilion numerals. */
+/* ---- From block to brim: an etching set low in the left content columns, three steps with large koubai numerals. */
 .tm-make { padding-block: clamp(5rem, 3rem + 7vw, 10rem); }
 
-.tm-make__picture { grid-column: 2 / 7; grid-row: 1; align-self: end; margin-top: clamp(4rem, 10vw, 10rem) !important; }
+.tm-make__picture { grid-column: 4 / 8; grid-row: 1; align-self: end; margin-top: clamp(4rem, 10vw, 10rem) !important; }
 
 .tm-make__picture img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
 
-.tm-make__text-col { grid-column: 8 / 14; grid-row: 1; align-self: start; }
+.tm-make__text-col { grid-column: 9 / 14; grid-row: 1; align-self: start; }
 
 .tm-make__title { margin-top: 1.25rem !important; font-size: var(--wp--preset--font-size--xx-large) !important; }
 
@@ -1672,7 +1690,7 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-make__step { counter-increment: tm-step; display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: .3rem 1.5rem; padding: 1.75rem 0; border-top: 1px solid var(--tm-line-strong); }
 
-.tm-make__step::before { content: counter(tm-step, cjk-decimal); grid-row: 1 / span 2; font-family: var(--tm-display); font-size: 3.2rem; font-weight: 700; line-height: 1; color: var(--tm-shu); }
+.tm-make__step::before { content: counter(tm-step, decimal-leading-zero); grid-row: 1 / span 2; font-family: var(--tm-display); font-size: 2.6rem; font-weight: 700; line-height: 1; color: var(--tm-koubai-deep); }
 
 .tm-make__name { grid-column: 2; font-size: var(--wp--preset--font-size--x-large) !important; }
 
@@ -1684,15 +1702,17 @@ a { text-decoration-color: var(--tm-shu); }
 	.tm-make__picture { grid-column: 2 / 11; grid-row: 2; margin-top: 3.5rem !important; }
 	.tm-make__text-col { grid-column: 2 / -2; }
 	.tm-make__step { grid-template-columns: 3.25rem minmax(0, 1fr); }
-	.tm-make__step::before { font-size: 2.4rem; }
+	.tm-make__step::before { font-size: 2.1rem; }
 }
 
 /* ---- Fit and sizing on a deep indigo band; the etching rises over the band's top edge. */
 .tm-fit { margin-top: clamp(4rem, 8vw, 9rem) !important; padding-block: clamp(4.5rem, 3rem + 5vw, 8rem); background: var(--tm-ai); color: var(--tm-gofun); }
 
-.tm-fit__text { grid-column: 2 / 8; }
+.tm-fit__text { grid-column: 4 / 10; grid-row: 1; }
 
 .tm-fit .tm-kicker { color: var(--tm-ai-pale); }
+
+.tm-fit .tm-kicker::before { background: var(--tm-koubai); }
 
 .tm-fit__title { margin-top: 1.25rem !important; font-size: var(--wp--preset--font-size--xx-large) !important; color: var(--tm-gofun); }
 
@@ -1712,9 +1732,9 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-fit .wp-block-button:not(.is-style-arrow) .wp-block-button__link { background: var(--tm-gofun); color: var(--tm-ai); }
 
-.tm-fit .wp-block-button:not(.is-style-arrow) .wp-block-button__link:hover { background: var(--tm-shu); color: var(--tm-sumi); }
+.tm-fit .wp-block-button:not(.is-style-arrow) .wp-block-button__link:hover { background: var(--tm-koubai); color: var(--tm-sumi); }
 
-.tm-fit__picture { grid-column: 9 / 14; align-self: start; margin-top: calc(-1 * clamp(7rem, 14vw, 13rem)) !important; padding: clamp(.6rem, 1vw, 1rem); background: var(--tm-washi); }
+.tm-fit__picture { grid-column: 10 / 14; grid-row: 1; align-self: start; margin-top: calc(-1 * clamp(7rem, 14vw, 13rem)) !important; padding: clamp(.6rem, 1vw, 1rem); background: var(--tm-washi); }
 
 .tm-fit__picture img { width: 100%; aspect-ratio: 1; object-fit: cover; mix-blend-mode: multiply; }
 
@@ -1723,18 +1743,14 @@ a { text-decoration-color: var(--tm-shu); }
 	.tm-fit__picture { grid-column: 5 / -2; grid-row: 1; margin-bottom: 3rem !important; }
 }
 
-/* ---- Journal as a ruled index; its title stands vertically on the right. */
+/* ---- Journal as a ruled index under a horizontal title. */
 .tm-index-sec { padding-block: clamp(5rem, 3rem + 6vw, 9rem); }
 
-.tm-index-sec__head { grid-column: 12 / 14; grid-row: 1; display: flex; flex-direction: column; align-items: flex-end; gap: 1.5rem; }
+.tm-index-sec__head { grid-column: 4 / 14; grid-row: 1; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 1rem 2rem; margin-bottom: clamp(2rem, 3.5vw, 3rem) !important; }
 
-.tm-index-sec__title { writing-mode: vertical-rl; font-size: clamp(2.2rem, 1.4rem + 2.2vw, 3.6rem) !important; font-weight: 700 !important; letter-spacing: .04em; white-space: nowrap; }
+.tm-index-sec__title { font-size: clamp(2.2rem, 1.4rem + 2.2vw, 3.6rem) !important; font-weight: 700 !important; letter-spacing: 0; }
 
-.tm-index-sec__head .tm-links { writing-mode: vertical-rl; }
-
-.tm-index-sec__head .wp-block-button.is-style-arrow .wp-block-button__link { border-bottom: 0; border-left: 2px solid var(--tm-shu); padding: 0 .35rem; }
-
-.tm-index-list { grid-column: 2 / 12; grid-row: 1; }
+.tm-index-list { grid-column: 4 / 14; grid-row: 2; }
 
 .tm-index-list .wp-block-post-template { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--tm-line-strong); }
 
@@ -1742,7 +1758,7 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-index-list li > * { margin: 0 !important; }
 
-.tm-index-list__date { padding-top: .5rem; font-family: var(--tm-sans); font-size: .875rem; letter-spacing: .08em; color: var(--tm-shu-deep); font-variant-numeric: tabular-nums; }
+.tm-index-list__date { padding-top: .5rem; font-family: var(--tm-sans); font-size: .875rem; letter-spacing: .08em; color: var(--tm-murasaki); font-variant-numeric: tabular-nums; }
 
 .tm-index-list__body > * { margin: 0 !important; }
 
@@ -1752,7 +1768,7 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-index-list .wp-block-post-title a { color: var(--tm-sumi); text-decoration: none; }
 
-.tm-index-list .wp-block-post-title a:hover { color: var(--tm-shu-deep); }
+.tm-index-list .wp-block-post-title a:hover { color: var(--tm-murasaki); }
 
 .tm-index-list .wp-block-post-excerpt { max-width: 36rem; color: var(--tm-nezumi); }
 
@@ -1761,16 +1777,14 @@ a { text-decoration-color: var(--tm-shu); }
 .tm-index-list__picture { overflow: hidden; }
 
 @media (max-width: 899px) {
-	.tm-index-sec__head { grid-column: 2 / -2; flex-direction: row; justify-content: space-between; align-items: baseline; margin-bottom: 2rem !important; }
-	.tm-index-sec__head { flex-wrap: wrap; gap: 1rem 2rem; }
-	.tm-index-sec__title, .tm-index-sec__head .tm-links { writing-mode: horizontal-tb; white-space: normal; }
-	.tm-index-sec__head .wp-block-button.is-style-arrow .wp-block-button__link { border-left: 0; border-bottom: 2px solid var(--tm-shu); padding: .35rem 0; }
-	.tm-index-list { grid-column: 2 / -2; grid-row: 2; }
+	.tm-index-sec__head { grid-column: 2 / -2; margin-bottom: 2rem !important; }
+	.tm-index-list { grid-column: 2 / -2; }
 	.tm-index-list .wp-block-post-template > li { grid-template-columns: minmax(0, 1fr) 7.5rem; }
 	.tm-index-list__date { grid-column: 1 / -1; padding: 0; }
 }
 
-/* ---- F4: the letter on an Edo purple band, then a shikon base with the vertical wordmark. */
+
+/* ---- F4: the letter on an Edo purple band, then a shikon base with the wordmark set vertically in koubai. */
 .tm-foot { margin-top: 0 !important; padding: 0; border: 0; background: none; color: var(--tm-sumi); }
 
 .tm-foot--letter > * { margin: 0 !important; }
@@ -1785,13 +1799,13 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-foot__cta .wp-block-button__link { background: var(--tm-gofun) !important; color: var(--tm-murasaki) !important; }
 
-.tm-foot__cta .wp-block-button__link:hover { background: var(--tm-shu) !important; color: var(--tm-sumi) !important; }
+.tm-foot__cta .wp-block-button__link:hover { background: var(--tm-koubai) !important; color: var(--tm-sumi) !important; }
 
 .tm-foot__base { row-gap: 2.5rem; padding-block: clamp(3.5rem, 3rem + 3vw, 6rem) 2.5rem; background: var(--tm-shikon); color: var(--tm-gofun); }
 
 .tm-foot__mark { grid-column: 2 / 5; grid-row: 1 / span 2; writing-mode: vertical-rl; font-family: var(--tm-display); font-size: clamp(4rem, 2.5rem + 5vw, 8rem); font-weight: 700; line-height: 1; letter-spacing: .08em; }
 
-.tm-foot__mark a { color: var(--tm-shu); text-decoration: none; }
+.tm-foot__mark a { color: var(--tm-koubai); text-decoration: none; }
 
 
 .tm-foot__info { grid-column: 5 / 10; }
@@ -1804,7 +1818,7 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-foot__links a { color: var(--tm-gofun); font-size: 1rem; text-decoration: none; }
 
-.tm-foot__base a:hover { color: var(--tm-shu); }
+.tm-foot__base a:hover { color: var(--tm-koubai); }
 
 .tm-foot__info .tm-foundry { border: 0; }
 
@@ -1859,7 +1873,7 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-hero { background: var(--tm-washi); }
 
-.tm-step__num, .tm-origin__pct { font-family: var(--tm-display); font-style: normal; color: var(--tm-shu); }
+.tm-step__num, .tm-origin__pct { font-family: var(--tm-display); font-style: normal; color: var(--tm-koubai-deep); }
 
 .tm-posts .wp-block-post-template > li:hover { background: color-mix(in srgb, var(--tm-kinari) 60%, transparent); }
 
@@ -1869,11 +1883,11 @@ a { text-decoration-color: var(--tm-shu); }
 
 .tm-prose h2 { font-family: var(--tm-display); }
 
-.tm-prose blockquote { border-left-color: var(--tm-shu); }
+.tm-prose blockquote { border-left-color: var(--tm-koubai); }
 
 .tm-crumbs, .tm-crumbs a { font-size: .875rem; color: var(--tm-nezumi); }
 
-.tm-lost__no { font-family: var(--tm-display); color: var(--tm-shu); }
+.tm-lost__no { font-family: var(--tm-display); color: var(--tm-koubai-deep); }
 
 .tm-header--checkout { padding: 1.25rem var(--tm-pad); background: var(--tm-washi); border-bottom: 1px solid var(--tm-line-strong); }
 
