@@ -83,6 +83,27 @@ function yoru_chocolate_header_shop_blocks( $hooked, $position, $anchor, $contex
 add_filter( 'hooked_block_types', 'yoru_chocolate_header_shop_blocks', 20, 4 );
 
 /**
+ * The header's "Order a box" button (class yc-shop-link) is saved with the site-relative link /shop/, so it also works
+ * on sites in a subfolder: it points at the WooCommerce shop page, else a page with the slug "shop", else the home page.
+ *
+ * @param string $content Rendered button block.
+ * @param array  $block   Parsed block.
+ * @return string
+ */
+function yoru_chocolate_shop_link( $content, $block ) {
+	if ( false === strpos( (string) ( $block['attrs']['className'] ?? '' ), 'yc-shop-link' ) || false === strpos( $content, 'href="/shop/"' ) ) {
+		return $content;
+	}
+	$url = function_exists( 'wc_get_page_permalink' ) ? wc_get_page_permalink( 'shop' ) : '';
+	if ( ! $url ) {
+		$page = get_page_by_path( 'shop' );
+		$url  = $page ? get_permalink( $page ) : home_url( '/' );
+	}
+	return str_replace( 'href="/shop/"', 'href="' . esc_url( $url ) . '"', $content );
+}
+add_filter( 'render_block_core/button', 'yoru_chocolate_shop_link', 10, 2 );
+
+/**
  * Block style variations. All CSS lives in style.css.
  */
 function yoru_chocolate_block_styles() {
