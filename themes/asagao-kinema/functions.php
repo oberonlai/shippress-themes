@@ -44,14 +44,15 @@ function asagao_kinema_block_styles() {
 			'lead'  => __( 'Lead paragraph', 'asagao-kinema' ),
 		),
 		'core/button'    => array(
-			'text-link' => __( 'Text link with a lilac underline', 'asagao-kinema' ),
-			'outline'   => __( 'Hairline outline button', 'asagao-kinema' ),
+			'ticket'    => __( 'Ticket (shu vermilion, notched ends)', 'asagao-kinema' ),
+			'text-link' => __( 'Text link with a heavy underline', 'asagao-kinema' ),
+			'outline'   => __( 'Outline button', 'asagao-kinema' ),
 		),
 		'core/table'     => array(
 			'prices' => __( 'Prices (amounts on the right, hairlines)', 'asagao-kinema' ),
 		),
 		'core/separator' => array(
-			'reel' => __( 'Film strip (a short perforated rule)', 'asagao-kinema' ),
+			'reel' => __( 'Film strip (a short sprocket rule)', 'asagao-kinema' ),
 		),
 	);
 
@@ -82,3 +83,25 @@ function asagao_kinema_pattern_categories() {
 	);
 }
 add_action( 'init', 'asagao_kinema_pattern_categories' );
+
+/**
+ * The week's programme scrolls sideways on the home page (a film strip): make the strip a named, focusable region so
+ * it can be scrolled with the keyboard. Works for the synced programme as stored on any site, old or new.
+ *
+ * @param string $html  Rendered block.
+ * @param array  $block Parsed block.
+ * @return string
+ */
+function asagao_kinema_strip_region( $html, $block ) {
+	$class = isset( $block['attrs']['className'] ) ? (string) $block['attrs']['className'] : '';
+	if ( ! preg_match( '/(^|\s)ak-prog(\s|$)/', $class ) || false !== strpos( $html, 'data-ak-strip' ) ) {
+		return $html;
+	}
+	return preg_replace(
+		'/<div class="([^"]*\bak-prog\b[^"]*)"/',
+		'<div class="$1" data-ak-strip role="region" tabindex="0" aria-label="' . esc_attr__( 'This week\'s programme, Monday to Sunday', 'asagao-kinema' ) . '"',
+		$html,
+		1
+	);
+}
+add_filter( 'render_block_core/group', 'asagao_kinema_strip_region', 10, 2 );

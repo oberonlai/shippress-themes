@@ -12,7 +12,7 @@
 <section class="wp-block-group alignfull ak-section ak-about ak-section--last"><!-- wp:group {"align":"wide","className":"ak-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ak-wrap"><!-- wp:group {"className":"ak-split","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-split"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ak-split__img"} -->
-<figure class="wp-block-image size-full ak-split__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/projector.webp' ) ); ?>" alt="A risograph print of a vintage film projector in a dim booth, its beam cutting through the dark"/></figure>
+<figure class="wp-block-image size-full ak-split__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/projector.webp' ) ); ?>" alt="A sumi-ink painting with vermilion washes of a vintage 35 mm projector in its booth, the beam passing through a small window to the auditorium"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ak-split__text","layout":{"type":"default"}} -->
