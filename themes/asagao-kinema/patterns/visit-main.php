@@ -24,7 +24,11 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ak-split__text","layout":{"type":"default"}} -->
-<div class="wp-block-group ak-split__text"><!-- wp:heading {"className":"ak-intro__title"} -->
+<div class="wp-block-group ak-split__text"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ak-split__img ak-frame"} -->
+<figure class="wp-block-image size-full ak-split__img ak-frame"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/facade.webp' ) ); ?>" alt="A sumi-ink painting with vermilion washes of the cinema entrance at dusk: a paper lantern over the door, bicycles and a bamboo fence covered in morning glories"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"className":"ak-intro__title"} -->
 <h2 class="wp-block-heading ak-intro__title">Getting here</h2>
 <!-- /wp:heading -->
 

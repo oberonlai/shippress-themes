@@ -3,8 +3,8 @@ Theme Name: Asagao Kinema
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/asagao-kinema
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Asagao Kinema — cinematic, editorial and elegant events theme for a one-screen independent cinema in a fictional town. Night-plum pages, dusk-plum bands, pale house-light text and one muted lilac for rules, numerals and dates; Piazzolla for headings over Libre Franklin. The hero and the stills are risograph duotone illustrations (raster WebP; two inks, grain, slight misregistration). Every page opens with a masthead (H5): the cinema's name large, a dateline row 'Programme 14 · Oct 13 to 19' and the menu below. The home page is a chaptered scroll of the week (L12): Monday to Sunday, each day a date numeral, a still, the film, a note and screening times, then tickets beside the foyer, membership and the journal. The footer is split in two tones (F10): tickets and prices on one side, the visit details and sitemap on the other. Pages: Programme, Visit & tickets, Membership, About, Journal, Newsletter and Contact. The programme, the ticket prices and the dateline are synced patterns, edited once. WCAG AA colours.
-Version: 1.0.1
+Description: Asagao Kinema — cinematic, bold and Japanese-modern events theme for a one-screen independent cinema in a fictional town. Shu vermilion bands with sumi ink text, a sumi film strip, a tokiwa green membership band and washi paper for reading; Antonio, a tall condensed display, over Chivo. Sumi-e ink pictures with vermilion washes (raster WebP); in the hero a cut-out ink projector breaks out of the vermilion band. A fixed top bar holds the name, the programme dateline in ruled cells, the menu and a ticket button. The home page is a horizontal scroll strip: a giant headline with a vertical label, the week as a film strip that scrolls sideways, a ticket stub with the prices, a membership band and the journal. The Programme page lays the same week out as a contact sheet. The footer rolls like end credits. The programme, the ticket prices and the dateline are synced patterns, edited once. WCAG AA colours.
+Version: 1.1.0
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -14,165 +14,417 @@ Text Domain: asagao-kinema
 Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, one-column
 */
 
+/* 0. Tokens. Palette slugs keep their 1.0 names (night, plum, pale, lilac...) so colours chosen in existing content
+   follow the new palette: night = sumi, plum = shu vermilion, pale = washi, lilac = tokiwa green,
+   lilac-soft = deep shu, ash = kinari, seat = gofun. Text on shu is always sumi (5.1:1). */
 :root {
-	--ak-night: var(--wp--preset--color--night);
-	--ak-plum: var(--wp--preset--color--plum);
-	--ak-pale: var(--wp--preset--color--pale);
-	--ak-lilac: var(--wp--preset--color--lilac);
-	--ak-lilac-soft: var(--wp--preset--color--lilac-soft);
-	--ak-ash: var(--wp--preset--color--ash);
-	--ak-seat: var(--wp--preset--color--seat);
-	--ak-rule: rgba(232, 227, 230, 0.14);
-	--ak-gap: clamp(3rem, 7vw, 7rem);
+	--ak-ink: var(--wp--preset--color--night);
+	--ak-shu: var(--wp--preset--color--plum);
+	--ak-paper: var(--wp--preset--color--pale);
+	--ak-accent: var(--wp--preset--color--plum);
+	--ak-deep: var(--wp--preset--color--lilac-soft);
+	--ak-mist: var(--wp--preset--color--ash);
+	--ak-white: var(--wp--preset--color--seat);
+	--ak-base: #0F0F0F;
+	--ak-quiet: #5B5650;
+	--ak-night: var(--ak-ink);
+	--ak-plum: var(--ak-shu);
+	--ak-pale: var(--ak-paper);
+	--ak-lilac: var(--ak-green);
+	--ak-lilac-soft: var(--ak-deep);
+	--ak-ash: var(--ak-mist);
+	--ak-seat: var(--ak-white);
+	--ak-rule: rgba(28, 28, 28, 0.2);
+	--ak-green: var(--wp--preset--color--lilac);
+	--ak-rule-light: rgba(255, 255, 255, 0.24);
+	--ak-gap: clamp(3.5rem, 8vw, 8rem);
 	--ak-display: var(--wp--preset--font-family--display);
+	--ak-pad: var(--wp--style--root--padding-left, clamp(1.25rem, 4vw, 3.5rem));
+	--ak-edge: max(var(--ak-pad), calc((100vw - var(--wp--style--global--wide-size, 1280px)) / 2));
+	--ak-bar: 4.25rem;
+	--ak-holes: linear-gradient(90deg, var(--ak-paper) 0 11px, transparent 11px);
 }
 
+/* 1. Base */
 body { -webkit-font-smoothing: antialiased; }
 :where(.wp-site-blocks) > * { margin-block-start: 0; }
-a { text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
-:focus-visible { outline: 2px solid var(--ak-lilac-soft); outline-offset: 3px; }
+.wp-site-blocks { overflow-x: clip; }
+a { text-underline-offset: 0.22em; text-decoration-thickness: 1px; }
+:focus-visible { outline: 3px solid var(--ak-accent); outline-offset: 3px; }
+.ak-section.alignfull, .ak-foot.alignfull, .ak-article.alignfull { margin-block: 0 !important; }
+.ak-main > .wp-block-post-content > *, .ak-main > .ak-section { margin-block: 0 !important; }
 
 /* Labels, leads, links */
 .is-style-label {
-	font-size: var(--wp--preset--font-size--x-small);
+	font-family: var(--ak-display);
+	font-size: 0.9375rem;
+	font-weight: 500;
 	letter-spacing: 0.22em;
 	text-transform: uppercase;
-	color: var(--ak-lilac-soft);
-	margin: 0 0 1rem;
+	margin: 0 0 1.25rem;
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
 }
-.is-style-lead { font-size: var(--wp--preset--font-size--large); color: var(--ak-pale); line-height: 1.55; max-width: 38rem; }
-.ak-links { gap: 1.5rem; align-items: center; margin-top: 2rem; }
+.is-style-label::before { content: ""; width: 0.7rem; height: 0.7rem; background: var(--ak-accent); flex: none; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.5; max-width: 34rem; }
+.ak-links { gap: 1.25rem 2rem; align-items: center; margin-top: 2.25rem; }
+.wp-block-button__link { padding: 0.85rem 1.7rem; }
 .wp-block-button.is-style-text-link .wp-block-button__link {
-	background: none; color: var(--ak-pale); padding: 0 0 0.25rem; border-bottom: 1px solid var(--ak-lilac);
+	background: none; color: inherit; padding: 0 0 0.3rem; border-bottom: 3px solid var(--ak-accent);
 }
-.wp-block-button.is-style-text-link .wp-block-button__link:hover { color: var(--ak-lilac-soft); }
-.wp-block-button.is-style-outline .wp-block-button__link {
-	background: transparent; color: var(--ak-pale); border: 1px solid var(--ak-lilac); padding: 0.6rem 1.4rem;
+.wp-block-button.is-style-text-link .wp-block-button__link:hover { border-bottom-color: currentColor; background: none; color: inherit; }
+.wp-block-button.is-style-outline .wp-block-button__link { background: transparent; color: inherit; border: 2px solid currentColor; }
+.wp-block-button.is-style-outline .wp-block-button__link:hover { background: var(--ak-accent); color: var(--ak-ink); border-color: var(--ak-accent); }
+.wp-block-button.is-style-ticket .wp-block-button__link {
+	background: var(--ak-accent);
+	color: var(--ak-ink);
+	padding: 0.8rem 1.9rem;
+	-webkit-mask: radial-gradient(circle at 0 50%, transparent 0.45rem, #000 calc(0.45rem + 0.5px)) left / 51% 100% no-repeat, radial-gradient(circle at 100% 50%, transparent 0.45rem, #000 calc(0.45rem + 0.5px)) right / 51% 100% no-repeat;
+	mask: radial-gradient(circle at 0 50%, transparent 0.45rem, #000 calc(0.45rem + 0.5px)) left / 51% 100% no-repeat, radial-gradient(circle at 100% 50%, transparent 0.45rem, #000 calc(0.45rem + 0.5px)) right / 51% 100% no-repeat;
 }
-.wp-block-button.is-style-outline .wp-block-button__link:hover { background: var(--ak-pale); color: var(--ak-night); }
-.wp-block-button__link { padding: 0.8rem 1.6rem; }
+.wp-block-button.is-style-ticket .wp-block-button__link:hover { background: var(--ak-white); color: var(--ak-ink); }
+.wp-block-button.is-style-ticket .wp-block-button__link:focus-visible { -webkit-mask: none; mask: none; }
 
-/* Header: H5 masthead with the programme dateline */
-.ak-header { border-bottom: 1px solid var(--ak-rule); padding-block: clamp(1.5rem, 3vw, 2.5rem) 0; }
-.ak-mast { text-align: center; padding-bottom: 1.25rem; border-bottom: 1px solid var(--ak-rule); }
-.ak-mast__title { font-family: var(--ak-display); font-size: clamp(2.4rem, 1.4rem + 4.5vw, 5.4rem); line-height: 1; font-weight: 300; letter-spacing: 0.02em; margin: 0; }
-.ak-mast__title a { color: var(--ak-pale); text-decoration: none; }
-.ak-dateline { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.4rem 1.6rem; margin: 1rem 0 0; font-size: var(--wp--preset--font-size--x-small); letter-spacing: 0.18em; text-transform: uppercase; color: var(--ak-ash); }
-.ak-dateline span + span::before { content: ""; display: inline-block; width: 1.2rem; height: 1px; background: var(--ak-lilac); vertical-align: middle; margin-right: 1.6rem; }
-.ak-navrow { display: flex; align-items: center; justify-content: center; gap: 2rem; padding-block: 0.9rem; position: relative; }
-.ak-nav { font-size: var(--wp--preset--font-size--small); letter-spacing: 0.08em; gap: 2rem; }
-.ak-nav a { color: var(--ak-pale); text-decoration: none; }
-.ak-nav a:hover, .ak-nav .current-menu-item a { color: var(--ak-lilac-soft); }
-.ak-navrow__cta { margin: 0; }
-.ak-navrow__cta .wp-block-button__link { padding: 0.4rem 1.1rem; }
-.wp-block-navigation__responsive-container.is-menu-open { background: var(--ak-night) !important; color: var(--ak-pale) !important; padding: 2rem; }
+/* Film frame: a picture on a strip of base with sprocket holes above and below */
+.ak-frame, .ak-hero__img, .ak-split__img, .ak-article__figure {
+	margin: 0;
+	padding: 20px 0;
+	background: var(--ak-holes) 0 6px / 22px 8px repeat-x, var(--ak-holes) 0 calc(100% - 6px) / 22px 8px repeat-x, var(--ak-base);
+}
+.ak-frame img, .ak-hero__img img, .ak-split__img img, .ak-day__still img { display: block; width: 100%; height: auto; border: 0; }
+.wp-block-separator.is-style-reel {
+	border: 0 !important; height: 18px; width: 9rem !important; margin: 2.25rem 0; opacity: 1;
+	background: var(--ak-holes) 0 5px / 22px 8px repeat-x, var(--ak-base);
+}
 
-/* Sections */
-.ak-section { padding-block: var(--ak-gap) 0; }
-.ak-section--last { padding-bottom: var(--ak-gap); }
-.ak-head { padding-block: clamp(3rem, 7vw, 6rem) 0; }
-.ak-head__inner { max-width: 46rem; }
-.ak-head__title { margin: 0 0 1.25rem; font-weight: 300; }
-.ak-intro { max-width: 40rem; margin-bottom: 2.5rem; }
-.ak-intro__title { margin: 0 0 1rem; font-weight: 300; }
-.ak-intro__lead { color: var(--ak-ash); }
-.ak-page > .ak-section:last-child, .ak-main > .wp-block-post-content > .ak-section:last-child { padding-bottom: var(--ak-gap); }
-.ak-main .wp-block-post-content > .ak-section.ak-journal { padding-bottom: var(--ak-gap); }
+/* 2. Header: fixed top bar with ruled cells (dateline, menu, tickets) and a sprocket edge */
+.ak-bar { background: var(--ak-ink); color: var(--ak-white); margin: 0 !important; padding: 0 !important; z-index: 100; }
+:where(body:not(.editor-styles-wrapper)) .ak-bar { position: fixed; top: 0; left: 0; right: 0; }
+.admin-bar .ak-bar { top: var(--wp-admin--admin-bar--height, 32px); }
+:where(body:not(.editor-styles-wrapper)) .wp-site-blocks { padding-top: calc(var(--ak-bar) + 14px); }
+.ak-bar::after {
+	content: ""; display: block; height: 14px;
+	background: var(--ak-holes) 0 50% / 22px 6px repeat-x, var(--ak-base);
+}
+.ak-bar__row { display: flex; align-items: stretch; height: var(--ak-bar); padding-inline: var(--ak-pad); }
+.ak-bar__row > * { margin: 0 !important; }
+.ak-bar__title {
+	display: flex; align-items: center; padding-right: 1.5rem; white-space: nowrap;
+	font-family: var(--ak-display); font-size: 1.875rem; font-weight: 600; line-height: 1; text-transform: uppercase; letter-spacing: 0.03em;
+}
+.ak-bar__title a { color: var(--ak-white); text-decoration: none; }
+.ak-bar__cells { display: flex; align-items: stretch; }
+.ak-bar .ak-dateline { display: flex; align-items: stretch; margin: 0; gap: 0; font-family: var(--ak-display); font-size: 0.875rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ak-mist); }
+.ak-bar .ak-dateline span { display: flex; align-items: center; padding-inline: 1.1rem; border-left: 1px solid var(--ak-rule-light); white-space: nowrap; }
+.ak-bar .ak-dateline span:first-child { color: var(--ak-accent); }
+.ak-nav { margin-left: auto !important; align-self: stretch; font-family: var(--ak-display); font-size: 1.0625rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; gap: 0; }
+.ak-nav .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container { gap: 0; align-items: stretch; height: 100%; flex-wrap: nowrap; }
+.ak-nav .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item { border-left: 1px solid var(--ak-rule-light); }
+.ak-nav .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation-item__content { display: flex; align-items: center; height: 100%; padding: 0 0.95rem; white-space: nowrap; }
+.ak-nav .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__responsive-container-content { height: 100%; }
+.ak-nav a { color: var(--ak-white); text-decoration: none; }
+.ak-nav .wp-block-navigation-item__content:hover, .ak-nav .current-menu-item > .wp-block-navigation-item__content { background: var(--ak-shu); color: var(--ak-ink); }
+.ak-navrow__cta { display: flex; align-items: center; padding-left: 1.1rem; border-left: 1px solid var(--ak-rule-light); }
+.ak-navrow__cta .wp-block-button__link { padding: 0.55rem 1.35rem; font-size: 1rem; white-space: nowrap; }
+.ak-bar .wp-block-navigation__responsive-container-open, .ak-bar .wp-block-navigation__responsive-container-close { color: var(--ak-white); }
+.ak-bar .wp-block-navigation__responsive-container-open svg { width: 30px; height: 30px; }
+.ak-header .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--ak-shu); color: var(--ak-ink); padding: 2rem var(--ak-pad); }
+.ak-bar .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { gap: 0.4rem; }
+.ak-bar .wp-block-navigation__responsive-container.is-menu-open a, .ak-bar .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-close { color: var(--ak-ink); }
+.ak-bar .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { font-size: clamp(2rem, 8vw, 3.25rem); line-height: 1.1; padding: 0.2rem 0; }
 
-/* Hero */
-.ak-hero__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--ak-gap); align-items: center; }
-.ak-hero__title { font-weight: 300; margin: 0 0 1.5rem; }
-.ak-hero__img, .ak-split__img, .ak-day__still { margin: 0; }
-.ak-hero__img img, .ak-split__img img, .ak-day__still img { display: block; width: 100%; height: auto; border: 1px solid var(--ak-rule); }
+/* On shu surfaces the shu accent turns to sumi: label squares, underlines, focus rings, ticket buttons */
+.ak-hero .is-style-label::before, .ak-head .is-style-label::before, .ak-article__head .is-style-label::before { background: var(--ak-ink); }
+.ak-hero .is-style-text-link .wp-block-button__link, .ak-head .is-style-text-link .wp-block-button__link { border-bottom-color: var(--ak-ink); }
+.ak-hero :focus-visible, .ak-head :focus-visible, .ak-article__head :focus-visible, .ak-day--text :focus-visible, .ak-tickets .ak-split__text:last-child :focus-visible { outline-color: var(--ak-ink); }
+.ak-band :focus-visible { outline-color: var(--ak-white); }
+.ak-hero .wp-block-button.is-style-ticket .wp-block-button__link, .ak-head .wp-block-button.is-style-ticket .wp-block-button__link { background: var(--ak-ink); color: var(--ak-white); }
+.ak-hero .wp-block-button.is-style-ticket .wp-block-button__link:hover, .ak-head .wp-block-button.is-style-ticket .wp-block-button__link:hover { background: var(--ak-white); color: var(--ak-ink); }
 
-/* The week: L12 chaptered scroll, Monday to Sunday */
-.ak-prog { border-top: 1px solid var(--ak-rule); }
-.ak-day { display: grid; grid-template-columns: 8rem minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); padding-block: clamp(2rem, 4vw, 3.25rem); border-bottom: 1px solid var(--ak-rule); align-items: start; margin: 0; }
-.ak-day--text { grid-template-columns: 8rem minmax(0, 1fr); }
-.ak-day--text .ak-day__text { max-width: 40rem; }
-.ak-day__date { font-family: var(--ak-display); font-size: clamp(2.6rem, 2rem + 2vw, 4rem); line-height: 1; color: var(--ak-lilac); margin: 0; font-weight: 300; position: sticky; top: 2rem; }
-.ak-day__date span { display: block; font-family: var(--wp--preset--font-family--body); font-size: var(--wp--preset--font-size--x-small); letter-spacing: 0.22em; text-transform: uppercase; color: var(--ak-lilac-soft); margin-bottom: 0.5rem; }
-.ak-day__title { margin: 0 0 0.5rem; font-size: clamp(1.5rem, 1.2rem + 1vw, 2.1rem); }
-.ak-day__meta { font-size: var(--wp--preset--font-size--small); color: var(--ak-ash); letter-spacing: 0.04em; margin: 0 0 1rem; }
+/* 3. Sections */
+.ak-section { padding-block: var(--ak-gap); }
+.ak-section--flush { padding-top: clamp(2.5rem, 5vw, 4rem); }
+.ak-intro { max-width: 46rem; margin-bottom: 3rem; }
+.ak-intro__title { margin: 0 0 1.25rem; font-weight: 600; }
+.ak-intro__lead { max-width: 36rem; }
+.ak-hint { font-family: var(--ak-display); font-size: 0.9375rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ak-accent); margin-top: 1.5rem; }
+
+/* Page heads: shu band, giant title, the label set vertically on the right edge, a sprocket edge below */
+.ak-head { position: relative; background: var(--ak-shu); color: var(--ak-ink); padding-block: clamp(3.5rem, 8vw, 7rem) clamp(4rem, 8vw, 6.5rem); }
+.ak-head::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 16px; background: var(--ak-holes) 0 50% / 22px 7px repeat-x, var(--ak-base); }
+.ak-head.is-layout-constrained > .ak-head__inner { max-width: var(--wp--style--global--wide-size) !important; }
+.ak-head__inner {
+	position: relative; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: clamp(1.5rem, 4vw, 4rem);
+	max-width: none; padding-right: 3.5rem;
+}
+.ak-head__inner > * { grid-column: 1 / -1; margin-block: 0 !important; }
+.ak-head .is-style-label {
+	position: absolute; right: 0; top: 0; margin: 0 !important; writing-mode: vertical-rl;
+	font-size: 0.9375rem; letter-spacing: 0.32em; color: var(--ak-ink);
+}
+.ak-head .is-style-label::before { width: 0.6rem; height: 0.6rem; }
+.ak-head__title, .ak-head h1 {
+	color: var(--ak-ink); font-size: clamp(3rem, 1rem + 7.4vw, 8.75rem); line-height: 0.92; font-weight: 600; margin: 0;
+	max-width: 15ch;
+}
+.ak-head__inner > .is-style-lead { grid-column: 2; margin-top: clamp(1.5rem, 3vw, 2.5rem) !important; color: var(--ak-ink); }
+.ak-head__inner > .ak-links { margin-top: 2.25rem !important; }
+.ak-head a:not(.wp-block-button__link) { color: var(--ak-ink); }
+.ak-head .wp-block-button:not(.is-style-text-link):not(.is-style-ticket) .wp-block-button__link { background: var(--ak-ink); color: var(--ak-white); }
+
+/* 4. Home hero: giant headline, lead + links, a panoramic frame that runs off the right edge */
+.ak-hero { background: var(--ak-shu); color: var(--ak-ink); padding-block: clamp(3rem, 7vw, 6rem) 0; }
+.ak-hero__grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(1rem, 2.5vw, 2.5rem); align-items: start; }
+.ak-hero__text { display: contents; }
+.ak-hero__grid > *, .ak-hero__text > * { margin-block: 0 !important; }
+.ak-hero__text > .is-style-label { grid-column: 1 / -1; grid-row: 1; margin-bottom: 1.5rem !important; }
+.ak-hero__title { grid-column: 1 / span 11; grid-row: 2; color: var(--ak-ink); font-size: clamp(3.4rem, 0.6rem + 9.2vw, 9.5rem); line-height: 0.9; font-weight: 600; margin-bottom: clamp(2rem, 4vw, 3.5rem) !important; position: relative; z-index: 1; }
+.ak-hero__text > .is-style-lead { grid-column: 1 / span 5; grid-row: 3; color: var(--ak-ink); }
+.ak-hero__text > .ak-links { grid-column: 1 / span 5; grid-row: 4; margin-top: 2.25rem !important; padding-bottom: var(--ak-gap); }
+/* 1.1: the label stands vertically (tategaki) on the right edge; a cut-out projector breaks out of the band */
+.ak-hero__text > .ak-hero__tate {
+	grid-column: 12; grid-row: 1 / span 4; justify-self: end; align-self: start; writing-mode: vertical-rl;
+	margin: 0 !important; font-size: 0.9375rem; letter-spacing: 0.34em; white-space: nowrap;
+}
+.ak-hero__tate::before { margin-bottom: 0.4rem; }
+.ak-hero__cutout {
+	grid-column: 6 / span 6; grid-row: 2 / span 3; align-self: end; justify-self: end; position: relative; z-index: 3;
+	width: min(100%, 44rem); margin: 0 0 calc(-1 * clamp(5rem, 11vw, 11rem)) !important; pointer-events: none;
+}
+.ak-hero__cutout img { display: block; width: 100%; height: auto; filter: drop-shadow(0 18px 22px rgba(15, 15, 15, 0.28)); }
+.ak-hero__img { grid-column: 6 / -1; grid-row: 3 / span 3; align-self: end; margin-right: calc(-1 * var(--ak-edge)) !important; }
+.ak-hero__img img { aspect-ratio: 2 / 1; object-fit: cover; }
+.ak-hero + * { position: relative; z-index: 1; }
+.ak-hero { position: relative; z-index: 2; }
+
+/* 5. The week. Home: a film strip that scrolls sideways. Programme page: the same frames as a contact sheet. */
+.ak-week { background: var(--ak-ink); color: var(--ak-white); }
+.ak-week .ak-intro__title, .ak-week h2, .ak-week h3 { color: inherit; }
+.ak-week .ak-intro__lead { color: var(--ak-mist); }
+.ak-week .ak-intro .is-style-label { color: var(--ak-accent); }
+.ak-week .ak-links .wp-block-button__link { color: var(--ak-white); }
+.ak-prog {
+	display: flex; gap: 12px; margin: 0; border: 0;
+	overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory;
+	margin-inline: calc(-1 * var(--ak-edge)) !important; padding: 30px var(--ak-edge); scroll-padding-inline: var(--ak-edge);
+	background: var(--ak-holes) 0 9px / 22px 9px repeat-x, var(--ak-holes) 0 calc(100% - 9px) / 22px 9px repeat-x, var(--ak-base);
+	scrollbar-color: var(--ak-accent) var(--ak-base);
+}
+.ak-prog:focus-visible { outline-offset: -3px; }
+.ak-day {
+	flex: 0 0 clamp(16.5rem, 21vw, 19.5rem); scroll-snap-align: start;
+	display: flex; flex-direction: column; margin: 0; padding: 0; border: 0;
+	background: var(--ak-paper); color: var(--ak-ink);
+}
 .ak-day > * { margin-block: 0 !important; }
-.ak-times { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.25rem; }
-.ak-times span { font-variant-numeric: tabular-nums; font-size: var(--wp--preset--font-size--small); border: 1px solid var(--ak-lilac); padding: 0.25rem 0.75rem; }
-.ak-note { max-width: 40rem; margin-top: 3rem; color: var(--ak-ash); }
+.ak-day__date {
+	display: flex; align-items: baseline; gap: 0.6rem; padding: 0.75rem 1.1rem; border-bottom: 3px solid var(--ak-ink);
+	font-family: var(--ak-display); font-size: 1.75rem; line-height: 1; font-weight: 600; color: inherit;
+}
+.ak-day__date span { font-size: 1rem; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 500; }
+.ak-day__still { margin: 0; }
+.ak-day__still img { aspect-ratio: 4 / 3; object-fit: cover; }
+.ak-day__text { display: flex; flex-direction: column; flex: 1; padding: 1.1rem 1.1rem 1.3rem; }
+.ak-day__text > * { margin-block: 0 0.6rem; }
+.ak-day__title { color: inherit; font-size: clamp(1.6rem, 1.3rem + 0.9vw, 2.1rem); line-height: 1.02; margin: 0 0 0.5rem; }
+.ak-day__meta { font-size: var(--wp--preset--font-size--small); color: var(--ak-quiet); margin: 0 0 0.75rem; }
+.ak-times { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto !important; padding-top: 0.75rem; }
+.ak-times span { font-family: var(--ak-display); font-size: 1.0625rem; font-weight: 500; letter-spacing: 0.04em; font-variant-numeric: tabular-nums; border: 2px solid currentColor; padding: 0.15rem 0.7rem; }
+/* Days without a still are intertitle cards: a giant numeral on shu, every second one on tokiwa green */
+.ak-day--text { background: var(--ak-shu); color: var(--ak-ink); }
+.ak-day--text:nth-child(4n) { background: var(--ak-green); color: var(--ak-white); }
+.ak-day--text .ak-day__date { flex-direction: column; align-items: flex-start; gap: 0.75rem; border: 0; padding: 1.25rem 1.1rem 0; font-size: clamp(6rem, 4rem + 4vw, 8.5rem); line-height: 0.82; }
+.ak-day--text .ak-day__meta { color: inherit; }
+.ak-day--text .ak-day__text { flex: 1; justify-content: flex-end; }
+.ak-day--text .ak-day__text > p:not(.ak-day__meta):not(.ak-times) { font-size: var(--wp--preset--font-size--small); }
+.ak-day__text > p:not(.ak-day__meta):not(.ak-times) { font-size: var(--wp--preset--font-size--small); line-height: 1.55; }
+.ak-note { max-width: 44rem; margin-top: 3.5rem; color: var(--ak-mist); }
+.ak-note .is-style-label { color: var(--ak-accent); }
 
-/* Splits */
-.ak-split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--ak-gap); align-items: start; }
+.ak-week.ak-section--last .ak-prog {
+	display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; scroll-snap-type: none;
+	margin-inline: 0 !important; padding: 34px 12px; gap: 12px;
+}
+.ak-week.ak-section--last .ak-day { flex: none; }
+
+/* 6. Tickets: the prices on a shu ticket stub */
+.ak-split { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2rem, 6vw, 6rem); align-items: start; }
+.ak-split > * { margin-block: 0 !important; }
+.ak-tickets .ak-split { align-items: center; }
+.ak-tickets .ak-intro__title { font-size: clamp(2.75rem, 1rem + 5vw, 6rem); line-height: 0.95; }
+.ak-tickets .ak-intro__lead { color: var(--ak-quiet); }
+.ak-tickets .ak-split > .ak-split__text:last-child {
+	position: relative; background: var(--ak-accent); color: var(--ak-ink);
+	padding: clamp(2rem, 4vw, 3rem) clamp(2rem, 4vw, 3.25rem) clamp(2rem, 4vw, 3rem) clamp(3.75rem, 7vw, 5.5rem);
+	-webkit-mask: radial-gradient(circle at 0 50%, transparent 1.1rem, #000 calc(1.1rem + 0.5px)) left / 51% 100% no-repeat, radial-gradient(circle at 100% 50%, transparent 1.1rem, #000 calc(1.1rem + 0.5px)) right / 51% 100% no-repeat;
+	mask: radial-gradient(circle at 0 50%, transparent 1.1rem, #000 calc(1.1rem + 0.5px)) left / 51% 100% no-repeat, radial-gradient(circle at 100% 50%, transparent 1.1rem, #000 calc(1.1rem + 0.5px)) right / 51% 100% no-repeat;
+}
+.ak-tickets .ak-split > .ak-split__text:last-child::before { content: ""; position: absolute; top: 1.25rem; bottom: 1.25rem; left: clamp(1.9rem, 3.5vw, 2.75rem); border-left: 2px dashed rgba(28, 28, 28, 0.55); }
+.ak-tickets .ak-split > .ak-split__text:last-child .wp-block-table.is-style-prices td { border-bottom-color: rgba(28, 28, 28, 0.3); }
+.ak-tickets .ak-split > .ak-split__text:last-child figcaption { color: var(--ak-ink); }
+.ak-tickets .ak-split > .ak-split__text:last-child .is-style-text-link .wp-block-button__link { border-bottom-color: var(--ak-ink); }
 
 /* Prices (synced) */
+.wp-block-table.is-style-prices { margin: 0; }
 .wp-block-table.is-style-prices table { border-collapse: collapse; width: 100%; }
-.wp-block-table.is-style-prices td { border: 0; border-bottom: 1px solid var(--ak-rule); padding: 0.7rem 0; }
-.wp-block-table.is-style-prices td:last-child { text-align: right; font-family: var(--ak-display); font-size: 1.15rem; font-variant-numeric: tabular-nums; }
-.wp-block-table.is-style-prices figcaption { color: var(--ak-ash); font-size: var(--wp--preset--font-size--small); text-align: left; margin-top: 0.75rem; }
+.wp-block-table.is-style-prices td { border: 0; border-bottom: 1px solid var(--ak-rule); padding: 0.75rem 0; vertical-align: baseline; }
+.wp-block-table.is-style-prices td:last-child { text-align: right; font-family: var(--ak-display); font-size: 1.6rem; font-weight: 500; line-height: 1; font-variant-numeric: tabular-nums; padding-left: 1rem; }
+.wp-block-table.is-style-prices figcaption { color: var(--ak-quiet); font-size: var(--wp--preset--font-size--small); text-align: left; margin-top: 0.9rem; }
 
-/* Band */
-.ak-band .ak-wrap { background: var(--ak-plum); padding: clamp(2rem, 5vw, 4rem); }
-.ak-band__row { display: flex; justify-content: space-between; align-items: end; gap: 2rem; flex-wrap: wrap; }
-.ak-band__text { max-width: 36rem; }
-.ak-band .ak-links { margin-top: 0; }
+/* 7. Membership band: tokiwa green, the invitation set very large */
+.ak-band { background: var(--ak-green); color: var(--ak-white); }
+.ak-band h2, .ak-band h3, .ak-band a:not(.wp-block-button__link) { color: inherit; }
+.ak-band .ak-wrap { background: none; padding: 0; }
+.ak-band__row { display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: 2rem clamp(2rem, 5vw, 5rem); align-items: end; }
+.ak-band__row > * { margin-block: 0 !important; }
+.ak-band__text { max-width: none; }
+.ak-band .is-style-label::before { background: var(--ak-white); }
+.ak-band .is-style-text-link .wp-block-button__link { border-bottom-color: var(--ak-white); }
+.ak-band .ak-intro__title { font-size: clamp(3.4rem, 0.8rem + 8.6vw, 9.5rem); line-height: 0.88; margin-bottom: 1.75rem; }
+.ak-band__text > p:not(.is-style-label) { max-width: 34rem; font-size: var(--wp--preset--font-size--large); line-height: 1.45; }
+.ak-band .ak-links { margin: 0; justify-content: flex-end; }
+.ak-band .wp-block-button:not(.is-style-text-link) .wp-block-button__link { background: var(--ak-ink); color: var(--ak-white); }
+.ak-band .wp-block-button:not(.is-style-text-link) .wp-block-button__link:hover { background: var(--ak-white); color: var(--ak-ink); }
+.ak-band .wp-block-button.is-style-outline .wp-block-button__link { background: var(--ak-ink); border-color: var(--ak-ink); }
 
-/* Ruled list, separator */
-.ak-ruled { list-style: none; padding: 0; border-top: 1px solid var(--ak-rule); }
-.ak-ruled li { padding: 0.7rem 0; border-bottom: 1px solid var(--ak-rule); }
-.wp-block-separator.is-style-reel { border: 0; height: 8px; width: 7rem; margin: 2rem 0; background: repeating-linear-gradient(90deg, var(--ak-lilac) 0 6px, transparent 6px 12px); opacity: 0.8; }
+/* Ruled list */
+.ak-ruled { list-style: none; padding: 0; border-top: 2px solid var(--ak-ink); }
+.ak-ruled li { padding: 0.85rem 0; border-bottom: 1px solid var(--ak-rule); }
 
-/* Cards (journal) */
-.ak-cards .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.5rem, 3vw, 2.5rem); padding: 0; margin: 0; list-style: none; }
+/* 8. Journal cards. Home: one large frame beside two small rows. Archives: a three-column sheet. */
+.ak-cards .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(2rem, 3.5vw, 3rem) clamp(1.5rem, 3vw, 2.5rem); padding: 0; margin: 0; list-style: none; }
 .ak-cards .wp-block-post-template > li { margin: 0; }
-.ak-cards .wp-block-post-featured-image img { border: 1px solid var(--ak-rule); }
-.ak-cards .wp-block-post-date { color: var(--ak-ash); font-size: var(--wp--preset--font-size--x-small); letter-spacing: 0.14em; text-transform: uppercase; margin-top: 1rem; }
-.ak-cards .wp-block-post-title { font-size: var(--wp--preset--font-size--large); margin: 0.4rem 0; }
-.ak-cards .wp-block-post-title a { color: var(--ak-pale); text-decoration: none; }
-.ak-cards .wp-block-post-excerpt { color: var(--ak-ash); font-size: var(--wp--preset--font-size--small); }
-.ak-cards .wp-block-post-terms a { font-size: var(--wp--preset--font-size--x-small); }
-.ak-chips { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 2rem; }
-.ak-chips a { border: 1px solid var(--ak-rule); padding: 0.3rem 0.9rem; font-size: var(--wp--preset--font-size--small); color: var(--ak-pale); text-decoration: none; }
-.ak-chips a:hover { border-color: var(--ak-lilac); }
-.ak-section--flush { padding-top: 3rem; }
-.ak-pagination { margin-top: 3rem; gap: 1rem; }
+.ak-cards .wp-block-post-template > li > * { margin-block: 0 0.5rem; }
+.ak-cards .wp-block-post-featured-image {
+	margin: 0 0 1rem !important; padding: 14px 0;
+	background: var(--ak-holes) 0 4px / 18px 6px repeat-x, var(--ak-holes) 0 calc(100% - 4px) / 18px 6px repeat-x, var(--ak-base);
+}
+.ak-cards .wp-block-post-featured-image img { border: 0; }
+.ak-cards .wp-block-post-date { color: var(--ak-quiet); font-family: var(--ak-display); font-size: 0.9375rem; letter-spacing: 0.16em; text-transform: uppercase; }
+.ak-cards .wp-block-post-title { font-size: clamp(1.5rem, 1.2rem + 0.9vw, 2rem); line-height: 1.02; margin: 0.25rem 0 0.6rem; }
+.ak-cards .wp-block-post-title a { color: var(--ak-ink); text-decoration: none; }
+.ak-cards .wp-block-post-title a:hover { color: var(--ak-deep); text-decoration: underline; }
+.ak-cards .wp-block-post-excerpt { color: var(--ak-quiet); font-size: var(--wp--preset--font-size--small); }
+.ak-cards .wp-block-post-excerpt__excerpt { margin: 0; }
+.ak-cards .wp-block-post-terms a { font-size: var(--wp--preset--font-size--small); }
+.ak-journal .ak-intro__title { font-size: clamp(2.75rem, 1rem + 5vw, 6rem); line-height: 0.95; }
+.ak-journal .ak-cards .wp-block-post-template { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); }
+.ak-journal .ak-cards .wp-block-post-template > li:first-child { grid-row: span 2; }
+.ak-journal .ak-cards .wp-block-post-template > li:first-child .wp-block-post-title { font-size: clamp(2rem, 1.4rem + 2vw, 3.25rem); }
+.ak-journal .ak-cards .wp-block-post-template > li:not(:first-child) { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); column-gap: 1.5rem; align-content: start; }
+.ak-journal .ak-cards .wp-block-post-template > li:not(:first-child) > * { grid-column: 2; }
+.ak-journal .ak-cards .wp-block-post-template > li:not(:first-child) > .wp-block-post-featured-image { grid-column: 1; grid-row: 1 / span 4; }
+.ak-chips { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 2.25rem !important; }
+.ak-chips a { border: 2px solid var(--ak-ink); padding: 0.35rem 1rem; font-family: var(--ak-display); font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ak-ink); text-decoration: none; }
+.ak-chips a:hover { background: var(--ak-ink); color: var(--ak-white); }
+.ak-pagination { margin-top: 3.5rem; gap: 1rem; font-family: var(--ak-display); font-size: 1.125rem; }
 
-/* Article */
-.ak-article { padding-block: clamp(3rem, 7vw, 6rem); }
-.ak-article__head { max-width: 46rem; margin-inline: auto; }
-.ak-article__cat a { font-size: var(--wp--preset--font-size--x-small); letter-spacing: 0.2em; text-transform: uppercase; }
-.ak-article__head .wp-block-post-date { color: var(--ak-ash); font-size: var(--wp--preset--font-size--small); }
-.ak-article__figure { margin-block: 3rem !important; }
-.ak-article__figure img { border: 1px solid var(--ak-rule); }
-.ak-prose { font-size: 1.125rem; }
-.ak-article__foot { max-width: 700px; margin: 3rem auto 0; }
-.ak-tags a { border: 1px solid var(--ak-rule); padding: 0.2rem 0.7rem; margin-right: 0.3rem; font-size: var(--wp--preset--font-size--small); text-decoration: none; }
-.ak-post-nav { margin-top: 2rem; border-top: 1px solid var(--ak-rule); padding-top: 1.5rem; font-size: var(--wp--preset--font-size--small); }
-.ak-search .wp-block-search__input { background: var(--ak-seat); color: var(--ak-pale); border: 1px solid var(--ak-rule); }
+/* 9. Article: shu head band, framed picture, prose on paper */
+.ak-article { padding-block: 0 var(--ak-gap); }
+.ak-article__head {
+	max-width: var(--wp--style--global--wide-size) !important; margin-inline: auto;
+	background: var(--ak-shu); color: var(--ak-ink); box-shadow: 0 0 0 100vmax var(--ak-shu); clip-path: inset(0 -100vmax);
+	padding-block: clamp(3rem, 7vw, 6rem) clamp(2.5rem, 5vw, 4rem);
+}
+.ak-article__head > .ak-head__title { color: var(--ak-ink); }
+.ak-article__head .wp-block-post-excerpt { grid-column: 2; margin-top: 1.75rem !important; }
+.ak-article__head .wp-block-post-excerpt__excerpt { margin: 0; }
+.ak-article__head .wp-block-post-date { color: var(--ak-ink); font-family: var(--ak-display); font-size: 1rem; letter-spacing: 0.16em; text-transform: uppercase; margin-top: 1.75rem !important; }
+.ak-article__cat { margin-bottom: 1.25rem !important; }
+.ak-article__cat a { color: var(--ak-ink); font-family: var(--ak-display); font-size: 1rem; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; border-bottom: 3px solid var(--ak-ink); }
+.ak-article__figure { margin-block: clamp(2.5rem, 5vw, 4rem) !important; }
+.ak-prose { font-size: 1.1875rem; line-height: 1.7; }
+.ak-prose h2 { font-size: clamp(2rem, 1.5rem + 1.8vw, 3rem); margin-top: 2.5em; }
+.ak-prose h3 { margin-top: 2em; }
+.ak-prose blockquote { border-left: 6px solid var(--ak-accent); padding-left: 1.5rem; margin-inline: 0; font-size: var(--wp--preset--font-size--large); }
+.ak-article__foot { max-width: 720px; margin: 3.5rem auto 0; }
+.ak-tags a { border: 2px solid var(--ak-ink); color: var(--ak-ink); padding: 0.2rem 0.75rem; margin-right: 0.3rem; font-family: var(--ak-display); letter-spacing: 0.06em; text-transform: uppercase; text-decoration: none; }
+.ak-tags .wp-block-post-terms__separator { display: none; }
+.ak-post-nav { margin-top: 2.5rem; border-top: 2px solid var(--ak-ink); padding-top: 1.5rem; font-size: var(--wp--preset--font-size--small); }
+.ak-search { margin-top: 2.25rem !important; max-width: 36rem; }
+.ak-search .wp-block-search__input { background: var(--ak-white); color: var(--ak-ink); border: 2px solid var(--ak-ink); padding: 0.7rem 0.9rem; font: inherit; }
+.ak-search .wp-block-search__button { margin-left: 0; background: var(--ak-ink); color: var(--ak-white); border: 0; }
+.ak-prose.ak-section--last, .ak-page > .ak-prose { padding-block: var(--ak-gap); }
 
-/* Footer: F10 split two-tone, tickets / visit */
+/* 10. Footer: end credits on sumi */
 .ak-foot { margin-top: 0; }
+.ak-credits { position: relative; background: var(--ak-ink); color: var(--ak-white); text-align: center; padding: clamp(4.5rem, 9vw, 8rem) var(--ak-pad) 0; }
+.ak-credits::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 16px; background: var(--ak-holes) 0 50% / 22px 7px repeat-x, var(--ak-base); }
+.ak-credits__roll { max-width: 48rem; margin-inline: auto; }
+.ak-credits__roll > * { margin-block: 0; }
+.ak-credits__over { font-family: var(--ak-display); font-size: 0.9375rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--ak-accent); }
+.ak-credits__title { color: var(--ak-white); font-size: clamp(3.5rem, 1rem + 8vw, 9rem); line-height: 0.9; margin: 1rem 0 1.25rem !important; }
+.ak-credits__sub { color: var(--ak-mist); max-width: 30rem; margin-inline: auto !important; }
+.ak-credits__list { display: grid; gap: 0.85rem; margin-top: clamp(3rem, 6vw, 4.5rem) !important; }
+.ak-credits__list > * { margin: 0 !important; }
+.ak-credit { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 2.5rem; text-align: left; }
+.ak-credit span { text-align: right; font-family: var(--ak-display); font-size: 1rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ak-accent); padding-top: 0.15rem; }
+.ak-credit a { color: var(--ak-white); }
+.ak-credits__prices { max-width: 32rem; margin: clamp(3rem, 6vw, 4.5rem) auto 0 !important; text-align: left; }
+.ak-credits__head { color: var(--ak-white); text-align: center; font-size: clamp(1.75rem, 1.4rem + 1vw, 2.25rem); margin: 0 0 1rem; }
+.ak-credits .wp-block-table.is-style-prices td { border-bottom-color: var(--ak-rule-light); }
+.ak-credits .wp-block-table.is-style-prices figcaption { color: var(--ak-mist); }
+body:has(.ak-main .ak-prices) .ak-credits__prices { display: none; }
+.ak-foot__links { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1.75rem; margin-top: clamp(3rem, 6vw, 4.5rem) !important; font-family: var(--ak-display); font-size: 1.125rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.ak-foot__links a { color: var(--ak-white); text-decoration: none; border-bottom: 2px solid transparent; }
+.ak-foot__links a:hover { border-bottom-color: var(--ak-accent); }
+.ak-credits__fin { font-family: var(--ak-display); font-size: clamp(2.5rem, 2rem + 2vw, 4rem); font-weight: 600; text-transform: uppercase; color: var(--ak-accent); margin-top: clamp(3rem, 6vw, 5rem) !important; }
+.ak-foot__legal { margin: clamp(3rem, 6vw, 4.5rem) 0 0; padding: 1.4rem 0; font-size: var(--wp--preset--font-size--small); color: var(--ak-mist); border-top: 1px solid var(--ak-rule-light); }
+
+/* 1.0 footer and masthead markup (only when a site kept a customised copy of the old template parts) */
 .ak-foot__split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .ak-foot__half { padding: clamp(2.5rem, 6vw, 5rem) clamp(1.25rem, 5vw, 5rem); }
-.ak-foot__half > * { max-width: 30rem; }
-.ak-foot__half--tickets { background: var(--ak-plum); }
-.ak-foot__half--visit { background: var(--ak-pale); color: var(--ak-night); }
-.ak-foot__half--visit .is-style-label { color: #5E4D67; }
-.ak-foot__half--visit h2 { color: var(--ak-night); }
-.ak-foot__half--visit a { color: #4B3A55; }
-.ak-foot__title { font-weight: 300; font-size: clamp(1.6rem, 1.3rem + 1vw, 2.2rem); margin: 0 0 1.5rem; }
-.ak-foot__links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; font-size: var(--wp--preset--font-size--small); margin-top: 2rem; }
-.ak-foot__legal { margin: 0; padding: 1.25rem clamp(1.25rem, 5vw, 5rem); font-size: var(--wp--preset--font-size--x-small); color: var(--ak-ash); letter-spacing: 0.04em; border-top: 1px solid var(--ak-rule); }
+.ak-foot__half--tickets { background: var(--ak-ink); color: var(--ak-white); }
+.ak-foot__half--tickets h2 { color: var(--ak-white); }
+.ak-foot__half--tickets .wp-block-table.is-style-prices td { border-bottom-color: var(--ak-rule-light); }
+.ak-foot__half--tickets figcaption { color: var(--ak-mist) !important; }
+.ak-foot__half--visit { background: var(--ak-shu); color: var(--ak-ink); }
+.ak-foot__half--visit h2, .ak-foot__half--visit a { color: var(--ak-ink); }
+.ak-foot:not(.ak-credits) .ak-foot__legal { background: var(--ak-ink); padding-inline: clamp(1.25rem, 5vw, 5rem); margin: 0; }
+.ak-header:not(.ak-bar) { background: var(--ak-ink); color: var(--ak-white); padding-block: 1.5rem 0; }
+.ak-mast { text-align: center; }
+.ak-mast__title a { color: var(--ak-white); text-decoration: none; font-family: var(--ak-display); }
+.ak-navrow { display: flex; align-items: center; justify-content: center; gap: 2rem; padding-block: 0.9rem; }
 
+/* 11. Responsive */
+@media (max-width: 1599px) {
+	.ak-bar .ak-dateline span:nth-child(n+3) { display: none; }
+}
+@media (max-width: 1279px) {
+	.ak-bar__cells { display: none; }
+}
+@media (max-width: 1023px) {
+	.ak-bar .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
+	.ak-bar .ak-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
+	.ak-nav { align-self: center; padding-left: 0.5rem; }
+	.ak-navrow__cta { border-left: 0; padding-left: 0.5rem; }
+	.ak-week.ak-section--last .ak-prog { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 @media (max-width: 900px) {
-	.ak-hero__grid, .ak-split, .ak-foot__split { grid-template-columns: 1fr; }
-	.ak-day, .ak-day--text { grid-template-columns: 1fr; gap: 1rem; }
-	.ak-day__date { position: static; display: flex; align-items: baseline; gap: 0.75rem; font-size: 2.4rem; }
-	.ak-day__date span { margin: 0; }
-	.ak-cards .wp-block-post-template { grid-template-columns: 1fr; }
-	.ak-navrow { justify-content: space-between; }
-	.ak-dateline span + span::before { margin-right: 0.8rem; width: 0.8rem; }
-	.ak-dateline { gap: 0.4rem 0.8rem; }
+	.ak-split, .ak-band__row, .ak-foot__split, .ak-journal .ak-cards .wp-block-post-template { grid-template-columns: minmax(0, 1fr); }
+	.ak-cards .wp-block-post-template { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.ak-journal .ak-cards .wp-block-post-template > li:first-child { grid-row: auto; }
+	.ak-band .ak-links { justify-content: flex-start; }
+	.ak-hero__text > .is-style-lead, .ak-hero__text > .ak-links { grid-column: 1 / -1; }
+	.ak-hero__text > .ak-links { padding-bottom: 3rem; }
+	.ak-hero__img { grid-column: 1 / -1; grid-row: 5; margin-inline: calc(-1 * var(--ak-pad)) !important; }
+	.ak-hero__title { grid-column: 1 / -1; }
+	.ak-hero__text > .ak-hero__tate { grid-column: 1 / -1; grid-row: 1; justify-self: start; writing-mode: horizontal-tb; margin-bottom: 1.25rem !important; white-space: normal; }
+	.ak-hero__tate::before { margin-bottom: 0; }
+	.ak-hero__cutout { grid-column: 2 / -1; grid-row: 5; width: 100%; margin-top: -1.5rem !important; margin-bottom: -4.5rem !important; }
+	.ak-head__inner { grid-template-columns: minmax(0, 1fr); padding-right: 2.5rem; }
+	.ak-head__inner > .is-style-lead, .ak-article__head .wp-block-post-excerpt { grid-column: 1; }
+}
+@media (max-width: 599px) {
+	:root { --ak-bar: 3.75rem; }
+	.ak-bar__title { font-size: 1.5rem; padding-right: 0.75rem; }
+	.ak-navrow__cta .wp-block-button__link { padding: 0.45rem 1rem; font-size: 0.9375rem; }
+	.ak-cards .wp-block-post-template, .ak-week.ak-section--last .ak-prog { grid-template-columns: minmax(0, 1fr); }
+	.ak-journal .ak-cards .wp-block-post-template > li:not(:first-child) { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); column-gap: 1rem; }
+	.ak-day { flex-basis: 78vw; }
+	.ak-credit { grid-template-columns: minmax(0, 1fr); text-align: center; }
+	.ak-credit span { text-align: center; }
+	.ak-tickets .ak-split > .ak-split__text:last-child { padding-left: 3.25rem; padding-right: 1.75rem; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
-
-/* Grid children never take the flow gap as a top margin */
-.ak-split > *, .ak-hero__grid > *, .ak-foot__split > *, .ak-day > *, .ak-band__row > * { margin-block-start: 0 !important; }
-.ak-foot > * { margin-block: 0; }

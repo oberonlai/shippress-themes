@@ -1,11 +1,11 @@
 <?php
 /**
- * Title: Home: the week, day by day
+ * Title: Home: the week as a film strip
  * Slug: asagao-kinema/home-week
  * Categories: asagao-kinema
  * Keywords: programme, week, screenings
  * Viewport Width: 1440
- * Description: Chaptered scroll of the week: the synced programme, Monday to Sunday.
+ * Description: The synced programme as a sideways-scrolling film strip on sumi black, Monday to Sunday.
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"ak-section ak-week","layout":{"type":"constrained"}} -->
@@ -16,11 +16,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ak-intro__title"} -->
-<h2 class="wp-block-heading ak-intro__title">Seven days, seven chapters.</h2>
+<h2 class="wp-block-heading ak-intro__title">Seven days on one reel.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ak-intro__lead"} -->
 <p class="ak-intro__lead">One film leads each day. Times are for the whole day; the box office opens 30 minutes before the first screening.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ak-hint"} -->
+<p class="ak-hint">Scroll the strip sideways &#8594;</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
