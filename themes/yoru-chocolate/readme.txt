@@ -101,6 +101,12 @@ All other artwork (rules and ornaments) is CSS, GPL-2.0-or-later.
 
 == Changelog ==
 
+= 1.1.2 =
+* English is never set vertically any more (feedback: "the menu is still hard to read; don't set English vertically"). Everything is horizontal by default; vertical writing (tategaki) is used only when the content language is Chinese, Japanese or Korean (:lang(ja), :lang(zh), :lang(ko), taken from the site language or any block's lang attribute), so a CJK site still gets the vertical layout of 1.1.
+* Menu rail (1100 px and wider): a clean stacked list of horizontal items in small spaced capitals with a small yamabuki numeral, hairline rules between items and a yamabuki dot on the current page. The rail width is fluid (about 13.5-17rem) so the longest item fits; longer labels wrap, never clip, and a long menu scrolls inside the rail. 600-1099 px keeps the wrapped menu row under the header; phones keep the Menu overlay with horizontal items.
+* Home and page heads keep the Japanese feel through layout instead: asymmetric columns, navy and yamabuki blocks, washi fibres, section titles in large horizontal type in a right-hand column behind a hairline spine with a big 01/02 numeral and a small spaced label; staggered tall product strips with the name under the picture; origins in four ruled columns; roast-grind-temper stepping down left to right with 01-03; a horizontal caption beside the night window; the journal as three ruled columns; the footer wordmark set large and horizontal over the yamabuki moon. Sesame emphasis dots are kept for CJK; English emphasis on light grounds is a thin yamabuki underline.
+* CSS only: no change to patterns, templates, demo content or the importer, so pages imported with 1.0/1.1 take the new look as they are.
+
 = 1.1.1 =
 * Roomier right-hand menu (feedback: the rail's menu items were too cramped). The rail now holds only the menu: wider (fluid, about 11-13rem), with fluid inner padding, a fluid gap between the vertical columns (about 1-1.4rem instead of 0.5rem), more line spacing and letter spacing, and no item touches the rail's edges. A longer menu wraps into a new tier below, aligned to the same right edge, instead of running out of the rail; if a menu is ever taller than the window, the rail scrolls.
 * A real top header on every width: the wordmark and tagline, an "Order a box" button (to the shop page), the account link and the cart sit in a band across the top; from 1100 px the menu hangs down the rail on the right edge, below that band.

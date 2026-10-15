@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/yoru-c
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Yoru Chocolate — a bold, quiet store theme for a small bean-to-bar chocolatier working at night in a former print shop in Hoshikawa City, with WooCommerce templates styled to match. Tategaki vertical scroll on iron-navy (tetsukon) pages with washi fibres, kinari text, washi-light sections and a full yamabuki-yellow band; Kaisei Decol for display, BIZ UDPGothic for text, maki-e lacquer illustrations. A top header on every width (wordmark, an Order a box button, account and cart) with, from 1100 px, the menu written vertically down a rail on the right edge (H11), a home page whose titles run down vertical spines beside staggered tall product strips (L5), and a footer that writes Yoru huge and vertically beside a yamabuki moon (F1). Origins, Gift boxes, journal, newsletter and contact; the shop details, the gift and shipping note and the origins table each live in one synced pattern (WooCommerce optional: without it the shop shows a static shelf and orders go by email).
-Version: 1.1.1
+Version: 1.1.2
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -1234,10 +1234,12 @@ a { text-decoration-color: var(--yc-rust); }
 		border-right: 1px solid var(--yc-band);
 	}
 	.yc-rail__inner { flex-direction: column; justify-content: space-between; height: 100%; min-height: 0; gap: 1.5rem; }
-	.yc-rail .wp-block-site-title { writing-mode: vertical-rl; transform: rotate(180deg); font-size: 1.6rem; letter-spacing: .32em; }
+	.yc-rail .wp-block-site-title { font-size: 1.05rem; letter-spacing: .12em; line-height: 1.2; text-align: center; overflow-wrap: break-word; }
+	/* Vertical only for CJK content (1.1.2): Latin stays horizontal. */
+	.yc-rail .wp-block-site-title:is(:lang(ja), :lang(zh), :lang(ko)) { writing-mode: vertical-rl; transform: rotate(180deg); font-size: 1.6rem; letter-spacing: .32em; }
 	.yc-rail__band { display: block; flex: 1 1 auto; width: 1px; min-height: 3rem; background: linear-gradient(var(--yc-rose), var(--yc-rose)) center / 1px 100% no-repeat; opacity: .7; }
 	.yc-rail__tools { flex-direction: column; gap: 1.4rem; }
-	.yc-nav .wp-block-navigation__responsive-container-open { writing-mode: vertical-rl; transform: rotate(180deg); }
+	.yc-rail .yc-nav .wp-block-navigation__responsive-container-open:is(:lang(ja), :lang(zh), :lang(ko)) { writing-mode: vertical-rl; transform: rotate(180deg); }
 	.yc-nav .wp-block-navigation__responsive-container-open::before { width: 5px; height: 18px; border-block: 0; border-inline: 1px solid var(--yc-rose); }
 	.wp-site-blocks:has(> .yc-rail), .wp-site-blocks:has(> header > .yc-rail), body:has(.yc-rail) .wp-site-blocks { padding-left: var(--yc-rail-w); }
 }
@@ -1423,11 +1425,21 @@ a { text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 
 :is(.yc-section--paper, .yc-section--washi, .yc-section--yamabuki) :where(h1, h2, h3, h4) em {
 	color: inherit;
+	text-decoration: underline .055em var(--yc-yama);
+	text-underline-offset: .16em;
+	text-decoration-skip-ink: none;
+}
+
+.yc-section--yamabuki :where(h1, h2, h3, h4) em { text-decoration-color: var(--yc-navy); }
+
+/* Sesame dots (boten) are a CJK mark: only for CJK content. */
+:is(.yc-section--paper, .yc-section--washi, .yc-section--yamabuki) :where(h1, h2, h3, h4) em:is(:is(:lang(ja), :lang(zh), :lang(ko))) {
+	text-decoration: none;
 	-webkit-text-emphasis: filled sesame var(--yc-yama);
 	text-emphasis: filled sesame var(--yc-yama);
 }
 
-.yc-section--yamabuki :where(h1, h2, h3, h4) em { -webkit-text-emphasis-color: var(--yc-navy); text-emphasis-color: var(--yc-navy); }
+.yc-section--yamabuki :where(h1, h2, h3, h4) em:is(:is(:lang(ja), :lang(zh), :lang(ko))) { -webkit-text-emphasis-color: var(--yc-navy); text-emphasis-color: var(--yc-navy); }
 
 :is(.yc-section--paper, .yc-section--washi, .yc-section--yamabuki) a:where(:not(.wp-block-button__link)) { color: var(--yc-navy); }
 
@@ -1442,12 +1454,13 @@ a { text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 
 :is(.yc-section--paper, .yc-section--washi, .yc-section--yamabuki) .wp-block-button.is-style-arrow .wp-block-button__link { color: var(--yc-navy); border-bottom-color: var(--yc-navy); }
 
-/* ---- Header (1.1.1): a real top header on every width: wordmark, menu, "Order a box", account and cart. From 1100 px
-   the menu leaves the bar and hangs down a rail on the right edge, written vertically. Every gap is fluid and the menu
-   wraps instead of overflowing, so a longer menu keeps the same breathing room (a new tier in the rail, a new line in
-   the bar). */
+/* ---- Header (1.1.1, list rail 1.1.2): a real top header on every width: wordmark, menu, "Order a box", account and
+   cart. From 1100 px the menu leaves the bar for a rail on the right edge: a stacked list of horizontal items with
+   hairline rules and a yamabuki dot on the current page (vertical columns only for CJK content). Every gap is fluid and
+   the menu wraps instead of overflowing, so a longer menu keeps the same breathing room (the rail scrolls, the bar
+   gains a line). */
 :root {
-	--yc-tate-w: clamp(10.75rem, 8.25rem + 4vw, 13rem);
+	--yc-tate-w: clamp(13.5rem, 7rem + 9vw, 17rem);
 	--yc-band-h: 4.5rem;
 	--yc-rail-pad: clamp(1.25rem, .5rem + 1.25vw, 1.75rem);
 	--yc-rail-item: clamp(1rem, .25rem + 1.25vw, 1.375rem);
@@ -1583,74 +1596,155 @@ nav.yc-tate__nav { order: 1; }
 		content: "";
 		position: absolute;
 		top: calc(var(--yc-band-h) + var(--yc-rail-tier) / 2);
-		right: var(--yc-rail-pad);
+		left: var(--yc-rail-pad);
 		width: 1.5rem;
 		border-top: 1px solid var(--yc-yama);
 	}
+	.yc-tate nav.yc-tate__nav:is(:lang(ja), :lang(zh), :lang(ko))::after { left: auto; right: var(--yc-rail-pad); }
 	.yc-tate nav.yc-tate__nav :is(.wp-block-navigation__responsive-container, .wp-block-navigation__responsive-close, .wp-block-navigation__responsive-dialog, .wp-block-navigation__responsive-container-content) { display: block; width: 100%; }
-	/* vertical-rl + column: items run right to left, each label top to bottom; when the rail is full the next items
-	   start a new tier below, aligned to the same right edge. */
+	/* A stacked list: one horizontal item per row in small spaced capitals, a small numeral, hairline rules between
+	   items and a yamabuki dot on the current page. Long labels wrap inside the rail (never clipped). */
 	.yc-tate .yc-tate__nav .wp-block-navigation__container {
-		writing-mode: vertical-rl;
 		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: stretch;
+		width: 100%;
+		gap: 0 !important;
+		counter-reset: yc-nav;
+		border-top: 1px solid color-mix(in srgb, var(--yc-kinari) 14%, transparent);
+	}
+	.yc-tate .yc-tate__nav .wp-block-navigation-item {
+		counter-increment: yc-nav;
+		display: block;
+		margin: 0;
+		border-bottom: 1px solid color-mix(in srgb, var(--yc-kinari) 14%, transparent);
+	}
+	.yc-tate .yc-tate__nav .wp-block-navigation-item__content {
+		position: relative;
+		display: grid;
+		grid-template-columns: 1.75rem minmax(0, 1fr);
+		align-items: baseline;
+		padding: clamp(.8rem, .3rem + .7vw, 1.05rem) 1.1rem clamp(.8rem, .3rem + .7vw, 1.05rem) 0;
+		font-family: var(--yc-sans);
+		font-size: .75rem;
+		font-weight: 700;
+		line-height: 1.45;
+		letter-spacing: .16em;
+		text-transform: uppercase;
+		white-space: normal;
+		overflow-wrap: break-word;
+	}
+	.yc-tate .yc-tate__nav .wp-block-navigation-item__content::before {
+		content: counter(yc-nav, decimal-leading-zero);
+		font-family: var(--yc-serif);
+		font-size: .72rem;
+		font-weight: 400;
+		letter-spacing: .04em;
+		color: var(--yc-yama);
+	}
+	.yc-tate .yc-tate__nav .wp-block-navigation-item__label { grid-column: 2; }
+	.yc-tate .yc-tate__nav .current-menu-item > .wp-block-navigation-item__content::after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		right: .1rem;
+		width: .45rem;
+		aspect-ratio: 1;
+		border-radius: 50%;
+		background: var(--yc-yama);
+		transform: translateY(-50%);
+	}
+	/* CJK content: the 1.1.1 vertical columns, read right to left; when the rail is full the next items start a new
+	   tier below, aligned to the same right edge. */
+	.yc-tate .yc-tate__nav:is(:lang(ja), :lang(zh), :lang(ko)) .wp-block-navigation__container {
+		writing-mode: vertical-rl;
 		flex-direction: column;
 		flex-wrap: wrap;
 		align-items: flex-start;
 		align-content: flex-start;
 		justify-content: flex-start;
-		width: 100%;
 		gap: var(--yc-rail-item) var(--yc-rail-tier) !important;
+		border-top: 0;
 	}
-	.yc-tate .yc-tate__nav .wp-block-navigation-item { margin: 0; }
-	.yc-tate .yc-tate__nav .wp-block-navigation-item__content { padding: 0; font-size: clamp(1rem, .85rem + .25vw, 1.0625rem); line-height: 1.75; letter-spacing: .22em; white-space: nowrap; }
-	.yc-tate .current-menu-item > .wp-block-navigation-item__content { -webkit-text-emphasis: filled sesame var(--yc-yama); text-emphasis: filled sesame var(--yc-yama); }
+	.yc-tate .yc-tate__nav:is(:lang(ja), :lang(zh), :lang(ko)) .wp-block-navigation-item { border-bottom: 0; }
+	.yc-tate .yc-tate__nav:is(:lang(ja), :lang(zh), :lang(ko)) .wp-block-navigation-item__content { display: block; padding: 0; font-family: var(--yc-serif); font-size: clamp(1rem, .85rem + .25vw, 1.0625rem); font-weight: 400; line-height: 1.75; letter-spacing: .22em; text-transform: none; white-space: nowrap; }
+	.yc-tate .yc-tate__nav:is(:lang(ja), :lang(zh), :lang(ko)) .wp-block-navigation-item__content::before,
+	.yc-tate .yc-tate__nav:is(:lang(ja), :lang(zh), :lang(ko)) .current-menu-item > .wp-block-navigation-item__content::after { content: none; }
+	.yc-tate .yc-tate__nav:is(:lang(ja), :lang(zh), :lang(ko)) .current-menu-item > .wp-block-navigation-item__content { -webkit-text-emphasis: filled sesame var(--yc-yama); text-emphasis: filled sesame var(--yc-yama); }
 	body:has(.yc-tate) .wp-site-blocks { padding-right: var(--yc-tate-w); }
 }
 
-/* ---- Page heads (every page and archive): the title written vertically at the right, the lead low on the left. */
+/* ---- Page heads (every page and archive): the title large and horizontal in the right-hand column behind a hairline
+   spine, the lead low on the left. CJK content sets the title vertically (tategaki). */
 .yc-section--opening { position: relative; }
 
 @media (min-width: 900px) {
-	.yc-opening { grid-template-columns: minmax(0, 1fr) auto; align-items: end; padding-bottom: var(--wp--preset--spacing--40); }
-	.yc-opening > .yc-opening__title { grid-column: 2; grid-row: 1; writing-mode: vertical-rl; display: flex; flex-direction: column; gap: 1.25rem; align-self: start; }
-	.yc-opening > .yc-opening__title > * + * { margin-block-start: 0 !important; }
+	.yc-opening { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); align-items: end; padding-bottom: var(--wp--preset--spacing--40); }
+	.yc-opening > .yc-opening__title { grid-column: 2; grid-row: 1; align-self: start; padding-left: clamp(1.5rem, 2.5vw, 2.5rem); border-left: 1px solid var(--yc-line-strong); }
 	.yc-opening > .yc-opening__side { grid-column: 1; grid-row: 1; max-width: 34rem; padding-bottom: .5rem; }
 	.yc-opening h1, .yc-opening .wp-block-query-title {
-		max-width: none;
-		max-inline-size: min(24rem, 62vh);
+		max-width: 13em;
 		font-size: clamp(2.4rem, 1.4rem + 2.4vw, 4.2rem);
-		line-height: 1.3;
-		letter-spacing: .06em;
+		line-height: 1.12;
+		letter-spacing: .01em;
 	}
-	.yc-opening__title .is-style-label::before { width: 1px; height: 1.75rem; }
 	.yc-opening h1 em, .yc-opening .wp-block-query-title em { display: block; }
+	.yc-opening:is(:lang(ja), :lang(zh), :lang(ko)) { grid-template-columns: minmax(0, 1fr) auto; }
+	.yc-opening:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-opening__title { writing-mode: vertical-rl; display: flex; flex-direction: column; gap: 1.25rem; padding-left: 0; border-left: 0; }
+	.yc-opening:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-opening__title > * + * { margin-block-start: 0 !important; }
+	.yc-opening:is(:lang(ja), :lang(zh), :lang(ko)) :is(h1, .wp-block-query-title) { max-width: none; max-inline-size: min(24rem, 62vh); line-height: 1.3; letter-spacing: .06em; }
+	.yc-opening:is(:lang(ja), :lang(zh), :lang(ko)) .yc-opening__title .is-style-label::before { width: 1px; height: 1.75rem; }
 }
 
-/* ---- Section spines: on wide screens every titled section puts its title down a vertical spine at the right. */
+/* ---- Section spines: on wide screens every titled section keeps its title in a column at the right, behind a hairline
+   spine: a big 01/02 numeral, the small spaced label and the title in large horizontal type. CJK content writes the
+   column vertically with Japanese numerals. */
 .yc-main { counter-reset: yc-sec; }
 
 @media (min-width: 1100px) {
 	.yc-section:has(> .yc-head-wrap, > .yc-head) {
 		counter-increment: yc-sec;
 		display: grid;
-		grid-template-columns: minmax(0, 1fr) auto;
+		grid-template-columns: minmax(0, 1fr) clamp(15rem, 10rem + 9vw, 22rem);
 		column-gap: clamp(2.5rem, 5vw, 6rem);
 		align-items: start;
 		padding-inline: max(var(--yc-pad), calc((100% - var(--yc-wide)) / 2));
 	}
+	.yc-section:has(> .yc-head-wrap, > .yc-head):is(:lang(ja), :lang(zh), :lang(ko)) { grid-template-columns: minmax(0, 1fr) auto; }
 	.yc-section:has(> .yc-head-wrap, > .yc-head) > * { grid-column: 1; max-width: none !important; margin-inline: 0 !important; }
 	.yc-section:has(> .yc-head-wrap, > .yc-head) > :is(.yc-head-wrap, .yc-head) { grid-column: 2; grid-row: 1 / span 6; }
 	.yc-section > .yc-head-wrap > .yc-head, .yc-section > .yc-head {
-		writing-mode: vertical-rl;
 		display: flex;
 		flex-direction: column;
-		gap: 1.5rem;
+		align-items: flex-start;
+		gap: 1.75rem;
 		max-width: none;
 		margin: 0 !important;
 		padding-left: clamp(1.5rem, 2.5vw, 2.5rem);
 		border-left: 1px solid var(--yc-line-strong);
 	}
-	.yc-section > .yc-head-wrap > .yc-head::after, .yc-section > .yc-head::after {
+	.yc-section > .yc-head-wrap > .yc-head::before, .yc-section > .yc-head::before {
+		content: counter(yc-sec, decimal-leading-zero);
+		order: -1;
+		font-family: var(--yc-serif);
+		font-size: clamp(2.75rem, 1.5rem + 2vw, 3.75rem);
+		line-height: .9;
+		color: var(--yc-yama);
+	}
+	.yc-section--yamabuki > .yc-head-wrap > .yc-head::before { color: var(--yc-navy); }
+	.yc-section > .yc-head-wrap > .yc-head h2, .yc-section > .yc-head h2 {
+		font-size: clamp(2rem, 1rem + 1.6vw, 2.9rem);
+		line-height: 1.14;
+		letter-spacing: .01em;
+	}
+	.yc-section > .yc-head-wrap > .yc-head h2 em, .yc-section > .yc-head h2 em { display: block; }
+	.yc-section .yc-head .yc-stack > * + * { margin-block-start: 1rem; }
+	.yc-section .yc-head .wp-block-buttons { margin: 0; }
+	/* CJK: the spine is written vertically and numbered in Japanese numerals below the title. */
+	.yc-section:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-head-wrap > .yc-head, .yc-section:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-head { writing-mode: vertical-rl; gap: 1.5rem; }
+	.yc-section:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-head-wrap > .yc-head::before, .yc-section:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-head::before { content: none; }
+	.yc-section:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-head-wrap > .yc-head::after, .yc-section:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-head::after {
 		content: counter(yc-sec, cjk-decimal);
 		margin-top: 1.5rem;
 		font-family: var(--yc-serif);
@@ -1658,20 +1752,13 @@ nav.yc-tate__nav { order: 1; }
 		line-height: 1;
 		color: var(--yc-yama);
 	}
-	.yc-section--yamabuki > .yc-head-wrap > .yc-head::after { color: var(--yc-navy); }
-	.yc-section > .yc-head-wrap > .yc-head h2, .yc-section > .yc-head h2 {
-		max-inline-size: min(22rem, 70vh);
-		font-size: clamp(2.1rem, 1rem + 2vw, 3.3rem);
-		line-height: 1.32;
-		letter-spacing: .08em;
-	}
-	.yc-section > .yc-head-wrap > .yc-head h2 em, .yc-section > .yc-head h2 em { display: block; }
-	.yc-section .yc-head .yc-stack > * + * { margin-block-start: 1.25rem; }
-	.yc-section .yc-head .is-style-label::before { width: 1px; height: 1.75rem; }
-	.yc-section .yc-head .wp-block-buttons { margin: 0; }
-	.yc-section .yc-head .is-style-arrow .wp-block-button__link { padding: 0 0 0 .35rem; border-bottom: 0; border-left: 1px solid var(--yc-yama); }
-	:is(.yc-section--washi, .yc-section--yamabuki, .yc-section--paper) .yc-head .is-style-arrow .wp-block-button__link { border-left-color: var(--yc-navy); }
-	.yc-section .yc-head .is-style-arrow .wp-block-button__link:hover::after { transform: translateY(.3rem); }
+	.yc-section--yamabuki:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-head-wrap > .yc-head::after { color: var(--yc-navy); }
+	.yc-section:is(:lang(ja), :lang(zh), :lang(ko)) > :is(.yc-head-wrap > .yc-head, .yc-head) h2 { max-inline-size: min(22rem, 70vh); font-size: clamp(2.1rem, 1rem + 2vw, 3.3rem); line-height: 1.32; letter-spacing: .08em; }
+	.yc-section:is(:lang(ja), :lang(zh), :lang(ko)) .yc-head .yc-stack > * + * { margin-block-start: 1.25rem; }
+	.yc-section:is(:lang(ja), :lang(zh), :lang(ko)) .yc-head .is-style-label::before { width: 1px; height: 1.75rem; }
+	.yc-section:is(:lang(ja), :lang(zh), :lang(ko)) .yc-head .is-style-arrow .wp-block-button__link { padding: 0 0 0 .35rem; border-bottom: 0; border-left: 1px solid var(--yc-yama); }
+	:is(.yc-section--washi, .yc-section--yamabuki, .yc-section--paper):is(:lang(ja), :lang(zh), :lang(ko)) .yc-head .is-style-arrow .wp-block-button__link { border-left-color: var(--yc-navy); }
+	.yc-section:is(:lang(ja), :lang(zh), :lang(ko)) .yc-head .is-style-arrow .wp-block-button__link:hover::after { transform: translateY(.3rem); }
 }
 
 .yc-head-wrap > .yc-head { margin-bottom: var(--wp--preset--spacing--40); }
@@ -1691,7 +1778,8 @@ nav.yc-tate__nav { order: 1; }
 
 .yc-section--make > * { position: relative; z-index: 1; }
 
-/* ---- Hero (tategaki): vertical title on the right, tall maki-e picture offset low, a short line in the empty left. */
+/* ---- Hero: a large horizontal title top left, the tall maki-e picture offset low on the right, a short line under the
+   title. CJK content sets the title vertically at the right edge (tategaki). */
 .yc-hero--tate {
 	display: block;
 	min-height: 0;
@@ -1706,29 +1794,35 @@ nav.yc-tate__nav { order: 1; }
 	position: relative;
 	z-index: 1;
 	display: grid;
-	grid-template-columns: minmax(0, 1fr) auto;
-	grid-template-areas: "picture title" "text text";
+	grid-template-columns: minmax(0, 1fr);
+	grid-template-areas: "title" "picture" "text";
 	gap: 2.5rem 1.25rem;
 	align-items: start;
 }
+
+.yc-tate-hero:is(:lang(ja), :lang(zh), :lang(ko)) { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "picture title" "text text"; }
 
 .yc-tate-hero > * { margin: 0 !important; min-width: 0; }
 
 .yc-tate-hero__title {
 	grid-area: title;
-	writing-mode: vertical-rl;
-	font-size: clamp(2.5rem, 1.4rem + 4vw, 5.4rem) !important;
+	max-width: 11em;
+	font-size: clamp(2.6rem, 1.3rem + 4.4vw, 5.6rem) !important;
 	font-weight: 400;
-	line-height: 1.28;
-	letter-spacing: .08em;
+	line-height: 1.06;
+	letter-spacing: .005em;
 	color: var(--yc-kinari);
 	text-shadow: none;
 	overflow-wrap: normal;
 }
 
+.yc-tate-hero:is(:lang(ja), :lang(zh), :lang(ko)) .yc-tate-hero__title { writing-mode: vertical-rl; max-width: none; line-height: 1.28; letter-spacing: .08em; }
+
 .yc-tate-hero__title em { display: block; color: var(--yc-yama); }
 
-.yc-tate-hero__picture { grid-area: picture; align-self: end; }
+.yc-tate-hero__picture { grid-area: picture; align-self: end; width: min(100%, 26rem); margin-left: auto !important; }
+
+.yc-tate-hero:is(:lang(ja), :lang(zh), :lang(ko)) .yc-tate-hero__picture { width: auto; margin-left: 0 !important; }
 
 .yc-tate-hero__picture img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; outline: 1px solid color-mix(in srgb, var(--yc-yama) 55%, transparent); outline-offset: .75rem; }
 
@@ -1745,17 +1839,23 @@ nav.yc-tate__nav { order: 1; }
 @media (min-width: 782px) {
 	.yc-hero--tate { min-height: max(40rem, 100vh); }
 	.yc-tate-hero {
+		grid-template-columns: minmax(0, 7fr) minmax(0, 4fr);
+		grid-template-areas: "title picture" "text picture";
+		gap: 2.5rem clamp(2rem, 4.5vw, 5.5rem);
+		min-height: calc(max(40rem, 100vh) - 9rem);
+	}
+	.yc-tate-hero__picture { align-self: end; width: auto; margin-top: 7rem !important; margin-left: 0 !important; }
+	.yc-tate-hero__text { align-self: end; padding-bottom: 1rem; }
+	.yc-tate-hero__title { align-self: start; }
+	.yc-tate-hero:is(:lang(ja), :lang(zh), :lang(ko)) {
 		grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) auto;
 		grid-template-areas: "text picture title";
 		gap: 0 clamp(2rem, 4.5vw, 5.5rem);
-		min-height: calc(max(40rem, 100vh) - 9rem);
 	}
-	.yc-tate-hero__picture { align-self: end; margin-top: 7rem !important; }
-	.yc-tate-hero__text { align-self: end; padding-bottom: 1rem; }
-	.yc-tate-hero__title { align-self: start; }
 }
 
-/* ---- The box: tall tanzaku strips, staggered, each name written vertically beside its picture. */
+/* ---- The box: tall tanzaku strips, staggered; the name sits under its picture in horizontal type (written vertically
+   beside the picture for CJK content). */
 .yc-tanzaku.yc-shelf,
 .yc-tanzaku .wc-block-product-template {
 	display: grid;
@@ -1783,7 +1883,7 @@ nav.yc-tate__nav { order: 1; }
 .yc-tanzaku .yc-cell,
 .yc-tanzaku .wc-block-product {
 	display: grid;
-	grid-template-columns: minmax(0, 1fr) auto;
+	grid-template-columns: minmax(0, 1fr);
 	grid-auto-rows: auto;
 	column-gap: .75rem;
 	align-content: start;
@@ -1799,21 +1899,31 @@ nav.yc-tate__nav { order: 1; }
 
 .yc-tanzaku :is(.yc-cell__picture, .yc-product__image) img { aspect-ratio: 3 / 4 !important; object-fit: cover; }
 
+.yc-tanzaku :is(.yc-cell__picture, .yc-product__image, .wc-block-components-product-image) { order: -2; }
+
 .yc-tanzaku :is(.yc-cell__title, .yc-product__title) {
-	grid-column: 2;
-	grid-row: 1;
-	writing-mode: vertical-rl;
-	font-size: clamp(1.05rem, .9rem + .5vw, 1.4rem) !important;
+	order: -1;
+	margin-top: 1.25rem !important;
+	font-size: clamp(1.05rem, .9rem + .4vw, 1.3rem) !important;
 	line-height: 1.3;
-	letter-spacing: .12em;
-	max-block-size: none;
+	letter-spacing: .02em;
 }
+
+.yc-tanzaku:is(:lang(ja), :lang(zh), :lang(ko)) :is(.yc-cell, .wc-block-product) { grid-template-columns: minmax(0, 1fr) auto; }
+
+.yc-tanzaku:is(:lang(ja), :lang(zh), :lang(ko)) :is(.yc-cell__title, .yc-product__title) { grid-column: 2; grid-row: 1; margin-top: 0 !important; writing-mode: vertical-rl; font-size: clamp(1.05rem, .9rem + .5vw, 1.4rem) !important; letter-spacing: .12em; max-block-size: none; }
+
+.yc-tanzaku:is(:lang(ja), :lang(zh), :lang(ko)) :is(.yc-cell__title, .yc-product__title) { order: 0; }
+
+.yc-tanzaku:is(:lang(ja), :lang(zh), :lang(ko)) :is(.yc-cell__cat, .yc-product__cat) { margin-top: 1.4rem !important; }
 
 .yc-tanzaku :is(.yc-cell__title, .yc-product__title) a { color: var(--yc-stone); text-decoration: none; }
 
-.yc-tanzaku :is(.yc-cell__title, .yc-product__title) a:hover { -webkit-text-emphasis: filled sesame var(--yc-yama); text-emphasis: filled sesame var(--yc-yama); }
+.yc-tanzaku :is(.yc-cell__title, .yc-product__title) a:hover { text-decoration: underline 1px var(--yc-yama); text-underline-offset: .2em; }
 
-.yc-tanzaku :is(.yc-cell__cat, .yc-product__cat) { margin-top: 1.4rem !important; font-size: .68rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--yc-ash); }
+.yc-tanzaku:is(:lang(ja), :lang(zh), :lang(ko)) :is(.yc-cell__title, .yc-product__title) a:hover { text-decoration: none; -webkit-text-emphasis: filled sesame var(--yc-yama); text-emphasis: filled sesame var(--yc-yama); }
+
+.yc-tanzaku :is(.yc-cell__cat, .yc-product__cat) { margin-top: .5rem !important; font-size: .68rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--yc-ash); }
 
 .yc-tanzaku :is(.yc-cell__cat, .yc-product__cat) a { color: inherit; text-decoration: none; }
 
@@ -1821,35 +1931,49 @@ nav.yc-tate__nav { order: 1; }
 
 .yc-tanzaku .yc-size { margin-top: .2rem !important; font-size: .8rem; color: var(--yc-ash); }
 
-/* ---- Four origins: four vertical columns read right to left on the yamabuki band. */
-.yc-origins--tate { display: flex; flex-direction: row-reverse; flex-wrap: nowrap; justify-content: flex-start; gap: 0; border: 0; }
+/* ---- Four origins: four columns on the yamabuki band, divided by hairlines, each with a big percentage, the name and
+   a short note in horizontal type. CJK content reads the columns right to left with vertical names and notes. */
+.yc-origins--tate { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-start; gap: 0; border: 0; }
 
 .yc-origins--tate > .yc-origin {
 	flex: 1 1 0;
 	min-width: 0;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-end;
+	align-items: flex-start;
 	padding: 0 clamp(1rem, 2.5vw, 2.5rem) 0;
 	border: 0 !important;
 	border-left: 1px solid rgba(23, 24, 75, .35) !important;
 }
 
-.yc-origins--tate > .yc-origin:last-child { border-left: 0 !important; }
+.yc-origins--tate > .yc-origin:first-child { padding-left: 0; border-left: 0 !important; }
 
 .yc-origins--tate .yc-origin__pct { font-size: clamp(2.6rem, 1.6rem + 2.6vw, 4.6rem); line-height: 1; color: var(--yc-navy); font-variant-numeric: lining-nums; }
 
-.yc-origins--tate .yc-origin__name { margin-top: 1.5rem !important; writing-mode: vertical-rl; font-size: clamp(1.4rem, 1rem + 1vw, 2rem) !important; letter-spacing: .14em; color: var(--yc-navy); }
+.yc-origins--tate .yc-origin__name { margin-top: 1.5rem !important; padding-top: 1rem; border-top: 1px solid rgba(23, 24, 75, .35); font-size: clamp(1.3rem, 1rem + .8vw, 1.8rem) !important; letter-spacing: .02em; color: var(--yc-navy); }
 
-.yc-origins--tate .yc-origin__note { margin-top: 1.25rem !important; writing-mode: vertical-rl; max-block-size: 15rem; font-size: .9rem; line-height: 1.9; letter-spacing: .06em; color: var(--yc-navy); }
+.yc-origins--tate .yc-origin__note { margin-top: .75rem !important; font-size: .9rem; line-height: 1.7; color: var(--yc-navy); }
+
+.yc-origins--tate:is(:lang(ja), :lang(zh), :lang(ko)) { flex-direction: row-reverse; }
+
+.yc-origins--tate:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-origin { align-items: flex-end; padding-left: clamp(1rem, 2.5vw, 2.5rem); border-left: 1px solid rgba(23, 24, 75, .35) !important; }
+
+.yc-origins--tate:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-origin:last-child { border-left: 0 !important; }
+
+.yc-origins--tate:is(:lang(ja), :lang(zh), :lang(ko)) .yc-origin__name { padding-top: 0; border-top: 0; writing-mode: vertical-rl; font-size: clamp(1.4rem, 1rem + 1vw, 2rem) !important; letter-spacing: .14em; }
+
+.yc-origins--tate:is(:lang(ja), :lang(zh), :lang(ko)) .yc-origin__note { margin-top: 1.25rem !important; writing-mode: vertical-rl; max-block-size: 15rem; line-height: 1.9; letter-spacing: .06em; }
 
 @media (max-width: 599px) {
-	.yc-origins--tate { flex-wrap: wrap; }
-	.yc-origins--tate > .yc-origin { flex: 1 1 45%; padding-bottom: 2rem; }
-	.yc-origins--tate > .yc-origin:nth-child(2) { border-left: 0 !important; }
+	.yc-origins--tate { flex-wrap: wrap; row-gap: 2rem; }
+	.yc-origins--tate > .yc-origin { flex: 1 1 45%; }
+	.yc-origins--tate > .yc-origin:nth-child(3) { padding-left: 0; border-left: 0 !important; }
+	.yc-origins--tate:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-origin:nth-child(3) { padding-left: clamp(1rem, 2.5vw, 2.5rem); border-left: 1px solid rgba(23, 24, 75, .35) !important; }
+	.yc-origins--tate:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-origin:nth-child(2) { border-left: 0 !important; }
 }
 
-/* ---- The shop window at night: the picture with its caption written vertically beside it. */
+/* ---- The shop window at night: the picture with a short horizontal caption at its side, low, under a yamabuki rule
+   (written vertically for CJK content). */
 .yc-still--tate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0; background: var(--yc-night); }
 
 .yc-still--tate > .yc-still__picture { grid-column: 1; grid-row: 1; align-self: stretch; }
@@ -1858,55 +1982,101 @@ nav.yc-tate__nav { order: 1; }
 
 .yc-still--tate > .yc-still__line { grid-column: 2; grid-row: 1; max-width: none !important; margin: 0 !important; padding: clamp(1.5rem, 3vw, 3rem) clamp(1rem, 2.5vw, 2.5rem); }
 
-.yc-still--tate .yc-still__caption { writing-mode: vertical-rl; max-block-size: clamp(14rem, 34vw, 30rem); font-family: var(--yc-serif); font-style: normal; font-size: clamp(1rem, .9rem + .4vw, 1.25rem); line-height: 1.9; letter-spacing: .14em; color: var(--yc-kinari); }
+.yc-still--tate > .yc-still__line { display: flex; flex-direction: column; justify-content: flex-end; width: clamp(12rem, 8rem + 12vw, 20rem); }
 
-/* ---- Roast, grind, temper: three steps descending from right to left. */
+.yc-still--tate .yc-still__caption { font-family: var(--yc-serif); font-style: normal; font-size: clamp(1rem, .9rem + .4vw, 1.25rem); line-height: 1.6; letter-spacing: .01em; color: var(--yc-kinari); }
+
+.yc-still--tate .yc-still__caption::before { content: ""; display: block; width: 2rem; margin-bottom: 1.25rem; border-top: 1px solid var(--yc-yama); }
+
+.yc-still--tate:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-still__line { display: block; width: auto; }
+
+.yc-still--tate:is(:lang(ja), :lang(zh), :lang(ko)) .yc-still__caption { writing-mode: vertical-rl; max-block-size: clamp(14rem, 34vw, 30rem); line-height: 1.9; letter-spacing: .14em; }
+
+.yc-still--tate:is(:lang(ja), :lang(zh), :lang(ko)) .yc-still__caption::before { content: none; }
+
+@media (max-width: 599px) {
+	.yc-still--tate:not(:is(:lang(ja), :lang(zh), :lang(ko))) { grid-template-columns: minmax(0, 1fr); }
+	.yc-still--tate:not(:is(:lang(ja), :lang(zh), :lang(ko))) > .yc-still__line { grid-column: 1; grid-row: 2; width: auto; }
+}
+
+/* ---- Roast, grind, temper: three steps stepping down from left to right, each with a big 01/02/03 numeral (right to
+   left with Japanese numerals and vertical titles for CJK content). */
 .yc-steps-tate { counter-reset: yc-step; }
 
-.yc-steps-tate > .yc-step { counter-increment: yc-step; display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 1rem; align-content: start; }
+.yc-steps-tate > .yc-step { counter-increment: yc-step; display: grid; grid-template-columns: minmax(0, 1fr); column-gap: 1rem; align-content: start; }
+
+.yc-steps-tate:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-step { grid-template-columns: minmax(0, 1fr) auto; }
 
 .yc-steps-tate > .yc-step > * { grid-column: 1; margin: 0 !important; }
 
-.yc-steps-tate .yc-step__picture { grid-row: 1 / span 2; }
+.yc-steps-tate .yc-step__picture { grid-row: 2; }
+
+.yc-steps-tate:is(:lang(ja), :lang(zh), :lang(ko)) .yc-step__picture { grid-row: 1 / span 2; }
 
 .yc-steps-tate .yc-step__picture img { aspect-ratio: 1; object-fit: cover; }
 
 .yc-steps-tate .yc-step::before {
-	content: counter(yc-step, cjk-decimal);
+	content: counter(yc-step, decimal-leading-zero);
 	display: block !important;
-	grid-column: 2;
+	grid-column: 1;
 	grid-row: 1;
+	margin-bottom: 1rem;
 	position: static;
 	width: auto;
 	height: auto;
 	background: none;
 	font-family: var(--yc-serif);
-	font-size: 2.6rem;
+	font-size: 1.9rem;
 	line-height: 1;
 	color: var(--yc-yama);
 }
 
-.yc-steps-tate .yc-step__title { grid-column: 2; grid-row: 2; margin-top: 1rem !important; writing-mode: vertical-rl; font-size: 1.7rem !important; letter-spacing: .2em; }
+.yc-steps-tate:is(:lang(ja), :lang(zh), :lang(ko)) .yc-step::before { font-size: 2.6rem; }
+
+.yc-steps-tate .yc-step__title { grid-row: 3; margin-top: 1.25rem !important; font-size: 1.7rem !important; letter-spacing: .02em; }
+
+.yc-steps-tate:is(:lang(ja), :lang(zh), :lang(ko)) .yc-step::before { content: counter(yc-step, cjk-decimal); grid-column: 2; margin-bottom: 0; }
+
+.yc-steps-tate:is(:lang(ja), :lang(zh), :lang(ko)) .yc-step__title { grid-column: 2; grid-row: 2; margin-top: 1rem !important; writing-mode: vertical-rl; letter-spacing: .2em; }
 
 .yc-steps-tate .yc-step__text { grid-column: 1 / -1; margin-top: 1.25rem !important; color: var(--yc-ash); }
 
-@media (min-width: 782px) {
-	.yc-steps-tate { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-	.yc-steps-tate > .yc-step:nth-child(1) { grid-column: 3; grid-row: 1; }
-	.yc-steps-tate > .yc-step:nth-child(2) { grid-column: 2; grid-row: 1; margin-top: 6rem !important; }
-	.yc-steps-tate > .yc-step:nth-child(3) { grid-column: 1; grid-row: 1; margin-top: 12rem !important; }
+/* Narrow screens: one step per row, the pictures kept tall-strip sized and staggered left and right. */
+@media (max-width: 781px) {
+	.yc-steps-tate .yc-step__picture { width: min(100%, 22rem); }
+	.yc-steps-tate > .yc-step:nth-child(even) { justify-items: end; text-align: right; }
+	.yc-steps-tate:is(:lang(ja), :lang(zh), :lang(ko)) .yc-step__picture { width: auto; }
+	.yc-steps-tate:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-step:nth-child(even) { justify-items: stretch; text-align: start; }
 }
 
-/* ---- Gift boxes on washi: vertical title, the picture, the note and the synced shipping card. */
-.yc-gift { display: grid; gap: 2rem clamp(2rem, 4vw, 4.5rem); grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "picture title" "text text"; align-items: start; }
+@media (min-width: 782px) {
+	.yc-steps-tate { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.yc-steps-tate > .yc-step:nth-child(1) { grid-column: 1; grid-row: 1; }
+	.yc-steps-tate > .yc-step:nth-child(2) { grid-column: 2; grid-row: 1; margin-top: 6rem !important; }
+	.yc-steps-tate > .yc-step:nth-child(3) { grid-column: 3; grid-row: 1; margin-top: 12rem !important; }
+	.yc-steps-tate:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-step:nth-child(1) { grid-column: 3; }
+	.yc-steps-tate:is(:lang(ja), :lang(zh), :lang(ko)) > .yc-step:nth-child(3) { grid-column: 1; }
+}
+
+/* ---- Gift boxes on washi: a large horizontal title, the picture, the note and the synced shipping card (vertical title
+   for CJK content). */
+.yc-gift { display: grid; gap: 2rem clamp(2rem, 4vw, 4.5rem); grid-template-columns: minmax(0, 1fr); grid-template-areas: "title" "picture" "text"; align-items: start; }
+
+.yc-gift:is(:lang(ja), :lang(zh), :lang(ko)) { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "picture title" "text text"; }
 
 .yc-gift > * { margin: 0 !important; min-width: 0; }
 
-.yc-gift__title { grid-area: title; writing-mode: vertical-rl; max-inline-size: min(24rem, 70vh); font-size: clamp(1.9rem, 1rem + 2.2vw, 3.3rem) !important; line-height: 1.32; letter-spacing: .08em; }
+.yc-gift__title { grid-area: title; max-width: 12em; font-size: clamp(1.9rem, 1rem + 2.2vw, 3.3rem) !important; line-height: 1.14; letter-spacing: .01em; }
+
+.yc-gift:is(:lang(ja), :lang(zh), :lang(ko)) .yc-gift__title { writing-mode: vertical-rl; max-width: none; max-inline-size: min(24rem, 70vh); line-height: 1.32; letter-spacing: .08em; }
 
 .yc-gift__title em { display: block; }
 
-.yc-gift__picture { grid-area: picture; }
+.yc-gift__picture { grid-area: picture; width: min(100%, 32rem); margin-left: auto !important; }
+
+@media (min-width: 900px) { .yc-gift__picture { width: auto; margin-left: 0 !important; } }
+
+.yc-gift:is(:lang(ja), :lang(zh), :lang(ko)) .yc-gift__picture { width: auto; margin-left: 0 !important; }
 
 .yc-gift__picture img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; box-shadow: -.75rem .75rem 0 var(--yc-yama); }
 
@@ -1915,35 +2085,50 @@ nav.yc-tate__nav { order: 1; }
 .yc-gift__text .is-style-lead { color: var(--yc-navy); }
 
 @media (min-width: 900px) {
-	.yc-gift { grid-template-columns: minmax(0, 5fr) minmax(0, 5fr) auto; grid-template-areas: "text picture title"; }
+	.yc-gift { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); grid-template-areas: "title picture" "text picture"; row-gap: 2.5rem; }
+	.yc-gift__picture { align-self: end; margin-top: 4rem !important; }
+	.yc-gift:is(:lang(ja), :lang(zh), :lang(ko)) { grid-template-columns: minmax(0, 5fr) minmax(0, 5fr) auto; grid-template-areas: "text picture title"; row-gap: 2rem; }
+	.yc-gift:is(:lang(ja), :lang(zh), :lang(ko)) .yc-gift__picture { align-self: start; margin-top: 0 !important; }
 	.yc-gift__text { max-width: none; }
 	.yc-gift__text { align-self: end; }
 }
 
 .yc-section--washi .yc-card { background: rgba(255, 255, 255, .35); border-color: rgba(23, 24, 75, .2); }
 
-/* ---- Journal spines: the latest notes as tall vertical columns read right to left. */
-.yc-spines .wp-block-post-template { direction: rtl; border: 0 !important; gap: 0 !important; }
+/* ---- Journal spines: the latest notes as tall columns behind hairline rules, date, title and excerpt in horizontal
+   type, the category at the foot (vertical columns read right to left for CJK content). */
+.yc-spines .wp-block-post-template { border: 0 !important; gap: 0 !important; }
+
+.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .wp-block-post-template { direction: rtl; }
 
 .yc-spines .wp-block-post-template > li { direction: ltr; padding: 0 !important; border: 0 !important; border-left: 1px solid var(--yc-line-strong) !important; background: none !important; }
 
-.yc-spines .wp-block-post-template > li:last-child { border-left: 0 !important; }
+.yc-spines .wp-block-post-template > li:first-child { border-left: 0 !important; }
+
+.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .wp-block-post-template > li:first-child { border-left: 1px solid var(--yc-line-strong) !important; }
+
+.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .wp-block-post-template > li:last-child { border-left: 0 !important; }
 
 .yc-spine {
-	writing-mode: vertical-rl;
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
-	height: clamp(22rem, 30vw, 28rem);
-	margin: 0 auto !important;
-	padding: .25rem 1.5rem;
+	min-height: clamp(18rem, 24vw, 22rem);
+	margin: 0 !important;
+	padding: .25rem clamp(1rem, 2.5vw, 2rem);
 }
+
+.yc-spines .wp-block-post-template > li:first-child .yc-spine { padding-left: 0; }
+
+.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .yc-spine { writing-mode: vertical-rl; height: clamp(22rem, 30vw, 28rem); min-height: 0; margin: 0 auto !important; padding: .25rem 1.5rem; }
 
 .yc-spine > * { margin: 0 !important; }
 
 .yc-spine .yc-spine__date { font-size: .78rem; letter-spacing: .14em; color: var(--yc-yama); }
 
-.yc-spine .yc-spine__title { font-size: clamp(1.4rem, 1rem + 1vw, 2rem) !important; line-height: 1.4; letter-spacing: .1em; }
+.yc-spine .yc-spine__title { font-size: clamp(1.4rem, 1rem + 1vw, 2rem) !important; line-height: 1.2; letter-spacing: .01em; }
+
+.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .yc-spine .yc-spine__title { line-height: 1.4; letter-spacing: .1em; }
 
 .yc-spine .yc-spine__title a { color: var(--yc-kinari); text-decoration: none; }
 
@@ -1958,11 +2143,16 @@ nav.yc-tate__nav { order: 1; }
 .yc-spine .yc-spine__cat a { color: var(--yc-ash); }
 
 @media (max-width: 781px) {
-	.yc-spines .wp-block-post-template { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
-	.yc-spines .wp-block-post-template > li { min-width: 0; overflow: hidden; }
-	.yc-spine { height: 22rem; padding-inline: .35rem; gap: .6rem; }
-	.yc-spine .yc-spine__excerpt, .yc-spine .yc-spine__cat { display: none; }
-	.yc-spine .yc-spine__title { font-size: 1.15rem !important; }
+	.yc-spines .wp-block-post-template { grid-template-columns: minmax(0, 1fr) !important; }
+	.yc-spines .wp-block-post-template > li { min-width: 0; border-left: 0 !important; border-top: 1px solid var(--yc-line-strong) !important; }
+	.yc-spines .wp-block-post-template > li:first-child { border-top: 0 !important; }
+	.yc-spine, .yc-spines .wp-block-post-template > li:first-child .yc-spine { min-height: 0; padding: 1.5rem 0; gap: .6rem; }
+	.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .wp-block-post-template { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+	.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .wp-block-post-template > li { overflow: hidden; border-top: 0 !important; border-left: 1px solid var(--yc-line-strong) !important; }
+	.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .wp-block-post-template > li:last-child { border-left: 0 !important; }
+	.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .yc-spine { height: 22rem; padding: .25rem .35rem; }
+	.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .yc-spine :is(.yc-spine__excerpt, .yc-spine__cat) { display: none; }
+	.yc-spines:is(:lang(ja), :lang(zh), :lang(ko)) .yc-spine .yc-spine__title { font-size: 1.15rem !important; }
 }
 
 /* ---- Journal cells elsewhere (journal page, archives) on navy. */
@@ -1970,7 +2160,8 @@ nav.yc-tate__nav { order: 1; }
 
 .yc-posts:not(.yc-spines) .wp-block-post-featured-image { box-shadow: .5rem .5rem 0 var(--yc-yama); }
 
-/* ---- Footer on washi: the wordmark written huge and vertically at the right beside a yamabuki moon. */
+/* ---- Footer on washi: the wordmark set huge and horizontal at the right over a yamabuki moon (written vertically for
+   CJK content). */
 .yc-foot--tate {
 	position: relative;
 	padding-block: clamp(3.5rem, 2.5rem + 4vw, 6.5rem) 2.25rem;
@@ -1990,8 +2181,7 @@ nav.yc-tate__nav { order: 1; }
 	grid-column: 2;
 	grid-row: 1;
 	position: relative;
-	writing-mode: vertical-rl;
-	font-size: clamp(5.5rem, 3rem + 9vw, 12rem);
+	font-size: clamp(4.5rem, 2rem + 7vw, 9.5rem);
 	font-weight: 700;
 	line-height: 1;
 	letter-spacing: .04em;
@@ -2003,14 +2193,17 @@ nav.yc-tate__nav { order: 1; }
 	content: "";
 	position: absolute;
 	z-index: -1;
-	top: -.12em;
-	left: 50%;
+	top: -.2em;
+	left: -.22em;
 	width: .95em;
 	aspect-ratio: 1;
 	border-radius: 50%;
 	background: var(--yc-yama);
-	transform: translateX(-62%);
 }
+
+.yc-foot--tate .yc-foot__mark:is(:is(:lang(ja), :lang(zh), :lang(ko)))::before { top: -.12em; left: 50%; transform: translateX(-62%); }
+
+.yc-foot--tate .yc-foot__mark:is(:is(:lang(ja), :lang(zh), :lang(ko))) { writing-mode: vertical-rl; font-size: clamp(5.5rem, 3rem + 9vw, 12rem); }
 
 .yc-foot--tate .yc-foot__mark a { color: inherit; }
 
@@ -2035,7 +2228,9 @@ nav.yc-tate__nav { order: 1; }
 
 .yc-foot--tate .yc-foot__links a { color: var(--yc-navy); font-family: var(--yc-serif); font-size: 1.05rem; font-weight: 400; letter-spacing: .08em; text-transform: none; }
 
-.yc-foot--tate a:hover { color: var(--yc-navy); -webkit-text-emphasis: filled sesame var(--yc-yama); text-emphasis: filled sesame var(--yc-yama); }
+.yc-foot--tate a:hover { color: var(--yc-navy); text-decoration: underline 1px var(--yc-yama); text-underline-offset: .2em; }
+
+.yc-foot--tate a:hover:is(:is(:lang(ja), :lang(zh), :lang(ko))) { text-decoration: none; -webkit-text-emphasis: filled sesame var(--yc-yama); text-emphasis: filled sesame var(--yc-yama); }
 
 .yc-foot--tate .yc-foot__info .yc-foundry__value { font-size: .88rem; color: var(--yc-usu); }
 
@@ -2050,6 +2245,8 @@ nav.yc-tate__nav { order: 1; }
 
 @media (max-width: 599px) {
 	.yc-foot--tate .yc-foot__inner { grid-template-columns: minmax(0, 1fr) auto; gap: 1.25rem; }
+	.yc-foot--tate .yc-foot__inner:not(:is(:lang(ja), :lang(zh), :lang(ko))) { grid-template-columns: minmax(0, 1fr); }
+	.yc-foot--tate .yc-foot__inner:not(:is(:lang(ja), :lang(zh), :lang(ko))) > .yc-foot__mark { grid-column: 1; grid-row: 2; justify-self: end; }
 	.yc-foot--tate .yc-foot__mark { font-size: 4.5rem; }
 }
 
@@ -2071,3 +2268,31 @@ nav.yc-tate__nav { order: 1; }
 .yc-frame { border-color: color-mix(in srgb, var(--yc-yama) 45%, transparent); }
 
 .yc-chips a:hover { background: var(--yc-yama); color: var(--yc-navy); }
+
+/* ---- Origins table (synced lines pattern, 1.1.2): it had no row styles, so every cell stacked as a loose list. Each
+   origin is now a ruled row: five columns when the table is wide enough, otherwise a small card (name and percentage on
+   top, origin, notes and pairings below). Markup unchanged. */
+.yc-lines { container-type: inline-size; border-top: 1px solid var(--yc-line-strong); }
+
+.yc-lines__row { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 1rem; padding-block: 1rem; border-bottom: 1px solid var(--yc-line); }
+
+.yc-lines__row > * { margin: 0 !important; min-width: 0; }
+
+.yc-lines__row > :nth-child(1) { font-family: var(--yc-serif); font-size: 1.2rem; line-height: 1.3; color: var(--yc-kinari); }
+
+.yc-lines__row > :nth-child(2) { grid-row: 2; font-size: .72rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--yc-ash); }
+
+.yc-lines__row > :nth-child(3) { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-family: var(--yc-serif); font-size: 1.6rem; line-height: 1; color: var(--yc-yama-light); font-variant-numeric: lining-nums; }
+
+.yc-lines__row > :nth-child(n + 4) { grid-column: 1 / -1; font-size: .9rem; line-height: 1.6; color: var(--yc-ash); }
+
+.yc-lines__row > :nth-child(4) { margin-top: .6rem !important; color: var(--yc-kinari); }
+
+.yc-lines__row--head { display: none; }
+
+@container (min-width: 44rem) {
+	.yc-lines__row, .yc-lines__row--head { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr) minmax(0, .5fr) minmax(0, 1.6fr) minmax(0, 1.2fr); align-items: baseline; }
+	.yc-lines__row > * { grid-column: auto !important; grid-row: auto !important; margin-top: 0 !important; }
+	.yc-lines__row > :nth-child(3) { font-size: 1.3rem; }
+	.yc-lines__row--head > * { font-family: var(--yc-sans) !important; font-size: .68rem !important; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--yc-ash) !important; }
+}
