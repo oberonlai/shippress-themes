@@ -194,7 +194,7 @@ Image treatments (exactly 4 each across the 20 rows): `full-illustration`, `cuto
 
 | # | Name / slug | Industry | Category | Archetype | Hero | Nav | Image | Illustration / photo direction | Main colour | Fonts | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | Shimakaze Minshuku / shimakaze-minshuku | island guesthouse | travel-stays | split-screen | product-grid-hero | split | cutout-break-frame | woodblock | 紅梅 #E16B8C (pink) | Dela Gothic One + M PLUS 1p | todo |
+| 1 | Shimakaze Minshuku / shimakaze-minshuku | island guesthouse | travel-stays | split-screen | product-grid-hero | split | cutout-break-frame | woodblock | 紅梅 #E16B8C (pink) | Dela Gothic One + M PLUS 1p | claimed |
 | 2 | Hōchō Kyōshitsu / hocho-kyoshitsu | washoku cooking school | education-classes | card-mosaic | cutout-break-frame-object | top-bar | collage | pencil-sketch | 群青 #4C6CB3 (blue) | Yuji Syuku + Albert Sans | todo |
 | 3 | Yose Rakugo / yose-rakugo | rakugo theatre | events-community | poster-typographic | vertical-banner | centered | cutout-break-frame | risograph | 金茶 #C47222 (vermilion) | Shippori Antique B1 + Inter Tight | todo |
 | 4 | Aoi Hanga / aoi-hanga | woodblock print studio | arts-media | single-column-longform | text-left-art-right | top-bar | full-illustration | sumi-ink | 萌黄 #A9C08B (green) | Mochiy Pop One + Kosugi Maru | todo |
