@@ -3,8 +3,8 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Version: 1.1.0
-Stable tag: 1.1.0
+Version: 1.1.1
+Stable tag: 1.1.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -100,6 +100,9 @@ Images: AI-generated for this theme with Grok Build image_gen, fine-line copperp
 All other artwork (rules, seals, chips and numerals) is CSS, GPL-2.0-or-later.
 
 == Changelog ==
+
+= 1.1.1 =
+* Release housekeeping: 1.1.0 was published from the first redesign (purple signboard layout, vermilion accent); 1.1.1 is the corrected design below. Nothing else differs from the 1.1.0 notes that follow.
 
 = 1.1.0 =
 * Redesign: washi, edo-murasaki purple, ai indigo, matcha, a koubai accent and sumi replace the single blush tone; Kaisei Opti and M PLUS 2 replace Della Respira and Sen, with a larger type scale.
