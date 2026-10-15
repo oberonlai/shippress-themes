@@ -1,0 +1,1845 @@
+/*
+Theme Name: Omocha Kendama
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/omocha-kendama
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Omocha Kendama — a store theme for a small wooden toy shop and turning workshop, with WooCommerce templates styled to match. Sumi (#1C1C1C) is the main colour: the masthead, the hero, the feature spread, every page head and the footer are sumi fields with bone type and beech and kendama-red marks; Zen Kurenaido for display and Work Sans for reading. It is laid out like a small magazine: an issue strip in the header, a menu that opens as a full-screen overlay of numbered links, a product-grid hero of film photographs where a cut-out kendama swings out of the headline cell across the grid lines and a cut-out spinning top rises out of the last strip, then the contents of the issue, a two-column feature with a pull quote, the toy shelf and the journal. All photographs are generated in one 35mm film-grain direction graded toward sumi. The shop details and the wood-and-care notes each live in one synced pattern (WooCommerce optional: without it the toys show as static cells and orders go by email).
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: omocha-kendama
+Tags: block-patterns, full-site-editing, e-commerce, blog, black, dark, custom-colors, custom-menu, editor-style, translation-ready, wide-blocks, block-styles, grid-layout
+*/
+
+/* ==========================================================================
+   0. Tokens + base
+   ========================================================================== */
+
+:root {
+	--ok-mist: var(--wp--preset--color--mist);
+	--ok-slate: var(--wp--preset--color--slate);
+	--ok-hair: var(--wp--preset--color--hair);
+	--ok-steel: var(--wp--preset--color--steel);
+	--ok-paper: var(--wp--preset--color--paper);
+	--ok-haze: var(--wp--preset--color--slate);
+	--ok-tan: var(--wp--preset--color--slate);
+	--ok-dusk: var(--wp--preset--color--quiet);
+	--ok-ink: var(--wp--preset--color--ink);
+	--ok-gold: var(--wp--preset--color--steel);
+	--ok-saddle: var(--wp--preset--color--steel);
+	--ok-panel: var(--wp--custom--panel, #1F2A1A);
+	--ok-thread: var(--wp--preset--color--hair);
+	--ok-thread-light: color-mix(in srgb, var(--wp--preset--color--paper) 75%, transparent);
+	--ok-on-dark: var(--wp--custom--on-dark);
+	--ok-on-dark-muted: var(--wp--custom--on-dark-muted);
+	--ok-line: var(--wp--custom--line);
+	--ok-line-strong: var(--wp--custom--line-strong);
+	--ok-ease: var(--wp--custom--ease);
+	--ok-sans: var(--wp--preset--font-family--sans);
+	--ok-mono: var(--wp--preset--font-family--sans);
+	--ok-serif: var(--wp--preset--font-family--serif);
+	--ok-plum: var(--wp--preset--color--ink);
+	--ok-gold-deep: var(--wp--preset--color--steel-deep);
+	--ok-rice: var(--wp--preset--color--paper);
+	--ok-wide: var(--wp--style--global--wide-size, 1240px);
+	--ok-pad: var(--wp--style--root--padding-left, clamp(1.25rem, 4vw, 3rem));
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 1.5rem; }
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern";
+}
+
+img { display: block; max-width: 100%; height: auto; }
+
+.wp-site-blocks > * { margin-block-start: 0; }
+
+:where(.wp-block-post-content) > .alignfull { margin-block: 0; }
+
+:where(h1, h2, h3, h4) { text-wrap: balance; }
+
+:where(p) { text-wrap: pretty; }
+
+a { text-decoration-thickness: 1px; text-underline-offset: .22em; text-decoration-color: var(--ok-gold); }
+
+a:hover { text-decoration-color: currentColor; }
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+	outline: 2px solid var(--ok-gold);
+	outline-offset: 3px;
+}
+
+.skip-link.screen-reader-text:focus { background: var(--ok-paper); color: var(--ok-ink); }
+
+hr.wp-block-separator { border: 0; border-top: 1px solid var(--ok-line-strong); opacity: 1; }
+
+
+/* ==========================================================================
+   1. Type helpers + block styles
+   ========================================================================== */
+
+/* Label: small spaced capitals. */
+.is-style-label,
+.ok-label {
+	display: flex;
+	align-items: center;
+	gap: .75rem;
+	margin: 0;
+	font-family: var(--ok-mono);
+	font-size: var(--wp--preset--font-size--x-small) !important;
+	font-weight: 400;
+	letter-spacing: .12em;
+	line-height: 1.4;
+	text-transform: uppercase;
+	color: var(--ok-dusk);
+}
+
+.is-style-label::before,
+.ok-label::before {
+	content: "";
+	flex: 0 0 auto;
+	width: 1.25rem;
+	height: 1px;
+	background: var(--ok-gold);
+}
+
+.is-style-lead {
+	font-size: var(--wp--preset--font-size--large) !important;
+	font-weight: 300;
+	line-height: 1.55;
+	letter-spacing: -.005em;
+}
+
+.is-style-fine { font-size: var(--wp--preset--font-size--small) !important; color: var(--ok-dusk); }
+
+.is-style-spec { font-family: var(--ok-mono); font-size: var(--wp--preset--font-size--small) !important; letter-spacing: .02em; color: var(--ok-dusk); }
+
+/* Ruled rows list. */
+ul.is-style-ruled,
+ol.is-style-ruled { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--ok-line); }
+
+ul.is-style-ruled > li,
+ol.is-style-ruled > li { margin: 0; padding: .9rem 0 .9rem 2rem; border-top: 1px solid var(--ok-line); position: relative; }
+
+ul.is-style-ruled > li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 1.55rem;
+	width: .9rem;
+	height: 1px;
+	background: var(--ok-gold);
+}
+
+ul.is-style-ruled strong { font-weight: 500; }
+
+/* Drawing frame: hairline corner ticks around the photograph, a monospace figure caption. */
+.wp-block-image.is-style-drawing { position: relative; margin-block: 0; padding: 0; }
+
+.wp-block-image.is-style-drawing::before {
+	content: "";
+	position: absolute;
+	inset: -.6rem;
+	z-index: 1;
+	pointer-events: none;
+	--t: var(--ok-line-strong);
+	background:
+		linear-gradient(var(--t) 0 0) top left / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) top left / 1px .9rem no-repeat,
+		linear-gradient(var(--t) 0 0) top right / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) top right / 1px .9rem no-repeat,
+		linear-gradient(var(--t) 0 0) bottom left / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) bottom left / 1px .9rem no-repeat,
+		linear-gradient(var(--t) 0 0) bottom right / .9rem 1px no-repeat,
+		linear-gradient(var(--t) 0 0) bottom right / 1px .9rem no-repeat;
+}
+
+.wp-block-image.is-style-drawing:has(figcaption)::before { bottom: calc(-.6rem + 2.4rem); }
+
+.wp-block-image.is-style-drawing img { width: 100%; object-fit: cover; }
+
+.wp-block-image figcaption.wp-element-caption,
+.wp-block-image .wp-element-caption {
+	display: flex;
+	align-items: center;
+	gap: .6rem;
+	margin: .9rem 0 0;
+	font-family: var(--ok-mono);
+	font-size: .75rem;
+	letter-spacing: .04em;
+	text-align: left;
+	color: var(--ok-dusk);
+}
+
+.wp-block-image .wp-element-caption::before { content: ""; width: .6rem; height: 1px; background: var(--ok-gold); flex: 0 0 auto; }
+
+/* Paper sheet panel. */
+.wp-block-group.is-style-sheet { padding: clamp(1.25rem, 3vw, 2rem); background: var(--ok-paper); border: 1px solid var(--ok-line); }
+
+/* Underlined link with an arrow (button style). */
+.wp-block-button.is-style-arrow .wp-block-button__link {
+	display: inline-flex;
+	align-items: center;
+	gap: .6rem;
+	padding: .35rem 0;
+	border-radius: 0;
+	background: transparent;
+	color: var(--ok-ink);
+	border-bottom: 1px solid var(--ok-ink);
+}
+
+.wp-block-button.is-style-arrow .wp-block-button__link::after {
+	content: "\2192";
+	font-family: var(--ok-mono);
+	transition: transform .4s var(--ok-ease);
+}
+
+.wp-block-button.is-style-arrow .wp-block-button__link:hover { background: transparent; color: var(--ok-ink); border-bottom-color: var(--ok-gold); }
+
+.wp-block-button.is-style-arrow .wp-block-button__link:hover::after { transform: translateX(.3rem); }
+
+.wp-block-buttons { gap: 1rem 1.75rem; align-items: center; }
+
+.wp-element-button,
+.wp-block-button__link { transition: background-color .3s ease, color .3s ease, border-color .3s ease; }
+
+/* ==========================================================================
+   2. Layout helpers
+   ========================================================================== */
+
+.ok-section { padding-block: var(--wp--preset--spacing--50); }
+
+.ok-section--flush-top { padding-top: 0; }
+
+.ok-section--paper { background-color: var(--ok-paper); }
+
+.ok-section--rule { border-top: 1px solid var(--ok-line); }
+
+.ok-section--opening { padding-top: var(--wp--preset--spacing--40); }
+
+.ok-section--dark { background-color: var(--ok-panel); color: var(--ok-on-dark); }
+
+.ok-section--dark :where(h1, h2, h3, h4) { color: var(--ok-on-dark); }
+
+.ok-section--dark .is-style-label { color: var(--ok-on-dark-muted); }
+
+.ok-section--dark .wp-block-button:not(.is-style-arrow) .wp-block-button__link { background: var(--ok-on-dark); color: var(--ok-panel); }
+
+.ok-section--dark .wp-block-button:not(.is-style-arrow) .wp-block-button__link:hover { background: var(--ok-paper); }
+
+.ok-stack > * { margin-block: 0; }
+
+.ok-stack > * + * { margin-block-start: 1.25rem; }
+
+.ok-stack > .wp-block-buttons,
+.ok-stack > .wp-block-image,
+.ok-stack > .ok-steps,
+.ok-stack > .wp-block-list { margin-block-start: 2rem; }
+
+.ok-head {
+	display: grid;
+	gap: 1rem;
+	max-width: 46rem;
+	margin-bottom: var(--wp--preset--spacing--40);
+}
+
+.ok-head > * { margin: 0 !important; }
+
+.ok-head--row {
+	max-width: none;
+	grid-template-columns: minmax(0, 1fr) auto;
+	align-items: end;
+}
+
+.ok-head__note { font-family: var(--ok-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ok-dusk); }
+
+.ok-split {
+	display: grid;
+	gap: var(--wp--preset--spacing--40) var(--wp--preset--spacing--50);
+	align-items: center;
+}
+
+.ok-split > * { margin: 0 !important; min-width: 0; }
+
+@media (min-width: 782px) {
+	.ok-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.ok-split--5-7 { grid-template-columns: 5fr 7fr; }
+	.ok-split--7-5 { grid-template-columns: 7fr 5fr; }
+	.ok-split--top { align-items: start; }
+}
+
+@media (max-width: 781px) {
+	.ok-head--row { grid-template-columns: 1fr; }
+}
+
+.ok-center-text { text-align: center; }
+
+/* Opening title block: big light title on the left, lead and buttons on the right, a hairline under both. */
+.ok-opening {
+	display: grid;
+	gap: var(--wp--preset--spacing--30) var(--wp--preset--spacing--50);
+	align-items: end;
+	padding-bottom: var(--wp--preset--spacing--40);
+}
+
+.ok-opening > * { margin: 0 !important; min-width: 0; }
+
+.ok-opening__title > * + * { margin-block-start: 1.5rem; }
+
+.ok-opening__title > *,
+.ok-opening__side > * { margin-block-end: 0; }
+
+.ok-opening__side > * { margin-block-start: 0; }
+
+.ok-opening__side > * + * { margin-block-start: 1.5rem; }
+
+.ok-opening h1,
+.ok-opening .wp-block-query-title { max-width: 14em; font-size: var(--wp--preset--font-size--display); font-weight: 300; line-height: 1.02; letter-spacing: -.035em; }
+
+@media (min-width: 900px) {
+	.ok-opening { grid-template-columns: 7fr 5fr; }
+}
+
+.ok-page-head--simple .wp-block-post-title { font-size: var(--wp--preset--font-size--xx-large); }
+
+/* Sheet head: a ruled monospace row above a grid, like the top band of a drawing sheet. */
+.ok-sheet-head {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: .5rem 2rem;
+	padding: .8rem 0;
+	border-top: 1px solid var(--ok-ink);
+	font-family: var(--ok-mono);
+	font-size: .75rem;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+}
+
+.ok-sheet-head > * { margin: 0 !important; }
+
+.ok-sheet-head__meta { color: var(--ok-dusk); }
+
+p.ok-sheet-head__title { margin: 0; font-family: var(--ok-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; }
+
+/* Wide photographs. */
+.ok-wide-picture { margin-top: var(--wp--preset--spacing--30) !important; }
+
+.ok-wide-picture img { aspect-ratio: 21 / 9; }
+
+@media (max-width: 781px) {
+	.ok-wide-picture img { aspect-ratio: 4 / 3; }
+}
+
+/* ==========================================================================
+   5. Steps, cells, rows, spec sheets
+   ========================================================================== */
+
+.ok-steps { display: grid; gap: 1.75rem 2rem; }
+
+@media (min-width: 600px) {
+	.ok-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.ok-steps--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.ok-steps > * { margin: 0 !important; }
+
+.ok-step { position: relative; padding-top: 1rem; border-top: 1px solid var(--ok-line-strong); }
+
+.ok-step::before { content: ""; position: absolute; left: 0; top: -1px; width: 1.5rem; height: 2px; background: var(--ok-gold); }
+
+.ok-step > * { margin: 0 !important; }
+
+.ok-step__no { font-family: var(--ok-mono); font-size: .75rem; letter-spacing: .08em; color: var(--ok-dusk); }
+
+.ok-step__title { margin-top: .5rem !important; font-size: var(--wp--preset--font-size--large) !important; font-weight: 400 !important; }
+
+.ok-step__text { margin-top: .5rem !important; font-size: var(--wp--preset--font-size--small); line-height: 1.6; color: var(--ok-dusk); }
+
+/* People cells. */
+.ok-cells { display: grid; border-top: 1px solid var(--ok-line-strong); }
+
+@media (min-width: 782px) {
+	.ok-cells--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.ok-cells--3 > .ok-cell + .ok-cell { border-left: 1px solid var(--ok-line); }
+}
+
+.ok-cells > * { margin: 0 !important; }
+
+.ok-cell { padding: 1.5rem clamp(0rem, 2vw, 1.75rem) 2rem; border-bottom: 1px solid var(--ok-line); }
+
+.ok-cell:first-child { padding-left: 0; }
+
+.ok-cell > * { margin: 0 !important; }
+
+.ok-cell > * + * { margin-top: .6rem !important; }
+
+.ok-cell__no { font-family: var(--ok-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ok-dusk); }
+
+.ok-cell__title { margin-top: 1.5rem !important; font-size: var(--wp--preset--font-size--x-large) !important; font-weight: 300 !important; }
+
+.ok-cell__role { font-family: var(--ok-mono); font-size: .8125rem; color: var(--ok-ink); }
+
+.ok-cell p:last-child { font-size: var(--wp--preset--font-size--small); color: var(--ok-dusk); }
+
+@media (max-width: 781px) {
+	.ok-cell { padding-inline: 0; }
+}
+
+/* Spec sheet: monospace key, value. */
+.ok-spec { border-bottom: 1px solid var(--ok-line); }
+
+.ok-spec__row {
+	display: grid;
+	grid-template-columns: minmax(7.5rem, 2fr) 5fr;
+	gap: 1rem;
+	padding: .85rem 0;
+	border-top: 1px solid var(--ok-line);
+}
+
+.ok-spec__row > * { margin: 0 !important; }
+
+.ok-spec__key { font-family: var(--ok-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ok-dusk); padding-top: .2rem; }
+
+.ok-spec__value { font-size: var(--wp--preset--font-size--medium); }
+
+.ok-spec > .ok-spec__row:first-child { border-top-color: var(--ok-line-strong); }
+
+/* Facts row (builds head). */
+.ok-facts {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	border-top: 1px solid var(--ok-ink);
+	border-bottom: 1px solid var(--ok-line);
+}
+
+@media (min-width: 782px) {
+	.ok-facts { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+.ok-facts > * { margin: 0 !important; }
+
+.ok-fact { padding: 1.1rem 1.25rem 1.25rem 0; }
+
+.ok-fact + .ok-fact { padding-left: 1.25rem; border-left: 1px solid var(--ok-line); }
+
+@media (max-width: 781px) {
+	.ok-fact:nth-child(3) { padding-left: 0; border-left: 0; }
+	.ok-fact:nth-child(n+3) { border-top: 1px solid var(--ok-line); }
+}
+
+.ok-fact > * { margin: 0 !important; }
+
+.ok-fact__key { font-family: var(--ok-mono); font-size: .6875rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ok-dusk); }
+
+.ok-fact__value { margin-top: .4rem !important; font-size: var(--wp--preset--font-size--large); font-weight: 300; letter-spacing: -.01em; }
+
+/* Process rows (builds). */
+.ok-rows { border-bottom: 1px solid var(--ok-line); }
+
+.ok-row {
+	display: grid;
+	grid-template-columns: 3rem minmax(0, 3fr) minmax(0, 2fr) minmax(0, 6fr);
+	gap: .5rem 1.5rem;
+	align-items: baseline;
+	padding: 1.4rem 0;
+	border-top: 1px solid var(--ok-line);
+	position: relative;
+}
+
+.ok-rows > .ok-row:first-child { border-top-color: var(--ok-ink); }
+
+.ok-row > * { margin: 0 !important; }
+
+.ok-row__no { font-family: var(--ok-mono); font-size: .75rem; color: var(--ok-dusk); }
+
+.ok-row__title { font-size: var(--wp--preset--font-size--x-large) !important; font-weight: 300 !important; }
+
+.ok-row__time { font-family: var(--ok-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; }
+
+.ok-row__text { color: var(--ok-dusk); }
+
+@media (max-width: 781px) {
+	.ok-row { grid-template-columns: 2.25rem minmax(0, 1fr); }
+	.ok-row__time,
+	.ok-row__text { grid-column: 2; }
+}
+
+/* Gallery. */
+.ok-gallery {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: var(--wp--preset--spacing--30);
+}
+
+@media (min-width: 782px) {
+	.ok-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+.ok-gallery > * { margin: 0 !important; }
+
+.ok-gallery__item img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: var(--ok-paper); }
+
+/* ==========================================================================
+   6. Synced blocks: workshop card, price list
+   ========================================================================== */
+
+.ok-house { border-bottom: 1px solid var(--ok-line); }
+
+.ok-house__row {
+	display: grid;
+	grid-template-columns: 6.5rem minmax(0, 1fr);
+	gap: 1rem;
+	padding: .9rem 0;
+	border-top: 1px solid var(--ok-line);
+}
+
+.ok-house__row > * { margin: 0 !important; }
+
+.ok-house__key { padding-top: .2rem; font-family: var(--ok-mono); font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ok-dusk); }
+
+.ok-house__value { line-height: 1.6; }
+
+.ok-prices { border-bottom: 1px solid var(--ok-line); }
+
+.ok-price {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) 8rem 6.5rem;
+	gap: 1rem;
+	align-items: baseline;
+	padding: .85rem 0;
+	border-top: 1px solid var(--ok-line);
+}
+
+.ok-price > * { margin: 0 !important; }
+
+.ok-price--head { padding-block: .6rem; border-top: 1px solid var(--ok-ink); font-family: var(--ok-mono); font-size: .6875rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ok-dusk); }
+
+.ok-price--head p:last-child,
+.ok-price__cost { text-align: right; }
+
+.ok-price__time { font-family: var(--ok-mono); font-size: .75rem; color: var(--ok-dusk); }
+
+.ok-price__cost { font-family: var(--ok-mono); font-size: .9375rem; font-weight: 500; white-space: nowrap; }
+
+.ok-prices__note { margin: 0 !important; padding: .9rem 0; border-top: 1px solid var(--ok-line); font-size: var(--wp--preset--font-size--small); color: var(--ok-dusk); }
+
+@media (max-width: 599px) {
+	.ok-price { grid-template-columns: minmax(0, 1fr) auto; gap: .2rem 1rem; }
+	.ok-price__name { grid-column: 1 / -1; }
+	.ok-price--head p:nth-child(2) { display: none; }
+}
+
+.ok-repair__prices > * + * { margin-top: 0 !important; }
+
+.ok-repair__prices .ok-sheet-head__title { padding-bottom: .9rem; }
+
+/* ==========================================================================
+   7. Journal: posts in ruled cells, the article
+   ========================================================================== */
+
+.ok-chips { display: flex; flex-wrap: wrap; gap: 0; margin: 0; border-left: 1px solid var(--ok-line-strong); }
+
+.ok-opening__side > .ok-chips { width: fit-content; margin-top: 1.5rem !important; }
+
+.ok-chips a {
+	padding: .45rem .9rem;
+	border: 1px solid var(--ok-line-strong);
+	border-left: 0;
+	font-family: var(--ok-mono);
+	font-size: .75rem;
+	letter-spacing: .04em;
+	color: var(--ok-ink);
+	text-decoration: none;
+	transition: background-color .3s ease;
+}
+
+.ok-chips a:hover { background: var(--ok-paper); }
+
+.ok-posts .wp-block-post-template {
+	gap: 0 !important;
+	border-top: 1px solid var(--ok-line-strong);
+	border-left: 1px solid var(--ok-line);
+}
+
+.ok-posts .wp-block-post-template > li {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: clamp(1rem, 2vw, 1.5rem);
+	border-right: 1px solid var(--ok-line);
+	border-bottom: 1px solid var(--ok-line);
+	transition: background-color .4s ease;
+}
+
+.ok-posts .wp-block-post-template > li:hover { background: var(--ok-paper); }
+
+.ok-posts .wp-block-post-featured-image { margin: 0; overflow: hidden; background: var(--ok-paper); }
+
+.ok-posts .wp-block-post-featured-image img { transition: transform 1.2s var(--ok-ease); }
+
+.ok-posts li:hover .wp-block-post-featured-image img { transform: scale(1.03); }
+
+.ok-post-body { margin-top: 1.1rem !important; }
+
+.ok-post-body > * { margin: 0 !important; }
+
+.ok-post-body > * + * { margin-top: .6rem !important; }
+
+.ok-post-meta { gap: .35rem 1rem; align-items: baseline; }
+
+.ok-post-meta > * { margin: 0 !important; }
+
+.ok-post-meta .wp-block-post-terms a { color: var(--ok-dusk); text-decoration: none; }
+
+.ok-post-meta .wp-block-post-terms a:hover { color: var(--ok-ink); }
+
+.ok-posts .wp-block-post-title { font-size: var(--wp--preset--font-size--large) !important; font-weight: 400; line-height: 1.3; letter-spacing: -.01em; }
+
+.ok-posts .wp-block-post-excerpt { font-size: var(--wp--preset--font-size--small); color: var(--ok-dusk); }
+
+.ok-posts .wp-block-post-excerpt__excerpt { margin: 0; }
+
+@media (max-width: 781px) {
+	.ok-posts .wp-block-post-template { grid-template-columns: 1fr !important; }
+}
+
+.ok-pagination { margin-top: var(--wp--preset--spacing--40) !important; font-family: var(--ok-mono); font-size: .8125rem; }
+
+.ok-pagination a { text-decoration: none; }
+
+.ok-article { padding-top: var(--wp--preset--spacing--40); }
+
+.ok-article__head { max-width: 58rem; }
+
+.ok-article__head > * { margin: 0 !important; }
+
+.ok-article__head > * + * { margin-top: 1.25rem !important; }
+
+.ok-article__head .wp-block-post-title { font-size: var(--wp--preset--font-size--xx-large); }
+
+.ok-article__dek { font-size: var(--wp--preset--font-size--large); font-weight: 300; line-height: 1.5; color: var(--ok-dusk); }
+
+.ok-article__dek p { margin: 0; }
+
+.ok-article__picture { margin-top: var(--wp--preset--spacing--40) !important; }
+
+.ok-prose { margin-top: var(--wp--preset--spacing--40) !important; }
+
+.ok-prose > * { max-width: 680px; }
+
+.ok-prose p,
+.ok-prose li { font-size: 1.0625rem; line-height: 1.75; }
+
+.ok-prose h2 { margin-top: 2.5rem; font-size: var(--wp--preset--font-size--x-large); font-weight: 400; }
+
+.ok-prose h3 { margin-top: 2rem; }
+
+.ok-prose blockquote { margin-block: 2rem; }
+
+.ok-prose blockquote cite { display: block; margin-top: .75rem; font-family: var(--ok-mono); font-size: .75rem; font-style: normal; letter-spacing: .06em; text-transform: uppercase; color: var(--ok-dusk); }
+
+.ok-prose ul { padding-left: 1.25rem; }
+
+.ok-prose li::marker { color: var(--ok-gold); }
+
+.ok-article__foot {
+	display: grid;
+	gap: 1rem 2rem;
+	margin-top: var(--wp--preset--spacing--40) !important;
+	padding-top: 1.25rem;
+	border-top: 1px solid var(--ok-line-strong);
+	font-size: var(--wp--preset--font-size--small);
+}
+
+.ok-article__foot > * { margin: 0 !important; }
+
+@media (min-width: 782px) {
+	.ok-article__foot { grid-template-columns: 1fr 1fr; }
+	.ok-article__foot > .wp-block-post-terms { grid-column: 1 / -1; }
+	.ok-article__foot > .post-navigation-link-next { text-align: right; }
+}
+
+.ok-article__foot a { text-decoration: none; }
+
+.ok-article__foot .wp-block-post-navigation-link { font-family: var(--ok-mono); font-size: .75rem; letter-spacing: .04em; text-transform: uppercase; color: var(--ok-dusk); }
+
+.ok-article__foot .wp-block-post-navigation-link a { display: block; margin-top: .35rem; font-family: var(--ok-sans); font-size: var(--wp--preset--font-size--medium); letter-spacing: 0; text-transform: none; color: var(--ok-ink); }
+
+/* Closing call-to-action band (builds). */
+.ok-cta { padding: var(--wp--preset--spacing--40) 0; border-top: 1px solid var(--ok-ink); border-bottom: 1px solid var(--ok-line); }
+
+/* ==========================================================================
+   8. Newsletter, contact, forms, FAQ, index, 404
+   ========================================================================== */
+
+.ok-letter-cta { max-width: 40rem; margin-inline: auto; text-align: center; }
+
+.ok-letter-cta > * { margin: 0 !important; }
+
+.ok-letter-cta > * + * { margin-top: 1.25rem !important; }
+
+.ok-letter-cta > hr.wp-block-separator { margin-inline: auto !important; }
+
+.ok-letter-cta .is-style-label { justify-content: center; margin-top: 2rem !important; }
+
+.ok-letter-cta .is-style-label::before { display: none; }
+
+.ok-letter-cta .wp-block-buttons { justify-content: center; margin-top: 2rem !important; }
+
+.ok-form { display: grid; gap: 1.1rem; }
+
+.ok-form label { display: grid; gap: .45rem; font-family: var(--ok-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ok-dusk); }
+
+.ok-form input,
+.ok-form select,
+.ok-form textarea {
+	box-sizing: border-box;
+	width: 100%;
+	padding: .8rem 1rem;
+	border: 1px solid var(--ok-line-strong);
+	border-radius: 0;
+	background: var(--ok-paper);
+	color: var(--ok-ink);
+	font: 400 1rem / 1.4 var(--ok-sans);
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.ok-form input,
+.ok-form select { height: calc(3rem + 2px); }
+
+.ok-form input:focus,
+.ok-form select:focus,
+.ok-form textarea:focus { border-color: var(--ok-ink); outline: 0; }
+
+.ok-form button {
+	justify-self: start;
+	padding: .9rem 1.6rem;
+	border: 0;
+	border-radius: 0;
+	background: var(--ok-ink);
+	color: var(--ok-paper);
+	font: 500 var(--wp--preset--font-size--small) / 1 var(--ok-sans);
+	letter-spacing: .02em;
+	cursor: pointer;
+	transition: background-color .3s ease;
+}
+
+.ok-form button:hover { background: var(--ok-dusk); }
+
+.ok-form--inline { grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 0; max-width: 32rem; }
+
+.ok-form--inline button { height: calc(3rem + 2px); }
+
+@media (max-width: 420px) {
+	.ok-form--inline { grid-template-columns: 1fr; gap: .6rem; }
+}
+
+.ok-faq { border-bottom: 1px solid var(--ok-line); }
+
+.ok-faq > * { margin: 0 !important; }
+
+.ok-faq details { border-top: 1px solid var(--ok-line); }
+
+.ok-faq details:first-child { border-top-color: var(--ok-ink); }
+
+.ok-faq summary {
+	position: relative;
+	padding: 1.1rem 2.5rem 1.1rem 0;
+	font-size: var(--wp--preset--font-size--large);
+	font-weight: 400;
+	list-style: none;
+	cursor: pointer;
+}
+
+.ok-faq summary::-webkit-details-marker { display: none; }
+
+.ok-faq summary::after {
+	content: "+";
+	position: absolute;
+	right: 0;
+	top: 1.05rem;
+	font-family: var(--ok-mono);
+	font-weight: 400;
+	color: var(--ok-dusk);
+	transition: transform .3s ease;
+}
+
+.ok-faq details[open] summary::after { transform: rotate(45deg); }
+
+.ok-faq details > p { margin: 0 0 1.25rem; max-width: 40rem; color: var(--ok-dusk); }
+
+.ok-index { border-bottom: 1px solid var(--ok-line); }
+
+.ok-index__row {
+	display: grid;
+	grid-template-columns: 5rem 9rem minmax(0, 1fr);
+	gap: 1rem;
+	align-items: baseline;
+	padding: 1rem 0;
+	border-top: 1px solid var(--ok-line);
+}
+
+.ok-index > .ok-index__row:first-child { border-top-color: var(--ok-ink); }
+
+.ok-index__row > * { margin: 0 !important; }
+
+.ok-index__no,
+.ok-index__date { font-family: var(--ok-mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ok-dusk); }
+
+.ok-index__title { font-size: var(--wp--preset--font-size--large); font-weight: 300; }
+
+@media (max-width: 599px) {
+	.ok-index__row { grid-template-columns: 4rem minmax(0, 1fr); gap: .2rem 1rem; }
+	.ok-index__title { grid-column: 1 / -1; }
+}
+
+.ok-lost { max-width: 40rem; margin-inline: auto; padding-block: var(--wp--preset--spacing--40); text-align: center; }
+
+.ok-lost > * { margin: 0 auto !important; }
+
+.ok-lost > * + * { margin-top: 1.5rem !important; }
+
+.ok-lost__no { font-family: var(--ok-mono); font-size: clamp(4rem, 3rem + 6vw, 8rem); font-weight: 400; line-height: 1; letter-spacing: -.04em; color: var(--ok-ink); }
+
+.ok-lost__title { font-size: var(--wp--preset--font-size--xx-large) !important; }
+
+.ok-lost .wp-block-buttons { justify-content: center; }
+
+.ok-search-form .wp-block-search__inside-wrapper { gap: 0; border: 0; padding: 0; }
+
+.ok-search-form .wp-block-search__input {
+	padding: .8rem 1rem;
+	border: 1px solid var(--ok-line-strong);
+	border-radius: 0;
+	background: var(--ok-paper);
+	color: var(--ok-ink);
+	font-family: var(--ok-sans);
+}
+
+.ok-search-form .wp-block-search__button {
+	margin-left: 0;
+	padding: .8rem 1.3rem;
+	border: 0;
+	border-radius: 0;
+	background: var(--ok-ink);
+	color: var(--ok-paper);
+	font-family: var(--ok-sans);
+	font-weight: 500;
+}
+
+.ok-lost .ok-search-form { max-width: 28rem; }
+
+/* ==========================================================================
+   10. Motion: none for those who ask for less
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+	html { scroll-behavior: auto; }
+	*,
+	*::before,
+	*::after { animation: none !important; transition: none !important; }
+}
+
+/* ==========================================================================
+   11. Shared store parts: ferrule marks, header base, toy rail, synced cards, letter
+   ========================================================================== */
+
+/* ---- Type: Zen Kurenaido for display, Work Sans for reading, labels, menus and numbers. */
+body { font-family: var(--ok-sans); font-size: 1.0625rem; }
+
+:where(h1, h2, h3, h4) em { font-style: italic; color: var(--ok-steel); }
+
+.ok-opening h1,
+.ok-opening .wp-block-query-title { font-weight: 400; letter-spacing: -.01em; line-height: 1.08; }
+
+.is-style-lead { font-weight: 400; color: var(--ok-ink); }
+
+.is-style-label, .ok-label { color: var(--wp--preset--color--steel-deep); letter-spacing: .16em; }
+
+.is-style-label::before, .ok-label::before { background: var(--ok-steel); width: 1.5rem; }
+
+.ok-quiet { color: var(--ok-dusk); font-size: .9375rem; }
+
+/* ---- Ferrule mark: a tiny concentric tip (ring + dot) with hairlines either side. One recipe for every divider. */
+.ok-ferrule {
+	position: relative;
+	display: block;
+	width: 7.5rem;
+	height: 13px;
+	margin-inline: auto;
+	background:
+		radial-gradient(circle at 50% 50%, var(--ok-steel) 0 2px, transparent 2.5px),
+		radial-gradient(circle at 50% 50%, transparent 0 5.5px, var(--ok-steel) 6px 6.5px, transparent 7px),
+		linear-gradient(var(--ok-hair), var(--ok-hair)) left 50% / calc(50% - 14px) 1px no-repeat,
+		linear-gradient(var(--ok-hair), var(--ok-hair)) right 50% / calc(50% - 14px) 1px no-repeat;
+}
+
+hr.wp-block-separator.is-style-ferrule {
+	width: 7.5rem !important;
+	height: 13px;
+	margin-inline: auto;
+	border: 0;
+	background:
+		radial-gradient(circle at 50% 50%, var(--ok-steel) 0 2px, transparent 2.5px),
+		radial-gradient(circle at 50% 50%, transparent 0 5.5px, var(--ok-steel) 6px 6.5px, transparent 7px),
+		linear-gradient(var(--ok-hair), var(--ok-hair)) left 50% / calc(50% - 14px) 1px no-repeat,
+		linear-gradient(var(--ok-hair), var(--ok-hair)) right 50% / calc(50% - 14px) 1px no-repeat;
+}
+
+/* ---- Buttons */
+.wp-element-button, .wp-block-button__link { border-radius: 0; }
+
+.wp-block-button:not(.is-style-arrow) .wp-block-button__link { background: var(--ok-ink); color: var(--ok-mist); }
+
+.wp-block-button:not(.is-style-arrow) .wp-block-button__link:hover { background: var(--wp--preset--color--steel-deep); color: var(--ok-mist); }
+
+.wp-block-button.is-style-arrow .wp-block-button__link { font-family: var(--ok-sans); font-size: .875rem; letter-spacing: .04em; color: var(--ok-ink); border-bottom-color: var(--ok-steel); }
+
+/* ---- Header base (the sumi masthead and overlay menu are in section 12). */
+.ok-header { position: relative; z-index: 30; background: var(--wp--preset--color--sumi); border-bottom: 3px solid var(--ok-ink); }
+
+.ok-header__bar { position: relative; display: flex; align-items: center; gap: 2rem; min-height: 5rem; }
+
+.ok-header__bar > * { margin: 0 !important; }
+
+.ok-brand { display: flex; align-items: center; gap: .75rem; white-space: nowrap; }
+
+.ok-brand > * { margin: 0 !important; }
+
+.ok-brand__tag { font-size: .75rem; letter-spacing: .08em; color: var(--ok-ink); padding-left: .75rem; border-left: 1px solid var(--ok-ink); }
+
+.ok-wordmark { font-family: var(--ok-serif); font-size: clamp(1.3rem, 1.1rem + .6vw, 1.65rem) !important; font-weight: 400; letter-spacing: .02em !important; line-height: 1; }
+
+.ok-wordmark a { color: var(--ok-ink); text-decoration: none; }
+
+nav.ok-nav { flex: 1 1 auto; font-family: var(--ok-sans); font-size: .9375rem; letter-spacing: .04em; }
+
+nav.ok-nav .wp-block-navigation__container { gap: .25rem 2rem; }
+
+.ok-nav .wp-block-navigation-item__content { padding: .5rem 0; color: var(--ok-ink); text-decoration: none; }
+
+.ok-nav .wp-block-navigation-item__content:hover,
+.ok-nav .current-menu-item > .wp-block-navigation-item__content {
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: .5em;
+}
+
+.ok-header__cta .wp-block-button__link { padding: .7rem 1.25rem; font-size: .875rem; border-radius: 999px !important; }
+
+.ok-header__bar .wc-block-mini-cart__button,
+.ok-header__bar .wp-block-woocommerce-customer-account a { padding: .4rem; color: var(--ok-ink); }
+
+.ok-header__bar .wc-block-mini-cart__badge { background: var(--ok-ink); color: var(--wp--preset--color--sumi); border-color: var(--ok-ink); }
+
+.ok-header__bar--checkout { justify-content: flex-end; }
+
+@media (max-width: 899px) {
+	.ok-header__bar { gap: .75rem; min-height: 4.25rem; }
+	.ok-brand { margin-right: auto !important; }
+	.ok-brand__tag { display: none; }
+	nav.ok-nav { flex: 0 0 auto; order: 3; }
+	.ok-header__cta { order: 2; }
+	.ok-header__bar .wp-block-woocommerce-customer-account { display: none; }
+}
+
+@media (max-width: 479px) {
+	.ok-header__cta { display: none; }
+	.ok-wordmark { font-size: 1.2rem !important; }
+}
+
+.ok-header .ok-nav.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--wp--preset--color--sumi); color: var(--ok-ink); }
+
+.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content { align-items: stretch; padding-top: 4.5rem; padding-inline: var(--ok-pad); }
+
+.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { align-items: stretch; gap: 0; }
+
+nav.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container > li:nth-child(4) { margin-left: 0; }
+
+.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item { border-bottom: 1px solid var(--ok-hair); }
+
+.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { padding: 1rem 0; font-family: var(--ok-serif); font-size: 1.5rem; letter-spacing: 0; }
+
+/* ---- Home opening: one quiet centred line. */
+.ok-section--hello { padding-block: clamp(4rem, 3rem + 4vw, 7.5rem) clamp(2.5rem, 2rem + 2vw, 4rem); }
+
+.ok-hello { max-width: 44rem; margin-inline: auto !important; text-align: center; }
+
+.ok-hello > * { margin: 0 auto !important; }
+
+.ok-hello > * + * { margin-top: 1.5rem !important; }
+
+.ok-hello .is-style-label { justify-content: center; }
+
+.ok-hello .is-style-label::before { display: none; }
+
+.ok-hello h1 { font-size: var(--wp--preset--font-size--display); line-height: 1.08; letter-spacing: -.01em; }
+
+.ok-hello .is-style-lead { max-width: 34rem; color: var(--ok-dusk); }
+
+/* ---- L4 canopy rail: round canopies on a slow scroll-snap track. No autoplay, no motion; the visitor scrolls. */
+.ok-section--rail { padding-top: clamp(1rem, .5rem + 2vw, 2.5rem); overflow: hidden; }
+
+.ok-rail .wc-block-product-template,
+.ok-rail.ok-rail--static {
+	display: flex !important;
+	flex-wrap: nowrap !important;
+	gap: clamp(1.5rem, 1rem + 2vw, 3rem) !important;
+	margin: 0 !important;
+	padding: 1rem 0 2rem !important;
+	overflow-x: auto;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	scroll-padding-inline: 0;
+	scrollbar-width: thin;
+	scrollbar-color: var(--ok-hair) transparent;
+	list-style: none;
+}
+
+.ok-rail .wc-block-product-template:focus-visible,
+.ok-rail.ok-rail--static:focus-visible { outline: 1px solid var(--ok-steel); outline-offset: 6px; }
+
+.ok-rail .wc-block-product-template > li,
+.ok-rail--static > .ok-canopy {
+	flex: 0 0 clamp(15rem, 12rem + 9vw, 21rem) !important;
+	width: auto !important;
+	max-width: none !important;
+	margin: 0 !important;
+	scroll-snap-align: start;
+	text-align: center;
+}
+
+.ok-rail--grid.ok-rail--static {
+	display: grid !important;
+	grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+	overflow: visible;
+	row-gap: 3.5rem !important;
+}
+
+.ok-rail--grid > .ok-canopy { flex: none !important; }
+
+/* Canopy cell: a round photograph with thin radial rib lines over it and a steel ring. */
+.ok-canopy > * { margin: 0 !important; }
+
+.ok-canopy__photo,
+.ok-products .wc-block-components-product-image,
+.ok-rail .wc-block-components-product-image {
+	position: relative;
+	aspect-ratio: 1;
+	margin: 0 auto 1.25rem !important;
+	border-radius: 50%;
+	overflow: hidden;
+	background: var(--ok-slate);
+	box-shadow: 0 0 0 1px var(--ok-hair), 0 0 0 9px var(--ok-mist), 0 0 0 10px var(--ok-hair);
+}
+
+.ok-canopy__photo img,
+.ok-products .wc-block-components-product-image img,
+.ok-rail .wc-block-components-product-image img { width: 100% !important; height: 100% !important; aspect-ratio: 1 !important; object-fit: cover; border-radius: 50%; transition: transform 1.4s var(--ok-ease); }
+
+.ok-canopy__photo::after,
+.ok-products .wc-block-components-product-image::after,
+.ok-rail .wc-block-components-product-image::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: 50%;
+	pointer-events: none;
+	background:
+		radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--ok-mist) 85%, transparent) 0 3px, transparent 3.5px),
+		repeating-conic-gradient(from 0deg, color-mix(in srgb, var(--ok-mist) 38%, transparent) 0 .35deg, transparent .35deg 22.5deg);
+	mask: radial-gradient(circle, transparent 0 30%, #000 72%);
+	opacity: .55;
+}
+
+.ok-canopy:hover .ok-canopy__photo img,
+.ok-rail li:hover .wc-block-components-product-image img,
+.ok-products li:hover .wc-block-components-product-image img { transform: rotate(6deg) scale(1.02); }
+
+.ok-canopy__ribs,
+.wc-block-product .ok-canopy__ribs {
+	margin: .4rem 0 0 !important;
+	font-family: var(--ok-sans);
+	font-size: .75rem !important;
+	font-variant-numeric: tabular-nums;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--steel-deep);
+}
+
+.ok-canopy__name,
+.ok-rail .wp-block-post-title,
+.ok-products .wp-block-post-title { margin: 0 !important; font-family: var(--ok-serif); font-size: 1.375rem !important; font-weight: 400; line-height: 1.25; }
+
+.ok-canopy__name a,
+.ok-rail .wp-block-post-title a,
+.ok-products .wp-block-post-title a { color: var(--ok-ink); text-decoration: none; }
+
+.ok-canopy__price,
+.ok-rail .wc-block-components-product-price,
+.ok-products .wc-block-components-product-price { margin: .35rem 0 0 !important; font-family: var(--ok-serif); font-size: 1.0625rem !important; font-variant-numeric: lining-nums tabular-nums; color: var(--ok-dusk); }
+
+.ok-canopy__photo a { display: block; }
+
+/* ---- Atelier, repair, size teaser */
+.ok-photo { margin: 0 !important; }
+
+.ok-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+
+.ok-photo--wide img { aspect-ratio: 3 / 2; }
+
+.ok-photo--portrait img { aspect-ratio: 4 / 5; }
+
+.ok-photo--banner img { aspect-ratio: 21 / 9; }
+
+@media (max-width: 781px) {
+	.ok-photo--banner img { aspect-ratio: 4 / 3; }
+}
+
+.ok-section--slate { background: var(--ok-slate); }
+
+.ok-section--slate .is-style-label { color: var(--wp--preset--color--steel-deep); }
+
+.ok-section--slate .ok-quiet, .ok-section--slate .ok-repair__value, .ok-section--slate .ok-shopinfo__value { color: var(--ok-ink); }
+
+.ok-section--slate :where(h1, h2, h3) em { color: var(--wp--preset--color--steel-deep); }
+
+.ok-rings-wrap { display: grid; place-items: center; }
+
+.ok-rings {
+	position: relative;
+	width: min(100%, 26rem);
+	aspect-ratio: 1;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ok-rings__ring {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	aspect-ratio: 1;
+	border: 1px solid var(--ok-steel);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding-top: .45rem;
+	font-family: var(--ok-sans);
+	font-size: .6875rem;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--steel-deep);
+	background: repeating-conic-gradient(from 0deg, color-mix(in srgb, var(--ok-steel) 22%, transparent) 0 .3deg, transparent .3deg 22.5deg);
+}
+
+.ok-rings__ring--1 { width: 40%; }
+.ok-rings__ring--2 { width: 58%; }
+.ok-rings__ring--3 { width: 79%; }
+.ok-rings__ring--4 { width: 100%; }
+
+.ok-rings__ring--1 { padding-top: 0; flex-direction: column; justify-content: center; align-items: center; background: var(--ok-mist); }
+
+.ok-rings__name { margin-right: .4rem; }
+
+.ok-rings__cm { font-variant-numeric: tabular-nums; color: var(--ok-dusk); }
+
+.ok-rings__ring:not(.ok-rings__ring--1) .ok-rings__cm { display: none; }
+
+.ok-rings__ring--1 .ok-rings__name { margin: 0; }
+
+/* ---- Synced cards: shop details and repair terms (Golos keys, Ibarra values, steel hairlines). */
+.ok-shopinfo, .ok-repair { display: grid; gap: 0; border-top: 1px solid var(--ok-hair); }
+
+.ok-shopinfo > *, .ok-repair > * { margin: 0 !important; }
+
+.ok-shopinfo__row, .ok-repair__row {
+	display: grid;
+	grid-template-columns: 8rem minmax(0, 1fr);
+	gap: .25rem 1.25rem;
+	padding: .95rem 0;
+	border-bottom: 1px solid var(--ok-hair);
+}
+
+.ok-shopinfo__row > *, .ok-repair__row > * { margin: 0 !important; }
+
+.ok-shopinfo__key, .ok-repair__key { padding-top: .25rem; font-family: var(--ok-sans); font-size: .6875rem; letter-spacing: .14em; text-transform: uppercase; color: var(--wp--preset--color--steel-deep); }
+
+.ok-shopinfo__value, .ok-repair__value { font-size: 1rem; line-height: 1.6; }
+
+@media (max-width: 599px) {
+	.ok-shopinfo__row, .ok-repair__row { grid-template-columns: 1fr; }
+}
+
+/* Short forms of the repair terms: home and product pages show what is covered and the turnaround; Contact adds how
+   to bring it in. Care & repair shows every row. */
+.ok-repair-wrap--short .ok-repair__row--prices,
+.ok-repair-wrap--short .ok-repair__row--bring,
+.ok-repair-wrap--product .ok-repair__row--prices,
+.ok-repair-wrap--product .ok-repair__row--bring,
+.ok-repair-wrap--contact .ok-repair__row--prices { display: none; }
+
+.ok-repair-wrap--full { padding: clamp(1.5rem, 1rem + 2vw, 2.5rem); background: var(--ok-paper); }
+
+.ok-product-note .ok-repair__row { grid-template-columns: 1fr; padding: .6rem 0; }
+
+.ok-product-note .ok-repair__value { font-size: .9375rem; color: var(--ok-dusk); }
+
+.ok-contact-side > .is-style-label:not(:first-child) { margin-top: 2.5rem !important; }
+
+/* ---- Steps, table, pair, quote */
+.ok-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 2rem 2.5rem; }
+
+.ok-steps > * { margin: 0 !important; }
+
+.ok-steps--stack { grid-template-columns: 1fr; gap: 1.5rem; }
+
+.ok-step { padding-top: 1.25rem; border-top: 1px solid var(--ok-hair); }
+
+.ok-step > * { margin: 0 !important; }
+
+.ok-step > * + * { margin-top: .6rem !important; }
+
+.ok-step__no { font-family: var(--ok-sans); font-size: .75rem; letter-spacing: .12em; font-variant-numeric: tabular-nums; color: var(--wp--preset--color--steel-deep); }
+
+.ok-step__title { font-size: 1.375rem !important; }
+
+.ok-step__text { font-size: .9375rem; color: var(--ok-dusk); }
+
+.ok-section--steps .ok-photo--banner { margin-top: var(--wp--preset--spacing--50) !important; }
+
+.ok-table-wrap { overflow-x: auto; }
+
+.ok-table { margin: 0; }
+
+.ok-table table { width: 100%; min-width: 40rem; border-collapse: collapse; font-variant-numeric: lining-nums tabular-nums; }
+
+.ok-table th { padding: .8rem 1rem .8rem 0; border-bottom: 1px solid var(--ok-ink); font-family: var(--ok-sans); font-size: .6875rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; text-align: left; color: var(--wp--preset--color--steel-deep); }
+
+.ok-table td { padding: .95rem 1rem .95rem 0; border: 0; border-bottom: 1px solid var(--ok-hair); vertical-align: top; }
+
+.ok-table td:first-child { font-size: 1.125rem; }
+
+.ok-table figcaption { margin-top: 1rem; font-family: var(--ok-sans); font-size: .8125rem; color: var(--ok-dusk); text-align: left; }
+
+.ok-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1rem, 2vw, 2rem); margin-top: var(--wp--preset--spacing--50) !important; }
+
+.ok-pair > * { margin: 0 !important; }
+
+@media (max-width: 781px) {
+	.ok-pair { grid-template-columns: 1fr; }
+}
+
+.ok-quote { font-size: var(--wp--preset--font-size--large) !important; font-style: italic; line-height: 1.5; padding-left: 1.25rem; border-left: 1px solid var(--ok-steel); }
+
+.ok-head__aside { max-width: 24rem; }
+
+/* ---- Journal */
+.ok-posts .wp-block-post-template { border-top: 1px solid var(--ok-hair); border-left: 0; }
+
+.ok-posts .wp-block-post-template > li { border-right: 0; border-bottom: 0; padding: 1.5rem 0 0; }
+
+.ok-posts .wp-block-post-template > li:hover { background: transparent; }
+
+.ok-posts .wp-block-post-template { gap: 2.5rem !important; }
+
+.ok-posts .wp-block-post-title a { color: var(--ok-ink); text-decoration: none; }
+
+.ok-post-meta { font-family: var(--ok-sans); font-size: .75rem; letter-spacing: .06em; color: var(--ok-dusk); }
+
+.ok-chips a { font-family: var(--ok-sans); border-color: var(--ok-hair); }
+
+/* ---- CTA + 404 */
+.ok-section--cta { padding-block: clamp(3.5rem, 3rem + 2vw, 5rem); border-top: 1px solid var(--ok-hair); }
+
+.ok-cta-small .wp-block-buttons, .ok-404 .wp-block-buttons { justify-content: center; }
+
+.ok-404 .ok-search-form { max-width: 28rem; }
+
+/* ---- Forms */
+.ok-form label { font-family: var(--ok-sans); color: var(--ok-dusk); }
+
+.ok-form input, .ok-form select, .ok-form textarea { border-radius: 0; font-family: var(--ok-serif); }
+
+.ok-form button { font-family: var(--ok-sans); letter-spacing: .06em; }
+
+/* ---- Footer (F4): the rain letter leads on a deep slate band; shop details and slim links sit below a hairline. */
+.ok-foot { position: relative; margin-top: 0 !important; background: var(--ok-panel); color: var(--ok-on-dark); }
+
+.ok-foot__inner { padding-block: clamp(4rem, 3rem + 4vw, 6.5rem) 2.5rem; }
+
+.ok-foot__inner > * { margin: 0 !important; }
+
+.ok-foot__letter { max-width: 38rem; margin-inline: auto !important; text-align: center; }
+
+.ok-foot__letter > * { margin: 0 auto !important; }
+
+.ok-foot__letter > * + * { margin-top: 1.1rem !important; }
+
+.ok-foot .ok-ferrule { --ok-steel: #A9C08B; --ok-hair: color-mix(in srgb, var(--ok-on-dark) 28%, transparent); }
+
+.ok-foot .is-style-label { justify-content: center; color: var(--ok-on-dark-muted); }
+
+.ok-foot .is-style-label::before { display: none; }
+
+.ok-foot__lede { font-family: var(--ok-serif); font-size: clamp(1.75rem, 1.3rem + 1.8vw, 2.75rem); line-height: 1.15; }
+
+.ok-foot__sub { font-size: .9375rem; color: var(--ok-on-dark-muted); }
+
+.ok-foot__letter .ok-form { max-width: 30rem; margin-top: 2rem !important; text-align: left; }
+
+.ok-form--dark input { background: transparent !important; color: var(--ok-on-dark) !important; border-color: color-mix(in srgb, var(--ok-on-dark) 45%, transparent) !important; }
+
+.ok-form--dark input::placeholder { color: color-mix(in srgb, var(--ok-on-dark) 60%, transparent); }
+
+.ok-form--dark label { color: var(--ok-on-dark-muted); }
+
+.ok-form--dark button { background: var(--ok-on-dark) !important; color: var(--ok-ink) !important; }
+
+.ok-form--dark button:hover { background: var(--ok-slate) !important; }
+
+.ok-foot__base {
+	display: grid;
+	grid-template-columns: 4fr 5fr 3fr;
+	gap: 2rem clamp(2rem, 4vw, 4rem);
+	margin-top: clamp(3.5rem, 3rem + 3vw, 5.5rem) !important;
+	padding-top: 2.5rem;
+	border-top: 1px solid color-mix(in srgb, var(--ok-on-dark) 22%, transparent);
+}
+
+.ok-foot__base > * { margin: 0 !important; min-width: 0; }
+
+.ok-foot__base > * > * { margin: 0 !important; }
+
+.ok-foot__name { font-family: var(--ok-serif); font-size: 1.375rem; letter-spacing: .04em; }
+
+.ok-foot__line { margin-top: .5rem !important; max-width: 20rem; font-size: .9375rem; color: var(--ok-on-dark-muted); }
+
+.ok-foot .ok-shopinfo { border-top-color: color-mix(in srgb, var(--ok-on-dark) 22%, transparent); }
+
+.ok-foot .ok-shopinfo__row { grid-template-columns: 6rem minmax(0, 1fr); padding: .6rem 0; border-bottom-color: color-mix(in srgb, var(--ok-on-dark) 14%, transparent); }
+
+.ok-foot .ok-shopinfo__key { color: var(--ok-on-dark-muted); }
+
+.ok-foot .ok-shopinfo__value { font-size: .9375rem; }
+
+.ok-foot a { color: var(--ok-on-dark); text-decoration-color: color-mix(in srgb, var(--ok-on-dark) 45%, transparent); }
+
+.ok-foot__links { display: grid; gap: .55rem; font-family: var(--ok-sans); font-size: .875rem; }
+
+.ok-foot__links a { text-decoration: none; }
+
+.ok-foot__links a:hover { text-decoration: underline; }
+
+.ok-foot__copy { margin-top: 2rem !important; font-family: var(--ok-sans); font-size: .75rem; letter-spacing: .06em; color: var(--ok-on-dark-muted); }
+
+.ok-foot :where(a, button, input):focus-visible { outline-color: var(--ok-on-dark); }
+
+@media (max-width: 899px) {
+	.ok-foot__base { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 599px) {
+	.ok-foot .ok-shopinfo__row { grid-template-columns: 1fr; gap: .1rem; }
+}
+
+/* Grids built from flow groups: no stacked block-gap margins on their cells. */
+.ok-rail--static > *, .ok-steps > *, .ok-pair > *, .ok-shopinfo > *, .ok-repair > *, .ok-foot__base > * { margin-block: 0 !important; }
+
+.ok-wordmark, .ok-wordmark a { white-space: nowrap; }
+
+/* The synced shop card already on the page (The workshop, Care & repair, Contact): the footer keeps its links only. */
+body:has(.ok-main .ok-shopinfo) .ok-foot__details { display: none; }
+
+body:has(.ok-main .ok-shopinfo) .ok-foot__base { grid-template-columns: 4fr 3fr; }
+
+@media (max-width: 899px) {
+	body:has(.ok-main .ok-shopinfo) .ok-foot__base { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.ok-rail .wc-block-product-template, .ok-rail.ok-rail--static { scroll-behavior: auto; }
+	.ok-canopy:hover .ok-canopy__photo img, .ok-rail li:hover .wc-block-components-product-image img, .ok-products li:hover .wc-block-components-product-image img { transform: none; }
+}
+
+.ok-rail .wc-block-product-template > li,
+.ok-products .wc-block-product { text-align: center; }
+
+.ok-rail .wc-block-product-template > li > *,
+.ok-products .wc-block-product > * { margin-inline: auto; }
+
+.ok-banner { margin-block: 0 !important; }
+
+.ok-section--steps .ok-banner { margin-top: var(--wp--preset--spacing--50) !important; }
+
+.ok-table table, .ok-table thead, .ok-table tr { border: 0 !important; }
+
+.ok-table th { border: 0 !important; border-bottom: 1px solid var(--ok-ink) !important; }
+
+.ok-table td { border-left: 0 !important; border-right: 0 !important; border-top: 0 !important; }
+
+.ok-products .wc-block-product,
+.ok-products .wc-block-product .wp-block-post-title,
+.ok-products .wc-block-product .ok-canopy__ribs,
+.ok-products .wc-block-product .wc-block-components-product-price { text-align: center !important; justify-content: center; }
+
+.ok-form--inline button { align-self: end; height: calc(3rem + 2px); }
+
+/* The rail runs on past the right edge of the page, so the next canopy always peeks in. */
+.ok-section--rail > .ok-rail {
+	max-width: none !important;
+	margin-left: max(0px, calc((100vw - var(--ok-wide)) / 2 - var(--ok-pad))) !important;
+	margin-right: calc(-1 * var(--ok-pad)) !important;
+}
+
+.ok-section--rail > .ok-rail .wc-block-product-template,
+.ok-section--rail > .ok-rail.ok-rail--static { padding-right: var(--ok-pad) !important; }
+
+/* Room for the canopy ring at the start of the track (the ring sits 10px outside each photo). */
+.ok-rail .wc-block-product-template,
+.ok-rail.ok-rail--static { padding-left: 12px !important; }
+
+.ok-section--rail > .ok-rail { margin-left: calc(max(0px, calc((100vw - var(--ok-wide)) / 2 - var(--ok-pad))) - 12px) !important; }
+
+.ok-rail--grid.ok-rail--static { padding-left: 0 !important; }
+
+.ok-form--inline input,
+.ok-form--inline button { box-sizing: border-box; height: 3.25rem !important; margin: 0; }
+
+/* ==========================================================================
+   12. Omocha Kendama: sumi masthead with the overlay menu, the product-grid hero with cut-outs breaking the grid,
+   the magazine contents, the feature spread, sumi page heads and bands
+   ========================================================================== */
+
+/* ---- Dark scope: every sumi field (header, hero, feature, page heads, bands, footer) shares one set of colours.
+   Bone #EEEAE2 on sumi 14.2:1, ash #B9B3A8 8.2:1, beech #D8B88A 9.0:1, light red #E86A4E 5.4:1. */
+:is(.ok-header, .ok-cover, .ok-feature, .ok-band, .ok-footer, .ok-section--opening, .ok-pagehead) {
+	background: var(--wp--preset--color--sumi);
+	color: var(--ok-on-dark);
+}
+
+:is(.ok-cover, .ok-feature, .ok-band, .ok-section--opening, .ok-pagehead) :is(h1, h2, h3, p, li, .wp-block-query-title, .wp-block-post-title, .ok-page-title) { color: var(--ok-on-dark); }
+
+:is(.ok-cover, .ok-feature, .ok-band, .ok-section--opening, .ok-pagehead) :is(h1, h2, h3) em { font-style: normal; color: var(--wp--preset--color--ember); -webkit-text-stroke: 0; }
+
+:is(.ok-cover, .ok-feature, .ok-band, .ok-section--opening, .ok-pagehead, .ok-footer) .is-style-label { color: var(--wp--preset--color--beech); }
+
+:is(.ok-cover, .ok-feature, .ok-band, .ok-section--opening, .ok-pagehead, .ok-footer) .is-style-label::before { background: var(--wp--preset--color--ember); }
+
+:is(.ok-cover, .ok-feature, .ok-band, .ok-section--opening, .ok-pagehead) :is(.is-style-lead, .ok-quiet) { color: var(--ok-on-dark-muted); }
+
+:is(.ok-cover, .ok-feature, .ok-band, .ok-section--opening, .ok-pagehead) a:not(.wp-block-button__link) { color: var(--ok-on-dark); text-decoration-color: var(--wp--preset--color--beech); }
+
+:is(.ok-cover, .ok-feature, .ok-band, .ok-section--opening, .ok-pagehead, .ok-header) .wp-block-button:not(.is-style-arrow) .wp-block-button__link { background: var(--wp--preset--color--beech) !important; color: var(--wp--preset--color--sumi) !important; }
+
+:is(.ok-cover, .ok-feature, .ok-band, .ok-section--opening, .ok-pagehead, .ok-header) .wp-block-button:not(.is-style-arrow) .wp-block-button__link:hover { background: var(--ok-on-dark) !important; }
+
+:is(.ok-cover, .ok-feature, .ok-band, .ok-section--opening, .ok-pagehead) .wp-block-button.is-style-arrow .wp-block-button__link { color: var(--ok-on-dark); border-bottom-color: var(--wp--preset--color--ember); }
+
+:is(.ok-cover, .ok-feature, .ok-band, .ok-section--opening, .ok-pagehead) :where(a, button, input, summary):focus-visible { outline-color: var(--wp--preset--color--beech); }
+
+.ok-opening { background: transparent; border-bottom: 0; }
+
+.ok-section--opening { padding-block: clamp(3rem, 6vw, 5rem) !important; margin-top: 0 !important; border-bottom: 1px solid #3A3A3A; }
+
+.ok-section--opening + * { margin-top: 0 !important; }
+
+.ok-section--opening .ok-search-form input { background: #2A2A2A; color: var(--ok-on-dark); border-color: #4A4A4A; }
+
+.ok-section--opening .ok-chips a { color: var(--ok-on-dark); border-color: #4A4A4A; }
+
+/* Headings everywhere: Zen Kurenaido has no italic, so emphasis is colour, never slant. */
+:where(h1, h2, h3, h4) em { font-style: normal; color: var(--wp--preset--color--steel); }
+
+.wp-block-heading, .wp-block-post-title, .wp-block-query-title { letter-spacing: 0 !important; }
+
+.is-style-label { font-family: var(--ok-sans); font-weight: 600; font-size: .75rem; letter-spacing: .18em; }
+
+/* ---- Masthead: an issue strip, then the shop name, the CTA, account, cart and the Menu button. The menu itself always
+   opens as a full-screen sumi overlay with large numbered links. */
+.ok-header { position: relative; z-index: 30; border-bottom: 0; }
+
+.ok-header__strip { display: flex; justify-content: space-between; gap: 1rem; padding-block: .55rem; border-bottom: 1px solid #3A3A3A; }
+
+.ok-header__strip > * { margin: 0 !important; font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--ok-on-dark-muted); }
+
+.ok-header__issue { color: var(--wp--preset--color--beech) !important; font-weight: 600; }
+
+.ok-header__bar { min-height: 5.5rem; gap: 1.25rem; }
+
+.ok-brand { margin-right: auto !important; }
+
+.ok-wordmark { font-size: clamp(1.5rem, 1.1rem + 1.2vw, 2.3rem) !important; }
+
+.ok-wordmark a, .ok-header .ok-wordmark a { color: var(--ok-on-dark); }
+
+.ok-brand__tag { color: var(--ok-on-dark-muted); border-left-color: #4A4A4A; letter-spacing: .14em; text-transform: uppercase; font-size: .6875rem; }
+
+.ok-header__cta { order: 1; }
+
+.ok-header__bar .wp-block-woocommerce-customer-account { order: 2; }
+
+.ok-header__bar .wp-block-woocommerce-mini-cart { order: 3; }
+
+nav.ok-nav { flex: 0 0 auto; order: 4; }
+
+.ok-header__bar .wc-block-mini-cart__button,
+.ok-header__bar .wp-block-woocommerce-customer-account a { color: var(--ok-on-dark); }
+
+.ok-header__bar .wc-block-mini-cart__badge { background: var(--wp--preset--color--ember); color: var(--wp--preset--color--sumi); border-color: var(--wp--preset--color--sumi); }
+
+.ok-header__cta .wp-block-button__link { border-radius: 0 !important; padding: .75rem 1.3rem; }
+
+nav.ok-nav .wp-block-navigation__responsive-container-open {
+	display: inline-flex !important;
+	align-items: center;
+	gap: .5rem;
+	padding: .55rem .9rem;
+	border: 1px solid #5A5A5A;
+	color: var(--ok-on-dark);
+	font-family: var(--ok-sans);
+	font-size: .8125rem;
+	letter-spacing: .14em;
+	text-transform: uppercase;
+}
+
+nav.ok-nav .wp-block-navigation__responsive-container-open::after { content: "Menu"; }
+
+nav.ok-nav .wp-block-navigation__responsive-container-open:hover { border-color: var(--wp--preset--color--beech); color: var(--wp--preset--color--beech); }
+
+.ok-header .ok-nav.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--wp--preset--color--sumi); color: var(--ok-on-dark); }
+
+nav.ok-nav .wp-block-navigation__responsive-container.is-menu-open { padding: clamp(1.25rem, 4vw, 3rem); }
+
+nav.ok-nav .wp-block-navigation__responsive-container-close { color: var(--ok-on-dark); top: clamp(1.25rem, 3vw, 2.25rem); right: clamp(1.25rem, 4vw, 3rem); }
+
+nav.ok-nav .wp-block-navigation__responsive-container-close svg { width: 2rem; height: 2rem; }
+
+nav.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content { padding-top: clamp(4rem, 10vh, 7rem); max-width: var(--ok-wide); margin-inline: auto; align-items: stretch; }
+
+nav.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { counter-reset: okmenu; gap: 0; width: 100%; align-items: stretch; }
+
+nav.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item { counter-increment: okmenu; border-bottom: 1px solid #3A3A3A; width: 100%; }
+
+nav.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content {
+	display: flex !important;
+	align-items: baseline;
+	gap: 1.25rem;
+	width: 100%;
+	padding: clamp(.75rem, 1.6vh, 1.25rem) 0 !important;
+	font-family: var(--ok-serif);
+	font-size: clamp(1.9rem, 1.2rem + 3.2vw, 4rem) !important;
+	line-height: 1.1;
+	color: var(--ok-on-dark);
+}
+
+nav.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content::before {
+	content: counter(okmenu, decimal-leading-zero);
+	font-family: var(--ok-sans);
+	font-size: .875rem;
+	letter-spacing: .1em;
+	color: var(--wp--preset--color--ember);
+	min-width: 2rem;
+}
+
+nav.ok-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content:hover { color: var(--wp--preset--color--beech); text-decoration: none; }
+
+@media (max-width: 899px) {
+	.ok-header__bar { min-height: 4.5rem; gap: .6rem; }
+	.ok-header__note { display: none; }
+	.ok-header__cta { order: 1; }
+	nav.ok-nav { order: 4; }
+}
+
+@media (max-width: 599px) {
+	.ok-header__cta { display: none; }
+	nav.ok-nav .wp-block-navigation__responsive-container-open { padding: .5rem .7rem; }
+	.ok-wordmark { font-size: 1.35rem !important; }
+}
+
+/* ---- Product-grid hero: a hairline grid of toy photographs on sumi. The large cell carries the issue headline; the
+   cut-out kendama swings out of that cell across the grid lines into the photographs (break-frame), and the cut-out
+   top spins up out of the last strip into the cell above. */
+.ok-cover { position: relative; z-index: 2; padding-block: clamp(1.5rem, 3vw, 2.5rem) clamp(3rem, 6vw, 5rem) !important; margin-top: 0 !important; overflow: clip; }
+
+.ok-grid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 1px;
+	background: #3A3A3A;
+	border: 1px solid #3A3A3A;
+}
+
+.ok-grid > * { margin: 0 !important; background: var(--wp--preset--color--sumi); min-width: 0; }
+
+.ok-grid__lead { position: relative; z-index: 3; grid-column: 1 / span 2; grid-row: 1 / span 2; padding: clamp(1.5rem, 3vw, 2.75rem); display: flex; flex-direction: column; justify-content: flex-end; gap: 1.25rem; min-height: clamp(26rem, 44vw, 40rem); }
+
+.ok-grid__lead > * { margin: 0 !important; position: relative; z-index: 2; max-width: 30rem; }
+
+.ok-cover__title { font-family: var(--ok-serif); font-size: clamp(2.6rem, 1.4rem + 4.4vw, 5.4rem) !important; line-height: 1.02 !important; max-width: 9.5em !important; }
+
+.ok-cover .is-style-lead { max-width: 26rem; font-size: 1rem; }
+
+.ok-cover__cta { gap: 1.25rem; align-items: center; }
+
+.ok-cover__kendama { position: absolute !important; z-index: 4 !important; top: -5rem; right: -30%; width: 50%; max-width: none !important; pointer-events: none; transform: rotate(14deg); }
+
+.ok-cover__kendama img { width: 100%; filter: drop-shadow(18px 26px 22px rgba(0, 0, 0, .55)); }
+
+.ok-grid__cell { position: relative; display: flex; flex-direction: column; }
+
+.ok-grid__cell > * { margin: 0 !important; }
+
+.ok-grid__photo { flex: 1 1 auto; overflow: hidden; }
+
+.ok-grid__photo a { display: block; height: 100%; }
+
+.ok-grid__photo img { width: 100%; height: 100%; aspect-ratio: 1; object-fit: cover; filter: saturate(.85) contrast(1.04); transition: transform .6s var(--ok-ease); }
+
+.ok-grid__photo a:hover img { transform: scale(1.03); }
+
+.ok-grid__cap { display: flex; align-items: baseline; gap: .6rem; padding: .7rem .9rem .8rem; font-size: .8125rem; letter-spacing: .04em; color: var(--ok-on-dark) !important; }
+
+.ok-grid__no { color: var(--wp--preset--color--ember); font-weight: 600; }
+
+.ok-grid__price { margin-left: auto; color: var(--wp--preset--color--beech); font-variant-numeric: tabular-nums; }
+
+.ok-grid__cell--5 .ok-grid__photo img { aspect-ratio: 4 / 3; }
+
+.ok-grid__cell--spin { grid-column: span 3; position: relative; display: flex; flex-direction: row; align-items: center; padding: clamp(1.25rem, 3vw, 2.5rem); min-height: 12rem; }
+
+.ok-grid__spin-text { position: relative; z-index: 2; max-width: 22rem; font-family: var(--ok-serif); font-size: clamp(1.4rem, 1rem + 1.3vw, 2.2rem); line-height: 1.25; color: var(--ok-on-dark) !important; }
+
+.ok-cover__koma { position: absolute !important; z-index: 4 !important; right: 8%; bottom: 18%; width: clamp(11rem, 20vw, 17rem); max-width: none !important; pointer-events: none; transform: rotate(-9deg); }
+
+.ok-cover__koma img { width: 100%; filter: drop-shadow(12px 20px 16px rgba(0, 0, 0, .55)); }
+
+@media (max-width: 1023px) {
+	.ok-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.ok-grid__lead { grid-column: 1 / -1; grid-row: auto; min-height: 0; padding-bottom: clamp(9rem, 26vw, 13rem); }
+	.ok-grid__lead > * { max-width: 34rem; }
+	.ok-cover__kendama { top: auto; bottom: -5.5rem; right: -4%; width: min(60%, 26rem); }
+	.ok-grid__cell--5 { grid-column: 1 / -1; }
+	.ok-grid__cell--5 .ok-grid__photo img { aspect-ratio: 2 / 1; }
+	.ok-grid__cell--spin { grid-column: 1 / -1; min-height: 11rem; }
+	.ok-cover__koma { width: clamp(8rem, 30vw, 12rem); right: 4%; bottom: 30%; }
+}
+
+@media (max-width: 599px) {
+	.ok-grid__cap { flex-wrap: wrap; gap: .2rem .5rem; font-size: .75rem; padding: .55rem .6rem .65rem; }
+	.ok-grid__price { margin-left: 0; width: 100%; }
+	.ok-grid__spin-text { max-width: 58%; font-size: 1.25rem; }
+	.ok-cover__kendama { bottom: -4.5rem; width: 62%; }
+}
+
+/* ---- In this issue: magazine contents on paper. */
+.ok-issue { background: var(--ok-mist); padding-block: clamp(5rem, 9vw, 8rem) clamp(3.5rem, 7vw, 6rem) !important; margin-top: 0 !important; }
+
+.ok-issue__inner { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+
+.ok-issue__inner > * { margin: 0 !important; }
+
+.ok-issue__head > * + * { margin-top: 1.1rem !important; }
+
+.ok-issue__head h2 { font-family: var(--ok-serif); font-size: clamp(2rem, 1.3rem + 2.4vw, 3.4rem) !important; line-height: 1.08 !important; }
+
+.ok-toc { border-top: 2px solid var(--ok-ink); }
+
+.ok-toc__item { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr) auto; gap: 1.25rem; align-items: baseline; padding-block: 1.3rem; border-bottom: 1px solid var(--ok-line-strong); margin: 0 !important; }
+
+.ok-toc__item > * { margin: 0 !important; }
+
+.ok-toc__num { font-family: var(--ok-serif); font-size: 2.6rem; line-height: 1; color: var(--wp--preset--color--steel); }
+
+.ok-toc__kicker { font-size: .75rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--wp--preset--color--steel-deep); margin: 0 0 .35rem !important; }
+
+.ok-toc__title { font-family: var(--ok-serif); font-size: clamp(1.35rem, 1.1rem + .9vw, 1.9rem) !important; line-height: 1.2 !important; margin: 0 !important; }
+
+.ok-toc__title a { color: var(--ok-ink); text-decoration: none; background: linear-gradient(var(--wp--preset--color--steel), var(--wp--preset--color--steel)) 0 100% / 0 2px no-repeat; transition: background-size .3s var(--ok-ease); }
+
+.ok-toc__title a:hover { background-size: 100% 2px; }
+
+.ok-toc__page { font-size: .8125rem; letter-spacing: .08em; color: var(--wp--preset--color--quiet); font-variant-numeric: tabular-nums; }
+
+@media (max-width: 781px) {
+	.ok-issue__inner { grid-template-columns: 1fr; }
+	.ok-toc__item { grid-template-columns: 3rem minmax(0, 1fr); }
+	.ok-toc__num { font-size: 2rem; }
+	.ok-toc__page { grid-column: 2; }
+}
+
+/* ---- Feature spread: film photograph left, two-column story right, drop cap and pull quote. */
+.ok-feature { padding-block: clamp(4rem, 8vw, 7rem) !important; margin-top: 0 !important; }
+
+.ok-feature__inner { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: start; }
+
+.ok-feature__inner > * { margin: 0 !important; }
+
+.ok-feature__img img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+
+.ok-feature__cap { margin-top: .8rem !important; font-size: .8125rem; color: var(--ok-on-dark-muted) !important; letter-spacing: .02em; }
+
+.ok-feature__story > * + * { margin-top: 1.4rem !important; }
+
+.ok-feature__title { font-family: var(--ok-serif); font-size: clamp(2.1rem, 1.3rem + 2.8vw, 3.8rem) !important; line-height: 1.05 !important; }
+
+.ok-columns { columns: 2 15rem; column-gap: 2.25rem; column-rule: 1px solid #3A3A3A; }
+
+.ok-columns > p { margin: 0 0 1.1rem !important; font-size: 1rem; line-height: 1.8; break-inside: avoid-column; }
+
+.ok-dropcap::first-letter { float: left; font-family: var(--ok-serif); font-size: 3.6em; line-height: .85; padding: .25rem .55rem 0 0; color: var(--wp--preset--color--beech); }
+
+.ok-pullquote { font-family: var(--ok-serif); font-size: clamp(1.6rem, 1.1rem + 1.6vw, 2.5rem) !important; line-height: 1.2; color: var(--wp--preset--color--beech) !important; padding-top: 1.25rem; border-top: 3px solid var(--wp--preset--color--ember); max-width: 22em; }
+
+@media (max-width: 899px) {
+	.ok-feature__inner { grid-template-columns: 1fr; }
+	.ok-feature__img img { aspect-ratio: 3 / 2; }
+}
+
+/* ---- The toy shelf on paper: white cards with a hairline, photographs square. */
+.ok-section--rail { background: var(--ok-mist); padding-block: clamp(3.5rem, 7vw, 6rem) !important; margin-top: 0 !important; }
+
+.ok-section--rail .ok-head h2 { font-family: var(--ok-serif); font-size: clamp(2rem, 1.3rem + 2.4vw, 3.4rem) !important; }
+
+.ok-rail--grid:not(.wp-block-woocommerce-product-collection), .ok-rail--grid ul.wc-block-product-template { display: grid !important; width: 100% !important; padding: 0 !important; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2rem 1.5rem; overflow: visible !important; scroll-snap-type: none !important; margin: 0 !important; max-width: 100% !important; }
+
+.ok-rail--grid.wp-block-woocommerce-product-collection { display: block !important; overflow: visible !important; }
+
+.ok-section.ok-section--rail > .ok-rail.ok-rail--grid { width: 100% !important; max-width: var(--ok-wide) !important; margin-left: auto !important; margin-right: auto !important; }
+
+.ok-rail--grid .ok-canopy, .ok-rail--grid li.wc-block-product { width: auto !important; max-width: none !important; background: var(--ok-paper); padding: 0 0 1.1rem; border: 1px solid var(--wp--preset--color--hair); }
+
+.ok-rail--grid .ok-canopy > *:not(.ok-canopy__photo), .ok-rail--grid li.wc-block-product > *:not(.wc-block-components-product-image) { padding-inline: 1rem; }
+
+.ok-rail--grid .ok-canopy__photo, .ok-rail--grid .wc-block-components-product-image { width: 100% !important; height: auto !important; margin: 0 !important; border-radius: 0 !important; overflow: hidden; background: var(--wp--preset--color--sumi) !important; padding: 0 !important; border: 0 !important; aspect-ratio: auto !important; }
+
+.ok-rail--grid .ok-canopy__photo img, .ok-rail--grid .wc-block-components-product-image img { width: 100% !important; height: auto !important; aspect-ratio: 1 !important; object-fit: cover; border: 0 !important; border-radius: 0 !important; }
+
+.ok-rail--grid .ok-canopy__name, .ok-rail--grid .wp-block-post-title { font-family: var(--ok-serif); font-size: 1.3rem !important; margin: 1rem 0 .25rem !important; text-align: left !important; }
+
+.ok-rail--grid .ok-canopy__ribs { font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: var(--wp--preset--color--quiet); text-align: left !important; }
+
+.ok-rail--grid .ok-canopy__price, .ok-rail--grid .wc-block-components-product-price { text-align: left !important; color: var(--wp--preset--color--steel-deep); font-weight: 600; }
+
+@media (max-width: 1023px) { .ok-rail--grid:not(.wp-block-woocommerce-product-collection), .ok-rail--grid ul.wc-block-product-template { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+@media (max-width: 479px) { .ok-rail--grid:not(.wp-block-woocommerce-product-collection), .ok-rail--grid ul.wc-block-product-template { gap: 1.25rem .75rem; } .ok-rail--grid .ok-canopy__name, .ok-rail--grid .wp-block-post-title { font-size: 1.1rem !important; } }
+
+.ok-section--shop { padding-top: clamp(2rem, 4vw, 3rem) !important; }
+
+/* ---- Workshop page: sumi page head, the long read on paper, plates with an offset sumi block, the sumi band. */
+.ok-pagehead { padding-block: clamp(3.5rem, 7vw, 6rem) !important; margin-top: 0 !important; border-bottom: 1px solid #3A3A3A; }
+
+.ok-pagehead__inner > * + * { margin-top: 1.25rem !important; }
+
+.ok-pagehead h1 { font-family: var(--ok-serif); font-size: clamp(2.6rem, 1.4rem + 4vw, 5rem) !important; line-height: 1.04 !important; }
+
+.ok-pagehead .is-style-lead { max-width: 40rem; }
+
+.ok-longform { padding-block: clamp(4rem, 8vw, 7rem) !important; margin-top: 0 !important; }
+
+.ok-longform > * + * { margin-top: clamp(2.5rem, 5vw, 4rem) !important; }
+
+.ok-chapter > * + * { margin-top: 1.1rem !important; }
+
+.ok-chapter__label { font-size: .75rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--wp--preset--color--steel-deep); display: flex; align-items: center; gap: .75rem; }
+
+.ok-chapter__no { display: inline-grid; place-items: center; width: 2.4rem; height: 2.4rem; background: var(--wp--preset--color--sumi); color: var(--ok-on-dark); font-family: var(--ok-serif); letter-spacing: 0; font-size: 1rem; }
+
+.ok-chapter__title { font-family: var(--ok-serif); font-size: clamp(1.8rem, 1.2rem + 2vw, 2.7rem) !important; line-height: 1.15 !important; }
+
+.ok-chapter p:not(.ok-chapter__label) { font-size: 1.0625rem; line-height: 1.9; }
+
+.ok-chapter > p:nth-of-type(2)::first-letter { float: left; font-family: var(--ok-serif); font-size: 3.4em; line-height: .9; padding: .2rem .6rem 0 0; color: var(--wp--preset--color--steel); }
+
+.ok-plate { position: relative; }
+
+.ok-plate::before { content: ""; position: absolute; inset: 1.5rem -1.5rem 2.5rem 1.5rem; background: var(--wp--preset--color--sumi); z-index: 0; }
+
+.ok-plate > * { position: relative; z-index: 1; }
+
+.ok-plate__img img { width: 100%; aspect-ratio: 16 / 8; object-fit: cover; }
+
+.ok-plate__cap { margin-top: .75rem !important; font-size: .8125rem; color: var(--wp--preset--color--quiet); max-width: 36rem; }
+
+@media (max-width: 781px) { .ok-plate::before { inset: .75rem -.5rem 2.75rem .75rem; } }
+
+.ok-band { padding-block: clamp(3.5rem, 7vw, 5.5rem) !important; margin-top: 0 !important; border-top: 1px solid #3A3A3A; }
+
+.ok-band__inner > * + * { margin-top: 1.25rem !important; }
+
+.ok-band h2 { font-family: var(--ok-serif); font-size: clamp(2rem, 1.3rem + 2.4vw, 3.4rem) !important; }
+
+.ok-band .is-style-ruled li { border-color: #3A3A3A !important; }
+
+.ok-band .is-style-ruled li::marker, .ok-band .is-style-ruled li::before { color: var(--wp--preset--color--ember); }
+
+/* ---- Synced wood-and-care notes. */
+.ok-terms > * { margin: 0 !important; padding: .6rem 0; border-bottom: 1px solid var(--ok-line); font-size: .9375rem; }
+
+/* ---- Footer: the colophon on sumi. */
+.ok-footer { border-top: 4px solid var(--wp--preset--color--beech); padding-block: clamp(3.5rem, 6vw, 5rem) 1.5rem !important; margin-top: 0 !important; }
+
+.ok-footer__grid { display: grid; grid-template-columns: 1.3fr 1.4fr .9fr; gap: 2.5rem; }
+
+.ok-footer__grid > * { margin: 0 !important; }
+
+.ok-footer__mark { font-family: var(--ok-serif); font-size: clamp(2rem, 1.5rem + 1.6vw, 2.8rem); line-height: 1.05; color: var(--ok-on-dark); }
+
+.ok-footer__sub, .ok-footer .ok-shopinfo__value, .ok-footer .ok-shopinfo__key { color: var(--ok-on-dark-muted); font-size: .9375rem; }
+
+.ok-footer .ok-shopinfo__key { color: var(--wp--preset--color--beech); }
+
+.ok-footer a { color: var(--ok-on-dark); text-decoration-color: var(--wp--preset--color--beech); }
+
+.ok-footer__links { display: flex; flex-direction: column; gap: .55rem; font-family: var(--ok-serif); font-size: 1.15rem; }
+
+.ok-footer__links a { text-decoration: none; }
+
+.ok-footer__links a:hover { color: var(--wp--preset--color--beech); }
+
+.ok-footer__base { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; margin-top: 3rem !important; padding-top: 1.25rem; border-top: 1px solid #3A3A3A; }
+
+.ok-footer__base > * { margin: 0 !important; }
+
+.ok-footer__legal { font-size: .8125rem; color: var(--ok-on-dark-muted); }
+
+@media (max-width: 781px) { .ok-footer__grid { grid-template-columns: 1fr; } }
+
+/* ---- Journal cards and the letter on paper keep sumi text; the posts page head is a sumi field like every page head. */
+.ok-section--journal { background: var(--ok-paper); padding-block: clamp(3.5rem, 7vw, 6rem) !important; margin-top: 0 !important; border-top: 1px solid var(--wp--preset--color--hair); }
+
+.ok-section--journal .ok-head h2, .ok-section--cta h2 { font-family: var(--ok-serif); }
+
+.ok-posts .wp-block-post-featured-image img { filter: saturate(.85); }
+
+.ok-404__photo { max-width: 28rem; margin-inline: auto !important; }
+
+.ok-404__photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+
+/* Toy photographs are square film frames, not round canopies: no rib lines, no rings, no tilt on hover. */
+.ok-canopy__photo, .ok-products .wc-block-components-product-image, .ok-rail .wc-block-components-product-image { border-radius: 0 !important; box-shadow: none !important; background: var(--wp--preset--color--sumi) !important; }
+
+.ok-canopy__photo::after, .ok-products .wc-block-components-product-image::after, .ok-rail .wc-block-components-product-image::after { content: none !important; }
+
+.ok-canopy__photo img, .ok-products .wc-block-components-product-image img, .ok-rail .wc-block-components-product-image img { border-radius: 0 !important; }
+
+.ok-canopy:hover .ok-canopy__photo img, .ok-rail li:hover .wc-block-components-product-image img, .ok-products li:hover .wc-block-components-product-image img { transform: scale(1.03); }
+
+.ok-rail--grid .ok-canopy, .ok-rail--grid li.wc-block-product { text-align: left !important; }
+
+.ok-header__cta .wp-block-button__link { white-space: nowrap; }
+
+@media (max-width: 599px) { .ok-header__bar .ok-header__cta.wp-block-buttons { display: none !important; } }
