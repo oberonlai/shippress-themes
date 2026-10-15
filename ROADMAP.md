@@ -184,30 +184,36 @@ From batch 3 #4 on, the hero and the decorative pieces of every theme are illust
 | 9 | Tsuba Millinery | layered paper-cut (stacked cut-paper planes with small drop shadows) |
 | 10 | Kumotori Hut | 2.5D isometric (30° isometric scene, flat-shaded faces) |
 
-## 3d. Design allocation plan (2026-10-15, replaces batch 3 #11–#20)
+## 3d. Design allocation plan (2026-10-15, replaces batch 3 #11–#20; 20 rows = one batch)
 
-Batch 3 rows #11–#20 above were dropped: they were planned under the old rules and repeated look-alike layouts and muted palettes. The next 16 themes are allocated here. The machine-readable source is `design-plan.json`; `node scripts/check-design-plan.mjs` must pass before any change to it is merged.
+Batch 3 rows #11–#20 above were dropped: they were planned under the old rules and repeated look-alike layouts and muted palettes. The next 20 themes (one batch) are allocated here. The machine-readable source is `design-plan.json`; `node scripts/check-design-plan.mjs` must pass before any change to it is merged.
 
 Rules checked by the script, counting the last shipped themes in `history` (Kinari Soba → Kumotori Hut, including the Yoru/Asagao/Tsuba 1.1.0 redesigns and the Kumotori 1.0.1 header): adjacent rows differ on every dimension; archetype not repeated within 5, hero and illustration within 3, Japanese traditional palette family within 3, no font family within 5; every value is used evenly (spread ≤ 1). Every theme has a real global top header (title/logo, primary nav, CTA); the nav column only describes how the primary nav is arranged on top of it. `cutout-break-frame` means transparent-background WebP objects that overlap frames, text or colour fields (破格). The main colour covers large areas (hero or whole bands), with contrast-checked accents.
 
-| # | Name / slug | Industry | Category | Archetype | Hero | Nav | Image | Illustration | Main colour | Fonts | Status |
+Image treatments (exactly 4 each across the 20 rows): `full-illustration`, `cutout-break-frame`, `collage`, `pattern-texture`, `real-photography` (replaces the old `photo-like`). `real-photography` means photorealistic photography-style images generated with Grok Build (`scripts/grok-image.sh`), never fetched from stock sites; prompts name lens, lighting and grain, and images are colour-graded toward the main colour. On real-photography rows the illustration column is a photo direction (`film-grain`, `high-key`, `low-key`, `documentary`), each used once; illustration styles are balanced over the illustrated rows only. Each of the 10 categories gets exactly 2 rows; archetypes and heroes 2 each, nav 4 each.
+
+| # | Name / slug | Industry | Category | Archetype | Hero | Nav | Image | Illustration / photo direction | Main colour | Fonts | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | Shimakaze Minshuku / shimakaze-minshuku | island guesthouse | travel-stays | split-screen | product-grid-hero | split | cutout-break-frame | woodblock | 紅梅 #E16B8C (pink) | Dela Gothic One + M PLUS 1p | todo |
 | 2 | Hōchō Kyōshitsu / hocho-kyoshitsu | washoku cooking school | education-classes | card-mosaic | cutout-break-frame-object | top-bar | collage | pencil-sketch | 群青 #4C6CB3 (blue) | Yuji Syuku + Albert Sans | todo |
 | 3 | Yose Rakugo / yose-rakugo | rakugo theatre | events-community | poster-typographic | vertical-banner | centered | cutout-break-frame | risograph | 金茶 #C47222 (vermilion) | Shippori Antique B1 + Inter Tight | todo |
 | 4 | Aoi Hanga / aoi-hanga | woodblock print studio | arts-media | single-column-longform | text-left-art-right | top-bar | full-illustration | sumi-ink | 萌黄 #A9C08B (green) | Mochiy Pop One + Kosugi Maru | todo |
-| 5 | Omocha Kendama / omocha-kendama | wooden toy shop | shops-hobbies | editorial-magazine | product-grid-hero | overlay | photo-like | woodblock | 墨 #1C1C1C (sumi) | Zen Kurenaido + Work Sans | todo |
+| 5 | Omocha Kendama / omocha-kendama | wooden toy shop | shops-hobbies | editorial-magazine | product-grid-hero | overlay | real-photography | film-grain | 墨 #1C1C1C (sumi) | Zen Kurenaido + Work Sans | todo |
 | 6 | Hari Kampo / hari-kampo | kampo pharmacy | health-wellness | asymmetric-masonry | stacked-collage | centered | pattern-texture | pencil-sketch | 鶸 #D7CF3A (yellow) | RocknRoll One + IBM Plex Sans JP | todo |
 | 7 | Jika Tabi / jika-tabi | tabi footwear | fashion-beauty | sticky-media | centered-giant-type | overlay | full-illustration | paper-cut | 鉄紺 #17184B (blue) | New Tegomin + Lexend | todo |
 | 8 | Katsuji Press / katsuji-press | letterpress print shop | business-services | horizontal-strip | cutout-break-frame-object | split | collage | sumi-ink | 浅葱 #00A3AF (cyan) | Potta One + Noto Sans JP | todo |
-| 9 | Akachōchin / akachochin-izakaya | izakaya | food-drink | card-mosaic | vertical-banner | overlay | full-illustration | 3d-clay | 朱 #EB6101 (vermilion) | Reggae One + Sawarabi Gothic | todo |
+| 9 | Akachōchin / akachochin-izakaya | izakaya | food-drink | card-mosaic | vertical-banner | overlay | real-photography | documentary | 朱 #EB6101 (vermilion) | Reggae One + Sawarabi Gothic | todo |
 | 10 | Kokeshi Kobo / kokeshi-kobo | kokeshi doll maker | crafts-homeware | single-column-longform | text-left-art-right | centered | pattern-texture | 2.5d-isometric | 抹茶 #C5C56A (green) | Stick + Murecho | todo |
 | 11 | Hoshizora Camp / hoshizora-camp | glamping site | travel-stays | sidebar-app | scene-map | split | full-illustration | watercolour | 躑躅 #E95295 (pink) | Klee One + Gothic A1 | todo |
-| 12 | Taiko Juku / taiko-juku | taiko drumming school | education-classes | tategaki-vertical-scroll | framed-window | side-rail | photo-like | paper-cut | 江戸紫 #745399 (purple) | Yusei Magic + Karla | todo |
+| 12 | Taiko Juku / taiko-juku | taiko drumming school | education-classes | tategaki-vertical-scroll | framed-window | side-rail | real-photography | low-key | 江戸紫 #745399 (purple) | Yusei Magic + Karla | todo |
 | 13 | Ichiba Monozukuri / ichiba-monozukuri | monthly craft market | events-community | editorial-magazine | stacked-collage | top-bar | cutout-break-frame | risograph | 藍 #165E83 (blue) | Train One + Hanken Grotesk | todo |
 | 14 | Koma Manga / koma-manga | manga artist portfolio | arts-media | poster-typographic | centered-giant-type | side-rail | collage | 3d-clay | 若竹 #68BE8D (green) | Zen Old Mincho + Golos Text | todo |
-| 15 | Tsuribito Tackle / tsuribito-tackle | fishing tackle shop | shops-hobbies | horizontal-strip | full-bleed-illustration | overlay | photo-like | watercolour | 紅 #C9171E (red) | Kiwi Maru + Onest | todo |
+| 15 | Tsuribito Tackle / tsuribito-tackle | fishing tackle shop | shops-hobbies | horizontal-strip | full-bleed-illustration | overlay | real-photography | high-key | 紅 #C9171E (red) | Kiwi Maru + Onest | todo |
 | 16 | Shinayaka Pilates / shinayaka-pilates | pilates studio | health-wellness | asymmetric-masonry | diagonal-split | side-rail | pattern-texture | 2d-flat | 山吹 #F8B500 (yellow) | Yomogi + DM Sans | todo |
+| 17 | Kanmi Dokoro / kanmi-dokoro | wagashi tea house | food-drink | split-screen | framed-window | top-bar | full-illustration | watercolour | 桔梗 #5654A2 (purple) | Hina Mincho + Outfit | todo |
+| 18 | Urushi Nuri / urushi-nuri | urushi lacquerware workshop | crafts-homeware | sidebar-app | scene-map | side-rail | cutout-break-frame | 2.5d-isometric | 青碧 #478384 (cyan) | Zen Maru Gothic + Manrope | todo |
+| 19 | Hanayui Kimono / hanayui-kimono | kimono rental & dressing | fashion-beauty | tategaki-vertical-scroll | full-bleed-illustration | centered | collage | woodblock | 臙脂 #B94047 (red) | Shippori Mincho + Figtree | todo |
+| 20 | Soroban Kaikei / soroban-kaikei | small-business tax accountant | business-services | sticky-media | diagonal-split | split | pattern-texture | 2d-flat | 消炭 #524748 (sumi) | Zen Kaku Gothic New + Plus Jakarta Sans | todo |
 
 New fine industries must be added to `industry-groups.json` under the listed category when the theme ships.
 
