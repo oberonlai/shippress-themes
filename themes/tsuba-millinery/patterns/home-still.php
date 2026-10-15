@@ -10,7 +10,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"tm-still","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tm-still"><!-- wp:image {"sizeSlug":"large","className":"tm-still__picture"} -->
-<figure class="wp-block-image size-large tm-still__picture"><img src="{{theme}}/assets/images/blocks.webp" alt="Etching of four wooden hat blocks on a shelf with indigo felt and a vermilion ribbon"/></figure>
+<figure class="wp-block-image size-large tm-still__picture"><img src="{{theme}}/assets/images/blocks.webp" alt="Etching of four wooden hat blocks on a shelf with indigo felt and a plum-pink ribbon"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"align":"wide","className":"tm-still__line","layout":{"type":"default"}} -->

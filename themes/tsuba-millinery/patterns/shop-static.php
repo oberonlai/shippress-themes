@@ -47,7 +47,7 @@
 <!-- wp:group {"className":"tm-shelf tm-box tm-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group tm-shelf tm-box tm-stagger"><!-- wp:group {"className":"tm-cell tm-box__cell is-cloche is-felt","layout":{"type":"default"}} -->
 <div class="wp-block-group tm-cell tm-box__cell is-cloche is-felt"><!-- wp:image {"sizeSlug":"large","linkDestination":"custom","className":"tm-cell__picture"} -->
-<figure class="wp-block-image size-large tm-cell__picture"><a href="/made-to-order/"><img src="{{theme}}/assets/images/p01-hana-cloche.webp" alt="Etching of an indigo felt cloche with a small vermilion bow"/></a></figure>
+<figure class="wp-block-image size-large tm-cell__picture"><a href="/made-to-order/"><img src="{{theme}}/assets/images/p01-hana-cloche.webp" alt="Etching of an indigo felt cloche with a small plum-pink bow"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tm-cell__cat"} -->
@@ -113,7 +113,7 @@
 
 <!-- wp:group {"className":"tm-cell tm-box__cell is-wide-brim is-felt","layout":{"type":"default"}} -->
 <div class="wp-block-group tm-cell tm-box__cell is-wide-brim is-felt"><!-- wp:image {"sizeSlug":"large","linkDestination":"custom","className":"tm-cell__picture"} -->
-<figure class="wp-block-image size-large tm-cell__picture"><a href="/made-to-order/"><img src="{{theme}}/assets/images/p04-kaze-wide-brim.webp" alt="Etching of a charcoal wide-brim felt hat with a thin vermilion band"/></a></figure>
+<figure class="wp-block-image size-large tm-cell__picture"><a href="/made-to-order/"><img src="{{theme}}/assets/images/p04-kaze-wide-brim.webp" alt="Etching of a charcoal wide-brim felt hat with a thin plum-pink band"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tm-cell__cat"} -->
@@ -135,7 +135,7 @@
 
 <!-- wp:group {"className":"tm-cell tm-box__cell is-cloche is-felt","layout":{"type":"default"}} -->
 <div class="wp-block-group tm-cell tm-box__cell is-cloche is-felt"><!-- wp:image {"sizeSlug":"large","linkDestination":"custom","className":"tm-cell__picture"} -->
-<figure class="wp-block-image size-large tm-cell__picture"><a href="/made-to-order/"><img src="{{theme}}/assets/images/p05-fuyu-beret.webp" alt="Etching of a vermilion wool felt beret"/></a></figure>
+<figure class="wp-block-image size-large tm-cell__picture"><a href="/made-to-order/"><img src="{{theme}}/assets/images/p05-fuyu-beret.webp" alt="Etching of a plum-pink wool felt beret"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tm-cell__cat"} -->
@@ -201,7 +201,7 @@
 
 <!-- wp:group {"className":"tm-cell tm-box__cell is-cloche is-felt","layout":{"type":"default"}} -->
 <div class="wp-block-group tm-cell tm-box__cell is-cloche is-felt"><!-- wp:image {"sizeSlug":"large","linkDestination":"custom","className":"tm-cell__picture"} -->
-<figure class="wp-block-image size-large tm-cell__picture"><a href="/made-to-order/"><img src="{{theme}}/assets/images/p08-tsubomi-pillbox.webp" alt="Etching of a small vermilion felt pillbox hat"/></a></figure>
+<figure class="wp-block-image size-large tm-cell__picture"><a href="/made-to-order/"><img src="{{theme}}/assets/images/p08-tsubomi-pillbox.webp" alt="Etching of a small plum-pink felt pillbox hat"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tm-cell__cat"} -->

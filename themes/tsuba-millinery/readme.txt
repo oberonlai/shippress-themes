@@ -3,8 +3,8 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Version: 1.1.0
-Stable tag: 1.1.0
+Version: 1.1.1
+Stable tag: 1.1.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Tags: block-patterns, full-site-editing, e-commerce, blog, purple, blue, light, 
 
 == Description ==
 
-A bold, Japanese-minimal store theme for a small milliner's atelier: washi pages with a faint fibre texture, large fields of edo-murasaki purple, ai indigo and matcha, a shu vermilion seal and sumi ink, Kaisei Opti with M PLUS 2, vertical titles and a vertical menu read from the right, hand-tinted copperplate etchings, a filter-first hat catalogue (shape, material, head size), a sizing guide, Fit & sizing and Made to order pages, and WooCommerce shop, product, cart, checkout and account templates styled to match.
+A bold, Japanese-minimal store theme for a small milliner's atelier: washi pages with a faint fibre texture, large fields of edo-murasaki purple, ai indigo and matcha, a koubai plum-blossom accent and sumi ink, Kaisei Opti with M PLUS 2, a formal top header with a horizontal numbered menu, an asymmetric 12-column home read left to right, hand-tinted copperplate etchings, a filter-first hat catalogue (shape, material, head size), a sizing guide, Fit & sizing and Made to order pages, and WooCommerce shop, product, cart, checkout and account templates styled to match.
 
 The demo atelier is fictional: Tsuba Millinery, a small hat atelier at 2-11 Kasane-chō, Hoshikawa City, run by milliner Rin Tsubaki. All people, places and products are made up.
 
@@ -60,7 +60,7 @@ No Reserved Font Name; the variable font subset to Latin (WOFF2) from https://gi
 
 = Images =
 
-Images: AI-generated for this theme with Grok Build image_gen, fine-line copperplate etching hand-tinted with indigo and vermilion washes, released under GPL-2.0-or-later / CC0 (no stock images, no real people or brands; the atelier, its people and its hats are fictional). The cut-out hat was generated on a plain ground and its background removed. Copies in assets/images/demo/ are the same pictures, used by the demo import.
+Images: AI-generated for this theme with Grok Build image_gen, fine-line copperplate etching hand-tinted with indigo and koubai washes, released under GPL-2.0-or-later / CC0 (no stock images, no real people or brands; the atelier, its people and its hats are fictional). The cut-out hat was generated on a plain ground and its background removed. Copies in assets/images/demo/ are the same pictures, used by the demo import.
 - assets/images/hero.webp (home opening: an indigo felt hat on a turned hat block)
 - assets/images/collection.webp (eight hats in two rows (kept for pages imported with 1.0.0))
 - assets/images/atelier.webp (home, Atelier: the workbench with hat blocks)
@@ -72,7 +72,7 @@ Images: AI-generated for this theme with Grok Build image_gen, fine-line copperp
 - assets/images/shopfront.webp (Contact: the atelier front with an indigo noren)
 - assets/images/care.webp (Fit & sizing: a hat brush beside a felt brim)
 - assets/images/j-felt.webp (Atelier; journal: felt steamed over a block)
-- assets/images/j-straw.webp (journal: straw braid and vermilion ribbon)
+- assets/images/j-straw.webp (journal: straw braid and koubai ribbon)
 - assets/images/j-ribbon.webp (journal: grosgrain ribbons and shears)
 - assets/images/p01-hana-cloche.webp (product picture)
 - assets/images/p02-natsu-boater.webp (product picture)
@@ -101,11 +101,14 @@ All other artwork (rules, seals, chips and numerals) is CSS, GPL-2.0-or-later.
 
 == Changelog ==
 
+= 1.1.1 =
+* Release housekeeping: 1.1.0 was published from the first redesign (purple signboard layout, vermilion accent); 1.1.1 is the corrected design below. Nothing else differs from the 1.1.0 notes that follow.
+
 = 1.1.0 =
-* Redesign: washi, edo-murasaki purple, ai indigo, matcha, a shu vermilion seal and sumi replace the single blush tone; Kaisei Opti and M PLUS 2 replace Della Respira and Sen, with a larger type scale.
-* New header: a vertical signboard menu read from the right, under a vermilion seal with the wordmark set vertically (H11).
-* New home: vertical title beside an etching on an Edo purple field, Find your shape as a ruled filter table with the hats in a staggered grid, four shapes as vertical strips on a matcha band with a cut-out hat breaking over its edge, three steps with large numerals, fit and sizing on indigo, the journal as a ruled index (L5).
-* New footer: the seasonal letter on an Edo purple band over a deep shikon base with the vertical wordmark (F4).
+* Redesign: washi, edo-murasaki purple, ai indigo, matcha, a koubai accent and sumi replace the single blush tone; Kaisei Opti and M PLUS 2 replace Della Respira and Sen, with a larger type scale.
+* New header: a formal top header with a horizontal numbered menu and a small hanging koubai tag beside the wordmark (H11).
+* New home: an asymmetric 12-column page read left to right with a blank left margin for section numbers; a large headline beside an etching on an Edo purple field, Find your shape as a ruled filter table with the hats in an asymmetric masonry, four shapes as a ruled list on a matcha band with a cut-out hat breaking over its edge, three steps with large numerals, fit and sizing on indigo, the journal as a ruled index (L5).
+* New footer: the seasonal letter on an Edo purple band over a deep shikon base with the wordmark set vertically in koubai (F4).
 * New hand-tinted etching illustrations: one picture per hat, separate journal and page pictures (no more crops of one picture).
 * Without WooCommerce the static shelf filters by shape and material with plain links (no JavaScript) and points orders to Made to order.
 * The Shop, category, tag and search templates use the same staggered grid and shape / material chips (the material chips pointed at missing categories).

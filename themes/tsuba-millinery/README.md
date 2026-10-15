@@ -4,19 +4,19 @@ A bold, Japanese-minimal block theme for a **small milliner's atelier** and its 
 
 The demo atelier is fictional: Tsuba Millinery, 2-11 Kasane-chō, Hoshikawa City, run by milliner Rin Tsubaki.
 
-## Concept: washi, Edo purple and the vermilion seal (1.1.0)
+## Concept: washi, Edo purple and a koubai accent (1.1.0)
 
-- **Palette.** Washi `#F4EFE3` with a faint fibre texture; large fields of edo-murasaki `#745399` (the opening and the letter band; also links and labels, 5.3:1 on washi), ai indigo `#165E83` (fit band, menu overlay) and matcha `#C5C56A` (shapes band); shu vermilion `#EB6101` for the seal, numerals and marks; shikon `#2B1E3A` footer; sumi `#1C1C1C` for text. Gofun `#FBF8F1` on purple 5.8:1 and on indigo 6.7:1.
-- **Type.** Kaisei Opti (display, vertical titles, numerals, a few kanji marks drawn from CSS escapes) and M PLUS 2 (text, labels, filters), on a larger scale.
-- **Vertical type and ma.** The home title, the shelf title, the shape names and the journal title are set vertically (tategaki); sections sit asymmetrically on a 12-column grid with wide empty margins.
-- **Visual style.** Fine-line copperplate etchings hand-tinted with indigo and vermilion, one picture per hat; a cut-out hat (transparent WebP) breaks over the edge of the matcha band.
+- **Palette.** Washi `#F4EFE3` with a faint fibre texture; large fields of edo-murasaki `#745399` (the opening and the letter band; also links and labels, 5.3:1 on washi), ai indigo `#165E83` (fit band, menu overlay) and matcha `#C5C56A` (shapes band); koubai `#E16B8C` as the only accent (the hanging tag and shape seal with sumi text 5.4:1, label squares, rules, hover fills, the footer wordmark 4.9:1 on shikon) and deep koubai `#A8325A` for numerals on washi (5.6:1); no vermilion or orange; shikon `#2B1E3A` footer; sumi `#1C1C1C` for text. Gofun `#FBF8F1` on purple 5.8:1 and on indigo 6.7:1.
+- **Type.** Kaisei Opti (display, the few vertical title accents, numerals, a few kanji marks drawn from CSS escapes) and M PLUS 2 (text, labels, filters), on a larger scale.
+- **Asymmetric grid and ma.** The home reads left to right on a 12-column grid: a blank left margin column carries only the section numbers, the content sits asymmetrically in the other ten columns. Vertical type is only a title accent (the season line, the shelf count, the footer wordmark).
+- **Visual style.** Fine-line copperplate etchings hand-tinted with indigo and koubai, one picture per hat; a cut-out hat (transparent WebP) breaks over the edge of the matcha band.
 - **Details as product attributes.** Shape, material, brim and sizes; material and brim print under every price.
 
 ## Codes
 
-- **H11 header.** A vertical signboard in the top-left corner: a vermilion seal with the wordmark set vertically, the menu as vertical columns read from the right (numbered one to six), account and mini cart below. On the home page it stands on washi beside the purple field; on phones a seal and a Menu button open an indigo overlay with the menu still vertical.
-- **F4 footer.** Letter-led: the seasonal letter on an Edo purple band, then a deep shikon `#2B1E3A` base with the wordmark set vertically, the synced atelier card and two link columns.
-- **L5 home layout.** Vertical type: the title beside an etching laid over an Edo purple field, Find your shape (vertical title in the margin, shape / material / head size as a ruled filter table, the hats in a staggered three-column grid), four shapes as vertical strips on matcha, three steps with large numerals, fit and sizing on indigo, the journal as a ruled index.
+- **H11 header.** A formal top header read left to right: a small koubai tag with a decorative kanji hangs from the top edge beside the wordmark, the menu runs horizontally with numbered items (01 to 06), then account and mini cart. On tablets the menu takes its own row; on phones a Menu button opens an indigo overlay with large numbered lines. Never fixed, never a side rail.
+- **F4 footer.** Letter-led: the seasonal letter on an Edo purple band, then a deep shikon `#2B1E3A` base with the wordmark set vertically in koubai, the synced atelier card and two link columns.
+- **L5 home layout.** Asymmetric masonry, read horizontally: a large headline beside an etching laid over an Edo purple field, Find your shape (horizontal title, the count standing in the margin, shape / material / head size as a ruled filter table, the hats in an asymmetric masonry of three unequal columns), four shapes as a ruled list on matcha, three steps with large numerals, fit and sizing on indigo, the journal as a ruled index.
 
 ## One source for shared details
 
