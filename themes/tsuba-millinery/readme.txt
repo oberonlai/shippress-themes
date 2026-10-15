@@ -3,16 +3,16 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Version: 1.0.0
-Stable tag: 1.0.0
+Version: 1.1.0
+Stable tag: 1.1.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Tags: block-patterns, full-site-editing, e-commerce, blog, pink, light, custom-colors, editor-style, translation-ready, wide-blocks
+Tags: block-patterns, full-site-editing, e-commerce, blog, purple, blue, light, custom-colors, editor-style, translation-ready, wide-blocks
 
 == Description ==
 
-An elegant, sculptural store theme for a small milliner's atelier: felt-blush pages, petal cells, ink text and one muted mauve accent, Della Respira with Sen, layered paper-cut illustrations, a filter-first hat catalogue (shape, material, head size), a sizing guide, Fit & sizing and Made to order pages, and WooCommerce shop, product, cart, checkout and account templates styled to match.
+A bold, Japanese-minimal store theme for a small milliner's atelier: washi pages with a faint fibre texture, large fields of edo-murasaki purple, ai indigo and matcha, a shu vermilion seal and sumi ink, Kaisei Opti with M PLUS 2, vertical titles and a vertical menu read from the right, hand-tinted copperplate etchings, a filter-first hat catalogue (shape, material, head size), a sizing guide, Fit & sizing and Made to order pages, and WooCommerce shop, product, cart, checkout and account templates styled to match.
 
 The demo atelier is fictional: Tsuba Millinery, a small hat atelier at 2-11 Kasane-chō, Hoshikawa City, run by milliner Rin Tsubaki. All people, places and products are made up.
 
@@ -46,37 +46,48 @@ GNU General Public License for more details.
 
 = Fonts =
 
-Della Respira
-Files: assets/fonts/DellaRespira-Regular.ttf
-Copyright (c) 2011-2012, Nathan Willis, with Reserved Font Name "Della Respira".
-License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-DellaRespira.txt, https://openfontlicense.org).
-Shipped unmodified (Reserved Font Name) from https://github.com/google/fonts/tree/main/ofl/dellarespira, bundled so the theme makes no third-party requests.
+Kaisei Opti
+Files: assets/fonts/KaiseiOpti-Regular.woff2, assets/fonts/KaiseiOpti-Bold.woff2
+Copyright 2020 The Kaisei Project Authors (https://github.com/Font-Kai/Kaisei)
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-KaiseiOpti.txt, https://openfontlicense.org).
+No Reserved Font Name; subset to Latin plus a few kanji used as decorative marks (WOFF2) from https://github.com/google/fonts/tree/main/ofl/kaiseiopti, bundled so the theme makes no third-party requests.
 
-Sen
-Files: assets/fonts/Sen-wght.ttf
-Copyright 2015 The Sen Project Authors (https://github.com/philatype/Sen/)
-License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-Sen.txt, https://openfontlicense.org).
-Shipped as the unmodified variable TTF from https://github.com/google/fonts/tree/main/ofl/sen.
+M PLUS 2
+Files: assets/fonts/MPLUS2-wght.woff2
+Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-MPLUS2.txt, https://openfontlicense.org).
+No Reserved Font Name; the variable font subset to Latin (WOFF2) from https://github.com/google/fonts/tree/main/ofl/mplus2.
 
 = Images =
 
-Images: AI-generated for this theme with Grok Build image_gen, layered paper-cut illustration style, released under GPL-2.0-or-later / CC0 (no stock images, no real people or brands; the atelier, its people and its hats are fictional). Product pictures are crops of the collection illustration. Copies in assets/images/demo/ are the same pictures, used by the demo import.
-- assets/images/hero.webp (home: a wide-brim felt hat on a wooden hat block)
-- assets/images/collection.webp (eight hats; journal)
-- assets/images/atelier.webp (Atelier, Made to order; journal)
-- assets/images/fit.webp (Fit & sizing; journal)
-- assets/images/p01-hana-cloche.webp (product picture, crop of collection.webp)
-- assets/images/p02-natsu-boater.webp (product picture, crop of collection.webp)
-- assets/images/p03-ame-bucket.webp (product picture, crop of collection.webp)
-- assets/images/p04-kaze-wide-brim.webp (product picture, crop of collection.webp)
-- assets/images/p05-fuyu-beret.webp (product picture, crop of collection.webp)
-- assets/images/p06-hiyori-sun-hat.webp (product picture, crop of collection.webp)
-- assets/images/p07-kiri-trilby.webp (product picture, crop of collection.webp)
-- assets/images/p08-tsubomi-pillbox.webp (product picture, crop of collection.webp)
-- assets/images/demo/hero.webp (demo import copy of assets/images/hero.webp)
-- assets/images/demo/collection.webp (demo import copy of assets/images/collection.webp)
-- assets/images/demo/atelier.webp (demo import copy of assets/images/atelier.webp)
+Images: AI-generated for this theme with Grok Build image_gen, fine-line copperplate etching hand-tinted with indigo and vermilion washes, released under GPL-2.0-or-later / CC0 (no stock images, no real people or brands; the atelier, its people and its hats are fictional). The cut-out hat was generated on a plain ground and its background removed. Copies in assets/images/demo/ are the same pictures, used by the demo import.
+- assets/images/hero.webp (home opening: an indigo felt hat on a turned hat block)
+- assets/images/collection.webp (eight hats in two rows (kept for pages imported with 1.0.0))
+- assets/images/atelier.webp (home, Atelier: the workbench with hat blocks)
+- assets/images/fit.webp (home, Fit & sizing: a tape measure round a hat crown)
+- assets/images/blocks.webp (Atelier: four wooden hat blocks on a shelf)
+- assets/images/brim-cutout.webp (home: a cut-out hat with a tape measure, transparent background, set over the matcha band edge)
+- assets/images/milliner.webp (Atelier: the milliner at her bench)
+- assets/images/fitting.webp (Made to order; journal: a hat on a head form with swatches)
+- assets/images/shopfront.webp (Contact: the atelier front with an indigo noren)
+- assets/images/care.webp (Fit & sizing: a hat brush beside a felt brim)
+- assets/images/j-felt.webp (Atelier; journal: felt steamed over a block)
+- assets/images/j-straw.webp (journal: straw braid and vermilion ribbon)
+- assets/images/j-ribbon.webp (journal: grosgrain ribbons and shears)
+- assets/images/p01-hana-cloche.webp (product picture)
+- assets/images/p02-natsu-boater.webp (product picture)
+- assets/images/p03-ame-bucket.webp (product picture)
+- assets/images/p04-kaze-wide-brim.webp (product picture)
+- assets/images/p05-fuyu-beret.webp (product picture)
+- assets/images/p06-hiyori-sun-hat.webp (product picture)
+- assets/images/p07-kiri-trilby.webp (product picture)
+- assets/images/p08-tsubomi-pillbox.webp (product picture)
+- assets/images/washi.webp (page background: a washi paper texture drawn procedurally for this theme, GPL-2.0-or-later / CC0)
 - assets/images/demo/fit.webp (demo import copy of assets/images/fit.webp)
+- assets/images/demo/fitting.webp (demo import copy of assets/images/fitting.webp)
+- assets/images/demo/j-felt.webp (demo import copy of assets/images/j-felt.webp)
+- assets/images/demo/j-ribbon.webp (demo import copy of assets/images/j-ribbon.webp)
+- assets/images/demo/j-straw.webp (demo import copy of assets/images/j-straw.webp)
 - assets/images/demo/p01-hana-cloche.webp (demo import copy of assets/images/p01-hana-cloche.webp)
 - assets/images/demo/p02-natsu-boater.webp (demo import copy of assets/images/p02-natsu-boater.webp)
 - assets/images/demo/p03-ame-bucket.webp (demo import copy of assets/images/p03-ame-bucket.webp)
@@ -86,9 +97,20 @@ Images: AI-generated for this theme with Grok Build image_gen, layered paper-cut
 - assets/images/demo/p07-kiri-trilby.webp (demo import copy of assets/images/p07-kiri-trilby.webp)
 - assets/images/demo/p08-tsubomi-pillbox.webp (demo import copy of assets/images/p08-tsubomi-pillbox.webp)
 
-All other artwork (rules, chips and numerals) is CSS, GPL-2.0-or-later.
+All other artwork (rules, seals, chips and numerals) is CSS, GPL-2.0-or-later.
 
 == Changelog ==
+
+= 1.1.0 =
+* Redesign: washi, edo-murasaki purple, ai indigo, matcha, a shu vermilion seal and sumi replace the single blush tone; Kaisei Opti and M PLUS 2 replace Della Respira and Sen, with a larger type scale.
+* New header: a vertical signboard menu read from the right, under a vermilion seal with the wordmark set vertically (H11).
+* New home: vertical title beside an etching on an Edo purple field, Find your shape as a ruled filter table with the hats in a staggered grid, four shapes as vertical strips on a matcha band with a cut-out hat breaking over its edge, three steps with large numerals, fit and sizing on indigo, the journal as a ruled index (L5).
+* New footer: the seasonal letter on an Edo purple band over a deep shikon base with the vertical wordmark (F4).
+* New hand-tinted etching illustrations: one picture per hat, separate journal and page pictures (no more crops of one picture).
+* Without WooCommerce the static shelf filters by shape and material with plain links (no JavaScript) and points orders to Made to order.
+* The Shop, category, tag and search templates use the same staggered grid and shape / material chips (the material chips pointed at missing categories).
+* Fix: the Media Library copy of atelier.webp took the slug "atelier", so the Atelier page was created as atelier-2.
+* Image files from 1.0.0 keep their names, so pages imported earlier still show pictures.
 
 = 1.0.0 =
 * First release.

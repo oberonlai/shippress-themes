@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tm-section tm-section--flush-top","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull tm-section tm-section--flush-top"><!-- wp:group {"align":"wide","className":"tm-split tm-split--5-7","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tm-split tm-split--5-7"><!-- wp:image {"sizeSlug":"large","className":"tm-frame tm-frame--portrait tm-split__picture"} -->
-<figure class="wp-block-image size-large tm-frame tm-frame--portrait tm-split__picture"><img src="{{theme}}/assets/images/atelier.webp" alt="Wooden hat blocks and a half-finished crown on the milliner’s workbench"/></figure>
+<figure class="wp-block-image size-large tm-frame tm-frame--portrait tm-split__picture"><img src="{{theme}}/assets/images/milliner.webp" alt="Etching of a milliner in a work apron pinning an indigo felt hood onto a wooden block"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"tm-stack","layout":{"type":"default"}} -->

@@ -1,88 +1,92 @@
 <?php
 /**
- * Title: Home: four shapes
+ * Title: Home: four shapes on a matcha band
  * Slug: tsuba-millinery/home-idea
  * Categories: tsuba-millinery
- * Keywords: millinery, shapes, brim
+ * Keywords: millinery, shapes, brim, vertical type
  * Viewport Width: 1440
- * Description: A quiet strip of four house shapes and their brim widths, with a link to the atelier.
+ * Description: A matcha-green band: the four house shapes as tall vertical strips read right to left (brim width, name set vertically, a short note), beside a short text; a cut-out etching of a hat breaks over the top edge of the band.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"tm-section tm-section--origins","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull tm-section tm-section--origins"><!-- wp:group {"align":"wide","className":"tm-head-wrap","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide tm-head-wrap"><!-- wp:group {"className":"tm-head tm-head--row","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-head tm-head--row"><!-- wp:group {"className":"tm-stack","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-stack"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">Shapes</p>
+<!-- wp:group {"tagName":"section","align":"full","className":"tm-strips-sec","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull tm-strips-sec"><!-- wp:group {"className":"tm-strips-sec__text","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-strips-sec__text"><!-- wp:image {"sizeSlug":"large","className":"tm-strips-sec__cutout"} -->
+<figure class="wp-block-image size-large tm-strips-sec__cutout"><img src="{{theme}}/assets/images/brim-cutout.webp" alt="Etching of an indigo wide-brim felt hat with a vermilion band and a tape measure looped round the crown"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"className":"tm-kicker"} -->
+<p class="tm-kicker">Four blocks</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading -->
-<h2 class="wp-block-heading">Four blocks, <em>four silhouettes.</em></h2>
-<!-- /wp:heading --></div>
-<!-- /wp:group -->
+<!-- wp:heading {"className":"tm-strips-sec__title"} -->
+<h2 class="wp-block-heading tm-strips-sec__title">Four silhouettes, <em>measured at the brim.</em></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"tm-strips-sec__lead"} -->
+<p class="tm-strips-sec__lead">Every hat starts on one of four wooden blocks. The brim width is the first thing we cut, and the first thing you will notice in a mirror.</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"tm-links"} -->
 <div class="wp-block-buttons tm-links"><!-- wp:button {"className":"is-style-arrow"} -->
 <div class="wp-block-button is-style-arrow"><a class="wp-block-button__link wp-element-button" href="/atelier/">Visit the atelier</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
-<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"wide","className":"tm-origins","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide tm-origins"><!-- wp:group {"className":"tm-origin","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-origin"><!-- wp:paragraph {"className":"tm-origin__pct"} -->
-<p class="tm-origin__pct">4 cm</p>
+<!-- wp:group {"className":"tm-strips","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-strips"><!-- wp:group {"className":"tm-strip","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-strip"><!-- wp:paragraph {"className":"tm-strip__cm"} -->
+<p class="tm-strip__cm">4<span> cm</span></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"className":"tm-origin__name"} -->
-<h3 class="wp-block-heading tm-origin__name">Cloche</h3>
+<!-- wp:heading {"level":3,"className":"tm-strip__name"} -->
+<h3 class="wp-block-heading tm-strip__name">Cloche</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"tm-origin__note"} -->
-<p class="tm-origin__note">Wool felt, close to the brow</p>
+<!-- wp:paragraph {"className":"tm-strip__note"} -->
+<p class="tm-strip__note">Wool felt, close to the brow</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"tm-origin","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-origin"><!-- wp:paragraph {"className":"tm-origin__pct"} -->
-<p class="tm-origin__pct">6 cm</p>
+<!-- wp:group {"className":"tm-strip","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-strip"><!-- wp:paragraph {"className":"tm-strip__cm"} -->
+<p class="tm-strip__cm">6<span> cm</span></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"className":"tm-origin__name"} -->
-<h3 class="wp-block-heading tm-origin__name">Boater</h3>
+<!-- wp:heading {"level":3,"className":"tm-strip__name"} -->
+<h3 class="wp-block-heading tm-strip__name">Boater</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"tm-origin__note"} -->
-<p class="tm-origin__note">Stiffened straw, flat crown and band</p>
+<!-- wp:paragraph {"className":"tm-strip__note"} -->
+<p class="tm-strip__note">Stiffened straw, a flat crown and band</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"tm-origin","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-origin"><!-- wp:paragraph {"className":"tm-origin__pct"} -->
-<p class="tm-origin__pct">5 cm</p>
+<!-- wp:group {"className":"tm-strip","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-strip"><!-- wp:paragraph {"className":"tm-strip__cm"} -->
+<p class="tm-strip__cm">5<span> cm</span></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"className":"tm-origin__name"} -->
-<h3 class="wp-block-heading tm-origin__name">Bucket</h3>
+<!-- wp:heading {"level":3,"className":"tm-strip__name"} -->
+<h3 class="wp-block-heading tm-strip__name">Bucket</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"tm-origin__note"} -->
-<p class="tm-origin__note">Washed cotton, soft and packable</p>
+<!-- wp:paragraph {"className":"tm-strip__note"} -->
+<p class="tm-strip__note">Washed cotton, soft and packable</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"tm-origin","layout":{"type":"default"}} -->
-<div class="wp-block-group tm-origin"><!-- wp:paragraph {"className":"tm-origin__pct"} -->
-<p class="tm-origin__pct">10 cm</p>
+<!-- wp:group {"className":"tm-strip","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-strip"><!-- wp:paragraph {"className":"tm-strip__cm"} -->
+<p class="tm-strip__cm">10<span> cm</span></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"className":"tm-origin__name"} -->
-<h3 class="wp-block-heading tm-origin__name">Wide brim</h3>
+<!-- wp:heading {"level":3,"className":"tm-strip__name"} -->
+<h3 class="wp-block-heading tm-strip__name">Wide brim</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"tm-origin__note"} -->
-<p class="tm-origin__note">Felt or straw, a slow sweeping line</p>
+<!-- wp:paragraph {"className":"tm-strip__note"} -->
+<p class="tm-strip__note">Felt or straw, a slow sweeping line</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

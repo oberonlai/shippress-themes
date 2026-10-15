@@ -170,3 +170,25 @@ function tsuba_millinery_noscript_menu() {
 	echo '<noscript><style>@media (max-width:599px){.tm-nav .wp-block-navigation__responsive-container-open{display:none!important}.tm-nav .wp-block-navigation__responsive-container{display:block!important;position:static!important;background:none!important}.tm-nav .wp-block-navigation__container{flex-direction:row!important;flex-wrap:wrap;justify-content:center;gap:.5rem 1rem!important}}</style></noscript>' . "\n";
 }
 add_action( 'wp_head', 'tsuba_millinery_noscript_menu' );
+
+/**
+ * WooCommerce switched off after the demo import: the stored home page still holds a WooCommerce product grid,
+ * which would print stray titles. Show the static hat shelf (pictures, prices, the no-JavaScript filter) instead,
+ * once per page. With WooCommerce active this does nothing.
+ *
+ * @param string $content Rendered block.
+ * @param array  $block   Parsed block.
+ * @return string
+ */
+function tsuba_millinery_shelf_without_shop( $content, $block ) {
+	static $shown = false;
+	if ( class_exists( 'WooCommerce' ) || 'woocommerce/product-collection' !== ( $block['blockName'] ?? '' ) ) {
+		return $content;
+	}
+	if ( $shown ) {
+		return '';
+	}
+	$shown = true;
+	return do_blocks( '<!-- wp:pattern {"slug":"tsuba-millinery/shelf-cells"} /-->' );
+}
+add_filter( 'render_block', 'tsuba_millinery_shelf_without_shop', 10, 2 );

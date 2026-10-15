@@ -31,7 +31,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tm-section tm-section--flush-top","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull tm-section tm-section--flush-top"><!-- wp:group {"align":"wide","className":"tm-split","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tm-split"><!-- wp:image {"sizeSlug":"large","className":"tm-frame tm-split__picture"} -->
-<figure class="wp-block-image size-large tm-frame tm-split__picture"><img src="{{theme}}/assets/images/atelier.webp" alt="The milliner’s workbench with wooden hat blocks in the atelier"/></figure>
+<figure class="wp-block-image size-large tm-frame tm-split__picture"><img src="{{theme}}/assets/images/shopfront.webp" alt="Etching of the narrow wooden atelier front with an indigo noren curtain over the door and a potted pine"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"tm-card","layout":{"type":"default"}} -->

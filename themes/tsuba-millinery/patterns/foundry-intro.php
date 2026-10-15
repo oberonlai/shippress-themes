@@ -31,7 +31,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tm-section tm-section--flush-top","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull tm-section tm-section--flush-top"><!-- wp:group {"align":"wide","className":"tm-wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tm-wide"><!-- wp:image {"sizeSlug":"large","className":"tm-frame tm-wide-picture"} -->
-<figure class="wp-block-image size-large tm-frame tm-wide-picture"><img src="{{theme}}/assets/images/hero.webp" alt="A wide-brim felt hat resting on a wooden hat block, trailing ribbons"/></figure>
+<figure class="wp-block-image size-large tm-frame tm-wide-picture"><img src="{{theme}}/assets/images/blocks.webp" alt="Etching of four wooden hat blocks on a long shelf, with indigo felt and a vermilion ribbon among them"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
