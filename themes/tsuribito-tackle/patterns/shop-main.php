@@ -1,0 +1,41 @@
+<?php
+/**
+ * Title: Tackle: all products
+ * Slug: tsuribito-tackle/shop-main
+ * Categories: tsuribito-tackle
+ * Keywords: fishing, tackle, shop
+ * Viewport Width: 1440
+ * Description: Every product in a grid (WooCommerce), or product photos without it.
+ */
+?>
+<!-- wp:group {"tagName": "section", "align": "full", "className": "tt-section tt-shopgrid", "layout": {"type": "constrained"}} -->
+<section class="wp-block-group alignfull tt-section tt-shopgrid"><?php if ( class_exists( 'WooCommerce' ) ) : ?>
+<!-- wp:woocommerce/product-collection {"queryId": 4, "query": {"perPage": 12, "pages": 1, "offset": 0, "postType": "product", "order": "asc", "orderBy": "menu_order", "author": "", "search": "", "exclude": [], "sticky": "", "inherit": false, "taxQuery": {}, "isProductCollectionBlock": true, "featured": false, "woocommerceOnSale": false, "woocommerceStockStatus": ["instock", "outofstock", "onbackorder"], "woocommerceAttributes": [], "woocommerceHandPickedProducts": []}, "tagName": "div", "displayLayout": {"type": "flex", "columns": 4, "shrinkColumns": true}, "dimensions": {"widthType": "fill"}, "queryContextIncludes": ["collection"], "align": "wide", "className": "tt-grid"} -->
+<div class="wp-block-woocommerce-product-collection alignwide tt-grid"><!-- wp:woocommerce/product-template -->
+<!-- wp:woocommerce/product-image {"showSaleBadge":false,"imageSizing":"single","isDescendentOfQueryLoop":true,"aspectRatio":"1","className":"tt-card__photo"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true,"className":"tt-card__name","__woocommerceNamespace":"woocommerce/product-collection/product-title"} /-->
+
+<!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"className":"tt-card__price"} /-->
+<!-- /wp:woocommerce/product-template --></div>
+<!-- /wp:woocommerce/product-collection -->
+<?php else : ?>
+<!-- wp:group {"align": "wide", "className": "tt-rail tt-rail--static", "layout": {"type": "default"}} -->
+<div class="wp-block-group alignwide tt-rail tt-rail--static"><!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "tt-rail__img"} -->
+<figure class="wp-block-image size-full tt-rail__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p-reel.webp' ) ); ?>" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "tt-rail__img"} -->
+<figure class="wp-block-image size-full tt-rail__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p-rod.webp' ) ); ?>" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "tt-rail__img"} -->
+<figure class="wp-block-image size-full tt-rail__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p-lures.webp' ) ); ?>" alt=""/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "tt-rail__img"} -->
+<figure class="wp-block-image size-full tt-rail__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p-floats.webp' ) ); ?>" alt=""/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+<?php endif; ?></section>
+<!-- /wp:group -->
