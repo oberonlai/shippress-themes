@@ -12,7 +12,7 @@
 import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { styleHeader } from "./check-themes.mjs";
+import { DEMO_LANGS, styleHeader } from "./check-themes.mjs";
 
 const SHOTS = ["<!-- screenshots:start -->", "<!-- screenshots:end -->"];
 const GALLERY = ["<!-- gallery:start -->", "<!-- gallery:end -->"];
@@ -48,7 +48,7 @@ export function shotPages(files, order = []) {
 }
 
 /** The "## Screenshots" section of a theme README. */
-export function screenshotsSection(name, files, order) {
+export function screenshotsSection(name, files, order, langs = []) {
   const has = (f) => files.includes(f);
   const lines = ["## Screenshots", ""];
   if (has("home-desktop.webp") || has("home-mobile.webp")) {
@@ -61,6 +61,8 @@ export function screenshotsSection(name, files, order) {
     const links = ["desktop", "mobile"].filter((v) => has(`${page}-${v}.webp`)).map((v) => `[${v}](screenshots/${page}-${v}.webp)`);
     lines.push(`- ${label(page)}: ${links.join(" · ")}`);
   }
+  // Sample content in other languages: screenshots/<lang>/ holds the same pages captured in that language.
+  if (langs.length) lines.push(`- Other languages (home page): ${langs.map((l) => `[${l}](screenshots/${l}/home-desktop.webp)`).join(" · ")}`);
   while (lines.at(-1) === "") lines.pop();
   return lines.join("\n");
 }
@@ -103,13 +105,19 @@ export function sync({ root, from, slugs, log = console.log, warn = console.warn
     const out = join(dir, "screenshots");
     rmSync(out, { recursive: true, force: true }); mkdirSync(out, { recursive: true });
     for (const f of files) copyFileSync(join(src, f), join(out, f));
+    // Per-language captures (<src>/<lang>/*.webp) for themes whose sample content comes in other languages.
+    const langs = DEMO_LANGS.filter((l) => existsSync(join(src, l)) && statSync(join(src, l)).isDirectory());
+    for (const l of langs) {
+      mkdirSync(join(out, l), { recursive: true });
+      for (const f of readdirSync(join(src, l)).filter((f) => f.endsWith(".webp"))) copyFileSync(join(src, l, f), join(out, l, f));
+    }
     const name = themeName(dir, slug);
     const metaFile = join(dir, "theme-meta.json");
     const order = existsSync(metaFile) ? JSON.parse(readFileSync(metaFile, "utf8")).pages ?? [] : [];
     const readme = join(dir, "README.md");
     const md = existsSync(readme) ? readFileSync(readme, "utf8") : `# ${name}\n`;
-    writeIfChanged(readme, upsertSection(md, SHOTS, screenshotsSection(name, files, order)));
-    log(`✓ ${slug}: ${files.length} screenshots`);
+    writeIfChanged(readme, upsertSection(md, SHOTS, screenshotsSection(name, files, order, langs)));
+    log(`✓ ${slug}: ${files.length} screenshots${langs.length ? ` + ${langs.join(", ")}` : ""}`);
     synced.push(slug);
   }
   const shown = all.filter((s) => existsSync(join(themesDir, s, "screenshots", "home-desktop.webp"))).map((slug) => ({ slug, name: themeName(join(themesDir, slug), slug) }));

@@ -108,3 +108,27 @@ test("table labels on phones come from the table's own header row", { skip }, ()
   const html = s.php(`echo do_blocks( file_get_contents( '${join(sites.at(-1), "table.html")}' ) );`);
   assert.match(html, /<td data-label="Per glass">¥1<\/td><td data-label="Bottle &amp; more">¥2<\/td>/);
 });
+
+test("sample content language: the shippress_demo_lang option picks demo-content.<lang>.json; a re-run creates nothing", { skip }, () => {
+  const s = site("hoshizora-camp");
+  s.wp("option", "update", "shippress_demo_lang", "ja");
+  s.wp("theme", "activate", "hoshizora-camp");
+  const run = JSON.parse(s.wp("shippress", "demo-import", "--format=json"));
+  const ja = JSON.parse(readFileSync(join(THEMES, "hoshizora-camp/demo-content.ja.json"), "utf8"));
+  assert.ok(ja.pages.every((p) => Object.keys(s.json(PAGES)).includes(p.title)), JSON.stringify(s.json(PAGES)));
+  assert.equal(s.php("echo get_option( 'blogname' );"), ja.site.title);
+  // The synced camp board and the theme's own words follow the same language.
+  assert.match(s.php("echo get_post_field( 'post_content', get_posts( array( 'post_type' => 'wp_block', 'meta_key' => '_hoshizora_camp_info', 'meta_value' => 'board', 'fields' => 'ids' ) )[0] );"), /今夜/);
+  assert.match(s.php("echo hoshizora_camp_t( 'book' );"), /予約/);
+  assert.equal(JSON.parse(s.wp("shippress", "demo-import", "--format=json")).created, 0);
+  assert.ok(run.created + run.skipped > 0);
+});
+
+test("sample content language: an unknown or missing language falls back to English", { skip }, () => {
+  const s = site("hoshizora-camp");
+  s.wp("option", "update", "shippress_demo_lang", "es");
+  s.wp("theme", "activate", "hoshizora-camp");
+  s.wp("shippress", "demo-import", "--format=json");
+  assert.equal(s.php("echo get_option( 'blogname' );"), "Hoshizora Camp");
+  assert.equal(s.php("echo ShipPress_Demo_Import::lang();"), "en");
+});

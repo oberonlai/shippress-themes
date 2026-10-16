@@ -132,3 +132,21 @@ test("gallerySection rows, insertAfterThemes fallback, upsertSection replaces in
   assert.equal(upsertSection(once, ["<!-- s -->", "<!-- e -->"], "two"), "# X\n\n<!-- s -->\ntwo\n<!-- e -->\n");
   assert.deepEqual(shotPages(["z-desktop.webp", "home-mobile.webp", "about-desktop.webp", "x.png"], ["home", "about"]), ["home", "about", "z"]);
 });
+
+test("per-language screenshots (<lang>/ folders) are copied and linked; other folders are ignored", () => {
+  const tmp = mkdtempSync(join(tmpdir(), "sync-shots-lang-"));
+  try {
+    const root = join(tmp, "repo"), from = join(tmp, "app");
+    mkdirSync(join(root, "themes/a"), { recursive: true });
+    writeFileSync(join(root, "README.md"), ROOT_README);
+    for (const d of ["", "ja", "fr", "xx"]) {
+      mkdirSync(join(from, "a/screenshots", d), { recursive: true });
+      writeFileSync(join(from, "a/screenshots", d, "home-desktop.webp"), "w" + d);
+    }
+    sync({ root, from, slugs: ["a"], ...quiet });
+    assert.equal(readFileSync(join(root, "themes/a/screenshots/ja/home-desktop.webp"), "utf8"), "wja");
+    assert.equal(readFileSync(join(root, "themes/a/screenshots/fr/home-desktop.webp"), "utf8"), "wfr");
+    assert.equal(existsSync(join(root, "themes/a/screenshots/xx")), false);
+    assert.match(readFileSync(join(root, "themes/a/README.md"), "utf8"), /Other languages \(home page\): \[ja\]\(screenshots\/ja\/home-desktop\.webp\) · \[fr\]/);
+  } finally { rmSync(tmp, { recursive: true, force: true }); }
+});
