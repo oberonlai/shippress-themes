@@ -21,7 +21,7 @@ Every template is the centred header, the page column and the footer. Page bodie
 </tr>
 </table>
 
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
+- Course: [desktop](screenshots/course-desktop.webp) · [mobile](screenshots/course-mobile.webp)
 - About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
 - News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
 - Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
