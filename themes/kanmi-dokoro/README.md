@@ -21,7 +21,7 @@ Every template is the top-bar header, the page column and the footer. Page bodie
 </tr>
 </table>
 
-- Classes: [desktop](screenshots/classes-desktop.webp) · [mobile](screenshots/classes-mobile.webp)
+- Menu: [desktop](screenshots/menu-desktop.webp) · [mobile](screenshots/menu-mobile.webp)
 - About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
 - News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
 - Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
