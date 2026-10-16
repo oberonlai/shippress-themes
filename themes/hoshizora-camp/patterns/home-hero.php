@@ -5,7 +5,7 @@
  * Categories: hoshizora-camp
  * Keywords: glamping, camp, tents
  * Viewport Width: 1440
- * Description: The azalea-pink field with the title, and the watercolour site map in a frame with numbered pins; a cut-out bell tent steps out of the map frame and over the hero edge.
+ * Description: The dove-grey field with the title, and the watercolour site map in a frame with numbered pins; a cut-out bell tent steps out of the map frame and over the hero edge.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "hz-hero", "layout": {"type": "default"}} -->

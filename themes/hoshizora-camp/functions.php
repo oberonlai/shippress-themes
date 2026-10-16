@@ -108,7 +108,7 @@ function hoshizora_camp_pattern_categories() {
 		'hoshizora-camp',
 		array(
 			'label'       => __( 'Hoshizora Camp', 'hoshizora-camp' ),
-			'description' => __( 'Sections for a glamping site: the azalea-pink scene-map hero with the cut-out tent, the four ways to stay, the azalea band, the night timeline with the cut-out lantern, and the synced camp board, details and rates.', 'hoshizora-camp' ),
+			'description' => __( 'Sections for a glamping site: the dove-grey scene-map hero with the cut-out tent, the four ways to stay, the silver-grass band, the night timeline with the cut-out lantern, and the synced camp board, details and rates.', 'hoshizora-camp' ),
 		)
 	);
 }

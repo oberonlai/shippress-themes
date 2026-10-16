@@ -5,7 +5,7 @@
  * Categories: hoshizora-camp
  * Keywords: glamping, camp, tents
  * Viewport Width: 1440
- * Description: The azalea-pink page head of the Star letter.
+ * Description: The dove-grey page head of the Star letter.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "hz-pagehead", "layout": {"type": "constrained"}} -->

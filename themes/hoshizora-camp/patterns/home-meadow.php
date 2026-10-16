@@ -1,11 +1,11 @@
 <?php
 /**
- * Title: Home: the azalea band
+ * Title: Home: the silver-grass band
  * Slug: hoshizora-camp/home-meadow
  * Categories: hoshizora-camp
  * Keywords: glamping, camp, tents
  * Viewport Width: 1440
- * Description: A full azalea-pink band with the wide watercolour of the hillside in bloom and the season dates.
+ * Description: A full dove-grey band with the wide watercolour of the silver-grass hillside and the season dates.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "hz-section hz-meadow", "layout": {"type": "constrained"}} -->

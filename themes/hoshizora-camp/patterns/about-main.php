@@ -5,7 +5,7 @@
  * Categories: hoshizora-camp
  * Keywords: glamping, camp, tents
  * Viewport Width: 1440
- * Description: The story of the meadow beside the azalea trail, the numbered site map and the house rules.
+ * Description: The story of the meadow beside the silver-grass trail, the numbered site map and the house rules.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "hz-section hz-about", "layout": {"type": "constrained"}} -->

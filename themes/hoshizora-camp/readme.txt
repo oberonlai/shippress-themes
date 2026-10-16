@@ -6,7 +6,7 @@ Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Hoshizora Camp — a glamping-site theme laid out like an app: under a full top header, a night-indigo sidebar holds the synced camp board (tonight's sky, free tents, the fire circle, quiet hours and a Book a site button) beside the scrolling page. Tsutsuji azalea pink (#E95295) is the main colour: the header, the hero, every page head and the azalea band are pink fields with night-indigo type. The header splits the menu around the centred camp name, with the Book a site button at its end. The hero is a scene map: a watercolour map of the camp in a white frame with numbered pins for the lodge, tents, domes, star deck, fire circle and creek, and a cut-out bell tent that steps out of the frame and over the hero edge; a cut-out camp lantern hangs over the night band. Every picture is a watercolour illustration. Klee One for display, Gothic A1 for reading. The sample content comes in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
+Hoshizora Camp — a glamping-site theme laid out like an app: under a full top header, a deep-navy sidebar holds the synced camp board (tonight's sky, free tents, the fire circle, quiet hours and a Book a site button) beside the scrolling page. Hatobanezumi, the dove mauve-grey of traditional Japanese dyeing (#9E8B8E), is the main colour: the header, the hero, every page head and the silver-grass band are dove-grey fields with nōkon deep-navy type, on an unbleached kinari ground with pale shirafuji wisteria panels, keshimurasaki muted-purple links and small touches of kōiro incense gold and geppaku moon white on navy. The header splits the menu around the centred camp name, with the Book a site button at its end. The hero is a scene map: a watercolour map of the camp in a white frame with numbered pins for the lodge, tents, domes, star deck, fire circle and creek, and a cut-out bell tent that steps out of the frame and over the hero edge; a cut-out camp lantern hangs over the night band. Every picture is a watercolour illustration. Klee One for display, Gothic A1 for reading. The sample content comes in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
 
 == Description ==
 
@@ -42,7 +42,7 @@ Images: AI-generated for this theme with Grok Build image_gen as watercolour ill
 - assets/images/belltent.webp (stays cards, Tents & domes)
 - assets/images/dome.webp (stays cards, Tents & domes, Star letter, journal)
 - assets/images/campfire.webp (stays cards, night band, Tents & domes)
-- assets/images/meadow.webp (azalea band, stays cards, Tents & domes)
+- assets/images/meadow.webp (silver-grass band, stays cards, Tents & domes)
 - assets/images/breakfast.webp (journal)
 - assets/images/trail.webp (The meadow, journal)
 - assets/images/demo/dome.webp (demo import copy of assets/images/dome.webp)
