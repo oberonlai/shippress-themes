@@ -32,7 +32,7 @@ The market, its makers, shrine, address, telephone number and fees are fictional
 == Copyright ==
 
 Ichiba Monozukuri is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Train One (OFL-1.1), subset to Latin and to the characters of the Chinese and Japanese sample text, and Hanken Grotesk (OFL-1.1), Latin variable, as WOFF2; see assets/fonts/.
+Fonts: Train One (OFL-1.1), subset to Latin and to the characters of the Chinese and Japanese sample text, and Hanken Grotesk (OFL-1.1), Latin variable, and Noto Sans TC (OFL-1.1), subset to the characters of the Traditional Chinese sample text, as WOFF2; see assets/fonts/.
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as two-ink risograph illustrations, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the market is fictional). The two cut-outs have a transparent background (scripts/grok-image.sh --cutout). Copies in assets/images/demo/ are the same pictures, used by the demo import.

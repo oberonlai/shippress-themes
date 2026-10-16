@@ -5,6 +5,7 @@
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
+import { checkZhFonts } from "./zh-fonts.mjs";
 
 export const REPO = "oberonlai/shippress-themes";
 export const downloadUrl = (slug) => `https://github.com/${REPO}/releases/download/themes/${slug}.zip`;
@@ -156,6 +157,8 @@ export function checkTheme(dir, slug) {
   if (!has("theme.json")) errs.push("theme.json is missing"); else json("theme.json");
   if (!has("screenshot.png")) errs.push("screenshot.png is missing");
   if (!has("readme.txt")) errs.push("readme.txt (copyright + resource licenses) is missing");
+
+  errs.push(...checkZhFonts(dir));
 
   const tpl = (t) => has(`templates/${t}.html`) && read(`templates/${t}.html`).trim().length > 0;
   for (const req of TEMPLATES) if (!req.split("|").some(tpl)) errs.push(`templates/${req.replace("|", ".html or ")}.html is missing`);
