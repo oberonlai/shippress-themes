@@ -12,4 +12,24 @@ Tsuribito Tackle — a WooCommerce store theme for a small harbour tackle shop, 
 Every template is the header (shop name, Shop the tackle button, account, cart and the Menu button for the full-screen crimson overlay), the page column and the footer. Page bodies come from patterns: home-hero (full-bleed shore photo, crimson strip, cut-out reel), home-board (synced tide board strip), home-shelf (sideways product strip), home-waters, home-break (crimson band with the cut-out float), home-journal, and the page heads and bodies of Tackle, The shop, Newsletter and Visit. WooCommerce templates: shop and product archives, product search, single product, cart, checkout, my account and order confirmation; their few lines of text come from tpl-t-* patterns in the content language.
 
 <!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tsuribito Tackle home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tsuribito Tackle home page on mobile"></td>
+</tr>
+</table>
+
+- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
 <!-- screenshots:end -->
