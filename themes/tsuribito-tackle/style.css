@@ -1,0 +1,304 @@
+/*
+Theme Name: Tsuribito Tackle
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/tsuribito-tackle
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Tsuribito Tackle — a WooCommerce store theme for a small harbour tackle shop, built as horizontal strips. A white top header carries the shop name, a Shop the tackle button, the account and cart, and a Menu button that opens a full-screen crimson overlay menu (numbered; vertical words in Chinese and Japanese). Crimson red (#C9171E) is the main colour: the strip across the hero's foot, the synced tide board, the tested-on-the-breakwater band, every page head and the footer strip are crimson fields. The hero is a full-bleed high-key photograph of a misty shore; a cut-out reel (transparent WebP) breaks out over the crimson strip and the photo edge, a cut-out red float breaks out of the shop photo and over the band's top edge, and over every page head. The shelf, the three waters, the promises and the tide notes are sideways scroll-snap strips. Every picture is a photorealistic high-key photograph. Kiwi Maru for display, Onest for reading. Sample content and products in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. Works without WooCommerce. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tsuribito-tackle
+Tags: e-commerce, block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--tt-paper: var(--wp--preset--color--paper);
+	--tt-mist: var(--wp--preset--color--mist);
+	--tt-beni: var(--wp--preset--color--beni);
+	--tt-ink: var(--wp--preset--color--ink);
+	--tt-deep: var(--wp--preset--color--deep);
+	--tt-quiet: var(--wp--preset--color--quiet);
+	--tt-blush: var(--wp--preset--color--blush);
+	--tt-sec: clamp(3.5rem, 7vw, 6.5rem);
+	--tt-headh: 76px;
+	--tt-wide: var(--wp--style--global--wide-size, 1200px);
+}
+
+/* Fonts per language: Kiwi Maru / Onest for Latin; Japanese headings use the Kiwi Maru subset; Chinese headings the bundled Noto Sans TC subset (never a Japanese font) */
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Kiwi Maru", "Kiwi Maru JA", "Hiragino Maru Gothic ProN", sans-serif;
+	--wp--preset--font-family--body: "Onest", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Sans TC", "Kiwi Maru", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Onest", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:lang(ja) body, :lang(zh) body { line-height: 1.9; }
+:is(:lang(ja), :lang(zh)) .tt-eyebrow { letter-spacing: 0.1em; text-transform: none; }
+
+html, body { overflow-x: clip; }
+a { color: var(--tt-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+
+/* Labels, titles, block styles */
+.tt-eyebrow { font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--tt-deep); margin: 0 0 0.75rem; }
+.tt-eyebrow a { color: inherit; text-decoration: none; }
+.tt-sec__title { margin: 0 0 1.25rem; font-size: clamp(1.875rem, 1.2rem + 2.2vw, 3.25rem); line-height: 1.15; text-wrap: balance; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.7; }
+.wp-block-button__link { transition: background-color .2s; }
+.wp-block-button__link:hover { background: var(--tt-deep); }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--tt-deep); padding: 0.25rem 0; border-bottom: 2px solid var(--tt-beni); border-radius: 0; }
+.wp-block-button.is-style-outline-light .wp-block-button__link { background: transparent; color: #FFFFFF; border: 2px solid #FFFFFF; }
+.wp-block-button.is-style-outline-light .wp-block-button__link:hover { background: #FFFFFF; color: var(--tt-deep); }
+hr.is-style-tone { border: 0; height: 4px; width: 72px !important; margin: 2.5rem 0; opacity: 1; background: var(--tt-beni); border-radius: 4px; }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.7rem 0; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.tt-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .tt-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 500; letter-spacing: 0.32em; margin: 0; line-height: 1.2; }
+
+/* Header: white bar with the shop name, the shop button, the cart and a Menu button; the menu opens as a full-screen crimson overlay */
+.tt-head-part { position: sticky; top: 0; z-index: 50; }
+.tt-head { background: var(--tt-paper); border-bottom: 1px solid color-mix(in srgb, var(--tt-ink) 12%, transparent); padding-block: 0.9rem !important; }
+.tt-bar { display: flex; align-items: center; gap: clamp(0.75rem, 2vw, 1.5rem); min-height: calc(var(--tt-headh) - 1.8rem); }
+.tt-brand { display: flex; align-items: center; gap: 0.7rem; margin: 0 auto 0 0 !important; min-width: 0; }
+.tt-brand::before { content: ""; width: 14px; height: 14px; border-radius: 50%; background: var(--tt-beni); box-shadow: 0 0 0 4px #FFFFFF, 0 0 0 5px var(--tt-beni); flex: none; }
+.tt-brand .wp-block-site-logo { margin: 0; }
+.tt-brand__title { margin: 0; font-family: var(--wp--preset--font-family--display); font-size: clamp(1.125rem, 1rem + 0.5vw, 1.4rem); font-weight: 500; letter-spacing: 0.02em; white-space: nowrap; }
+.tt-brand__title a { color: var(--tt-ink); text-decoration: none; }
+.tt-bar > * { margin-block: 0 !important; }
+.tt-head__cta { margin: 0 !important; }
+.tt-head__cta .wp-block-button__link { padding: 0.6rem 1.3rem; font-size: 0.875rem; }
+.tt-bar .wp-block-woocommerce-customer-account, .tt-bar .wp-block-woocommerce-mini-cart { margin: 0 !important; }
+.tt-bar :is(.wc-block-mini-cart__button, .wp-block-woocommerce-customer-account a) { color: var(--tt-ink); }
+.tt-bar .wc-block-mini-cart__badge { background: var(--tt-beni); color: #FFFFFF; }
+nav.tt-nav .wp-block-navigation__responsive-container-open { display: flex; align-items: center; gap: 0.45rem; padding: 0.55rem 0.9rem; border: 1.5px solid var(--tt-ink); border-radius: 999px; color: var(--tt-ink); background: var(--tt-paper); }
+nav.tt-nav .wp-block-navigation__responsive-container-open svg { width: 20px; height: 20px; }
+.wp-block-navigation.tt-nav:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--tt-beni); color: #FFFFFF; }
+nav.tt-nav .wp-block-navigation__responsive-container.is-menu-open { padding: clamp(1.5rem, 5vw, 4rem); }
+nav.tt-nav .is-menu-open .wp-block-navigation__responsive-container-content { padding-top: clamp(3rem, 8vw, 5rem); align-items: flex-start; }
+nav.tt-nav .is-menu-open .wp-block-navigation__container { counter-reset: ttnav; gap: clamp(0.4rem, 1.4vw, 1rem); align-items: flex-start; }
+nav.tt-nav .is-menu-open .wp-block-navigation-item { counter-increment: ttnav; font-family: var(--wp--preset--font-family--display); font-size: clamp(2rem, 1.2rem + 3.6vw, 4.5rem); line-height: 1.1; border-bottom: 1px solid rgba(255,255,255,.35); padding-bottom: 0.35rem; width: min(100%, 44rem); }
+nav.tt-nav .is-menu-open .wp-block-navigation-item::before { content: counter(ttnav, decimal-leading-zero); font-family: var(--wp--preset--font-family--body); font-size: 0.875rem; letter-spacing: 0.12em; margin-right: 1rem; opacity: .85; align-self: center; }
+nav.tt-nav .is-menu-open .wp-block-navigation-item a { color: #FFFFFF; text-decoration: none; }
+nav.tt-nav .is-menu-open .wp-block-navigation-item a:hover { text-decoration: underline; text-decoration-thickness: 2px; }
+nav.tt-nav .wp-block-navigation__responsive-container-close { color: #FFFFFF; }
+:is(:lang(ja), :lang(zh)) nav.tt-nav .is-menu-open .wp-block-navigation__container { flex-direction: row-reverse; flex-wrap: wrap; justify-content: flex-end; width: 100%; gap: clamp(1.2rem, 3vw, 2.5rem); }
+:is(:lang(ja), :lang(zh)) nav.tt-nav .is-menu-open .wp-block-navigation-item { writing-mode: vertical-rl; width: auto; border-bottom: 0; border-left: 1px solid rgba(255,255,255,.35); padding: 0 0 0 0.6rem; letter-spacing: 0.18em; font-size: clamp(1.75rem, 1rem + 2.6vw, 3.25rem); }
+:is(:lang(ja), :lang(zh)) nav.tt-nav .is-menu-open .wp-block-navigation-item::before { content: counter(ttnav, cjk-decimal); margin: 0 0 0.8rem; }
+@media (max-width: 599px) {
+	.tt-bar .tt-head__cta.wp-block-buttons { display: none; }
+}
+.tt-head--checkout .tt-bar > .tt-eyebrow { margin: 0 !important; color: var(--tt-quiet); }
+
+/* The page column */
+.tt-main { margin: 0 !important; padding: 0 !important; min-width: 0; }
+.tt-main > * { margin-block: 0; }
+.tt-main > .wp-block-post-content > * { margin-block: 0; }
+
+/* Sections: heads line up with the wide content, text keeps a reading measure */
+.tt-section { padding-block: var(--tt-sec); margin: 0 !important; position: relative; }
+.tt-main :is(.tt-section, .tt-pagehead).is-layout-constrained > :not(.alignfull) { max-width: var(--tt-wide) !important; }
+.tt-main :is(.tt-section, .tt-pagehead) > p:not(.tt-tate):not(.tt-eyebrow) { padding-right: max(0px, calc(100% - 40rem)); }
+.tt-section > * { margin-block-start: 0; }
+.tt-strip__head { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 2rem; margin-bottom: 2rem !important; }
+.tt-strip__head > .tt-eyebrow { flex-basis: 100%; }
+.tt-strip__head > .tt-sec__title { margin: 0; }
+.tt-strip__hint, .tt-strip__lead { margin: 0 0 0 auto; color: var(--tt-quiet); font-size: 0.9375rem; }
+.tt-more { margin-top: 2rem !important; }
+
+/* Hero: a full-bleed high-key shore photograph; a crimson strip across its foot; the cut-out reel breaks out over the strip and the photo edge */
+.tt-hero { position: relative; min-height: clamp(560px, 86vh, 860px); display: grid; grid-template-columns: minmax(0, 1fr); align-content: center; padding: clamp(4rem, 9vw, 7rem) max(clamp(1.25rem, 4.5vw, 3.5rem), calc((100% - var(--tt-wide)) / 2)) calc(clamp(4rem, 9vw, 7rem) + 64px) !important; margin: 0 !important; overflow: visible; isolation: isolate; }
+.tt-hero > * { margin: 0 !important; }
+.tt-hero__photo { position: absolute !important; inset: 0 0 64px; z-index: -1; max-width: none !important; }
+.tt-hero__photo img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 50%; display: block; }
+.tt-hero__type { grid-column: 1; max-width: 36rem; }
+.tt-hero__title { font-size: clamp(2.6rem, 1.2rem + 5vw, 5.75rem); line-height: 1.04; margin: 0 0 1.25rem; color: var(--tt-ink); letter-spacing: -0.01em; }
+.tt-hero__title::first-line { color: var(--tt-ink); }
+.tt-hero__lead { font-size: var(--wp--preset--font-size--large); max-width: 30rem; margin: 0 0 2rem; color: var(--tt-ink); }
+.tt-hero__cta { gap: 1.5rem; align-items: center; }
+.tt-hero .tt-tate { grid-column: 1; grid-row: 1; justify-self: end; align-self: start; color: var(--tt-beni); font-size: clamp(1.5rem, 1rem + 1.5vw, 2.25rem); margin-right: clamp(0rem, 18vw, 16rem) !important; }
+.tt-hero__strip { position: absolute !important; left: 0; right: 0; bottom: 0; height: 64px; background: var(--tt-beni); color: #FFFFFF; display: flex; align-items: center; gap: 2rem; padding: 0 max(clamp(1.25rem, 4.5vw, 3.5rem), calc((100% - var(--tt-wide)) / 2)); }
+.tt-hero__strip p { margin: 0; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.8125rem; }
+.tt-hero__strip-hint { opacity: .92; }
+:is(:lang(ja), :lang(zh)) .tt-hero__strip p { text-transform: none; letter-spacing: 0.1em; }
+.tt-hero__reel { position: absolute !important; right: max(1rem, calc((100% - var(--tt-wide)) / 2 + 2rem)); bottom: -70px; width: clamp(200px, 26vw, 400px); z-index: 3; filter: drop-shadow(0 22px 26px rgba(28, 20, 22, .28)); transform: rotate(-12deg); }
+.tt-hero__reel img { display: block; width: 100%; }
+@media (max-width: 781px) {
+	.tt-hero { min-height: 0; align-content: start; padding-top: 3rem !important; padding-bottom: calc(64px + 9rem) !important; }
+	.tt-hero__photo img { object-position: 78% 50%; }
+	.tt-hero__type { background: rgba(255, 255, 255, .78); padding: 1.25rem; margin-inline: -0.5rem !important; }
+	.tt-hero__reel { width: 190px; bottom: -40px; right: 1rem; }
+	.tt-hero__strip { gap: 1rem; }
+	.tt-hero__strip-hint { display: none; }
+	.tt-hero .tt-tate { display: none; }
+}
+
+/* Tide board (synced): a crimson horizontal strip of cells */
+.tt-boardband { background: var(--tt-beni); color: #FFFFFF; padding-block: clamp(5rem, 8vw, 6.5rem) clamp(2.5rem, 4vw, 3.5rem); }
+.tt-board { display: flex; gap: 0; overflow-x: auto; scroll-snap-type: x mandatory; border-top: 1px solid rgba(255,255,255,.45); border-bottom: 1px solid rgba(255,255,255,.45); }
+.tt-board > * { margin: 0 !important; flex: 1 0 15rem; scroll-snap-align: start; padding: 1.25rem 1.5rem 1.25rem 0; }
+.tt-board > * + * { border-left: 1px solid rgba(255,255,255,.45); padding-left: 1.5rem; }
+.tt-board p { margin: 0; }
+.tt-board__label { font-family: var(--wp--preset--font-family--display); font-size: 1.5rem; line-height: 1.2; }
+.tt-board__open, .tt-board__k { font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 600; margin-top: 0.4rem !important; }
+.tt-board__k { margin: 0 0 0.5rem !important; opacity: .92; }
+.tt-board__v { font-size: 1rem; line-height: 1.5; }
+:is(:lang(ja), :lang(zh)) :is(.tt-board__open, .tt-board__k) { text-transform: none; letter-spacing: 0.08em; }
+.tt-contact .tt-board { margin-top: 2.5rem; background: var(--tt-beni); color: #FFFFFF; padding: 0 1.5rem; flex-wrap: wrap; }
+.tt-contact .tt-board > * { flex: 1 1 100%; border-left: 0; padding-left: 0; }
+.tt-contact .tt-board > * + * { border-top: 1px solid rgba(255,255,255,.45); }
+
+/* Sideways strips: the shelf, the three waters and the tide notes scroll horizontally with scroll-snap */
+.tt-shelf { background: var(--tt-paper); }
+.tt-rail .wc-block-product-template, .tt-rail.tt-rail--static { display: flex !important; flex-wrap: nowrap !important; gap: clamp(1rem, 2vw, 1.75rem); overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 0 1.25rem !important; margin: 0 !important; scrollbar-color: var(--tt-beni) var(--tt-mist); }
+.tt-rail .wc-block-product-template > li, .tt-rail--static > * { flex: 0 0 clamp(230px, 24vw, 300px) !important; width: auto !important; max-width: none !important; scroll-snap-align: start; margin: 0 !important; }
+.tt-rail--static img { aspect-ratio: 1; object-fit: cover; }
+.tt-card__photo { margin: 0 0 0.9rem !important; background: var(--tt-mist); }
+.tt-card__photo img { display: block; aspect-ratio: 1; object-fit: cover; }
+.tt-card__name { font-family: var(--wp--preset--font-family--display); font-size: 1.125rem !important; font-weight: 500; line-height: 1.35; margin: 0 0 0.3rem !important; text-align: left !important; }
+.tt-card__name a { color: var(--tt-ink); text-decoration: none; }
+.tt-card__name a:hover { color: var(--tt-deep); text-decoration: underline; }
+.tt-card__price { color: var(--tt-deep); font-weight: 600; text-align: left !important; }
+.tt-waters { background: var(--tt-mist); }
+.tt-waters__row { display: flex; gap: clamp(1rem, 2.5vw, 2rem); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 1rem; }
+.tt-water { flex: 1 0 min(80vw, 340px); scroll-snap-align: start; background: var(--tt-paper); margin: 0 !important; padding-bottom: 1.5rem; position: relative; border-top: 6px solid var(--tt-beni); }
+.tt-water > * { margin-inline: 1.5rem !important; }
+.tt-water__img { margin: 0 0 1.25rem !important; }
+.tt-water__img img { display: block; aspect-ratio: 16/10; object-fit: cover; width: 100%; }
+.tt-water__no { position: absolute; top: 1rem; left: 1rem; margin: 0 !important; background: var(--tt-beni); color: #FFFFFF; font-weight: 700; font-size: 0.8125rem; padding: 0.25rem 0.6rem; letter-spacing: 0.1em; }
+.tt-water__title { font-size: 1.5rem; margin: 0 0 0.5rem; }
+.tt-water__text { color: var(--tt-quiet); margin: 0 1.5rem !important; }
+
+/* Tested on the breakwater: a full crimson band; the cut-out float breaks out of the photo frame and over the band's top edge */
+.tt-break { background: var(--tt-beni); color: #FFFFFF; padding-block: clamp(5rem, 9vw, 8rem); overflow: visible; }
+.tt-break .tt-eyebrow { color: #FFFFFF; }
+.tt-break .tt-sec__title { color: #FFFFFF; }
+.tt-break__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; }
+.tt-break__grid > * { margin: 0 !important; }
+.tt-break__photo { position: relative; }
+.tt-break__img { margin: 0 !important; border: 10px solid #FFFFFF; }
+.tt-break__img img { display: block; width: 100%; aspect-ratio: 4/5; object-fit: cover; }
+.tt-break__float { position: absolute !important; top: calc(-1 * clamp(7rem, 12vw, 10rem)); right: -14%; width: clamp(150px, 18vw, 250px); margin: 0 !important; transform: rotate(14deg); filter: drop-shadow(0 18px 22px rgba(28, 20, 22, .35)); z-index: 2; }
+.tt-break__float img { display: block; width: 100%; }
+.tt-break__text p { max-width: 34rem; }
+@media (max-width: 781px) {
+	.tt-break__grid { grid-template-columns: minmax(0, 1fr); }
+	.tt-break__photo { max-width: 360px; margin-top: 3rem !important; }
+	.tt-break__float { right: -8%; width: 130px; top: -5rem; }
+}
+
+/* Tide notes: home strip and lists */
+.tt-home-journal { background: var(--tt-paper); }
+.tt-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.25rem); padding: 0; }
+.tt-notes--strip .wp-block-post-template { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 1rem; }
+.tt-notes--strip .wp-block-post-template > li { flex: 1 0 min(80vw, 340px); scroll-snap-align: start; }
+.tt-notes .wp-block-post-template > li { margin: 0; }
+.tt-note__img { margin: 0 0 0.9rem; }
+.tt-note__img img { display: block; }
+.tt-note__date { font-size: 0.8125rem; color: var(--tt-deep); font-variant-numeric: tabular-nums; font-weight: 600; letter-spacing: 0.06em; }
+.tt-note__title { font-size: 1.35rem; margin: 0.25rem 0 0.5rem; }
+.tt-note__title a { color: var(--tt-ink); text-decoration: none; }
+.tt-note__title a:hover { color: var(--tt-deep); text-decoration: underline; }
+.tt-pagination { margin-top: 2.5rem; }
+.tt-list { background: var(--tt-paper); }
+@media (max-width: 860px) { .tt-notes:not(.tt-notes--strip) .wp-block-post-template { grid-template-columns: minmax(0, 1fr); } }
+
+/* Page heads: a crimson field with white type; the cut-out float breaks over the bottom edge */
+.tt-pagehead { position: relative; padding-block: clamp(3.5rem, 7vw, 6rem) clamp(4rem, 8vw, 6.5rem); margin: 0 !important; background: var(--tt-beni); color: #FFFFFF; overflow: visible; }
+.tt-pagehead .tt-eyebrow, .tt-pagehead a { color: #FFFFFF; }
+.tt-pagehead__title { color: #FFFFFF; font-size: clamp(2.25rem, 1.3rem + 3.4vw, 4.5rem); line-height: 1.08; margin: 0 0 1rem; text-wrap: balance; }
+.tt-pagehead__lead { font-size: var(--wp--preset--font-size--large); margin: 0; }
+.tt-pagehead__cut { position: absolute !important; right: max(1.5rem, calc((100% - var(--tt-wide)) / 2 + 3rem)); bottom: -64px; width: clamp(120px, 14vw, 190px); margin: 0 !important; transform: rotate(16deg); filter: drop-shadow(0 16px 18px rgba(28, 20, 22, .3)); z-index: 3; }
+.tt-pagehead__cut img { display: block; width: 100%; }
+.tt-pagehead .tt-tate { position: absolute; top: clamp(2.5rem, 5vw, 4rem); right: max(1.5rem, calc((100% - var(--tt-wide)) / 2 + 15rem)); color: #FFFFFF; font-size: 1.5rem; }
+.tt-pagehead .tt-search { max-width: 30rem; margin: 1.5rem 0 !important; }
+.tt-pagehead .wp-block-button.is-style-outline .wp-block-button__link { background: #FFFFFF; color: var(--tt-deep); border: 0; }
+.tt-404 + * { margin: 0; }
+@media (max-width: 781px) { .tt-pagehead .tt-tate { display: none; } .tt-pagehead__cut { bottom: -40px; width: 100px; } }
+.tt-crumbs, .tt-pagehead .woocommerce-breadcrumb { color: #FFFFFF; font-size: 0.8125rem; margin-bottom: 1.5rem !important; }
+
+/* The shop (about) */
+.tt-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; }
+.tt-about__story > * { margin: 0 !important; }
+.tt-about__img img { display: block; aspect-ratio: 4/5; object-fit: cover; width: 100%; }
+.tt-promise { margin-top: var(--tt-sec) !important; }
+.tt-promise__list { list-style: none; counter-reset: ttpr; padding: 0; margin: 0; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 0; border-top: 6px solid var(--tt-beni); }
+.tt-promise__list li { counter-increment: ttpr; flex: 1 0 15rem; scroll-snap-align: start; padding: 1.5rem 1.5rem 1.5rem 0; font-family: var(--wp--preset--font-family--display); font-size: 1.25rem; line-height: 1.4; }
+.tt-promise__list li + li { border-left: 1px solid color-mix(in srgb, var(--tt-ink) 18%, transparent); padding-left: 1.5rem; }
+.tt-promise__list li::before { content: counter(ttpr, decimal-leading-zero); display: block; font-family: var(--wp--preset--font-family--body); font-size: 0.8125rem; color: var(--tt-deep); font-weight: 700; letter-spacing: 0.12em; margin-bottom: 0.6rem; }
+@media (max-width: 781px) { .tt-about__story { grid-template-columns: minmax(0, 1fr); } }
+
+/* Newsletter and Visit */
+.tt-letter__grid, .tt-contact__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; }
+.tt-letter__grid > *, .tt-contact__grid > * { margin: 0 !important; }
+.tt-letter__img img { display: block; aspect-ratio: 4/3; object-fit: cover; width: 100%; }
+.tt-letter__card { background: var(--tt-mist); padding: clamp(1.5rem, 4vw, 2.5rem); border-top: 6px solid var(--tt-beni); }
+.tt-contact__find { background: var(--tt-mist); padding: clamp(1.5rem, 4vw, 2.5rem); }
+@media (max-width: 781px) { .tt-letter__grid, .tt-contact__grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Shop details (synced) */
+.tt-details { margin: 0; }
+.tt-details p { margin: 0 0 0.4rem; }
+.tt-details__hours { font-weight: 600; }
+.tt-details__note { font-size: 0.875rem; opacity: .9; margin-top: 0.75rem !important; }
+
+/* Single note and plain pages */
+.tt-article__head > * { margin-block: 0 0.75rem; }
+.tt-article__head { margin-bottom: 2rem; }
+.tt-article .tt-pagehead__title { color: var(--tt-ink); font-size: clamp(2.25rem, 1.2rem + 3vw, 4rem); }
+.tt-article__date { color: var(--tt-quiet); font-size: 0.875rem; }
+.tt-photo { margin-block: 0 2.5rem; border-bottom: 6px solid var(--tt-beni); }
+.tt-photo img { display: block; max-height: 560px; object-fit: cover; }
+.tt-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.tt-tags a { display: inline-block; background: var(--tt-mist); color: var(--tt-deep); padding: 0.2rem 0.8rem; border-radius: 999px; text-decoration: none; font-size: 0.875rem; margin: 0 0.25rem 0.25rem 0; }
+.tt-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.tt-page .tt-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Store pages */
+.tt-shophead .tt-eyebrow { color: #FFFFFF; }
+.tt-shopbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2rem !important; }
+.tt-shopbar > * { margin: 0 !important; }
+.tt-grid .wc-block-product-template { gap: clamp(1.25rem, 3vw, 2.25rem) !important; }
+.tt-shopgrid { padding-top: calc(var(--tt-sec) + 2rem); }
+.tt-product__main { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: start; margin-top: 1.5rem !important; }
+.tt-product__main > * { margin: 0 !important; }
+.tt-product .tt-crumbs { color: var(--tt-quiet); }
+.tt-product__title { font-size: clamp(2rem, 1.3rem + 2.4vw, 3.25rem); margin: 0 0 0.75rem; }
+.tt-product__price { font-size: 1.5rem; color: var(--tt-deep); font-weight: 600; margin-bottom: 1rem; }
+.tt-product-note { background: var(--tt-mist); border-left: 6px solid var(--tt-beni); padding: 1.25rem 1.5rem; margin: 1.5rem 0 !important; }
+.tt-product-note p { margin: 0 0 0.4rem; }
+.tt-product__meta { font-size: 0.875rem; color: var(--tt-quiet); gap: 1rem; }
+.tt-product__details { margin-top: var(--tt-sec) !important; }
+.tt-related { background: var(--tt-mist); }
+.tt-store-page__head { margin-bottom: 2rem !important; }
+.tt-store-page .tt-pagehead__title { color: var(--tt-ink); }
+@media (max-width: 781px) { .tt-product__main { grid-template-columns: minmax(0, 1fr); } }
+
+/* Footer: a crimson strip with the shop line, then the ink field */
+.tt-foot { background: var(--tt-ink); color: #FFFFFF; padding: 0 0 2rem !important; margin: 0 !important; }
+.tt-foot a { color: #FFFFFF; }
+.tt-foot__strip { background: var(--tt-beni); padding-block: 1.6rem !important; margin: 0 !important; }
+.tt-foot__strip > * { max-width: var(--tt-wide) !important; }
+.tt-foot__sub { margin: 0; font-family: var(--wp--preset--font-family--display); font-size: clamp(1.125rem, 1rem + 0.6vw, 1.5rem); line-height: 1.45; }
+.tt-foot__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) minmax(0, 3fr); gap: clamp(1.5rem, 4vw, 3rem); padding-block: clamp(3rem, 6vw, 4.5rem) 2rem; }
+.tt-foot__grid > * { margin: 0 !important; }
+.tt-foot__mark { font-family: var(--wp--preset--font-family--display); font-size: clamp(1.75rem, 1.2rem + 1.8vw, 2.75rem); margin: 0 0 0.75rem; line-height: 1.1; }
+.tt-foot__mark a { text-decoration: none; }
+.tt-foot__tag { color: var(--tt-blush); font-size: 0.9375rem; max-width: 26rem; }
+nav.tt-foot__nav .wp-block-navigation__container { gap: 0.5rem; }
+nav.tt-foot__nav a { text-decoration: none; }
+nav.tt-foot__nav a:hover { text-decoration: underline; }
+.tt-foot__base { border-top: 1px solid rgba(255,255,255,.2); padding-top: 1.25rem; }
+.tt-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--tt-blush); }
+.tt-foot .tt-details__note { color: var(--tt-blush); }
+@media (max-width: 860px) { .tt-foot__grid { grid-template-columns: minmax(0, 1fr); } }
+
+@media (prefers-reduced-motion: reduce) {
+	* { scroll-behavior: auto !important; transition: none !important; }
+}

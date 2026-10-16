@@ -1,0 +1,35 @@
+# Tsuribito Tackle
+
+Tsuribito Tackle — a WooCommerce store theme for a small harbour tackle shop, built as horizontal strips. A white top header carries the shop name, a Shop the tackle button, the account and cart, and a Menu button that opens a full-screen crimson overlay menu (numbered; vertical words in Chinese and Japanese). Crimson red (#C9171E) is the main colour: the strip across the hero's foot, the synced tide board, the tested-on-the-breakwater band, every page head and the footer strip are crimson fields. The hero is a full-bleed high-key photograph of a misty shore; a cut-out reel (transparent WebP) breaks out over the crimson strip and the photo edge, a cut-out red float breaks out of the shop photo and over the band's top edge, and over every page head. The shelf, the three waters, the promises and the tide notes are sideways scroll-snap strips. Every picture is a photorealistic high-key photograph. Kiwi Maru for display, Onest for reading. Sample content and products in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. Works without WooCommerce. WCAG AA colours; no entrance animations.
+
+- Design plan row b3-25: horizontal-strip, full-bleed-illustration hero (a high-key photograph), overlay nav, real-photography, high-key, beni crimson #C9171E, Kiwi Maru + Onest.
+- Sample content languages: en, zh-TW, ja, fr, de.
+- Contrast: white #FFFFFF on crimson #C9171E 5.79:1 (all text on the hero strip, tide board, breakwater band, page heads, footer strip, menu overlay and buttons); ink #1C1416 on white 18.1:1 (body text, hero type over the high-key photo's white sky); deep crimson #9E1117 on white 8.25:1 and on mist #F6F1F1 7.37:1 (links, prices, labels); wet stone #5F5658 on white 7.1:1 and on mist 6.34:1 (secondary text); white on ink 18.1:1 and pale red #F4B9BB on ink 10.8:1 (footer); crimson on white 5.79:1 (marks); ink on crimson only 3.1:1, never used for text.
+- Break-frame: the cut-out reel (transparent WebP) breaks out of the full-bleed hero photo, over the crimson strip at its foot and into the tide board below; the cut-out red float breaks out of the framed shop photo and over the top edge of the crimson breakwater band; the same float breaks over the bottom edge of every page head.
+
+## Templates and patterns
+
+Every template is the header (shop name, Shop the tackle button, account, cart and the Menu button for the full-screen crimson overlay), the page column and the footer. Page bodies come from patterns: home-hero (full-bleed shore photo, crimson strip, cut-out reel), home-board (synced tide board strip), home-shelf (sideways product strip), home-waters, home-break (crimson band with the cut-out float), home-journal, and the page heads and bodies of Tackle, The shop, Newsletter and Visit. WooCommerce templates: shop and product archives, product search, single product, cart, checkout, my account and order confirmation; their few lines of text come from tpl-t-* patterns in the content language.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tsuribito Tackle home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tsuribito Tackle home page on mobile"></td>
+</tr>
+</table>
+
+- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
