@@ -32,7 +32,7 @@ The camp, its staff, address, telephone number and prices are fictional.
 == Copyright ==
 
 Hoshizora Camp is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Klee One (OFL-1.1) and Gothic A1 (OFL-1.1), subset to Latin (and, for Klee One SemiBold, the kana and kanji of the Japanese sample text), as WOFF2; see assets/fonts/.
+Fonts: Klee One (OFL-1.1) and Gothic A1 (OFL-1.1), subset to Latin (and, for Klee One SemiBold, the kana and kanji of the Japanese sample text), and LXGW WenKai TC (OFL-1.1), subset to the characters of the Traditional Chinese sample text, as WOFF2; see assets/fonts/.
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as watercolour illustrations, released under GPL-2.0-or-later / CC0 (no stock images, no real people or brands; the camp is fictional). The tent and lantern cut-outs have transparent backgrounds (scripts/grok-image.sh --cutout). Copies in assets/images/demo/ are the same pictures, used by the demo import.

@@ -32,7 +32,7 @@ The school, its teachers, address, telephone number and fees are fictional.
 == Copyright ==
 
 Taiko Juku is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Yusei Magic (OFL-1.1), subset to Latin and to the characters of the Chinese and Japanese sample text, and Karla (OFL-1.1), Latin variable, as WOFF2; see assets/fonts/.
+Fonts: Yusei Magic (OFL-1.1), subset to Latin and to the characters of the Chinese and Japanese sample text, and Karla (OFL-1.1), Latin variable, and Huninn (OFL-1.1), subset to the characters of the Traditional Chinese sample text, as WOFF2; see assets/fonts/.
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as low-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the school is fictional). The drum cut-out has a transparent background (scripts/grok-image.sh --cutout). Copies in assets/images/demo/ are the same pictures, used by the demo import.

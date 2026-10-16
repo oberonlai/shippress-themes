@@ -5,6 +5,7 @@ import { cpSync, existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, wri
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { checkZhFonts, woff2Codepoints, zhCjkChars, zhTwText } from "./zh-fonts.mjs";
 import { buildIndex, checkTheme, cssWords, LEGACY_IMPORTERS, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
 
 const THEMES = fileURLToPath(new URL("../themes/", import.meta.url));
@@ -184,4 +185,69 @@ test("demo-content.<lang>.json must keep the English file's slugs and screens; C
     assert.match(errs, /inc\/i18n\/fr\.php:\d+: theme copy must be English/);
     assert.doesNotMatch(errs, /i18n\/ja\.php/);
   } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+// ---- zh-TW fonts: a Traditional Chinese font with a glyph for every zh-TW sample character, never a Japanese font ----
+const zhThemes = slugs.filter((s) => existsSync(join(THEMES, s, "demo-content.zh-TW.json")));
+
+test("every theme with zh-TW sample content passes the zh-TW font check", () => {
+  assert.ok(zhThemes.length >= 3);
+  for (const s of zhThemes) assert.deepEqual(checkZhFonts(join(THEMES, s)), [], s);
+});
+
+test("zh-TW font check reads real glyph coverage from the bundled WOFF2", () => {
+  const cps = woff2Codepoints(readFileSync(join(THEMES, "hoshizora-camp/assets/fonts/lxgw-wenkai-tc-zh-tw-700.woff2")));
+  for (const c of "八頂帳篷一片草原和整星空露") assert.ok(cps.has(c.codePointAt(0)), c);
+  assert.ok(!cps.has("\u{1f600}".codePointAt(0)));
+  // the Japanese-only subset is not a zh-TW font: it lacks most zh-TW characters
+  const ja = woff2Codepoints(readFileSync(join(THEMES, "hoshizora-camp/assets/fonts/klee-one-ja-semibold.woff2")));
+  const chars = zhCjkChars(zhTwText(join(THEMES, "hoshizora-camp")));
+  assert.ok(chars.filter((c) => !ja.has(c.codePointAt(0))).length > 100);
+});
+
+function withZhTheme(edit) {
+  const tmp = mkdtempSync(join(tmpdir(), "zhfont-"));
+  const dir = join(tmp, "hoshizora-camp");
+  cpSync(join(THEMES, "hoshizora-camp"), dir, { recursive: true });
+  try { edit(dir); return checkZhFonts(dir); } finally { rmSync(tmp, { recursive: true, force: true }); }
+}
+
+test("zh-TW font check fails when the zh-TW font file is missing", () => {
+  const errs = withZhTheme((d) => rmSync(join(d, "assets/fonts/lxgw-wenkai-tc-zh-tw-700.woff2")));
+  assert.match(errs.join("\n"), /bundled Traditional Chinese font subset/);
+});
+
+test("zh-TW font check fails when a sample character has no glyph", () => {
+  const errs = withZhTheme((d) => {
+    const f = join(d, "demo-content.zh-TW.json");
+    writeFileSync(f, readFileSync(f, "utf8").replace("\"title\":", "\"title\": \"\u9f98\u9f99\",\"_x\":"));
+  });
+  assert.match(errs.join("\n"), /no glyph for \d+ zh-TW character/);
+});
+
+test("zh-TW font check fails when the zh stack lists a Japanese font or lacks the zh-TW font", () => {
+  const ja = withZhTheme((d) => {
+    const f = join(d, "style.css");
+    writeFileSync(f, readFileSync(f, "utf8").replace('"LXGW WenKai TC", "Klee One", "Kaiti TC"', '"LXGW WenKai TC", "Klee One", "Klee One JA", "Kaiti TC"'));
+  });
+  assert.match(ja.join("\n"), /Japanese font Klee One JA/);
+  const none = withZhTheme((d) => {
+    const f = join(d, "style.css");
+    writeFileSync(f, readFileSync(f, "utf8").replace('"LXGW WenKai TC", "Klee One", "Kaiti TC"', '"Klee One", "Kaiti TC"'));
+  });
+  assert.match(none.join("\n"), /must list the bundled zh-TW font/);
+});
+
+test("zh-TW font check fails when a Japanese subset is declared inside a Latin family entry (WordPress merges them)", () => {
+  const errs = withZhTheme((d) => {
+    const f = join(d, "theme.json");
+    const j = JSON.parse(readFileSync(f, "utf8"));
+    const fams = j.settings.typography.fontFamilies;
+    const display = fams.find((e) => e.slug === "display");
+    const ja = fams.find((e) => e.slug === "display-ja");
+    display.fontFace.push(...ja.fontFace);
+    j.settings.typography.fontFamilies = fams.filter((e) => e !== ja);
+    writeFileSync(f, JSON.stringify(j, null, "\t"));
+  });
+  assert.match(errs.join("\n"), /WordPress renames it/);
 });
