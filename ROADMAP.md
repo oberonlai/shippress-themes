@@ -221,7 +221,7 @@ Rows 1–20 above are all done, so the plan was extended by 16 rows with the sam
 
 | # | Name / slug | Industry | Category | Archetype | Hero | Nav | Image | Illustration / photo direction | Main colour | Fonts | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 21 | Tasuki Ekiden / tasuki-ekiden | ekiden relay race | events-community | horizontal-strip | text-left-art-right | centered | full-illustration | sumi-ink | 紺碧 #007BBB (blue) | Rampart One + Archivo | todo |
+| 21 | Tasuki Ekiden / tasuki-ekiden | ekiden relay race | events-community | horizontal-strip | text-left-art-right | centered | full-illustration | sumi-ink | 紺碧 #007BBB (blue) | Rampart One + Archivo | claimed |
 | 22 | Koshi Machiya / koshi-machiya | machiya townhouse stay | travel-stays | editorial-magazine | stacked-collage | side-rail | collage | pencil-sketch | 柿 #ED6D3D (vermilion) | Shippori Mincho B1 + Instrument Sans | todo |
 | 23 | Fukusa Chado / fukusa-chado | tea ceremony school | education-classes | card-mosaic | centered-giant-type | top-bar | full-illustration | 3d-clay | 常磐 #007B43 (green) | Kaisei Opti + Mulish | todo |
 | 24 | Kanna Komuten / kanna-komuten | machiya renovation carpenter | business-services | split-screen | full-bleed-illustration | side-rail | real-photography | film-grain | 鬱金 #FABF14 (yellow) | Zen Kaku Gothic Antique + Schibsted Grotesk | todo |
