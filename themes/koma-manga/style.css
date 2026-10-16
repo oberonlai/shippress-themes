@@ -1,0 +1,416 @@
+/*
+Theme Name: Koma Manga
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/koma-manga
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Koma Manga — a manga artist portfolio theme set like a poster: a paper header with the studio name and a Request a commission button, whose menu runs down a fixed sumi side rail on wide screens (stacked vertical words in Chinese and Japanese). Wakatake young-bamboo green (#68BE8D) is the main colour: the hero, every page head and the serial band are bamboo-green fields with sumi-ink type. The hero is centred giant type over a collage of tilted clay-diorama panels taped onto screen-tone pieces; a cut-out clay artist leaps out of the collage and over the hero edge, a cut-out dip pen breaks out of the serial band's desk panel and over its top edge, and a clay cat peeks over every page head. Every picture is a 3D clay illustration. Selected works are laid out like a manga page, the process as a four-panel strip. Zen Old Mincho for display, Golos Text for reading. Sample content in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: koma-manga
+Tags: block-patterns, full-site-editing, portfolio, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, left-sidebar
+*/
+
+:root {
+	--km-paper: var(--wp--preset--color--paper);
+	--km-take: var(--wp--preset--color--wakatake);
+	--km-mint: var(--wp--preset--color--mint);
+	--km-ink: var(--wp--preset--color--ink);
+	--km-deep: var(--wp--preset--color--deep);
+	--km-quiet: var(--wp--preset--color--quiet);
+	--km-sprout: var(--wp--preset--color--sprout);
+	--km-beni: var(--wp--preset--color--beni);
+	--km-pad: clamp(1.25rem, 4vw, 3rem);
+	--km-sec: clamp(3.5rem, 7vw, 6.5rem);
+	--km-line: 3px solid var(--km-ink);
+	--km-tone: radial-gradient(circle, rgba(16, 35, 26, 0.26) 1.3px, transparent 1.8px) 0 0 / 9px 9px;
+	--km-tone-light: radial-gradient(circle, rgba(243, 248, 244, 0.22) 1.3px, transparent 1.8px) 0 0 / 9px 9px;
+	--km-rail: 0px;
+	--km-headh: 78px;
+}
+
+/* Fonts per language: Zen Old Mincho / Golos Text for Latin; CJK headings use the Zen Old Mincho subset, body falls back to system CJK */
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Zen Old Mincho", "Zen Old Mincho CJK", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Golos Text", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+:root:lang(zh) {
+	--wp--preset--font-family--display: "LXGW WenKai TC", "Zen Old Mincho", "PingFang TC", "Noto Serif TC", serif;
+	--wp--preset--font-family--body: "Golos Text", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+}
+:lang(ja) body, :lang(zh) body { line-height: 1.9; }
+:is(:lang(ja), :lang(zh)) :is(.km-eyebrow, .km-board__tonight, .km-rates__label, .km-row__facts, .km-work__facts) { letter-spacing: 0.08em; text-transform: none; }
+
+html, body { overflow-x: clip; }
+a { color: var(--km-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+
+/* Labels, titles, block styles */
+.km-eyebrow { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--km-deep); margin: 0 0 0.75rem; }
+.km-eyebrow a { color: inherit; text-decoration: none; }
+.km-sec__title { margin: 0 0 1.25rem; font-size: clamp(2rem, 1.2rem + 2.6vw, 3.5rem); line-height: 1.08; text-wrap: balance; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.65; }
+.wp-block-button__link { box-shadow: 4px 4px 0 var(--km-take); }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--km-deep); padding: 0.25rem 0; border-bottom: 3px solid currentColor; border-radius: 0; box-shadow: none; }
+.wp-block-button.is-style-outline .wp-block-button__link { background: var(--km-paper); color: var(--km-ink); border: var(--km-line); box-shadow: 4px 4px 0 var(--km-ink); }
+hr.is-style-tone { border: 0; height: 18px; width: 140px !important; margin: 2.5rem 0; opacity: 1; background: var(--km-tone); background-size: 6px 6px; border-top: var(--km-line); }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.7rem 0 0.7rem 1.6rem; border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent); position: relative; }
+.is-style-rule-list li::before { content: ""; position: absolute; left: 0.1rem; top: 1.2rem; width: 0.7rem; height: 0.7rem; background: var(--km-take); border: 2px solid var(--km-ink); }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.km-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .km-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 900; letter-spacing: 0.3em; margin: 0; line-height: 1.2; }
+
+/* Header: paper bar with the studio name and the commission button; on wide screens its menu runs down a fixed sumi side rail */
+.km-head-part { position: sticky; top: 0; z-index: 30; }
+.km-head { margin: 0; background: var(--km-paper); color: var(--km-ink); border-bottom: var(--km-line); }
+.km-head > .km-bar { max-width: 100% !important; }
+.km-bar { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 1rem 2rem; min-height: 75px; }
+.km-bar > * { margin: 0 !important; }
+.km-brand { display: flex; align-items: baseline; gap: 0.25rem 1.25rem; flex-wrap: wrap; margin-right: auto !important; }
+.km-brand > * { margin: 0 !important; }
+.km-brand__title { font-family: var(--wp--preset--font-family--display); font-weight: 900; font-size: clamp(1.5rem, 1.15rem + 1vw, 2.125rem); line-height: 1.05; white-space: nowrap; letter-spacing: -0.01em; }
+.km-brand__title a { color: var(--km-ink); text-decoration: none; }
+.km-brand__tag { font-size: 0.8125rem; color: var(--km-quiet); max-width: 26rem; line-height: 1.4; }
+.km-nav { font-weight: 700; font-size: 0.9375rem; letter-spacing: 0.03em; }
+.km-nav a { color: var(--km-ink); text-decoration: none; white-space: nowrap; }
+.km-nav a:hover, .km-nav .current-menu-item > a { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 0.35em; }
+.km-nav .wp-block-navigation__responsive-container-open { color: var(--km-ink); border: var(--km-line); padding: 0.4rem; background: var(--km-take); }
+.km-head__cta .wp-block-button__link { background: var(--km-ink); color: #FFFFFF; padding: 0.65rem 1.3rem; white-space: nowrap; box-shadow: 4px 4px 0 var(--km-take); }
+.km-head .km-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--km-take); color: var(--km-ink); padding: 2rem var(--km-pad); }
+.km-nav .is-menu-open .wp-block-navigation__container { gap: 1rem; font-family: var(--wp--preset--font-family--display); font-weight: 900; font-size: 2.25rem; }
+.km-nav .is-menu-open a { color: var(--km-ink); }
+@media (max-width: 1279px) { .km-brand__tag { display: none; } }
+@media (min-width: 1100px) {
+	:root { --km-rail: 176px; }
+	nav.km-nav { box-sizing: border-box; position: fixed; left: 0; top: var(--km-headh); bottom: 0; width: var(--km-rail); background: var(--km-ink); border-right: 6px solid var(--km-take); padding: 2.25rem 1.25rem; overflow-y: auto; }
+	.km-nav .wp-block-navigation__container { flex-direction: column; align-items: stretch; gap: 0.75rem; counter-reset: kmnav; }
+	.km-nav .wp-block-navigation-item { counter-increment: kmnav; width: 100%; display: block; padding: 0.6rem 0 0.75rem; border-bottom: 1px solid rgba(168, 221, 188, 0.3); font-family: var(--wp--preset--font-family--display); font-weight: 900; font-size: 1.1875rem; }
+	.km-nav .wp-block-navigation-item::before { content: counter(kmnav, decimal-leading-zero); display: block; font-family: var(--wp--preset--font-family--body); font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.14em; color: var(--km-take); margin-bottom: 0.15rem; }
+	nav.km-nav, .km-nav .wp-block-navigation-item__content { color: var(--km-paper); }
+	.km-nav .wp-block-navigation-item__content:hover, .km-nav .current-menu-item > .wp-block-navigation-item__content { color: var(--km-take); }
+	:is(:lang(ja), :lang(zh)) .km-nav .wp-block-navigation__container { align-items: center; gap: 1.1rem; }
+	:is(:lang(ja), :lang(zh)) .km-nav .wp-block-navigation-item { width: auto; writing-mode: vertical-rl; border: 0; border-top: 3px solid var(--km-take); padding: 0.6rem 0 0; letter-spacing: 0.22em; font-size: 1.125rem; }
+	:is(:lang(ja), :lang(zh)) .km-nav .wp-block-navigation-item::before { content: counter(kmnav, cjk-decimal); writing-mode: horizontal-tb; text-align: center; margin: 0 0 0.35rem; letter-spacing: 0; font-size: 0.75rem; }
+	.km-foot { margin-left: var(--km-rail) !important; position: relative; z-index: 31; }
+}
+@media (max-width: 599px) {
+	.km-bar { gap: 0.75rem; min-height: 64px; }
+	.km-brand__title { font-size: 1.375rem; white-space: normal; }
+	.km-head__cta .wp-block-button__link { padding: 0.5rem 0.8rem; font-size: 0.8125rem; box-shadow: 3px 3px 0 var(--km-take); }
+}
+
+/* The page column */
+.km-shell { display: block; margin: 0 0 0 var(--km-rail) !important; }
+.km-main { margin: 0 !important; padding: 0 !important; min-width: 0; }
+.km-main > * { margin-block: 0; }
+.km-main > .wp-block-post-content > * { margin-block: 0; }
+
+/* Sections inside the page column: heads line up with the wide content, text keeps a reading measure */
+.km-section { padding-block: var(--km-sec); margin: 0 !important; position: relative; }
+.km-main .km-section.is-layout-constrained > :not(.alignfull), .km-main .km-pagehead.is-layout-constrained > :not(.alignfull) { max-width: var(--wp--style--global--wide-size) !important; }
+.km-main :is(.km-section, .km-pagehead) > p:not(.km-tate):not(.km-eyebrow) { padding-right: max(0px, calc(100% - 40rem)); }
+.km-section > * { margin-block-start: 0; }
+
+/* Hero: centred giant type on the bamboo-green field over a collage of clay panels; the cut-out artist leaps out of a panel and over the hero edge */
+.km-hero { position: relative; z-index: 4; isolation: isolate; background: var(--km-take); color: var(--km-ink); min-height: clamp(660px, 86vh, 900px); margin: 0 !important; padding: clamp(3rem, 6vw, 5rem) var(--km-pad) clamp(4rem, 7vw, 6rem) !important; display: grid; place-items: center; border-bottom: var(--km-line); }
+.km-hero > * { margin: 0 !important; }
+.km-hero::before { content: ""; position: absolute; z-index: -1; right: 18%; top: 0; width: 34%; height: 46%; background: var(--km-tone); clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 86%); }
+.km-hero::after { content: ""; position: absolute; z-index: -1; left: 12%; bottom: 10%; width: 30%; height: 28%; background: var(--km-tone-light), var(--km-mint); opacity: 0.55; clip-path: polygon(0 12%, 96% 0, 100% 88%, 6% 100%); }
+.km-hero__collage { position: absolute !important; inset: 0; pointer-events: none; z-index: 0; }
+.km-hero__collage > * { margin: 0 !important; }
+.km-panel { position: absolute; background: #FFFFFF; padding: 8px; border: var(--km-line); box-shadow: 10px 10px 0 var(--km-ink); }
+.km-panel img { display: block; width: 100%; object-fit: cover; }
+.km-panel::after { content: ""; position: absolute; top: -15px; left: 50%; width: 92px; height: 26px; background: rgba(243, 248, 244, 0.78); border: 1px solid rgba(16, 35, 26, 0.18); transform: translateX(-50%) rotate(-4deg); }
+.km-panel--a { left: 3%; top: 7%; width: 25%; transform: rotate(-4deg); }
+.km-panel--a img { aspect-ratio: 16 / 10; }
+.km-panel--b { right: 4%; top: 8%; width: 23%; transform: rotate(3deg); }
+.km-panel--b img { aspect-ratio: 4 / 3; }
+.km-panel--c { left: 6%; bottom: 10%; width: 13%; transform: rotate(2.5deg); }
+.km-panel--c img { aspect-ratio: 2 / 3; }
+.km-panel__label { position: absolute; z-index: 2; left: 4%; top: 4%; background: var(--km-beni); color: #FFFFFF; font-family: var(--wp--preset--font-family--display); font-weight: 900; font-size: 1rem; padding: 0.3rem 0.85rem; transform: rotate(-6deg); border: 2px solid var(--km-ink); }
+.km-hero__artist { position: absolute; z-index: 3; right: 6%; bottom: -12%; width: clamp(230px, 24%, 360px); filter: drop-shadow(10px 14px 0 rgba(16, 35, 26, 0.28)); }
+.km-hero__artist img { display: block; width: 100%; }
+.km-hero__type { position: relative; z-index: 2; text-align: center; max-width: 50rem; }
+.km-hero__type > * { margin-block: 0 1rem; }
+.km-hero .km-eyebrow { color: var(--km-ink); display: inline-block; background: var(--km-paper); border: 2px solid var(--km-ink); padding: 0.3rem 0.9rem; margin-bottom: 1.5rem !important; }
+.km-hero__title { font-size: clamp(3.25rem, 0.6rem + 6.8vw, 8rem); line-height: 0.98; letter-spacing: -0.025em; margin-bottom: 1.5rem !important; text-wrap: balance; }
+:is(:lang(ja), :lang(zh)) .km-hero__title { letter-spacing: 0; line-height: 1.12; font-size: clamp(2.75rem, 0.6rem + 5.6vw, 6.5rem); }
+.km-hero__lead { font-size: var(--wp--preset--font-size--large); max-width: 36rem; margin-inline: auto !important; background: rgba(243, 248, 244, 0.9); border: 2px solid var(--km-ink); padding: 0.9rem 1.2rem; text-align: left; }
+.km-hero__cta { justify-content: center; gap: 1rem; margin-top: 1.75rem !important; }
+.km-hero .km-book .wp-block-button__link { background: var(--km-ink); color: #FFFFFF; box-shadow: 5px 5px 0 var(--km-paper); }
+.km-hero .km-tate { position: absolute; left: clamp(1rem, 2vw, 2rem); top: 42%; font-size: clamp(1.25rem, 0.8rem + 1vw, 1.75rem); border-right: 3px solid var(--km-ink); padding-right: 0.5rem; z-index: 2; }
+@media (max-width: 1099px) and (min-width: 900px) {
+	.km-panel--a { width: 28%; } .km-panel--b { width: 26%; } .km-panel--c { display: none; }
+}
+@media (max-width: 899px) {
+	.km-hero { display: flex; flex-direction: column; align-items: stretch; min-height: 0; padding-bottom: 0 !important; }
+	.km-hero__type { order: 1; }
+	.km-hero__collage { order: 2; position: relative !important; inset: auto; height: min(118vw, 640px); margin-top: 2.5rem !important; }
+	.km-panel--a { left: 0; top: 4%; width: 64%; }
+	.km-panel--b { right: 0; top: 38%; width: 56%; }
+	.km-panel--c { display: none; }
+	.km-panel__label { left: 2%; top: 0; }
+	.km-hero__artist { right: auto; left: 2%; bottom: -14%; width: 50%; }
+	.km-hero::before { right: 0; width: 60%; height: 30%; }
+	.km-hero .km-tate { display: none; }
+	.km-hero__lead { text-align: left; }
+}
+
+/* Studio board (synced): a sumi strip under the hero */
+.km-week { background: var(--km-ink); color: var(--km-paper); z-index: 1; padding-block: clamp(4.5rem, 8vw, 6.5rem) clamp(3rem, 6vw, 4.5rem) !important; }
+.km-week .km-eyebrow { color: var(--km-take); }
+.km-board { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem 2.5rem; margin: 0; align-items: start; }
+.km-board > * { margin: 0 !important; }
+.km-board p { margin: 0; }
+.km-board__label { display: none; }
+.km-board__tonight { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--km-sprout); grid-column: 1; grid-row: 1; }
+.km-board__sky { font-family: var(--wp--preset--font-family--display); font-weight: 900; font-size: clamp(1.75rem, 1.2rem + 1.4vw, 2.5rem); color: #FFFFFF; line-height: 1.1; grid-row: 2; grid-column: 1; }
+.km-board__clear { font-size: 0.9375rem; grid-row: 3; grid-column: 1; color: var(--km-sprout); }
+.km-board__rows { display: grid; gap: 0.5rem; grid-row: 1 / span 3; grid-column: 2; }
+.km-board__rows > * { margin: 0 !important; }
+.km-board__row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; border-bottom: 1px dashed rgba(168, 221, 188, 0.4); padding: 0.45rem 0; }
+.km-board__row > * { margin: 0 !important; }
+.km-board__k { font-size: 0.875rem; }
+.km-board__v { font-weight: 700; color: var(--km-sprout); text-align: right; }
+.km-board__note { font-size: 0.875rem; color: var(--km-paper); grid-column: 3; grid-row: 1 / span 2; }
+.km-board__cta { grid-column: 3; grid-row: 3; }
+.km-board__cta .wp-block-button__link { background: var(--km-take); color: var(--km-ink); box-shadow: 4px 4px 0 var(--km-paper); }
+@media (min-width: 1100px) { .km-week .km-board { padding-right: min(14vw, 220px); } }
+@media (max-width: 900px) {
+	.km-board { grid-template-columns: minmax(0, 1fr); }
+	.km-board > * { grid-column: 1 !important; grid-row: auto !important; }
+}
+
+/* Selected works: a manga page of panels with gutters and caption boxes */
+.km-works { background: var(--km-paper); }
+.km-works__page { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) minmax(0, 3fr); grid-template-areas: "a b b" "a c d"; gap: 14px; background: #FFFFFF; padding: 14px; border: var(--km-line); box-shadow: 14px 14px 0 var(--km-take); margin-top: 2.25rem !important; }
+.km-works__page > * { margin: 0 !important; }
+.km-work { position: relative; border: var(--km-line); overflow: hidden; background: var(--km-ink); min-height: 270px; }
+.km-work > * { margin: 0 !important; }
+.km-work--a { grid-area: a; min-height: 600px; }
+.km-work--b { grid-area: b; }
+.km-work--c { grid-area: c; }
+.km-work--d { grid-area: d; }
+.km-work__img { position: absolute !important; inset: 0; }
+.km-work__img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.km-work__cap { position: absolute !important; left: 12px; bottom: 12px; right: auto; max-width: min(24rem, calc(100% - 24px)); background: #FFFFFF; border: 2px solid var(--km-ink); padding: 0.75rem 1rem 0.85rem; }
+.km-work__cap > * { margin: 0 !important; }
+.km-work__title { font-size: clamp(1.25rem, 1rem + 0.6vw, 1.625rem); line-height: 1.15; }
+.km-work__facts { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--km-beni); margin-top: 0.25rem !important; }
+.km-work__text { font-size: 0.9375rem; line-height: 1.55; margin-top: 0.4rem !important; }
+.km-work--c .km-work__text, .km-work--d .km-work__text { display: none; }
+.km-more { margin-top: 2.25rem !important; }
+@media (max-width: 860px) {
+	.km-works__page { grid-template-columns: minmax(0, 1fr); grid-template-areas: "a" "b" "c" "d"; box-shadow: 8px 8px 0 var(--km-take); }
+	.km-work, .km-work--a { min-height: 0; aspect-ratio: 4 / 3; }
+	.km-work--d { aspect-ratio: 3 / 4; }
+	.km-work__text { display: none; }
+}
+
+/* The serial band: giant chapter number, the note and a tilted desk panel; the cut-out pen breaks over the band's top edge */
+.km-serial { z-index: 3; background: var(--km-take); color: var(--km-ink); border-block: var(--km-line); padding-block: clamp(5rem, 9vw, 7.5rem) var(--km-sec) !important; }
+.km-serial::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 38%; background: var(--km-tone); clip-path: polygon(0 0, 100% 0, 72% 100%, 0 100%); opacity: 0.6; pointer-events: none; }
+.km-serial .km-eyebrow { color: var(--km-ink); position: relative; }
+.km-serial__grid { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr) minmax(0, 0.95fr); gap: clamp(1.5rem, 3.5vw, 3.5rem); align-items: center; }
+.km-serial__grid > * { margin: 0 !important; }
+.km-serial__no { font-family: var(--wp--preset--font-family--display); font-weight: 900; font-size: clamp(7rem, 3rem + 12vw, 16rem); line-height: 0.8; letter-spacing: -0.05em; color: var(--km-paper); -webkit-text-stroke: 4px var(--km-ink); paint-order: stroke fill; text-shadow: 10px 10px 0 var(--km-ink); }
+.km-main .km-section > .km-serial__grid .km-serial__no { padding: 0; }
+.km-serial__text > * { margin-block: 0 1rem; }
+.km-serial__text .km-sec__title { font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.75rem); }
+.km-serial__frame { position: relative; background: #FFFFFF; padding: 10px; border: var(--km-line); box-shadow: 12px 12px 0 var(--km-ink); transform: rotate(2.5deg); }
+.km-serial__frame > * { margin: 0 !important; }
+.km-serial__img img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.km-serial__pen { position: absolute !important; z-index: 3; right: -12%; top: -104%; width: 54%; transform: rotate(-6deg); pointer-events: none; filter: drop-shadow(8px 10px 0 rgba(16, 35, 26, 0.3)); }
+.km-serial__pen img { display: block; width: 100%; }
+@media (max-width: 960px) {
+	.km-serial__grid { grid-template-columns: auto minmax(0, 1fr); }
+	.km-serial__frame { grid-column: 1 / -1; max-width: 560px; margin-top: 2rem !important; }
+	.km-serial__pen { right: -3%; top: -34%; width: 34%; }
+}
+@media (max-width: 560px) {
+	.km-serial__grid { grid-template-columns: minmax(0, 1fr); }
+	.km-serial__no { font-size: 7rem; }
+}
+
+/* How a page is made: a four-panel strip */
+.km-process { background: var(--km-paper); }
+.km-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; background: #FFFFFF; border: var(--km-line); padding: 12px; margin-top: 2.25rem !important; counter-reset: kmstep; }
+.km-strip > * { margin: 0 !important; }
+.km-step { counter-increment: kmstep; position: relative; border: var(--km-line); padding-bottom: 1.1rem; background: #FFFFFF; }
+.km-step > * { margin: 0 !important; }
+.km-step::before { content: counter(kmstep, decimal-leading-zero); position: absolute; z-index: 2; left: 10px; top: 10px; min-width: 2.75rem; height: 2.75rem; display: grid; place-items: center; background: #FFFFFF; border: var(--km-line); border-radius: 50%; font-family: var(--wp--preset--font-family--display); font-weight: 900; font-size: 1.125rem; }
+:is(:lang(ja), :lang(zh)) .km-step::before { content: counter(kmstep, cjk-decimal); }
+.km-step__img img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-bottom: var(--km-line); }
+.km-step__title { font-size: 1.375rem; padding: 1rem 1rem 0.35rem; }
+.km-step__text { font-size: 0.9375rem; line-height: 1.6; padding: 0 1rem; }
+@media (max-width: 1000px) { .km-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .km-strip { grid-template-columns: minmax(0, 1fr); } }
+
+/* Journal lists */
+.km-home-journal, .km-list { background: var(--km-paper); }
+.km-home-journal { background: var(--km-tone), var(--km-mint); }
+.km-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.25rem); padding: 0; }
+.km-notes .wp-block-post-template > li { margin: 0; background: #FFFFFF; border: var(--km-line); padding: 10px 10px 1.25rem; box-shadow: 8px 8px 0 var(--km-ink); }
+.km-note__img { margin: 0 0 0.85rem; }
+.km-note__img img { display: block; border: 2px solid var(--km-ink); }
+.km-note__text { padding-inline: 0.5rem; }
+.km-note__date { font-size: 0.8125rem; color: var(--km-quiet); font-variant-numeric: tabular-nums; }
+.km-note__title { font-size: 1.375rem; margin: 0.25rem 0 0.5rem; }
+.km-note__title a { color: var(--km-ink); text-decoration: none; }
+.km-note__title a:hover { color: var(--km-deep); text-decoration: underline; }
+.km-pagination { margin-top: 2.5rem; }
+
+/* Page heads: the bamboo-green poster field; the cut-out cat peeks over the bottom edge */
+.km-pagehead { position: relative; z-index: 3; background: var(--km-take); color: var(--km-ink); padding-block: clamp(3.5rem, 7vw, 6rem) clamp(3rem, 6vw, 4.5rem) !important; margin: 0 !important; border-bottom: var(--km-line); }
+.km-pagehead::before { content: ""; position: absolute; right: 0; top: 0; width: 40%; height: 100%; background: var(--km-tone); clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%); opacity: 0.7; pointer-events: none; }
+.km-pagehead > * { margin-block: 0 0.85rem; position: relative; }
+.km-pagehead .km-eyebrow { color: var(--km-ink); display: inline-block; background: var(--km-paper); border: 2px solid var(--km-ink); padding: 0.25rem 0.8rem; }
+.km-main .km-pagehead > .km-eyebrow { padding-right: 0.8rem; justify-self: start; width: fit-content; }
+.km-pagehead__title { font-size: clamp(2.5rem, 1rem + 4.6vw, 5.75rem); line-height: 1.02; letter-spacing: -0.02em; text-wrap: balance; max-width: 18ch; }
+:is(:lang(ja), :lang(zh)) .km-pagehead__title { letter-spacing: 0; line-height: 1.15; font-size: clamp(2.125rem, 1rem + 3.6vw, 4.5rem); }
+.km-pagehead__lead { font-size: var(--wp--preset--font-size--large); max-width: 40rem; }
+.km-pagehead__cat { position: absolute !important; z-index: 4; right: calc(var(--km-pad) + 2%); bottom: -64px; width: clamp(110px, 11vw, 170px); margin: 0 !important; pointer-events: none; filter: drop-shadow(6px 8px 0 rgba(16, 35, 26, 0.25)); }
+.km-pagehead__cat img { display: block; width: 100%; }
+.km-pagehead .km-tate { position: absolute; right: var(--km-pad); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem); border-right: 3px solid var(--km-ink); padding-right: 0.5rem; }
+.km-pagehead:has(> .km-tate) > .km-pagehead__title { padding-right: 5.5rem; }
+.km-pagehead:has(> .km-tate) > .km-pagehead__cat { right: calc(var(--km-pad) + 5.5rem); }
+.km-pagehead .wp-block-search { max-width: 34rem; margin-top: 1.25rem; }
+.km-search .wp-block-search__input { border: var(--km-line); border-radius: 0; padding: 0.6rem 1rem; background: #FFFFFF; }
+.km-search .wp-block-search__button { background: var(--km-ink); color: var(--km-paper); border-radius: 0; border: 0; padding-inline: 1.25rem; font-weight: 700; }
+.km-pagehead .km-hero__cta { justify-content: flex-start; }
+
+/* Works page: framed panels beside their notes */
+.km-rows { padding-top: calc(var(--km-sec) + 2rem) !important; }
+.km-rows__list { display: grid; gap: clamp(3rem, 6vw, 5rem); }
+.km-rows__list > * { margin: 0 !important; }
+.km-row { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+.km-row > * { margin: 0 !important; }
+.km-row:nth-child(even) .km-row__img { order: 2; }
+.km-row__img { background: #FFFFFF; padding: 10px; border: var(--km-line); box-shadow: 12px 12px 0 var(--km-take); transform: rotate(-1.5deg); }
+.km-row:nth-child(even) .km-row__img { transform: rotate(1.5deg); }
+.km-row__img img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.km-row:nth-child(4) .km-row__img img { aspect-ratio: 4 / 5; max-height: 640px; }
+.km-row__text > * { margin-block: 0 0.85rem; }
+.km-row__facts { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--km-beni); }
+.km-row__title { font-size: clamp(2rem, 1.3rem + 2vw, 3.25rem); line-height: 1.05; }
+.km-commission { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; margin-top: clamp(4rem, 8vw, 6rem) !important; padding-top: clamp(2.5rem, 5vw, 4rem); border-top: var(--km-line); }
+.km-commission > * { margin: 0 !important; }
+.km-commission__text > * { margin-block: 0 1rem; }
+
+/* Commission prices (synced) */
+.km-rates { background: var(--km-mint); border: var(--km-line); box-shadow: 10px 10px 0 var(--km-ink); padding: clamp(1.25rem, 3vw, 2rem); margin: 0; }
+.km-rates > * { margin: 0 !important; }
+.km-rates__label { font-family: var(--wp--preset--font-family--display); font-weight: 900; font-size: 1.625rem; margin-bottom: 0.75rem !important; }
+.km-rate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 1rem; padding: 0.85rem 0; border-bottom: 1px dashed rgba(16, 35, 26, 0.35); }
+.km-rate > * { margin: 0 !important; }
+.km-rate__name { font-weight: 700; }
+.km-rate__facts { grid-column: 1; font-size: 0.8125rem; color: var(--km-quiet); }
+.km-rate__price { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-family: var(--wp--preset--font-family--display); font-weight: 900; font-size: 1.25rem; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.km-rates__note { font-size: 0.875rem; color: var(--km-quiet); margin-top: 1rem !important; }
+
+/* The studio */
+.km-about { padding-top: calc(var(--km-sec) + 2rem) !important; }
+.km-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.km-about__story > * { margin: 0 !important; }
+.km-about__text > * { margin-block: 0 1.1rem; }
+.km-about__img { background: #FFFFFF; padding: 10px; border: var(--km-line); box-shadow: 12px 12px 0 var(--km-take); transform: rotate(2deg); }
+.km-about__img img { display: block; width: 100%; }
+.km-about__frame { margin-top: clamp(3rem, 6vw, 5rem) !important; }
+.km-about__wide img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border: clamp(0.75rem, 1.6vw, 1.25rem) solid var(--km-ink); outline: 3px solid var(--km-take); outline-offset: -8px; }
+.km-rules { margin-top: clamp(3rem, 6vw, 4.5rem) !important; max-width: 44rem; }
+.km-rules__list, .km-steps { padding: 0; margin: 0; list-style: none; counter-reset: kmlist; display: grid; gap: 0.85rem; }
+.km-rules__list li, .km-steps li { counter-increment: kmlist; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: 0.85rem; align-items: start; }
+.km-rules__list li::before, .km-steps li::before { content: counter(kmlist); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; background: var(--km-take); color: var(--km-ink); font-family: var(--wp--preset--font-family--display); font-weight: 900; border: var(--km-line); }
+:is(:lang(ja), :lang(zh)) :is(.km-rules__list, .km-steps) li::before { content: counter(kmlist, cjk-decimal); }
+
+/* Newsletter */
+.km-letter { padding-top: calc(var(--km-sec) + 2rem) !important; }
+.km-letter__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.km-letter__grid > * { margin: 0 !important; }
+.km-letter__img { background: #FFFFFF; padding: 10px; border: var(--km-line); box-shadow: 12px 12px 0 var(--km-take); transform: rotate(-1.5deg); }
+.km-letter__img img { display: block; width: 100%; }
+.km-letter__card { background: var(--km-ink); color: var(--km-paper); padding: clamp(1.5rem, 3.5vw, 2.5rem); border: var(--km-line); box-shadow: 10px 10px 0 var(--km-take); }
+.km-letter__card > * { margin-block: 0 1rem; }
+.km-letter__card .km-sec__title { color: #FFFFFF; font-size: clamp(1.75rem, 1.2rem + 1.4vw, 2.5rem); }
+.km-mailto .wp-block-button__link { background: var(--km-take); color: var(--km-ink); box-shadow: 4px 4px 0 var(--km-paper); }
+.km-contact .km-mailto .wp-block-button__link { background: var(--km-ink); color: #FFFFFF; box-shadow: 4px 4px 0 var(--km-take); }
+
+/* Commissions */
+.km-contact { padding-top: calc(var(--km-sec) + 2rem) !important; }
+.km-contact__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.km-contact__grid > * { margin: 0 !important; }
+.km-contact__book > *, .km-contact__find > * { margin-block: 0 1.25rem; }
+.km-contact__find .km-sec__title { font-size: 1.625rem; margin-top: 2rem; }
+.km-steps { margin-bottom: 1.75rem !important; }
+.km-contact__book .km-rates { margin-top: 2.5rem !important; }
+
+/* Studio details (synced) */
+.km-details { display: grid; gap: 0.35rem; margin: 0; }
+.km-details > * { margin: 0 !important; }
+.km-details__season { font-weight: 700; }
+.km-details__note { font-size: 0.875rem; margin-top: 0.5rem !important; }
+.km-contact .km-details { background: var(--km-mint); border: var(--km-line); box-shadow: 10px 10px 0 var(--km-ink); padding: clamp(1.25rem, 3vw, 1.75rem); }
+
+/* The details card shows once per page: on Commissions the footer copy steps aside */
+body:has(.km-main .km-details) .km-foot .km-details { display: none; }
+
+/* Single note and plain pages */
+.km-article__head > * { margin-block: 0 0.75rem; }
+.km-article__head { margin-bottom: 2rem; }
+.km-article .km-pagehead__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4rem); }
+.km-article__date { color: var(--km-quiet); font-size: 0.875rem; }
+.km-photo { margin-block: 0 2.5rem; background: #FFFFFF; padding: 10px; border: var(--km-line); box-shadow: 12px 12px 0 var(--km-take); }
+.km-photo img { display: block; max-height: 560px; object-fit: cover; }
+.km-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.km-tags a { display: inline-block; background: var(--km-mint); color: var(--km-ink); padding: 0.2rem 0.8rem; border: 2px solid var(--km-ink); text-decoration: none; font-size: 0.875rem; margin: 0 0.25rem 0.25rem 0; }
+.km-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.km-page .km-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Footer: the sumi field with the studio name as poster type */
+.wp-site-blocks > footer { margin-block-start: 0; }
+.km-foot { background: var(--km-ink); color: var(--km-paper); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2rem; margin: 0; border-top: 10px solid var(--km-take); }
+.km-foot__grid { display: grid; grid-template-columns: 1.4fr 1fr 0.7fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.km-foot__grid > * { margin: 0 !important; }
+.km-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 900; font-size: clamp(2.5rem, 1.2rem + 4vw, 5rem); line-height: 0.95; letter-spacing: -0.02em; margin: 0 0 1rem; }
+.km-foot .km-foot__mark a { color: var(--km-take); text-decoration: none; }
+.km-foot__sub { margin: 0; max-width: 28rem; }
+.km-foot a { color: var(--km-paper); }
+.km-foot__nav { font-weight: 700; gap: 0.5rem; }
+.km-foot__nav a { text-decoration: none; }
+.km-foot__nav a:hover { text-decoration: underline; }
+.km-foot__base { margin-top: 3rem !important; padding-top: 1.25rem; border-top: 1px solid rgba(168, 221, 188, 0.35); }
+.km-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--km-sprout); }
+
+@media (max-width: 1100px) {
+	.km-notes .wp-block-post-template { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 860px) {
+	.km-row, .km-commission, .km-about__story, .km-letter__grid, .km-contact__grid, .km-foot__grid { grid-template-columns: minmax(0, 1fr); }
+	.km-row:nth-child(even) .km-row__img { order: 0; }
+	.km-about__img { max-width: 380px; }
+	.km-pagehead .km-tate { display: none; }
+	.km-pagehead:has(> .km-tate) > .km-pagehead__title { padding-right: 0; }
+	.km-pagehead { padding-bottom: 4.5rem !important; }
+	.km-pagehead__cat { bottom: -48px; width: 100px; }
+}
+@media (max-width: 640px) {
+	.km-notes .wp-block-post-template { grid-template-columns: minmax(0, 1fr); }
+	.km-rate__price { font-size: 1.0625rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+	* { scroll-behavior: auto !important; }
+}
+
+/* Poster spines: each section hangs its label on a narrow spine; Chinese and Japanese labels run top to bottom */
+@media (min-width: 861px) {
+	:is(:lang(ja), :lang(zh)) .km-section.is-layout-constrained:has(> .km-eyebrow:first-child) { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); column-gap: clamp(1rem, 2.5vw, 2.5rem); align-items: start; padding-inline: var(--km-pad) !important; }
+	:is(:lang(ja), :lang(zh)) .km-section.is-layout-constrained:has(> .km-eyebrow:first-child) > * { grid-column: 2; max-width: none !important; margin-inline: 0 !important; }
+	:is(:lang(ja), :lang(zh)) .km-section.is-layout-constrained > .km-eyebrow:first-child { grid-column: 1; grid-row: 1 / span 6; position: sticky; top: calc(var(--km-headh) + 1.5rem); writing-mode: vertical-rl; border-right: 3px solid currentColor; padding: 0 0.6rem 0 0; font-family: var(--wp--preset--font-family--display); font-size: 1.375rem; font-weight: 900; letter-spacing: 0.3em; justify-self: end; }
+	:is(:lang(ja), :lang(zh)) .km-main .km-section > p:not(.km-tate) { padding-right: 0; }
+}
