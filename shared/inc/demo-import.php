@@ -76,6 +76,7 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 		const ACTION   = 'shippress_demo_import';
 		const USE_TEXT = 'shippress_demo_use_text';
 		const DISMISS  = 'shippress_demo_dismiss';
+		const LANG     = 'shippress_demo_lang';     // Language of the sample content to import (see lang()).
 		const STATUSES = array( 'publish', 'draft', 'pending', 'private', 'future', 'inherit', 'trash' );
 
 		/** Site titles / taglines WordPress (or its installer) uses when nobody has set one. */
@@ -231,9 +232,41 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 			wp_cache_delete( self::LOCK, 'options' );
 		}
 
-		/** Parsed demo-content.json. */
+		/**
+		 * Language of the sample content: one of LANGS. The first match wins: the SHIPPRESS_DEMO_LANG environment
+		 * variable, the `shippress_demo_lang` option (ShipPress sets it to the app's interface language before it
+		 * activates a theme), then the site language (Settings > General). Anything else is English.
+		 *
+		 * @return string 'en', 'zh-TW', 'ja', 'fr' or 'de'.
+		 */
+		public static function lang() {
+			foreach ( array( getenv( 'SHIPPRESS_DEMO_LANG' ), get_option( self::LANG ), get_locale() ) as $raw ) {
+				$code = strtolower( str_replace( '_', '-', trim( (string) $raw ) ) );
+				if ( '' === $code ) {
+					continue;
+				}
+				if ( 0 === strpos( $code, 'zh' ) ) {
+					return 'zh-TW';
+				}
+				$base = substr( $code, 0, 2 );
+				if ( in_array( $base, array( 'ja', 'fr', 'de' ), true ) ) {
+					return $base;
+				}
+				return 'en';
+			}
+			return 'en';
+		}
+
+		/**
+		 * Parsed sample content: demo-content.<lang>.json when the theme ships one for lang() (same slugs, the copy in
+		 * that language), else demo-content.json (English).
+		 */
 		public static function load() {
 			$file = self::theme_dir() . '/demo-content.json';
+			$lang = self::lang();
+			if ( 'en' !== $lang && is_readable( self::theme_dir() . '/demo-content.' . $lang . '.json' ) ) {
+				$file = self::theme_dir() . '/demo-content.' . $lang . '.json';
+			}
 			$demo = is_readable( $file ) ? json_decode( (string) file_get_contents( $file ), true ) : null; // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
 			if ( ! is_array( $demo ) || empty( $demo['pages'] ) ) {
 				throw new RuntimeException( 'demo-content.json is missing or invalid.' );

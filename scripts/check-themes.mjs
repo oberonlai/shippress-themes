@@ -65,13 +65,22 @@ export function styleHeader(css) {
 
 /** Problems with one theme folder (empty = valid). */
 export const SHARED_IMPORTER = fileURLToPath(new URL("../shared/inc/demo-import.php", import.meta.url));
+// Earlier versions of the shared importer (shared/inc/legacy/*.php). A released theme may keep the copy it shipped with
+// until its next version; a new or changed theme copies the current shared one.
+const LEGACY_DIR = fileURLToPath(new URL("../shared/inc/legacy/", import.meta.url));
+export const LEGACY_IMPORTERS = existsSync(LEGACY_DIR) ? readdirSync(LEGACY_DIR).filter((f) => f.endsWith(".php")).sort().map((f) => readFileSync(join(LEGACY_DIR, f))) : [];
+// Sample-content languages besides English (the ShipPress app's LANGS): demo-content.<lang>.json holds the same pages,
+// posts and menu in that language. Files for a CJK language may contain CJK text; every other theme file stays English.
+export const DEMO_LANGS = ["zh-TW", "ja", "fr", "de"];
+const CJK_FILE = /(?:^|[/.])(?:ja|zh-TW)(?:[/.])/;
 
 /** Problems with a theme's demo content + shared importer (the "ready-to-use website" rule). */
-export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SHARED_IMPORTER)) {
+export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SHARED_IMPORTER), legacy = LEGACY_IMPORTERS) {
   const errs = [];
   if (!has("inc/demo-import.php")) errs.push("inc/demo-import.php is missing (copy shared/inc/demo-import.php)");
   // Byte for byte (not as decoded text), so a BOM, line endings or a stray encoding change count as a difference too.
-  else if (!readFileSync(join(dir, "inc/demo-import.php")).equals(Buffer.from(importer))) errs.push("inc/demo-import.php differs from shared/inc/demo-import.php (copy it again, change the shared one only)");
+  else if (![importer, ...legacy].some((b) => readFileSync(join(dir, "inc/demo-import.php")).equals(Buffer.from(b)))) errs.push("inc/demo-import.php differs from shared/inc/demo-import.php (copy it again, change the shared one only)");
+  else if (DEMO_LANGS.some((l) => has(`demo-content.${l}.json`)) && !readFileSync(join(dir, "inc/demo-import.php")).equals(Buffer.from(importer))) errs.push("a theme with demo-content.<lang>.json needs the current shared importer (copy shared/inc/demo-import.php)");
   else if (!/add_action\(\s*'after_switch_theme'/.test(String(importer))) errs.push("the importer has no after_switch_theme hook");
   if (has("functions.php") && !/require_once\s+get_template_directory\(\)\s*\.\s*'\/inc\/demo-import\.php'/.test(read("functions.php"))) errs.push("functions.php must require_once get_template_directory() . '/inc/demo-import.php'");
   if (!demo) return errs;
@@ -183,6 +192,18 @@ export function checkTheme(dir, slug) {
       const demo = json("demo-content.json");
       for (const p of meta.pages ?? []) if (demo && !demo.screens?.[p]) errs.push(`demo-content.json has no screens.${p} URL`);
       errs.push(...checkDemo(dir, read, has, demo, meta));
+      for (const l of DEMO_LANGS) {
+        const f = `demo-content.${l}.json`;
+        if (!has(f)) continue;
+        const loc = json(f);
+        if (!loc) { errs.push(`${f} is not valid JSON`); continue; }
+        // Same structure as the English file, so links, screens and the importer's keys stay the same in every language.
+        errs.push(...checkDemo(dir, read, has, loc, meta).filter((e) => !/importer|inc\/demo-import|functions\.php/.test(e)).map((e) => `${f}: ${e}`));
+        const keys = (d, k) => JSON.stringify((d?.[k] ?? []).map((x) => x.slug ?? x.page ?? x.sku ?? x.name));
+        for (const k of ["pages", "posts", "categories", "tags"]) if (keys(loc, k) !== keys(demo, k)) errs.push(`${f}: ${k} must have the same slugs, in the same order, as demo-content.json`);
+        // Same screens; only the search screen's word may differ (it has to match that language's sample posts).
+        if (JSON.stringify(Object.keys(loc.screens ?? {})) !== JSON.stringify(Object.keys(demo?.screens ?? {})) || Object.entries(demo?.screens ?? {}).some(([k, v]) => k !== "search" && loc.screens?.[k] !== v)) errs.push(`${f}: screens must equal demo-content.json's (the search word may differ)`);
+      }
     } else errs.push("demo-content.json is missing");
   }
 
@@ -192,7 +213,7 @@ export function checkTheme(dir, slug) {
     readFileSync(f, "utf8").split("\n").forEach((line, i) => {
       for (const [re, what] of SECRETS) if (re.test(line)) errs.push(`${rel}:${i + 1}: ${what}`);
       for (const e of line.match(EMAIL) ?? []) if (!SAFE_EMAIL.test(e)) errs.push(`${rel}:${i + 1}: real-looking email ${e} (use an example.com / .example address)`);
-      if (CJK.test(line)) errs.push(`${rel}:${i + 1}: theme copy must be English`);
+      if (CJK.test(line) && !CJK_FILE.test(rel)) errs.push(`${rel}:${i + 1}: theme copy must be English (only demo-content.ja.json / demo-content.zh-TW.json and ja/ or zh-TW/ folders may hold CJK text)`);
       if (rel.endsWith(".css")) for (const w of cssWords(line)) errs.push(`${rel}:${i + 1}: CSS content "${w}" puts words on the page that nobody can edit (move them into the page content or a synced pattern)`);
       if (!rel.startsWith("inc/")) for (const [, real] of line.replace(/#[0-9A-Fa-f]{3,8}\b/g, "").matchAll(REAL_NAME)) errs.push(`${rel}:${i + 1}: names a real ${real} (demo copy uses fictional people, companies, publications and awards)`);
     });

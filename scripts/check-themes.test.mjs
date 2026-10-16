@@ -5,7 +5,7 @@ import { cpSync, existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, wri
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildIndex, checkTheme, cssWords, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
+import { buildIndex, checkTheme, cssWords, LEGACY_IMPORTERS, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
 
 const THEMES = fileURLToPath(new URL("../themes/", import.meta.url));
 const slugs = readdirSync(THEMES).sort();
@@ -82,9 +82,9 @@ test("enforces the ready-to-use website rule (shared importer + demo content)", 
   } finally { rmSync(dir, { recursive: true, force: true }); }
 });
 
-test("every theme's importer is the shared one, byte for byte", () => {
+test("every theme's importer is the shared one (or an earlier shared version), byte for byte", () => {
   const shared = readFileSync(new URL("../shared/inc/demo-import.php", import.meta.url));
-  for (const s of slugs) assert.ok(readFileSync(join(THEMES, s, "inc/demo-import.php")).equals(shared), s);
+  for (const s of slugs) assert.ok([shared, ...LEGACY_IMPORTERS].some((b) => readFileSync(join(THEMES, s, "inc/demo-import.php")).equals(b)), s);
 });
 
 test("an importer copy that only differs in bytes (BOM, CRLF) is refused", () => {
@@ -165,4 +165,23 @@ test("the shared importer trashes WordPress's sample post only while it is untou
     assert.ok(fn.includes(rule), rule);
   assert.match(fn, /wp_trash_post\( \$post->ID \)/);
   assert.doesNotMatch(fn, /wp_delete_post|force_delete|wp_update_post/);
+});
+
+test("demo-content.<lang>.json must keep the English file's slugs and screens; CJK only in CJK-language files", () => {
+  const dir = mkdtempSync(join(tmpdir(), "theme-lang-check-"));
+  try {
+    const t = join(dir, "hoshizora-camp");
+    cpSync(join(THEMES, "hoshizora-camp"), t, { recursive: true });
+    assert.deepEqual(checkTheme(t, "hoshizora-camp"), []);
+    const fr = JSON.parse(readFileSync(join(t, "demo-content.fr.json"), "utf8"));
+    fr.pages[1].slug = "tentes";
+    fr.screens.home = "/accueil/";
+    writeFileSync(join(t, "demo-content.fr.json"), JSON.stringify(fr));
+    writeFileSync(join(t, "inc/i18n/fr.php"), readFileSync(join(t, "inc/i18n/fr.php"), "utf8") + "// 星\n");
+    const errs = checkTheme(t, "hoshizora-camp").join("\n");
+    assert.match(errs, /demo-content\.fr\.json: pages must have the same slugs/);
+    assert.match(errs, /demo-content\.fr\.json: screens must equal/);
+    assert.match(errs, /inc\/i18n\/fr\.php:\d+: theme copy must be English/);
+    assert.doesNotMatch(errs, /i18n\/ja\.php/);
+  } finally { rmSync(dir, { recursive: true, force: true }); }
 });
