@@ -1,0 +1,363 @@
+/*
+Theme Name: Hanayui Kimono
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/hanayui-kimono
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Hanayui Kimono — a WooCommerce store theme for a kimono rental and dressing shop in an old town, laid out as a hanging scroll you read from top to bottom. A formal white top header carries the shop name in the centre, the Book a fitting button, and the main menu centred on a second row with the account and the cart. Enji crimson (#B94047) is the main colour: the hero panel, the scroll spine, the collage band, every page head and the footer strip are crimson fields on plum-washi paper. The hero is a full-bleed woodblock illustration of a stone lane at dusk with a crimson panel standing on it (a vertical line in Chinese and Japanese); a cut-out kimono on its stand (transparent WebP) breaks over the panel and the hero's bottom edge. The day hangs on a crimson spine in five scenes, and a collage of pasted woodblock prints sits on a crimson band with a cut-out umbrella breaking out of it. Every picture is a woodblock-print illustration. Shippori Mincho for display, Figtree for reading. Sample content and products in English, Traditional Chinese, Japanese, French and German; vertical lines only in Chinese and Japanese. Works without WooCommerce. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hanayui-kimono
+Tags: e-commerce, block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--hy-paper: var(--wp--preset--color--paper);
+	--hy-mist: var(--wp--preset--color--mist);
+	--hy-enji: var(--wp--preset--color--enji);
+	--hy-ai: var(--wp--preset--color--ai);
+	--hy-ink: var(--wp--preset--color--ink);
+	--hy-deep: var(--wp--preset--color--deep);
+	--hy-quiet: var(--wp--preset--color--quiet);
+	--hy-pale: var(--wp--preset--color--pale);
+		--hy-sec: clamp(3rem, 6vw, 5.5rem);
+	--hy-pad: clamp(1.25rem, 4vw, 3rem);
+	--hy-headh: 132px;
+	--hy-radius: 2px;
+	--hy-wide: var(--wp--style--global--wide-size, 1200px);
+}
+
+/* Fonts per language: Shippori Mincho / Figtree for Latin; Japanese headings use the Shippori Mincho JA subset; Chinese headings the bundled Noto Serif TC subset (never a Japanese font) */
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Shippori Mincho", "Shippori Mincho JA", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Figtree", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", "Shippori Mincho", "PMingLiU", "Songti TC", serif;
+	--wp--preset--font-family--body: "Figtree", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:lang(ja) body, :lang(zh) body { line-height: 1.9; }
+:is(:lang(ja), :lang(zh)) :is(h1, h2, h3, .hy-board__label, .hy-foot__sub, .hy-scene__title) { word-break: auto-phrase; }
+:is(:lang(ja), :lang(zh)) .hy-eyebrow { letter-spacing: 0.1em; text-transform: none; }
+
+html, body { overflow-x: clip; }
+a { color: var(--hy-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+:where(h1, h2, h3, h4) { font-weight: 700; }
+
+/* Labels, titles, block styles */
+.hy-eyebrow { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--hy-deep); margin: 0 0 0.75rem; }
+.hy-eyebrow a { color: inherit; text-decoration: none; }
+.hy-chip { display: inline-block; width: fit-content; background: var(--hy-paper); color: var(--hy-deep) !important; border-radius: 999px; padding: 0.35rem 0.95rem; }
+.hy-sec__title { margin: 0 0 1.25rem; font-size: clamp(1.75rem, 1.2rem + 1.9vw, 2.875rem); line-height: 1.18; text-wrap: balance; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.7; }
+.wp-block-button__link { transition: background-color .2s; }
+.wp-block-button__link:hover { background: var(--hy-ink); }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--hy-deep); padding: 0.25rem 0; border-bottom: 2px solid var(--hy-enji); border-radius: 0; }
+.wp-block-button.is-style-outline-light .wp-block-button__link { background: var(--hy-paper); color: var(--hy-deep); border: 0; }
+.wp-block-button.is-style-outline-light .wp-block-button__link:hover { background: #FFFFFF; }
+hr.is-style-tone { border: 0; height: 4px; width: 72px !important; margin: 2.5rem 0; opacity: 1; background: var(--hy-enji); border-radius: 4px; }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.7rem 0; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.hy-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .hy-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 700; letter-spacing: 0.3em; margin: 0; line-height: 1.2; }
+
+/* Header: a formal white top header. The shop name sits centred on the first row with the booking button on the right; the main menu runs centred on the second row between two hairlines (account and cart at its right end). Below 782 px the menu opens from a button as a crimson overlay */
+.hy-head-part { position: sticky; top: 0; z-index: 50; }
+.hy-head { background: #FFFFFF; border-bottom: 3px solid var(--hy-enji); padding-block: 0 !important; }
+.hy-head > * { max-width: var(--hy-wide) !important; }
+.hy-bar { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 1rem; min-height: 76px; }
+.hy-bar > * { margin-block: 0 !important; }
+.hy-brand { grid-column: 2; display: flex; align-items: center; justify-content: center; gap: 0.75rem; margin: 0 !important; min-width: 0; }
+.hy-brand::before, .hy-brand::after { content: ""; flex: none; width: 2.25rem; height: 1px; background: var(--hy-enji); }
+.hy-brand .wp-block-site-logo { margin: 0; }
+.hy-brand__title { margin: 0; font-family: var(--wp--preset--font-family--display); font-size: clamp(1.25rem, 1rem + 0.9vw, 1.75rem); font-weight: 700; letter-spacing: 0.08em; white-space: nowrap; }
+.hy-brand__title a { color: var(--hy-ink); text-decoration: none; }
+.hy-head__cta { grid-column: 3; justify-self: end; margin: 0 !important; }
+.hy-head__cta .wp-block-button__link { padding: 0.6rem 1.3rem; font-size: 0.875rem; white-space: nowrap; background: var(--hy-enji); }
+.hy-head__cta .wp-block-button__link:hover { background: var(--hy-ink); }
+.hy-navrow { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 0.75rem; border-top: 1px solid color-mix(in srgb, var(--hy-ink) 14%, transparent); min-height: 52px; }
+.hy-navrow > * { margin: 0 !important; }
+nav.hy-nav { grid-column: 2; }
+.hy-navrow > .wp-block-woocommerce-customer-account { grid-column: 3; grid-row: 1; justify-self: end; margin-right: 3rem !important; }
+.hy-navrow > .wp-block-woocommerce-mini-cart { grid-column: 3; grid-row: 1; justify-self: end; }
+.hy-navrow :is(.wc-block-mini-cart__button, .wp-block-woocommerce-customer-account a) { color: var(--hy-ink); }
+.hy-navrow .wc-block-mini-cart__badge { background: var(--hy-enji); color: #FFFFFF; }
+nav.hy-nav .wp-block-navigation__container { gap: clamp(1.25rem, 3vw, 2.75rem); }
+nav.hy-nav .wp-block-navigation-item__content { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1rem; letter-spacing: 0.06em; color: var(--hy-ink); text-decoration: none; padding-block: 0.35rem; border-bottom: 2px solid transparent; }
+nav.hy-nav .wp-block-navigation-item__content:hover, nav.hy-nav [aria-current="page"] { border-bottom-color: var(--hy-enji); color: var(--hy-deep); }
+nav.hy-nav .wp-block-navigation__responsive-container-open { align-items: center; gap: 0.4rem; padding: 0.4rem 0.6rem; border: 1px solid var(--hy-ink); border-radius: 2px; color: var(--hy-ink); background: #FFFFFF; }
+nav.hy-nav .wp-block-navigation__responsive-container-open svg { width: 22px; height: 22px; }
+.hy-head .wp-block-navigation.hy-nav:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--hy-enji); color: #FFFFFF; }
+nav.hy-nav .wp-block-navigation__responsive-container.is-menu-open { padding: clamp(1.5rem, 5vw, 3rem); }
+nav.hy-nav .is-menu-open .wp-block-navigation-item__content { color: #FFFFFF !important; font-size: clamp(1.75rem, 1.2rem + 2.4vw, 2.5rem); border: 0; }
+nav.hy-nav .is-menu-open .wp-block-navigation__container { gap: 0.9rem; align-items: center; }
+nav.hy-nav .wp-block-navigation__responsive-container-close { color: #FFFFFF; }
+@media (min-width: 600px) and (max-width: 781px) {
+	nav.hy-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
+	nav.hy-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
+}
+@media (max-width: 781px) {
+	nav.hy-nav { grid-column: 1; justify-self: start; }
+	.hy-bar { grid-template-columns: minmax(0, 1fr) auto; min-height: 64px; }
+	.hy-brand { grid-column: 1; justify-content: flex-start; }
+	.hy-brand::before, .hy-brand::after { display: none; }
+	.hy-head__cta { grid-column: 2; }
+}
+@media (max-width: 420px) { .hy-head__cta .wp-block-button__link { padding: 0.5rem 0.9rem; font-size: 0.8125rem; } }
+.hy-head--checkout .hy-bar > .hy-eyebrow { margin: 0 !important; color: var(--hy-quiet); grid-column: 3; justify-self: end; }
+
+/* The page: a pale plum-washi ground with white sheets; crimson fields carry the hero panel, the scroll spine, the collage band, the page heads and the footer strip */
+body { background: var(--hy-paper); background-image: radial-gradient(color-mix(in srgb, var(--hy-enji) 7%, transparent) 1px, transparent 1.4px); background-size: 7px 7px; }
+.hy-main { margin-block: 0 !important; padding: 0 !important; min-width: 0; }
+.hy-main > * { margin-block: 0; }
+.hy-main > .wp-block-post-content > * { margin-block: 0; }
+
+/* Sections and panels */
+.hy-section { padding-block: calc(var(--hy-sec) * 0.5); margin: 0 !important; position: relative; }
+.hy-main :is(.hy-section, .hy-pagehead).is-layout-constrained > :not(.alignfull) { max-width: var(--hy-wide) !important; }
+.hy-main :is(.hy-section, .hy-pagehead) > p:not(.hy-tate):not(.hy-eyebrow):not(.hy-pagehead__lead) { padding-right: max(0px, calc(100% - 40rem)); }
+.hy-section > * { margin-block-start: 0; }
+.hy-card { background: #FFFFFF; border-radius: var(--hy-radius); padding: clamp(1.5rem, 3.5vw, 2.75rem); border: 1px solid color-mix(in srgb, var(--hy-ink) 14%, transparent); }
+.hy-card > * { margin-block: 0; }
+.hy-panel__head { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 2rem; margin-bottom: 1.75rem !important; }
+.hy-panel__head > .hy-eyebrow { flex-basis: 100%; }
+.hy-panel__head > .hy-sec__title { margin: 0; }
+.hy-panel__hint { margin: 0 0 0 auto !important; color: var(--hy-quiet); font-size: 0.9375rem; }
+.hy-more { margin-top: 2rem !important; }
+
+/* Hero: a full-bleed woodblock illustration of the lane at dusk. An enji crimson panel stands on its right like a hanging scroll (a vertical line in Chinese and Japanese); the cut-out kimono on its stand breaks over the panel's edge and the hero's bottom edge */
+.hy-hero { position: relative; margin: 0 !important; min-height: clamp(560px, 86vh, 820px); display: grid; overflow: visible; isolation: isolate; z-index: 2; }
+.hy-hero > * { margin: 0 !important; }
+.hy-hero__art { position: absolute !important; inset: 0; z-index: -1; overflow: hidden; }
+.hy-hero__art img { width: 100%; height: 100%; object-fit: cover; object-position: 30% 50%; display: block; }
+.hy-hero__panel { justify-self: end; align-self: stretch; width: min(100%, 34rem); box-sizing: border-box; margin-right: max(var(--hy-pad), calc((100% - var(--hy-wide)) / 2)) !important; background: var(--hy-enji); color: #FFFFFF; padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.5rem, 3.5vw, 3rem) clamp(5rem, 9vw, 7rem); display: flex; gap: 1.5rem; box-shadow: inset 0 0 0 10px var(--hy-enji), inset 0 0 0 11px rgba(255,255,255,.55); }
+.hy-hero__panel > * { margin: 0 !important; }
+.hy-hero__type { display: flex; flex-direction: column; justify-content: flex-end; gap: 1.25rem; min-width: 0; }
+.hy-hero__type > * { margin: 0 !important; }
+.hy-hero .hy-chip { background: var(--hy-paper); color: var(--hy-deep) !important; }
+.hy-hero__title { color: #FFFFFF; font-size: clamp(2.5rem, 1.4rem + 3.6vw, 4.5rem); line-height: 1.08; text-wrap: balance; }
+:is(:lang(ja), :lang(zh)) .hy-hero__title { line-height: 1.3; font-size: clamp(2.25rem, 1.3rem + 3vw, 3.75rem); }
+.hy-hero__lead { font-size: 1.0625rem; line-height: 1.7; }
+.hy-hero .wp-block-button.is-style-text-link .wp-block-button__link { color: #FFFFFF; border-bottom-color: #FFFFFF; }
+.hy-hero__cta { gap: 1.5rem; align-items: center; }
+.hy-hero .hy-tate { font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.5rem); color: #FFFFFF; order: 2; flex: none; padding-left: 1.25rem; border-left: 1px solid rgba(255,255,255,.55); }
+.hy-hero__kimono { position: absolute !important; z-index: 3; right: calc(max(var(--hy-pad), calc((100% - var(--hy-wide)) / 2)) + min(100%, 34rem) - 3rem); bottom: calc(-1 * clamp(5rem, 9vw, 8rem)); width: clamp(190px, 19vw, 300px); filter: drop-shadow(0 20px 24px rgba(42, 21, 23, .45)); }
+.hy-hero__kimono img { display: block; width: 100%; }
+@media (max-width: 959px) {
+	.hy-hero { min-height: 0; padding-top: min(56vw, 440px); }
+	.hy-hero__art { bottom: auto; height: min(62vw, 480px); }
+	.hy-hero__panel { width: auto; margin: 0 var(--hy-pad) !important; justify-self: stretch; }
+	.hy-hero__kimono { right: auto; left: var(--hy-pad); top: calc(min(56vw, 440px) - 6.5rem); bottom: auto; width: 120px; }
+	.hy-hero__panel { padding-top: 5rem; }
+}
+
+/* Shop board (synced): cards. The lead card is crimson, the others white */
+.hy-boardband { padding-top: clamp(7rem, 11vw, 9rem) !important; }
+.hy-home-journal { padding-bottom: var(--hy-sec) !important; }
+.hy-main > .wp-block-post-content > .hy-section:last-child, .hy-shopgrid, .hy-about, .hy-letter, .hy-contact, .hy-list { padding-bottom: var(--hy-sec) !important; }
+.hy-board { display: grid; grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr)); gap: 1rem; margin: 0; }
+.hy-board > * { margin: 0 !important; background: #FFFFFF; border: 1px solid color-mix(in srgb, var(--hy-ink) 14%, transparent); border-radius: 2px; padding: 1.25rem 1.35rem; }
+.hy-board p { margin: 0; }
+.hy-board__lead { background: var(--hy-enji) !important; color: #FFFFFF; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem; }
+.hy-board__label { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.5rem; line-height: 1.2; }
+.hy-board__open { white-space: nowrap; font-size: 0.8125rem; font-weight: 700; background: var(--hy-paper); color: var(--hy-deep); border-radius: 999px; padding: 0.3rem 0.8rem; width: fit-content; }
+.hy-board__k { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; color: var(--hy-deep); margin: 0 0 0.5rem !important; }
+.hy-board__k::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--hy-ai); margin-right: 0.5rem; vertical-align: 0.1em; }
+.hy-board__v { font-size: 1.0625rem; line-height: 1.5; color: var(--hy-ink); }
+:is(:lang(ja), :lang(zh)) .hy-board__k { text-transform: none; letter-spacing: 0.06em; }
+.hy-contact .hy-board { margin-top: 2rem; grid-template-columns: minmax(0, 1fr); }
+
+/* Plans and small things: product grid */
+.hy-grid .wc-block-product-template { gap: clamp(1rem, 2.5vw, 1.75rem) !important; display: grid !important; grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+.hy-grid .wc-block-product-template > li { width: auto !important; max-width: none !important; margin: 0 !important; }
+@media (max-width: 781px) { .hy-grid .wc-block-product-template { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } }
+.hy-grid--static { display: grid !important; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2.5vw, 1.75rem); }
+.hy-grid--static > * { margin: 0 !important; }
+.hy-grid--static img { aspect-ratio: 1; object-fit: cover; border-radius: 2px; display: block; }
+.hy-card__photo { margin: 0 0 0.9rem !important; background: var(--hy-mist); border-radius: 2px; overflow: hidden; }
+.hy-card__photo img { display: block; aspect-ratio: 1; object-fit: cover; }
+.hy-card__name { font-family: var(--wp--preset--font-family--display); font-size: 1.125rem !important; font-weight: 700; line-height: 1.35; margin: 0 0 0.3rem !important; text-align: left !important; }
+.hy-card__name a { color: var(--hy-ink); text-decoration: none; }
+.hy-card__name a:hover { color: var(--hy-deep); text-decoration: underline; }
+.hy-card__price { color: var(--hy-deep); font-weight: 700; text-align: left !important; }
+@media (max-width: 781px) { .hy-grid--static { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* The day as a vertical scroll: a crimson spine runs down the page like the cord of a hanging scroll; five numbered scenes hang off it, and the dressing print sits framed beside it. In Chinese and Japanese the section line is set vertically at the head */
+.hy-scroll { padding-block: var(--hy-sec) !important; }
+.hy-scroll__head { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-rows: auto auto 1fr; column-gap: 2rem; align-items: start; margin-bottom: clamp(2rem, 4vw, 3rem) !important; }
+.hy-scroll__head > * { margin: 0 !important; grid-column: 1; }
+.hy-scroll__head > .hy-tate { grid-column: 2; grid-row: 1 / span 3; font-size: 1.75rem; color: var(--hy-enji); }
+.hy-scroll__body { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: start; }
+.hy-scroll__body > * { margin: 0 !important; }
+.hy-scroll__art { position: sticky; top: calc(var(--hy-headh) + 1.5rem); background: #FFFFFF; padding: 12px; border: 1px solid color-mix(in srgb, var(--hy-ink) 16%, transparent); transform: rotate(-1.5deg); }
+.hy-scroll__img { margin: 0 !important; }
+.hy-scroll__img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.hy-scenes { position: relative; display: grid; gap: clamp(1.5rem, 3vw, 2.25rem); padding-left: 4.5rem; }
+.hy-scenes::before { content: ""; position: absolute; left: 1.375rem; top: 0.5rem; bottom: 0.5rem; width: 6px; background: var(--hy-enji); }
+.hy-scenes > * { margin: 0 !important; }
+.hy-scene { position: relative; background: #FFFFFF; border: 1px solid color-mix(in srgb, var(--hy-ink) 14%, transparent); padding: 1.25rem 1.5rem 1.4rem; }
+.hy-scene > * { margin: 0 !important; }
+.hy-scene__no { position: absolute !important; left: -4.5rem; top: 1rem; width: 3.25rem; height: 3.25rem; display: grid; place-items: center; background: var(--hy-enji); color: #FFFFFF; font-weight: 800; font-size: 1.0625rem; letter-spacing: 0.04em; border: 3px solid var(--hy-paper); border-radius: 50%; }
+.hy-scene__title { font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.75rem); margin-bottom: 0.35rem !important; color: var(--hy-ink); }
+.hy-scene__text { color: var(--hy-quiet); }
+.hy-scene:nth-child(even) { margin-left: clamp(0rem, 3vw, 2.5rem) !important; }
+@media (max-width: 781px) {
+	.hy-scroll__body { grid-template-columns: minmax(0, 1fr); }
+	.hy-scroll__art { position: relative; top: 0; max-width: 340px; }
+	.hy-scene:nth-child(even) { margin-left: 0 !important; }
+}
+
+/* The collage of a day: a full crimson band; four woodblock prints pasted at angles with white margins; the cut-out umbrella breaks out of the collage and over the band's top edge */
+.hy-break { background: var(--hy-enji); color: #FFFFFF; padding-block: clamp(5.5rem, 10vw, 8rem); overflow: visible; z-index: 2; }
+.hy-break .hy-sec__title { color: #FFFFFF; font-size: clamp(1.75rem, 1.1rem + 2.2vw, 3rem); }
+.hy-break__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: center; }
+.hy-break__grid > * { margin: 0 !important; }
+.hy-collage { position: relative; min-height: clamp(360px, 38vw, 520px); }
+.hy-collage > figure { position: absolute !important; margin: 0 !important; background: #FFFFFF; padding: 10px; box-shadow: 0 18px 30px -16px rgba(42, 21, 23, .6); }
+.hy-collage > figure img { display: block; width: 100%; object-fit: cover; }
+.hy-collage__a { left: 0; top: 4%; width: 52%; transform: rotate(-4deg); z-index: 1; }
+.hy-collage__a img { aspect-ratio: 1; }
+.hy-collage__b { right: 2%; top: 0; width: 50%; transform: rotate(3deg); z-index: 2; }
+.hy-collage__b img { aspect-ratio: 3 / 2; }
+.hy-collage__c { left: 22%; bottom: 0; width: 56%; transform: rotate(-1deg); z-index: 3; }
+.hy-collage__c img { aspect-ratio: 3 / 2; }
+.hy-collage > .hy-break__float { position: absolute !important; background: none; padding: 0; box-shadow: none; top: calc(-1 * clamp(7rem, 12vw, 10rem)); right: -6%; width: clamp(170px, 19vw, 270px); transform: rotate(-12deg); filter: drop-shadow(0 18px 22px rgba(42, 21, 23, .45)); z-index: 4; }
+.hy-break__text > * { margin-block: 0 1.25rem; }
+.hy-break .hy-chip { background: var(--hy-paper); color: var(--hy-deep) !important; }
+.hy-break__card { background: #FFFFFF; color: var(--hy-ink); padding: 1.5rem 1.6rem; margin: 0 !important; }
+.hy-break__card > * { margin-block: 0; }
+.hy-break__card .hy-more { margin-top: 1.25rem !important; }
+@media (max-width: 781px) {
+	.hy-break__grid { grid-template-columns: minmax(0, 1fr); }
+	.hy-collage { min-height: 92vw; }
+	.hy-collage > .hy-break__float { right: -2%; width: 130px; top: -5.5rem; }
+}
+
+/* Lane notes: home and lists */
+.hy-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2rem); padding: 0; }
+.hy-notes .wp-block-post-template > li { margin: 0; }
+.hy-list .hy-notes .wp-block-post-template > li { background: #FFFFFF; border-radius: var(--hy-radius); padding: 10px 10px 1.25rem; }
+.hy-list .hy-note__text { padding-inline: 0.75rem; }
+.hy-note__img { margin: 0 0 0.9rem; }
+.hy-note__img img { display: block; border-radius: 2px; }
+.hy-note__date { font-size: 0.8125rem; color: var(--hy-deep); font-variant-numeric: tabular-nums; font-weight: 700; letter-spacing: 0.06em; }
+.hy-note__title { font-size: 1.3125rem; margin: 0.25rem 0 0.5rem; }
+.hy-note__title a { color: var(--hy-ink); text-decoration: none; }
+.hy-note__title a:hover { color: var(--hy-deep); text-decoration: underline; }
+.hy-pagination { margin-top: 2.5rem; }
+@media (max-width: 860px) { .hy-notes .wp-block-post-template { grid-template-columns: minmax(0, 1fr); } }
+
+/* Page heads: a crimson field with a white title and lead; the cut-out umbrella breaks over the bottom edge */
+.hy-pagehead { position: relative; z-index: 3; padding-block: clamp(3rem, 6vw, 5rem) clamp(4rem, 7vw, 5.5rem); margin: 0 !important; background: var(--hy-enji); color: #FFFFFF; overflow: visible; }
+.hy-pagehead > .hy-eyebrow { background: var(--hy-paper); color: var(--hy-deep); border-radius: 999px; padding: 0.35rem 0.95rem; width: fit-content; }
+.hy-main .hy-pagehead.is-layout-constrained > .hy-eyebrow { margin-left: max(0px, calc((100% - var(--hy-wide)) / 2)) !important; }
+.hy-pagehead a { color: #FFFFFF; }
+.hy-pagehead__title { color: #FFFFFF; font-size: clamp(2.25rem, 1.3rem + 3.2vw, 4.25rem); line-height: 1.1; margin: 0 0 1rem; text-wrap: balance; }
+:is(:lang(ja), :lang(zh)) .hy-pagehead__title { line-height: 1.3; }
+.hy-pagehead__lead { font-size: 1.25rem; font-weight: 700; line-height: 1.55; margin: 0; max-width: 40rem; }
+.hy-main .hy-pagehead.is-layout-constrained > :is(.hy-pagehead__lead, .hy-crumbs, .woocommerce-breadcrumb, .wp-block-term-description) { margin-left: max(0px, calc((100% - var(--hy-wide)) / 2)) !important; margin-right: auto !important; max-width: min(40rem, 100%) !important; }
+.hy-main .hy-pagehead.is-layout-constrained > .hy-pagehead__title { padding-right: clamp(0px, 12vw, 12rem); box-sizing: border-box; }
+.hy-pagehead__cut { position: absolute !important; right: max(1.5rem, calc((100% - var(--hy-wide)) / 2 + 2rem)); bottom: -60px; width: clamp(120px, 13vw, 180px); margin: 0 !important; transform: rotate(10deg); filter: drop-shadow(0 16px 18px rgba(42, 21, 23, .35)); z-index: 3; }
+.hy-pagehead__cut img { display: block; width: 100%; }
+.hy-pagehead .hy-tate { position: absolute; top: clamp(2.5rem, 5vw, 4rem); right: max(1.5rem, calc((100% - var(--hy-wide)) / 2 + 14rem)); color: #FFFFFF; font-size: 1.5rem; }
+.hy-pagehead .hy-search { max-width: 30rem; margin: 1.5rem 0 !important; }
+.hy-pagehead .wp-block-button.is-style-outline .wp-block-button__link { background: var(--hy-paper); color: var(--hy-deep); border: 0; }
+.hy-pagehead .wp-block-search__input { border-radius: 999px 0 0 999px; border: 0; padding: 0.6rem 1.1rem; }
+.hy-pagehead .wp-block-search__button { border-radius: 0 999px 999px 0; background: var(--hy-ink); color: #FFFFFF; border: 0; }
+.hy-404 + * { margin: 0; }
+.hy-pagehead .hy-tate { white-space: nowrap; font-size: 1.25rem !important; }
+:is(:lang(ja), :lang(zh)) .hy-pagehead { min-height: 21rem; box-sizing: border-box; }
+@media (max-width: 781px) { .hy-pagehead .hy-tate { display: none; } .hy-pagehead__cut { bottom: -40px; width: 96px; } }
+.hy-crumbs, .hy-pagehead .woocommerce-breadcrumb { font-size: 0.8125rem; font-weight: 700; margin-bottom: 1.5rem !important; }
+.hy-pagehead :is(.hy-crumbs, .woocommerce-breadcrumb) { background: var(--hy-paper); color: var(--hy-deep); border-radius: 999px; padding: 0.3rem 0.9rem; width: fit-content; }
+.hy-pagehead :is(.hy-crumbs, .woocommerce-breadcrumb) a { color: var(--hy-deep); }
+.hy-pagehead .wp-block-term-description, .hy-pagehead .wp-block-term-description p { font-size: 1.25rem; font-weight: 700; }
+
+/* The shop (about) */
+.hy-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(2rem, 5vw, 4rem); align-items: center; background: #FFFFFF; border-radius: var(--hy-radius); padding: clamp(1.5rem, 3.5vw, 2.75rem); }
+.hy-about__story > * { margin: 0 !important; }
+.hy-about__img img { display: block; aspect-ratio: 1; object-fit: cover; width: 100%; border-radius: 2px; }
+.hy-promise { margin-top: var(--hy-sec) !important; }
+.hy-promise__list { list-style: none; counter-reset: hypr; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; }
+.hy-promise__list li { counter-increment: hypr; background: #FFFFFF; border-radius: 2px; padding: 1.35rem; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.1875rem; line-height: 1.4; }
+.hy-promise__list li::before { content: counter(hypr, decimal-leading-zero); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; border-radius: 50%; background: var(--hy-enji); color: #FFFFFF; font-family: var(--wp--preset--font-family--body); font-size: 0.9375rem; font-weight: 800; margin-bottom: 0.8rem; }
+@media (max-width: 781px) { .hy-about__story { grid-template-columns: minmax(0, 1fr); } }
+
+/* Newsletter and Visit */
+.hy-letter__grid, .hy-contact__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.25rem, 3vw, 2rem); align-items: start; }
+.hy-letter__grid > *, .hy-contact__grid > * { margin: 0 !important; }
+.hy-letter__img img { display: block; aspect-ratio: 4/3; object-fit: cover; width: 100%; border-radius: var(--hy-radius); }
+.hy-letter__card, .hy-contact__ask, .hy-contact__find { background: #FFFFFF; border-radius: var(--hy-radius); padding: clamp(1.5rem, 4vw, 2.5rem); }
+.hy-letter__card { border-top: 8px solid var(--hy-enji); }
+.hy-contact .hy-board > * { background: var(--hy-mist); }
+.hy-contact .hy-board > .hy-board__lead { background: var(--hy-enji) !important; }
+@media (max-width: 781px) { .hy-letter__grid, .hy-contact__grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Shop details (synced) */
+.hy-details { margin: 0; }
+.hy-details p { margin: 0 0 0.4rem; }
+.hy-details__hours { font-weight: 700; }
+.hy-details__note { font-size: 0.875rem; margin-top: 0.75rem !important; }
+
+/* Single note and plain pages */
+.hy-article__head > * { margin-block: 0 0.75rem; }
+.hy-article__head { margin-bottom: 2rem; }
+.hy-article .hy-pagehead__title { color: var(--hy-ink); font-size: clamp(2.25rem, 1.2rem + 3vw, 3.75rem); }
+.hy-article__date { color: var(--hy-quiet); font-size: 0.875rem; }
+.hy-photo { margin-block: 0 2.5rem; }
+.hy-photo img { display: block; max-height: 560px; object-fit: cover; border-radius: var(--hy-radius); }
+.hy-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.hy-tags a { display: inline-block; background: #FFFFFF; color: var(--hy-deep); padding: 0.2rem 0.8rem; border-radius: 999px; text-decoration: none; font-size: 0.875rem; font-weight: 600; margin: 0 0.25rem 0.25rem 0; }
+.hy-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.hy-page .hy-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Store pages */
+.hy-shophead .hy-eyebrow { color: var(--hy-deep); }
+.hy-shopbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2rem !important; }
+.hy-shopbar > * { margin: 0 !important; }
+.hy-shopgrid { padding-top: calc(var(--hy-sec) + 1.5rem); }
+.hy-shopgrid > .hy-grid, .hy-shopgrid > .wp-block-woocommerce-product-collection { background: #FFFFFF; border-radius: var(--hy-radius); padding: clamp(1.25rem, 3vw, 2.25rem); }
+.hy-product__main { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(2rem, 5vw, 4rem); align-items: start; margin-top: 1.5rem !important; background: #FFFFFF; border-radius: var(--hy-radius); padding: clamp(1.25rem, 3vw, 2.5rem); }
+.hy-product__main > * { margin: 0 !important; }
+.hy-product .hy-crumbs { color: var(--hy-quiet); }
+.hy-product__title { font-size: clamp(2rem, 1.3rem + 2.2vw, 3rem); margin: 0 0 0.75rem; }
+.hy-product__price { font-size: 1.5rem; color: var(--hy-deep); font-weight: 700; margin-bottom: 1rem; }
+.hy-product-note { background: var(--hy-mist); border-left: 6px solid var(--hy-enji); border-radius: 0 14px 14px 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0 !important; }
+.hy-product-note p { margin: 0 0 0.4rem; }
+.hy-product__meta { font-size: 0.875rem; color: var(--hy-quiet); gap: 1rem; }
+.hy-product__details { margin-top: var(--hy-sec) !important; background: #FFFFFF; border-radius: var(--hy-radius); padding: clamp(1.25rem, 3vw, 2.5rem); }
+.hy-related { background: var(--hy-pale); }
+.hy-store-page__head { margin-bottom: 2rem !important; }
+.hy-store-page .hy-pagehead__title { color: var(--hy-ink); }
+@media (max-width: 781px) { .hy-product__main { grid-template-columns: minmax(0, 1fr); } }
+
+/* Footer: a crimson strip with the shop line, then the ink field */
+.hy-foot { background: var(--hy-ink); color: #FFFFFF; padding: 0 0 2rem !important; margin: 0 !important; }
+.hy-foot a { color: #FFFFFF; }
+.hy-foot__strip { background: var(--hy-enji); padding-block: 1.75rem !important; margin: 0 !important; }
+.hy-foot__strip > * { max-width: var(--hy-wide) !important; }
+.hy-foot__sub { margin: 0; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem); line-height: 1.45; }
+.hy-foot__grid, .hy-foot__base { box-sizing: border-box; padding-inline: var(--hy-pad) !important; }
+.hy-foot__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) minmax(0, 3fr); gap: clamp(1.5rem, 4vw, 3rem); padding-block: clamp(3rem, 6vw, 4.5rem) 2rem; }
+.hy-foot__grid > * { margin: 0 !important; }
+.hy-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.5rem); margin: 0 0 0.75rem; line-height: 1.1; }
+.hy-foot__mark a { text-decoration: none; }
+.hy-foot__tag { color: var(--hy-pale); font-size: 0.9375rem; max-width: 26rem; }
+nav.hy-foot__nav .wp-block-navigation__container { gap: 0.5rem; }
+nav.hy-foot__nav a { text-decoration: none; }
+nav.hy-foot__nav a:hover { text-decoration: underline; }
+.hy-foot__base { border-top: 1px solid rgba(255,255,255,.2); padding-top: 1.25rem; }
+.hy-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--hy-pale); }
+.hy-foot .hy-details__note { color: var(--hy-pale); }
+@media (max-width: 860px) { .hy-foot__grid { grid-template-columns: minmax(0, 1fr); } }
+
+@media (prefers-reduced-motion: reduce) {
+	* { scroll-behavior: auto !important; transition: none !important; }
+}
