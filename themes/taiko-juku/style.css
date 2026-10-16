@@ -1,0 +1,358 @@
+/*
+Theme Name: Taiko Juku
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/taiko-juku
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Taiko Juku — a taiko drumming school theme that scrolls like a vertical scroll: a sumi header with the school name and a Try a class button, whose menu runs down a fixed side rail on wide screens (top to bottom in Chinese and Japanese). Edo purple (#745399) is the main colour: the hero, every page head and the festival band are purple fields with white type. The hero is a framed window: a low-key photograph of a drummer in a dark timber dojo inside a deep sumi frame, with a cut-out drum breaking out of the window and over the hero edge; a second cut-out drum breaks over the class band. Every picture is a low-key photograph (50mm f/1.4, hard window light, dark ground, graded toward Edo purple). Yusei Magic for display, Karla for reading. Sample content in English, Traditional Chinese, Japanese, French and German; vertical section labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: taiko-juku
+Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles, left-sidebar
+*/
+
+:root {
+	--tj-paper: var(--wp--preset--color--paper);
+	--tj-pink: var(--wp--preset--color--tsutsuji);
+	--tj-blush: var(--wp--preset--color--blush);
+	--tj-night: var(--wp--preset--color--night);
+	--tj-deep: var(--wp--preset--color--deep);
+	--tj-quiet: var(--wp--preset--color--quiet);
+	--tj-glow: var(--wp--preset--color--glow);
+	--tj-pale: #E7DDF2;
+	--tj-pad: clamp(1.25rem, 4vw, 3rem);
+	--tj-sec: clamp(3.5rem, 7vw, 6rem);
+	--tj-side: 300px;
+	--tj-wash: radial-gradient(ellipse 60% 40% at 15% 20%, rgba(255, 245, 248, 0.22), transparent 70%), radial-gradient(ellipse 50% 45% at 85% 75%, rgba(30, 20, 51, 0.10), transparent 70%);
+}
+
+/* Fonts per language: Yusei Magic / Karla for Latin; CJK headings use the Yusei Magic subset, body falls back to system CJK */
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Yusei Magic", "Yusei Magic CJK", "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+	--wp--preset--font-family--body: "Karla", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Yusei Magic", "Yusei Magic CJK", "PingFang TC", "Noto Sans TC", sans-serif;
+	--wp--preset--font-family--body: "Karla", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+}
+:lang(ja) body, :lang(zh) body { line-height: 1.9; }
+:is(:lang(ja), :lang(zh)) :is(.tj-eyebrow, .tj-board__label, .tj-rates__label) { letter-spacing: 0.08em; }
+
+html, body { overflow-x: clip; }
+a { color: var(--tj-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+
+/* Labels, titles, block styles */
+.tj-eyebrow { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--tj-deep); margin: 0 0 0.75rem; }
+.tj-eyebrow a { color: inherit; text-decoration: none; }
+.tj-sec__title { margin: 0 0 1.25rem; font-size: var(--wp--preset--font-size--x-large); }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.7; }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--tj-deep); padding: 0.25rem 0; border-bottom: 2px solid currentColor; border-radius: 0; }
+.wp-block-button.is-style-outline .wp-block-button__link { background: none; color: var(--tj-night); border: 2px solid var(--tj-night); }
+hr.is-style-stars { border: 0; height: 14px; width: 84px !important; margin: 2.5rem 0; opacity: 1; background: radial-gradient(circle at center, var(--tj-pink) 0 3px, transparent 3.5px) 0 0 / 28px 14px repeat-x; }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.7rem 0 0.7rem 1.6rem; border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent); position: relative; }
+.is-style-rule-list li::before { content: ""; position: absolute; left: 0.1rem; top: 1.25rem; width: 0.65rem; height: 0.65rem; border-radius: 50%; background: var(--tj-pink); }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.tj-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .tj-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 600; letter-spacing: 0.35em; margin: 0; line-height: 1.2; }
+
+/* Header: sumi bar with the school name and the Try a class button; on wide screens its menu runs down a fixed side rail */
+.tj-head-part { position: sticky; top: 0; z-index: 30; }
+.tj-head { margin: 0; background: var(--tj-night); color: var(--tj-paper); border-bottom: 4px solid var(--tj-pink); }
+.tj-head > .tj-bar { max-width: 100% !important; }
+.tj-bar { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 1rem 2rem; min-height: 76px; }
+.tj-bar > * { margin: 0 !important; }
+.tj-brand { display: flex; align-items: baseline; gap: 0.25rem 1rem; flex-wrap: wrap; margin-right: auto !important; }
+.tj-brand > * { margin: 0 !important; }
+.tj-brand__title { font-family: var(--wp--preset--font-family--display); font-size: clamp(1.5rem, 1.15rem + 1vw, 2rem); line-height: 1.1; white-space: nowrap; }
+.tj-brand__title a { color: #FFFFFF; text-decoration: none; }
+.tj-brand__tag { font-size: 0.8125rem; color: var(--tj-glow); }
+.tj-nav { font-weight: 700; font-size: 0.9375rem; letter-spacing: 0.04em; }
+.tj-nav a { color: var(--tj-paper); text-decoration: none; white-space: nowrap; }
+.tj-nav a:hover, .tj-nav .current-menu-item > a { color: #FFFFFF; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.35em; }
+.tj-nav .wp-block-navigation__responsive-container-open { color: var(--tj-paper); border: 2px solid var(--tj-glow); border-radius: 999px; padding: 0.4rem; }
+.tj-head__cta .wp-block-button__link { background: var(--tj-pink); color: #FFFFFF; padding: 0.65rem 1.3rem; white-space: nowrap; }
+.tj-head .tj-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--tj-night); color: var(--tj-paper); padding: 2rem var(--tj-pad); }
+.tj-nav .is-menu-open .wp-block-navigation__container { gap: 1rem; font-family: var(--wp--preset--font-family--display); font-size: 1.875rem; }
+:root { --tj-rail: 0px; --tj-headh: 80px; }
+@media (min-width: 1100px) {
+	:root { --tj-rail: 168px; }
+	.tj-nav { box-sizing: border-box; position: fixed; left: 0; top: var(--tj-headh); bottom: 0; width: var(--tj-rail); background: var(--tj-night); border-right: 4px solid var(--tj-pink); padding: 2.25rem 1.5rem; overflow-y: auto; }
+	.tj-nav .wp-block-navigation__container { flex-direction: column; align-items: flex-start; gap: 1.1rem; }
+	.tj-nav .wp-block-navigation-item { width: 100%; padding-bottom: 1rem; border-bottom: 1px solid rgba(201, 179, 230, 0.25); }
+	:is(:lang(ja), :lang(zh)) .tj-nav .wp-block-navigation__container { align-items: center; gap: 1.25rem; }
+	:is(:lang(ja), :lang(zh)) .tj-nav .wp-block-navigation-item { width: auto; writing-mode: vertical-rl; border: 0; border-top: 2px solid var(--tj-pink); padding: 0.6rem 0 0; font-size: 1.0625rem; letter-spacing: 0.2em; }
+	.tj-foot { margin-left: var(--tj-rail) !important; }
+	.tj-foot { position: relative; z-index: 31; }
+}
+@media (max-width: 599px) {
+	.tj-brand__tag { display: none; }
+	.tj-bar { gap: 0.75rem; min-height: 64px; }
+	.tj-brand__title { font-size: 1.375rem; white-space: normal; }
+	.tj-head__cta .wp-block-button__link { padding: 0.5rem 0.85rem; font-size: 0.8125rem; }
+}
+
+/* The page column */
+.tj-shell { display: block; margin: 0 0 0 var(--tj-rail) !important; }
+.tj-main { margin: 0 !important; padding: 0 !important; min-width: 0; }
+.tj-main > * { margin-block: 0; }
+.tj-main > .wp-block-post-content > * { margin-block: 0; }
+
+/* Dojo board (synced): a dark strip of this week's facts */
+.tj-week { background: var(--tj-night); color: var(--tj-paper); }
+.tj-board { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 0.75rem 2rem; margin: 0; align-items: start; }
+.tj-board > * { margin: 0 !important; }
+.tj-board p { margin: 0; }
+.tj-board__label { display: none; }
+.tj-board__tonight { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--tj-glow); }
+.tj-board__sky { font-family: var(--wp--preset--font-family--display); font-size: 2.25rem; color: #FFFFFF; line-height: 1.1; grid-row: 2; grid-column: 1; }
+.tj-board__clear { font-size: 0.9375rem; grid-row: 3; grid-column: 1; }
+.tj-board__rows { display: grid; gap: 0.5rem; grid-row: 1 / span 3; grid-column: 2; }
+.tj-board__rows > * { margin: 0 !important; }
+.tj-board__row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; border-bottom: 1px solid rgba(201, 179, 230, 0.3); padding: 0.4rem 0; }
+.tj-board__row > * { margin: 0 !important; }
+.tj-board__k { font-size: 0.875rem; }
+.tj-board__v { font-weight: 700; color: var(--tj-glow); text-align: right; }
+.tj-board__note { font-size: 0.875rem; color: var(--tj-glow); grid-column: 3; grid-row: 1 / span 2; }
+.tj-board__cta { grid-column: 3; grid-row: 3; }
+.tj-board__cta .wp-block-button__link { background: var(--tj-pink); color: #FFFFFF; }
+@media (max-width: 900px) {
+	.tj-board { grid-template-columns: minmax(0, 1fr); }
+	.tj-board > * { grid-column: 1 !important; grid-row: auto !important; }
+}
+
+/* Sections inside the page column: heads line up with the wide content, text keeps a reading measure */
+.tj-section { padding-block: var(--tj-sec); margin: 0 !important; }
+.tj-main .tj-section.is-layout-constrained > :not(.alignfull), .tj-main .tj-pagehead.is-layout-constrained > :not(.alignfull) { max-width: var(--wp--style--global--wide-size) !important; }
+.tj-main :is(.tj-section, .tj-pagehead) > p:not(.tj-tate) { padding-right: max(0px, calc(100% - 40rem)); }
+.tj-section > * { margin-block-start: 0; }
+
+/* Hero: the Edo-purple field with a deep window frame; the cut-out drum breaks out of the window and over the hero edge */
+.tj-hero { position: relative; z-index: 2; background: var(--tj-pink); color: #FFFFFF; padding: clamp(2.5rem, 5vw, 4.5rem) var(--tj-pad) clamp(3.5rem, 6vw, 5rem) !important; margin: 0 !important; display: grid; grid-template-columns: minmax(0, 5fr) auto minmax(0, 7fr); gap: 1.5rem clamp(1.5rem, 3vw, 3rem); align-items: center; }
+.tj-hero > * { margin: 0 !important; }
+.tj-hero__type > * { margin-block: 0 1rem; }
+.tj-hero__title { font-size: clamp(2.25rem, 1.4rem + 3vw, 4.25rem); line-height: 1.15; color: #FFFFFF; margin-bottom: 1.25rem !important; }
+.tj-hero__lead { font-size: var(--wp--preset--font-size--large); max-width: 34rem; }
+.tj-hero__cta { gap: 0.75rem; margin-top: 1.5rem !important; }
+.tj-hero .tj-book .wp-block-button__link { background: var(--tj-night); color: #FFFFFF; }
+.tj-hero .is-style-outline .wp-block-button__link { color: #FFFFFF; border-color: #FFFFFF; }
+.tj-hero .tj-tate { font-size: clamp(1.75rem, 1rem + 1.8vw, 2.75rem); color: #FFFFFF; border-left: 2px solid #FFFFFF; padding-left: 0.85rem; align-self: start; }
+.tj-hero__type { grid-column: 1; grid-row: 1; }
+.tj-hero .tj-tate { grid-column: 2; grid-row: 1; }
+.tj-window { grid-column: 3; grid-row: 1; position: relative; background: var(--tj-night); padding: clamp(0.75rem, 1.6vw, 1.25rem); border-radius: 4px; box-shadow: inset 0 0 0 2px rgba(201, 179, 230, 0.35), 14px 14px 0 rgba(23, 18, 31, 0.45); }
+.tj-window > * { margin: 0 !important; }
+.tj-window__label { position: absolute; top: -0.9rem; left: 1.5rem; z-index: 2; background: #FFFFFF; color: var(--tj-night); font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.08em; padding: 0.25rem 0.9rem; }
+.tj-window__img img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.tj-window__drum { position: absolute; right: -9%; bottom: -30%; width: clamp(170px, 42%, 400px); z-index: 3; pointer-events: none; filter: drop-shadow(0 18px 20px rgba(23, 18, 31, 0.55)); }
+.tj-window__drum img { display: block; width: 100%; }
+@media (max-width: 1000px) {
+	.tj-hero { grid-template-columns: minmax(0, 1fr) auto; }
+	.tj-window { grid-column: 1 / -1; grid-row: 2; margin-top: 1rem !important; }
+	.tj-window__drum { right: -3%; bottom: -22%; width: 40%; }
+}
+@media (max-width: 640px) { .tj-hero .tj-tate { display: none; } .tj-hero { grid-template-columns: minmax(0, 1fr); padding-bottom: 5rem !important; } }
+
+/* Four ways to stay: a staggered grid of watercolour cards */
+.tj-stays { background: var(--tj-paper); }
+.tj-stays__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.5rem, 3vw, 2.75rem); margin-top: 2rem !important; }
+.tj-stays__grid > * { margin: 0 !important; }
+.tj-stay:nth-child(even) { margin-top: 3.5rem !important; }
+.tj-stay > * { margin-block: 0 0.5rem; }
+.tj-stay__img { margin-bottom: 1rem !important; }
+.tj-stay__img img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 18px; border: 2px solid var(--tj-night); }
+.tj-stay__title { font-size: 1.5rem; }
+.tj-stay__facts { font-size: 0.8125rem; font-weight: 700; color: var(--tj-quiet); letter-spacing: 0.04em; }
+.tj-more { margin-top: 2rem !important; }
+
+/* The azalea band */
+.tj-meadow { background: var(--tj-wash), var(--tj-pink); color: var(--tj-night); }
+.tj-meadow .tj-eyebrow { color: var(--tj-night); }
+.tj-meadow__img { margin: 0 auto 2.5rem !important; }
+.tj-meadow__img img { display: block; width: 100%; aspect-ratio: 16 / 7; object-fit: cover; border-radius: 24px 24px 120px 24px; border: 3px solid var(--tj-night); }
+.tj-meadow__text > * { max-width: 36rem; }
+.tj-meadow__text > * { margin-block: 0 1rem; }
+
+/* A night here: the night band, the cut-out lantern hangs over its top edge */
+.tj-night { position: relative; background: var(--tj-night); color: var(--tj-pale); overflow: visible; }
+.tj-night .tj-sec__title { color: var(--tj-paper); }
+.tj-night .tj-eyebrow { color: var(--tj-glow); }
+.tj-night__drum { position: absolute; right: 6%; top: -150px; width: clamp(150px, 20%, 260px); margin: 0 !important; z-index: 3; pointer-events: none; filter: drop-shadow(0 12px 16px rgba(30, 20, 51, 0.35)); }
+.tj-night__drum img { display: block; width: 100%; }
+.tj-night__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+.tj-night__grid > * { margin: 0 !important; }
+.tj-night__img img { display: block; width: 100%; border-radius: 20px; border: 2px solid var(--tj-glow); }
+.tj-times { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.25rem; }
+.tj-times li { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); gap: 1rem; padding: 0.75rem 0; border-bottom: 1px dashed rgba(247, 200, 220, 0.35); }
+.tj-times strong { font-family: var(--wp--preset--font-family--display); font-size: 1.25rem; color: var(--tj-glow); font-variant-numeric: tabular-nums; }
+
+/* Journal lists */
+.tj-home-journal, .tj-list { background: var(--tj-paper); }
+.tj-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.25rem); padding: 0; }
+.tj-notes .wp-block-post-template > li { margin: 0; }
+.tj-note__img { margin: 0 0 0.85rem; }
+.tj-note__img img { display: block; border-radius: 16px; border: 2px solid var(--tj-night); }
+.tj-note__date { font-size: 0.8125rem; color: var(--tj-quiet); font-variant-numeric: tabular-nums; }
+.tj-note__title { font-size: 1.3125rem; margin: 0.25rem 0 0.5rem; }
+.tj-note__title a { color: var(--tj-night); text-decoration: none; }
+.tj-note__title a:hover { color: var(--tj-deep); text-decoration: underline; }
+.tj-pagination { margin-top: 2.5rem; }
+
+/* Page heads: the azalea field */
+.tj-pagehead { position: relative; background: var(--tj-wash), var(--tj-pink); color: var(--tj-night); padding-block: clamp(3rem, 6vw, 5rem) clamp(2.5rem, 5vw, 4rem) !important; margin: 0 !important; border-bottom: 3px solid var(--tj-night); }
+.tj-pagehead > * { margin-block: 0 0.85rem; }
+.tj-pagehead .tj-eyebrow { color: var(--tj-night); }
+.tj-pagehead__title { font-size: clamp(2.125rem, 1.4rem + 2.6vw, 3.75rem); line-height: 1.15; }
+.tj-pagehead__lead { font-size: var(--wp--preset--font-size--large); max-width: 40rem; }
+.tj-pagehead .tj-tate { position: absolute; right: var(--tj-pad); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem); border-left: 2px solid var(--tj-night); padding-left: 0.6rem; }
+.tj-pagehead:has(> .tj-tate) > .tj-pagehead__title { padding-right: 5.5rem; }
+.tj-pagehead .wp-block-search { max-width: 34rem; margin-top: 1.25rem; }
+.tj-search .wp-block-search__input { border: 2px solid var(--tj-night); border-radius: 999px; padding: 0.6rem 1rem; background: #FFFFFF; }
+.tj-search .wp-block-search__button { background: var(--tj-night); color: var(--tj-paper); border-radius: 999px; border: 0; padding-inline: 1.25rem; font-weight: 700; }
+
+/* Tents & domes */
+.tj-rooms__list { display: grid; gap: clamp(2.5rem, 5vw, 4rem); }
+.tj-rooms__list > * { margin: 0 !important; }
+.tj-room { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(1.25rem, 3vw, 2.5rem); align-items: center; }
+.tj-room > * { margin: 0 !important; }
+.tj-room:nth-child(even) .tj-room__img { order: 2; }
+.tj-room__img img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 22px; border: 2px solid var(--tj-night); }
+.tj-room__text > * { margin-block: 0 0.75rem; }
+.tj-room__title { font-size: var(--wp--preset--font-size--x-large); }
+.tj-rooms__extra { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3rem); margin-top: clamp(3rem, 6vw, 4.5rem) !important; align-items: start; }
+.tj-rooms__extra > * { margin: 0 !important; }
+
+/* Rates (synced) */
+.tj-rates { background: var(--tj-blush); border: 2px solid var(--tj-night); border-radius: 20px; padding: clamp(1.25rem, 3vw, 2rem); margin: 0; }
+.tj-rates > * { margin: 0 !important; }
+.tj-rates__label { font-family: var(--wp--preset--font-family--display); font-weight: 600; font-size: 1.5rem; margin-bottom: 0.75rem !important; }
+.tj-rate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 1rem; padding: 0.85rem 0; border-bottom: 1px dashed rgba(30, 20, 51, 0.3); }
+.tj-rate > * { margin: 0 !important; }
+.tj-rate__name { font-weight: 700; }
+.tj-rate__facts { grid-column: 1; font-size: 0.8125rem; color: var(--tj-quiet); }
+.tj-rate__price { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-family: var(--wp--preset--font-family--display); font-weight: 600; font-size: 1.375rem; text-align: right; font-variant-numeric: tabular-nums; }
+.tj-rate__price span { display: block; font-family: var(--wp--preset--font-family--body); font-size: 0.75rem; font-weight: 400; color: var(--tj-quiet); }
+.tj-rates__note { font-size: 0.875rem; color: var(--tj-quiet); margin-top: 1rem !important; }
+
+/* The meadow */
+.tj-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.tj-about__story > * { margin: 0 !important; }
+.tj-about__img img { display: block; width: 100%; border-radius: 120px 120px 20px 20px; border: 2px solid var(--tj-night); }
+.tj-about__frame { margin-top: clamp(3rem, 6vw, 5rem) !important; }
+.tj-rules { margin-top: clamp(3rem, 6vw, 4.5rem) !important; max-width: 40rem; }
+.tj-rules__list, .tj-steps { padding: 0; margin: 0; list-style: none; counter-reset: hzstep; display: grid; gap: 0.75rem; }
+.tj-rules__list li, .tj-steps li { counter-increment: hzstep; display: grid; grid-template-columns: 2.25rem minmax(0, 1fr); gap: 0.75rem; align-items: start; }
+.tj-rules__list li::before, .tj-steps li::before { content: counter(hzstep); display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--tj-pink); color: var(--tj-night); font-weight: 700; border: 2px solid var(--tj-night); }
+
+/* Star letter */
+.tj-letter__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.tj-letter__grid > * { margin: 0 !important; }
+.tj-letter__img img { display: block; width: 100%; border-radius: 22px; border: 2px solid var(--tj-night); }
+.tj-letter__card { background: var(--tj-night); color: var(--tj-pale); border-radius: 22px; padding: clamp(1.5rem, 3.5vw, 2.5rem); }
+.tj-letter__card > * { margin-block: 0 1rem; }
+.tj-letter__card .tj-sec__title { color: var(--tj-paper); }
+.tj-mailto .wp-block-button__link { background: var(--tj-pink); color: var(--tj-night); }
+.tj-contact .tj-mailto .wp-block-button__link { background: var(--tj-night); color: var(--tj-paper); }
+
+/* Book & find us */
+.tj-contact__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.tj-contact__grid > * { margin: 0 !important; }
+.tj-contact__book > *, .tj-contact__find > * { margin-block: 0 1.25rem; }
+.tj-steps { margin-bottom: 1.75rem !important; }
+
+/* Camp details (synced) */
+.tj-details { display: grid; gap: 0.35rem; margin: 0; }
+.tj-details > * { margin: 0 !important; }
+.tj-details__season { font-weight: 700; }
+.tj-details__note { font-size: 0.875rem; margin-top: 0.5rem !important; }
+.tj-contact .tj-details { background: var(--tj-blush); border: 2px solid var(--tj-night); border-radius: 20px; padding: clamp(1.25rem, 3vw, 1.75rem); }
+
+/* The details card shows once per page: on Book & find us the footer copy steps aside */
+body:has(.tj-main .tj-details) .tj-foot .tj-details { display: none; }
+
+/* Single note and plain pages */
+.tj-article__head > * { margin-block: 0 0.75rem; }
+.tj-article__head { margin-bottom: 2rem; }
+.tj-article__date { color: var(--tj-quiet); font-size: 0.875rem; }
+.tj-photo { margin-block: 0 2.5rem; }
+.tj-photo img { display: block; border-radius: 22px; border: 2px solid var(--tj-night); max-height: 560px; object-fit: cover; }
+.tj-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.tj-tags a { display: inline-block; background: var(--tj-blush); color: var(--tj-night); padding: 0.2rem 0.8rem; border-radius: 999px; text-decoration: none; font-size: 0.875rem; margin: 0 0.25rem 0.25rem 0; }
+.tj-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.tj-page .tj-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Footer: the night field */
+.tj-foot { background: var(--tj-night); color: var(--tj-pale); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2rem; margin: 0; border-top: 10px solid var(--tj-pink); }
+.tj-foot__grid { display: grid; grid-template-columns: 1.3fr 1fr 0.8fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.tj-foot__grid > * { margin: 0 !important; }
+.tj-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 600; font-size: clamp(2rem, 1.4rem + 2.4vw, 3.25rem); line-height: 1.1; margin: 0 0 0.75rem; }
+.tj-foot__mark a { color: var(--tj-glow); text-decoration: none; }
+.tj-foot__sub { margin: 0; max-width: 26rem; }
+.tj-foot a { color: var(--tj-paper); }
+.tj-foot__nav { font-weight: 700; gap: 0.5rem; }
+.tj-foot__nav a { text-decoration: none; }
+.tj-foot__nav a:hover { text-decoration: underline; }
+.tj-foot__base { margin-top: 3rem !important; padding-top: 1.25rem; border-top: 1px solid rgba(247, 200, 220, 0.35); }
+.tj-foot__legal { margin: 0; font-size: 0.8125rem; }
+
+@media (max-width: 1100px) {
+	.tj-notes .wp-block-post-template { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 860px) {
+	.tj-stays__grid, .tj-night__grid, .tj-room, .tj-rooms__extra, .tj-about__story, .tj-letter__grid, .tj-contact__grid, .tj-foot__grid { grid-template-columns: minmax(0, 1fr); }
+	.tj-stay:nth-child(even) { margin-top: 0 !important; }
+	.tj-room:nth-child(even) .tj-room__img { order: 0; }
+	.tj-about__img { max-width: 360px; }
+	.tj-night__drum { top: -70px; right: 4%; width: 34%; }
+}
+@media (max-width: 640px) {
+	.tj-notes .wp-block-post-template { grid-template-columns: minmax(0, 1fr); }
+	.tj-hero { grid-template-columns: minmax(0, 1fr); }
+	.tj-hero .tj-tate { display: none; }
+	.tj-pagehead .tj-tate { display: none; }
+	.tj-hero__tent { width: 40%; bottom: -9%; right: -3%; }
+	.tj-pins { padding-bottom: 4.5rem; }
+	.tj-map { box-shadow: 6px 6px 0 var(--tj-night); }
+	.tj-times li { grid-template-columns: 3.75rem minmax(0, 1fr); }
+	.tj-rate__price { font-size: 1.125rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+	* { scroll-behavior: auto !important; }
+}
+
+/* Taiko Juku: Edo-purple fields carry white type (6.1:1); sumi bands carry paper and lilac */
+.tj-meadow, .tj-pagehead { background: var(--tj-pink); color: #FFFFFF; }
+:is(.tj-meadow, .tj-pagehead) :is(h1, h2, h3, .tj-eyebrow, a) { color: #FFFFFF; }
+.tj-meadow .is-style-outline .wp-block-button__link { color: #FFFFFF; border-color: #FFFFFF; }
+.tj-pagehead { border-bottom: 4px solid var(--tj-night); }
+.tj-pagehead .tj-tate { border-left-color: #FFFFFF; }
+.tj-meadow__img img { border-radius: 4px; border: 0; box-shadow: 14px 14px 0 var(--tj-night); }
+.tj-night { background: var(--tj-night); }
+.tj-stay__img img, .tj-room__img img, .tj-note__img img, .tj-letter__img img, .tj-photo img { border-radius: 4px; border: 0; }
+.tj-about__img img { border-radius: 4px; border: 0; }
+.tj-about__wide img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border: clamp(0.75rem, 1.6vw, 1.25rem) solid var(--tj-night); }
+.tj-rates, .tj-contact .tj-details { border-radius: 4px; }
+.tj-rules__list li::before, .tj-steps li::before { background: var(--tj-pink); color: #FFFFFF; border-color: var(--tj-pink); border-radius: 2px; }
+.is-style-rule-list li::before { border-radius: 0; }
+.tj-foot { border-top-color: var(--tj-pink); }
+.wp-block-button.is-style-outline .wp-block-button__link { border-radius: 999px; }
+
+/* Vertical scroll: each section hangs its label on a narrow spine; Chinese and Japanese labels run top to bottom */
+@media (min-width: 861px) {
+	.tj-section.is-layout-constrained { display: grid; grid-template-columns: 9rem minmax(0, 1fr); column-gap: clamp(1.5rem, 3vw, 3rem); align-items: start; padding-inline: var(--tj-pad) !important; }
+	.tj-section.is-layout-constrained > * { grid-column: 2; max-width: none !important; margin-inline: 0 !important; }
+	.tj-section.is-layout-constrained > .tj-eyebrow:first-child { grid-column: 1; grid-row: 1 / span 6; position: sticky; top: calc(var(--tj-headh) + 1.5rem); border-top: 3px solid currentColor; padding-top: 0.75rem; }
+	.tj-section.is-layout-constrained > .tj-night__drum { grid-column: auto; position: absolute; }
+	:is(:lang(ja), :lang(zh)) .tj-section.is-layout-constrained > .tj-eyebrow:first-child { writing-mode: vertical-rl; border-top: 0; border-right: 3px solid currentColor; padding: 0 0.75rem 0 0; font-family: var(--wp--preset--font-family--display); font-size: 1.375rem; font-weight: 400; letter-spacing: 0.3em; text-transform: none; justify-self: end; }
+	.tj-main .tj-section > p:not(.tj-tate) { padding-right: 0; }
+}
+.tj-hero .tj-eyebrow { color: #FFFFFF; }
+:is(.tj-week, .tj-night) .tj-eyebrow { color: var(--tj-glow); }
+@media (min-width: 1100px) {
+	.tj-head .tj-nav { padding: 2.25rem 1.5rem !important; }
+}
