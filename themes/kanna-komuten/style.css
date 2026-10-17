@@ -1,0 +1,507 @@
+/*
+Theme Name: Kanna Komuten
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/kanna-komuten
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Kanna Komuten — a machiya renovation carpenter theme built on split screens, with a formal top header: the workshop name and tagline on the left, the Request a survey button on the right, and on wide screens the menu as a fixed sumi-ink side rail of numbered entries down the left edge (an overlay menu on phones and tablets). Ukon turmeric yellow (#FABF14) is the main colour: the hero half, the workshop band, every page head and the overlay menu are solid turmeric fields set in sumi ink. The hero is a full-bleed 35mm film photograph of a machiya under renovation running edge to edge, with the left half covered by the turmeric text panel; a cut-out hand plane sits on the seam and breaks out over the photograph and the hero bottom edge. Split-screen layout throughout: recent work as a text half beside a tall photograph, the workshop band as a turmeric half with the founding year in giant type beside a half of three photographs, projects as split rows, and every page head as a turmeric half beside a full-height photograph. Every picture is a photorealistic film-grain photograph (50mm, natural side light, fine grain, faded colour graded toward turmeric). Zen Kaku Gothic Antique for display, Schibsted Grotesk for reading, Noto Sans TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kanna-komuten
+Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--kn-paper: var(--wp--preset--color--paper);
+	--kn-ukon: var(--wp--preset--color--ukon);
+	--kn-mist: var(--wp--preset--color--mist);
+	--kn-ink: var(--wp--preset--color--ink);
+	--kn-deep: var(--wp--preset--color--deep);
+	--kn-quiet: var(--wp--preset--color--quiet);
+	--kn-pale: var(--wp--preset--color--pale);
+	--kn-ai: var(--wp--preset--color--ai);
+	--kn-pad: clamp(1.25rem, 4vw, 3rem);
+	--kn-sec: clamp(3.5rem, 7vw, 6.5rem);
+	--kn-line: 1.5px solid var(--kn-ink);
+	--kn-rail: 0px;
+	--kn-headh: 72px;
+	--kn-wide: var(--wp--style--global--wide-size);
+	/* Plane marks: a faint wood-grain stripe, used as a texture on the turmeric fields */
+	--kn-koshi: repeating-linear-gradient(90deg, transparent 0 34px, rgba(30, 26, 18, 0.05) 34px 36px);
+	/* A torn paper edge for the collage pieces */
+	--kn-torn: polygon(0% 2%, 6% 0%, 13% 1.5%, 21% 0.3%, 30% 1.8%, 38% 0%, 47% 1.2%, 55% 0.2%, 64% 1.6%, 72% 0.4%, 81% 1.4%, 90% 0%, 100% 1.5%, 99% 12%, 100% 25%, 98.8% 38%, 100% 51%, 99% 64%, 100% 77%, 98.6% 89%, 100% 98%, 93% 100%, 84% 98.6%, 75% 100%, 66% 98.4%, 57% 100%, 48% 98.8%, 39% 100%, 30% 98.5%, 21% 100%, 12% 98.6%, 4% 100%, 0% 98%, 1.2% 86%, 0% 73%, 1% 60%, 0% 47%, 1.4% 34%, 0% 21%, 1% 10%);
+}
+
+/* Fonts per language: Zen Kaku Gothic Antique / Schibsted Grotesk for Latin; Japanese headings use the Zen Kaku Gothic Antique JA subset, Traditional Chinese headings the bundled Noto Sans TC subset (never a Japanese font) */
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Zen Kaku Gothic Antique", "Zen Kaku Gothic Antique JA", "Hiragino Sans", sans-serif;
+	--wp--preset--font-family--body: "Schibsted Grotesk", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Sans TC", "Zen Kaku Gothic Antique", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Schibsted Grotesk", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:lang(ja) body, :lang(zh) body { line-height: 1.95; }
+:is(:lang(ja), :lang(zh)) :is(.kn-eyebrow, .kn-issue, .kn-board__tonight, .kn-rates__label, .kn-row__facts, .kn-room__facts, .kn-toc__label) { letter-spacing: 0.08em; text-transform: none; }
+
+html, body { overflow-x: clip; }
+a { color: var(--kn-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+
+/* Labels, titles, block styles */
+.kn-eyebrow { font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--kn-deep); margin: 0 0 0.85rem; }
+.kn-eyebrow a { color: inherit; text-decoration: none; }
+.kn-sec__title { margin: 0 0 1.25rem; font-size: clamp(2rem, 1.2rem + 2.4vw, 3.375rem); line-height: 1.12; text-wrap: balance; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.65; }
+.wp-block-button__link { box-shadow: none; }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--kn-deep); padding: 0.25rem 0; border-bottom: 2px solid currentColor; border-radius: 0; }
+.wp-block-button.is-style-outline .wp-block-button__link { background: transparent; color: var(--kn-ink); border: var(--kn-line); }
+hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5rem 0; opacity: 1; background: var(--kn-koshi), var(--kn-ukon); }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.75rem 0 0.75rem 1.6rem; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); position: relative; }
+.is-style-rule-list li::before { content: ""; position: absolute; left: 0.1rem; top: 1.3rem; width: 0.6rem; height: 0.6rem; background: var(--kn-ukon); border-radius: 50%; }
+.kn-dropcap::first-letter { float: left; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 3.6em; line-height: 0.82; margin: 0.08em 0.12em 0 0; color: var(--kn-deep); }
+:is(:lang(ja), :lang(zh)) .kn-dropcap::first-letter { font-size: 2.6em; line-height: 1; }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.kn-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .kn-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 700; letter-spacing: 0.3em; margin: 0; line-height: 1.3; white-space: nowrap; }
+
+/* Collage pieces: torn-edged sketches on paper, held by a strip of tape */
+.kn-piece { margin: 0; position: relative; filter: drop-shadow(0 14px 16px rgba(30, 26, 18, 0.22)); }
+.kn-piece img { display: block; width: 100%; clip-path: var(--kn-torn); background: #F6EFE2; }
+.kn-piece::after { content: ""; position: absolute; z-index: 2; top: -12px; left: 50%; width: 92px; height: 26px; margin-left: -46px; background: rgba(254, 240, 194, 0.78); border-left: 1px dashed rgba(30, 26, 18, 0.15); border-right: 1px dashed rgba(30, 26, 18, 0.15); transform: rotate(-4deg); }
+
+/* Header: a formal top bar. House name and tagline on the left, the Book a stay button on the right; on wide screens the menu leaves the bar and becomes a fixed ink side rail down the left edge, with numbered entries. Phones and tablets get an overlay menu */
+.kn-head-part { position: sticky; top: 0; z-index: 40; }
+.kn-head { margin: 0; background: var(--kn-paper); color: var(--kn-ink); border-bottom: var(--kn-line); }
+.kn-head > .kn-bar { max-width: none !important; }
+.kn-bar { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 1rem 2rem; min-height: var(--kn-headh); }
+.kn-bar > * { margin: 0 !important; }
+.kn-brand { display: flex; align-items: baseline; gap: 0.35rem 1.25rem; flex-wrap: wrap; margin-right: auto !important; }
+.kn-brand > * { margin: 0 !important; }
+.kn-brand__title { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.875rem); line-height: 1.05; white-space: nowrap; letter-spacing: 0.01em; }
+.kn-brand__title a { color: var(--kn-ink); text-decoration: none; }
+.kn-brand__tag { font-size: 0.8125rem; color: var(--kn-quiet); line-height: 1.3; max-width: 32rem; padding-left: 1.25rem; border-left: 1px solid color-mix(in srgb, var(--kn-ink) 30%, transparent); }
+.kn-nav { font-weight: 600; font-size: 0.9375rem; letter-spacing: 0.02em; }
+.kn-nav a { color: inherit; text-decoration: none; white-space: nowrap; }
+.kn-nav .wp-block-navigation__responsive-container-open { color: var(--kn-ink); padding: 0.45rem; background: var(--kn-ukon); border-radius: 2px; }
+.kn-head__cta .wp-block-button__link { background: var(--kn-ukon); color: var(--kn-ink); padding: 0.7rem 1.35rem; border-radius: 2px; white-space: nowrap; font-size: 0.9375rem; border: var(--kn-line); }
+.kn-head__cta .wp-block-button__link:hover { background: var(--kn-ink); color: var(--kn-paper); }
+.kn-head .kn-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--kn-koshi), var(--kn-ukon); color: var(--kn-ink); padding: 2rem var(--kn-pad); }
+.kn-nav .is-menu-open .wp-block-navigation__container { gap: 1.1rem; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2rem; }
+.kn-nav .is-menu-open a, .kn-nav .is-menu-open .wp-block-navigation__responsive-container-close { color: var(--kn-ink); }
+@media (max-width: 1099px) {
+	.kn-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
+	.kn-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
+	.kn-brand__tag { display: none; }
+}
+@media (max-width: 599px) {
+	.kn-bar { gap: 0.75rem; min-height: 62px; }
+	.kn-brand__title { font-size: 1.25rem; }
+	.kn-head__cta .wp-block-button__link { padding: 0.45rem 0.75rem; font-size: 0.8125rem; }
+}
+@media (min-width: 1100px) {
+	:root { --kn-rail: 12.5rem; }
+	nav.kn-nav { position: fixed; z-index: 30; left: 0; top: var(--kn-headh); bottom: 0; width: var(--kn-rail); box-sizing: border-box; padding: 2.25rem 1.5rem; background: var(--kn-ink); color: var(--kn-paper); display: block; }
+	.kn-nav .wp-block-navigation__responsive-container,
+	.kn-nav .wp-block-navigation__responsive-dialog,
+	.kn-nav .wp-block-navigation__responsive-container-content { display: block; width: 100%; }
+	.kn-nav .wp-block-navigation__container { flex-direction: column; align-items: stretch; gap: 0; counter-reset: rail; width: 100%; }
+	.kn-nav .wp-block-navigation__container > li { counter-increment: rail; display: grid; grid-template-columns: 2.1rem minmax(0, 1fr); align-items: baseline; padding: 0.85rem 0; border-bottom: 1px solid rgba(251, 210, 90, 0.28); }
+	.kn-nav .wp-block-navigation__container > li::before { content: counter(rail, decimal-leading-zero); font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 0.875rem; color: var(--kn-pale); }
+	.kn-nav .wp-block-navigation__container > li > a { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.1875rem; color: var(--kn-paper); }
+	.kn-nav .wp-block-navigation__container > li > a:hover, .kn-nav .current-menu-item > a { color: var(--kn-pale); text-decoration: underline; text-underline-offset: 0.35em; }
+	.wp-site-blocks > .kn-shell, .wp-site-blocks > footer { margin-left: var(--kn-rail) !important; }
+}
+/* Chinese and Japanese rail: each entry runs top to bottom, the entries side by side from the right */
+@media (min-width: 1100px) {
+	:is(:lang(ja), :lang(zh)) .kn-nav .wp-block-navigation__container { flex-direction: row-reverse; flex-wrap: wrap; justify-content: center; gap: 1.5rem 0.9rem; }
+	:is(:lang(ja), :lang(zh)) .kn-nav .wp-block-navigation__container > li { writing-mode: vertical-rl; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; padding: 0 0 0 0.9rem; border-bottom: 0; border-left: 1px solid rgba(251, 210, 90, 0.28); }
+	:is(:lang(ja), :lang(zh)) .kn-nav .wp-block-navigation__container > li:last-child { border-left: 0; padding-left: 0; }
+	:is(:lang(ja), :lang(zh)) .kn-nav .wp-block-navigation__container > li::before { content: counter(rail, cjk-decimal); }
+	:is(:lang(ja), :lang(zh)) .kn-nav .wp-block-navigation__container > li > a { letter-spacing: 0.25em; font-size: 1.25rem; }
+}
+
+/* The page column */
+.kn-shell { display: block; margin: 0 !important; }
+.kn-main { margin: 0 !important; padding: 0 !important; min-width: 0; }
+.kn-main > * { margin-block: 0; }
+.kn-main > .wp-block-post-content > * { margin-block: 0; }
+.kn-section { padding-block: var(--kn-sec); margin: 0 !important; position: relative; }
+.kn-main .kn-section.is-layout-constrained > :not(.alignfull) { max-width: var(--kn-wide) !important; }
+.kn-main .kn-section > p:not(.kn-tate):not(.kn-eyebrow) { padding-right: max(0px, calc(100% - 40rem)); }
+.kn-section > * { margin-block-start: 0; }
+
+/* Hero: a persimmon cover. Issue line, title, lead, buttons and the contents on the left; three torn pencil sketches stacked and taped on the right; the cut-out townhouse stands in front of the collage and breaks over the hero bottom edge */
+.kn-hero { position: relative; z-index: 4; isolation: isolate; margin: 0 !important; padding: clamp(3rem, 5vw, 4.5rem) var(--kn-pad) clamp(4rem, 7vw, 6rem) !important; background: var(--kn-ukon); color: var(--kn-ink); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 4vw, 4rem); align-items: center; min-height: clamp(680px, 86vh, 860px); box-sizing: border-box; }
+.kn-hero::before { content: ""; position: absolute; z-index: -1; top: 0; bottom: 0; right: 0; width: 46%; background: var(--kn-koshi); pointer-events: none; }
+.kn-hero > * { margin: 0 !important; }
+.kn-hero__text > * { margin-block: 0 1.1rem; }
+.kn-issue { display: flex; align-items: center; gap: 0.75rem; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; }
+.kn-issue::before, .kn-issue::after { content: ""; flex: 0 0 2.5rem; height: 1.5px; background: currentColor; }
+.kn-hero .kn-eyebrow { color: var(--kn-ink); }
+.kn-hero__title { font-size: clamp(2.75rem, 1rem + 4.4vw, 5.75rem); line-height: 1.02; letter-spacing: -0.01em; text-wrap: balance; max-width: 11ch; margin-bottom: 1.5rem !important; }
+:is(:lang(ja), :lang(zh)) .kn-hero__title { line-height: 1.2; font-size: clamp(2.375rem, 0.8rem + 4vw, 4.75rem); max-width: 8em; }
+:lang(ja) .kn-hero__title { word-break: auto-phrase; }
+.kn-hero__lead { font-size: var(--wp--preset--font-size--large); max-width: 32rem; line-height: 1.6; }
+.kn-hero__cta { gap: 0.75rem 1rem; margin-top: 1.75rem !important; }
+.kn-hero .kn-book .wp-block-button__link { background: var(--kn-ink); color: var(--kn-paper); }
+.kn-hero .kn-book .wp-block-button__link:hover { background: var(--kn-paper); color: var(--kn-ink); }
+.kn-hero .is-style-outline .wp-block-button__link { border-color: var(--kn-ink); }
+.kn-toc { margin-top: 2.25rem !important; border-top: 1.5px solid var(--kn-ink); padding-top: 0.9rem; max-width: 30rem; }
+.kn-toc > * { margin: 0 !important; }
+.kn-toc__label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.4rem !important; }
+.kn-toc__list { list-style: none; padding: 0; counter-reset: toc; }
+.kn-toc__list li { counter-increment: toc; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); align-items: baseline; padding: 0.35rem 0; border-bottom: 1px solid rgba(30, 26, 18, 0.3); font-weight: 600; }
+.kn-toc__list li::before { content: counter(toc, decimal-leading-zero); font-family: var(--wp--preset--font-family--display); font-weight: 700; }
+:is(:lang(ja), :lang(zh)) .kn-toc__list li::before { content: counter(toc, cjk-decimal); }
+.kn-collage { position: relative; height: clamp(520px, 44vw, 660px); }
+.kn-collage > * { margin: 0 !important; }
+.kn-piece--a { position: absolute !important; top: 0; left: 0; width: 70%; transform: rotate(-3deg); z-index: 1; }
+.kn-piece--b { position: absolute !important; top: 30%; right: 0; width: 62%; transform: rotate(2.5deg); z-index: 2; }
+.kn-piece--c { position: absolute !important; bottom: 0; left: 6%; width: 32%; transform: rotate(-1.5deg); z-index: 3; }
+.kn-piece--b::after { left: 22%; transform: rotate(6deg); }
+.kn-hero__house { position: absolute !important; z-index: 5; right: calc(var(--kn-pad) + 4%); bottom: -9%; width: clamp(200px, 17vw, 300px); margin: 0 !important; pointer-events: none; filter: drop-shadow(0 18px 18px rgba(30, 26, 18, 0.3)); }
+.kn-hero__house img { display: block; width: 100%; }
+.kn-hero .kn-tate { position: absolute; z-index: 4; left: calc(5 / 11 * 100% + 1rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.25rem, 0.9rem + 0.9vw, 1.75rem); background: var(--kn-paper); color: var(--kn-ink); padding: 1rem 0.6rem; border: var(--kn-line); }
+@media (max-width: 960px) {
+	.kn-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; padding-bottom: 5rem !important; }
+	.kn-hero::before { width: 100%; top: auto; height: 46%; }
+	.kn-collage { height: clamp(380px, 92vw, 620px); max-width: 640px; }
+	.kn-hero__house { right: var(--kn-pad); bottom: -6%; width: clamp(150px, 34vw, 240px); }
+	.kn-hero .kn-tate { display: none; }
+}
+
+/* At a glance (synced house board): a ruled fact box on paper */
+.kn-glance { background: var(--kn-paper); z-index: 1; padding-block: clamp(4.5rem, 8vw, 6.5rem) clamp(3rem, 6vw, 4.5rem) !important; }
+.kn-board { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr); gap: 0.75rem clamp(1.5rem, 3vw, 3rem); margin: 0; align-items: start; border-top: 4px double var(--kn-ink); border-bottom: 1.5px solid var(--kn-ink); padding-block: 1.5rem; }
+.kn-board > * { margin: 0 !important; }
+.kn-board p { margin: 0; }
+.kn-board__label { display: none; }
+.kn-board__tonight { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--kn-deep); grid-column: 1; grid-row: 1; }
+.kn-board__sky { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.625rem, 1.2rem + 1.2vw, 2.25rem); line-height: 1.15; grid-row: 2; grid-column: 1; }
+.kn-board__clear { font-size: 0.9375rem; grid-row: 3; grid-column: 1; color: var(--kn-ink); background: var(--kn-mist); padding: 0.35rem 0.75rem; justify-self: start; }
+.kn-board__rows { display: grid; gap: 0; grid-row: 1 / span 3; grid-column: 2; border-left: 1px solid rgba(30, 26, 18, 0.25); border-right: 1px solid rgba(30, 26, 18, 0.25); padding-inline: clamp(1rem, 2vw, 2rem); }
+.kn-board__rows > * { margin: 0 !important; }
+.kn-board__row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; border-bottom: 1px dotted rgba(30, 26, 18, 0.4); padding: 0.55rem 0; }
+.kn-board__row:last-child { border-bottom: 0; }
+.kn-board__row > * { margin: 0 !important; }
+.kn-board__k { font-size: 0.875rem; color: var(--kn-quiet); }
+.kn-board__v { font-weight: 600; text-align: right; }
+.kn-board__note { font-size: 0.9375rem; color: var(--kn-quiet); grid-column: 3; grid-row: 1 / span 2; }
+.kn-board__cta { grid-column: 3; grid-row: 3; }
+.kn-board__cta .wp-block-button__link { background: var(--kn-ukon); color: var(--kn-ink); border: var(--kn-line); }
+@media (max-width: 900px) {
+	.kn-board { grid-template-columns: minmax(0, 1fr); }
+	.kn-board > * { grid-column: 1 !important; grid-row: auto !important; }
+	.kn-board__rows { border: 0; padding: 0; }
+}
+
+/* Feature 01: a magazine spread. Title, a two-column lead with a drop cap and a pull quote beside a taped sketch, then the four rooms on a staggered grid */
+.kn-feature { background: var(--kn-paper); }
+.kn-spread { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+.kn-spread > * { margin: 0 !important; }
+.kn-spread__intro > * { margin-block: 0 1.25rem; }
+.kn-feature__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4.25rem); max-width: 14ch; }
+.kn-spread__intro .kn-dropcap { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(30, 26, 18, 0.2); font-size: 1.0625rem; }
+.kn-pull { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.875rem); line-height: 1.35; border-left: 6px solid var(--kn-ukon); padding-left: 1.25rem; margin-top: 2rem !important; max-width: 30rem; }
+.kn-spread__img { transform: rotate(2deg); margin-top: 2.5rem !important; }
+.kn-rooms { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.25rem, 2.5vw, 2.25rem); margin-top: clamp(3rem, 6vw, 5rem) !important; counter-reset: room; }
+.kn-rooms > * { margin: 0 !important; }
+.kn-room { counter-increment: room; position: relative; padding-top: 3.25rem; }
+.kn-room:nth-child(even) { margin-top: 3.5rem !important; }
+.kn-room > * { margin: 0 0 0.5rem !important; }
+.kn-room::before { content: counter(room, decimal-leading-zero); position: absolute; top: 0; left: 0; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2.5rem; line-height: 1; color: var(--kn-deep); }
+:is(:lang(ja), :lang(zh)) .kn-room::before { content: counter(room, cjk-decimal); }
+.kn-room__img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border: 8px solid #FFFFFF; outline: 1px solid rgba(30, 26, 18, 0.25); box-sizing: border-box; }
+.kn-room__title { font-size: 1.5rem; margin-top: 0.85rem !important; }
+.kn-room__facts { font-size: 0.8125rem; font-weight: 600; color: var(--kn-deep); }
+.kn-room__text { font-size: 0.9375rem; line-height: 1.65; color: var(--kn-quiet); }
+.kn-more { margin-top: 2.5rem !important; }
+@media (max-width: 1000px) { .kn-rooms { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+	.kn-spread { grid-template-columns: minmax(0, 1fr); }
+	.kn-spread__img { max-width: 420px; margin-top: 0 !important; }
+}
+@media (max-width: 640px) {
+	.kn-spread__intro .kn-dropcap { column-count: 1; }
+	.kn-rooms { grid-template-columns: minmax(0, 1fr); }
+	.kn-room:nth-child(even) { margin-top: 0 !important; }
+}
+
+/* Feature 02: the story on a persimmon band. The year in giant type and the story beside a taped collage; the cut-out persimmon branch breaks over the band top edge */
+.kn-story { z-index: 3; background: var(--kn-ukon); color: var(--kn-ink); padding-block: clamp(5.5rem, 10vw, 8rem) var(--kn-sec) !important; }
+.kn-story::before { content: ""; position: absolute; inset: 0 0 0 auto; width: 48%; background: var(--kn-koshi); pointer-events: none; }
+.kn-story > .kn-story__branch { position: absolute !important; z-index: 4; top: -96px; right: max(var(--kn-pad), calc((100% - var(--kn-wide)) / 2 + 2rem)); width: clamp(170px, 18vw, 280px); margin: 0 !important; pointer-events: none; transform: rotate(-12deg); filter: drop-shadow(0 14px 14px rgba(30, 26, 18, 0.25)); }
+.kn-story__branch img { display: block; width: 100%; }
+.kn-story__grid { position: relative; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+.kn-story__grid > * { margin: 0 !important; }
+.kn-story__text > * { margin-block: 0 1.1rem; }
+.kn-story .kn-eyebrow { color: var(--kn-ink); }
+.kn-story__no { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(5.5rem, 2rem + 9vw, 11rem); line-height: 0.85; letter-spacing: -0.02em; }
+.kn-story .kn-sec__title { font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.75rem); }
+.kn-story__lead { max-width: 34rem; }
+.kn-story__collage { position: relative; height: clamp(420px, 38vw, 560px); }
+.kn-story__collage > * { margin: 0 !important; }
+.kn-piece--d { position: absolute !important; top: 0; left: 4%; width: 46%; transform: rotate(-4deg); z-index: 1; }
+.kn-piece--e { position: absolute !important; top: 12%; right: 0; width: 56%; transform: rotate(3deg); z-index: 2; }
+.kn-piece--f { position: absolute !important; bottom: 0; left: 26%; width: 52%; transform: rotate(-1deg); z-index: 3; }
+@media (max-width: 860px) {
+	.kn-story__grid { grid-template-columns: minmax(0, 1fr); }
+	.kn-story::before { width: 100%; top: auto; height: 40%; }
+	.kn-story__collage { height: clamp(320px, 86vw, 520px); }
+	.kn-story > .kn-story__branch { top: -70px; width: 150px; }
+}
+
+/* Feature 03: your stay, four taped steps on pale persimmon */
+.kn-process { background: var(--kn-mist); }
+.kn-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2.4vw, 2rem); margin-top: 2.5rem !important; counter-reset: step; }
+.kn-strip > * { margin: 0 !important; }
+.kn-step { counter-increment: step; position: relative; background: var(--kn-paper); padding: 12px 12px 1.25rem; box-shadow: 0 16px 30px -24px rgba(30, 26, 18, 0.6); }
+.kn-step:nth-child(odd) { transform: rotate(-1deg); }
+.kn-step:nth-child(even) { transform: rotate(1deg); }
+.kn-step > * { margin: 0 !important; }
+.kn-step::before { content: counter(step); position: absolute; z-index: 2; left: -12px; top: -14px; width: 2.6rem; height: 2.6rem; display: grid; place-items: center; background: var(--kn-ukon); color: var(--kn-ink); border: var(--kn-line); border-radius: 50%; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.125rem; }
+:is(:lang(ja), :lang(zh)) .kn-step::before { content: counter(step, cjk-decimal); }
+.kn-step__img img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.kn-step__title { font-size: 1.3125rem; padding: 1rem 0.35rem 0.35rem; }
+.kn-step__text { font-size: 0.9375rem; line-height: 1.6; padding: 0 0.35rem; color: var(--kn-quiet); }
+@media (max-width: 1000px) { .kn-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 2.5rem; } }
+@media (max-width: 560px) { .kn-strip { grid-template-columns: minmax(0, 1fr); } }
+
+/* Journal lists */
+.kn-home-journal, .kn-list { background: var(--kn-paper); }
+.kn-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.25rem); padding: 0; }
+.kn-notes .wp-block-post-template > li { margin: 0; background: #FFFFFF; padding: 10px 10px 1.25rem; position: relative; box-shadow: 0 16px 30px -26px rgba(30, 26, 18, 0.6); }
+.kn-notes .wp-block-post-template > li::after { content: ""; position: absolute; top: -10px; left: 50%; width: 80px; height: 22px; margin-left: -40px; background: rgba(250, 191, 20, 0.4); transform: rotate(-3deg); }
+.kn-note__img { margin: 0 0 0.85rem; }
+.kn-note__img img { display: block; }
+.kn-note__text { padding-inline: 0.5rem; }
+.kn-note__date { font-size: 0.8125rem; color: var(--kn-quiet); font-variant-numeric: tabular-nums; }
+.kn-note__title { font-size: 1.375rem; margin: 0.25rem 0 0.5rem; }
+.kn-note__title a { color: var(--kn-ink); text-decoration: none; }
+.kn-note__title a:hover { color: var(--kn-deep); text-decoration: underline; }
+.kn-pagination { margin-top: 2.5rem; }
+
+/* Page heads: a persimmon band with a torn, taped sketch on the right; the cut-out persimmon branch breaks over the bottom edge */
+.kn-pagehead { position: relative; z-index: 3; isolation: isolate; background: var(--kn-ukon); color: var(--kn-ink); padding-block: clamp(3.5rem, 7vw, 6rem) clamp(4.5rem, 8vw, 6.5rem) !important; margin: 0 !important; }
+.kn-pagehead::before { content: ""; position: absolute; z-index: -1; inset: 0 0 0 auto; width: 40%; background: var(--kn-koshi); pointer-events: none; }
+.kn-main .kn-pagehead.is-layout-constrained { padding-inline: max(var(--kn-pad), calc((100% - var(--kn-wide)) / 2)) !important; }
+.kn-main .kn-pagehead.is-layout-constrained > * { max-width: none !important; margin-inline: 0 !important; }
+.kn-pagehead > * { margin-block: 0 0.85rem; position: relative; }
+.kn-pagehead .kn-eyebrow { color: var(--kn-ink); display: inline-block; width: fit-content; border-bottom: 1.5px solid var(--kn-ink); padding-bottom: 0.25rem; }
+.kn-pagehead__title { font-size: clamp(2.5rem, 1rem + 4vw, 5rem); line-height: 1.08; text-wrap: balance; max-width: 14ch; }
+:is(:lang(ja), :lang(zh)) .kn-pagehead__title { line-height: 1.3; font-size: clamp(2.125rem, 1rem + 3vw, 3.75rem); max-width: 11em; }
+.kn-pagehead__lead { font-size: var(--wp--preset--font-size--large); max-width: 38rem; }
+.kn-main .kn-pagehead > :is(.kn-pagehead__title, .kn-pagehead__lead) { padding-right: 0; box-sizing: border-box; }
+@media (min-width: 861px) {
+	.kn-pagehead:has(> .kn-pagehead__img) > :is(.kn-eyebrow, .kn-pagehead__title, .kn-pagehead__lead) { max-width: min(56%, 40rem) !important; }
+}
+.kn-pagehead > .kn-pagehead__img { position: absolute !important; z-index: 1; top: clamp(2rem, 4vw, 3rem); right: max(var(--kn-pad), calc((100% - var(--kn-wide)) / 2)); width: clamp(260px, 32%, 440px); transform: rotate(2.5deg); margin: 0 !important; }
+.kn-pagehead__img img { aspect-ratio: 4 / 3; object-fit: cover; }
+.kn-pagehead > .kn-pagehead__branch { position: absolute !important; z-index: 4; right: calc(max(var(--kn-pad), calc((100% - var(--kn-wide)) / 2)) + clamp(200px, 26%, 360px)); bottom: -64px; width: clamp(140px, 13vw, 210px); margin: 0 !important; pointer-events: none; transform: rotate(14deg); filter: drop-shadow(0 12px 12px rgba(30, 26, 18, 0.28)); }
+.kn-pagehead__branch img { display: block; width: 100%; }
+.kn-pagehead > .kn-tate { position: absolute; right: calc(max(var(--kn-pad), calc((100% - var(--kn-wide)) / 2)) + clamp(260px, 32%, 440px) + 1.5rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.125rem, 0.9rem + 0.7vw, 1.5rem); background: var(--kn-paper); color: var(--kn-ink); padding: 0.9rem 0.55rem; border: var(--kn-line); margin: 0 !important; }
+.kn-pagehead .wp-block-search { max-width: 34rem; margin-top: 1.25rem; }
+.kn-search .wp-block-search__input { border: var(--kn-line); border-radius: 2px 0 0 2px; padding: 0.6rem 1.1rem; background: #FFFFFF; }
+.kn-search .wp-block-search__button { background: var(--kn-ink); color: var(--kn-paper); border-radius: 0 2px 2px 0; border: 0; padding-inline: 1.25rem; font-weight: 600; }
+.kn-pagehead .kn-hero__cta { justify-content: flex-start; }
+@media (max-width: 1240px) and (min-width: 861px) { .kn-pagehead > .kn-tate { display: none; } }
+@media (max-width: 860px) {
+	.kn-pagehead > .kn-pagehead__img { position: relative !important; top: auto; right: auto; width: min(100%, 420px); margin: 1.5rem 0 0 !important; }
+	.kn-pagehead > .kn-pagehead__branch { right: var(--kn-pad); bottom: -48px; width: 110px; }
+	.kn-pagehead > .kn-tate { display: none; }
+	.kn-pagehead::before { width: 100%; top: auto; height: 35%; }
+}
+
+/* The house: magazine rows, taped sketch beside facts, title and the long text */
+.kn-rows { padding-top: calc(var(--kn-sec) + 2rem) !important; }
+.kn-rows__list { display: grid; gap: clamp(3.5rem, 7vw, 6rem); }
+.kn-rows__list > * { margin: 0 !important; }
+.kn-row { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+.kn-row > * { margin: 0 !important; }
+.kn-row:nth-child(even) .kn-row__img { order: 2; transform: rotate(1.5deg); }
+.kn-row:nth-child(odd) .kn-row__img { transform: rotate(-1.5deg); }
+.kn-row__img img { aspect-ratio: 3 / 2; object-fit: cover; }
+.kn-row__text > * { margin-block: 0 0.85rem; }
+.kn-row__facts { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--kn-deep); }
+.kn-row__title { font-size: clamp(2rem, 1.3rem + 2vw, 3.125rem); line-height: 1.1; }
+.kn-advice { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; margin-top: clamp(4rem, 8vw, 6rem) !important; padding-top: clamp(2.5rem, 5vw, 4rem); border-top: 4px double var(--kn-ink); }
+.kn-advice > * { margin: 0 !important; }
+.kn-advice__text > * { margin-block: 0 1rem; }
+.kn-links .kn-book .wp-block-button__link, .kn-mailto .wp-block-button__link { background: var(--kn-ink); color: var(--kn-paper); }
+
+/* Rates (synced) */
+.kn-rates { background: var(--kn-mist); padding: clamp(1.25rem, 3vw, 2rem); margin: 0; border-top: 6px solid var(--kn-ukon); }
+.kn-rates > * { margin: 0 !important; }
+.kn-rates__label { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.625rem; margin-bottom: 0.75rem !important; }
+.kn-rate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 1rem; padding: 0.85rem 0; border-bottom: 1px dotted rgba(30, 26, 18, 0.45); }
+.kn-rate > * { margin: 0 !important; }
+.kn-rate__name { font-weight: 600; }
+.kn-rate__facts { grid-column: 1; font-size: 0.8125rem; color: var(--kn-quiet); }
+.kn-rate__price { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.1875rem; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.kn-rates__note { font-size: 0.875rem; color: var(--kn-quiet); margin-top: 1rem !important; }
+
+/* The host */
+.kn-about { padding-top: calc(var(--kn-sec) + 2rem) !important; }
+.kn-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.kn-about__story > * { margin: 0 !important; }
+.kn-about__text { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(30, 26, 18, 0.2); }
+.kn-about__text > * { margin-block: 0 1.1rem; }
+.kn-about__img { transform: rotate(2deg); }
+.kn-about__wide { margin-top: clamp(3rem, 6vw, 5rem) !important; }
+.kn-about__wide img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border: 10px solid #FFFFFF; outline: 1px solid rgba(30, 26, 18, 0.25); box-sizing: border-box; }
+.kn-rules { margin-top: clamp(3rem, 6vw, 4.5rem) !important; max-width: 44rem; }
+.kn-steps { padding: 0; margin: 0; list-style: none; counter-reset: splist; display: grid; gap: 0.85rem; }
+.kn-steps li { counter-increment: splist; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: 0.85rem; align-items: start; }
+.kn-steps li::before { content: counter(splist); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; background: var(--kn-ukon); color: var(--kn-ink); font-family: var(--wp--preset--font-family--display); font-weight: 700; border: var(--kn-line); border-radius: 50%; }
+:is(:lang(ja), :lang(zh)) .kn-steps li::before { content: counter(splist, cjk-decimal); }
+
+/* Letters */
+.kn-letter { padding-top: calc(var(--kn-sec) + 2rem) !important; }
+.kn-letter__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.kn-letter__grid > * { margin: 0 !important; }
+.kn-letter__img { transform: rotate(-1.5deg); }
+.kn-letter__card { background: var(--kn-ink); color: var(--kn-paper); padding: clamp(1.5rem, 3.5vw, 2.5rem); border-top: 8px solid var(--kn-ukon); }
+.kn-letter__card > * { margin-block: 0 1rem; }
+.kn-letter__card .kn-sec__title { color: var(--kn-paper); font-size: clamp(1.75rem, 1.2rem + 1.4vw, 2.5rem); }
+.kn-letter__card .kn-mailto .wp-block-button__link { background: var(--kn-ukon); color: var(--kn-ink); }
+
+/* Book a stay */
+.kn-contact { padding-top: calc(var(--kn-sec) + 2rem) !important; }
+.kn-contact__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.kn-contact__grid > * { margin: 0 !important; }
+.kn-contact__book > *, .kn-contact__find > * { margin-block: 0 1.25rem; }
+.kn-contact__find .kn-sec__title { font-size: 1.625rem; margin-top: 2rem; }
+.kn-steps { margin-bottom: 1.75rem !important; }
+.kn-contact__book .kn-rates { margin-top: 2.5rem !important; }
+
+/* House details (synced) */
+.kn-details { display: grid; gap: 0.35rem; margin: 0; }
+.kn-details > * { margin: 0 !important; }
+.kn-details__season { font-weight: 600; }
+.kn-details__note { font-size: 0.875rem; margin-top: 0.5rem !important; }
+.kn-contact .kn-details { background: var(--kn-mist); padding: clamp(1.25rem, 3vw, 1.75rem); border-top: 6px solid var(--kn-ukon); }
+body:has(.kn-main .kn-details) .kn-foot .kn-details { display: none; }
+
+/* Single note and plain pages */
+.kn-article__head > * { margin-block: 0 0.75rem; }
+.kn-article__head { margin-bottom: 2rem; }
+.kn-article .kn-pagehead__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4rem); }
+.kn-article__date { color: var(--kn-quiet); font-size: 0.875rem; }
+.kn-photo { margin-block: 0 2.5rem; background: #FFFFFF; padding: 10px; box-shadow: 0 16px 30px -26px rgba(30, 26, 18, 0.6); }
+.kn-photo img { display: block; max-height: 560px; object-fit: cover; }
+.kn-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.kn-tags a { display: inline-block; background: var(--kn-mist); color: var(--kn-ink); padding: 0.2rem 0.8rem; text-decoration: none; font-size: 0.875rem; margin: 0 0.25rem 0.25rem 0; border-left: 3px solid var(--kn-ukon); }
+.kn-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.kn-page .kn-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Footer: the ink field with the house name */
+.wp-site-blocks > footer { margin-block-start: 0; }
+.kn-foot { background: var(--kn-ink); color: var(--kn-paper); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2rem; margin: 0; border-top: 10px solid var(--kn-ukon); }
+.kn-foot__grid { display: grid; grid-template-columns: 1.4fr 1fr 0.7fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.kn-foot__grid > * { margin: 0 !important; }
+.kn-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(2.25rem, 1.2rem + 3.4vw, 4.25rem); line-height: 1; margin: 0 0 1rem; }
+.kn-foot .kn-foot__mark a { color: var(--kn-pale); text-decoration: none; }
+.kn-foot__sub { margin: 0; max-width: 28rem; }
+.kn-foot a { color: var(--kn-paper); }
+.kn-foot__nav { font-weight: 600; gap: 0.5rem; }
+.kn-foot__nav a { text-decoration: none; }
+.kn-foot__nav a:hover { text-decoration: underline; }
+.kn-foot__base { margin-top: 3rem !important; padding-top: 1.25rem; border-top: 1px solid rgba(251, 210, 90, 0.35); }
+.kn-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--kn-pale); }
+
+@media (max-width: 1100px) { .kn-notes .wp-block-post-template { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+	.kn-row, .kn-advice, .kn-about__story, .kn-letter__grid, .kn-contact__grid, .kn-foot__grid { grid-template-columns: minmax(0, 1fr); }
+	.kn-row:nth-child(even) .kn-row__img { order: 0; }
+	.kn-about__img { max-width: 380px; }
+	.kn-about__text { column-count: 1; }
+	.kn-pagehead { padding-bottom: 4.5rem !important; }
+}
+@media (max-width: 640px) {
+	.kn-notes .wp-block-post-template { grid-template-columns: minmax(0, 1fr); }
+	.kn-rate__price { font-size: 1.0625rem; }
+}
+
+/* ===== Kanna Komuten: split screens over film photographs ===== */
+/* Photographs are plain rectangles: no torn edges, tape or tilt */
+.kn-piece { filter: none; }
+.kn-piece img { clip-path: none; background: none; }
+.kn-piece::after, .kn-notes .wp-block-post-template > li::after { display: none; }
+.kn-spread__img, .kn-row__img, .kn-row:nth-child(odd) .kn-row__img, .kn-row:nth-child(even) .kn-row__img, .kn-about__img, .kn-letter__img, .kn-step:nth-child(odd), .kn-step:nth-child(even) { transform: none; }
+.kn-room__img img, .kn-about__wide img { border: 0; outline: 0; }
+
+/* Hero: a full-bleed film photograph of the workshop edge to edge; the left half is a solid turmeric panel with the text; the cut-out hand plane sits on the seam and breaks over the photograph and the hero bottom edge */
+.kn-hero { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0; align-items: stretch; min-height: clamp(620px, calc(100vh - var(--kn-headh)), 880px); padding: 0 !important; background: var(--kn-ink); }
+.kn-hero::before { display: none; }
+.kn-hero > .kn-hero__photo { position: absolute !important; inset: 0; z-index: -1; margin: 0 !important; }
+.kn-hero__photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 70% 50%; }
+.kn-hero > .kn-hero__text { grid-column: 1; display: flex; flex-direction: column; justify-content: center; background: var(--kn-koshi), var(--kn-ukon); padding: clamp(3rem, 5vw, 4.5rem) clamp(2rem, 4.5vw, 4.5rem) clamp(5rem, 8vw, 6.5rem) clamp(1.25rem, 5vw, 5rem); }
+.kn-hero__title { max-width: 12ch; }
+.kn-hero > .kn-hero__house { left: 50%; right: auto; bottom: -72px; width: clamp(240px, 24vw, 400px); transform: translateX(-38%) rotate(-9deg); filter: drop-shadow(0 22px 20px rgba(30, 26, 18, 0.45)); }
+.kn-hero .kn-tate { left: auto; right: clamp(1.25rem, 3vw, 3rem); top: clamp(2rem, 4vw, 3rem); }
+@media (max-width: 960px) {
+	.kn-hero { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto clamp(260px, 62vw, 480px); min-height: 0; padding: 0 !important; }
+	.kn-hero > .kn-hero__photo { position: relative !important; inset: auto; grid-row: 2; z-index: 0; }
+	.kn-hero > .kn-hero__text { grid-row: 1; padding: 2.75rem var(--kn-pad) 3.25rem; }
+	.kn-hero > .kn-hero__house { left: auto; right: var(--kn-pad); bottom: -48px; width: clamp(160px, 42vw, 280px); transform: rotate(-9deg); }
+}
+.kn-glance { padding-top: clamp(5.5rem, 9vw, 7rem) !important; }
+
+/* Recent work: a split screen, text half and a tall photograph half */
+.kn-spread { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: stretch; }
+.kn-spread__intro .kn-dropcap { column-count: 1; }
+.kn-spread > .kn-spread__img { margin-top: 0 !important; }
+.kn-spread__img img { height: 100%; min-height: 420px; object-fit: cover; }
+.kn-room::before { color: var(--kn-ink); background: var(--kn-ukon); font-size: 1.25rem; padding: 0.35rem 0.6rem; }
+
+/* The workshop band: a split screen, the turmeric half with the year and the story, three photographs filling the other half to the edge; the cut-out plane breaks over the band top edge on the seam */
+.kn-main .kn-section.kn-story { padding: 0 !important; background: var(--kn-ukon); }
+.kn-story::before { display: none; }
+.kn-main .kn-section.kn-story.is-layout-constrained > .kn-story__grid { max-width: none !important; margin-inline: 0 !important; width: 100%; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 0; align-items: stretch; }
+.kn-story__text { background: var(--kn-koshi); padding: clamp(5.5rem, 10vw, 8rem) clamp(2rem, 4.5vw, 4.5rem) var(--kn-sec) clamp(1.25rem, 5vw, 5rem); }
+.kn-story__collage { height: auto; min-height: 560px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) minmax(0, 1fr); gap: 4px; background: var(--kn-ink); }
+.kn-story__collage > .kn-piece { position: relative !important; inset: auto; width: auto; transform: none; }
+.kn-story__collage > .kn-piece--d { grid-row: 1 / span 2; }
+.kn-story__collage .kn-piece img { width: 100%; height: 100%; object-fit: cover; }
+.kn-story > .kn-story__branch { left: 50%; right: auto; transform: translateX(-50%) rotate(-12deg); }
+@media (max-width: 860px) {
+	.kn-main .kn-story > .kn-story__grid { grid-template-columns: minmax(0, 1fr); }
+	.kn-story__text { padding: 5.5rem var(--kn-pad) 3rem; }
+	.kn-story__collage { min-height: 0; height: clamp(320px, 80vw, 520px); }
+	.kn-story > .kn-story__branch { left: auto; right: var(--kn-pad); transform: rotate(-12deg); }
+}
+
+/* Steps on pale turmeric, untilted */
+.kn-step { box-shadow: none; border: 1px solid rgba(30, 26, 18, 0.18); }
+
+/* Page heads: a split screen, the turmeric half with the title and a film photograph filling the other half; the cut-out plane breaks over the seam and the bottom edge */
+.kn-pagehead::before { display: none; }
+.kn-pagehead { background: var(--kn-koshi), var(--kn-ukon); min-height: clamp(360px, 34vw, 480px); }
+@media (min-width: 861px) {
+	.kn-pagehead:has(> .kn-pagehead__img) > :is(.kn-eyebrow, .kn-pagehead__title, .kn-pagehead__lead) { max-width: min(48%, 38rem) !important; }
+}
+.kn-pagehead > .kn-pagehead__img { top: 0; bottom: 0; right: 0; width: 44%; transform: none; }
+.kn-pagehead__img img { width: 100%; height: 100%; aspect-ratio: auto; object-fit: cover; }
+.kn-pagehead > .kn-pagehead__branch { right: calc(44% - 90px); bottom: -60px; width: clamp(150px, 14vw, 220px); transform: rotate(-10deg); }
+.kn-pagehead > .kn-tate { right: calc(44% + 1.5rem); }
+@media (max-width: 860px) {
+	.kn-pagehead { min-height: 0; }
+	.kn-pagehead > .kn-pagehead__img { position: relative !important; top: auto; bottom: auto; width: 100%; margin: 1.75rem 0 0 !important; }
+	.kn-pagehead__img img { aspect-ratio: 3 / 2; height: auto; }
+	.kn-pagehead > .kn-pagehead__branch { right: var(--kn-pad); bottom: -44px; width: 130px; }
+}
+
+/* Projects: split rows, photograph half and text half */
+.kn-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.kn-row__img img { aspect-ratio: 4 / 3; }
+.kn-about__story { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+.kn-about__text { column-count: 1; }
+@media (max-width: 860px) { .kn-row, .kn-about__story { grid-template-columns: minmax(0, 1fr); } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
