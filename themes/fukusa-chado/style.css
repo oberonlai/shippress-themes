@@ -1,0 +1,407 @@
+/*
+Theme Name: Fukusa Chado
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/fukusa-chado
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Fukusa Chado — a tea ceremony school theme laid out as a mosaic of soft rounded cards, with a formal top header: the school name and tagline on the left, the menu in the bar and the Book a trial lesson button on the right (an overlay menu on phones and tablets). Tokiwa evergreen (#007B43) is the main colour: the cover hero, the tea room band, every page head and the overlay menu are full green fields with a faint tatami weave, set in cream. The hero is centred giant type — the lesson days, the title in very large display type, the lead and the buttons on one axis — with a cut-out clay tea bowl that breaks out over the hero bottom edge and a cut-out whisk leaning out of the right edge. The four classes and a pull quote sit in a card mosaic of different sizes and colours; the tea room band sets four and a half in giant type beside rounded picture cards, with the cut-out whisk breaking over its top edge. Every picture is a soft matte 3D clay illustration. Kaisei Opti for display, Mulish for reading, Noto Serif TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fukusa-chado
+Tags: block-patterns, full-site-editing, education, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--fc-paper: var(--wp--preset--color--paper);
+	--fc-tokiwa: var(--wp--preset--color--tokiwa);
+	--fc-mist: var(--wp--preset--color--mist);
+	--fc-ink: var(--wp--preset--color--ink);
+	--fc-deep: var(--wp--preset--color--deep);
+	--fc-quiet: var(--wp--preset--color--quiet);
+	--fc-pale: var(--wp--preset--color--pale);
+	--fc-cream: var(--wp--preset--color--cream);
+	--fc-pad: clamp(1.25rem, 4vw, 3rem);
+	--fc-sec: clamp(3.5rem, 7vw, 6.5rem);
+	--fc-line: 1.5px solid var(--fc-ink);
+	--fc-radius: 22px;
+	--fc-headh: 76px;
+	--fc-wide: var(--wp--style--global--wide-size);
+	/* Tatami weave: a faint pattern of fine horizontal lines, used on the green fields */
+	--fc-weave: repeating-linear-gradient(0deg, transparent 0 7px, rgba(255, 253, 245, 0.05) 7px 8px);
+	--fc-shadow: 0 22px 40px -28px rgba(16, 37, 26, 0.55);
+}
+
+/* Fonts per language: Kaisei Opti / Mulish for Latin; Japanese headings use the Kaisei Opti JA subset, Traditional Chinese headings the bundled Noto Serif TC subset (never a Japanese font) */
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Kaisei Opti", "Kaisei Opti JA", "Hiragino Mincho ProN", serif;
+	--wp--preset--font-family--body: "Mulish", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", "Kaisei Opti", "PMingLiU", serif;
+	--wp--preset--font-family--body: "Mulish", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:lang(ja) body, :lang(zh) body { line-height: 1.95; }
+:is(:lang(ja), :lang(zh)) :is(.fc-eyebrow, .fc-issue, .fc-board__tonight, .fc-rates__label, .fc-row__facts, .fc-card__facts, .fc-toc__label) { letter-spacing: 0.08em; text-transform: none; }
+
+html, body { overflow-x: clip; }
+a { color: var(--fc-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+
+/* Labels, titles, block styles */
+.fc-eyebrow { font-size: 0.8125rem; font-weight: 800; letter-spacing: 0.18em; text-transform: uppercase; color: var(--fc-deep); margin: 0 0 0.85rem; }
+.fc-eyebrow a { color: inherit; text-decoration: none; }
+.fc-sec__title { margin: 0 0 1.25rem; font-size: clamp(2rem, 1.2rem + 2.4vw, 3.375rem); line-height: 1.12; text-wrap: balance; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.65; }
+.wp-block-button__link { box-shadow: none; border-radius: 999px; }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--fc-deep); padding: 0.25rem 0; border-bottom: 2px solid currentColor; border-radius: 0; }
+.wp-block-button.is-style-outline .wp-block-button__link { background: transparent; color: var(--fc-ink); border: var(--fc-line); }
+hr.is-style-tone { border: 0; height: 10px; width: 140px !important; margin: 2.5rem 0; opacity: 1; background: var(--fc-tokiwa); border-radius: 999px; }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.75rem 0 0.75rem 1.6rem; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); position: relative; }
+.is-style-rule-list li::before { content: ""; position: absolute; left: 0.1rem; top: 1.3rem; width: 0.6rem; height: 0.6rem; background: var(--fc-tokiwa); border-radius: 50%; }
+.fc-dropcap::first-letter { float: left; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 3.6em; line-height: 0.82; margin: 0.08em 0.12em 0 0; color: var(--fc-tokiwa); }
+:is(:lang(ja), :lang(zh)) .fc-dropcap::first-letter { font-size: 2.6em; line-height: 1; }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.fc-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .fc-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 700; letter-spacing: 0.3em; margin: 0; line-height: 1.3; white-space: nowrap; }
+
+/* Picture cards: clay pictures on soft rounded cards with a cream rim */
+.fc-piece { margin: 0; position: relative; }
+.fc-piece img { display: block; width: 100%; border-radius: var(--fc-radius); border: 8px solid var(--fc-cream); box-sizing: border-box; box-shadow: var(--fc-shadow); background: var(--fc-cream); }
+
+/* Header: a formal top bar. School name and tagline on the left, the menu in the middle of the bar and the Book a trial lesson button on the right; phones and tablets get an overlay menu */
+.fc-head-part { position: sticky; top: 0; z-index: 40; }
+.fc-head { margin: 0; background: var(--fc-paper); color: var(--fc-ink); border-bottom: 1px solid color-mix(in srgb, var(--fc-ink) 18%, transparent); }
+.fc-head > .fc-bar { max-width: var(--fc-wide) !important; }
+.fc-bar { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 1rem 2rem; min-height: var(--fc-headh); }
+.fc-bar > * { margin: 0 !important; }
+.fc-brand { display: flex; align-items: center; gap: 0.35rem 1.1rem; flex-wrap: nowrap; margin-right: auto !important; }
+.fc-brand > * { margin: 0 !important; }
+.fc-brand::before { content: ""; flex: 0 0 auto; width: 30px; height: 30px; border-radius: 50%; background: radial-gradient(circle at 50% 42%, var(--fc-pale) 0 36%, var(--fc-tokiwa) 37% 100%); }
+.fc-brand__title { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.7vw, 1.75rem); line-height: 1.05; white-space: nowrap; }
+.fc-brand__title a { color: var(--fc-ink); text-decoration: none; }
+.fc-brand__tag { font-size: 0.8125rem; color: var(--fc-quiet); line-height: 1.3; max-width: 17rem; padding-left: 1.1rem; border-left: 1px solid color-mix(in srgb, var(--fc-ink) 30%, transparent); }
+.fc-nav { font-weight: 700; font-size: 0.9375rem; letter-spacing: 0.02em; }
+.fc-nav .wp-block-navigation__container { gap: 0.25rem 1.75rem; }
+.fc-nav a { color: inherit; text-decoration: none; white-space: nowrap; }
+.fc-nav .wp-block-navigation__container > li > a:hover, .fc-nav .current-menu-item > a { color: var(--fc-deep); text-decoration: underline; text-underline-offset: 0.45em; text-decoration-thickness: 2px; }
+.fc-nav .wp-block-navigation__responsive-container-open { color: var(--fc-cream); padding: 0.45rem; background: var(--fc-tokiwa); border-radius: 50%; }
+.fc-head__cta .wp-block-button__link { background: var(--fc-tokiwa); color: var(--fc-cream); padding: 0.7rem 1.35rem; white-space: nowrap; font-size: 0.9375rem; font-weight: 700; }
+.fc-head__cta .wp-block-button__link:hover { background: var(--fc-ink); color: var(--fc-cream); }
+.fc-head .fc-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--fc-weave), var(--fc-tokiwa); color: var(--fc-cream); padding: 2rem var(--fc-pad); }
+.fc-nav .is-menu-open .wp-block-navigation__container { gap: 1.1rem; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2rem; }
+.fc-nav .is-menu-open a, .fc-nav .is-menu-open .wp-block-navigation__responsive-container-close { color: var(--fc-cream); }
+@media (max-width: 1179px) {
+	.fc-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
+	.fc-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
+	.fc-brand__tag { display: none; }
+}
+@media (max-width: 599px) {
+	.fc-bar { gap: 0.6rem; min-height: 62px; }
+	.fc-brand::before { width: 22px; height: 22px; }
+	.fc-brand__title { font-size: 1.1875rem; }
+	.fc-head__cta .wp-block-button__link { padding: 0.45rem 0.75rem; font-size: 0.8125rem; }
+}
+
+/* The page column */
+.fc-shell { display: block; margin: 0 !important; }
+.fc-main { margin: 0 !important; padding: 0 !important; min-width: 0; }
+.fc-main > * { margin-block: 0; }
+.fc-main > .wp-block-post-content > * { margin-block: 0; }
+.fc-section { padding-block: var(--fc-sec); margin: 0 !important; position: relative; }
+.fc-main .fc-section.is-layout-constrained > :not(.alignfull) { max-width: var(--fc-wide) !important; }
+.fc-main .fc-section > p:not(.fc-tate):not(.fc-eyebrow) { padding-right: max(0px, calc(100% - 40rem)); }
+.fc-section > * { margin-block-start: 0; }
+
+/* Hero: a tokiwa-green cover with everything on one centred axis. The title is set in giant type; the cut-out clay tea bowl sits under the buttons and breaks out over the hero bottom edge into the board below; the cut-out whisk leans out over the right edge */
+.fc-hero { position: relative; z-index: 4; isolation: isolate; margin: 0 !important; padding: clamp(3.5rem, 6vw, 5.5rem) var(--fc-pad) clamp(9rem, 15vw, 13rem) !important; background: var(--fc-weave), var(--fc-tokiwa); color: var(--fc-cream); text-align: center; box-sizing: border-box; }
+.fc-hero::before { content: ""; position: absolute; z-index: -1; left: 50%; top: 52%; width: min(1100px, 92vw); aspect-ratio: 1; transform: translate(-50%, -50%); border-radius: 50%; border: 1px solid rgba(255, 253, 245, 0.18); box-shadow: 0 0 0 clamp(40px, 6vw, 90px) rgba(255, 253, 245, 0.035); pointer-events: none; }
+.fc-hero > * { margin: 0 auto !important; }
+.fc-hero__text { max-width: 1240px; }
+.fc-hero__text > * { margin-block: 0 1.1rem; margin-inline: auto; }
+.fc-issue { display: flex; justify-content: center; align-items: center; gap: 0.75rem; font-size: 0.8125rem; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; }
+.fc-issue::before, .fc-issue::after { content: ""; flex: 0 0 2.5rem; height: 1.5px; background: currentColor; }
+.fc-hero .fc-eyebrow { color: var(--fc-cream); }
+.fc-hero__title { font-size: clamp(3.5rem, 0.6rem + 9.4vw, 10.5rem); line-height: 0.94; letter-spacing: -0.02em; text-wrap: balance; max-width: 11ch; margin-block: 0.4rem 1.75rem !important; }
+:is(:lang(ja), :lang(zh)) .fc-hero__title { line-height: 1.15; font-size: clamp(2.75rem, 0.6rem + 7vw, 8rem); letter-spacing: 0.04em; max-width: 9em; }
+:lang(ja) .fc-hero__title { word-break: auto-phrase; }
+.fc-hero__lead { font-size: var(--wp--preset--font-size--large); max-width: 40rem; line-height: 1.6; }
+.fc-hero__cta { justify-content: center; gap: 0.75rem 1rem; margin-top: 2rem !important; }
+.fc-hero .fc-book .wp-block-button__link { background: var(--fc-cream); color: var(--fc-ink); font-weight: 700; }
+.fc-hero .fc-book .wp-block-button__link:hover { background: var(--fc-ink); color: var(--fc-cream); }
+.fc-hero .is-style-outline .wp-block-button__link { border-color: var(--fc-cream); color: var(--fc-cream); }
+.fc-hero > .fc-hero__bowl { position: absolute !important; z-index: 6; left: 50%; bottom: clamp(-150px, -9vw, -80px); width: clamp(220px, 21vw, 340px); transform: translateX(-50%) rotate(-4deg); margin: 0 !important; pointer-events: none; filter: drop-shadow(0 26px 22px rgba(16, 37, 26, 0.38)); }
+.fc-hero > .fc-hero__whisk { position: absolute !important; z-index: 5; right: clamp(-30px, -1vw, 0px); bottom: clamp(-70px, -4vw, -30px); width: clamp(110px, 10vw, 170px); transform: rotate(16deg); margin: 0 !important; pointer-events: none; filter: drop-shadow(0 18px 16px rgba(16, 37, 26, 0.35)); }
+.fc-hero :is(.fc-hero__bowl, .fc-hero__whisk) img { display: block; width: 100%; }
+.fc-hero > .fc-tate { position: absolute; z-index: 4; left: calc(var(--fc-pad) + 1rem); top: clamp(3rem, 5vw, 4.5rem); font-size: clamp(1.25rem, 0.9rem + 0.9vw, 1.75rem); color: var(--fc-cream); padding: 1.1rem 0.7rem; border: 1.5px solid rgba(255, 253, 245, 0.7); border-radius: 999px; margin: 0 !important; }
+@media (max-width: 960px) {
+	.fc-hero > .fc-tate { display: none; }
+	.fc-hero > .fc-hero__whisk { width: 90px; right: 0.5rem; }
+}
+
+/* This term (synced term board): a ruled fact box on paper; its top padding leaves room for the tea bowl that breaks in from the hero */
+.fc-glance { background: var(--fc-paper); z-index: 1; padding-block: clamp(7rem, 12vw, 10rem) clamp(3rem, 6vw, 4.5rem) !important; }
+.fc-board { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr); gap: 0.75rem clamp(1.5rem, 3vw, 3rem); margin: 0; align-items: start; background: var(--fc-cream); border-radius: var(--fc-radius); box-shadow: var(--fc-shadow); padding: clamp(1.25rem, 3vw, 2.25rem); border-top: 8px solid var(--fc-tokiwa); }
+.fc-board > * { margin: 0 !important; }
+.fc-board p { margin: 0; }
+.fc-board__label { display: none; }
+.fc-board__tonight { font-size: 0.8125rem; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; color: var(--fc-deep); grid-column: 1; grid-row: 1; }
+.fc-board__sky { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.5rem, 1.1rem + 1.1vw, 2.125rem); line-height: 1.2; grid-row: 2; grid-column: 1; }
+.fc-board__clear { font-size: 0.9375rem; grid-row: 3; grid-column: 1; color: var(--fc-ink); background: var(--fc-mist); padding: 0.35rem 0.9rem; border-radius: 999px; justify-self: start; }
+.fc-board__rows { display: grid; gap: 0; grid-row: 1 / span 3; grid-column: 2; border-left: 1px solid rgba(16, 37, 26, 0.18); border-right: 1px solid rgba(16, 37, 26, 0.18); padding-inline: clamp(1rem, 2vw, 2rem); }
+.fc-board__rows > * { margin: 0 !important; }
+.fc-board__row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; border-bottom: 1px dotted rgba(16, 37, 26, 0.4); padding: 0.55rem 0; }
+.fc-board__row:last-child { border-bottom: 0; }
+.fc-board__row > * { margin: 0 !important; }
+.fc-board__k { font-size: 0.875rem; color: var(--fc-quiet); }
+.fc-board__v { font-weight: 700; text-align: right; }
+.fc-board__note { font-size: 0.9375rem; color: var(--fc-quiet); grid-column: 3; grid-row: 1 / span 2; }
+.fc-board__cta { grid-column: 3; grid-row: 3; }
+.fc-board__cta .wp-block-button__link { background: var(--fc-tokiwa); color: var(--fc-cream); font-weight: 700; }
+@media (max-width: 900px) {
+	.fc-board { grid-template-columns: minmax(0, 1fr); }
+	.fc-board > * { grid-column: 1 !important; grid-row: auto !important; }
+	.fc-board__rows { border: 0; padding: 0; }
+}
+
+/* The classes: a mosaic of rounded cards in different sizes and colours (rectangular grid areas only) */
+.fc-feature { background: var(--fc-paper); }
+.fc-feature__intro { text-align: center; max-width: 46rem !important; margin-inline: auto !important; }
+.fc-feature__intro > * { margin-block: 0 1.1rem; }
+.fc-main .fc-section .fc-feature__intro > p { padding-right: 0; }
+.fc-feature__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4.25rem); }
+.fc-feature__lead { color: var(--fc-quiet); }
+.fc-mosaic { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-areas: "a a b c" "a a d c" "q q d e"; gap: clamp(0.9rem, 1.8vw, 1.5rem); margin-top: clamp(2.5rem, 5vw, 4rem) !important; counter-reset: card; }
+.fc-mosaic > * { margin: 0 !important; }
+.fc-card { position: relative; overflow: hidden; border-radius: var(--fc-radius); background: var(--fc-cream); box-shadow: var(--fc-shadow); display: flex; flex-direction: column; }
+.fc-card > * { margin: 0 !important; }
+.fc-card--a { grid-area: a; } .fc-card--b { grid-area: b; } .fc-card--c { grid-area: c; } .fc-card--d { grid-area: d; } .fc-card--q { grid-area: q; } .fc-card--e { grid-area: e; }
+.fc-card:not(.fc-card--q):not(.fc-card--e) { counter-increment: card; }
+.fc-card__img { flex: 1 1 auto; min-height: 180px; }
+.fc-card__img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.fc-card--a .fc-card__img { min-height: 340px; }
+.fc-card__body { padding: 1.25rem 1.4rem 1.5rem; position: relative; }
+.fc-card__body > * { margin: 0 0 0.45rem !important; }
+.fc-card__body::before { content: counter(card, decimal-leading-zero); font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1rem; color: var(--fc-deep); display: block; margin-bottom: 0.4rem; }
+:is(:lang(ja), :lang(zh)) .fc-card__body::before { content: counter(card, cjk-decimal); }
+.fc-card__facts { font-size: 0.8125rem; font-weight: 800; letter-spacing: 0.06em; color: var(--fc-deep); }
+.fc-card__title { font-size: clamp(1.375rem, 1.1rem + 0.7vw, 1.875rem); line-height: 1.15; }
+.fc-card--a .fc-card__title { font-size: clamp(1.75rem, 1.2rem + 1.4vw, 2.5rem); }
+.fc-card__text { font-size: 0.9375rem; line-height: 1.6; color: var(--fc-quiet); }
+.fc-card--b { background: var(--fc-weave), var(--fc-tokiwa); color: var(--fc-cream); justify-content: flex-end; min-height: 260px; }
+.fc-card--b :is(.fc-card__facts, .fc-card__text), .fc-card--b .fc-card__body::before { color: var(--fc-cream); }
+.fc-card--d { background: var(--fc-ink); color: var(--fc-cream); }
+.fc-card--d :is(.fc-card__text), .fc-card--d .fc-card__body::before, .fc-card--d .fc-card__facts { color: var(--fc-pale); }
+.fc-card--d .fc-card__text { color: var(--fc-cream); }
+.fc-card--q { background: var(--fc-mist); justify-content: center; padding: clamp(1.5rem, 3vw, 2.5rem); box-shadow: none; }
+.fc-pull { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.5rem, 1.1rem + 1.2vw, 2.25rem); line-height: 1.3; color: var(--fc-ink); }
+.fc-card--e .fc-card__img { min-height: 200px; }
+.fc-more { margin-top: 2.5rem !important; justify-content: center; }
+@media (max-width: 1000px) {
+	.fc-mosaic { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-areas: "a a" "b c" "d c" "d e" "q q"; }
+}
+@media (max-width: 600px) {
+	.fc-mosaic { grid-template-columns: minmax(0, 1fr); grid-template-areas: "a" "b" "c" "d" "q" "e"; }
+	.fc-card--a .fc-card__img { min-height: 220px; }
+}
+
+/* The tea room: a tokiwa-green band. Four and a half in giant type and the story beside three rounded picture cards; the cut-out whisk breaks over the band top edge */
+.fc-story { z-index: 3; background: var(--fc-weave), var(--fc-tokiwa); color: var(--fc-cream); padding-block: clamp(5.5rem, 10vw, 8rem) var(--fc-sec) !important; }
+.fc-story > .fc-story__branch { position: absolute !important; z-index: 4; top: -110px; left: max(var(--fc-pad), calc((100% - var(--fc-wide)) / 2 + 1rem)); width: clamp(110px, 10vw, 160px); margin: 0 !important; pointer-events: none; transform: rotate(-10deg); filter: drop-shadow(0 16px 14px rgba(16, 37, 26, 0.35)); }
+.fc-story__branch img { display: block; width: 100%; }
+.fc-story__grid { position: relative; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+.fc-story__grid > * { margin: 0 !important; }
+.fc-story__text > * { margin-block: 0 1.1rem; }
+.fc-story .fc-eyebrow { color: var(--fc-cream); }
+.fc-story__no { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(6rem, 2rem + 10vw, 12rem); line-height: 0.85; letter-spacing: -0.02em; }
+.fc-story .fc-sec__title { font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.75rem); }
+.fc-story__lead { max-width: 34rem; }
+.fc-story .is-style-outline .wp-block-button__link { border-color: var(--fc-cream); color: var(--fc-cream); }
+.fc-story__collage { position: relative; height: clamp(420px, 38vw, 560px); }
+.fc-story__collage > * { margin: 0 !important; }
+.fc-piece--d { position: absolute !important; top: 0; left: 0; width: 52%; z-index: 1; }
+.fc-piece--e { position: absolute !important; top: 8%; right: 0; width: 52%; z-index: 2; }
+.fc-piece--f { position: absolute !important; bottom: 0; left: 22%; width: 50%; z-index: 3; }
+.fc-piece--d img, .fc-piece--e img { aspect-ratio: 4 / 3; object-fit: cover; }
+.fc-piece--f img { aspect-ratio: 3 / 2; object-fit: cover; }
+@media (max-width: 860px) {
+	.fc-story__grid { grid-template-columns: minmax(0, 1fr); }
+	.fc-story__collage { height: clamp(320px, 86vw, 520px); }
+	.fc-story > .fc-story__branch { top: -80px; width: 90px; }
+}
+
+/* Your first lesson: four numbered step cards on pale tokiwa */
+.fc-process { background: var(--fc-mist); }
+.fc-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2.4vw, 2rem); margin-top: 2.5rem !important; counter-reset: step; }
+.fc-strip > * { margin: 0 !important; }
+.fc-step { counter-increment: step; position: relative; background: var(--fc-cream); padding: 10px 10px 1.25rem; border-radius: var(--fc-radius); box-shadow: var(--fc-shadow); }
+.fc-step > * { margin: 0 !important; }
+.fc-step::before { content: counter(step); position: absolute; z-index: 2; left: -10px; top: -14px; width: 2.6rem; height: 2.6rem; display: grid; place-items: center; background: var(--fc-tokiwa); color: var(--fc-cream); border-radius: 50%; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.125rem; }
+:is(:lang(ja), :lang(zh)) .fc-step::before { content: counter(step, cjk-decimal); }
+.fc-step__img img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: calc(var(--fc-radius) - 8px); }
+.fc-step__title { font-size: 1.3125rem; padding: 1rem 0.35rem 0.35rem; }
+.fc-step__text { font-size: 0.9375rem; line-height: 1.6; padding: 0 0.35rem; color: var(--fc-quiet); }
+@media (max-width: 1000px) { .fc-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 2.5rem; } }
+@media (max-width: 560px) { .fc-strip { grid-template-columns: minmax(0, 1fr); } }
+
+/* Journal lists */
+.fc-home-journal, .fc-list { background: var(--fc-paper); }
+.fc-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.25rem); padding: 0; }
+.fc-notes .wp-block-post-template > li { margin: 0; background: var(--fc-cream); border-radius: var(--fc-radius); padding: 10px 10px 1.25rem; position: relative; box-shadow: 0 16px 30px -26px rgba(16, 37, 26, 0.6); }
+.fc-note__img img { border-radius: calc(var(--fc-radius) - 8px); }
+.fc-note__img { margin: 0 0 0.85rem; }
+.fc-note__img img { display: block; }
+.fc-note__text { padding-inline: 0.5rem; }
+.fc-note__date { font-size: 0.8125rem; color: var(--fc-quiet); font-variant-numeric: tabular-nums; }
+.fc-note__title { font-size: 1.375rem; margin: 0.25rem 0 0.5rem; }
+.fc-note__title a { color: var(--fc-ink); text-decoration: none; }
+.fc-note__title a:hover { color: var(--fc-deep); text-decoration: underline; }
+.fc-pagination { margin-top: 2.5rem; }
+
+/* Page heads: a tokiwa-green band with a rounded picture card on the right; the cut-out whisk breaks over the bottom edge */
+.fc-pagehead { position: relative; z-index: 3; isolation: isolate; background: var(--fc-weave), var(--fc-tokiwa); color: var(--fc-cream); padding-block: clamp(3.5rem, 7vw, 6rem) clamp(4.5rem, 8vw, 6.5rem) !important; margin: 0 !important; }
+.fc-main .fc-pagehead.is-layout-constrained { padding-inline: max(var(--fc-pad), calc((100% - var(--fc-wide)) / 2)) !important; }
+.fc-main .fc-pagehead.is-layout-constrained > * { max-width: none !important; margin-inline: 0 !important; }
+.fc-pagehead > * { margin-block: 0 0.85rem; position: relative; }
+.fc-pagehead .fc-eyebrow { color: var(--fc-cream); display: inline-block; width: fit-content; border-bottom: 1.5px solid var(--fc-cream); padding-bottom: 0.25rem; }
+.fc-pagehead__title { font-size: clamp(2.5rem, 1rem + 4vw, 5rem); line-height: 1.08; text-wrap: balance; max-width: 14ch; }
+:is(:lang(ja), :lang(zh)) .fc-pagehead__title { line-height: 1.3; font-size: clamp(2.125rem, 1rem + 3vw, 3.75rem); max-width: 11em; }
+.fc-pagehead__lead { font-size: var(--wp--preset--font-size--large); max-width: 38rem; }
+.fc-main .fc-pagehead > :is(.fc-pagehead__title, .fc-pagehead__lead) { padding-right: 0; box-sizing: border-box; }
+@media (min-width: 861px) {
+	.fc-pagehead:has(> .fc-pagehead__img) > :is(.fc-eyebrow, .fc-pagehead__title, .fc-pagehead__lead) { max-width: min(50%, 36rem) !important; }
+}
+.fc-pagehead > .fc-pagehead__img { position: absolute !important; z-index: 1; top: clamp(2rem, 4vw, 3rem); right: max(var(--fc-pad), calc((100% - var(--fc-wide)) / 2)); width: clamp(260px, 32%, 440px); margin: 0 !important; }
+.fc-pagehead__img img { aspect-ratio: 4 / 3; object-fit: cover; }
+.fc-pagehead > .fc-pagehead__branch { position: absolute !important; z-index: 4; right: calc(max(var(--fc-pad), calc((100% - var(--fc-wide)) / 2)) + clamp(200px, 26%, 360px)); bottom: -90px; width: clamp(80px, 7vw, 120px); margin: 0 !important; pointer-events: none; transform: rotate(14deg); filter: drop-shadow(0 12px 12px rgba(16, 37, 26, 0.32)); }
+.fc-pagehead__branch img { display: block; width: 100%; }
+.fc-pagehead > .fc-tate { position: absolute; right: calc(max(var(--fc-pad), calc((100% - var(--fc-wide)) / 2)) + clamp(260px, 32%, 440px) + 1.5rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.125rem, 0.9rem + 0.7vw, 1.5rem); color: var(--fc-cream); padding: 0.9rem 0.55rem; border: 1.5px solid rgba(255, 253, 245, 0.7); border-radius: 999px; margin: 0 !important; }
+.fc-pagehead .wp-block-search { max-width: 34rem; margin-top: 1.25rem; }
+.fc-search .wp-block-search__input { border: var(--fc-line); border-radius: 999px 0 0 999px; padding: 0.6rem 1.1rem; background: #FFFFFF; }
+.fc-search .wp-block-search__button { background: var(--fc-ink); color: var(--fc-cream); border-radius: 0 999px 999px 0; border: 0; padding-inline: 1.25rem; font-weight: 600; }
+.fc-pagehead .fc-hero__cta { justify-content: flex-start; }
+@media (max-width: 1240px) and (min-width: 861px) { .fc-pagehead > .fc-tate { display: none; } }
+@media (max-width: 860px) {
+	.fc-pagehead > .fc-pagehead__img { position: relative !important; top: auto; right: auto; width: min(100%, 420px); margin: 1.5rem 0 0 !important; }
+	.fc-pagehead > .fc-pagehead__branch { right: var(--fc-pad); bottom: -60px; width: 70px; }
+	.fc-pagehead > .fc-tate { display: none; }
+}
+
+/* Classes: alternating rows, picture card beside facts, title and the long text */
+.fc-rows { padding-top: calc(var(--fc-sec) + 2rem) !important; }
+.fc-rows__list { display: grid; gap: clamp(3.5rem, 7vw, 6rem); }
+.fc-rows__list > * { margin: 0 !important; }
+.fc-row { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+.fc-row > * { margin: 0 !important; }
+.fc-row:nth-child(even) .fc-row__img { order: 2; }
+.fc-row__img img { aspect-ratio: 3 / 2; object-fit: cover; }
+.fc-row__text > * { margin-block: 0 0.85rem; }
+.fc-row__facts { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--fc-deep); }
+.fc-row__title { font-size: clamp(2rem, 1.3rem + 2vw, 3.125rem); line-height: 1.1; }
+.fc-advice { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; margin-top: clamp(4rem, 8vw, 6rem) !important; padding-top: clamp(2.5rem, 5vw, 4rem); border-top: 1px solid rgba(16, 37, 26, 0.2); }
+.fc-advice > * { margin: 0 !important; }
+.fc-advice__text > * { margin-block: 0 1rem; }
+.fc-links .fc-book .wp-block-button__link, .fc-mailto .wp-block-button__link { background: var(--fc-tokiwa); color: var(--fc-cream); font-weight: 700; }
+
+/* Fees (synced) */
+.fc-rates { background: var(--fc-mist); padding: clamp(1.25rem, 3vw, 2rem); margin: 0; border-radius: var(--fc-radius); }
+.fc-rates > * { margin: 0 !important; }
+.fc-rates__label { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.625rem; margin-bottom: 0.75rem !important; }
+.fc-rate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 1rem; padding: 0.85rem 0; border-bottom: 1px dotted rgba(16, 37, 26, 0.45); }
+.fc-rate > * { margin: 0 !important; }
+.fc-rate__name { font-weight: 600; }
+.fc-rate__facts { grid-column: 1; font-size: 0.8125rem; color: var(--fc-quiet); }
+.fc-rate__price { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.1875rem; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.fc-rates__note { font-size: 0.875rem; color: var(--fc-quiet); margin-top: 1rem !important; }
+
+/* The teacher */
+.fc-about { padding-top: calc(var(--fc-sec) + 2rem) !important; }
+.fc-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.fc-about__story > * { margin: 0 !important; }
+.fc-about__text { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(16, 37, 26, 0.2); }
+.fc-about__text > * { margin-block: 0 1.1rem; }
+.fc-about__wide { margin-top: clamp(3rem, 6vw, 5rem) !important; }
+.fc-about__wide img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: var(--fc-radius); border: 10px solid var(--fc-cream); outline: 1px solid rgba(16, 37, 26, 0.25); box-sizing: border-box; }
+.fc-rules { margin-top: clamp(3rem, 6vw, 4.5rem) !important; max-width: 44rem; }
+.fc-steps { padding: 0; margin: 0; list-style: none; counter-reset: splist; display: grid; gap: 0.85rem; }
+.fc-steps li { counter-increment: splist; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: 0.85rem; align-items: start; }
+.fc-steps li::before { content: counter(splist); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; background: var(--fc-tokiwa); color: var(--fc-cream); font-family: var(--wp--preset--font-family--display); font-weight: 700; border-radius: 50%; }
+:is(:lang(ja), :lang(zh)) .fc-steps li::before { content: counter(splist, cjk-decimal); }
+
+/* Letters */
+.fc-letter { padding-top: calc(var(--fc-sec) + 2rem) !important; }
+.fc-letter__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.fc-letter__grid > * { margin: 0 !important; }
+.fc-letter__card { background: var(--fc-ink); color: var(--fc-cream); padding: clamp(1.5rem, 3.5vw, 2.5rem); border-radius: var(--fc-radius); border-top: 10px solid var(--fc-tokiwa); }
+.fc-letter__card > * { margin-block: 0 1rem; }
+.fc-letter__card .fc-sec__title { color: var(--fc-cream); font-size: clamp(1.75rem, 1.2rem + 1.4vw, 2.5rem); }
+.fc-letter__card .fc-mailto .wp-block-button__link { background: var(--fc-pale); color: var(--fc-ink); }
+
+/* Trial lesson */
+.fc-contact { padding-top: calc(var(--fc-sec) + 2rem) !important; }
+.fc-contact__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.fc-contact__grid > * { margin: 0 !important; }
+.fc-contact__book > *, .fc-contact__find > * { margin-block: 0 1.25rem; }
+.fc-contact__find .fc-sec__title { font-size: 1.625rem; margin-top: 2rem; }
+.fc-steps { margin-bottom: 1.75rem !important; }
+.fc-contact__book .fc-rates { margin-top: 2.5rem !important; }
+
+/* School details (synced) */
+.fc-details { display: grid; gap: 0.35rem; margin: 0; }
+.fc-details > * { margin: 0 !important; }
+.fc-details__season { font-weight: 600; }
+.fc-details__note { font-size: 0.875rem; margin-top: 0.5rem !important; }
+.fc-contact .fc-details { background: var(--fc-mist); padding: clamp(1.25rem, 3vw, 1.75rem); border-radius: var(--fc-radius); }
+body:has(.fc-main .fc-details) .fc-foot .fc-details { display: none; }
+
+/* Single note and plain pages */
+.fc-article__head > * { margin-block: 0 0.75rem; }
+.fc-article__head { margin-bottom: 2rem; }
+.fc-article .fc-pagehead__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4rem); }
+.fc-article__date { color: var(--fc-quiet); font-size: 0.875rem; }
+.fc-photo { margin-block: 0 2.5rem; background: var(--fc-cream); border-radius: var(--fc-radius); padding: 10px; box-shadow: 0 16px 30px -26px rgba(16, 37, 26, 0.6); }
+.fc-photo img { display: block; max-height: 560px; object-fit: cover; border-radius: calc(var(--fc-radius) - 8px); }
+.fc-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.fc-tags a { display: inline-block; background: var(--fc-mist); color: var(--fc-ink); padding: 0.2rem 0.9rem; text-decoration: none; font-size: 0.875rem; margin: 0 0.25rem 0.25rem 0; border-radius: 999px; }
+.fc-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.fc-page .fc-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Footer: the pine-black field with the school name */
+.wp-site-blocks > footer { margin-block-start: 0; }
+.fc-foot { background: var(--fc-ink); color: var(--fc-cream); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2rem; margin: 0; border-top: 14px solid var(--fc-tokiwa); }
+.fc-foot__grid { display: grid; grid-template-columns: 1.4fr 1fr 0.7fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.fc-foot__grid > * { margin: 0 !important; }
+.fc-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(2.25rem, 1.2rem + 3.4vw, 4.25rem); line-height: 1; margin: 0 0 1rem; }
+.fc-foot .fc-foot__mark a { color: var(--fc-pale); text-decoration: none; }
+.fc-foot__sub { margin: 0; max-width: 28rem; }
+.fc-foot a { color: var(--fc-cream); }
+.fc-foot__nav { font-weight: 600; gap: 0.5rem; }
+.fc-foot__nav a { text-decoration: none; }
+.fc-foot__nav a:hover { text-decoration: underline; }
+.fc-foot__base { margin-top: 3rem !important; padding-top: 1.25rem; border-top: 1px solid rgba(169, 221, 189, 0.35); }
+.fc-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--fc-pale); }
+
+@media (max-width: 1100px) { .fc-notes .wp-block-post-template { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+	.fc-row, .fc-advice, .fc-about__story, .fc-letter__grid, .fc-contact__grid, .fc-foot__grid { grid-template-columns: minmax(0, 1fr); }
+	.fc-row:nth-child(even) .fc-row__img { order: 0; }
+	.fc-about__img { max-width: 380px; }
+	.fc-about__text { column-count: 1; }
+	.fc-pagehead { padding-bottom: 4.5rem !important; }
+}
+@media (max-width: 640px) {
+	.fc-notes .wp-block-post-template { grid-template-columns: minmax(0, 1fr); }
+	.fc-rate__price { font-size: 1.0625rem; }
+}
+/* Headings on the green and pine-black fields take the field's cream text colour */
+:is(.fc-hero, .fc-story, .fc-pagehead, .fc-card--b, .fc-card--d, .fc-letter__card) :is(h1, h2, h3) { color: var(--fc-cream); }
+.fc-nav .wp-block-navigation__container { flex-wrap: nowrap; }
+nav.fc-nav { flex: 0 0 auto; }
+@media (max-width: 1479px) { .fc-brand__tag { display: none; } }
+.fc-piece--f { bottom: auto; top: 50%; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
