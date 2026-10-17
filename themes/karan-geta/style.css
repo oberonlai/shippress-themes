@@ -1,0 +1,366 @@
+/*
+Theme Name: Karan Geta
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/karan-geta
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Karan Geta — a WooCommerce store theme for a geta (wooden sandal) workshop on a hot-spring street, laid out as a hanging scroll you read from top to bottom. A formal white top header carries the shop name, the Book a fitting button, account and cart; the main menu always opens from a Menu button as a full-screen shinbashi turquoise overlay (set vertically in Chinese and Japanese). Shinbashi turquoise (#59B9C6) is the main colour: the hero field, the menu overlay, the scroll spine, every page head and the footer strip are turquoise fields with sumi blue-black text on pale turquoise washi. The hero is a vertical banner: a tall woodblock print of the hot-spring street hangs like a shop banner from a wooden rod, beside the shop line (a vertical line in Chinese and Japanese); a cut-out pair of geta (transparent WebP) steps off the banner and over the hero's bottom edge. Five workshop steps hang on a turquoise spine, and a full-bleed woodblock band of the paulownia yard carries a turquoise card that a second pair of geta breaks out of. Every picture is a full woodblock-print illustration. Yuji Boku for display, Jost for reading. Sample content and products in English, Traditional Chinese, Japanese, French and German; vertical lines only in Chinese and Japanese. Works without WooCommerce. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: karan-geta
+Tags: e-commerce, block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--kg-paper: var(--wp--preset--color--paper);
+	--kg-mist: var(--wp--preset--color--mist);
+	--kg-shin: var(--wp--preset--color--shinbashi);
+	--kg-ai: var(--wp--preset--color--ai);
+	--kg-ink: var(--wp--preset--color--ink);
+	--kg-deep: var(--wp--preset--color--deep);
+	--kg-quiet: var(--wp--preset--color--quiet);
+	--kg-pale: var(--wp--preset--color--pale);
+		--kg-sec: clamp(3rem, 6vw, 5.5rem);
+	--kg-pad: clamp(1.25rem, 4vw, 3rem);
+	--kg-headh: 132px;
+	--kg-radius: 2px;
+	--kg-wide: var(--wp--style--global--wide-size, 1200px);
+}
+
+/* Fonts per language: Yuji Boku / Jost for Latin; Japanese headings use the Yuji Boku JA subset; Chinese headings the bundled Noto Serif TC subset (never a Japanese font) */
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Yuji Boku", "Yuji Boku JA", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Jost", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", "Yuji Boku", "PMingLiU", "Songti TC", serif;
+	--wp--preset--font-family--body: "Jost", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:lang(ja) body, :lang(zh) body { line-height: 1.9; }
+:is(:lang(ja), :lang(zh)) :is(h1, h2, h3, .kg-board__label, .kg-foot__sub, .kg-scene__title) { word-break: auto-phrase; }
+:is(:lang(ja), :lang(zh)) .kg-eyebrow { letter-spacing: 0.1em; text-transform: none; }
+
+html, body { overflow-x: clip; }
+a { color: var(--kg-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+:where(h1, h2, h3, h4) { font-weight: 700; }
+
+/* Labels, titles, block styles */
+.kg-eyebrow { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--kg-deep); margin: 0 0 0.75rem; }
+.kg-eyebrow a { color: inherit; text-decoration: none; }
+.kg-chip { display: inline-block; width: fit-content; background: var(--kg-paper); color: var(--kg-deep) !important; border-radius: 999px; padding: 0.35rem 0.95rem; }
+.kg-sec__title { margin: 0 0 1.25rem; font-size: clamp(1.75rem, 1.2rem + 1.9vw, 2.875rem); line-height: 1.18; text-wrap: balance; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.7; }
+.wp-block-button__link { transition: background-color .2s; }
+.wp-block-button__link:hover { background: var(--kg-ink); }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--kg-deep); padding: 0.25rem 0; border-bottom: 2px solid var(--kg-shin); border-radius: 0; }
+.wp-block-button.is-style-outline-light .wp-block-button__link { background: var(--kg-paper); color: var(--kg-deep); border: 0; }
+.wp-block-button.is-style-outline-light .wp-block-button__link:hover { background: #FFFFFF; }
+hr.is-style-tone { border: 0; height: 4px; width: 72px !important; margin: 2.5rem 0; opacity: 1; background: var(--kg-shin); border-radius: 4px; }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.7rem 0; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.kg-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .kg-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 700; letter-spacing: 0.3em; margin: 0; line-height: 1.2; }
+
+/* Header: a formal white top header. The shop name sits on the left, the Book a fitting button, account and cart on the right, and the main menu always opens from a Menu button as a full-screen shinbashi turquoise overlay with large vertical-feeling rows */
+.kg-head-part { position: sticky; top: 0; z-index: 50; }
+.kg-head { background: #FFFFFF; border-bottom: 4px solid var(--kg-shin); padding-block: 0 !important; }
+.kg-head > * { max-width: var(--kg-wide) !important; }
+.kg-bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 78px; }
+.kg-bar > * { margin-block: 0 !important; }
+.kg-brand { display: flex; align-items: center; gap: 0.75rem; margin: 0 !important; min-width: 0; }
+.kg-brand::before { content: ""; flex: none; width: 10px; height: 2.25rem; background: var(--kg-shin); box-shadow: 4px 0 0 #FFFFFF, 8px 0 0 var(--kg-ink); margin-right: 8px; }
+.kg-brand .wp-block-site-logo { margin: 0; }
+.kg-brand__title { margin: 0; font-family: var(--wp--preset--font-family--display); font-size: clamp(1.375rem, 1rem + 1vw, 1.875rem); font-weight: 400; letter-spacing: 0.06em; white-space: nowrap; }
+.kg-brand__title a { color: var(--kg-ink); text-decoration: none; }
+.kg-bar__end { display: flex; align-items: center; gap: clamp(0.5rem, 1.5vw, 1.25rem); margin: 0 !important; }
+.kg-bar__end > * { margin: 0 !important; }
+.kg-head__cta { margin: 0 !important; }
+.kg-head__cta .wp-block-button__link { padding: 0.6rem 1.3rem; font-size: 0.875rem; white-space: nowrap; background: var(--kg-ink); color: #FFFFFF; }
+.kg-head__cta .wp-block-button__link:hover { background: var(--kg-deep); }
+.kg-bar__end :is(.wc-block-mini-cart__button, .wp-block-woocommerce-customer-account a) { color: var(--kg-ink); }
+.kg-bar__end .wc-block-mini-cart__badge { background: var(--kg-shin); color: var(--kg-ink); }
+nav.kg-nav .wp-block-navigation__responsive-container-open { display: flex; align-items: center; gap: 0.4rem; padding: 0.45rem 0.8rem; border: 1px solid var(--kg-ink); border-radius: 2px; color: var(--kg-ink); background: var(--kg-shin); font-family: var(--wp--preset--font-family--body); font-weight: 600; font-size: 0.875rem; }
+nav.kg-nav .wp-block-navigation__responsive-container-open::after { content: "Menu"; }
+nav.kg-nav .wp-block-navigation__responsive-container-open svg { width: 20px; height: 20px; }
+.kg-head .wp-block-navigation.kg-nav:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--kg-shin); color: var(--kg-ink); background-image: repeating-linear-gradient(90deg, transparent 0 calc(25% - 1px), rgba(16, 39, 43, .14) calc(25% - 1px) 25%); }
+nav.kg-nav .wp-block-navigation__responsive-container.is-menu-open { padding: clamp(1.5rem, 5vw, 4rem); }
+nav.kg-nav .is-menu-open .wp-block-navigation__responsive-container-content { align-items: flex-start; padding-top: 4rem; }
+nav.kg-nav .is-menu-open .wp-block-navigation-item__content { color: var(--kg-ink) !important; font-family: var(--wp--preset--font-family--display); font-size: clamp(2rem, 1.2rem + 3.6vw, 4rem); line-height: 1.15; text-decoration: none; border-bottom: 2px solid transparent; }
+nav.kg-nav .is-menu-open .wp-block-navigation-item__content:hover { border-bottom-color: var(--kg-ink); }
+nav.kg-nav .is-menu-open .wp-block-navigation__container { gap: 0.6rem; align-items: flex-start; }
+nav.kg-nav .wp-block-navigation__responsive-container-close { color: var(--kg-ink); }
+:is(:lang(ja), :lang(zh)) nav.kg-nav .is-menu-open .wp-block-navigation__container { writing-mode: vertical-rl; flex-direction: column; flex-wrap: wrap; gap: 1.5rem 2.5rem; max-height: 70vh; }
+@media (max-width: 781px) {
+	.kg-bar { min-height: 64px; }
+	.kg-bar__end .wp-block-woocommerce-customer-account { display: none; }
+}
+@media (max-width: 520px) { .kg-head__cta { display: none; } }
+.kg-head--checkout .kg-bar > .kg-eyebrow { margin: 0 !important; color: var(--kg-quiet); }
+
+/* The page: a pale pale turquoise washi ground with white sheets; turquoise fields carry the hero panel, the scroll spine, the collage band, the page heads and the footer strip */
+body { background: var(--kg-paper); background-image: radial-gradient(color-mix(in srgb, var(--kg-shin) 7%, transparent) 1px, transparent 1.4px); background-size: 7px 7px; }
+.kg-main { margin-block: 0 !important; padding: 0 !important; min-width: 0; }
+.kg-main > * { margin-block: 0; }
+.kg-main > .wp-block-post-content > * { margin-block: 0; }
+
+/* Sections and panels */
+.kg-section { padding-block: calc(var(--kg-sec) * 0.5); margin: 0 !important; position: relative; }
+.kg-main :is(.kg-section, .kg-pagehead).is-layout-constrained > :not(.alignfull) { max-width: var(--kg-wide) !important; }
+.kg-main :is(.kg-section, .kg-pagehead) > p:not(.kg-tate):not(.kg-eyebrow):not(.kg-pagehead__lead) { padding-right: max(0px, calc(100% - 40rem)); }
+.kg-section > * { margin-block-start: 0; }
+.kg-card { background: #FFFFFF; border-radius: var(--kg-radius); padding: clamp(1.5rem, 3.5vw, 2.75rem); border: 1px solid color-mix(in srgb, var(--kg-ink) 14%, transparent); }
+.kg-card > * { margin-block: 0; }
+.kg-panel__head { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 2rem; margin-bottom: 1.75rem !important; }
+.kg-panel__head > .kg-eyebrow { flex-basis: 100%; }
+.kg-panel__head > .kg-sec__title { margin: 0; }
+.kg-panel__hint { margin: 0 0 0 auto !important; color: var(--kg-quiet); font-size: 0.9375rem; }
+.kg-more { margin-top: 2rem !important; }
+
+/* Hero: a vertical banner. On a full shinbashi turquoise field a tall woodblock print of the hot-spring street hangs like a shop banner (nobori) from a wooden rod; the shop line, lead and buttons stand beside it (a vertical line in Chinese and Japanese); the cut-out pair of geta (transparent WebP) steps off the banner's foot and over the hero's bottom edge */
+.kg-hero { position: relative; margin: 0 !important; background: var(--kg-shin); color: var(--kg-ink); padding: clamp(2.5rem, 5vw, 4rem) max(var(--kg-pad), calc((100% - var(--kg-wide)) / 2)) clamp(3.5rem, 6vw, 5rem); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2rem, 6vw, 6rem); align-items: center; overflow: visible; isolation: isolate; z-index: 2; box-sizing: border-box; }
+.kg-hero > * { margin: 0 !important; }
+.kg-hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background-image: repeating-linear-gradient(0deg, rgba(16, 39, 43, .06) 0 1px, transparent 1px 9px); }
+.kg-hero__banner { grid-column: 1; grid-row: 1; position: relative; justify-self: center; width: min(100%, 25rem); padding-top: 22px; }
+.kg-hero__banner::before { content: ""; position: absolute; top: 0; left: -14px; right: -14px; height: 14px; background: #7A5233; border-radius: 7px; box-shadow: 0 3px 0 rgba(16, 39, 43, .35); }
+.kg-hero__art { margin: 0 !important; background: #FFFFFF; padding: 12px 12px 26px; box-shadow: 0 26px 40px -24px rgba(16, 39, 43, .7); clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 22px), 0 100%); }
+.kg-hero__art img { display: block; width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
+.kg-hero__geta { position: absolute !important; z-index: 3; right: -34%; bottom: calc(-1 * clamp(5rem, 9vw, 8rem)); width: clamp(190px, 18vw, 290px); margin: 0 !important; transform: rotate(-8deg); filter: drop-shadow(0 22px 22px rgba(16, 39, 43, .45)); }
+.kg-hero__geta img { display: block; width: 100%; }
+.kg-hero__type { grid-column: 2; grid-row: 1; display: flex; flex-direction: column; gap: 1.4rem; min-width: 0; }
+.kg-hero__type > * { margin: 0 !important; }
+.kg-hero .kg-chip { background: var(--kg-ink); color: #FFFFFF !important; }
+.kg-hero__title { color: var(--kg-ink); font-size: clamp(2.75rem, 1.4rem + 4.2vw, 5.5rem); line-height: 1.04; font-weight: 400; text-wrap: balance; }
+:is(:lang(ja), :lang(zh)) .kg-hero__title { line-height: 1.3; font-size: clamp(2.25rem, 1.3rem + 3vw, 4rem); }
+.kg-hero__lead { font-size: 1.125rem; line-height: 1.7; max-width: 34rem; }
+.kg-hero__cta { gap: 1.5rem; align-items: center; }
+.kg-hero .wp-block-button:not(.is-style-text-link) .wp-block-button__link { background: var(--kg-ink); color: #FFFFFF; }
+.kg-hero .wp-block-button.is-style-text-link .wp-block-button__link { color: var(--kg-ink); border-bottom-color: var(--kg-ink); }
+.kg-hero__row { display: flex; gap: clamp(1.5rem, 3vw, 2.5rem); align-items: stretch; }
+.kg-hero__row > * { margin: 0 !important; }
+.kg-hero .kg-tate { font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.75rem); color: var(--kg-ink); flex: none; padding-right: 1.25rem; border-right: 2px solid var(--kg-ink); white-space: nowrap; max-height: 22rem; }
+@media (max-width: 899px) {
+	.kg-hero { grid-template-columns: minmax(0, 1fr); padding-bottom: 7rem; }
+	.kg-hero__type { grid-column: 1; grid-row: 1; }
+	.kg-hero__banner { grid-column: 1; grid-row: 2; width: min(78%, 22rem); justify-self: start; }
+	.kg-hero__geta { right: -38%; width: 150px; bottom: -5.5rem; }
+	.kg-hero .kg-tate { font-size: 1.5rem; }
+}
+
+/* Shop board (synced): cards. The lead card is turquoise, the others white */
+.kg-boardband { padding-top: clamp(7rem, 11vw, 9rem) !important; }
+.kg-home-journal { padding-bottom: var(--kg-sec) !important; }
+.kg-main > .wp-block-post-content > .kg-section:last-child, .kg-shopgrid, .kg-about, .kg-letter, .kg-contact, .kg-list { padding-bottom: var(--kg-sec) !important; }
+.kg-board { display: grid; grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr)); gap: 1rem; margin: 0; }
+.kg-board > * { margin: 0 !important; background: #FFFFFF; border: 1px solid color-mix(in srgb, var(--kg-ink) 14%, transparent); border-radius: 2px; padding: 1.25rem 1.35rem; }
+.kg-board p { margin: 0; }
+.kg-board__lead { background: var(--kg-shin) !important; color: var(--kg-ink); display: flex; flex-direction: column; justify-content: space-between; gap: 1rem; }
+.kg-board__label { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.5rem; line-height: 1.2; }
+.kg-board__open { white-space: nowrap; font-size: 0.8125rem; font-weight: 700; background: var(--kg-paper); color: var(--kg-deep); border-radius: 999px; padding: 0.3rem 0.8rem; width: fit-content; }
+.kg-board__k { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 700; color: var(--kg-deep); margin: 0 0 0.5rem !important; }
+.kg-board__k::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--kg-ai); margin-right: 0.5rem; vertical-align: 0.1em; }
+.kg-board__v { font-size: 1.0625rem; line-height: 1.5; color: var(--kg-ink); }
+:is(:lang(ja), :lang(zh)) .kg-board__k { text-transform: none; letter-spacing: 0.06em; }
+.kg-contact .kg-board { margin-top: 2rem; grid-template-columns: minmax(0, 1fr); }
+
+/* Plans and small things: product grid */
+.kg-grid .wc-block-product-template { gap: clamp(1rem, 2.5vw, 1.75rem) !important; display: grid !important; grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+.kg-grid .wc-block-product-template > li { width: auto !important; max-width: none !important; margin: 0 !important; }
+@media (max-width: 781px) { .kg-grid .wc-block-product-template { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } }
+.kg-grid--static { display: grid !important; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2.5vw, 1.75rem); }
+.kg-grid--static > * { margin: 0 !important; }
+.kg-grid--static img { aspect-ratio: 1; object-fit: cover; border-radius: 2px; display: block; }
+.kg-card__photo { margin: 0 0 0.9rem !important; background: var(--kg-mist); border-radius: 2px; overflow: hidden; }
+.kg-card__photo img { display: block; aspect-ratio: 1; object-fit: cover; }
+.kg-card__name { font-family: var(--wp--preset--font-family--display); font-size: 1.125rem !important; font-weight: 700; line-height: 1.35; margin: 0 0 0.3rem !important; text-align: left !important; }
+.kg-card__name a { color: var(--kg-ink); text-decoration: none; }
+.kg-card__name a:hover { color: var(--kg-deep); text-decoration: underline; }
+.kg-card__price { color: var(--kg-deep); font-weight: 700; text-align: left !important; }
+@media (max-width: 781px) { .kg-grid--static { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* The day as a vertical scroll: a turquoise spine runs down the page like the cord of a hanging scroll; five numbered scenes hang off it, and the dressing print sits framed beside it. In Chinese and Japanese the section line is set vertically at the head */
+.kg-scroll { padding-block: var(--kg-sec) !important; }
+.kg-scroll__head { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-rows: auto auto 1fr; column-gap: 2rem; align-items: start; margin-bottom: clamp(2rem, 4vw, 3rem) !important; }
+.kg-scroll__head > * { margin: 0 !important; grid-column: 1; }
+.kg-scroll__head > .kg-tate { grid-column: 2; grid-row: 1 / span 3; font-size: 1.75rem; color: var(--kg-shin); }
+.kg-scroll__body { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: start; }
+.kg-scroll__body > * { margin: 0 !important; }
+.kg-scroll__art { position: sticky; top: calc(var(--kg-headh) + 1.5rem); background: #FFFFFF; padding: 12px; border: 1px solid color-mix(in srgb, var(--kg-ink) 16%, transparent); transform: rotate(-1.5deg); }
+.kg-scroll__img { margin: 0 !important; }
+.kg-scroll__img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.kg-scenes { position: relative; display: grid; gap: clamp(1.5rem, 3vw, 2.25rem); padding-left: 4.5rem; }
+.kg-scenes::before { content: ""; position: absolute; left: 1.375rem; top: 0.5rem; bottom: 0.5rem; width: 6px; background: var(--kg-shin); }
+.kg-scenes > * { margin: 0 !important; }
+.kg-scene { position: relative; background: #FFFFFF; border: 1px solid color-mix(in srgb, var(--kg-ink) 14%, transparent); padding: 1.25rem 1.5rem 1.4rem; }
+.kg-scene > * { margin: 0 !important; }
+.kg-scene__no { position: absolute !important; left: -4.5rem; top: 1rem; width: 3.25rem; height: 3.25rem; display: grid; place-items: center; background: var(--kg-shin); color: var(--kg-ink); font-weight: 800; font-size: 1.0625rem; letter-spacing: 0.04em; border: 3px solid var(--kg-paper); border-radius: 50%; }
+.kg-scene__title { font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.75rem); margin-bottom: 0.35rem !important; color: var(--kg-ink); }
+.kg-scene__text { color: var(--kg-quiet); }
+.kg-scene:nth-child(even) { margin-left: clamp(0rem, 3vw, 2.5rem) !important; }
+@media (max-width: 781px) {
+	.kg-scroll__body { grid-template-columns: minmax(0, 1fr); }
+	.kg-scroll__art { position: relative; top: 0; max-width: 340px; }
+	.kg-scene:nth-child(even) { margin-left: 0 !important; }
+}
+
+/* The sound of the street: one full-bleed woodblock illustration (the paulownia yard) fills the band edge to edge; a turquoise card holds the text, and the cut-out pair of geta breaks out of the card and over the band's top edge */
+.kg-break { position: relative; padding-block: clamp(6rem, 12vw, 10rem) !important; overflow: visible; z-index: 2; isolation: isolate; }
+.kg-break__bg { position: absolute !important; inset: 0; z-index: -1; margin: 0 !important; overflow: hidden; }
+.kg-break__bg img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.kg-break__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 30rem); }
+.kg-break__grid > * { margin: 0 !important; }
+.kg-break__text { grid-column: 2; position: relative; background: var(--kg-shin); color: var(--kg-ink); padding: clamp(2rem, 4vw, 3rem); box-shadow: 0 30px 40px -26px rgba(16, 39, 43, .7); }
+.kg-break__text > * { margin-block: 0 1.25rem; }
+.kg-break .kg-sec__title { color: var(--kg-ink); font-size: clamp(1.75rem, 1.1rem + 2vw, 2.75rem); font-weight: 400; }
+.kg-break .kg-chip { background: var(--kg-ink); color: #FFFFFF !important; }
+.kg-break__card { background: #FFFFFF; color: var(--kg-ink); padding: 1.5rem 1.6rem; margin: 0 !important; }
+.kg-break__card > * { margin-block: 0; }
+.kg-break__card .kg-more { margin-top: 1.25rem !important; }
+.kg-break__float { position: absolute !important; top: calc(-1 * clamp(8rem, 13vw, 11rem)); left: calc(-1 * clamp(5rem, 9vw, 9rem)); width: clamp(180px, 19vw, 280px); margin: 0 !important; transform: rotate(12deg); filter: drop-shadow(0 20px 22px rgba(16, 39, 43, .5)); z-index: 4; }
+.kg-break__float img { display: block; width: 100%; }
+@media (max-width: 781px) {
+	.kg-break { padding-top: 22rem !important; }
+	.kg-break__grid { grid-template-columns: minmax(0, 1fr); }
+	.kg-break__text { grid-column: 1; }
+	.kg-break__float { left: auto; right: 0; width: 140px; top: -6rem; }
+}
+
+/* Lane notes: home and lists */
+.kg-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2rem); padding: 0; }
+.kg-notes .wp-block-post-template > li { margin: 0; }
+.kg-list .kg-notes .wp-block-post-template > li { background: #FFFFFF; border-radius: var(--kg-radius); padding: 10px 10px 1.25rem; }
+.kg-list .kg-note__text { padding-inline: 0.75rem; }
+.kg-note__img { margin: 0 0 0.9rem; }
+.kg-note__img img { display: block; border-radius: 2px; }
+.kg-note__date { font-size: 0.8125rem; color: var(--kg-deep); font-variant-numeric: tabular-nums; font-weight: 700; letter-spacing: 0.06em; }
+.kg-note__title { font-size: 1.3125rem; margin: 0.25rem 0 0.5rem; }
+.kg-note__title a { color: var(--kg-ink); text-decoration: none; }
+.kg-note__title a:hover { color: var(--kg-deep); text-decoration: underline; }
+.kg-pagination { margin-top: 2.5rem; }
+@media (max-width: 860px) { .kg-notes .wp-block-post-template { grid-template-columns: minmax(0, 1fr); } }
+
+/* Page heads: a turquoise field with a white title and lead; the cut-out geta breaks over the bottom edge */
+.kg-pagehead { position: relative; z-index: 3; padding-block: clamp(3rem, 6vw, 5rem) clamp(4rem, 7vw, 5.5rem); margin: 0 !important; background: var(--kg-shin); color: var(--kg-ink); overflow: visible; }
+.kg-pagehead > .kg-eyebrow { background: var(--kg-paper); color: var(--kg-deep); border-radius: 999px; padding: 0.35rem 0.95rem; width: fit-content; }
+.kg-main .kg-pagehead.is-layout-constrained > .kg-eyebrow { margin-left: max(0px, calc((100% - var(--kg-wide)) / 2)) !important; }
+.kg-pagehead a { color: var(--kg-ink); }
+.kg-pagehead__title { color: var(--kg-ink); font-size: clamp(2.25rem, 1.3rem + 3.2vw, 4.25rem); line-height: 1.1; margin: 0 0 1rem; text-wrap: balance; }
+:is(:lang(ja), :lang(zh)) .kg-pagehead__title { line-height: 1.3; }
+.kg-pagehead__lead { font-size: 1.25rem; font-weight: 700; line-height: 1.55; margin: 0; max-width: 40rem; }
+.kg-main .kg-pagehead.is-layout-constrained > :is(.kg-pagehead__lead, .kg-crumbs, .woocommerce-breadcrumb, .wp-block-term-description) { margin-left: max(0px, calc((100% - var(--kg-wide)) / 2)) !important; margin-right: auto !important; max-width: min(40rem, 100%) !important; }
+.kg-main .kg-pagehead.is-layout-constrained > .kg-pagehead__title { padding-right: clamp(0px, 12vw, 12rem); box-sizing: border-box; }
+.kg-pagehead__cut { position: absolute !important; right: max(1.5rem, calc((100% - var(--kg-wide)) / 2 + 2rem)); bottom: -60px; width: clamp(120px, 13vw, 180px); margin: 0 !important; transform: rotate(10deg); filter: drop-shadow(0 16px 18px rgba(16, 39, 43, .35)); z-index: 3; }
+.kg-pagehead__cut img { display: block; width: 100%; }
+.kg-pagehead .kg-tate { position: absolute; top: clamp(2.5rem, 5vw, 4rem); right: max(1.5rem, calc((100% - var(--kg-wide)) / 2 + 14rem)); color: var(--kg-ink); font-size: 1.5rem; }
+.kg-pagehead .kg-search { max-width: 30rem; margin: 1.5rem 0 !important; }
+.kg-pagehead .wp-block-button.is-style-outline .wp-block-button__link { background: var(--kg-paper); color: var(--kg-deep); border: 0; }
+.kg-pagehead .wp-block-search__input { border-radius: 999px 0 0 999px; border: 0; padding: 0.6rem 1.1rem; }
+.kg-pagehead .wp-block-search__button { border-radius: 0 999px 999px 0; background: var(--kg-ink); color: #FFFFFF; border: 0; }
+.kg-404 + * { margin: 0; }
+.kg-pagehead .kg-tate { white-space: nowrap; font-size: 1.25rem !important; }
+:is(:lang(ja), :lang(zh)) .kg-pagehead { min-height: 21rem; box-sizing: border-box; }
+@media (max-width: 781px) { .kg-pagehead .kg-tate { display: none; } .kg-pagehead__cut { bottom: -40px; width: 96px; } }
+.kg-crumbs, .kg-pagehead .woocommerce-breadcrumb { font-size: 0.8125rem; font-weight: 700; margin-bottom: 1.5rem !important; }
+.kg-pagehead :is(.kg-crumbs, .woocommerce-breadcrumb) { background: var(--kg-paper); color: var(--kg-deep); border-radius: 999px; padding: 0.3rem 0.9rem; width: fit-content; }
+.kg-pagehead :is(.kg-crumbs, .woocommerce-breadcrumb) a { color: var(--kg-deep); }
+.kg-pagehead .wp-block-term-description, .kg-pagehead .wp-block-term-description p { font-size: 1.25rem; font-weight: 700; }
+
+/* The shop (about) */
+.kg-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(2rem, 5vw, 4rem); align-items: center; background: #FFFFFF; border-radius: var(--kg-radius); padding: clamp(1.5rem, 3.5vw, 2.75rem); }
+.kg-about__story > * { margin: 0 !important; }
+.kg-about__img img { display: block; aspect-ratio: 1; object-fit: cover; width: 100%; border-radius: 2px; }
+.kg-promise { margin-top: var(--kg-sec) !important; }
+.kg-promise__list { list-style: none; counter-reset: hypr; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; }
+.kg-promise__list li { counter-increment: hypr; background: #FFFFFF; border-radius: 2px; padding: 1.35rem; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.1875rem; line-height: 1.4; }
+.kg-promise__list li::before { content: counter(hypr, decimal-leading-zero); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; border-radius: 50%; background: var(--kg-shin); color: var(--kg-ink); font-family: var(--wp--preset--font-family--body); font-size: 0.9375rem; font-weight: 800; margin-bottom: 0.8rem; }
+@media (max-width: 781px) { .kg-about__story { grid-template-columns: minmax(0, 1fr); } }
+
+/* Newsletter and Visit */
+.kg-letter__grid, .kg-contact__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.25rem, 3vw, 2rem); align-items: start; }
+.kg-letter__grid > *, .kg-contact__grid > * { margin: 0 !important; }
+.kg-letter__img img { display: block; aspect-ratio: 4/3; object-fit: cover; width: 100%; border-radius: var(--kg-radius); }
+.kg-letter__card, .kg-contact__ask, .kg-contact__find { background: #FFFFFF; border-radius: var(--kg-radius); padding: clamp(1.5rem, 4vw, 2.5rem); }
+.kg-letter__card { border-top: 8px solid var(--kg-shin); }
+.kg-contact .kg-board > * { background: var(--kg-mist); }
+.kg-contact .kg-board > .kg-board__lead { background: var(--kg-shin) !important; }
+@media (max-width: 781px) { .kg-letter__grid, .kg-contact__grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Shop details (synced) */
+.kg-details { margin: 0; }
+.kg-details p { margin: 0 0 0.4rem; }
+.kg-details__hours { font-weight: 700; }
+.kg-details__note { font-size: 0.875rem; margin-top: 0.75rem !important; }
+
+/* Single note and plain pages */
+.kg-article__head > * { margin-block: 0 0.75rem; }
+.kg-article__head { margin-bottom: 2rem; }
+.kg-article .kg-pagehead__title { color: var(--kg-ink); font-size: clamp(2.25rem, 1.2rem + 3vw, 3.75rem); }
+.kg-article__date { color: var(--kg-quiet); font-size: 0.875rem; }
+.kg-photo { margin-block: 0 2.5rem; }
+.kg-photo img { display: block; max-height: 560px; object-fit: cover; border-radius: var(--kg-radius); }
+.kg-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.kg-tags a { display: inline-block; background: #FFFFFF; color: var(--kg-deep); padding: 0.2rem 0.8rem; border-radius: 999px; text-decoration: none; font-size: 0.875rem; font-weight: 600; margin: 0 0.25rem 0.25rem 0; }
+.kg-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.kg-page .kg-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Store pages */
+.kg-shophead .kg-eyebrow { color: var(--kg-deep); }
+.kg-shopbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2rem !important; }
+.kg-shopbar > * { margin: 0 !important; }
+.kg-shopgrid { padding-top: calc(var(--kg-sec) + 1.5rem); }
+.kg-shopgrid > .kg-grid, .kg-shopgrid > .wp-block-woocommerce-product-collection { background: #FFFFFF; border-radius: var(--kg-radius); padding: clamp(1.25rem, 3vw, 2.25rem); }
+.kg-product__main { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(2rem, 5vw, 4rem); align-items: start; margin-top: 1.5rem !important; background: #FFFFFF; border-radius: var(--kg-radius); padding: clamp(1.25rem, 3vw, 2.5rem); }
+.kg-product__main > * { margin: 0 !important; }
+.kg-product .kg-crumbs { color: var(--kg-quiet); }
+.kg-product__title { font-size: clamp(2rem, 1.3rem + 2.2vw, 3rem); margin: 0 0 0.75rem; }
+.kg-product__price { font-size: 1.5rem; color: var(--kg-deep); font-weight: 700; margin-bottom: 1rem; }
+.kg-product-note { background: var(--kg-mist); border-left: 6px solid var(--kg-shin); border-radius: 0 14px 14px 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0 !important; }
+.kg-product-note p { margin: 0 0 0.4rem; }
+.kg-product__meta { font-size: 0.875rem; color: var(--kg-quiet); gap: 1rem; }
+.kg-product__details { margin-top: var(--kg-sec) !important; background: #FFFFFF; border-radius: var(--kg-radius); padding: clamp(1.25rem, 3vw, 2.5rem); }
+.kg-related { background: var(--kg-pale); }
+.kg-store-page__head { margin-bottom: 2rem !important; }
+.kg-store-page .kg-pagehead__title { color: var(--kg-ink); }
+@media (max-width: 781px) { .kg-product__main { grid-template-columns: minmax(0, 1fr); } }
+
+/* Footer: a turquoise strip with the shop line, then the ink field */
+.kg-foot { background: var(--kg-ink); color: #FFFFFF; padding: 0 0 2rem !important; margin: 0 !important; }
+.kg-foot a { color: #FFFFFF; }
+.kg-foot__strip { background: var(--kg-shin); color: var(--kg-ink); padding-block: 1.75rem !important; margin: 0 !important; }
+.kg-foot__strip > * { max-width: var(--kg-wide) !important; }
+.kg-foot__sub { margin: 0; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem); line-height: 1.45; }
+.kg-foot__grid, .kg-foot__base { box-sizing: border-box; padding-inline: var(--kg-pad) !important; }
+.kg-foot__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) minmax(0, 3fr); gap: clamp(1.5rem, 4vw, 3rem); padding-block: clamp(3rem, 6vw, 4.5rem) 2rem; }
+.kg-foot__grid > * { margin: 0 !important; }
+.kg-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.5rem); margin: 0 0 0.75rem; line-height: 1.1; }
+.kg-foot__mark a { text-decoration: none; }
+.kg-foot__tag { color: var(--kg-pale); font-size: 0.9375rem; max-width: 26rem; }
+nav.kg-foot__nav .wp-block-navigation__container { gap: 0.5rem; }
+nav.kg-foot__nav a { text-decoration: none; }
+nav.kg-foot__nav a:hover { text-decoration: underline; }
+.kg-foot__base { border-top: 1px solid rgba(255,255,255,.2); padding-top: 1.25rem; }
+.kg-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--kg-pale); }
+.kg-foot .kg-details__note { color: var(--kg-pale); }
+@media (max-width: 860px) { .kg-foot__grid { grid-template-columns: minmax(0, 1fr); } }
+
+@media (prefers-reduced-motion: reduce) {
+	* { scroll-behavior: auto !important; transition: none !important; }
+}
+
+/* Karan Geta tail: full-bleed band image escapes the constrained section */
+.kg-main .kg-section.kg-break.is-layout-constrained > .kg-break__bg, .kg-section.kg-break > .kg-break__bg { max-width: none !important; width: auto !important; margin: 0 !important; }
+.kg-hero__geta { bottom: calc(-1 * clamp(7rem, 11vw, 10rem)); }
+.kg-hero + * { padding-top: clamp(6rem, 9vw, 8rem); }
+.kg-hero__geta { bottom: calc(-1 * clamp(9rem, 14vw, 13rem)); }
+.kg-hero .kg-tate { white-space: normal; max-height: none; inline-size: 7em; font-size: clamp(1.5rem, 1.1rem + 1.2vw, 2.25rem); }
+.kg-hero__row { align-items: flex-start; }
+@media (max-width: 899px) { .kg-hero__geta { bottom: -6rem; } .kg-hero { padding-bottom: 8rem; } }
+.kg-hero__geta { bottom: calc(-1 * clamp(5rem, 8vw, 7.5rem)); }
+@media (max-width: 899px) { .kg-hero__geta { bottom: -5rem; } }
+@media (max-width: 560px) { .kg-bar__end > .wp-block-buttons, .kg-bar__end .kg-head__cta { display: none !important; } }
