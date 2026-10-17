@@ -5,7 +5,7 @@
  * Categories: karan-geta
  * Keywords: geta, sandals, workshop
  * Viewport Width: 1440
- * Description: Five workshop steps (dry the wood, carve, plane, choose the straps, fit to your foot) hung on a turquoise spine that runs down the page like a hanging scroll; the workshop print sits beside the spine.
+ * Description: Five scenes of a kimono day (choose, be dressed, hair, walk the lanes, return by six) hung on a crimson spine that runs down the page like a hanging scroll; the dressing print sits beside the spine.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "kg-section kg-scroll", "layout": {"type": "constrained"}} -->
@@ -28,7 +28,7 @@
 <!-- wp:group {"align": "wide", "className": "kg-scroll__body", "layout": {"type": "default"}} -->
 <div class="wp-block-group alignwide kg-scroll__body"><!-- wp:group {"className": "kg-scroll__art", "layout": {"type": "default"}} -->
 <div class="wp-block-group kg-scroll__art"><!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "kg-scroll__img"} -->
-<figure class="wp-block-image size-full kg-scroll__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/dressing.webp' ) ); ?>" alt="<?php echo esc_attr( karan_geta_t( 'alt_layers' ) ); ?>"/></figure>
+<figure class="wp-block-image size-full kg-scroll__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/workshop.webp' ) ); ?>" alt="<?php echo esc_attr( karan_geta_t( 'alt_layers' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
