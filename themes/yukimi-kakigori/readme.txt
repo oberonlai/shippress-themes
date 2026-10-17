@@ -32,7 +32,7 @@ The parlour, its people, the bowls, address, telephone number and prices are fic
 == Copyright ==
 
 Yukimi Kakigori is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Darumadrop One (OFL-1.1), Regular, subset to Latin and to the characters of the Japanese sample text; Noto Sans TC (OFL-1.1), Bold, subset to the characters of the Traditional Chinese sample text (zh-TW pages use it, never the Japanese subset); and Rubik (OFL-1.1), Latin variable, as WOFF2; see assets/fonts/OFL-DarumadropOne.txt, OFL-NotoSansTC.txt and OFL-Rubik.txt.
+Fonts: Darumadrop One (OFL-1.1), Regular, subset to Latin and to the kana of the Japanese sample text; Zen Maru Gothic (OFL-1.1), Bold, subset to the kanji of the Japanese sample text (Japanese headings only); Noto Sans TC (OFL-1.1), Bold, subset to the characters of the Traditional Chinese sample text (zh-TW pages use it, never the Japanese subset); and Rubik (OFL-1.1), Latin variable, as WOFF2; see assets/fonts/OFL-DarumadropOne.txt, OFL-ZenMaruGothic.txt, OFL-NotoSansTC.txt and OFL-Rubik.txt.
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as layered paper-cut illustrations (cut coloured paper with soft shadows, tsutsuji pink #E95295 with white, pale ice blue and small matcha green accents), released under GPL-2.0-or-later / CC0 (no stock images, no real people, no brands). The bowl and flag cut-outs have transparent backgrounds (scripts/grok-image.sh --cutout).
