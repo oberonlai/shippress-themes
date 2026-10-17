@@ -219,6 +219,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 </tr>
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/yuge-sento"><img src="themes/yuge-sento/screenshots/home-desktop.webp" width="260" alt="Yuge Sento"></a><br><a href="themes/yuge-sento">Yuge Sento</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="themes/yukimi-kakigori/screenshots/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="themes/yuzu-chaya/screenshots/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
 </table>
