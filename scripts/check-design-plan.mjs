@@ -32,10 +32,12 @@ for (const [i, r] of d.plan.entries()) {
 const pal = d.plan.map(r => r.palette);
 if (new Set(pal).size !== pal.length) errs.push("palette colour reused inside plan");
 const spread = {};
+const skipSpread = d.rules.even_use_skip || [];
 const isPhoto = r => r.image === "real-photography";
 for (const [k, en, rows, f] of [["archetype"], ["hero"], ["nav"], ["image"], ["category"],
   ["illustration", d.enums.illustration, d.plan.filter(r => !isPhoto(r))],
   ["photo_direction", d.enums.photo_direction, d.plan.filter(isPhoto), "illustration"]].map(([k, en, rows, f]) => [k, en || d.enums[k], rows || d.plan, f || k])) {
+  if (skipSpread.includes(k)) { spread[k] = "skipped"; continue; }
   const c = Object.fromEntries(en.map(v => [v, 0]));
   for (const r of rows) c[r[f]]++;
   const n = Object.values(c);
