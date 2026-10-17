@@ -1,0 +1,443 @@
+/*
+Theme Name: Shirokuro Camera
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/shirokuro-camera
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Shirokuro Camera — a WooCommerce store theme for a small film camera shop on a hillside street, laid out as an asymmetric masonry. A formal centred top header carries the Shop cameras button on the left, the shop name in the middle, account and cart on the right and the main menu centred on its own row below, under a strip of clay sprocket holes; below 1100 px a Menu button opens it as a full-screen mikan overlay. Mikan orange (#F08300) is the main colour: the hero field, the counter board lead tile, the camera shelf band, the darkroom card, every page head and the footer strip are mikan fields with camera-black text, and raster clay textures (film sprocket holes and a halftone of clay dots) run through them. The hero shows the clay shop interior through a black viewfinder window with rounded corners and frame marks; a cream card with the lead overlaps the window and a cut-out clay camera (transparent WebP) breaks out over the window frame and the hero's bottom edge. The counter board, the five checks, the camera shelf, the darkroom collage and the counter notes are all uneven masonry tiles and columns, and a cut-out film roll breaks out of the darkroom card. Every picture is a soft 3D clay illustration. DotGothic16 for display, Lexend Deca for reading. Sample content and products in English, Traditional Chinese, Japanese, French and German; vertical lines only in Chinese and Japanese. Works without WooCommerce. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: shirokuro-camera
+Tags: e-commerce, block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--sc-paper: var(--wp--preset--color--paper);
+	--sc-mist: var(--wp--preset--color--mist);
+	--sc-mikan: var(--wp--preset--color--mikan);
+	--sc-teal: var(--wp--preset--color--teal);
+	--sc-ink: var(--wp--preset--color--ink);
+	--sc-deep: var(--wp--preset--color--deep);
+	--sc-quiet: var(--wp--preset--color--quiet);
+	--sc-pale: var(--wp--preset--color--pale);
+	--sc-sec: clamp(3rem, 6vw, 5.5rem);
+	--sc-pad: clamp(1.25rem, 4vw, 3rem);
+	--sc-radius: 2px;
+	--sc-wide: var(--wp--style--global--wide-size, 1200px);
+	--sc-sprocket: url(assets/images/sprocket.webp);
+	--sc-dots: url(assets/images/dots.webp);
+}
+
+/* Fonts per language: DotGothic16 / Lexend Deca for Latin; Japanese headings use the DotGothic16 JA subset; Chinese headings the bundled Noto Sans TC subset (never a Japanese font) */
+:root:lang(ja) {
+	--wp--preset--font-family--display: "DotGothic16", "DotGothic16 JA", "Hiragino Sans", "Noto Sans JP", sans-serif;
+	--wp--preset--font-family--body: "Lexend Deca", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Sans TC", "DotGothic16", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Lexend Deca", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:lang(ja) body, :lang(zh) body { line-height: 1.9; }
+:is(:lang(ja), :lang(zh)) :is(h1, h2, h3, .sc-board__label, .sc-foot__sub, .sc-step__title) { word-break: auto-phrase; }
+:is(:lang(ja), :lang(zh)) .sc-eyebrow { letter-spacing: 0.1em; text-transform: none; }
+:lang(zh) :is(h1, h2, h3, h4, .sc-brand__title, .sc-foot__mark, .sc-board__label, .sc-foot__sub, .sc-promise__list li) { font-weight: 500; }
+
+html, body { overflow-x: clip; }
+a { color: var(--sc-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+:where(h1, h2, h3, h4) { font-weight: 400; }
+
+/* Labels, titles, block styles */
+.sc-eyebrow { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--sc-deep); margin: 0 0 0.75rem; }
+.sc-eyebrow a { color: inherit; text-decoration: none; }
+.sc-chip { display: inline-block; width: fit-content; background: var(--sc-ink); color: var(--sc-pale) !important; border-radius: 999px; padding: 0.35rem 0.95rem; }
+.sc-sec__title { margin: 0 0 1.25rem; font-size: clamp(1.75rem, 1.2rem + 1.9vw, 2.875rem); line-height: 1.22; text-wrap: balance; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.7; }
+.wp-block-button__link { transition: background-color .2s; }
+.wp-block-button__link:hover { background: var(--sc-deep); }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--sc-deep); padding: 0.25rem 0; border-bottom: 2px solid var(--sc-mikan); border-radius: 0; }
+.wp-block-button.is-style-outline-light .wp-block-button__link { background: var(--sc-paper); color: var(--sc-ink); border: 0; }
+.wp-block-button.is-style-outline-light .wp-block-button__link:hover { background: #FFFFFF; }
+hr.is-style-tone { border: 0; height: 4px; width: 72px !important; margin: 2.5rem 0; opacity: 1; background: var(--sc-mikan); border-radius: 4px; }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.7rem 0; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.sc-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .sc-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); letter-spacing: 0.3em; margin: 0; line-height: 1.2; }
+
+
+/* Header: a formal top header, centred. The Shop cameras button on the left, the shop name in the middle, account and cart on the right (WooCommerce); the main menu stands centred on its own row below, between two hairlines. A strip of clay sprocket holes runs along the top edge. Below 1100 px the shop name moves left and a Menu button opens the menu as a full-screen mikan overlay */
+.sc-head-part { position: sticky; top: 0; z-index: 50; }
+.sc-head { background: #FFFFFF; padding-block: 0 !important; position: relative; }
+.sc-head::before { content: ""; display: block; height: 12px; margin-inline: calc(-1 * var(--wp--style--root--padding-left, 1.25rem)) calc(-1 * var(--wp--style--root--padding-right, 1.25rem)); background: var(--sc-mikan) var(--sc-sprocket) center / 240px auto; background-blend-mode: multiply; border-bottom: 2px solid var(--sc-ink); }
+.sc-head > * { max-width: none !important; }
+.sc-bar { display: grid; grid-template-columns: 3rem minmax(0, 1fr) auto minmax(0, 1fr) 3rem; grid-template-rows: auto auto; align-items: center; column-gap: 1rem; }
+.sc-bar > * { margin: 0 !important; }
+.sc-bar__start { grid-area: 1 / 1 / 2 / 3; justify-self: start; }
+.sc-bar__start > * { margin: 0 !important; }
+.sc-brand { grid-area: 1 / 3 / 2 / 4; display: flex; flex-direction: column; align-items: center; gap: 0.35rem; padding-block: 1.1rem 0.9rem; min-width: 0; }
+.sc-brand::before { content: ""; width: 2.6rem; height: 1.5rem; border-radius: 6px; background: var(--sc-ink); box-shadow: inset 0 0 0 4px var(--sc-ink), inset 0 0 0 7px var(--sc-mikan); flex: none; }
+.sc-brand .wp-block-site-logo { margin: 0; }
+.sc-brand__title { margin: 0; font-family: var(--wp--preset--font-family--display); font-size: clamp(1.5rem, 1.1rem + 1.1vw, 2.125rem); font-weight: 400; letter-spacing: 0.06em; white-space: nowrap; line-height: 1.1; }
+.sc-brand__title a { color: var(--sc-ink); text-decoration: none; }
+.sc-bar > .wp-block-woocommerce-customer-account { grid-area: 1 / 4 / 2 / 5; justify-self: end; }
+.sc-bar > .wc-block-mini-cart, .sc-bar > .wp-block-woocommerce-mini-cart { grid-area: 1 / 5 / 2 / 6; justify-self: end; }
+.sc-bar :is(.wc-block-mini-cart__button, .wp-block-woocommerce-customer-account a) { color: var(--sc-ink); }
+.sc-bar .wc-block-mini-cart__badge { background: var(--sc-mikan); color: var(--sc-ink); }
+.sc-head__cta { margin: 0 !important; }
+.sc-head__cta .wp-block-button__link { padding: 0.6rem 1.3rem; font-size: 0.875rem; white-space: nowrap; background: var(--sc-mikan); color: var(--sc-ink); box-shadow: inset 0 0 0 2px var(--sc-ink); }
+.sc-head__cta .wp-block-button__link:hover { background: var(--sc-ink); color: var(--sc-pale); }
+nav.sc-nav { grid-area: 2 / 1 / 3 / -1; justify-self: stretch; }
+nav.sc-nav a { text-decoration: none; }
+nav.sc-nav .wp-block-navigation__responsive-container-open { align-items: center; gap: 0.4rem; padding: 0.45rem 0.8rem; border: 2px solid var(--sc-ink); border-radius: 999px; color: var(--sc-ink); background: var(--sc-mikan); font-family: var(--wp--preset--font-family--body); font-weight: 600; font-size: 0.875rem; }
+nav.sc-nav .wp-block-navigation__responsive-container-open::after { content: "Menu"; }
+:lang(ja) nav.sc-nav .wp-block-navigation__responsive-container-open::after { content: "\30E1\30CB\30E5\30FC"; }
+:lang(zh) nav.sc-nav .wp-block-navigation__responsive-container-open::after { content: "\9078\55AE"; }
+nav.sc-nav .wp-block-navigation__responsive-container-open svg { width: 20px; height: 20px; }
+.sc-head .wp-block-navigation.sc-nav:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--sc-mikan); color: var(--sc-ink); }
+nav.sc-nav .wp-block-navigation__responsive-container.is-menu-open { padding: clamp(1.5rem, 5vw, 4rem); }
+nav.sc-nav .is-menu-open .wp-block-navigation__responsive-container-content { align-items: flex-start; padding-top: 4rem; }
+nav.sc-nav .is-menu-open .wp-block-navigation-item__content { color: var(--sc-ink) !important; font-family: var(--wp--preset--font-family--display); font-size: clamp(2rem, 1.2rem + 3.6vw, 3.5rem); line-height: 1.2; border-bottom: 3px solid transparent; }
+nav.sc-nav .is-menu-open .wp-block-navigation-item__content:hover { border-bottom-color: var(--sc-ink); }
+nav.sc-nav .is-menu-open .wp-block-navigation__container { gap: 0.6rem; align-items: flex-start; }
+nav.sc-nav .wp-block-navigation__responsive-container-close { color: var(--sc-ink); }
+:is(:lang(ja), :lang(zh)) nav.sc-nav .is-menu-open .wp-block-navigation__container { writing-mode: vertical-rl; flex-direction: column; flex-wrap: wrap; gap: 1.5rem 2.5rem; max-height: 70vh; }
+@media (min-width: 1100px) {
+	nav.sc-nav .wp-block-navigation__responsive-container-open { display: none; }
+	nav.sc-nav { border-top: 1px solid color-mix(in srgb, var(--sc-ink) 18%, transparent); }
+	nav.sc-nav .wp-block-navigation__container { justify-content: center; gap: 0 clamp(1.5rem, 3vw, 3rem); flex-wrap: nowrap; counter-reset: navno; }
+	nav.sc-nav .wp-block-navigation__container > li { counter-increment: navno; padding: 0.85rem 0; display: flex; align-items: baseline; gap: 0.5rem; }
+	nav.sc-nav .wp-block-navigation__container > li::before { content: counter(navno, decimal-leading-zero); font-family: var(--wp--preset--font-family--display); font-size: 0.75rem; color: var(--sc-deep); }
+	nav.sc-nav .wp-block-navigation__container > li > a { font-size: 1rem; font-weight: 500; color: var(--sc-ink); border-bottom: 3px solid transparent; padding-bottom: 0.15rem; white-space: nowrap; }
+	nav.sc-nav .wp-block-navigation__container > li > a:hover, nav.sc-nav .current-menu-item > a { border-bottom-color: var(--sc-mikan); }
+}
+@media (max-width: 1099px) {
+	.sc-bar { grid-template-columns: minmax(0, 1fr) auto auto auto auto; grid-template-rows: auto; min-height: 70px; column-gap: clamp(0.5rem, 1.5vw, 1rem); }
+	.sc-brand { grid-area: 1 / 1 / 2 / 2; flex-direction: row; justify-self: start; padding-block: 0.75rem; gap: 0.65rem; }
+	.sc-brand::before { width: 2rem; height: 1.2rem; }
+	.sc-bar__start { grid-area: 1 / 2 / 2 / 3; }
+	.sc-bar > .wp-block-woocommerce-customer-account { grid-area: 1 / 3 / 2 / 4; }
+	.sc-bar > .wc-block-mini-cart, .sc-bar > .wp-block-woocommerce-mini-cart { grid-area: 1 / 4 / 2 / 5; }
+	nav.sc-nav { grid-area: 1 / 5 / 2 / 6; }
+	nav.sc-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
+	nav.sc-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
+}
+@media (max-width: 781px) { .sc-bar > .wp-block-woocommerce-customer-account { display: none !important; } }
+@media (max-width: 599px) {
+	.sc-bar__start { display: none !important; }
+	.sc-brand__title { white-space: normal; font-size: 1.25rem; min-width: 0; }
+	.sc-brand::before { display: none; }
+}
+.sc-head--checkout { grid-template-columns: minmax(0, 1fr) auto; }
+.sc-head--checkout .sc-bar > .sc-eyebrow { margin: 0 !important; color: var(--sc-quiet); }
+
+/* The page: warm paper ground; mikan fields carry the hero, the board lead, the shelf band, the page heads and the footer strip */
+body { background: var(--sc-paper); }
+.sc-main { margin-block: 0 !important; padding: 0 !important; min-width: 0; }
+.sc-main > * { margin-block: 0; }
+.sc-main > .wp-block-post-content > * { margin-block: 0; }
+
+/* Sections and panels */
+.sc-section { padding-block: calc(var(--sc-sec) * 0.5); margin: 0 !important; position: relative; }
+.sc-main :is(.sc-section, .sc-pagehead).is-layout-constrained > :not(.alignfull) { max-width: var(--sc-wide) !important; }
+.sc-main :is(.sc-section, .sc-pagehead) > p:not(.sc-tate):not(.sc-eyebrow):not(.sc-pagehead__lead) { padding-right: max(0px, calc(100% - 40rem)); }
+.sc-section > * { margin-block-start: 0; }
+.sc-card { background: #FFFFFF; border-radius: var(--sc-radius); padding: clamp(1.5rem, 3.5vw, 2.75rem); border: 2px solid var(--sc-ink); }
+.sc-card > * { margin-block: 0; }
+.sc-panel__head { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 2rem; margin-bottom: 1.75rem !important; }
+.sc-panel__head > .sc-eyebrow { flex-basis: 100%; }
+.sc-panel__head > .sc-sec__title { margin: 0; }
+.sc-panel__hint { margin: 0 0 0 auto !important; color: var(--sc-quiet); font-size: 0.9375rem; }
+.sc-more { margin-top: 2rem !important; }
+
+/* Hero: framed window. A full mikan field with the clay dot texture fading in at the edges. The shop line stands on top (a vertical line beside it in Chinese and Japanese); below it the clay shop interior is seen through a black viewfinder window with rounded corners and frame marks; a cream card with the lead and buttons overlaps the window's lower left, and the cut-out clay camera (transparent WebP) breaks out over the window's top right frame and drops over the hero's bottom edge */
+.sc-hero { position: relative; margin: 0 !important; background: var(--sc-mikan); color: var(--sc-ink); padding: clamp(2.5rem, 5vw, 4.5rem) max(var(--sc-pad), calc((100% - var(--sc-wide)) / 2)) 0; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(1rem, 2vw, 1.5rem); align-items: start; overflow: visible; isolation: isolate; z-index: 2; box-sizing: border-box; }
+.sc-hero > * { margin: 0 !important; }
+.sc-hero::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--sc-dots) center / 300px auto; opacity: 0.32; mix-blend-mode: multiply; -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, transparent 55%, #000 100%); mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, transparent 55%, #000 100%); }
+.sc-hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: clamp(5rem, 9vw, 8rem); z-index: -1; background: var(--sc-paper); }
+.sc-hero__head { grid-column: 1 / 11; grid-row: 1; display: flex; flex-direction: column; gap: 1.1rem; min-width: 0; padding-bottom: clamp(2rem, 4vw, 3rem); }
+.sc-hero__head > * { margin: 0 !important; }
+.sc-hero__title { color: var(--sc-ink); font-size: clamp(2.5rem, 1.2rem + 4.4vw, 5.5rem); line-height: 1.04; font-weight: 400; text-wrap: balance; letter-spacing: -0.01em; }
+:is(:lang(ja), :lang(zh)) .sc-hero__title { line-height: 1.25; font-size: clamp(2.125rem, 1.2rem + 3vw, 4rem); letter-spacing: 0.02em; }
+.sc-hero__row { display: flex; gap: clamp(1.25rem, 3vw, 2.25rem); align-items: flex-start; }
+.sc-hero__row > * { margin: 0 !important; }
+.sc-hero .sc-tate { font-size: clamp(1.125rem, 0.9rem + 0.6vw, 1.5rem); color: var(--sc-ink); flex: none; padding-right: 1rem; border-right: 3px solid var(--sc-ink); inline-size: 7.6em; }
+.sc-hero__window { grid-column: 3 / 13; grid-row: 2; position: relative; z-index: 1; }
+.sc-hero__art { margin: 0 !important; position: relative; border: clamp(10px, 1.2vw, 16px) solid var(--sc-ink); border-radius: clamp(1.25rem, 3vw, 2.5rem); overflow: hidden; background: var(--sc-ink); box-shadow: 0 0 0 4px var(--sc-paper), 0 24px 40px -18px rgba(30, 26, 22, .55); }
+.sc-hero__art img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: clamp(0.6rem, 2vw, 1.6rem); }
+.sc-hero__art::after { content: ""; position: absolute; inset: clamp(0.9rem, 2vw, 1.6rem); pointer-events: none; --c: rgba(255, 247, 236, .95); --l: clamp(1.5rem, 3vw, 2.75rem); --w: 3px;
+	background: linear-gradient(var(--c), var(--c)) top left / var(--l) var(--w), linear-gradient(var(--c), var(--c)) top left / var(--w) var(--l), linear-gradient(var(--c), var(--c)) top right / var(--l) var(--w), linear-gradient(var(--c), var(--c)) top right / var(--w) var(--l), linear-gradient(var(--c), var(--c)) bottom left / var(--l) var(--w), linear-gradient(var(--c), var(--c)) bottom left / var(--w) var(--l), linear-gradient(var(--c), var(--c)) bottom right / var(--l) var(--w), linear-gradient(var(--c), var(--c)) bottom right / var(--w) var(--l); background-repeat: no-repeat; }
+.sc-hero__cut { position: absolute !important; z-index: 3; right: -3%; top: calc(-1 * clamp(5rem, 11vw, 10rem)); width: clamp(190px, 30%, 380px); margin: 0 !important; transform: rotate(9deg); filter: drop-shadow(0 22px 22px rgba(30, 26, 22, .45)); }
+.sc-hero__cut img { display: block; width: 100%; }
+.sc-hero__card { grid-column: 1 / 6; grid-row: 2; align-self: end; position: relative; z-index: 2; margin-bottom: clamp(-3rem, -4vw, -2rem) !important; background: var(--sc-paper); border: 2px solid var(--sc-ink); border-radius: var(--sc-radius); padding: clamp(1.25rem, 2.5vw, 2rem); display: flex; flex-direction: column; gap: 1.25rem; box-shadow: 10px 10px 0 0 var(--sc-ink); }
+.sc-hero__card > * { margin: 0 !important; }
+.sc-hero__lead { font-size: 1.0625rem; line-height: 1.7; }
+.sc-hero__cta { gap: 1.25rem; align-items: center; }
+.sc-hero .wp-block-button:not(.is-style-text-link) .wp-block-button__link { background: var(--sc-ink); color: #FFFFFF; }
+.sc-hero .wp-block-button:not(.is-style-text-link) .wp-block-button__link:hover { background: var(--sc-deep); }
+.sc-hero .wp-block-button.is-style-text-link .wp-block-button__link { color: var(--sc-deep); border-bottom-color: var(--sc-mikan); }
+.sc-hero + * { padding-top: clamp(5rem, 8vw, 7rem) !important; }
+@media (max-width: 899px) {
+	.sc-hero { grid-template-columns: minmax(0, 1fr); padding-bottom: 0; }
+	.sc-hero__head, .sc-hero__window, .sc-hero__card { grid-column: 1; }
+	.sc-hero__window { grid-row: 2; margin-right: 0 !important; }
+	.sc-hero__art img { aspect-ratio: 4 / 3; }
+	.sc-hero__cut { width: 44%; top: -3.5rem; right: -2%; }
+	.sc-hero__card { grid-row: 3; margin: -2.5rem 0.75rem 0 !important; }
+	.sc-hero::after { height: 40%; }
+}
+
+/* Counter board (synced): an asymmetric masonry of tiles. The lead tile is mikan with the dot texture and spans two rows; the other tiles are white with black frames in uneven sizes. On the Visit page it is one column */
+.sc-boardband { padding-bottom: calc(var(--sc-sec) * 0.5) !important; }
+.sc-home-journal { padding-bottom: var(--sc-sec) !important; }
+.sc-main > .wp-block-post-content > .sc-section:last-child, .sc-shopgrid, .sc-about, .sc-letter, .sc-contact, .sc-list { padding-bottom: var(--sc-sec) !important; }
+.sc-board { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 0.8fr) minmax(0, 1.1fr); grid-template-rows: auto auto; gap: clamp(0.75rem, 1.5vw, 1.25rem); margin: 0; }
+.sc-board > * { margin: 0 !important; padding: 1.35rem 1.4rem; background: #FFFFFF; border: 2px solid var(--sc-ink); border-radius: var(--sc-radius); box-sizing: border-box; }
+.sc-board p { margin: 0; }
+.sc-board > :nth-child(1) { grid-area: 1 / 1 / 3 / 2; }
+.sc-board > :nth-child(2) { grid-area: 1 / 2 / 2 / 3; }
+.sc-board > :nth-child(3) { grid-area: 1 / 3 / 2 / 5; background: var(--sc-mist); }
+.sc-board > :nth-child(4) { grid-area: 2 / 2 / 3 / 4; }
+.sc-board > :nth-child(5) { grid-area: 2 / 4 / 3 / 5; margin-top: clamp(0rem, 3vw, 2.5rem) !important; }
+.sc-board__lead { background: var(--sc-mikan) var(--sc-dots) center / 220px auto !important; background-blend-mode: multiply; color: var(--sc-ink); display: flex; flex-direction: column; justify-content: space-between; gap: 2rem; min-height: 15rem; position: relative; }
+.sc-board__lead::before { content: ""; position: absolute; inset: 0; background: color-mix(in srgb, var(--sc-mikan) 72%, transparent); z-index: 0; }
+.sc-board__lead > * { position: relative; z-index: 1; }
+.sc-board__label { font-family: var(--wp--preset--font-family--display); font-size: clamp(1.5rem, 1.2rem + 1vw, 2.125rem); line-height: 1.2; }
+.sc-board__open { white-space: nowrap; font-size: 0.8125rem; font-weight: 600; background: var(--sc-ink); color: var(--sc-pale); border-radius: 999px; padding: 0.35rem 0.9rem; width: fit-content; }
+.sc-board__k { font-family: var(--wp--preset--font-family--display); font-size: 0.8125rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--sc-deep); margin: 0 0 0.6rem !important; }
+.sc-board__k::before { content: ""; display: inline-block; width: 8px; height: 8px; background: var(--sc-teal); margin-right: 0.5rem; vertical-align: 0.1em; }
+.sc-board__v { font-size: 1.0625rem; line-height: 1.5; color: var(--sc-ink); }
+:is(:lang(ja), :lang(zh)) .sc-board__k { text-transform: none; letter-spacing: 0.06em; }
+@media (max-width: 899px) {
+	.sc-board { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-rows: none; }
+	.sc-board > :nth-child(n) { grid-area: auto; margin-top: 0 !important; }
+	.sc-board > :nth-child(1) { grid-column: 1 / -1; min-height: 0; }
+	.sc-board > :nth-child(4) { grid-column: 1 / -1; }
+}
+@media (max-width: 480px) { .sc-board { grid-template-columns: minmax(0, 1fr); } .sc-board > :nth-child(n) { grid-column: 1; } }
+.sc-contact .sc-board { margin-top: 2rem; grid-template-columns: minmax(0, 1fr); grid-template-rows: none; gap: 0.75rem; }
+.sc-contact .sc-board > :nth-child(n) { grid-area: auto; margin-top: 0 !important; min-height: 0; }
+.sc-contact .sc-board > * { background: var(--sc-mist); }
+.sc-contact .sc-board > .sc-board__lead { background: var(--sc-mikan) !important; }
+
+/* Product grids: masonry columns. Each card keeps its place in the column; the pictures alternate tall, square and wide so the columns stagger */
+.sc-grid .wc-block-product-template, .sc-grid--static { display: block !important; columns: 4 13rem; column-gap: clamp(1rem, 2.5vw, 1.75rem); padding: 0 !important; margin: 0 !important; }
+.sc-grid .wc-block-product-template > li, .sc-grid--static > * { display: block !important; break-inside: avoid; width: auto !important; max-width: none !important; margin: 0 0 clamp(1rem, 2.5vw, 1.75rem) !important; background: #FFFFFF; border: 2px solid var(--sc-ink); border-radius: var(--sc-radius); padding: 10px 10px 1.1rem !important; box-sizing: border-box; }
+.sc-grid--static img { display: block; width: 100%; object-fit: cover; }
+.sc-card__photo { margin: 0 0 0.9rem !important; background: var(--sc-mist); border-radius: 2px; overflow: hidden; }
+.sc-card__photo img { display: block; width: 100%; object-fit: cover; }
+.sc-grid :is(.wc-block-product-template > li, .sc-grid--static > *):nth-child(4n+1) img { aspect-ratio: 2 / 3 !important; }
+.sc-grid :is(.wc-block-product-template > li, .sc-grid--static > *):nth-child(4n+2) img { aspect-ratio: 1 !important; }
+.sc-grid :is(.wc-block-product-template > li, .sc-grid--static > *):nth-child(4n+3) img { aspect-ratio: 4 / 5 !important; }
+.sc-grid :is(.wc-block-product-template > li, .sc-grid--static > *):nth-child(4n+4) img { aspect-ratio: 4 / 3 !important; }
+.sc-grid--static:is(.sc-grid) > *:nth-child(4n+1) img { aspect-ratio: 4 / 5; }
+.sc-grid .wc-block-product-template > li:nth-child(3n+2) { background: var(--sc-mist); }
+.sc-card__name { font-family: var(--wp--preset--font-family--display); font-size: 1.125rem !important; line-height: 1.35; margin: 0 0.25rem 0.3rem !important; text-align: left !important; }
+.sc-card__name a { color: var(--sc-ink); text-decoration: none; }
+.sc-card__name a:hover { color: var(--sc-deep); text-decoration: underline; }
+.sc-card__price { color: var(--sc-deep); font-weight: 600; text-align: left !important; margin-inline: 0.25rem !important; }
+@media (max-width: 599px) { .sc-grid .wc-block-product-template, .sc-grid--static { columns: 2; column-gap: 0.75rem; } .sc-grid .wc-block-product-template > li, .sc-grid--static > * { margin-bottom: 0.75rem !important; } }
+
+/* The shelf: a mikan band with the clay sprocket texture along its top and bottom; the cameras stand in masonry columns on white and pale cards */
+.sc-shelf:not(.sc-related) { background: var(--sc-mikan); color: var(--sc-ink); padding-block: calc(var(--sc-sec) + 1rem) !important; isolation: isolate; }
+.sc-shelf:not(.sc-related)::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--sc-sprocket) center top / 360px auto repeat-x, var(--sc-sprocket) center bottom / 360px auto repeat-x; opacity: 0.55; mix-blend-mode: multiply; -webkit-mask-image: linear-gradient(180deg, #000 0, transparent 5.5rem, transparent calc(100% - 5.5rem), #000 100%); mask-image: linear-gradient(180deg, #000 0, transparent 5.5rem, transparent calc(100% - 5.5rem), #000 100%); }
+.sc-shelf .sc-sec__title, .sc-shelf .sc-eyebrow { color: var(--sc-ink); }
+.sc-shelf .sc-panel__hint { color: var(--sc-ink); }
+.sc-shelf__inner > * { margin-block: 0; }
+.sc-shelf .sc-more .wp-block-button__link { color: var(--sc-ink); border-bottom-color: var(--sc-ink); }
+
+/* Five checks: masonry columns. The tall clay repair picture opens the first column; the five checks follow as tiles of different heights (white, pale and one mikan), each with a pixel number. In Chinese and Japanese the section line is set vertically at the head */
+.sc-steps { padding-block: var(--sc-sec) !important; }
+.sc-steps__head { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 2rem; align-items: start; margin-bottom: clamp(2rem, 4vw, 3rem) !important; }
+.sc-steps__head > * { margin: 0 !important; grid-column: 1; }
+.sc-steps__head > .sc-tate { grid-column: 2; grid-row: 1 / span 2; font-size: 1.75rem; color: var(--sc-deep); }
+.sc-steps__strip { display: block; columns: 3 16rem; column-gap: clamp(1rem, 2.5vw, 1.75rem); }
+.sc-steps__strip > *, .sc-steps__row { margin: 0 !important; }
+.sc-steps__row { display: contents; }
+.sc-steps__art { break-inside: avoid; margin: 0 0 clamp(1rem, 2.5vw, 1.75rem) !important; background: var(--sc-ink); padding: 10px; border-radius: var(--sc-radius); }
+.sc-steps__img { margin: 0 !important; }
+.sc-steps__img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 2px; }
+.sc-step { break-inside: avoid; position: relative; display: block; margin: 0 0 clamp(1rem, 2.5vw, 1.75rem) !important; background: #FFFFFF; border: 2px solid var(--sc-ink); border-radius: var(--sc-radius); padding: 1.5rem 1.5rem 1.6rem; }
+.sc-step > * { margin: 0 !important; }
+.sc-step--2 { background: var(--sc-mikan); padding-block: 2.25rem; }
+.sc-step--4 { background: var(--sc-mist); }
+.sc-step--5 { padding-bottom: 2.5rem; }
+.sc-step__no { font-family: var(--wp--preset--font-family--display); font-size: clamp(2.5rem, 2rem + 1.5vw, 3.5rem); line-height: 1; color: var(--sc-deep); margin-bottom: 0.9rem !important; }
+.sc-step--2 .sc-step__no { color: var(--sc-ink); }
+.sc-step__title { font-size: clamp(1.25rem, 1.05rem + 0.5vw, 1.5rem); margin-bottom: 0.5rem !important; color: var(--sc-ink); }
+.sc-step__text { color: var(--sc-quiet); font-size: 0.9688rem; line-height: 1.65; }
+.sc-step--2 .sc-step__text { color: var(--sc-ink); }
+
+/* The darkroom collage: an asymmetric masonry of three tiles. The clay darkroom picture is the large tile on the left; a mikan card with the lab text sits higher on the right, and the cut-out film roll breaks out of its top edge; a black tile below lists what the shop sells */
+.sc-break { padding-block: clamp(5rem, 9vw, 8rem) var(--sc-sec) !important; }
+.sc-break__grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-rows: auto auto; gap: clamp(1rem, 2.5vw, 1.75rem); align-items: start; }
+.sc-break__grid > * { margin: 0 !important; }
+.sc-break__photo { grid-column: 1 / 8; grid-row: 1 / 3; margin-top: clamp(2rem, 5vw, 4rem) !important; border: 2px solid var(--sc-ink); border-radius: var(--sc-radius); overflow: hidden; }
+.sc-break__photo img { display: block; width: 100%; aspect-ratio: 5 / 4; object-fit: cover; }
+.sc-break__text { grid-column: 8 / 13; grid-row: 1; position: relative; background: var(--sc-mikan); color: var(--sc-ink); padding: clamp(1.75rem, 3.5vw, 2.5rem); padding-top: clamp(6rem, 9vw, 8rem); border: 2px solid var(--sc-ink); border-radius: var(--sc-radius); }
+.sc-break__text > * { margin-block: 0 1.1rem; }
+.sc-break .sc-sec__title { color: var(--sc-ink); font-size: clamp(1.75rem, 1.1rem + 2vw, 2.625rem); }
+.sc-break .sc-chip { background: var(--sc-ink); }
+.sc-break__text .sc-more { margin: 0.5rem 0 0 !important; }
+.sc-break__text .wp-block-button__link { background: var(--sc-ink); color: #FFFFFF; }
+.sc-break__float { position: absolute !important; top: calc(-1 * clamp(7rem, 11vw, 10rem)); right: clamp(0.5rem, 2vw, 1.5rem); width: clamp(140px, 13vw, 200px); margin: 0 !important; transform: rotate(-8deg); filter: drop-shadow(0 18px 18px rgba(30, 26, 22, .45)); z-index: 4; }
+.sc-break__float img { display: block; width: 100%; }
+.sc-break__trio { grid-column: 9 / 13; grid-row: 2; background: var(--sc-ink); color: var(--sc-paper); border-radius: var(--sc-radius); padding: 1.5rem 1.6rem; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0.7rem 1.25rem; align-items: baseline; }
+.sc-break__trio > * { margin: 0 !important; }
+.sc-trio__k { font-family: var(--wp--preset--font-family--display); color: var(--sc-mikan); font-size: 1.125rem; }
+.sc-trio__v { color: var(--sc-pale); font-size: 0.9375rem; }
+@media (max-width: 899px) {
+	.sc-break__grid { grid-template-columns: minmax(0, 1fr); }
+	.sc-break__photo, .sc-break__text, .sc-break__trio { grid-column: 1; grid-row: auto; margin-top: 0 !important; }
+	.sc-break__text { margin-top: 4rem !important; }
+	.sc-break__float { width: 120px; top: -5.5rem; }
+}
+
+/* Counter notes: masonry cards with pictures of different heights (home and lists) */
+.sc-notes .wp-block-post-template { display: block; columns: 3 15rem; column-gap: clamp(1.25rem, 3vw, 2rem); padding: 0; margin: 0; }
+.sc-notes .wp-block-post-template > li { break-inside: avoid; margin: 0 0 clamp(1.25rem, 3vw, 2rem); background: #FFFFFF; border: 2px solid var(--sc-ink); border-radius: var(--sc-radius); padding: 10px 10px 1.25rem; }
+.sc-notes .wp-block-post-template > li:nth-child(3n+2) { background: var(--sc-mist); }
+.sc-notes .wp-block-post-template > li:nth-child(3n+1) .sc-note__img img { aspect-ratio: 4 / 5 !important; }
+.sc-notes .wp-block-post-template > li:nth-child(3n+2) .sc-note__img img { aspect-ratio: 1 !important; }
+.sc-notes .wp-block-post-template > li:nth-child(3n+3) .sc-note__img img { aspect-ratio: 3 / 2 !important; }
+.sc-note__text { padding-inline: 0.6rem; }
+.sc-note__img { margin: 0 0 0.9rem; }
+.sc-note__img img { display: block; width: 100%; object-fit: cover; border-radius: 2px; }
+.sc-note__date { font-family: var(--wp--preset--font-family--display); font-size: 0.875rem; color: var(--sc-deep); font-variant-numeric: tabular-nums; letter-spacing: 0.06em; }
+.sc-note__title { font-size: 1.3125rem; margin: 0.25rem 0 0.5rem; }
+.sc-note__title a { color: var(--sc-ink); text-decoration: none; }
+.sc-note__title a:hover { color: var(--sc-deep); text-decoration: underline; }
+.sc-pagination { margin-top: 2.5rem; }
+.sc-home-journal .sc-card { background: none; border: 0; padding: 0; }
+@media (max-width: 599px) { .sc-notes .wp-block-post-template { columns: 1; } }
+
+/* Page heads: a mikan field with the clay sprocket texture fading in from the right; the cut-out clay camera breaks over the bottom edge */
+.sc-pagehead { position: relative; z-index: 3; padding-block: clamp(3rem, 6vw, 5rem) clamp(4rem, 7vw, 5.5rem); margin: 0 !important; background: var(--sc-mikan); color: var(--sc-ink); overflow: visible; isolation: isolate; }
+.sc-pagehead::before { content: ""; position: absolute; inset: 0; z-index: -1; background: var(--sc-sprocket) right center / 360px auto; opacity: 0.4; mix-blend-mode: multiply; -webkit-mask-image: linear-gradient(90deg, transparent 45%, #000 90%); mask-image: linear-gradient(90deg, transparent 45%, #000 90%); }
+.sc-pagehead > .sc-eyebrow { background: var(--sc-ink); color: var(--sc-pale); border-radius: 999px; padding: 0.35rem 0.95rem; width: fit-content; }
+.sc-main .sc-pagehead.is-layout-constrained > .sc-eyebrow { margin-left: max(0px, calc((100% - var(--sc-wide)) / 2)) !important; }
+.sc-pagehead a { color: var(--sc-ink); }
+.sc-pagehead__title { color: var(--sc-ink); font-size: clamp(2.25rem, 1.3rem + 3.2vw, 4.25rem); line-height: 1.12; margin: 0 0 1rem; text-wrap: balance; }
+:is(:lang(ja), :lang(zh)) .sc-pagehead__title { line-height: 1.3; }
+.sc-pagehead__lead { font-size: 1.25rem; font-weight: 600; line-height: 1.55; margin: 0; max-width: 40rem; }
+.sc-main .sc-pagehead.is-layout-constrained > :is(.sc-pagehead__lead, .sc-crumbs, .woocommerce-breadcrumb, .wp-block-term-description) { margin-left: max(0px, calc((100% - var(--sc-wide)) / 2)) !important; margin-right: auto !important; max-width: min(40rem, 100%) !important; }
+.sc-main .sc-pagehead.is-layout-constrained > .sc-pagehead__title { padding-right: clamp(0px, 14vw, 14rem); box-sizing: border-box; }
+.sc-pagehead__cut { position: absolute !important; right: max(1.5rem, calc((100% - var(--sc-wide)) / 2 + 2rem)); bottom: -70px; width: clamp(130px, 14vw, 200px); margin: 0 !important; transform: rotate(8deg); filter: drop-shadow(0 16px 18px rgba(30, 26, 22, .35)); z-index: 3; }
+.sc-pagehead__cut img { display: block; width: 100%; }
+.sc-pagehead .sc-tate { position: absolute; top: clamp(2.5rem, 5vw, 4rem); right: max(1.5rem, calc((100% - var(--sc-wide)) / 2 + 15rem)); color: var(--sc-ink); white-space: nowrap; font-size: 1.25rem !important; }
+.sc-pagehead .sc-search { max-width: 30rem; margin: 1.5rem 0 !important; }
+.sc-pagehead .wp-block-button.is-style-outline .wp-block-button__link { background: var(--sc-paper); color: var(--sc-ink); border: 0; }
+.sc-pagehead .wp-block-search__input { border-radius: 999px 0 0 999px; border: 0; padding: 0.6rem 1.1rem; }
+.sc-pagehead .wp-block-search__button { border-radius: 0 999px 999px 0; background: var(--sc-ink); color: var(--sc-pale); border: 0; }
+.sc-404 + * { margin: 0; }
+:is(:lang(ja), :lang(zh)) .sc-pagehead { min-height: 21rem; box-sizing: border-box; }
+@media (max-width: 781px) { .sc-pagehead .sc-tate { display: none; } .sc-pagehead__cut { bottom: -44px; width: 100px; } }
+.sc-crumbs, .sc-pagehead .woocommerce-breadcrumb { font-size: 0.8125rem; font-weight: 700; margin-bottom: 1.5rem !important; }
+.sc-pagehead :is(.sc-crumbs, .woocommerce-breadcrumb) { background: var(--sc-paper); color: var(--sc-deep); border-radius: 999px; padding: 0.3rem 0.9rem; width: fit-content; }
+.sc-pagehead :is(.sc-crumbs, .woocommerce-breadcrumb) a { color: var(--sc-deep); }
+.sc-pagehead .sc-crumbs .woocommerce-breadcrumb { margin: 0 !important; padding: 0; background: none; font-size: inherit; }
+.sc-pagehead .wp-block-term-description, .sc-pagehead .wp-block-term-description p { font-size: 1.25rem; font-weight: 600; }
+
+/* The shop (about) */
+.sc-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: clamp(2rem, 5vw, 4rem); align-items: center; background: #FFFFFF; border-radius: var(--sc-radius); padding: clamp(1.5rem, 3.5vw, 2.75rem); }
+.sc-about__story > * { margin: 0 !important; }
+.sc-about__img img { display: block; aspect-ratio: 1; object-fit: cover; width: 100%; border-radius: 2px; }
+.sc-promise { margin-top: var(--sc-sec) !important; }
+.sc-promise__list { list-style: none; counter-reset: hypr; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; }
+.sc-promise__list li { counter-increment: hypr; background: #FFFFFF; border-radius: 2px; padding: 1.35rem; font-family: var(--wp--preset--font-family--display); font-size: 1.1875rem; line-height: 1.4; }
+.sc-promise__list li::before { content: counter(hypr, decimal-leading-zero); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; border-radius: 50%; background: var(--sc-mikan); color: var(--sc-ink); font-family: var(--wp--preset--font-family--body); font-size: 0.9375rem; font-weight: 800; margin-bottom: 0.8rem; }
+@media (max-width: 781px) { .sc-about__story { grid-template-columns: minmax(0, 1fr); } }
+
+/* Newsletter and Visit */
+.sc-letter__grid, .sc-contact__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.25rem, 3vw, 2rem); align-items: start; }
+.sc-letter__grid > *, .sc-contact__grid > * { margin: 0 !important; }
+.sc-letter__img img { display: block; aspect-ratio: 4/3; object-fit: cover; width: 100%; border-radius: var(--sc-radius); }
+.sc-letter__card, .sc-contact__ask, .sc-contact__find { background: #FFFFFF; border-radius: var(--sc-radius); padding: clamp(1.5rem, 4vw, 2.5rem); }
+.sc-letter__card { border-top: 8px solid var(--sc-mikan); }
+.sc-contact .sc-board > * { background: var(--sc-mist); }
+.sc-contact .sc-board > .sc-board__lead { background: var(--sc-mikan) !important; }
+@media (max-width: 781px) { .sc-letter__grid, .sc-contact__grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Shop details (synced) */
+.sc-details { margin: 0; }
+.sc-details p { margin: 0 0 0.4rem; }
+.sc-details__hours { font-weight: 700; }
+.sc-details__note { font-size: 0.875rem; margin-top: 0.75rem !important; }
+
+/* Single note and plain pages */
+.sc-article__head > * { margin-block: 0 0.75rem; }
+.sc-article__head { margin-bottom: 2rem; }
+.sc-article .sc-pagehead__title { color: var(--sc-ink); font-size: clamp(2.25rem, 1.2rem + 3vw, 3.75rem); }
+.sc-article__date { color: var(--sc-quiet); font-size: 0.875rem; }
+.sc-photo { margin-block: 0 2.5rem; }
+.sc-photo img { display: block; max-height: 560px; object-fit: cover; border-radius: var(--sc-radius); }
+.sc-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.sc-tags a { display: inline-block; background: #FFFFFF; color: var(--sc-deep); padding: 0.2rem 0.8rem; border-radius: 999px; text-decoration: none; font-size: 0.875rem; font-weight: 600; margin: 0 0.25rem 0.25rem 0; }
+.sc-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.sc-page .sc-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Store pages */
+.sc-pagehead .sc-eyebrow { color: var(--sc-pale); }
+.sc-shopbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 2rem !important; }
+.sc-shopbar > * { margin: 0 !important; }
+.sc-shopgrid { padding-top: calc(var(--sc-sec) + 1.5rem); }
+.sc-shopgrid > .sc-grid, .sc-shopgrid > .wp-block-woocommerce-product-collection { background: #FFFFFF; border-radius: var(--sc-radius); padding: clamp(1.25rem, 3vw, 2.25rem); }
+.sc-product__main { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(2rem, 5vw, 4rem); align-items: start; margin-top: 1.5rem !important; background: #FFFFFF; border-radius: var(--sc-radius); padding: clamp(1.25rem, 3vw, 2.5rem); }
+.sc-product__main > * { margin: 0 !important; }
+.sc-product .sc-crumbs { color: var(--sc-quiet); }
+.sc-product__title { font-size: clamp(2rem, 1.3rem + 2.2vw, 3rem); margin: 0 0 0.75rem; }
+.sc-product__price { font-size: 1.5rem; color: var(--sc-deep); font-weight: 700; margin-bottom: 1rem; }
+.sc-product-note { background: var(--sc-mist); border-left: 6px solid var(--sc-mikan); border-radius: 0 14px 14px 0; padding: 1.25rem 1.5rem; margin: 1.5rem 0 !important; }
+.sc-product-note p { margin: 0 0 0.4rem; }
+.sc-product__meta { font-size: 0.875rem; color: var(--sc-quiet); gap: 1rem; }
+.sc-product__details { margin-top: var(--sc-sec) !important; background: #FFFFFF; border-radius: var(--sc-radius); padding: clamp(1.25rem, 3vw, 2.5rem); }
+.sc-related { background: var(--sc-pale); }
+.sc-store-page__head { margin-bottom: 2rem !important; }
+.sc-store-page .sc-pagehead__title { color: var(--sc-ink); }
+@media (max-width: 781px) { .sc-product__main { grid-template-columns: minmax(0, 1fr); } }
+
+/* Footer: a mikan strip with clay sprocket holes and the shop line, then the black field */
+.sc-foot { background: var(--sc-ink); color: #FFFFFF; padding: 0 0 2rem !important; margin: 0 !important; }
+.sc-foot a { color: #FFFFFF; }
+.sc-foot__strip { background: var(--sc-mikan); color: var(--sc-ink); padding-block: 1.75rem !important; margin: 0 !important; }
+.sc-foot__strip > * { max-width: var(--sc-wide) !important; }
+.sc-foot__sub { margin: 0; font-family: var(--wp--preset--font-family--display); font-weight: 400; font-size: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem); line-height: 1.45; }
+.sc-foot__grid, .sc-foot__base { box-sizing: border-box; padding-inline: var(--sc-pad) !important; }
+.sc-foot__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr) minmax(0, 3fr); gap: clamp(1.5rem, 4vw, 3rem); padding-block: clamp(3rem, 6vw, 4.5rem) 2rem; }
+.sc-foot__grid > * { margin: 0 !important; }
+.sc-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 400; font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.5rem); margin: 0 0 0.75rem; line-height: 1.1; }
+.sc-foot__mark a { text-decoration: none; }
+.sc-foot__tag { color: var(--sc-pale); font-size: 0.9375rem; max-width: 26rem; }
+nav.sc-foot__nav .wp-block-navigation__container { gap: 0.5rem; }
+nav.sc-foot__nav a { text-decoration: none; }
+nav.sc-foot__nav a:hover { text-decoration: underline; }
+.sc-foot__base { border-top: 1px solid rgba(255,255,255,.2); padding-top: 1.25rem; }
+.sc-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--sc-pale); }
+.sc-foot .sc-details__note { color: var(--sc-pale); }
+@media (max-width: 860px) { .sc-foot__grid { grid-template-columns: minmax(0, 1fr); } }
+
+@media (prefers-reduced-motion: reduce) {
+	* { scroll-behavior: auto !important; transition: none !important; }
+}
+
+
+/* Related cameras on product pages */
+.sc-related .sc-rail .wc-block-product-template { display: grid !important; grid-template-columns: repeat(4, minmax(0, 1fr)) !important; gap: clamp(1rem, 2.5vw, 1.75rem) !important; }
+.sc-related .sc-rail .wc-block-product-template > li { width: auto !important; max-width: none !important; margin: 0 !important; background: #FFFFFF; padding: 10px 10px 1rem; }
+@media (max-width: 781px) { .sc-related .sc-rail .wc-block-product-template { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; } }
+.sc-foot__strip { background: linear-gradient(rgba(240, 131, 0, .55), rgba(240, 131, 0, .55)), var(--sc-sprocket) center / 300px auto, var(--sc-mikan); }
+.sc-foot__sub { background: var(--sc-mikan); width: fit-content; padding: 0.25rem 0.75rem; }
+@media (max-width: 600px) { .sc-panel__hint { margin-left: 0 !important; } }
+.sc-pagehead .sc-pagehead__lead .sc-eyebrow, .sc-pagehead .sc-pagehead__lead.sc-eyebrow { background: none; color: var(--sc-ink); padding: 0; border-radius: 0; text-transform: none; letter-spacing: 0.02em; font-size: 1.125rem; font-weight: 600; }
+.sc-pagehead > .sc-crumbs { padding: 0.3rem 0.9rem !important; }
+.sc-promise__list { align-items: start; }
+.sc-promise__list li { border: 2px solid var(--sc-ink); }
+.sc-promise__list li:nth-child(2) { background: var(--sc-mikan); padding-block: 2rem; }
+.sc-promise__list li:nth-child(even) { margin-top: 2.5rem; }
+.sc-promise__list li:nth-child(2)::before { background: var(--sc-ink); color: var(--sc-mikan); }
+@media (max-width: 599px) { .sc-promise__list li:nth-child(even) { margin-top: 0; } }
