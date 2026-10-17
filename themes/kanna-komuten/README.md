@@ -21,7 +21,7 @@ Every template is the top header (with the side-rail menu on wide screens), the 
 </tr>
 </table>
 
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
+- Projects: [desktop](screenshots/projects-desktop.webp) · [mobile](screenshots/projects-mobile.webp)
 - About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
 - News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
 - Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
