@@ -108,7 +108,7 @@ function yukimi_kakigori_pattern_categories() {
 		'yukimi-kakigori',
 		array(
 			'label'       => __( 'Yukimi Kakigori', 'yukimi-kakigori' ),
-			'description' => __( 'Sections for a kakigori parlour: the tsutsuji pink hero with a paper-cut product grid and the cut-out bowl, the ice board, the menu as sticky media, the story band, the four steps and the journal.', 'yukimi-kakigori' ),
+			'description' => __( 'Sections for a kakigori parlour: the rikyū sage hero with a paper-cut product grid and the cut-out bowl, the ice board, the menu as sticky media, the story band, the four steps and the journal.', 'yukimi-kakigori' ),
 		)
 	);
 }

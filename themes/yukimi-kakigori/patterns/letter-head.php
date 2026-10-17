@@ -5,7 +5,7 @@
  * Categories: yukimi-kakigori
  * Keywords: kakigori, shaved ice, dessert
  * Viewport Width: 1440
- * Description: A tsutsuji pink page head with the eyebrow, title and lead and a taped paper-cut picture; the cut-out plover flag breaks over the bottom edge.
+ * Description: A rikyū sage page head with the eyebrow, title and lead and a taped paper-cut picture; the cut-out plover flag breaks over the bottom edge.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "yk-pagehead", "layout": {"type": "constrained"}} -->

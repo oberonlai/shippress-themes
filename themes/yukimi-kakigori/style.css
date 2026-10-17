@@ -3,8 +3,8 @@ Theme Name: Yukimi Kakigori
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/yukimi-kakigori
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Yukimi Kakigori — a butoh dance company theme laid out as one long centred column, with a formal top header: the company name in the centre, the menu split in two around it (two entries left, two right) and the Book a seat button at the right end; an overlay menu on phones and tablets. Sumire violet (#7058A3) is the main colour: the hero, the company band, every page head and the overlay menu are solid violet fields set in white. The hero is centred giant type: the company line, then the title across the whole width, with a cut-out white-painted dancer standing in front of the letters and breaking out over the hero bottom edge into a white card with the lead, the buttons and this season. Everything below runs in one centred reading column: the studio board, the repertoire as pieces one below the other, the company band with the cut-out silk breaking over its top edge, the four class steps and the notebook. Every picture is a photorealistic high-key photograph (85mm, softbox light, near-white ground, faint shadows, fine grain, colour graded toward tsutsuji). Darumadrop One for display, Rubik for reading, Noto Sans TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
-Version: 1.0.0
+Description: Yukimi Kakigori — a kakigori shaved-ice parlour theme built on sticky media: on wide screens the picture column holds still while the text column scrolls past it (the menu, the four bowl rows, the story band and the parlour page). A formal top header, centred: the parlour name and tagline in the middle of the first row, the menu centred on the second row and the Reserve a seat button at the right end; an overlay menu on phones and tablets. Rikyū-nezumi, the quiet grey sage-green of traditional Japanese dyeing (#8F9B84), is the main colour: the hero, the story band, every page head and the overlay menu are solid sage fields set in deep green ink, on a cream ground with pale matcha-mist panels and deep matcha links; the red of the strawberry bowl is the only bright note. The hero is a product grid: the title, lead, buttons and today's ice on the left, four paper-cut bowls as a taped, slightly tilted 2 x 2 collage on the right, and a cut-out bowl of strawberry ice (transparent WebP) standing in front of the grid and breaking over the hero bottom edge; a cut-out plover flag breaks over the story band and every page head. Every picture is a layered paper-cut illustration in a torn, taped paper collage. Darumadrop One for display, Rubik for reading, Noto Sans TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -16,20 +16,20 @@ Tags: one-column, block-patterns, full-site-editing, blog, custom-colors, editor
 
 :root {
 	--yk-paper: var(--wp--preset--color--paper);
-	--yk-tsutsuji: var(--wp--preset--color--tsutsuji);
+	--yk-rikyu: var(--wp--preset--color--rikyu);
 	--yk-mist: var(--wp--preset--color--mist);
 	--yk-ink: var(--wp--preset--color--ink);
 	--yk-deep: var(--wp--preset--color--deep);
 	--yk-quiet: var(--wp--preset--color--quiet);
 	--yk-pale: var(--wp--preset--color--pale);
-	--yk-ai: var(--wp--preset--color--ai);
+	--yk-field-ink: var(--wp--preset--color--field-ink);
 	--yk-pad: clamp(1.25rem, 4vw, 3rem);
 	--yk-sec: clamp(3.5rem, 7vw, 6.5rem);
 	--yk-line: 1.5px solid var(--yk-ink);
 	--yk-rail: 0px;
 	--yk-headh: 72px;
 	--yk-wide: var(--wp--style--global--wide-size);
-	/* A soft paper glow from above on the pink fields */
+	/* A soft paper glow from above on the sage fields */
 	--yk-koshi: radial-gradient(120% 90% at 50% 0%, rgba(255, 255, 255, 0.14), transparent 60%);
 	/* A torn paper edge for the collage pieces */
 	--yk-torn: polygon(0% 2%, 6% 0%, 13% 1.5%, 21% 0.3%, 30% 1.8%, 38% 0%, 47% 1.2%, 55% 0.2%, 64% 1.6%, 72% 0.4%, 81% 1.4%, 90% 0%, 100% 1.5%, 99% 12%, 100% 25%, 98.8% 38%, 100% 51%, 99% 64%, 100% 77%, 98.6% 89%, 100% 98%, 93% 100%, 84% 98.6%, 75% 100%, 66% 98.4%, 57% 100%, 48% 98.8%, 39% 100%, 30% 98.5%, 21% 100%, 12% 98.6%, 4% 100%, 0% 98%, 1.2% 86%, 0% 73%, 1% 60%, 0% 47%, 1.4% 34%, 0% 21%, 1% 10%);
@@ -60,10 +60,10 @@ img { height: auto; max-width: 100%; }
 .wp-block-button__link { box-shadow: none; }
 .wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--yk-deep); padding: 0.25rem 0; border-bottom: 2px solid currentColor; border-radius: 0; }
 .wp-block-button.is-style-outline .wp-block-button__link { background: transparent; color: var(--yk-ink); border: var(--yk-line); }
-hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5rem 0; opacity: 1; background: var(--yk-koshi), var(--yk-tsutsuji); }
+hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5rem 0; opacity: 1; background: var(--yk-koshi), var(--yk-rikyu); }
 .is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
 .is-style-rule-list li { padding: 0.75rem 0 0.75rem 1.6rem; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); position: relative; }
-.is-style-rule-list li::before { content: ""; position: absolute; left: 0.1rem; top: 1.3rem; width: 0.6rem; height: 0.6rem; background: var(--yk-tsutsuji); border-radius: 50%; }
+.is-style-rule-list li::before { content: ""; position: absolute; left: 0.1rem; top: 1.3rem; width: 0.6rem; height: 0.6rem; background: var(--yk-rikyu); border-radius: 50%; }
 .yk-dropcap::first-letter { float: left; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 3.6em; line-height: 0.82; margin: 0.08em 0.12em 0 0; color: var(--yk-deep); }
 :is(:lang(ja), :lang(zh)) .yk-dropcap::first-letter { font-size: 2.6em; line-height: 1; }
 
@@ -72,9 +72,9 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 :is(:lang(ja), :lang(zh)) .yk-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 700; letter-spacing: 0.3em; margin: 0; line-height: 1.3; white-space: nowrap; }
 
 /* Collage pieces: torn-edged sketches on paper, held by a strip of tape */
-.yk-piece { margin: 0; position: relative; filter: drop-shadow(0 14px 16px rgba(42, 16, 32, 0.22)); }
-.yk-piece img { display: block; width: 100%; clip-path: var(--yk-torn); background: #FFF8FB; }
-.yk-piece::after { content: ""; position: absolute; z-index: 2; top: -12px; left: 50%; width: 92px; height: 26px; margin-left: -46px; background: rgba(254, 240, 194, 0.78); border-left: 1px dashed rgba(42, 16, 32, 0.15); border-right: 1px dashed rgba(42, 16, 32, 0.15); transform: rotate(-4deg); }
+.yk-piece { margin: 0; position: relative; filter: drop-shadow(0 14px 16px rgba(30, 42, 34, 0.22)); }
+.yk-piece img { display: block; width: 100%; clip-path: var(--yk-torn); background: #FAF6EC; }
+.yk-piece::after { content: ""; position: absolute; z-index: 2; top: -12px; left: 50%; width: 92px; height: 26px; margin-left: -46px; background: rgba(254, 240, 194, 0.78); border-left: 1px dashed rgba(30, 42, 34, 0.15); border-right: 1px dashed rgba(30, 42, 34, 0.15); transform: rotate(-4deg); }
 
 /* Header: a formal top bar. House name and tagline on the left, the Book a stay button on the right; on wide screens the menu leaves the bar and becomes a fixed ink side rail down the left edge, with numbered entries. Phones and tablets get an overlay menu */
 .yk-head-part { position: sticky; top: 0; z-index: 40; }
@@ -89,10 +89,10 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-brand__tag { font-size: 0.8125rem; color: var(--yk-quiet); line-height: 1.3; max-width: 32rem; padding-left: 1.25rem; border-left: 1px solid color-mix(in srgb, var(--yk-ink) 30%, transparent); }
 .yk-nav { font-weight: 600; font-size: 0.9375rem; letter-spacing: 0.02em; }
 .yk-nav a { color: inherit; text-decoration: none; white-space: nowrap; }
-.yk-nav .wp-block-navigation__responsive-container-open { color: #2A1020; padding: 0.45rem; background: var(--yk-tsutsuji); border-radius: 2px; }
-.yk-head__cta .wp-block-button__link { background: var(--yk-tsutsuji); color: #2A1020; padding: 0.7rem 1.35rem; border-radius: 2px; white-space: nowrap; font-size: 0.9375rem; border: var(--yk-line); }
+.yk-nav .wp-block-navigation__responsive-container-open { color: #1E2A22; padding: 0.45rem; background: var(--yk-rikyu); border-radius: 2px; }
+.yk-head__cta .wp-block-button__link { background: var(--yk-rikyu); color: #1E2A22; padding: 0.7rem 1.35rem; border-radius: 2px; white-space: nowrap; font-size: 0.9375rem; border: var(--yk-line); }
 .yk-head__cta .wp-block-button__link:hover { background: var(--yk-ink); color: var(--yk-paper); }
-.yk-head .yk-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--yk-koshi), var(--yk-tsutsuji); color: #2A1020; padding: 2rem var(--yk-pad); }
+.yk-head .yk-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--yk-koshi), var(--yk-rikyu); color: #1E2A22; padding: 2rem var(--yk-pad); }
 .yk-nav .is-menu-open .wp-block-navigation__container { gap: 1.1rem; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2rem; }
 .yk-nav .is-menu-open a, .yk-nav .is-menu-open .wp-block-navigation__responsive-container-close { color: var(--yk-ink); }
 @media (max-width: 1099px) {
@@ -112,7 +112,7 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 	.yk-nav .wp-block-navigation__responsive-dialog,
 	.yk-nav .wp-block-navigation__responsive-container-content { display: block; width: 100%; }
 	.yk-nav .wp-block-navigation__container { flex-direction: column; align-items: stretch; gap: 0; counter-reset: rail; width: 100%; }
-	.yk-nav .wp-block-navigation__container > li { counter-increment: rail; display: grid; grid-template-columns: 2.1rem minmax(0, 1fr); align-items: baseline; padding: 0.85rem 0; border-bottom: 1px solid rgba(247, 184, 210, 0.28); }
+	.yk-nav .wp-block-navigation__container > li { counter-increment: rail; display: grid; grid-template-columns: 2.1rem minmax(0, 1fr); align-items: baseline; padding: 0.85rem 0; border-bottom: 1px solid rgba(201, 212, 184, 0.28); }
 	.yk-nav .wp-block-navigation__container > li::before { content: counter(rail, decimal-leading-zero); font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 0.875rem; color: var(--yk-pale); }
 	.yk-nav .wp-block-navigation__container > li > a { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.1875rem; color: var(--yk-paper); }
 	.yk-nav .wp-block-navigation__container > li > a:hover, .yk-nav .current-menu-item > a { color: var(--yk-pale); text-decoration: underline; text-underline-offset: 0.35em; }
@@ -121,7 +121,7 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 /* Chinese and Japanese rail: each entry runs top to bottom, the entries side by side from the right */
 @media (min-width: 1100px) {
 	:is(:lang(ja), :lang(zh)) .yk-nav .wp-block-navigation__container { flex-direction: row-reverse; flex-wrap: wrap; justify-content: center; gap: 1.5rem 0.9rem; }
-	:is(:lang(ja), :lang(zh)) .yk-nav .wp-block-navigation__container > li { writing-mode: vertical-rl; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; padding: 0 0 0 0.9rem; border-bottom: 0; border-left: 1px solid rgba(247, 184, 210, 0.28); }
+	:is(:lang(ja), :lang(zh)) .yk-nav .wp-block-navigation__container > li { writing-mode: vertical-rl; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; padding: 0 0 0 0.9rem; border-bottom: 0; border-left: 1px solid rgba(201, 212, 184, 0.28); }
 	:is(:lang(ja), :lang(zh)) .yk-nav .wp-block-navigation__container > li:last-child { border-left: 0; padding-left: 0; }
 	:is(:lang(ja), :lang(zh)) .yk-nav .wp-block-navigation__container > li::before { content: counter(rail, cjk-decimal); }
 	:is(:lang(ja), :lang(zh)) .yk-nav .wp-block-navigation__container > li > a { letter-spacing: 0.25em; font-size: 1.25rem; }
@@ -138,7 +138,7 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-section > * { margin-block-start: 0; }
 
 /* Hero: a persimmon cover. Issue line, title, lead, buttons and the contents on the left; three torn pencil sketches stacked and taped on the right; the cut-out townhouse stands in front of the collage and breaks over the hero bottom edge */
-.yk-hero { position: relative; z-index: 4; isolation: isolate; margin: 0 !important; padding: clamp(3rem, 5vw, 4.5rem) var(--yk-pad) clamp(4rem, 7vw, 6rem) !important; background: var(--yk-tsutsuji); color: #2A1020; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 4vw, 4rem); align-items: center; min-height: clamp(680px, 86vh, 860px); box-sizing: border-box; }
+.yk-hero { position: relative; z-index: 4; isolation: isolate; margin: 0 !important; padding: clamp(3rem, 5vw, 4.5rem) var(--yk-pad) clamp(4rem, 7vw, 6rem) !important; background: var(--yk-rikyu); color: #1E2A22; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 4vw, 4rem); align-items: center; min-height: clamp(680px, 86vh, 860px); box-sizing: border-box; }
 .yk-hero::before { content: ""; position: absolute; z-index: -1; top: 0; bottom: 0; right: 0; width: 46%; background: var(--yk-koshi); pointer-events: none; }
 .yk-hero > * { margin: 0 !important; }
 .yk-hero__text > * { margin-block: 0 1.1rem; }
@@ -157,7 +157,7 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-toc > * { margin: 0 !important; }
 .yk-toc__label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.4rem !important; }
 .yk-toc__list { list-style: none; padding: 0; counter-reset: toc; }
-.yk-toc__list li { counter-increment: toc; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); align-items: baseline; padding: 0.35rem 0; border-bottom: 1px solid rgba(42, 16, 32, 0.3); font-weight: 600; }
+.yk-toc__list li { counter-increment: toc; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); align-items: baseline; padding: 0.35rem 0; border-bottom: 1px solid rgba(30, 42, 34, 0.3); font-weight: 600; }
 .yk-toc__list li::before { content: counter(toc, decimal-leading-zero); font-family: var(--wp--preset--font-family--display); font-weight: 700; }
 :is(:lang(ja), :lang(zh)) .yk-toc__list li::before { content: counter(toc, cjk-decimal); }
 .yk-collage { position: relative; height: clamp(520px, 44vw, 660px); }
@@ -166,7 +166,7 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-piece--b { position: absolute !important; top: 30%; right: 0; width: 62%; transform: rotate(2.5deg); z-index: 2; }
 .yk-piece--c { position: absolute !important; bottom: 0; left: 6%; width: 32%; transform: rotate(-1.5deg); z-index: 3; }
 .yk-piece--b::after { left: 22%; transform: rotate(6deg); }
-.yk-hero__house { position: absolute !important; z-index: 5; right: calc(var(--yk-pad) + 4%); bottom: -9%; width: clamp(200px, 17vw, 300px); margin: 0 !important; pointer-events: none; filter: drop-shadow(0 18px 18px rgba(42, 16, 32, 0.3)); }
+.yk-hero__house { position: absolute !important; z-index: 5; right: calc(var(--yk-pad) + 4%); bottom: -9%; width: clamp(200px, 17vw, 300px); margin: 0 !important; pointer-events: none; filter: drop-shadow(0 18px 18px rgba(30, 42, 34, 0.3)); }
 .yk-hero__house img { display: block; width: 100%; }
 .yk-hero .yk-tate { position: absolute; z-index: 4; left: calc(5 / 11 * 100% + 1rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.25rem, 0.9rem + 0.9vw, 1.75rem); background: var(--yk-paper); color: var(--yk-ink); padding: 1rem 0.6rem; border: var(--yk-line); }
 @media (max-width: 960px) {
@@ -186,16 +186,16 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-board__tonight { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--yk-deep); grid-column: 1; grid-row: 1; }
 .yk-board__sky { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.625rem, 1.2rem + 1.2vw, 2.25rem); line-height: 1.15; grid-row: 2; grid-column: 1; }
 .yk-board__clear { font-size: 0.9375rem; grid-row: 3; grid-column: 1; color: var(--yk-ink); background: var(--yk-mist); padding: 0.35rem 0.75rem; justify-self: start; }
-.yk-board__rows { display: grid; gap: 0; grid-row: 1 / span 3; grid-column: 2; border-left: 1px solid rgba(42, 16, 32, 0.25); border-right: 1px solid rgba(42, 16, 32, 0.25); padding-inline: clamp(1rem, 2vw, 2rem); }
+.yk-board__rows { display: grid; gap: 0; grid-row: 1 / span 3; grid-column: 2; border-left: 1px solid rgba(30, 42, 34, 0.25); border-right: 1px solid rgba(30, 42, 34, 0.25); padding-inline: clamp(1rem, 2vw, 2rem); }
 .yk-board__rows > * { margin: 0 !important; }
-.yk-board__row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; border-bottom: 1px dotted rgba(42, 16, 32, 0.4); padding: 0.55rem 0; }
+.yk-board__row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; border-bottom: 1px dotted rgba(30, 42, 34, 0.4); padding: 0.55rem 0; }
 .yk-board__row:last-child { border-bottom: 0; }
 .yk-board__row > * { margin: 0 !important; }
 .yk-board__k { font-size: 0.875rem; color: var(--yk-quiet); }
 .yk-board__v { font-weight: 600; text-align: right; }
 .yk-board__note { font-size: 0.9375rem; color: var(--yk-quiet); grid-column: 3; grid-row: 1 / span 2; }
 .yk-board__cta { grid-column: 3; grid-row: 3; }
-.yk-board__cta .wp-block-button__link { background: var(--yk-tsutsuji); color: #2A1020; border: var(--yk-line); }
+.yk-board__cta .wp-block-button__link { background: var(--yk-rikyu); color: #1E2A22; border: var(--yk-line); }
 @media (max-width: 900px) {
 	.yk-board { grid-template-columns: minmax(0, 1fr); }
 	.yk-board > * { grid-column: 1 !important; grid-row: auto !important; }
@@ -208,8 +208,8 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-spread > * { margin: 0 !important; }
 .yk-spread__intro > * { margin-block: 0 1.25rem; }
 .yk-feature__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4.25rem); max-width: 14ch; }
-.yk-spread__intro .yk-dropcap { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(42, 16, 32, 0.2); font-size: 1.0625rem; }
-.yk-pull { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.875rem); line-height: 1.35; border-left: 6px solid var(--yk-tsutsuji); padding-left: 1.25rem; margin-top: 2rem !important; max-width: 30rem; }
+.yk-spread__intro .yk-dropcap { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(30, 42, 34, 0.2); font-size: 1.0625rem; }
+.yk-pull { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.875rem); line-height: 1.35; border-left: 6px solid var(--yk-rikyu); padding-left: 1.25rem; margin-top: 2rem !important; max-width: 30rem; }
 .yk-spread__img { transform: rotate(2deg); margin-top: 2.5rem !important; }
 .yk-rooms { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.25rem, 2.5vw, 2.25rem); margin-top: clamp(3rem, 6vw, 5rem) !important; counter-reset: room; }
 .yk-rooms > * { margin: 0 !important; }
@@ -218,7 +218,7 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-room > * { margin: 0 0 0.5rem !important; }
 .yk-room::before { content: counter(room, decimal-leading-zero); position: absolute; top: 0; left: 0; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2.5rem; line-height: 1; color: var(--yk-deep); }
 :is(:lang(ja), :lang(zh)) .yk-room::before { content: counter(room, cjk-decimal); }
-.yk-room__img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border: 8px solid #FFFFFF; outline: 1px solid rgba(42, 16, 32, 0.25); box-sizing: border-box; }
+.yk-room__img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border: 8px solid #FFFFFF; outline: 1px solid rgba(30, 42, 34, 0.25); box-sizing: border-box; }
 .yk-room__title { font-size: 1.5rem; margin-top: 0.85rem !important; }
 .yk-room__facts { font-size: 0.8125rem; font-weight: 600; color: var(--yk-deep); }
 .yk-room__text { font-size: 0.9375rem; line-height: 1.65; color: var(--yk-quiet); }
@@ -235,9 +235,9 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 }
 
 /* Feature 02: the story on a persimmon band. The year in giant type and the story beside a taped collage; the cut-out persimmon branch breaks over the band top edge */
-.yk-story { z-index: 3; background: var(--yk-tsutsuji); color: #2A1020; padding-block: clamp(5.5rem, 10vw, 8rem) var(--yk-sec) !important; }
+.yk-story { z-index: 3; background: var(--yk-rikyu); color: #1E2A22; padding-block: clamp(5.5rem, 10vw, 8rem) var(--yk-sec) !important; }
 .yk-story::before { content: ""; position: absolute; inset: 0 0 0 auto; width: 48%; background: var(--yk-koshi); pointer-events: none; }
-.yk-story > .yk-story__branch { position: absolute !important; z-index: 4; top: -96px; right: max(var(--yk-pad), calc((100% - var(--yk-wide)) / 2 + 2rem)); width: clamp(170px, 18vw, 280px); margin: 0 !important; pointer-events: none; transform: rotate(-12deg); filter: drop-shadow(0 14px 14px rgba(42, 16, 32, 0.25)); }
+.yk-story > .yk-story__branch { position: absolute !important; z-index: 4; top: -96px; right: max(var(--yk-pad), calc((100% - var(--yk-wide)) / 2 + 2rem)); width: clamp(170px, 18vw, 280px); margin: 0 !important; pointer-events: none; transform: rotate(-12deg); filter: drop-shadow(0 14px 14px rgba(30, 42, 34, 0.25)); }
 .yk-story__branch img { display: block; width: 100%; }
 .yk-story__grid { position: relative; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 5vw, 5rem); align-items: center; }
 .yk-story__grid > * { margin: 0 !important; }
@@ -262,11 +262,11 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-process { background: var(--yk-mist); }
 .yk-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2.4vw, 2rem); margin-top: 2.5rem !important; counter-reset: step; }
 .yk-strip > * { margin: 0 !important; }
-.yk-step { counter-increment: step; position: relative; background: var(--yk-paper); padding: 12px 12px 1.25rem; box-shadow: 0 16px 30px -24px rgba(42, 16, 32, 0.6); }
+.yk-step { counter-increment: step; position: relative; background: var(--yk-paper); padding: 12px 12px 1.25rem; box-shadow: 0 16px 30px -24px rgba(30, 42, 34, 0.6); }
 .yk-step:nth-child(odd) { transform: rotate(-1deg); }
 .yk-step:nth-child(even) { transform: rotate(1deg); }
 .yk-step > * { margin: 0 !important; }
-.yk-step::before { content: counter(step); position: absolute; z-index: 2; left: -12px; top: -14px; width: 2.6rem; height: 2.6rem; display: grid; place-items: center; background: var(--yk-tsutsuji); color: #2A1020; border: var(--yk-line); border-radius: 50%; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.125rem; }
+.yk-step::before { content: counter(step); position: absolute; z-index: 2; left: -12px; top: -14px; width: 2.6rem; height: 2.6rem; display: grid; place-items: center; background: var(--yk-rikyu); color: #1E2A22; border: var(--yk-line); border-radius: 50%; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.125rem; }
 :is(:lang(ja), :lang(zh)) .yk-step::before { content: counter(step, cjk-decimal); }
 .yk-step__img img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .yk-step__title { font-size: 1.3125rem; padding: 1rem 0.35rem 0.35rem; }
@@ -277,7 +277,7 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 /* Journal lists */
 .yk-home-journal, .yk-list { background: var(--yk-paper); }
 .yk-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.25rem); padding: 0; }
-.yk-notes .wp-block-post-template > li { margin: 0; background: #FFFFFF; padding: 10px 10px 1.25rem; position: relative; box-shadow: 0 16px 30px -26px rgba(42, 16, 32, 0.6); }
+.yk-notes .wp-block-post-template > li { margin: 0; background: #FFFFFF; padding: 10px 10px 1.25rem; position: relative; box-shadow: 0 16px 30px -26px rgba(30, 42, 34, 0.6); }
 .yk-notes .wp-block-post-template > li::after { content: ""; position: absolute; top: -10px; left: 50%; width: 80px; height: 22px; margin-left: -40px; background: rgba(250, 191, 20, 0.4); transform: rotate(-3deg); }
 .yk-note__img { margin: 0 0 0.85rem; }
 .yk-note__img img { display: block; }
@@ -289,7 +289,7 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-pagination { margin-top: 2.5rem; }
 
 /* Page heads: a persimmon band with a torn, taped sketch on the right; the cut-out persimmon branch breaks over the bottom edge */
-.yk-pagehead { position: relative; z-index: 3; isolation: isolate; background: var(--yk-tsutsuji); color: #2A1020; padding-block: clamp(3.5rem, 7vw, 6rem) clamp(4.5rem, 8vw, 6.5rem) !important; margin: 0 !important; }
+.yk-pagehead { position: relative; z-index: 3; isolation: isolate; background: var(--yk-rikyu); color: #1E2A22; padding-block: clamp(3.5rem, 7vw, 6rem) clamp(4.5rem, 8vw, 6.5rem) !important; margin: 0 !important; }
 .yk-pagehead::before { content: ""; position: absolute; z-index: -1; inset: 0 0 0 auto; width: 40%; background: var(--yk-koshi); pointer-events: none; }
 .yk-main .yk-pagehead.is-layout-constrained { padding-inline: max(var(--yk-pad), calc((100% - var(--yk-wide)) / 2)) !important; }
 .yk-main .yk-pagehead.is-layout-constrained > * { max-width: none !important; margin-inline: 0 !important; }
@@ -304,7 +304,7 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 }
 .yk-pagehead > .yk-pagehead__img { position: absolute !important; z-index: 1; top: clamp(2rem, 4vw, 3rem); right: max(var(--yk-pad), calc((100% - var(--yk-wide)) / 2)); width: clamp(260px, 32%, 440px); transform: rotate(2.5deg); margin: 0 !important; }
 .yk-pagehead__img img { aspect-ratio: 4 / 3; object-fit: cover; }
-.yk-pagehead > .yk-pagehead__branch { position: absolute !important; z-index: 4; right: calc(max(var(--yk-pad), calc((100% - var(--yk-wide)) / 2)) + clamp(200px, 26%, 360px)); bottom: -64px; width: clamp(140px, 13vw, 210px); margin: 0 !important; pointer-events: none; transform: rotate(14deg); filter: drop-shadow(0 12px 12px rgba(42, 16, 32, 0.28)); }
+.yk-pagehead > .yk-pagehead__branch { position: absolute !important; z-index: 4; right: calc(max(var(--yk-pad), calc((100% - var(--yk-wide)) / 2)) + clamp(200px, 26%, 360px)); bottom: -64px; width: clamp(140px, 13vw, 210px); margin: 0 !important; pointer-events: none; transform: rotate(14deg); filter: drop-shadow(0 12px 12px rgba(30, 42, 34, 0.28)); }
 .yk-pagehead__branch img { display: block; width: 100%; }
 .yk-pagehead > .yk-tate { position: absolute; right: calc(max(var(--yk-pad), calc((100% - var(--yk-wide)) / 2)) + clamp(260px, 32%, 440px) + 1.5rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.125rem, 0.9rem + 0.7vw, 1.5rem); background: var(--yk-paper); color: var(--yk-ink); padding: 0.9rem 0.55rem; border: var(--yk-line); margin: 0 !important; }
 .yk-pagehead .wp-block-search { max-width: 34rem; margin-top: 1.25rem; }
@@ -337,10 +337,10 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-links .yk-book .wp-block-button__link, .yk-mailto .wp-block-button__link { background: var(--yk-ink); color: var(--yk-paper); }
 
 /* Rates (synced) */
-.yk-rates { background: var(--yk-mist); padding: clamp(1.25rem, 3vw, 2rem); margin: 0; border-top: 6px solid var(--yk-tsutsuji); }
+.yk-rates { background: var(--yk-mist); padding: clamp(1.25rem, 3vw, 2rem); margin: 0; border-top: 6px solid var(--yk-rikyu); }
 .yk-rates > * { margin: 0 !important; }
 .yk-rates__label { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.625rem; margin-bottom: 0.75rem !important; }
-.yk-rate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 1rem; padding: 0.85rem 0; border-bottom: 1px dotted rgba(42, 16, 32, 0.45); }
+.yk-rate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 1rem; padding: 0.85rem 0; border-bottom: 1px dotted rgba(30, 42, 34, 0.45); }
 .yk-rate > * { margin: 0 !important; }
 .yk-rate__name { font-weight: 600; }
 .yk-rate__facts { grid-column: 1; font-size: 0.8125rem; color: var(--yk-quiet); }
@@ -351,15 +351,15 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-about { padding-top: calc(var(--yk-sec) + 2rem) !important; }
 .yk-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
 .yk-about__story > * { margin: 0 !important; }
-.yk-about__text { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(42, 16, 32, 0.2); }
+.yk-about__text { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(30, 42, 34, 0.2); }
 .yk-about__text > * { margin-block: 0 1.1rem; }
 .yk-about__img { transform: rotate(2deg); }
 .yk-about__wide { margin-top: clamp(3rem, 6vw, 5rem) !important; }
-.yk-about__wide img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border: 10px solid #FFFFFF; outline: 1px solid rgba(42, 16, 32, 0.25); box-sizing: border-box; }
+.yk-about__wide img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border: 10px solid #FFFFFF; outline: 1px solid rgba(30, 42, 34, 0.25); box-sizing: border-box; }
 .yk-rules { margin-top: clamp(3rem, 6vw, 4.5rem) !important; max-width: 44rem; }
 .yk-steps { padding: 0; margin: 0; list-style: none; counter-reset: splist; display: grid; gap: 0.85rem; }
 .yk-steps li { counter-increment: splist; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: 0.85rem; align-items: start; }
-.yk-steps li::before { content: counter(splist); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; background: var(--yk-tsutsuji); color: #2A1020; font-family: var(--wp--preset--font-family--display); font-weight: 700; border: var(--yk-line); border-radius: 50%; }
+.yk-steps li::before { content: counter(splist); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; background: var(--yk-rikyu); color: #1E2A22; font-family: var(--wp--preset--font-family--display); font-weight: 700; border: var(--yk-line); border-radius: 50%; }
 :is(:lang(ja), :lang(zh)) .yk-steps li::before { content: counter(splist, cjk-decimal); }
 
 /* Letters */
@@ -367,10 +367,10 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-letter__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
 .yk-letter__grid > * { margin: 0 !important; }
 .yk-letter__img { transform: rotate(-1.5deg); }
-.yk-letter__card { background: var(--yk-ink); color: var(--yk-paper); padding: clamp(1.5rem, 3.5vw, 2.5rem); border-top: 8px solid var(--yk-tsutsuji); }
+.yk-letter__card { background: var(--yk-ink); color: var(--yk-paper); padding: clamp(1.5rem, 3.5vw, 2.5rem); border-top: 8px solid var(--yk-rikyu); }
 .yk-letter__card > * { margin-block: 0 1rem; }
 .yk-letter__card .yk-sec__title { color: var(--yk-paper); font-size: clamp(1.75rem, 1.2rem + 1.4vw, 2.5rem); }
-.yk-letter__card .yk-mailto .wp-block-button__link { background: var(--yk-tsutsuji); color: #2A1020; }
+.yk-letter__card .yk-mailto .wp-block-button__link { background: var(--yk-rikyu); color: #1E2A22; }
 
 /* Book a stay */
 .yk-contact { padding-top: calc(var(--yk-sec) + 2rem) !important; }
@@ -386,7 +386,7 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 .yk-details > * { margin: 0 !important; }
 .yk-details__season { font-weight: 600; }
 .yk-details__note { font-size: 0.875rem; margin-top: 0.5rem !important; }
-.yk-contact .yk-details { background: var(--yk-mist); padding: clamp(1.25rem, 3vw, 1.75rem); border-top: 6px solid var(--yk-tsutsuji); }
+.yk-contact .yk-details { background: var(--yk-mist); padding: clamp(1.25rem, 3vw, 1.75rem); border-top: 6px solid var(--yk-rikyu); }
 body:has(.yk-main .yk-details) .yk-foot .yk-details { display: none; }
 
 /* Single note and plain pages */
@@ -394,16 +394,16 @@ body:has(.yk-main .yk-details) .yk-foot .yk-details { display: none; }
 .yk-article__head { margin-bottom: 2rem; }
 .yk-article .yk-pagehead__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4rem); }
 .yk-article__date { color: var(--yk-quiet); font-size: 0.875rem; }
-.yk-photo { margin-block: 0 2.5rem; background: #FFFFFF; padding: 10px; box-shadow: 0 16px 30px -26px rgba(42, 16, 32, 0.6); }
+.yk-photo { margin-block: 0 2.5rem; background: #FFFFFF; padding: 10px; box-shadow: 0 16px 30px -26px rgba(30, 42, 34, 0.6); }
 .yk-photo img { display: block; max-height: 560px; object-fit: cover; }
 .yk-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
-.yk-tags a { display: inline-block; background: var(--yk-mist); color: #2A1020; padding: 0.2rem 0.8rem; text-decoration: none; font-size: 0.875rem; margin: 0 0.25rem 0.25rem 0; border-left: 3px solid var(--yk-tsutsuji); }
+.yk-tags a { display: inline-block; background: var(--yk-mist); color: #1E2A22; padding: 0.2rem 0.8rem; text-decoration: none; font-size: 0.875rem; margin: 0 0.25rem 0.25rem 0; border-left: 3px solid var(--yk-rikyu); }
 .yk-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
 .yk-page .yk-pagehead__title { margin-bottom: 1.5rem; }
 
 /* Footer: the ink field with the house name */
 .wp-site-blocks > footer { margin-block-start: 0; }
-.yk-foot { background: var(--yk-ink); color: var(--yk-paper); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2rem; margin: 0; border-top: 10px solid var(--yk-tsutsuji); }
+.yk-foot { background: var(--yk-ink); color: var(--yk-paper); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2rem; margin: 0; border-top: 10px solid var(--yk-rikyu); }
 .yk-foot__grid { display: grid; grid-template-columns: 1.4fr 1fr 0.7fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
 .yk-foot__grid > * { margin: 0 !important; }
 .yk-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(2.25rem, 1.2rem + 3.4vw, 4.25rem); line-height: 1; margin: 0 0 1rem; }
@@ -413,7 +413,7 @@ body:has(.yk-main .yk-details) .yk-foot .yk-details { display: none; }
 .yk-foot__nav { font-weight: 600; gap: 0.5rem; }
 .yk-foot__nav a { text-decoration: none; }
 .yk-foot__nav a:hover { text-decoration: underline; }
-.yk-foot__base { margin-top: 3rem !important; padding-top: 1.25rem; border-top: 1px solid rgba(247, 184, 210, 0.35); }
+.yk-foot__base { margin-top: 3rem !important; padding-top: 1.25rem; border-top: 1px solid rgba(201, 212, 184, 0.35); }
 .yk-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--yk-pale); }
 
 @media (max-width: 1100px) { .yk-notes .wp-block-post-template { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
@@ -430,20 +430,20 @@ body:has(.yk-main .yk-details) .yk-foot .yk-details { display: none; }
 }
 
 
-/* ===== Yukimi Kakigori: sticky media beside scrolling text, paper-cut collage, tsutsuji pink fields ===== */
+/* ===== Yukimi Kakigori: sticky media beside scrolling text, paper-cut collage, rikyu sage fields ===== */
 html { font-synthesis-weight: none; }
 h1, h2, h3, .yk-brand__title, .yk-hero__title { font-weight: 400 !important; }
 .yk-piece img { background: var(--yk-paper); }
 
 /* Header: a formal top bar, centred. The parlour name in the middle of the first row, the menu centred on the second row, the Reserve button at the right end. Below 1100 px: name left, overlay menu */
-.yk-head { background: var(--yk-paper); border-bottom: 3px solid var(--yk-tsutsuji); }
+.yk-head { background: var(--yk-paper); border-bottom: 3px solid var(--yk-rikyu); }
 .yk-brand__title { font-size: clamp(1.5rem, 1.1rem + 1vw, 2.25rem); letter-spacing: 0.02em; }
 .yk-brand__title a { color: var(--yk-ink); text-decoration: none; }
 .yk-nav { font-weight: 500; font-size: 0.9375rem; letter-spacing: 0.08em; }
-.yk-nav .wp-block-navigation__responsive-container-open { color: var(--yk-ink); background: var(--yk-tsutsuji); }
-.yk-head__cta .wp-block-button__link { background: var(--yk-tsutsuji); color: var(--yk-ink); border: 2px solid var(--yk-ink); border-radius: 999px; padding: 0.6rem 1.3rem; }
+.yk-nav .wp-block-navigation__responsive-container-open { color: var(--yk-ink); background: var(--yk-rikyu); }
+.yk-head__cta .wp-block-button__link { background: var(--yk-rikyu); color: var(--yk-ink); border: 2px solid var(--yk-ink); border-radius: 999px; padding: 0.6rem 1.3rem; }
 .yk-head__cta .wp-block-button__link:hover { background: var(--yk-ink); color: var(--yk-paper); }
-.yk-head .yk-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--yk-tsutsuji); color: var(--yk-ink); }
+.yk-head .yk-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--yk-rikyu); color: var(--yk-ink); }
 .yk-nav .is-menu-open a, .yk-nav .is-menu-open .wp-block-navigation__responsive-container-close { color: var(--yk-ink) !important; }
 .yk-nav .is-menu-open .wp-block-navigation__container { font-family: var(--wp--preset--font-family--display); font-size: 2rem; }
 @media (min-width: 1100px) {
@@ -460,13 +460,13 @@ h1, h2, h3, .yk-brand__title, .yk-hero__title { font-weight: 400 !important; }
 	:is(:lang(ja), :lang(zh)) .yk-nav .wp-block-navigation__container { flex-direction: row; }
 	:is(:lang(ja), :lang(zh)) .yk-nav .wp-block-navigation__container > li { writing-mode: horizontal-tb; }
 	.yk-nav .wp-block-navigation__container > li > a { font-family: var(--wp--preset--font-family--body); font-size: inherit; color: var(--yk-ink); }
-	.yk-nav .wp-block-navigation__container > li > a:hover, .yk-nav .current-menu-item > a { color: var(--yk-deep); text-decoration: underline; text-decoration-thickness: 3px; text-decoration-color: var(--yk-tsutsuji); text-underline-offset: 0.45em; }
+	.yk-nav .wp-block-navigation__container > li > a:hover, .yk-nav .current-menu-item > a { color: var(--yk-deep); text-decoration: underline; text-decoration-thickness: 3px; text-decoration-color: var(--yk-rikyu); text-underline-offset: 0.45em; }
 	.yk-head__cta { position: absolute !important; right: var(--yk-pad); top: 50%; transform: translateY(-50%); margin: 0 !important; }
 	.wp-site-blocks > .yk-shell, .wp-site-blocks > footer { margin-left: 0 !important; }
 }
 
-/* Hero: a product grid on a tsutsuji field. Issue line, title, lead, buttons and today's ice on the left; four paper-cut bowls as a taped 2 x 2 grid on the right; the cut-out bowl stands in front of the grid and breaks over the hero bottom edge */
-.yk-hero { background: var(--yk-tsutsuji); color: var(--yk-ink); grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); overflow: visible; }
+/* Hero: a product grid on a rikyu sage field. Issue line, title, lead, buttons and today's ice on the left; four paper-cut bowls as a taped 2 x 2 grid on the right; the cut-out bowl stands in front of the grid and breaks over the hero bottom edge */
+.yk-hero { background: var(--yk-rikyu); color: var(--yk-ink); grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); overflow: visible; }
 .yk-hero::before { background: radial-gradient(120% 90% at 70% 10%, rgba(255, 255, 255, 0.22), transparent 60%); width: 60%; }
 .yk-hero :is(.yk-issue, .yk-eyebrow, .yk-hero__lead, h1, .yk-toc__label, li) { color: var(--yk-ink); }
 .yk-hero__title { font-size: clamp(3.25rem, 1rem + 6vw, 7rem); line-height: 1; }
@@ -480,7 +480,7 @@ h1, h2, h3, .yk-brand__title, .yk-hero__title { font-weight: 400 !important; }
 .yk-hero__grid > .yk-piece:nth-child(4) { transform: rotate(-2deg) translateY(1.5rem); }
 .yk-hero__grid .yk-piece img { aspect-ratio: 1; object-fit: cover; }
 .yk-hero__grid figcaption { position: absolute; left: 0.6rem; bottom: 0.6rem; margin: 0; background: var(--yk-paper); color: var(--yk-ink); font-size: 0.8125rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 999px; }
-.yk-hero__grid > .yk-hero__bowl { position: absolute !important; z-index: 5; left: 50%; bottom: clamp(-7rem, -7vw, -3rem); width: clamp(190px, 19vw, 300px); transform: translateX(-50%); margin: 0 !important; pointer-events: none; filter: drop-shadow(0 24px 26px rgba(42, 16, 32, 0.35)); }
+.yk-hero__grid > .yk-hero__bowl { position: absolute !important; z-index: 5; left: 50%; bottom: clamp(-7rem, -7vw, -3rem); width: clamp(190px, 19vw, 300px); transform: translateX(-50%); margin: 0 !important; pointer-events: none; filter: drop-shadow(0 24px 26px rgba(30, 42, 34, 0.35)); }
 .yk-hero__bowl img { display: block; width: 100%; clip-path: none; background: none; }
 .yk-hero__bowl::after { display: none; }
 .yk-hero .yk-tate { color: var(--yk-ink); background: none; border: 0; }
@@ -509,31 +509,31 @@ h1, h2, h3, .yk-brand__title, .yk-hero__title { font-weight: 400 !important; }
 	.yk-about__story { align-items: start; }
 	.yk-about__story > .yk-about__img { position: sticky; top: 1.5rem; }
 }
-.yk-room { border-top: 2px dashed color-mix(in srgb, var(--yk-tsutsuji) 70%, transparent); padding-top: 2rem; }
-.yk-room::before { background: var(--yk-tsutsuji); color: var(--yk-ink); }
+.yk-room { border-top: 2px dashed color-mix(in srgb, var(--yk-rikyu) 70%, transparent); padding-top: 2rem; }
+.yk-room::before { background: var(--yk-rikyu); color: var(--yk-ink); }
 .yk-room__img img { aspect-ratio: 1; border-color: var(--yk-paper); }
 .yk-spread__img img { aspect-ratio: 4 / 3; }
 .yk-pull { color: var(--yk-deep); font-family: var(--wp--preset--font-family--display); font-size: clamp(1.4rem, 1rem + 1.2vw, 2rem); line-height: 1.35; }
 
-/* The story band: a tsutsuji field; the cut-out plover flag breaks over the band top edge */
-.yk-story { background: var(--yk-tsutsuji); color: var(--yk-ink); }
+/* The story band: a rikyu sage field; the cut-out plover flag breaks over the band top edge */
+.yk-story { background: var(--yk-rikyu); color: var(--yk-ink); }
 .yk-story :is(h2, h3, p, a, .yk-eyebrow) { color: var(--yk-ink); }
-.yk-story :is(.yk-story__no, .yk-year) { color: var(--yk-paper); }
+.yk-story :is(.yk-story__no, .yk-year) { color: var(--yk-ink); }
 .yk-story .wp-block-button__link { background: var(--yk-ink); color: var(--yk-paper); }
 .yk-story > .yk-story__branch { width: clamp(170px, 16vw, 250px); top: clamp(-6rem, -6vw, -3.5rem); }
 .yk-story__branch img, .yk-pagehead__branch img { clip-path: none; background: none; }
 .yk-story__branch::after, .yk-pagehead__branch::after { display: none; }
 
-/* Page heads: a tsutsuji band with a taped paper-cut picture; the cut-out flag breaks over the bottom edge */
-.yk-pagehead { background: var(--yk-tsutsuji); color: var(--yk-ink); }
+/* Page heads: a rikyu sage band with a taped paper-cut picture; the cut-out flag breaks over the bottom edge */
+.yk-pagehead { background: var(--yk-rikyu); color: var(--yk-ink); }
 .yk-pagehead :is(h1, p, .yk-eyebrow) { color: var(--yk-ink); }
 .yk-pagehead > .yk-pagehead__branch { width: clamp(130px, 12vw, 190px); bottom: -80px; }
 .yk-pagehead > .yk-tate { color: var(--yk-ink); }
 .yk-eyebrow { color: var(--yk-deep); }
 .yk-hero .yk-eyebrow, .yk-story .yk-eyebrow, .yk-pagehead .yk-eyebrow { color: var(--yk-ink); }
-.yk-step::before, .yk-steps li::before { background: var(--yk-tsutsuji); color: var(--yk-ink); }
-.yk-board__cta .wp-block-button__link, .yk-letter__card .yk-mailto .wp-block-button__link, .yk-mailto .wp-block-button__link { background: var(--yk-tsutsuji); color: var(--yk-ink); border: 2px solid var(--yk-ink); }
-.yk-foot { border-top-color: var(--yk-tsutsuji); }
+.yk-step::before, .yk-steps li::before { background: var(--yk-rikyu); color: var(--yk-ink); }
+.yk-board__cta .wp-block-button__link, .yk-letter__card .yk-mailto .wp-block-button__link, .yk-mailto .wp-block-button__link { background: var(--yk-rikyu); color: var(--yk-ink); border: 2px solid var(--yk-ink); }
+.yk-foot { border-top-color: var(--yk-rikyu); }
 @media (max-width: 599px) { .yk-head__cta .wp-block-button__link { padding: 0.4rem 0.75rem; font-size: 0.8125rem; } .yk-brand__title { font-size: 1.125rem; } .yk-brand__tag { display: none; } }
 .yk-spread__intro .yk-dropcap, .yk-dropcap { column-count: 1 !important; }
 .yk-brand__tag { border: 0 !important; padding: 0 !important; }
