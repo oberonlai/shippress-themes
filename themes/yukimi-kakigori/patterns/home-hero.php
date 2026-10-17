@@ -1,11 +1,11 @@
 <?php
 /**
- * Title: Home: product grid on a sage field
+ * Title: Home: product grid on an ice-blue field
  * Slug: yukimi-kakigori/home-hero
  * Categories: yukimi-kakigori
  * Keywords: kakigori, shaved ice, dessert
  * Viewport Width: 1440
- * Description: A full-width rikyū sage field: the parlour line, title, lead, buttons and today's ice on the left; four paper-cut bowls as a taped 2 x 2 grid on the right, with the cut-out bowl standing in front of the grid and breaking over the hero bottom edge.
+ * Description: A full-width sora ice-blue field: the parlour line, title, lead, buttons and today's ice on the left; four paper-cut bowls as a taped 2 x 2 grid on the right, with the cut-out bowl standing in front of the grid and breaking over the hero bottom edge.
  */
 $yk_bowls = array(
 	array( 'bowl-ichigo', 'alt_lattice', 'r1_t' ),

@@ -5,7 +5,7 @@
  * Categories: yukimi-kakigori
  * Keywords: kakigori, shaved ice, dessert
  * Viewport Width: 1440
- * Description: A rikyū sage band: the opening year in giant type and the story of the ice beside a sticky collage of paper-cut pictures; the cut-out plover flag breaks over the band top edge.
+ * Description: A sora ice-blue band: the opening year in giant type and the story of the ice beside a sticky collage of paper-cut pictures; the cut-out plover flag breaks over the band top edge.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "yk-section yk-story", "layout": {"type": "constrained"}} -->
