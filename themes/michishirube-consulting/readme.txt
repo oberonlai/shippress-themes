@@ -6,7 +6,7 @@ Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Michishirube Consulting — a management consulting firm theme set as a vertical scroll in the tategaki manner: under a formal top header (firm name, tagline and a Book a first call button), the menu leaves the bar on wide screens and becomes a fixed night-violet side rail down the left edge with numbered entries (in Chinese and Japanese the entries and section titles run top to bottom; English, French and German always run horizontally). Shikon (#3F2A5E), the deep blue-violet of traditional Japanese dyeing, is the main colour: the hero, the story band and every page head are shikon fields set in white. The hero is a cut-out object breaking its frame: the title, lead and buttons on the left, a framed low-key photograph of an empty boardroom at dusk on the right, and a cut-out consultant (transparent WebP) standing over the frame's corner and dropping past the hero bottom edge; a cut-out brass compass breaks over the story band and every page head. Every picture is a realistic low-key photograph (50mm f/1.4, one hard window light, deep shadows) of a modern, international office. BIZ UDMincho for display, Crimson Pro for reading, Noto Serif TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German. WCAG AA colours; no entrance animations.
+Michishirube Consulting — a management consulting firm theme set as a vertical scroll: under a formal top header (firm name, tagline and a Book a first call button), the menu leaves the bar on wide screens and becomes a fixed midnight-navy side rail down the left edge with numbered entries set horizontally in every language, hairline dividers and a brass marker on the current page; phones get a full-screen navy overlay menu with large entries. Deep navy (#1E3A5F) is the main colour, chosen for trust: the hero, the story band and every page head are navy fields set in white, with mist blue-grey panels, cloud-white grounds and a muted brass accent kept to small rules and markers; in Chinese and Japanese a short vertical line beside the hero title is the only tategaki touch. The hero is a cut-out object breaking its frame: the title, lead and buttons on the left, a framed low-key photograph of an empty boardroom at dusk on the right, and a cut-out consultant (transparent WebP) standing over the frame's corner and dropping past the hero bottom edge; a cut-out brass compass breaks over the story band and every page head. Every picture is a realistic low-key photograph (50mm f/1.4, one hard window light, deep shadows) of a modern, international office. BIZ UDMincho for display, Crimson Pro for reading, Noto Serif TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German. WCAG AA colours; no entrance animations.
 == Description ==
 
 A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). See README.md for the design notes, templates and patterns.
@@ -34,7 +34,7 @@ Michishirube Consulting is distributed under the terms of the GNU GPL v2 or late
 Fonts: BIZ UDMincho (OFL-1.1, Copyright 2022 The BIZ UDMincho Project Authors), Bold, subset to Latin and to the characters of the Japanese sample text; Crimson Pro (OFL-1.1, Copyright 2018 The Crimson Pro Project Authors), Regular and SemiBold, Latin subset; Noto Serif TC (OFL-1.1, Copyright 2017 Google Inc.), Bold, subset to the characters of the Traditional Chinese sample text. Licence texts in assets/fonts/.
 = Images =
 
-Images: AI-generated for this theme with Grok Build image_gen as realistic low-key photographs (50mm f/1.4, one hard window light, deep shadows, fine grain, graded toward shikon #3F2A5E), released under GPL-2.0-or-later / CC0. No real people, brands or text.
+Images: AI-generated for this theme with Grok Build image_gen as realistic low-key photographs (50mm f/1.4, one hard window light, deep shadows, fine grain, graded toward navy #1E3A5F; re-graded from violet to navy with a masked hue shift in 1.0.1), released under GPL-2.0-or-later / CC0. No real people, brands or text.
 - assets/images/consultant-cutout.webp (home hero: a consultant holding a leather folio, transparent cut-out that breaks out of the framed hero photo and the hero bottom edge)
 - assets/images/compass-cutout.webp (story band and page heads: a brass pocket compass, transparent cut-out that breaks over the band top edge and the page-head bottom edges)
 - assets/images/boardroom.webp (home hero (framed), services mosaic and Briefing page head: an empty boardroom at dusk)
@@ -44,5 +44,16 @@ Images: AI-generated for this theme with Grok Build image_gen as realistic low-k
 - assets/images/desk.webp (services: a desk with a notebook, pen and coffee under a lamp)
 - assets/images/city.webp (story band, Services, About and contact page heads: office towers at blue hour)
 - assets/images/demo/boardroom.webp (demo import copy of boardroom.webp)
-- assets/images/demo/desk.webp (demo import copy of desk.webp)
+- assets/images/demo/desk.webp (demo posts: a desk with an open notebook, pen and coffee under a lamp; regenerated in 1.0.1 without lettering on the glass)
 - assets/images/demo/city.webp (demo import copy of city.webp)
+
+== Changelog ==
+
+= 1.0.1 =
+* Deep navy #1E3A5F replaces shikon violet as the main colour, with mist blue-grey, cloud white and a small muted brass accent; photos re-graded to navy.
+* The Chinese and Japanese side menu is now horizontal like the other languages (it was set top to bottom in narrow columns); current-page marker, clearer hover and focus states, wider rail for long French and German entries.
+* Phone overlay menu: large horizontal entries, 48px touch targets and a framed close button.
+* Chinese and Japanese section titles are horizontal.
+
+= 1.0.0 =
+* First release.
