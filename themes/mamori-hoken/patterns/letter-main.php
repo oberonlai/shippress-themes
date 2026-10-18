@@ -5,7 +5,7 @@
  * Categories: mamori-hoken
  * Keywords: insurance, agency, advice
  * Viewport Width: 1440
- * Description: A pencil sketch beside the sign-up card.
+ * Description: A photo beside the sign-up card.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "mh-section mh-letter", "layout": {"type": "constrained"}} -->
