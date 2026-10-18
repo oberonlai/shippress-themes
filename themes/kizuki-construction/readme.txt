@@ -43,4 +43,4 @@ Images: AI-generated for this theme with Grok Build image_gen as realistic docum
 - assets/images/helmet-cutout.webp (survey call and page heads: a safety helmet, transparent cut-out that breaks out over the band edge)
 - assets/images/demo/handover.webp (sample post image)
 - assets/images/demo/frame.webp (sample post image)
-- assets/images/demo/survey.webp (sample post image)
+- assets/images/demo/plot.webp (sample post image)
