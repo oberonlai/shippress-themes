@@ -1,0 +1,10 @@
+<?php
+/**
+ * Title: Race board (synced)
+ * Slug: mamori-hoken/board
+ * Categories: mamori-hoken
+ * Keywords: ekiden, relay race, running
+ * Description: Today: advisers in, hours, claims line, reply time and closed days as one synced pattern.
+ */
+
+echo Mamori_Hoken_Info::markup( 'board' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- block markup from the theme.
