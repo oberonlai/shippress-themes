@@ -57,7 +57,7 @@ test("page_structure and first_screen never repeat on adjacent rows or inside th
 });
 
 test("a done row with a new structure records its shipped front-page blocks", () => {
-  const done = (rows) => { rows["b5-8"].status = "done (abc1234, 2026-10-19)"; };
+  const done = (rows) => { rows["b5-8"].status = "done (abc1234, 2026-10-19)"; delete rows["b5-8"].front_page_blocks; };
   assert.match(check(done).out, /hirameki-lab: done row needs front_page_blocks/);
   const r = check((rows) => { done(rows); rows["b5-8"].front_page_blocks = ["hl-hero-strip", "hl-wall", "hl-featured", "hl-courses", "hl-figures", "hl-trial"]; });
   assert.equal(r.code, 0, r.out);
