@@ -1,0 +1,583 @@
+/*
+Theme Name: Niko Kids Clinic
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/niko-kids-clinic
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Niko Kids Clinic — a theme for a paediatric clinic (illness visits, vaccinations, check-ups and an allergy clinic), laid out as an editorial magazine under a formal white top header: the clinic name and tagline centred on top, a Book a visit button at the right and the menu as a centred row underneath (an aqua numbered overlay on phones). Byakugun pale aqua (#78C2C4) is the main colour, with a fine film-grain texture: the hero field, the story band, the visit-steps heading block and every page head are aqua fields in deep-teal type, with coral as a second risograph-style ink. The hero is a diagonal split: text on the aqua field, the waiting-room photograph cut on a diagonal with a coral misregistered edge, and a photo collage across the seam — a tilted print of toy blocks, a cut-out stethoscope and a cut-out teddy bear (transparent WebP) that breaks across the diagonal and past the hero bottom edge. Sections read like a magazine: running rules over every label, a numbered two-column care index with column rules, staggered visit steps and a lead story beside two side stories. Every picture is a realistic film-grain photograph (35mm look, 50mm f/2, natural side light). Noto Sans JP for display, Lato for reading, Noto Sans TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: niko-kids-clinic
+Tags: block-theme, full-site-editing, wide-blocks, custom-colors, editor-style, translation-ready, blog
+*/
+
+:root {
+	--nk-paper: var(--wp--preset--color--paper);
+	--nk-red: var(--wp--preset--color--suou);
+	--nk-mist: var(--wp--preset--color--mist);
+	--nk-ink: var(--wp--preset--color--ink);
+	--nk-deep: var(--wp--preset--color--deep);
+	--nk-quiet: var(--wp--preset--color--quiet);
+	--nk-pale: var(--wp--preset--color--pale);
+	--nk-field-ink: var(--wp--preset--color--field-ink);
+	--nk-pad: clamp(1.25rem, 4vw, 3rem);
+	--nk-sec: clamp(3.5rem, 7vw, 6.5rem);
+	--nk-line: 1.5px solid var(--nk-ink);
+	--nk-rail: 0px;
+	--nk-headh: 72px;
+	--nk-wide: var(--wp--style--global--wide-size);
+	/* The grid-paper texture tile laid over every suou field */
+	--nk-koshi: url("assets/images/pattern.webp");
+	--nk-grid: url("assets/images/pattern.webp");
+	/* A torn paper edge for the collage pieces */
+	--nk-torn: polygon(0% 2%, 6% 0%, 13% 1.5%, 21% 0.3%, 30% 1.8%, 38% 0%, 47% 1.2%, 55% 0.2%, 64% 1.6%, 72% 0.4%, 81% 1.4%, 90% 0%, 100% 1.5%, 99% 12%, 100% 25%, 98.8% 38%, 100% 51%, 99% 64%, 100% 77%, 98.6% 89%, 100% 98%, 93% 100%, 84% 98.6%, 75% 100%, 66% 98.4%, 57% 100%, 48% 98.8%, 39% 100%, 30% 98.5%, 21% 100%, 12% 98.6%, 4% 100%, 0% 98%, 1.2% 86%, 0% 73%, 1% 60%, 0% 47%, 1.4% 34%, 0% 21%, 1% 10%);
+}
+
+ /* Fonts per language: Noto Sans JP / Lato for Latin; Japanese headings use the Noto Sans JP JA subset, Traditional Chinese headings the bundled Noto Sans TC subset (never a Japanese font) */
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Sans JP", "Noto Sans JP JA", "Hiragino Sans", "Yu Gothic", sans-serif;
+	--wp--preset--font-family--body: "Lato", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif;
+}
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Sans TC", "Lato", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Lato", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:lang(ja) body, :lang(zh) body { line-height: 1.95; }
+:is(:lang(ja), :lang(zh)) :is(.nk-eyebrow, .nk-issue, .nk-board__tonight, .nk-rates__label, .nk-row__facts, .nk-room__facts, .nk-toc__label) { letter-spacing: 0.08em; text-transform: none; }
+
+html, body { overflow-x: clip; }
+a { color: var(--nk-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+
+/* Labels, titles, block styles */
+.nk-eyebrow { font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--nk-deep); margin: 0 0 0.85rem; }
+.nk-eyebrow a { color: inherit; text-decoration: none; }
+.nk-sec__title { margin: 0 0 1.25rem; font-size: clamp(2rem, 1.2rem + 2.4vw, 3.375rem); line-height: 1.12; text-wrap: balance; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.65; }
+.wp-block-button__link { box-shadow: none; }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--nk-deep); padding: 0.25rem 0; border-bottom: 2px solid currentColor; border-radius: 0; }
+.wp-block-button.is-style-outline .wp-block-button__link { background: transparent; color: var(--nk-ink); border: var(--nk-line); }
+hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5rem 0; opacity: 1; background: var(--nk-koshi), var(--nk-red); }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.75rem 0 0.75rem 1.6rem; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); position: relative; }
+.is-style-rule-list li::before { content: ""; position: absolute; left: 0.1rem; top: 1.3rem; width: 0.6rem; height: 0.6rem; background: var(--nk-red); border-radius: 50%; }
+.nk-dropcap::first-letter { float: left; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 3.6em; line-height: 0.82; margin: 0.08em 0.12em 0 0; color: var(--nk-deep); }
+:is(:lang(ja), :lang(zh)) .nk-dropcap::first-letter { font-size: 2.6em; line-height: 1; }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.nk-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .nk-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 700; letter-spacing: 0.3em; margin: 0; line-height: 1.3; white-space: nowrap; }
+
+/* Collage pieces: torn-edged sketches on paper, held by a strip of tape */
+.nk-piece { margin: 0; position: relative; filter: drop-shadow(0 14px 16px rgba(42, 36, 16, 0.22)); }
+.nk-piece img { display: block; width: 100%; clip-path: var(--nk-torn); background: #F7F9FA; }
+.nk-piece::after { content: ""; position: absolute; z-index: 2; top: -12px; left: 50%; width: 92px; height: 26px; margin-left: -46px; background: rgba(254, 240, 194, 0.78); border-left: 1px dashed rgba(42, 36, 16, 0.15); border-right: 1px dashed rgba(42, 36, 16, 0.15); transform: rotate(-4deg); }
+
+/* Header: a formal top bar. House name and tagline on the left, the Book a stay button on the right; on wide screens the menu leaves the bar and becomes a fixed ink side rail down the left edge, with numbered entries. Phones and tablets get an overlay menu */
+.nk-head-part { position: sticky; top: 0; z-index: 40; }
+.nk-head { margin: 0; background: var(--nk-paper); color: var(--nk-ink); border-bottom: var(--nk-line); }
+.nk-head > .nk-bar { max-width: none !important; }
+.nk-bar { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 1rem 2rem; min-height: var(--nk-headh); }
+.nk-bar > * { margin: 0 !important; }
+.nk-brand { display: flex; align-items: baseline; gap: 0.35rem 1.25rem; flex-wrap: wrap; margin-right: auto !important; }
+.nk-brand > * { margin: 0 !important; }
+.nk-brand__title { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.875rem); line-height: 1.05; white-space: nowrap; letter-spacing: 0.01em; }
+.nk-brand__title a { color: var(--nk-ink); text-decoration: none; }
+.nk-brand__tag { font-size: 0.8125rem; color: var(--nk-quiet); line-height: 1.3; max-width: 32rem; padding-left: 1.25rem; border-left: 1px solid color-mix(in srgb, var(--nk-ink) 30%, transparent); }
+.nk-nav { font-weight: 600; font-size: 0.9375rem; letter-spacing: 0.02em; }
+.nk-nav a { color: inherit; text-decoration: none; white-space: nowrap; }
+.nk-nav .wp-block-navigation__responsive-container-open { color: #0F171C; padding: 0.45rem; background: var(--nk-red); border-radius: 2px; }
+.nk-head__cta .wp-block-button__link { background: var(--nk-red); color: var(--nk-paper); padding: 0.7rem 1.35rem; border-radius: 2px; white-space: nowrap; font-size: 0.9375rem; border: var(--nk-line); }
+.nk-head__cta .wp-block-button__link:hover { background: var(--nk-ink); color: var(--nk-paper); }
+.nk-head .nk-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--nk-koshi), var(--nk-red); color: #0F171C; padding: 2rem var(--nk-pad); }
+.nk-nav .is-menu-open .wp-block-navigation__container { gap: 1.1rem; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2rem; }
+.nk-nav .is-menu-open a, .nk-nav .is-menu-open .wp-block-navigation__responsive-container-close { color: var(--nk-ink); }
+@media (max-width: 1099px) {
+	.nk-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
+	.nk-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
+	.nk-brand__tag { display: none; }
+}
+@media (max-width: 599px) {
+	.nk-bar { gap: 0.75rem; min-height: 62px; }
+	.nk-brand__title { font-size: 1.25rem; }
+	.nk-head__cta .wp-block-button__link { padding: 0.45rem 0.75rem; font-size: 0.8125rem; }
+}
+
+/* The page column */
+.nk-shell { display: block; margin: 0 !important; }
+.nk-main { margin: 0 !important; padding: 0 !important; min-width: 0; }
+.nk-main > * { margin-block: 0; }
+.nk-main > .wp-block-post-content > * { margin-block: 0; }
+.nk-section { padding-block: var(--nk-sec); margin: 0 !important; position: relative; }
+.nk-main .nk-section.is-layout-constrained > :not(.alignfull) { max-width: var(--nk-wide) !important; }
+.nk-main .nk-section > p:not(.nk-tate):not(.nk-eyebrow) { padding-right: max(0px, calc(100% - 40rem)); }
+.nk-section > * { margin-block-start: 0; }
+
+/* Hero: a persimmon cover. Issue line, title, lead, buttons and the contents on the left; three torn pencil sketches stacked and taped on the right; the cut-out townhouse stands in front of the collage and breaks over the hero bottom edge */
+.nk-hero { position: relative; z-index: 4; isolation: isolate; margin: 0 !important; padding: clamp(3rem, 5vw, 4.5rem) var(--nk-pad) clamp(4rem, 7vw, 6rem) !important; background: var(--nk-red); color: var(--nk-paper); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 4vw, 4rem); align-items: center; min-height: clamp(680px, 86vh, 860px); box-sizing: border-box; }
+.nk-hero::before { content: ""; position: absolute; z-index: -1; top: 0; bottom: 0; right: 0; width: 46%; background: var(--nk-koshi); pointer-events: none; }
+.nk-hero > * { margin: 0 !important; }
+.nk-hero__text > * { margin-block: 0 1.1rem; }
+.nk-issue { display: flex; align-items: center; gap: 0.75rem; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; }
+.nk-issue::before, .nk-issue::after { content: ""; flex: 0 0 2.5rem; height: 1.5px; background: currentColor; }
+.nk-hero .nk-eyebrow { color: var(--nk-ink); }
+.nk-hero__title { font-size: clamp(2.75rem, 1rem + 4.4vw, 5.75rem); line-height: 1.02; letter-spacing: -0.01em; text-wrap: balance; max-width: 11ch; margin-bottom: 1.5rem !important; }
+:is(:lang(ja), :lang(zh)) .nk-hero__title { line-height: 1.2; font-size: clamp(2.375rem, 0.8rem + 4vw, 4.75rem); max-width: 8em; }
+:lang(ja) .nk-hero__title { word-break: auto-phrase; }
+.nk-hero__lead { font-size: var(--wp--preset--font-size--large); max-width: 32rem; line-height: 1.6; }
+.nk-hero__cta { gap: 0.75rem 1rem; margin-top: 1.75rem !important; }
+.nk-hero .nk-book .wp-block-button__link { background: var(--nk-ink); color: var(--nk-paper); }
+.nk-hero .nk-book .wp-block-button__link:hover { background: var(--nk-paper); color: var(--nk-ink); }
+.nk-hero .is-style-outline .wp-block-button__link { border-color: var(--nk-ink); }
+.nk-toc { margin-top: 2.25rem !important; border-top: 1.5px solid var(--nk-ink); padding-top: 0.9rem; max-width: 30rem; }
+.nk-toc > * { margin: 0 !important; }
+.nk-toc__label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.4rem !important; }
+.nk-toc__list { list-style: none; padding: 0; counter-reset: toc; }
+.nk-toc__list li { counter-increment: toc; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); align-items: baseline; padding: 0.35rem 0; border-bottom: 1px solid rgba(42, 36, 16, 0.3); font-weight: 600; }
+.nk-toc__list li::before { content: counter(toc, decimal-leading-zero); font-family: var(--wp--preset--font-family--display); font-weight: 700; }
+:is(:lang(ja), :lang(zh)) .nk-toc__list li::before { content: counter(toc, cjk-decimal); }
+.nk-collage { position: relative; height: clamp(520px, 44vw, 660px); }
+.nk-collage > * { margin: 0 !important; }
+.nk-piece--a { position: absolute !important; top: 0; left: 0; width: 70%; transform: rotate(-3deg); z-index: 1; }
+.nk-piece--b { position: absolute !important; top: 30%; right: 0; width: 62%; transform: rotate(2.5deg); z-index: 2; }
+.nk-piece--c { position: absolute !important; bottom: 0; left: 6%; width: 32%; transform: rotate(-1.5deg); z-index: 3; }
+.nk-piece--b::after { left: 22%; transform: rotate(6deg); }
+.nk-hero__house { position: absolute !important; z-index: 5; right: calc(var(--nk-pad) + 4%); bottom: -9%; width: clamp(200px, 17vw, 300px); margin: 0 !important; pointer-events: none; filter: drop-shadow(0 18px 18px rgba(42, 36, 16, 0.3)); }
+.nk-hero__house img { display: block; width: 100%; }
+.nk-hero .nk-tate { position: absolute; z-index: 4; left: calc(5 / 11 * 100% + 1rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.25rem, 0.9rem + 0.9vw, 1.75rem); background: var(--nk-paper); color: var(--nk-ink); padding: 1rem 0.6rem; border: var(--nk-line); }
+@media (max-width: 960px) {
+	.nk-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; padding-bottom: 5rem !important; }
+	.nk-hero::before { width: 100%; top: auto; height: 46%; }
+	.nk-collage { height: clamp(380px, 92vw, 620px); max-width: 640px; }
+	.nk-hero__house { right: var(--nk-pad); bottom: -6%; width: clamp(150px, 34vw, 240px); }
+	.nk-hero .nk-tate { display: none; }
+}
+
+/* At a glance (synced house board): a ruled fact box on paper */
+.nk-glance { background: var(--nk-paper); z-index: 1; padding-block: clamp(4.5rem, 8vw, 6.5rem) clamp(3rem, 6vw, 4.5rem) !important; }
+.nk-board { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr); gap: 0.75rem clamp(1.5rem, 3vw, 3rem); margin: 0; align-items: start; border-top: 4px double var(--nk-ink); border-bottom: 1.5px solid var(--nk-ink); padding-block: 1.5rem; }
+.nk-board > * { margin: 0 !important; }
+.nk-board p { margin: 0; }
+.nk-board__label { display: none; }
+.nk-board__tonight { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--nk-deep); grid-column: 1; grid-row: 1; }
+.nk-board__sky { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.625rem, 1.2rem + 1.2vw, 2.25rem); line-height: 1.15; grid-row: 2; grid-column: 1; }
+.nk-board__clear { font-size: 0.9375rem; grid-row: 3; grid-column: 1; color: var(--nk-ink); background: var(--nk-mist); padding: 0.35rem 0.75rem; justify-self: start; }
+.nk-board__rows { display: grid; gap: 0; grid-row: 1 / span 3; grid-column: 2; border-left: 1px solid rgba(42, 36, 16, 0.25); border-right: 1px solid rgba(42, 36, 16, 0.25); padding-inline: clamp(1rem, 2vw, 2rem); }
+.nk-board__rows > * { margin: 0 !important; }
+.nk-board__row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; border-bottom: 1px dotted rgba(42, 36, 16, 0.4); padding: 0.55rem 0; }
+.nk-board__row:last-child { border-bottom: 0; }
+.nk-board__row > * { margin: 0 !important; }
+.nk-board__k { font-size: 0.875rem; color: var(--nk-quiet); }
+.nk-board__v { font-weight: 600; text-align: right; }
+.nk-board__note { font-size: 0.9375rem; color: var(--nk-quiet); grid-column: 3; grid-row: 1 / span 2; }
+.nk-board__cta { grid-column: 3; grid-row: 3; }
+.nk-board__cta .wp-block-button__link { background: var(--nk-red); color: var(--nk-paper); border: var(--nk-line); }
+@media (max-width: 900px) {
+	.nk-board { grid-template-columns: minmax(0, 1fr); }
+	.nk-board > * { grid-column: 1 !important; grid-row: auto !important; }
+	.nk-board__rows { border: 0; padding: 0; }
+}
+
+/* Feature 01: a magazine spread. Title, a two-column lead with a drop cap and a pull quote beside a taped sketch, then the four rooms on a staggered grid */
+.nk-feature { background: var(--nk-paper); }
+.nk-spread { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+.nk-spread > * { margin: 0 !important; }
+.nk-spread__intro > * { margin-block: 0 1.25rem; }
+.nk-feature__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4.25rem); max-width: 14ch; }
+.nk-spread__intro .nk-dropcap { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(42, 36, 16, 0.2); font-size: 1.0625rem; }
+.nk-pull { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.875rem); line-height: 1.35; border-left: 6px solid var(--nk-red); padding-left: 1.25rem; margin-top: 2rem !important; max-width: 30rem; }
+.nk-spread__img { transform: rotate(2deg); margin-top: 2.5rem !important; }
+.nk-rooms { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.25rem, 2.5vw, 2.25rem); margin-top: clamp(3rem, 6vw, 5rem) !important; counter-reset: room; }
+.nk-rooms > * { margin: 0 !important; }
+.nk-room { counter-increment: room; position: relative; padding-top: 3.25rem; }
+.nk-room:nth-child(even) { margin-top: 3.5rem !important; }
+.nk-room > * { margin: 0 0 0.5rem !important; }
+.nk-room::before { content: counter(room, decimal-leading-zero); position: absolute; top: 0; left: 0; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2.5rem; line-height: 1; color: var(--nk-deep); }
+:is(:lang(ja), :lang(zh)) .nk-room::before { content: counter(room, cjk-decimal); }
+.nk-room__img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border: 8px solid #FFFFFF; outline: 1px solid rgba(42, 36, 16, 0.25); box-sizing: border-box; }
+.nk-room__title { font-size: 1.5rem; margin-top: 0.85rem !important; }
+.nk-room__facts { font-size: 0.8125rem; font-weight: 600; color: var(--nk-deep); }
+.nk-room__text { font-size: 0.9375rem; line-height: 1.65; color: var(--nk-quiet); }
+.nk-more { margin-top: 2.5rem !important; }
+@media (max-width: 1000px) { .nk-rooms { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+	.nk-spread { grid-template-columns: minmax(0, 1fr); }
+	.nk-spread__img { max-width: 420px; margin-top: 0 !important; }
+}
+@media (max-width: 640px) {
+	.nk-spread__intro .nk-dropcap { column-count: 1; }
+	.nk-rooms { grid-template-columns: minmax(0, 1fr); }
+	.nk-room:nth-child(even) { margin-top: 0 !important; }
+}
+
+/* Feature 02: the story on a persimmon band. The year in giant type and the story beside a taped collage; the cut-out persimmon branch breaks over the band top edge */
+.nk-story { z-index: 3; background: var(--nk-red); color: var(--nk-paper); padding-block: clamp(5.5rem, 10vw, 8rem) var(--nk-sec) !important; }
+.nk-story::before { content: ""; position: absolute; inset: 0 0 0 auto; width: 48%; background: var(--nk-koshi); pointer-events: none; }
+.nk-story > .nk-story__branch { position: absolute !important; z-index: 4; top: -96px; right: max(var(--nk-pad), calc((100% - var(--nk-wide)) / 2 + 2rem)); width: clamp(170px, 18vw, 280px); margin: 0 !important; pointer-events: none; transform: rotate(-12deg); filter: drop-shadow(0 14px 14px rgba(42, 36, 16, 0.25)); }
+.nk-story__branch img { display: block; width: 100%; }
+.nk-story__grid { position: relative; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+.nk-story__grid > * { margin: 0 !important; }
+.nk-story__text > * { margin-block: 0 1.1rem; }
+.nk-story .nk-eyebrow { color: var(--nk-ink); }
+.nk-story__no { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(5.5rem, 2rem + 9vw, 11rem); line-height: 0.85; letter-spacing: -0.02em; }
+.nk-story .nk-sec__title { font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.75rem); }
+.nk-story__lead { max-width: 34rem; }
+.nk-story__collage { position: relative; height: clamp(420px, 38vw, 560px); }
+.nk-story__collage > * { margin: 0 !important; }
+.nk-piece--d { position: absolute !important; top: 0; left: 4%; width: 46%; transform: rotate(-4deg); z-index: 1; }
+.nk-piece--e { position: absolute !important; top: 12%; right: 0; width: 56%; transform: rotate(3deg); z-index: 2; }
+.nk-piece--f { position: absolute !important; bottom: 0; left: 26%; width: 52%; transform: rotate(-1deg); z-index: 3; }
+@media (max-width: 860px) {
+	.nk-story__grid { grid-template-columns: minmax(0, 1fr); }
+	.nk-story::before { width: 100%; top: auto; height: 40%; }
+	.nk-story__collage { height: clamp(320px, 86vw, 520px); }
+	.nk-story > .nk-story__branch { top: -70px; width: 150px; }
+}
+
+/* Feature 03: your stay, four taped steps on pale persimmon */
+.nk-process { background: var(--nk-mist); }
+.nk-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2.4vw, 2rem); margin-top: 2.5rem !important; counter-reset: step; }
+.nk-strip > * { margin: 0 !important; }
+.nk-step { counter-increment: step; position: relative; background: var(--nk-paper); padding: 12px 12px 1.25rem; box-shadow: 0 16px 30px -24px rgba(42, 36, 16, 0.6); }
+.nk-step:nth-child(odd) { transform: rotate(-1deg); }
+.nk-step:nth-child(even) { transform: rotate(1deg); }
+.nk-step > * { margin: 0 !important; }
+.nk-step::before { content: counter(step); position: absolute; z-index: 2; left: -12px; top: -14px; width: 2.6rem; height: 2.6rem; display: grid; place-items: center; background: var(--nk-red); color: var(--nk-paper); border: var(--nk-line); border-radius: 50%; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.125rem; }
+:is(:lang(ja), :lang(zh)) .nk-step::before { content: counter(step, cjk-decimal); }
+.nk-step__img img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.nk-step__title { font-size: 1.3125rem; padding: 1rem 0.35rem 0.35rem; }
+.nk-step__text { font-size: 0.9375rem; line-height: 1.6; padding: 0 0.35rem; color: var(--nk-quiet); }
+@media (max-width: 1000px) { .nk-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 2.5rem; } }
+@media (max-width: 560px) { .nk-strip { grid-template-columns: minmax(0, 1fr); } }
+
+/* Journal lists */
+.nk-home-journal, .nk-list { background: var(--nk-paper); }
+.nk-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.25rem); padding: 0; }
+.nk-notes .wp-block-post-template > li { margin: 0; background: #FFFFFF; padding: 10px 10px 1.25rem; position: relative; box-shadow: 0 16px 30px -26px rgba(42, 36, 16, 0.6); }
+.nk-notes .wp-block-post-template > li::after { content: ""; position: absolute; top: -10px; left: 50%; width: 80px; height: 22px; margin-left: -40px; background: rgba(250, 191, 20, 0.4); transform: rotate(-3deg); }
+.nk-note__img { margin: 0 0 0.85rem; }
+.nk-note__img img { display: block; }
+.nk-note__text { padding-inline: 0.5rem; }
+.nk-note__date { font-size: 0.8125rem; color: var(--nk-quiet); font-variant-numeric: tabular-nums; }
+.nk-note__title { font-size: 1.375rem; margin: 0.25rem 0 0.5rem; }
+.nk-note__title a { color: var(--nk-ink); text-decoration: none; }
+.nk-note__title a:hover { color: var(--nk-deep); text-decoration: underline; }
+.nk-pagination { margin-top: 2.5rem; }
+
+/* Page heads: a persimmon band with a torn, taped sketch on the right; the cut-out persimmon branch breaks over the bottom edge */
+.nk-pagehead { position: relative; z-index: 3; isolation: isolate; background: var(--nk-red); color: var(--nk-paper); padding-block: clamp(3.5rem, 7vw, 6rem) clamp(4.5rem, 8vw, 6.5rem) !important; margin: 0 !important; }
+.nk-pagehead::before { content: ""; position: absolute; z-index: -1; inset: 0 0 0 auto; width: 40%; background: var(--nk-koshi); pointer-events: none; }
+.nk-main .nk-pagehead.is-layout-constrained { padding-inline: max(var(--nk-pad), calc((100% - var(--nk-wide)) / 2)) !important; }
+.nk-main .nk-pagehead.is-layout-constrained > * { max-width: none !important; margin-inline: 0 !important; }
+.nk-pagehead > * { margin-block: 0 0.85rem; position: relative; }
+.nk-pagehead .nk-eyebrow { color: var(--nk-ink); display: inline-block; width: fit-content; border-bottom: 1.5px solid var(--nk-ink); padding-bottom: 0.25rem; }
+.nk-pagehead__title { font-size: clamp(2.5rem, 1rem + 4vw, 5rem); line-height: 1.08; text-wrap: balance; max-width: 14ch; }
+:is(:lang(ja), :lang(zh)) .nk-pagehead__title { line-height: 1.3; font-size: clamp(2.125rem, 1rem + 3vw, 3.75rem); max-width: 11em; }
+.nk-pagehead__lead { font-size: var(--wp--preset--font-size--large); max-width: 38rem; }
+.nk-main .nk-pagehead > :is(.nk-pagehead__title, .nk-pagehead__lead) { padding-right: 0; box-sizing: border-box; }
+@media (min-width: 861px) {
+	.nk-pagehead:has(> .nk-pagehead__img) > :is(.nk-eyebrow, .nk-pagehead__title, .nk-pagehead__lead) { max-width: min(56%, 40rem) !important; }
+}
+.nk-pagehead > .nk-pagehead__img { position: absolute !important; z-index: 1; top: clamp(2rem, 4vw, 3rem); right: max(var(--nk-pad), calc((100% - var(--nk-wide)) / 2)); width: clamp(260px, 32%, 440px); transform: rotate(2.5deg); margin: 0 !important; }
+.nk-pagehead__img img { aspect-ratio: 4 / 3; object-fit: cover; }
+.nk-pagehead > .nk-pagehead__branch { position: absolute !important; z-index: 4; right: calc(max(var(--nk-pad), calc((100% - var(--nk-wide)) / 2)) + clamp(200px, 26%, 360px)); bottom: -64px; width: clamp(140px, 13vw, 210px); margin: 0 !important; pointer-events: none; transform: rotate(14deg); filter: drop-shadow(0 12px 12px rgba(42, 36, 16, 0.28)); }
+.nk-pagehead__branch img { display: block; width: 100%; }
+.nk-pagehead > .nk-tate { position: absolute; right: calc(max(var(--nk-pad), calc((100% - var(--nk-wide)) / 2)) + clamp(260px, 32%, 440px) + 1.5rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.125rem, 0.9rem + 0.7vw, 1.5rem); background: var(--nk-paper); color: var(--nk-ink); padding: 0.9rem 0.55rem; border: var(--nk-line); margin: 0 !important; }
+.nk-pagehead .wp-block-search { max-width: 34rem; margin-top: 1.25rem; }
+.nk-search .wp-block-search__input { border: var(--nk-line); border-radius: 2px 0 0 2px; padding: 0.6rem 1.1rem; background: #FFFFFF; }
+.nk-search .wp-block-search__button { background: var(--nk-ink); color: var(--nk-paper); border-radius: 0 2px 2px 0; border: 0; padding-inline: 1.25rem; font-weight: 600; }
+.nk-pagehead .nk-hero__cta { justify-content: flex-start; }
+@media (max-width: 1240px) and (min-width: 861px) { .nk-pagehead > .nk-tate { display: none; } }
+@media (max-width: 860px) {
+	.nk-pagehead > .nk-pagehead__img { position: relative !important; top: auto; right: auto; width: min(100%, 420px); margin: 1.5rem 0 0 !important; }
+	.nk-pagehead > .nk-pagehead__branch { right: var(--nk-pad); bottom: -48px; width: 110px; }
+	.nk-pagehead > .nk-tate { display: none; }
+	.nk-pagehead::before { width: 100%; top: auto; height: 35%; }
+}
+
+/* The house: magazine rows, taped sketch beside facts, title and the long text */
+.nk-rows { padding-top: calc(var(--nk-sec) + 2rem) !important; }
+.nk-rows__list { display: grid; gap: clamp(3.5rem, 7vw, 6rem); }
+.nk-rows__list > * { margin: 0 !important; }
+.nk-row { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+.nk-row > * { margin: 0 !important; }
+.nk-row:nth-child(even) .nk-row__img { order: 2; transform: rotate(1.5deg); }
+.nk-row:nth-child(odd) .nk-row__img { transform: rotate(-1.5deg); }
+.nk-row__img img { aspect-ratio: 3 / 2; object-fit: cover; }
+.nk-row__text > * { margin-block: 0 0.85rem; }
+.nk-row__facts { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--nk-deep); }
+.nk-row__title { font-size: clamp(2rem, 1.3rem + 2vw, 3.125rem); line-height: 1.1; }
+.nk-advice { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; margin-top: clamp(4rem, 8vw, 6rem) !important; padding-top: clamp(2.5rem, 5vw, 4rem); border-top: 4px double var(--nk-ink); }
+.nk-advice > * { margin: 0 !important; }
+.nk-advice__text > * { margin-block: 0 1rem; }
+.nk-links .nk-book .wp-block-button__link, .nk-mailto .wp-block-button__link { background: var(--nk-ink); color: var(--nk-paper); }
+
+/* Rates (synced) */
+.nk-rates { background: var(--nk-mist); padding: clamp(1.25rem, 3vw, 2rem); margin: 0; border-top: 6px solid var(--nk-red); }
+.nk-rates > * { margin: 0 !important; }
+.nk-rates__label { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.625rem; margin-bottom: 0.75rem !important; }
+.nk-rate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 1rem; padding: 0.85rem 0; border-bottom: 1px dotted rgba(42, 36, 16, 0.45); }
+.nk-rate > * { margin: 0 !important; }
+.nk-rate__name { font-weight: 600; }
+.nk-rate__facts { grid-column: 1; font-size: 0.8125rem; color: var(--nk-quiet); }
+.nk-rate__price { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.1875rem; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.nk-rates__note { font-size: 0.875rem; color: var(--nk-quiet); margin-top: 1rem !important; }
+
+/* The host */
+.nk-about { padding-top: calc(var(--nk-sec) + 2rem) !important; }
+.nk-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.nk-about__story > * { margin: 0 !important; }
+.nk-about__text { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(42, 36, 16, 0.2); }
+.nk-about__text > * { margin-block: 0 1.1rem; }
+.nk-about__img { transform: rotate(2deg); }
+.nk-about__wide { margin-top: clamp(3rem, 6vw, 5rem) !important; }
+.nk-about__wide img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border: 10px solid #FFFFFF; outline: 1px solid rgba(42, 36, 16, 0.25); box-sizing: border-box; }
+.nk-rules { margin-top: clamp(3rem, 6vw, 4.5rem) !important; max-width: 44rem; }
+.nk-steps { padding: 0; margin: 0; list-style: none; counter-reset: splist; display: grid; gap: 0.85rem; }
+.nk-steps li { counter-increment: splist; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: 0.85rem; align-items: start; }
+.nk-steps li::before { content: counter(splist); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; background: var(--nk-red); color: var(--nk-paper); font-family: var(--wp--preset--font-family--display); font-weight: 700; border: var(--nk-line); border-radius: 50%; }
+:is(:lang(ja), :lang(zh)) .nk-steps li::before { content: counter(splist, cjk-decimal); }
+
+/* Letters */
+.nk-letter { padding-top: calc(var(--nk-sec) + 2rem) !important; }
+.nk-letter__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.nk-letter__grid > * { margin: 0 !important; }
+.nk-letter__img { transform: rotate(-1.5deg); }
+.nk-letter__card { background: var(--nk-ink); color: var(--nk-paper); padding: clamp(1.5rem, 3.5vw, 2.5rem); border-top: 8px solid var(--nk-red); }
+.nk-letter__card > * { margin-block: 0 1rem; }
+.nk-letter__card .nk-sec__title { color: var(--nk-paper); font-size: clamp(1.75rem, 1.2rem + 1.4vw, 2.5rem); }
+.nk-letter__card .nk-mailto .wp-block-button__link { background: var(--nk-red); color: var(--nk-paper); }
+
+/* Book a stay */
+.nk-contact { padding-top: calc(var(--nk-sec) + 2rem) !important; }
+.nk-contact__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.nk-contact__grid > * { margin: 0 !important; }
+.nk-contact__book > *, .nk-contact__find > * { margin-block: 0 1.25rem; }
+.nk-contact__find .nk-sec__title { font-size: 1.625rem; margin-top: 2rem; }
+.nk-steps { margin-bottom: 1.75rem !important; }
+.nk-contact__book .nk-rates { margin-top: 2.5rem !important; }
+
+/* House details (synced) */
+.nk-details { display: grid; gap: 0.35rem; margin: 0; }
+.nk-details > * { margin: 0 !important; }
+.nk-details__season { font-weight: 600; }
+.nk-details__note { font-size: 0.875rem; margin-top: 0.5rem !important; }
+.nk-contact .nk-details { background: var(--nk-mist); padding: clamp(1.25rem, 3vw, 1.75rem); border-top: 6px solid var(--nk-red); }
+body:has(.nk-main .nk-details) .nk-foot .nk-details { display: none; }
+
+/* Single note and plain pages */
+.nk-article__head > * { margin-block: 0 0.75rem; }
+.nk-article__head { margin-bottom: 2rem; }
+.nk-article .nk-pagehead__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4rem); }
+.nk-article__date { color: var(--nk-quiet); font-size: 0.875rem; }
+.nk-photo { margin-block: 0 2.5rem; background: #FFFFFF; padding: 10px; box-shadow: 0 16px 30px -26px rgba(42, 36, 16, 0.6); }
+.nk-photo img { display: block; max-height: 560px; object-fit: cover; }
+.nk-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.nk-tags a { display: inline-block; background: var(--nk-mist); color: #0F171C; padding: 0.2rem 0.8rem; text-decoration: none; font-size: 0.875rem; margin: 0 0.25rem 0.25rem 0; border-left: 3px solid var(--nk-red); }
+.nk-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.nk-page .nk-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Footer: the ink field with the house name */
+.wp-site-blocks > footer { margin-block-start: 0; }
+.nk-foot { background: var(--nk-ink); color: var(--nk-paper); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2rem; margin: 0; border-top: 10px solid var(--nk-red); }
+.nk-foot__grid { display: grid; grid-template-columns: 1.4fr 1fr 0.7fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.nk-foot__grid > * { margin: 0 !important; }
+.nk-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(2.25rem, 1.2rem + 3.4vw, 4.25rem); line-height: 1; margin: 0 0 1rem; }
+.nk-foot .nk-foot__mark a { color: var(--nk-pale); text-decoration: none; }
+.nk-foot__sub { margin: 0; max-width: 28rem; }
+.nk-foot a { color: var(--nk-paper); }
+.nk-foot__nav { font-weight: 600; gap: 0.5rem; }
+.nk-foot__nav a { text-decoration: none; }
+.nk-foot__nav a:hover { text-decoration: underline; }
+.nk-foot__base { margin-top: 3rem !important; padding-top: 1.25rem; border-top: 1px solid rgba(255, 228, 92, 0.35); }
+.nk-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--nk-pale); }
+
+@media (max-width: 1100px) { .nk-notes .wp-block-post-template { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+	.nk-row, .nk-advice, .nk-about__story, .nk-letter__grid, .nk-contact__grid, .nk-foot__grid { grid-template-columns: minmax(0, 1fr); }
+	.nk-row:nth-child(even) .nk-row__img { order: 0; }
+	.nk-about__img { max-width: 380px; }
+	.nk-about__text { column-count: 1; }
+	.nk-pagehead { padding-bottom: 4.5rem !important; }
+}
+@media (max-width: 640px) {
+	.nk-notes .wp-block-post-template { grid-template-columns: minmax(0, 1fr); }
+	.nk-rate__price { font-size: 1.0625rem; }
+}
+
+/* ===== Niko Kids Clinic: pale aqua (byakugun) fields with a fine film grain, a centred formal header, a diagonal-split hero with a photo collage and cut-out pieces, editorial magazine sections ===== */
+:root { --nk-coral: var(--wp--preset--color--coral); }
+html { font-synthesis-weight: none; }
+h1, h2, h3, .nk-brand__title, .nk-hero__title, .nk-foot__mark { font-weight: 700 !important; letter-spacing: -0.005em; }
+.nk-piece { filter: none; }
+.nk-piece img { clip-path: none; background: var(--nk-paper); border: 0; box-sizing: border-box; }
+.nk-piece::after { display: none; }
+.wp-block-button__link { border-radius: 999px !important; }
+
+/* Header: a formal white bar. The clinic name and tagline centred on top, the Book a visit button at the right, the menu as a centred row underneath; below 782px the menu folds into an aqua overlay */
+.nk-head { background: #FFFFFF; border-bottom: 1px solid rgba(14, 42, 45, 0.14); position: relative; }
+.nk-head::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 5px; background: linear-gradient(90deg, var(--nk-red) 0 62%, var(--nk-coral) 62% 100%); }
+.nk-head__cta .wp-block-button__link { background: var(--nk-ink); color: #FFFFFF; padding: 0.7rem 1.35rem; font-weight: 700; border: 0; }
+.nk-head__cta .wp-block-button__link:hover { background: var(--nk-red); color: var(--nk-ink); }
+@media (min-width: 782px) {
+	.nk-bar { display: grid !important; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); grid-template-rows: auto auto; align-items: center; gap: 0 1.5rem !important; padding-top: 1.35rem; min-height: 0 !important; }
+	.nk-bar > .nk-brand { grid-column: 2; grid-row: 1; margin: 0 !important; flex-direction: column; align-items: center; text-align: center; gap: 0.4rem; }
+	.nk-brand__title { font-size: clamp(1.625rem, 1.2rem + 1vw, 2.25rem) !important; }
+	.nk-brand__tag { border-left: 0 !important; padding-left: 0 !important; max-width: 36rem; font-size: 0.8125rem; }
+	.nk-bar > .nk-head__cta { grid-column: 3; grid-row: 1; justify-self: end; }
+	.nk-bar > .nk-nav { grid-column: 1 / -1; grid-row: 2; justify-self: stretch; margin: 1.1rem 0 0 !important; padding: 0.85rem 0; border-top: 1px solid rgba(14, 42, 45, 0.14); justify-content: center; }
+	.nk-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: block !important; }
+	.nk-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: none !important; }
+	.nk-nav .wp-block-navigation__container { gap: 0.5rem clamp(1.5rem, 3.5vw, 3.25rem) !important; justify-content: center; }
+	.nk-nav a { font-size: 0.9375rem; letter-spacing: 0.04em; padding: 0.15rem 0; border-bottom: 2px solid transparent; }
+	.nk-nav a:hover, .nk-nav .current-menu-item > a { border-bottom-color: var(--nk-red); }
+}
+@media (max-width: 781px) {
+	.nk-brand__tag { display: none; }
+	.nk-nav .wp-block-navigation__responsive-container-open { display: flex !important; align-items: center; color: var(--nk-ink); background: var(--nk-red); border: 0; padding: 0.55rem; border-radius: 999px; }
+	.nk-head .nk-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background-color: var(--nk-red) !important; background-image: var(--nk-grid) !important; color: var(--nk-ink) !important; }
+	.nk-nav .is-menu-open .wp-block-navigation__responsive-container-content { padding: 6rem var(--nk-pad) 3rem !important; align-items: stretch !important; }
+	.nk-nav .is-menu-open .wp-block-navigation__container { gap: 0 !important; align-items: stretch !important; flex-direction: column !important; border-top: 1.5px solid var(--nk-ink); counter-reset: navi; }
+	.nk-nav .is-menu-open .wp-block-navigation__container > li { padding: 1rem 0 !important; border-bottom: 1px solid rgba(14, 42, 45, 0.35); width: 100%; counter-increment: navi; }
+	.nk-nav .is-menu-open .wp-block-navigation__container > li::before { content: "0" counter(navi); font-size: 0.875rem; letter-spacing: 0.12em; margin-right: 1.25rem; color: var(--nk-ink); }
+	.nk-nav .is-menu-open .wp-block-navigation__container > li > a { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2rem; color: var(--nk-ink) !important; }
+	.nk-nav .is-menu-open .wp-block-navigation__responsive-container-close { color: var(--nk-ink) !important; }
+}
+@media (max-width: 599px) { .nk-head__cta .wp-block-button__link { padding: 0.5rem 0.8rem; font-size: 0.875rem; } .nk-brand__title { font-size: 1.125rem !important; white-space: normal !important; } }
+@media (max-width: 400px) { .nk-head__cta { display: none !important; } }
+
+/* Hero: a diagonal split. Text on the pale aqua field on the left; the waiting-room photograph cut on a diagonal on the right, with a coral misregistered edge behind it like a second risograph ink. A tilted print of toy blocks, the cut-out stethoscope and the cut-out teddy bear (transparent WebP) break across the diagonal seam; the bear drops past the hero bottom edge */
+.nk-hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: stretch; background-color: var(--nk-red); background-image: var(--nk-grid); color: var(--nk-ink); padding: 0 !important; position: relative; z-index: 4; isolation: isolate; min-height: clamp(580px, 74vh, 760px); }
+.nk-hero::after { content: ""; position: absolute; z-index: 0; top: 0; bottom: 0; right: 0; width: calc(58% + 22px); background: var(--nk-coral); clip-path: polygon(26% 0, 100% 0, 100% 100%, 0 100%); }
+.nk-hero__text { grid-column: 1; grid-row: 1; align-self: center; position: relative; z-index: 3; padding: clamp(3rem, 6vw, 6rem) clamp(1.5rem, 3vw, 3rem) clamp(5rem, 8vw, 7rem) max(var(--nk-pad), calc((100vw - var(--nk-wide)) / 2)); }
+.nk-hero__text > * { margin: 0 0 1.1rem !important; }
+.nk-hero :is(.nk-hero__title, .nk-hero__lead, .nk-toc__label, .nk-toc__list li, .nk-eyebrow, .nk-issue) { color: var(--nk-ink); }
+.nk-hero .nk-issue { display: inline-block; background: #FFFFFF; padding: 0.25rem 0.8rem; border-radius: 999px; font-size: 0.8125rem; letter-spacing: 0.06em; }
+.nk-hero__title { font-size: clamp(2.5rem, 1rem + 3.8vw, 4.75rem); line-height: 1.08; max-width: 11ch; }
+:is(:lang(ja), :lang(zh)) .nk-hero__title { font-size: clamp(2.125rem, 0.8rem + 3vw, 3.75rem); line-height: 1.3; max-width: 9em; }
+:lang(de) .nk-hero__title, :lang(fr) .nk-hero__title { font-size: clamp(2.25rem, 0.9rem + 3.2vw, 4.125rem); max-width: 13ch; }
+.nk-hero__lead { max-width: 32rem; }
+.nk-hero .nk-book .wp-block-button__link { background: var(--nk-ink); color: #FFFFFF; }
+.nk-hero .nk-book .wp-block-button__link:hover { background: #FFFFFF; color: var(--nk-ink); }
+.nk-hero .is-style-outline .wp-block-button__link { border: 1.5px solid var(--nk-ink); color: var(--nk-ink); background: transparent; }
+.nk-toc { border-top: 1.5px solid var(--nk-ink); max-width: 32rem; }
+.nk-toc__list li { border-bottom-color: rgba(14, 42, 45, 0.3) !important; }
+.nk-hero > .nk-hero__photo { grid-column: 1 / -1; grid-row: 1; justify-self: end; width: 58%; height: 100%; margin: 0 !important; position: relative; z-index: 1; clip-path: polygon(26% 0, 100% 0, 100% 100%, 0 100%); }
+.nk-hero__photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.nk-hero > .nk-hero__print { grid-column: 2; grid-row: 1; align-self: end; justify-self: start; width: clamp(150px, 13vw, 210px); margin: 0 0 clamp(7rem, 12vw, 11rem) clamp(-5rem, -4vw, -2rem) !important; position: relative; z-index: 4; background: #FFFFFF; padding: 8px 8px 26px; transform: rotate(-6deg); box-shadow: 0 10px 22px rgba(14, 42, 45, 0.2); }
+.nk-hero__print img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; }
+.nk-hero > .nk-hero__scope { grid-column: 2; grid-row: 1; align-self: start; justify-self: start; width: clamp(170px, 17vw, 270px); margin: clamp(1rem, 2vw, 2rem) 0 0 calc(14% - 8.5vw) !important; position: relative; z-index: 5; transform: rotate(16deg); filter: drop-shadow(0 12px 12px rgba(14, 42, 45, 0.28)); }
+.nk-hero > .nk-hero__bowl { grid-column: 1 / -1; grid-row: 1; align-self: end; justify-self: start; position: relative !important; z-index: 5; width: clamp(250px, 26vw, 410px); margin: 0 0 clamp(-4.5rem, -5vw, -2.5rem) calc(42% - 11vw) !important; filter: drop-shadow(0 18px 16px rgba(14, 42, 45, 0.3)); }
+.nk-hero__scope img, .nk-hero__bowl img { display: block; width: 100%; }
+.nk-hero > .nk-tate { grid-column: 2; grid-row: 1; align-self: start; justify-self: end; position: relative; left: auto; top: auto; right: auto; z-index: 4; margin: clamp(2rem, 4vw, 3.5rem) max(var(--nk-pad), calc((100vw - var(--nk-wide)) / 2)) 0 0 !important; background: #FFFFFF; color: var(--nk-ink); border: 0; padding: 0.9rem 0.55rem; }
+.nk-hero + * { position: relative; z-index: 1; padding-top: clamp(5rem, 8vw, 7rem) !important; }
+@media (max-width: 960px) {
+	.nk-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; }
+	.nk-hero::after { display: none; }
+	.nk-hero__text { padding: 2.75rem var(--nk-pad) 1.5rem; }
+	.nk-hero > .nk-hero__photo { grid-column: 1; grid-row: 2; width: 100%; height: clamp(300px, 70vw, 460px); clip-path: polygon(0 16%, 100% 0, 100% 100%, 0 100%); }
+	.nk-hero > .nk-hero__print { display: none; }
+	.nk-hero > .nk-hero__scope { grid-column: 1; grid-row: 2; justify-self: end; width: clamp(110px, 28vw, 180px); margin: -2.5rem var(--nk-pad) 0 0 !important; }
+	.nk-hero > .nk-hero__bowl { grid-column: 1; grid-row: 2; width: clamp(150px, 40vw, 240px); margin: 0 0 -2.5rem calc(var(--nk-pad) - 0.5rem) !important; }
+	.nk-hero > .nk-tate { grid-column: 1; grid-row: 2; justify-self: start; margin: 4.5rem 0 0 var(--nk-pad) !important; }
+}
+
+/* This week: a horizontal strip on mist */
+.nk-glance { background: var(--nk-mist); border-bottom: 1px solid rgba(14, 42, 45, 0.15); }
+.nk-board__clear { background: #FFFFFF; }
+.nk-board__cta .wp-block-button__link { background: var(--nk-ink); color: #FFFFFF; border: 0; }
+
+/* Our care: an editorial spread, the intro and clinic photo beside the four kinds of care as a two-column magazine index */
+.nk-feature { background: #FFFFFF; }
+.nk-spread__img { transform: none; }
+.nk-spread__intro .nk-dropcap::first-letter { float: none; font-size: inherit; font-family: inherit; margin: 0; line-height: inherit; color: inherit; }
+.nk-pull { color: var(--nk-deep); border-left: 4px solid var(--nk-red); padding-left: 1rem; }
+.nk-rooms { display: block !important; columns: 2; column-gap: clamp(1.25rem, 2.5vw, 2.25rem); counter-reset: room; }
+.nk-room { display: block; break-inside: avoid; margin: 0 0 clamp(1.25rem, 2.5vw, 2.25rem) !important; padding: 0 0 1.4rem !important; background: var(--nk-paper); border: 1px solid rgba(14, 42, 45, 0.14); position: relative; }
+.nk-room > * { margin: 0 !important; }
+.nk-room::before { position: absolute; z-index: 2; left: 0; top: 0; padding: 0.35rem 0.75rem; font-size: 1.125rem; color: var(--nk-ink) !important; background: var(--nk-red); border: 0; width: auto; height: auto; }
+.nk-room__img img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border: 0; outline: 0; }
+.nk-room:nth-child(1) .nk-room__img img { aspect-ratio: 4 / 5; }
+.nk-room:nth-child(2) .nk-room__img img { aspect-ratio: 3 / 2; }
+.nk-room:nth-child(3) .nk-room__img img { aspect-ratio: 1 / 1; }
+.nk-room:nth-child(4) .nk-room__img img { aspect-ratio: 5 / 4; }
+.nk-room__title { padding: 1.1rem 1.25rem 0.3rem; font-size: clamp(1.25rem, 1.05rem + 0.6vw, 1.625rem); }
+.nk-room__facts { padding: 0 1.25rem; font-size: 0.875rem; color: var(--nk-quiet); }
+.nk-room__text { padding: 0.6rem 1.25rem 0; font-size: 1rem; }
+@media (min-width: 1000px) {
+	.nk-feature { display: grid !important; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); column-gap: clamp(2.5rem, 5vw, 5rem); align-items: start; padding-inline: max(var(--nk-pad), calc((100% - var(--nk-wide)) / 2)) !important; }
+	.nk-feature > * { max-width: none !important; margin: 0 !important; }
+	.nk-feature > .nk-spread { grid-column: 1; grid-row: 1 / span 2; display: block !important; position: sticky; top: 2rem; }
+	.nk-feature > .nk-spread > * + * { margin-top: 2rem !important; }
+	.nk-feature > .nk-rooms { grid-column: 2; grid-row: 1; }
+	.nk-feature > .nk-more { grid-column: 2; grid-row: 2; margin-top: 2rem !important; }
+}
+@media (max-width: 640px) { .nk-rooms { columns: 1; } }
+
+/* Your visit: the heading on an pale aqua block, the four steps as a staggered masonry */
+.nk-process { background: var(--nk-paper); display: grid !important; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); grid-template-rows: auto 1fr; column-gap: clamp(2rem, 5vw, 5rem); padding-inline: 0 max(var(--nk-pad), calc((100% - var(--nk-wide)) / 2)) !important; padding-block: 0 !important; }
+.nk-process > * { max-width: none !important; margin: 0 !important; }
+.nk-process::before { content: ""; grid-area: 1 / 1 / 3 / 2; background-color: var(--nk-red); background-image: var(--nk-grid); }
+.nk-process > .nk-eyebrow, .nk-process > .nk-sec__title { grid-column: 1; position: relative; z-index: 1; padding-left: max(var(--nk-pad), calc((100vw - var(--nk-wide)) / 2)); padding-right: clamp(1.5rem, 3vw, 3rem); color: var(--nk-ink) !important; }
+.nk-process > .nk-eyebrow { grid-row: 1; padding-top: var(--nk-sec); margin-bottom: 0.85rem !important; }
+.nk-process > .nk-sec__title { grid-row: 2; align-self: start; }
+.nk-strip { grid-column: 2; grid-row: 1 / span 2; display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.5rem, 3vw, 2.5rem) !important; padding-block: var(--nk-sec) !important; counter-reset: step; align-items: start; }
+.nk-step { transform: none !important; background: #FFFFFF; box-shadow: none; border-top: 3px solid var(--nk-ink); padding: 0 0 1.25rem !important; margin: 0 !important; position: relative; counter-increment: step; }
+.nk-step:nth-child(even) { margin-top: clamp(2.5rem, 5vw, 5rem) !important; }
+.nk-step:nth-child(3) .nk-step__img img { aspect-ratio: 1 / 1; }
+.nk-step::before { left: 1rem; top: -1.15rem; width: 2rem; height: 2rem; background: var(--nk-red); color: var(--nk-ink) !important; border: 3px solid #FFFFFF; font-size: 0.9375rem; }
+.nk-step__img img { aspect-ratio: 4 / 3; }
+.nk-step__title { padding: 1rem 1rem 0.35rem; }
+.nk-step__text { padding: 0 1rem; }
+@media (max-width: 860px) {
+	.nk-process { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto auto; padding: 0 !important; }
+	.nk-process > :is(.nk-eyebrow, .nk-sec__title) { padding-inline: var(--nk-pad); }
+	.nk-process > .nk-sec__title { padding-bottom: 2.5rem; }
+	.nk-strip { grid-column: 1; grid-row: 3; padding: 3rem var(--nk-pad) !important; }
+}
+@media (max-width: 520px) { .nk-strip { grid-template-columns: minmax(0, 1fr); } .nk-step:nth-child(even) { margin-top: 0 !important; } }
+
+/* The story band and page heads: pale aqua fields in ink type */
+.nk-story { background-color: var(--nk-red); background-image: var(--nk-grid); color: var(--nk-ink); }
+.nk-story :is(.nk-eyebrow, .nk-story__no, h2, h3, p, .nk-story__lead) { color: var(--nk-ink) !important; }
+.nk-story .is-style-outline .wp-block-button__link { border: 1.5px solid var(--nk-ink); color: var(--nk-ink); }
+.nk-story > .nk-story__branch { width: clamp(200px, 20vw, 300px); transform: rotate(-12deg); filter: drop-shadow(0 18px 14px rgba(14, 42, 45, 0.35)); }
+.nk-piece--d, .nk-piece--e, .nk-piece--f { transform: none; }
+.nk-pagehead { background-color: var(--nk-red); background-image: var(--nk-grid); color: var(--nk-ink); }
+.nk-pagehead :is(h1, h2, p, .nk-eyebrow, .nk-pagehead__lead) { color: var(--nk-ink) !important; }
+.nk-pagehead .nk-eyebrow { border-bottom-color: var(--nk-ink); }
+.nk-pagehead__img { background: #FFFFFF; padding: 10px; }
+.nk-pagehead > .nk-pagehead__branch { width: clamp(150px, 13vw, 210px); transform: rotate(-12deg); filter: drop-shadow(0 14px 12px rgba(14, 42, 45, 0.35)); }
+.nk-pagehead > .nk-tate { background: var(--nk-ink); color: #FFFFFF; width: fit-content; }
+.nk-pagehead .is-style-outline .wp-block-button__link { border-color: var(--nk-ink); color: var(--nk-ink); }
+.nk-pagehead .nk-book .wp-block-button__link { background: var(--nk-ink); color: #FFFFFF; }
+.nk-steps li::before { color: var(--nk-ink); }
+.nk-letter__card .nk-mailto .wp-block-button__link { background: var(--nk-red); color: var(--nk-ink); }
+.nk-foot { border-top-color: var(--nk-red); }
+.nk-foot__base { border-top-color: rgba(220, 230, 233, 0.35); }
+.nk-notes .wp-block-post-template > li { box-shadow: none; border: 1px solid rgba(14, 42, 45, 0.14); }
+.nk-notes .wp-block-post-template > li::after { display: none; }
+.nk-row__img, .nk-pagehead__img, .nk-about__img, .nk-letter__img { transform: none !important; }
+.nk-feature .nk-dropcap { columns: auto !important; column-rule: none !important; }
+
+/* Editorial magazine details: running rules over every section label, a coral folio number on the care index, a lead story with two side stories in the news */
+.nk-section > .nk-eyebrow, .nk-spread__intro > .nk-eyebrow, .nk-process > .nk-eyebrow { display: flex; align-items: center; gap: 0.75rem; }
+.nk-section > .nk-eyebrow::after, .nk-spread__intro > .nk-eyebrow::after { content: ""; flex: 1; height: 1px; background: currentColor; opacity: 0.35; }
+.nk-rooms { column-rule: 1px solid rgba(14, 42, 45, 0.16); }
+.nk-room { background: transparent; border: 0; border-top: 3px solid var(--nk-ink); padding-top: 0.9rem !important; }
+.nk-room::before { position: static; display: block; padding: 0 0 0.6rem; background: none; font-family: var(--wp--preset--font-family--display); font-size: 2.75rem; line-height: 1; color: var(--nk-coral) !important; -webkit-text-stroke: 0; }
+.nk-room__title, .nk-room__facts, .nk-room__text { padding-inline: 0; }
+.nk-room__img img { border-radius: 2px; }
+.nk-pull { border-left-color: var(--nk-coral); font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.25rem; line-height: 1.5; }
+.nk-step::before { background: var(--nk-coral); }
+@media (min-width: 900px) {
+	.nk-home-journal .nk-notes .wp-block-post-template { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); grid-auto-rows: auto; }
+	.nk-home-journal .nk-notes .wp-block-post-template > li:first-child { grid-row: span 2; }
+	.nk-home-journal .nk-notes .wp-block-post-template > li:first-child .nk-note__title { font-size: clamp(1.625rem, 1.2rem + 1vw, 2.25rem); }
+	.nk-home-journal .nk-notes .wp-block-post-template > li:not(:first-child) { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); gap: 1rem; align-items: start; }
+	.nk-home-journal .nk-notes .wp-block-post-template > li:not(:first-child) .nk-note__img { margin: 0 !important; }
+}
