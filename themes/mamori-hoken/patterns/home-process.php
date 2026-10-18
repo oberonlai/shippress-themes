@@ -5,7 +5,7 @@
  * Categories: mamori-hoken
  * Keywords: insurance, agency, advice
  * Viewport Width: 1440
- * Description: Four numbered steps from the first talk to a claim, each a pencil sketch with a title and a line.
+ * Description: Four numbered steps from the first talk to a claim, each a photo with a title and a line.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "mh-section mh-process", "layout": {"type": "constrained"}} -->

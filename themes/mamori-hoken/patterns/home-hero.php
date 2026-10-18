@@ -5,7 +5,7 @@
  * Categories: mamori-hoken
  * Keywords: insurance, agency, advice
  * Viewport Width: 1440
- * Description: Text left, art right: the hanada field with a faint pencil pattern holds the issue line, title, lead, buttons and this month's questions on the left; the pencil sheet of life events is framed on the right, and the cut-out umbrella breaks out over the frame and the hero bottom edge.
+ * Description: Text left, art right: the hanada field with a faint linen texture holds the issue line, title, lead, buttons and this month's questions on the left; the photo of a family on a sofa is framed on the right, and the cut-out document folder breaks out over the frame and the hero bottom edge.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "mh-hero", "layout": {"type": "default"}} -->
@@ -56,7 +56,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "mh-hero__bowl"} -->
-<figure class="wp-block-image size-full mh-hero__bowl"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/umbrella-cutout.webp' ) ); ?>" alt="<?php echo esc_attr( mamori_hoken_t( 'alt_street' ) ); ?>"/></figure>
+<figure class="wp-block-image size-full mh-hero__bowl"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/folder-cutout.webp' ) ); ?>" alt="<?php echo esc_attr( mamori_hoken_t( 'alt_street' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <?php if ( '' !== mamori_hoken_t( 'hero_tate' ) ) : ?>

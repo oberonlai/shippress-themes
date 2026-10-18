@@ -5,7 +5,7 @@
  * Categories: mamori-hoken
  * Keywords: insurance, agency, advice
  * Viewport Width: 1440
- * Description: A hanada band with a pencil-pattern texture: the opening year in giant type and the story of the agency beside a collage of pencil sketches; the cut-out plover flag breaks over the band top edge.
+ * Description: A hanada band with a faint linen texture: the opening year in giant type and the story of the agency beside a collage of photos; the cut-out house model breaks over the band top edge.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "mh-section mh-story", "layout": {"type": "constrained"}} -->

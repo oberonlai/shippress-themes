@@ -108,7 +108,7 @@ function mamori_hoken_pattern_categories() {
 		'mamori-hoken',
 		array(
 			'label'       => __( 'Mamori Hoken', 'mamori-hoken' ),
-			'description' => __( 'Sections for a neighbourhood insurance agency: the hanada hero with the framed pencil sheet and the cut-out umbrella, the office board, the cover as a card mosaic, the story band, the round steps, the notes and the letters.', 'mamori-hoken' ),
+			'description' => __( 'Sections for a neighbourhood insurance agency: the hanada hero with the framed family photo and the cut-out document folder, the office board, the cover as a card mosaic, the story band, the round steps, the notes and the letters.', 'mamori-hoken' ),
 		)
 	);
 }

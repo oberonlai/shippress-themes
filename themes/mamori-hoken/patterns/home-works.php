@@ -5,7 +5,7 @@
  * Categories: mamori-hoken
  * Keywords: insurance, agency, advice
  * Viewport Width: 1440
- * Description: The cover as a card mosaic: the intro card, a large home card, the car and health cards, a wide business card and the desk sketch, set in rectangular grid areas.
+ * Description: The cover as a card mosaic: the intro card, a large home card, the car and health cards, a wide business card and the desk photo, set in rectangular grid areas.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "mh-section mh-feature", "layout": {"type": "constrained"}} -->

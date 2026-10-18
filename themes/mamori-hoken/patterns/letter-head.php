@@ -5,7 +5,7 @@
  * Categories: mamori-hoken
  * Keywords: insurance, agency, advice
  * Viewport Width: 1440
- * Description: A hanada page head with a pencil-pattern texture, the eyebrow, title and lead and a pencil sketch; the cut-out house breaks over the bottom edge.
+ * Description: A hanada page head with a faint linen texture, the eyebrow, title and lead and a photo; the cut-out house model breaks over the bottom edge.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "mh-pagehead", "layout": {"type": "constrained"}} -->

@@ -3,8 +3,8 @@ Theme Name: Mamori Hoken
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/mamori-hoken
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Mamori Hoken — an independent insurance agency theme laid out like an app: under a formal top header, a night-ink sidebar holds the synced office board (advisers in today, hours, claims line, reply time, closed days and a Book a consultation button) and stays beside the page while it scrolls. The header splits the menu around the centred agency name, with the Book a consultation button at its end. Hanada (#2792C3), the clear indigo-washed blue of traditional Japanese dyeing, is the main colour: the hero, the story band and every page head are hanada fields set in night ink, textured with a faint repeating pencil pattern of umbrellas, houses and raindrops. The hero is text left, art right: the title, lead, buttons and this month's questions on the field, a framed pencil sheet of life events (house, car, shop, school, clinic along one road) on the right, and a cut-out paper umbrella (transparent WebP) that breaks out over the frame and the hero bottom edge; a cut-out house breaks over the story band and every page head. Every picture is a pencil-sketch illustration with a soft hanada wash. LINE Seed JP for display, Public Sans for reading, Noto Sans TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
-Version: 1.0.0
+Description: Mamori Hoken — an independent insurance agency theme laid out like an app: under a formal top header, a night-ink sidebar holds the synced office board (advisers in today, hours, claims line, reply time, closed days and a Book a consultation button) and stays beside the page while it scrolls. The header splits the menu around the centred agency name, with the Book a consultation button at its end. Hanada (#2792C3), the clear indigo-washed blue of traditional Japanese dyeing, is the main colour: the hero, the story band and every page head are hanada fields set in night ink, textured with a faint linen texture. The hero is text left, art right: the title, lead, buttons and this month's questions on the field, a framed photograph of a young family on a sofa on the right, and a cut-out document folder with pen and glasses (transparent WebP) that breaks out over the frame and the hero bottom edge; a cut-out house model breaks over the story band and every page head. Every picture is a realistic, neutral photograph. LINE Seed JP for display, Public Sans for reading, Noto Sans TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -615,7 +615,7 @@ nav.mh-nav { position: static !important; width: auto !important; padding: 0 !im
 .mh-hero > .mh-tate { width: fit-content !important; height: auto; max-height: 14em; }
 .mh-pagehead > .mh-tate { color: var(--mh-ink) !important; background: var(--mh-paper) !important; }
 
-/* ===== Mamori Hoken: hanada field, ink type, pencil-pattern texture, text-left art-right hero ===== */
+/* ===== Mamori Hoken: hanada field, ink type, linen texture, text-left art-right hero ===== */
 /* Hanada (#2792C3) fields carry ink type (4.8:1); paper only on ink */
 .mh-hero, .mh-story, .mh-pagehead { background-color: var(--mh-hanada); background-image: url("assets/images/pattern.webp"); background-size: 360px auto; background-blend-mode: multiply; color: var(--mh-ink); }
 .mh-hero :is(.mh-issue, .mh-hero__lead, h1, .mh-toc__label, li, .mh-eyebrow), .mh-story :is(h2, h3, p, a, .mh-story__no, .mh-year, .mh-eyebrow), .mh-pagehead :is(h1, p, .mh-eyebrow), .mh-pagehead > .mh-tate { color: var(--mh-ink) !important; }
@@ -630,13 +630,13 @@ nav.mh-nav { position: static !important; width: auto !important; padding: 0 !im
 .mh-nav .is-menu-open .wp-block-navigation__container > li > a, .mh-nav .is-menu-open .wp-block-navigation__responsive-container-close { color: var(--mh-ink) !important; }
 .mh-side { background-image: linear-gradient(rgba(11, 31, 46, 0.9), rgba(11, 31, 46, 0.9)), url("assets/images/pattern.webp"); background-size: auto, 300px auto; }
 
-/* Hero: text left on the hanada field, the pencil sheet of life events framed on the right; the cut-out umbrella breaks out over the frame and the hero bottom edge */
+/* Hero: text left on the hanada field, the photo of a family on a sofa framed on the right; the cut-out document folder breaks out over the frame and the hero bottom edge */
 .mh-hero { grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); column-gap: clamp(2rem, 4vw, 4rem); padding: clamp(2.5rem, 5vw, 4.5rem) var(--mh-pad) clamp(4rem, 7vw, 6rem) !important; min-height: 0; }
 .mh-hero__text { padding: 0; align-self: center; }
 .mh-hero__banner { grid-column: 2; grid-row: 1; align-self: center; background: var(--mh-paper); padding: 14px; border: 1.5px solid var(--mh-ink); box-shadow: 14px 14px 0 var(--mh-ink); max-width: 30rem; justify-self: end; width: 100%; box-sizing: border-box; }
 .mh-hero__banner img { clip-path: none; aspect-ratio: 3 / 4; height: auto; object-fit: cover; }
 .mh-hero__banner::after { display: none; }
-.mh-hero > .mh-hero__bowl { left: auto; right: max(calc(var(--mh-pad) + 22rem), 36%); bottom: clamp(-7rem, -7vw, -3.5rem); width: clamp(180px, 17vw, 270px); transform: rotate(-12deg); filter: drop-shadow(0 18px 16px rgba(11, 31, 46, 0.35)); }
+.mh-hero > .mh-hero__bowl { left: auto; right: max(calc(var(--mh-pad) + 22rem), 36%); bottom: clamp(-5rem, -5vw, -2.5rem); width: clamp(200px, 19vw, 300px); transform: rotate(-6deg); filter: drop-shadow(0 18px 16px rgba(11, 31, 46, 0.35)); }
 .mh-hero > .mh-tate { right: auto; left: calc(6 / 11 * 100% - 1rem); background: var(--mh-paper); color: var(--mh-ink) !important; }
 @media (max-width: 860px) {
 	.mh-hero { grid-template-columns: minmax(0, 1fr); }
