@@ -1,0 +1,563 @@
+/*
+Theme Name: Kizuki Construction
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/kizuki-construction
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Kizuki Construction — a theme for a general construction contractor, set as one clean reading column under a formal white split header: the company name in the centre, the menu split two left and two right, and a Request a site survey button at the far right. Konjo navy (#113285) is the main colour: the metrics ledger, the survey call, every page head and the buttons are navy fields in white type. The front page is a metrics ledger: a white first screen on a 12-column grid with a giant handover count (1,284) in bengara Roboto Condensed on the left, the headline, one paragraph and one button on the right and a thin documentary photo strip of a concrete pour along the bottom; then a ledger of six published figures on a navy field, a ten-year safety trend chart, a register of eight recent projects with photo thumbnails, one wide site photograph, report downloads and a navy survey call where a transparent cut-out safety helmet breaks out over the band edge. Photographs are realistic documentary images (35mm wide, available light, handheld, fine grain, graded toward navy). Zen Kaku Gothic Antique for headings, Roboto Condensed for text and figures, Noto Sans TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kizuki-construction
+Tags: block-theme, full-site-editing, wide-blocks, custom-colors, editor-style, translation-ready, blog
+*/
+
+:root {
+	--kz-paper: var(--wp--preset--color--paper);
+	--kz-red: var(--wp--preset--color--suou);
+	--kz-mist: var(--wp--preset--color--mist);
+	--kz-ink: var(--wp--preset--color--ink);
+	--kz-deep: var(--wp--preset--color--deep);
+	--kz-quiet: var(--wp--preset--color--quiet);
+	--kz-pale: var(--wp--preset--color--pale);
+	--kz-field-ink: var(--wp--preset--color--field-ink);
+	--kz-pad: clamp(1.25rem, 4vw, 3rem);
+	--kz-sec: clamp(3.5rem, 7vw, 6.5rem);
+	--kz-line: 1.5px solid var(--kz-ink);
+	--kz-rail: 0px;
+	--kz-headh: 72px;
+	--kz-wide: var(--wp--style--global--wide-size);
+	/* No texture on the navy fields */
+	--kz-koshi: none;
+	--kz-grid: none;
+	/* A torn paper edge for the collage pieces */
+	--kz-torn: polygon(0% 2%, 6% 0%, 13% 1.5%, 21% 0.3%, 30% 1.8%, 38% 0%, 47% 1.2%, 55% 0.2%, 64% 1.6%, 72% 0.4%, 81% 1.4%, 90% 0%, 100% 1.5%, 99% 12%, 100% 25%, 98.8% 38%, 100% 51%, 99% 64%, 100% 77%, 98.6% 89%, 100% 98%, 93% 100%, 84% 98.6%, 75% 100%, 66% 98.4%, 57% 100%, 48% 98.8%, 39% 100%, 30% 98.5%, 21% 100%, 12% 98.6%, 4% 100%, 0% 98%, 1.2% 86%, 0% 73%, 1% 60%, 0% 47%, 1.4% 34%, 0% 21%, 1% 10%);
+}
+
+ /* Fonts per language: Zen Kaku Gothic Antique and Roboto Condensed for Latin; Japanese text uses the Zen Kaku Gothic Antique JA subset, Traditional Chinese headings the bundled Noto Sans TC subset (never a Japanese font) */
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Zen Kaku Gothic Antique", "Zen Kaku Gothic Antique JA", "Hiragino Sans", "Yu Gothic", sans-serif;
+	--wp--preset--font-family--body: "Roboto Condensed", "Zen Kaku Gothic Antique JA", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+}
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Sans TC", "Zen Kaku Gothic Antique", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Roboto Condensed", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:lang(ja) body, :lang(zh) body { line-height: 1.95; }
+:is(:lang(ja), :lang(zh)) :is(.kz-eyebrow, .kz-issue, .kz-board__tonight, .kz-rates__label, .kz-row__facts, .kz-room__facts, .kz-toc__label) { letter-spacing: 0.08em; text-transform: none; }
+
+html, body { overflow-x: clip; }
+a { color: var(--kz-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+
+/* Labels, titles, block styles */
+.kz-eyebrow { font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--kz-deep); margin: 0 0 0.85rem; }
+.kz-eyebrow a { color: inherit; text-decoration: none; }
+.kz-sec__title { margin: 0 0 1.25rem; font-size: clamp(2rem, 1.2rem + 2.4vw, 3.375rem); line-height: 1.12; text-wrap: balance; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.65; }
+.wp-block-button__link { box-shadow: none; }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--kz-deep); padding: 0.25rem 0; border-bottom: 2px solid currentColor; border-radius: 0; }
+.wp-block-button.is-style-outline .wp-block-button__link { background: transparent; color: var(--kz-ink); border: var(--kz-line); }
+hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5rem 0; opacity: 1; background: var(--kz-koshi), var(--kz-red); }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.75rem 0 0.75rem 1.6rem; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); position: relative; }
+.is-style-rule-list li::before { content: ""; position: absolute; left: 0.1rem; top: 1.3rem; width: 0.6rem; height: 0.6rem; background: var(--kz-red); border-radius: 50%; }
+.kz-dropcap::first-letter { float: left; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 3.6em; line-height: 0.82; margin: 0.08em 0.12em 0 0; color: var(--kz-deep); }
+:is(:lang(ja), :lang(zh)) .kz-dropcap::first-letter { font-size: 2.6em; line-height: 1; }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.kz-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .kz-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 700; letter-spacing: 0.3em; margin: 0; line-height: 1.3; white-space: nowrap; }
+
+/* Collage pieces: torn-edged sketches on paper, held by a strip of tape */
+.kz-piece { margin: 0; position: relative; filter: drop-shadow(0 14px 16px rgba(42, 36, 16, 0.22)); }
+.kz-piece img { display: block; width: 100%; clip-path: var(--kz-torn); background: #F7F9FA; }
+.kz-piece::after { content: ""; position: absolute; z-index: 2; top: -12px; left: 50%; width: 92px; height: 26px; margin-left: -46px; background: rgba(254, 240, 194, 0.78); border-left: 1px dashed rgba(42, 36, 16, 0.15); border-right: 1px dashed rgba(42, 36, 16, 0.15); transform: rotate(-4deg); }
+
+/* Header: a formal top bar. House name and tagline on the left, the Book a stay button on the right; on wide screens the menu leaves the bar and becomes a fixed ink side rail down the left edge, with numbered entries. Phones and tablets get an overlay menu */
+.kz-head-part { position: sticky; top: 0; z-index: 40; }
+.kz-head { margin: 0; background: var(--kz-paper); color: var(--kz-ink); border-bottom: var(--kz-line); }
+.kz-head > .kz-bar { max-width: none !important; }
+.kz-bar { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 1rem 2rem; min-height: var(--kz-headh); }
+.kz-bar > * { margin: 0 !important; }
+.kz-brand { display: flex; align-items: baseline; gap: 0.35rem 1.25rem; flex-wrap: wrap; margin-right: auto !important; }
+.kz-brand > * { margin: 0 !important; }
+.kz-brand__title { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.875rem); line-height: 1.05; white-space: nowrap; letter-spacing: 0.01em; }
+.kz-brand__title a { color: var(--kz-ink); text-decoration: none; }
+.kz-brand__tag { font-size: 0.8125rem; color: var(--kz-quiet); line-height: 1.3; max-width: 32rem; padding-left: 1.25rem; border-left: 1px solid color-mix(in srgb, var(--kz-ink) 30%, transparent); }
+.kz-nav { font-weight: 600; font-size: 0.9375rem; letter-spacing: 0.02em; }
+.kz-nav a { color: inherit; text-decoration: none; white-space: nowrap; }
+.kz-nav .wp-block-navigation__responsive-container-open { color: #0F171C; padding: 0.45rem; background: var(--kz-red); border-radius: 2px; }
+.kz-head__cta .wp-block-button__link { background: var(--kz-red); color: var(--kz-paper); padding: 0.7rem 1.35rem; border-radius: 2px; white-space: nowrap; font-size: 0.9375rem; border: var(--kz-line); }
+.kz-head__cta .wp-block-button__link:hover { background: var(--kz-ink); color: var(--kz-paper); }
+.kz-head .kz-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--kz-koshi), var(--kz-red); color: #0F171C; padding: 2rem var(--kz-pad); }
+.kz-nav .is-menu-open .wp-block-navigation__container { gap: 1.1rem; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2rem; }
+.kz-nav .is-menu-open a, .kz-nav .is-menu-open .wp-block-navigation__responsive-container-close { color: var(--kz-ink); }
+@media (max-width: 1099px) {
+	.kz-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
+	.kz-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
+	.kz-brand__tag { display: none; }
+}
+@media (max-width: 599px) {
+	.kz-bar { gap: 0.75rem; min-height: 62px; }
+	.kz-brand__title { font-size: 1.25rem; }
+	.kz-head__cta .wp-block-button__link { padding: 0.45rem 0.75rem; font-size: 0.8125rem; }
+}
+
+/* The page column */
+.kz-shell { display: block; margin: 0 !important; }
+.kz-main { margin: 0 !important; padding: 0 !important; min-width: 0; }
+.kz-main > * { margin-block: 0; }
+.kz-main > .wp-block-post-content > * { margin-block: 0; }
+.kz-section { padding-block: var(--kz-sec); margin: 0 !important; position: relative; }
+.kz-main .kz-section.is-layout-constrained > :not(.alignfull) { max-width: var(--kz-wide) !important; }
+.kz-main .kz-section > p:not(.kz-tate):not(.kz-eyebrow) { padding-right: max(0px, calc(100% - 40rem)); }
+.kz-section > * { margin-block-start: 0; }
+
+/* Hero: a persimmon cover. Issue line, title, lead, buttons and the contents on the left; three torn pencil sketches stacked and taped on the right; the cut-out townhouse stands in front of the collage and breaks over the hero bottom edge */
+.kz-hero { position: relative; z-index: 4; isolation: isolate; margin: 0 !important; padding: clamp(3rem, 5vw, 4.5rem) var(--kz-pad) clamp(4rem, 7vw, 6rem) !important; background: var(--kz-red); color: var(--kz-paper); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 4vw, 4rem); align-items: center; min-height: clamp(680px, 86vh, 860px); box-sizing: border-box; }
+.kz-hero::before { content: ""; position: absolute; z-index: -1; top: 0; bottom: 0; right: 0; width: 46%; background: var(--kz-koshi); pointer-events: none; }
+.kz-hero > * { margin: 0 !important; }
+.kz-hero__text > * { margin-block: 0 1.1rem; }
+.kz-issue { display: flex; align-items: center; gap: 0.75rem; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; }
+.kz-issue::before, .kz-issue::after { content: ""; flex: 0 0 2.5rem; height: 1.5px; background: currentColor; }
+.kz-hero .kz-eyebrow { color: var(--kz-ink); }
+.kz-hero__title { font-size: clamp(2.75rem, 1rem + 4.4vw, 5.75rem); line-height: 1.02; letter-spacing: -0.01em; text-wrap: balance; max-width: 11ch; margin-bottom: 1.5rem !important; }
+:is(:lang(ja), :lang(zh)) .kz-hero__title { line-height: 1.2; font-size: clamp(2.375rem, 0.8rem + 4vw, 4.75rem); max-width: 8em; }
+:lang(ja) .kz-hero__title { word-break: auto-phrase; }
+.kz-hero__lead { font-size: var(--wp--preset--font-size--large); max-width: 32rem; line-height: 1.6; }
+.kz-hero__cta { gap: 0.75rem 1rem; margin-top: 1.75rem !important; }
+.kz-hero .kz-book .wp-block-button__link { background: var(--kz-ink); color: var(--kz-paper); }
+.kz-hero .kz-book .wp-block-button__link:hover { background: var(--kz-paper); color: var(--kz-ink); }
+.kz-hero .is-style-outline .wp-block-button__link { border-color: var(--kz-ink); }
+.kz-toc { margin-top: 2.25rem !important; border-top: 1.5px solid var(--kz-ink); padding-top: 0.9rem; max-width: 30rem; }
+.kz-toc > * { margin: 0 !important; }
+.kz-toc__label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.4rem !important; }
+.kz-toc__list { list-style: none; padding: 0; counter-reset: toc; }
+.kz-toc__list li { counter-increment: toc; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); align-items: baseline; padding: 0.35rem 0; border-bottom: 1px solid rgba(42, 36, 16, 0.3); font-weight: 600; }
+.kz-toc__list li::before { content: counter(toc, decimal-leading-zero); font-family: var(--wp--preset--font-family--display); font-weight: 700; }
+:is(:lang(ja), :lang(zh)) .kz-toc__list li::before { content: counter(toc, cjk-decimal); }
+.kz-collage { position: relative; height: clamp(520px, 44vw, 660px); }
+.kz-collage > * { margin: 0 !important; }
+.kz-piece--a { position: absolute !important; top: 0; left: 0; width: 70%; transform: rotate(-3deg); z-index: 1; }
+.kz-piece--b { position: absolute !important; top: 30%; right: 0; width: 62%; transform: rotate(2.5deg); z-index: 2; }
+.kz-piece--c { position: absolute !important; bottom: 0; left: 6%; width: 32%; transform: rotate(-1.5deg); z-index: 3; }
+.kz-piece--b::after { left: 22%; transform: rotate(6deg); }
+.kz-hero__house { position: absolute !important; z-index: 5; right: calc(var(--kz-pad) + 4%); bottom: -9%; width: clamp(200px, 17vw, 300px); margin: 0 !important; pointer-events: none; filter: drop-shadow(0 18px 18px rgba(42, 36, 16, 0.3)); }
+.kz-hero__house img { display: block; width: 100%; }
+.kz-hero .kz-tate { position: absolute; z-index: 4; left: calc(5 / 11 * 100% + 1rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.25rem, 0.9rem + 0.9vw, 1.75rem); background: var(--kz-paper); color: var(--kz-ink); padding: 1rem 0.6rem; border: var(--kz-line); }
+@media (max-width: 960px) {
+	.kz-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; padding-bottom: 5rem !important; }
+	.kz-hero::before { width: 100%; top: auto; height: 46%; }
+	.kz-collage { height: clamp(380px, 92vw, 620px); max-width: 640px; }
+	.kz-hero__house { right: var(--kz-pad); bottom: -6%; width: clamp(150px, 34vw, 240px); }
+	.kz-hero .kz-tate { display: none; }
+}
+
+/* At a glance (synced house board): a ruled fact box on paper */
+.kz-glance { background: var(--kz-paper); z-index: 1; padding-block: clamp(4.5rem, 8vw, 6.5rem) clamp(3rem, 6vw, 4.5rem) !important; }
+.kz-board { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr); gap: 0.75rem clamp(1.5rem, 3vw, 3rem); margin: 0; align-items: start; border-top: 4px double var(--kz-ink); border-bottom: 1.5px solid var(--kz-ink); padding-block: 1.5rem; }
+.kz-board > * { margin: 0 !important; }
+.kz-board p { margin: 0; }
+.kz-board__label { display: none; }
+.kz-board__tonight { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--kz-deep); grid-column: 1; grid-row: 1; }
+.kz-board__sky { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.625rem, 1.2rem + 1.2vw, 2.25rem); line-height: 1.15; grid-row: 2; grid-column: 1; }
+.kz-board__clear { font-size: 0.9375rem; grid-row: 3; grid-column: 1; color: var(--kz-ink); background: var(--kz-mist); padding: 0.35rem 0.75rem; justify-self: start; }
+.kz-board__rows { display: grid; gap: 0; grid-row: 1 / span 3; grid-column: 2; border-left: 1px solid rgba(42, 36, 16, 0.25); border-right: 1px solid rgba(42, 36, 16, 0.25); padding-inline: clamp(1rem, 2vw, 2rem); }
+.kz-board__rows > * { margin: 0 !important; }
+.kz-board__row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; border-bottom: 1px dotted rgba(42, 36, 16, 0.4); padding: 0.55rem 0; }
+.kz-board__row:last-child { border-bottom: 0; }
+.kz-board__row > * { margin: 0 !important; }
+.kz-board__k { font-size: 0.875rem; color: var(--kz-quiet); }
+.kz-board__v { font-weight: 600; text-align: right; }
+.kz-board__note { font-size: 0.9375rem; color: var(--kz-quiet); grid-column: 3; grid-row: 1 / span 2; }
+.kz-board__cta { grid-column: 3; grid-row: 3; }
+.kz-board__cta .wp-block-button__link { background: var(--kz-red); color: var(--kz-paper); border: var(--kz-line); }
+@media (max-width: 900px) {
+	.kz-board { grid-template-columns: minmax(0, 1fr); }
+	.kz-board > * { grid-column: 1 !important; grid-row: auto !important; }
+	.kz-board__rows { border: 0; padding: 0; }
+}
+
+/* Feature 01: a magazine spread. Title, a two-column lead with a drop cap and a pull quote beside a taped sketch, then the four rooms on a staggered grid */
+.kz-feature { background: var(--kz-paper); }
+.kz-spread { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+.kz-spread > * { margin: 0 !important; }
+.kz-spread__intro > * { margin-block: 0 1.25rem; }
+.kz-feature__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4.25rem); max-width: 14ch; }
+.kz-spread__intro .kz-dropcap { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(42, 36, 16, 0.2); font-size: 1.0625rem; }
+.kz-pull { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.875rem); line-height: 1.35; border-left: 6px solid var(--kz-red); padding-left: 1.25rem; margin-top: 2rem !important; max-width: 30rem; }
+.kz-spread__img { transform: rotate(2deg); margin-top: 2.5rem !important; }
+.kz-rooms { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.25rem, 2.5vw, 2.25rem); margin-top: clamp(3rem, 6vw, 5rem) !important; counter-reset: room; }
+.kz-rooms > * { margin: 0 !important; }
+.kz-room { counter-increment: room; position: relative; padding-top: 3.25rem; }
+.kz-room:nth-child(even) { margin-top: 3.5rem !important; }
+.kz-room > * { margin: 0 0 0.5rem !important; }
+.kz-room::before { content: counter(room, decimal-leading-zero); position: absolute; top: 0; left: 0; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2.5rem; line-height: 1; color: var(--kz-deep); }
+:is(:lang(ja), :lang(zh)) .kz-room::before { content: counter(room, cjk-decimal); }
+.kz-room__img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border: 8px solid #FFFFFF; outline: 1px solid rgba(42, 36, 16, 0.25); box-sizing: border-box; }
+.kz-room__title { font-size: 1.5rem; margin-top: 0.85rem !important; }
+.kz-room__facts { font-size: 0.8125rem; font-weight: 600; color: var(--kz-deep); }
+.kz-room__text { font-size: 0.9375rem; line-height: 1.65; color: var(--kz-quiet); }
+.kz-more { margin-top: 2.5rem !important; }
+@media (max-width: 1000px) { .kz-rooms { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+	.kz-spread { grid-template-columns: minmax(0, 1fr); }
+	.kz-spread__img { max-width: 420px; margin-top: 0 !important; }
+}
+@media (max-width: 640px) {
+	.kz-spread__intro .kz-dropcap { column-count: 1; }
+	.kz-rooms { grid-template-columns: minmax(0, 1fr); }
+	.kz-room:nth-child(even) { margin-top: 0 !important; }
+}
+
+/* Feature 02: the story on a persimmon band. The year in giant type and the story beside a taped collage; the cut-out persimmon branch breaks over the band top edge */
+.kz-story { z-index: 3; background: var(--kz-red); color: var(--kz-paper); padding-block: clamp(5.5rem, 10vw, 8rem) var(--kz-sec) !important; }
+.kz-story::before { content: ""; position: absolute; inset: 0 0 0 auto; width: 48%; background: var(--kz-koshi); pointer-events: none; }
+.kz-story > .kz-story__branch { position: absolute !important; z-index: 4; top: -96px; right: max(var(--kz-pad), calc((100% - var(--kz-wide)) / 2 + 2rem)); width: clamp(170px, 18vw, 280px); margin: 0 !important; pointer-events: none; transform: rotate(-12deg); filter: drop-shadow(0 14px 14px rgba(42, 36, 16, 0.25)); }
+.kz-story__branch img { display: block; width: 100%; }
+.kz-story__grid { position: relative; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+.kz-story__grid > * { margin: 0 !important; }
+.kz-story__text > * { margin-block: 0 1.1rem; }
+.kz-story .kz-eyebrow { color: var(--kz-ink); }
+.kz-story__no { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(5.5rem, 2rem + 9vw, 11rem); line-height: 0.85; letter-spacing: -0.02em; }
+.kz-story .kz-sec__title { font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.75rem); }
+.kz-story__lead { max-width: 34rem; }
+.kz-story__collage { position: relative; height: clamp(420px, 38vw, 560px); }
+.kz-story__collage > * { margin: 0 !important; }
+.kz-piece--d { position: absolute !important; top: 0; left: 4%; width: 46%; transform: rotate(-4deg); z-index: 1; }
+.kz-piece--e { position: absolute !important; top: 12%; right: 0; width: 56%; transform: rotate(3deg); z-index: 2; }
+.kz-piece--f { position: absolute !important; bottom: 0; left: 26%; width: 52%; transform: rotate(-1deg); z-index: 3; }
+@media (max-width: 860px) {
+	.kz-story__grid { grid-template-columns: minmax(0, 1fr); }
+	.kz-story::before { width: 100%; top: auto; height: 40%; }
+	.kz-story__collage { height: clamp(320px, 86vw, 520px); }
+	.kz-story > .kz-story__branch { top: -70px; width: 150px; }
+}
+
+/* Feature 03: your stay, four taped steps on pale persimmon */
+.kz-process { background: var(--kz-mist); }
+.kz-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2.4vw, 2rem); margin-top: 2.5rem !important; counter-reset: step; }
+.kz-strip > * { margin: 0 !important; }
+.kz-step { counter-increment: step; position: relative; background: var(--kz-paper); padding: 12px 12px 1.25rem; box-shadow: 0 16px 30px -24px rgba(42, 36, 16, 0.6); }
+.kz-step:nth-child(odd) { transform: rotate(-1deg); }
+.kz-step:nth-child(even) { transform: rotate(1deg); }
+.kz-step > * { margin: 0 !important; }
+.kz-step::before { content: counter(step); position: absolute; z-index: 2; left: -12px; top: -14px; width: 2.6rem; height: 2.6rem; display: grid; place-items: center; background: var(--kz-red); color: var(--kz-paper); border: var(--kz-line); border-radius: 50%; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.125rem; }
+:is(:lang(ja), :lang(zh)) .kz-step::before { content: counter(step, cjk-decimal); }
+.kz-step__img img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.kz-step__title { font-size: 1.3125rem; padding: 1rem 0.35rem 0.35rem; }
+.kz-step__text { font-size: 0.9375rem; line-height: 1.6; padding: 0 0.35rem; color: var(--kz-quiet); }
+@media (max-width: 1000px) { .kz-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 2.5rem; } }
+@media (max-width: 560px) { .kz-strip { grid-template-columns: minmax(0, 1fr); } }
+
+/* Journal lists */
+.kz-home-journal, .kz-list { background: var(--kz-paper); }
+.kz-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.25rem); padding: 0; }
+.kz-notes .wp-block-post-template > li { margin: 0; background: #FFFFFF; padding: 10px 10px 1.25rem; position: relative; box-shadow: 0 16px 30px -26px rgba(42, 36, 16, 0.6); }
+.kz-notes .wp-block-post-template > li::after { content: ""; position: absolute; top: -10px; left: 50%; width: 80px; height: 22px; margin-left: -40px; background: rgba(250, 191, 20, 0.4); transform: rotate(-3deg); }
+.kz-note__img { margin: 0 0 0.85rem; }
+.kz-note__img img { display: block; }
+.kz-note__text { padding-inline: 0.5rem; }
+.kz-note__date { font-size: 0.8125rem; color: var(--kz-quiet); font-variant-numeric: tabular-nums; }
+.kz-note__title { font-size: 1.375rem; margin: 0.25rem 0 0.5rem; }
+.kz-note__title a { color: var(--kz-ink); text-decoration: none; }
+.kz-note__title a:hover { color: var(--kz-deep); text-decoration: underline; }
+.kz-pagination { margin-top: 2.5rem; }
+
+/* Page heads: a persimmon band with a torn, taped sketch on the right; the cut-out persimmon branch breaks over the bottom edge */
+.kz-pagehead { position: relative; z-index: 3; isolation: isolate; background: var(--kz-red); color: var(--kz-paper); padding-block: clamp(3.5rem, 7vw, 6rem) clamp(4.5rem, 8vw, 6.5rem) !important; margin: 0 !important; }
+.kz-pagehead::before { content: ""; position: absolute; z-index: -1; inset: 0 0 0 auto; width: 40%; background: var(--kz-koshi); pointer-events: none; }
+.kz-main .kz-pagehead.is-layout-constrained { padding-inline: max(var(--kz-pad), calc((100% - var(--kz-wide)) / 2)) !important; }
+.kz-main .kz-pagehead.is-layout-constrained > * { max-width: none !important; margin-inline: 0 !important; }
+.kz-pagehead > * { margin-block: 0 0.85rem; position: relative; }
+.kz-pagehead .kz-eyebrow { color: var(--kz-ink); display: inline-block; width: fit-content; border-bottom: 1.5px solid var(--kz-ink); padding-bottom: 0.25rem; }
+.kz-pagehead__title { font-size: clamp(2.5rem, 1rem + 4vw, 5rem); line-height: 1.08; text-wrap: balance; max-width: 14ch; }
+:is(:lang(ja), :lang(zh)) .kz-pagehead__title { line-height: 1.3; font-size: clamp(2.125rem, 1rem + 3vw, 3.75rem); max-width: 11em; }
+.kz-pagehead__lead { font-size: var(--wp--preset--font-size--large); max-width: 38rem; }
+.kz-main .kz-pagehead > :is(.kz-pagehead__title, .kz-pagehead__lead) { padding-right: 0; box-sizing: border-box; }
+@media (min-width: 861px) {
+	.kz-pagehead:has(> .kz-pagehead__img) > :is(.kz-eyebrow, .kz-pagehead__title, .kz-pagehead__lead) { max-width: min(56%, 40rem) !important; }
+}
+.kz-pagehead > .kz-pagehead__img { position: absolute !important; z-index: 1; top: clamp(2rem, 4vw, 3rem); right: max(var(--kz-pad), calc((100% - var(--kz-wide)) / 2)); width: clamp(260px, 32%, 440px); transform: rotate(2.5deg); margin: 0 !important; }
+.kz-pagehead__img img { aspect-ratio: 4 / 3; object-fit: cover; }
+.kz-pagehead > .kz-pagehead__branch { position: absolute !important; z-index: 4; right: calc(max(var(--kz-pad), calc((100% - var(--kz-wide)) / 2)) + clamp(200px, 26%, 360px)); bottom: -64px; width: clamp(140px, 13vw, 210px); margin: 0 !important; pointer-events: none; transform: rotate(14deg); filter: drop-shadow(0 12px 12px rgba(42, 36, 16, 0.28)); }
+.kz-pagehead__branch img { display: block; width: 100%; }
+.kz-pagehead > .kz-tate { position: absolute; right: calc(max(var(--kz-pad), calc((100% - var(--kz-wide)) / 2)) + clamp(260px, 32%, 440px) + 1.5rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.125rem, 0.9rem + 0.7vw, 1.5rem); background: var(--kz-paper); color: var(--kz-ink); padding: 0.9rem 0.55rem; border: var(--kz-line); margin: 0 !important; }
+.kz-pagehead .wp-block-search { max-width: 34rem; margin-top: 1.25rem; }
+.kz-search .wp-block-search__input { border: var(--kz-line); border-radius: 2px 0 0 2px; padding: 0.6rem 1.1rem; background: #FFFFFF; }
+.kz-search .wp-block-search__button { background: var(--kz-ink); color: var(--kz-paper); border-radius: 0 2px 2px 0; border: 0; padding-inline: 1.25rem; font-weight: 600; }
+.kz-pagehead .kz-hero__cta { justify-content: flex-start; }
+@media (max-width: 1240px) and (min-width: 861px) { .kz-pagehead > .kz-tate { display: none; } }
+@media (max-width: 860px) {
+	.kz-pagehead > .kz-pagehead__img { position: relative !important; top: auto; right: auto; width: min(100%, 420px); margin: 1.5rem 0 0 !important; }
+	.kz-pagehead > .kz-pagehead__branch { right: var(--kz-pad); bottom: -48px; width: 110px; }
+	.kz-pagehead > .kz-tate { display: none; }
+	.kz-pagehead::before { width: 100%; top: auto; height: 35%; }
+}
+
+/* The house: magazine rows, taped sketch beside facts, title and the long text */
+.kz-rows { padding-top: calc(var(--kz-sec) + 2rem) !important; }
+.kz-rows__list { display: grid; gap: clamp(3.5rem, 7vw, 6rem); }
+.kz-rows__list > * { margin: 0 !important; }
+.kz-row { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+.kz-row > * { margin: 0 !important; }
+.kz-row:nth-child(even) .kz-row__img { order: 2; transform: rotate(1.5deg); }
+.kz-row:nth-child(odd) .kz-row__img { transform: rotate(-1.5deg); }
+.kz-row__img img { aspect-ratio: 3 / 2; object-fit: cover; }
+.kz-row__text > * { margin-block: 0 0.85rem; }
+.kz-row__facts { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--kz-deep); }
+.kz-row__title { font-size: clamp(2rem, 1.3rem + 2vw, 3.125rem); line-height: 1.1; }
+.kz-advice { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; margin-top: clamp(4rem, 8vw, 6rem) !important; padding-top: clamp(2.5rem, 5vw, 4rem); border-top: 4px double var(--kz-ink); }
+.kz-advice > * { margin: 0 !important; }
+.kz-advice__text > * { margin-block: 0 1rem; }
+.kz-links .kz-book .wp-block-button__link, .kz-mailto .wp-block-button__link { background: var(--kz-ink); color: var(--kz-paper); }
+
+/* Rates (synced) */
+.kz-rates { background: var(--kz-mist); padding: clamp(1.25rem, 3vw, 2rem); margin: 0; border-top: 6px solid var(--kz-red); }
+.kz-rates > * { margin: 0 !important; }
+.kz-rates__label { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.625rem; margin-bottom: 0.75rem !important; }
+.kz-rate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 1rem; padding: 0.85rem 0; border-bottom: 1px dotted rgba(42, 36, 16, 0.45); }
+.kz-rate > * { margin: 0 !important; }
+.kz-rate__name { font-weight: 600; }
+.kz-rate__facts { grid-column: 1; font-size: 0.8125rem; color: var(--kz-quiet); }
+.kz-rate__price { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.1875rem; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.kz-rates__note { font-size: 0.875rem; color: var(--kz-quiet); margin-top: 1rem !important; }
+
+/* The host */
+.kz-about { padding-top: calc(var(--kz-sec) + 2rem) !important; }
+.kz-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.kz-about__story > * { margin: 0 !important; }
+.kz-about__text { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(42, 36, 16, 0.2); }
+.kz-about__text > * { margin-block: 0 1.1rem; }
+.kz-about__img { transform: rotate(2deg); }
+.kz-about__wide { margin-top: clamp(3rem, 6vw, 5rem) !important; }
+.kz-about__wide img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border: 10px solid #FFFFFF; outline: 1px solid rgba(42, 36, 16, 0.25); box-sizing: border-box; }
+.kz-rules { margin-top: clamp(3rem, 6vw, 4.5rem) !important; max-width: 44rem; }
+.kz-steps { padding: 0; margin: 0; list-style: none; counter-reset: splist; display: grid; gap: 0.85rem; }
+.kz-steps li { counter-increment: splist; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: 0.85rem; align-items: start; }
+.kz-steps li::before { content: counter(splist); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; background: var(--kz-red); color: var(--kz-paper); font-family: var(--wp--preset--font-family--display); font-weight: 700; border: var(--kz-line); border-radius: 50%; }
+:is(:lang(ja), :lang(zh)) .kz-steps li::before { content: counter(splist, cjk-decimal); }
+
+/* Letters */
+.kz-letter { padding-top: calc(var(--kz-sec) + 2rem) !important; }
+.kz-letter__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.kz-letter__grid > * { margin: 0 !important; }
+.kz-letter__img { transform: rotate(-1.5deg); }
+.kz-letter__card { background: var(--kz-ink); color: var(--kz-paper); padding: clamp(1.5rem, 3.5vw, 2.5rem); border-top: 8px solid var(--kz-red); }
+.kz-letter__card > * { margin-block: 0 1rem; }
+.kz-letter__card .kz-sec__title { color: var(--kz-paper); font-size: clamp(1.75rem, 1.2rem + 1.4vw, 2.5rem); }
+.kz-letter__card .kz-mailto .wp-block-button__link { background: var(--kz-red); color: var(--kz-paper); }
+
+/* Book a stay */
+.kz-contact { padding-top: calc(var(--kz-sec) + 2rem) !important; }
+.kz-contact__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.kz-contact__grid > * { margin: 0 !important; }
+.kz-contact__book > *, .kz-contact__find > * { margin-block: 0 1.25rem; }
+.kz-contact__find .kz-sec__title { font-size: 1.625rem; margin-top: 2rem; }
+.kz-steps { margin-bottom: 1.75rem !important; }
+.kz-contact__book .kz-rates { margin-top: 2.5rem !important; }
+
+/* House details (synced) */
+.kz-details { display: grid; gap: 0.35rem; margin: 0; }
+.kz-details > * { margin: 0 !important; }
+.kz-details__season { font-weight: 600; }
+.kz-details__note { font-size: 0.875rem; margin-top: 0.5rem !important; }
+.kz-contact .kz-details { background: var(--kz-mist); padding: clamp(1.25rem, 3vw, 1.75rem); border-top: 6px solid var(--kz-red); }
+body:has(.kz-main .kz-details) .kz-foot .kz-details { display: none; }
+
+/* Single note and plain pages */
+.kz-article__head > * { margin-block: 0 0.75rem; }
+.kz-article__head { margin-bottom: 2rem; }
+.kz-article .kz-pagehead__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4rem); }
+.kz-article__date { color: var(--kz-quiet); font-size: 0.875rem; }
+.kz-photo { margin-block: 0 2.5rem; background: #FFFFFF; padding: 10px; box-shadow: 0 16px 30px -26px rgba(42, 36, 16, 0.6); }
+.kz-photo img { display: block; max-height: 560px; object-fit: cover; }
+.kz-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.kz-tags a { display: inline-block; background: var(--kz-mist); color: #0F171C; padding: 0.2rem 0.8rem; text-decoration: none; font-size: 0.875rem; margin: 0 0.25rem 0.25rem 0; border-left: 3px solid var(--kz-red); }
+.kz-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.kz-page .kz-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Footer: the ink field with the house name */
+.wp-site-blocks > footer { margin-block-start: 0; }
+.kz-foot { background: var(--kz-ink); color: var(--kz-paper); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2rem; margin: 0; border-top: 10px solid var(--kz-red); }
+.kz-foot__grid { display: grid; grid-template-columns: 1.4fr 1fr 0.7fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.kz-foot__grid > * { margin: 0 !important; }
+.kz-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(2.25rem, 1.2rem + 3.4vw, 4.25rem); line-height: 1; margin: 0 0 1rem; }
+.kz-foot .kz-foot__mark a { color: var(--kz-pale); text-decoration: none; }
+.kz-foot__sub { margin: 0; max-width: 28rem; }
+.kz-foot a { color: var(--kz-paper); }
+.kz-foot__nav { font-weight: 600; gap: 0.5rem; }
+.kz-foot__nav a { text-decoration: none; }
+.kz-foot__nav a:hover { text-decoration: underline; }
+.kz-foot__base { margin-top: 3rem !important; padding-top: 1.25rem; border-top: 1px solid rgba(255, 228, 92, 0.35); }
+.kz-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--kz-pale); }
+
+@media (max-width: 1100px) { .kz-notes .wp-block-post-template { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+	.kz-row, .kz-advice, .kz-about__story, .kz-letter__grid, .kz-contact__grid, .kz-foot__grid { grid-template-columns: minmax(0, 1fr); }
+	.kz-row:nth-child(even) .kz-row__img { order: 0; }
+	.kz-about__img { max-width: 380px; }
+	.kz-about__text { column-count: 1; }
+	.kz-pagehead { padding-bottom: 4.5rem !important; }
+}
+@media (max-width: 640px) {
+	.kz-notes .wp-block-post-template { grid-template-columns: minmax(0, 1fr); }
+	.kz-rate__price { font-size: 1.0625rem; }
+}
+
+/* ===== Kizuki Construction: konjo navy (#113285) fields, a white split header (name centred, menu split left and right), a metrics-ledger front page in one reading column (giant handover count, ledger, safety trend, project register, site photograph, reports, survey call) ===== */
+:root { --kz-coral: var(--wp--preset--color--coral); --kz-col: 960px; }
+html { font-synthesis-weight: none; }
+h1, h2, h3, .kz-brand__title, .kz-foot__mark { font-weight: 700 !important; letter-spacing: -0.005em; }
+h1, h2, h3, .kz-sec__title { font-family: var(--wp--preset--font-family--display); }
+.kz-piece { filter: none; }
+.kz-piece img { clip-path: none; background: var(--kz-paper); border: 0; box-sizing: border-box; }
+.kz-piece::after { display: none; }
+.wp-block-button__link { border-radius: 2px !important; }
+
+/* Header: a formal white bar with a navy top rule. From 1280px the company name sits in the centre and the four menu entries split two left, two right, with the survey button at the far right; below 1280px the menu folds into an overlay */
+.kz-head { background: #FFFFFF; border-bottom: 1px solid rgba(20, 24, 31, 0.12); position: relative; }
+.kz-head::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 6px; background: var(--kz-red); }
+.kz-bar { gap: 1rem 2rem !important; align-items: center; position: relative; }
+.kz-bar > .kz-brand { margin-right: auto !important; }
+.kz-bar > .kz-nav { order: 2; }
+.kz-bar > .kz-head__cta { order: 3; }
+.kz-brand__tag { display: none; }
+.kz-nav .wp-block-navigation-item__content { color: var(--kz-ink); font-weight: 500; padding: 0.4rem 0; border-bottom: 2px solid transparent; }
+.kz-nav .wp-block-navigation-item__content:hover { border-bottom-color: var(--kz-coral); }
+.kz-head__cta .wp-block-button__link { background: var(--kz-red); color: #FFFFFF; padding: 0.7rem 1.3rem; font-weight: 700; border: 0; }
+.kz-head__cta .wp-block-button__link:hover { background: var(--kz-ink); color: #FFFFFF; }
+@media (min-width: 1280px) {
+	.kz-bar > .kz-brand { position: absolute; left: 50%; transform: translateX(-50%); margin: 0 !important; z-index: 1; }
+	.kz-bar > .kz-nav { order: 1; flex: 1 1 auto; }
+	.kz-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: block !important; position: static !important; background: transparent !important; width: 100%; }
+	.kz-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: none !important; }
+	.kz-nav :is(.wp-block-navigation__responsive-dialog, .wp-block-navigation__responsive-container-content, .wp-block-navigation__container) { width: 100%; }
+	.kz-nav .wp-block-navigation__container { gap: 0.25rem 2rem !important; justify-content: flex-start !important; padding-right: 2rem; }
+	.kz-nav .wp-block-navigation__container > li:nth-child(2) { margin-right: auto !important; }
+}
+@media (max-width: 1279px) {
+	.kz-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none !important; }
+	.kz-nav .wp-block-navigation__responsive-container-open { display: flex !important; color: var(--kz-ink); border: 1.5px solid currentColor; padding: 0.45rem; }
+	.kz-nav .is-menu-open .wp-block-navigation__responsive-container-close { display: flex !important; }
+	.kz-head .kz-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background-color: var(--kz-red) !important; background-image: none !important; color: #FFFFFF !important; }
+	.kz-nav .is-menu-open .wp-block-navigation__responsive-container-content { padding: 6rem var(--kz-pad) 3rem !important; align-items: stretch !important; }
+	.kz-nav .is-menu-open .wp-block-navigation__container { gap: 0 !important; flex-direction: column !important; align-items: stretch !important; border-top: 1.5px solid #FFFFFF; }
+	.kz-nav .is-menu-open .wp-block-navigation__container > li { padding: 1rem 0 !important; border-bottom: 1px solid rgba(255, 255, 255, 0.35); }
+	.kz-nav .is-menu-open .wp-block-navigation__container > li > a { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.75rem; color: #FFFFFF !important; }
+}
+@media (max-width: 599px) { .kz-head__cta .wp-block-button__link { padding: 0.5rem 0.8rem; font-size: 0.875rem; } .kz-brand__title { font-size: 1.125rem !important; } }
+@media (max-width: 400px) { .kz-head__cta { display: none !important; } }
+
+/* Navy fields take white type (white on konjo #113285 11.5:1): story band, page heads, ledger, survey call */
+.kz-story, .kz-pagehead { background-color: var(--kz-red); background-image: none !important; color: #FFFFFF; }
+:is(.kz-story, .kz-pagehead) :is(h1, h2, h3, p, .kz-eyebrow, .kz-story__no, .kz-story__lead, .kz-pagehead__lead) { color: #FFFFFF !important; }
+.kz-pagehead .kz-eyebrow { border-bottom-color: #FFFFFF; }
+.kz-pagehead__img { background: #FFFFFF; padding: 10px; transform: none !important; }
+.kz-pagehead > .kz-pagehead__branch { width: clamp(150px, 13vw, 210px); transform: rotate(-8deg); filter: drop-shadow(0 14px 12px rgba(0, 0, 0, 0.35)); }
+.kz-story > .kz-story__branch { width: clamp(200px, 20vw, 300px); transform: rotate(-8deg); filter: drop-shadow(0 18px 14px rgba(0, 0, 0, 0.35)); }
+.kz-pagehead > .kz-tate { background: #FFFFFF; color: var(--kz-red); width: fit-content; }
+:is(.kz-story, .kz-pagehead) .is-style-outline .wp-block-button__link { border: 1.5px solid #FFFFFF; color: #FFFFFF; }
+:is(.kz-story, .kz-pagehead) .kz-book .wp-block-button__link { background: #FFFFFF; color: var(--kz-red); }
+.kz-letter__card .kz-mailto .wp-block-button__link { background: var(--kz-red); color: #FFFFFF; }
+.kz-steps li::before { color: var(--kz-red); }
+.kz-foot { border-top-color: var(--kz-red); }
+.kz-foot__base { border-top-color: rgba(220, 227, 241, 0.35); }
+.kz-notes .wp-block-post-template > li { box-shadow: none; border: 1px solid rgba(20, 24, 31, 0.14); }
+.kz-notes .wp-block-post-template > li::after { display: none; }
+.kz-row__img, .kz-about__img, .kz-letter__img { transform: none !important; }
+.kz-room { background: transparent; border: 0; border-top: 3px solid var(--kz-ink); padding-top: 0.9rem !important; }
+.kz-room::before { position: static; display: block; padding: 0 0 0.6rem; background: none; font-family: var(--wp--preset--font-family--body); font-size: 2.75rem; line-height: 1; color: var(--kz-coral) !important; -webkit-text-stroke: 0; }
+.kz-step::before { background: var(--kz-coral); }
+.kz-pull { border-left-color: var(--kz-coral); }
+
+/* Front page: sections share one reading column (960px); only the hero grid and the site photograph run wide */
+.kz-gm, .kz-ledger, .kz-trend, .kz-reg, .kz-shot, .kz-reports, .kz-cta { box-sizing: border-box; padding: var(--kz-sec) max(var(--kz-pad), calc((100% - var(--kz-col)) / 2)) !important; margin: 0 !important; }
+:is(.kz-gm, .kz-ledger, .kz-trend, .kz-reg, .kz-shot, .kz-reports, .kz-cta) > * { max-width: none !important; margin-left: 0 !important; margin-right: 0 !important; }
+.kz-sec__title { font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.5rem); line-height: 1.25; margin: 0.5rem 0 0; max-width: 22em; }
+.kz-eyebrow { font-family: var(--wp--preset--font-family--body); font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; font-size: 0.8125rem; color: var(--kz-red); margin: 0; }
+
+/* Front page 1: giant metric left (columns 1-7) in bengara, headline + one button right (columns 9-12) top-aligned to the numeral's cap height, a thin documentary photo strip at the bottom */
+.kz-gm { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-rows: 1fr auto; column-gap: 24px; min-height: calc(100vh - var(--kz-headh)); padding-inline: max(var(--kz-pad), calc((100% - var(--kz-wide)) / 2)) !important; padding-top: clamp(3rem, 6vw, 5.5rem) !important; padding-bottom: clamp(1.5rem, 3vw, 2.5rem) !important; background: #FFFFFF; }
+.kz-gm__metric { grid-column: 1 / 8; grid-row: 1; align-self: start; }
+.kz-gm__num { font-family: var(--wp--preset--font-family--body); font-weight: 700; font-size: clamp(6rem, 2rem + 13vw, 13.75rem); line-height: 0.82; letter-spacing: -0.03em; color: var(--kz-coral); margin: 0 !important; font-variant-numeric: tabular-nums; }
+.kz-gm__label { font-size: 1.25rem; margin: 1.25rem 0 0 !important; color: var(--kz-ink); border-top: 2px solid var(--kz-ink); padding-top: 0.75rem; max-width: 24em; }
+.kz-gm__copy { grid-column: 9 / 13; grid-row: 1; align-self: start; padding-top: clamp(0.5rem, 1.6vw, 1.75rem); }
+.kz-gm__title { font-size: 2rem; line-height: 1.3; margin: 0 0 1rem !important; text-wrap: balance; }
+.kz-gm__lead { font-size: 0.9375rem; line-height: 1.7; color: var(--kz-quiet); margin: 0 0 1.5rem !important; }
+.kz-gm__btn .wp-block-button__link { background: var(--kz-red); color: #FFFFFF; font-weight: 700; padding: 0.9rem 1.5rem; }
+.kz-gm__btn .wp-block-button__link:hover { background: var(--kz-ink); }
+.kz-gm__strip { grid-column: 1 / 13; grid-row: 2; margin: 2.5rem 0 0 !important; }
+.kz-gm__strip img { width: 100%; height: 180px; object-fit: cover; display: block; }
+:lang(zh) .kz-gm__title, :lang(ja) .kz-gm__title { word-break: keep-all; overflow-wrap: anywhere; }
+@media (max-width: 960px) {
+	.kz-gm { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto; min-height: 0; }
+	.kz-gm__metric, .kz-gm__copy, .kz-gm__strip { grid-column: 1; grid-row: auto; }
+	.kz-gm__copy { padding-top: 2rem; }
+	.kz-gm__strip img { height: 140px; }
+}
+
+/* Front page 2: the metrics ledger on a full navy field, six rows in the reading column */
+.kz-ledger { background: var(--kz-red); color: #FFFFFF; }
+.kz-ledger .kz-eyebrow, .kz-ledger .kz-sec__title { color: #FFFFFF; }
+.kz-ledger__table { width: 100%; border-collapse: collapse; margin-top: 2.5rem; }
+.kz-ledger__table thead th { font-size: 0.8125rem; letter-spacing: 0.1em; text-transform: uppercase; text-align: left; font-weight: 700; color: #DCE3F1; padding: 0 1rem 0.75rem 0; border-bottom: 1.5px solid #FFFFFF; }
+.kz-ledger__table tbody :is(td, th) { padding: 1.25rem 1rem 1.25rem 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); vertical-align: baseline; text-align: left; }
+.kz-ledger__table tbody th { font-weight: 400; font-size: 1.0625rem; line-height: 1.5; }
+.kz-ledger__n { font-family: var(--wp--preset--font-family--body); font-weight: 700; font-size: clamp(2.5rem, 1.5rem + 3vw, 4.5rem); line-height: 1; white-space: nowrap; width: 30%; }
+.kz-ledger__y { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.kz-ledger__note { color: #DCE3F1; font-size: 0.9375rem; width: 22%; }
+@media (max-width: 700px) {
+	.kz-ledger__table thead { display: none; }
+	.kz-ledger__table tbody tr { display: grid; grid-template-columns: auto 1fr; column-gap: 1rem; border-bottom: 1px solid rgba(255, 255, 255, 0.3); padding: 1rem 0; }
+	.kz-ledger__table tbody :is(td, th) { border: 0; padding: 0.15rem 0; width: auto; }
+	.kz-ledger__n { grid-row: span 3; }
+}
+
+/* Front page 3: the safety trend, one navy line on hairlines */
+.kz-trend__lead { max-width: 40em; color: var(--kz-quiet); margin-top: 1rem !important; }
+.kz-trend__chart { margin: 2rem 0 0; }
+.kz-trend__chart svg { width: 100%; height: auto; display: block; font-family: var(--wp--preset--font-family--body); font-size: 13px; fill: var(--kz-quiet); }
+.kz-trend__grid { stroke: rgba(20, 24, 31, 0.14); stroke-width: 1; }
+.kz-trend__line { fill: none; stroke: var(--kz-red); stroke-width: 3; }
+.kz-trend__chart circle { fill: var(--kz-red); }
+.kz-trend__last { font-weight: 700; font-size: 15px; fill: var(--kz-red); }
+.kz-trend__chart figcaption { font-size: 0.875rem; color: var(--kz-quiet); margin-top: 0.5rem; }
+.kz-trend__note { font-size: 0.875rem; color: var(--kz-quiet); border-top: 1px solid rgba(20, 24, 31, 0.14); padding-top: 0.75rem; margin-top: 1.5rem !important; }
+
+/* Front page 4: project register, a hairline table with an 80px photo column */
+.kz-reg { background: var(--kz-mist); }
+.kz-reg__wrap { overflow-x: auto; margin-top: 2rem; }
+.kz-reg__table { width: 100%; border-collapse: collapse; min-width: 620px; }
+.kz-reg__table thead :is(th, td) { font-size: 0.8125rem; letter-spacing: 0.08em; text-transform: uppercase; text-align: left; color: var(--kz-quiet); padding: 0 1rem 0.6rem 0; border-bottom: 1.5px solid var(--kz-ink); }
+.kz-reg__table tbody :is(th, td) { padding: 0.6rem 1rem 0.6rem 0; border-bottom: 1px solid rgba(20, 24, 31, 0.14); text-align: left; vertical-align: middle; }
+.kz-reg__table tbody th { font-family: var(--wp--preset--font-family--display); font-weight: 700; }
+.kz-reg__thumb { width: 80px; }
+.kz-reg__thumb img { width: 80px; height: 56px; object-fit: cover; display: block; }
+.kz-reg__num { white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+/* Front page 5: one wide documentary photograph with a caption */
+.kz-shot { padding-inline: max(var(--kz-pad), calc((100% - var(--kz-wide)) / 2)) !important; padding-bottom: 0 !important; }
+.kz-shot__img img { width: 100%; aspect-ratio: 21 / 9; object-fit: cover; display: block; }
+.kz-shot__cap { font-size: 0.875rem; color: var(--kz-quiet); margin-top: 0.75rem !important; max-width: 40em; border-left: 3px solid var(--kz-coral); padding-left: 0.75rem; }
+
+/* Front page 6: reports as a plain list */
+.kz-reports__list { list-style: none; margin: 2rem 0 0; padding: 0; border-top: 1.5px solid var(--kz-ink); }
+.kz-reports__list li { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 1.5rem; align-items: baseline; padding: 1rem 0; border-bottom: 1px solid rgba(20, 24, 31, 0.14); }
+.kz-reports__t { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.125rem; }
+.kz-reports__m { color: var(--kz-quiet); font-size: 0.875rem; white-space: nowrap; }
+.kz-reports__a { color: var(--kz-red); font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--kz-coral); white-space: nowrap; }
+@media (max-width: 600px) { .kz-reports__list li { grid-template-columns: minmax(0, 1fr) auto; } .kz-reports__m { grid-row: 2; } }
+
+/* Front page 7: survey call on a navy band; the transparent cut-out helmet breaks out over the band top edge */
+.kz-cta { background: var(--kz-red); color: #FFFFFF; position: relative; margin-top: clamp(5rem, 9vw, 8rem) !important; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; column-gap: 2rem; }
+.kz-cta__line { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.5rem, 1.1rem + 1.2vw, 2.125rem); line-height: 1.35; margin: 0 !important; max-width: 18em; }
+.kz-cta__btn .wp-block-button__link { background: #FFFFFF; color: var(--kz-red); font-weight: 700; padding: 0.9rem 1.5rem; }
+.kz-cta__btn .wp-block-button__link:hover { background: var(--kz-pale); }
+.kz-cta > .kz-cta__helmet { position: absolute; right: max(var(--kz-pad), calc((100% - var(--kz-col)) / 2 - 10rem)); top: 0; width: clamp(150px, 16vw, 240px); transform: translateY(-58%) rotate(-6deg); margin: 0 !important; filter: drop-shadow(0 16px 14px rgba(0, 0, 0, 0.3)); pointer-events: none; }
+.kz-cta > .kz-cta__helmet img { width: 100%; height: auto; display: block; }
+@media (max-width: 781px) { .kz-cta { grid-template-columns: minmax(0, 1fr); row-gap: 1.5rem; } }
