@@ -31,6 +31,7 @@ test("the committed plan passes", () => {
 
 test("every open row needs a wireframe, a non-legacy structure and 5-8 blocks", () => {
   const r = check((rows) => {
+    rows["b5-8"].status = "todo";
     delete rows["b5-8"].wireframe;
     rows["b5-9"].page_structure = plan.rules.legacy_page_structure;
     rows["b5-10"].page_structure_blocks = ["a", "b", "c", "d"];
