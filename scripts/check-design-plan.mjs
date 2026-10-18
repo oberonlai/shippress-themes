@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 // Verifies design-plan.json: enums, window no-repeat rules (against shipped history), adjacent rows differ on
 // every dimension, even use of each value (illustration styles over illustrated rows, photo directions over
-// real-photography rows), and a required global header. Exit 1 on any violation.
+// real-photography rows), a required global header, and the front-page plan: todo/claimed rows carry a wireframe,
+// a first_screen and a page_structure (never the legacy values) with 5-8 page_structure_blocks; neither repeats on an
+// adjacent row or within its window, page_structure is unique inside a batch, and done rows with a new structure
+// record their shipped front_page_blocks. Exit 1 on any violation.
 import { readFileSync } from "node:fs";
 const file = process.argv[2] || new URL("../design-plan.json", import.meta.url);
 const d = JSON.parse(readFileSync(file, "utf8"));
@@ -13,7 +16,7 @@ for (const [i, r] of d.plan.entries()) {
   const at = start + i, tag = `#${r.n} ${r.slug}`;
   const photo = r.image === "real-photography";
   for (const k of Object.keys(d.enums)) {
-    if (k === "photo_direction") continue;
+    if (k === "photo_direction" || k === "page_structure" || k === "first_screen") continue;
     const en = k === "illustration" && photo ? d.enums.photo_direction : d.enums[k];
     if (!en.includes(r[k])) errs.push(`${tag}: ${k}=${r[k]} not in ${k === "illustration" && photo ? "photo_direction" : k} enum`);
   }
@@ -28,6 +31,39 @@ for (const [i, r] of d.plan.entries()) {
   const prev = seq[at - 1];
   for (const k of dims) if (prev && prev[k] !== undefined && prev[k] === r[k]) errs.push(`${tag}: same ${k} as adjacent ${prev.slug}`);
   if (prev && prev.palette === r.palette) errs.push(`${tag}: same palette as adjacent`);
+}
+const rl = d.rules;
+const legacy = { page_structure: rl.legacy_page_structure, first_screen: rl.legacy_first_screen };
+const open = r => /^(todo|claimed)/.test(r.status || "");
+for (const [i, r] of d.plan.entries()) {
+  const tag = `#${r.n} ${r.slug}`;
+  for (const k of ["page_structure", "first_screen"]) {
+    if (r[k] === undefined) { if (open(r)) errs.push(`${tag}: ${k} missing`); continue; }
+    if (!(d.enums[k] || []).includes(r[k])) { errs.push(`${tag}: ${k}=${r[k]} not in ${k} enum`); continue; }
+    if (r[k] === legacy[k]) { if (open(r)) errs.push(`${tag}: ${k} must not be the legacy ${r[k]}`); continue; }
+    const w = rl[`${k}_window`] || 1;
+    for (let j = Math.max(0, i - w); j < i; j++) {
+      const p = d.plan[j];
+      if (p[k] === r[k]) errs.push(`${tag}: ${k} ${r[k]} ${j === i - 1 ? "same as adjacent" : `repeats ${p.slug} within ${w}`}`);
+    }
+  }
+  if (open(r)) {
+    if (typeof r.wireframe !== "string" || !r.wireframe.trim()) errs.push(`${tag}: wireframe missing`);
+    const b = r.page_structure_blocks;
+    if (!Array.isArray(b) || b.length < 5 || b.length > 8 || b.some(x => typeof x !== "string" || !x.trim())) errs.push(`${tag}: page_structure_blocks must be 5-8 non-empty strings`);
+  } else if (r.page_structure && r.page_structure !== legacy.page_structure) {
+    const b = r.front_page_blocks;
+    if (!Array.isArray(b) || b.length < 5 || b.length > 8) errs.push(`${tag}: done row needs front_page_blocks (5-8 shipped patterns)`);
+  }
+}
+if (rl.page_structure_unique_per_batch) {
+  const seen = {};
+  for (const r of d.plan) {
+    if (!r.page_structure || r.page_structure === legacy.page_structure) continue;
+    const key = `${String(r.id || "").split("-")[0]}:${r.page_structure}`;
+    if (seen[key]) errs.push(`#${r.n} ${r.slug}: page_structure ${r.page_structure} already used by ${seen[key]} in this batch`);
+    else seen[key] = r.slug;
+  }
 }
 const pal = d.plan.map(r => r.palette);
 if (new Set(pal).size !== pal.length) errs.push("palette colour reused inside plan");
