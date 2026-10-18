@@ -5,7 +5,7 @@
  * Categories: michishirube-consulting
  * Keywords: consulting, management, strategy
  * Viewport Width: 1440
- * Description: A shikon violet page head, the eyebrow, title and lead and a photo; the cut-out brass compass breaks over the bottom edge.
+ * Description: A deep navy page head, the eyebrow, title and lead and a photo; the cut-out brass compass breaks over the bottom edge.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "mc-pagehead", "layout": {"type": "constrained"}} -->

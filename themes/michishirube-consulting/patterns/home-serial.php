@@ -5,7 +5,7 @@
  * Categories: michishirube-consulting
  * Keywords: consulting, management, strategy
  * Viewport Width: 1440
- * Description: A shikon violet band: the opening year in giant type and the story of the firm beside a collage of photos; the cut-out brass compass breaks over the band top edge.
+ * Description: A deep navy band: the opening year in giant type and the story of the firm beside a collage of photos; the cut-out brass compass breaks over the band top edge.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "mc-section mc-story", "layout": {"type": "constrained"}} -->

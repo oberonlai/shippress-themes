@@ -1,11 +1,11 @@
 <?php
 /**
- * Title: Home: a cut-out object breaking its frame on a shikon field
+ * Title: Home: a cut-out object breaking its frame on a navy field
  * Slug: michishirube-consulting/home-hero
  * Categories: michishirube-consulting
  * Keywords: consulting, management, strategy
  * Viewport Width: 1440
- * Description: A cut-out object breaking its frame: the shikon violet field holds the issue line, title, lead, buttons and this month's questions on the left; the low-key photo of an empty boardroom is framed on the right, and the cut-out consultant breaks out over the frame and the hero bottom edge.
+ * Description: A cut-out object breaking its frame: the deep navy field holds the issue line, title, lead, buttons and this month's questions on the left; the low-key photo of an empty boardroom is framed on the right, and the cut-out consultant breaks out over the frame and the hero bottom edge.
  */
 ?>
 <!-- wp:group {"tagName": "section", "align": "full", "className": "mc-hero", "layout": {"type": "default"}} -->

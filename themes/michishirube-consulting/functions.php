@@ -108,7 +108,7 @@ function michishirube_consulting_pattern_categories() {
 		'michishirube-consulting',
 		array(
 			'label'       => __( 'Michishirube Consulting', 'michishirube-consulting' ),
-			'description' => __( 'Sections for a management consulting firm: the shikon violet hero with the framed boardroom photo and the cut-out consultant, the office board, the services, the story band, the steps, the insights and the briefing.', 'michishirube-consulting' ),
+			'description' => __( 'Sections for a management consulting firm: the deep navy hero with the framed boardroom photo and the cut-out consultant, the office board, the services, the story band, the steps, the insights and the briefing.', 'michishirube-consulting' ),
 		)
 	);
 }
