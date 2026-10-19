@@ -1,0 +1,587 @@
+/*
+Theme Name: Asahi Gakuen
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/asahi-gakuen
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: A private high school theme in forget-me-not blue: a giant type-poster motto on a pale blue field with three facts and the admissions date, then a collage index of high-key cut-out portraits of students and teachers, a long interview, the school year, people in figures, admissions dates and the latest notices. English sample content.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: asahi-gakuen
+Tags: block-theme, full-site-editing, wide-blocks, custom-colors, editor-style, translation-ready, blog
+*/
+
+:root {
+	--ag-paper: var(--wp--preset--color--paper);
+	--ag-red: var(--wp--preset--color--suou);
+	--ag-mist: var(--wp--preset--color--mist);
+	--ag-ink: var(--wp--preset--color--ink);
+	--ag-deep: var(--wp--preset--color--deep);
+	--ag-quiet: var(--wp--preset--color--quiet);
+	--ag-pale: var(--wp--preset--color--pale);
+	--ag-field-ink: var(--wp--preset--color--field-ink);
+	--ag-pad: clamp(1.25rem, 4vw, 3rem);
+	--ag-sec: clamp(3.5rem, 7vw, 6.5rem);
+	--ag-line: 1.5px solid var(--ag-ink);
+	--ag-rail: 0px;
+	--ag-headh: 72px;
+	--ag-wide: var(--wp--style--global--wide-size);
+	/* No texture on the wisteria fields */
+	--ag-koshi: none;
+	--ag-grid: none;
+	/* A torn paper edge for the collage pieces */
+	--ag-torn: polygon(0% 2%, 6% 0%, 13% 1.5%, 21% 0.3%, 30% 1.8%, 38% 0%, 47% 1.2%, 55% 0.2%, 64% 1.6%, 72% 0.4%, 81% 1.4%, 90% 0%, 100% 1.5%, 99% 12%, 100% 25%, 98.8% 38%, 100% 51%, 99% 64%, 100% 77%, 98.6% 89%, 100% 98%, 93% 100%, 84% 98.6%, 75% 100%, 66% 98.4%, 57% 100%, 48% 98.8%, 39% 100%, 30% 98.5%, 21% 100%, 12% 98.6%, 4% 100%, 0% 98%, 1.2% 86%, 0% 73%, 1% 60%, 0% 47%, 1.4% 34%, 0% 21%, 1% 10%);
+}
+
+:lang(ja) body, :lang(zh) body { line-height: 1.95; }
+:is(:lang(ja), :lang(zh)) :is(.ag-eyebrow, .ag-issue, .ag-board__tonight, .ag-rates__label, .ag-row__facts, .ag-room__facts, .ag-toc__label) { letter-spacing: 0.08em; text-transform: none; }
+
+html, body { overflow-x: clip; }
+a { color: var(--ag-deep); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:where(a, button, input, summary):focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+img { height: auto; max-width: 100%; }
+
+/* Labels, titles, block styles */
+.ag-eyebrow { font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ag-deep); margin: 0 0 0.85rem; }
+.ag-eyebrow a { color: inherit; text-decoration: none; }
+.ag-sec__title { margin: 0 0 1.25rem; font-size: clamp(2rem, 1.2rem + 2.4vw, 3.375rem); line-height: 1.12; text-wrap: balance; }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.65; }
+.wp-block-button__link { box-shadow: none; }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--ag-deep); padding: 0.25rem 0; border-bottom: 2px solid currentColor; border-radius: 0; }
+.wp-block-button.is-style-outline .wp-block-button__link { background: transparent; color: var(--ag-ink); border: var(--ag-line); }
+hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5rem 0; opacity: 1; background: var(--ag-koshi), var(--ag-red); }
+.is-style-rule-list { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.is-style-rule-list li { padding: 0.75rem 0 0.75rem 1.6rem; border-bottom: 1px solid color-mix(in srgb, currentColor 22%, transparent); position: relative; }
+.is-style-rule-list li::before { content: ""; position: absolute; left: 0.1rem; top: 1.3rem; width: 0.6rem; height: 0.6rem; background: var(--ag-red); border-radius: 50%; }
+.ag-dropcap::first-letter { float: left; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 3.6em; line-height: 0.82; margin: 0.08em 0.12em 0 0; color: var(--ag-deep); }
+:is(:lang(ja), :lang(zh)) .ag-dropcap::first-letter { font-size: 2.6em; line-height: 1; }
+
+/* Vertical labels: only for Chinese and Japanese; Latin text is never set vertically */
+.ag-tate { display: none; }
+:is(:lang(ja), :lang(zh)) .ag-tate { display: block; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-weight: 700; letter-spacing: 0.3em; margin: 0; line-height: 1.3; white-space: nowrap; }
+
+/* Collage pieces: torn-edged sketches on paper, held by a strip of tape */
+.ag-piece { margin: 0; position: relative; filter: drop-shadow(0 14px 16px rgba(42, 36, 16, 0.22)); }
+.ag-piece img { display: block; width: 100%; clip-path: var(--ag-torn); background: #F7F9FA; }
+.ag-piece::after { content: ""; position: absolute; z-index: 2; top: -12px; left: 50%; width: 92px; height: 26px; margin-left: -46px; background: rgba(254, 240, 194, 0.78); border-left: 1px dashed rgba(42, 36, 16, 0.15); border-right: 1px dashed rgba(42, 36, 16, 0.15); transform: rotate(-4deg); }
+
+/* Header: a formal top bar. House name and tagline on the left, the Book a stay button on the right; on wide screens the menu leaves the bar and becomes a fixed ink side rail down the left edge, with numbered entries. Phones and tablets get an overlay menu */
+.ag-head-part { position: sticky; top: 0; z-index: 40; }
+.ag-head { margin: 0; background: var(--ag-paper); color: var(--ag-ink); border-bottom: var(--ag-line); }
+.ag-head > .ag-bar { max-width: none !important; }
+.ag-bar { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 1rem 2rem; min-height: var(--ag-headh); }
+.ag-bar > * { margin: 0 !important; }
+.ag-brand { display: flex; align-items: baseline; gap: 0.35rem 1.25rem; flex-wrap: wrap; margin-right: auto !important; }
+.ag-brand > * { margin: 0 !important; }
+.ag-brand__title { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.875rem); line-height: 1.05; white-space: nowrap; letter-spacing: 0.01em; }
+.ag-brand__title a { color: var(--ag-ink); text-decoration: none; }
+.ag-brand__tag { font-size: 0.8125rem; color: var(--ag-quiet); line-height: 1.3; max-width: 32rem; padding-left: 1.25rem; border-left: 1px solid color-mix(in srgb, var(--ag-ink) 30%, transparent); }
+.ag-nav { font-weight: 600; font-size: 0.9375rem; letter-spacing: 0.02em; }
+.ag-nav a { color: inherit; text-decoration: none; white-space: nowrap; }
+.ag-nav .wp-block-navigation__responsive-container-open { color: #0F171C; padding: 0.45rem; background: var(--ag-red); border-radius: 2px; }
+.ag-head__cta .wp-block-button__link { background: var(--ag-red); color: var(--ag-paper); padding: 0.7rem 1.35rem; border-radius: 2px; white-space: nowrap; font-size: 0.9375rem; border: var(--ag-line); }
+.ag-head__cta .wp-block-button__link:hover { background: var(--ag-ink); color: var(--ag-paper); }
+.ag-head .ag-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background: var(--ag-koshi), var(--ag-red); color: #0F171C; padding: 2rem var(--ag-pad); }
+.ag-nav .is-menu-open .wp-block-navigation__container { gap: 1.1rem; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2rem; }
+.ag-nav .is-menu-open a, .ag-nav .is-menu-open .wp-block-navigation__responsive-container-close { color: var(--ag-ink); }
+@media (max-width: 1099px) {
+	.ag-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
+	.ag-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
+	.ag-brand__tag { display: none; }
+}
+@media (max-width: 599px) {
+	.ag-bar { gap: 0.75rem; min-height: 62px; }
+	.ag-brand__title { font-size: 1.25rem; }
+	.ag-head__cta .wp-block-button__link { padding: 0.45rem 0.75rem; font-size: 0.8125rem; }
+}
+
+/* The page column */
+.ag-shell { display: block; margin: 0 !important; }
+.ag-main { margin: 0 !important; padding: 0 !important; min-width: 0; }
+.ag-main > * { margin-block: 0; }
+.ag-main > .wp-block-post-content > * { margin-block: 0; }
+.ag-section { padding-block: var(--ag-sec); margin: 0 !important; position: relative; }
+.ag-main .ag-section.is-layout-constrained > :not(.alignfull) { max-width: var(--ag-wide) !important; }
+.ag-main .ag-section > p:not(.ag-tate):not(.ag-eyebrow) { padding-right: max(0px, calc(100% - 40rem)); }
+.ag-section > * { margin-block-start: 0; }
+
+/* Hero: a persimmon cover. Issue line, title, lead, buttons and the contents on the left; three torn pencil sketches stacked and taped on the right; the cut-out townhouse stands in front of the collage and breaks over the hero bottom edge */
+.ag-hero { position: relative; z-index: 4; isolation: isolate; margin: 0 !important; padding: clamp(3rem, 5vw, 4.5rem) var(--ag-pad) clamp(4rem, 7vw, 6rem) !important; background: var(--ag-red); color: var(--ag-paper); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 4vw, 4rem); align-items: center; min-height: clamp(680px, 86vh, 860px); box-sizing: border-box; }
+.ag-hero::before { content: ""; position: absolute; z-index: -1; top: 0; bottom: 0; right: 0; width: 46%; background: var(--ag-koshi); pointer-events: none; }
+.ag-hero > * { margin: 0 !important; }
+.ag-hero__text > * { margin-block: 0 1.1rem; }
+.ag-issue { display: flex; align-items: center; gap: 0.75rem; font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; }
+.ag-issue::before, .ag-issue::after { content: ""; flex: 0 0 2.5rem; height: 1.5px; background: currentColor; }
+.ag-hero .ag-eyebrow { color: var(--ag-ink); }
+.ag-hero__title { font-size: clamp(2.75rem, 1rem + 4.4vw, 5.75rem); line-height: 1.02; letter-spacing: -0.01em; text-wrap: balance; max-width: 11ch; margin-bottom: 1.5rem !important; }
+:is(:lang(ja), :lang(zh)) .ag-hero__title { line-height: 1.2; font-size: clamp(2.375rem, 0.8rem + 4vw, 4.75rem); max-width: 8em; }
+:lang(ja) .ag-hero__title { word-break: auto-phrase; }
+.ag-hero__lead { font-size: var(--wp--preset--font-size--large); max-width: 32rem; line-height: 1.6; }
+.ag-hero__cta { gap: 0.75rem 1rem; margin-top: 1.75rem !important; }
+.ag-hero .ag-book .wp-block-button__link { background: var(--ag-ink); color: var(--ag-paper); }
+.ag-hero .ag-book .wp-block-button__link:hover { background: var(--ag-paper); color: var(--ag-ink); }
+.ag-hero .is-style-outline .wp-block-button__link { border-color: var(--ag-ink); }
+.ag-toc { margin-top: 2.25rem !important; border-top: 1.5px solid var(--ag-ink); padding-top: 0.9rem; max-width: 30rem; }
+.ag-toc > * { margin: 0 !important; }
+.ag-toc__label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.4rem !important; }
+.ag-toc__list { list-style: none; padding: 0; counter-reset: toc; }
+.ag-toc__list li { counter-increment: toc; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); align-items: baseline; padding: 0.35rem 0; border-bottom: 1px solid rgba(42, 36, 16, 0.3); font-weight: 600; }
+.ag-toc__list li::before { content: counter(toc, decimal-leading-zero); font-family: var(--wp--preset--font-family--display); font-weight: 700; }
+:is(:lang(ja), :lang(zh)) .ag-toc__list li::before { content: counter(toc, cjk-decimal); }
+.ag-collage { position: relative; height: clamp(520px, 44vw, 660px); }
+.ag-collage > * { margin: 0 !important; }
+.ag-piece--a { position: absolute !important; top: 0; left: 0; width: 70%; transform: rotate(-3deg); z-index: 1; }
+.ag-piece--b { position: absolute !important; top: 30%; right: 0; width: 62%; transform: rotate(2.5deg); z-index: 2; }
+.ag-piece--c { position: absolute !important; bottom: 0; left: 6%; width: 32%; transform: rotate(-1.5deg); z-index: 3; }
+.ag-piece--b::after { left: 22%; transform: rotate(6deg); }
+.ag-hero__house { position: absolute !important; z-index: 5; right: calc(var(--ag-pad) + 4%); bottom: -9%; width: clamp(200px, 17vw, 300px); margin: 0 !important; pointer-events: none; filter: drop-shadow(0 18px 18px rgba(42, 36, 16, 0.3)); }
+.ag-hero__house img { display: block; width: 100%; }
+.ag-hero .ag-tate { position: absolute; z-index: 4; left: calc(5 / 11 * 100% + 1rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.25rem, 0.9rem + 0.9vw, 1.75rem); background: var(--ag-paper); color: var(--ag-ink); padding: 1rem 0.6rem; border: var(--ag-line); }
+@media (max-width: 960px) {
+	.ag-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; padding-bottom: 5rem !important; }
+	.ag-hero::before { width: 100%; top: auto; height: 46%; }
+	.ag-collage { height: clamp(380px, 92vw, 620px); max-width: 640px; }
+	.ag-hero__house { right: var(--ag-pad); bottom: -6%; width: clamp(150px, 34vw, 240px); }
+	.ag-hero .ag-tate { display: none; }
+}
+
+/* At a glance (synced house board): a ruled fact box on paper */
+.ag-glance { background: var(--ag-paper); z-index: 1; padding-block: clamp(4.5rem, 8vw, 6.5rem) clamp(3rem, 6vw, 4.5rem) !important; }
+.ag-board { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr); gap: 0.75rem clamp(1.5rem, 3vw, 3rem); margin: 0; align-items: start; border-top: 4px double var(--ag-ink); border-bottom: 1.5px solid var(--ag-ink); padding-block: 1.5rem; }
+.ag-board > * { margin: 0 !important; }
+.ag-board p { margin: 0; }
+.ag-board__label { display: none; }
+.ag-board__tonight { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ag-deep); grid-column: 1; grid-row: 1; }
+.ag-board__sky { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.625rem, 1.2rem + 1.2vw, 2.25rem); line-height: 1.15; grid-row: 2; grid-column: 1; }
+.ag-board__clear { font-size: 0.9375rem; grid-row: 3; grid-column: 1; color: var(--ag-ink); background: var(--ag-mist); padding: 0.35rem 0.75rem; justify-self: start; }
+.ag-board__rows { display: grid; gap: 0; grid-row: 1 / span 3; grid-column: 2; border-left: 1px solid rgba(42, 36, 16, 0.25); border-right: 1px solid rgba(42, 36, 16, 0.25); padding-inline: clamp(1rem, 2vw, 2rem); }
+.ag-board__rows > * { margin: 0 !important; }
+.ag-board__row { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; border-bottom: 1px dotted rgba(42, 36, 16, 0.4); padding: 0.55rem 0; }
+.ag-board__row:last-child { border-bottom: 0; }
+.ag-board__row > * { margin: 0 !important; }
+.ag-board__k { font-size: 0.875rem; color: var(--ag-quiet); }
+.ag-board__v { font-weight: 600; text-align: right; }
+.ag-board__note { font-size: 0.9375rem; color: var(--ag-quiet); grid-column: 3; grid-row: 1 / span 2; }
+.ag-board__cta { grid-column: 3; grid-row: 3; }
+.ag-board__cta .wp-block-button__link { background: var(--ag-red); color: var(--ag-paper); border: var(--ag-line); }
+@media (max-width: 900px) {
+	.ag-board { grid-template-columns: minmax(0, 1fr); }
+	.ag-board > * { grid-column: 1 !important; grid-row: auto !important; }
+	.ag-board__rows { border: 0; padding: 0; }
+}
+
+/* Feature 01: a magazine spread. Title, a two-column lead with a drop cap and a pull quote beside a taped sketch, then the four rooms on a staggered grid */
+.ag-feature { background: var(--ag-paper); }
+.ag-spread { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(2rem, 5vw, 5rem); align-items: start; }
+.ag-spread > * { margin: 0 !important; }
+.ag-spread__intro > * { margin-block: 0 1.25rem; }
+.ag-feature__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4.25rem); max-width: 14ch; }
+.ag-spread__intro .ag-dropcap { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(42, 36, 16, 0.2); font-size: 1.0625rem; }
+.ag-pull { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.875rem); line-height: 1.35; border-left: 6px solid var(--ag-red); padding-left: 1.25rem; margin-top: 2rem !important; max-width: 30rem; }
+.ag-spread__img { transform: rotate(2deg); margin-top: 2.5rem !important; }
+.ag-rooms { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.25rem, 2.5vw, 2.25rem); margin-top: clamp(3rem, 6vw, 5rem) !important; counter-reset: room; }
+.ag-rooms > * { margin: 0 !important; }
+.ag-room { counter-increment: room; position: relative; padding-top: 3.25rem; }
+.ag-room:nth-child(even) { margin-top: 3.5rem !important; }
+.ag-room > * { margin: 0 0 0.5rem !important; }
+.ag-room::before { content: counter(room, decimal-leading-zero); position: absolute; top: 0; left: 0; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 2.5rem; line-height: 1; color: var(--ag-deep); }
+:is(:lang(ja), :lang(zh)) .ag-room::before { content: counter(room, cjk-decimal); }
+.ag-room__img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border: 8px solid #FFFFFF; outline: 1px solid rgba(42, 36, 16, 0.25); box-sizing: border-box; }
+.ag-room__title { font-size: 1.5rem; margin-top: 0.85rem !important; }
+.ag-room__facts { font-size: 0.8125rem; font-weight: 600; color: var(--ag-deep); }
+.ag-room__text { font-size: 0.9375rem; line-height: 1.65; color: var(--ag-quiet); }
+.ag-more { margin-top: 2.5rem !important; }
+@media (max-width: 1000px) { .ag-rooms { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+	.ag-spread { grid-template-columns: minmax(0, 1fr); }
+	.ag-spread__img { max-width: 420px; margin-top: 0 !important; }
+}
+@media (max-width: 640px) {
+	.ag-spread__intro .ag-dropcap { column-count: 1; }
+	.ag-rooms { grid-template-columns: minmax(0, 1fr); }
+	.ag-room:nth-child(even) { margin-top: 0 !important; }
+}
+
+/* Feature 02: the story on a persimmon band. The year in giant type and the story beside a taped collage; the cut-out persimmon branch breaks over the band top edge */
+.ag-story { z-index: 3; background: var(--ag-red); color: var(--ag-paper); padding-block: clamp(5.5rem, 10vw, 8rem) var(--ag-sec) !important; }
+.ag-story::before { content: ""; position: absolute; inset: 0 0 0 auto; width: 48%; background: var(--ag-koshi); pointer-events: none; }
+.ag-story > .ag-story__branch { position: absolute !important; z-index: 4; top: -96px; right: max(var(--ag-pad), calc((100% - var(--ag-wide)) / 2 + 2rem)); width: clamp(170px, 18vw, 280px); margin: 0 !important; pointer-events: none; transform: rotate(-12deg); filter: drop-shadow(0 14px 14px rgba(42, 36, 16, 0.25)); }
+.ag-story__branch img { display: block; width: 100%; }
+.ag-story__grid { position: relative; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+.ag-story__grid > * { margin: 0 !important; }
+.ag-story__text > * { margin-block: 0 1.1rem; }
+.ag-story .ag-eyebrow { color: var(--ag-ink); }
+.ag-story__no { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(5.5rem, 2rem + 9vw, 11rem); line-height: 0.85; letter-spacing: -0.02em; }
+.ag-story .ag-sec__title { font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.75rem); }
+.ag-story__lead { max-width: 34rem; }
+.ag-story__collage { position: relative; height: clamp(420px, 38vw, 560px); }
+.ag-story__collage > * { margin: 0 !important; }
+.ag-piece--d { position: absolute !important; top: 0; left: 4%; width: 46%; transform: rotate(-4deg); z-index: 1; }
+.ag-piece--e { position: absolute !important; top: 12%; right: 0; width: 56%; transform: rotate(3deg); z-index: 2; }
+.ag-piece--f { position: absolute !important; bottom: 0; left: 26%; width: 52%; transform: rotate(-1deg); z-index: 3; }
+@media (max-width: 860px) {
+	.ag-story__grid { grid-template-columns: minmax(0, 1fr); }
+	.ag-story::before { width: 100%; top: auto; height: 40%; }
+	.ag-story__collage { height: clamp(320px, 86vw, 520px); }
+	.ag-story > .ag-story__branch { top: -70px; width: 150px; }
+}
+
+/* Feature 03: your stay, four taped steps on pale persimmon */
+.ag-process { background: var(--ag-mist); }
+.ag-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1rem, 2.4vw, 2rem); margin-top: 2.5rem !important; counter-reset: step; }
+.ag-strip > * { margin: 0 !important; }
+.ag-step { counter-increment: step; position: relative; background: var(--ag-paper); padding: 12px 12px 1.25rem; box-shadow: 0 16px 30px -24px rgba(42, 36, 16, 0.6); }
+.ag-step:nth-child(odd) { transform: rotate(-1deg); }
+.ag-step:nth-child(even) { transform: rotate(1deg); }
+.ag-step > * { margin: 0 !important; }
+.ag-step::before { content: counter(step); position: absolute; z-index: 2; left: -12px; top: -14px; width: 2.6rem; height: 2.6rem; display: grid; place-items: center; background: var(--ag-red); color: var(--ag-paper); border: var(--ag-line); border-radius: 50%; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.125rem; }
+:is(:lang(ja), :lang(zh)) .ag-step::before { content: counter(step, cjk-decimal); }
+.ag-step__img img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.ag-step__title { font-size: 1.3125rem; padding: 1rem 0.35rem 0.35rem; }
+.ag-step__text { font-size: 0.9375rem; line-height: 1.6; padding: 0 0.35rem; color: var(--ag-quiet); }
+@media (max-width: 1000px) { .ag-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 2.5rem; } }
+@media (max-width: 560px) { .ag-strip { grid-template-columns: minmax(0, 1fr); } }
+
+/* Journal lists */
+.ag-home-journal, .ag-list { background: var(--ag-paper); }
+.ag-notes .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.25rem, 3vw, 2.25rem); padding: 0; }
+.ag-notes .wp-block-post-template > li { margin: 0; background: #FFFFFF; padding: 10px 10px 1.25rem; position: relative; box-shadow: 0 16px 30px -26px rgba(42, 36, 16, 0.6); }
+.ag-notes .wp-block-post-template > li::after { content: ""; position: absolute; top: -10px; left: 50%; width: 80px; height: 22px; margin-left: -40px; background: rgba(250, 191, 20, 0.4); transform: rotate(-3deg); }
+.ag-note__img { margin: 0 0 0.85rem; }
+.ag-note__img img { display: block; }
+.ag-note__text { padding-inline: 0.5rem; }
+.ag-note__date { font-size: 0.8125rem; color: var(--ag-quiet); font-variant-numeric: tabular-nums; }
+.ag-note__title { font-size: 1.375rem; margin: 0.25rem 0 0.5rem; }
+.ag-note__title a { color: var(--ag-ink); text-decoration: none; }
+.ag-note__title a:hover { color: var(--ag-deep); text-decoration: underline; }
+.ag-pagination { margin-top: 2.5rem; }
+
+/* Page heads: a persimmon band with a torn, taped sketch on the right; the cut-out persimmon branch breaks over the bottom edge */
+.ag-pagehead { position: relative; z-index: 3; isolation: isolate; background: var(--ag-red); color: var(--ag-paper); padding-block: clamp(3.5rem, 7vw, 6rem) clamp(4.5rem, 8vw, 6.5rem) !important; margin: 0 !important; }
+.ag-pagehead::before { content: ""; position: absolute; z-index: -1; inset: 0 0 0 auto; width: 40%; background: var(--ag-koshi); pointer-events: none; }
+.ag-main .ag-pagehead.is-layout-constrained { padding-inline: max(var(--ag-pad), calc((100% - var(--ag-wide)) / 2)) !important; }
+.ag-main .ag-pagehead.is-layout-constrained > * { max-width: none !important; margin-inline: 0 !important; }
+.ag-pagehead > * { margin-block: 0 0.85rem; position: relative; }
+.ag-pagehead .ag-eyebrow { color: var(--ag-ink); display: inline-block; width: fit-content; border-bottom: 1.5px solid var(--ag-ink); padding-bottom: 0.25rem; }
+.ag-pagehead__title { font-size: clamp(2.5rem, 1rem + 4vw, 5rem); line-height: 1.08; text-wrap: balance; max-width: 14ch; }
+:is(:lang(ja), :lang(zh)) .ag-pagehead__title { line-height: 1.3; font-size: clamp(2.125rem, 1rem + 3vw, 3.75rem); max-width: 11em; }
+.ag-pagehead__lead { font-size: var(--wp--preset--font-size--large); max-width: 38rem; }
+.ag-main .ag-pagehead > :is(.ag-pagehead__title, .ag-pagehead__lead) { padding-right: 0; box-sizing: border-box; }
+@media (min-width: 861px) {
+	.ag-pagehead:has(> .ag-pagehead__img) > :is(.ag-eyebrow, .ag-pagehead__title, .ag-pagehead__lead) { max-width: min(56%, 40rem) !important; }
+}
+.ag-pagehead > .ag-pagehead__img { position: absolute !important; z-index: 1; top: clamp(2rem, 4vw, 3rem); right: max(var(--ag-pad), calc((100% - var(--ag-wide)) / 2)); width: clamp(260px, 32%, 440px); transform: rotate(2.5deg); margin: 0 !important; }
+.ag-pagehead__img img { aspect-ratio: 4 / 3; object-fit: cover; }
+.ag-pagehead > .ag-pagehead__branch { position: absolute !important; z-index: 4; right: calc(max(var(--ag-pad), calc((100% - var(--ag-wide)) / 2)) + clamp(200px, 26%, 360px)); bottom: -64px; width: clamp(140px, 13vw, 210px); margin: 0 !important; pointer-events: none; transform: rotate(14deg); filter: drop-shadow(0 12px 12px rgba(42, 36, 16, 0.28)); }
+.ag-pagehead__branch img { display: block; width: 100%; }
+.ag-pagehead > .ag-tate { position: absolute; right: calc(max(var(--ag-pad), calc((100% - var(--ag-wide)) / 2)) + clamp(260px, 32%, 440px) + 1.5rem); top: clamp(2rem, 4vw, 3rem); font-size: clamp(1.125rem, 0.9rem + 0.7vw, 1.5rem); background: var(--ag-paper); color: var(--ag-ink); padding: 0.9rem 0.55rem; border: var(--ag-line); margin: 0 !important; }
+.ag-pagehead .wp-block-search { max-width: 34rem; margin-top: 1.25rem; }
+.ag-search .wp-block-search__input { border: var(--ag-line); border-radius: 2px 0 0 2px; padding: 0.6rem 1.1rem; background: #FFFFFF; }
+.ag-search .wp-block-search__button { background: var(--ag-ink); color: var(--ag-paper); border-radius: 0 2px 2px 0; border: 0; padding-inline: 1.25rem; font-weight: 600; }
+.ag-pagehead .ag-hero__cta { justify-content: flex-start; }
+@media (max-width: 1240px) and (min-width: 861px) { .ag-pagehead > .ag-tate { display: none; } }
+@media (max-width: 860px) {
+	.ag-pagehead > .ag-pagehead__img { position: relative !important; top: auto; right: auto; width: min(100%, 420px); margin: 1.5rem 0 0 !important; }
+	.ag-pagehead > .ag-pagehead__branch { right: var(--ag-pad); bottom: -48px; width: 110px; }
+	.ag-pagehead > .ag-tate { display: none; }
+	.ag-pagehead::before { width: 100%; top: auto; height: 35%; }
+}
+
+/* The house: magazine rows, taped sketch beside facts, title and the long text */
+.ag-rows { padding-top: calc(var(--ag-sec) + 2rem) !important; }
+.ag-rows__list { display: grid; gap: clamp(3.5rem, 7vw, 6rem); }
+.ag-rows__list > * { margin: 0 !important; }
+.ag-row { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+.ag-row > * { margin: 0 !important; }
+.ag-row:nth-child(even) .ag-row__img { order: 2; transform: rotate(1.5deg); }
+.ag-row:nth-child(odd) .ag-row__img { transform: rotate(-1.5deg); }
+.ag-row__img img { aspect-ratio: 3 / 2; object-fit: cover; }
+.ag-row__text > * { margin-block: 0 0.85rem; }
+.ag-row__facts { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ag-deep); }
+.ag-row__title { font-size: clamp(2rem, 1.3rem + 2vw, 3.125rem); line-height: 1.1; }
+.ag-advice { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; margin-top: clamp(4rem, 8vw, 6rem) !important; padding-top: clamp(2.5rem, 5vw, 4rem); border-top: 4px double var(--ag-ink); }
+.ag-advice > * { margin: 0 !important; }
+.ag-advice__text > * { margin-block: 0 1rem; }
+.ag-links .ag-book .wp-block-button__link, .ag-mailto .wp-block-button__link { background: var(--ag-ink); color: var(--ag-paper); }
+
+/* Rates (synced) */
+.ag-rates { background: var(--ag-mist); padding: clamp(1.25rem, 3vw, 2rem); margin: 0; border-top: 6px solid var(--ag-red); }
+.ag-rates > * { margin: 0 !important; }
+.ag-rates__label { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.625rem; margin-bottom: 0.75rem !important; }
+.ag-rate { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 1rem; padding: 0.85rem 0; border-bottom: 1px dotted rgba(42, 36, 16, 0.45); }
+.ag-rate > * { margin: 0 !important; }
+.ag-rate__name { font-weight: 600; }
+.ag-rate__facts { grid-column: 1; font-size: 0.8125rem; color: var(--ag-quiet); }
+.ag-rate__price { grid-column: 2; grid-row: 1 / span 2; align-self: center; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.1875rem; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ag-rates__note { font-size: 0.875rem; color: var(--ag-quiet); margin-top: 1rem !important; }
+
+/* The host */
+.ag-about { padding-top: calc(var(--ag-sec) + 2rem) !important; }
+.ag-about__story { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.ag-about__story > * { margin: 0 !important; }
+.ag-about__text { column-count: 2; column-gap: 2.5rem; column-rule: 1px solid rgba(42, 36, 16, 0.2); }
+.ag-about__text > * { margin-block: 0 1.1rem; }
+.ag-about__img { transform: rotate(2deg); }
+.ag-about__wide { margin-top: clamp(3rem, 6vw, 5rem) !important; }
+.ag-about__wide img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border: 10px solid #FFFFFF; outline: 1px solid rgba(42, 36, 16, 0.25); box-sizing: border-box; }
+.ag-rules { margin-top: clamp(3rem, 6vw, 4.5rem) !important; max-width: 44rem; }
+.ag-steps { padding: 0; margin: 0; list-style: none; counter-reset: splist; display: grid; gap: 0.85rem; }
+.ag-steps li { counter-increment: splist; display: grid; grid-template-columns: 2.5rem minmax(0, 1fr); gap: 0.85rem; align-items: start; }
+.ag-steps li::before { content: counter(splist); display: grid; place-items: center; width: 2.25rem; height: 2.25rem; background: var(--ag-red); color: var(--ag-paper); font-family: var(--wp--preset--font-family--display); font-weight: 700; border: var(--ag-line); border-radius: 50%; }
+:is(:lang(ja), :lang(zh)) .ag-steps li::before { content: counter(splist, cjk-decimal); }
+
+/* Letters */
+.ag-letter { padding-top: calc(var(--ag-sec) + 2rem) !important; }
+.ag-letter__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3rem); align-items: center; }
+.ag-letter__grid > * { margin: 0 !important; }
+.ag-letter__img { transform: rotate(-1.5deg); }
+.ag-letter__card { background: var(--ag-ink); color: var(--ag-paper); padding: clamp(1.5rem, 3.5vw, 2.5rem); border-top: 8px solid var(--ag-red); }
+.ag-letter__card > * { margin-block: 0 1rem; }
+.ag-letter__card .ag-sec__title { color: var(--ag-paper); font-size: clamp(1.75rem, 1.2rem + 1.4vw, 2.5rem); }
+.ag-letter__card .ag-mailto .wp-block-button__link { background: var(--ag-red); color: var(--ag-paper); }
+
+/* Book a stay */
+.ag-contact { padding-top: calc(var(--ag-sec) + 2rem) !important; }
+.ag-contact__grid { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.ag-contact__grid > * { margin: 0 !important; }
+.ag-contact__book > *, .ag-contact__find > * { margin-block: 0 1.25rem; }
+.ag-contact__find .ag-sec__title { font-size: 1.625rem; margin-top: 2rem; }
+.ag-steps { margin-bottom: 1.75rem !important; }
+.ag-contact__book .ag-rates { margin-top: 2.5rem !important; }
+
+/* House details (synced) */
+.ag-details { display: grid; gap: 0.35rem; margin: 0; }
+.ag-details > * { margin: 0 !important; }
+.ag-details__season { font-weight: 600; }
+.ag-details__note { font-size: 0.875rem; margin-top: 0.5rem !important; }
+.ag-contact .ag-details { background: var(--ag-mist); padding: clamp(1.25rem, 3vw, 1.75rem); border-top: 6px solid var(--ag-red); }
+body:has(.ag-main .ag-details) .ag-foot .ag-details { display: none; }
+
+/* Single note and plain pages */
+.ag-article__head > * { margin-block: 0 0.75rem; }
+.ag-article__head { margin-bottom: 2rem; }
+.ag-article .ag-pagehead__title { font-size: clamp(2.25rem, 1.2rem + 3vw, 4rem); }
+.ag-article__date { color: var(--ag-quiet); font-size: 0.875rem; }
+.ag-photo { margin-block: 0 2.5rem; background: #FFFFFF; padding: 10px; box-shadow: 0 16px 30px -26px rgba(42, 36, 16, 0.6); }
+.ag-photo img { display: block; max-height: 560px; object-fit: cover; }
+.ag-article__foot { margin-top: 2.5rem; display: grid; gap: 1.5rem; }
+.ag-tags a { display: inline-block; background: var(--ag-mist); color: #0F171C; padding: 0.2rem 0.8rem; text-decoration: none; font-size: 0.875rem; margin: 0 0.25rem 0.25rem 0; border-left: 3px solid var(--ag-red); }
+.ag-post-nav { display: flex; justify-content: space-between; gap: 1.5rem; }
+.ag-page .ag-pagehead__title { margin-bottom: 1.5rem; }
+
+/* Footer: the ink field with the house name */
+.wp-site-blocks > footer { margin-block-start: 0; }
+.ag-foot { background: var(--ag-ink); color: var(--ag-paper); padding-block: clamp(3.5rem, 7vw, 5.5rem) 2rem; margin: 0; border-top: 10px solid var(--ag-red); }
+.ag-foot__grid { display: grid; grid-template-columns: 1.4fr 1fr 0.7fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.ag-foot__grid > * { margin: 0 !important; }
+.ag-foot__mark { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(2.25rem, 1.2rem + 3.4vw, 4.25rem); line-height: 1; margin: 0 0 1rem; }
+.ag-foot .ag-foot__mark a { color: var(--ag-pale); text-decoration: none; }
+.ag-foot__sub { margin: 0; max-width: 28rem; }
+.ag-foot a { color: var(--ag-paper); }
+.ag-foot__nav { font-weight: 600; gap: 0.5rem; }
+.ag-foot__nav a { text-decoration: none; }
+.ag-foot__nav a:hover { text-decoration: underline; }
+.ag-foot__base { margin-top: 3rem !important; padding-top: 1.25rem; border-top: 1px solid rgba(255, 228, 92, 0.35); }
+.ag-foot__legal { margin: 0; font-size: 0.8125rem; color: var(--ag-pale); }
+
+@media (max-width: 1100px) { .ag-notes .wp-block-post-template { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+	.ag-row, .ag-advice, .ag-about__story, .ag-letter__grid, .ag-contact__grid, .ag-foot__grid { grid-template-columns: minmax(0, 1fr); }
+	.ag-row:nth-child(even) .ag-row__img { order: 0; }
+	.ag-about__img { max-width: 380px; }
+	.ag-about__text { column-count: 1; }
+	.ag-pagehead { padding-bottom: 4.5rem !important; }
+}
+@media (max-width: 640px) {
+	.ag-notes .wp-block-post-template { grid-template-columns: minmax(0, 1fr); }
+	.ag-rate__price { font-size: 1.0625rem; }
+}
+
+/* ===== Kept from the copy base: generic resets and the field rules (overridden below) ===== */
+:root { --ag-coral: var(--wp--preset--color--coral); --ag-col: 1120px; --ag-main: var(--wp--preset--color--suou); }
+html { font-synthesis-weight: none; }
+body { font-feature-settings: "kern"; }
+h1, h2, h3, .ag-brand__title, .ag-foot__mark { font-weight: 700 !important; letter-spacing: -0.01em; }
+h1, h2, h3, .ag-sec__title { font-family: var(--wp--preset--font-family--display); }
+.ag-piece { filter: none; }
+.ag-piece img { clip-path: none; background: var(--ag-paper); border: 0; box-sizing: border-box; }
+.ag-piece::after { display: none; }
+.wp-block-button__link { border-radius: 0 !important; }
+a { text-underline-offset: 0.2em; }
+
+/* Rust-asagi fields take ink type (ink #0F2226 on #6699A1 5.2:1): story band, page heads, path detail */
+.ag-story, .ag-pagehead { background-color: var(--ag-main); background-image: none !important; color: var(--ag-ink); }
+:is(.ag-story, .ag-pagehead) :is(h1, h2, h3, p, .ag-eyebrow, .ag-story__no, .ag-story__lead, .ag-pagehead__lead) { color: var(--ag-ink) !important; }
+.ag-pagehead .ag-eyebrow { border-bottom-color: var(--ag-ink); }
+.ag-pagehead__img { background: #FFFFFF; padding: 10px; transform: none !important; }
+.ag-pagehead > .ag-pagehead__branch { width: clamp(150px, 13vw, 210px); transform: rotate(-6deg); filter: drop-shadow(0 14px 12px rgba(15, 34, 38, 0.3)); }
+.ag-story > .ag-story__branch { width: clamp(200px, 20vw, 300px); transform: rotate(-6deg); filter: drop-shadow(0 18px 14px rgba(15, 34, 38, 0.3)); }
+.ag-pagehead > .ag-tate { background: #FFFFFF; color: var(--ag-deep); width: fit-content; }
+:is(.ag-story, .ag-pagehead) .is-style-outline .wp-block-button__link { border: 1.5px solid var(--ag-ink); color: var(--ag-ink); }
+:is(.ag-story, .ag-pagehead) .ag-book .wp-block-button__link { background: var(--ag-ink); color: #FFFFFF; }
+.ag-letter__card .ag-mailto .wp-block-button__link { background: var(--ag-deep); color: #FFFFFF; }
+.ag-steps li::before { color: var(--ag-deep); }
+.ag-foot { border-top-color: var(--ag-main); }
+.ag-foot__base { border-top-color: rgba(214, 231, 233, 0.35); }
+.ag-notes .wp-block-post-template > li { box-shadow: none; border: 1px solid rgba(15, 34, 38, 0.14); }
+.ag-notes .wp-block-post-template > li::after { display: none; }
+.ag-row__img, .ag-about__img, .ag-letter__img { transform: none !important; }
+.ag-room { background: transparent; border: 0; border-top: 3px solid var(--ag-ink); padding-top: 0.9rem !important; }
+.ag-step::before { background: var(--ag-main); }
+.ag-pull { border-left-color: var(--ag-main); }
+
+/* ===== Asahi Gakuen: forget-me-not (#7DB9DE) under a formal white split header with a numbered menu; a people-story front page (type poster, portrait index, interview, school year, figures, admissions, notices) ===== */
+:root { --ag-main: var(--wp--preset--color--suou); --ag-moss: var(--wp--preset--color--coral); --ag-col: 1280px; --ag-headh: 80px; --ag-rail: 0px; --ag-mono: var(--wp--preset--font-family--body); --ag-hair: 1px solid rgba(20, 39, 58, 0.16); --ag-gut: clamp(1rem, 2vw, 1.5rem); }
+body { color: var(--ag-ink); font-family: var(--wp--preset--font-family--body); }
+h1, h2, h3, .ag-brand__title, .ag-foot__mark { font-weight: 400 !important; letter-spacing: -0.01em; }
+h1, h2, h3, .ag-sec__title, .ag-brand__title { font-family: var(--wp--preset--font-family--display); }
+.ag-label, .ag-eyebrow { font-family: var(--ag-mono) !important; font-weight: 600 !important; font-size: 0.8125rem !important; letter-spacing: 0.08em !important; text-transform: uppercase !important; color: var(--ag-deep) !important; margin: 0 !important; }
+.ag-label::before { content: ""; display: inline-block; width: 1.5rem; height: 1px; background: currentColor; margin-right: 0.7rem; vertical-align: 0.3em; }
+.ag-sec__title { font-size: clamp(1.75rem, 1.35rem + 1.2vw, 2.375rem); line-height: 1.3; margin: 0.7rem 0 0 !important; max-width: 20em; text-wrap: balance; }
+.wp-block-button__link { border-radius: 0 !important; }
+time, .ag-ad__t td, .ag-pf__n, .ag-nt__d { font-variant-numeric: tabular-nums lining-nums; }
+
+/* Header (split): school name and tagline on the left; the menu as a numbered list and the Book a visit button on the right */
+.ag-head-part { position: sticky; top: 0; z-index: 50; }
+.ag-head { background: #FFFFFF; border-bottom: 1px solid rgba(20, 39, 58, 0.18); padding: 0 var(--ag-pad); }
+.ag-bar { display: flex !important; align-items: center; gap: 1rem 2.5rem !important; min-height: var(--ag-headh); max-width: var(--ag-col) !important; margin-inline: auto !important; }
+.ag-bar > .ag-brand { margin-right: auto !important; display: flex; align-items: baseline; gap: 0.25rem 1rem; }
+.ag-brand__title { font-size: 1.5rem !important; letter-spacing: 0.01em; }
+.ag-brand__title a { color: var(--ag-ink); text-decoration: none; }
+.ag-brand__tag { display: block !important; font-size: 0.8125rem; color: var(--ag-quiet); border-left: 1px solid rgba(20, 39, 58, 0.25); padding-left: 1rem; max-width: none; }
+.ag-head__status { display: none !important; }
+.ag-head__cta { display: flex; align-items: center; gap: 1.5rem; }
+.ag-head__cta .wp-block-buttons { margin: 0; }
+.ag-head__cta .wp-block-button__link, .ag-btn .wp-block-button__link { background: var(--ag-deep) !important; color: #FFFFFF !important; padding: 0.7rem 1.25rem !important; font-weight: 600; font-size: 0.9375rem; border: 0 !important; transition: background 0.2s; }
+.ag-head__cta .wp-block-button__link:hover, .ag-btn .wp-block-button__link:hover { background: var(--ag-ink) !important; }
+.ag-nav .wp-block-navigation__container { counter-reset: agnav; gap: 0 1.75rem !important; }
+.ag-nav .wp-block-navigation__container > li { counter-increment: agnav; }
+.ag-nav .wp-block-navigation-item__content { color: var(--ag-ink); font-weight: 500; font-size: 0.9375rem; text-decoration: none; position: relative; padding-block: 0.4rem; }
+.ag-nav .wp-block-navigation__container > li > a::before { content: counter(agnav, decimal-leading-zero); font-size: 0.6875rem; font-weight: 600; color: var(--ag-deep); margin-right: 0.4rem; vertical-align: 0.35em; letter-spacing: 0.04em; }
+.ag-nav .wp-block-navigation__container > li > a::after { content: ""; position: absolute; left: 0; right: 100%; bottom: 0; height: 2px; background: var(--ag-main); transition: right 0.25s; }
+.ag-nav .wp-block-navigation__container > li > a:hover::after, .ag-nav .current-menu-item > a::after { right: 0; }
+@media (max-width: 1279px) { .ag-brand__tag { display: none !important; } }
+@media (max-width: 999px) {
+	.ag-nav { order: 3; }
+	.ag-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none !important; }
+	.ag-nav .wp-block-navigation__responsive-container-open { display: flex !important; color: var(--ag-ink); border: 1px solid currentColor; padding: 0.45rem; background: transparent; }
+	.ag-head .ag-nav.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) { background-color: var(--ag-main) !important; background-image: none !important; color: var(--ag-ink) !important; }
+	.ag-nav .is-menu-open .wp-block-navigation__responsive-container-content { padding: 6rem var(--ag-pad) 3rem !important; align-items: stretch !important; }
+	.ag-nav .is-menu-open .wp-block-navigation__container { gap: 0 !important; flex-direction: column !important; align-items: stretch !important; border-top: 1px solid var(--ag-ink); }
+	.ag-nav .is-menu-open .wp-block-navigation__container > li { padding: 1rem 0 !important; border-bottom: 1px solid rgba(20, 39, 58, 0.3); }
+	.ag-nav .is-menu-open .wp-block-navigation__container > li > a { font-family: var(--wp--preset--font-family--display); font-size: 1.75rem; color: var(--ag-ink) !important; }
+}
+@media (min-width: 1000px) { .ag-nav .wp-block-navigation__responsive-container-open { display: none !important; } }
+@media (max-width: 599px) { :root { --ag-headh: 64px; } .ag-head__cta .wp-block-button__link { padding: 0.55rem 0.8rem !important; font-size: 0.8125rem; } .ag-brand__title { font-size: 1.1875rem !important; } }
+@media (max-width: 400px) { .ag-head__cta { display: none !important; } }
+
+/* Forget-me-not fields take ink type (ink #14273A on #7DB9DE 7.1:1; white on it is 2.2:1 and never used for text there) */
+.ag-pagehead, .ag-story { background-color: var(--ag-main) !important; }
+.ag-foot { border-top: 0; }
+
+/* ---- Front page: people-story ---- */
+.ag-wrap, .ag-hp, .ag-pi, .ag-iv, .ag-sy, .ag-pf, .ag-ad, .ag-nt { padding-inline: max(var(--ag-pad), calc((100% - 1280px) / 2)) !important; margin-block: 0 !important; }
+.ag-sec__head { margin-bottom: clamp(2rem, 4vw, 3.5rem); }
+
+/* 1 Type poster: pure typography on the pale field */
+.ag-hp { background: var(--ag-main); color: var(--ag-ink); padding-top: clamp(5rem, 11vw, 10rem) !important; padding-bottom: clamp(3rem, 5vw, 4.5rem) !important; }
+.ag-hp__motto { font-size: clamp(3.25rem, 1rem + 7.4vw, 8.75rem) !important; line-height: 1.05 !important; letter-spacing: -0.025em; font-weight: 400 !important; max-width: 10.5em; margin: 0 !important; color: var(--ag-ink); text-wrap: balance; }
+.ag-hp__row { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem 3rem; flex-wrap: wrap; border-top: 1px solid var(--ag-ink); margin-top: clamp(2.5rem, 5vw, 4.5rem); padding-top: 1.25rem; }
+.ag-hp__facts { list-style: none; margin: 0; padding: 0; display: flex; gap: 0.5rem 2.75rem; flex-wrap: wrap; font-size: 0.9375rem; font-weight: 600; letter-spacing: 0.02em; }
+.ag-hp__adm { margin: 0; font-size: 0.9375rem; }
+.ag-hp__adm a { color: var(--ag-ink); font-weight: 600; text-underline-offset: 0.25em; text-decoration-thickness: 1px; margin-left: 0.5rem; }
+.ag-hp__adm a:hover { text-decoration-thickness: 2px; }
+
+/* 2 Portrait index: a 4 x 2 collage, cut-outs break out of their colour blocks */
+.ag-pi { background: #FFFFFF; padding-block: clamp(5rem, 9vw, 8rem) !important; }
+.ag-pi .ag-sec__head { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 1rem 3rem; }
+.ag-pi .ag-sec__head .ag-label { grid-column: 1 / -1; }
+.ag-pi__lead { margin: 0 !important; color: var(--ag-quiet); max-width: 22em; }
+.ag-pi__grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(3.5rem, 6vw, 5rem) var(--ag-gut); }
+.ag-pi__c a { display: block; color: var(--ag-ink); text-decoration: none; }
+.ag-pi__fig { position: relative; aspect-ratio: 4 / 5; }
+.ag-pi__block { position: absolute; inset: 22% 0 0 0; background: var(--ag-pale); transition: background 0.3s; }
+.ag-pi__c--2 .ag-pi__block, .ag-pi__c--6 .ag-pi__block { background: var(--ag-main); }
+.ag-pi__img { position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); height: 108%; width: auto; max-width: none; transition: transform 0.35s ease; }
+.ag-pi__c--ph a:hover .ag-pi__img { transform: translateX(-50%) translateY(-6px); }
+.ag-pi__c--ph a:hover .ag-pi__block { background: var(--ag-main); }
+.ag-pi__c--q .ag-pi__fig { border-top: 1px solid var(--ag-ink); display: flex; align-items: flex-end; }
+.ag-pi__q { margin: 0; padding: 0 0 1.25rem; border: 0; }
+.ag-pi__q p { font-family: var(--wp--preset--font-family--display); font-size: clamp(1.25rem, 0.9rem + 0.9vw, 1.625rem); line-height: 1.4; margin: 0; }
+.ag-pi__q p::before { content: "\201C"; display: block; font-size: 3rem; line-height: 0.8; color: var(--ag-deep); }
+.ag-pi__n { font-family: var(--wp--preset--font-family--display); font-size: 1.1875rem; margin: 1rem 0 0.15rem !important; }
+.ag-pi__r { font-size: 0.8125rem; color: var(--ag-quiet); margin: 0 !important; letter-spacing: 0.02em; }
+.ag-pi__more { display: inline-block; margin-top: 0.6rem; font-size: 0.8125rem; font-weight: 600; color: var(--ag-deep); border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+.ag-pi__c a:hover .ag-pi__more { border-color: currentColor; }
+
+/* 3 Interview: one 640px column beside one cut-out that breaks over its block */
+.ag-iv { background: var(--ag-mist); display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2rem, 6vw, 6rem); align-items: start; padding-block: clamp(5rem, 9vw, 8rem) !important; }
+.ag-iv__fig { position: sticky; top: calc(var(--ag-headh) + 2rem); margin: 0; aspect-ratio: 4 / 5; }
+.ag-iv__block { position: absolute; left: 0; right: 12%; top: 18%; bottom: 0; background: var(--ag-main); }
+.ag-iv__fig img { position: absolute; left: 8%; bottom: 0; height: 112%; width: auto; max-width: none; }
+.ag-iv__body { max-width: 640px; }
+.ag-iv__title { font-size: clamp(1.875rem, 1.2rem + 2vw, 3rem) !important; line-height: 1.25 !important; margin: 0.9rem 0 0 !important; text-wrap: balance; }
+.ag-iv__who { font-size: 0.875rem; color: var(--ag-quiet); margin: 1rem 0 2rem !important; }
+.ag-iv__p { font-size: 1.125rem; line-height: 1.85; margin: 0 0 1.2em !important; }
+.ag-iv__more a, .ag-nt__all a, .ag-ad__l2 { color: var(--ag-deep); font-weight: 600; text-underline-offset: 0.25em; }
+
+/* 4 School year: compact month + event list */
+.ag-sy { background: #FFFFFF; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2rem, 6vw, 6rem); padding-block: clamp(5rem, 9vw, 8rem) !important; }
+.ag-sy__ph { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; margin-top: 2.25rem; display: block; }
+.ag-sy__list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ag-ink); }
+.ag-sy__i { display: grid; grid-template-columns: 9rem 1fr; gap: 1.5rem; align-items: baseline; padding: 1.35rem 0; border-bottom: var(--ag-hair); transition: background 0.2s, padding 0.2s; }
+.ag-sy__i:hover { background: var(--ag-mist); padding-inline: 0.75rem; }
+.ag-sy__m { font-family: var(--wp--preset--font-family--display); font-size: 1.5rem; color: var(--ag-deep); }
+.ag-sy__t { font-size: 1.0625rem; }
+
+/* 5 People in figures on the main field */
+.ag-pf { background: var(--ag-main); color: var(--ag-ink); padding-block: clamp(4.5rem, 8vw, 7rem) !important; }
+.ag-pf .ag-label { color: var(--ag-ink) !important; }
+.ag-pf__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2rem var(--ag-gut); }
+.ag-pf__i { border-top: 1px solid var(--ag-ink); padding-top: 1.25rem; }
+.ag-pf__n { display: block; font-family: var(--wp--preset--font-family--display); font-weight: 400; font-size: clamp(3rem, 1.6rem + 4vw, 5.5rem); line-height: 1; letter-spacing: -0.02em; font-variant-numeric: lining-nums; }
+.ag-pf__l { display: block; margin-top: 0.75rem; font-size: 0.9375rem; max-width: 16em; }
+
+/* 6 Admissions */
+.ag-ad { background: #FFFFFF; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(2rem, 6vw, 6rem); padding-block: clamp(5rem, 9vw, 8rem) !important; }
+.ag-ad__lead { color: var(--ag-quiet); margin: 1.25rem 0 0 !important; max-width: 26em; }
+.ag-ad__acts { display: flex; flex-wrap: wrap; gap: 1rem 1.75rem; align-items: center; margin: 2rem 0 0 !important; }
+.ag-ad__btn { background: var(--ag-deep); color: #FFFFFF !important; text-decoration: none; font-weight: 600; padding: 0.9rem 1.5rem; transition: background 0.2s; }
+.ag-ad__btn:hover { background: var(--ag-ink); }
+.ag-ad__t { width: 100%; border-collapse: collapse; border-top: 1px solid var(--ag-ink); }
+.ag-ad__t thead th { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ag-quiet); text-align: left; padding: 0.9rem 0; border-bottom: var(--ag-hair); }
+.ag-ad__t tbody th { text-align: left; font-weight: 500; font-size: 1.0625rem; padding: 1.25rem 1rem 1.25rem 0; border-bottom: var(--ag-hair); }
+.ag-ad__t td { font-family: var(--wp--preset--font-family--display); font-size: 1.25rem; padding: 1.25rem 0; border-bottom: var(--ag-hair); white-space: nowrap; text-align: right; }
+.ag-ad__t tbody tr:first-child td { color: var(--ag-deep); }
+
+/* 7 Notices */
+.ag-nt { background: var(--ag-mist); padding-block: clamp(4.5rem, 8vw, 7rem) !important; }
+.ag-nt .ag-sec__head { margin-bottom: 1.5rem; }
+.ag-nt__list { list-style: none; margin: 0 !important; padding: 0; border-top: 1px solid var(--ag-ink); }
+.ag-nt__list > li { display: grid !important; grid-template-columns: 9rem 9rem 1fr; gap: 1rem 1.5rem; align-items: baseline; padding: 1.25rem 0; border-bottom: var(--ag-hair); margin: 0 !important; }
+.ag-nt__d { font-size: 0.875rem; color: var(--ag-quiet); }
+.ag-nt__c, .ag-nt__c a { font-size: 0.8125rem; font-weight: 600; color: var(--ag-deep); text-decoration: none; }
+.ag-nt__t { font-size: 1.1875rem !important; margin: 0 !important; font-weight: 500 !important; }
+.ag-nt__t a { color: var(--ag-ink); text-decoration: none; background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat; transition: background-size 0.3s; }
+.ag-nt__t a:hover { background-size: 100% 1px; }
+.ag-nt__all { margin: 1.5rem 0 0 !important; }
+
+@media (max-width: 999px) {
+	.ag-pi__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.ag-iv, .ag-sy, .ag-ad { grid-template-columns: 1fr; }
+	.ag-iv__fig { position: relative; top: 0; max-width: 360px; }
+	.ag-pf__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 599px) {
+	.ag-pi .ag-sec__head { grid-template-columns: 1fr; }
+	.ag-hp__row { flex-direction: column; }
+	.ag-sy__i { grid-template-columns: 6.5rem 1fr; }
+	.ag-nt__list > li { grid-template-columns: 1fr; gap: 0.25rem; }
+	.ag-ad__t td { font-size: 1.0625rem; }
+}
+
+/* Inner page heads: a cut-out portrait rises over the forget-me-not head */
+.ag-pagehead > .ag-pagehead__branch { transform: none; right: calc(max(var(--ag-pad), calc((100% - var(--ag-wide)) / 2)) - 1.5rem); bottom: -72px; width: clamp(140px, 12vw, 190px); filter: drop-shadow(0 12px 12px rgba(20, 39, 58, 0.25));  }
