@@ -16,15 +16,17 @@
   "header_required": true,
   "direction": "From batch 5 (2026-10-18) new themes are commercial and practical (finance and insurance, schools and kindergartens, manufacturing, corporate sites, clinics, associations) with a Japanese-minimal look (generous white space, hairlines, restrained palettes, refined Noto/Zen/BIZ UD/Shippori type), never Japan-only subjects (basketry, kimono, wagashi, shrines, tea ceremony, dojo, crafts, pottery, tabi and the like). Palette colour names may be traditional Japanese names but the tones stay calm and businesslike. Hero imagery stays restrained, not flashy.",
   "even_use_skip": [
-   "category"
+   "category",
+   "image"
   ],
-  "even_use_skip_note": "category is exempt from the even-use spread since batch 5: the commercial direction deliberately weights business-services and education-classes. The adjacent-rows-differ rule on category still applies.",
+  "even_use_skip_note": "category is exempt from the even-use spread since batch 5: the commercial direction deliberately weights business-services and education-classes. The adjacent-rows-differ rule on category still applies. image is exempt from batch 6 (2026-10-20): every b6 row is photographic, alternating real-photography and cutout-break-frame (transparent-background photographic subjects, flagged photographic=true), so image is not spread over the other three treatments; adjacent rows still differ on image.",
   "page_structure_window": 6,
   "first_screen_window": 6,
   "page_structure_unique_per_batch": true,
   "legacy_page_structure": "legacy-hero-works-serial-process-journal",
   "legacy_first_screen": "legacy-text-left-framed-photo-list",
-  "front_page": "(a) Before building, read the row's wireframe, first_screen and page_structure_blocks and build exactly that; the front page must not reuse the home-hero / home-works / home-serial / home-process / home-journal pattern set: create and name patterns after the assigned blocks. On completion record the shipped front-page block list in the row as front_page_blocks (5-8 pattern slugs, top to bottom). (b) After the screenshots, make two contact sheets: the new theme's first screen (1440x900) next to the first screens of the last six done themes, and the same for the full-page home shots; if the first screen repeats text-left / framed photo right / small list below, or the section order matches another theme, rebuild before release. (c) Adjacent rows never share first_screen or page_structure, and neither repeats within the window (page_structure_window / first_screen_window = 6); legacy values are never assigned to new rows."
+  "front_page": "(a) Before building, read the row's wireframe, first_screen and page_structure_blocks and build exactly that; the front page must not reuse the home-hero / home-works / home-serial / home-process / home-journal pattern set: create and name patterns after the assigned blocks. On completion record the shipped front-page block list in the row as front_page_blocks (5-8 pattern slugs, top to bottom). (b) After the screenshots, make two contact sheets: the new theme's first screen (1440x900) next to the first screens of the last six done themes, and the same for the full-page home shots; if the first screen repeats text-left / framed photo right / small list below, or the section order matches another theme, rebuild before release. (c) Adjacent rows never share first_screen or page_structure, and neither repeats within the window (page_structure_window / first_screen_window = 6); legacy values are never assigned to new rows.",
+  "batch6": "From 2026-10-19 new themes are English only (en sample content, no zh-TW/ja/fr/de). Batch 6 (rows b6-1..b6-16, 2026-10-20): commercial industries, photographic imagery only (photographic=true: real-photography or cutout-break-frame subjects, illustration column = photo direction), eight new whole-page structures mixed 8/8 with existing ones."
  },
  "enums": {
   "archetype": [
@@ -109,7 +111,15 @@
    "notice-feed",
    "alternating-longform",
    "spec-catalogue",
-   "day-schedule"
+   "day-schedule",
+   "booking-led",
+   "pricing-led",
+   "calculator-cta",
+   "comparison-table",
+   "diagnostic-quiz",
+   "timeline-milestone",
+   "practitioner-directory",
+   "dashboard-metrics"
   ],
   "first_screen": [
    "legacy-text-left-framed-photo-list",
@@ -124,7 +134,15 @@
    "horizontal-scroll-strip",
    "index-list",
    "map-diagram",
-   "spec-table"
+   "spec-table",
+   "booking-panel",
+   "price-menu",
+   "calculator-panel",
+   "comparison-columns",
+   "quiz-card",
+   "directory-grid",
+   "dashboard-tiles",
+   "search-box"
   ]
  },
  "nav_note": "Every theme has a real global top header (site title/logo + primary nav + CTA). side-rail/overlay/split describe the primary-nav arrangement on top of that header, never a replacement.",
@@ -1744,6 +1762,585 @@
     "notices"
    ],
    "note": "English-only (2026-10-19 rule). 2d-flat rendered under the 2026-10-18 photo rule as high-key photographs (85mm f/2.8, softbox fill, near-white ground, faint shadows, graded toward forget-me-not #7DB9DE); collage: four cut-out portraits laid on flat pale and forget-me-not colour blocks, alternating with four quote tiles in the 4x2 portrait index (8 people, 4 photographs to keep the image count small); centered-giant-type: the three-line motto fills the first screen at ~140px, flush left per the wireframe; break-frame: cut-out portraits rise above the top of their colour blocks in the portrait index, the interview and the inner page heads; forget-me-not covers the whole first screen, the figures band and the page heads."
+  },
+  {
+   "archetype": "split-screen",
+   "hero": "stacked-collage",
+   "nav": "top-bar",
+   "image": "cutout-break-frame",
+   "illustration": "high-key",
+   "palette": "翡翠",
+   "hex": "#38B48B",
+   "palette_family": "green",
+   "fonts": [
+    "Zen Kaku Gothic New",
+    "Newsreader"
+   ],
+   "n": 53,
+   "name": "Hanamizuki Dental",
+   "slug": "hanamizuki-dental",
+   "industry": "dental clinic",
+   "type": "health",
+   "category": "health-wellness",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-1",
+   "photographic": true,
+   "first_screen": "booking-panel",
+   "page_structure": "booking-led",
+   "wireframe": "Top-bar header. Split screen 50/50. Left: 56px headline in two lines, one sentence and three 14px trust marks (evening hours, parking, English-speaking staff). Right, full height on a 翡翠 field: a white booking card (440px) with a 7-day date strip, time-slot chips for the chosen day, a treatment select and one solid 'Book this slot' button; two overlapping high-key photographs (waiting room, treatment room) are stacked behind the card and a cut-out photograph of an instrument tray breaks over its top-right corner.",
+   "page_structure_blocks": [
+    "hero-booking-card: headline left, date strip + slot chips + treatment select card over a stacked photo pair right",
+    "treatments: six treatments as a hairline from-price list with duration",
+    "dentists: three dentists with portrait, specialty and working days",
+    "first-visit: four steps (form, X-ray, plan, treat) with what to bring",
+    "insurance-fees: accepted insurance and a fee table",
+    "clinic-info: hours, access, parking, phone"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. High-key clinic photographs (35mm, soft window light, clean white) graded toward 翡翠; the instrument tray is a transparent cut-out WebP."
+  },
+  {
+   "archetype": "horizontal-strip",
+   "hero": "vertical-banner",
+   "nav": "side-rail",
+   "image": "real-photography",
+   "illustration": "low-key",
+   "palette": "古代紫",
+   "hex": "#895B8A",
+   "palette_family": "purple",
+   "fonts": [
+    "Shippori Mincho",
+    "Hanken Grotesk"
+   ],
+   "n": 54,
+   "name": "Tanba Law Office",
+   "slug": "tanba-law",
+   "industry": "law firm",
+   "type": "business",
+   "category": "business-services",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-2",
+   "photographic": true,
+   "first_screen": "centered-narrow-column",
+   "page_structure": "service-index",
+   "wireframe": "Side-rail nav (200px left rail) under the top header. First screen: a tall 古代紫 vertical banner (cols 1-3) with the firm line in 24px serif and a low-key office photograph at its foot; right, a 640px centred column: label 'Practice areas', 44px headline, one sentence, a 'Find your matter' search field and six filter chips (Corporate, Employment, Property, IP, Disputes, Family), then the first four index rows (number | practice | one line | for whom | arrow), 56px hairline rows. No cards, no hero button.",
+   "page_structure_blocks": [
+    "hero-practice-index: banner plus label, headline, matter search and filter chips",
+    "service-index: 18 numbered rows in four groups (corporate, people, property, disputes)",
+    "how-to-engage: consultation, fixed fee, retainer in one line each",
+    "sectors: sectors served as a plain text list",
+    "partners: four partners with portrait and admissions",
+    "contact-strip: phone, form and office address"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Low-key office photographs (50mm f/1.8, single warm window light, deep shadow, fine grain) graded toward 古代紫; one cut-out desk lamp as a 破格 accent breaking over the index column."
+  },
+  {
+   "archetype": "single-column-longform",
+   "hero": "cutout-break-frame-object",
+   "nav": "overlay",
+   "image": "cutout-break-frame",
+   "illustration": "film-grain",
+   "palette": "菜の花",
+   "hex": "#F2D030",
+   "palette_family": "yellow",
+   "fonts": [
+    "M PLUS Rounded 1c",
+    "Outfit"
+   ],
+   "n": 55,
+   "name": "Hokuto Driving School",
+   "slug": "hokuto-driving-school",
+   "industry": "driving school",
+   "type": "education",
+   "category": "education-classes",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-3",
+   "photographic": true,
+   "first_screen": "price-menu",
+   "page_structure": "pricing-led",
+   "wireframe": "Overlay header (hamburger). Full-bleed 菜の花 field. Top: 56px headline left, one sentence. Centre: a three-row fee menu of wide white strips (Standard car 9-day, Evening, Motorbike), each with course name, days, what is included in one line and the price in 40px at the right with a 'Choose' link; a cut-out photograph of a small training car breaks out of the third strip over the right edge. Ink text only on the yellow.",
+   "page_structure_blocks": [
+    "hero-fee-menu: headline plus three course strips with price and Choose link",
+    "whats-included: tick table of included items per course (lessons, test fee, textbook, pickup)",
+    "add-ons: extra lessons and extras as an itemised price list",
+    "payment: payment options and instalment note in four rows",
+    "start-dates: next start dates as a compact calendar list",
+    "reviews-faq: two student quotes and four short questions"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Film-grain photographs (35mm, overcast daylight, visible grain, graded toward 菜の花) of a training car, a road course and an instructor; the car is a cut-out WebP."
+  },
+  {
+   "archetype": "card-mosaic",
+   "hero": "product-grid-hero",
+   "nav": "split",
+   "image": "real-photography",
+   "illustration": "documentary",
+   "palette": "露草",
+   "hex": "#3A6EA5",
+   "palette_family": "blue",
+   "fonts": [
+    "Noto Serif JP",
+    "Inter"
+   ],
+   "n": 56,
+   "name": "Kasumi Mortgage",
+   "slug": "kasumi-mortgage",
+   "industry": "mortgage broker",
+   "type": "business",
+   "category": "business-services",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-4",
+   "photographic": true,
+   "first_screen": "calculator-panel",
+   "page_structure": "calculator-cta",
+   "wireframe": "Split header (logo left, nav right). Full-width 露草 band, 120px top space, centred 48px headline in two lines. Under it a white calculator card across cols 3-10: three sliders (property price, deposit, term), a rate select and a live result column with monthly payment in 64px, total interest and the three best lender matches as a small product grid; one solid 'Get my rate' button. One documentary photograph of a couple at a table peeks 120px from behind the card's right edge.",
+   "page_structure_blocks": [
+    "hero-calculator: headline and a four-input repayment calculator with live result",
+    "lender-matches: six lenders as a comparison list with rate, fee and fixed period",
+    "how-it-works: three steps (calculate, match, apply) in one row",
+    "buyer-types: first-time, remortgage, buy-to-let as three text blocks",
+    "advisers: two advisers with credentials",
+    "cta-band: book a 20-minute call"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Documentary photographs (35mm, available light, candid) of buyers and an adviser at a kitchen table, graded toward 露草."
+  },
+  {
+   "archetype": "asymmetric-masonry",
+   "hero": "diagonal-split",
+   "nav": "centered",
+   "image": "cutout-break-frame",
+   "illustration": "high-key",
+   "palette": "真朱",
+   "hex": "#C73E3A",
+   "palette_family": "red",
+   "fonts": [
+    "Kaisei Decol",
+    "Jost"
+   ],
+   "n": 57,
+   "name": "Minato Business Hotel",
+   "slug": "minato-business-hotel",
+   "industry": "business hotel",
+   "type": "business",
+   "category": "travel-stays",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-5",
+   "photographic": true,
+   "first_screen": "comparison-columns",
+   "page_structure": "comparison-table",
+   "wireframe": "Centred nav header. Diagonal split: left a 真朱 field with a 52px headline ('A desk, a bed, a quiet night') and a date-and-guests bar; right a high-key room photograph cut on the diagonal, with a cut-out desk lamp breaking over the seam. Across the bottom a three-column comparison strip (Single, Double, Executive) with rows for size, bed, desk, price per night and a 'Select' button per column, partly cut by the fold.",
+   "page_structure_blocks": [
+    "hero-room-compare: diagonal field and photo with a three-column room comparison strip",
+    "comparison-matrix: full room table with 12 feature rows and sticky column heads",
+    "business-services: wifi, meeting room, laundry, breakfast as a tick list",
+    "location: distance to station, airport and district as a table",
+    "rates-policy: flexible vs advance rate comparison with cancellation terms",
+    "corporate-booking: company account CTA"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. High-key room and lobby photographs (28mm, bright daylight, white linen) graded toward 真朱; lamp as a transparent cut-out WebP."
+  },
+  {
+   "archetype": "poster-typographic",
+   "hero": "framed-window",
+   "nav": "top-bar",
+   "image": "real-photography",
+   "illustration": "low-key",
+   "palette": "納戸色",
+   "hex": "#2A83A2",
+   "palette_family": "cyan",
+   "fonts": [
+    "Zen Kaku Gothic Antique",
+    "Archivo"
+   ],
+   "n": 58,
+   "name": "Hagane Machinery",
+   "slug": "hagane-machinery",
+   "industry": "industrial machinery maker",
+   "type": "business",
+   "category": "business-services",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-6",
+   "photographic": true,
+   "first_screen": "whitespace-single-small-image",
+   "page_structure": "alternating-longform",
+   "wireframe": "Top-bar header. White ground with a lot of space. A 520px text column left: label, 44px headline, a 17px paragraph and one text link; right a single small framed low-key photograph (360x440) of a machine part, set low in the screen; a thin 納戸色 rule crosses the screen at 70% height. No buttons, no cards. First block below: a 60/40 text and image row.",
+   "page_structure_blocks": [
+    "hero-statement: headline, paragraph and one small framed photograph on white",
+    "row-precision: text 60 / photo 40 about tolerances and testing",
+    "row-engineering: photo 60 / text 40 about the in-house design office",
+    "row-service: text 60 / photo 40 about 24-hour parts and support",
+    "what-you-get: summary list of five commitments",
+    "client-quote: one testimonial line",
+    "enquiry-cta: single text CTA"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Low-key factory photographs (85mm macro, single hard side light, fine grain) graded toward 納戸色; a cut-out machine part breaks over the framed photo's corner."
+  },
+  {
+   "archetype": "sidebar-app",
+   "hero": "scene-map",
+   "nav": "overlay",
+   "image": "cutout-break-frame",
+   "illustration": "film-grain",
+   "palette": "青緑",
+   "hex": "#00A381",
+   "palette_family": "green",
+   "fonts": [
+    "Kosugi",
+    "Lexend"
+   ],
+   "n": 59,
+   "name": "Seiko Health Check Centre",
+   "slug": "seiko-health-check",
+   "industry": "medical check-up centre",
+   "type": "health",
+   "category": "health-wellness",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-7",
+   "photographic": true,
+   "first_screen": "quiz-card",
+   "page_structure": "diagnostic-quiz",
+   "wireframe": "Overlay header (hamburger). Left (cols 1-4) a 青緑 panel with a one-colour floor-plan line map of the centre showing the 90-minute route in five numbered stations; a cut-out photograph of a stethoscope breaks over its right edge. Right (cols 5-12): one white question card 'Which check-up suits you?' with step '1 of 4', large answer buttons (Under 40 / 40-59 / 60+), a progress bar and a 'Skip to all packages' link.",
+   "page_structure_blocks": [
+    "hero-quiz: floor-plan route map plus a four-step question card that recommends a package",
+    "recommended-package: result block with the matched package, duration and price",
+    "package-list: all packages as a table with tests included",
+    "preparation: fasting and what to bring as a checklist",
+    "results-and-reports: how results arrive, with timings",
+    "centre-info: hours, access and booking CTA"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Film-grain photographs (35mm, soft daylight, visible grain, graded toward 青緑); the stethoscope is a transparent cut-out WebP."
+  },
+  {
+   "archetype": "sticky-media",
+   "hero": "full-bleed-illustration",
+   "nav": "side-rail",
+   "image": "real-photography",
+   "illustration": "documentary",
+   "palette": "照柿",
+   "hex": "#EC6D51",
+   "palette_family": "vermilion",
+   "fonts": [
+    "Shippori Antique B1",
+    "Instrument Serif"
+   ],
+   "n": 60,
+   "name": "Tsumugi Architects",
+   "slug": "tsumugi-architects",
+   "industry": "architecture design studio",
+   "type": "business",
+   "category": "business-services",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-8",
+   "photographic": true,
+   "first_screen": "timeline-line",
+   "page_structure": "timeline-milestone",
+   "wireframe": "Side-rail nav (200px left rail) under the top header. Full-bleed documentary photograph of a completed building as the ground (sticky while the page scrolls). Over it, bottom third: a horizontal timeline line across the screen with year ticks 2004 to 2026 and eight project dots; the active dot opens a 320x220 card with the building name, year and type on a 照柿 tab. Top-left: studio name in 40px and 'Since 2004'.",
+   "page_structure_blocks": [
+    "hero-milestone-line: building photo with a project timeline from 2004 and an active-year card",
+    "milestone-chapters: five chapters (founding, first prize, expansion, rebuild, today) each with year, text and one image",
+    "project-register: table of 24 projects by year, type and city",
+    "awards: award list by year",
+    "studio-people: principals and team count",
+    "commission-cta: start a commission"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Documentary photographs (35mm, overcast daylight) of completed buildings graded toward 照柿; sticky-media: the building photo stays while the chapters scroll over it."
+  },
+  {
+   "archetype": "horizontal-strip",
+   "hero": "cutout-break-frame-object",
+   "nav": "centered",
+   "image": "cutout-break-frame",
+   "illustration": "high-key",
+   "palette": "紫苑",
+   "hex": "#8F77B5",
+   "palette_family": "purple",
+   "fonts": [
+    "Sawarabi Gothic",
+    "Urbanist"
+   ],
+   "n": 61,
+   "name": "Kotoba Language School",
+   "slug": "kotoba-language-school",
+   "industry": "adult language school",
+   "type": "education",
+   "category": "education-classes",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-9",
+   "photographic": true,
+   "first_screen": "directory-grid",
+   "page_structure": "practitioner-directory",
+   "wireframe": "Centred nav header. 紫苑 field. Top: 48px headline left with a filter row (language, level, day, online or in person). Below, a 4x2 directory grid of teacher cards; each teacher is a cut-out portrait photograph breaking 20px over the card's top edge, with name, language, levels and next free slot; the lower row is partly below the fold.",
+   "page_structure_blocks": [
+    "hero-teacher-directory: headline, four filters and a grid of eight teacher cards",
+    "teacher-profile: one expanded teacher with bio and open slots",
+    "courses: course list by level with weekly hours",
+    "placement-test: three-step placement note",
+    "class-formats: group, private, online as a short comparison",
+    "enrol-cta: free trial lesson"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. High-key portraits (85mm, soft window light, white backdrop) as transparent cut-out WebP, graded toward 紫苑."
+  },
+  {
+   "archetype": "tategaki-vertical-scroll",
+   "hero": "stacked-collage",
+   "nav": "split",
+   "image": "real-photography",
+   "illustration": "low-key",
+   "palette": "紺",
+   "hex": "#223A70",
+   "palette_family": "blue",
+   "fonts": [
+    "IBM Plex Sans JP",
+    "IBM Plex Mono"
+   ],
+   "n": 62,
+   "name": "Sentinel Cyber",
+   "slug": "sentinel-cyber",
+   "industry": "managed cybersecurity firm",
+   "type": "business",
+   "category": "business-services",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-10",
+   "photographic": true,
+   "first_screen": "dashboard-tiles",
+   "page_structure": "dashboard-metrics",
+   "wireframe": "Split header (logo left, nav right). Full-bleed 紺 field with a slim left spine carrying rotated 90-degree small-caps section labels (English-only: no vertical running text). A 3x2 stack of overlapping dashboard tiles over a low-key monitoring-room photograph: threats blocked today (big number + sparkline), median response time, endpoints covered, patch rate, open incidents with a status dot, 12-month uptime bar. Small headline 'See what we watch' top-left with one outline button.",
+   "page_structure_blocks": [
+    "hero-live-dashboard: headline plus six KPI tiles with sparklines and a status board",
+    "coverage-grid: what is monitored (endpoints, cloud, email, identity) as status tiles",
+    "incident-log: last five anonymised incidents with severity and time to resolve",
+    "response-flow: detect, triage, contain, report as one line",
+    "reports: sample monthly report download",
+    "audit-cta: free security health check"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Low-key operations-room photographs (35mm f/1.4, screen glow, fine grain) graded toward 紺; tategaki-vertical-scroll is realised as a rotated-label spine only."
+  },
+  {
+   "archetype": "split-screen",
+   "hero": "framed-window",
+   "nav": "top-bar",
+   "image": "cutout-break-frame",
+   "illustration": "film-grain",
+   "palette": "黄金",
+   "hex": "#E6B422",
+   "palette_family": "yellow",
+   "fonts": [
+    "Kaisei Opti",
+    "Schibsted Grotesk"
+   ],
+   "n": 63,
+   "name": "Chuo Conference Hall",
+   "slug": "chuo-conference-hall",
+   "industry": "conference venue",
+   "type": "business",
+   "category": "events-community",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-11",
+   "photographic": true,
+   "first_screen": "top-bottom-halves",
+   "page_structure": "day-schedule",
+   "wireframe": "Top-bar header. Top half: 黄金 field with a 56px headline left and four info cells right (capacity 400 seated, 6 rooms, AV included, date-check field with 'Check availability'). Bottom half: a wide framed film-grain photograph of the main hall inset 48px from the edges; a cut-out lectern photograph breaks up over the frame's top edge into the yellow.",
+   "page_structure_blocks": [
+    "hero-hall-info: headline, four info cells and a framed hall photograph",
+    "event-day-timeline: a sample conference day from 07:30 set-up to 21:00 teardown",
+    "rooms: six rooms with capacity, layout and rate",
+    "catering-av: catering and AV packages as rows",
+    "past-events: five events as a dated list",
+    "venue-access: map, transit and loading",
+    "booking-cta: enquiry form link"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Film-grain venue photographs (28mm, mixed stage light, visible grain) graded toward 黄金; lectern as a transparent cut-out WebP."
+  },
+  {
+   "archetype": "single-column-longform",
+   "hero": "diagonal-split",
+   "nav": "overlay",
+   "image": "real-photography",
+   "illustration": "documentary",
+   "palette": "躑躅",
+   "hex": "#E95295",
+   "palette_family": "pink",
+   "fonts": [
+    "Zen Maru Gothic",
+    "Nunito"
+   ],
+   "n": 64,
+   "name": "Nami Staffing",
+   "slug": "nami-staffing",
+   "industry": "staffing agency",
+   "type": "business",
+   "category": "business-services",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-12",
+   "photographic": true,
+   "first_screen": "centered-narrow-column",
+   "page_structure": "process-timeline",
+   "wireframe": "Overlay header (hamburger). A 躑躅 field with a 600px centred column: 52px headline, one sentence and two buttons side by side ('I need staff' / 'I need work'). The lower third is a documentary photograph of a team meeting cut on a shallow diagonal into the colour; a label strip under it reads 'Average placement: 6 days'.",
+   "page_structure_blocks": [
+    "hero-two-doors: headline and two entry buttons over a diagonal photo",
+    "placement-timeline: a vertical timeline from brief to day-30 follow-up with who does what and time",
+    "deliverables: what you receive at each step as a table",
+    "fees: fee model by stage",
+    "process-faqs: three questions",
+    "start-cta: submit a vacancy"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Documentary workplace photographs (35mm, available light, candid) graded toward 躑躅; a cut-out lanyard badge breaks over the diagonal seam."
+  },
+  {
+   "archetype": "asymmetric-masonry",
+   "hero": "full-bleed-illustration",
+   "nav": "side-rail",
+   "image": "cutout-break-frame",
+   "illustration": "high-key",
+   "palette": "萌葱",
+   "hex": "#006E54",
+   "palette_family": "green",
+   "fonts": [
+    "Noto Sans JP",
+    "Source Serif 4"
+   ],
+   "n": 65,
+   "name": "Machi Stay Apartments",
+   "slug": "machi-stay",
+   "industry": "serviced apartment",
+   "type": "business",
+   "category": "travel-stays",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-13",
+   "photographic": true,
+   "first_screen": "search-box",
+   "page_structure": "faq-led",
+   "wireframe": "Side-rail nav (200px left rail) under the top header. Full-bleed high-key apartment photograph with a 萌葱 veil over the left 60%. In it: 48px headline 'Everything about staying a month', a large search box 'Ask a question' and three suggested question chips; a cut-out photograph of a key and welcome card breaks over the search box's lower edge. No buttons.",
+   "page_structure_blocks": [
+    "hero-question-search: headline, search box and suggested chips over a photo",
+    "top-questions: 16 questions in four grouped accordions (booking, stay, bills, leaving)",
+    "still-unsure: phone, chat and visit options",
+    "about-short: one paragraph and one photograph",
+    "documents: stay agreement and house rules downloads",
+    "notices: latest notices line"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. High-key interior photographs (28mm, daylight, white walls) graded toward 萌葱; key card as a transparent cut-out WebP."
+  },
+  {
+   "archetype": "poster-typographic",
+   "hero": "scene-map",
+   "nav": "split",
+   "image": "real-photography",
+   "illustration": "low-key",
+   "palette": "洗朱",
+   "hex": "#FB966E",
+   "palette_family": "vermilion",
+   "fonts": [
+    "Kiwi Maru",
+    "Libre Franklin"
+   ],
+   "n": 66,
+   "name": "Ekimae Realty",
+   "slug": "ekimae-realty",
+   "industry": "real estate agency",
+   "type": "business",
+   "category": "business-services",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-14",
+   "photographic": true,
+   "first_screen": "map-diagram",
+   "page_structure": "locations-network",
+   "wireframe": "Split header (logo left, nav right). Left 40%: 洗朱 field with 48px headline, a postcode/area search and filters (rent, buy, price). Right 60%: a one-colour line map of the city with 14 numbered area pins and a small low-key twilight photograph card for the selected area (name, average rent, listings). Below the map a one-line row of three station-area shortcuts.",
+   "page_structure_blocks": [
+    "hero-area-map: search, filters and a city line map with area pins and a selected-area card",
+    "area-list: area table with listings, average rent and commute time",
+    "featured-listings: six listings as photographs with price and size",
+    "services: buy, rent, manage as one-line rows",
+    "wide-photo: one wide twilight street photograph",
+    "branch-contacts: three branches with phone",
+    "enquiry-cta: valuation request"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Low-key twilight street and interior photographs (35mm f/1.8, window glow, fine grain) graded toward 洗朱."
+  },
+  {
+   "archetype": "sidebar-app",
+   "hero": "vertical-banner",
+   "nav": "centered",
+   "image": "cutout-break-frame",
+   "illustration": "film-grain",
+   "palette": "天色",
+   "hex": "#2CA9E1",
+   "palette_family": "cyan",
+   "fonts": [
+    "Murecho",
+    "Karla"
+   ],
+   "n": 67,
+   "name": "Midori Animal Clinic",
+   "slug": "midori-animal-clinic",
+   "industry": "veterinary clinic",
+   "type": "health",
+   "category": "health-wellness",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-15",
+   "photographic": true,
+   "first_screen": "type-poster",
+   "page_structure": "narrative-problem-method-proof",
+   "wireframe": "Centred nav header. Centred nav header. A tall 天色 vertical banner at the right (cols 9-12) carrying a cut-out photograph of a dog at the vet breaking over its left edge. Left (cols 1-8): a 680px reading column on white, 56px statement 'When they cannot say what hurts', one sentence and a single text link 'Book an appointment'. No other element.",
+   "page_structure_blocks": [
+    "statement: the owner's problem in one sentence over a banner with a cut-out pet",
+    "symptoms: three common symptoms as a short hairline list",
+    "method: three care principles as numbered paragraphs",
+    "proof: one case with before/after recovery figures and one quote",
+    "vets: team paragraph with one portrait",
+    "booking-cta: single CTA band with phone and form"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Film-grain clinic photographs (35mm, soft daylight, visible grain) graded toward 天色; the dog is a transparent cut-out WebP."
+  },
+  {
+   "archetype": "sticky-media",
+   "hero": "product-grid-hero",
+   "nav": "top-bar",
+   "image": "real-photography",
+   "illustration": "documentary",
+   "palette": "黄蘗",
+   "hex": "#FBE251",
+   "palette_family": "yellow",
+   "fonts": [
+    "Zen Kaku Gothic New",
+    "Space Grotesk"
+   ],
+   "n": 68,
+   "name": "Taiyo Solar Works",
+   "slug": "taiyo-solar-works",
+   "industry": "solar installation company",
+   "type": "business",
+   "category": "business-services",
+   "status": "todo",
+   "header_required": true,
+   "id": "b6-16",
+   "photographic": true,
+   "first_screen": "horizontal-scroll-strip",
+   "page_structure": "results-first-case-wall",
+   "wireframe": "Top-bar header. Headline across cols 1-8 in 56px ink on a 黄蘗 field with one text CTA. Below, a horizontal strip of five installation cases as a product grid of 320x400 documentary photograph cards (roof, farm, factory, school, home) each with kW size and yearly saving; the fifth is cut by the right edge. Progress bar '01 / 12' under the strip.",
+   "page_structure_blocks": [
+    "hero-case-strip: headline and a scroll strip of five installations with size and saving",
+    "case-wall: twelve installations in a filterable wall (home, farm, commercial)",
+    "featured-case: one installation in three columns (site / what we fitted / result)",
+    "packages: system-size packages as an offer table",
+    "figures: installed MW, systems, average payback",
+    "quote-cta: free roof assessment"
+   ],
+   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements. Documentary rooftop and site photographs (35mm, available light) graded toward 黄蘗."
   }
  ],
  "page_structures": [
@@ -1959,6 +2556,118 @@
    ],
    "differs": "Time of day is the axis of the page.",
    "minimal": "One hairline time axis, numerals in the main colour, small vignettes."
+  },
+  {
+   "id": "booking-led",
+   "fits": "dental/medical clinics, salons, driving schools, any appointment-first service",
+   "blocks": [
+    "live booking card as the hero (date strip, slot chips, service select)",
+    "services as a from-price list",
+    "practitioners with working days",
+    "first-visit steps",
+    "fees and insurance table",
+    "location and hours"
+   ],
+   "differs": "The page is a tool first: the visitor books before reading anything.",
+   "minimal": "One booking card, hairline lists, a single accent colour on selected slots."
+  },
+  {
+   "id": "pricing-led",
+   "fits": "driving schools, studios, courses, fixed-fee services",
+   "blocks": [
+    "fee menu as the hero (3 priced strips)",
+    "tick table of inclusions",
+    "add-ons price list",
+    "payment options",
+    "start dates",
+    "reviews and FAQ"
+   ],
+   "differs": "Itemised prices lead; unlike plan-comparison it is a menu of separate products, not tiers of one product.",
+   "minimal": "Wide strips, 40px price numerals, ink text only."
+  },
+  {
+   "id": "calculator-cta",
+   "fits": "mortgage, loans, solar, insurance quotes, freight",
+   "blocks": [
+    "interactive calculator as the hero (inputs, live result)",
+    "result-derived comparison list",
+    "how it works in three steps",
+    "segments",
+    "advisers",
+    "CTA band"
+   ],
+   "differs": "The visitor's own numbers are the content; the CTA follows the result.",
+   "minimal": "One card with sliders, large result numeral, no imagery beyond one photograph."
+  },
+  {
+   "id": "comparison-table",
+   "fits": "hotels, product ranges, service levels, rooms and units",
+   "blocks": [
+    "comparison strip as the hero (3 columns)",
+    "full comparison matrix with sticky heads",
+    "included services tick list",
+    "distance or location table",
+    "rate and policy comparison",
+    "corporate or group CTA"
+   ],
+   "differs": "Compares options of the same offer side by side; unlike plan-comparison there is no recommended tier or diagram.",
+   "minimal": "Columns and ticks only, hairlines, colour only on the selected column."
+  },
+  {
+   "id": "diagnostic-quiz",
+   "fits": "check-up centres, clinics, advisers, schools choosing courses",
+   "blocks": [
+    "short question card as the hero (4 steps)",
+    "recommended result block",
+    "full option list",
+    "preparation checklist",
+    "how results arrive",
+    "info and booking CTA"
+   ],
+   "differs": "A guided choice replaces browsing: the page answers 'which one is for me'.",
+   "minimal": "One question card, large answer buttons, progress bar."
+  },
+  {
+   "id": "timeline-milestone",
+   "fits": "architects, long-established firms, institutions, research bodies",
+   "blocks": [
+    "horizontal history timeline as the hero (year ticks, active card)",
+    "chapters per milestone",
+    "register of projects by year",
+    "awards by year",
+    "people",
+    "commission CTA"
+   ],
+   "differs": "Chronology of the organisation or its work is the spine; unlike process-timeline it is history, not an engagement process.",
+   "minimal": "One hairline axis, year numerals as the only ornament."
+  },
+  {
+   "id": "practitioner-directory",
+   "fits": "clinics, language schools, law and consulting firms with many specialists",
+   "blocks": [
+    "filterable directory of people as the hero (filters + card grid)",
+    "one expanded profile",
+    "offer or course list",
+    "how matching works",
+    "formats comparison",
+    "enquiry CTA"
+   ],
+   "differs": "A searchable roster of specialists is the content; unlike people-story it is a tool with filters, not interviews.",
+   "minimal": "Uniform cards, filter row, availability line per person."
+  },
+  {
+   "id": "dashboard-metrics",
+   "fits": "managed IT, security, logistics, utilities, SaaS-like B2B services",
+   "blocks": [
+    "KPI dashboard tiles as the hero (numbers, sparklines, status)",
+    "coverage or status grid",
+    "recent events log",
+    "workflow in one line",
+    "sample report download",
+    "audit CTA"
+   ],
+   "differs": "Live-looking operational tiles prove the service; unlike metrics-ledger the numbers are widgets with trend and status, not a ledger table.",
+   "minimal": "Tiles on a dark field, mono numerals, one status colour."
   }
  ],
  "page_structure_note": "page_structure = the whole front-page block order (see page_structures); first_screen = the first-screen skeleton; wireframe = the first-screen layout in words; page_structure_blocks = the planned front-page blocks top to bottom (5-8). legacy-hero-works-serial-process-journal and legacy-text-left-framed-photo-list describe b5-1..b5-7 (all seven share hero -> works -> serial -> process -> journal and a text-left / framed-photo-right / numbered-list first screen) and may never be assigned to a new row."
