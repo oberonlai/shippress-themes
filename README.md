@@ -240,24 +240,25 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/tsunagu-systems"><img src="themes/tsunagu-systems/screenshots/home-desktop.webp" width="260" alt="Tsunagu Systems"></a><br><a href="themes/tsunagu-systems">Tsunagu Systems</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsuribito-tackle"><img src="themes/tsuribito-tackle/screenshots/home-desktop.webp" width="260" alt="Tsuribito Tackle"></a><br><a href="themes/tsuribito-tackle">Tsuribito Tackle</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/tsuya-lacquer"><img src="themes/tsuya-lacquer/screenshots/home-desktop.webp" width="260" alt="Tsuya Lacquer"></a><br><a href="themes/tsuya-lacquer">Tsuya Lacquer</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/tsutsumi-packaging"><img src="themes/tsutsumi-packaging/screenshots/home-desktop.webp" width="260" alt="Tsutsumi Packaging"></a><br><a href="themes/tsutsumi-packaging">Tsutsumi Packaging</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/tsuya-lacquer"><img src="themes/tsuya-lacquer/screenshots/home-desktop.webp" width="260" alt="Tsuya Lacquer"></a><br><a href="themes/tsuya-lacquer">Tsuya Lacquer</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/undo-ba"><img src="themes/undo-ba/screenshots/home-desktop.webp" width="260" alt="Undo Ba"></a><br><a href="themes/undo-ba">Undo Ba</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/urushi-nuri"><img src="themes/urushi-nuri/screenshots/home-desktop.webp" width="260" alt="Urushi Nuri"></a><br><a href="themes/urushi-nuri">Urushi Nuri</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/wagu-mono"><img src="themes/wagu-mono/screenshots/home-desktop.webp" width="260" alt="Wagu Mono"></a><br><a href="themes/wagu-mono">Wagu Mono</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/wagu-mono"><img src="themes/wagu-mono/screenshots/home-desktop.webp" width="260" alt="Wagu Mono"></a><br><a href="themes/wagu-mono">Wagu Mono</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/waza-college"><img src="themes/waza-college/screenshots/home-desktop.webp" width="260" alt="Waza College"></a><br><a href="themes/waza-college">Waza College</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="themes/yohaku-studio/screenshots/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yoru-chocolate"><img src="themes/yoru-chocolate/screenshots/home-desktop.webp" width="260" alt="Yoru Chocolate"></a><br><a href="themes/yoru-chocolate">Yoru Chocolate</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yoru-chocolate"><img src="themes/yoru-chocolate/screenshots/home-desktop.webp" width="260" alt="Yoru Chocolate"></a><br><a href="themes/yoru-chocolate">Yoru Chocolate</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yose-rakugo"><img src="themes/yose-rakugo/screenshots/home-desktop.webp" width="260" alt="Yose Rakugo"></a><br><a href="themes/yose-rakugo">Yose Rakugo</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuge-sento"><img src="themes/yuge-sento/screenshots/home-desktop.webp" width="260" alt="Yuge Sento"></a><br><a href="themes/yuge-sento">Yuge Sento</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="themes/yukimi-kakigori/screenshots/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="themes/yukimi-kakigori/screenshots/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="themes/yuzu-chaya/screenshots/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
 </table>
