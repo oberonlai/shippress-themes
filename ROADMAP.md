@@ -277,7 +277,7 @@ Mix: health 3 (dental clinic, medical check-up centre, veterinary clinic), educa
 
 | # | Name / slug | Industry | Category | Archetype | Hero | Nav | Image | Photo direction | Main colour | Fonts | First screen | Page structure | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 53 | Hanamizuki Dental / hanamizuki-dental | dental clinic | health-wellness | split-screen | stacked-collage | top-bar | cutout-break-frame | high-key | 翡翠 #38B48B (green) | Zen Kaku Gothic New + Newsreader | booking-panel | booking-led | claimed (b6-1) |
+| 53 | Hanamizuki Dental / hanamizuki-dental | dental clinic | health-wellness | split-screen | stacked-collage | top-bar | cutout-break-frame | high-key | 翡翠 #38B48B (green) | Zen Kaku Gothic New + Newsreader | booking-panel | booking-led | done (75a3c2e, 2026-10-20) (b6-1); contrast: ink on jade 6.1:1, white on deep jade #1A6B51 6.4:1; high-key photo direction; break-frame tray + dentist cut-outs |
 | 54 | Tanba Law Office / tanba-law | law firm | business-services | horizontal-strip | vertical-banner | side-rail | real-photography | low-key | 古代紫 #895B8A (purple) | Shippori Mincho + Hanken Grotesk | centered-narrow-column | service-index | todo (b6-2) |
 | 55 | Hokuto Driving School / hokuto-driving-school | driving school | education-classes | single-column-longform | cutout-break-frame-object | overlay | cutout-break-frame | film-grain | 菜の花 #F2D030 (yellow) | M PLUS Rounded 1c + Outfit | price-menu | pricing-led | todo (b6-3) |
 | 56 | Kasumi Mortgage / kasumi-mortgage | mortgage broker | business-services | card-mosaic | product-grid-hero | split | real-photography | documentary | 露草 #3A6EA5 (blue) | Noto Serif JP + Inter | calculator-panel | calculator-cta | todo (b6-4) |
