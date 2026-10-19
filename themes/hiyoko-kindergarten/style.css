@@ -3,8 +3,8 @@ Theme Name: Hiyoko Kindergarten
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/hiyoko-kindergarten
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Hiyoko Kindergarten — a kindergarten and nursery theme laid out as a card mosaic: under a formal top header (kindergarten name, tagline and a Book a visit button), the menu leaves the bar on wide screens and becomes a fixed bark-ink side rail down the left edge with numbered entries (in Chinese and Japanese the entries run top to bottom). Dandelion yellow (#FFD900) is the main colour: the hero, the story band and every page head are yellow fields set in bark ink, with a faint paper grain. The hero is a cut-out object breaking its frame: the title, lead and buttons on the left, an ink-framed photograph of a bright classroom on the right, and a cut-out yellow backpack (transparent WebP) sitting over the frame's corner, half inside and half out, dropping past the hero bottom edge; cut-out wooden blocks break over the story band and every page head. The four classes sit in a rounded card mosaic. Every picture is a realistic 35mm film-grain photograph of a modern, international kindergarten. M PLUS Rounded 1c for display, Fredoka for reading, Noto Sans TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
-Version: 1.0.0
+Description: Hiyoko Kindergarten — a kindergarten and nursery theme laid out as a card mosaic: under a formal top header (kindergarten name, tagline and a Book a visit button), the menu leaves the bar on wide screens and becomes a fixed bark-ink side rail down the left edge with numbered entries (in Japanese the entries run top to bottom). Dandelion yellow (#FFD900) is the main colour: the hero, the story band and every page head are yellow fields set in bark ink, with a faint paper grain. The hero is a cut-out object breaking its frame: the title, lead and buttons on the left, an ink-framed photograph of a bright classroom on the right, and a cut-out yellow backpack (transparent WebP) sitting over the frame's corner, half inside and half out, dropping past the hero bottom edge; cut-out wooden blocks break over the story band and every page head. The four classes sit in a rounded card mosaic. Every picture is a realistic 35mm film-grain photograph of a modern, international kindergarten. M PLUS Rounded 1c for display, Fredoka for reading, Noto Sans TC for Traditional Chinese headings. Sample content in English, Traditional Chinese, Japanese, French and German; vertical labels only in Chinese and Japanese. WCAG AA colours; no entrance animations.
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -118,13 +118,19 @@ hr.is-style-tone { border: 0; height: 12px; width: 140px !important; margin: 2.5
 	.hk-nav .wp-block-navigation__container > li > a:hover, .hk-nav .current-menu-item > a { color: var(--hk-pale); text-decoration: underline; text-underline-offset: 0.35em; }
 	.wp-site-blocks > .hk-shell, .wp-site-blocks > footer { margin-left: var(--hk-rail) !important; }
 }
-/* Chinese and Japanese rail: each entry runs top to bottom, the entries side by side from the right */
+/* Japanese rail: each entry runs top to bottom, the entries side by side from the right. Chinese keeps the horizontal numbered list below */
 @media (min-width: 1100px) {
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container { flex-direction: row-reverse; flex-wrap: wrap; justify-content: center; gap: 1.5rem 0.9rem; }
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container > li { writing-mode: vertical-rl; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; padding: 0 0 0 0.9rem; border-bottom: 0; border-left: 1px solid rgba(255, 228, 92, 0.28); }
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container > li:last-child { border-left: 0; padding-left: 0; }
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container > li::before { content: counter(rail, cjk-decimal); }
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container > li > a { letter-spacing: 0.25em; font-size: 1.25rem; }
+	:lang(ja) .hk-nav .wp-block-navigation__container { flex-direction: row-reverse; flex-wrap: wrap; justify-content: center; gap: 1.5rem 0.9rem; }
+	:lang(ja) .hk-nav .wp-block-navigation__container > li { writing-mode: vertical-rl; display: flex; flex-direction: column; align-items: center; gap: 0.6rem; padding: 0 0 0 0.9rem; border-bottom: 0; border-left: 1px solid rgba(255, 228, 92, 0.28); }
+	:lang(ja) .hk-nav .wp-block-navigation__container > li:last-child { border-left: 0; padding-left: 0; }
+	:lang(ja) .hk-nav .wp-block-navigation__container > li::before { content: counter(rail, cjk-decimal); }
+	:lang(ja) .hk-nav .wp-block-navigation__container > li > a { letter-spacing: 0.25em; font-size: 1.25rem; }
+}
+
+/* Chinese rail: horizontal numbered list like Latin, with kanji numerals */
+@media (min-width: 1100px) {
+	:lang(zh) .hk-nav .wp-block-navigation__container > li::before { content: counter(rail, cjk-decimal); }
+	:lang(zh) .hk-nav .wp-block-navigation__container > li > a { letter-spacing: 0.12em; }
 }
 
 /* The page column */
@@ -607,13 +613,13 @@ h1, h2, h3, .hk-brand__title, .hk-hero__title { font-weight: 700 !important; }
 .hk-hero, .hk-story, .hk-pagehead { background-size: 420px auto; }
 .hk-spread__intro .hk-dropcap::first-letter { float: none; font-size: inherit; font-family: inherit; margin: 0; line-height: inherit; }
 @media (min-width: 1100px) {
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container { gap: 1.25rem 0.55rem; }
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container > li { padding-left: 0.55rem; }
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container > li > a { font-size: 1.125rem; letter-spacing: 0.18em; }
+	:lang(ja) .hk-nav .wp-block-navigation__container { gap: 1.25rem 0.55rem; }
+	:lang(ja) .hk-nav .wp-block-navigation__container > li { padding-left: 0.55rem; }
+	:lang(ja) .hk-nav .wp-block-navigation__container > li > a { font-size: 1.125rem; letter-spacing: 0.18em; }
 }
 @media (min-width: 1100px) {
-	:is(:lang(ja), :lang(zh)) nav.hk-nav { padding-left: 0.75rem; padding-right: 0.75rem; }
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container { flex-wrap: nowrap; gap: 0.4rem; }
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container > li { padding-left: 0.5rem; gap: 0.5rem; flex-direction: row; }
-	:is(:lang(ja), :lang(zh)) .hk-nav .wp-block-navigation__container { justify-content: center; gap: 0.7rem; }
+	:lang(ja) nav.hk-nav { padding-left: 0.75rem; padding-right: 0.75rem; }
+	:lang(ja) .hk-nav .wp-block-navigation__container { flex-wrap: nowrap; gap: 0.4rem; }
+	:lang(ja) .hk-nav .wp-block-navigation__container > li { padding-left: 0.5rem; gap: 0.5rem; flex-direction: row; }
+	:lang(ja) .hk-nav .wp-block-navigation__container { justify-content: center; gap: 0.7rem; }
 }
