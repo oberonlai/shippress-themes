@@ -12,17 +12,17 @@
 <section class="wp-block-group alignfull hk-head"><!-- wp:group {"align":"wide","className":"hk-head__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hk-head__grid"><!-- wp:group {"className":"hk-head__main","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-head__main"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">Instructors</p>
+<p class="is-style-label"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_01' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"hk-head__title"} -->
-<h1 class="wp-block-heading hk-head__title">The people in the <em>passenger seat</em>.</h1>
+<h1 class="wp-block-heading hk-head__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'instructors_head_01' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-head__side","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-head__side"><!-- wp:paragraph {"className":"is-style-lead"} -->
-<p class="is-style-lead">Four fully qualified instructors and one booking desk. You keep the same instructor from the first lesson to the test; Joan will happily arrange a change.</p>
+<p class="is-style-lead"><?php echo wp_kses_post( hokuto_driving_school_t( 'instructors_head_02' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

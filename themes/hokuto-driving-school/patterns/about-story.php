@@ -12,17 +12,17 @@
 <section class="wp-block-group alignfull hk-section"><!-- wp:group {"align":"wide","className":"hk-split hk-split--top hk-split--sticky","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hk-split hk-split--top hk-split--sticky"><!-- wp:group {"className":"hk-sticky","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-sticky"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-sticky__photo"} -->
-<figure class="wp-block-image size-large hk-sticky__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/keys-logbook.webp' ) ); ?>" alt="A set of car keys, a notebook and a pencil on a worn wooden table"/></figure>
+<figure class="wp-block-image size-large hk-sticky__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/keys-logbook.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'about_story_01' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-years","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-years"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">Our story</p>
+<p class="is-style-label"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_02' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">How a borrowed corner became a school.</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_03' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hk-year","layout":{"type":"default"}} -->
@@ -31,11 +31,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"hk-year__title"} -->
-<h3 class="wp-block-heading hk-year__title">One car and a corner of the yard</h3>
+<h3 class="wp-block-heading hk-year__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_04' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Ellen and Tomas Hokuto rent a corner of the tram depot yard and buy a second-hand hatchback with dual controls. Tomas teaches by day after twenty years training bus drivers for the county; Ellen runs the diary from the kitchen table and teaches the theory evenings.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_05' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -45,11 +45,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"hk-year__title"} -->
-<h3 class="wp-block-heading hk-year__title">Joan answers the telephone</h3>
+<h3 class="wp-block-heading hk-year__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_06' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Joan Pryce joins the booking desk for a fortnight to cover a holiday and never leaves. She still keeps the paper diary beside the computer, because it has never once crashed.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_07' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -59,11 +59,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"hk-year__title"} -->
-<h3 class="wp-block-heading hk-year__title">The whole depot, and Daniel</h3>
+<h3 class="wp-block-heading hk-year__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_08' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The tram company sells the depot and the school takes the whole building. Daniel Okafor joins as an instructor and starts the first lessons for nervous drivers, inside the yard, engine off.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_09' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -73,25 +73,25 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"hk-year__title"} -->
-<h3 class="wp-block-heading hk-year__title">Mara comes home</h3>
+<h3 class="wp-block-heading hk-year__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_10' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Mara Hokuto qualifies as an instructor and takes over the route cards: the six stages every learner now follows, from the yard to test day.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_11' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-year","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-year"><!-- wp:paragraph {"className":"hk-year__no"} -->
-<p class="hk-year__no">Today</p>
+<p class="hk-year__no"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_12' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"hk-year__title"} -->
-<h3 class="wp-block-heading hk-year__title">Four cars, four instructors</h3>
+<h3 class="wp-block-heading hk-year__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_13' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Two manual and two automatic cars, Priya on refreshers and conversions, Sam on evenings and the motorway, and about a hundred and sixty learners a year.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'about_story_14' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

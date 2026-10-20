@@ -12,7 +12,7 @@
 <section class="wp-block-group alignfull hk-section hk-section--flush"><!-- wp:group {"align":"wide","className":"hk-chapters","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hk-chapters"><!-- wp:group {"className":"hk-chapter","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-chapter__photo"} -->
-<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hands-wheel.webp' ) ); ?>" alt="A learner's hands resting on a steering wheel"/></figure>
+<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hands-wheel.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'route_stages_01' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hk-chapter__text","layout":{"type":"default"}} -->
@@ -21,30 +21,30 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"hk-chapter__title"} -->
-<h2 class="wp-block-heading hk-chapter__title">The yard</h2>
+<h2 class="wp-block-heading hk-chapter__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_route_05' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Inside the fence, with no traffic: seat and mirrors, moving off, stopping, steering, and your first turns between the painted bays. If you have never sat in a driver's seat before, this is where it happens, slowly.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_02' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Usually</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_03' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">1 to 5 lessons</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_04' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Ready when</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">you can move off, stop and turn smoothly without looking down.</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_06' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -52,7 +52,7 @@
 
 <!-- wp:group {"className":"hk-chapter","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-chapter__photo"} -->
-<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/mirror.webp' ) ); ?>" alt="A rear-view mirror reflecting a tree-lined street"/></figure>
+<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/mirror.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'route_stages_07' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hk-chapter__text","layout":{"type":"default"}} -->
@@ -61,30 +61,30 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"hk-chapter__title"} -->
-<h2 class="wp-block-heading hk-chapter__title">Quiet roads</h2>
+<h2 class="wp-block-heading hk-chapter__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_route_08' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The ring road between ten and half past two, when it belongs to delivery vans and retired couples. Mirrors before every change, clear signals, a steady speed, and looking a long way ahead instead of at the bonnet.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_08' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Usually</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_03' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">4 to 8 lessons</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_09' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Ready when</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">you check your mirrors without being reminded.</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_10' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -92,7 +92,7 @@
 
 <!-- wp:group {"className":"hk-chapter","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-chapter__photo"} -->
-<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/town-street.webp' ) ); ?>" alt="A quiet stone high street with a car waiting at a junction"/></figure>
+<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/town-street.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'route_stages_11' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hk-chapter__text","layout":{"type":"default"}} -->
@@ -101,30 +101,30 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"hk-chapter__title"} -->
-<h2 class="wp-block-heading hk-chapter__title">Town</h2>
+<h2 class="wp-block-heading hk-chapter__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_route_11' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Market Street, the zebra crossings by the church, the narrow terraces behind the station and parking in all its forms. We choose the hour so the town is calm the first time and busy the third.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_12' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Usually</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_03' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">6 to 10 lessons</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_13' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Ready when</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">you can park on a hill and pull out again without stalling.</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_14' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -132,7 +132,7 @@
 
 <!-- wp:group {"className":"hk-chapter","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-chapter__photo"} -->
-<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/roundabout.webp' ) ); ?>" alt="A small grassy roundabout at the edge of town"/></figure>
+<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/roundabout.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'route_stages_15' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hk-chapter__text","layout":{"type":"default"}} -->
@@ -141,30 +141,30 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"hk-chapter__title"} -->
-<h2 class="wp-block-heading hk-chapter__title">Roundabouts</h2>
+<h2 class="wp-block-heading hk-chapter__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_route_14' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>From the mini-roundabout outside the depot to the five-exit Coldwell roundabout on the bypass: planning early, choosing a lane, reading other drivers, and not stopping when you do not need to.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_16' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Usually</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_03' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">6 to 10 lessons</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_13' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Ready when</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">Coldwell feels ordinary.</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_17' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -172,7 +172,7 @@
 
 <!-- wp:group {"className":"hk-chapter","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-chapter__photo"} -->
-<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/night-road.webp' ) ); ?>" alt="Tail lights on a dual carriageway at dusk"/></figure>
+<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/night-road.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'route_stages_18' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hk-chapter__text","layout":{"type":"default"}} -->
@@ -181,30 +181,30 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"hk-chapter__title"} -->
-<h2 class="wp-block-heading hk-chapter__title">Night, rain &amp; motorway</h2>
+<h2 class="wp-block-heading hk-chapter__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_route_17' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Evening lessons with Sam or Priya: dipped headlights, wet roads, joining the dual carriageway at speed and the long downhill on the Harrow Moor road. You will not be tested on the motorway, but you will drive on one soon.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_19' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Usually</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_03' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">4 to 6 lessons</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_20' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Ready when</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">you would happily drive home in the dark.</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_21' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -212,7 +212,7 @@
 
 <!-- wp:group {"className":"hk-chapter","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-chapter__photo"} -->
-<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/test-morning.webp' ) ); ?>" alt="A learner walking toward a car in a quiet car park"/></figure>
+<figure class="wp-block-image size-large hk-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/test-morning.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'route_stages_22' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hk-chapter__text","layout":{"type":"default"}} -->
@@ -221,30 +221,30 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"hk-chapter__title"} -->
-<h2 class="wp-block-heading hk-chapter__title">Test day</h2>
+<h2 class="wp-block-heading hk-chapter__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_route_20' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Two mock tests on the real routes, then the day itself: a warm-up drive at eight, a coffee, and your instructor waiting in the car park. Read the Test day page for the whole morning.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_23' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Usually</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_03' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">2 mock tests</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_24' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-chapter__row","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-chapter__row"><!-- wp:paragraph {"className":"hk-chapter__key"} -->
-<p class="hk-chapter__key">Ready when</p>
+<p class="hk-chapter__key"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-chapter__val"} -->
-<p class="hk-chapter__val">your instructor says so, and you agree.</p>
+<p class="hk-chapter__val"><?php echo wp_kses_post( hokuto_driving_school_t( 'route_stages_25' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -12,105 +12,105 @@
 <section class="wp-block-group alignfull hk-section hk-section--flush"><!-- wp:group {"align":"wide","className":"hk-people hk-people--full","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hk-people hk-people--full"><!-- wp:group {"className":"hk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-person__photo"} -->
-<figure class="wp-block-image size-large hk-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-mara.webp' ) ); ?>" alt="Mara Hokuto, owner and instructor, standing beside a small grey car in a brick yard"/></figure>
+<figure class="wp-block-image size-large hk-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-mara.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'home_instructors_04' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"hk-person__name"} -->
-<h3 class="wp-block-heading hk-person__name">Mara Hokuto</h3>
+<h3 class="wp-block-heading hk-person__name"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_05' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hk-person__role"} -->
-<p class="hk-person__role">Owner · manual &amp; automatic</p>
+<p class="hk-person__role"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_06' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-person__text"} -->
-<p class="hk-person__text">Grew up in the depot yard and plans every route card. She takes most first lessons herself.</p>
+<p class="hk-person__text"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_07' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Mara grew up with the depot as her playground and passed her own test in her father's training car. She qualified as an instructor in 2009, after ten years as a surveyor, and wrote the route card that every learner now follows.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'instructors_list_01' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>She takes most first lessons herself, because she likes to meet everyone at the start. Ask her about the tram rails still buried under the yard.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'instructors_list_02' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-person__photo"} -->
-<figure class="wp-block-image size-large hk-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-daniel.webp' ) ); ?>" alt="Daniel Okafor, head instructor, leaning on a car roof in a quiet yard"/></figure>
+<figure class="wp-block-image size-large hk-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-daniel.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'home_instructors_08' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"hk-person__name"} -->
-<h3 class="wp-block-heading hk-person__name">Daniel Okafor</h3>
+<h3 class="wp-block-heading hk-person__name"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_09' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hk-person__role"} -->
-<p class="hk-person__role">Head instructor · since 2007</p>
+<p class="hk-person__role"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_10' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-person__text"} -->
-<p class="hk-person__text">Known for nervous learners: a quiet voice, long pauses, and he almost never touches the dual brake.</p>
+<p class="hk-person__text"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_11' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Daniel joined in 2007 and runs the lessons for nervous drivers. He talks you through everything before the car moves and leaves long pauses for questions.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'instructors_list_03' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>His learners say he is the calmest person they have ever met. He says he simply remembers his own first lesson, which ended in a hedge.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'instructors_list_04' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-person__photo"} -->
-<figure class="wp-block-image size-large hk-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-priya.webp' ) ); ?>" alt="Priya Raman, instructor, standing by an open car door on a quiet street"/></figure>
+<figure class="wp-block-image size-large hk-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-priya.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'home_instructors_12' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"hk-person__name"} -->
-<h3 class="wp-block-heading hk-person__name">Priya Raman</h3>
+<h3 class="wp-block-heading hk-person__name"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_13' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hk-person__role"} -->
-<p class="hk-person__role">Automatic · refreshers · conversions</p>
+<p class="hk-person__role"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_14' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-person__text"} -->
-<p class="hk-person__text">A former paramedic who makes the dual carriageway feel ordinary, and very good with people coming back after years.</p>
+<p class="hk-person__text"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_15' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Priya spent twelve years as a paramedic before she trained as an instructor. She teaches in the automatic cars and looks after refreshers and licence conversions.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'instructors_list_05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Her speciality is the dual carriageway: joining at speed, keeping a safe gap and staying relaxed in the outside lane.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'instructors_list_06' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-person__photo"} -->
-<figure class="wp-block-image size-large hk-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-sam.webp' ) ); ?>" alt="Sam Whitlock, instructor, standing in the depot doorway at dusk"/></figure>
+<figure class="wp-block-image size-large hk-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-sam.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'home_instructors_16' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"hk-person__name"} -->
-<h3 class="wp-block-heading hk-person__name">Sam Whitlock</h3>
+<h3 class="wp-block-heading hk-person__name"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_17' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hk-person__role"} -->
-<p class="hk-person__role">Evenings · night · motorway</p>
+<p class="hk-person__role"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_18' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-person__text"} -->
-<p class="hk-person__text">Passed his own test here in 2012. Sam takes the late slots and the motorway module.</p>
+<p class="hk-person__text"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_instructors_19' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Sam passed his own test at Hokuto in 2012, with Daniel, and came back as an instructor eight years later. He takes the evening slots and the motorway and night module.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'instructors_list_07' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>If your only free time is after work, Sam is your instructor. He knows every street light between here and Harrow Moor.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'instructors_list_08' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

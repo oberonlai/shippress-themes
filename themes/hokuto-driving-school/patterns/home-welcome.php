@@ -11,28 +11,28 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"hk-section","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hk-section"><!-- wp:group {"align":"wide","className":"hk-split","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hk-split"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-split__photo hk-split__photo--tall"} -->
-<figure class="wp-block-image size-large hk-split__photo hk-split__photo--tall"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/yard.webp' ) ); ?>" alt="The fenced practice yard behind the old brick depot, white bays painted on wet asphalt"/><figcaption class="wp-element-caption">The yard behind the depot, where every learner starts.</figcaption></figure>
+<figure class="wp-block-image size-large hk-split__photo hk-split__photo--tall"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/yard.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'home_welcome_01' ) ); ?>"/><figcaption class="wp-element-caption"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_welcome_02' ) ); ?></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hk-split__text","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-split__text"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">A family school</p>
+<p class="is-style-label"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_welcome_03' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"hk-split__title"} -->
-<h2 class="wp-block-heading hk-split__title">Forty years of teaching Fenwick Hill to drive, from the same brick shed.</h2>
+<h2 class="wp-block-heading hk-split__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_welcome_04' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Ellen and Tomas Hokuto started the school in 1986 with one car and a borrowed corner of the tram depot yard. Tomas had spent twenty years training bus drivers for the county; Ellen ran the booking desk and taught theory evenings upstairs. Their daughter Mara runs it now, with four instructors, four dual-control cars and Joan, who has answered the telephone since 1998.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'home_welcome_05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We teach about a hundred and sixty people a year: seventeen-year-olds, parents who left it late, people coming back after a long break and newcomers converting a licence from abroad. Most come because a friend said we are patient. We would rather you took two more lessons than sat a test you were not ready for.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'home_welcome_06' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-sign"} -->
-<p class="hk-sign">Mara Hokuto, owner and instructor</p>
+<p class="hk-sign"><?php echo wp_kses_post( hokuto_driving_school_t( 'home_welcome_07' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

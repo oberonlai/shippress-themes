@@ -7,7 +7,8 @@
  * and the footer, holds only a reference to it, so editing it once changes it everywhere. On a page that already
  * shows the card, the footer copy is hidden by CSS so it is not read twice.
  *
- * The first copy is created from inc/info/school.html when the theme is activated (or the first time a page asks for
+ * The first copy is created from inc/info/<lang>/school.html (the sample content's language, else inc/info/school.html in
+ * English) when the theme is activated (or the first time a page asks for
  * it), tagged with the `_hokuto_driving_school_info` post meta so it is found again in any status and never created twice. A
  * synced pattern the user moved to the trash stays there. Nothing the user wrote is changed.
  *
@@ -48,9 +49,13 @@ if ( ! class_exists( 'Hokuto_Driving_School_Info' ) ) {
 			}
 		}
 
-		/** The default markup of one shared block (inc/info/<key>.html). */
+		/** The default markup of one shared block (inc/info/<lang>/<key>.html, else inc/info/<key>.html). */
 		public static function source( $key ) {
-			$file   = __DIR__ . '/info/' . $key . '.html';
+			// The copy in the sample content's language (inc/info/<lang>/<key>.html), else English.
+			$file = __DIR__ . '/info/' . hokuto_driving_school_lang() . '/' . $key . '.html';
+			if ( ! is_readable( $file ) ) {
+				$file = __DIR__ . '/info/' . $key . '.html';
+			}
 			$markup = is_readable( $file ) ? trim( (string) file_get_contents( $file ) ) : ''; // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
 			// Site-relative links ("/contact/") point at this site, also when WordPress lives in a subfolder.
 			return preg_replace_callback(

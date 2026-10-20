@@ -50,6 +50,20 @@ Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrumen
 License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-InstrumentSans.txt, https://openfontlicense.org); no Reserved Font Name.
 Latin subset (WOFF2; width 100, weights 400-600) of the variable font in https://github.com/google/fonts/tree/main/ofl/instrumentsans, bundled so the theme makes no third-party requests.
 
+Noto Serif TC
+Files: assets/fonts/noto-serif-tc-zh-tw-400.woff2
+Copyright 2012 Google Inc. All Rights Reserved.
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSerifTC.txt, https://openfontlicense.org).
+Regular 400 from https://github.com/google/fonts/tree/main/ofl/notoseriftc, subset (WOFF2) to the characters of the Traditional Chinese sample text: the headings of the zh-TW pages, never a Japanese font (scripts/subset-zh-fonts.mjs).
+
+Noto Serif JP
+Files: assets/fonts/noto-serif-jp-400-ja.woff2
+Copyright 2012 Google Inc. All Rights Reserved.
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSerifJP.txt, https://openfontlicense.org).
+Regular 400 from https://github.com/google/fonts/tree/main/ofl/notoserifjp, subset (WOFF2) to the characters of the Japanese sample text: the headings of the ja pages.
+
+Body text on the zh-TW and ja pages uses the visitor's system Traditional Chinese / Japanese sans-serif (PingFang TC, Microsoft JhengHei, Noto Sans CJK TC; Hiragino Sans, Yu Gothic, Noto Sans CJK JP); no font is downloaded for it.
+
 = Images =
 
 All photographs were AI-generated for this theme with one shared photographic style (quiet editorial photography, soft overcast daylight, muted stone and grey-green tones, subtle film grain) and are released under GPL-2.0-or-later / CC0. They show no real people, places or brands. The demo/ copies are imported into the Media Library as featured images.

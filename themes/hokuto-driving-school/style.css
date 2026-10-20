@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/hokuto
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Hokuto Driving School — a calm, photograph-led block theme for a family driving school, driving instructor or road-safety course. Pale concrete, kerb stone and asphalt ink with one deep slate-green band and a faded road-sign sage; Newsreader over Instrument Sans. The home page opens on a full-bleed photograph of an empty early-morning road with a quiet facts bar, then a letter from the owner beside the practice yard, the route from the yard to test day as six photographed stages, plain prices, the four instructors, a dark band for nervous drivers, the journal and a booking call. With About, Courses & fees, The Route, Instructors, Nervous drivers, Test day, Contact, Newsletter and Journal. The school details and booking-desk hours are one synced pattern, edited once. WCAG AA colours; no entrance animations.
-Version: 1.0.0
+Version: 1.1.0
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -30,7 +30,7 @@ Tags: block-patterns, full-site-editing, blog, education, custom-colors, editor-
 	--hk-rule-dark: rgba(241, 239, 234, 0.16);
 	--hk-sec: var(--wp--preset--spacing--50);
 	--hk-gap: clamp(2rem, 5vw, 5.5rem);
-	--hk-serif: var(--wp--preset--font-family--serif);
+	--hk-serif: var(--wp--preset--font-family--display);
 }
 
 body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-optical-sizing: auto; }
@@ -61,7 +61,7 @@ ul.is-style-ruled li:last-child { border-bottom: 1px solid var(--hk-rule); }
 .wp-block-buttons { gap: 1rem 2rem; align-items: center; }
 .wp-block-quote { border-left: 2px solid var(--hk-amber); padding: 0.2rem 0 0.2rem 1.5rem; margin: 2rem 0; }
 .wp-block-quote p { font-size: var(--wp--preset--font-size--large); line-height: 1.45; margin: 0; }
-.wp-block-quote cite { display: block; margin-top: 0.75rem; font-family: var(--wp--preset--font-family--sans); font-style: normal; font-size: 0.8125rem; letter-spacing: 0.04em; color: var(--hk-quiet); }
+.wp-block-quote cite { display: block; margin-top: 0.75rem; font-family: var(--wp--preset--font-family--body); font-style: normal; font-size: 0.8125rem; letter-spacing: 0.04em; color: var(--hk-quiet); }
 
 /* ---------- header (one top menu) ---------- */
 .hk-header { position: relative; z-index: 20; padding-block: 1.35rem; border-bottom: 1px solid var(--hk-rule); }
@@ -316,6 +316,55 @@ ul.is-style-ruled li:last-child { border-bottom: 1px solid var(--hk-rule); }
 /* a page that already shows the school card does not repeat it in the footer */
 body:has(.hk-main .hk-school) .hk-foot__school { display: none; }
 body:has(.hk-main .hk-school) .hk-foot__grid { grid-template-columns: minmax(0, 5fr) minmax(0, 3fr); }
+
+/* ---------- languages ----------
+   The sample content and the theme's words come in en, zh-TW, ja, fr and de (inc/i18n.php sets <html lang>).
+   zh-TW: headings in the bundled Noto Serif TC subset, text in the system Traditional Chinese sans.
+   ja: headings in the bundled Noto Serif JP subset, text in the system Japanese gothic.
+   Latin letters and figures inside CJK text stay in Newsreader / Instrument Sans (the subsets hold CJK characters only).
+   CJK headings run at about 0.75 of the English sizes with looser leading; body text at line-height 1.85.
+   German and French: hyphenation for long words in narrow columns. */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", Newsreader, "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Instrument Sans", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", Newsreader, "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Instrument Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:root:is(:lang(zh), :lang(ja)) {
+	--wp--preset--font-size--display: clamp(2.125rem, 1.3rem + 3.2vw, 3.5rem);
+	--wp--preset--font-size--xx-large: clamp(1.75rem, 1.35rem + 1.6vw, 2.625rem);
+	--wp--preset--font-size--x-large: clamp(1.3125rem, 1.15rem + 0.7vw, 1.75rem);
+	--wp--preset--font-size--large: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; text-autospace: normal; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) h1 { line-height: 1.32; }
+:lang(ja) :is(h1, h2, h3, .is-style-lead, .is-style-label, .hk-facts li, .hk-prices li, .hk-person__role, .hk-course__len, .hk-course__price, .hk-chapter__key, figcaption, .wp-block-button__link, .hk-foot__line) { word-break: auto-phrase; }
+/* zh: on wide screens a heading breaks only at its punctuation (no phrase breaking in Chinese); narrow screens wrap per character */
+@media (min-width: 601px) { :lang(zh) :is(h1, h2, h3) { word-break: keep-all; overflow-wrap: anywhere; } }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite, figcaption, .wp-block-quote, .wp-block-quote p, .hk-sign) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3) em { font-weight: inherit; color: var(--hk-sage); }
+:is(:lang(zh), :lang(ja)) .hk-hero__title em { color: rgba(241, 239, 234, 0.86); }
+:is(:lang(zh), :lang(ja)) .is-style-lead { line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) .wp-block-quote p { line-height: 1.75; }
+:is(:lang(zh), :lang(ja)) :is(.is-style-label, .hk-brand__line, .hk-person__role, .hk-course__len, .hk-chapter__key, .hk-school__kicker, .hk-school__key, .hk-foot__kicker, .hk-field label, .hk-meta) { font-size: 0.8125rem; letter-spacing: 0.08em; }
+:is(:lang(zh), :lang(ja)) .hk-brand__line { font-size: 0.75rem; }
+:is(:lang(zh), :lang(ja)) .hk-brand__name { font-size: 1.3125rem; letter-spacing: 0.06em; }
+:is(:lang(zh), :lang(ja)) :is(.hk-stage__title, .hk-note h3) { font-size: 1.3125rem; }
+:is(:lang(zh), :lang(ja)) :is(.hk-person__name, .hk-year__title, .hk-posts__title) { font-size: 1.25rem; line-height: 1.5; }
+:is(:lang(zh), :lang(ja)) .hk-course__name { font-size: 1.4375rem; }
+:is(:lang(zh), :lang(ja)) :is(.hk-course__price, .hk-school__addr) { font-size: 1.125rem; line-height: 1.6; }
+:is(:lang(zh), :lang(ja)) .hk-facts strong { font-size: 1rem; letter-spacing: 0.06em; }
+:is(:lang(zh), :lang(ja)) .hk-foot__mark { font-size: 1.625rem; letter-spacing: 0.06em; }
+:is(:lang(zh), :lang(ja)) .hk-sign { font-size: 1rem; letter-spacing: 0.1em; }
+:is(:lang(zh), :lang(ja)) .wp-block-image figcaption { font-family: var(--wp--preset--font-family--body); }
+:lang(de) :is(p, li, h1, h2, h3, h4, figcaption, label, .wp-block-button__link), :lang(fr) :is(p, li, h3, figcaption) { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
+@media (max-width: 600px) {
+	:is(:lang(zh), :lang(ja)) .hk-hero__title { font-size: 2.125rem; }
+	:is(:lang(zh), :lang(ja)) .hk-brand__name { font-size: 1.1875rem; }
+}
 
 /* ---------- responsive ---------- */
 @media (max-width: 1180px) {

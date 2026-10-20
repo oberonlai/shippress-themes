@@ -1,6 +1,6 @@
 # Hokuto Driving School — brand brief
 
-Design plan row: b6-3 (driving school, education). English only. Quality gate 2.
+Design plan row: b6-3 (driving school, education). Built English only (quality gate 2); since 1.1.0 also localised into zh-TW, ja, fr and de at the client's request (the brand world below stays the same in every language; lessons, prices and the licence process follow each country).
 All names, places, people and figures are fictional.
 
 ## Concept

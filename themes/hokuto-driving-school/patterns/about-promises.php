@@ -12,11 +12,11 @@
 <section class="wp-block-group alignfull hk-section"><!-- wp:group {"align":"wide","className":"hk-row-head","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hk-row-head"><!-- wp:group {"className":"hk-row-head__title","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-row-head__title"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">What we promise</p>
+<p class="is-style-label"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_promises_01' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Three things we will always do.</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_promises_02' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -28,11 +28,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">One instructor</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_promises_03' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>You keep the same instructor from your first lesson to your test. If you would like to change, Joan arranges it quietly.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'about_promises_04' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -42,11 +42,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Honest advice</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_promises_05' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We tell you when you are ready, and when you are not. We never book a test to fill a slot, and we never sell blocks you do not need.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'about_promises_06' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -56,11 +56,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">No pressure</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_promises_07' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>A lesson can be spent in the yard, on one roundabout, or parked by the river talking about why the last one went wrong.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'about_promises_08' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

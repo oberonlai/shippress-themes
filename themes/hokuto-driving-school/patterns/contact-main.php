@@ -16,29 +16,29 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hk-contact__photo"} -->
-<figure class="wp-block-image size-large hk-contact__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/parking.webp' ) ); ?>" alt="A small car parked on the terraced street beside the depot"/></figure>
+<figure class="wp-block-image size-large hk-contact__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/parking.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'contact_main_01' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-split__text hk-contact__form","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-split__text hk-contact__form"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">First-lesson enquiry</p>
+<p class="is-style-label"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_02' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"hk-split__title"} -->
-<h2 class="wp-block-heading hk-split__title">Tell us a little about you.</h2>
+<h2 class="wp-block-heading hk-split__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_03' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>What have you driven before, if anything? Manual or automatic? Mornings, afternoons or evenings? We will reply with two or three slots and the instructor we think will suit you.</p>
+<p><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_04' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<form class="hk-form" action="#" method="post"><p class="hk-field"><label for="hk-name">Your name</label><input id="hk-name" name="name" type="text" autocomplete="name"></p><p class="hk-field"><label for="hk-email">Email or telephone</label><input id="hk-email" name="contact" type="text" autocomplete="email"></p><p class="hk-field"><label for="hk-course">Course</label><select id="hk-course" name="course"><option>Standard course, manual</option><option>Standard course, automatic</option><option>Two-week intensive</option><option>Refresher</option><option>Licence conversion</option><option>Not sure yet</option></select></p><p class="hk-field"><label for="hk-note">Anything we should know</label><textarea id="hk-note" name="note" rows="4"></textarea></p><p class="hk-field"><button type="submit">Send enquiry</button></p></form>
+<form class="hk-form" action="#" method="post"><p class="hk-field"><label for="hk-name"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_05' ) ); ?></label><input id="hk-name" name="name" type="text" autocomplete="name"></p><p class="hk-field"><label for="hk-email"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_06' ) ); ?></label><input id="hk-email" name="contact" type="text" autocomplete="email"></p><p class="hk-field"><label for="hk-course"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_07' ) ); ?></label><select id="hk-course" name="course"><option><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_08' ) ); ?></option><option><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_09' ) ); ?></option><option><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_10' ) ); ?></option><option><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_11' ) ); ?></option><option><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_12' ) ); ?></option><option><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_13' ) ); ?></option></select></p><p class="hk-field"><label for="hk-note"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_14' ) ); ?></label><textarea id="hk-note" name="note" rows="4"></textarea></p><p class="hk-field"><button type="submit"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_15' ) ); ?></button></p></form>
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"hk-small"} -->
-<p class="hk-small">This form is plain HTML: connect it to your form or email service.</p>
+<p class="hk-small"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_16' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
