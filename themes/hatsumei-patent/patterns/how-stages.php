@@ -11,8 +11,8 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"hp-section hp-section--flush","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hp-section hp-section--flush"><!-- wp:group {"align":"wide","className":"hp-chapters","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hp-chapters"><!-- wp:group {"className":"hp-chapter","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo"} -->
-<figure class="wp-block-image size-large hp-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/first-idea.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_01' ) ); ?>"/></figure>
+<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo hp-cut hp-cut--d"} -->
+<figure class="wp-block-image size-large hp-chapter__photo hp-cut hp-cut--d"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/first-idea.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_01' ) ); ?>"/><figcaption class="wp-element-caption"><span>(002)</span></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-chapter__text","layout":{"type":"default"}} -->
@@ -51,8 +51,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hp-chapter","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo"} -->
-<figure class="wp-block-image size-large hp-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/library.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_07' ) ); ?>"/></figure>
+<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo hp-cut hp-cut--e"} -->
+<figure class="wp-block-image size-large hp-chapter__photo hp-cut hp-cut--e"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/library.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_07' ) ); ?>"/><figcaption class="wp-element-caption"><span>(003)</span></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-chapter__text","layout":{"type":"default"}} -->
@@ -91,8 +91,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hp-chapter","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo"} -->
-<figure class="wp-block-image size-large hp-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/drawings-review.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_11' ) ); ?>"/></figure>
+<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo hp-cut hp-cut--f"} -->
+<figure class="wp-block-image size-large hp-chapter__photo hp-cut hp-cut--f"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/drawings-review.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_11' ) ); ?>"/><figcaption class="wp-element-caption"><span>(004)</span></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-chapter__text","layout":{"type":"default"}} -->
@@ -131,8 +131,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hp-chapter","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo"} -->
-<figure class="wp-block-image size-large hp-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/filing.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_15' ) ); ?>"/></figure>
+<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo hp-cut hp-cut--g"} -->
+<figure class="wp-block-image size-large hp-chapter__photo hp-cut hp-cut--g"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/filing.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_15' ) ); ?>"/><figcaption class="wp-element-caption"><span>(005)</span></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-chapter__text","layout":{"type":"default"}} -->
@@ -171,8 +171,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hp-chapter","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo"} -->
-<figure class="wp-block-image size-large hp-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/search-desk.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_18' ) ); ?>"/></figure>
+<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo hp-cut hp-cut--h"} -->
+<figure class="wp-block-image size-large hp-chapter__photo hp-cut hp-cut--h"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/search-desk.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_18' ) ); ?>"/><figcaption class="wp-element-caption"><span>(006)</span></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-chapter__text","layout":{"type":"default"}} -->
@@ -211,8 +211,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hp-chapter","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo"} -->
-<figure class="wp-block-image size-large hp-chapter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/granted.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_22' ) ); ?>"/></figure>
+<div class="wp-block-group hp-chapter"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-chapter__photo hp-cut hp-cut--i"} -->
+<figure class="wp-block-image size-large hp-chapter__photo hp-cut hp-cut--i"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/granted.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'how_stages_22' ) ); ?>"/><figcaption class="wp-element-caption"><span>(007)</span></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-chapter__text","layout":{"type":"default"}} -->

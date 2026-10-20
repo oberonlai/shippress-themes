@@ -20,7 +20,13 @@
 <!-- wp:post-title {"level":1,"className":"hp-article__title"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:post-featured-image {"aspectRatio":"16/9","align":"wide","className":"hp-article__picture"} /-->
+<!-- wp:group {"align":"wide","className":"hp-article__picture hp-cover__media","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide hp-article__picture hp-cover__media"><!-- wp:post-featured-image {"aspectRatio":"16/9","className":"hp-cut hp-cut--a"} /-->
+
+<!-- wp:paragraph {"className":"hp-num-cap"} -->
+<p class="hp-num-cap"><span>(001)</span></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 
 <!-- wp:post-content {"className":"hp-prose","layout":{"type":"constrained"}} /-->
 

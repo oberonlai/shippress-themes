@@ -28,8 +28,8 @@
 <!-- /wp:quote --></div>
 <!-- /wp:group -->
 
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-split__photo hp-split__photo--tall"} -->
-<figure class="wp-block-image size-large hp-split__photo hp-split__photo--tall"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/trademark.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'buyers_stories_06' ) ); ?>"/></figure>
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-split__photo hp-split__photo--tall hp-cut hp-cut--c"} -->
+<figure class="wp-block-image size-large hp-split__photo hp-split__photo--tall hp-cut hp-cut--c"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/trademark.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'buyers_stories_06' ) ); ?>"/><figcaption class="wp-element-caption"><span>(002)</span></figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

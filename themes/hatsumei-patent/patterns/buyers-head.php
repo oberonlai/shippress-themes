@@ -27,7 +27,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"alignwide hp-head__photo"} -->
-<figure class="wp-block-image size-large alignwide hp-head__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/reception.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'buyers_head_03' ) ); ?>"/><figcaption class="wp-element-caption"><?php echo wp_kses_post( hatsumei_patent_t( 'buyers_head_04' ) ); ?></figcaption></figure>
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"alignwide hp-head__photo hp-cut hp-cut--b"} -->
+<figure class="wp-block-image size-large alignwide hp-head__photo hp-cut hp-cut--b"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/reception.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'buyers_head_03' ) ); ?>"/><figcaption class="wp-element-caption"><span>(001)</span> <?php echo wp_kses_post( hatsumei_patent_t( 'buyers_head_04' ) ); ?></figcaption></figure>
 <!-- /wp:image --></section>
 <!-- /wp:group -->

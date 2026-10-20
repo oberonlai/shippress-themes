@@ -11,6 +11,10 @@ The demo firm is fictional: Hatsumei Patent Attorneys, founded in 2011 by Ines V
 - **Photographs.** 18 documentary office photographs in one film-grain style (28 mm, soft window light): attorneys with inventors, prototypes on the desk, drawings, the library, the archive and three portraits. Listed in `readme.txt`.
 - **Techniques.** Chamfered polygon photographs with bracketed numerals; a strip of chamfered photographs alternating with shaped notes; a deep blue band under the first screen and the closing photograph, with a centred brand over one centred menu.
 
+## Inner pages (1.0.1)
+
+The page heads, the main photographs of every page and the article photograph reuse the front page's chamfered polygons (`.hp-cut--a` … `--j`) with bracketed numerals (001), (002)… in the caption; journal cards use the plainer one-corner chamfers of the how-we-work strip.
+
 ## Front page
 
 Cover, the firm in three paragraphs, the attorneys, practice areas, how we work (shape strip), six chapters from idea to patent, fixed fees, notes for inventors and a closing invitation.

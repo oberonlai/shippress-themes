@@ -10,8 +10,8 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"hp-section hp-section--last","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hp-section hp-section--last"><!-- wp:group {"align":"wide","className":"hp-cta","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide hp-cta"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-cta__photo"} -->
-<figure class="wp-block-image size-large hp-cta__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/whiteboard.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'call_cta_01' ) ); ?>"/></figure>
+<div class="wp-block-group alignwide hp-cta"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-cta__photo hp-cut hp-cut--d"} -->
+<figure class="wp-block-image size-large hp-cta__photo hp-cut hp-cut--d"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/whiteboard.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'call_cta_01' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-cta__text","layout":{"type":"default"}} -->
