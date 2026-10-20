@@ -87,5 +87,8 @@ assets/images/workshop.webp, assets/images/demo/workshop-training.webp: generate
 
 == Changelog ==
 
+= 1.0.1 =
+* Inner pages use the front page's chamfered polygon photographs with (001) numerals: page heads, the main photographs of About, Practice areas, From idea to patent, Attorneys, First meeting, Fees, Notes and Contact, the article photograph, and simpler chamfers on journal cards.
+
 = 1.0.0 =
 * First release: patent and trademark attorney firm, sample content in en, zh-TW, ja, fr and de.

@@ -27,7 +27,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"alignwide hp-head__photo"} -->
-<figure class="wp-block-image size-large alignwide hp-head__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/meeting.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'home_steps_19' ) ); ?>"/></figure>
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"alignwide hp-head__photo hp-cut hp-cut--c"} -->
+<figure class="wp-block-image size-large alignwide hp-head__photo hp-cut hp-cut--c"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/meeting.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'home_steps_19' ) ); ?>"/><figcaption class="wp-element-caption"><span>(001)</span></figcaption></figure>
 <!-- /wp:image --></section>
 <!-- /wp:group -->

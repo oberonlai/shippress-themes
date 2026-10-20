@@ -15,8 +15,8 @@
 <div class="wp-block-group hp-card"><!-- wp:pattern {"slug":"hatsumei-patent/office"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-contact__photo"} -->
-<figure class="wp-block-image size-large hp-contact__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/filing.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'contact_main_01' ) ); ?>"/></figure>
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-contact__photo hp-cut hp-cut--a"} -->
+<figure class="wp-block-image size-large hp-contact__photo hp-cut hp-cut--a"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/filing.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'contact_main_01' ) ); ?>"/><figcaption class="wp-element-caption"><span>(001)</span></figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

@@ -11,8 +11,8 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"hp-section hp-section--flush","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hp-section hp-section--flush"><!-- wp:group {"align":"wide","className":"hp-people hp-people--full","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hp-people hp-people--full"><!-- wp:group {"className":"hp-person","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-person__photo"} -->
-<figure class="wp-block-image size-large hp-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-ines.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'home_advisers_04' ) ); ?>"/></figure>
+<div class="wp-block-group hp-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-person__photo hp-cut hp-cut--j"} -->
+<figure class="wp-block-image size-large hp-person__photo hp-cut hp-cut--j"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-ines.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'home_advisers_04' ) ); ?>"/><figcaption class="wp-element-caption"><span>(001)</span></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"hp-person__name"} -->
@@ -37,8 +37,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hp-person","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-person__photo"} -->
-<figure class="wp-block-image size-large hp-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-tomas.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'home_advisers_08' ) ); ?>"/></figure>
+<div class="wp-block-group hp-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-person__photo hp-cut hp-cut--d"} -->
+<figure class="wp-block-image size-large hp-person__photo hp-cut hp-cut--d"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-tomas.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'home_advisers_08' ) ); ?>"/><figcaption class="wp-element-caption"><span>(002)</span></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"hp-person__name"} -->
@@ -63,8 +63,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hp-person","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-person__photo"} -->
-<figure class="wp-block-image size-large hp-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-amara.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'home_advisers_12' ) ); ?>"/></figure>
+<div class="wp-block-group hp-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-person__photo hp-cut hp-cut--h"} -->
+<figure class="wp-block-image size-large hp-person__photo hp-cut hp-cut--h"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/portrait-amara.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'home_advisers_12' ) ); ?>"/><figcaption class="wp-element-caption"><span>(003)</span></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"hp-person__name"} -->
@@ -89,8 +89,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hp-person","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-person__photo"} -->
-<figure class="wp-block-image size-large hp-person__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/reception.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'home_advisers_16' ) ); ?>"/></figure>
+<div class="wp-block-group hp-person"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hp-person__photo hp-cut hp-cut--b"} -->
+<figure class="wp-block-image size-large hp-person__photo hp-cut hp-cut--b"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/reception.webp' ) ); ?>" alt="<?php echo esc_attr( hatsumei_patent_t( 'home_advisers_16' ) ); ?>"/><figcaption class="wp-element-caption"><span>(004)</span></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"hp-person__name"} -->
