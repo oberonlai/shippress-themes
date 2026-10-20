@@ -1,0 +1,597 @@
+/*
+Theme Name: Nami Staffing
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/nami-staffing
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: A calm, photograph-led theme for a people-first recruitment and staffing agency that places people in warehouses, clinics, offices and kitchens: white and pale grey bands, ink text, deep field green for one thin centre line, labels and pill buttons, one terracotta corner label, Lora over Nunito Sans. The home page opens on two documentary photographs either side of a narrow centre column with the opening line and flat corner labels, over an info bar (free for job seekers, hours, phone, address); then the agency in three paragraphs either side of the centre line, two doors for employers and job seekers, the placement from brief to day thirty in five scattered photographs of different sizes, the office in one wide photograph with the founder's words, three consultants in a sliding row, the fees in one plain paragraph on a pale band with a convex arc, the latest notes as a ruled list and an invitation to come in for a coffee. With For employers, For job seekers, How a placement works, Consultants, Fees, About, Notes, Contact and Journal. Sample content in English, Traditional Chinese, Japanese, French and German.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nami-staffing
+Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--ns-concrete: var(--wp--preset--color--concrete);
+	--ns-kerb: var(--wp--preset--color--kerb);
+	--ns-paper: var(--wp--preset--color--paper);
+	--ns-ink: var(--wp--preset--color--ink);
+	--ns-quiet: var(--wp--preset--color--quiet);
+	--ns-slate: var(--wp--preset--color--slate);
+	--ns-sage: var(--wp--preset--color--sage);
+	--ns-sage-light: var(--wp--preset--color--sage-light);
+	--ns-amber: var(--wp--preset--color--amber);
+	--ns-amber-light: var(--wp--preset--color--amber-light);
+	--ns-rule: rgba(30, 36, 33, 0.14);
+	--ns-rule-strong: rgba(30, 36, 33, 0.38);
+	--ns-rule-dark: rgba(241, 239, 234, 0.16);
+	--ns-sec: var(--wp--preset--spacing--50);
+	--ns-gap: clamp(2rem, 5vw, 5.5rem);
+	--ns-serif: var(--wp--preset--font-family--display);
+}
+
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-optical-sizing: auto; }
+a { text-decoration-thickness: 1px; text-underline-offset: 0.22em; }
+:where(a, button, input, select, textarea, summary):focus-visible { outline: 2px solid var(--ns-sage); outline-offset: 3px; }
+img { display: block; height: auto; max-width: 100%; }
+strong { font-weight: 600; }
+h1, h2, h3 { text-wrap: balance; }
+:is(h1, h2, h3) em { font-style: italic; font-weight: 400; }
+p { text-wrap: pretty; }
+.wp-block-image { margin: 0; }
+.wp-block-image figcaption { margin: 0.8rem 0 0; font-size: 0.8125rem; color: var(--ns-quiet); font-family: var(--ns-serif); font-style: italic; letter-spacing: 0; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
+
+/* ---------- block styles ---------- */
+.is-style-label { display: flex; align-items: center; gap: 0.75rem; margin: 0 0 1.25rem; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ns-sage); }
+.is-style-label::before { content: ""; flex: 0 0 auto; width: 1.75rem; height: 2px; background: var(--ns-amber); }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.55; color: var(--ns-quiet); max-width: 36em; }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--ns-ink); padding: 0.35rem 0; border-radius: 0; border-bottom: 1px solid var(--ns-rule-strong); }
+.wp-block-button.is-style-text-link .wp-block-button__link::after { content: "\2192"; margin-left: 0.6em; display: inline-block; transition: transform 0.2s ease; }
+.wp-block-button.is-style-text-link .wp-block-button__link:hover { color: var(--ns-sage); border-color: var(--ns-sage); }
+.wp-block-button.is-style-text-link .wp-block-button__link:hover::after { transform: translateX(3px); }
+.wp-block-button.is-style-outline .wp-block-button__link { background: none; color: var(--ns-ink); border: 1px solid var(--ns-rule-strong); padding: 0.7rem 1.2rem; }
+.wp-block-button.is-style-outline .wp-block-button__link:hover { background: var(--ns-ink); color: var(--ns-concrete); border-color: var(--ns-ink); }
+ul.is-style-ruled { list-style: none; padding: 0; margin: 1.5rem 0; }
+ul.is-style-ruled li { padding: 0.8rem 0; border-top: 1px solid var(--ns-rule); }
+ul.is-style-ruled li:last-child { border-bottom: 1px solid var(--ns-rule); }
+.wp-block-buttons { gap: 1rem 2rem; align-items: center; }
+.wp-block-quote { border-left: 2px solid var(--ns-amber); padding: 0.2rem 0 0.2rem 1.5rem; margin: 2rem 0; }
+.wp-block-quote p { font-size: var(--wp--preset--font-size--large); line-height: 1.45; margin: 0; }
+.wp-block-quote cite { display: block; margin-top: 0.75rem; font-family: var(--wp--preset--font-family--body); font-style: normal; font-size: 0.8125rem; letter-spacing: 0.04em; color: var(--ns-quiet); }
+
+/* ---------- header (one top menu) ---------- */
+.ns-header { position: relative; z-index: 20; padding-block: 1.35rem; border-bottom: 1px solid var(--ns-rule); }
+.ns-header__bar { gap: 2rem; }
+.ns-brand > * { margin: 0; }
+.ns-brand__name { font-size: 1.5rem; line-height: 1.1; white-space: nowrap; }
+.ns-brand__line { white-space: nowrap; margin-top: 0.25rem !important; font-size: 0.6875rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ns-quiet); }
+.ns-header__end { gap: 2.25rem; }
+.ns-menu .wp-block-navigation__container { gap: 1.6rem; flex-wrap: nowrap; }
+.ns-menu .wp-block-navigation-item__content { white-space: nowrap; }
+.home .ns-header { border-bottom: 0; }
+.ns-menu .wp-block-navigation-item__content { color: var(--ns-ink); padding-block: 0.3rem; border-bottom: 1px solid transparent; }
+.ns-menu .wp-block-navigation-item__content:hover, .ns-menu .current-menu-item > .wp-block-navigation-item__content { border-bottom-color: var(--ns-amber); }
+.ns-header__cta .wp-block-button__link { font-size: 0.875rem; white-space: nowrap; }
+.ns-menu .wp-block-navigation__responsive-container.is-menu-open { background: var(--ns-concrete); color: var(--ns-ink); padding: 2rem 1.5rem; }
+.ns-menu .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { gap: 1rem; font-family: var(--ns-serif); font-size: 1.75rem; }
+.ns-menu .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { color: var(--ns-ink); }
+
+/* the front page: the header lies over the road photograph */
+.home .wp-site-blocks { position: relative; }
+.home .ns-menu .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { color: var(--ns-ink); }
+
+/* ---------- main + sections ---------- */
+.ns-main { margin-top: 0 !important; }
+.ns-main > .wp-block-post-content > * + *, .ns-main > * + * { margin-block-start: 0 !important; }
+.ns-section { padding-block: var(--ns-sec) 0; }
+.ns-section--flush { padding-top: 0; }
+.ns-section--last { padding-bottom: var(--ns-sec); }
+.ns-band { padding-block: var(--ns-sec); margin-top: var(--ns-sec) !important; background: var(--ns-kerb); }
+.ns-section--flush.ns-band { margin-top: 0 !important; }
+.ns-section--last-band { margin-bottom: 0; }
+.ns-band + .ns-band { margin-top: 0 !important; }
+.ns-band--slate { background: var(--ns-ink); color: var(--ns-concrete); }
+.ns-band--slate :is(h2, h3) { color: var(--ns-concrete); }
+.ns-band--slate .is-style-label { color: var(--ns-sage-light); }
+.ns-band--slate .is-style-label::before { background: var(--ns-amber-light); }
+.ns-band--slate p { color: rgba(241, 239, 234, 0.86); }
+.ns-band--slate .wp-block-quote { border-color: var(--ns-amber-light); }
+.ns-band--slate .wp-block-quote p { color: var(--ns-concrete); }
+.ns-band--slate .wp-block-quote cite { color: var(--ns-sage-light); }
+.ns-band--slate .wp-block-button.is-style-text-link .wp-block-button__link { color: var(--ns-concrete); border-color: rgba(241, 239, 234, 0.45); }
+.ns-band--slate a { color: var(--ns-concrete); }
+.ns-row-head { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 1.5rem var(--ns-gap); align-items: end; margin-bottom: clamp(2.5rem, 5vw, 4rem) !important; }
+.ns-row-head > *, .ns-row-head__title > :last-child { margin: 0 !important; }
+.ns-row-head__lead { color: var(--ns-quiet); max-width: 32em; }
+.ns-row-head--end .wp-block-buttons { justify-content: flex-end; }
+.ns-after { margin-top: clamp(2rem, 4vw, 3rem) !important; }
+.ns-small { font-size: 0.8125rem; color: var(--ns-quiet); }
+.ns-narrow { max-width: 40rem; }
+.ns-card { background: var(--ns-paper); border: 1px solid var(--ns-rule); padding: clamp(1.5rem, 3vw, 2.5rem); }
+
+/* ---------- hero: the road at first light ---------- */
+.ns-hero { position: relative; padding: 0 !important; margin: 0 !important; }
+.ns-hero > * { max-width: none !important; }
+.ns-hero__picture { margin: 0 0 0 calc(50% - 50vw) !important; width: 100vw; max-width: none !important; }
+.ns-hero__picture img { width: 100%; height: clamp(17rem, 34vw, 31rem); object-fit: cover; object-position: 50% 55%; }
+.ns-hero__copy { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--ns-gap); align-items: start; padding: clamp(1.75rem, 2.4vw, 2.25rem) 0 clamp(2.25rem, 3.6vw, 3rem); box-sizing: border-box; width: 100%; max-width: var(--wp--style--global--wide-size) !important; margin: 0 auto !important; }
+.ns-hero__copy > * { margin: 0 !important; }
+.ns-hero__head .is-style-label { margin-bottom: 1.1rem; }
+.ns-hero__title { margin: 0 !important; max-width: 13em; }
+:is(:lang(fr), :lang(de)) .ns-hero__title { font-size: clamp(2.5rem, 1.4rem + 2.9vw, 3.6rem); }
+.ns-hero__side { padding-top: 2.4rem; }
+.ns-hero__side .is-style-lead { margin: 0 0 1.5rem; font-size: 1.1875rem; line-height: 1.6; color: var(--ns-ink); }
+.ns-hero__bar { background: var(--ns-kerb); color: var(--ns-ink); padding: 1.35rem var(--wp--style--root--padding-right, 1.25rem) 1.35rem var(--wp--style--root--padding-left, 1.25rem); }
+.ns-hero__bar > .alignwide { max-width: var(--wp--style--global--wide-size); margin-inline: auto; }
+@media (max-width: 900px) { .ns-hero__copy { grid-template-columns: 1fr; gap: 1.5rem; } }
+.ns-facts { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.ns-facts li { padding: 0 1.5rem; border-left: 1px solid var(--ns-rule-strong); font-size: 0.875rem; color: var(--ns-quiet); line-height: 1.45; }
+.ns-facts li:first-child { padding-left: 0; border-left: 0; }
+.ns-facts strong { display: block; font-family: var(--ns-serif); font-weight: 400; font-size: 1.125rem; color: var(--ns-ink); }
+
+/* ---------- rates (below the first screen) ---------- */
+.ns-rates__grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: var(--ns-gap); align-items: end; }
+.ns-rates__grid > * { margin: 0 !important; }
+.ns-rates__main > * { margin-block: 0 1.25rem; }
+.ns-rates__table { margin: 1.5rem 0 0 !important; }
+.ns-rates__table table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.ns-rates__table th { text-align: left; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ns-quiet); padding: 0 1rem 0.8rem 0; border-bottom: 1px solid var(--ns-rule-strong); }
+.ns-rates__table td { padding: 1rem 1rem 1rem 0; border: 0; border-bottom: 1px solid var(--ns-rule); }
+.ns-rates__table td:first-child { font-family: var(--ns-serif); font-size: 1.125rem; }
+.ns-rates__table td:nth-child(3) { font-family: var(--ns-serif); font-size: 1.25rem; color: var(--ns-sage); }
+.ns-rates__card { background: var(--ns-kerb); padding: clamp(1.75rem, 3vw, 2.75rem); }
+.ns-rates__card > * { margin-block: 0 1rem; }
+.ns-rates__card-title { font-size: var(--wp--preset--font-size--x-large); }
+.ns-rates__note { font-size: 0.8125rem; color: var(--ns-quiet); }
+@media (max-width: 900px) { .ns-rates__grid { grid-template-columns: minmax(0, 1fr); } .ns-rates__table { overflow-x: auto; max-width: 100%; } .ns-rates__table th, .ns-rates__table td { padding-right: 0.6rem; } }
+
+/* ---------- splits ---------- */
+.ns-split { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: var(--ns-gap); align-items: center; }
+.ns-split > * { margin: 0 !important; }
+.ns-split--flip { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); }
+.ns-split--top { align-items: start; }
+.ns-split__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.ns-split__photo--tall img { aspect-ratio: 4 / 5; }
+.ns-split__photo--wide img { aspect-ratio: 5 / 4; }
+.ns-split__photo--land img { aspect-ratio: 4 / 3; }
+.ns-split__text > * { margin-block: 0 1.25rem; }
+.ns-split__text > :last-child { margin-bottom: 0; }
+.ns-split__title { margin-bottom: 1.75rem !important; }
+.ns-sign { font-family: var(--ns-serif); font-style: italic; font-size: 1.125rem; color: var(--ns-sage); margin-top: 2rem !important; }
+.ns-prices li { display: flex; justify-content: space-between; gap: 1.5rem; }
+.ns-prices li span { font-family: var(--ns-serif); font-size: 1.25rem; font-variant-numeric: tabular-nums lining-nums; color: var(--ns-ink); white-space: nowrap; }
+.ns-split--sticky { align-items: start; }
+.ns-sticky { position: sticky; top: 2rem; }
+.ns-sticky__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+
+/* ---------- the route: six photographed stages ---------- */
+.ns-stages { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(2.5rem, 4vw, 3.75rem) clamp(1.5rem, 3vw, 2.75rem); }
+.ns-stages > * { margin: 0 !important; }
+.ns-stage > * { margin: 0; }
+.ns-stage__photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.ns-stage__no { margin-top: 1.25rem !important; font-family: var(--ns-serif); font-style: italic; font-size: 1.125rem; color: var(--ns-sage); padding-top: 0.9rem; border-top: 1px solid var(--ns-rule-strong); }
+.ns-stage__title { margin: 0.25rem 0 0.6rem !important; font-size: 1.625rem; }
+.ns-stage__text { color: var(--ns-quiet); font-size: 0.9688rem; max-width: 30em; }
+
+/* ---------- people ---------- */
+.ns-people { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.5rem, 3vw, 2.5rem); }
+.ns-people > * { margin: 0 !important; }
+.ns-person > * { margin: 0; }
+.ns-person__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; }
+.ns-person__name { margin-top: 1.25rem !important; font-size: 1.5rem; }
+.ns-person__role { margin-top: 0.3rem !important; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ns-sage); }
+.ns-person__text { margin-top: 0.75rem !important; color: var(--ns-quiet); font-size: 0.9688rem; }
+.ns-people--full { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(3rem, 6vw, 5rem) var(--ns-gap); }
+.ns-people--full .ns-person { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); column-gap: clamp(1.5rem, 3vw, 2.5rem); align-content: start; }
+.ns-people--full .ns-person__photo { grid-row: 1 / span 8; }
+.ns-people--full .ns-person__name { margin-top: 0 !important; }
+.ns-people--full .ns-person > p:not([class]) { margin-top: 0.9rem; font-size: 0.9688rem; }
+
+/* ---------- notes, years, times, courses, chapters ---------- */
+.ns-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--ns-gap); }
+.ns-notes--four { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2.5rem, 5vw, 4rem) var(--ns-gap); }
+.ns-notes > * { margin: 0 !important; }
+.ns-note { border-top: 1px solid var(--ns-rule-strong); padding-top: 1.25rem; }
+.ns-note > * { margin: 0 0 0.75rem; }
+.ns-note__no { font-family: var(--ns-serif); font-style: italic; font-size: 1.25rem; color: var(--ns-sage); }
+.ns-note h3 { font-size: 1.625rem; }
+.ns-note p:last-child { color: var(--ns-quiet); }
+.ns-years > h2 { margin-bottom: 2.5rem !important; }
+.ns-year { display: grid; grid-template-columns: 7rem minmax(0, 1fr); column-gap: 2rem; padding: 1.75rem 0; border-top: 1px solid var(--ns-rule); }
+.ns-year > * { margin: 0; grid-column: 2; }
+.ns-year .ns-year__no { grid-column: 1; grid-row: 1 / span 2; font-family: var(--ns-serif); font-size: 2rem; line-height: 1; color: var(--ns-sage); }
+.ns-year__title { font-size: 1.5rem; margin-bottom: 0.6rem; }
+.ns-year p:not(.ns-year__no) { color: var(--ns-quiet); }
+.ns-time { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 1.5rem; padding: 0.95rem 0; border-top: 1px solid var(--ns-rule); margin: 0 !important; }
+.ns-time:last-child { border-bottom: 1px solid var(--ns-rule); }
+.ns-time > * { margin: 0; }
+.ns-time__at { font-family: var(--ns-serif); font-size: 1.125rem; font-variant-numeric: tabular-nums lining-nums; color: var(--ns-ink); }
+.ns-time__what { color: var(--ns-quiet); font-size: 0.9688rem; }
+.ns-courses { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 var(--ns-gap); }
+.ns-courses > * { margin: 0 !important; }
+.ns-course { display: flex; flex-direction: column; padding: 2rem 0 2.25rem; border-top: 1px solid var(--ns-rule-strong); }
+.ns-course > * { margin: 0; }
+.ns-course__name { font-size: 1.75rem; }
+.ns-course__len { margin-top: 0.4rem; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ns-sage); }
+.ns-course__text { margin-top: 0.9rem; color: var(--ns-quiet); max-width: 34em; }
+.ns-course__price { margin-top: 1.1rem; font-family: var(--ns-serif); font-size: 1.25rem; font-variant-numeric: lining-nums; }
+.ns-chapters > * { margin: 0 !important; }
+.ns-chapter { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: var(--ns-gap); align-items: center; padding-block: clamp(2.5rem, 5vw, 4.5rem); border-top: 1px solid var(--ns-rule); }
+.ns-chapter:first-child { border-top: 0; padding-top: 0; }
+.ns-chapter > * { margin: 0 !important; }
+.ns-chapter:nth-child(even) .ns-chapter__photo { order: 2; }
+.ns-chapter__photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.ns-chapter__text > * { margin: 0 0 1rem; }
+.ns-chapter__no { font-family: var(--ns-serif); font-style: italic; font-size: 1.25rem; color: var(--ns-sage); }
+.ns-chapter__title { font-size: var(--wp--preset--font-size--x-large); }
+.ns-chapter__text > p:not([class]) { color: var(--ns-quiet); }
+.ns-chapter__row { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 1rem; padding: 0.7rem 0; border-top: 1px solid var(--ns-rule); margin: 0 !important; }
+.ns-chapter__row:last-child { border-bottom: 1px solid var(--ns-rule); }
+.ns-chapter__row > * { margin: 0; font-size: 0.9375rem; }
+.ns-chapter__key { font-size: 0.75rem !important; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ns-sage); padding-top: 0.15rem; }
+
+/* ---------- call to book ---------- */
+.ns-cta { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: var(--ns-gap); align-items: center; background: var(--ns-paper); border: 1px solid var(--ns-rule); padding: clamp(1.25rem, 2.5vw, 2rem); }
+.ns-cta > * { margin: 0 !important; }
+.ns-cta__photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.ns-cta__text { padding-right: clamp(0rem, 3vw, 3rem); }
+.ns-cta__text > * { margin: 0 0 1.25rem; }
+.ns-cta__text > :last-child { margin-bottom: 0; }
+.ns-cta__text p:not(.is-style-label) { color: var(--ns-quiet); max-width: 34em; }
+
+/* ---------- school details (synced) ---------- */
+.ns-office > * { margin: 0; }
+.ns-office__kicker { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ns-sage); margin-bottom: 0.9rem !important; }
+.ns-office__addr { font-family: var(--ns-serif); font-size: 1.3125rem; line-height: 1.4; margin-bottom: 1.25rem !important; }
+.ns-office__row { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 1rem; padding: 0.65rem 0; border-top: 1px solid var(--ns-rule); }
+.ns-office__row > * { margin: 0; font-size: 0.9375rem; }
+.ns-office__key { font-size: 0.75rem !important; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ns-quiet); padding-top: 0.15rem; }
+.ns-office__val { overflow-wrap: anywhere; }
+
+/* ---------- page heads ---------- */
+.ns-head { padding-block: clamp(4.5rem, 9vw, 8rem) clamp(3rem, 6vw, 5rem); }
+.ns-head__grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 1.5rem var(--ns-gap); align-items: end; }
+.ns-head__grid > *, .ns-head__main > :last-child, .ns-head__side > :last-child { margin-bottom: 0 !important; }
+.ns-head__grid > * { margin-top: 0 !important; }
+.ns-head__title { margin: 0; }
+.ns-head__title em { color: var(--ns-sage); }
+.ns-head--photo .ns-head__photo { margin-top: clamp(3rem, 6vw, 5rem) !important; }
+.ns-head__photo img { width: 100%; aspect-ratio: 21 / 9; object-fit: cover; }
+.ns-head--simple .ns-head__title { font-size: var(--wp--preset--font-size--xx-large); }
+.ns-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem !important; }
+.ns-chips a { padding: 0.35rem 0.85rem; border: 1px solid var(--ns-rule-strong); border-radius: 2rem; text-decoration: none; color: var(--ns-ink); font-size: 0.8125rem; }
+.ns-chips a:hover { background: var(--ns-ink); color: var(--ns-concrete); border-color: var(--ns-ink); }
+
+/* ---------- posts ---------- */
+.ns-posts .wp-block-post-template { gap: 3rem clamp(1.5rem, 3vw, 2.5rem); padding: 0; margin: 0; }
+.ns-posts .wp-block-post-template > li { margin: 0; }
+.ns-posts .wp-block-post-template > li > * { margin: 0 0 0.6rem; }
+.ns-posts .wp-block-post-featured-image { margin-bottom: 1.1rem !important; }
+.ns-posts .wp-block-post-featured-image img { object-fit: cover; }
+.ns-meta { gap: 0.4rem 1rem; font-size: 0.75rem; }
+.ns-meta > * { margin: 0 !important; }
+.ns-meta .wp-block-post-terms a { color: var(--ns-sage); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; }
+.ns-posts__title { font-size: 1.5rem; line-height: 1.2; }
+.ns-posts .wp-block-post-excerpt { font-size: 0.9375rem; color: var(--ns-quiet); }
+.ns-posts .wp-block-post-excerpt__more-text { display: none; }
+.ns-pagination { margin-top: 3rem; gap: 1rem; }
+
+/* ---------- article ---------- */
+.ns-article { padding-block: clamp(4rem, 8vw, 7rem) var(--ns-sec); }
+.ns-article__head > * { margin: 0 0 1.25rem; }
+.ns-article__title { font-size: var(--wp--preset--font-size--xx-large); }
+.ns-article__dek { font-size: var(--wp--preset--font-size--large); color: var(--ns-quiet); line-height: 1.5; }
+.ns-article__picture { margin-block: 2.5rem 3rem !important; }
+.ns-prose > * + * { margin-top: 1.4rem; }
+.ns-prose h2 { font-size: var(--wp--preset--font-size--x-large); margin-top: 2.75rem; }
+.ns-article__foot { margin-top: 3.5rem !important; padding-top: 1.5rem; border-top: 1px solid var(--ns-rule); }
+.ns-tags { font-size: 0.875rem; }
+.ns-post-nav { margin-top: 1.5rem; gap: 2rem; font-size: 0.9375rem; }
+
+/* ---------- forms + search ---------- */
+.ns-form { display: grid; gap: 1.1rem; margin: 0; }
+.ns-form--row { grid-template-columns: minmax(0, 1fr) auto; align-items: end; max-width: 34rem; }
+.ns-field { margin: 0; display: flex; flex-direction: column; gap: 0.4rem; }
+.ns-field label { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ns-quiet); }
+.ns-field :is(input, select, textarea) { font: inherit; padding: 0.8rem 0.9rem; border: 1px solid var(--ns-rule-strong); background: var(--ns-paper); color: var(--ns-ink); border-radius: 2px; }
+.ns-field button { font: inherit; font-size: 0.9375rem; font-weight: 500; padding: 0.9rem 1.6rem; border: 0; border-radius: 2px; background: var(--ns-ink); color: var(--ns-concrete); cursor: pointer; justify-self: start; }
+.ns-field button:hover { background: var(--ns-slate); }
+.ns-contact__photo { margin-top: 2rem !important; }
+.ns-contact__photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.ns-search { max-width: 30rem; }
+.ns-search .wp-block-search__input { border: 1px solid var(--ns-rule-strong); background: var(--ns-paper); padding: 0.75rem 0.9rem; border-radius: 2px; }
+.ns-search .wp-block-search__button { margin-left: 0.5rem; border-radius: 2px; background: var(--ns-ink); color: var(--ns-concrete); border: 0; }
+
+/* ---------- footer ---------- */
+.ns-foot { background: var(--ns-ink); color: var(--ns-concrete); padding-block: clamp(4rem, 7vw, 6rem) 2rem; margin-top: 0; }
+.ns-foot a { color: var(--ns-concrete); }
+.ns-foot a:hover { color: var(--ns-amber-light); }
+.ns-foot__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 3fr) minmax(0, 5fr); gap: var(--ns-gap); }
+.ns-foot__grid > * { margin: 0 !important; }
+.ns-foot__mark { font-family: var(--ns-serif); font-size: 2rem; line-height: 1.1; margin: 0 0 1rem; }
+.ns-foot__line, .ns-foot__letter { color: rgba(241, 239, 234, 0.8); font-size: 0.9375rem; max-width: 26rem; }
+.ns-foot__letter { margin-top: 1.5rem !important; padding-top: 1.25rem; border-top: 1px solid var(--ns-rule-dark); }
+.ns-foot__kicker { font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ns-sage-light); margin: 0 0 1rem; }
+.ns-foot__list { display: flex; flex-direction: column; gap: 0.45rem; margin: 0; font-size: 0.9375rem; }
+.ns-foot__list a { text-decoration: none; }
+.ns-foot .ns-office__kicker { color: var(--ns-sage-light); }
+.ns-foot .ns-office__key { color: rgba(241, 239, 234, 0.7); }
+.ns-foot .ns-office__row { border-color: var(--ns-rule-dark); }
+.ns-foot__base { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 2rem; margin-top: 4rem !important; padding-top: 1.25rem; border-top: 1px solid var(--ns-rule-dark); }
+.ns-foot__base > * { margin: 0 !important; }
+.ns-foot__legal { font-size: 0.75rem; color: rgba(241, 239, 234, 0.7); }
+/* a page that already shows the school card does not repeat it in the footer */
+body:has(.ns-main .ns-office) .ns-foot__school { display: none; }
+body:has(.ns-main .ns-office) .ns-foot__grid { grid-template-columns: minmax(0, 5fr) minmax(0, 3fr); }
+
+/* ---------- header: brand left, the one menu centred, the visit button right ---------- */
+.ns-header__bar { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 2rem; }
+.ns-header__end { justify-content: flex-end; }
+.ns-menu .wp-block-navigation-item__content:hover, .ns-menu .current-menu-item > .wp-block-navigation-item__content { border-bottom-color: var(--ns-sage); }
+
+/* ---------- languages ----------
+   The sample content and the theme's words come in en, zh-TW, ja, fr and de (inc/i18n.php sets <html lang>).
+   zh-TW: headings in the bundled Noto Serif TC subset, text in the system Traditional Chinese sans.
+   ja: headings in the bundled Noto Serif JP subset, text in the system Japanese gothic.
+   Latin letters and figures inside CJK text stay in Lora / Nunito Sans (the subsets hold CJK characters only).
+   CJK headings run at about 0.75 of the English sizes with looser leading; body text at line-height 1.85.
+   German and French: hyphenation for long words in narrow columns. */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", "Lora", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Nunito Sans", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", "Lora", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Nunito Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:root:is(:lang(zh), :lang(ja)) {
+	--wp--preset--font-size--display: clamp(2.125rem, 1.3rem + 3.2vw, 3.5rem);
+	--wp--preset--font-size--xx-large: clamp(1.75rem, 1.35rem + 1.6vw, 2.625rem);
+	--wp--preset--font-size--x-large: clamp(1.3125rem, 1.15rem + 0.7vw, 1.75rem);
+	--wp--preset--font-size--large: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; text-autospace: normal; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) h1 { line-height: 1.32; }
+:lang(ja) :is(h1, h2, h3, .is-style-lead, .is-style-label, .ns-facts li, .ns-prices li, .ns-person__role, .ns-course__len, .ns-course__price, .ns-chapter__key, figcaption, .wp-block-button__link, .ns-foot__line) { word-break: auto-phrase; }
+/* zh: on wide screens a heading breaks only at its punctuation (no phrase breaking in Chinese); narrow screens wrap per character */
+@media (min-width: 601px) { :lang(zh) :is(h1, h2, h3) { word-break: keep-all; overflow-wrap: anywhere; } }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite, figcaption, .wp-block-quote, .wp-block-quote p, .ns-sign) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3) em { font-weight: inherit; color: var(--ns-sage); }
+:is(:lang(zh), :lang(ja)) .is-style-lead { line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) .wp-block-quote p { line-height: 1.75; }
+:is(:lang(zh), :lang(ja)) :is(.is-style-label, .ns-brand__line, .ns-person__role, .ns-course__len, .ns-chapter__key, .ns-office__kicker, .ns-office__key, .ns-foot__kicker, .ns-field label, .ns-meta) { font-size: 0.8125rem; letter-spacing: 0.08em; }
+:is(:lang(zh), :lang(ja)) .ns-brand__line { font-size: 0.75rem; }
+:is(:lang(zh), :lang(ja)) .ns-brand__name { font-size: 1.3125rem; letter-spacing: 0.06em; }
+:is(:lang(zh), :lang(ja)) :is(.ns-stage__title, .ns-note h3) { font-size: 1.3125rem; }
+:is(:lang(zh), :lang(ja)) :is(.ns-person__name, .ns-year__title, .ns-posts__title) { font-size: 1.25rem; line-height: 1.5; }
+:is(:lang(zh), :lang(ja)) .ns-course__name { font-size: 1.4375rem; }
+:is(:lang(zh), :lang(ja)) :is(.ns-course__price, .ns-office__addr) { font-size: 1.125rem; line-height: 1.6; }
+:is(:lang(zh), :lang(ja)) .ns-facts strong { font-size: 1rem; letter-spacing: 0.06em; }
+:is(:lang(zh), :lang(ja)) .ns-foot__mark { font-size: 1.625rem; letter-spacing: 0.06em; }
+:is(:lang(zh), :lang(ja)) .ns-sign { font-size: 1rem; letter-spacing: 0.1em; }
+:is(:lang(zh), :lang(ja)) .wp-block-image figcaption { font-family: var(--wp--preset--font-family--body); }
+:lang(de) :is(p, li, h1, h2, h3, h4, figcaption, label, .wp-block-button__link), :lang(fr) :is(p, li, h3, figcaption) { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
+@media (max-width: 600px) {
+	:is(:lang(zh), :lang(ja)) .ns-open__title { font-size: 2.125rem; }
+	:is(:lang(zh), :lang(ja)) .ns-brand__name { font-size: 1.1875rem; }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 1180px) {
+	.ns-header .ns-header__cta { display: none; }
+	.ns-people { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.ns-people--full { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 900px) {
+	.ns-split, .ns-split--flip, .ns-row-head, .ns-head__grid, .ns-cta, .ns-chapter, .ns-foot__grid, body:has(.ns-main .ns-office) .ns-foot__grid { grid-template-columns: minmax(0, 1fr); }
+	.ns-split--flip > .ns-split__photo, .ns-chapter:nth-child(even) .ns-chapter__photo { order: 0; }
+	.ns-stages { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.ns-notes, .ns-notes--four, .ns-courses { grid-template-columns: minmax(0, 1fr); }
+	.ns-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 1rem; }
+	.ns-facts li:nth-child(3) { padding-left: 0; border-left: 0; }
+	.ns-sticky { position: static; }
+	.ns-row-head--end .wp-block-buttons { justify-content: flex-start; }
+	.ns-head__photo img { aspect-ratio: 3 / 2; }
+}
+@media (max-width: 600px) {
+	.ns-brand__line { display: none; }
+	.ns-brand__name { font-size: 1.3rem; }
+	.ns-hero__title { font-size: 2.75rem; }
+	.ns-hero .is-style-lead { font-size: 1.0625rem; }
+	.ns-stages, .ns-people--full .ns-person { grid-template-columns: minmax(0, 1fr); }
+	.ns-people--full .ns-person__photo { grid-row: auto; margin-bottom: 1.25rem !important; }
+	.ns-facts li { padding: 0 0.9rem; font-size: 0.8125rem; }
+	.ns-year { grid-template-columns: minmax(0, 1fr); }
+	.ns-year .ns-year__no { grid-row: auto; margin-bottom: 0.75rem; font-size: 1.5rem; }
+	.ns-year > * { grid-column: 1; }
+	.ns-time, .ns-office__row, .ns-chapter__row { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
+	.ns-form--row { grid-template-columns: minmax(0, 1fr); }
+	.ns-prices li { flex-direction: column; gap: 0.2rem; }
+}
+:is(:lang(fr), :lang(de)) .ns-header .wp-block-navigation__container { gap: 0.4rem 1.05rem; } :is(:lang(fr), :lang(de)) .ns-header .wp-block-navigation-item__content { font-size: 0.875rem; } :is(:lang(fr), :lang(de)) .ns-header__end { gap: 1.5rem; }
+.ns-figs > * { margin: 0 !important; }
+.ns-halves__photo img { height: clamp(14rem, 29vw, 26rem); object-position: 50% 62%; filter: brightness(1.08) contrast(1.04); }
+@media (min-width: 1001px) { .ns-halves__low { padding-top: 1.6rem; } .ns-halves__side .is-style-lead { margin-bottom: 0.9rem; } .ns-figs { margin-top: 1.1rem !important; padding-top: 0.9rem; } .ns-halves .is-style-label { margin-bottom: 0.9rem; } }
+@media (min-width: 1001px) { .ns-flag__grid { grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); } }
+:is(:lang(fr), :lang(de)) .ns-halves__title { font-size: clamp(2.5rem, 1.3rem + 2.6vw, 3.5rem); max-width: 14em; }
+
+/* CJK: the opening sentence at about 0.75 of the Latin size */
+:is(:lang(zh), :lang(ja)) .ns-open__title { font-weight: 400; line-height: 1.4; max-width: 14em; }
+:is(:lang(zh), :lang(ja)) :is(.ns-stop__title, .ns-doc__name, .ns-age__title) { font-size: 1.3125rem; }
+:is(:lang(fr), :lang(de)) .ns-open__title { font-size: clamp(2.5rem, 1.4rem + 2.9vw, 3.9rem); }
+:is(:lang(zh), :lang(ja)) .ns-menu .wp-block-navigation__container { gap: 1.25rem; }
+:is(:lang(zh), :lang(ja)) .ns-menu { font-size: 0.9375rem; }
+:is(:lang(fr), :lang(de)) .ns-menu .wp-block-navigation__container { gap: 1.3rem; }
+@media (min-width: 1181px) { :lang(ja) .ns-header__bar, :lang(ja) .ns-header__end { gap: 1.5rem; } }
+
+
+/* ---------- header: brand left, the one menu, contact pill right ---------- */
+.ns-header { border-bottom: 1px solid var(--ns-rule); background: var(--ns-paper); }
+.home .ns-header { border-bottom: 1px solid var(--ns-rule); }
+.ns-header__cta .wp-block-button__link { background: var(--ns-sage) !important; color: #fff !important; border-radius: 999px !important; padding: 0.55rem 1.2rem !important; }
+
+/* ---------- front page ----------
+   Signature techniques (see brand/reference.md): two photographs either side of a narrow centre column with flat
+   corner labels, and one thin centre line running down the page with content either side (Salad Bowl recruit);
+   scattered photographs of different sizes and a convex arc edge (Cominka recruit). Palette from Salad Bowl:
+   white and pale grey bands, deep field green for lines, labels and buttons, one terracotta corner label. */
+.ns-main--front .wp-block-post-content > .alignfull { margin-inline: calc(-1 * var(--wp--style--root--padding-right, clamp(1.25rem, 4vw, 3.5rem))) !important; max-width: none; width: auto; }
+.ns-main--front .wp-block-post-content > * + * { margin-block-start: 0 !important; }
+.ns-main--front section { overflow-x: clip; position: relative; }
+.ns-main--front section *, .ns-main--front section > * { margin-block: 0; }
+.nf-cover, .nf-band, .nf-fees { --pad: max(clamp(1.25rem, 4vw, 3.5rem), calc((100% - 1240px) / 2)); }
+.nf-eyebrow { font-size: 0.8125rem; font-weight: 700; letter-spacing: 0.06em; color: var(--ns-sage); margin: 0 0 1.1rem !important; }
+.nf-pill .wp-block-button__link { display: inline-flex; align-items: center; gap: 1.6rem; background: var(--ns-sage); color: #fff; border-radius: 999px; padding: 0.7rem 1.1rem 0.7rem 1.5rem; font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.05em; }
+.nf-pill .wp-block-button__link::after { content: "\2192"; font-size: 0.95rem; transition: transform 0.2s ease; }
+.nf-pill .wp-block-button__link:hover { background: var(--ns-slate); }
+.nf-pill .wp-block-button__link:hover::after { transform: translateX(3px); }
+.nf-btns { margin-top: 2rem !important; gap: 1.25rem 1.75rem; align-items: center; }
+.nf-prose p { font-size: 1.0625rem; line-height: 1.9; color: var(--ns-ink); margin: 0 0 1.25rem !important; }
+.nf-prose p:last-child { margin-bottom: 0 !important; }
+
+/* the centre line (Salad Bowl) */
+.nf-spine::before { content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; background: var(--ns-sage); z-index: 0; }
+.nf-spine--end::before { bottom: auto; height: 4.5rem; }
+.nf-band { padding: clamp(5rem, 8vw, 7.5rem) var(--pad); background: var(--ns-paper); }
+.nf-band--grey { background: var(--ns-concrete); }
+.nf-split { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: clamp(4rem, 9vw, 9rem); align-items: start; }
+.nf-split__l h2 { font-size: var(--wp--preset--font-size--xx-large); line-height: 1.3; max-width: 13em; }
+.nf-split__r { padding-top: 2.1rem; }
+
+/* 1 cover */
+.nf-cover { position: relative; padding: 2.25rem var(--pad) 0; background: var(--ns-paper); }
+.nf-cover__grid { display: grid; grid-template-columns: minmax(0, 1fr) 21rem minmax(0, 1fr); column-gap: clamp(1.5rem, 3vw, 3rem); align-items: start; }
+.nf-cover__ph { position: relative; }
+.nf-cover__ph img { width: 100%; aspect-ratio: 1 / 1.1; max-height: min(calc(100svh - 13rem), 38rem); object-fit: cover; }
+.nf-cover__ph--l img { object-position: 46% 50%; }
+.nf-cover__ph--r { margin-top: 3.5rem !important; }
+.nf-cover__ph--r img { object-position: 60% 50%; max-height: min(calc(100svh - 16rem), 35rem); }
+.nf-corner { position: absolute; z-index: 2; top: -0.9rem; margin: 0 !important; padding: 0.55rem 1.1rem 0.6rem; font-family: var(--ns-serif); font-size: 1.375rem; line-height: 1.2; color: #fff; }
+.nf-corner--green { left: -0.9rem; background: var(--ns-sage); }
+.nf-corner--terra { right: -0.9rem; background: var(--ns-amber); }
+.nf-cover__mid { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; padding-top: 1.5rem; min-height: 100%; }
+.nf-cover__kicker { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; color: var(--ns-sage); margin: 0 0 1.5rem !important; max-width: 14em; }
+.nf-cover__title { font-size: clamp(2.5rem, 1.2rem + 2.4vw, 3.6rem); line-height: 1.1; font-weight: 500; margin: 0 !important; }
+.nf-cover__lead { margin: 1.5rem 0 0 !important; font-size: 1rem; line-height: 1.75; color: var(--ns-quiet); max-width: 17em; }
+.nf-cover__scroll { position: relative; margin: auto 0 0 !important; padding-top: 2rem; font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ns-sage); }
+.nf-cover__mid::after { content: ""; display: block; width: 1px; flex: 1 0 3rem; min-height: 3rem; background: var(--ns-sage); margin-top: 0.6rem; }
+.nf-infobar { display: grid; grid-template-columns: repeat(4, auto); justify-content: space-between; gap: 1rem 2rem; margin-top: 1.75rem !important; padding: 1.05rem 0; border-top: 1px solid var(--ns-rule); border-bottom: 1px solid var(--ns-rule); position: relative; z-index: 1; background: var(--ns-paper); }
+.nf-infobar__item { margin: 0 !important; font-size: 0.875rem; color: var(--ns-quiet); display: flex; align-items: center; gap: 0.6rem; }
+.nf-infobar__item::before { content: ""; width: 0.4rem; height: 0.4rem; border-radius: 50%; background: var(--ns-sage); }
+.nf-infobar__item:first-child { color: var(--ns-ink); font-weight: 700; }
+.nf-infobar a { color: inherit; text-decoration: none; }
+
+/* 3 two doors */
+.nf-paths__head { position: relative; z-index: 1; max-width: calc(50% - 4.5rem); margin-bottom: 3.5rem !important; }
+.nf-paths__head h2 { font-size: var(--wp--preset--font-size--xx-large); line-height: 1.3; }
+.nf-door { background: var(--ns-paper); }
+.nf-door img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; margin-bottom: 1.6rem !important; }
+.nf-door h3 { font-size: var(--wp--preset--font-size--x-large); margin-bottom: 0.9rem !important; }
+.nf-door p { line-height: 1.85; max-width: 32em; }
+.nf-door--low { margin-top: 6rem !important; }
+
+/* 4 scattered photographs (Cominka) */
+.nf-place { padding-bottom: clamp(5rem, 8vw, 7rem); }
+.nf-place__head { text-align: center; max-width: 36rem; margin: 0 auto 3rem !important; position: relative; z-index: 1; }
+.nf-place__head h2 { font-size: var(--wp--preset--font-size--display); line-height: 1.08; font-weight: 400; margin-bottom: 1.4rem !important; }
+.nf-place__head p:last-child { line-height: 1.85; color: var(--ns-quiet); }
+.nf-place__field { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 1.5rem; row-gap: 0; position: relative; }
+.nf-float { position: relative; z-index: 1; }
+.nf-float img { width: 100%; object-fit: cover; }
+.nf-float__cap { margin-top: 1rem !important; max-width: 24em; }
+.nf-float__day { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; color: var(--ns-amber); margin-bottom: 0.35rem !important; }
+.nf-float h3 { font-size: var(--wp--preset--font-size--large); margin-bottom: 0.4rem !important; }
+.nf-float p:last-child { font-size: 0.9375rem; line-height: 1.75; color: var(--ns-quiet); }
+.nf-float--1 { grid-column: 1 / 8; grid-row: 1; } .nf-float--1 img { aspect-ratio: 4 / 3; }
+.nf-float--2 { grid-column: 9 / 12; grid-row: 1; margin-top: 2.5rem !important; } .nf-float--2 img { aspect-ratio: 1 / 1; }
+.nf-float--3 { grid-column: 7 / 12; grid-row: 2; margin-top: -9rem !important; z-index: 2; } .nf-float--3 img { aspect-ratio: 4 / 5; box-shadow: 0 0 0 0.75rem var(--ns-paper); }
+.nf-float--4 { grid-column: 2 / 6; grid-row: 2; margin-top: 3rem !important; } .nf-float--4 img { aspect-ratio: 3 / 2; }
+.nf-float--5 { grid-column: 4 / 13; grid-row: 3; margin-top: 3.5rem !important; display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 2rem; align-items: end; } .nf-float--5 img { aspect-ratio: 21 / 9; }
+.nf-float--3 .nf-float__cap { margin-left: 0.75rem !important; }
+.nf-place__btns { grid-column: 1 / -1; justify-content: center; margin-top: 4rem !important; }
+
+/* 5 wide photograph */
+.nf-wide { position: relative; padding-bottom: 5rem; background: var(--ns-paper); }
+.nf-wide__img img { width: 100%; height: clamp(22rem, 42vw, 36rem); object-fit: cover; }
+.nf-wide__box { position: absolute; left: max(clamp(1.25rem, 4vw, 3.5rem), calc((100% - 1240px) / 2)); bottom: 0; width: min(38rem, 90%); background: var(--ns-paper); padding: 2.4rem 2.8rem 0 2.6rem; }
+.nf-wide__q { font-family: var(--ns-serif); font-size: var(--wp--preset--font-size--x-large); line-height: 1.45; }
+.nf-wide__by { margin-top: 1rem !important; font-size: 0.875rem; color: var(--ns-sage); font-weight: 700; }
+
+/* 6 consultants: a row whose third card runs past the edge (Salad Bowl) */
+.nf-rail { position: relative; z-index: 1; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(19rem, 43%); gap: 2rem; margin: 4rem calc(-1 * var(--pad)) 0 0 !important; padding-bottom: 1.6rem; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; scrollbar-color: var(--ns-sage) var(--ns-rule); }
+.nf-card { scroll-snap-align: start; background: var(--ns-paper); padding-bottom: 1.8rem; }
+.nf-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 50% 30%; margin-bottom: 1.4rem !important; }
+.nf-card > :not(figure) { padding-inline: 1.6rem; }
+.nf-card__role { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; color: var(--ns-sage); margin-bottom: 0.4rem !important; }
+.nf-card__name { font-size: var(--wp--preset--font-size--x-large); margin-bottom: 0.7rem !important; }
+.nf-card p:last-child { line-height: 1.8; color: var(--ns-quiet); }
+.nf-rail__hint { position: relative; z-index: 1; margin-top: 0.9rem !important; font-size: 0.75rem; color: var(--ns-quiet); }
+
+/* 7 fees with the convex arc (Cominka) */
+.nf-fees { position: relative; padding: clamp(5rem, 8vw, 7rem) var(--pad) clamp(9rem, 14vw, 13rem); background: var(--ns-slate); color: #F3F3F0; border-radius: 0 0 50% 50% / 0 0 clamp(6rem, 13vw, 13rem) clamp(6rem, 13vw, 13rem); }
+.nf-fees .nf-prose p:first-child { font-family: var(--ns-serif); font-size: var(--wp--preset--font-size--large); line-height: 1.75; }
+.nf-fees::before { background: rgba(243, 243, 240, 0.4); }
+.nf-fees .nf-eyebrow { color: #BFD2BF; }
+.nf-fees h2, .nf-fees .nf-prose p { color: #F3F3F0; }
+.nf-fees .nf-pill .wp-block-button__link { background: #F3F3F0; color: var(--ns-slate); }
+.nf-fees .nf-pill .wp-block-button__link:hover { background: #BFD2BF; }
+.ns-main:not(.ns-main--front) .nf-fees { margin-block: 0 4rem; }
+
+/* 8 journal list */
+.nf-topics .wp-block-post-template { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ns-sage-light); }
+.nf-topic { padding: 1.35rem 0; border-bottom: 1px solid var(--ns-sage-light); }
+.nf-topic__meta { gap: 0.9rem; align-items: center; font-size: 0.8125rem; color: var(--ns-quiet); margin-bottom: 0.45rem !important; }
+.nf-topic__tag a { display: inline-block; padding: 0.1rem 0.7rem; border-radius: 999px; background: var(--ns-amber); color: #fff; font-size: 0.6875rem; font-weight: 700; text-decoration: none; }
+.nf-topic__title { font-size: var(--wp--preset--font-size--large); line-height: 1.45; }
+.nf-topic__title a { text-decoration: none; color: var(--ns-ink); }
+.nf-topic__title a:hover { color: var(--ns-sage); }
+
+/* 9 close */
+.nf-close { text-align: center; padding-top: 7.5rem; }
+.nf-close__in { position: relative; z-index: 1; max-width: 36rem; margin-inline: auto; }
+.nf-close h2 { font-size: var(--wp--preset--font-size--display); line-height: 1.08; font-weight: 400; margin-bottom: 1.3rem !important; }
+.nf-close p:not(.nf-eyebrow) { line-height: 1.85; color: var(--ns-quiet); }
+.nf-close .nf-btns { justify-content: center; }
+
+@media (max-width: 960px) {
+	.nf-spine::before { left: var(--pad, 1.25rem); }
+	.nf-cover__grid { grid-template-columns: 1fr 1fr; row-gap: 2rem; }
+	.nf-cover__mid { grid-column: 1 / -1; grid-row: 1; padding-top: 0.5rem; }
+	.nf-cover__mid::after, .nf-cover__scroll { display: none; }
+	.nf-cover__ph--r { margin-top: 2rem !important; }
+	.nf-infobar { grid-template-columns: 1fr 1fr; }
+	.nf-split { grid-template-columns: 1fr; padding-left: 1.5rem; }
+	.nf-split__r { padding-top: 1.5rem; }
+	.nf-paths__head { max-width: none; padding-left: 1.5rem; }
+	.nf-door--low { margin-top: 3rem !important; }
+	.nf-place__field { display: flex; flex-direction: column; gap: 2.5rem; }
+	.nf-float { margin-top: 0 !important; }
+	.nf-float--5 { display: block; }
+	.nf-float--3 img { box-shadow: none; }
+	.nf-float--3 .nf-float__cap { margin-left: 0 !important; }
+	.nf-float:nth-child(even) { margin-left: 18% !important; }
+	.nf-wide__box { position: relative; left: auto; width: auto; padding: 2rem var(--pad, 1.25rem) 0; }
+	.nf-wide { padding-bottom: 0; }
+	.nf-rail { grid-auto-columns: 78%; padding-left: 1.5rem; }
+}
+@media (max-width: 600px) {
+	.nf-cover__ph--r { margin-top: 1.5rem !important; }
+	.nf-corner { font-size: 1rem; padding: 0.35rem 0.7rem; }
+	.nf-infobar { grid-template-columns: 1fr; }
+}
+
+/* CJK: the centre column title runs top to bottom, as on the reference (never for Latin text) */
+@media (min-width: 961px) {
+	:is(:lang(ja), :lang(zh)) .nf-cover__title { writing-mode: vertical-rl; max-height: 23rem; font-size: 2.35rem; line-height: 1.55; letter-spacing: 0.12em; margin: 0 auto !important; text-align: start; }
+	:is(:lang(ja), :lang(zh)) .nf-cover__scroll { display: none; }
+}
+:is(:lang(fr), :lang(de)) .nf-cover__title { font-size: clamp(2rem, 1.2rem + 1.4vw, 2.5rem); }
+:is(:lang(ja), :lang(zh)) :is(.nf-split__l h2, .nf-paths__head h2) { font-size: calc(var(--wp--preset--font-size--xx-large) * 0.75); line-height: 1.6; }
+:is(:lang(ja), :lang(zh)) :is(.nf-place__head h2, .nf-close h2) { font-size: calc(var(--wp--preset--font-size--display) * 0.72); line-height: 1.45; }
+:is(:lang(ja), :lang(zh)) :is(.nf-prose p, .nf-door p, .nf-float p, .nf-card p, .nf-close p) { line-height: 1.85; }
+:is(:lang(fr), :lang(de)) :is(.nf-section, .nf-band, .nf-fees, .nf-cover) :is(h1, h2, h3, p) { hyphens: auto; }
