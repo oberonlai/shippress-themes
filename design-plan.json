@@ -13,14 +13,15 @@
    "photos": ">= 12 unique photo files in assets/images (cut-outs excluded), all generated with one shared STYLE string for a realistic photography look (same light, same tones); the home page has >= 8 photo positions.",
    "cutouts": "At most 1 cut-out (transparent-background image) in the whole theme; optional.",
    "type": "The largest theme.json fontSizes entry is >= 4.25rem.",
-   "first_screen_colour": "In the 1440x900 first screen, saturated pixels (HSV S > 35% and V > 24%) cover <= 15% (python3 scripts/check-first-screen.py screenshots/home-desktop.webp).",
+   "first_screen_colour": "In the 1440x900 first screen, saturated pixels (HSV S > 35% and V > 24%) cover no more than the smaller of 30% and the share measured on the palette's S5-Style reference site (rules.palette_from_reference; before 2026-10-20 17:41 the limit was 15%). Measure with python3 scripts/check-first-screen.py screenshots/home-desktop.webp --max <limit>.",
    "navigation": "Exactly one top menu in the header; no side rail and no second navigation.",
    "comparison": "Before merging, put the first screen and full home page next to Asa Linen, Hari Tailor and Amane Wagashi and compare quality (type size, whitespace, photo share, amount of narrative), not look-alike; fix what falls short.",
    "checked_by": "scripts/check-themes.mjs (pages, posts, photo files, cut-outs, largest font size, brand.md, home words / paragraphs / photo positions, single top menu) and scripts/check-first-screen.py (first-screen saturation)."
   },
   "batch6": "From 2026-10-19 new themes are English only (en sample content, no zh-TW/ja/fr/de). Batch 6 (rows b6-1..b6-16, 2026-10-20): commercial industries, real photography only (photographic=true; illustration column = photo direction). Open rows were re-mapped on 2026-10-20 (#226): photo-led heroes, top header only, real-photography, a one-sentence signature instead of a wireframe; every row must pass rules.quality_gate (theme-meta.json \"quality_gate\": 2).",
   "legacy_page_structure": "legacy-hero-works-serial-process-journal",
-  "legacy_first_screen": "legacy-text-left-framed-photo-list"
+  "legacy_first_screen": "legacy-text-left-framed-photo-list",
+  "palette_from_reference": "Since 2026-10-20 17:41 (owner): the palette is taken from one or two of the theme's S5-Style reference sites, keeping their relation and proportions of main, secondary, ground and accent colours (the hue may shift to fit the brand, but the source must stay recognisable). It overrides a plan row's palette/hex and its 'quiet palette, first-screen saturated <= 15%' note. Do not default to beige or cream grounds. The share of saturated pixels in the 1440x900 first screen follows the reference's measured share and never exceeds 30%: run python3 scripts/check-first-screen.py on the reference screenshot and on the theme, pass --max <the smaller of 30 and the reference value>, and write both numbers in gate.md, brand/reference.md and the PR. Avoid the high-chroma full-bleed failures of 10/15: the result must look as mature as the reference. brand/reference.md lists the colour source site, its hex values and shares, and the theme's matching hex values."
  },
  "enums": {
   "archetype": [
@@ -2046,13 +2047,13 @@
    "industry": "managed cybersecurity firm",
    "type": "business",
    "category": "business-services",
-   "status": "todo",
+   "status": "done",
    "header_required": true,
    "id": "b6-10",
    "first_screen": "top-bottom-halves",
    "page_structure": "dashboard-metrics",
    "signature": "A managed security firm for small and mid-sized companies that sounds human: a low-key photograph of the analysts' room at night, what they watch and how they respond as short photographed chapters, named analysts, and a few honest figures instead of a dashboard.",
-   "note": "English-only (2026-10-19: new themes are English only; no zh-TW/ja/fr/de content, locale files or multilingual screenshots). Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs. Low-key photographs (35mm, screen glow and desk lamps, fine grain) of the analysts' room and people at work. Quiet palette (2026-10-20 re-map): a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas (links, rules, labels, one button), never a full-bleed field; first-screen saturated pixels <= 15%. Display and body fonts are readable Latin serif / humanist faces, no rounded or novelty faces. The theme must pass rules.quality_gate (theme-meta.json \"quality_gate\": 2).",
+   "note": "Five languages (en, zh-TW, ja, fr, de; overrides the 2026-10-19 English-only note, like Hokuto 1.1.0, Hagane, Sukoyaka, Tsumugi and Aozora). Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs. Low-key photographs (35mm, screen glow and desk lamps, fine grain) of the analysts' room and people at work. Palette from the S5-Style references (rules.palette_from_reference, 2026-10-20 17:41): Symdirect's translucent chevron, white label chips and dark chip with DeltaX's off-white ground, navy and indigo; first-screen saturated pixels 24.3-25.1% against Symdirect's 27.9%. Display and body fonts are readable Latin serif / humanist faces, no rounded or novelty faces. The theme must pass rules.quality_gate (theme-meta.json \"quality_gate\": 2).",
    "photographic": true
   },
   {
