@@ -1,0 +1,29 @@
+<?php
+/**
+ * Title: Contact: book a first lesson
+ * Slug: minato-business-hotel/contact-head
+ * Categories: minato-business-hotel
+ * Keywords: contact
+ * Viewport Width: 1440
+ * Description: The Contact page opening: title and lead.
+ */
+?>
+<!-- wp:group {"tagName":"section","align":"full","className":"mb-head","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull mb-head"><!-- wp:group {"align":"wide","className":"mb-head__grid","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide mb-head__grid"><!-- wp:group {"className":"mb-head__main","layout":{"type":"default"}} -->
+<div class="wp-block-group mb-head__main"><!-- wp:paragraph {"className":"is-style-label"} -->
+<p class="is-style-label"><?php echo wp_kses_post( minato_business_hotel_t( 'contact_head_01' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"className":"mb-head__title"} -->
+<h1 class="wp-block-heading mb-head__title"><?php echo wp_kses_post( minato_business_hotel_t( 'contact_head_02' ) ); ?></h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"mb-head__side","layout":{"type":"default"}} -->
+<div class="wp-block-group mb-head__side"><!-- wp:paragraph {"className":"is-style-lead"} -->
+<p class="is-style-lead"><?php echo wp_kses_post( minato_business_hotel_t( 'contact_head_03' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->

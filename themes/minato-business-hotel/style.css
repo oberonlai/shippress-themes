@@ -1,0 +1,409 @@
+/*
+Theme Name: Minato Business Hotel
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/minato-business-hotel
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Minato Business Hotel — a calm, photograph-led block theme for an independent business hotel, city hotel or small guesthouse near a station. Linen white, stone and ink with one warm charcoal band and a single suo rose accent; Cormorant over Jost; a full-bleed photograph of a quiet room at first light above the headline and an info bar, six photographed steps from the platform to checkout, four kinds of room, one plain price table below the first screen, the people behind the desk and a company stays band. Sample content in five languages.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: minato-business-hotel
+Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--mb-concrete: var(--wp--preset--color--concrete);
+	--mb-kerb: var(--wp--preset--color--kerb);
+	--mb-paper: var(--wp--preset--color--paper);
+	--mb-ink: var(--wp--preset--color--ink);
+	--mb-quiet: var(--wp--preset--color--quiet);
+	--mb-slate: var(--wp--preset--color--slate);
+	--mb-sage: var(--wp--preset--color--sage);
+	--mb-sage-light: var(--wp--preset--color--sage-light);
+	--mb-amber: var(--wp--preset--color--amber);
+	--mb-amber-light: var(--wp--preset--color--amber-light);
+	--mb-rule: rgba(30, 36, 33, 0.14);
+	--mb-rule-strong: rgba(30, 36, 33, 0.38);
+	--mb-rule-dark: rgba(241, 239, 234, 0.16);
+	--mb-sec: var(--wp--preset--spacing--50);
+	--mb-gap: clamp(2rem, 5vw, 5.5rem);
+	--mb-serif: var(--wp--preset--font-family--display);
+}
+
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-optical-sizing: auto; }
+a { text-decoration-thickness: 1px; text-underline-offset: 0.22em; }
+:where(a, button, input, select, textarea, summary):focus-visible { outline: 2px solid var(--mb-sage); outline-offset: 3px; }
+img { display: block; height: auto; max-width: 100%; }
+strong { font-weight: 600; }
+h1, h2, h3 { text-wrap: balance; }
+:is(h1, h2, h3) em { font-style: italic; font-weight: 400; }
+p { text-wrap: pretty; }
+.wp-block-image { margin: 0; }
+.wp-block-image figcaption { margin: 0.8rem 0 0; font-size: 0.8125rem; color: var(--mb-quiet); font-family: var(--mb-serif); font-style: italic; letter-spacing: 0; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
+
+/* ---------- block styles ---------- */
+.is-style-label { display: flex; align-items: center; gap: 0.75rem; margin: 0 0 1.25rem; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mb-sage); }
+.is-style-label::before { content: ""; flex: 0 0 auto; width: 1.75rem; height: 2px; background: var(--mb-amber); }
+.is-style-lead { font-size: var(--wp--preset--font-size--large); line-height: 1.55; color: var(--mb-quiet); max-width: 36em; }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--mb-ink); padding: 0.35rem 0; border-radius: 0; border-bottom: 1px solid var(--mb-rule-strong); }
+.wp-block-button.is-style-text-link .wp-block-button__link::after { content: "\2192"; margin-left: 0.6em; display: inline-block; transition: transform 0.2s ease; }
+.wp-block-button.is-style-text-link .wp-block-button__link:hover { color: var(--mb-sage); border-color: var(--mb-sage); }
+.wp-block-button.is-style-text-link .wp-block-button__link:hover::after { transform: translateX(3px); }
+.wp-block-button.is-style-outline .wp-block-button__link { background: none; color: var(--mb-ink); border: 1px solid var(--mb-rule-strong); padding: 0.7rem 1.2rem; }
+.wp-block-button.is-style-outline .wp-block-button__link:hover { background: var(--mb-ink); color: var(--mb-concrete); border-color: var(--mb-ink); }
+ul.is-style-ruled { list-style: none; padding: 0; margin: 1.5rem 0; }
+ul.is-style-ruled li { padding: 0.8rem 0; border-top: 1px solid var(--mb-rule); }
+ul.is-style-ruled li:last-child { border-bottom: 1px solid var(--mb-rule); }
+.wp-block-buttons { gap: 1rem 2rem; align-items: center; }
+.wp-block-quote { border-left: 2px solid var(--mb-amber); padding: 0.2rem 0 0.2rem 1.5rem; margin: 2rem 0; }
+.wp-block-quote p { font-size: var(--wp--preset--font-size--large); line-height: 1.45; margin: 0; }
+.wp-block-quote cite { display: block; margin-top: 0.75rem; font-family: var(--wp--preset--font-family--body); font-style: normal; font-size: 0.8125rem; letter-spacing: 0.04em; color: var(--mb-quiet); }
+
+/* ---------- header (one top menu) ---------- */
+.mb-header { position: relative; z-index: 20; padding-block: 1.35rem; border-bottom: 1px solid var(--mb-rule); }
+.mb-header__bar { gap: 2rem; }
+.mb-brand > * { margin: 0; }
+.mb-brand__name { font-size: 1.5rem; line-height: 1.1; white-space: nowrap; }
+.mb-brand__line { white-space: nowrap; margin-top: 0.25rem !important; font-size: 0.6875rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--mb-quiet); }
+.mb-header__end { gap: 2.25rem; }
+.mb-menu .wp-block-navigation__container { gap: 1.9rem; }
+.mb-menu .wp-block-navigation-item__content { color: var(--mb-ink); padding-block: 0.3rem; border-bottom: 1px solid transparent; }
+.mb-menu .wp-block-navigation-item__content:hover, .mb-menu .current-menu-item > .wp-block-navigation-item__content { border-bottom-color: var(--mb-amber); }
+.mb-header__cta .wp-block-button__link { font-size: 0.875rem; white-space: nowrap; }
+.mb-menu .wp-block-navigation__responsive-container.is-menu-open { background: var(--mb-concrete); color: var(--mb-ink); padding: 2rem 1.5rem; }
+.mb-menu .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { gap: 1rem; font-family: var(--mb-serif); font-size: 1.75rem; }
+.mb-menu .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { color: var(--mb-ink); }
+
+/* the front page: the header lies over the road photograph */
+.home .wp-site-blocks { position: relative; }
+.home .mb-menu .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { color: var(--mb-ink); }
+
+/* ---------- main + sections ---------- */
+.mb-main { margin-top: 0 !important; }
+.mb-main > .wp-block-post-content > * + *, .mb-main > * + * { margin-block-start: 0 !important; }
+.mb-section { padding-block: var(--mb-sec) 0; }
+.mb-section--flush { padding-top: 0; }
+.mb-section--last { padding-bottom: var(--mb-sec); }
+.mb-band { padding-block: var(--mb-sec); margin-top: var(--mb-sec) !important; background: var(--mb-kerb); }
+.mb-section--flush.mb-band { margin-top: 0 !important; }
+.mb-section--last-band { margin-bottom: 0; }
+.mb-band + .mb-band { margin-top: 0 !important; }
+.mb-band--slate { background: var(--mb-slate); color: var(--mb-concrete); }
+.mb-band--slate :is(h2, h3) { color: var(--mb-concrete); }
+.mb-band--slate .is-style-label { color: var(--mb-sage-light); }
+.mb-band--slate .is-style-label::before { background: var(--mb-amber-light); }
+.mb-band--slate p { color: rgba(241, 239, 234, 0.86); }
+.mb-band--slate .wp-block-quote { border-color: var(--mb-amber-light); }
+.mb-band--slate .wp-block-quote p { color: var(--mb-concrete); }
+.mb-band--slate .wp-block-quote cite { color: var(--mb-sage-light); }
+.mb-band--slate .wp-block-button.is-style-text-link .wp-block-button__link { color: var(--mb-concrete); border-color: rgba(241, 239, 234, 0.45); }
+.mb-band--slate a { color: var(--mb-concrete); }
+.mb-row-head { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 1.5rem var(--mb-gap); align-items: end; margin-bottom: clamp(2.5rem, 5vw, 4rem) !important; }
+.mb-row-head > *, .mb-row-head__title > :last-child { margin: 0 !important; }
+.mb-row-head__lead { color: var(--mb-quiet); max-width: 32em; }
+.mb-row-head--end .wp-block-buttons { justify-content: flex-end; }
+.mb-after { margin-top: clamp(2rem, 4vw, 3rem) !important; }
+.mb-small { font-size: 0.8125rem; color: var(--mb-quiet); }
+.mb-narrow { max-width: 40rem; }
+.mb-card { background: var(--mb-paper); border: 1px solid var(--mb-rule); padding: clamp(1.5rem, 3vw, 2.5rem); }
+
+/* ---------- hero: the road at first light ---------- */
+.mb-hero { position: relative; padding: 0 !important; margin: 0 !important; }
+.mb-hero > * { max-width: none !important; }
+.mb-hero__picture { margin: 0 0 0 calc(50% - 50vw) !important; width: 100vw; max-width: none !important; }
+.mb-hero__picture img { width: 100%; height: clamp(17rem, 34vw, 31rem); object-fit: cover; object-position: 50% 55%; }
+.mb-hero__copy { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: var(--mb-gap); align-items: start; padding: clamp(1.75rem, 2.4vw, 2.25rem) 0 clamp(2.25rem, 3.6vw, 3rem); box-sizing: border-box; width: 100%; max-width: var(--wp--style--global--wide-size) !important; margin: 0 auto !important; }
+.mb-hero__copy > * { margin: 0 !important; }
+.mb-hero__head .is-style-label { margin-bottom: 1.1rem; }
+.mb-hero__title { margin: 0 !important; max-width: 13em; }
+:is(:lang(fr), :lang(de)) .mb-hero__title { font-size: clamp(2.5rem, 1.4rem + 2.9vw, 3.6rem); }
+.mb-hero__side { padding-top: 2.4rem; }
+.mb-hero__side .is-style-lead { margin: 0 0 1.5rem; font-size: 1.1875rem; line-height: 1.6; color: var(--mb-ink); }
+.mb-hero__bar { background: var(--mb-kerb); color: var(--mb-ink); padding: 1.35rem var(--wp--style--root--padding-right, 1.25rem) 1.35rem var(--wp--style--root--padding-left, 1.25rem); }
+.mb-hero__bar > .alignwide { max-width: var(--wp--style--global--wide-size); margin-inline: auto; }
+@media (max-width: 900px) { .mb-hero__copy { grid-template-columns: 1fr; gap: 1.5rem; } }
+.mb-facts { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.mb-facts li { padding: 0 1.5rem; border-left: 1px solid var(--mb-rule-strong); font-size: 0.875rem; color: var(--mb-quiet); line-height: 1.45; }
+.mb-facts li:first-child { padding-left: 0; border-left: 0; }
+.mb-facts strong { display: block; font-family: var(--mb-serif); font-weight: 400; font-size: 1.125rem; color: var(--mb-ink); }
+
+/* ---------- rates (below the first screen) ---------- */
+.mb-rates__grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); gap: var(--mb-gap); align-items: end; }
+.mb-rates__grid > * { margin: 0 !important; }
+.mb-rates__main > * { margin-block: 0 1.25rem; }
+.mb-rates__table { margin: 1.5rem 0 0 !important; }
+.mb-rates__table table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.mb-rates__table th { text-align: left; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mb-quiet); padding: 0 1rem 0.8rem 0; border-bottom: 1px solid var(--mb-rule-strong); }
+.mb-rates__table td { padding: 1rem 1rem 1rem 0; border: 0; border-bottom: 1px solid var(--mb-rule); }
+.mb-rates__table td:first-child { font-family: var(--mb-serif); font-size: 1.125rem; }
+.mb-rates__table td:nth-child(3) { font-family: var(--mb-serif); font-size: 1.25rem; color: var(--mb-sage); }
+.mb-rates__card { background: var(--mb-kerb); padding: clamp(1.75rem, 3vw, 2.75rem); }
+.mb-rates__card > * { margin-block: 0 1rem; }
+.mb-rates__card-title { font-size: var(--wp--preset--font-size--x-large); }
+.mb-rates__note { font-size: 0.8125rem; color: var(--mb-quiet); }
+@media (max-width: 900px) { .mb-rates__grid { grid-template-columns: minmax(0, 1fr); } .mb-rates__table { overflow-x: auto; max-width: 100%; } .mb-rates__table th, .mb-rates__table td { padding-right: 0.6rem; } }
+
+/* ---------- splits ---------- */
+.mb-split { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: var(--mb-gap); align-items: center; }
+.mb-split > * { margin: 0 !important; }
+.mb-split--flip { grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); }
+.mb-split--top { align-items: start; }
+.mb-split__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.mb-split__photo--tall img { aspect-ratio: 4 / 5; }
+.mb-split__photo--wide img { aspect-ratio: 5 / 4; }
+.mb-split__photo--land img { aspect-ratio: 4 / 3; }
+.mb-split__text > * { margin-block: 0 1.25rem; }
+.mb-split__text > :last-child { margin-bottom: 0; }
+.mb-split__title { margin-bottom: 1.75rem !important; }
+.mb-sign { font-family: var(--mb-serif); font-style: italic; font-size: 1.125rem; color: var(--mb-sage); margin-top: 2rem !important; }
+.mb-prices li { display: flex; justify-content: space-between; gap: 1.5rem; }
+.mb-prices li span { font-family: var(--mb-serif); font-size: 1.25rem; font-variant-numeric: tabular-nums lining-nums; color: var(--mb-ink); white-space: nowrap; }
+.mb-split--sticky { align-items: start; }
+.mb-sticky { position: sticky; top: 2rem; }
+.mb-sticky__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+
+/* ---------- the route: six photographed stages ---------- */
+.mb-stages { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(2.5rem, 4vw, 3.75rem) clamp(1.5rem, 3vw, 2.75rem); }
+.mb-stages > * { margin: 0 !important; }
+.mb-stage > * { margin: 0; }
+.mb-stage__photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.mb-stage__no { margin-top: 1.25rem !important; font-family: var(--mb-serif); font-style: italic; font-size: 1.125rem; color: var(--mb-sage); padding-top: 0.9rem; border-top: 1px solid var(--mb-rule-strong); }
+.mb-stage__title { margin: 0.25rem 0 0.6rem !important; font-size: 1.625rem; }
+.mb-stage__text { color: var(--mb-quiet); font-size: 0.9688rem; max-width: 30em; }
+
+/* ---------- people ---------- */
+.mb-people { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(1.5rem, 3vw, 2.5rem); }
+.mb-people > * { margin: 0 !important; }
+.mb-person > * { margin: 0; }
+.mb-person__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; }
+.mb-person__name { margin-top: 1.25rem !important; font-size: 1.5rem; }
+.mb-person__role { margin-top: 0.3rem !important; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mb-sage); }
+.mb-person__text { margin-top: 0.75rem !important; color: var(--mb-quiet); font-size: 0.9688rem; }
+.mb-people--full { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(3rem, 6vw, 5rem) var(--mb-gap); }
+.mb-people--full .mb-person { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); column-gap: clamp(1.5rem, 3vw, 2.5rem); align-content: start; }
+.mb-people--full .mb-person__photo { grid-row: 1 / span 8; }
+.mb-people--full .mb-person__name { margin-top: 0 !important; }
+.mb-people--full .mb-person > p:not([class]) { margin-top: 0.9rem; font-size: 0.9688rem; }
+
+/* ---------- notes, years, times, courses, chapters ---------- */
+.mb-notes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--mb-gap); }
+.mb-notes--four { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2.5rem, 5vw, 4rem) var(--mb-gap); }
+.mb-notes > * { margin: 0 !important; }
+.mb-note { border-top: 1px solid var(--mb-rule-strong); padding-top: 1.25rem; }
+.mb-note > * { margin: 0 0 0.75rem; }
+.mb-note__no { font-family: var(--mb-serif); font-style: italic; font-size: 1.25rem; color: var(--mb-sage); }
+.mb-note h3 { font-size: 1.625rem; }
+.mb-note p:last-child { color: var(--mb-quiet); }
+.mb-years > h2 { margin-bottom: 2.5rem !important; }
+.mb-year { display: grid; grid-template-columns: 7rem minmax(0, 1fr); column-gap: 2rem; padding: 1.75rem 0; border-top: 1px solid var(--mb-rule); }
+.mb-year > * { margin: 0; grid-column: 2; }
+.mb-year .mb-year__no { grid-column: 1; grid-row: 1 / span 2; font-family: var(--mb-serif); font-size: 2rem; line-height: 1; color: var(--mb-sage); }
+.mb-year__title { font-size: 1.5rem; margin-bottom: 0.6rem; }
+.mb-year p:not(.mb-year__no) { color: var(--mb-quiet); }
+.mb-time { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 1.5rem; padding: 0.95rem 0; border-top: 1px solid var(--mb-rule); margin: 0 !important; }
+.mb-time:last-child { border-bottom: 1px solid var(--mb-rule); }
+.mb-time > * { margin: 0; }
+.mb-time__at { font-family: var(--mb-serif); font-size: 1.125rem; font-variant-numeric: tabular-nums lining-nums; color: var(--mb-ink); }
+.mb-time__what { color: var(--mb-quiet); font-size: 0.9688rem; }
+.mb-courses { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 var(--mb-gap); }
+.mb-courses > * { margin: 0 !important; }
+.mb-course { display: flex; flex-direction: column; padding: 2rem 0 2.25rem; border-top: 1px solid var(--mb-rule-strong); }
+.mb-course > * { margin: 0; }
+.mb-course__name { font-size: 1.75rem; }
+.mb-course__len { margin-top: 0.4rem; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mb-sage); }
+.mb-course__text { margin-top: 0.9rem; color: var(--mb-quiet); max-width: 34em; }
+.mb-course__price { margin-top: 1.1rem; font-family: var(--mb-serif); font-size: 1.25rem; font-variant-numeric: lining-nums; }
+.mb-chapters > * { margin: 0 !important; }
+.mb-chapter { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: var(--mb-gap); align-items: center; padding-block: clamp(2.5rem, 5vw, 4.5rem); border-top: 1px solid var(--mb-rule); }
+.mb-chapter:first-child { border-top: 0; padding-top: 0; }
+.mb-chapter > * { margin: 0 !important; }
+.mb-chapter:nth-child(even) .mb-chapter__photo { order: 2; }
+.mb-chapter__photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.mb-chapter__text > * { margin: 0 0 1rem; }
+.mb-chapter__no { font-family: var(--mb-serif); font-style: italic; font-size: 1.25rem; color: var(--mb-sage); }
+.mb-chapter__title { font-size: var(--wp--preset--font-size--x-large); }
+.mb-chapter__text > p:not([class]) { color: var(--mb-quiet); }
+.mb-chapter__row { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 1rem; padding: 0.7rem 0; border-top: 1px solid var(--mb-rule); margin: 0 !important; }
+.mb-chapter__row:last-child { border-bottom: 1px solid var(--mb-rule); }
+.mb-chapter__row > * { margin: 0; font-size: 0.9375rem; }
+.mb-chapter__key { font-size: 0.75rem !important; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mb-sage); padding-top: 0.15rem; }
+
+/* ---------- call to book ---------- */
+.mb-cta { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: var(--mb-gap); align-items: center; background: var(--mb-paper); border: 1px solid var(--mb-rule); padding: clamp(1.25rem, 2.5vw, 2rem); }
+.mb-cta > * { margin: 0 !important; }
+.mb-cta__photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.mb-cta__text { padding-right: clamp(0rem, 3vw, 3rem); }
+.mb-cta__text > * { margin: 0 0 1.25rem; }
+.mb-cta__text > :last-child { margin-bottom: 0; }
+.mb-cta__text p:not(.is-style-label) { color: var(--mb-quiet); max-width: 34em; }
+
+/* ---------- school details (synced) ---------- */
+.mb-office > * { margin: 0; }
+.mb-office__kicker { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mb-sage); margin-bottom: 0.9rem !important; }
+.mb-office__addr { font-family: var(--mb-serif); font-size: 1.3125rem; line-height: 1.4; margin-bottom: 1.25rem !important; }
+.mb-office__row { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 1rem; padding: 0.65rem 0; border-top: 1px solid var(--mb-rule); }
+.mb-office__row > * { margin: 0; font-size: 0.9375rem; }
+.mb-office__key { font-size: 0.75rem !important; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mb-quiet); padding-top: 0.15rem; }
+.mb-office__val { overflow-wrap: anywhere; }
+
+/* ---------- page heads ---------- */
+.mb-head { padding-block: clamp(4.5rem, 9vw, 8rem) clamp(3rem, 6vw, 5rem); }
+.mb-head__grid { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 1.5rem var(--mb-gap); align-items: end; }
+.mb-head__grid > *, .mb-head__main > :last-child, .mb-head__side > :last-child { margin-bottom: 0 !important; }
+.mb-head__grid > * { margin-top: 0 !important; }
+.mb-head__title { margin: 0; }
+.mb-head__title em { color: var(--mb-sage); }
+.mb-head--photo .mb-head__photo { margin-top: clamp(3rem, 6vw, 5rem) !important; }
+.mb-head__photo img { width: 100%; aspect-ratio: 21 / 9; object-fit: cover; }
+.mb-head--simple .mb-head__title { font-size: var(--wp--preset--font-size--xx-large); }
+.mb-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem !important; }
+.mb-chips a { padding: 0.35rem 0.85rem; border: 1px solid var(--mb-rule-strong); border-radius: 2rem; text-decoration: none; color: var(--mb-ink); font-size: 0.8125rem; }
+.mb-chips a:hover { background: var(--mb-ink); color: var(--mb-concrete); border-color: var(--mb-ink); }
+
+/* ---------- posts ---------- */
+.mb-posts .wp-block-post-template { gap: 3rem clamp(1.5rem, 3vw, 2.5rem); padding: 0; margin: 0; }
+.mb-posts .wp-block-post-template > li { margin: 0; }
+.mb-posts .wp-block-post-template > li > * { margin: 0 0 0.6rem; }
+.mb-posts .wp-block-post-featured-image { margin-bottom: 1.1rem !important; }
+.mb-posts .wp-block-post-featured-image img { object-fit: cover; }
+.mb-meta { gap: 0.4rem 1rem; font-size: 0.75rem; }
+.mb-meta > * { margin: 0 !important; }
+.mb-meta .wp-block-post-terms a { color: var(--mb-sage); text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; }
+.mb-posts__title { font-size: 1.5rem; line-height: 1.2; }
+.mb-posts .wp-block-post-excerpt { font-size: 0.9375rem; color: var(--mb-quiet); }
+.mb-posts .wp-block-post-excerpt__more-text { display: none; }
+.mb-pagination { margin-top: 3rem; gap: 1rem; }
+
+/* ---------- article ---------- */
+.mb-article { padding-block: clamp(4rem, 8vw, 7rem) var(--mb-sec); }
+.mb-article__head > * { margin: 0 0 1.25rem; }
+.mb-article__title { font-size: var(--wp--preset--font-size--xx-large); }
+.mb-article__dek { font-size: var(--wp--preset--font-size--large); color: var(--mb-quiet); line-height: 1.5; }
+.mb-article__picture { margin-block: 2.5rem 3rem !important; }
+.mb-prose > * + * { margin-top: 1.4rem; }
+.mb-prose h2 { font-size: var(--wp--preset--font-size--x-large); margin-top: 2.75rem; }
+.mb-article__foot { margin-top: 3.5rem !important; padding-top: 1.5rem; border-top: 1px solid var(--mb-rule); }
+.mb-tags { font-size: 0.875rem; }
+.mb-post-nav { margin-top: 1.5rem; gap: 2rem; font-size: 0.9375rem; }
+
+/* ---------- forms + search ---------- */
+.mb-form { display: grid; gap: 1.1rem; margin: 0; }
+.mb-form--row { grid-template-columns: minmax(0, 1fr) auto; align-items: end; max-width: 34rem; }
+.mb-field { margin: 0; display: flex; flex-direction: column; gap: 0.4rem; }
+.mb-field label { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mb-quiet); }
+.mb-field :is(input, select, textarea) { font: inherit; padding: 0.8rem 0.9rem; border: 1px solid var(--mb-rule-strong); background: var(--mb-paper); color: var(--mb-ink); border-radius: 2px; }
+.mb-field button { font: inherit; font-size: 0.9375rem; font-weight: 500; padding: 0.9rem 1.6rem; border: 0; border-radius: 2px; background: var(--mb-ink); color: var(--mb-concrete); cursor: pointer; justify-self: start; }
+.mb-field button:hover { background: var(--mb-slate); }
+.mb-contact__photo { margin-top: 2rem !important; }
+.mb-contact__photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.mb-search { max-width: 30rem; }
+.mb-search .wp-block-search__input { border: 1px solid var(--mb-rule-strong); background: var(--mb-paper); padding: 0.75rem 0.9rem; border-radius: 2px; }
+.mb-search .wp-block-search__button { margin-left: 0.5rem; border-radius: 2px; background: var(--mb-ink); color: var(--mb-concrete); border: 0; }
+
+/* ---------- footer ---------- */
+.mb-foot { background: var(--mb-slate); color: var(--mb-concrete); padding-block: clamp(4rem, 7vw, 6rem) 2rem; margin-top: 0; }
+.mb-foot a { color: var(--mb-concrete); }
+.mb-foot a:hover { color: var(--mb-amber-light); }
+.mb-foot__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 3fr) minmax(0, 5fr); gap: var(--mb-gap); }
+.mb-foot__grid > * { margin: 0 !important; }
+.mb-foot__mark { font-family: var(--mb-serif); font-size: 2rem; line-height: 1.1; margin: 0 0 1rem; }
+.mb-foot__line, .mb-foot__letter { color: rgba(241, 239, 234, 0.8); font-size: 0.9375rem; max-width: 26rem; }
+.mb-foot__letter { margin-top: 1.5rem !important; padding-top: 1.25rem; border-top: 1px solid var(--mb-rule-dark); }
+.mb-foot__kicker { font-size: 0.75rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--mb-sage-light); margin: 0 0 1rem; }
+.mb-foot__list { display: flex; flex-direction: column; gap: 0.45rem; margin: 0; font-size: 0.9375rem; }
+.mb-foot__list a { text-decoration: none; }
+.mb-foot .mb-office__kicker { color: var(--mb-sage-light); }
+.mb-foot .mb-office__key { color: rgba(241, 239, 234, 0.7); }
+.mb-foot .mb-office__row { border-color: var(--mb-rule-dark); }
+.mb-foot__base { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem 2rem; margin-top: 4rem !important; padding-top: 1.25rem; border-top: 1px solid var(--mb-rule-dark); }
+.mb-foot__base > * { margin: 0 !important; }
+.mb-foot__legal { font-size: 0.75rem; color: rgba(241, 239, 234, 0.7); }
+/* a page that already shows the school card does not repeat it in the footer */
+body:has(.mb-main .mb-office) .mb-foot__school { display: none; }
+body:has(.mb-main .mb-office) .mb-foot__grid { grid-template-columns: minmax(0, 5fr) minmax(0, 3fr); }
+
+/* ---------- languages ----------
+   The sample content and the theme's words come in en, zh-TW, ja, fr and de (inc/i18n.php sets <html lang>).
+   zh-TW: headings in the bundled Noto Serif TC subset, text in the system Traditional Chinese sans.
+   ja: headings in the bundled Noto Serif JP subset, text in the system Japanese gothic.
+   Latin letters and figures inside CJK text stay in Cormorant / Jost (the subsets hold CJK characters only).
+   CJK headings run at about 0.75 of the English sizes with looser leading; body text at line-height 1.85.
+   German and French: hyphenation for long words in narrow columns. */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", Cormorant, "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: Jost, "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", Cormorant, "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: Jost, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:root:is(:lang(zh), :lang(ja)) {
+	--wp--preset--font-size--display: clamp(2.125rem, 1.3rem + 3.2vw, 3.5rem);
+	--wp--preset--font-size--xx-large: clamp(1.75rem, 1.35rem + 1.6vw, 2.625rem);
+	--wp--preset--font-size--x-large: clamp(1.3125rem, 1.15rem + 0.7vw, 1.75rem);
+	--wp--preset--font-size--large: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; text-autospace: normal; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) h1 { line-height: 1.32; }
+:lang(ja) :is(h1, h2, h3, .is-style-lead, .is-style-label, .mb-facts li, .mb-prices li, .mb-person__role, .mb-course__len, .mb-course__price, .mb-chapter__key, figcaption, .wp-block-button__link, .mb-foot__line) { word-break: auto-phrase; }
+/* zh: on wide screens a heading breaks only at its punctuation (no phrase breaking in Chinese); narrow screens wrap per character */
+@media (min-width: 601px) { :lang(zh) :is(h1, h2, h3) { word-break: keep-all; overflow-wrap: anywhere; } }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite, figcaption, .wp-block-quote, .wp-block-quote p, .mb-sign) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3) em { font-weight: inherit; color: var(--mb-sage); }
+:is(:lang(zh), :lang(ja)) .is-style-lead { line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) .wp-block-quote p { line-height: 1.75; }
+:is(:lang(zh), :lang(ja)) :is(.is-style-label, .mb-brand__line, .mb-person__role, .mb-course__len, .mb-chapter__key, .mb-office__kicker, .mb-office__key, .mb-foot__kicker, .mb-field label, .mb-meta) { font-size: 0.8125rem; letter-spacing: 0.08em; }
+:is(:lang(zh), :lang(ja)) .mb-brand__line { font-size: 0.75rem; }
+:is(:lang(zh), :lang(ja)) .mb-brand__name { font-size: 1.3125rem; letter-spacing: 0.06em; }
+:is(:lang(zh), :lang(ja)) :is(.mb-stage__title, .mb-note h3) { font-size: 1.3125rem; }
+:is(:lang(zh), :lang(ja)) :is(.mb-person__name, .mb-year__title, .mb-posts__title) { font-size: 1.25rem; line-height: 1.5; }
+:is(:lang(zh), :lang(ja)) .mb-course__name { font-size: 1.4375rem; }
+:is(:lang(zh), :lang(ja)) :is(.mb-course__price, .mb-office__addr) { font-size: 1.125rem; line-height: 1.6; }
+:is(:lang(zh), :lang(ja)) .mb-facts strong { font-size: 1rem; letter-spacing: 0.06em; }
+:is(:lang(zh), :lang(ja)) .mb-foot__mark { font-size: 1.625rem; letter-spacing: 0.06em; }
+:is(:lang(zh), :lang(ja)) .mb-sign { font-size: 1rem; letter-spacing: 0.1em; }
+:is(:lang(zh), :lang(ja)) .wp-block-image figcaption { font-family: var(--wp--preset--font-family--body); }
+:lang(de) :is(p, li, h1, h2, h3, h4, figcaption, label, .wp-block-button__link), :lang(fr) :is(p, li, h3, figcaption) { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
+@media (max-width: 600px) {
+	:is(:lang(zh), :lang(ja)) .mb-hero__title { font-size: 2.125rem; }
+	:is(:lang(zh), :lang(ja)) .mb-brand__name { font-size: 1.1875rem; }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 1180px) {
+	.mb-header .mb-header__cta { display: none; }
+	.mb-people { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.mb-people--full { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 900px) {
+	.mb-split, .mb-split--flip, .mb-row-head, .mb-head__grid, .mb-cta, .mb-chapter, .mb-foot__grid, body:has(.mb-main .mb-office) .mb-foot__grid { grid-template-columns: minmax(0, 1fr); }
+	.mb-split--flip > .mb-split__photo, .mb-chapter:nth-child(even) .mb-chapter__photo { order: 0; }
+	.mb-stages { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.mb-notes, .mb-notes--four, .mb-courses { grid-template-columns: minmax(0, 1fr); }
+	.mb-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 1rem; }
+	.mb-facts li:nth-child(3) { padding-left: 0; border-left: 0; }
+	.mb-sticky { position: static; }
+	.mb-row-head--end .wp-block-buttons { justify-content: flex-start; }
+	.mb-head__photo img { aspect-ratio: 3 / 2; }
+}
+@media (max-width: 600px) {
+	.mb-brand__line { display: none; }
+	.mb-brand__name { font-size: 1.3rem; }
+	.mb-hero__title { font-size: 2.75rem; }
+	.mb-hero .is-style-lead { font-size: 1.0625rem; }
+	.mb-stages, .mb-people--full .mb-person { grid-template-columns: minmax(0, 1fr); }
+	.mb-people--full .mb-person__photo { grid-row: auto; margin-bottom: 1.25rem !important; }
+	.mb-facts li { padding: 0 0.9rem; font-size: 0.8125rem; }
+	.mb-year { grid-template-columns: minmax(0, 1fr); }
+	.mb-year .mb-year__no { grid-row: auto; margin-bottom: 0.75rem; font-size: 1.5rem; }
+	.mb-year > * { grid-column: 1; }
+	.mb-time, .mb-office__row, .mb-chapter__row { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
+	.mb-form--row { grid-template-columns: minmax(0, 1fr); }
+	.mb-prices li { flex-direction: column; gap: 0.2rem; }
+}
+:is(:lang(fr), :lang(de)) .mb-header .wp-block-navigation__container { gap: 0.4rem 1.05rem; } :is(:lang(fr), :lang(de)) .mb-header .wp-block-navigation-item__content { font-size: 0.875rem; } :is(:lang(fr), :lang(de)) .mb-header__end { gap: 1.5rem; }
