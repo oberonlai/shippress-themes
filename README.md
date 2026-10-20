@@ -296,8 +296,10 @@ ShipPress pins the versioned URL plus its sha256 and refuses any other bytes, so
 
 ```
 index.json                 all themes' metadata + filter lists (generated, see below)
-scripts/check-themes.mjs   validator (Node 18+, no dependencies)
+scripts/check-themes.mjs   validator (Node 18+, no dependencies); also the quality gate for gated themes (below)
+scripts/check-first-screen.py  first-screen colour check: python3 scripts/check-first-screen.py <png|webp> [--crop 1440x900] [--max 15]
 scripts/release-themes.mjs versioned releases + releases.json (run by the workflow)
+design-plan.json           theme queue: one row per planned theme, with optional design hints and rules.quality_gate
 themes/<slug>/
   style.css                theme header (GPL-2.0-or-later, Text Domain = <slug>)
   theme.json               settings, palette, bundled font faces, styles
@@ -308,9 +310,14 @@ themes/<slug>/
   screenshot.png           1200×900 WordPress theme thumbnail
   readme.txt               copyright and license of every bundled font and image
   README.md                design notes
-  theme-meta.json          template-wall metadata (industry, type, colors, style, fonts, pages, license)
+  theme-meta.json          template-wall metadata (industry, type, colors, style, fonts, pages, license; "quality_gate": 2 on new themes)
+  brand.md                 brand brief (name, location, founded, people, audience, tone, a day) — required by the quality gate
   demo-content.json        sample pages, posts and terms, plus the URL of each catalogue page
 ```
+
+### Quality gate (new themes since 2026-10-20)
+
+A theme whose `theme-meta.json` has `"quality_gate": 2` must also pass the minimum quality gate (`design-plan.json` → `rules.quality_gate`, ROADMAP §4 rule 0); older themes are not checked. `check-themes.mjs` checks: ≥ 8 pages and ≥ 6 posts in `demo-content.json`; ≥ 12 photo files in `assets/images` (unique by name, `demo/` copies and cut-outs not counted); ≤ 1 cut-out (PNG/WebP with an alpha channel, or "cutout" in the name); the largest `theme.json` font size ≥ 4.25rem; a `brand.md` covering name, location, founded, people, audience, tone and a day; on the front page (its patterns expanded) ≥ 250 words, ≥ 3 paragraphs of ≥ 20 words and ≥ 8 photo positions; one top menu (no side rail, one navigation block in the header). `check-first-screen.py` measures the saturated share (HSV S > 35%, V > 24%) of the 1440×900 first screen of `screenshots/home-desktop.webp`, which must be ≤ 15%.
 
 ## Add a theme
 

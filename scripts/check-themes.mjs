@@ -139,6 +139,136 @@ export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SH
   return errs;
 }
 
+// Minimum quality gate (design-plan.json rules.quality_gate, ROADMAP §4 rule 0, #226). Enforced only for themes whose
+// theme-meta.json has "quality_gate": 2, so older themes are unaffected. The first-screen colour share needs a screenshot
+// and is measured separately by scripts/check-first-screen.py.
+export const GATE = { pages: 8, posts: 6, photos: 12, cutouts: 1, fontRem: 4.25, homeWords: 250, narrative: 3, narrativeWords: 20, homePhotos: 8 };
+export const BRAND_FIELDS = {
+  name: /\bname\b/i, location: /\b(location|located|address|based in|where)\b/i, founded: /\b(found(ed|ing)?|established|since|year)\b/i,
+  people: /\b(people|person|team|staff|founder|owner|named)\b/i, audience: /\b(audience|customers?|clients?|who (it|we) serves?|for whom)\b/i,
+  tone: /\b(tone|voice)\b/i, day: /\b(day|daily|routine)\b/i,
+};
+const PHOTO_EXT = /\.(jpe?g|png|webp|avif)$/i;
+
+/** True when a PNG / WebP file has an alpha channel (a cut-out). */
+export function hasAlpha(buf) {
+  if (buf.length > 26 && buf.toString("latin1", 1, 4) === "PNG") {
+    if (buf[25] === 4 || buf[25] === 6) return true;
+    for (let o = 8; o + 8 <= buf.length;) { // tRNS chunk = transparency on palette / grey / RGB images
+      const len = buf.readUInt32BE(o), type = buf.toString("latin1", o + 4, o + 8);
+      if (type === "tRNS") return true;
+      if (type === "IDAT" || type === "IEND") break;
+      o += 12 + len;
+    }
+    return false;
+  }
+  if (buf.length > 30 && buf.toString("latin1", 0, 4) === "RIFF" && buf.toString("latin1", 8, 12) === "WEBP") {
+    const chunk = buf.toString("latin1", 12, 16);
+    if (chunk === "VP8X") return (buf[20] & 0x10) !== 0;
+    if (chunk === "VP8L") return ((buf.readUInt32LE(21) >>> 28) & 1) === 1;
+  }
+  return false;
+}
+
+/** Largest font size in rem among theme.json settings.typography.fontSizes (px / 16; clamp() and fluid.max count). */
+export function maxFontRem(themeJson) {
+  const rem = (v) => Math.max(0, ...[...String(v ?? "").matchAll(/(\d*\.?\d+)\s*(rem|em|px)\b/g)].map(([, n, u]) => (u === "px" ? Number(n) / 16 : Number(n))));
+  return Math.max(0, ...(themeJson?.settings?.typography?.fontSizes ?? []).map((f) => Math.max(rem(f.size), rem(f.fluid?.max))));
+}
+
+/** Pattern body without its header comment; a synced-pattern call `<Theme>_Info::markup( 'key' )` becomes inc/info/<key>.html. */
+export function patternBody(src, read, has) {
+  const m = String(src).match(/^\s*<\?php\s*\/\*[\s\S]*?\*\/\s*(\?>)?/);
+  const body = m ? (m[1] ? "" : "<?php ") + src.slice(m[0].length) : String(src);
+  const out = body.replace(/(?:echo\s+)?[\w\\]+::markup\(\s*['"]([\w-]+)['"]\s*\)\s*;?/g, (all, key) => (has(`inc/info/${key}.html`) ? `?>${read(`inc/info/${key}.html`)}<?php ` : ""));
+  return out.lastIndexOf("<?php") > out.lastIndexOf("?>") ? `${out} ?>` : out; // never leave PHP open for the next pattern
+}
+
+/** Pattern slug -> markup, from patterns/*.php "Slug:" headers. */
+function patternMap(dir, read, has) {
+  return new Map((has("patterns") ? readdirSync(join(dir, "patterns")).filter((f) => f.endsWith(".php")) : [])
+    .map((f) => [(read(`patterns/${f}`).match(/^\s*\*\s*Slug:\s*(\S+)/m) || [])[1], patternBody(read(`patterns/${f}`), read, has)]).filter(([s]) => s));
+}
+
+/** Page content with every <!-- wp:pattern {"slug":...} /--> replaced by the pattern's markup, recursively. */
+export function expandPatterns(content, patterns, depth = 0) {
+  return String(content ?? "").replace(/<!--\s+wp:pattern\s+(\{.*?\})\s*\/-->/g, (all, attrs) => {
+    let slug; try { slug = JSON.parse(attrs).slug; } catch { return ""; }
+    return depth < 8 && patterns.has(slug) ? expandPatterns(patterns.get(slug), patterns, depth + 1) : "";
+  });
+}
+
+const ENTITIES = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", rsquo: "’", lsquo: "‘", rdquo: "”", ldquo: "“", mdash: "—", ndash: "–", hellip: "…", middot: "·", times: "×" };
+const decode = (s) => s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) => e[0] === "#" ? String.fromCodePoint(e[1].toLowerCase() === "x" ? parseInt(e.slice(2), 16) : Number(e.slice(1))) : (ENTITIES[e.toLowerCase()] ?? " "));
+/** Visible text of block markup: PHP, comments and tags removed, entities decoded. */
+export const plainText = (html) => decode(String(html).replace(/<\?php[\s\S]*?(\?>|$)/g, " ").replace(/<!--[\s\S]*?-->/g, " ").replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ").replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
+/** English words (tokens with at least one Latin letter). */
+export const countWords = (text) => (String(text).match(/[A-Za-z0-9][A-Za-z0-9'’-]*/g) ?? []).filter((w) => /[A-Za-z]/.test(w)).length;
+
+/** Metrics of the expanded home-page markup: words, narrative paragraphs, photo positions. */
+export function homeMetrics(html, isCutout = () => false) {
+  const noPhp = String(html).replace(/<\?php[\s\S]*?(\?>|$)/g, " ");
+  const words = countWords(plainText(noPhp));
+  const narrative = [...noPhp.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].filter(([, inner]) => countWords(plainText(inner)) >= GATE.narrativeWords).length;
+  const base = (u) => u.replace(/[?#].*$/, "").replace(/^.*\//, "");
+  let photos = [...noPhp.matchAll(/<img\b[^>]*\bsrc=["']([^"']+)["']/gi)].filter(([, src]) => !isCutout(base(src))).length;
+  photos += [...noPhp.matchAll(/background(?:-image)?\s*:[^;"]*url\(\s*['"]?([^'")]+)/gi)].filter(([, src]) => !isCutout(base(src))).length;
+  // Covers stored with only the url attribute (no <img> in the saved markup).
+  for (const [, attrs, inner] of noPhp.matchAll(/<!--\s+wp:cover\s+(\{.*?\})\s*-->([\s\S]*?)<!--\s+\/wp:cover\s+-->/g))
+    if (/"url":"[^"]+"/.test(attrs) && !/<img\b|background(?:-image)?\s*:[^;"]*url\(/i.test(inner.split(/<!--\s+wp:/)[0])) photos++;
+  // Query loops with a featured image show one photo per post.
+  for (const [, attrs, inner] of noPhp.matchAll(/<!--\s+wp:query\s+(\{.*?\})\s*-->([\s\S]*?)<!--\s+\/wp:query\s+-->/g))
+    if (/wp:post-featured-image/.test(inner)) { let n = 3; try { n = JSON.parse(attrs).query?.perPage ?? 3; } catch {} photos += Number(n) || 0; }
+  return { words, narrative, photos };
+}
+
+/** Quality-gate metrics for one theme folder. */
+export function gateMetrics(dir) {
+  const has = (p) => existsSync(join(dir, p));
+  const read = (p) => readFileSync(join(dir, p), "utf8");
+  let demo = null, theme = null;
+  try { demo = JSON.parse(read("demo-content.json")); } catch {}
+  try { theme = JSON.parse(read("theme.json")); } catch {}
+  const images = has("assets/images") ? walk(join(dir, "assets/images")).map((f) => relative(join(dir, "assets/images"), f)).filter((f) => !f.startsWith("demo/") && PHOTO_EXT.test(f)) : [];
+  const cutoutFiles = images.filter((f) => /cut-?out/i.test(f) || (/\.(png|webp)$/i.test(f) && hasAlpha(readFileSync(join(dir, "assets/images", f)))));
+  const stem = (f) => f.replace(/^.*\//, "").replace(/\.\w+$/, "");
+  const cutStems = new Set(cutoutFiles.map(stem));
+  const photoStems = new Set(images.map(stem).filter((s) => !cutStems.has(s)));
+  const front = (demo?.pages ?? []).find((p) => p.role === "front");
+  const home = homeMetrics(expandPatterns(front?.content ?? "", patternMap(dir, read, has)), (b) => cutStems.has(stem(b)) || /cut-?out/i.test(b));
+  const brand = has("brand.md") ? read("brand.md") : null;
+  return {
+    pages: (demo?.pages ?? []).length, posts: (demo?.posts ?? []).length, photos: photoStems.size, cutouts: cutStems.size,
+    fontRem: maxFontRem(theme), home, brandMissing: brand === null ? null : Object.keys(BRAND_FIELDS).filter((k) => !BRAND_FIELDS[k].test(brand)),
+  };
+}
+
+/** Problems against the minimum quality gate (only for theme-meta.json "quality_gate": 2). */
+export function checkQualityGate(dir) {
+  const errs = [], m = gateMetrics(dir), g = GATE;
+  const has = (p) => existsSync(join(dir, p));
+  const read = (p) => readFileSync(join(dir, p), "utf8");
+  if (m.pages < g.pages) errs.push(`quality gate: ${m.pages} pages in demo-content.json (needs >= ${g.pages})`);
+  if (m.posts < g.posts) errs.push(`quality gate: ${m.posts} posts in demo-content.json (needs >= ${g.posts})`);
+  if (m.photos < g.photos) errs.push(`quality gate: ${m.photos} photo files in assets/images (needs >= ${g.photos}, cut-outs and demo/ copies not counted)`);
+  if (m.cutouts > g.cutouts) errs.push(`quality gate: ${m.cutouts} cut-outs (transparent-background images) in assets/images (at most ${g.cutouts})`);
+  if (m.fontRem < g.fontRem) errs.push(`quality gate: largest theme.json font size is ${m.fontRem}rem (needs >= ${g.fontRem}rem)`);
+  if (m.brandMissing === null) errs.push("quality gate: brand.md is missing (name, location, founded, people, audience, tone, day)");
+  else if (m.brandMissing.length) errs.push(`quality gate: brand.md does not cover ${m.brandMissing.join(", ")}`);
+  if (m.home.words < g.homeWords) errs.push(`quality gate: home page has ${m.home.words} words (needs >= ${g.homeWords})`);
+  if (m.home.narrative < g.narrative) errs.push(`quality gate: home page has ${m.home.narrative} paragraphs of >= ${g.narrativeWords} words (needs >= ${g.narrative})`);
+  if (m.home.photos < g.homePhotos) errs.push(`quality gate: home page has ${m.home.photos} photo positions (needs >= ${g.homePhotos})`);
+  // One top menu: no side rail anywhere, at most one navigation block in the header.
+  for (const sub of ["parts", "templates", "patterns"]) if (has(sub)) for (const f of readdirSync(join(dir, sub)))
+    if (/side-?rail/i.test(f) || /class(Name)?["']?\s*[:=]\s*["'][^"']*side-?rail/i.test(read(`${sub}/${f}`))) errs.push(`quality gate: ${sub}/${f} has a side rail (one top menu only)`);
+  if (has("parts/header.html")) {
+    const header = expandPatterns(read("parts/header.html"), patternMap(dir, read, has));
+    const navs = (header.match(/<!--\s+wp:navigation\s/g) ?? []).length;
+    if (navs > 1) errs.push(`quality gate: parts/header.html has ${navs} navigation blocks (one top menu only)`);
+  }
+  return errs;
+}
+
 export function checkTheme(dir, slug) {
   const errs = [];
   const has = (p) => existsSync(join(dir, p));
@@ -209,6 +339,8 @@ export function checkTheme(dir, slug) {
       }
     } else errs.push("demo-content.json is missing");
   }
+  if (meta?.quality_gate === 2) errs.push(...checkQualityGate(dir));
+  else if (meta && meta.quality_gate !== undefined) errs.push('theme-meta.json quality_gate must be 2 (or left out for themes built before the gate)');
 
   for (const f of walk(dir).filter((f) => TEXT.test(f))) {
     const rel = relative(dir, f);
