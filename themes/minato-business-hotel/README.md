@@ -10,16 +10,16 @@ The demo hotel is fictional: opened in 1987 by Arthur Penrose, a former ship's e
 - **Type.** Cormorant (display, roman and italic) up to 4.75 rem over Jost (text). Both OFL-1.1 without a Reserved Font Name, subset to Latin WOFF2.
 - **Photographs.** 17 high-key photographs generated with one shared style string (28 mm, bright soft daylight, white linen, pale oak, warm stone greys, a faint dusty rose). Rooms, lobby, breakfast, the street to the station, the harbour at dusk, hands at the desk and three calm portraits. No cut-outs, no illustrations.
 
-## Front page
+## Front page (1.1.0)
 
-1. **The room at first light**: a full-bleed photograph of a quiet double room under a solid top header; below it the headline "A quiet room *by the station.*" beside a short paragraph and two links; then an info bar (four minutes from the station, 84 rooms, breakfast from six, the front desk telephone). No booking search on the first screen.
-2. **An independent hotel**: a letter from the general manager (two narrative paragraphs) beside the lobby.
-3. **Your stay**: six photographed steps, from the platform to checkout.
-4. **Four kinds of room, one honest price**: a paragraph on prices and four plain lines beside a breakfast photograph.
-5. **Rooms and rates**: one plain ruled table and a typical week, well below the first screen.
-6. **People**: four portraits with one line each.
-7. **Business stays**: a warm charcoal band with a photograph and a regular guest's words.
-8. **Journal** (latest three) and a **call to reserve**.
+1. **The room at first light**: a full-height photograph of a quiet double room; the headline "A quiet room *by the station.*", a short paragraph and two links on a paper card over its lower left corner. No booking search on the first screen.
+2. **Arrival strip**: check-in, checkout, breakfast hours, minutes from the station and the front desk in one ruled line (information, not a form).
+3. **One night at Minato**: two narrative paragraphs, then seven photographs of different heights in a masonry, each with a time (14.00 to 06.40), a title and a line.
+4. **Four rooms, one honest price**: four room cards side by side with a photograph, who the room suits, size, desk, view and the price from.
+5. **On foot from the door**: a wide photograph of the street from the station, a paragraph on the neighbourhood and walking minutes to six places.
+6. **Long stays and company accounts**: an essay in two columns with three plain terms, beside a small photograph of the lounge.
+7. **Guests in their own words**: three quotations in ruled columns.
+8. **Journal** (latest three) and **Book direct**: the lobby photograph with telephone, email and address.
 
 ## Languages
 
@@ -43,4 +43,27 @@ Home, Rooms & rates, Your stay, People, Breakfast, Business stays, About, Journa
 GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated for this theme, released under GPL-2.0-or-later / CC0. All names, the city, the address, telephone numbers and prices are fictional.
 
 <!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Minato Business Hotel home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Minato Business Hotel home page on mobile"></td>
+</tr>
+</table>
+
+- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
+- Your stay: [desktop](screenshots/your-stay-desktop.webp) · [mobile](screenshots/your-stay-mobile.webp)
+- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
+- Breakfast: [desktop](screenshots/breakfast-desktop.webp) · [mobile](screenshots/breakfast-mobile.webp)
+- Business: [desktop](screenshots/business-desktop.webp) · [mobile](screenshots/business-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
 <!-- screenshots:end -->
