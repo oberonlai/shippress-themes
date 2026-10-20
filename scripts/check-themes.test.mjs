@@ -7,7 +7,7 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { checkZhFonts, woff2Codepoints, zhCjkChars, zhTwText } from "./zh-fonts.mjs";
 import { spawnSync } from "node:child_process";
-import { buildIndex, checkTheme, cssWords, expandPatterns, gateMetrics, hasAlpha, homeMetrics, LEGACY_IMPORTERS, maxFontRem, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
+import { buildIndex, checkTheme, cssWords, expandPatterns, gateMetrics, hasAlpha, homeMetrics, i18nStrings, LEGACY_IMPORTERS, maxFontRem, patternBody, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
 
 const THEMES = fileURLToPath(new URL("../themes/", import.meta.url));
 const slugs = readdirSync(THEMES).sort();
@@ -312,6 +312,17 @@ test("quality gate: home page words, narrative paragraphs and photo positions (p
   const rich = '<!-- wp:cover {"url":"a.jpg"} --><div class="wp-block-cover"></div><!-- /wp:cover --><div style="background-image:url(b.jpg)"></div><img src="c-cutout.png"/>'
     + '<!-- wp:query {"query":{"perPage":4}} --><!-- wp:post-template --><!-- wp:post-featured-image /--><!-- /wp:post-template --><!-- /wp:query -->';
   assert.equal(homeMetrics(rich, (b) => /cutout/.test(b)).photos, 6);
+});
+
+test("quality gate: a multilingual theme is measured on the English words its patterns print (inc/i18n/en.php)", () => {
+  const en = "<?php\nreturn array(\n\t'lead' => 'It\\'s calm & <em>quiet</em>',\n\t'alt' => 'A road',\n);\n";
+  assert.deepEqual([...i18nStrings(en)], [["lead", "It's calm & <em>quiet</em>"], ["alt", "A road"]]);
+  const files = { "inc/i18n/en.php": en };
+  const read = (p) => files[p], has = (p) => p in files;
+  const src = "<?php\n/**\n * Title: X\n */\n?>\n<p><?php echo wp_kses_post( x_t( 'lead' ) ); ?></p><img alt=\"<?php echo esc_attr( x_t( 'alt' ) ); ?>\"/><p><?php echo esc_html( x_t( 'gone' ) ); ?></p>";
+  assert.equal(patternBody(src, read, has).trim(), "<p>It's calm & <em>quiet</em></p><img alt=\"A road\"/><p><?php echo esc_html( x_t( 'gone' ) ); ?></p>");
+  const m = gateMetrics(join(THEMES, "hokuto-driving-school"));
+  assert.ok(m.home.words >= 250 && m.home.narrative >= 3 && m.home.photos >= 8, JSON.stringify(m.home));
 });
 
 test("quality gate: one top menu (no side rail, one navigation in the header)", () => {

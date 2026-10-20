@@ -12,17 +12,17 @@
 <section class="wp-block-group alignfull hk-section"><!-- wp:group {"align":"wide","className":"hk-row-head hk-row-head--end","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hk-row-head hk-row-head--end"><!-- wp:group {"className":"hk-row-head__title","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-row-head__title"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">Journal</p>
+<p class="is-style-label"><?php echo wp_kses_post( hokuto_driving_school_t( 'latest_journal_01' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Notes from the depot.</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( hokuto_driving_school_t( 'latest_journal_02' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-text-link"} -->
-<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/journal/">All journal notes</a></div>
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/journal/"><?php echo wp_kses_post( hokuto_driving_school_t( 'latest_journal_03' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -34,7 +34,7 @@
 <!-- wp:group {"className":"hk-meta","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group hk-meta"><!-- wp:post-terms {"term":"category"} /-->
 
-<!-- wp:post-date {"format":"j F Y"} /--></div>
+<!-- wp:post-date {"format":<?php echo wp_json_encode( hokuto_driving_school_t( 'date_format' ) ); ?>} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:post-title {"level":3,"isLink":true,"className":"hk-posts__title"} /-->

@@ -11,22 +11,22 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"hk-head hk-section--last","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hk-head hk-section--last"><!-- wp:group {"align":"wide","className":"hk-narrow","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hk-narrow"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">Page not found</p>
+<p class="is-style-label"><?php echo wp_kses_post( hokuto_driving_school_t( 'not_found_01' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"hk-head__title"} -->
-<h1 class="wp-block-heading hk-head__title">A wrong turn. It happens to everyone.</h1>
+<h1 class="wp-block-heading hk-head__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'not_found_02' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"is-style-lead"} -->
-<p class="is-style-lead">The page you were looking for has moved or never existed. Try a search, or start again from the home page.</p>
+<p class="is-style-lead"><?php echo wp_kses_post( hokuto_driving_school_t( 'not_found_03' ) ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search the site…","buttonText":"Search","className":"hk-search"} /-->
+<!-- wp:search {"label":<?php echo wp_json_encode( hokuto_driving_school_t( 'not_found_04' ) ); ?>,"showLabel":false,"placeholder":<?php echo wp_json_encode( hokuto_driving_school_t( 'not_found_05' ) ); ?>,"buttonText":<?php echo wp_json_encode( hokuto_driving_school_t( 'not_found_04' ) ); ?>,"className":"hk-search"} /-->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-text-link"} -->
-<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/">Back to the home page</a></div>
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/"><?php echo wp_kses_post( hokuto_driving_school_t( 'not_found_06' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>

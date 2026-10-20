@@ -12,22 +12,22 @@
 <section class="wp-block-group alignfull hk-head hk-head--photo"><!-- wp:group {"align":"wide","className":"hk-head__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hk-head__grid"><!-- wp:group {"className":"hk-head__main","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-head__main"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">About the school</p>
+<p class="is-style-label"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_head_01' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"hk-head__title"} -->
-<h1 class="wp-block-heading hk-head__title">Forty years in the old <em>tram depot</em>.</h1>
+<h1 class="wp-block-heading hk-head__title"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_head_02' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-head__side","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-head__side"><!-- wp:paragraph {"className":"is-style-lead"} -->
-<p class="is-style-lead">A family driving school on Mill Lane, Fenwick Hill: one brick shed, one practice yard, four dual-control cars and the same patient way of teaching since 1986.</p>
+<p class="is-style-lead"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_head_03' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"alignwide hk-head__photo"} -->
-<figure class="wp-block-image size-large alignwide hk-head__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/theory-room.webp' ) ); ?>" alt="The upstairs theory room in the depot at dusk: wooden chairs, a blank whiteboard and a lamp on the desk"/><figcaption class="wp-element-caption">The theory room upstairs, ready for Thursday evening.</figcaption></figure>
+<figure class="wp-block-image size-large alignwide hk-head__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/theory-room.webp' ) ); ?>" alt="<?php echo esc_attr( hokuto_driving_school_t( 'about_head_04' ) ); ?>"/><figcaption class="wp-element-caption"><?php echo wp_kses_post( hokuto_driving_school_t( 'about_head_05' ) ); ?></figcaption></figure>
 <!-- /wp:image --></section>
 <!-- /wp:group -->

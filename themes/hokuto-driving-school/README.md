@@ -2,7 +2,7 @@
 
 A calm, photograph-led block theme for a **family driving school**: lessons in manual and automatic cars, nervous-driver lessons, refreshers and test preparation.
 
-The demo school is fictional: founded in 1986 by Ellen and Tomas Hokuto in the old tram depot on Mill Lane, Fenwick Hill, run today by their daughter Mara with four instructors and Joan at the booking desk. The whole brand (people, place, tone, a day at the school) is written down in [`brand.md`](brand.md); every page's copy comes from it. Type: education, English only. Built to the quality gate in ROADMAP §4 (rule 0) and `rules.quality_gate` in design-plan.json (row b6-3).
+The demo school is fictional: founded in 1986 by Ellen and Tomas Hokuto in the old tram depot on Mill Lane, Fenwick Hill, run today by their daughter Mara with four instructors and Joan at the booking desk. The whole brand (people, place, tone, a day at the school) is written down in [`brand.md`](brand.md); every page's copy comes from it. Type: education. Sample content in English, Traditional Chinese (zh-TW), Japanese, French and German (since 1.1.0). Built to the quality gate in ROADMAP §4 (rule 0) and `rules.quality_gate` in design-plan.json (row b6-3).
 
 ## Concept: calm first, then the road
 
@@ -19,6 +19,16 @@ The demo school is fictional: founded in 1986 by Ellen and Tomas Hokuto in the o
 5. **Instructors**: four portraits with one line each.
 6. **Nervous drivers**: a deep slate band with the moor road and a learner's words.
 7. **Journal** (latest three) and a **booking call** beside the booking office.
+
+## Languages (1.1.0)
+
+The sample content and every word the theme itself shows (header line and button, footer, template headings, the patterns) come in **en, zh-TW, ja, fr and de**. The shared importer picks the language (`shippress_demo_lang`, else the site language) and imports `demo-content.<lang>.json`; the patterns print their words through `hokuto_driving_school_t( 'key' )` from `inc/i18n/<lang>.php` (English fallback, `inc/i18n.php`), and the synced school card starts from `inc/info/<lang>/school.html`. Template text lives in small `tpl-*`, `head-*` and `footer-main` patterns so it can be translated too.
+
+The copy is localised, not translated: people and places keep the brand (Fenwick Hill, the Old Tram Depot, Mara, Daniel, Priya, Sam, Joan), while lessons, courses, prices and the licence process follow each country (a Taiwanese driving school's full course with the yard test and the road test at the licensing office's examiners; a Japanese designated school's 50-minute periods, provisional licence and graduation test; the French permis B with the code and a 32-minute exam; the German Fahrschule with Sonderfahrten and the praktische Prüfung), in local currency.
+
+- **Type.** zh-TW headings use a bundled subset of Noto Serif TC (Regular), ja headings a bundled subset of Noto Serif JP (Regular), each built from exactly the characters of that language's sample text; Latin letters and figures stay in Newsreader. Body text uses the system Traditional Chinese / Japanese sans (never a Japanese font on zh-TW pages). CJK headings run at about three quarters of the English sizes, with looser leading (body 1.85) and no italics; Japanese headings break by phrase (`word-break: auto-phrase`).
+- **German and French** paragraphs and narrow columns hyphenate (`hyphens: auto`), so long compounds wrap instead of overflowing.
+- Screenshots of every page per language are in `screenshots/<lang>/`.
 
 ## One source for shared details
 
@@ -55,4 +65,5 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 - Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
 - Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
 - Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
 <!-- screenshots:end -->

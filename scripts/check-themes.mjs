@@ -176,10 +176,23 @@ export function maxFontRem(themeJson) {
   return Math.max(0, ...(themeJson?.settings?.typography?.fontSizes ?? []).map((f) => Math.max(rem(f.size), rem(f.fluid?.max))));
 }
 
-/** Pattern body without its header comment; a synced-pattern call `<Theme>_Info::markup( 'key' )` becomes inc/info/<key>.html. */
+/** inc/i18n/en.php of a multilingual theme: key -> the English words its patterns print with `<slug>_t( 'key' )`. */
+export function i18nStrings(php) {
+  const out = new Map();
+  for (const [, k, v] of String(php ?? "").matchAll(/^\s*'([\w-]+)'\s*=>\s*'((?:[^'\\]|\\.)*)',?\s*$/gm)) out.set(k, v.replace(/\\(['\\])/g, "$1"));
+  return out;
+}
+
+/** Pattern body without its header comment; a synced-pattern call `<Theme>_Info::markup( 'key' )` becomes inc/info/<key>.html,
+ *  and a translated string `<?php echo esc_html( <slug>_t( 'key' ) ); ?>` (wp_kses_post, esc_attr too) becomes its English
+ *  words from inc/i18n/en.php, so a multilingual theme is measured on the copy it prints. */
 export function patternBody(src, read, has) {
   const m = String(src).match(/^\s*<\?php\s*\/\*[\s\S]*?\*\/\s*(\?>)?/);
-  const body = m ? (m[1] ? "" : "<?php ") + src.slice(m[0].length) : String(src);
+  let body = m ? (m[1] ? "" : "<?php ") + src.slice(m[0].length) : String(src);
+  if (has("inc/i18n/en.php")) {
+    const en = i18nStrings(read("inc/i18n/en.php"));
+    body = body.replace(/<\?php\s+echo\s+(?:esc_html|esc_attr|wp_kses_post)\(\s*\w+_t\(\s*'([\w-]+)'\s*\)\s*\);?\s*\?>/g, (all, key) => (en.has(key) ? en.get(key) : all));
+  }
   const out = body.replace(/(?:echo\s+)?[\w\\]+::markup\(\s*['"]([\w-]+)['"]\s*\)\s*;?/g, (all, key) => (has(`inc/info/${key}.html`) ? `?>${read(`inc/info/${key}.html`)}<?php ` : ""));
   return out.lastIndexOf("<?php") > out.lastIndexOf("?>") ? `${out} ?>` : out; // never leave PHP open for the next pattern
 }

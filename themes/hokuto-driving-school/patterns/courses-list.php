@@ -12,109 +12,109 @@
 <section class="wp-block-group alignfull hk-section hk-section--flush"><!-- wp:group {"align":"wide","className":"hk-courses","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hk-courses"><!-- wp:group {"className":"hk-course","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-course"><!-- wp:heading {"level":3,"className":"hk-course__name"} -->
-<h3 class="wp-block-heading hk-course__name">Standard course, manual</h3>
+<h3 class="wp-block-heading hk-course__name"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_08' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hk-course__len"} -->
-<p class="hk-course__len">About 40 hours over three to five months</p>
+<p class="hk-course__len"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_01' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__text"} -->
-<p class="hk-course__text">Our usual route from the yard to test day, at one or two lessons a week. Most first-time learners take this course, and most of them pass first time.</p>
+<p class="hk-course__text"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_02' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__price"} -->
-<p class="hk-course__price">£54 a lesson · £510 for ten</p>
+<p class="hk-course__price"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_03' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-course","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-course"><!-- wp:heading {"level":3,"className":"hk-course__name"} -->
-<h3 class="wp-block-heading hk-course__name">Standard course, automatic</h3>
+<h3 class="wp-block-heading hk-course__name"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_09' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hk-course__len"} -->
-<p class="hk-course__len">About 35 hours</p>
+<p class="hk-course__len"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_04' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__text"} -->
-<p class="hk-course__text">The same route in one of our two automatic cars. A good choice if you only ever plan to drive an automatic, or if gears are the thing standing between you and a licence.</p>
+<p class="hk-course__text"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__price"} -->
-<p class="hk-course__price">£56 a lesson · £530 for ten</p>
+<p class="hk-course__price"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_06' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-course","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-course"><!-- wp:heading {"level":3,"className":"hk-course__name"} -->
-<h3 class="wp-block-heading hk-course__name">Two-week intensive</h3>
+<h3 class="wp-block-heading hk-course__name"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_10' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hk-course__len"} -->
-<p class="hk-course__len">30 hours in ten weekdays</p>
+<p class="hk-course__len"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_07' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__text"} -->
-<p class="hk-course__text">Three hours a day with one instructor, ending in a booked test. Only for learners who already have some hours behind them: we assess you first, honestly, and will say if it is not right for you.</p>
+<p class="hk-course__text"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_08' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__price"} -->
-<p class="hk-course__price">£1,080 including test-day car</p>
+<p class="hk-course__price"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_09' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-course","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-course"><!-- wp:heading {"level":3,"className":"hk-course__name"} -->
-<h3 class="wp-block-heading hk-course__name">Refresher</h3>
+<h3 class="wp-block-heading hk-course__name"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_11' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hk-course__len"} -->
-<p class="hk-course__len">Three lessons, then decide</p>
+<p class="hk-course__len"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_10' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__text"} -->
-<p class="hk-course__text">For licence holders coming back after years away, or after an accident. We start wherever you are comfortable: often the yard, sometimes the motorway.</p>
+<p class="hk-course__text"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_11' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__price"} -->
-<p class="hk-course__price">£150 for three lessons</p>
+<p class="hk-course__price"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_12' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-course","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-course"><!-- wp:heading {"level":3,"className":"hk-course__name"} -->
-<h3 class="wp-block-heading hk-course__name">Licence conversion</h3>
+<h3 class="wp-block-heading hk-course__name"><?php echo wp_kses_post( hokuto_driving_school_t( 'contact_main_12' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hk-course__len"} -->
-<p class="hk-course__len">Usually 6 to 10 hours</p>
+<p class="hk-course__len"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_13' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__text"} -->
-<p class="hk-course__text">For experienced drivers from abroad: local road signs, roundabouts, the theory test and the habits examiners look for here.</p>
+<p class="hk-course__text"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_14' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__price"} -->
-<p class="hk-course__price">£54 a lesson</p>
+<p class="hk-course__price"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_15' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hk-course","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-course"><!-- wp:heading {"level":3,"className":"hk-course__name"} -->
-<h3 class="wp-block-heading hk-course__name">Motorway &amp; night module</h3>
+<h3 class="wp-block-heading hk-course__name"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_16' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hk-course__len"} -->
-<p class="hk-course__len">Two evening lessons with Sam</p>
+<p class="hk-course__len"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_17' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__text"} -->
-<p class="hk-course__text">After you pass: two longer evening drives on the dual carriageway and the motorway, in the dark and, if the weather obliges, in the rain.</p>
+<p class="hk-course__text"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_18' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-course__price"} -->
-<p class="hk-course__price">£120 for both</p>
+<p class="hk-course__price"><?php echo wp_kses_post( hokuto_driving_school_t( 'courses_list_19' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
