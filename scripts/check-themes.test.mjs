@@ -6,7 +6,8 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { checkZhFonts, woff2Codepoints, zhCjkChars, zhTwText } from "./zh-fonts.mjs";
-import { buildIndex, checkTheme, cssWords, LEGACY_IMPORTERS, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
+import { spawnSync } from "node:child_process";
+import { buildIndex, checkTheme, cssWords, expandPatterns, gateMetrics, hasAlpha, homeMetrics, LEGACY_IMPORTERS, maxFontRem, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
 
 const THEMES = fileURLToPath(new URL("../themes/", import.meta.url));
 const slugs = readdirSync(THEMES).sort();
@@ -250,4 +251,101 @@ test("zh-TW font check fails when a Japanese subset is declared inside a Latin f
     writeFileSync(f, JSON.stringify(j, null, "\t"));
   });
   assert.match(errs.join("\n"), /WordPress renames it/);
+});
+
+// Minimum quality gate (#226): only themes with "quality_gate": 2 in theme-meta.json are checked.
+// Asa Linen (one of the reference themes) plus a brand.md is the passing fixture.
+const BRAND = "# Brand brief\n\n- Name: Asa Linen\n- Location: an upstairs atelier in Hatori-machi\n- Founded: 2009\n- People: Mio Asano (weaver), Ken Ota (cutter)\n- Audience: people who sleep in linen all year\n- Tone: quiet, plain, warm\n- A day: looms at eight, washing at noon, folding by the window at four\n";
+function withGated(edit, { slug = "asa-linen", gate = 2, brand = BRAND } = {}) {
+  const dir = mkdtempSync(join(tmpdir(), "theme-gate-check-"));
+  try {
+    const t = join(dir, slug);
+    cpSync(join(THEMES, slug), t, { recursive: true });
+    const meta = JSON.parse(readFileSync(join(t, "theme-meta.json"), "utf8"));
+    if (gate !== null) meta.quality_gate = gate;
+    // Keep non-ASCII escaped, as the theme files do (theme copy outside ja/zh-TW files must stay ASCII-English).
+    writeFileSync(join(t, "theme-meta.json"), JSON.stringify(meta, null, 2).replace(/[\u0080-\uffff]/g, (c) => `\\u${c.charCodeAt(0).toString(16).padStart(4, "0")}`));
+    if (brand) writeFileSync(join(t, "brand.md"), brand);
+    edit?.(t);
+    return checkTheme(t, slug);
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+}
+const PNG_RGBA = Buffer.concat([Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a, 0, 0, 0, 13]), Buffer.from("IHDR"), Buffer.from([0, 0, 0, 1, 0, 0, 0, 1, 8, 6, 0, 0, 0]), Buffer.alloc(4)]);
+const PNG_RGB = Buffer.from(PNG_RGBA); PNG_RGB[25] = 2;
+
+test("quality gate: a gated theme that meets every item passes", () => {
+  assert.deepEqual(withGated(), []);
+  const m = gateMetrics(join(THEMES, "asa-linen"));
+  assert.deepEqual([m.pages, m.posts, m.photos, m.cutouts, m.fontRem], [8, 6, 17, 0, 5.4]);
+  assert.ok(m.home.words >= 250 && m.home.narrative >= 3 && m.home.photos >= 8, JSON.stringify(m.home));
+});
+
+test("quality gate: an ungated theme is not checked, a wrong gate value is refused", () => {
+  const thin = slugs.find((s) => s === "jika-tabi") ?? slugs[0];
+  assert.doesNotMatch(withGated(null, { slug: thin, gate: null, brand: null }).join("\n"), /quality gate/);
+  assert.match(withGated(null, { slug: thin, brand: null }).join("\n"), /quality gate/);
+  assert.match(withGated(null, { gate: 1 }).join("\n"), /quality_gate must be 2/);
+});
+
+test("quality gate: pages, posts, photos, cut-outs, font size and brand.md", () => {
+  const demoEdit = (fn) => (t) => { const f = join(t, "demo-content.json"); const d = JSON.parse(readFileSync(f, "utf8")); fn(d); writeFileSync(f, JSON.stringify(d)); };
+  assert.match(withGated(demoEdit((d) => { d.pages = d.pages.filter((p) => !["care", "fabric-guide"].includes(p.slug)); })).join("\n"), /6 pages in demo-content.json/);
+  assert.match(withGated(demoEdit((d) => { d.posts = d.posts.slice(0, 3); })).join("\n"), /3 posts in demo-content.json/);
+  const photos = withGated((t) => { for (const f of readdirSync(join(t, "assets/images")).filter((f) => f.startsWith("product-"))) rmSync(join(t, "assets/images", f)); }).join("\n");
+  assert.match(photos, /7 photo files in assets\/images \(needs >= 12/);
+  const cut = withGated((t) => { writeFileSync(join(t, "assets/images/lamp.png"), PNG_RGBA); writeFileSync(join(t, "assets/images/car-cutout.webp"), "x"); writeFileSync(join(t, "assets/images/opaque.png"), PNG_RGB); }).join("\n");
+  assert.match(cut, /2 cut-outs/);
+  const font = withGated((t) => { const f = join(t, "theme.json"); const j = JSON.parse(readFileSync(f, "utf8")); for (const s of j.settings.typography.fontSizes) s.size = "clamp(1rem, 2vw, 56px)"; writeFileSync(f, JSON.stringify(j)); }).join("\n");
+  assert.match(font, /largest theme.json font size is 3.5rem \(needs >= 4.25rem\)/);
+  assert.match(withGated(null, { brand: null }).join("\n"), /brand.md is missing/);
+  assert.match(withGated(null, { brand: "# Asa Linen\nName: Asa Linen\nLocation: Hatori-machi\n" }).join("\n"), /brand.md does not cover founded, people, audience, tone, day/);
+});
+
+test("quality gate: home page words, narrative paragraphs and photo positions (patterns expanded)", () => {
+  const home = (content) => (t) => { const f = join(t, "demo-content.json"); const d = JSON.parse(readFileSync(f, "utf8")); d.pages.find((p) => p.role === "front").content = content; writeFileSync(f, JSON.stringify(d)); };
+  const errs = withGated(home('<!-- wp:pattern {"slug":"asa-linen/home-opening"} /-->')).join("\n");
+  for (const want of [/home page has \d+ words \(needs >= 250\)/, /home page has 1 paragraphs of >= 20 words \(needs >= 3\)/, /home page has 1 photo positions \(needs >= 8\)/]) assert.match(errs, want);
+  // Nested patterns, PHP, comments and entities; covers, background images and query loops count as photo positions.
+  const pats = new Map([["a/outer", '<?php echo 1; ?><!-- wp:pattern {"slug":"a/inner"} /--><p>One &amp; two</p>'], ["a/inner", "<!-- note --><p>three four</p><img src=\"x.jpg\"/>"]]);
+  const html = expandPatterns('<!-- wp:pattern {"slug":"a/outer"} /-->', pats);
+  assert.deepEqual(homeMetrics(html), { words: 4, narrative: 0, photos: 1 });
+  const rich = '<!-- wp:cover {"url":"a.jpg"} --><div class="wp-block-cover"></div><!-- /wp:cover --><div style="background-image:url(b.jpg)"></div><img src="c-cutout.png"/>'
+    + '<!-- wp:query {"query":{"perPage":4}} --><!-- wp:post-template --><!-- wp:post-featured-image /--><!-- /wp:post-template --><!-- /wp:query -->';
+  assert.equal(homeMetrics(rich, (b) => /cutout/.test(b)).photos, 6);
+});
+
+test("quality gate: one top menu (no side rail, one navigation in the header)", () => {
+  const rail = withGated((t) => writeFileSync(join(t, "parts/side-rail.html"), '<!-- wp:group {"className":"x"} --><div></div><!-- /wp:group -->')).join("\n");
+  assert.match(rail, /parts\/side-rail.html has a side rail/);
+  const cls = withGated((t) => { const f = join(t, "parts/header.html"); writeFileSync(f, readFileSync(f, "utf8") + '\n<!-- wp:group {"className":"al-side-rail"} --><div class="al-side-rail"></div><!-- /wp:group -->'); }).join("\n");
+  assert.match(cls, /parts\/header.html has a side rail/);
+  const two = withGated((t) => { const f = join(t, "parts/header.html"); writeFileSync(f, readFileSync(f, "utf8") + '\n<!-- wp:navigation {"overlayMenu":"never"} /-->'); }).join("\n");
+  assert.match(two, /parts\/header.html has 2 navigation blocks/);
+});
+
+test("quality gate helpers: alpha detection and largest font size", () => {
+  assert.equal(hasAlpha(PNG_RGBA), true);
+  assert.equal(hasAlpha(PNG_RGB), false);
+  const webp = (chunk, flags) => { const b = Buffer.alloc(32); b.write("RIFF", 0); b.write("WEBP", 8); b.write(chunk, 12); if (chunk === "VP8X") b[20] = flags; else b.writeUInt32LE(flags, 21); return b; };
+  assert.equal(hasAlpha(webp("VP8X", 0x10)), true);
+  assert.equal(hasAlpha(webp("VP8X", 0)), false);
+  assert.equal(hasAlpha(webp("VP8L", 1 << 28)), true);
+  assert.equal(hasAlpha(webp("VP8 ", 0)), false);
+  assert.equal(maxFontRem({ settings: { typography: { fontSizes: [{ size: "1rem" }, { size: "clamp(2.6rem, 1.6rem + 4.2vw, 5.4rem)" }, { size: "80px" }] } } }), 5.4);
+  assert.equal(maxFontRem({ settings: { typography: { fontSizes: [{ size: "3rem", fluid: { min: "3rem", max: "4.5rem" } }, { size: "72px" }] } } }), 4.5);
+});
+
+test("check-first-screen.py measures the saturated share of the first screen", (t) => {
+  if (spawnSync("python3", ["-c", "import PIL"]).status !== 0) return t.skip("python3 with Pillow is not available");
+  const script = fileURLToPath(new URL("./check-first-screen.py", import.meta.url));
+  const run = (slug, ...args) => spawnSync("python3", [script, join(THEMES, slug, "screenshots/home-desktop.webp"), ...args], { encoding: "utf8" });
+  const calm = run("asa-linen");
+  assert.equal(calm.status, 0, calm.stdout + calm.stderr);
+  assert.match(calm.stdout, /^\d+\.\d% saturated pixels in the first 1440x900 \(max 15%\): ok/);
+  if (existsSync(join(THEMES, "jika-tabi"))) {
+    const loud = run("jika-tabi");
+    assert.equal(loud.status, 1);
+    assert.match(loud.stdout, /FAIL/);
+    assert.equal(run("jika-tabi", "--max", "100", "--crop", "800x600").status, 0);
+  }
 });
