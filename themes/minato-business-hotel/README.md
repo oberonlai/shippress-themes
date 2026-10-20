@@ -10,16 +10,16 @@ The demo hotel is fictional: opened in 1987 by Arthur Penrose, a former ship's e
 - **Type.** Cormorant (display, roman and italic) up to 4.75 rem over Jost (text). Both OFL-1.1 without a Reserved Font Name, subset to Latin WOFF2.
 - **Photographs.** 17 high-key photographs generated with one shared style string (28 mm, bright soft daylight, white linen, pale oak, warm stone greys, a faint dusty rose). Rooms, lobby, breakfast, the street to the station, the harbour at dusk, hands at the desk and three calm portraits. No cut-outs, no illustrations.
 
-## Front page
+## Front page (1.1.0)
 
-1. **The room at first light**: a full-bleed photograph of a quiet double room under a solid top header; below it the headline "A quiet room *by the station.*" beside a short paragraph and two links; then an info bar (four minutes from the station, 84 rooms, breakfast from six, the front desk telephone). No booking search on the first screen.
-2. **An independent hotel**: a letter from the general manager (two narrative paragraphs) beside the lobby.
-3. **Your stay**: six photographed steps, from the platform to checkout.
-4. **Four kinds of room, one honest price**: a paragraph on prices and four plain lines beside a breakfast photograph.
-5. **Rooms and rates**: one plain ruled table and a typical week, well below the first screen.
-6. **People**: four portraits with one line each.
-7. **Business stays**: a warm charcoal band with a photograph and a regular guest's words.
-8. **Journal** (latest three) and a **call to reserve**.
+1. **The room at first light**: a full-height photograph of a quiet double room; the headline "A quiet room *by the station.*", a short paragraph and two links on a paper card over its lower left corner. No booking search on the first screen.
+2. **Arrival strip**: check-in, checkout, breakfast hours, minutes from the station and the front desk in one ruled line (information, not a form).
+3. **One night at Minato**: two narrative paragraphs, then seven photographs of different heights in a masonry, each with a time (14.00 to 06.40), a title and a line.
+4. **Four rooms, one honest price**: four room cards side by side with a photograph, who the room suits, size, desk, view and the price from.
+5. **On foot from the door**: a wide photograph of the street from the station, a paragraph on the neighbourhood and walking minutes to six places.
+6. **Long stays and company accounts**: an essay in two columns with three plain terms, beside a small photograph of the lounge.
+7. **Guests in their own words**: three quotations in ruled columns.
+8. **Journal** (latest three) and **Book direct**: the lobby photograph with telephone, email and address.
 
 ## Languages
 

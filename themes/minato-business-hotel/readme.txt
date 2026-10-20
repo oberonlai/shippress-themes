@@ -6,7 +6,7 @@ Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A calm, photograph-led block theme for an independent business hotel near a station: linen-white pages, stone panels, ink text, one warm charcoal band and a single suo rose accent; Cormorant with Jost; a full-bleed photograph of a quiet room at first light above the headline and an info bar; six photographed steps from the platform to checkout; four kinds of room, one plain price table below the first screen, the people behind the desk, a company stays band and a call to reserve.
+A calm, photograph-led block theme for an independent business hotel near a station: linen-white pages, stone panels, ink text, one warm charcoal band and a single suo rose accent; Cormorant with Jost; a full-height photograph of a quiet room at first light with the headline on a paper card, an arrival strip (check-in, breakfast, the walk from the station), one night at the hotel as a masonry of timed photographs, four room cards with their specifications, the walk from the station with walking minutes, an essay on long stays and company accounts, guests' words, the journal and a plain closing to book direct.
 
 == Description ==
 
@@ -83,3 +83,11 @@ assets/images/portrait-night.webp, assets/images/demo/portrait-night.webp: AI-ge
 assets/images/room-desk.webp, assets/images/demo/room-desk.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/room-twin.webp, assets/images/demo/room-twin.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/station-walk.webp, assets/images/demo/station-walk.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
+
+== Changelog ==
+
+= 1.1.0 =
+* Front page layout redone: photograph with a paper card, arrival strip, one night as a photo masonry, four room cards, the walk from the station, a long-stay essay, guests' words, journal and book direct. Same palette, fonts and photographs.
+
+= 1.0.0 =
+* First release.
