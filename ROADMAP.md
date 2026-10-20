@@ -282,21 +282,23 @@ Mix: health 3 (dental clinic, medical check-up centre, veterinary clinic), educa
 | 53 | Hanamizuki Dental / hanamizuki-dental | dental clinic | health-wellness | split-screen | stacked-collage | top-bar | cutout-break-frame | high-key | 翡翠 #38B48B (green) | Zen Kaku Gothic New + Newsreader | booking-panel | booking-led | done (75a3c2e, 2026-10-20) (b6-1); contrast: ink on jade 6.1:1, white on deep jade #1A6B51 6.4:1; high-key photo direction; break-frame tray + dentist cut-outs |
 | 54 | Tanba Law Office / tanba-law | law firm | business-services | horizontal-strip | vertical-banner | side-rail | real-photography | low-key | 古代紫 #895B8A (purple) | Shippori Mincho + Hanken Grotesk | centered-narrow-column | service-index | done (0618f32, 2026-10-20) (b6-2); contrast: white on old purple 5.35:1, ink #21152A on white 17.4:1, deep plum #5E3B60 on white 9.25:1, brass #C9A24A on ink 7.3:1; low-key photo direction; break-frame desk lamp + partner cut-outs |
 | 55 | Hokuto Driving School / hokuto-driving-school | driving school | education-classes | editorial-magazine | full-bleed-photo | top-bar | real-photography | film-grain | 灰白 / pale concrete #F1EFEA (neutral) | Newsreader + Instrument Sans | full-bleed-photo-info-bar | alternating-longform | claimed (b6-3, 2026-10-20; trial PR open, not merged) |
-| 56 | Kasumi Mortgage / kasumi-mortgage | mortgage broker | business-services | card-mosaic | photo-left-text-right | split | real-photography | documentary | 露草 #3A6EA5 (blue) | Noto Serif JP + Inter | top-bottom-halves | calculator-cta | todo (b6-4) |
-| 57 | Minato Business Hotel / minato-business-hotel | business hotel | travel-stays | asymmetric-masonry | full-bleed-photo | centered | real-photography | high-key | 真朱 #C73E3A (red) | Kaisei Decol + Jost | full-bleed-photo-info-bar | comparison-table | todo (b6-5) |
-| 58 | Hagane Machinery / hagane-machinery | industrial machinery maker | business-services | editorial-magazine | framed-window | top-bar | real-photography | low-key | 納戸色 #2A83A2 (cyan) | Zen Kaku Gothic Antique + Archivo | top-bottom-halves | alternating-longform | todo (b6-6) |
-| 59 | Seiko Health Check Centre / seiko-health-check | medical check-up centre | health-wellness | split-screen | text-left-photo-right | overlay | real-photography | film-grain | 青緑 #00A381 (green) | Kosugi + Lexend | top-bottom-halves | diagnostic-quiz | todo (b6-7) |
-| 60 | Tsumugi Architects / tsumugi-architects | architecture design studio | business-services | sticky-media | full-bleed-photo | top-bar | real-photography | documentary | 照柿 #EC6D51 (vermilion) | Shippori Antique B1 + Instrument Serif | timeline-line | timeline-milestone | todo (b6-8) |
-| 61 | Kotoba Language School / kotoba-language-school | adult language school | education-classes | horizontal-strip | photo-left-text-right | centered | real-photography | high-key | 紫苑 #8F77B5 (purple) | Sawarabi Gothic + Urbanist | three-equal-columns | practitioner-directory | todo (b6-9) |
-| 62 | Sentinel Cyber / sentinel-cyber | managed cybersecurity firm | business-services | editorial-magazine | text-left-photo-right | split | real-photography | low-key | 紺 #223A70 (blue) | IBM Plex Sans JP + IBM Plex Mono | top-bottom-halves | dashboard-metrics | todo (b6-10) |
-| 63 | Chuo Conference Hall / chuo-conference-hall | conference venue | events-community | split-screen | framed-window | top-bar | real-photography | film-grain | 黄金 #E6B422 (yellow) | Kaisei Opti + Schibsted Grotesk | top-bottom-halves | day-schedule | todo (b6-11) |
-| 64 | Nami Staffing / nami-staffing | staffing agency | business-services | single-column-longform | full-bleed-photo | overlay | real-photography | documentary | 躑躅 #E95295 (pink) | Zen Maru Gothic + Nunito | full-bleed-photo-info-bar | process-timeline | todo (b6-12) |
-| 65 | Machi Stay Apartments / machi-stay | serviced apartment | travel-stays | asymmetric-masonry | full-bleed-photo | top-bar | real-photography | high-key | 萌葱 #006E54 (green) | Noto Sans JP + Source Serif 4 | full-bleed-photo-info-bar | faq-led | todo (b6-13) |
-| 66 | Ekimae Realty / ekimae-realty | real estate agency | business-services | card-mosaic | photo-left-text-right | split | real-photography | low-key | 洗朱 #FB966E (vermilion) | Kiwi Maru + Libre Franklin | top-bottom-halves | locations-network | todo (b6-14) |
-| 67 | Midori Animal Clinic / midori-animal-clinic | veterinary clinic | health-wellness | single-column-longform | text-left-photo-right | centered | real-photography | film-grain | 天色 #2CA9E1 (cyan) | Murecho + Karla | top-bottom-halves | narrative-problem-method-proof | todo (b6-15) |
-| 68 | Taiyo Solar Works / taiyo-solar-works | solar installation company | business-services | sticky-media | full-bleed-photo | top-bar | real-photography | documentary | 黄蘗 #FBE251 (yellow) | Zen Kaku Gothic New + Space Grotesk | horizontal-scroll-strip | results-first-case-wall | todo (b6-16) |
+| 56 | Kasumi Mortgage / kasumi-mortgage | mortgage broker | business-services | card-mosaic | photo-left-text-right | split | real-photography | documentary | 錆御納戸 #536A77 (blue) | Source Serif 4 + Inter | top-bottom-halves | calculator-cta | todo (b6-4) |
+| 57 | Minato Business Hotel / minato-business-hotel | business hotel | travel-stays | asymmetric-masonry | full-bleed-photo | centered | real-photography | high-key | 蘇芳香 #9E6B68 (red) | Cormorant Garamond + Jost | full-bleed-photo-info-bar | comparison-table | todo (b6-5) |
+| 58 | Hagane Machinery / hagane-machinery | industrial machinery maker | business-services | editorial-magazine | framed-window | top-bar | real-photography | low-key | 鉄御納戸 #455765 (cyan) | IBM Plex Serif + IBM Plex Sans | top-bottom-halves | alternating-longform | todo (b6-6) |
+| 59 | Sukoyaka Family Clinic / sukoyaka-family-clinic | family medical clinic (general practice) | health-wellness | split-screen | text-left-photo-right | overlay | real-photography | film-grain | 老竹 #6A8372 (green) | Literata + Source Sans 3 | top-bottom-halves | booking-led | todo (b6-7) |
+| 60 | Tsumugi Trading / tsumugi-trading | trading company (corporate site) | business-services | sticky-media | full-bleed-photo | top-bar | real-photography | documentary | 胡桃染 #947A6D (neutral) | Spectral + Hanken Grotesk | timeline-line | timeline-milestone | todo (b6-8) |
+| 61 | Aozora Primary School / aozora-primary-school | private primary school | education-classes | horizontal-strip | photo-left-text-right | centered | real-photography | high-key | 藤鼠 #6E75A4 (purple) | Alegreya + Alegreya Sans | three-equal-columns | audience-gateway | todo (b6-9) |
+| 62 | Kagi Security / kagi-security | managed cybersecurity firm | business-services | editorial-magazine | text-left-photo-right | split | real-photography | low-key | 藍鉄 #3B4A5A (blue) | Instrument Serif + Inter | top-bottom-halves | dashboard-metrics | todo (b6-10) |
+| 63 | Hatsumei Patent Attorneys / hatsumei-patent | patent and trademark attorney firm | business-services | split-screen | framed-window | top-bar | real-photography | film-grain | 紺鼠 #4F5F6E (blue) | EB Garamond + Schibsted Grotesk | top-bottom-halves | service-index | todo (b6-11) |
+| 64 | Nami Staffing / nami-staffing | staffing agency | business-services | single-column-longform | full-bleed-photo | overlay | real-photography | documentary | 鳩羽鼠 #72636E (purple) | Lora + Nunito Sans | full-bleed-photo-info-bar | process-timeline | todo (b6-12) |
+| 65 | Hibi Wear / hibi-wear | everyday apparel online store | fashion-beauty | asymmetric-masonry | full-bleed-photo | top-bar | real-photography | high-key | 千歳茶 #4D5139 (green) | Playfair Display + Karla | full-bleed-photo-info-bar | people-story | todo (b6-13) |
+| 66 | Michi Motors / michi-motors | car dealership | shops-hobbies | card-mosaic | photo-left-text-right | split | real-photography | low-key | 錆浅葱 #6A8E95 (cyan) | Gelasio + Libre Franklin | top-bottom-halves | locations-network | todo (b6-14) |
+| 67 | Hada Dermatology / hada-dermatology | dermatology clinic | health-wellness | single-column-longform | text-left-photo-right | centered | real-photography | film-grain | 退紅 #B3807A (pink) | Crimson Pro + Figtree | top-bottom-halves | narrative-problem-method-proof | todo (b6-15) |
+| 68 | Taiyo Solar Works / taiyo-solar-works | solar installation company | business-services | sticky-media | full-bleed-photo | top-bar | real-photography | documentary | 利休茶 #8A7F5E (yellow) | Merriweather + Source Sans 3 | horizontal-scroll-strip | results-first-case-wall | todo (b6-16) |
 
 New fine industries must be added to `themes/industry-groups.json` in the app repo under the listed category (done for these 16 in the batch-6 planning PR).
+
+**Re-map of open rows b6-4 … b6-16 (2026-10-20):** industries that were too niche or already in the catalogue were swapped for common commercial ones: b6-7 medical check-up centre → family medical clinic (Sukoyaka Family Clinic), b6-8 architecture studio (dup of kenchiku-grid) → trading company corporate site (Tsumugi Trading), b6-9 adult language school (dup of sakura-juku) → private primary school (Aozora Primary School), b6-11 conference venue → patent and trademark attorney firm (Hatsumei Patent Attorneys), b6-13 serviced apartment → everyday apparel online store (Hibi Wear), b6-14 real estate agency (dup of sumai-realty) → car dealership (Michi Motors), b6-15 veterinary clinic (dup of mimi-veterinary) → dermatology clinic (Hada Dermatology); b6-10 Sentinel Cyber renamed Kagi Security (Japanese-English naming); b6-5 type → hospitality. Every open row now has a low-chroma muted accent (no saturated hex) and a readable Latin serif or humanist display + body pair (no rounded, pop or Japanese-only faces), per §4 rule 0. The seven new fine industries still need adding to `themes/industry-groups.json` in the app repo.
 
 
 ## 3e. Front-page wireframes and page-structure library (2026-10-18)
@@ -413,55 +415,55 @@ b6-1 and b6-2 below are history. Open rows b6-3 … b6-16 were re-mapped on 2026
 
 - Signature: A calm, family-run driving school told as a story: a full-bleed photograph of a quiet practice road, the route from first lesson to test day as photographed chapters, instructors by name, honest fees.
 
-**#56 Kasumi Mortgage (b6-4, mortgage broker)** — hints: first screen `top-bottom-halves`, page structure `calculator-cta`, hero `photo-left-text-right`, nav `split`, photo direction `documentary`.
+**#56 Kasumi Mortgage (b6-4, mortgage broker)** — hints: first screen `top-bottom-halves`, page structure `calculator-cta`, hero `photo-left-text-right`, nav `split`, photo direction `documentary`; palette 錆御納戸 #536A77 (blue); fonts Source Serif 4 + Inter.
 
 - Signature: An independent mortgage broker in plain English: a documentary photograph of a couple at their kitchen table, the route from first call to keys as photographed steps, two named advisers, and lender rates in one quiet table further down.
 
-**#57 Minato Business Hotel (b6-5, business hotel)** — hints: first screen `full-bleed-photo-info-bar`, page structure `comparison-table`, hero `full-bleed-photo`, nav `centered`, photo direction `high-key`.
+**#57 Minato Business Hotel (b6-5, business hotel)** — hints: first screen `full-bleed-photo-info-bar`, page structure `comparison-table`, hero `full-bleed-photo`, nav `centered`, photo direction `high-key`; palette 蘇芳香 #9E6B68 (red); fonts Cormorant Garamond + Jost.
 
 - Signature: A quiet business hotel near the station: a full-bleed high-key photograph of a calm room at first light, then rooms, the breakfast room and the walk to the station as a masonry of photographs, with rates in one plain table.
 
-**#58 Hagane Machinery (b6-6, industrial machinery maker)** — hints: first screen `top-bottom-halves`, page structure `alternating-longform`, hero `framed-window`, nav `top-bar`, photo direction `low-key`.
+**#58 Hagane Machinery (b6-6, industrial machinery maker)** — hints: first screen `top-bottom-halves`, page structure `alternating-longform`, hero `framed-window`, nav `top-bar`, photo direction `low-key`; palette 鉄御納戸 #455765 (cyan); fonts IBM Plex Serif + IBM Plex Sans.
 
 - Signature: A third-generation machinery maker shown through its workshop: a large low-key photograph of a machinist at a lathe, then precision, design and after-sales service as alternating photo-and-text chapters with named engineers.
 
-**#59 Seiko Health Check Centre (b6-7, medical check-up centre)** — hints: first screen `top-bottom-halves`, page structure `diagnostic-quiz`, hero `text-left-photo-right`, nav `overlay`, photo direction `film-grain`.
+**#59 Sukoyaka Family Clinic (b6-7, family medical clinic (general practice))** — hints: first screen `top-bottom-halves`, page structure `booking-led`, hero `text-left-photo-right`, nav `overlay`, photo direction `film-grain`; palette 老竹 #6A8372 (green); fonts Literata + Source Sans 3.
 
-- Signature: A calm check-up centre explained as one 90-minute morning: a soft daylight photograph of the bright waiting room, the visit station by station in photographs, nurses and doctors by name, packages and preparation in plain lists.
+- Signature: A neighbourhood family doctor for every age: a soft daylight photograph of the calm waiting room, a visit from reception to prescription as photographed steps, two named doctors and the nurses, and opening hours, vaccinations and health checks in plain lists further down.
 
-**#60 Tsumugi Architects (b6-8, architecture design studio)** — hints: first screen `timeline-line`, page structure `timeline-milestone`, hero `full-bleed-photo`, nav `top-bar`, photo direction `documentary`.
+**#60 Tsumugi Trading (b6-8, trading company (corporate site))** — hints: first screen `timeline-line`, page structure `timeline-milestone`, hero `full-bleed-photo`, nav `top-bar`, photo direction `documentary`; palette 胡桃染 #947A6D (neutral); fonts Spectral + Hanken Grotesk.
 
-- Signature: A small architecture studio told through its buildings: a full-bleed documentary photograph of a finished house, twenty years of projects as photographed chapters, the principals by name and how a commission begins.
+- Signature: A mid-sized trading company corporate site: a full-bleed documentary photograph of a container port at dawn, sixty years of the company as photographed milestones, the business lines, named directors, sustainability and careers in plain sections.
 
-**#61 Kotoba Language School (b6-9, adult language school)** — hints: first screen `three-equal-columns`, page structure `practitioner-directory`, hero `photo-left-text-right`, nav `centered`, photo direction `high-key`.
+**#61 Aozora Primary School (b6-9, private primary school)** — hints: first screen `three-equal-columns`, page structure `audience-gateway`, hero `photo-left-text-right`, nav `centered`, photo direction `high-key`; palette 藤鼠 #6E75A4 (purple); fonts Alegreya + Alegreya Sans.
 
-- Signature: An adult language school about the people in the room: a bright photograph of a small evening class, teachers introduced by name with real classroom portraits, courses by level and a free trial lesson.
+- Signature: A small private primary school for parents choosing a school: a bright photograph of a morning classroom, a school day in photographs, teachers by name, admissions, fees and open days in plain lists.
 
-**#62 Sentinel Cyber (b6-10, managed cybersecurity firm)** — hints: first screen `top-bottom-halves`, page structure `dashboard-metrics`, hero `text-left-photo-right`, nav `split`, photo direction `low-key`.
+**#62 Kagi Security (b6-10, managed cybersecurity firm)** — hints: first screen `top-bottom-halves`, page structure `dashboard-metrics`, hero `text-left-photo-right`, nav `split`, photo direction `low-key`; palette 藍鉄 #3B4A5A (blue); fonts Instrument Serif + Inter.
 
-- Signature: A managed security firm that sounds human: a low-key photograph of the analysts' room at night, what they watch and how they respond as short photographed chapters, named analysts, and a few honest figures instead of a dashboard.
+- Signature: A managed security firm for small and mid-sized companies that sounds human: a low-key photograph of the analysts' room at night, what they watch and how they respond as short photographed chapters, named analysts, and a few honest figures instead of a dashboard.
 
-**#63 Chuo Conference Hall (b6-11, conference venue)** — hints: first screen `top-bottom-halves`, page structure `day-schedule`, hero `framed-window`, nav `top-bar`, photo direction `film-grain`.
+**#63 Hatsumei Patent Attorneys (b6-11, patent and trademark attorney firm)** — hints: first screen `top-bottom-halves`, page structure `service-index`, hero `framed-window`, nav `top-bar`, photo direction `film-grain`; palette 紺鼠 #4F5F6E (blue); fonts EB Garamond + Schibsted Grotesk.
 
-- Signature: A mid-sized conference venue shown as one event day: a wide photograph of the main hall before the doors open, the day from set-up to teardown in photographs, rooms and catering in plain rows, the events team by name.
+- Signature: A patent and trademark attorney firm for inventors and growing companies: a wide photograph of an attorney and an engineer over a prototype, filing from first idea to granted patent as photographed steps, the attorneys by name and fixed fees in one plain table.
 
-**#64 Nami Staffing (b6-12, staffing agency)** — hints: first screen `full-bleed-photo-info-bar`, page structure `process-timeline`, hero `full-bleed-photo`, nav `overlay`, photo direction `documentary`.
+**#64 Nami Staffing (b6-12, staffing agency)** — hints: first screen `full-bleed-photo-info-bar`, page structure `process-timeline`, hero `full-bleed-photo`, nav `overlay`, photo direction `documentary`; palette 鳩羽鼠 #72636E (purple); fonts Lora + Nunito Sans.
 
 - Signature: A people-first staffing agency: a documentary photograph of a recruiter with a new hire on their first morning, the placement from brief to day-30 follow-up as photographed steps, consultants by name and fees in one plain paragraph.
 
-**#65 Machi Stay Apartments (b6-13, serviced apartment)** — hints: first screen `full-bleed-photo-info-bar`, page structure `faq-led`, hero `full-bleed-photo`, nav `top-bar`, photo direction `high-key`.
+**#65 Hibi Wear (b6-13, everyday apparel online store)** — hints: first screen `full-bleed-photo-info-bar`, page structure `people-story`, hero `full-bleed-photo`, nav `top-bar`, photo direction `high-key`; palette 千歳茶 #4D5139 (green); fonts Playfair Display + Karla.
 
-- Signature: Serviced apartments for a month-long stay: a full-bleed daylight photograph of a lived-in living room, the apartments, the neighbourhood and arrival day as a masonry of photographs, the host team by name and common questions lower down.
+- Signature: An online store for well-made everyday clothes: a full-bleed daylight photograph of people wearing the collection on a city morning, the collection as a masonry of photographs, the makers and fabrics by name, sizing, shipping and returns in plain lists.
 
-**#66 Ekimae Realty (b6-14, real estate agency)** — hints: first screen `top-bottom-halves`, page structure `locations-network`, hero `photo-left-text-right`, nav `split`, photo direction `low-key`.
+**#66 Michi Motors (b6-14, car dealership)** — hints: first screen `top-bottom-halves`, page structure `locations-network`, hero `photo-left-text-right`, nav `split`, photo direction `low-key`; palette 錆浅葱 #6A8E95 (cyan); fonts Gelasio + Libre Franklin.
 
-- Signature: A neighbourhood estate agency: a twilight photograph of a residential street near the station, the areas it knows best as photographed portraits, selected listings, the agents by name and a valuation request.
+- Signature: A family-run car dealership: a twilight photograph of the showroom glowing on a quiet road, new and approved used cars in photographs, the three branches, service and inspection, the sales team by name and a test-drive request.
 
-**#67 Midori Animal Clinic (b6-15, veterinary clinic)** — hints: first screen `top-bottom-halves`, page structure `narrative-problem-method-proof`, hero `text-left-photo-right`, nav `centered`, photo direction `film-grain`.
+**#67 Hada Dermatology (b6-15, dermatology clinic)** — hints: first screen `top-bottom-halves`, page structure `narrative-problem-method-proof`, hero `text-left-photo-right`, nav `centered`, photo direction `film-grain`; palette 退紅 #B3807A (pink); fonts Crimson Pro + Figtree.
 
-- Signature: A neighbourhood vet clinic told by its vets: a soft daylight photograph of a vet examining a dog, how a visit works in photographs, the vets and nurses by name, and what to do in an emergency.
+- Signature: A neighbourhood dermatology clinic told by its doctors: a soft daylight photograph of a consultation, common skin conditions and how they are treated in photographed chapters, the dermatologists by name, and fees and booking in plain lists.
 
-**#68 Taiyo Solar Works (b6-16, solar installation company)** — hints: first screen `horizontal-scroll-strip`, page structure `results-first-case-wall`, hero `full-bleed-photo`, nav `top-bar`, photo direction `documentary`.
+**#68 Taiyo Solar Works (b6-16, solar installation company)** — hints: first screen `horizontal-scroll-strip`, page structure `results-first-case-wall`, hero `full-bleed-photo`, nav `top-bar`, photo direction `documentary`; palette 利休茶 #8A7F5E (yellow); fonts Merriweather + Source Sans 3.
 
 - Signature: A regional solar installer shown through finished roofs: a full-bleed documentary photograph of a fitted family home, installations as a strip of photographed case studies with real savings, the installers by name and a free roof assessment.
 
