@@ -33,5 +33,13 @@ Screens: `ref/scroll-botanist-pin-inset-before/after.png`, `ref/scroll-botanist-
 - Section titles → sp-reveal--up with sp-stagger.
 - Spec numerals → sp-count.
 
-## Product mapping (filled by build stage)
-- (empty)
+## Product mapping / 成品對應 (design-spec.md is binding)
+| Reference gesture (botanistofficial.com) | Yamabiko implementation | Where |
+|---|---|---|
+| Pinned hero photo inset to ~38px margins under dark veil, 3 underlined menu titles | **T1 inset veil band**: static after-state, photo inset 38px both sides, square corners, veil `rgba(22,28,30,.62)`, 3 labelled titles with 1px white underlines (Tents & tarps / Packs / Layers & sleep); `sp-parallax` on photo | Home block 3; header band of Shop, Compare, Rental, Workshop, Field notes, About, Visit, Returns/FAQ/Contact |
+| Fixed bottom-left dash index, longer active dash | **T2 dash index**: fixed bottom-left ≥1360px, 12px dashes, active 24px in 柿渋 `#8F5E3F` (static: current page/section family) | Every page (home: CATALOGUE active) |
+| Bottom-right capsule product chip (thumb + label + arrow) | **T3 field-pick chip**, inverted dark `#1E2022`, round thumb, "Ridgeline 2 Tent — €389 →"; ≥782px only; hidden on cart/checkout | Every page; product pages say "Compare tents →" |
+| Low-left light headline over photo | Hero H1 Bitter 300 low-left "Slept in / before it's sold." over muted full-bleed photo + in-flow info bar | Home first screen |
+| Colour: green field ~35% / ink #101010 / veil #103030 / white UI | Green dropped; stone ground `#EEEFEC`, ink `#1E2022`, veil `#161C1E`, white surface, 柿渋 accent ≤3%; first-screen saturation ≤15% | Site-wide |
+| Title fade/rise cubic-bezier(0.25,1,0.5,1) ~1s | `sp-stagger` + `sp-reveal--up` | Catalogue tiles, stories, Shop grid, Field notes |
+| (no numerals on reference) | `sp-count` on 15 · 1,140 · 30 | Home block 4 only |
