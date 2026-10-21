@@ -134,7 +134,21 @@ function yamabiko_outdoor_supply_hide_woo_templates( $templates ) {
 		array_filter(
 			$templates,
 			static function ( $template ) {
-				return ! ( isset( $template->content ) && is_string( $template->content ) && false !== strpos( $template->content, '<!-- wp:woocommerce/' ) );
+				if ( ! isset( $template->content ) || ! is_string( $template->content ) ) {
+					return true;
+				}
+				$content = $template->content;
+				// Templates often only reference a pattern, so resolve it to see the blocks it contains.
+				if ( preg_match_all( '/<!-- wp:pattern \{"slug":"([^"]+)"/', $content, $m ) ) {
+					$registry = WP_Block_Patterns_Registry::get_instance();
+					foreach ( $m[1] as $slug ) {
+						$pattern = $registry->get_registered( $slug );
+						if ( $pattern && ! empty( $pattern['content'] ) ) {
+							$content .= $pattern['content'];
+						}
+					}
+				}
+				return false === strpos( $content, '<!-- wp:woocommerce/' );
 			}
 		)
 	);
