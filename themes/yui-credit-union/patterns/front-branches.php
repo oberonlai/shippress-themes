@@ -11,41 +11,41 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"ycu-sec ycu-br","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ycu-sec ycu-br"><!-- wp:group {"align":"wide","className":"ycu-head","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ycu-head"><!-- wp:paragraph {"className":"ycu-label"} -->
-<p class="ycu-label"><span class="ycu-ix">08</span> Branches</p>
+<p class="ycu-label"><span class="ycu-ix">08</span> <?php echo wp_kses_post( yui_credit_union_t( 'kdfc7e74a' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":2,"className":"ycu-h2"} -->
-<h2 class="wp-block-heading ycu-h2">Three doors, one <em>name</em>.</h2>
+<h2 class="wp-block-heading ycu-h2"><?php echo wp_kses_post( yui_credit_union_t( 'k7813f650' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group --><!-- wp:group {"align":"wide","className":"ycu-br__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ycu-br__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-br__photo"} -->
-<figure class="wp-block-image size-full ycu-br__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/branch-exterior.webp' ) ); ?>" alt="The glass front of a credit union branch on a quiet tree-lined street" loading="lazy"/></figure>
+<figure class="wp-block-image size-full ycu-br__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/branch-exterior.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'aae1ef93e' ) ); ?>" loading="lazy"/></figure>
 <!-- /wp:image --><!-- wp:group {"className":"ycu-br__cols","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-br__cols"><!-- wp:group {"className":"ycu-br__col","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-br__col"><!-- wp:heading {"level":3,"className":"ycu-br__n"} -->
-<h3 class="wp-block-heading ycu-br__n">Riverside Main</h3>
+<h3 class="wp-block-heading ycu-br__n"><?php echo wp_kses_post( yui_credit_union_t( 'k1c874c6d' ) ); ?></h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>120 Mill Street, Lindenport</p>
+<p><?php echo wp_kses_post( yui_credit_union_t( 'k72e69bbc' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>Mon–Fri 9:00–17:00<br>Thu until 19:00<br>Sat 9:00–13:00</p>
+<p><?php echo wp_kses_post( yui_credit_union_t( 'k33c9ba8c' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>(555) 014-1961</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ycu-br__col","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-br__col"><!-- wp:heading {"level":3,"className":"ycu-br__n"} -->
-<h3 class="wp-block-heading ycu-br__n">Market Street</h3>
+<h3 class="wp-block-heading ycu-br__n"><?php echo wp_kses_post( yui_credit_union_t( 'k74e204af' ) ); ?></h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>48 Market Street, Lindenport</p>
+<p><?php echo wp_kses_post( yui_credit_union_t( 'k1d9d72cd' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>Mon–Fri 9:00–17:00</p>
+<p><?php echo wp_kses_post( yui_credit_union_t( 'kd7c81a47' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>(555) 014-1961</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ycu-br__col","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-br__col"><!-- wp:heading {"level":3,"className":"ycu-br__n"} -->
-<h3 class="wp-block-heading ycu-br__n">Northgate</h3>
+<h3 class="wp-block-heading ycu-br__n"><?php echo wp_kses_post( yui_credit_union_t( 'k3068d43c' ) ); ?></h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>7 Orchard Road, Lindenport</p>
+<p><?php echo wp_kses_post( yui_credit_union_t( 'k1dd630c3' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>Mon–Fri 9:30–17:30<br>Sat 9:00–12:00</p>
+<p><?php echo wp_kses_post( yui_credit_union_t( 'kb2f7cc95' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>(555) 014-1961</p>
 <!-- /wp:paragraph --></div>

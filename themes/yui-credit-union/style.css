@@ -319,3 +319,22 @@ a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible 
 	.ycu-dir li span:last-child { text-align: left; }
 }
 :is(.ycu-two, .ycu-pick) > * { margin-block-start: 0 !important; }
+
+/* Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Merriweather / Public Sans) */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Merriweather", "Noto Serif TC", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--text: "Public Sans", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Merriweather", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--text: "Public Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) .ycu-label, :is(:lang(zh), :lang(ja)) .ycu-rt thead th { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .ycu-hero__title { font-size: clamp(2.1rem, 3.9vw, 3.2rem); letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) .ycu-h2 { font-size: clamp(1.8rem, 3vw, 2.45rem); font-weight: 400; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li, td) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .ycu-hero__title { font-size: clamp(2.4rem, 4.4vw, 3.6rem); }
+:is(:lang(fr), :lang(de)) .ycu-h2 { font-size: clamp(2.1rem, 3.5vw, 2.8rem); }
