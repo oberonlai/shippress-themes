@@ -8,8 +8,8 @@
  * Description: Three journal rows as thin news lines with date, title, category and a dot.
  */
 ?>
-<!-- wp:group {"tagName":"section","anchor":"full","className":"ts-notes ts-section","align":"notes","layout":{"type":"default"}} -->
-<section id="full" class="wp-block-group alignnotes ts-notes ts-section">
+<!-- wp:group {"tagName":"section","anchor":"notes","className":"ts-notes ts-section","align":"full","layout":{"type":"default"}} -->
+<section id="notes" class="wp-block-group alignfull ts-notes ts-section">
 <!-- wp:group {"className":"ts-notes__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-notes__head">
 <!-- wp:paragraph {"className":"ts-label"} -->

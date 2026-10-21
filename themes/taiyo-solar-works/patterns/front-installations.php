@@ -8,8 +8,8 @@
  * Description: Four white cards on a darker grey band, each with the system size as a large numeral and estimated output and saving.
  */
 ?>
-<!-- wp:group {"tagName":"section","anchor":"full","className":"ts-inst ts-section","align":"installations","layout":{"type":"default"}} -->
-<section id="full" class="wp-block-group aligninstallations ts-inst ts-section">
+<!-- wp:group {"tagName":"section","anchor":"installations","className":"ts-inst ts-section","align":"full","layout":{"type":"default"}} -->
+<section id="installations" class="wp-block-group alignfull ts-inst ts-section">
 <!-- wp:group {"className":"ts-inst__head","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ts-inst__head">
 <!-- wp:paragraph {"className":"ts-label"} -->

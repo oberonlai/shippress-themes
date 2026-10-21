@@ -8,8 +8,8 @@
  * Description: Half-viewport roof photograph beside a graphite gradient panel with an inset portrait photograph, headline and a thin news line.
  */
 ?>
-<!-- wp:group {"tagName":"section","anchor":"full","className":"ts-split","align":"top","layout":{"type":"default"}} -->
-<section id="full" class="wp-block-group aligntop ts-split">
+<!-- wp:group {"tagName":"section","anchor":"top","className":"ts-split","align":"full","layout":{"type":"default"}} -->
+<section id="top" class="wp-block-group alignfull ts-split">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"ts-split__photo"} -->
 <figure class="wp-block-image size-large ts-split__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p1.webp' ) ); ?>" alt="A two-storey home with a newly fitted solar roof while the installers finish the last panels"/></figure>
 <!-- /wp:image -->

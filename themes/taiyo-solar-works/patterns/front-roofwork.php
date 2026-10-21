@@ -8,8 +8,8 @@
  * Description: Section label and heading on the left, two paragraphs and a fact line on the right with an offset photograph.
  */
 ?>
-<!-- wp:group {"tagName":"section","anchor":"full","className":"ts-roof ts-section","align":"roofwork","layout":{"type":"default"}} -->
-<section id="full" class="wp-block-group alignroofwork ts-roof ts-section">
+<!-- wp:group {"tagName":"section","anchor":"roofwork","className":"ts-roof ts-section","align":"full","layout":{"type":"default"}} -->
+<section id="roofwork" class="wp-block-group alignfull ts-roof ts-section">
 <!-- wp:group {"className":"ts-roof__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-roof__head">
 <!-- wp:paragraph {"className":"ts-label"} -->

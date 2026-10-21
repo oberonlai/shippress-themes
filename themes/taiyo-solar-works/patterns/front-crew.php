@@ -8,8 +8,8 @@
  * Description: A wide crew photograph beside a ruled list of four named installers.
  */
 ?>
-<!-- wp:group {"tagName":"section","anchor":"full","className":"ts-crew ts-section","align":"crew","layout":{"type":"default"}} -->
-<section id="full" class="wp-block-group aligncrew ts-crew ts-section">
+<!-- wp:group {"tagName":"section","anchor":"crew","className":"ts-crew ts-section","align":"full","layout":{"type":"default"}} -->
+<section id="crew" class="wp-block-group alignfull ts-crew ts-section">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"ts-crew__photo"} -->
 <figure class="wp-block-image size-large ts-crew__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11.webp' ) ); ?>" alt="The installation crew of four standing beside a plain white work van with ladders on the roof rack"/></figure>
 <!-- /wp:image -->

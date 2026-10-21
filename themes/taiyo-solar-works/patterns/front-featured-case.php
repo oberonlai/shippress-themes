@@ -8,8 +8,8 @@
  * Description: A house photograph with two overlapping hairline circles carrying system size and estimated yearly output.
  */
 ?>
-<!-- wp:group {"tagName":"section","anchor":"full","className":"ts-case ts-section","align":"case","layout":{"type":"default"}} -->
-<section id="full" class="wp-block-group aligncase ts-case ts-section">
+<!-- wp:group {"tagName":"section","anchor":"case","className":"ts-case ts-section","align":"full","layout":{"type":"default"}} -->
+<section id="case" class="wp-block-group alignfull ts-case ts-section">
 <!-- wp:group {"className":"ts-case__media","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-case__media">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"ts-case__photo"} -->

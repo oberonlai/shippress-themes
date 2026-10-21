@@ -8,8 +8,8 @@
  * Description: Graphite band with a shallow roof-pitch top edge, a heading, a photograph and four steps in one line.
  */
 ?>
-<!-- wp:group {"tagName":"section","anchor":"full","className":"ts-assess","align":"assessment","layout":{"type":"default"}} -->
-<section id="full" class="wp-block-group alignassessment ts-assess">
+<!-- wp:group {"tagName":"section","anchor":"assessment","className":"ts-assess","align":"full","layout":{"type":"default"}} -->
+<section id="assessment" class="wp-block-group alignfull ts-assess">
 <!-- wp:group {"className":"ts-assess__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-assess__text">
 <!-- wp:paragraph {"className":"ts-label"} -->

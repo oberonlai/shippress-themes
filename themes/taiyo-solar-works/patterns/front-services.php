@@ -8,8 +8,8 @@
  * Description: A ruled list of five services with starting prices beside a sticky photograph.
  */
 ?>
-<!-- wp:group {"tagName":"section","anchor":"full","className":"ts-svc ts-section","align":"services","layout":{"type":"default"}} -->
-<section id="full" class="wp-block-group alignservices ts-svc ts-section">
+<!-- wp:group {"tagName":"section","anchor":"services","className":"ts-svc ts-section","align":"full","layout":{"type":"default"}} -->
+<section id="services" class="wp-block-group alignfull ts-svc ts-section">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"ts-svc__photo"} -->
 <figure class="wp-block-image size-large ts-svc__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p9.webp' ) ); ?>" alt="An unbranded battery cabinet and inverter on a garage wall while an electrician checks a cable"/></figure>
 <!-- /wp:image -->

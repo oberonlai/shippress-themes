@@ -8,8 +8,8 @@
  * Description: A mirrored split: graphite panel with towns, hours and phone on the left, a roof-measuring photograph on the right.
  */
 ?>
-<!-- wp:group {"tagName":"section","anchor":"full","className":"ts-close","align":"contact","layout":{"type":"default"}} -->
-<section id="full" class="wp-block-group aligncontact ts-close">
+<!-- wp:group {"tagName":"section","anchor":"contact","className":"ts-close","align":"full","layout":{"type":"default"}} -->
+<section id="contact" class="wp-block-group alignfull ts-close">
 <!-- wp:group {"className":"ts-close__panel","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-close__panel">
 <!-- wp:paragraph {"className":"ts-label"} -->
