@@ -80,8 +80,8 @@ a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible 
 .ycu-h2 em, .ycu-close__h em, .ycu-hero__title em { font-style: italic; font-weight: 300; color: var(--ycu-main); }
 
 /* ---- hero: top photo, bottom text ---- */
-.ycu-hero { padding: 0; }
-.ycu-hero__photo { margin: 56px 36px 0; }
+.ycu-hero { padding: 56px 0 0; }
+.ycu-hero__photo { margin: 0 36px; }
 .ycu-hero__photo img { width: 100%; height: 520px; object-fit: cover; object-position: 55% 50%; border-radius: 8px; }
 .ycu-hero__text { padding-top: 52px; display: grid; grid-template-columns: 7fr 5fr; gap: 56px; align-items: end; }
 .ycu-hero__title { margin: 0; font-size: clamp(2.75rem, 5.2vw, 4.25rem); line-height: 1.1; letter-spacing: -0.015em; }
@@ -237,9 +237,9 @@ a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible 
 	.home .ycu-header { padding-top: 12px; }
 	.ycu-bar { height: 64px; padding: 0 16px; gap: 12px; }
 	.ycu-nav { margin-left: 0; }
-	.ycu-hero__photo { margin: 12px 12px 0; }
+	.ycu-hero__photo { margin: 0 12px; }
 	.ycu-hero__photo img { height: 300px; }
-	.home .ycu-hero__photo { margin-top: 88px; }
+	.home .ycu-hero { padding-top: 88px; }
 	.ycu-hero__text, .ycu-head, .ycu-own__grid, .ycu-calcsec__grid, .ycu-story__grid, .ycu-join__grid, .ycu-gov__cols, .ycu-br__grid, .ycu-close__panel, .ycu-foot__grid { grid-template-columns: 1fr; gap: 28px; }
 	.ycu-own__photo, .ycu-join__photo, .ycu-story__quotes { grid-column: 1; }
 	.ycu-head { gap: 4px; margin-bottom: 36px; }
@@ -255,3 +255,6 @@ a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible 
 	.ycu-close__panel { width: calc(100% - 24px); padding: 40px 24px; }
 	.ycu-close__h { font-size: 2.25rem; }
 }
+
+/* grid containers: no flow margins between cells */
+:is(.ycu-pick, .ycu-own__grid, .ycu-calcsec__grid, .ycu-story__grid, .ycu-join__grid, .ycu-gov__cols, .ycu-br__grid, .ycu-br__cols, .ycu-close__panel, .ycu-hero__text, .ycu-head, .ycu-foot__grid) > * { margin-block-start: 0 !important; }
