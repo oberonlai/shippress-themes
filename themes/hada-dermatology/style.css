@@ -1,0 +1,218 @@
+/*
+Theme Name: Hada Dermatology
+Theme URI: https://shippress.app
+Author: ShipPress
+Author URI: https://shippress.app
+Description: A calm block theme for a community dermatology clinic. A near-white ground with a pale grey band, ink text and one muted sage. The home page opens on an inset photograph laid on an L-shaped band, a very thin oversized line crossing the photograph's lower edge, and hairline arcs. Crimson Pro for headings, Figtree for reading.
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hada-dermatology
+*/
+
+:root { --hd-ph: clamp(460px, 68vh, 620px); --hd-line: color-mix(in srgb, #14171A 15%, transparent); }
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; overflow-x: clip; }
+img { max-width: 100%; height: auto; }
+.wp-block-image img { border-radius: 0; display: block; }
+a { text-underline-offset: 0.2em; }
+.wp-site-blocks > * + * { margin-block-start: 0; }
+.hd-main > * { margin-block-start: 0; }
+
+/* Labels and headings */
+.hd-label { font-family: var(--wp--preset--font-family--sans); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--wp--preset--color--sage); margin: 0 0 1rem; }
+.hd-big { font-size: clamp(2.4rem, 4vw, 3.5rem); font-weight: 300; line-height: 1.12; margin: 0 0 1.25rem; }
+.hd-section, .hd-section--flush { padding-block: clamp(3.5rem, 7vw, 6.5rem); }
+
+/* Header */
+.hd-header { padding-block: 22px 0; position: relative; z-index: 6; }
+.hd-header__bar { gap: 2rem; }
+.hd-brand { display: flex; flex-direction: column; gap: 2px; }
+.hd-brand p, .hd-brand__name { margin: 0; }
+.hd-brand__name, .hd-brand__name a { font-family: var(--wp--preset--font-family--serif); font-size: 1.35rem; font-weight: 400; letter-spacing: 0; text-decoration: none; color: var(--wp--preset--color--ink); }
+.hd-brand__line { font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--wp--preset--color--quiet); }
+.hd-header__end { gap: 1.75rem; }
+.hd-menu { font-size: 0.875rem; font-weight: 500; gap: 1.5rem; }
+.hd-menu .wp-block-navigation-item__content { text-decoration: none; padding-block: 4px; border-bottom: 1px solid transparent; }
+.hd-menu .wp-block-navigation-item__content:hover, .hd-menu .current-menu-item > a { border-bottom-color: var(--wp--preset--color--sage); }
+.hd-header__cta { margin: 0; }
+
+/* Buttons */
+.wp-block-button.is-style-pill .wp-block-button__link { background: var(--wp--preset--color--ink); color: #fff; border-radius: 999px; padding: 0.7rem 1.35rem; font-size: 0.875rem; font-weight: 500; text-decoration: none; display: inline-flex; align-items: center; gap: 0.6rem; }
+.wp-block-button.is-style-pill .wp-block-button__link:hover { background: var(--wp--preset--color--sage); }
+.hd-tag { background: #fff; color: var(--wp--preset--color--ink); border-radius: 999px; font-size: 0.65rem; font-weight: 600; letter-spacing: 0.04em; padding: 0.2rem 0.55rem; }
+.wp-block-button.is-style-round .wp-block-button__link { width: 6.25rem; height: 6.25rem; padding: 0; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; text-align: center; font-size: 0.8125rem; line-height: 1.25; background: var(--wp--preset--color--ink); color: #fff; text-decoration: none; }
+.wp-block-button.is-style-text-link .wp-block-button__link { background: none; color: var(--wp--preset--color--ink); padding: 0 0 4px; border-radius: 0; border-bottom: 1px solid var(--wp--preset--color--ink); font-weight: 500; text-decoration: none; }
+.wp-block-button.is-style-text-link .wp-block-button__link::after { content: " →"; }
+.wp-block-button.is-style-text-link .wp-block-button__link:hover { color: var(--wp--preset--color--sage); border-color: var(--wp--preset--color--sage); background: none; }
+
+/* T3 hairline arcs */
+.hd-arc { position: absolute; z-index: 4; pointer-events: none; display: block; }
+.hd-arc--arch { top: 0; left: calc(68% - 80px); }
+.hd-arc--ring { right: -83px; top: calc(24px + var(--hd-ph) / 2 - 82px); }
+.hd-arc--lines { left: 0; top: 24%; width: calc(15vw + 150px); }
+
+/* T1 + T2 hero */
+.hd-hero { position: relative; overflow: hidden; padding: 24px 96px 120px 15vw; background: linear-gradient(90deg, var(--wp--preset--color--band) 0 36%, transparent 36%); margin: 0; }
+.hd-hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 120px; background: var(--wp--preset--color--band); z-index: 0; }
+.hd-hero__photo { position: relative; z-index: 1; margin: 0; height: var(--hd-ph); }
+.hd-hero__photo img { width: 100%; height: 100%; object-fit: cover; object-position: 30% 50%; }
+.hd-hero__head { position: absolute; z-index: 3; left: 6%; top: 34%; max-width: 440px; }
+.hd-hero__l1 { font-family: var(--wp--preset--font-family--serif); font-size: 1.5rem; font-weight: 300; margin: 0 0 0.25rem; line-height: 1.2; }
+.hd-hero__l2 { font-size: clamp(2.4rem, 3.6vw, 3.25rem); font-weight: 300; line-height: 1.1; margin: 0 0 1.4rem 0; padding-left: 2.5em; text-indent: 0; }
+.hd-hero__meta { font-size: 0.85rem; color: var(--wp--preset--color--quiet); line-height: 1.6; margin: 0; padding-left: 0; }
+.hd-fact { position: absolute; z-index: 3; right: 56px; bottom: 228px; margin: 0; font-size: 1.05rem; font-weight: 600; text-align: right; }
+.hd-standard { position: absolute; z-index: 3; right: 56px; bottom: 124px; margin: 0; font-family: var(--wp--preset--font-family--sans); font-size: clamp(3.5rem, 6.4vw, 5.5rem); font-weight: 300; letter-spacing: -0.01em; line-height: 1; white-space: nowrap; color: var(--wp--preset--color--ink); }
+.hd-scroll { position: absolute; z-index: 3; left: 8%; bottom: 24px; display: flex; gap: 10px; align-items: flex-end; }
+.hd-scroll__rule { width: 1px; height: 72px; background: var(--wp--preset--color--ink); }
+.hd-scroll__label { writing-mode: vertical-rl; font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--wp--preset--color--quiet); }
+
+/* Letter */
+.hd-letter { padding-block: clamp(4rem, 8vw, 7.5rem); }
+.hd-letter__grid { display: grid; grid-template-columns: 7fr 4fr; gap: 6%; align-items: start; }
+.hd-letter__text p:not(.hd-label):not(.hd-sign) { font-family: var(--wp--preset--font-family--serif); font-size: 1.35rem; line-height: 1.6; font-weight: 400; margin: 0 0 1.1rem; }
+.hd-sign { font-family: var(--wp--preset--font-family--serif); font-style: italic; font-size: 1.35rem; margin-top: 1.5rem; color: var(--wp--preset--color--sage); }
+.hd-letter__frame { background: var(--wp--preset--color--band); margin: 0 0 32px 32px; padding: 0; position: relative; }
+.hd-letter__photo { margin: 0; transform: translate(32px, 32px); width: 300px; max-width: 100%; }
+.hd-letter__photo img { aspect-ratio: 3/4; object-fit: cover; width: 100%; }
+.hd-letter__frame { width: 300px; max-width: calc(100% - 32px); aspect-ratio: 3/4; }
+
+/* Concerns */
+.hd-concerns { padding-block: clamp(3rem, 6vw, 5.5rem); }
+.hd-concerns__grid { display: grid; grid-template-columns: 4fr 8fr; gap: 5%; align-items: start; }
+.hd-panel { background: linear-gradient(120deg, #E7EFE9 0%, #ECEAF3 55%, #F4E9E6 100%); padding: clamp(1.25rem, 3vw, 2.5rem); }
+.hd-concerns .hd-panel { display: grid; grid-template-columns: 1fr 1fr; column-gap: 3rem; }
+.hd-row { display: grid; grid-template-columns: 2.4rem 1fr auto; align-items: baseline; padding: 1rem 0; border-bottom: 1px solid var(--hd-line); }
+.hd-row p { margin: 0; }
+.hd-n { font-size: 0.75rem; color: var(--wp--preset--color--quiet); font-variant-numeric: tabular-nums; }
+.hd-t { font-family: var(--wp--preset--font-family--serif); font-size: 1.35rem; }
+.hd-t a { text-decoration: none; color: var(--wp--preset--color--ink); }
+.hd-t a:hover { color: var(--wp--preset--color--sage); }
+.hd-arrow { color: var(--wp--preset--color--quiet); }
+.hd-concerns__lead .wp-block-buttons { margin-top: 1.75rem; }
+
+/* Chapters */
+.hd-chap { padding-block: 0; margin: 0; background: linear-gradient(90deg, var(--wp--preset--color--band) 0 60%, transparent 60%); }
+.hd-chap--rev { background: linear-gradient(270deg, var(--wp--preset--color--band) 0 60%, transparent 60%); }
+.hd-chap__grid { display: grid; grid-template-columns: 7fr 4fr; gap: 6%; align-items: center; padding-block: 56px; }
+.hd-chap--rev .hd-chap__media { order: 2; }
+.hd-chap__photo { margin: 0; }
+.hd-chap__photo img { width: 100%; aspect-ratio: 16/10; object-fit: cover; }
+.hd-chap__title { font-size: clamp(2rem, 3vw, 2.75rem); font-weight: 300; margin: 0 0 1rem; }
+.hd-chap__text .wp-block-buttons { margin-top: 1.25rem; }
+
+/* Doctors */
+.hd-doctors { padding-block: clamp(4rem, 7vw, 6.5rem); }
+.hd-doctors__lead { max-width: 640px; color: var(--wp--preset--color--quiet); margin-bottom: 2.25rem; }
+.hd-doclist { border-top: 1px solid var(--hd-line); margin-bottom: 2rem; }
+.hd-doc { display: grid; grid-template-columns: 120px 1.2fr 1.4fr 9rem; gap: 2rem; align-items: center; padding: 1.25rem 0; border-bottom: 1px solid var(--hd-line); }
+.hd-doc p, .hd-doc .wp-block-image { margin: 0; }
+.hd-doc__photo img { width: 120px; height: 120px; object-fit: cover; }
+.hd-doc__name { font-family: var(--wp--preset--font-family--serif); font-size: 1.75rem; line-height: 1.15; }
+.hd-doc__focus { font-size: 0.875rem; color: var(--wp--preset--color--quiet); margin-top: 0.25rem !important; }
+.hd-doc__line { font-size: 0.95rem; }
+.hd-doc__days { font-size: 0.875rem; text-align: right; font-weight: 500; }
+.hd-doc__days span { font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--wp--preset--color--sage); font-weight: 600; }
+
+/* Mid-page band */
+.hd-visit { position: relative; background: var(--wp--preset--color--band); padding: clamp(3rem, 6vw, 5.5rem) 0 clamp(3.5rem, 6vw, 5.5rem); margin: 0; overflow: hidden; }
+.hd-visit__photo { margin: 0 0 0 auto; width: 80%; position: relative; z-index: 1; }
+.hd-visit__photo img { width: 100%; aspect-ratio: 21/9; object-fit: cover; }
+.hd-standard--echo { right: auto; left: 5%; bottom: auto; top: calc(clamp(3rem, 6vw, 5.5rem) + 34.2857vw - 3.8rem); font-size: clamp(3rem, 5.2vw, 5rem); }
+.hd-visit__text { margin-top: clamp(4rem, 6vw, 5.5rem) !important; display: grid; grid-template-columns: 1fr 1fr; column-gap: 6%; }
+.hd-visit__text .hd-label { grid-column: 1 / -1; }
+.hd-visit__text .wp-block-buttons { grid-column: 1 / -1; margin-top: 0.75rem; }
+
+/* Fees */
+.hd-fees { padding-block: clamp(4rem, 7vw, 6.5rem); }
+.hd-fees__grid { display: grid; grid-template-columns: 8fr 4fr; gap: 6%; align-items: start; }
+.hd-fees .hd-panel { background: none; padding: 0; border-top: 1px solid var(--hd-line); }
+.hd-fee { display: flex; justify-content: space-between; gap: 1rem; padding: 0.95rem 0; border-bottom: 1px solid var(--hd-line); align-items: baseline; }
+.hd-fee p { margin: 0; }
+.hd-fee__name { font-size: 1rem; }
+.hd-fee__price { font-family: var(--wp--preset--font-family--serif); font-size: 1.35rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.hd-fees__photo { margin: 0 0 1.5rem; }
+.hd-fees__photo img { width: 100%; aspect-ratio: 3/4; object-fit: cover; }
+.hd-fees__side .wp-block-buttons { margin-top: 1.25rem; }
+.hd-fees__side p { font-size: 0.95rem; color: var(--wp--preset--color--quiet); }
+
+/* Journal */
+.hd-journal { padding-block: clamp(3rem, 6vw, 5.5rem); background: var(--wp--preset--color--band); }
+.hd-posts .wp-block-post-template { gap: 2.5rem; }
+.hd-posts .wp-block-post-featured-image { margin: 0 0 1rem; background: var(--wp--preset--color--ground); padding: 0 0 16px 16px; }
+.hd-posts .wp-block-post-featured-image img { display: block; }
+.hd-posts__date { font-size: 0.8125rem; color: var(--wp--preset--color--quiet); margin: 0 0 0.35rem; }
+.hd-posts__title { font-size: 1.5rem; font-weight: 400; line-height: 1.2; margin: 0 0 0.5rem; }
+.hd-posts__title a { text-decoration: none; color: var(--wp--preset--color--ink); }
+.hd-posts .wp-block-post-excerpt { font-size: 0.95rem; color: var(--wp--preset--color--quiet); }
+.hd-posts .wp-block-post-excerpt p { margin: 0; }
+
+/* Close */
+.hd-close { position: relative; overflow: hidden; padding-block: clamp(4rem, 7vw, 6.5rem); background: var(--wp--preset--color--ground); }
+.hd-close .hd-arc--arch { top: 0; left: auto; right: 8%; }
+.hd-close__grid { display: grid; grid-template-columns: 7fr 5fr; gap: 6%; align-items: end; position: relative; z-index: 2; }
+.hd-hours { border-top: 1px solid var(--hd-line); max-width: 460px; margin: 1.5rem 0; }
+.hd-hr { display: flex; justify-content: space-between; padding: 0.7rem 0; border-bottom: 1px solid var(--hd-line); }
+.hd-hr p { margin: 0; font-variant-numeric: tabular-nums; }
+.hd-hr__d { font-weight: 500; }
+.hd-close__addr { color: var(--wp--preset--color--quiet); }
+.hd-close__lead { font-family: var(--wp--preset--font-family--serif); font-size: 1.75rem; line-height: 1.25; font-weight: 300; }
+
+/* Footer */
+.hd-foot { background: var(--wp--preset--color--band); padding-block: 4rem 2rem; margin: 0; }
+.hd-foot__grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 3rem; }
+.hd-foot p { margin: 0; font-size: 0.9rem; line-height: 1.8; }
+.hd-foot__mark { font-family: var(--wp--preset--font-family--serif); font-size: 1.6rem !important; margin-bottom: 0.5rem !important; line-height: 1.2 !important; }
+.hd-foot__line { color: var(--wp--preset--color--quiet); max-width: 22rem; }
+.hd-foot__kicker { font-size: 0.7rem !important; letter-spacing: 0.16em; font-weight: 600; color: var(--wp--preset--color--sage); margin-bottom: 0.6rem !important; }
+.hd-foot a { color: var(--wp--preset--color--ink); text-decoration: none; }
+.hd-foot a:hover { color: var(--wp--preset--color--sage); }
+.hd-foot__base { border-top: 1px solid var(--hd-line); margin-top: 3rem; padding-top: 1.25rem; }
+.hd-foot__legal { font-size: 0.8125rem !important; color: var(--wp--preset--color--quiet); }
+
+/* Inner template basics */
+.hd-head { padding-block: clamp(3rem, 6vw, 5rem) 2rem; }
+.hd-head__title { font-size: clamp(2.4rem, 4vw, 3.5rem); font-weight: 300; }
+.hd-head__grid { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; align-items: end; }
+.hd-meta { font-size: 0.8125rem; color: var(--wp--preset--color--quiet); }
+.hd-prose, .hd-narrow { padding-block: 1rem 4rem; }
+.hd-section--last { padding-bottom: 5rem; }
+.hd-search .wp-block-search__button { background: var(--wp--preset--color--ink); color: #fff; border-radius: 999px; }
+
+/* Tablet and mobile */
+@media (max-width: 960px) {
+	.hd-menu { display: none; }
+	.hd-menu.is-menu-open, .hd-menu .wp-block-navigation__responsive-container-open { display: flex; }
+	.hd-header__cta { display: none; }
+	.hd-letter__grid, .hd-concerns__grid, .hd-chap__grid, .hd-fees__grid, .hd-close__grid, .hd-foot__grid, .hd-head__grid { grid-template-columns: 1fr; }
+	.hd-chap, .hd-chap--rev { background: linear-gradient(180deg, var(--wp--preset--color--band) 0 70%, transparent 70%); }
+	.hd-chap--rev .hd-chap__media { order: 0; }
+	.hd-doc { grid-template-columns: 96px 1fr; }
+	.hd-doc__photo img { width: 96px; height: 96px; }
+	.hd-doc__line, .hd-doc__days { grid-column: 2; text-align: left; }
+	.hd-visit__text { grid-template-columns: 1fr; }
+	.hd-concerns .hd-panel { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+	.hd-hero { padding: 16px 20px 56px; display: flex; flex-direction: column; background: linear-gradient(180deg, var(--wp--preset--color--band) 0 100%); }
+	.hd-hero::after { height: 56px; }
+	.hd-hero__head, .hd-fact, .hd-standard, .hd-scroll { position: static; }
+	.hd-hero__head { order: 0; margin: 0 0 1.5rem; max-width: none; z-index: 3; }
+	.hd-hero__l2 { padding-left: 1.5em; }
+	.hd-hero__photo { order: 1; height: 360px; }
+	.hd-fact { order: 2; text-align: left; margin: 1rem 0 0; font-size: 0.95rem; }
+	.hd-standard { order: 3; position: relative; margin-top: -2.4rem; font-size: 2.75rem; white-space: normal; text-align: right; line-height: 1; }
+	.hd-scroll { display: none; }
+	.hd-arc--arch, .hd-arc--ring, .hd-arc--lines { transform: scale(0.6); transform-origin: top right; }
+	.hd-arc--lines { display: none; }
+	.hd-arc--ring { right: -50px; top: 120px; }
+	.hd-arc--arch { left: auto; right: 10%; }
+	.hd-visit__photo { width: calc(100% - 20px); }
+	.hd-standard--echo { position: relative; left: auto; top: auto; margin: -1.6rem 1rem 0 auto; font-size: 2.5rem; text-align: right; display: block; }
+	.hd-letter__photo { transform: translate(24px, 24px); }
+	.hd-foot__grid { gap: 1.75rem; }
+	.hd-fee { flex-direction: column; gap: 0.1rem; }
+}
