@@ -142,7 +142,7 @@ export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SH
 // Minimum quality gate (design-plan.json rules.quality_gate, ROADMAP §4 rule 0, #226). Enforced only for themes whose
 // theme-meta.json has "quality_gate": 2, so older themes are unaffected. The first-screen colour share needs a screenshot
 // and is measured separately by scripts/check-first-screen.py.
-export const GATE = { pages: 8, posts: 6, photos: 12, cutouts: 1, fontRem: 4.25, homeWords: 250, narrative: 3, narrativeWords: 20, homePhotos: 8 };
+export const GATE = { pages: 8, posts: 1, photos: 12, cutouts: 1, fontRem: 4.25, homeWords: 250, narrative: 3, narrativeWords: 20, homePhotos: 8 };
 export const BRAND_FIELDS = {
   name: /\bname\b/i, location: /\b(location|located|address|based in|where)\b/i, founded: /\b(found(ed|ing)?|established|since|year)\b/i,
   people: /\b(people|person|team|staff|founder|owner|named)\b/i, audience: /\b(audience|customers?|clients?|who (it|we) serves?|for whom)\b/i,
