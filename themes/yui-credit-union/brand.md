@@ -4,6 +4,7 @@ Member-owned credit union in the fictional riverside city of Lindenport. Stage 1
 
 ## Concept
 - **Name:** Yui Credit Union. Founded 1961 by mill and market workers.
+- **Location:** Lindenport (fictional riverside city), three branches: Riverside Main, Market Street and Northgate.
 - **Status:** not-for-profit cooperative, 18,420 members, 3 branches, 7 volunteer directors elected each March. No real deposit insurer, regulator, award or media is claimed.
 - **Audience:** households and small shop owners in Lindenport County who want plain terms and a say in how their money is used.
 - **Tone:** calm, plain, specific. Short sentences, real numbers, no hype.
