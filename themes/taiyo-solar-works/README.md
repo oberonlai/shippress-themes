@@ -62,3 +62,33 @@ Merriweather and Source Sans 3 (SIL OFL 1.1, licences in assets/fonts).
 - assets/images/p8.webp
 - assets/images/p9.webp
 
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Taiyo Solar Works home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Taiyo Solar Works home page on mobile"></td>
+</tr>
+</table>
+
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Installations: [desktop](screenshots/installations-desktop.webp) · [mobile](screenshots/installations-mobile.webp)
+- Kenning case: [desktop](screenshots/kenning-case-desktop.webp) · [mobile](screenshots/kenning-case-mobile.webp)
+- Residential solar: [desktop](screenshots/residential-solar-desktop.webp) · [mobile](screenshots/residential-solar-mobile.webp)
+- Battery storage ev charging: [desktop](screenshots/battery-storage-ev-charging-desktop.webp) · [mobile](screenshots/battery-storage-ev-charging-mobile.webp)
+- Commercial roofs: [desktop](screenshots/commercial-roofs-desktop.webp) · [mobile](screenshots/commercial-roofs-mobile.webp)
+- How it works: [desktop](screenshots/how-it-works-desktop.webp) · [mobile](screenshots/how-it-works-mobile.webp)
+- Maintenance warranty: [desktop](screenshots/maintenance-warranty-desktop.webp) · [mobile](screenshots/maintenance-warranty-mobile.webp)
+- Pricing financing: [desktop](screenshots/pricing-financing-desktop.webp) · [mobile](screenshots/pricing-financing-mobile.webp)
+- Free roof assessment: [desktop](screenshots/free-roof-assessment-desktop.webp) · [mobile](screenshots/free-roof-assessment-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
