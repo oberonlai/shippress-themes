@@ -68,7 +68,7 @@
 <p class="hd-close__lead">Same-week appointments for new rashes and changing moles.</p>
 <!-- /wp:paragraph --><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-pill"} -->
-<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a visit</a></div>
+<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="/book/">Book a visit</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>

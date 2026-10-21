@@ -11,6 +11,6 @@
 ?>
 <!-- wp:buttons {"className":"hd-header__cta"} -->
 <div class="wp-block-buttons hd-header__cta"><!-- wp:button {"className":"is-style-pill"} -->
-<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a visit <span class="hd-tag">New patients</span></a></div>
+<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="/book/">Book a visit <span class="hd-tag">New patients</span></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
