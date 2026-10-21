@@ -36,8 +36,8 @@
 <!-- /wp:group -->
 </section>
 <!-- /wp:group -->
-<!-- wp:group {"tagName":"section","className":"ts-case ts-case--page ts-section ","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull ts-case ts-case--page ts-section">
+<!-- wp:group {"tagName":"section","className":"ts-case ts-section ","align":"full","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull ts-case ts-section">
 <!-- wp:group {"className":"ts-case__media","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-case__media">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"ts-case__photo"} -->
@@ -69,19 +69,20 @@
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
-<!-- wp:group {"className":"ts-case__text","layout":{"type":"default"}} -->
-<div class="wp-block-group ts-case__text">
+<!-- wp:group {"className":"ts-case__head","layout":{"type":"default"}} -->
+<div class="wp-block-group ts-case__head">
 <!-- wp:paragraph {"className":"ts-label"} -->
 <p class="ts-label"><?php echo wp_kses_post( taiyo_solar_works_t( 'ke2c556e2' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":2,"className":"ts-h2"} -->
 <h2 class="wp-block-heading ts-h2"><?php echo wp_kses_post( taiyo_solar_works_t( 'k44da13d8' ) ); ?></h2>
-<!-- /wp:heading --><!-- wp:group {"className":"ts-case__copy","layout":{"type":"default"}} -->
-<div class="wp-block-group ts-case__copy">
+<!-- /wp:heading -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"ts-case__body","layout":{"type":"default"}} -->
+<div class="wp-block-group ts-case__body">
 <!-- wp:paragraph -->
 <p><?php echo wp_kses_post( taiyo_solar_works_t( 'kb869fec2' ) ); ?></p>
 <!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 </section>
