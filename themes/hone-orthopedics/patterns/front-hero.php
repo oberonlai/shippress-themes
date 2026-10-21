@@ -19,7 +19,7 @@
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hn-cap hn-cap--dot"} -->
 <p class="hn-cap hn-cap--dot"><span class="hn-dot" aria-hidden="true"></span>Orthopedics &amp; sports injury clinic</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":1,"className":"hn-h1"} -->
-<h1 class="wp-block-heading hn-h1">Back to the things<br>you move for.</h1>
+<h1 class="wp-block-heading hn-h1">Back to the things you move for.</h1>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"hn-body"} -->
 <p class="hn-body">Surgeons and physiotherapists in one building on Main Street. Knee, shoulder, hip, spine, hand and foot — assessed by the person who specialises in that joint.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hn-small"} -->
