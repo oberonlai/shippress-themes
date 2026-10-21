@@ -11,23 +11,23 @@
 <section class="wp-block-group alignfull hn-sec hn-clinic"><!-- wp:group {"align":"wide","className":"hn-two hn-two--41","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hn-two hn-two--41"><!-- wp:group {"className":"hn-clinic__l","layout":{"type":"default"}} -->
 <div class="wp-block-group hn-clinic__l"><!-- wp:paragraph {"className":"hn-label"} -->
-<p class="hn-label"><span class="hn-dot" aria-hidden="true"></span>Clinic</p>
+<p class="hn-label"><span class="hn-dot" aria-hidden="true"></span><?php echo wp_kses_post( hone_orthopedics_t( 'k9d08ac5e' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"hn-cap"} -->
-<p class="hn-cap">Who we are and how we work</p>
+<p class="hn-cap"><?php echo wp_kses_post( hone_orthopedics_t( 'k6472a2e4' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"className":"hn-h2"} -->
-<h2 class="wp-block-heading hn-h2">One building, eight clinicians, one plan for your joint</h2>
+<h2 class="wp-block-heading hn-h2"><?php echo wp_kses_post( hone_orthopedics_t( 'k4155f8a9' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hn-photo hn-photo--43"} -->
-<figure class="wp-block-image size-full hn-photo hn-photo--43"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p4.webp' ) ); ?>" alt="The rehab floor with treatment plinths and parallel bars by tall windows"/></figure>
+<figure class="wp-block-image size-full hn-photo hn-photo--43"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p4.webp' ) ); ?>" alt="<?php echo esc_attr( hone_orthopedics_t( 'acec4ccd2' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --><!-- wp:group {"className":"hn-clinic__r","layout":{"type":"default"}} -->
 <div class="wp-block-group hn-clinic__r"><!-- wp:paragraph {"className":"hn-body"} -->
-<p class="hn-body">Hone Orthopedics opened on Main Street in 2011 with two surgeons and a single treatment room. Today five orthopedic surgeons, a sports medicine physician and two physiotherapists work on one floor of the same building, so a scan, an assessment and the first rehab session can happen within a few steps of each other.</p>
+<p class="hn-body"><?php echo wp_kses_post( hone_orthopedics_t( 'kcd6ecce3' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hn-body"} -->
-<p class="hn-body">We organise care by joint. Knee, shoulder, hip, spine, and hand, foot and ankle each have a named surgeon, and the physiotherapist who will work with you is part of the conversation from the first visit. Most people we see are not heading for surgery; we start with the least invasive option that suits your goals and say plainly when an operation is worth discussing.</p>
+<p class="hn-body"><?php echo wp_kses_post( hone_orthopedics_t( 'kd26cad83' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hn-body"} -->
-<p class="hn-body">You will always know who is looking after you. Your surgeon reads your imaging, your physiotherapist writes your exercise plan, and both of them see the same notes. If something changes, there is one phone number to call.</p>
+<p class="hn-body"><?php echo wp_kses_post( hone_orthopedics_t( 'kf3c58684' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

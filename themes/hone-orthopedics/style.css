@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/hone-o
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Hone Orthopedics — a block theme for an orthopedic and sports injury clinic. A cool off-white ground with a slate primary, a first screen of tall rounded portraits bleeding off both edges beside a text column, a thick round-capped ribbon stroke over a pale disc and a dark arc, and tall photo cards with a notched arrow tab. A joint finder, specialist directory, hours dot grid and fee card for the home page. Source Serif 4 and Source Sans 3. WCAG AA colours; no entrance animations.
-Version: 1.0.0
+Version: 1.1.0
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -321,3 +321,42 @@ img{max-width:100%;height:auto}
 .hn-nolist{list-style:none;margin:0;padding:0}
 .hn-phead,.hn-jfoot{box-sizing:border-box;width:100vw!important;max-width:none!important;margin-left:calc(50% - 50vw)!important;margin-right:0!important}
 .hn-main>.hn-phead,.hn-main>.wp-block-html{max-width:none}
+
+/* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Source Serif 4 / Source Sans 3) ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", "Source Serif 4", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Source Sans 3", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", "Source Serif 4", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Source Sans 3", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .hn-label, .hn-ph1, .hn-card__t, .hn-tile, .hn-jfoot p) { line-height: 1.4; letter-spacing: 0.04em; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) :is(.hn-cap, .hn-whoh, .hn-card__d, .hn-fgroup > span, .hn-ftable thead th, .hn-single .hn-meta, .hn-pcard .wp-block-post-date) { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .hn-h1 { font-size: 2.3rem !important; line-height: 1.4; }
+:is(:lang(zh), :lang(ja)) .hn-ph1 { font-size: 1.9rem; }
+:is(:lang(zh), :lang(ja)) .hn-label { font-size: clamp(2.1rem, 3.9vw, 3.3rem); }
+:is(:lang(zh), :lang(ja)) .hn-phead__t .hn-label { font-size: clamp(2rem, 3.9vw, 3.3rem); }
+:is(:lang(zh), :lang(ja)) .hn-h2 { font-size: 1.4rem !important; max-width: 24em; }
+:is(:lang(zh), :lang(ja)) .hn-split h2 { font-size: 1.7rem; }
+:is(:lang(zh), :lang(ja)) .hn-card__t { font-size: 1.25rem; }
+:is(:lang(zh), :lang(ja)) .hn-cards--j .hn-card__t, :is(:lang(zh), :lang(ja)) .hn-cards--5 .hn-card__t { font-size: 1.1rem; }
+:is(:lang(zh), :lang(ja)) .hn-single .wp-block-post-title { font-size: 2.1rem; }
+:is(:lang(zh), :lang(ja)) .hn-pcard .wp-block-post-title { font-size: 1.2rem; }
+:is(:lang(zh), :lang(ja)) .hn-jfoot p { font-size: 1.2rem; }
+:is(:lang(zh), :lang(ja)) .hn-single .wp-block-post-content h2, :is(:lang(zh), :lang(ja)) .hn-sbody h2 { font-size: 1.3rem; }
+:is(:lang(zh), :lang(ja)) .hn-tile { font-size: clamp(2.2rem, 4.5vw, 3.2rem); }
+:is(:lang(zh), :lang(ja)) .hn-vert { letter-spacing: 0.3em; }
+:lang(ja) :is(h1, h2, h3, p, li) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li) { hyphens: auto; }
+:is(:lang(fr), :lang(de)) .hn-h1 { font-size: 2.6rem !important; }
+:is(:lang(fr), :lang(de)) .hn-ph1 { font-size: 2.2rem; }
+:is(:lang(fr), :lang(de)) .hn-label { font-size: clamp(2.4rem, 4.6vw, 3.9rem); }
+:is(:lang(fr), :lang(de)) .hn-split h2 { font-size: 1.95rem; }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) .hn-ph1 { font-size: 1.6rem; }
+	:is(:lang(zh), :lang(ja)) .hn-h1 { font-size: 1.9rem !important; }
+	:is(:lang(fr), :lang(de)) .hn-ph1 { font-size: 1.85rem; }
+	:is(:lang(fr), :lang(de)) .hn-h1 { font-size: 2.2rem !important; }
+}

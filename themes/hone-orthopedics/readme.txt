@@ -10,7 +10,7 @@ Hone Orthopedics: a block theme for an orthopedic and sports injury clinic. A co
 
 == Description ==
 
-A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). The sample content is in English: a home page, a specialist directory with eight clinician profiles, conditions, sports injury, physiotherapy, first visit, fees, patient stories, about, newsletter, contact, booking and a journal.
+A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). The sample content is in English, Traditional Chinese, Japanese, French and German (set by the ShipPress interface language or the site language; the theme's own words follow it):  a home page, a specialist directory with eight clinician profiles, conditions, sports injury, physiotherapy, first visit, fees, patient stories, about, newsletter, contact, booking and a journal.
 
 == Installation ==
 
@@ -51,3 +51,19 @@ assets/images/demo/p15.webp: Media Library copy of assets/images/p15.webp, GPL-2
 == Copyright ==
 
 Hone Orthopedics, (C) ShipPress. GPL-2.0-or-later. Fonts: Source Serif 4 and Source Sans 3, SIL Open Font License 1.1 (assets/fonts/OFL-*.txt).
+
+== Fonts ==
+
+Source Serif 4 and Source Sans 3 (Latin WOFF2 from https://github.com/google/fonts/tree/main/ofl/sourceserif4 and /sourcesans3), bundled so the theme makes no third-party requests.
+
+Noto Serif TC
+Files: assets/fonts/noto-serif-tc-zh-tw-400.woff2
+Copyright 2012 Google Inc. All Rights Reserved.
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSerifTC.txt, https://openfontlicense.org).
+Regular 400 from https://github.com/google/fonts/tree/main/ofl/notoseriftc, subset to the characters of the Traditional Chinese sample text; never a Japanese font.
+
+Noto Serif JP
+Files: assets/fonts/noto-serif-jp-400-ja.woff2
+Copyright 2012 Google Inc. All Rights Reserved.
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSerifJP.txt, https://openfontlicense.org).
+Regular 400 from https://github.com/google/fonts/tree/main/ofl/notoserifjp, subset to the characters of the Japanese sample text.

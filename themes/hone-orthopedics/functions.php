@@ -10,6 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require_once get_template_directory() . '/inc/demo-import.php';
+require_once get_template_directory() . '/inc/i18n.php';
 
 define( 'HONE_ORTHOPEDICS_VERSION', wp_get_theme()->get( 'Version' ) );
 
