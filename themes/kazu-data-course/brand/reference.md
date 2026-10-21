@@ -2,7 +2,7 @@
 
 ## Sources (S5-Style, education category; neither used by any earlier theme)
 - R1 https://mauinterview.musabi.ac.jp/ (Musashino Art University interview site; first screen `ref/mau-first.png`, part `ref/mau-part1.png`)
-- R2 https://mycampus.jue.ac.jp/ (Nippon Keizai University applicant site; first screen `ref/jue-first.png`, part `ref/jue-part1.png` is replaced by `ref/scroll-jue-after.png`)
+- R2 https://mycampus.jue.ac.jp/ (Nippon Keizai University applicant site; first screen `ref/jue-first.png`, scroll state `ref/scroll-jue-after.png`)
 
 ## Signature technique candidates
 | # | Ref | Technique (shape, composition, position) | Applied in theme |
