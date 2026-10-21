@@ -365,4 +365,7 @@ return array(
 	'xfb357b75' => 'Où poser une question qui n’est pas traitée ici ?',
 	'xfbc69499' => 'Module 6',
 	'xfec2f3a6' => 'La fidélisation dans le temps',
+	'x73bdee5a' => 'Un court e-mail par mois. Aucun pixel espion, aucun compte à rebours commercial.',
+	'x4721dec3' => 'Une fois par mois, Kazu envoie un exemple résolu, un graphique qui mérite un second regard et la date du prochain Q&R en direct. Désabonnement en un clic.',
+	'xb2691758' => 'S’abonner',
 );

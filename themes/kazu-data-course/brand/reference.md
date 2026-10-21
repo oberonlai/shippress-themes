@@ -22,7 +22,7 @@ Take for Kazu (quiet palette only): A1 + A2 + A3 (R1), B2 + B3 structure (R2, re
 | R1 | 5.7% (LINE green button + pink name only) | #F8F8F8 71%, pale stone #E8E8E0 4%, ink #000 2% |
 | R2 | 25.4% (blue side rail, pastel tabs) | #F8F8F8 32%, sky #78B0E0 17%, cream #F8F0D8 7% — not usable as a ratio, structure only |
 
-## Palette (relationship from R1, accent from design-plan 江戸紫 #6E5A7E)
+## Palette (relationship from R1, accent from design-plan, Edo purple #6E5A7E)
 | Role | Hex | Share | Source |
 |------|-----|-------|--------|
 | Ground | #F8F8F8 | ~70% | R1 white ground |

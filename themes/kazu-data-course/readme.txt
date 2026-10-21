@@ -26,7 +26,7 @@ The course, people, address and prices are fictional.
 
 == Copyright ==
 
-Kazu Data Course, (C) ShipPress, GPL-2.0-or-later. Lora and Inter are licensed under the SIL Open Font License 1.1 (assets/fonts/OFL-*.txt). Photographs were generated for this theme.
+Kazu Data Course, (C) ShipPress, GPL-2.0-or-later. Lora, Inter, Noto Serif JP and Noto Serif TC (the last two bundled as small ja and zh-TW subsets) are licensed under the SIL Open Font License 1.1 (assets/fonts/OFL-*.txt). Photographs were generated for this theme.
 
 == Images ==
 assets/images/p01-kazu-desk.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
@@ -47,3 +47,5 @@ assets/images/p15-flatlay.webp: generated with Grok for this theme, GPL-2.0-or-l
 assets/images/p16-kazu-record.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p17-group.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p18-study.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/watermark-ring.svg: drawn for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/watermark-ring.png: raster copy of watermark-ring.svg for the demo import, GPL-2.0-or-later / CC0

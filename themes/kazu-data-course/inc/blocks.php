@@ -75,11 +75,11 @@ function kz_table( $class, array $head, array $rows ) {
 	foreach ( $rows as $r ) {
 		$tb .= '<tr>';
 		foreach ( $r as $i => $c ) {
-			$tb .= '<td' . ( count( $r ) - 1 === $i ? ' class="kz-price"' : '' ) . '>' . esc_html( $c ) . '</td>';
+			$tb .= '<td>' . esc_html( $c ) . '</td>';
 		}
 		$tb .= '</tr>';
 	}
-	return "<!-- wp:table " . kz_json( array( 'className' => $class ) ) . " -->\n<figure class=\"wp-block-table $class\"><table><thead><tr>$th</tr></thead><tbody>$tb</tbody></table></figure>\n<!-- /wp:table -->\n\n";
+	return "<!-- wp:table " . kz_json( array( 'hasFixedLayout' => false, 'className' => $class ) ) . " -->\n<figure class=\"wp-block-table $class\"><table><thead><tr>$th</tr></thead><tbody>$tb</tbody></table></figure>\n<!-- /wp:table -->\n\n";
 }
 
 /** Section opener: eyebrow + heading. */

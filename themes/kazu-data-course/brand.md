@@ -5,6 +5,7 @@ Solo-instructor online course in practical data analysis. Lessons are online; th
 ## Concept
 - **Name:** Kazu Data Course. Founded **2019**. Studio: Kadekamer 14, 3011 AB Rotterdam, Netherlands.
 - **Instructor:** Kazu Moreno (she/her), 11 years as a working analyst in logistics and public-health reporting before teaching. No awards, media or employer names.
+- **Audience:** working adults who handle spreadsheets and reports at their job (operations, HR, fundraising, small business owners) and want to ask better questions of their data; customers buy once, for themselves.
 - **Tone:** plain, warm, exact; "you" voice; no promises of jobs, salaries or results.
 - **Currency:** EUR. `€290` in en / zh-TW / ja, `290 €` in fr / de.
 

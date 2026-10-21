@@ -7,26 +7,67 @@
  * Viewport Width: 1440
  * Description: The one price card and the full price table.
  */
-$list = '';
-for ( $i = 1; $i <= 4; $i++ ) {
-	$list .= '<li>' . esc_html( kazu_t( "pr_inc$i" ) ) . '</li>';
-}
-$rows = array();
-for ( $i = 1; $i <= 6; $i++ ) {
-	$rows[] = array( kazu_t( "pt$i" ), kazu_t( "pt{$i}i" ), kazu_t( "pt{$i}a" ), kazu_t( "pt{$i}p" ) );
-}
-echo kz_g( 'kz-sec kz-price-sec',
-	kz_g( 'kz-col kz-col--center', kz_open( 'pr_eyebrow', 'pr_title' ) )
-	. kz_g( 'kz-card kz-pricecard',
-		kz_p( 'kz-pill', esc_html( kazu_t( 'pr_pill' ) ) )
-		. kz_h( 3, 'kz-pricecard__name', esc_html( kazu_t( 'pr_name' ) ) )
-		. kz_p( 'kz-bignum', esc_html( kazu_t( 'pr_num' ) ) )
-		. "<!-- wp:list {\"className\":\"kz-checks\"} -->\n<ul class=\"wp-block-list kz-checks\">" . str_replace( '<li>', "<!-- wp:list-item -->\n<li>", str_replace( '</li>', "</li>\n<!-- /wp:list-item -->", $list ) ) . "</ul>\n<!-- /wp:list -->\n\n"
-		. kz_btns( 'kz-pricecard__btn', array( array( kazu_t( 'pr_btn' ), kazu_buy_url() ) ) )
-	)
-	. kz_g( 'kz-wide kz-tablewrap',
-		kz_h( 3, 'kz-h3', esc_html( kazu_t( 'pr_all' ) ) )
-		. kz_table( 'kz-table', array( kazu_t( 'th_item' ), kazu_t( 'th_inc' ), kazu_t( 'th_acc' ), kazu_t( 'th_price' ) ), $rows )
-	),
-	'section', 'full'
-);
+?>
+<!-- wp:group {"className":"kz-sec kz-price-sec","layout":{"type":"default"},"tagName":"section","align":"full"} -->
+<section class="wp-block-group alignfull kz-sec kz-price-sec"><!-- wp:group {"className":"kz-col kz-col--center","layout":{"type":"default"}} -->
+<div class="wp-block-group kz-col kz-col--center"><!-- wp:paragraph {"className":"kz-eyebrow"} -->
+<p class="kz-eyebrow"><?php echo esc_html( kazu_t( 'pr_eyebrow' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"kz-h2"} -->
+<h2 class="wp-block-heading kz-h2"><?php echo esc_html( kazu_t( 'pr_title' ) ); ?></h2>
+<!-- /wp:heading -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kz-card kz-pricecard","layout":{"type":"default"}} -->
+<div class="wp-block-group kz-card kz-pricecard"><!-- wp:paragraph {"className":"kz-pill"} -->
+<p class="kz-pill"><?php echo esc_html( kazu_t( 'pr_pill' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"kz-pricecard__name","level":3} -->
+<h3 class="wp-block-heading kz-pricecard__name"><?php echo esc_html( kazu_t( 'pr_name' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kz-bignum"} -->
+<p class="kz-bignum"><?php echo esc_html( kazu_t( 'pr_num' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"className":"kz-checks"} -->
+<ul class="wp-block-list kz-checks"><!-- wp:list-item -->
+<li><?php echo esc_html( kazu_t( 'pr_inc1' ) ); ?></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><?php echo esc_html( kazu_t( 'pr_inc2' ) ); ?></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><?php echo esc_html( kazu_t( 'pr_inc3' ) ); ?></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><?php echo esc_html( kazu_t( 'pr_inc4' ) ); ?></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:buttons {"className":"kz-pricecard__btn","layout":{"type":"flex"}} -->
+<div class="wp-block-buttons kz-pricecard__btn"><!-- wp:button {"className":""} -->
+<div class="wp-block-button "><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( kazu_buy_url() ); ?>"><?php echo esc_html( kazu_t( 'pr_btn' ) ); ?></a></div>
+<!-- /wp:button -->
+
+</div>
+<!-- /wp:buttons -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kz-wide kz-tablewrap","layout":{"type":"default"}} -->
+<div class="wp-block-group kz-wide kz-tablewrap"><!-- wp:heading {"className":"kz-h3","level":3} -->
+<h3 class="wp-block-heading kz-h3"><?php echo esc_html( kazu_t( 'pr_all' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:table {"hasFixedLayout":false,"className":"kz-table"} -->
+<figure class="wp-block-table kz-table"><table><thead><tr><th><?php echo esc_html( kazu_t( 'th_item' ) ); ?></th><th><?php echo esc_html( kazu_t( 'th_inc' ) ); ?></th><th><?php echo esc_html( kazu_t( 'th_acc' ) ); ?></th><th><?php echo esc_html( kazu_t( 'th_price' ) ); ?></th></tr></thead><tbody><tr><td><?php echo esc_html( kazu_t( 'pt1' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt1i' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt1a' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt1p' ) ); ?></td></tr><tr><td><?php echo esc_html( kazu_t( 'pt2' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt2i' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt2a' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt2p' ) ); ?></td></tr><tr><td><?php echo esc_html( kazu_t( 'pt3' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt3i' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt3a' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt3p' ) ); ?></td></tr><tr><td><?php echo esc_html( kazu_t( 'pt4' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt4i' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt4a' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt4p' ) ); ?></td></tr><tr><td><?php echo esc_html( kazu_t( 'pt5' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt5i' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt5a' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt5p' ) ); ?></td></tr><tr><td><?php echo esc_html( kazu_t( 'pt6' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt6i' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt6a' ) ); ?></td><td><?php echo esc_html( kazu_t( 'pt6p' ) ); ?></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+</div>
+<!-- /wp:group -->
+
+</section>
+<!-- /wp:group -->

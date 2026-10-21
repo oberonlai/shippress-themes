@@ -1,6 +1,6 @@
 # Kazu Data Course: design spec (stage 1, binding for implementation)
 
-Slug `kazu-data-course`, solo-instructor online course (education). Row b7-3: single-column longform, framed-window hero, top-bar nav, real high-key photography, accent 江戸紫 `#6E5A7E`, Lora + Inter.
+Slug `kazu-data-course`, solo-instructor online course (education). Row b7-3: single-column longform, framed-window hero, top-bar nav, real high-key photography, accent Edo purple `#6E5A7E`, Lora + Inter.
 Commerce: Tutor LMS (free) sells through WooCommerce checkout; buyer logs in and watches lessons on the site (fallback LearnPress/Sensei only if free Tutor cannot sell via WooCommerce; record in notes).
 References (see `reference.md`): **R1** Musashino Art University interview site https://mauinterview.musabi.ac.jp/ (main: type, framed window, watermark, colour ratio) and **R2** Nippon Keizai University applicant site https://mycampus.jue.ac.jp/ (structure only: offset-edge card, pill-label stat card). Borrow structure, technique and colour relationships only. No copy, photos or logos. Nothing from R2's sidebar, pastel fields or illustrations.
 
@@ -57,10 +57,10 @@ Home and header show the one headline price: **€290 — Buy the course**.
 
 ## 1. Signature techniques (three; obvious at a glance; never "softened")
 
-### T1. Oversized light serif headline flush to the viewport's left edge (R1 first screen, "美はつづく。")
+### T1. Oversized light serif headline flush to the viewport's left edge (R1 first screen)
 - Reference: on R1 the headline is the largest thing on the page, a thin serif in black starting at x=0 (no page margin), nearly touching the top; a lighter, smaller second line sits right under it, also flush left. It ignores the content column; everything else is centred and narrow. Contrast: huge thin black type vs. small quiet everything else.
 - Kazu: home hero, home close, and **every inner page head**. Markup: `h1.kz-display` (home) / `h1.kz-pagehead` (inner), followed by `p.kz-subline`.
-  - Home hero `h1`: Lora 400, `font-size: clamp(3.25rem, 9.5vw, 8.5rem)` (preset `display`, theme maximum 8.5rem), line-height 0.98, letter-spacing -0.02em, colour ink `#1E1A22`. Text en: **"Data, plainly."** (each language ≤ 16 characters per word; zh-TW 「把數據說清楚。」, ja 「データを、平明に。」 at 0.75× size).
+  - Home hero `h1`: Lora 400, `font-size: clamp(3.25rem, 9.5vw, 8.5rem)` (preset `display`, theme maximum 8.5rem), line-height 0.98, letter-spacing -0.02em, colour ink `#1E1A22`. Text en: **"Data, plainly."** (each language ≤ 16 characters per word; the zh-TW and ja headlines at 0.75× size).
   - Subline: Lora 400 italic, `clamp(1.375rem, 2.6vw, 2.5rem)`, colour `#1E1A22` at 72% (use `#5E5863`), directly under the headline (gap 4–12px). en: "A practical analysis course, taught by one person."
   - Inner page heads: Lora 400, `clamp(2.75rem, 6vw, 5.5rem)` (preset `xx-large`), same flush-left rule, subline under.
 - Geometry: the heading block has **padding-left 0 at ≥1024px** (text starts at x=0 to x≤8px, the glyph side-bearing only), sits 24–40px below the header. Below 1024px use the normal page gutter (20px) so nothing touches the screen edge on phones. Never negative margins, never `overflow` hacks; must not cause horizontal scroll.
@@ -159,7 +159,7 @@ Signature continuity: T1 on 10 pages, T2 on 5, T3 on 7 (≥4 inner pages each fo
 | Stone | `#E8E8E0` | ~10% | R1 watermark and gutters; hairlines, watermark ring, progress track, avatar disc |
 | Ink | `#1E1A22` | ~12% | R1 black type, warmed toward plum; all headings, card borders |
 | Grey text | `#5E5863` / `#6B6670` | ~4% | sublines, captions (both pass AA on ground) |
-| Accent 江戸紫 | `#6E5A7E` | ~3% | buttons, pills, eyebrow hairline, small name line, play circle, step numerals. Never a section background |
+| Accent Edo purple | `#6E5A7E` | ~3% | buttons, pills, eyebrow hairline, small name line, play circle, step numerals. Never a section background |
 | Accent tint | `#A99BB5` | ~1% | T3 hard offset edges only, focus ring |
 | White | `#FFFFFF` | cards | card faces |
 Button: bg `#6E5A7E`, text `#FFFFFF`, radius 999px, padding 14px 26px, hover `#5A4868`. Links: ink with accent underline 1px offset 3px.

@@ -365,4 +365,7 @@ return array(
 	'xfb357b75' => 'Wo frage ich etwas, das hier nicht steht?',
 	'xfbc69499' => 'Modul 6',
 	'xfec2f3a6' => 'Bindung im Zeitverlauf',
+	'x73bdee5a' => 'Eine kurze E-Mail im Monat. Keine Tracking-Pixel, keine Verkaufs-Countdowns.',
+	'x4721dec3' => 'Einmal im Monat schickt Kazu ein durchgerechnetes Beispiel, ein Diagramm, das einen zweiten Blick lohnt, und den Termin des nächsten Live-Q&A. Abmeldung mit einem Klick.',
+	'xb2691758' => 'Abonnieren',
 );
