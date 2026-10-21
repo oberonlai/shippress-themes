@@ -36,3 +36,32 @@ Crimson Pro and Figtree (SIL OFL 1.1, licences in assets/fonts).
 - assets/images/p15-teen.webp
 
 The journal posts reuse three of them from assets/images/demo/.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hada Dermatology home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hada Dermatology home page on mobile"></td>
+</tr>
+</table>
+
+- Conditions: [desktop](screenshots/conditions-desktop.webp) · [mobile](screenshots/conditions-mobile.webp)
+- Skin checks: [desktop](screenshots/skin-checks-desktop.webp) · [mobile](screenshots/skin-checks-mobile.webp)
+- Children: [desktop](screenshots/children-desktop.webp) · [mobile](screenshots/children-mobile.webp)
+- Cosmetic: [desktop](screenshots/cosmetic-desktop.webp) · [mobile](screenshots/cosmetic-mobile.webp)
+- Doctors: [desktop](screenshots/doctors-desktop.webp) · [mobile](screenshots/doctors-mobile.webp)
+- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
+- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
+- Book: [desktop](screenshots/book-desktop.webp) · [mobile](screenshots/book-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
