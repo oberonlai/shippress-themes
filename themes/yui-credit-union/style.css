@@ -221,7 +221,7 @@ a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible 
 
 /* ---- responsive ---- */
 @media (max-width: 1180px) {
-	.ycu-hide-s { display: none; }
+	.ycu-hide-s { display: none !important; }
 	.ycu-nav { margin-left: auto; }
 }
 @media (max-width: 900px) {
@@ -240,7 +240,7 @@ a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible 
 	.ycu-hero__photo { margin: 0 12px; }
 	.ycu-hero__photo img { height: 300px; }
 	.home .ycu-hero { padding-top: 88px; }
-	.ycu-hero__text, .ycu-head, .ycu-own__grid, .ycu-calcsec__grid, .ycu-story__grid, .ycu-join__grid, .ycu-gov__cols, .ycu-br__grid, .ycu-close__panel, .ycu-foot__grid { grid-template-columns: 1fr; gap: 28px; }
+	.ycu-hero__text, .ycu-head, .ycu-own__grid, .ycu-calcsec__grid, .ycu-story__grid, .ycu-join__grid, .ycu-gov__cols, .ycu-br__grid, .ycu-close__panel, .ycu-foot__grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
 	.ycu-own__photo, .ycu-join__photo, .ycu-story__quotes { grid-column: 1; }
 	.ycu-head { gap: 4px; margin-bottom: 36px; }
 	.ycu-rates__panel { padding: 8px 20px 24px; }
@@ -258,3 +258,5 @@ a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible 
 
 /* grid containers: no flow margins between cells */
 :is(.ycu-pick, .ycu-own__grid, .ycu-calcsec__grid, .ycu-story__grid, .ycu-join__grid, .ycu-gov__cols, .ycu-br__grid, .ycu-br__cols, .ycu-close__panel, .ycu-hero__text, .ycu-head, .ycu-foot__grid) > * { margin-block-start: 0 !important; }
+.ycu-sec .alignwide > *, .ycu-footer .alignwide > * { min-width: 0; }
+@media (max-width: 781px) { .ycu-calcsec__panel, .ycu-calc { min-width: 0; max-width: 100%; } .ycu-calc__row select { max-width: 60%; } }
