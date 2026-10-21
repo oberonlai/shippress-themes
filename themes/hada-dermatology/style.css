@@ -99,6 +99,7 @@ a { text-underline-offset: 0.2em; }
 .hd-chap { padding-block: 0; margin: 0; background: linear-gradient(90deg, var(--wp--preset--color--band) 0 60%, transparent 60%); }
 .hd-chap--rev { background: linear-gradient(270deg, var(--wp--preset--color--band) 0 60%, transparent 60%); }
 .hd-chap__grid { display: grid; grid-template-columns: 7fr 4fr; gap: 6%; align-items: center; padding-block: 56px; }
+.hd-chap--rev .hd-chap__grid { grid-template-columns: 4fr 7fr; }
 .hd-chap--rev .hd-chap__media { order: 2; }
 .hd-chap__photo { margin: 0; }
 .hd-chap__photo img { width: 100%; aspect-ratio: 16/10; object-fit: cover; }
@@ -120,18 +121,19 @@ a { text-underline-offset: 0.2em; }
 
 /* Mid-page band */
 .hd-visit { position: relative; background: var(--wp--preset--color--band); padding: clamp(3rem, 6vw, 5.5rem) 0 clamp(3.5rem, 6vw, 5.5rem); margin: 0; overflow: hidden; }
-.hd-visit__photo { margin: 0 0 0 auto; width: 80%; position: relative; z-index: 1; }
+.hd-visit__photo { margin: 0 5% 0 auto; width: 75%; position: relative; z-index: 1; }
 .hd-visit__photo img { width: 100%; aspect-ratio: 21/9; object-fit: cover; }
-.hd-standard--echo { right: auto; left: 5%; bottom: auto; top: calc(clamp(3rem, 6vw, 5.5rem) + 34.2857vw - 3.8rem); font-size: clamp(3rem, 5.2vw, 5rem); }
+.hd-standard--echo { right: auto; left: 5%; bottom: auto; top: calc(clamp(3rem, 6vw, 5.5rem) + 32.14vw - 3.8rem); font-size: clamp(3rem, 5.2vw, 5rem); }
 .hd-visit__text { max-width: 1240px; width: calc(100% - 2 * clamp(1.25rem, 4vw, 3rem)); margin-inline: auto !important; margin-top: clamp(4rem, 6vw, 5.5rem) !important; display: grid; grid-template-columns: 1fr 1fr; column-gap: 6%; }
 .hd-visit__text .hd-label { grid-column: 1 / -1; }
 .hd-visit__text .wp-block-buttons { grid-column: 1 / -1; margin-top: 0.75rem; }
 
 /* Fees */
+.hd-panel > *, .hd-hours > *, .hd-doclist > *, .hd-feelist > * { margin-block: 0 !important; }
 .hd-fees { padding-block: clamp(4rem, 7vw, 6.5rem); }
 .hd-fees__grid { display: grid; grid-template-columns: 8fr 4fr; gap: 6%; align-items: start; }
 .hd-fees .hd-panel { background: none; padding: 0; border-top: 1px solid var(--hd-line); }
-.hd-fee { display: flex; justify-content: space-between; gap: 1rem; padding: 0.95rem 0; border-bottom: 1px solid var(--hd-line); align-items: baseline; }
+.hd-fee { display: flex; justify-content: space-between; gap: 1rem; padding: 0.7rem 0; border-bottom: 1px solid var(--hd-line); align-items: baseline; }
 .hd-fee p { margin: 0; }
 .hd-fee__name { font-size: 1rem; }
 .hd-fee__price { font-family: var(--wp--preset--font-family--serif); font-size: 1.35rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
@@ -154,7 +156,7 @@ a { text-underline-offset: 0.2em; }
 /* Close */
 .hd-close { position: relative; overflow: hidden; padding-block: clamp(4rem, 7vw, 6.5rem); background: var(--wp--preset--color--ground); }
 .hd-close .hd-arc--arch { top: 0; left: auto; right: 8%; }
-.hd-close__grid { display: grid; grid-template-columns: 7fr 5fr; gap: 6%; align-items: end; position: relative; z-index: 2; }
+.hd-close__grid { display: grid; grid-template-columns: 7fr 5fr; gap: 6%; align-items: center; position: relative; z-index: 2; }
 .hd-hours { border-top: 1px solid var(--hd-line); max-width: 460px; margin: 1.5rem 0; }
 .hd-hr { display: flex; justify-content: space-between; padding: 0.7rem 0; border-bottom: 1px solid var(--hd-line); }
 .hd-hr p { margin: 0; font-variant-numeric: tabular-nums; }
@@ -191,6 +193,7 @@ a { text-underline-offset: 0.2em; }
 	.hd-letter__grid, .hd-concerns__grid, .hd-chap__grid, .hd-fees__grid, .hd-close__grid, .hd-foot__grid, .hd-head__grid { grid-template-columns: 1fr; }
 	.hd-chap, .hd-chap--rev { background: linear-gradient(180deg, var(--wp--preset--color--band) 0 70%, transparent 70%); }
 	.hd-chap--rev .hd-chap__media { order: 0; }
+	.hd-chap--rev .hd-chap__grid { grid-template-columns: 1fr; }
 	.hd-doc { grid-template-columns: 96px 1fr; }
 	.hd-doc__photo img { width: 96px; height: 96px; }
 	.hd-doc__line, .hd-doc__days { grid-column: 2; text-align: left; }
