@@ -353,3 +353,19 @@ body:not(.home) .ts-header { position: relative; background: #fff; color: var(--
 	.ts-person { grid-template-columns: 110px 1fr; gap: 1rem; }
 	.ts-table td, .ts-table th { font-size: 0.875rem; }
 }
+
+/* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Merriweather / Source Sans 3) ===== */
+:root:lang(zh) { --wp--preset--font-family--serif: "Merriweather", "Noto Serif TC", "Noto Serif CJK TC", serif; --wp--preset--font-family--sans: "Source Sans 3", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif; }
+:root:lang(ja) { --wp--preset--font-family--serif: "Merriweather", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; --wp--preset--font-family--sans: "Source Sans 3", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif; }
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) .ts-label, :is(:lang(zh), :lang(ja)) .ts-split__tag, :is(:lang(zh), :lang(ja)) .ts-card__cap, :is(:lang(zh), :lang(ja)) .ts-circle__cap, :is(:lang(zh), :lang(ja)) .ts-sub, :is(:lang(zh), :lang(ja)) .ts-foot__kicker, :is(:lang(zh), :lang(ja)) .ts-person__role, :is(:lang(zh), :lang(ja)) .ts-form label span { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .ts-h2 { font-size: clamp(1.7rem, 2.3vw, 2.1rem); }
+:is(:lang(zh), :lang(ja)) .ts-split__title { font-size: clamp(1.8rem, 2.5vw, 2.4rem); }
+:is(:lang(zh), :lang(ja)) .ts-split--page .ts-split__title { font-size: clamp(1.7rem, 2.2vw, 2.1rem); }
+:is(:lang(zh), :lang(ja)) .ts-svc__name { font-size: 1.3rem; }
+:lang(ja) :is(h1, h2, h3, p) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3) { hyphens: auto; }
+:is(:lang(fr), :lang(de)) .ts-split__title { font-size: clamp(2rem, 2.7vw, 2.5rem); }
+:is(:lang(fr), :lang(de)) .ts-split--page .ts-split__title { font-size: clamp(1.7rem, 2.3vw, 2.2rem); }
+:is(:lang(fr), :lang(de)) .ts-num__n { letter-spacing: -0.03em; }

@@ -1,6 +1,6 @@
 # Taiyo Solar Works: brand brief
 
-Design plan row: b6-16 (regional solar installation company, type business). Stage one: the home page in English. All names, places, people and figures are fictional.
+Design plan row: b6-16 (regional solar installation company, type business). Home page plus eleven inner pages and a journal, in five languages (en, zh-TW, ja, fr, de). All names, places, people and figures are fictional.
 
 ## Concept
 - **Company:** Taiyo Solar Works, founded 2011, workshop and office at 214 Foundry Lane, Marlow, in the fictional Alder Valley. Phone (555) 014-2290, hello@taiyosolar.example.
@@ -19,3 +19,9 @@ Split first screen (roof photo | graphite gradient panel with inset portrait), t
 
 ## Palette
 Ground #F1F1EF, band #E6E6E3, graphite #43474B, mid grey #6E7275, sun ochre #B9822E (dots, bars and est. figures only).
+
+## Inner pages
+Installations (case wall, seven cases C1-C7 with kW, estimated output and saving), Kenning case (C2, 8.8 kW + 13.5 kWh battery, est. 11,000 kWh and $2,150 a year), Residential Solar, Battery Storage and EV Charging, Commercial Roofs (C6 Westbrook 96 kW, C7 Ashby 32 kW), How It Works (the four steps: Book, Visit, Proposal, Install), Maintenance and Warranty (15-year workmanship, 25-year panel performance, 10-year battery, $190 visit), Pricing and Financing (full price table; pay on completion or 10, 15, 20-year loans through the fictional Alder Valley Credit Union; 10% deposit), Free Roof Assessment (plain HTML form with a mailto action), About (founders, installers, safety), Contact. Journal: six posts.
+
+## Languages
+Copy is rewritten locally, not translated word for word. Prices, system sizes, estimates and warranty terms are identical in every language; currency stays USD.
