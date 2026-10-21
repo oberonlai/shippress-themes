@@ -22,7 +22,7 @@ echo kz_g( 'kz-sec kz-price-sec',
 		. kz_h( 3, 'kz-pricecard__name', esc_html( kazu_t( 'pr_name' ) ) )
 		. kz_p( 'kz-bignum', esc_html( kazu_t( 'pr_num' ) ) )
 		. "<!-- wp:list {\"className\":\"kz-checks\"} -->\n<ul class=\"wp-block-list kz-checks\">" . str_replace( '<li>', "<!-- wp:list-item -->\n<li>", str_replace( '</li>', "</li>\n<!-- /wp:list-item -->", $list ) ) . "</ul>\n<!-- /wp:list -->\n\n"
-		. kz_btns( 'kz-pricecard__btn', array( array( kazu_t( 'pr_btn' ), '/pricing/' ) ) )
+		. kz_btns( 'kz-pricecard__btn', array( array( kazu_t( 'pr_btn' ), kazu_buy_url() ) ) )
 	)
 	. kz_g( 'kz-wide kz-tablewrap',
 		kz_h( 3, 'kz-h3', esc_html( kazu_t( 'pr_all' ) ) )

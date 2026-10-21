@@ -13,7 +13,7 @@ echo kz_g( 'kz-close',
 		kz_g( 'kz-alt__photo', kz_img( 'p12-kazu-window.webp', 'alt_p12', 'kz-photo kz-photo--45' ) )
 		. kz_g( 'kz-alt__text',
 			kz_p( 'kz-text', esc_html( kazu_t( 'cl_text' ) ) )
-			. kz_btns( 'kz-actions__buy kz-actions__two', array( array( kazu_t( 'cl_btn1' ), '/curriculum/', 'is-style-outline' ), array( kazu_t( 'cl_btn2' ), '/pricing/' ) ) )
+			. kz_btns( 'kz-actions__buy kz-actions__two', array( array( kazu_t( 'cl_btn1' ), '/curriculum/', 'is-style-outline' ), array( kazu_t( 'cl_btn2' ), kazu_buy_url() ) ) )
 			. kz_p( 'kz-small', esc_html( kazu_t( 'cl_hours' ) ) )
 		)
 	),

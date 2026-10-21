@@ -25,7 +25,7 @@ Tags: education, block-patterns, full-site-editing, blog, custom-colors, editor-
 	--kz-serif: var(--wp--preset--font-family--display);
 	--kz-sans: var(--wp--preset--font-family--body);
 	--kz-gut: clamp(20px, 4vw, 48px);
-	--kz-sec: clamp(80px, 10vw, 144px);
+	--kz-sec: clamp(52px, 9vw, 128px);
 	--sp-dist: 20px;
 	--sp-ease: cubic-bezier(0, .55, .45, 1);
 	--sp-dur: .7s;
@@ -48,6 +48,8 @@ html[lang^="fr"] body, html[lang^="de"] body { hyphens: auto; }
 .kz-nav a { text-decoration: none; }
 .kz-nav a:hover { color: var(--kz-accent); }
 .kz-hcta { display: flex; align-items: center; gap: 20px; margin: 0; }
+.kz-hlink a { text-decoration: none; }
+.kz-hlink a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .kz-hlink { margin: 0; font-size: .9375rem; font-weight: 500; white-space: nowrap; }
 .kz-hbtn .wp-block-button__link { padding: 9px 18px; font-size: .875rem; white-space: nowrap; }
 @media (max-width: 1023px) { .kz-hlink { display: none; } .kz-nav { margin-left: auto; } }
@@ -163,9 +165,10 @@ html[lang^="fr"] body, html[lang^="de"] body { hyphens: auto; }
 
 /* ---------- student work ---------- */
 .kz-work { position: relative; overflow: clip; }
-.kz-ring { position: absolute; left: 50%; top: 50%; width: 1100px; height: 1100px; margin: -550px 0 0 -550px; pointer-events: none; z-index: 0; }
+.kz-ring { position: absolute; left: 50%; top: 50%; width: 640px; height: 640px; margin: 0 !important; left: calc(50% - 230px); top: calc(50% - 320px); pointer-events: none; z-index: -1; }
 .kz-ring.sp-parallax { overflow: clip; }
-.kz-ring img { width: 1100px; max-width: none; height: 1100px; border-radius: 0; }
+
+.kz-ring img { width: 640px; max-width: none; height: 640px; border-radius: 0; }
 .kz-work__in { position: relative; z-index: 1; }
 .kz-stories { display: grid; gap: clamp(56px, 7vw, 96px); margin-top: 40px; }
 .kz-story { display: grid; grid-template-columns: 1fr; gap: 28px; align-items: center; }

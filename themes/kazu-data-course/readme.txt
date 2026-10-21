@@ -27,3 +27,17 @@ The course, people, address and prices are fictional.
 == Copyright ==
 
 Kazu Data Course, (C) ShipPress, GPL-2.0-or-later. Lora and Inter are licensed under the SIL Open Font License 1.1 (assets/fonts/OFL-*.txt). Photographs were generated for this theme.
+
+== Images ==
+assets/images/p01-kazu-desk.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p02-notebook.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p03-laptop-chart.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p04-headphones.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p05-pinboard.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p06-priya.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p07-amara.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p08-lena.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p09-daniel.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p10-studio.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p11-coffee.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p12-kazu-window.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0

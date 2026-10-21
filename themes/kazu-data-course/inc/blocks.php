@@ -86,3 +86,23 @@ function kz_table( $class, array $head, array $rows ) {
 function kz_open( $eyebrow_key, $title_key, $title_class = 'kz-h2' ) {
 	return kz_p( 'kz-eyebrow', esc_html( kazu_t( $eyebrow_key ) ) ) . kz_h( 2, $title_class, esc_html( kazu_t( $title_key ) ) );
 }
+
+/**
+ * Where the Buy buttons go. With WooCommerce and a published product (the first one, or the one the
+ * `kazu_data_course_product_id` filter names) the button adds it to the cart and lands on checkout; otherwise it goes to
+ * the price page, so the theme still works without the plugin.
+ */
+function kazu_buy_url() {
+	$url = '/pricing/';
+	if ( function_exists( 'wc_get_checkout_url' ) ) {
+		$id = (int) apply_filters( 'kazu_data_course_product_id', 0 );
+		if ( ! $id ) {
+			$ids = get_posts( array( 'post_type' => 'product', 'post_status' => 'publish', 'numberposts' => 1, 'fields' => 'ids', 'orderby' => 'menu_order date', 'order' => 'ASC' ) );
+			$id  = $ids ? (int) $ids[0] : 0;
+		}
+		if ( $id ) {
+			$url = add_query_arg( 'add-to-cart', $id, wc_get_checkout_url() );
+		}
+	}
+	return apply_filters( 'kazu_data_course_buy_url', $url );
+}
