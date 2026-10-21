@@ -135,7 +135,8 @@ body:not(.home) .ts-header { position: relative; background: #fff; color: var(--
 .ts-svc__row:last-of-type { border-bottom: 1px solid var(--ts-line); }
 .ts-svc__name { font-size: 1.5rem; font-weight: 400; margin: 0 !important; }
 .ts-svc__line { font-size: 0.9375rem; color: var(--ts-quiet); line-height: 1.5; }
-.ts-svc__price { font-weight: 600; text-align: right; white-space: nowrap; }
+.ts-svc__price { font-weight: 600; text-align: right; }
+.ts-table td:last-child .ts-nw { white-space: nowrap; }
 .ts-svc__list .ts-note { margin-top: 1.5rem !important; }
 
 /* 6. Assessment */
@@ -217,7 +218,7 @@ body:not(.home) .ts-header { position: relative; background: #fff; color: var(--
 	.ts-header { padding: 16px 1.25rem; }
 	.ts-header .ts-header__cta { display: none !important; }
 	.ts-split, .ts-close { grid-template-columns: 1fr; }
-	.ts-split__photo { height: 62svh; }
+	.ts-split__photo { height: min(62svh, 540px); max-height: 540px; }
 	.ts-split__panel { padding: 0 8% 2rem; min-height: 0; }
 	.ts-split__inset { position: relative; left: auto; top: auto; width: 60%; margin: -64px 0 2rem auto; z-index: 2; }
 	.ts-split__head, .ts-newsline { position: static; }
@@ -248,7 +249,7 @@ body:not(.home) .ts-header { position: relative; background: #fff; color: var(--
 	.ts-note__date, .ts-note__cat { grid-column: 1; }
 	.ts-note__title { grid-column: 1; }
 	.ts-note__dot { grid-column: 2; grid-row: 1; }
-	.ts-close__photo { min-height: 50svh; }
+	.ts-close__photo { min-height: min(50svh, 540px); max-height: 540px; }
 	.ts-foot__grid { grid-template-columns: 1fr; }
 }
 
@@ -305,10 +306,11 @@ body:not(.home) .ts-header { position: relative; background: #fff; color: var(--
 .ts-rrow--r .ts-rrow__right { grid-column: 2; grid-row: 1 / 3; align-self: center; font-family: var(--wp--preset--font-family--serif); font-size: 1.5rem; font-weight: 300; white-space: nowrap; }
 .ts-rrow__name { font-size: 1.125rem !important; font-weight: 400; margin: 0 !important; }
 .ts-rrow__line { font-size: 0.9375rem; color: var(--ts-quiet); line-height: 1.55; }
-.ts-table table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; margin-top: 1.5rem; }
-.ts-table th { text-align: left; font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ts-quiet); font-weight: 600; padding: 0.6rem 0; border-bottom: 1px solid var(--ts-ink); }
-.ts-table td { padding: 0.95rem 1rem 0.95rem 0; border-bottom: 1px solid var(--ts-line); vertical-align: top; }
-.ts-table td:last-child, .ts-table th:last-child { text-align: right; padding-right: 0; }
+.ts-table table, .wp-block-table.ts-table table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; margin-top: 1.5rem; border: 0; }
+.ts-table th { text-align: left; font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ts-quiet); font-weight: 600; padding: 0.85rem 1rem; border: 0; border-bottom: 1px solid var(--ts-ink); }
+.ts-table td { padding: 0.85rem 1rem; border: 0; border-bottom: 1px solid #C9CAC8; vertical-align: top; }
+.ts-table td:last-child, .ts-table th:last-child { text-align: right; }
+.ts-table td:last-child .ts-nw { white-space: nowrap; }
 .ts-table td:first-child { font-family: var(--wp--preset--font-family--serif); }
 .ts-quote { font-family: var(--wp--preset--font-family--serif); font-size: 1.35rem; font-weight: 300; line-height: 1.55; margin-bottom: 1.25rem !important; }
 .wp-block-details { border-top: 1px solid var(--ts-line); padding-block: 1rem; }
@@ -345,13 +347,15 @@ body:not(.home) .ts-header { position: relative; background: #fff; color: var(--
 	.ts-two__body { margin-top: 2rem; }
 	.ts-bandcta h2 { margin-bottom: 1rem !important; }
 	.ts-split--page, .ts-split--short { min-height: 0; }
-	.ts-split--page .ts-split__photo { height: 46svh; }
+	.ts-split--page .ts-split__photo { height: min(46svh, 540px); max-height: 540px; }
 	.ts-split--page .ts-split__head { position: static; width: auto; }
 	.ts-split--page .ts-split__inset { position: relative; left: auto; top: auto; width: 46%; margin: -48px 0 1.5rem auto; }
 	.ts-case--page .ts-case__text { margin-top: 8.5rem; }
 	.ts-cards--2, .ts-cards--3, .ts-cards--4 { display: flex; }
 	.ts-person { grid-template-columns: 110px 1fr; gap: 1rem; }
-	.ts-table td, .ts-table th { font-size: 0.875rem; }
+	.ts-table td, .ts-table th { font-size: 0.875rem; padding: 0.75rem 0.6rem; }
+	.ts-table.wp-block-table { overflow-x: auto; }
+	.ts-table table { min-width: 0; }
 }
 
 /* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Merriweather / Source Sans 3) ===== */
@@ -382,3 +386,4 @@ body:not(.home) .ts-header { position: relative; background: #fff; color: var(--
 .ts-form, .ts-form label { min-width: 0; max-width: 100%; }
 .ts-form input, .ts-form textarea { box-sizing: border-box; }
 .ts-rrow__line { overflow-wrap: anywhere; }
+.ts-table td:nth-child(2) { white-space: nowrap; }

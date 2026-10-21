@@ -190,7 +190,7 @@ Warranties: **15-year workmanship** (ours, includes roof penetrations); **25-yea
 | C1 | Marlow, brick terrace | 2024 | 6.4 kW | 8,000 kWh | $1,600 |
 | C2 | Kenning, gabled family home (featured, ring "07") | 2025 | 8.8 kW + 13.5 kWh battery | 11,000 kWh | $2,150 |
 | C3 | Ashby, bungalow | 2023 | 4.8 kW | 6,000 kWh | $1,200 |
-| C4 | Halden, timber house + EV charger | 2025 | 10.2 kW | 12,750 kWh | $2,450 |
+| C4 | Halden, timber house + EV charger | 2025 | 10.2 kW | 12,750 kWh | $2,550 |
 | C5 | Pell Harbor, coastal house | 2024 | 5.6 kW | 6,700 kWh | $1,350 |
 | C6 | Westbrook, warehouse | 2025 | 96 kW | 118,000 kWh | $17,700 |
 | C7 | Ashby, corner shop roof | 2026 | 32 kW | 39,000 kWh | $5,850 |
