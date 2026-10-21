@@ -123,4 +123,9 @@ return array(
 	'ft_legal' => '© 2019–2026 Kazu Data Course. Refunds within 14 days if you have watched less than a quarter. The studio, people and prices on this demo site are fictional.',
 	'ab_eyebrow' => 'About',
 	'ab_title' => 'One teacher, a small studio',
+	'tpl_404_title'     => 'Page not found',
+	'tpl_404_text'      => 'That page is not here. Try the curriculum or the price page.',
+	'tpl_404_btn'       => 'See the curriculum',
+	'tpl_journal_title' => 'Journal',
+	'tpl_journal_sub'   => 'Notes on asking, cleaning and charting.',
 );
