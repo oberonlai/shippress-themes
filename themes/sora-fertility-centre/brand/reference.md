@@ -12,7 +12,7 @@ Scroll before/after: `ref/scroll-concept-before.png`/`-after.png`, `ref/scroll-d
 ## Structure (measured)
 - Home height 9687px at 1440. Blocks: full-bleed hero (3 crossfading slides, 900px) → "letter" concept (1200px: text left in two offset columns, tilted paper + photo right) → three service bands (costume / dress / hair&make, each ~1150px: arch-shaped lighter ground, small centred title + English subtitle, ONE 427x651 portrait photo offset right of centre, vertical text beside it) → interlude full-bleed photo band (900px) → photo plan (664) → salon slider (1214) → FAQ / contact.
 - Image-to-text roughly 60/40; one photo per block, big margins (block padding ~330px top). Body 13.9px / line-height 2.3; section title 15.9px with 0.1em tracking, so headings are tiny and photos carry the page.
-- Nav: logo left (thin custom script), items right, 20px? (uppercase-free lowercase English labels, +/- toggles), outline button "reserve" at far right; transparent over the hero.
+- Nav: logo left (thin custom script), items right, (lowercase English labels, 20px, +/- toggles), outline button "reserve" at far right; transparent over the hero.
 - Fonts: Shippori Mincho (JP serif), TT Commons; English accents italic script.
 
 ## Signature candidates (shape / composition / position)
