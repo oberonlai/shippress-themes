@@ -84,5 +84,5 @@ $yb = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<nav class="yb-index" aria-label="On this page"><a href="#top"><i></i>Top</a><a href="#catalogue" class="is-active" aria-current="location"><i></i>Catalogue</a><a href="#shelves"><i></i>Shelves</a><a href="#compare"><i></i>Compare</a><a href="#tests"><i></i>Field tests</a><a href="#workshop"><i></i>Workshop</a><a href="#stories"><i></i>Stories</a><a href="#visit"><i></i>Visit</a></nav>
+<nav class="yb-index" aria-label="On this page"><a href="#top" class="is-active" aria-current="location"><i></i>Top</a><a href="#catalogue"><i></i>Catalogue</a><a href="#shelves"><i></i>Shelves</a><a href="#compare"><i></i>Compare</a><a href="#tests"><i></i>Field tests</a><a href="#workshop"><i></i>Workshop</a><a href="#stories"><i></i>Stories</a><a href="#visit"><i></i>Visit</a></nav>
 <!-- /wp:html -->

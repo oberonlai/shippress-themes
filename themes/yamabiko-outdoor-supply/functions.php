@@ -103,3 +103,19 @@ function yamabiko_outdoor_supply_pattern_categories() {
 	);
 }
 add_action( 'init', 'yamabiko_outdoor_supply_pattern_categories' );
+
+/**
+ * Without WooCommerce there are no product pages: the catalogue links (/product/<slug>/) lead to the Shop page
+ * instead of a 404. With WooCommerce active this does nothing.
+ */
+function yamabiko_outdoor_supply_no_woo_product_redirect() {
+	if ( class_exists( 'WooCommerce' ) || ! is_404() ) {
+		return;
+	}
+	$path = isset( $_SERVER['REQUEST_URI'] ) ? wp_parse_url( wp_unslash( $_SERVER['REQUEST_URI'] ), PHP_URL_PATH ) : '';
+	if ( is_string( $path ) && preg_match( '#/product/[^/]+/?$#', $path ) ) {
+		wp_safe_redirect( home_url( '/shop/' ), 302 );
+		exit;
+	}
+}
+add_action( 'template_redirect', 'yamabiko_outdoor_supply_no_woo_product_redirect' );

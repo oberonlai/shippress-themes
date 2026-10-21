@@ -23,7 +23,7 @@ Tags: e-commerce, block-patterns, full-site-editing, blog, custom-colors, editor
 	--yb-accent: var(--wp--preset--color--accent);
 	--yb-accent-dark: var(--wp--preset--color--accent-dark);
 	--yb-serif: var(--wp--preset--font-family--display);
-	--yb-sec: clamp(4rem, 8vw, 8rem);
+	--yb-sec: clamp(3.5rem, 7.2vw, 7.2rem);
 	--yb-gut: clamp(1.25rem, 4vw, 3rem);
 	--yb-inset: 38px;
 }
@@ -42,7 +42,13 @@ img { max-width: 100%; height: auto; }
 /* header */
 .yb-head-part { margin: 0; }
 .yb-header { padding: 0 var(--yb-gut); background: var(--yb-ground); }
-.yb-bar { max-width: 1360px; margin: 0 auto; min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+.yb-bar { max-width: 1360px; margin: 0 auto; min-height: 76px; display: flex; align-items: center; justify-content: flex-start; gap: 1.75rem; }
+.yb-bar .yb-brand { margin-right: auto; }
+.yb-cart { display: inline-flex; align-items: center; gap: 0.45rem; color: inherit; text-decoration: none; font-size: 0.9375rem; font-weight: 500; line-height: 1; }
+.yb-cart svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.yb-cart b { font-weight: 500; font-variant-numeric: tabular-nums; min-width: 1ch; }
+.yb-head-part--over .yb-cart { color: #fff; }
+.woocommerce-js .yb-cart { display: none; }
 .yb-brand { display: flex; flex-direction: column; gap: 0; }
 .yb-brand__title, .yb-brand__title a { font-family: var(--yb-serif); font-weight: 400; font-size: 1.375rem; line-height: 1.1; letter-spacing: 0.01em; margin: 0; text-decoration: none; color: inherit; }
 .yb-brand__sub { margin: 0; font-size: 0.625rem; letter-spacing: 0.24em; text-transform: uppercase; line-height: 1.4; }
@@ -138,7 +144,7 @@ img { max-width: 100%; height: auto; }
 
 /* inset veil band (T1) */
 .yb-band { padding: 0 var(--yb-inset); box-sizing: border-box; background: var(--yb-ground); }
-.yb-band__box { position: relative; display: flex; flex-direction: column; justify-content: space-between; gap: 3rem; min-height: 520px; height: min(82vh, 760px); box-sizing: border-box; padding: 12vh 40px 40px; overflow: clip; color: #fff; background: var(--wp--preset--color--veil); }
+.yb-band__box { position: relative; display: flex; flex-direction: column; justify-content: space-between; gap: 3rem; min-height: 520px; height: min(82vh, 760px); box-sizing: border-box; padding: 16vh 40px 56px; overflow: clip; color: #fff; background: var(--wp--preset--color--veil); }
 .yb-band__photo { position: absolute; inset: 0; margin: 0; }
 .yb-band__photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .yb-band__box::after { content: ""; position: absolute; inset: 0; background: rgba(22,28,30,.62); pointer-events: none; }
@@ -148,7 +154,7 @@ img { max-width: 100%; height: auto; }
 .yb-entry span { font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,.72); }
 .yb-entry b { font-family: var(--yb-serif); font-weight: 300; font-size: 1.75rem; line-height: 1.2; align-self: flex-start; padding-bottom: 10px; border-bottom: 1px solid #fff; }
 .yb-entry:hover b { border-bottom-width: 2px; }
-.yb-band__note { margin: 0; max-width: 30rem; font-size: 1rem; color: rgba(255,255,255,.82); }
+.yb-band__note { margin: 0; max-width: 38rem; font-size: 1.375rem; line-height: 1.45; font-family: var(--yb-serif); font-weight: 300; color: rgba(255,255,255,.92); }
 
 /* spec sheet */
 .yb-compare { padding-top: calc(var(--yb-sec) * 0.9); }
@@ -265,3 +271,25 @@ img { max-width: 100%; height: auto; }
 .yb-foot__base { border-top: 0; }
 .yb-foot__base::before { content: ""; display: block; border-top: 1px solid rgba(255,255,255,.2); margin-bottom: 1.5rem; }
 .wp-block-button.is-style-text-link.yb-link-white .wp-block-button__link, .wp-block-button.is-style-text-link.yb-link-white .wp-block-button__link:hover { color: #fff; }
+
+/* compact chip below 1100px: thumbnail and arrow only (also on phones, where it stays visible on every page) */
+@media (max-width: 1099px) {
+	.yb-chip { display: flex; align-items: center; gap: 6px; position: fixed; right: 14px; bottom: 14px; z-index: 30; height: 52px; box-sizing: border-box; padding: 6px 10px 6px 6px; border-radius: 999px; background: var(--yb-ink); color: #fff; text-decoration: none; }
+	.yb-chip img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; display: block; }
+	.yb-chip__t { display: none; }
+	.yb-chip__a { display: grid; place-items: center; width: 24px; height: 24px; color: var(--yb-accent-dark); font-size: 0.9rem; }
+	body.woocommerce-cart .yb-chip, body.woocommerce-checkout .yb-chip { display: none; }
+}
+@media (max-width: 781px) {
+	.yb-hero__title { font-size: clamp(2.3rem, 10vw, 3.2rem); }
+	
+	.yb-header { padding: 0 20px; }
+}
+
+/* The fixed dash index (left) and field-pick chip (right) are clear of the info bar and the cover copy. */
+@media (min-width: 782px) { .yb-info__in { max-width: none; padding-right: 110px; } }
+@media (min-width: 1100px) { .yb-info__in { padding-right: 400px; } }
+@media (min-width: 1360px) { .yb-info__in { padding-left: 200px; } .yb-info__cell:first-child { padding-left: 0; } }
+@media (max-width: 781px) {
+	.yb-hero::after { background: linear-gradient(to bottom, rgba(22,28,30,.5) 0%, rgba(22,28,30,0) 24%), linear-gradient(to top, rgba(22,28,30,.72) 0%, rgba(22,28,30,.5) 55%, rgba(22,28,30,.12) 100%); }
+}
