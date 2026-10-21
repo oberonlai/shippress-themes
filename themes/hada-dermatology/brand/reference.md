@@ -33,7 +33,7 @@ La Viora (not used for palette: first screen about 53% saturated olive-yellow #C
 Chosen mapping for Hada (first-screen saturated area target at most 5%, limit 15%):
 - base #FAFAF8 (white-leaning, not cream) ~40%; band #F3F1EE ~12%; ink #14171A ~8% (rail/pill); photo ~35%; accent muted sage #8FA896 with a pale sage-mint tint #E7EFE9 <5%.
 
-## Mapping to Hada (成品對應)
+## Mapping to Hada
 | reference technique | Hada implementation | where it continues on inner pages |
 |---|---|---|
 | D1 inset hero on tinted band | T1: hard-edged inset photo (left edge 15% of viewport, 96 px from right) on an L-shaped band #F3F1EE (left 36% + 120 px strip below); repeated as alternating chapter bands and the mid-page band | every inner page head (Conditions, Skin Checks, Children, Cosmetic, Fees, First Visit, Contact); doctor portraits on Our Doctors; journal featured images |

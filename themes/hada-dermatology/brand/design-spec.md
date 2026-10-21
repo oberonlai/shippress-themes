@@ -68,7 +68,7 @@ Every inner page head uses T1 + T2 + one T3 motif; at least the five pages above
 
 ## 3. Type and header
 - Crimson Pro (headings 300/400, italic for pull quotes) + Figtree (body 400/500/600; 300 for T2 lines). Sizes: small 0.8125rem, base 1rem (body 1.0625rem, line-height 1.75), medium 1.25rem, large 1.75rem, x-large 2.75rem, **xx-large 5.5rem** (max ≥ 4.25rem). Section headings Crimson Pro 300 `clamp(2.4rem, 4vw, 3.5rem)`, left-aligned.
-- Header (one top menu): wordmark "Hada Dermatology" Crimson Pro 400 1.35rem + Figtree 0.7rem uppercase "Skin clinic · Madison" under it at left; text nav Figtree 500 0.875rem (Conditions, Skin Checks, Children, Cosmetic, Doctors, Fees, Journal); at right an **ink pill** "Book a visit" (DAILY's black pill; small white inset tag "New patients" inside it like DAILY's "24時間受付"). Header background transparent over the band/ground (no fill); under 960 px a two-line menu icon (two 24 px rules, 6 px apart) opens an overlay.
+- Header (one top menu): wordmark "Hada Dermatology" Crimson Pro 400 1.35rem + Figtree 0.7rem uppercase "Skin clinic · Madison" under it at left; text nav Figtree 500 0.875rem (Conditions, Skin Checks, Children, Cosmetic, Doctors, Fees, Journal); at right an **ink pill** "Book a visit" (DAILY's black pill; small white inset tag "New patients" inside it like DAILY's 24-hour booking line). Header background transparent over the band/ground (no fill); under 960 px a two-line menu icon (two 24 px rules, 6 px apart) opens an overlay.
 
 ---
 

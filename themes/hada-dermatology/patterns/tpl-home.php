@@ -23,11 +23,11 @@
 
 <!-- wp:group {"className":"hd-head__side","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-head__side"><!-- wp:paragraph {"className":"is-style-lead"} -->
-<p class="is-style-lead">Clinic news, health notes from the doctors, and what is coming up for families.</p>
+<p class="is-style-lead">Practical notes from the doctors on skin, checks and sun care.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hd-chips"} -->
-<p class="hd-chips"><a href="/journal/">Everything</a><a href="/category/clinic-news/">Clinic news</a><a href="/category/health-notes/">Health notes</a><a href="/category/families/">Families</a></p>
+<p class="hd-chips"><a href="/journal/">Everything</a><a href="/category/skin-notes/">Skin notes</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

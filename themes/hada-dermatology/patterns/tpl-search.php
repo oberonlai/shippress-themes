@@ -51,7 +51,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"className":"is-style-lead"} -->
-<p class="is-style-lead">Nothing matched. Try a simpler word, such as vaccination, blood or baby.</p>
+<p class="is-style-lead">Nothing matched. Try a simpler word, such as eczema, mole or sunscreen.</p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></section>

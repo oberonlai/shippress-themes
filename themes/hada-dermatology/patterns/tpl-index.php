@@ -27,7 +27,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hd-chips"} -->
-<p class="hd-chips"><a href="/journal/">Everything</a><a href="/category/clinic-news/">Clinic news</a><a href="/category/health-notes/">Health notes</a><a href="/category/families/">Families</a></p>
+<p class="hd-chips"><a href="/journal/">Everything</a><a href="/category/skin-notes/">Skin notes</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
