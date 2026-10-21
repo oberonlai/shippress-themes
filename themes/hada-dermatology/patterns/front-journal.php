@@ -12,10 +12,10 @@
 <section class="wp-block-group alignfull hd-journal"><!-- wp:group {"align":"wide","className":"hd-journal__inner","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-journal__inner">
 <!-- wp:paragraph {"className":"hd-label"} -->
-<p class="hd-label">JOURNAL</p>
+<p class="hd-label"><?php echo wp_kses_post( hada_dermatology_t( 'kd6a58d85' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2,"className":"hd-big"} -->
-<h2 class="wp-block-heading hd-big">Notes from the clinic</h2>
+<h2 class="wp-block-heading hd-big"><?php echo wp_kses_post( hada_dermatology_t( 'k5c7db236' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:query {"queryId":0,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":false},"className":"hd-posts"} -->
 <div class="wp-block-query hd-posts"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->

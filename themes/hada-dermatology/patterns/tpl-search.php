@@ -13,7 +13,7 @@
 <section class="wp-block-group alignfull hd-head"><!-- wp:group {"align":"wide","className":"hd-head__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-head__grid"><!-- wp:group {"className":"hd-head__main","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-head__main"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">Search</p>
+<p class="is-style-label"><?php echo wp_kses_post( hada_dermatology_t( 'kbce06414' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:query-title {"type":"search","level":1,"className":"hd-head__title"} /--></div>
@@ -51,7 +51,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"className":"is-style-lead"} -->
-<p class="is-style-lead">Nothing matched. Try a simpler word, such as eczema, mole or sunscreen.</p>
+<p class="is-style-lead"><?php echo wp_kses_post( hada_dermatology_t( 'k10a8a55d' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></section>

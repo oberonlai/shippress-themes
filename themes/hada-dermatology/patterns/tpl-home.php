@@ -13,21 +13,21 @@
 <section class="wp-block-group alignfull hd-head"><!-- wp:group {"align":"wide","className":"hd-head__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-head__grid"><!-- wp:group {"className":"hd-head__main","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-head__main"><!-- wp:paragraph {"className":"is-style-label"} -->
-<p class="is-style-label">Journal</p>
+<p class="is-style-label"><?php echo wp_kses_post( hada_dermatology_t( 'k57d7f743' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"hd-head__title"} -->
-<h1 class="wp-block-heading hd-head__title">Notes from <em>Hada Dermatology</em>.</h1>
+<h1 class="wp-block-heading hd-head__title"><?php echo wp_kses_post( hada_dermatology_t( 'k1a55f0d0' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hd-head__side","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-head__side"><!-- wp:paragraph {"className":"is-style-lead"} -->
-<p class="is-style-lead">Practical notes from the doctors on skin, checks and sun care.</p>
+<p class="is-style-lead"><?php echo wp_kses_post( hada_dermatology_t( 'k598a76c8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hd-chips"} -->
-<p class="hd-chips"><a href="/journal/">Everything</a><a href="/category/skin-notes/">Skin notes</a></p>
+<p class="hd-chips"><a href="/journal/"><?php echo wp_kses_post( hada_dermatology_t( 'k4a66d148' ) ); ?></a><a href="/category/skin-notes/"><?php echo wp_kses_post( hada_dermatology_t( 'k3cb385a8' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -59,7 +59,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"className":"is-style-lead"} -->
-<p class="is-style-lead">Nothing here yet. The next note is being written in the doctors' office.</p>
+<p class="is-style-lead"><?php echo wp_kses_post( hada_dermatology_t( 'k39be48c7' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></section>

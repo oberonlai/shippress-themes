@@ -14,22 +14,22 @@
 <!-- wp:group {"className":"hd-letter__text","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-letter__text">
 <!-- wp:paragraph {"className":"hd-label"} -->
-<p class="hd-label">A letter from the clinic</p>
+<p class="hd-label"><?php echo wp_kses_post( hada_dermatology_t( 'k4271ae84' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>I started Hada in 2011 with two exam rooms and one idea: when a rash is worrying you, the person who looks at it should also be the person who explains it. Fifteen years on, that is still how we work.</p>
+<p><?php echo wp_kses_post( hada_dermatology_t( 'k328b4d99' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>You will meet the same small team at each visit. We look carefully, tell you what we see and what we do not yet know, and write the plan down before you leave. If a mole needs a second look in three months, we say so and book it.</p>
+<p><?php echo wp_kses_post( hada_dermatology_t( 'k548abc08' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>Skin problems are common, ordinary and often slow to settle. We do not promise quick fixes. We promise time, clear words and a plan you can follow at home.</p>
+<p><?php echo wp_kses_post( hada_dermatology_t( 'k8fab39ac' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hd-sign"} -->
-<p class="hd-sign">Dr. Naomi Reyes, founder</p>
+<p class="hd-sign"><?php echo wp_kses_post( hada_dermatology_t( 'k49070037' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"hd-letter__frame","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-letter__frame">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hd-letter__photo"} -->
-<figure class="wp-block-image size-large hd-letter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-reyes.webp' ) ); ?>" alt="Dr. Naomi Reyes in a white coat standing by a window"/></figure>
+<figure class="wp-block-image size-large hd-letter__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-reyes.webp' ) ); ?>" alt="<?php echo esc_attr( hada_dermatology_t( 'k2580a0d6' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->

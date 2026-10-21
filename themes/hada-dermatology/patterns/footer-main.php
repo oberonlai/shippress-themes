@@ -15,36 +15,36 @@
 <!-- wp:group {"className":"hd-foot__brand","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-foot__brand">
 <!-- wp:paragraph {"className":"hd-foot__mark"} -->
-<p class="hd-foot__mark">Hada Dermatology</p>
+<p class="hd-foot__mark"><?php echo wp_kses_post( hada_dermatology_t( 'kb9e77083' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hd-foot__line"} -->
-<p class="hd-foot__line">A community dermatology clinic in Madison, Wisconsin, since 2011. Skin, seen clearly, and explained by the doctor you see.</p>
+<p class="hd-foot__line"><?php echo wp_kses_post( hada_dermatology_t( 'kf418b2c7' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"hd-foot__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-foot__col">
 <!-- wp:paragraph {"className":"hd-foot__kicker"} -->
-<p class="hd-foot__kicker">VISIT</p>
+<p class="hd-foot__kicker"><?php echo wp_kses_post( hada_dermatology_t( 'kfbcc1588' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>418 Willow Street<br>Madison, Wisconsin 53703<br>(608) 555-0142</p>
+<p><?php echo wp_kses_post( hada_dermatology_t( 'kb1bf60d6' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"hd-foot__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-foot__col">
 <!-- wp:paragraph {"className":"hd-foot__kicker"} -->
-<p class="hd-foot__kicker">HOURS</p>
+<p class="hd-foot__kicker"><?php echo wp_kses_post( hada_dermatology_t( 'k0d32529c' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>Mon–Fri 8:00–17:30<br>Thursday until 19:00<br>Saturday 9:00–13:00<br>Sunday closed</p>
+<p><?php echo wp_kses_post( hada_dermatology_t( 'k3bcde375' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"hd-foot__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-foot__col">
 <!-- wp:paragraph {"className":"hd-foot__kicker"} -->
-<p class="hd-foot__kicker">PAGES</p>
+<p class="hd-foot__kicker"><?php echo wp_kses_post( hada_dermatology_t( 'k5d53ff17' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p><a href="/conditions/">Conditions</a><br><a href="/doctors/">Doctors</a><br><a href="/fees/">Fees &amp; insurance</a><br><a href="/journal/">Journal</a></p>
+<p><?php echo wp_kses_post( hada_dermatology_t( 'kecedca8f' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -53,7 +53,7 @@
 <!-- wp:group {"align":"wide","className":"hd-foot__base","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-foot__base">
 <!-- wp:paragraph {"className":"hd-foot__legal"} -->
-<p class="hd-foot__legal">Sample clinic, doctors and prices for a theme demonstration. This site gives general information and is not medical advice. For a rapidly changing mole call us; for emergencies call 911.</p>
+<p class="hd-foot__legal"><?php echo wp_kses_post( hada_dermatology_t( 'k40fbc3e2' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group --></footer>

@@ -18,15 +18,15 @@
 <!-- wp:group {"className":"hd-close__main","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-close__main">
 <!-- wp:paragraph {"className":"hd-label"} -->
-<p class="hd-label">VISIT</p>
+<p class="hd-label"><?php echo wp_kses_post( hada_dermatology_t( 'kfbcc1588' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":2,"className":"hd-big"} -->
-<h2 class="wp-block-heading hd-big">Book a visit</h2>
+<h2 class="wp-block-heading hd-big"><?php echo wp_kses_post( hada_dermatology_t( 'k46c8c1d4' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:group {"className":"hd-hours","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-hours">
 <!-- wp:group {"className":"hd-hr","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-hr">
 <!-- wp:paragraph {"className":"hd-hr__d"} -->
-<p class="hd-hr__d">Mon–Wed, Fri</p>
+<p class="hd-hr__d"><?php echo wp_kses_post( hada_dermatology_t( 'kcc2b8406' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hd-hr__t"} -->
 <p class="hd-hr__t">8:00–17:30</p>
 <!-- /wp:paragraph -->
@@ -34,7 +34,7 @@
 <!-- /wp:group --><!-- wp:group {"className":"hd-hr","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-hr">
 <!-- wp:paragraph {"className":"hd-hr__d"} -->
-<p class="hd-hr__d">Thursday</p>
+<p class="hd-hr__d"><?php echo wp_kses_post( hada_dermatology_t( 'k76031ddf' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hd-hr__t"} -->
 <p class="hd-hr__t">8:00–19:00</p>
 <!-- /wp:paragraph -->
@@ -42,7 +42,7 @@
 <!-- /wp:group --><!-- wp:group {"className":"hd-hr","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-hr">
 <!-- wp:paragraph {"className":"hd-hr__d"} -->
-<p class="hd-hr__d">Saturday</p>
+<p class="hd-hr__d"><?php echo wp_kses_post( hada_dermatology_t( 'k17063c50' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hd-hr__t"} -->
 <p class="hd-hr__t">9:00–13:00</p>
 <!-- /wp:paragraph -->
@@ -50,25 +50,25 @@
 <!-- /wp:group --><!-- wp:group {"className":"hd-hr","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-hr">
 <!-- wp:paragraph {"className":"hd-hr__d"} -->
-<p class="hd-hr__d">Sunday</p>
+<p class="hd-hr__d"><?php echo wp_kses_post( hada_dermatology_t( 'kbc5dd045' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hd-hr__t"} -->
-<p class="hd-hr__t">Closed</p>
+<p class="hd-hr__t"><?php echo wp_kses_post( hada_dermatology_t( 'k88d86b77' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 </div>
 <!-- /wp:group --><!-- wp:paragraph {"className":"hd-close__addr"} -->
-<p class="hd-close__addr">418 Willow Street, Madison, Wisconsin 53703<br>(608) 555-0142</p>
+<p class="hd-close__addr"><?php echo wp_kses_post( hada_dermatology_t( 'k81d777af' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"hd-close__side","layout":{"type":"default"}} -->
 <div class="wp-block-group hd-close__side">
 <!-- wp:paragraph {"className":"hd-close__lead"} -->
-<p class="hd-close__lead">Same-week appointments for new rashes and changing moles.</p>
+<p class="hd-close__lead"><?php echo wp_kses_post( hada_dermatology_t( 'kad615eb8' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-pill"} -->
-<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="/book/">Book a visit</a></div>
+<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="/book/"><?php echo wp_kses_post( hada_dermatology_t( 'k46c8c1d4' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>
