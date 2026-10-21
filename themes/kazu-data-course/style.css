@@ -341,3 +341,33 @@ html.sp-js:not(.sp-no-motion) .kz-stat.sp-reveal--zoom { --sp-dur: .6s; --sp-eas
 .kz-split__text .kz-h2 { font-size: clamp(2rem, 3.2vw, 2.75rem); }
 .kz-pricecard--b .wp-block-buttons { margin-top: 24px; }
 .kz-pricecard--b .kz-namesmall { margin-bottom: 0; }
+
+/* ---------- languages ---------- */
+/* Chinese and Japanese: bundled Noto Serif subset for CJK characters only; Latin and figures stay in Lora / Inter. Headings about 0.75x, body line-height 1.85. */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Lora", "Noto Serif TC", "Noto Serif CJK TC", Georgia, serif;
+	--wp--preset--font-family--body: "Inter", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Lora", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", Georgia, serif;
+	--wp--preset--font-family--body: "Inter", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: .04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite, .kz-subline, .kz-sign) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) .kz-eyebrow { letter-spacing: .1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) :is(.kz-display, .wp-block-heading.kz-display) { font-size: clamp(2.5rem, 7vw, 6.25rem); line-height: 1.15; letter-spacing: .02em; }
+:is(:lang(zh), :lang(ja)) .kz-display--close { font-size: clamp(2.25rem, 5.2vw, 4.75rem); }
+:is(:lang(zh), :lang(ja)) :is(.kz-pagehead, .wp-block-post-title.kz-pagehead) { font-size: clamp(2.25rem, 4.6vw, 4.25rem); line-height: 1.2; letter-spacing: .02em; }
+:is(:lang(zh), :lang(ja)) .kz-subline { font-size: clamp(1.125rem, 2vw, 1.875rem); line-height: 1.5; }
+:is(:lang(zh), :lang(ja)) :is(.kz-h2, .wp-block-heading.kz-h2) { font-size: clamp(1.75rem, 3.2vw, 2.625rem); line-height: 1.35; }
+:is(:lang(zh), :lang(ja)) .kz-split__text .kz-h2 { font-size: clamp(1.625rem, 2.6vw, 2.125rem); }
+:is(:lang(zh), :lang(ja)) :is(.kz-h3, .wp-block-heading.kz-h3) { font-size: 1.375rem; }
+:is(:lang(zh), :lang(ja)) .kz-text, :is(:lang(zh), :lang(ja)) .kz-lead { line-height: 1.9; }
+:lang(ja) :is(h1, h2, h3, .kz-subline, .kz-lead) { word-break: auto-phrase; }
+/* French and German: automatic hyphenation, and long compounds may break in headings */
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) :is(.kz-display, .wp-block-heading.kz-display) { font-size: clamp(2.75rem, 8vw, 7rem); }
+:is(:lang(fr), :lang(de)) .kz-display--close { font-size: clamp(2.5rem, 6vw, 5.5rem); }
+:is(:lang(fr), :lang(de)) :is(.kz-pagehead, .wp-block-post-title.kz-pagehead) { font-size: clamp(2.25rem, 5vw, 4.75rem); }
+:is(:lang(fr), :lang(de)) :is(.kz-h2, .wp-block-heading.kz-h2) { font-size: clamp(2rem, 3.6vw, 3rem); }
