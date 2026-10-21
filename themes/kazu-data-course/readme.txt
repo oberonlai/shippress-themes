@@ -41,3 +41,9 @@ assets/images/p09-daniel.webp: generated with Grok for this theme, GPL-2.0-or-la
 assets/images/p10-studio.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p11-coffee.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p12-kazu-window.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p13-kazu-board.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p14-priya-call.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p15-flatlay.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p16-kazu-record.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p17-group.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p18-study.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0

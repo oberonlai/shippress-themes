@@ -1,6 +1,6 @@
 # Kazu Data Course - brand brief
 
-Solo-instructor online course in practical data analysis. Lessons are online; the studio in Rotterdam is where they are recorded. Sample content currently English (stage 1 is the home page); zh-TW, ja, fr, de follow in stage 2. All names, places, people and figures are fictional.
+Solo-instructor online course in practical data analysis. Lessons are online; the studio in Rotterdam is where they are recorded. Sample content in English; zh-TW, ja, fr, de follow. All names, places, people and figures are fictional.
 
 ## Concept
 - **Name:** Kazu Data Course. Founded **2019**. Studio: Kadekamer 14, 3011 AB Rotterdam, Netherlands.
@@ -33,7 +33,7 @@ Live Q&A every Thursday 18:00-19:00 CET (recorded). Email support Mon-Fri 09:00-
 3. Daniel Kowalski, "How many loaves on a rainy Tuesday?": daily sales vs. weather and weekday, a weekly baking plan.
 
 ## Pages
-Home (stage 1), Curriculum, Courses, Course page, Lesson player, Student work, Pricing, About, FAQ, Journal (3 posts), Contact, My courses, Cart and Checkout (stage 2).
+Home, About (Kazu, Tomás, Priya, four principles), Curriculum (six module cards, 48 lessons), Courses (complete course plus modules 3, 4, 5), Student work (three stories, two quotes), Pricing (price card, team card, six-row table, refunds, five-step process), FAQ (14 questions in four groups), Journal (six posts), Contact (email, hours, Rotterdam studio, form), My courses. Signatures: flush-left headline on every page, framed window with vertical name on About, Student work and Contact, offset cards with pill labels on Curriculum, Courses, Pricing, Student work and My courses. Course page, lesson player, cart and checkout come with Tutor LMS and WooCommerce.
 
 ## Palette and type
 Ground #F8F8F8, stone #E8E8E0, ink #1E1A22, grey #5E5863, accent Edo purple #6E5A7E (small areas only), tint #A99BB5 (offset edges). Lora for headings, Inter for text (both OFL).
