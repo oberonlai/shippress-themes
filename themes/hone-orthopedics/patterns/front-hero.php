@@ -9,7 +9,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"hn-hero","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull hn-hero"><!-- wp:html -->
-<svg class="hn-bg" viewBox="0 0 1440 900" aria-hidden="true" focusable="false"><circle cx="1420" cy="860" r="280" fill="#E8EEF2"/><path d="M1140 900 A300 300 0 0 1 1440 600" fill="none" stroke="#3E5566" stroke-width="44"/></svg>
+<svg class="hn-bg" viewBox="0 0 1440 1140" aria-hidden="true" focusable="false"><circle cx="1420" cy="860" r="280" fill="#E8EEF2"/><path d="M1140 1010 V900 A300 300 0 0 1 1440 600" fill="none" stroke="#3E5566" stroke-width="44" stroke-linecap="round"/></svg>
 <!-- /wp:html --><div class="hn-strip"><!-- wp:html -->
 <figure class="hn-p hn-p1"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p1.webp' ) ); ?>" alt="A surgeon&#039;s hands examining a seated patient&#039;s bent knee"/></figure>
 <!-- /wp:html --><!-- wp:html -->
@@ -23,7 +23,7 @@
 <!-- /wp:heading --><!-- wp:paragraph {"className":"hn-body"} -->
 <p class="hn-body">Surgeons and physiotherapists in one building on Main Street. Knee, shoulder, hip, spine, hand and foot — assessed by the person who specialises in that joint.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hn-small"} -->
-<p class="hn-small"><span class="hn-dot" aria-hidden="true"></span>New patients seen this week · reply within one business day</p>
+<p class="hn-small"><span class="hn-dot" aria-hidden="true"></span><span class="hn-nw">New patients seen this week ·</span> <span class="hn-nw">reply within one business day</span></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hn-link"} -->
 <p class="hn-link"><a href="#by-joint">Find a specialist by joint →</a></p>
 <!-- /wp:paragraph --></div><!-- wp:html -->

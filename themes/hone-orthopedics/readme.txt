@@ -10,7 +10,7 @@ Hone Orthopedics: a block theme for an orthopedic and sports injury clinic. A co
 
 == Description ==
 
-A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). Stage 1 contains the home page (English).
+A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). The home page is in English; inner pages and other languages follow.
 
 == Installation ==
 
@@ -20,7 +20,25 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 
 On activation the theme creates its pages with their text and images, three journal entries, the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
 
-The clinic, its clinicians, addresses and prices are fictional. All photographs are generated images.
+The clinic, its clinicians, addresses and prices are fictional. All photographs were generated with Grok for this theme and are released under GPL-2.0-or-later / CC0. They show no real people, places or brands.
+
+assets/images/p1.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p2.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p3.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p4.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p5.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p6.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p7.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p8.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p9.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p10.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p11.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p12.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p13.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p14.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p15.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p16.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+
 
 == Copyright ==
 

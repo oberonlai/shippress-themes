@@ -10,7 +10,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"hn-sec hn-close","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hn-sec hn-close"><!-- wp:group {"align":"wide","className":"hn-wrap hn-wrap--rel","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hn-wrap hn-wrap--rel"><!-- wp:html -->
-<svg class="hn-bg hn-bg--c" viewBox="0 0 1440 900" aria-hidden="true" focusable="false"><circle cx="1420" cy="860" r="280" fill="#E8EEF2"/><path d="M1140 900 A300 300 0 0 1 1440 600" fill="none" stroke="#3E5566" stroke-width="44"/></svg>
+<svg class="hn-bg hn-bg--c" viewBox="0 0 1440 1140" aria-hidden="true" focusable="false"><circle cx="1420" cy="860" r="280" fill="#E8EEF2"/><path d="M1140 1010 V900 A300 300 0 0 1 1440 600" fill="none" stroke="#3E5566" stroke-width="44" stroke-linecap="round"/></svg>
 <!-- /wp:html --><div class="hn-closeg"><div class="hn-close__l"><!-- wp:paragraph {"className":"hn-label"} -->
 <p class="hn-label"><span class="hn-dot" aria-hidden="true"></span>Visit</p>
 <!-- /wp:paragraph -->
