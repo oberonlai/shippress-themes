@@ -48,6 +48,18 @@ Copyright 2010-2020 Adobe Systems Incorporated
 License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-SourceSans3.txt, https://openfontlicense.org).
 Latin WOFF2 from https://github.com/google/fonts/tree/main/ofl/sourcesans3.
 
+Noto Serif TC
+Files: assets/fonts/noto-serif-tc-zh-tw-400.woff2
+Copyright 2012 Google Inc. All Rights Reserved.
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSerifTC.txt, https://openfontlicense.org).
+Regular 400 from https://github.com/google/fonts/tree/main/ofl/notoseriftc, subset to the characters of the Traditional Chinese sample text; never a Japanese font.
+
+Noto Serif JP
+Files: assets/fonts/noto-serif-jp-400-ja.woff2
+Copyright 2012 Google Inc. All Rights Reserved.
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSerifJP.txt, https://openfontlicense.org).
+Regular 400 from https://github.com/google/fonts/tree/main/ofl/notoserifjp, subset to the characters of the Japanese sample text.
+
 = Images =
 
 All photographs were generated with Grok for this theme and are released under GPL-2.0-or-later / CC0. They show no real people, places or brands.
@@ -64,3 +76,9 @@ assets/images/p6.webp: generated with Grok for this theme, GPL-2.0-or-later / CC
 assets/images/p7.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p8.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p9.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p13.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p14.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p15.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p16.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p17.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p18.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0

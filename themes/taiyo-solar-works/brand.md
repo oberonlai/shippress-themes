@@ -3,12 +3,14 @@
 Design plan row: b6-16 (regional solar installation company, type business). Home page plus eleven inner pages and a journal, in five languages (en, zh-TW, ja, fr, de). All names, places, people and figures are fictional.
 
 ## Concept
+- **Brand name:** Taiyo Solar Works. **Location:** Marlow, Alder Valley (fictional). **Audience:** homeowners with a pitched roof, small landlords and owners of commercial buildings within about 60 miles.
 - **Company:** Taiyo Solar Works, founded 2011, workshop and office at 214 Foundry Lane, Marlow, in the fictional Alder Valley. Phone (555) 014-2290, hello@taiyosolar.example.
 - **Founders:** Ruth Calloway (electrical engineer, design and permits) and Tomas Ibarra (roofer, runs installs).
 - **Installers:** Marcus Bell (lead, 14 years on roofs), Priya Natarajan (electrician, 9), Jonah Kessler (commercial, 11), Sofia Reyes (assessments, 7).
 - **Service area:** about 60 miles of Marlow: Marlow, Kenning, Ashby, Halden, Pell Harbor, Westbrook.
 - **Hours:** Mon-Fri 7:30-17:00; Sat 9:00-13:00 roof assessments by appointment; Sun closed.
 - **Track record:** more than 600 roofs since 2011. No awards, media or guarantees. All savings are labelled est.; basis: modelled yield and $0.20/kWh household ($0.15 commercial).
+- **A typical day:** crews load the vans at 7:30, are on the first roof by 8:30 and clear the site each evening; assessments run in the afternoon routine.
 - **Tone:** plain, specific, numbers with their assumptions.
 
 ## Prices (USD, installed, before incentives)
