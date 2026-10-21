@@ -374,3 +374,26 @@ img { max-width: 100%; height: auto; }
 	.yb-hourstable th, .yb-hourstable td { border: 0; padding: 0.15rem 1rem; text-align: left; }
 	.yb-hourstable td { text-align: right; }
 }
+
+/* Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Bitter / Karla) */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", "Bitter", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Karla", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", "Bitter", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Karla", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) :is(.yb-hero__title, .yb-band__title h1) { font-size: clamp(2.2rem, 1.2rem + 3.3vw, 4.1rem); line-height: 1.25; letter-spacing: 0.04em; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) .yb-band__note { font-size: 1.1875rem; line-height: 1.8; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) :is(.yb-entry b, .yb-steps span) { font-weight: 400; }
+:is(:lang(zh), :lang(ja)) :is(.yb-label, .yb-eyebrow, .yb-spec thead th, .yb-entry span) { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, dt, dd, li) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) :is(.yb-hero__title, .yb-band__title h1) { font-size: clamp(2.5rem, 1.3rem + 3.6vw, 4.4rem); }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) :is(.yb-hero__title, .yb-band__title h1) { font-size: clamp(2rem, 8vw, 2.6rem); }
+	:is(:lang(fr), :lang(de)) :is(.yb-hero__title, .yb-band__title h1) { font-size: clamp(2rem, 8.5vw, 2.8rem); }
+}

@@ -1,0 +1,28 @@
+<?php
+/**
+ * Title: Template: single
+ * Slug: yamabiko-outdoor-supply/tpl-single
+ * Categories: yamabiko-outdoor-supply
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"yb-main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group yb-main"><!-- wp:pattern {"slug":"yamabiko-outdoor-supply/page-band-journal"} /-->
+
+<!-- wp:group {"tagName":"article","align":"full","anchor":"story","className":"yb-article","layout":{"type":"default"}} -->
+<article id="story" class="wp-block-group alignfull yb-article"><!-- wp:group {"className":"yb-prose","layout":{"type":"default"}} -->
+<div class="wp-block-group yb-prose"><!-- wp:post-date /-->
+
+<!-- wp:post-title {"level":1} /-->
+
+<!-- wp:post-featured-image {"aspectRatio":"16/9"} /-->
+
+<!-- wp:post-content {"layout":{"type":"default"}} /-->
+
+<!-- wp:paragraph {"className":"yb-arrow-link"} -->
+<p class="yb-arrow-link"><a href="/field-notes/"><?php echo wp_kses_post( yamabiko_outdoor_supply_t( 'k803264f6' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></article>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
