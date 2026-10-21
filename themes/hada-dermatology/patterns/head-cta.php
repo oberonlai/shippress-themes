@@ -1,0 +1,16 @@
+<?php
+/**
+ * Title: Header: booking pill
+ * Slug: hada-dermatology/head-cta
+ * Categories: hada-dermatology
+ * Keywords: header
+ * Inserter: no
+ * Viewport Width: 1440
+ * Description: The ink pill beside the menu.
+ */
+?>
+<!-- wp:buttons {"className":"hd-header__cta"} -->
+<div class="wp-block-buttons hd-header__cta"><!-- wp:button {"className":"is-style-pill"} -->
+<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="/book/"><?php echo wp_kses_post( hada_dermatology_t( 'k46c8c1d4' ) ); ?> <span class="hd-tag"><?php echo wp_kses_post( hada_dermatology_t( 'k3c20ad4b' ) ); ?></span></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
