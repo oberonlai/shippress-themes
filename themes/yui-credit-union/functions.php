@@ -31,7 +31,9 @@ add_action( 'after_setup_theme', 'yui_credit_union_setup' );
  */
 function yui_credit_union_enqueue() {
 	wp_enqueue_style( 'yui-credit-union-style', get_stylesheet_uri(), array(), YUI_CREDIT_UNION_VERSION );
-	if ( is_front_page() || is_page( 'calculator' ) ) {
+	if ( is_page( 'calculator' ) ) {
+		wp_enqueue_script( 'yui-credit-union-calc-full', get_theme_file_uri( 'assets/js/calc-full.js' ), array(), YUI_CREDIT_UNION_VERSION, array( 'in_footer' => true, 'strategy' => 'defer' ) );
+	} elseif ( is_front_page() ) {
 		wp_enqueue_script( 'yui-credit-union-calc', get_theme_file_uri( 'assets/js/calc.js' ), array(), YUI_CREDIT_UNION_VERSION, array( 'in_footer' => true, 'strategy' => 'defer' ) );
 	}
 }

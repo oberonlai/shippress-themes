@@ -260,3 +260,62 @@ a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible 
 :is(.ycu-pick, .ycu-own__grid, .ycu-calcsec__grid, .ycu-story__grid, .ycu-join__grid, .ycu-gov__cols, .ycu-br__grid, .ycu-br__cols, .ycu-close__panel, .ycu-hero__text, .ycu-head, .ycu-foot__grid) > * { margin-block-start: 0 !important; }
 .ycu-sec .alignwide > *, .ycu-footer .alignwide > * { min-width: 0; }
 @media (max-width: 781px) { .ycu-calcsec__panel, .ycu-calc { min-width: 0; max-width: 100%; } .ycu-calc__row select { max-width: 60%; } }
+
+/* ---- inner pages ---- */
+.ycu-pagehead { padding-top: 72px; }
+.ycu-pagehead .ycu-head { margin-bottom: 28px; }
+.ycu-lead { margin: 0 0 0 calc((100% - 32px) / 4 + 32px); max-width: 40em; font-size: 1.1875rem; line-height: 1.7; }
+.ycu-leadwrap { margin-top: 0; }
+.ycu-pick.ycu-pick--3 { grid-template-columns: repeat(3, 1fr); }
+.ycu-pick.ycu-pick--2 { grid-template-columns: repeat(2, 1fr); }
+.ycu-pick--2 .ycu-pick__desc { max-width: 36em; }
+.ycu-two { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
+.ycu-two--photo { grid-template-columns: 5fr 7fr; }
+.ycu-two--photo .ycu-join__photo { grid-column: auto; }
+.ycu-two p { margin: 0 0 1.1em; max-width: 36em; }
+.ycu-two .ycu-btns { margin-top: 24px; }
+.ycu-note { margin: 18px 0 0; font-size: 0.875rem; color: var(--ycu-muted); }
+.ycu-note a { font-weight: 600; }
+.ycu-notewrap { padding-top: 32px; }
+.ycu-rt__hl { background: var(--ycu-tint); box-shadow: inset 2px 0 0 var(--ycu-main); }
+.ycu-rt__hl th { padding-left: 14px !important; }
+.ycu-rt--4 .ycu-rt__term:last-child { text-align: right; width: auto; }
+.ycu-rt--4 thead th:last-child { text-align: right; }
+.ycu-checks { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ycu-ink); }
+.ycu-checks li { padding: 13px 0; border-bottom: 1px solid var(--ycu-rule); }
+.ycu-dir li span:last-child { text-align: right; }
+.ycu-sec[id] { scroll-margin-top: 24px; }
+.ycu-gov__photo { margin: 0 0 48px; }
+.ycu-tabs__bar { display: none; gap: 10px; margin-bottom: 18px; }
+.ycu-tabs.is-ready .ycu-tabs__bar { display: flex; flex-wrap: wrap; }
+.ycu-tabs__bar button { font: 600 0.9rem var(--ycu-sans); height: 38px; padding: 0 20px; border: 1px solid var(--ycu-ink); border-radius: 999px; background: #fff; color: var(--ycu-ink); cursor: pointer; }
+.ycu-tabs__bar button.is-on { background: var(--ycu-tint); border-color: var(--ycu-main); }
+.ycu-tabs .ycu-calc[hidden] { display: none; }
+.ycu-tabs:not(.is-ready) .ycu-calc + .ycu-calc { margin-top: 36px; padding-top: 28px; border-top: 1px solid var(--ycu-ink); }
+.ycu-form p { margin: 0 0 18px; }
+.ycu-form label { display: block; margin-bottom: 6px; font: 600 0.75rem var(--ycu-sans); letter-spacing: 0.2em; text-transform: uppercase; }
+.ycu-form input, .ycu-form select, .ycu-form textarea { width: 100%; font: 400 1rem var(--ycu-sans); padding: 12px 14px; border: 1px solid var(--ycu-ink); border-radius: 4px; background: #fff; color: var(--ycu-ink); }
+.ycu-formbtn { font: 600 0.95rem var(--ycu-sans); height: 46px; padding: 0 26px; border: 1px solid var(--ycu-main); border-radius: 999px; background: var(--ycu-main); color: #fff; cursor: pointer; }
+.ycu-formbtn:hover { background: var(--ycu-ink); border-color: var(--ycu-ink); }
+.ycu-jq .wp-block-post-template { padding: 0; margin: 0; list-style: none; row-gap: 48px; }
+.ycu-jq .wp-block-post-template > li { margin: 0; }
+.ycu-jq .wp-block-post-featured-image { margin: 0 0 18px; }
+.ycu-jq .wp-block-post-featured-image img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 4px; }
+.ycu-jq__d { margin-bottom: 8px !important; line-height: 1.6; color: var(--ycu-muted); }
+.ycu-jq .ycu-pick__name a { text-decoration: none; }
+@media (max-width: 900px) {
+	.ycu-pick.ycu-pick--3 { grid-template-columns: repeat(2, 1fr); }
+	.ycu-lead { margin-left: 0; }
+}
+@media (max-width: 781px) {
+	.ycu-pagehead { padding-top: 40px; }
+	.ycu-pick.ycu-pick--3, .ycu-pick.ycu-pick--2 { grid-template-columns: 1fr; }
+	.ycu-two, .ycu-two--photo { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+	.ycu-rt--4 tbody th { grid-column: 1 / -1; }
+	.ycu-rt--4 tbody td:nth-child(4) { grid-column: 1 / -1; text-align: left; }
+	.ycu-rt--4 .ycu-rt__rate { text-align: right; }
+	.ycu-rt__hl th { padding-left: 10px !important; }
+	.ycu-dir li { flex-direction: column; gap: 2px; }
+	.ycu-dir li span:last-child { text-align: left; }
+}
+:is(.ycu-two, .ycu-pick) > * { margin-block-start: 0 !important; }
