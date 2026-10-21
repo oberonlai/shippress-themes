@@ -115,7 +115,8 @@ function yamabiko_outdoor_supply_no_woo_product_redirect() {
 	}
 	$path = isset( $_SERVER['REQUEST_URI'] ) ? wp_parse_url( wp_unslash( $_SERVER['REQUEST_URI'] ), PHP_URL_PATH ) : '';
 	if ( is_string( $path ) && preg_match( '#/product/[^/]+/?$#', $path ) ) {
-		wp_safe_redirect( home_url( '/shop/' ), 302 );
+		$query = isset( $_SERVER['QUERY_STRING'] ) ? sanitize_text_field( wp_unslash( $_SERVER['QUERY_STRING'] ) ) : '';
+		wp_safe_redirect( home_url( '/shop/' ) . ( '' !== $query ? '?' . $query : '' ), 302 );
 		exit;
 	}
 }
