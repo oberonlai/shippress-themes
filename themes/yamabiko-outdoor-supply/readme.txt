@@ -14,4 +14,4 @@ A full-bleed documentary cover with an info bar, a fixed dash index, a dark fiel
 
 == Changelog ==
 = 1.0.0 =
-* Home page (English).
+* Home page and inner pages (English): shop, compare, rental, workshop, about, visit, returns, FAQ, contact, field notes with six stories.
