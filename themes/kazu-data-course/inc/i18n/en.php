@@ -121,4 +121,6 @@ return array(
 	'ft_s2' => 'Live Q&A every Thursday 18:00–19:00 CET.',
 	'ft_s3' => 'Project reviews returned within 5 working days.',
 	'ft_legal' => '© 2019–2026 Kazu Data Course. Refunds within 14 days if you have watched less than a quarter. The studio, people and prices on this demo site are fictional.',
+	'ab_eyebrow' => 'About',
+	'ab_title' => 'One teacher, a small studio',
 );

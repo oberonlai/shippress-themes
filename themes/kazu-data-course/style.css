@@ -253,3 +253,91 @@ html.sp-js:not(.sp-no-motion) .kz-stat.sp-reveal--zoom { --sp-dur: .6s; --sp-eas
 
 /* ---------- editor ---------- */
 .editor-styles-wrapper .kz-vname { position: static; writing-mode: horizontal-tb; }
+
+/* ---------- inner pages ---------- */
+.kz-pw { max-width: none; margin: 0; padding: 0; }
+.kz-pw > * { margin-block: 0; }
+.kz-subline--page { padding: 0 var(--kz-gut); margin: 8px 0 0; }
+@media (min-width: 1024px) { .kz-subline--page { padding-left: 0; } .kz-pagesec { padding-bottom: 0; } }
+.kz-inner { padding-top: clamp(40px, 6vw, 80px); }
+.kz-gap { margin-top: clamp(56px, 8vw, 112px); }
+.kz-gap-s { margin-top: 32px; }
+.kz-nowrap { white-space: nowrap; }
+.kz-small--0 { margin-top: 0; }
+.kz-split { display: grid; grid-template-columns: 1fr; gap: 40px; align-items: center; max-width: 1040px; margin-inline: auto; }
+.kz-split__text .kz-h2 { margin-bottom: 20px; }
+@media (min-width: 1024px) {
+	.kz-split { grid-template-columns: 360px 1fr; gap: 88px; }
+	.kz-split--rev { grid-template-columns: 1fr 360px; }
+	.kz-split--rev > .kz-split__text { order: 1; }
+	.kz-split--rev > .kz-split__photo { order: 2; }
+	.kz-split > .kz-win-wrap, .kz-win { max-width: 360px; width: 100%; }
+}
+.kz-win { max-width: 420px; }
+@media (min-width: 1024px) { .kz-win .kz-vname { right: -.55em; } }
+.kz-win--small { max-width: 320px; }
+.kz-rows--2 .kz-row { grid-template-columns: 2.5rem 1fr; }
+.kz-rows--2 .kz-row__body > * { margin-top: 0; }
+.kz-rows--2 .kz-row__note { margin-top: 4px; }
+
+/* curriculum (T3) */
+.kz-modlist { display: grid; gap: 64px; padding-top: 24px; }
+.kz-modcard { padding-top: 44px; }
+.kz-mod { display: grid; grid-template-columns: 1fr; gap: 20px 48px; }
+.kz-mod__title, .wp-block-heading.kz-mod__title { font-size: 1.625rem; line-height: 1.2; margin: 0 0 12px; }
+.kz-mod__head .kz-num { margin: 8px 0 0; }
+.kz-mod__body .kz-checks { margin-bottom: 16px; }
+@media (min-width: 782px) { .kz-mod { grid-template-columns: 5fr 7fr; align-items: start; } }
+
+/* courses (T3 cards) */
+.kz-courses { display: grid; grid-template-columns: 1fr; gap: 64px; padding-top: 24px; }
+@media (min-width: 782px) { .kz-courses { grid-template-columns: repeat(2, 1fr); gap: 56px 48px; } }
+.kz-coursecard .kz-photo { margin-bottom: 20px; }
+.kz-coursecard .kz-photo, .kz-coursecard .kz-photo img { border-radius: 10px; }
+.kz-coursebuy { margin: 16px 0 0; display: flex; align-items: baseline; gap: 20px; font-family: var(--kz-serif); font-size: 1.75rem; }
+.kz-coursebuy a { font-family: var(--kz-sans); font-size: .9375rem; font-weight: 500; }
+.kz-courses--2 { grid-template-columns: 1fr; }
+@media (min-width: 782px) { .kz-courses--2 { grid-template-columns: repeat(2, 1fr); } }
+.kz-bar-track { height: 8px; border-radius: 999px; background: var(--kz-stone); margin-top: 20px; overflow: hidden; }
+.kz-bar-track span { display: block; height: 100%; background: var(--kz-accent); }
+
+/* student work page */
+.kz-work--page { padding-top: clamp(40px, 6vw, 80px); }
+.kz-work--page .kz-ring { top: 0; left: calc(50% - 320px); }
+.kz-quotes { display: grid; gap: 64px; max-width: 1040px; margin-inline: auto; padding-top: 24px; }
+@media (min-width: 782px) { .kz-quotes { grid-template-columns: repeat(2, 1fr); gap: 48px; } }
+.kz-quote { font-family: var(--kz-serif); font-size: 1.375rem; line-height: 1.4; margin: 0 0 16px; }
+.kz-quote--s { font-size: 1.125rem; margin-top: 20px; }
+
+/* pricing */
+.kz-pair { display: grid; grid-template-columns: 1fr; gap: 64px; max-width: 1040px; margin-inline: auto; padding-top: 24px; }
+@media (min-width: 900px) { .kz-pair { grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; } }
+.kz-pair .kz-pricecard { margin: 0; max-width: none; }
+.kz-pricecard--b { text-align: center; }
+.kz-pricecard--b .kz-quote { text-align: left; }
+.kz-steps { margin: 16px 0 28px; }
+
+/* faq, contact */
+.kz-faqgroup { margin-top: 56px; }
+.kz-faqgroup:first-child { margin-top: 0; }
+.kz-facts { margin: 28px 0 32px; border-top: 1px solid var(--kz-stone); }
+.kz-fact { margin: 0; padding: 14px 0; border-bottom: 1px solid var(--kz-stone); font-size: .9375rem; }
+.kz-form p { margin: 0 0 16px; }
+.kz-form label { display: block; font-size: .8125rem; font-weight: 600; letter-spacing: .06em; margin-bottom: 6px; }
+.kz-form input, .kz-form textarea { width: 100%; padding: 12px 14px; border: 1px solid var(--kz-ink); border-radius: 8px; background: #fff; font: inherit; }
+.kz-form button { cursor: pointer; }
+
+/* journal and posts */
+.kz-journal { max-width: 1040px; margin: 40px auto 0; padding-inline: var(--kz-gut); }
+.kz-journal .wp-block-post-template { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--kz-ink); }
+.kz-jrow { display: grid; grid-template-columns: 1fr; gap: 6px 32px; padding: 24px 0; border-bottom: 1px solid var(--kz-stone); align-items: baseline; }
+@media (min-width: 782px) { .kz-jrow { grid-template-columns: 9rem 1fr; } .kz-jrow .kz-jtext { grid-column: 2; } }
+.kz-jrow .wp-block-post-date { font-size: .875rem; color: var(--kz-grey2); margin: 0; }
+.kz-jrow .wp-block-post-title { font-family: var(--kz-serif); font-size: 1.625rem; font-weight: 400; line-height: 1.2; margin: 0; }
+.kz-jrow .wp-block-post-title a { text-decoration: none; }
+.kz-jrow .wp-block-post-title a:hover { text-decoration: underline; }
+.kz-jrow .wp-block-post-excerpt { margin: 0; color: var(--kz-grey); }
+.kz-jrow .wp-block-post-excerpt__excerpt { margin: 0; }
+.kz-split__text .kz-h2 { font-size: clamp(2rem, 3.2vw, 2.75rem); }
+.kz-pricecard--b .wp-block-buttons { margin-top: 24px; }
+.kz-pricecard--b .kz-namesmall { margin-bottom: 0; }

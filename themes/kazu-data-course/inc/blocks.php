@@ -106,3 +106,57 @@ function kazu_buy_url() {
 	}
 	return apply_filters( 'kazu_data_course_buy_url', $url );
 }
+
+/**
+ * Inner-page copy: the English sentence is its own key; a language file may translate it under 'x' + md5 prefix.
+ *
+ * @param string $en English text.
+ * @return string
+ */
+function kazu_x( $en ) {
+	$t = kazu_t( 'x' . substr( md5( $en ), 0, 8 ) );
+	return '' !== $t ? $t : $en;
+}
+
+/** Escaped inner-page copy. */
+function kz_x( $en ) {
+	return esc_html( kazu_x( $en ) );
+}
+
+/** Image with literal alt text. */
+function kz_imgx( $file, $alt, $class = '' ) {
+	$a = array( 'sizeSlug' => 'full', 'linkDestination' => 'none' );
+	if ( $class ) {
+		$a['className'] = $class;
+	}
+	return "<!-- wp:image " . kz_json( $a ) . " -->\n<figure class=\"wp-block-image size-full" . ( $class ? " $class" : '' ) . "\"><img src=\"" . esc_url( get_theme_file_uri( 'assets/images/' . $file ) ) . "\" alt=\"" . esc_attr( kazu_x( $alt ) ) . "\"/></figure>\n<!-- /wp:image -->\n\n";
+}
+
+/** T2 framed window: one photo (radius 8) with the name set on its right edge. $ratio: 34, 45 or 32. */
+function kz_win( $file, $alt, $name, $ratio = '34', $class = '' ) {
+	return kz_g( 'kz-frame kz-win ' . $class, kz_imgx( $file, $alt, 'kz-photo kz-photo--' . $ratio ) . ( $name ? kz_p( 'kz-vname kz-vname--s', kz_x( $name ) ) : '' ) );
+}
+
+/** T3 card: pill riding the top edge, then the inner markup. */
+function kz_card( $pill, $inner, $class = '' ) {
+	return kz_g( 'kz-card ' . $class, kz_p( 'kz-pill', kz_x( $pill ) ) . $inner );
+}
+
+/** Page subline (sits under the template's flush-left page title). */
+function kz_sub( $en ) {
+	return kz_p( 'kz-subline kz-subline--page', kz_x( $en ) );
+}
+
+/** Plain paragraph with copy. */
+function kz_t( $en, $class = 'kz-text' ) {
+	return kz_p( $class, kz_x( $en ) );
+}
+
+/** List block from plain strings. */
+function kz_list( $class, array $items ) {
+	$li = '';
+	foreach ( $items as $i ) {
+		$li .= "<!-- wp:list-item -->\n<li>" . kz_x( $i ) . "</li>\n<!-- /wp:list-item -->";
+	}
+	return "<!-- wp:list " . kz_json( array( 'className' => $class ) ) . " -->\n<ul class=\"wp-block-list $class\">$li</ul>\n<!-- /wp:list -->\n\n";
+}
