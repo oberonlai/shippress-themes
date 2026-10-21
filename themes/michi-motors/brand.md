@@ -15,8 +15,11 @@ Plain, warm and exact. Short sentences, real numbers, no hype. We say what we se
 ## Look
 Full-bleed dimmed front-on car photographs; a transparent wide-tracked uppercase menu with a divider before TEST DRIVE; a big light staggered headline across left and right halves; a 28 px crimson rule with a short lead; a 66 px outline ring arrow ending each section. Graphite #14171F, steel #3A4A5E, light steel #A3B0BC, mist #EEF1F4, white, signal crimson #C42B3A (tiny marks only). Libre Franklin and Gelasio.
 
-## Pages (stage 2)
-Home (stage 1, done), New Cars, single vehicle, Approved Used, Service and Inspection, Locations, Our Team, Finance and Warranty, Journal, Contact and Test Drive, About.
+## Pages
+Home; New Cars (/new-cars/, also the shop page); single vehicle (/product/<slug>/); Approved Used (/approved-used/); Service and Inspection (/service/); Locations (/locations/); Our Team (/team/); Finance and Warranty (/finance/); Test Drive (/test-drive/); Contact (/contact/); About (/about/); Journal (/journal/, six entries); cart, checkout, my account, order confirmation and product search. Each inner page opens with a photo band, a staggered two-line light heading, a crimson rule with a lead and a ring arrow, and ends with a ring link.
+
+## Fixed extras
+Finance example: $21,450 car, $2,000 down, 60 months at 4.9% APR is about $366 a month. Showroom opened 1996, Davis 2009, Roseville 2016; Lena took over in 2015.
 
 ## Home content
-Cover; family story; forecourt (feature car and four-row ledger); approved used (three statements); service band; locations (three rows); the floor (team); journal (two posts); test-drive close.
+Cover; family story; forecourt (feature car and four-row ledger, "pick of five"); approved used (three statements); service band; locations (three rows); the floor (team); journal (two posts); test-drive close.

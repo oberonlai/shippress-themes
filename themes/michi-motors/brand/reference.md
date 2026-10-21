@@ -1,6 +1,6 @@
 # Michi Motors reference (draft, stage A)
 
-## Reference sites (S5-Style, category 車･バイク･自転車)
+## Reference sites (S5-Style, cars, bikes and bicycles category)
 1. Renoca by FLEX https://www.flexnet.co.jp/renoca/ (S5 entry 7599) - dealer-type site (renovated vehicles)
 2. Nissan Creative Services https://www.nissan-nics.co.jp/ (S5 entry 9933) - automotive corporate site
 
