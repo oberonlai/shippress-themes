@@ -18,7 +18,7 @@ A WordPress block theme from ShipPress. See README.md for the design notes.
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
 3. Activate Yui Credit Union.
 
-On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page with all its text and images, three journal entries and the menu, and sets the front page. It never changes or deletes anything you wrote.
+On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page and ten inner pages with all their text and images, six journal entries and the menu, and sets the front page. It never changes or deletes anything you wrote.
 
 The credit union, its people, branches, telephone number and rates are fictional; all rates are samples for demonstration.
 

@@ -27,3 +27,6 @@ Stone ground #F2F0EF, white panels, ink #222222, rule #CFC9C4, pine #5E7350 (sma
 
 ## Home page (stage 1)
 Hero, 01 Ownership, 02 Rates, 03 Calculator, 04 Services pickup row, 05 Members, 06 Join online, 07 Governance, 08 Branches, 09 Journal, close.
+
+## Inner pages (stage 2, en)
+Savings & Accounts, Loans (#auto, #home, #personal), Rates (10 sample rates in two tables), Calculator (loan payment and savings growth tabs, defaults $458 a month and $4,971), Membership & Join Online, Member Stories, About / Our Board, Branches & Hours, Contact, Journal (posts page, six entries). Every page opens with a ruled ledger head (T2) under the floating header bar (T1); Savings, Loans, Membership, Stories, Branches and the Journal use the uniform 3:2 pickup row (T3). Youth savers: 3.00% APY on the first $1,000 (sample). Certificate minimum $500, money market minimum $2,500.
