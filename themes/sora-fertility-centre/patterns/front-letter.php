@@ -8,10 +8,7 @@
  * Description: A letter in two offset columns beside a photograph on a tilted paper sheet.
  */
 ?>
-<!-- wp:group {"className":"sf-sec sf-letter","layout":{"type":"default"},"tagName":"section","align":"full"} --><section class="wp-block-group alignfull sf-sec sf-letter"><!-- wp:group {"className":"sf-letter__grid","layout":{"type":"default"},"tagName":"<!-- wp:group {\"className\":\"sf-sheetwrap\",\"layout\":{\"type\":\"default\"}} --><div class=\"wp-block-group sf-sheetwrap\"><!-- wp:image {\"sizeSlug\":\"full\",\"linkDestination\":\"none\",\"className\":\"sf-sheet__photo sp-reveal sp-reveal--wipe\"} -->\n<figure class=\"wp-block-image size-full sf-sheet__photo sp-reveal sp-reveal--wipe\"><img src=\"<?php echo esc_url( get_theme_file_uri( 'assets/images/p3.webp' ) ); ?>\" alt=\"An open notebook, a pen and a cup on a desk with a eucalyptus sprig crossing toward the edge of the frame\"/></figure>\n<!-- /wp:image --></div>\n<!-- /wp:group -->"} --><<!-- wp:group {"className":"sf-sheetwrap","layout":{"type":"default"}} --><div class="wp-block-group sf-sheetwrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sf-sheet__photo sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sf-sheet__photo sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p3.webp' ) ); ?>" alt="An open notebook, a pen and a cup on a desk with a eucalyptus sprig crossing toward the edge of the frame"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:group --> class="wp-block-group sf-letter__grid"><!-- wp:group {"className":"sf-letter__text","layout":{"type":"default"}} --><div class="wp-block-group sf-letter__text"><!-- wp:group {"className":"sf-letter__c1","layout":{"type":"default"}} --><div class="wp-block-group sf-letter__c1"><!-- wp:paragraph {"className":"sf-label"} -->
+<!-- wp:group {"className":"sf-sec sf-letter","layout":{"type":"default"},"tagName":"section","align":"full"} --><section class="wp-block-group alignfull sf-sec sf-letter"><!-- wp:group {"className":"sf-letter__grid","layout":{"type":"default"}} --><div class="wp-block-group sf-letter__grid"><!-- wp:group {"className":"sf-letter__text","layout":{"type":"default"}} --><div class="wp-block-group sf-letter__text"><!-- wp:group {"className":"sf-letter__c1","layout":{"type":"default"}} --><div class="wp-block-group sf-letter__c1"><!-- wp:paragraph {"className":"sf-label"} -->
 <p class="sf-label">A letter from our director</p>
 <!-- /wp:paragraph -->
 
@@ -40,9 +37,11 @@
 <p class="sf-go"><a href="/about/">About our approach →</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></<!-- wp:group {"className":"sf-sheetwrap","layout":{"type":"default"}} --><div class="wp-block-group sf-sheetwrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sf-sheet__photo sp-reveal sp-reveal--wipe"} -->
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sf-sheetwrap","layout":{"type":"default"}} --><div class="wp-block-group sf-sheetwrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sf-sheet__photo sp-reveal sp-reveal--wipe"} -->
 <figure class="wp-block-image size-full sf-sheet__photo sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p3.webp' ) ); ?>" alt="An open notebook, a pen and a cup on a desk with a eucalyptus sprig crossing toward the edge of the frame"/></figure>
 <!-- /wp:image --></div>
-<!-- /wp:group -->>
+<!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
