@@ -79,7 +79,7 @@ function kz_table( $class, array $head, array $rows ) {
 		}
 		$tb .= '</tr>';
 	}
-	return "<!-- wp:table " . kz_json( array( 'className' => $class ) ) . " -->\n<figure class=\"wp-block-table $class\"><table class=\"has-fixed-layout\"><thead><tr>$th</tr></thead><tbody>$tb</tbody></table></figure>\n<!-- /wp:table -->\n\n";
+	return "<!-- wp:table " . kz_json( array( 'className' => $class ) ) . " -->\n<figure class=\"wp-block-table $class\"><table><thead><tr>$th</tr></thead><tbody>$tb</tbody></table></figure>\n<!-- /wp:table -->\n\n";
 }
 
 /** Section opener: eyebrow + heading. */
