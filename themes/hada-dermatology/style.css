@@ -299,3 +299,29 @@ body:has(.hd-ph) .hd-header { background: linear-gradient(90deg, var(--wp--prese
 .hd-chips { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; font-size: 0.875rem; margin: 0; }
 .hd-chips a { text-decoration: none; border-bottom: 1px solid var(--hd-line); padding-bottom: 2px; }
 .hd-chips a:hover { border-color: var(--wp--preset--color--sage); }
+
+/* Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Crimson Pro / Figtree) */
+:root:lang(zh) {
+	--wp--preset--font-family--serif: "Noto Serif TC", "Crimson Pro", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--sans: "Noto Serif TC", "Figtree", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--display: var(--wp--preset--font-family--serif);
+	--wp--preset--font-family--body: var(--wp--preset--font-family--sans);
+}
+:root:lang(ja) {
+	--wp--preset--font-family--serif: "Noto Serif JP", "Crimson Pro", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--sans: "Noto Serif JP", "Figtree", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--display: var(--wp--preset--font-family--serif);
+	--wp--preset--font-family--body: var(--wp--preset--font-family--sans);
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite, .hd-sign) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) .hd-label, :is(:lang(zh), :lang(ja)) .hd-brand__line { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .hd-hero__l2 { font-size: clamp(2rem, 2.8vw, 2.6rem); }
+:is(:lang(zh), :lang(ja)) .hd-standard { font-size: clamp(2.6rem, 4.6vw, 4rem); letter-spacing: 0.02em; }
+:is(:lang(zh), :lang(ja)) .hd-ph__std { font-size: clamp(2rem, 3.4vw, 3rem); letter-spacing: 0.02em; }
+:is(:lang(zh), :lang(ja)) :is(.hd-big, .hd-ph__title) { font-size: clamp(1.9rem, 2.8vw, 2.6rem); }
+:is(:lang(zh), :lang(ja)) .hd-letter__text p:not(.hd-label):not(.hd-sign) { font-size: 1.2rem; line-height: 1.9; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3) { hyphens: auto; }
+:is(:lang(fr), :lang(de)) .hd-hero__l2 { font-size: clamp(2.1rem, 3vw, 2.8rem); }
+:is(:lang(fr), :lang(de)) .hd-standard { font-size: clamp(3rem, 5.2vw, 4.6rem); }
