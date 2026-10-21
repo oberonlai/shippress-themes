@@ -12,3 +12,32 @@ Michi Motors — a WooCommerce store theme for a family car dealership. Full-ble
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Michi Motors home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Michi Motors home page on mobile"></td>
+</tr>
+</table>
+
+- New cars: [desktop](screenshots/new-cars-desktop.webp) · [mobile](screenshots/new-cars-mobile.webp)
+- Vehicle: [desktop](screenshots/vehicle-desktop.webp) · [mobile](screenshots/vehicle-mobile.webp)
+- Approved used: [desktop](screenshots/approved-used-desktop.webp) · [mobile](screenshots/approved-used-mobile.webp)
+- Service: [desktop](screenshots/service-desktop.webp) · [mobile](screenshots/service-mobile.webp)
+- Locations: [desktop](screenshots/locations-desktop.webp) · [mobile](screenshots/locations-mobile.webp)
+- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
+- Finance: [desktop](screenshots/finance-desktop.webp) · [mobile](screenshots/finance-mobile.webp)
+- Test drive: [desktop](screenshots/test-drive-desktop.webp) · [mobile](screenshots/test-drive-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
