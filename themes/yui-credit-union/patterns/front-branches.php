@@ -17,7 +17,7 @@
 <!-- /wp:heading --></div>
 <!-- /wp:group --><!-- wp:group {"align":"wide","className":"ycu-br__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ycu-br__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-br__photo"} -->
-<figure class="wp-block-image size-full ycu-br__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/branch-exterior.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'aae1ef93e' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full ycu-br__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/branch-exterior.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'aae1ef93e' ) ); ?>"/></figure>
 <!-- /wp:image --><!-- wp:group {"className":"ycu-br__cols","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-br__cols"><!-- wp:group {"className":"ycu-br__col","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-br__col"><!-- wp:heading {"level":3,"className":"ycu-br__n"} -->

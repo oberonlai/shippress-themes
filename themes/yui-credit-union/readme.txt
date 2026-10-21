@@ -25,7 +25,7 @@ The credit union, its people, branches, telephone number and rates are fictional
 == Copyright ==
 
 Yui Credit Union is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Merriweather (OFL-1.1), Latin variable, regular and italic; Public Sans (OFL-1.1), Latin variable; all WOFF2, see assets/fonts and the OFL texts there.
+Fonts: Merriweather (OFL-1.1), Latin variable, regular and italic; Public Sans (OFL-1.1), Latin variable; Noto Serif TC (OFL-1.1) and Noto Serif JP (OFL-1.1), CJK subsets for the zh-TW and ja demo pages; all WOFF2, see assets/fonts and the OFL texts there.
 
 = Images =
 
@@ -42,3 +42,9 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/community-hall.webp (home governance: members at folding tables in a hall)
 - assets/images/branch-exterior.webp (home branches: a glass-fronted branch exterior)
 - assets/images/old-man-bicycle.webp (member stories: an older man with a bicycle outside a stone cottage)
+- assets/images/demo/branch-exterior.webp (Media Library raster copy of assets/images/branch-exterior.webp, same image and license)
+- assets/images/demo/community-hall.webp (Media Library raster copy of assets/images/community-hall.webp, same image and license)
+- assets/images/demo/couple-laptop.webp (Media Library raster copy of assets/images/couple-laptop.webp, same image and license)
+- assets/images/demo/home-keys.webp (Media Library raster copy of assets/images/home-keys.webp, same image and license)
+- assets/images/demo/members-meeting.webp (Media Library raster copy of assets/images/members-meeting.webp, same image and license)
+- assets/images/demo/savings-child.webp (Media Library raster copy of assets/images/savings-child.webp, same image and license)

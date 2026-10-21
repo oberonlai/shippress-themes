@@ -57,7 +57,7 @@
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-join__photo"} -->
-<figure class="wp-block-image size-full ycu-join__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/phone-cafe.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'af3f178aa' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full ycu-join__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/phone-cafe.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'af3f178aa' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

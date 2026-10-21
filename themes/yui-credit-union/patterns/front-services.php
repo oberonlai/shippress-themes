@@ -18,7 +18,7 @@
 <!-- /wp:group --><!-- wp:group {"align":"wide","className":"ycu-pick","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ycu-pick"><!-- wp:group {"className":"ycu-pick__item","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-pick__item"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-pick__img"} -->
-<figure class="wp-block-image size-full ycu-pick__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/savings-child.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'ae481a6d0' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full ycu-pick__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/savings-child.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'ae481a6d0' ) ); ?>"/></figure>
 <!-- /wp:image --><!-- wp:heading {"level":3,"className":"ycu-pick__name"} -->
 <h3 class="wp-block-heading ycu-pick__name"><?php echo wp_kses_post( yui_credit_union_t( 'kab0da0e9' ) ); ?></h3>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"ycu-pick__rate"} -->
@@ -30,7 +30,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ycu-pick__item","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-pick__item"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-pick__img"} -->
-<figure class="wp-block-image size-full ycu-pick__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/auto-key.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'a25e44e05' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full ycu-pick__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/auto-key.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'a25e44e05' ) ); ?>"/></figure>
 <!-- /wp:image --><!-- wp:heading {"level":3,"className":"ycu-pick__name"} -->
 <h3 class="wp-block-heading ycu-pick__name"><?php echo wp_kses_post( yui_credit_union_t( 'kd9b228be' ) ); ?></h3>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"ycu-pick__rate"} -->
@@ -42,7 +42,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ycu-pick__item","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-pick__item"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-pick__img"} -->
-<figure class="wp-block-image size-full ycu-pick__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/home-keys.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'a2f5240f5' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full ycu-pick__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/home-keys.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'a2f5240f5' ) ); ?>"/></figure>
 <!-- /wp:image --><!-- wp:heading {"level":3,"className":"ycu-pick__name"} -->
 <h3 class="wp-block-heading ycu-pick__name"><?php echo wp_kses_post( yui_credit_union_t( 'ka0330bff' ) ); ?></h3>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"ycu-pick__rate"} -->
@@ -54,7 +54,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ycu-pick__item","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-pick__item"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-pick__img"} -->
-<figure class="wp-block-image size-full ycu-pick__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/bakery-oven.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'afbdf48aa' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full ycu-pick__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/bakery-oven.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'afbdf48aa' ) ); ?>"/></figure>
 <!-- /wp:image --><!-- wp:heading {"level":3,"className":"ycu-pick__name"} -->
 <h3 class="wp-block-heading ycu-pick__name"><?php echo wp_kses_post( yui_credit_union_t( 'k5f54c761' ) ); ?></h3>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"ycu-pick__rate"} -->

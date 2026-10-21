@@ -17,7 +17,7 @@
 <!-- /wp:heading --></div>
 <!-- /wp:group --><!-- wp:group {"align":"wide","className":"ycu-calcsec__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ycu-calcsec__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-calcsec__photo"} -->
-<figure class="wp-block-image size-full ycu-calcsec__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/couple-laptop.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'aabc20eef' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full ycu-calcsec__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/couple-laptop.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'aabc20eef' ) ); ?>"/></figure>
 <!-- /wp:image --><!-- wp:group {"className":"ycu-calcsec__panel","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-calcsec__panel"><!-- wp:html -->
 <div class="ycu-calc" data-ycu-calc>

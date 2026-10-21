@@ -17,7 +17,7 @@
 <!-- /wp:heading --></div>
 <!-- /wp:group --><!-- wp:group {"align":"wide","className":"ycu-gov__wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ycu-gov__wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-gov__photo"} -->
-<figure class="wp-block-image size-full ycu-gov__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/community-hall.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'a7c8142c4' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full ycu-gov__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/community-hall.webp' ) ); ?>" alt="<?php echo esc_attr( yui_credit_union_t( 'a7c8142c4' ) ); ?>"/></figure>
 <!-- /wp:image --><!-- wp:group {"className":"ycu-gov__cols","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-gov__cols"><!-- wp:group {"className":"ycu-gov__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-gov__text"><!-- wp:paragraph -->
