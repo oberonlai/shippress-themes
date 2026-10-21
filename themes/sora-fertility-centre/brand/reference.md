@@ -43,7 +43,13 @@ Library: GSAP + ScrollTrigger, Lenis smooth scroll (lerp 0.1), Splide (fade slid
 | Smooth scroll | Lenis wheel | whole page | lerp 0.1 | n/a |
 Site-wide easing tokens in CSS: `cubic-bezier(.215,.61,.355,1)` (39 uses), `(.19,1,.22,1)` (15), `(.165,.84,.44,1)` (14). Scroll before/after: see the `scroll-*.png` files above.
 
-## Where it lands in our theme (成品對應 — to be filled after build)
+## Where it lands in our theme (成品對應, per design-spec.md)
 | Reference move | Our implementation | Pages |
 |---|---|---|
-|  |  |  |
+| Arch band (lighter ~1440px circle on grey-green ground) | T1 arch field `#E6E2DE` on warm stone ground `#D5D0CB`, centred small label + Spectral heading + italic subtitle inside the curve | Home FAQ (block 2) and "Three paths" head; FAQ, Treatments, Fees, Care team page heads |
+| Offset single 2:3 portrait right of centre, narrow text left, "view more" + leaf mark | T2: 430px 2:3 portrait at 54% of content width, 340px text column bottom-aligned left, link with 桜鼠 circle mark | Home three paths (P4–P6); Treatments, IVF, About, Care team, Stories, Contact |
+| Tilted paper sheet behind photo, sprig over edge, letter text in offset columns | T3: `#F2EFEC` sheet rotated 7deg (origin right centre), P3 unrotated on top, sprig inside the photo (no cut-out), two offset text columns | Home director letter; About (full letter), IVF (cycle calendar card), Contact (what to bring) |
+| Full-bleed photo cover, tiny italic line, ghost-outline reserve button | Full-bleed P1 cover, Spectral italic line + 4.5rem H1 bottom-left in flow, ghost "Book" button in centred nav, info bar under photo | Home hero; interlude P2 band |
+| Grey-green ground / dark ink / tiny green accent | Stone `#D5D0CB` / ink `#2E2A29` / 桜鼠 `#B39A9A` (deep `#8E7474` for text) ≤2% | All pages |
+| Band image stretch+drift (ScrollTrigger scrub) | `sp-parallax` on T2 portraits and interlude photo | Home, Treatments, Team, Stories |
+| Entry ease `.215,.61,.355,1` on paper/text | `sp-reveal--wipe` on T3 photo; `sp-stagger` + `sp-reveal--up` on 90-day row, roster, stories | Home, About, Contact, Stories |
