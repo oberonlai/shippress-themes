@@ -10,7 +10,7 @@ Hone Orthopedics: a block theme for an orthopedic and sports injury clinic. A co
 
 == Description ==
 
-A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). The home page is in English; inner pages and other languages follow.
+A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). The sample content is in English: a home page, a specialist directory with eight clinician profiles, conditions, sports injury, physiotherapy, first visit, fees, patient stories, about, newsletter, contact, booking and a journal.
 
 == Installation ==
 
@@ -18,7 +18,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
 3. Activate Hone Orthopedics.
 
-On activation the theme creates its pages with their text and images, three journal entries, the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
+On activation the theme creates its pages with their text and images, six journal entries, the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
 
 The clinic, its clinicians, addresses and prices are fictional. All photographs were generated with Grok for this theme and are released under GPL-2.0-or-later / CC0. They show no real people, places or brands.
 
@@ -38,6 +38,14 @@ assets/images/p13.webp: generated with Grok for this theme, GPL-2.0-or-later / C
 assets/images/p14.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p15.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p16.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p17.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p18.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/p9.webp: Media Library copy of assets/images/p9.webp, GPL-2.0-or-later / CC0
+assets/images/demo/p11.webp: Media Library copy of assets/images/p11.webp, GPL-2.0-or-later / CC0
+assets/images/demo/p12.webp: Media Library copy of assets/images/p12.webp, GPL-2.0-or-later / CC0
+assets/images/demo/p13.webp: Media Library copy of assets/images/p13.webp, GPL-2.0-or-later / CC0
+assets/images/demo/p14.webp: Media Library copy of assets/images/p14.webp, GPL-2.0-or-later / CC0
+assets/images/demo/p15.webp: Media Library copy of assets/images/p15.webp, GPL-2.0-or-later / CC0
 
 
 == Copyright ==
