@@ -26,7 +26,7 @@
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ycu-pick__desc"} -->
 <p class="ycu-pick__desc">A share account for everyone, with no monthly fee and a youth account that starts at $5.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ycu-pick__link"} -->
-<p class="ycu-pick__link"><a href="/loans/">Savings accounts <span aria-hidden="true">&rarr;</span></a></p>
+<p class="ycu-pick__link"><a href="/savings/">Savings accounts <span aria-hidden="true">&rarr;</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ycu-pick__item","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-pick__item"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-pick__img"} -->
@@ -38,7 +38,7 @@
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ycu-pick__desc"} -->
 <p class="ycu-pick__desc">New or used, up to 72 months, with a decision inside one business day.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ycu-pick__link"} -->
-<p class="ycu-pick__link"><a href="/loans/">Auto loans <span aria-hidden="true">&rarr;</span></a></p>
+<p class="ycu-pick__link"><a href="/loans/#auto">Auto loans <span aria-hidden="true">&rarr;</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ycu-pick__item","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-pick__item"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-pick__img"} -->
@@ -50,7 +50,7 @@
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ycu-pick__desc"} -->
 <p class="ycu-pick__desc">Fixed-rate mortgages written and kept by people who live in Lindenport.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ycu-pick__link"} -->
-<p class="ycu-pick__link"><a href="/loans/">Home loans <span aria-hidden="true">&rarr;</span></a></p>
+<p class="ycu-pick__link"><a href="/loans/#home">Home loans <span aria-hidden="true">&rarr;</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ycu-pick__item","layout":{"type":"default"}} -->
 <div class="wp-block-group ycu-pick__item"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-pick__img"} -->
@@ -62,7 +62,7 @@
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ycu-pick__desc"} -->
 <p class="ycu-pick__desc">For a second oven, a roof or a repair, one flat rate and no prepayment fee.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ycu-pick__link"} -->
-<p class="ycu-pick__link"><a href="/loans/">Personal loans <span aria-hidden="true">&rarr;</span></a></p>
+<p class="ycu-pick__link"><a href="/loans/#personal">Personal loans <span aria-hidden="true">&rarr;</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

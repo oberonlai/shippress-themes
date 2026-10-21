@@ -41,3 +41,4 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/phone-cafe.webp (home join: hands holding a phone over a cafe table)
 - assets/images/community-hall.webp (home governance: members at folding tables in a hall)
 - assets/images/branch-exterior.webp (home branches: a glass-fronted branch exterior)
+- assets/images/old-man-bicycle.webp (member stories: an older man with a bicycle outside a stone cottage)

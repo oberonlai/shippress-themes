@@ -10,7 +10,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"ycu-sec ycu-hero","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ycu-sec ycu-hero"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ycu-hero__photo"} -->
-<figure class="wp-block-image size-full ycu-hero__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/branch-counter.webp' ) ); ?>" alt="A member and a teller talk across a light wood counter in a bright branch" loading="lazy"/></figure>
+<figure class="wp-block-image size-full ycu-hero__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/branch-counter.webp' ) ); ?>" alt="A member and a teller talk across a light wood counter in a bright branch" loading="eager" fetchpriority="high"/></figure>
 <!-- /wp:image --><!-- wp:group {"align":"wide","className":"ycu-hero__text","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ycu-hero__text"><!-- wp:heading {"level":1,"className":"ycu-hero__title has-huge-font-size"} -->
 <h1 class="wp-block-heading ycu-hero__title has-huge-font-size">Banking owned by<br>the people who <em>use</em> it.</h1>
