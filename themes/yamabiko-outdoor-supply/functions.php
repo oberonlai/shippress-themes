@@ -121,3 +121,22 @@ function yamabiko_outdoor_supply_no_woo_product_redirect() {
 	}
 }
 add_action( 'template_redirect', 'yamabiko_outdoor_supply_no_woo_product_redirect' );
+
+/**
+ * Without WooCommerce its blocks are not registered, so the shop templates would open in the editor as
+ * "unsupported content". Hide the templates that use WooCommerce blocks until the plugin is active.
+ */
+function yamabiko_outdoor_supply_hide_woo_templates( $templates ) {
+	if ( class_exists( 'WooCommerce' ) || ! is_array( $templates ) ) {
+		return $templates;
+	}
+	return array_values(
+		array_filter(
+			$templates,
+			static function ( $template ) {
+				return ! ( isset( $template->content ) && is_string( $template->content ) && false !== strpos( $template->content, '<!-- wp:woocommerce/' ) );
+			}
+		)
+	);
+}
+add_filter( 'get_block_templates', 'yamabiko_outdoor_supply_hide_woo_templates' );
