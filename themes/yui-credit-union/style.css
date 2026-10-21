@@ -1,0 +1,257 @@
+/*
+Theme Name: Yui Credit Union
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/yui-credit-union
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Yui Credit Union — a business theme for a member-owned credit union. A floating white rounded header bar with outlined pills and one solid pine pill, ruled ledger heads (a hairline, a numbered capital label and one pine italic word) above every section, and a uniform 3:2 pickup row with captions under a rule. A stone ground with white panels, ink text and one small pine accent (#5E7350). The home page opens on an inset branch photograph with the headline below, then continues with ownership, a sample-rate table, a loan calculator, what members use, a member story, the join steps, governance, branches and the journal. Merriweather for headings, Public Sans for reading. Works without any plugin. WCAG AA colours; no entrance animations.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: yui-credit-union
+Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--ycu-ground: var(--wp--preset--color--ground);
+	--ycu-paper: var(--wp--preset--color--paper);
+	--ycu-ink: var(--wp--preset--color--ink);
+	--ycu-main: var(--wp--preset--color--main);
+	--ycu-tint: var(--wp--preset--color--tint);
+	--ycu-rule: var(--wp--preset--color--rule);
+	--ycu-plum: var(--wp--preset--color--plum);
+	--ycu-muted: var(--wp--preset--color--muted);
+	--ycu-serif: var(--wp--preset--font-family--display);
+	--ycu-sans: var(--wp--preset--font-family--text);
+	--ycu-in: min(1240px, calc(100% - 72px));
+	--ycu-sec: 120px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; height: auto; display: block; }
+a { text-underline-offset: 0.2em; }
+a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible { outline: 2px solid var(--ycu-plum); outline-offset: 3px; }
+.screen-reader-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.wp-site-blocks > * { margin-block-start: 0; }
+.ycu-main, .ycu-sec, .ycu-hero, .ycu-footer, .ycu-header { margin: 0; padding: 0; max-width: none; }
+.ycu-main > *, .ycu-sec > * { margin-block-start: 0; }
+.wp-block-post-content, .ycu-main--front > .wp-block-post-content { max-width: none; padding: 0; }
+.ycu-sec > .alignwide, .ycu-hero > .alignwide, .ycu-footer > .alignwide, .ycu-page__in {
+	width: var(--ycu-in); max-width: 1240px; margin-left: auto; margin-right: auto;
+}
+
+/* ---- T1: floating white rounded header bar with pill links ---- */
+.ycu-header { position: relative; z-index: 30; padding: 18px 36px 0; }
+.home .ycu-header { position: absolute; top: 0; left: 0; right: 0; padding-top: 18px; }
+.ycu-bar {
+	background: #fff; border-radius: 8px; height: 76px; padding: 0 28px; gap: 24px;
+	box-shadow: 0 2px 18px rgba(34, 34, 34, 0.08); align-items: center;
+}
+.ycu-brand { margin: 0; display: flex; align-items: center; gap: 12px; white-space: nowrap; font-weight: 400; }
+.ycu-brand::before { content: ""; width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--ycu-main); flex: none; }
+.ycu-brand a { text-decoration: none; }
+.ycu-nav { margin-left: auto; font-family: var(--ycu-sans); font-size: 0.9rem; font-weight: 500; gap: 28px; }
+.ycu-nav .wp-block-navigation-item__content { text-decoration: none; padding: 6px 0; border-bottom: 2px solid transparent; }
+.ycu-nav .wp-block-navigation-item__content:hover, .ycu-nav .current-menu-item > a { border-bottom-color: var(--ycu-plum); }
+.ycu-pills { gap: 10px; flex-wrap: nowrap; }
+.ycu-btn .wp-block-button__link, .wp-block-button.ycu-btn .wp-block-button__link {
+	display: inline-flex; align-items: center; justify-content: center; height: 38px; padding: 0 18px;
+	border-radius: 999px; font-family: var(--ycu-sans); font-size: 0.875rem; font-weight: 600; line-height: 1;
+	background: var(--ycu-main); color: #fff; border: 1px solid var(--ycu-main); text-decoration: none; white-space: nowrap;
+}
+.wp-block-button.ycu-btn--ghost .wp-block-button__link { background: transparent; color: var(--ycu-ink); border-color: var(--ycu-ink); font-weight: 500; }
+.ycu-btn .wp-block-button__link:hover { background: var(--ycu-ink); border-color: var(--ycu-ink); color: #fff; }
+.wp-block-button.ycu-btn--ghost .wp-block-button__link:hover { background: var(--ycu-ink); color: #fff; }
+.ycu-btns .wp-block-button__link { height: 46px; padding: 0 26px; font-size: 0.95rem; }
+.ycu-btns { gap: 12px; margin-top: 28px; }
+
+/* ---- T2: ruled ledger head ---- */
+.ycu-sec { padding: var(--ycu-sec) 0 0; }
+.ycu-head {
+	border-top: 1px solid var(--ycu-rule); padding-top: 16px; margin-bottom: 56px;
+	display: grid; grid-template-columns: 3fr 9fr; gap: 32px; align-items: start;
+}
+.ycu-label { margin: 0; font-family: var(--ycu-sans); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; line-height: 2.4; }
+.ycu-ix { color: var(--ycu-main); margin-right: 0.6em; }
+.ycu-h2 { margin: 0; font-family: var(--ycu-serif); font-weight: 300; font-size: clamp(2.4rem, 4vw, 3.25rem); line-height: 1.18; letter-spacing: -0.01em; }
+.ycu-h2 em, .ycu-close__h em, .ycu-hero__title em { font-style: italic; font-weight: 300; color: var(--ycu-main); }
+
+/* ---- hero: top photo, bottom text ---- */
+.ycu-hero { padding: 0; }
+.ycu-hero__photo { margin: 56px 36px 0; }
+.ycu-hero__photo img { width: 100%; height: 520px; object-fit: cover; object-position: 55% 50%; border-radius: 8px; }
+.ycu-hero__text { padding-top: 52px; display: grid; grid-template-columns: 7fr 5fr; gap: 56px; align-items: end; }
+.ycu-hero__title { margin: 0; font-size: clamp(2.75rem, 5.2vw, 4.25rem); line-height: 1.1; letter-spacing: -0.015em; }
+.ycu-hero__side p { margin: 0; max-width: 34em; }
+.ycu-hero__side .ycu-btns { margin-top: 22px; }
+.ycu-fact { margin-top: 36px; }
+.ycu-fact__line { margin: 0; padding-top: 14px; border-top: 1px dashed var(--ycu-rule); font-size: 0.875rem; font-variant-numeric: tabular-nums; letter-spacing: 0.04em; color: var(--ycu-muted); display: flex; gap: 14px; }
+.ycu-fact__line span + span::before { content: "·"; margin-right: 14px; }
+
+/* ---- 01 ownership ---- */
+.ycu-own__grid { display: grid; grid-template-columns: 6fr 1fr 5fr; align-items: start; }
+.ycu-own__text { grid-column: 1; }
+.ycu-own__text p { margin: 0 0 1.2em; max-width: 36em; }
+.ycu-own__photo { grid-column: 3; margin: 0; }
+.ycu-own__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 4px; }
+
+/* ---- 02 rates ---- */
+.ycu-rates__panel { background: #fff; border-radius: 4px; padding: 12px 40px 32px; }
+.ycu-rt { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.ycu-rt thead th { font-family: var(--ycu-sans); font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600; text-align: left; padding: 22px 0 14px; color: var(--ycu-muted); border-bottom: 1px solid var(--ycu-ink); }
+.ycu-rt tbody th, .ycu-rt tbody td { padding: 22px 0; border-bottom: 1px solid var(--ycu-rule); text-align: left; vertical-align: baseline; }
+.ycu-rt tbody th { font-family: var(--ycu-serif); font-weight: 400; font-size: 1.25rem; width: 36%; }
+.ycu-rt__term { color: var(--ycu-muted); width: 24%; }
+.ycu-rt__rate { font-family: var(--ycu-serif); font-size: 1.75rem; font-weight: 400; color: var(--ycu-ink); }
+.ycu-rt__go { text-align: right !important; font-size: 0.9rem; font-weight: 600; white-space: nowrap; }
+.ycu-rt__go a { text-decoration: none; }
+.ycu-rates__foot { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-top: 24px; }
+.ycu-rates__foot p { margin: 0; font-size: 0.875rem; color: var(--ycu-muted); }
+.ycu-rates__foot .ycu-btns { margin: 0; }
+
+/* ---- 03 calculator ---- */
+.ycu-calcsec__grid { display: grid; grid-template-columns: 5fr 7fr; gap: 56px; align-items: stretch; }
+.ycu-calcsec__photo { margin: 0; }
+.ycu-calcsec__photo img { width: 100%; height: 100%; min-height: 520px; object-fit: cover; border-radius: 4px; }
+.ycu-calcsec__panel { background: #fff; border-radius: 4px; padding: 40px 44px; display: flex; flex-direction: column; justify-content: center; }
+.ycu-calc__row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; border-top: 1px solid var(--ycu-rule); padding-top: 14px; margin-top: 8px; font-family: var(--ycu-sans); font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600; }
+.ycu-calc__row output { font-family: var(--ycu-serif); font-size: 1.5rem; letter-spacing: 0; text-transform: none; font-weight: 400; }
+.ycu-calc__row select { font: 500 0.95rem var(--ycu-sans); letter-spacing: 0; text-transform: none; padding: 8px 12px; border: 1px solid var(--ycu-ink); border-radius: 999px; background: #fff; color: var(--ycu-ink); }
+.ycu-range { -webkit-appearance: none; appearance: none; width: 100%; height: 4px; border-radius: 2px; margin: 18px 0 26px; background: linear-gradient(to right, var(--ycu-main) var(--p, 26%), var(--ycu-rule) var(--p, 26%)); }
+.ycu-range::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; border-radius: 50%; background: #fff; border: 2px solid var(--ycu-main); cursor: pointer; }
+.ycu-range::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: #fff; border: 2px solid var(--ycu-main); cursor: pointer; }
+.ycu-chips { border: 0; border-top: 1px solid var(--ycu-rule); padding: 14px 0 22px; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.ycu-chips legend { float: left; width: 100%; padding: 0; margin-bottom: 12px; font-family: var(--ycu-sans); font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 600; }
+.ycu-chips input { position: absolute; opacity: 0; pointer-events: none; }
+.ycu-chips label { padding: 8px 18px; border: 1px solid var(--ycu-ink); border-radius: 999px; font-size: 0.875rem; font-weight: 500; cursor: pointer; }
+.ycu-chips input:checked + label { background: var(--ycu-tint); border-color: var(--ycu-main); font-weight: 600; }
+.ycu-chips input:focus-visible + label { outline: 2px solid var(--ycu-plum); outline-offset: 3px; }
+.ycu-calc__result { margin: 26px 0 4px; border-top: 1px solid var(--ycu-rule); padding-top: 22px; font-size: 1.0625rem; }
+.ycu-calc__result strong { font-family: var(--ycu-serif); font-size: 3rem; font-weight: 400; line-height: 1.1; margin: 0 0.15em; font-variant-numeric: tabular-nums; }
+.ycu-calc__small { margin: 0; font-size: 0.8125rem; color: var(--ycu-muted); }
+.ycu-calcsec__panel .ycu-btns { margin-top: 20px; }
+
+/* ---- T3: uniform pickup row ---- */
+.ycu-pick { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.ycu-pick__item { display: flex; flex-direction: column; }
+.ycu-pick__img { margin: 0 0 18px; }
+.ycu-pick__img img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 4px; }
+.ycu-pick__item > * { margin-block: 0; }
+.ycu-pick__name { border-top: 1px solid var(--ycu-rule); padding-top: 16px; font-family: var(--ycu-serif); font-weight: 400; font-size: 1.25rem; line-height: 1.3; }
+.ycu-pick__rate { margin-top: 6px !important; font-family: var(--ycu-sans); font-weight: 600; font-size: 0.875rem; color: var(--ycu-main); }
+.ycu-pick__desc { margin-top: 10px !important; font-size: 0.95rem; line-height: 1.65; }
+.ycu-pick__link { margin-top: 14px !important; font-size: 0.9rem; font-weight: 600; }
+.ycu-pick__link a { text-decoration: none; border-bottom: 1px solid var(--ycu-ink); }
+
+/* ---- 05 stories ---- */
+.ycu-story__grid { display: grid; grid-template-columns: 7fr 1fr 4fr; align-items: start; }
+.ycu-story__main { grid-column: 1; }
+.ycu-story__photo { margin: 0 0 28px; }
+.ycu-story__photo img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 4px; }
+.ycu-story__text { margin: 0 0 18px; max-width: 40em; }
+.ycu-story__by { margin: 0; font-size: 0.9rem; color: var(--ycu-muted); }
+.ycu-story__by strong, .ycu-quote__by strong { color: var(--ycu-ink); }
+.ycu-story__quotes { grid-column: 3; }
+.ycu-quote { border-top: 1px solid var(--ycu-rule); padding: 20px 0 36px; }
+.ycu-quote__t { margin: 0 0 18px; font-family: var(--ycu-serif); font-weight: 300; font-size: 1.375rem; line-height: 1.5; }
+.ycu-quote__by { margin: 0; font-size: 0.875rem; color: var(--ycu-muted); }
+
+/* ---- 06 join ---- */
+.ycu-join__grid { display: grid; grid-template-columns: 6fr 1fr 5fr; align-items: start; }
+.ycu-join__main { grid-column: 1; }
+.ycu-step { display: grid; grid-template-columns: 72px 1fr; gap: 20px; border-top: 1px solid var(--ycu-rule); padding: 22px 0; align-items: baseline; }
+.ycu-step__n { margin: 0; font-family: var(--ycu-serif); font-size: 2.5rem; font-weight: 300; color: var(--ycu-main); line-height: 1; }
+.ycu-step__t { margin: 0 0 4px; font-family: var(--ycu-serif); font-weight: 400; font-size: 1.25rem; }
+.ycu-step__d { margin: 0; font-size: 0.95rem; }
+.ycu-join__line { margin: 0; padding: 14px 0; border-top: 1px solid var(--ycu-rule); font-size: 0.95rem; }
+.ycu-join__line + .ycu-join__line { margin-top: -1px; }
+.ycu-join__photo { grid-column: 3; margin: 0; }
+.ycu-join__photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 4px; }
+
+/* ---- 07 governance ---- */
+.ycu-gov__photo { margin: 0 0 48px; }
+.ycu-gov__photo img { width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: 4px; }
+.ycu-gov__cols { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
+.ycu-gov__text p { margin: 0 0 1.1em; max-width: 34em; }
+.ycu-link a { font-weight: 600; text-decoration: none; border-bottom: 1px solid var(--ycu-ink); }
+.ycu-dir { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ycu-ink); }
+.ycu-dir li { display: flex; justify-content: space-between; gap: 16px; padding: 13px 0; border-bottom: 1px solid var(--ycu-rule); font-size: 0.95rem; }
+.ycu-dir li span:first-child { font-family: var(--ycu-serif); font-size: 1.0625rem; }
+.ycu-dir li span:last-child { color: var(--ycu-muted); }
+
+/* ---- 08 branches ---- */
+.ycu-br__grid { display: grid; grid-template-columns: 4fr 8fr; gap: 48px; align-items: stretch; }
+.ycu-br__photo { margin: 0; }
+.ycu-br__photo img { width: 100%; height: 100%; min-height: 440px; object-fit: cover; border-radius: 4px; }
+.ycu-br__cols { display: grid; grid-template-columns: repeat(3, 1fr); align-content: start; }
+.ycu-br__col { padding: 4px 28px 0; border-left: 1px solid var(--ycu-rule); }
+.ycu-br__col:first-child { padding-left: 0; border-left: 0; }
+.ycu-br__col p { margin: 0 0 1em; font-size: 0.95rem; line-height: 1.65; }
+.ycu-br__n { margin: 0 0 14px; font-family: var(--ycu-serif); font-weight: 400; font-size: 1.375rem; }
+
+/* ---- 09 journal ---- */
+.ycu-jlist { border-top: 1px solid var(--ycu-ink); }
+.ycu-jrow { display: grid; grid-template-columns: 160px 200px 1fr 32px; gap: 24px; align-items: baseline; padding: 24px 0; border-bottom: 1px solid var(--ycu-rule); text-decoration: none; }
+.ycu-jrow__d { font-size: 0.875rem; color: var(--ycu-muted); font-variant-numeric: tabular-nums; }
+.ycu-jrow__c { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; }
+.ycu-jrow__t { font-family: var(--ycu-serif); font-size: 1.375rem; font-weight: 400; line-height: 1.35; }
+.ycu-jrow__a { text-align: right; }
+.ycu-jrow:hover .ycu-jrow__t { text-decoration: underline; text-underline-offset: 0.2em; }
+
+/* ---- close ---- */
+.ycu-close__panel { width: calc(100% - 72px); margin: 0 auto; background: #fff; border-radius: 8px; padding: 72px 64px; display: grid; grid-template-columns: 7fr 5fr; gap: 56px; align-items: center; }
+.ycu-close__h { margin: 0; font-family: var(--ycu-serif); font-size: 3rem; font-weight: 300; line-height: 1.18; }
+.ycu-close__side p { margin: 0; }
+
+/* ---- pages ---- */
+.ycu-page__title { border-top: 1px solid var(--ycu-rule); padding-top: 24px; margin-bottom: 40px; }
+
+/* ---- footer ---- */
+.ycu-footer { margin-top: var(--ycu-sec); padding: 72px 0 40px; border-top: 1px solid var(--ycu-rule); font-size: 0.9rem; }
+.ycu-foot__grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.4fr; gap: 40px; }
+.ycu-foot__grid p { margin: 0 0 0.6em; }
+.ycu-foot__name { font-family: var(--ycu-serif); font-size: 1.25rem; }
+.ycu-footer a { text-decoration: none; }
+.ycu-footer a:hover { text-decoration: underline; }
+.ycu-foot__legal { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--ycu-rule); font-size: 0.8125rem; color: var(--ycu-muted); }
+.ycu-foot__legal p { margin: 0; }
+
+/* ---- responsive ---- */
+@media (max-width: 1180px) {
+	.ycu-hide-s { display: none; }
+	.ycu-nav { margin-left: auto; }
+}
+@media (max-width: 900px) {
+	:root { --ycu-sec: 72px; }
+	.ycu-pick { grid-template-columns: repeat(2, 1fr); row-gap: 40px; }
+	.ycu-br__cols { grid-template-columns: 1fr; gap: 24px; }
+	.ycu-br__col { border-left: 0; padding: 0; }
+	.ycu-jrow { grid-template-columns: 110px 1fr 24px; }
+	.ycu-jrow__c { display: none; }
+}
+@media (max-width: 781px) {
+	.ycu-header { padding: 12px 12px 0; }
+	.home .ycu-header { padding-top: 12px; }
+	.ycu-bar { height: 64px; padding: 0 16px; gap: 12px; }
+	.ycu-nav { margin-left: 0; }
+	.ycu-hero__photo { margin: 12px 12px 0; }
+	.ycu-hero__photo img { height: 300px; }
+	.home .ycu-hero__photo { margin-top: 88px; }
+	.ycu-hero__text, .ycu-head, .ycu-own__grid, .ycu-calcsec__grid, .ycu-story__grid, .ycu-join__grid, .ycu-gov__cols, .ycu-br__grid, .ycu-close__panel, .ycu-foot__grid { grid-template-columns: 1fr; gap: 28px; }
+	.ycu-own__photo, .ycu-join__photo, .ycu-story__quotes { grid-column: 1; }
+	.ycu-head { gap: 4px; margin-bottom: 36px; }
+	.ycu-rates__panel { padding: 8px 20px 24px; }
+	.ycu-rt thead { display: none; }
+	.ycu-rt tr { display: grid; grid-template-columns: 1fr auto; border-bottom: 1px solid var(--ycu-rule); padding: 14px 0; }
+	.ycu-rt tbody th, .ycu-rt tbody td { border: 0; padding: 2px 0; width: auto; }
+	.ycu-rt__go { grid-column: 1 / -1; text-align: left !important; }
+	.ycu-rates__foot { flex-direction: column; align-items: flex-start; }
+	.ycu-calcsec__panel { padding: 28px 22px; }
+	.ycu-calcsec__photo img { min-height: 320px; }
+	.ycu-pick { grid-template-columns: 1fr; }
+	.ycu-close__panel { width: calc(100% - 24px); padding: 40px 24px; }
+	.ycu-close__h { font-size: 2.25rem; }
+}
