@@ -22,11 +22,11 @@
 
 <!-- wp:group {"className":"mm-band__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group mm-band__foot"><!-- wp:paragraph {"className":"mm-label mm-label--light"} -->
-<p class="mm-label mm-label--light"><?php echo esc_html( michi_motors_t( 'locations_head_4' ) ); ?></p>
+<p class="mm-label mm-label--light"><?php echo esc_html( michi_motors_t( 'front_locations_1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-rule-lead"} -->
-<p class="mm-rule-lead"><?php echo esc_html( michi_motors_t( 'locations_head_5' ) ); ?></p>
+<p class="mm-rule-lead"><?php echo esc_html( michi_motors_t( 'front_locations_3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

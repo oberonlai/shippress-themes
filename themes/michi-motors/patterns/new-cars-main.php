@@ -106,11 +106,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"mm-h"} -->
-<h2 class="wp-block-heading mm-h"><?php echo michi_motors_lines( 'new_cars_main_11' ); ?></h2>
+<h2 class="wp-block-heading mm-h"><?php echo michi_motors_lines( 'front_checked_1' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mm-lead"} -->
-<p class="mm-lead"><?php echo esc_html( michi_motors_t( 'new_cars_main_12' ) ); ?></p>
+<p class="mm-lead"><?php echo esc_html( michi_motors_t( 'new_cars_main_11' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -126,7 +126,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-row__meta"} -->
-<p class="mm-row__meta"><?php echo esc_html( michi_motors_t( 'new_cars_main_13' ) ); ?></p>
+<p class="mm-row__meta"><?php echo esc_html( michi_motors_t( 'new_cars_main_12' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -146,7 +146,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-row__meta"} -->
-<p class="mm-row__meta"><?php echo esc_html( michi_motors_t( 'new_cars_main_14' ) ); ?></p>
+<p class="mm-row__meta"><?php echo esc_html( michi_motors_t( 'new_cars_main_13' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -166,7 +166,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-row__meta"} -->
-<p class="mm-row__meta"><?php echo esc_html( michi_motors_t( 'new_cars_main_15' ) ); ?></p>
+<p class="mm-row__meta"><?php echo esc_html( michi_motors_t( 'new_cars_main_14' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -186,7 +186,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-row__meta"} -->
-<p class="mm-row__meta"><?php echo esc_html( michi_motors_t( 'new_cars_main_16' ) ); ?></p>
+<p class="mm-row__meta"><?php echo esc_html( michi_motors_t( 'new_cars_main_15' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -197,16 +197,16 @@
 
 <!-- wp:group {"className":"mm-row","layout":{"type":"default"}} -->
 <div class="wp-block-group mm-row"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mm-row__img"} -->
-<figure class="wp-block-image size-full mm-row__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/v8-estate.webp' ) ); ?>" alt="<?php echo esc_attr( michi_motors_t( 'new_cars_main_17' ) ); ?>"/></figure>
+<figure class="wp-block-image size-full mm-row__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/v8-estate.webp' ) ); ?>" alt="<?php echo esc_attr( michi_motors_t( 'new_cars_main_16' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"mm-row__text","layout":{"type":"default"}} -->
 <div class="wp-block-group mm-row__text"><!-- wp:paragraph {"className":"mm-row__name"} -->
-<p class="mm-row__name"><a href="<?php echo esc_url( michi_motors_car_url( 'corvel-estate-touring' ) ); ?>"><?php echo esc_html( michi_motors_t( 'new_cars_main_18' ) ); ?></a></p>
+<p class="mm-row__name"><a href="<?php echo esc_url( michi_motors_car_url( 'corvel-estate-touring' ) ); ?>"><?php echo esc_html( michi_motors_t( 'new_cars_main_17' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-row__meta"} -->
-<p class="mm-row__meta"><?php echo esc_html( michi_motors_t( 'new_cars_main_19' ) ); ?></p>
+<p class="mm-row__meta"><?php echo esc_html( michi_motors_t( 'new_cars_main_18' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

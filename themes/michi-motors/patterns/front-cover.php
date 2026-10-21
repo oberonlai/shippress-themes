@@ -15,7 +15,7 @@
 
 <!-- wp:group {"className": "mm-cover__grid", "layout": {"type": "default"}} -->
 <div class="wp-block-group mm-cover__grid"><!-- wp:heading {"level":1,"className":"mm-t1 mm-t1--cover"} -->
-<h1 class="wp-block-heading mm-t1 mm-t1--cover"><span class="mm-t1__l mm-t1__l--1"><?php echo esc_html( michi_motors_t( 'front_cover_2' ) ); ?></span><span class="mm-t1__l mm-t1__l--2"><?php echo esc_html( michi_motors_t( 'front_cover_3' ) ); ?></span><span class="mm-t1__l mm-t1__l--3"><?php echo esc_html( michi_motors_t( 'front_cover_4' ) ); ?></span><span class="mm-t1__l mm-t1__l--4"><?php echo esc_html( michi_motors_t( 'about_head_4' ) ); ?></span></h1>
+<h1 class="wp-block-heading mm-t1 mm-t1--cover"><span class="mm-t1__l mm-t1__l--1"><?php echo esc_html( michi_motors_t( 'front_cover_2' ) ); ?></span><span class="mm-t1__l mm-t1__l--2"><?php echo esc_html( michi_motors_t( 'front_cover_3' ) ); ?></span><span class="mm-t1__l mm-t1__l--3"><?php echo esc_html( michi_motors_t( 'front_cover_4' ) ); ?></span><span class="mm-t1__l mm-t1__l--4"><?php echo esc_html( michi_motors_t( 'front_cover_9' ) ); ?></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mm-rule-lead mm-cover__lead"} -->

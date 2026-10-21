@@ -1,5 +1,9 @@
 # Michi Motors: brand
 
+## Concept
+- **Name:** Michi Motors.
+- **Location:** Sacramento, California (head site 2140 J Street), with sites in Davis and Roseville.
+
 ## Who
 Michi Motors is a family-run car dealership in Sacramento, California, founded in 1987 by Kenji Michida as a two-bay service garage on J Street. The showroom came later. Today it is run by his daughter, Lena Michida-Hart (managing director), with Marcus Bell (sales lead), Priya Raman (approved used manager) and Tomás Ortega (service manager). Three sites: Midtown (head site, 2140 J Street, Sacramento, CA 95816, (916) 555-0187), Davis (815 Olive Drive, Davis, CA 95616, (530) 555-0142) and Roseville (3300 Eureka Road, Roseville, CA 95661, (916) 555-0263). Everything here is fictional: no real car makes or models, awards, media or customer counts.
 

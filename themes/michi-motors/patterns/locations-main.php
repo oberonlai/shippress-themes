@@ -37,15 +37,15 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mm-loc__line"} -->
-<p class="mm-loc__line"><?php echo esc_html( michi_motors_t( 'locations_main_5' ) ); ?></p>
+<p class="mm-loc__line"><?php echo esc_html( michi_motors_t( 'front_locations_6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line mm-loc__line--m"} -->
-<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_6' ) ); ?></p>
+<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'front_locations_7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line mm-loc__line--m"} -->
-<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_7' ) ); ?></p>
+<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'front_locations_11' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line"} -->
@@ -53,12 +53,12 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line mm-loc__line--m"} -->
-<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_8' ) ); ?></p>
+<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_4' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mm-ringlink"} -->
-<p class="mm-ringlink"><a href="https://www.openstreetmap.org/search?query=2140+J+Street+Sacramento" aria-label="<?php echo esc_attr( michi_motors_t( 'locations_main_4' ) ); ?>"></a></p>
+<p class="mm-ringlink"><a href="https://www.openstreetmap.org/search?query=2140+J+Street+Sacramento" aria-label="<?php echo esc_attr( michi_motors_t( 'front_locations_4' ) ); ?>"></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -73,15 +73,15 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mm-loc__line"} -->
-<p class="mm-loc__line"><?php echo esc_html( michi_motors_t( 'locations_main_10' ) ); ?></p>
+<p class="mm-loc__line"><?php echo esc_html( michi_motors_t( 'front_locations_10' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line mm-loc__line--m"} -->
-<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_6' ) ); ?></p>
+<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'front_locations_7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line mm-loc__line--m"} -->
-<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_7' ) ); ?></p>
+<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'front_locations_11' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line"} -->
@@ -89,18 +89,18 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line mm-loc__line--m"} -->
-<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_11' ) ); ?></p>
+<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mm-ringlink"} -->
-<p class="mm-ringlink"><a href="https://www.openstreetmap.org/search?query=815+Olive+Drive+Davis" aria-label="<?php echo esc_attr( michi_motors_t( 'locations_main_9' ) ); ?>"></a></p>
+<p class="mm-ringlink"><a href="https://www.openstreetmap.org/search?query=815+Olive+Drive+Davis" aria-label="<?php echo esc_attr( michi_motors_t( 'front_locations_9' ) ); ?>"></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"mm-loc","layout":{"type":"default"}} -->
 <div class="wp-block-group mm-loc"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mm-loc__img"} -->
-<figure class="wp-block-image size-full mm-loc__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s7-roseville.webp' ) ); ?>" alt="<?php echo esc_attr( michi_motors_t( 'locations_main_12' ) ); ?>"/></figure>
+<figure class="wp-block-image size-full mm-loc__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s7-roseville.webp' ) ); ?>" alt="<?php echo esc_attr( michi_motors_t( 'locations_main_6' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"mm-loc__text","layout":{"type":"default"}} -->
@@ -109,15 +109,15 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mm-loc__line"} -->
-<p class="mm-loc__line"><?php echo esc_html( michi_motors_t( 'locations_main_14' ) ); ?></p>
+<p class="mm-loc__line"><?php echo esc_html( michi_motors_t( 'front_locations_14' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line mm-loc__line--m"} -->
-<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_6' ) ); ?></p>
+<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'front_locations_7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line mm-loc__line--m"} -->
-<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_7' ) ); ?></p>
+<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'front_locations_11' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line"} -->
@@ -125,12 +125,12 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mm-loc__line mm-loc__line--m"} -->
-<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_15' ) ); ?></p>
+<p class="mm-loc__line mm-loc__line--m"><?php echo esc_html( michi_motors_t( 'locations_main_7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mm-ringlink"} -->
-<p class="mm-ringlink"><a href="https://www.openstreetmap.org/search?query=3300+Eureka+Road+Roseville" aria-label="<?php echo esc_attr( michi_motors_t( 'locations_main_13' ) ); ?>"></a></p>
+<p class="mm-ringlink"><a href="https://www.openstreetmap.org/search?query=3300+Eureka+Road+Roseville" aria-label="<?php echo esc_attr( michi_motors_t( 'front_locations_13' ) ); ?>"></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
