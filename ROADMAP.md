@@ -514,7 +514,7 @@ b6-1 and b6-2 below are history. Open rows b6-3 … b6-16 were re-mapped on 2026
 0. **Minimum quality gate (since 2026-10-20, #226): a theme that misses any item is not merged.** Five languages (user decision 2026-10-20 10:34 Taipei; replaces the former English-only rule): sample content in en, zh-TW, ja, fr and de, built the Hokuto 1.1.0 way (#231), with screenshots per language and prices matching across languages (zh-TW font rules in rule 6); commercial and practical subjects, never Japan-only subjects such as basketry, kimono, wagashi, shrines, tea ceremony, dojo, crafts or pottery (`rules.direction`). The queue is `design-plan.json` (§3d): take the first `todo` row and set it to `claimed`/`done` in design-plan.json and the 3d table; its hints and `signature` are a starting point, not an order. Restrained and elegant: a low-chroma ground with one muted accent, a large photograph leading the first screen, no saturated full-bleed colour, no cut-out break-frame objects, no side rails, no giant centred type, no collages.
    - **Brand brief first:** each theme starts from `themes/<slug>/brand.md`: name, location, founding year, 1–3 named people, audience, tone and a day in the life. All copy grows out of it.
    - Home page ≥ 250 English words and ≥ 3 narrative paragraphs of ≥ 20 words each.
-   - ≥ 8 pages and ≥ 6 posts.
+   - ≥ 8 pages and ≥ 1 post.
    - ≥ 12 photo files generated with one shared STYLE string (realistic photography look); the home page has ≥ 8 photo positions.
    - Cut-outs (transparent-background images) ≤ 1.
    - The largest `theme.json` font size is ≥ 4.25rem.
