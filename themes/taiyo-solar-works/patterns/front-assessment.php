@@ -13,66 +13,66 @@
 <!-- wp:group {"className":"ts-assess__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-assess__text">
 <!-- wp:paragraph {"className":"ts-label"} -->
-<p class="ts-label"><span class="ts-label__n">[06]</span> Free roof assessment</p>
+<p class="ts-label"><?php echo wp_kses_post( taiyo_solar_works_t( 'k50ff3254' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2,"className":"ts-h2"} -->
-<h2 class="wp-block-heading ts-h2">A free roof assessment, then a written proposal.</h2>
+<h2 class="wp-block-heading ts-h2"><?php echo wp_kses_post( taiyo_solar_works_t( 'ka25018fe' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Nobody needs to commit to anything to have us look at the roof. Sofia Reyes or Marcus Bell will come out, measure the slopes, check the shading and the fuse board, and then we put the result in writing: what we would fit, where, for how much, and what output and saving to expect, with the assumptions written down.</p>
+<p><?php echo wp_kses_post( taiyo_solar_works_t( 'k0cf39c66' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"className":"ts-assess__cta"} -->
 <div class="wp-block-buttons ts-assess__cta">
 <!-- wp:button {"className":"is-style-ground"} -->
-<div class="wp-block-button is-style-ground"><a class="wp-block-button__link wp-element-button" href="/#contact">Book a free roof assessment</a></div>
+<div class="wp-block-button is-style-ground"><a class="wp-block-button__link wp-element-button" href="/free-roof-assessment/"><?php echo wp_kses_post( taiyo_solar_works_t( 'kbb3b3b79' ) ); ?></a></div>
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
 </div>
 <!-- /wp:group -->
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"ts-assess__photo"} -->
-<figure class="wp-block-image size-large ts-assess__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10.webp' ) ); ?>" alt="A surveyor with a tablet and a homeowner standing in a driveway, pointing at the roof"/></figure>
+<figure class="wp-block-image size-large ts-assess__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10.webp' ) ); ?>" alt="<?php echo esc_attr( taiyo_solar_works_t( 'k62cc6d8d' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"ts-steps","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ts-steps">
 <!-- wp:group {"className":"ts-step","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-step">
 <!-- wp:paragraph {"className":"ts-step__n"} -->
-<p class="ts-step__n">1</p>
+<p class="ts-step__n"><?php echo wp_kses_post( taiyo_solar_works_t( 'k356a192b' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-step__t"} -->
-<p class="ts-step__t">Book</p>
+<p class="ts-step__t"><?php echo wp_kses_post( taiyo_solar_works_t( 'kf69f2330' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-step__d"} -->
-<p class="ts-step__d">Phone, email or the form; we reply within one working day.</p>
+<p class="ts-step__d"><?php echo wp_kses_post( taiyo_solar_works_t( 'kd61fe5ac' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group --><!-- wp:group {"className":"ts-step","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-step">
 <!-- wp:paragraph {"className":"ts-step__n"} -->
-<p class="ts-step__n">2</p>
+<p class="ts-step__n"><?php echo wp_kses_post( taiyo_solar_works_t( 'kda4b9237' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-step__t"} -->
-<p class="ts-step__t">Visit</p>
+<p class="ts-step__t"><?php echo wp_kses_post( taiyo_solar_works_t( 'k7c9a8664' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-step__d"} -->
-<p class="ts-step__d">45 minutes on site: roof condition, pitch, shading, meter and fuse board.</p>
+<p class="ts-step__d"><?php echo wp_kses_post( taiyo_solar_works_t( 'ke3a12b22' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group --><!-- wp:group {"className":"ts-step","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-step">
 <!-- wp:paragraph {"className":"ts-step__n"} -->
-<p class="ts-step__n">3</p>
+<p class="ts-step__n"><?php echo wp_kses_post( taiyo_solar_works_t( 'k77de68da' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-step__t"} -->
-<p class="ts-step__t">Proposal</p>
+<p class="ts-step__t"><?php echo wp_kses_post( taiyo_solar_works_t( 'k929017ad' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-step__d"} -->
-<p class="ts-step__d">Written within 5 working days: system size, layout, price, est. output and saving.</p>
+<p class="ts-step__d"><?php echo wp_kses_post( taiyo_solar_works_t( 'keabfc904' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group --><!-- wp:group {"className":"ts-step","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-step">
 <!-- wp:paragraph {"className":"ts-step__n"} -->
-<p class="ts-step__n">4</p>
+<p class="ts-step__n"><?php echo wp_kses_post( taiyo_solar_works_t( 'k1b645389' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-step__t"} -->
-<p class="ts-step__t">Install</p>
+<p class="ts-step__t"><?php echo wp_kses_post( taiyo_solar_works_t( 'kfd6c3ebf' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-step__d"} -->
-<p class="ts-step__d">Usually 1&ndash;3 days on the roof; switch-on after inspection, typically 4&ndash;8 weeks from yes.</p>
+<p class="ts-step__d"><?php echo wp_kses_post( taiyo_solar_works_t( 'ke7e097bf' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

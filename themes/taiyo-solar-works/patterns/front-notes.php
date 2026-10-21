@@ -13,9 +13,9 @@
 <!-- wp:group {"className":"ts-notes__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-notes__head">
 <!-- wp:paragraph {"className":"ts-label"} -->
-<p class="ts-label"><span class="ts-label__n">[08]</span> Journal</p>
+<p class="ts-label"><?php echo wp_kses_post( taiyo_solar_works_t( 'k357fc931' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":2,"className":"ts-h2"} -->
-<h2 class="wp-block-heading ts-h2">Field notes</h2>
+<h2 class="wp-block-heading ts-h2"><?php echo wp_kses_post( taiyo_solar_works_t( 'k4c205e03' ) ); ?></h2>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
@@ -24,11 +24,11 @@
 <!-- wp:group {"className":"ts-note__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-note__row">
 <!-- wp:paragraph {"className":"ts-note__date"} -->
-<p class="ts-note__date">2026-10-02</p>
+<p class="ts-note__date"><?php echo wp_kses_post( taiyo_solar_works_t( 'k286c2830' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-note__title"} -->
-<p class="ts-note__title"><a href="/what-we-look-at-on-a-45-minute-roof-visit/">What we look at on a 45-minute roof visit</a></p>
+<p class="ts-note__title"><?php echo wp_kses_post( taiyo_solar_works_t( 'kc24b4a10' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-note__cat"} -->
-<p class="ts-note__cat">Process</p>
+<p class="ts-note__cat"><?php echo wp_kses_post( taiyo_solar_works_t( 'k12f4c13a' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-note__dot"} -->
 <p class="ts-note__dot"></p>
 <!-- /wp:paragraph -->
@@ -36,11 +36,11 @@
 <!-- /wp:group --><!-- wp:group {"className":"ts-note__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-note__row">
 <!-- wp:paragraph {"className":"ts-note__date"} -->
-<p class="ts-note__date">2026-09-15</p>
+<p class="ts-note__date"><?php echo wp_kses_post( taiyo_solar_works_t( 'ke3fd4b2c' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-note__title"} -->
-<p class="ts-note__title"><a href="/does-a-battery-pay-for-itself/">Does a battery pay for itself? Our honest maths</a></p>
+<p class="ts-note__title"><?php echo wp_kses_post( taiyo_solar_works_t( 'k53259ba8' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-note__cat"} -->
-<p class="ts-note__cat">Batteries</p>
+<p class="ts-note__cat"><?php echo wp_kses_post( taiyo_solar_works_t( 'k0970f9df' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-note__dot"} -->
 <p class="ts-note__dot"></p>
 <!-- /wp:paragraph -->
@@ -48,11 +48,11 @@
 <!-- /wp:group --><!-- wp:group {"className":"ts-note__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ts-note__row">
 <!-- wp:paragraph {"className":"ts-note__date"} -->
-<p class="ts-note__date">2026-08-28</p>
+<p class="ts-note__date"><?php echo wp_kses_post( taiyo_solar_works_t( 'k994d3ef3' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-note__title"} -->
-<p class="ts-note__title"><a href="/cleaning-panels-when-to-bother/">Cleaning panels: when to bother, and when not to</a></p>
+<p class="ts-note__title"><?php echo wp_kses_post( taiyo_solar_works_t( 'k0e8e176f' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-note__cat"} -->
-<p class="ts-note__cat">Maintenance</p>
+<p class="ts-note__cat"><?php echo wp_kses_post( taiyo_solar_works_t( 'k94de303b' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ts-note__dot"} -->
 <p class="ts-note__dot"></p>
 <!-- /wp:paragraph -->
