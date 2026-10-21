@@ -8,7 +8,7 @@
  * Description: Three doctors as ruled rows with a square portrait, focus, one sentence and clinic days.
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"hd-doctors","align":"full","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","className":"hd-doctors","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hd-doctors"><!-- wp:group {"align":"wide","className":"hd-doctors__inner","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-doctors__inner">
 <!-- wp:paragraph {"className":"hd-label"} -->

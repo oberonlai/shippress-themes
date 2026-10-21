@@ -8,7 +8,7 @@
  * Description: Three latest posts, inset image on a band, date, serif title and a short excerpt.
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"hd-journal","align":"full","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","className":"hd-journal","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hd-journal"><!-- wp:group {"align":"wide","className":"hd-journal__inner","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-journal__inner">
 <!-- wp:paragraph {"className":"hd-label"} -->

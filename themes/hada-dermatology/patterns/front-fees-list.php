@@ -8,7 +8,7 @@
  * Description: Ten fees as ruled rows, price at the right, beside a reception photograph and an insurance note.
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"hd-fees","align":"full","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","className":"hd-fees","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hd-fees"><!-- wp:group {"className":"hd-fees__grid","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-fees__grid">
 <!-- wp:group {"className":"hd-fees__main","layout":{"type":"default"}} -->

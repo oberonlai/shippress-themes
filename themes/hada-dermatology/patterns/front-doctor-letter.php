@@ -8,7 +8,7 @@
  * Description: Three paragraphs signed by the founder with a small inset portrait on a band square.
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"hd-letter","align":"full","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","className":"hd-letter","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hd-letter"><!-- wp:group {"className":"hd-letter__grid","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-letter__grid">
 <!-- wp:group {"className":"hd-letter__text","layout":{"type":"default"}} -->

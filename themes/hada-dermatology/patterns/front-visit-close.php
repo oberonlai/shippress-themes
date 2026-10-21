@@ -8,7 +8,7 @@
  * Description: Opening hours as hairline rows, address and phone, and the ink booking pill, with an arch motif.
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"hd-close","align":"full","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","className":"hd-close","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hd-close">
 <!-- wp:html -->
 <svg class="hd-arc hd-arc--arch" aria-hidden="true" width="180" height="280" viewBox="0 0 180 280" fill="none" stroke="#14171A" stroke-opacity="0.45" stroke-width="1"><path d="M0 -1 V190.0 A90.0 90.0 0 0 0 180 190.0 V-1"/><path d="M14 -1 V190.0 A76.0 76.0 0 0 0 166 190.0 V-1"/><path d="M28 -1 V190.0 A62.0 62.0 0 0 0 152 190.0 V-1"/></svg>

@@ -8,7 +8,7 @@
  * Description: Heading with a round button beside a pastel panel of ten numbered hairline rows.
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"hd-concerns","align":"full","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","className":"hd-concerns","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hd-concerns"><!-- wp:group {"className":"hd-concerns__grid","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-concerns__grid">
 <!-- wp:group {"className":"hd-concerns__lead","layout":{"type":"default"}} -->

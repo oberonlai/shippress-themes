@@ -8,7 +8,7 @@
  * Description: Three wide chapter bands, photo inset on a band strip that runs to the viewport edge, alternating sides.
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"hd-chap","align":"full","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","className":"hd-chap","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hd-chap"><!-- wp:group {"className":"hd-chap__grid","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-chap__grid">
 <!-- wp:group {"className":"hd-chap__media","layout":{"type":"default"}} -->
@@ -36,7 +36,7 @@
 </div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
-<!-- wp:group {"tagName":"section","className":"hd-chap hd-chap--rev","align":"full","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","className":"hd-chap hd-chap--rev","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hd-chap hd-chap--rev"><!-- wp:group {"className":"hd-chap__grid","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-chap__grid">
 <!-- wp:group {"className":"hd-chap__media","layout":{"type":"default"}} -->
@@ -64,7 +64,7 @@
 </div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
-<!-- wp:group {"tagName":"section","className":"hd-chap","align":"full","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","className":"hd-chap","align":"full","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hd-chap"><!-- wp:group {"className":"hd-chap__grid","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hd-chap__grid">
 <!-- wp:group {"className":"hd-chap__media","layout":{"type":"default"}} -->
