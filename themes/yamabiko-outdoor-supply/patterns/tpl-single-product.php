@@ -52,9 +52,11 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:woocommerce/product-details {"align":"wide","anchor":"specs","className":"yb-product__details"} -->
-<div id="specs" class="wp-block-woocommerce-product-details alignwide yb-product__details"></div>
+<!-- wp:group {"anchor":"specs","layout":{"type":"default"}} -->
+<div id="specs" class="wp-block-group"><!-- wp:woocommerce/product-details {"align":"wide","className":"yb-product__details"} -->
+<div class="wp-block-woocommerce-product-details alignwide yb-product__details"></div>
 <!-- /wp:woocommerce/product-details --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 

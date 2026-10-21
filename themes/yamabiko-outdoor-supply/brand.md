@@ -23,3 +23,6 @@ Plain, measured, first-person plural. Numbers before adjectives. No claims we ca
 - Shipping & returns, FAQ (8 questions), Contact.
 - Field notes: six stories (Mensah family, Hanne Vos, Jonas & Priya, how we weigh a tent, reproofing a shell, the weekend kit).
 Signature on every inner page: inset veil header band, bottom-left dash index, dark field-pick chip. Photos: 14, none repeated on one page.
+
+## Audience
+Customers: weekend campers and hikers, families renting a first kit, and long-trail walkers who read weights before prices. Location: Harrow Gap, the shop's name on every receipt is Yamabiko Outdoor Supply.

@@ -20,7 +20,7 @@ Lessons applied: do not "soften" the inset/veil (Tsumugi); no repeated photo on 
 - Ours: a `<nav class="yb-index" aria-label="On this page">` fixed `left:28px; bottom:32px`, shown **only at ≥1360px** (content container max 1160px, so the 100px gutter is free); hidden below. Labels Karla 0.6875rem, 0.16em, uppercase, colour `#5B6266`; dash 12px × 1px `#5B6266`, gap 10px, rows 26px. Small backing so it stays legible over photos: `background: rgba(238,239,236,.9); padding:10px 14px 10px 12px;` no radius, no shadow. Items are anchor links to section ids. **Static active state** (no scroll listener is allowed): the item that represents the current page is active — dash 24px, colour accent `#8F5E3F`, label ink `#1E2022`. Home items: TOP · CATALOGUE · SHELVES · COMPARE · FIELD TESTS · WORKSHOP · STORIES · VISIT, active = CATALOGUE (the store's core).
 - Must not be diluted: vertical, bottom-left, dashes visible, one long accent dash. Do not convert into a sidebar or a horizontal TOC.
 
-### T3. Dark capsule "field pick" chip — BOTANIST "PRODUCT 商品ページへ →"
+### T3. Dark capsule "field pick" chip — BOTANIST "PRODUCT" link with arrow
 - Reference: fixed bottom-right white capsule with a tiny product thumbnail, two-line label and arrow, always on top.
 - Ours, inverted to dark: fixed `right:28px; bottom:28px`, height 64px, radius 999px, ground ink `#1E2022`, padding 8px 20px 8px 8px; left a **48px circle** thumbnail (P02 crop), then two lines (Karla 0.6875rem 0.16em uppercase white 64% "FIELD PICK · OCTOBER"; Karla 0.9375rem white "Ridgeline 2 Tent — €389"), then a 28px circle outline 1px white 40% with an accent-coloured → (`#C9A184` on dark for contrast). Links to the Ridgeline 2 product. Shown **≥782px only** (never on the 390 first screen). On cart/checkout it is hidden.
 - Must not be diluted: dark capsule, round thumb, arrow, bottom-right, visible on every page from first load.
@@ -56,7 +56,7 @@ Source: BOTANIST first screen 1440×900 (measured in reference.md). We keep the 
 | `veil` | `#161C1E` | photo veils (62%) | ~8% via photos | BOTANIST veil `#103030`, desaturated |
 | `slate` | `#5B6266` | secondary text, dashes, labels | ~5% | derived |
 | `line` | `#D3D6D2` | 1px rules, table lines | thin | derived |
-| `accent` 柿渋 | `#8F5E3F` | active dash, price figures, filter chip active border, link underline hover, info-bar dot | ≤3% | row hex |
+| `accent` persimmon-tannin (kakishibu) | `#8F5E3F` | active dash, price figures, filter chip active border, link underline hover, info-bar dot | ≤3% | row hex |
 | `accent-on-dark` | `#C9A184` | arrows/labels on ink/veil | tiny | accent lightened |
 
 - Accent is never a section background, never a full button fill larger than 48px tall × 220px (primary button = ink fill, white text; accent appears as its 2px underline on hover only).
