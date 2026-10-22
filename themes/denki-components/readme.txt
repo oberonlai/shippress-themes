@@ -27,7 +27,7 @@ The company, its people, figures, prices and address are fictional.
 == Copyright ==
 
 Denki Components is distributed under the terms of the GNU GPL v2 or later.
-Fonts: IBM Plex Serif (OFL-1.1), Light and Regular, and IBM Plex Sans (OFL-1.1), variable 400-600, both Latin subsets as WOFF2, see assets/fonts/.
+Fonts: IBM Plex Serif (OFL-1.1), Light and Regular, and IBM Plex Sans (OFL-1.1), variable 400-600, both Latin subsets as WOFF2, and Noto Serif JP and Noto Serif TC (OFL-1.1), subset to the characters of the Japanese and Traditional Chinese sample text; see assets/fonts/.
 
 = Images =
 
