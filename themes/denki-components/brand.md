@@ -25,7 +25,7 @@ Ingrid Vass, managing director (2004) - Tomasz Wierzba, head of quality (2009) -
 Supporting: intro set in the right-hand column of an empty ground; sticky photograph beside the ledger; staggered photo field with captions and hash tags.
 
 ## Pages and contents
-Home (stage 1); then Products, Ceramic capacitors, Chip resistors, Inductors & ferrite beads, Quality, Samples & services, Plant, Cases (+3 posts), About, Contact, News (stage 2).
+Home; Products (head window, four ruled family rows, part-number table); Ceramic capacitors, Chip resistors, Inductors & ferrite beads (series rows, spec table); Quality (sticky photograph beside the monthly ledger with counting figures, certificates, lot report); Samples & services (price list, request flow, form); Plant (staggered photo field, six process stages); Cases (three customer rows); About (history rows, seven people, portraits at different heights); Contact; News (blog page) with one article, "Taping line 3 runs its first full month".
 
 ## Photography
 Sixteen AI-generated photographs (Grok Build), one style: documentary, cool neutral daylight, pale grey-blue surroundings, low-key subjects in black ferrite, graphite and steel, diverse staff in light cleanroom garments, no text, logos or coloured LEDs. Twelve are on the home page.

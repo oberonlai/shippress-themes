@@ -44,3 +44,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p10-green-sheets.webp and assets/images/demo/p10-green-sheets.webp (home plant field: stacked ceramic sheets before dicing; the demo/ copy is the one imported into the Media Library)
 - assets/images/p11-engineer.webp and assets/images/demo/p11-engineer.webp (home cases: applications engineer probing a test board; the demo/ copy is the one imported into the Media Library)
 - assets/images/p12-plant-exterior.webp and assets/images/demo/p12-plant-exterior.webp (home close: plant exterior; the demo/ copy is the one imported into the Media Library)
+- assets/images/p13-tape-casting.webp and assets/images/demo/p13-tape-casting.webp (products head, plant field: tape casting under the doctor blade; the demo/ copy is the one imported into the Media Library)
+- assets/images/p14-screen-printing.webp and assets/images/demo/p14-screen-printing.webp (products row: screen-printing station; the demo/ copy is the one imported into the Media Library)
+- assets/images/p15-colleagues.webp and assets/images/demo/p15-colleagues.webp (about portrait, cases: two colleagues reviewing a reel; the demo/ copy is the one imported into the Media Library)
+- assets/images/p16-sample-packing.webp and assets/images/demo/p16-sample-packing.webp (samples head, products row: packing a sample box; the demo/ copy is the one imported into the Media Library)
