@@ -19,7 +19,7 @@
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-foot-p kn-foot-links"} -->
 <p class="kn-foot-p kn-foot-links"><a href="/admissions/">Admissions</a><br><a href="/fees/">Fees</a><br><a href="/curriculum/">Curriculum</a><br><a href="/calendar/">Calendar</a><br><a href="/contact/">Contact</a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-foot-p kn-foot-links"} -->
-<p class="kn-foot-p kn-foot-links"><a href="/parents/">Parents</a><br><a href="/careers/">Careers</a><br><a href="/people/">Our people</a><br><a href="/privacy/">Privacy</a></p>
+<p class="kn-foot-p kn-foot-links"><a href="/parents/">Parents</a><br><a href="/careers/">Careers</a><br><a href="/our-people/">Our people</a><br><a href="/privacy/">Privacy</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:paragraph {"className":"kn-small kn-in"} -->
 <p class="kn-small kn-in">Kanade International School is a fictional school. IB World School is named here as a programme framework only. Fees are in euros, per school year 2026–27. <a href="/privacy/">Privacy</a></p>
