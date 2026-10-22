@@ -27,7 +27,7 @@ GNU General Public License for more details.
 == Resources ==
 
 = Fonts =
-Spectral and Open Sans, both SIL Open Font License 1.1, bundled in assets/fonts.
+Spectral, Open Sans, Noto Serif JP and Noto Serif TC, all SIL Open Font License 1.1, bundled in assets/fonts.
 
 = Images =
 All photographs were generated with Grok for this theme and are released under GPL-2.0-or-later / CC0. They show no real people, places or brands.
