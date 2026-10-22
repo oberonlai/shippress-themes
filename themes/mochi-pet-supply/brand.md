@@ -52,7 +52,7 @@ Supporting: a Sakata-style dimmed-photo interlude. Colour relationships from Tsu
 
 ## Pages and contents
 1. **Home** - front-hero, front-finder, front-concept, front-box, front-subscribe, front-interlude, front-desk, front-stories, front-visit.
-2. Shop, Food finder, Subscribe & save, About, Nutrition desk, Feeding guides, Delivery & returns, Stories, Visit (stage 2); WooCommerce cart, checkout, account and order-received follow the same heads.
+2. Inner pages (en): **Shop** (page-shop: category pills, ink band with the finder card and eight square tag cards), **Food finder** (two-photo T2, question rows, dog/cat/small-pet cards by age, three notes), **Subscribe & save** (ink band card, 8-row price table, rules, FAQ), **About** (four-photo T2 mosaic, narrative, parallax interlude, people list), **Nutrition desk**, **Feeding guides** (10-day switch table), **Delivery & returns** (fact rows), **Visit**, **Stories** (posts page: square tag cards on the ink band) and one full article (Biscuit). Inner pages use the page-inner template and page-*.php patterns. Tables are full width from 782px and stack as cards below it. WooCommerce cart, checkout, account and order-received follow the same heads.
 
 ## Photography
 Eighteen AI-generated photographs (Grok Build), one STYLE string: documentary, high-key daylight, white and pale oak interiors, oatmeal / warm grey / a touch of mustard, diverse people, healthy pets, no text, logos or printed packaging. Ten scenes (three hero columns, shop, scoop, packing, walk, sofa, desk, doorstep) and eight product shots.

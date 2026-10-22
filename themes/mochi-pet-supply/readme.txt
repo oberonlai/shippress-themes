@@ -30,7 +30,7 @@ Fonts: Alegreya Sans and Alegreya (OFL-1.1), Latin subsets, WOFF2, see assets/fo
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as photorealistic high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the shop is fictional). No transparent cut-outs are used.
-- assets/images/s1-dog.webp and assets/images/demo/s1-dog.webp (home hero column 1: mixed-breed dog and a ceramic bowl; the demo/ copy is the one imported into the Media Library)
+- assets/images/s1-dog.webp and assets/images/demo/s1-dog.webp (home hero column 1, shop card: mixed-breed dog and a ceramic bowl; the demo/ copy is the one imported into the Media Library)
 - assets/images/s2-cat.webp and assets/images/demo/s2-cat.webp (home hero column 2: tabby cat eating; the demo/ copy is the one imported into the Media Library)
 - assets/images/s3-rabbit.webp and assets/images/demo/s3-rabbit.webp (home hero column 3: child offering hay to a rabbit; the demo/ copy is the one imported into the Media Library)
 - assets/images/s4-shop.webp and assets/images/demo/s4-shop.webp (home mosaic: shop assistant and customer with a dog; the demo/ copy is the one imported into the Media Library)
