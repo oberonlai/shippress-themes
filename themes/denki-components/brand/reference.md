@@ -1,4 +1,4 @@
-# Reference (stage 1 draft; "Applied in theme" column left empty for stage 2 / design-spec)
+# Reference (stage 1 draft; "Applied in theme" column filled from design-spec.md)
 
 ## Sources (S5-Style, manufacturer / industrial-materials; neither URL is in any earlier theme's reference.md)
 - R1 https://www.nittadupont.co.jp (Nitta DuPont, polishing materials maker; S5-Style /10886/). First screen `ref/nitta-first.png`, product rows `ref/nitta-part1.png`, `ref/nitta-part2.png`, `ref/nitta-part3.png`.
@@ -8,14 +8,14 @@ Measured tokens: `reference-tokens.md`. Scroll teardown: `ref/scroll-*.png` and 
 ## Signature technique candidates
 | # | Ref | Technique (shape, composition, position) | Applied in theme |
 |---|-----|------------------------------------------|------------------|
-| A1 | R1 | Ruled product rows: full-width 1px blue hairline above each row; photo 3:2, radius 8, flush left (x=30, 54% width); right column from x=62.5% with a "(01) Polishing Pad" index label in small blue grotesk, 28px/600 title, 3-line body and a dotted-underline "see more" link with a tiny arrow. Rows repeat down the page at ~537px pitch | |
-| A2 | R1 | Outline pill button (232x58, r29) with a filled 34px round arrow disc inside its right end | |
-| A3 | R1 | Intro text pushed into the right half (starts x=900) leaving the left ~55% empty on the pale ground, directly under the hero | |
-| A4 | R1 | Small 3:4 portraits (r8, 216-259px wide) scattered at different heights/x on the ground, a 420px text block between them | |
-| B1 | R2 | Photo field: monochrome photos of mixed size (160-500px) at staggered y offsets, drifting horizontally with scroll; caption + #tag under each | |
-| B2 | R2 | Fixed 96px disc "CONTACT" with a 140px ring of rotating wide-tracked text, top-right | |
-| B3 | R2 | Giant wide-grotesk marquee line cropped by the viewport edges under the hero | |
-| B4 | R2 | Small uppercase wide-tracked section label above body copy | |
+| A1 | R1 | Ruled product rows: full-width 1px blue hairline above each row; photo 3:2, radius 8, flush left (x=30, 54% width); right column from x=62.5% with a "(01) Polishing Pad" index label in small blue grotesk, 28px/600 title, 3-line body and a dotted-underline "see more" link with a tiny arrow. Rows repeat down the page at ~537px pitch || T1 (design-spec §1): home block 3 product-family rows (4 rows, P02–P05), 54% photo / 62.5% text, "(01)" accent labels; continued on Products, 3 family pages, Quality, Plant, Cases, About, Contact, News |
+| A2 | R1 | Outline pill button (232x58, r29) with a filled 34px round arrow disc inside its right end || T2: every primary CTA site-wide (232×58 pill, 34 px #2E5DBC disc) |
+| A3 | R1 | Intro text pushed into the right half (starts x=900) leaving the left ~55% empty on the pale ground, directly under the hero || S-a: home block 2 intro and every inner page intro at 62.5% with empty left ground |
+| A4 | R1 | Small 3:4 portraits (r8, 216-259px wide) scattered at different heights/x on the ground, a 420px text block between them || Home block 6 portrait offset +80 px; About portraits at 0 / 180 px |
+| B1 | R2 | Photo field: monochrome photos of mixed size (160-500px) at staggered y offsets, drifting horizontally with scroll; caption + #tag under each || S-b: home block 5 and Plant page staggered field (4 photos, offsets 0/85/24/140 px, caption + # tag), per-photo sp-parallax 6–12% |
+| B2 | R2 | Fixed 96px disc "CONTACT" with a 140px ring of rotating wide-tracked text, top-right || T3: fixed 96 px 鉄紺 #2E3A4B "Samples" disc bottom-right, 140 px rotating ring text (24 s), copper dot; hidden < 782 px |
+| B3 | R2 | Giant wide-grotesk marquee line cropped by the viewport edges under the hero || Not used (giant marquee would read as a loud display line; quiet palette rule) |
+| B4 | R2 | Small uppercase wide-tracked section label above body copy || Section labels: 0.75rem uppercase 0.24em accent above every H2 |
 Take for Denki Components (quiet palette only): A1 (as the product-families ledger), A2, A3 from R1; B1 (staggered photo offsets, light-touch) and B2 (round "Request samples" badge) from R2, recoloured to ink/stone, no orange field, no dark full-bleed ground.
 
 ## First-screen measurements (1440x900)
