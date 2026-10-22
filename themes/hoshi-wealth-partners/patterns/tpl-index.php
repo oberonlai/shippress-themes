@@ -8,7 +8,7 @@
 ?>
 <!-- wp:group {"className":"hp-main hp-main--blog","layout":{"type":"default"},"tagName":"main"} -->
 <main class="wp-block-group hp-main hp-main--blog"><!-- wp:heading {"level":1,"className":"hp-h2 hp-pagetitle"} -->
-<h1 class="wp-block-heading hp-h2 hp-pagetitle">Stories and news</h1>
+<h1 class="wp-block-heading hp-h2 hp-pagetitle">Letters from the desk</h1>
 <!-- /wp:heading --><!-- wp:query {"className":"hp-posts","layout":{"type":"default"}} -->
 <div class="wp-block-query hp-posts"><!-- wp:post-template -->
 <!-- wp:group {"className":"hp-postrow","layout":{"type":"default"}} -->
