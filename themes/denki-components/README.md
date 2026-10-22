@@ -13,3 +13,31 @@ Denki Components — a business theme for a passive-components maker, built as a
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Denki Components home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Denki Components home page on mobile"></td>
+</tr>
+</table>
+
+- Products: [desktop](screenshots/products-desktop.webp) · [mobile](screenshots/products-mobile.webp)
+- Ceramic capacitors: [desktop](screenshots/ceramic-capacitors-desktop.webp) · [mobile](screenshots/ceramic-capacitors-mobile.webp)
+- Chip resistors: [desktop](screenshots/chip-resistors-desktop.webp) · [mobile](screenshots/chip-resistors-mobile.webp)
+- Inductors beads: [desktop](screenshots/inductors-beads-desktop.webp) · [mobile](screenshots/inductors-beads-mobile.webp)
+- Quality: [desktop](screenshots/quality-desktop.webp) · [mobile](screenshots/quality-mobile.webp)
+- Samples: [desktop](screenshots/samples-desktop.webp) · [mobile](screenshots/samples-mobile.webp)
+- Plant: [desktop](screenshots/plant-desktop.webp) · [mobile](screenshots/plant-mobile.webp)
+- Cases: [desktop](screenshots/cases-desktop.webp) · [mobile](screenshots/cases-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
