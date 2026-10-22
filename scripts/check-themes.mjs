@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+import { spawnSync } from "node:child_process";
+import { drift } from "./bump-released.mjs";
 // Validates every theme in themes/ and the root index.json. Node 18+, no dependencies.
 //   node scripts/check-themes.mjs           # check (exit 1 on any problem)
 //   node scripts/check-themes.mjs --write   # regenerate index.json from the theme-meta.json files, then check
@@ -392,7 +394,11 @@ function main() {
   const expected = JSON.stringify(buildIndex(metas), null, 2) + "\n";
   if (process.argv.includes("--write")) writeFileSync(join(root, "index.json"), expected);
   if (!existsSync(join(root, "index.json")) || readFileSync(join(root, "index.json"), "utf8") !== expected) { failed++; console.error("✗ index.json is out of date: run node scripts/check-themes.mjs --write"); } else console.log("✓ index.json");
+  // A released version (<slug>-v<Version> tag) must not change: bump it (node scripts/bump-released.mjs --write <slug>).
+  if (git(root, ["tag", "-l", "*-v*"]).stdout.trim() === "") console.log("- released-version check skipped (no release tags; git fetch --tags)");
+  else { const d = drift(root, slugs); if (d.length) { failed++; for (const x of d) console.error(`✗ ${x.slug}: ${x.tag} is released but files changed (${x.files.join(", ")}); run node scripts/bump-released.mjs --write ${x.slug}`); } else console.log("✓ released versions unchanged"); }
   if (failed) process.exit(1);
 }
+const git = (root, args) => spawnSync("git", ["-C", root, ...args], { encoding: "utf8" });
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) main();
