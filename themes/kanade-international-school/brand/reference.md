@@ -31,5 +31,13 @@ Our mapping: ground off-white or stone, ink text, 青磁 #7FA393 only as a small
 | Marquee / carousels | Splide auto-scroll speed 1.5; Swiper | continuous | linear | - | Splide, Swiper |
 Before/after image: ref/scroll-kobewu-before-after.png (top = first view, bottom = a later section in its final state; a true hidden-state frame was not captured with one-shot CLI screenshots, so the "before" is from the JS/CSS values above).
 
-## Product mapping (fill in later)
-成品對應: (blank)
+## Product mapping
+成品對應（design-spec.md 為準）:
+| Ref technique | Kanade |
+|---|---|
+| #3 curved sheet biting the hero photo + promo card | T1: ground-coloured quarter-circle bite at the lower right of the photo-left hero (K01) with the "Open morning" card; repeated lower-left on every inner page head and on the home Visit block (K13) |
+| #1 big rounded bottom-left corner card + circular date badge | T2: home Calendar row (4 stone cards, 64 px corner, ink badge); Admissions open mornings, Calendar, Parents, Careers, News cards |
+| #2 tinted photo mosaic with white label chips | T3: home Programmes mosaic (K03 large + K04–K07 2×2, five low-chroma tints, white chips); Curriculum index, Campus life, Parents hub strip |
+| #4 right-bleeding carousel | not used (no carousels) |
+| Palette | ground #EEF7FB → #F6F7F4; support #A4BFD4 → stone #E9ECE7 / slate #8C9DA8; green button #72A59B → 青磁 #7FA393 small accent only; blue field dropped (first screen ≤ 15%) |
+| Scroll | fade-up → sp-reveal--up; js-fade stagger → sp-stagger (mosaic, calendar); js-parallax → sp-parallax (K02, K13); hero settle not used |
