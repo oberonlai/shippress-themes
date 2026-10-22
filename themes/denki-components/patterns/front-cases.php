@@ -11,74 +11,74 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"dk-sec dk-casesec","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull dk-sec dk-casesec"><!-- wp:group {"align":"wide","className":"dk-cases__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide dk-cases__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dk-case__photo sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full dk-case__photo sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-engineer.webp' ) ); ?>" alt="Applications engineer at a bench probing a small grey test board, instrument screens out of frame."/></figure>
+<figure class="wp-block-image size-full dk-case__photo sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-engineer.webp' ) ); ?>" alt="<?php echo esc_attr( denki_components_t( 'a16eadfcf' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"dk-cases__col","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-cases__col"><!-- wp:paragraph {"className":"dk-label sp-reveal sp-reveal--up"} -->
-<p class="dk-label sp-reveal sp-reveal--up">Cases</p>
+<p class="dk-label sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'kb1f0b866' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"dk-h2 sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading dk-h2 sp-reveal sp-reveal--up">Three boards, three problems.</h2>
+<h2 class="wp-block-heading dk-h2 sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'kf8dd1cf8' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"dk-body sp-reveal sp-reveal--up"} -->
-<p class="dk-body sp-reveal sp-reveal--up">Amara Osei leads our capacitor applications team and spends her days at the bench with customers’ boards. Three recent projects, described with the results the customers measured themselves.</p>
+<p class="dk-body sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'kc01d0d63' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"dk-cases sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-cases sp-stagger"><!-- wp:group {"className":"dk-case sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-case sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"dk-index"} -->
-<p class="dk-index">(Case 01) Hearing device</p>
+<p class="dk-index"><?php echo wp_kses_post( denki_components_t( 'kc546101b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-case__title"} -->
-<p class="dk-case__title">0201 capacitors free 18% board area</p>
+<p class="dk-case__title"><?php echo wp_kses_post( denki_components_t( 'k1efeaea3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-case__sum"} -->
-<p class="dk-case__sum">Moving from 0402 to 0201 X7R capacitors freed board area. The customer reports 18% less area on the amplifier board.</p>
+<p class="dk-case__sum"><?php echo wp_kses_post( denki_components_t( 'k550c2a2c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-more"} -->
-<p class="dk-more"><a href="/cases/">Read the case<span aria-hidden="true">→</span></a></p>
+<p class="dk-more"><a href="/cases/"><?php echo wp_kses_post( denki_components_t( 'k8f4b126e' ) ); ?><span aria-hidden="true">→</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"dk-case sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-case sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"dk-index"} -->
-<p class="dk-index">(Case 02) E-bike motor controller</p>
+<p class="dk-index"><?php echo wp_kses_post( denki_components_t( 'k1a5c2c0a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-case__title"} -->
-<p class="dk-case__title">Cooler windings at rated current</p>
+<p class="dk-case__title"><?php echo wp_kses_post( denki_components_t( 'k77f381f6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-case__sum"} -->
-<p class="dk-case__sum">DL-PW power inductors, qualified to AEC-Q200 with a reworked winding. The customer measured a coil temperature 6 °C lower at rated current.</p>
+<p class="dk-case__sum"><?php echo wp_kses_post( denki_components_t( 'k8ca649e1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-more"} -->
-<p class="dk-more"><a href="/cases/">Read the case<span aria-hidden="true">→</span></a></p>
+<p class="dk-more"><a href="/cases/"><?php echo wp_kses_post( denki_components_t( 'k8f4b126e' ) ); ?><span aria-hidden="true">→</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"dk-case sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-case sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"dk-index"} -->
-<p class="dk-index">(Case 03) Smart electricity meter</p>
+<p class="dk-index"><?php echo wp_kses_post( denki_components_t( 'ke3318904' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-case__title"} -->
-<p class="dk-case__title">No resistor drift after field failures</p>
+<p class="dk-case__title"><?php echo wp_kses_post( denki_components_t( 'ke21e1982' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-case__sum"} -->
-<p class="dk-case__sum">DR-AS anti-sulfur resistors after field drift. In the customer’s own test, no drift above 0.5%.</p>
+<p class="dk-case__sum"><?php echo wp_kses_post( denki_components_t( 'k92c28343' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-more"} -->
-<p class="dk-more"><a href="/cases/">Read the case<span aria-hidden="true">→</span></a></p>
+<p class="dk-more"><a href="/cases/"><?php echo wp_kses_post( denki_components_t( 'k8f4b126e' ) ); ?><span aria-hidden="true">→</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

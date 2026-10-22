@@ -35,8 +35,20 @@ html:root { --sp-dur: 1.1s; --sp-ease: cubic-bezier(.22, 1, .36, 1); --sp-dist: 
 }
 :root:lang(zh) { --wp--preset--font-family--display: "IBM Plex Serif", "Noto Serif TC", "Noto Serif CJK TC", serif; --wp--preset--font-family--body: "IBM Plex Sans", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif; }
 :root:lang(ja) { --wp--preset--font-family--display: "IBM Plex Serif", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; --wp--preset--font-family--body: "IBM Plex Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif; }
-:is(:lang(zh), :lang(ja)) body { line-height: 1.85; }
-html:lang(fr) .dk-body, html:lang(de) .dk-body, html:lang(fr) .dk-row__body, html:lang(de) .dk-row__body { hyphens: auto; }
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(.dk-h1, .dk-h2, .dk-hero__h, .dk-fig__value, .dk-ledger__value, .dk-row__figure) { font-weight: 400; line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) .dk-hero__h { font-size: calc(var(--wp--preset--font-size--display) * 0.75); }
+:is(:lang(zh), :lang(ja)) :is(.dk-h1, .dk-ph .wp-block-query-title, .dk-ph .wp-block-post-title) { font-size: calc(var(--wp--preset--font-size--x-large-display) * 0.75); }
+:is(:lang(zh), :lang(ja)) .dk-h2 { font-size: calc(var(--wp--preset--font-size--xx-large) * 0.8); }
+:is(:lang(zh), :lang(ja)) .dk-row__title { font-size: 1.4rem; line-height: 1.5; letter-spacing: 0.02em; }
+:is(:lang(zh), :lang(ja)) :is(.dk-label, .dk-table thead th, .dk-table caption, .dk-table td::before) { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) :is(.dk-lead, .dk-ph__intro) { line-height: 1.95; letter-spacing: 0.03em; }
+:lang(ja) :is(h1, h2, h3, p, li, td) { word-break: auto-phrase; }
+:lang(zh) :is(h1, h2, h3, p, li, td) { text-wrap: pretty; }
+html:lang(fr) :is(.dk-body, .dk-row__body, .dk-lead, .dk-ph__intro, .dk-case__sum, .dk-lrow__x, .dk-newsrow .wp-block-post-excerpt__excerpt, .dk-single-body .wp-block-post-content p, .dk-table td), html:lang(de) :is(.dk-body, .dk-row__body, .dk-lead, .dk-ph__intro, .dk-case__sum, .dk-lrow__x, .dk-newsrow .wp-block-post-excerpt__excerpt, .dk-single-body .wp-block-post-content p, .dk-table td) { hyphens: auto; overflow-wrap: break-word; }
+html:lang(fr) :is(.dk-h1, .dk-h2, .dk-hero__h, .dk-row__title), html:lang(de) :is(.dk-h1, .dk-h2, .dk-hero__h, .dk-row__title) { hyphens: auto; overflow-wrap: break-word; }
+html:lang(de) .dk-hero__h { font-size: calc(var(--wp--preset--font-size--display) * 0.9); }
+html:lang(de) :is(.dk-h1, .dk-ph .wp-block-query-title, .dk-ph .wp-block-post-title) { font-size: calc(var(--wp--preset--font-size--x-large-display) * 0.92); }
 
 body { overflow-x: clip; font-variant-numeric: lining-nums; }
 .wp-site-blocks > * { margin-block-start: 0; }

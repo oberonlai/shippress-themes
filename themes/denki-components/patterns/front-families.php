@@ -12,127 +12,127 @@
 <section class="wp-block-group alignfull dk-sec dk-families"><!-- wp:group {"align":"wide","className":"dk-head","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide dk-head"><!-- wp:group {"className":"dk-head__l sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-head__l sp-stagger"><!-- wp:paragraph {"className":"dk-label sp-reveal sp-reveal--up"} -->
-<p class="dk-label sp-reveal sp-reveal--up">Products</p>
+<p class="dk-label sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k068f80c7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"dk-h2 sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading dk-h2 sp-reveal sp-reveal--up">What leaves the reel line.</h2>
+<h2 class="wp-block-heading dk-h2 sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k1471ea5b' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"dk-body dk-head__note sp-reveal sp-reveal--up"} -->
-<p class="dk-body dk-head__note sp-reveal sp-reveal--up">Four families, thirteen series, one qualification process. Each range line below shows case sizes, values and voltage, so you can check a fit before you ask for samples.</p>
+<p class="dk-body dk-head__note sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'kfa27ad89' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"wide","className":"dk-row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide dk-row"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dk-row__media sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-capacitors.webp' ) ); ?>" alt="Macro of tiny multilayer ceramic chip capacitors with silver end caps on a pale seamless background, beside a steel tweezer tip."/></figure>
+<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-capacitors.webp' ) ); ?>" alt="<?php echo esc_attr( denki_components_t( 'a555cbd9b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"dk-row__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-row__text sp-stagger"><!-- wp:paragraph {"className":"dk-index sp-reveal sp-reveal--up"} -->
-<p class="dk-index sp-reveal sp-reveal--up">(01) DC series</p>
+<p class="dk-index sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k058e4fb1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"dk-row__title sp-reveal sp-reveal--up"} -->
-<h3 class="wp-block-heading dk-row__title sp-reveal sp-reveal--up">Ceramic capacitors</h3>
+<h3 class="wp-block-heading dk-row__title sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k98408d25' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"dk-row__body sp-reveal sp-reveal--up"} -->
-<p class="dk-row__body sp-reveal sp-reveal--up">Multilayer chips from C0G for timing and filters to X7R and X5R for decoupling, plus an automotive series qualified to AEC-Q200. The dielectrics are formulated and sintered in our own kiln.</p>
+<p class="dk-row__body sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'kaf008970' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-range sp-reveal sp-reveal--up"} -->
-<p class="dk-range sp-reveal sp-reveal--up">0201–1210 · 0.5 pF–100 µF · 6.3–100 V</p>
+<p class="dk-range sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k30233203' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-more sp-reveal sp-reveal--up"} -->
-<p class="dk-more sp-reveal sp-reveal--up"><a href="/products/ceramic-capacitors/">See the range<span aria-hidden="true">→</span></a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"align":"wide","className":"dk-row","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide dk-row"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dk-row__media sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-resistors.webp' ) ); ?>" alt="Top view of black chip resistors seated in white embossed carrier tape on a diagonal."/></figure>
-<!-- /wp:image -->
-
-<!-- wp:group {"className":"dk-row__text sp-stagger","layout":{"type":"default"}} -->
-<div class="wp-block-group dk-row__text sp-stagger"><!-- wp:paragraph {"className":"dk-index sp-reveal sp-reveal--up"} -->
-<p class="dk-index sp-reveal sp-reveal--up">(02) DR series</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"level":3,"className":"dk-row__title sp-reveal sp-reveal--up"} -->
-<h3 class="wp-block-heading dk-row__title sp-reveal sp-reveal--up">Chip resistors</h3>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph {"className":"dk-row__body sp-reveal sp-reveal--up"} -->
-<p class="dk-row__body sp-reveal sp-reveal--up">Thick-film and precision resistors in the sizes engineers actually place, with an anti-sulfur series for boards that live near rubber, oil and exhaust gas.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"dk-range sp-reveal sp-reveal--up"} -->
-<p class="dk-range sp-reveal sp-reveal--up">0201–2512 · 1 Ω–10 MΩ · 0.1–5 %</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"dk-more sp-reveal sp-reveal--up"} -->
-<p class="dk-more sp-reveal sp-reveal--up"><a href="/products/chip-resistors/">See the range<span aria-hidden="true">→</span></a></p>
+<p class="dk-more sp-reveal sp-reveal--up"><a href="/products/ceramic-capacitors/"><?php echo wp_kses_post( denki_components_t( 'k3f7972f2' ) ); ?><span aria-hidden="true">→</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"wide","className":"dk-row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide dk-row"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dk-row__media sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04-inductors.webp' ) ); ?>" alt="Small shielded black power inductors with silver terminals arranged neatly on a pale seamless background."/></figure>
+<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-resistors.webp' ) ); ?>" alt="<?php echo esc_attr( denki_components_t( 'a6ad29c35' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"dk-row__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-row__text sp-stagger"><!-- wp:paragraph {"className":"dk-index sp-reveal sp-reveal--up"} -->
-<p class="dk-index sp-reveal sp-reveal--up">(03) DL-PW series</p>
+<p class="dk-index sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k7d6f65ca' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"dk-row__title sp-reveal sp-reveal--up"} -->
-<h3 class="wp-block-heading dk-row__title sp-reveal sp-reveal--up">Power inductors</h3>
+<h3 class="wp-block-heading dk-row__title sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k90b07bb6' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"dk-row__body sp-reveal sp-reveal--up"} -->
-<p class="dk-row__body sp-reveal sp-reveal--up">Shielded power inductors for DC-DC converters in compact modules, with low DC resistance and a soft saturation curve. The DL-PW series is qualified to AEC-Q200.</p>
+<p class="dk-row__body sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k10988571' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-range sp-reveal sp-reveal--up"} -->
-<p class="dk-range sp-reveal sp-reveal--up">2016–6060 · 0.24–47 µH · 1–18 A</p>
+<p class="dk-range sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'kb300c3e0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-more sp-reveal sp-reveal--up"} -->
-<p class="dk-more sp-reveal sp-reveal--up"><a href="/products/inductors-beads/">See the range<span aria-hidden="true">→</span></a></p>
+<p class="dk-more sp-reveal sp-reveal--up"><a href="/products/chip-resistors/"><?php echo wp_kses_post( denki_components_t( 'k3f7972f2' ) ); ?><span aria-hidden="true">→</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"wide","className":"dk-row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide dk-row"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dk-row__media sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-ferrite-bead.webp' ) ); ?>" alt="Tiny dark ferrite chip beads with silver end caps on a white ceramic tile, a steel tweezer tip in the corner."/></figure>
+<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04-inductors.webp' ) ); ?>" alt="<?php echo esc_attr( denki_components_t( 'a032b3c10' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"dk-row__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-row__text sp-stagger"><!-- wp:paragraph {"className":"dk-index sp-reveal sp-reveal--up"} -->
-<p class="dk-index sp-reveal sp-reveal--up">(04) DF series</p>
+<p class="dk-index sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'ke50e82e7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"dk-row__title sp-reveal sp-reveal--up"} -->
-<h3 class="wp-block-heading dk-row__title sp-reveal sp-reveal--up">Ferrite beads</h3>
+<h3 class="wp-block-heading dk-row__title sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k5bc3ab27' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"dk-row__body sp-reveal sp-reveal--up"} -->
-<p class="dk-row__body sp-reveal sp-reveal--up">Chip beads for noise suppression on power rails and signal lines, from general-purpose types to high-current beads that stay cool at several amps.</p>
+<p class="dk-row__body sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k210605d8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-range sp-reveal sp-reveal--up"} -->
-<p class="dk-range sp-reveal sp-reveal--up">0402–1206 · 10 Ω–2.2 kΩ at 100 MHz · up to 6 A</p>
+<p class="dk-range sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'kd3c24b7b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-more sp-reveal sp-reveal--up"} -->
-<p class="dk-more sp-reveal sp-reveal--up"><a href="/products/inductors-beads/">See the range<span aria-hidden="true">→</span></a></p>
+<p class="dk-more sp-reveal sp-reveal--up"><a href="/products/inductors-beads/"><?php echo wp_kses_post( denki_components_t( 'k3f7972f2' ) ); ?><span aria-hidden="true">→</span></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","className":"dk-row","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide dk-row"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dk-row__media sp-reveal sp-reveal--wipe"} -->
+<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-ferrite-bead.webp' ) ); ?>" alt="<?php echo esc_attr( denki_components_t( 'a4023dc0e' ) ); ?>"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"dk-row__text sp-stagger","layout":{"type":"default"}} -->
+<div class="wp-block-group dk-row__text sp-stagger"><!-- wp:paragraph {"className":"dk-index sp-reveal sp-reveal--up"} -->
+<p class="dk-index sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k85fc55a9' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"dk-row__title sp-reveal sp-reveal--up"} -->
+<h3 class="wp-block-heading dk-row__title sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k8a012177' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"dk-row__body sp-reveal sp-reveal--up"} -->
+<p class="dk-row__body sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k67b4b95a' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"dk-range sp-reveal sp-reveal--up"} -->
+<p class="dk-range sp-reveal sp-reveal--up"><?php echo wp_kses_post( denki_components_t( 'k79e4705f' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"dk-more sp-reveal sp-reveal--up"} -->
+<p class="dk-more sp-reveal sp-reveal--up"><a href="/products/inductors-beads/"><?php echo wp_kses_post( denki_components_t( 'k3f7972f2' ) ); ?><span aria-hidden="true">→</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
