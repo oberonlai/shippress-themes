@@ -26,4 +26,4 @@ assets/sp-scroll.js (about 2 KB) adds quiet scroll effects. It respects prefers-
 == Changelog ==
 
 = 1.0.0 =
-* First release: home page (en), sticky header that turns solid after scrolling, empty-room and desk-only photographs, Open Sans as woff2.
+* First release: home page and ten inner pages (treatments, IVF step by step, tests, fees & funding, FAQ, about, care team, stories, contact, privacy), one sample article and blog templates (en); arch field, offset portrait bands and tilted sheet carried through the inner pages; sticky header that turns solid after scrolling; fourteen photographs; Open Sans as woff2.
