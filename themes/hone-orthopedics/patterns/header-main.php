@@ -19,6 +19,8 @@
 <!-- wp:navigation {"overlayMenu":"mobile","className":"hn-nav","layout":{"type":"flex","orientation":"horizontal"}} /-->
 
 <!-- wp:group {"className":"hn-hbtn","layout":{"type":"default"}} -->
-<div class="wp-block-group hn-hbtn"><a class="hn-btn hn-btn--d" href="tel:+16045550142"><?php echo wp_kses_post( hone_orthopedics_t( 'k389f9ac5' ) ); ?></a><a class="hn-btn hn-btn--r" href="/book/"><?php echo wp_kses_post( hone_orthopedics_t( 'kaa708516' ) ); ?></a></div>
+<div class="wp-block-group hn-hbtn"><!-- wp:html -->
+<a class="hn-btn hn-btn--d" href="tel:+16045550142"><?php echo wp_kses_post( hone_orthopedics_t( 'k389f9ac5' ) ); ?></a><a class="hn-btn hn-btn--r" href="/book/"><?php echo wp_kses_post( hone_orthopedics_t( 'kaa708516' ) ); ?></a>
+<!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
