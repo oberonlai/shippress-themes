@@ -1,0 +1,80 @@
+<?php
+/**
+ * Title: Template: single-product
+ * Slug: yamabiko-outdoor-supply/tpl-single-product
+ * Categories: yamabiko-outdoor-supply
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"yb-main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group yb-main"><!-- wp:html -->
+<nav class="yb-index" aria-label="<?php echo esc_attr( yamabiko_outdoor_supply_t( 'a23bc9bf3' ) ); ?>"><a href="#gallery"><i></i><?php echo wp_kses_post( yamabiko_outdoor_supply_t( 'k5c93310d' ) ); ?></a><a href="#specs" class="is-active" aria-current="location"><i></i><?php echo wp_kses_post( yamabiko_outdoor_supply_t( 'k360d214e' ) ); ?></a><a href="#field-notes"><i></i><?php echo wp_kses_post( yamabiko_outdoor_supply_t( 'k88f27b6e' ) ); ?></a><a href="#compare"><i></i><?php echo wp_kses_post( yamabiko_outdoor_supply_t( 'k7eece51c' ) ); ?></a></nav>
+<!-- /wp:html --><!-- wp:group {"tagName":"section","align":"full","className":"yb-sec yb-product","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull yb-sec yb-product"><!-- wp:woocommerce/breadcrumbs {"align":"wide","className":"yb-crumbs"} /-->
+
+<!-- wp:woocommerce/store-notices {"align":"wide"} /-->
+
+<!-- wp:group {"align":"full","anchor":"gallery","className":"yb-product__stage","layout":{"type":"constrained"}} -->
+<div id="gallery" class="wp-block-group alignfull yb-product__stage"><!-- wp:group {"align":"wide","className":"yb-product__main","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yb-product__main"><!-- wp:group {"className":"yb-product__gallery","layout":{"type":"default"}} -->
+<div class="wp-block-group yb-product__gallery"><!-- wp:woocommerce/product-image-gallery /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yb-product__summary","layout":{"type":"default"}} -->
+<div class="wp-block-group yb-product__summary"><!-- wp:post-terms {"term":"product_cat","className":"yb-label yb-label--terms"} /-->
+
+<!-- wp:post-title {"level":1,"className":"yb-h yb-h--product","__woocommerceNamespace":"woocommerce/product-query/product-title"} /-->
+
+<!-- wp:woocommerce/product-price {"isDescendentOfSingleProductTemplate":true,"className":"yb-product__price"} /-->
+
+<!-- wp:post-excerpt {"className":"yb-product__excerpt","__woocommerceNamespace":"woocommerce/product-query/product-summary","excerptLength":100} /-->
+
+<!-- wp:woocommerce/add-to-cart-form {"className":"yb-add-to-cart"} /-->
+
+<!-- wp:woocommerce/product-meta -->
+<div class="wp-block-woocommerce-product-meta"><!-- wp:group {"className":"yb-product__meta","layout":{"type":"flex","flexWrap":"wrap"}} -->
+<div class="wp-block-group yb-product__meta"><!-- wp:woocommerce/product-sku /-->
+
+<!-- wp:post-terms {"term":"product_tag","separator":", "} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:woocommerce/product-meta --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","anchor":"field-notes","className":"yb-product__care","layout":{"type":"default"}} -->
+<div id="field-notes" class="wp-block-group alignwide yb-product__care"><!-- wp:paragraph {"className":"yb-label"} -->
+<p class="yb-label"><?php echo wp_kses_post( yamabiko_outdoor_supply_t( 'k88f27b6e' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><?php echo wp_kses_post( yamabiko_outdoor_supply_t( 'ke2ecf361' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"anchor":"specs","layout":{"type":"default"}} -->
+<div id="specs" class="wp-block-group"><!-- wp:woocommerce/product-details {"align":"wide","className":"yb-product__details"} -->
+<div class="wp-block-woocommerce-product-details alignwide yb-product__details"></div>
+<!-- /wp:woocommerce/product-details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","anchor":"compare","className":"yb-sec yb-related","layout":{"type":"constrained"}} -->
+<section id="compare" class="wp-block-group alignfull yb-sec yb-related"><!-- wp:group {"align":"wide","className":"yb-head","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide yb-head"></div>
+<!-- /wp:group -->
+
+<!-- wp:woocommerce/product-collection {"queryId":14,"query":{"perPage":4,"pages":1,"offset":0,"postType":"product","order":"asc","orderBy":"menu_order","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":{},"isProductCollectionBlock":true,"featured":false,"woocommerceOnSale":false,"woocommerceStockStatus":["instock","outofstock","onbackorder"],"woocommerceAttributes":[],"woocommerceHandPickedProducts":[]},"tagName":"div","displayLayout":{"type":"flex","columns":4,"shrinkColumns":true},"dimensions":{"widthType":"fill"},"queryContextIncludes":["collection"],"align":"wide","className":"yb-lineup","collection":"woocommerce/product-collection/related","hideControls":["inherit"]} -->
+<div class="wp-block-woocommerce-product-collection alignwide yb-lineup"><!-- wp:woocommerce/product-template -->
+<!-- wp:post-terms {"term":"product_cat","className":"yb-pill"} /-->
+
+<!-- wp:woocommerce/product-image {"showSaleBadge":false,"imageSizing":"single","isDescendentOfQueryLoop":true,"aspectRatio":"4/5","className":"yb-card__photo"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true,"className":"yb-card__name","__woocommerceNamespace":"woocommerce/product-collection/product-title"} /-->
+
+<!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"className":"yb-card__price"} /-->
+<!-- /wp:woocommerce/product-template --></div>
+<!-- /wp:woocommerce/product-collection --></section>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
