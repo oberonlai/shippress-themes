@@ -9,11 +9,11 @@
  */
 ?>
 <!-- wp:group {"className":"sf-sec sf-days","layout":{"type":"default"},"tagName":"section","align":"full"} --><section class="wp-block-group alignfull sf-sec sf-days"><!-- wp:group {"className":"sf-days__head","layout":{"type":"default"}} --><div class="wp-block-group sf-days__head"><!-- wp:paragraph {"className":"sf-label"} -->
-<p class="sf-label">Your first 90 days</p>
+<p class="sf-label"><?php echo wp_kses_post( sora_fertility_centre_t( 'k22d30929' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"sf-h"} -->
-<h2 class="wp-block-heading sf-h">What the first three months look like</h2>
+<h2 class="wp-block-heading sf-h"><?php echo wp_kses_post( sora_fertility_centre_t( 'k621b8260' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -22,11 +22,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sf-stage__h"} -->
-<h3 class="wp-block-heading sf-stage__h">First consultation</h3>
+<h3 class="wp-block-heading sf-stage__h"><?php echo wp_kses_post( sora_fertility_centre_t( 'kdd5702e0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sf-stage__p"} -->
-<p class="sf-stage__p">Sixty minutes with a doctor, both partners welcome. We listen, review your history and explain options.</p>
+<p class="sf-stage__p"><?php echo wp_kses_post( sora_fertility_centre_t( 'k6b782e85' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -35,11 +35,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sf-stage__h"} -->
-<h3 class="wp-block-heading sf-stage__h">Assessment</h3>
+<h3 class="wp-block-heading sf-stage__h"><?php echo wp_kses_post( sora_fertility_centre_t( 'k29a99298' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sf-stage__p"} -->
-<p class="sf-stage__p">Blood tests on cycle day 2–5, a scan and a semen analysis. Results reach you within 5 working days.</p>
+<p class="sf-stage__p"><?php echo wp_kses_post( sora_fertility_centre_t( 'kb576109e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -48,11 +48,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sf-stage__h"} -->
-<h3 class="wp-block-heading sf-stage__h">Plan review</h3>
+<h3 class="wp-block-heading sf-stage__h"><?php echo wp_kses_post( sora_fertility_centre_t( 'k7213b2af' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sf-stage__p"} -->
-<p class="sf-stage__p">A 30-minute visit, included in the fee, to read the results together and write the plan down.</p>
+<p class="sf-stage__p"><?php echo wp_kses_post( sora_fertility_centre_t( 'k85bcd61e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -61,11 +61,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sf-stage__h"} -->
-<h3 class="wp-block-heading sf-stage__h">Treatment or waiting</h3>
+<h3 class="wp-block-heading sf-stage__h"><?php echo wp_kses_post( sora_fertility_centre_t( 'k3c8fee80' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sf-stage__p"} -->
-<p class="sf-stage__p">Start a cycle, or watch and wait with a clear date to talk again. Both are real choices.</p>
+<p class="sf-stage__p"><?php echo wp_kses_post( sora_fertility_centre_t( 'kc3c3e0c0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

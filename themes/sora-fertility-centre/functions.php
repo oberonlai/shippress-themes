@@ -10,6 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require_once get_template_directory() . '/inc/demo-import.php';
+require_once get_template_directory() . '/inc/i18n.php';
 
 define( 'SORA_FERTILITY_CENTRE_VERSION', wp_get_theme()->get( 'Version' ) );
 

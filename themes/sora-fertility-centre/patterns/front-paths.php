@@ -9,15 +9,15 @@
  */
 ?>
 <!-- wp:group {"className":"sf-arch sf-arch--s sf-paths","layout":{"type":"default"},"tagName":"section","align":"full"} --><section class="wp-block-group alignfull sf-arch sf-arch--s sf-paths"><!-- wp:group {"className":"sf-arch__head","layout":{"type":"default"}} --><div class="wp-block-group sf-arch__head"><!-- wp:paragraph {"className":"sf-label"} -->
-<p class="sf-label">Three paths</p>
+<p class="sf-label"><?php echo wp_kses_post( sora_fertility_centre_t( 'k818b1f78' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"sf-h sf-h--c"} -->
-<h2 class="wp-block-heading sf-h sf-h--c">Where people usually start</h2>
+<h2 class="wp-block-heading sf-h sf-h--c"><?php echo wp_kses_post( sora_fertility_centre_t( 'k5f0b5553' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sf-sub"} -->
-<p class="sf-sub">Most of us arrive with one of three questions.</p>
+<p class="sf-sub"><?php echo wp_kses_post( sora_fertility_centre_t( 'k1d23e89b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -26,24 +26,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sf-band__h"} -->
-<h3 class="wp-block-heading sf-band__h">Understanding your fertility</h3>
+<h3 class="wp-block-heading sf-band__h"><?php echo wp_kses_post( sora_fertility_centre_t( 'k2a091747' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sf-body"} -->
-<p class="sf-body">Sometimes you only need to know where you stand. We measure, explain and leave the decisions with you.</p>
+<p class="sf-body"><?php echo wp_kses_post( sora_fertility_centre_t( 'kdd350148' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sf-body"} -->
-<p class="sf-body">Two partners, one calendar and a results visit within a week of the last test.</p>
+<p class="sf-body"><?php echo wp_kses_post( sora_fertility_centre_t( 'kc30cfbf3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sf-go"} -->
-<p class="sf-go"><a href="/tests/">Read about tests →</a></p>
+<p class="sf-go"><a href="/tests/"><?php echo wp_kses_post( sora_fertility_centre_t( 'ke63077b0' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sf-band__photo sp-parallax"} -->
-<figure class="wp-block-image size-full sf-band__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p4.webp' ) ); ?>" alt="A clinician pointing at a printed cycle calendar while a couple looks on"/></figure>
+<figure class="wp-block-image size-full sf-band__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p4.webp' ) ); ?>" alt="<?php echo esc_attr( sora_fertility_centre_t( 'a9fb119b2' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -52,24 +52,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sf-band__h"} -->
-<h3 class="wp-block-heading sf-band__h">In vitro fertilisation</h3>
+<h3 class="wp-block-heading sf-band__h"><?php echo wp_kses_post( sora_fertility_centre_t( 'k7d33814b' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sf-body"} -->
-<p class="sf-body">IVF is a sequence of small, scheduled steps. We lay out each one: what happens, how long it takes and who to call.</p>
+<p class="sf-body"><?php echo wp_kses_post( sora_fertility_centre_t( 'k1f720eea' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sf-body"} -->
-<p class="sf-body">Our embryology lab works to written standards and reports to you in plain words.</p>
+<p class="sf-body"><?php echo wp_kses_post( sora_fertility_centre_t( 'k9af0716d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sf-go"} -->
-<p class="sf-go"><a href="/ivf/">Read about IVF →</a></p>
+<p class="sf-go"><a href="/ivf/"><?php echo wp_kses_post( sora_fertility_centre_t( 'k308ba23e' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sf-band__photo sp-parallax"} -->
-<figure class="wp-block-image size-full sf-band__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p5.webp' ) ); ?>" alt="An embryologist working at a microscope in a softly lit laboratory"/></figure>
+<figure class="wp-block-image size-full sf-band__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p5.webp' ) ); ?>" alt="<?php echo esc_attr( sora_fertility_centre_t( 'ad0459ddc' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -78,24 +78,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sf-band__h"} -->
-<h3 class="wp-block-heading sf-band__h">Preserving options</h3>
+<h3 class="wp-block-heading sf-band__h"><?php echo wp_kses_post( sora_fertility_centre_t( 'kf875d105' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sf-body"} -->
-<p class="sf-body">Freezing eggs at 36, or embryos before other treatment, is a decision about time. We give you the facts to take it calmly.</p>
+<p class="sf-body"><?php echo wp_kses_post( sora_fertility_centre_t( 'kdab0a843' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sf-body"} -->
-<p class="sf-body">One cycle, a clear fee and annual storage of €350, with no pressure to decide at the visit.</p>
+<p class="sf-body"><?php echo wp_kses_post( sora_fertility_centre_t( 'ka38776f5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sf-go"} -->
-<p class="sf-go"><a href="/treatments/">Read about freezing →</a></p>
+<p class="sf-go"><a href="/treatments/"><?php echo wp_kses_post( sora_fertility_centre_t( 'k4b3ce804' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sf-band__photo sp-parallax"} -->
-<figure class="wp-block-image size-full sf-band__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p6.webp' ) ); ?>" alt="A woman in a cardigan looking calmly out of a window"/></figure>
+<figure class="wp-block-image size-full sf-band__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p6.webp' ) ); ?>" alt="<?php echo esc_attr( sora_fertility_centre_t( 'add1dfd7c' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
