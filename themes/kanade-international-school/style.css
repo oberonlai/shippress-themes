@@ -90,7 +90,7 @@ a { text-underline-offset: 0.2em; }
 .kn-hero__img img { object-fit: cover; object-position: 40% 50%; display: block; }
 .kn-bite { position: absolute; width: 640px; aspect-ratio: 1; right: -290px; bottom: -290px; border-radius: 50%; background: var(--kn-ground); pointer-events: none; z-index: 2; }
 .kn-bite--l { right: auto; left: -12%; width: 38%; bottom: -17%; }
-.kn-card { position: absolute; z-index: 3; right: calc(41.667% + 124px); bottom: 0; width: 260px; background: #fff; border: 1px solid var(--kn-rule); border-bottom: 0; padding: 18px 20px 20px; }
+.kn-card { position: absolute; z-index: 3; right: calc(41.667% + 124px); bottom: 96px; width: 260px; background: #fff; border: 1px solid var(--kn-rule); padding: 18px 20px 20px; }
 .kn-card > * { margin: 0; }
 .kn-card__l { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--kn-deep); }
 .kn-card__t { margin-top: 6px !important; font-family: var(--kn-serif); font-size: 1.125rem; line-height: 1.3; }
@@ -123,7 +123,7 @@ a { text-underline-offset: 0.2em; }
 .kn-intro__img img { object-fit: cover; }
 
 /* ---------- programmes: tinted mosaic ---------- */
-.kn-prog { background: var(--kn-ground); padding-top: 0; }
+.kn-prog { background: linear-gradient(180deg, var(--kn-ground) 0%, #EAF2EF 30%, var(--kn-ground) 100%); padding-top: 0; }
 .kn-prog__head { display: flex; justify-content: space-between; align-items: flex-end; gap: 2rem; }
 .kn-prog__head > * { margin-block-start: 0; }
 .kn-prog__head .kn-sechead { margin-bottom: 2.5rem; }
@@ -139,10 +139,10 @@ a { text-underline-offset: 0.2em; }
 .kn-tile > * { margin: 0; }
 .kn-tile__img, .kn-tile__img img { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; }
 .kn-tile__img img { object-fit: cover; display: block; }
-.kn-tint { position: absolute; inset: 0; mix-blend-mode: multiply; opacity: 0.85; transition: opacity 0.3s; z-index: 1; }
-.kn-tile--pyp .kn-tint { background: #7FA393; } .kn-tile--myp .kn-tint { background: #8C9DA8; } .kn-tile--dp .kn-tint { background: #4A5A55; }
-.kn-tile--lang .kn-tint { background: #C9B88F; } .kn-tile--arts .kn-tint { background: #A4B8AE; }
-.kn-tile:hover .kn-tint { opacity: 0.7; }
+.kn-tint { position: absolute; inset: 0; mix-blend-mode: multiply; opacity: 0.62; transition: opacity 0.3s; z-index: 1; }
+.kn-tile--pyp .kn-tint { background: #7FA393; } .kn-tile--myp .kn-tint { background: #8C9DA8; } .kn-tile--dp .kn-tint { background: #3F4D49; }
+.kn-tile--lang .kn-tint { background: #CDB88A; } .kn-tile--arts .kn-tint { background: #A4BFD4; }
+.kn-tile:hover .kn-tint { opacity: 0.45; }
 .kn-tile::after { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(rgba(31, 42, 46, 0.12), rgba(31, 42, 46, 0.2)); pointer-events: none; }
 .kn-tile__c { position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 16px; gap: 12px; pointer-events: none; }
 .kn-tile__c > * { margin: 0; }
@@ -154,13 +154,13 @@ a { text-underline-offset: 0.2em; }
 .kn-tile:hover .kn-chip { transform: translateY(-4px); }
 
 /* ---------- calendar: big corner + ink date badge ---------- */
-.kn-cal { background: var(--kn-ground); padding-top: 0; }
+.kn-cal { background: linear-gradient(180deg, var(--kn-ground) 0%, #EAF4F9 30%, var(--kn-ground) 100%); padding-top: 0; }
 .kn-cal__head { display: flex; justify-content: space-between; align-items: flex-end; }
 .kn-cal__head .kn-sechead { margin-bottom: 2.5rem; }
 .kn-cal__head .kn-go { margin: 0 0 2.5rem; }
 .kn-evrow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 48px 40px; padding-left: 24px; }
 .kn-evrow > * { margin: 0; }
-.kn-ev { position: relative; background: var(--kn-stone); border-radius: 0 0 0 64px; padding: 32px 24px 36px 56px; min-height: 220px; display: flex; flex-direction: column; }
+.kn-ev { position: relative; background: #E6EEF0; border-radius: 0 0 0 64px; padding: 32px 24px 36px 56px; min-height: 220px; display: flex; flex-direction: column; }
 .kn-ev > * { margin: 0; }
 .kn-ev__badge { position: absolute; left: -24px; top: 28px; width: 76px; height: 76px; border-radius: 50%; background: var(--kn-ink); color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; }
 .kn-ev__badge strong { font-family: var(--kn-serif); font-size: 1.75rem; font-weight: 400; }
@@ -325,7 +325,7 @@ a { text-underline-offset: 0.2em; }
 .kn-ph__photo > * { margin: 0; }
 .kn-ph__img, .kn-ph__img img { width: 100%; height: 100%; margin: 0; display: block; }
 .kn-ph__img img { object-fit: cover; }
-.kn-bite--pl { right: auto; left: -20%; bottom: -20%; width: 40%; }
+.kn-bite--pl { right: auto; left: -25%; bottom: -25%; width: 50%; }
 .kn-ph--text { display: block; }
 .kn-ph--text .kn-ph__text { max-width: 1200px; margin-inline: auto; padding: 4.5rem var(--kn-gut) 2.5rem; box-sizing: content-box; }
 .kn-ph--text .kn-lead { max-width: 40em; }
@@ -355,7 +355,7 @@ a { text-underline-offset: 0.2em; }
 .kn-mosaic--camp { grid-template-columns: 5fr 7fr; grid-template-rows: repeat(3, 1fr); height: 640px; }
 .kn-mosaic--camp .kn-tile--pyp { grid-column: 1; grid-row: 1 / span 3; }
 .kn-mosaic--camp .kn-tile--myp, .kn-mosaic--camp .kn-tile--dp, .kn-mosaic--camp .kn-tile--lang { grid-column: 2; grid-row: auto; }
-.kn-mosaic--camp .kn-tile--lang .kn-tint { background: #C9B88F; }
+.kn-mosaic--camp .kn-tile--lang .kn-tint { background: #CDB88A; }
 .kn-mosaic--par { grid-template-columns: repeat(3, 1fr); grid-template-rows: 1fr; height: 360px; }
 .kn-mosaic--par .kn-tile--pyp, .kn-mosaic--par .kn-tile--myp, .kn-mosaic--par .kn-tile--dp { grid-column: auto; grid-row: auto; }
 .kn-mosaic--par .kn-tile__t, .kn-mosaic--par .kn-tile--pyp .kn-tile__t { font-size: 1.75rem; }
@@ -424,7 +424,7 @@ a { text-underline-offset: 0.2em; }
 @media (max-width: 781px) {
 	.kn-ph__text { padding: 2rem var(--kn-gut) 2.25rem; }
 	.kn-ph { display: flex; flex-direction: column-reverse; }
-	.kn-bite--pl { width: 50%; left: -25%; bottom: -25%; }
+	.kn-bite--pl { width: 60%; left: -30%; bottom: -30%; }
 	.kn-ph--text .kn-ph__text { padding: 2.5rem var(--kn-gut) 1.5rem; }
 	.kn-split, .kn-prow, .kn-panel, .kn-feat, .kn-pcards { grid-template-columns: 1fr; gap: 1.5rem; }
 	.kn-split { padding-block: 2.5rem; }
