@@ -8,7 +8,7 @@
 ?>
 <!-- wp:group {"className":"kn-main kn-main--blog","layout":{"type":"default"},"tagName":"main"} -->
 <main class="wp-block-group kn-main kn-main--blog"><!-- wp:heading {"level":1,"className":"kn-h2 kn-pagetitle"} -->
-<h1 class="wp-block-heading kn-h2 kn-pagetitle">News</h1>
+<h1 class="wp-block-heading kn-h2 kn-pagetitle">Stories and news</h1>
 <!-- /wp:heading --><!-- wp:query {"className":"kn-posts","layout":{"type":"default"}} -->
 <div class="wp-block-query kn-posts"><!-- wp:post-template -->
 <!-- wp:group {"className":"kn-postrow","layout":{"type":"default"}} -->

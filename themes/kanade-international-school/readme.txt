@@ -46,6 +46,8 @@ assets/images/k11.webp: generated with Grok for this theme, GPL-2.0-or-later / C
 assets/images/k12.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/k13.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/k14.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/k15.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/k16.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 
 = Scripts =
 assets/sp-scroll.js (about 2 KB) adds quiet scroll effects. It respects prefers-reduced-motion and the content is fully visible without JavaScript.

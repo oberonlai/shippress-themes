@@ -6,7 +6,7 @@ A WordPress block theme for an IB World School in Lisbon (founded 1994, ages 4â€
 
 - **Palette.** Off-white ground `#F6F7F4`, stone `#E9ECE7`, ink `#1F2A2E`; celadon `#7FA393` (deep `#4F7465`) appears only on rules and labels. First screen saturated pixels about 3%.
 - **Type.** Literata (display) and Fira Sans (text), both OFL-1.1, Latin WOFF2 subsets bundled.
-- **Photographs.** Fourteen photographs from one shared style string (high-key documentary daylight, diverse students, no text or logos), none repeated on the home page.
+- **Photographs.** Sixteen photographs from one shared style string (high-key documentary daylight, diverse students, no text or logos), none repeated on a page.
 - **Signature.** A photo with a curved bite carrying the "Open morning" card (hero and visit), calendar cards with one large rounded corner and a date badge, and a tinted programme mosaic.
 - **Motion.** `sp-scroll` (reveal, stagger, parallax); respects `prefers-reduced-motion`, content visible without JavaScript.
 
