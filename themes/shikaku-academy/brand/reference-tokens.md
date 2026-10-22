@@ -12,7 +12,7 @@ Main reference: HTA education programme site (S5-Style category education-health
 | Tints of main | #80CBEF, #E6F5FC, #CDEBF9 | <2% | hover, tag fills |
 | Photo (3D characters, white coats, one green, one orange shirt) | n/a | ~25% | hero art |
 First-screen saturated pixels measured with scripts/check-first-screen.py: HTA 13.1%.
-Ours: ground #E9EDF0, surface #F6F7F8, ink #12222D, muted #6E7F8A, accent 縹 #4E7A93 (low chroma, small areas only), accent tint #DCE7EE. Ratio target 62 / 12 / 8 / 3 / photo 15.
+Ours: ground #E9EDF0, surface #F6F7F8, ink #12222D, muted #6E7F8A, accent hanada #4E7A93 (low chroma, small areas only), accent tint #DCE7EE. Ratio target 62 / 12 / 8 / 3 / photo 15.
 
 ## (b) Type (HTA)
 - Families: CezannePro-M (gothic, 500), CezannePro-DB (semi-bold headings), Hanken Grotesk 400/800 (Latin labels, ghost word). Ours: Libre Baskerville (display) + Work Sans (body, labels).

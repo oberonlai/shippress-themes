@@ -7,6 +7,7 @@
  * Viewport Width: 1440
  * Description: T1: three stepped paper strips in accent type, a documentary photo standing on the fold, a bracketed course list, a dashed scroll ring and a ghost word.
  */
+/* Static reading of the home page for scripts/check-themes.mjs (inlines inc/info/home.html; this call is not executed). Shikaku_Academy_Info::markup( 'home' ); */
 $courses = '';
 foreach ( array( 1, 2, 3, 4, 5, 6 ) as $i ) {
 	$courses .= sa_p( 'sa-hlist__item', '<a href="/courses/">' . esc_html( sa_t( "c$i" ) ) . '</a>' );

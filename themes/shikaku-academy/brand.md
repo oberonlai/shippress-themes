@@ -17,7 +17,7 @@ The school teaches six courses on two pathways. Project management is Project De
 A team of seven runs the school. Tomasz Wierzbicki, Amara Osei, Rafael Quintero, Ingrid Solberg, and Daniel Mwangi teach the courses. Helena Marsh directs studies. Priya Raman leads learner support, Monday to Friday 08:00-18:00 CET and Saturday 09:00-13:00 CET. Live Q&A is on Wednesdays at 19:00 CET. A learner chooses a course or a plan, pays by card at checkout, studies at their own pace, then takes the mock exam and downloads the certificate of completion. A refund is available for 14 days if less than 20% of the course has been watched.
 
 ## Hours
-Learner support Mon-Fri 08:00-18:00, Sat 09:00-13:00 (CET). Live Q&A Wednesdays 19:00 CET.
+Learner support Mon-Fri 08:00-18:00, Sat 09:00-13:00 (CET). Live Q&A Wednesdays 19:00 CET. A learner's day is study after work, with support available during the day.
 
 ## People (7)
 - **Helena Marsh** - Founder, director of studies. Helena Marsh founded Shikaku Academy in 2017 and directs studies from the studio and support office at Kade 14, 3072 Rotterdam. She leads a team of seven and still works through the course outlines before they are recorded.

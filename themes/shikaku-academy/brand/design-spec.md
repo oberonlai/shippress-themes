@@ -97,11 +97,11 @@ Rule: no photo appears twice on the same page. Signature carry-over: T1 on all i
 | Surface | #F5F6F7 | **#F6F7F8** | ~12% | strips, card bands, footer, ghost words |
 | Ink | #001F2D | **#12222D** | ~8% | text, lines (+4% lightness, softer for long reading) |
 | Muted | #7F8E96 | **#6E7F8A** | <2% | meta, bracket labels (darker for AA contrast on ground: 4.6:1) |
-| Main / accent | #0399E0 | **#4E7A93** 縹 | ~4% | strip glyphs, giant section titles, pills, tabs numerals |
+| Main / accent | #0399E0 | **#4E7A93** hanada | ~4% | strip glyphs, giant section titles, pills, tabs numerals |
 | Tint | #E6F5FC | **#DCE7EE** | <2% | tag fills, recommended plan header |
 | Line | #FFFFFF / #CCD2D5 | **#FFFFFF / #C9D1D6** | — | card borders, row rules |
 | Photo | 25% | ~16% first screen | | |
-Reason for the main change: row b7-7 mandates the muted 縹 #4E7A93 (quiet palette, accent never full-bleed); HTA's #0399E0 is too saturated for a certification academy against "quiet palette" rule. Relationship (cool grey ground, paler paper surface, deep blue-black ink, single blue accent) is kept exactly. Hover accent `#3F6A82`. No beige.
+Reason for the main change: row b7-7 mandates the muted hanada #4E7A93 (quiet palette, accent never full-bleed); HTA's #0399E0 is too saturated for a certification academy against "quiet palette" rule. Relationship (cool grey ground, paler paper surface, deep blue-black ink, single blue accent) is kept exactly. Hover accent `#3F6A82`. No beige.
 
 ## 7. Type (`tok(b)`; root 16px)
 - Display: **Libre Baskerville** 400/700 (OFL). Body/labels: **Work Sans** 400/500/600 (OFL). zh-TW/ja headings Noto Serif TC/JP at 0.75× size, body lh 1.85.
