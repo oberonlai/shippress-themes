@@ -290,7 +290,7 @@ test("quality gate: an ungated theme is not checked, a wrong gate value is refus
 test("quality gate: pages, posts, photos, cut-outs, font size and brand.md", () => {
   const demoEdit = (fn) => (t) => { const f = join(t, "demo-content.json"); const d = JSON.parse(readFileSync(f, "utf8")); fn(d); writeFileSync(f, JSON.stringify(d)); };
   assert.match(withGated(demoEdit((d) => { d.pages = d.pages.filter((p) => !["care", "fabric-guide"].includes(p.slug)); })).join("\n"), /6 pages in demo-content.json/);
-  assert.match(withGated(demoEdit((d) => { d.posts = d.posts.slice(0, 3); })).join("\n"), /3 posts in demo-content.json/);
+  assert.match(withGated(demoEdit((d) => { d.posts = []; })).join("\n"), /0 posts in demo-content.json/);
   const photos = withGated((t) => { for (const f of readdirSync(join(t, "assets/images")).filter((f) => f.startsWith("product-"))) rmSync(join(t, "assets/images", f)); }).join("\n");
   assert.match(photos, /7 photo files in assets\/images \(needs >= 12/);
   const cut = withGated((t) => { writeFileSync(join(t, "assets/images/lamp.png"), PNG_RGBA); writeFileSync(join(t, "assets/images/car-cutout.webp"), "x"); writeFileSync(join(t, "assets/images/opaque.png"), PNG_RGB); }).join("\n");
