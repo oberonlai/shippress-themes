@@ -7,7 +7,7 @@ A white ground with ink and one muted mustard accent (#B8973F) on small areas on
 
 ## Structure
 - `patterns/front-*.php`: the nine home sections (hero, finder, concept, box, subscribe, interlude, desk, stories, visit); `patterns/head-cart.php`: the header cart square.
-- `parts/`: floating pill header (collapses to a full-screen menu below 960px; the basket links to the WooCommerce cart, or to `/shop/` without it) and ink footer. `templates/`: front page, page, index/home/archive/search, single, 404 (WooCommerce templates and inner-page patterns follow in stage 2).
+- `parts/`: floating pill header (collapses to a full-screen menu below 960px; the basket links to the WooCommerce cart, or to `/shop/` without it) and ink footer. `templates/`: front page, page, index, home, archive, search, tag, single, 404, plus WooCommerce archive-product and single-product.
 - `assets/sp-scroll.css|js`: ShipPress scroll effects (fade-up, stagger, parallax). `assets/images/demo/`: AI-generated photographs (GPL-2.0-or-later / CC0).
 
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.

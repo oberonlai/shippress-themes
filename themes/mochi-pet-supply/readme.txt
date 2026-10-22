@@ -25,7 +25,7 @@ The shop, its products, address, telephone number and prices are fictional.
 == Copyright ==
 
 Mochi Pet Supply is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Alegreya Sans and Alegreya (OFL-1.1), Latin subsets, WOFF2, see assets/fonts/. Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later; no third-party library).
+Fonts: Alegreya Sans, Alegreya, Noto Serif TC and Noto Serif JP (OFL-1.1), subsets, WOFF2, see assets/fonts/. Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later; no third-party library).
 
 = Images =
 

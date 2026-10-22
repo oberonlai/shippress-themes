@@ -37,7 +37,7 @@ Secondary reference (ginger.sakatashop.jp, S5-Style #11995): mustard buy tab #b2
 - Vector veg icons (flat orange/green/peach), 5–7 shapes clustered, ~270×260 at the text column's top-right and a 300×110 row at section footer.
 
 ## (f) Decoration
-- Tag chips (主菜/副菜): 53×28, orange or green fill, off-white text, radius 4.
+- Tag chips (main course/side dish): 53×28, orange or green fill, off-white text, radius 4.
 - Icon clusters in flat vector: orange #f58220, peach #fbc08c-ish, green #509146, grey; no outlines.
 - Carousel pagination dots + numbered circle (36px, yellow ring).
 - Floating nav pill: fixed, 780×54 centered, 14px left padding, square orange menu button 36px radius 8.
