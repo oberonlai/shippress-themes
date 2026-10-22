@@ -44,7 +44,7 @@ p { margin: 0; }
 /* ---------- T1 floating pill nav ---------- */
 .mo-head-part { position: static; height: 0; }
 .mo-pill {
-	position: fixed; top: 15px; left: 50%; transform: translateX(-50%); z-index: 50;
+	position: fixed; top: 15px; left: 0; right: 0; margin-inline: auto; z-index: 50;
 	width: min(780px, calc(100% - 24px)); height: 54px; box-sizing: border-box;
 	background: #fff; border: 1px solid var(--mo-rule); border-radius: 10px;
 	padding: 0 9px 0 14px; display: flex; align-items: center; gap: 22px;
@@ -71,12 +71,15 @@ body.admin-bar .mo-pill { top: 47px; }
 	.mo-nav .wp-block-navigation__responsive-container-open { display: flex; }
 }
 .mo-nav .wp-block-navigation__responsive-container.is-menu-open { background: #fff; padding: 96px 24px 24px; }
+.mo-nav .is-menu-open .wp-block-navigation__responsive-container-content, .mo-nav .is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container { align-items: flex-start; text-align: left; }
+.mo-nav .is-menu-open .wp-block-navigation__responsive-container-close { top: 22px; right: 22px; }
 .mo-nav .is-menu-open .wp-block-navigation__container { flex-direction: column; align-items: flex-start; gap: 18px; }
 .mo-nav .is-menu-open .wp-block-navigation-item__content { font-size: 1.5rem; }
 
 /* ---------- shared type ---------- */
 .mo-eyebrow { font: 700 1.4594rem/1.6 var(--mo-sans); color: var(--mo-green); margin: 0; }
 .mo-eyebrow--sm { font-size: 1.125rem; }
+.mo-h1 .mo-line { display: block; }
 .mo-h1 { font: 700 clamp(2.5rem, 9vw, 4.5rem)/1.12 var(--mo-sans); margin: 0; letter-spacing: 0; }
 .mo-h2 { font: 700 clamp(2.25rem, 5vw, 3.0406rem)/1.2 var(--mo-sans); margin: 0; letter-spacing: 0; }
 .mo-h2--light { font-weight: 600; color: var(--mo-warm); }
@@ -304,3 +307,4 @@ body.admin-bar .mo-pill { top: 47px; }
 	.mo-pagehead { padding-top: 104px; }
 }
 @media (hover: none) { .mo-col:hover .mo-ph img, .mo-pc:hover .mo-pc__img img { transform: none; } }
+@media (max-width: 781px) { .mo-h1 .mo-line { display: inline; } }

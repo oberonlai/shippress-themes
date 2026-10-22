@@ -15,7 +15,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"mo-h1","level":1} -->
-<h1 class="wp-block-heading mo-h1">Good food for every<br>bowl in the house.</h1>
+<h1 class="wp-block-heading mo-h1">Good food for every <span class="mo-line">bowl in the house.</span></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
