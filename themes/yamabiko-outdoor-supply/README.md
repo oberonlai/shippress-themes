@@ -32,6 +32,7 @@ Catalogue links to /product/... lead to the Shop page; the header cart link (0) 
 </table>
 
 - Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
 - About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
 - News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
 - Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
