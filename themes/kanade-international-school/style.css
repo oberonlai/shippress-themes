@@ -442,3 +442,24 @@ a { text-underline-offset: 0.2em; }
 	.kn-bite--c { width: 260px; right: -110px; bottom: -150px; }
 	.kn-posts .wp-block-post-template { grid-template-columns: 1fr; }
 }
+
+/* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Literata / Fira Sans) ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", Literata, "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Fira Sans", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", Literata, "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Fira Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .kn-h1, .kn-h2, .kn-h3, .kn-pagetitle, .kn-tile__t, .kn-day__time) { line-height: 1.4; letter-spacing: 0.04em; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) :is(.kn-label, .kn-small) { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) :is(.kn-body, .kn-lead) { line-height: 1.9; }
+:is(:lang(zh), :lang(ja)) :is(.kn-h1, .kn-h1--page) { font-size: clamp(2.1rem, 3.9vw, 3.3rem); }
+:is(:lang(zh), :lang(ja)) .kn-h2 { font-size: clamp(1.5rem, 1.1rem + 1.5vw, 2.05rem); }
+:is(:lang(zh), :lang(ja)) .kn-h2--s { font-size: clamp(1.4rem, 1.1rem + 1vw, 1.6rem); }
+:is(:lang(zh), :lang(ja)) .kn-h3 { font-size: 1.25rem; }
+:is(:lang(zh), :lang(ja)) .kn-pagetitle { font-size: clamp(2rem, 3.4vw, 3.1rem); }
+:is(:lang(zh), :lang(ja)) .kn-tile--pyp .kn-tile__t { font-size: 1.75rem; }
+:lang(ja) :is(h1, h2, h3, p, li) { word-break: auto-phrase; }
