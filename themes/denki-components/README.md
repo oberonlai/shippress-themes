@@ -1,0 +1,43 @@
+# Denki Components
+
+Denki Components — a business theme for a passive-components maker, built as a ledger of numbers. A cool pale ground with blue-grey hairlines, indexed product rows with 3:2 photographs at 54 percent and a text column from 63 percent, outline pills with a filled round arrow disc, and a fixed navy badge with a rotating ring of tracked text. The home page opens on a headline over a band of four figures and a framed reel-line photograph with scroll parallax; it continues with a right-hand company introduction, four ruled product families, a monthly ledger beside a sticky photograph, a staggered plant photo field with hash tags, three case rows beside an offset portrait, a sample-kit price list and a request-and-visit block. IBM Plex Serif for headings, IBM Plex Sans for reading. Works without WooCommerce. WCAG AA colours; scroll effects respect reduced motion.
+
+## Structure
+- `patterns/front-*.php`: the eight home sections (hero, intro, families, ledger, plant, cases, kits, close).
+- `templates/`: front-page, page, single, index/archive/search and 404 (page-wide template for the inner pages, news rows on the blog page, a framed single post).
+- `parts/`: header (top bar, nav, language links) and footer (with the fixed samples badge).
+- `assets/sp-scroll.css`, `assets/sp-scroll.js`: ShipPress scroll effects (reveal, wipe, parallax); `assets/fonts/`: IBM Plex.
+- Photos: `assets/images/` (16 AI-generated photographs from one style prompt, GPL-2.0-or-later / CC0; no people in the product macros). See `readme.txt`.
+- Demo content: `demo-content.json` (home, ten inner pages: products, three family pages, quality, samples and services, plant, cases, about, contact; the News posts page and one article; the importer can be re-run without duplicates).
+
+Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
+
+License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Denki Components home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Denki Components home page on mobile"></td>
+</tr>
+</table>
+
+- Products: [desktop](screenshots/products-desktop.webp) · [mobile](screenshots/products-mobile.webp)
+- Ceramic capacitors: [desktop](screenshots/ceramic-capacitors-desktop.webp) · [mobile](screenshots/ceramic-capacitors-mobile.webp)
+- Chip resistors: [desktop](screenshots/chip-resistors-desktop.webp) · [mobile](screenshots/chip-resistors-mobile.webp)
+- Inductors beads: [desktop](screenshots/inductors-beads-desktop.webp) · [mobile](screenshots/inductors-beads-mobile.webp)
+- Quality: [desktop](screenshots/quality-desktop.webp) · [mobile](screenshots/quality-mobile.webp)
+- Samples: [desktop](screenshots/samples-desktop.webp) · [mobile](screenshots/samples-mobile.webp)
+- Plant: [desktop](screenshots/plant-desktop.webp) · [mobile](screenshots/plant-mobile.webp)
+- Cases: [desktop](screenshots/cases-desktop.webp) · [mobile](screenshots/cases-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
