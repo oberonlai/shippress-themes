@@ -27,7 +27,7 @@ The academy, its courses, people, address and prices are fictional.
 == Copyright ==
 
 Shikaku Academy is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Libre Baskerville (OFL-1.1), variable, regular and italic; Work Sans (OFL-1.1), variable Latin subset; see assets/fonts/.
+Fonts: Libre Baskerville (OFL-1.1), variable, regular and italic; Work Sans (OFL-1.1), variable Latin subset; Noto Serif JP and Noto Serif TC (OFL-1.1), small subsets for Japanese and Traditional Chinese headlines; see assets/fonts/.
 sp-scroll (assets/sp-scroll.css, assets/sp-scroll.js): ShipPress scroll effects, GPL-2.0-or-later, no third-party library.
 
 = Images =
