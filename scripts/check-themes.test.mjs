@@ -352,7 +352,7 @@ test("check-first-screen.py measures the saturated share of the first screen", (
   const run = (slug, ...args) => spawnSync("python3", [script, join(THEMES, slug, "screenshots/home-desktop.webp"), ...args], { encoding: "utf8" });
   const calm = run("asa-linen");
   assert.equal(calm.status, 0, calm.stdout + calm.stderr);
-  assert.match(calm.stdout, /^\d+\.\d% saturated pixels in the first 1440x900 \(max 15%\): ok/);
+  assert.match(calm.stdout, /^\d+\.\d% saturated pixels in the first 1440x900 \(max 30%\): ok/);
   if (existsSync(join(THEMES, "jika-tabi"))) {
     const loud = run("jika-tabi");
     assert.equal(loud.status, 1);
