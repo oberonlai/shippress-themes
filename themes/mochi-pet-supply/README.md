@@ -13,3 +13,31 @@ A white ground with ink and one muted mustard accent (#B8973F) on small areas on
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mochi Pet Supply home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mochi Pet Supply home page on mobile"></td>
+</tr>
+</table>
+
+- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Food finder: [desktop](screenshots/food-finder-desktop.webp) · [mobile](screenshots/food-finder-mobile.webp)
+- Subscribe and save: [desktop](screenshots/subscribe-and-save-desktop.webp) · [mobile](screenshots/subscribe-and-save-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Nutrition desk: [desktop](screenshots/nutrition-desk-desktop.webp) · [mobile](screenshots/nutrition-desk-mobile.webp)
+- Feeding guides: [desktop](screenshots/feeding-guides-desktop.webp) · [mobile](screenshots/feeding-guides-mobile.webp)
+- Delivery returns: [desktop](screenshots/delivery-returns-desktop.webp) · [mobile](screenshots/delivery-returns-mobile.webp)
+- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
+- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
