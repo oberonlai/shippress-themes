@@ -31,7 +31,8 @@ function sa_t( $key ) {
 	foreach ( array_unique( array( sa_lang(), 'en' ) ) as $lang ) {
 		if ( ! isset( $tables[ $lang ] ) ) {
 			$file            = __DIR__ . '/i18n/' . $lang . '.php';
-			$tables[ $lang ] = is_readable( $file ) ? (array) include $file : array();
+			$inner           = __DIR__ . '/i18n/' . $lang . '-inner.php';
+			$tables[ $lang ] = ( is_readable( $file ) ? (array) include $file : array() ) + ( is_readable( $inner ) ? (array) include $inner : array() );
 		}
 		if ( isset( $tables[ $lang ][ $key ] ) ) {
 			return (string) $tables[ $lang ][ $key ];
