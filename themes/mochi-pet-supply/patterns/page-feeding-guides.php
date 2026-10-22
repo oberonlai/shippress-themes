@@ -71,35 +71,75 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"mo-sec mo-prose2","layout":{"type":"default"},"tagName":"section","align":"full"} -->
-<section class="wp-block-group alignfull mo-sec mo-prose2"><!-- wp:group {"className":"mo-wrap","layout":{"type":"default"}} -->
-<div class="wp-block-group mo-wrap"><!-- wp:group {"className":"mo-col8","layout":{"type":"default"}} -->
-<div class="wp-block-group mo-col8"><!-- wp:heading {"className":"mo-h3"} -->
-<h2 class="wp-block-heading mo-h3">Dogs</h2>
+<!-- wp:group {"className":"mo-sec mo-prose2 mo-infosec","layout":{"type":"default"},"tagName":"section","align":"full"} -->
+<section class="wp-block-group alignfull mo-sec mo-prose2 mo-infosec"><!-- wp:group {"className":"mo-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-wrap"><!-- wp:group {"className":"mo-infos","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-infos"><!-- wp:group {"className":"mo-info sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-info sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"mo-tag mo-tag--food"} -->
+<p class="mo-tag mo-tag--food"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_dogs' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"mo-h3"} -->
+<h2 class="wp-block-heading mo-h3">Two meals, weighed</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mo-body"} -->
 <p class="mo-body">Weigh the portion for the weight and age shown on the pack, and split it into two meals. Puppies eat more often than seniors; adult dogs do well on two. Always check the pack and your vet for the amount.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"mo-info sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-info sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"mo-tag mo-tag--food"} -->
+<p class="mo-tag mo-tag--food"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_cats' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"mo-h3"} -->
-<h2 class="wp-block-heading mo-h3">Cats</h2>
+<h2 class="wp-block-heading mo-h3">Slower if the bowl is left</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mo-body"} -->
 <p class="mo-body">Cats can be fussy about change, so go slower if the bowl is left. Wet trays and dry food can share a day; keep the total to the pack guide. Always check the pack and your vet.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"mo-info sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-info sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"mo-tag mo-tag--green"} -->
+<p class="mo-tag mo-tag--green"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_small' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"mo-h3"} -->
-<h2 class="wp-block-heading mo-h3">Rabbits and guinea pigs</h2>
+<h2 class="wp-block-heading mo-h3">Hay first, always</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mo-body"} -->
 <p class="mo-body">Hay is most of the diet and should always be available. Add other foods by the pack guide, and your vet for anything more. Hay changes take the same 10 days.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mo-more"} -->
 <p class="mo-more"><a href="/nutrition-desk/">Nutrition desk →</a><a href="/food-finder/">Food finder →</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"mo-box mo-box--inner mo-box--end","layout":{"type":"default"},"tagName":"section","align":"full"} -->
+<section class="wp-block-group alignfull mo-box mo-box--inner mo-box--end"><!-- wp:group {"className":"mo-box__in","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-box__in"><!-- wp:group {"className":"mo-card mo-card--wide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-card mo-card--wide sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"mo-tag mo-tag--food"} -->
+<p class="mo-tag mo-tag--food"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_a_tag' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-date"} -->
+<p class="mo-date"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_a_title' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-card__go"} -->
+<p class="mo-card__go"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_a_go' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-arrow"} -->
+<p class="mo-arrow"><a href="/food-finder/" aria-label="<?php echo esc_attr( mochi_pet_supply_t( 'redo_a_tag' ) ); ?>">→</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

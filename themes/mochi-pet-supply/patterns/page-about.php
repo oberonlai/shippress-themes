@@ -140,3 +140,25 @@
 <!-- /wp:list --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
+
+<!-- wp:group {"className":"mo-box mo-box--inner mo-box--end","layout":{"type":"default"},"tagName":"section","align":"full"} -->
+<section class="wp-block-group alignfull mo-box mo-box--inner mo-box--end"><!-- wp:group {"className":"mo-box__in","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-box__in"><!-- wp:group {"className":"mo-card mo-card--wide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-card mo-card--wide sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"mo-tag mo-tag--food"} -->
+<p class="mo-tag mo-tag--food"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_b_tag' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-date"} -->
+<p class="mo-date"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_b_title' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-card__go"} -->
+<p class="mo-card__go"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_b_go' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-arrow"} -->
+<p class="mo-arrow"><a href="/subscribe-and-save/" aria-label="<?php echo esc_attr( mochi_pet_supply_t( 'redo_b_tag' ) ); ?>">→</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->

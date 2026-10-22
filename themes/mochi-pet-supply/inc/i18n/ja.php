@@ -148,4 +148,13 @@ return array(
 	'kfa6597ef' => '常連さん',
 	'kfd9c84dc' => 'お客さまの再注文がいちばん多い五つ',
 	'search_results' => '「%s」の検索結果',
+	'redo_dogs' => '犬',
+	'redo_cats' => '猫',
+	'redo_small' => '小動物',
+	'redo_a_tag' => 'フードファインダー',
+	'redo_a_title' => 'どのフードが合う？',
+	'redo_a_go' => '短いクイズを始める',
+	'redo_b_tag' => '定期購入でお得に',
+	'redo_b_title' => '毎回のボックスが10％オフ',
+	'redo_b_go' => '定期お届けを選ぶ',
 );

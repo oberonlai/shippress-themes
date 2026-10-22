@@ -19,6 +19,10 @@
 
 <!-- wp:paragraph {"className":"mo-lead mo-lead--page"} -->
 <p class="mo-lead mo-lead--page">Order by 14:00 Monday to Friday and it is packed the same day. UK delivery takes one or two working days, and unopened food and unused beds and bowls can come back within 30 days.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-pagehead__d"} -->
+<p class="mo-pagehead__d"><?php echo wp_kses_post( mochi_pet_supply_t( 'kd6964cca' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -89,31 +93,59 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"mo-sec mo-prose2","layout":{"type":"default"},"tagName":"section","align":"full"} -->
-<section class="wp-block-group alignfull mo-sec mo-prose2"><!-- wp:group {"className":"mo-wrap","layout":{"type":"default"}} -->
-<div class="wp-block-group mo-wrap"><!-- wp:group {"className":"mo-col8","layout":{"type":"default"}} -->
-<div class="wp-block-group mo-col8"><!-- wp:heading {"className":"mo-h3"} -->
+<!-- wp:group {"className":"mo-sec mo-prose2 mo-infosec","layout":{"type":"default"},"tagName":"section","align":"full"} -->
+<section class="wp-block-group alignfull mo-sec mo-prose2 mo-infosec"><!-- wp:group {"className":"mo-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-wrap"><!-- wp:group {"className":"mo-infos","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-infos"><!-- wp:group {"className":"mo-info sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-info sp-reveal sp-reveal--up"><!-- wp:heading {"className":"mo-h3"} -->
 <h2 class="wp-block-heading mo-h3">UK delivery</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mo-body"} -->
 <p class="mo-body">Parcels take one or two working days. Delivery is free over £40 and £3.95 below that, and the cost is shown before you pay.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 
-<!-- wp:heading {"className":"mo-h3"} -->
+<!-- wp:group {"className":"mo-info sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-info sp-reveal sp-reveal--up"><!-- wp:heading {"className":"mo-h3"} -->
 <h2 class="wp-block-heading mo-h3">The local van</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mo-body"} -->
 <p class="mo-body">On Tuesday and Friday Kofi Mensah’s van covers Leith, Portobello and Stockbridge, with no delivery charge. Pick the van at the checkout.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 
-<!-- wp:heading {"className":"mo-h3"} -->
+<!-- wp:group {"className":"mo-info sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-info sp-reveal sp-reveal--up"><!-- wp:heading {"className":"mo-h3"} -->
 <h2 class="wp-block-heading mo-h3">Returns and damaged parcels</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mo-body"} -->
 <p class="mo-body">Unopened food, and unused beds and bowls, can come back within 30 days. If something arrives damaged, email hello@mochipets.example with a photo and we will replace it.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"mo-box mo-box--inner mo-box--end","layout":{"type":"default"},"tagName":"section","align":"full"} -->
+<section class="wp-block-group alignfull mo-box mo-box--inner mo-box--end"><!-- wp:group {"className":"mo-box__in","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-box__in"><!-- wp:group {"className":"mo-card mo-card--wide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-card mo-card--wide sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"mo-tag mo-tag--food"} -->
+<p class="mo-tag mo-tag--food"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_b_tag' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-date"} -->
+<p class="mo-date"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_b_title' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-card__go"} -->
+<p class="mo-card__go"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_b_go' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-arrow"} -->
+<p class="mo-arrow"><a href="/subscribe-and-save/" aria-label="<?php echo esc_attr( mochi_pet_supply_t( 'redo_b_tag' ) ); ?>">→</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

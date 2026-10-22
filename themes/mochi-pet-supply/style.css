@@ -483,3 +483,32 @@ body.admin-bar .mo-pill { top: 47px; }
 :is(:lang(fr), :lang(de)) .mo-h1 { font-size: clamp(2.25rem, 7.5vw, 3.75rem); }
 :is(:lang(fr), :lang(de)) .mo-h2 { font-size: clamp(2rem, 4.4vw, 2.6rem); }
 :is(:lang(fr), :lang(de)) .mo-nav .wp-block-navigation-item__content { font-size: .875rem; }
+
+/* ===== redo (verdict 2): T3 ink band + cards on inner pages, dispatch chip in page heads ===== */
+.mo-box--end { padding: 80px 0; margin-top: 40px; }
+.mo-box--end:last-child { padding-bottom: 80px; }
+.mo-card--wide { padding: 28px 100px 28px 28px; min-height: 150px; }
+.mo-card--wide .mo-date { margin-top: 14px; font-size: 2.25rem; }
+.mo-card--wide .mo-card__go { padding-right: 0; margin-top: 4px; }
+.mo-infos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.mo-info { background: var(--mo-warm); border: 1px solid var(--mo-rule); border-radius: 10px; padding: 20px 24px 28px; box-sizing: border-box; }
+.mo-info .mo-h3 { margin-top: 18px; }
+.mo-info .mo-body { margin-top: 10px; max-width: none; }
+.mo-infosec .mo-more { margin-top: 40px; }
+.mo-facts .mo-fact { border-top: 2px solid var(--mo-accent); padding-top: 24px; }
+.mo-pagehead .mo-wrap { position: relative; }
+.mo-pagehead__d { margin: 28px 0 0; }
+.mo-pagehead__d .mo-dispatch--flow { margin: 0; }
+.mo-table--switch th:nth-child(4) { font: 700 1.0625rem/1.4 var(--mo-sans); color: var(--mo-ink); }
+@media (min-width: 1024px) {
+	.mo-pagehead__d { position: absolute; right: 0; bottom: 6px; margin: 0; }
+}
+@media (max-width: 1023px) {
+	.mo-infos { grid-template-columns: 1fr; }
+}
+@media (max-width: 781px) {
+	.mo-card--wide { padding: 22px 20px 84px; }
+	.mo-card--wide .mo-date { font-size: 1.875rem; }
+	.mo-box--end { padding: 48px 0; }
+}
+.mo-info > .mo-h3:first-child { margin-top: 0; }

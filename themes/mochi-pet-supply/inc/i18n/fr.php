@@ -148,4 +148,13 @@ return array(
 	'kfa6597ef' => 'Habitués',
 	'kfd9c84dc' => 'Cinq produits que nos clients rachètent le plus',
 	'search_results' => 'Résultats de recherche pour : %s',
+	'redo_dogs' => 'Chiens',
+	'redo_cats' => 'Chats',
+	'redo_small' => 'Petits animaux',
+	'redo_a_tag' => 'Questionnaire alimentaire',
+	'redo_a_title' => 'Quel aliment lui convient ?',
+	'redo_a_go' => 'Lancer le court quiz',
+	'redo_b_tag' => 'S\'abonner et économiser',
+	'redo_b_title' => '10 % de remise sur chaque box',
+	'redo_b_go' => 'Choisir une livraison régulière',
 );

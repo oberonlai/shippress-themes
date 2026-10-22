@@ -148,4 +148,13 @@ return array(
 	'kfa6597ef' => 'Stammkunden',
 	'kfd9c84dc' => 'Fünf Dinge, die unsere Kunden am häufigsten nachbestellen',
 	'search_results' => 'Suchergebnisse für: %s',
+	'redo_dogs' => 'Hunde',
+	'redo_cats' => 'Katzen',
+	'redo_small' => 'Kleintiere',
+	'redo_a_tag' => 'Futterfinder',
+	'redo_a_title' => 'Welches Futter passt?',
+	'redo_a_go' => 'Zum kurzen Quiz',
+	'redo_b_tag' => 'Abo & sparen',
+	'redo_b_title' => '10 % Rabatt auf jede Box',
+	'redo_b_go' => 'Regelmäßige Lieferung wählen',
 );

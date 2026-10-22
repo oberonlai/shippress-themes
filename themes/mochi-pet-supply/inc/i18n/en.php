@@ -148,4 +148,13 @@ return array(
 	'kfa6597ef' => 'Regulars',
 	'kfd9c84dc' => 'Five things our customers reorder most',
 	'search_results' => 'Search results for: %s',
+	'redo_dogs' => 'Dogs',
+	'redo_cats' => 'Cats',
+	'redo_small' => 'Small pets',
+	'redo_a_tag' => 'Food finder',
+	'redo_a_title' => 'Which food suits?',
+	'redo_a_go' => 'Start the short quiz',
+	'redo_b_tag' => 'Subscribe & save',
+	'redo_b_title' => '10% off every box',
+	'redo_b_go' => 'Choose a repeat delivery',
 );

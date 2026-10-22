@@ -19,6 +19,10 @@
 
 <!-- wp:paragraph {"className":"mo-lead mo-lead--page"} -->
 <p class="mo-lead mo-lead--page">Pick the food, choose how often it should arrive, and every repeat delivery is 10% cheaper than the shelf. Nothing to sign beyond the order, and you can skip, change or cancel up to 48 hours before dispatch.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-pagehead__d"} -->
+<p class="mo-pagehead__d"><?php echo wp_kses_post( mochi_pet_supply_t( 'kd6964cca' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

@@ -19,6 +19,10 @@
 
 <!-- wp:paragraph {"className":"mo-lead mo-lead--page"} -->
 <p class="mo-lead mo-lead--page">The shop and the packing room share one door on Brunton Lane. Walk in with the animal, or with a photo of the bag, and someone will find time to talk it through.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-pagehead__d"} -->
+<p class="mo-pagehead__d"><?php echo wp_kses_post( mochi_pet_supply_t( 'kd6964cca' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -76,6 +80,28 @@
 
 <!-- wp:paragraph {"className":"mo-more"} -->
 <p class="mo-more"><a href="/nutrition-desk/">Nutrition desk →</a><a href="/delivery-returns/">Delivery &amp; returns →</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"mo-box mo-box--inner mo-box--end","layout":{"type":"default"},"tagName":"section","align":"full"} -->
+<section class="wp-block-group alignfull mo-box mo-box--inner mo-box--end"><!-- wp:group {"className":"mo-box__in","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-box__in"><!-- wp:group {"className":"mo-card mo-card--wide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group mo-card mo-card--wide sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"mo-tag mo-tag--food"} -->
+<p class="mo-tag mo-tag--food"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_a_tag' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-date"} -->
+<p class="mo-date"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_a_title' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-card__go"} -->
+<p class="mo-card__go"><?php echo wp_kses_post( mochi_pet_supply_t( 'redo_a_go' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"mo-arrow"} -->
+<p class="mo-arrow"><a href="/food-finder/" aria-label="<?php echo esc_attr( mochi_pet_supply_t( 'redo_a_tag' ) ); ?>">→</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

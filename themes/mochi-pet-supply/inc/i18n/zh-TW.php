@@ -148,4 +148,13 @@ return array(
 	'kfa6597ef' => '熟客',
 	'kfd9c84dc' => '顧客最常回購的五樣',
 	'search_results' => '「%s」的搜尋結果',
+	'redo_dogs' => '狗狗',
+	'redo_cats' => '貓咪',
+	'redo_small' => '小動物',
+	'redo_a_tag' => '食物挑選',
+	'redo_a_title' => '哪一款適合牠？',
+	'redo_a_go' => '開始簡短問答',
+	'redo_b_tag' => '訂閱省更多',
+	'redo_b_title' => '每箱享 10% 優惠',
+	'redo_b_go' => '選擇定期配送',
 );
