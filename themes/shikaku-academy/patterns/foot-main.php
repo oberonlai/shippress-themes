@@ -10,7 +10,7 @@ $link = function ( $href, $label ) {
 };
 $courses = '';
 foreach ( array( 1 => '$149', 2 => '$169', 3 => '$229', 4 => '$159', 5 => '$179', 6 => '$189' ) as $i => $price ) {
-	$courses .= $link( '/courses/', sa_t( "c$i" ) . ', ' . $price );
+	$courses .= sa_p( 'sa-foot__link', '<a href="/courses/">' . esc_html( sa_t( "c$i" ) ) . ', <span class="sa-nb">' . esc_html( $price ) . '</span></a>' );
 }
 echo sa_g( 'sa-foot',
 	sa_g( 'sa-foot__grid',
