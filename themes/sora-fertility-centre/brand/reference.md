@@ -53,3 +53,6 @@ Site-wide easing tokens in CSS: `cubic-bezier(.215,.61,.355,1)` (39 uses), `(.19
 | Grey-green ground / dark ink / tiny green accent | Stone `#D5D0CB` / ink `#2E2A29` / 桜鼠 `#B39A9A` (deep `#8E7474` for text) ≤2% | All pages |
 | Band image stretch+drift (ScrollTrigger scrub) | `sp-parallax` on T2 portraits and interlude photo | Home, Treatments, Team, Stories |
 | Entry ease `.215,.61,.355,1` on paper/text | `sp-reveal--wipe` on T3 photo; `sp-stagger` + `sp-reveal--up` on 90-day row, roster, stories | Home, About, Contact, Stories |
+
+## Colour hue note (stage 2)
+The reference's grey-green ground (#D0D6D0) was moved to a warm stone grey (#D5D0CB, arch #E6E2DE) on purpose: the clinic's 桜鼠 accent (#B39A9A) is a dusty rose, and a green-grey ground made the accent look muddy. A warm ground keeps the reference's relationship (ground, one step lighter arch, deep ink, small muted accent) and the same lightness gap (arch L is >= 4 above the ground). The ground is a neutral stone, not cream, and the 桜鼠 accent stays on small marks only. Recent themes use other primaries (Taiyo solar orange, Hone, Yui, Kazu, Yamabiko), so there is no clash.
