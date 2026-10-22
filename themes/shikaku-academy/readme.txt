@@ -20,7 +20,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 
 On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates its pages with all their text and images, the menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
 
-Languages: the sample content comes in English (demo-content.json); further languages follow the same mechanism (demo-content.<lang>.json). The importer uses the `shippress_demo_lang` option, else the site language.
+Languages: the sample content comes in English (demo-content.json: home, courses, a course page, the lesson player, plans and pricing, how it works, instructors, student stories, about, support, FAQ, My courses, a journal with one article); further languages follow the same mechanism (demo-content.<lang>.json). The importer uses the `shippress_demo_lang` option, else the site language.
 
 The academy, its courses, people, address and prices are fictional.
 
@@ -43,3 +43,9 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p08.webp (home fan: a learner on a tablet on a commuter train)
 - assets/images/p09.webp (home faculty: an instructor recording in a small studio)
 - assets/images/p10.webp (home stories: a former learner leading a meeting at a site office)
+- assets/images/p11.webp (courses card 05: hands patching network cables into a panel)
+- assets/images/p12.webp (support head and about fan: a support team member with a headset)
+- assets/images/p13.webp (plans head and courses card 03: a learner taking notes beside a live Q&A video call)
+- assets/images/p14.webp (student stories head: a learner relieved after a mock exam)
+- assets/images/p15.webp (about head and support band: a brick and glass office by a canal)
+- assets/images/p16.webp (courses card 06, FAQ head, how it works and about fans, journal article: a flat lay of blank cards, pen, glasses and tablet)

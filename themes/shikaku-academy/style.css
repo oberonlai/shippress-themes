@@ -431,7 +431,7 @@ html.sp-js:not(.sp-no-motion) .sa-ring::after { animation: sa-ring-spin 60s line
 	.sa-list tbody tr { padding: 10px 0; }
 	.sa-list tbody th { padding: 12px 20px 6px; font-family: var(--sa-serif); font-size: 1.0625rem; }
 	.sa-list td:first-child { display: none; }
-	.sa-list td.sa-price { justify-content: space-between; }
+	.sa-list td.sa-price { width: auto; justify-content: space-between; align-items: baseline; }
 }
 .sa-faqgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
 .sa-faqp { padding: 32px 32px 18px; }
@@ -500,3 +500,10 @@ html.sp-js:not(.sp-no-motion) .sa-ring::after { animation: sa-ring-spin 60s line
 .sa-main .wp-block-post-content.sa-post__body > :where(p) { width: auto; margin-inline: 0; max-width: 62ch; }
 @media (max-width: 1023px) { .sa-post__grid { grid-template-columns: 1fr; gap: 32px; } .sa-post__img { position: static; } }
 .wp-block-query-pagination { margin-top: 3rem; gap: 1rem; font-size: 0.9375rem; }
+
+/* ---------- stage 2 fixes: tags beside the tab, step titles, bottom room before the footer ---------- */
+.sa-ladder--people .sa-tag, .sa-ladder--stories .sa-tag { display: block; width: fit-content; max-width: calc(100% - 130px); height: auto; min-height: 29px; padding: 6px 15px; line-height: 1.35; border-radius: 15px; }
+.sa-stepcard__t { padding-right: 170px; }
+.sa-main:not(.sa-main--front) { padding-bottom: calc(var(--sa-sec) * 0.6); }
+.sa-post__head .sa-postcard__d { margin-top: 1.2rem; margin-inline: 0.28em; }
+@media (max-width: 782px) { .sa-stepcard__t { padding-right: 80px; } .sa-ladder--people .sa-tag, .sa-ladder--stories .sa-tag { max-width: calc(100% - 100px); } }

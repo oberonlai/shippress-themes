@@ -51,6 +51,22 @@ Single course from $149 (one course, 12 months access) - Pathway bundle $429 (th
 - Live Q&A Wednesdays 19:00 CET; learner support Mon-Fri 08:00-18:00, Sat 09:00-13:00 CET; support@shikaku-academy.example.
 - No pass rates, awards, salary claims or outside certification brands; the academy issues a certificate of completion.
 
+## Inner pages (en, stage 2)
+Every inner page opens with a T1 head: a `[ Page name ]` label, one or two paper strips, a short lead and a documentary photo standing on the head's bottom rule.
+- **Courses** (P07 head): filter pills, two ladders of numbered-tab cards (PM 01-03, IT 04-06; P03, P04, P13, P05, P11, P16), a short guide to which plan to use.
+- **Project Delivery Foundations** (course page, P03 head): the lessons, a curriculum accordion of four modules (24 lessons), price and what is included, the instructor; a sticky price box with $149 and "Buy course".
+- **Lesson player** (P06 head): video frame, progress bar, numbered lesson list with mini number tabs; no decorative photos in the player; how the list, progress, mock exam and certificate work.
+- **Plans and pricing** (P13 head): the single / bundle / all-access comparison table, the six-course price list, four billing answers in outlined panels.
+- **How it works** (P08 head): four numbered-tab step cards, the plain-language steps, live Q&A and the support desk beside the T3 fan (P06, P07, P16).
+- **Instructors** (P09 head): seven numbered-tab cards without photos (name, subject, courses taught, bio).
+- **Student stories** (P14 head): three story cards in a descending ladder; Lucia has P10; each names the role before and now, the course taken and one quote. No pass rates or salaries.
+- **About** (P15 head): Helena Marsh in an outlined panel, T3 fan (P02, P16, P12) with the office and team text, facts list.
+- **Support and contact** (P12 head): hours, a contact form (mailto), Wednesday live Q&A, the Rotterdam office, and a full-width parallax photo band (P15).
+- **FAQ** (P16 head): twelve answers in four accordion groups (Buying, Learning, Access, Certificates).
+- **My courses** (P07 head): an example list with progress bars and how long access lasts.
+- **Journal** and one article ("Planning study on a single course, a bundle, or all-access", featured image P16).
+No photo repeats on one page. Photos: 16 (P01-P16) from one STYLE string.
+
 ## Signature techniques (carried to every page)
 1. T1: three stepped paper strips (#F6F7F8) with hanada-blue serif glyphs beside a documentary photo that stands on the fold; `[ bracket ]` labels, a ghost word, a dashed scroll ring.
 2. T2: numbered-tab course cards (110x80 ground-colour tab biting the 1px white border) that step down 40px each.
