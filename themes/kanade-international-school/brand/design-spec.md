@@ -1,6 +1,6 @@
 # Kanade International School: design spec (stage 1, binding for implementation)
 
-Slug `kanade-international-school`, IB international school (K–12), type `education`. Row b7-6: hero photo-left-text-right, centred nav, first screen three-equal-columns, page structure audience-gateway, archetype horizontal-strip, real high-key documentary photography, 青磁 `#7FA393` as the one muted accent.
+Slug `kanade-international-school`, IB international school (K–12), type `education`. Row b7-6: hero photo-left-text-right, centred nav, first screen three-equal-columns, page structure audience-gateway, archetype horizontal-strip, real high-key documentary photography, celadon `#7FA393` as the one muted accent.
 Reference: Kobe Women's University, https://www.kobe-wu.ac.jp/ (S5-Style education; screenshots `ref/kobewu-*.png`). Borrow shapes, composition and colour relationships only. No copy, photos, logos, mascots or sparkle marks.
 
 Fixed brand facts (every page, all five languages): **Kanade International School**, founded **1994**, campus at **Rua do Jardim Alto 18, 1400-150 Lisboa, Portugal** (fictional address). IB World School offering PYP, MYP and DP (a programme description, not an award). **640 students, ages 4–18, Kindergarten to Grade 12**, about **40 nationalities**, teaching language English. Currency **EUR** in every language, never converted.
@@ -51,7 +51,7 @@ From kobe-wu's relationships: a pale cool ground, one main hue on small elements
 | Ground | `#F6F7F4` | ground `#EEF7FB`, shifted neutral-green | page ground, T1 sheet | ~62% |
 | Surface / stone | `#E9ECE7` | support `#A4BFD4` relation (light surface) | T2 cards, fees panel, footer | ~20% |
 | Ink | `#1F2A2E` | heading ink | text, date badges, buttons | ~10% |
-| Accent 青磁 | `#7FA393` | green button `#72A59B` | rules (2 px), gateway top rules, PYP tint, focus ring | ≤ 3%, never a full-bleed field |
+| Accent celadon | `#7FA393` | green button `#72A59B` | rules (2 px), gateway top rules, PYP tint, focus ring | ≤ 3%, never a full-bleed field |
 | Accent deep | `#4F7465` | derived (4.9:1 on ground) | small labels, links, hover | ≤ 2% |
 | Slate | `#8C9DA8` | sky `#73AEC8` muted | MYP tint, map line | ≤ 1% |
 | Rule | `#D5DAD4` | — | 1 px dividers | — |
@@ -59,7 +59,7 @@ From kobe-wu's relationships: a pale cool ground, one main hue on small elements
 
 - Not beige-led: ground is a cool off-white; warm stone only as one mosaic tint.
 - First screen saturated pixels (`scripts/check-first-screen.py`): **cap 15%, target ≤ 10%**. Achieved by a high-key photo (white/pale timber building, students in light neutral clothing, green kept to small foliage) and celadon only on 2 px rules and small labels. No celadon button background on the first screen (primary button = ink).
-- Different from recent mains: Sora 桜鼠 pink-grey, Hibi teal, Yamabiko/Kazu/Yui — celadon green on cool off-white is new.
+- Different from recent mains: Sora pink-grey (sakura-nezu), Hibi teal, Yamabiko/Kazu/Yui — celadon green on cool off-white is new.
 
 ## 3. Type
 - Display: **Literata** (OFL) 400/500, headings, numbers, badge days. Body/UI: **Fira Sans** (OFL) 400/500/600. Verify licence files when bundling.

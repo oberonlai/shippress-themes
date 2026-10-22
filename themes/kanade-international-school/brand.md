@@ -9,6 +9,7 @@ Six hundred and forty students, ages 4 to 18, come from about 40 nationalities. 
 
 Families may enter in August or in January, and at other points in the year when a place is free. An enquiry by email or phone is answered within two school days. A visit is an open morning on a published Tuesday, 9:30 to 11:00, or a private tour. An application includes previous school reports and a one-time application fee of €250. Assessment and a family meeting follow within ten school days of a complete application. A place is confirmed with an enrolment deposit of €2,000, credited to the final term. Tuition for 2026–27 is quoted in euros and may be paid in three instalments, in August, January and April.
 
+- **Name:** Kanade International School
 - **Founded:** 1994
 - **Location:** Rua do Jardim Alto 18, 1400-150 Lisboa, Portugal (fictional address). Telephone +351 21 000 4800. admissions@kanade-school.example.
 - **Hours:** Office Monday–Friday 8:00–16:30. School day: arrival 8:20, lessons 8:30–15:20, activities until 16:30.

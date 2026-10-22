@@ -27,7 +27,7 @@ GNU General Public License for more details.
 == Resources ==
 
 = Fonts =
-Literata and Fira Sans, both SIL Open Font License 1.1, bundled in assets/fonts.
+Literata and Fira Sans, both SIL Open Font License 1.1, bundled in assets/fonts. Noto Serif JP and Noto Serif TC, both SIL Open Font License 1.1, are subset to the Japanese and Traditional Chinese sample text and bundled in assets/fonts.
 
 = Images =
 All photographs were generated with Grok for this theme and are released under GPL-2.0-or-later / CC0. They show no real people, places or brands.
@@ -44,6 +44,7 @@ assets/images/k09.webp: generated with Grok for this theme, GPL-2.0-or-later / C
 assets/images/k10.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/k11.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/k12.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/k12.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/k13.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/k14.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/k15.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
