@@ -49,3 +49,11 @@ assets/images/p17-group.webp: generated with Grok for this theme, GPL-2.0-or-lat
 assets/images/p18-study.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/watermark-ring.svg: drawn for this theme, GPL-2.0-or-later / CC0
 assets/images/demo/watermark-ring.png: raster copy of watermark-ring.svg for the demo import, GPL-2.0-or-later / CC0
+
+== Changelog ==
+
+= 1.0.1 =
+* The instructor portrait on the home page is regenerated so the laptop screen faces the instructor, not the camera; catalogue screenshots refreshed.
+
+= 1.0.0 =
+* First release.
