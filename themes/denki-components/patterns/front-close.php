@@ -28,7 +28,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<a class="dk-badge dk-badge--static" href="/samples/" aria-label="Request samples"><svg class="dk-badge__ring" viewBox="0 0 140 140" aria-hidden="true" focusable="false"><defs><path id="dk-ring-2" d="M70,70 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0"/></defs><text><textPath href="#dk-ring-2" textLength="372" lengthAdjust="spacing">REQUEST SAMPLES · 3-DAY DISPATCH · </textPath></text><circle cx="70" cy="10" r="3" fill="#B5683A"/></svg><span class="dk-badge__disc"><span class="dk-badge__word">Samples</span></span></a>
+<a class="dk-badge dk-badge--static" href="/samples/" aria-label="Request samples"><svg class="dk-badge__ring" viewBox="0 0 140 140" aria-hidden="true" focusable="false"><defs><path id="dk-ring-2" d="M70,70 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0"/></defs><text><textPath href="#dk-ring-2">REQUEST SAMPLES · 3-DAY DISPATCH · </textPath></text><circle cx="70" cy="4" r="3" fill="#B5683A"/></svg><span class="dk-badge__disc"><span class="dk-badge__word">Samples</span></span></a>
 <!-- /wp:html -->
 
 <!-- wp:buttons {"className":"sp-reveal sp-reveal--up"} -->
