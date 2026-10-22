@@ -10,92 +10,92 @@
 <section class="wp-block-group alignfull kn-fees kn-sec"><!-- wp:group {"className":"kn-in","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-in"><!-- wp:group {"className":"kn-sechead sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-sechead sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kn-label"} -->
-<p class="kn-label">Admissions and fees</p>
+<p class="kn-label"><?php echo wp_kses_post( kanade_international_school_t( 'k438c25e6' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":2,"className":"kn-h2"} -->
-<h2 class="wp-block-heading kn-h2">Five steps to a place, and what it costs.</h2>
+<h2 class="wp-block-heading kn-h2"><?php echo wp_kses_post( kanade_international_school_t( 'k6115ba89' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group --><!-- wp:group {"className":"kn-steps","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-steps"><!-- wp:paragraph {"className":"kn-step"} -->
-<p class="kn-step"><span class="kn-step__n">1</span><b>Enquire</b> by email or phone. Admissions replies within two school days.</p>
+<p class="kn-step"><span class="kn-step__n">1</span><b><?php echo wp_kses_post( kanade_international_school_t( 'kd497423b' ) ); ?></b> <?php echo wp_kses_post( kanade_international_school_t( 'kee683003' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-step"} -->
-<p class="kn-step"><span class="kn-step__n">2</span><b>Visit</b> an open morning, or arrange a private tour if those Tuesdays do not suit.</p>
+<p class="kn-step"><span class="kn-step__n">2</span><b><?php echo wp_kses_post( kanade_international_school_t( 'k5e706a9b' ) ); ?></b> <?php echo wp_kses_post( kanade_international_school_t( 'kc902fb74' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-step"} -->
-<p class="kn-step"><span class="kn-step__n">3</span><b>Apply</b> online with previous school reports and the €250 application fee, paid once and not refunded.</p>
+<p class="kn-step"><span class="kn-step__n">3</span><b><?php echo wp_kses_post( kanade_international_school_t( 'k9639e32c' ) ); ?></b> <?php echo wp_kses_post( kanade_international_school_t( 'kadeb3738' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-step"} -->
-<p class="kn-step"><span class="kn-step__n">4</span><b>Assessment</b> and a family meeting follow within ten school days of a complete application.</p>
+<p class="kn-step"><span class="kn-step__n">4</span><b><?php echo wp_kses_post( kanade_international_school_t( 'k29a99298' ) ); ?></b> <?php echo wp_kses_post( kanade_international_school_t( 'k0bc8223e' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-step"} -->
-<p class="kn-step"><span class="kn-step__n">5</span><b>Offer</b> confirmed with the €2,000 enrolment deposit, credited to the final term.</p>
+<p class="kn-step"><span class="kn-step__n">5</span><b><?php echo wp_kses_post( kanade_international_school_t( 'k6bb24468' ) ); ?></b> <?php echo wp_kses_post( kanade_international_school_t( 'kc2578217' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"kn-feelist","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-feelist"><!-- wp:group {"className":"kn-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-fee"><!-- wp:paragraph {"className":"kn-fee__i"} -->
-<p class="kn-fee__i">Application fee (one-time, non-refundable)</p>
+<p class="kn-fee__i"><?php echo wp_kses_post( kanade_international_school_t( 'k2e1b75a7' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__n"} -->
-<p class="kn-fee__n">Paid once with the application.</p>
+<p class="kn-fee__n"><?php echo wp_kses_post( kanade_international_school_t( 'kac17dc37' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__p"} -->
 <p class="kn-fee__p">€250</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"kn-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-fee"><!-- wp:paragraph {"className":"kn-fee__i"} -->
-<p class="kn-fee__i">Enrolment deposit (one-time, credited to the final term)</p>
+<p class="kn-fee__i"><?php echo wp_kses_post( kanade_international_school_t( 'kfe4799c3' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__n"} -->
-<p class="kn-fee__n">Confirms the place.</p>
+<p class="kn-fee__n"><?php echo wp_kses_post( kanade_international_school_t( 'k0d30edb1' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__p"} -->
 <p class="kn-fee__p">€2,000</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"kn-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-fee"><!-- wp:paragraph {"className":"kn-fee__i"} -->
-<p class="kn-fee__i">Kindergarten (ages 4–5)</p>
+<p class="kn-fee__i"><?php echo wp_kses_post( kanade_international_school_t( 'ka8284e09' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__n"} -->
-<p class="kn-fee__n">Per school year, 2026–27.</p>
+<p class="kn-fee__n"><?php echo wp_kses_post( kanade_international_school_t( 'k28902721' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__p"} -->
 <p class="kn-fee__p">€14,800</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"kn-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-fee"><!-- wp:paragraph {"className":"kn-fee__i"} -->
-<p class="kn-fee__i">Primary Years, Grades 1–5</p>
+<p class="kn-fee__i"><?php echo wp_kses_post( kanade_international_school_t( 'k5e8f7193' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__n"} -->
-<p class="kn-fee__n">Per school year, 2026–27.</p>
+<p class="kn-fee__n"><?php echo wp_kses_post( kanade_international_school_t( 'k28902721' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__p"} -->
 <p class="kn-fee__p">€17,600</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"kn-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-fee"><!-- wp:paragraph {"className":"kn-fee__i"} -->
-<p class="kn-fee__i">Middle Years, Grades 6–10</p>
+<p class="kn-fee__i"><?php echo wp_kses_post( kanade_international_school_t( 'k69d17320' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__n"} -->
-<p class="kn-fee__n">Per school year, 2026–27.</p>
+<p class="kn-fee__n"><?php echo wp_kses_post( kanade_international_school_t( 'k28902721' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__p"} -->
 <p class="kn-fee__p">€20,400</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"kn-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-fee"><!-- wp:paragraph {"className":"kn-fee__i"} -->
-<p class="kn-fee__i">Diploma Programme, Grades 11–12</p>
+<p class="kn-fee__i"><?php echo wp_kses_post( kanade_international_school_t( 'kb82d6a88' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__n"} -->
-<p class="kn-fee__n">Includes IB exam registration.</p>
+<p class="kn-fee__n"><?php echo wp_kses_post( kanade_international_school_t( 'k294ab3e1' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__p"} -->
 <p class="kn-fee__p">€23,900</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"kn-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-fee"><!-- wp:paragraph {"className":"kn-fee__i"} -->
-<p class="kn-fee__i">School bus (optional)</p>
+<p class="kn-fee__i"><?php echo wp_kses_post( kanade_international_school_t( 'k7ee99401' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__n"} -->
-<p class="kn-fee__n">Per school year. Four routes.</p>
+<p class="kn-fee__n"><?php echo wp_kses_post( kanade_international_school_t( 'k96191380' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__p"} -->
 <p class="kn-fee__p">€1,650</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"kn-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group kn-fee"><!-- wp:paragraph {"className":"kn-fee__i"} -->
-<p class="kn-fee__i">Lunch programme (optional)</p>
+<p class="kn-fee__i"><?php echo wp_kses_post( kanade_international_school_t( 'k9a176504' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__n"} -->
-<p class="kn-fee__n">Per school year.</p>
+<p class="kn-fee__n"><?php echo wp_kses_post( kanade_international_school_t( 'k99e4da2f' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-fee__p"} -->
 <p class="kn-fee__p">€1,280</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:paragraph {"className":"kn-note"} -->
-<p class="kn-note">Fees per school year, 2026–27; payable in three instalments.</p>
+<p class="kn-note"><?php echo wp_kses_post( kanade_international_school_t( 'k78b70fc1' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"kn-go"} -->
-<p class="kn-go"><a href="/fees/">Fees and payment details →</a></p>
+<p class="kn-go"><a href="/fees/"><?php echo wp_kses_post( kanade_international_school_t( 'k659bd02d' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
