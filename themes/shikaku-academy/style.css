@@ -36,6 +36,15 @@ Tags: education, e-commerce, block-patterns, full-site-editing, custom-colors, e
 :root:lang(zh) { --wp--preset--font-family--display: "Libre Baskerville", "Noto Serif TC", "Noto Serif CJK TC", serif; }
 :root:lang(ja) { --wp--preset--font-family--display: "Libre Baskerville", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; }
 :is(:lang(zh), :lang(ja)) body { line-height: 1.85; }
+:root:lang(zh), :root:lang(ja) {
+	--wp--preset--font-size--x-large: 1.25rem;
+	--wp--preset--font-size--xx-large: clamp(1.45rem, 2.4vw, 2.1rem);
+	--wp--preset--font-size--huge: clamp(1.8rem, 3.3vw, 3.2rem);
+	--wp--preset--font-size--display: clamp(2rem, 3.9vw, 3.95rem);
+	--wp--preset--font-size--giant: clamp(2.25rem, 6.75vw, 5.6rem);
+}
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, p, li) { line-break: strict; word-break: auto-phrase; overflow-wrap: anywhere; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { letter-spacing: 0.02em; }
 html:lang(fr) .sa-body, html:lang(de) .sa-body, html:lang(fr) .sa-about__p, html:lang(de) .sa-about__p { hyphens: auto; }
 
 body { overflow-x: clip; }
