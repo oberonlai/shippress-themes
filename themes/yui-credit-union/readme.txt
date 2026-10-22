@@ -41,6 +41,8 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/phone-cafe.webp (home join: hands holding a phone over a cafe table)
 - assets/images/community-hall.webp (home governance: members at folding tables in a hall)
 - assets/images/branch-exterior.webp (home branches: a glass-fronted branch exterior)
+- assets/images/branch-lobby.webp (branches page, Market Street: a bright branch lobby with plants and seating)
+- assets/images/branch-advisor.webp (branches page, Northgate: two members talking at an advisory desk)
 - assets/images/old-man-bicycle.webp (member stories: an older man with a bicycle outside a stone cottage)
 - assets/images/demo/branch-exterior.webp (Media Library raster copy of assets/images/branch-exterior.webp, same image and license)
 - assets/images/demo/community-hall.webp (Media Library raster copy of assets/images/community-hall.webp, same image and license)

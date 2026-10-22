@@ -259,7 +259,7 @@ a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible 
 /* grid containers: no flow margins between cells */
 :is(.ycu-pick, .ycu-own__grid, .ycu-calcsec__grid, .ycu-story__grid, .ycu-join__grid, .ycu-gov__cols, .ycu-br__grid, .ycu-br__cols, .ycu-close__panel, .ycu-hero__text, .ycu-head, .ycu-foot__grid) > * { margin-block-start: 0 !important; }
 .ycu-sec .alignwide > *, .ycu-footer .alignwide > * { min-width: 0; }
-@media (max-width: 781px) { .ycu-calcsec__panel, .ycu-calc { min-width: 0; max-width: 100%; } .ycu-calc__row select { max-width: 60%; } }
+@media (max-width: 781px) { .ycu-calcsec__panel, .ycu-calc { min-width: 0; max-width: 100%; } .ycu-calc__row:has(select) { flex-direction: column; align-items: stretch; gap: 8px; } .ycu-calc__row select { width: 100%; max-width: 100%; } }
 
 /* ---- inner pages ---- */
 .ycu-pagehead { padding-top: 72px; }
@@ -279,6 +279,7 @@ a:focus-visible, input:focus-visible, select:focus-visible, label:focus-visible 
 .ycu-notewrap { padding-top: 32px; }
 .ycu-rt__hl { background: var(--ycu-tint); box-shadow: inset 2px 0 0 var(--ycu-main); }
 .ycu-rt__hl th { padding-left: 14px !important; }
+.ycu-rt--hours .ycu-rt__rate { font-size: 1.125rem; white-space: nowrap; }
 .ycu-rt--4 .ycu-rt__term:last-child { text-align: right; width: auto; }
 .ycu-rt--4 thead th:last-child { text-align: right; }
 .ycu-checks { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ycu-ink); }
