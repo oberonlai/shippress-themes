@@ -82,3 +82,11 @@ assets/images/p15.webp: generated with Grok for this theme, GPL-2.0-or-later / C
 assets/images/p16.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p17.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p18.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+
+== Changelog ==
+
+= 1.0.1 =
+* The financing table stacks full width at 782px and wider so no column is clipped; catalogue screenshots refreshed.
+
+= 1.0.0 =
+* First release.
