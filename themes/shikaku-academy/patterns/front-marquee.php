@@ -9,5 +9,10 @@ $names = '';
 foreach ( array( 1, 2, 3, 4, 5, 6 ) as $i ) {
 	$names .= sa_p( 'sa-marq__item', esc_html( sa_t( "c$i" ) ) );
 }
-$aria = str_replace( 'class="wp-block-group sa-marq"', 'class="wp-block-group sa-marq" aria-hidden="true"', sa_g( 'sa-marq', $names ) );
+$plain = '';
+foreach ( array( 1, 2, 3, 4, 5, 6 ) as $i ) {
+	$plain .= '<p class="sa-marq__item">' . esc_html( sa_t( "c$i" ) ) . '</p>';
+}
+// The looping copy is a Custom HTML block so its aria-hidden survives block validation in the editor.
+$aria = '<!-- wp:html -->' . "\n" . '<div class="wp-block-group sa-marq" aria-hidden="true">' . $plain . '</div>' . "\n" . '<!-- /wp:html -->' . "\n\n";
 echo sa_g( 'sa-marquee sp-marquee', sa_g( 'sa-marq', $names ) . $aria, 'div', 'full' );

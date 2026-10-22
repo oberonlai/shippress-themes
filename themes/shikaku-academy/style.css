@@ -122,8 +122,8 @@ a { text-underline-offset: 0.2em; }
 @media (max-width: 899px) {
 	.sa-hero { min-height: 0; }
 	.sa-hero__text { width: auto; padding: 24px 20px 28px; }
-	.sa-strips { font-size: 2.6rem; gap: 8px; }
-	.sa-strip { white-space: normal; }
+	.sa-strips { font-size: min(2.3rem, 7.6vw); gap: 8px; }
+	.sa-strip { white-space: nowrap; }
 	.sa-strip:nth-child(2) { margin-left: 16px; }
 	.sa-strip:nth-child(3) { margin-left: 32px; }
 	.sa-lead { margin: 28px 0 24px; }
@@ -238,7 +238,7 @@ html:not(.sp-no-motion) .sa-marquee.sp-marquee > * { animation-duration: 40s; }
 .sa-story__n { margin: 0; font-family: var(--sa-serif); font-weight: 700; font-size: 1.125rem; }
 .sa-story__m { margin: 6px 0 0; font-size: 0.9375rem; line-height: 1.5; }
 .sa-story__c { margin: 10px 0 0; font-size: 0.8125rem; letter-spacing: 0.05em; color: var(--sa-muted); }
-@media (max-width: 1023px) { .sa-story { grid-template-columns: 1fr; gap: 20px; } .sa-story__photo { max-width: 260px; } .sa-story__photo--empty { display: none; } .sa-story__q { font-size: 1.25rem; } }
+@media (max-width: 1023px) { .sa-story { grid-template-columns: 1fr; gap: 20px; } .sa-story__photo { max-width: 260px; } .sa-story__photo--empty { display: block; max-width: none; } .sa-story__q { font-size: 1.25rem; } }
 
 /* ---------- support band ---------- */
 .sa-support { position: relative; margin-top: var(--sa-sec); padding: 140px 0 120px; overflow: clip; background: var(--sa-ground); }
@@ -272,3 +272,13 @@ html:not(.sp-no-motion) .sa-marquee.sp-marquee > * { animation-duration: 40s; }
 
 @media (min-width: 783px) and (max-width: 1099px) { .sa-th { flex-wrap: wrap; } .sa-plans th, .sa-plans td { padding-inline: 12px; } }
 .sa-foot__link .sa-nb { white-space: nowrap; }
+
+/* ---------- stage 2: strip reveal + ring arrow (CSS only, final state under no-JS / sp-static / reduced motion / editor) ---------- */
+.sa-ring::after { content: "\2193"; position: absolute; inset: 0; text-align: center; font-size: 0.75rem; line-height: 1; margin-top: -6px; letter-spacing: 0; }
+@keyframes sa-strip-in { from { clip-path: inset(0 0 100% 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes sa-ring-spin { to { transform: rotate(360deg); } }
+html.sp-js:not(.sp-no-motion) .sa-strip { animation: sa-strip-in 1.2s cubic-bezier(.86, 0, .07, 1) both; }
+html.sp-js:not(.sp-no-motion) .sa-strip:nth-child(2) { animation-delay: .22s; }
+html.sp-js:not(.sp-no-motion) .sa-strip:nth-child(3) { animation-delay: .44s; }
+html.sp-js:not(.sp-no-motion) .sa-ring::after { animation: sa-ring-spin 60s linear infinite; }
+@media (prefers-reduced-motion: reduce) { .sa-strip, .sa-ring::after { animation: none !important; } }
