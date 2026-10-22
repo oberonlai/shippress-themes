@@ -461,3 +461,25 @@ body.admin-bar .mo-pill { top: 47px; }
 .mo-foot { border-top: 1px solid rgba(247, 245, 242, .15); }
 .mo-box--inner:last-child { padding-bottom: 100px; }
 .mo-single__img img { max-height: 640px; object-position: 50% 70%; }
+
+/* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset for headings (CJK characters only; Latin and figures stay in Alegreya); French and German hyphenate ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", "Alegreya Sans", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Alegreya", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", "Alegreya Sans", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Alegreya", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .mo-h1, .mo-h2, .mo-h3, .mo-statement, .mo-eyebrow) { line-height: 1.4; letter-spacing: 0.04em; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) .mo-h1 { font-size: clamp(2rem, 7vw, 3.375rem); }
+:is(:lang(zh), :lang(ja)) .mo-h1--page { font-size: clamp(2rem, 4vw, 3.1875rem); }
+:is(:lang(zh), :lang(ja)) .mo-h2 { font-size: clamp(1.75rem, 4vw, 2.28rem); }
+:is(:lang(zh), :lang(ja)) .mo-statement, :is(:lang(zh), :lang(ja)) .mo-statement--md { font-size: clamp(1.75rem, 3.4vw, 2.44rem); }
+:is(:lang(zh), :lang(ja)) .mo-eyebrow { font-size: 1.1rem; }
+:lang(ja) :is(h1, h2, h3, p, li) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .mo-h1 { font-size: clamp(2.25rem, 7.5vw, 3.75rem); }
+:is(:lang(fr), :lang(de)) .mo-h2 { font-size: clamp(2rem, 4.4vw, 2.6rem); }
+:is(:lang(fr), :lang(de)) .mo-nav .wp-block-navigation-item__content { font-size: .875rem; }
