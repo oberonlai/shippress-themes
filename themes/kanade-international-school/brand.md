@@ -57,5 +57,8 @@ Literata (300/400) over Fira Sans (400/500/600). Largest size 4.5rem.
 ## Home page
 Hero with bite and card + three gateways; why families choose Kanade; programme mosaic; calendar cards; a day at Kanade (edge-to-edge strip); admissions steps and the full fee list; who you will meet; family stories; visit us.
 
+## Inner pages (en, 1.0.0)
+Admissions (steps, three open-morning cards), Fees (eight-row fee list), Curriculum (tinted programme mosaic as index), Campus life (four-tile mosaic), Calendar (term list, eight event cards), Our people (seven rows), Parents (three cards, three-tile hub), Careers (three position cards, badge = closing date), Stories and news (featured story, two story cards, three news cards), Contact and visit, Privacy, Safeguarding. One article: the Andersen family, first term. Every page head repeats the curved bite from the lower left.
+
 ## Next release
-Admissions, Fees, Curriculum, Campus life, Calendar, Our people, Parents, Careers, News, Contact, Privacy and Safeguarding; then zh-TW, ja, fr and de.
+zh-TW, ja, fr and de sample content.
