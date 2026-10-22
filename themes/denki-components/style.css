@@ -115,7 +115,7 @@ img { max-width: 100%; height: auto; }
 .dk-hero { padding-top: 72px; padding-bottom: 0; }
 .dk-hero__top { display: grid; grid-template-columns: 63% 1fr; align-items: end; }
 .dk-hero__h { margin: 0; font-family: var(--dk-serif); font-size: var(--wp--preset--font-size--display); font-weight: 300; line-height: 1.12; letter-spacing: -0.01em; }
-.dk-hero__side { padding-bottom: 6px; }
+.dk-hero__side { padding-bottom: 6px; align-self: end; }
 .dk-lead { margin: 0 0 24px; font-size: 1.25rem; line-height: 2; letter-spacing: 0.01em; }
 .dk-figures { display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 48px; border-top: 1px solid var(--dk-line); border-bottom: 1px solid var(--dk-line); }
 .dk-fig__cell { padding: 18px 24px 16px; }
@@ -218,6 +218,7 @@ img { max-width: 100%; height: auto; }
 .dk-case__photo img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 8px; }
 .dk-cases { margin-top: 40px; }
 .dk-case { margin-bottom: 32px; padding-top: 14px; border-top: 1px solid var(--dk-line); }
+.dk-case__title { margin: 2px 0 0; font: 600 1.125rem/1.4 var(--dk-sans); }
 .dk-case__sum { margin: 4px 0 18px; font-size: 0.9375rem; line-height: 1.87; }
 @media (max-width: 1100px) { .dk-cases__grid { column-gap: 8%; grid-template-columns: 34% 1fr; } }
 @media (max-width: 781px) { .dk-cases__grid { grid-template-columns: 1fr; row-gap: 32px; } .dk-sec .dk-case__photo { margin-top: 0; max-width: 320px; } }
@@ -255,12 +256,12 @@ img { max-width: 100%; height: auto; }
 .dk-badge { position: fixed; right: 30px; bottom: 30px; z-index: 40; display: grid; place-items: center; width: 140px; height: 140px; color: #fff; text-decoration: none; box-shadow: none; }
 .dk-badge:hover { color: #fff; }
 .dk-badge__ring { position: absolute; inset: 0; width: 140px; height: 140px; animation: dk-spin 24s linear infinite; }
-.dk-badge__ring text { font: 500 10px var(--dk-sans); letter-spacing: 0.52em; text-transform: uppercase; fill: rgba(19, 37, 59, 0.7); }
+.dk-badge__ring text { font: 500 9.7px var(--dk-sans); letter-spacing: 0.32em; text-transform: uppercase; fill: rgba(19, 37, 59, 0.7); }
 .dk-badge__disc { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 7px; width: 96px; height: 96px; border-radius: 50%; background: var(--dk-tekkon); transition: background-color .3s var(--dk-ease); }
 .dk-badge:hover .dk-badge__disc { background: var(--dk-blue); }
 .dk-badge__word { font: 600 0.875rem/1 var(--dk-sans); color: #fff; }
 .dk-badge__reel { width: 14px; height: 14px; }
-.dk-badge--static { position: static; display: none; width: 128px; height: 128px; margin: 4px 0 20px -10px; }
+.dk-badge--static { position: relative; right: auto; bottom: auto; display: none; width: 128px; height: 128px; margin: 4px 0 20px -10px; }
 .dk-badge--static .dk-badge__ring { width: 128px; height: 128px; animation: none; }
 .dk-badge--static .dk-badge__disc { width: 88px; height: 88px; }
 @keyframes dk-spin { to { transform: rotate(360deg); } }
@@ -293,3 +294,8 @@ html.sp-no-motion .dk-badge__ring { animation: none; }
 .dk-newsrow > * { margin: 0; }
 .dk-single-img img { border-radius: 8px; }
 @media (max-width: 781px) { .dk-newsrow { grid-template-columns: 1fr; } }
+
+/* fixed badge slides under the ledger values and the price list */
+.dk-ledger, .dk-price { position: relative; z-index: 41; }
+.dk-ledger { background: var(--dk-ground, #F0F2F7); }
+.dk-badge__ring { background: rgba(240, 242, 247, 0.94); border-radius: 50%; }

@@ -33,6 +33,10 @@
 <p class="dk-index">(Case 01) Hearing device</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:paragraph {"className":"dk-case__title"} -->
+<p class="dk-case__title">0201 capacitors free 18% board area</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:paragraph {"className":"dk-case__sum"} -->
 <p class="dk-case__sum">Moving from 0402 to 0201 X7R capacitors freed board area. The customer reports 18% less area on the amplifier board.</p>
 <!-- /wp:paragraph -->
@@ -47,6 +51,10 @@
 <p class="dk-index">(Case 02) E-bike motor controller</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:paragraph {"className":"dk-case__title"} -->
+<p class="dk-case__title">Cooler windings at rated current</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:paragraph {"className":"dk-case__sum"} -->
 <p class="dk-case__sum">DL-PW power inductors, qualified to AEC-Q200 with a reworked winding. The customer measured a coil temperature 6 °C lower at rated current.</p>
 <!-- /wp:paragraph -->
@@ -59,6 +67,10 @@
 <!-- wp:group {"className":"dk-case sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-case sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"dk-index"} -->
 <p class="dk-index">(Case 03) Smart electricity meter</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"dk-case__title"} -->
+<p class="dk-case__title">No resistor drift after field failures</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"dk-case__sum"} -->

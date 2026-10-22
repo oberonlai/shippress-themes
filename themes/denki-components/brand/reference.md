@@ -13,7 +13,7 @@ Measured tokens: `reference-tokens.md`. Scroll teardown: `ref/scroll-*.png` and 
 | A3 | R1 | Intro text pushed into the right half (starts x=900) leaving the left ~55% empty on the pale ground, directly under the hero | S-a: home block 2 intro and every inner page intro at 62.5% with empty left ground |
 | A4 | R1 | Small 3:4 portraits (r8, 216-259px wide) scattered at different heights/x on the ground, a 420px text block between them | Home block 6 portrait offset +80 px; About portraits at 0 / 180 px |
 | B1 | R2 | Photo field: monochrome photos of mixed size (160-500px) at staggered y offsets, drifting horizontally with scroll; caption + #tag under each | S-b: home block 5 and Plant page staggered field (4 photos, offsets 0/85/24/140 px, caption + # tag), per-photo sp-parallax 6–12% |
-| B2 | R2 | Fixed 96px disc "CONTACT" with a 140px ring of rotating wide-tracked text, top-right | T3: fixed 96 px 鉄紺 #2E3A4B "Samples" disc bottom-right, 140 px rotating ring text (24 s), copper dot; hidden < 782 px |
+| B2 | R2 | Fixed 96px disc "CONTACT" with a 140px ring of rotating wide-tracked text, top-right | T3: fixed 96 px tekkon (iron navy) #2E3A4B "Samples" disc bottom-right, 140 px rotating ring text (24 s), copper dot; hidden < 782 px |
 | B3 | R2 | Giant wide-grotesk marquee line cropped by the viewport edges under the hero | Not used (giant marquee would read as a loud display line; quiet palette rule) |
 | B4 | R2 | Small uppercase wide-tracked section label above body copy | Section labels: 0.75rem uppercase 0.24em accent above every H2 |
 Take for Denki Components (quiet palette only): A1 (as the product-families ledger), A2, A3 from R1; B1 (staggered photo offsets, light-touch) and B2 (round "Request samples" badge) from R2, recoloured to ink/stone, no orange field, no dark full-bleed ground.
@@ -24,14 +24,14 @@ Take for Denki Components (quiet palette only): A1 (as the product-families ledg
 | R1 | 13.0% (hero art blobs) | #C8E0F0 27%, #F8F8F8 22%; later screens 0.1-3.8% sat on #F0F0F8 / #E8F0F0 / #F8F8F8 |
 | R2 | 60% (night-blue hero art), later screens 25.6% | #101010 45%, orange #E86010 2.5% - structure only, not usable as ratio |
 
-## Palette (relationship from R1; accent per design-plan 鉄紺 #2E3A4B)
+## Palette (relationship from R1; accent per design-plan tekkon (iron navy) #2E3A4B)
 | Role | Hex | Share | Source |
 |------|-----|-------|--------|
 | Ground | #F2F4F7 (cool paper) | ~55% | R1 #F0F0F8 / #F8F8F8 field |
 | Band / surface | #E6ECF0 | ~20% | R1 #E8F0F0 band |
 | White | #FFFFFF | ~15% | R1 header and card whites |
 | Ink | #13253B | ~7% (text) | R1 body ink rgb(19,37,59) |
-| Accent (main) | #2E3A4B 鉄紺 | ~2% small areas: arrow disc, index labels, hairline tint, buttons | design-plan hex, used like R1's #2E5DBC |
+| Accent (main) | #2E3A4B tekkon (iron navy) | ~2% small areas: arrow disc, index labels, hairline tint, buttons | design-plan hex, used like R1's #2E5DBC |
 | Spot | #B5683A copper | <=1% (one detail: sample badge ring / active mark) | R2 orange logic, desaturated |
 First-screen saturated target <= 8% (cap 15%).
 

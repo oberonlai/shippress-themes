@@ -4,10 +4,11 @@ Denki Components — a business theme for a passive-components maker, built as a
 
 ## Structure
 - `patterns/front-*.php`: the eight home sections (hero, intro, families, ledger, plant, cases, kits, close).
-- `templates/`: front-page, page, single, index/archive/search and 404 (inner-page templates follow in stage two).
+- `templates/`: front-page, page, single, index/archive/search and 404 (full inner-page layouts follow; the menu pages exist as short pages so every link resolves).
 - `parts/`: header (top bar, nav, language links) and footer (with the fixed samples badge).
 - `assets/sp-scroll.css`, `assets/sp-scroll.js`: ShipPress scroll effects (reveal, wipe, parallax); `assets/fonts/`: IBM Plex.
-- Photos: `assets/images/demo/` (AI-generated, GPL-2.0-or-later / CC0). See `readme.txt` for the list.
+- Photos: `assets/images/` (12 AI-generated photographs from one style prompt, GPL-2.0-or-later / CC0; no people in the product macros). See `readme.txt`.
+- Demo content: `demo-content.json` (home plus the menu pages: products, three family pages, quality, plant, cases, about, contact, samples, news).
 
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 

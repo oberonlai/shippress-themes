@@ -73,12 +73,12 @@
 <!-- wp:group {"align":"wide","className":"dk-hero__media","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide dk-hero__media"><!-- wp:group {"className":"dk-window sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-window sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01-reel-line.webp' ) ); ?>" alt="Macro of a tape-and-reel line: embossed carrier tape full of tiny black chip components running over a steel sprocket as the cover tape peels away."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01-reel-line.webp' ) ); ?>" alt="Macro of a tape-and-reel line: black embossed carrier tape holding tiny ceramic chip capacitors runs over a steel sprocket as the cover tape peels away."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"dk-cap"} -->
-<p class="dk-cap">Taping line 3, Eindhoven — 0402 capacitors leaving the reel sealer.</p>
+<p class="dk-cap">Taping line 3, Eindhoven — chip parts leaving the reel sealer.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

@@ -1,6 +1,6 @@
 # Denki Components: design spec (stage 1, binding for implementation)
 
-Slug `denki-components`, row b7-8. B2B maker of passive electronic components (multilayer ceramic capacitors, thick-film chip resistors, power inductors, ferrite chip beads). Type `business` (declares WooCommerce support, does not need it, works without it). Row: archetype **sticky-media**, hero **framed-window**, nav **top-bar**, first screen **top-bottom-halves**, page structure **metrics-ledger**, real photography, palette family blue (鉄紺 `#2E3A4B`), fonts **IBM Plex Serif + IBM Plex Sans** (both OFL 1.1, verify the licence file when bundling).
+Slug `denki-components`, row b7-8. B2B maker of passive electronic components (multilayer ceramic capacitors, thick-film chip resistors, power inductors, ferrite chip beads). Type `business` (declares WooCommerce support, does not need it, works without it). Row: archetype **sticky-media**, hero **framed-window**, nav **top-bar**, first screen **top-bottom-halves**, page structure **metrics-ledger**, real photography, palette family blue (tekkon (iron navy) `#2E3A4B`), fonts **IBM Plex Serif + IBM Plex Sans** (both OFL 1.1, verify the licence file when bundling).
 
 References (see `reference.md`, `reference-tokens.md`, screenshots in `ref/`):
 - **R1 (main)** Nitta DuPont, https://www.nittadupont.co.jp (S5-Style /10886/): pale cool ground, ruled product rows, outline pill with a round arrow disc, intro pushed into the right column, small portraits at different heights.
@@ -24,20 +24,20 @@ Lessons applied: no softening of R1's contrast into pale stone (Tsumugi); one nu
   - Rows are **not** alternated: the photo stays left in every row (as R1).
 - **Must not be diluted**: hairline must run the full 1380 width and be visibly blue-grey (not `#eee`); the text column must start at 62.5% (leave the 8.5% gap; do not centre the text against the photo); photo 3:2 at 54% with 8 px radius (not 0, not 16+); index label in accent blue with the "(01)" parentheses; title 28 px / 600 sans (not serif, not larger).
 
-### T2. Outline pill with a filled round arrow disc at its right end (R1 "製品情報一覧" button, `ref/nitta-part1.png`, tokens d, f)
+### T2. Outline pill with a filled round arrow disc at its right end (R1 "product information list" button, `ref/nitta-part1.png`, tokens d, f)
 - **Reference**: 232 × 58 outline pill, radius 29, 1 px pale blue-grey outline on the pale ground, label 15 px / 600 ink at 32 px from the left, a **filled 34 px blue disc with a white 12 px arrow** sitting inside the right end (10 px right padding).
-- **Denki**: every primary call to action site-wide (`a.dk-pill` via a `core/button` style variation "Pill disc"): `min-width: 232px; height: 58px; border-radius: 29px; border: 1px solid rgba(52,96,149,.35); background: #FFFFFF; padding: 0 10px 0 32px; display:inline-flex; align-items:center; justify-content:space-between; gap: 24px`; label IBM Plex Sans 600 0.9375rem ink `#13253B`; disc `::after` 34 × 34, `border-radius:50%`, background accent `#2E5DBC`, white arrow (inline SVG mask, 12 px). Hover: outline becomes `#2E5DBC`, disc becomes 鉄紺 `#2E3A4B`, arrow slides 3 px right (transition 300 ms `cubic-bezier(.22,1,.36,1)`).
+- **Denki**: every primary call to action site-wide (`a.dk-pill` via a `core/button` style variation "Pill disc"): `min-width: 232px; height: 58px; border-radius: 29px; border: 1px solid rgba(52,96,149,.35); background: #FFFFFF; padding: 0 10px 0 32px; display:inline-flex; align-items:center; justify-content:space-between; gap: 24px`; label IBM Plex Sans 600 0.9375rem ink `#13253B`; disc `::after` 34 × 34, `border-radius:50%`, background accent `#2E5DBC`, white arrow (inline SVG mask, 12 px). Hover: outline becomes `#2E5DBC`, disc becomes tekkon (iron navy) `#2E3A4B`, arrow slides 3 px right (transition 300 ms `cubic-bezier(.22,1,.36,1)`).
 - Used on home: hero ("Request samples"), block 2 ("About the company"), block 4 ("Quality reports"), block 7 ("All sample kits"), block 8 ("Request samples"). No other button style on the site except the form submit (same pill, `<button>`).
 - **Must not be diluted**: the disc must be filled accent blue and sit inside the pill (not beside it); pill white on the pale ground with a visible outline; height ≥ 56 px on desktop, 52 px on mobile.
 
 ### T3. Fixed round "Samples" badge with a rotating ring of tracked text (R2 "CONTACT" disc, `ref/elec-part1.png`, `ref/elec-part3.png`, token f)
 - **Reference**: a 96 px filled disc fixed top-right with one bold word and a small icon; around it a 140 px ring of 10 px wide-tracked uppercase text rotating slowly; it stays in place while the page scrolls.
 - **Denki**: `a.dk-badge` linking to `/samples/`, rendered once in the footer template part but `position: fixed`.
-  - Desktop ≥ 782 px: `right: 30px; bottom: 30px` (bottom-right instead of R2's top-right, because our 80 px top bar holds the nav; size and behaviour unchanged). Disc 96 × 96, background 鉄紺 `#2E3A4B`, label "Samples" IBM Plex Sans 600 0.875rem white, under it a 14 px outline reel icon (inline SVG, white). Ring: SVG `textPath` on a 140 px circle, text "REQUEST SAMPLES · 3-DAY DISPATCH · " repeated to fill, IBM Plex Sans 500 0.625rem (10 px), letter-spacing 0.32em, uppercase, fill ink `#13253B` at 70%; one 6 px copper `#B5683A` dot on the ring at 12 o'clock (the only copper on the site besides the hover state of `dk-index` in the footer). Rotation: CSS `@keyframes dk-spin {to {transform: rotate(360deg)}}` 24 s linear infinite on the ring only. `@media (prefers-reduced-motion: reduce)` and `html.sp-no-motion`: `animation: none`. `z-index: 40`, `box-shadow: none`.
+  - Desktop ≥ 782 px: `right: 30px; bottom: 30px` (bottom-right instead of R2's top-right, because our 80 px top bar holds the nav; size and behaviour unchanged). Disc 96 × 96, background tekkon (iron navy) `#2E3A4B`, label "Samples" IBM Plex Sans 600 0.875rem white, under it a 14 px outline reel icon (inline SVG, white). Ring: SVG `textPath` on a 140 px circle, text "REQUEST SAMPLES · 3-DAY DISPATCH · " repeated to fill, IBM Plex Sans 500 0.625rem (10 px), letter-spacing 0.32em, uppercase, fill ink `#13253B` at 70%; one 6 px copper `#B5683A` dot on the ring at 12 o'clock (the only copper on the site besides the hover state of `dk-index` in the footer). Rotation: CSS `@keyframes dk-spin {to {transform: rotate(360deg)}}` 24 s linear infinite on the ring only. `@media (prefers-reduced-motion: reduce)` and `html.sp-no-motion`: `animation: none`. `z-index: 40`, `box-shadow: none`.
   - It must not cover the hero headline or the hero figure band at 1440 × 900 or 1280 × 800 (it sits over the framed photo at the bottom-right — check in the first-screen screenshot).
   - **Mobile < 782 px: the fixed badge is hidden** (`display:none`) so nothing is absolutely positioned over text on a 390 px screen; the header shows a plain "Samples" text link instead, and home block 8 shows a static 88 px badge (same disc, ring not rotating) inline above the pill.
-  - Labels per language: ring text stays English uppercase in en/fr/de ("REQUEST SAMPLES · 3-DAY DISPATCH"), zh-TW/ja ring text also English (decorative), disc word translated: 樣品 / サンプル / Échantillons (0.75rem) / Muster.
-- **Must not be diluted**: the disc stays filled 鉄紺 (not outline, not pale), ≥ 88 px, with the visible ring of tracked text; it is fixed and visible on every page on desktop.
+  - Labels per language: ring text stays English uppercase in en/fr/de ("REQUEST SAMPLES · 3-DAY DISPATCH"), zh-TW/ja ring text also English (decorative), disc word translated: [JP] / [JP] / Échantillons (0.75rem) / Muster.
+- **Must not be diluted**: the disc stays filled tekkon (iron navy) (not outline, not pale), ≥ 88 px, with the visible ring of tracked text; it is fixed and visible on every page on desktop.
 
 ### Supporting moves (not counted as signatures, but required)
 - **S-a, intro in the right column (R1 A3, `ref/nitta-part1.png`)**: home block 2 and every inner page intro set their text in a column starting at 62.5% (`margin-left: 62.5%` on desktop inside alignwide, width ≤ 37.5% − 30 px), leaving the left 55% empty pale ground except one small caption (IBM Plex Sans 500 0.8125rem accent: "(About) Since 1987") at the top-left of that empty area. Mobile: full width.
@@ -61,7 +61,7 @@ Lessons applied: no softening of R1's contrast into pale stone (Tsumugi); one nu
 
 ---
 
-## 2. Colour (R1 values; accent from the row's 鉄紺 used R1-style on small areas)
+## 2. Colour (R1 values; accent from the row's tekkon (iron navy) used R1-style on small areas)
 
 | Role | Hex | Source token | Use | Share of a scrolled screen |
 |---|---|---|---|---|
@@ -71,12 +71,12 @@ Lessons applied: no softening of R1's contrast into pale stone (Tsumugi); one nu
 | Ink | `#13253B` | R1 (a) rgb(19,37,59) exact | all text, headings, dotted underline | ~8% text |
 | Muted ink | `#4A5A6E` | R1 ink lightened for meta | range lines, captions, dates | text only |
 | Accent blue | `#2E5DBC` | R1 (a) accent rgb(46,93,188) exact | T1 index labels, T2 disc, active nav underline, links hover, scroll cue | ≤ 2% |
-| 鉄紺 (row hex) | `#2E3A4B` | design-plan row b7-8 | T3 badge disc, pill hover disc, footer bottom rule text | ≤ 1.5%, never a full-bleed field |
+| tekkon (iron navy) (row hex) | `#2E3A4B` | design-plan row b7-8 | T3 badge disc, pill hover disc, footer bottom rule text | ≤ 1.5%, never a full-bleed field |
 | Hairline | `rgba(52,96,149,.30)` | R1 (a) hairline exact | T1 rules, table rules, header bottom rule | lines only |
 | Copper spot | `#B5683A` | R2 orange `#E86010` logic, desaturated | the one dot on the T3 ring | < 0.2% |
 
 - No beige/cream. No dark full-bleed section anywhere (R2's black ground is rejected: the row asks for a quiet low-chroma ground).
-- Contrast: ink on ground 14.6:1; accent `#2E5DBC` on ground 5.6:1 (OK for the 14 px index labels); white on accent disc ≥ 5:1; white on 鉄紺 11:1.
+- Contrast: ink on ground 14.6:1; accent `#2E5DBC` on ground 5.6:1 (OK for the 14 px index labels); white on accent disc ≥ 5:1; white on tekkon (iron navy) 11:1.
 - **First screen saturated pixels (`scripts/check-first-screen.py`): cap 15%, target ≤ 8%.** R1 hero was 13% from its art; ours has no coloured art — the only chroma is the hero photo (graded cool, low chroma by STYLE) and the accent disc. No coloured UI field over the photo.
 - Hero photo P01 must not show green solder mask or saturated LEDs (STYLE excludes them); if a generated image measures > 8% saturated, regenerate rather than desaturate in CSS.
 
@@ -98,7 +98,7 @@ Lessons applied: no softening of R1's contrast into pale stone (Tsumugi); one nu
 
 Presets in theme.json: small 0.8125rem, base 0.9375rem, medium 1.25rem, large 1.75rem, x-large 2.5rem, xx-large 3.5rem, x-large-display 4.25rem, display 5.5rem. zh-TW Noto Serif TC / ja Noto Serif JP for H1/H2 at ~0.75× the English size, body Noto Sans TC/JP line-height 1.85; fr/de `hyphens: auto`. One top menu only.
 
-**Header (top-bar, R1)**: 80 px white bar, sticky, `border-bottom: 1px solid rgba(52,96,149,.18)`; container 1380 with 30 px gutters (R1 c). Left: wordmark "Denki Components" IBM Plex Sans 600 1.0625rem ink with a 10 px accent disc before it (no logo image). Right: nav Products · Quality · Plant · Cases · About · Contact (13 px / 500 / 0.04em, 18 px side padding), then a 1 px dotted vertical divider, then language links EN | 中文 | 日本語 | FR | DE (13 px, active accent `#2E5DBC`, others ink 40%) — R1's JP | EN | ZH pattern. Mobile < 960: wordmark + "Samples" link + two-line menu icon opening a white overlay.
+**Header (top-bar, R1)**: 80 px white bar, sticky, `border-bottom: 1px solid rgba(52,96,149,.18)`; container 1380 with 30 px gutters (R1 c). Left: wordmark "Denki Components" IBM Plex Sans 600 1.0625rem ink with a 10 px accent disc before it (no logo image). Right: nav Products · Quality · Plant · Cases · About · Contact (13 px / 500 / 0.04em, 18 px side padding), then a 1 px dotted vertical divider, then language links EN | [JP] | [JP] | FR | DE (13 px, active accent `#2E5DBC`, others ink 40%) — R1's JP | EN | ZH pattern. Mobile < 960: wordmark + "Samples" link + two-line menu icon opening a white overlay.
 
 **Footer**: surface `#E8F0F0` full-bleed; 4 columns (address/hours, products, company, legal); bottom line 0.75rem muted with "© 2026 Denki Components B.V." (sample text). No dark footer.
 
@@ -292,7 +292,7 @@ Effects per page ≤ 3 types: Home = reveal--up(+stagger), wipe, parallax. Quali
 | Ground colour | R1 (a) `#F0F0F8` / `#F8F8F8`, ~75% | `#F0F2F7`, ~55% + white 15% |
 | Band colour | R1 (a) `#E8F0F0` | `#E8F0F0` |
 | Ink | R1 (a) `#13253B` | `#13253B` |
-| Accent | R1 (a) `#2E5DBC` < 1% | `#2E5DBC` ≤ 2% + 鉄紺 `#2E3A4B` ≤ 1.5% (row hex) |
+| Accent | R1 (a) `#2E5DBC` < 1% | `#2E5DBC` ≤ 2% + tekkon (iron navy) `#2E3A4B` ≤ 1.5% (row hex) |
 | Hairline | R1 (a) rgba(52,96,149,.30) 1 px | same |
 | First-screen saturation | R1 13.0% | target ≤ 8%, cap 15% |
 | Hero headline | R1 (b) 88 px / 300 / ~1.2 | 5.5rem (88 px) / 300 / 1.12, Plex Serif |
@@ -309,7 +309,7 @@ Effects per page ≤ 3 types: Home = reveal--up(+stagger), wipe, parallax. Quali
 | Portrait offsets | R1 (e) 3:4 portraits at different heights | home 6 portrait +80 px; About portraits 0 / 180 px |
 | Pill button | R1 (d, f) 232 × 58, r29, 34 px disc | 232 × 58, r29, 34 px `#2E5DBC` disc |
 | Dotted link | R1 (d) 1 px dotted underline, 166 px | 1 px dotted, 166 px |
-| Badge | R2 (f) 96 px disc, 140 px rotating ring, 10 px tracked | 96 px 鉄紺 disc, 140 px ring, 10 px / 0.32em, 24 s |
+| Badge | R2 (f) 96 px disc, 140 px rotating ring, 10 px tracked | 96 px tekkon (iron navy) disc, 140 px ring, 10 px / 0.32em, 24 s |
 | Photo field | R2 (e) mixed sizes, y offsets 0–85 px, caption + #tag | 4 sizes, offsets 0 / 85 / 24 / 140 px, caption + `# tag` |
 | Reveal | R1 (g) 1100 ms, easeOutQuint, 40 px | 1.1 s, `cubic-bezier(.22,1,.36,1)`, 24 px (≤ 30 rule) |
 | Stagger | R1 (g) +140 ms | +120 ms (built-in) |
@@ -325,12 +325,12 @@ Not copied: R1 hero blob art, R2 dark ground and orange, all text, photos, logos
 2. 390 × 844 first screen: everything in flow, figure band 2 × 2, no badge, no overlap, no horizontal overflow.
 3. T1 rows on home block 3: full-width blue-grey hairlines, 3:2 8 px photos at 54% flush left, text from 62.5% with accent "(01)" labels, 28 px / 600 titles, dotted 166 px links.
 4. T2 pill with filled 34 px accent disc on every CTA (hero, 2, 4, 7, 8).
-5. T3 fixed 鉄紺 badge with rotating ring visible bottom-right on desktop; hidden < 782; stops under reduced motion.
+5. T3 fixed tekkon (iron navy) badge with rotating ring visible bottom-right on desktop; hidden < 782; stops under reduced motion.
 6. Block order equals section 4; sticky P06 beside the monthly ledger; staggered field with 4 photos, captions and #tags.
 7. 12 photo positions, no repeats, no text/logos/broken hands, same STYLE; no cut-outs.
 8. Price list full container width at 800 and 1280, prices nowrap right and fully visible; stacked < 782.
 9. Numbers on home match section 8 exactly (figures, prices, names, address, hours).
 10. Motion: no reveal in the hero; reveal--up/stagger, wipe (L→R) and parallax only; `check-parallax.mjs` passes (hero ≥ 6 px displacement desktop and mobile, 0 under reduced motion); `?sp-static` shows all content; no-JS shows all content.
-11. Colours as section 2: accent and 鉄紺 only on small areas; no dark or saturated full-bleed field; no beige.
+11. Colours as section 2: accent and tekkon (iron navy) only on small areas; no dark or saturated full-bleed field; no beige.
 12. en home ≥ 250 words with ≥ 3 narrative paragraphs; IBM Plex Serif/Sans loaded locally (OFL), theme max font size 5.5rem.
 13. `auto-gates.mjs … en … 1 1` passes.

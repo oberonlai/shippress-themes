@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"dk-sec dk-close","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull dk-sec dk-close"><!-- wp:group {"align":"wide","className":"dk-close__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide dk-close__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dk-close__photo"} -->
-<figure class="wp-block-image size-full dk-close__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-plant-exterior.webp' ) ); ?>" alt="Modern low plant building with grey cladding and glass under an overcast cool sky, empty forecourt."/></figure>
+<figure class="wp-block-image size-full dk-close__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-plant-exterior.webp' ) ); ?>" alt="Modern low plant building with grey cladding and glass under an overcast cool sky, empty paved forecourt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"dk-close__col sp-stagger","layout":{"type":"default"}} -->
@@ -28,7 +28,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<a class="dk-badge dk-badge--static" href="/samples/" aria-label="Request samples"><svg class="dk-badge__ring" viewBox="0 0 140 140" aria-hidden="true" focusable="false"><defs><path id="dk-ring-2" d="M70,70 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0"/></defs><text><textPath href="#dk-ring-2">REQUEST SAMPLES · 3-DAY DISPATCH · </textPath></text><circle cx="70" cy="4" r="3" fill="#B5683A"/></svg><span class="dk-badge__disc"><span class="dk-badge__word">Samples</span></span></a>
+<a class="dk-badge dk-badge--static" href="/samples/" aria-label="Request samples"><svg class="dk-badge__ring" viewBox="0 0 140 140" aria-hidden="true" focusable="false"><defs><path id="dk-ring-2" d="M70,70 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0"/></defs><text><textPath href="#dk-ring-2">REQUEST SAMPLES · 3-DAY DISPATCH · EST. 1987 · </textPath></text><circle cx="70" cy="4" r="3" fill="#B5683A"/></svg><span class="dk-badge__disc"><span class="dk-badge__word">Samples</span></span></a>
 <!-- /wp:html -->
 
 <!-- wp:buttons {"className":"sp-reveal sp-reveal--up"} -->

@@ -27,12 +27,12 @@
 
 <!-- wp:group {"align":"wide","className":"dk-row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide dk-row"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dk-row__media sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-capacitors.webp' ) ); ?>" alt="Macro of multilayer ceramic chip capacitors scattered on a matte pale grey plate, a few standing on end."/></figure>
+<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-capacitors.webp' ) ); ?>" alt="Macro of tiny multilayer ceramic chip capacitors with silver end caps on a pale seamless background, beside a steel tweezer tip."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"dk-row__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-row__text sp-stagger"><!-- wp:paragraph {"className":"dk-index sp-reveal sp-reveal--up"} -->
-<p class="dk-index sp-reveal sp-reveal--up">(01) Ceramic capacitors</p>
+<p class="dk-index sp-reveal sp-reveal--up">(01) DC series</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"dk-row__title sp-reveal sp-reveal--up"} -->
@@ -60,7 +60,7 @@
 
 <!-- wp:group {"className":"dk-row__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-row__text sp-stagger"><!-- wp:paragraph {"className":"dk-index sp-reveal sp-reveal--up"} -->
-<p class="dk-index sp-reveal sp-reveal--up">(02) Chip resistors</p>
+<p class="dk-index sp-reveal sp-reveal--up">(02) DR series</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"dk-row__title sp-reveal sp-reveal--up"} -->
@@ -83,12 +83,12 @@
 
 <!-- wp:group {"align":"wide","className":"dk-row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide dk-row"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dk-row__media sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04-inductors.webp' ) ); ?>" alt="Shielded black power inductors, small cubes, loosely arranged on a grey stone surface in raking light."/></figure>
+<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04-inductors.webp' ) ); ?>" alt="Small shielded black power inductors with silver terminals arranged neatly on a pale seamless background."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"dk-row__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-row__text sp-stagger"><!-- wp:paragraph {"className":"dk-index sp-reveal sp-reveal--up"} -->
-<p class="dk-index sp-reveal sp-reveal--up">(03) Power inductors</p>
+<p class="dk-index sp-reveal sp-reveal--up">(03) DL-PW series</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"dk-row__title sp-reveal sp-reveal--up"} -->
@@ -111,12 +111,12 @@
 
 <!-- wp:group {"align":"wide","className":"dk-row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide dk-row"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dk-row__media sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-ferrite-bead.webp' ) ); ?>" alt="Stainless tweezers holding a single ferrite chip bead above a pale surface."/></figure>
+<figure class="wp-block-image size-full dk-row__media sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-ferrite-bead.webp' ) ); ?>" alt="Tiny dark ferrite chip beads with silver end caps on a white ceramic tile, a steel tweezer tip in the corner."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"dk-row__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group dk-row__text sp-stagger"><!-- wp:paragraph {"className":"dk-index sp-reveal sp-reveal--up"} -->
-<p class="dk-index sp-reveal sp-reveal--up">(04) Ferrite beads</p>
+<p class="dk-index sp-reveal sp-reveal--up">(04) DF series</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"dk-row__title sp-reveal sp-reveal--up"} -->

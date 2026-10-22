@@ -33,7 +33,7 @@ Display English: Satoshi (geometric grotesk). R2: Syncopate (wide caps, ~90px ma
 
 ## (d) Radius, borders, shadow (R1)
 - Photo radius 8px; pill button radius 29px (h58); header no radius.
-- Borders: 1px hairline rgba(52,96,149,.3) between rows; button outline 1px pale blue-grey; dotted 1px underline under the "もっと見る" text link.
+- Borders: 1px hairline rgba(52,96,149,.3) between rows; button outline 1px pale blue-grey; dotted 1px underline under the "read more" text link.
 - Shadows: none anywhere.
 
 ## (e) Images (R1)
