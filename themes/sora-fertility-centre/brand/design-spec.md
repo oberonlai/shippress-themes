@@ -1,6 +1,6 @@
 # Sora Fertility Centre: design spec (stage B, binding for implementation)
 
-Slug `sora-fertility-centre`, fertility clinic, type **health** (declares WooCommerce support, works without it). Row b7-5: editorial-magazine, full-bleed photo hero with info bar, centred nav, **faq-led** page structure. Reference: sumire (https://sumire-totalbeauty.jp/, S5-Style 美容･健康･サロン), measurements in `reference.md`. Borrow structure, technique and colour relationships only. No copy, photos, logo or whole-page layout.
+Slug `sora-fertility-centre`, fertility clinic, type **health** (declares WooCommerce support, works without it). Row b7-5: editorial-magazine, full-bleed photo hero with info bar, centred nav, **faq-led** page structure. Reference: sumire (https://sumire-totalbeauty.jp/, S5-Style beauty, health and salon), measurements in `reference.md`. Borrow structure, technique and colour relationships only. No copy, photos, logo or whole-page layout.
 
 Fixed brand facts (every page, all five languages, identical numbers): **Sora Fertility Centre**, founded **2011**, **14 Harbour Lane, Lindenport** (fictional, internationally neutral harbour city), second floor, lift access. Currency **EUR** in every language (no conversion). Tone: calm, plain, answers first; never promises outcomes, no success-rate percentages, no awards, no real media, no real people or brands.
 
@@ -16,7 +16,7 @@ Fixed brand facts (every page, all five languages, identical numbers): **Sora Fe
 
 ### T2. Offset 2:3 portrait with a short text column on its left (sumire service band layout)
 - Reference: one portrait 427×651 (2:3) placed right of centre (left edge ~53% of 1440), a narrow text column to its left with a small "view more" link and leaf mark; huge vertical whitespace (~330 px top padding).
-- Sora (home block 4 "Three paths", three bands stacked): content width 1200. Photo: 2:3, width **430 px desktop** (≈30% of 1440), left edge at **54% of the content width**, `border-radius: 0`, no shadow. Text column: 340 px wide, ending 72 px before the photo, `align-self: end` (bottom-aligned with the photo). Text = small number label (`01 / 03`, Open Sans 0.75rem, 0.16em), Spectral 400 heading 2rem, 2 short paragraphs (≈45 words), then the link "Read about IVF →" in Open Sans 0.875rem with a 16 px 桜鼠 `#B39A9A` 1 px circle before it (our version of the leaf mark). Band vertical padding 160 px desktop / 72 px mobile.
+- Sora (home block 4 "Three paths", three bands stacked): content width 1200. Photo: 2:3, width **430 px desktop** (≈30% of 1440), left edge at **54% of the content width**, `border-radius: 0`, no shadow. Text column: 340 px wide, ending 72 px before the photo, `align-self: end` (bottom-aligned with the photo). Text = small number label (`01 / 03`, Open Sans 0.75rem, 0.16em), Spectral 400 heading 2rem, 2 short paragraphs (≈45 words), then the link "Read about IVF →" in Open Sans 0.875rem with a 16 px sakura-nezu `#B39A9A` 1 px circle before it (our version of the leaf mark). Band vertical padding 160 px desktop / 72 px mobile.
 - The three bands keep the same right offset (as the reference does; no zigzag).
 - Mobile (<782): photo 78% width, aligned right, text below it full width; never side-by-side.
 - Must not be diluted: photo must stay single, portrait 2:3, off-centre to the right; text column must stay narrow (≤ 360 px) and to the left; no second photo, no card box around the text.
@@ -53,7 +53,7 @@ Full-bleed soft photo, tiny italic Spectral line, ghost-outline "Book a first co
 | 3 | A letter from our director | T3 tilted sheet right, two offset text columns left | P3 | ≈150 words |
 | 4 | Three paths | small arch top again (T1) with centred head "Where people usually start"; then 3× T2 bands | P4, P5, P6 | each 45 words + link |
 | 5 | Interlude | full-bleed P2 band 70vh, tiny italic Spectral quote low-left in white (*"We wrote down every question you asked us."*), no button | P2 | 1 line |
-| 6 | Your first 90 days | ground; left-aligned head; 4 stages in one horizontal row, thin 1 px top rule each, number in Spectral 3rem 桜鼠 deep `#8E7474`, title + 25 words; not cards, not a timeline | — | 4×25 words |
+| 6 | Your first 90 days | ground; left-aligned head; 4 stages in one horizontal row, thin 1 px top rule each, number in Spectral 3rem sakura-nezu deep `#8E7474`, title + 25 words; not cards, not a timeline | — | 4×25 words |
 | 7 | Fees | white-ish field `#EFECE9` full width; head left; 6-row price list (first 6 of the 8 fees) full-width, price right nowrap; note on medication; link to Fees page | — | 6 rows + note |
 | 8 | The people you will meet | split: P7 (team at the round table, 3:2) left 7/12; right 5/12: roster of all 7 names in two columns (name Spectral 1.25rem, role Open Sans 0.875rem) | P7 | intro 40 words |
 | 9 | Stories | 3 stories as horizontal text rows (quote Spectral italic 1.5rem, attribution, "Read →"), P8 small 3:4 photo beside the first row only | P8 | 3×35 words |
@@ -109,7 +109,7 @@ Why not alike: the FAQ comes second (no recent theme opens with answers); arch f
 | Paper | `#F2EFEC` | paper sheet | T3 sheet, details open state bg | ≈ 4% |
 | Ink | `#2E2A29` | `#232827` | headings | ≈ 8% |
 | Body ink | `#4B4543` | `#3E4D43` | body text (must reach ≥ 4.5:1 on ground; verify at build, darken if short) | ≈ 12% |
-| Accent 桜鼠 | `#B39A9A` | accent `#34603E` role | small circles, rules, number marks, focus ring — **never a field** | ≤ 2% |
+| Accent sakura-nezu | `#B39A9A` | accent `#34603E` role | small circles, rules, number marks, focus ring — **never a field** | ≤ 2% |
 | Accent deep (text) | `#8E7474` | same role, darker for contrast | links, step numbers, hover | ≤ 1% |
 | White | `#FFFFFF` | — | text over photos only | — |
 Not cream, not beige; distinct from Taiyo (`#F1F1EF` + ochre), Hada (`#FAFAF8` + gradient panel). First-screen saturation limit 15% (target ≤ 5%).
@@ -167,7 +167,7 @@ Max 3 kinds per page. The tilted sheet itself is static (7°); no rotate scrub (
 - [ ] Full-bleed P1 hero, H1 4.5rem at 1440, italic line, centred nav with logo centre, ghost Book button; info bar under the photo with hours / address / €180 / Book.
 - [ ] Block 2 is the FAQ on a visible arch (lighter `#E6E2DE` on `#D5D0CB`, curve spans full width); 9 native details, keyboard operable.
 - [ ] Letter block: sheet visibly rotated ~7°, photo P3 unrotated on it, two offset text columns.
-- [ ] Three T2 bands: single 2:3 portrait right of centre, narrow text left bottom-aligned, link with 桜鼠 circle.
+- [ ] Three T2 bands: single 2:3 portrait right of centre, narrow text left bottom-aligned, link with sakura-nezu circle.
 - [ ] Full-bleed interlude P2 with tiny italic quote.
 - [ ] 90-day row is 4 stages horizontal (stacked on mobile), not cards/timeline.
 - [ ] Fees: 6 rows, full width ≥ 782, prices nowrap right, figures identical to Fees page and brand.md; stacked on mobile.

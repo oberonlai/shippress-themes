@@ -11,3 +11,4 @@
 - **Pages (stage 2)**: Treatments, IVF step by step, Fertility tests, Fees & funding, FAQ (28 questions), About, Care team, Patient stories, First consultation & contact, Privacy.
 - Design: see brand/design-spec.md and brand/reference.md.
 - **Inner page content (en)**: each page's copy lives in demo-content.json; figures match the fixed numbers above. Article: "What to ask at your first consultation" (category Clinic notes); blog page "Clinic notes". Signature continuation: arch field on Treatments, Fees, FAQ, Team; offset portrait bands on Treatments, IVF, About, Team, Stories, Contact; tilted sheet on IVF, About, Contact.
+- **Audience**: couples, single parents by choice and same-sex couples who are thinking about or starting fertility care; most arrive with questions rather than a plan. Location: Lindenport harbour district, where the clinic is based.

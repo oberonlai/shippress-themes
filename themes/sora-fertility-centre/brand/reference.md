@@ -1,6 +1,6 @@
 # Reference — Sora Fertility Centre (research draft, stage 1)
 
-Source: S5-Style (https://www.s5-style.com/) category 美容･健康･サロン (id 30). Only one site used: other candidates were blocked (WAF) or too saturated / illustrative (3D character hero) / e-commerce, so they were dropped.
+Source: S5-Style (https://www.s5-style.com/) category beauty, health and salon (id 30). Only one site used: other candidates were blocked (WAF) or too saturated / illustrative (3D character hero) / e-commerce, so they were dropped.
 
 | Site | URL | Why |
 |---|---|---|
@@ -26,7 +26,7 @@ Scroll before/after: `ref/scroll-concept-before.png`/`-after.png`, `ref/scroll-d
 |---|---|---|---|
 | Ground | #D0D6D0 (grey-green), lighter arch #DEE2E6 / #E2E6E5 | ~60% | low-chroma warm stone-grey ground (not cream), arch one tone lighter |
 | Ink | #3E4D43 (body), #232827 (photo shadows) | ~25% | deep warm ink |
-| Accent | #34603E (small links / marks) | <2% | 桜鼠 #B39A9A on small areas only |
+| Accent | #34603E (small links / marks) | <2% | sakura-nezu #B39A9A on small areas only |
 | Photo | #768078, #555851, #A3ADA8 mid greys | rest | high-key film-grain photography |
 
 First-screen saturated pixel share (sat>0.5, value>0.2): 0.0%. The whole first screen is greys with slight green.
@@ -43,16 +43,16 @@ Library: GSAP + ScrollTrigger, Lenis smooth scroll (lerp 0.1), Splide (fade slid
 | Smooth scroll | Lenis wheel | whole page | lerp 0.1 | n/a |
 Site-wide easing tokens in CSS: `cubic-bezier(.215,.61,.355,1)` (39 uses), `(.19,1,.22,1)` (15), `(.165,.84,.44,1)` (14). Scroll before/after: see the `scroll-*.png` files above.
 
-## Where it lands in our theme (成品對應, per design-spec.md)
+## Where it lands in our theme (per design-spec.md)
 | Reference move | Our implementation | Pages |
 |---|---|---|
 | Arch band (lighter ~1440px circle on grey-green ground) | T1 arch field `#E6E2DE` on warm stone ground `#D5D0CB`, centred small label + Spectral heading + italic subtitle inside the curve | Home FAQ (block 2) and "Three paths" head; FAQ, Treatments, Fees, Care team page heads |
-| Offset single 2:3 portrait right of centre, narrow text left, "view more" + leaf mark | T2: 430px 2:3 portrait at 54% of content width, 340px text column bottom-aligned left, link with 桜鼠 circle mark | Home three paths (P4–P6); Treatments, IVF, About, Care team, Stories, Contact |
+| Offset single 2:3 portrait right of centre, narrow text left, "view more" + leaf mark | T2: 430px 2:3 portrait at 54% of content width, 340px text column bottom-aligned left, link with sakura-nezu circle mark | Home three paths (P4–P6); Treatments, IVF, About, Care team, Stories, Contact |
 | Tilted paper sheet behind photo, sprig over edge, letter text in offset columns | T3: `#F2EFEC` sheet rotated 7deg (origin right centre), P3 unrotated on top, sprig inside the photo (no cut-out), two offset text columns | Home director letter; About (full letter), IVF (cycle calendar card), Contact (what to bring) |
 | Full-bleed photo cover, tiny italic line, ghost-outline reserve button | Full-bleed P1 cover, Spectral italic line + 4.5rem H1 bottom-left in flow, ghost "Book" button in centred nav, info bar under photo | Home hero; interlude P2 band |
-| Grey-green ground / dark ink / tiny green accent | Stone `#D5D0CB` / ink `#2E2A29` / 桜鼠 `#B39A9A` (deep `#8E7474` for text) ≤2% | All pages |
+| Grey-green ground / dark ink / tiny green accent | Stone `#D5D0CB` / ink `#2E2A29` / sakura-nezu `#B39A9A` (deep `#8E7474` for text) ≤2% | All pages |
 | Band image stretch+drift (ScrollTrigger scrub) | `sp-parallax` on T2 portraits and interlude photo | Home, Treatments, Team, Stories |
 | Entry ease `.215,.61,.355,1` on paper/text | `sp-reveal--wipe` on T3 photo; `sp-stagger` + `sp-reveal--up` on 90-day row, roster, stories | Home, About, Contact, Stories |
 
 ## Colour hue note (stage 2)
-The reference's grey-green ground (#D0D6D0) was moved to a warm stone grey (#D5D0CB, arch #E6E2DE) on purpose: the clinic's 桜鼠 accent (#B39A9A) is a dusty rose, and a green-grey ground made the accent look muddy. A warm ground keeps the reference's relationship (ground, one step lighter arch, deep ink, small muted accent) and the same lightness gap (arch L is >= 4 above the ground). The ground is a neutral stone, not cream, and the 桜鼠 accent stays on small marks only. Recent themes use other primaries (Taiyo solar orange, Hone, Yui, Kazu, Yamabiko), so there is no clash.
+The reference's grey-green ground (#D0D6D0) was moved to a warm stone grey (#D5D0CB, arch #E6E2DE) on purpose: the clinic's sakura-nezu accent (#B39A9A) is a dusty rose, and a green-grey ground made the accent look muddy. A warm ground keeps the reference's relationship (ground, one step lighter arch, deep ink, small muted accent) and the same lightness gap (arch L is >= 4 above the ground). The ground is a neutral stone, not cream, and the sakura-nezu accent stays on small marks only. Recent themes use other primaries (Taiyo solar orange, Hone, Yui, Kazu, Yamabiko), so there is no clash.

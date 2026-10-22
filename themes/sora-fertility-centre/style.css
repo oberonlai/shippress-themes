@@ -336,3 +336,21 @@ body.home .sf-nav .is-menu-open a, body.home .sf-nav .is-menu-open { color: var(
 	.sf-pagetitle, .sf-h1 { font-size: 2.5rem; }
 }
 @media (max-width: 1200px) { .sf-bands .sf-band { max-width: 100%; } .sf-bands { padding-inline: var(--sf-gut); } }
+
+/* ---------- header v2: one menu, centred under the centred wordmark ---------- */
+.sf-bar { grid-template-columns: 1fr auto 1fr; grid-template-rows: auto auto; row-gap: 0.25rem; min-height: 0; padding-block: 1.25rem 0.9rem; }
+.sf-bar .sf-logo { grid-column: 2; grid-row: 1; text-align: center; }
+.sf-bar .sf-bookbtn { grid-column: 3; grid-row: 1; justify-self: end; margin: 0 !important; }
+.sf-bar .sf-bookbtn a { display: inline-block; padding: 0.6rem 1.4rem; border: 1px solid currentColor; line-height: 1.2; text-decoration: none; font-size: 0.875rem; color: var(--sf-ink); }
+body.home .sf-header .sf-bookbtn a { color: var(--sf-hc, #fff); }
+.sf-bar .sf-nav { grid-column: 1 / -1; grid-row: 2; width: 100%; justify-content: center; }
+.sf-nav .wp-block-navigation__container { justify-content: center; gap: 2.25rem; }
+.sf-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { position: static; display: block; }
+@media (min-width: 782px) { .sf-nav .wp-block-navigation__responsive-container-open { display: none; } }
+@media (max-width: 781px) {
+	.sf-bar { padding-block: 1rem; }
+	.sf-bar .sf-bookbtn { display: none; }
+	.sf-bar .sf-nav { grid-column: 3; grid-row: 1; justify-self: end; width: auto; }
+	.sf-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none; }
+	.sf-nav .wp-block-navigation__responsive-container-open { display: flex; }
+}
