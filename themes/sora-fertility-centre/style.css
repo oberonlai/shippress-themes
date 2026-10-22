@@ -354,3 +354,38 @@ body.home .sf-header .sf-bookbtn a { color: var(--sf-hc, #fff); }
 	.sf-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none; }
 	.sf-nav .wp-block-navigation__responsive-container-open { display: flex; }
 }
+
+/* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Spectral / Open Sans) ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", Spectral, "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Open Sans", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", Spectral, "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Open Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .sf-h, .sf-h1, .sf-band__h, .sf-stage__h, .sf-hero__title, .sf-pagetitle, .sf-postrow__h) { line-height: 1.4; letter-spacing: 0.04em; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) :is(.sf-label, .sf-faq__group, .sf-hours strong, .sf-map, .sf-num) { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) :is(.sf-sub, .sf-hero__line, .sf-sign, .sf-story__q, .sf-inter__quote) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) .sf-hero__title { font-size: clamp(2.2rem, 4.2vw, 3.4rem); max-width: 14em; }
+:is(:lang(zh), :lang(ja)) :is(.sf-h1, .sf-pagetitle) { font-size: clamp(2rem, 3.8vw, 3.2rem); }
+:is(:lang(zh), :lang(ja)) .sf-h { font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.25rem); }
+:is(:lang(zh), :lang(ja)) .sf-band__h { font-size: 1.5rem; }
+:is(:lang(zh), :lang(ja)) .sf-stage__h { font-size: 1.2rem; }
+:is(:lang(zh), :lang(ja)) .sf-lede { font-size: 1.125rem; }
+:is(:lang(zh), :lang(ja)) .sf-faq .wp-block-details summary { font-size: 1.125rem; }
+:is(:lang(zh), :lang(ja)) .sf-postrow__h { font-size: 1.35rem; }
+:is(:lang(zh), :lang(ja)) .sf-story__q { font-size: 1.25rem; }
+
+/* ===== Languages: French and German hyphenate headings too, and long words get a smaller display size ===== */
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li, summary) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .sf-hero__title { font-size: clamp(2.4rem, 4.6vw, 3.75rem); max-width: 13ch; }
+:is(:lang(fr), :lang(de)) :is(.sf-h1, .sf-pagetitle) { font-size: clamp(2.1rem, 4vw, 3.6rem); }
+:is(:lang(fr), :lang(de)) .sf-h { font-size: clamp(2rem, 1.5rem + 2vw, 2.65rem); }
+:is(:lang(fr), :lang(de)) .sf-nav { font-size: 0.8125rem; }
+:is(:lang(fr), :lang(de)) .sf-fee__n { overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+	:is(:lang(fr), :lang(de)) .sf-hero__title { font-size: 2.1rem; }
+	:is(:lang(fr), :lang(de)) :is(.sf-h1, .sf-pagetitle) { font-size: 2rem; }
+}
