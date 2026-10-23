@@ -7,6 +7,8 @@ Design plan row: b8-6 (community pharmacy, type store). Stage one: the home page
 - **Location:** 1184 Queen Street East, Toronto, ON M4M 1L4, Canada (fictional); phone (416) 555-0148; email counter@megumipharmacy.example.
 - **Founded:** 2006 by pharmacist Megumi Ward; six people on the team today.
 - **Hours:** Mon–Fri 8:30–19:00 · Sat 9:00–17:00 · Sun 10:00–14:00 · statutory holidays closed
+- **Audience:** neighbours on and around Queen Street East: families, older customers on long-term medicines, and commuters who stop on the way home.
+- **A day:** the dispensary opens at 8:30, repeat prescriptions are made up in the morning, counter talks and reviews fill the day, and blister packs are checked before closing.
 - **Tone:** Write the way the counter speaks: calm, specific, and plain, with these people, prices, hours, and years and no others. Do not add urgency, awards, press mentions, brand names, or any promise about a health result.
 
 ## Story

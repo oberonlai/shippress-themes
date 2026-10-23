@@ -25,7 +25,7 @@ The pharmacy, its people, address, telephone number and prices are fictional.
 == Copyright ==
 
 Megumi Pharmacy is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Literata (OFL-1.1), variable 400-600 and italic, Latin subset; Public Sans (OFL-1.1), variable 400-700, Latin subset; WOFF2, see assets/fonts/.
+Fonts: Literata (OFL-1.1), variable 400-600 and italic, Latin subset; Public Sans (OFL-1.1), variable 400-700, Latin subset; Noto Serif JP and Noto Serif TC (OFL-1.1), 400, subsets for Japanese and Traditional Chinese headings; WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later), no third-party library.
 
 = Images =

@@ -16,7 +16,7 @@
 <!-- wp:site-title {"level":0,"className":"mp-brand__title"} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:navigation {"overlayMenu":"never","className":"mp-nav","layout":{"type":"flex","justifyContent":"center"}} /-->
+<!-- wp:navigation {"overlayMenu":"mobile","className":"mp-nav mp-navtoggle","layout":{"type":"flex","justifyContent":"center"}} /-->
 
 <!-- wp:group {"className":"mp-tools","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-tools"><!-- wp:paragraph {"className":"mp-lang"} -->
@@ -29,8 +29,6 @@
 
 <!-- wp:paragraph {"className":"mp-round"} -->
 <p class="mp-round"><a href="/visit/" aria-label="<?php echo esc_attr( megumi_pharmacy_t( 'a886a655f' ) ); ?>"><span aria-hidden="true"></span></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:navigation {"overlayMenu":"always","className":"mp-navtoggle","layout":{"type":"flex","justifyContent":"right"}} /--></div>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
