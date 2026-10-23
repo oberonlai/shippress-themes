@@ -9,10 +9,10 @@
 ?>
 <!-- wp:group {"className":"ks-interlude","layout":{"type":"default"},"tagName":"section","align":"full"} -->
 <section class="wp-block-group alignfull ks-interlude"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p10-desk.webp' ) ); ?>","alt":"Empty morning desk by a tall window with plants and a chair","dimRatio":0,"className":"ks-interlude__cover sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-cover ks-interlude__cover sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Empty morning desk by a tall window with plants and a chair" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10-desk.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<div class="wp-block-cover ks-interlude__cover sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( kaiten_skills_t( 'a1bb0cb53' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10-desk.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 <!-- wp:group {"className":"ks-wrap ks-interlude__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-wrap ks-interlude__row"><!-- wp:paragraph {"className":"ks-quote"} -->
-<p class="ks-quote">Twelve minutes a day is enough to start.</p>
+<p class="ks-quote"><?php echo wp_kses_post( kaiten_skills_t( 'k404c34c4' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></section>

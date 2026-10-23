@@ -10,11 +10,11 @@
 <!-- wp:group {"className":"ks-band","layout":{"type":"default"},"tagName":"section","align":"full"} -->
 <section class="wp-block-group alignfull ks-band"><!-- wp:group {"className":"ks-wrap ks-band__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-wrap ks-band__head"><!-- wp:paragraph {"className":"ks-label ks-label--light"} -->
-<p class="ks-label ks-label--light">How it works</p>
+<p class="ks-label ks-label--light"><?php echo wp_kses_post( kaiten_skills_t( 'k9ffdb952' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"ks-h2 ks-h2--light"} -->
-<h2 class="wp-block-heading ks-h2 ks-h2--light">From choosing a course to your certificate.</h2>
+<h2 class="wp-block-heading ks-h2 ks-h2--light"><?php echo wp_kses_post( kaiten_skills_t( 'k2f42e4f6' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -25,11 +25,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ks-step__t"} -->
-<h3 class="wp-block-heading ks-step__t">Choose a course</h3>
+<h3 class="wp-block-heading ks-step__t"><?php echo wp_kses_post( kaiten_skills_t( 'k96427a1d' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-step__b"} -->
-<p class="ks-step__b">Every course opens with lesson 1 free, so you can judge the pace before you buy. Writing, presenting and spreadsheets are separate courses. The Career Starter Bundle joins Clear Business Writing, Presenting with Confidence and Spreadsheets from Zero. Choose the one skill you need.</p>
+<p class="ks-step__b"><?php echo wp_kses_post( kaiten_skills_t( 'kaf492031' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -39,11 +39,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ks-step__t"} -->
-<h3 class="wp-block-heading ks-step__t">Buy and enrol</h3>
+<h3 class="wp-block-heading ks-step__t"><?php echo wp_kses_post( kaiten_skills_t( 'k5cb48fc3' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-step__b"} -->
-<p class="ks-step__b">Checkout is in euros and enrols you straight away, with instant access to the lessons you bought. Access lasts 24 months from purchase. A refund is available within 14 days if fewer than 3 lessons were watched. The lessons remain online at any hour.</p>
+<p class="ks-step__b"><?php echo wp_kses_post( kaiten_skills_t( 'k7ea7a3bb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -53,11 +53,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ks-step__t"} -->
-<h3 class="wp-block-heading ks-step__t">Learn at your table</h3>
+<h3 class="wp-block-heading ks-step__t"><?php echo wp_kses_post( kaiten_skills_t( 'k71e05682' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-step__b"} -->
-<p class="ks-step__b">Each lesson lasts 8 to 14 minutes, for a kitchen table or a desk. The Utrecht studio holds no walk-in classes. Pause when the day interrupts, then open the next lesson when you can. One course is planned across 4, 5 or 6 weeks.</p>
+<p class="ks-step__b"><?php echo wp_kses_post( kaiten_skills_t( 'kcd82d6a9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -67,11 +67,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ks-step__t"} -->
-<h3 class="wp-block-heading ks-step__t">Practise with feedback</h3>
+<h3 class="wp-block-heading ks-step__t"><?php echo wp_kses_post( kaiten_skills_t( 'kd045fc2a' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-step__b"} -->
-<p class="ks-step__b">You send a short assignment taken from your own work. A tutor replies with written feedback within 5 working days. That reply is not a grade and not an accredited qualification. If a question falls outside the assignment, learner support answers during the posted hours.</p>
+<p class="ks-step__b"><?php echo wp_kses_post( kaiten_skills_t( 'ke00527be' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -81,11 +81,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ks-step__t"} -->
-<h3 class="wp-block-heading ks-step__t">Finish with a certificate</h3>
+<h3 class="wp-block-heading ks-step__t"><?php echo wp_kses_post( kaiten_skills_t( 'k8a72dd0d' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-step__b"} -->
-<p class="ks-step__b">Finish the course and Kaiten Skills issues a certificate of completion. It only records that you finished. It is not an accredited qualification and does not replace a diploma. You may replay lessons for the rest of the 24-month access.</p>
+<p class="ks-step__b"><?php echo wp_kses_post( kaiten_skills_t( 'kdd2fa849' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -93,15 +93,15 @@
 <!-- wp:group {"className":"ks-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-panel"><!-- wp:group {"className":"ks-panel__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-panel__in"><!-- wp:heading {"level":3,"className":"ks-panel__t"} -->
-<h3 class="wp-block-heading ks-panel__t">Course prices</h3>
+<h3 class="wp-block-heading ks-panel__t"><?php echo wp_kses_post( kaiten_skills_t( 'ka1c2097e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:table {"className":"ks-prices"} -->
-<figure class="wp-block-table ks-prices"><table class="has-fixed-layout"><thead><tr><th>Course</th><th>Lessons</th><th>Suggested length</th><th>Price</th><th><span class="screen-reader-text">Buy</span></th></tr></thead><tbody><tr><td>Clear Business Writing</td><td>24 lessons</td><td>5 weeks</td><td>€129</td><td><a href="/courses/">Buy</a></td></tr><tr><td>Reports People Actually Read</td><td>20 lessons</td><td>4 weeks</td><td>€139</td><td><a href="/courses/">Buy</a></td></tr><tr><td>Presenting with Confidence</td><td>22 lessons</td><td>5 weeks</td><td>€149</td><td><a href="/courses/">Buy</a></td></tr><tr><td>Spreadsheets from Zero</td><td>28 lessons</td><td>6 weeks</td><td>€119</td><td><a href="/courses/">Buy</a></td></tr><tr><td>Spreadsheet Models for Decisions</td><td>26 lessons</td><td>6 weeks</td><td>€169</td><td><a href="/courses/">Buy</a></td></tr><tr><td>Career Starter Bundle</td><td>74 lessons</td><td>16 weeks</td><td>€329</td><td><a href="/courses/">Buy</a></td></tr></tbody></table></figure>
+<figure class="wp-block-table ks-prices"><table class="has-fixed-layout"><thead><tr><th><?php echo wp_kses_post( kaiten_skills_t( 'k3730c986' ) ); ?></th><th><?php echo wp_kses_post( kaiten_skills_t( 'k4547233b' ) ); ?></th><th><?php echo wp_kses_post( kaiten_skills_t( 'k2cf03905' ) ); ?></th><th><?php echo wp_kses_post( kaiten_skills_t( 'k3601146c' ) ); ?></th><th><span class="screen-reader-text"><?php echo wp_kses_post( kaiten_skills_t( 'k831a28f1' ) ); ?></span></th></tr></thead><tbody><tr><td><?php echo wp_kses_post( kaiten_skills_t( 'kf34961e3' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'kbc95c043' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'k5c0153ee' ) ); ?></td><td>€129</td><td><a href="/courses/"><?php echo wp_kses_post( kaiten_skills_t( 'k831a28f1' ) ); ?></a></td></tr><tr><td><?php echo wp_kses_post( kaiten_skills_t( 'k93bc3f8a' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'k5d89fdf0' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'k8f87e65f' ) ); ?></td><td>€139</td><td><a href="/courses/"><?php echo wp_kses_post( kaiten_skills_t( 'k831a28f1' ) ); ?></a></td></tr><tr><td><?php echo wp_kses_post( kaiten_skills_t( 'k92efaa85' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'kc2ba67b8' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'k5c0153ee' ) ); ?></td><td>€149</td><td><a href="/courses/"><?php echo wp_kses_post( kaiten_skills_t( 'k831a28f1' ) ); ?></a></td></tr><tr><td><?php echo wp_kses_post( kaiten_skills_t( 'k2ffb36a7' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'k740862c3' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'k657e0bc7' ) ); ?></td><td>€119</td><td><a href="/courses/"><?php echo wp_kses_post( kaiten_skills_t( 'k831a28f1' ) ); ?></a></td></tr><tr><td><?php echo wp_kses_post( kaiten_skills_t( 'k69659cff' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'k2310e2c0' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'k657e0bc7' ) ); ?></td><td>€169</td><td><a href="/courses/"><?php echo wp_kses_post( kaiten_skills_t( 'k831a28f1' ) ); ?></a></td></tr><tr><td><?php echo wp_kses_post( kaiten_skills_t( 'k81c68fe3' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'k711073d6' ) ); ?></td><td><?php echo wp_kses_post( kaiten_skills_t( 'k591968fb' ) ); ?></td><td>€329</td><td><a href="/courses/"><?php echo wp_kses_post( kaiten_skills_t( 'k831a28f1' ) ); ?></a></td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph {"className":"ks-note"} -->
-<p class="ks-note">Refund within 14 days if fewer than 3 lessons were watched. Access lasts 24 months from purchase. Assignment feedback arrives within 5 working days. The certificate marks completion, not an accredited qualification.</p>
+<p class="ks-note"><?php echo wp_kses_post( kaiten_skills_t( 'ke4eef549' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

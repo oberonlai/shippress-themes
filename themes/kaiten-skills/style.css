@@ -482,3 +482,24 @@ a { text-underline-offset: 0.18em; }
 .ks-storyrows { padding-bottom: 32px; }
 .ks-contact__r .ks-h2 { margin-bottom: 24px; }
 .ks-journal .ks-list__t { margin-top: 0; }
+
+/* Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Crimson Pro / Inter) */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", "Crimson Pro", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Inter", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", "Crimson Pro", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Inter", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) .ks-label, :is(:lang(zh), :lang(ja)) .ks-tag { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .ks-h1 { font-size: clamp(1.9rem, 3.5vw, 3.2rem); line-height: 1.3; }
+:is(:lang(zh), :lang(ja)) .ks-h2 { font-size: clamp(1.45rem, 2.3vw, 1.7rem); }
+:is(:lang(zh), :lang(ja)) .ks-card__t { font-size: 1.25rem; }
+:lang(ja) :is(.ks-h1, .ks-h2, .ks-card__t) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3) { hyphens: auto; }
+:is(:lang(fr), :lang(de)) .ks-h1 { font-size: clamp(2.2rem, 4vw, 3.6rem); }
+:is(:lang(fr), :lang(de)) .ks-h2 { font-size: clamp(1.7rem, 2.7vw, 2rem); }
