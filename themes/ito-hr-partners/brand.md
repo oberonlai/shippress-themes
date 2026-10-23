@@ -56,7 +56,7 @@ Fees are published in euro and exclude VAT at 23%. A scoping call of 30 minutes 
 Supporting: round arrow discs, a staggered photo pair dropped 75 px, an inset pale band, count tags.
 
 ## Colour
-White ground #FFFFFF, pale band #EFF2F4, slate #647582, ink #2A2C33, muted ink #585B63, one small accent 千歳緑 #3F5E4A (tint #E3EAE5, hover #557A62, deep #2F4A39), hairline rgba(0,0,0,.15).
+White ground #FFFFFF, pale band #EFF2F4, slate #647582, ink #2A2C33, muted ink #585B63, one small accent Chitose green #3F5E4A (tint #E3EAE5, hover #557A62, deep #2F4A39), hairline rgba(0,0,0,.15).
 
 ## Pages and contents
 1. **Home** - front-hero, front-services, front-intro, front-approach, front-fees, front-people, front-stories, front-close.
