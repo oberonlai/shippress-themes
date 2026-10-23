@@ -18,3 +18,32 @@ Libre Baskerville and Source Sans 3 (SIL OFL 1.1, licences in assets/fonts).
 
 ## Images (AI-generated for this theme, no text or logos; assets/images/)
 p01-consult-room, p02-cradle, p03-waiting, p04-ear, p05-exam, p06-walk, p07-director, p08-entrance, p09-paw, p10-listening, p11-recovery, p12-surgery-prep, p13-dental, p14-reception, p15-cat-room, p16-team (all .webp; p02, p12, p13, p15, p16 are for the inner pages).
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Aoba Veterinary home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Aoba Veterinary home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
+- Cat care: [desktop](screenshots/cat-care-desktop.webp) · [mobile](screenshots/cat-care-mobile.webp)
+- Surgery dental: [desktop](screenshots/surgery-dental-desktop.webp) · [mobile](screenshots/surgery-dental-mobile.webp)
+- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
+- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
+- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Access: [desktop](screenshots/access-desktop.webp) · [mobile](screenshots/access-mobile.webp)
+- Book: [desktop](screenshots/book-desktop.webp) · [mobile](screenshots/book-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
