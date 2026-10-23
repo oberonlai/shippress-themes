@@ -8,7 +8,11 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","className":"kl-close","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group kl-close"><!-- wp:group {"className":"kl-sec kl-close__in","layout":{"type":"default"}} -->
+<section class="wp-block-group kl-close"><!-- wp:html -->
+<div class="kl-word kl-word--top" aria-hidden="true"><p class="kl-word__t">Enrol.</p></div>
+<!-- /wp:html -->
+
+<!-- wp:group {"className":"kl-sec kl-close__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kl-sec kl-close__in"><!-- wp:group {"className":"kl-flank","layout":{"type":"default"}} -->
 <div class="wp-block-group kl-flank"><!-- wp:html -->
 <?php echo kotoba_language_arc( 'l' ); // phpcs:ignore ?>
@@ -34,9 +38,5 @@
 <?php echo kotoba_language_arc( 'r' ); // phpcs:ignore ?>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:html -->
-<div class="kl-word kl-word--top" aria-hidden="true"><p class="kl-word__t">Enrol.</p></div>
-<!-- /wp:html --></section>
+<!-- /wp:group --></section>
 <!-- /wp:group -->
