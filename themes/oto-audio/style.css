@@ -538,3 +538,26 @@ html.sp-no-motion .oa-split__photo { animation: none !important; }
 @media (min-width: 1024px) { .oa-ph__photo::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 200px; background: linear-gradient(to left, rgba(255,255,255,.88), rgba(255,255,255,0)); pointer-events: none; } }
 @media (min-width: 1024px) { .oa-ph { padding-bottom: 32px; min-height: calc(var(--oa-phh) + 62px); } .oa-ph__side { bottom: 32px; } }
 @media (min-width: 1024px) { .oa-ph--post .oa-ph__h { white-space: normal; width: calc(38% + 72px - 56px); font-size: clamp(1.75rem, 1rem + 2.2vw, 2.75rem) !important; bottom: calc(var(--oa-phh) * .2 + 72px); } }
+
+/* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Newsreader / Public Sans) ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", Newsreader, "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Public Sans", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", Newsreader, "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Public Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .oa-label, .oa-split__h, .oa-ph__h, .oa-visit__h, .oa-page__title, .oa-sh__h) { line-height: 1.4; letter-spacing: 0.04em; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) :is(.oa-split__h, .oa-ph__h) { font-size: clamp(1.9rem, 0.8rem + 2.6vw, 2.9rem) !important; }
+:is(:lang(zh), :lang(ja)) .oa-foot__mark, :is(:lang(zh), :lang(ja)) .oa-foot__mark a { font-size: 2.4rem; }
+:is(:lang(zh), :lang(ja)) :is(.oa-cmp__name, .oa-card__media figcaption, .oa-header__brand, .oa-header__brand a) { font-size: 1.2rem; letter-spacing: 0.06em; }
+:is(:lang(zh), :lang(ja)) :is(.oa-split__sentence, .oa-ph__sentence, .oa-split__link) { line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) :is(.oa-split__vcap, .oa-ph__vcap) { letter-spacing: 0.3em; }
+@media (min-width: 1024px) { :is(:lang(zh), :lang(ja)) .oa-ph--post .oa-ph__h { font-size: clamp(1.5rem, 0.8rem + 1.7vw, 2.2rem) !important; } }
+:lang(ja) :is(h1, h2, h3, p, li) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li, td) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) :is(.oa-split__h, .oa-ph__h) { font-size: clamp(2.2rem, 1rem + 3vw, 3.4rem) !important; white-space: normal; }
+:is(:lang(fr), :lang(de)) .oa-nav .wp-block-navigation-item__content { font-size: 1.25rem; }
+:is(:lang(fr), :lang(de)) :is(.oa-pill .wp-block-button__link, .wp-block-button.is-style-outline.oa-pill > .wp-block-button__link) { min-width: 165px; width: auto; height: auto; min-height: 42px; padding: 8px 24px; text-align: center; }

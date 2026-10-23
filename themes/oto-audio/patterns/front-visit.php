@@ -12,34 +12,34 @@
 <section class="wp-block-group alignfull oa-sec oa-sec--visit"><!-- wp:group {"className":"oa-visit__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-visit__grid"><!-- wp:group {"className":"oa-visit__text","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-visit__text"><!-- wp:paragraph {"className":"oa-label"} -->
-<p class="oa-label">Visit</p>
+<p class="oa-label"><?php echo wp_kses_post( oto_audio_t( 'k5e706a9b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"oa-visit__body","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-visit__body"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Oto Audio is at Pelgrimsgang 14, 3011 Rotterdam, Netherlands. The shop and the listening room share the same door.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( oto_audio_t( 'k67e8b6ec' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Open Tuesday to Friday, 11:00–19:00, and Saturday, 10:00–17:00. Closed Sunday and Monday. Listening hours are by appointment, and walk-ins are welcome when the room is free.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( oto_audio_t( 'k584d1a22' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Phone <a href="tel:+31105550142">+31 10 555 0142</a><br>Email <a href="mailto:hello@otoaudio.example">hello@otoaudio.example</a></p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( oto_audio_t( 'kbcc254b5' ) ); ?> <a href="tel:+31105550142">+31 10 555 0142</a><br><?php echo wp_kses_post( oto_audio_t( 'kce8ae9da' ) ); ?> <a href="mailto:hello@otoaudio.example"><?php echo wp_kses_post( oto_audio_t( 'k92a09172' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"oa-more sp-reveal sp-reveal--up"} -->
-<p class="oa-more sp-reveal sp-reveal--up"><a href="/contact/">Directions →</a></p>
+<p class="oa-more sp-reveal sp-reveal--up"><a href="/contact/"><?php echo wp_kses_post( oto_audio_t( 'kf5589d7c' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"oa-visit__h","fontSize":"x-large"} -->
-<h2 class="wp-block-heading oa-visit__h has-x-large-font-size">Pelgrimsgang 14,<br>Rotterdam.</h2>
+<h2 class="wp-block-heading oa-visit__h has-x-large-font-size"><?php echo wp_kses_post( oto_audio_t( 'kd4c9ecb8' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"oa-visit__photo"} -->
-<figure class="wp-block-image size-full oa-visit__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/s9.webp' ) ); ?>" alt="Small shop interior with an oak counter, headphone stands and speakers on shelves"/></figure>
+<figure class="wp-block-image size-full oa-visit__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/s9.webp' ) ); ?>" alt="<?php echo esc_attr( oto_audio_t( 'ad3eedc46' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

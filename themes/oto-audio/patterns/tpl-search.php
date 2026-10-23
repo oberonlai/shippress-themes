@@ -1,0 +1,44 @@
+<?php
+/**
+ * Title: Template: search
+ * Slug: oto-audio/tpl-search
+ * Categories: oto-audio
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"oa-main","layout":{"type":"default"}} -->
+<main class="wp-block-group oa-main"><!-- wp:group {"tagName":"section","align":"full","className":"oa-sec oa-sec--sh","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull oa-sec oa-sec--sh"><!-- wp:paragraph {"className":"oa-label"} -->
+<p class="oa-label"><?php echo wp_kses_post( oto_audio_t( 'k13348442' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query-title {"type":"search","level":1,"className":"oa-sh__h","fontSize":"xx-large"} /-->
+
+<!-- wp:search {"label":"<?php echo esc_attr( oto_audio_t( 'a13348442' ) ); ?>","buttonText":"<?php echo esc_attr( oto_audio_t( 'a13348442' ) ); ?>"} /--></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"oa-sec oa-sec--stone oa-sec--journal","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull oa-sec oa-sec--stone oa-sec--journal"><!-- wp:query {"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-query alignwide"><!-- wp:post-template {"className":"oa-posts oa-posts--loop","layout":{"type":"default"}} -->
+<!-- wp:group {"className":"oa-post","layout":{"type":"default"}} -->
+<div class="wp-block-group oa-post"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"7/6","className":"oa-post__img"} /-->
+
+<!-- wp:post-date {"className":"oa-post__date"} /-->
+
+<!-- wp:post-title {"isLink":true,"level":3,"className":"oa-post__title","fontSize":"medium"} /-->
+
+<!-- wp:post-excerpt {"className":"oa-post__ex","excerptLength":30} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></section>
+<!-- /wp:group --></main>
+<!-- /wp:group -->

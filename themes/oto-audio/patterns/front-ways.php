@@ -10,7 +10,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"oa-sec oa-sec--ways","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull oa-sec oa-sec--ways"><!-- wp:heading {"level":2,"className":"oa-sr"} -->
-<h2 class="wp-block-heading oa-sr">Headphones, amplifiers, DAC, speakers</h2>
+<h2 class="wp-block-heading oa-sr"><?php echo wp_kses_post( oto_audio_t( 'ke9d6d555' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"oa-ways sp-stagger","layout":{"type":"default"}} -->
@@ -20,7 +20,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"oa-way__cap"} -->
-<p class="oa-way__cap"><span class="oa-chip">3</span> <a href="/shop/">headphones,<br>open, closed and planar</a></p>
+<p class="oa-way__cap"><span class="oa-chip">3</span> <a href="/shop/"><?php echo wp_kses_post( oto_audio_t( 'kc8095df2' ) ); ?><br><?php echo wp_kses_post( oto_audio_t( 'k1bad15a2' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -30,7 +30,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"oa-way__cap"} -->
-<p class="oa-way__cap"><span class="oa-chip">2</span> <a href="/shop/">amplifiers,<br>desk and room</a></p>
+<p class="oa-way__cap"><span class="oa-chip">2</span> <a href="/shop/"><?php echo wp_kses_post( oto_audio_t( 'ka61a9582' ) ); ?><br><?php echo wp_kses_post( oto_audio_t( 'kaa55fa1f' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -40,7 +40,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"oa-way__cap"} -->
-<p class="oa-way__cap"><span class="oa-chip">1</span> <a href="/shop/">DAC,<br>made for both</a></p>
+<p class="oa-way__cap"><span class="oa-chip">1</span> <a href="/shop/"><?php echo wp_kses_post( oto_audio_t( 'kb1366bbe' ) ); ?><br><?php echo wp_kses_post( oto_audio_t( 'k32014bae' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -50,7 +50,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"oa-way__cap"} -->
-<p class="oa-way__cap"><span class="oa-chip">2</span> <a href="/shop/">speaker pairs,<br>shelf and floor</a></p>
+<p class="oa-way__cap"><span class="oa-chip">2</span> <a href="/shop/"><?php echo wp_kses_post( oto_audio_t( 'k5cac260c' ) ); ?><br><?php echo wp_kses_post( oto_audio_t( 'ka6b411f5' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
