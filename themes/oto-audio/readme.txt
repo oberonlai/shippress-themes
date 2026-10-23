@@ -73,5 +73,8 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/demo/s9.webp (Media Library copy of assets/images/s9.webp, same license)
 
 == Changelog ==
+= 1.0.1 =
+* Updated theme files (demo-content.de.json, demo-content.fr.json, demo-content.ja.json, demo-content.json and 2 more).
+
 = 1.0.0 =
 * First release: the English home page (stage 1).
