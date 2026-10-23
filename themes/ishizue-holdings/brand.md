@@ -63,7 +63,7 @@ Six companies. 2,860 colleagues (58 at the holding office). Nine countries: the 
 Supporting: full bands in ground, stone #BEC8CE, white r30 panel and ink; parallax on the hero and quay photographs.
 
 ## Colour
-Ground #FAFBFB, ink #0B0D0E, stone band #BEC8CE, accent #7D8C94 (small areas only), muted text #4E5A60, hairline #D9DCDD, six low-chroma card tints #E3DFD3 #D5DEE5 #E2D6D7 #D6E0D5 #D3E1E0 #C9D1D5.
+Ground #FAFBFB, ink #0B0D0E, stone band #BEC8CE, accent #7D8C94 (small areas only), muted text #4E5A60, hairline #D9DCDD, six low-chroma card tints #E6E0D0 #D1DDE6 #E6D1D2 #D2E5D0 #CFE5E4 #C1D4DD.
 
 ## Pages and contents
 Home, History, Group companies, Leadership, Governance, Investors, Sustainability, For owners, Shared services, News, Contact. Stage 1 ships the home page; the inner pages hold short placeholders until stage 2.

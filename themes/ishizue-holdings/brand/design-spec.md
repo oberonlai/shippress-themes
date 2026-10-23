@@ -35,7 +35,7 @@ Fixed brand facts (every page and all five languages): **Ishizue Holdings B.V.**
     - company name "Ishizue Materials" Noto Sans 700 **0.875rem** (14 px) lh 1.5 ls **0.12em**, 2 px ink underline offset 6 px (R1 card title `tok(b)`);
     - bottom-aligned paragraph (`margin-top: auto`) 0.875rem/1.7 Noto Sans 500, ≈ 40 words, then the facts line "Rotterdam · 640 people" 0.8125rem `#4E5A60`.
     - arrow: 48 px ink circle, white chevron 14 px, top 30 / right 30 inside the card (R1), link to `/companies#materials`; hover: circle background `#7D8C94`, `.25s cubic-bezier(.23,1,.32,1)` (R1 `tok(g)`).
-  - Card tints (flat, one per company, §2): 1 `#E3DFD3`, 2 `#D5DEE5`, 3 `#E2D6D7`, 4 `#D6E0D5`, 5 `#D3E1E0`, 6 `#C9D1D5`.
+  - Card tints (flat, one per company, §2): 1 `#E6E0D0`, 2 `#D1DDE6`, 3 `#E6D1D2`, 4 `#D2E5D0`, 5 `#CFE5E4`, 6 `#C1D4DD`.
   - Index arc (desktop ≥ 1100 only, decorative, `aria-hidden`): at the right edge of each card (x 1404–1430, vertically centred) the numbers of the neighbouring cards in a small arc, Noto Sans 500 0.75rem: current number upright, ±1 rotated 25° and offset 8 px left, ±2 rotated 50° and offset 22 px left (R1 arc). Static.
   - Each card has `id="c-1962"` etc. for the hero timeline links.
 - Mobile < 782: no sticky, no tilt, no arc. Cards full width minus 20 px gutters, padding 20, photo full width 3:2 on top, tag line, heading 1.375rem, name, paragraph, then a row with facts at the left and the 44 px arrow at the right (in flow, not absolute). Left column becomes a normal intro above the cards (Company list hidden on mobile; those links are in the menu and footer).
@@ -83,7 +83,7 @@ Taken from R1 (ground/ink/photo shares, per-company flat card colour mechanic) a
 | Accent | `#7D8C94` | row hex; same hue (≈ 200°) as R2 band | "now" dot, hover on arrows, active menu item, focus ring, small rules | ≤ 3%, never a section ground |
 | Muted text | `#4E5A60` | accent darkened for 7:1 on ground | captions, meta, tag lines | — |
 | Hairline | `#D9DCDD` | ink at 15% on ground | list rules | — |
-| Card tints 1–6 | `#E3DFD3` `#D5DEE5` `#E2D6D7` `#D6E0D5` `#D3E1E0` `#C9D1D5` | R1 card hues yellow / blue `#4694D1` / pink `#DD7687` / green `#6BBC6E` / teal `#61C1BE` + R2 band, chroma reduced to HSL S 12–25% | T2 cards, bracket highlights, inner-page slivers | ≈ 10% on home, below the fold only |
+| Card tints 1–6 | `#E6E0D0` `#D1DDE6` `#E6D1D2` `#D2E5D0` `#CFE5E4` `#C1D4DD` | R1 card hues yellow / blue `#4694D1` / pink `#DD7687` / green `#6BBC6E` / teal `#61C1BE` + R2 band, chroma reduced to HSL S 12–25% | T2 cards, bracket highlights, inner-page slivers | ≈ 10% on home, below the fold only |
 
 - **Changed from R1, with reason:** R1's per-card pastels (S 50–70%) are replaced by low-chroma tints of the same hues. The row note requires a quiet palette with the hex as the only muted accent and no saturated fields; a holding company's card stack in candy colours would read as a consumer brand. The mechanic (one flat colour per company, 10% of the page) is kept exactly.
 - Contrast: ink on every tint ≥ 13:1; white chevron on ink 19:1; `#4E5A60` on ground 7.1:1; ink text on `#BEC8CE` 11:1; on the ink band text `#FAFBFB` and muted `#AEB8BD`.
@@ -195,12 +195,12 @@ Inner-page `sp-*`: only sp-reveal--up (+ stagger) and sp-parallax (heads and ban
 ### 6.3 Group companies and milestones
 | # | Year | Company | Base | People | Sector | Tint | Photo |
 |---|---|---|---|---|---|---|---|
-| 1 | 1962 | Ishizue Materials | Rotterdam, NL | 640 | stone, aggregates, recycled building materials | `#E3DFD3` | P04 |
-| 2 | 1978 | Northquay Logistics | Antwerp, BE | 920 | warehousing and regional freight | `#D5DEE5` | P05 |
-| 3 | 1994 | Lindholm Precision | Gothenburg, SE | 310 | machined components | `#E2D6D7` | P06 |
-| 4 | 2009 | Verda Facilities | Utrecht, NL | 552 | building services and maintenance | `#D6E0D5` | P07 |
-| 5 | 2016 | Calder Food Partners | Hamburg, DE | 260 | food ingredient distribution | `#D3E1E0` | P08 |
-| 6 | 2021 | Ishizue Renewables | Aarhus, DK | 120 | rooftop solar and storage for industrial sites | `#C9D1D5` | P09 |
+| 1 | 1962 | Ishizue Materials | Rotterdam, NL | 640 | stone, aggregates, recycled building materials | `#E6E0D0` | P04 |
+| 2 | 1978 | Northquay Logistics | Antwerp, BE | 920 | warehousing and regional freight | `#D1DDE6` | P05 |
+| 3 | 1994 | Lindholm Precision | Gothenburg, SE | 310 | machined components | `#E6D1D2` | P06 |
+| 4 | 2009 | Verda Facilities | Utrecht, NL | 552 | building services and maintenance | `#D2E5D0` | P07 |
+| 5 | 2016 | Calder Food Partners | Hamburg, DE | 260 | food ingredient distribution | `#CFE5E4` | P08 |
+| 6 | 2021 | Ishizue Renewables | Aarhus, DK | 120 | rooftop solar and storage for industrial sites | `#C1D4DD` | P09 |
 Holding office Maaskade 41: 58 people. **Total 2,860 colleagues**, **9 countries** (NL, BE, DE, DK, SE, PL, FR, ES, IE), **6 companies**.
 Other milestones: 1987 head office moves to Maaskade 41; 2003 Ishizue Holdings B.V. formed, Ishizue Foundation majority owner, employee share plan; 2026 interim report H1 published 28 Aug 2026.
 

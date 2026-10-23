@@ -80,7 +80,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-foot__addr"} -->
-<p class="ih-foot__addr">Reception Mon–Fri 08:30–17:30 CET<br><a href="tel:+31105550141">+31 10 555 0141</a><br><a href="mailto:contact@ishizue-holdings.example">contact@ishizue-holdings.example</a><br><a href="mailto:ir@ishizue-holdings.example">ir@ishizue-holdings.example</a></p>
+<p class="ih-foot__addr">Reception Mon–Fri 08:30–17:30 CET<br><a href="tel:+31105550141">+31 10 555 0141</a><br><a href="mailto:contact@ishizue-holdings.example">contact@ishizue-holdings.example</a><br><a href="mailto:ir@ishizue-holdings.example">ir@ishizue-holdings.example</a><br><a href="mailto:press@ishizue-holdings.example">press@ishizue-holdings.example</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
