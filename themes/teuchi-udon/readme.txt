@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as pencil-sketch i
 - assets/images/demo/wheat-field.webp (demo import copy of assets/images/wheat-field.webp)
 - assets/images/demo/broth.webp (demo import copy of assets/images/broth.webp)
 - assets/images/demo/bowl-curry.webp (demo import copy of assets/images/bowl-curry.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

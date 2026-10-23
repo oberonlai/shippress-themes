@@ -4,7 +4,7 @@ Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
 Version: 1.1.1
-Stable tag: 1.1.1
+Stable tag: 1.1.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -100,6 +100,9 @@ Images: AI-generated for this theme with Grok Build image_gen, maki-e lacquer il
 All other artwork (rules and ornaments) is CSS, GPL-2.0-or-later.
 
 == Changelog ==
+
+= 1.1.3 =
+* Updated theme files (functions.php, inc/editor-lang.php).
 
 = 1.1.2 =
 * English is never set vertically any more (feedback: "the menu is still hard to read; don't set English vertically"). Everything is horizontal by default; vertical writing (tategaki) is used only when the content language is Chinese, Japanese or Korean (:lang(ja), :lang(zh), :lang(ko), taken from the site language or any block's lang attribute), so a CJK site still gets the vertical layout of 1.1.

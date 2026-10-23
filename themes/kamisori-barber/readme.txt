@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as layered paper-c
 - assets/images/demo/svc-shave.webp (demo import copy of assets/images/svc-shave.webp)
 - assets/images/demo/svc-razor.webp (demo import copy of assets/images/svc-razor.webp)
 - assets/images/demo/hands-comb.webp (demo import copy of assets/images/hands-comb.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

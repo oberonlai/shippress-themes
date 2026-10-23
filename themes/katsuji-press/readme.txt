@@ -41,3 +41,7 @@ Images: AI-generated for this theme with Grok Build image_gen, sumi-ink illustra
 - assets/images/demo/paper.webp (demo import copy of assets/images/paper.webp)
 - assets/images/demo/hands.webp (demo import copy of assets/images/hands.webp)
 - assets/images/demo/workshop.webp (demo import copy of assets/images/workshop.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

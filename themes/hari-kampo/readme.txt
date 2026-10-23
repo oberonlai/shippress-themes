@@ -43,3 +43,7 @@ Images: AI-generated for this theme with Grok Build image_gen, pencil-sketch ill
 - assets/images/demo/weighing.webp (demo import copy of assets/images/weighing.webp)
 - assets/images/demo/hero-herbs.webp (demo import copy of assets/images/hero-herbs.webp)
 - assets/images/demo/hero-shop.webp (demo import copy of assets/images/hero-shop.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

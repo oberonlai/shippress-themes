@@ -51,3 +51,7 @@ Images: AI-generated for this theme with Grok Build image_gen as sumi-ink brush 
 - assets/images/demo/water-station.webp (demo import copy of assets/images/water-station.webp)
 - assets/images/demo/training.webp (demo import copy of assets/images/training.webp)
 - assets/images/demo/finish.webp (demo import copy of assets/images/finish.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

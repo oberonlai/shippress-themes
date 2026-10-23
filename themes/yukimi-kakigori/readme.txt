@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as layered paper-c
 - assets/images/demo/syrup.webp (demo import copy of assets/images/syrup.webp)
 - assets/images/demo/bowl-matcha.webp (demo import copy of assets/images/bowl-matcha.webp)
 - assets/images/demo/garden.webp (demo import copy of assets/images/garden.webp)
+
+== Changelog ==
+= 1.0.3 =
+* Updated theme files (functions.php, inc/editor-lang.php).

@@ -51,3 +51,7 @@ Images: AI-generated for this theme with Grok Build image_gen as 3D clay illustr
 - assets/images/demo/desk.webp (demo import copy of assets/images/desk.webp)
 - assets/images/demo/fair-table.webp (demo import copy of assets/images/fair-table.webp)
 - assets/images/demo/inking.webp (demo import copy of assets/images/inking.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

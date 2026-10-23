@@ -52,3 +52,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p2-charge.webp and assets/images/demo/p2-charge.webp (journal entry: a charging connector in a car)
 - assets/images/p3-cabin.webp and assets/images/demo/p3-cabin.webp (journal entry: the inside of a car at dusk)
 - assets/images/p4-wet.webp and assets/images/demo/p4-wet.webp (Journal head: a rain-streaked windscreen on a quiet road)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

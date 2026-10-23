@@ -27,7 +27,8 @@ export function bumpTexts({ css, readme, meta }, from, to, note) {
     r = /^== Changelog ==\s*$/m.test(r) ? r.replace(/^== Changelog ==\s*\n/m, (h) => `${h}${entry}\n`) : `${r.replace(/\n*$/, "\n")}\n== Changelog ==\n${entry}`;
     out.readme = r;
   }
-  if (meta != null) { const j = JSON.parse(meta); j.version = to; out.meta = JSON.stringify(j, null, 2) + "\n"; }
+  // Only the version value changes: re-serialising would rewrite \uXXXX escapes as raw CJK, which check-themes rejects.
+  if (meta != null) { JSON.parse(meta); out.meta = /"version"\s*:\s*"[^"]*"/.test(meta) ? meta.replace(/("version"\s*:\s*")[^"]*(")/, `$1${to}$2`) : meta.replace(/^(\s*\{\s*?\n)(\s*)/, (m, a, ind) => `${a}${ind || "  "}"version": "${to}",\n${ind}`); if (JSON.parse(out.meta).version !== to) throw new Error(`could not set theme-meta version ${to}`); }
   if (cssVersion(out.css) !== to) throw new Error(`could not set Version ${to} (was ${from})`);
   return out;
 }

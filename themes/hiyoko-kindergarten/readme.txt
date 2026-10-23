@@ -53,6 +53,9 @@ Images: AI-generated for this theme with Grok Build image_gen as realistic 35mm 
 
 == Changelog ==
 
+= 1.0.2 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.0.1 =
 * Traditional Chinese (zh-TW): the side menu is now a horizontal numbered list instead of vertical columns. Japanese keeps its vertical menu; other languages are unchanged.
 

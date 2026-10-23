@@ -47,3 +47,7 @@ Images: AI-generated for this theme with Grok Build image_gen as realistic high-
 - assets/images/demo/hands.webp (sample post image)
 - assets/images/demo/bench.webp (sample post image)
 - assets/images/demo/lab.webp (sample post image)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

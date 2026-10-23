@@ -48,3 +48,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p14-screen-printing.webp and assets/images/demo/p14-screen-printing.webp (products row: screen-printing station; the demo/ copy is the one imported into the Media Library)
 - assets/images/p15-colleagues.webp and assets/images/demo/p15-colleagues.webp (about portrait, cases: two colleagues reviewing a reel; the demo/ copy is the one imported into the Media Library)
 - assets/images/p16-sample-packing.webp and assets/images/demo/p16-sample-packing.webp (samples head, products row: packing a sample box; the demo/ copy is the one imported into the Media Library)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

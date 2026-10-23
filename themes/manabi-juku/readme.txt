@@ -51,3 +51,7 @@ Images: AI-generated for this theme with Grok Build image_gen as realistic high-
 - assets/images/demo/grade-exam.webp (demo import copy of assets/images/grade-exam.webp)
 - assets/images/demo/study-desk.webp (demo import copy of assets/images/study-desk.webp)
 - assets/images/demo/classroom.webp (demo import copy of assets/images/classroom.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

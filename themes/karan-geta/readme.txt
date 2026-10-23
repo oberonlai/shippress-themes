@@ -53,3 +53,7 @@ Images: AI-generated for this theme with Grok Build image_gen as full woodblock-
 - assets/images/demo/j-onsen.webp (workshop note: geta for the evening bath walk)
 - assets/images/demo/j-rain.webp (workshop note: geta in the rain)
 - assets/images/demo/j-fit.webp (workshop note and Newsletter: setting a strap)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

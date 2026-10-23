@@ -51,3 +51,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/demo/j-knots.webp (tide note and Harbour panel: hands tying a knot)
 - assets/images/demo/j-river.webp (tide note, River mouth panel, Newsletter: a jetty in mist)
 - assets/images/demo/j-tide.webp (tide note and Rocks panel: a red bucket at low tide)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

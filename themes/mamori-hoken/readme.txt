@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as realistic photo
 - assets/images/demo/town.webp (demo import copy of assets/images/town.webp)
 - assets/images/demo/desk.webp (demo import copy of assets/images/desk.webp)
 - assets/images/demo/cover-business.webp (demo import copy of assets/images/cover-business.webp)
+
+== Changelog ==
+= 1.0.2 =
+* Updated theme files (functions.php, inc/editor-lang.php).

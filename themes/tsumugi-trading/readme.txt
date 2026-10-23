@@ -90,5 +90,8 @@ assets/images/sample-room.webp, assets/images/demo/sample-room.webp: generated w
 
 == Changelog ==
 
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.0.0 =
 * First release: mid-sized trading company, sample content in en, zh-TW, ja, fr and de.

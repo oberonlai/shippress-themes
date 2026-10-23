@@ -51,3 +51,7 @@ Images: AI-generated for this theme with Grok Build image_gen as graphite pencil
 - assets/images/demo/canal.webp (demo import copy of assets/images/canal.webp)
 - assets/images/demo/breakfast.webp (demo import copy of assets/images/breakfast.webp)
 - assets/images/demo/bath.webp (demo import copy of assets/images/bath.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

@@ -52,6 +52,9 @@ assets/images/demo/watermark-ring.png: raster copy of watermark-ring.svg for the
 
 == Changelog ==
 
+= 1.0.2 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.0.1 =
 * The instructor portrait on the home page is regenerated so the laptop screen faces the instructor, not the camera; catalogue screenshots refreshed.
 

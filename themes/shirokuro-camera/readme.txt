@@ -55,3 +55,7 @@ Images: AI-generated for this theme with Grok Build image_gen as soft 3D clay il
 - assets/images/demo/j-roll.webp (counter note: loading film without fear)
 - assets/images/demo/j-walk.webp (counter note: the persimmon walk)
 - assets/images/demo/j-lab.webp (counter note and Newsletter: contact sheets and prints with a loupe)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

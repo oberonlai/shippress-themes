@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as two-colour riso
 - assets/images/demo/harbour.webp (demo import copy of assets/images/harbour.webp)
 - assets/images/demo/shelf.webp (demo import copy of assets/images/shelf.webp)
 - assets/images/demo/svc-web.webp (demo import copy of assets/images/svc-web.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

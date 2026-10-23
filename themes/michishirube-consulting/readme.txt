@@ -49,6 +49,9 @@ Images: AI-generated for this theme with Grok Build image_gen as realistic low-k
 
 == Changelog ==
 
+= 1.0.2 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.0.1 =
 * Deep navy #1E3A5F replaces shikon violet as the main colour, with mist blue-grey, cloud white and a small muted brass accent; photos re-graded to navy.
 * The Chinese and Japanese side menu is now horizontal like the other languages (it was set top to bottom in narrow columns); current-page marker, clearer hover and focus states, wider rail for long French and German entries.

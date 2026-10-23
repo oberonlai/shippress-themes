@@ -51,3 +51,7 @@ Images: AI-generated for this theme with Grok Build image_gen as soft watercolou
 - assets/images/demo/tea-room.webp (demo import copy of assets/images/tea-room.webp)
 - assets/images/demo/garden-path.webp (demo import copy of assets/images/garden-path.webp)
 - assets/images/demo/sweet-seasonal.webp (demo import copy of assets/images/sweet-seasonal.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

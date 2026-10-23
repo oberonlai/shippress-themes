@@ -67,3 +67,7 @@ Files: assets/fonts/noto-serif-jp-400-ja.woff2
 Copyright 2012 Google Inc. All Rights Reserved.
 License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSerifJP.txt, https://openfontlicense.org).
 Regular 400 from https://github.com/google/fonts/tree/main/ofl/notoserifjp, subset to the characters of the Japanese sample text.
+
+== Changelog ==
+= 1.1.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

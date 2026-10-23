@@ -67,6 +67,7 @@ export function styleHeader(css) {
 }
 
 /** Problems with one theme folder (empty = valid). */
+export const SHARED_EDITOR_LANG = fileURLToPath(new URL("../shared/inc/editor-lang.php", import.meta.url));
 export const SHARED_IMPORTER = fileURLToPath(new URL("../shared/inc/demo-import.php", import.meta.url));
 // Earlier versions of the shared importer (shared/inc/legacy/*.php). A released theme may keep the copy it shipped with
 // until its next version; a new or changed theme copies the current shared one.
@@ -86,6 +87,13 @@ export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SH
   else if (DEMO_LANGS.some((l) => has(`demo-content.${l}.json`)) && !readFileSync(join(dir, "inc/demo-import.php")).equals(Buffer.from(importer))) errs.push("a theme with demo-content.<lang>.json needs the current shared importer (copy shared/inc/demo-import.php)");
   else if (!/add_action\(\s*'after_switch_theme'/.test(String(importer))) errs.push("the importer has no after_switch_theme hook");
   if (has("functions.php") && !/require_once\s+get_template_directory\(\)\s*\.\s*'\/inc\/demo-import\.php'/.test(read("functions.php"))) errs.push("functions.php must require_once get_template_directory() . '/inc/demo-import.php'");
+  // Editor = front end fonts (2026-10-23, Denki): the editor canvas iframe has no <html lang>, so :lang() font stacks in
+  // the theme CSS apply on the front end only. A theme with :lang() rules ships shared/inc/editor-lang.php and requires it.
+  const cssFiles = ["style.css", ...(has("assets") ? readdirSync(join(dir, "assets")).filter((f) => f.endsWith(".css")).map((f) => `assets/${f}`) : [])];
+  if (cssFiles.some((f) => has(f) && /:lang\(/.test(read(f)))) {
+    if (!has("inc/editor-lang.php") || !readFileSync(join(dir, "inc/editor-lang.php")).equals(readFileSync(SHARED_EDITOR_LANG))) errs.push("the theme CSS has :lang() rules, so inc/editor-lang.php must be an unchanged copy of shared/inc/editor-lang.php (otherwise the editor shows other fonts than the front end)");
+    if (has("functions.php") && !/require_once\s+get_template_directory\(\)\s*\.\s*'\/inc\/editor-lang\.php'/.test(read("functions.php"))) errs.push("functions.php must require_once get_template_directory() . '/inc/editor-lang.php' (editor fonts = front-end fonts)");
+  }
   if (!demo) return errs;
   if (!demo.site?.title) errs.push("demo-content.json needs site.title");
   const pages = Array.isArray(demo.pages) ? demo.pages : (errs.push("demo-content.json needs a pages list"), []);

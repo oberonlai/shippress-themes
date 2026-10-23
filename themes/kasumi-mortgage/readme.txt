@@ -83,3 +83,7 @@ assets/images/portrait-owen.webp, assets/images/demo/portrait-owen.webp: AI-gene
 assets/images/quiet-street.webp, assets/images/demo/quiet-street.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/self-employed.webp, assets/images/demo/self-employed.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/signing-papers.webp, assets/images/demo/signing-papers.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

@@ -55,3 +55,7 @@ Images: AI-generated for this theme with Grok Build image_gen as soft watercolou
 - assets/images/demo/j-harvest.webp (workshop note: why we cut bamboo in winter)
 - assets/images/demo/j-strips.webp (workshop note and Newsletter: bamboo strips drying on a rack)
 - assets/images/demo/j-care.webp (workshop note: caring for a bamboo basket)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

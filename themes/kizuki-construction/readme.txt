@@ -44,3 +44,7 @@ Images: AI-generated for this theme with Grok Build image_gen as realistic docum
 - assets/images/demo/handover.webp (sample post image)
 - assets/images/demo/frame.webp (sample post image)
 - assets/images/demo/plot.webp (sample post image)
+
+== Changelog ==
+= 1.0.2 =
+* Updated theme files (functions.php, inc/editor-lang.php).

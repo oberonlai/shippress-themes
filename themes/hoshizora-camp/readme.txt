@@ -48,3 +48,7 @@ Images: AI-generated for this theme with Grok Build image_gen as watercolour ill
 - assets/images/demo/dome.webp (demo import copy of assets/images/dome.webp)
 - assets/images/demo/breakfast.webp (demo import copy of assets/images/breakfast.webp)
 - assets/images/demo/trail.webp (demo import copy of assets/images/trail.webp)
+
+== Changelog ==
+= 1.0.3 =
+* Updated theme files (functions.php, inc/editor-lang.php).

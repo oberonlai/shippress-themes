@@ -43,3 +43,7 @@ Images: AI-generated for this theme with Grok Build image_gen as low-key photogr
 - assets/images/demo/hero.webp (demo import copy of assets/images/hero.webp)
 - assets/images/demo/class.webp (demo import copy of assets/images/class.webp)
 - assets/images/demo/bachi.webp (demo import copy of assets/images/bachi.webp)
+
+== Changelog ==
+= 1.0.3 =
+* Updated theme files (functions.php, inc/editor-lang.php).

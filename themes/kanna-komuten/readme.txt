@@ -49,3 +49,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/demo/joinery.webp (demo import copy of assets/images/joinery.webp)
 - assets/images/demo/tools.webp (demo import copy of assets/images/tools.webp)
 - assets/images/demo/beam.webp (demo import copy of assets/images/beam.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

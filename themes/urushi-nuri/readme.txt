@@ -53,3 +53,7 @@ Images: AI-generated for this theme with Grok Build image_gen as 2.5D isometric 
 - assets/images/demo/j-grove.webp (workshop note: tapping urushi sap in a grove)
 - assets/images/demo/j-repair.webp (workshop note: mending a cracked bowl)
 - assets/images/demo/j-market.webp (workshop note and Newsletter: a craft fair stall)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).
