@@ -48,3 +48,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p6-hay.webp and assets/images/demo/p6-hay.webp (box card and product: timothy hay; the demo/ copy is the one imported into the Media Library)
 - assets/images/p7-bed.webp and assets/images/demo/p7-bed.webp (strip and product: washable cotton bed; the demo/ copy is the one imported into the Media Library)
 - assets/images/p8-bowls.webp and assets/images/demo/p8-bowls.webp (strip and product: ceramic bowl pair; the demo/ copy is the one imported into the Media Library)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (demo-content.de.json, demo-content.fr.json, demo-content.ja.json, demo-content.json and 4 more).
