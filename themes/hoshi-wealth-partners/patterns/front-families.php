@@ -56,7 +56,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:group {"className":"hp-fam__frame","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-fam__frame"><!-- wp:paragraph {"className":"hp-fam__name"} -->
-<p class="hp-fam__name"><?php echo esc_html( hoshi_wealth_partners_t( 'fam_name_a' ) ); ?> <span class="hp-acc">A</span><?php echo esc_html( hoshi_wealth_partners_t( 'fam_name_b' ) ); ?></p>
+<p class="hp-fam__name"><?php echo esc_html( hoshi_wealth_partners_t( 'fam_name_a' ) ); ?><span class="hp-acc">A</span><?php echo esc_html( hoshi_wealth_partners_t( 'fam_name_b' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hp-fam__img hp-ph hp-ph--4x5"} -->
 <figure class="wp-block-image size-full hp-fam__img hp-ph hp-ph--4x5"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09.webp' ) ); ?>" alt="<?php echo esc_attr( hoshi_wealth_partners_t( 'alt_p09' ) ); ?>"/></figure>
 <!-- /wp:image --><!-- wp:group {"className":"hp-block","layout":{"type":"default"}} -->

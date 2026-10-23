@@ -19,3 +19,9 @@ A WordPress block theme for a fee-only wealth-management firm in Seattle (founde
 5. Parallax strip and the investment approach.
 6. Framed family story and three more stories.
 7. Introductory meeting panel.
+
+## Stage-2 fixes (home)
+
+- Grain-clipped "MONEY." (SVG noise), serif words scaled 1.06em on phones, family name no longer hides the rule.
+- Prologue spacing and column widths tightened; mobile meeting photo crops to the two armchairs; one quiet one-to-one photograph replaces the open-office portrait (P05).
+- Main menu links go to real inner pages (approach, people, services, fees, stories, letters, contact, introductory meeting). Inner pages and the four other languages follow.
