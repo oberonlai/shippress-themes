@@ -41,3 +41,32 @@ Newsreader and Public Sans (SIL OFL 1.1, licences in assets/fonts).
 - assets/images/s7.webp
 - assets/images/s8.webp
 - assets/images/s9.webp
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Oto Audio home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Oto Audio home page on mobile"></td>
+</tr>
+</table>
+
+- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Compare: [desktop](screenshots/compare-desktop.webp) · [mobile](screenshots/compare-mobile.webp)
+- Listening room: [desktop](screenshots/listening-room-desktop.webp) · [mobile](screenshots/listening-room-mobile.webp)
+- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
+- Shipping returns: [desktop](screenshots/shipping-returns-desktop.webp) · [mobile](screenshots/shipping-returns-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Cart: [desktop](screenshots/cart-desktop.webp) · [mobile](screenshots/cart-mobile.webp)
+- Checkout: [desktop](screenshots/checkout-desktop.webp) · [mobile](screenshots/checkout-mobile.webp)
+- My account: [desktop](screenshots/my-account-desktop.webp) · [mobile](screenshots/my-account-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
