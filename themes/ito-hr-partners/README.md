@@ -18,3 +18,26 @@ License: GPL-2.0-or-later.
 - Menu: Services, Fees, Team, About, Stories, Contact, plus four service pages (payroll compliance, policies & handbooks, workplace investigations, retainer support), all created by the demo import.
 - Story cards show topic categories (Handbooks, Payroll, Investigations).
 - Portraits (p01, p12–p14) are studio shots against a plain wall, not crops of scene photos.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Ito HR Partners home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Ito HR Partners home page on mobile"></td>
+</tr>
+</table>
+
+- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
+- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
+- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
