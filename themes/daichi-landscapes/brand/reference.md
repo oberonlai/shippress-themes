@@ -9,8 +9,16 @@ Source: S5-Style (https://www.s5-style.com/), category: construction / landscapi
 ## Colour (R1 → ours)
 | role | R1 | ours (daichi-landscapes) | ratio |
 |---|---|---|---|
-| ground | `#f7edde` | (to fill: low-chroma stone, not cream) | ~60% |
-| support | `#f5f1d8` wave band / `#fff` | | ~25% |
+| ground | `#f7edde` | `#FFFFFF` white + `#F2F1EC` stone (cream forbidden) | ~70% |
+| support | `#f5f1d8` wave band / `#fff` | `#F5F1D8` timeline band + wave | ~20% |
 | main | `#118856` | `#5E6B52` moss (small areas) | ~8% |
-| accent | `#fe6806` | (to fill) | ≤2% |
-Product mapping column: (blank, filled in stage 1b/design-spec)
+| accent | `#fe6806` | `#E2662A` 10px sun dot before labels | <0.5% |
+## 成品對應 (product mapping, see design-spec.md)
+| R1 technique | Daichi |
+|---|---|
+| 1 vertical white label tiles | T1: 3 horizontal white tiles (15px gap, staggered) top-right over hero P1; page-head strips on all inner pages; flow below photo on mobile |
+| 2 wave edge | T2: one asymmetric 70px swell under the `#F5F1D8` process-timeline band (home #4, Process, Services, Aftercare, Project single, About) |
+| 3 ring meters | T3: three 260px rings stroke 26 with sp-count (home #6, Aftercare, About, Project single) |
+| 4 offset carousel | not used (Ito HR marquee too close) |
+| floating info card | hero bottom-right card 377×108 r8 |
+| inview motion | sp-reveal--up/zoom/wipe .8s cubic-bezier(.65,0,.35,1); hero sp-parallax 10%/6% |
