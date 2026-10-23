@@ -66,7 +66,18 @@ Supporting: full bands in ground, stone #BEC8CE, white r30 panel and ink; parall
 Ground #FAFBFB, ink #0B0D0E, stone band #BEC8CE, accent #7D8C94 (small areas only), muted text #4E5A60, hairline #D9DCDD, six low-chroma card tints #E6E0D0 #D1DDE6 #E6D1D2 #D2E5D0 #CFE5E4 #C1D4DD.
 
 ## Pages and contents
-Home, History, Group companies, Leadership, Governance, Investors, Sustainability, For owners, Shared services, News, Contact. Stage 1 ships the home page; the inner pages hold short placeholders until stage 2.
+Every inner page opens with a small timeline head: the H1 at the left, a bracket lead line, a rounded photograph bleeding off the right edge (parallax 6%), a flat tinted sliver at the far left and the curve-ended line.
+- Home: tagline, timeline, bracket marquee rows, the sticky stack of six company cards, quay band, governance, notices panel, owners band, visit close.
+- History: nine milestone rows (1962, 1978, 1987, 1994, 2003, 2009, 2016, 2021, 2026) with a sticky year, a tinted card for each of the six companies, a wide quay photograph for 1987 and a full-width parallax band between 2003 and 2009. The head line carries the nine years as anchors.
+- Group companies: intro, the six company cards as a sticky stack, each with a Joined / Base / People / Sector facts list, and a closing note that names and managers stay.
+- Leadership: six people as ruled rows with a bracket remit, the board photograph after the third, the founders at the end.
+- Governance: ownership, three principles in bracket style, three committees on a stone band, the board at a glance, code of conduct and speak-up, a parallax quay band.
+- Investors: key figures in one line, five notices, the financial calendar, reports table, contact with the CFO.
+- Sustainability: three 2030 areas (energy, training, materials) as tinted cards with inset photographs; the statement every March.
+- For owners: criteria, five stages as a numbered list, the Lindholm story as one large card, a review if a sale is not the question, how to reach Arjun Mehta.
+- Shared services: six published fees in a full-width price table (fee column never cut, stacked on phones), what is not included, how to start and stop.
+- News: the story index on tinted cards with one sample article ("Keeping the name on the door: Lindholm's succession"); the formal notices are on Investors.
+- Contact: tinted address card with a photograph, three mailboxes, directions (tram 23 and 25, parking at Kop van Zuid), who answers which subject.
 
 ## Photography
-Thirteen AI-generated documentary photographs from one style string: high-key soft overcast daylight, bright clean modern Northern European settings, a muted palette of blue-grey, pale stone, off-white, glass and charcoal, diverse adults in candid working moments. No text, logos, brand marks or cut-outs.
+Sixteen AI-generated documentary photographs from one style string: high-key soft overcast daylight, bright clean modern Northern European settings, a muted palette of blue-grey, pale stone, off-white, glass and charcoal, diverse adults in candid working moments. No text, logos, brand marks or cut-outs.
