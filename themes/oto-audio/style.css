@@ -185,7 +185,7 @@ html.sp-js:not(.sp-no-motion) .oa-way.sp-reveal--wipe > * { transition: clip-pat
 .oa-cross__plus { position: absolute; transform: translate(-50%, -50%); }
 .oa-cross__plus--t { top: -64px; }
 .oa-cross__plus--b { top: calc(100% + 64px); }
-.oa-cmp { width: 100%; border-collapse: collapse; table-layout: fixed; color: var(--oa-on-ink); font-size: 1rem; line-height: 1.6; }
+.oa-cmp { width: calc(100% + 20px); margin-right: -20px; padding-right: 20px; box-sizing: border-box; border-collapse: separate; border-spacing: 0; table-layout: fixed; color: var(--oa-on-ink); font-size: 1rem; line-height: 1.6; }
 .oa-cmp th, .oa-cmp td { padding: 20px 16px; border: 0; text-align: center; vertical-align: middle; font-weight: 300; }
 .oa-cmp thead th { position: relative; vertical-align: bottom; padding-bottom: 32px; border-bottom: 1px solid var(--oa-rule-ink); }
 .oa-cmp thead th:first-child { width: 22%; }
@@ -344,3 +344,6 @@ html.sp-js:not(.sp-no-motion) .oa-card.sp-reveal { transition-delay: var(--sp-de
 }
 html.sp-no-motion .oa-split__photo { animation: none !important; }
 @media (max-width: 781px) { .oa-sec--ink, .oa-sec { padding-top: 96px !important; padding-bottom: 96px !important; } .oa-sec--ways { padding-top: 0 !important; } }
+
+/* grid children: the flow layout adds a block gap above every sibling; the grids use their own gap */
+.oa-ways > *, .oa-trio > *, .oa-posts > *, .oa-rows > *, .oa-foot__cols > *, .oa-intro__grid > *, .oa-room__grid > * { margin: 0 !important; }
