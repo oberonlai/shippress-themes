@@ -27,7 +27,7 @@ GNU General Public License for more details.
 == Resources ==
 
 = Fonts =
-Lora and Karla, both SIL Open Font License 1.1, bundled in assets/fonts.
+Lora and Karla, both SIL Open Font License 1.1, bundled in assets/fonts. Noto Serif JP and Noto Serif TC (OFL-1.1), subset to the characters of the Japanese and Traditional Chinese sample text; see assets/fonts/.
 
 = Scripts and styles =
 assets/sp-scroll.css and assets/sp-scroll.js (scroll reveal and parallax, no library), GPL-2.0-or-later, written for ShipPress themes.
@@ -48,3 +48,6 @@ assets/images/p10-saplings.webp: generated with Grok for this theme, GPL-2.0-or-
 assets/images/p11-pruning.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p12-briefing.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p13-spring.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p14-green-roof.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p15-winter-street.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/p10-saplings.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0 (raster copy of p10-saplings.webp for the Media Library)

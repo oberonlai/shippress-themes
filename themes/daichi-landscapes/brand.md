@@ -50,7 +50,7 @@ By 2023 the crew had completed three courtyards and a sensory garden at Riversid
 80% of planting stock grown within 150 km; 24 months of aftercare on every planting contract; 60% native or adapted species in each planting plan. The crew is 28 people (stated on the About page only).
 
 ## Signature
-1. Three separate white tiles, 15 px apart and stepped to the left, hold the headline on top of the hero photograph (borrowed from the vertical label tiles on 石井造園).
+1. Three separate white tiles, 15 px apart and stepped to the left, hold the headline on top of the hero photograph (borrowed from the vertical label tiles on Ishii Zouen).
 2. One asymmetric swell edge under the pale `#F5F1D8` timeline band (amplitude about 70 px).
 3. Three ring meters, 260 px, with count-up numbers and a round documentary photo overlapping each ring.
 

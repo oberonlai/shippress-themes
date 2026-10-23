@@ -1,4 +1,4 @@
-# reference-tokens — R1 石井造園 (Ishii Zouen) https://www.ishii-zouen.co.jp/ (S5-Style #10051), measured 2026-10-23 at 1440×900 with getComputedStyle + pixel sampling. Values and descriptions only.
+# reference-tokens — R1 Ishii Zouen https://www.ishii-zouen.co.jp/ (S5-Style #10051), measured 2026-10-23 at 1440×900 with getComputedStyle + pixel sampling. Values and descriptions only.
 Note: R1's imagery is flat grainy illustration (not copied; ours is documentary photography). We keep structure, colour relationship and techniques.
 ## (a) Colour
 - Ground (warm cream) `#f7edde` ≈64% of first screen; white `#ffffff` section/cards/vertical label tiles; pale lime wave band `#f5f1d8`; text `#000000`.

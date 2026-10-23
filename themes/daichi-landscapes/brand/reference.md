@@ -1,6 +1,6 @@
 # reference.md (draft, stage 1)
 Source: S5-Style (https://www.s5-style.com/), category: construction / landscaping.
-- R1 (main): 石井造園 https://www.ishii-zouen.co.jp/ — S5-Style https://www.s5-style.com/10051/ (not used by earlier themes). Tokens: `reference-tokens.md`. Screens: `ref/ishii-first.png`, `ref/scroll-ishii-{0,1,2}-{before,after}.png`.
+- R1 (main): Ishii Zouen https://www.ishii-zouen.co.jp/ — S5-Style https://www.s5-style.com/10051/ (not used by earlier themes). Tokens: `reference-tokens.md`. Screens: `ref/ishii-first.png`, `ref/scroll-ishii-{0,1,2}-{before,after}.png`.
 ## Signature candidates (we use 2–3, visibly)
 1. Staggered vertical white label tiles (different heights) holding the H1 phrase over the hero image, top-right of the photo.
 2. Wavy curved section edge: a pale band whose bottom edge is a soft wave (amplitude ≈70px) into the next white section.
@@ -13,7 +13,7 @@ Source: S5-Style (https://www.s5-style.com/), category: construction / landscapi
 | support | `#f5f1d8` wave band / `#fff` | `#F5F1D8` timeline band + wave | ~20% |
 | main | `#118856` | `#5E6B52` moss (small areas) | ~8% |
 | accent | `#fe6806` | `#E2662A` 10px sun dot before labels | <0.5% |
-## 成品對應 (product mapping, see design-spec.md)
+## Product mapping (see design-spec.md)
 | R1 technique | Daichi |
 |---|---|
 | 1 vertical white label tiles | T1: 3 horizontal white tiles (15px gap, staggered) top-right over hero P1; page-head strips on all inner pages; flow below photo on mobile |
