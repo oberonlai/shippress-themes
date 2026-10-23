@@ -79,12 +79,13 @@ body { -webkit-font-smoothing: antialiased; }
 .dl-btns--head .wp-block-button__link { padding: 14px 24px; font-size: .9rem; }
 
 /* ---------- hero (T1: stair-step white tiles over the photo, stone lower half) ---------- */
+.dl-hero > * { margin-block: 0; }
 .dl-hero__top { position: relative; background: var(--dl-stone); }
 .dl-cover { margin: 0; padding: 0; }
 .dl-cover .wp-block-cover__inner-container { display: none; }
 .dl-cover--hero { min-height: 472px !important; }
 .dl-cover .wp-block-cover__image-background { object-fit: cover; }
-.dl-tiles { position: absolute; top: 18%; right: 64px; margin: 0; z-index: 2; display: flex; flex-direction: column; align-items: flex-end; gap: 15px; font-size: clamp(2.25rem, 4.2vw, 4.25rem); line-height: 1.1; }
+.dl-tiles { position: absolute; top: 15%; right: 64px; margin: 0; z-index: 2; display: flex; flex-direction: column; align-items: flex-end; gap: 15px; font-size: clamp(2.25rem, 4.2vw, 4.25rem); line-height: 1.1; }
 .dl-tile { display: block; background: #fff; color: var(--dl-ink); padding: 14px 22px; font-family: var(--dl-serif); font-weight: 600; border-radius: 0; box-shadow: none; white-space: nowrap; }
 .dl-tile--2 { margin-right: 48px; }
 .dl-tile--3 { margin-right: 96px; }
@@ -142,12 +143,14 @@ body { -webkit-font-smoothing: antialiased; }
 .dl-wave { height: 120px; margin: -1px 0 0 !important; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 120' preserveAspectRatio='none'%3E%3Cpath fill='%23F5F1D8' d='M0,0 H1440 V40 C1180,40 1020,110 760,110 C520,110 330,30 0,60 Z'/%3E%3C/svg%3E") center top / 100% 100% no-repeat; }
 
 /* ---------- projects ---------- */
-.dl-projects__head { margin-bottom: 56px; }
+.dl-projects__head { margin-bottom: 48px !important; }
+.dl-projects__main > * { margin-block: 0; }
 .dl-projects__grid { display: grid; grid-template-columns: 7fr 5fr; gap: 56px; align-items: start; }
 .dl-projects__grid > * { margin: 0; }
-.dl-projects__side { display: grid; gap: 56px; padding-top: 88px; }
+.dl-projects__side { display: grid; gap: 48px; padding-top: 0; }
 .dl-projects__side > * { margin: 0; }
 .dl-proj > * { margin-block: 0; }
+.dl-proj > .dl-meta { margin-top: 20px; }
 .dl-proj .dl-h3 { font-size: 1.6rem; }
 .dl-proj p:not(.dl-meta) { margin-top: 12px; font-size: 1rem; line-height: 1.6; }
 .dl-proj--1 .dl-h3 { font-size: 2.1rem; }
@@ -210,7 +213,7 @@ body { -webkit-font-smoothing: antialiased; }
 
 /* ---------- responsive ---------- */
 @media (max-width: 1100px) {
-	.dl-btns--head { display: none; }
+	.dl-btns--head { display: none !important; }
 	.dl-timeline { grid-template-columns: repeat(3, 1fr); row-gap: 48px; }
 	.dl-timeline::before { display: none; }
 	.dl-stage { border-top: 2px solid var(--dl-moss); padding-top: 22px; }

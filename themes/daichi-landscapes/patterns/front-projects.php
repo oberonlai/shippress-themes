@@ -10,6 +10,10 @@
 <section id="projects" class="wp-block-group alignfull dl-sec dl-projects">
 <!-- wp:group {"className":"dl-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group dl-wrap">
+<!-- wp:group {"className":"dl-projects__grid sp-stagger","layout":{"type":"default"}} -->
+<div class="wp-block-group dl-projects__grid sp-stagger">
+<!-- wp:group {"className":"dl-projects__main","layout":{"type":"default"}} -->
+<div class="wp-block-group dl-projects__main">
 <!-- wp:group {"className":"dl-projects__head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group dl-projects__head sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"dl-label"} -->
@@ -20,8 +24,6 @@
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
-<!-- wp:group {"className":"dl-projects__grid sp-stagger","layout":{"type":"default"}} -->
-<div class="wp-block-group dl-projects__grid sp-stagger">
 <!-- wp:group {"className":"dl-proj dl-proj--1 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group dl-proj dl-proj--1 sp-reveal sp-reveal--up">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"dl-ph dl-ph--32"} -->
@@ -36,6 +38,8 @@
 <!-- wp:paragraph -->
 <p><?php echo esc_html( daichi_landscapes_t( 'pj1_p' ) ); ?></p>
 <!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"dl-projects__side","layout":{"type":"default"}} -->
