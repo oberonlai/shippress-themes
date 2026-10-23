@@ -12,7 +12,7 @@ Daichi Landscapes is a business theme for a commercial landscaping company plant
 
 == Description ==
 
-Daichi Landscapes is a business theme for a commercial landscaping company planting campuses, hospitals and civic streets. It presents services, a six-stage process, project stories and a crew page in a calm documentary layout. Prices are shown in CAD, and the theme is WooCommerce compatible. The home page opens on a documentary photograph of a crew planting a street tree, with three white title tiles stepping down the right side and a stone lower half holding the lead, a survey button and a floating notice card. A sticky-photo service list, a six-stage timeline on a pale band with one swell edge, three ring meters with count-up numbers and a crew strip follow. Lora for headings, Karla for reading. Works without WooCommerce.
+Daichi Landscapes is a business theme for a commercial landscaping company planting campuses, hospitals and civic streets. It presents services, a six-stage process, project stories and a crew page in a calm documentary layout. Prices are shown in CAD, and the theme is WooCommerce compatible. The home page opens on a documentary photograph of a crew planting a street tree, with three white title tiles stepping down the right side and a stone lower half holding the lead, a survey button and a floating notice card. A sticky-photo service list, a six-stage timeline on a pale band with one swell edge, three ring meters with count-up numbers and a crew strip follow. Lora for headings, Karla for reading. Inner pages repeat the title tiles on a photo strip, the pale band with its swell edge and the ring meters, with a full-width price table that stacks on phones. Works without WooCommerce.
 
 == Copyright ==
 

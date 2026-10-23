@@ -1,6 +1,6 @@
 # Daichi Landscapes — brand brief
 
-Design plan row: b8-4 (commercial landscaping company; type business). Stage one: the home page in English. Inner pages and the other four languages follow. All names, places and people are fictional.
+Design plan row: b8-4 (commercial landscaping company; type business). The home page and the inner pages are in English; the other four languages follow. All names, places and people are fictional.
 
 ## Concept
 Daichi Landscapes Ltd. was founded in 2009 in Vancouver. The yard and office have stayed at Unit 4, 210 Mill Creek Road, Vancouver, BC V5Y 1Z3. From the start the company planted and maintained grounds for campuses, hospitals and civic streets across Metro Vancouver: trees in pits, paving edges, planters and the watering that follows a new planting. The work is commercial landscaping for sites that stay open to students, patients and people walking through.
@@ -65,3 +65,6 @@ Hero (photograph with tiles, stone lower half with lead, button and floating car
 
 ## Inner pages (stage two)
 Services, Pricing, Projects (and three project pages), Process, Aftercare, About, Team, Careers, Contact, Journal.
+
+## Inner pages (en)
+Every inner page opens with a 21:9 photo strip (parallax) carrying one or two white stair-step title tiles top-right. Pages: Services (sticky photo, price table on the pale band with one swell, small rings), Pricing (full-width price table, stacked rows on phones), Projects (three cases, alternating photo rows), three case pages (facts band with swell and one ring: 62 of 64, 3 of 3, 109 of 112), Process (six-stage timeline on the pale band), Aftercare (24-month ring, four seasons on the pale band), About (history band, three small rings), Team (six bios), Careers, Contact (address, hours, phone, email), Journal (posts page) and one note: "A planting contract, from the survey to month 24". Prices, names and counts match the home page. Photographs: 15, one STYLE string, no photo twice on a page.
