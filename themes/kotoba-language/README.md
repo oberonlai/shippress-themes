@@ -32,3 +32,33 @@ A WordPress block theme for an adult language school in Rotterdam (founded 2016)
 ## Inner pages (English)
 
 About (cropped `Kotoba.`, parallax classroom band, arc-flanked circle), Courses, three pathway pages (Work, Settlement, Exams; each with a parallax band, arc-flanked circle, fee rows and the named teacher), Teachers (eight circular portraits, 4+4), Levels and placement (CEFR table), Fees and intake (cropped `Fees.`, full-width fee and intake tables), Learner stories, Enquiry and visit (cropped `Hello.`, form), Journal with one sample article, and a 404 page. Tables stack on screens under 782px. The other four languages follow.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kotoba Language home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kotoba Language home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Courses: [desktop](screenshots/courses-desktop.webp) · [mobile](screenshots/courses-mobile.webp)
+- Pathways work: [desktop](screenshots/pathways-work-desktop.webp) · [mobile](screenshots/pathways-work-mobile.webp)
+- Pathways settlement: [desktop](screenshots/pathways-settlement-desktop.webp) · [mobile](screenshots/pathways-settlement-mobile.webp)
+- Pathways exams: [desktop](screenshots/pathways-exams-desktop.webp) · [mobile](screenshots/pathways-exams-mobile.webp)
+- Teachers: [desktop](screenshots/teachers-desktop.webp) · [mobile](screenshots/teachers-mobile.webp)
+- Levels placement: [desktop](screenshots/levels-placement-desktop.webp) · [mobile](screenshots/levels-placement-mobile.webp)
+- Fees intake: [desktop](screenshots/fees-intake-desktop.webp) · [mobile](screenshots/fees-intake-mobile.webp)
+- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
+- Enquiry: [desktop](screenshots/enquiry-desktop.webp) · [mobile](screenshots/enquiry-mobile.webp)
+- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
