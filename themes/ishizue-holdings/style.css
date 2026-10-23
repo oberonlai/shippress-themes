@@ -571,3 +571,34 @@ html.sp-no-motion .ih-card, .editor-styles-wrapper .ih-card { rotate: none !impo
 	.ih-ir { padding: 24px; }
 	.ih-art { padding: 40px 0 var(--ih-band); }
 }
+
+/* ===== Languages: Chinese and Japanese use bundled Noto Serif / Noto Sans CJK subsets (CJK characters only; Latin and figures stay in Noto Serif / Noto Sans) ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif", "Noto Serif TC", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Noto Sans", "Noto Sans TC", "PingFang TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Noto Sans", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .ih-label, .ih-hero__h1, .ih-ph__h1, .ih-sh, .ih-tcard__h) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) .ih-hero__h1 { font-size: clamp(2.2rem, 4.6vw, 3.4rem); }
+:is(:lang(zh), :lang(ja)) .ih-ph__h1 { font-size: clamp(2rem, 3.8vw, 2.9rem); }
+:is(:lang(zh), :lang(ja)) .ih-label { font-size: 1.75rem; }
+:is(:lang(zh), :lang(ja)) .ih-h2 { font-size: 1.9rem; }
+:is(:lang(zh), :lang(ja)) .ih-sh { font-size: 1.5rem; }
+:is(:lang(zh), :lang(ja)) .ih-tcard__h { font-size: 1.375rem; }
+:is(:lang(zh), :lang(ja)) .ih-ms__year { font-size: 2.75rem; }
+:lang(ja) :is(h1, h2, h3, p, li) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li, td) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .ih-hero__h1 { font-size: clamp(2.3rem, 5vw, 3.6rem); }
+:is(:lang(fr), :lang(de)) .ih-ph__h1 { font-size: clamp(2.1rem, 4.2vw, 3.2rem); }
+:is(:lang(fr), :lang(de)) .ih-label { font-size: 1.875rem; }
+:is(:lang(fr), :lang(de)) .ih-h2 { font-size: 2.125rem; }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) .ih-hero__h1, :is(:lang(zh), :lang(ja)) .ih-ph__h1 { font-size: 1.9rem; }
+	:is(:lang(zh), :lang(ja)) .ih-label, :is(:lang(zh), :lang(ja)) .ih-h2 { font-size: 1.5rem; }
+	:is(:lang(fr), :lang(de)) .ih-hero__h1, :is(:lang(fr), :lang(de)) .ih-ph__h1 { font-size: 2rem; }
+	:is(:lang(fr), :lang(de)) .ih-label, :is(:lang(fr), :lang(de)) .ih-h2 { font-size: 1.625rem; }
+}
