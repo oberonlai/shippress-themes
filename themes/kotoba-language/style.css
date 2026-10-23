@@ -91,7 +91,7 @@ body { background: var(--kl-paper); color: var(--kl-ink); }
 .kl-flank { display: flex; align-items: center; gap: var(--kl-arc-gap); }
 .kl-arc { width: var(--kl-arc-w); height: var(--kl-arc-h); flex: none; overflow: visible; display: block; }
 .kl-flank > .wp-block-html, .kl-flank > p:empty { display: contents; }
-.kl-circle { margin: 0; }
+.kl-circle { margin: 0; flex: none; }
 .kl-circle img { width: 372px; height: 372px; border-radius: 50%; object-fit: cover; display: block; }
 .kl-path--light { grid-template-columns: 1fr 280px; gap: 3rem; border-top: 1px solid var(--kl-rule); padding-block: 2.5rem; }
 .kl-path--light .kl-path__h { font-size: var(--wp--preset--font-size--large); line-height: 1.15; margin-bottom: 0.75rem; }
@@ -164,12 +164,12 @@ body { background: var(--kl-paper); color: var(--kl-ink); }
 	.kl-rail__lines b { position: absolute; left: 0; top: 14px; width: 7px; height: 7px; border-radius: 50%; background: var(--kl-accent); }
 	.kl-rail__label { position: absolute; right: 0; top: 50%; transform: translateY(-50%); writing-mode: vertical-rl; pointer-events: auto; }
 	.kl-rail__label a { font-family: var(--kl-sans); font-weight: 500; font-size: 0.6875rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--kl-ink); text-decoration: none; white-space: nowrap; display: block; }
-	.kl-rail__b { position: absolute; top: 0; right: 0; opacity: 0; pointer-events: none; }
+	.kl-rail__b { position: absolute; top: 0; right: 0; visibility: hidden; }
 	@supports (animation-timeline: scroll()) {
 		.kl-rail__a { animation: kl-rail-a linear both; animation-timeline: scroll(root); }
 		.kl-rail__b { animation: kl-rail-b linear both; animation-timeline: scroll(root); }
-		@keyframes kl-rail-a { 0%, 58% { opacity: 1; } 62%, 100% { opacity: 0; pointer-events: none; } }
-		@keyframes kl-rail-b { 0%, 58% { opacity: 0; pointer-events: none; } 62%, 100% { opacity: 1; pointer-events: auto; } }
+		@keyframes kl-rail-a { 0%, 60% { visibility: visible; } 60.1%, 100% { visibility: hidden; } }
+		@keyframes kl-rail-b { 0%, 60% { visibility: hidden; } 60.1%, 100% { visibility: visible; } }
 	}
 }
 
@@ -194,7 +194,7 @@ body { background: var(--kl-paper); color: var(--kl-ink); }
 	.kl-hero__text { padding: 2rem var(--kl-gut) 1.5rem; }
 	.kl-hero__bottom { padding-left: var(--kl-gut); padding-top: 1rem; }
 	.kl-pill { order: -1; position: static; transform: none; flex-direction: column; align-items: flex-start; gap: 0.25rem; padding: 1rem 1.5rem; border-radius: 40px; margin: 0 var(--kl-gut) 2rem 0; width: auto; max-width: none; }
-	.kl-circle img { width: min(60vw, 372px); height: min(60vw, 372px); }
+	.kl-circle img { width: min(44vw, 372px); height: min(44vw, 372px); flex: none; }
 	.kl-path--light { grid-template-columns: 1fr; gap: 1.5rem; }
 	.kl-teacher-grid, .kl-story-grid { grid-template-columns: 1fr; gap: 2.5rem; }
 	.kl-band img { height: 320px; }
