@@ -11,34 +11,34 @@
 <section class="wp-block-group alignfull ih-cos"><!-- wp:group {"className":"ih-wrap ih-cos__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-wrap ih-cos__grid"><!-- wp:group {"className":"ih-cos__side","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-cos__side"><!-- wp:paragraph {"className":"ih-label"} -->
-<p class="ih-label">Group companies</p>
+<p class="ih-label"><?php echo wp_kses_post( ishizue_holdings_t( 'ka55dc390' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"ih-h2"} -->
-<h2 class="wp-block-heading ih-h2">Six companies,<br>one long view.</h2>
+<h2 class="wp-block-heading ih-h2"><?php echo wp_kses_post( ishizue_holdings_t( 'k25989185' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-cos__intro"} -->
-<p class="ih-cos__intro">Six companies joined between 1962 and 2021. Each one still carries its own name, its own base and its own management, under one owner in Rotterdam.</p>
+<p class="ih-cos__intro"><?php echo wp_kses_post( ishizue_holdings_t( 'k25836127' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-more"} -->
-<p class="ih-more"><a class="ih-arrow" href="/companies/" aria-hidden="true" tabindex="-1"></a><a class="ih-more__t" href="/companies/">All group companies</a></p>
+<p class="ih-more"><a class="ih-arrow" href="/companies/" aria-hidden="true" tabindex="-1"></a><a class="ih-more__t" href="/companies/"><?php echo wp_kses_post( ishizue_holdings_t( 'k7950c7c0' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-cos__co"} -->
-<p class="ih-cos__co">Company</p>
+<p class="ih-cos__co"><?php echo wp_kses_post( ishizue_holdings_t( 'k1c76cbfe' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"ih-cos__links"} -->
 <ul class="wp-block-list ih-cos__links"><!-- wp:list-item -->
-<li><a href="/history/">History</a></li>
+<li><a href="/history/"><?php echo wp_kses_post( ishizue_holdings_t( 'k16d2b386' ) ); ?></a></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li><a href="/leadership/">Leadership</a></li>
+<li><a href="/leadership/"><?php echo wp_kses_post( ishizue_holdings_t( 'k1f0aef4f' ) ); ?></a></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li><a href="/governance/">Governance</a></li>
+<li><a href="/governance/"><?php echo wp_kses_post( ishizue_holdings_t( 'k5a935787' ) ); ?></a></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li><a href="/investors/">Investors</a></li>
+<li><a href="/investors/"><?php echo wp_kses_post( ishizue_holdings_t( 'k801d0ba3' ) ); ?></a></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group -->
@@ -46,7 +46,7 @@
 <!-- wp:group {"className":"ih-cards sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-cards sp-stagger"><!-- wp:group {"className":"ih-card sp-reveal sp-reveal--up","anchor":"c-1962","layout":{"type":"default"}} -->
 <div id="c-1962" class="wp-block-group ih-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-card__photo"} -->
-<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p04.webp' ); ?>" alt="Worker in a hi-vis vest checking a tablet beside stacked pale slabs."/></figure>
+<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p04.webp' ); ?>" alt="<?php echo esc_attr( ishizue_holdings_t( 'aa95d35d8' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-card__body","layout":{"type":"default"}} -->
@@ -55,24 +55,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-card__h"} -->
-<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark>Stone and aggregates for the delta</mark>)</span> since 1962.</h3>
+<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark><?php echo wp_kses_post( ishizue_holdings_t( 'kd54c5888' ) ); ?></mark>)</span> <?php echo wp_kses_post( ishizue_holdings_t( 'k0b0716eb' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-card__name"} -->
-<p class="ih-card__name">Ishizue Materials</p>
+<p class="ih-card__name"><?php echo wp_kses_post( ishizue_holdings_t( 'k70ba4010' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__text"} -->
-<p class="ih-card__text">Ishizue Materials is the trader of stone and aggregates that Kenzo Ishizue and Anneke de Vries started on the Maas. From Rotterdam it still supplies stone, aggregates and recycled building materials for the delta. The yard and the name have stayed with the trade.</p>
+<p class="ih-card__text"><?php echo wp_kses_post( ishizue_holdings_t( 'k9ddc1319' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ih-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-card__foot"><!-- wp:paragraph {"className":"ih-card__facts"} -->
-<p class="ih-card__facts">Rotterdam · 640 people</p>
+<p class="ih-card__facts"><?php echo wp_kses_post( ishizue_holdings_t( 'ka09f65f8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__go"} -->
-<p class="ih-card__go"><a class="ih-arrow" href="/companies/#materials" aria-label="Ishizue Materials"></a></p>
+<p class="ih-card__go"><a class="ih-arrow" href="/companies/#materials" aria-label="<?php echo esc_attr( ishizue_holdings_t( 'a70ba4010' ) ); ?>"></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -84,7 +84,7 @@
 
 <!-- wp:group {"className":"ih-card sp-reveal sp-reveal--up","anchor":"c-1978","layout":{"type":"default"}} -->
 <div id="c-1978" class="wp-block-group ih-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-card__photo"} -->
-<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p05.webp' ); ?>" alt="Forklift driver talking with a colleague in a tall warehouse aisle."/></figure>
+<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p05.webp' ); ?>" alt="<?php echo esc_attr( ishizue_holdings_t( 'a4b106918' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-card__body","layout":{"type":"default"}} -->
@@ -93,24 +93,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-card__h"} -->
-<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark>Warehousing and freight out of Antwerp</mark>)</span> since 1978.</h3>
+<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark><?php echo wp_kses_post( ishizue_holdings_t( 'kb8b201b2' ) ); ?></mark>)</span> <?php echo wp_kses_post( ishizue_holdings_t( 'k65710122' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-card__name"} -->
-<p class="ih-card__name">Northquay Logistics</p>
+<p class="ih-card__name"><?php echo wp_kses_post( ishizue_holdings_t( 'kf92d43a9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__text"} -->
-<p class="ih-card__text">Northquay Logistics joined in 1978 and runs warehousing and regional freight from Antwerp. Goods move through tall aisles and out across the region. The name on the depot and the local management stayed when the company entered the group.</p>
+<p class="ih-card__text"><?php echo wp_kses_post( ishizue_holdings_t( 'k427d6638' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ih-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-card__foot"><!-- wp:paragraph {"className":"ih-card__facts"} -->
-<p class="ih-card__facts">Antwerp · 920 people</p>
+<p class="ih-card__facts"><?php echo wp_kses_post( ishizue_holdings_t( 'k8f75acd9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__go"} -->
-<p class="ih-card__go"><a class="ih-arrow" href="/companies/#northquay" aria-label="Northquay Logistics"></a></p>
+<p class="ih-card__go"><a class="ih-arrow" href="/companies/#northquay" aria-label="<?php echo esc_attr( ishizue_holdings_t( 'af92d43a9' ) ); ?>"></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -122,7 +122,7 @@
 
 <!-- wp:group {"className":"ih-card sp-reveal sp-reveal--up","anchor":"c-1994","layout":{"type":"default"}} -->
 <div id="c-1994" class="wp-block-group ih-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-card__photo"} -->
-<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p06.webp' ); ?>" alt="Technician measuring a machined metal part with calipers beside a machine."/></figure>
+<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p06.webp' ); ?>" alt="<?php echo esc_attr( ishizue_holdings_t( 'ab2894b96' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-card__body","layout":{"type":"default"}} -->
@@ -131,24 +131,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-card__h"} -->
-<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark>Machined components from the Gothenburg workshop</mark>)</span> since 1994.</h3>
+<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark><?php echo wp_kses_post( ishizue_holdings_t( 'k80f6367d' ) ); ?></mark>)</span> <?php echo wp_kses_post( ishizue_holdings_t( 'k5f948cc0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-card__name"} -->
-<p class="ih-card__name">Lindholm Precision</p>
+<p class="ih-card__name"><?php echo wp_kses_post( ishizue_holdings_t( 'k79f37e9d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__text"} -->
-<p class="ih-card__text">Lindholm Precision joined in 1994 and makes machined components in Gothenburg. The name stayed on the door through the succession, and local management stayed in the workshop. Colleagues still measure and finish metal parts beside the machines they run.</p>
+<p class="ih-card__text"><?php echo wp_kses_post( ishizue_holdings_t( 'k7932fcd2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ih-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-card__foot"><!-- wp:paragraph {"className":"ih-card__facts"} -->
-<p class="ih-card__facts">Gothenburg · 310 people</p>
+<p class="ih-card__facts"><?php echo wp_kses_post( ishizue_holdings_t( 'kb39b9ccb' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__go"} -->
-<p class="ih-card__go"><a class="ih-arrow" href="/companies/#lindholm" aria-label="Lindholm Precision"></a></p>
+<p class="ih-card__go"><a class="ih-arrow" href="/companies/#lindholm" aria-label="<?php echo esc_attr( ishizue_holdings_t( 'a79f37e9d' ) ); ?>"></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -160,7 +160,7 @@
 
 <!-- wp:group {"className":"ih-card sp-reveal sp-reveal--up","anchor":"c-2009","layout":{"type":"default"}} -->
 <div id="c-2009" class="wp-block-group ih-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-card__photo"} -->
-<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p07.webp' ); ?>" alt="Technician servicing a ventilation unit while a colleague holds a tablet."/></figure>
+<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p07.webp' ); ?>" alt="<?php echo esc_attr( ishizue_holdings_t( 'aee89f782' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-card__body","layout":{"type":"default"}} -->
@@ -169,24 +169,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-card__h"} -->
-<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark>Building services and maintenance from Utrecht</mark>)</span> since 2009.</h3>
+<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark><?php echo wp_kses_post( ishizue_holdings_t( 'k35522e1c' ) ); ?></mark>)</span> <?php echo wp_kses_post( ishizue_holdings_t( 'k3fcc61d1' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-card__name"} -->
-<p class="ih-card__name">Verda Facilities</p>
+<p class="ih-card__name"><?php echo wp_kses_post( ishizue_holdings_t( 'k2e9cc16e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__text"} -->
-<p class="ih-card__text">Verda Facilities joined in 2009 and provides building services and maintenance from Utrecht. Its technicians service ventilation and other plant in the buildings they look after. Each year Verda trains forty technician apprentices, starting them at the workbench.</p>
+<p class="ih-card__text"><?php echo wp_kses_post( ishizue_holdings_t( 'k24f9524c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ih-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-card__foot"><!-- wp:paragraph {"className":"ih-card__facts"} -->
-<p class="ih-card__facts">Utrecht · 552 people</p>
+<p class="ih-card__facts"><?php echo wp_kses_post( ishizue_holdings_t( 'k6f88732b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__go"} -->
-<p class="ih-card__go"><a class="ih-arrow" href="/companies/#verda" aria-label="Verda Facilities"></a></p>
+<p class="ih-card__go"><a class="ih-arrow" href="/companies/#verda" aria-label="<?php echo esc_attr( ishizue_holdings_t( 'a2e9cc16e' ) ); ?>"></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -198,7 +198,7 @@
 
 <!-- wp:group {"className":"ih-card sp-reveal sp-reveal--up","anchor":"c-2016","layout":{"type":"default"}} -->
 <div id="c-2016" class="wp-block-group ih-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-card__photo"} -->
-<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p08.webp' ); ?>" alt="Two people in white coats sampling grains and seeds in glass jars."/></figure>
+<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p08.webp' ); ?>" alt="<?php echo esc_attr( ishizue_holdings_t( 'a44387463' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-card__body","layout":{"type":"default"}} -->
@@ -207,24 +207,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-card__h"} -->
-<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark>Food ingredient distribution out of Hamburg</mark>)</span> since 2016.</h3>
+<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark><?php echo wp_kses_post( ishizue_holdings_t( 'k96ff4a2f' ) ); ?></mark>)</span> <?php echo wp_kses_post( ishizue_holdings_t( 'k0078d4a8' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-card__name"} -->
-<p class="ih-card__name">Calder Food Partners</p>
+<p class="ih-card__name"><?php echo wp_kses_post( ishizue_holdings_t( 'ke2d7b1f5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__text"} -->
-<p class="ih-card__text">Calder Food Partners joined in 2016 and distributes food ingredients from Hamburg. Colleagues in the quality lab sample grains and seeds before lots move on to customers. The name, the Hamburg base and the local management all stayed.</p>
+<p class="ih-card__text"><?php echo wp_kses_post( ishizue_holdings_t( 'ke4a8b7d7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ih-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-card__foot"><!-- wp:paragraph {"className":"ih-card__facts"} -->
-<p class="ih-card__facts">Hamburg · 260 people</p>
+<p class="ih-card__facts"><?php echo wp_kses_post( ishizue_holdings_t( 'ke2808707' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__go"} -->
-<p class="ih-card__go"><a class="ih-arrow" href="/companies/#calder" aria-label="Calder Food Partners"></a></p>
+<p class="ih-card__go"><a class="ih-arrow" href="/companies/#calder" aria-label="<?php echo esc_attr( ishizue_holdings_t( 'ae2d7b1f5' ) ); ?>"></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -236,7 +236,7 @@
 
 <!-- wp:group {"className":"ih-card sp-reveal sp-reveal--up","anchor":"c-2021","layout":{"type":"default"}} -->
 <div id="c-2021" class="wp-block-group ih-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-card__photo"} -->
-<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p09.webp' ); ?>" alt="Two engineers walking among rows of solar panels on a warehouse roof."/></figure>
+<figure class="wp-block-image size-full ih-card__photo"><img src="<?php echo ishizue_holdings_img( 'p09.webp' ); ?>" alt="<?php echo esc_attr( ishizue_holdings_t( 'aeffcdcf1' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-card__body","layout":{"type":"default"}} -->
@@ -245,24 +245,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-card__h"} -->
-<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark>Rooftop solar and storage from Aarhus</mark>)</span> since 2021.</h3>
+<h3 class="wp-block-heading ih-card__h"><span class="ih-br">(<mark><?php echo wp_kses_post( ishizue_holdings_t( 'k0ad3bd3f' ) ); ?></mark>)</span> <?php echo wp_kses_post( ishizue_holdings_t( 'k2173f9b0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-card__name"} -->
-<p class="ih-card__name">Ishizue Renewables</p>
+<p class="ih-card__name"><?php echo wp_kses_post( ishizue_holdings_t( 'kd6434db8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__text"} -->
-<p class="ih-card__text">Ishizue Renewables joined in 2021 and fits rooftop solar and storage for industrial sites, based in Aarhus. Forty rooftops are in place, totalling 38 MW. The fortieth site was completed on 1 July 2026, and local management remains in Aarhus.</p>
+<p class="ih-card__text"><?php echo wp_kses_post( ishizue_holdings_t( 'k11455552' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ih-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-card__foot"><!-- wp:paragraph {"className":"ih-card__facts"} -->
-<p class="ih-card__facts">Aarhus · 120 people</p>
+<p class="ih-card__facts"><?php echo wp_kses_post( ishizue_holdings_t( 'k0db2ed4d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-card__go"} -->
-<p class="ih-card__go"><a class="ih-arrow" href="/companies/#renewables" aria-label="Ishizue Renewables"></a></p>
+<p class="ih-card__go"><a class="ih-arrow" href="/companies/#renewables" aria-label="<?php echo esc_attr( ishizue_holdings_t( 'ad6434db8' ) ); ?>"></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
