@@ -22,7 +22,7 @@
 <div class="wp-block-group ks-head__nav"><!-- wp:navigation {"overlayMenu":"mobile","className":"ks-nav","layout":{"type":"flex","justifyContent":"right"}} /-->
 
 <!-- wp:paragraph {"className":"ks-acct"} -->
-<p class="ks-acct"><a href="/my-courses/">My courses</a><a class="ks-cart" href="/cart/" aria-label="Cart"></a></p>
+<p class="ks-acct"><a href="/my-courses/">My courses</a><a class="ks-cart" href="<?php echo esc_url( kaiten_skills_shop_url( 'cart' ) ); ?>" aria-label="Cart"></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

@@ -56,5 +56,5 @@ Finishing a course brings a certificate of completion. It is a record that the l
 ## Palette
 Ink #372828, stone ground #F6F5F0, stone panel #EFEDE6, band ink #2A2525, bengara accent #8A4B3A (labels, titles, links, the blob plate; never a full-bleed field), clay tint #E3C6B6 (the leaf), numeral #C99A86, dotted rule #CFC9BF.
 
-## Pages (stage 2 builds the inner pages)
+## Pages (built in stage 2: Courses, Clear Business Writing course page, Lesson, My courses, How it works, Pricing & certificates, Tutors, Stories, FAQ, Contact, Journal with one post; each uses the hand-cut head frame, leaf and wave band as in the design spec)
 Home, Courses, single course, lesson, My courses, How it works, Pricing & certificates, Tutors, Stories, FAQ, Contact.

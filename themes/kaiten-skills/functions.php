@@ -55,3 +55,16 @@ function kaiten_skills_pattern_categories() {
 	);
 }
 add_action( 'init', 'kaiten_skills_pattern_categories' );
+
+/**
+ * Cart / checkout address: WooCommerce's when the plugin is active, else the course list (so the buttons never lead to a 404).
+ *
+ * @param string $which 'cart' or 'checkout'.
+ * @return string
+ */
+function kaiten_skills_shop_url( $which = 'checkout' ) {
+	if ( function_exists( 'wc_get_checkout_url' ) ) {
+		return 'cart' === $which ? wc_get_cart_url() : wc_get_checkout_url();
+	}
+	return home_url( '/courses/' );
+}

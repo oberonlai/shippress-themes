@@ -44,4 +44,4 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 
 == Changelog ==
 = 1.0.0 =
-* First release: home page (stage 1).
+* First release: home page, ten inner pages (courses, course, lesson, my courses, how it works, pricing, tutors, stories, FAQ, contact), a journal note and sample content in English.

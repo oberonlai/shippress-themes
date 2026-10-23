@@ -99,7 +99,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-buybox__go"} -->
-<p class="ks-buybox__go"><a href="/checkout/">Buy and enrol</a></p>
+<p class="ks-buybox__go"><a href="<?php echo esc_url( kaiten_skills_shop_url( 'checkout' ) ); ?>">Buy and enrol</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-buybox__note"} -->
@@ -107,7 +107,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-leaf ks-leaf--box"} -->
-<p class="ks-leaf ks-leaf--box"><a href="/checkout/">Enrol · €129</a></p>
+<p class="ks-leaf ks-leaf--box"><a href="<?php echo esc_url( kaiten_skills_shop_url( 'checkout' ) ); ?>">Enrol · €129</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
