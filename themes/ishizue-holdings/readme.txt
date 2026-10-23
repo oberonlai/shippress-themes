@@ -44,3 +44,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p12.webp (home investors: a presentation to a small audience)
 - assets/images/p13.webp (home owners: an owner and a younger colleague in a workshop)
 - assets/images/p15.webp (home close: the executive team in the atrium)
+- assets/images/p10.webp (History head: two colleagues with old photographs and ledgers)
+- assets/images/p14.webp (Shared services head: a team at shared desks)
+- assets/images/p16.webp (Sustainability: an instructor and apprentices wiring a control panel)
+- assets/images/demo/p06.webp (copy of p06 used as the sample article's featured image)
