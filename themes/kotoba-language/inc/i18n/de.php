@@ -110,7 +110,7 @@ return array(
 	'close_cta' => 'Anfragen',
 	'rail_a' => 'ANFRAGEN ↗',
 	'rail_b' => 'NACH OBEN ↑',
-	'langs' => 'EN · 繁中 · 日本語 · FR · DE',
+	'langs' => 'EN · ZH · JA · FR · DE',
 	'nav_cta' => 'Anfragen',
 	'foot_tag' => 'Eine Erwachsenen-Sprachschule in Rotterdam, seit 2016. Sechs Sprachen, Kurse mit höchstens 8 Teilnehmenden.',
 	'foot_visit' => 'Besuch',

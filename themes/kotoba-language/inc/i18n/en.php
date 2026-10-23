@@ -110,7 +110,7 @@ return array(
 	'close_cta' => 'Enquire',
 	'rail_a' => 'ENQUIRE ↗',
 	'rail_b' => 'PAGE TOP ↑',
-	'langs' => 'EN · 繁中 · 日本語 · FR · DE',
+	'langs' => 'EN · ZH · JA · FR · DE',
 	'nav_cta' => 'Enquire',
 	'foot_tag' => 'An adult language school in Rotterdam, since 2016. Six languages, classes of at most 8.',
 	'foot_visit' => 'Visit',

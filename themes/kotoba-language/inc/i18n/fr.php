@@ -110,7 +110,7 @@ return array(
 	'close_cta' => 'Nous contacter',
 	'rail_a' => 'CONTACT ↗',
 	'rail_b' => 'HAUT DE PAGE ↑',
-	'langs' => 'EN · 繁中 · 日本語 · FR · DE',
+	'langs' => 'EN · ZH · JA · FR · DE',
 	'nav_cta' => 'Nous contacter',
 	'foot_tag' => 'Une école de langues pour adultes à Rotterdam, depuis 2016. Six langues, des classes de 8 personnes au plus.',
 	'foot_visit' => 'Venir',

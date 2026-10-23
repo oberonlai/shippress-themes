@@ -221,7 +221,11 @@ body { background: var(--kl-paper); color: var(--kl-ink); }
 	.kl-word--page { height: 0.72em; }
 }
 
-/* CJK and hyphenation */
+/* CJK and hyphenation. zh headings use the bundled Noto Serif TC; body stays Source Sans 3 and falls through to a system Traditional Chinese face, never the Japanese subset. EB Garamond stays first so the Latin wordmark does not change face. */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "EB Garamond", "Noto Serif TC", "PingFang TC", "Microsoft JhengHei", serif;
+	--wp--preset--font-family--body: "Source Sans 3", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
 :lang(zh-TW) h1, :lang(zh-TW) h2, :lang(zh-TW) h3, :lang(zh-TW) .kl-pull, :lang(zh-TW) .kl-mark { font-family: "Noto Serif TC", "Noto Serif CJK TC", serif; }
 :lang(ja) h1, :lang(ja) h2, :lang(ja) h3, :lang(ja) .kl-pull, :lang(ja) .kl-mark { font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; }
 :lang(zh-TW) body, :lang(ja) body { line-height: 1.85; }

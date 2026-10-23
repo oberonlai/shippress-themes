@@ -56,7 +56,7 @@ Roles and ratios taken from QuSS tok(a); hex kept inside ±5% lightness of the r
 | Panel | `#FFFFFF` | derived (QuSS has no white panel; used to make the split hero read) | hero text half, fee table rows, story cards | ~8% |
 | Ink | `#0D0C0A` | QuSS ink `#000000`, +5% L (warmed) | wordmark, headings, body, rules | ~20% |
 | Pill / CTA fill | `#15130F` | QuSS news pill + "more" button | pill bar, filled buttons | ≤ 3% |
-| Accent 桑染 | `#6E5C4C` | row b8-5 `hex` (QuSS has no accent hue outside photography; the row mandates this one) | arcs, dots, rail hairlines, section labels, level ticks, price accent | **≤ 5%, never a full-bleed field** |
+| Accent (kuwazome) | `#6E5C4C` | row b8-5 `hex` (QuSS has no accent hue outside photography; the row mandates this one) | arcs, dots, rail hairlines, section labels, level ticks, price accent | **≤ 5%, never a full-bleed field** |
 | Muted text | `#5B564E` | derived from accent at 60% toward ink | captions, meta, table notes | — |
 | Hairline | `#D9D7D1` | derived from base | table rules, 1px dividers | — |
 
@@ -91,7 +91,7 @@ Headings: EB Garamond 400, `line-height: 1.12` (wordmark 0.82), letter-spacing `
 
 ## 4. Header, spacing, radius
 
-- **Nav = split** (row requirement): wordmark `Kotoba` EB Garamond 1.375rem at the left margin; primary links **Courses · Pathways · Teachers · Fees · Stories** centred-left of the viewport middle; **Enquire** as a near-black pill button at the right, with the language switcher (EN / 繁中 / 日本語 / FR / DE) as plain 0.6875rem links beside it. One top menu only. Transparent over the hero, `#F2F1EE` with a 1px `#D9D7D1` bottom rule after scroll. Burger overlay below 960px.
+- **Nav = split** (row requirement): wordmark `Kotoba` EB Garamond 1.375rem at the left margin; primary links **Courses · Pathways · Teachers · Fees · Stories** centred-left of the viewport middle; **Enquire** as a near-black pill button at the right, with the language switcher (EN / ZH / JA / FR / DE) as plain 0.6875rem links beside it. One top menu only. Transparent over the hero, `#F2F1EE` with a 1px `#D9D7D1` bottom rule after scroll. Burger overlay below 960px.
 - Spacing (from tok(c)): side margin **80px** at 1440 (24px at 390), content width **1200px**, narrow text column **680px**, section vertical rhythm **176px** desktop / 88px mobile, hero wordmark top offset **190px** from the viewport top.
 - Radius: **circle photos 50%**, pill elements fully rounded, everything else **0px** — flat, **no shadows anywhere** (tok(d): QuSS is entirely flat).
 
