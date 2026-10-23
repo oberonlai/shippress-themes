@@ -24,7 +24,7 @@
 <!-- wp:group {"className":"oa-trio sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-trio sp-stagger"><!-- wp:group {"className":"oa-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"oa-card__media"} -->
-<figure class="wp-block-image size-full oa-card__media"><a href="/shop/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/pa40.webp' ) ); ?>" alt="Oto A40 integrated amplifier with a black front and walnut side cheeks"/></a><figcaption class="wp-element-caption">Oto A40</figcaption></figure>
+<figure class="wp-block-image size-full oa-card__media"><a href="/shop/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/pa40.webp' ) ); ?>" alt="Oto A40 integrated amplifier with a black front and walnut side cheeks"/></a><figcaption class="wp-element-caption">Oto A40</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"oa-card__br"} -->
@@ -48,7 +48,7 @@
 
 <!-- wp:group {"className":"oa-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"oa-card__media"} -->
-<figure class="wp-block-image size-full oa-card__media"><a href="/shop/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/pd2.webp' ) ); ?>" alt="Oto D2 small USB DAC in dark grey metal on a pale stone plinth"/></a><figcaption class="wp-element-caption">Oto D2</figcaption></figure>
+<figure class="wp-block-image size-full oa-card__media"><a href="/shop/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/pd2.webp' ) ); ?>" alt="Oto D2 small USB DAC in dark grey metal on a pale stone plinth"/></a><figcaption class="wp-element-caption">Oto D2</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"oa-card__br"} -->
@@ -72,7 +72,7 @@
 
 <!-- wp:group {"className":"oa-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"oa-card__media"} -->
-<figure class="wp-block-image size-full oa-card__media"><a href="/shop/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/ps5.webp' ) ); ?>" alt="Pair of Oto S5 walnut bookshelf speakers with the grey grilles off"/></a><figcaption class="wp-element-caption">Oto S5</figcaption></figure>
+<figure class="wp-block-image size-full oa-card__media"><a href="/shop/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/ps5.webp' ) ); ?>" alt="Pair of Oto S5 walnut bookshelf speakers with the grey grilles off"/></a><figcaption class="wp-element-caption">Oto S5</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"oa-card__br"} -->

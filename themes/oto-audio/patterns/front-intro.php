@@ -33,7 +33,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"oa-intro__img sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full oa-intro__img sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s2.webp' ) ); ?>" alt="A Black woman in her forties listens in an armchair with open-back headphones"/></figure>
+<figure class="wp-block-image size-full oa-intro__img sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/s2.webp' ) ); ?>" alt="A Black woman in her forties listens in an armchair with open-back headphones"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

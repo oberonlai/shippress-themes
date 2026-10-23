@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"oa-sec oa-sec--ink oa-sec--room","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull oa-sec oa-sec--ink oa-sec--room"><!-- wp:group {"className":"oa-room__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-room__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"oa-room__img sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full oa-room__img sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s4.webp' ) ); ?>" alt="Two people at a long oak table with three headphones on stands"/></figure>
+<figure class="wp-block-image size-full oa-room__img sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/s4.webp' ) ); ?>" alt="Two people at a long oak table with three headphones on stands"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"oa-room__text","layout":{"type":"default"}} -->

@@ -39,7 +39,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"oa-visit__photo"} -->
-<figure class="wp-block-image size-full oa-visit__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s9.webp' ) ); ?>" alt="Small shop interior with an oak counter, headphone stands and speakers on shelves"/></figure>
+<figure class="wp-block-image size-full oa-visit__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/s9.webp' ) ); ?>" alt="Small shop interior with an oak counter, headphone stands and speakers on shelves"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

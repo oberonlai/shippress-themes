@@ -20,7 +20,7 @@
 <!-- wp:group {"className":"oa-posts sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-posts sp-stagger"><!-- wp:group {"className":"oa-post sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-post sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"oa-post__img"} -->
-<figure class="wp-block-image size-full oa-post__img"><a href="/journal/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s6.webp' ) ); ?>" alt="Bookshelf speakers on stands either side of a desk in a small study"/></a></figure>
+<figure class="wp-block-image size-full oa-post__img"><a href="/journal/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/s6.webp' ) ); ?>" alt="Bookshelf speakers on stands either side of a desk in a small study"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"oa-post__date"} -->
@@ -38,7 +38,7 @@
 
 <!-- wp:group {"className":"oa-post sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-post sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"oa-post__img"} -->
-<figure class="wp-block-image size-full oa-post__img"><a href="/journal/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s7.webp' ) ); ?>" alt="A man on a sofa wears closed-back headphones beside an evening city window"/></a></figure>
+<figure class="wp-block-image size-full oa-post__img"><a href="/journal/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/s7.webp' ) ); ?>" alt="A man on a sofa wears closed-back headphones beside an evening city window"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"oa-post__date"} -->
@@ -56,7 +56,7 @@
 
 <!-- wp:group {"className":"oa-post sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-post sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"oa-post__img"} -->
-<figure class="wp-block-image size-full oa-post__img"><a href="/journal/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s8.webp' ) ); ?>" alt="Hands fit a new ear pad onto a headphone resting on cloth"/></a></figure>
+<figure class="wp-block-image size-full oa-post__img"><a href="/journal/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/s8.webp' ) ); ?>" alt="Hands fit a new ear pad onto a headphone resting on cloth"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"oa-post__date"} -->

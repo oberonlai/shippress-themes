@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"oa-hero","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull oa-hero"><!-- wp:group {"className":"oa-split","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-split"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"oa-split__photo sp-parallax"} -->
-<figure class="wp-block-image size-full oa-split__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s1.webp' ) ); ?>" alt="Walnut floorstanding speakers and a grey armchair beside a pale plaster wall"/></figure>
+<figure class="wp-block-image size-full oa-split__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/s1.webp' ) ); ?>" alt="Walnut floorstanding speakers and a grey armchair beside a pale plaster wall"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"oa-split__mark"} -->
@@ -44,7 +44,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"oa-strip__thumb"} -->
-<figure class="wp-block-image size-full oa-strip__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/pa10.webp' ) ); ?>" alt="Oto A10 compact desktop amplifier in dark grey aluminium on a stone plinth"/></figure>
+<figure class="wp-block-image size-full oa-strip__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/pa10.webp' ) ); ?>" alt="Oto A10 compact desktop amplifier in dark grey aluminium on a stone plinth"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"oa-strip__name","layout":{"type":"default"}} -->
