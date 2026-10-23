@@ -83,3 +83,7 @@ assets/images/p11-cosmetic.webp: generated with Grok for this theme, GPL-2.0-or-
 assets/images/p12-raman.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p14-sunscreen.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p15-teen.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

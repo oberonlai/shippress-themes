@@ -3,7 +3,7 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: business, block-patterns, full-site-editing, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
@@ -53,3 +53,7 @@ assets/images/p16.webp: generated with Grok for this theme, GPL-2.0-or-later / C
 assets/images/demo/p01.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/demo/p03.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/demo/p08.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

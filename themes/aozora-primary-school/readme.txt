@@ -88,5 +88,8 @@ assets/images/woods-walk.webp: generated with Grok Build for this theme, fiction
 
 == Changelog ==
 
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.0.0 =
 * First release: small independent primary school, sample content in en, zh-TW, ja, fr and de.

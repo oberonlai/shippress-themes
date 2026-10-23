@@ -46,3 +46,7 @@ Images: AI-generated for this theme with Grok Build image_gen as two-ink risogra
 - assets/images/demo/hands.webp (demo import copy of assets/images/hands.webp)
 - assets/images/demo/indigo.webp (demo import copy of assets/images/indigo.webp)
 - assets/images/demo/baskets.webp (demo import copy of assets/images/baskets.webp)
+
+== Changelog ==
+= 1.0.2 =
+* Updated theme files (functions.php, inc/editor-lang.php).

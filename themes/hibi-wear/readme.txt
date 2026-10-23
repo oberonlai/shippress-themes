@@ -54,3 +54,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p7-trouser.webp and assets/images/demo/p7-trouser.webp (product and home line-up: Drawstring Wide Trouser; the demo/ copy is the one imported into the Media Library)
 - assets/images/p8-cardigan.webp and assets/images/demo/p8-cardigan.webp (product, home line-up and Makers and Fabrics: Merino Rib Cardigan; the demo/ copy is the one imported into the Media Library)
 - assets/images/p9-chore.webp and assets/images/demo/p9-chore.webp (product and journal entry: Chore Jacket; the demo/ copy is the one imported into the Media Library)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

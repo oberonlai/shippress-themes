@@ -51,3 +51,7 @@ Images: AI-generated for this theme with Grok Build image_gen as 2D flat illustr
 - assets/images/demo/consult-table.webp (demo import copy of assets/images/consult-table.webp)
 - assets/images/demo/desk-receipts.webp (demo import copy of assets/images/desk-receipts.webp)
 - assets/images/demo/office-door.webp (demo import copy of assets/images/office-door.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

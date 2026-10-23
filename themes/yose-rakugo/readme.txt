@@ -43,3 +43,7 @@ Images: AI-generated for this theme with Grok Build image_gen, risograph illustr
 - assets/images/demo/street.webp (demo import copy of assets/images/street.webp)
 - assets/images/demo/props.webp (demo import copy of assets/images/props.webp)
 - assets/images/demo/audience.webp (demo import copy of assets/images/audience.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

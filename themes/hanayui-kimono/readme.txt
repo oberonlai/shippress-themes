@@ -54,3 +54,7 @@ Images: AI-generated for this theme with Grok Build image_gen as woodblock-print
 - assets/images/demo/j-plum.webp (lane note: a plum blossom walk)
 - assets/images/demo/j-rain.webp (lane note: kimono in the rain)
 - assets/images/demo/j-tea.webp (lane note and Newsletter: an afternoon at the tea house)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

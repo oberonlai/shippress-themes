@@ -57,3 +57,7 @@ Images: AI-generated for this theme with Grok Build image_gen as 2.5D isometric 
 - assets/images/demo/grading.webp (demo import copy of assets/images/grading.webp)
 - assets/images/demo/bogu.webp (demo import copy of assets/images/bogu.webp)
 - assets/images/demo/dawn.webp (demo import copy of assets/images/dawn.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

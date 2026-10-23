@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as soft matte 3D c
 - assets/images/demo/sweets.webp (demo import copy of assets/images/sweets.webp)
 - assets/images/demo/kettle.webp (demo import copy of assets/images/kettle.webp)
 - assets/images/demo/flower.webp (demo import copy of assets/images/flower.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

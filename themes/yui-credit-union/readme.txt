@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/demo/home-keys.webp (Media Library raster copy of assets/images/home-keys.webp, same image and license)
 - assets/images/demo/members-meeting.webp (Media Library raster copy of assets/images/members-meeting.webp, same image and license)
 - assets/images/demo/savings-child.webp (Media Library raster copy of assets/images/savings-child.webp, same image and license)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

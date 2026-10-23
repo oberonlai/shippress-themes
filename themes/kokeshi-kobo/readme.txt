@@ -3,7 +3,7 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,9 @@ Images: AI-generated for this theme with Grok Build image_gen as raster illustra
 - assets/images/demo/workshop.webp (home hero frame, The workshop long read, a journal post and the 404 page, demo import copy)
 
 == Changelog ==
+
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).
 
 = 1.0.0 =
 * First release (design plan b3-20).

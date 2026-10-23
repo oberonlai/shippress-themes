@@ -49,3 +49,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p14.webp, assets/images/demo/p14.webp (student stories head: a learner relieved after a mock exam)
 - assets/images/p15.webp, assets/images/demo/p15.webp (about head and support band: a brick and glass office by a canal)
 - assets/images/p16.webp, assets/images/demo/p16.webp (courses card 06, FAQ head, how it works and about fans, journal article: a flat lay of blank cards, pen, glasses and tablet)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

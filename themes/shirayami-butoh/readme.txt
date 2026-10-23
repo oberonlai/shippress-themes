@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/demo/hands.webp (demo import copy of assets/images/hands.webp)
 - assets/images/demo/workshop.webp (demo import copy of assets/images/workshop.webp)
 - assets/images/demo/feet.webp (demo import copy of assets/images/feet.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

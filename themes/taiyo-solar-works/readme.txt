@@ -85,6 +85,9 @@ assets/images/p18.webp: generated with Grok for this theme, GPL-2.0-or-later / C
 
 == Changelog ==
 
+= 1.0.2 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.0.1 =
 * The financing table stacks full width at 782px and wider so no column is clipped; catalogue screenshots refreshed.
 

@@ -51,3 +51,7 @@ Images: AI-generated for this theme with Grok Build image_gen as 2D flat illustr
 - assets/images/demo/breath.webp (demo import copy of assets/images/breath.webp)
 - assets/images/demo/spine.webp (demo import copy of assets/images/spine.webp)
 - assets/images/demo/class-mat.webp (demo import copy of assets/images/class-mat.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

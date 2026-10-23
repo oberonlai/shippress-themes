@@ -43,3 +43,7 @@ Images: AI-generated for this theme with Grok Build image_gen, pencil-sketch ill
 - assets/images/demo/class-dashi.webp (demo import copy of assets/images/class-dashi.webp)
 - assets/images/demo/studio.webp (demo import copy of assets/images/studio.webp)
 - assets/images/demo/bento.webp (demo import copy of assets/images/bento.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

@@ -53,3 +53,7 @@ Images: AI-generated for this theme with Grok Build image_gen as soft watercolou
 - assets/images/demo/j-dye.webp (knitting note: a day at the red pot)
 - assets/images/demo/j-swatch.webp (knitting note and Newsletter: why we knit a swatch first)
 - assets/images/demo/j-winter.webp (knitting note: a scarf before the snow)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

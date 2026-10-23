@@ -86,6 +86,9 @@ assets/images/station-walk.webp, assets/images/demo/station-walk.webp: AI-genera
 
 == Changelog ==
 
+= 1.1.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.1.0 =
 * Front page layout redone: photograph with a paper card, arrival strip, one night as a photo masonry, four room cards, the walk from the station, a long-stay essay, guests' words, journal and book direct. Same palette, fonts and photographs.
 

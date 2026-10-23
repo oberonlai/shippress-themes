@@ -48,3 +48,7 @@ Images: AI-generated for this theme with Grok Build image_gen as realistic film-
 - assets/images/demo/hands.webp (sample post image)
 - assets/images/demo/vaccine.webp (sample post image)
 - assets/images/demo/blocks.webp (sample post image)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

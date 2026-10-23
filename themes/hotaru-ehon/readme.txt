@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as flat 2D illustr
 - assets/images/demo/river.webp (demo import copy of assets/images/river.webp)
 - assets/images/demo/studio.webp (demo import copy of assets/images/studio.webp)
 - assets/images/demo/svc-books.webp (demo import copy of assets/images/svc-books.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

@@ -87,6 +87,9 @@ assets/images/workshop.webp, assets/images/demo/workshop-training.webp: generate
 
 == Changelog ==
 
+= 1.0.2 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.0.1 =
 * Inner pages use the front page's chamfered polygon photographs with (001) numerals: page heads, the main photographs of About, Practice areas, From idea to patent, Attorneys, First meeting, Fees, Notes and Contact, the article photograph, and simpler chamfers on journal cards.
 

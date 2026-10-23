@@ -43,3 +43,7 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary-sty
 - assets/images/demo/plates.webp (demo import copy of assets/images/plates.webp)
 - assets/images/demo/alley.webp (demo import copy of assets/images/alley.webp)
 - assets/images/demo/counter.webp (demo import copy of assets/images/counter.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

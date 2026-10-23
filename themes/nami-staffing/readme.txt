@@ -84,5 +84,8 @@ assets/images/warehouse-shift.webp, assets/images/demo/warehouse-shift.webp: gen
 
 == Changelog ==
 
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.0.0 =
 * First release: people-first recruitment and staffing agency, sample content in en, zh-TW, ja, fr and de.

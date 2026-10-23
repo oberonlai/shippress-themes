@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary-sty
 - assets/images/demo/stove.webp (demo import copy of assets/images/stove.webp)
 - assets/images/demo/room-plunge.webp (demo import copy of assets/images/room-plunge.webp)
 - assets/images/demo/room-loyly.webp (demo import copy of assets/images/room-loyly.webp)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

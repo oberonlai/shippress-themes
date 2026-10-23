@@ -50,5 +50,8 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p8-bowls.webp and assets/images/demo/p8-bowls.webp (strip and product: ceramic bowl pair; the demo/ copy is the one imported into the Media Library)
 
 == Changelog ==
+= 1.0.2 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.0.1 =
 * Updated theme files (demo-content.de.json, demo-content.fr.json, demo-content.ja.json, demo-content.json and 4 more).

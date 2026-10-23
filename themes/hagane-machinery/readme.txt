@@ -85,5 +85,8 @@ assets/images/training-room.webp, assets/images/demo/training-room.webp: generat
 
 == Changelog ==
 
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).
+
 = 1.0.0 =
 * First release: industrial machinery maker, sample content in en, zh-TW, ja, fr and de.

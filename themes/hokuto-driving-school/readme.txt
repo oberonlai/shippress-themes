@@ -88,3 +88,7 @@ assets/images/test-morning.webp, assets/images/demo/test-morning.webp: AI-genera
 assets/images/theory-room.webp, assets/images/demo/theory-room.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/town-street.webp, assets/images/demo/town-street.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/yard.webp, assets/images/demo/yard.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
+
+== Changelog ==
+= 1.1.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).

@@ -3,7 +3,7 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: health, block-patterns, full-site-editing, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
@@ -52,6 +52,9 @@ assets/images/p9.webp: generated with Grok for this theme, GPL-2.0-or-later / CC
 assets/sp-scroll.js (about 2 KB) adds quiet scroll effects. It respects prefers-reduced-motion and the content is fully visible without JavaScript.
 
 == Changelog ==
+
+= 1.0.1 =
+* Updated theme files (functions.php, inc/editor-lang.php).
 
 = 1.0.0 =
 * First release: home page and ten inner pages (treatments, IVF step by step, tests, fees & funding, FAQ, about, care team, stories, contact, privacy), one sample article and blog templates (en); arch field, offset portrait bands and tilted sheet carried through the inner pages; sticky header that turns solid after scrolling; fourteen photographs; Open Sans as woff2.
