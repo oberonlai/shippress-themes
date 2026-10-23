@@ -1,5 +1,5 @@
 {
-  "_comment": "Sample content for the demo import (inc/demo-import.php) in en. Pages hold block markup; <!-- wp:pattern --> is expanded into the pattern on import. Stage 1 ships the home page; stage 2 adds the inner pages, courses and posts.",
+  "_comment": "Sample content for the demo import (inc/demo-import.php) in en. Pages hold block markup; <!-- wp:pattern --> is expanded into the pattern on import (patterns/page-*.php are written by the stage 2 generator from copy-inner.json).",
   "site": {
     "title": "Kaiten Skills",
     "tagline": "Short video courses in writing, presenting and spreadsheets, since 2017."
@@ -14,36 +14,67 @@
     {
       "slug": "courses",
       "title": "Courses",
-      "content": "<!-- wp:paragraph -->\n<p>Six courses, one skill each: Clear Business Writing €129, Reports People Actually Read €139, Presenting with Confidence €149, Spreadsheets from Zero €119, Spreadsheet Models for Decisions €169 and the Career Starter Bundle €329.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Lesson 1 of every course is free to watch. Access lasts 24 months from purchase.</p>\n<!-- /wp:paragraph -->"
+      "template": "page-inner",
+      "content": "<!-- wp:pattern {\"slug\":\"kaiten-skills/page-courses\"} /-->"
     },
     {
-      "slug": "how-it-works",
-      "title": "How it works",
-      "content": "<!-- wp:paragraph -->\n<p>Choose a course. Watch lesson 1 free before you buy.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Buy and enrol. WooCommerce checkout gives instant access.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Learn at your table. Lessons are 8–14 minutes and available at any hour.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Practise with feedback. A tutor replies within 5 working days.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Finish with a certificate of completion, which is not an accredited qualification.</p>\n<!-- /wp:paragraph -->"
+      "slug": "clear-business-writing",
+      "title": "Clear Business Writing",
+      "template": "page-inner",
+      "content": "<!-- wp:pattern {\"slug\":\"kaiten-skills/page-clear-business-writing\"} /-->",
+      "parent": "courses"
     },
     {
-      "slug": "pricing",
-      "title": "Pricing & certificates",
-      "content": "<!-- wp:paragraph -->\n<p>Prices are in euros. A refund is available within 14 days if fewer than 3 lessons were watched. Access lasts 24 months from purchase. Assignment feedback arrives within 5 working days.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A certificate of completion is not an accredited qualification.</p>\n<!-- /wp:paragraph -->"
-    },
-    {
-      "slug": "tutors",
-      "title": "Tutors",
-      "content": "<!-- wp:paragraph -->\n<p>Ines Carvalho co-founded Kaiten Skills in 2017 and teaches Clear Business Writing. Her lessons stay with the emails, notes and short documents people send at work.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Jonah Ellery co-founded the school and looks after the platform and learner support. Enrolment, access and questions to hello@kaiten-skills.example sit with his side of the studio.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Tomasz Wierzba teaches Presenting with Confidence, 22 lessons over a suggested 5 weeks. The course is for preparing a talk and giving it without reading the slides.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Amara Osei teaches Spreadsheets from Zero, 28 lessons over a suggested 6 weeks. It starts from a blank grid and builds toward a sheet you can keep using.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Rahul Menon teaches Spreadsheet Models for Decisions, 26 lessons over a suggested 6 weeks. The work is a simple model a team can use when it compares choices.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Sofia Marín teaches Reports People Actually Read, 20 lessons over a suggested 4 weeks. She works on structure and edits so a colleague can finish the report.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Lena Hoffmann leads learner support from the Utrecht studio. She answers Monday to Friday, 09:00–18:00 CET, and Saturday, 10:00–14:00 CET.</p>\n<!-- /wp:paragraph -->"
-    },
-    {
-      "slug": "contact",
-      "title": "Contact",
-      "content": "<!-- wp:paragraph -->\n<p>Kaiten Skills, Kanaalstraat 21, 3531 Utrecht, Netherlands. The studio does not hold walk-in classes.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Learner support Monday–Friday 09:00–18:00 CET, Saturday 10:00–14:00 CET. Lessons available 24/7.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Email hello@kaiten-skills.example.</p>\n<!-- /wp:paragraph -->"
+      "slug": "lesson",
+      "title": "Lesson",
+      "template": "page-inner",
+      "content": "<!-- wp:pattern {\"slug\":\"kaiten-skills/page-lesson\"} /-->"
     },
     {
       "slug": "my-courses",
       "title": "My courses",
-      "content": "<!-- wp:paragraph -->\n<p>Your purchased courses and your progress appear here once you are signed in.</p>\n<!-- /wp:paragraph -->"
+      "template": "page-inner",
+      "content": "<!-- wp:pattern {\"slug\":\"kaiten-skills/page-my-courses\"} /-->"
+    },
+    {
+      "slug": "how-it-works",
+      "title": "How it works",
+      "template": "page-inner",
+      "content": "<!-- wp:pattern {\"slug\":\"kaiten-skills/page-how-it-works\"} /-->"
+    },
+    {
+      "slug": "pricing",
+      "title": "Pricing & certificates",
+      "template": "page-inner",
+      "content": "<!-- wp:pattern {\"slug\":\"kaiten-skills/page-pricing\"} /-->"
+    },
+    {
+      "slug": "tutors",
+      "title": "Tutors",
+      "template": "page-inner",
+      "content": "<!-- wp:pattern {\"slug\":\"kaiten-skills/page-tutors\"} /-->"
     },
     {
       "slug": "stories",
       "title": "Stories",
+      "template": "page-inner",
+      "content": "<!-- wp:pattern {\"slug\":\"kaiten-skills/page-stories\"} /-->"
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "template": "page-inner",
+      "content": "<!-- wp:pattern {\"slug\":\"kaiten-skills/page-faq\"} /-->"
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "template": "page-inner",
+      "content": "<!-- wp:pattern {\"slug\":\"kaiten-skills/page-contact\"} /-->"
+    },
+    {
+      "slug": "journal",
+      "title": "Journal",
       "role": "posts"
     }
   ],
@@ -77,9 +108,27 @@
     ]
   },
   "links": {},
-  "categories": [],
+  "categories": [
+    {
+      "slug": "journal",
+      "name": "Journal"
+    }
+  ],
   "tags": [],
-  "posts": [],
+  "posts": [
+    {
+      "slug": "twelve-minutes-at-the-kitchen-table",
+      "title": "Twelve minutes at the kitchen table",
+      "date": "2026-10-14",
+      "excerpt": "A lesson at Kaiten Skills lasts 8 to 14 minutes, so twelve minutes is enough to start without turning the evening into a class.",
+      "categories": [
+        "journal"
+      ],
+      "tags": [],
+      "image": "p13-hanna.jpg",
+      "content": "<!-- wp:paragraph -->\n<p>Twelve minutes a day is enough to start. The sentence is on the site because the lessons are built for one sitting. Each lesson runs 8 to 14 minutes. Twelve minutes sits inside that range. It is a length of time, not a promise about a job, a review or a sheet you have not opened yet.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Hanna Lund used that length in a particular room. She was returning to work after parental leave, and she took Clear Business Writing, taught by Ines Carvalho. She studied at the kitchen table after bedtime. The course has 24 lessons and a suggested length of 5 weeks. The price is €129. A suggested length assumes a steady week. An evening after bedtime often does not. Access lasts 24 months from purchase, so a week with no lesson is still inside the course. Hanna's account stops at the table. She said where she studied. She did not offer a score, and this note does not invent one.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The same length of lesson shows up in two other stories, at different tables. Priya Raman, an operations assistant, took Spreadsheets from Zero with Amara Osei and rebuilt her team's weekly stock sheet. That course is 28 lessons, a suggested 6 weeks, at €119. Marco Bellini, a team lead, took Presenting with Confidence with Tomasz Wierzba and ran his first quarterly review without reading slides. That course is 22 lessons, a suggested 5 weeks, at €149. Read those sentences as they stand. They do not say what happened next in the warehouse office, or in the meeting after the review. The detail that travels is where the minutes went.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A practical way to begin is lesson 1. It is free on every course, and it is a full lesson of 8 to 14 minutes, not a shorter sample. Watch it before you pay. If the pace is wrong, you have spent one lesson. The other prices, if you want them in the same breath, are €139 for Reports People Actually Read, taught by Sofia Marín, 20 lessons over a suggested 4 weeks, €169 for Spreadsheet Models for Decisions, taught by Rahul Menon, 26 lessons over a suggested 6 weeks, and €329 for the Career Starter Bundle. The bundle joins Clear Business Writing, Presenting with Confidence and Spreadsheets from Zero. It is 74 lessons and a suggested 16 weeks, and it has no single tutor. Choosing is easier after you have seen one real lesson.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Keep a few notes beside the laptop while the lesson plays. Write the sentence you might send tomorrow, or the heading of the sheet you are rebuilding, or the point you do not want to read aloud from a slide. Notes on the lesson page are for you. If you want a tutor to respond, send the work as an assignment. Feedback is returned within 5 working days, by the tutor of that course. Those five days are working days. They are not a reply that arrives on Saturday morning. Saturday is for learner support only, from 10:00 to 14:00 CET.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Lessons themselves are available 24 hours a day. A person is not. Learner support answers Monday to Friday, 09:00 to 18:00 CET, and on Saturday in those shorter hours. The email is hello@kaiten-skills.example. Lena Hoffmann leads learner support. Jonah Ellery, who founded the school with Ines Carvalho in 2017, looks after the platform and learner support. The studio is at Kanaalstraat 21, 3531 Utrecht, Netherlands. You can write to the address. You cannot attend a class there. There are no walk-in classes, which is why the kitchen table is not a second-best room. It is the room the lessons were made for.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The refund rule belongs in a note about starting, because starting includes stopping. A refund is available within 14 days if fewer than 3 lessons were watched. That is the whole condition. It applies to the bundle as well as to a single course. After 14 days, or after a third lesson, the published rule does not offer a refund. Twenty-four months of access is the other side of the same decision. You have time to go slower than the suggested 4, 5, 6 or 16 weeks. You do not have a second, quieter fee.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>When you finish, you receive a certificate of completion. It is not an accredited qualification. It means you completed that course, and you will find it on My courses under Certificates, beside whatever is still in progress. Feedback within 5 working days is not that certificate. One is a reply while you are learning. The other is a record that the lesson list is done.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>A short evening does not have to finish a suggested 5 weeks. It has to finish the lesson that is open. Twelve minutes is enough to start. The next lesson is the same shape, 8 to 14 minutes, at the same table.</p>\n<!-- /wp:paragraph -->"
+    }
+  ],
   "productCategories": [],
   "products": [],
   "screens": {
@@ -90,7 +139,7 @@
     "tutors": "/tutors/",
     "stories": "/stories/",
     "contact": "/contact/",
-    "news": "/stories/",
+    "news": "/journal/",
     "newsletter": "/contact/"
   }
 }

@@ -25,7 +25,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-foot__l"} -->
-<p class="ks-foot__l"><a href="/courses/">Courses</a><br><a href="/how-it-works/">How it works</a><br><a href="/pricing/">Pricing &amp; certificates</a><br><a href="/tutors/">Tutors</a></p>
+<p class="ks-foot__l"><a href="/courses/">Courses</a><br><a href="/how-it-works/">How it works</a><br><a href="/pricing/">Pricing &amp; certificates</a><br><a href="/tutors/">Tutors</a><br><a href="/stories/">Stories</a><br><a href="/faq/">FAQ</a><br><a href="/journal/">Journal</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
