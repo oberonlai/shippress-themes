@@ -24,22 +24,22 @@
 <!-- wp:group {"className":"dl-footer__links","layout":{"type":"default"}} -->
 <div class="wp-block-group dl-footer__links">
 <!-- wp:paragraph {"className":"dl-flink"} -->
-<p class="dl-flink"><a href="#services"><?php echo esc_html( daichi_landscapes_t( 'ft_l1' ) ); ?></a></p>
+<p class="dl-flink"><a href="<?php echo esc_url( home_url( '/services/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'ft_l1' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"dl-flink"} -->
-<p class="dl-flink"><a href="#projects"><?php echo esc_html( daichi_landscapes_t( 'ft_l2' ) ); ?></a></p>
+<p class="dl-flink"><a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'ft_l2' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"dl-flink"} -->
-<p class="dl-flink"><a href="#process"><?php echo esc_html( daichi_landscapes_t( 'ft_l3' ) ); ?></a></p>
+<p class="dl-flink"><a href="<?php echo esc_url( home_url( '/process/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'ft_l3' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"dl-flink"} -->
-<p class="dl-flink"><a href="#commitments"><?php echo esc_html( daichi_landscapes_t( 'ft_l4' ) ); ?></a></p>
+<p class="dl-flink"><a href="<?php echo esc_url( home_url( '/aftercare/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'ft_l4' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"dl-flink"} -->
-<p class="dl-flink"><a href="#people"><?php echo esc_html( daichi_landscapes_t( 'ft_l5' ) ); ?></a></p>
+<p class="dl-flink"><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'ft_l5' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"dl-flink"} -->
-<p class="dl-flink"><a href="#contact"><?php echo esc_html( daichi_landscapes_t( 'ft_l6' ) ); ?></a></p>
+<p class="dl-flink"><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'ft_l6' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

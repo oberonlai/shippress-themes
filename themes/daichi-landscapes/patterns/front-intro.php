@@ -27,7 +27,7 @@
 <p><?php echo esc_html( daichi_landscapes_t( 'intro_p2' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"dl-textlink"} -->
-<p class="dl-textlink"><a href="#process"><?php echo esc_html( daichi_landscapes_t( 'intro_cta' ) ); ?></a></p>
+<p class="dl-textlink"><a href="<?php echo esc_url( home_url( '/process/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'intro_cta' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

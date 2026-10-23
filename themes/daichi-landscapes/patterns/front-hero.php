@@ -31,11 +31,11 @@
 <div class="wp-block-group dl-hero__actions">
 <!-- wp:buttons {"className":"dl-btns"} -->
 <div class="wp-block-buttons dl-btns"><!-- wp:button {"className":"dl-btn"} -->
-<div class="wp-block-button dl-btn"><a class="wp-block-button__link wp-element-button" href="#contact"><?php echo esc_html( daichi_landscapes_t( 'hero_cta' ) ); ?></a></div>
+<div class="wp-block-button dl-btn"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'hero_cta' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 <!-- wp:paragraph {"className":"dl-textlink"} -->
-<p class="dl-textlink"><a href="#process"><?php echo esc_html( daichi_landscapes_t( 'hero_link' ) ); ?></a></p>
+<p class="dl-textlink"><a href="<?php echo esc_url( home_url( '/process/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'hero_link' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -63,7 +63,7 @@
 <p class="dl-card__t"><?php echo esc_html( daichi_landscapes_t( 'card_t' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"dl-card__a"} -->
-<p class="dl-card__a"><a href="#contact"><?php echo esc_html( daichi_landscapes_t( 'card_a' ) ); ?></a></p>
+<p class="dl-card__a"><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'card_a' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

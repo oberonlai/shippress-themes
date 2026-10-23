@@ -17,7 +17,7 @@
 <!-- wp:navigation {"overlayMenu":"mobile","overlayBackgroundColor":"white","overlayTextColor":"ink","icon":"menu","className":"dl-nav","layout":{"type":"flex","justifyContent":"right"}} /-->
 <!-- wp:buttons {"className":"dl-btns dl-btns--head"} -->
 <div class="wp-block-buttons dl-btns dl-btns--head"><!-- wp:button {"className":"dl-btn"} -->
-<div class="wp-block-button dl-btn"><a class="wp-block-button__link wp-element-button" href="#contact"><?php echo esc_html( daichi_landscapes_t( 'hd_cta' ) ); ?></a></div>
+<div class="wp-block-button dl-btn"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo esc_html( daichi_landscapes_t( 'hd_cta' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>
