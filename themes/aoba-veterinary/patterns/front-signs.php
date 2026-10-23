@@ -13,54 +13,54 @@ $av = get_theme_file_uri( "assets/images/" );
 <section class="wp-block-group alignfull av-section av-signs"><!-- wp:group {"align":"wide","className":"av-signs__in","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide av-signs__in"><!-- wp:group {"className":"av-signs__text","layout":{"type":"default"}} -->
 <div class="wp-block-group av-signs__text"><!-- wp:heading {"className":"av-long"} -->
-<h2 class="wp-block-heading av-long">Signs that are worth a visit</h2>
+<h2 class="wp-block-heading av-long"><?php echo wp_kses_post( aoba_veterinary_t( 'k9e3bb09a' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Some changes can be watched for a day. Others should be seen sooner. If your dog or cat seems clearly unwell, call the clinic. On weekdays we keep urgent same-day slots, and a nurse can tell you whether to come in or whether it can wait until a booked visit.</p>
+<p><?php echo wp_kses_post( aoba_veterinary_t( 'ke0344c32' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"av-signlist"} -->
 <ul class="wp-block-list av-signlist"><!-- wp:list-item -->
-<li>Not eating for more than a day</li>
+<li><?php echo wp_kses_post( aoba_veterinary_t( 'k0dc5361d' ) ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Limping that lasts beyond 24 hours</li>
+<li><?php echo wp_kses_post( aoba_veterinary_t( 'k619f47cd' ) ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Drinking much more than usual</li>
+<li><?php echo wp_kses_post( aoba_veterinary_t( 'k268dd708' ) ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Repeated vomiting or diarrhoea</li>
+<li><?php echo wp_kses_post( aoba_veterinary_t( 'kbfd1be79' ) ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Scratching ears or shaking the head</li>
+<li><?php echo wp_kses_post( aoba_veterinary_t( 'kdfe33fad' ) ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Breathing faster at rest</li>
+<li><?php echo wp_kses_post( aoba_veterinary_t( 'kb314a28d' ) ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>A cat hiding more than usual</li>
+<li><?php echo wp_kses_post( aoba_veterinary_t( 'kb2bd50ac' ) ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Lumps that change size</li>
+<li><?php echo wp_kses_post( aoba_veterinary_t( 'kbe5cfdf6' ) ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"className":"av-note"} -->
-<p class="av-note">If you are unsure, call us — a nurse will tell you whether it can wait. You do not need a diagnosis before you phone. Bring a short note of when the sign started, and a photo or video if you have one.</p>
+<p class="av-note"><?php echo wp_kses_post( aoba_veterinary_t( 'k4ab33428' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"av-signs__photo"} -->
-<figure class="wp-block-image size-large av-signs__photo"><img src="<?php echo esc_url( $av . 'p04-ear.webp' ); ?>" alt="Vet gently checking a cat’s ear with an otoscope"/></figure>
+<figure class="wp-block-image size-large av-signs__photo"><img src="<?php echo esc_url( $av . 'p04-ear.webp' ); ?>" alt="<?php echo esc_attr( aoba_veterinary_t( 'aa66f1df8' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

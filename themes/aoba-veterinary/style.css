@@ -329,3 +329,32 @@ a { text-underline-offset: 0.2em; }
 .av-page .av-tt { margin-inline: 0; }
 .av-page > .av-people + .av-long--first, .av-page > .av-figblock + .av-lead { margin-block-start: 3rem; }
 .av-page > .av-figblock + .av-lead { margin-block-start: 0; }
+
+/* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Libre Baskerville / Source Sans 3). French and German hyphenate. ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--serif: "Noto Serif TC", "Libre Baskerville", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--sans: "Source Sans 3", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--serif: "Noto Serif JP", "Libre Baskerville", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--sans: "Source Sans 3", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .av-brand__name, .av-call a, .av-menu .wp-block-navigation-item__content, .av-menu--foot .wp-block-navigation-item__content, .av-label, .av-long, .av-box__title, .av-tag__name, .av-person__name, .av-foot__name) { font-weight: 400; line-height: 1.45; }
+:is(:lang(zh), :lang(ja)) .av-label { font-size: 1.5rem; letter-spacing: 0.14em; }
+:is(:lang(zh), :lang(ja)) .av-long { font-size: 2rem; line-height: 1.5; }
+:is(:lang(zh), :lang(ja)) .av-box__title { font-size: 1.5rem; line-height: 1.6; }
+:is(:lang(zh), :lang(ja)) .av-hero--page .av-box__title { font-size: 1.375rem; }
+:is(:lang(zh), :lang(ja)) .av-menu .wp-block-navigation-item__content { letter-spacing: 0.06em; }
+:lang(ja) :is(h1, h2, h3, p, li) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li) { hyphens: auto; }
+:is(:lang(fr), :lang(de)) .av-label { font-size: 1.5rem; letter-spacing: 0.1em; }
+:is(:lang(fr), :lang(de)) .av-long { font-size: 2.25rem; }
+:is(:lang(fr), :lang(de)) .av-menu .wp-block-navigation-item__content { padding-inline: 10px; font-size: 0.8125rem; }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) .av-label { font-size: 1.25rem; letter-spacing: 0.08em; }
+	:is(:lang(zh), :lang(ja)) .av-long { font-size: 1.625rem; }
+	:is(:lang(zh), :lang(ja)) .av-hero--page .av-box__title { font-size: 1.25rem; }
+	:is(:lang(fr), :lang(de)) .av-label { font-size: 1.25rem; }
+	:is(:lang(fr), :lang(de)) .av-long { font-size: 1.75rem; }
+}

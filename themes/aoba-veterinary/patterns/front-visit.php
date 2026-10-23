@@ -13,11 +13,11 @@ $av = get_theme_file_uri( "assets/images/" );
 <section class="wp-block-group alignfull av-section av-visit"><!-- wp:group {"align":"wide","className":"av-visit__in","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide av-visit__in"><!-- wp:group {"className":"av-visit__text","layout":{"type":"default"}} -->
 <div class="wp-block-group av-visit__text"><!-- wp:heading {"className":"av-long av-long--small"} -->
-<h2 class="wp-block-heading av-long av-long--small">Visit the clinic</h2>
+<h2 class="wp-block-heading av-long av-long--small"><?php echo wp_kses_post( aoba_veterinary_t( 'k3978195f' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Aoba Veterinary Clinic, 214 Alder Street, Fairhaven.</p>
+<p><?php echo wp_kses_post( aoba_veterinary_t( 'ke8105880' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"av-phone"} -->
@@ -25,26 +25,26 @@ $av = get_theme_file_uri( "assets/images/" );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Monday to Friday, 9:00–12:30 and 15:30–19:00. Saturday, 9:00–12:30 and 15:30–17:00. Sunday and public holidays, closed. Urgent same-day slots run on weekdays. Out of hours, contact the regional emergency hospital.</p>
+<p><?php echo wp_kses_post( aoba_veterinary_t( 'k180dbe9f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:pattern {"slug":"aoba-veterinary/timetable"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"av-visit__photo"} -->
-<figure class="wp-block-image size-large av-visit__photo"><img src="<?php echo esc_url( $av . 'p08-entrance.webp' ); ?>" alt="Clinic entrance with a glass door and a potted olive tree"/></figure>
+<figure class="wp-block-image size-large av-visit__photo"><img src="<?php echo esc_url( $av . 'p08-entrance.webp' ); ?>" alt="<?php echo esc_attr( aoba_veterinary_t( 'a7a8bc18f' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"wide","className":"av-visit__close","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide av-visit__close"><!-- wp:buttons {"className":"av-book"} -->
 <div class="wp-block-buttons av-book"><!-- wp:button {"className":"av-book__btn"} -->
-<div class="wp-block-button av-book__btn"><a class="wp-block-button__link wp-element-button" href="/book/">Book a visit</a></div>
+<div class="wp-block-button av-book__btn"><a class="wp-block-button__link wp-element-button" href="/book/"><?php echo wp_kses_post( aoba_veterinary_t( 'k26bd62d6' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"className":"av-note"} -->
-<p class="av-note">Urgent? Call before you come.</p>
+<p class="av-note"><?php echo wp_kses_post( aoba_veterinary_t( 'kec49e987' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

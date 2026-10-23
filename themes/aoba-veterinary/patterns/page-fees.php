@@ -11,16 +11,16 @@ $av = get_theme_file_uri( "assets/images/" );
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"av-hero av-hero--page","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull av-hero av-hero--page"><!-- wp:cover {"url":"<?php echo esc_url( $av . 'p02-cradle.webp' ); ?>","alt":"Nurse cradling a calm tabby cat on a soft towel","dimRatio":0,"focalPoint":{"x":0.5,"y":0.45},"minHeight":360,"minHeightUnit":"px","isDark":false,"align":"full","className":"av-hero__photo","layout":{"type":"default"}} -->
-<div class="wp-block-cover alignfull is-light av-hero__photo" style="min-height:360px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Nurse cradling a calm tabby cat on a soft towel" src="<?php echo esc_url( $av . 'p02-cradle.webp' ); ?>" style="object-position:50% 45%" data-object-fit="cover" data-object-position="50% 45%"/><div class="wp-block-cover__inner-container"></div></div>
+<div class="wp-block-cover alignfull is-light av-hero__photo" style="min-height:360px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( aoba_veterinary_t( 'a40dcad22' ) ); ?>" src="<?php echo esc_url( $av . 'p02-cradle.webp' ); ?>" style="object-position:50% 45%" data-object-fit="cover" data-object-position="50% 45%"/><div class="wp-block-cover__inner-container"></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:group {"className":"av-box","layout":{"type":"default"}} -->
 <div class="wp-block-group av-box"><!-- wp:heading {"textAlign":"center","level":1,"className":"av-box__title"} -->
-<h1 class="wp-block-heading has-text-align-center av-box__title">Fees</h1>
+<h1 class="wp-block-heading has-text-align-center av-box__title"><?php echo wp_kses_post( aoba_veterinary_t( 'k006300ef' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","className":"av-box__line"} -->
-<p class="has-text-align-center av-box__line">Published prices, a written estimate first</p>
+<p class="has-text-align-center av-box__line"><?php echo wp_kses_post( aoba_veterinary_t( 'k3122e156' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -32,70 +32,70 @@ $av = get_theme_file_uri( "assets/images/" );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"av-figure__cap"} -->
-<p class="av-figure__cap">first consultation, 30 minutes, full examination</p>
+<p class="av-figure__cap"><?php echo wp_kses_post( aoba_veterinary_t( 'kb4310a9b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"av-lead"} -->
-<p class="av-lead">A first consultation is 30 minutes with a full examination, and the fee is $65, tax included, with a written estimate before treatment.</p>
+<p class="av-lead"><?php echo wp_kses_post( aoba_veterinary_t( 'k66a139ee' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"av-long av-long--small av-long--first"} -->
-<h2 class="wp-block-heading av-long av-long--small av-long--first">First consultation, $65</h2>
+<h2 class="wp-block-heading av-long av-long--small av-long--first"><?php echo wp_kses_post( aoba_veterinary_t( 'k88d1d043' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The figure we put first is $65. That is the first consultation: 30 minutes, with a full examination. It is the visit most new dogs and cats start with, whether the worry is ears, a limp, weight loss, teeth or a vaccination that is due. You get the examination, an explanation of what we find, and a written estimate before any treatment. A shorter return visit, the follow-up consultation of 15 minutes, is $45.</p>
+<p><?php echo wp_kses_post( aoba_veterinary_t( 'k575e3871' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Both fees include tax. Both are the same on this page, at the desk, and in any estimate that quotes them. Dr. Elena Varga set the clinic up in 2014 so that this conversation would have a clear price and a clear length. If you are unsure which visit you need, call +1 555 0142 300 and a nurse will help you choose.</p>
+<p><?php echo wp_kses_post( aoba_veterinary_t( 'k747b932a' ) ); ?></p>
 <!-- /wp:paragraph -->
 </section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"av-section av-fees av-fees--page","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull av-section av-fees av-fees--page"><!-- wp:heading {"textAlign":"center","className":"av-label"} -->
-<h2 class="wp-block-heading has-text-align-center av-label">Fee list</h2>
+<h2 class="wp-block-heading has-text-align-center av-label"><?php echo wp_kses_post( aoba_veterinary_t( 'k29b7a6ea' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","className":"av-fees__lead"} -->
-<p class="has-text-align-center av-fees__lead">Published fees, in US dollars. Prices include tax. You always get a written estimate first.</p>
+<p class="has-text-align-center av-fees__lead"><?php echo wp_kses_post( aoba_veterinary_t( 'k80502fcb' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"align":"wide","className":"av-pricelist"} -->
-<figure class="wp-block-table alignwide av-pricelist"><table><tbody><tr><td>First consultation (30 min, full examination)</td><td>$65</td></tr><tr><td>Follow-up consultation (15 min)</td><td>$45</td></tr><tr><td>Annual vaccination (dog DHPP or cat FVRCP), incl. check</td><td>$58</td></tr><tr><td>Microchip and registration</td><td>$49</td></tr><tr><td>Senior blood panel</td><td>$110</td></tr><tr><td>Cat spay / neuter</td><td>from $240</td></tr><tr><td>Dog spay / neuter</td><td>from $380</td></tr><tr><td>Dental scale and polish under anaesthesia</td><td>from $320</td></tr></tbody></table></figure>
+<figure class="wp-block-table alignwide av-pricelist"><table><tbody><tr><td><?php echo wp_kses_post( aoba_veterinary_t( 'k08f54be8' ) ); ?></td><td>$65</td></tr><tr><td><?php echo wp_kses_post( aoba_veterinary_t( 'k106c9a67' ) ); ?></td><td>$45</td></tr><tr><td><?php echo wp_kses_post( aoba_veterinary_t( 'k8a89d63c' ) ); ?></td><td>$58</td></tr><tr><td><?php echo wp_kses_post( aoba_veterinary_t( 'kfe28e203' ) ); ?></td><td>$49</td></tr><tr><td><?php echo wp_kses_post( aoba_veterinary_t( 'kebfbf9b3' ) ); ?></td><td>$110</td></tr><tr><td><?php echo wp_kses_post( aoba_veterinary_t( 'kf6166df5' ) ); ?></td><td><?php echo wp_kses_post( aoba_veterinary_t( 'kdfb0e8f3' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( aoba_veterinary_t( 'k1c02742f' ) ); ?></td><td><?php echo wp_kses_post( aoba_veterinary_t( 'k0efb22e1' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( aoba_veterinary_t( 'k6782ada7' ) ); ?></td><td><?php echo wp_kses_post( aoba_veterinary_t( 'kb2560709' ) ); ?></td></tr></tbody></table></figure>
 <!-- /wp:table --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"av-section av-page","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull av-section av-page"><!-- wp:heading {"className":"av-long av-long--small av-long--first"} -->
-<h2 class="wp-block-heading av-long av-long--small av-long--first">What a written estimate includes</h2>
+<h2 class="wp-block-heading av-long av-long--small av-long--first"><?php echo wp_kses_post( aoba_veterinary_t( 'k94027a0e' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>A written estimate sets out what we found, what we propose to do, and what it will cost. It is given before treatment, including before a vaccination extra, a senior blood panel, a spay or neuter, a dental scale and polish, or a surgery that is not on the published list. You can read it at the clinic or take it home. Treatment starts after you have agreed it. If the plan has to change on the day, we tell you and write the new figure before we go further.</p>
+<p><?php echo wp_kses_post( aoba_veterinary_t( 'kf68ed177' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The estimate is how a cruciate repair, an endoscopy or a dental decision stays specific to the animal in front of us. Published “from” prices are starting points. The estimate is the price for your dog or your cat. It is also the document that matches what the insurer, if you have one, will later see.</p>
+<p><?php echo wp_kses_post( aoba_veterinary_t( 'k80186b3a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"av-long av-long--small"} -->
-<h2 class="wp-block-heading av-long av-long--small">Card, cash and insurance forms</h2>
+<h2 class="wp-block-heading av-long av-long--small"><?php echo wp_kses_post( aoba_veterinary_t( 'k41d737b3' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>You can pay by card or by cash. If you have pet insurance, we fill in the claim forms for you. Bring the policy details you already use, and we will complete the clinic’s part of the paperwork from the record of the visit and from the written estimate. We do not name insurers and we do not add a fee for filling the forms.</p>
+<p><?php echo wp_kses_post( aoba_veterinary_t( 'kf4878c24' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The clinical record, the fee and the form should match. If a claim needs a note of the diagnosis or the procedure, ask at discharge and the team will attach what the visit actually contained. Questions about a bill can go to Clara Moreau at reception, or by email to hello@aobavet.example. The list above is the list we bill from when the work is one of those eight items.</p>
+<p><?php echo wp_kses_post( aoba_veterinary_t( 'k20317813' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"av-arrow"} -->
 <div class="wp-block-buttons av-arrow"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/first-visit/">Your first visit</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/first-visit/"><?php echo wp_kses_post( aoba_veterinary_t( 'k9906c684' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </section>
