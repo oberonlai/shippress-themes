@@ -8,8 +8,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","className":"kl-classroom","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group kl-classroom"><!-- wp:group {"className":"kl-band sp-parallax sp-reveal sp-reveal--wipe","align":"full","layout":{"type":"default"}} -->
-<div class="wp-block-group kl-band sp-parallax sp-reveal sp-reveal--wipe"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kl-band__img"} -->
+<section class="wp-block-group alignfull kl-classroom"><!-- wp:group {"className":"kl-band sp-parallax sp-reveal sp-reveal--wipe","align":"full","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull kl-band sp-parallax sp-reveal sp-reveal--wipe"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kl-band__img"} -->
 <figure class="wp-block-image size-full kl-band__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s6.webp' ) ); ?>" alt="<?php echo esc_attr( kotoba_language_t( 'alt_s6' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->

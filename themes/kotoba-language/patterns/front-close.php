@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","className":"kl-close","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group kl-close"><!-- wp:html -->
+<section class="wp-block-group alignfull kl-close"><!-- wp:html -->
 <div class="kl-word kl-word--top" aria-hidden="true"><p class="kl-word__t">Enrol.</p></div>
 <!-- /wp:html -->
 

@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","className":"kl-sec kl-levels","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group kl-sec kl-levels"><!-- wp:group {"className":"kl-wrap","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kl-sec kl-levels"><!-- wp:group {"className":"kl-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kl-wrap"><!-- wp:paragraph {"className":"kl-label"} -->
 <p class="kl-label"><?php echo esc_html( kotoba_language_t( 'levels_label' ) ); ?></p>
 <!-- /wp:paragraph -->

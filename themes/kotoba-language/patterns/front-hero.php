@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","className":"kl-hero","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group kl-hero"><!-- wp:group {"className":"kl-hero__top","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kl-hero"><!-- wp:group {"className":"kl-hero__top","layout":{"type":"default"}} -->
 <div class="wp-block-group kl-hero__top"><!-- wp:group {"className":"kl-hero__photo sp-parallax","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group kl-hero__photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kl-hero__img"} -->
 <figure class="wp-block-image size-full kl-hero__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s1.webp' ) ); ?>" alt="<?php echo esc_attr( kotoba_language_t( 'alt_s1' ) ); ?>"/></figure>

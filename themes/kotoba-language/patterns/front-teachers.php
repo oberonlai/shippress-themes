@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","className":"kl-sec kl-teachers","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group kl-sec kl-teachers"><!-- wp:group {"className":"kl-wrap","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kl-sec kl-teachers"><!-- wp:group {"className":"kl-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kl-wrap"><!-- wp:group {"className":"kl-head","layout":{"type":"default"}} -->
 <div class="wp-block-group kl-head"><!-- wp:paragraph {"className":"kl-label"} -->
 <p class="kl-label"><?php echo esc_html( kotoba_language_t( 'teachers_label' ) ); ?></p>
