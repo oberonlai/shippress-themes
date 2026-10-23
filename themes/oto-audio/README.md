@@ -53,6 +53,7 @@ Newsreader and Public Sans (SIL OFL 1.1, licences in assets/fonts).
 </table>
 
 - Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
 - Compare: [desktop](screenshots/compare-desktop.webp) · [mobile](screenshots/compare-mobile.webp)
 - Listening room: [desktop](screenshots/listening-room-desktop.webp) · [mobile](screenshots/listening-room-mobile.webp)
 - Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
