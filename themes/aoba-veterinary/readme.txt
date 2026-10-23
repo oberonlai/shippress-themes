@@ -57,6 +57,7 @@ assets/sp-scroll.js and assets/sp-scroll.css: scroll effects written for ShipPre
 All photographs were generated with Grok for this theme and are released under GPL-2.0-or-later / CC0. They show no real people, places or brands.
 
 assets/images/p01-consult-room.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p02-cradle.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p03-waiting.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p04-ear.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p05-exam.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
@@ -66,7 +67,11 @@ assets/images/p08-entrance.webp: generated with Grok for this theme, GPL-2.0-or-
 assets/images/p09-paw.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p10-listening.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p11-recovery.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p12-surgery-prep.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p13-dental.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p14-reception.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p15-cat-room.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p16-team.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 
 == Changelog ==
 = 1.0.0 =

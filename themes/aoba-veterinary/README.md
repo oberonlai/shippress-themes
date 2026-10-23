@@ -16,4 +16,4 @@ A calm block theme (type health) for a dogs-and-cats veterinary clinic. Home pag
 Libre Baskerville and Source Sans 3 (SIL OFL 1.1, licences in assets/fonts).
 
 ## Images (AI-generated for this theme, no text or logos; assets/images/)
-p01-consult-room, p03-waiting, p04-ear, p05-exam, p06-walk, p07-director, p08-entrance, p09-paw, p10-listening, p11-recovery, p14-reception (all .webp).
+p01-consult-room, p02-cradle, p03-waiting, p04-ear, p05-exam, p06-walk, p07-director, p08-entrance, p09-paw, p10-listening, p11-recovery, p12-surgery-prep, p13-dental, p14-reception, p15-cat-room, p16-team (all .webp; p02, p12, p13, p15, p16 are for the inner pages).
