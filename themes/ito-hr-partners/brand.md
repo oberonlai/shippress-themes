@@ -60,7 +60,8 @@ White ground #FFFFFF, pale band #EFF2F4, slate #647582, ink #2A2C33, muted ink #
 
 ## Pages and contents
 1. **Home** - front-hero, front-services, front-intro, front-approach, front-fees, front-people, front-stories, front-close.
-2. **Services**, **Payroll compliance**, **Policies & handbooks**, **Workplace investigations**, **Retainer support**, **Fees**, **Team**, **About**, **Client stories**, **Contact** (stage 2).
+2. **Services** (page-services): service index with fees, how fixed fees work (T3). **Payroll compliance** (page-payroll): five checks, T3, fee rows, story link. **Policies & handbooks** (page-policies): twelve policies, contract set, fee rows, story link. **Workplace investigations** (page-investigations): T3 scope / interviews / findings, report timing, fee. **Retainer support** (page-retainer): two plans (T3), plan comparison table. **Fees** (page-fees): all eight fees with anchors, FAQ. **Team** (page-team): four circle portraits on slate, three advisers as text rows. **About** (page-about): story, photo pair, count tags, principles (T3). **Client stories** (posts page, single story, one note post). **Contact** (page-contact). 404 and search use a small head.
+Every inner page head repeats the home hero (one-line headline, tick tags, static photo row with a circle card and the slate fee pill). Sample copy for these pages is in demo-content.json and the page-* patterns.
 
 ## Photography
 Eighteen AI-generated photographs (Grok Build), one STYLE: high-key bright documentary daylight, light oak, white walls and pale grey-green details, navy / white / grey / sage clothing, diverse adults, no text or logos. Scenes: meetings, desk details, workshops, video call, portraits, onboarding, hospitality briefing, design studio.
