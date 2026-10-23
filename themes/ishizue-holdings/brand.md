@@ -11,7 +11,7 @@ The group grew by taking whole companies and leaving their names and local manag
 The group now employs 2,860 colleagues in nine countries: the Netherlands, Belgium, Germany, Denmark, Sweden, Poland, France, Spain and Ireland. Fifty-eight of those colleagues work at the holding office on Maaskade 41. Six companies sit under one private owner. Reports are published voluntarily, including an annual report every March and the interim report for the first half of 2026, published on 28 August 2026. Companies that join keep their names, their sites and their local management, and the holding company takes the next decision only when the last one has settled.
 
 ## Voice
-The voice is calm, concrete and unhurried, the way a privately held group speaks to owners, colleagues and readers of its reports. It names the company, the year and the place, and it stops when the fact has been said.
+The voice is calm, concrete and unhurried, the way a privately held group speaks to owners, colleagues and readers of its reports. It names the company, the year and the place, and it stops when the fact has been said. The audience is owners who may pass a company on, colleagues in the six companies, and readers of the reports.
 
 ## Facts
 - Founded: 1962 in Rotterdam by Kenzo Ishizue and Anneke de Vries.
