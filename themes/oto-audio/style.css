@@ -532,3 +532,9 @@ html.sp-no-motion .oa-split__photo { animation: none !important; }
 .oa-ph--post .oa-ph__sentence { font-size: 0.9375rem; color: var(--oa-desc); }
 .oa-ph--post .oa-ph__label a { text-decoration: none; }
 .oa-ph--post .oa-ph__label { text-decoration: none; }
+
+/* fade the photo edge under the straddling title so the ink heading stays readable */
+.oa-ph__photo { position: relative; }
+@media (min-width: 1024px) { .oa-ph__photo::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 200px; background: linear-gradient(to left, rgba(255,255,255,.88), rgba(255,255,255,0)); pointer-events: none; } }
+@media (min-width: 1024px) { .oa-ph { padding-bottom: 32px; min-height: calc(var(--oa-phh) + 62px); } .oa-ph__side { bottom: 32px; } }
+@media (min-width: 1024px) { .oa-ph--post .oa-ph__h { white-space: normal; width: calc(38% + 72px - 56px); font-size: clamp(1.75rem, 1rem + 2.2vw, 2.75rem) !important; bottom: calc(var(--oa-phh) * .2 + 72px); } }

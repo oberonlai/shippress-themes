@@ -20,6 +20,8 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 
 On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates its pages with all their text and images, the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
 
+With WooCommerce active, eight sample products, a euro price format and a demo EU shipping zone are added once (inc/woo-import.php); nothing the owner set is changed.
+
 The shop, its products, address, telephone number and prices are fictional.
 
 == Copyright ==

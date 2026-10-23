@@ -1,6 +1,6 @@
 # Oto Audio
 
-A block theme (type store) for a hi-fi shop and listening room in Rotterdam. Home page (English) in this release; inner pages, WooCommerce templates and other languages follow. Works without WooCommerce.
+A block theme (type store) for a hi-fi shop and listening room in Rotterdam. Home page and eight inner pages (shop, compare, listening room, services, about, journal with one article, shipping and returns, contact) in English, plus WooCommerce templates (shop, product, cart, checkout, account, order received) and eight sample products. Other languages follow. Works without WooCommerce.
 
 ## Signature
 - Photograph flush to the left window edge (75.5% wide) with the heading straddling its edge, a vertical caption and an ink product strip.

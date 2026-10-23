@@ -57,3 +57,9 @@ White ground, stone `#F4F3F0`, ink `#16160E` bands, text on ink `#E8E8E7`, meta 
 
 ## Typography
 Newsreader 300 (display, no bold) over Public Sans 300/400. No uppercase. Home heading 4.75rem, section headings 2.625rem.
+
+## Audience
+Adults who care how music sounds and want to hear before buying: headphone owners moving to a desk set-up, people furnishing a small room with bookshelf speakers, and anyone in the EU ordering online who wants plain words about sound character. Tone: calm, specific, never superlative.
+
+## Inner pages
+Shop (T2 cards, staff picks), single product (spec panel in crosshair frame, tabs, pairs-well-with trio), Compare (three framed tables), Listening room (four-step hour framed on ink, demo shelf trio), Services (price list in bracket frame), About (four framed facts, people list, parallax band), Journal (one article: How we compare in the listening room), Shipping and returns (four framed figures), Contact, plus cart, checkout, account and order-received templates. Every page head is the small T1: photo flush left (62%) with the title straddling its edge.
