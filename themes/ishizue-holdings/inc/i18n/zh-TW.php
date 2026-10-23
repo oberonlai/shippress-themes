@@ -133,4 +133,11 @@ return array(
 	'kf8fa9976' => '接待處週一至週五 08:30–17:30 CET 開放。參訪請於週二及週四預約。總部自 1987 年坐落於此碼頭，有 58 人在這裡的控股辦公室工作。',
 	'kf92d43a9' => 'Northquay Logistics',
 	'search_results' => '「%s」的搜尋結果',
+	'f_group' => '集團',
+	'f_work' => '與我們合作',
+	'f_sust' => '永續發展',
+	'f_news' => '最新消息',
+	'f_recep' => '櫃檯服務 週一至週五 08:30–17:30（CET）',
+	'f_legal' => '© 2026 Ishizue Holdings B.V.・商業登記編號備索',
+	'f_aria' => 'Ishizue Holdings 首頁',
 );

@@ -133,4 +133,11 @@ return array(
 	'kf8fa9976' => 'Reception is open Monday to Friday, 08:30–17:30 CET. Visits are by appointment on Tuesday and Thursday. The head office has stood on this quay since 1987, and 58 people work in the holding office here.',
 	'kf92d43a9' => 'Northquay Logistics',
 	'search_results' => 'Search results for: %s',
+	'f_group' => 'Group',
+	'f_work' => 'Work with us',
+	'f_sust' => 'Sustainability',
+	'f_news' => 'News',
+	'f_recep' => 'Reception Mon–Fri 08:30–17:30 CET',
+	'f_legal' => '© 2026 Ishizue Holdings B.V. · Chamber of Commerce no. on request',
+	'f_aria' => 'Ishizue Holdings, home',
 );

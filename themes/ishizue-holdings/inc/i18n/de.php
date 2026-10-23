@@ -133,4 +133,11 @@ return array(
 	'kf8fa9976' => 'Die Rezeption ist von Montag bis Freitag, 08:30–17:30 MEZ, geöffnet. Besuche sind dienstags und donnerstags nach Vereinbarung. Der Hauptsitz steht seit 1987 an diesem Kai, und 58 Menschen arbeiten hier im Büro der Holding.',
 	'kf92d43a9' => 'Northquay Logistics',
 	'search_results' => 'Suchergebnisse für: %s',
+	'f_group' => 'Gruppe',
+	'f_work' => 'Zusammenarbeit',
+	'f_sust' => 'Nachhaltigkeit',
+	'f_news' => 'Neuigkeiten',
+	'f_recep' => 'Empfang Mo–Fr 08:30–17:30 MEZ',
+	'f_legal' => '© 2026 Ishizue Holdings B.V. · Handelsregisternummer auf Anfrage',
+	'f_aria' => 'Ishizue Holdings, Startseite',
 );

@@ -133,4 +133,11 @@ return array(
 	'kf8fa9976' => '受付は月曜日から金曜日、08:30–17:30 CETに開いています。ご来訪は火曜日と木曜日の予約制です。本社はこの岸壁に1987年からあり、持株会社の事務所では58人が働いています。',
 	'kf92d43a9' => 'Northquay Logistics',
 	'search_results' => '「%s」の検索結果',
+	'f_group' => 'グループ',
+	'f_work' => '協業・ご相談',
+	'f_sust' => 'サステナビリティ',
+	'f_news' => 'ニュース',
+	'f_recep' => '受付 月〜金 08:30–17:30（CET）',
+	'f_legal' => '© 2026 Ishizue Holdings B.V.・商業登記番号はご請求に応じて開示',
+	'f_aria' => 'Ishizue Holdings ホーム',
 );

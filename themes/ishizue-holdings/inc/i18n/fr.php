@@ -133,4 +133,11 @@ return array(
 	'kf8fa9976' => 'L\'accueil est ouvert du lundi au vendredi, 08:30–17:30 CET. Les visites se font sur rendez-vous le mardi et le jeudi. Le siège est installé sur ce quai depuis 1987, et 58 personnes travaillent ici dans les bureaux de la holding.',
 	'kf92d43a9' => 'Northquay Logistics',
 	'search_results' => 'Résultats de recherche pour : %s',
+	'f_group' => 'Groupe',
+	'f_work' => 'Travailler avec nous',
+	'f_sust' => 'Développement durable',
+	'f_news' => 'Actualités',
+	'f_recep' => 'Accueil du lundi au vendredi, 08:30–17:30 CET',
+	'f_legal' => '© 2026 Ishizue Holdings B.V. · Numéro d’immatriculation sur demande',
+	'f_aria' => 'Ishizue Holdings, accueil',
 );
