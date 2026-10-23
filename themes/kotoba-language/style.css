@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/kotoba
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Kotoba Language is an adult language school at Scheepmakerspassage 14, Rotterdam, founded in 2016. It teaches English, Dutch, French, German, Mandarin and Japanese to new arrivals and cross-border teams, in classes of at most 8. This theme presents the pathways, the CEFR placement, the 2026 intakes and the EUR fee list. A split photograph-and-text opening with an oversized cropped wordmark, mirrored curved arcs around a circular photograph, and a fixed right-edge hairline rail. EB Garamond for headings, Source Sans 3 for reading.
-Version: 1.0.1
+Version: 1.0.0
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -171,6 +171,54 @@ body { background: var(--kl-paper); color: var(--kl-ink); }
 		@keyframes kl-rail-a { 0%, 60% { visibility: visible; } 60.1%, 100% { visibility: hidden; } }
 		@keyframes kl-rail-b { 0%, 60% { visibility: hidden; } 60.1%, 100% { visibility: visible; } }
 	}
+}
+
+
+/* inner pages */
+.kl-lede-wrap { padding-bottom: 2rem; }
+.kl-lede-wrap .kl-lede { margin-bottom: 0; font-size: var(--wp--preset--font-size--large); }
+.kl-word--page { font-size: clamp(5rem, 20vw, 17rem); height: 0.72em; padding-left: var(--kl-gut); margin-top: 1rem; box-sizing: content-box; }
+.kl-prose-sec .kl-narrow { margin-inline: auto; }
+.kl-photo { padding-bottom: 1rem; }
+.kl-wide { margin: 0; }
+.kl-wide img { width: 100%; aspect-ratio: 3/2; max-height: 560px; object-fit: cover; display: block; }
+.kl-tblsec { padding-block: calc(var(--kl-sec) / 4); }
+.kl-tblsec .kl-label { margin-top: 2rem; }
+.kl-levtbl td:nth-child(1) { width: 6rem; }
+.kl-levtbl td:nth-child(3) { color: var(--kl-muted); font-family: var(--kl-sans); font-size: 0.9375rem; }
+.kl-intaketbl td:nth-child(3) { font-size: 0.9375rem; font-family: var(--kl-sans); color: var(--kl-muted); }
+.kl-pull--side { text-align: left; margin: 0; max-width: 18em; font-size: var(--wp--preset--font-size--large); }
+.kl-flank--text .kl-circle img { width: 280px; height: 280px; }
+.kl-flank--text > :not(.kl-arc):not(.kl-circle) { flex: 1; min-width: 0; max-width: 28em; }
+.kl-center { text-align: center; }
+.kl-paths-links { display: flex; flex-direction: column; gap: 0.75rem; margin-top: 2rem; }
+.kl-teacher-grid--8 { grid-template-columns: repeat(4, 1fr); gap: 3rem 2rem; margin-block: 1rem; }
+.kl-teacher-grid--n { grid-template-columns: repeat(auto-fit, minmax(220px, 300px)); margin-block: 0; }
+.kl-storylist { display: flex; flex-direction: column; gap: 6rem; }
+.kl-storyrow .kl-story__img { margin-bottom: 2.5rem; }
+.kl-storyrow .kl-story__img img { aspect-ratio: 3/2; max-height: 480px; }
+.kl-circle--sm img { width: 200px !important; height: 200px !important; }
+.kl-storyrow__t .kl-story__h { font-size: var(--wp--preset--font-size--large); margin-bottom: 1rem; }
+.kl-contactgrid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 4rem; align-items: start; }
+.kl-contact .kl-body { margin-bottom: 1.5rem; }
+.kl-formwrap { max-width: 720px; }
+.kl-form label { display: block; font-size: 0.8125rem; font-weight: 600; margin-bottom: 0.35rem; }
+.kl-form input, .kl-form textarea { width: 100%; box-sizing: border-box; border: 1px solid var(--kl-rule); background: #fff; padding: 0.8rem 1rem; font: inherit; border-radius: 2px; }
+.kl-form__btn { background: var(--kl-pill); color: #fff; border: 0; border-radius: 999px; padding: 0.8rem 1.75rem; font: inherit; font-size: 0.875rem; font-weight: 600; cursor: pointer; }
+.kl-search { max-width: 480px; margin-bottom: 2rem; }
+.kl-narrow-p { max-width: 680px; }
+@media (max-width: 960px) {
+	.kl-teacher-grid--8 { grid-template-columns: repeat(2, 1fr); }
+	.kl-contactgrid { grid-template-columns: 1fr; gap: 2.5rem; }
+}
+@media (max-width: 782px) {
+	.kl-teacher-grid--8, .kl-teacher-grid--n { grid-template-columns: 1fr; }
+	.kl-flank--text { flex-direction: column; align-items: flex-start; }
+	.kl-flank--text .kl-arc { display: none; }
+	.kl-flank--text .kl-circle img { width: min(60vw, 280px); height: min(60vw, 280px); }
+	.kl-storylist { gap: 4rem; }
+	.kl-levtbl td:nth-child(1) { width: auto; }
+	.kl-word--page { height: 0.72em; }
 }
 
 /* CJK and hyphenation */

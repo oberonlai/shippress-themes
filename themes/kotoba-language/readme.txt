@@ -3,7 +3,7 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ Kotoba Language WordPress Theme, (C) 2026 ShipPress. Licensed under GPL-2.0-or-l
 EB Garamond (OFL-1.1), Source Sans 3 (OFL-1.1), Noto Serif TC and Noto Serif JP (OFL-1.1). Licence texts are in assets/fonts/.
 
 = Images =
-All photographs in assets/images/ (s1-s8, p1-p6) are AI-generated for this theme and released under CC0 1.0. They depict no real people.
+All photographs in assets/images/ (s1-s10, p1-p8) are AI-generated for this theme and released under CC0 1.0. They depict no real people.
 
 == Changelog ==
 
