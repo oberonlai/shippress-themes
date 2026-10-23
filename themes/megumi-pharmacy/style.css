@@ -72,7 +72,7 @@ body .mp-more { margin: 0; font-size: .9375rem; font-weight: 500; letter-spacing
 .mp-header a { color: inherit; text-decoration: none; }
 .mp-brand { display: flex; flex-direction: column; gap: 2px; }
 body .mp-brand__tag { margin: 0; font-size: .6875rem; font-weight: 500; letter-spacing: .1em; line-height: 1.4; }
-.mp-brand__title, .mp-brand__title a { margin: 0; font-family: var(--wp--preset--font-family--display); font-weight: 500; font-size: 1.375rem; line-height: 1.2; letter-spacing: .02em; }
+.mp-brand__title, .mp-brand__title a { white-space: nowrap; margin: 0; font-family: var(--wp--preset--font-family--display); font-weight: 500; font-size: 1.375rem; line-height: 1.2; letter-spacing: .02em; }
 .mp-header .mp-nav { display: none; }
 .mp-nav .wp-block-navigation__container { gap: 36px; }
 .mp-nav .wp-block-navigation-item__content { font-size: .875rem; font-weight: 500; letter-spacing: .08em; padding: 4px 0; }
@@ -106,7 +106,7 @@ body .mp-brand__tag { margin: 0; font-size: .6875rem; font-weight: 500; letter-s
 
 /* T1: the photograph stage (hero + introduction on one photograph) */
 .mp-stage.wp-block-cover { min-height: 0; padding: 0; align-items: flex-start; color: #fff; }
-.mp-stage .wp-block-cover__background { opacity: 1; background: linear-gradient(90deg, rgba(56, 55, 54, .30) 0%, rgba(56, 55, 54, 0) 62%), linear-gradient(180deg, rgba(56, 55, 54, .34) 0%, rgba(56, 55, 54, .22) 32%, rgba(56, 55, 54, .38) 58%, rgba(56, 55, 54, .60) 100%); }
+.mp-stage .wp-block-cover__background { opacity: 1; background: linear-gradient(90deg, rgba(56, 55, 54, .42) 0%, rgba(56, 55, 54, 0) 66%), linear-gradient(180deg, rgba(56, 55, 54, .46) 0%, rgba(56, 55, 54, .34) 32%, rgba(56, 55, 54, .44) 58%, rgba(56, 55, 54, .66) 100%); }
 .mp-stage .wp-block-cover__image-background { object-position: 62% center; }
 .mp-stage .wp-block-cover__inner-container { width: 100%; max-width: none; padding: 0; margin: 0; }
 .mp-stage__first { min-height: 100svh; display: flex; flex-direction: column; padding: 120px var(--mp-gut) 0; box-sizing: border-box; }
@@ -142,6 +142,7 @@ body .mp-intro { margin: 0 0 1.4em; font-size: 1.0625rem; font-weight: 500; line
 .mp-card__media::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 45%; z-index: 1; background: linear-gradient(180deg, rgba(56, 55, 54, 0) 0%, rgba(56, 55, 54, .55) 100%); pointer-events: none; }
 body .mp-card__label { position: static; z-index: 2; margin: 0; padding: 51px 37px; font-family: var(--wp--preset--font-family--display); font-weight: 500; font-size: 1.625rem; line-height: 1.3; letter-spacing: .01em; color: #fff; }
 .mp-card__label a { color: #fff; text-decoration: none; }
+.mp-card__media .mp-pill { box-shadow: 0 0 0 1px rgba(255, 255, 255, .7); }
 .mp-card__label a::after { content: ""; position: absolute; inset: 0; z-index: 3; }
 body .mp-card__text { margin: 18px 0 0; font-size: .9375rem; line-height: 1.9; color: var(--mp-muted); }
 @media (max-width: 781px) {
@@ -161,9 +162,10 @@ body .mp-card__text { margin: 18px 0 0; font-size: .9375rem; line-height: 1.9; c
 .mp-list { margin-top: 40px; border-bottom: 1px solid var(--mp-line); }
 body .mp-person { margin: 0; }
 .mp-person a { display: flex; align-items: center; gap: 20px; min-height: 56px; border-top: 1px solid var(--mp-line); text-decoration: none; color: var(--mp-ink); }
-.mp-person__name { font-family: var(--wp--preset--font-family--display); font-weight: 500; font-size: 1.0625rem; letter-spacing: .02em; }
+.mp-person__name { white-space: nowrap; font-family: var(--wp--preset--font-family--display); font-weight: 500; font-size: 1.0625rem; letter-spacing: .02em; }
 .mp-person__role { margin-left: auto; font-size: .875rem; color: var(--mp-muted); text-align: right; }
-.mp-person .mp-pill { margin-left: 0; }
+.mp-person .mp-pill { margin-left: 0; flex: none; }
+.mp-person__role { min-width: 0; }
 .mp-person a:hover .mp-pill { background-color: var(--mp-accent); background-image: var(--mp-arrow-w); }
 .mp-people__text .mp-more { margin-top: 28px; }
 @media (max-width: 1023px) {
@@ -258,6 +260,7 @@ body .mp-product__price { margin: 4px 0 0; font-weight: 600; font-size: 1rem; wh
 .mp-visit .wp-block-cover__inner-container { width: 100%; }
 .mp-visit__col { max-width: 645px; margin: 0 auto; padding: 96px 37px; box-sizing: border-box; text-align: center; }
 .mp-visit .mp-h2 { color: #fff; }
+.mp-visit__col { background: radial-gradient(ellipse at center, rgba(56, 55, 54, .30) 0%, rgba(56, 55, 54, .18) 60%, rgba(56, 55, 54, 0) 100%); }
 body .mp-hours { margin: 24px 0 0; font-weight: 500; font-size: 1rem; line-height: 2; letter-spacing: .04em; color: #fff; }
 .mp-hours a { color: #fff; }
 .mp-visit .wp-block-buttons { justify-content: center; margin-top: 36px; }
@@ -283,3 +286,50 @@ body .mp-hours { margin: 24px 0 0; font-weight: 500; font-size: 1rem; line-heigh
 
 body .mp-list > .mp-person, body .mp-rows > .mp-row, body .mp-notes .wp-block-post-template > li { margin-block: 0; }
 body .mp-cards > .mp-card, body .mp-products > .mp-product, body .mp-card__media > *, body .mp-info > * { margin-block: 0; }
+
+/* stage 2 fixes: mobile readability and wrapping */
+@media (max-width: 781px) {
+	.mp-stage__first { padding-left: 24px; padding-right: 24px; }
+	body .mp-hero { font-size: 2.25rem; letter-spacing: .02em; line-height: 1.5; }
+	.mp-story br, .mp-visit br { display: none; }
+	.mp-story .mp-h2, .mp-visit .mp-h2 { text-wrap: balance; }
+	.mp-person a { gap: 12px; }
+	.mp-person__role { font-size: .8125rem; }
+	.mp-brand__title, .mp-brand__title a { font-size: 1.125rem; }
+	.mp-header { gap: 12px; }
+}
+@media (min-width: 1024px) {
+	.mp-people__grid { align-items: stretch; }
+	.mp-people__photo img { height: 100%; aspect-ratio: auto; min-height: 100%; }
+	.mp-person a { min-height: 56px; }
+}
+
+/* inner pages: photograph band (T1-page), fee list, bios */
+.mp-phead.wp-block-cover { min-height: 0; padding: 0; align-items: flex-end; color: #fff; }
+.mp-phead .wp-block-cover__background { opacity: 1; background: linear-gradient(180deg, rgba(56, 55, 54, .30) 0%, rgba(56, 55, 54, .50) 55%, rgba(56, 55, 54, .68) 100%); }
+.mp-phead .wp-block-cover__inner-container { width: 100%; max-width: none; padding: 0; margin: 0; }
+.mp-phead__in { padding: 150px var(--mp-gut) 72px; box-sizing: border-box; }
+.mp-phead .mp-kicker { color: #fff; }
+body .mp-phero { margin: 0; color: #fff; font-weight: 400; font-size: clamp(2.25rem, 4.2vw, 3.5rem); line-height: 1.5; letter-spacing: .04em; text-shadow: 0 1px 18px rgba(56, 55, 54, .25); }
+body .mp-plede { margin: 20px 0 0; max-width: 560px; color: rgba(255, 255, 255, .92); font-weight: 500; line-height: 1.8; }
+.mp-col { max-width: 760px; }
+.mp-col > p { margin-top: 24px; }
+.mp-col .mp-more { margin-top: 28px; }
+.mp-fees { margin-top: 36px; border-bottom: 1px solid var(--mp-line); }
+.mp-fee { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.6fr) auto; gap: 8px 24px; align-items: baseline; padding: 20px 0; border-top: 1px solid var(--mp-line); }
+.mp-fee p { margin: 0; }
+body .mp-fee__name { font-family: var(--wp--preset--font-family--display); font-weight: 500; font-size: 1.125rem; }
+body .mp-fee__note { color: var(--mp-muted); font-size: .9375rem; }
+body .mp-fee__price { font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; text-align: right; }
+@media (max-width: 781px) { .mp-fee { grid-template-columns: 1fr auto; } .mp-fee__note { grid-column: 1 / 3; grid-row: 2; } .mp-phead__in { padding: 120px 24px 56px; } }
+.mp-panel__photos--one { width: auto; margin-left: clamp(24px, 6vw, 96px); }
+.mp-bio { padding: 28px 0; border-top: 1px solid var(--mp-line); }
+.mp-bio:last-child { border-bottom: 1px solid var(--mp-line); }
+.mp-bio p { margin: 8px 0 0; }
+body .mp-pname { font-family: var(--wp--preset--font-family--display); font-weight: 500; font-size: 1.25rem; margin: 0; }
+body .mp-prole { color: var(--mp-accent); font-size: .875rem; font-weight: 600; letter-spacing: .06em; }
+.mp-people__grid > .mp-people__photo { margin: 0; }
+.mp-people__photo img { max-height: 640px; }
+.mp-phead .wp-block-cover__background { background: linear-gradient(180deg, rgba(56, 55, 54, .34) 0%, rgba(56, 55, 54, .56) 50%, rgba(56, 55, 54, .74) 100%); }
+/* core's .has-background-dim-0 sets opacity 0 and would hide the gradient overlays */
+.wp-block-cover.mp-stage > .wp-block-cover__background.has-background-dim, .wp-block-cover.mp-phead > .wp-block-cover__background.has-background-dim { opacity: 1; background-color: transparent; }

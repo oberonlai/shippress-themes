@@ -9,8 +9,8 @@
  */
 $img = get_theme_file_uri( 'assets/images/p09-shopfront.webp' );
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url( $img ); ?>","dimRatio":40,"customOverlayColor":"#383736","minHeight":680,"minHeightUnit":"px","isDark":true,"align":"full","className":"mp-visit sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-cover alignfull mp-visit sp-parallax" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim" style="background-color:#383736"></span><img class="wp-block-cover__image-background" alt="Pharmacy shopfront on a high street in early morning, with a bench and bicycle." src="<?php echo esc_url( $img ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"mp-visit__col sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( $img ); ?>","dimRatio":50,"customOverlayColor":"#383736","minHeight":680,"minHeightUnit":"px","isDark":true,"align":"full","className":"mp-visit sp-parallax","layout":{"type":"default"}} -->
+<div class="wp-block-cover alignfull mp-visit sp-parallax" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim" style="background-color:#383736"></span><img class="wp-block-cover__image-background" alt="Pharmacy shopfront on a high street in early morning, with a bench and bicycle." src="<?php echo esc_url( $img ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"mp-visit__col sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-visit__col sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"mp-kicker"} -->
 <p class="mp-kicker">Visit</p>
 <!-- /wp:paragraph -->

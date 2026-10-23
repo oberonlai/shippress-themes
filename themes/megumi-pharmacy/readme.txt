@@ -18,7 +18,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
 3. Activate Megumi Pharmacy.
 
-On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page with all its text and images, three notices in a Notices category and the menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
+On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page and nine inner pages with their text and images, the Stories page, three notices in a Notices category and the menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
 
 The pharmacy, its people, address, telephone number and prices are fictional.
 
