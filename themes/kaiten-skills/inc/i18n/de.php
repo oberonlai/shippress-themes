@@ -371,4 +371,11 @@ return array(
 	'kfd3def54' => 'Teamlizenzen werden nicht mit einem öffentlichen Preis aufgeführt. Es gibt keine sechste Gebühr neben €129, €139, €149, €119, €169 und €329.',
 	'kfe9cf2a5' => 'Welches Zertifikat erhalte ich?',
 	'search_results' => 'Suchergebnisse für: %s',
+	'k6dae6ee9' => 'Online-Berufsfähigkeiten · seit 2017',
+	'ka85eba4c' => 'Warenkorb',
+	'k71e2707a' => 'Preise & Zertifikate',
+	'k1fcc2d1f' => 'Kurze Videokurse zu Schreiben, Präsentieren und Tabellen, seit 2017 aus einem Studio in Utrecht.',
+	'k2f1a3e62' => 'Lernen',
+	'k18f7f6e4' => 'Kanaalstraat 21<br>3531 Utrecht, Niederlande<br>Support Mo–Fr 09:00–18:00 CET<br>',
+	'k62f0e865' => '© 2017–2026 Kaiten Skills. Eine fiktive Schule: Kurse, Lehrende, Preise und Adresse sind Beispielinhalte. Ein Abschlusszertifikat ist keine anerkannte Qualifikation.',
 );

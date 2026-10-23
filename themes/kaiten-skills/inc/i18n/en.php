@@ -371,4 +371,11 @@ return array(
 	'kfd3def54' => 'Team licences are not listed with a public price. There is no sixth fee beside €129, €139, €149, €119, €169 and €329.',
 	'kfe9cf2a5' => 'What kind of certificate will I receive?',
 	'search_results' => 'Search results for: %s',
+	'k6dae6ee9' => 'Online career skills · since 2017',
+	'ka85eba4c' => 'Cart',
+	'k71e2707a' => 'Pricing & certificates',
+	'k1fcc2d1f' => 'Short video courses in writing, presenting and spreadsheets, taught from a studio in Utrecht since 2017.',
+	'k2f1a3e62' => 'Learn',
+	'k18f7f6e4' => 'Kanaalstraat 21<br>3531 Utrecht, Netherlands<br>Support Mon–Fri 09:00–18:00 CET<br>',
+	'k62f0e865' => '© 2017–2026 Kaiten Skills. A fictional school: the courses, tutors, prices and address are sample content. A certificate of completion is not an accredited qualification.',
 );

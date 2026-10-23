@@ -371,4 +371,11 @@ return array(
 	'kfd3def54' => 'Les licences d\'équipe n\'ont pas de prix public. Il n\'y a pas de septième tarif à côté de 129 €, 139 €, 149 €, 119 €, 169 € et 329 €.',
 	'kfe9cf2a5' => 'Quel type de certificat vais-je recevoir ?',
 	'search_results' => 'Résultats de recherche pour : %s',
+	'k6dae6ee9' => 'Compétences pro en ligne · depuis 2017',
+	'ka85eba4c' => 'Panier',
+	'k71e2707a' => 'Tarifs et certificats',
+	'k1fcc2d1f' => 'Des cours vidéo courts d’écriture, de présentation et de tableur, réalisés depuis 2017 dans un studio d’Utrecht.',
+	'k2f1a3e62' => 'Apprendre',
+	'k18f7f6e4' => 'Kanaalstraat 21<br>3531 Utrecht, Pays-Bas<br>Assistance lun.–ven. 09:00–18:00 CET<br>',
+	'k62f0e865' => '© 2017–2026 Kaiten Skills. École fictive : les cours, intervenants, prix et l’adresse sont des exemples. Un certificat de réussite n’est pas une qualification reconnue.',
 );
