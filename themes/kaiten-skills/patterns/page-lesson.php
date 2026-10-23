@@ -31,7 +31,7 @@
 <p class="ks-label">Clear Business Writing</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:details {"className":"ks-ll__d","open":true} -->
+<!-- wp:details {"className":"ks-ll__d","showContent":true} -->
 <details class="wp-block-details ks-ll__d" open><summary>Lesson list · 24 lessons</summary><!-- wp:html -->
 <ol class="ks-ll__list"><li class="is-current"><span class="ks-ll__n">1</span><span class="ks-ll__t">Welcome: who reads your writing</span><span class="ks-ll__d">Free · 09:40</span></li><li><span class="ks-ll__n">2</span><span class="ks-ll__t">One message, one point</span><span class="ks-ll__d">11:15</span></li><li><span class="ks-ll__n">3</span><span class="ks-ll__t">Subject lines that get opened</span><span class="ks-ll__d">08:50</span></li><li><span class="ks-ll__n">4</span><span class="ks-ll__t">Cutting a paragraph in half</span><span class="ks-ll__d">12:30</span></li><li><span class="ks-ll__n">5</span><span class="ks-ll__t">The tone of a short reply</span><span class="ks-ll__d">10:05</span></li><li><span class="ks-ll__n">6</span><span class="ks-ll__t">Practice: rewrite a real email</span><span class="ks-ll__d">13:20</span></li></ol>
 <!-- /wp:html --></details>
