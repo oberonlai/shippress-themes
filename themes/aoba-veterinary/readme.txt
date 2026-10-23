@@ -48,6 +48,18 @@ Copyright 2010-2020 Adobe (http://www.adobe.com/), with Reserved Font Name Sourc
 License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-SourceSans3.txt, https://openfontlicense.org).
 Latin variable WOFF2 from https://github.com/google/fonts/tree/main/ofl/sourcesans3.
 
+Noto Serif TC
+Files: assets/fonts/noto-serif-tc-zh-tw-400.woff2
+Copyright 2012 Google Inc. All Rights Reserved.
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSerifTC.txt, https://openfontlicense.org).
+CJK subset WOFF2 from https://github.com/google/fonts/tree/main/ofl/notoseriftc.
+
+Noto Serif JP
+Files: assets/fonts/noto-serif-jp-400-ja.woff2
+Copyright 2012 Google Inc. All Rights Reserved.
+License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSerifJP.txt, https://openfontlicense.org).
+CJK subset WOFF2 from https://github.com/google/fonts/tree/main/ofl/notoserifjp.
+
 = Scripts =
 
 assets/sp-scroll.js and assets/sp-scroll.css: scroll effects written for ShipPress themes, GPL-2.0-or-later. No third-party code.
