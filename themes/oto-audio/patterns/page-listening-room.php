@@ -116,7 +116,7 @@
 <!-- wp:group {"className":"oa-trio sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-trio sp-stagger"><!-- wp:group {"className":"oa-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"oa-card__media"} -->
-<figure class="wp-block-image size-full oa-card__media"><a href="/product/oto-p7-planar/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/pp7.webp' ) ); ?>" alt="<?php echo esc_attr( oto_audio_t( 'af03323cf' ) ); ?>"/></a><figcaption class="wp-element-caption"><?php echo wp_kses_post( oto_audio_t( 'k2e4d3810' ) ); ?></figcaption></figure>
+<figure class="wp-block-image size-full oa-card__media"><a href="<?php echo esc_url( oto_audio_product_url( 'oto-p7-planar' ) ); ?>"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/pp7.webp' ) ); ?>" alt="<?php echo esc_attr( oto_audio_t( 'af03323cf' ) ); ?>"/></a><figcaption class="wp-element-caption"><?php echo wp_kses_post( oto_audio_t( 'k2e4d3810' ) ); ?></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"oa-card__br"} -->
@@ -133,14 +133,14 @@
 
 <!-- wp:buttons {"className":"oa-pills","layout":{"type":"flex"}} -->
 <div class="wp-block-buttons oa-pills"><!-- wp:button {"className":"is-style-outline oa-pill oa-pill--card"} -->
-<div class="wp-block-button is-style-outline oa-pill oa-pill--card"><a class="wp-block-button__link wp-element-button" href="/product/oto-p7-planar/"><?php echo wp_kses_post( oto_audio_t( 'k3d613718' ) ); ?></a></div>
+<div class="wp-block-button is-style-outline oa-pill oa-pill--card"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( oto_audio_product_url( 'oto-p7-planar' ) ); ?>"><?php echo wp_kses_post( oto_audio_t( 'k3d613718' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"oa-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"oa-card__media"} -->
-<figure class="wp-block-image size-full oa-card__media"><a href="/product/oto-s5-bookshelf-speakers/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/ps5.webp' ) ); ?>" alt="<?php echo esc_attr( oto_audio_t( 'aea9877c8' ) ); ?>"/></a><figcaption class="wp-element-caption"><?php echo wp_kses_post( oto_audio_t( 'kc99cf978' ) ); ?></figcaption></figure>
+<figure class="wp-block-image size-full oa-card__media"><a href="<?php echo esc_url( oto_audio_product_url( 'oto-s5-bookshelf-speakers' ) ); ?>"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/ps5.webp' ) ); ?>" alt="<?php echo esc_attr( oto_audio_t( 'aea9877c8' ) ); ?>"/></a><figcaption class="wp-element-caption"><?php echo wp_kses_post( oto_audio_t( 'kc99cf978' ) ); ?></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"oa-card__br"} -->
@@ -157,14 +157,14 @@
 
 <!-- wp:buttons {"className":"oa-pills","layout":{"type":"flex"}} -->
 <div class="wp-block-buttons oa-pills"><!-- wp:button {"className":"is-style-outline oa-pill oa-pill--card"} -->
-<div class="wp-block-button is-style-outline oa-pill oa-pill--card"><a class="wp-block-button__link wp-element-button" href="/product/oto-s5-bookshelf-speakers/"><?php echo wp_kses_post( oto_audio_t( 'k3d613718' ) ); ?></a></div>
+<div class="wp-block-button is-style-outline oa-pill oa-pill--card"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( oto_audio_product_url( 'oto-s5-bookshelf-speakers' ) ); ?>"><?php echo wp_kses_post( oto_audio_t( 'k3d613718' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"oa-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group oa-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"oa-card__media"} -->
-<figure class="wp-block-image size-full oa-card__media"><a href="/product/oto-d2-usb-dac/"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/pd2.webp' ) ); ?>" alt="<?php echo esc_attr( oto_audio_t( 'a64151c3d' ) ); ?>"/></a><figcaption class="wp-element-caption"><?php echo wp_kses_post( oto_audio_t( 'k3e2e0f26' ) ); ?></figcaption></figure>
+<figure class="wp-block-image size-full oa-card__media"><a href="<?php echo esc_url( oto_audio_product_url( 'oto-d2-usb-dac' ) ); ?>"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/pd2.webp' ) ); ?>" alt="<?php echo esc_attr( oto_audio_t( 'a64151c3d' ) ); ?>"/></a><figcaption class="wp-element-caption"><?php echo wp_kses_post( oto_audio_t( 'k3e2e0f26' ) ); ?></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"oa-card__br"} -->
@@ -181,7 +181,7 @@
 
 <!-- wp:buttons {"className":"oa-pills","layout":{"type":"flex"}} -->
 <div class="wp-block-buttons oa-pills"><!-- wp:button {"className":"is-style-outline oa-pill oa-pill--card"} -->
-<div class="wp-block-button is-style-outline oa-pill oa-pill--card"><a class="wp-block-button__link wp-element-button" href="/product/oto-d2-usb-dac/"><?php echo wp_kses_post( oto_audio_t( 'k3d613718' ) ); ?></a></div>
+<div class="wp-block-button is-style-outline oa-pill oa-pill--card"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( oto_audio_product_url( 'oto-d2-usb-dac' ) ); ?>"><?php echo wp_kses_post( oto_audio_t( 'k3d613718' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

@@ -136,3 +136,19 @@ function oto_audio_shipping_rates( $rates ) {
 	return $rates;
 }
 add_filter( 'woocommerce_package_rates', 'oto_audio_shipping_rates', 100 );
+
+/**
+ * Product link that still resolves without WooCommerce: the product page when it exists, otherwise the shop page.
+ *
+ * @param string $slug Product slug.
+ * @return string
+ */
+function oto_audio_product_url( $slug ) {
+	if ( post_type_exists( 'product' ) ) {
+		$product = get_page_by_path( $slug, OBJECT, 'product' );
+		if ( $product ) {
+			return get_permalink( $product );
+		}
+	}
+	return home_url( '/shop/' );
+}
