@@ -12,7 +12,15 @@ Main `#183863` ≈3% · Secondary `#aebed7` <1% · Ground `#f5f5f5/#f8f8f8/#fff`
 Row hex `#5F726E` (青鈍) = our single muted accent on small areas (replaces navy role); ground off-white.
 ## Scroll
 Feature cards fadeIn 1s ease, trigger at 75% viewport, no displacement (jQuery scroll listener + animate.css); hero bxSlider; sticky nav at >110px. → sp-reveal base, sp-stagger; parallax added per rule 2026-10-22 (R1 has none).
-## Our mapping (to fill in stage 2)
+## Our mapping (成品對應; binding detail in design-spec.md)
 | Ref feature | Ours (成品對應) |
 |---|---|
-| | |
+| Hero: full-bleed 1440×550 photo + 462×170 framed translucent statement box lower-right (2px navy) | T1: home hero 1440×560 P01, 470px box 2px #5F726E, rgba(255,255,255,.62), +6px white outline; same box on every inner-page photo head (360px) and home story band; mobile box in flow under photo |
+| Feature cards 336×352 with 260×200 85% white inset panel, 01–03 numerals, over blurred photo band | T2: home block 3 (Symptoms/Method/Recovery, P09/P10/P11 on blurred P03); Services, Cat care, Surgery & dental, First visit, Team |
+| Slanted hairline nav separators, 76+41px header, sticky white bar | T3 nav sitewide (1px #bdbdbd, 26px, 20°), CSS sticky header |
+| Outlined 280×56 buttons with long arrow sticking out right | All secondary links sitewide; booking button = only filled variant |
+| Solid navy timetable block 480×148 with white dots | #5F726E block: home visit, Access, Book, First visit, footer |
+| Section label serif ls .3em + 100×2 rule | All home/inner section labels, 100×2 #5F726E rule |
+| Greeting + cut-out director portrait | Home block 8: framed 4:5 photo P07 (no cut-out) + #C5D0CC 84px name badge |
+| Colour navy #183863 ≈3%, grounds #f5f5f5/#f8f8f8/#fff, text #333, yellow/coral badges | #5F726E ≈3% (row hex), same grounds and text, #C5D0CC secondary, yellow/coral dropped |
+| animate.css fadeIn 1s ease on cards; no parallax | sp-stagger + sp-reveal (1s ease) on T2 cards; sp-reveal--up on story/greeting; sp-parallax hero 8% (5% mobile) + story band 10% (6%) + inner heads 6% |
