@@ -63,3 +63,5 @@ Mixed-type headline over two photographs; letters list; prologue with a sea-pine
 
 ## Inner pages (stage two)
 About the firm, People, Approach, Services, Fees, Stories, Introductory meeting, Letters (index, archive, single), Contact, Disclosures; each opens with the mixed-type headline over a 2:1 photograph and closes with the meeting panel.
+
+Signature on inner pages: the mixed-type headline overlapping a 2:1 photograph opens every page except Disclosures; ruled dark-band rows with the sticky chapter card carry People, Approach, Services and the Introductory meeting stages; the framed portrait with vertical word and sea-pine block carries About (founder), Fees, Stories (four frames, mirrored), Contact and the single letter. Approach has a parallax strip; every page except Disclosures ends with the meeting panel on a parallax photograph. The fee list spans the full width at 782px and above with the price never clipped; tables stack on phones.

@@ -25,3 +25,7 @@ A WordPress block theme for a fee-only wealth-management firm in Seattle (founde
 - Grain-clipped "MONEY." (SVG noise), serif words scaled 1.06em on phones, family name no longer hides the rule.
 - Prologue spacing and column widths tightened; mobile meeting photo crops to the two armchairs; one quiet one-to-one photograph replaces the open-office portrait (P05).
 - Main menu links go to real inner pages (approach, people, services, fees, stories, letters, contact, introductory meeting). Inner pages and the four other languages follow.
+
+## Inner pages (stage 2)
+
+About the firm, People, Approach, Services, Fees, Stories, Introductory meeting, Contact, Disclosures, Letters (index, archive, single article). Mixed-type headline, dark-band rows and framed portrait continue on them; the importer is idempotent (re-run does not duplicate pages or posts).
