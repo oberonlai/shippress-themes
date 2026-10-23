@@ -25,7 +25,7 @@ The school, its tutors, courses, address and prices are fictional.
 == Copyright ==
 
 Kaiten Skills is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Crimson Pro and Inter (OFL-1.1), Latin subsets, WOFF2, see assets/fonts/. Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later; no third-party library).
+Fonts: Crimson Pro and Inter (OFL-1.1), Latin subsets, WOFF2, plus Noto Serif JP and Noto Serif TC (OFL-1.1) subsets for the Japanese and Traditional Chinese demo content, see assets/fonts/. Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later; no third-party library).
 
 = Images =
 
@@ -41,6 +41,9 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p10-desk.webp (home interlude: empty morning desk by a window)
 - assets/images/p11-priya.webp, p12-marco.webp, p13-hanna.webp (home stories)
 - assets/images/p14-tutors.webp (home tutors: two tutors recording a lesson)
+- assets/images/p09-dusk.webp, assets/images/p15-studio.webp, assets/images/p16-support.webp (inner pages)
+- assets/images/p12-marco.webp, assets/images/p13-hanna.webp (home stories, listed in full)
+- assets/images/demo/p13-hanna.jpg (journal note image used by the demo import)
 
 == Changelog ==
 = 1.0.0 =

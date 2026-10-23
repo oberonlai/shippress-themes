@@ -7,7 +7,7 @@ Source gallery: https://www.s5-style.com/ (category: education). Neither site wa
 (daiichisemi.net, gallery 12132, closed the connection from this host; not used.)
 Screenshots: brand/ref/yk-first.png, ec-first.png (ec first paint is a dark loader/quote screen), scroll-yk-{1,2,3}-{before,after}.png, scroll-ec-{1,2,3}-{before,after}.png.
 Tokens: reference-tokens.md. Signature candidates, colours, scroll table: cc-runs/th-kaiten-skills/stage-a.md.
-## Mapping table (成品對應; classes per design-spec.md, "Done" ticked in stage 2)
+## Mapping table (finished-theme mapping; classes per design-spec.md, "Done" ticked in stage 2)
 | Reference move | Ours (class / file) | Done |
 |---|---|---|
 | Hero photo in hand-cut rounded frame with logo blob biting the corner (yanokuchi) | T1: `.ks-cut` SVG-mask frame (inset 36, top 92, r36) around P01 + `.ks-blob` #8A4B3A 394x103 in header part; pattern `front-hero`; inner pages: Courses, Single course, Lesson player, How it works, Tutors, Stories, Contact heads | |

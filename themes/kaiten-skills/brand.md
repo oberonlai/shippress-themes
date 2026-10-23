@@ -13,6 +13,9 @@ Finishing a course brings a certificate of completion. It is a record that the l
 - **Audience:** working adults who want one practical skill (a clear email, a readable report, a talk, a spreadsheet) taught in short lessons they can fit around a job.
 - **Tone:** Speak in plain sentences, as a small Utrecht studio talking to a working adult, and name the course, the price and the rule rather than a mood. Leave out press mentions, salary figures and any number that is not already fixed for the school.
 
+## A day at the school
+- A typical learner's day: lesson 1 at the kitchen table after work, notes beside the laptop, an assignment sent before the weekend. In the studio, the daily routine is recording in the morning and answering learners in the afternoon.
+
 ## Fixed numbers (identical on every page and in every language)
 - Lessons are **8–14 minutes**. **Lesson 1 of every course is free** to watch. Access lasts **24 months** from purchase.
 - Refund within **14 days** if fewer than **3 lessons** were watched. Assignment feedback within **5 working days**.

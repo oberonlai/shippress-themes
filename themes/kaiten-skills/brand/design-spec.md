@@ -19,7 +19,7 @@ Fixed brand facts (every page, all five languages): Kaiten Skills, founded **201
 - Must not be diluted: the frame must be inset (stone ground visible on both sides and above), the edge must visibly wobble (not a plain rounded rectangle), radius ≥ 32 px, the blob must be accent-coloured and overlap the photo corner. Not a full-bleed rectangle, not a centred heading.
 - Mobile 390: inset 12 px, top 76 px, radius 22 px, height 62svh; blob 220×64; h1 inside frame bottom-left 20 px, 2.4rem (flow content of the Cover, not absolutely positioned labels); subtitle moves below the frame on stone.
 
-### T2. Leaf-shaped CTA pinned to the photo's bottom-right corner (Yanokuchi "入園案内")
+### T2. Leaf-shaped CTA pinned to the photo's bottom-right corner (Yanokuchi entrance-guide button)
 - Reference: a lime leaf ~130×118 with one sharp corner, sitting inside the photo's bottom-right corner, overhanging toward the edge; small book icon, label with a dotted underline, small arrow below; soft offset shadow; it stays visible as a fixed element while scrolling (scroll-yk-2/3).
 - Ours `.ks-leaf`: **132×120 px**, fill **#E3C6B6** (light clay, the accent's tint; mirrors the ref's light-on-photo lime, S 0.20 so not counted as saturated), text/icon **#372828**. Shape `border-radius: 60px 6px 60px 24px` (top-right sharp). Shadow `4px 5px 0 rgba(55,40,40,.16)`. Content centred, stacked: 20 px line icon (open book, stroke 1.6) → label "Browse courses" Inter 600 0.875rem with `border-bottom: 2px dotted #372828` (padding-bottom 2 px) → 14 px arrow →. Hover: fill `#D9B6A3`, transform translateY(-2px) 0.2s ease (`tok(g)` header 0.2s).
 - Home position: `position: fixed; right: 68px; bottom: 68px` on desktop (≈ ref 1242–1372 × 715–832 at 1440×900) so on first paint it sits inside the hero frame's bottom-right corner and then follows the page (ref behaviour). z-index above content, below the header menu. Link → Courses page.
@@ -57,7 +57,7 @@ The blob plate (T1) is in the header on every page (header template part).
 | Text ink | `#372828` Yanokuchi `tok(a)` | **#372828** (same) | body text | exact |
 | Ground | cream `#F8F6EC` `tok(a)` | **#F6F5F0** stone off-white | ~55% | −1% lightness, chroma lowered: common rules forbid defaulting to cream; row note asks off-white/stone |
 | Panel | `#F5F5DB` `tok(a)` | **#EFEDE6** stone panel | ~8% | same lightness, de-yellowed for the same reason |
-| Main / title colour | green `#228C5B` (h2, bands) | **#8A4B3A** 弁柄 for h2 text, labels, blob, links only | ≤5% | row note: #8A4B3A is the one muted accent; green does not fit and would be a second accent |
+| Main / title colour | green `#228C5B` (h2, bands) | **#8A4B3A** for h2 text, labels, blob, links only | ≤5% | row note: #8A4B3A is the one muted accent; green does not fit and would be a second accent |
 | Band | green full-width band | **#2A2525** ECC ink `tok(a)` | ~15% | accent may not be a full-bleed field; ECC ink keeps the strong band contrast |
 | Light pop (CTA) | lime `#DDEB5A` | **#E3C6B6** clay tint | <1% | light-on-photo role kept, hue moved to the accent family |
 | Highlight numeral | — | **#C99A86** | <0.5% | one numeral, step 05 |
