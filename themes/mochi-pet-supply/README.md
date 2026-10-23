@@ -25,6 +25,7 @@ License: GPL-2.0-or-later.
 </table>
 
 - Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
 - Food finder: [desktop](screenshots/food-finder-desktop.webp) · [mobile](screenshots/food-finder-mobile.webp)
 - Subscribe and save: [desktop](screenshots/subscribe-and-save-desktop.webp) · [mobile](screenshots/subscribe-and-save-mobile.webp)
 - About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
