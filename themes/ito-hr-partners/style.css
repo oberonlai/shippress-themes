@@ -337,3 +337,21 @@ li { position: relative; }
 .ih-pagehead { max-width: 1360px; margin: 0 auto; padding: 56px 40px 0; box-sizing: border-box; }
 .ih-pagehead .ih-page__title { margin: 0; }
 .ih-main > .wp-block-post-content > .ih-svc:first-child { padding-top: 56px; }
+
+/* fixes: flow-layout margins inside grid/flex parents, header spacing, tag grid */
+.ih-svc__cards > *, .ih-scard > *, .ih-people__cards > *, .ih-approach__cards > *, .ih-svc__grid > *, .ih-acard > *, .ih-acard__text > * { margin-block: 0; }
+.ih-acard__k { margin-bottom: .6rem; } .ih-acard__h { margin-bottom: 1rem; }
+.ih-bar > .ih-nav { margin-left: auto; }
+.ih-bar .ih-contact { margin-left: 0; }
+.ih-tags { display: grid; grid-template-columns: auto auto; justify-content: start; column-gap: 56px; row-gap: 12px; }
+.ih-tag + .ih-tag { margin-left: 0; }
+.ih-tag + .ih-tag::after { display: none; }
+.ih-tag:nth-child(even)::after { display: block; content: ""; position: absolute; left: -29px; top: 50%; height: 26px; margin-top: -13px; border-left: 1px dotted rgba(0, 0, 0, .25); }
+@media (max-width: 781px) { .ih-tags { grid-template-columns: 1fr 1fr; column-gap: 14px; } .ih-tag:nth-child(even)::after { display: none; } }
+.ih-counts > *, .ih-tags > *, .ih-faq > *, .ih-fees > *, .ih-intro__row > *, .ih-close__row > *, .ih-people__in > *, .ih-fees__head > * { margin-block: 0; }
+.ih-intro { padding-bottom: var(--ih-sec); }
+.ih-feesec { padding-bottom: var(--ih-sec); }
+.ih-person__img { border-radius: 50%; overflow: clip; aspect-ratio: 1; }
+.ih-person__img img { scale: 1.9; transform-origin: 42% 24%; }
+.ih-person:nth-child(2) .ih-person__img img { transform-origin: 34% 26%; }
+.ih-person:nth-child(3) .ih-person__img img { transform-origin: 48% 30%; }
