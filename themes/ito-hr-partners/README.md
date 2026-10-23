@@ -13,3 +13,8 @@ Ito HR Partners is a business theme for a Dublin consultancy in HR and employmen
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+## Notes (stage 2 fix)
+- Menu: Services, Fees, Team, About, Stories, Contact, plus four service pages (payroll compliance, policies & handbooks, workplace investigations, retainer support), all created by the demo import.
+- Story cards show topic categories (Handbooks, Payroll, Investigations).
+- Portraits (p01, p12–p14) are studio shots against a plain wall, not crops of scene photos.

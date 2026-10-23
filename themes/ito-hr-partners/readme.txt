@@ -31,7 +31,7 @@ Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as photorealistic high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the practice is fictional). No transparent cut-outs are used.
-- assets/images/p01.webp (home hero circle card: a consultant speaking at a meeting table)
+- assets/images/p01.webp (home hero circle card: studio portrait of a fictional consultant against a plain wall)
 - assets/images/p02.webp (home hero: a consultant and three staff meeting around a table)
 - assets/images/p03.webp (home hero: a meeting room seen through a glass wall and oak door)
 - assets/images/p04.webp (home hero and client note: hands annotating a printed page beside binders)
@@ -42,9 +42,9 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p09.webp (home approach 01: hands on a laptop beside a calculator)
 - assets/images/p10.webp (home approach 03: a quiet interview room)
 - assets/images/p11.webp (home approach 02: an adviser on a video call)
-- assets/images/p12.webp (portrait of a fictional adviser)
-- assets/images/p13.webp (portrait of a fictional adviser)
-- assets/images/p14.webp (portrait of a fictional adviser)
+- assets/images/p12.webp (studio portrait of a fictional adviser against a plain wall)
+- assets/images/p13.webp (studio portrait of a fictional adviser against a plain wall)
+- assets/images/p14.webp (studio portrait of a fictional adviser against a plain wall)
 - assets/images/p15.webp (portrait of a fictional adviser, Team and About)
 - assets/images/p16.webp (client story: onboarding)
 - assets/images/p17.webp (client story: a hospitality team briefing)
