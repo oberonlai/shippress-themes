@@ -11,7 +11,7 @@ $av = get_theme_file_uri( "assets/images/" );
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"av-hero av-hero--page","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull av-hero av-hero--page"><!-- wp:cover {"url":"<?php echo esc_url( $av . 'p08-entrance.webp' ); ?>","alt":"Clinic entrance with a glass door and a potted olive tree","dimRatio":0,"focalPoint":{"x":0.5,"y":0.5},"minHeight":360,"minHeightUnit":"px","isDark":false,"align":"full","className":"av-hero__photo","layout":{"type":"default"}} -->
-<div class="wp-block-cover alignfull is-light av-hero__photo" style="min-height:360px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( aoba_veterinary_t( 'a7a8bc18f' ) ); ?>" src="<?php echo esc_url( $av . 'p08-entrance.webp' ); ?>" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><div class="wp-block-cover__inner-container"></div></div>
+<div class="wp-block-cover alignfull is-light av-hero__photo" style="min-height:360px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( aoba_veterinary_t( 'a7a8bc18f' ) ); ?>" src="<?php echo esc_url( $av . 'p08-entrance.webp' ); ?>" style="object-position:15% 25%" data-object-fit="cover" data-object-position="15% 25%"/><div class="wp-block-cover__inner-container"></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:group {"className":"av-box","layout":{"type":"default"}} -->
