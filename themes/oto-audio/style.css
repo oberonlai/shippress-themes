@@ -66,6 +66,8 @@ img { display: block; height: auto; max-width: 100%; }
 	.oa-header__brand { order: 1; }
 	.oa-header__cart a, .oa-nav .wp-block-navigation__responsive-container-open { font-size: 1.125rem; }
 	.oa-nav .wp-block-navigation__responsive-container-open { padding: 8px 0; }
+	.oa-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none; }
+	.oa-nav .wp-block-navigation__responsive-container-open { display: flex; }
 	.oa-nav .wp-block-navigation__responsive-container-open svg { display: none; }
 	.oa-nav .wp-block-navigation__responsive-container-open::after { content: "Menu"; font-weight: 300; letter-spacing: 0.03em; }
 }
@@ -108,7 +110,7 @@ img { display: block; height: auto; max-width: 100%; }
 .oa-split__h { position: absolute; left: calc(var(--oa-photo) * 100% - 88px); bottom: max(calc(var(--oa-ph) * .2), 150px); line-height: 1.1; letter-spacing: 0.01em; font-weight: 300; margin: 0; z-index: 2; white-space: nowrap; color: var(--oa-ink); }
 .oa-split__mark { position: absolute; left: calc(var(--oa-photo) * 100% + 32px); top: calc(30px + var(--oa-ph) * .3); display: flex; align-items: center; gap: 10px; font-size: 0.8125rem; font-weight: 300; letter-spacing: 0.05em; z-index: 2; }
 .oa-split__mark::before { content: ""; width: 10px; height: 10px; box-sizing: border-box; border: 1px solid var(--oa-accent); border-radius: 50%; }
-.oa-split__side { position: absolute; left: calc(var(--oa-photo) * 100% + 32px); bottom: 14px; width: 292px; z-index: 2; }
+.oa-split__side { position: absolute; left: calc(var(--oa-photo) * 100% + 32px); bottom: 14px; width: min(292px, calc(100% - var(--oa-photo) * 100% - 72px)); z-index: 2; }
 .oa-split__side > * { margin: 0 !important; }
 .oa-split__sentence { font-size: 0.9375rem; line-height: 1.6; }
 .oa-split__link { margin-top: 8px !important; font-size: 0.9375rem; line-height: 1.6; }
@@ -226,7 +228,7 @@ html.sp-js:not(.sp-no-motion) .oa-way.sp-reveal--wipe.sp-in > * { animation-dura
 .oa-card__media { position: relative; overflow: hidden; margin-bottom: 20px !important; }
 .oa-card__media img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 0; transition: scale .5s ease-out; }
 .oa-card__media:hover img { scale: 1.03; }
-.oa-card__media figcaption { position: absolute; left: 24px; bottom: 24px; margin: 0; padding: 0; max-width: calc(100% - 100px); font-family: var(--oa-serif); font-size: 1.5rem; font-weight: 300; letter-spacing: 0.05em; line-height: 1.4; color: var(--oa-ink); text-align: left; pointer-events: none; }
+.oa-card__media figcaption { position: absolute; left: 24px; bottom: 24px; margin: 0; max-width: calc(100% - 100px); padding: 4px 10px; background: rgba(255,255,255,0.86); font-family: var(--oa-serif); font-size: 1.5rem; font-weight: 300; letter-spacing: 0.05em; line-height: 1.4; color: var(--oa-ink); text-align: left; pointer-events: none; }
 .oa-card__media::after { content: ""; position: absolute; right: 24px; bottom: 24px; width: 40px; height: 40px; box-sizing: border-box; border: 1px solid var(--oa-ink); border-radius: 50%; background: linear-gradient(var(--oa-ink), var(--oa-ink)) center / 16px 1px no-repeat, linear-gradient(var(--oa-ink), var(--oa-ink)) center / 1px 16px no-repeat; transition: background-color .3s var(--oa-ease), background-image .3s var(--oa-ease); pointer-events: none; }
 .oa-card__media:hover::after { background-color: var(--oa-ink); background-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff); }
 .oa-card__br { text-align: center; font-size: 0.875rem; letter-spacing: 0.05em; color: var(--oa-desc); }
@@ -240,7 +242,7 @@ html.sp-js:not(.sp-no-motion) .oa-card.sp-reveal { transition-delay: var(--sp-de
 .oa-bandwrap { margin: 0 !important; padding: 0 !important; }
 .oa-band { position: relative; height: 480px; overflow: clip; background: var(--oa-ink); --sp-par: 12%; }
 .oa-band__layer { position: absolute; inset: -25% 0; width: 100%; height: 150%; margin: 0 !important; }
-.oa-band__layer img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+.oa-band__layer img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; border-radius: 0; }
 .oa-band__chip { position: absolute; left: var(--oa-gut); bottom: 32px; z-index: 2; margin: 0 !important; padding: 10px 14px; background: var(--oa-ink); color: var(--oa-on-ink); font-size: 0.8125rem; font-weight: 300; letter-spacing: 0.02em; line-height: 1.5; max-width: calc(100% - 2 * var(--oa-gut)); }
 @media (max-width: 781px) { .oa-band { height: 300px; --sp-par: 8%; } .oa-band__chip { bottom: 20px; } }
 
@@ -300,7 +302,7 @@ html.sp-js:not(.sp-no-motion) .oa-card.sp-reveal { transition-delay: var(--sp-de
 .oa-visit__grid { position: relative; display: grid; grid-template-columns: 38% 62%; align-items: start; }
 .oa-visit__grid > * { margin: 0 !important; }
 .oa-visit__text { padding: 0 40px 0 var(--oa-gut); }
-.oa-visit__text .oa-label { margin-bottom: 0; }
+.oa-visit__text .oa-label { position: absolute; right: calc(62% - 72px); top: calc(clamp(48px, 7vw, 110px) - 40px); margin: 0; z-index: 2; width: max-content; }
 .oa-visit__body { margin-top: clamp(120px, 14vw, 200px) !important; display: grid; gap: 1.1rem; max-width: 420px; }
 .oa-visit__body > * { margin: 0 !important; }
 .oa-visit__photo { grid-column: 2; grid-row: 1; }
@@ -314,7 +316,7 @@ html.sp-js:not(.sp-no-motion) .oa-card.sp-reveal { transition-delay: var(--sp-de
 	.oa-visit__photo img { aspect-ratio: 3 / 2; }
 	.oa-visit__text { display: contents; padding: 0; }
 	.oa-visit__h { position: static; text-align: left; white-space: normal; order: 1; }
-	.oa-visit__text .oa-label { order: 0; }
+	.oa-visit__text .oa-label { order: 0; position: static; width: auto; }
 	.oa-visit__body { order: 2; margin-top: 0 !important; }
 }
 
@@ -354,3 +356,7 @@ html.sp-no-motion .oa-split__photo { animation: none !important; }
 	html.sp-js:not(.sp-no-motion) .sp-reveal--wipe.sp-in > * { animation: oa-wipe 1.1s cubic-bezier(.77, 0, .175, 1) var(--sp-delay, 0s) backwards; }
 	@keyframes oa-wipe { from { clip-path: inset(0 0 100% 0); } to { clip-path: inset(0 0 0 0); } }
 }
+
+@media (max-width: 781px) { .oa-br-d { display: none; } }
+
+@media (min-width: 782px) and (max-width: 1180px) { .oa-split__mark { top: calc(30px + var(--oa-ph) * .1); } }

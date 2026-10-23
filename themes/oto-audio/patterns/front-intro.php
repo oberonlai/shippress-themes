@@ -16,7 +16,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"oa-h2 sp-reveal sp-reveal--up","fontSize":"x-large"} -->
-<h2 class="wp-block-heading oa-h2 sp-reveal sp-reveal--up has-x-large-font-size">Most of what we sell,<br>you can hear first.</h2>
+<h2 class="wp-block-heading oa-h2 sp-reveal sp-reveal--up has-x-large-font-size">Most of what we sell, <br class="oa-br-d">you can hear first.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
