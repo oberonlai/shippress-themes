@@ -1,6 +1,6 @@
 # Oto Audio: design spec (stage 1, binding for implementation)
 
-Slug `oto-audio`, online hi-fi shop for headphones, amplifiers, DACs and speakers, with a listening room. Type **store**: WooCommerce required, checkout must work; the theme must still render without WooCommerce. Row b7-13: archetype split-screen, hero photo-left-text-right, first screen top-bottom halves, page structure **comparison-table**, nav top-bar, real photography, palette 煤竹色 `#6F5A43` as the one muted accent, fonts Newsreader + Public Sans.
+Slug `oto-audio`, online hi-fi shop for headphones, amplifiers, DACs and speakers, with a listening room. Type **store**: WooCommerce required, checkout must work; the theme must still render without WooCommerce. Row b7-13: archetype split-screen, hero photo-left-text-right, first screen top-bottom halves, page structure **comparison-table**, nav top-bar, real photography, palette susutake-iro `#6F5A43` as the one muted accent, fonts Newsreader + Public Sans.
 
 References (S5-Style, never used before, see `reference.md`, numbers in `reference-tokens.md`, cited below as `tok(a)`…`tok(g)`):
 - **R1 = CAMITA by MORITA, https://camitabox.com** (main: structure, photo-left bleed, spread nav, line drawings, numeral chips).
@@ -82,7 +82,7 @@ T2 appears on Shop, Single product, Listening room, Cart (4). T3 on Single produ
 | Meta | `#8B8B87` | R2 footer meta | table labels on ink, footer meta, dates | — |
 | Desc | `#464641` | R2 desc on white | card descriptions, captions on white | — |
 | Mid line | `#5D5D58` | R2 | vertical caption, hairlines on white (also `#E2E1DC` for row rules on white, derived) | lines |
-| **Accent 煤竹色** | `#6F5A43` | row hex (R1/R2 have no accent; R1's only colour is in the photo) | hollow circles on light, link underlines, in-stock dot, sale badge text, focus ring, nav hover underline | **≤ 3%**, never a section or button ground |
+| **Accent susutake-iro** | `#6F5A43` | row hex (R1/R2 have no accent; R1's only colour is in the photo) | hollow circles on light, link underlines, in-stock dot, sale badge text, focus ring, nav hover underline | **≤ 3%**, never a section or button ground |
 | Accent on ink | `#A8917A` | accent +28% L for contrast on `#16160E` | hollow circles and link underline on ink | < 0.5% |
 
 - Contrast: ink on white 18.9:1; `#E8E8E7` on ink 15:1; `#8B8B87` on ink 5.3:1; accent `#6F5A43` on white 6.6:1 (fine for links).

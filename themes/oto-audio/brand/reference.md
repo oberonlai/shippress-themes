@@ -24,13 +24,13 @@ Chosen for Oto Audio (final, see design-spec.md section 1): T1 = R1-a + R1-b, T2
 | ground | #FFFFFF | #16160E | #FFFFFF ~50%, stone #F4F3F0 ~8%, ink #16160E bands ~30% | 55% / 35% |
 | text | #000000 | #E8E8E7 on ink, #16160E on white | #16160E / #E8E8E7 | 5% |
 | mid | none | #5D5D58 lines, #2F2F27 cards, #8B8B87 meta | same | 5% |
-| accent | none (photo colour) | none | #6F5A43 (row hex 煤竹色), small marks only | <=3% |
+| accent | none (photo colour) | none | #6F5A43 (row hex susutake-iro), small marks only | <=3% |
 First-screen saturated px: R1 4.3%, R2 0-0.5%. Ours: spec gate <=8%, target 3-6% (common cap 15%).
 
 ## Scroll effect candidates (see stage-a.md table)
 R1: line draw (IO 0.5, dur 1s x len/400, step .2s, cubic-bezier(.45,0,.55,1)); KV blur(10px)->0 crossfade 1s; Lenis smooth scroll. R2: fade-up translateY(40px) .5s cubic-bezier(.22,1,.36,1) with .1s stagger from .3s; scaleX bar 1.2s; circle clip-path 2s; band parallax margin-top -200px; KV blur(20px)->0 2s.
 
-## Our implementation (成品對應; binding mapping from design-spec.md, class names fixed, build fills file paths)
+## Our implementation (final-build mapping; binding mapping from design-spec.md, class names fixed, build fills file paths)
 | item | source | where | class / file | note |
 |---|---|---|---|---|
 | T1 photo-left split, heading straddling edge | R1-a, R1-b | home `front-hero` (S1, 75.5% x 0, H1 overlaps 88 px); small version on every inner page head (62%, overlap 72 px); mirrored on home `front-visit` (S9 bleeds right) | `.oa-split`, `.oa-split__photo`, `.oa-split--head`, `.oa-split--mirror`; patterns `front-hero.php`, `page-head.php`, `front-visit.php` | straddle + vertical caption only >= 1024 px; stacked in flow below |

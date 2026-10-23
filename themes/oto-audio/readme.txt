@@ -28,6 +28,7 @@ The shop, its products, address, telephone number and prices are fictional.
 
 Oto Audio is distributed under the terms of the GNU GPL v2 or later.
 Fonts: Newsreader (OFL-1.1), Latin variable; Public Sans (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Noto Serif TC (OFL-1.1) and Noto Serif JP (OFL-1.1), subset WOFF2 for the zh-TW and ja headings, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are ShipPress code under GPL-2.0-or-later (no third-party library).
 
 = Images =
@@ -51,6 +52,25 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/pd2.webp (home trio: Oto D2 small USB DAC in dark grey metal on a pale stone plinth)
 - assets/images/ps5.webp (home trio: Pair of Oto S5 walnut bookshelf speakers with the grey grilles off)
 - assets/images/ps8.webp (shop (stage 2): Pair of slim Oto S8 walnut floorstanding speakers on a stone plinth)
+
+- assets/images/demo/pa10.webp (Media Library copy of assets/images/pa10.webp, same license)
+- assets/images/demo/pa40.webp (Media Library copy of assets/images/pa40.webp, same license)
+- assets/images/demo/pd2.webp (Media Library copy of assets/images/pd2.webp, same license)
+- assets/images/demo/ph1.webp (Media Library copy of assets/images/ph1.webp, same license)
+- assets/images/demo/ph2.webp (Media Library copy of assets/images/ph2.webp, same license)
+- assets/images/demo/pp7.webp (Media Library copy of assets/images/pp7.webp, same license)
+- assets/images/demo/ps5.webp (Media Library copy of assets/images/ps5.webp, same license)
+- assets/images/demo/ps8.webp (Media Library copy of assets/images/ps8.webp, same license)
+- assets/images/demo/s1.webp (Media Library copy of assets/images/s1.webp, same license)
+- assets/images/demo/s10.webp (Media Library copy of assets/images/s10.webp, same license)
+- assets/images/demo/s2.webp (Media Library copy of assets/images/s2.webp, same license)
+- assets/images/demo/s3.webp (Media Library copy of assets/images/s3.webp, same license)
+- assets/images/demo/s4.webp (Media Library copy of assets/images/s4.webp, same license)
+- assets/images/demo/s5.webp (Media Library copy of assets/images/s5.webp, same license)
+- assets/images/demo/s6.webp (Media Library copy of assets/images/s6.webp, same license)
+- assets/images/demo/s7.webp (Media Library copy of assets/images/s7.webp, same license)
+- assets/images/demo/s8.webp (Media Library copy of assets/images/s8.webp, same license)
+- assets/images/demo/s9.webp (Media Library copy of assets/images/s9.webp, same license)
 
 == Changelog ==
 = 1.0.0 =

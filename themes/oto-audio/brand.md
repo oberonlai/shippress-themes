@@ -53,7 +53,7 @@ Free EU shipping over €150, otherwise €9 flat. Delivery Netherlands 1–2 wo
 Supporting: hollow-circle section labels, line-drawn category icons with ink numeral chips, a 480 px parallax band, fade-up and wipe reveals.
 
 ## Colour
-White ground, stone `#F4F3F0`, ink `#16160E` bands, text on ink `#E8E8E7`, meta `#8B8B87`, description `#464641`, hairlines `#5D5D58` / `#3E3A39`. One muted accent, 煤竹色 `#6F5A43` (`#A8917A` on ink), on small marks only: hollow circles, link underlines, focus ring.
+White ground, stone `#F4F3F0`, ink `#16160E` bands, text on ink `#E8E8E7`, meta `#8B8B87`, description `#464641`, hairlines `#5D5D58` / `#3E3A39`. One muted accent, susutake-iro `#6F5A43` (`#A8917A` on ink), on small marks only: hollow circles, link underlines, focus ring.
 
 ## Typography
 Newsreader 300 (display, no bold) over Public Sans 300/400. No uppercase. Home heading 4.75rem, section headings 2.625rem.
