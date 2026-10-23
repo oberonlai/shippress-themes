@@ -10,18 +10,18 @@
 $img = get_theme_file_uri( 'assets/images/p01-counter.webp' );
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url( $img ); ?>","dimRatio":0,"isDark":false,"align":"full","className":"mp-stage sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-cover alignfull is-light mp-stage sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Pharmacist in a stone coat speaks with a customer across a pale oak counter." src="<?php echo esc_url( $img ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"mp-stage__first","layout":{"type":"default"}} -->
+<div class="wp-block-cover alignfull is-light mp-stage sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( megumi_pharmacy_t( 'afab3389a' ) ); ?>" src="<?php echo esc_url( $img ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"mp-stage__first","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-stage__first"><!-- wp:heading {"level":1,"className":"mp-hero"} -->
-<h1 class="wp-block-heading mp-hero">Your medicines,<br>talked through,<br>by name.</h1>
+<h1 class="wp-block-heading mp-hero"><?php echo wp_kses_post( megumi_pharmacy_t( 'ke6ae62d4' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mp-sub"} -->
-<p class="mp-sub">Community pharmacy on Queen Street East since 2006.</p>
+<p class="mp-sub"><?php echo wp_kses_post( megumi_pharmacy_t( 'k30b777d1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"mp-cue","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-cue"><!-- wp:paragraph {"className":"mp-cue__word"} -->
-<p class="mp-cue__word">Scroll</p>
+<p class="mp-cue__word"><?php echo wp_kses_post( megumi_pharmacy_t( 'k105078d2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -31,43 +31,43 @@ $img = get_theme_file_uri( 'assets/images/p01-counter.webp' );
 
 <!-- wp:group {"className":"mp-info","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-info"><!-- wp:paragraph -->
-<p>Mon–Fri 8:30–19:00 · Sat 9:00–17:00 · Sun 10:00–14:00</p>
+<p><?php echo wp_kses_post( megumi_pharmacy_t( 'kc0c5c961' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>1184 Queen Street East, Toronto</p>
+<p><?php echo wp_kses_post( megumi_pharmacy_t( 'kbc5fe97a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Repeat prescriptions ready within 24 hours</p>
+<p><?php echo wp_kses_post( megumi_pharmacy_t( 'kc9c0e268' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mp-info__link"} -->
-<p class="mp-info__link"><a href="/visit/">Plan your visit →</a></p>
+<p class="mp-info__link"><a href="/visit/"><?php echo wp_kses_post( megumi_pharmacy_t( 'kf8ac853c' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"mp-stage__intro sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-stage__intro sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"mp-kicker"} -->
-<p class="mp-kicker">Our pharmacy</p>
+<p class="mp-kicker"><?php echo wp_kses_post( megumi_pharmacy_t( 'k054dc595' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mp-intro"} -->
-<p class="mp-intro">Megumi Pharmacy is the independent community pharmacy at 1184 Queen Street East, Toronto. Megumi Ward opened the counter in 2006, and the shop is still small enough that we know people by name.</p>
+<p class="mp-intro"><?php echo wp_kses_post( megumi_pharmacy_t( 'kad787107' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mp-intro"} -->
-<p class="mp-intro">Every new medicine is explained at the counter before it is bagged. We go through what it is for and how to take it, and we stop when there is a question.</p>
+<p class="mp-intro"><?php echo wp_kses_post( megumi_pharmacy_t( 'kf65f31f8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mp-intro"} -->
-<p class="mp-intro">The same six people are here every week. You should not have to retell your medicines from the beginning to someone who was not here last time.</p>
+<p class="mp-intro"><?php echo wp_kses_post( megumi_pharmacy_t( 'ke652b99e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"mp-btn mp-btn--light"} -->
-<div class="wp-block-button mp-btn mp-btn--light"><a class="wp-block-button__link wp-element-button" href="/about/">Our story →</a></div>
+<div class="wp-block-button mp-btn mp-btn--light"><a class="wp-block-button__link wp-element-button" href="/about/"><?php echo wp_kses_post( megumi_pharmacy_t( 'kb01955c2' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div></div>

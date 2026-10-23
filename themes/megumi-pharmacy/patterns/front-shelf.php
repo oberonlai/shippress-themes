@@ -19,20 +19,20 @@ $items = array(
 <div class="wp-block-group mp-wrap"><!-- wp:group {"className":"mp-head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-head sp-reveal sp-reveal--up"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"className":"mp-kicker"} -->
-<p class="mp-kicker">Counter shelf</p>
+<p class="mp-kicker"><?php echo wp_kses_post( megumi_pharmacy_t( 'k30a27fc5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"mp-h2"} -->
-<h2 class="wp-block-heading mp-h2">Small things we keep<br>by the till.</h2>
+<h2 class="wp-block-heading mp-h2"><?php echo wp_kses_post( megumi_pharmacy_t( 'k82230f7e' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"mp-lede"} -->
-<p class="mp-lede">Chosen by the pharmacists and sold without fuss. Ask us at the counter if you are not sure. No medicines are sold online. Pickup at the counter is free.</p>
+<p class="mp-lede"><?php echo wp_kses_post( megumi_pharmacy_t( 'kb5bf437f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mp-more"} -->
-<p class="mp-more"><a href="/shop/">Visit the shop</a><span class="mp-pill" aria-hidden="true"></span></p>
+<p class="mp-more"><a href="/shop/"><?php echo wp_kses_post( megumi_pharmacy_t( 'kf0929274' ) ); ?></a><span class="mp-pill" aria-hidden="true"></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -55,7 +55,7 @@ $items = array(
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mp-cap"} -->
-<p class="mp-cap">All prices in Canadian dollars.</p>
+<p class="mp-cap"><?php echo wp_kses_post( megumi_pharmacy_t( 'k7d96a366' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

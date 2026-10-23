@@ -19,21 +19,21 @@ $people = array(
 <!-- wp:group {"tagName":"section","align":"full","className":"mp-sec mp-people","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull mp-sec mp-people"><!-- wp:group {"className":"mp-wrap mp-people__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-wrap mp-people__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mp-people__photo"} -->
-<figure class="wp-block-image size-full mp-people__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-megumi.webp' ) ); ?>" alt="Pharmacist with short grey hair stands before light oak dispensary drawers, smiling."/></figure>
+<figure class="wp-block-image size-full mp-people__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-megumi.webp' ) ); ?>" alt="<?php echo esc_attr( megumi_pharmacy_t( 'a9481bd76' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"mp-people__text","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-people__text"><!-- wp:group {"className":"sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"mp-kicker"} -->
-<p class="mp-kicker">People</p>
+<p class="mp-kicker"><?php echo wp_kses_post( megumi_pharmacy_t( 'k78386ec8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"mp-h2"} -->
-<h2 class="wp-block-heading mp-h2">Six people,<br>one counter.</h2>
+<h2 class="wp-block-heading mp-h2"><?php echo wp_kses_post( megumi_pharmacy_t( 'k06db9b93' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Megumi Ward opened this pharmacy in 2006, and she still explains a new medicine herself when she is on the counter. The same faces are here each week: Daniel Osei, Leila Haddad, Ana Kovač, Samuel Brandt, and Grace Liu, with Megumi. Names matter because a medicine is easier to ask about when the person who handed it over is here the following week. Nobody is asked to buy anything extra, and nobody is promised a result.</p>
+<p><?php echo wp_kses_post( megumi_pharmacy_t( 'k0d3c22a3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -46,7 +46,7 @@ $people = array(
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mp-more"} -->
-<p class="mp-more"><a href="/people/">Meet the people</a><span class="mp-pill" aria-hidden="true"></span></p>
+<p class="mp-more"><a href="/people/"><?php echo wp_kses_post( megumi_pharmacy_t( 'k6b542441' ) ); ?></a><span class="mp-pill" aria-hidden="true"></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

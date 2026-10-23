@@ -16,16 +16,16 @@ $u = function ( $f ) {
 <div class="wp-block-group mp-wrap"><!-- wp:group {"className":"mp-head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-head sp-reveal sp-reveal--up"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"className":"mp-kicker"} -->
-<p class="mp-kicker">What we do</p>
+<p class="mp-kicker"><?php echo wp_kses_post( megumi_pharmacy_t( 'k78413552' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"mp-h2"} -->
-<h2 class="wp-block-heading mp-h2">Three things we do every day, slowly enough for questions.</h2>
+<h2 class="wp-block-heading mp-h2"><?php echo wp_kses_post( megumi_pharmacy_t( 'k44127007' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mp-more"} -->
-<p class="mp-more"><a href="/services/">Services &amp; fees</a><span class="mp-pill" aria-hidden="true"></span></p>
+<p class="mp-more"><a href="/services/"><?php echo wp_kses_post( megumi_pharmacy_t( 'k3016da79' ) ); ?></a><span class="mp-pill" aria-hidden="true"></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -33,48 +33,48 @@ $u = function ( $f ) {
 <div class="wp-block-group mp-cards sp-stagger"><!-- wp:group {"className":"mp-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-card sp-reveal sp-reveal--up"><!-- wp:group {"className":"mp-card__media","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-card__media"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo $u( 'p02-bag.webp' ); ?>" alt="Young pharmacy assistant hands a plain white paper bag to an older man."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo $u( 'p02-bag.webp' ); ?>" alt="<?php echo esc_attr( megumi_pharmacy_t( 'a6d9d1e43' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"mp-card__label"} -->
-<p class="mp-card__label"><a href="/prescriptions/">Prescriptions</a><span class="mp-pill" aria-hidden="true"></span></p>
+<p class="mp-card__label"><a href="/prescriptions/"><?php echo wp_kses_post( megumi_pharmacy_t( 'kad4290e7' ) ); ?></a><span class="mp-pill" aria-hidden="true"></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mp-card__text"} -->
-<p class="mp-card__text">Bring a paper prescription, an e-prescription, or a repeat request. We check it, then talk it through at the counter.</p>
+<p class="mp-card__text"><?php echo wp_kses_post( megumi_pharmacy_t( 'kf4811ea2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"mp-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-card sp-reveal sp-reveal--up"><!-- wp:group {"className":"mp-card__media","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-card__media"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo $u( 'p03-review.webp' ); ?>" alt="Pharmacist sits with a woman in her seventies beside a pill organiser and list."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo $u( 'p03-review.webp' ); ?>" alt="<?php echo esc_attr( megumi_pharmacy_t( 'a2ea535ee' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"mp-card__label"} -->
-<p class="mp-card__label"><a href="/medicine-reviews/">Medicine reviews</a><span class="mp-pill" aria-hidden="true"></span></p>
+<p class="mp-card__label"><a href="/medicine-reviews/"><?php echo wp_kses_post( megumi_pharmacy_t( 'ke715c784' ) ); ?></a><span class="mp-pill" aria-hidden="true"></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mp-card__text"} -->
-<p class="mp-card__text">Bring every medicine you take. In 30 minutes we make one list and talk through what, if anything, should change.</p>
+<p class="mp-card__text"><?php echo wp_kses_post( megumi_pharmacy_t( 'k8fcaeceb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"mp-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-card sp-reveal sp-reveal--up"><!-- wp:group {"className":"mp-card__media","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-card__media"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo $u( 'p04-flu.webp' ); ?>" alt="Pharmacist gives a flu shot into a young man's upper arm in a bright room."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo $u( 'p04-flu.webp' ); ?>" alt="<?php echo esc_attr( megumi_pharmacy_t( 'ae7c62a8e' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"mp-card__label"} -->
-<p class="mp-card__label"><a href="/vaccinations/">Vaccinations &amp; travel</a><span class="mp-pill" aria-hidden="true"></span></p>
+<p class="mp-card__label"><a href="/vaccinations/"><?php echo wp_kses_post( megumi_pharmacy_t( 'k874a5b94' ) ); ?></a><span class="mp-pill" aria-hidden="true"></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"mp-card__text"} -->
-<p class="mp-card__text">Flu shots are given in the consultation room. A travel consultation covers vaccines, your records, and aftercare.</p>
+<p class="mp-card__text"><?php echo wp_kses_post( megumi_pharmacy_t( 'k3f3104fb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -14,11 +14,11 @@ $tax = $cat ? ',"taxQuery":{"category":[' . $cat . ']}' : '';
 <section class="wp-block-group alignfull mp-sec mp-notices"><!-- wp:group {"className":"mp-wrap mp-notices__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-wrap mp-notices__grid"><!-- wp:group {"className":"mp-notices__label","layout":{"type":"default"}} -->
 <div class="wp-block-group mp-notices__label"><!-- wp:paragraph {"className":"mp-display"} -->
-<p class="mp-display">Pharmacy<br>notices</p>
+<p class="mp-display"><?php echo wp_kses_post( megumi_pharmacy_t( 'kd9f4b50c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"mp-cap"} -->
-<p class="mp-cap">From the counter</p>
+<p class="mp-cap"><?php echo wp_kses_post( megumi_pharmacy_t( 'k362df86c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -36,7 +36,7 @@ $tax = $cat ? ',"taxQuery":{"category":[' . $cat . ']}' : '';
 <!-- /wp:query -->
 
 <!-- wp:paragraph {"className":"mp-more mp-more--end"} -->
-<p class="mp-more mp-more--end"><a href="/stories/">All notices</a><span class="mp-pill" aria-hidden="true"></span></p>
+<p class="mp-more mp-more--end"><a href="/stories/"><?php echo wp_kses_post( megumi_pharmacy_t( 'kf7a778bf' ) ); ?></a><span class="mp-pill" aria-hidden="true"></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
