@@ -15,7 +15,7 @@ First screen saturated pixels (S>0.5, V>0.3): **8.9%** (teal floating booking ta
 
 ## (b) Type
 - Families: Japanese serif (Mincho-style, bold) for headings, nav, numerals; sans for body.
-- h-statement in hero box: serif 30px / 48px, w700, ls normal. Section label ("当院の特徴"): serif ≈28px w700, ls ≈0.3em, centred, 100px × 2px navy underline rule. Feature numeral: serif 24/36 w400. Feature title h3: sans 19/28.5 w700. Nav: serif 14/20 w700, item padding 10px 14px. Body 16/24 (JP lh 2 in prose paragraphs, centred greeting). Phone number: serif ≈36px ls ≈0.1em. Small notes 12/24.
+- h-statement in hero box: serif 30px / 48px, w700, ls normal. Section label ("the feature-section label"): serif ≈28px w700, ls ≈0.3em, centred, 100px × 2px navy underline rule. Feature numeral: serif 24/36 w400. Feature title h3: sans 19/28.5 w700. Nav: serif 14/20 w700, item padding 10px 14px. Body 16/24 (JP lh 2 in prose paragraphs, centred greeting). Phone number: serif ≈36px ls ≈0.1em. Small notes 12/24.
 ## (c) Spacing
 - Container ≈1080–1100px (content x 180→1260); wide card row 202→1265 (≈1063). Section padding: 56–76px top, 64–70px bottom; hero band 550px tall (61% of 900 viewport); header 76px + nav row 41px. Feature cards 336×352, gap 27px.
 ## (d) Radius, border, shadow
