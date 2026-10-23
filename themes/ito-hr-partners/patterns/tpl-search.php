@@ -1,0 +1,38 @@
+<?php
+/**
+ * Title: Template: search
+ * Slug: ito-hr-partners/tpl-search
+ * Categories: ito-hr-partners
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"ih-main","layout":{"type":"default"}} -->
+<main class="wp-block-group ih-main"><!-- wp:pattern {"slug":"ito-hr-partners/page-small-head"} /-->
+
+<!-- wp:group {"tagName":"section","className":"ih-bsec ih-bsec--last","layout":{"type":"default"}} -->
+<section class="wp-block-group ih-bsec ih-bsec--last"><!-- wp:group {"className":"ih-bin","layout":{"type":"default"}} -->
+<div class="wp-block-group ih-bin"><!-- wp:search {"label":"<?php echo esc_attr( ito_hr_partners_t( 'a13348442' ) ); ?>","buttonText":"<?php echo esc_attr( ito_hr_partners_t( 'a13348442' ) ); ?>","showLabel":false} /-->
+
+<!-- wp:query {"queryId":2,"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"className":"ih-archive ih-archive-in","layout":{"type":"default"}} -->
+<div class="wp-block-query ih-archive ih-archive-in"><!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"2/1","className":"ih-story__img"} /-->
+
+<!-- wp:post-terms {"term":"category","className":"ih-story__cat"} /-->
+
+<!-- wp:post-title {"level":3,"isLink":true,"className":"ih-story__title"} /-->
+
+<!-- wp:post-excerpt {"excerptLength":30,"className":"ih-story__ex"} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
