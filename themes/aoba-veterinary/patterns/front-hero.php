@@ -16,7 +16,7 @@ $av = get_theme_file_uri( "assets/images/" );
 
 <!-- wp:group {"className":"av-box","layout":{"type":"default"}} -->
 <div class="wp-block-group av-box"><!-- wp:heading {"textAlign":"center","level":1,"className":"av-box__title"} -->
-<h1 class="wp-block-heading has-text-align-center av-box__title">Calm, careful medicine<br>for the dogs and cats you love.</h1>
+<h1 class="wp-block-heading has-text-align-center av-box__title">Calm, careful medicine <br>for the dogs and cats you love.</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","className":"av-box__line"} -->

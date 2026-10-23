@@ -22,7 +22,7 @@ Design plan row: b8-1 (veterinary clinic for dogs and cats, type health). Stage 
 ## Hours
 Mon–Fri 9:00–12:30 and 15:30–19:00; Sat 9:00–12:30 and 15:30–17:00; Sun and public holidays closed. Urgent same-day slots each weekday. Out of hours: the regional emergency hospital.
 
-## Fees (USD, VAT included, written estimate before treatment)
+## Fees (USD, tax included, written estimate before treatment)
 First consultation (30 min, full examination) $65; Follow-up consultation (15 min) $45; Annual vaccination (dog DHPP or cat FVRCP), incl. check $58; Microchip and registration $49; Senior blood panel $110; Cat spay / neuter from $240; Dog spay / neuter from $380; Dental scale and polish under anaesthesia from $320.
 
 ## Visit flow

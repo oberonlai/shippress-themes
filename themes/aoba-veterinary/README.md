@@ -1,6 +1,6 @@
 # Aoba Veterinary
 
-A calm block theme (type health) for a dogs-and-cats veterinary clinic. Home page (English) in this release; inner pages and the other languages follow.
+A calm block theme (type health) for a dogs-and-cats veterinary clinic. Home page, ten inner pages and three recovery stories in English; the other four languages (zh-TW, ja, fr, de) follow.
 
 ## Signature
 - Framed translucent statement box (2 px grey-green outline) at the lower right of a full-bleed photograph.
@@ -10,7 +10,8 @@ A calm block theme (type health) for a dogs-and-cats veterinary clinic. Home pag
 
 ## Patterns
 - `front-hero`, `front-intro`, `front-path`, `front-signs`, `front-method`, `front-story`, `front-fees`, `front-director`, `front-visit`
-- `timetable`, `footer-main`, `tpl-index`, `tpl-search`, `tpl-single`, `tpl-404`
+- `page-about`, `page-services`, `page-cat-care`, `page-surgery-dental`, `page-fees`, `page-first-visit`, `page-team`, `page-access`, `page-book` (each opens on a photo head with the framed box; Services, Cat care, Surgery and dental, First visit and Team add the numbered panel cards)
+- `timetable`, `footer-main`, `tpl-index`, `tpl-stories`, `tpl-search`, `tpl-single` (featured image as photo head), `tpl-404`
 
 ## Fonts
 Libre Baskerville and Source Sans 3 (SIL OFL 1.1, licences in assets/fonts).

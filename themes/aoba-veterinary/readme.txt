@@ -72,6 +72,9 @@ assets/images/p13-dental.webp: generated with Grok for this theme, GPL-2.0-or-la
 assets/images/p14-reception.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p15-cat-room.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p16-team.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/biscuit.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/juniper.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/otto.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 
 == Changelog ==
 = 1.0.0 =

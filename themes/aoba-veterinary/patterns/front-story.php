@@ -52,7 +52,7 @@ $av = get_theme_file_uri( "assets/images/" );
 
 <!-- wp:buttons {"className":"av-arrow"} -->
 <div class="wp-block-buttons av-arrow"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/stories/">Read the story</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/biscuit/">Read the story</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>

@@ -15,7 +15,7 @@ $av = get_theme_file_uri( "assets/images/" );
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","className":"av-fees__lead"} -->
-<p class="has-text-align-center av-fees__lead">Published fees, in US dollars. Prices include VAT. You always get a written estimate first.</p>
+<p class="has-text-align-center av-fees__lead">Published fees, in US dollars. Prices include tax. You always get a written estimate first.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"align":"wide","className":"av-pricelist"} -->

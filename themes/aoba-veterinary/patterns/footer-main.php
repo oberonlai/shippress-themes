@@ -26,7 +26,11 @@
 
 <!-- wp:group {"className":"av-foot__hours","layout":{"type":"default"}} -->
 <div class="wp-block-group av-foot__hours"><!-- wp:pattern {"slug":"aoba-veterinary/timetable"} /--></div>
-<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"av-foot__line"} -->
+<p class="av-foot__line">Mon–Fri 9:00–12:30 · 15:30–19:00<br>Sat 9:00–12:30 · 15:30–17:00 · Sun closed</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:navigation {"overlayMenu":"never","className":"av-menu av-menu--foot","layout":{"type":"flex","justifyContent":"center"}} -->

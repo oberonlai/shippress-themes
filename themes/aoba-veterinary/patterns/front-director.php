@@ -17,7 +17,7 @@ $av = get_theme_file_uri( "assets/images/" );
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","className":"av-greeting"} -->
-<p class="has-text-align-center av-greeting">I founded Aoba Veterinary Clinic in 2014, after twelve years in a city referral hospital.<br>We see dogs and cats only, here at 214 Alder Street in Fairhaven.<br>A first consultation is 30 minutes, so the history can be told properly.<br>I direct the clinic and practise internal medicine.<br>Surgery, feline medicine, dentistry and nursing are done by named colleagues in this building.<br>You will be shown what we find, and you will have a written estimate before treatment.<br>The people who will look after your animal are listed on the team page.</p>
+<p class="has-text-align-center av-greeting">I founded Aoba Veterinary Clinic in 2014, <br>after twelve years in a city referral hospital. <br>We see dogs and cats only, at 214 Alder Street in Fairhaven. <br>A first consultation is 30 minutes, so the history is heard in full. <br>I direct the clinic and practise internal medicine. <br>Surgery, feline medicine, dentistry and nursing are done <br>by named colleagues in this building. <br>You will be shown what we find, <br>and have a written estimate before treatment. <br>The people who will look after your animal are on the team page.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"av-arrow av-arrow--center"} -->
@@ -28,11 +28,7 @@ $av = get_theme_file_uri( "assets/images/" );
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"av-director__side","layout":{"type":"default"}} -->
-<div class="wp-block-group av-director__side"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"av-framed"} -->
-<figure class="wp-block-image size-large av-framed"><img src="<?php echo esc_url( $av . 'p07-director.webp' ); ?>" alt="Dr. Elena Varga holding a grey cat and facing the camera"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:group {"className":"av-tag","layout":{"type":"default"}} -->
+<div class="wp-block-group av-director__side"><!-- wp:group {"className":"av-tag","layout":{"type":"default"}} -->
 <div class="wp-block-group av-tag"><!-- wp:paragraph {"className":"av-tag__badge"} -->
 <p class="av-tag__badge">Director</p>
 <!-- /wp:paragraph -->
@@ -40,7 +36,11 @@ $av = get_theme_file_uri( "assets/images/" );
 <!-- wp:paragraph {"className":"av-tag__name"} -->
 <p class="av-tag__name">Dr. Elena Varga</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"av-framed"} -->
+<figure class="wp-block-image size-large av-framed"><img src="<?php echo esc_url( $av . 'p07-director.webp' ); ?>" alt="Dr. Elena Varga holding a grey cat and facing the camera"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
