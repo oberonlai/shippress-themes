@@ -26,6 +26,7 @@ The practice, its advisers, address, telephone number, fees and client stories a
 
 Ito HR Partners is distributed under the terms of the GNU GPL v2 or later.
 Fonts: PT Serif and PT Sans (OFL-1.1, Copyright (c) 2010 ParaType Ltd.), Regular and Bold, Latin subset, WOFF2, see assets/fonts/.
+Fonts: Noto Serif JP and Noto Serif TC (OFL-1.1, Copyright 2012 Google Inc.), Regular, subset to the ja and zh-TW sample text, WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later; no dependencies).
 
 = Images =
