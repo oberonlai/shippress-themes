@@ -87,7 +87,7 @@ Inner T1 heads: 2–3 lines, `clamp(2.25rem, 6vw, 5.5rem)`, same serif/sans alte
 | Dark band | `#40403D` | R1 surface-800 | Partners band + approach text area | ~25% |
 | Stone | `#B7B7B1` | R1 surface-500 | text/rules/buttons on dark | ~3% |
 | Muted text | `#5C5F66` | derived from ink | captions, meta | — |
-| Accent | `#6B6A3E` | **row hex 海松色** (replaces R1 red `#D3030F`) | dots, olive tile, chip, block, one letter, link hover | ≤ 2% (never a section ground) |
+| Accent | `#6B6A3E` | **row hex Umimatsu-iro (sea pine)** (replaces R1 red `#D3030F`) | dots, olive tile, chip, block, one letter, link hover | ≤ 2% (never a section ground) |
 | Accent tint | `#A8A672` | accent lightened for dark ground | dots on `#40403D` | < 0.5% |
 | Photos | monochrome grain | R1 `tok(e)` treatment | — | ~20% |
 
