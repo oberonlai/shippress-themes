@@ -29,3 +29,30 @@ A WordPress block theme for a fee-only wealth-management firm in Seattle (founde
 ## Inner pages (stage 2)
 
 About the firm, People, Approach, Services, Fees, Stories, Introductory meeting, Contact, Disclosures, Letters (index, archive, single article). Mixed-type headline, dark-band rows and framed portrait continue on them; the importer is idempotent (re-run does not duplicate pages or posts).
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hoshi Wealth Partners home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hoshi Wealth Partners home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
+- Approach: [desktop](screenshots/approach-desktop.webp) · [mobile](screenshots/approach-mobile.webp)
+- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
+- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
+- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
+- Introductory meeting: [desktop](screenshots/introductory-meeting-desktop.webp) · [mobile](screenshots/introductory-meeting-mobile.webp)
+- Disclosures: [desktop](screenshots/disclosures-desktop.webp) · [mobile](screenshots/disclosures-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
