@@ -10,6 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require_once get_template_directory() . '/inc/demo-import.php';
+require_once get_template_directory() . '/inc/editor-lang.php';
 require_once get_template_directory() . '/inc/shared-info.php';
 
 define( 'HOCHO_KYOSHITSU_VERSION', wp_get_theme()->get( 'Version' ) );
