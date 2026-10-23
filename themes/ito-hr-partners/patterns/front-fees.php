@@ -13,16 +13,16 @@
 <div class="wp-block-group ih-fees__in"><!-- wp:group {"className":"ih-fees__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-fees__head"><!-- wp:group {"className":"ih-sechead sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-sechead sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ih-label"} -->
-<p class="ih-label">Fees</p>
+<p class="ih-label"><?php echo wp_kses_post( ito_hr_partners_t( 'k006300ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ih-h2"} -->
-<h2 class="wp-block-heading ih-h2">Fixed fees, published.</h2>
+<h2 class="wp-block-heading ih-h2"><?php echo wp_kses_post( ito_hr_partners_t( 'k2c633aa0' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-fees__note"} -->
-<p class="ih-fees__note">All fees exclude VAT at 23%. Scope is agreed in writing before work starts. Retainers run for a minimum of three months, then monthly.</p>
+<p class="ih-fees__note"><?php echo wp_kses_post( ito_hr_partners_t( 'k7b2e126e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -34,16 +34,16 @@
 
 <!-- wp:group {"className":"ih-fee__main","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-fee__main"><!-- wp:paragraph {"className":"ih-fee__name"} -->
-<p class="ih-fee__name"><a href="/fees/#health-check">HR health check</a></p>
+<p class="ih-fee__name"><a href="/fees/#health-check"><?php echo wp_kses_post( ito_hr_partners_t( 'kfdb7655d' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-fee__scope"} -->
-<p class="ih-fee__scope">Contracts, policies and payroll set-up, with a written report in 10 working days</p>
+<p class="ih-fee__scope"><?php echo wp_kses_post( ito_hr_partners_t( 'kd00c94a4' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-fee__price"} -->
-<p class="ih-fee__price"><span class="ih-fee__q">fixed</span> <strong>€1,450</strong></p>
+<p class="ih-fee__price"><span class="ih-fee__q"><?php echo wp_kses_post( ito_hr_partners_t( 'kcec315e3' ) ); ?></span> <strong>€1,450</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -54,16 +54,16 @@
 
 <!-- wp:group {"className":"ih-fee__main","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-fee__main"><!-- wp:paragraph {"className":"ih-fee__name"} -->
-<p class="ih-fee__name"><a href="/fees/#contract-set">Contract set</a></p>
+<p class="ih-fee__name"><a href="/fees/#contract-set"><?php echo wp_kses_post( ito_hr_partners_t( 'k80ec148f' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-fee__scope"} -->
-<p class="ih-fee__scope">Templates for 3 role types</p>
+<p class="ih-fee__scope"><?php echo wp_kses_post( ito_hr_partners_t( 'k2ab8552a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-fee__price"} -->
-<p class="ih-fee__price"><span class="ih-fee__q">fixed</span> <strong>€980</strong></p>
+<p class="ih-fee__price"><span class="ih-fee__q"><?php echo wp_kses_post( ito_hr_partners_t( 'kcec315e3' ) ); ?></span> <strong>€980</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -74,16 +74,16 @@
 
 <!-- wp:group {"className":"ih-fee__main","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-fee__main"><!-- wp:paragraph {"className":"ih-fee__name"} -->
-<p class="ih-fee__name"><a href="/fees/#payroll-review">Payroll compliance review</a></p>
+<p class="ih-fee__name"><a href="/fees/#payroll-review"><?php echo wp_kses_post( ito_hr_partners_t( 'kdd8d2324' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-fee__scope"} -->
-<p class="ih-fee__scope">One payroll cycle, up to 150 staff</p>
+<p class="ih-fee__scope"><?php echo wp_kses_post( ito_hr_partners_t( 'kd95cca0c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-fee__price"} -->
-<p class="ih-fee__price"><span class="ih-fee__q">fixed</span> <strong>€1,900</strong></p>
+<p class="ih-fee__price"><span class="ih-fee__q"><?php echo wp_kses_post( ito_hr_partners_t( 'kcec315e3' ) ); ?></span> <strong>€1,900</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -94,16 +94,16 @@
 
 <!-- wp:group {"className":"ih-fee__main","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-fee__main"><!-- wp:paragraph {"className":"ih-fee__name"} -->
-<p class="ih-fee__name"><a href="/fees/#handbook">Employee handbook and policies</a></p>
+<p class="ih-fee__name"><a href="/fees/#handbook"><?php echo wp_kses_post( ito_hr_partners_t( 'kc83631bc' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-fee__scope"} -->
-<p class="ih-fee__scope">Up to 12 policies</p>
+<p class="ih-fee__scope"><?php echo wp_kses_post( ito_hr_partners_t( 'k9e216c78' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-fee__price"} -->
-<p class="ih-fee__price"><span class="ih-fee__q">fixed</span> <strong>€2,400</strong></p>
+<p class="ih-fee__price"><span class="ih-fee__q"><?php echo wp_kses_post( ito_hr_partners_t( 'kcec315e3' ) ); ?></span> <strong>€2,400</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -114,16 +114,16 @@
 
 <!-- wp:group {"className":"ih-fee__main","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-fee__main"><!-- wp:paragraph {"className":"ih-fee__name"} -->
-<p class="ih-fee__name"><a href="/fees/#investigation">Workplace investigation</a></p>
+<p class="ih-fee__name"><a href="/fees/#investigation"><?php echo wp_kses_post( ito_hr_partners_t( 'kb309c085' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-fee__scope"} -->
-<p class="ih-fee__scope">One complaint, up to 6 interviews, and a findings report</p>
+<p class="ih-fee__scope"><?php echo wp_kses_post( ito_hr_partners_t( 'k1467e4a5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-fee__price"} -->
-<p class="ih-fee__price"><span class="ih-fee__q">from</span> <strong>€3,800</strong></p>
+<p class="ih-fee__price"><span class="ih-fee__q"><?php echo wp_kses_post( ito_hr_partners_t( 'kd98a07f8' ) ); ?></span> <strong>€3,800</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -134,16 +134,16 @@
 
 <!-- wp:group {"className":"ih-fee__main","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-fee__main"><!-- wp:paragraph {"className":"ih-fee__name"} -->
-<p class="ih-fee__name"><a href="/fees/#retainer-essentials">Retainer Essentials</a></p>
+<p class="ih-fee__name"><a href="/fees/#retainer-essentials"><?php echo wp_kses_post( ito_hr_partners_t( 'k7a072848' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-fee__scope"} -->
-<p class="ih-fee__scope">Up to 6 hours a month, reply within 1 working day</p>
+<p class="ih-fee__scope"><?php echo wp_kses_post( ito_hr_partners_t( 'k553810fb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-fee__price"} -->
-<p class="ih-fee__price"><span class="ih-fee__q">per month</span> <strong>€890</strong></p>
+<p class="ih-fee__price"><span class="ih-fee__q"><?php echo wp_kses_post( ito_hr_partners_t( 'k8f2893f3' ) ); ?></span> <strong>€890</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -154,22 +154,22 @@
 
 <!-- wp:group {"className":"ih-fee__main","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-fee__main"><!-- wp:paragraph {"className":"ih-fee__name"} -->
-<p class="ih-fee__name"><a href="/fees/#retainer-growth">Retainer Growth</a></p>
+<p class="ih-fee__name"><a href="/fees/#retainer-growth"><?php echo wp_kses_post( ito_hr_partners_t( 'k3d99dd93' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-fee__scope"} -->
-<p class="ih-fee__scope">Up to 14 hours a month, plus a quarterly review</p>
+<p class="ih-fee__scope"><?php echo wp_kses_post( ito_hr_partners_t( 'k338d869a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-fee__price"} -->
-<p class="ih-fee__price"><span class="ih-fee__q">per month</span> <strong>€1,850</strong></p>
+<p class="ih-fee__price"><span class="ih-fee__q"><?php echo wp_kses_post( ito_hr_partners_t( 'k8f2893f3' ) ); ?></span> <strong>€1,850</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<a class="ih-pill ih-pill--static" href="/contact/"><span class="ih-pill__label">Free call</span><span class="ih-pill__text">Book the free 30-minute scoping call</span><span class="ih-pill__price">€0</span><span class="ih-pill__disc" aria-hidden="true"></span></a>
+<?php echo wp_kses_post( ito_hr_partners_t( 'k2c790174' ) ); ?>
 <!-- /wp:html --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

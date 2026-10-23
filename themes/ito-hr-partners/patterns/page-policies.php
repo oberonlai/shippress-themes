@@ -11,38 +11,38 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"ih-hero ih-phead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ih-hero ih-phead"><!-- wp:group {"className":"ih-hero__top","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-hero__top"><!-- wp:paragraph {"className":"ih-hero__label"} -->
-<p class="ih-hero__label">Services · Policies</p>
+<p class="ih-hero__label"><?php echo wp_kses_post( ito_hr_partners_t( 'k6c0f7774' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"ih-hero__h1 ih-phead__h1"} -->
-<h1 class="wp-block-heading ih-hero__h1 ih-phead__h1">Policies and handbooks</h1>
+<h1 class="wp-block-heading ih-hero__h1 ih-phead__h1"><?php echo wp_kses_post( ito_hr_partners_t( 'k70dfd4ba' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ih-tags","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ih-tags"><!-- wp:paragraph {"className":"ih-tag"} -->
-<p class="ih-tag">Contracts</p>
+<p class="ih-tag"><?php echo wp_kses_post( ito_hr_partners_t( 'kcd494d76' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-tag"} -->
-<p class="ih-tag">Handbook</p>
+<p class="ih-tag"><?php echo wp_kses_post( ito_hr_partners_t( 'kdff9299d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-tag"} -->
-<p class="ih-tag">Leave</p>
+<p class="ih-tag"><?php echo wp_kses_post( ito_hr_partners_t( 'ka52945db' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-tag"} -->
-<p class="ih-tag">Remote work</p>
+<p class="ih-tag"><?php echo wp_kses_post( ito_hr_partners_t( 'k2cd55bbe' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-hero__lead"} -->
-<p class="ih-hero__lead">Handbooks and contracts in plain language, scoped before we draft. The handbook package is up to 12 policies at €2,400 fixed, and the contract set is €980 fixed.</p>
+<p class="ih-hero__lead"><?php echo wp_kses_post( ito_hr_partners_t( 'kc2476ccd' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<div class="ih-hero__row"><div class="ih-prow"><figure class="ih-card ih-card--circle"><img src="<?php echo ito_hr_partners_img( 'p12.webp' ); ?>" alt="Black woman in her thirties wearing a light grey blazer"/></figure><figure class="ih-card ih-card--b"><img src="<?php echo ito_hr_partners_img( 'p06.webp' ); ?>" alt="Adviser at a whiteboard with blank notes while five managers sit"/></figure></div><a class="ih-pill" href="/fees/#handbook"><span class="ih-pill__label">Fixed fee</span><span class="ih-pill__chip">Handbook &amp; policies</span><span class="ih-pill__price">€2,400</span><span class="ih-pill__text">Up to 12 policies in plain language, with a written handover</span><span class="ih-pill__disc" aria-hidden="true"></span></a></div>
+<div class="ih-hero__row"><div class="ih-prow"><figure class="ih-card ih-card--circle"><img src="<?php echo ito_hr_partners_img( 'p12.webp' ); ?>" alt="<?php echo esc_attr( ito_hr_partners_t( 'a49051831' ) ); ?>"/></figure><figure class="ih-card ih-card--b"><img src="<?php echo ito_hr_partners_img( 'p06.webp' ); ?>" alt="<?php echo esc_attr( ito_hr_partners_t( 'a99f8f84b' ) ); ?>"/></figure></div><a class="ih-pill" href="/fees/#handbook"><span class="ih-pill__label"><?php echo wp_kses_post( ito_hr_partners_t( 'kdc7d3d42' ) ); ?></span><span class="ih-pill__chip"><?php echo wp_kses_post( ito_hr_partners_t( 'k44caff8f' ) ); ?></span><span class="ih-pill__price">€2,400</span><span class="ih-pill__text"><?php echo wp_kses_post( ito_hr_partners_t( 'k7a2fd691' ) ); ?></span><span class="ih-pill__disc" aria-hidden="true"></span></a></div>
 <!-- /wp:html --></section>
 <!-- /wp:group -->
 
@@ -51,49 +51,49 @@
 <div class="wp-block-group ih-bin"><!-- wp:group {"className":"ih-split sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-split sp-reveal sp-reveal--up"><!-- wp:group {"className":"ih-split__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-split__head"><!-- wp:paragraph {"className":"ih-label"} -->
-<p class="ih-label">Handbook</p>
+<p class="ih-label"><?php echo wp_kses_post( ito_hr_partners_t( 'kdff9299d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ih-h2"} -->
-<h2 class="wp-block-heading ih-h2">Up to 12 policies in the handbook</h2>
+<h2 class="wp-block-heading ih-h2"><?php echo wp_kses_post( ito_hr_partners_t( 'kd9232df8' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ih-split__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-split__text"><!-- wp:paragraph -->
-<p>The employee handbook and policies package holds up to 12 policies. The twelve topics we write from are these.</p>
+<p><?php echo wp_kses_post( ito_hr_partners_t( 'k67dc13d1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list  {"className":"ih-ticks ih-ticks--2"} -->
 <ul class="wp-block-list ih-ticks ih-ticks--2"><!-- wp:list-item -->
-<li>Contracts</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'kcd494d76' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>The handbook</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'k62ac2549' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Leave</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'ka52945db' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Remote work</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'k2cd55bbe' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Holiday pay</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'kb25277c4' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Working time</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'k05bdb733' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Payslips</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'kf33fd573' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Statutory sick pay</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'k145b08b6' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Grievance</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'k2bb250aa' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Disciplinary</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'kbedb30a2' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Bullying</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'ka624caa3' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Onboarding</li>
+<li><?php echo wp_kses_post( ito_hr_partners_t( 'k10bf8b47' ) ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
-<p>Amara Okoye, HR policy lead, holds this work. We agree in the written quote which of the twelve the company needs. A smaller company may need fewer. We write only those. Each policy is in plain language, meant to be read by a manager without a lawyer beside them. The fee for the handbook and policies is €2,400 fixed, excluding VAT at 23%.</p>
+<p><?php echo wp_kses_post( ito_hr_partners_t( 'kffa89409' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -101,21 +101,21 @@
 <!-- wp:group {"className":"ih-split sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-split sp-reveal sp-reveal--up"><!-- wp:group {"className":"ih-split__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-split__head"><!-- wp:paragraph {"className":"ih-label"} -->
-<p class="ih-label">Contracts</p>
+<p class="ih-label"><?php echo wp_kses_post( ito_hr_partners_t( 'kcd494d76' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ih-h2"} -->
-<h2 class="wp-block-heading ih-h2">Contract set</h2>
+<h2 class="wp-block-heading ih-h2"><?php echo wp_kses_post( ito_hr_partners_t( 'k80ec148f' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ih-split__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-split__text"><!-- wp:paragraph -->
-<p>The contract set is separate from the handbook. It is templates for 3 role types, at €980 fixed, excluding VAT at 23%. Kwame Mensah advises on onboarding and contracts, and the templates are written so the company can issue them at the next hire.</p>
+<p><?php echo wp_kses_post( ito_hr_partners_t( 'k7495d79b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The set does not try to cover every job title in the business. Three role types are the published scope. If you need a fourth, that is a new quote, not a quiet addition. Scope is agreed in writing before drafting. The free 30-minute scoping call is the place we name the three types. A written fixed quote follows within 2 working days.</p>
+<p><?php echo wp_kses_post( ito_hr_partners_t( 'k33453d04' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -127,24 +127,24 @@
 <div class="wp-block-group ih-bin"><!-- wp:group {"className":"ih-how sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-how sp-reveal sp-reveal--up"><!-- wp:group {"className":"ih-howtext","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-howtext"><!-- wp:paragraph {"className":"ih-label"} -->
-<p class="ih-label">How we write</p>
+<p class="ih-label"><?php echo wp_kses_post( ito_hr_partners_t( 'k3e0334d1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ih-h2"} -->
-<h2 class="wp-block-heading ih-h2">How we write</h2>
+<h2 class="wp-block-heading ih-h2"><?php echo wp_kses_post( ito_hr_partners_t( 'k3e0334d1' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We write so the document reads like a plan a manager can follow. One adviser holds the file from the scoping call to the handover. A weekly check-in is there to keep the draft inside the quote. We do not add a policy because it would look thorough.</p>
+<p><?php echo wp_kses_post( ito_hr_partners_t( 'k0d8e4cce' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The handover is the handbook, the policies that were in scope, and, if you commissioned it, the contract set. You can reuse them. Questions on the written work are included for 30 days. We reply to enquiries within 1 working day. Companies of 15 to 400 people use the same model. Advice is on Irish law, including for remote clients across the EU.</p>
+<p><?php echo wp_kses_post( ito_hr_partners_t( 'kb16d9e8a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-how__img"} -->
-<figure class="wp-block-image size-full ih-how__img"><img src="<?php echo ito_hr_partners_img( 'p16.webp' ); ?>" alt="Manager handing a laptop to a new employee at a desk"/></figure>
+<figure class="wp-block-image size-full ih-how__img"><img src="<?php echo ito_hr_partners_img( 'p16.webp' ); ?>" alt="<?php echo esc_attr( ito_hr_partners_t( 'a4eceeb10' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -160,16 +160,16 @@
 
 <!-- wp:group {"className":"ih-fee__main","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-fee__main"><!-- wp:paragraph {"className":"ih-fee__name"} -->
-<p class="ih-fee__name"><a href="/policies-handbooks/">Contract set</a></p>
+<p class="ih-fee__name"><a href="/policies-handbooks/"><?php echo wp_kses_post( ito_hr_partners_t( 'k80ec148f' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-fee__scope"} -->
-<p class="ih-fee__scope">Templates for 3 role types.</p>
+<p class="ih-fee__scope"><?php echo wp_kses_post( ito_hr_partners_t( 'kca9e58d7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-fee__price"} -->
-<p class="ih-fee__price"><span class="ih-fee__q">fixed</span> <strong>€980</strong></p>
+<p class="ih-fee__price"><span class="ih-fee__q"><?php echo wp_kses_post( ito_hr_partners_t( 'kcec315e3' ) ); ?></span> <strong>€980</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -180,16 +180,16 @@
 
 <!-- wp:group {"className":"ih-fee__main","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-fee__main"><!-- wp:paragraph {"className":"ih-fee__name"} -->
-<p class="ih-fee__name"><a href="/policies-handbooks/">Employee handbook and policies</a></p>
+<p class="ih-fee__name"><a href="/policies-handbooks/"><?php echo wp_kses_post( ito_hr_partners_t( 'kc83631bc' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-fee__scope"} -->
-<p class="ih-fee__scope">Up to 12 policies.</p>
+<p class="ih-fee__scope"><?php echo wp_kses_post( ito_hr_partners_t( 'kff4d2e00' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-fee__price"} -->
-<p class="ih-fee__price"><span class="ih-fee__q">fixed</span> <strong>€2,400</strong></p>
+<p class="ih-fee__price"><span class="ih-fee__q"><?php echo wp_kses_post( ito_hr_partners_t( 'kcec315e3' ) ); ?></span> <strong>€2,400</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -201,19 +201,19 @@
 <div class="wp-block-group ih-bin"><!-- wp:group {"className":"ih-storylink sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-storylink sp-reveal sp-reveal--up"><!-- wp:group {"className":"ih-storylink__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-storylink__in"><!-- wp:paragraph {"className":"ih-label"} -->
-<p class="ih-label">Client story</p>
+<p class="ih-label"><?php echo wp_kses_post( ito_hr_partners_t( 'k98bfc473' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-storylink__h"} -->
-<h3 class="wp-block-heading ih-storylink__h">A handbook before the funding round</h3>
+<h3 class="wp-block-heading ih-storylink__h"><?php echo wp_kses_post( ito_hr_partners_t( 'k2e7bdf6c' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>A 60-person software company in Cork asked us to rebuild its handbook and its contracts before a funding round. The work was finished in 5 weeks. The company is anonymised. We do not describe the round, and we do not claim any result for it.</p>
+<p><?php echo wp_kses_post( ito_hr_partners_t( 'k6dcfbb43' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-more"} -->
-<p class="ih-more"><a href="/a-handbook-before-the-funding-round/">Read the story</a></p>
+<p class="ih-more"><a href="/a-handbook-before-the-funding-round/"><?php echo wp_kses_post( ito_hr_partners_t( 'k21957bfd' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -224,13 +224,13 @@
 <section class="wp-block-group alignfull ih-close ih-cline"><!-- wp:group {"className":"ih-cline__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-cline__in"><!-- wp:group {"className":"ih-cline__t sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-cline__t sp-reveal sp-reveal--up"><!-- wp:heading {"className":"ih-close__h"} -->
-<h2 class="wp-block-heading ih-close__h">Tell us what is going on. We reply within one working day.</h2>
+<h2 class="wp-block-heading ih-close__h"><?php echo wp_kses_post( ito_hr_partners_t( 'k2085bd12' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"ih-enquire"} -->
-<div class="wp-block-button ih-enquire"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a scoping call</a></div>
+<div class="wp-block-button ih-enquire"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( ito_hr_partners_t( 'k5ad80505' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>

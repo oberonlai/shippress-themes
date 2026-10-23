@@ -12,11 +12,11 @@
 <section class="wp-block-group alignfull ih-stories"><!-- wp:group {"className":"ih-stories__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-stories__in"><!-- wp:group {"className":"ih-sechead sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-sechead sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ih-label"} -->
-<p class="ih-label">Client stories</p>
+<p class="ih-label"><?php echo wp_kses_post( ito_hr_partners_t( 'k96f789ae' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ih-h2"} -->
-<h2 class="wp-block-heading ih-h2">Three pieces of work, told plainly.</h2>
+<h2 class="wp-block-heading ih-h2"><?php echo wp_kses_post( ito_hr_partners_t( 'k94db9ea4' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 

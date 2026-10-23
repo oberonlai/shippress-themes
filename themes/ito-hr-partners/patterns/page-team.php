@@ -11,34 +11,34 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"ih-hero ih-phead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ih-hero ih-phead"><!-- wp:group {"className":"ih-hero__top","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-hero__top"><!-- wp:paragraph {"className":"ih-hero__label"} -->
-<p class="ih-hero__label">Team</p>
+<p class="ih-hero__label"><?php echo wp_kses_post( ito_hr_partners_t( 'kac848fa2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"ih-hero__h1 ih-phead__h1"} -->
-<h1 class="wp-block-heading ih-hero__h1 ih-phead__h1">Team</h1>
+<h1 class="wp-block-heading ih-hero__h1 ih-phead__h1"><?php echo wp_kses_post( ito_hr_partners_t( 'kac848fa2' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ih-tags","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ih-tags"><!-- wp:paragraph {"className":"ih-tag"} -->
-<p class="ih-tag">Employment law</p>
+<p class="ih-tag"><?php echo wp_kses_post( ito_hr_partners_t( 'k70d631b1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-tag"} -->
-<p class="ih-tag">HR policy</p>
+<p class="ih-tag"><?php echo wp_kses_post( ito_hr_partners_t( 'kc90800c6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-tag"} -->
-<p class="ih-tag">Payroll</p>
+<p class="ih-tag"><?php echo wp_kses_post( ito_hr_partners_t( 'k78ab6f0d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ih-hero__lead"} -->
-<p class="ih-hero__lead">Seven advisers in Dublin, one of them on your file. Employment law, HR policy, and payroll compliance sit in the same practice, founded in 2014.</p>
+<p class="ih-hero__lead"><?php echo wp_kses_post( ito_hr_partners_t( 'kca4dbc06' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<div class="ih-hero__row"><div class="ih-prow ih-prow--single"><figure class="ih-card ih-card--b"><img src="<?php echo ito_hr_partners_img( 'p02.webp' ); ?>" alt="Consultant and three staff meeting around a table with laptops"/></figure></div><a class="ih-pill" href="/contact/"><span class="ih-pill__label">Free call</span><span class="ih-pill__chip">Scoping call</span><span class="ih-pill__price">€0</span><span class="ih-pill__text">Thirty minutes by video or at the office, then a written fixed quote in 2 working days</span><span class="ih-pill__disc" aria-hidden="true"></span></a></div>
+<div class="ih-hero__row"><div class="ih-prow ih-prow--single"><figure class="ih-card ih-card--b"><img src="<?php echo ito_hr_partners_img( 'p02.webp' ); ?>" alt="<?php echo esc_attr( ito_hr_partners_t( 'a0ad8b573' ) ); ?>"/></figure></div><a class="ih-pill" href="/contact/"><span class="ih-pill__label"><?php echo wp_kses_post( ito_hr_partners_t( 'k1721023a' ) ); ?></span><span class="ih-pill__chip"><?php echo wp_kses_post( ito_hr_partners_t( 'k339cdbd5' ) ); ?></span><span class="ih-pill__price">€0</span><span class="ih-pill__text"><?php echo wp_kses_post( ito_hr_partners_t( 'ke3258d2f' ) ); ?></span><span class="ih-pill__disc" aria-hidden="true"></span></a></div>
 <!-- /wp:html --></section>
 <!-- /wp:group -->
 
@@ -46,91 +46,91 @@
 <section class="wp-block-group alignfull ih-tband"><!-- wp:group {"className":"ih-bin","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-bin"><!-- wp:group {"className":"ih-sechead ih-sechead--w sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-sechead ih-sechead--w sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ih-label ih-label--w"} -->
-<p class="ih-label ih-label--w">Advisers</p>
+<p class="ih-label ih-label--w"><?php echo wp_kses_post( ito_hr_partners_t( 'ke34293a4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ih-h2 ih-h2--w"} -->
-<h2 class="wp-block-heading ih-h2 ih-h2--w">Four advisers you will meet first</h2>
+<h2 class="wp-block-heading ih-h2 ih-h2--w"><?php echo wp_kses_post( ito_hr_partners_t( 'k11b325c9' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ih-tcards sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-tcards sp-stagger"><!-- wp:group {"className":"ih-tcard sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-tcard sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-tcard__img"} -->
-<figure class="wp-block-image size-full ih-tcard__img"><img src="<?php echo ito_hr_partners_img( 'p15.webp' ); ?>" alt="East Asian woman in her forties in a navy blazer, shown waist-up"/></figure>
+<figure class="wp-block-image size-full ih-tcard__img"><img src="<?php echo ito_hr_partners_img( 'p15.webp' ); ?>" alt="<?php echo esc_attr( ito_hr_partners_t( 'afe7bec45' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-tcard__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-tcard__text"><!-- wp:paragraph {"className":"ih-person__role"} -->
-<p class="ih-person__role">Founder and employment solicitor</p>
+<p class="ih-person__role"><?php echo wp_kses_post( ito_hr_partners_t( 'kb70991fe' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-tcard__name"} -->
-<h3 class="wp-block-heading ih-tcard__name">Erika Ito</h3>
+<h3 class="wp-block-heading ih-tcard__name"><?php echo wp_kses_post( ito_hr_partners_t( 'k9f0d47cb' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-tcard__bio"} -->
-<p class="ih-tcard__bio">Erika Ito is the founder and an employment solicitor. She started Ito HR Partners in Dublin in 2014, after twelve years in employment law. She still advises clients. The firm works with companies of 15 to 400 people, at a fee agreed in writing before the work begins.</p>
+<p class="ih-tcard__bio"><?php echo wp_kses_post( ito_hr_partners_t( 'k1a3ab49e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ih-tcard sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-tcard sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-tcard__img"} -->
-<figure class="wp-block-image size-full ih-tcard__img"><img src="<?php echo ito_hr_partners_img( 'p12.webp' ); ?>" alt="Black woman in her thirties wearing a light grey blazer"/></figure>
+<figure class="wp-block-image size-full ih-tcard__img"><img src="<?php echo ito_hr_partners_img( 'p12.webp' ); ?>" alt="<?php echo esc_attr( ito_hr_partners_t( 'a49051831' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-tcard__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-tcard__text"><!-- wp:paragraph {"className":"ih-person__role"} -->
-<p class="ih-person__role">HR policy lead</p>
+<p class="ih-person__role"><?php echo wp_kses_post( ito_hr_partners_t( 'ke728024c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-tcard__name"} -->
-<h3 class="wp-block-heading ih-tcard__name">Amara Okoye</h3>
+<h3 class="wp-block-heading ih-tcard__name"><?php echo wp_kses_post( ito_hr_partners_t( 'k736ccbb4' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-tcard__bio"} -->
-<p class="ih-tcard__bio">Amara Okoye is HR policy lead. She writes employee handbooks and the policies that sit inside them, up to 12 in a package, at the published fee of €2,400 fixed. Leave, remote work, grievance, disciplinary, and bullying are typical pieces of that set, included only where the quote names them.</p>
+<p class="ih-tcard__bio"><?php echo wp_kses_post( ito_hr_partners_t( 'k4e321988' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ih-tcard sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-tcard sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-tcard__img"} -->
-<figure class="wp-block-image size-full ih-tcard__img"><img src="<?php echo ito_hr_partners_img( 'p13.webp' ); ?>" alt="White man in his fifties with grey hair in a navy jumper"/></figure>
+<figure class="wp-block-image size-full ih-tcard__img"><img src="<?php echo ito_hr_partners_img( 'p13.webp' ); ?>" alt="<?php echo esc_attr( ito_hr_partners_t( 'a006f2558' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-tcard__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-tcard__text"><!-- wp:paragraph {"className":"ih-person__role"} -->
-<p class="ih-person__role">Senior employment lawyer, investigations lead</p>
+<p class="ih-person__role"><?php echo wp_kses_post( ito_hr_partners_t( 'k51ca2ba1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-tcard__name"} -->
-<h3 class="wp-block-heading ih-tcard__name">Daniel Byrne</h3>
+<h3 class="wp-block-heading ih-tcard__name"><?php echo wp_kses_post( ito_hr_partners_t( 'k1916ae66' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-tcard__bio"} -->
-<p class="ih-tcard__bio">Daniel Byrne is a senior employment lawyer and our investigations lead. He takes one complaint at a time: a grievance, a disciplinary matter, or bullying. The published scope is up to 6 interviews and a findings report, from €3,800, agreed in writing before the first interview.</p>
+<p class="ih-tcard__bio"><?php echo wp_kses_post( ito_hr_partners_t( 'k0f23cb63' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ih-tcard sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-tcard sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-tcard__img"} -->
-<figure class="wp-block-image size-full ih-tcard__img"><img src="<?php echo ito_hr_partners_img( 'p14.webp' ); ?>" alt="Latina woman in her thirties wearing a white shirt"/></figure>
+<figure class="wp-block-image size-full ih-tcard__img"><img src="<?php echo ito_hr_partners_img( 'p14.webp' ); ?>" alt="<?php echo esc_attr( ito_hr_partners_t( 'a47c87a32' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-tcard__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-tcard__text"><!-- wp:paragraph {"className":"ih-person__role"} -->
-<p class="ih-person__role">Payroll compliance specialist</p>
+<p class="ih-person__role"><?php echo wp_kses_post( ito_hr_partners_t( 'k2dbec365' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-tcard__name"} -->
-<h3 class="wp-block-heading ih-tcard__name">Lucía Ferrer</h3>
+<h3 class="wp-block-heading ih-tcard__name"><?php echo wp_kses_post( ito_hr_partners_t( 'k70c69064' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-tcard__bio"} -->
-<p class="ih-tcard__bio">Lucía Ferrer is our payroll compliance specialist. She reviews one payroll cycle, for up to 150 staff, with your payroll provider. The checks are holiday pay, working-time records, payslip content, statutory sick pay, and PRSI and USC set-up. The fee is €1,900 fixed, excluding VAT at 23%.</p>
+<p class="ih-tcard__bio"><?php echo wp_kses_post( ito_hr_partners_t( 'k0c540e78' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -142,54 +142,54 @@
 <section class="wp-block-group alignfull ih-bsec"><!-- wp:group {"className":"ih-bin","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-bin"><!-- wp:group {"className":"ih-sechead sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-sechead sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ih-label"} -->
-<p class="ih-label">Also on the team</p>
+<p class="ih-label"><?php echo wp_kses_post( ito_hr_partners_t( 'k8272de5b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ih-h2"} -->
-<h2 class="wp-block-heading ih-h2">Three more advisers</h2>
+<h2 class="wp-block-heading ih-h2"><?php echo wp_kses_post( ito_hr_partners_t( 'k4751cb76' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ih-trows","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-trows"><!-- wp:group {"className":"ih-trow","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-trow"><!-- wp:heading {"level":3,"className":"ih-trow__name"} -->
-<h3 class="wp-block-heading ih-trow__name">Tomasz Wójcik</h3>
+<h3 class="wp-block-heading ih-trow__name"><?php echo wp_kses_post( ito_hr_partners_t( 'k0727b4ff' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-trow__role"} -->
-<p class="ih-trow__role">Workplace investigator</p>
+<p class="ih-trow__role"><?php echo wp_kses_post( ito_hr_partners_t( 'kc9dc60ad' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-trow__bio"} -->
-<p class="ih-trow__bio">He interviews and prepares notes on grievance, disciplinary, and bullying files led by Daniel Byrne. A file is one complaint and up to 6 interviews, with the report typically following the last interview.</p>
+<p class="ih-trow__bio"><?php echo wp_kses_post( ito_hr_partners_t( 'k2000009c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ih-trow","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-trow"><!-- wp:heading {"level":3,"className":"ih-trow__name"} -->
-<h3 class="wp-block-heading ih-trow__name">Sophie Laurent</h3>
+<h3 class="wp-block-heading ih-trow__name"><?php echo wp_kses_post( ito_hr_partners_t( 'ka99e3884' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-trow__role"} -->
-<p class="ih-trow__role">Client manager, retainers</p>
+<p class="ih-trow__role"><?php echo wp_kses_post( ito_hr_partners_t( 'kbdd25f9c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-trow__bio"} -->
-<p class="ih-trow__bio">She looks after Essentials at €890 per month and Growth at €1,850 per month, the 3-month minimum, and the reply within 1 working day.</p>
+<p class="ih-trow__bio"><?php echo wp_kses_post( ito_hr_partners_t( 'k5b231de9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ih-trow","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-trow"><!-- wp:heading {"level":3,"className":"ih-trow__name"} -->
-<h3 class="wp-block-heading ih-trow__name">Kwame Mensah</h3>
+<h3 class="wp-block-heading ih-trow__name"><?php echo wp_kses_post( ito_hr_partners_t( 'k137056a1' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-trow__role"} -->
-<p class="ih-trow__role">HR adviser, onboarding and contracts</p>
+<p class="ih-trow__role"><?php echo wp_kses_post( ito_hr_partners_t( 'k1a19f0b9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-trow__bio"} -->
-<p class="ih-trow__bio">He prepares the contract set, templates for 3 role types, at €980 fixed, and the onboarding papers that go with a new hire.</p>
+<p class="ih-trow__bio"><?php echo wp_kses_post( ito_hr_partners_t( 'k721f3221' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -200,13 +200,13 @@
 <section class="wp-block-group alignfull ih-close ih-cline"><!-- wp:group {"className":"ih-cline__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-cline__in"><!-- wp:group {"className":"ih-cline__t sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-cline__t sp-reveal sp-reveal--up"><!-- wp:heading {"className":"ih-close__h"} -->
-<h2 class="wp-block-heading ih-close__h">Tell us what is going on. We reply within one working day.</h2>
+<h2 class="wp-block-heading ih-close__h"><?php echo wp_kses_post( ito_hr_partners_t( 'k2085bd12' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"ih-enquire"} -->
-<div class="wp-block-button ih-enquire"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a scoping call</a></div>
+<div class="wp-block-button ih-enquire"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( ito_hr_partners_t( 'k5ad80505' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>

@@ -12,21 +12,21 @@
 <section class="wp-block-group alignfull ih-svc"><!-- wp:group {"className":"ih-svc__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-svc__in"><!-- wp:group {"className":"ih-sechead sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-sechead sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ih-label"} -->
-<p class="ih-label">Services</p>
+<p class="ih-label"><?php echo wp_kses_post( ito_hr_partners_t( 'k992a0f05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ih-h2"} -->
-<h2 class="wp-block-heading ih-h2">Four things we do, each at a fixed fee.</h2>
+<h2 class="wp-block-heading ih-h2"><?php echo wp_kses_post( ito_hr_partners_t( 'k826e0381' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-sechead__p"} -->
-<p class="ih-sechead__p">We publish a fixed fee for each of the four services, and we agree the scope in writing before the work starts.</p>
+<p class="ih-sechead__p"><?php echo wp_kses_post( ito_hr_partners_t( 'k48c958c5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ih-svc__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-svc__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ih-svc__photo"} -->
-<figure class="wp-block-image size-full ih-svc__photo"><img src="<?php echo ito_hr_partners_img( 'p05.webp' ); ?>" alt="Consultant standing with three clients and pointing to a printed chart"/></figure>
+<figure class="wp-block-image size-full ih-svc__photo"><img src="<?php echo ito_hr_partners_img( 'p05.webp' ); ?>" alt="<?php echo esc_attr( ito_hr_partners_t( 'a51be940f' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ih-svc__cards sp-stagger","layout":{"type":"default"}} -->
@@ -36,15 +36,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-scard__h"} -->
-<h3 class="wp-block-heading ih-scard__h"><a href="/payroll-compliance/">Payroll compliance</a></h3>
+<h3 class="wp-block-heading ih-scard__h"><a href="/payroll-compliance/"><?php echo wp_kses_post( ito_hr_partners_t( 'k381ca880' ) ); ?></a></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-scard__t"} -->
-<p class="ih-scard__t">We review one payroll cycle for holiday pay, working time, payslips and year-end, including statutory sick pay and PRSI and USC set-up. Advisory only, up to 150 staff; we do not run payroll.</p>
+<p class="ih-scard__t"><?php echo wp_kses_post( ito_hr_partners_t( 'k823ec343' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-scard__fee"} -->
-<p class="ih-scard__fee">Fixed fee €1,900</p>
+<p class="ih-scard__fee"><?php echo wp_kses_post( ito_hr_partners_t( 'kce3edeb5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -54,15 +54,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-scard__h"} -->
-<h3 class="wp-block-heading ih-scard__h"><a href="/policies-handbooks/">Policies &amp; handbooks</a></h3>
+<h3 class="wp-block-heading ih-scard__h"><a href="/policies-handbooks/"><?php echo wp_kses_post( ito_hr_partners_t( 'k6adfe45e' ) ); ?></a></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-scard__t"} -->
-<p class="ih-scard__t">An employee handbook of up to 12 policies, in language a manager can apply, covering contracts, leave and remote work. A separate contract set for three role types is €980 fixed.</p>
+<p class="ih-scard__t"><?php echo wp_kses_post( ito_hr_partners_t( 'k9b535c88' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-scard__fee"} -->
-<p class="ih-scard__fee">Fixed fee €2,400</p>
+<p class="ih-scard__fee"><?php echo wp_kses_post( ito_hr_partners_t( 'k6edda9ba' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -72,15 +72,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-scard__h"} -->
-<h3 class="wp-block-heading ih-scard__h"><a href="/workplace-investigations/">Workplace investigations</a></h3>
+<h3 class="wp-block-heading ih-scard__h"><a href="/workplace-investigations/"><?php echo wp_kses_post( ito_hr_partners_t( 'k3badd6e2' ) ); ?></a></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-scard__t"} -->
-<p class="ih-scard__t">An independent look at one complaint, whether a grievance, a disciplinary matter or bullying. Scope agreed first, up to six interviews and a findings report.</p>
+<p class="ih-scard__t"><?php echo wp_kses_post( ito_hr_partners_t( 'kb402ec1e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-scard__fee"} -->
-<p class="ih-scard__fee">From €3,800</p>
+<p class="ih-scard__fee"><?php echo wp_kses_post( ito_hr_partners_t( 'k4ac273dc' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -90,15 +90,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"ih-scard__h"} -->
-<h3 class="wp-block-heading ih-scard__h"><a href="/retainer-support/">Retainer support</a></h3>
+<h3 class="wp-block-heading ih-scard__h"><a href="/retainer-support/"><?php echo wp_kses_post( ito_hr_partners_t( 'k3ce08cd9' ) ); ?></a></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ih-scard__t"} -->
-<p class="ih-scard__t">One adviser stays on the file. Essentials is up to six hours a month at €890; Growth is up to 14 hours plus a quarterly review at €1,850. We reply within one working day.</p>
+<p class="ih-scard__t"><?php echo wp_kses_post( ito_hr_partners_t( 'k6f20e9fe' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ih-scard__fee"} -->
-<p class="ih-scard__fee">From €890 / month</p>
+<p class="ih-scard__fee"><?php echo wp_kses_post( ito_hr_partners_t( 'k29e8399c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -106,7 +106,7 @@
 
 <!-- wp:group {"className":"ih-more-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group ih-more-wrap"><!-- wp:paragraph {"className":"ih-more"} -->
-<p class="ih-more"><a href="/fees/">All services and fees</a></p>
+<p class="ih-more"><a href="/fees/"><?php echo wp_kses_post( ito_hr_partners_t( 'kc5458224' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
