@@ -422,3 +422,39 @@ body { -webkit-font-smoothing: antialiased; }
 .dl-main--inner .dl-lead { font-size: 1.25rem; line-height: 1.7; margin-top: 8px; }
 .dl-main--inner .dl-h3 { margin-top: 44px; }
 .dl-main--inner .wp-block-post-content p { margin-top: 14px; }
+
+/* ---------- languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Lora / Karla) ---------- */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", Lora, "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: Karla, "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", Lora, "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: Karla, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .dl-logo, .dl-price, .dl-ring__n, .dl-person__n) { font-weight: 400; line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) .dl-label { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .dl-tiles { font-size: clamp(1.75rem, 3.2vw, 3.2rem); line-height: 1.25; }
+:is(:lang(zh), :lang(ja)) .dl-tiles--close { font-size: clamp(1.4rem, 2.4vw, 2.3rem); }
+:is(:lang(zh), :lang(ja)) .dl-tiles--head { font-size: clamp(1.5rem, 2.6vw, 2.5rem); }
+:is(:lang(zh), :lang(ja)) .dl-tiles--post { font-size: clamp(1.3rem, 2.2vw, 1.9rem); }
+:is(:lang(zh), :lang(ja)) .dl-h2, :is(:lang(zh), :lang(ja)) .dl-pagetitle { font-size: clamp(1.6rem, 3vw, 2.1rem); }
+:is(:lang(zh), :lang(ja)) .dl-h3 { font-size: clamp(1.25rem, 1.9vw, 1.35rem); }
+:is(:lang(zh), :lang(ja)) .dl-proj .dl-h3 { font-size: 1.3rem; }
+:is(:lang(zh), :lang(ja)) .dl-proj--1 .dl-h3 { font-size: 1.55rem; }
+:is(:lang(zh), :lang(ja)) .dl-lead { font-size: 1.15rem; line-height: 1.9; }
+:is(:lang(zh), :lang(ja)) .dl-stage__p, :is(:lang(zh), :lang(ja)) .dl-ringcol__p { line-height: 1.8; }
+:lang(ja) :is(.dl-h2, .dl-h3, .dl-lead, .dl-tiles) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, h4) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .dl-tiles { font-size: clamp(2rem, 3.6vw, 3.6rem); }
+:is(:lang(fr), :lang(de)) .dl-tiles--close { font-size: clamp(1.6rem, 2.8vw, 2.6rem); }
+:is(:lang(fr), :lang(de)) .dl-tiles--head { font-size: clamp(1.7rem, 3vw, 2.8rem); }
+:lang(de) .dl-h2, :lang(de) .dl-pagetitle { font-size: clamp(1.8rem, 3.5vw, 2.4rem); }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) .dl-tiles { font-size: 1.75rem; }
+	:is(:lang(zh), :lang(ja)) .dl-tiles--close { font-size: 1.5rem; }
+	:is(:lang(fr), :lang(de)) .dl-tiles { font-size: 1.9rem; }
+	:is(:lang(fr), :lang(de)) .dl-tiles--close { font-size: 1.6rem; }
+}
