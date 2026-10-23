@@ -27,7 +27,7 @@ GNU General Public License for more details.
 == Resources ==
 
 = Fonts =
-EB Garamond and Heebo, both SIL Open Font License 1.1, Latin subsets bundled in assets/fonts.
+EB Garamond and Heebo, both SIL Open Font License 1.1, Latin subsets bundled in assets/fonts. Noto Serif TC (zh-TW) and Noto Serif JP (ja), also SIL Open Font License 1.1, are bundled as subsets of the sample-text characters.
 
 = Scripts and styles =
 assets/sp-scroll.css and assets/sp-scroll.js (scroll reveal and parallax, no library), GPL-2.0-or-later, written for ShipPress themes.
