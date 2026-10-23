@@ -7,6 +7,8 @@ The timetable holds six languages: English, Dutch, French, German, Mandarin and 
 The year has four intakes: 12 January, 13 April, 7 September and 9 November 2026. A placement evening runs on the first Thursday of each month at 18:30. After the interview, the school sends a written level and track proposal. Enrolment includes a registration fee of €45, paid once. The first class follows, and a level review falls at week 5 of each term. Opening hours are Monday to Thursday 09:00–21:00, Friday 09:00–17:00, and Saturday 10:00–14:00 for placement interviews only. Sunday is closed.
 
 ## Facts
+- Name: Kotoba Language
+- Audience: adults new to Rotterdam and teams whose work crosses borders (customers of the school are learners, not children)
 - Founded: 2016
 - Location: Scheepmakerspassage 14, 3011 VH Rotterdam, Netherlands
 - Hours: Mon–Thu 09:00–21:00, Fri 09:00–17:00, Sat 10:00–14:00 (placement interviews only), Sunday closed.
