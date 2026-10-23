@@ -508,3 +508,29 @@ figure.wp-block-image { margin: 0; }
 
 /* ---------- 404 / search ---------- */
 .hp-main:not(.hp-main--front):not(.hp-main--inner):not(.hp-main--single) .hp-pagetitle { font-size: clamp(2.25rem, 6vw, 5.5rem); }
+
+/* ===== Languages: zh-TW / ja use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in EB Garamond / Heebo); fr / de get longer-word sizing ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", "EB Garamond", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Heebo", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", "EB Garamond", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Heebo", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:lang(ja) :is(h1, h2, h3, p, li) { word-break: auto-phrase; }
+:is(:lang(zh), :lang(ja)) :is(.hp-h1, .hp-ih1, .hp-pagetitle) { font-size: clamp(1.9rem, 6.2vw, 6rem); line-height: 1.25; letter-spacing: 0.02em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) :is(.hp-ih1, .hp-pagetitle) { font-size: clamp(1.9rem, 4.6vw, 4.2rem); }
+:is(:lang(zh), :lang(ja)) :is(.hp-h2, .hp-sing__title, .hp-isec__h) { line-height: 1.4; letter-spacing: 0.03em; font-size: clamp(1.45rem, 1rem + 1.4vw, 2rem); }
+:is(:lang(zh), :lang(ja)) .hp-sing__title { font-size: clamp(1.6rem, 1rem + 1.8vw, 2.4rem); }
+:is(:lang(zh), :lang(ja)) .hp-lede { line-height: 1.7; font-size: clamp(1.05rem, 1rem + 0.4vw, 1.25rem); }
+:is(:lang(zh), :lang(ja)) :is(.hp-label, .hp-cap, .hp-nav) { letter-spacing: 0.08em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) :is(.hp-body, .hp-small) { line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) .hp-dur { font-size: clamp(2.8rem, 2rem + 2.8vw, 4rem); }
+:is(:lang(zh), :lang(ja)) .hp-w { letter-spacing: 0.02em; }
+:is(:lang(zh), :lang(ja)) .hp-fam__word { font-size: 3.6rem; transform: translateX(-50%); letter-spacing: 0.12em; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .hp-h1 { font-size: clamp(2rem, 7.4vw, 7rem); }
+:is(:lang(fr), :lang(de)) :is(.hp-ih1, .hp-pagetitle) { font-size: clamp(2rem, 5.2vw, 4.6rem); }
+:lang(de) :is(.hp-h2, .hp-sing__title, .hp-isec__h) { font-size: clamp(1.6rem, 1.1rem + 1.5vw, 2.2rem); }
