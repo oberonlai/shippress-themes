@@ -45,7 +45,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kl-pill__d"} -->
-<p class="kl-pill__d"><a href="/fees-intake/"><?php echo esc_html( kotoba_language_t( 'pill_d1' ) ); ?></a> · <a href="/fees-intake/"><?php echo esc_html( kotoba_language_t( 'pill_d2' ) ); ?></a> · <a href="/fees-intake/"><?php echo esc_html( kotoba_language_t( 'pill_d3' ) ); ?></a> · <a href="/fees-intake/"><?php echo esc_html( kotoba_language_t( 'pill_d4' ) ); ?></a></p>
+<p class="kl-pill__d"><a href="/fees-intake/"><?php echo esc_html( kotoba_language_t( 'pill_d1' ) ); ?></a><a href="/fees-intake/"><?php echo esc_html( kotoba_language_t( 'pill_d2' ) ); ?></a><a href="/fees-intake/"><?php echo esc_html( kotoba_language_t( 'pill_d3' ) ); ?></a><a href="/fees-intake/"><?php echo esc_html( kotoba_language_t( 'pill_d4' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
