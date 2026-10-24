@@ -23,7 +23,7 @@ $right = madoka_childcare_heading( $t( 'visit_h' ), 2, 'mc-stripe--band mc-strip
 	. "\n\n" . madoka_childcare_badge( 'mc-badge--static' );
 echo madoka_childcare_group(
 	madoka_childcare_group( madoka_childcare_group( $left, 'mc-visit__l' ) . "\n\n" . madoka_childcare_group( $right, 'mc-visit__r' ), 'mc-wrap mc-visit__grid' ),
-	'mc-visit mc-band mc-torn-top',
+	'mc-visit mc-band mc-torn-top mc-torn-bottom',
 	'section',
 	'"align":"full"'
 ); // phpcs:ignore WordPress.Security.EscapeOutput
