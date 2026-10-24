@@ -114,21 +114,22 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <td align="center" valign="top" width="33%"><a href="themes/hatsumei-patent"><img src="themes/hatsumei-patent/screenshots/home-desktop.webp" width="260" alt="Hatsumei Patent Attorneys"></a><br><a href="themes/hatsumei-patent">Hatsumei Patent Attorneys</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/hayate-cycles"><img src="themes/hayate-cycles/screenshots/home-desktop.webp" width="260" alt="Hayate Cycles"></a><br><a href="themes/hayate-cycles">Hayate Cycles</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/hibi-wear"><img src="themes/hibi-wear/screenshots/home-desktop.webp" width="260" alt="Hibi Wear"></a><br><a href="themes/hibi-wear">Hibi Wear</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/hibiki-records"><img src="themes/hibiki-records/screenshots/home-desktop.webp" width="260" alt="Hibiki Records"></a><br><a href="themes/hibiki-records">Hibiki Records</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/hidamari-care"><img src="themes/hidamari-care/screenshots/home-desktop.webp" width="260" alt="Hidamari Care"></a><br><a href="themes/hidamari-care">Hidamari Care</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/hidamari-care"><img src="themes/hidamari-care/screenshots/home-desktop.webp" width="260" alt="Hidamari Care"></a><br><a href="themes/hidamari-care">Hidamari Care</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/hikari-app"><img src="themes/hikari-app/screenshots/home-desktop.webp" width="260" alt="Hikari App"></a><br><a href="themes/hikari-app">Hikari App</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/hikari-musubi"><img src="themes/hikari-musubi/screenshots/home-desktop.webp" width="260" alt="Hikari Musubi"></a><br><a href="themes/hikari-musubi">Hikari Musubi</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/hinoki-yado"><img src="themes/hinoki-yado/screenshots/home-desktop.webp" width="260" alt="Hinoki Yado"></a><br><a href="themes/hinoki-yado">Hinoki Yado</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/hinoki-yado"><img src="themes/hinoki-yado/screenshots/home-desktop.webp" width="260" alt="Hinoki Yado"></a><br><a href="themes/hinoki-yado">Hinoki Yado</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/hirameki-lab"><img src="themes/hirameki-lab/screenshots/home-desktop.webp" width="260" alt="Hirameki Lab"></a><br><a href="themes/hirameki-lab">Hirameki Lab</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/hitomi-vision"><img src="themes/hitomi-vision/screenshots/home-desktop.webp" width="260" alt="Hitomi Vision"></a><br><a href="themes/hitomi-vision">Hitomi Vision</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/hiyoko-kindergarten"><img src="themes/hiyoko-kindergarten/screenshots/home-desktop.webp" width="260" alt="Hiyoko Kindergarten"></a><br><a href="themes/hiyoko-kindergarten">Hiyoko Kindergarten</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/hiyoko-kindergarten"><img src="themes/hiyoko-kindergarten/screenshots/home-desktop.webp" width="260" alt="Hiyoko Kindergarten"></a><br><a href="themes/hiyoko-kindergarten">Hiyoko Kindergarten</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/hocho-kyoshitsu"><img src="themes/hocho-kyoshitsu/screenshots/home-desktop.webp" width="260" alt="Hōchō Kyōshitsu"></a><br><a href="themes/hocho-kyoshitsu">Hōchō Kyōshitsu</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/hodoki-clinic"><img src="themes/hodoki-clinic/screenshots/home-desktop.webp" width="260" alt="Hodoki Clinic"></a><br><a href="themes/hodoki-clinic">Hodoki Clinic</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/hogusu-physio"><img src="themes/hogusu-physio/screenshots/home-desktop.webp" width="260" alt="Hogusu Physio"></a><br><a href="themes/hogusu-physio">Hogusu Physio</a></td>
