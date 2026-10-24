@@ -1,4 +1,4 @@
-# Hitomi Vision — reference (stage 1 research + design, 2026-10-24; "Theme" columns = 成品對應, binding detail in design-spec.md)
+# Hitomi Vision — reference (stage 1 research + design, 2026-10-24; "Theme" columns = finished-theme mapping, binding detail in design-spec.md)
 S5-Style category used: beauty / health-care & medical (nearest to an optometry clinic). Not used before (checked against all themes/*/brand/reference.md).
 
 ## Sources
@@ -35,5 +35,5 @@ Sub site: ground `#E8ECEF`, accent blue (first-screen saturated 13.5%, not borro
 sumire: IO fade/rise/blur/mask/per-char (1.0–1.8s, cubic-bezier(.165,.84,.44,1)); GSAP scrub dome scaleX 1→1.15 + y -10%; interlude parallax -6%; letter tilt 6–10°. hta: IO class `is-shown` → fade 1800ms easeOutCubic, fade-up 2.5rem 1100ms easeOutQuint, clip-path mask wipe 1200ms easeInOutQuint with 116ms child stagger; scroll-linked mask offset var.
 
 
-## 成品對應 (scroll)
+## finished-theme mapping (scroll)
 sumire rise → `sp-reveal--up` (1s, cubic-bezier(.165,.84,.44,1), 24px); sumire mask → `sp-reveal--wipe` (1.6s, cubic-bezier(0,.4,.48,1)) on photos; hta stagger 116ms → `sp-stagger`; sumire interlude parallax −6% → `sp-parallax` on home interlude (6%) and hero window (8%, mobile 5%).

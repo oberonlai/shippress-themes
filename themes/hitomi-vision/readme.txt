@@ -25,7 +25,7 @@ The clinic, its people, address, telephone number and prices are fictional.
 == Copyright ==
 
 Hitomi Vision is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Newsreader (OFL-1.1), Latin variable, regular and italic; Figtree (OFL-1.1), Latin variable; WOFF2, see assets/fonts/.
+Fonts: Newsreader (OFL-1.1), Latin variable, regular and italic; Figtree (OFL-1.1), Latin variable; Noto Serif JP and Noto Serif TC (OFL-1.1), subsets for the ja and zh-TW pages; WOFF2, see assets/fonts/.
 
 = Images =
 

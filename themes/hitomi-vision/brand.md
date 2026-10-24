@@ -10,6 +10,7 @@ The work starts with what a person already notices. An adult may have a headache
 The clinic is still independent, and the same prices are quoted in every language, in US dollars. Frames begin at $160 and lenses are quoted only after the exam, because the lens has to match the distance the person actually uses. Dr. Marsh directs the clinic and sees adults for binocular vision. Colleagues cover children's vision, dry eye and contact lenses, and screen and workplace vision. A corrected case on this site is one person's account. Results differ, and the clinic does not promise that another person will finish in the same place.
 
 ## Facts
+- Name: Hitomi Vision. Audience: office workers and school-age children, and the families who book for them.
 - Founded: 2011. Location: 2nd floor, 14 Linden Row, Northgate (lift from the street door). Three exam rooms and a frame room.
 - Phone +1 555 0142 208, email hello@hitomivision.example. Currency: US dollars in every language.
 - Hours: Mon–Fri 10:00–19:00 · Sat 9:00–16:00 · Sun & public holidays closed. Children's after-school slots Mon–Fri 15:30–18:30, Sat 9:00–12:00.
