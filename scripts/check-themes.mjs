@@ -20,6 +20,8 @@ const PAGE_TEMPLATES = {
   category: ["category", "archive"], tag: ["tag", "archive"], newsletter: ["page-newsletter", "page"], contact: ["page-contact", "page"],
 };
 // "store": a WooCommerce shop theme (WooCommerce templates + sample products, still works without WooCommerce).
+// Store themes released before the store-block rule (their store block lives only in the App catalogue). Do not add to this list.
+export const STORE_BLOCK_LEGACY = ["amime-takezaiku", "hanayui-kimono", "hibi-wear", "itomaki-yarn", "karan-geta", "michi-motors", "shirokuro-camera", "tsuribito-tackle", "urushi-nuri"];
 export const TYPES = ["portfolio", "business", "blog", "shop", "store", "hospitality", "education", "health", "food-drink", "events", "nonprofit", "media"];
 const CJK = /[\u3040-\u30ff\u3400-\u9fff\uff00-\uffef\u3000-\u303f]/;
 const TEXT = /\.(php|html|json|css|md|txt|js|svg)$/;
@@ -138,6 +140,20 @@ export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SH
     for (const img of p.images ?? []) {
       const name = img.replace(/^.*\//, "").replace(/\.\w+$/, "");
       if (!["jpg", "jpeg", "png", "webp"].some((x) => has(`assets/images/demo/${name}.${x}`))) errs.push(`product ${p.slug}: no raster copy assets/images/demo/${name}.jpg|png|webp`);
+    }
+  }
+  // 2026-10-24 (hayate-cycles): the App refuses a store theme whose meta has no store block. Themes released before this
+  // rule carry the block only in the App catalogue (STORE_BLOCK_LEGACY); every other store theme must declare it here.
+  if (meta?.type === "store" && !STORE_BLOCK_LEGACY.includes(meta.slug)) {
+    const st = meta.store;
+    if (!st || typeof st !== "object") errs.push('a store theme needs a "store" block in theme-meta.json: {"plugin":"woocommerce","required":true|false,"templates":["archive-product","single-product",…],"sampleProducts":N,"withoutPlugin":"…" (when required is false)}');
+    else {
+      if (st.plugin !== "woocommerce") errs.push('theme-meta.json store.plugin must be "woocommerce"');
+      if (st.required !== undefined && typeof st.required !== "boolean") errs.push("theme-meta.json store.required must be true or false (absent = WooCommerce required)");
+      if (!Array.isArray(st.templates) || !["archive-product", "single-product"].every((t) => st.templates.includes(t))) errs.push("theme-meta.json store.templates must list archive-product and single-product");
+      for (const t of Array.isArray(st.templates) ? st.templates : []) if (!has(`templates/${t}.html`)) errs.push(`theme-meta.json store.templates: templates/${t}.html is missing`);
+      if (!(st.sampleProducts > 0) || st.sampleProducts !== (demo.products ?? []).length) errs.push(`theme-meta.json store.sampleProducts must equal the ${(demo.products ?? []).length} sample products in demo-content.json`);
+      if (st.required === false && !String(st.withoutPlugin ?? "").trim()) errs.push("theme-meta.json store.withoutPlugin must say what the shop pages do without WooCommerce (store.required is false)");
     }
   }
   if (meta?.type === "store" && !(demo.products ?? []).length) errs.push("a store theme needs sample products in demo-content.json");
