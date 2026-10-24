@@ -257,6 +257,20 @@ img { max-width: 100%; height: auto; }
 :lang(zh), :lang(ja) { --ak-word: clamp(3.4rem, 8.5vw, 7.7rem); }
 :lang(zh) body, :lang(ja) body { line-height: 1.85; }
 :lang(zh) .ak-word, :lang(ja) .ak-word { line-height: 1; letter-spacing: 0; }
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Cormorant Garamond", "Noto Serif TC", "Noto Serif CJK TC", "PingFang TC", "Microsoft JhengHei", serif;
+	--wp--preset--font-family--text: "Nunito Sans", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Cormorant Garamond", "Noto Serif JP", "Noto Serif CJK JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--text: "Nunito Sans", "Noto Sans JP", "Noto Sans CJK JP", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(.ak-h2, .ak-h3) { line-height: 1.35; letter-spacing: 0.02em; }
+:is(:lang(zh), :lang(ja)) .ak-h2 { font-size: clamp(1.6rem, 2.8vw, 2.5rem); }
+:is(:lang(zh), :lang(ja)) .ak-h3 { font-size: clamp(1.3rem, 2.2vw, 2rem); }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:lang(ja) :is(.ak-h2, .ak-h3) { word-break: auto-phrase; }
 :lang(fr) body, :lang(de) body, :lang(fr) .ak-h2, :lang(de) .ak-h2, :lang(fr) .ak-h3, :lang(de) .ak-h3 { hyphens: auto; }
 .ak-foot__cols > * { margin-block: 0; }
 .ak-notes__cols .ak-h3 { font-size: clamp(1.4rem, 2.2vw, 2rem); }
