@@ -55,10 +55,16 @@ Facilities management company for office campuses and civic buildings in the Rot
 01 Call the desk or log it in the client portal. 02 The desk agrees the priority (P1 to P4) with you and texts a reference number within 10 minutes. 03 The nearest hub sends an engineer within the target time. 04 The engineer fixes or makes safe, and logs readings and photos to the site's asset record. 05 Your facilities contact gets a closing note the same day; if parts are needed, the return visit is booked before the engineer leaves.
 
 ## Field notes (stories)
-1. A chiller swapped over one weekend (Maasoever Office Campus, Pieter de Graaf).
-2. Night call: a split valve under the library (Delft Public Library & Archive, Yusuf Demir, P1 at 02:10).
-3. Water hygiene, one tap at a time (Merwede Sports Centre, Sanne Visser).
-4. Taking over a civic building after refurbishment (Haaglanden Civic Centre, Hanna Lind and Ingrid Maas, 412 plant items tagged).
+One sample article ships: "A chiller swapped over one weekend" (Maasoever Office Campus, Pieter de Graaf, 12 Sep 2026). The index page lists it as a caption row under a short introduction; more notes can be added in the editor (planned topics: a night call under the Delft library with Yusuf Demir, water hygiene at Merwede with Sanne Visser, a civic handover at Haaglanden with Hanna Lind and Ingrid Maas).
+
+## Inner pages (sample content, all English; fees identical to the home page)
+- Sites: look-up photo band (parallax), staggered pair of the four featured sites (#01-#04), the four hubs with address, engineers and their named site, onboarding in 90 days (Hanna Lind).
+- Services: focus-in statement (Kwame Mensah), two staggered pairs for planned maintenance, reactive repairs, compliance and help desk, then the seven-fee table.
+- Call-outs: desk number block (anchor #report), daytime desk and night rota as a staggered pair, priorities table P1-P4, five steps as hairline rows, call-out fees.
+- Compliance: focus-in statement, annual programme table (fire alarm weekly, emergency lighting monthly and annual, water monthly, legionella every 2 years, lift twice a year, gas annually, F-gas per system), parallax roof band, Sanne Visser's note, what the EUR 3,200 fee does not say.
+- Prices: the seven fees in a full-width table, what every contract includes (survey, named engineer, quarterly report, portal), contract terms (12 months with three months' notice; help desk no minimum term; survey credited against year one).
+- About: founding note by Ingrid Maas, staggered pair, seven people as rows (no portrait grid), history 1998 / 2009 / 2014 / 2018 in prose.
+- Contact: 24/7 desk and Rotterdam head office as a staggered pair, four hub rows, what to say when you call. Privacy & terms: plain text column. Every page ends with the pale contact strip (except Contact and Privacy).
 
 ## Signature techniques (carried to every page; reference: Nippon Kucho Service recruiting site, see brand/reference.md)
 1. Staggered two-column photo pair (right column dropped 100 px) with caption rows, a 1 px rule, a dark arrow chip and 100 px ghost numerals #01 to #04.

@@ -8,11 +8,11 @@ License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
 
-Hozen Facilities is a block theme for a facilities management company that looks after the plant rooms, roofs and switchrooms of office campuses and civic buildings across Rotterdam, Delft, The Hague and Dordrecht. The front page sets out the contracted sites, the four hubs, how a call-out is taken, a price list in euros and the field notes. Works without WooCommerce.
+Hozen Facilities is a block theme for a facilities management company that looks after the plant rooms, roofs and switchrooms of office campuses and civic buildings across Rotterdam, Delft, The Hague and Dordrecht. The front page sets out the contracted sites, the four hubs, how a call-out is taken, a price list in euros and the field notes. Sample content also includes Sites, Services, Call-outs, Compliance, Prices, About, Contact and Privacy pages and one field note. Works without WooCommerce.
 
 == Description ==
 
-Hozen Facilities is a block theme for a facilities management company that looks after the plant rooms, roofs and switchrooms of office campuses and civic buildings across Rotterdam, Delft, The Hague and Dordrecht. The front page sets out the contracted sites, the four hubs, how a call-out is taken, a price list in euros and the field notes. Works without WooCommerce.
+Hozen Facilities is a block theme for a facilities management company that looks after the plant rooms, roofs and switchrooms of office campuses and civic buildings across Rotterdam, Delft, The Hague and Dordrecht. The front page sets out the contracted sites, the four hubs, how a call-out is taken, a price list in euros and the field notes. Sample content also includes Sites, Services, Call-outs, Compliance, Prices, About, Contact and Privacy pages and one field note. Works without WooCommerce.
 
 Fonts: Proza Libre and Figtree (SIL Open Font License 1.1), bundled. Photographs were generated for this theme. The scroll effects (sp-scroll) respect the visitor's reduced-motion setting and stay visible without JavaScript.
 
@@ -41,12 +41,11 @@ All images are AI-generated for this theme (Grok Build), no text or logos, relea
 - assets/images/k1-ceiling.webp (home contact cluster). AI-generated, CC0.
 - assets/images/k2-water.webp (home contact cluster ghost photo). AI-generated, CC0.
 - assets/images/k3-valve.webp (home contact cluster). AI-generated, CC0.
-- assets/images/n1-valve.webp (home field notes and story). AI-generated, CC0.
-- assets/images/p1-chiller.webp (home field notes and story). AI-generated, CC0.
+- assets/images/n1-valve.webp (call-outs page, night rota). AI-generated, CC0.
+- assets/images/p1-chiller.webp (field note photograph, home field notes). AI-generated, CC0.
 - assets/images/s1-court.webp (home sites #01). AI-generated, CC0.
 - assets/images/s2-library.webp (home sites #02). AI-generated, CC0.
 - assets/images/s3-civic.webp (home sites #03). AI-generated, CC0.
 - assets/images/s4-pool.webp (home sites #04). AI-generated, CC0.
 - assets/images/sv-switchboard.webp (home services). AI-generated, CC0.
-- assets/images/demo/n1-valve.webp (copy imported into the Media Library). AI-generated, CC0.
 - assets/images/demo/p1-chiller.webp (copy imported into the Media Library). AI-generated, CC0.
