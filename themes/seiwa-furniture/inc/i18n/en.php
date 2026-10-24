@@ -160,4 +160,10 @@ return array(
 	'alt_P16' => 'Chairs wrapped in blankets on trolleys in a bright loading bay',
 	'alt_P17' => 'Craftsperson sanding the edge of a long pale oak meeting table',
 	'alt_ln' => '',
+	'notes_h1' => 'From the workshop',
+	'notes_lead' => 'Short records of work in hand at Werkhuislaan 40: chairs before they ship, the night crew on an install, fabric chosen from the kit.',
+	'notes_h2a' => 'Notes on the work in hand',
+	'notes_p1' => 'Notes from Seiwa Furniture are short records of work we already do at Werkhuislaan 40, not a news desk. Three pieces are on the bench at the moment. One follows a task chair through the checks Tomás Herrera and Lukas Brandt make before it ships, and it stays inside the T2 we list at €640: synchronous mechanism, adjustable arms, lumbar, fabric from the kit. One follows Jonas Eriksen’s evening installation, the €45-per-seat fit, packaging taken back, including the two weekends on the Rotterdam law office. One follows the sample kit itself: twenty-four fabrics, eight chips, four frame colours, posted free within two working days. Each note uses only the prices, hours and people already printed on this site.',
+	'notes_h2b' => 'How to read a date on a note',
+	'notes_p2' => 'A note is dated, and it carries one subject line: chairs before they ship, the night crew on an install, or fabric chosen from the kit. It does not introduce a new price or a new warranty. Frames remain ten years, mechanisms and gas lifts five, lead time six weeks from signed drawings, showroom hours Monday to Friday 8:30–17:30. If a note mentions the Thursday tour, that is still 14:00, 60 minutes, eight people, by email. For a kit or a schedule, write to studio@seiwa-furniture.example or call +31 40 000 1994. The showroom is the faster way to settle a fabric, if you would rather sit in T2 than compare swatches on a desk.',
 );
