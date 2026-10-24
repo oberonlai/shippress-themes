@@ -47,7 +47,19 @@ Seven people run the house, and their names are on the door in the staff sense o
 Key visual: an ink screen with a centred two-line serif wordmark, a small centred arrival photograph, an info bar of the four times and a white Enquire pill, with the dusk room photograph peeking at the bottom. Detail from Yuien (yuien.life): one rounded 28 px card (enquiry).
 
 ## Pages
-Home (stage 1). Planned: The Stay, Rooms, Rates, Breakfast & Bar, Work Stays, Neighbourhood, People, Journal (3 guest stories), FAQ, Enquiry & Access, Privacy.
+Home plus ten inner pages (all with the page word crossing a photograph unless noted):
+- The Stay `/stay/`: the day hour by hour (15:00 Arrival, 19:00 Evening, 23:00 Night, 07:00 Breakfast) as four chapters with a growing hairline and a masked wide photograph; house rules.
+- Rooms `/rooms/`: ink band, the three rooms (Studio 19 m², Corner 26 m², Loft 34 m²) with photographs stacking flush right; in the room and the house (amenities list); step-free rooms.
+- Rates `/rates/`: the six-line price list (EUR, identical on every page), what the rate includes, cancellation and the card, check-in, check-out and city tax. The list is full width from 782 px and stacks on phones.
+- Breakfast & Bar `/breakfast-bar/`: ink band with breakfast and bar photographs stacking; Jonas Weber and Priya Raman.
+- Work Stays `/work-stays/`: the desk in every room, long stay (EUR 132), reading room (EUR 90 half day), quiet hours, arriving for work; masked wide desk photograph.
+- Neighbourhood `/neighbourhood/`: Wrenfield and the station, a morning walk, three evenings, coming back after dark; full-bleed parallax street photograph.
+- People `/people/`: the seven named people as a text list.
+- Journal `/journal/` (posts page) and one guest note, "Six nights, one deadline" (the post title crosses its featured image).
+- FAQ `/faq/`: ten questions in three groups (arrival, rooms, payment), details blocks, no photograph.
+- Enquiry & Access `/enquire/`: the four-step flow, the enquiry form in the one rounded card, address, station and hours.
+- Privacy `/privacy/`: legal text, no effects.
+Templates: front page, chapter page (no title), page, single, journal (home/index), archive (category, tag), search, 404.
 
 ## Photography
 Quiet low-key documentary photographs (Grok Build), one STYLE string: oak, linen white, charcoal and soft grey with a faint mauve-grey cast, dusk or early morning light with warm lamps, diverse adults, no text, no logos.

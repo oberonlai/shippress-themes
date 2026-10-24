@@ -33,4 +33,4 @@ Photographs (assets/images): generated for this theme, no text or logos; GPL-2.0
 == Changelog ==
 
 = 1.0.0 =
-* First release: home page (English).
+* First release: home page and ten inner pages (English), journal with one guest note, enquiry form, templates for archive, search and 404.

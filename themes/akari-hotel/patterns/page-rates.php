@@ -13,8 +13,8 @@
 <div class="wp-block-group ak-line sp-reveal sp-reveal--wipe"><!-- wp:html -->
 <span class="ak-line__bar"></span>
 <!-- /wp:html --></div>
-<!-- /wp:group --><!-- wp:group {"className":"ak-t1 ak-t1--page ak-t1--land","layout":{"type":"default"},"style":{"spacing":{"blockGap":"0"}}} -->
-<div class="wp-block-group ak-t1 ak-t1--page ak-t1--land" style="--ak-n:5"><!-- wp:group {"className":"ak-t1__head sp-stagger","layout":{"type":"default"}} -->
+<!-- /wp:group --><!-- wp:group {"className":"ak-t1 ak-t1--page ak-t1--land ak-n-5","layout":{"type":"default"}} -->
+<div class="wp-block-group ak-t1 ak-t1--page ak-t1--land ak-n-5"><!-- wp:group {"className":"ak-t1__head sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-t1__head sp-stagger"><!-- wp:paragraph {"className":"ak-label"} -->
 <p class="ak-label">( 03 )</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":1,"className":"ak-word sp-reveal sp-reveal--up"} -->
