@@ -30,3 +30,14 @@ Fonts: Newsreader (OFL-1.1), Latin variable, regular and italic; Figtree (OFL-1.
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as photorealistic high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the clinic is fictional). No transparent cut-outs are used.
+- assets/images/p01-hero.webp (home hero window: optometrist placing a trial frame on a seated man's face)
+- assets/images/p02-office.webp (home problem row: woman at a laptop pressing the bridge of her nose)
+- assets/images/p03-reading.webp (home school row: girl about nine reading a book held close to her face)
+- assets/images/p04-exam-room.webp (home interlude: bright exam room with a phoropter, chair, and distant chart)
+- assets/images/p05-phoropter.webp (home method triptych: patient behind a phoropter while an optometrist adjusts the dials)
+- assets/images/p06-slitlamp.webp (home method triptych: close view of a patient resting their chin at a slit lamp)
+- assets/images/p07-imaging.webp (home method triptych: technician beside a retinal camera with a soft retina image on screen)
+- assets/images/p09-case-before.webp (home case polaroid, week 0: woman leaning toward a monitor with a slight squint)
+- assets/images/p10-case-after.webp (home case polaroid, week 6: woman in thin metal glasses sitting upright at a desk)
+- assets/images/p11-director.webp (home people row: Dr. Elena Marsh at a slit lamp, turned toward the camera)
+- assets/images/p12-front.webp (home visit: clinic front window from the street with plants and pale frames)
