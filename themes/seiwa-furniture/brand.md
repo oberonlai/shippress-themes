@@ -41,7 +41,9 @@ Write as a manufacturer speaking to architects and fit-out contractors: short se
 Factory tour every Thursday 14:00, 60 min, max 8. Lead time 6 weeks. Warranty 10 years frames, 5 years mechanisms. Sample kit free, posted within 2 working days, return within 30 days. Ledger 2025: 1,860 seats, 41 contracts, 40 of 41 on date, 68% recycled steel.
 
 ## Pages
-Home, About, Products, Specification, Projects, Factory, Price list, Showroom, Team, Contact, Notes (inner pages follow in stage two).
+Home, About, Products, Specification, Projects, Factory, Price list, Showroom, Team, Contact, Notes (all built in en).
+
+Inner pages: each opens with a smaller version of the home first screen (headline top left, wide photograph cut by the bottom of the head, tall portrait with the elliptical corner bleeding right, flat panels, both photographs with parallax). About: three dated narrative sections, a full-width parallax photograph and a scatter of masked photographs round the line "We would rather show you the factory than describe it." Products and Specification and Projects and Price list and Showroom and Contact: outlined cards running off the right edge. Specification: five hairline stage rows. Projects: register rows. Factory: 2025 ledger beside a sticky photograph, a five-bar seats chart (2021–2025) and a scatter. Price list: seven-line table, stacked below 782px. Team: seven hairline rows. Notes: dated rows and one full article (Choosing fabric from the sample kit).
 
 ## A day at the factory
 The day starts at 7:30 when the line leads walk the floor. Frames are welded and powder-coated in the morning, upholstery and assembly run after lunch, and the evening crew loads vans for next-day installs. Visitors on the Thursday 14:00 tour follow the same route a chair takes through the day.

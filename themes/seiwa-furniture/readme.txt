@@ -43,6 +43,8 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/tile-sample-kit.webp (home showroom tile: sample kit)
 - assets/images/tile-castor-fit.webp (home showroom tile: fitting a castor)
 - assets/images/case-night-install.webp (home projects: evening installation)
+- assets/images/team-workbench.webp (About head, Factory ledger, Team head: production manager checking a mechanism)
+- assets/images/table-sanding.webp (About head, Products card: sanding an oak meeting table)
 - assets/images/contact-kit-desk.webp (home contact: opening a sample kit)
 - assets/images/line-castor.svg (line drawing; GPL-2.0-or-later / CC0, drawn for this theme)
 - assets/images/line-chair-elevation.svg (line drawing; GPL-2.0-or-later / CC0, drawn for this theme)
