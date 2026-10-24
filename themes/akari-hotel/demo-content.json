@@ -1,5 +1,5 @@
 {
- "_comment": "Sample content for the demo import (inc/demo-import.php), English. Stage 1: the home page only; stage 2 adds the inner pages, journal posts and the four other languages.",
+ "_comment": "Sample content for the demo import (inc/demo-import.php), English: the home page, ten inner pages, the journal (posts page) and one guest-note post. demo-content.<lang>.json carries the other languages.",
  "site": {
   "title": "Akari Hotel",
   "tagline": "A boutique city hotel at 18 Tessel Street, Wrenfield: 42 rooms, one guest day from check-in at 15:00 to breakfast."
@@ -10,6 +10,71 @@
    "title": "Home",
    "role": "front",
    "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/front-hero\"} /-->\n\n<!-- wp:pattern {\"slug\":\"akari-hotel/front-dusk\"} /-->\n\n<!-- wp:pattern {\"slug\":\"akari-hotel/front-arrival\"} /-->\n\n<!-- wp:pattern {\"slug\":\"akari-hotel/front-rooms\"} /-->\n\n<!-- wp:pattern {\"slug\":\"akari-hotel/front-evening\"} /-->\n\n<!-- wp:pattern {\"slug\":\"akari-hotel/front-night\"} /-->\n\n<!-- wp:pattern {\"slug\":\"akari-hotel/front-breakfast\"} /-->\n\n<!-- wp:pattern {\"slug\":\"akari-hotel/front-rates\"} /-->\n\n<!-- wp:pattern {\"slug\":\"akari-hotel/front-notes\"} /-->\n\n<!-- wp:pattern {\"slug\":\"akari-hotel/front-enquire\"} /-->"
+  },
+  {
+   "slug": "stay",
+   "title": "The Stay",
+   "template": "page-chapter",
+   "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/page-stay\"} /-->"
+  },
+  {
+   "slug": "rooms",
+   "title": "Rooms",
+   "template": "page-chapter",
+   "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/page-rooms\"} /-->"
+  },
+  {
+   "slug": "rates",
+   "title": "Rates",
+   "template": "page-chapter",
+   "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/page-rates\"} /-->"
+  },
+  {
+   "slug": "breakfast-bar",
+   "title": "Breakfast & Bar",
+   "template": "page-chapter",
+   "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/page-breakfast-bar\"} /-->"
+  },
+  {
+   "slug": "work-stays",
+   "title": "Work Stays",
+   "template": "page-chapter",
+   "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/page-work-stays\"} /-->"
+  },
+  {
+   "slug": "neighbourhood",
+   "title": "Neighbourhood",
+   "template": "page-chapter",
+   "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/page-neighbourhood\"} /-->"
+  },
+  {
+   "slug": "people",
+   "title": "People",
+   "template": "page-chapter",
+   "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/page-people\"} /-->"
+  },
+  {
+   "slug": "journal",
+   "title": "Journal",
+   "role": "posts"
+  },
+  {
+   "slug": "faq",
+   "title": "FAQ",
+   "template": "page-chapter",
+   "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/page-faq\"} /-->"
+  },
+  {
+   "slug": "enquire",
+   "title": "Enquire",
+   "template": "page-chapter",
+   "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/page-enquire\"} /-->"
+  },
+  {
+   "slug": "privacy",
+   "title": "Privacy",
+   "template": "page-chapter",
+   "content": "<!-- wp:pattern {\"slug\":\"akari-hotel/page-privacy\"} /-->"
   }
  ],
  "navigation": {
@@ -17,34 +82,67 @@
   "items": [
    {
     "label": "Stay",
-    "url": "/#arrival"
+    "page": "stay"
    },
    {
     "label": "Rooms",
-    "url": "/#rooms"
+    "page": "rooms"
    },
    {
     "label": "Rates",
-    "url": "/#rates"
+    "page": "rates"
    },
    {
     "label": "Breakfast & Bar",
-    "url": "/#breakfast"
+    "page": "breakfast-bar"
    },
    {
     "label": "Neighbourhood",
-    "url": "/#enquire"
+    "page": "neighbourhood"
    },
    {
     "label": "Journal",
-    "url": "/#notes"
+    "page": "journal"
    }
   ]
  },
  "links": {},
- "categories": [],
- "tags": [],
- "posts": [],
+ "categories": [
+  {
+   "slug": "guest-notes",
+   "name": "Guest notes",
+   "description": "Short stories from guests: the room, the nights, the day."
+  }
+ ],
+ "tags": [
+  {
+   "slug": "work-stay",
+   "name": "Work stay",
+   "description": "Stays for a deadline."
+  },
+  {
+   "slug": "studio",
+   "name": "Studio",
+   "description": "The Studio room."
+  }
+ ],
+ "posts": [
+  {
+   "slug": "six-nights-one-deadline",
+   "title": "Six nights, one deadline",
+   "date": "2026-10-12",
+   "categories": [
+    "guest-notes"
+   ],
+   "tags": [
+    "work-stay",
+    "studio"
+   ],
+   "image": "assets/images/demo/p07-loft.webp",
+   "excerpt": "Rafael M. spent six nights in a long-stay Studio at €132, with the desk by the window and breakfast as the one fixed hour.",
+   "content": "<!-- wp:paragraph -->\n<p>I came for a deadline, not for a city break. The booking was a Studio for six nights on the long-stay rate, €132 a night, breakfast included. Five nights or more is the line that changes the Studio from €148. I had counted the nights before I wrote, and Daniel Okafor replied within one working day with that rate and a room. I confirmed with a card. Cancellation would have been free until forty-eight hours before I arrived. I did not cancel.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The walk from Wrenfield Central to 18 Tessel Street took the six minutes they had put in the note. It was just after 15:00. Tomás Ferreira was at the oak desk. The key was brass, the Studio was 19 square metres, and the desk I had booked for was by the window, which was the only thing I had really needed to be true. A queen bed, a lamp, a bath with a walk-in shower and a stone basin. Two guests is the maximum. I was one.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The first evening I opened the laptop and left it open too long. At 19:00 the corridor had gone quiet in the way of a house that is not trying to entertain anyone. The bar opens at 17:00. I went down because the room had become the size of the screen. Priya Raman’s counter is small. Water came without a discussion about whether water was included. It is. I sat with a notebook, not with a meeting. The work that needed a voice stayed upstairs with the door shut.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Quiet hours start at 23:00. I had been worried that a deadline would fight them. It did not. The rule is the corridors and the noise you make, not a curfew on the desk in your own room. Aiyana Brooks was the person at the front desk when I came back from the bar on the second night, later than I had planned, still before the bar closed at 00:30. She did not treat a working guest as a problem. The front desk is open twenty-four hours. I used that fact once, to ask for a cab on the morning I had to be elsewhere before breakfast, and the bag was at the desk when I got back.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Breakfast became the clock. Jonas Weber serves it from 07:00 to 10:30, and until 11:00 on Saturday and Sunday. It is in the rate, so I stopped deciding whether to go. Bread baked nearby, eggs if I asked, coffee, fruit. I ate at the window and was upstairs again while the table was still being cleared. On the Saturday I stayed until the later hour because the weekend breakfast runs to 11:00, which is also check-out time on a normal morning. I was not checking out. I had three nights left.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>I did not take the reading room. It is there if you need a table for six, €90 for a half day of four hours. My pages fitted the Studio desk. Printing was the one extra I had mentioned to Daniel in the first message, and it was ready when I asked, without becoming a second bill I had to decode at midnight. The Loft would have put the desk on a mezzanine up a steel stair. I did not want the stair between me and the bed at the end of a long page. The Corner room, at €186, has two windows and a king bed. I did not need the extra space. Nineteen square metres was a limit that helped.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Wrenfield stayed outside. One morning I walked as far as the bakery, the park, and the river path, and I was back before breakfast finished. I did not collect restaurants. One evening I ate at a place the desk named only after I asked, and I was glad they had not put it in a brochure. The hotel’s job was the room, the key, and the hour.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>On the last morning I paid the city tax at the desk. It is not inside the €132, and they do not print the figure on the site. They told me what I owed for the nights I had actually stayed, and I paid it there. Check-out is by 11:00. I was earlier. The six minutes back to Wrenfield Central were easier than the six minutes in, because the deadline was no longer in the bag.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>I am not going to say the room changed the work. The work got done because I sat at the desk. What the house did was stay out of the way between 15:00 on the first day and 11:00 on the last, and answer when I asked. That is the whole of the note.</p>\n<!-- /wp:paragraph -->"
+  }
+ ],
  "screens": {
   "home": "/"
  }

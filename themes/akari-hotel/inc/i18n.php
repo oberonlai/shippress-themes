@@ -37,6 +37,10 @@ function akari_hotel_t( $key ) {
 		if ( ! isset( $tables[ $lang ] ) ) {
 			$file             = __DIR__ . '/i18n/' . $lang . '.php';
 			$tables[ $lang ] = is_readable( $file ) ? (array) include $file : array();
+			$inner           = __DIR__ . '/i18n/' . $lang . '-inner.php'; // inner pages, journal and form strings.
+			if ( is_readable( $inner ) ) {
+				$tables[ $lang ] += (array) include $inner;
+			}
 		}
 		if ( isset( $tables[ $lang ][ $key ] ) ) {
 			return (string) $tables[ $lang ][ $key ];

@@ -16,7 +16,7 @@
 <!-- wp:group {"className":"ak-header__cta","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-header__cta"><!-- wp:buttons {"className":"ak-btns"} -->
 <div class="wp-block-buttons ak-btns"><!-- wp:button {"className":"ak-pill"} -->
-<div class="wp-block-button ak-pill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/#enquire' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'enquire' ) ); ?></a></div>
+<div class="wp-block-button ak-pill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/enquire/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'enquire' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

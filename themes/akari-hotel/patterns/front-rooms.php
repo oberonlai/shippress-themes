@@ -33,7 +33,7 @@
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 <!-- wp:paragraph {"className":"ak-link ak-link--light"} -->
-<p class="ak-link ak-link--light"><a href="<?php echo esc_url( home_url( '/#rooms' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'rooms_cta' ) ); ?></a></p>
+<p class="ak-link ak-link--light"><a href="<?php echo esc_url( home_url( '/rooms/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'rooms_cta' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
