@@ -50,11 +50,11 @@ img { max-width: 100%; height: auto; }
 .hz-brand { flex: none; display: flex; align-items: center; flex-wrap: nowrap; gap: 0; }
 .hz-brand__name { margin: 0; font-family: var(--hz-head); font-weight: 500; font-size: 1.375rem; line-height: 1; letter-spacing: 0; white-space: nowrap; }
 .hz-brand__name a { color: var(--hz-ink); text-decoration: none; }
-.hz-brand__micro { margin: 0 0 0 16px; padding-left: 16px; border-left: 1px solid var(--hz-hair); font-size: .75rem; line-height: 16px; letter-spacing: .02em; white-space: nowrap; }
-.hz-nav { margin-left: auto; }
+.hz-card .hz-brand__micro { margin: 0 0 0 16px; padding-left: 16px; border-left: 1px solid var(--hz-hair); font-size: .75rem; line-height: 16px; letter-spacing: .02em; white-space: nowrap; }
+.hz-card .hz-nav { flex: 1 1 auto; margin-left: 24px; display: flex; justify-content: flex-end; }
 .hz-nav .wp-block-navigation__responsive-container-open { width: 44px; height: 28px; padding: 0; border: 1px solid rgba(46, 48, 60, .15); border-radius: 14px; background: var(--hz-surface); color: var(--hz-ink); align-items: center; justify-content: center; }
 .hz-nav .wp-block-navigation__responsive-container-open svg { width: 18px; height: 18px; }
-.hz-pills { margin: 0 0 0 20px; display: flex; flex-wrap: nowrap; gap: 8px; }
+.hz-card .hz-pills { margin: 0 0 0 28px; display: flex; flex-wrap: nowrap; gap: 8px; }
 .hz-pills .wp-block-button { margin: 0; }
 .wp-block-button.hz-pill .wp-block-button__link { display: inline-flex; align-items: center; gap: 12px; box-sizing: border-box; height: 32px; padding: 0 5px 0 18px; border-radius: 24px; font-family: var(--hz-body); font-size: .875rem; font-weight: 400; line-height: 1; letter-spacing: .05em; color: #fff; white-space: nowrap; text-decoration: none; transition: background-color .3s var(--hz-ease); }
 .wp-block-button.hz-pill .wp-block-button__link::after { content: "→"; display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 14px; border-radius: 7px; background: #fff; color: var(--hz-ink); font-size: 10px; line-height: 1; letter-spacing: 0; }
@@ -64,19 +64,19 @@ img { max-width: 100%; height: auto; }
 .wp-block-button.hz-pill--dark .wp-block-button__link:hover { background: var(--hz-action); }
 .wp-block-button.hz-pill--blue .wp-block-button__link:hover { background: var(--hz-ink); }
 .hz-pills .hz-pill--short { display: none; }
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
 	.hz-nav .wp-block-navigation__responsive-container-open { display: none !important; }
 	.hz-nav .wp-block-navigation__responsive-container.hidden-by-default:not(.is-menu-open) { display: block !important; position: static; width: auto; height: auto; padding: 0; background: none; color: inherit; }
 	.hz-nav .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__responsive-container-close { display: none; }
 	.hz-nav .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__responsive-container-content { padding: 0; display: block; }
-	.hz-nav .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container { display: flex; flex-wrap: nowrap; flex-direction: row; gap: 24px; align-items: center; }
+	.hz-nav .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container { display: flex; flex-wrap: nowrap; flex-direction: row; gap: 24px; align-items: center; justify-content: flex-end; }
 	.hz-nav .wp-block-navigation-item a { white-space: nowrap; }
 }
 @media (max-width: 1339px) {
-	.hz-brand__micro { display: none; }
+	.hz-card .hz-brand__micro { display: none; }
 }
 @media (max-width: 1099px) {
-	.hz-pills { margin-left: 12px; }
+	.hz-card .hz-pills { margin-left: 12px; }
 }
 @media (max-width: 959px) {
 	.hz-band .hz-band__scroll { display: none; }
@@ -85,7 +85,7 @@ img { max-width: 100%; height: auto; }
 	.hz-pills .hz-pill--long { display: none; }
 	.hz-pills .hz-pill--short { display: block; }
 	.hz-pills .hz-pill--dark { display: none; }
-	.hz-pills { margin-left: 12px; }
+	.hz-card .hz-pills { margin-left: 12px; }
 }
 
 /* ---------- shared: lockup (T3), link rows, caption rows ---------- */
@@ -144,7 +144,7 @@ img { max-width: 100%; height: auto; }
 .hz-statement__p { margin: 0; font-size: 1.0625rem; line-height: 2; }
 .hz-statement .hz-linkrow--narrow { margin-top: 56px; }
 .hz-ghosts { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
-.hz-ghost-photo { position: absolute; margin: 0; filter: blur(6px); opacity: .85; }
+.hz-ghost-photo { position: absolute; margin: 0; filter: blur(6px) contrast(.9) brightness(1.06); }
 .hz-ghost-photo img { aspect-ratio: 302 / 268; object-fit: cover; }
 .hz-ghost-photo--a { width: 302px; top: 88px; right: var(--hz-side); }
 .hz-ghost-photo--b { width: 259px; left: -40px; top: 921px; }
@@ -236,7 +236,7 @@ img { max-width: 100%; height: auto; }
 .hz-cluster { position: relative; z-index: 1; height: 470px; margin-top: 80px; }
 .hz-cluster__a { position: absolute; left: 226px; top: 0; width: 336px; margin: 0; }
 .hz-cluster__a img { aspect-ratio: 3 / 4; object-fit: cover; }
-.hz-cluster__b { position: absolute; right: calc(-1 * var(--hz-side) - 100px); top: 180px; width: 360px; margin: 0; filter: blur(6px); opacity: .85; }
+.hz-cluster__b { position: absolute; right: calc(-1 * var(--hz-side) - 100px); top: 180px; width: 360px; margin: 0; filter: blur(6px) contrast(.9) brightness(1.06); }
 .hz-cluster__b img { aspect-ratio: 4 / 3; object-fit: cover; }
 .hz-ctcols { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; margin-top: 64px; }
 .hz-ctcol__h { margin: 0; color: var(--hz-accent); font-size: .9375rem; font-weight: 500; line-height: 1.5; }
@@ -310,7 +310,9 @@ img { max-width: 100%; height: auto; }
 	.hz-pair__col--drop { margin-top: 56px; }
 	.hz-cap .hz-ghost { font-size: 4rem; top: -24px; }
 	.hz-net, .hz-co, .hz-sv { display: block; }
-	.hz-figs { margin-bottom: 40px; }
+	.hz-figs { margin-bottom: 48px; }
+	.hz-hubs { margin-top: 0; }
+	.hz-net__left { margin-bottom: 48px; }
 	.hz-co__img, .hz-sv__img { margin-top: 40px; }
 	.hz-sv__text { margin-top: 40px; }
 	.hz-notes__list.wp-block-post-template { grid-template-columns: minmax(0, 1fr); }
