@@ -38,3 +38,35 @@ Cormorant Garamond and Nunito Sans (SIL OFL 1.1, licences in assets/fonts).
 
 ## Menu
 Until the inner pages ship, every header and footer link points to a section of the home page (`/#rooms`, `/#rates` and so on), so no link leads to a missing page.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Akari Hotel home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Akari Hotel home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Stay: [desktop](screenshots/stay-desktop.webp) · [mobile](screenshots/stay-mobile.webp)
+- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
+- Rates: [desktop](screenshots/rates-desktop.webp) · [mobile](screenshots/rates-mobile.webp)
+- Breakfast bar: [desktop](screenshots/breakfast-bar-desktop.webp) · [mobile](screenshots/breakfast-bar-mobile.webp)
+- Work stays: [desktop](screenshots/work-stays-desktop.webp) · [mobile](screenshots/work-stays-mobile.webp)
+- Neighbourhood: [desktop](screenshots/neighbourhood-desktop.webp) · [mobile](screenshots/neighbourhood-mobile.webp)
+- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Enquire: [desktop](screenshots/enquire-desktop.webp) · [mobile](screenshots/enquire-mobile.webp)
+- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
