@@ -39,7 +39,7 @@
 <!-- wp:group {"className":"hz-cap sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hz-cap sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"hz-ghost"} -->
-<p class="hz-ghost" aria-hidden="true">#01</p>
+<p class="hz-ghost">#01</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hz-cap__label"} -->
@@ -71,7 +71,7 @@
 <!-- wp:group {"className":"hz-cap sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hz-cap sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"hz-ghost"} -->
-<p class="hz-ghost" aria-hidden="true">#03</p>
+<p class="hz-ghost">#03</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hz-cap__label"} -->
@@ -107,7 +107,7 @@
 <!-- wp:group {"className":"hz-cap sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hz-cap sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"hz-ghost"} -->
-<p class="hz-ghost" aria-hidden="true">#02</p>
+<p class="hz-ghost">#02</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hz-cap__label"} -->
@@ -139,7 +139,7 @@
 <!-- wp:group {"className":"hz-cap sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hz-cap sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"hz-ghost"} -->
-<p class="hz-ghost" aria-hidden="true">#04</p>
+<p class="hz-ghost">#04</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hz-cap__label"} -->
