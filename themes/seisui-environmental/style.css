@@ -254,14 +254,77 @@ html:not(.sp-no-motion) .sp-marquee.ss-strip > * { animation-duration: 40s; }
 
 /* Inner pages: the pattern carries its own ghost-word head, so the template title is hidden there */
 .ss-main:has(.ss-inner-wrap) .ss-page-title { display: none; }
-.ss-inner-wrap { padding: 120px var(--ss-pad) 100px; overflow-x: clip; }
+.ss-inner-wrap { padding: 0; overflow-x: clip; }
 .ss-inner-wrap .ss-inner__text, .ss-inner-wrap .ss-inner__row { margin-top: 3.5rem; }
 .ss-inner-wrap .ss-inner__text .wp-block-buttons { margin-top: 1.5rem; }
 .ss-ledger-table table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
 .ss-ledger-table th, .ss-ledger-table td { text-align: left; padding: 0.9rem 0.75rem; border-top: 1px solid var(--ss-line); }
 .ss-ledger-table thead th { font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ss-quiet); font-weight: 600; }
 .ss-ledger-table tbody tr:last-child td { border-bottom: 1px solid var(--ss-line); }
-@media (max-width: 781px) { .ss-inner-wrap { padding: 96px 1.5rem 64px; } .ss-ledger-table { overflow-x: auto; } .ss-ledger-table th, .ss-ledger-table td { padding: 0.7rem 0.5rem; } }
+@media (max-width: 781px) { .ss-ledger-table { overflow-x: auto; } .ss-ledger-table th, .ss-ledger-table td { padding: 0.7rem 0.5rem; } }
 .ss-inner-wrap .ss-inner__text > * { max-width: 760px; margin-left: 0 !important; margin-right: auto !important; }
 .ss-ledger-table table, .ss-ledger-table th, .ss-ledger-table td { border-left: 0; border-right: 0; }
 .ss-ledger-table thead th { border-bottom: 1px solid var(--ss-ink); }
+
+/* Inner pages: T4 head (hero reused), pale / short sections, rows, text cards */
+.ss-hero--inner { min-height: 0 !important; padding-bottom: 5rem; }
+.ss-hero--inner .ss-hero__title { font-size: clamp(2.25rem, 3.8vw, 3.75rem); }
+.ss-hero--inner .ss-hero__bottom { padding-top: 2.5rem; }
+.ss-hero--inner .ss-hero__text .ss-lead { font-size: 0.9375rem; line-height: 1.8; margin: 0 !important; }
+.ss-sec--pale { background: var(--ss-band); }
+.ss-sec--short { padding-top: 56px; padding-bottom: 64px; }
+.ss-sec--lead { padding-top: 80px; }
+.ss-lead--block { max-width: 760px; margin: 0 0 3rem !important; font-size: 1.0625rem; line-height: 1.8; }
+.ss-pricewrap { margin-top: 3rem; }
+.ss-mt { margin-top: 3rem; }
+.ss-h3 { font-family: var(--wp--preset--font-family--serif); font-size: 1.5rem; line-height: 1.5; font-weight: 500; margin: 0 0 0.75rem !important; }
+.ss-dated, .ss-bios, .ss-svcs { max-width: 1200px; margin-inline: auto !important; }
+.ss-drow { display: grid; grid-template-columns: 3fr 9fr; gap: 2rem; padding: 2rem 0; border-top: 1px solid var(--ss-line); }
+.ss-drow:last-child { border-bottom: 1px solid var(--ss-line); }
+.ss-drow > * { margin: 0 !important; }
+.ss-drow__h { font-family: var(--wp--preset--font-family--serif); font-size: 1.5rem; line-height: 1.5; font-weight: 500; color: var(--ss-accent-dark); }
+.ss-cols3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3rem; max-width: 1200px; margin-inline: auto !important; }
+.ss-cols3__item { border-top: 2px solid var(--ss-accent); padding-top: 1.25rem; margin: 0 !important; }
+.ss-cols3__item .ss-body { font-size: 0.9375rem; }
+.ss-svc { display: grid; grid-template-columns: 1fr minmax(9em, auto); gap: 2rem; align-items: start; padding: 2rem 0; border-top: 1px solid var(--ss-line); }
+.ss-svc:last-child { border-bottom: 1px solid var(--ss-line); }
+.ss-svc > * { margin: 0 !important; }
+.ss-svc__text { max-width: 760px; }
+.ss-svc__price { white-space: nowrap; text-align: right; font-weight: 600; font-size: 1.25rem; color: var(--ss-accent-dark); font-variant-numeric: tabular-nums; }
+.ss-bio { display: grid; grid-template-columns: 3fr 9fr; gap: 2rem; padding: 2rem 0; border-top: 1px solid var(--ss-line); }
+.ss-bio:last-child { border-bottom: 1px solid var(--ss-line); }
+.ss-bio > * { margin: 0 !important; }
+.ss-bio__who > * { margin: 0 0 0.25rem !important; }
+.ss-bio__text { max-width: 760px; }
+.ss-card--text { min-height: 0; padding: 32px; }
+.ss-card--text .ss-card__name { font-family: var(--wp--preset--font-family--serif); font-size: 1.25rem; font-weight: 500; margin-bottom: 0.75rem !important; }
+.ss-card__body { font-size: 0.9375rem; line-height: 1.7; margin: 0 0 0.8rem !important; }
+.ss-cards--2 { grid-template-columns: repeat(2, 1fr); max-width: 800px; }
+.ss-faq__item { border-top: 1px solid var(--ss-line); padding: 1.1rem 0; }
+.ss-faq__item:last-child { border-bottom: 1px solid var(--ss-line); }
+.ss-faq__item summary { cursor: pointer; font-family: var(--wp--preset--font-family--serif); font-size: 1.25rem; line-height: 1.5; }
+.ss-faq__item p { margin: 0.75rem 0 0; font-size: 0.9375rem; line-height: 1.75; }
+.ss-mapbox { background: #fff; border-radius: 10px; padding: 2.5rem; max-width: 760px; margin-inline: auto 0 !important; }
+.ss-mapbox > * { margin: 0 0 0.6rem !important; }
+.ss-main > .ss-sec--journal, .ss-journal { max-width: 1200px; margin-inline: auto; }
+.ss-post { display: grid; grid-template-columns: 5fr 7fr; gap: 3rem; padding: 2.5rem 0; border-top: 1px solid var(--ss-line); align-items: center; }
+.ss-post:last-child { border-bottom: 1px solid var(--ss-line); }
+.ss-post img { border-radius: 10px; aspect-ratio: 3 / 2; object-fit: cover; width: 100%; }
+.ss-post .wp-block-post-title { font-family: var(--wp--preset--font-family--serif); font-size: 1.75rem; line-height: 1.4; font-weight: 500; margin: 0.4rem 0 0.75rem; }
+.ss-post .wp-block-post-title a { color: var(--ss-ink); text-decoration: none; }
+.ss-post .wp-block-post-date { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ss-accent-dark); }
+.ss-post .wp-block-post-excerpt { font-size: 0.9375rem; color: var(--ss-ink); }
+.ss-single { max-width: 760px; margin-inline: auto; padding: 120px 1.5rem 80px; }
+.ss-single__title { font-family: var(--wp--preset--font-family--serif); font-size: clamp(2rem, 3.6vw, 3rem); line-height: 1.35; font-weight: 400; letter-spacing: 0.04em; margin: 0.5rem 0 2rem; }
+.ss-single .wp-block-post-featured-image img { border-radius: 10px; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.ss-single .wp-block-post-content p { line-height: 1.85; }
+@media (max-width: 960px) { .ss-cols3 { grid-template-columns: 1fr; gap: 2rem; } .ss-post { grid-template-columns: 1fr; gap: 1.25rem; } }
+@media (max-width: 781px) {
+	.ss-hero--inner { padding-bottom: 3rem; }
+	.ss-drow, .ss-bio { grid-template-columns: 1fr; gap: 0.75rem; }
+	.ss-svc { grid-template-columns: 1fr; gap: 0.75rem; }
+	.ss-svc__price { text-align: right; }
+	.ss-cards--2 { grid-template-columns: 1fr; }
+	.ss-mapbox { padding: 1.5rem; }
+	.ss-single { padding: 96px 1.5rem 56px; }
+}
