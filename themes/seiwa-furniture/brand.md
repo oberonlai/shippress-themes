@@ -42,3 +42,6 @@ Factory tour every Thursday 14:00, 60 min, max 8. Lead time 6 weeks. Warranty 10
 
 ## Pages
 Home, About, Products, Specification, Projects, Factory, Price list, Showroom, Team, Contact, Notes (inner pages follow in stage two).
+
+## A day at the factory
+The day starts at 7:30 when the line leads walk the floor. Frames are welded and powder-coated in the morning, upholstery and assembly run after lunch, and the evening crew loads vans for next-day installs. Visitors on the Thursday 14:00 tour follow the same route a chair takes through the day.

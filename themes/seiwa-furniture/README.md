@@ -6,3 +6,6 @@ A WordPress block theme for a fictional Eindhoven office-furniture manufacturer 
 - **Palette.** White ground, mist bands `#F3F6F8`, flat panels `#DCE5EA`, ink `#222222`; blue-grey `#5E727C` only on small marks.
 - **Type.** Source Serif 4 headings, Source Sans 3 body; Noto Serif TC/JP for CJK.
 - **Signature.** Staggered photo pair (wide photo across the fold, portrait with an elliptical corner off the right edge) over flat panels; outlined cards running off the right edge with the photo flush right; masked photos scattered round a centred text block with a line plan. Scroll: sp-parallax on the first screen and showroom photo, fade-up reveal with stagger, counted ledger numbers.
+
+## Status
+Home page (en) is final for stage two: mobile key visual follows the spec (wide photo bleeds right, portrait 56vw), showroom tile no longer covers text, product, showroom and key-visual photos are empty finished sets, the main menu links to the seven inner pages. Inner pages and the zh-TW, ja, fr, de translations follow.

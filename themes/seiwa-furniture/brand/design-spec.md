@@ -125,7 +125,7 @@ STAGE Lab opens on white with a bold two-part headline top-left ("see it, touch 
 Same composition, our industry. Top half on white: the serif headline **"See it made, sit in it, / then specify it."** with the sub-line "Chairs, desks and acoustic panels built to specification for architects and fit-out contractors — Eindhoven, since 1994." Bottom half: the **wide high-key photograph of an assembler fitting a pale blue-grey fabric back panel onto an office chair on the production line** (two hands pressing the panel into the frame; a colleague's forearm passing a part in from the edge of frame, like R1's reaching arm), low and right of centre, cut by the fold. On the right edge: the **tall portrait of a specifier's hand laying a fabric swatch on the arm of a finished task chair in the showroom**, with a row of swatch cards on a pale wall behind (our sample wall = R1's switch wall), its top-left corner swept into the same quarter-ellipse. Behind them the flat pale slate panels; on the wide photo's top-right corner a small line drawing of a **stack of swatch cards and a tape measure**; walking off the portrait's lower-left corner a line drawing of a **task chair in side elevation** (ink line, one flat blue-grey spot fill on the seat). Story: *you can see how it is made and handle the real fabric before you specify it*. Motion: headline first, photos next, drawings last (CSS load fade, not sp-reveal); on scroll both photos drift inside their frames at two different speeds (`sp-parallax`).
 
 ### (3) KV checklist (all six visible in the 1440×900 first screen; at 390×844 rows 1, 2, 6 visible, 3–5 below the fold are fine)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Image used |
 |---|---|---|---|---|---|
 | 1 | Bold headline + small bold sub-line, top-left on white | "See it made, sit in it, / then specify it." Source Serif 4 600 3rem/1.25 + sub-line Source Sans 3 600 0.875rem/2.0 | top half, left 80px, headline top y ≈ 274 | CSS load fade 0→1, .6s, `cubic-bezier(.33,1,.68,1)` (power2.out), delay 0 | none (text) |
 | 2 | Wide 782×448 photo of a worker mid-task (paint roller, colleague's arm), straddling the fold, right of centre | Assembler fitting a blue-grey fabric back panel onto an office chair on the line, colleague's forearm passing a part in | left 14.4vw, top 481px, width 54vw, ratio 1.75:1, bottom ≈ 929px (cut by the fold) | `sp-parallax` `--sp-par: 8%` (mobile 5%) + load fade .8s delay .2s | `kv-chair-line.webp` |
@@ -186,7 +186,7 @@ Why not alike: no full-bleed hero, no info bar, no arches, circles, torn edges, 
 
 ## 4. Colour
 
-R1 relationship kept exactly (white ground ≈ 55 %, mist bands ≈ 35 %, pale panel ≈ 4–7 %, one muted accent < 2 %, near-black ink for text, borders and the pill) `[tok a]`. **Hue change, with reason**: R1's sage family (`#677771`, `#DEE8E3`) is almost the accent of the most recent theme Hodoki Clinic (`#6E847C`, sage), and the common rules say avoid recent main colours; the row's palette is 藍鼠 `#5E727C`. So we rotate the hue from green-grey to blue-grey at the **same lightness** (each within ±5 % L), keeping ground and ink identical.
+R1 relationship kept exactly (white ground ≈ 55 %, mist bands ≈ 35 %, pale panel ≈ 4–7 %, one muted accent < 2 %, near-black ink for text, borders and the pill) `[tok a]`. **Hue change, with reason**: R1's sage family (`#677771`, `#DEE8E3`) is almost the accent of the most recent theme Hodoki Clinic (`#6E847C`, sage), and the common rules say avoid recent main colours; the row's palette is blue-grey `#5E727C`. So we rotate the hue from green-grey to blue-grey at the **same lightness** (each within ±5 % L), keeping ground and ink identical.
 
 | Token (theme.json slug) | Hex | R1 source token | ΔL | Use | Share (page / first screen) |
 |---|---|---|---|---|---|
@@ -206,7 +206,7 @@ R1 relationship kept exactly (white ground ≈ 55 %, mist bands ≈ 35 %, pale p
 
 ## 5. Type (font_direction = **serif**)
 
-Latin heading **Source Serif 4** (OFL, variable 200–900, opsz), Latin body **Source Sans 3** (OFL, variable 200–900). CJK = 明體: **Noto Serif TC** (zh-TW) and **Noto Serif JP** (ja) for headings and body; no 黑體 anywhere. All faces are loaded through **theme.json `fontFamilies` + `fontFace`** (woff2 in `assets/fonts/`, Latin subset for the two Source faces, zh-TW / ja subsets made the Hokuto/Hada way — the subset script is broken, use their replacement); no `wp_enqueue` font CSS. style.css uses `:lang()` → copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and `require_once` it so the editor iframe shows the same faces (check-editor-fonts.mjs en + zh-TW).
+Latin heading **Source Serif 4** (OFL, variable 200–900, opsz), Latin body **Source Sans 3** (OFL, variable 200–900). CJK = Mincho serif: **Noto Serif TC** (zh-TW) and **Noto Serif JP** (ja) for headings and body; no sans anywhere. All faces are loaded through **theme.json `fontFamilies` + `fontFace`** (woff2 in `assets/fonts/`, Latin subset for the two Source faces, zh-TW / ja subsets made the Hokuto/Hada way — the subset script is broken, use their replacement); no `wp_enqueue` font CSS. style.css uses `:lang()` → copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and `require_once` it so the editor iframe shows the same faces (check-editor-fonts.mjs en + zh-TW).
 
 | Use | Stack |
 |---|---|
