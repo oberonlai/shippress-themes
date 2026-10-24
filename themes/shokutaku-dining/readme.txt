@@ -27,6 +27,8 @@ The restaurant, its people, address, telephone number, prices and producers are 
 Shokutaku Dining is distributed under the terms of the GNU GPL v2 or later.
 Fonts: Fraunces (OFL-1.1, Copyright 2018 The Fraunces Project Authors), variable weight 100-900, Latin subset, WOFF2, see assets/fonts/.
 Fonts: Source Sans 3 (OFL-1.1, Copyright 2010-2020 Adobe), variable weight 200-900, Latin subset, WOFF2, see assets/fonts/.
+Fonts: Noto Serif JP (OFL-1.1, Copyright 2012 Google Inc.), weight 400, subset to the characters of the Japanese sample text, WOFF2, see assets/fonts/.
+Fonts: Noto Serif TC (OFL-1.1, Copyright 2012 Google Inc.), weight 400, subset to the characters of the Traditional Chinese sample text, WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later; no dependencies).
 
 = Images =
