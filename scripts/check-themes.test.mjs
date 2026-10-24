@@ -360,3 +360,18 @@ test("check-first-screen.py measures the saturated share of the first screen", (
     assert.equal(run("jika-tabi", "--max", "100", "--crop", "800x600").status, 0);
   }
 });
+
+test("store themes must declare a store block in theme-meta.json (2026-10-24, hayate-cycles)", async () => {
+  const { STORE_BLOCK_LEGACY } = await import("./check-themes.mjs");
+  const store = slugs.find((s) => { const m = JSON.parse(readFileSync(join(THEMES, s, "theme-meta.json"), "utf8")); return m.type === "store" && m.store && !STORE_BLOCK_LEGACY.includes(s); });
+  assert.ok(store, "a store theme with a store block");
+  const dir = mkdtempSync(join(tmpdir(), "theme-storeblock-"));
+  try {
+    const t = join(dir, store);
+    cpSync(join(THEMES, store), t, { recursive: true });
+    const p = join(t, "theme-meta.json"); const m = JSON.parse(readFileSync(p, "utf8"));
+    assert.doesNotMatch(checkTheme(t, store).join("\n"), /"store" block/);
+    delete m.store; writeFileSync(p, JSON.stringify(m));
+    assert.match(checkTheme(t, store).join("\n"), /a store theme needs a "store" block/);
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
