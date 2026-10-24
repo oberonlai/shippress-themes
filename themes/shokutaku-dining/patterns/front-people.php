@@ -10,101 +10,101 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"shk-people","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull shk-people"><!-- wp:paragraph {"className":"shk-ghost"} -->
-<p class="shk-ghost">PEOPLE</p>
+<p class="shk-ghost"><?php echo wp_kses_post( shokutaku_dining_t( 'kdfb25a2b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"shk-in shk-people__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-in shk-people__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"shk-people__photo sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full shk-people__photo sp-reveal sp-reveal--wipe"><img src="<?php echo shokutaku_dining_img( 'p06.webp' ); ?>" alt="Elena Vasquez, chef-owner, half length at the pass, looking aside."/></figure>
+<figure class="wp-block-image size-full shk-people__photo sp-reveal sp-reveal--wipe"><img src="<?php echo shokutaku_dining_img( 'p06.webp' ); ?>" alt="<?php echo esc_attr( shokutaku_dining_t( 'ad36b14e8' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"shk-people__body","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-people__body"><!-- wp:heading {"level":2,"className":"shk-h2"} -->
-<h2 class="wp-block-heading shk-h2">Seven people, one pass.</h2>
+<h2 class="wp-block-heading shk-h2"><?php echo wp_kses_post( shokutaku_dining_t( 'k89dc810b' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Elena Vasquez is chef-owner and plates at the steel pass. She keeps the menu short and ties it to the Tuesday delivery, the Wednesday and Friday fish, and the weekly flour. Amara Mensah is sous chef, Jonas Berg makes the bread and pastry, and Lea Fischer leads lunch service.</p>
+<p><?php echo wp_kses_post( shokutaku_dining_t( 'k6dfd62b6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Tomasz Nowak is co-owner and host. He and Elena opened here in 2014, in the former bakery on Havenstraat, and he meets guests as they come in. Priya Raman looks after wine and drinks, and Mateo Rossi handles reservations and the private room.</p>
+<p><?php echo wp_kses_post( shokutaku_dining_t( 'kf20f3a6c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"shk-names sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-names sp-stagger"><!-- wp:group {"className":"shk-name sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-name sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"shk-name__n"} -->
-<p class="shk-name__n">Elena Vasquez</p>
+<p class="shk-name__n"><?php echo wp_kses_post( shokutaku_dining_t( 'k77fb71d0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"shk-name__r"} -->
-<p class="shk-name__r">Chef-owner</p>
+<p class="shk-name__r"><?php echo wp_kses_post( shokutaku_dining_t( 'k66c5415e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"shk-name sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-name sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"shk-name__n"} -->
-<p class="shk-name__n">Tomasz Nowak</p>
+<p class="shk-name__n"><?php echo wp_kses_post( shokutaku_dining_t( 'ke96d3703' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"shk-name__r"} -->
-<p class="shk-name__r">Co-owner and host</p>
+<p class="shk-name__r"><?php echo wp_kses_post( shokutaku_dining_t( 'k54a3fab1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"shk-name sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-name sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"shk-name__n"} -->
-<p class="shk-name__n">Amara Mensah</p>
+<p class="shk-name__n"><?php echo wp_kses_post( shokutaku_dining_t( 'kb0a7fe20' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"shk-name__r"} -->
-<p class="shk-name__r">Sous chef</p>
+<p class="shk-name__r"><?php echo wp_kses_post( shokutaku_dining_t( 'kaa5a4caf' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"shk-name sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-name sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"shk-name__n"} -->
-<p class="shk-name__n">Jonas Berg</p>
+<p class="shk-name__n"><?php echo wp_kses_post( shokutaku_dining_t( 'keaed4fb3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"shk-name__r"} -->
-<p class="shk-name__r">Bread and pastry</p>
+<p class="shk-name__r"><?php echo wp_kses_post( shokutaku_dining_t( 'k46f1a89f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"shk-name sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-name sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"shk-name__n"} -->
-<p class="shk-name__n">Priya Raman</p>
+<p class="shk-name__n"><?php echo wp_kses_post( shokutaku_dining_t( 'ke16336e3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"shk-name__r"} -->
-<p class="shk-name__r">Wine and drinks</p>
+<p class="shk-name__r"><?php echo wp_kses_post( shokutaku_dining_t( 'ke27a57a6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"shk-name sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-name sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"shk-name__n"} -->
-<p class="shk-name__n">Mateo Rossi</p>
+<p class="shk-name__n"><?php echo wp_kses_post( shokutaku_dining_t( 'k997d4a84' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"shk-name__r"} -->
-<p class="shk-name__r">Reservations and private dining</p>
+<p class="shk-name__r"><?php echo wp_kses_post( shokutaku_dining_t( 'k80b28de4' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"shk-name sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-name sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"shk-name__n"} -->
-<p class="shk-name__n">Lea Fischer</p>
+<p class="shk-name__n"><?php echo wp_kses_post( shokutaku_dining_t( 'k5e566acc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"shk-name__r"} -->
-<p class="shk-name__r">Lunch service lead</p>
+<p class="shk-name__r"><?php echo wp_kses_post( shokutaku_dining_t( 'ka42e1314' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"shk-textlink"} -->
-<p class="shk-textlink"><a href="/people/">Meet the team →</a></p>
+<p class="shk-textlink"><a href="/people/"><?php echo wp_kses_post( shokutaku_dining_t( 'kd4d387f1' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

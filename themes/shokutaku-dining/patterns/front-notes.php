@@ -10,12 +10,12 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"shk-notes","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull shk-notes"><!-- wp:paragraph {"className":"shk-ghost"} -->
-<p class="shk-ghost">NOTES</p>
+<p class="shk-ghost"><?php echo wp_kses_post( shokutaku_dining_t( 'kad11572a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"shk-in","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-in"><!-- wp:heading {"level":2,"className":"shk-h2 shk-h2--center"} -->
-<h2 class="wp-block-heading shk-h2 shk-h2--center">From the kitchen notebook.</h2>
+<h2 class="wp-block-heading shk-h2 shk-h2--center"><?php echo wp_kses_post( shokutaku_dining_t( 'kde39b640' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:query {"queryId":2,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":false},"className":"shk-cards","layout":{"type":"default"}} -->
@@ -23,7 +23,7 @@
 <!-- wp:group {"className":"shk-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-card sp-reveal sp-reveal--up"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"5/7","className":"shk-arch shk-arch--small shk-card__img"} /-->
 
-<!-- wp:post-date {"format":"j F Y","className":"shk-label"} /-->
+<!-- wp:post-date {"format":"<?php echo esc_attr( shokutaku_dining_t( 'date_fmt' ) ); ?>","className":"shk-label"} /-->
 
 <!-- wp:post-title {"level":3,"isLink":true,"className":"shk-card__title"} /-->
 
