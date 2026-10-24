@@ -4,7 +4,7 @@ A WordPress block theme for a private music school in Ghent (founded 2011) for c
 
 ## Concept: a school told as one teaching day
 
-- **Palette.** Ink ground `#0D0B06`, lifted ink `#17140E` for the fee panel and footer, bone `#D9D7D4` for text and hairlines; grape `#705868` only on 4px nav dots, the active-nav underline, the focus ring and the button hover. First screen saturated pixels under 5%.
+- **Palette.** Ink ground `#0D0B06`, lifted ink `#17140E` for the fee panel and footer, bone `#D9D7D4` for text and hairlines; grape `#705868` only on 4px nav dots, the active-nav underline, the focus ring and the button hover. First screen saturated pixels under 5%. The header is sticky and fades in an ink ground as you scroll (CSS scroll-driven, no script); the hero sits under it.
 - **Type.** Crimson Pro for headings and reading, Outfit for labels, rail labels and time numerals (OFL-1.1, Latin WOFF2 bundled).
 - **Photographs.** Sixteen low-key photographs from one shared style string, none repeated on the page.
 - **Signature.** (1) Two overlapping 2:3 portrait photographs in the hero, the small one rising above the big one's top edge, with the third headline line indented; (2) the teaching day as five stacked sticky rows, each a time numeral, title, text and 324x495 portrait with a hairline that stops at the photo column; (3) a vertical rail label in the left gutter of every section and a 72px-line text link.
