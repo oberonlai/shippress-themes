@@ -38,7 +38,7 @@ $hv_img = static function ( $file ) {
 
 <!-- wp:buttons {"className":"hv-btns"} -->
 <div class="wp-block-buttons hv-btns"><!-- wp:button {"className":"hv-btn hv-btn--lg"} -->
-<div class="wp-block-button hv-btn hv-btn--lg"><a class="wp-block-button__link wp-element-button" href="tel:+15550142208"><?php echo esc_html( hitomi_vision_t( 'book' ) ); ?></a></div>
+<div class="wp-block-button hv-btn hv-btn--lg"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/visit/' ) ); ?>"><?php echo esc_html( hitomi_vision_t( 'book' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

@@ -12,3 +12,14 @@ Hitomi Vision is an independent optometry clinic theme for a practice that sees 
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hitomi Vision home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hitomi Vision home page on mobile"></td>
+</tr>
+</table>
+<!-- screenshots:end -->

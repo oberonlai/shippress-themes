@@ -67,7 +67,7 @@ img { max-width: 100%; height: auto; }
 .hv-hero__cap { font-family: var(--wp--preset--font-family--ui); font-size: var(--wp--preset--font-size--x-small); letter-spacing: .06em; text-transform: lowercase; color: var(--wp--preset--color--sub); line-height: 1.7; margin: 28px 0 0; padding-bottom: 24px; }
 .hv-clarity { display: none; margin: 0; pointer-events: none; user-select: none; }
 @media (min-width: 1024px) {
-	.hv-clarity { display: block; position: absolute; top: 250px; right: calc(var(--hv-gut) + 24px); z-index: 0; font-size: 15rem; line-height: .8; font-style: italic; font-weight: 300; letter-spacing: -.02em; color: var(--wp--preset--color--ink); opacity: .06; }
+	.hv-clarity { display: block; position: absolute; top: 365px; right: calc(var(--hv-gut) + 24px); z-index: 0; font-size: 15rem; line-height: .8; font-style: italic; font-weight: 300; letter-spacing: -.02em; color: var(--wp--preset--color--ink); opacity: .06; }
 }
 @media (max-width: 1023px) {
 	.hv-hero__top { grid-template-columns: minmax(0, 1fr); row-gap: 1.75rem; padding-top: 16px; }
@@ -201,3 +201,17 @@ img { max-width: 100%; height: auto; }
 @media (min-width: 782px) { .hv-polaroid-pair .hv-polaroid-pair__cards > .hv-polaroid.hv-polaroid--a { margin-top: 110px; } }
 .hv-foot__nav .wp-block-navigation__container { gap: .15rem; }
 .hv-foot__nav .wp-block-navigation-item__content { padding: 0; }
+
+/* stage 2 fixes: nav "+", mobile menu word, caption above the next dome, baseline hours, tighter fees tail */
+.hv-nav .hv-has-plus > .wp-block-navigation-item__content::after { content: "+"; display: inline-block; width: 12px; height: 12px; margin-left: .55em; border: 1px solid var(--wp--preset--color--line); font-size: 10px; line-height: 10px; text-align: center; vertical-align: .08em; letter-spacing: 0; }
+.hv-nav .wp-block-navigation__submenu-container { background: var(--wp--preset--color--light); border: 1px solid var(--hv-line); border-radius: 0; padding: .5rem 0; min-width: 15rem; }
+.hv-nav .wp-block-navigation__submenu-container .wp-block-navigation-item__content { padding: .45rem 1rem; }
+.hv-nav .wp-block-navigation__submenu-icon { display: none; }
+@media (max-width: 599px) { .hv-nav .wp-block-navigation__responsive-container-open { display: inline-flex; } }
+.hv-nav .wp-block-navigation__responsive-container-open {  align-items: center; gap: .6em; font-family: var(--wp--preset--font-family--ui); font-size: var(--wp--preset--font-size--nav); letter-spacing: .06em; text-transform: lowercase; }
+.hv-nav .wp-block-navigation__responsive-container-open::before { content: var(--hv-menu-label, "menu"); order: -1; }
+.hv-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { gap: 1.25rem; font-size: 1.5rem; }
+.hv-interlude__cap { position: relative; z-index: 2; margin-bottom: 140px; }
+@media (max-width: 781px) { .hv-interlude__cap { margin-bottom: 96px; } }
+.hv-hours-list div { align-items: baseline; }
+#fees.hv-sec { padding-bottom: clamp(4rem, 8vw, 7rem); }

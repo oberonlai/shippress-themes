@@ -37,6 +37,8 @@ function hitomi_vision_enqueue() {
 	wp_enqueue_style( 'hitomi-vision-style', get_stylesheet_uri(), array(), HITOMI_VISION_VERSION );
 	wp_enqueue_style( 'hitomi-vision-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.css' ), array( 'hitomi-vision-style' ), HITOMI_VISION_VERSION );
 	wp_enqueue_script( 'hitomi-vision-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.js' ), array(), HITOMI_VISION_VERSION, false );
+	// The word on the mobile menu button (the overlay opener shows it next to the two-line icon).
+	wp_add_inline_style( 'hitomi-vision-style', 'html:root{--hv-menu-label:' . wp_json_encode( hitomi_vision_t( 'menu_label' ) ) . ';}' );
 }
 add_action( 'wp_enqueue_scripts', 'hitomi_vision_enqueue' );
 
