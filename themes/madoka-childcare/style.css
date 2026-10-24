@@ -308,6 +308,10 @@ footer.wp-block-template-part { position: relative; z-index: 50; }
 .mc-foot__legal { font-size: .8125rem; color: var(--mc-muted); margin: 1rem 0 0 !important; }
 
 /* Fonts per language: Traditional Chinese uses the bundled Noto Sans TC subset, Japanese the Noto Sans JP subset (Latin stays Albert Sans / Public Sans in both; never a serif) */
+:root:lang(ja) {
+	--wp--preset--font-family--heading: "Noto Sans JP", "Albert Sans", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+	--wp--preset--font-family--body: "Noto Sans JP", "Public Sans", "Hiragino Sans", "Yu Gothic", "Meiryo", system-ui, sans-serif;
+}
 :root:lang(zh) {
 	--wp--preset--font-family--heading: "Noto Sans TC", "Albert Sans", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
 	--wp--preset--font-family--body: "Noto Sans TC", "Public Sans", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
@@ -318,6 +322,7 @@ footer.wp-block-template-part { position: relative; z-index: 50; }
 :is(:lang(zh), :lang(ja)) :is(.mc-stripe, .mc-hero__h) { letter-spacing: .05em; }
 :is(:lang(zh), :lang(ja)) .mc-hero__h { line-height: 1.56; font-size: clamp(2.25rem, 3.8vw, 3.25rem); }
 :is(:lang(zh), :lang(ja)) .mc-stripe { font-size: clamp(1.4rem, 2vw, 1.6875rem); }
+:lang(ja) :is(.mc-stripe, .mc-hero__h, .mc-h1, .mc-tab) { word-break: auto-phrase; }
 :is(:lang(fr), :lang(de)) .editor-styles-wrapper, :is(:lang(fr), :lang(de)) body { hyphens: auto; }
 
 /* Responsive */
