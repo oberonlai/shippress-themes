@@ -5,6 +5,7 @@
 #   scripts/grok-image.sh <out.webp> "<prompt: subject + style, e.g. watercolour, no text>" [max_px=1600]
 #   scripts/grok-image.sh --cutout <out.webp> "<prompt>" [max_px=1600]
 #   CUTOUT=1 scripts/grok-image.sh <out.webp> "<prompt>" [max_px=1600]
+#   IMAGE_STYLE="<theme STYLE string>" scripts/grok-image.sh <out.webp> "<subject>" [max_px=1600]
 #
 # --cutout / CUTOUT=1:
 #   Appends a solid flat-background instruction, then runs scripts/cutout-bg.py to produce
@@ -26,6 +27,15 @@ elif [ "${CUTOUT:-0}" = "1" ] || [ "${CUTOUT:-}" = "true" ]; then
 fi
 
 out=${1:?out.webp}; prompt=${2:?prompt}; max=${3:-1600}
+# IMAGE_STYLE: one shared STYLE string for the whole theme (photo look by default, or an illustration
+# style such as "loose watercolour illustration, soft wet edges, pale washes" when the S5-Style reference
+# is illustrated — style only, never copy the reference's artwork). Appended to every prompt so all
+# images in a theme stay consistent.
+if [ -n "${IMAGE_STYLE:-}" ]; then
+  case "$prompt" in *"$IMAGE_STYLE"*) ;; *) prompt="$prompt, $IMAGE_STYLE";; esac
+  case "${IMAGE_STYLE,,}" in *illustrat*|*watercolo*|*gouache*|*ink*|*drawing*|*painted*|*sketch*|*linocut*|*woodcut*)
+    prompt="$prompt, original illustration in this style only, not a copy of any existing artwork, no text, no logo";; esac
+fi
 limit=${GROK_IMAGE_TIMEOUT:-180}
 here=$(cd "$(dirname "$0")" && pwd)
 cutout_py="$here/cutout-bg.py"
