@@ -207,9 +207,94 @@ footer.wp-block-template-part { position: relative; z-index: 50; }
 .mc-note__h a { color: var(--mc-ink); text-decoration: none; }
 .mc-note__h a:hover { color: var(--mc-walnut); }
 
-/* Inner page heads and prose (placeholders until the inner pages are built) */
+/* Inner pages */
 .mc-pagehead { padding: 5rem 0; }
 .mc-prose { font-size: 1.0625rem; }
+.mc-phead__t { padding-top: 3rem; }
+.mc-stripe--page { font-size: clamp(2.125rem, 3.6vw, 3rem); letter-spacing: .02em; margin: 0 0 2.25rem; }
+.mc-banner { aspect-ratio: 3.2 / 1; width: min(calc(100% - 54px), 1600px); margin: 0 auto; position: relative; background: #E9E4D8; --sp-par: 8%;
+	-webkit-mask: url(assets/mask/frame-torn.svg) no-repeat 0 0 / 100% 100%; mask: url(assets/mask/frame-torn.svg) no-repeat 0 0 / 100% 100%; }
+.mc-banner .mc-banner__img { height: 100%; }
+.mc-banner .mc-banner__img img { width: 100%; height: 100%; object-fit: cover; border-radius: 0; filter: saturate(.85); }
+.mc-banner--single { aspect-ratio: auto; max-width: 1386px; }
+.mc-banner--single img { width: 100%; height: auto; }
+.mc-banner.pos-35-50 img { object-position: 35% 50%; }
+.mc-banner.pos-50-30 img { object-position: 50% 30%; }
+.mc-banner.pos-50-35 img { object-position: 50% 35%; }
+.mc-banner.pos-50-40 img { object-position: 50% 40%; }
+.mc-banner.pos-50-45 img { object-position: 50% 45%; }
+.mc-banner.pos-50-50 img { object-position: 50% 50%; }
+.mc-banner.pos-50-55 img { object-position: 50% 55%; }
+.mc-banner.pos-50-60 img { object-position: 50% 60%; }
+.mc-banner.pos-70-55 img { object-position: 70% 55%; }
+.mc-tab a { color: inherit; text-decoration: none; }
+.mc-in { padding: var(--mc-sec-s) 0; }
+.mc-in--intro { padding: 3rem 0 2.5rem; }
+.mc-in--pb { padding-bottom: 9rem; }
+.mc-in:has(+ .mc-day--in) { padding-bottom: 9rem; }
+.mc-intro { max-width: 46rem; margin: 0 !important; }
+.mc-in--text .mc-wrap > :is(p, h2, h3, ul, details) { max-width: 46rem; }
+.mc-in--text .mc-wrap > .mc-cols, .mc-in--text .mc-wrap > .mc-narrow, .mc-in--text .mc-wrap > .mc-card, .mc-in--text .mc-wrap > .mc-people { max-width: none; }
+.mc-narrow { max-width: 46rem; }
+.mc-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem var(--mc-gap); align-items: start; }
+.mc-cols--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.mc-cols + .mc-narrow, .mc-narrow + .mc-card { margin-top: 3rem; }
+.mc-in.mc-day { padding: 0 0 6rem; }
+.mc-day--in .mc-day__top { margin-top: -123px !important; margin-bottom: 3rem; }
+.mc-day--in .mc-egg, .mc-day--in .mc-pebble { width: 320px; }
+.mc-day--in .mc-day__top .mc-tab { margin-left: -2.5rem !important; }
+.mc-day--in .mc-day__intro { margin: 0 0 4.5rem !important; }
+.mc-day--rows .mc-row + .mc-row { margin-top: 5.5rem !important; }
+.mc-egg--room, .mc-pebble--room { width: min(100%, 380px); position: relative; z-index: 1; }
+.mc-egg--room img, .mc-pebble--room img { display: block; }
+.mc-row .mc-tab--room { margin: -24px 0 0 1.5rem !important; }
+.mc-row__ph { position: relative; }
+.mc-row--flip .mc-row__ph:has(.mc-egg--room, .mc-pebble--room) { justify-self: end; }
+.mc-in--room { padding-top: var(--mc-sec-s); padding-bottom: var(--mc-sec-s); }
+.mc-in--steps .mc-row + .mc-row { margin-top: 6rem !important; }
+.mc-time--num { width: 96px; height: 96px; font-size: 2.8rem; font-weight: 200; margin: 0 0 -48px -40px !important; }
+.mc-row--text .mc-row__t { grid-column: 1 / 9; }
+.mc-row--text .mc-time { margin: 0 0 .75rem 0 !important; }
+.mc-row--text .mc-time--num { margin: 0 0 .75rem 0 !important; }
+.mc-row--sto .mc-row__ph { max-width: 440px; }
+.mc-facts { list-style: none; margin: 0 0 1.5rem; padding: 0; }
+.mc-facts li { padding: .55rem 0; border-bottom: 1px dotted rgba(55, 40, 40, .25); line-height: 1.6; }
+.mc-facts strong { font-family: var(--mc-head); font-weight: 500; color: var(--mc-walnut); margin-right: .5rem; }
+.mc-people { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3rem var(--mc-gap); margin-top: 2rem; }
+.mc-person h3 { margin-bottom: .5rem; }
+.mc-person p { margin-bottom: .5rem; }
+.mc-person__r { font-weight: 500; }
+.mc-menu { list-style: none; margin: 0; padding: 0; }
+.mc-menu li { display: grid; grid-template-columns: 8rem minmax(0, 1fr) minmax(0, 1fr); gap: 1.5rem; padding: 1rem 0; border-bottom: 1px dotted rgba(55, 40, 40, .25); align-items: baseline; }
+.mc-menu small { display: block; font-size: .8125rem; color: var(--mc-muted); }
+.mc-menu__d { font-family: var(--mc-head); font-weight: 500; color: var(--mc-walnut); }
+.mc-card .mc-card__h, .mc-card h3.mc-card__h { margin-bottom: 1rem; }
+.mc-fees .mc-fees__card { margin-top: 3.5rem; }
+.mc-faq { max-width: 960px; }
+.mc-faq details { border-bottom: 1px dotted rgba(55, 40, 40, .3); padding: 1.1rem 0; }
+.mc-faq summary { font-family: var(--mc-head); font-size: 1.125rem; font-weight: 500; cursor: pointer; color: var(--mc-ink); line-height: 1.6; }
+.mc-faq summary::marker { color: var(--mc-walnut); }
+.mc-faq details p { margin: .75rem 0 0; }
+.mc-in--card .mc-card { margin-top: 0; }
+.mc-visit__grid2 { display: grid; grid-template-columns: 7fr 5fr; gap: var(--mc-gap); align-items: start; }
+.mc-visit__card--in { margin: 1.5rem 0 !important; width: auto; }
+.mc-visit__r2 { margin: 0; max-width: none; }
+.mc-field { margin: 0 0 1rem; }
+.mc-field label { display: block; font-weight: 500; margin-bottom: .25rem; font-size: .9375rem; }
+.mc-field :is(input, textarea, select) { width: 100%; box-sizing: border-box; border: 1px solid rgba(55, 40, 40, .3); border-radius: 4px; background: #fff; padding: .65rem .8rem; font: inherit; color: var(--mc-ink); }
+.mc-form__go { background: var(--mc-ink); color: #fff; border: 0; border-radius: 999px; padding: .85rem 2rem; font: inherit; font-weight: 500; cursor: pointer; }
+.mc-close { padding: 4.5rem 0 5rem; margin-top: 6rem; }
+.mc-close__p { font-family: var(--mc-head); font-size: 1.5rem; font-weight: 500; line-height: 1.6; max-width: 40rem; color: var(--mc-ink); }
+.mc-in--list .wp-block-post-template { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3.5rem 47px; list-style: none; padding: 0; margin: 2rem 0 0; }
+.mc-in--list .wp-block-post-template > li:first-child { grid-column: 1 / -1; display: grid; grid-template-columns: 7fr 5fr; gap: 3rem; align-items: center; }
+.mc-in--list .mc-note__img img { border-radius: var(--mc-r); width: 100%; }
+.mc-in--list .mc-meta { margin: 0 0 .5rem; }
+.mc-in--list .mc-note__h { font-size: 1.5rem; margin-bottom: .75rem; }
+.mc-in--list li:not(:first-child) .mc-note__h { font-size: 1.25rem; }
+.mc-single { padding-bottom: 2rem; }
+.mc-single .mc-meta { margin: 1.5rem 0 2rem; }
+.mc-single .mc-prose { margin-top: 3rem; }
+.mc-single .mc-prose p { margin-bottom: 1.25rem; }
 
 /* Footer */
 .mc-foot { background: var(--mc-card); padding: 98px 0 48px; margin-top: 15px; }
@@ -232,12 +317,27 @@ footer.wp-block-template-part { position: relative; z-index: 50; }
 /* Responsive */
 @media (max-width: 1023px) {
 	.mc-blob { display: none; }
+	.mc-cols--3 { grid-template-columns: 1fr; }
+	.mc-people { gap: 2.5rem 2rem; }
 	.mc-welcome__grid { grid-template-columns: 1fr; }
 	.mc-welcome__p { grid-template-columns: 1fr 1fr; max-width: 560px; }
 	.mc-rooms__row { gap: 28px; }
 	.mc-foot__grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 781px) {
+	.mc-banner { aspect-ratio: 4 / 3; width: calc(100% - 24px); --sp-par: 5%; }
+	.mc-phead__t { padding-top: 2rem; }
+	.mc-cols, .mc-people, .mc-visit__grid2, .mc-in--list .wp-block-post-template > li:first-child { grid-template-columns: 1fr; }
+	.mc-in--list .wp-block-post-template { grid-template-columns: 1fr; }
+	.mc-in--pb, .mc-in:has(+ .mc-day--in) { padding-bottom: 7rem; }
+	.mc-day--in .mc-day__top { margin-top: -100px !important; margin-bottom: 2rem; }
+	.mc-day--in .mc-day__top .mc-tab { margin: -1rem 0 0 1.5rem !important; }
+	.mc-egg--room, .mc-pebble--room { width: min(78vw, 320px); }
+	.mc-row--text .mc-row__t { grid-column: 1; }
+	.mc-menu li { grid-template-columns: 1fr; gap: .5rem; }
+	.mc-time--num { margin-left: 0 !important; }
+	.mc-close { margin-top: 4rem; padding: 3.5rem 0; }
+	.mc-close__p { font-size: 1.25rem; }
 	.mc-header, .mc-bar { height: 86px; }
 	.mc-logo { width: 130px; height: 86px; }
 	.mc-logo a { padding: 0 0 8px 18px; font-size: .9375rem; }

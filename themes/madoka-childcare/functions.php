@@ -12,6 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once get_template_directory() . '/inc/demo-import.php';
 require_once get_template_directory() . '/inc/i18n.php';
 require_once get_template_directory() . '/inc/editor-lang.php';
+require_once get_template_directory() . '/inc/inner.php';
 
 define( 'MADOKA_CHILDCARE_VERSION', wp_get_theme()->get( 'Version' ) );
 
