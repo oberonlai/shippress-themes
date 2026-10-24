@@ -12,18 +12,18 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- wp:group {"anchor":"process","className":"ss-sec ss-process","tagName":"section","align":"full","layout":{"type":"default"}} -->
 <section id="process" class="wp-block-group alignfull ss-sec ss-process"><!-- wp:group {"className":"ss-head","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-head"><!-- wp:paragraph {"className":"ss-ghost","align":"center"} -->
-<p class="ss-ghost has-text-align-center" aria-hidden="true">PROCESS</p>
+<p class="ss-ghost has-text-align-center" aria-hidden="true"><?php echo wp_kses_post( seisui_environmental_t( 'kb93c1384' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"ss-h2","align":"center"} -->
-<h2 class="wp-block-heading has-text-align-center ss-h2">How an assessment begins</h2>
+<h2 class="wp-block-heading has-text-align-center ss-h2"><?php echo wp_kses_post( seisui_environmental_t( 'k6922e4a7' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-proc","align":"wide","layout":{"type":"constrained","contentSize":"1200px","wideSize":"1200px"}} -->
 <div class="wp-block-group alignwide ss-proc"><!-- wp:group {"className":"ss-proc__media","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-proc__media"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ss-photo ss-photo--r10"} -->
-<figure class="wp-block-image size-full ss-photo ss-photo--r10"><img src="<?php echo esc_url( $ss . 'p05.webp' ); ?>" alt="Soil cores lie in a tray on a tailgate as a hand points"/></figure>
+<figure class="wp-block-image size-full ss-photo ss-photo--r10"><img src="<?php echo esc_url( $ss . 'p05.webp' ); ?>" alt="<?php echo esc_attr( seisui_environmental_t( 'a94b819e4' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -35,15 +35,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 
 <!-- wp:group {"className":"ss-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-step__body"><!-- wp:heading {"level":3,"className":"ss-step__title"} -->
-<h3 class="wp-block-heading ss-step__title">Scoping call</h3>
+<h3 class="wp-block-heading ss-step__title"><?php echo wp_kses_post( seisui_environmental_t( 'k339cdbd5' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ss-body"} -->
-<p class="ss-body">Tell us the site and the decision in front of you. We say whether a walkover, a Phase I or a sampling round should come first.</p>
+<p class="ss-body"><?php echo wp_kses_post( seisui_environmental_t( 'ke4702db8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-step__time"} -->
-<p class="ss-step__time">Free, 20 minutes, within 2 working days</p>
+<p class="ss-step__time"><?php echo wp_kses_post( seisui_environmental_t( 'k6c0f93d8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -55,15 +55,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 
 <!-- wp:group {"className":"ss-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-step__body"><!-- wp:heading {"level":3,"className":"ss-step__title"} -->
-<h3 class="wp-block-heading ss-step__title">Desk study &amp; walkover</h3>
+<h3 class="wp-block-heading ss-step__title"><?php echo wp_kses_post( seisui_environmental_t( 'k8ec7b1ed' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ss-body"} -->
-<p class="ss-body">We read the maps and records, then walk the ground. You receive that reading before any sample is taken.</p>
+<p class="ss-body"><?php echo wp_kses_post( seisui_environmental_t( 'k8aedf912' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-step__time"} -->
-<p class="ss-step__time">Within 10 working days</p>
+<p class="ss-step__time"><?php echo wp_kses_post( seisui_environmental_t( 'k584fdded' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -75,15 +75,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 
 <!-- wp:group {"className":"ss-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-step__body"><!-- wp:heading {"level":3,"className":"ss-step__title"} -->
-<h3 class="wp-block-heading ss-step__title">Sampling &amp; laboratory</h3>
+<h3 class="wp-block-heading ss-step__title"><?php echo wp_kses_post( seisui_environmental_t( 'k81dcb78c' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ss-body"} -->
-<p class="ss-body">Points are agreed, then water or soil is sampled and sent to the laboratory. Results come back against those points.</p>
+<p class="ss-body"><?php echo wp_kses_post( seisui_environmental_t( 'k8d57292d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-step__time"} -->
-<p class="ss-step__time">Results in 15 working days</p>
+<p class="ss-step__time"><?php echo wp_kses_post( seisui_environmental_t( 'k1ea1c9ae' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -95,15 +95,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 
 <!-- wp:group {"className":"ss-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-step__body"><!-- wp:heading {"level":3,"className":"ss-step__title"} -->
-<h3 class="wp-block-heading ss-step__title">Report &amp; next steps</h3>
+<h3 class="wp-block-heading ss-step__title"><?php echo wp_kses_post( seisui_environmental_t( 'kc1e5831c' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ss-body"} -->
-<p class="ss-body">The written report sets out what was done and what the results show. We then hold a review meeting to talk through next steps.</p>
+<p class="ss-body"><?php echo wp_kses_post( seisui_environmental_t( 'kc40737c5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-step__time"} -->
-<p class="ss-step__time">A 45-minute review meeting</p>
+<p class="ss-step__time"><?php echo wp_kses_post( seisui_environmental_t( 'kc81f16ae' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

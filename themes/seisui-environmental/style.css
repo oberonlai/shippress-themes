@@ -328,3 +328,19 @@ html:not(.sp-no-motion) .sp-marquee.ss-strip > * { animation-duration: 40s; }
 	.ss-mapbox { padding: 1.5rem; }
 	.ss-single { padding: 96px 1.5rem 56px; }
 }
+
+/* Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Spectral / IBM Plex Sans) */
+:root:lang(zh) {
+	--wp--preset--font-family--serif: "Noto Serif TC", "Spectral", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--sans: "IBM Plex Sans", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--serif: "Noto Serif JP", "Spectral", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--sans: "IBM Plex Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+@media (min-width: 782px) { :is(:lang(zh), :lang(ja)) .ss-hero__title { font-size: clamp(2.4rem, 3.4vw, 3.4rem); } :is(:lang(zh), :lang(ja)) .ss-h2 { font-size: 2.25rem; } }
+:is(:lang(zh), :lang(ja)) .ss-foot__h { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3) { hyphens: auto; overflow-wrap: break-word; }

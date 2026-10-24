@@ -12,69 +12,69 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- wp:group {"className":"ss-strip sp-marquee","align":"full","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull ss-strip sp-marquee"><!-- wp:group {"className":"ss-strip__set","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group ss-strip__set"><!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">WR-01 Wend River · Mill Weir</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'kf35826e8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">WR-04 Wend River · Ferry Steps</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'k9afe4c7b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">GW-07 Hollin wells</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'kb00e3601' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">SL-02 Fennick Road lot</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'k9c9e03be' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">WM-03 Wend Meadow</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'kc3bdd1ce' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">PD-05 Alder Bridge mill pond</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'k8ec7787e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">GW-09 Copse Farm borehole</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'kf1eb66f4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">SL-06 Station yard</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'k421960f3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-strip__set ss-strip__set--dup","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group ss-strip__set ss-strip__set--dup"><!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">WR-01 Wend River · Mill Weir</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'kf35826e8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">WR-04 Wend River · Ferry Steps</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'k9afe4c7b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">GW-07 Hollin wells</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'kb00e3601' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">SL-02 Fennick Road lot</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'k9c9e03be' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">WM-03 Wend Meadow</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'kc3bdd1ce' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">PD-05 Alder Bridge mill pond</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'k8ec7787e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">GW-09 Copse Farm borehole</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'kf1eb66f4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-strip__item"} -->
-<p class="ss-strip__item">SL-06 Station yard</p>
+<p class="ss-strip__item"><?php echo wp_kses_post( seisui_environmental_t( 'k421960f3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

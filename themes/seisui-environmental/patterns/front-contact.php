@@ -12,11 +12,11 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- wp:group {"anchor":"contact","className":"ss-sec ss-contact","tagName":"section","align":"full","layout":{"type":"default"}} -->
 <section id="contact" class="wp-block-group alignfull ss-sec ss-contact"><!-- wp:group {"className":"ss-head","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-head"><!-- wp:paragraph {"className":"ss-ghost","align":"center"} -->
-<p class="ss-ghost has-text-align-center" aria-hidden="true">CONTACT</p>
+<p class="ss-ghost has-text-align-center" aria-hidden="true"><?php echo wp_kses_post( seisui_environmental_t( 'kc0241eae' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"ss-h2","align":"center"} -->
-<h2 class="wp-block-heading has-text-align-center ss-h2">The office on Millrace Lane</h2>
+<h2 class="wp-block-heading has-text-align-center ss-h2"><?php echo wp_kses_post( seisui_environmental_t( 'kc8ca9a83' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -24,26 +24,26 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <div class="wp-block-group alignwide ss-contact__row"><!-- wp:columns {"className":"ss-contact__cols"} -->
 <div class="wp-block-columns ss-contact__cols"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column " style="flex-basis:50%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ss-photo ss-photo--r10"} -->
-<figure class="wp-block-image size-full ss-photo ss-photo--r10"><img src="<?php echo esc_url( $ss . 'p11.webp' ); ?>" alt="Bright small office entrance with plants, wellies and a sample cool box"/></figure>
+<figure class="wp-block-image size-full ss-photo ss-photo--r10"><img src="<?php echo esc_url( $ss . 'p11.webp' ); ?>" alt="<?php echo esc_attr( seisui_environmental_t( 'a49f067c7' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column " style="flex-basis:50%"><!-- wp:paragraph {"className":"ss-body"} -->
-<p class="ss-body">The office and sample store are at 14 Millrace Lane, Alder Bridge, on the River Wend. Come for a scoping conversation or to leave a brief; field days themselves are arranged from here.</p>
+<p class="ss-body"><?php echo wp_kses_post( seisui_environmental_t( 'kdcacf2f9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-body"} -->
-<p class="ss-body">Hours are Monday to Friday, 08:30 to 17:30. Field days are by arrangement. The office is closed at weekends and on public holidays.</p>
+<p class="ss-body"><?php echo wp_kses_post( seisui_environmental_t( 'k682a57b5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-body ss-contact__lines"} -->
-<p class="ss-body ss-contact__lines">Phone <a href="tel:+15550142300">+1 555 0142 300</a><br>Email <a href="mailto:hello@seisui-environmental.example">hello@seisui-environmental.example</a></p>
+<p class="ss-body ss-contact__lines"><?php echo wp_kses_post( seisui_environmental_t( 'kbcc254b5' ) ); ?> <a href="tel:+15550142300">+1 555 0142 300</a><br><?php echo wp_kses_post( seisui_environmental_t( 'kce8ae9da' ) ); ?> <a href="mailto:hello@seisui-environmental.example"><?php echo wp_kses_post( seisui_environmental_t( 'k1a052237' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {} -->
 <div class="wp-block-buttons "><!-- wp:button {} -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="mailto:hello@seisui-environmental.example">Ask for a scoping call</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="mailto:hello@seisui-environmental.example"><?php echo wp_kses_post( seisui_environmental_t( 'k7e281dce' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

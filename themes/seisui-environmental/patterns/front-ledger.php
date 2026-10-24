@@ -12,15 +12,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- wp:group {"anchor":"ledger","className":"ss-sec ss-ledgersec","tagName":"section","align":"full","layout":{"type":"default"}} -->
 <section id="ledger" class="wp-block-group alignfull ss-sec ss-ledgersec"><!-- wp:group {"className":"ss-head","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-head"><!-- wp:paragraph {"className":"ss-ghost","align":"center"} -->
-<p class="ss-ghost has-text-align-center" aria-hidden="true">LEDGER</p>
+<p class="ss-ghost has-text-align-center" aria-hidden="true"><?php echo wp_kses_post( seisui_environmental_t( 'k90edd2c2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"ss-h2","align":"center"} -->
-<h2 class="wp-block-heading has-text-align-center ss-h2">Sites we still return to</h2>
+<h2 class="wp-block-heading has-text-align-center ss-h2"><?php echo wp_kses_post( seisui_environmental_t( 'k065741c9' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ss-lead","align":"center"} -->
-<p class="ss-lead has-text-align-center">Each row carries the code, the place, the medium, the year monitoring began and who commissioned it. The wider programme holds 38 sites.</p>
+<p class="ss-lead has-text-align-center"><?php echo wp_kses_post( seisui_environmental_t( 'kd9334788' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -31,7 +31,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-metric__label"} -->
-<p class="ss-metric__label">sites monitored</p>
+<p class="ss-metric__label"><?php echo wp_kses_post( seisui_environmental_t( 'kb1516f79' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -41,7 +41,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-metric__label"} -->
-<p class="ss-metric__label">years on the round</p>
+<p class="ss-metric__label"><?php echo wp_kses_post( seisui_environmental_t( 'kf94438cd' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -51,7 +51,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-metric__label"} -->
-<p class="ss-metric__label">rounds a year</p>
+<p class="ss-metric__label"><?php echo wp_kses_post( seisui_environmental_t( 'k95ccbfe3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -59,37 +59,37 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- wp:group {"className":"ss-ledger sp-stagger","align":"wide","layout":{"type":"constrained","contentSize":"1200px","wideSize":"1200px"}} -->
 <div class="wp-block-group alignwide ss-ledger sp-stagger"><!-- wp:group {"className":"ss-lrow ss-lrow--head","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-lrow ss-lrow--head"><!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Code</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'kca0dbad9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Site</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'ka7d6475e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Medium</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k87f8a6ab' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Since</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k38c50b73' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Client</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k577d7068' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-lrow sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-lrow sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ss-lcell ss-lcell--code"} -->
-<p class="ss-lcell ss-lcell--code">WR-01</p>
+<p class="ss-lcell ss-lcell--code"><?php echo wp_kses_post( seisui_environmental_t( 'k86eae1a2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Wend River · Mill Weir</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k2325259e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">surface water</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k9ac51963' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
@@ -97,21 +97,21 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">council</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k52a1c95f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-lrow sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-lrow sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ss-lcell ss-lcell--code"} -->
-<p class="ss-lcell ss-lcell--code">WR-04</p>
+<p class="ss-lcell ss-lcell--code"><?php echo wp_kses_post( seisui_environmental_t( 'k02db0ae3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Wend River · Ferry Steps</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k6c675e1f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">surface water</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k9ac51963' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
@@ -119,21 +119,21 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">council</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k52a1c95f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-lrow sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-lrow sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ss-lcell ss-lcell--code"} -->
-<p class="ss-lcell ss-lcell--code">GW-07</p>
+<p class="ss-lcell ss-lcell--code"><?php echo wp_kses_post( seisui_environmental_t( 'k1193a5f6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Hollin wells</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k692e03f0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">groundwater</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k6bff7223' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
@@ -141,21 +141,21 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">parish</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'kda1ec6c9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-lrow sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-lrow sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ss-lcell ss-lcell--code"} -->
-<p class="ss-lcell ss-lcell--code">SL-02</p>
+<p class="ss-lcell ss-lcell--code"><?php echo wp_kses_post( seisui_environmental_t( 'kcc0b081f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Fennick Road lot</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'ke676d480' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">soil</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'kcf6c9df6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
@@ -163,21 +163,21 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">landowner</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k18e4ba32' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-lrow sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-lrow sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ss-lcell ss-lcell--code"} -->
-<p class="ss-lcell ss-lcell--code">WM-03</p>
+<p class="ss-lcell ss-lcell--code"><?php echo wp_kses_post( seisui_environmental_t( 'k6808bb3d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Wend Meadow</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k8ed75cff' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">habitat</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k5d1a4e2d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
@@ -185,21 +185,21 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">landowner</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k18e4ba32' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-lrow sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-lrow sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ss-lcell ss-lcell--code"} -->
-<p class="ss-lcell ss-lcell--code">PD-05</p>
+<p class="ss-lcell ss-lcell--code"><?php echo wp_kses_post( seisui_environmental_t( 'k5e2228a9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Alder Bridge mill pond</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k84f0c76a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">surface water</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k9ac51963' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
@@ -207,7 +207,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">parish</p>
+<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'kda1ec6c9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -215,7 +215,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- wp:group {"className":"ss-more","align":"wide","layout":{"type":"constrained","contentSize":"1200px","wideSize":"1200px"}} -->
 <div class="wp-block-group alignwide ss-more"><!-- wp:buttons {} -->
 <div class="wp-block-buttons "><!-- wp:button {"className":"is-style-text-link"} -->
-<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/monitoring-programmes/">Monitoring programmes →</a></div>
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/monitoring-programmes/"><?php echo wp_kses_post( seisui_environmental_t( 'k87543c0b' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>
