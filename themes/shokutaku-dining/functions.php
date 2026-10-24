@@ -78,3 +78,17 @@ function shokutaku_dining_ghost_aria( $content ) {
 	return $content;
 }
 add_filter( 'render_block_core/paragraph', 'shokutaku_dining_ghost_aria' );
+
+/**
+ * The reservation tab and the Book pill carry aria-current on the reservations page.
+ *
+ * @param string $content Rendered block.
+ * @return string
+ */
+function shokutaku_dining_tab_current( $content ) {
+	if ( is_page( 'reservations' ) && false !== strpos( $content, 'shk-tab' ) && false === strpos( $content, 'aria-current' ) ) {
+		$content = str_replace( 'class="shk-tab"', 'class="shk-tab" aria-current="page"', $content );
+	}
+	return $content;
+}
+add_filter( 'render_block_core/paragraph', 'shokutaku_dining_tab_current' );
