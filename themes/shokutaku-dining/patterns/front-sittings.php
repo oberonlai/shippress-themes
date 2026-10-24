@@ -10,7 +10,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"shk-sittings","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull shk-sittings"><!-- wp:paragraph {"className":"shk-ghost"} -->
-<p class="shk-ghost" aria-hidden="true">SITTINGS</p>
+<p class="shk-ghost">SITTINGS</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"shk-in shk-split","layout":{"type":"default"}} -->

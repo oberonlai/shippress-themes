@@ -10,7 +10,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"shk-concept","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull shk-concept"><!-- wp:paragraph {"className":"shk-ghost shk-ghost--xl"} -->
-<p class="shk-ghost shk-ghost--xl" aria-hidden="true">TABLE</p>
+<p class="shk-ghost shk-ghost--xl">TABLE</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"shk-arch shk-arch--tall shk-sc shk-sc--a sp-reveal sp-reveal--wipe"} -->
@@ -39,7 +39,7 @@
 <figure class="wp-block-image size-full shk-arch shk-arch--small shk-sc shk-sc--b sp-reveal sp-reveal--wipe"><img src="<?php echo shokutaku_dining_img( 'p03.webp' ); ?>" alt="Hands tearing a sourdough loaf over linen beside two glasses of water."/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"shk-arch shk-arch--low shk-sc shk-sc--c sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full shk-arch shk-arch--low shk-sc shk-sc--c sp-reveal sp-reveal--wipe"><img src="<?php echo shokutaku_dining_img( 'd3.webp' ); ?>" alt="Pear tart with cream on a grey plate."/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"shk-arch shk-arch--low shk-sc shk-sc--c"} -->
+<figure class="wp-block-image size-full shk-arch shk-arch--low shk-sc shk-sc--c"><img src="<?php echo shokutaku_dining_img( 'd3.webp' ); ?>" alt="Pear tart with cream on a grey plate."/></figure>
 <!-- /wp:image --></section>
 <!-- /wp:group -->

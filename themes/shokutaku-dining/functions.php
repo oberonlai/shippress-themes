@@ -63,3 +63,18 @@ add_action( 'init', 'shokutaku_dining_pattern_categories' );
 function shokutaku_dining_img( $file ) {
 	return esc_url( get_theme_file_uri( 'assets/images/' . $file ) );
 }
+
+/**
+ * Ghost words are decoration: hide them from assistive technology on the front end. (core/paragraph does not
+ * accept an aria-hidden attribute in its saved markup, so the attribute is added when the block is rendered.)
+ *
+ * @param string $content Rendered block.
+ * @return string
+ */
+function shokutaku_dining_ghost_aria( $content ) {
+	if ( false !== strpos( $content, 'shk-ghost' ) && false === strpos( $content, 'aria-hidden' ) ) {
+		$content = preg_replace( '/<p /', '<p aria-hidden="true" ', $content, 1 );
+	}
+	return $content;
+}
+add_filter( 'render_block_core/paragraph', 'shokutaku_dining_ghost_aria' );

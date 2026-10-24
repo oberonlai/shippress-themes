@@ -8,7 +8,7 @@
 ?>
 <!-- wp:group {"className":"shk-pagehead shk-pagehead--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-pagehead shk-pagehead--plain"><!-- wp:paragraph {"className":"shk-ghost"} -->
-<p class="shk-ghost" aria-hidden="true">NOTES</p>
+<p class="shk-ghost">NOTES</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:query-title {"type":"archive","level":1,"showPrefix":false,"className":"shk-h2 shk-h2--center"} /--></div>
