@@ -24,8 +24,8 @@
 <h2 class="wp-block-heading ak-word sp-reveal sp-reveal--up"><?php echo esc_html( akari_hotel_t( 'bf_word' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ak-t1__photo ak-t3__photo sp-reveal sp-reveal--mask"} -->
-<figure class="wp-block-image size-full ak-t1__photo ak-t3__photo sp-reveal sp-reveal--mask"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10-breakfast.webp' ) ); ?>" alt="<?php echo esc_attr( akari_hotel_t( 'alt_p10' ) ); ?>"/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ak-t1__photo sp-reveal sp-reveal--mask"} -->
+<figure class="wp-block-image size-full ak-t1__photo sp-reveal sp-reveal--mask"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10-breakfast.webp' ) ); ?>" alt="<?php echo esc_attr( akari_hotel_t( 'alt_p10' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"ak-bf__row","layout":{"type":"default"}} -->
