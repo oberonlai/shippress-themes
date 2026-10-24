@@ -53,7 +53,9 @@ foreach ( $photos as $i => $p ) {
 <?php echo neiro_music_link( neiro_music_t( 'day_link' ), '/schedule/', 'sp-reveal sp-reveal--up' ); ?></div>
 <!-- /wp:group -->
 
-<?php echo neiro_music_photo( $p . '.webp', neiro_music_t( 'alt_' . $p ), 'nm-day__photo sp-reveal sp-reveal--wipe' ); ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nm-day__photo sp-reveal sp-reveal--wipe"} -->
+<figure class="wp-block-image size-full nm-day__photo sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/' . $p . '.webp' ) ); ?>" alt="<?php echo esc_attr( neiro_music_t( 'alt_' . $p ) ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:html -->
 <hr class="nm-day__rule" aria-hidden="true"/>

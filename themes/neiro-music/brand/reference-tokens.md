@@ -1,5 +1,5 @@
 # Reference tokens — Izanami (primary), measured 2026-10-24 at 1440×900 with getComputedStyle + screenshots
-Source: https://izanami-official.com/ (S5-Style, category 学校･教育･医療･福祉). Secondary: https://bumpofchicken-30th.com/ (category バンド･音楽･レーベル; fixed WebGL screen, no document scroll, used only for the first-screen composition). Numbers and descriptions only; no copy, photos or logo reused. "≈" = read from screenshot, not computed.
+Source: https://izanami-official.com/ (S5-Style, category schools, education, medicine and welfare). Secondary: https://bumpofchicken-30th.com/ (category bands, music and labels; fixed WebGL screen, no document scroll, used only for the first-screen composition). Numbers and descriptions only; no copy, photos or logo reused. "≈" = read from screenshot, not computed.
 
 ## (a) Colour (area share of full-page screenshots, first screen 100% dark)
 | Role | Hex | Share | Where |

@@ -1,7 +1,7 @@
 # Neiro Music: design spec (stage 1, binding for implementation)
 
-Slug `neiro-music`, private music school for children and adult beginners (type education, page_structure **day-schedule**). Row b9-4: split-screen, hero photo-left-text-right, top-bar nav, real low-key photography, palette 葡萄鼠 `#705868` as the one muted accent.
-References (see `reference.md`, measured in `reference-tokens.md`): **R1 Izanami** https://izanami-official.com/ (S5 学校･教育･医療･福祉, primary, ~80% similarity target) and **R2** https://bumpofchicken-30th.com/ (S5 バンド･音楽･レーベル, one small detail only). Borrow structure, technique, colour relationship and measured numbers. No copy, photos, logo or whole-page layout from either site.
+Slug `neiro-music`, private music school for children and adult beginners (type education, page_structure **day-schedule**). Row b9-4: split-screen, hero photo-left-text-right, top-bar nav, real low-key photography, palette grape-grey `#705868` as the one muted accent.
+References (see `reference.md`, measured in `reference-tokens.md`): **R1 Izanami** https://izanami-official.com/ (S5 schools, education, medicine and welfare, primary, ~80% similarity target) and **R2** https://bumpofchicken-30th.com/ (S5 bands, music and labels, one small detail only). Borrow structure, technique, colour relationship and measured numbers. No copy, photos, logo or whole-page layout from either site.
 
 Fixed brand facts (every page, all five languages, never vary):
 - **Neiro Music**, private music school, founded **2011** by pianist **Ilse Marchetti**. Address **Lindenhof 14, 9000 Ghent, Belgium** (a converted print works, two floors: 6 teaching rooms + the 60-seat **Long Room** for recitals). Currency **EUR** in every language.
@@ -62,7 +62,7 @@ T1 on 3 inner page heads (About, Teachers, Recitals), T2 on 6 inner pages, T3 on
 | Lifted ground (price panel, footer, form fields) | `#17140E` (+4% L) | ≤ 15% | a Ground variant |
 | Text / lines | `#D9D7D4` | 5–8% | a Text/line |
 | Headline white | `#FFFFFF` | < 1% (H1 + logo only) | a Pure white |
-| Accent 葡萄鼠 | `#705868` (row hex) | ≤ 3%: 4px nav dots, active nav underline, price numerals' small "€", form focus ring, button border | row (R1 has no UI accent; photo colour only) |
+| Accent grape-grey | `#705868` (row hex) | ≤ 3%: 4px nav dots, active nav underline, price numerals' small "€", form focus ring, button border | row (R1 has no UI accent; photo colour only) |
 | Accent hover | `#8A7282` | button hover fill | derived |
 | Muted text | `#9C9893` | captions, meta | between text and ground |
 | Hairline | `rgba(217,215,212,.18)` | lines | d |

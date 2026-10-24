@@ -30,7 +30,9 @@ $people = array( 1 => 'p14', 2 => 'p15', 3 => 'p04' );
 foreach ( $people as $i => $p ) {
 	?>
 <!-- wp:group {"className":"nm-tea__p","layout":{"type":"default"}} -->
-<div class="wp-block-group nm-tea__p"><?php echo neiro_music_photo( $p . '.webp', neiro_music_t( 'alt_' . $p ), 'nm-tea__img sp-reveal sp-reveal--wipe' ); ?>
+<div class="wp-block-group nm-tea__p"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nm-tea__img sp-reveal sp-reveal--wipe"} -->
+<figure class="wp-block-image size-full nm-tea__img sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/' . $p . '.webp' ) ); ?>" alt="<?php echo esc_attr( neiro_music_t( 'alt_' . $p ) ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nm-tea__n"} -->
 <p class="nm-tea__n"><?php echo esc_html( neiro_music_t( "tea{$i}_n" ) ); ?></p>

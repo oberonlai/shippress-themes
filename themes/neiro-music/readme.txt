@@ -18,12 +18,13 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 Neiro Music WordPress Theme, (C) 2026 ShipPress. Licensed under GPL-2.0-or-later.
 
 = Fonts =
-Crimson Pro (OFL-1.1) and Outfit (OFL-1.1). Licence texts are in assets/fonts/.
+Crimson Pro (OFL-1.1) and Outfit (OFL-1.1). Noto Serif TC (OFL-1.1) for Traditional Chinese headings and Noto Serif JP (OFL-1.1) for Japanese headings. Licence texts are in assets/fonts/.
 
 = Images =
-Photographs: AI-generated for this theme and released under CC0 1.0 (no real people). p01-p16 are scenes and portraits of fictional people; demo/p13.webp is the Media Library copy of p13 used as the sample articles' featured image.
+Photographs: AI-generated for this theme and released under CC0 1.0 (no real people). p01-p16 are scenes and portraits of fictional people; demo/p13.webp and demo/p16.webp are the Media Library copies used as sample-article featured images.
 
 - assets/images/demo/p13.webp
+- assets/images/demo/p16.webp
 - assets/images/p01.webp
 - assets/images/p02.webp
 - assets/images/p03.webp

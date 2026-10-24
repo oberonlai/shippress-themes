@@ -10,9 +10,13 @@
 <!-- wp:group {"tagName":"section","className":"nm-hero","align":"full","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull nm-hero"><!-- wp:group {"className":"nm-wrap nm-hero__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group nm-wrap nm-hero__grid"><!-- wp:group {"className":"nm-pair","layout":{"type":"default"}} -->
-<div class="wp-block-group nm-pair"><?php echo neiro_music_photo( 'p01.webp', neiro_music_t( 'alt_p01' ), 'nm-pair__big' ); ?>
+<div class="wp-block-group nm-pair"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nm-pair__big"} -->
+<figure class="wp-block-image size-full nm-pair__big"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01.webp' ) ); ?>" alt="<?php echo esc_attr( neiro_music_t( 'alt_p01' ) ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo neiro_music_photo( 'p02.webp', neiro_music_t( 'alt_p02' ), 'nm-pair__small' ); ?></div>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nm-pair__small"} -->
+<figure class="wp-block-image size-full nm-pair__small"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02.webp' ) ); ?>" alt="<?php echo esc_attr( neiro_music_t( 'alt_p02' ) ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nm-hero__text","layout":{"type":"default"}} -->

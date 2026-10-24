@@ -1,9 +1,9 @@
-# Neiro Music — reference (stage 1; "Ours" columns = 成品對應, filled by the spec step; binding detail in design-spec.md)
+# Neiro Music — reference (stage 1; "Ours" columns = finished-theme mapping, filled by the spec step; binding detail in design-spec.md)
 Sources are S5-Style entries (https://www.s5-style.com/), checked against every existing themes/*/brand/reference.md: neither site was used before.
 | # | Site | S5 category | Role |
 |---|---|---|---|
-| R1 | https://izanami-official.com/ | 学校･教育･医療･福祉 | primary; measured in `reference-tokens.md` |
-| R2 | https://bumpofchicken-30th.com/ | バンド･音楽･レーベル | secondary; first-screen composition and type only |
+| R1 | https://izanami-official.com/ | schools, education, medicine and welfare | primary; measured in `reference-tokens.md` |
+| R2 | https://bumpofchicken-30th.com/ | bands, music and labels | secondary; first-screen composition and type only |
 Screens: `ref/iz-first.png`, `ref/iz-photopair.png`, `ref/iz-bg-text.png`, `ref/boc-first.png`; scroll pairs `ref/scroll-iz-*.png`.
 
 ## Colour relationship (R1)
@@ -30,5 +30,5 @@ Lenis smooth scroll + GSAP; per-line text rise (translateY 1 line-height, opacit
 R2: no document scroll (fixed WebGL screen) → none.
 
 
-## Ours (成品對應) — motion
+## Ours (finished-theme mapping) — motion
 sp-stagger + sp-reveal--up (28px, 1.2s, cubic-bezier(.25,1,.5,1)) for text; sp-reveal--wipe 1.1s for row/portrait photos; CSS sticky rows; sp-parallax on the Long Room band. No Lenis, no GSAP.

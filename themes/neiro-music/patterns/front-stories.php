@@ -30,7 +30,9 @@ foreach ( $photos as $i => $p ) {
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<?php echo neiro_music_photo( $p . '.webp', neiro_music_t( 'alt_' . $p ), 'nm-story__img sp-reveal sp-reveal--wipe' ); ?></div>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nm-story__img sp-reveal sp-reveal--wipe"} -->
+<figure class="wp-block-image size-full nm-story__img sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/' . $p . '.webp' ) ); ?>" alt="<?php echo esc_attr( neiro_music_t( 'alt_' . $p ) ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group --><?php } ?>
 
 <?php echo neiro_music_link( neiro_music_t( 'sto_link' ), '/stories/' ); ?></div>

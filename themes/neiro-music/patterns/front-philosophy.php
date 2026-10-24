@@ -26,7 +26,9 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<?php echo neiro_music_photo( 'p03.webp', neiro_music_t( 'alt_p03' ), 'nm-phi__photo sp-reveal sp-reveal--wipe' ); ?></div>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nm-phi__photo sp-reveal sp-reveal--wipe"} -->
+<figure class="wp-block-image size-full nm-phi__photo sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03.webp' ) ); ?>" alt="<?php echo esc_attr( neiro_music_t( 'alt_p03' ) ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

@@ -55,7 +55,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nm-vis__side","layout":{"type":"default"}} -->
-<div class="wp-block-group nm-vis__side"><?php echo neiro_music_photo( 'p13.webp', neiro_music_t( 'alt_p13' ), 'nm-vis__img sp-reveal sp-reveal--wipe' ); ?>
+<div class="wp-block-group nm-vis__side"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nm-vis__img sp-reveal sp-reveal--wipe"} -->
+<figure class="wp-block-image size-full nm-vis__img sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13.webp' ) ); ?>" alt="<?php echo esc_attr( neiro_music_t( 'alt_p13' ) ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:buttons {"className":"nm-btn-wrap"} -->
 <div class="wp-block-buttons nm-btn-wrap"><!-- wp:button {"className":"nm-btn"} -->
