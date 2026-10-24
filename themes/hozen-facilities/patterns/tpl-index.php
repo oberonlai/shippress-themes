@@ -28,11 +28,26 @@
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
+<!-- wp:paragraph {"className":"hz-intro"} -->
+<p class="hz-intro"><?php echo esc_html( hozen_facilities_t( 'i_fn_intro' ) ); ?></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hz-pagebody hz-pagebody--wide","layout":{"type":"default"}} -->
 <div class="wp-block-group hz-pagebody hz-pagebody--wide">
+<!-- wp:group {"className":"hz-prose hz-prose--lead","layout":{"type":"default"}} -->
+<div class="wp-block-group hz-prose hz-prose--lead">
+<!-- wp:paragraph -->
+<p><?php echo esc_html( hozen_facilities_t( 'i_fn_lead_1' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><?php echo esc_html( hozen_facilities_t( 'i_fn_lead_2' ) ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
 <!-- wp:query {"queryId":5,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"className":"hz-notes__query","layout":{"type":"default"}} -->
 <div class="wp-block-query hz-notes__query"><!-- wp:post-template {"className":"hz-notes__list","layout":{"type":"grid","columnCount":2}} -->
 <!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/10","className":"hz-note__img"} /-->

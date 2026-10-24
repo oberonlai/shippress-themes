@@ -138,7 +138,7 @@
 <!-- wp:group {"className":"hz-foot__bar","layout":{"type":"default"}} -->
 <div class="wp-block-group hz-foot__bar">
 <!-- wp:paragraph {"className":"hz-foot__copy"} -->
-<p class="hz-foot__copy"><?php echo esc_html( hozen_facilities_t( 'f_copy' ) ); ?></p>
+<p class="hz-foot__copy"><?php echo esc_html( hozen_facilities_t( 'f_copy' ) ); ?> · <a href="<?php echo esc_url( home_url( '/privacy/' ) ); ?>"><?php echo esc_html( hozen_facilities_t( 'f_priv' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
