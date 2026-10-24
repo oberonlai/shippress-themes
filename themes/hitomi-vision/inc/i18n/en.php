@@ -1,0 +1,125 @@
+<?php
+/**
+ * Hitomi Vision: theme strings.
+ *
+ * "|" marks a forced line break (see hitomi_vision_lines()).
+ *
+ * @package hitomi-vision
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+return array(
+	'site_title'    => 'Hitomi Vision',
+	'tagline'       => 'An independent optometry clinic for office workers and school-age children, since 2011.',
+	'menu_label'    => 'menu',
+	'book'          => 'book an exam',
+	'foot_visit'    => 'Visit',
+	'foot_hours'    => 'Hours',
+	'foot_pages'    => 'Pages',
+	'foot_address'  => '2nd floor, 14 Linden Row, Northgate',
+	'foot_contact'  => '+1 555 0142 208|hello@hitomivision.example',
+	'foot_h1'       => 'Mon–Fri 10:00–19:00',
+	'foot_h2'       => 'Sat 9:00–16:00',
+	'foot_h3'       => 'Sun and public holidays closed',
+	'legal'         => '© 2026 Hitomi Vision. A fictional optometry clinic.',
+
+	'hero_h1'       => 'Tired eyes by four o’clock|are telling you|something measurable.',
+	'hero_lede'     => 'A headache, a blur, or a burn at the desk is a finding we can time and measure. The sixty-minute exam is built for the distance you actually work at.',
+	'hero_cta'      => 'book a 60-minute exam',
+	'hero_hours'    => 'Mon–Fri 10:00–19:00 · Sat 9:00–16:00',
+	'hero_word'     => 'clarity',
+	'hero_caption'  => 'trial frame, room two',
+	'alt_hero'      => 'Optometrist placing a trial frame on a seated man’s face',
+
+	'p_title'       => 'Eyestrain at four o’clock',
+	'p_sub'         => 'symptoms, at work',
+	'p_cap_a'       => 'The screen is fine at nine.|By four the letters swim.|The neck has joined in.',
+	'p_text_a'      => 'The pattern is familiar in offices. The morning is clear. By mid-afternoon a dull headache sits behind the eyes, and text on the screen softens until a blink brings it back for a moment. The eyes burn, as if the room had dried out, even when the air feels ordinary. Some people rub the inner corners. Others push the bridge of the nose and close their eyes at the laptop, waiting for the ache to drop. The neck and the muscles between the shoulders tighten because the head has crept forward toward a screen that is slightly too near, or slightly too low. None of that proves a prescription by itself. It does tell us where to look: the near add, the way the two eyes hold a close target, the height of the monitor, and whether the tear film is breaking up before the workday is over.',
+	'alt_office'    => 'Woman at a laptop pressing the bridge of her nose',
+	'c_title'       => 'And at the school desk',
+	'c_cap'         => 'The book comes closer.|A line gets skipped.|The board stays soft.',
+	'c_text'        => 'At a school desk the signs are quieter, and they are easy to call a habit. A child of about nine holds the book close to the face. Lines are skipped, or the same line is read twice. Reading is avoided when it can be, or it tires the child long before the chapter is done. The eyes are rubbed. Across the classroom the board is blurry, so copying from it is slow and the writing comes out incomplete. We see children from ages 5 to 15, and the tests can be games when reading is not yet easy. When myopia is the finding, follow-up is every six months, so a change is caught before the next school year has to work around it.',
+	'alt_reading'   => 'Girl about nine reading a book held close to her face',
+
+	'i_caption'     => 'a bright exam room, the phoropter waiting on its arm',
+	'alt_exam_room' => 'Bright exam room with a phoropter, chair, and distant chart',
+
+	'm_title'       => 'One sixty-minute exam',
+	'm_sub'         => 'the method',
+	'm_1'           => '<strong>History.</strong> We begin with what you notice and when. Four o’clock headaches, blur after a stretch of screen work, burning by evening, a child who skips lines: the account sets the order of the tests. This part takes about ten minutes. We also ask about the desk itself, because a number on a chart does not say how far the monitor sits.',
+	'm_2'           => '<strong>Refraction.</strong> For about fifteen minutes we find the lens that clears your sight, distance and near. If close work needs a different power, that near add is measured here, not guessed from your age. You leave this part knowing the powers, not only that something was “a bit off”.',
+	'm_3'           => '<strong>Binocular vision.</strong> The two eyes have to aim at the same point and hold it. We spend about ten minutes on that, at the working distance you named: a screen, a notebook, a classroom board. Discomfort that refraction alone does not explain often shows up here, as a strain in keeping one image.',
+	'm_4'           => '<strong>Eye health.</strong> The last measurements, about ten minutes, look at the eye itself and at the tear film. Imaging is part of this, not an extra visit. Then we sit with the findings for about fifteen minutes. You hear what was measured, what we suggest you change, and whether glasses, lenses, a lid routine, or a follow-up belongs in the plan. The follow-up within six months is twenty minutes and $40.',
+	'm_cap1'        => 'Refraction at the phoropter.|The powers, distance and near.',
+	'm_cap2'        => 'The slit lamp, close in.|Surface, lids, and lens.',
+	'm_cap3'        => 'Retinal image on the screen.|A record of the inside of the eye.',
+	'alt_phoropter' => 'Patient behind a phoropter while an optometrist adjusts the dials',
+	'alt_slitlamp'  => 'Close view of a patient resting their chin at a slit lamp',
+	'alt_imaging'   => 'Technician beside a retinal camera with a soft retina image on screen',
+
+	'k_title'       => 'One corrected case',
+	'k_sub'         => 'the proof',
+	'k_cap_a'       => 'week 0 — 4 pm, second coffee',
+	'k_cap_b'       => 'week 6 — same desk, new lenses',
+	'k_text_1'      => 'M., 46, is an accountant. Her headaches arrived around four o’clock, after a day of figures on a monitor she had pulled close. At the exam her screen sat at 55 cm. She needed a near add of +0.75, and the range she actually uses is not the reading card and not the far chart. We prescribed occupational lenses for 50–70 cm and asked her to move the screen to 65 cm. At the six-week check she reported afternoons without the headache.',
+	'k_text_2'      => 'That is her account. The same numbers will not belong to the next person, and a headache can have more than one cause. We can’t promise the same result; we can measure.',
+	'k_link'        => 'read three cases →',
+	'alt_case_a'    => 'Woman leaning toward a monitor with a slight squint',
+	'alt_case_b'    => 'Woman in thin metal glasses sitting upright at a desk',
+
+	'f_title'       => 'Fees',
+	'f_sub'         => 'in us dollars',
+	'f_1'           => 'Comprehensive eye exam',
+	'f_1d'          => '60 min',
+	'f_1p'          => '$120',
+	'f_2'           => 'Children’s vision exam (ages 5–15)',
+	'f_2d'          => '50 min',
+	'f_2p'          => '$95',
+	'f_3'           => 'Screen-work eye assessment',
+	'f_3d'          => '45 min',
+	'f_3p'          => '$85',
+	'f_4'           => 'Dry eye evaluation',
+	'f_4d'          => '40 min',
+	'f_4p'          => '$90',
+	'f_5'           => 'Contact lens fitting (incl. 2 follow-ups)',
+	'f_5d'          => '',
+	'f_5p'          => '$110',
+	'f_6'           => 'Follow-up check within 6 months',
+	'f_6d'          => '20 min',
+	'f_6p'          => '$40',
+	'f_note'        => 'Frames from $160, lenses quoted after the exam. Same prices in every language.',
+	'f_link'        => 'see full fees',
+
+	'w_title'       => 'Who will see you',
+	'w_sub'         => 'the people',
+	'w_cap'         => 'A visit long enough|to measure the distance|people really use.',
+	'w_text'        => 'I am Elena Marsh. I opened Hitomi Vision in 2011 so that a visit could last long enough to measure the distance people really use, not only the letters on the chart. I see adults, and I pay particular attention to how the two eyes work together at a desk. If your question is a child, dry eye, contact lenses, or a screen that will not sit at a comfortable height, you will see the colleague who spends their week on that work. Whoever examines you will explain the plan before you leave the room.',
+	'w_sign'        => 'Dr. Elena Marsh',
+	'w_names'       => 'Dr. Tomas Reyes, OD, children’s vision and myopia follow-up · Dr. Priya Nair, OD, dry eye and contact lenses · Dr. Jonah Whitfield, OD, screen and workplace vision · Ines Kowalczyk, optician, frames and lens fitting · Samuel Achebe, clinical technician, imaging · Hana Lindgren, front desk and scheduling',
+	'alt_director'  => 'Dr. Elena Marsh at a slit lamp, turned toward the camera',
+
+	'v_title'       => 'Visit',
+	'v_sub'         => 'find us',
+	'v_text'        => 'We are on the second floor of 14 Linden Row, Northgate. Take the lift from the street door. Three exam rooms and a small frame room open off a short corridor. Call +1 555 0142 208 or write to hello@hitomivision.example and Hana will find a time, including an after-school slot if you are booking a child.',
+	'v_h1'          => 'Monday to Friday',
+	'v_h1t'         => '10:00–19:00',
+	'v_h2'          => 'Saturday',
+	'v_h2t'         => '9:00–16:00',
+	'v_h3'          => 'Sunday and public holidays',
+	'v_h3t'         => 'closed',
+	'v_h4'          => 'Children’s after-school slots',
+	'v_h4t'         => 'Mon–Fri 15:30–18:30, Sat 9:00–12:00',
+	'alt_front'     => 'Clinic front window from the street with plants and pale frames',
+
+	'nav_exams'     => 'exams',
+	'nav_children'  => 'children',
+	'nav_screen'    => 'screen eyes',
+	'nav_dry'       => 'dry eye',
+	'nav_frames'    => 'frames',
+	'nav_fees'      => 'fees',
+	'nav_about'     => 'about',
+	'nav_visit'     => 'visit',
+);
