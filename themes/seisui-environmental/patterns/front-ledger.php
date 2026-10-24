@@ -20,7 +20,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ss-lead","align":"center"} -->
-<p class="ss-lead has-text-align-center">Each row carries the code, the place, the medium, the year monitoring began and the rounds in a year. The wider programme holds 38 sites.</p>
+<p class="ss-lead has-text-align-center">Each row carries the code, the place, the medium, the year monitoring began and who commissioned it. The wider programme holds 38 sites.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -75,11 +75,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Rounds / yr</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Last round</p>
+<p class="ss-lcell">Client</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -101,11 +97,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">4</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">On record</p>
+<p class="ss-lcell">council</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -127,11 +119,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">4</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">On record</p>
+<p class="ss-lcell">council</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -153,11 +141,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">4</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">On record</p>
+<p class="ss-lcell">parish</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -179,11 +163,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">4</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">On record</p>
+<p class="ss-lcell">landowner</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -205,11 +185,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">4</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">On record</p>
+<p class="ss-lcell">landowner</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -231,11 +207,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">4</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">On record</p>
+<p class="ss-lcell">parish</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

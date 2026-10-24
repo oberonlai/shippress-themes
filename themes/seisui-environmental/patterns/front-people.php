@@ -40,7 +40,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-person__disc"} -->
-<p class="ss-person__disc">Hydrology</p>
+<p class="ss-person__disc">Leads the river-catchment assessments</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -54,7 +54,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-person__disc"} -->
-<p class="ss-person__disc">Soil and contamination</p>
+<p class="ss-person__disc">Runs Phase I and Phase II investigations</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -68,7 +68,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-person__disc"} -->
-<p class="ss-person__disc">Habitat and biodiversity</p>
+<p class="ss-person__disc">Surveys meadows and river margins in season</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -82,7 +82,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-person__disc"} -->
-<p class="ss-person__disc">Field sampling</p>
+<p class="ss-person__disc">Leads the quarterly sampling rounds</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -96,7 +96,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-person__disc"} -->
-<p class="ss-person__disc">GIS and monitoring data</p>
+<p class="ss-person__disc">Keeps the site maps and the ledger</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -110,7 +110,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-person__disc"} -->
-<p class="ss-person__disc">Permitting and municipal liaison</p>
+<p class="ss-person__disc">Writes to councils and regulators for clients</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -124,7 +124,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-person__disc"} -->
-<p class="ss-person__disc">Laboratory quality assurance</p>
+<p class="ss-person__disc">Checks each result before it is filed</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
