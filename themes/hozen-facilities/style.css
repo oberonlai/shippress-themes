@@ -483,3 +483,19 @@ img { max-width: 100%; height: auto; }
 .hz-pagehead + .hz-roof--tall { margin-top: 72px; }
 .hz-statement--inner + .hz-strip, .hz-sec + .hz-strip { margin-top: 0; }
 @media (max-width: 781px) { .hz-pagehead + .hz-roof--tall { margin-top: 40px; } .hz-strip { margin-top: 72px; } }
+
+/* Languages: Chinese and Japanese use a bundled Noto Sans subset (CJK characters only; Latin and figures stay in Proza Libre / Figtree) */
+:root:lang(zh) {
+	--wp--preset--font-family--heading: "Proza Libre", "Noto Sans TC", "PingFang TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Figtree", "Noto Sans TC", "PingFang TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--heading: "Proza Libre", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans CJK JP", Meiryo, sans-serif;
+	--wp--preset--font-family--body: "Figtree", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.02em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) .hz-band__tag { font-style: normal; }
+:lang(ja) :is(h1, h2, h3, p) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, h4) { hyphens: auto; overflow-wrap: break-word; }
