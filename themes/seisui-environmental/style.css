@@ -14,7 +14,7 @@ Text Domain: seisui-environmental
 */
 
 :root { --ss-ink: #333333; --ss-quiet: #5F5F5F; --ss-line: #CCCCCC; --ss-band: #EDF2EF; --ss-accent: #6A7A58; --ss-accent-dark: #4E5A40; --ss-footer: #39412F; --ss-pad: max(1.5rem, calc((100vw - 1200px) / 2)); --ss-ease: cubic-bezier(.25,.46,.45,.94); }
-html { scroll-behavior: smooth; }
+
 body { -webkit-font-smoothing: antialiased; overflow-x: clip; }
 img { max-width: 100%; height: auto; }
 a { text-underline-offset: 0.2em; transition: color .2s ease; }
@@ -55,10 +55,10 @@ section[class*="ss-"] .wp-block-group > * { margin-block: 0; }
 .ss-eyebrow::before { content: ""; display: block; width: 48px; height: 1px; background: var(--ss-accent); margin-bottom: 1rem; }
 .ss-hero__photo { width: 67%; margin: 0 !important; }
 .ss-hero__photo img { display: block; width: 100%; aspect-ratio: 2.28 / 1; object-fit: cover; border-radius: 10px 0 0 10px; }
-.ss-hero__bottom { display: grid; grid-template-columns: 5fr 7fr; gap: 3rem; align-items: end; padding-top: 2.5rem; max-width: 1200px; margin-inline: auto; padding-inline: 0; }
+.ss-hero__bottom { display: grid; grid-template-columns: 4.5fr 7.5fr; gap: 3rem; align-items: end; padding-top: 2.5rem; max-width: 1200px; margin-inline: auto; padding-inline: 0; }
 .ss-lead { font-size: 1.0625rem; line-height: 1.8; margin: 0 0 1.75rem !important; }
 .ss-hero__btns { margin-top: 1.5rem; }
-.ss-hero__title { margin: 0 !important; text-align: right; font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1.25; letter-spacing: 0.06em; font-weight: 400; }
+.ss-hero__title { margin: 0 !important; text-align: right; font-size: clamp(2.5rem, 4.3vw, 4.5rem); line-height: 1.25; letter-spacing: 0.06em; font-weight: 400; }
 @media (max-width: 1250px) { .ss-hero__bottom { padding-inline: 1.5rem; } }
 @media (max-width: 781px) {
 	.ss-header__bar { height: 64px; grid-template-columns: auto 1fr; }
@@ -72,7 +72,7 @@ section[class*="ss-"] .wp-block-group > * { margin-block: 0; }
 	.ss-hero__head { order: -1; }
 	.ss-hero__title { font-size: 2.5rem; }
 	.ss-hero__btns .wp-block-button, .ss-hero__btns .wp-block-button__link { display: block; text-align: center; width: 100%; }
-	.ss-hero { padding-bottom: 3rem; }
+	.ss-hero { padding-bottom: 3rem; min-height: 900px; }
 }
 
 /* Marquee strip */
@@ -84,7 +84,7 @@ html:not(.sp-no-motion) .sp-marquee.ss-strip > * { animation-duration: 40s; }
 
 /* T1: ghost word behind every section heading */
 .ss-sec { padding: 160px var(--ss-pad) 100px; overflow-x: clip; position: relative; }
-.ss-head { text-align: center; margin: 0 0 3.5rem; }
+.ss-head { text-align: center; margin: 0 0 5rem; }
 .ss-ghost { font-family: var(--wp--preset--font-family--sans); font-weight: 700; font-size: clamp(4.5rem, 12.8vw, 11.5rem); line-height: 0.85; color: var(--ss-accent); opacity: 0.15; text-transform: uppercase; letter-spacing: 0; text-align: center; white-space: nowrap; user-select: none; pointer-events: none; margin: 0 !important; }
 .ss-h2 { position: relative; font-size: 3rem; line-height: 1.5; letter-spacing: 0.1em; font-weight: 500; text-align: center; margin: -4.4rem 0 0 !important; }
 .ss-head .ss-lead { max-width: 38em; margin: 1.25rem auto 0 !important; font-size: 0.9375rem; color: var(--ss-ink); }
@@ -234,12 +234,16 @@ html:not(.sp-no-motion) .sp-marquee.ss-strip > * { animation-duration: 40s; }
 .ss-footer p, .ss-footer h3 { margin: 0 0 0.5rem; }
 .ss-foot__name { font-family: var(--wp--preset--font-family--serif); font-size: 1.75rem; line-height: 1.2; margin: 0 !important; }
 .ss-footer .ss-foot__name a { color: #fff; }
-.ss-foot__sub { font-size: 0.625rem; letter-spacing: 0.2em; margin: 2px 0 1.25rem !important; opacity: 0.8; }
-.ss-foot__addr { font-size: 0.875rem; line-height: 1.8; opacity: 0.92; }
+.ss-foot__sub { font-size: 0.625rem; letter-spacing: 0.2em; margin: 2px 0 1.25rem !important; color: rgba(237,242,239,.8); }
+.ss-foot__addr { font-size: 0.875rem; line-height: 1.8; color: rgba(237,242,239,.92); }
 .ss-foot__h { font-family: var(--wp--preset--font-family--sans); font-size: 0.75rem !important; letter-spacing: 0.18em; text-transform: uppercase; font-weight: 600; color: #fff; margin-bottom: 1rem !important; }
 .ss-foot__link { font-size: 0.9375rem; }
-.ss-foot__copy { margin-top: 3rem !important; padding-top: 1.5rem; border-top: 1px solid rgba(237, 242, 239, 0.25); font-size: 0.75rem; opacity: 0.8; }
+.ss-foot__copy { margin-top: 3rem !important; padding-top: 1.5rem; border-top: 1px solid rgba(237, 242, 239, 0.25); font-size: 0.75rem; color: rgba(237,242,239,.8); }
 @media (max-width: 781px) { .ss-footer { padding-inline: 1.5rem; } .ss-footer__cols { gap: 1.5rem; } }
 
 /* Hairline hover on cards is the only hover motion; reduced motion keeps it instant */
 @media (prefers-reduced-motion: reduce) { a, .wp-block-button__link, .ss-card, .ss-arrow { transition: none; } }
+
+/* Explicit families so the editor canvas and the front end resolve the same stack */
+.ss-h2, .ss-hero__title, .ss-page-title, .ss-brand__name, .ss-foot__name, .ss-step__n { font-family: var(--wp--preset--font-family--serif); }
+.ss-step__title, .ss-case__title, .ss-foot__h { font-family: var(--wp--preset--font-family--sans); }

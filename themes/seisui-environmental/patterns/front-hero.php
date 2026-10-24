@@ -34,7 +34,7 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-text-link"} -->
-<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="#process">How an assessment begins →</a></div>
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="#process">See how an assessment begins →</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
