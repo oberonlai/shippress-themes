@@ -1,0 +1,38 @@
+<?php
+/**
+ * Title: Template: home
+ * Slug: ishizue-holdings/tpl-home
+ * Categories: ishizue-holdings
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"ih-main","layout":{"type":"default"}} -->
+<main class="wp-block-group ih-main"><!-- wp:pattern {"slug":"ishizue-holdings/news-head"} /-->
+
+<!-- wp:group {"className":"ih-list ih-stories","layout":{"type":"default"}} -->
+<div class="wp-block-group ih-list ih-stories"><!-- wp:query {"queryId":1,"query":{"perPage":8,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"layout":{"type":"default"}} -->
+<div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2","className":"ih-story__img"} /-->
+
+<!-- wp:post-terms {"term":"category","className":"ih-story__cat"} /-->
+
+<!-- wp:post-title {"level":2,"isLink":true,"className":"ih-story__title"} /-->
+
+<!-- wp:post-excerpt {"excerptLength":30,"className":"ih-story__ex"} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query -->
+
+<!-- wp:paragraph {"className":"ih-more"} -->
+<p class="ih-more"><a class="ih-arrow" href="/investors/" aria-hidden="true" tabindex="-1"></a><a class="ih-more__t" href="/investors/"><?php echo wp_kses_post( ishizue_holdings_t( 'k277a9d64' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
