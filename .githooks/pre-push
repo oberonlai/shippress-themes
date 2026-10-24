@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# 2026-10-24 (#371): refuse a push that changes a released theme without bumping its Version. CI's check-themes catches
+# it too, but #371 was merged with --admin over the red check and the themes release stayed broken for every theme.
+# Only themes this push touches (vs origin/main) are checked, so an old lane branch never trips on themes it did not touch.
+# Enable once per clone: git config core.hooksPath .githooks   (bypass in an emergency: git push --no-verify)
+root=$(git rev-parse --show-toplevel) || exit 0
+[ -f "$root/scripts/bump-released.mjs" ] || exit 0
+git fetch -q --tags origin 2>/dev/null || true
+slugs=$(git -C "$root" diff --name-only origin/main...HEAD -- themes/ 2>/dev/null | cut -d/ -f2 | sort -u | while read -r s; do [ -f "$root/themes/$s/style.css" ] && echo "$s"; done)
+[ -z "$slugs" ] && exit 0
+if ! out=$(cd "$root" && node scripts/bump-released.mjs --check $slugs 2>&1); then
+  echo "$out" >&2
+  echo "pre-push: a released theme changed without a version bump — run node scripts/bump-released.mjs --write <slug>, commit, push again." >&2
+  exit 1
+fi
+exit 0
