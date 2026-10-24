@@ -68,3 +68,7 @@ Greige ground #DFDAD6, light field #E9E6E3, deep field #D5CFCA, ghost white #FFF
 
 ## Photography
 Photorealistic documentary photographs, high-key daylight, pale greige plaster, light oak and brushed steel, muted warm palette, diverse adults, no text, no logos, no cut-outs.
+
+## Inner pages (en, built in stage 2)
+Menus (lunch, dinner, children with the six prices), Reservations (three sittings, four steps, policy, mailto booking form at #book, hours), Private dining (12 guests, minimum 8, EUR 58 / 78 per guest, EUR 38 pairing), About / The room (2014 story, parallax room band), People (seven named, roster then rows), Growers (three producers), Wine and drinks (six by the glass, EUR 38 pairing), Visit and contact (address, tram 8, access, hours), Contact, Newsletter, Journal (four notes, one full article: The Tuesday crates). Every page head repeats the ghost word over an arch (or rectangle / two overlapping photographs) photograph; the reservation tab stays on every template; one full-bleed parallax band on About.
+Photographs: 17 in total (p01-p13, d1-d4), no image repeats on a page.

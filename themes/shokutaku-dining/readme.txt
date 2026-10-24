@@ -43,6 +43,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p09.webp (journal post 'The Tuesday crates' and home notes card)
 - assets/images/p10.webp (journal post 'A long table for twelve': the private room)
 - assets/images/p11.webp (journal post 'Bread at six' and home notes card)
+- assets/images/p13.webp (people page: three cooks doing mise en place at the steel bench)
 - assets/images/p12.webp (journal post 'Pouring by the glass' and home notes card)
 - assets/images/d1.webp (home PLATES half-pill: roast fish with white beans)
 - assets/images/d2.webp (home PLATES pill: spring vegetable starter)
