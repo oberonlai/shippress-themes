@@ -303,3 +303,30 @@ img { max-width: 100%; height: auto; }
 .hv-search .wp-block-search__input { border: 1px solid var(--wp--preset--color--line); border-radius: 1px; background: var(--wp--preset--color--light); padding: .55rem .75rem; font: inherit; }
 .hv-search .wp-block-search__button { background: transparent; border: 1px solid var(--wp--preset--color--line); border-radius: 1px; color: var(--wp--preset--color--ink); font-family: var(--wp--preset--font-family--ui); font-size: var(--wp--preset--font-size--nav); letter-spacing: .06em; text-transform: lowercase; padding: 6px 14px; }
 .hv-endcta, .hv-page-body { position: relative; z-index: 1; }
+
+/* Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Newsreader / Figtree) */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", Newsreader, "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--ui: Figtree, "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", Newsreader, "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--ui: Figtree, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) :is(.hv-brand, .hv-nav, .hv-head__sub, .hv-method strong, .hv-btn .wp-block-button__link) { text-transform: none; letter-spacing: 0.1em; }
+/* headline sizes about 0.75x the English scale */
+:root:is(:lang(zh), :lang(ja)) {
+	--wp--preset--font-size--huge: clamp(2rem, 4.2vw, 3.5rem);
+	--wp--preset--font-size--xx-large: 2.1rem;
+	--wp--preset--font-size--x-large: 1.55rem;
+	--wp--preset--font-size--large: 1.2rem;
+}
+:is(:lang(zh), :lang(ja)) .hv-h1 { font-size: var(--wp--preset--font-size--huge); }
+@media (max-width: 781px) { :is(:lang(zh), :lang(ja)) .hv-h1 { font-size: 2.1rem; } }
+:lang(ja) :is(h1, h2, h3) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3) { hyphens: auto; overflow-wrap: break-word; }
+:root:is(:lang(fr), :lang(de)) { --wp--preset--font-size--huge: clamp(2.4rem, 4.8vw, 4.1rem); --wp--preset--font-size--xx-large: 2.4rem; }
+:is(:lang(fr), :lang(de)) .hv-h1 { font-size: var(--wp--preset--font-size--huge); }
