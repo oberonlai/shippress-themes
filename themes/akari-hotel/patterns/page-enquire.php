@@ -8,8 +8,8 @@
  * Description: Page: Enquire (inner page, built from the sample copy).
  */
 ?>
-<!-- wp:group {"className":"ak-ch ak-ch--page ak-ch--enquire","tagName":"section","layout":{"type":"default"},"align":"full"} -->
-<section class="wp-block-group alignfull ak-ch ak-ch--page ak-ch--enquire"><!-- wp:group {"className":"ak-line sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
+<!-- wp:group {"className":"ak-ch ak-ch--page ak-pg-enquire","tagName":"section","layout":{"type":"default"},"align":"full"} -->
+<section class="wp-block-group alignfull ak-ch ak-ch--page ak-pg-enquire"><!-- wp:group {"className":"ak-line sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-line sp-reveal sp-reveal--wipe"><!-- wp:html -->
 <span class="ak-line__bar"></span>
 <!-- /wp:html --></div>
@@ -28,7 +28,7 @@
 <div class="wp-block-group ak-t1__text sp-stagger"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
 <p class="sp-reveal sp-reveal--up"><?php echo esc_html( akari_hotel_t( 'enquire_intro' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ak-link sp-reveal sp-reveal--up"} -->
-<p class="ak-link sp-reveal sp-reveal--up"><a href="<?php echo esc_url( home_url( '/rates/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'enquire_cta' ) ); ?></a></p>
+<p class="ak-link sp-reveal sp-reveal--up"><a href="<?php echo esc_url( home_url( '/rates/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'enquire_cta_go' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

@@ -8,8 +8,8 @@
  * Description: Not found (inner page, built from the sample copy).
  */
 ?>
-<!-- wp:group {"className":"ak-ch ak-ch--page ak-ch--notfound","tagName":"section","layout":{"type":"default"},"align":"full"} -->
-<section class="wp-block-group alignfull ak-ch ak-ch--page ak-ch--notfound"><!-- wp:group {"className":"ak-line sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
+<!-- wp:group {"className":"ak-ch ak-ch--page ak-pg-notfound","tagName":"section","layout":{"type":"default"},"align":"full"} -->
+<section class="wp-block-group alignfull ak-ch ak-ch--page ak-pg-notfound"><!-- wp:group {"className":"ak-line sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-line sp-reveal sp-reveal--wipe"><!-- wp:html -->
 <span class="ak-line__bar"></span>
 <!-- /wp:html --></div>
@@ -28,9 +28,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group --><!-- wp:group {"className":"ak-ch ak-ch--text","tagName":"section","layout":{"type":"default"},"align":"full"} -->
-<section class="wp-block-group alignfull ak-ch ak-ch--text"><!-- wp:group {"className":"ak-sec__row","layout":{"type":"default"}} -->
-<div class="wp-block-group ak-sec__row"><!-- wp:paragraph {"className":"ak-link sp-reveal sp-reveal--up"} -->
-<p class="ak-link sp-reveal sp-reveal--up"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nf_cta' ) ); ?></a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></section>
+<section class="wp-block-group alignfull ak-ch ak-ch--text"><!-- wp:paragraph {"className":"ak-link sp-reveal sp-reveal--up"} -->
+<p class="ak-link sp-reveal sp-reveal--up"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nf_cta_go' ) ); ?></a></p>
+<!-- /wp:paragraph --></section>
 <!-- /wp:group -->

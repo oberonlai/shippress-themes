@@ -8,8 +8,8 @@
  * Description: Page: FAQ (inner page, built from the sample copy).
  */
 ?>
-<!-- wp:group {"className":"ak-ch ak-ch--page ak-ch--faq","tagName":"section","layout":{"type":"default"},"align":"full"} -->
-<section class="wp-block-group alignfull ak-ch ak-ch--page ak-ch--faq"><!-- wp:group {"className":"ak-line sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
+<!-- wp:group {"className":"ak-ch ak-ch--page ak-pg-faq","tagName":"section","layout":{"type":"default"},"align":"full"} -->
+<section class="wp-block-group alignfull ak-ch ak-ch--page ak-pg-faq"><!-- wp:group {"className":"ak-line sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-line sp-reveal sp-reveal--wipe"><!-- wp:html -->
 <span class="ak-line__bar"></span>
 <!-- /wp:html --></div>

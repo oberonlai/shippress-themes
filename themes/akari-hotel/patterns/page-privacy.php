@@ -8,8 +8,8 @@
  * Description: Page: Privacy (inner page, built from the sample copy).
  */
 ?>
-<!-- wp:group {"className":"ak-ch ak-ch--page ak-ch--privacy","tagName":"section","layout":{"type":"default"},"align":"full"} -->
-<section class="wp-block-group alignfull ak-ch ak-ch--page ak-ch--privacy"><!-- wp:group {"className":"ak-line","layout":{"type":"default"}} -->
+<!-- wp:group {"className":"ak-ch ak-ch--page ak-pg-privacy","tagName":"section","layout":{"type":"default"},"align":"full"} -->
+<section class="wp-block-group alignfull ak-ch ak-ch--page ak-pg-privacy"><!-- wp:group {"className":"ak-line","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-line"><!-- wp:html -->
 <span class="ak-line__bar"></span>
 <!-- /wp:html --></div>
