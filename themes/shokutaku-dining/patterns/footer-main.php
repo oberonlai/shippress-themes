@@ -11,7 +11,7 @@
 <div class="wp-block-group alignfull shk-footer"><!-- wp:group {"className":"shk-footer__in","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-footer__in"><!-- wp:group {"className":"shk-footer__top","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-footer__top"><!-- wp:paragraph {"className":"shk-footer__line"} -->
-<p class="shk-footer__line">Tables open thirty days ahead.</p>
+<p class="shk-footer__line">A table near the pass, thirty days ahead.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"shk-btn-row shk-btn-row--light"} -->

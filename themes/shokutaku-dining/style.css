@@ -37,8 +37,7 @@ Tags: food-drink, block-patterns, full-site-editing, blog, custom-colors, editor
 /* ---------- base ---------- */
 body { overflow-x: clip; }
 .wp-site-blocks > * + * { margin-block-start: 0; }
-.shk-main .is-layout-flow > *, .shk-footer .is-layout-flow > *, .shk-header.is-layout-flow > * { margin-block-start: 0; margin-block-end: 0; }
-.shk-main p, .shk-footer p { margin-top: 0; }
+:where(.shk-main, .shk-footer) :where(p) { margin-top: 0; }
 a { transition: color .6s var(--shk-ease), background-color .6s var(--shk-ease), border-color .6s var(--shk-ease); }
 :where(.shk-main, .shk-footer) a:focus-visible, .shk-header a:focus-visible { outline: 2px solid var(--shk-accent); outline-offset: 3px; }
 .shk-in { position: relative; z-index: 1; width: min(1080px, 100% - 2 * var(--shk-gut)); margin-inline: auto; }
@@ -143,24 +142,25 @@ a { transition: color .6s var(--shk-ease), background-color .6s var(--shk-ease),
 }
 
 /* ---------- block 2: TABLE ---------- */
-.shk-table { position: relative; overflow: clip; padding: 6.25rem 0 var(--wp--preset--spacing--80); min-height: 1300px; }
-.shk-table::before { content: ""; position: absolute; z-index: 0; left: -33vw; top: 30%; width: 166vw; aspect-ratio: 2400 / 1396; border-radius: 50%; background: var(--shk-light); }
-.shk-table > .shk-ghost { z-index: 1; }
-.shk-table__copy { position: relative; z-index: 2; width: min(520px, 100% - 48px); margin: -20px auto 0; }
-.shk-table__copy .shk-h2 { margin-bottom: 1.75rem; }
-.shk-table__copy p { margin-bottom: 1.25rem; }
+.shk-concept { position: relative; overflow: clip; padding: 6.25rem 0 var(--wp--preset--spacing--80); min-height: 1300px; }
+.shk-concept::before { content: ""; position: absolute; z-index: 0; left: -33vw; top: 30%; width: 166vw; aspect-ratio: 2400 / 1396; border-radius: 50%; background: var(--shk-light); }
+.shk-concept > .shk-ghost { z-index: 1; }
+.shk-concept__copy { position: relative; z-index: 2; width: min(520px, 100% - 48px); margin: -20px auto 0; }
+.shk-concept__copy .shk-h2 { margin-bottom: 1.75rem; }
+.shk-concept__copy p { margin-bottom: 1.25rem; }
 .shk-sc { position: absolute; z-index: 2; }
-.shk-sc--a { left: 34px; top: 180px; width: min(320px, 22.2vw); }
-.shk-sc--b { right: 10.4vw; top: 520px; width: min(240px, 16.7vw); }
+.shk-sc--a { left: 34px; top: 130px; width: min(320px, 22.2vw); }
+.shk-sc--b { right: 10.4vw; top: 330px; width: min(240px, 16.7vw); }
 .shk-sc--c { right: 22.9vw; top: 1000px; width: min(320px, 22.2vw); }
-@media (max-width: 1199px) { .shk-sc--c { display: none; } .shk-table { min-height: 1100px; } }
+@media (max-width: 1199px) { .shk-sc--c { display: none; } .shk-concept { min-height: 1100px; } }
 @media (max-width: 1023px) {
-	.shk-table { display: grid; grid-template-columns: 3fr 2fr; column-gap: 16px; padding: 6rem 24px; min-height: 0; }
-	.shk-table > .shk-ghost, .shk-table__copy { grid-column: 1 / -1; }
-	.shk-table__copy { margin: 0 auto 3rem; width: 100%; }
+	.shk-concept { display: grid; grid-template-columns: 3fr 2fr; column-gap: 16px; padding: 6rem 24px; min-height: 0; }
+	.shk-concept > .shk-ghost, .shk-concept__copy { grid-column: 1 / -1; }
+	.shk-concept > .shk-ghost { order: -2; }
+	.shk-concept__copy { order: -1; margin: 0 auto 3rem; width: 100%; }
 	.shk-sc { position: static; width: auto; }
 	.shk-sc--b { margin-top: 70px; }
-	.shk-table::before { top: 12%; }
+	.shk-concept::before { top: 12%; }
 }
 
 /* ---------- block 3: SITTINGS ---------- */
@@ -182,7 +182,7 @@ a { transition: color .6s var(--shk-ease), background-color .6s var(--shk-ease),
 /* ---------- block 4: ROOM band (parallax) ---------- */
 .shk-room { min-height: max(640px, 100svh) !important; padding: 0 !important; }
 .shk-room::after { content: ""; position: absolute; inset: 0; z-index: 0; background: linear-gradient(to top, rgba(0, 0, 0, .42) 0%, rgba(0, 0, 0, 0) 45%); pointer-events: none; }
-.shk-room .wp-block-cover__inner-container { position: relative; z-index: 1; width: min(1080px, 100% - 2 * var(--shk-gut)); margin-inline: auto; padding-bottom: 4rem; color: #fff; }
+.wp-block-cover.shk-room .wp-block-cover__inner-container { position: relative; z-index: 1; width: min(1080px, 100% - 2 * var(--shk-gut)) !important; max-width: none; margin: 0 auto !important; padding-bottom: 4rem; color: #fff; }
 .shk-room__label { margin: 0 0 .5rem; font: 500 .875rem/1.6 var(--shk-sans); letter-spacing: .12em; color: #fff; }
 .shk-room__line { margin: 0; max-width: 20ch; font: 300 2.25rem/1.3 var(--shk-serif); letter-spacing: .01em; color: #fff; }
 @media (max-width: 781px) { .shk-room { --sp-par: 7%; min-height: 70svh !important; } .shk-room__line { font-size: 1.625rem; } }
@@ -213,7 +213,7 @@ a { transition: color .6s var(--shk-ease), background-color .6s var(--shk-ease),
 .shk-cap span { display: block; }
 @media (max-width: 959px) {
 	.shk-plates { padding: 6rem 0; }
-	.shk-strip { margin-left: 0; padding: 0 24px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; gap: 20px; }
+	.shk-strip { margin-left: 0; padding: 0 24px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-left: 24px; scrollbar-width: none; gap: 20px; }
 	.shk-strip::-webkit-scrollbar { display: none; }
 	.shk-strip__item { scroll-snap-align: start; }
 	.shk-strip__item--a { width: 78vw; }
