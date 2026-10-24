@@ -22,4 +22,24 @@ License: GPL-2.0-or-later.
 <td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hitomi Vision home page on mobile"></td>
 </tr>
 </table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Eye exams: [desktop](screenshots/eye-exams-desktop.webp) · [mobile](screenshots/eye-exams-mobile.webp)
+- Childrens vision: [desktop](screenshots/childrens-vision-desktop.webp) · [mobile](screenshots/childrens-vision-mobile.webp)
+- Screen eyes: [desktop](screenshots/screen-eyes-desktop.webp) · [mobile](screenshots/screen-eyes-mobile.webp)
+- Dry eye contacts: [desktop](screenshots/dry-eye-contacts-desktop.webp) · [mobile](screenshots/dry-eye-contacts-mobile.webp)
+- Frames lenses: [desktop](screenshots/frames-lenses-desktop.webp) · [mobile](screenshots/frames-lenses-mobile.webp)
+- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
+- Cases: [desktop](screenshots/cases-desktop.webp) · [mobile](screenshots/cases-mobile.webp)
+- Optometrists: [desktop](screenshots/optometrists-desktop.webp) · [mobile](screenshots/optometrists-mobile.webp)
+- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
+- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
+- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
 <!-- screenshots:end -->
