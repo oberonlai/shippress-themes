@@ -45,7 +45,11 @@ Calm and concrete, like a teacher speaking in a quiet room before the lesson sta
 4. Start the term. The registration fee is €35, once per year.
 
 ## Pages
-Home, About, Lessons, A Week at Neiro (schedule), Teachers, Fees and Enrolment, Recitals and Ensembles, Pupils' Stories, FAQ, Visit and Contact, News (three posts: term dates, the June recital, a new cello teacher), Privacy.
+Home, About, Lessons, A Week at Neiro (schedule), Teachers, Fees and Enrolment, Recitals and Ensembles, Pupils' Stories, FAQ, Visit and Contact, News (one article: the June recital), Privacy.
 
 ## Teaching day (home)
 15:30 First lessons · 16:45 Strings room · 18:00 Ear and theory table · 19:15 Adult beginners · 20:30 Evening ensemble (Fridays only; other days the last lessons end at 21:30).
+
+## Inner pages (en, stage 2)
+- About (T1 pair P03 + P04, three sticky history rows 2011 / 2016 / today), Lessons & Instruments (four sticky rows: piano, strings, voice, guitar), A Week at Neiro (six sticky rows Mon–Sat), Teachers (T1 pair P14 + P15, eight teacher rows), Fees & Enrolment (full-width price list, four enrolment steps, changes), Recitals & Ensembles (T1 pair P09 + P02, parallax band P16, three sticky rows), Pupils' Stories (three sticky rows), FAQ (ten questions), Visit & Contact (address, hours, sample form), Privacy.
+- News: one article, "The June recital in the Long Room". Fees, hours, names and ages are identical to the home page.
