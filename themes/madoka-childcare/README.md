@@ -8,3 +8,7 @@ A WordPress block theme for a childcare centre for babies and toddlers of workin
 - **Type.** Albert Sans for headings, Public Sans for reading (OFL-1.1, Latin WOFF2 bundled, loaded through theme.json).
 - **Signature.** A hand-torn photograph frame and torn band edges (own SVG masks), organic blob photographs across a band edge with white label tabs, stripe-per-line headings, time blobs for the care day, a round "Book a visit" badge.
 - **Motion.** sp-scroll: wipe on headings, back-out zoom on photographs, parallax on the hero and the garden band. Reduced motion and the editor always show the final state.
+
+## Status
+
+The home page (English) is finished: torn hero frame, care day on torn sand bands, rooms, fees, garden, visit band with address card, notes. Inner pages exist as placeholders linked from the menu; the full inner pages and the zh-TW, ja, fr and de sample content follow.
