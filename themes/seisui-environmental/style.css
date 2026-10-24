@@ -251,3 +251,17 @@ html:not(.sp-no-motion) .sp-marquee.ss-strip > * { animation-duration: 40s; }
 /* Explicit families so the editor canvas and the front end resolve the same stack */
 .ss-h2, .ss-hero__title, .ss-page-title, .ss-brand__name, .ss-foot__name, .ss-step__n { font-family: var(--wp--preset--font-family--serif); }
 .ss-step__title, .ss-case__title, .ss-foot__h { font-family: var(--wp--preset--font-family--sans); }
+
+/* Inner pages: the pattern carries its own ghost-word head, so the template title is hidden there */
+.ss-main:has(.ss-inner-wrap) .ss-page-title { display: none; }
+.ss-inner-wrap { padding: 120px var(--ss-pad) 100px; overflow-x: clip; }
+.ss-inner-wrap .ss-inner__text, .ss-inner-wrap .ss-inner__row { margin-top: 3.5rem; }
+.ss-inner-wrap .ss-inner__text .wp-block-buttons { margin-top: 1.5rem; }
+.ss-ledger-table table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
+.ss-ledger-table th, .ss-ledger-table td { text-align: left; padding: 0.9rem 0.75rem; border-top: 1px solid var(--ss-line); }
+.ss-ledger-table thead th { font-size: 0.75rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ss-quiet); font-weight: 600; }
+.ss-ledger-table tbody tr:last-child td { border-bottom: 1px solid var(--ss-line); }
+@media (max-width: 781px) { .ss-inner-wrap { padding: 96px 1.5rem 64px; } .ss-ledger-table { overflow-x: auto; } .ss-ledger-table th, .ss-ledger-table td { padding: 0.7rem 0.5rem; } }
+.ss-inner-wrap .ss-inner__text > * { max-width: 760px; margin-left: 0 !important; margin-right: auto !important; }
+.ss-ledger-table table, .ss-ledger-table th, .ss-ledger-table td { border-left: 0; border-right: 0; }
+.ss-ledger-table thead th { border-bottom: 1px solid var(--ss-ink); }
