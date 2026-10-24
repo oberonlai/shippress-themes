@@ -40,6 +40,7 @@ All images are AI-generated for this theme (Grok Build), no text or logos, relea
 - assets/images/h3-gauge.webp (home statement). AI-generated, CC0.
 - assets/images/k1-ceiling.webp (home contact cluster). AI-generated, CC0.
 - assets/images/k2-water.webp (home contact cluster ghost photo). AI-generated, CC0.
+- assets/images/k3-valve.webp (home contact cluster). AI-generated, CC0.
 - assets/images/n1-valve.webp (home field notes and story). AI-generated, CC0.
 - assets/images/p1-chiller.webp (home field notes and story). AI-generated, CC0.
 - assets/images/s1-court.webp (home sites #01). AI-generated, CC0.

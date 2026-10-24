@@ -47,6 +47,10 @@
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hz-cluster__b"} -->
 <figure class="wp-block-image size-full hz-cluster__b"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/k2-water.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hz-cluster__c"} -->
+<figure class="wp-block-image size-full hz-cluster__c"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/k3-valve.webp' ) ); ?>" alt="<?php echo esc_attr( hozen_facilities_t( 'alt_k3' ) ); ?>"/></figure>
+<!-- /wp:image -->
 </div>
 <!-- /wp:group -->
 
