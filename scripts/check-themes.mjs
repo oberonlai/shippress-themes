@@ -5,7 +5,7 @@ import { drift } from "./bump-released.mjs";
 //   node scripts/check-themes.mjs           # check (exit 1 on any problem)
 //   node scripts/check-themes.mjs --write   # regenerate index.json from the theme-meta.json files, then check
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
-import { dirname, join, relative } from "node:path";
+import { basename, dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { checkZhFonts } from "./zh-fonts.mjs";
 
@@ -81,6 +81,9 @@ export const DEMO_LANGS = ["zh-TW", "ja", "fr", "de"];
 const CJK_FILE = /(?:^|[/.])(?:ja|zh-TW)(?:[/.])/;
 
 /** Problems with a theme's demo content + shared importer (the "ready-to-use website" rule). */
+// Themes whose every language table must carry the full key set of en.php (older themes fall back to English by design).
+const FULL_I18N_THEMES = ["akira-audit"];
+
 export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SHARED_IMPORTER), legacy = LEGACY_IMPORTERS) {
   const errs = [];
   if (!has("inc/demo-import.php")) errs.push("inc/demo-import.php is missing (copy shared/inc/demo-import.php)");
@@ -89,6 +92,16 @@ export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SH
   else if (DEMO_LANGS.some((l) => has(`demo-content.${l}.json`)) && !readFileSync(join(dir, "inc/demo-import.php")).equals(Buffer.from(importer))) errs.push("a theme with demo-content.<lang>.json needs the current shared importer (copy shared/inc/demo-import.php)");
   else if (!/add_action\(\s*'after_switch_theme'/.test(String(importer))) errs.push("the importer has no after_switch_theme hook");
   if (has("functions.php") && !/require_once\s+get_template_directory\(\)\s*\.\s*'\/inc\/demo-import\.php'/.test(read("functions.php"))) errs.push("functions.php must require_once get_template_directory() . '/inc/demo-import.php'");
+  // A language table with fewer keys than en.php silently prints English for the missing strings (Akira Audit ja/fr, 2026-10-25).
+  if (FULL_I18N_THEMES.includes(basename(dir)) && has("inc/i18n/en.php")) {
+    const enKeys = [...i18nStrings(read("inc/i18n/en.php")).keys()];
+    for (const l of DEMO_LANGS) {
+      if (!has(`inc/i18n/${l}.php`)) continue;
+      const have = new Set(i18nStrings(read(`inc/i18n/${l}.php`)).keys());
+      const missing = enKeys.filter((k) => !have.has(k));
+      if (missing.length) errs.push(`inc/i18n/${l}.php lacks ${missing.length} key(s) of inc/i18n/en.php (e.g. ${missing.slice(0, 3).join(", ")}); those strings would print in English`);
+    }
+  }
   // Editor = front end fonts (2026-10-23, Denki): the editor canvas iframe has no <html lang>, so :lang() font stacks in
   // the theme CSS apply on the front end only. A theme with :lang() rules ships shared/inc/editor-lang.php and requires it.
   const cssFiles = ["style.css", ...(has("assets") ? readdirSync(join(dir, "assets")).filter((f) => f.endsWith(".css")).map((f) => `assets/${f}`) : [])];
