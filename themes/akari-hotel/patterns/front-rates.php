@@ -42,7 +42,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ak-link"} -->
-<p class="ak-link"><a href="<?php echo esc_url( home_url( '/rates/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'rates_cta' ) ); ?></a></p>
+<p class="ak-link"><a href="<?php echo esc_url( home_url( '/#rates' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'rates_cta' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

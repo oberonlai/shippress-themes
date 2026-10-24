@@ -261,3 +261,27 @@ img { max-width: 100%; height: auto; }
 .ak-foot__cols > * { margin-block: 0; }
 .ak-notes__cols .ak-h3 { font-size: clamp(1.4rem, 2.2vw, 2rem); }
 .ak-card .ak-h3 { font-size: 1.75rem; }
+
+/* stage 2 fixes */
+/* chapter words that cross a photo invert against whatever is behind them (readable on white and on the photograph) */
+.ak-ch--arrival .ak-t1__head, .ak-ch--evening .ak-t1__head, .ak-ch--breakfast .ak-t1--top .ak-t1__head { mix-blend-mode: difference; }
+.ak-ch--arrival .ak-t1__head .ak-word, .ak-ch--evening .ak-t1__head .ak-word, .ak-ch--breakfast .ak-t1__head .ak-word,
+.ak-ch--arrival .ak-t1__head .ak-label, .ak-ch--evening .ak-t1__head .ak-label, .ak-ch--breakfast .ak-t1__head .ak-label { color: #fff; }
+.ak-ch--breakfast .ak-t1--top .ak-t1__head { position: relative; z-index: 2; margin-bottom: calc(var(--ak-word) * -.35); }
+.ak-ch--evening .ak-t1--mirror .ak-t1__text { margin-top: max(2rem, calc(var(--ak-word) * .4)); }
+/* hairline grows left to right instead of the default vertical wipe */
+html.sp-js:not(.sp-no-motion) .ak-line.sp-reveal--wipe:not(.sp-in) > * { clip-path: inset(0 100% 0 0); }
+html.sp-js:not(.sp-no-motion) .ak-line.sp-reveal--wipe > * { transition: clip-path 1s cubic-bezier(.455, .03, .515, .955) var(--sp-delay, 0s); }
+/* the home screen already has the Enquire pill in its info bar */
+.home .ak-header__cta { visibility: hidden; }
+@media (max-width: 781px) { .ak-ch--breakfast .ak-t1--top .ak-t1__head { margin-bottom: calc(var(--ak-word) * -.35) !important; } }
+/* a soft dark veil on the photo side the word crosses, so the inverted letters keep their contrast */
+.ak-ch--arrival .ak-t1__photo, .ak-ch--evening .ak-t1__photo, .ak-ch--breakfast .ak-t3__photo, .ak-ch--breakfast .ak-t1__photo { position: relative; }
+.ak-ch--arrival .ak-t1__photo::after, .ak-ch--evening .ak-t1__photo::after, .ak-ch--breakfast .ak-t1__photo::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .25) 45%, rgba(0, 0, 0, 0) 80%); }
+.ak-ch--evening .ak-t1__photo::after { background: linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .25) 45%, rgba(0, 0, 0, 0) 80%); }
+.ak-ch--breakfast .ak-t1__photo::after { background: linear-gradient(180deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, 0) 60%); }
+/* tighter bands */
+.ak-ch--breakfast { padding-bottom: calc(var(--ak-sec) * .35); }
+.ak-ch--enquire { padding-top: clamp(3rem, 5vw, 4.5rem); padding-bottom: clamp(3rem, 5vw, 4.5rem); }
+.ak-card { margin-bottom: 0; }
+@media (max-width: 781px) { .ak-ch--enquire { padding-bottom: 3rem; } .ak-card { margin: 2rem 0 0; } }

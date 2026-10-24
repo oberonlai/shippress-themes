@@ -29,7 +29,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ak-link"} -->
-<p class="ak-link"><a href="<?php echo esc_url( home_url( '/journal/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'notes_cta' ) ); ?></a></p>
+<p class="ak-link"><a href="<?php echo esc_url( home_url( '/#notes' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'notes_cta' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 <!-- wp:column -->
@@ -46,7 +46,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ak-link"} -->
-<p class="ak-link"><a href="<?php echo esc_url( home_url( '/journal/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'notes_cta' ) ); ?></a></p>
+<p class="ak-link"><a href="<?php echo esc_url( home_url( '/#notes' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'notes_cta' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 <!-- wp:column -->
@@ -63,7 +63,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ak-link"} -->
-<p class="ak-link"><a href="<?php echo esc_url( home_url( '/journal/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'notes_cta' ) ); ?></a></p>
+<p class="ak-link"><a href="<?php echo esc_url( home_url( '/#notes' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'notes_cta' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

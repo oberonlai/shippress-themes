@@ -16,6 +16,20 @@ Akari Hotel is a boutique city hotel at 18 Tessel Street, Wrenfield, opened in 2
 
 Fonts: Cormorant Garamond and Nunito Sans (SIL Open Font License 1.1), bundled. Photographs were generated for this theme. The scroll effects (sp-scroll) respect the visitor's reduced-motion setting and stay visible without JavaScript.
 
+== Copyright ==
+
+Akari Hotel WordPress Theme, Copyright 2026 ShipPress contributors.
+Akari Hotel is distributed under the terms of the GNU GPL, version 2 or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+Cormorant Garamond: Copyright 2015 the Cormorant Project Authors. License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-CormorantGaramond.txt, https://openfontlicense.org).
+Nunito Sans: Copyright 2016 The Nunito Project Authors. License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NunitoSans.txt, https://openfontlicense.org).
+Photographs (assets/images): generated for this theme, no text or logos; GPL-2.0-or-later.
+
 == Changelog ==
 
 = 1.0.0 =

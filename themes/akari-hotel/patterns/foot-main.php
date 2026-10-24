@@ -26,33 +26,33 @@
 <!-- wp:group {"className":"ak-foot__cols","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-foot__cols"><!-- wp:group {"className":"ak-foot__col","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-foot__col"><!-- wp:paragraph {"className":"ak-foot__link"} -->
-<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/stay/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_stay' ) ); ?></a></p>
+<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/#arrival' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_stay' ) ); ?></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ak-foot__link"} -->
-<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/rooms/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_rooms' ) ); ?></a></p>
+<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/#rooms' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_rooms' ) ); ?></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ak-foot__link"} -->
-<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/rates/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_rates' ) ); ?></a></p>
+<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/#rates' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_rates' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ak-foot__col","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-foot__col"><!-- wp:paragraph {"className":"ak-foot__link"} -->
-<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/breakfast-bar/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_bb' ) ); ?></a></p>
+<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/#breakfast' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_bb' ) ); ?></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ak-foot__link"} -->
-<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/neighbourhood/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_nb' ) ); ?></a></p>
+<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/#evening' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_nb' ) ); ?></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ak-foot__link"} -->
-<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/journal/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_journal' ) ); ?></a></p>
+<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/#notes' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_journal' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ak-foot__col","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-foot__col"><!-- wp:paragraph {"className":"ak-foot__link"} -->
-<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/work-stays/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_work' ) ); ?></a></p>
+<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/#night' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_work' ) ); ?></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ak-foot__link"} -->
-<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/people/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_people' ) ); ?></a></p>
+<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/#arrival' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_people' ) ); ?></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ak-foot__link"} -->
-<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/faq/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_faq' ) ); ?></a></p>
+<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/#enquire' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_faq' ) ); ?></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ak-foot__link"} -->
-<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/privacy/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_privacy' ) ); ?></a></p>
+<p class="ak-foot__link"><a href="<?php echo esc_url( home_url( '/#enquire' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'nav_privacy' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

@@ -41,7 +41,7 @@
 
 <!-- wp:buttons {"className":"ak-btns"} -->
 <div class="wp-block-buttons ak-btns"><!-- wp:button {"className":"ak-pill ak-pill--ink"} -->
-<div class="wp-block-button ak-pill ak-pill--ink"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/enquire/' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'enq_cta' ) ); ?></a></div>
+<div class="wp-block-button ak-pill ak-pill--ink"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/#enquire' ) ); ?>"><?php echo esc_html( akari_hotel_t( 'enq_cta' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
