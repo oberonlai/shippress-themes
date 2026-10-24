@@ -35,11 +35,11 @@ Fixed brand facts (every page and all five languages use these; see section 8): 
 - Accessibility: `aria-hidden="true"`, the h2/h1 carries the meaning. Ghost text never creates horizontal scroll: its section has `overflow-x: clip`.
 
 ### T3. Fixed vertical reservation tab on the right edge (booking-led)
-- **Reference** (pont-de-ciel tok(d), Pienezza rail): a tall tab fixed to the right viewport edge, x 1336–1440, y 250–650 (104×400), 1px hairline (ink on greige), left corners rounded ≈60px, right side open into the edge, the word RESERVATION in upright stacked letter-spaced caps. Pienezza: full-height 56px dark rail `#3B3123` with ご予約.
+- **Reference** (pont-de-ciel tok(d), Pienezza rail): a tall tab fixed to the right viewport edge, x 1336–1440, y 250–650 (104×400), 1px hairline (ink on greige), left corners rounded ≈60px, right side open into the edge, the word RESERVATION in upright stacked letter-spaced caps. Pienezza: full-height 56px dark rail `#3B3123` with (ja label).
 - **Shokutaku**: `a.shk-tab` rendered once in `parts/header.html` (so it is on **every** template), linking to `/reservations/#book`.
   - Desktop ≥1280: `position: fixed; right: 0; top: calc(50vh - 200px); width: 104px; height: 400px;` `border: 1px solid #303030; border-right: 0; border-radius: 60px 0 0 60px;` background `rgba(223,218,214,.92)` (ground, so it stays legible over the photo band), z-index 50.
   - 960–1279: 72×320, `border-radius: 40px 0 0 40px`, top `calc(50vh - 160px)`.
-  - Text: `writing-mode: vertical-rl; text-orientation: upright;` Fraunces 400 1rem, letter-spacing 0.18em, uppercase, ink. en **RESERVE**, fr **RÉSERVER**, de **RESERVIEREN** (font-size 0.875rem), zh-TW **線上訂位**, ja **ご予約** (CJK vertical, Noto Serif, no upright transform needed).
+  - Text: `writing-mode: vertical-rl; text-orientation: upright;` Fraunces 400 1rem, letter-spacing 0.18em, uppercase, ink. en **RESERVE**, fr **RÉSERVER**, de **RESERVIEREN** (font-size 0.875rem), zh-TW **(zh-TW label)**, ja **(ja label)** (CJK vertical, Noto Serif, no upright transform needed).
   - Hover/focus: background `#6E4E4A`, text and hairline `#FFFFFF`, transition `.6s cubic-bezier(.32,.95,.6,1)` (tok(g) link hover). Visible focus ring 2px `#6E4E4A` offset 3px.
   - Content gutter: at ≥960 every constrained layout and every price list must end ≥ 24px before the tab: `--shk-tab-gutter: 96px` (960–1279) / `128px` (≥1280); constrained content width = `min(1080px, 100vw - 2 * var(--shk-tab-gutter))`. Full-bleed photos may run under the tab (as on the reference).
   - **Below 960px the tab is hidden** (`display:none`). Mobile booking entry = a hairline pill "Book" in the header (see 2.4). No fixed bottom bar (it would overlap text in the mobile first-screen gate).
@@ -77,7 +77,7 @@ Every inner page head = `shk-page-head` pattern: greige ground, ghost word centr
 | Ink | `#303030` | ref text ink, kept exactly | headings, body, hairlines, buttons outline | ~9% |
 | Muted ink | `#5C5753` | derived from ink on greige (contrast 5.6:1 on #DFDAD6) | captions, price descriptions | — |
 | Deep | `#3B3123` | Pienezza rail `#3B3123`, kept exactly | footer ground only | ~4% |
-| Accent | `#6E4E4A` | row hex 小豆色 (ref has no UI accent) | tab hover, link underline on hover, focus ring, the 6px dot before the "Book" pill, active nav underline | ≤1% |
+| Accent | `#6E4E4A` | row hex azuki (ref has no UI accent) | tab hover, link underline on hover, focus ring, the 6px dot before the "Book" pill, active nav underline | ≤1% |
 
 - Not beige/cream-led: the ground is a cool-warm greige wall colour, the reference's own. Never a full field of `#6E4E4A`; never `#6E4E4A` larger than a 104×400 hover state.
 - Contrast: ink on ground 9.6:1; muted ink on ground 5.6:1; white on deep 12.9:1; white on accent 8.0:1.
@@ -113,7 +113,7 @@ Every inner page head = `shk-page-head` pattern: greige ground, ghost word centr
 - Hairlines: 1px `#303030` at 100% for rules under sitting names and price rows (`rgba(48,48,48,.35)` for row separators).
 
 ### 2.4 Header and footer
-- Header (static, not sticky, transparent on ground): wordmark left at 30px (tok(c) logo x 30): "SHOKUTAKU" Fraunces 300 caps 1.5rem ls 0.12em with "Dining" Source Sans 0.75rem caps ls 0.3em under it. **Centred** text nav (row: nav centered) Source Sans 0.875rem caps ls 0.12em: Menus · Reservations · Private dining · About · People · Journal · Visit. Right: language switch (EN / 中 / 日 / FR / DE, 0.8125rem) at x ≈ 1240 so it stays left of the tab. One top menu only.
+- Header (static, not sticky, transparent on ground): wordmark left at 30px (tok(c) logo x 30): "SHOKUTAKU" Fraunces 300 caps 1.5rem ls 0.12em with "Dining" Source Sans 0.75rem caps ls 0.3em under it. **Centred** text nav (row: nav centered) Source Sans 0.875rem caps ls 0.12em: Menus · Reservations · Private dining · About · People · Journal · Visit. Right: language switch (EN / (CJK) / (CJK) / FR / DE, 0.8125rem) at x ≈ 1240 so it stays left of the tab. One top menu only.
 - < 960: wordmark left, at right a hairline pill "Book" (40px high, r20, accent 6px dot before the word) and the 48px round hairline menu button opening a full-screen greige overlay with the same nav. No vertical text, nothing absolutely positioned over the hero copy.
 - Footer: ground `#3B3123`, white text. Top: footer line Fraunces 300 2.25rem ls 0.1em "Tables open thirty days ahead." + round outline button in white "Book a table"; then 4 columns: address, hours (as lines, not a table), contact (+31 10 555 0142, table@shokutaku.example), nav. Bottom 0.8125rem: © 2014–2026 Shokutaku Dining.
 

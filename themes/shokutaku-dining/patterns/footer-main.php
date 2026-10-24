@@ -58,7 +58,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="/menus/">Menus</a><br><a href="/reservations/">Reservations</a><br><a href="/private-dining/">Private dining</a><br><a href="/visit/">Visit</a></p>
+<p><a href="/menus/">Menus</a><br><a href="/reservations/">Reservations</a><br><a href="/private-dining/">Private dining</a><br><a href="/about/">About</a><br><a href="/people/">People</a><br><a href="/journal/">Journal</a><br><a href="/visit/">Visit</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

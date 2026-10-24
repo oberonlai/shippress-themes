@@ -15,7 +15,7 @@
 
 <!-- wp:group {"className":"shk-in shk-people__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group shk-in shk-people__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"shk-people__photo sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full shk-people__photo sp-reveal sp-reveal--wipe"><img src="<?php echo shokutaku_dining_img( 'p06.webp' ); ?>" alt="Head chef at the pass, half length, looking aside at a stone wall."/></figure>
+<figure class="wp-block-image size-full shk-people__photo sp-reveal sp-reveal--wipe"><img src="<?php echo shokutaku_dining_img( 'p06.webp' ); ?>" alt="Elena Vasquez, chef-owner, half length at the pass, looking aside."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"shk-people__body","layout":{"type":"default"}} -->

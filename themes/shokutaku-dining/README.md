@@ -10,6 +10,9 @@ Shokutaku Dining is a hospitality theme for a neighbourhood restaurant on Havens
 - `assets/sp-scroll.css`, `assets/sp-scroll.js`: scroll reveals and the parallax layer (class names only; no dependencies).
 - Photos: `assets/images/` (AI-generated, GPL-2.0-or-later / CC0). See `readme.txt` for the list.
 
+## Status
+Version 1.0.0, English home page complete. Inner pages (menus, reservations, private dining, about, people, growers, wine, visit, journal, contact, newsletter) are one-heading pages until the inner-page and five-language pass. The `screenshot.png` is the first screen of the home page. Both hero and room band use `sp-parallax`; the hero arch frame uses `overflow: clip` so the view timeline follows the page scroll.
+
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
