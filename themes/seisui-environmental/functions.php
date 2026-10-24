@@ -59,3 +59,20 @@ function seisui_environmental_pattern_categories() {
 	);
 }
 add_action( 'init', 'seisui_environmental_pattern_categories' );
+
+/**
+ * The marquee's repeated set is decorative: hide it from assistive tech at render time
+ * (aria-hidden is not a block attribute, so it cannot live in the saved markup).
+ */
+function seisui_environmental_strip_dup_aria( $content, $block ) {
+	if ( false === strpos( $content, 'ss-strip__set--dup' ) ) {
+		return $content;
+	}
+	$p = new WP_HTML_Tag_Processor( $content );
+	if ( $p->next_tag( array( 'class_name' => 'ss-strip__set--dup' ) ) ) {
+		$p->set_attribute( 'aria-hidden', 'true' );
+		return $p->get_updated_html();
+	}
+	return $content;
+}
+add_filter( 'render_block_core/group', 'seisui_environmental_strip_dup_aria', 10, 2 );

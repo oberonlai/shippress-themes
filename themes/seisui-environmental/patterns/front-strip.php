@@ -44,8 +44,8 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"ss-strip__set","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group ss-strip__set" aria-hidden="true"><!-- wp:paragraph {"className":"ss-strip__item"} -->
+<!-- wp:group {"className":"ss-strip__set ss-strip__set--dup","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group ss-strip__set ss-strip__set--dup"><!-- wp:paragraph {"className":"ss-strip__item"} -->
 <p class="ss-strip__item">WR-01 Wend River · Mill Weir</p>
 <!-- /wp:paragraph -->
 
