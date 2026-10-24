@@ -307,6 +307,12 @@ footer.wp-block-template-part { position: relative; z-index: 50; }
 .mc-foot__nav a { text-decoration: none; }
 .mc-foot__legal { font-size: .8125rem; color: var(--mc-muted); margin: 1rem 0 0 !important; }
 
+/* Fonts per language: Traditional Chinese uses the bundled Noto Sans TC subset, Japanese the Noto Sans JP subset (Latin stays Albert Sans / Public Sans in both; never a serif) */
+:root:lang(zh) {
+	--wp--preset--font-family--heading: "Noto Sans TC", "Albert Sans", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+	--wp--preset--font-family--body: "Noto Sans TC", "Public Sans", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+}
+
 /* CJK type rules (loaded for zh-TW / ja sample content) */
 :is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .05em; line-break: strict; }
 :is(:lang(zh), :lang(ja)) :is(.mc-stripe, .mc-hero__h) { letter-spacing: .05em; }
