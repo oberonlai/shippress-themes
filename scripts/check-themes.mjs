@@ -329,6 +329,11 @@ export function checkTheme(dir, slug) {
     if (meta.license !== "GPL-2.0-or-later") errs.push("theme-meta.json license must be GPL-2.0-or-later");
     if (!meta.colors?.tags?.length || !Object.values(meta.colors?.palette ?? {}).every((c) => /^#[0-9A-Fa-f]{6}$/.test(String(c)))) errs.push("theme-meta.json colors needs tags and a #RRGGBB palette");
     if (!meta.style?.length) errs.push("theme-meta.json style needs at least one tag");
+    // The app's catalogue parser (theme-catalog-remote.ts takeTheme) drops a whole theme when any of these is not a lowercase slug.
+    const SLUGLIKE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+    const notSlug = [["industry", [meta.industry]], ["type", [meta.type]], ["colors.tags", meta.colors?.tags ?? []], ["colors.palette keys", Object.keys(meta.colors?.palette ?? {})], ["style", meta.style ?? []], ["pages", meta.pages ?? []]]
+      .flatMap(([f, xs]) => xs.filter((x) => x !== undefined && !(typeof x === "string" && x.length <= 64 && SLUGLIKE.test(x))).map((x) => `${f} "${x}"`));
+    if (notSlug.length) errs.push(`theme-meta.json values must be lowercase-hyphen slugs (the app drops the theme otherwise): ${notSlug.join(", ")}`);
     for (const p of PAGES) {
       if (!meta.pages?.includes(p)) errs.push(`theme-meta.json pages is missing "${p}"`);
       else if (!PAGE_TEMPLATES[p].some(tpl)) errs.push(`page "${p}" needs one of templates/${PAGE_TEMPLATES[p].join(".html, ")}.html`);
