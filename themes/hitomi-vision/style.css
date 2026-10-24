@@ -215,3 +215,91 @@ img { max-width: 100%; height: auto; }
 @media (max-width: 781px) { .hv-interlude__cap { margin-bottom: 96px; } }
 .hv-hours-list div { align-items: baseline; }
 #fees.hv-sec { padding-bottom: clamp(4rem, 8vw, 7rem); }
+
+/* stage 2: inner pages (page head, tighter dome sections, people list, FAQ, form, posts) */
+.hv-pagehead { padding-top: clamp(8.5rem, 13vw, 11rem); padding-bottom: clamp(5rem, 9vw, 8rem); text-align: center; }
+.hv-pagehead > * { margin-block: 0; }
+.hv-pagehead__title { font-size: var(--wp--preset--font-size--xx-large); font-weight: 300; line-height: 1.3; letter-spacing: 0; text-align: center; }
+.hv-pagehead .hv-head__sub { text-align: center; }
+.hv-pagehead__lede { max-width: 640px; margin: 2.25rem auto 0 !important; font-size: 1.0625rem; line-height: 2.1; text-align: center; }
+.hv-pagehead .hv-search { max-width: 480px; margin: 2rem auto 0; }
+.hv-sec--in { padding-top: clamp(4.5rem, 7vw, 6.5rem); padding-bottom: clamp(5rem, 8vw, 8rem); }
+@media (min-width: 1024px) { .hv-sec--in { padding-bottom: max(8rem, 9vw); } }
+.hv-sec--in .hv-head { margin-bottom: clamp(2.5rem, 5vw, 4.5rem) !important; }
+.hv-head--tight { margin-bottom: clamp(2.5rem, 5vw, 4rem) !important; }
+.hv-sec--list { padding-top: clamp(3rem, 5vw, 4.5rem); }
+.hv-method { max-width: 640px; }
+.hv-portrait-row + .hv-method, .hv-figure-wide + .hv-method, .hv-method + .hv-figure-wide { margin-top: clamp(3rem, 5vw, 4.5rem); }
+.hv-portrait-row + .hv-portrait-row { margin-top: clamp(4rem, 7vw, 6.5rem); }
+.hv-sec--in .hv-polaroid-pair + *, .hv-sec--in .hv-method + .hv-method { margin-top: 2rem; }
+.hv-polaroid-pair--flip .hv-polaroid-pair__cards { justify-content: start; }
+@media (min-width: 1024px) {
+	.hv-polaroid-pair--flip { grid-template-columns: 5fr 7fr; }
+	.hv-polaroid-pair--flip .hv-polaroid-pair__cards { grid-column: 2; grid-row: 1; justify-self: end; }
+	.hv-polaroid-pair--flip .hv-case__text { grid-column: 1; grid-row: 1; }
+}
+.hv-case__text .hv-head__sub { margin-top: 12px; }
+.hv-figure-wide { max-width: 1200px; margin: 0 auto; }
+.hv-figure-wide img { width: 100%; display: block; border-radius: 0; }
+.hv-interlude--page { min-height: min(56vh, 520px) !important; }
+@media (max-width: 781px) { .hv-interlude--page { min-height: 300px !important; } }
+.hv-interlude-wrap + .hv-sec { margin-top: 0; }
+.hv-method .hv-head__sub, .hv-method > p:last-child { margin-bottom: 0; }
+.hv-method p { margin-bottom: 1.75rem; }
+.hv-method > p:last-child { margin-bottom: 0; }
+
+/* fees: price list left-aligned note, FAQ */
+.hv-fees__note--left { max-width: 1200px; margin: 1.75rem auto 0 !important; font-size: var(--wp--preset--font-size--base); text-align: left; }
+.hv-sec--list .hv-prices + .hv-fees__note { padding-inline: 0; }
+.wp-block-details { border-top: 1px solid var(--hv-line); margin: 0; padding: 1.25rem 0; }
+.hv-method > .wp-block-details:last-child { border-bottom: 1px solid var(--hv-line); }
+.wp-block-details summary { cursor: pointer; font-size: var(--wp--preset--font-size--medium); line-height: 1.6; list-style: none; position: relative; padding-right: 2rem; }
+.wp-block-details summary::-webkit-details-marker { display: none; }
+.wp-block-details summary::after { content: "+"; position: absolute; right: 0; top: 0; width: 20px; height: 20px; border: 1px solid var(--wp--preset--color--line); font: 400 14px/18px var(--wp--preset--font-family--ui); text-align: center; }
+.wp-block-details[open] summary::after { content: "–"; }
+.wp-block-details[open] summary { margin-bottom: 1rem; }
+.wp-block-details p { margin: 0 0 1.25rem; }
+
+/* optometrists: typographic list, no grid */
+.hv-people { max-width: 720px; margin: 0 auto; border-top: 1px solid var(--hv-line); }
+.hv-person { padding: 2rem 0; border-bottom: 1px solid var(--hv-line); margin: 0; }
+.hv-person > * { margin-block: 0; }
+.hv-person__name { font-size: 1.5rem; line-height: 1.4; font-weight: 400; }
+.hv-person__role { font-family: var(--wp--preset--font-family--ui); font-size: .8125rem; letter-spacing: .06em; text-transform: lowercase; color: var(--wp--preset--color--sub); line-height: 1.7; margin: .25rem 0 .75rem !important; }
+.hv-person__bio { font-size: .9375rem; line-height: 2; }
+
+/* visit form */
+.hv-form { max-width: 640px; margin: 0 auto; }
+.hv-form p { margin: 0 0 1.25rem; }
+.hv-form label { display: block; font-family: var(--wp--preset--font-family--ui); font-size: .8125rem; letter-spacing: .06em; color: var(--wp--preset--color--sub); margin-bottom: .35rem; }
+.hv-form input, .hv-form select, .hv-form textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 1rem; line-height: 1.6; color: var(--wp--preset--color--ink); background: var(--wp--preset--color--light); border: 1px solid var(--wp--preset--color--line); border-radius: 1px; padding: .6rem .75rem; }
+.hv-form__send { background: transparent; color: var(--wp--preset--color--ink); border: 1px solid var(--wp--preset--color--line); border-radius: 1px; padding: 10px 20px; font-family: var(--wp--preset--font-family--ui); font-size: var(--wp--preset--font-size--nav); letter-spacing: .06em; text-transform: lowercase; cursor: pointer; transition: background-color .3s cubic-bezier(.215, .61, .355, 1), border-color .3s cubic-bezier(.215, .61, .355, 1), color .3s cubic-bezier(.215, .61, .355, 1); }
+.hv-form__send:hover { background: var(--wp--preset--color--accent); border-color: var(--wp--preset--color--accent); color: var(--wp--preset--color--light); }
+.hv-sec .hv-hours-list { max-width: 640px; margin: 0 auto 2rem; }
+
+/* closing booking line */
+.hv-endcta { text-align: center; padding: clamp(2rem, 4vw, 3rem) var(--hv-gut) clamp(5rem, 8vw, 7rem); margin: 0; }
+.hv-endcta > * { margin-block: 0; }
+.hv-endcta .hv-btns { justify-content: center; margin-bottom: 1.25rem; }
+.hv-endcta .hv-hours { text-align: center; }
+
+/* journal list, single post, plain pages */
+.hv-postlist .wp-block-post-template { list-style: none; margin: 0 auto; padding: 0; max-width: 1200px; }
+.hv-post { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; margin: 0 0 4rem; align-items: center; }
+.hv-post__img { margin: 0; }
+.hv-post__img img { width: 100%; display: block; border-radius: 0; }
+.hv-post__text > * { margin-block: 0 .75rem; }
+.hv-post__date { text-align: left; margin-top: 0 !important; }
+.hv-post__title { font-size: var(--wp--preset--font-size--x-large); font-weight: 400; line-height: 1.5; }
+.hv-post__title a { text-decoration: none; }
+.hv-post__excerpt { font-size: .9375rem; line-height: 2; }
+.hv-pager { justify-content: center; gap: 2rem; font-family: var(--wp--preset--font-family--ui); font-size: var(--wp--preset--font-size--nav); }
+@media (min-width: 782px) { .hv-post { grid-template-columns: 7fr 5fr; gap: clamp(2rem, 5vw, 4.5rem); } }
+.hv-single .wp-block-post-featured-image { margin-bottom: clamp(3rem, 5vw, 4.5rem); }
+.hv-single .wp-block-post-featured-image img { border-radius: 0; width: 100%; }
+.hv-single .hv-method { margin-inline: auto; }
+.hv-page-body { padding: clamp(3rem, 6vw, 5rem) var(--hv-gut) clamp(5rem, 8vw, 7rem); }
+.hv-search .wp-block-search__inside-wrapper { gap: 8px; }
+.hv-search .wp-block-search__input { border: 1px solid var(--wp--preset--color--line); border-radius: 1px; background: var(--wp--preset--color--light); padding: .55rem .75rem; font: inherit; }
+.hv-search .wp-block-search__button { background: transparent; border: 1px solid var(--wp--preset--color--line); border-radius: 1px; color: var(--wp--preset--color--ink); font-family: var(--wp--preset--font-family--ui); font-size: var(--wp--preset--font-size--nav); letter-spacing: .06em; text-transform: lowercase; padding: 6px 14px; }
+.hv-endcta, .hv-page-body { position: relative; z-index: 1; }

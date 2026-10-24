@@ -48,4 +48,4 @@ Calm, specific, and unhurried, as if an optometrist were explaining a finding at
 3. D., 31, software engineer: burning eyes, contacts uncomfortable by evening; short tear break-up time; lid care, daily lenses, 20-20-20 breaks; comfortable through the workday at 8 weeks.
 
 ## Pages
-Home (stage 1, built). Planned: About, Eye Exams, Children's Vision, Screen & Workplace Eyes, Dry Eye & Contact Lenses, Frames & Lenses, Fees, Case Stories, Our Optometrists, Visit & Book, Journal. See brand/design-spec.md.
+Home; About (/about/); Eye Exams (/eye-exams/); Children's Vision (/childrens-vision/); Screen & Workplace Eyes (/screen-eyes/); Dry Eye & Contact Lenses (/dry-eye-contacts/); Frames & Lenses (/frames-lenses/); Fees (/fees/, six prices, FAQ); Case Stories (/cases/, three accounts); Our Optometrists (/optometrists/, seven people); Visit & Book (/visit/, hours, form); Journal (/journal/, posts page with one sample article: "The 20-20-20 habit, measured"); Privacy. Every inner page ends with a book-an-exam button and the opening hours. See brand/design-spec.md.

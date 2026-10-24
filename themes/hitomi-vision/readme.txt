@@ -18,7 +18,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
 3. Activate Hitomi Vision.
 
-On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates its home page with all its text and images, the menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice. WooCommerce support is declared but not needed.
+On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates its home page, the eleven inner pages (about, exams, children, screen eyes, dry eye, frames, fees, cases, optometrists, visit, privacy), the journal with one sample article, the menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice. WooCommerce support is declared but not needed.
 
 The clinic, its people, address, telephone number and prices are fictional.
 
@@ -41,3 +41,11 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p10-case-after.webp (home case polaroid, week 6: woman in thin metal glasses sitting upright at a desk)
 - assets/images/p11-director.webp (home people row: Dr. Elena Marsh at a slit lamp, turned toward the camera)
 - assets/images/p12-front.webp (home visit: clinic front window from the street with plants and pale frames)
+- assets/images/p08-lens-tray.webp (frames page: tray of trial lenses and a trial frame on white linen)
+- assets/images/p13-frame-wall.webp (frames, children's and cases pages: boy trying frames at a pale wood frame wall)
+- assets/images/p14-contact-lens.webp (dry eye page: optometrist teaching a young man to insert a contact lens)
+- assets/images/p15-compress.webp (dry eye and cases pages: man resting with a warm compress eye mask)
+- assets/images/p16-waiting.webp (about, visit and journal article: bright empty waiting area)
+- assets/images/p17-classroom.webp (children's and cases pages: boy in new glasses reading the board)
+- assets/images/p18-evening-desk.webp (dry eye and cases pages: man at a tidy desk in evening light)
+- assets/images/demo/p16-waiting.webp (copy used as the sample article's featured image)
