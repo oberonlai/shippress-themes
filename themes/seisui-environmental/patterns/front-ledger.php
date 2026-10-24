@@ -89,15 +89,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k9ac51963' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k87f8a6ab' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'k9ac51963' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2012</p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k38c50b73' ) ); ?></span>2012</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k52a1c95f' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k577d7068' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'k52a1c95f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -111,15 +111,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k9ac51963' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k87f8a6ab' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'k9ac51963' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2015</p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k38c50b73' ) ); ?></span>2015</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k52a1c95f' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k577d7068' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'k52a1c95f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -133,15 +133,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k6bff7223' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k87f8a6ab' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'k6bff7223' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2024</p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k38c50b73' ) ); ?></span>2024</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'kda1ec6c9' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k577d7068' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'kda1ec6c9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -155,15 +155,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'kcf6c9df6' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k87f8a6ab' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'kcf6c9df6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2023</p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k38c50b73' ) ); ?></span>2023</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k18e4ba32' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k577d7068' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'k18e4ba32' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -177,15 +177,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k5d1a4e2d' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k87f8a6ab' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'k5d1a4e2d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2021</p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k38c50b73' ) ); ?></span>2021</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k18e4ba32' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k577d7068' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'k18e4ba32' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -199,15 +199,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'k9ac51963' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k87f8a6ab' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'k9ac51963' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2018</p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k38c50b73' ) ); ?></span>2018</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell"><?php echo wp_kses_post( seisui_environmental_t( 'kda1ec6c9' ) ); ?></p>
+<p class="ss-lcell"><span class="ss-lcell__l"><?php echo wp_kses_post( seisui_environmental_t( 'k577d7068' ) ); ?></span><?php echo wp_kses_post( seisui_environmental_t( 'kda1ec6c9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

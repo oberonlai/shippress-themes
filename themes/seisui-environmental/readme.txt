@@ -24,4 +24,38 @@ The practice, its people, sites, addresses, telephone number and prices are fict
 
 == Copyright ==
 
-Fonts: Spectral (OFL-1.1) and IBM Plex Sans (OFL-1.1), see assets/fonts. Photographs are AI-generated for this theme (GPL-2.0-or-later). Scroll effects (assets/sp-scroll.css and sp-scroll.js) are ShipPress code under GPL-2.0-or-later.
+Fonts: Spectral (OFL-1.1), IBM Plex Sans (OFL-1.1), Noto Serif JP (OFL-1.1) and Noto Serif TC (OFL-1.1), see assets/fonts. Photographs are AI-generated for this theme (GPL-2.0-or-later). Scroll effects (assets/sp-scroll.css and sp-scroll.js) are ShipPress code under GPL-2.0-or-later.
+
+Images (all AI-generated for this theme, GPL-2.0-or-later):
+- assets/images/p01.webp
+- assets/images/demo/p01.webp
+- assets/images/p02.webp
+- assets/images/demo/p02.webp
+- assets/images/p03.webp
+- assets/images/demo/p03.webp
+- assets/images/p04.webp
+- assets/images/demo/p04.webp
+- assets/images/p05.webp
+- assets/images/demo/p05.webp
+- assets/images/p06.webp
+- assets/images/demo/p06.webp
+- assets/images/p07.webp
+- assets/images/demo/p07.webp
+- assets/images/p08.webp
+- assets/images/demo/p08.webp
+- assets/images/p09.webp
+- assets/images/demo/p09.webp
+- assets/images/p10.webp
+- assets/images/demo/p10.webp
+- assets/images/p11.webp
+- assets/images/demo/p11.webp
+- assets/images/p12.webp
+- assets/images/demo/p12.webp
+- assets/images/p13.webp
+- assets/images/demo/p13.webp
+- assets/images/p14.webp
+- assets/images/demo/p14.webp
+- assets/images/p15.webp
+- assets/images/demo/p15.webp
+- assets/images/p16.webp
+- assets/images/demo/p16.webp

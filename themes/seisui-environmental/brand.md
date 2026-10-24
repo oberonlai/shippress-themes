@@ -8,6 +8,9 @@ Environmental consultancy for landowners and municipal clients in Alder Bridge, 
 - **Hours:** Mon–Fri 08:30–17:30, field days by arrangement, closed weekends and public holidays.
 - **Voice:** Write like a working consultancy: short sentences, real site codes, and the year a place joined the round. State what was measured and what was written down, and leave outcomes as records rather than promises.
 
+## A day at the office
+A typical day starts at 08:30 with the cool boxes by the door: Lucía loads the sampling kit, Henrik checks the day's rounds against the ledger, and Dr Varga reads the overnight laboratory results. Field days leave by 09:30 and return by 16:00 to log samples; the office closes at 17:30.
+
 ## History
 Seisui Environmental opened in 2009 at 14 Millrace Lane, Alder Bridge, a river town on the River Wend. Dr Ilse Varga, a hydrologist, started the practice so landowners and municipal clients could see what the water and the soil were doing before a bank, a field or a building plot was changed. The first work was desk study, site walkover and sampling, written up from the same office that still keeps sample cool boxes by the door.
 

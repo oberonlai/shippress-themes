@@ -114,7 +114,7 @@ Unique to Seisui: top-bottom-halves hero with edge-cropped photo and bottom-righ
 | Text | `#333333` | body/headings | R1 text |
 | Secondary text | `#5F5F5F` | captions | R1 secondary |
 | Rule | `#CCCCCC` | ledger/price rules | R1 rule |
-| Accent | `#6A7A58` 老竹色 | ≤3% (buttons, ghost 15%, icons, arrows, codes) | row hex; replaces R1 `#33A969` |
+| Accent | `#6A7A58` | ≤3% (buttons, ghost 15%, icons, arrows, codes) | row hex; replaces R1 `#33A969` |
 | Accent dark | `#4E5A40` | metric numbers, hover | accent −15% L |
 | Footer | `#39412F` | footer only | R1 full-bleed accent footer, darkened |
 Why accent replaced: row note requires "the palette hex as the one muted accent… never a full-bleed field"; R1's #33A969 is saturated and its footer is full-bleed accent. Relation kept: white ground, same pale green-grey band, same greys, green accent on ghost words/icons/arrows, coloured footer. First-screen saturated ≤ 15%.

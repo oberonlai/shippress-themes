@@ -1,4 +1,4 @@
-# Reference — Seisui Environmental ("Ours" = 成品對應, filled in s1-spec)
+# Reference — Seisui Environmental ("Ours" = our finished theme, filled in s1-spec)
 Source: S5-Style category listing (https://www.s5-style.com/). Only R1 is analysed in depth; R2 was checked and rejected.
 - R1: https://www.dorokogyo.co.jp/ — civil and land works, Hokkaido; closest S5-Style entry to environmental/land-services. Not used by earlier themes.
 - R2 (rejected): https://okuaizu-sedomori.com/ — nature-experience site; black-on-navy silhouette splash, no usable structure.
@@ -24,5 +24,5 @@ Ground #FFFFFF ≈95%, pale band #EDF2EF, text #333333, accent #33A969 (footer f
 | R1 | Image lazy-load | IntersectionObserver, rootMargin 400px | none visible | native lazy loading |
 | R1 | Content sections | no reveal | — | sp-parallax on SERVICES photo band (--sp-par 10%, mobile 6%) |
 
-## 成品對應 (colour)
+## Ours (colour)
 Ground #FFFFFF, band #EDF2EF, text #333333/#5F5F5F, rule #CCCCCC kept exactly; accent #33A969 → #6A7A58 (row note: muted single accent, no full-bleed field); footer full-bleed #39412F. See design-spec §5, §12.

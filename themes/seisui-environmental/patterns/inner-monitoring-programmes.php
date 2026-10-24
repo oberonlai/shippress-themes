@@ -119,15 +119,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Surface water</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Medium</span>Surface water</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2012</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Since</span>2012</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Council</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Client</span>Council</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -141,15 +141,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Surface water</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Medium</span>Surface water</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2015</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Since</span>2015</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Council</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Client</span>Council</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -163,15 +163,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Surface water</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Medium</span>Surface water</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2018</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Since</span>2018</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Parish</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Client</span>Parish</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -185,15 +185,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Groundwater</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Medium</span>Groundwater</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2019</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Since</span>2019</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Landowner</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Client</span>Landowner</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -207,15 +207,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Habitat</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Medium</span>Habitat</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2021</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Since</span>2021</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Council</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Client</span>Council</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -229,15 +229,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Soil</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Medium</span>Soil</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2022</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Since</span>2022</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Landowner</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Client</span>Landowner</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -251,15 +251,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Soil</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Medium</span>Soil</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2023</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Since</span>2023</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Landowner</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Client</span>Landowner</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -273,15 +273,15 @@ $ss = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Groundwater</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Medium</span>Groundwater</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">2024</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Since</span>2024</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-lcell"} -->
-<p class="ss-lcell">Parish</p>
+<p class="ss-lcell"><span class="ss-lcell__l">Client</span>Parish</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
