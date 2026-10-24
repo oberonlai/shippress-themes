@@ -33,12 +33,14 @@ Photographs: AI-generated for this theme and released under CC0 1.0 (no real peo
 - assets/images/p05.webp
 - assets/images/p06.webp
 - assets/images/p07.webp
+- assets/images/p08.webp
 - assets/images/p09.webp
 - assets/images/p10.webp
 - assets/images/p11.webp
 - assets/images/p12.webp
 - assets/images/p13.webp
 - assets/images/p14.webp
+- assets/images/p15.webp
 - assets/images/p16.webp
 - assets/images/p17.webp
 - assets/images/p18.webp

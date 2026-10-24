@@ -45,4 +45,19 @@ Settling-in fortnight included in the first month's fee. Notice: one month. Meal
 5. First full day.
 
 ## Pages
-Home, About, The care day, Rooms & ages, Educators, Food & kitchen, Fees & hours, Enrolment & settling in, Families' stories, FAQ, Visit & contact, Notes.
+Home, About, The care day, Rooms & ages, Educators, Food & kitchen, Fees & hours, Enrolment & settling in, Families' stories, FAQ, Visit & contact, Notes (and one note, "What we cook in a week"). Slugs: /about/, /the-care-day/, /rooms/, /educators/, /food/, /fees/, /enrolment/, /stories/, /faq/, /visit/, /notes/.
+
+## Inner pages (en)
+Every inner page opens with a white tab, a stripe heading and a torn banner photograph that moves slowly (parallax), and closes with a sand band: "Come and see the rooms" and a dotted "Book a visit" link.
+- About: banner P04; P07 beside the story; P15 in an egg across the band edge, tab "How we work".
+- The care day: banner P13; P05 egg, tab "Hour by hour"; all nine times as rows with time blobs (07:30 to 18:30); the whole-day card.
+- Rooms & ages: banner P18; Nest P10 (egg, tab "Nest"), Meadow P11, Grove P12, numerals 01-03 in blobs, facts lists (ages, ratio, places, room lead, rest).
+- Educators: banner P15; P05 pebble, tab "Your key person"; the eight people as a two-column list.
+- Food & kitchen: banner P08; P14 egg, tab "This week's lunches"; a sample week on a torn card; allergies, purées, weaning.
+- Fees & hours: banner P03; the six-row price card (full width from 782px, price column never cut); P17 pebble, tab "What's included".
+- Enrolment: banner P17; five steps with blobs 01-05 (photos P03, P05, P02); waiting list, what to bring.
+- Families' stories: banner P13; Haddad (P06), Byrne-Okafor (P07), Lindqvist (P09), each on a white family-name tab.
+- FAQ: banner P18; nine questions in a torn cream card.
+- Visit & contact: banner P01; P12 pebble, tab "Find us"; hours, getting here, a sample enquiry form (sends nothing).
+- Notes: banner P12; the latest note large, then two columns; single notes show the featured image in the torn frame.
+Copy for the inner pages is sample content for a fictional centre. Photos: 18 AI-generated documentary photographs (P01-P18), one per slot on a page.
