@@ -117,13 +117,13 @@ Hero height: `min-height: calc(100vh - 90px)` so item 5 always peeks. First-scre
 | Text on ink | `#FFFFFF` headings, `#A0A0A0` body | R1 (a) white / ~60% white on ink | | |
 | Text on base | `#121212` | R1 (a) | | |
 | Hairline | `#808080` 1 px | R1 (a)/(f) | chapter lines, price rows, room lines | |
-| Accent (row hex 鳩羽色) | `#7A6E80` | design-plan b8-3 | link hover underline, pill hover fill (white→`#7A6E80` text white), active nav dot 6 px, focus ring, "( 0n )" labels on base | ≤ 2%, never a background field |
+| Accent (dove-feather mauve) | `#7A6E80` | design-plan b8-3 | link hover underline, pill hover fill (white→`#7A6E80` text white), active nav dot 6 px, focus ring, "( 0n )" labels on base | ≤ 2%, never a background field |
 | Accent tint | `#E9E6EB` | `#7A6E80` at 15% on base | form field focus background only | < 1% |
 Photos carry all chroma (warm lamps, wood, linen). First-screen saturation cap **15%** (scripts/check-first-screen.py), target ≤ 6%.
 
 ## 4. Type (font_direction = serif)
 - Latin display: **Cormorant Garamond** (OFL) 400, 500 (R1 adobe-text-pro 400, Minion-like). Latin body/labels: **Nunito Sans** (OFL) 400, 600 (R1 Inter 400–500). Verify OFL when building.
-- CJK: headings **Noto Serif TC / Noto Serif JP** (明體); body Noto Sans TC / JP (R1 JP body is a gothic, Zen Kaku Gothic New). Stacks:
+- CJK: headings **Noto Serif TC / Noto Serif JP** (mincho); body Noto Sans TC / JP (R1 JP body is a gothic, Zen Kaku Gothic New). Stacks:
   - heading en/fr/de: `"Cormorant Garamond", "Noto Serif TC", "Noto Serif JP", Georgia, serif`
   - heading zh-TW: `"Cormorant Garamond", "Noto Serif TC", serif`; ja: `"Cormorant Garamond", "Noto Serif JP", serif`
   - body: `"Nunito Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif` (zh-TW TC first, ja JP first via `:lang()`)
