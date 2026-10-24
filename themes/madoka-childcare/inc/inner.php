@@ -33,7 +33,7 @@ function madoka_childcare_paras( $key, $class = '' ) {
 	$len  = mb_strlen( $text );
 	$out  = array( $text );
 	if ( $len > 420 ) {
-		$parts = preg_split( '/(?<=[.!?。！？])\s*/u', $text, -1, PREG_SPLIT_NO_EMPTY );
+		$parts = preg_split( '/(?<=[.!?' . "\u{3002}\u{FF01}\u{FF1F}" . '])\s*/u', $text, -1, PREG_SPLIT_NO_EMPTY );
 		$a     = '';
 		$i     = 0;
 		foreach ( $parts as $i => $p ) {

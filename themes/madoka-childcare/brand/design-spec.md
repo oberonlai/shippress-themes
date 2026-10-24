@@ -1,6 +1,6 @@
 # Madoka Childcare: design spec (stage 1, binding for implementation)
 
-Slug `madoka-childcare`, a childcare centre for babies and toddlers of working parents (type **education**, page_structure **day-schedule**). Row b10-2: split-screen, hero photo-left-text-right, top-bar nav, real documentary photography, palette 胡桃色 `#7A6858` as the one muted accent, **font_direction sans** (Albert Sans + Public Sans, CJK Noto Sans TC / Noto Sans JP, no 明體 anywhere).
+Slug `madoka-childcare`, a childcare centre for babies and toddlers of working parents (type **education**, page_structure **day-schedule**). Row b10-2: split-screen, hero photo-left-text-right, top-bar nav, real documentary photography, palette walnut `#7A6858` as the one muted accent, **font_direction sans** (Albert Sans + Public Sans, CJK Noto Sans TC / Noto Sans JP, no Ming typeface anywhere).
 References (see `reference.md`; numbers from `reference-tokens.md`, quoted below as "token a–g"): **R1 Southern Hills Kodomo-en** https://southern-hills.ed.jp/ (S5-Style preschool, entry 12142; primary, ~80 % similarity target) and **R2 Yanokuchi** https://yanokuchi.ed.jp/ (entry 12141, same template in green; only used to tell structure from colour). Borrow structure, technique, colour relationships and measured numbers. No copy, photos, logo, mask files or whole-page layout from either site: every mask shape (torn edge, blobs) is drawn new for this theme.
 
 Fixed brand facts (every page, all five languages, never vary):
@@ -90,7 +90,7 @@ Families (load with **theme.json `fontFamilies` + `fontFace`** so the editor ifr
 - `heading`: **Albert Sans** (weights 200, 400, 500; normal) — stack `"Albert Sans", "Noto Sans TC", "Noto Sans JP", system-ui, -apple-system, "Segoe UI", sans-serif`.
 - `body`: **Public Sans** (400, 500) — stack `"Public Sans", "Noto Sans TC", "Noto Sans JP", system-ui, -apple-system, "Segoe UI", sans-serif`.
 - `cjk-tc`: **Noto Sans TC** (400, 500) zh-TW subset; `cjk-jp`: **Noto Sans JP** (400, 500) ja subset (the CJK subset script is broken — use the Hokuto/Hada replacement method).
-- `:lang(zh-TW)` → headings and body `"Noto Sans TC", "Albert Sans", sans-serif` (body `"Noto Sans TC", "Public Sans", sans-serif`); `:lang(ja)` → `"Noto Sans JP", …`. Because style.css uses `:lang(`, copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and `require_once` it in functions.php. **No serif / 明體 font anywhere.**
+- `:lang(zh-TW)` → headings and body `"Noto Sans TC", "Albert Sans", sans-serif` (body `"Noto Sans TC", "Public Sans", sans-serif`); `:lang(ja)` → `"Noto Sans JP", …`. Because style.css uses `:lang(`, copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and `require_once` it in functions.php. **No serif / Ming font anywhere.**
 - Weight never above **500** (R1: "soft, rounded feel"). Albert Sans 200 only for time/number blobs.
 
 | Role | Family | Size (desktop 1440) | Weight | LH | LS | Source |

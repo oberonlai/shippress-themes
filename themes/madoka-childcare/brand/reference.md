@@ -16,7 +16,7 @@ Neither appears in any earlier brand/reference.md. Values: see reference-tokens.
 Ref first screen saturated 3.3%; ours target ≤ 6% (cap 15%).
 
 ## Signature techniques to use (2–3 visible, carried into ≥4 inner pages)
-| # | technique | ref | ours (成品對應, design-spec §1) |
+| # | technique | ref | ours (as built, design-spec §1) |
 |---|---|---|---|
 | T1 | Hand-torn wobbly edge on the hero photo frame and between tinted bands | R1 hero frame 1386×787 inset 27/86/27, 28px corner, 3–6px wobble; band edges 8px amplitude; cream cards with torn edges | Home hero P01 in own `frame-torn.svg` at the same size/inset; torn `edge.svg` (8px) on day band, garden parallax band, whole-day card, price card, visit band, footer; inner page-head banners (3.2:1) in the torn frame on all 11 pages |
 | T2 | Organic blob-masked photos overlapping a band edge with a white label tab | R1 policy: egg-shaped photo across the peach/off-white edge, white 286×63 tab with the next title; flat orange/yellow blobs behind the lead photos | Home: P05 egg 440×404 across the day-band edge + tab "A day at Madoka"; P17 pebble across the visit band + tab; white tabs on room cards; flat sand/walnut blobs behind the welcome photos. Inner: About, Care day, Rooms, Educators, Food, Fees, Enrolment, Stories, Visit |

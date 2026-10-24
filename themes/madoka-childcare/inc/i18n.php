@@ -35,8 +35,11 @@ function madoka_childcare_t( $key ) {
 	static $tables = array();
 	foreach ( array_unique( array( madoka_childcare_lang(), 'en' ) ) as $lang ) {
 		if ( ! isset( $tables[ $lang ] ) ) {
-			$file             = __DIR__ . '/i18n/' . $lang . '.php';
-			$inner           = __DIR__ . '/i18n/' . $lang . '-inner.php';
+			$file  = __DIR__ . '/i18n/' . $lang . '.php';
+			$inner = __DIR__ . '/i18n/' . $lang . '/inner.php';
+			if ( ! is_readable( $inner ) ) {
+				$inner = __DIR__ . '/i18n/' . $lang . '-inner.php';
+			}
 			$tables[ $lang ] = ( is_readable( $file ) ? (array) include $file : array() ) + ( is_readable( $inner ) ? (array) include $inner : array() );
 		}
 		if ( isset( $tables[ $lang ][ $key ] ) ) {

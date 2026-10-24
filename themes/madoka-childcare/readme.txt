@@ -18,7 +18,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 Madoka Childcare WordPress Theme, (C) 2026 ShipPress. Licensed under GPL-2.0-or-later.
 
 = Fonts =
-Albert Sans (OFL-1.1) and Public Sans (OFL-1.1). Licence texts are in assets/fonts/.
+Albert Sans (OFL-1.1), Public Sans (OFL-1.1), Noto Sans TC (OFL-1.1) and Noto Sans JP (OFL-1.1). Licence texts are in assets/fonts/.
 
 = Images =
 Photographs: AI-generated for this theme and released under CC0 1.0 (no real people).
