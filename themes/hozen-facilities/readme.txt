@@ -14,7 +14,7 @@ Hozen Facilities is a block theme for a facilities management company that looks
 
 Hozen Facilities is a block theme for a facilities management company that looks after the plant rooms, roofs and switchrooms of office campuses and civic buildings across Rotterdam, Delft, The Hague and Dordrecht. The front page sets out the contracted sites, the four hubs, how a call-out is taken, a price list in euros and the field notes. Sample content also includes Sites, Services, Call-outs, Compliance, Prices, About, Contact and Privacy pages and one field note. Works without WooCommerce.
 
-Fonts: Proza Libre and Figtree (SIL Open Font License 1.1), bundled. Photographs were generated for this theme. The scroll effects (sp-scroll) respect the visitor's reduced-motion setting and stay visible without JavaScript.
+Fonts: Proza Libre, Figtree, Noto Sans TC and Noto Sans JP (SIL Open Font License 1.1), bundled. Photographs were generated for this theme. The scroll effects (sp-scroll) respect the visitor's reduced-motion setting and stay visible without JavaScript.
 
 == Copyright ==
 
@@ -28,6 +28,8 @@ GNU General Public License for more details.
 
 Proza Libre: Copyright 2014 The Proza Libre Project Authors (https://github.com/bBoxType/ProzaLibre). License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-ProzaLibre.txt, https://openfontlicense.org). Files: assets/fonts/proza-libre-400-latin.woff2, assets/fonts/proza-libre-500-latin.woff2, assets/fonts/proza-libre-400-italic-latin.woff2.
 Figtree: Copyright 2022 The Figtree Project Authors (https://github.com/erikdkennedy/figtree). License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-Figtree.txt, https://openfontlicense.org). File: assets/fonts/figtree-variable-latin.woff2.
+Noto Sans TC: Copyright 2012 Google Inc. All Rights Reserved. License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSansTC.txt, https://openfontlicense.org). File: assets/fonts/noto-sans-tc-zh-tw-400.woff2.
+Noto Sans JP: Copyright 2012 Google Inc. All Rights Reserved. License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSansJP.txt, https://openfontlicense.org). File: assets/fonts/noto-sans-jp-400-ja.woff2.
 
 == Images ==
 All images are AI-generated for this theme (Grok Build), no text or logos, released under CC0 (public domain dedication).
