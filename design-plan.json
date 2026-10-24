@@ -2,7 +2,7 @@
   "version": 1,
   "rules": {
     "header_required": true,
-    "direction": "From batch 5 (2026-10-18) new themes are commercial and practical (finance and insurance, schools and kindergartens, manufacturing, corporate sites, clinics, associations), never Japan-only subjects (basketry, kimono, wagashi, shrines, tea ceremony, dojo, crafts, pottery, tabi and the like). Since 2026-10-20 (#226) every theme is designed for one fictional brand from its brief (themes/<slug>/brand.md), the way Asa Linen, Hari Tailor and Amane Wagashi were: a low-chroma ground (off-white, stone, ink or deep night) with one muted accent, a large photograph leading the first screen, narrative paragraphs rather than tables or fields, refined serif or humanist display type at 4.25rem or more. Restrained, never a poster: no saturated full-bleed colour fields, no cut-out objects breaking frames, no side rails, no giant centred type, no collages. Look and layout may repeat between themes when the brand calls for it; what must not drop is quality (rules.quality_gate).",
+    "direction": "From batch 5 (2026-10-18) new themes are commercial and practical (finance and insurance, schools and kindergartens, manufacturing, corporate sites, clinics, associations), never Japan-only subjects (basketry, kimono, wagashi, shrines, tea ceremony, dojo, crafts, pottery, tabi and the like). Since 2026-10-20 (#226) every theme is designed for one fictional brand from its brief (themes/<slug>/brand.md), the way Asa Linen, Hari Tailor and Amane Wagashi were: a low-chroma ground (off-white, stone, ink or deep night) with one muted accent, a large photograph (or, per rules.imagery_from_reference, a same-style illustration) leading the first screen, narrative paragraphs rather than tables or fields, refined serif or clean sans-serif display type at 4.25rem or more (since 2026-10-24 at least half of each batch is sans-serif, see rules.type_direction). Restrained, never a poster: no saturated full-bleed colour fields, no cut-out objects breaking frames, no side rails, no giant centred type, no collages. Look and layout may repeat between themes when the brand calls for it; what must not drop is quality (rules.quality_gate).",
     "industry_unique": "Each new row names an industry not used by any other theme or plan row, and its first-screen photograph shows a different subject from the rows beside it. No other dimension (archetype, hero, nav, palette, fonts, first screen, page structure) has a no-repeat rule.",
     "quality_gate": {
       "version": 2,
@@ -10,7 +10,7 @@
       "applies_to": "Every new theme from b6-3 on; mark it with \"quality_gate\": 2 in theme-meta.json so scripts/check-themes.mjs enforces the static checks. Not meeting the gate means the theme is not merged.",
       "brand_brief": "themes/<slug>/brand.md written before any design: name, location, founding year, 1-3 named people, audience, tone, a day in the life. All copy grows out of it.",
       "copy": "Home page >= 250 English words with >= 3 narrative paragraphs of >= 20 words each. >= 8 pages and >= 1 post in demo-content.json.",
-      "photos": ">= 12 unique photo files in assets/images (cut-outs excluded), all generated with one shared STYLE string for a realistic photography look (same light, same tones); the home page has >= 8 photo positions.",
+      "photos": ">= 12 unique image files in assets/images (cut-outs excluded), all generated with one shared STYLE string (same light, same tones): realistic photography by default, or same-style self-generated illustrations when the S5-Style reference is illustrated (rules.imagery_from_reference); the home page has >= 8 image positions.",
       "cutouts": "At most 1 cut-out (transparent-background image) in the whole theme; optional.",
       "type": "The largest theme.json fontSizes entry is >= 4.25rem.",
       "first_screen_colour": "In the 1440x900 first screen, saturated pixels (HSV S > 35% and V > 24%) cover no more than the smaller of 30% and the share measured on the palette's S5-Style reference site (rules.palette_from_reference; before 2026-10-20 17:41 the limit was 15%). Measure with python3 scripts/check-first-screen.py screenshots/home-desktop.webp --max <limit>.",
@@ -21,7 +21,14 @@
     "batch6": "From 2026-10-19 new themes are English only (en sample content, no zh-TW/ja/fr/de). Batch 6 (rows b6-1..b6-16, 2026-10-20): commercial industries, real photography only (photographic=true; illustration column = photo direction). Open rows were re-mapped on 2026-10-20 (#226): photo-led heroes, top header only, real-photography, a one-sentence signature instead of a wireframe; every row must pass rules.quality_gate (theme-meta.json \"quality_gate\": 2).",
     "legacy_page_structure": "legacy-hero-works-serial-process-journal",
     "legacy_first_screen": "legacy-text-left-framed-photo-list",
-    "palette_from_reference": "Since 2026-10-20 17:41 (owner): the palette is taken from one or two of the theme's S5-Style reference sites, keeping their relation and proportions of main, secondary, ground and accent colours (the hue may shift to fit the brand, but the source must stay recognisable). It overrides a plan row's palette/hex and its 'quiet palette, first-screen saturated <= 15%' note. Do not default to beige or cream grounds. The share of saturated pixels in the 1440x900 first screen follows the reference's measured share and never exceeds 30%: run python3 scripts/check-first-screen.py on the reference screenshot and on the theme, pass --max <the smaller of 30 and the reference value>, and write both numbers in gate.md, brand/reference.md and the PR. Avoid the high-chroma full-bleed failures of 10/15: the result must look as mature as the reference. brand/reference.md lists the colour source site, its hex values and shares, and the theme's matching hex values."
+    "palette_from_reference": "Since 2026-10-20 17:41 (owner): the palette is taken from one or two of the theme's S5-Style reference sites, keeping their relation and proportions of main, secondary, ground and accent colours (the hue may shift to fit the brand, but the source must stay recognisable). It overrides a plan row's palette/hex and its 'quiet palette, first-screen saturated <= 15%' note. Do not default to beige or cream grounds. The share of saturated pixels in the 1440x900 first screen follows the reference's measured share and never exceeds 30%: run python3 scripts/check-first-screen.py on the reference screenshot and on the theme, pass --max <the smaller of 30 and the reference value>, and write both numbers in gate.md, brand/reference.md and the PR. Avoid the high-chroma full-bleed failures of 10/15: the result must look as mature as the reference. brand/reference.md lists the colour source site, its hex values and shares, and the theme's matching hex values.",
+    "type_direction": {
+      "since": "2026-10-24 (user: all themes were serif, so Chinese was always 明體; plan more 黑體 designs)",
+      "rule": "Every new plan row records \"font_direction\" (\"sans\" or \"serif\") and \"cjk_fonts\". At least half of each batch is \"sans\": Latin heading and body fonts both sans-serif (OFL), CJK headings and body in Noto Sans TC / Noto Sans JP (黑體), never a 明體 heading. \"serif\" rows keep a serif display face with Noto Serif TC / Noto Serif JP (明體). Editor fonts must equal front-end fonts either way (check-editor-fonts.mjs, check-themes.mjs).",
+      "planned_by": "shippress-pipeline plan-next.sh enforces the half-sans minimum"
+    },
+    "imagery_from_reference": "Since 2026-10-24 (user decision): the image type follows the theme's main S5-Style reference. Photos (default) when the reference's main imagery is photography; when the reference's main imagery is illustration (e.g. the watercolours on dorokogyo.co.jp), the theme uses its own AI-generated illustrations in that same style (medium, line, colouring, tone) from one shared STYLE string (scripts/grok-image.sh with IMAGE_STYLE). Never copy, trace or edit the reference's actual illustrations, characters or logo; only the style is borrowed. Image counts in rules.quality_gate.photos apply to illustrations too. Stage 1 research records IMAGERY: photo|illustration; the compare step scores a matching illustration style as imagery similarity.",
+    "key_visual_concept": "Translate the S5-Style reference's first-screen concept (scene, story, signature motion) into the theme's industry via a 4-6 item checklist in design-spec 'Key visual concept'. Research/spec guidance only: not checked, scored or REDOed at compare. Never copy actual images, copy or logo. (2026-10-24)"
   },
   "enums": {
     "archetype": [
@@ -112,6 +119,10 @@
       "centered-narrow-column",
       "timeline-line",
       "horizontal-scroll-strip"
+    ],
+    "font_direction": [
+      "sans",
+      "serif"
     ]
   },
   "nav_note": "Every theme has one real global top header (site title/logo + primary nav + CTA) and no other navigation: no side rail, no second menu. centered/split/overlay describe how that one menu is arranged (overlay = the menu opens over the page, e.g. on phones).",
@@ -2633,13 +2644,13 @@
       "industry": "diversified holding company",
       "type": "business",
       "category": "business-services",
-      "status": "todo",
+      "status": "done",
       "header_required": true,
       "id": "b7-14",
       "first_screen": "timeline-line",
       "page_structure": "timeline-milestone",
       "signature": "A diversified holding company presented through its history: a full-bleed photograph of its headquarters, a milestone timeline of acquisitions and group companies, governance and investor-relations notices.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-21 (batch 7).",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
       "photographic": true
     },
     {
@@ -2694,7 +2705,7 @@
       "first_screen": "top-bottom-halves",
       "page_structure": "results-first-case-wall",
       "signature": "An architecture firm for workplaces and housing: a photograph of a timber model on a studio table beside the project name, then a wall of finished buildings each read as the question, the work and the result.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-23 (auto, plan-next).",
+      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Imagery follows the S5-Style reference (rules.imagery_from_reference): photographs by default, same-style self-generated illustrations if the reference is illustrated; neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 images from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-23 (auto, plan-next).",
       "photographic": true,
       "n": 84,
       "status": "todo",
@@ -2723,10 +2734,10 @@
       "first_screen": "full-bleed-photo-info-bar",
       "page_structure": "day-schedule",
       "signature": "A boutique city hotel for short work trips and quiet weekends: a low-key photograph of a guest room at dusk, the stay told as a day from arrival to breakfast, and one room enquiry.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-23 (auto, plan-next).",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
       "photographic": true,
       "n": 85,
-      "status": "todo",
+      "status": "done",
       "id": "b8-3"
     },
     {
@@ -2752,10 +2763,10 @@
       "first_screen": "top-bottom-halves",
       "page_structure": "process-timeline",
       "signature": "A commercial landscaping company for campuses and civic streets: a documentary photograph of a crew planting trees on a new forecourt, then the engagement as a timeline from survey to seasonal aftercare.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-23 (auto, plan-next).",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
       "photographic": true,
       "n": 86,
-      "status": "todo",
+      "status": "done",
       "id": "b8-4"
     },
     {
@@ -2810,10 +2821,10 @@
       "first_screen": "full-bleed-photo-info-bar",
       "page_structure": "people-story",
       "signature": "A community pharmacy on a neighbourhood high street: a film-grain photograph of a pharmacist counselling a customer at the counter, portraits and a short story of the people who dispense and collect, and how a prescription is talked through.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-23 (auto, plan-next).",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
       "photographic": true,
       "n": 88,
-      "status": "todo",
+      "status": "done",
       "id": "b8-6"
     },
     {
@@ -2839,7 +2850,7 @@
       "first_screen": "top-bottom-halves",
       "page_structure": "locations-network",
       "signature": "A facilities management company for office campuses and civic buildings: a documentary photograph of an engineer inspecting pumps in a plant room, then the contracted sites as a network and how a call-out is taken.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
+      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Imagery follows the S5-Style reference (rules.imagery_from_reference): photographs by default, same-style self-generated illustrations if the reference is illustrated; neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 images from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
       "photographic": true,
       "n": 89,
       "status": "todo",
@@ -2868,10 +2879,10 @@
       "first_screen": "full-bleed-photo-info-bar",
       "page_structure": "narrative-problem-method-proof",
       "signature": "A physiotherapy clinic for desk workers and people after surgery: a bright photograph of a therapist guiding a shoulder exercise on a treatment table, then the problem, the method and one recovered case.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
       "photographic": true,
       "n": 90,
-      "status": "todo",
+      "status": "done",
       "id": "b9-2"
     },
     {
@@ -2897,7 +2908,7 @@
       "first_screen": "top-bottom-halves",
       "page_structure": "alternating-longform",
       "signature": "An independent bookshop for neighbourhood readers: a film-grain photograph of a bookseller wrapping a hardcover at the front table, then alternating passages on the new shelves, the Saturday reading and the people who stay.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
+      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Imagery follows the S5-Style reference (rules.imagery_from_reference): photographs by default, same-style self-generated illustrations if the reference is illustrated; neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 images from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
       "photographic": true,
       "n": 91,
       "status": "todo",
@@ -2926,10 +2937,10 @@
       "first_screen": "top-bottom-halves",
       "page_structure": "day-schedule",
       "signature": "A private music school for children and adult beginners: a low-key photograph of a teacher and pupil at a grand piano, then the teaching day as a schedule from first lesson to evening ensemble.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
       "photographic": true,
       "n": 92,
-      "status": "todo",
+      "status": "done",
       "id": "b9-4"
     },
     {
@@ -2955,10 +2966,10 @@
       "first_screen": "full-bleed-photo-info-bar",
       "page_structure": "booking-led",
       "signature": "A neighbourhood restaurant for weekday lunches and unhurried dinners: a documentary photograph of a chef plating at the open pass, then how to book a sitting and what the room serves.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
       "photographic": true,
       "n": 93,
-      "status": "todo",
+      "status": "done",
       "id": "b9-5"
     },
     {
@@ -2984,11 +2995,210 @@
       "first_screen": "top-bottom-halves",
       "page_structure": "metrics-ledger",
       "signature": "An environmental consultancy for landowners and municipal clients: a film-grain photograph of a scientist taking a water sample at a riverbank, then a ledger of monitored sites and how an assessment begins.",
-      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Photographic imagery only, neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 photographs from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Readable Latin serif / humanist display and body faces (OFL; verify licence when building). Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
       "photographic": true,
       "n": 94,
-      "status": "todo",
+      "status": "done",
       "id": "b9-6"
+    },
+    {
+      "archetype": "single-column-longform",
+      "hero": "framed-window",
+      "nav": "overlay",
+      "image": "real-photography",
+      "illustration": "high-key",
+      "photo_direction": "high-key",
+      "palette": "浅葱鼠",
+      "hex": "#6A8A88",
+      "palette_family": "teal",
+      "fonts": [
+        "Newsreader",
+        "Figtree"
+      ],
+      "name": "Hitomi Vision",
+      "slug": "hitomi-vision",
+      "industry": "optometry clinic",
+      "type": "health",
+      "category": "health-wellness",
+      "header_required": true,
+      "first_screen": "top-bottom-halves",
+      "page_structure": "narrative-problem-method-proof",
+      "signature": "An optometry clinic for office workers and school-age children: a high-key photograph of an optometrist setting trial frames on a patient, then the argument from eyestrain symptoms through the exam method to one corrected case.",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
+      "photographic": true,
+      "n": 95,
+      "status": "done",
+      "id": "b10-1"
+    },
+    {
+      "archetype": "split-screen",
+      "hero": "photo-left-text-right",
+      "nav": "top-bar",
+      "image": "real-photography",
+      "illustration": "documentary",
+      "photo_direction": "documentary",
+      "palette": "胡桃色",
+      "hex": "#7A6858",
+      "palette_family": "brown",
+      "fonts": [
+        "Albert Sans",
+        "Public Sans"
+      ],
+      "name": "Madoka Childcare",
+      "slug": "madoka-childcare",
+      "industry": "childcare centre",
+      "type": "education",
+      "category": "education-classes",
+      "header_required": true,
+      "first_screen": "top-bottom-halves",
+      "page_structure": "day-schedule",
+      "signature": "A childcare centre for infants and toddlers of working parents: a documentary photograph of an educator with two toddlers at a low block table, then the care day as a schedule from morning arrival to late pickup.",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
+      "photographic": true,
+      "n": 96,
+      "status": "done",
+      "id": "b10-2",
+      "font_direction": "sans",
+      "cjk_fonts": [
+        "Noto Sans TC",
+        "Noto Sans JP"
+      ]
+    },
+    {
+      "archetype": "editorial-magazine",
+      "hero": "full-bleed-photo",
+      "nav": "centered",
+      "image": "real-photography",
+      "illustration": "film-grain",
+      "photo_direction": "film-grain",
+      "palette": "紅消鼠",
+      "hex": "#7A5E5E",
+      "palette_family": "red",
+      "fonts": [
+        "EB Garamond",
+        "Karla"
+      ],
+      "name": "Enishi Catering",
+      "slug": "enishi-catering",
+      "industry": "catering company",
+      "type": "hospitality",
+      "category": "food-drink",
+      "header_required": true,
+      "first_screen": "full-bleed-photo-info-bar",
+      "page_structure": "process-timeline",
+      "signature": "A catering company for offices and family celebrations: a film-grain photograph of staff setting a long banquet table in an empty hired hall, then the engagement as a timeline from tasting to the night of service.",
+      "note": "five languages (en, zh-TW, ja, fr, de)",
+      "photographic": true,
+      "n": 97,
+      "status": "done",
+      "id": "b10-3",
+      "font_direction": "serif",
+      "cjk_fonts": [
+        "Noto Serif TC",
+        "Noto Serif JP"
+      ]
+    },
+    {
+      "archetype": "split-screen",
+      "hero": "text-left-photo-right",
+      "nav": "split",
+      "image": "real-photography",
+      "illustration": "low-key",
+      "photo_direction": "low-key",
+      "palette": "柳鼠",
+      "hex": "#747864",
+      "palette_family": "green",
+      "fonts": [
+        "Schibsted Grotesk",
+        "Inter"
+      ],
+      "name": "Hayate Cycles",
+      "slug": "hayate-cycles",
+      "industry": "bicycle shop",
+      "type": "store",
+      "category": "shops-hobbies",
+      "header_required": true,
+      "first_screen": "top-bottom-halves",
+      "page_structure": "service-index",
+      "signature": "A bicycle shop for city commuters and weekend riders: a low-key photograph of a mechanic truing a wheel under a task lamp, then the service index from new bikes to fittings and repairs.",
+      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Imagery follows the S5-Style reference (rules.imagery_from_reference): photographs by default, same-style self-generated illustrations if the reference is illustrated; neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 images from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Type: sans (2026-10-24 黑體 direction) — Latin heading Schibsted Grotesk / body Inter, both sans-serif; CJK headings and body in Noto Sans TC / Noto Sans JP (黑體), no 明體 anywhere; editor and front end load the same faces. OFL; verify licence when building. Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
+      "photographic": true,
+      "n": 98,
+      "status": "todo",
+      "id": "b10-4",
+      "font_direction": "sans",
+      "cjk_fonts": [
+        "Noto Sans TC",
+        "Noto Sans JP"
+      ]
+    },
+    {
+      "archetype": "sticky-media",
+      "hero": "photo-left-text-right",
+      "nav": "centered",
+      "image": "real-photography",
+      "illustration": "high-key",
+      "photo_direction": "high-key",
+      "palette": "藍鼠",
+      "hex": "#5E727C",
+      "palette_family": "blue",
+      "fonts": [
+        "Source Serif 4",
+        "Source Sans 3"
+      ],
+      "name": "Seiwa Furniture",
+      "slug": "seiwa-furniture",
+      "industry": "office furniture manufacturer",
+      "type": "business",
+      "category": "business-services",
+      "header_required": true,
+      "first_screen": "top-bottom-halves",
+      "page_structure": "metrics-ledger",
+      "signature": "An office furniture manufacturer for architects and fit-out contractors: a high-key photograph of an assembler fitting a fabric panel to an office chair on the production line, then a ledger of contracts delivered and how a specification is installed.",
+      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Imagery follows the S5-Style reference (rules.imagery_from_reference): photographs by default, same-style self-generated illustrations if the reference is illustrated; neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 images from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Type: serif — Latin heading Source Serif 4 / body Source Sans 3; CJK headings in Noto Serif TC / Noto Serif JP (明體); editor and front end load the same faces. OFL; verify licence when building. Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
+      "photographic": true,
+      "n": 99,
+      "status": "todo",
+      "id": "b10-5",
+      "font_direction": "serif",
+      "cjk_fonts": [
+        "Noto Serif TC",
+        "Noto Serif JP"
+      ]
+    },
+    {
+      "archetype": "editorial-magazine",
+      "hero": "full-bleed-photo",
+      "nav": "top-bar",
+      "image": "real-photography",
+      "illustration": "documentary",
+      "photo_direction": "documentary",
+      "palette": "紫鼠",
+      "hex": "#6E6272",
+      "palette_family": "purple",
+      "fonts": [
+        "Instrument Sans",
+        "Atkinson Hyperlegible"
+      ],
+      "name": "Akira Audit",
+      "slug": "akira-audit",
+      "industry": "audit firm",
+      "type": "business",
+      "category": "business-services",
+      "header_required": true,
+      "first_screen": "full-bleed-photo-info-bar",
+      "page_structure": "alternating-longform",
+      "signature": "An audit firm for owner-managed companies and grant-funded charities: a documentary photograph of an auditor observing a stock count in a warehouse aisle, then one engagement in alternating narrative from appointment to the signed opinion.",
+      "note": "Five languages (user decision 2026-10-20 10:34 Taipei, ROADMAP §4 rule 0): sample content in en, zh-TW, ja, fr, de built the Hokuto 1.1.0 way, prices matching across languages. Imagery follows the S5-Style reference (rules.imagery_from_reference): photographs by default, same-style self-generated illustrations if the reference is illustrated; neutral international modern scenes, no Japanese elements, no cut-outs; at least 12 images from one STYLE string. Quiet palette: a low-chroma ground (off-white, stone or ink) with the palette hex as the one muted accent on small areas, never a full-bleed field; first-screen saturated pixels <= 15%. Type: sans (2026-10-24 黑體 direction) — Latin heading Instrument Sans / body Atkinson Hyperlegible, both sans-serif; CJK headings and body in Noto Sans TC / Noto Sans JP (黑體), no 明體 anywhere; editor and front end load the same faces. OFL; verify licence when building. Passes rules.quality_gate (theme-meta.json \"quality_gate\": 2). Planned 2026-10-24 (auto, plan-next).",
+      "photographic": true,
+      "n": 100,
+      "status": "todo",
+      "id": "b10-6",
+      "font_direction": "sans",
+      "cjk_fonts": [
+        "Noto Sans TC",
+        "Noto Sans JP"
+      ]
     }
   ],
   "page_structures": [
