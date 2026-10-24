@@ -313,3 +313,31 @@ a { text-underline-offset: 3px; }
 }
 .nm-prose > p.nm-fees__note { margin-top: 1.5rem; }
 .nm-vis--form { grid-template-columns: minmax(0, 1fr); }
+
+/* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Crimson Pro / Outfit) ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", "Crimson Pro", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--label: Outfit, "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", "Crimson Pro", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--label: Outfit, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .nm-mark) { line-height: 1.4; letter-spacing: 0.04em; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) :is(.nm-label, .nm-meta, .nm-rail, .nm-day__time, .nm-foot__legal, .nm-form label) { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) :is(.nm-h1, .nm-hero__h) { font-size: clamp(2.1rem, 3.75vw, 3.375rem); line-height: 1.4; }
+:is(:lang(zh), :lang(ja)) .nm-h2 { font-size: clamp(1.7rem, 2.7vw, 2.35rem); }
+:is(:lang(zh), :lang(ja)) .nm-band h2 { font-size: clamp(1.5rem, 2.1vw, 1.875rem); }
+:is(:lang(zh), :lang(ja)) .nm-foot__word { font-size: 2.4rem; }
+:is(:lang(zh), :lang(ja)) .nm-rail { letter-spacing: 0.3em; }
+:lang(ja) :is(h1, h2, h3, p, li) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li, summary) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) :is(.nm-h1, .nm-hero__h) { font-size: clamp(2.4rem, 4.4vw, 3.9rem); }
+:is(:lang(fr), :lang(de)) .nm-h2 { font-size: clamp(2rem, 3.2vw, 2.75rem); }
+:is(:lang(fr), :lang(de)) .nm-nav .wp-block-navigation__container { gap: .5rem 1.5rem; }
+:is(:lang(fr), :lang(de)) .nm-rail { letter-spacing: .12em; }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) :is(.nm-h1, .nm-hero__h) { font-size: 1.9rem; }
+	:is(:lang(fr), :lang(de)) :is(.nm-h1, .nm-hero__h) { font-size: 2.2rem; }
+}
