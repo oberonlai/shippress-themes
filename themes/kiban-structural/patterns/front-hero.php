@@ -12,7 +12,7 @@
 <!-- /wp:html --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-hero__win"} -->
 <figure class="wp-block-image size-full kb-hero__win"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/kb-hero-drawing.webp' ) ); ?>" alt="<?php echo esc_attr( kiban_structural_t( 'alt_p01' ) ); ?>"/></figure>
 <!-- /wp:image --><!-- wp:heading {"level":1,"className":"kb-hero__tag"} -->
-<h1 class="wp-block-heading kb-hero__tag"><?php foreach ( explode( ' ', kiban_structural_t( 'hero_tag' ) ) as $kb_w ) { echo '<span>' . esc_html( $kb_w ) . '</span>'; } ?></h1>
+<h1 class="wp-block-heading kb-hero__tag"><?php foreach ( explode( ' ', kiban_structural_t( 'hero_tag' ) ) as $kb_w ) { echo '<span>' . esc_html( $kb_w ) . '</span> '; } ?></h1>
 <!-- /wp:heading --><!-- wp:group {"className":"kb-hero__info","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-hero__info"><!-- wp:paragraph {"className":"kb-hero__facts"} -->
 <p class="kb-hero__facts"><span><?php echo esc_html( kiban_structural_t( 'hero_f1' ) ); ?></span><span><?php echo esc_html( kiban_structural_t( 'hero_f2' ) ); ?></span><span><?php echo esc_html( kiban_structural_t( 'hero_f3' ) ); ?></span></p>
