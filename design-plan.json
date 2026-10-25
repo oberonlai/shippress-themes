@@ -28,7 +28,14 @@
       "planned_by": "shippress-pipeline plan-next.sh enforces the half-sans minimum"
     },
     "imagery_from_reference": "Since 2026-10-24 (user decision): the image type follows the theme's main S5-Style reference. Photos (default) when the reference's main imagery is photography; when the reference's main imagery is illustration (e.g. the watercolours on dorokogyo.co.jp), the theme uses its own AI-generated illustrations in that same style (medium, line, colouring, tone) from one shared STYLE string (scripts/grok-image.sh with IMAGE_STYLE). Never copy, trace or edit the reference's actual illustrations, characters or logo; only the style is borrowed. Image counts in rules.quality_gate.photos apply to illustrations too. Stage 1 research records IMAGERY: photo|illustration; the compare step scores a matching illustration style as imagery similarity.",
-    "key_visual_concept": "Translate the S5-Style reference's first-screen concept (scene, story, signature motion) into the theme's industry via a 4-6 item checklist in design-spec 'Key visual concept'. Research/spec guidance only: not checked, scored or REDOed at compare. Never copy actual images, copy or logo. (2026-10-24)"
+    "key_visual_concept": "Translate the S5-Style reference's first-screen concept (scene, story, signature motion) into the theme's industry via a 4-6 item checklist in design-spec 'Key visual concept'. Research/spec guidance only: not checked, scored or REDOed at compare. Never copy actual images, copy or logo. (2026-10-24)",
+    "landing_track": {
+      "since": "2026-10-25",
+      "share": "About 1 in 4-5 planned rows (plan-next writes ceil(N/5) per batch, at least 1) is a landing-page theme: theme-meta \"type\": \"landing\", page_structure \"landing-longform\".",
+      "pages": "Same fixed page codes as every theme (check-themes.mjs PAGES: home, about, news, article, category, tag, newsletter, contact) and >= 8 demo pages, so no gate changes: home = the long landing page; about = the team/maker story; news = updates/changelog; newsletter = the waitlist / early-access signup page; contact = enquiry; plus privacy, terms and thanks (post-signup) pages; >= 1 post (launch note). Header menu = in-page anchors to the home sections + one CTA; inner pages reachable from the footer.",
+      "gate": "quality_gate 2 unchanged (>= 250 home words, >= 3 narrative paragraphs, >= 12 images, >= 8 on home, >= 4.25rem type, first-screen colour limit). Screenshots: all 8 page codes have screens URLs as usual.",
+      "style": "Japanese/Taiwanese local feel, quiet palette, at least half sans (黑體); illustration-led references get self-made same-style illustrations; key-visual concept checklist from the reference applies."
+    }
   },
   "enums": {
     "archetype": [
@@ -109,7 +116,8 @@
       "diagnostic-quiz",
       "timeline-milestone",
       "practitioner-directory",
-      "dashboard-metrics"
+      "dashboard-metrics",
+      "landing-longform"
     ],
     "first_screen": [
       "legacy-text-left-framed-photo-list",
@@ -3403,6 +3411,108 @@
       "n": 106,
       "status": "todo",
       "id": "b11-6"
+    },
+    {
+      "archetype": "single-column-longform",
+      "hero": "full-bleed-photo",
+      "nav": "top-bar",
+      "image": "real-photography",
+      "illustration": "high-key",
+      "photo_direction": "high-key",
+      "palette": "白鼠",
+      "hex": "#8E9194",
+      "palette_family": "grey",
+      "fonts": [
+        "Inter Tight",
+        "Manrope"
+      ],
+      "name": "Mado Air",
+      "slug": "mado-air",
+      "industry": "home appliance product launch",
+      "type": "landing",
+      "category": "shops-hobbies",
+      "header_required": true,
+      "first_screen": "full-bleed-photo-info-bar",
+      "page_structure": "landing-longform",
+      "signature": "A product-launch landing page for a quiet compact air purifier: a high-key photograph of the unit on a windowsill in morning light, then one long page from the stale-room problem to specs, reviews, pre-order price and FAQ.",
+      "note": "five languages (en, zh-TW, ja, fr, de). Landing-page theme (rules.landing_track): home is one long conversion page with anchor menu and one repeated CTA; newsletter page = waitlist/early-access signup; plus privacy, terms, thanks pages. Reference: balmuda.com product pages (BALMUDA The Pure) — calm high-key product photography, slow scroll reveals. Quiet palette, first-screen saturated share follows the S5-Style reference and never exceeds 30% (quality_gate 2). Type: sans — Inter Tight / Manrope, CJK fallback Noto Sans TC / Noto Sans JP (黑體). Imagery: follows reference (photo default; illustration if the reference is illustrated). Key visual: translate the reference hero concept (scene, story, motion) into this industry. Planned 2026-10-25 (landing track).",
+      "photographic": true,
+      "font_direction": "sans",
+      "cjk_fonts": [
+        "Noto Sans TC",
+        "Noto Sans JP"
+      ],
+      "n": 107,
+      "status": "todo",
+      "id": "b11-7"
+    },
+    {
+      "archetype": "card-mosaic",
+      "hero": "text-left-photo-right",
+      "nav": "centered",
+      "image": "real-photography",
+      "illustration": "high-key",
+      "photo_direction": "high-key",
+      "palette": "白藍",
+      "hex": "#7FA3B5",
+      "palette_family": "blue",
+      "fonts": [
+        "Plus Jakarta Sans",
+        "Noto Sans"
+      ],
+      "name": "Kazoe Books App",
+      "slug": "kazoe-app",
+      "industry": "bookkeeping app for small shops (SaaS)",
+      "type": "landing",
+      "category": "business-services",
+      "header_required": true,
+      "first_screen": "top-bottom-halves",
+      "page_structure": "landing-longform",
+      "signature": "A SaaS landing page for a bookkeeping app used by small shop owners: a same-style flat illustration of a shopkeeper closing the till while the app tallies the day, then features, three-step setup, plans and FAQ.",
+      "note": "five languages (en, zh-TW, ja, fr, de). Landing-page theme (rules.landing_track): home is one long conversion page with anchor menu and one repeated CTA; newsletter page = waitlist/early-access signup; plus privacy, terms, thanks pages. Reference: freee.co.jp / smarthr.jp — illustration-led (self-made flat illustrations in the same style), friendly sans type. Quiet palette, first-screen saturated share follows the S5-Style reference and never exceeds 30% (quality_gate 2). Type: sans — Plus Jakarta Sans / Noto Sans, CJK fallback Noto Sans TC / Noto Sans JP (黑體). Imagery: follows reference (photo default; illustration if the reference is illustrated). Key visual: translate the reference hero concept (scene, story, motion) into this industry. Planned 2026-10-25 (landing track).",
+      "photographic": true,
+      "font_direction": "sans",
+      "cjk_fonts": [
+        "Noto Sans TC",
+        "Noto Sans JP"
+      ],
+      "n": 108,
+      "status": "todo",
+      "id": "b11-8"
+    },
+    {
+      "archetype": "editorial-magazine",
+      "hero": "framed-window",
+      "nav": "split",
+      "image": "real-photography",
+      "illustration": "film-grain",
+      "photo_direction": "film-grain",
+      "palette": "利休鼠",
+      "hex": "#6F7765",
+      "palette_family": "green",
+      "fonts": [
+        "Gloock",
+        "Public Sans"
+      ],
+      "name": "Fumi Press Launch",
+      "slug": "fumi-launch",
+      "industry": "book launch (author landing page)",
+      "type": "landing",
+      "category": "arts-media",
+      "header_required": true,
+      "first_screen": "centered-narrow-column",
+      "page_structure": "landing-longform",
+      "signature": "A single-book launch page for an essayist's new book: a film-grain photograph of the book open on a café table in Taipei, then excerpt, author note, reader quotes, editions and pre-order, launch-event dates and FAQ.",
+      "note": "five languages (en, zh-TW, ja, fr, de). Landing-page theme (rules.landing_track): home is one long conversion page with anchor menu and one repeated CTA; newsletter page = waitlist/early-access signup; plus privacy, terms, thanks pages. Reference: Taiwanese / Japanese publisher book pages (e.g. 誠品 / 暮しの手帖 feature pages) — editorial excerpt-led long read. Quiet palette, first-screen saturated share follows the S5-Style reference and never exceeds 30% (quality_gate 2). Type: serif — Gloock / Public Sans, CJK fallback Noto Serif TC / Noto Serif JP (明體). Imagery: follows reference (photo default; illustration if the reference is illustrated). Key visual: translate the reference hero concept (scene, story, motion) into this industry. Planned 2026-10-25 (landing track).",
+      "photographic": true,
+      "font_direction": "serif",
+      "cjk_fonts": [
+        "Noto Serif TC",
+        "Noto Serif JP"
+      ],
+      "n": 109,
+      "status": "todo",
+      "id": "b11-9"
     }
   ],
   "page_structures": [
@@ -3707,6 +3817,22 @@
         "audit CTA"
       ],
       "differs": "Live-looking operational tiles prove the service; unlike metrics-ledger the numbers are widgets with trend and status, not a ledger table."
+    },
+    {
+      "id": "landing-longform",
+      "fits": "landing-page track (type \"landing\"): product launch, SaaS/app, online course, event/conference, waitlist, local service promo, book/author, crowdfunding",
+      "blocks": [
+        "hero: one promise headline + one primary CTA + the reference-translated key visual (photo or same-style illustration)",
+        "proof strip: logos/press/figures in one quiet row",
+        "problem → solution: 3 narrative paragraphs",
+        "features/benefits: 3-6 items with images",
+        "how it works: 3 steps",
+        "social proof: 2-3 quotes",
+        "offer: pricing / dates / reward tiers (one card set)",
+        "FAQ (5-6)",
+        "final CTA band repeating the primary action"
+      ],
+      "differs": "The home page is one long conversion page with in-page anchor navigation (#features, #pricing, #faq) and one repeated primary CTA; inner pages are short supporting pages."
     }
   ],
   "page_structure_note": "Optional hints, not rules: page_structure (see page_structures), first_screen, and on older rows wireframe and page_structure_blocks only suggest an order and a first-screen skeleton. The brand brief decides the home page; reusing a good pattern approach from Asa Linen / Hari Tailor / Amane Wagashi is fine. Functional components (booking card, calculator, quiz, search box, spec or comparison table, directory, dashboard tiles, map) never fill the first screen; at most one sits mid-page. Every page structure still has photographs and narrative paragraphs and must pass rules.quality_gate. legacy-hero-works-serial-process-journal and legacy-text-left-framed-photo-list describe b5-1..b5-7 (history)."

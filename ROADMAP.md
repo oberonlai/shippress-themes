@@ -545,6 +545,32 @@ Starts after the current `todo` rows in `design-plan.json` are done. Planning on
 - Acceptance: run one test purchase end to end and confirm the course is then viewable.
 - All other theme rules apply as usual (five languages, S5-Style references, signature techniques carried into inner pages, etc.).
 
+## 4c. Landing-page track (planned 2026-10-25, user request)
+From 2026-10-25 the queue also carries **landing-page themes**: single-page, conversion-focused block themes. `theme-meta.json` `"type": "landing"` (catalogue filter "Landing page" on the site /themes page and in the App picker), `page_structure: "landing-longform"` (`design-plan.json` `page_structures`, `rules.landing_track`).
+
+**Share:** about 1 in 4–5 rows. `shippress-pipeline` `plan-next.sh` writes ceil(N/5) landing rows (at least 1) in every auto batch and rejects a batch without one.
+
+**Page list / demo content (no gate changes needed):** landing themes keep the fixed page codes of every theme (`check-themes.mjs` PAGES: home, about, news, article, category, tag, newsletter, contact) and ≥ 8 demo pages, so the checks and the 8-page screenshot step accept them:
+- home = the long landing page: hero promise + one primary CTA → proof strip → problem/solution narrative (≥ 3 paragraphs) → features → how it works (3 steps) → quotes → offer (pricing / dates / reward tiers) → FAQ → final CTA band. Header menu = in-page anchors (#features, #pricing, #faq) + the CTA button; still exactly one top menu.
+- about = the maker / team story; news + article = updates / changelog / launch note (≥ 1 post); **newsletter = the waitlist / early-access signup page** (this is how landing themes satisfy the required newsletter page); contact = enquiry; plus privacy, terms and thanks (after signup) pages.
+- quality_gate 2 unchanged: ≥ 250 home words, ≥ 12 images (≥ 8 on home), ≥ 4.25rem display size, first-screen colour limit.
+
+**Style rules still apply:** Japanese / Taiwanese local feel, quiet low-chroma palette, at least half sans (黑體 Noto Sans TC/JP), illustration-led references get self-made same-style illustrations (never their artwork), and stage-1 writes the reference's key-visual concept checklist (scene, story, motion → our industry).
+
+**Landing ideas (pick from these when planning; each with a reference):**
+| Kind | Example brand / industry | Reference idea | Type |
+|---|---|---|---|
+| Product launch | Mado Air — compact air purifier | balmuda.com product pages (calm high-key product photos, slow reveals) | sans |
+| SaaS / App | Kazoe — bookkeeping app for small shops | freee.co.jp / smarthr.jp (illustration-led → own flat illustrations) | sans |
+| Book / author | Fumi Press — essay book launch | Japanese/Taiwanese publisher feature pages (暮しの手帖, 誠品 features) | serif |
+| Online course | single cohort course sales page | schoo.jp course pages | sans |
+| Event / conference | one-day design conference | designship.jp (kinetic type, speaker grid) | sans |
+| Waitlist / pre-launch | new café or app waitlist | nothing-like teaser pages; Japanese D2C pre-order pages (e.g. Makuake-style) | sans |
+| Local service promo | seasonal campaign for a clinic, gym or salon | Japanese LP style (縦長LP) toned down: hot pepper beauty campaign pages | sans |
+| Crowdfunding | hardware / craft product campaign | makuake.com / zeczec.com (嘖嘖) project pages: reward tiers, progress, story | serif or sans |
+
+**Queued now (b11-7 … b11-9, after shirota-laundry):** Mado Air (`mado-air`, home appliance product launch, ref BALMUDA, sans), Kazoe Books App (`kazoe-app`, bookkeeping SaaS, ref freee / SmartHR illustration style, sans), Fumi Press Launch (`fumi-launch`, book launch, ref Japanese/Taiwanese publisher feature pages, serif).
+
 ## 5. Refresh plan (one per round, minor version, after a new theme or when the queue is blocked)
 1. shiro-horitsu → H5 masthead, F9 colophon, L3 index list (1.1.0)
 2. kami-no-ne → H3 side rail, F12 seal column, L8 shelf mosaic (1.1.0, refreshed 2026-10-12)
