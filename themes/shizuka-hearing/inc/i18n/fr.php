@@ -52,7 +52,7 @@ return array(
 	'k43a9cac6' => 'La phrase manquée est rarement toute la conversation. C’est le nom à la fin d’une question, ou l’aparté d’un ami pendant que le restaurant couvre sa voix. On se penche, on observe les lèvres, et la phrase échappe encore. Hocher la tête paraît plus simple que de redemander. Chez Shizuka Hearing, la première visite commence par là, pas par un appareil. Un bilan auditif dure 60 minutes : conversation, examen de l’oreille et audiométrie tonale. Lorsque le vrai problème est le bruit de fond, le bilan diagnostique dure 90 minutes et comprend un test de la parole dans le bruit. Vous repartez avec un compte rendu en langage simple. Le bilan auditif coûte 95 €. Le bilan diagnostique coûte 160 €.',
 	'k44052de4' => 'Bilans auditifs, appareillages, essais et suivis',
 	'k44c3c180' => 'TARIFS',
-	'k44df529b' => 'Prendre rendez-vous pour un bilan auditif',
+	'k44df529b' => 'Prendre rendez-vous',
 	'k47bb3536' => 'La phrase que vous avez manquée,<br>et chaque moment qu’elle vous rend.',
 	'k487b0f0d' => 'Situé au deuxième étage du 18 Harbour Lane, à Northgate, notre cabinet est aménagé pour offrir une atmosphère calme et paisible dès que vous franchissez la porte. Il comprend deux salles de consultation et une cabine insonorisée conçue pour des évaluations précises par audiométrie tonale et test de la parole dans le bruit. De grandes fenêtres laissent entrer une douce lumière naturelle, créant un cadre aéré et accueillant pour les examens et la programmation des appareils. L’ascenseur permet une arrivée de plain-pied pour tous les visiteurs. Nous espaçons largement les rendez-vous afin que notre salle d’attente reste calme et reposante, avec tout le temps nécessaire pour chaque consultation.',
 	'k49ee3087' => 'Nom',

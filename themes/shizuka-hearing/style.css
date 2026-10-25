@@ -56,7 +56,7 @@ body::before { content: ""; position: absolute; left: 0; top: 0; width: 30px; he
 
 /* header: split nav */
 .sh-header { height: 96px; padding: 0 36px; background: #fff; position: relative; z-index: 5; box-sizing: border-box; }
-.sh-brand { margin: 0; font-family: var(--wp--preset--font-family--display); font-weight: 400; font-size: 1.25rem; letter-spacing: .02em; display: flex; align-items: center; gap: 10px; }
+.sh-brand { margin: 0; white-space: nowrap; flex: none; font-family: var(--wp--preset--font-family--display); font-weight: 400; font-size: 1.25rem; letter-spacing: .02em; display: flex; align-items: center; gap: 10px; }
 .sh-brand::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--wp--preset--color--accent); flex: none; }
 .sh-brand a { text-decoration: none; color: var(--sh-ink); }
 .sh-header__end { gap: 48px; }
@@ -79,6 +79,19 @@ body::before { content: ""; position: absolute; left: 0; top: 0; width: 30px; he
 .wp-block-button.sh-pill--light .wp-block-button__link { border-color: var(--sh-line-light); color: #fff; }
 .wp-block-button.sh-pill--light .wp-block-button__link:hover { background: #fff; color: var(--wp--preset--color--slate); border-color: #fff; }
 .sh-header__cta .wp-block-button__link { white-space: nowrap; }
+/* closing CTA sits on a photo: white outline pill, readable text */
+.sh-cta .sh-pill .wp-block-button__link { border-color: rgba(255, 255, 255, .55); color: #fff; background: rgba(47, 58, 64, .45); }
+.sh-cta .sh-pill .wp-block-button__link:hover { background: #fff; color: var(--sh-ink); border-color: #fff; }
+.sh-menu .wp-block-navigation__container, .sh-menu { flex-wrap: nowrap; }
+.sh-menu a { white-space: nowrap; }
+@media (min-width: 782px) and (max-width: 1400px) {
+	.sh-menu .wp-block-navigation__container { gap: 1.4rem; }
+	.sh-header__end { gap: 28px; }
+	:lang(fr) .sh-menu, :lang(de) .sh-menu { letter-spacing: .02em; font-size: .8125rem; }
+	:lang(fr) .sh-menu .wp-block-navigation__container, :lang(de) .sh-menu .wp-block-navigation__container { gap: 1.1rem; }
+	:lang(fr) .sh-header__end, :lang(de) .sh-header__end { gap: 1.25rem; }
+	:lang(fr) .sh-header, :lang(de) .sh-header { padding: 0 24px; }
+}
 .wp-block-buttons { gap: 12px; margin: 0; }
 
 /* T3: eyebrow + hairline to the right viewport edge + sub-label */
@@ -272,8 +285,9 @@ html.sp-js:not(.sp-no-motion) .sp-parallax .sp-parallax__layer.sh-tiles { scale:
 	.home .sh-header .sh-pill .wp-block-button__link { background: #fff; }
 	.home .sh-hero { height: 956px; }
 	.home .sh-tiles, .home .sh-hero__copy { top: 96px; }
-	.home .sh-tile--h08, .home .sh-tile--h03 { top: -96px; }
-	.home .sh-notice { top: 852px; }
+	.home .sh-tile--h03 { top: -96px; }
+	.home .sh-tile--h08 { top: 8px; }
+	.home .sh-notice { top: 716px; left: 7.8%; right: auto; color: var(--sh-ink); }
 }
 
 /* INNER PAGES: tile-scatter head, title strips, cards, prose, FAQ, contact, journal */
