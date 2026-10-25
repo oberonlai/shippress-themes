@@ -53,3 +53,6 @@ Setup about 10 minutes; 1 tap to close; 5 languages (en, zh-TW, ja, fr, de); 3 s
 
 ## Photography
 High-key bright documentary photographs of independent shops (counter, phone, receipts, owners at work), pale steel blue and white with a hint of blush. No text, logos or readable screens.
+
+## Inner pages (en)
+Features (8 numbered rows), Pricing (full-width table plus 3 included rows), How it works (3 steps), Stories (3 shop owners with portraits), FAQ (12 rows in 3 groups), About, Waitlist (form at /newsletter/), Contact, For accountants, Thanks, Privacy, Terms, News (one article: "Closing the Counter"). Prices match the home page: Starter €0, Shop €9, Shop Plus €19, Multi-store €39, accountant seat €4, receipt scanning €3.
