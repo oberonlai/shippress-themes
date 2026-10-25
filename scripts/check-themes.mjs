@@ -22,7 +22,7 @@ const PAGE_TEMPLATES = {
 // "store": a WooCommerce shop theme (WooCommerce templates + sample products, still works without WooCommerce).
 // Store themes released before the store-block rule (their store block lives only in the App catalogue). Do not add to this list.
 export const STORE_BLOCK_LEGACY = ["amime-takezaiku", "hanayui-kimono", "hibi-wear", "itomaki-yarn", "karan-geta", "michi-motors", "shirokuro-camera", "tsuribito-tackle", "urushi-nuri"];
-export const TYPES = ["portfolio", "business", "blog", "shop", "store", "hospitality", "education", "health", "food-drink", "events", "nonprofit", "media"];
+export const TYPES = ["portfolio", "business", "blog", "shop", "store", "hospitality", "education", "health", "food-drink", "events", "nonprofit", "media", "landing"];
 const CJK = /[\u3040-\u30ff\u3400-\u9fff\uff00-\uffef\u3000-\u303f]/;
 const TEXT = /\.(php|html|json|css|md|txt|js|svg)$/;
 const SECRETS = [
