@@ -10,23 +10,41 @@
 <!-- wp:group {"align":"full","className":"sh-hero sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull sh-hero sp-parallax"><!-- wp:group {"className":"sh-tiles sp-parallax__layer","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-tiles sp-parallax__layer">
-<?php echo shizuka_hearing_img( 'h01', 'sh-tile sh-tile--h01' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-tile sh-tile--h01"} -->
+<figure class="wp-block-image size-full sh-tile sh-tile--h01"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h01.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h01'] ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo shizuka_hearing_img( 'h02', 'sh-tile sh-tile--h02' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-tile sh-tile--h02"} -->
+<figure class="wp-block-image size-full sh-tile sh-tile--h02"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h02.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h02'] ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo shizuka_hearing_img( 'h03', 'sh-tile sh-tile--h03' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-tile sh-tile--h03"} -->
+<figure class="wp-block-image size-full sh-tile sh-tile--h03"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h03.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h03'] ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo shizuka_hearing_img( 'h04', 'sh-tile sh-tile--h04' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-tile sh-tile--h04"} -->
+<figure class="wp-block-image size-full sh-tile sh-tile--h04"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h04.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h04'] ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo shizuka_hearing_img( 'h05', 'sh-tile sh-tile--h05' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-tile sh-tile--h05"} -->
+<figure class="wp-block-image size-full sh-tile sh-tile--h05"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h05.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h05'] ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo shizuka_hearing_img( 'h06', 'sh-tile sh-tile--h06' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-tile sh-tile--h06"} -->
+<figure class="wp-block-image size-full sh-tile sh-tile--h06"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h06.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h06'] ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo shizuka_hearing_img( 'h08', 'sh-tile sh-tile--h08' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-tile sh-tile--h08"} -->
+<figure class="wp-block-image size-full sh-tile sh-tile--h08"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h08.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h08'] ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo shizuka_hearing_img( 'h10', 'sh-tile sh-tile--h10' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-tile sh-tile--h10"} -->
+<figure class="wp-block-image size-full sh-tile sh-tile--h10"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h10.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h10'] ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo shizuka_hearing_img( 'h18', 'sh-tile sh-tile--h18' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-tile sh-tile--h18"} -->
+<figure class="wp-block-image size-full sh-tile sh-tile--h18"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h18.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h18'] ); ?>"/></figure>
+<!-- /wp:image -->
 
 </div>
 <!-- /wp:group -->

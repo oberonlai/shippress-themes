@@ -22,10 +22,14 @@
 <!-- wp:group {"className":"sh-clinic__row sh-inner","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-clinic__row sh-inner"><!-- wp:group {"className":"sh-clinic__figs","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-clinic__figs"><!-- wp:group {"className":"sh-clinic__wipe sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
-<div class="wp-block-group sh-clinic__wipe sp-reveal sp-reveal--wipe"><?php echo shizuka_hearing_img( 'h07', 'sh-clinic__big' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
+<div class="wp-block-group sh-clinic__wipe sp-reveal sp-reveal--wipe"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-clinic__big"} -->
+<figure class="wp-block-image size-full sh-clinic__big"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h07.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h07'] ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<?php echo shizuka_hearing_img( 'h09', 'sh-clinic__small' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-clinic__small"} -->
+<figure class="wp-block-image size-full sh-clinic__small"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h09.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h09'] ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sh-clinic__text","layout":{"type":"default"}} -->

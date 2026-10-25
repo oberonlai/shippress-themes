@@ -16,3 +16,32 @@ Shizuka Hearing opens on a white field of rounded photographs with the statement
 
 = 1.0.0 =
 * Home page and ten inner pages (English), journal listing with one article.
+
+== Copyright ==
+
+Shizuka Hearing is distributed under the terms of the GNU GPL v2 or later.
+
+Fonts: Manrope (OFL-1.1) and Public Sans (OFL-1.1), Latin subsets as WOFF2, and Noto Sans TC and Noto Sans JP (OFL-1.1), subset to the characters of the Traditional Chinese and Japanese sample text; see assets/fonts/.
+
+= Images =
+
+Images: AI-generated for this theme as high-key clinic photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real people or brands; the clinic is fictional). The copy in assets/images/demo/ is the same picture, used by the demo import.
+- assets/images/demo/h12.webp
+- assets/images/h01.webp
+- assets/images/h02.webp
+- assets/images/h03.webp
+- assets/images/h04.webp
+- assets/images/h05.webp
+- assets/images/h06.webp
+- assets/images/h07.webp
+- assets/images/h08.webp
+- assets/images/h09.webp
+- assets/images/h10.webp
+- assets/images/h11.webp
+- assets/images/h12.webp
+- assets/images/h13.webp
+- assets/images/h14.webp
+- assets/images/h15.webp
+- assets/images/h16.webp
+- assets/images/h17.webp
+- assets/images/h18.webp

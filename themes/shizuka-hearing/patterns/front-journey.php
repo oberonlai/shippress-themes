@@ -46,7 +46,9 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
-<div class="wp-block-group sh-card__body"><?php echo shizuka_hearing_img( 'h12', 'sh-card__img' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group sh-card__body"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-card__img"} -->
+<figure class="wp-block-image size-full sh-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h12.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h12'] ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
@@ -73,7 +75,9 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
-<div class="wp-block-group sh-card__body"><?php echo shizuka_hearing_img( 'h11', 'sh-card__img' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group sh-card__body"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-card__img"} -->
+<figure class="wp-block-image size-full sh-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h11.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h11'] ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
@@ -100,7 +104,9 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
-<div class="wp-block-group sh-card__body"><?php echo shizuka_hearing_img( 'h13', 'sh-card__img' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group sh-card__body"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-card__img"} -->
+<figure class="wp-block-image size-full sh-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h13.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h13'] ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->

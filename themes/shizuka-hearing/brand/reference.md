@@ -22,5 +22,5 @@ ms-first.png, ms-hero-settled.png, scroll-ms-1-message-{before,after}.png, scrol
 | Eyebrow + hairline to right edge + sub-label | T3 on every section and every inner page head |
 | Clip-path wipe figure (right pill 52.7 px) + overlapping 40 px TL figure | Home "The clinic" (h07 + h09); Audiologists (h14) |
 | Pill outline buttons 46×170, rotating circle arrow | All CTAs |
-| Colour #FFF/#F2F2F2/#C5D1D5/#49565E/#0086BF | Same hexes; accent only logo dot/focus; card 2 uses row 青鈍 #51676B |
+| Colour #FFF/#F2F2F2/#C5D1D5/#49565E/#0086BF | Same hexes; accent only logo dot/focus; card 2 uses row blue-gray #51676B |
 | Press-release ticker line under hero | Notice line: hours today + Thursday listening evening |

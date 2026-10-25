@@ -22,7 +22,9 @@
 <!-- wp:group {"className":"sh-inner sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-inner sp-stagger">
 <!-- wp:group {"className":"sh-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group sh-story sp-reveal sp-reveal--up"><?php echo shizuka_hearing_img( 'h14', 'sh-story__img' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group sh-story sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-story__img"} -->
+<figure class="wp-block-image size-full sh-story__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h14.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h14'] ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"className":"sh-story__name"} -->
@@ -36,7 +38,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sh-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group sh-story sp-reveal sp-reveal--up"><?php echo shizuka_hearing_img( 'h16', 'sh-story__img' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group sh-story sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-story__img"} -->
+<figure class="wp-block-image size-full sh-story__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h16.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h16'] ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"className":"sh-story__name"} -->
@@ -50,7 +54,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sh-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group sh-story sp-reveal sp-reveal--up"><?php echo shizuka_hearing_img( 'h17', 'sh-story__img' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group sh-story sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sh-story__img"} -->
+<figure class="wp-block-image size-full sh-story__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h17.webp' ) ); ?>" alt="<?php echo esc_attr( shizuka_hearing_alts()['h17'] ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"className":"sh-story__name"} -->

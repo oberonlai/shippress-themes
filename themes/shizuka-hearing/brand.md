@@ -7,6 +7,7 @@ Audiology clinic for adults who strain to follow conversation in noise. All name
 - **Location:** 18 Harbour Lane, Northgate, 2nd floor, lift access (fictional). Currency EUR (€) in every language, no converted prices.
 - **Founded:** 2014 by Dr. Elena Varga.
 - **Hours:** Monday to Friday 9:00–18:00, Thursday until 20:00, Saturday 9:00–13:00. Closed Sunday and public holidays. Open listening evening Thursday 18:30, monthly and free.
+- **Audience:** Adults who strain to follow conversation when the room is not quiet. The clinic's clients are adults, not children.
 - **Voice:** The voice is calm, concrete, and adult, with short sentences, real visit lengths, and prices in euros, as if the coordinator were explaining the day at the desk. It does not boast, does not name a hearing-aid manufacturer, and does not turn one person's story into an expected result for the next.
 
 ## History and practice
