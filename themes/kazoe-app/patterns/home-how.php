@@ -55,8 +55,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:cover {"dimRatio":0,"className":"kz-band sp-parallax","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover kz-band sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Wide city street at dusk lined with illuminated storefronts of small independent shops" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/k09-shop-street.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"className":"kz-band__line"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/k09-shop-street.webp' ) ); ?>","dimRatio":0,"isDark":false,"className":"kz-band sp-parallax","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-light kz-band sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Wide city street at dusk lined with illuminated storefronts of small independent shops" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/k09-shop-street.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"className":"kz-band__line"} -->
 <p class="kz-band__line"><span class="kz-box">Ten minutes tonight. One tap every night after.</span></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->

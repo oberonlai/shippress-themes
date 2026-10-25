@@ -44,9 +44,9 @@ body { padding-bottom: 80px; }
 
 /* ---------- hero (T2) ---------- */
 .kz-hero { margin: 0; padding: 0; }
-.kz-hero__top.sp-parallax { position: relative; min-height: max(400px, calc((100svh - var(--kz-hdr)) * .46)); background: linear-gradient(90deg, #7FA3B5 0%, #7FA3B5 45%, #4F7F99 75%, #2F4B5C 100%); margin: 0; }
-.kz-dither { position: absolute; top: 0; right: 0; bottom: 0; width: 40%; background: radial-gradient(#2F4B5C 1.2px, transparent 1.4px) 0 0 / 3px 3px, radial-gradient(#F4F7F9 .9px, transparent 1.1px) 1.5px 1.5px / 6px 6px; -webkit-mask-image: linear-gradient(90deg, transparent, #000 60%); mask-image: linear-gradient(90deg, transparent, #000 60%); pointer-events: none; }
-.kz-hero__text { position: relative; z-index: 2; padding: 40px 0 0; margin: 0; }
+.kz-hero__top.sp-parallax { position: relative; min-height: max(400px, calc((100svh - var(--kz-hdr)) * .46)); background: linear-gradient(90deg, #7FA3B5 0%, #7FA3B5 55%, #5F8BA3 100%); margin: 0; }
+.kz-dither { position: absolute; top: 0; right: 0; bottom: 0; width: 46%; background: radial-gradient(#2F4B5C 1.25px, transparent 1.45px) 0 0 / 3px 3px, radial-gradient(#F4F7F9 1.2px, transparent 1.4px) 1.5px 1.5px / 6px 6px; -webkit-mask-image: linear-gradient(90deg, transparent, #000 60%); mask-image: linear-gradient(90deg, transparent, #000 60%); pointer-events: none; }
+.kz-hero__text { position: relative; z-index: 2; padding: 0; margin: 0; }
 .kz-hero__title { font-size: clamp(2.5rem, 6.8vw, 6.25rem); font-weight: 700; line-height: 1; letter-spacing: -.01em; margin: 0; }
 .kz-hero__title .kz-box { white-space: nowrap; line-height: 1; }
 .kz-hero__subs { margin: 0; }
@@ -137,7 +137,7 @@ body { padding-bottom: 80px; }
 .kz-btn--line .wp-block-button__link:hover { background: #F4F7F9; }
 
 /* ---------- stories band ---------- */
-.kz-stories { position: relative; padding: var(--kz-sec) var(--kz-gut); background: linear-gradient(90deg, #7FA3B5 0%, #7FA3B5 45%, #4F7F99 75%, #2F4B5C 100%); border-block: 1px solid var(--kz-ink); }
+.kz-stories { position: relative; padding: var(--kz-sec) var(--kz-gut); background: linear-gradient(90deg, #7FA3B5 0%, #7FA3B5 55%, #5F8BA3 100%); border-block: 1px solid var(--kz-ink); }
 .kz-stories::before { content: ""; position: absolute; inset: 0 0 0 60%; background: radial-gradient(#2F4B5C 1.2px, transparent 1.4px) 0 0 / 3px 3px; -webkit-mask-image: linear-gradient(90deg, transparent, #000 70%); mask-image: linear-gradient(90deg, transparent, #000 70%); pointer-events: none; }
 .kz-stories > * { position: relative; }
 .kz-stories .kz-sechead { padding-inline: 0; }
@@ -166,7 +166,7 @@ body { padding-bottom: 80px; }
 
 /* ---------- closing ---------- */
 .kz-closing { margin: 0; border-top: 1px solid var(--kz-ink); }
-.kz-closing__top { background: linear-gradient(90deg, #7FA3B5 0%, #7FA3B5 45%, #4F7F99 75%, #2F4B5C 100%); padding: 48px var(--kz-gut) 0; min-height: 200px; margin: 0; }
+.kz-closing__top { background: linear-gradient(90deg, #7FA3B5 0%, #7FA3B5 55%, #5F8BA3 100%); padding: 48px var(--kz-gut) 0; min-height: 200px; margin: 0; }
 .kz-closing__bottom { background: linear-gradient(180deg, #F1CFC6 0%, #E3DCE0 40%, #CFE0E8 100%); padding: 32px var(--kz-gut) 40px; min-height: 160px; margin: 0; }
 .kz-closing__text { max-width: 640px; margin: 0 0 20px; }
 .kz-h2--onband .kz-box { background: #fff; }
@@ -210,8 +210,9 @@ body { padding-bottom: 80px; }
 	body { padding-bottom: 56px; }
 	.kz-hero__top.sp-parallax { min-height: 340px; padding-bottom: 72px; }
 	.kz-hero__text { padding-top: 24px; }
-	.kz-hero__bottom { min-height: 0; padding: 0; }
-	.kz-hero__photo.sp-parallax { position: relative; right: auto; top: auto; width: 100%; aspect-ratio: 4 / 3; }
+	.kz-hero { min-height: calc(100svh - var(--kz-hdr)); display: flex; flex-direction: column; }
+	.kz-hero__bottom { flex: 1; min-height: 0; padding: 0; display: flex; align-items: stretch; }
+	.kz-hero__photo.sp-parallax { position: relative; right: auto; top: auto; width: 100%; flex: 1 1 auto; min-height: 75vw; }
 	.kz-dither { width: 50%; }
 	.kz-head2 { grid-template-columns: 1fr; row-gap: 24px; }
 	.kz-lead, .kz-sub-lead { font-size: 1.125rem; }

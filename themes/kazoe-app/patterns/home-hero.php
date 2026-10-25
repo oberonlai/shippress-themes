@@ -10,7 +10,11 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kz-hero","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kz-hero"><!-- wp:group {"className":"kz-hero__top sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-group kz-hero__top sp-parallax"><div class="kz-dither sp-parallax__layer" aria-hidden="true"></div><!-- wp:group {"className":"kz-hero__text","layout":{"type":"default"}} -->
+<div class="wp-block-group kz-hero__top sp-parallax"><!-- wp:html -->
+<div class="kz-dither sp-parallax__layer" aria-hidden="true"></div>
+<!-- /wp:html -->
+
+<!-- wp:group {"className":"kz-hero__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kz-hero__text"><!-- wp:heading {"level":1,"className":"kz-hero__title"} -->
 <h1 class="wp-block-heading kz-hero__title"><span class="kz-box">Close the day</span><span class="kz-box">in one tap.</span></h1>
 <!-- /wp:heading -->
