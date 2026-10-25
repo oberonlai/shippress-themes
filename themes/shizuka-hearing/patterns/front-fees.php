@@ -15,7 +15,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-sub"} -->
-<p class="sh-sub">Every fee, before you book</p>
+<p class="sh-sub">Prices in euros</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

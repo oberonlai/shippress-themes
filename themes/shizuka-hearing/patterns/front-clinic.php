@@ -41,7 +41,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-fact__label"} -->
-<p class="sh-fact__label">Founded in 2014</p>
+<p class="sh-fact__label">The year the clinic opened</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
