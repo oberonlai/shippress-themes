@@ -68,6 +68,6 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"us-ulink"} -->
-<p class="us-ulink"><a href="#access">Read learner stories &rsaquo;</a></p>
+<p class="us-ulink"><a href="/stories/">Read learner stories &rsaquo;</a></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

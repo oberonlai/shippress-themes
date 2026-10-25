@@ -72,3 +72,17 @@ Located at 12 Quay Road, Larkfield, our facilities include a 25-metre six-lane m
 ### Umi Swim School
 12 Quay Road, Larkfield. Open Monday to Friday 06:30–21:00, Saturday 08:00–18:00, Sunday 08:00–13:00. Closed public holidays. Dedicated teaching and lane swimming across four ten-week terms each year.
 
+
+## Inner pages (en)
+Every inner page opens with a page head: a blob-masked photo bleeding off the left, the pale water blob overlapping it, label, title and one-line intro. Photos are never repeated on one page; full-width photo bands use `sp-parallax`.
+- **About** (`/about/`): story since 2014, four principles as numbered cards 01–04, parallax pool band, the two pools.
+- **Programmes** (`/programmes/`): vertical title, pill tabs Kids / Adults / Private with arc-top panels, Parent & baby block.
+- **Schedule** (`/timetable/`): pill tabs Mon–Fri / Saturday / Sunday, each slot a numbered card (time, class, pool, coach).
+- **Coaches** (`/coaches/`): seven numbered text cards (since year, role, one sentence).
+- **Fees** (`/fees/`): seven-row price list (price column never clipped), four term dates, policies (siblings 10% off, two make-ups, 14-day cancellation).
+- **First lesson** (`/first-lesson/`): five-step horizontal strip, parallax band, what to bring, how to book.
+- **Stories** (`/stories/`): three full learner stories on numbered cards.
+- **Pool & safety** (`/pool-and-safety/`): facts cards, parallax band, deck supervision and access.
+- **FAQ** (`/faq/`): pill tabs Kids / Adults / Booking with details/summary answers.
+- **Access & contact** (`/access-and-contact/`): address, transport, hours, phone and email placeholders.
+- **News** (`/news/`) and one article, "The Importance of Calm Before Distance in the Water" (oval featured image).

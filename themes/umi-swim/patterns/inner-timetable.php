@@ -94,7 +94,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"us-card__t"} -->
-<h3 class="wp-block-heading us-card__t">Parent &amp;amp; baby water</h3>
+<h3 class="wp-block-heading us-card__t">Parent &amp; baby water</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"us-card__tx"} -->
@@ -170,7 +170,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"us-card__tx"} -->
-<p class="us-card__tx">Main pool, lane 1<br>Priya Nair &amp;amp; Sofia Lindgren</p>
+<p class="us-card__tx">Main pool, lane 1<br>Priya Nair &amp; Sofia Lindgren</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

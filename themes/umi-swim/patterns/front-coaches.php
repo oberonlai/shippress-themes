@@ -106,7 +106,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"us-ulink"} -->
-<p class="us-ulink"><a href="#access">Meet our coaches &rsaquo;</a></p>
+<p class="us-ulink"><a href="/coaches/">Meet our coaches &rsaquo;</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

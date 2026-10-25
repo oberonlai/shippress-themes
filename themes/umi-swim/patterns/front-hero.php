@@ -67,7 +67,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-bar__cta"} -->
-<p class="us-bar__cta"><a href="#access">Book a trial &rarr;</a></p>
+<p class="us-bar__cta"><a href="/first-lesson/">Book a trial &rarr;</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

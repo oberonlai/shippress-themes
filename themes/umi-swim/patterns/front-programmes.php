@@ -77,7 +77,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-ulink"} -->
-<p class="us-ulink"><a href="#fees">Fees &amp; term dates &rsaquo;</a></p>
+<p class="us-ulink"><a href="/fees/">Fees &amp; term dates &rsaquo;</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -125,7 +125,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-ulink"} -->
-<p class="us-ulink"><a href="#fees">Fees &amp; term dates &rsaquo;</a></p>
+<p class="us-ulink"><a href="/fees/">Fees &amp; term dates &rsaquo;</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -171,7 +171,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-ulink"} -->
-<p class="us-ulink"><a href="#fees">Fees &amp; term dates &rsaquo;</a></p>
+<p class="us-ulink"><a href="/fees/">Fees &amp; term dates &rsaquo;</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

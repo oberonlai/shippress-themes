@@ -29,7 +29,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-ulink"} -->
-<p class="us-ulink"><a href="#programmes">About the school &rsaquo;</a></p>
+<p class="us-ulink"><a href="/about/">About the school &rsaquo;</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

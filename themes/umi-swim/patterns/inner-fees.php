@@ -45,7 +45,7 @@
 
 <!-- wp:group {"className":"us-head","layout":{"type":"default"}} -->
 <div class="wp-block-group us-head"><!-- wp:paragraph {"className":"us-label"} -->
-<p class="us-label">Fees</p>
+<p class="us-label">In euros</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"us-h sp-reveal sp-reveal--mask"} -->
@@ -229,7 +229,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-pill us-pill--line"} -->
-<p class="us-pill us-pill--line"><a href="/fees/">See fees</a></p>
+<p class="us-pill us-pill--line"><a href="/timetable/">See timetable</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

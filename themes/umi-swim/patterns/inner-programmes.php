@@ -49,7 +49,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"us-h"} -->
-<h2 class="wp-block-heading us-h">Kids Programmes: Stages 1 to 3<br>and what comes after</h2>
+<h2 class="wp-block-heading us-h">Pick the lesson that<br>fits the way you float</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 

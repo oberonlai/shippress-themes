@@ -96,6 +96,6 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-ulink"} -->
-<p class="us-ulink"><a href="#access">Full fees &amp; term dates &rsaquo;</a></p>
+<p class="us-ulink"><a href="/fees/">Full fees &amp; term dates &rsaquo;</a></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->
