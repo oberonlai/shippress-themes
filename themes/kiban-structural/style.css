@@ -23,7 +23,7 @@ Tags: business, block-patterns, full-site-editing, custom-colors, editor-style, 
 	--kb-dot: #47C94A;
 	--kb-gut: 24px;
 	--kb-col: calc((100vw - 48px) / 8);
-	--kb-sec: 10.875rem;
+	--kb-sec: clamp(5rem, 8vw, 7.5rem);
 	--kb-head: 78px;
 	--kb-ease: cubic-bezier(.18, .06, .23, 1);
 	--kb-display: var(--wp--preset--font-family--display);
@@ -164,9 +164,9 @@ html.sp-no-motion .kb-hero__word > :nth-child(2) { display: none; }
 .kb-fees table { width: 100%; table-layout: auto; border-collapse: collapse; border: 0; }
 .kb-fees td { padding: 1.25rem 1rem 1.25rem 0; border: 0; border-top: 1px solid var(--kb-hair); vertical-align: top; }
 .kb-fees tr:last-child td { border-bottom: 1px solid var(--kb-hair); }
-.kb-fee__n { width: 36%; font-family: var(--kb-display); font-size: 1.125rem; font-weight: 700; line-height: 1.33; }
-.kb-fee__d { font-size: .8125rem; line-height: 1.6; color: var(--kb-mid); }
-td.kb-fee__p { white-space: nowrap; text-align: right; min-width: 9rem; padding-right: 0; font-weight: 600; }
+.kb-fees td:nth-child(1) { width: 36%; font-family: var(--kb-display); font-size: 1.125rem; font-weight: 700; line-height: 1.33; }
+.kb-fees td:nth-child(2) { font-size: .8125rem; line-height: 1.6; color: var(--kb-mid); }
+.kb-fees td:nth-child(3) { white-space: nowrap; text-align: right; min-width: 9rem; padding-right: 0; font-weight: 600; }
 .kb-fees__note { margin-top: 1.25rem; font-size: .8125rem; color: var(--kb-mid); }
 
 /* ---------- 8 team ---------- */
@@ -186,8 +186,8 @@ html:not(.sp-no-motion) .kb-codes.sp-marquee > * { animation-duration: 40s; }
 
 /* ---------- 10 contact: SIGN echo ---------- */
 .kb-sign { display: grid; justify-items: center; padding: var(--kb-sec) var(--kb-gut) 5rem; overflow: clip; }
-.kb-sign__word { grid-area: 1 / 1; align-self: center; font-family: var(--kb-display); font-size: var(--wp--preset--font-size--kv); font-weight: 900; line-height: .85; letter-spacing: .02em; color: var(--kb-ink); }
-.kb-sign__win { grid-area: 1 / 1; align-self: center; position: relative; z-index: 2; width: 34vw; aspect-ratio: 2.33 / 1; border-radius: 999px; overflow: hidden; margin: 0; }
+.kb-sign__word { grid-area: 1 / 1; align-self: center; font-family: var(--kb-display); font-size: clamp(6rem, 19vw, 17rem); font-weight: 900; line-height: .85; letter-spacing: .06em; color: var(--kb-ink); }
+.kb-sign__win { grid-area: 1 / 1; align-self: center; position: relative; z-index: 2; width: 14vw; aspect-ratio: 2.33 / 1; border-radius: 999px; overflow: hidden; margin: 0; }
 .kb-sign__win img { width: 100%; height: 100%; object-fit: cover; }
 .kb-sign__info { grid-row: 2; grid-column: 1; justify-self: stretch; margin-top: 4rem; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 1.5rem; }
 .kb-sign__h { grid-column: 1; grid-row: 1 / span 4; font-size: var(--wp--preset--font-size--x-large); }
@@ -223,13 +223,16 @@ html:not(.sp-no-motion) .kb-codes.sp-marquee > * { animation-duration: 40s; }
 	.kb-sign__win { width: 44vw; }
 }
 @media (max-width: 781px) {
-	:root { --kb-sec: 6.5rem; --kb-head: 64px; }
+	:root { --kb-sec: 4.5rem; --kb-head: 64px; --kb-col: calc((100vw - 48px) / 4); }
 	.kb-header { padding-top: 14px; min-height: var(--kb-head); }
 	.kb-nav .wp-block-navigation__container { display: block; }
 	.kb-nav { margin-right: 0; }
 	.kb-pill-wrap { display: none; }
 	.kb-hero { min-height: 0; padding: 6rem var(--kb-gut) 1.5rem; }
 	.kb-hero__word, .kb-hero__win, .kb-hero__tag, .kb-hero__info { position: static; transform: none; }
+	.kb-hero__word { position: relative; z-index: 1; margin-bottom: -.3em; }
+	.kb-hero__win { position: relative; left: auto; top: auto; }
+	.kb-hero__info { background: #fff; position: relative; z-index: 3; left: auto; right: auto; bottom: auto; padding-top: 12px; }
 	.kb-hero__word { font-size: 6rem; padding-top: .08em; margin: 0 calc(var(--kb-gut) * -1); }
 	.kb-hero__win { width: 88vw; aspect-ratio: 1.9 / 1; margin: 1.5rem auto; }
 	.kb-hero__tag { display: block; font-size: 1.375rem; line-height: 1.3; letter-spacing: .01em; white-space: normal; margin: 0 0 1.5rem; }
@@ -246,11 +249,11 @@ html:not(.sp-no-motion) .kb-codes.sp-marquee > * { animation-duration: 40s; }
 	.kb-fees table, .kb-fees tbody, .kb-fees tr, .kb-fees td { display: block; width: auto; }
 	.kb-fees tr { border-top: 1px solid var(--kb-hair); padding: 1rem 0; }
 	.kb-fees td, .kb-fees tr:last-child td { border: 0; padding: 0 0 .25rem; }
-	.kb-fee__n { width: auto; }
-	td.kb-fee__p { text-align: left; min-width: 0; }
+	.kb-fees td:nth-child(1) { width: auto; }
+	.kb-fees td:nth-child(3) { text-align: left; min-width: 0; }
 	.kb-sign { padding-bottom: 4rem; }
-	.kb-sign__win { width: 70vw; }
-	.kb-sign__word { font-size: 7rem; }
+	.kb-sign__win { width: 34vw; }
+	.kb-sign__word { font-size: 22vw; }
 	.kb-sign__info { display: block; }
 	.kb-person { flex-direction: column; gap: 0; }
 	.kb-person__r { text-align: left; }
