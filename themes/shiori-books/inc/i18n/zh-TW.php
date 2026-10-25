@@ -1,0 +1,130 @@
+<?php
+/** zh-TW strings of the theme's patterns (keys are hashes of the English text). */
+return array(
+	'date_fmt' => 'Y年n月j日',
+	'k04d14442' => '櫃檯筆記',
+	'k059ea65d' => '寫信到 hello@shioribooks.example，或打電話 +44 131 555 0127。店在 Edinburgh，Calder Lane 27 號，EH9 1PQ。週二至週五是 10:00–19:00。週六是 10:00–21:00。週日是 12:00–17:00。週一公休。Ravi Menon 處理訂單與書架訂閱。特別訂購適用於任何仍在印行的書，免費，通常 2–4 個工作天。書到了我們會傳簡訊給你。若你要找的是週四估價，那是免費的，須預約，由 Callum 負責。',
+	'k0ec8e93d' => '回到新書桌',
+	'k1564cba6' => '( 你可以找什麼 )',
+	'k20414e5c' => '( 回到新書桌 )',
+	'k3b7796b1' => '筆記是做什麼用的',
+	'k64f2c69a' => '櫃檯筆記是店裡的短文：裝幀室、包裝、訂閱，以及週六朗讀。',
+	'k6b26cec8' => '回到新書桌 →',
+	'k7c19e025' => '全部櫃檯筆記 →',
+	'k8230d6d8' => '搜尋涵蓋店裡的頁面、有名字的書店員、朗讀會，以及本月列出的書。就算沒有結果，櫃檯仍在，特別訂購是免費的。',
+	'k82703acd' => '這一頁不在架上',
+	'k862b46f5' => '若你需要找人',
+	'k900e2cba' => '搜尋這家店',
+	'k99285499' => '( 筆記是做什麼用的 )',
+	'k9a747720' => '這些是店裡的筆記，不是新聞。它們貼著櫃檯、工作台、包裹，以及後間。',
+	'ka692c6b4' => '搜尋會看過我們有的頁面：商店、新書、週六朗讀、後間、訂閱、櫃檯、書店員、店的故事、來訪頁，以及櫃檯筆記。它能依名稱找到一項服務，依姓名找到一位書店員，依標題找到一場朗讀。',
+	'kaf8aa0d5' => '這個網址不是我們有的頁面。店仍在 Calder Lane 27 號，從新書桌進去最快。',
+	'kbda68e69' => '( 若你需要找人 )',
+	'kc08ea2e5' => '這個網址連不到店網站上的頁面。你想找的那本書、那則筆記，或那個晚上，多半仍在我們確實留著的地方。新書桌每週二更換，Hanna Moreau 買下要擺上去的書。後間放著二手書與珍本，Callum Reid 從 2011 年起收購。週六朗讀完整列出，12 個晚上，19:00 開門。櫃檯列出八項服務，從免費的特別訂購到書脊重裱 £18。若你是循著連結來找座位、訂閱或禮券，那五件事都在商店頁，價格以英鎊標示。',
+	'kc5da358b' => '你可以找什麼',
+	'ke2f88451' => '沒有找到。任何仍在印行的書都可以特別訂購，而且免費。',
+	'search_results' => '「%s」的搜尋結果',
+	// Images (alt text).
+	'alt_hero_front_table'     => '書店員在前桌用素色紙包裝一本精裝書',
+	'alt_hero_evening_shelves' => '傍晚的後間書架，一盞低燈與幾張空椅',
+	'alt_shop_counter_shelves' => '安靜的前間，淺色書架、吊燈與木質櫃檯',
+	'alt_new_shelves_hands'    => '雙手把素面新精裝書封面朝外放上淺色木架',
+	'alt_spines_detail'        => '柔和窗光下，素面布裝書背的特寫',
+	'alt_reading_poetry'       => '黃昏窗邊，一個人朗讀一本薄薄的書',
+	'alt_reading_conversation' => '兩個人隔著小桌交談，桌上放著一本書',
+	'alt_reading_children'     => '孩子們坐在地毯上，朗讀者坐在矮凳上',
+	'alt_reading_chairs'       => '擺滿椅子的後間，朗讀者坐在燈旁',
+	'alt_people_recommend'     => '書店員在書架之間把一本平裝書遞給年長的客人',
+	'alt_shopfront_dusk'       => '黃昏時分，安靜石板街上小書店的櫥窗透出燈光',
+
+	// Entrance.
+	'door_l_aria'   => '走進書店',
+	'door_l_title'  => 'SHIORI BOOKS',
+	'door_l_blurb'  => '位於愛丁堡 Calder Lane 的獨立書店，2011 年開業。前桌是新的小說、詩與散文，後間是二手書與珍本，每一本書都由書店員挑選。',
+	'door_l_label'  => '( EDINBURGH )',
+	'door_r_aria'   => '週六朗讀會',
+	'door_r_title'  => '週六朗讀會',
+	'door_r_blurb'  => '每週六七點半，後間的燈調暗，有人開始朗讀：詩人、譯者，或是我們其中一位。三十個座位，五英鎊，可折抵你帶回家的任何一本書。',
+	'door_r_label'  => '( 週六 19:30 )',
+
+	// The shop in one look.
+	'shop_label'    => '( 書店，自 2011 年 )',
+	'shop_h'        => '慢慢挑書，為我們所在的這條街。',
+	'shelves_h'     => '書架',
+	'shelves'       => '小說|詩|散文|藝術與攝影|建築|料理|旅行與地圖|童書|二手書|珍本',
+	'table_h'       => '前桌上的書',
+	'table'         => '鹽果園|小房間的一年|夜渡輪筆記|河流留下的|製燈人的女兒|安靜街道的野外指南|越過海灣的信|借來的花園|冷光，暖麵包|島嶼小地圖集|看潮人|七個冬天',
+	'info_h'        => '店裡資訊',
+	'hours'         => '週二至週五 10:00–19:00|週六 10:00–21:00|週日 12:00–17:00|週一公休',
+	'visit_link'    => '來訪 →',
+	'shop_p'        => 'Calder Lane 的兩間房之間大約有 9,000 本書。前間放新書和前桌，一週的朗讀改變了 Hanna Moreau 想遞出去的書，她就重新擺一次。後間放二手書與珍本，週六則用來朗讀。每一本書都由店裡的人親自採購，不是從別處寄來的書單。若某本書仍在印行卻不在架上，特別訂購免費，通常二到四個工作天到店。',
+	'panel_title'   => '週六來信',
+	'panel_text'    => '每週一封短信：到了什麼書、週六誰來朗讀，以及一本我們忍不住一直推給人的書。',
+	'panel_email'   => 'letters@shioribooks.example',
+	'panel_cta'     => '寫信給我們',
+	'panel_open'    => '開啟書架訂閱頁面',
+
+	// Passage 01.
+	'new_label'     => '( 01 )',
+	'new_h'         => '新書架',
+	'new_p1'        => 'Hanna Moreau 負責採購新書，而且一次只挑一本。一本小說要留在前桌，得有店裡的人說得出鄰居為什麼該帶它回家。詩和散文若同一週適合，就和小說並排，而不是另設一季。週二早上桌面清空重擺，沒動的書回到書架，這幾天剛到、還裹著素色書衣的書，封面朝外補上。',
+	'new_p2'        => '如果你要的書仍在印行、又不在那十二本之中，請開口問。特別訂購不用錢，由 Ravi Menon 下單，通常二到四個工作天到店，到了我們會傳簡訊給你。你也可以為書架訂閱留一張紙條：三本你愛的書，和一本你不愛的，Hanna 或 Ravi 會從中挑書。',
+	'new_link'      => '本月新書 →',
+
+	// Passage 02: the Saturday reading.
+	'read_label'    => '( 02 )',
+	'read_h'        => '週六朗讀會',
+	'read_p'        => '每週六，後間擺上三十張椅子和一盞低燈。19:00 開門，朗讀從 19:30 到 20:30。Amara Osei 自 2015 年起主持：可能是詩人、譯者、初試啼聲的小說家，或是某位書店員。座位五英鎊，當晚買書可全額折抵。每月第二個週六 11:00，Lucía Ferrer 帶故事時間，免費，給孩子。',
+	// title | with | date | upcoming (1) or past (0)
+	'read_rows'     => "漫長秋日的詩|Elin Sørensen 與來賓|31.10|1\n譯者的書桌|Mireille Dufort，與 Amara Osei|07.11|1\n故事時間：冬天的動物（11:00）|Lucía Ferrer|14.11|1\n第一本小說，朗讀出來|三位初試啼聲的作家|21.11|1\n來自海岸的信|Jonah Price|17.10|0\n走路的書|Sanne de Vries|10.10|0\n食譜晚餐|Paolo Ricci|03.10|0\n二手書一小時|Callum Reid|26.09|0\n黑暗中的短篇小說|Adaeze Nwosu|19.09|0\n地圖與地圖集|Tomasz Wilk|12.09|0\n詩交換|開放之夜|05.09|0\n夏日閱讀，歸還|Hanna Moreau|29.08|0",
+	'read_note'     => '19:00 開門 · 19:30 朗讀 · 30 個座位 · £5',
+	'read_all'      => '完整節目表 →',
+
+	// Passage 03: the people.
+	'ppl_label'     => '( 03 )',
+	'ppl_h'         => '留下來的人',
+	'ppl_p'         => '七個人守著這家店，大多已經待了好幾年。Callum Reid 自 2011 年起管後間，採購二手書與珍本，並坦白說出一本書值多少。Tomasz Wilk 自 2016 年起守著裝幀工作台，裂開的書背可以在那裡重新裱背，約十個工作天。Lucía Ferrer 自 2018 年起打造童書架，故事時間仍坐在矮凳上。週六朗讀會後，幾位常客會留在椅子上，讀完一章，燈才熄滅。',
+	'ppl_names'     => 'Hanna Moreau、Callum Reid、Amara Osei、Tomasz Wilk、Lucía Ferrer、Ravi Menon、Elin Sørensen。',
+	'ppl_ring'      => '留下來的人 · SHIORI BOOKS · ',
+	'ppl_cta1'      => '認識書店員',
+	'ppl_cta2'      => '關於書店',
+
+	// Prices.
+	'cnt_label'     => '( 04 )',
+	'cnt_h'         => '在櫃檯',
+	'cnt_p'         => '所有我們收費的項目都在這張表上，以英鎊計價。特別訂購免費，週四預約的二手書估價也免費。',
+	'cnt_th'        => '服務|包含內容|價格',
+	// service | included | price
+	'cnt_rows'      => "特別訂購|任何仍在印行的書，通常 2–4 個工作天。書到了我們會傳簡訊給你。|免費\n禮品包裝|素色紙與棉繩，每本。|£2\n書架訂閱，按月|每月一本由書店員為你挑選的書。到店領取，或含英國境內郵寄。|£24 / 月\n書架訂閱，三個月禮物|三本書，每月一本，附一張寫上你的話的卡片。|£70\n禮券|一張印刷卡片，可在店內任意消費，沒有期限。|£25\n週六朗讀座位|30 個座位之一。當晚買書可折抵這 £5。|£5\n修書：書背重新裱背|每本，約 10 個工作天，在後間完成。|£18\n二手書估價|週四須預約。我們收購，或告訴你它該去哪裡。|免費",
+	'cnt_foot'      => '價格以英鎊計，各語言皆相同。',
+	'cnt_link'      => '服務項目 →',
+
+	// Journal.
+	'jr_label'      => '( 05 )',
+	'jr_h'          => '櫃檯筆記',
+	'jr_all'        => '全部筆記 →',
+
+	// Visit.
+	'visit_label'   => '( 06 )',
+	'visit_h'       => '進來坐坐吧。',
+	'visit_p'       => '週二至週五 10:00–19:00 營業。週六 10:00–21:00，所以你可以來買書，再留下來聽朗讀。前間無階梯，後間有一級台階和一道坡道。',
+	'visit_title'   => 'Calder Lane 27 號',
+	'visit_address' => 'Edinburgh EH9 1PQ|蘇格蘭',
+	'visit_hours'   => '週二至週五|10:00–19:00|週六|10:00–21:00|週日|12:00–17:00|週一|公休',
+	'visit_phone'   => '+44 131 555 0127',
+	'visit_email'   => 'hello@shioribooks.example',
+	'visit_find'    => '找到我們 →',
+
+	// Header / footer.
+	'menu'          => '選單',
+	'foot_shop_h'   => '商店',
+	'foot_shop'     => '商店|/shop/;新書|/new-books/;二手書|/second-hand/;訂閱|/subscription/;禮券|/shop/',
+	'foot_read_h'   => '朗讀會',
+	'foot_read'     => '節目表|/readings/;故事時間|/readings/;筆記|/journal/',
+	'foot_info_h'   => '店裡資訊',
+	'foot_info'     => '關於|/about/;書店員|/booksellers/;在櫃檯|/services/;來訪|/visit/',
+	'foot_hours_h'  => '營業時間',
+	'foot_addr'     => 'Calder Lane 27 號|Edinburgh EH9 1PQ|蘇格蘭',
+	'foot_copy'     => '© 2026 Shiori Books · 愛丁堡 Calder Lane 27 號',
+	'foot_label'    => '( EDINBURGH )',
+);
