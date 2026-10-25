@@ -1,6 +1,6 @@
 # Umi Swim School: design spec (stage 1, binding for implementation)
 
-Slug `umi-swim`, swimming school for children and adult beginners, type **business** (WooCommerce compatible, not required). Row b11-2: archetype horizontal-strip, hero full-bleed-photo + info bar, nav centred, real documentary photography, palette 薄藍 #6E8CA0, font_direction **sans** (Figtree / Inter Tight, CJK Noto Sans TC / Noto Sans JP 黑體), page_structure **day-schedule**.
+Slug `umi-swim`, swimming school for children and adult beginners, type **business** (WooCommerce compatible, not required). Row b11-2: archetype horizontal-strip, hero full-bleed-photo + info bar, nav centred, real documentary photography, palette pale blue #6E8CA0, font_direction **sans** (Figtree / Inter Tight, CJK Noto Sans TC / Noto Sans JP gothic), page_structure **day-schedule**.
 Main reference: **Welfit** https://welfit-sapporo.com/ (S5-Style, private fitness studio). All numbers below come from `reference-tokens.md` (cited as `tok(a)`…`tok(g)`). We borrow structure, technique, colour relationships and the key-visual concept. We do not copy photos, copy text, logos or the full page layout.
 
 Fixed brand facts (every page, all five languages): **Umi Swim School**, founded **2014**, **12 Quay Road, Larkfield** (fictional, international-neutral). Two pools: **25 m main pool, 6 lanes, 29 °C** and **12 × 6 m teaching pool, 0.9 m deep, 32 °C**. Class sizes: kids max **4** per coach, adults max **5**, private **1:1**. Terms: **4 terms a year, 10 weeks each**. Currency **EUR** in every language (no conversion).
@@ -66,13 +66,13 @@ At least 4 inner pages use each of T1 and T2; T3 on 5 pages.
 - Info bar (row's first_screen `full-bleed-photo-info-bar`): a white pill bar across the hero bottom with ages · water temperature · next term start · "Book a trial" link.
 
 ### (3) KV checklist (all on the home first screen, visible at 1440×900 and 390×844)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our mapping | Position | Motion | Which image |
 |---|---|---|---|---|---|
 | 1 | Blurred interior photo in a big blob bleeding off left | Coach crouched at pool edge, child holding the rail, in `blob-a` mask | left, 54% wide, left −4%, top 150 px (mobile: 92% wide, left −6%) | load: fade + scale 1.05→1 + blur 10→0, 1.2 s | H1 |
 | 2 | Crossfading slides inside the blob | 3 slides in the same mask: H1 → H2 → H3, 6 s each, 1.2 s crossfade, loop | same blob | CSS keyframes, stagger 0.4 s on first entry; stops at H1 under reduced-motion / `?sp-static` / editor | H1, H2, H3 |
 | 3 | Translucent teal→sky blob overlapping the photo's right half | "Water" blob `#D8E8EC→#C2DBDD`, 0.92 opacity, overlapping the photo's right ~35% | left 36%, 60% wide, top 130 px | `sp-parallax` layer, `--sp-par: 8%` (mobile 6%) | (no photo; SVG) |
 | 4 | Italic overline + italic wordmark centred top | "Swim School" overline (Figtree italic 1.5rem, ls .1em) + h1 "Umi" (Figtree italic 400, 4.5rem) centred above the blobs | top centre, 40 px under header | heading fade 1.2 s on load | — |
-| 5 | Vertical 4-line JP lead, top right | Vertical lead, 3 lines (en "Hold the rail. / Float. / Then swim."; zh-TW「先扶著池邊／再浮起來／然後游出去」; ja「プールサイドに手を。／浮かんで。／そして泳ぐ。」; fr/de localised), `writing-mode: vertical-rl`, 20 px / lh 49 px / ls 4 px | top right, x ≈ 1215–1380 at 1440 (right 60 px) — **desktop ≥1024 only**; mobile: horizontal 2-line lead in normal flow under the wordmark | load: clip-path wipe top→bottom + blur 10→0, 1.4 s, stagger 0.2 s, `cubic-bezier(.25,.46,.45,.94)` | — |
+| 5 | Vertical 4-line JP lead, top right | Vertical lead, 3 lines (English "Hold the rail. / Float. / Then swim."; zh-TW, ja, fr and de use the translated lines), `writing-mode: vertical-rl`, 20 px / lh 49 px / ls 4 px | top right, x ≈ 1215–1380 at 1440 (right 60 px) — **desktop ≥1024 only**; mobile: horizontal 2-line lead in normal flow under the wordmark | load: clip-path wipe top→bottom + blur 10→0, 1.4 s, stagger 0.2 s, `cubic-bezier(.25,.46,.45,.94)` | — |
 | 6 | Bottom pill tab / CTA language | Info bar: white pill (radius 9999, height 64), 4 cells split by 1 px vertical rules: "Ages 6 months – adult" · "Teaching pool 32 °C" · "Next term starts 6 January" · pill link "Book a trial →" (ink bg) | hero bottom, centred, width min(1000px, 92%), bottom 40 px. Mobile: white card radius 10 px, 3 rows + full-width pill button, in flow below the photo | fade up 24 px, 0.9 s, delay 1.2 s (load) | — |
 
 Hero is not `sp-reveal`ed; the load animations are plain CSS keyframes gated by `html.sp-js:not(.sp-no-motion)` (no-JS, reduced motion, `?sp-static` and editor show the final state immediately with H1 visible).
@@ -87,7 +87,7 @@ Hero is not `sp-reveal`ed; the load animations are plain CSS keyframes gated by 
 | Blob pale | `#C2DBDD` → `#D8E8EC` | ~15% | tok(a) blob pale, exact |
 | Blob lobe / sky accent | `#78B6D6` | first screen ≤ 3%, page ≤ 5% | tok(a) blob saturated |
 | Ink (text, active tab, dark pill) | `#3C465A` | text | tok(a) --base-color |
-| Muted label / hairline / time labels | `#6E8CA0` | <3% | row hex (薄藍); sits between ink and blob |
+| Muted label / hairline / time labels | `#6E8CA0` | <3% | row hex (pale blue); sits between ink and blob |
 | CTA gradient (header "Book a trial" pill only) | `#4A9FC8 → #E6A0A8` | <0.5% | tok(a) CTA gradient |
 | Footer ground | `#3C465A` with text `#EBF3F3` | bottom only | ink inverted |
 - Contrast: ink on ground 9.0:1; `#6E8CA0` used only for ≥15 px labels on white/ground (3.6:1, labels only, never body).
@@ -96,7 +96,7 @@ Hero is not `sp-reveal`ed; the load animations are plain CSS keyframes gated by 
 
 ## 4. Typography (sans)
 - Latin: **Figtree** (headings, wordmark, italic labels, numbers, nav) and **Inter Tight** (body). Both via theme.json `fontFamilies` + `fontFace` (woff2 in `assets/fonts/`, Figtree 400/400 italic/500, Inter Tight 400/500), so the editor iframe and front end match.
-- CJK fallback (黑體, no Mincho anywhere): heading stack `"Figtree", "Noto Sans TC", "Noto Sans JP", sans-serif`; body `"Inter Tight", "Noto Sans TC", "Noto Sans JP", sans-serif`; `:lang(ja)` puts Noto Sans JP before TC. Noto Sans TC/JP subset woff2 loaded via theme.json fontFace (zh-TW/ja subsets, use the Hokuto/Hada substitute subsetting method). Because style.css will have `:lang(` rules, copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and require it.
+- CJK fallback (gothic sans, no Mincho anywhere): heading stack `"Figtree", "Noto Sans TC", "Noto Sans JP", sans-serif`; body `"Inter Tight", "Noto Sans TC", "Noto Sans JP", sans-serif`; `:lang(ja)` puts Noto Sans JP before TC. Noto Sans TC/JP subset woff2 loaded via theme.json fontFace (zh-TW/ja subsets, use the Hokuto/Hada substitute subsetting method). Because style.css will have `:lang(` rules, copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and require it.
 - Weights: **400 everywhere** (Welfit is all 400, `tok(b)`); 500 only for buttons and table prices.
 - Scale (theme.json presets): small 0.9375rem (15, tabs/buttons) · medium 1rem (16 body, lh 1.7 = 27.2 px, `tok(b)`) · large 1.25rem (20, hero lead/copy, lh 1.7, ls 1px) · x-large 1.625rem (26, h3, lh 50 px ≈1.92, ls 1.3 px) · xx-large clamp(2.25rem, 4vw, 3rem) (h2) · huge clamp(3.5rem, 6vw, **4.5rem**) (hero wordmark, inner page titles) — max ≥ 4.25rem ✔. Vertical section title 7.5rem is a custom size (not a preset).
 - Italic labels: Figtree italic 16 px (nav, section labels), card numbers Figtree italic 30 px — replaces Welfit's Red Hat Display italic.

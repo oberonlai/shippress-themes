@@ -1,5 +1,7 @@
 # Umi Swim School — brand
 
+The name is Umi Swim School. The audience is children from 6 months, parents with babies, and adult beginners, including nervous swimmers.
+
 ## Story
 In 2014, Lena Moreau founded Umi Swim School at 12 Quay Road, Larkfield, following twelve years spent coaching adults who carried deep hesitation and fear of the water. She envisioned a dedicated teaching school where progress was measured by genuine comfort rather than hurried athletic performance, beginning with a calm, purpose-built space designed to ease learners into the pool.
 

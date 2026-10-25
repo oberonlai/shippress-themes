@@ -17,7 +17,7 @@ First-screen saturated share (S>0.35, V>0.3): ≈0.1%; including the blue lower 
 - Header 89px tall, padding 20px 0, inner full-width (1440), bg = page ground (no border), nav items 16px italic Latin separated by 1px vertical rules, pill CTA 160×40.
 - Section padding: 90/50/100/180px top × 40–180px bottom (u-pt--90 etc, ×2 on desktop → 180px); container `l-section__body__inner` max-width 1000px; concept row 450 + 550 cols; card gap ≈80px; mv height 720.
 ## (d) Radius / border / shadow
-- Cards: radius 10px, white, soft diffuse shadow (very light, ~0 8px 32px rgba(60,70,90,.08)); tab list and buttons radius 9999px; images in cards radius 9999px (portrait 280×360 oval/egg shape); large panel top radius ~200px (arc top, white); borders 1px #3C465A only on small outlined buttons ("店舗紹介" underline 1px).
+- Cards: radius 10px, white, soft diffuse shadow (very light, ~0 8px 32px rgba(60,70,90,.08)); tab list and buttons radius 9999px; images in cards radius 9999px (portrait 280×360 oval/egg shape); large panel top radius ~200px (arc top, white); borders 1px #3C465A only on small outlined buttons ("Shop introduction" underline 1px).
 ## (e) Imagery
 - **IMAGERY = photo.** Real documentary photography of staff/treatment rooms, bright, high-key, natural light, slightly desaturated warm interior. Photos are always masked into soft shapes: hero slides in organic "blob" shapes (aspect ~1.4:1, ≈ 780×620 at left, bleeding off left edge), crossfading with a blurred (10px) 1.05-scale start; card portraits oval 280×360 (7:9) radius 9999px, left third of 1000px card (≈28% of width); wide concept photo ~16:9 with ±5% vertical parallax; overlap: pale blob shape layered over the photo's right half (translucent, gradient).
 ## (f) Decoration

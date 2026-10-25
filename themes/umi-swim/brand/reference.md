@@ -9,7 +9,7 @@ Screenshots: brand/ref/welfit-first.png, welfit-mid1.png, welfit-mid2.png, scrol
 5. Hero entrance: blur-to-sharp crossfading photos.
 ## Palette
 ground #EBF3F3 ~65% · white ~20% · pale blob #C2DBDD ~15–20% · saturated #78B6D6 <5% · ink #3C465A. | Ours: row hex #6E8CA0.
-## Product mapping (成品對應) — see design-spec.md
+## Product mapping — see design-spec.md
 | reference element | our implementation |
 |---|---|
 | Hero blob photo bleeding off left (blurred interior) | Hero blob-a mask, 54% wide, left −4%: H1 coach at pool edge + child holding rail; crossfade H1→H2→H3 (T1, KV #1–2) |
