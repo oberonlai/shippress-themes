@@ -60,7 +60,7 @@ Same white grid sheet. The stadium window holds a low-key photograph of a struct
 ## 3. Home page
 
 ### First screen (1440×900) — composition
-- Header (overlay, transparent, `position: absolute` over hero, height 78px, 24px gutters): left logo "KIBAN STRUCTURAL" Albert Sans 900 1.5rem/1 ink; under it lang switch `EN  中文  日本語  FR  DE` 13px (current ink, others #6A6A68). Centre-right: nav links 13px/1.5 in two columns of three (About, Services, Process / Projects, Fees, Contact). Far right: Contact pill (#0D0D0D, white text, 16px radius, 24px height, padding 0 14px, 6px green dot before). Mobile: logo + Menu pill (1px #0D0D0D outline) that opens the core navigation overlay — still only one menu.
+- Header (overlay, transparent, `position: absolute` over hero, height 78px, 24px gutters): left logo "KIBAN STRUCTURAL" Albert Sans 900 1.5rem/1 ink; under it lang switch `EN  ZH  JA  FR  DE` 13px (current ink, others #6A6A68). Centre-right: nav links 13px/1.5 in two columns of three (About, Services, Process / Projects, Fees, Contact). Far right: Contact pill (#0D0D0D, white text, 16px radius, 24px height, padding 0 14px, 6px green dot before). Mobile: logo + Menu pill (1px #0D0D0D outline) that opens the core navigation overlay — still only one menu.
 - Body: grid layer; wordmark track (T1) centred at y≈50%; stadium window over it; tagline at y≈88%; info bar at the bottom: `Est. 2009` · `14 Harbour Row, Calder Quay` · `Structural design · Independent checking · Site review` left (13px #0D0D0D, separated by 2.5rem), `Scroll ↓` right.
 - Saturated share target ≤3% (ceiling 15% by script, row ceiling 30%). Only saturated pixels: green dot(s) and the photo's small marker cap.
 - Mobile 390×844: header 64px; wordmark track in flow at top (6rem, cropped, no overlap with any text); window 88vw wide, aspect 1.9:1, radius 999px; tagline as normal paragraph 1.375rem/1.3, left aligned, letter-spacing .01em (no spread); info bar stacked 3 lines; no vertical text, no absolutely positioned labels over text.
@@ -115,7 +115,7 @@ All use the inner page header (§1 continuation) with their own photo; no photo 
 |---|---|---|---|---|
 | ground | #FFFFFF | **#FFFFFF** (same) | ≈65% | page, header |
 | ink | #000000 | **#0D0D0D** (+5% L) | ≈7% | wordmark, headings, body, Contact pill |
-| mid (row 鈍色) | photo greys #8C8F8D | **#6A6A68** (row hex; -10% L of photo grey, chosen for 5.5:1 text contrast) | <2% UI | meta text, stage numbers, inactive lang |
+| mid (row dull grey) | photo greys #8C8F8D | **#6A6A68** (row hex; -10% L of photo grey, chosen for 5.5:1 text contrast) | <2% UI | meta text, stage numbers, inactive lang |
 | light | #C9D0D2 | **#C9D0D2** (same) | — | borders on dark, disabled |
 | card tint | #F7F6F6→#EFEDED | **same** | — | tilted cards, table header row |
 | hairline | rgba(0,0,0,.10) | **rgba(13,13,13,.10)** | — | grid, rules |
@@ -125,7 +125,7 @@ Photos ≈20–25% of first screen, low-key cool greys. First-screen saturated s
 
 ## 6. Type (`tok(b)`; font_direction sans)
 - Latin display: **Albert Sans** (700, 900; 300 for big numbers). Latin body/UI: **Instrument Sans** (400, 500, 600).
-- Stacks: heading `"Albert Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; body `"Instrument Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; `:lang(ja)` puts Noto Sans JP before TC. CJK = Noto Sans TC / JP (黑體) for headings and body, **no Mincho/明體 anywhere**.
+- Stacks: heading `"Albert Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; body `"Instrument Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; `:lang(ja)` puts Noto Sans JP before TC. CJK = Noto Sans TC / JP (gothic / sans) for headings and body, **no Mincho / serif anywhere**.
 - Load all through theme.json `fontFamilies` + `fontFace` (woff2 in assets/fonts, incl. zh-TW and ja subsets via the Hokuto/Hada workaround); copy shared/inc/editor-lang.php to inc/ and require it if style.css has `:lang(`. Editor and front end must render the same faces.
 - Sizes (theme.json slugs): `kv` clamp(6rem,17.4vw,15.625rem) (250px, wordmark) · `display` clamp(4.5rem,13vw,11rem) (inner word) · `xx-large` 3.5rem (band lines, 56px) · `x-large` 2.5rem (H2, 40px) · `large` 1.5625rem (tagline 25px) · `medium` 1.5rem (H3 24px, lh 1.33) · `base` 1rem (16/24, lh 1.5) · `small` 0.8125rem (13px/1.6, ls .02em). Max ≥4.25rem ✓.
 - Weights: wordmark 900; H1–H3 700; body 400; labels 600. Mixed case headings (only wordmark/inner word uppercase).

@@ -27,7 +27,7 @@ GNU General Public License for more details.
 == Resources ==
 
 = Fonts =
-Albert Sans and Instrument Sans, both SIL Open Font License 1.1, Latin WOFF2 bundled in assets/fonts.
+Albert Sans and Instrument Sans, both SIL Open Font License 1.1, Latin WOFF2 bundled in assets/fonts. Noto Sans TC and Noto Sans JP, both SIL Open Font License 1.1, subset WOFF2 bundled in assets/fonts for Traditional Chinese and Japanese headings.
 
 = Scripts and styles =
 assets/sp-scroll.css and assets/sp-scroll.js (scroll reveal and parallax, no library), GPL-2.0-or-later, written for ShipPress themes.
@@ -46,6 +46,13 @@ assets/images/kb-site-survey.webp: generated with Grok for this theme, GPL-2.0-o
 assets/images/kb-studio-model.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/demo/kb-studio-model.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/kb-team-studio.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/kb-crack-inspection.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/kb-crack-inspection.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/kb-desk-model.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/kb-meeting-architects.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/kb-steel-connection.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/kb-studio-entrance.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/kb-survey-laser.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 
 == Changelog ==
 = 1.0.0 =
