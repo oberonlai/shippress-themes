@@ -1,5 +1,5 @@
 {
- "_comment": "Sample content for the demo import (inc/demo-import.php), en. Stage 1: home page only; the other languages and inner pages come in stage 2.",
+ "_comment": "Sample content for the demo import (inc/demo-import.php), en. Inner pages use the page-inner template and inner-* patterns.",
  "site": {
   "title": "Umi Swim School",
   "tagline": "Swimming lessons for children and adult beginners at 12 Quay Road, Larkfield, since 2014."
@@ -10,6 +10,72 @@
    "title": "Home",
    "role": "front",
    "content": "<!-- wp:pattern {\"slug\":\"umi-swim/front-hero\"} /-->\n\n<!-- wp:pattern {\"slug\":\"umi-swim/front-concept\"} /-->\n\n<!-- wp:pattern {\"slug\":\"umi-swim/front-schedule\"} /-->\n\n<!-- wp:pattern {\"slug\":\"umi-swim/front-programmes\"} /-->\n\n<!-- wp:pattern {\"slug\":\"umi-swim/front-coaches\"} /-->\n\n<!-- wp:pattern {\"slug\":\"umi-swim/front-stories\"} /-->\n\n<!-- wp:pattern {\"slug\":\"umi-swim/front-fees\"} /-->\n\n<!-- wp:pattern {\"slug\":\"umi-swim/front-access\"} /-->"
+  },
+  {
+   "slug": "about",
+   "title": "About Umi Swim School",
+   "template": "page-inner",
+   "content": "<!-- wp:pattern {\"slug\":\"umi-swim/inner-about\"} /-->"
+  },
+  {
+   "slug": "programmes",
+   "title": "Swimming Programmes",
+   "template": "page-inner",
+   "content": "<!-- wp:pattern {\"slug\":\"umi-swim/inner-programmes\"} /-->"
+  },
+  {
+   "slug": "timetable",
+   "title": "Weekly Schedule",
+   "template": "page-inner",
+   "content": "<!-- wp:pattern {\"slug\":\"umi-swim/inner-timetable\"} /-->"
+  },
+  {
+   "slug": "coaches",
+   "title": "Our Coaching Team",
+   "template": "page-inner",
+   "content": "<!-- wp:pattern {\"slug\":\"umi-swim/inner-coaches\"} /-->"
+  },
+  {
+   "slug": "fees",
+   "title": "Fees and Term Dates",
+   "template": "page-inner",
+   "content": "<!-- wp:pattern {\"slug\":\"umi-swim/inner-fees\"} /-->"
+  },
+  {
+   "slug": "first-lesson",
+   "title": "Your First Lesson",
+   "template": "page-inner",
+   "content": "<!-- wp:pattern {\"slug\":\"umi-swim/inner-first-lesson\"} /-->"
+  },
+  {
+   "slug": "stories",
+   "title": "Learner Stories",
+   "template": "page-inner",
+   "content": "<!-- wp:pattern {\"slug\":\"umi-swim/inner-stories\"} /-->"
+  },
+  {
+   "slug": "pool-and-safety",
+   "title": "Pool Facilities and Safety",
+   "template": "page-inner",
+   "content": "<!-- wp:pattern {\"slug\":\"umi-swim/inner-pool-and-safety\"} /-->"
+  },
+  {
+   "slug": "faq",
+   "title": "Frequently Asked Questions",
+   "template": "page-inner",
+   "content": "<!-- wp:pattern {\"slug\":\"umi-swim/inner-faq\"} /-->"
+  },
+  {
+   "slug": "access-and-contact",
+   "title": "Access and Contact",
+   "template": "page-inner",
+   "content": "<!-- wp:pattern {\"slug\":\"umi-swim/inner-access-and-contact\"} /-->"
+  },
+  {
+   "slug": "news",
+   "title": "News",
+   "role": "posts",
+   "content": ""
   }
  ],
  "navigation": {
@@ -17,39 +83,89 @@
   "items": [
    {
     "label": "About",
-    "url": "/#schedule"
+    "page": "about"
    },
    {
     "label": "Programmes",
-    "url": "/#programmes"
+    "page": "programmes"
    },
    {
     "label": "Schedule",
-    "url": "/#schedule"
+    "page": "timetable"
    },
    {
     "label": "Coaches",
-    "url": "/#coaches"
+    "page": "coaches"
    },
    {
     "label": "Fees",
-    "url": "/#fees"
+    "page": "fees"
    },
    {
     "label": "Stories",
-    "url": "/#stories"
+    "page": "stories"
    },
    {
     "label": "Access",
-    "url": "/#access"
+    "page": "access-and-contact"
+   },
+   {
+    "label": "News",
+    "page": "news"
    }
   ]
  },
- "links": {},
- "categories": [],
- "tags": [],
- "posts": [],
+ "links": {
+  "/#schedule": "/timetable/",
+  "/#programmes": "/programmes/",
+  "/#coaches": "/coaches/",
+  "/#fees": "/fees/",
+  "/#stories": "/stories/",
+  "/#access": "/access-and-contact/"
+ },
+ "categories": [
+  {
+   "slug": "learning",
+   "name": "Learning",
+   "description": "Teaching notes from the pool edge."
+  }
+ ],
+ "tags": [
+  {
+   "slug": "first-lessons",
+   "name": "First lessons",
+   "description": "Starting out."
+  }
+ ],
+ "posts": [
+  {
+   "slug": "calm-before-distance",
+   "title": "The Importance of Calm Before Distance in the Water",
+   "date": "2026-10-14",
+   "categories": [
+    "learning"
+   ],
+   "tags": [
+    "first-lessons"
+   ],
+   "image": "assets/images/s2.webp",
+   "excerpt": "Learning to swim begins not with strokes or stamina, but by finding stillness and trust at the pool edge.",
+   "content": "<!-- wp:paragraph -->\n<p>When adults or young children approach a swimming pool for the first time, the greatest barrier is rarely physical strength. More often, it is sensory overload: the echo of the hall, the cool air, and the unfamiliar sensation of feet losing contact with solid ground. At Umi Swim School, founded by Lena Moreau in 2014 at 12 Quay Road in Larkfield, our teaching begins from an entirely different premise. Having spent twelve years coaching nervous swimmers before opening the school, Lena recognized that tension in the water cannot be overcome by forceful repetition. We believe that before anyone can swim a lane, they must first feel calm standing at the pool edge.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Most conventional swim programmes rush learners directly into kicking drills, lap counting, and mechanical stroke rotations. When a swimmer is anxious, however, their shoulders rise toward their ears, breathing becomes shallow, and the torso becomes rigid. In that state of tension, natural floating is nearly impossible. Our method deliberately reverses this sequence. Swimmers begin in our 12 by 6 metre teaching pool, maintained at a warm 32 °C with a reassuring, uniform depth of 0.9 metres. In water that warm and shallow, the nervous system relaxes quickly. There are no sudden drop-offs, and learners can stand flat-footed on the pool floor whenever they need reassurance.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>In our adult beginner sessions, guided by coach Priya Nair and Sofia Lindgren, the first milestone is simply resting hands on the poolside rail and allowing the water to support the chest. Swimmers practice rhythmic exhales into the water, watching bubbles rise to the surface without gasping or holding their breath. Once natural breathing is established, we introduce horizontal balance and relaxed glides. With small classes capped strictly at five adults per coach, nobody is left behind, hurried along, or made to feel self-conscious. Swimmers discover firsthand that water is naturally buoyant when they stop fighting against it.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>The same gentle philosophy shapes our children's classes, led by Tomás Ribeiro for ages 4 to 12. With a strict ratio of just four pupils to one instructor, each child receives close, attentive guidance. Rather than asking a nervous child to kick across the pool immediately, coaches support their backs during the very first float. Children learn to trust their balance while holding a kick board and blowing bubbles at the surface. Step by step, unassisted propulsion follows balance naturally, without anxiety or fear.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Progression at Umi is steady, thoughtful, and documented. Across our four ten-week terms each year, starting in January, April, July, and October, learners advance through clear stages at their own unhurried pace. A child who began the term clutching the rail eventually glides unassisted across the teaching pool. An adult who once feared the water learns to push off the wall with confidence, transitioning comfortably into lane 1 of our 25 metre main pool at 29 °C. At the end of every term, each swimmer receives a personal progress card that celebrates milestones achieved.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Swimming is not a test of endurance or a race against others. It is a quiet dialogue between your body and the water. By prioritizing warmth, small group sizes, and patient guidance from the pool edge, every swimmer can discover genuine comfort and skill that last a lifetime.</p>\n<!-- /wp:paragraph -->"
+  }
+ ],
  "screens": {
-  "home": "/"
+  "home": "/",
+  "about": "/about/",
+  "programmes": "/programmes/",
+  "timetable": "/timetable/",
+  "coaches": "/coaches/",
+  "fees": "/fees/",
+  "first-lesson": "/first-lesson/",
+  "stories": "/stories/",
+  "pool": "/pool-and-safety/",
+  "faq": "/faq/",
+  "access": "/access-and-contact/",
+  "news": "/news/",
+  "article": "/calm-before-distance/"
  }
 }
