@@ -8,8 +8,8 @@
  * Description: Steel-blue dither band with three white boxed story cards, each with a square portrait.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","anchor":"stories","className":"kz-stories sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
-<section id="stories" class="wp-block-group alignfull kz-stories sp-reveal sp-reveal--wipe"><!-- wp:group {"className":"kz-sechead","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","align":"full","anchor":"stories","className":"kz-stories sp-reveal sp-reveal--mask","layout":{"type":"default"}} -->
+<section id="stories" class="wp-block-group alignfull kz-stories sp-reveal sp-reveal--mask"><!-- wp:group {"className":"kz-sechead","layout":{"type":"default"}} -->
 <div class="wp-block-group kz-sechead"><!-- wp:heading {"level":2,"className":"kz-h2 kz-h2--onband"} -->
 <h2 class="wp-block-heading kz-h2 kz-h2--onband"><span class="kz-box">How shop owners</span><span class="kz-box">close their days</span></h2>
 <!-- /wp:heading --></div>
@@ -62,7 +62,7 @@
 <!-- wp:group {"anchor":"waitlist","className":"kz-story-cta","layout":{"type":"default"}} -->
 <div id="waitlist" class="wp-block-group kz-story-cta"><!-- wp:buttons {"className":"kz-inline-cta"} -->
 <div class="wp-block-buttons kz-inline-cta"><!-- wp:button {"className":"kz-btn kz-btn--line"} -->
-<div class="wp-block-button kz-btn kz-btn--line"><a class="wp-block-button__link wp-element-button" href="#waitlist">Join the waitlist</a></div>
+<div class="wp-block-button kz-btn kz-btn--line"><a class="wp-block-button__link wp-element-button" href="/newsletter/">Join the waitlist</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>

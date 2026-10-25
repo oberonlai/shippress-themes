@@ -11,7 +11,7 @@ Values only; no assets copied.
 | accent peach (top of bottom gradient) | ≈#F8B4AC | ~8% |
 Saturated pixels (s>0.5, v>0.4) = 25.5% of first screen. Ours must be ≤15%: swap cyan for #7FA3B5 steel-blue.
 ## (b) Type
-Family MFW-PGothic (JP gothic), sans fallback. Body 16px / 400 / lh 30.4px (1.9) / ls 0.32px (0.02em). Hero line 110px / 700 / lh 110px (1.0). Hero sub-lines 16px/700 in white label boxes. H2 36px / 400 / lh 54px (1.5). Issue item head ~48px/700 lh 73px in numbered rows. Nav 14px/400 lh 21px. Statement 24px / lh 40.8px. Latin display (Company Deck, "SmartHR が…") wide geometric sans. No uppercase transform.
+Family MFW-PGothic (JP gothic), sans fallback. Body 16px / 400 / lh 30.4px (1.9) / ls 0.32px (0.02em). Hero line 110px / 700 / lh 110px (1.0). Hero sub-lines 16px/700 in white label boxes. H2 36px / 400 / lh 54px (1.5). Issue item head ~48px/700 lh 73px in numbered rows. Nav 14px/400 lh 21px. Statement 24px / lh 40.8px. Latin display (Company Deck, "SmartHR (JP copy)") wide geometric sans. No uppercase transform.
 ## (c) Spacing
 Header 80px high; full-width layout, 30px page gutter, no max-width container (content spans 1440). Section vertical padding ≈ 120–160px. Two-column heads: title left (≈520px) + 24px lead paragraph from x≈587. Cards 2-up 720px each with 1px divider.
 ## (d) Radius / border / shadow

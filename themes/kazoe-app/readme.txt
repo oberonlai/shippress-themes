@@ -43,6 +43,9 @@ Images (generated for this theme with an AI image model, ShipPress, licensed GPL
 - assets/images/k07-florist.webp
 - assets/images/k08-bike-repair.webp
 - assets/images/k09-shop-street.webp
+- assets/images/demo/k01-closing-till.webp
+- assets/images/demo/k03-receipt-photo.webp
+- assets/images/demo/k05-accountant-laptop.webp
 - assets/images/k10-rafael.webp
 - assets/images/k11-meiling.webp
 - assets/images/k12-yusuf.webp

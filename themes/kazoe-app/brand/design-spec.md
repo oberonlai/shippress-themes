@@ -141,7 +141,7 @@ Home photo positions: K01, K02–K05, K06–K08, K09, K10–K12 = **12** (≥8).
 Why swapped from cyan: row hex is steel blue and the first-screen saturation cap is 15% (ref measured 25.5%). Contrast is preserved by keeping the deep end `#2F4B5C` and ink 1px boxes — **do not lighten** the top band. First-screen saturated share target ≤ 12% (none of these exceed HSV s 0.5 at v>0.4; check with scripts/check-first-screen.py, limit 15%).
 
 ## 6. Type (font_direction = sans)
-- Latin headings: **Plus Jakarta Sans** 700/800. Latin body: **Noto Sans** 400/700. CJK: **Noto Sans TC** (zh-TW), **Noto Sans JP** (ja), 黑體 only, never Serif.
+- Latin headings: **Plus Jakarta Sans** 700/800. Latin body: **Noto Sans** 400/700. CJK: **Noto Sans TC** (zh-TW), **Noto Sans JP** (ja), sans-serif (gothic) only, never Serif.
 - Stacks: heading `"Plus Jakarta Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; body `"Noto Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; `:lang(zh-TW)` puts Noto Sans TC first, `:lang(ja)` Noto Sans JP first.
 - Load all via **theme.json fontFamilies + fontFace** (woff2 in assets/fonts, including zh-TW and ja subsets per Hokuto/Hada method); editor and front end identical; since style.css uses `:lang(`, copy shared/inc/editor-lang.php and require it.
 - Scale (theme.json presets): small 0.875rem, medium 1rem (body, lh 1.9, ls 0.02em — tok b), large 1.5rem (lead, lh 1.7), x-large 2.25rem (H2 non-boxed, 400, lh 1.5 — tok b 36/54), xx-large 3rem (boxed section heads), **xxx-large 6.25rem** (hero; ≥4.25rem). Nav 0.875rem/400. CJK sizes ×0.75 for display, body lh 1.85. fr/de `hyphens:auto`.

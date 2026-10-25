@@ -9,8 +9,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","anchor":"why","className":"kz-lead-sec","layout":{"type":"default"}} -->
-<section id="why" class="wp-block-group alignfull kz-lead-sec"><!-- wp:group {"className":"kz-head2 sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
-<div class="wp-block-group kz-head2 sp-reveal sp-reveal--wipe"><!-- wp:heading {"level":2,"className":"kz-h2"} -->
+<section id="why" class="wp-block-group alignfull kz-lead-sec"><!-- wp:group {"className":"kz-head2 sp-reveal sp-reveal--mask","layout":{"type":"default"}} -->
+<div class="wp-block-group kz-head2 sp-reveal sp-reveal--mask"><!-- wp:heading {"level":2,"className":"kz-h2"} -->
 <h2 class="wp-block-heading kz-h2"><span class="kz-box">Bookkeeping designed</span><span class="kz-box">for shop counters</span></h2>
 <!-- /wp:heading -->
 

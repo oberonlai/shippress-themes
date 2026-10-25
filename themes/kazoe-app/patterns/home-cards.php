@@ -17,8 +17,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"kz-cards sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
-<div class="wp-block-group kz-cards sp-reveal sp-reveal--wipe"><!-- wp:group {"className":"kz-card","layout":{"type":"default"}} -->
+<!-- wp:group {"className":"kz-cards sp-reveal sp-reveal--mask","layout":{"type":"default"}} -->
+<div class="wp-block-group kz-cards sp-reveal sp-reveal--mask"><!-- wp:group {"className":"kz-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kz-card"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kz-card__photo"} -->
 <figure class="wp-block-image size-full kz-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/k06-cafe-counter.webp' ) ); ?>" alt="Bright coffee shop counter displaying fresh pastries with a barista working behind it"/></figure>
 <!-- /wp:image -->

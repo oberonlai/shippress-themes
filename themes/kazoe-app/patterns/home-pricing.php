@@ -9,8 +9,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","anchor":"pricing","className":"kz-pricing","layout":{"type":"default"}} -->
-<section id="pricing" class="wp-block-group alignfull kz-pricing"><!-- wp:group {"className":"kz-sechead sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
-<div class="wp-block-group kz-sechead sp-reveal sp-reveal--wipe"><!-- wp:heading {"level":2,"className":"kz-h2"} -->
+<section id="pricing" class="wp-block-group alignfull kz-pricing"><!-- wp:group {"className":"kz-sechead sp-reveal sp-reveal--mask","layout":{"type":"default"}} -->
+<div class="wp-block-group kz-sechead sp-reveal sp-reveal--mask"><!-- wp:heading {"level":2,"className":"kz-h2"} -->
 <h2 class="wp-block-heading kz-h2"><span class="kz-box">Simple monthly plans</span><span class="kz-box">with no hidden costs</span></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->

@@ -19,7 +19,7 @@
 
 <!-- wp:buttons {"className":"kz-fixed__btns"} -->
 <div class="wp-block-buttons kz-fixed__btns"><!-- wp:button {"className":"kz-fixed__wl"} -->
-<div class="wp-block-button kz-fixed__wl"><a class="wp-block-button__link wp-element-button" href="/#waitlist">Join the waitlist</a></div>
+<div class="wp-block-button kz-fixed__wl"><a class="wp-block-button__link wp-element-button" href="/newsletter/">Join the waitlist</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"kz-fixed__go"} -->

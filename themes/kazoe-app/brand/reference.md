@@ -7,8 +7,8 @@ Source: https://recruit.smarthr.co.jp/ (S5-Style "Good Web Design", listing 1208
 4. Halftone dot-dither edge + dot-mask left→right reveal.
 Palette: ink #23221F, base #FFF, primary #00C4CC, deep #1A1A9A, sky #8CD2EE, peach #F8B4AC. See reference-tokens.md.
 ## Screens: ref/smarthr-first.png, smarthr-s0..s3.png, scroll-before/mid/after.png
-## 成品對應
-| 參考手法 | 成品對應 |
+## Mapping to the finished theme
+| Reference technique | In the theme |
 |---|---|
 | Stepped white label-box H1 (110px, 1px ink border, flush left) | T1: hero "Close the day / in one tap." 6.25rem boxes; all section heads and inner page heads boxed (design-spec §1) |
 | Top/bottom halves first view, cyan→deep-blue gradient + 3px dither, peach→sky lower half | T2: #7FA3B5→#2F4B5C dither band (46vh) over #F1CFC6→#CFE0E8 band holding photo K01; halves head on all inner pages |

@@ -24,7 +24,7 @@
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"kz-btn kz-btn--line"} -->
-<div class="wp-block-button kz-btn kz-btn--line"><a class="wp-block-button__link wp-element-button" href="#waitlist">Join the waitlist</a></div>
+<div class="wp-block-button kz-btn kz-btn--line"><a class="wp-block-button__link wp-element-button" href="/newsletter/">Join the waitlist</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>
