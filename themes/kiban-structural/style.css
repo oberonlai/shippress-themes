@@ -40,6 +40,16 @@ body { -webkit-font-smoothing: antialiased; }
 a { text-decoration: none; text-underline-offset: .2em; }
 a:hover { text-decoration: underline; }
 :is(:lang(fr), :lang(de)) :is(p, h2, h3, li) { hyphens: auto; overflow-wrap: break-word; }
+
+/* Languages: Chinese and Japanese use a bundled Noto Sans subset (CJK characters only; Latin and figures stay in Albert Sans / Instrument Sans) */
+:root:lang(zh) { --wp--preset--font-family--display: "Albert Sans", "Noto Sans TC", "Noto Sans CJK TC", system-ui, sans-serif; --wp--preset--font-family--body: "Instrument Sans", "Noto Sans TC", "Noto Sans CJK TC", system-ui, sans-serif; }
+:root:lang(ja) { --wp--preset--font-family--display: "Albert Sans", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif; --wp--preset--font-family--body: "Instrument Sans", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif; }
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; word-break: normal; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: .04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) .kb-label { letter-spacing: .1em; }
+:is(:lang(zh), :lang(ja)) :is(.kb-hero__tag, .kb-ihero__t) { font-size: calc(var(--wp--preset--font-size--large) * .8); }
+:is(:lang(zh), :lang(ja)) :is(.kb-pagetitle, .kb-fees td:nth-child(1)) { font-weight: 700; }
 .kb-main { display: block; }
 .kb-label { font-family: var(--kb-sans); font-size: .8125rem; font-weight: 600; line-height: 1.6; letter-spacing: .02em; margin-bottom: 1.25rem; }
 .kb-label--white { color: #fff; }
