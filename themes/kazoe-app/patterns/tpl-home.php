@@ -1,0 +1,34 @@
+<?php
+/**
+ * Title: Template: home
+ * Slug: kazoe-app/tpl-home
+ * Categories: kazoe-app
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"kz-main kz-main--inner","layout":{"type":"default"}} -->
+<main class="wp-block-group kz-main kz-main--inner"><!-- wp:group {"className":"kz-pagehead","layout":{"type":"default"}} -->
+<div class="wp-block-group kz-pagehead"><!-- wp:heading {"level":1,"className":"kz-h1"} -->
+<h1 class="wp-block-heading kz-h1"><span class="kz-box"><?php echo wp_kses_post( kazoe_app_t( 'kdd1ba187' ) ); ?></span></h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:query {"query":{"perPage":9,"postType":"post","inherit":true},"className":"kz-posts","layout":{"type":"default"}} -->
+<div class="wp-block-query kz-posts"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"className":"kz-post","layout":{"type":"default"}} -->
+<div class="wp-block-group kz-post"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2"} /-->
+<!-- wp:group {"className":"kz-post__body","layout":{"type":"default"}} -->
+<div class="wp-block-group kz-post__body"><!-- wp:post-date {"format":"j M Y","className":"kz-post__date"} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"className":"kz-post__title"} /-->
+<!-- wp:post-excerpt {"excerptLength":22} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+<!-- wp:query-pagination {"className":"kz-pager"} -->
+<!-- wp:query-pagination-previous /-->
+<!-- wp:query-pagination-numbers /-->
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></main>
+<!-- /wp:group -->

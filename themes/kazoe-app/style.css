@@ -317,3 +317,31 @@ body { padding-bottom: 80px; }
 .kz-form button { min-height: 56px; padding: 0 28px; border: 1px solid var(--kz-ink); border-radius: 0; background: var(--kz-ink); color: #fff; font: 700 1.0625rem/1 var(--wp--preset--font-family--display); cursor: pointer; }
 .kz-row__body + .kz-row__body { padding-top: 0; }
 @media (max-width: 781px) { .kz-pband { aspect-ratio: 4 / 3; } .kz-pagehead__top .kz-dither { width: 40%; } }
+
+/* Languages: zh-TW / ja use the Noto Sans (gothic) subsets, smaller type, taller lines; fr / de hyphenate and wrap long words. */
+:root:lang(zh) { --wp--preset--font-family--display: "Plus Jakarta Sans", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; --wp--preset--font-family--body: "Noto Sans", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; }
+:root:lang(ja) { --wp--preset--font-family--display: "Plus Jakarta Sans", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif; --wp--preset--font-family--body: "Noto Sans", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif; }
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .kz-box, .kz-h1, .kz-h2, .kz-hero__title, .kz-post__title, .kz-step__title) { line-height: 1.4; letter-spacing: .04em; }
+:is(:lang(zh), :lang(ja)) .kz-hero__title { font-size: clamp(2rem, 5vw, 4.5rem); line-height: 1.3; }
+:is(:lang(zh), :lang(ja)) .kz-hero__title .kz-box { white-space: normal; line-height: 1.3; }
+:is(:lang(zh), :lang(ja)) .kz-h1 { font-size: clamp(1.75rem, 3.8vw, 3.1rem); font-weight: 700; }
+:is(:lang(zh), :lang(ja)) .kz-h2 { font-size: clamp(1.5rem, 2.8vw, 2.25rem); }
+:is(:lang(zh), :lang(ja)) .kz-box--sm { font-size: .9375rem; }
+:is(:lang(zh), :lang(ja)) .kz-sub-lead, :is(:lang(zh), :lang(ja)) .kz-lead { font-size: 1.125rem; line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) .kz-step__title { font-size: 1.25rem; }
+:is(:lang(zh), :lang(ja)) .kz-prose h2 { font-size: 1.375rem; }
+:is(:lang(zh), :lang(ja)) .kz-card__text, :is(:lang(zh), :lang(ja)) .kz-story__quote { line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) .kz-table thead th { letter-spacing: .08em; }
+:lang(ja) :is(h1, h2, h3, p, li) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li, .kz-box) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .kz-hero__title { font-size: clamp(2rem, 5.4vw, 5rem); }
+:is(:lang(fr), :lang(de)) .kz-hero__title .kz-box { white-space: normal; }
+:is(:lang(fr), :lang(de)) .kz-h1 { font-size: clamp(2rem, 4.2vw, 3.5rem); }
+:is(:lang(fr), :lang(de)) .kz-h2 { font-size: clamp(1.75rem, 3.1vw, 2.5rem); }
+:is(:lang(fr), :lang(de)) .kz-table td:first-child { white-space: normal; }
+@media (max-width: 600px) {
+	:is(:lang(zh), :lang(ja)) .kz-hero__title { font-size: 1.875rem; }
+	:is(:lang(fr), :lang(de)) .kz-hero__title { font-size: 1.875rem; }
+	:is(:lang(fr), :lang(de)) .kz-h2 { font-size: 1.625rem; }
+}
