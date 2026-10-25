@@ -16,4 +16,11 @@ ms-first.png, ms-hero-settled.png, scroll-ms-1-message-{before,after}.png, scrol
 ## Mapping to final product (filled in stage 2)
 | Reference element | Our implementation |
 |---|---|
-|  |  |
+| Scattered rounded photo tiles (10.5 px, 4 bleeds) + white highlight-strip statement | T1 home hero: 9 tiles (h01 large audiologist fitting), strips over h05/h01; mini scatters on About, Hearing Check, Fitting, Tinnitus, Aftercare, Stories, Contact heads |
+| Tile layer ghosting behind the purpose statement | Statement band overlaps hero bottom in 90 % white, lines sp-reveal--up + sp-stagger; tile layer sp-parallax 10 % |
+| Stacked sticky cards on #C5D1D5 band, 945 px, 32 px top-left radius, left sticky column + concentric circles | T2 home "Problem → Method → Review" (#F2F2F2 / #51676B / #3A464D); also About, Hearing Check, Fitting, Tinnitus, Aftercare, Stories |
+| Eyebrow + hairline to right edge + sub-label | T3 on every section and every inner page head |
+| Clip-path wipe figure (right pill 52.7 px) + overlapping 40 px TL figure | Home "The clinic" (h07 + h09); Audiologists (h14) |
+| Pill outline buttons 46×170, rotating circle arrow | All CTAs |
+| Colour #FFF/#F2F2F2/#C5D1D5/#49565E/#0086BF | Same hexes; accent only logo dot/focus; card 2 uses row 青鈍 #51676B |
+| Press-release ticker line under hero | Notice line: hours today + Thursday listening evening |
