@@ -15,4 +15,4 @@ Shizuka Hearing opens on a white field of rounded photographs with the statement
 == Changelog ==
 
 = 1.0.0 =
-* Home page (English).
+* Home page and ten inner pages (English), journal listing with one article.

@@ -52,3 +52,8 @@ Supporting: clip-wipe figure with a right pill radius, pill outline buttons with
 
 ## Home pages
 Home only in stage 1; inner pages are placeholders until stage 2.
+
+## Inner pages (en)
+- About (2014 founding, how we work, the room), Hearing Check, Fitting Method, Tinnitus Care, Aftercare & Review, Fees (full-width price table), Audiologists (seven people as a ruled two-column list), Stories, FAQ (accordions), Visit & Contact (hours, address, booking request form), Journal (post listing) with one article, "Why Following Conversation in Noise Demands More Than Loudness".
+- Every inner page opens on the eyebrow + hairline head with title strips; About, Hearing Check, Fitting, Tinnitus, Aftercare, Stories, Fees and Contact add the tile scatter; the first six of those continue with sticky stacked cards; About, Hearing Check, Fitting, Aftercare, Stories and Fees close on the parallax photo band.
+- Prices and times match the home page: €95, €160, €380, €60, €140, €210, €35.
