@@ -28,8 +28,8 @@
 <!-- /wp:html -->
 
 <!-- wp:group {"className":"us-strip-wrap sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group us-strip-wrap sp-reveal sp-reveal--up"><!-- wp:group {"className":"us-strip","layout":{"type":"default"}} -->
-<div class="wp-block-group us-strip" tabindex="0" role="region" aria-label="Day schedule"><!-- wp:group {"className":"us-card","layout":{"type":"default"}} -->
+<div class="wp-block-group us-strip-wrap sp-reveal sp-reveal--up"><!-- wp:group {"spA11y":"Day schedule","className":"us-strip","layout":{"type":"default"}} -->
+<div class="wp-block-group us-strip"><!-- wp:group {"className":"us-card","layout":{"type":"default"}} -->
 <div class="wp-block-group us-card"><!-- wp:paragraph {"className":"us-card__no"} -->
 <p class="us-card__no">01</p>
 <!-- /wp:paragraph -->

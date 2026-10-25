@@ -132,8 +132,8 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","className":"us-band sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull us-band sp-parallax" style="--sp-par:10%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:group {"align":"full","spPar":"10%","className":"us-band sp-parallax","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull us-band sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h3.webp' ) ); ?>" alt="Adult swimming freestyle stroke along a marked lane rope viewed from pool deck level."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->

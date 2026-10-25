@@ -53,3 +53,28 @@ function umi_swim_pattern_categories() {
 	);
 }
 add_action( 'init', 'umi_swim_pattern_categories' );
+
+/**
+ * Parallax offset and strip a11y attributes live in block comment attributes (the block editor's save() would
+ * strip raw style/role attributes and flag the group invalid); put them on the front-end markup here.
+ */
+function umi_swim_group_extras( $html, $block ) {
+	$a = $block['attrs'] ?? array();
+	if ( empty( $a['spPar'] ) && empty( $a['spA11y'] ) ) {
+		return $html;
+	}
+	$p = new WP_HTML_Tag_Processor( $html );
+	if ( $p->next_tag() ) {
+		if ( ! empty( $a['spPar'] ) && preg_match( '/^-?\d+(\.\d+)?%$/', $a['spPar'] ) ) {
+			$p->set_attribute( 'style', '--sp-par:' . $a['spPar'] );
+		}
+		if ( ! empty( $a['spA11y'] ) ) {
+			$p->set_attribute( 'tabindex', '0' );
+			$p->set_attribute( 'role', 'region' );
+			$p->set_attribute( 'aria-label', $a['spA11y'] );
+		}
+		$html = $p->get_updated_html();
+	}
+	return $html;
+}
+add_filter( 'render_block_core/group', 'umi_swim_group_extras', 10, 2 );

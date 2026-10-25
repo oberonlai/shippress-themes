@@ -33,8 +33,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"us-concept__photo sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-group us-concept__photo sp-parallax" style="--sp-par:6%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:group {"spPar":"6%","className":"us-concept__photo sp-parallax","layout":{"type":"default"}} -->
+<div class="wp-block-group us-concept__photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c1.webp' ) ); ?>" alt="Spacious empty indoor pool hall with morning natural sunlight filtering across still water lanes."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>

@@ -134,8 +134,8 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","className":"us-band sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull us-band sp-parallax" style="--sp-par:7%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:group {"align":"full","spPar":"7%","className":"us-band sp-parallax","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull us-band sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s1.webp' ) ); ?>" alt="Swimmer pushing off the tiled pool wall into a quiet morning swimming lane."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->

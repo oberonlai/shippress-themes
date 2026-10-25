@@ -8,8 +8,8 @@
  * Description: Blob-masked pool photo with a translucent water blob, wordmark, vertical lead and info bar.
  */
 ?>
-<!-- wp:group {"align":"full","tagName":"section","className":"us-hero sp-parallax","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull us-hero sp-parallax" style="--sp-par:8%">
+<!-- wp:group {"align":"full","tagName":"section","spPar":"8%","className":"us-hero sp-parallax","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull us-hero sp-parallax">
 
 <!-- wp:group {"className":"us-hero__photo","layout":{"type":"default"}} -->
 <div class="wp-block-group us-hero__photo"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"us-slide"} -->

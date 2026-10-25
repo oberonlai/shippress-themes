@@ -124,8 +124,8 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","className":"us-band sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull us-band sp-parallax" style="--sp-par:8%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:group {"align":"full","spPar":"8%","className":"us-band sp-parallax","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull us-band sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/s4.webp' ) ); ?>" alt="Child wearing swim goggles practicing blowing water bubbles near the surface beside an instructor."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
