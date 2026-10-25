@@ -21,24 +21,24 @@
 <!-- wp:group {"className":"sh-phead__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-phead__copy"><!-- wp:group {"className":"sh-head","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-head"><!-- wp:paragraph {"className":"sh-eyebrow"} -->
-<p class="sh-eyebrow">THE CLINIC</p>
+<p class="sh-eyebrow"><?php echo wp_kses_post( shizuka_hearing_t( 'kedf86a00' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-sub"} -->
-<p class="sh-sub">Since 2014, second floor, Harbour Lane</p>
+<p class="sh-sub"><?php echo wp_kses_post( shizuka_hearing_t( 'k5edde140' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"sh-pword","ariaHidden":true} -->
-<p class="sh-pword" aria-hidden="true"><span class="sh-strip__in">ABOUT</span></p>
+<p class="sh-pword" aria-hidden="true"><span class="sh-strip__in"><?php echo wp_kses_post( shizuka_hearing_t( 'k33080c3d' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"sh-strip sh-phead__h1"} -->
-<h1 class="wp-block-heading sh-strip sh-phead__h1"><span class="sh-strip__in">About Shizuka Hearing</span></h1>
+<h1 class="wp-block-heading sh-strip sh-phead__h1"><span class="sh-strip__in"><?php echo wp_kses_post( shizuka_hearing_t( 'k007931cc' ) ); ?></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sh-lead"} -->
-<p class="sh-lead">Founded in 2014, Shizuka Hearing is an independent audiology clinic in Northgate dedicated to unhurried hearing care. We believe that regaining clear conversation requires clinical precision, quiet patience, and time.</p>
+<p class="sh-lead"><?php echo wp_kses_post( shizuka_hearing_t( 'keade5621' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -51,18 +51,18 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"sh-journey__lead"} -->
-<p class="sh-journey__lead">Since 2014, second floor, Harbour Lane.</p>
+<p class="sh-journey__lead"><?php echo wp_kses_post( shizuka_hearing_t( 'keb743f76' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-journey__word","ariaHidden":true} -->
-<p class="sh-journey__word" aria-hidden="true">ABOUT</p>
+<p class="sh-journey__word" aria-hidden="true"><?php echo wp_kses_post( shizuka_hearing_t( 'k33080c3d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sh-cards","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-cards"><!-- wp:group {"className":"sh-card sh-card--1 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--1 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">2014 Founding</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'ka04ad63b' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -70,7 +70,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>In 2014, Dr. Elena Varga left a hospital ENT department to establish Shizuka Hearing at 18 Harbour Lane in Northgate. Working within hospital constraints, appointments were often rushed, leaving little room to understand how adults actually experience sound in daily life. Dr. Varga set out to create an independent clinic where consultations take the time they truly require. From our earliest consultations, our focus has stayed on helping people who struggle in noisy rooms, dinner parties, and busy family gatherings. We chose a quiet space on the second floor, accessible by lift, where patients could speak openly without feeling hurried or processed.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k4cf2cf46' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -78,7 +78,7 @@
 
 <!-- wp:group {"className":"sh-card sh-card--2 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--2 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">How We Work</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'kf6aeaee4' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -86,7 +86,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>We take a measured, diagnostic approach to hearing care rather than rushing toward quick retail sales. Every patient begins with an unhurried conversation so we understand your daily listening environments, whether that means following speech in lively cafés or hearing colleagues across a conference table. We carry out thorough evaluations in a dedicated sound booth and test how your ears distinguish speech in noise. When fitting hearing aids, we use objective real-ear measurements to ensure sound is calibrated accurately to your ear canal acoustics. Every individual responds differently to amplification, and we work alongside you through every review visit until speech feels natural and intelligible.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'ke3b2054f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -94,7 +94,7 @@
 
 <!-- wp:group {"className":"sh-card sh-card--3 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--3 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">The Clinic Space</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'kc04d60ea' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -102,7 +102,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>Located on the second floor at 18 Harbour Lane, Northgate, our clinic is arranged to provide a calm, peaceful atmosphere from the moment you step through the doors. The facility features two dedicated consulting rooms and a purpose-built acoustic sound booth designed for accurate pure-tone and speech-in-noise evaluations. Large windows provide soft natural daylight, creating an airy and welcoming setting for clinical testing and device programming. Lift access ensures step-free arrival for all visitors. We keep appointments spaced generously apart, ensuring our waiting room remains quiet and restful, with ample time reserved for every individual consultation.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k487b0f0d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -19,24 +19,24 @@
 <!-- wp:group {"className":"sh-phead__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-phead__copy"><!-- wp:group {"className":"sh-head","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-head"><!-- wp:paragraph {"className":"sh-eyebrow"} -->
-<p class="sh-eyebrow">HEARING CHECK</p>
+<p class="sh-eyebrow"><?php echo wp_kses_post( shizuka_hearing_t( 'k02f2055e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-sub"} -->
-<p class="sh-sub">60 minutes, then a plain-language report</p>
+<p class="sh-sub"><?php echo wp_kses_post( shizuka_hearing_t( 'k563d7152' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"sh-pword","ariaHidden":true} -->
-<p class="sh-pword" aria-hidden="true"><span class="sh-strip__in">HEARING</span></p>
+<p class="sh-pword" aria-hidden="true"><span class="sh-strip__in"><?php echo wp_kses_post( shizuka_hearing_t( 'ke35209b7' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"sh-strip sh-phead__h1"} -->
-<h1 class="wp-block-heading sh-strip sh-phead__h1"><span class="sh-strip__in">Hearing Check</span></h1>
+<h1 class="wp-block-heading sh-strip sh-phead__h1"><span class="sh-strip__in"><?php echo wp_kses_post( shizuka_hearing_t( 'ke784b333' ) ); ?></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sh-lead"} -->
-<p class="sh-lead">Our comprehensive sixty-minute hearing check is designed for adults who find themselves straining to follow conversation in lively rooms. We look beyond standard beeps to measure how clearly you understand speech when background sound is present.</p>
+<p class="sh-lead"><?php echo wp_kses_post( shizuka_hearing_t( 'k3fca9c6a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -49,18 +49,18 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"sh-journey__lead"} -->
-<p class="sh-journey__lead">60 minutes, then a plain-language report.</p>
+<p class="sh-journey__lead"><?php echo wp_kses_post( shizuka_hearing_t( 'kbaebcf77' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-journey__word","ariaHidden":true} -->
-<p class="sh-journey__word" aria-hidden="true">HEARING</p>
+<p class="sh-journey__word" aria-hidden="true"><?php echo wp_kses_post( shizuka_hearing_t( 'ke35209b7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sh-cards","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-cards"><!-- wp:group {"className":"sh-card sh-card--1 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--1 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">Conversation and Otoscopy</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'k961bb584' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -68,7 +68,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>We begin every appointment with a detailed conversation about your hearing history, daily routines, and the specific listening environments where speech feels unclear. We explore whether you find yourself asking people to repeat themselves in noisy restaurants, turning up the television volume, or missing parts of family conversations. Following this discussion, your audiologist performs video otoscopy to examine the physical health of your outer ear and eardrum. This gentle visual check identifies any earwax blockage, inflammation, or structural irregularities that might temporarily affect your hearing before we proceed with acoustic testing in the sound booth.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k7c024c56' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -76,7 +76,7 @@
 
 <!-- wp:group {"className":"sh-card sh-card--2 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--2 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">Pure-Tone and Speech-in-Noise Testing</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'kab66d282' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -84,7 +84,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>Inside our sound booth, we conduct pure-tone audiometry to map the softest pitches you can hear across low, mid, and high frequencies. Because everyday life rarely occurs in total silence, we follow pure-tone testing with an essential speech-in-noise evaluation. During this test, you listen to spoken sentences presented against varying levels of competing background noise. This measurement reveals how effectively your auditory system separates speech from surrounding chatter, pinpointing the real-world strain you experience at dinner tables or social gatherings. The diagnostic assessment provides the objective evidence needed to guide appropriate care.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k360a036f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -92,7 +92,7 @@
 
 <!-- wp:group {"className":"sh-card sh-card--3 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--3 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">What You Take Home</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'kd214858d' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -100,7 +100,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>At the conclusion of your visit, we discuss all findings with you in clear, plain language without confusing medical jargon. You receive a printed summary of your audiogram and your speech-in-noise results, along with practical explanations of what the numbers mean for your day-to-day communication. If hearing assistance is recommended, we explain suitable options and answer your questions openly. Our standard hearing check takes 60 minutes for €95, while our complete diagnostic assessment with speech-in-noise testing takes 90 minutes for €160. You are never pressured to purchase devices, and all results are yours to keep.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k65853b68' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

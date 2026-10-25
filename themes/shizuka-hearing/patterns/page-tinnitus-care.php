@@ -19,24 +19,24 @@
 <!-- wp:group {"className":"sh-phead__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-phead__copy"><!-- wp:group {"className":"sh-head","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-head"><!-- wp:paragraph {"className":"sh-eyebrow"} -->
-<p class="sh-eyebrow">TINNITUS CARE</p>
+<p class="sh-eyebrow"><?php echo wp_kses_post( shizuka_hearing_t( 'kea4bce16' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-sub"} -->
-<p class="sh-sub">Listening, sound therapy and follow-up</p>
+<p class="sh-sub"><?php echo wp_kses_post( shizuka_hearing_t( 'k4d6c0f83' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"sh-pword","ariaHidden":true} -->
-<p class="sh-pword" aria-hidden="true"><span class="sh-strip__in">TINNITUS</span></p>
+<p class="sh-pword" aria-hidden="true"><span class="sh-strip__in"><?php echo wp_kses_post( shizuka_hearing_t( 'k4d057203' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"sh-strip sh-phead__h1"} -->
-<h1 class="wp-block-heading sh-strip sh-phead__h1"><span class="sh-strip__in">Tinnitus Care</span></h1>
+<h1 class="wp-block-heading sh-strip sh-phead__h1"><span class="sh-strip__in"><?php echo wp_kses_post( shizuka_hearing_t( 'k983054af' ) ); ?></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sh-lead"} -->
-<p class="sh-lead">Persistent ringing, buzzing, or hissing in the ears can be exhausting and distressing. Our dedicated tinnitus consultations offer a calm, evidence-based space to understand your sound perception and rebuild daily peace of mind.</p>
+<p class="sh-lead"><?php echo wp_kses_post( shizuka_hearing_t( 'k7f54bd91' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -49,18 +49,18 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"sh-journey__lead"} -->
-<p class="sh-journey__lead">Listening, sound therapy and follow-up.</p>
+<p class="sh-journey__lead"><?php echo wp_kses_post( shizuka_hearing_t( 'k93a13471' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-journey__word","ariaHidden":true} -->
-<p class="sh-journey__word" aria-hidden="true">TINNITUS</p>
+<p class="sh-journey__word" aria-hidden="true"><?php echo wp_kses_post( shizuka_hearing_t( 'k4d057203' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sh-cards","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-cards"><!-- wp:group {"className":"sh-card sh-card--1 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--1 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">Understanding Tinnitus</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'ka4f04a2f' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -68,7 +68,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>Tinnitus is the perception of sound in the ears or head when no external sound source is present. It frequently accompanies subtle changes in hearing sensitivity, where the brain increases internal auditory gain to compensate for missing auditory signals. During your 75-minute consultation, priced at €140, we conduct thorough acoustic evaluations and examine how tinnitus impacts your sleep, concentration, and emotional well-being. We do not make false claims of miraculous cures, as ethical audiology recognizes there is no single cure for tinnitus. Instead, many people find that with structured support, the sound becomes significantly less intrusive.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'kf0202bff' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -76,7 +76,7 @@
 
 <!-- wp:group {"className":"sh-card sh-card--2 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--2 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">Sound Therapy and Counselling</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'k686dcce2' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -84,7 +84,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>Our tinnitus care is led by Mei Lin Hartmann, who combines sound therapy strategies with structured acoustic counselling. By introducing gentle background sounds, broadband noise, or soothing natural soundscapes, we can reduce the sharp contrast between your tinnitus and silent environments. This acoustic enrichment helps the auditory cortex de-emphasize internal noise. Alongside sound therapy, Mei Lin provides cognitive reassurance and practical sleep strategies, demystifying the mechanisms behind your symptoms. Understanding why tinnitus occurs reduces the autonomic threat response, allowing your central nervous system to gradually habituate and push the noise into the background of attention.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k1cb4dc75' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -92,7 +92,7 @@
 
 <!-- wp:group {"className":"sh-card sh-card--3 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--3 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">Follow-Up at Four Weeks</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'kd4525806' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -100,7 +100,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>Habituation is a gradual process that requires ongoing support, reassurance, and periodic acoustic adjustments. Following your initial consultation, we arrange a structured follow-up appointment at four weeks to evaluate your progress. During this review, Mei Lin assesses how your sleep patterns and daytime concentration have responded to sound therapy devices or ambient noise strategies. We refine sound generator levels, address any lingering questions, and adapt your personalized care plan to ensure steady comfort. Our commitment is to provide ongoing guidance so that sound perception ceases to dominate your daily life and quiet moments feel calm again.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k343f644a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

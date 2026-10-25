@@ -11,11 +11,11 @@
 <div class="wp-block-group alignfull sh-stories">
 <!-- wp:group {"className":"sh-head","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-head"><!-- wp:paragraph {"className":"sh-eyebrow"} -->
-<p class="sh-eyebrow">STORIES</p>
+<p class="sh-eyebrow"><?php echo wp_kses_post( shizuka_hearing_t( 'kde6bb23f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-sub"} -->
-<p class="sh-sub">Three people, in their own words</p>
+<p class="sh-sub"><?php echo wp_kses_post( shizuka_hearing_t( 'k88c21a14' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -26,11 +26,11 @@
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"className":"sh-story__name"} -->
-<p class="sh-story__name">Martin, 64</p>
+<p class="sh-story__name"><?php echo wp_kses_post( shizuka_hearing_t( 'k0b43e040' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Quiz nights had become a blur of answers he heard a moment too late, so he stopped putting his hand up. After a hearing check, a fitting verified at the ear, and the review visits that followed, he went back to the table with his friends. He still asks for a repeat when the pub gets loud. He also catches the punchline often enough to stay for the next round. His experience is his own, and experiences differ.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k96b5e8e6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -40,11 +40,11 @@
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"className":"sh-story__name"} -->
-<p class="sh-story__name">Henrik, 58</p>
+<p class="sh-story__name"><?php echo wp_kses_post( shizuka_hearing_t( 'kdf98f2ed' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Night was the hardest part of the day, because the tinnitus did not drop when the flat went quiet. He came for a 75-minute consultation with Mei Lin Hartmann, with counselling and sound therapy, and a follow-up at 4 weeks. He does not describe a cure. He says the sound is quieter at night than it was, and less in the way of sleep. Many people find it becomes less intrusive. Experiences differ.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k822c6c6f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -54,11 +54,11 @@
 
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"className":"sh-story__name"} -->
-<p class="sh-story__name">Ana, 47</p>
+<p class="sh-story__name"><?php echo wp_kses_post( shizuka_hearing_t( 'k82b68162' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>She had stepped out of the choir’s alto row because she could not trust her line against the voices beside her. A hearing aid, fitted with real-ear measurement and tried at home for 14 days, brought her back into rehearsal. She still listens hard when the hall is bright. She is singing in the alto row again. That is her account, not a result we promise to anyone else.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k16c0b6f7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

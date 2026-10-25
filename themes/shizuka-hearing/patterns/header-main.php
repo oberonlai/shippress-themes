@@ -1,0 +1,22 @@
+<?php
+/**
+ * Title: Header: brand, menu and call buttons
+ * Slug: shizuka-hearing/header-main
+ * Categories: shizuka-hearing
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"header","align":"full","className":"sh-header","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+<header class="wp-block-group alignfull sh-header"><!-- wp:site-title {"level":0,"isLink":true,"className":"sh-brand"} /-->
+
+<!-- wp:group {"className":"sh-header__end","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
+<div class="wp-block-group sh-header__end"><!-- wp:navigation {"overlayMenu":"mobile","className":"sh-menu","layout":{"type":"flex","justifyContent":"right"}} /-->
+
+<!-- wp:buttons {"className":"sh-header__cta"} -->
+<div class="wp-block-buttons sh-header__cta"><!-- wp:button {"className":"sh-pill"} -->
+<div class="wp-block-button sh-pill"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( shizuka_hearing_t( 'k44df529b' ) ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></header>
+<!-- /wp:group -->

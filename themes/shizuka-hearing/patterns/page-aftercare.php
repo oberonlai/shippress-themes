@@ -19,24 +19,24 @@
 <!-- wp:group {"className":"sh-phead__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-phead__copy"><!-- wp:group {"className":"sh-head","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-head"><!-- wp:paragraph {"className":"sh-eyebrow"} -->
-<p class="sh-eyebrow">AFTERCARE &amp; REVIEW</p>
+<p class="sh-eyebrow"><?php echo wp_kses_post( shizuka_hearing_t( 'k14b53ddf' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-sub"} -->
-<p class="sh-sub">2 weeks, 6 weeks, 6 months</p>
+<p class="sh-sub"><?php echo wp_kses_post( shizuka_hearing_t( 'k3ca68fc9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"sh-pword","ariaHidden":true} -->
-<p class="sh-pword" aria-hidden="true"><span class="sh-strip__in">REVIEW</span></p>
+<p class="sh-pword" aria-hidden="true"><span class="sh-strip__in"><?php echo wp_kses_post( shizuka_hearing_t( 'k50e13ee6' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"sh-strip sh-phead__h1"} -->
-<h1 class="wp-block-heading sh-strip sh-phead__h1"><span class="sh-strip__in">Aftercare and review</span></h1>
+<h1 class="wp-block-heading sh-strip sh-phead__h1"><span class="sh-strip__in"><?php echo wp_kses_post( shizuka_hearing_t( 'k68cb804b' ) ); ?></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sh-lead"} -->
-<p class="sh-lead">Hearing care does not end on the day your hearing aids are fitted. Our systematic review schedule ensures your devices adapt smoothly to your lifestyle, maintaining acoustic precision and long-term physical comfort.</p>
+<p class="sh-lead"><?php echo wp_kses_post( shizuka_hearing_t( 'kdb96a3e3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -49,18 +49,18 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"sh-journey__lead"} -->
-<p class="sh-journey__lead">2 weeks, 6 weeks, 6 months.</p>
+<p class="sh-journey__lead"><?php echo wp_kses_post( shizuka_hearing_t( 'kb2153a84' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sh-journey__word","ariaHidden":true} -->
-<p class="sh-journey__word" aria-hidden="true">REVIEW</p>
+<p class="sh-journey__word" aria-hidden="true"><?php echo wp_kses_post( shizuka_hearing_t( 'k50e13ee6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sh-cards","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-cards"><!-- wp:group {"className":"sh-card sh-card--1 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--1 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">Reviews at 2 Weeks and 6 Weeks</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'k8ba469c6' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -68,7 +68,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>Adapting to newly audible sounds takes patience as your auditory cortex relearns how to process background noise and vocal nuances. Our aftercare process begins with a review visit at 2 weeks, followed by a second visit at 6 weeks. Tomás Reyes and our clinical team evaluate your wear logs, examine physical comfort within the ear canal, and listen carefully to your listening experiences at home, at work, and in social settings. We make precise acoustic adjustments to volume and frequency balance. The first two review visits are included with every fitting, providing thorough clinical support as you settle into natural hearing.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'k3b44fee4' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -76,7 +76,7 @@
 
 <!-- wp:group {"className":"sh-card sh-card--2 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--2 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">Six-Month Review and Yearly Checks</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'k230fce78' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -84,7 +84,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>Six months after your initial fitting, we invite you back for a comprehensive 45-minute review visit. During this session, we evaluate how your devices are performing across challenging listening environments, review speech clarity, and inspect your ear canals for wax buildup. Subsequent reviews are scheduled on an annual basis to monitor your hearing thresholds and recalibrate device output as your hearing naturally evolves. Individual review visits outside the fitting package are €60 each. Regular monitoring ensures that your hearing aids continue to match your auditory requirements accurately, preserving speech understanding and confidence year after year.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'kcb5971de' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -92,7 +92,7 @@
 
 <!-- wp:group {"className":"sh-card sh-card--3 sh-pcard","layout":{"type":"default"}} -->
 <div class="wp-block-group sh-card sh-card--3 sh-pcard"><!-- wp:heading {"level":2,"className":"sh-card__title"} -->
-<h2 class="wp-block-heading sh-card__title">Cleaning and Technical Maintenance</h2>
+<h2 class="wp-block-heading sh-card__title"><?php echo wp_kses_post( shizuka_hearing_t( 'k599e6a3a' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"sh-card__body","layout":{"type":"default"}} -->
@@ -100,7 +100,7 @@
 
 <!-- wp:group {"className":"","layout":{"type":"default"}} -->
 <div class="wp-block-group "><!-- wp:paragraph -->
-<p>Even the most advanced hearing instruments require routine technical upkeep to perform reliably in daily life. Moisture, earwax, and dust can gradually clog delicate microphone ports and acoustic receivers. Jonas Lindqvist, our hearing aid technician, performs professional 30-minute cleaning and re-tuning services for €35. During this appointment, we vacuum sound bores, replace wax guards and microphone filters, test battery contacts, and verify acoustic response against baseline curves. Keeping your devices clean and properly maintained prevents unexpected breakdowns, avoids sound distortion, and ensures that speech remains crisp and clear in every conversation.</p>
+<p><?php echo wp_kses_post( shizuka_hearing_t( 'kfd815462' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
