@@ -57,7 +57,7 @@ Payment stages: 30% on the scheme note, 50% on the calculations, 20% on sign-off
 - Supporting: tilted flat cards with line diagrams; process beside sticky media.
 
 ## Pages and contents
-Home, About, Services, Process, Projects (four case pages), Fees, Team, Journal, FAQ, Contact, Privacy. Stage 1 builds the home page only.
+Home, About, Services, Process, Projects (four case pages), Fees, Team, Journal (one article: Reading a Crack Before Repairing It), FAQ, Contact, Privacy Notice. Every inner page opens with the cropped page word, a smaller stadium photo window, a letter-spread title and a breadcrumb; Process, Services and Projects carry dark rounded photo bands with parallax. Sixteen photographs in total.
 
 ## Photography
 Low-key documentary photographs in cool desaturated greys, generated with one shared style. No text, logos or brands; ten on the home page, none repeated.

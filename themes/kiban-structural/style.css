@@ -205,9 +205,46 @@ html:not(.sp-no-motion) .kb-codes.sp-marquee > * { animation-duration: 40s; }
 .kb-footer__legal { margin-top: 2.5rem; color: var(--kb-mid); }
 
 /* ---------- inner pages (stage 2 builds them out) ---------- */
-.kb-ihero { padding: 9rem var(--kb-gut) 3rem; }
-.kb-ihero__t { font-family: var(--kb-display); font-size: var(--wp--preset--font-size--display); font-weight: 900; line-height: .9; letter-spacing: -.02em; text-transform: uppercase; }
-.kb-ihero__sub { margin-top: 1.5rem; font-size: var(--wp--preset--font-size--large); font-weight: 700; }
+.kb-ihero { position: relative; display: grid; grid-template-columns: minmax(0, 1fr); justify-items: center; align-items: center; align-content: center; min-height: 70vh; padding: calc(var(--kb-head) + 3rem) var(--kb-gut) 2rem; overflow: clip; background-image: linear-gradient(90deg, var(--kb-hair) 1px, transparent 1px); background-size: var(--kb-col) 100%; background-position: var(--kb-gut) 0; }
+.kb-ihero > * { grid-column: 1; margin: 0; }
+.kb-ihero__word { grid-row: 1; width: 100vw; text-align: center; white-space: nowrap; overflow: visible; font-family: var(--kb-display); font-size: var(--wp--preset--font-size--kv); font-weight: 900; line-height: .85; letter-spacing: -.03em; color: var(--kb-ink); }
+.kb-ihero__win { grid-row: 1; position: relative; z-index: 2; width: min(34vw, 66vh); aspect-ratio: 2.33 / 1; border-radius: 999px; overflow: hidden; transform: translateY(34%); }
+.kb-ihero__win img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.kb-ihero__t { grid-row: 2; width: 100%; display: flex; justify-content: space-between; gap: .5rem; margin-top: 2.5rem; font-family: var(--kb-display); font-size: var(--wp--preset--font-size--large); font-weight: 700; line-height: 1.3; }
+.kb-ihero__crumb { grid-row: 3; width: 100%; margin-top: 1rem; font-size: .8125rem; line-height: 1.6; color: var(--kb-mid); }
+.kb-ihero__crumb a { color: var(--kb-ink); }
+.kb-lead, .kb-w, .kb-sxs { box-sizing: border-box; max-width: 90rem; margin-inline: auto; padding-inline: var(--kb-gut); }
+.kb-lead { padding-top: 3rem; padding-bottom: 1rem; }
+.kb-lead__p { max-width: 46rem; font-size: 1.1875rem; line-height: 1.6; }
+.kb-sxs { padding-top: 2rem; padding-bottom: 2rem; }
+.kb-sx { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 0 1.5rem; border-top: 1px solid var(--kb-hair); padding: 2rem 0 3rem; }
+.kb-sx__h { grid-column: 1 / 4; font-size: var(--wp--preset--font-size--medium); line-height: 1.33; font-weight: 700; margin: 0; }
+.kb-sx__b { grid-column: 4 / 9; max-width: 42rem; }
+.kb-sx__b p + p { margin-top: 1rem; }
+.kb-w { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.kb-more a { font-weight: 600; color: var(--kb-ink); text-decoration: underline; text-underline-offset: .2em; }
+.kb-band--sm { min-height: 70vh; margin: 3rem 0 0; }
+.kb-band--sm .kb-band__lines { font-size: var(--wp--preset--font-size--x-large); line-height: 1.3; }
+.kb-band--case { min-height: 55vh; margin-top: 4rem; }
+.kb-band--case .kb-band__lines { font-size: 3rem; line-height: 1.1; }
+.kb-case2 { padding-bottom: 2rem; }
+.kb-case2 p { max-width: 46rem; margin-top: 1rem; }
+.kb-facts { margin: 1.5rem 0 1rem; max-width: 46rem; }
+.kb-facts table { width: 100%; border-collapse: collapse; border: 0; }
+.kb-facts td { border: 0; border-top: 1px solid var(--kb-hair); padding: .75rem 1rem .75rem 0; font-size: .875rem; vertical-align: top; }
+.kb-facts tr:last-child td { border-bottom: 1px solid var(--kb-hair); }
+.kb-facts td:first-child { width: 10rem; color: var(--kb-mid); font-weight: 600; }
+.kb-main--inner .kb-fee { background-image: linear-gradient(90deg, var(--kb-hair) 1px, transparent 1px); background-size: var(--kb-col) 100%; background-position: var(--kb-gut) 0; }
+.kb-main--inner .kb-fee .kb-in, .kb-main--inner .kb-fee .kb-in { padding-top: 3rem; }
+.kb-faq .kb-q { border-top: 1px solid var(--kb-hair); padding: 1.25rem 0; max-width: 52rem; }
+.kb-faq .kb-q:last-child { border-bottom: 1px solid var(--kb-hair); }
+.kb-q summary { cursor: pointer; font-family: var(--kb-display); font-size: 1.125rem; font-weight: 700; line-height: 1.4; }
+.kb-q p { margin-top: .75rem; }
+.kb-form { max-width: 36rem; }
+.kb-form label { display: block; font-size: .8125rem; font-weight: 600; }
+.kb-form input, .kb-form textarea { display: block; width: 100%; box-sizing: border-box; margin-top: .375rem; padding: .625rem .75rem; border: 1px solid var(--kb-hair); border-radius: 0; background: #fff; font: inherit; }
+.kb-form p { margin: 0 0 1rem; }
+.kb-form button { border: 0; cursor: pointer; min-height: 32px; padding: 0 18px; }
 .kb-prose { padding: 2rem var(--kb-gut) 4rem; max-width: 46rem; margin-left: 0; }
 .kb-prose p + p { margin-top: 1rem; }
 .kb-in { box-sizing: border-box; width: 100%; max-width: 90rem; margin-inline: auto; padding: 9rem var(--kb-gut) 4rem; }
@@ -260,5 +297,19 @@ html:not(.sp-no-motion) .kb-codes.sp-marquee > * { animation-duration: 40s; }
 	.kb-sign__h { margin-bottom: 1rem; }
 	.kb-footer__grid { grid-template-columns: 1fr 1fr; }
 	.kb-band { --sp-par: 6%; }
+	.kb-ihero { display: block; min-height: 0; padding-top: calc(var(--kb-head) + 2rem); }
+	.kb-ihero__word { width: auto; margin: 0 calc(var(--kb-gut) * -1); font-size: 3.5rem; text-align: left; padding-left: var(--kb-gut); }
+	.kb-ihero__win { width: 88vw; margin: 1.5rem auto 0; transform: none; }
+	.kb-ihero__t { display: block; font-size: 1.375rem; margin-top: 1.5rem; }
+	.kb-sx { display: block; }
+	.kb-sx__h { margin-bottom: 1rem; }
+	.kb-band--case .kb-band__lines { font-size: 2rem; }
+	.kb-facts td { display: block; width: auto !important; border: 0; padding: 0; }
+	.kb-facts tr { display: block; border-top: 1px solid var(--kb-hair); padding: .75rem 0; }
+	.kb-facts table, .kb-facts tbody { display: block; }
 }
 .kb-footer .kb-in { padding: 0; max-width: none; }
+.kb-ihero__t { margin-top: 5.5rem; }
+.kb-main--inner .kb-fee { padding-top: 1rem; }
+@media (max-width: 781px) { .kb-ihero__t { margin-top: 1.5rem; } }
+.kb-case2__h { font-size: 3rem; line-height: 1.1; margin-top: 4rem; } @media (max-width: 781px) { .kb-case2__h { font-size: 2rem; } }

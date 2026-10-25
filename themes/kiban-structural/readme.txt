@@ -49,4 +49,4 @@ assets/images/kb-team-studio.webp: generated with Grok for this theme, GPL-2.0-o
 
 == Changelog ==
 = 1.0.0 =
-* First release: home page in English (stage 1).
+* First release: home page and inner pages (About, Services, Process, Projects with four case studies, Fees, Team, Journal with one article, FAQ, Contact, Privacy Notice) in English.
