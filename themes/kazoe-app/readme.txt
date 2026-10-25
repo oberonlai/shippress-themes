@@ -29,6 +29,8 @@ Kazoe Books App, Copyright 2026 ShipPress, GPL-2.0-or-later.
 Fonts (SIL Open Font License 1.1, license files in assets/fonts/):
 - Plus Jakarta Sans: assets/fonts/plus-jakarta-sans-variable-latin.woff2. Copyright 2020 The Plus Jakarta Sans Project Authors (https://github.com/tokotype/PlusJakartaSans)
 - Noto Sans: assets/fonts/noto-sans-variable-latin.woff2. Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
+- Noto Sans TC: assets/fonts/noto-sans-tc-zh-tw-400.woff2, assets/fonts/noto-sans-tc-zh-tw-700.woff2. Copyright 2012 Google Inc. All Rights Reserved. License file: assets/fonts/OFL-NotoSansTC.txt
+- Noto Sans JP: assets/fonts/noto-sans-jp-ja-400.woff2, assets/fonts/noto-sans-jp-ja-700.woff2. Copyright 2012 Google Inc. All Rights Reserved. License file: assets/fonts/OFL-NotoSansJP.txt
 
 Scripts and styles:
 - assets/sp-scroll.css and assets/sp-scroll.js: ShipPress scroll effects, GPL-2.0-or-later, no third-party code.
@@ -49,3 +51,8 @@ Images (generated for this theme with an AI image model, ShipPress, licensed GPL
 - assets/images/k10-rafael.webp
 - assets/images/k11-meiling.webp
 - assets/images/k12-yusuf.webp
+- assets/images/k13-till-drawer.webp
+- assets/images/k14-setup-phone.webp
+- assets/images/k15-studio.webp
+- assets/images/k16-support.webp
+- assets/images/k17-accountant-desk.webp
