@@ -11,18 +11,18 @@
 <!-- wp:group {"anchor":"fees","align":"full","tagName":"section","className":"us-sec us-fees","layout":{"type":"constrained"}} -->
 <section id="fees" class="wp-block-group alignfull us-sec us-fees"><!-- wp:group {"className":"us-head","layout":{"type":"default"}} -->
 <div class="wp-block-group us-head"><!-- wp:paragraph {"className":"us-label"} -->
-<p class="us-label">Fees</p>
+<p class="us-label"><?php echo wp_kses_post( umi_swim_t( 'k006300ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"us-h sp-reveal sp-reveal--mask"} -->
-<h2 class="wp-block-heading us-h sp-reveal sp-reveal--mask">Term fees &amp; tuition</h2>
+<h2 class="wp-block-heading us-h sp-reveal sp-reveal--mask"><?php echo wp_kses_post( umi_swim_t( 'kfa71f97d' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"us-feelist","layout":{"type":"default"}} -->
 <div class="wp-block-group us-feelist"><!-- wp:group {"className":"us-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group us-fee"><!-- wp:paragraph {"className":"us-fee__name"} -->
-<p class="us-fee__name">Trial lesson<span class="us-fee__note">30 min, any age</span></p>
+<p class="us-fee__name"><?php echo wp_kses_post( umi_swim_t( 'k0763ddb1' ) ); ?><span class="us-fee__note"><?php echo wp_kses_post( umi_swim_t( 'ka106fc62' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-fee__price"} -->
@@ -32,7 +32,7 @@
 
 <!-- wp:group {"className":"us-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group us-fee"><!-- wp:paragraph {"className":"us-fee__name"} -->
-<p class="us-fee__name">Parent &amp; baby water (6–36 months)<span class="us-fee__note">10 weeks × 30 min</span></p>
+<p class="us-fee__name"><?php echo wp_kses_post( umi_swim_t( 'k5d9d2d75' ) ); ?><span class="us-fee__note"><?php echo wp_kses_post( umi_swim_t( 'k0e45f367' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-fee__price"} -->
@@ -42,7 +42,7 @@
 
 <!-- wp:group {"className":"us-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group us-fee"><!-- wp:paragraph {"className":"us-fee__name"} -->
-<p class="us-fee__name">Kids Stages 1–3 (4–12 yrs)<span class="us-fee__note">10 weeks × 45 min, max 4 per coach</span></p>
+<p class="us-fee__name"><?php echo wp_kses_post( umi_swim_t( 'kfb4f923d' ) ); ?><span class="us-fee__note"><?php echo wp_kses_post( umi_swim_t( 'k31f60f12' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-fee__price"} -->
@@ -52,7 +52,7 @@
 
 <!-- wp:group {"className":"us-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group us-fee"><!-- wp:paragraph {"className":"us-fee__name"} -->
-<p class="us-fee__name">Adult beginners<span class="us-fee__note">8 weeks × 60 min, max 5</span></p>
+<p class="us-fee__name"><?php echo wp_kses_post( umi_swim_t( 'k35685f0b' ) ); ?><span class="us-fee__note"><?php echo wp_kses_post( umi_swim_t( 'ke6c1d88c' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-fee__price"} -->
@@ -62,7 +62,7 @@
 
 <!-- wp:group {"className":"us-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group us-fee"><!-- wp:paragraph {"className":"us-fee__name"} -->
-<p class="us-fee__name">Private lesson 1:1<span class="us-fee__note">45 min</span></p>
+<p class="us-fee__name"><?php echo wp_kses_post( umi_swim_t( 'kc660bcf6' ) ); ?><span class="us-fee__note"><?php echo wp_kses_post( umi_swim_t( 'k33eb3492' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-fee__price"} -->
@@ -72,7 +72,7 @@
 
 <!-- wp:group {"className":"us-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group us-fee"><!-- wp:paragraph {"className":"us-fee__name"} -->
-<p class="us-fee__name">Private block of 5 × 45 min<span class="us-fee__note">5 × 45 min</span></p>
+<p class="us-fee__name"><?php echo wp_kses_post( umi_swim_t( 'kd65c7f9f' ) ); ?><span class="us-fee__note"><?php echo wp_kses_post( umi_swim_t( 'kdd89909e' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-fee__price"} -->
@@ -82,20 +82,20 @@
 
 <!-- wp:group {"className":"us-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group us-fee"><!-- wp:paragraph {"className":"us-fee__name"} -->
-<p class="us-fee__name">Lane swim club (adults)<span class="us-fee__note">Monthly</span></p>
+<p class="us-fee__name"><?php echo wp_kses_post( umi_swim_t( 'k48eccfc7' ) ); ?><span class="us-fee__note"><?php echo wp_kses_post( umi_swim_t( 'k9030e39f' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-fee__price"} -->
-<p class="us-fee__price">€48 / month</p>
+<p class="us-fee__price"><?php echo wp_kses_post( umi_swim_t( 'k3e5e97e3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"us-note"} -->
-<p class="us-note">Four terms a year: 6 January, 7 April, 7 July and 6 October. Siblings take 10% off. Two make-up lessons per term.</p>
+<p class="us-note"><?php echo wp_kses_post( umi_swim_t( 'k609863ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"us-ulink"} -->
-<p class="us-ulink"><a href="/fees/">Full fees &amp; term dates &rsaquo;</a></p>
+<p class="us-ulink"><a href="/fees/"><?php echo wp_kses_post( umi_swim_t( 'k87eb24d6' ) ); ?></a></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->
