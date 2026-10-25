@@ -25,7 +25,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kz-sub"} -->
-<p class="kz-sub"><span class="kz-box kz-box--sm">Tax-period exports, ready for your accountant.</span></p>
+<p class="kz-sub"><span class="kz-box kz-box--sm">Tax exports, ready for your accountant.</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kz-sub"} -->
