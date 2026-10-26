@@ -3,18 +3,18 @@
 ## Reference sites (S5-Style, consulting / professional services)
 | Role | Site | Why | Our mapping |
 |---|---|---|---|
-| Main (80% target) | W Bridge Advisory, https://wbridge-advisory.co.jp/ | consulting group, photographic, ink/white monochrome, big numbers band | |
-| Secondary | KVC Partners, https://www.kvcp.jp/ | recruiting analytics firm, fixed left index, light/dark flips | |
+| Main (80% target) | W Bridge Advisory, https://wbridge-advisory.co.jp/ | consulting group, photographic, ink/white monochrome, big numbers band |  T1 split hero row + dark framed window (p01, parallax) into ink band; T2 uppercase mask titles; T3 IN NUMBERS band; colour/spacing/radius tokens 1:1 (design-spec §1, §13) |
+| Secondary | KVC Partners, https://www.kvcp.jp/ | recruiting analytics firm, fixed left index, light/dark flips |  People page only: grey inactive name index (#A09E9F → ink on hover) |
 Not used (already used elsewhere): see /tmp list in stage-a.md. Screens: ref/wb-first.png, ref/kv-first.png, ref/scroll-*.png. Tokens: reference-tokens.md.
 
 ## Signature candidates (shape, composition, position)
 | # | Candidate | Our mapping |
 |---|---|---|
-| 1 | Short two-column hero row (3-line headline left, hairline, small lead + news pill right) above one 1340×900 dark media block that widens to full bleed as it reaches the top | |
-| 2 | "IN NUMBERS" band: ink ground, giant 150px figures with vertical-rl caption scattered on a loose grid, photos drifting past | |
-| 3 | 90px uppercase English section titles that rise out of a mask line, with Japanese subtitle below | |
-| 4 | Two-column service list, second column dropped 330px, photo 8:7 + eyebrow + title + arrow square | |
-| 5 (KVC) | Fixed left index list (active item dark, others grey) and vertical ticker rail on the right edge | |
+| 1 | Short two-column hero row (3-line headline left, hairline, small lead + news pill right) above one 1340×900 dark media block that widens to full bleed as it reaches the top |  **T1** home blocks 2–3 + inner headers: 721/hairline/460 row, 1340×900 window p01 on white/ink split ground, sp-parallax 10 % |
+| 2 | "IN NUMBERS" band: ink ground, giant 150px figures with vertical-rl caption scattered on a loose grid, photos drifting past |  **T3** home block 6: 24 · 3 · 41 · 6 at 150px, vertical captions ≥782px, sp-stagger + sp-count, sp-marquee p07–p10 |
+| 3 | 90px uppercase English section titles that rise out of a mask line, with Japanese subtitle below |  **T2** every section / inner title: Instrument Serif 90px uppercase + 12px #A09E9F eyebrow, sp-reveal--wipe .6s |
+| 4 | Two-column service list, second column dropped 330px, photo 8:7 + eyebrow + title + arrow square |  Home METHOD + Services page: 2×630, gap 80, −330px drop, 8:7 photos p03–p06 with sp-reveal--zoom |
+| 5 (KVC) | Fixed left index list (active item dark, others grey) and vertical ticker rail on the right edge |  Index list only (People page); no fixed left nav, no ticker rail |
 
 ## Scroll effects (before/after: ref/scroll-wb-*.png, scroll-kv-*.png)
 | Site | Effect | Trigger | Position | Duration / ease | Distance | Library |
