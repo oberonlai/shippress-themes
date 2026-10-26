@@ -51,3 +51,46 @@ function nuno_workwear_pattern_categories() {
 	);
 }
 add_action( 'init', 'nuno_workwear_pattern_categories' );
+
+/**
+ * Re-add per-cell data-label attributes to list tables at render time
+ * (core/table strips them on save, which made the blocks invalid).
+ */
+function nuno_workwear_table_labels( $content, $block ) {
+	if ( false === strpos( $content, 'nw-list--' ) ) {
+		return $content;
+	}
+	return nuno_workwear_label_cells( $content );
+}
+
+function nuno_workwear_label_cells( $html ) {
+	if ( ! preg_match( '#<thead>.*?</thead>#s', $html, $head ) ) {
+		return $html;
+	}
+	preg_match_all( '#<th[^>]*>(.*?)</th>#s', $head[0], $th );
+	$labels = array_map( 'wp_strip_all_tags', $th[1] );
+	return preg_replace_callback(
+		'#<tbody>.*?</tbody>#s',
+		static function ( $body ) use ( $labels ) {
+			return preg_replace_callback(
+				'#<tr>(.*?)</tr>#s',
+				static function ( $row ) use ( $labels ) {
+					$i = 0;
+					$cells = preg_replace_callback(
+						'#<td(?![^>]*data-label)([^>]*)>#',
+						static function ( $m ) use ( $labels, &$i ) {
+							$l = isset( $labels[ $i ] ) ? $labels[ $i ] : '';
+							$i++;
+							return '<td data-label="' . esc_attr( $l ) . '"' . $m[1] . '>';
+						},
+						$row[1]
+					);
+					return '<tr>' . $cells . '</tr>';
+				},
+				$body[0]
+			);
+		},
+		$html
+	);
+}
+add_filter( 'render_block_core/table', 'nuno_workwear_table_labels', 10, 2 );
