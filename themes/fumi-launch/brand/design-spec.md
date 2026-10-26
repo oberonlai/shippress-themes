@@ -149,11 +149,11 @@ Home photos: **I1, I6, I4, I2, I3, I7, I5, I13, I12, I11 = 10 positions** (≥ 8
 
 ## 5. Colour
 
-From yoichi (relationships and roles). The field is changed from ultramarine to rikyu-nezumi green because (a) the row palette is 利休鼠 #6F7765, and (b) the reference's saturated share is 83% while our gate is ≤ 15%. Ivory, accent and band stay within ±5% lightness of the reference.
+From yoichi (relationships and roles). The field is changed from ultramarine to rikyu-nezumi green because (a) the row palette is rikyu-nezumi #6F7765, and (b) the reference's saturated share is 83% while our gate is ≤ 15%. Ivory, accent and band stay within ±5% lightness of the reference.
 
 | Role | Hex | Source token | Share of page |
 |---|---|---|---|
-| Field (base) | `#3E453A` | ref field #003F8B 73% → 利休鼠 deep | ≈ 65% |
+| Field (base) | `#3E453A` | ref field #003F8B 73% → rikyu-nezumi deep | ≈ 65% |
 | Mid tone (hover, secondary rules, rail active) | `#6F7765` | row hex | ≈ 3% |
 | Ivory (display, text on field, paper sections) | `#FAF8EA` | ref #FFFFED (L 96.5% → 94.9%) | ≈ 20% incl. paper sections |
 | Accent persimmon | `#F26B3A` | ref #F26B3A (as is) | ≤ 2% (Essays, name, stamp ring, arrows) |
@@ -167,7 +167,7 @@ Contrast: ivory on field 9.6:1; persimmon on field 3.0:1 → **only ≥ 24px or 
 
 ## 6. Type (font_direction = serif)
 
-- Latin display: **Gloock 400** (Google Fonts, OFL). Latin body/labels: **Public Sans 400/600/700**. CJK: **Noto Serif TC / Noto Serif JP 400/700** (明體) for both headings and body in zh-TW / ja; no Noto Sans anywhere.
+- Latin display: **Gloock 400** (Google Fonts, OFL). Latin body/labels: **Public Sans 400/600/700**. CJK: **Noto Serif TC / Noto Serif JP 400/700** (Ming serif) for both headings and body in zh-TW / ja; no Noto Sans anywhere.
 - Stacks (theme.json fontFamilies, all loaded by `fontFace` from `assets/fonts/`, so the editor iframe and the front end match; zh-TW / ja subsets by the Hokuto / Hada method; `inc/editor-lang.php` copied if style.css uses `:lang(`):
   - `display`: `"Gloock", "Noto Serif TC", "Noto Serif JP", Georgia, serif`; `:lang(ja)` → `"Gloock", "Noto Serif JP", "Noto Serif TC", serif`
   - `body`: `"Public Sans", "Noto Serif TC", "Noto Serif JP", system-ui, sans-serif`; `:lang(ja)` swaps TC/JP order; `:lang(zh-TW|ja)` body line-height 1.85, CJK size ≈ 0.75× of en display sizes.
@@ -200,7 +200,7 @@ Fr / de: `hyphens:auto`. CJK headings never use letter-spacing > .04em.
 ## 8. Images (15, one STYLE, photo)
 
 **Imagery: photo** (per stage-a IMAGERY). STYLE (identical for every image):
-`Film-grain 35mm colour photograph, Kodak Portra 400 look with fine visible grain, soft natural window light, high-key where possible, muted sage greens, warm off-whites and deep green-grey shadows, gentle contrast, shallow depth of field, quiet documentary mood, modern international city setting, diverse people when present, no text, no readable writing, no logos, no brand marks, no signage, no Japanese elements.`
+`Film-grain 35mm colour photograph, warm fine-grain portrait-film look with fine visible grain, soft natural window light, high-key where possible, muted sage greens, warm off-whites and deep green-grey shadows, gentle contrast, shallow depth of field, quiet documentary mood, modern international city setting, diverse people when present, no text, no readable writing, no logos, no brand marks, no signage, no Japanese elements.`
 Book pages and covers must be blank or show blurred unreadable lines. ≤ 2000px, ≤ 300 KB webp, no cut-outs.
 
 | # | File | Subject / composition | Ratio | Used on |

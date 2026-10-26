@@ -1,5 +1,7 @@
 # Fumi Press Launch: brand
 
+The name of the press is Fumi Press. Its audience is readers of quiet personal essays who pre-order one book and come to small launch readings.
+
 ## Story
 Fumi Press was founded in 2014 as an independent essay publisher with its studio in Da'an District, Taipei. That same year, author Clara Hsu published her first essay in an independent small-press zine before establishing a long-term collaboration with editor Tomas Reyes. Working alongside book designer Noor Haddad and photographer Jun Park, the press dedicated its Da'an studio to publishing carefully crafted essay editions that honor the quiet details of solitary observation and city life.
 
