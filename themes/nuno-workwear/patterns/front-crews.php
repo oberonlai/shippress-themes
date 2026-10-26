@@ -13,22 +13,22 @@
 <div class="wp-block-group nw-in"><!-- wp:group {"className":"nw-hs","layout":{"type":"default"}} -->
 <div class="wp-block-group nw-hs"><!-- wp:group {"className":"nw-hs__l","layout":{"type":"default"}} -->
 <div class="wp-block-group nw-hs__l"><!-- wp:paragraph {"className":"nw-eyebrow"} -->
-<p class="nw-eyebrow">(CREW STORIES)</p>
+<p class="nw-eyebrow"><?php echo wp_kses_post( nuno_workwear_t( 'k14200f70' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"nw-h2"} -->
-<h2 class="wp-block-heading nw-h2">WORN ON THE JOB</h2>
+<h2 class="wp-block-heading nw-h2"><?php echo wp_kses_post( nuno_workwear_t( 'k580af25a' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nw-hs__r","layout":{"type":"default"}} -->
 <div class="wp-block-group nw-hs__r"><!-- wp:paragraph {"className":"nw-lead"} -->
-<p class="nw-lead">Three crews, three kits: how each one was fitted and what has worn out since.</p>
+<p class="nw-lead"><?php echo wp_kses_post( nuno_workwear_t( 'k3669bc8f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"nw-btns"} -->
 <div class="wp-block-buttons nw-btns"><!-- wp:button {"className":"nw-btn nw-btn--outline"} -->
-<div class="wp-block-button nw-btn nw-btn--outline"><a class="wp-block-button__link wp-element-button" href="/stories/">Read crew stories</a></div>
+<div class="wp-block-button nw-btn nw-btn--outline"><a class="wp-block-button__link wp-element-button" href="/stories/"><?php echo wp_kses_post( nuno_workwear_t( 'k10bc66d7' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -39,55 +39,55 @@
 <div class="wp-block-group nw-crews__row sp-reveal sp-reveal--up"><!-- wp:group {"className":"nw-crews__track","layout":{"type":"default"}} -->
 <div class="wp-block-group nw-crews__track"><!-- wp:group {"className":"nw-crew","layout":{"type":"default"}} -->
 <div class="wp-block-group nw-crew"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13.webp' ) ); ?>" alt="Three joiners wearing canvas work trousers standing together in a timber woodshop."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13.webp' ) ); ?>" alt="<?php echo esc_attr( nuno_workwear_t( 'a34b48f1b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"nw-crew__name"} -->
-<h3 class="wp-block-heading nw-crew__name">Vos Joinery</h3>
+<h3 class="wp-block-heading nw-crew__name"><?php echo wp_kses_post( nuno_workwear_t( 'k5ea7388a' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nw-crew__txt"} -->
-<p class="nw-crew__txt">Twelve workshop joiners in double-knee canvas trousers and waxed field jackets, fitted over two visits and delivered in ten working days.</p>
+<p class="nw-crew__txt"><?php echo wp_kses_post( nuno_workwear_t( 'kc38210e0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nw-crew__meta"} -->
-<p class="nw-crew__meta">12 people · 2 fittings</p>
+<p class="nw-crew__meta"><?php echo wp_kses_post( nuno_workwear_t( 'kac16f44f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nw-crew","layout":{"type":"default"}} -->
 <div class="wp-block-group nw-crew"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14.webp' ) ); ?>" alt="Kitchen team wearing bib aprons preparing prep stations before evening restaurant service."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14.webp' ) ); ?>" alt="<?php echo esc_attr( nuno_workwear_t( 'a5cc98ef2' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"nw-crew__name"} -->
-<h3 class="wp-block-heading nw-crew__name">Canal House Kitchen</h3>
+<h3 class="wp-block-heading nw-crew__name"><?php echo wp_kses_post( nuno_workwear_t( 'kc537c13e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nw-crew__txt"} -->
-<p class="nw-crew__txt">Eighteen prep cooks, line chefs and servers in 10 oz twill bib aprons with embroidered names for daily dinner service.</p>
+<p class="nw-crew__txt"><?php echo wp_kses_post( nuno_workwear_t( 'k4bcd0dd0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nw-crew__meta"} -->
-<p class="nw-crew__meta">18 people · embroidered names</p>
+<p class="nw-crew__meta"><?php echo wp_kses_post( nuno_workwear_t( 'kecc4bf36' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nw-crew","layout":{"type":"default"}} -->
 <div class="wp-block-group nw-crew"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p15.webp' ) ); ?>" alt="Grounds crew wearing waxed jackets loading maintenance tools into a work van."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p15.webp' ) ); ?>" alt="<?php echo esc_attr( nuno_workwear_t( 'ab892b18e' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"nw-crew__name"} -->
-<h3 class="wp-block-heading nw-crew__name">Westpark Grounds Team</h3>
+<h3 class="wp-block-heading nw-crew__name"><?php echo wp_kses_post( nuno_workwear_t( 'kc2443c92' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nw-crew__txt"} -->
-<p class="nw-crew__txt">Nine groundskeepers in waxed jackets, back in our Kadeweg workshop every autumn for re-proofing.</p>
+<p class="nw-crew__txt"><?php echo wp_kses_post( nuno_workwear_t( 'kb3adf7b0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nw-crew__meta"} -->
-<p class="nw-crew__meta">9 people · yearly re-proofing</p>
+<p class="nw-crew__meta"><?php echo wp_kses_post( nuno_workwear_t( 'k13d792f2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

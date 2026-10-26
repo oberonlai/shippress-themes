@@ -441,3 +441,25 @@ body::after {
 	.nw-list td[data-label]::before { content: attr(data-label) ": "; font-size: .8125rem; text-transform: uppercase; letter-spacing: .06em; color: var(--nw-main); font-weight: 600; }
 	.nw-list--3 td:last-child, .nw-list--4 td:last-child { text-align: left; padding-top: 0; font-size: 1rem; }
 }
+
+/* ---- languages: zh-TW / ja (Noto Sans, 黑體) and fr / de (hyphenation) */
+:root:lang(zh) { --nw-cjk: "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif; }
+:root:lang(ja) { --nw-cjk: "Noto Sans JP", "Noto Sans TC", system-ui, sans-serif; }
+:is(:lang(zh), :lang(ja)) :is(body, .nw-brand, .nw-nav, .nw-eyebrow, .nw-h2, .nw-h3, .nw-statement, .nw-hero__line, .nw-hero__tag, .nw-textlink a, .nw-btn .wp-block-button__link, .nw-foot__mark, .nw-foot__h) { font-family: var(--nw-cjk); }
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .06em; line-break: strict; }
+:lang(ja) body { letter-spacing: .08em; }
+:is(:lang(zh), :lang(ja)) :is(.nw-body, .nw-lead, .nw-hero__lead) { line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) :is(.nw-eyebrow, .nw-h2, .nw-nav, .nw-brand, .nw-brand a, .nw-textlink a, .nw-btn .wp-block-button__link, .nw-foot__mark, .nw-foot__mark a, .nw-foot__h, .nw-cue__word, .nw-hero__line) { text-transform: none; letter-spacing: .04em; }
+:is(:lang(zh), :lang(ja)) .nw-h2 { font-size: 2.125rem; line-height: 1.5; }
+:is(:lang(zh), :lang(ja)) .nw-h3, :is(:lang(zh), :lang(ja)) .nw-statement { font-size: 1.5rem; line-height: 1.6; }
+:is(:lang(zh), :lang(ja)) .nw-hero__line { font-size: clamp(3.2rem, 8.6vw, 8.25rem); line-height: 1.1; font-weight: 700; letter-spacing: .02em; }
+:is(:lang(zh), :lang(ja)) .nw-hero__tag { line-height: 1.7; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:lang(ja) :is(.nw-h2, .nw-h3, .nw-statement, .nw-hero__tag) { word-break: auto-phrase; }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) .nw-h2 { font-size: 1.625rem; }
+	:is(:lang(zh), :lang(ja)) .nw-h3, :is(:lang(zh), :lang(ja)) .nw-statement { font-size: 1.25rem; }
+}
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, h4, li) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .nw-hero__line { font-size: clamp(3.4rem, 10vw, 9.5rem); hyphens: none; }
+:is(:lang(fr), :lang(de)) .nw-h2 { font-size: clamp(2rem, 3.2vw, 2.5rem); }
