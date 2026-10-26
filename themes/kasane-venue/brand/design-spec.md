@@ -1,6 +1,6 @@
 # Kasane Venue: design spec (stage 1, binding for implementation)
 
-Slug `kasane-venue`. Wedding venue in a daylit former wool-exchange hall. Business type (WooCommerce declared compatible, not required). Design-plan row b13-3: archetype editorial-magazine, nav overlay, real photography with film grain, palette 鳩羽鼠 `#6E6578`, fonts Fraunces / Figtree, font_direction **serif**, page_structure booking-led.
+Slug `kasane-venue`. Wedding venue in a daylit former wool-exchange hall. Business type (WooCommerce declared compatible, not required). Design-plan row b13-3: archetype editorial-magazine, nav overlay, real photography with film grain, palette kyubai-nezu `#6E6578`, fonts Fraunces / Figtree, font_direction **serif**, page_structure booking-led.
 
 Main reference: **The Day Osaka, https://theday.osaka/** (garden resort hotel; S5-Style hospitality). Secondary (motion mood only): https://musu-sauna.com/. Measurements: `reference-tokens.md` (cited below as RT(a)…RT(g)). Screenshots: `ref/*.png`.
 We borrow the structure, the shapes, the colour relationships, the motion values **and the key visual concept**. We do not copy their photographs, video, copy, logo or whole-page layout.
@@ -64,14 +64,14 @@ Every inner page = **page head with a static blob window (T1)** → body section
 | Ground | `#FFFFFF` | RT(a) ground | page, header, hero, stories, people, fees, footer | ≈ 62 % of first screen; ≈ 50 % of the page |
 | Ink | `#333333` | RT(a) ink | all text, nav, logo, menu button, arrows | text ≈ 3 % |
 | Wash 1 sage | `#CAE2D3` | RT(a) wash 1 | room block 4 (North Room), viewing banner panel, inner rows | wash sections ≈ 80 % of their screens |
-| Wash 2 peach | `#EFAE90` | RT(a) wash 2 | room block 5 (Long Hall) | 〃 |
-| Wash 3 mauve-brown | `#B5998E` | RT(a) wash 3 | room block 6 (Garden Court at dusk) | 〃 |
-| Wash 4 mist | `#98C2D2` | RT(a) wash 4 | room block 7 (Dressing Room) | 〃 |
-| Accent 鳩羽鼠 | `#6E6578` | design-plan row hex (replaces the reference's `#333` tab) | viewing tab, header "Viewing" pill hover fill, buttons, link hover, small label chip "Open day" | ≈ 2 % |
+| Wash 2 peach | `#EFAE90` | RT(a) wash 2 | room block 5 (Long Hall) | ditto |
+| Wash 3 mauve-brown | `#B5998E` | RT(a) wash 3 | room block 6 (Garden Court at dusk) | ditto |
+| Wash 4 mist | `#98C2D2` | RT(a) wash 4 | room block 7 (Dressing Room) | ditto |
+| Accent kyubai-nezu | `#6E6578` | design-plan row hex (replaces the reference's `#333` tab) | viewing tab, header "Viewing" pill hover fill, buttons, link hover, small label chip "Open day" | ≈ 2 % |
 | Muted text | `#5C5862` | ink lightened toward the accent | captions, meta, toast meta | — |
 | Line | `rgba(51,51,51,.2)` | RT(d) dividers | fee rows, footer rule | — |
 
-- Why the one change: the row's 鳩羽鼠 mauve-grey must be the brand colour; it takes exactly the role and area of the reference's dark tab (2 %), so the colour relationship (white + four pastel washes + one dark small field) is unchanged. The four washes are wedding-appropriate as they are (sage, peach, dusty rose-brown, mist are classic wedding pastels), so they are kept 1:1.
+- Why the one change: the row's kyubai-nezu mauve-grey must be the brand colour; it takes exactly the role and area of the reference's dark tab (2 %), so the colour relationship (white + four pastel washes + one dark small field) is unchanged. The four washes are wedding-appropriate as they are (sage, peach, dusty rose-brown, mist are classic wedding pastels), so they are kept 1:1.
 - Contrast: `#333` on `#B5998E` = 4.9:1 (OK for body), on the other washes ≥ 8:1; white on `#6E6578` = 5.6:1.
 - Not beige-led: white ground; no cream. Differs from the recent mains (Ayumi `#5F6348` olive, Kaname `#4A4036` brown, Isso grey `#F2F2F2`/`#2B2B2B`, Hakari red `#E8121F`).
 - **First-screen saturated share:** reference measured 1.5 % (RT(a)); hard cap from the row = 30 %; the pipeline gate `check-first-screen.py` = **15 %**; this spec's target **≤ 5 %**. The first screen is white + one film-grain photo in linen/oak/sage tones + a 2 % mauve tab; no coloured UI, no wash on the hero.
@@ -79,7 +79,7 @@ Every inner page = **page head with a static blob window (T1)** → body section
 ## 2b. Typography (font_direction: **serif**)
 - **Latin display / headings / logo:** **Fraunces** (variable; self-hosted woff2, axes wght + opsz; `font-variation-settings: "SOFT" 50, "WONK" 0`), weight **400 only** (RT(b): 400 everywhere, no bold).
 - **Latin body / nav / UI:** **Figtree** 400 (500 only for the toast title). Reference uses a neo-grotesque for everything; we keep the grotesque for body and nav (Figtree) and give headings the row's serif.
-- **CJK (serif direction = 明體 for headings *and* body, no 黑體 anywhere):** zh-TW `"Noto Serif TC"`, ja `"Noto Serif JP"`, weights 400 (+ 600 for nothing; load 400 only). Subsets for zh-TW / ja per the Hokuto / Hada method (the subset script is known broken).
+- **CJK (serif direction = Mincho serif for headings *and* body, no Gothic sans anywhere):** zh-TW `"Noto Serif TC"`, ja `"Noto Serif JP"`, weights 400 (+ 600 for nothing; load 400 only). Subsets for zh-TW / ja per the Hokuto / Hada method (the subset script is known broken).
 - Stacks (theme.json `fontFamilies`, each with `fontFace` entries pointing at `assets/fonts/*.woff2`; nothing loaded only via `wp_enqueue`):
   - `display`: `"Fraunces", "Noto Serif TC", "Noto Serif JP", Georgia, "Times New Roman", serif`
   - `body`: `"Figtree", "Noto Serif TC", "Noto Serif JP", system-ui, sans-serif`
@@ -150,7 +150,7 @@ Why not alike: no split hero, no framed rectangle hero, no rotation, no numberin
 ## Key visual concept
 
 ### (1) Reference first screen: concept, story, signature motion (theday.osaka)
-- **Drawn:** a white page with one organic blob window onto a daylit garden-hotel room: a single chair in terracotta upholstery in sharp focus in the foreground, trees and a cabin blurred behind, curtains at the edge. Header nav across the top, short heading "深く、過ごす" + a 4-line English statement bottom-left, a dark vertical "reservation" tab on the right edge, two small news toasts bottom-right.
+- **Drawn:** a white page with one organic blob window onto a daylit garden-hotel room: a single chair in terracotta upholstery in sharp focus in the foreground, trees and a cabin blurred behind, curtains at the edge. Header nav across the top, short heading ""Spend time deeply" (Japanese heading)" + a 4-line English statement bottom-left, a dark vertical "reservation" tab on the right edge, two small news toasts bottom-right.
 - **Story:** "Spend time deeply in the garden": every moment there is unrepeatable. The place is shown first through one soft window, a glimpse, and then opened to the whole room.
 - **Signature motion:** the blob outline morphs continuously (10 s per shape, easeInOutQuad); on the first wheel the page whites out (0.8 s), the clip is removed and the room appears full-bleed; later sections fade up 25 px over 1.2 s while the page ground changes colour per section.
 
@@ -160,7 +160,7 @@ Why not alike: no split hero, no framed rectangle hero, no rotation, no numberin
 - **Motion:** same blob morph (40 s cycle, 10 s per shape, easeInOutQuad); the "opening" becomes block 2's full-bleed hall photo with `sp-parallax` (the image moves slower than the page, like the reference full-bleed video under a fixed body); room rows reveal with `sp-reveal--up` 25 px / 1.2 s ease-out and photos with `sp-reveal--mask`; the ground changes colour per room.
 
 ### (3) KV checklist (all items in the first screen, visible at 1440 × 900)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Photo |
 |---|---|---|---|---|---|
 | 1 | White page with one organic blob window (≈ 680 × 750) onto a daylit room | Pebble blob window, white all around, ≈ 682 × 750, film-grain photo of the long linen table | centred, x 378–1060, y 85–835 (1440) | border-radius morph a→b→c→d, 10 s each, easeInOutQuad, loop; static in sp-static / reduced-motion / editor | **K1** |
 | 2 | Foreground chair sharp against a blurred garden | One chair pulled out at the table's near end, sharp; the rest of the table and the tall windows blurred | inside the blob, chair in the lower-left third of the photo | none | **K1** |
@@ -312,7 +312,7 @@ Not used: wipe, zoom, count, marquee. Hero: no reveal (only the CSS blob morph a
 4. Blocks 4–7: four blob photos (K3–K6), each a different shape, alternating left/right bleed, each touching the page edge, narrow 300 px text column opposite, on sage / peach / mauve-brown / mist in that order with no white gap between them.
 5. Blocks 8–12 as in §3; stories row with third photo bleeding right; people list (7 names) with no portrait grid; fees preview 4 rows with prices right-aligned nowrap and matching §8; viewing banner half photo / half sage.
 6. 13 photo positions on home, no image twice; all 17 images match STYLE, no text/logos/bad hands.
-7. Typography: Fraunces 400 headings, Figtree body, CJK Noto Serif TC / JP (明體) via theme.json fontFace; editor = front end; max size 4.25rem used.
+7. Typography: Fraunces 400 headings, Figtree body, CJK Noto Serif TC / JP (Mincho serif) via theme.json fontFace; editor = front end; max size 4.25rem used.
 8. Motion: only `sp-reveal--up`, `sp-stagger`, `sp-reveal--mask`, `sp-parallax`; hero has no reveal; `?sp-motion` scroll-to-bottom leaves nothing hidden; reduced-motion shows everything.
 9. 390 px: no horizontal overflow, no overlapping text, no vertical labels or toast/tab in the first screen; tables stacked.
 10. Signatures continue on Rooms, The Day, Food, Fees, Weddings, People, Building, Viewings, Visit (blob page head + bleeding blob rows on washes).

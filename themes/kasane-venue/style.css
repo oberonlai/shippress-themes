@@ -3,7 +3,7 @@ Theme Name: Kasane Venue
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/kasane-venue
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Kasane Venue is a calm, editorial WordPress block theme for a wedding venue in a daylit former hall. A single morphing blob window on a white page opens onto the hall, four rooms arrive in their own edge-bleeding blob photographs on pastel colour grounds, and a quiet kyubai-nezu accent carries the viewing request. Fraunces headings with Figtree text. Works without WooCommerce.
+Description: Kasane Venue is a calm, editorial WordPress theme created for a daylit wedding venue in a historic riverside wool-exchange hall. Rooted in organic blob windows, alternating edge-bleeding imagery, and delicate pastel washes, it pairs Fraunces serif headings with clean Figtree typography for an unhurried, booking-led experience.
 Version: 1.0.0
 Requires at least: 6.6
 Tested up to: 7.1
@@ -156,13 +156,13 @@ html.sp-no-motion .kv-blob--hero img, .editor-styles-wrapper .kv-blob--hero img 
 
 /* ------------------------------------------------ 2 opening: full-bleed hall with parallax */
 .kv-opening { min-height: min(90vh, 820px); padding: 0; --sp-par: 10%; }
-.kv-opening::after { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(to bottom, rgba(43, 39, 48, 0) 40%, rgba(43, 39, 48, .45)); pointer-events: none; }
-.kv-opening .wp-block-cover__inner-container { z-index: 2; width: 100%; padding: 0 var(--kv-side) 96px; box-sizing: border-box; color: #fff; }
+.kv-opening .wp-block-cover__background { background-image: linear-gradient(to bottom, rgba(43, 39, 48, 0) 40%, rgba(43, 39, 48, .45)); opacity: 1; }
+.wp-block-cover.kv-opening .wp-block-cover__inner-container { z-index: 2; width: 100%; padding: 0 var(--kv-side) 96px; box-sizing: border-box; color: #fff; }
 .kv-statement, .kv-statement.wp-block-heading { font-size: var(--wp--preset--font-size--huge); line-height: 1.05; letter-spacing: 0; color: #fff; }
 .kv-opening__line { color: #fff; font-size: 1rem; margin-top: 20px; }
 @media (max-width: 781px) {
 	.kv-opening { min-height: 70svh; --sp-par: 6%; }
-	.kv-opening .wp-block-cover__inner-container { padding: 0 24px 56px; }
+	.wp-block-cover.kv-opening .wp-block-cover__inner-container { padding: 0 24px 56px; }
 	.kv-statement, .kv-statement.wp-block-heading { font-size: 2.75rem; }
 }
 
@@ -242,8 +242,8 @@ html.sp-no-motion .kv-blob--hero img, .editor-styles-wrapper .kv-blob--hero img 
 
 /* ------------------------------------------------ 10 people */
 .kv-people { padding: 150px 0; background: #fff; }
-.kv-people__in { padding-left: var(--kv-side); }
-.kv-room--right.kv-people .kv-room__in { padding-left: var(--kv-side); }
+.kv-people .kv-room__in { flex-direction: row; padding: 0 0 0 var(--kv-side); }
+.kv-people .kv-room__fig { margin-left: 0; margin-right: -20px; }
 .kv-people__text { width: 300px; flex: none; }
 .kv-people__text > * + * { margin-top: 20px; }
 .kv-people .kv-room__fig { width: min(50vw, 720px); }
@@ -251,7 +251,8 @@ html.sp-no-motion .kv-blob--hero img, .editor-styles-wrapper .kv-blob--hero img 
 .kv-names__n { font-family: var(--wp--preset--font-family--display); font-size: .9375rem; }
 @media (max-width: 781px) {
 	.kv-people { padding: 72px 0 88px; }
-	.kv-room--right.kv-people .kv-room__in { padding-left: 0; flex-direction: column-reverse; }
+	.kv-people .kv-room__in { padding-left: 0; flex-direction: column-reverse; }
+	.kv-people .kv-room__fig { margin-left: auto; margin-right: -4vw; }
 	.kv-people__text { width: auto; padding: 0 24px; }
 	.kv-people .kv-room__fig { width: 92vw; }
 }

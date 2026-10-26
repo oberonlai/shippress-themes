@@ -6,8 +6,8 @@
  * Viewport Width: 1440
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"kv-people kv-room--right","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull kv-people kv-room--right">
+<!-- wp:group {"tagName":"section","className":"kv-people","align":"full","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kv-people">
 <!-- wp:group {"className":"kv-room__in kv-people__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-room__in kv-people__in">
 <!-- wp:group {"className":"kv-people__text","layout":{"type":"default"}} -->

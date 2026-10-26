@@ -35,7 +35,7 @@ Proportion on a scrolled section screen: wash ground ≈ 80 %, photo blob ≈ 14
 - Thumbnails 270×270 square (hover scale). News thumb 90×90.
 
 ## (f) Decoration
-- Fixed right-edge tab "ご予約 / reservation": 170 × 170 box, #333, white vertical text 14 px, x = 1395–1440, y 365–535. Bottom-right news toasts: 330 × 90 white cards with 90×90 thumb, 11 px date + tag, 13 px title. "View More →" text link with a 24 px thin arrow, 16 px. Custom stalker cursor: blob shape 0 → scale 1.3 on hover, follows with translate 1.2 s cubic-bezier(.25,1,.5,1). No numbering, no lines, no dots.
+- Fixed right-edge tab ""reservation" (Japanese) / reservation": 170 × 170 box, #333, white vertical text 14 px, x = 1395–1440, y 365–535. Bottom-right news toasts: 330 × 90 white cards with 90×90 thumb, 11 px date + tag, 13 px title. "View More →" text link with a 24 px thin arrow, 16 px. Custom stalker cursor: blob shape 0 → scale 1.3 on hover, follows with translate 1.2 s cubic-bezier(.25,1,.5,1). No numbering, no lines, no dots.
 
 ## (g) Motion
 - Smooth scroll: Lenis default (lerp ≈ 0.1).
