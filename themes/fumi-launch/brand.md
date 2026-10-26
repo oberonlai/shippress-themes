@@ -42,4 +42,4 @@ The voice of Fumi Press is calm, observant, and quietly documentary, reflecting 
 - **Hanna Weber** (Reader & Berlin Launch Host): Hanna Weber is an early reader of Small Hours and an active participant in Berlin reading circles. She joins Clara Hsu for the reading and book-club evening at Lesesaal Nord.
 
 ## Pages
-Home (stage 1). Inner pages (The Book, Excerpt, Author, Editions, Readings, Book Clubs, FAQ, Press, Newsletter, Privacy, Terms, Thanks) follow in stage 2.
+Home plus twelve inner pages (The Book, Excerpt, Author, Editions, Readings, Book Clubs, FAQ, Press, Newsletter, Privacy, Terms, Thanks) and one article (Four Years at a Corner Table), all built in stage 2 (en). Every inner head repeats the framed-window photo with the title crossing it and the rotating pre-order stamp.
