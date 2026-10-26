@@ -22,7 +22,7 @@
 <div class="wp-block-group kw-strip__row">
 <!-- wp:group {"className":"kw-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-card" id="kw-card-1"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p1-aldren-square.webp' ); ?>" alt="Square steel watch with cream dial and tan leather strap centered on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p1-aldren-square.webp' ); ?>" alt="Square steel watch with cream dial and tan leather strap centered on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-card__tab"} -->
@@ -46,7 +46,7 @@
 
 <!-- wp:group {"className":"kw-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-card" id="kw-card-2"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p2-nordhaven-tide.webp' ); ?>" alt="Round steel automatic watch with slate dial and link bracelet lying on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p2-nordhaven-tide.webp' ); ?>" alt="Round steel automatic watch with slate dial and link bracelet lying on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-card__tab"} -->
@@ -70,7 +70,7 @@
 
 <!-- wp:group {"className":"kw-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-card" id="kw-card-3"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p3-vell-field.webp' ); ?>" alt="Round steel field watch with matt black dial and olive strap on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p3-vell-field.webp' ); ?>" alt="Round steel field watch with matt black dial and olive strap on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-card__tab"} -->
@@ -94,7 +94,7 @@
 
 <!-- wp:group {"className":"kw-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-card" id="kw-card-4"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p4-corvo-dress.webp' ); ?>" alt="Round steel dress watch with silver dial and brown calf strap on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p4-corvo-dress.webp' ); ?>" alt="Round steel dress watch with silver dial and brown calf strap on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-card__tab"} -->
@@ -118,7 +118,7 @@
 
 <!-- wp:group {"className":"kw-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-card" id="kw-card-5"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p5-calendar-35.webp' ); ?>" alt="Vintage steel watch featuring date window and brown suede strap resting on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p5-calendar-35.webp' ); ?>" alt="Vintage steel watch featuring date window and brown suede strap resting on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-card__tab"} -->

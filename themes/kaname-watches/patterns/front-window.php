@@ -16,7 +16,7 @@
 <!-- /wp:image -->
 
 <!-- wp:html -->
-<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k3-slate-and-loupe.webp' ); ?>" alt="Round steel watch with slate dial resting on dark felt beside small brass loupe." loading="lazy"/></figure>
+<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k3-slate-and-loupe.webp' ); ?>" alt="Round steel watch with slate dial resting on dark felt beside small brass loupe."/></figure>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
@@ -26,7 +26,7 @@
 <!-- /wp:image -->
 
 <!-- wp:html -->
-<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k4-buckle.webp' ); ?>" alt="Hand fastening the leather buckle of a round watch on a wrist over the reflective glass counter." loading="lazy"/></figure>
+<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k4-buckle.webp' ); ?>" alt="Hand fastening the leather buckle of a round watch on a wrist over the reflective glass counter."/></figure>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 

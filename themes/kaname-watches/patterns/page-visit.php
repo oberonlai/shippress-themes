@@ -71,7 +71,7 @@
 <!-- wp:group {"className":"kw-row__photo sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-row__photo sp-reveal"><!-- wp:group {"className":"kw-photo kw-photo--land","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-photo kw-photo--land"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k2-wrist-on-tray.webp' ); ?>" alt="A visitor wrist in an oatmeal knit sleeve on the felt tray while a hand slides a second watch toward it." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k2-wrist-on-tray.webp' ); ?>" alt="A visitor wrist in an oatmeal knit sleeve on the felt tray while a hand slides a second watch toward it."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-bar-cap--photo","layout":{"type":"default"}} -->
@@ -91,7 +91,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kw-tray-sec","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull kw-tray-sec"><!-- wp:group {"align":"wide","className":"kw-tray sp-parallax kw-tray--visit","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide kw-tray sp-parallax kw-tray--visit"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-bar-cap--band","layout":{"type":"default"}} -->
@@ -111,13 +111,13 @@
 <h2 class="wp-block-heading has-text-align-center kw-h kw-h--sec">HOURS AND HOW TO FIND US</h2>
 <!-- /wp:heading -->
 
-<!-- wp:table {"align":"wide","className":"kw-prices"} -->
+<!-- wp:html -->
 <figure class="wp-block-table alignwide kw-prices"><table class="has-fixed-layout"><tbody>
 <tr><td class="kw-prices__name">Tuesday – Friday</td><td class="kw-prices__note">Thursday open until 20:00</td><td class="kw-prices__price">11:00–18:00</td></tr>
 <tr><td class="kw-prices__name">Saturday</td><td class="kw-prices__note">with Jonas Albrecht</td><td class="kw-prices__price">10:00–17:00</td></tr>
 <tr><td class="kw-prices__name">Sunday – Monday</td><td class="kw-prices__note">closed</td><td class="kw-prices__price">—</td></tr>
 </tbody></table></figure>
-<!-- /wp:table -->
+<!-- /wp:html -->
 
 <!-- wp:group {"className":"kw-prose-col","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-prose-col"><!-- wp:paragraph -->
@@ -145,7 +145,7 @@
 <div class="wp-block-group alignwide kw-tiles sp-stagger">
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="Overhead felt tray with twelve slots, five holding watches and seven empty." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="Overhead felt tray with twelve slots, five holding watches and seven empty."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -155,7 +155,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="A watchmaker loupe held over an open mechanical movement on a bench mat." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="A watchmaker loupe held over an open mechanical movement on a bench mat."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -165,7 +165,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -175,7 +175,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k11-tide-by-window.webp' ); ?>" alt="A wrist wearing a round slate-dial watch on a dark wooden table by a rain-streaked window." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k11-tide-by-window.webp' ); ?>" alt="A wrist wearing a round slate-dial watch on a dark wooden table by a rain-streaked window."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->

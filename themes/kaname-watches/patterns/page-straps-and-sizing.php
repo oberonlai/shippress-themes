@@ -45,7 +45,7 @@
 <div class="wp-block-group alignwide kw-row kw-row--photo-first kw-row--7-5"><!-- wp:group {"className":"kw-row__photo sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-row__photo sp-reveal"><!-- wp:group {"className":"kw-photo kw-photo--land","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-photo kw-photo--land"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k10-square-left-wrist.webp' ); ?>" alt="A slim left wrist wearing a small square watch with the crown on the left, white shirt cuff." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k10-square-left-wrist.webp' ); ?>" alt="A slim left wrist wearing a small square watch with the crown on the left, white shirt cuff."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-bar-cap--photo","layout":{"type":"default"}} -->
@@ -81,13 +81,13 @@
 <h2 class="wp-block-heading has-text-align-center kw-h kw-h--sec">SIZING</h2>
 <!-- /wp:heading -->
 
-<!-- wp:table {"align":"wide","className":"kw-prices"} -->
+<!-- wp:html -->
 <figure class="wp-block-table alignwide kw-prices"><table class="has-fixed-layout"><tbody>
 <tr><td class="kw-prices__name">14 – 15.5 cm</td><td class="kw-prices__note">Small</td><td class="kw-prices__price">€85</td></tr>
 <tr><td class="kw-prices__name">16 – 17.5 cm</td><td class="kw-prices__note">Medium</td><td class="kw-prices__price">€85</td></tr>
 <tr><td class="kw-prices__name">18 – 19 cm</td><td class="kw-prices__note">Large</td><td class="kw-prices__price">€85</td></tr>
 </tbody></table></figure>
-<!-- /wp:table -->
+<!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"kw-note"} -->
 <p class="kw-note">Strap by Rafael Ortega, calf or suede, €85. Sizing is €15, and free with any watch from the list; a strap change is €20.</p>
@@ -127,7 +127,7 @@
 <div class="wp-block-group alignwide kw-tiles sp-stagger">
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="Overhead felt tray with twelve slots, five holding watches and seven empty." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="Overhead felt tray with twelve slots, five holding watches and seven empty."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -137,7 +137,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -147,7 +147,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -157,7 +157,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->

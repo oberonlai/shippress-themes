@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kw-sec kw-choose","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull kw-sec kw-choose"><!-- wp:group {"align":"wide","className":"kw-row kw-row--photo-first","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide kw-row kw-row--photo-first"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-row__photo sp-reveal"} -->
-<figure class="wp-block-image size-full kw-row__photo sp-reveal"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands using specialised tools to open a caseback under a warm bench work lamp." loading="lazy"/></figure>
+<figure class="wp-block-image size-full kw-row__photo sp-reveal"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands using specialised tools to open a caseback under a warm bench work lamp."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-row__text sp-reveal","layout":{"type":"default"}} -->

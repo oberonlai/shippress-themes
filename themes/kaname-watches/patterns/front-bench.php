@@ -17,14 +17,14 @@
 <p>Every mechanical watch requires periodic care to preserve its timing and lubrication. At our Ghent service bench, Tomasz Wrona handles adjustments, strap fitting, and complete mechanical overhauls using proper tools and original parts.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:table {"align":"wide","className":"kw-prices"} -->
+<!-- wp:html -->
 <figure class="wp-block-table alignwide kw-prices"><table class="has-fixed-layout"><tbody>
 <tr><td class="kw-prices__name">Leather strap by Rafael Ortega</td><td class="kw-prices__note">calf or suede, made to your wrist</td><td class="kw-prices__price">€85</td></tr>
 <tr><td class="kw-prices__name">Timing check and demagnetising</td><td class="kw-prices__note">same day</td><td class="kw-prices__price">€45</td></tr>
 <tr><td class="kw-prices__name">Full service, hand-wound</td><td class="kw-prices__note">4–6 weeks, 12-month warranty</td><td class="kw-prices__price">€290</td></tr>
 <tr><td class="kw-prices__name">Full service, automatic</td><td class="kw-prices__note">4–6 weeks, 12-month warranty</td><td class="kw-prices__price">€340</td></tr>
 </tbody></table></figure>
-<!-- /wp:table -->
+<!-- /wp:html -->
 
 <!-- wp:paragraph {"align":"center","className":"is-style-text-link"} -->
 <p class="has-text-align-center is-style-text-link"><a href="/the-bench/">THE BENCH</a></p>

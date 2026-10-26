@@ -16,7 +16,7 @@
 <!-- /wp:image -->
 
 <!-- wp:html -->
-<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light." loading="lazy"/></figure>
+<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light."/></figure>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
@@ -26,7 +26,7 @@
 <!-- /wp:image -->
 
 <!-- wp:html -->
-<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k1-square-on-felt.webp' ); ?>" alt="Square steel mechanical watch with a cream dial lying on dark felt inside the glass counter." loading="lazy"/></figure>
+<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k1-square-on-felt.webp' ); ?>" alt="Square steel mechanical watch with a cream dial lying on dark felt inside the glass counter."/></figure>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 

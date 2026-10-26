@@ -13,7 +13,7 @@
 <div class="wp-block-group alignwide kw-tiles sp-stagger">
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="A watchmaker loupe held over an open mechanical movement on a bench mat." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="A watchmaker loupe held over an open mechanical movement on a bench mat."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -23,7 +23,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -33,7 +33,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -43,7 +43,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->

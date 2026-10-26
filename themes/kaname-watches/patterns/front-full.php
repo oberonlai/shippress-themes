@@ -20,7 +20,7 @@
 <p class="kw-chapter__label">I · HAND-WOUND · 28 MM</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"className":"kw-chapter__name"} -->
+<!-- wp:heading {"level":3,"className":"kw-chapter__name"} -->
 <h3 class="wp-block-heading kw-chapter__name">SQUARE 28</h3>
 <!-- /wp:heading -->
 
@@ -43,7 +43,7 @@
 
 <!-- wp:group {"className":"kw-photo kw-row__photo sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-photo kw-row__photo sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k10-square-left-wrist.webp' ); ?>" alt="Left wrist in a white cuff wearing a square watch with the crown on the left side." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k10-square-left-wrist.webp' ); ?>" alt="Left wrist in a white cuff wearing a square watch with the crown on the left side."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-bar-cap--photo","layout":{"type":"default"}} -->
@@ -63,7 +63,7 @@
 <div class="wp-block-group alignwide kw-row kw-row--photo-first">
 <!-- wp:group {"className":"kw-photo kw-row__photo sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-photo kw-row__photo sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k11-tide-by-window.webp' ); ?>" alt="Wrist wearing a round slate watch resting on a dark wooden table beside a rainy window pane." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k11-tide-by-window.webp' ); ?>" alt="Wrist wearing a round slate watch resting on a dark wooden table beside a rainy window pane."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-bar-cap--photo","layout":{"type":"default"}} -->
@@ -82,7 +82,7 @@
 <p class="kw-chapter__label">II · AUTOMATIC · 39 MM</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"className":"kw-chapter__name"} -->
+<!-- wp:heading {"level":3,"className":"kw-chapter__name"} -->
 <h3 class="wp-block-heading kw-chapter__name">TIDE 39</h3>
 <!-- /wp:heading -->
 

@@ -45,7 +45,7 @@
 <div class="wp-block-group alignwide kw-row kw-row--photo-first kw-row--7-5"><!-- wp:group {"className":"kw-row__photo sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-row__photo sp-reveal"><!-- wp:group {"className":"kw-photo kw-photo--land","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-photo kw-photo--land"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="A watchmaker loupe held over an open mechanical movement on a bench mat." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="A watchmaker loupe held over an open mechanical movement on a bench mat."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-bar-cap--photo","layout":{"type":"default"}} -->
@@ -81,7 +81,7 @@
 <h2 class="wp-block-heading has-text-align-center kw-h kw-h--sec">SERVICE PRICES</h2>
 <!-- /wp:heading -->
 
-<!-- wp:table {"align":"wide","className":"kw-prices"} -->
+<!-- wp:html -->
 <figure class="wp-block-table alignwide kw-prices"><table class="has-fixed-layout"><tbody>
 <tr><td class="kw-prices__name">Visit and fitting at the counter</td><td class="kw-prices__note">45 minutes, by appointment</td><td class="kw-prices__price">Free</td></tr>
 <tr><td class="kw-prices__name">Bracelet or strap sizing</td><td class="kw-prices__note">free with any watch from the list</td><td class="kw-prices__price">€15</td></tr>
@@ -92,7 +92,7 @@
 <tr><td class="kw-prices__name">Full service, automatic</td><td class="kw-prices__note">4–6 weeks, 12-month warranty</td><td class="kw-prices__price">€340</td></tr>
 <tr><td class="kw-prices__name">Crystal replacement</td><td class="kw-prices__note">mineral or sapphire</td><td class="kw-prices__price">from €60</td></tr>
 </tbody></table></figure>
-<!-- /wp:table -->
+<!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"kw-note"} -->
 <p class="kw-note">Timing check the same day. Full service takes 4–6 weeks. Warranty: 2 years on new watches, 12 months on pre-owned watches and on every full service.</p>
@@ -136,7 +136,7 @@
 <div class="wp-block-group alignwide kw-tiles sp-stagger">
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="Overhead felt tray with twelve slots, five holding watches and seven empty." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="Overhead felt tray with twelve slots, five holding watches and seven empty."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -146,7 +146,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -156,7 +156,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k4-buckle.webp' ); ?>" alt="A hand closing the buckle of a brown leather strap on a wrist wearing a round watch." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k4-buckle.webp' ); ?>" alt="A hand closing the buckle of a brown leather strap on a wrist wearing a round watch."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -166,7 +166,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->

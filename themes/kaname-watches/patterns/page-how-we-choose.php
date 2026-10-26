@@ -45,7 +45,7 @@
 <div class="wp-block-group alignwide kw-row kw-row--photo-first kw-row--7-5"><!-- wp:group {"className":"kw-row__photo sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-row__photo sp-reveal"><!-- wp:group {"className":"kw-photo kw-photo--land","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-photo kw-photo--land"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k3-slate-and-loupe.webp' ); ?>" alt="Round steel watch with a slate dial on dark felt beside a small brass loupe." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k3-slate-and-loupe.webp' ); ?>" alt="Round steel watch with a slate dial on dark felt beside a small brass loupe."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-bar-cap--photo","layout":{"type":"default"}} -->
@@ -123,7 +123,7 @@
 <!-- wp:group {"className":"kw-row__photo sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-row__photo sp-reveal"><!-- wp:group {"className":"kw-photo kw-photo--land","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-photo kw-photo--land"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k6-two-on-felt.webp' ); ?>" alt="Two mechanical watches lying side by side on dark felt, seen from above." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k6-two-on-felt.webp' ); ?>" alt="Two mechanical watches lying side by side on dark felt, seen from above."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-bar-cap--photo","layout":{"type":"default"}} -->
@@ -169,7 +169,7 @@
 <div class="wp-block-group alignwide kw-tiles sp-stagger">
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="Overhead felt tray with twelve slots, five holding watches and seven empty." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="Overhead felt tray with twelve slots, five holding watches and seven empty."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -179,7 +179,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -189,7 +189,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p5-calendar-35.webp' ); ?>" alt="Vintage 35 mm steel watch with a date window and brown suede strap on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p5-calendar-35.webp' ); ?>" alt="Vintage 35 mm steel watch with a date window and brown suede strap on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -199,7 +199,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->

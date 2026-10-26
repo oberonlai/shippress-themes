@@ -16,7 +16,7 @@
 <!-- /wp:image -->
 
 <!-- wp:html -->
-<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light." loading="lazy"/></figure>
+<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light."/></figure>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
@@ -26,7 +26,7 @@
 <!-- /wp:image -->
 
 <!-- wp:html -->
-<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k1-square-on-felt.webp' ); ?>" alt="Square steel mechanical watch with a cream dial lying on dark felt inside the glass counter." loading="lazy"/></figure>
+<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k1-square-on-felt.webp' ); ?>" alt="Square steel mechanical watch with a cream dial lying on dark felt inside the glass counter."/></figure>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
@@ -61,7 +61,7 @@
 <div class="wp-block-group alignwide kw-shop sp-reveal">
 <!-- wp:group {"className":"kw-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-card" id="kw-card-1"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p1-aldren-square.webp' ); ?>" alt="Square steel watch with a cream dial and tan calf strap centred on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p1-aldren-square.webp' ); ?>" alt="Square steel watch with a cream dial and tan calf strap centred on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-card__tab"} -->
@@ -85,7 +85,7 @@
 
 <!-- wp:group {"className":"kw-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-card" id="kw-card-2"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p2-nordhaven-tide.webp' ); ?>" alt="Round 39 mm steel watch with a slate dial on a steel bracelet on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p2-nordhaven-tide.webp' ); ?>" alt="Round 39 mm steel watch with a slate dial on a steel bracelet on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-card__tab"} -->
@@ -109,7 +109,7 @@
 
 <!-- wp:group {"className":"kw-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-card" id="kw-card-3"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p3-vell-field.webp' ); ?>" alt="Round 36 mm steel watch with a matt black dial and olive canvas strap on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p3-vell-field.webp' ); ?>" alt="Round 36 mm steel watch with a matt black dial and olive canvas strap on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-card__tab"} -->
@@ -133,7 +133,7 @@
 
 <!-- wp:group {"className":"kw-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-card" id="kw-card-4"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p4-corvo-dress.webp' ); ?>" alt="Round 34 mm steel dress watch with a silver dial and brown calf strap on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p4-corvo-dress.webp' ); ?>" alt="Round 34 mm steel dress watch with a silver dial and brown calf strap on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-card__tab"} -->
@@ -157,7 +157,7 @@
 
 <!-- wp:group {"className":"kw-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-card" id="kw-card-5"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p5-calendar-35.webp' ); ?>" alt="Vintage 35 mm steel watch with a date window and brown suede strap on dark felt." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'p5-calendar-35.webp' ); ?>" alt="Vintage 35 mm steel watch with a date window and brown suede strap on dark felt."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-card__tab"} -->
@@ -209,7 +209,7 @@
 <div class="wp-block-group alignwide kw-tiles sp-stagger">
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="A watchmaker loupe held over an open mechanical movement on a bench mat." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="A watchmaker loupe held over an open mechanical movement on a bench mat."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -219,7 +219,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -229,7 +229,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
@@ -239,7 +239,7 @@
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k11-tide-by-window.webp' ); ?>" alt="A wrist wearing a round slate-dial watch on a dark wooden table by a rain-streaked window." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k11-tide-by-window.webp' ); ?>" alt="A wrist wearing a round slate-dial watch on a dark wooden table by a rain-streaked window."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->

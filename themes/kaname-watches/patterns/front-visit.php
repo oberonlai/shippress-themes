@@ -12,7 +12,7 @@
 <section class="wp-block-group alignfull kw-visit-sec"><!-- wp:group {"align":"wide","className":"kw-visit sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide kw-visit sp-reveal"><!-- wp:group {"className":"kw-visit__photo","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-visit__photo"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k13-the-counter.webp' ); ?>" alt="Staff member and visitor conversing quietly across a glass counter over a dark felt presentation tray." loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k13-the-counter.webp' ); ?>" alt="Staff member and visitor conversing quietly across a glass counter over a dark felt presentation tray."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-visit__label","layout":{"type":"default"}} -->

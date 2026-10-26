@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kw-tray-sec","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull kw-tray-sec"><!-- wp:group {"align":"wide","className":"kw-tray sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide kw-tray sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-tray__img"} -->
-<figure class="wp-block-image size-full kw-tray__img"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches displayed on a felt tray inside a glass shop counter under warm lighting." loading="lazy"/></figure>
+<figure class="wp-block-image size-full kw-tray__img"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches displayed on a felt tray inside a glass shop counter under warm lighting."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-bar-cap--band","layout":{"type":"default"}} -->
