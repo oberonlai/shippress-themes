@@ -1,0 +1,30 @@
+<?php
+/**
+ * Title: Home: what we do
+ * Slug: naru-clinic/front-services
+ * Categories: naru-clinic
+ * Keywords: clinic, occupational health
+ * Viewport Width: 1440
+ * Description: The saturated blue band with a horizontal row of 20 px cards between 200 px waves.
+ */
+?>
+<!-- wp:group {"tagName": "section", "anchor": "services", "align": "full", "className": "nc-band", "layout": {"type": "default"}} -->
+<section id="services" class="wp-block-group alignfull nc-band"><!-- wp:html -->
+<svg class="nc-wband nc-wband--in" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0,0 H1440 V130 C1180,190 940,100 680,140 C420,180 200,200 0,160 Z" fill="#D4E7ED"/><path d="M0,0 H1440 V90 C1200,150 960,60 700,100 C440,140 220,170 0,120 Z" fill="#F8F7F3"/></svg>
+<!-- /wp:html --><!-- wp:group {"className": "nc-band__in", "layout": {"type": "default"}} -->
+<div class="wp-block-group nc-band__in"><!-- wp:group {"className": "nc-wrap nc-band__head sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
+<div class="wp-block-group nc-wrap nc-band__head sp-reveal sp-reveal--up"><!-- wp:html -->
+<p class="nc-label nc-label--w"><?php echo wp_kses_post( naru_clinic_t( 'k78413552' ) ); ?><svg class="nc-wavy" width="60" height="8" viewBox="0 0 60 8" aria-hidden="true"><path d="M0,4 Q7.5,0 15,4 T30,4 T45,4 T60,4" fill="none" stroke="currentColor" stroke-width="1"/></svg></p>
+<!-- /wp:html --><!-- wp:heading {"level": 2, "className": "nc-h2 nc-h2--band"} -->
+<h2 class="wp-block-heading nc-h2 nc-h2--band"><?php echo wp_kses_post( naru_clinic_t( 'k75aeaa25' ) ); ?></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className": "nc-rowwrap sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
+<div class="wp-block-group nc-rowwrap sp-reveal sp-reveal--up"><!-- wp:html -->
+<div class="nc-row" tabindex="0" role="region" aria-label="<?php echo esc_attr( naru_clinic_t( 'a992a0f05' ) ); ?>"><article class="nc-card"><div class="nc-card__ph"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-workplace.webp' ) ); ?>" alt="<?php echo esc_attr( naru_clinic_t( 'addb782bd' ) ); ?>" loading="lazy"/></div><div class="nc-card__b"><h3><?php echo wp_kses_post( naru_clinic_t( 'k33e09ee7' ) ); ?></h3><p><?php echo wp_kses_post( naru_clinic_t( 'k68abc1bf' ) ); ?></p><span class="nc-circle"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 8h9M8.500 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.500"/></svg></span></div></article><article class="nc-card"><div class="nc-card__ph"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-return.webp' ) ); ?>" alt="<?php echo esc_attr( naru_clinic_t( 'a5e8d0e68' ) ); ?>" loading="lazy"/></div><div class="nc-card__b"><h3><?php echo wp_kses_post( naru_clinic_t( 'k0ced759c' ) ); ?></h3><p><?php echo wp_kses_post( naru_clinic_t( 'ke026f2f9' ) ); ?></p><span class="nc-circle"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 8h9M8.500 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.500"/></svg></span></div></article><article class="nc-card"><div class="nc-card__ph"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-checks.webp' ) ); ?>" alt="<?php echo esc_attr( naru_clinic_t( 'a249b4e71' ) ); ?>" loading="lazy"/></div><div class="nc-card__b"><h3><?php echo wp_kses_post( naru_clinic_t( 'k213cb3f1' ) ); ?></h3><p><?php echo wp_kses_post( naru_clinic_t( 'kf9413da7' ) ); ?></p><span class="nc-circle"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 8h9M8.500 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.500"/></svg></span></div></article><article class="nc-card"><div class="nc-card__ph"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-employer.webp' ) ); ?>" alt="<?php echo esc_attr( naru_clinic_t( 'a73be156e' ) ); ?>" loading="lazy"/></div><div class="nc-card__b"><h3><?php echo wp_kses_post( naru_clinic_t( 'kc6ef699b' ) ); ?></h3><p><?php echo wp_kses_post( naru_clinic_t( 'k6b998305' ) ); ?></p><span class="nc-circle"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 8h9M8.500 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.500"/></svg></span></div></article><article class="nc-card"><div class="nc-card__ph"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-team.webp' ) ); ?>" alt="<?php echo esc_attr( naru_clinic_t( 'a114dd292' ) ); ?>" loading="lazy"/></div><div class="nc-card__b"><h3><?php echo wp_kses_post( naru_clinic_t( 'kdcfc0cdd' ) ); ?></h3><p><?php echo wp_kses_post( naru_clinic_t( 'k0830587e' ) ); ?></p><span class="nc-circle"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 8h9M8.500 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.500"/></svg></span></div></article></div><div class="nc-ctl"><span class="nc-track" aria-hidden="true"></span><button type="button" class="nc-btn nc-btn--prev" data-nc-scroll="-1" aria-label="<?php echo esc_attr( naru_clinic_t( 'add1f775e' ) ); ?>"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M13 8H4M8 4L4 8l4 4" fill="none" stroke="currentColor" stroke-width="1.500"/></svg></button><button type="button" class="nc-btn nc-btn--next" data-nc-scroll="1" aria-label="<?php echo esc_attr( naru_clinic_t( 'a10ac3d04' ) ); ?>"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 8h9M8.500 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.500"/></svg></button></div>
+<!-- /wp:html --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --><!-- wp:html -->
+<svg class="nc-wband nc-wband--out" viewBox="0 0 1440 200" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0,200 V70 C240,20 520,90 800,50 C1080,10 1280,40 1440,70 V200 Z" fill="#D4E7ED"/><path d="M0,200 V110 C260,60 560,130 840,90 C1100,52 1300,80 1440,110 V200 Z" fill="#F8F7F3"/></svg>
+<!-- /wp:html --></section>
+<!-- /wp:group -->
