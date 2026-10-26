@@ -23,6 +23,6 @@ White `#FFFFFF` ≈ 9% · photo greys/warm taupe ≈ 75% · caption taupe `#A092
 See tokens (g) and stage-a.md table: hero crossfade 1000ms/6400ms, `inview` fade 1000ms, header hide-on-scroll .3s, hover .7, pick-up slider 500ms.
 
 ## As built summary (design-spec.md)
-- Palette: BREDA hex kept exactly (`#FFFFFF` / `#000000` / taupe bar / `#F9F5EE` footer / `#F4F4F4` cards / `#666666` meta); row 黒茶 `#4A4036` only on buttons and the cart title strip; photos low-key (row) instead of BREDA's high-key — the one deliberate deviation.
+- Palette: BREDA hex kept exactly (`#FFFFFF` / `#000000` / taupe bar / `#F9F5EE` footer / `#F4F4F4` cards / `#666666` meta); row kuro-cha `#4A4036` only on buttons and the cart title strip; photos low-key (row) instead of BREDA's high-key — the one deliberate deviation.
 - Motion: hero crossfade + caption rise (theme CSS), `sp-reveal` fade 1000 ms swing, `sp-stagger` tiles/questions, `sp-parallax` on the K9 tray band (`--sp-par` 10% / mobile 7%) and on Visit.
 - Vermillion: warm low light on hands (K2, K4, K10) only.

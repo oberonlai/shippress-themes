@@ -1,6 +1,6 @@
 # Kaname Watches: design spec (stage 1 spec, binding for implementation)
 
-Slug `kaname-watches`, a small mechanical-watch shop (type **store**, WooCommerce required, checkout must work; theme must not fatal without WooCommerce). Design-plan row b13-2: archetype horizontal-strip, hero framed-window, nav centred, first screen centred-narrow-column, page structure alternating-longform, real photography, **low-key** photo direction, palette 黒茶 `#4A4036` (brown family), fonts Hanken Grotesk + Onest, **font_direction sans** (CJK Noto Sans TC / Noto Sans JP 黑體).
+Slug `kaname-watches`, a small mechanical-watch shop (type **store**, WooCommerce required, checkout must work; theme must not fatal without WooCommerce). Design-plan row b13-2: archetype horizontal-strip, hero framed-window, nav centred, first screen centred-narrow-column, page structure alternating-longform, real photography, **low-key** photo direction, palette kuro-cha `#4A4036` (brown family), fonts Hanken Grotesk + Onest, **font_direction sans** (CJK Noto Sans TC / Noto Sans JP gothic).
 
 References (S5-Style, Fashion): main **BREDA — https://breda.jp/** (S5 https://www.s5-style.com/6865/); sub **VERMILLION — https://vermillion-jewelry.com/** (S5 /8489/, mood only: warm low-key light on a hand wearing jewellery). Measurements: `brand/reference-tokens.md` (cited below as **RT(a)…RT(g)**). Screenshots `brand/ref/`. Borrow structure, techniques, colour relationships, motion and the key-visual idea. Never copy BREDA's photos, copy, product designs, logo or the BREDA wordmark.
 
@@ -130,14 +130,14 @@ Tile image per page (fixed, used whenever a tile links to that page): Shop K8 ·
 - "Adapted, not copied" applies only to pixels, copy and logo: the two-pane watch/wrist scene, the taupe bar and the tile row are all built.
 
 ### (3) KV checklist (all on the home first screen, visible at 1440×900; at 390×844 rows 1–4 visible)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Which image |
 |---|---|---|---|---|---|
-| 1 | 左格：單一支方形錶的淺色棚拍特寫 | 單一支方形機械錶（Aldren Square 28）躺在玻璃櫃內深炭褐色毛氈上，低調鎢絲側光、上緣玻璃反光 | 框窗左 50%，全高 724px（手機 50%×440px） | 1000ms／6400ms 交叉淡化，中段雙重曝光 | **K1**（第二組 **K3**） |
-| 2 | 右格：配戴者手腕與錶 | 訪客手腕（燕麥色針織袖，無臉）擱在櫃上毛氈托盤，店主的手把第二支錶推過來 | 框窗右 50%，全高 | 與左格同步交叉淡化 | **K2**（第二組 **K4**） |
-| 3 | 底部半透明灰褐字條：型號名＋一行 | 同色 `rgba(160,146,129,.6)` 字條，h1「THE SHORT LIST」＋一行「Twelve watches at most… Three on the tray today.」置中窄欄 640px | 框窗底部 89px 全寬（手機 72px） | 載入時上移 24px＋淡入 400ms ease | — |
-| 4 | 首屏下緣 4 格正方形照片，左下白字標籤，1px 間隙 | 4 格低調照片：放大鏡（HOW WE CHOOSE）、兩支錶（TWO IN FULL）、夜晚櫃台（VISIT THE COUNTER）、十二格毛氈盤（THE SHORT LIST） | 框窗正下方 1px，343×343（1440），首屏露出上緣約 95px；手機 2×2 | 進場淡入 1000ms，sp-stagger 0.12s 步進 | **K5 K6 K7 K8** |
-| 5 | 細白頂欄、等寬大寫導覽 | 白色 65px 置中頂欄：中央 `KANAME` 字標，左 3 項／右 3 項大寫導覽（ls .13em） | 頂部 0–65px | sticky，不隱藏（禁止 scroll 監聽） | — |
-| 6 | 產品焦點列＋直排「NEW ARRIVAL」白標籤 | 「IN THE COUNTER」5 張商品卡＋直排類別白標籤＋12×12 方形頁點（首屏下方第一個商品區） | 首頁 #5（首屏外，緊接在說明之後） | 卡片列整列淡入 1000ms | **P1–P5** |
+| 1 | Left pane: a light studio close-up of one square watch | One square mechanical watch (Aldren Square 28) lying on deep charcoal-brown felt inside the glass counter, low-key tungsten side light, glass reflection along the top edge | Left 50% of the framed window, full height 724px (phone 50% x 440px) | 1000ms / 6400ms crossfade, double exposure in the middle | **K1** (second set **K3**) |
+| 2 | Right pane: the wearer's wrist and watch | A visitor's wrist (oatmeal knit sleeve, no face) resting on the felt tray on the counter, the owner's hand sliding a second watch across | Right 50% of the framed window, full height | Crossfade in sync with the left pane | **K2** (second set **K4**) |
+| 3 | Translucent grey-brown caption bar at the bottom: model name plus one line | Same-colour `rgba(160,146,129,.6)` bar, h1 "THE SHORT LIST" plus one line "Twelve watches at most… Three on the tray today." centred in a 640px narrow column | Bottom 89px of the framed window, full width (phone 72px) | On load, rise 24px and fade in 400ms ease | — |
+| 4 | Four square photographs along the bottom edge of the first screen, white label at the lower left, 1px gap | Four low-key photographs: loupe (HOW WE CHOOSE), two watches (TWO IN FULL), evening counter (VISIT THE COUNTER), twelve-slot felt tray (THE SHORT LIST) | 1px under the framed window, 343x343 (at 1440), about 95px of the top edge shows on the first screen; phone 2x2 | Fade in 1000ms on enter, sp-stagger 0.12s steps | **K5 K6 K7 K8** |
+| 5 | Slim white top bar, even-width uppercase navigation | White 65px centred top bar: `KANAME` wordmark in the centre, three uppercase items left and three right (letter-spacing .13em) | Top 0-65px | sticky, never hides (no scroll listener) | — |
+| 6 | Product focus row plus a vertical "NEW ARRIVAL" white label | "IN THE COUNTER" five product cards plus vertical category white labels plus 12x12 square pager dots (first product band below the first screen) | Home #5 (below the fold, immediately after the intro) | The card row fades in as a whole, 1000ms | **P1-P5** |
 
 Rows 1–5 are built in the first screen and must be visible; row 6 is the first product section below. All images are listed in section 8.
 
@@ -154,16 +154,16 @@ Rows 1–5 are built in the first screen and must be visible; row 6 is the first
 | Card grey | `#F4F4F4` | RT(a) pick-up card | product card info area, quantity fields, table header row | ≤ 4% |
 | Meta grey | `#666666` | RT(b) meta lines | dates, categories, notes column of tables | type only |
 | Pager / rule grey | `#EEEEEE` | RT(c) pager dots | inactive pager squares, table rules (`#E0E0E0` for rules) | tiny |
-| **Kuro-cha (row)** | `#4A4036` | design-plan row 黒茶 | filled buttons (Add to cart, Book a visit) with white text, cart/checkout title strip, link hover colour, focus ring | ≤ 3% of any page; never a section background except the cart title strip |
+| **Kuro-cha (row)** | `#4A4036` | design-plan row kuro-cha | filled buttons (Add to cart, Book a visit) with white text, cart/checkout title strip, link hover colour, focus ring | ≤ 3% of any page; never a section background except the cart title strip |
 
-- BREDA has no accent colour; the only colour lives in the photographs. Kaname keeps that: the 黒茶 mass comes from the **low-key photos** (felt, counter, shadow), not from UI fields. Reason for the one added UI colour: the row palette 黒茶 and a buy button that is not pure black on a store; contrast white on `#4A4036` = 10.4:1.
+- BREDA has no accent colour; the only colour lives in the photographs. Kaname keeps that: the kuro-cha mass comes from the **low-key photos** (felt, counter, shadow), not from UI fields. Reason for the one added UI colour: the row palette kuro-cha and a buy button that is not pure black on a store; contrast white on `#4A4036` = 10.4:1.
 - Deviation from BREDA (written reason): BREDA photos are pale/high-key; the row demands **low-key** photography, so the photo tone is dark warm umber. All UI hex values are BREDA's exactly.
 - **First-screen saturation cap**: reference 0.1% → `check-first-screen.py` gate **15%** (row note cap 30%, pipeline cap 15% — take the lower), target **≤ 6%**. Achieve it with the STYLE grade (low saturation; felt is charcoal-brown, not orange; tungsten light warm but desaturated). Regenerate any hero/tile photo that pushes the share over 6%.
 
 ## 4. Type (font_direction **sans**)
 
 - Latin display / UI: **Hanken Grotesk** (300, 400, 500) — the wide-tracked caps grotesk standing in for BREDA's ballinger-mono (RT(b)). Latin body: **Onest** (300, 400, 500).
-- CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja), 400/500, 黑體 for both headings and body. No serif anywhere, no 明體.
+- CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja), 400/500, gothic for both headings and body. No serif anywhere, no mincho.
 - Stacks (theme.json fontFamilies):
   - `display`: `"Hanken Grotesk", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
   - `body`: `"Onest", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
@@ -276,7 +276,7 @@ Menu (one top menu only): Short list (/shop) · How we choose · The bench · St
 
 ## 8. Images (18, all photos, one STYLE)
 
-**Imagery: photo → 實拍照片 STYLE** (stage-a IMAGERY: photo; row photo_direction low-key). Grok via `IMAGE_STYLE="<STYLE>" scripts/grok-image.sh out.webp "<subject>"`, one at a time, Read every image; regenerate any with text, numerals or logos on dials, readable letters, broken hands or fingers, warped cases, or style drift. ≤ 300 KB, ≤ 2000 px, webp, **0 cut-outs**; one readme line each (AI-generated, CC0).
+**Imagery: photo to documentary photograph STYLE** (stage-a IMAGERY: photo; row photo_direction low-key). Grok via `IMAGE_STYLE="<STYLE>" scripts/grok-image.sh out.webp "<subject>"`, one at a time, Read every image; regenerate any with text, numerals or logos on dials, readable letters, broken hands or fingers, warped cases, or style drift. ≤ 300 KB, ≤ 2000 px, webp, **0 cut-outs**; one readme line each (AI-generated, CC0).
 
 STYLE (exact, every prompt):
 `low-key documentary photograph shot on 35mm film, soft fine grain, warm desaturated tungsten side light with deep soft shadows, dark charcoal-brown wool felt and a smoked glass shop counter with soft reflections, muted palette of umber, dark brown, warm grey, brushed steel and cream, low colour saturation, quiet modern international watch shop, diverse adults shown as hands and wrists or from behind unless stated, calm unhurried moment, watch dials plain with simple baton indices only, no numerals, no text, no readable letters or numbers, no logos, no brand marks, no signage, no Japanese elements`

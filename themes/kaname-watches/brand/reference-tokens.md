@@ -14,7 +14,7 @@ S5-Style entry: https://www.s5-style.com/6865/ (category Fashion). Values only; 
 - Saturated share of the first screen (HSV s>0.5, v>0.25): **0.1%**. Palette = white / black / warm grey; colour only from product photos. Main 0 / sub 0 / base white + photo greys / accent = product photo colour.
 
 ## (b) Type
-- Families: `ballinger-mono` (Adobe Fonts, monospace grotesk) for everything Latin; `source-han-sans-japanese` fallback (黒体); a body `p` falls back to Avenir/Helvetica/Meiryo.
+- Families: `ballinger-mono` (Adobe Fonts, monospace grotesk) for everything Latin; `source-han-sans-japanese` fallback (gothic); a body `p` falls back to Avenir/Helvetica/Meiryo.
 - Body 16px / 24px (1.5), weight 400, letter-spacing 2.08px (0.13em), no transform.
 - Nav links 14px / 45px, 400, ls 1.6px, UPPERCASE look (ABOUT / TOPICS / COLLECTION ▾ / LOOK BOOK / STREET SNAP / SHOP LIST), padding 0 24px, black.
 - Logo wordmark: image 148×25 at x 15 / y 21 (spaced capitals).

@@ -25,7 +25,7 @@ The shop, its watches, address, telephone number and prices are fictional.
 == Copyright ==
 
 Kaname Watches is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Hanken Grotesk (OFL-1.1), Latin variable; Onest (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Hanken Grotesk (OFL-1.1), Latin variable; Onest (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), Traditional Chinese subset, weight 400; Noto Sans JP (OFL-1.1), Japanese subset, weight 400; WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are ShipPress's own small scroll-reveal and parallax helper (GPL-2.0-or-later, no library).
 
 = Images =
