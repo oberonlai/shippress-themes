@@ -6,7 +6,8 @@ Kasane Venue is a calm, editorial WordPress theme created for a daylit wedding v
 - `patterns/front-*.php`: the twelve home sections (hero, opening, house, four rooms, day, stories, people, fees, viewing); `header-main.php`, `footer-main.php`.
 - `templates/`: front page, page, index, home, archive, single, search, tag, 404.
 - Photos: `assets/images/` (AI-generated, GPL-2.0-or-later / CC0). See `readme.txt`.
-- English only for now (home); inner pages and zh-TW, ja, fr, de follow.
+- Inner pages (English): Rooms, The Day, Food, Fees & Dates, The People, The Building, Viewings, Visit & Contact, Questions, plus the Weddings journal. Each uses the blob page head, wash-coloured room rows and the viewing banner.
+- zh-TW, ja, fr and de follow.
 
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 

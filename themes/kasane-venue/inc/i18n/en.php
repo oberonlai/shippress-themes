@@ -22,7 +22,7 @@ return array(
 	'alt_k01' => 'Long undyed linen table with pale oak chairs in a sunlit former hall.',
 	'alt_k13' => 'Neatly folded stack of natural undyed linen resting on a wooden chair seat.',
 	// Opening (parallax).
-	'open_h' => 'One hall,<br>one wedding a day.',
+	'open_h' => 'One hall,<br>one wedding a&nbsp;day.',
 	'open_line' => 'Weavers\' Hall, 1908 · Calder Wharf, Halbrook',
 	'alt_k02' => 'Empty daylit hall with lime washed walls, seven tall windows, and an oak floor.',
 	// The house.
@@ -55,7 +55,7 @@ return array(
 	'alt_k06' => 'Ivory wedding dress hanging beside a tall window with mirror and wooden chair.',
 	// The day.
 	'day_label' => 'The day',
-	'day_p' => 'Every celebration unfolds according to an unhurried, proven schedule designed around daylight, shared meals, and seamless transitions.',
+	'day_p' => 'Doors open at 11:00 and close at 00:30; the house team runs each change of room so you never have to.',
 	'day_link' => 'How the day runs',
 	'alt_k07' => 'Hands arranging place name cards and folding linen napkins along a wooden table.',
 	// Weddings.
@@ -99,7 +99,7 @@ return array(
 	't7' => 'Music ends',
 	't8' => 'Doors close',
 	'p1' => 'Co-founder, venue director',
-	'p2' => 'Co-founder, keeper of the building',
+	'p2' => 'Co-founder, keeper',
 	'p3' => 'Wedding coordinator',
 	'p4' => 'Bookings and viewings',
 	'p5' => 'Head of the kitchen',
