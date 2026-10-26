@@ -1,0 +1,435 @@
+/*
+Theme Name: Isso Relocation
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/isso-relocation
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Isso Relocation, a landing-page theme for an office-moving crew. A warm-white ground with ink text, quiet grey bands and one navy accent. The home page opens on a split first screen: a dark film-grain photograph on the left half, a grey-brown haze on the right holding a small framed photograph between two vertical lines, a seam-crossing wordmark whose letters rise one by one, and a fixed side tab. It continues with a 96 px light-sans title and a half-width text column, a full-bleed parallax photograph with two smaller photographs overlapping it, a five-phase text row, figure cards, a weekend hours rail, one move, a price table, the crew, questions and one repeated quote request. Hanken Grotesk for headings, Instrument Sans for reading. Sample content in English. WCAG AA colours; scroll effects switch off for reduced motion.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: isso-relocation
+Tags: business, block-patterns, full-site-editing, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--is-ink: #2B2B2B;
+	--is-band: #F2F2F2;
+	--is-navy: #2E4282;
+	--is-label: #6B5B4E;
+	--is-rule: #DEDEDE;
+	--is-muted: #6A6A6A;
+	--is-grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+	--is-ease-rise: cubic-bezier(.25, .8, .25, 1);
+	--is-ease-slide: cubic-bezier(.23, 1, .32, 1);
+}
+:root:lang(zh) { --wp--preset--font-family--display: "Hanken Grotesk", "Noto Sans TC", "Noto Sans CJK TC", sans-serif; --wp--preset--font-family--body: "Instrument Sans", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif; }
+:root:lang(ja) { --wp--preset--font-family--display: "Hanken Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif; --wp--preset--font-family--body: "Instrument Sans", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif; }
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.5; letter-spacing: 0.08em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(fr), :lang(de)) :is(p, h3, li, td) { hyphens: auto; overflow-wrap: break-word; }
+
+body { background: #fff; position: relative; -webkit-font-smoothing: antialiased; }
+body::before { content: ""; position: fixed; inset: 0; background-image: var(--is-grain); opacity: .035; pointer-events: none; z-index: 1; mix-blend-mode: multiply; }
+img { max-width: 100%; height: auto; }
+a { text-underline-offset: 0.25em; }
+:focus-visible { outline: 2px solid var(--is-navy); outline-offset: 3px; }
+.is-main { margin: 0; }
+.is-main > .wp-block-post-content { margin: 0; }
+.is-main .wp-block-post-content > *, .is-sec > *, .isso-wrap > * { margin-block-start: 0; margin-block-end: 0; }
+
+/* ---------- layout ---------- */
+.isso-sec { padding: 160px 0; position: relative; }
+.isso-sec--band { background: var(--is-band); }
+.isso-wrap { width: calc(100% - 320px); max-width: 1120px; margin-inline: auto; position: relative; }
+@media (max-width: 1439px) { .isso-wrap { width: 96%; max-width: none; } }
+@media (max-width: 1100px) { .isso-wrap { width: 92%; } }
+@media (max-width: 781px) { .isso-wrap { width: 89.6%; } .isso-sec { padding: 96px 0; } }
+
+.isso-label { font-family: var(--wp--preset--font-family--display); font-weight: 300; font-size: 15px; line-height: 1; letter-spacing: 1.2px; color: var(--is-label); margin: 0 0 24px; }
+.isso-h2 { font-size: clamp(2.75rem, 10vw, 6rem); font-weight: 300; line-height: 1.05; letter-spacing: -0.02em; color: var(--is-ink); margin: 0 0 56px; }
+.isso-col { width: 50%; margin-left: auto; margin-top: 120px; }
+.isso-col > * + * { margin-top: 1.25em; }
+.isso-h2 + .isso-col { margin-top: 64px; }
+.isso-col h3, .isso-h3 { font-family: var(--wp--preset--font-family--display); font-size: 2rem; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em; margin: 0 0 24px; }
+.isso-col p { font-size: 1rem; line-height: 1.75; }
+.isso-meta { font-size: 13px; letter-spacing: 0.08em; color: var(--is-muted); }
+@media (max-width: 781px) {
+	.isso-col { width: 100%; margin-top: 40px; }
+	.isso-h2 + .isso-col { margin-top: 32px; }
+	.isso-h2 { margin-bottom: 32px; }
+	.isso-col h3, .isso-h3 { font-size: 1.5rem; }
+}
+
+/* text-link button */
+.isso-link { margin: 56px 0 0; }
+.isso-link a { display: flex; align-items: center; justify-content: space-between; width: 300px; max-width: 100%; height: 45px; padding-right: 4px; font-size: 1rem; font-weight: 500; color: var(--is-ink); text-decoration: none; border-bottom: 1px solid rgba(43, 43, 43, .2); position: relative; letter-spacing: .02em; }
+.isso-link a::after { content: ""; width: 21px; height: 12px; background: linear-gradient(var(--is-ink), var(--is-ink)) 0 50% / 1px 12px no-repeat, url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='12' viewBox='0 0 8 12'><path d='M1 1l5 5-5 5' fill='none' stroke='%232B2B2B' stroke-width='1'/></svg>") 100% 50% / 8px 12px no-repeat; opacity: .8; }
+.isso-link a::before { content: ""; position: absolute; left: 0; bottom: -1px; height: 1px; width: 0; background: var(--is-navy); transition: width .5s ease; }
+.isso-link a:hover::before, .isso-link a:focus-visible::before { width: 100%; }
+.isso-link--white a { color: #fff; border-bottom-color: rgba(255, 255, 255, .45); width: 260px; }
+.isso-link--white a::after { background: linear-gradient(#fff, #fff) 0 50% / 1px 12px no-repeat, url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='12' viewBox='0 0 8 12'><path d='M1 1l5 5-5 5' fill='none' stroke='white' stroke-width='1'/></svg>") 100% 50% / 8px 12px no-repeat; }
+.isso-link--white a:hover { color: #fff; }
+
+/* ---------- header (transparent over the hero) ---------- */
+.isso-head-part { position: absolute; top: 0; left: 0; right: 0; z-index: 30; margin: 0 !important; }
+.isso-head { display: flex; align-items: flex-start; justify-content: space-between; padding: 20px 20px 0; position: relative; }
+.isso-head > * { margin: 0 !important; }
+.isso-logo { font-family: var(--wp--preset--font-family--display); font-weight: 500; font-size: 14px; letter-spacing: 0.2em; text-transform: uppercase; line-height: 1.5; }
+.isso-logo a { color: #fff; text-decoration: none; text-shadow: 0 0 12px rgba(0, 0, 0, .35); }
+.isso-nav { margin-right: 120px; margin-top: 13px !important; }
+.isso-nav .wp-block-navigation__container { display: grid; grid-auto-flow: column; grid-template-rows: repeat(3, auto); grid-template-columns: 184px 160px; gap: 6px 0; }
+.isso-nav .wp-block-navigation-item__content, .isso-nav .wp-block-navigation-item__content:hover { color: #fff !important; font-size: 13px; font-weight: 500; letter-spacing: 0.08em; line-height: 2; color: #fff; text-decoration: none; text-shadow: 0 0 10px rgba(0, 0, 0, .45); padding: 0; position: relative; }
+.isso-nav .wp-block-navigation-item__content::after { content: ""; position: absolute; left: 0; bottom: 2px; height: 1px; width: 0; background: #fff; transition: width .5s ease; }
+.isso-nav .wp-block-navigation-item__content:hover::after { width: 100%; }
+.isso-nav .wp-block-navigation__responsive-container-open { color: #fff; width: 56px; height: 14px; padding: 0; }
+.isso-nav .wp-block-navigation__responsive-container-open svg { display: none; }
+.isso-nav .wp-block-navigation__responsive-container-open::before { content: ""; display: block; height: 14px; background: linear-gradient(#fff, #fff) 0 0 / 56px 1px no-repeat, linear-gradient(#fff, #fff) 0 100% / 56px 1px no-repeat; }
+.isso-nav .wp-block-navigation__responsive-container.is-menu-open { background: var(--is-ink); color: #fff; }
+.isso-nav .is-menu-open .wp-block-navigation__container { display: flex; flex-direction: column; gap: 14px; }
+.isso-nav .is-menu-open .wp-block-navigation-item__content { font-size: 1.25rem; }
+@media (max-width: 781px) { .isso-nav { margin-right: 0; margin-top: 4px !important; } .isso-head { padding: 20px 20px 0; } }
+
+/* fixed side tab */
+.isso-tab { position: fixed; right: 0; top: 50%; translate: 0 -50%; z-index: 40; width: 49px; height: 183px; background: var(--is-ink); border: 1px solid rgba(255, 255, 255, .25); border-right: 0; border-radius: 4px 0 0 4px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 18px 0 14px; color: #fff; text-decoration: none; }
+.isso-tab span { writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--body); font-size: 13px; font-weight: 500; letter-spacing: 0.1em; line-height: 1; }
+.isso-tab i { display: block; width: 0; height: 16px; border-left: 1px dashed rgba(255, 255, 255, .5); }
+.isso-tab b { display: block; width: 6px; height: 6px; border-right: 1px solid #fff; border-bottom: 1px solid #fff; transform: rotate(45deg); margin-bottom: 4px; }
+.isso-tab:hover { color: #fff; background: #000; }
+@media (max-width: 781px) { .isso-tab { display: none; } }
+@media (prefers-reduced-motion: no-preference) {
+	html.sp-js:not(.sp-no-motion) .isso-tab { animation: isso-tab .8s var(--is-ease-slide) .6s both; }
+	@keyframes isso-tab { from { transform: translateX(30px); } to { transform: none; } }
+}
+
+/* ---------- 1. hero (split first screen) ---------- */
+.isso-hero { position: relative; height: 100svh; min-height: 640px; overflow: clip; background: #4A4A50; margin: 0; --fw: clamp(210px, 20.83vw, 300px); --fh: calc(var(--fw) * 4 / 3); }
+.isso-hero > * { margin: 0 !important; }
+.isso-hero__photo.wp-block-cover { position: absolute; left: 0; top: 0; width: 50%; height: 100%; min-height: 0; padding: 0; --sp-par: 8%; z-index: 1; }
+.isso-hero__photo .wp-block-cover__image-background { object-fit: cover; }
+.isso-hero__photo::after { content: ""; position: absolute; inset: 0; background: rgba(10, 10, 12, .25); pointer-events: none; z-index: 1; }
+.isso-hero__bg { position: absolute; left: 40%; right: 0; top: 0; bottom: 0; z-index: 2; background: linear-gradient(180deg, #736E6A 0%, #4A4A50 100%); -webkit-mask-image: linear-gradient(to right, transparent, #000 144px); mask-image: linear-gradient(to right, transparent, #000 144px); }
+.isso-hero__bg::after { content: ""; position: absolute; inset: 0; background-image: var(--is-grain); opacity: .06; mix-blend-mode: multiply; }
+.isso-hero__panel { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.isso-hero__panel > * { pointer-events: auto; }
+.isso-hero__frame { position: absolute; left: 64.58%; top: 27.4%; width: var(--fw); margin: 0 !important; }
+.isso-hero__frame img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.isso-hero__h1 { margin: 0 !important; font-size: 1.5rem; font-weight: 400; line-height: 1; letter-spacing: 0.1em; color: #fff; }
+.isso-hero__h1 span { display: block; }
+.isso-hero__h1 .v-r { position: absolute; left: calc(64.58% + var(--fw) + 18px); top: 27.4%; writing-mode: vertical-rl; }
+.isso-hero__h1 .v-l { position: absolute; right: calc(35.42% + 18px); top: calc(27.4% + var(--fh) - 15.5em); height: 15.5em; writing-mode: vertical-rl; text-align: end; }
+.isso-hero__note { position: absolute; left: 72.2%; top: 73%; width: 300px; margin: 0 !important; }
+.isso-hero__note p { margin: 0 0 14px; font-size: 14px; text-shadow: 0 0 10px rgba(0, 0, 0, .4); line-height: 1.6; letter-spacing: 0.04em; color: #fff; }
+.isso-hero__note .isso-link { margin: 0; }
+.isso-hero__cap { position: absolute; left: 18px; top: 300px; display: flex; flex-direction: column; align-items: center; gap: 14px; margin: 0 !important; z-index: 4; color: #fff; }
+.isso-hero__cap > * { margin: 0 !important; }
+.isso-hero__cap .a { writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--body); font-size: 1.5rem; letter-spacing: 0.1em; line-height: 1; }
+.isso-hero__cap .n { width: 30px; height: 30px; border: 1px solid rgba(255, 255, 255, .85); border-radius: 50%; display: grid; place-items: center; font-size: 13px; line-height: 1; letter-spacing: 0; }
+.isso-hero__cap .b { writing-mode: vertical-rl; font-size: 13px; letter-spacing: 0.1em; line-height: 1; }
+.isso-hero__wm { position: absolute; left: 20px; right: 20px; bottom: 12px; z-index: 5; margin: 0 !important; display: flex; justify-content: space-between; align-items: flex-end; white-space: nowrap; font-family: var(--wp--preset--font-family--display); font-weight: 600; font-size: clamp(3rem, 7.8vw, 7.5rem); line-height: 1; color: #fff; text-transform: uppercase; pointer-events: none; }
+.isso-hero__wm .g { display: block; line-height: 1; padding-top: .04em; }
+.isso-hero__wm .g.gap { width: .38em; }
+@media (prefers-reduced-motion: no-preference) {
+	html.sp-js:not(.sp-no-motion) .isso-hero__wm .g { animation: isso-rise .8s var(--is-ease-rise) calc(.08s + var(--i, 0) * .04s) both; }
+	html.sp-js:not(.sp-no-motion) .isso-hero__frame img { animation: isso-frame 1.2s ease-out .3s both; }
+	@keyframes isso-rise { from { clip-path: inset(100% 0 0 0); } to { clip-path: inset(0); } }
+	@keyframes isso-frame { from { clip-path: inset(100% 0 0 0); } to { clip-path: inset(0); } }
+}
+/* between 782 and 1023: the lines sit horizontally under the small photo */
+@media (max-width: 1023px) and (min-width: 782px) {
+	.isso-hero__h1 { position: absolute; left: 64.58%; top: calc(27.4% + var(--fh) + 20px); width: var(--fw); }
+	.isso-hero__h1 .v-r, .isso-hero__h1 .v-l { position: static; writing-mode: horizontal-tb; height: auto; text-align: start; font-size: 1.125rem; line-height: 1.5; margin-bottom: 4px; }
+	.isso-hero__cap { display: none; }
+	.isso-hero__note { left: 64.58%; top: auto; bottom: calc(7.4vw + 60px); }
+	.isso-hero__wm { font-size: clamp(2.2rem, 7.4vw, 3.4rem); }
+}
+/* mobile: stacked */
+@media (max-width: 781px) {
+	.isso-hero { height: auto; min-height: 0; display: grid; grid-template-rows: 520px auto; background: #4A4A50; }
+	.isso-hero__photo.wp-block-cover { position: relative; grid-area: 1 / 1; width: 100%; height: 520px; --sp-par: 5%; }
+	.isso-hero__bg { left: 0; top: 520px; mask-image: none; -webkit-mask-image: none; }
+	.isso-hero__panel { position: relative; inset: auto; grid-area: 2 / 1; padding: 36px 20px 44px; display: flex; flex-direction: column; gap: 22px; pointer-events: auto; }
+	.isso-hero__frame { position: static; width: 58%; }
+	.isso-hero__h1 { font-size: 1.25rem; line-height: 1.5; letter-spacing: 0.06em; }
+	.isso-hero__h1 .v-r, .isso-hero__h1 .v-l { position: static; writing-mode: horizontal-tb; height: auto; text-align: start; }
+	.isso-hero__note { position: static; width: auto; }
+	.isso-hero__cap { display: none; }
+	.isso-hero__wm { position: relative; grid-area: 1 / 1; align-self: end; left: auto; right: auto; bottom: auto; padding: 20px; display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; font-size: 11vw; }
+	.isso-hero__wm .g { margin-right: 0.12em; }
+	.isso-hero__wm .g.gap { flex-basis: 100%; width: 0; height: 0; margin: 0; }
+}
+
+/* ---------- 2. concept ---------- */
+.isso-concept { padding-bottom: calc(27.75vw + 136px); overflow: clip; }
+.isso-concept__img { position: absolute; right: 0; bottom: 0; width: 44.4%; margin: 0 !important; }
+.isso-concept__img img { display: block; width: 100%; aspect-ratio: 1.6 / 1; object-fit: cover; }
+@media (min-width: 1440px) { .isso-concept { padding-bottom: 536px; } }
+@media (max-width: 781px) {
+	.isso-concept { padding-bottom: 0; }
+	.isso-concept__img { position: static; width: 100%; margin-top: 48px !important; }
+}
+
+/* ---------- 3. trio ---------- */
+.isso-trio { position: relative; padding: 160px 0 80px; margin: 0; }
+.isso-trio__main { width: 100%; aspect-ratio: 16 / 9; --sp-par: 10%; margin: 0; }
+.isso-trio__main figure { margin: 0; height: 100%; }
+.isso-trio__main img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.isso-trio__subs { position: relative; z-index: 2; display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; padding: 0 40px; margin: 0 !important; }
+.isso-trio__a { width: 25%; margin: -120px 0 0 !important; }
+.isso-trio__b { width: 40%; margin: -80px 0 0 !important; }
+.isso-trio__subs figure { margin: 0; }
+.isso-trio__subs img { display: block; width: 100%; aspect-ratio: 1.62 / 1; object-fit: cover; }
+.isso-trio__cap { margin: 32px 0 0 !important; max-width: 360px; font-size: 1rem; line-height: 1.75; color: var(--is-ink); }
+@media (max-width: 781px) {
+	.isso-trio { padding-top: 64px; padding-bottom: 64px; }
+	.isso-trio__main { aspect-ratio: 1 / 1; --sp-par: 6%; }
+	.isso-trio__subs { flex-direction: column; padding: 0 5%; gap: 0; }
+	.isso-trio__a { width: 70%; margin: -48px 0 0 !important; }
+	.isso-trio__b { width: 85%; margin: 24px 0 0 auto !important; }
+}
+
+/* ---------- 4. method ---------- */
+.isso-phases { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0 32px; margin-top: 120px !important; padding: 0; }
+.isso-phase { border-top: 1px solid var(--is-rule); padding-top: 20px; margin: 0 !important; }
+.isso-phase > * { margin: 0 !important; }
+.isso-phase .wk { font-size: 13px; letter-spacing: 0.08em; color: var(--is-label); margin-bottom: 14px !important; }
+.isso-phase h3 { font-size: 1.25rem; font-weight: 500; line-height: 1.4; letter-spacing: 0.02em; margin-bottom: 12px !important; }
+.isso-phase p:last-child { font-size: 0.875rem; line-height: 1.7; color: #444; }
+@media (max-width: 1100px) { .isso-phases { grid-template-columns: repeat(2, 1fr); gap: 40px 32px; } }
+@media (max-width: 781px) { .isso-phases { grid-template-columns: 1fr; gap: 32px; margin-top: 56px !important; } }
+.isso-figures-band { background: var(--is-band); padding: 120px 0; margin-top: 160px; }
+.isso-figures { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.isso-fig { background: #fff; padding: 48px 40px; text-align: center; margin: 0 !important; display: flex; flex-direction: column; align-items: center; }
+.isso-fig > * { margin: 0 !important; }
+.isso-fig h3 { font-size: 1.25rem; font-weight: 500; line-height: 1.4; color: var(--is-navy); margin-bottom: 20px !important; }
+.isso-fig .num { font-family: var(--wp--preset--font-family--display); font-weight: 300; font-size: 5rem; line-height: 1; letter-spacing: -0.02em; color: var(--is-navy); }
+.isso-fig .num small { font-size: 1.5rem; letter-spacing: 0; margin-left: .15em; }
+.isso-fig .strip { align-self: stretch; background: #EBEBEB; font-size: 13px; line-height: 32px; height: 32px; margin: 20px 0 !important; letter-spacing: .04em; }
+.isso-fig .txt { font-size: 0.875rem; line-height: 1.7; }
+@media (max-width: 900px) { .isso-figures { grid-template-columns: 1fr; } .isso-figures-band { padding: 72px 0; margin-top: 96px; } .isso-fig { padding: 36px 24px; } }
+
+/* ---------- 5. weekend ---------- */
+.isso-rail { display: grid; grid-template-columns: repeat(5, 1fr); gap: 24px; position: relative; margin-top: 96px !important; padding-top: 34px; }
+.isso-rail::before { content: ""; position: absolute; left: 0; right: 0; top: 5px; height: 1px; background: var(--is-ink); }
+.isso-stop { position: relative; margin: 0 !important; }
+.isso-stop > * { margin: 0 !important; }
+.isso-stop::before { content: ""; position: absolute; left: 0; top: -34px; width: 10px; height: 10px; border-radius: 50%; background: var(--is-label); }
+.isso-stop .t { font-family: var(--wp--preset--font-family--display); font-weight: 300; font-size: 2rem; line-height: 1.2; letter-spacing: -0.01em; margin-bottom: 10px !important; }
+.isso-stop .d { font-size: 0.875rem; line-height: 1.7; }
+.isso-pair { display: grid; grid-template-columns: 5fr 5fr; gap: 0 16.6%; margin-top: 128px !important; align-items: start; }
+.isso-pair figure { margin: 0; }
+.isso-pair img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.isso-pair__r { margin-top: 120px !important; }
+.isso-pair figcaption, .isso-capt { margin-top: 14px; font-size: 13px; letter-spacing: 0.06em; color: var(--is-muted); }
+@media (max-width: 1100px) { .isso-rail { grid-template-columns: 1fr 1fr; row-gap: 40px; } .isso-rail .isso-stop:nth-child(n+3)::before { } }
+@media (max-width: 781px) {
+	.isso-rail { grid-template-columns: 1fr; margin-top: 48px !important; padding-top: 0; gap: 28px; }
+	.isso-rail::before { display: none; }
+	.isso-stop { padding-left: 28px; }
+	.isso-stop::before { top: 14px; }
+	.isso-stop .t { font-size: 1.5rem; }
+	.isso-pair { grid-template-columns: 1fr; gap: 32px; margin-top: 64px !important; }
+	.isso-pair__r { margin-top: 0 !important; }
+}
+
+/* ---------- 6. one move ---------- */
+.isso-move { display: grid; grid-template-columns: 5fr 6fr; gap: 0 8.33%; margin-top: 64px !important; align-items: start; }
+.isso-move figure { margin: 0; }
+.isso-move img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.isso-move__t > * + * { margin-top: 1.25em; }
+.isso-move__t h3 { margin-bottom: 8px; }
+.isso-quote { font-family: var(--wp--preset--font-family--display); font-weight: 300; font-size: 1.5rem; line-height: 1.5; letter-spacing: 0; border-left: 1px solid var(--is-label); padding-left: 24px; margin: 2em 0 0 !important; }
+.isso-quote cite { display: block; margin-top: 12px; font-size: 13px; font-style: normal; letter-spacing: 0.06em; color: var(--is-muted); font-family: var(--wp--preset--font-family--body); }
+.isso-cards { display: flex; justify-content: flex-end; gap: 24px; margin-top: 96px !important; }
+.isso-card { width: 25%; margin: 0 !important; }
+.isso-card figure { margin: 0 0 16px; }
+.isso-card img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.isso-card h4 { font-size: 1rem; font-weight: 500; line-height: 1.5; letter-spacing: 0.02em; margin: 0 0 4px; }
+.isso-card p { font-size: 13px; color: var(--is-muted); margin: 0; letter-spacing: .04em; }
+@media (max-width: 781px) {
+	.isso-move { grid-template-columns: 1fr; gap: 32px; }
+	.isso-cards { justify-content: flex-start; margin-top: 56px !important; }
+	.isso-card { width: calc(50% - 12px); }
+}
+
+/* ---------- 7. prices ---------- */
+.isso-prices { margin: 96px 0 0 !important; width: 100%; }
+.isso-prices table { width: 100%; border-collapse: collapse; border: 0; font-size: 1rem; }
+.isso-prices thead { border-bottom: 1px solid var(--is-label); }
+.isso-prices th { font-size: 13px; font-weight: 500; letter-spacing: 0.08em; text-align: left; padding: 0 0 16px; border: 0; color: var(--is-label); }
+.isso-prices td { padding: 24px 0; border: 0; border-bottom: 1px solid var(--is-rule); vertical-align: baseline; }
+.isso-prices td:last-child, .isso-prices th:last-child { text-align: right; white-space: nowrap; min-width: 14ch; padding-left: 24px; }
+.isso-prices td:last-child { font-family: var(--wp--preset--font-family--display); font-weight: 500; letter-spacing: 0.02em; }
+.isso-prices td:first-child { width: 100%; }
+.isso-prices .wp-element-caption { display: none; }
+.isso-note { margin: 24px 0 0 !important; font-size: 13px; color: var(--is-muted); letter-spacing: 0.04em; }
+@media (max-width: 781px) {
+	.isso-prices { margin-top: 48px !important; }
+	.isso-prices thead { display: none; }
+	.isso-prices table, .isso-prices tbody, .isso-prices tr, .isso-prices td { display: block; width: 100%; }
+	.isso-prices tr { padding: 20px 0; border-bottom: 1px solid var(--is-rule); }
+	.isso-prices td { padding: 0; border: 0; text-align: left !important; white-space: normal; min-width: 0; }
+	.isso-prices td:last-child { margin-top: 4px; padding-left: 0; }
+}
+
+/* ---------- 8. crew ---------- */
+.isso-crew { display: grid; grid-template-columns: 7fr 5fr; gap: 0 8.33%; margin-top: 64px !important; align-items: start; }
+.isso-crew figure { margin: 0; }
+.isso-crew img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.isso-crew__t > * + * { margin-top: 1.25em; }
+.isso-names { font-size: 13px !important; letter-spacing: 0.06em; color: var(--is-muted); line-height: 1.9 !important; }
+@media (max-width: 781px) { .isso-crew { grid-template-columns: 1fr; gap: 32px; } }
+
+/* ---------- 9. faq ---------- */
+.isso-faq { margin-top: 80px !important; border-top: 1px solid var(--is-rule); }
+.isso-faq details { border-bottom: 1px solid var(--is-rule); padding: 28px 0; margin: 0 !important; }
+.isso-faq summary { font-family: var(--wp--preset--font-family--display); font-size: 1.25rem; font-weight: 500; letter-spacing: 0.02em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 24px; }
+.isso-faq summary::-webkit-details-marker { display: none; }
+.isso-faq summary::after { content: ""; flex: none; width: 10px; height: 10px; margin-top: 8px; border-right: 1px solid var(--is-ink); border-bottom: 1px solid var(--is-ink); transform: rotate(45deg); transition: transform .3s ease; }
+.isso-faq details[open] summary::after { transform: rotate(-135deg); margin-top: 14px; }
+.isso-faq details p { max-width: 720px; margin: 16px 0 0; }
+
+/* ---------- 10. quote ---------- */
+.isso-quote-sec { padding: 200px 0; }
+.isso-ask { display: grid; grid-template-columns: 4fr 8fr; gap: 0 8.33%; margin-top: 64px !important; align-items: start; }
+.isso-ask figure { margin: 0; }
+.isso-ask img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.isso-ask__t > * + * { margin-top: 1em; }
+.isso-ask ol { padding-left: 1.4em; margin: 0; }
+.isso-ask li { margin: 0 0 .4em; }
+.isso-contact { font-size: 1rem; line-height: 1.9; margin-top: 56px !important; }
+@media (max-width: 781px) { .isso-quote-sec { padding: 96px 0; } .isso-ask { grid-template-columns: 1fr; gap: 32px; } .isso-ask figure { max-width: 70%; } }
+
+/* ---------- footer ---------- */
+.isso-footer { background: #2D2D2D; color: rgba(255, 255, 255, .7); padding: 0 0 48px; margin: 0; }
+.isso-footer a { color: rgba(255, 255, 255, .85); text-decoration: none; }
+.isso-footer a:hover { color: #fff; text-decoration: underline; }
+.isso-marq { padding: 56px 0; border-bottom: 1px solid rgba(255, 255, 255, .15); --sp-marq: 20s; }
+.isso-marq__row { display: flex; align-items: center; gap: 40px; padding-right: 40px; white-space: nowrap; font-family: var(--wp--preset--font-family--display); font-size: 3rem; font-weight: 300; line-height: 1; letter-spacing: -0.02em; color: #fff; margin: 0 !important; }
+.isso-marq__row > * { margin: 0 !important; }
+.isso-marq__row .dot { flex: none; width: 24px; height: 24px; border-radius: 50%; background: var(--is-navy); }
+html:not(.sp-no-motion) .isso-marq.sp-marquee > * { animation-duration: 20s; }
+.isso-marq { overflow: clip; display: flex; }
+html.sp-no-motion .isso-marq > [aria-hidden] { display: none; }
+.isso-footer__cols { display: grid; grid-template-columns: 5fr 3fr 4fr; gap: 48px; padding-top: 64px; font-size: 0.875rem; line-height: 1.9; }
+.isso-footer__cols p, .isso-footer__cols ul { margin: 0; }
+.isso-footer__cols ul { list-style: none; padding: 0; }
+.isso-footer__name { font-family: var(--wp--preset--font-family--display); font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #fff; margin-bottom: 12px !important; }
+.isso-footer__copy { margin-top: 56px !important; font-size: 13px; color: rgba(255, 255, 255, .5); }
+@media (max-width: 781px) { .isso-marq { padding: 36px 0; } .isso-marq__row { font-size: 1.75rem; gap: 24px; padding-right: 24px; } .isso-marq__row .dot { width: 16px; height: 16px; } .isso-footer__cols { grid-template-columns: 1fr; gap: 28px; } }
+
+
+/* ---------- inner pages: split page head (the home first screen, shorter, no framed photo) ---------- */
+.isso-ph { position: relative; height: 64vh; min-height: 520px; overflow: clip; background: #4A4A50; margin: 0; }
+.isso-ph > * { margin: 0 !important; }
+.isso-ph__photo.wp-block-cover { position: absolute; left: 0; top: 0; width: 50%; height: 100%; min-height: 0; padding: 0; --sp-par: 6%; z-index: 1; }
+.isso-ph__photo .wp-block-cover__image-background { object-fit: cover; }
+.isso-ph__photo::after { content: ""; position: absolute; inset: 0; background: rgba(10, 10, 12, .22); pointer-events: none; z-index: 1; }
+.isso-ph__bg { position: absolute; left: 40%; right: 0; top: 0; bottom: 0; z-index: 2; background: linear-gradient(180deg, #736E6A 0%, #4A4A50 100%); -webkit-mask-image: linear-gradient(to right, transparent, #000 144px); mask-image: linear-gradient(to right, transparent, #000 144px); }
+.isso-ph__bg::after { content: ""; position: absolute; inset: 0; background-image: var(--is-grain); opacity: .06; mix-blend-mode: multiply; }
+.isso-ph__panel { position: absolute; left: calc(50% + 72px); right: 140px; top: 150px; z-index: 3; color: #fff; }
+.isso-ph__panel > * { margin: 0 !important; }
+.isso-ph__label { font-family: var(--wp--preset--font-family--display); font-weight: 300; font-size: 15px; line-height: 1; letter-spacing: 1.2px; color: #fff; margin-bottom: 20px !important; }
+.isso-ph__h1 { font-size: clamp(2.5rem, 4.4vw, 4.25rem); font-weight: 300; line-height: 1.1; letter-spacing: -0.01em; color: #fff; text-shadow: 0 0 14px rgba(0, 0, 0, .22); }
+.isso-ph__lead { margin-top: 20px !important; font-size: 1rem; line-height: 1.7; color: rgba(255, 255, 255, .86); max-width: 460px; text-shadow: 0 0 10px rgba(0, 0, 0, .3); }
+.isso-ph__v { position: absolute; right: 44px; top: 150px; z-index: 3; writing-mode: vertical-rl; font-family: var(--wp--preset--font-family--display); font-size: 1.25rem; font-weight: 400; letter-spacing: 0.1em; line-height: 1; color: #fff; text-shadow: 0 0 12px rgba(0, 0, 0, .25); }
+.isso-ph__wm { position: absolute; left: 50%; bottom: 12px; translate: -50% 0; width: min(calc(var(--n, 6) * 9.5vw), calc(100% - 40px)); z-index: 5; display: flex; justify-content: space-between; align-items: flex-end; white-space: nowrap; font-family: var(--wp--preset--font-family--display); font-weight: 600; font-size: clamp(2.2rem, 7.4vw, 7rem); line-height: 1; color: #fff; text-transform: uppercase; pointer-events: none; }
+.isso-ph__wm .g { display: block; line-height: 1; padding-top: .04em; }
+.isso-ph__wm .g.gap { width: .38em; }
+.isso-ph--plain { height: 52vh; min-height: 480px; }
+.isso-ph--plain .isso-ph__bg { left: 0; mask-image: none; -webkit-mask-image: none; }
+.isso-ph--plain .isso-ph__panel { left: 20px; right: 20px; top: 112px; max-width: 760px; }
+.isso-ph--plain .isso-ph__h1 { font-size: clamp(2.25rem, 3.8vw, 3.5rem); }
+.isso-ph--plain .isso-ph__wm { left: 20px; translate: none; width: min(calc(var(--n, 6) * 9.5vw), calc(100% - 120px)); }
+@media (prefers-reduced-motion: no-preference) {
+	html.sp-js:not(.sp-no-motion) .isso-ph__wm .g { animation: isso-rise .8s var(--is-ease-rise) calc(.08s + var(--i, 0) * .04s) both; }
+}
+@media (max-width: 1023px) { .isso-ph__v { display: none; } .isso-ph__panel { right: 40px; } }
+@media (max-width: 781px) {
+	.isso-ph { height: auto; min-height: 0; display: grid; grid-template-rows: 300px auto; }
+	.isso-ph__photo.wp-block-cover { position: relative; grid-area: 1 / 1; width: 100%; height: 300px; --sp-par: 4%; }
+	.isso-ph__bg { left: 0; top: 300px; mask-image: none; -webkit-mask-image: none; }
+	.isso-ph__panel { position: relative; left: auto; right: auto; top: auto; grid-area: 2 / 1; padding: 32px 20px 40px; }
+	.isso-ph__wm { position: relative; grid-area: 1 / 1; align-self: end; left: auto; bottom: auto; translate: none; width: auto; padding: 20px; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; font-size: 11vw; }
+	.isso-ph__wm .g { margin-right: 0.1em; }
+	.isso-ph__wm .g.gap { flex-basis: 100%; width: 0; height: 0; margin: 0; }
+	.isso-ph--plain { display: block; height: auto; min-height: 0; }
+	.isso-ph--plain .isso-ph__bg { top: 0; bottom: 0; }
+	.isso-ph--plain .isso-ph__panel { position: relative; left: auto; right: auto; top: auto; max-width: none; z-index: 3; padding: 112px 20px 28px; }
+	.isso-ph--plain .isso-ph__wm { position: relative; left: auto; bottom: auto; translate: none; width: auto; padding: 0 20px 28px; }
+}
+
+/* inner sections */
+.isso-sec--in { padding: 128px 0; }
+.isso-sec--in .isso-h2 { margin-bottom: 40px; }
+.isso-sec--cta { padding: 144px 0; }
+.isso-split { display: grid; grid-template-columns: 5fr 6fr; gap: 0 8.33%; align-items: start; margin-top: 64px !important; }
+.isso-split--r { grid-template-columns: 6fr 5fr; }
+.isso-split figure { margin: 0; }
+.isso-split img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.isso-split__t > * + * { margin-top: 1.25em; }
+.isso-split__t h3 { margin-bottom: 24px; }
+.isso-trio .isso-trio__a .isso-trio__cap { max-width: 360px; }
+.isso-sec--in .isso-col > .isso-h3:not(:first-child), .isso-col + .isso-col { margin-top: 40px; }
+.isso-col--form { margin-top: 56px !important; }
+.isso-checklist { padding-left: 1.2em; margin: 0; font-size: 1rem; line-height: 1.75; }
+.isso-checklist li { margin: 0 0 .6em; }
+@media (max-width: 781px) { .isso-sec--in { padding: 80px 0; } .isso-sec--cta { padding: 88px 0; } .isso-split, .isso-split--r { grid-template-columns: 1fr; gap: 32px; margin-top: 40px !important; } .isso-split--r .isso-split__f { order: -1; } }
+
+/* moves cards */
+.isso-mcards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 32px; margin-top: 96px !important; align-items: start; }
+.isso-mcard { margin: 0 !important; }
+.isso-mcard > * { margin: 0 !important; }
+.isso-mcard figure { margin: 0 0 24px !important; }
+.isso-mcard img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.isso-card__t { font-size: 1.5rem !important; font-weight: 500; line-height: 1.4; letter-spacing: 0.02em; margin-bottom: 8px !important; }
+.isso-mcard .isso-meta { margin-bottom: 14px !important; }
+.isso-card__p, .isso-mcard p { font-size: 0.9375rem; line-height: 1.75; }
+.isso-card__more { margin-top: 18px !important; }
+.isso-card__more a { color: var(--is-ink); text-underline-offset: .3em; text-decoration-color: var(--is-navy); }
+.isso-posts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 56px 32px; list-style: none; padding: 0; margin: 0; }
+.isso-posts .wp-block-post-featured-image img { aspect-ratio: 3 / 2; object-fit: cover; width: 100%; }
+@media (max-width: 1100px) { .isso-mcards, .isso-posts { grid-template-columns: 1fr 1fr; gap: 56px 24px; } }
+@media (max-width: 781px) { .isso-mcards, .isso-posts { grid-template-columns: 1fr; margin-top: 48px !important; } }
+
+/* crew rows */
+.isso-people { display: grid; grid-template-columns: 1fr 1fr; gap: 0 8.33%; margin-top: 96px !important; border-top: 1px solid var(--is-rule); }
+.isso-person { padding: 32px 0; border-bottom: 1px solid var(--is-rule); margin: 0 !important; }
+.isso-person > * { margin: 0 !important; }
+.isso-person__n { font-size: 1.5rem; font-weight: 500; line-height: 1.4; letter-spacing: .02em; margin-bottom: 4px !important; }
+.isso-person__r { font-size: 13px; letter-spacing: .08em; color: var(--is-label); margin-bottom: 12px !important; }
+.isso-person__d { font-size: .9375rem; line-height: 1.75; }
+@media (max-width: 781px) { .isso-people { grid-template-columns: 1fr; margin-top: 48px !important; } }
+
+/* forms (quote, waitlist) */
+.isso-formgrid { display: grid; grid-template-columns: 7fr 4fr; gap: 0 8.33%; margin-top: 64px !important; align-items: start; }
+.isso-formgrid > * > * + * { margin-top: 1.25em; }
+.isso-formgrid h3 { margin-bottom: 0; }
+.isso-formgrid__r h3:not(:first-child) { margin-top: 48px; }
+.isso-form { margin-top: 40px; }
+.isso-form__g { display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; }
+.isso-form p { margin: 0 0 22px; }
+.isso-form label { display: block; font-size: 13px; font-weight: 500; letter-spacing: .08em; color: var(--is-label); margin-bottom: 8px; }
+.isso-form input:not([type=checkbox]), .isso-form textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 1rem; color: var(--is-ink); padding: 10px 0; border: 0; border-bottom: 1px solid rgba(43, 43, 43, .35); border-radius: 0; background: transparent; }
+.isso-form input:focus, .isso-form textarea:focus { outline: 0; border-bottom-color: var(--is-navy); box-shadow: 0 1px 0 var(--is-navy); }
+.isso-form button { font: inherit; font-weight: 500; letter-spacing: .04em; color: #fff; background: var(--is-ink); border: 0; border-radius: 0; padding: 0 40px; height: 52px; cursor: pointer; }
+.isso-form button:hover { background: #000; }
+.isso-check { display: flex; gap: 12px; align-items: flex-start; }
+.isso-check input { margin-top: 5px; flex: none; }
+.isso-check label { font-size: .9375rem; font-weight: 400; letter-spacing: 0; color: var(--is-ink); margin: 0; line-height: 1.6; }
+@media (max-width: 781px) { .isso-formgrid { grid-template-columns: 1fr; gap: 56px; } .isso-form__g { grid-template-columns: 1fr; } }
+
+/* legal text */
+.isso-legal { max-width: 680px; }
+.isso-legal > * + * { margin-top: 1.25em; }
+.isso-legal h3 { font-size: 1.5rem; margin: 2em 0 .5em; }
+.isso-legal h3:first-child { margin-top: 0; }
+.isso-sec--in > .isso-wrap > .isso-legal:only-child { margin-left: 0; }
+
+/* editor: show final states */
+.editor-styles-wrapper .isso-hero { height: auto; min-height: 640px; }
+.editor-styles-wrapper .isso-ph { height: auto; min-height: 520px; }
+@media print { .isso-tab, body::before { display: none; } }
