@@ -200,7 +200,7 @@ html.sp-no-motion .fl-stamp__ring { animation: none; }
 
 /* ---------- stage band ---------- */
 .fl-stage { position: relative; background: var(--fl-stage); }
-.fl-stage__cover { min-height: 72vh; min-height: max(480px, 72vh); background: var(--fl-stage); margin: 0; }
+.fl-stage__cover { min-height: 72vh; min-height: max(480px, 72vh); background: var(--fl-stage); margin: 0; --sp-par: 10%; }
 .fl-stage__cap { position: absolute; z-index: 5; left: 48px; bottom: 32px; margin: 0; font-size: .75rem; letter-spacing: .08em; line-height: 1.5; color: var(--fl-ivory); text-shadow: 0 1px 8px rgba(0, 0, 0, .6); }
 @media (min-width: 1024px) { .fl-stage__cap { left: calc(50% - 600px + 48px + 46px); } }
 
@@ -217,8 +217,8 @@ html.sp-no-motion .fl-stamp__ring { animation: none; }
 .fl-table th { font-size: .75rem; letter-spacing: .05em; text-transform: uppercase; font-weight: 700; }
 .fl-table tr:last-child td { border-bottom: 1px solid var(--fl-line); }
 .fl-table td:first-child { font-family: var(--wp--preset--font-family--display); font-size: 1.125rem; }
-.fl-table .fl-price { white-space: nowrap; text-align: right; width: 9rem; padding-right: 0; }
-.fl-table td.fl-price { font-family: var(--wp--preset--font-family--display); font-size: 1.5rem; }
+.fl-table:not(.fl-table--spec) :is(th, td):last-child { white-space: nowrap; text-align: right; width: 9rem; padding-right: 0; }
+.fl-table:not(.fl-table--spec) td:last-child { font-family: var(--wp--preset--font-family--display); font-size: 1.5rem; }
 .fl-table tr:not(:first-child) { min-height: 64px; }
 .fl-proc { font-size: .9375rem; line-height: 1.9; margin: 0 0 1.5rem; }
 @media (max-width: 781px) {
@@ -226,7 +226,7 @@ html.sp-no-motion .fl-stamp__ring { animation: none; }
 	.fl-table thead { display: none; }
 	.fl-table tr { border-top: 1px solid var(--fl-line); padding: 1rem 0; }
 	.fl-table td { border: 0 !important; padding: .15rem 0; }
-	.fl-table .fl-price { text-align: right; width: 100%; padding-top: .5rem; }
+	.fl-table:not(.fl-table--spec) td:last-child { text-align: right; width: 100%; padding-top: .5rem; }
 	.fl-stamp--inline { margin-left: auto; }
 }
 

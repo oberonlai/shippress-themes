@@ -16,7 +16,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"fl-phead__window sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-group fl-phead__window sp-parallax" style="--sp-par:6%">
+<div class="wp-block-group fl-phead__window sp-parallax">
 <!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"fl-ph"} -->
 <figure class="wp-block-image size-full fl-ph"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/proof-pages.webp' ) ); ?>" alt="Printed proof pages with pencil marks and paper clips on a wooden desk." style="aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image -->
@@ -351,8 +351,8 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"fl-stage fl-stage--page","align":"full","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull fl-stage fl-stage--page">
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/street-morning.webp' ) ); ?>","dimRatio":20,"minHeight":60,"minHeightUnit":"vh","isDark":true,"align":"full","className":"fl-stage__cover sp-parallax","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
-<div class="wp-block-cover alignfull is-light fl-stage__cover sp-parallax" style="--sp-par:10%;padding-top:0;padding-bottom:0;min-height:60vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Tree-lined street in the early morning with a café awning and parked bicycles." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/street-morning.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/street-morning.webp' ) ); ?>","dimRatio":20,"minHeight":60,"minHeightUnit":"vh","isDark":false,"align":"full","className":"fl-stage__cover sp-parallax","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
+<div class="wp-block-cover alignfull is-light fl-stage__cover sp-parallax" style="padding-top:0;padding-bottom:0;min-height:60vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Tree-lined street in the early morning with a café awning and parked bicycles." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/street-morning.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->

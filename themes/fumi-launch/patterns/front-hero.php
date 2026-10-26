@@ -20,7 +20,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"fl-hero__window sp-parallax","layout":{"type":"default"},"style":{"spacing":{}}} -->
-<div class="wp-block-group fl-hero__window sp-parallax" style="--sp-par:6%">
+<div class="wp-block-group fl-hero__window sp-parallax">
 <!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"fl-ph "} -->
 <figure class="wp-block-image size-full fl-ph "><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-book-cafe.webp' ) ); ?>" alt="Open blank hardcover book on a round marble table beside a coffee cup." style="aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image -->

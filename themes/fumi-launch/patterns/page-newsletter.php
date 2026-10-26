@@ -16,7 +16,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"fl-phead__window sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-group fl-phead__window sp-parallax" style="--sp-par:6%">
+<div class="wp-block-group fl-phead__window sp-parallax">
 <!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"fl-ph"} -->
 <figure class="wp-block-image size-full fl-ph"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/envelope-postcard.webp' ) ); ?>" alt="Ivory envelope and blank postcard resting beside green leaves on a painted table." style="aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image -->

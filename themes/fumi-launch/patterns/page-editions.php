@@ -16,7 +16,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"fl-phead__window sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-group fl-phead__window sp-parallax" style="--sp-par:6%">
+<div class="wp-block-group fl-phead__window sp-parallax">
 <!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"fl-ph"} -->
 <figure class="wp-block-image size-full fl-ph"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/editions-stack.webp' ) ); ?>" alt="Stack of blank hardcover and paperback books in sage and ivory on natural linen." style="aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image -->
@@ -61,7 +61,7 @@
 <!-- /wp:columns -->
 
 <!-- wp:table {"className":"fl-table"} -->
-<figure class="wp-block-table fl-table"><table class="has-fixed-layout"><thead><tr><th>Edition</th><th>Format notes</th><th class="fl-price">Price</th></tr></thead><tbody><tr><td>Hardcover, signed and numbered first printing (English)</td><td>Limited to 1,500 numbered copies, 248 pages, 14 × 21 cm, ships 11 March 2027</td><td class="fl-price">USD 34</td></tr><tr><td>Paperback (English)</td><td>248 pages, 14 × 21 cm, publication date 18 March 2027</td><td class="fl-price">USD 22</td></tr><tr><td>Paperback, Traditional Chinese edition</td><td>248 pages, 14 × 21 cm, publication date 18 March 2027</td><td class="fl-price">USD 22</td></tr><tr><td>Ebook (EPUB, both languages)</td><td>DRM-free digital EPUB edition in English and Traditional Chinese</td><td class="fl-price">USD 12</td></tr><tr><td>Audiobook read by the author (6 h 40 min)</td><td>Unabridged audio recording read by Clara Hsu, running 6 hours and 40 minutes</td><td class="fl-price">USD 18</td></tr><tr><td>Launch bundle: signed hardcover + canvas tote + one event seat</td><td>Numbered hardcover edition, blank canvas tote bag, and one reserved seat at any launch event</td><td class="fl-price">USD 58</td></tr><tr><td>Book-club pack: 6 paperbacks + printed reading guide</td><td>Six paperback copies in either language and a printed ten-question discussion guide</td><td class="fl-price">USD 110</td></tr></tbody></table></figure>
+<figure class="wp-block-table fl-table"><table class="has-fixed-layout"><thead><tr><th>Edition</th><th>Format notes</th><th>Price</th></tr></thead><tbody><tr><td>Hardcover, signed and numbered first printing (English)</td><td>Limited to 1,500 numbered copies, 248 pages, 14 × 21 cm, ships 11 March 2027</td><td>USD 34</td></tr><tr><td>Paperback (English)</td><td>248 pages, 14 × 21 cm, publication date 18 March 2027</td><td>USD 22</td></tr><tr><td>Paperback, Traditional Chinese edition</td><td>248 pages, 14 × 21 cm, publication date 18 March 2027</td><td>USD 22</td></tr><tr><td>Ebook (EPUB, both languages)</td><td>DRM-free digital EPUB edition in English and Traditional Chinese</td><td>USD 12</td></tr><tr><td>Audiobook read by the author (6 h 40 min)</td><td>Unabridged audio recording read by Clara Hsu, running 6 hours and 40 minutes</td><td>USD 18</td></tr><tr><td>Launch bundle: signed hardcover + canvas tote + one event seat</td><td>Numbered hardcover edition, blank canvas tote bag, and one reserved seat at any launch event</td><td>USD 58</td></tr><tr><td>Book-club pack: 6 paperbacks + printed reading guide</td><td>Six paperback copies in either language and a printed ten-question discussion guide</td><td>USD 110</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:columns {"className":"fl-cols fl-cols--ed2"} -->
