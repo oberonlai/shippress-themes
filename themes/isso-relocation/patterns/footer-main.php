@@ -35,16 +35,19 @@
 <li><a href="/method/">Method</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="/#weekend">Weekend</a></li>
+<li><a href="/prices/">Prices</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="/moves/">Moves</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="/#prices">Prices</a></li>
+<li><a href="/planning/">Planning guide</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="/#crew">Crew</a></li>
+<li><a href="/crew/">Crew</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="/faq/">FAQ</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="/request-a-quote/">Request a quote</a></li>
@@ -62,6 +65,9 @@
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="/updates/">Updates</a></li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><a href="/journal/">Journal</a></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 </div>

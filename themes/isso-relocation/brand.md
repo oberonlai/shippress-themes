@@ -55,4 +55,5 @@ Calm, specific, and unhurried, reflecting disciplined logistical planning rather
 
 ## Pages
 
-Home (stage 1). Inner pages (stage 2): Method, Prices, Moves (three stories), Planning guide, Crew, FAQ, Request a quote, Updates (waitlist), Thanks, Privacy, Terms.
+Home, plus (en, built): Method (five phases, labels), Prices (the seven-row table, add-ons, quote factors, payment), Moves (three story cards; story 1 is a full post), Planning guide (six-week checklist), Crew (seven people as text rows), FAQ (ten questions in four groups), Request a quote (form, what happens next, contact), Updates (waitlist), Thank you, Privacy, Terms and the Journal (post list).
+Every inner page: split page head with the page name as a seam-crossing wordmark, then sections in the "( 0n )" + 96 px title + half-width text column system, and a closing "Request a quote".

@@ -18,7 +18,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
 3. Activate Isso Relocation.
 
-On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page with its text and images, the menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
+On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page and the inner pages (method, prices, moves, planning guide, crew, FAQ, request a quote, updates, thanks, privacy, terms, journal) with one move story, all with their text and images, the menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
 
 The company, its people, prices and telephone number are fictional.
 
@@ -43,3 +43,6 @@ Photographs were generated for this theme and are released under GPL-2.0-or-late
 - assets/images/11-rack-case.webp
 - assets/images/12-crew.webp
 - assets/images/13-floor-plan.webp
+- assets/images/14-planner-survey.webp
+- assets/images/15-pack-desk.webp
+- assets/images/16-it-reconnect.webp
