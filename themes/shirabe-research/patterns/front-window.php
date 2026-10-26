@@ -11,11 +11,11 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"sr-windowband","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sr-windowband"><!-- wp:group {"align":"wide","className":"sr-window sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide sr-window sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sr-window__img"} -->
-<figure class="wp-block-image size-full sr-window__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01.webp' ) ); ?>" alt="A moderator and participant sit across a dark table with notebooks and paper charts."/></figure>
+<figure class="wp-block-image size-full sr-window__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01.webp' ) ); ?>" alt="<?php echo esc_attr( shirabe_research_t( 'acd6676a5' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"sr-window__cap"} -->
-<p class="sr-window__cap">Moderated interview, studio B</p>
+<p class="sr-window__cap"><?php echo wp_kses_post( shirabe_research_t( 'kae1a62de' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

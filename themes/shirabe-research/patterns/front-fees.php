@@ -12,23 +12,23 @@
 <section class="wp-block-group alignfull sr-sec sr-fees-sec" id="fees"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"className":"sr-title sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-title sp-reveal sp-reveal--wipe"><!-- wp:heading {"level":2,"className":"sr-title__h"} -->
-<h2 class="wp-block-heading sr-title__h">FEES</h2>
+<h2 class="wp-block-heading sr-title__h"><?php echo wp_kses_post( shirabe_research_t( 'k44c3c180' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sr-eyebrow"} -->
-<p class="sr-eyebrow">06 — Priced per study, in USD</p>
+<p class="sr-eyebrow"><?php echo wp_kses_post( shirabe_research_t( 'k97894402' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<figure class="wp-block-table sr-fees is-style-regular"><table class="has-fixed-layout"><thead><tr><th>Study</th><th>What you get</th><th>Length</th><th class="sr-price">Price</th></tr></thead><tbody><tr><td>Discovery interviews</td><td>8 one-to-one 60-min interviews, recordings, written report</td><td>4 weeks</td><td class="sr-price">from $9,800</td></tr><tr><td>Concept test</td><td>12 interviews with printed concepts and paper charts, readout</td><td>5 weeks</td><td class="sr-price">from $12,400</td></tr><tr><td>In-context visits</td><td>6 home or workplace visits, photo notes, report</td><td>5 weeks</td><td class="sr-price">from $14,500</td></tr><tr><td>Interviews + follow-up survey</td><td>12 interviews then a 400-person survey to size the findings</td><td>7 weeks</td><td class="sr-price">from $18,900</td></tr><tr><td>Readout workshop</td><td>half-day session with your team on an existing study</td><td>1 day</td><td class="sr-price">$2,400</td></tr></tbody></table></figure>
+<figure class="wp-block-table sr-fees is-style-regular"><table class="has-fixed-layout"><thead><tr><th><?php echo wp_kses_post( shirabe_research_t( 'k0a3dac23' ) ); ?></th><th><?php echo wp_kses_post( shirabe_research_t( 'k78821573' ) ); ?></th><th><?php echo wp_kses_post( shirabe_research_t( 'kba2a9c6c' ) ); ?></th><th class="sr-price"><?php echo wp_kses_post( shirabe_research_t( 'k3601146c' ) ); ?></th></tr></thead><tbody><tr><td><?php echo wp_kses_post( shirabe_research_t( 'k6b34101e' ) ); ?></td><td><?php echo wp_kses_post( shirabe_research_t( 'k36776445' ) ); ?></td><td><?php echo wp_kses_post( shirabe_research_t( 'k8f87e65f' ) ); ?></td><td class="sr-price"><?php echo wp_kses_post( shirabe_research_t( 'k8fff2d9b' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( shirabe_research_t( 'kb8226efe' ) ); ?></td><td><?php echo wp_kses_post( shirabe_research_t( 'k63240eed' ) ); ?></td><td><?php echo wp_kses_post( shirabe_research_t( 'k5c0153ee' ) ); ?></td><td class="sr-price"><?php echo wp_kses_post( shirabe_research_t( 'k02ae5f71' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( shirabe_research_t( 'ke7572c51' ) ); ?></td><td><?php echo wp_kses_post( shirabe_research_t( 'k6a4eee58' ) ); ?></td><td><?php echo wp_kses_post( shirabe_research_t( 'k5c0153ee' ) ); ?></td><td class="sr-price"><?php echo wp_kses_post( shirabe_research_t( 'kdbc76787' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( shirabe_research_t( 'kbb3f3938' ) ); ?></td><td><?php echo wp_kses_post( shirabe_research_t( 'k84f55409' ) ); ?></td><td><?php echo wp_kses_post( shirabe_research_t( 'kf99c6d08' ) ); ?></td><td class="sr-price"><?php echo wp_kses_post( shirabe_research_t( 'k1d6387b0' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( shirabe_research_t( 'k87f4912b' ) ); ?></td><td><?php echo wp_kses_post( shirabe_research_t( 'k61aeb5d5' ) ); ?></td><td><?php echo wp_kses_post( shirabe_research_t( 'ke3b481d5' ) ); ?></td><td class="sr-price">$2,400</td></tr></tbody></table></figure>
 <!-- /wp:html -->
 <!-- wp:paragraph {"className":"sr-note"} -->
-<p class="sr-note">Prices exclude VAT and participant incentives.</p>
+<p class="sr-note"><?php echo wp_kses_post( shirabe_research_t( 'k0eb2b1c4' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"sr-btn"} -->
-<div class="wp-block-button sr-btn"><a class="wp-block-button__link wp-element-button" href="/contact/">Request a proposal</a></div>
+<div class="wp-block-button sr-btn"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( shirabe_research_t( 'k6f96ac44' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>

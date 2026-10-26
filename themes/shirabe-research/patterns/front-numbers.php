@@ -12,21 +12,21 @@
 <section class="wp-block-group alignfull sr-band sr-band--ink sr-numbers has-base-color has-ink-background-color has-text-color has-background" id="numbers"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"className":"sr-title sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-title sp-reveal sp-reveal--wipe"><!-- wp:heading {"level":2,"className":"sr-title__h"} -->
-<h2 class="wp-block-heading sr-title__h">IN NUMBERS</h2>
+<h2 class="wp-block-heading sr-title__h"><?php echo wp_kses_post( shirabe_research_t( 'ka98c1b43' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sr-eyebrow"} -->
-<p class="sr-eyebrow">03 — One study · Grocery co-op members, 2025</p>
+<p class="sr-eyebrow"><?php echo wp_kses_post( shirabe_research_t( 'ked095541' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"sr-numbers__lead"} -->
-<p class="sr-numbers__lead">An intensive qualitative inquiry examining why active members stopped opening the co-op mobile application across three metropolitan markets.</p>
+<p class="sr-numbers__lead"><?php echo wp_kses_post( shirabe_research_t( 'k753b4ff8' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:group {"className":"sr-figs sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-figs sp-stagger"><!-- wp:group {"className":"sr-fig sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-fig sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sr-fig__cap"} -->
-<p class="sr-fig__cap">interviews</p>
+<p class="sr-fig__cap"><?php echo wp_kses_post( shirabe_research_t( 'ke112d941' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sr-fig__num sp-count"} -->
 <p class="sr-fig__num sp-count">24</p>
@@ -34,7 +34,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"sr-fig sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-fig sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sr-fig__cap"} -->
-<p class="sr-fig__cap">cities</p>
+<p class="sr-fig__cap"><?php echo wp_kses_post( shirabe_research_t( 'ka66b3115' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sr-fig__num sp-count"} -->
 <p class="sr-fig__num sp-count">3</p>
@@ -42,7 +42,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"sr-fig sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-fig sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sr-fig__cap"} -->
-<p class="sr-fig__cap">hours of recordings</p>
+<p class="sr-fig__cap"><?php echo wp_kses_post( shirabe_research_t( 'kf5e472ea' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sr-fig__num sp-count"} -->
 <p class="sr-fig__num sp-count">41</p>
@@ -50,7 +50,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"sr-fig sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-fig sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sr-fig__cap"} -->
-<p class="sr-fig__cap">findings</p>
+<p class="sr-fig__cap"><?php echo wp_kses_post( shirabe_research_t( 'kf85b7855' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sr-fig__num sp-count"} -->
 <p class="sr-fig__num sp-count">6</p>
@@ -64,16 +64,16 @@
 <!-- wp:group {"className":"sr-strip sp-marquee","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-strip sp-marquee"><!-- wp:group {"className":"sr-strip__track","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-strip__track"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"sr-strip__img"} -->
-<figure class="wp-block-image size-large sr-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07.webp' ) ); ?>" alt="Overhead view of printed paper bar charts, blank sticky notes, and pencils on wood."/></figure>
+<figure class="wp-block-image size-large sr-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07.webp' ) ); ?>" alt="<?php echo esc_attr( shirabe_research_t( 'a821e7eb3' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"sr-strip__img"} -->
-<figure class="wp-block-image size-large sr-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08.webp' ) ); ?>" alt="Audio headphones rest beside a laptop displaying audio waveforms alongside printed interview transcripts."/></figure>
+<figure class="wp-block-image size-large sr-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08.webp' ) ); ?>" alt="<?php echo esc_attr( shirabe_research_t( 'a14aa6eea' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"sr-strip__img"} -->
-<figure class="wp-block-image size-large sr-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09.webp' ) ); ?>" alt="An empty interview studio featuring two chairs and a low table beside a window."/></figure>
+<figure class="wp-block-image size-large sr-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09.webp' ) ); ?>" alt="<?php echo esc_attr( shirabe_research_t( 'a8b8d1e39' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"sr-strip__img"} -->
-<figure class="wp-block-image size-large sr-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10.webp' ) ); ?>" alt="Hands sort printed qualitative interview cards into distinct paper piles across a studio table."/></figure>
+<figure class="wp-block-image size-large sr-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10.webp' ) ); ?>" alt="<?php echo esc_attr( shirabe_research_t( 'ab23780a4' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->

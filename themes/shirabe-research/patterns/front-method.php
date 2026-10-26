@@ -12,100 +12,100 @@
 <section class="wp-block-group alignfull sr-sec sr-method" id="method"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"className":"sr-title sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-title sp-reveal sp-reveal--wipe"><!-- wp:heading {"level":2,"className":"sr-title__h"} -->
-<h2 class="wp-block-heading sr-title__h">METHOD</h2>
+<h2 class="wp-block-heading sr-title__h"><?php echo wp_kses_post( shirabe_research_t( 'k725e74fd' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sr-eyebrow"} -->
-<p class="sr-eyebrow">02 — How we work</p>
+<p class="sr-eyebrow"><?php echo wp_kses_post( shirabe_research_t( 'kdfa25f02' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sr-method__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-method__grid"><!-- wp:group {"className":"sr-item","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-item"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"sr-item__img sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-large sr-item__img sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04.webp' ) ); ?>" alt="A recruiter on a phone call reviews printed screener documents across an office desk."/></figure>
+<figure class="wp-block-image size-large sr-item__img sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04.webp' ) ); ?>" alt="<?php echo esc_attr( shirabe_research_t( 'a6842a603' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"sr-eyebrow"} -->
-<p class="sr-eyebrow">Weeks 1–2</p>
+<p class="sr-eyebrow"><?php echo wp_kses_post( shirabe_research_t( 'k10aeafab' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sr-item__title"} -->
-<h3 class="wp-block-heading sr-item__title">Recruit the right twelve</h3>
+<h3 class="wp-block-heading sr-item__title"><?php echo wp_kses_post( shirabe_research_t( 'k8ca68b1e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sr-item__text"} -->
-<p class="sr-item__text">We recruit exact participant profiles through careful screening, ensuring every interview represents genuine target audiences.</p>
+<p class="sr-item__text"><?php echo wp_kses_post( shirabe_research_t( 'kdacc03c7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sr-arrowsq"} -->
-<p class="sr-arrowsq"><a href="/method/" aria-label="Method: Recruit the right twelve">→</a></p>
+<p class="sr-arrowsq"><a href="/method/" aria-label="<?php echo esc_attr( shirabe_research_t( 'ab18c995a' ) ); ?>">→</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sr-item","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-item"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"sr-item__img sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-large sr-item__img sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03.webp' ) ); ?>" alt="A moderator rests chin on hand while listening to a participant across the table."/></figure>
+<figure class="wp-block-image size-large sr-item__img sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03.webp' ) ); ?>" alt="<?php echo esc_attr( shirabe_research_t( 'a0bc8649e' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"sr-eyebrow"} -->
-<p class="sr-eyebrow">Weeks 2–3</p>
+<p class="sr-eyebrow"><?php echo wp_kses_post( shirabe_research_t( 'k05524fab' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sr-item__title"} -->
-<h3 class="wp-block-heading sr-item__title">Listen in person</h3>
+<h3 class="wp-block-heading sr-item__title"><?php echo wp_kses_post( shirabe_research_t( 'k6214b0f0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sr-item__text"} -->
-<p class="sr-item__text">We conduct one-to-one moderated sessions in calm studio rooms or on site, allowing conversations to unfold naturally without rigid survey scripts.</p>
+<p class="sr-item__text"><?php echo wp_kses_post( shirabe_research_t( 'k77e613b3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sr-arrowsq"} -->
-<p class="sr-arrowsq"><a href="/method/" aria-label="Method: Listen in person">→</a></p>
+<p class="sr-arrowsq"><a href="/method/" aria-label="<?php echo esc_attr( shirabe_research_t( 'a5ad025ef' ) ); ?>">→</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sr-item","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-item"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"sr-item__img sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-large sr-item__img sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05.webp' ) ); ?>" alt="Two researchers pin large printed paper analysis charts onto a neutral grey studio wall."/></figure>
+<figure class="wp-block-image size-large sr-item__img sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05.webp' ) ); ?>" alt="<?php echo esc_attr( shirabe_research_t( 'a33383693' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"sr-eyebrow"} -->
-<p class="sr-eyebrow">Week 4</p>
+<p class="sr-eyebrow"><?php echo wp_kses_post( shirabe_research_t( 'k024f2ea1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sr-item__title"} -->
-<h3 class="wp-block-heading sr-item__title">Chart on paper, together</h3>
+<h3 class="wp-block-heading sr-item__title"><?php echo wp_kses_post( shirabe_research_t( 'k922c8512' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sr-item__text"} -->
-<p class="sr-item__text">We map findings on large physical paper charts with your team, identifying patterns across transcripts without dashboard abstraction.</p>
+<p class="sr-item__text"><?php echo wp_kses_post( shirabe_research_t( 'kd031c4c5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sr-arrowsq"} -->
-<p class="sr-arrowsq"><a href="/method/" aria-label="Method: Chart on paper, together">→</a></p>
+<p class="sr-arrowsq"><a href="/method/" aria-label="<?php echo esc_attr( shirabe_research_t( 'ae69cc76d' ) ); ?>">→</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sr-item","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-item"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"sr-item__img sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-large sr-item__img sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06.webp' ) ); ?>" alt="Three people gather around a wooden table while one researcher presents printed paper charts."/></figure>
+<figure class="wp-block-image size-large sr-item__img sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06.webp' ) ); ?>" alt="<?php echo esc_attr( shirabe_research_t( 'a7d5df129' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"sr-eyebrow"} -->
-<p class="sr-eyebrow">Week 5</p>
+<p class="sr-eyebrow"><?php echo wp_kses_post( shirabe_research_t( 'ka9fdae21' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sr-item__title"} -->
-<h3 class="wp-block-heading sr-item__title">Read out, then write</h3>
+<h3 class="wp-block-heading sr-item__title"><?php echo wp_kses_post( shirabe_research_t( 'k0d3d2fbe' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sr-item__text"} -->
-<p class="sr-item__text">We deliver an in-person readout session with your stakeholders first, followed by a concise, evidence-based written report.</p>
+<p class="sr-item__text"><?php echo wp_kses_post( shirabe_research_t( 'k7153061c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sr-arrowsq"} -->
-<p class="sr-arrowsq"><a href="/method/" aria-label="Method: Read out, then write">→</a></p>
+<p class="sr-arrowsq"><a href="/method/" aria-label="<?php echo esc_attr( shirabe_research_t( 'a39e8d2f1' ) ); ?>">→</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

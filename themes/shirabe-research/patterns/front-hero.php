@@ -12,7 +12,7 @@
 <section class="wp-block-group alignfull sr-hero"><!-- wp:group {"align":"wide","className":"sr-hero__row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide sr-hero__row"><!-- wp:group {"className":"sr-hero__head","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-hero__head"><!-- wp:heading {"level":1,"className":"sr-h1"} -->
-<h1 class="wp-block-heading sr-h1">We sit across the table<br>from your customers,<br>and bring back what they meant.</h1>
+<h1 class="wp-block-heading sr-h1"><?php echo wp_kses_post( shirabe_research_t( 'k046731b7' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -22,11 +22,11 @@
 
 <!-- wp:group {"className":"sr-hero__lead","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-hero__lead"><!-- wp:paragraph {"className":"sr-lead"} -->
-<p class="sr-lead">Shirabe Research runs qualitative market research the slow way: in a five-week study we sit across the table from twelve of your customers, chart what they say on paper together, and read the findings out to your team in person.</p>
+<p class="sr-lead"><?php echo wp_kses_post( shirabe_research_t( 'k3f84e9e5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sr-pill"} -->
-<p class="sr-pill"><a href="/studies/"><span class="sr-pill__tag">CURRENT STUDY</span><span class="sr-pill__text">Grocery co-op members, 2025</span><span class="sr-pill__arrow" aria-hidden="true">→</span></a></p>
+<p class="sr-pill"><a href="/studies/"><span class="sr-pill__tag"><?php echo wp_kses_post( shirabe_research_t( 'k7d4c0958' ) ); ?></span><span class="sr-pill__text"><?php echo wp_kses_post( shirabe_research_t( 'kb3252f08' ) ); ?></span><span class="sr-pill__arrow" aria-hidden="true">→</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
