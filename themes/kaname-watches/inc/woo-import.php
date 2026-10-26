@@ -105,6 +105,7 @@ if ( ! class_exists( 'Kaname_Watches_Woo_Import' ) ) {
 			if ( empty( $demo['products'] ) || ! self::ready() ) {
 				return $counts;
 			}
+			self::currency();
 			require_once ABSPATH . 'wp-admin/includes/file.php';
 			require_once ABSPATH . 'wp-admin/includes/media.php';
 			require_once ABSPATH . 'wp-admin/includes/image.php';
@@ -209,6 +210,51 @@ if ( ! class_exists( 'Kaname_Watches_Woo_Import' ) ) {
 				self::$running = false;
 			}
 			return $counts;
+		}
+
+		/**
+		 * Sets the shop currency to euro (prices are EUR in every language), formatted the local way. Only while the
+		 * store still has WooCommerce's default currency or the one this theme set before; a currency the owner chose
+		 * is left alone. Safe to repeat.
+		 */
+		private static function currency() {
+			$current = get_option( 'woocommerce_currency' );
+			$ours    = get_option( 'kaname_watches_currency' );
+			if ( $ours || ! $current || in_array( $current, array( 'USD', 'GBP' ), true ) ) {
+				$lang = ShipPress_Demo_Import::lang();
+				$nbsp = "\xC2\xA0";
+				$fmt  = array(
+					'fr' => array( 'right_space', $nbsp, ',' ),
+					'de' => array( 'right_space', '.', ',' ),
+				);
+				$f    = isset( $fmt[ $lang ] ) ? $fmt[ $lang ] : array( 'left', ',', '.' );
+				update_option( 'woocommerce_currency', 'EUR' );
+				update_option( 'woocommerce_currency_pos', $f[0] );
+				update_option( 'woocommerce_price_thousand_sep', $f[1] );
+				update_option( 'woocommerce_price_decimal_sep', $f[2] );
+				update_option( 'woocommerce_price_num_decimals', 0 );
+				update_option( 'kaname_watches_currency', 'EUR', false );
+			}
+			self::page_titles();
+		}
+
+		/** Titles of the pages WooCommerce creates (still its English defaults) in the language of the sample content. */
+		private static function page_titles() {
+			$names = array(
+				'en'    => array( 'Cart', 'Checkout' ),
+				'zh-TW' => array( '購物車', '結帳' ),
+				'ja'    => array( 'カート', 'お会計' ),
+				'fr'    => array( 'Panier', 'Paiement' ),
+				'de'    => array( 'Warenkorb', 'Kasse' ),
+			);
+			$lang  = ShipPress_Demo_Import::lang();
+			$names = isset( $names[ $lang ] ) ? $names[ $lang ] : $names['en'];
+			foreach ( array( 'cart' => array( 'Cart', $names[0] ), 'checkout' => array( 'Checkout', $names[1] ) ) as $key => $t ) {
+				$id = (int) get_option( 'woocommerce_' . $key . '_page_id' );
+				if ( $id && get_the_title( $id ) === $t[0] && $t[0] !== $t[1] ) {
+					wp_update_post( array( 'ID' => $id, 'post_title' => $t[1] ) );
+				}
+			}
 		}
 
 		/**

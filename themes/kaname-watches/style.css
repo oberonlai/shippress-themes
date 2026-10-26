@@ -284,7 +284,10 @@ html.sp-no-motion .kw-win__b, .editor-styles-wrapper .kw-win__b { opacity: 0 !im
 }
 
 /* ---- Pages (generic) */
-.kw-page { padding-top: 64px; }
+.kw-page { padding: 15px var(--kw-inset) var(--kw-sec); }
+.kw-page > * { max-width: none; }
+.kw-bar-cap--page { margin-bottom: 48px !important; }
+.kw-page .wp-block-post-content { max-width: 1180px; margin-inline: auto; }
 .kw-h--page { font-size: var(--wp--preset--font-size--x-large); text-align: center; margin-bottom: 40px; }
 
 .kw-lead { font-size: var(--wp--preset--font-size--medium); line-height: 1.8; margin-bottom: 2.5rem; }
@@ -402,6 +405,10 @@ html.sp-no-motion .kw-win__b, .editor-styles-wrapper .kw-win__b { opacity: 0 !im
 .kw-product .single_add_to_cart_button, .kw-product .wp-element-button { background: var(--kw-kuro); color: #fff; border-radius: 0; font-family: var(--kw-display); font-size: 0.8125rem; letter-spacing: 0.13em; text-transform: uppercase; padding: 16px 32px; }
 .kw-product .quantity input { background: var(--kw-card); border: 0; border-radius: 0; padding: 14px; }
 .kw-product__details, .kw-product > h2 { margin-top: var(--kw-sec); }
+.wp-block-woocommerce-empty-cart-block .wc-block-cart__empty-cart__icon, .wp-block-woocommerce-empty-cart-block svg.wp-block-woocommerce-empty-cart-block__icon, .wp-block-woocommerce-empty-cart-block > svg, .wp-block-woocommerce-empty-cart-block img[src*="sad"], .wp-block-woocommerce-empty-cart-block .with-empty-cart-icon::before { display: none !important; }
+.wp-block-woocommerce-empty-cart-block .with-empty-cart-icon { padding-top: 0 !important; background-image: none !important; mask: none !important; -webkit-mask: none !important; }
+.wc-block-grid__product-image { aspect-ratio: 1 / 1; overflow: clip; }
+.wc-block-grid__product-image img { width: 100% !important; height: 100% !important; aspect-ratio: 1 / 1; object-fit: cover; }
 .wc-block-components-notice-banner, .woocommerce-message { border-radius: 0; border-left: 2px solid var(--kw-kuro); }
 @media (max-width: 781px) { .kw-product .kw-product__main { grid-template-columns: 1fr; gap: 32px; } }
 @media (max-width: 781px) {
