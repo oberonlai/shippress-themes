@@ -28,7 +28,7 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":1,"className":"fl-h fl-hero__title"} -->
-<h1 class="wp-block-heading fl-h fl-hero__title">Small<span class="fl-br"> </span>Hours</h1>
+<h1 class="wp-block-heading fl-h fl-hero__title">Small <span class="fl-br"></span>Hours</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fl-hero__cap"} -->
