@@ -63,6 +63,7 @@ body::after {
 .nw-bar .wp-block-site-title { margin: 0; }
 .nw-brand, .nw-brand a { font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1.25rem; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; color: var(--nw-ink); white-space: nowrap; }
 .nw-nav { font-family: var(--wp--preset--font-family--display); font-weight: 600; font-size: 1rem; text-transform: uppercase; letter-spacing: .02em; gap: 24px; }
+.nw-nav--l { display: flex; align-items: center; flex-wrap: nowrap; }
 .nw-nav .wp-block-navigation__container { gap: 24px; flex-wrap: nowrap; }
 .nw-nav a { text-decoration: none; transition: color .3s cubic-bezier(.4, .4, 0, 1); white-space: nowrap; }
 .nw-nav a:hover { color: var(--nw-accent); }
@@ -442,9 +443,17 @@ body::after {
 	.nw-list--3 td:last-child, .nw-list--4 td:last-child { text-align: left; padding-top: 0; font-size: 1rem; }
 }
 
-/* ---- languages: zh-TW / ja (Noto Sans, 黑體) and fr / de (hyphenation) */
-:root:lang(zh) { --nw-cjk: "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif; }
-:root:lang(ja) { --nw-cjk: "Noto Sans JP", "Noto Sans TC", system-ui, sans-serif; }
+/* ---- languages: zh-TW / ja (Noto Sans, gothic sans) and fr / de (hyphenation) */
+:root:lang(zh) {
+	--nw-cjk: "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif;
+	--wp--preset--font-family--display: "Albert Sans", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Manrope", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--nw-cjk: "Noto Sans JP", "Noto Sans TC", system-ui, sans-serif;
+	--wp--preset--font-family--display: "Albert Sans", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+	--wp--preset--font-family--body: "Manrope", "Hiragino Sans", "Yu Gothic", sans-serif;
+}
 :is(:lang(zh), :lang(ja)) :is(body, .nw-brand, .nw-nav, .nw-eyebrow, .nw-h2, .nw-h3, .nw-statement, .nw-hero__line, .nw-hero__tag, .nw-textlink a, .nw-btn .wp-block-button__link, .nw-foot__mark, .nw-foot__h) { font-family: var(--nw-cjk); }
 :is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .06em; line-break: strict; }
 :lang(ja) body { letter-spacing: .08em; }

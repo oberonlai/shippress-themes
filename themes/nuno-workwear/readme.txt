@@ -26,7 +26,7 @@ The shop, its people, address, telephone number and prices are fictional.
 == Copyright ==
 
 Nuno Workwear is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Albert Sans (OFL-1.1), Latin variable; Manrope (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Albert Sans (OFL-1.1), Latin variable; Manrope (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), Traditional Chinese subset, weights 400 and 700; Noto Sans JP (OFL-1.1), Japanese subset, weights 400 and 700; WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later), no third-party library.
 
 = Images =
@@ -48,6 +48,9 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/p14.webp (Kitchen team wearing bib aprons preparing prep stations before evening restaurant service.)
 - assets/images/p15.webp (Grounds crew wearing waxed jackets loading maintenance tools into a work van.)
 - assets/images/p16.webp (Quiet shop interior with garment rails, wooden floor, and an open front door.)
+- assets/images/p17.webp (Two cobblers replacing the sole of a leather work boot at a timber bench.)
+- assets/images/p18.webp (Three workers comparing canvas, twill and leather swatches on a timber table.)
+- assets/images/demo/p01-reproof.webp (Workshop rail of waxed jackets and boots; featured image for the sample re-proofing article.)
 
 == Changelog ==
 

@@ -59,7 +59,7 @@ saab-group.jp opens on a **full-bleed documentary photograph inside the denim pr
 Nuno Workwear is a shop for crews who need clothes that last a shift. The first screen is **a documentary photograph inside our shop-workshop before opening**: waxed jackets hung on a timber rail, worn safety boots lined on a heavy timber bench, folded canvas trousers stacked in the foreground corners, a fitter in the middle distance — the same "real garments, real workroom, people at work" story, grainy and slightly under-lit like saab. The photograph fills the **bottom half full-bleed** (occkwork's top/bottom halves), the giant headline **"MADE / FOR SHIFTS"** straddles the seam (line 1 on the pale band, line 2 over the photo, as saab's type over plant photo), and a short spec tagline sits right of line 2 like saab's JP line. Motion: line-mask rise on load, slow 2s cross-fade between three bench/rail scenes, parallax on the photo layer. Image type: **photo** (documentary).
 
 ### (3) KV checklist (each item implemented and visible on the first screen at 1440×900)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Which image |
 |---|---|---|---|---|---|
 | 1 | Full-bleed documentary plant photo (machines, worker, cloth) | Full-bleed workshop photo: waxed jackets on a timber rail, boots on a bench, fitter mid-distance | bottom half, y 392→900, x 0→100% | `sp-parallax` `--sp-par: 8%` on the layer + CSS cross-fade P01→P02→P03, 2s fade every 7s | P01 (first, static frame), P02, P03 |
 | 2 | Giant two-line headline "WE ARE / SAAB", cream, 288px | "MADE" (ink, band) / "FOR SHIFTS" (cream, photo), Albert Sans 500 clamp(4.25rem,11.5vw,11rem) | left on guide 1 (x 120); line 1 baseline 24px above seam; line 2 cap top 20px below seam | line-mask rise on load: spans translateY(105%)→0, 1.2s cubic-bezier(.23,1,.32,1), line 2 delay .15s | — (type) |
@@ -75,7 +75,7 @@ Images P01–P03 are in the image list (§8). The first frame (P01) is what scre
 ## 3. Home page
 
 ### Header (split nav; saab nav type, occkwork white top band)
-Height **80px** (tok (c) `--headerHeight`), ground `#F3F2EF`, bottom 1px dashed `rgba(31,29,27,.22)`. Left group (from guide 1): Catalogue · Fabrics · Fit · Repairs. Centre: wordmark "NUNO WORKWEAR" Albert Sans 700 1.25rem ls .12em. Right group (ending before the round button): Crew orders · Stories · Contact, then the language switcher (`EN | 中 | 日 | FR | DE`, 0.875rem 700, tok (b) lang links 14px 700), then the 58px round enquiry button (mailto/contact). Nav links Albert Sans 600 **1rem** uppercase ls .02em (saab 18px; one step smaller because we carry 7 links + 5 languages). Sticky; after 100px scroll background stays ground and the bar gains `box-shadow: 0 1px 0 rgba(31,29,27,.12)`, transition .6s cubic-bezier(.25,1,.5,1) (tok (g) header). <960px: wordmark left, round button + two-bar menu button right, overlay menu on ground. Only one top menu.
+Height **80px** (tok (c) `--headerHeight`), ground `#F3F2EF`, bottom 1px dashed `rgba(31,29,27,.22)`. Left group (from guide 1): Catalogue · Fabrics · Fit · Repairs. Centre: wordmark "NUNO WORKWEAR" Albert Sans 700 1.25rem ls .12em. Right group (ending before the round button): Crew orders · Stories · Contact, then the language switcher (`EN | ZH | JA | FR | DE`, 0.875rem 700, tok (b) lang links 14px 700), then the 58px round enquiry button (mailto/contact). Nav links Albert Sans 600 **1rem** uppercase ls .02em (saab 18px; one step smaller because we carry 7 links + 5 languages). Sticky; after 100px scroll background stays ground and the bar gains `box-shadow: 0 1px 0 rgba(31,29,27,.12)`, transition .6s cubic-bezier(.25,1,.5,1) (tok (g) header). <960px: wordmark left, round button + two-bar menu button right, overlay menu on ground. Only one top menu.
 
 ### First screen (1440×900; top/bottom halves)
 - **Top band** y 80→392 (312px), ground `#F3F2EF`. Left: eyebrow `(WORKWEAR & REPAIRS · ROTTERDAM, SINCE 2009)` accent, 1rem 600, at y ≈ 120; line 1 "MADE" bottom-aligned 24px above the seam. Right column (guide 4 → guide 5, x 1020–1320): lead "Trousers, jackets, aprons and boots chosen by trade, fitted on your crew, embroidered and mended in our own workshop." Manrope 1.0625rem/1.75, then two buttons stacked 12px apart: filled "See the catalogue" and outline "Book a crew fitting" (both 62px, radius 10, divider + arrow). Under them hours line 0.8125rem: "Open Mon–Fri 07:00–18:00 · Sat 08:00–13:00".
@@ -146,8 +146,8 @@ Relationships from saab (text = dark band ink; light ground; one saturated accen
 | Role | Hex | Source token | Use | Share of page |
 |---|---|---|---|---|
 | Ground | `#F3F2EF` | saab `#FFFCF5` (−4% L, cooler: rule forbids cream default) | page ground, header | ≈ 45% |
-| Ink | `#1F1D1B` | saab `#00161E` text + dark bands (same relationship; navy → warm charcoal: row palette 消炭/grey, and navy/blue would echo Kazoe/Mado) | body text, ink bands, footer, filled buttons | text + ≈ 30% bands |
-| Main (charcoal) | `#524E4A` | row hex 消炭 | muted text, card spec values, secondary button hover, form borders | ≈ 5% |
+| Ink | `#1F1D1B` | saab `#00161E` text + dark bands (same relationship; navy → warm charcoal: row palette sumi-charcoal/grey, and navy/blue would echo Kazoe/Mado) | body text, ink bands, footer, filled buttons | text + ≈ 30% bands |
+| Main (charcoal) | `#524E4A` | row hex sumi-charcoal | muted text, card spec values, secondary button hover, form borders | ≈ 5% |
 | Stone band | `#E4E2DD` | occkwork `#F7F7F7` band role (tok (a)) | price list band, spec cards | ≈ 10% |
 | Accent | `#A9521D` | saab hero machine orange `#E9772B` (photo palette), darkened for 4.8:1 on ground; takes the role of saab accent `#0389C5` (blue avoided: Kazoe/Mado) | eyebrows, H2 labels, link underline hover | ≤ 3% |
 | Accent on ink | `#E39A62` | same hue, lightened | eyebrows on ink bands | < 1% |
@@ -159,7 +159,7 @@ theme-meta.json: `type: business`; `colors.tags: ["grey", "neutral", "dark", "wa
 ## 6. Type
 
 - **Latin:** headings **Albert Sans** (500, 600, 700), body **Manrope** (400, 500, 700). Both sans (font_direction sans). Load with theme.json `fontFamilies` + `fontFace` (woff2 in `assets/fonts/`), same in editor and front end.
-- **CJK (黑體):** Noto Sans TC 400/700 and Noto Sans JP 400/700 subset woff2 (Hokuto/Hada replacement method), declared as fontFace in theme.json.
+- **CJK (gothic sans):** Noto Sans TC 400/700 and Noto Sans JP 400/700 subset woff2 (Hokuto/Hada replacement method), declared as fontFace in theme.json.
 - Stacks: heading `"Albert Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; body `"Manrope", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; `:lang(ja)` puts Noto Sans JP before TC. If any `:lang(` rule exists, copy `shared/inc/editor-lang.php` and require it. No serif or Mincho anywhere.
 - Sizes (theme.json presets): small 0.8125rem · base 1rem · medium 1.125rem · large 1.5rem · x-large **2.875rem** (H2, tok saab 46px) · xx-large **4.375rem** (order numbers, tok 70px) · huge `clamp(4.25rem, 11.5vw, 11rem)` (hero) · head `clamp(4.25rem, 8vw, 7.5rem)` (inner heads). Max ≥ 4.25rem ✓.
 - Weights / leading: hero 500 / 1.0 / ls .005em; H2 600 / 1.38 / .028em uppercase; H3 600 2rem / 1.375; statement 600 2rem / 1.6; body 400 1rem / **1.875** (tok 16/30) ls .01em; nav 600 1rem uppercase .02em; eyebrow 600 1.125rem uppercase .04em.

@@ -1,5 +1,5 @@
 # Reference (draft, stage 1): Nuno Workwear
-S5-Style (https://www.s5-style.com) picks, category: apparel / manufacturing (ファッション・メーカー). Not used by earlier themes (checked with grep of themes/*/brand/reference.md).
+S5-Style (https://www.s5-style.com) picks, category: apparel / manufacturing. Not used by earlier themes (checked with grep of themes/*/brand/reference.md).
 | Role | Site | Why |
 |---|---|---|
 | Main | https://saab-group.jp/ | denim processing factory: documentary plant photography, giant two-line hero type over full-bleed photo, dashed column guides, cream/ink ground with dark band rhythm, GSAP scroll reveals |

@@ -9,15 +9,14 @@
 ?>
 <!-- wp:group {"align":"full","className":"nw-header","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nw-header"><!-- wp:group {"className":"nw-bar nw-in","layout":{"type":"default"}} -->
-<div class="wp-block-group nw-bar nw-in"><!-- wp:navigation {"overlayMenu":"never","className":"nw-nav nw-nav--l","layout":{"type":"flex","orientation":"horizontal"}} -->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( nuno_workwear_t( 'aa8567ec8' ) ); ?>","url":"/catalogue/","kind":"custom","isTopLevelLink":true} /-->
-
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( nuno_workwear_t( 'a58e03cac' ) ); ?>","url":"/fabrics/","kind":"custom","isTopLevelLink":true} /-->
-
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( nuno_workwear_t( 'a01e49ee7' ) ); ?>","url":"/fit/","kind":"custom","isTopLevelLink":true} /-->
-
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( nuno_workwear_t( 'a810a4b9e' ) ); ?>","url":"/repairs/","kind":"custom","isTopLevelLink":true} /-->
-<!-- /wp:navigation -->
+<div class="wp-block-group nw-bar nw-in"><!-- wp:html -->
+<nav class="nw-nav nw-nav--l" aria-label="<?php echo esc_attr( nuno_workwear_t( 'aa8567ec8' ) ); ?>">
+<a href="/catalogue/"><?php echo esc_html( nuno_workwear_t( 'aa8567ec8' ) ); ?></a>
+<a href="/fabrics/"><?php echo esc_html( nuno_workwear_t( 'a58e03cac' ) ); ?></a>
+<a href="/fit/"><?php echo esc_html( nuno_workwear_t( 'a01e49ee7' ) ); ?></a>
+<a href="/repairs/"><?php echo esc_html( nuno_workwear_t( 'a810a4b9e' ) ); ?></a>
+</nav>
+<!-- /wp:html -->
 
 <!-- wp:site-title {"level":0,"className":"nw-brand"} /-->
 
