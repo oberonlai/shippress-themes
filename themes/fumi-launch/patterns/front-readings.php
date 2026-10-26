@@ -15,37 +15,37 @@
 <div class="wp-block-columns fl-cols fl-cols--read"><!-- wp:column {"width":"100%"} -->
 <div class="wp-block-column" style="flex-basis:100%">
 <!-- wp:paragraph {"className":"fl-label"} -->
-<p class="fl-label">Readings</p>
+<p class="fl-label"><?php echo wp_kses_post( fumi_launch_t( 'k85571ed5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"fl-h fl-h--l"} -->
-<h2 class="wp-block-heading fl-h fl-h--l">Four evenings, four cities</h2>
+<h2 class="wp-block-heading fl-h fl-h--l"><?php echo wp_kses_post( fumi_launch_t( 'kea7fb059' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fl-lead"} -->
-<p class="fl-lead">Join author Clara Hsu for four free launch readings across four cities in spring 2027. Each evening begins at 19:30 local time and is strictly limited to 60 seats with advance booking required.</p>
+<p class="fl-lead"><?php echo wp_kses_post( fumi_launch_t( 'k8011f683' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"fl-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fl-row">
 <!-- wp:paragraph {"className":"fl-row__d"} -->
-<p class="fl-row__d">Sat 20 March 2027</p>
+<p class="fl-row__d"><?php echo wp_kses_post( fumi_launch_t( 'k5a624251' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__c"} -->
-<p class="fl-row__c">Taipei</p>
+<p class="fl-row__c"><?php echo wp_kses_post( fumi_launch_t( 'k7a4e1add' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__v"} -->
-<p class="fl-row__v">The Corner Room, Da'an</p>
+<p class="fl-row__v"><?php echo wp_kses_post( fumi_launch_t( 'kedf940a3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__f"} -->
-<p class="fl-row__f">Launch reading + signing with Mina Cho</p>
+<p class="fl-row__f"><?php echo wp_kses_post( fumi_launch_t( 'k7dcfc619' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-arrow"} -->
-<p class="fl-arrow"><a href="mailto:hello@fumipress.example?subject=Seat%20request%3A%20Taipei">Book a seat →</a></p>
+<p class="fl-arrow"><a href="mailto:hello@fumipress.example?subject=Seat%20request%3A%20Taipei"><?php echo wp_kses_post( fumi_launch_t( 'k507f07e8' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -53,23 +53,23 @@
 <!-- wp:group {"className":"fl-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fl-row">
 <!-- wp:paragraph {"className":"fl-row__d"} -->
-<p class="fl-row__d">Sat 27 March 2027</p>
+<p class="fl-row__d"><?php echo wp_kses_post( fumi_launch_t( 'k182ee5cf' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__c"} -->
-<p class="fl-row__c">Tokyo</p>
+<p class="fl-row__c"><?php echo wp_kses_post( fumi_launch_t( 'k62413a57' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__v"} -->
-<p class="fl-row__v">Annex Reading Room, Kiyosumi</p>
+<p class="fl-row__v"><?php echo wp_kses_post( fumi_launch_t( 'k64749547' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__f"} -->
-<p class="fl-row__f">Conversation with Tomas Reyes</p>
+<p class="fl-row__f"><?php echo wp_kses_post( fumi_launch_t( 'kc4ffb8fa' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-arrow"} -->
-<p class="fl-arrow"><a href="mailto:hello@fumipress.example?subject=Seat%20request%3A%20Tokyo">Book a seat →</a></p>
+<p class="fl-arrow"><a href="mailto:hello@fumipress.example?subject=Seat%20request%3A%20Tokyo"><?php echo wp_kses_post( fumi_launch_t( 'k507f07e8' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -77,23 +77,23 @@
 <!-- wp:group {"className":"fl-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fl-row">
 <!-- wp:paragraph {"className":"fl-row__d"} -->
-<p class="fl-row__d">Sat 3 April 2027</p>
+<p class="fl-row__d"><?php echo wp_kses_post( fumi_launch_t( 'k03adec9b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__c"} -->
-<p class="fl-row__c">Paris</p>
+<p class="fl-row__c"><?php echo wp_kses_post( fumi_launch_t( 'ke20d37a5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__v"} -->
-<p class="fl-row__v">Librairie du Quai Bas</p>
+<p class="fl-row__v"><?php echo wp_kses_post( fumi_launch_t( 'kfde4cef0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__f"} -->
-<p class="fl-row__f">Reading + translator Q&amp;A</p>
+<p class="fl-row__f"><?php echo wp_kses_post( fumi_launch_t( 'kd6d2209b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-arrow"} -->
-<p class="fl-arrow"><a href="mailto:hello@fumipress.example?subject=Seat%20request%3A%20Paris">Book a seat →</a></p>
+<p class="fl-arrow"><a href="mailto:hello@fumipress.example?subject=Seat%20request%3A%20Paris"><?php echo wp_kses_post( fumi_launch_t( 'k507f07e8' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -101,23 +101,23 @@
 <!-- wp:group {"className":"fl-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fl-row">
 <!-- wp:paragraph {"className":"fl-row__d"} -->
-<p class="fl-row__d">Sat 10 April 2027</p>
+<p class="fl-row__d"><?php echo wp_kses_post( fumi_launch_t( 'k49493048' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__c"} -->
-<p class="fl-row__c">Berlin</p>
+<p class="fl-row__c"><?php echo wp_kses_post( fumi_launch_t( 'kee1611b6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__v"} -->
-<p class="fl-row__v">Lesesaal Nord</p>
+<p class="fl-row__v"><?php echo wp_kses_post( fumi_launch_t( 'k3c3df201' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-row__f"} -->
-<p class="fl-row__f">Reading + book-club evening with Hanna Weber</p>
+<p class="fl-row__f"><?php echo wp_kses_post( fumi_launch_t( 'kd748a574' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-arrow"} -->
-<p class="fl-arrow"><a href="mailto:hello@fumipress.example?subject=Seat%20request%3A%20Berlin">Book a seat →</a></p>
+<p class="fl-arrow"><a href="mailto:hello@fumipress.example?subject=Seat%20request%3A%20Berlin"><?php echo wp_kses_post( fumi_launch_t( 'k507f07e8' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

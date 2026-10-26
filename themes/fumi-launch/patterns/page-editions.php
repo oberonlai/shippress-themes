@@ -12,19 +12,19 @@
 <!-- wp:group {"className":"fl-frame fl-phead__frame","layout":{"type":"default"}} -->
 <div class="wp-block-group fl-frame fl-phead__frame">
 <!-- wp:paragraph {"className":"fl-phead__tag"} -->
-<p class="fl-phead__tag">From USD 12</p>
+<p class="fl-phead__tag"><?php echo wp_kses_post( fumi_launch_t( 'k6ca093e7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"fl-phead__window sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group fl-phead__window sp-parallax">
 <!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"fl-ph"} -->
-<figure class="wp-block-image size-full fl-ph"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/editions-stack.webp' ) ); ?>" alt="Stack of blank hardcover and paperback books in sage and ivory on natural linen." style="aspect-ratio:3/4;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full fl-ph"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/editions-stack.webp' ) ); ?>" alt="<?php echo esc_attr( fumi_launch_t( 'aa9419125' ) ); ?>" style="aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":1,"className":"fl-h fl-phead__title"} -->
-<h1 class="wp-block-heading fl-h fl-phead__title">Editions</h1>
+<h1 class="wp-block-heading fl-h fl-phead__title"><?php echo wp_kses_post( fumi_launch_t( 'k40a5834e' ) ); ?></h1>
 <!-- /wp:heading -->
 
 
@@ -42,11 +42,11 @@
 <div class="wp-block-columns fl-cols"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%">
 <!-- wp:paragraph {"className":"fl-label"} -->
-<p class="fl-label">Editions</p>
+<p class="fl-label"><?php echo wp_kses_post( fumi_launch_t( 'k40a5834e' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":2,"className":"fl-h fl-h--xl"} -->
-<h2 class="wp-block-heading fl-h fl-h--xl">Complete Editions and Pricing</h2>
+<h2 class="wp-block-heading fl-h fl-h--xl"><?php echo wp_kses_post( fumi_launch_t( 'k06f9291e' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"fl-lead"} -->
-<p class="fl-lead">Choose from seven formats of Small Hours: Essays from a Corner Table by Clara Hsu, published on 18 March 2027. Pre-orders close on 10 March 2027, with copies shipping worldwide from Taipei on 11 March 2027.</p>
+<p class="fl-lead"><?php echo wp_kses_post( fumi_launch_t( 'k9a55c457' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column -->
@@ -54,28 +54,28 @@
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%">
 <!-- wp:paragraph {"className":"fl-proc"} -->
-<p class="fl-proc">We offer seven distinct editions of Small Hours, priced uniformly in USD. The Hardcover, signed and numbered first printing (English), limited to 1,500 copies, is USD 34. The Paperback in English is USD 22, and the Paperback in Traditional Chinese is USD 22. Digital readers can choose the Ebook (EPUB, containing both languages) for USD 12, or the Audiobook read by the author with a running time of 6 hours 40 minutes for USD 18. The Launch bundle, including the signed hardcover, canvas tote, and one event seat, is USD 58. The Book-club pack of 6 paperbacks and printed reading guide is USD 110.</p>
+<p class="fl-proc"><?php echo wp_kses_post( fumi_launch_t( 'k18890038' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:table {"className":"fl-table"} -->
-<figure class="wp-block-table fl-table"><table class="has-fixed-layout"><thead><tr><th>Edition</th><th>Format notes</th><th>Price</th></tr></thead><tbody><tr><td>Hardcover, signed and numbered first printing (English)</td><td>Limited to 1,500 numbered copies, 248 pages, 14 × 21 cm, ships 11 March 2027</td><td>USD 34</td></tr><tr><td>Paperback (English)</td><td>248 pages, 14 × 21 cm, publication date 18 March 2027</td><td>USD 22</td></tr><tr><td>Paperback, Traditional Chinese edition</td><td>248 pages, 14 × 21 cm, publication date 18 March 2027</td><td>USD 22</td></tr><tr><td>Ebook (EPUB, both languages)</td><td>DRM-free digital EPUB edition in English and Traditional Chinese</td><td>USD 12</td></tr><tr><td>Audiobook read by the author (6 h 40 min)</td><td>Unabridged audio recording read by Clara Hsu, running 6 hours and 40 minutes</td><td>USD 18</td></tr><tr><td>Launch bundle: signed hardcover + canvas tote + one event seat</td><td>Numbered hardcover edition, blank canvas tote bag, and one reserved seat at any launch event</td><td>USD 58</td></tr><tr><td>Book-club pack: 6 paperbacks + printed reading guide</td><td>Six paperback copies in either language and a printed ten-question discussion guide</td><td>USD 110</td></tr></tbody></table></figure>
+<figure class="wp-block-table fl-table"><table class="has-fixed-layout"><thead><tr><th><?php echo wp_kses_post( fumi_launch_t( 'k226c03c4' ) ); ?></th><th><?php echo wp_kses_post( fumi_launch_t( 'k3178387a' ) ); ?></th><th><?php echo wp_kses_post( fumi_launch_t( 'k3601146c' ) ); ?></th></tr></thead><tbody><tr><td><?php echo wp_kses_post( fumi_launch_t( 'k7271a171' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'kae6cde26' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'kb1637ed3' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( fumi_launch_t( 'k1b108f8e' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'kab1d0d75' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'k0f1f8b11' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( fumi_launch_t( 'k1ba08b3e' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'kab1d0d75' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'k0f1f8b11' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( fumi_launch_t( 'kf9f63487' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'k7f7a2154' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'kf8a74001' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( fumi_launch_t( 'kd1c279b5' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'k233e14d9' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'kf887e2f1' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( fumi_launch_t( 'k5525bfa6' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'k17762004' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'kf65d7112' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( fumi_launch_t( 'k68d83956' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'ka45583bf' ) ); ?></td><td><?php echo wp_kses_post( fumi_launch_t( 'k9af9180d' ) ); ?></td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:columns {"className":"fl-cols fl-cols--ed2"} -->
 <div class="wp-block-columns fl-cols fl-cols--ed2"><!-- wp:column {"width":"60%"} -->
 <div class="wp-block-column" style="flex-basis:60%">
 <!-- wp:paragraph {"className":"fl-label"} -->
-<p class="fl-label">Pre-ordering</p>
+<p class="fl-label"><?php echo wp_kses_post( fumi_launch_t( 'kdbee4b77' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":2,"className":"fl-h fl-h--l"} -->
-<h2 class="wp-block-heading fl-h fl-h--l">The Pre-Order Process</h2>
+<h2 class="wp-block-heading fl-h fl-h--l"><?php echo wp_kses_post( fumi_launch_t( 'ka3a3da19' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"fl-proc"} -->
-<p class="fl-proc">Our pre-order process follows four clear steps: 1 choose an edition, 2 pay at order (refundable until 10 March 2027), 3 signed copies ship 11 March 2027, and 4 bundle holders receive their event-seat email two weeks before their city's date. All transactions are billed in USD without hidden fees. If your plans change, full refunds remain available upon request until pre-orders close on 10 March 2027.</p>
+<p class="fl-proc"><?php echo wp_kses_post( fumi_launch_t( 'k0f6f040b' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:buttons {"className":"fl-btns"} -->
 <div class="wp-block-buttons fl-btns"><!-- wp:button {"className":"fl-btn"} -->
-<div class="wp-block-button fl-btn"><a class="wp-block-button__link wp-element-button" href="/newsletter/">Join the early-access list</a></div>
+<div class="wp-block-button fl-btn"><a class="wp-block-button__link wp-element-button" href="/newsletter/"><?php echo wp_kses_post( fumi_launch_t( 'kec26c795' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>
@@ -84,7 +84,7 @@
 <!-- wp:column {"width":"40%"} -->
 <div class="wp-block-column" style="flex-basis:40%">
 <!-- wp:html -->
-<a class="fl-stamp fl-stamp--inline" href="/editions/#order" aria-label="Pre-order, signed first printing, 18 March 2027"><svg class="fl-stamp__ring" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><defs><path id="fl-ring-e" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><text><textPath href="#fl-ring-e" textLength="496" lengthAdjust="spacing">PRE-ORDER · SIGNED FIRST PRINTING · 18 MARCH 2027 · </textPath></text></svg><span class="fl-stamp__c"><span>Pre-order</span><b>↗</b></span></a>
+<a class="fl-stamp fl-stamp--inline" href="/editions/#order" aria-label="<?php echo esc_attr( fumi_launch_t( 'aae289b7f' ) ); ?>"><svg class="fl-stamp__ring" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><defs><path id="fl-ring-e" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><text><textPath href="#fl-ring-e" textLength="496" lengthAdjust="spacing">PRE-ORDER · SIGNED FIRST PRINTING · 18 MARCH 2027 · </textPath></text></svg><span class="fl-stamp__c"><span><?php echo wp_kses_post( fumi_launch_t( 'kde08ef55' ) ); ?></span><b>↗</b></span></a>
 <!-- /wp:html -->
 </div>
 <!-- /wp:column --></div>
@@ -103,7 +103,7 @@
 <div class="wp-block-columns fl-cols fl-cols--ed"><!-- wp:column {"width":"45%"} -->
 <div class="wp-block-column" style="flex-basis:45%">
 <!-- wp:image {"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"fl-ph sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full fl-ph sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/tote-book.webp' ) ); ?>" alt="Blank canvas tote bag with a hardcover book resting on a wooden chair." style="aspect-ratio:3/2;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full fl-ph sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/tote-book.webp' ) ); ?>" alt="<?php echo esc_attr( fumi_launch_t( 'ad64fbc83' ) ); ?>" style="aspect-ratio:3/2;object-fit:cover"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -111,11 +111,11 @@
 <!-- wp:column {"width":"55%"} -->
 <div class="wp-block-column" style="flex-basis:55%">
 <!-- wp:paragraph {"className":"fl-label"} -->
-<p class="fl-label">Shipping</p>
+<p class="fl-label"><?php echo wp_kses_post( fumi_launch_t( 'kea9cf7e4' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":2,"className":"fl-h fl-h--l"} -->
-<h2 class="wp-block-heading fl-h fl-h--l">Shipping and Fulfillment Details</h2>
+<h2 class="wp-block-heading fl-h fl-h--l"><?php echo wp_kses_post( fumi_launch_t( 'k6bba06ae' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"fl-proc"} -->
-<p class="fl-proc">All physical orders ship directly from our studio in Da'an District, Taipei, using tracked international parcel services. Standard worldwide shipping typically requires 5 to 12 working days depending on destination customs. Pre-ordered signed hardcovers and bundles are dispatched on 11 March 2027 to ensure arrival close to the official publication date of 18 March 2027. For shipping inquiries or order adjustments, contact hello@fumipress.example during our studio hours, Monday through Friday from 10:00 to 18:00 GMT+8.</p>
+<p class="fl-proc"><?php echo wp_kses_post( fumi_launch_t( 'k4817d3fa' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column --></div>

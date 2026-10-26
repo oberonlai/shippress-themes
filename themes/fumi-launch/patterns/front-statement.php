@@ -12,15 +12,15 @@
 <!-- wp:group {"className":"fl-frame fl-frame--narrow","layout":{"type":"default"}} -->
 <div class="wp-block-group fl-frame fl-frame--narrow">
 <!-- wp:paragraph {"className":"fl-label"} -->
-<p class="fl-label">The book</p>
+<p class="fl-label"><?php echo wp_kses_post( fumi_launch_t( 'ka264d835' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"fl-h fl-h--xx sp-reveal sp-reveal--zoom"} -->
-<h2 class="wp-block-heading fl-h fl-h--xx sp-reveal sp-reveal--zoom">Twenty-one small hours, one table, the city going by.</h2>
+<h2 class="wp-block-heading fl-h fl-h--xx sp-reveal sp-reveal--zoom"><?php echo wp_kses_post( fumi_launch_t( 'kc7ed8cb1' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fl-lead sp-reveal sp-reveal--zoom"} -->
-<p class="fl-lead sp-reveal sp-reveal--zoom">Between 2022 and 2026, Clara Hsu sat at the same corner table in Da'an District every morning at dawn. Over four years of quiet attention, she recorded the subtle rhythms of rain, street sweepers, passing buses, and solitary regulars. Small Hours is a record of patience—twenty-one essays observing what remains when distraction clears.</p>
+<p class="fl-lead sp-reveal sp-reveal--zoom"><?php echo wp_kses_post( fumi_launch_t( 'ka61cfd22' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

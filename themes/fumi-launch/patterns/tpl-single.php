@@ -1,0 +1,28 @@
+<?php
+/**
+ * Title: Template: single
+ * Slug: fumi-launch/tpl-single
+ * Categories: fumi-launch
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"fl-main fl-main--front fl-single","layout":{"type":"default"}} -->
+<main class="wp-block-group fl-main fl-main--front fl-single"><!-- wp:group {"className":"fl-sec fl-sec--field","align":"full","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull fl-sec fl-sec--field"><!-- wp:group {"className":"fl-frame fl-frame--narrow","layout":{"type":"default"}} -->
+<div class="wp-block-group fl-frame fl-frame--narrow"><!-- wp:post-terms {"term":"category","className":"fl-label"} /-->
+
+<!-- wp:post-title {"level":1,"className":"fl-h fl-h--xl"} /-->
+
+<!-- wp:post-featured-image {"aspectRatio":"16/9","className":"fl-ph fl-single__img"} /-->
+
+<!-- wp:post-content {"layout":{"type":"default"}} /-->
+
+<!-- wp:buttons {"className":"fl-btns"} -->
+<div class="wp-block-buttons fl-btns"><!-- wp:button {"className":"fl-btn"} -->
+<div class="wp-block-button fl-btn"><a class="wp-block-button__link wp-element-button" href="/editions/#order"><?php echo wp_kses_post( fumi_launch_t( 'k7ebec9c6' ) ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></main>
+<!-- /wp:group -->

@@ -15,7 +15,7 @@
 <div class="wp-block-columns fl-cols fl-cols--bc"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%">
 <!-- wp:image {"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"fl-ph sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full fl-ph sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/book-club-table.webp' ) ); ?>" alt="People seated around a wooden table sharing tea cups and open paper books." style="aspect-ratio:3/2;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full fl-ph sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/book-club-table.webp' ) ); ?>" alt="<?php echo esc_attr( fumi_launch_t( 'a153a5c2f' ) ); ?>" style="aspect-ratio:3/2;object-fit:cover"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -23,19 +23,19 @@
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%">
 <!-- wp:paragraph {"className":"fl-label"} -->
-<p class="fl-label">Book clubs</p>
+<p class="fl-label"><?php echo wp_kses_post( fumi_launch_t( 'kcf603677' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"fl-h fl-h--l"} -->
-<h2 class="wp-block-heading fl-h fl-h--l">Read Together</h2>
+<h2 class="wp-block-heading fl-h fl-h--l"><?php echo wp_kses_post( fumi_launch_t( 'k5ce631fc' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>For reading groups, Fumi Press offers the Small Hours book-club pack at USD 110. Each pack contains six paperback copies in English or Traditional Chinese alongside a printed reading guide featuring ten discussion questions prepared by Clara Hsu and Tomas Reyes.</p>
+<p><?php echo wp_kses_post( fumi_launch_t( 'k19bc2efd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-arrow"} -->
-<p class="fl-arrow"><a href="#editions">See the book-club pack →</a></p>
+<p class="fl-arrow"><a href="#editions"><?php echo wp_kses_post( fumi_launch_t( 'kd658dee5' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column --></div>

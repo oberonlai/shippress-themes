@@ -15,7 +15,7 @@
 <div class="wp-block-columns fl-cols fl-cols--au"><!-- wp:column {"width":"42%"} -->
 <div class="wp-block-column" style="flex-basis:42%">
 <!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"fl-ph sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full fl-ph sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/author-window.webp' ) ); ?>" alt="Woman in a linen shirt seated beside a sunlit window holding a wooden pencil." style="aspect-ratio:4/5;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full fl-ph sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/author-window.webp' ) ); ?>" alt="<?php echo esc_attr( fumi_launch_t( 'a2d883ec5' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:column -->
@@ -23,15 +23,15 @@
 <!-- wp:column {"width":"58%"} -->
 <div class="wp-block-column" style="flex-basis:58%">
 <!-- wp:paragraph {"className":"fl-label"} -->
-<p class="fl-label">Author</p>
+<p class="fl-label"><?php echo wp_kses_post( fumi_launch_t( 'ka517747c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"fl-h fl-h--l"} -->
-<h2 class="wp-block-heading fl-h fl-h--l">Clara Hsu</h2>
+<h2 class="wp-block-heading fl-h fl-h--l"><?php echo wp_kses_post( fumi_launch_t( 'k01fd00f2' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fl-lead"} -->
-<p class="fl-lead">Clara Hsu was born in 1986 in Kaohsiung and lives in Taipei. Her work explores solitude, urban topography, and the quiet intersections of private memory and public transit. Following her 2018 debut collection Window Seat, Small Hours documents four years of daily writing from a single vantage point in Da'an District.</p>
+<p class="fl-lead"><?php echo wp_kses_post( fumi_launch_t( 'k05b2a3c0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"fl-hists sp-stagger","layout":{"type":"default"}} -->
@@ -43,7 +43,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-hist__t"} -->
-<p class="fl-hist__t">Published first essay in a small-press zine</p>
+<p class="fl-hist__t"><?php echo wp_kses_post( fumi_launch_t( 'k7eece6e9' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -55,7 +55,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-hist__t"} -->
-<p class="fl-hist__t">First collection Window Seat with Fumi Press</p>
+<p class="fl-hist__t"><?php echo wp_kses_post( fumi_launch_t( 'k5e4802c8' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -67,7 +67,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-hist__t"} -->
-<p class="fl-hist__t">Began writing at the same café table every morning</p>
+<p class="fl-hist__t"><?php echo wp_kses_post( fumi_launch_t( 'k87474b8f' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -79,7 +79,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-hist__t"} -->
-<p class="fl-hist__t">Small Hours: Essays from a Corner Table published 18 March</p>
+<p class="fl-hist__t"><?php echo wp_kses_post( fumi_launch_t( 'k9e11d83d' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
