@@ -36,7 +36,7 @@
 
 <!-- wp:buttons {"className":"fl-btns"} -->
 <div class="wp-block-buttons fl-btns"><!-- wp:button {"className":"fl-btn"} -->
-<div class="wp-block-button fl-btn"><a class="wp-block-button__link wp-element-button" href="#editions">Pre-order</a></div>
+<div class="wp-block-button fl-btn"><a class="wp-block-button__link wp-element-button" href="/editions/#order">Pre-order</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -45,7 +45,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<a class="fl-stamp fl-stamp--inline" href="#editions" aria-label="Pre-order, signed first printing, 18 March 2027"><svg class="fl-stamp__ring" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><defs><path id="fl-ring-3" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><text><textPath href="#fl-ring-3" textLength="496" lengthAdjust="spacing">PRE-ORDER · SIGNED FIRST PRINTING · 18 MARCH 2027 · </textPath></text></svg><span class="fl-stamp__c"><span>Pre-order</span><b>↗</b></span></a>
+<a class="fl-stamp fl-stamp--inline" href="/editions/#order" aria-label="Pre-order, signed first printing, 18 March 2027"><svg class="fl-stamp__ring" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><defs><path id="fl-ring-3" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><text><textPath href="#fl-ring-3" textLength="496" lengthAdjust="spacing">PRE-ORDER · SIGNED FIRST PRINTING · 18 MARCH 2027 · </textPath></text></svg><span class="fl-stamp__c"><span>Pre-order</span><b>↗</b></span></a>
 <!-- /wp:html -->
 </div>
 <!-- /wp:column --></div>

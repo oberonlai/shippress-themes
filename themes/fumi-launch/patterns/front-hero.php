@@ -36,7 +36,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<a class="fl-stamp fl-stamp--hero" href="#editions" aria-label="Pre-order, signed first printing, 18 March 2027"><svg class="fl-stamp__ring" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><defs><path id="fl-ring-1" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><text><textPath href="#fl-ring-1" textLength="496" lengthAdjust="spacing">PRE-ORDER · SIGNED FIRST PRINTING · 18 MARCH 2027 · </textPath></text></svg><span class="fl-stamp__c"><span>Pre-order</span><b>↗</b></span></a>
+<a class="fl-stamp fl-stamp--hero" href="/editions/#order" aria-label="Pre-order, signed first printing, 18 March 2027"><svg class="fl-stamp__ring" viewBox="0 0 200 200" aria-hidden="true" focusable="false"><defs><path id="fl-ring-1" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs><text><textPath href="#fl-ring-1" textLength="496" lengthAdjust="spacing">PRE-ORDER · SIGNED FIRST PRINTING · 18 MARCH 2027 · </textPath></text></svg><span class="fl-stamp__c"><span>Pre-order</span><b>↗</b></span></a>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->
