@@ -1,0 +1,249 @@
+/*
+Theme Name: Fumi Press Launch
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/fumi-launch
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Fumi Press Launch is an editorial magazine WordPress block theme created for the single-book launch of Clara Hsu's essay collection Small Hours. Designed with a signature framed-window hero, hairline grid borders, and a quiet rikyu-green palette, it presents launch event dates, sample essays, and multiple pre-order editions. Built for Fumi Press, an independent publisher based in Da'an District, Taipei.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fumi-launch
+Tags: blog, block-patterns, full-site-editing, custom-colors, editor-style, translation-ready, wide-blocks
+*/
+
+:root {
+	--fl-field: #3E453A;
+	--fl-ivory: #FAF8EA;
+	--fl-pers: #F26B3A;
+	--fl-stage: #0E0D0B;
+	--fl-ink: #1E211B;
+	--fl-line: rgba(250, 248, 234, .6);
+	--fl-ease: cubic-bezier(.22, 1, .36, 1);
+	--fl-rail: 92px;
+}
+html, body { overflow-x: clip; }
+body { margin: 0; }
+img { max-width: 100%; height: auto; }
+.fl-main { padding: 120px 24px 96px; }
+
+/* ---------- rail / top bar ---------- */
+.fl-head-part { position: static; }
+.fl-rail {
+	position: fixed; z-index: 50; top: 0; left: 0; bottom: 0; width: var(--fl-rail);
+	background: var(--fl-field); border-right: 1px solid var(--fl-line);
+	display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 28px 0 24px; box-sizing: border-box;
+}
+.fl-rail > * { margin: 0; }
+.fl-rail__mark { font-family: var(--wp--preset--font-family--display); font-size: 1.375rem; line-height: 1; writing-mode: vertical-rl; letter-spacing: .08em; }
+.fl-rail__mark a { text-decoration: none; color: var(--fl-ivory); }
+.fl-rail__lang { font-size: .6875rem; letter-spacing: .1em; line-height: 1; }
+.fl-nav { position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%); display: flex; justify-content: center; }
+.fl-nav .wp-block-navigation__responsive-container-open { color: var(--fl-ivory); padding: 8px; }
+.fl-nav .wp-block-navigation__responsive-container-open svg { display: none; }
+.fl-nav .wp-block-navigation__responsive-container-open::before {
+	content: ""; display: block; width: 30px; height: 11px;
+	background: linear-gradient(var(--fl-ivory), var(--fl-ivory)) 0 0 / 100% 1px no-repeat, linear-gradient(var(--fl-ivory), var(--fl-ivory)) 0 100% / 100% 1px no-repeat, linear-gradient(var(--fl-ivory), var(--fl-ivory)) 0 50% / 100% 1px no-repeat;
+}
+.fl-nav .wp-block-navigation__responsive-container.is-menu-open { background: var(--fl-field); color: var(--fl-ivory); padding: 48px 48px 48px calc(var(--fl-rail) + 48px); }
+.fl-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { font-family: var(--wp--preset--font-family--display); font-size: clamp(2.25rem, 5vw, 3.5rem); text-decoration: none; line-height: 1.3; color: var(--fl-ivory); }
+.fl-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content:hover { color: var(--fl-pers); }
+.fl-nav .wp-block-navigation__responsive-container-close { color: var(--fl-ivory); }
+@media (min-width: 1024px) {
+	body { padding-left: var(--fl-rail); }
+}
+@media (max-width: 1023px) {
+	.fl-rail { bottom: auto; right: 0; width: auto; height: 60px; flex-direction: row; padding: 0 24px; border-right: 0; border-bottom: 1px solid var(--fl-line); }
+	.fl-rail__mark { writing-mode: horizontal-tb; }
+	.fl-rail__lang { display: none; }
+	.fl-nav { position: static; transform: none; left: auto; right: auto; }
+	.fl-nav .wp-block-navigation__responsive-container.is-menu-open { padding: 80px 24px 48px; }
+	body { padding-top: 60px; }
+}
+
+/* ---------- frame and sections ---------- */
+.fl-sec { position: relative; }
+.fl-frame {
+	position: relative; max-width: 1200px; margin-inline: auto; box-sizing: border-box;
+	border-inline: 1px solid var(--fl-line); padding: 96px 48px;
+}
+.fl-frame--narrow { max-width: 1000px; }
+.fl-frame::before, .fl-frame::after { content: ""; position: absolute; bottom: -2px; width: 3px; height: 3px; background: var(--fl-ivory); }
+.fl-frame::before { left: -2px; }
+.fl-frame::after { right: -2px; }
+.fl-sec--paper { background: var(--fl-ivory); color: var(--fl-ink); }
+.fl-sec--paper .fl-frame { border-color: rgba(30, 33, 27, .25); }
+.fl-sec--paper .fl-frame::before, .fl-sec--paper .fl-frame::after { background: var(--fl-ink); }
+.fl-sec--paper a { color: var(--fl-ink); }
+.fl-sec--paper .fl-label { color: #5b4a3f; }
+.fl-label { font-size: .75rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; line-height: 1.5; margin: 0 0 1rem; }
+.fl-h { font-family: var(--wp--preset--font-family--display); font-weight: 400; margin: 0 0 1.25rem; }
+.fl-h--l { font-size: 2.5rem; line-height: 1.15; }
+.fl-h--xl { font-size: 3rem; line-height: 1.1; }
+.fl-h--xx { font-size: var(--wp--preset--font-size--xx-large); line-height: 1.21; letter-spacing: .06em; }
+.fl-lead { font-size: 1rem; line-height: 2; }
+.fl-arrow a { font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 2px; }
+.fl-ph { margin: 0; }
+.fl-ph img { display: block; width: 100%; border-radius: 0; }
+.fl-cols { gap: 48px; margin: 0; flex-wrap: nowrap; }
+.fl-cols > .wp-block-column { min-width: 0; }
+.fl-cols--ed, .fl-cols--ed2 { align-items: center; }
+.fl-cols--ed2 { margin-top: 48px; }
+.fl-cols--ex .wp-block-column:last-child, .fl-cols--au, .fl-cols--rd, .fl-cols--wl { align-items: flex-start; }
+.fl-sec--statement .fl-frame { padding-block: 128px; }
+.fl-sec--statement .fl-lead { max-width: 38rem; margin-top: 2.5rem; }
+@media (max-width: 781px) {
+	.fl-frame { border-inline: 0; padding: 64px 24px; }
+	.fl-frame::before, .fl-frame::after { display: none; }
+	.fl-cols { flex-direction: column; gap: 32px; }
+	.fl-cols > .wp-block-column { flex-basis: 100% !important; width: 100%; }
+	.fl-h--l { font-size: 2rem; }
+}
+
+/* ---------- hero ---------- */
+.fl-hero { background: var(--fl-field); position: relative; overflow: clip; }
+.fl-hero__frame { padding: 0; min-height: max(840px, min(100svh, 960px)); }
+.fl-hero__frame::before, .fl-hero__frame::after { display: none; }
+.fl-hero__eyebrow, .fl-hero__name, .fl-hero__cap { margin: 0; }
+.fl-hero__eyebrow { font-family: var(--wp--preset--font-family--display); font-size: var(--wp--preset--font-size--x-large); line-height: 1.1; color: var(--fl-pers); }
+.fl-hero__name { font-weight: 700; font-size: 3.25rem; letter-spacing: .04em; line-height: 1; color: var(--fl-pers); }
+.fl-hero__title { margin: 0; font-size: var(--wp--preset--font-size--display); line-height: 1; letter-spacing: 0; color: var(--fl-ivory); white-space: nowrap; }
+.fl-br { display: none; }
+.fl-hero__window { position: relative; overflow: clip; --sp-par: 6%; }
+.fl-hero__window .fl-ph img { aspect-ratio: 3 / 4; width: 100%; }
+.fl-hero__window::after { content: ""; position: absolute; inset: 12px; border: 1px solid rgba(250, 248, 234, .75); pointer-events: none; }
+.fl-hero__cap { font-size: .6875rem; font-weight: 500; line-height: 1.5; letter-spacing: .05em; max-width: 280px; }
+.fl-stamp { display: block; position: relative; width: 184px; height: 184px; border-radius: 50%; text-decoration: none; color: var(--fl-ivory); }
+.fl-stamp__ring { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; animation: fl-spin 28s linear infinite; }
+.fl-stamp__ring text { font-family: var(--wp--preset--font-family--body); font-weight: 600; font-size: 11px; letter-spacing: .2em; fill: var(--fl-pers); }
+.fl-stamp:hover .fl-stamp__ring { animation-play-state: paused; }
+.fl-stamp__c { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: var(--wp--preset--font-family--display); font-size: 1.375rem; line-height: 1.15; }
+.fl-stamp__c b { color: var(--fl-pers); font-size: 1.5rem; font-weight: 400; }
+.fl-stamp--inline { margin-left: auto; }
+@keyframes fl-spin { to { transform: rotate(360deg); } }
+@keyframes fl-in { from { opacity: 0; transform: scale(.9); } }
+@media (prefers-reduced-motion: no-preference) {
+	html:not(.sp-no-motion) .fl-hero__title { animation: fl-in .8s var(--fl-ease) .15s both; }
+	html:not(.sp-no-motion) .fl-hero__name { animation: fl-in .8s var(--fl-ease) .3s both; }
+	html:not(.sp-no-motion) .fl-hero__eyebrow { animation: fl-in .8s var(--fl-ease) .3s both; }
+	html:not(.sp-no-motion) .fl-hero__window { animation: fl-in .8s var(--fl-ease) both; }
+	html:not(.sp-no-motion) .fl-hero__cap { animation: fl-in .8s var(--fl-ease) .45s both; }
+	html:not(.sp-no-motion) .fl-hero .fl-stamp { animation: fl-in .8s var(--fl-ease) .45s both; }
+}
+@media (prefers-reduced-motion: reduce) { .fl-stamp__ring { animation: none; } }
+html.sp-no-motion .fl-stamp__ring { animation: none; }
+.editor-styles-wrapper .fl-stamp__ring { animation: none; }
+@media (min-width: 1024px) {
+	.fl-hero__eyebrow { position: absolute; left: 48px; top: 300px; z-index: 3; }
+	.fl-hero__window { position: absolute; z-index: 2; width: 480px; top: 130px; left: calc(50% - 240px); }
+	.fl-hero__title { position: absolute; z-index: 3; left: 0; right: 0; top: 372px; text-align: center; }
+	.fl-hero__name { position: absolute; z-index: 4; left: 0; right: 0; top: 442px; text-align: center; }
+	.fl-hero__cap { position: absolute; z-index: 4; left: 48px; bottom: 40px; }
+	.fl-hero .fl-stamp { position: absolute; z-index: 4; right: 32px; bottom: 40px; }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.fl-hero__title { font-size: 9.5rem; top: 330px; }
+	.fl-hero__name { top: 392px; }
+	.fl-hero__window { width: 400px; left: calc(50% - 200px); }
+	.fl-hero .fl-stamp { width: 160px; height: 160px; }
+}
+@media (max-width: 1023px) {
+	.fl-hero__frame { min-height: 0; padding: 40px 24px 48px; border-inline: 0; display: flex; flex-direction: column; }
+	.fl-hero__eyebrow { font-size: 1.75rem; }
+	.fl-hero__name { font-size: 1.125rem; letter-spacing: .06em; margin: .25rem 0 1.5rem; }
+	.fl-hero__window { width: 100%; max-width: 480px; align-self: center; --sp-par: 4%; }
+	.fl-hero__window .fl-ph img { aspect-ratio: 4 / 5; }
+	.fl-hero__title { margin: -.55em 0 1.5rem; font-size: 7rem; line-height: .92; position: relative; z-index: 3; text-align: center; }
+	.fl-hero .fl-stamp { align-self: flex-end; width: 140px; height: 140px; margin-top: 1.5rem; }
+}
+@media (max-width: 781px) {
+	.fl-hero__title { font-size: 4.25rem; text-align: left; white-space: normal; }
+	.fl-br { display: block; height: 0; }
+	.fl-hero .fl-stamp { width: 112px; height: 112px; }
+	.fl-stamp__c { font-size: 1rem; }
+	.fl-stamp__ring text { font-size: 12px; }
+}
+
+/* ---------- readings ---------- */
+.fl-row { display: grid; grid-template-columns: 11rem 5rem 1fr auto; gap: .25rem 1.5rem; align-items: baseline; padding: 1.25rem 0; border-top: 1px solid var(--fl-line); }
+.fl-row:last-child { border-bottom: 1px solid var(--fl-line); }
+.fl-row > * { margin: 0; }
+.fl-row__d { font-family: var(--wp--preset--font-family--display); font-size: 1.75rem; line-height: 1.2; grid-row: span 2; }
+.fl-row__c { font-weight: 700; text-transform: uppercase; font-size: .75rem; letter-spacing: .05em; }
+.fl-row__v, .fl-row__f { font-size: .875rem; line-height: 1.6; }
+.fl-row__f { grid-column: 3; }
+.fl-row .fl-arrow { grid-column: 4; grid-row: 1 / span 2; white-space: nowrap; }
+.fl-cols--read { margin-top: 1rem; }
+.fl-cols--read .fl-ph { margin-top: 3.5rem; }
+@media (max-width: 1023px) { .fl-row { grid-template-columns: 1fr; } .fl-row__d, .fl-row .fl-arrow { grid-row: auto; } .fl-row__f, .fl-row .fl-arrow { grid-column: 1; } }
+
+/* ---------- excerpt ---------- */
+.fl-ess { font-size: 1.0625rem; line-height: 2; letter-spacing: .02em; margin: 0 0 1.5rem; }
+.fl-first::first-line { font-family: var(--wp--preset--font-family--display); font-size: 1.75rem; }
+.fl-first { font-size: 1.0625rem; }
+
+/* ---------- author ---------- */
+.fl-hists { margin-top: 2rem; }
+.fl-hist { display: grid; grid-template-columns: 5rem 1fr; gap: 1rem; padding: .9rem 0; border-top: 1px solid var(--fl-line); align-items: baseline; }
+.fl-hist:last-child { border-bottom: 1px solid var(--fl-line); }
+.fl-hist > * { margin: 0; }
+.fl-hist__y { font-family: var(--wp--preset--font-family--display); font-size: 1.25rem; }
+.fl-hist__t { font-size: .9375rem; line-height: 1.7; }
+
+/* ---------- stage band ---------- */
+.fl-stage { position: relative; background: var(--fl-stage); }
+.fl-stage__cover { min-height: 72vh; min-height: max(480px, 72vh); background: var(--fl-stage); margin: 0; }
+.fl-stage__cap { position: absolute; z-index: 5; left: 48px; bottom: 32px; margin: 0; font-size: .75rem; letter-spacing: .08em; line-height: 1.5; color: var(--fl-ivory); text-shadow: 0 1px 8px rgba(0, 0, 0, .6); }
+@media (min-width: 1024px) { .fl-stage__cap { left: calc(50% - 600px + 48px + 46px); } }
+
+/* ---------- readers ---------- */
+.fl-strip { padding: 1.75rem 0; border-top: 1px solid var(--fl-line); }
+.fl-strip:last-child { border-bottom: 1px solid var(--fl-line); }
+.fl-quote { font-family: var(--wp--preset--font-family--display); font-size: 1.5rem; line-height: 1.45; letter-spacing: 0; margin: 0 0 .75rem; }
+.fl-cite { font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; margin: 0; }
+
+/* ---------- editions table ---------- */
+.fl-table { margin: 3rem 0 0; width: 100%; }
+.fl-table table { width: 100%; border-collapse: collapse; table-layout: auto; border: 0; }
+.fl-table th, .fl-table td { border: 0; border-top: 1px solid var(--fl-line); padding: 1rem 1rem 1rem 0; text-align: left; vertical-align: middle; line-height: 1.55; font-size: .9375rem; }
+.fl-table th { font-size: .75rem; letter-spacing: .05em; text-transform: uppercase; font-weight: 700; }
+.fl-table tr:last-child td { border-bottom: 1px solid var(--fl-line); }
+.fl-table td:first-child { font-family: var(--wp--preset--font-family--display); font-size: 1.125rem; }
+.fl-table .fl-price { white-space: nowrap; text-align: right; width: 9rem; padding-right: 0; }
+.fl-table td.fl-price { font-family: var(--wp--preset--font-family--display); font-size: 1.5rem; }
+.fl-table tr:not(:first-child) { min-height: 64px; }
+.fl-proc { font-size: .9375rem; line-height: 1.9; margin: 0 0 1.5rem; }
+@media (max-width: 781px) {
+	.fl-table table, .fl-table tbody, .fl-table tr, .fl-table td { display: block; width: 100%; box-sizing: border-box; }
+	.fl-table thead { display: none; }
+	.fl-table tr { border-top: 1px solid var(--fl-line); padding: 1rem 0; }
+	.fl-table td { border: 0 !important; padding: .15rem 0; }
+	.fl-table .fl-price { text-align: right; width: 100%; padding-top: .5rem; }
+	.fl-stamp--inline { margin-left: auto; }
+}
+
+/* ---------- faq ---------- */
+.fl-faq { border-top: 1px solid var(--fl-line); padding: 1.1rem 0; margin: 0; }
+.fl-faq:last-of-type { border-bottom: 1px solid var(--fl-line); }
+.fl-faq summary { font-family: var(--wp--preset--font-family--display); font-size: 1.25rem; line-height: 1.4; cursor: pointer; }
+.fl-faq p { margin: .75rem 0 0; font-size: .9375rem; line-height: 1.9; }
+
+/* ---------- buttons ---------- */
+.fl-btns { margin: 1.5rem 0 1rem; }
+.fl-btn .wp-block-button__link { padding: .85rem 2rem; border-radius: 0; }
+
+/* ---------- footer ---------- */
+.fl-foot { background: var(--fl-stage); }
+.fl-foot__frame { padding-block: 72px 40px; }
+.fl-foot__mark { font-family: var(--wp--preset--font-family--display); font-size: 2.5rem; margin: 0 0 2rem; }
+.fl-foot__mark a { text-decoration: none; color: var(--fl-ivory); }
+.fl-foot__t { font-size: .875rem; line-height: 1.8; margin: 0 0 .5rem; }
+.fl-foot__fine { font-size: .6875rem; margin: 3rem 0 0; opacity: .75; }
+
+/* ---------- languages ---------- */
+:root:lang(zh) { --wp--preset--font-family--display: "Noto Serif TC", serif; --wp--preset--font-family--body: "Noto Serif TC", serif; }
+:root:lang(ja) { --wp--preset--font-family--display: "Noto Serif JP", "Noto Serif TC", serif; --wp--preset--font-family--body: "Noto Serif JP", "Noto Serif TC", serif; }
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; }
+:lang(fr) body, :lang(de) body { hyphens: auto; }
