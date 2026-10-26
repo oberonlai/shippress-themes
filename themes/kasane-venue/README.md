@@ -12,3 +12,32 @@ Kasane Venue is a calm, editorial WordPress theme created for a daylit wedding v
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kasane Venue home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kasane Venue home page on mobile"></td>
+</tr>
+</table>
+
+- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
+- The day: [desktop](screenshots/the-day-desktop.webp) · [mobile](screenshots/the-day-mobile.webp)
+- Food: [desktop](screenshots/food-desktop.webp) · [mobile](screenshots/food-mobile.webp)
+- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
+- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
+- The building: [desktop](screenshots/the-building-desktop.webp) · [mobile](screenshots/the-building-mobile.webp)
+- Viewings: [desktop](screenshots/viewings-desktop.webp) · [mobile](screenshots/viewings-mobile.webp)
+- Questions: [desktop](screenshots/questions-desktop.webp) · [mobile](screenshots/questions-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->

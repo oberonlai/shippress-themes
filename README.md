@@ -186,6 +186,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/kaori-cosme"><img src="themes/kaori-cosme/screenshots/home-desktop.webp" width="260" alt="Kaori Cosme"></a><br><a href="themes/kaori-cosme">Kaori Cosme</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/karan-geta"><img src="themes/karan-geta/screenshots/home-desktop.webp" width="260" alt="Karan Geta"></a><br><a href="themes/karan-geta">Karan Geta</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/kasane-venue"><img src="themes/kasane-venue/screenshots/home-desktop.webp" width="260" alt="Kasane Venue"></a><br><a href="themes/kasane-venue">Kasane Venue</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kasumi-bar"><img src="themes/kasumi-bar/screenshots/home-desktop.webp" width="260" alt="Kasumi Bar"></a><br><a href="themes/kasumi-bar">Kasumi Bar</a></td>
 </tr>
 <tr>
