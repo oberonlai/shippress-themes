@@ -34,8 +34,31 @@
 
 <!-- wp:navigation-link {"label":"<?php echo esc_attr( nuno_workwear_t( 'acbb37401' ) ); ?>","url":"/stories/","kind":"custom","isTopLevelLink":true} /-->
 
+<!-- wp:navigation-link {"label":"<?php echo esc_attr( nuno_workwear_t( 'knavabout' ) ); ?>","url":"/about/","kind":"custom","isTopLevelLink":true,"className":"nw-m"} /-->
+
 <!-- wp:navigation-link {"label":"<?php echo esc_attr( nuno_workwear_t( 'abbaff128' ) ); ?>","url":"/contact/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":"English","url":"/?lang=en","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
+
+<!-- wp:navigation-link {"label":"繁體中文","url":"/?lang=zh-TW","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
+
+<!-- wp:navigation-link {"label":"日本語","url":"/?lang=ja","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
+
+<!-- wp:navigation-link {"label":"Français","url":"/?lang=fr","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
+
+<!-- wp:navigation-link {"label":"Deutsch","url":"/?lang=de","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
 <!-- /wp:navigation -->
+
+<!-- wp:html -->
+<?php
+$nw_cur = nuno_workwear_lang();
+$nw_langs = array( 'en' => 'EN', 'zh-TW' => '中', 'ja' => '日', 'fr' => 'FR', 'de' => 'DE' );
+?>
+<nav class="nw-langs" aria-label="<?php echo esc_attr( nuno_workwear_t( 'knavlang' ) ); ?>">
+<?php foreach ( $nw_langs as $nw_code => $nw_label ) : ?>
+<a href="<?php echo esc_url( home_url( '/?lang=' . $nw_code ) ); ?>" hreflang="<?php echo esc_attr( $nw_code ); ?>" lang="<?php echo esc_attr( $nw_code ); ?>"<?php echo $nw_code === $nw_cur ? ' aria-current="true"' : ''; ?>><?php echo esc_html( $nw_label ); ?></a>
+<?php endforeach; ?>
+</nav>
+<!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"nw-round__wrap"} -->
 <p class="nw-round__wrap"><a class="nw-round" href="/contact/" aria-label="<?php echo esc_attr( nuno_workwear_t( 'a1cad2e70' ) ); ?>"><span class="nw-sr"><?php echo wp_kses_post( nuno_workwear_t( 'kd497423b' ) ); ?></span></a></p>
