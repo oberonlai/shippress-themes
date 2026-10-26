@@ -54,3 +54,6 @@ Today, Shirabe Research delivers tightly focused five-week studies for organizat
 1. Split headline row: serif H1, a 1px vertical hairline, a short lead with an outlined pill, over a dark framed window that merges into an ink band.
 2. 90px uppercase serif section titles that rise from a mask, over a small grey eyebrow.
 3. IN NUMBERS ink band: giant serif figures with vertical captions on a loose grid, a slow strip of fieldwork photographs.
+
+## Inner pages (en, built in stage 2)
+About, Method, Study types (services), Studies, three study details (grocery co-op 2025, bicycle maker 2024, library network 2023), Fees, People, Journal (one sample note on charting interviews on paper walls), Contact and Research ethics & privacy. Every inner page opens with the split headline row; pages with a window use p05, p11, p12, p13, p14, p15 (parallax, About) or p16; figures bands repeat the fixed numbers (2012, 7 people, 5 weeks, 5 languages; 24/3/41/6; 18/2/9; 32/5/4).

@@ -31,4 +31,4 @@ Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as low-key documentary photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the practice is fictional). No transparent cut-outs are used.
-- assets/images/p01.webp to p14.webp: moderated interview (home window), notebook and recorder, moderator listening, recruiter on the phone, charts pinned on a wall, readout around a table, overhead charts, headphones and laptop, empty studio, sorting cards, home visit, bicycle shop visit, library visit, founder portrait.
+- assets/images/p01.webp to p16.webp (assets/images/demo/journal-paper-charts.webp is a copy of p07 used as the sample post's featured image): moderated interview (home window), notebook and recorder, moderator listening, recruiter on the phone, charts pinned on a wall, readout around a table, overhead charts, headphones and laptop, empty studio, sorting cards, home visit, bicycle shop visit, library visit, founder portrait, wide studio at dusk (About window), studio reception (Contact window).
