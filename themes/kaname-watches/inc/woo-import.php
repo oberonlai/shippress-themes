@@ -242,8 +242,8 @@ if ( ! class_exists( 'Kaname_Watches_Woo_Import' ) ) {
 		private static function page_titles() {
 			$names = array(
 				'en'    => array( 'Cart', 'Checkout' ),
-				'zh-TW' => array( '購物車', '結帳' ),
-				'ja'    => array( 'カート', 'お会計' ),
+				'zh-TW' => array( "\u{8CFC}\u{7269}\u{8ECA}", "\u{7D50}\u{5E33}" ),
+				'ja'    => array( "\u{30AB}\u{30FC}\u{30C8}", "\u{304A}\u{4F1A}\u{8A08}" ),
 				'fr'    => array( 'Panier', 'Paiement' ),
 				'de'    => array( 'Warenkorb', 'Kasse' ),
 			);
