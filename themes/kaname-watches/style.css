@@ -72,21 +72,24 @@ nav.kw-nav .wp-block-navigation__container > li:nth-child(4) { margin-left: auto
 	nav.kw-nav .wp-block-navigation__container > li:nth-child(4) { margin-left: 0; }
 }
 .kw-nav .wp-block-navigation__responsive-container-open { padding: 0.5rem 0; }
-.kw-nav .wp-block-navigation__responsive-container-open svg { display: none; }
-.kw-nav .wp-block-navigation__responsive-container-open::after { content: "MENU"; font-family: var(--kw-display); font-size: 0.875rem; letter-spacing: 0.11em; }
+.kw-nav .wp-block-navigation__responsive-container-open svg { width: 22px; height: 22px; }
 .kw-nav .wp-block-navigation__responsive-container.is-menu-open { background: var(--kw-paper); color: var(--kw-ink); }
 .kw-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content { align-items: stretch; padding-top: 4.5rem; padding-inline: var(--kw-inset); }
 .kw-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { align-items: stretch; gap: 0; }
 .kw-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item { border-bottom: 1px solid var(--kw-rule); }
 .kw-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { padding: 1rem 0; font-size: 1.25rem; letter-spacing: 0.13em; }
 nav.kw-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container > li:nth-child(4) { margin-left: 0; }
+/* CART at the right on small screens (the menu carries it from 1100px up) */
+.kw-cart { display: none; margin: 0 !important; font-family: var(--kw-display); font-size: 0.875rem; letter-spacing: 0.11em; text-transform: uppercase; }
+.kw-cart a { color: var(--kw-ink); text-decoration: none !important; padding: 0.5rem 0; display: inline-block; }
+@media (max-width: 1099px) { .kw-cart { display: block; } }
 @media (max-width: 599px) {
 	.kw-bar { height: 56px; padding: 0 12px !important; }
 	.kw-brand__mark { font-size: 1.125rem; }
 }
 
 /* ---- Headings, links, rhythm */
-.kw-sec { padding: var(--kw-sec) var(--kw-inset); }
+.kw-sec { padding: calc(var(--kw-sec) / 2) var(--kw-inset); }
 .kw-h { font-family: var(--kw-display); font-weight: 400; letter-spacing: 0.13em; text-transform: uppercase; line-height: 1.4; }
 .kw-h--sec { font-size: var(--wp--preset--font-size--x-large); margin-bottom: 30px; }
 .kw-h--left { text-align: left; }
@@ -121,6 +124,7 @@ a:focus-visible, .wp-block-button__link:focus-visible { outline: 2px solid var(-
 	.kw-bar-cap .kw-bar-cap__line { font-size: 0.875rem; line-height: 1.4; }
 	.kw-bar-cap--photo .kw-bar-cap__name { font-size: 0.875rem; }
 	.kw-bar-cap--photo .kw-bar-cap__line { font-size: 0.8125rem; }
+	.kw-tray .kw-bar-cap__line { font-size: 0.8125rem; text-wrap: balance; }
 }
 @media (prefers-reduced-motion: no-preference) {
 	/* 1000 ms crossfade every 6400 ms (cycle 14.8 s): pair B fades in over pair A (double exposure mid-fade), holds, fades out */
@@ -175,7 +179,7 @@ html.sp-no-motion .kw-win__b, .editor-styles-wrapper .kw-win__b { opacity: 0 !im
 .kw-card__name a::after { content: ""; position: absolute; inset: 0; z-index: 1; }
 .kw-card__case { font-size: 0.8125rem; letter-spacing: 0.04em; line-height: 1.5; color: var(--kw-meta); margin-top: 6px !important; min-height: 3em; }
 .kw-card__price { font-family: var(--kw-display); font-size: 1rem; letter-spacing: 0.08em; margin-top: 10px !important; }
-.kw-pager { display: flex; justify-content: center; gap: 11px; margin-top: 35px; }
+.kw-pager { display: flex; justify-content: center; gap: 11px; margin: 35px 0 0 !important; }
 .kw-pager a { display: block; width: 12px; height: 12px; background: var(--kw-pager); }
 .kw-pager a.is-active, .kw-pager a:hover { background: #000; }
 .kw-counter > .is-style-text-link { margin-top: 2.5rem; }
@@ -282,3 +286,6 @@ html.sp-no-motion .kw-win__b, .editor-styles-wrapper .kw-win__b { opacity: 0 !im
 /* ---- Pages (generic) */
 .kw-page { padding-top: 64px; }
 .kw-h--page { font-size: var(--wp--preset--font-size--x-large); text-align: center; margin-bottom: 40px; }
+
+.kw-lead { font-size: var(--wp--preset--font-size--medium); line-height: 1.8; margin-bottom: 2.5rem; }
+.kw-h--sub { font-size: var(--wp--preset--font-size--large); margin: 2.5rem 0 1rem; }
