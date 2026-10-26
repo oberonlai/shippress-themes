@@ -384,3 +384,27 @@ html.sp-no-motion .kw-win__b, .editor-styles-wrapper .kw-win__b { opacity: 0 !im
 .kw-hero--cart + .kw-intro { padding-bottom: var(--kw-sec); }
 .kw-people .kw-person { align-items: start; }
 .kw-person__text { padding-top: 0.6rem; }
+
+/* ---- WooCommerce (only styled when the plugin is active) */
+.kw-shopbar { max-width: none !important; display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem !important; font-family: var(--kw-display); font-size: 0.8125rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--kw-meta); }
+.kw-shopbar > * { margin: 0 !important; }
+.kw-wcgrid .wc-block-product-template, .kw-wcgrid .wp-block-woocommerce-product-template { gap: 2px !important; }
+.kw-wcgrid .wc-block-product { position: relative; background: var(--kw-card); padding: 0 0 22px; }
+.kw-wcgrid .wc-block-product > * { margin-inline: 0; }
+.kw-wcgrid .kw-card__tab { position: absolute; top: 0; left: 0; z-index: 2; }
+.kw-wcgrid .kw-card__tab a { color: var(--kw-ink); text-decoration: none; }
+.kw-wcgrid .kw-card__name, .kw-wcgrid .kw-card__price { padding: 0 18px; }
+.kw-wcgrid .kw-card__name { margin-top: 18px !important; }
+.kw-wcgrid .wc-block-components-product-image img { width: 100%; object-fit: cover; }
+.kw-product .kw-product__main { max-width: none !important; display: grid; grid-template-columns: 7fr 5fr; gap: 64px; align-items: start; }
+.kw-product__summary > * + * { margin-top: 1rem; }
+.kw-product__price { font-family: var(--kw-display); font-size: var(--wp--preset--font-size--medium); letter-spacing: 0.08em; }
+.kw-product .single_add_to_cart_button, .kw-product .wp-element-button { background: var(--kw-kuro); color: #fff; border-radius: 0; font-family: var(--kw-display); font-size: 0.8125rem; letter-spacing: 0.13em; text-transform: uppercase; padding: 16px 32px; }
+.kw-product .quantity input { background: var(--kw-card); border: 0; border-radius: 0; padding: 14px; }
+.kw-product__details, .kw-product > h2 { margin-top: var(--kw-sec); }
+.wc-block-components-notice-banner, .woocommerce-message { border-radius: 0; border-left: 2px solid var(--kw-kuro); }
+@media (max-width: 781px) { .kw-product .kw-product__main { grid-template-columns: 1fr; gap: 32px; } }
+@media (max-width: 781px) {
+	.kw-row.kw-row--7-5, .kw-row.kw-row--5-7 { grid-template-columns: 1fr; gap: 32px; }
+	.kw-row--text-first .kw-row__photo { order: -1; }
+}

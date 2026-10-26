@@ -59,4 +59,21 @@ Supporting: vertical white category tabs and a square pager on the product strip
 
 ## Pages and contents
 1. **Home** - front-window, front-tiles, front-list, front-tray (parallax), front-counter, front-choose, front-full, front-bench, front-visit.
-2. Stage 2: Shop, single product, How we choose, The bench, Visit, People, Straps & sizing, Pre-owned, Delivery & returns, Stories, cart and checkout.
+2. **Shop** (`page-shop`, WooCommerce `archive-product`) - window crossfading two pairs, category row, five cards in three columns with vertical tabs, notes on the counter and on ordering.
+3. **How we choose** - Ilse's four questions as alternating long-form rows (photographs K3 and K6, text-only rows 2 and 4).
+4. **The bench** - Tomasz, the full eight-item price table (full width from 782 px, stacked below), warranty line, how to send a watch for service in four numbered steps.
+5. **Visit** (the contact page) - the four visit steps beside a photograph, a parallax band of the tray (`sp-parallax`), hours table, address, how to find us, BOOK A VISIT by email.
+6. **People** - six named people as alternating text rows separated by hairlines (no portrait grid).
+7. **Straps & sizing** - Rafael Ortega's straps, size table (Small / Medium / Large by wrist circumference, €85), four steps to measure a wrist.
+8. **Pre-owned** - Mei-Lin Hsu's checks, the 12-month warranty, the current Calendar 35, 1968 (€980).
+9. **Delivery & returns** - two large figures, €18 and 14, then delivery, returns and warranty terms.
+10. **Newsletter** - one short note and a mailto button (no form plugin).
+11. **Stories** - posts index (alternating rows, caption bar = title), single post (one-pane window), archive, category and tag templates; one sample story, "Three on the Tray: How a Visit Goes".
+12. **Cart** - title on a kuro-cha strip (WooCommerce takes over when active); **404** - "Not on the list" window and four tiles.
+Every inner page repeats the window + taupe caption bar at the top and a row of four square tiles above the footer.
+
+## Audience
+People who want one good mechanical watch and prefer to try it on their own wrist, in a quiet room, with a person who knows the movement; first-time mechanical-watch buyers, owners looking for a service bench, and collectors of small cases.
+
+## A day at the shop
+Tomasz opens the bench at 10:00 and checks the overnight rates on the timing machine. Amara sets out three watches on the felt tray for the 11:00 visit. Jonas packs the insured parcels before the courier at 16:00; on Thursday the counter stays open until 20:00.
