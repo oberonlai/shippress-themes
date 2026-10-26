@@ -1,8 +1,8 @@
 # Isso Relocation: design spec (stage 1, binding for implementation)
 
-Slug `isso-relocation`, corporate office relocation crew, **landing** theme (`rules.landing_track`): the home page is one long conversion page with an anchor menu and **one repeated CTA, always worded "Request a quote"**. Main reference: **besthome-ep.com** (S5-Style 住宅・建築) — measurements in `reference-tokens.md` (cited below as `[tok a]…[tok g]`), screenshots in `brand/ref/`. Industry story reference only: アート引越センター (steps, one job story, a quote CTA). Borrow structure, techniques, colour relationships, motion and the key-visual concept. Never copy photos, text or the logo.
+Slug `isso-relocation`, corporate office relocation crew, **landing** theme (`rules.landing_track`): the home page is one long conversion page with an anchor menu and **one repeated CTA, always worded "Request a quote"**. Main reference: **besthome-ep.com** (S5-Style residential architecture) — measurements in `reference-tokens.md` (cited below as `[tok a]…[tok g]`), screenshots in `brand/ref/`. Industry story reference only: a large Japanese moving company (steps, one job story, a quote CTA). Borrow structure, techniques, colour relationships, motion and the key-visual concept. Never copy photos, text or the logo.
 
-Row facts: archetype single-column-longform, hero photo-left-text-right, nav split, first screen top-bottom halves, real photography with film grain, font_direction **sans** (Hanken Grotesk / Instrument Sans; CJK Noto Sans TC / Noto Sans JP 黑體), five languages en, zh-TW, ja, fr, de.
+Row facts: archetype single-column-longform, hero photo-left-text-right, nav split, first screen top-bottom halves, real photography with film grain, font_direction **sans** (Hanken Grotesk / Instrument Sans; CJK Noto Sans TC / Noto Sans JP sans), five languages en, zh-TW, ja, fr, de.
 
 ---
 
@@ -113,7 +113,7 @@ Mobile (390×844): items 1, 3, 4, 5 visible (stacked, §5); 2 is the panel behin
 
 ## 3. Colour
 
-Reference colours used as measured ([tok a]); the row's 煤竹 `#6B5B4E` is added as the one warm label tone (it sits inside the reference's own grey-brown gradient family). Navy stays the reference accent.
+Reference colours used as measured ([tok a]); the row's soot bamboo brown `#6B5B4E` is added as the one warm label tone (it sits inside the reference's own grey-brown gradient family). Navy stays the reference accent.
 
 | Role | Hex | Source | Use | Share |
 |---|---|---|---|---|
@@ -122,7 +122,7 @@ Reference colours used as measured ([tok a]); the row's 煤竹 `#6B5B4E` is adde
 | Ink | `#2B2B2B` | [tok a] text | text, H2, buttons, side tab | text |
 | Footer | `#2D2D2D` | [tok a] dark band | footer only (no ink bands elsewhere) | ≈ 6% |
 | Hero gradient | `#8A8581` → `#4A4A50` (180°) | [tok a] hero right half | home hero and inner page heads only | 50% of first screen |
-| Label | `#6B5B4E` 煤竹 | row hex | "( 01 )" labels, timeline dots, price-table hairline under the header row | < 1% |
+| Label | `#6B5B4E` soot bamboo brown | row hex | "( 01 )" labels, timeline dots, price-table hairline under the header row | < 1% |
 | Accent | `#2E4282` navy | [tok a] accent | link hover underline, 24 px marquee dot, focus ring, figure numbers (ref "Basic Quality" numbers) | < 2% |
 | Lines | `#DEDEDE` / `#EBEBEB` | [tok d] | hairlines, card edges, table rules | hairlines |
 | Muted text | `#6A6A6A` | derived from ink | captions, meta | — |
@@ -133,7 +133,7 @@ Reference colours used as measured ([tok a]); the row's 煤竹 `#6B5B4E` is adde
 ## 4. Typography (font_direction: sans)
 
 - **Latin:** headings/display/wordmark **Hanken Grotesk** (300, 400, 500); body/nav/UI **Instrument Sans** (400, 500). Both sans — no serif anywhere.
-- **CJK:** zh-TW **Noto Sans TC**, ja **Noto Sans JP** (黑體, 400/500), subset woff2 (Hokuto/Hada method, not the broken subset script). No Noto Serif.
+- **CJK:** zh-TW **Noto Sans TC**, ja **Noto Sans JP** (sans, 400/500), subset woff2 (Hokuto/Hada method, not the broken subset script). No Noto Serif.
 - Stacks (theme.json fontFamilies):
   - `heading`: `"Hanken Grotesk", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
   - `body`: `"Instrument Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
@@ -296,7 +296,7 @@ Signature continuation: S1+S2 on all 11; S3 on Method, Planning, Crew and 3 stor
 | Text / footer | `#2B2B2B` / `#2D2D2D` | `#2B2B2B` / `#2D2D2D` |
 | Quiet band | `rgba(0,0,0,.05)` ≈ `#F2F2F2`, ≈ 10% | `#F2F2F2`, ≈ 12% (figures, one move, FAQ) |
 | Hero right half | gradient `#8A8581` → `#4A4A50`, 50% | same, 50% |
-| Accent | navy `#2E4282` < 1% | navy `#2E4282` < 2% + label 煤竹 `#6B5B4E` < 1% |
+| Accent | navy `#2E4282` < 1% | navy `#2E4282` < 2% + label soot bamboo brown `#6B5B4E` < 1% |
 | First-screen saturation | 2.0% | ≤ 1.5% target, gate 2.0% |
 | Body type | 16 px / 1.75, 400 | 16 px / 1.75, 400 (Instrument Sans) |
 | Display H2 | Marcellus 96 px / 400 / 1.0–1.25 | Hanken Grotesk 96 px / 300 / 1.05 (sans per row) |
@@ -339,4 +339,4 @@ Own: photos, copy, logotype. Deviations from tokens (and why): display font is s
 9. Parallax on hero H1 and trio T1 passes `check-parallax.mjs` (desktop + mobile ≥ 6 px, reduced-motion ≤ 1 px); 0 `.sp-reveal` in the hero; reveals in ≤ 6 blocks; nothing left hidden after scrolling to the bottom.
 10. Fonts: Hanken Grotesk + Instrument Sans via theme.json fontFace, same in editor and front end; max font size 6rem.
 11. Fixed facts (§0) identical on home and every page; prices exactly the 7 rows; 7 named people; 3 moves; hours and address the same.
-12. Colours per §3: white dominant, `#F2F2F2` bands, footer the only dark field, navy and 煤竹 small; no cream, no red.
+12. Colours per §3: white dominant, `#F2F2F2` bands, footer the only dark field, navy and soot bamboo brown small; no cream, no red.

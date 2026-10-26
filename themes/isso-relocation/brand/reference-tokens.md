@@ -1,4 +1,4 @@
-# reference-tokens — besthome-ep.com (S5-Style 住宅・建築 / 注文住宅), measured 1440×900 with getComputedStyle, 2026-10-26
+# reference-tokens — besthome-ep.com (S5-Style residential architecture / custom homes), measured 1440×900 with getComputedStyle, 2026-10-26
 Only numbers and descriptions. No asset, text or logo is copied. Reference screenshots: `brand/ref/besthome-*.png`, `scroll-*.png`.
 
 ## (a) Colour (first screen 1440×900 measured from screenshot, plus CSS)
