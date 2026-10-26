@@ -39,9 +39,9 @@
 <!-- wp:navigation-link {"label":"<?php echo esc_attr( nuno_workwear_t( 'abbaff128' ) ); ?>","url":"/contact/","kind":"custom","isTopLevelLink":true} /-->
 <!-- wp:navigation-link {"label":"English","url":"/?lang=en","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
 
-<!-- wp:navigation-link {"label":"繁體中文","url":"/?lang=zh-TW","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
+<!-- wp:navigation-link {"label":"\u7e41\u9ad4\u4e2d\u6587","url":"/?lang=zh-TW","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
 
-<!-- wp:navigation-link {"label":"日本語","url":"/?lang=ja","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
+<!-- wp:navigation-link {"label":"\u65e5\u672c\u8a9e","url":"/?lang=ja","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
 
 <!-- wp:navigation-link {"label":"Français","url":"/?lang=fr","kind":"custom","isTopLevelLink":true,"className":"nw-m nw-ml"} /-->
 
@@ -51,7 +51,7 @@
 <!-- wp:html -->
 <?php
 $nw_cur = nuno_workwear_lang();
-$nw_langs = array( 'en' => 'EN', 'zh-TW' => '中', 'ja' => '日', 'fr' => 'FR', 'de' => 'DE' );
+$nw_langs = array( 'en' => 'EN', 'zh-TW' => "\u{4E2D}", 'ja' => "\u{65E5}", 'fr' => 'FR', 'de' => 'DE' );
 ?>
 <nav class="nw-langs" aria-label="<?php echo esc_attr( nuno_workwear_t( 'knavlang' ) ); ?>">
 <?php foreach ( $nw_langs as $nw_code => $nw_label ) : ?>
