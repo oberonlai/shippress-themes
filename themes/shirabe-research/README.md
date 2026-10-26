@@ -11,3 +11,9 @@ Shirabe Research is a quiet, editorial WordPress theme designed for qualitative 
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+## Pages and menu
+The header menu links to Method, Studies, Fees, People, Journal and About; the demo import creates these pages (plus Contact) and the menu. Inner pages are stubs until stage 2 content lands.
+
+## Fonts
+Instrument Serif (display) and Source Sans 3 (text), bundled under `assets/fonts/` (OFL-1.1).

@@ -22,7 +22,7 @@
 
 <!-- wp:group {"className":"sr-hero__lead","layout":{"type":"default"}} -->
 <div class="wp-block-group sr-hero__lead"><!-- wp:paragraph {"className":"sr-lead"} -->
-<p class="sr-lead">Shirabe Research conducts qualitative-first market research through in-person moderated interviews and in-context visits. We listen carefully to what people say and observe what they do, delivering clear, rigorous findings that help organizations understand their customers with genuine precision and practical depth.</p>
+<p class="sr-lead">Shirabe Research runs qualitative market research the slow way: in a five-week study we sit across the table from twelve of your customers, chart what they say on paper together, and read the findings out to your team in person.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sr-pill"} -->
