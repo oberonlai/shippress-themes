@@ -18,5 +18,5 @@
 </div>
 <!-- /wp:group -->
 <!-- wp:html -->
-<a class="isso-tab" href="/#quote"><span>Request a quote</span><i aria-hidden="true"></i><b aria-hidden="true"></b></a>
+<a class="isso-tab" href="/request-a-quote/"><span>Request a quote</span><i aria-hidden="true"></i><b aria-hidden="true"></b></a>
 <!-- /wp:html -->

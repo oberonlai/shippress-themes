@@ -32,7 +32,7 @@
 <p class="isso-note">All prices in EUR, excl. 21% VAT. Every move starts with a free survey.</p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"isso-link"} -->
-<p class="isso-link"><a href="#quote">Request a quote</a></p>
+<p class="isso-link"><a href="/request-a-quote/">Request a quote</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

@@ -31,7 +31,7 @@
 <!-- wp:paragraph  -->
 <p>Office relocation · Antwerp &amp; 150 km</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"isso-link isso-link--white"} -->
-<p class="isso-link isso-link--white"><a href="#quote">Request a quote</a></p>
+<p class="isso-link isso-link--white"><a href="/request-a-quote/">Request a quote</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

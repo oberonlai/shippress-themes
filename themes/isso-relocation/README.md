@@ -4,4 +4,4 @@ Block theme for an office-moving crew (landing track). Home (en): split first sc
 
 Scroll effects: `assets/sp-scroll.css|js` (reveal, stagger, count, marquee, parallax) — off for reduced motion.
 
-Photos: 13 film-grain photographs in `assets/images`. Languages: en only so far; zh-TW, ja, fr, de are stage 2.
+Photos: 13 film-grain photographs in `assets/images`. Pages (en): home, method, moves, request-a-quote, privacy; the main menu links to them (and to home anchors). Languages: en only so far; zh-TW, ja, fr, de are stage 2.

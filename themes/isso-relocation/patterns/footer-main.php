@@ -32,13 +32,13 @@
 <div class="wp-block-group isso-footer__c">
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><a href="/#method">Method</a></li>
+<li><a href="/method/">Method</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="/#weekend">Weekend</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="/#one-move">One move</a></li>
+<li><a href="/moves/">Moves</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
 <li><a href="/#prices">Prices</a></li>
@@ -47,7 +47,7 @@
 <li><a href="/#crew">Crew</a></li>
 <!-- /wp:list-item -->
 <!-- wp:list-item -->
-<li><a href="/#quote">Request a quote</a></li>
+<li><a href="/request-a-quote/">Request a quote</a></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 </div>
