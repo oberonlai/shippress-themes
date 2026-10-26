@@ -177,9 +177,9 @@ a { text-underline-offset: 0.25em; }
 .isso-trio__main { width: 100%; aspect-ratio: 16 / 9; --sp-par: 10%; margin: 0; }
 .isso-trio__main figure { margin: 0; height: 100%; }
 .isso-trio__main img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.isso-trio__subs { position: relative; z-index: 2; display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; padding: 0 40px; }
-.isso-trio__a { width: 25%; margin-top: -120px; margin-bottom: 0; }
-.isso-trio__b { width: 40%; margin: -80px 0 0; }
+.isso-trio__subs { position: relative; z-index: 2; display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; padding: 0 40px; margin: 0 !important; }
+.isso-trio__a { width: 25%; margin: -120px 0 0 !important; }
+.isso-trio__b { width: 40%; margin: -80px 0 0 !important; }
 .isso-trio__subs figure { margin: 0; }
 .isso-trio__subs img { display: block; width: 100%; aspect-ratio: 1.62 / 1; object-fit: cover; }
 .isso-trio__cap { margin: 32px 0 0 !important; max-width: 360px; font-size: 1rem; line-height: 1.75; color: var(--is-ink); }
@@ -187,8 +187,8 @@ a { text-underline-offset: 0.25em; }
 	.isso-trio { padding-bottom: 64px; }
 	.isso-trio__main { aspect-ratio: 1 / 1; --sp-par: 6%; }
 	.isso-trio__subs { flex-direction: column; padding: 0 5%; gap: 0; }
-	.isso-trio__a { width: 70%; margin-top: -48px; }
-	.isso-trio__b { width: 85%; margin: 24px 0 0 auto; }
+	.isso-trio__a { width: 70%; margin: -48px 0 0 !important; }
+	.isso-trio__b { width: 85%; margin: 24px 0 0 auto !important; }
 }
 
 /* ---------- 4. method ---------- */
@@ -312,7 +312,8 @@ a { text-underline-offset: 0.25em; }
 .isso-marq__row > * { margin: 0 !important; }
 .isso-marq__row .dot { flex: none; width: 24px; height: 24px; border-radius: 50%; background: var(--is-navy); }
 html:not(.sp-no-motion) .isso-marq.sp-marquee > * { animation-duration: 20s; }
-.isso-marq { overflow: clip; }
+.isso-marq { overflow: clip; display: flex; }
+html.sp-no-motion .isso-marq > [aria-hidden] { display: none; }
 .isso-footer__cols { display: grid; grid-template-columns: 5fr 3fr 4fr; gap: 48px; padding-top: 64px; font-size: 0.875rem; line-height: 1.9; }
 .isso-footer__cols p, .isso-footer__cols ul { margin: 0; }
 .isso-footer__cols ul { list-style: none; padding: 0; }
