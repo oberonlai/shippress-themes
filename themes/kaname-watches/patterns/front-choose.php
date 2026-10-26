@@ -11,38 +11,38 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kw-sec kw-choose","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull kw-sec kw-choose"><!-- wp:group {"align":"wide","className":"kw-row kw-row--photo-first","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide kw-row kw-row--photo-first"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-row__photo sp-reveal"} -->
-<figure class="wp-block-image size-full kw-row__photo sp-reveal"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands using specialised tools to open a caseback under a warm bench work lamp."/></figure>
+<figure class="wp-block-image size-full kw-row__photo sp-reveal"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'a7776e904' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-row__text sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-row__text sp-reveal"><!-- wp:heading {"className":"kw-h kw-h--sec kw-h--left"} -->
-<h2 class="wp-block-heading kw-h kw-h--sec kw-h--left">HOW WE CHOOSE</h2>
+<h2 class="wp-block-heading kw-h kw-h--sec kw-h--left"><?php echo wp_kses_post( kaname_watches_t( 'kc090fc92' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We select every watch through four quiet questions before it earns a place on the counter tray. Ilse Verhoeven evaluates each candidate against strict standards of proportion, mechanical longevity, and honest craft. If a watch fails any single test, we do not add it to the list.</p>
+<p><?php echo wp_kses_post( kaname_watches_t( 'k8093a431' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kw-qs sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-qs sp-stagger"><!-- wp:paragraph {"className":"kw-q sp-reveal sp-reveal--up"} -->
-<p class="kw-q sp-reveal sp-reveal--up"><span class="kw-q__n">01</span> Does it keep good time after a week on Tomasz's bench?</p>
+<p class="kw-q sp-reveal sp-reveal--up"><span class="kw-q__n">01</span> <?php echo wp_kses_post( kaname_watches_t( 'k1c574230' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kw-q sp-reveal sp-reveal--up"} -->
-<p class="kw-q sp-reveal sp-reveal--up"><span class="kw-q__n">02</span> Can it be serviced in ten years?</p>
+<p class="kw-q sp-reveal sp-reveal--up"><span class="kw-q__n">02</span> <?php echo wp_kses_post( kaname_watches_t( 'k89a42a80' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kw-q sp-reveal sp-reveal--up"} -->
-<p class="kw-q sp-reveal sp-reveal--up"><span class="kw-q__n">03</span> Does it sit flat on a 15 cm wrist?</p>
+<p class="kw-q sp-reveal sp-reveal--up"><span class="kw-q__n">03</span> <?php echo wp_kses_post( kaname_watches_t( 'k0c7810f1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kw-q sp-reveal sp-reveal--up"} -->
-<p class="kw-q sp-reveal sp-reveal--up"><span class="kw-q__n">04</span> Would we wear it ourselves?</p>
+<p class="kw-q sp-reveal sp-reveal--up"><span class="kw-q__n">04</span> <?php echo wp_kses_post( kaname_watches_t( 'k2870de0d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"is-style-text-link"} -->
-<p class="is-style-text-link"><a href="/how-we-choose/">HOW WE CHOOSE</a></p>
+<p class="is-style-text-link"><a href="/how-we-choose/"><?php echo wp_kses_post( kaname_watches_t( 'kc090fc92' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

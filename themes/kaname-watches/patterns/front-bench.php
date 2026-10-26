@@ -10,23 +10,23 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kw-sec kw-bench","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull kw-sec kw-bench"><!-- wp:heading {"textAlign":"center","className":"kw-h kw-h--sec"} -->
-<h2 class="wp-block-heading has-text-align-center kw-h kw-h--sec">THE BENCH</h2>
+<h2 class="wp-block-heading has-text-align-center kw-h kw-h--sec"><?php echo wp_kses_post( kaname_watches_t( 'k68801a32' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Every mechanical watch requires periodic care to preserve its timing and lubrication. At our Ghent service bench, Tomasz Wrona handles adjustments, strap fitting, and complete mechanical overhauls using proper tools and original parts.</p>
+<p><?php echo wp_kses_post( kaname_watches_t( 'kbfee7281' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <figure class="wp-block-table alignwide kw-prices"><table class="has-fixed-layout"><tbody>
-<tr><td class="kw-prices__name">Leather strap by Rafael Ortega</td><td class="kw-prices__note">calf or suede, made to your wrist</td><td class="kw-prices__price">€85</td></tr>
-<tr><td class="kw-prices__name">Timing check and demagnetising</td><td class="kw-prices__note">same day</td><td class="kw-prices__price">€45</td></tr>
-<tr><td class="kw-prices__name">Full service, hand-wound</td><td class="kw-prices__note">4–6 weeks, 12-month warranty</td><td class="kw-prices__price">€290</td></tr>
-<tr><td class="kw-prices__name">Full service, automatic</td><td class="kw-prices__note">4–6 weeks, 12-month warranty</td><td class="kw-prices__price">€340</td></tr>
+<tr><td class="kw-prices__name"><?php echo wp_kses_post( kaname_watches_t( 'k844c2940' ) ); ?></td><td class="kw-prices__note"><?php echo wp_kses_post( kaname_watches_t( 'ke75b5fa6' ) ); ?></td><td class="kw-prices__price">€85</td></tr>
+<tr><td class="kw-prices__name"><?php echo wp_kses_post( kaname_watches_t( 'kb0f07a28' ) ); ?></td><td class="kw-prices__note"><?php echo wp_kses_post( kaname_watches_t( 'k517737b0' ) ); ?></td><td class="kw-prices__price">€45</td></tr>
+<tr><td class="kw-prices__name"><?php echo wp_kses_post( kaname_watches_t( 'k494c49e4' ) ); ?></td><td class="kw-prices__note"><?php echo wp_kses_post( kaname_watches_t( 'k4ff4d062' ) ); ?></td><td class="kw-prices__price">€290</td></tr>
+<tr><td class="kw-prices__name"><?php echo wp_kses_post( kaname_watches_t( 'k799720d9' ) ); ?></td><td class="kw-prices__note"><?php echo wp_kses_post( kaname_watches_t( 'k4ff4d062' ) ); ?></td><td class="kw-prices__price">€340</td></tr>
 </tbody></table></figure>
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"align":"center","className":"is-style-text-link"} -->
-<p class="has-text-align-center is-style-text-link"><a href="/the-bench/">THE BENCH</a></p>
+<p class="has-text-align-center is-style-text-link"><a href="/the-bench/"><?php echo wp_kses_post( kaname_watches_t( 'k68801a32' ) ); ?></a></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

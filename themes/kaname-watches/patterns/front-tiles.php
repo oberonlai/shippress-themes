@@ -13,41 +13,41 @@
 <div class="wp-block-group alignwide kw-tiles sp-stagger">
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="Watchmaker loupe held closely over an open mechanical watch movement on a workbench mat."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'a14baffb7' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
-<p class="kw-tile__label"><a href="/how-we-choose/">HOW WE CHOOSE</a></p>
+<p class="kw-tile__label"><a href="/how-we-choose/"><?php echo wp_kses_post( kaname_watches_t( 'kc090fc92' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k6-two-on-felt.webp' ); ?>" alt="Two mechanical watches lying side by side on dark charcoal felt seen from above."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k6-two-on-felt.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'a6cb8c1ad' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
-<p class="kw-tile__label"><a href="/stories/">TWO IN FULL</a></p>
+<p class="kw-tile__label"><a href="/stories/"><?php echo wp_kses_post( kaname_watches_t( 'ka7c2d3e0' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="Empty shop glass counter lit by a warm evening lamp with felt trays inside."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'a346981d0' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
-<p class="kw-tile__label"><a href="/visit/">VISIT THE COUNTER</a></p>
+<p class="kw-tile__label"><a href="/visit/"><?php echo wp_kses_post( kaname_watches_t( 'k55ef1ce0' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="Overhead view of a twelve-slot felt tray holding five watches and seven empty slots."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'a825ac9f7' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
-<p class="kw-tile__label"><a href="/shop/">THE SHORT LIST</a></p>
+<p class="kw-tile__label"><a href="/shop/"><?php echo wp_kses_post( kaname_watches_t( 'k12cc3abb' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 </div>

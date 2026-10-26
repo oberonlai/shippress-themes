@@ -12,23 +12,23 @@
 <section class="wp-block-group alignfull kw-hero kw-hero--inner"><!-- wp:group {"align":"wide","className":"kw-win kw-win--inner","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide kw-win kw-win--inner"><!-- wp:group {"className":"kw-win__pane kw-win__pane--l","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-win__pane kw-win__pane--l"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-win__a"} -->
-<figure class="wp-block-image size-full kw-win__a"><img src="<?php echo kaname_watches_img( 'p5-calendar-35.webp' ); ?>" alt="Vintage 35 mm steel watch with a date window and brown suede strap on dark felt."/></figure>
+<figure class="wp-block-image size-full kw-win__a"><img src="<?php echo kaname_watches_img( 'p5-calendar-35.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'ace653a45' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-win__pane kw-win__pane--r","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-win__pane kw-win__pane--r"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-win__a"} -->
-<figure class="wp-block-image size-full kw-win__a"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="Overhead felt tray with twelve slots, five holding watches and seven empty."/></figure>
+<figure class="wp-block-image size-full kw-win__a"><img src="<?php echo kaname_watches_img( 'k8-twelve-slots.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'aa799fccc' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-win__bar","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-bar-cap kw-win__bar"><!-- wp:heading {"level":1,"className":"kw-bar-cap__name"} -->
-<h1 class="wp-block-heading kw-bar-cap__name">PRE-OWNED</h1>
+<h1 class="wp-block-heading kw-bar-cap__name"><?php echo wp_kses_post( kaname_watches_t( 'k03085a0c' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kw-bar-cap__line"} -->
-<p class="kw-bar-cap__line">Papers checked, movement opened.</p>
+<p class="kw-bar-cap__line"><?php echo wp_kses_post( kaname_watches_t( 'ka50a0ce2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -36,7 +36,7 @@
 
 <!-- wp:group {"tagName":"section","align":"full","className":"kw-sec kw-intro","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull kw-sec kw-intro"><!-- wp:paragraph {"className":"kw-lead kw-lead--center"} -->
-<p class="kw-lead kw-lead--center">Our pre-owned watches undergo rigorous verification before joining the short list in our Ghent counter. Mei-Lin Hsu verifies documentation and provenance, while watchmaker Tomasz Wrona performs a complete mechanical service on every vintage movement.</p>
+<p class="kw-lead kw-lead--center"><?php echo wp_kses_post( kaname_watches_t( 'k27da914b' ) ); ?></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->
 
@@ -45,16 +45,16 @@
 <div class="wp-block-group alignwide kw-row kw-row--photo-first kw-row--7-5"><!-- wp:group {"className":"kw-row__photo sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-row__photo sp-reveal"><!-- wp:group {"className":"kw-photo kw-photo--land","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-photo kw-photo--land"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k3-slate-and-loupe.webp' ); ?>" alt="Round steel watch with a slate dial on dark felt beside a small brass loupe."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k3-slate-and-loupe.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'a246d2156' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-bar-cap--photo","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-bar-cap kw-bar-cap--photo"><!-- wp:heading {"level":2,"className":"kw-bar-cap__name"} -->
-<h2 class="wp-block-heading kw-bar-cap__name">OPENED AND CHECKED</h2>
+<h2 class="wp-block-heading kw-bar-cap__name"><?php echo wp_kses_post( kaname_watches_t( 'kc42e730c' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kw-bar-cap__line"} -->
-<p class="kw-bar-cap__line">Train wheels, escapement, balance</p>
+<p class="kw-bar-cap__line"><?php echo wp_kses_post( kaname_watches_t( 'k31b623c9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -62,15 +62,15 @@
 
 <!-- wp:group {"className":"kw-row__text sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-row__text sp-reveal"><!-- wp:heading {"level":2,"className":"kw-h kw-h--q kw-h--left"} -->
-<h2 class="wp-block-heading kw-h kw-h--q kw-h--left">WHAT MEI-LIN HSU CHECKS</h2>
+<h2 class="wp-block-heading kw-h kw-h--q kw-h--left"><?php echo wp_kses_post( kaname_watches_t( 'k45ab8d35' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Selecting vintage mechanical watches demands rigorous verification and patience. Mei-Lin Hsu inspects every prospective piece, confirming archival authenticity, dial condition, case serials, and historical paperwork. Once documentation is validated, Tomasz Wrona opens the caseback in our Ghent workshop to examine the train wheels, escapement, and balance assembly.</p>
+<p><?php echo wp_kses_post( kaname_watches_t( 'ke69744b2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Only sound, original movements enter our care, where they are fully disassembled, ultrasonically cleaned, fresh-lubricated, and regulated across positions before appearing in the counter.</p>
+<p><?php echo wp_kses_post( kaname_watches_t( 'kfbab6570' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -79,24 +79,24 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kw-sec kw-long kw-long--text","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull kw-sec kw-long kw-long--text"><!-- wp:group {"className":"kw-prose-col","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-prose-col"><!-- wp:heading {"textAlign":"center","level":2,"className":"kw-h kw-h--sec"} -->
-<h2 class="wp-block-heading has-text-align-center kw-h kw-h--sec">WARRANTY AND THE CURRENT PIECE</h2>
+<h2 class="wp-block-heading has-text-align-center kw-h kw-h--sec"><?php echo wp_kses_post( kaname_watches_t( 'kb59e950a' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Every pre-owned watch offered by Kaname Watches carries our twelve-month mechanical warranty, matching the coverage provided on our full bench overhaul.</p>
+<p><?php echo wp_kses_post( kaname_watches_t( 'k6c9d68e1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kw-feature sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-feature"><!-- wp:paragraph {"className":"kw-chapter__label"} -->
-<p class="kw-chapter__label">PRE-OWNED · 35 MM</p>
+<p class="kw-chapter__label"><?php echo wp_kses_post( kaname_watches_t( 'k0f8a03b1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kw-h kw-h--q kw-h--left"} -->
-<h3 class="wp-block-heading kw-h kw-h--q kw-h--left">CALENDAR 35, 1968</h3>
+<h3 class="wp-block-heading kw-h kw-h--q kw-h--left"><?php echo wp_kses_post( kaname_watches_t( 'k02e37697' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kw-chapter__spec"} -->
-<p class="kw-chapter__spec">35 mm steel case · date · brown suede strap by Rafael Ortega · serviced by Tomasz · 12-month warranty</p>
+<p class="kw-chapter__spec"><?php echo wp_kses_post( kaname_watches_t( 'kd24c345a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kw-card__price"} -->
@@ -104,12 +104,12 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-text-link"} -->
-<p class="is-style-text-link"><a href="/shop/">SEE IT ON THE LIST</a></p>
+<p class="is-style-text-link"><a href="/shop/"><?php echo wp_kses_post( kaname_watches_t( 'kbf39ec60' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph -->
-<p>Our current featured vintage piece is the Calendar 35 from 1968, priced at €980. Housed in a 35 mm steel case with date function, this piece has been overhauled by Tomasz and fitted with a brown suede strap made by Rafael Ortega. You can examine it at Klokstraat 12 or order online with insured delivery.</p>
+<p><?php echo wp_kses_post( kaname_watches_t( 'k1bc02722' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -119,41 +119,41 @@
 <div class="wp-block-group alignwide kw-tiles sp-stagger">
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="A watchmaker loupe held over an open mechanical movement on a bench mat."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k5-loupe-movement.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'ab7340c2c' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
-<p class="kw-tile__label"><a href="/how-we-choose/">HOW WE CHOOSE</a></p>
+<p class="kw-tile__label"><a href="/how-we-choose/"><?php echo wp_kses_post( kaname_watches_t( 'kc090fc92' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="Watchmaker hands opening a caseback at the bench under a lamp, tools laid out."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k12-bench-hands.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'a5f9db367' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
-<p class="kw-tile__label"><a href="/the-bench/">THE BENCH</a></p>
+<p class="kw-tile__label"><a href="/the-bench/"><?php echo wp_kses_post( kaname_watches_t( 'k68801a32' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="The empty glass counter at evening with one warm lamp and felt trays inside."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k7-evening-counter.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'ae372e5d3' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
-<p class="kw-tile__label"><a href="/visit/">VISIT THE COUNTER</a></p>
+<p class="kw-tile__label"><a href="/visit/"><?php echo wp_kses_post( kaname_watches_t( 'k55ef1ce0' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-tile sp-reveal","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-tile sp-reveal"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="Three mechanical watches on a felt tray inside the glass counter under warm light."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kaname_watches_img( 'k9-three-on-tray.webp' ); ?>" alt="<?php echo esc_attr( kaname_watches_t( 'a7174b0c4' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-tile__label"} -->
-<p class="kw-tile__label"><a href="/delivery-and-returns/">DELIVERY &amp; RETURNS</a></p>
+<p class="kw-tile__label"><a href="/delivery-and-returns/"><?php echo wp_kses_post( kaname_watches_t( 'k811ab8d7' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 </div>
