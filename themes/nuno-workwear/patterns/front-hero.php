@@ -17,7 +17,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"nw-hero__line nw-hero__line--1"} -->
-<h1 class="wp-block-heading nw-hero__line nw-hero__line--1"><span class="nw-rise">MADE</span><span class="nw-sr"> FOR SHIFTS. Workwear and repairs in Rotterdam.</span></h1>
+<h1 class="wp-block-heading nw-hero__line nw-hero__line--1"><span class="nw-rise">MADE</span></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -43,12 +43,12 @@
 
 <!-- wp:group {"className":"nw-hero__over nw-in","layout":{"type":"default"}} -->
 <div class="wp-block-group nw-hero__over nw-in"><!-- wp:group {"className":"nw-hero__overin","layout":{"type":"default"}} -->
-<div class="wp-block-group nw-hero__overin"><!-- wp:paragraph {"className":"nw-hero__line nw-hero__line--2"} -->
-<p class="nw-hero__line nw-hero__line--2" aria-hidden="true"><span class="nw-rise">FOR SHIFTS</span></p>
-<!-- /wp:paragraph -->
+<div class="wp-block-group nw-hero__overin"><!-- wp:heading {"level":2,"className":"nw-hero__line nw-hero__line--2"} -->
+<h2 class="wp-block-heading nw-hero__line nw-hero__line--2"><span class="nw-rise">FOR SHIFTS</span></h2>
+<!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nw-hero__tag"} -->
-<p class="nw-hero__tag">12 oz duck · 8 oz waxed cotton · XS–4XL</p>
+<p class="nw-hero__tag">12 oz duck · 8 oz waxed cotton · XS–⁠4XL</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
