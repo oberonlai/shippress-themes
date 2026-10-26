@@ -1,0 +1,53 @@
+# Nuno Workwear
+
+A documentary, sans-serif block theme for a **workwear and safety-clothing shop with its own repair workshop**: trousers, jackets, aprons and boots chosen by trade, fitted on the crew, embroidered and mended in-house. It is a business theme, not a shop: no WooCommerce templates or products (and nothing breaks if WooCommerce is active).
+
+The demo shop is fictional: Nuno Workwear, Rijnhaven Works, Rotterdam, open since 2009. All names, addresses, phone numbers, fabrics and prices are made up.
+
+## Concept: ground, ink and one rust accent
+
+- **Palette.** Ground `#F3F2EF`, ink `#1F1D1B` (text, bands, footer), charcoal `#524E4A`, stone `#E4E2DD`, rust accent `#A9521D` on ground and `#E39A62` on ink. First-screen saturation stays under 10%.
+- **Type.** Albert Sans (display, headings, navigation, buttons) over Manrope (text). Both OFL-1.1, Latin WOFF2 subsets in `assets/fonts/`.
+- **Photography.** Sixteen AI-generated documentary photographs (`assets/images/p01-p16.webp`), none repeated on the home page, released under GPL-2.0-or-later / CC0.
+
+## Signature techniques
+
+- **S-A**: the two-line headline "MADE / FOR SHIFTS" crossing the seam between the paper band and a half-height photograph, with a line-mask rise, a 21 s cross-fade of three photographs and a parallax layer.
+- **S-B**: five dashed column guides behind the page; the trade card mosaic, order steps and footer columns snap to them.
+- **S-C**: ink bands with cream text ("Mended, not replaced", the four-step order sheet, the footer).
+- **Scroll effects** (`assets/sp-scroll.*`): wipe, mask, stagger, reveal and parallax; all switch off under `prefers-reduced-motion`, in the editor and with `?sp-static`.
+
+## Layout
+
+Split-navigation header (links either side of the wordmark, round contact button); ink footer with four columns. Home sections are the patterns `patterns/front-*.php` (hero, shop, trades, floor, fit, prices, crews, order, visit). Templates: front page, page, wide page, index, archive, category, tag, single, search, 404.
+
+## Licence
+
+GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`).
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Nuno Workwear home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Nuno Workwear home page on mobile"></td>
+</tr>
+</table>
+
+- Catalogue: [desktop](screenshots/catalogue-desktop.webp) · [mobile](screenshots/catalogue-mobile.webp)
+- Fabrics: [desktop](screenshots/fabrics-desktop.webp) · [mobile](screenshots/fabrics-mobile.webp)
+- Fit: [desktop](screenshots/fit-desktop.webp) · [mobile](screenshots/fit-mobile.webp)
+- Repairs: [desktop](screenshots/repairs-desktop.webp) · [mobile](screenshots/repairs-mobile.webp)
+- Crew orders: [desktop](screenshots/crew-orders-desktop.webp) · [mobile](screenshots/crew-orders-mobile.webp)
+- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
