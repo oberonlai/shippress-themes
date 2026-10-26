@@ -141,7 +141,7 @@ body::after {
 .nw-hero__layer .wp-block-image:nth-child(1) { z-index: 3; }
 .nw-hero__layer .wp-block-image:nth-child(2) { z-index: 2; }
 .nw-hero__layer .wp-block-image:nth-child(3) { z-index: 1; }
-.nw-hero__shade { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(31, 29, 27, .38), rgba(31, 29, 27, 0) 45%); pointer-events: none; }
+.nw-hero__shade { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(31, 29, 27, .62), rgba(31, 29, 27, .28) 38%, rgba(31, 29, 27, 0) 62%); pointer-events: none; }
 .nw-cue { position: absolute; left: 50%; transform: translateX(-50%); bottom: 24px; z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 8px; margin: 0; }
 .nw-cue__word { font-size: .75rem; line-height: 1; letter-spacing: .12em; text-transform: uppercase; color: var(--nw-ground); margin: 0; }
 .nw-cue hr.nw-cue__rule { width: 1px !important; max-width: 1px; height: 56px; min-height: 0; background: var(--nw-ground); opacity: 1; border: 0; margin: 0; }
@@ -164,17 +164,16 @@ body::after {
 	.nw-hero__line { font-size: 15vw; }
 }
 @media (max-width: 781px) {
-	.nw-hero { display: block; min-height: 0; }
-	.nw-hero__band { padding: 28px 0 24px; }
-	.nw-hero__over { padding: 0 0 20px; background: var(--nw-ground); pointer-events: auto; }
-	.nw-hero__over.nw-in { width: 100%; padding-inline: 24px; }
-	.nw-hero__overin { flex-direction: column; align-items: flex-start; gap: 16px; }
-	.nw-hero__line--2 { color: var(--nw-ink); margin-top: 0; }
-	.nw-hero__tag { color: var(--nw-ink); max-width: none; font-size: 1rem; margin: 0; order: 3; }
-	.nw-hero__photo { min-height: 0; aspect-ratio: 4 / 3; --sp-par: 5%; }
+	.nw-hero { display: flex; flex-direction: column; min-height: 0; background: var(--nw-ground); padding-top: 28px; }
+	.nw-hero__band, .nw-hero__grid, .nw-hero__head, .nw-hero__over, .nw-hero__overin { display: contents; }
+	.nw-hero .nw-eyebrow { order: 1; margin: 0 24px 1rem; }
+	.nw-hero__line--1 { order: 2; margin-inline: 24px; }
+	.nw-hero__line--2 { order: 3; color: var(--nw-ink); margin: 0 24px 20px; }
+	.nw-hero__photo { order: 4; min-height: 0; aspect-ratio: 4 / 3; --sp-par: 5%; }
+	.nw-hero__tag { order: 5; color: var(--nw-ink); max-width: none; font-size: 1rem; margin: 20px 24px 0; }
+	.nw-hero__aside { order: 6; margin: 20px 24px 28px; }
 	.nw-hero__shade { display: none; }
 	.nw-cue { display: none; }
-	.nw-hero__aside { order: 3; }
 }
 
 /* ---- ink bands (S-C) */
@@ -187,20 +186,23 @@ body::after {
 .nw-shop__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; align-items: start; }
 .nw-shop__text { padding-right: 24px; }
 .nw-shop__side { display: flex; flex-direction: column; align-items: flex-end; }
-.nw-shop__pic { width: min(100%, 360px); margin-top: 3rem; }
-.nw-shop__side .nw-caption { width: min(100%, 360px); }
-@media (max-width: 781px) { .nw-shop__grid { grid-template-columns: 1fr; } .nw-shop__text { padding-right: 0; } .nw-shop__pic { margin-top: 0; } .nw-shop__side { align-items: flex-start; } }
+.nw-shop__pic { width: 100%; margin-top: 3rem; }
+.nw-shop__side .nw-caption { width: 100%; }
+.nw-shop__pic img { width: 100%; aspect-ratio: 5 / 4; object-fit: cover; }
+@media (max-width: 781px) { .nw-shop__grid { grid-template-columns: 1fr; } .nw-shop__text { padding-right: 0; } .nw-shop__pic { margin-top: 32px; } .nw-shop__side { align-items: flex-start; } }
 
 /* ---- 3 trades mosaic on the guides */
 .nw-mosaic { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: auto auto; align-items: stretch; }
 .nw-card { display: flex; flex-direction: column; border-top: 1px dashed var(--nw-dash); padding: 24px 12px 32px; }
-.nw-card--a { grid-column: 1 / 3; grid-row: 1 / 3; padding-left: 0; }
+.nw-card--a { grid-column: 1 / 3; grid-row: 1 / 3; padding-left: 0; padding-right: 32px; }
+.nw-card--b, .nw-card--c, .nw-card--d, .nw-card--e { padding: 24px 0 32px 32px; }
 .nw-card--b { grid-column: 3; grid-row: 1; }
-.nw-card--c { grid-column: 4; grid-row: 1; padding-right: 0; }
+.nw-card--c { grid-column: 4; grid-row: 1; }
 .nw-card--d { grid-column: 3; grid-row: 2; }
-.nw-card--e { grid-column: 4; grid-row: 2; padding-right: 0; }
+.nw-card--e { grid-column: 4; grid-row: 2; }
 .nw-card__pic { margin-bottom: 1.25rem; aspect-ratio: 4 / 3; overflow: hidden; }
 .nw-card__pic img { height: 100%; object-fit: cover; filter: saturate(.9); }
+.nw-card--a .nw-card__pic img { object-position: 50% 20%; }
 .nw-card--a .nw-card__pic { aspect-ratio: 4 / 5; flex: 1 1 auto; min-height: 0; }
 .nw-card__name { font-family: var(--wp--preset--font-family--display); font-weight: 600; font-size: 1.5rem; line-height: 1.3; text-transform: uppercase; letter-spacing: .02em; margin: 0 0 .5rem; }
 .nw-card__desc { font-size: .9375rem; line-height: 1.7; margin: 0 0 1rem; color: var(--nw-main); }
@@ -210,7 +212,7 @@ body::after {
 .sp-reveal.nw-card { transition-delay: var(--sp-delay, 0s); }
 @media (max-width: 959px) {
 	.nw-mosaic { grid-template-columns: 1fr 1fr; }
-	.nw-card--a { grid-column: 1 / 3; grid-row: auto; }
+	.nw-card--a { grid-column: 1 / 3; grid-row: auto; padding-right: 0; }
 	.nw-card--b, .nw-card--c, .nw-card--d, .nw-card--e { grid-column: auto; grid-row: auto; padding: 24px 12px 32px; }
 }
 @media (max-width: 781px) {
@@ -220,16 +222,16 @@ body::after {
 }
 
 /* ---- 4 floor: photo opens from a centred box inside the ink band */
-.nw-floor { padding: 300px 0 207px; }
+.nw-floor { padding: 240px 0 180px; }
 .nw-floor__photo { position: absolute; inset: 0; margin: 0; }
 .nw-floor__photo .wp-block-image, .nw-floor__photo img { height: 100%; }
 .nw-floor__photo img { object-fit: cover; filter: saturate(.85); }
 .nw-floor__photo::after { content: ""; position: absolute; inset: 0; background: rgba(31, 29, 27, .55); }
-.nw-floor__frame { position: absolute; z-index: 1; left: 25%; right: 25%; top: 25%; bottom: 25%; border: 1px dashed rgba(243, 242, 239, .35); pointer-events: none; }
+.nw-floor__frame { display: none; position: absolute; z-index: 1; left: 25%; right: 25%; top: 25%; bottom: 25%; border: 1px dashed rgba(243, 242, 239, .35); pointer-events: none; }
 .nw-floor .nw-in { position: relative; z-index: 2; }
-.nw-floor__text { max-width: 600px; }
+.nw-floor__text { max-width: 680px; padding: 40px 40px 48px; margin-left: -24px; border: 1px dashed rgba(243, 242, 239, .35); }
 .nw-floor .nw-btn { margin-top: 1rem; }
-@media (max-width: 781px) { .nw-floor { padding: 120px 0 96px; } .nw-floor__frame { display: none; } }
+@media (max-width: 781px) { .nw-floor { padding: 120px 0 96px; } .nw-floor__frame { display: none; } .nw-floor__text { padding: 0; margin-left: 0; border: 0; } }
 
 /* ---- 5 fit rows: text 456 / photo 636 */
 .nw-fit { padding-bottom: 80px; }
@@ -260,9 +262,9 @@ body::after {
 
 /* ---- 7 crews: bleeding horizontal row of 400 x 229 cards */
 .nw-crews { overflow-x: clip; }
-.nw-crews__row { overflow-x: auto; scroll-snap-type: x mandatory; padding-left: max(24px, calc(50vw - 600px)); scrollbar-width: thin; }
+.nw-crews__row { overflow-x: auto; scroll-snap-type: x mandatory; padding-left: max(24px, calc(50vw - 600px)); scroll-padding-left: max(24px, calc(50vw - 600px)); scrollbar-width: thin; }
 .nw-crews__track { display: flex; gap: 24px; width: max-content; padding-right: 24px; }
-.nw-crew { width: 400px; flex: none; scroll-snap-align: start; }
+.nw-crew { width: 384px; flex: none; scroll-snap-align: start; }
 .nw-crew .wp-block-image { aspect-ratio: 400 / 229; overflow: hidden; }
 .nw-crew .wp-block-image img { height: 100%; object-fit: cover; filter: saturate(.9); }
 .nw-crew__name { font-family: var(--wp--preset--font-family--display); font-weight: 600; font-size: 1.25rem; line-height: 1.4; margin: 1rem 0 .25rem; }
@@ -313,6 +315,9 @@ body::after {
 
 /* ---- fixes */
 .nw-crews .nw-in { padding-bottom: 64px; }
-.nw-visit__cta .nw-btn { max-width: 22rem; }
+.nw-visit__cta .nw-btn { max-width: 24rem; }
+.nw-visit__cta .nw-btn .wp-block-button__link { padding-right: 24px; gap: 0; }
+.nw-visit__cta .nw-btn .wp-block-button__link::before { margin-left: auto; margin-right: 16px; }
+.nw-visit__cta .nw-btn .wp-block-button__link { padding-left: 20px; }
 .nw-list thead, .nw-list thead tr { border: 0; }
 .nw-list table, .nw-list th { border: 0; }
