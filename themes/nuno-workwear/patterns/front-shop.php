@@ -36,7 +36,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"nw-caption"} -->
-<p class="nw-caption">A fitter pinning a hem, Saturday fitting.</p>
+<p class="nw-caption">Leila pinning a hem, Saturday fitting.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
