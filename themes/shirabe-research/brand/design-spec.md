@@ -61,7 +61,7 @@ Note: stage-a suggested a centred narrow column for the headline; we keep the re
 ---
 
 ## 3. Colour
-Reference colours used as-is ([tok a]); row hex 紺鼠 `#4E5561` added as a quiet slate secondary (the reference has no accent; we need one tone for links/pills on paper bands without introducing saturation).
+Reference colours used as-is ([tok a]); row hex Konnezumi (navy grey) `#4E5561` added as a quiet slate secondary (the reference has no accent; we need one tone for links/pills on paper bands without introducing saturation).
 | Slug | Hex | Share (page) | Use | Source |
 |---|---|---|---|---|
 | base | `#FFFFFF` | ≈60 % | page ground | wb base [tok a] |

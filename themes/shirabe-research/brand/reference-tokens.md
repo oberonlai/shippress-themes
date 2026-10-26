@@ -22,7 +22,7 @@ First-screen saturated share (S>0.5, V>0.25): 0.0%. KVC: light grey #E2E2E2 grou
 | Service title | Noto Sans JP | 32px | 600 | 38.4px | 0.45px | – |
 | Eyebrow label | TASA Explorer | 12px | 500 | 12px | 0.45px | upper, #A09E9F |
 | Nav link | Noto Sans JP | 14px | 700 | 16.8px | 0.45px | – |
-| Numbers figure | TASA Explorer | 150px | 500 | 135px | −3px | – (unit 社 small, label vertical-rl 14px) |
+| Numbers figure | TASA Explorer | 150px | 500 | 135px | −3px | – (small unit suffix, label vertical-rl 14px) |
 KVC: Inter, hero 72px/1.4 weight 500, nav list 24px grey #BBB with active #111.
 
 ## (c) Spacing
