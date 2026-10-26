@@ -16,28 +16,28 @@
 <p class="isso-label">( 07 )</p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2,"className":"isso-h2"} -->
-<h2 class="wp-block-heading isso-h2">Questions</h2>
+<h2 class="wp-block-heading isso-h2"><?php echo wp_kses_post( isso_relocation_t( 'k6ce3bdc3' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:group {"className":"isso-faq","layout":{"type":"default"}} -->
 <div class="wp-block-group isso-faq">
 <!-- wp:details -->
-<details class="wp-block-details"><summary>What if Monday is a holiday?</summary><!-- wp:paragraph -->
-<p>When Monday is a public holiday the move window extends to Tuesday 07:00 at no extra charge, which leaves more time for cleaning and complex layouts.</p>
+<details class="wp-block-details"><summary><?php echo wp_kses_post( isso_relocation_t( 'kf6f12d18' ) ); ?></summary><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( isso_relocation_t( 'k31ba3873' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 <!-- wp:details -->
-<details class="wp-block-details"><summary>Do we pack ourselves?</summary><!-- wp:paragraph -->
-<p>Staff pack their own desk and files into reusable crates delivered 10 working days before the move. The crew handles shared storage, furniture, screens and archives.</p>
+<details class="wp-block-details"><summary><?php echo wp_kses_post( isso_relocation_t( 'k990b85e3' ) ); ?></summary><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( isso_relocation_t( 'ke04a3c53' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 <!-- wp:details -->
-<details class="wp-block-details"><summary>What about IT?</summary><!-- wp:paragraph -->
-<p>Joanna Kowalczyk’s team photographs every desk setup, coils cables into numbered bags, uncouples docking stations and reconnects each monitor and device at the new desk by Sunday noon.</p>
+<details class="wp-block-details"><summary><?php echo wp_kses_post( isso_relocation_t( 'k3f63a421' ) ); ?></summary><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( isso_relocation_t( 'k286ac402' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 <!-- wp:details -->
-<details class="wp-block-details"><summary>Insurance</summary><!-- wp:paragraph -->
-<p>Goods, electronic equipment and the building’s transit areas are covered by our transit and public liability insurance from Friday load-in until Monday sign-off.</p>
+<details class="wp-block-details"><summary><?php echo wp_kses_post( isso_relocation_t( 'keaff1bdf' ) ); ?></summary><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( isso_relocation_t( 'k6844d308' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 </div>

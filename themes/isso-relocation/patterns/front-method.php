@@ -16,18 +16,18 @@
 <p class="isso-label">( 02 )</p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2,"className":"isso-h2"} -->
-<h2 class="wp-block-heading isso-h2">Survey, label, lift</h2>
+<h2 class="wp-block-heading isso-h2"><?php echo wp_kses_post( isso_relocation_t( 'ka03dc037' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:group {"className":"isso-col sp-reveal sp-reveal--mask","layout":{"type":"default"}} -->
 <div class="wp-block-group isso-col sp-reveal sp-reveal--mask">
 <!-- wp:heading {"level":3,"className":"isso-h3"} -->
-<h3 class="wp-block-heading isso-h3">Five phases, so the weekend holds.</h3>
+<h3 class="wp-block-heading isso-h3"><?php echo wp_kses_post( isso_relocation_t( 'kc9f7a646' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph  -->
-<p>A disciplined process built to remove moving delays. Every phase has a name, a time and a person responsible, so nothing about your move is decided on the Friday evening.</p>
+<p><?php echo wp_kses_post( isso_relocation_t( 'k55ee7887' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"isso-link"} -->
-<p class="isso-link"><a href="/method/">See the full method</a></p>
+<p class="isso-link"><a href="/method/"><?php echo wp_kses_post( isso_relocation_t( 'k7888639f' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -36,65 +36,65 @@
 <!-- wp:group {"className":"isso-phase sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group isso-phase sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"wk"} -->
-<p class="wk">Week −6</p>
+<p class="wk"><?php echo wp_kses_post( isso_relocation_t( 'kf653c52d' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Survey</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( isso_relocation_t( 'k9fd9f9cc' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph  -->
-<p>A free walk-through of both floors with Samir Haddad: measurements, doorway widths and photographs of every room.</p>
+<p><?php echo wp_kses_post( isso_relocation_t( 'k3d2f756b' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"isso-phase sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group isso-phase sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"wk"} -->
-<p class="wk">Week −3</p>
+<p class="wk"><?php echo wp_kses_post( isso_relocation_t( 'k004b267e' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Plan &amp; label</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( isso_relocation_t( 'k0e1a277e' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph  -->
-<p>A labelled floor plan gives each team one colour zone and each desk one number. Every crate and cable bag gets its matching destination tag.</p>
+<p><?php echo wp_kses_post( isso_relocation_t( 'ka240315d' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"isso-phase sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group isso-phase sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"wk"} -->
-<p class="wk">10 working days before</p>
+<p class="wk"><?php echo wp_kses_post( isso_relocation_t( 'ke0d85627' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Pack</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( isso_relocation_t( 'k4492081c' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph  -->
-<p>Reusable crates arrive at your office. Staff pack their own desk, about six crates each, with three weeks of rental included.</p>
+<p><?php echo wp_kses_post( isso_relocation_t( 'k7141619c' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"isso-phase sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group isso-phase sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"wk"} -->
-<p class="wk">61 hours</p>
+<p class="wk"><?php echo wp_kses_post( isso_relocation_t( 'k008af587' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">The weekend</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( isso_relocation_t( 'k1336d929' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph  -->
-<p>Friday 18:00 lift and load. Saturday 07:00 the old floor is empty. Desks and IT are back by Sunday 12:00; the keys return on Monday 07:00.</p>
+<p><?php echo wp_kses_post( isso_relocation_t( 'kd41704a4' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"isso-phase sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group isso-phase sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"wk"} -->
-<p class="wk">Monday, 07:00–12:00</p>
+<p class="wk"><?php echo wp_kses_post( isso_relocation_t( 'k173d744b' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Monday</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( isso_relocation_t( 'k6f8522e0' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph  -->
-<p>Two crew members stay on site all morning for small fixes. The crates are collected within three weeks.</p>
+<p><?php echo wp_kses_post( isso_relocation_t( 'kc7010e61' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -113,48 +113,48 @@
 <!-- wp:group {"className":"isso-fig sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group isso-fig sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">The move window</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( isso_relocation_t( 'k7099fdda' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"num sp-reveal sp-count"} -->
-<p class="num sp-reveal sp-count">61 <small>hours</small></p>
+<p class="num sp-reveal sp-count">61 <small><?php echo wp_kses_post( isso_relocation_t( 'k73cdddd7' ) ); ?></small></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"strip"} -->
-<p class="strip">Fri 18:00 → Mon 07:00</p>
+<p class="strip"><?php echo wp_kses_post( isso_relocation_t( 'k5620d41e' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"txt"} -->
-<p class="txt">From the first lift on Friday evening to the keys going back on Monday morning.</p>
+<p class="txt"><?php echo wp_kses_post( isso_relocation_t( 'kf4693ae4' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"isso-fig sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group isso-fig sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Crates arrive</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( isso_relocation_t( 'k0d188da0' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"num sp-reveal sp-count"} -->
-<p class="num sp-reveal sp-count">10 <small>working days</small></p>
+<p class="num sp-reveal sp-count">10 <small><?php echo wp_kses_post( isso_relocation_t( 'k16f653f1' ) ); ?></small></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"strip"} -->
-<p class="strip">Before the move</p>
+<p class="strip"><?php echo wp_kses_post( isso_relocation_t( 'k0118a76c' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"txt"} -->
-<p class="txt">Delivered to your office early, so every desk is packed and labelled before the crew comes.</p>
+<p class="txt"><?php echo wp_kses_post( isso_relocation_t( 'kf39a3860' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"isso-fig sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group isso-fig sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Crate rental</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( isso_relocation_t( 'kc0d24c0b' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"num sp-reveal sp-count"} -->
-<p class="num sp-reveal sp-count">3 <small>weeks</small></p>
+<p class="num sp-reveal sp-count">3 <small><?php echo wp_kses_post( isso_relocation_t( 'kae60f11a' ) ); ?></small></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"strip"} -->
-<p class="strip">Included in every move</p>
+<p class="strip"><?php echo wp_kses_post( isso_relocation_t( 'k92291cca' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"txt"} -->
-<p class="txt">The crates stay with you after the move and are collected within three weeks.</p>
+<p class="txt"><?php echo wp_kses_post( isso_relocation_t( 'ke5f1a4bd' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
