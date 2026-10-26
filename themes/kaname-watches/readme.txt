@@ -49,3 +49,4 @@ Images: AI-generated for this theme with Grok Build image_gen as low-key documen
 - assets/images/p3-vell-field.webp (product Vell Field 36; low-key documentary photograph)
 - assets/images/p4-corvo-dress.webp (product Corvo Dress 34; low-key documentary photograph)
 - assets/images/p5-calendar-35.webp (product Calendar 35, 1968; low-key documentary photograph)
+- assets/images/demo/k2-wrist-on-tray.webp (raster copy of the home window photograph, used as the featured image of the sample story; low-key documentary photograph)
