@@ -44,3 +44,9 @@ Crew terms: 10% off crew orders of 10 garments or more; free crew fitting on sit
 
 ## Pages
 Home, Catalogue, Fabrics & specs, Fit & sizing, Crew orders, Repairs & re-proofing, Crew stories, About, Visit & contact, Journal (see brand/design-spec.md section 4).
+
+## Sample article
+"Re-proofing a Waxed Jacket" (category Workshop notes, tag Care): how to restore the paraffin finish on the 8 oz waxed field jacket at home, or book the workshop re-proofing at EUR 32 in 5 working days. Featured image P01.
+
+## Images
+18 AI-generated documentary photographs (P01–P18), one use per page; see brand/design-spec.md section 8 for placement.
