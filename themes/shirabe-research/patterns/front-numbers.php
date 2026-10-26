@@ -78,7 +78,7 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"sr-strip__track","layout":{"type":"default"}} -->
+<!-- wp:html -->
 <div class="wp-block-group sr-strip__track" aria-hidden="true"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"sr-strip__img"} -->
 <figure class="wp-block-image size-large sr-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
@@ -92,7 +92,7 @@
 <figure class="wp-block-image size-large sr-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 </div>
-<!-- /wp:group --></div>
+<!-- /wp:html --></div>
 <!-- /wp:group -->
 </section>
 <!-- /wp:group -->

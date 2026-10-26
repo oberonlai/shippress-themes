@@ -45,9 +45,9 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:table {"className":"sr-fees is-style-regular","hasFixedLayout":true} -->
+<!-- wp:html -->
 <figure class="wp-block-table sr-fees is-style-regular"><table class="has-fixed-layout"><thead><tr><th>Study</th><th>What you get</th><th>Length</th><th class="sr-price">Price</th></tr></thead><tbody><tr><td>Discovery interviews</td><td>8 one-to-one 60-min interviews, recordings, written report</td><td>4 weeks</td><td class="sr-price">from $9,800</td></tr><tr><td>Concept test</td><td>12 interviews with printed concepts and paper charts, readout</td><td>5 weeks</td><td class="sr-price">from $12,400</td></tr><tr><td>In-context visits</td><td>6 home or workplace visits, photo notes, report</td><td>5 weeks</td><td class="sr-price">from $14,500</td></tr><tr><td>Interviews + follow-up survey</td><td>12 interviews then a 400-person survey to size the findings</td><td>7 weeks</td><td class="sr-price">from $18,900</td></tr><tr><td>Readout workshop</td><td>half-day session with your team on an existing study</td><td>1 day</td><td class="sr-price">$2,400</td></tr></tbody></table></figure>
-<!-- /wp:table -->
+<!-- /wp:html -->
 <!-- wp:paragraph {"className":"sr-note"} -->
 <p class="sr-note">Prices are in US dollars and exclude VAT and participant incentives. Payment is 50/50: half at the start, half on delivery. Cancellation needs 10 working days’ notice.</p>
 <!-- /wp:paragraph --></div>
