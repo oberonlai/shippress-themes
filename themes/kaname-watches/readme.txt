@@ -31,3 +31,21 @@ Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are ShipPress's own
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as low-key documentary photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the shop is fictional). No transparent cut-outs are used.
+- assets/images/k1-square-on-felt.webp (home window, left pane A; low-key documentary photograph)
+- assets/images/k2-wrist-on-tray.webp (home window, right pane A; low-key documentary photograph)
+- assets/images/k3-slate-and-loupe.webp (home window, left pane B; low-key documentary photograph)
+- assets/images/k4-buckle.webp (home window, right pane B; low-key documentary photograph)
+- assets/images/k5-loupe-movement.webp (home tile: how we choose; low-key documentary photograph)
+- assets/images/k6-two-on-felt.webp (home tile: two in full; low-key documentary photograph)
+- assets/images/k7-evening-counter.webp (home tile: visit the counter; low-key documentary photograph)
+- assets/images/k8-twelve-slots.webp (home tile: the short list; low-key documentary photograph)
+- assets/images/k9-three-on-tray.webp (home parallax tray band; low-key documentary photograph)
+- assets/images/k10-square-left-wrist.webp (home chapter I; low-key documentary photograph)
+- assets/images/k11-tide-by-window.webp (home chapter II; low-key documentary photograph)
+- assets/images/k12-bench-hands.webp (home how we choose; low-key documentary photograph)
+- assets/images/k13-the-counter.webp (home visit panel; low-key documentary photograph)
+- assets/images/p1-aldren-square.webp (product Aldren Square 28; low-key documentary photograph)
+- assets/images/p2-nordhaven-tide.webp (product Nordhaven Tide 39; low-key documentary photograph)
+- assets/images/p3-vell-field.webp (product Vell Field 36; low-key documentary photograph)
+- assets/images/p4-corvo-dress.webp (product Corvo Dress 34; low-key documentary photograph)
+- assets/images/p5-calendar-35.webp (product Calendar 35, 1968; low-key documentary photograph)

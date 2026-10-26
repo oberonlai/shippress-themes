@@ -15,9 +15,9 @@
 <figure class="wp-block-image size-full kw-win__a"><img src="<?php echo kaname_watches_img( 'k1-square-on-felt.webp' ); ?>" alt="Square steel mechanical watch with cream dial lying on dark felt inside glass counter."/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-win__b"} -->
-<figure class="wp-block-image size-full kw-win__b"><img src="<?php echo kaname_watches_img( 'k3-slate-and-loupe.webp' ); ?>" alt="Round steel watch with slate dial resting on dark felt beside small brass loupe." loading="lazy"/></figure>
-<!-- /wp:image --></div>
+<!-- wp:html -->
+<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k3-slate-and-loupe.webp' ); ?>" alt="Round steel watch with slate dial resting on dark felt beside small brass loupe." loading="lazy"/></figure>
+<!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-win__pane kw-win__pane--r","layout":{"type":"default"}} -->
@@ -25,9 +25,9 @@
 <figure class="wp-block-image size-full kw-win__a"><img src="<?php echo kaname_watches_img( 'k2-wrist-on-tray.webp' ); ?>" alt="Visitor wrist in oatmeal knit sleeve resting on felt tray while a hand slides a watch toward it."/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-win__b"} -->
-<figure class="wp-block-image size-full kw-win__b"><img src="<?php echo kaname_watches_img( 'k4-buckle.webp' ); ?>" alt="Hand fastening the leather buckle of a round watch on a wrist over the reflective glass counter." loading="lazy"/></figure>
-<!-- /wp:image --></div>
+<!-- wp:html -->
+<figure class="wp-block-image size-full kw-win__b" aria-hidden="true"><img src="<?php echo kaname_watches_img( 'k4-buckle.webp' ); ?>" alt="Hand fastening the leather buckle of a round watch on a wrist over the reflective glass counter." loading="lazy"/></figure>
+<!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-bar-cap kw-win__bar","layout":{"type":"default"}} -->

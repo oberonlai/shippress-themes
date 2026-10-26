@@ -123,16 +123,13 @@ a:focus-visible, .wp-block-button__link:focus-visible { outline: 2px solid var(-
 	.kw-bar-cap--photo .kw-bar-cap__line { font-size: 0.8125rem; }
 }
 @media (prefers-reduced-motion: no-preference) {
-	/* 1000 ms crossfade every 6400 ms (cycle 14.8 s): pair A, double exposure mid-fade, pair B, and back */
-	html.sp-js:not(.sp-no-motion) .kw-win__a { animation: kw-fade-a 14.8s linear infinite; }
-	html.sp-js:not(.sp-no-motion) .kw-win__b { animation: kw-fade-b 14.8s linear infinite; }
+	/* 1000 ms crossfade every 6400 ms (cycle 14.8 s): pair B fades in over pair A (double exposure mid-fade), holds, fades out */
+		html.sp-js:not(.sp-no-motion) .kw-win__b { animation: kw-fade-b 14.8s linear infinite; }
 	html.sp-js:not(.sp-no-motion) .kw-win__bar { animation: kw-rise .4s ease .2s backwards; }
-	@keyframes kw-fade-a { 0%, 43.24% { opacity: 1; } 50%, 93.24% { opacity: 0; } 100% { opacity: 1; } }
 	@keyframes kw-fade-b { 0%, 43.24% { opacity: 0; } 50%, 93.24% { opacity: 1; } 100% { opacity: 0; } }
 	@keyframes kw-rise { from { opacity: 0; transform: translate3d(0, 24px, 0); } to { opacity: 1; transform: none; } }
 }
-html.sp-no-motion .kw-win__a, html.sp-no-motion .kw-win__b, html.sp-no-motion .kw-win__bar, .editor-styles-wrapper .kw-win__a, .editor-styles-wrapper .kw-win__b { animation: none !important; }
-html.sp-no-motion .kw-win__a, .editor-styles-wrapper .kw-win__a { opacity: 1 !important; }
+html.sp-no-motion .kw-win__b, html.sp-no-motion .kw-win__bar, .editor-styles-wrapper .kw-win__b { animation: none !important; }
 html.sp-no-motion .kw-win__b, .editor-styles-wrapper .kw-win__b { opacity: 0 !important; }
 
 /* ---- T3 tiles: four squares, 1 px gaps, label bottom left */
