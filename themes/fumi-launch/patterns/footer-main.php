@@ -38,7 +38,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fl-foot__t"} -->
-<p class="fl-foot__t"><a href="#book">Book</a> · <a href="#excerpt">Excerpt</a> · <a href="#author">Author</a> · <a href="#readings">Readings</a> · <a href="#editions">Editions</a> · <a href="#faq">FAQ</a></p>
+<p class="fl-foot__t"><a href="/the-book/">Book</a> · <a href="/excerpt/">Excerpt</a> · <a href="/author/">Author</a> · <a href="/readings/">Readings</a> · <a href="/editions/">Editions</a> · <a href="/book-clubs/">Book clubs</a> · <a href="/faq/">FAQ</a> · <a href="/press/">Press</a> · <a href="/newsletter/">Newsletter</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:column --></div>
