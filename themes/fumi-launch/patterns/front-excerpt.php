@@ -4,13 +4,13 @@
  * Slug: fumi-launch/front-excerpt
  * Categories: fumi-launch
  * Viewport Width: 1440
- * Description: Ivory paper section with the opening of the first essay.
+ * Description: Green field section with the opening of the first essay.
  */
 ?>
-<!-- wp:group {"className":"fl-sec fl-sec--paper","anchor":"excerpt","align":"full","tagName":"section","layout":{"type":"default"}} -->
-<section id="excerpt" class="wp-block-group alignfull fl-sec fl-sec--paper">
-<!-- wp:group {"className":"fl-frame fl-frame--wide","layout":{"type":"default"}} -->
-<div class="wp-block-group fl-frame fl-frame--wide">
+<!-- wp:group {"className":"fl-sec fl-sec--field","anchor":"excerpt","align":"full","tagName":"section","layout":{"type":"default"}} -->
+<section id="excerpt" class="wp-block-group alignfull fl-sec fl-sec--field">
+<!-- wp:group {"className":"fl-frame fl-frame--narrow","layout":{"type":"default"}} -->
+<div class="wp-block-group fl-frame fl-frame--narrow">
 <!-- wp:columns {"className":"fl-cols fl-cols--ex"} -->
 <div class="wp-block-columns fl-cols fl-cols--ex"><!-- wp:column {"width":"62%"} -->
 <div class="wp-block-column" style="flex-basis:62%">

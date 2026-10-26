@@ -12,8 +12,8 @@
 <!-- wp:group {"className":"fl-frame fl-frame--wide","layout":{"type":"default"}} -->
 <div class="wp-block-group fl-frame fl-frame--wide">
 <!-- wp:columns {"className":"fl-cols fl-cols--read"} -->
-<div class="wp-block-columns fl-cols fl-cols--read"><!-- wp:column {"width":"66%"} -->
-<div class="wp-block-column" style="flex-basis:66%">
+<div class="wp-block-columns fl-cols fl-cols--read"><!-- wp:column {"width":"100%"} -->
+<div class="wp-block-column" style="flex-basis:100%">
 <!-- wp:paragraph {"className":"fl-label"} -->
 <p class="fl-label">Readings</p>
 <!-- /wp:paragraph -->
@@ -121,14 +121,6 @@
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
-</div>
-<!-- /wp:column -->
-
-<!-- wp:column {"width":"34%"} -->
-<div class="wp-block-column" style="flex-basis:34%">
-<!-- wp:image {"aspectRatio":"3/2","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"fl-ph sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full fl-ph sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/reading-room.webp' ) ); ?>" alt="Quiet reading room with rows of wooden folding chairs facing a wooden reading lectern." style="aspect-ratio:3/2;object-fit:cover"/></figure>
-<!-- /wp:image -->
 </div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
