@@ -29,7 +29,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"kt-foot__info"} -->
-<p class="kt-foot__info"><?php echo esc_html( kyugo_training_t( 'foot_addr' ) ); ?><br><?php echo esc_html( kyugo_training_t( 'foot_hours' ) ); ?><br><?php echo esc_html( kyugo_training_t( 'foot_days' ) ); ?><br><?php echo esc_html( kyugo_training_t( 'foot_closed' ) ); ?><br><a href="tel:+31105550142">+31 10 555 0142</a> · <a href="mailto:hello@kyugotraining.example">hello@kyugotraining.example</a></p>
+<p class="kt-foot__info"><?php echo esc_html( kyugo_training_t( 'foot_addr' ) ); ?><br><?php echo esc_html( kyugo_training_t( 'foot_hours' ) ); ?><br><?php echo esc_html( kyugo_training_t( 'foot_days' ) ); ?><br><?php echo esc_html( kyugo_training_t( 'foot_closed' ) ); ?><br><a href="tel:+31305550142">+31 30 555 0142</a> · <a href="mailto:hello@kyugotraining.example">hello@kyugotraining.example</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

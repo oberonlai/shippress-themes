@@ -1,8 +1,8 @@
-# Reference ("成品對應" / our counterpart filled in stage 1 spec; binding detail in `design-spec.md`)
+# Reference (our counterpart filled in stage 1 spec; binding detail in `design-spec.md`)
 - Source: S5-Style entry https://www.s5-style.com/11519/ → https://gakuen.toyota-shokki.co.jp/ (company technical training school; category close to workplace training). Not used by any earlier theme (checked against all themes/*/brand/reference.md).
 - Tokens: `reference-tokens.md`. Screenshots: `ref/ref-first.png`, `ref/ref-full.png`, `ref/scroll-{school,data,about}-{before,after}.png` (the home has no scroll-reveal; before/after only show section positions).
 ## Signature candidates
-| # | Reference technique | Shape / position | Our counterpart (成品對應) |
+| # | Reference technique | Shape / position | Our counterpart (counterpart) |
 |---|---|---|---|
 | A | Two 120px white side rails framing a 1200px photo stage; left rail has vertical-written org name, logo mark, vertical copyright; right rail has hamburger lines, vertical "access", a main-colour tile | full-height strips left/right | **T1** on every page ≥1100px: fixed white 120px rails; left = olive plus mark + vertical "Kyugo Training" + vertical ©; right = "Menu" lines (→ #kt-nav), vertical "Find us" with pin, olive `#5A6148` tile 120×170 "Book a group", `#474D38` "Call us" tile. <1100px: white top bar, no vertical text. |
 | B | Hero 4:3 photo with a corner colour wash (transparent→main) carrying a 3-line huge white tagline lower right | bottom-right 55%×60% | **T2** Home hero: photo 01 (instructor kneeling by a resuscitation mannequin, trainee leaning in), olive wash 150deg, kicker "Before the ambulance arrives" + "Steady / hands, / first." Hanken 5rem white; CSS crossfade 01→02→03 900ms/4s. Every inner page head = same wash + 4.25rem title. |

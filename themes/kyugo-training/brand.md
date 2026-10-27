@@ -1,12 +1,15 @@
 # Kyugo Training — brand
 
-Workplace first-aid training centre, Rotterdam. Fictional; all names, figures and addresses are samples.
+Name: Kyugo Training. Workplace first-aid training centre, based in Utrecht (address below). Fictional; all names, figures and addresses are samples.
 
 ## History
-Founded in **2011** by **Ines Varga** after twelve years as an ambulance paramedic. The centre is a 220 m² ground-floor hall in a former ship-chandler's warehouse at **Werfstraat 41, 3021 Rotterdam, Netherlands**, with a mock warehouse aisle, a mock kitchen and a mock office for scenarios.
+Founded in **2011** by **Ines Varga** after twelve years as an ambulance paramedic. The centre is a 220 m² ground-floor hall in a former ship-chandler's warehouse at **Werfstraat 41, 3511 Utrecht, Netherlands**, with a mock warehouse aisle, a mock kitchen and a mock office for scenarios.
 
 ## Contact
-Phone +31 10 555 0142 · hello@kyugotraining.example. Office hours Mon–Fri 08:00–17:30; training days 08:30–16:30 (lunch 12:30–13:15). Closed weekends and Dutch public holidays.
+Phone +31 30 555 0142 · hello@kyugotraining.example. Office hours Mon–Fri 08:00–17:30; training days 08:30–16:30 (lunch 12:30–13:15). Closed weekends and Dutch public holidays.
+
+## Audience
+Employers, HR and safety managers in logistics, print, hospitality and office firms around Utrecht who need floor staff ready to act before an ambulance arrives; also individuals taking an open course.
 
 ## Voice
 Calm, clear, grounded in practical workplace reality. No hyperbole, no urgency theatre, no guarantees, no accreditation or outcome claims. Fees in EUR per person, excl. 21% VAT.

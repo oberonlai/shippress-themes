@@ -22,6 +22,35 @@ On activation the theme sets itself up as a ready-to-use website (inc/demo-impor
 
 The centre, its people, addresses, telephone number, e-mail and prices are fictional.
 
+== Images ==
+
+All photographs were generated with Grok for this theme and are released under GPL-2.0-or-later / CC0. They show no real people, places or brands.
+
+assets/images/demo/n1.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/n2.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/n3.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/n4.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/n5.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/n6.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p01.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p02.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p03.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p04.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p05.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p06.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p07.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p08.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p09.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p10.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p11.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p12.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p13.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p14.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p15.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p16.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p17.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/p18.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+
 == Copyright ==
 
 Kyugo Training, (C) 2026 ShipPress, GPL-2.0-or-later.

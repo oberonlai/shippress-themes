@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kt-hero","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kt-hero"><!-- wp:group {"className":"kt-hero__stage","layout":{"type":"default"}} -->
 <div class="wp-block-group kt-hero__stage"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-slide kt-slide--1"} -->
-<figure class="wp-block-image size-full kt-slide kt-slide--1"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01.webp' ) ); ?>" alt="<?php echo esc_attr( kyugo_training_t( 'alt_p01' ) ); ?>" loading="eager" fetchpriority="high"/></figure>
+<figure class="wp-block-image size-full kt-slide kt-slide--1"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01.webp' ) ); ?>" alt="<?php echo esc_attr( kyugo_training_t( 'alt_p01' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->

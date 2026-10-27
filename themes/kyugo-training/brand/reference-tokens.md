@@ -12,7 +12,7 @@ Screenshots in `ref/`. Values only; no assets, text or logo copied.
 | Accent | none used on the home (pink/orange variables exist, unused) | | 0 |
 First screen 1440×900 (ref-first.png): saturated pixels (HSV s>0.5) 19.6% (blue wash lower right + right rail tiles), white 15.6% (two 120px rails), dark 12.2% (cap, hair, top fade). Full page saturated 35.4%.
 ## (b) Type
-- Family: Yu Gothic stack (`游ゴシック体, YuGothic, Yu Gothic, sans-serif`) body/headings; Inter 500/600/700 for the English hero line and section English labels.
+- Family: Yu Gothic stack (`YuGothic, Yu Gothic, sans-serif`) body/headings; Inter 500/600/700 for the English hero line and section English labels.
 - Body 16px (1rem) / lh 28.8px (1.8) / 400, ls normal. Nav 16px / 700 / lh 22.4px.
 - H2 section title 24px / lh 33.6px / 700 (News, School, Data). Lead statements 28px / lh 39.2px / 700 (School) and 34px / lh 47.6px / 700 / ls 0.68px (About, white on band). Small labels 16px 700 lh 1.
 - Hero tagline: Inter ~80px / lh ~80px / 700, three lines, white; JP kicker 18px 500 above. Data numerals: ~100px 700 + small unit 24px.

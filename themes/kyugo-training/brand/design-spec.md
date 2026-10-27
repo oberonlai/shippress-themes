@@ -10,8 +10,8 @@ Design-plan row b15-2: `hero`, `first_screen`, `archetype`, `nav` are reference 
 ## 0. Fixed brand facts (identical on every page and in all five languages)
 
 - **Kyugo Training**, workplace first-aid training centre. Founded **2011** by Ines Varga after twelve years as an ambulance paramedic.
-- Centre: **Werfstraat 41, 3021 Rotterdam, Netherlands** (fictional address). Training hall 220 m² on the ground floor of a former ship-chandler's warehouse, with a mock warehouse aisle, a mock kitchen and a mock office for scenarios.
-- Phone **+31 10 555 0142** · email **hello@kyugotraining.example**.
+- Centre: **Werfstraat 41, 3511 Utrecht, Netherlands** (fictional address). Training hall 220 m² on the ground floor of a former ship-chandler's warehouse, with a mock warehouse aisle, a mock kitchen and a mock office for scenarios.
+- Phone **+31 30 555 0142** · email **hello@kyugotraining.example**.
 - Office hours **Mon–Fri 08:00–17:30**. Training days **08:30–16:30** (lunch 12:30–13:15). Closed weekends and Dutch public holidays.
 - Group size **max 12 trainees** per course; scenarios run at **6 trainees per instructor**; a one-day course is **7 hours, 5 of them hands-on**; certificates are **valid 3 years**; we send a reminder **90 days** before expiry.
 - Currency **EUR** in every language, fees **per person, excl. 21% VAT** unless stated. No converted prices.
@@ -70,7 +70,7 @@ Design-plan row b15-2: `hero`, `first_screen`, `archetype`, `nav` are reference 
 - Kyugo, ≥ 1100px (all pages, in `parts/header.html`):
   - `body` gets `padding-inline: 120px`; all sections are confined to the stage (full-bleed = stage width, never under the rails).
   - **Left rail** (`.kt-rail--left`, `position:fixed; inset:0 auto 0 0; width:120px; background:#FFFFFF; z-index:50`): at top 32px a 40×40 mark (olive `#5A6148` square, white plus 18×18 with 4px strokes, square corners), 24px under it the wordmark **"Kyugo Training"** `writing-mode: vertical-rl`, Hanken Grotesk 700 16px, ls .08em, `#000`; at bottom 40px "© Kyugo Training" vertical, 11px 400 `#838383`.
-  - **Right rail** (`.kt-rail--right`, same fixed geometry on the right): top 40px a **Menu** link (two 50×2px olive lines 8px apart, label "Menu" 11px under them, `href="#kt-nav"` — it jumps to the single top nav; this is not a second menu); at 52% height a 1px `#F0F0F0` hairline then a vertical "Find us" label 13px 700 with a 12px olive pin icon above it → `/contact/`; below it the **olive tile** 120×170 `#5A6148`: a 28px white line icon (calendar) + "Book a / group" 14px/1.4 700 white centred → `/book-a-group/`; at the very bottom a tile 120×80 `#474D38` with "Call us" 11px + "+31 10 555 0142" 11px 700 white (tel: link).
+  - **Right rail** (`.kt-rail--right`, same fixed geometry on the right): top 40px a **Menu** link (two 50×2px olive lines 8px apart, label "Menu" 11px under them, `href="#kt-nav"` — it jumps to the single top nav; this is not a second menu); at 52% height a 1px `#F0F0F0` hairline then a vertical "Find us" label 13px 700 with a 12px olive pin icon above it → `/contact/`; below it the **olive tile** 120×170 `#5A6148`: a 28px white line icon (calendar) + "Book a / group" 14px/1.4 700 white centred → `/book-a-group/`; at the very bottom a tile 120×80 `#474D38` with "Call us" 11px + "+31 30 555 0142" 11px 700 white (tel: link).
   - Tile hover: background `#474D38` (bottom tile `#3F4532`), 0.3s `cubic-bezier(.165,.84,.44,1)` (g).
 - 782–1099px and < 782px: rails hidden; a white top bar replaces them (height 72px / 60px): mark + horizontal "Kyugo Training" 16px 700 at left, nav hamburger and a 72×72 (60×60) olive square "Book" tile at right. **No vertical text below 1100px.**
 - It is a frame, not a sidebar: rails never hold content columns, lists or widgets.
@@ -127,7 +127,7 @@ A documentary photograph in a bright training hall: **an instructor kneeling bes
 Crossfade (CSS only, `@keyframes`, no scroll listener; cycle 12s): slide 01 is the static base (always opacity 1); slide 02 `0%,33.33%{opacity:0} 40.83%{opacity:1} 74.17%{opacity:1} 74.18%,100%{opacity:0}`; slide 03 `0%,66.67%{opacity:0} 74.17%{opacity:1} 92.5%{opacity:1} 100%{opacity:0}`; `animation: kt-fade 12s linear infinite`. Under `prefers-reduced-motion: reduce`, `html.sp-no-motion` (`?sp-static`) and in the editor: slides 02–03 `animation:none; opacity:0` (so every screenshot shows 01). Slide 01 `fetchpriority="high"`, no lazy.
 
 ### (3) KV checklist (all six implemented and visible in the 1440×900 first screen; 390px notes in §8)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Photo used |
 |---|---|---|---|---|---|
 | 1 | Two white 120px side rails: vertical school name + mark (left), menu lines + vertical "access" (right) | Same rails: olive plus mark + vertical "Kyugo Training" + vertical © (left); "Menu" lines, vertical "Find us" with pin (right) | full height x 0–120 and 1320–1440, fixed | none (fixed while scrolling) | — |
 | 2 | 4:3 documentary photo of a trainee in a cap, profile, soft cool light, filling the stage | Instructor kneeling by a resuscitation mannequin, trainee in olive work jacket leaning in, bright training hall, soft window light | stage 1200×900 (x 120–1320), object-position 35% 40% | CSS crossfade 01→02→03, 900ms fade / 4000ms hold | **01** (base), **02**, **03** |
@@ -149,14 +149,14 @@ Photo **01** must show all of: kneeling instructor, full-size resuscitation mann
 | Text | `#000000` | text | (a) `--fc-base` exact |
 | Text secondary (dates, captions, ©) | `#838383` | text | (a) exact |
 | Hairline | `#F0F0F0` | — | (d) `--border-clr` exact |
-| **Main** (tiles, circles, labels, bands) | `#5A6148` 柳煤竹 | ~15% / ~1% solid + wash | (a) main `#005EB8` → **swapped** |
+| **Main** (tiles, circles, labels, bands) | `#5A6148` yanagi-susutake olive | ~15% / ~1% solid + wash | (a) main `#005EB8` → **swapped** |
 | Main light (gradient partner) | `#8A9170` | in gradients only | (a) `#4299F0` → swapped, same "lighter same hue" relation |
 | Main mid (gradient stop) | `#6C7357` | in gradients only | derived between main and partner |
 | Main deep (hover, bottom tile, data veil) | `#474D38` / `#3F4532` | ~2% | derived (−20% / −28% lightness) |
 | Footer | `#3E3E3E` | ~5% | (a) footer exact |
 | Accent | none | 0 | (a) none on home |
 
-- **Swap reason:** the design-plan row fixes palette 柳煤竹 (olive `#5A6148`) and the note asks for a quiet palette; the reference's saturated blue would also repeat the most recent blue main (Niuke Scan's spec band) and read as hospital/ambulance livery. Every relationship is kept: one main hue + a lighter partner in diagonal gradients, white rails and ground, black text, `#3E3E3E` footer, no accent.
+- **Swap reason:** the design-plan row fixes palette yanagi-susutake olive (olive `#5A6148`) and the note asks for a quiet palette; the reference's saturated blue would also repeat the most recent blue main (Niuke Scan's spec band) and read as hospital/ambulance livery. Every relationship is kept: one main hue + a lighter partner in diagonal gradients, white rails and ground, black text, `#3E3E3E` footer, no accent.
 - Band gradients: About band `linear-gradient(160deg, #5A6148 0%, #6C7357 55%, #8A9170 100%)` (ref About: deep → light lower right); Instructors band `linear-gradient(180deg, #8A9170 0, #6C7357 240px, #5A6148 640px, #5A6148 100%)` flowing into the Stories band `linear-gradient(180deg, #5A6148 0%, #555B43 100%)` (ref Interview → Talk). Body text (≤ 1rem) only where the ground is `#6C7357` or darker (white on `#6C7357` ≈ 4.9:1, on `#5A6148` ≈ 6.4:1); white on `#8A9170` (3.3:1) only for text ≥ 1.5rem bold.
 - **First-screen saturated share ≤ 15%** (`scripts/check-first-screen.py`, HSV s > 0.5); the row cap is 30%, reference 19.6%. Olive has s ≈ 0.26, so the expected value is ≈ 1–3%. Photos keep wardrobe in olive/grey/navy; no red, orange or high-vis yellow larger than a vest stripe (02 may show a muted high-vis vest; keep it desaturated in the grade).
 - No beige/cream grounds anywhere.
@@ -165,7 +165,7 @@ Photo **01** must show all of: kneeling instructor, full-size resuscitation mann
 
 ## 4. Type (font_direction **sans**)
 
-- Latin headings / display / statement / numerals: **Hanken Grotesk** (OFL) 500, 600, 700. Latin body and UI (nav, buttons, tables): **Schibsted Grotesk** (OFL) 400, 500, 700. CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja) 400 / 700 — 黑體 only, no Noto Serif anywhere.
+- Latin headings / display / statement / numerals: **Hanken Grotesk** (OFL) 500, 600, 700. Latin body and UI (nav, buttons, tables): **Schibsted Grotesk** (OFL) 400, 500, 700. CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja) 400 / 700 — sans-serif (gothic) only, no Noto Serif anywhere.
 - Stacks (theme.json `settings.typography.fontFamilies` with `fontFace` woff2 in `assets/fonts/`, so the editor iframe and the front end load the same files; zh-TW / ja subset files made the Hokuto / Hada way, since the subset script is broken):
   - `heading`: `"Hanken Grotesk", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
   - `body`: `"Schibsted Grotesk", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
