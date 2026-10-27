@@ -1,6 +1,6 @@
 # Komugi School: design spec (stage 1, binding for implementation)
 
-Slug `komugi-school`, professional bakery school (education-classes, type **business**; WooCommerce compatible but not required). Design-plan row b14-2: archetype editorial-magazine, hero full-bleed-photo, nav centred, first screen `full-bleed-photo-info-bar`, page structure `day-schedule`, palette 媚茶 `#716454`, fonts Fraunces / Outfit, font_direction **serif**.
+Slug `komugi-school`, professional bakery school (education-classes, type **business**; WooCommerce compatible but not required). Design-plan row b14-2: archetype editorial-magazine, hero full-bleed-photo, nav centred, first screen `full-bleed-photo-info-bar`, page structure `day-schedule`, palette mock tea `#716454`, fonts Fraunces / Outfit, font_direction **serif**.
 
 Main reference (only one): **Japan Typography Association, https://typography.or.jp/** (S5-Style). Measurements: `reference-tokens.md`; screens `ref/jta-first.png`, `ref/jta-full.png`, `ref/scroll-jta-*.png`. Borrow structure, techniques, colour relationships, motion and the **key visual concept**. Never copy their photographs, copy, logo/leaf mark shape, or whole page layout.
 
@@ -15,13 +15,13 @@ Fixed brand facts (every page, all five languages): **Komugi School**, founded *
 - **Komugi**: home `front-bench` (first screen). Same geometry at 1440: rail 82px, chip bar at y≈228 (after the header), photo **P01** from y=265, x=82 to the right viewport edge, `aspect-ratio:16/9`, radius 0, no overlay, no text on the photo except the HTML card described in KV #2. Rail: rotated `© Komugi School — professional bakery school, Rotterdam` (Outfit 11px, ls .06em, `writing-mode: vertical-rl; transform: rotate(180deg)`), Instagram / YouTube / mail icons 18px stacked at the bottom of the rail.
 - **Do not dilute**: the photo must bleed off the right edge (no right margin, no rounded corners, no shadow); the chip bar must sit directly above the photo with ≤ 20px gap; the rail must stay empty white except the rotated credit and icons.
 
-### T2. Hairline list rows with chips + 4:3 thumbnails (reference "お知らせ" news list) → our **day-schedule**
-- **Reference**: full-width rows separated by 1px #DADADA hairlines, 204px pitch; each row = title 20px/28px, a line of chips (outline + filled) and a date; on the "会員ニュース" grid the thumbnails are 289×217 (4:3), radius 0. [T-c][T-e]
-- **Komugi**: home `front-week` = "How a training week is built". Five rows Mon–Fri, each row a 12-col grid: col 1–2 day chip (filled 媚茶 `#716454`, white Outfit 11px uppercase, 95×19px) + time `06:00–14:00` Outfit 13px; col 3–8 title (Fraunces 1.375rem/1.4, weight 400) + 30–40 word paragraph (Fraunces 1.0625rem/1.75) + outline chips (1px ink) naming the skills; col 9–12 a 4:3 photo 289×217 (`P02`–`P06`), radius 0, flush right. Row pitch 204px desktop, hairline 1px `#DADADA` top and bottom. Horizontal rows only (this is a list, **not** a vertical timeline: no connecting line, no dots).
+### T2. Hairline list rows with chips + 4:3 thumbnails (reference "news" news list) → our **day-schedule**
+- **Reference**: full-width rows separated by 1px #DADADA hairlines, 204px pitch; each row = title 20px/28px, a line of chips (outline + filled) and a date; on the "member news" grid the thumbnails are 289×217 (4:3), radius 0. [T-c][T-e]
+- **Komugi**: home `front-week` = "How a training week is built". Five rows Mon–Fri, each row a 12-col grid: col 1–2 day chip (filled mock tea `#716454`, white Outfit 11px uppercase, 95×19px) + time `06:00–14:00` Outfit 13px; col 3–8 title (Fraunces 1.375rem/1.4, weight 400) + 30–40 word paragraph (Fraunces 1.0625rem/1.75) + outline chips (1px ink) naming the skills; col 9–12 a 4:3 photo 289×217 (`P02`–`P06`), radius 0, flush right. Row pitch 204px desktop, hairline 1px `#DADADA` top and bottom. Horizontal rows only (this is a list, **not** a vertical timeline: no connecting line, no dots).
 - **Do not dilute**: keep the hairlines (not cards, no background panels), keep 4:3 radius-0 thumbnails, keep both chip styles (filled + outline) visible in every row.
 
-### T3. Two opposite-direction name tickers (reference "会員" member ticker)
-- **Reference**: names at 22px set in two rows that scroll continuously in opposite directions, small round avatar before some names, a pill "会員一覧" button (radius 9999px, 1px black, 14px) centred under it. [T-f][T-g][T-d]
+### T3. Two opposite-direction name tickers (reference "members" member ticker)
+- **Reference**: names at 22px set in two rows that scroll continuously in opposite directions, small round avatar before some names, a pill "member list" button (radius 9999px, 1px black, 14px) centred under it. [T-f][T-g][T-d]
 - **Komugi**: home `front-people` = "Who is on the bench". Row 1 (moves left): the 7 instructors with their bench (e.g. `Elise Vandamme · Bread`), Fraunces 1.75rem (28px, scaled up from 22px so the row reads as a headline band). Row 2 (moves right): the 8 partner kitchens where students do their placement, Fraunces 1.75rem italic. Between names a 6px `#716454` dot. No avatars (avoid a people grid; portraits live on the Instructors page). Pill button "Meet the instructors" centred below, radius 9999px, 1px ink, Outfit 14px, padding 5px 22px.
 - **Do not dilute**: two rows, opposite directions, continuous linear motion, names large; not a static logo strip.
 
@@ -52,7 +52,7 @@ typography.or.jp opens on **one top-down greyscale photograph of a wooden table 
 A **top-down, film-grain, near-monochrome photograph of a floured wooden bench where one training week is laid out**: in the centre an instructor's hands and two students' hands shaping a batch of dough; around them, at slight angles, blank paper schedule slips and recipe cards (no readable text), a digital scale, a steel bench scraper, a round proofing basket, a pencil, a lame, a tray with three finished loaves. Story: *"one training week, laid out on one bench"* — the same "everything on the table" idea, translated from a call-for-entries to a course week. The chip bar is our info bar (next cohort, seats, hours). Motion: the photo moves in slow parallax, the HTML schedule card rises 30px over the photo's lower-left corner, the chip bar clip-reveals from left (allowed: these are first-screen micro-motions on the info bar/card, **not** reveal on the hero photo itself — see §9), tickers further down move in opposite directions.
 
 ### (3) KV checklist (all must be implemented and visible in the first screen at 1440×900, except #6 which is the first section below)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Image |
 |---|---|---|---|---|---|
 | 1 | Full-bleed greyscale top-down table photo 1358×763, radius 0, bleeds right/bottom | Film-grain top-down floured bench: instructor + two students' hands shaping dough, tools around | x=82→right edge, from y=265, bleeds below fold | `sp-parallax`, `--sp-par: 8%` (mobile 5%) | **P01** |
 | 2 | Paper cards scattered at slight angles carrying the information | (a) blank schedule/recipe slips in the photo; (b) one real HTML card overlapping the photo lower-left: "Next cohort · 12 January 2027 / Professional Bread & Pastry · 6 weeks / Mon–Fri 06:00–14:00 · 12 seats" + link "See a training week →"; white `#FFFFFF`, 1px `#DADADA`, padding 22px 26px, width 340px, rotated −2deg, Fraunces 1.125rem | card left edge x=82+48, bottom at 900−56 (inside first screen) | `sp-reveal sp-reveal--up` on the card wrapper (card sits in the hero group but is a separate info element; distance 24px) | P01 (photo) |
@@ -65,26 +65,26 @@ Images for the KV are in the photo list (§7): P01.
 
 ---
 
-## 2. Colour (from reference-tokens [T-a]; 媚茶 replaces the grey chip)
+## 2. Colour (from reference-tokens [T-a]; mock tea replaces the grey chip)
 
 | Role | Reference | Komugi | Change | Use | Share (page / first screen) |
 |---|---|---|---|---|---|
 | Ground | `#FAFAFA` | `#FAFAFA` | none | page ground, rail, header | ~80% / ~40% (photo takes most of the fold) |
-| Ink | `#000000` | `#14110E` | +~7% L, warmed toward 媚茶 so black type sits with brown chips; reason: brown family required by the row | headings, body, outline chips, mark, pill borders | ~10% / ~3% |
-| Chip / main | `#5A5A5A` | `#716454` (媚茶) | hue swap at near-equal luminance (L 35%→39%), reason: row palette 媚茶 | filled chips, ticker dots, link hover, footer ground strip | ≤ 5% / ≤ 1% |
+| Ink | `#000000` | `#14110E` | +~7% L, warmed toward mock tea so black type sits with brown chips; reason: brown family required by the row | headings, body, outline chips, mark, pill borders | ~10% / ~3% |
+| Chip / main | `#5A5A5A` | `#716454` (mock tea) | hue swap at near-equal luminance (L 35%→39%), reason: row palette mock tea | filled chips, ticker dots, link hover, footer ground strip | ≤ 5% / ≤ 1% |
 | Hairline | `#DADADA` | `#DADADA` | none | row separators, card border | lines only |
 | Muted text | (none, #000 used) | `#5C554D` | derived | dates, captions, meta | — |
 | Accent | none | `#A8845A` wheat | added, ≤ 0.5%; small only | the 6px "seats left" dot in the info bar and active nav underline 2px | < 1% |
 | Footer | `#FAFAFA` | `#F1EFEC` | −3% L | footer band only | — |
 
 - Photo grade: warm monochrome (saturation ≤ 12%), so the first-screen saturated share stays ≈ 0–3%. **Gate for `check-first-screen.py`: 10%; target ≤ 5%** (row cap 30%, common cap 15%).
-- No beige/cream ground; no section filled in 媚茶; white HTML card is the only lighter surface.
+- No beige/cream ground; no section filled in mock tea; white HTML card is the only lighter surface.
 - Contrast: white on `#716454` = 5.6:1 (chips OK at 11px uppercase, weight 500); `#14110E` on `#FAFAFA` ≈ 18:1.
 
 ## 3. Type (serif direction)
 
 - Latin display and body: **Fraunces** (variable, opsz 9–144; weights 400 and 500, italic 400). UI (nav, chips, labels, buttons, rail): **Outfit** 400/500 — the reference's sans label voice [T-b].
-- zh-TW: `"Fraunces", "Noto Serif TC", serif` for headings and body; ja: `"Fraunces", "Noto Serif JP", serif`. UI in CJK: `"Outfit", "Noto Serif TC"/"Noto Serif JP", serif` (明體 only, no 黑體). Size ≈ 0.75× English for headings, body line-height 1.85. fr/de `hyphens:auto`.
+- zh-TW: `"Fraunces", "Noto Serif TC", serif` for headings and body; ja: `"Fraunces", "Noto Serif JP", serif`. UI in CJK: `"Outfit", "Noto Serif TC"/"Noto Serif JP", serif` (Ming typeface only, no Gothic typeface). Size ≈ 0.75× English for headings, body line-height 1.85. fr/de `hyphens:auto`.
 - Load **all** via `theme.json` `fontFamilies` + `fontFace` (woff2 in `assets/fonts/`, including the zh-TW and ja subset files, made with the Hokuto/Hada workaround). Editor and front end identical; `style.css` uses `:lang(` → copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and `require_once` it.
 - Weights: reference uses 400 everywhere [T-b] → Komugi 400 for all headings and body; 500 only for chips and buttons.
 - Scale (theme.json presets): `x-small` 0.6875rem (11px chips/rail, ls .06em [T-b] .66px) · `small` 0.875rem (nav 14–16px ls .03em [T-b]) · `medium` 1.25rem (body lead; reference body 20px [T-b]) · body 1.0625rem lh 1.75 · `large` 1.375rem (row titles; ref H2 22px [T-b]) · `x-large` 2.25rem (section headings) · `xx-large` **4.5rem** (statement headline and inner-page H1 max; ≥ 4.25rem rule). Section headings lh 1.15, ls −0.01em. No uppercase except chip labels.
@@ -221,9 +221,9 @@ Hero photo: no reveal (only parallax). No reveal on fee list, FAQ, forms, legal 
 - Thumbnail rows: ≥ 960px 12-col as specified; 600–959px thumb drops under the text at 100% width 4:3; < 600px same, chips wrap.
 - No horizontal scroll at 390 and 1280 (tickers use overflow clip).
 
-## 11. Similarity targets (≈ 80%) — 相似度對照表
+## 11. Similarity targets (≈ 80%) — similarity table
 
-| 維度 | 參考站數值 | 本主題數值 | Token |
+| Dimension | Reference value | This theme | Token |
 |---|---|---|---|
 | Ground | #FAFAFA ~85% | #FAFAFA ~80% | T-a |
 | Ink | #000 | #14110E (+7% L, warm) | T-a |
@@ -241,7 +241,7 @@ Hero photo: no reveal (only parallax). No reveal on fee list, FAQ, forms, legal 
 | List row pitch | 204px, 1px hairline | 204px, 1px hairline | T-c |
 | Radius | 0 images/chips; pill 9999px | 0 images/chips/card; pill 9999px | T-d |
 | Shadows | none | none | T-d |
-| Chips | 95×19px outline 1px / filled grey | 95×19 min, outline 1px ink / filled 媚茶 | T-f |
+| Chips | 95×19px outline 1px / filled grey | 95×19 min, outline 1px ink / filled mock tea | T-f |
 | Thumbs | 289×217 4:3 radius 0 | 289×217 4:3 radius 0 | T-e |
 | Photo type | greyscale top-down documentary | warm near-monochrome film-grain top-down documentary | T-e |
 | Mark | 54px solid black top-right | 54px solid ink wheat grain top-right | T-f |

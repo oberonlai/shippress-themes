@@ -26,7 +26,7 @@ Today Komugi School stays deliberately small: five twelve-student cohorts a year
 
 ## Visual identity
 - Reference: Japan Typography Association (typography.or.jp). Chip bar above one huge top-down photograph that bleeds off the right edge, an 82px left rail with a rotated credit, hairline list rows with 4:3 thumbnails, two opposite-direction name tickers, a solid 54px mark top-right.
-- Colour: ground #FAFAFA, ink #14110E, chip / main 媚茶 #716454, hairline #DADADA, muted text #5C554D, wheat accent #A8845A (small marks only), footer #F1EFEC. No cream ground, no section filled in brown.
+- Colour: ground #FAFAFA, ink #14110E, chip / main mock tea #716454, hairline #DADADA, muted text #5C554D, wheat accent #A8845A (small marks only), footer #F1EFEC. No cream ground, no section filled in brown.
 - Type: Fraunces (headings and body), Outfit (chips, nav, labels). Traditional Chinese and Japanese in Noto Serif TC / JP. Weight 400 throughout; 500 only for chips and buttons.
 - Radius 0 on images, chips, cards; pill buttons 9999px. No shadows.
 - Photography: documentary 35mm film, visible grain, warm near-monochrome, high-key window daylight, top-down on the bench. No text, no logos.
