@@ -11,15 +11,15 @@
 <!-- wp:group {"className":"ks-journal ks-sec","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-journal ks-sec"><!-- wp:group {"className":"ks-sechead","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sechead"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label">Journal</p>
+<p class="ks-label"><?php echo wp_kses_post( komugi_school_t( 'k6b2b5614' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Notes from the bench</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( komugi_school_t( 'kedc958f2' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Observations on sourdough hydration, lamination temperatures, and commercial bakery operations written directly by Komugi School instructors and visiting bakers from our partner network.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k19730e46' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -45,7 +45,7 @@
 
 <!-- wp:buttons {"className":"ks-btns"} -->
 <div class="wp-block-buttons ks-btns"><!-- wp:button {"className":"is-style-pill"} -->
-<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/journal/' ) ); ?>">Read the journal</a></div>
+<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/journal/' ) ); ?>"><?php echo wp_kses_post( komugi_school_t( 'kdb9c7592' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group -->

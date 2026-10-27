@@ -12,36 +12,36 @@
 <section class="wp-block-group ks-phead"><!-- wp:group {"className":"ks-bar sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-bar sp-reveal sp-reveal--wipe"><!-- wp:group {"className":"ks-bar__in","layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"center"}} -->
 <div class="wp-block-group ks-bar__in"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Next cohort</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k72785c87' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">12 January 2027</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k577a9b99' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">12 seats</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k3310a56c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Euro, incl. VAT</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k1406f41b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-pt sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-pt sp-reveal sp-reveal--wipe"><!-- wp:heading {"level":1,"className":"ks-pagehead__title"} -->
-<h1 class="wp-block-heading ks-pagehead__title">Admissions &amp; Fees</h1>
+<h1 class="wp-block-heading ks-pagehead__title"><?php echo wp_kses_post( komugi_school_t( 'k4e582d0f' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ks-lede"} -->
-<p class="ks-lede">We admit twelve students per cohort across five annual terms to preserve dedicated bench space and personal instructor guidance. All tuition fees are fixed in euros, include value added tax, and cover all course materials.</p>
+<p class="ks-lede"><?php echo wp_kses_post( komugi_school_t( 'kdd9b0865' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-pphoto sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-pphoto sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-pphoto__img"} -->
-<figure class="wp-block-image size-full ks-pphoto__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p15-notes.webp' ) ); ?>" alt="Student writing in a blank bench book beside a tub of dough."/></figure>
+<figure class="wp-block-image size-full ks-pphoto__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p15-notes.webp' ) ); ?>" alt="<?php echo esc_attr( komugi_school_t( 'a3c978d5e' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -49,15 +49,15 @@
 <!-- wp:group {"className":"ks-sec","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-sec"><!-- wp:group {"className":"ks-sechead","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sechead"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label">Fees</p>
+<p class="ks-label"><?php echo wp_kses_post( komugi_school_t( 'k006300ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Courses and fees</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( komugi_school_t( 'kc97ab789' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Five six-week cohorts run in 2027, starting 12 January, 9 March, 4 May, 7 September and 2 November. A 50% deposit confirms a place; two part-fee bursary places are held in each cohort.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k6f4d0a54' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -65,16 +65,16 @@
 <div class="wp-block-group ks-fee-list"><!-- wp:group {"className":"ks-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee"><!-- wp:group {"className":"ks-fee__name","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee__name"><!-- wp:heading {"level":3,"className":"ks-fee__title"} -->
-<h3 class="wp-block-heading ks-fee__title">Professional Bread &amp; Pastry</h3>
+<h3 class="wp-block-heading ks-fee__title"><?php echo wp_kses_post( komugi_school_t( 'k501b0603' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-fee__note"} -->
-<p class="ks-fee__note">Includes VAT, apron, knife roll, bench book and a placement in a partner kitchen. 12 seats.</p>
+<p class="ks-fee__note"><?php echo wp_kses_post( komugi_school_t( 'kd374fc95' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">6 weeks + 2-week placement</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k2aba75dc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-fee__price"} -->
@@ -85,16 +85,16 @@
 <!-- wp:group {"className":"ks-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee"><!-- wp:group {"className":"ks-fee__name","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee__name"><!-- wp:heading {"level":3,"className":"ks-fee__title"} -->
-<h3 class="wp-block-heading ks-fee__title">Bread Foundations</h3>
+<h3 class="wp-block-heading ks-fee__title"><?php echo wp_kses_post( komugi_school_t( 'k8c6f92f3' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-fee__note"} -->
-<p class="ks-fee__note">Direct doughs, preferments, hydration and deck oven baking.</p>
+<p class="ks-fee__note"><?php echo wp_kses_post( komugi_school_t( 'keb236dac' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">2 weeks</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'ka9adf02f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-fee__price"} -->
@@ -105,16 +105,16 @@
 <!-- wp:group {"className":"ks-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee"><!-- wp:group {"className":"ks-fee__name","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee__name"><!-- wp:heading {"level":3,"className":"ks-fee__title"} -->
-<h3 class="wp-block-heading ks-fee__title">Viennoiserie Week</h3>
+<h3 class="wp-block-heading ks-fee__title"><?php echo wp_kses_post( komugi_school_t( 'k8f1becd5' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-fee__note"} -->
-<p class="ks-fee__note">Laminated doughs, croissants, pain au chocolat and brioche.</p>
+<p class="ks-fee__note"><?php echo wp_kses_post( komugi_school_t( 'k52577961' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">5 days</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k3c4e5c55' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-fee__price"} -->
@@ -125,16 +125,16 @@
 <!-- wp:group {"className":"ks-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee"><!-- wp:group {"className":"ks-fee__name","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee__name"><!-- wp:heading {"level":3,"className":"ks-fee__title"} -->
-<h3 class="wp-block-heading ks-fee__title">Sourdough Week</h3>
+<h3 class="wp-block-heading ks-fee__title"><?php echo wp_kses_post( komugi_school_t( 'k9f1fa282' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-fee__note"} -->
-<p class="ks-fee__note">Natural levain systems and stone-ground flours.</p>
+<p class="ks-fee__note"><?php echo wp_kses_post( komugi_school_t( 'k8af4b555' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">5 days</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k3c4e5c55' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-fee__price"} -->
@@ -145,16 +145,16 @@
 <!-- wp:group {"className":"ks-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee"><!-- wp:group {"className":"ks-fee__name","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee__name"><!-- wp:heading {"level":3,"className":"ks-fee__title"} -->
-<h3 class="wp-block-heading ks-fee__title">Weekend Bench</h3>
+<h3 class="wp-block-heading ks-fee__title"><?php echo wp_kses_post( komugi_school_t( 'k6afeb6e5' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-fee__note"} -->
-<p class="ks-fee__note">Long-fermentation hearth bread in a professional bakery.</p>
+<p class="ks-fee__note"><?php echo wp_kses_post( komugi_school_t( 'k5796eca8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">2 days (Sat–Sun)</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k5c071d52' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-fee__price"} -->
@@ -165,16 +165,16 @@
 <!-- wp:group {"className":"ks-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee"><!-- wp:group {"className":"ks-fee__name","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-fee__name"><!-- wp:heading {"level":3,"className":"ks-fee__title"} -->
-<h3 class="wp-block-heading ks-fee__title">Open Bench Morning</h3>
+<h3 class="wp-block-heading ks-fee__title"><?php echo wp_kses_post( komugi_school_t( 'k379dc0a6' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-fee__note"} -->
-<p class="ks-fee__note">Saturday 09:00–12:00, 8 places. Counts as stage two of admissions.</p>
+<p class="ks-fee__note"><?php echo wp_kses_post( komugi_school_t( 'kba02c741' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">3 hours</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k6e9461ab' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-fee__price"} -->
@@ -187,11 +187,11 @@
 <!-- wp:group {"className":"ks-sec","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-sec"><!-- wp:group {"className":"ks-sechead","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sechead"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label">How to apply</p>
+<p class="ks-label"><?php echo wp_kses_post( komugi_school_t( 'kd1a9a1e1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Four stages from application to first morning</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( komugi_school_t( 'k8b770805' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -199,26 +199,26 @@
 <div class="wp-block-group ks-rows sp-stagger"><!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up ks-row--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up ks-row--plain"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Step 1</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k6f4a225b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Online</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k54f664c7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Apply online</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k639d651a' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Tell us about your cooking or baking background and what you want from the course. No professional bakery work is required.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k4aafacb2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Application</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'ke498749f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -227,26 +227,26 @@
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up ks-row--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up ks-row--plain"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Step 2</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'ke31ad128' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Saturday</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k8b705118' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Come to an open bench morning</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k8bc2fbad' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Watch a teaching morning, handle grain samples and talk to the instructors. €45, eight places.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'keabd601c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Open bench</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kcd43c646' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -255,26 +255,26 @@
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up ks-row--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up ks-row--plain"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Step 3</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k2d5ce426' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">10 days</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k2d836c59' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Written offer within 10 days</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'ka958ca69' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Successful candidates receive a formal written offer within ten days of their visit.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'kf7f0ea8b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Offer</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k6bb24468' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -283,26 +283,26 @@
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up ks-row--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up ks-row--plain"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Step 4</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k7882a4b5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Deposit</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k92f80bd5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">50% deposit and start</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k4dc16d62' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Pay half to secure the seat; the balance is due before the first morning of class.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'kb3c8f8db' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Deposit</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k92f80bd5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -313,12 +313,12 @@
 <!-- wp:group {"className":"ks-subs ks-sec","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-subs ks-sec"><!-- wp:group {"className":"ks-sub","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub"><!-- wp:heading {"className":"ks-sub__h"} -->
-<h2 class="wp-block-heading ks-sub__h">Deposits, Inclusions, and Bursary Places</h2>
+<h2 class="wp-block-heading ks-sub__h"><?php echo wp_kses_post( komugi_school_t( 'kad6fa597' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ks-sub__b","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub__b"><!-- wp:paragraph -->
-<p>A fifty percent deposit is required upon formal acceptance to confirm your seat in your chosen cohort. Course fees include value added tax, all organic grains and dairy, the Komugi linen apron, a professional knife roll with essential hand tools, and the bound bench book. To support dedicated bakers with financial constraints, we provide two part-fee bursary places per cohort. Applicants interested in bursary consideration should indicate their interest during the initial online application. We do not make job placement promises or issue formal government credentials.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k4313cb02' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -327,15 +327,15 @@
 <!-- wp:group {"className":"ks-close","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-close"><!-- wp:group {"className":"ks-close__in","layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"center"}} -->
 <div class="wp-block-group ks-close__in"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Next cohort</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k72785c87' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-close__text"} -->
-<p class="ks-close__text">12 January 2027 · 12 seats</p>
+<p class="ks-close__text"><?php echo wp_kses_post( komugi_school_t( 'kd7ab9ddd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-close__link"} -->
-<p class="ks-close__link"><a href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>">Admissions &amp; Fees →</a></p>
+<p class="ks-close__link"><a href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>"><?php echo wp_kses_post( komugi_school_t( 'k5e348eee' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

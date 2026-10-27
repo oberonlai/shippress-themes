@@ -11,67 +11,67 @@
 <!-- wp:group {"className":"ks-visit ks-sec","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-visit ks-sec"><!-- wp:group {"className":"ks-visit__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-visit__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-visit__img","aspectRatio":"3/2","scale":"cover"} -->
-<figure class="wp-block-image size-full ks-visit__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p16-entrance.webp' ) ); ?>" alt="Bakery school storefront window at morning with interior workbenches and a parked bicycle." style="aspect-ratio:3/2;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full ks-visit__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p16-entrance.webp' ) ); ?>" alt="<?php echo esc_attr( komugi_school_t( 'a11c70f57' ) ); ?>" style="aspect-ratio:3/2;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ks-visit__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-visit__text"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label">Visit</p>
+<p class="ks-label"><?php echo wp_kses_post( komugi_school_t( 'k5e706a9b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Visit the bakery</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( komugi_school_t( 'k0753d2fa' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We welcome prospective applicants to Hallstraat 14 in Rotterdam every Saturday morning between 09:00 and 12:00. Open bench mornings cost €45, are limited to 8 places, and offer practical bench experience with our instructors and equipment before formal application.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k326baf46' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-hours","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-hours"><!-- wp:group {"className":"ks-hours__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-hours__row"><!-- wp:paragraph {"className":"ks-hours__k"} -->
-<p class="ks-hours__k">Teaching</p>
+<p class="ks-hours__k"><?php echo wp_kses_post( komugi_school_t( 'k386533b1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Mon–Fri 06:00–14:00</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k32ed4a43' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-hours__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-hours__row"><!-- wp:paragraph {"className":"ks-hours__k"} -->
-<p class="ks-hours__k">Office</p>
+<p class="ks-hours__k"><?php echo wp_kses_post( komugi_school_t( 'kdf814135' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Mon–Fri 09:00–17:00</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k43593b05' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-hours__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-hours__row"><!-- wp:paragraph {"className":"ks-hours__k"} -->
-<p class="ks-hours__k">Open bench mornings</p>
+<p class="ks-hours__k"><?php echo wp_kses_post( komugi_school_t( 'k53accb71' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Sat 09:00–12:00 · €45 · 8 places</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k75b64f03' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-hours__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-hours__row"><!-- wp:paragraph {"className":"ks-hours__k"} -->
-<p class="ks-hours__k">Address</p>
+<p class="ks-hours__k"><?php echo wp_kses_post( komugi_school_t( 'kdd7bf230' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Hallstraat 14, 3011 KD Rotterdam, Netherlands</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k8f3ebe6f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"className":"ks-btns"} -->
 <div class="wp-block-buttons ks-btns"><!-- wp:button {"className":"is-style-pill"} -->
-<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Book an open bench morning</a></div>
+<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo wp_kses_post( komugi_school_t( 'k8745cca3' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

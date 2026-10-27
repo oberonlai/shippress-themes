@@ -12,32 +12,32 @@
 <section class="wp-block-group ks-phead"><!-- wp:group {"className":"ks-bar sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-bar sp-reveal sp-reveal--wipe"><!-- wp:group {"className":"ks-bar__in","layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"center"}} -->
 <div class="wp-block-group ks-bar__in"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Visit</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k5e706a9b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Hallstraat 14</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'ke4687bff' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Rotterdam</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k8f49c208' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-pt sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-pt sp-reveal sp-reveal--wipe"><!-- wp:heading {"level":1,"className":"ks-pagehead__title"} -->
-<h1 class="wp-block-heading ks-pagehead__title">Visit &amp; Contact</h1>
+<h1 class="wp-block-heading ks-pagehead__title"><?php echo wp_kses_post( komugi_school_t( 'k97a422bb' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ks-lede"} -->
-<p class="ks-lede">Komugi School welcomes prospective students, visiting bakers, and industry peers to our teaching bakery in central Rotterdam. We encourage candidates to visit during a Saturday session before submitting a formal application.</p>
+<p class="ks-lede"><?php echo wp_kses_post( komugi_school_t( 'k2664d2fe' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-pphoto sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-pphoto sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-pphoto__img"} -->
-<figure class="wp-block-image size-full ks-pphoto__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p16-entrance.webp' ) ); ?>" alt="Bakery school storefront window at morning with interior workbenches and a parked bicycle."/></figure>
+<figure class="wp-block-image size-full ks-pphoto__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p16-entrance.webp' ) ); ?>" alt="<?php echo esc_attr( komugi_school_t( 'a11c70f57' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -45,11 +45,11 @@
 <!-- wp:group {"className":"ks-sec","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-sec"><!-- wp:group {"className":"ks-sechead","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sechead"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label">Find us</p>
+<p class="ks-label"><?php echo wp_kses_post( komugi_school_t( 'kedf7553d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Address, hours and how to reach us</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( komugi_school_t( 'k8ba62233' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -57,22 +57,22 @@
 <div class="wp-block-group ks-rows sp-stagger ks-rows--tight"><!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up ks-row--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up ks-row--plain"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Address</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kdd7bf230' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Hallstraat 14, 3011 KD Rotterdam</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k034f8148' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Netherlands. A teaching bakery with a large street window; ring at the door on training mornings.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k06389852' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Rotterdam</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k8f49c208' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -81,30 +81,30 @@
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up ks-row--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up ks-row--plain"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Hours</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k6a7e7316' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Mon–Fri</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k5f25a222' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Teaching 06:00–14:00, office 09:00–17:00</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k38e2e470' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Please book a visit in advance so we do not interrupt oven loading and dough division.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k07ff19eb' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Teaching</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k386533b1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Office</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kdf814135' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -113,7 +113,7 @@
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up ks-row--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up ks-row--plain"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Saturday</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k8b705118' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
@@ -123,11 +123,11 @@
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Open bench mornings</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k53accb71' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>€45, eight places. Tour the ovens and proofing room and talk to the faculty.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'ka9452dc2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
@@ -136,7 +136,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">8 places</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k63e3d632' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -145,30 +145,30 @@
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up ks-row--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up ks-row--plain"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Travel</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k1fb0f99b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Tram 23</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k8874f728' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Tram and bicycle</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k007e66a6' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Tram 23 stops at Hallstraat, next to the school. Bicycle racks are at the door.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'kc0d00336' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Tram 23</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k8874f728' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Bicycle</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k78efcae6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -177,22 +177,22 @@
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up ks-row--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up ks-row--plain"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Write</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k1129c0e4' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">hello@komugischool.example</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k99795adf' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Every message is answered by Hanne Jansen or Rafael Ortega.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'kaa39b0cd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Email</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kce8ae9da' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -201,11 +201,11 @@
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up ks-row--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up ks-row--plain"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Call</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kc3755e61' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Mon–Fri</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k5f25a222' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -215,12 +215,12 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Weekdays 09:00–17:00. We do not use contact forms.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'kadabb13c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Phone</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kbcc254b5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -231,36 +231,36 @@
 <!-- wp:group {"className":"ks-subs ks-sec","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-subs ks-sec"><!-- wp:group {"className":"ks-sub","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub"><!-- wp:heading {"className":"ks-sub__h"} -->
-<h2 class="wp-block-heading ks-sub__h">Bakery Location, Transit, and School Hours</h2>
+<h2 class="wp-block-heading ks-sub__h"><?php echo wp_kses_post( komugi_school_t( 'k5a82684b' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ks-sub__b","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub__b"><!-- wp:paragraph -->
-<p>Our teaching bakery is situated at Hallstraat 14, 3011 KD Rotterdam, Netherlands. The school is easily accessible via public transportation, located directly adjacent to the tram 23 stop named Hallstraat, and features dedicated outdoor bicycle racks for daily student use. Practical teaching shifts run Monday through Friday from 06:00 to 14:00, while the administrative office is open for general telephone and in-person inquiries Monday through Friday from 09:00 to 17:00. We ask that visitors schedule appointments in advance to prevent disrupting students during active deck oven loading and dough division.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k159b20d8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-sub","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub"><!-- wp:heading {"className":"ks-sub__h"} -->
-<h2 class="wp-block-heading ks-sub__h">Saturday Open Bench Mornings</h2>
+<h2 class="wp-block-heading ks-sub__h"><?php echo wp_kses_post( komugi_school_t( 'kc3fad45f' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ks-sub__b","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub__b"><!-- wp:paragraph -->
-<p>We host open bench mornings every Saturday from 09:00 to 12:00 for prospective applicants and bread enthusiasts. Priced at €45 per attendee, each session is strictly limited to eight places to ensure an intimate, conversational experience. Participants tour our deck ovens and proofing rooms, observe dough handling techniques, handle grain samples, and discuss course details directly with faculty members. Attending an open bench morning satisfies stage two of our admissions process and provides an honest look at the physical daily rhythms of commercial bakery training.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'kc5c8d3f5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-sub","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub"><!-- wp:heading {"className":"ks-sub__h"} -->
-<h2 class="wp-block-heading ks-sub__h">Direct Inquiries and Admissions Registry</h2>
+<h2 class="wp-block-heading ks-sub__h"><?php echo wp_kses_post( komugi_school_t( 'k20283175' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ks-sub__b","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub__b"><!-- wp:paragraph -->
-<p>Prospective applicants can contact the school registry directly by email at hello@komugischool.example or by telephone at +31 10 555 0140 during weekday office hours. We do not use generic contact forms; every inquiry is answered directly by admissions coordinator Hanne Jansen or placement director Rafael Ortega. Whether you have questions regarding 2027 cohort schedules, bursary application criteria, or housing options in Rotterdam, our administrative team provides clear, straightforward guidance to support your bakery education.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k2aabe0e7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -269,15 +269,15 @@
 <!-- wp:group {"className":"ks-close","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-close"><!-- wp:group {"className":"ks-close__in","layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"center"}} -->
 <div class="wp-block-group ks-close__in"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Next cohort</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k72785c87' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-close__text"} -->
-<p class="ks-close__text">12 January 2027 · 12 seats</p>
+<p class="ks-close__text"><?php echo wp_kses_post( komugi_school_t( 'kd7ab9ddd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-close__link"} -->
-<p class="ks-close__link"><a href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>">Admissions &amp; Fees →</a></p>
+<p class="ks-close__link"><a href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>"><?php echo wp_kses_post( komugi_school_t( 'k5e348eee' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

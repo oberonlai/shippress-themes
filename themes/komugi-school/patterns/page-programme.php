@@ -12,36 +12,36 @@
 <section class="wp-block-group ks-phead"><!-- wp:group {"className":"ks-bar sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-bar sp-reveal sp-reveal--wipe"><!-- wp:group {"className":"ks-bar__in","layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"center"}} -->
 <div class="wp-block-group ks-bar__in"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Six weeks</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kee4af5ce' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">12 seats</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k3310a56c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Mon–Fri 06:00–14:00</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k32ed4a43' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">2-week placement</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k76e613c5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-pt sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-pt sp-reveal sp-reveal--wipe"><!-- wp:heading {"level":1,"className":"ks-pagehead__title"} -->
-<h1 class="wp-block-heading ks-pagehead__title">Programme</h1>
+<h1 class="wp-block-heading ks-pagehead__title"><?php echo wp_kses_post( komugi_school_t( 'k8913b656' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ks-lede"} -->
-<p class="ks-lede">The Professional Bread &amp; Pastry programme is an intensive six-week foundation followed by two weeks in an operating partner kitchen. We train twelve students per cohort in the rhythm, discipline, and standards of professional production.</p>
+<p class="ks-lede"><?php echo wp_kses_post( komugi_school_t( 'k17debfdc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-pphoto sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-pphoto sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-pphoto__img"} -->
-<figure class="wp-block-image size-full ks-pphoto__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-starters.webp' ) ); ?>" alt="Glass jars filled with active sourdough culture at various stages along a wooden shelf."/></figure>
+<figure class="wp-block-image size-full ks-pphoto__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-starters.webp' ) ); ?>" alt="<?php echo esc_attr( komugi_school_t( 'a296be719' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -49,11 +49,11 @@
 <!-- wp:group {"className":"ks-sec","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-sec"><!-- wp:group {"className":"ks-sechead","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sechead"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label">Professional Bread &amp; Pastry</p>
+<p class="ks-label"><?php echo wp_kses_post( komugi_school_t( 'k501b0603' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Six weeks, week by week</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( komugi_school_t( 'kc0618f02' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -61,236 +61,236 @@
 <div class="wp-block-group ks-rows sp-stagger"><!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Week 1</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kd6f637a6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Mon–Fri</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k5f25a222' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Flour, water, salt</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k6289bf69' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Hydration, ash content and dough development by hand, with every temperature written into the bench book.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'ke1a797e0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Hydration</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kffcc5966' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Mixing</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k68e10e8e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Temperature</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kee7a8e26' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-row__thumb","aspectRatio":"4/3","scale":"cover"} -->
-<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-scale.webp' ) ); ?>" alt="Flour weighed on a digital kitchen scale beside bowls of water and salt." style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-scale.webp' ) ); ?>" alt="<?php echo esc_attr( komugi_school_t( 'a5c858444' ) ); ?>" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Week 2</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k65c4ba23' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Mon–Fri</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k5f25a222' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Fermentation &amp; sourdough</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k4703808e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Starter vitality, fermentation rates and acidity control across changing room temperatures.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k1fbf7e59' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Levain</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kb6899379' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Fermentation</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k452efff3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Acidity</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'ked9c8a69' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-row__thumb","aspectRatio":"4/3","scale":"cover"} -->
-<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-croissant.webp' ) ); ?>" alt="Halved baked croissant on a cutting board showing an open, airy honeycomb interior crumb." style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-croissant.webp' ) ); ?>" alt="<?php echo esc_attr( komugi_school_t( 'ac586615a' ) ); ?>" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Week 3</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k03ad46b2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Mon–Fri</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k5f25a222' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Shaping &amp; scoring</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k8899372b' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Boules, bâtards and baguettes on linen couches, repeated until the pieces come out alike.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'kb441bfc6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Shaping</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k003a1877' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Couche</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k9468b433' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Scoring</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k983f5442' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-row__thumb","aspectRatio":"4/3","scale":"cover"} -->
-<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04-baguettes.webp' ) ); ?>" alt="Hands shaping three slender baguettes resting along the folds of a linen couche." style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04-baguettes.webp' ) ); ?>" alt="<?php echo esc_attr( komugi_school_t( 'a692e281a' ) ); ?>" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Week 4</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k024f2ea1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Mon–Fri</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k5f25a222' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Laminated doughs</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'kd714366a' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Butter temper, lamination turns, sheeting and proofing control for viennoiserie.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'kce434b84' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Lamination</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k38858466' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Sheeting</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kb8705747' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Proof</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k85d2c1a8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-row__thumb","aspectRatio":"4/3","scale":"cover"} -->
-<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-laminate.webp' ) ); ?>" alt="Baker rolling laminated pastry dough with a wooden pin showing butter layers at edges." style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-laminate.webp' ) ); ?>" alt="<?php echo esc_attr( komugi_school_t( 'ae9caa931' ) ); ?>" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Week 5</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'ka9fdae21' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Mon–Fri</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k5f25a222' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Production &amp; ovens</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k01d8ec61' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Production scheduling on the four-deck ovens: steam delivery, thermal recovery and peeling.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k88f1da98' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Deck ovens</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kb2bd4820' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Steam</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k4db45638' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Scheduling</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kddfdc2a2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-row__thumb","aspectRatio":"4/3","scale":"cover"} -->
-<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-oven.webp' ) ); ?>" alt="Baker sliding unbaked loaves into a glowing deck oven using a long wooden peel." style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-oven.webp' ) ); ?>" alt="<?php echo esc_attr( komugi_school_t( 'a757a47b5' ) ); ?>" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row sp-reveal sp-reveal--up"><!-- wp:group {"className":"ks-row__when","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__when"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Week 6</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k1936a279' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-time"} -->
-<p class="ks-time">Mon–Fri</p>
+<p class="ks-time"><?php echo wp_kses_post( komugi_school_t( 'k5f25a222' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-row__body"><!-- wp:heading {"level":3,"className":"ks-row__title"} -->
-<h3 class="wp-block-heading ks-row__title">Placement prep &amp; final bake</h3>
+<h3 class="wp-block-heading ks-row__title"><?php echo wp_kses_post( komugi_school_t( 'k20a6a23b' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Each student runs one whole production, from scaling to oven clearance, before weeks 7–8 in a partner kitchen.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k3ba3304f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-chips","layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group ks-chips"><!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Final bake</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k41e2d86e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-chip ks-chip"} -->
-<p class="is-style-chip ks-chip">Placement</p>
+<p class="is-style-chip ks-chip"><?php echo wp_kses_post( komugi_school_t( 'kae13e51f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-row__thumb","aspectRatio":"4/3","scale":"cover"} -->
-<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-rack.webp' ) ); ?>" alt="Tiered bakery speed rack holding cooling metal trays filled with baked loaves and croissants." style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full ks-row__thumb"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-rack.webp' ) ); ?>" alt="<?php echo esc_attr( komugi_school_t( 'ab7da6b51' ) ); ?>" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -299,48 +299,48 @@
 <!-- wp:group {"className":"ks-subs ks-sec","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-subs ks-sec"><!-- wp:group {"className":"ks-sub","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub"><!-- wp:heading {"className":"ks-sub__h"} -->
-<h2 class="wp-block-heading ks-sub__h">Weeks One to Three: Core Foundations, Fermentation, and Bench Work</h2>
+<h2 class="wp-block-heading ks-sub__h"><?php echo wp_kses_post( komugi_school_t( 'k378d3d08' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ks-sub__b","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub__b"><!-- wp:paragraph -->
-<p>The first three weeks establish foundational hand skills and grain science at the wooden bench. In week one, students focus on flour, water, and salt, analyzing hydration rates, ash content, and dough development through manual mixing and temperature tracking. Week two transitions into wild fermentation and sourdough management, examining starter vitality, fermentation rates, and acidity control across varying ambient temperatures. During week three, the focus centers on shaping and scoring, where students master repetitive bench shaping for boules, bâtards, and baguettes on linen couches. Every student handles individual batches daily to build physical consistency and tactile judgment before progressing into enriched formulas.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'kb45dbd3d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-sub","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub"><!-- wp:heading {"className":"ks-sub__h"} -->
-<h2 class="wp-block-heading ks-sub__h">Weeks Four to Six: Laminated Doughs, Hearth Ovens, and Final Production</h2>
+<h2 class="wp-block-heading ks-sub__h"><?php echo wp_kses_post( komugi_school_t( 'ka9afebf0' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ks-sub__b","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub__b"><!-- wp:paragraph -->
-<p>The second half of the course builds technical precision and commercial bakery speed. Week four covers laminated doughs, focusing on butter temper, lamination turns, sheeting consistency, and proofing control for viennoiserie. In week five, students take control of production scheduling and our four-deck ovens, learning steam delivery, thermal recovery, and peeling techniques under live commercial conditions. Week six is dedicated to placement preparation and the final comprehensive bake, where each student manages an entire production run independently from scaling to oven clearance. This final week prepares bakers directly for their transition into professional partner kitchens.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k8c85e761' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-sub","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub"><!-- wp:heading {"className":"ks-sub__h"} -->
-<h2 class="wp-block-heading ks-sub__h">Assessment Standards and Bench Certification</h2>
+<h2 class="wp-block-heading ks-sub__h"><?php echo wp_kses_post( komugi_school_t( 'kebd9ac56' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ks-sub__b","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub__b"><!-- wp:paragraph -->
-<p>Assessment at Komugi School is continuous, practical, and grounded in kitchen realities rather than written examinations. Instructors evaluate students daily on dough handling dexterity, temperature management, loaf volume, blister development, and crumb structure during midday critique sessions. Students must demonstrate complete mastery of the forty core formulas recorded in their bench books and maintain tidy, efficient workstation discipline. Speed, sanitation, and consistency under production pressure form the core criteria for completing the six-week syllabus. There are no theoretical multiple-choice tests; proof of competence rests solely in the quality of the loaves pulled from the deck.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k589f481c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-sub","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub"><!-- wp:heading {"className":"ks-sub__h"} -->
-<h2 class="wp-block-heading ks-sub__h">Included Equipment and Course Materials</h2>
+<h2 class="wp-block-heading ks-sub__h"><?php echo wp_kses_post( komugi_school_t( 'k85c1a255' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ks-sub__b","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-sub__b"><!-- wp:paragraph -->
-<p>Every enrolled student receives a professional equipment kit on their first morning at Hallstraat 14. This kit includes a heavy-duty unbleached linen apron, a professional knife roll containing a curved lame, steel and plastic bench scrapers, and a calibrated digital pocket thermometer. Students also receive the Komugi bench book, a bound operational journal used to document hydration adjustments, ambient bakery temperatures, bake profiles, and formula iterations. All organic flours, cultured dairy, and bakery ingredients used throughout the six weeks are fully covered by the course fee. Students retain all personal tools upon course completion.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'k14ec2193' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -349,15 +349,15 @@
 <!-- wp:group {"className":"ks-close","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-close"><!-- wp:group {"className":"ks-close__in","layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"center"}} -->
 <div class="wp-block-group ks-close__in"><!-- wp:paragraph {"className":"is-style-chip-fill ks-chip"} -->
-<p class="is-style-chip-fill ks-chip">Next cohort</p>
+<p class="is-style-chip-fill ks-chip"><?php echo wp_kses_post( komugi_school_t( 'k72785c87' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-close__text"} -->
-<p class="ks-close__text">12 January 2027 · 12 seats</p>
+<p class="ks-close__text"><?php echo wp_kses_post( komugi_school_t( 'kd7ab9ddd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-close__link"} -->
-<p class="ks-close__link"><a href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>">Admissions &amp; Fees →</a></p>
+<p class="ks-close__link"><a href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>"><?php echo wp_kses_post( komugi_school_t( 'k5e348eee' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

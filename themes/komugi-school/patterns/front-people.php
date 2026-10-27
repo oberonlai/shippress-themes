@@ -11,93 +11,93 @@
 <!-- wp:group {"className":"ks-people ks-sec","layout":{"type":"default"},"tagName":"section"} -->
 <section class="wp-block-group ks-people ks-sec"><!-- wp:group {"className":"ks-people__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-people__head"><!-- wp:heading -->
-<h2 class="wp-block-heading">Who is on the bench</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( komugi_school_t( 'k2a7f9ac6' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Instruction at Komugi School is led by experienced bakery professionals across bread, viennoiserie, fermentation, and production ovens, supported by daily working placements in eight partner bakeries including Maasbrood, North Pier Bakehouse, and Kade Patisserie.</p>
+<p><?php echo wp_kses_post( komugi_school_t( 'kcc87c184' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-ticker sp-marquee ks-ticker--a","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-ticker sp-marquee ks-ticker--a"><!-- wp:group {"className":"ks-ticker__set","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group ks-ticker__set"><!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Elise Vandamme · Bread</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k0d97cd7f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Tomás Ferreira · Viennoiserie</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k6b0650ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Amara Osei · Sourdough</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k5aafc3ec' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Lukas Brenner · Ovens</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k47e11083' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Mei-Lin Choi · Pastry</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'kb7eeb70c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Rafael Ortega · Placements</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k4a081180' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Hanne Jansen · Admissions</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k267d2a53' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<div class="wp-block-group ks-ticker__set" aria-hidden="true"><p class="ks-ticker__item">Elise Vandamme · Bread</p><p class="ks-ticker__item">Tomás Ferreira · Viennoiserie</p><p class="ks-ticker__item">Amara Osei · Sourdough</p><p class="ks-ticker__item">Lukas Brenner · Ovens</p><p class="ks-ticker__item">Mei-Lin Choi · Pastry</p><p class="ks-ticker__item">Rafael Ortega · Placements</p><p class="ks-ticker__item">Hanne Jansen · Admissions</p></div>
+<div class="wp-block-group ks-ticker__set" aria-hidden="true"><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k0d97cd7f' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k6b0650ef' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k5aafc3ec' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k47e11083' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'kb7eeb70c' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k4a081180' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k267d2a53' ) ); ?></p></div>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-ticker sp-marquee ks-ticker--b","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-ticker sp-marquee ks-ticker--b"><!-- wp:group {"className":"ks-ticker__set","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group ks-ticker__set"><!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Maasbrood</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'kc13c8687' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Atelier Korenbloem</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'keeb2753f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">North Pier Bakehouse</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k398d1f87' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Rye &amp; Ember</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k531b7816' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Le Fournil du Quai</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'kecd12d2b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Haven Street Bakery</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'ka2671bcc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Kade Patisserie</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k5a37a61e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-ticker__item"} -->
-<p class="ks-ticker__item">Bakkerij Oostwal</p>
+<p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k86b3cb0f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<div class="wp-block-group ks-ticker__set" aria-hidden="true"><p class="ks-ticker__item">Maasbrood</p><p class="ks-ticker__item">Atelier Korenbloem</p><p class="ks-ticker__item">North Pier Bakehouse</p><p class="ks-ticker__item">Rye &amp; Ember</p><p class="ks-ticker__item">Le Fournil du Quai</p><p class="ks-ticker__item">Haven Street Bakery</p><p class="ks-ticker__item">Kade Patisserie</p><p class="ks-ticker__item">Bakkerij Oostwal</p></div>
+<div class="wp-block-group ks-ticker__set" aria-hidden="true"><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'kc13c8687' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'keeb2753f' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k398d1f87' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k531b7816' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'kecd12d2b' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'ka2671bcc' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k5a37a61e' ) ); ?></p><p class="ks-ticker__item"><?php echo wp_kses_post( komugi_school_t( 'k86b3cb0f' ) ); ?></p></div>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"className":"ks-btns ks-btns--center"} -->
 <div class="wp-block-buttons ks-btns ks-btns--center"><!-- wp:button {"className":"is-style-pill"} -->
-<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/instructors/' ) ); ?>">Meet the instructors</a></div>
+<div class="wp-block-button is-style-pill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/instructors/' ) ); ?>"><?php echo wp_kses_post( komugi_school_t( 'kb0c4019c' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group -->
