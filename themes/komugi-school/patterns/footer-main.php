@@ -49,9 +49,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-foot__base","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-foot__base"><!-- wp:group {"className":"ks-mark ks-mark--foot","layout":{"type":"default"}} -->
+<div class="wp-block-group ks-foot__base"><!-- wp:html -->
 <div class="wp-block-group ks-mark ks-mark--foot" aria-hidden="true"></div>
-<!-- /wp:group -->
+<!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"ks-foot__copy"} -->
 <p class="ks-foot__copy">© 2014–2026 Komugi School, Rotterdam. Fictional school: all names, prices and contact details are samples.</p>

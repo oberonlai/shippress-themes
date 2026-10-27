@@ -32,7 +32,7 @@
 
 <!-- wp:navigation {"overlayMenu":"mobile","className":"ks-menu","layout":{"type":"flex","justifyContent":"center"}} /-->
 
-<!-- wp:group {"className":"ks-mark","layout":{"type":"default"}} -->
+<!-- wp:html -->
 <div class="wp-block-group ks-mark" aria-hidden="true"></div>
-<!-- /wp:group --></div>
+<!-- /wp:html --></div>
 <!-- /wp:group -->
