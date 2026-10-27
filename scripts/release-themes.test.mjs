@@ -5,7 +5,7 @@ import { mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSyn
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { assetUrl, conflicts, planRelease, publishedSha256, release, releasesJson, releaseTag, sha256, themeVersion } from "./release-themes.mjs";
+import { lastChange, assetUrl, conflicts, planRelease, publishedSha256, release, releasesJson, releaseTag, sha256, themeVersion } from "./release-themes.mjs";
 
 const THEMES = fileURLToPath(new URL("../themes/", import.meta.url));
 const css = (v) => `/*\nTheme Name: Demo Theme\nVersion: ${v}\nText Domain: demo\n*/\nbody{}`;
@@ -125,4 +125,16 @@ test("release: completes a release that has no zip yet (upload without --clobber
     release({ root, dist, gh, publish: true, log: () => {} });
     assert.deepEqual(calls.find((c) => c[1] === "upload"), ["release", "upload", "a-v1.0.0", join(dist, "a.zip")]);
   } finally { rmSync(root, { recursive: true, force: true }); }
+});
+
+test("releases.json carries each theme's last change when known", () => {
+  const j = releasesJson([{ slug: "a", name: "A", version: "1.0.0", sha256: "2".repeat(64), size: 4, updated: "2026-10-27T05:12:48Z" }, { slug: "b", name: "B", version: "1.0.0", sha256: "1".repeat(64), size: 3, updated: "" }]);
+  assert.equal(j.themes[0].updated, "2026-10-27T05:12:48Z");
+  assert.equal("updated" in j.themes[1], false);
+});
+
+test("lastChange reads git, ignores screenshots, and is empty without history", () => {
+  const root = new URL("..", import.meta.url).pathname;
+  assert.match(lastChange(root, "aizome-shoten"), /^\d{4}-\d\d-\d\dT/);
+  assert.equal(lastChange(root, "no-such-theme"), "");
 });
