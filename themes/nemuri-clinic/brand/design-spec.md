@@ -1,6 +1,6 @@
 # Nemuri Clinic: design spec (stage 1, binding for implementation)
 
-Slug `nemuri-clinic`, evening sleep-medicine clinic for working adults. `type: business` (category health-wellness), WooCommerce declared compatible but not needed. Plan row b15-1: sticky-media archetype, photo hero with info bar, top-bar nav, real photography (low-key), sans type (Figtree / Public Sans, CJK Noto Sans TC / Noto Sans JP 黑體). Five languages: en, zh-TW, ja, fr, de.
+Slug `nemuri-clinic`, evening sleep-medicine clinic for working adults. `type: business` (category health-wellness), WooCommerce declared compatible but not needed. Plan row b15-1: sticky-media archetype, photo hero with info bar, top-bar nav, real photography (low-key), sans type (Figtree / Public Sans, CJK Noto Sans TC / Noto Sans JP). Five languages: en, zh-TW, ja, fr, de.
 
 Main reference: **sorahare-dental.com** (https://sorahare-dental.com/, S5-Style, dental clinic). Secondary, structure + scroll only: **hachioji-dm.com** (https://hachioji-dm.com/, internal-medicine clinic). Measurements: `brand/reference-tokens.md` (cited below as `tok (a)…(g)`). Screenshots: `brand/ref/`. We borrow structure, signature techniques, the key-visual concept, colour relationships and measured tokens. We do **not** copy their photos, copy, logos or page layouts as a whole.
 
@@ -63,13 +63,13 @@ Home shows steps 2–5 as four "stages" in the sticky-media block.
 - **Nemuri, Home hero**: photo 01 at `left: 20vw; top: 120px; width: 80vw; aspect-ratio: 1152/702` (1440 → 1152×702), `border-radius: 120px 0 0 0`, `overflow: clip`. Text panel (see §3.2) overlaps the photo's lower-left by 200px. Info bar white, 78px tall, `left: 576px` of viewport at 1440 → implement `width: 60vw` (864px) right-aligned to the viewport, bottom edge = photo bottom edge.
 - **Must not be diluted**: radius stays 120px at ≥1200px (≥96px at 960–1199, 64px mobile), only one corner; photo flush to the right edge (no right gutter); the bar is white and sits *inside* the photo bottom edge, not below it; text panel genuinely overlaps the photo (≥160px) on desktop.
 
-### T2. Half-disc "dome" heading cutting into the next photo or band (sorahare 当院の特徴 / 日々の予防と治療)
+### T2. Half-disc "dome" heading cutting into the next photo or band (sorahare )
 - **Reference**: at the boundary between a section and the photo/band below it, the bottom of a 680px circle in the upper section's colour protrudes ~85px down into the photo; the JP title (24px/500) and a wide-tracked EN label (Tenor 16–20px, ls .2em, main blue) sit inside that segment, centred. `tok (d)(f)`
 - **Nemuri**: `.nc-dome` = a block 760px wide × 110px tall, centred on the top edge of the next photo/band (`margin: 0 auto -110px; position: relative; z-index: 2`) with `background: radial-gradient(circle 380px at 50% -270px, var(--dome) 379.5px, transparent 380px)` where `--dome` = colour of the section above (white `#FFFFFF` or ground `#EEF3F7`). Inside, centred: H2 Figtree 500 1.75rem / 1.3 ink `#363636`, then 6px gap, EN label Figtree 400 0.875rem ls .2em `#4A5560`. The H2 sits 0–20px above the boundary, the label inside the segment (i.e. the heading group starts 30px above the boundary and the dome continues 110px below it). No clip-path (use the gradient), so it is safe next to observed elements.
 - Mobile (<782px): 480px wide, `circle 240px at 50% -170px`, 70px protrusion; H2 1.25rem; long en/fr/de titles may wrap to 2 lines — then the group sits fully above the boundary and only the label sits in the segment.
 - **Must not be diluted**: the segment must visibly bite into a photo or a coloured band (not float on plain white over white); circle colour exactly the upper section's colour; label tracked .2em.
 
-### T3. Photo row with ● heading and underlined long-arrow text button, dotted rules between rows (sorahare 診療のご案内 rows)
+### T3. Photo row with ● heading and underlined long-arrow text button, dotted rules between rows (sorahare rows)
 - **Reference**: container 1080 centred; photo 520×302 (≈1.72:1, radius 0) left, text column right with "● title" (dot #C0DBEF 1em, title main blue 20px), 2 lines of body, and a text button "View More": 0.875rem, padding `1em 60px 1em 0`, 1px main-colour underline, a 50×8 skewed arrow at its right end. Rows separated by 1px dotted #D9D9D9, ~65px gaps. `tok (c)(d)(f)`
 - **Nemuri, Home "What people arrive with"**: 4 rows, photo left always (not alternating): `grid-template-columns: 520px 1fr; gap: 60px; max-width: 1080px`. Photo aspect 520/302, radius 0. Text: H3 with `::before` ● (0.9em circle `#8FA3B5`, gap 10px) Figtree 500 1.25rem `#4A5560`; body Public Sans 1rem/2; button "Read more" as §2 button. Row padding 65px 0; `border-top: 1px dotted #D9D9D9` (and bottom on the last row).
 - Button `.nc-more`: inline-block, `padding: 1em 60px 1em 0; min-width: 180px; border-bottom: 1px solid #4A5560;` Figtree 500 0.875rem `#4A5560`; `::after` arrow `width: 50px; height: 8px; border-bottom: 1px solid; border-right: 1px solid; transform: skewX(45deg); position: absolute; right: 0; top: calc(50% - 6px)`; hover: arrow `translateX(6px)` 0.3s ease (`tok (g)`).
@@ -199,10 +199,10 @@ From sorahare's relationships (pale ground ~50%, white ~25%, one main colour <4%
 
 | Role | Ours | Reference (`tok (a)`) | Change | Use | Share |
 |---|---|---|---|---|---|
-| Ground | `#EEF3F7` | `#F0FAFF` | sky tint greyed toward the 紺鼠 row palette, lightness −1% | page ground, hero, header, alternate bands | ~50% |
+| Ground | `#EEF3F7` | `#F0FAFF` | sky tint greyed toward the row palette, lightness −1% | page ground, hero, header, alternate bands | ~50% |
 | Surface | `#FFFFFF` | `#FFFFFF` | same | sections, info bar, bubble, cards, dome | ~25% |
 | Ink | `#363636` | `#363636` | same | body, headings | text |
-| Main | `#4A5560` | `#2268B9` | **hue changed**: the row palette 紺鼠 is binding for the plan, and a bright daytime dental blue fights the low-key evening photography; same role and share | H1 lead, H3, labels, tel, buttons' underline, dots, links | <4% |
+| Main | `#4A5560` | `#2268B9` | **hue changed**: the row palette is binding for the plan, and a bright daytime dental blue fights the low-key evening photography; same role and share | H1 lead, H3, labels, tel, buttons' underline, dots, links | <4% |
 | Soft dot | `#8FA3B5` | `#89CCFF` | same lightness, desaturated | ● before H3, bullets | <1% |
 | Soft tint | `#C9D4DE` | `#C0DBEF` | same lightness, desaturated | hours ▲ background chips, focus rings | <1% |
 | Hairline | `#D9D9D9` | `#D9D9D9` | same | dotted rules, bar divider | lines |
@@ -216,7 +216,7 @@ From sorahare's relationships (pale ground ~50%, white ~25%, one main colour <4%
 ## 6. Type (font_direction **sans**)
 
 - Latin headings: **Figtree** (variable 300–600). Latin body: **Public Sans** (variable 400–700). No serif anywhere.
-- CJK: **Noto Sans TC** (zh-TW) / **Noto Sans JP** (ja), 黑體／ゴシック for headings and body; no 明體.
+- CJK: **Noto Sans TC** (zh-TW) / **Noto Sans JP** (ja) for headings and body.
 - Stacks (theme.json `fontFamilies`, each with `fontFace` so the editor iframe and front end load the same files):
   - `heading`: `"Figtree", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
   - `body`: `"Public Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
@@ -294,7 +294,7 @@ Per-page check: Home 01–16 once each (16 positions). About 13, 08, 07, 17, 16.
 |---|---|---|
 | Ground / surface ratio | `#F0FAFF` ~50% / `#FFFFFF` ~25% | `#EEF3F7` ~50% / `#FFFFFF` ~25% |
 | Ink | `#363636` | `#363636` |
-| Main colour role | `#2268B9`, <2%, text/lines/dots/tel | `#4A5560` (row 紺鼠), <4%, same roles |
+| Main colour role | `#2268B9`, <2%, text/lines/dots/tel | `#4A5560` (row), <4%, same roles |
 | Soft dots | `#C0DBEF` / `#89CCFF` | `#C9D4DE` / `#8FA3B5` |
 | Hairline | 1px dotted `#D9D9D9` | 1px dotted `#D9D9D9` |
 | First-screen saturation | 0.9% | target ≤5%, gate 15% |

@@ -62,3 +62,5 @@ Subset of Noto Sans JP for Japanese pages, weight 400.
 = Images =
 
 All photographs in assets/images/ were generated with an AI image model for this theme and are released under CC0 1.0 (public domain dedication).
+
+Files: assets/images/doctor-reading.webp, assets/images/hero-consult-room.webp, assets/images/method-sensors.webp, assets/images/story-blackout.webp, assets/images/story-cpap.webp, assets/images/story-dawn-tea.webp, assets/images/strip-corridor.webp, assets/images/strip-diary.webp, assets/images/strip-home-kit.webp, assets/images/study-room.webp, assets/images/symptom-3am.webp, assets/images/symptom-afternoon.webp, assets/images/symptom-shift.webp, assets/images/symptom-snore.webp, assets/images/technologist-desk.webp, assets/images/visit-entrance.webp

@@ -30,6 +30,10 @@ Care at Nemuri Clinic is defined by a collaborative results visit where the slee
   - CBT-I programme - $780 (six weekly 50-min sessions with a sleep psychologist)
   - CPAP set-up and first-month check - $210 (fitting, coaching, data check at four weeks)
 
+## A typical day
+
+A typical day at the clinic starts with afternoon consultations, moves into the evening clinic after the workday ends, and on night-study days closes with sensor placement at 20:30 and a morning check-out at 07:00.
+
 ## Process
 1. Book by phone or online
 2. First consultation (60 min) and two-week sleep diary handed out

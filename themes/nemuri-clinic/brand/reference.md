@@ -15,7 +15,7 @@
 ## Colour relationships (hex = reference; ours in stage-a.md)
 Ground #F0FAFF ~50% / white ~25% / ink #363636 / main #2268B9 <2% / soft #C0DBEF #89CCFF. First-screen saturated share 0.9%.
 
-## Mapping to finished theme (成品對應; binding detail in design-spec.md)
+## Mapping to finished theme (binding detail in design-spec.md)
 | Reference trait | Our implementation | Where |
 |---|---|---|
 | Offset hero photo, right 80%, flush right, only top-left corner ~120px (sorahare) | T1: photo 01 dim consultation room (lamp + sleep recorder), `left:20vw; width:80vw; radius:120px 0 0 0`, top 120 | Home hero; all inner page heads (72vw × 460, same corner); Notes single featured image; sticky photo 06 on Home |
@@ -28,5 +28,5 @@ Ground #F0FAFF ~50% / white ~25% / ink #363636 / main #2268B9 <2% / soft #C0DBEF
 | Recruit full-bleed band + centred white panel (sorahare) + scrub parallax (hachioji) | `sp-parallax` Cover photo 07, `--sp-par:10%` (mobile 6%), white .88 panel | Home study-room band; hero img 6% |
 | Endless photo strip 192s linear (sorahare) | `sp-marquee` photos 13/14/15, 120s linear | Home strip |
 | Section `active` reveal (hachioji) | `sp-reveal--up` + `sp-stagger`, 10px 1s ease | Home symptom rows, people pair; T3 rows on inner pages |
-| Colour: #F0FAFF / #FFF / #363636 / #2268B9 | #EEF3F7 / #FFF / #363636 / #4A5560 (row 紺鼠; reason in spec §5) | site-wide |
+| Colour: #F0FAFF / #FFF / #363636 / #2268B9 | #EEF3F7 / #FFF / #363636 / #4A5560 (row; reason in spec §5) | site-wide |
 | Hours table ● ▲ dots | same dots in `#4A5560`, stacks on mobile | Home visit; Access |
