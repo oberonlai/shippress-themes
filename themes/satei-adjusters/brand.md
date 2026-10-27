@@ -52,8 +52,14 @@ To protect the thoroughness of our fieldwork and preserve rapid response times, 
 
 ## Pages and contents
 1. **Home** - front-hero, front-why, front-calls, front-visit, front-adjusters, front-cases, front-fees, front-faq, front-panel.
-2. **Waitlist** (/waitlist/) - request a panel place (stage 2 builds the full form page).
-Stage 2 adds How a visit runs, For insurers, Fees, Adjusters, Cases, FAQ, Contact, Thanks, Privacy, Terms and one post.
+2. **How a visit runs** (/how-a-visit-runs/) - photo band with parallax, full sticky split (4 stages, 48 h), what we bring.
+3. **For insurers** (/for-insurers/) - split with appointment, panel terms, invoicing; panel terms in three lines.
+4. **Fees** (/fees/) - full-width fee table, parallax photo band, four fee questions.
+5. **The adjusters** (/adjusters/) - split with seven-name contents list, ruled people list.
+6. **Cases** (/cases/) - split with three case records.
+7. **FAQ** (/faq/) - ten questions on the mauve-grey band.
+8. **Contact** (/contact/), 9. **Waitlist** (/waitlist/, form), 10. **Thanks**, 11. **Privacy**, 12. **Terms**.
+13. **Notes** (/notes/) with one post: What we record before the strip-out.
 
 ## Photography
-Seventeen AI-generated photographs (Grok Build), one low-key documentary style: dim ambient light from one window or torch, deep shadows, muted mauve-grey cast, UK interiors, no text or logos. Fifteen are used on the home page.
+Seventeen AI-generated photographs (Grok Build), one low-key documentary style: dim ambient light from one window or torch, deep shadows, muted mauve-grey cast, UK interiors, no text or logos. Fifteen are used on the home page; two more (drying room, adjuster portrait) appear on inner pages.

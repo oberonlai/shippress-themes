@@ -21,27 +21,35 @@
 <!-- wp:group {"className":"sa-foot__links","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-foot__links">
 <!-- wp:paragraph {"className":"sa-foot__l"} -->
-<p class="sa-foot__l"><a href="/#why">Why</a></p>
+<p class="sa-foot__l"><a href="/how-a-visit-runs/">How a visit runs</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-foot__l"} -->
-<p class="sa-foot__l"><a href="/#calls">Calls</a></p>
+<p class="sa-foot__l"><a href="/for-insurers/">For insurers</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-foot__l"} -->
-<p class="sa-foot__l"><a href="/#visit">A visit</a></p>
+<p class="sa-foot__l"><a href="/adjusters/">Adjusters</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-foot__l"} -->
-<p class="sa-foot__l"><a href="/#adjusters">Adjusters</a></p>
+<p class="sa-foot__l"><a href="/cases/">Cases</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-foot__l"} -->
-<p class="sa-foot__l"><a href="/#cases">Cases</a></p>
+<p class="sa-foot__l"><a href="/fees/">Fees</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-foot__l"} -->
-<p class="sa-foot__l"><a href="/#fees">Fees</a></p>
+<p class="sa-foot__l"><a href="/faq/">FAQ</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sa-foot__l"} -->
+<p class="sa-foot__l"><a href="/contact/">Contact</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sa-foot__l"} -->
+<p class="sa-foot__l"><a href="/notes/">Notes</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-foot__l"} -->
