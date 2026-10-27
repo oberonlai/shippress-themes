@@ -275,10 +275,11 @@ body { -webkit-font-smoothing: antialiased; }
 
 /* ---- motion timings (reference: clip 1.3s .87,0,.13,1; fade-up ~.8s .16,1,.3,1, ~20px) ---------- */
 .sp-reveal--up { --sp-dist: 20px; --sp-dur: .8s; --sp-ease: cubic-bezier(.16, 1, .3, 1); }
+/* clip-path cannot transition to `none`, so the clip reveal runs as an animation (ends back at none) */
+@keyframes sa-wipe { from { clip-path: inset(0 0 100% 0 round 5px); } to { clip-path: inset(0 0 0 0 round 5px); } }
 @media (prefers-reduced-motion: no-preference) {
-	html.sp-js:not(.sp-no-motion) .sa-ph.sp-reveal--wipe > img,
-	html.sp-js:not(.sp-no-motion) .sp-reveal--wipe > img { transition: clip-path 1.3s cubic-bezier(.87, 0, .13, 1) var(--sp-delay, 0s); }
 	html.sp-js:not(.sp-no-motion) .sp-reveal--wipe:not(.sp-in) > img { clip-path: inset(0 0 100% 0 round 5px); }
+	html.sp-js:not(.sp-no-motion) .sp-reveal--wipe.sp-in > img { transition: none; animation: sa-wipe 1.3s cubic-bezier(.87, 0, .13, 1) var(--sp-delay, 0s) backwards; }
 }
 .sa-hero .sp-parallax { --sp-par: 8%; }
 @media (max-width: 781px) { .sa-hero .sp-parallax { --sp-par: 6%; } }
