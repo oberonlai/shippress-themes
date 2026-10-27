@@ -1,6 +1,12 @@
 <?php
 /** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
+	'kfoot0001' => 'Unit 3, 41 Canal Wharf<br>Bristol BS1 6XN<br>United Kingdom',
+	'kfoot0002' => 'Phone lines Mon–Fri 08:00–18:00 (UK time)<br>Site visits Mon–Sat 08:00–17:00',
+	'kfoot0003' => 'Independent loss-adjusting desk. Serving South West England and South Wales within 90 minutes of Bristol.',
+	'kfoot0004' => '© 2026 Satei Adjusters. Fictional business for a theme demonstration.',
+	'kfoot0005' => 'Waitlist',
+	'kfoot0006' => 'JOIN',
 	'a0e8aff26' => 'Dim interior corridor with a slightly open doorway revealing soft light from within.',
 	'a20b0f502' => 'Window frame and surrounding interior wall stained dark by soot and smoke residue.',
 	'a36b3862c' => 'A dim corridor with a door ajar and warm light from the room beyond.',
