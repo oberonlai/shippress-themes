@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/ayumi-
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Ayumi Podiatry is a calm, accessible WordPress block theme designed for podiatry clinics, foot-care practices, and healthcare professionals supporting people who work on their feet. Built with quiet olive tones, clear sans typography, and an unhurried editorial structure, it presents clinical care, gait assessments, and transparent fee schedules with clarity. Fully compatible with the WordPress block editor and optional WooCommerce support, it offers dependable responsive layouts tailored for professional clinic websites.
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -136,6 +136,7 @@ img { max-width: 100%; height: auto; }
 .ap-scrollhint i { width: 1px; height: 80px; background: var(--ap-olive); }
 @media (min-width: 1024px) { .ap-scrollhint { display: flex; } }
 .ap-glow--1 { left: 60%; top: 8%; } .ap-glow--2 { left: 74%; top: 20%; } .ap-glow--3 { left: 3%; top: 34%; } .ap-glow--4 { left: 86%; top: 76%; }
+.ap-field .ap-glow { opacity: .28; }
 @media (max-width: 1280px) { :root { --ap-k: .85; } }
 @media (max-width: 1100px) { :root { --ap-k: .65; } }
 @media (max-width: 781px) {
@@ -154,10 +155,10 @@ img { max-width: 100%; height: auto; }
 
 /* hero motion: fly-in, drift, glow pulse, toe-dot pop (CSS only; the hero uses no sp-reveal) */
 @media (prefers-reduced-motion: no-preference) {
-	html.sp-js:not(.sp-no-motion) .ap-field .ap-shape { animation: ap-fly 1.4s var(--ap-expo) both; animation-delay: calc(var(--i) * 107ms); }
+	html.sp-js:not(.sp-no-motion) .ap-field .ap-shape { animation: ap-fly 1.4s var(--ap-expo) both; animation-delay: calc(var(--i) * 160ms); }
 	html.sp-js:not(.sp-no-motion) .ap-field .ap-shape__body { animation: var(--dk, ap-drift-a) var(--dur, 12s) ease-in-out 2.8s infinite alternate; }
 	html.sp-js:not(.sp-no-motion) .ap-field .ap-drift-b { --dk: ap-drift-b; } html.sp-js:not(.sp-no-motion) .ap-field .ap-drift-c { --dk: ap-drift-c; }
-	html.sp-js:not(.sp-no-motion) .ap-field .ap-glow { animation: ap-pulse 12s ease-in-out infinite; }
+	html.sp-js:not(.sp-no-motion) .ap-field .ap-glow { animation: ap-pulse-soft 12s ease-in-out infinite; }
 	html.sp-js:not(.sp-no-motion) .ap-h1::after { animation: ap-pop .45s var(--ap-expo) 2.8s both; transform-origin: 20% 80%; }
 }
 @keyframes ap-fly { from { opacity: 0; transform: translate(var(--fx), var(--fy)) scale(var(--fs)) rotate(var(--fr)); } 30% { opacity: .6; } to { opacity: 1; transform: none; } }
@@ -165,6 +166,7 @@ img { max-width: 100%; height: auto; }
 @keyframes ap-drift-b { to { transform: translate(25px, 0) rotate(-3deg); } }
 @keyframes ap-drift-c { to { transform: translate(20px, -25px) rotate(3deg); } }
 @keyframes ap-pulse { 0%, 100% { opacity: .35; } 50% { opacity: .55; } }
+@keyframes ap-pulse-soft { 0%, 100% { opacity: .2; } 50% { opacity: .32; } }
 @keyframes ap-pop { from { opacity: 0; transform: scale(0); } to { opacity: 1; transform: none; } }
 
 /* listening first */

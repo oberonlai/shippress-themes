@@ -50,3 +50,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/r2.webp (home visit card: clinic entrance)
 - assets/images/x1.webp (orthotics page: technician shaping a custom insole in the workshop)
 - assets/images/x2.webp (nail and skin care: gloved hands and instruments beside a patient's foot)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (patterns/front-hero.php, style.css).
