@@ -38,7 +38,7 @@ Tags: block-patterns, full-site-editing, custom-colors, editor-style, translatio
 :is(:lang(de), :lang(fr)) :is(p, h1, h2, h3, li) { hyphens: auto; overflow-wrap: anywhere; }
 
 html, body { overflow-x: clip; }
-:root body { margin: 0; }
+:root body { margin: 0; padding-left: var(--ks-gl); padding-right: var(--ks-gr); }
 .wp-site-blocks > * + * { margin-block-start: 0; }
 :root .wp-site-blocks > header, :root .wp-site-blocks > footer { margin: 0; }
 .ks-main { padding: 0; }
@@ -118,7 +118,7 @@ img { max-width: 100%; height: auto; }
 .ks-main .ks-card__link { font-family: var(--ks-ui); font-size: .875rem; margin: 14px 0 0; }
 .ks-card__link a { text-decoration: none; border-bottom: 1px solid var(--ks-ink); }
 @media (min-width: 960px) {
-	.ks-bar { padding-top: 48px; padding-bottom: 28px; }
+	.ks-bar { padding-top: 40px; padding-bottom: 6px; }
 	.ks-bench__card { position: absolute; left: 48px; bottom: max(24px, calc(100% - 100vh + 321px)); width: 340px; z-index: 2; margin: 0; }
 	.ks-card { transform: rotate(-2deg); }
 }
@@ -157,8 +157,8 @@ img { max-width: 100%; height: auto; }
 /* ---------------------------------------------------------------- production floor (parallax cover) */
 .ks-main .ks-floor { margin: var(--ks-sec) calc(var(--ks-gr) * -1) 0 0; padding: 0; min-height: 380px !important; border-radius: 0; }
 .ks-floor .wp-block-cover__inner-container { width: 100%; padding: 16px; }
-.ks-floor__card { background: var(--ks-white); border: 1px solid var(--ks-rule); padding: 22px 26px; max-width: 380px; }
-.ks-main .ks-floor__title { font-size: 1.375rem; line-height: 1.3; margin: 0 0 12px; }
+.ks-floor__card { color: var(--ks-ink); background: var(--ks-white); border: 1px solid var(--ks-rule); padding: 22px 26px; max-width: 380px; }
+.ks-main .ks-floor__title { color: var(--ks-ink); font-size: 1.375rem; line-height: 1.3; margin: 0 0 12px; }
 .ks-floor__card p { font-size: 1.125rem; line-height: 1.55; margin: 0; }
 @media (min-width: 960px) {
 	.ks-main .ks-floor { aspect-ratio: 21 / 9; min-height: 0 !important; }
@@ -226,7 +226,7 @@ html.sp-no-motion .ks-ticker .ks-ticker__set { flex-wrap: wrap; }
 .ks-posts { padding-bottom: var(--ks-sec); }
 
 /* ---------------------------------------------------------------- footer */
-.ks-foot { background: var(--ks-band); padding: 72px var(--ks-gr) 32px var(--ks-gl); margin-top: var(--ks-sec); }
+.ks-foot { background: var(--ks-band); padding: 72px var(--ks-gr) 32px var(--ks-gl); margin: var(--ks-sec) calc(var(--ks-gr) * -1) 0 calc(var(--ks-gl) * -1); }
 .ks-foot__grid { display: grid; grid-template-columns: 1fr; gap: 36px; }
 .ks-foot__col > * + * { margin-top: 12px; }
 .ks-foot .ks-foot__name, .ks-foot .ks-foot__name a { font-family: var(--ks-display); font-size: 1.5rem; text-decoration: none; margin: 0; color: var(--ks-ink); }
@@ -246,3 +246,7 @@ html.sp-no-motion .ks-ticker .ks-ticker__set { flex-wrap: wrap; }
 	html.sp-js:not(.sp-no-motion) .sp-reveal.sp-reveal--wipe > * { transition: clip-path .6s cubic-bezier(.165, .84, .44, 1) var(--sp-delay, 0s); }
 	html.sp-js:not(.sp-no-motion) :is(.ks-rows, .ks-bench__card, .ks-leave__photos) .sp-reveal, html.sp-js:not(.sp-no-motion) .sp-reveal--up { --sp-dur: .5s; --sp-ease: ease; }
 }
+
+/* spacing fixes */
+.ks-foot__menu .wp-block-navigation__container { gap: 6px; }
+.ks-journal .ks-posts { padding-bottom: 0; }
