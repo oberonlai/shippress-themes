@@ -30,6 +30,8 @@ Tags: block-patterns, full-site-editing, custom-colors, editor-style, translatio
 }
 body .sp-reveal { --sp-dist: 10px; --sp-dur: 1s; --sp-ease: ease; }
 .nc-strip.sp-marquee > * { animation-duration: 120s; }
+.nc-hero__photo { --sp-par: 6%; }
+.nc-room { --sp-par: 10%; }
 
 a { text-underline-offset: .2em; }
 .wp-block-group, .wp-block-image, .wp-block-table { box-sizing: border-box; }
@@ -99,8 +101,7 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 50; }
 .nc-hero__p { position: relative; margin: 0; font: 400 1rem/2 var(--nc-body); color: var(--nc-ink); }
 .nc-hero__bar { position: absolute; z-index: 3; right: 0; bottom: 0; width: 60vw; height: 78px; max-width: none !important; margin: 0 !important; background: #fff; }
 .nc-hero__bar a { display: flex; align-items: center; gap: 28px; height: 100%; padding: 0 28px; color: var(--nc-ink); text-decoration: none; }
-.nc-bar__d { flex: none; width: 96px; font: 400 .875rem/1 var(--nc-display); letter-spacing: .04em; color: var(--nc-main); }
-.nc-bar__d::after { content: ""; position: absolute; width: 1px; height: 24px; margin: -4px 0 0 76px; background: var(--nc-line); }
+.nc-bar__d { flex: none; box-sizing: border-box; width: 124px; padding-right: 28px; border-right: 1px solid var(--nc-line); font: 400 .875rem/24px var(--nc-display); letter-spacing: .04em; color: var(--nc-main); }
 .nc-bar__t { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: 400 .9375rem/1.4 var(--nc-body); }
 .nc-bar__go { flex: none; position: relative; width: 16px; height: 16px; margin-left: auto; border-radius: 50%; background: var(--nc-main); }
 .nc-bar__go::after { content: ""; position: absolute; left: 4px; top: 5px; width: 4px; height: 4px; border-top: 1px solid #fff; border-right: 1px solid #fff; transform: rotate(45deg); }
@@ -129,7 +130,7 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 50; }
 
 /* ---------- method (sticky media) ---------- */
 .nc-method { background: var(--nc-ground); padding-top: 150px; padding-bottom: 120px; }
-.nc-method__in { display: grid; grid-template-columns: 450px 1fr; gap: 90px; align-items: start; max-width: 1080px; }
+.nc-method__in { margin-inline: auto; display: grid; grid-template-columns: 450px 1fr; gap: 90px; align-items: start; max-width: 1080px; }
 .nc-method__photo { position: sticky; top: 110px; margin: 0; aspect-ratio: 4 / 5; border-radius: 120px 0 0 0; overflow: clip; }
 .nc-method__photo img { width: 100%; height: 100%; object-fit: cover; }
 .nc-stage { display: flex; flex-direction: column; justify-content: center; min-height: 62vh; padding: 40px 0; border-top: 1px dotted var(--nc-line); }
@@ -189,7 +190,7 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 50; }
 
 /* ---------- visit ---------- */
 .nc-visit { background: var(--nc-ground); }
-.nc-visit__in { display: grid; grid-template-columns: 1.1fr 1fr; gap: 60px; align-items: start; max-width: 1080px; }
+.nc-visit__in { margin-inline: auto; display: grid; grid-template-columns: 1.1fr 1fr; gap: 60px; align-items: start; max-width: 1080px; }
 .nc-hours { width: 100%; border-collapse: collapse; font: 400 .875rem/1.5 var(--nc-body); }
 .nc-hours th, .nc-hours td { padding: 14px 4px; border-top: 1px dotted var(--nc-line); text-align: center; font-weight: 400; }
 .nc-hours thead th { border-top: 0; padding-top: 0; font: 500 .8125rem/1.4 var(--nc-display); letter-spacing: .08em; color: var(--nc-main); }
@@ -252,7 +253,7 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 50; }
 	.nc-stage { min-height: 0; }
 	.nc-slide { flex-basis: 86vw; width: 86vw; }
 	.nc-stories__row { padding-inline: 7vw; gap: 24px; }
-	.nc-card { position: static; width: auto; margin-top: -40px !important; margin-left: 24px !important; padding: 24px; }
+	.nc-card { position: relative; z-index: 1; top: auto; bottom: auto; right: auto; overflow: visible; width: auto; margin-top: -40px !important; margin-left: 24px !important; padding: 24px; }
 	.nc-visit__in { grid-template-columns: 1fr; gap: 40px; }
 }
 
@@ -262,7 +263,7 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 50; }
 	.nc-brand__sub, .nc-tel__l { display: none; }
 	.nc-brand__name { font-size: 1.25rem; }
 	.nc-tel { margin-left: auto; font-size: 1.0625rem; }
-	.nc-nav { margin-left: 0; }
+	.nc-nav { margin-left: 0; order: 3; }
 	.nc-sec { padding: 72px var(--nc-gut); }
 	.nc-hero { padding-top: 20px; }
 	.nc-hero__photo { width: calc(100% - 24px); margin-left: 24px; max-height: none; aspect-ratio: 4 / 3.4; border-top-left-radius: 64px; }
@@ -271,8 +272,7 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 50; }
 	.nc-hero__lead { font-size: 1.625rem; }
 	.nc-hero__bar { position: relative; width: auto; height: auto; }
 	.nc-hero__bar a { flex-wrap: wrap; gap: 6px 16px; padding: 18px 24px; }
-	.nc-bar__d { width: auto; flex-basis: 100%; }
-	.nc-bar__d::after { display: none; }
+	.nc-bar__d { width: auto; flex-basis: 100%; padding-right: 0; border-right: 0; }
 	.nc-bar__t { flex: 1 1 0; white-space: normal; overflow: visible; }
 	.nc-statement__t { font-size: 1.25rem; line-height: 1.9; }
 	.nc-row { grid-template-columns: 1fr; gap: 24px; padding: 40px 0; }
@@ -281,7 +281,8 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 50; }
 	.nc-dome__l { top: 4px; font-size: .75rem; }
 	.nc-method { padding-top: 110px; padding-bottom: 72px; }
 	.nc-method__photo { border-top-left-radius: 64px; }
-	.nc-room { min-height: 520px; }
+	.nc-room { min-height: 520px; --sp-par: 6%; }
+	.nc-hero__photo { --sp-par: 4%; }
 	.nc-room__panel { width: calc(100% - 8px); padding: 40px 24px; }
 	.nc-people__pair { grid-template-columns: 1fr; gap: 40px; }
 	.nc-person__img { height: auto; aspect-ratio: 4 / 3; }
