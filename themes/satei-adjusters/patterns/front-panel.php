@@ -15,13 +15,13 @@
 <!-- wp:group {"className":"sa-t2 sa-t2--panel","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2 sa-t2--panel">
 <!-- wp:paragraph {"className":"sa-lab"} -->
-<p class="sa-lab">Panel</p>
+<p class="sa-lab"><?php echo wp_kses_post( satei_adjusters_t( 'kb8da6df1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sa-t2__mid","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__mid">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p15-corridor-door.webp' ) ); ?>" alt="Dim interior corridor with a slightly open doorway revealing soft light from within."/></figure>
+<figure class="wp-block-image size-full sa-ph sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p15-corridor-door.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'a0e8aff26' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -29,19 +29,19 @@
 <!-- wp:group {"className":"sa-t2__big sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__big sp-reveal sp-reveal--up">
 <!-- wp:heading {"className":"sa-h2"} -->
-<h2 class="wp-block-heading sa-h2">Four places open<br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color">in April 2027.</mark></h2>
+<h2 class="wp-block-heading sa-h2"><?php echo wp_kses_post( satei_adjusters_t( 'kda4759eb' ) ); ?><br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color"><?php echo wp_kses_post( satei_adjusters_t( 'k8ce43373' ) ); ?></mark></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-txt"} -->
-<p class="sa-txt">To preserve forty-eight-hour response times and provide unhurried on-site investigations, Satei Adjusters works with at most twelve insurers at a time. Four panel places will become available in April 2027.</p>
+<p class="sa-txt"><?php echo wp_kses_post( satei_adjusters_t( 'k86abf5b8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-txt"} -->
-<p class="sa-txt">Instructions are accepted on the waitlist in the order received. Contact our Bristol desk today to discuss appointment terms, review service agreements, and secure your place on our active panel.</p>
+<p class="sa-txt"><?php echo wp_kses_post( satei_adjusters_t( 'k9fb0a23d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-pill sa-pill--solid"} -->
-<p class="sa-pill sa-pill--solid"><a href="/waitlist/">Request a panel place →</a></p>
+<p class="sa-pill sa-pill--solid"><a href="/waitlist/"><?php echo wp_kses_post( satei_adjusters_t( 'k85685883' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

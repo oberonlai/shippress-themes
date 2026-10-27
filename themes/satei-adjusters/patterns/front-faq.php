@@ -15,7 +15,7 @@
 <!-- wp:group {"className":"sa-t2 sa-t2--faq","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2 sa-t2--faq">
 <!-- wp:paragraph {"className":"sa-lab"} -->
-<p class="sa-lab">FAQ</p>
+<p class="sa-lab"><?php echo wp_kses_post( satei_adjusters_t( 'k1fe917b0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sa-t2__mid","layout":{"type":"default"}} -->
@@ -27,7 +27,7 @@
 <!-- wp:group {"className":"sa-t2__big","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__big">
 <!-- wp:heading {"className":"sa-h2"} -->
-<h2 class="wp-block-heading sa-h2">Frequently asked<br><mark style="background-color:rgba(0,0,0,0);color:#6b5e66" class="has-inline-color">questions</mark></h2>
+<h2 class="wp-block-heading sa-h2"><?php echo wp_kses_post( satei_adjusters_t( 'k722ca2d9' ) ); ?><br><mark style="background-color:rgba(0,0,0,0);color:#6b5e66" class="has-inline-color"><?php echo wp_kses_post( satei_adjusters_t( 'k478669c7' ) ); ?></mark></h2>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
@@ -37,37 +37,37 @@
 <!-- wp:group {"className":"sa-faq","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-faq">
 <!-- wp:details {"className":"sa-faq__d"} -->
-<details class="wp-block-details sa-faq__d"><summary>Who pays for your services?</summary>
+<details class="wp-block-details sa-faq__d"><summary><?php echo wp_kses_post( satei_adjusters_t( 'k8e451c50' ) ); ?></summary>
 <!-- wp:paragraph -->
-<p>The appointing insurer pays our fees directly. Policyholders never pay us, and we never collect excess or private fees.</p>
+<p><?php echo wp_kses_post( satei_adjusters_t( 'kc15da07a' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"sa-faq__d"} -->
-<details class="wp-block-details sa-faq__d"><summary>Do you carry out building repairs?</summary>
+<details class="wp-block-details sa-faq__d"><summary><?php echo wp_kses_post( satei_adjusters_t( 'k6295a14b' ) ); ?></summary>
 <!-- wp:paragraph -->
-<p>No. We are entirely independent of contractors and repair networks. We record damage and drying progress without financial interest in remedial building works.</p>
+<p><?php echo wp_kses_post( satei_adjusters_t( 'k6aef08ea' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"sa-faq__d"} -->
-<details class="wp-block-details sa-faq__d"><summary>How far do you travel?</summary>
+<details class="wp-block-details sa-faq__d"><summary><?php echo wp_kses_post( satei_adjusters_t( 'k6fd1168f' ) ); ?></summary>
 <!-- wp:paragraph -->
-<p>We cover properties situated within a 90-minute drive of our Bristol office, across South West England and South Wales.</p>
+<p><?php echo wp_kses_post( satei_adjusters_t( 'k2196748f' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"sa-faq__d"} -->
-<details class="wp-block-details sa-faq__d"><summary>What does a panel place mean?</summary>
+<details class="wp-block-details sa-faq__d"><summary><?php echo wp_kses_post( satei_adjusters_t( 'k7881fedb' ) ); ?></summary>
 <!-- wp:paragraph -->
-<p>To maintain forty-eight-hour response times and thorough site inspections, our desk limits active insurer relationships to at most twelve panels at a time.</p>
+<p><?php echo wp_kses_post( satei_adjusters_t( 'kc593fdc8' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"sa-faq__d"} -->
-<details class="wp-block-details sa-faq__d"><summary>When do places open?</summary>
+<details class="wp-block-details sa-faq__d"><summary><?php echo wp_kses_post( satei_adjusters_t( 'kdd8fbe8f' ) ); ?></summary>
 <!-- wp:paragraph -->
-<p>Four panel places open in April 2027. Insurers join the waitlist in the strict order their requests are received.</p>
+<p><?php echo wp_kses_post( satei_adjusters_t( 'k30194a74' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 </div>

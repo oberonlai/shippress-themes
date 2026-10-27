@@ -13,13 +13,13 @@
 <!-- wp:group {"className":"sa-t2 sa-t2--head","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2 sa-t2--head">
 <!-- wp:paragraph {"className":"sa-lab"} -->
-<p class="sa-lab">The adjusters</p>
+<p class="sa-lab"><?php echo wp_kses_post( satei_adjusters_t( 'k5a0c385a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sa-t2__mid","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__mid">
 <!-- wp:paragraph {"className":"sa-txt sp-reveal sp-reveal--up"} -->
-<p class="sa-txt sp-reveal sp-reveal--up">Our independent loss-adjusting desk comprises seven dedicated professionals based at Canal Wharf in Bristol. We combine chartered loss adjusting, building surveying, inventory control, and technical reporting under one roof.</p>
+<p class="sa-txt sp-reveal sp-reveal--up"><?php echo wp_kses_post( satei_adjusters_t( 'k26c77329' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -27,7 +27,7 @@
 <!-- wp:group {"className":"sa-t2__big","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__big">
 <!-- wp:heading {"level":1,"className":"sa-h1"} -->
-<h1 class="wp-block-heading sa-h1">Seven people<br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color">and one phone.</mark></h1>
+<h1 class="wp-block-heading sa-h1"><?php echo wp_kses_post( satei_adjusters_t( 'k80a28809' ) ); ?><br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color"><?php echo wp_kses_post( satei_adjusters_t( 'ka662866f' ) ); ?></mark></h1>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
@@ -53,37 +53,37 @@
 <!-- wp:group {"className":"sa-split__row","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-split__row">
 <!-- wp:paragraph {"className":"sa-lab sa-lab--w"} -->
-<p class="sa-lab sa-lab--w">The desk</p>
+<p class="sa-lab sa-lab--w"><?php echo wp_kses_post( satei_adjusters_t( 'k55b33784' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sa-toc","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-toc">
 <!-- wp:paragraph {"className":"sa-toc__i is-current"} -->
-<p class="sa-toc__i is-current">Helen Marsh</p>
+<p class="sa-toc__i is-current"><?php echo wp_kses_post( satei_adjusters_t( 'k2d15e496' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-toc__i"} -->
-<p class="sa-toc__i">Tomás Ferreira</p>
+<p class="sa-toc__i"><?php echo wp_kses_post( satei_adjusters_t( 'k7f292a7e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-toc__i"} -->
-<p class="sa-toc__i">Amara Nwosu</p>
+<p class="sa-toc__i"><?php echo wp_kses_post( satei_adjusters_t( 'k7e9da65c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-toc__i"} -->
-<p class="sa-toc__i">Samir Haddad</p>
+<p class="sa-toc__i"><?php echo wp_kses_post( satei_adjusters_t( 'k3432c5f7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-toc__i"} -->
-<p class="sa-toc__i">Jonas Pike</p>
+<p class="sa-toc__i"><?php echo wp_kses_post( satei_adjusters_t( 'k372c810e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-toc__i"} -->
-<p class="sa-toc__i">Lin Qiao</p>
+<p class="sa-toc__i"><?php echo wp_kses_post( satei_adjusters_t( 'kafaa9b02' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-toc__i"} -->
-<p class="sa-toc__i">Ruth Abernethy</p>
+<p class="sa-toc__i"><?php echo wp_kses_post( satei_adjusters_t( 'k87cf8fc4' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -95,11 +95,11 @@
 <!-- wp:group {"className":"sa-split__bot","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-split__bot">
 <!-- wp:heading {"className":"sa-h2 sa-h2--w"} -->
-<h2 class="wp-block-heading sa-h2 sa-h2--w">The desk<br><mark style="background-color:rgba(0,0,0,0);color:#d9cfd3" class="has-inline-color">in Bristol.</mark></h2>
+<h2 class="wp-block-heading sa-h2 sa-h2--w"><?php echo wp_kses_post( satei_adjusters_t( 'k55b33784' ) ); ?><br><mark style="background-color:rgba(0,0,0,0);color:#d9cfd3" class="has-inline-color"><?php echo wp_kses_post( satei_adjusters_t( 'ke6987041' ) ); ?></mark></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-pill sa-pill--w"} -->
-<p class="sa-pill sa-pill--w"><a href="/waitlist/">Request a panel place →</a></p>
+<p class="sa-pill sa-pill--w"><a href="/waitlist/"><?php echo wp_kses_post( satei_adjusters_t( 'k85685883' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -113,15 +113,15 @@
 <!-- wp:group {"className":"sa-stage","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-stage">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sa-ph--45 sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sa-ph--45 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p17-adjuster-hall.webp' ) ); ?>" alt="An adjuster in dark workwear looking down at a clipboard in a quiet room."/></figure>
+<figure class="wp-block-image size-full sa-ph sa-ph--45 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p17-adjuster-hall.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'afb25ba4f' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"sa-h3 sa-h3--w"} -->
-<h3 class="wp-block-heading sa-h3 sa-h3--w">Leadership and surveying</h3>
+<h3 class="wp-block-heading sa-h3 sa-h3--w"><?php echo wp_kses_post( satei_adjusters_t( 'k5c8e762d' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-txt sa-txt--w"} -->
-<p class="sa-txt sa-txt--w">Helen Marsh founded Satei Adjusters in 2014 as an independent desk in Bristol. As a chartered loss adjuster specializing in water and buildings, she oversees major complex losses and structural assessments across South West England. Working alongside her, Samir Haddad acts as our building surveyor. Samir specializes in structural evaluations, defect tracing, and post-drying re-inspections, ensuring moisture equilibrium is scientifically confirmed before any building reinstatement proceeds.</p>
+<p class="sa-txt sa-txt--w"><?php echo wp_kses_post( satei_adjusters_t( 'kf3176df7' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -129,15 +129,15 @@
 <!-- wp:group {"className":"sa-stage","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-stage">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sa-ph--45 sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sa-ph--45 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-floor-plan.webp' ) ); ?>" alt="Two adjusters reviewing a floor plan together at a desk, seen from the side."/></figure>
+<figure class="wp-block-image size-full sa-ph sa-ph--45 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-floor-plan.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'aa0e1298a' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"sa-h3 sa-h3--w"} -->
-<h3 class="wp-block-heading sa-h3 sa-h3--w">Water and fire field adjusters</h3>
+<h3 class="wp-block-heading sa-h3 sa-h3--w"><?php echo wp_kses_post( satei_adjusters_t( 'kd0d1f5a6' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-txt sa-txt--w"} -->
-<p class="sa-txt sa-txt--w">Tomás Ferreira is our dedicated field adjuster for escape-of-water claims and technical drying oversight. Tomás conducts initial moisture profiling, tracks fluid migration pathways through subfloors, and monitors drying programmes across domestic and commercial premises. Amara Nwosu serves as our specialist adjuster for fire and smoke incidents. Amara evaluates soot contamination, thermal structural compromise, and odour penetration, compiling clear room-by-room damage schedules for complex fire claims.</p>
+<p class="sa-txt sa-txt--w"><?php echo wp_kses_post( satei_adjusters_t( 'k79a6296a' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -145,15 +145,15 @@
 <!-- wp:group {"className":"sa-stage","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-stage">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-tagging-contents.webp' ) ); ?>" alt="Gloved hands tagging water-damaged books and boxes on a table."/></figure>
+<figure class="wp-block-image size-full sa-ph sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-tagging-contents.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'a410369dd' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"sa-h3 sa-h3--w"} -->
-<h3 class="wp-block-heading sa-h3 sa-h3--w">Contents and technical editing</h3>
+<h3 class="wp-block-heading sa-h3 sa-h3--w"><?php echo wp_kses_post( satei_adjusters_t( 'kacb5701a' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-txt sa-txt--w"} -->
-<p class="sa-txt sa-txt--w">Jonas Pike manages contents assessment and on-site inventory schedules. Jonas itemizes damaged furnishings, commercial stock, and personal belongings, recording serial numbers and condition details before disposal. Lin Qiao manages desk reviews and acts as our report editor. Lin evaluates documentary claim submissions and rigorously reviews every field report, ensuring that technical observations, photographic schedules, and repair scopes meet our desk's exact standards before insurer delivery.</p>
+<p class="sa-txt sa-txt--w"><?php echo wp_kses_post( satei_adjusters_t( 'k5e5da01e' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -161,15 +161,15 @@
 <!-- wp:group {"className":"sa-stage","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-stage">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-desk-dusk.webp' ) ); ?>" alt="A quiet claims desk at dusk with a lamp, claim folders and a moisture meter by a window."/></figure>
+<figure class="wp-block-image size-full sa-ph sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-desk-dusk.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'ab7745139' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"sa-h3 sa-h3--w"} -->
-<h3 class="wp-block-heading sa-h3 sa-h3--w">Coordination and insurer liaison</h3>
+<h3 class="wp-block-heading sa-h3 sa-h3--w"><?php echo wp_kses_post( satei_adjusters_t( 'k80fe3e04' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-txt sa-txt--w"} -->
-<p class="sa-txt sa-txt--w">Ruth Abernethy oversees scheduling and insurer liaison at our Canal Wharf office in Bristol. Ruth answers the phone during business hours, manages incoming claim notifications, confirms appointments on the same working day, and coordinates field calendars for our adjusters. As the primary point of contact for insurer panels, Ruth ensures smooth operational communication from initial instruction through to final document dispatch.</p>
+<p class="sa-txt sa-txt--w"><?php echo wp_kses_post( satei_adjusters_t( 'k6ce888eb' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -185,7 +185,7 @@
 <!-- wp:group {"className":"sa-t2 sa-t2--people","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2 sa-t2--people">
 <!-- wp:paragraph {"className":"sa-lab"} -->
-<p class="sa-lab">People</p>
+<p class="sa-lab"><?php echo wp_kses_post( satei_adjusters_t( 'k78386ec8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sa-t2__mid","layout":{"type":"default"}} -->
@@ -197,7 +197,7 @@
 <!-- wp:group {"className":"sa-t2__big","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__big">
 <!-- wp:heading {"className":"sa-h2"} -->
-<h2 class="wp-block-heading sa-h2">Who answers<br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color">the phone.</mark></h2>
+<h2 class="wp-block-heading sa-h2"><?php echo wp_kses_post( satei_adjusters_t( 'k91f86a91' ) ); ?><br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color"><?php echo wp_kses_post( satei_adjusters_t( 'k2a19257e' ) ); ?></mark></h2>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
@@ -209,15 +209,15 @@
 <!-- wp:group {"className":"sa-bio","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-bio">
 <!-- wp:paragraph {"className":"sa-bio__n"} -->
-<p class="sa-bio__n">Helen Marsh</p>
+<p class="sa-bio__n"><?php echo wp_kses_post( satei_adjusters_t( 'k2d15e496' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__r"} -->
-<p class="sa-bio__r">Founder, chartered loss adjuster (water and buildings)</p>
+<p class="sa-bio__r"><?php echo wp_kses_post( satei_adjusters_t( 'kc0c04998' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__t"} -->
-<p class="sa-bio__t">Founded the desk in 2014 and leads complex escape-of-water claims and structural investigations across the region.</p>
+<p class="sa-bio__t"><?php echo wp_kses_post( satei_adjusters_t( 'k41a7fd4a' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -225,15 +225,15 @@
 <!-- wp:group {"className":"sa-bio","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-bio">
 <!-- wp:paragraph {"className":"sa-bio__n"} -->
-<p class="sa-bio__n">Tomás Ferreira</p>
+<p class="sa-bio__n"><?php echo wp_kses_post( satei_adjusters_t( 'k7f292a7e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__r"} -->
-<p class="sa-bio__r">Adjuster, escape-of-water and drying</p>
+<p class="sa-bio__r"><?php echo wp_kses_post( satei_adjusters_t( 'k67b2530d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__t"} -->
-<p class="sa-bio__t">Records baseline damp readings on site and returns to confirm moisture levels once drying has finished.</p>
+<p class="sa-bio__t"><?php echo wp_kses_post( satei_adjusters_t( 'kde9fa4a0' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -241,15 +241,15 @@
 <!-- wp:group {"className":"sa-bio","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-bio">
 <!-- wp:paragraph {"className":"sa-bio__n"} -->
-<p class="sa-bio__n">Amara Nwosu</p>
+<p class="sa-bio__n"><?php echo wp_kses_post( satei_adjusters_t( 'k7e9da65c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__r"} -->
-<p class="sa-bio__r">Adjuster, fire and smoke</p>
+<p class="sa-bio__r"><?php echo wp_kses_post( satei_adjusters_t( 'k37f3f637' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__t"} -->
-<p class="sa-bio__t">Documents soot, charring and odour spread room by room for residential and commercial fire losses.</p>
+<p class="sa-bio__t"><?php echo wp_kses_post( satei_adjusters_t( 'k7ea9428f' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -257,15 +257,15 @@
 <!-- wp:group {"className":"sa-bio","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-bio">
 <!-- wp:paragraph {"className":"sa-bio__n"} -->
-<p class="sa-bio__n">Samir Haddad</p>
+<p class="sa-bio__n"><?php echo wp_kses_post( satei_adjusters_t( 'k3432c5f7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__r"} -->
-<p class="sa-bio__r">Building surveyor, re-inspections</p>
+<p class="sa-bio__r"><?php echo wp_kses_post( satei_adjusters_t( 'k456de9e6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__t"} -->
-<p class="sa-bio__t">Carries out building re-inspections and flooring investigations before repair schedules begin.</p>
+<p class="sa-bio__t"><?php echo wp_kses_post( satei_adjusters_t( 'kb4e5531c' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -273,15 +273,15 @@
 <!-- wp:group {"className":"sa-bio","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-bio">
 <!-- wp:paragraph {"className":"sa-bio__n"} -->
-<p class="sa-bio__n">Jonas Pike</p>
+<p class="sa-bio__n"><?php echo wp_kses_post( satei_adjusters_t( 'k372c810e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__r"} -->
-<p class="sa-bio__r">Contents and inventory</p>
+<p class="sa-bio__r"><?php echo wp_kses_post( satei_adjusters_t( 'k089f830e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__t"} -->
-<p class="sa-bio__t">Itemises damaged belongings and stock, with photographs, before anything is moved or discarded.</p>
+<p class="sa-bio__t"><?php echo wp_kses_post( satei_adjusters_t( 'k634eb49c' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -289,15 +289,15 @@
 <!-- wp:group {"className":"sa-bio","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-bio">
 <!-- wp:paragraph {"className":"sa-bio__n"} -->
-<p class="sa-bio__n">Lin Qiao</p>
+<p class="sa-bio__n"><?php echo wp_kses_post( satei_adjusters_t( 'kafaa9b02' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__r"} -->
-<p class="sa-bio__r">Desk reviews and report editor</p>
+<p class="sa-bio__r"><?php echo wp_kses_post( satei_adjusters_t( 'k471ce105' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__t"} -->
-<p class="sa-bio__t">Reviews each claim file and edits every written report before it goes to the insurer.</p>
+<p class="sa-bio__t"><?php echo wp_kses_post( satei_adjusters_t( 'kfc975cd5' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -305,15 +305,15 @@
 <!-- wp:group {"className":"sa-bio","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-bio">
 <!-- wp:paragraph {"className":"sa-bio__n"} -->
-<p class="sa-bio__n">Ruth Abernethy</p>
+<p class="sa-bio__n"><?php echo wp_kses_post( satei_adjusters_t( 'k87cf8fc4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__r"} -->
-<p class="sa-bio__r">Scheduling and insurer liaison (answers the phone)</p>
+<p class="sa-bio__r"><?php echo wp_kses_post( satei_adjusters_t( 'kf98b6023' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-bio__t"} -->
-<p class="sa-bio__t">Confirms appointments the same working day and keeps the field calendar from Canal Wharf.</p>
+<p class="sa-bio__t"><?php echo wp_kses_post( satei_adjusters_t( 'ke9244839' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -331,13 +331,13 @@
 <!-- wp:group {"className":"sa-t2 sa-t2--close","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2 sa-t2--close">
 <!-- wp:paragraph {"className":"sa-lab"} -->
-<p class="sa-lab">Panel</p>
+<p class="sa-lab"><?php echo wp_kses_post( satei_adjusters_t( 'kb8da6df1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sa-t2__mid","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__mid">
 <!-- wp:paragraph {"className":"sa-txt"} -->
-<p class="sa-txt">Four panel places open in April 2027. Requests join the waitlist in the order received, and we reply within one working day.</p>
+<p class="sa-txt"><?php echo wp_kses_post( satei_adjusters_t( 'kf6e90f06' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -345,9 +345,9 @@
 <!-- wp:group {"className":"sa-t2__big","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__big">
 <!-- wp:heading {"className":"sa-h2"} -->
-<h2 class="wp-block-heading sa-h2">Request<br><mark style="background-color:rgba(0,0,0,0);color:#6b5e66" class="has-inline-color">a panel place.</mark></h2>
+<h2 class="wp-block-heading sa-h2"><?php echo wp_kses_post( satei_adjusters_t( 'k15c2d85f' ) ); ?><br><mark style="background-color:rgba(0,0,0,0);color:#6b5e66" class="has-inline-color"><?php echo wp_kses_post( satei_adjusters_t( 'kdaca04ca' ) ); ?></mark></h2>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"sa-pill sa-pill--solid"} -->
-<p class="sa-pill sa-pill--solid"><a href="/waitlist/">Request a panel place →</a></p>
+<p class="sa-pill sa-pill--solid"><a href="/waitlist/"><?php echo wp_kses_post( satei_adjusters_t( 'k85685883' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

@@ -13,13 +13,13 @@
 <!-- wp:group {"className":"sa-t2 sa-t2--head","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2 sa-t2--head">
 <!-- wp:paragraph {"className":"sa-lab"} -->
-<p class="sa-lab">Contact</p>
+<p class="sa-lab"><?php echo wp_kses_post( satei_adjusters_t( 'kbbaff128' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sa-t2__mid","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__mid">
 <!-- wp:paragraph {"className":"sa-txt sp-reveal sp-reveal--up"} -->
-<p class="sa-txt sp-reveal sp-reveal--up">Our office is located at Canal Wharf in Bristol, handling instructions and insurer liaison across South West England and South Wales. Please contact our desk directly during operational hours to schedule a claim visit or discuss panel availability.</p>
+<p class="sa-txt sp-reveal sp-reveal--up"><?php echo wp_kses_post( satei_adjusters_t( 'kaa432ae8' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -27,7 +27,7 @@
 <!-- wp:group {"className":"sa-t2__big","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__big">
 <!-- wp:heading {"level":1,"className":"sa-h1"} -->
-<h1 class="wp-block-heading sa-h1">Contact<br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color">the desk.</mark></h1>
+<h1 class="wp-block-heading sa-h1"><?php echo wp_kses_post( satei_adjusters_t( 'kbbaff128' ) ); ?><br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color"><?php echo wp_kses_post( satei_adjusters_t( 'k040f8842' ) ); ?></mark></h1>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
@@ -41,7 +41,7 @@
 <!-- wp:group {"className":"sa-contact__ph","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-contact__ph">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sa-ph--123 sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sa-ph--123 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-tagging-contents.webp' ) ); ?>" alt="Gloved hands tagging water-damaged books and boxes on a table."/></figure>
+<figure class="wp-block-image size-full sa-ph sa-ph--123 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-tagging-contents.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'a410369dd' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -53,11 +53,11 @@
 <!-- wp:group {"className":"sa-kv__r","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-kv__r">
 <!-- wp:paragraph {"className":"sa-kv__k"} -->
-<p class="sa-kv__k">Address</p>
+<p class="sa-kv__k"><?php echo wp_kses_post( satei_adjusters_t( 'kdd7bf230' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-kv__v"} -->
-<p class="sa-kv__v">Unit 3, 41 Canal Wharf<br>Bristol BS1 6XN, United Kingdom</p>
+<p class="sa-kv__v"><?php echo wp_kses_post( satei_adjusters_t( 'kcbf456c0' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -65,11 +65,11 @@
 <!-- wp:group {"className":"sa-kv__r","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-kv__r">
 <!-- wp:paragraph {"className":"sa-kv__k"} -->
-<p class="sa-kv__k">Phone lines</p>
+<p class="sa-kv__k"><?php echo wp_kses_post( satei_adjusters_t( 'k340fb14a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-kv__v"} -->
-<p class="sa-kv__v">Mon–Fri 08:00–18:00 (UK time)</p>
+<p class="sa-kv__v"><?php echo wp_kses_post( satei_adjusters_t( 'k4d824e31' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -77,11 +77,11 @@
 <!-- wp:group {"className":"sa-kv__r","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-kv__r">
 <!-- wp:paragraph {"className":"sa-kv__k"} -->
-<p class="sa-kv__k">Site visits</p>
+<p class="sa-kv__k"><?php echo wp_kses_post( satei_adjusters_t( 'k28d9805b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-kv__v"} -->
-<p class="sa-kv__v">Mon–Sat 08:00–17:00</p>
+<p class="sa-kv__v"><?php echo wp_kses_post( satei_adjusters_t( 'kd5f806b8' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -89,11 +89,11 @@
 <!-- wp:group {"className":"sa-kv__r","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-kv__r">
 <!-- wp:paragraph {"className":"sa-kv__k"} -->
-<p class="sa-kv__k">Email</p>
+<p class="sa-kv__k"><?php echo wp_kses_post( satei_adjusters_t( 'kce8ae9da' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sa-kv__v"} -->
-<p class="sa-kv__v"><a href="mailto:desk@satei-adjusters.example">desk@satei-adjusters.example</a></p>
+<p class="sa-kv__v"><a href="mailto:desk@satei-adjusters.example"><?php echo wp_kses_post( satei_adjusters_t( 'ka26ca417' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -101,19 +101,19 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"sa-h3"} -->
-<h3 class="wp-block-heading sa-h3">Desk location and communications</h3>
+<h3 class="wp-block-heading sa-h3"><?php echo wp_kses_post( satei_adjusters_t( 'k036faf97' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-txt"} -->
-<p class="sa-txt">The Satei Adjusters desk is located at Unit 3, 41 Canal Wharf, Bristol BS1 6XN, United Kingdom. Insurers submitting claim documents or seeking to instruct an adjuster should email desk@satei-adjusters.example. Our phone lines are open Monday to Friday from 08:00 to 18:00 UK time, where Ruth Abernethy handles calls and coordinates appointment bookings. Please note that we do not host drop-in public visitors at our office, as our staff are actively engaged in desk reviews and field visits.</p>
+<p class="sa-txt"><?php echo wp_kses_post( satei_adjusters_t( 'k6d2b6361' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sa-h3"} -->
-<h3 class="wp-block-heading sa-h3">Operating hours and coverage radius</h3>
+<h3 class="wp-block-heading sa-h3"><?php echo wp_kses_post( satei_adjusters_t( 'kf0d24bba' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-txt"} -->
-<p class="sa-txt">Our site visits take place Monday to Saturday between 08:00 and 17:00 across our defined territory within 90 minutes' drive of Bristol. We serve domestic and commercial claims throughout South West England and South Wales. All claim instructions confirmed by our desk receive attendance within 48 working hours. Because we operate strictly on instruction from insurers, policyholders seeking status updates should liaise directly with their insurer's designated claims handler.</p>
+<p class="sa-txt"><?php echo wp_kses_post( satei_adjusters_t( 'kca69a281' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -133,13 +133,13 @@
 <!-- wp:group {"className":"sa-t2 sa-t2--close","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2 sa-t2--close">
 <!-- wp:paragraph {"className":"sa-lab"} -->
-<p class="sa-lab">Panel</p>
+<p class="sa-lab"><?php echo wp_kses_post( satei_adjusters_t( 'kb8da6df1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sa-t2__mid","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__mid">
 <!-- wp:paragraph {"className":"sa-txt"} -->
-<p class="sa-txt">Four panel places open in April 2027. Requests join the waitlist in the order received, and we reply within one working day.</p>
+<p class="sa-txt"><?php echo wp_kses_post( satei_adjusters_t( 'kf6e90f06' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -147,9 +147,9 @@
 <!-- wp:group {"className":"sa-t2__big","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__big">
 <!-- wp:heading {"className":"sa-h2"} -->
-<h2 class="wp-block-heading sa-h2">Request<br><mark style="background-color:rgba(0,0,0,0);color:#6b5e66" class="has-inline-color">a panel place.</mark></h2>
+<h2 class="wp-block-heading sa-h2"><?php echo wp_kses_post( satei_adjusters_t( 'k15c2d85f' ) ); ?><br><mark style="background-color:rgba(0,0,0,0);color:#6b5e66" class="has-inline-color"><?php echo wp_kses_post( satei_adjusters_t( 'kdaca04ca' ) ); ?></mark></h2>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"sa-pill sa-pill--solid"} -->
-<p class="sa-pill sa-pill--solid"><a href="/waitlist/">Request a panel place →</a></p>
+<p class="sa-pill sa-pill--solid"><a href="/waitlist/"><?php echo wp_kses_post( satei_adjusters_t( 'k85685883' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

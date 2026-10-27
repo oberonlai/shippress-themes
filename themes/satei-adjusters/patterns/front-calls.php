@@ -15,13 +15,13 @@
 <!-- wp:group {"className":"sa-t2 sa-t2--calls","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2 sa-t2--calls">
 <!-- wp:paragraph {"className":"sa-lab"} -->
-<p class="sa-lab">Calls</p>
+<p class="sa-lab"><?php echo wp_kses_post( satei_adjusters_t( 'kb21c391f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sa-t2__mid ","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__mid ">
 <!-- wp:paragraph {"className":"sa-txt sp-reveal sp-reveal--up"} -->
-<p class="sa-txt sp-reveal sp-reveal--up">Insurers instruct our desk across four primary disciplines within ninety minutes' drive of Bristol:</p>
+<p class="sa-txt sp-reveal sp-reveal--up"><?php echo wp_kses_post( satei_adjusters_t( 'k3203a587' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -29,7 +29,7 @@
 <!-- wp:group {"className":"sa-t2__big","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__big">
 <!-- wp:heading {"className":"sa-h2"} -->
-<h2 class="wp-block-heading sa-h2">What insurers<br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color">call us for</mark></h2>
+<h2 class="wp-block-heading sa-h2"><?php echo wp_kses_post( satei_adjusters_t( 'k7ec76889' ) ); ?><br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color"><?php echo wp_kses_post( satei_adjusters_t( 'kdb0a6e96' ) ); ?></mark></h2>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
@@ -41,15 +41,15 @@
 <!-- wp:group {"className":"sa-strip__i","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-strip__i">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-ceiling-bucket.webp' ) ); ?>" alt="A plastic bucket catches water dripping from a stained ceiling in a hallway."/></figure>
+<figure class="wp-block-image size-full sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-ceiling-bucket.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'aeace4a2b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"sa-h3"} -->
-<h3 class="wp-block-heading sa-h3">1. Escape of water</h3>
+<h3 class="wp-block-heading sa-h3"><?php echo wp_kses_post( satei_adjusters_t( 'kbd786909' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-cap"} -->
-<p class="sa-cap">Burst pipes, hidden central heating leaks, and fixture failures assessed across residential and commercial buildings.</p>
+<p class="sa-cap"><?php echo wp_kses_post( satei_adjusters_t( 'k31eb0424' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -57,15 +57,15 @@
 <!-- wp:group {"className":"sa-strip__i","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-strip__i">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04-smoke-kitchen.webp' ) ); ?>" alt="Kitchen cabinets blackened by smoke with morning daylight entering through an adjacent window."/></figure>
+<figure class="wp-block-image size-full sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04-smoke-kitchen.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'af1b87149' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"sa-h3"} -->
-<h3 class="wp-block-heading sa-h3">2. Fire and smoke</h3>
+<h3 class="wp-block-heading sa-h3"><?php echo wp_kses_post( satei_adjusters_t( 'k31f20826' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-cap"} -->
-<p class="sa-cap">Detailed evaluations of charring, soot distribution, and persistent smoke odour across all affected rooms.</p>
+<p class="sa-cap"><?php echo wp_kses_post( satei_adjusters_t( 'kd162325d' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -73,15 +73,15 @@
 <!-- wp:group {"className":"sa-strip__i","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-strip__i">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-damp-paint.webp' ) ); ?>" alt="Close view of flaking paint and damp plaster above a wooden skirting board."/></figure>
+<figure class="wp-block-image size-full sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-damp-paint.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'a5474e2fd' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"sa-h3"} -->
-<h3 class="wp-block-heading sa-h3">3. Damp and mould</h3>
+<h3 class="wp-block-heading sa-h3"><?php echo wp_kses_post( satei_adjusters_t( 'kb7e5882b' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-cap"} -->
-<p class="sa-cap">Moisture profiling, condensation diagnostics, and thermal imaging to verify drying progress or ongoing water ingress.</p>
+<p class="sa-cap"><?php echo wp_kses_post( satei_adjusters_t( 'k753cb832' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -89,15 +89,15 @@
 <!-- wp:group {"className":"sa-strip__i","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-strip__i">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-tagging-contents.webp' ) ); ?>" alt="Gloved hands attaching paper inventory tags to damaged books and cardboard storage boxes."/></figure>
+<figure class="wp-block-image size-full sa-ph sa-ph--16 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-tagging-contents.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'a4707a7a4' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"sa-h3"} -->
-<h3 class="wp-block-heading sa-h3">4. Contents</h3>
+<h3 class="wp-block-heading sa-h3"><?php echo wp_kses_post( satei_adjusters_t( 'k3d2620f5' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-cap"} -->
-<p class="sa-cap">Methodical room-by-room inventorying, salvage appraisal, and total-loss cataloguing before items are removed.</p>
+<p class="sa-cap"><?php echo wp_kses_post( satei_adjusters_t( 'k68e88305' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

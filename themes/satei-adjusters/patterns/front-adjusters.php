@@ -15,13 +15,13 @@
 <!-- wp:group {"className":"sa-t2 sa-t2--adj","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2 sa-t2--adj">
 <!-- wp:paragraph {"className":"sa-lab"} -->
-<p class="sa-lab">Adjusters</p>
+<p class="sa-lab"><?php echo wp_kses_post( satei_adjusters_t( 'k5ff6dc26' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sa-t2__mid ","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__mid ">
 <!-- wp:paragraph {"className":"sa-txt sp-reveal sp-reveal--up"} -->
-<p class="sa-txt sp-reveal sp-reveal--up">Our practice is deliberately kept small and focused. Seven specialists handle every file directly, working from Unit 3 at Canal Wharf: Every phone call is answered directly at our Bristol desk, ensuring instructing insurers speak immediately with people who know the active files.</p>
+<p class="sa-txt sp-reveal sp-reveal--up"><?php echo wp_kses_post( satei_adjusters_t( 'kb90d5a8a' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -29,7 +29,7 @@
 <!-- wp:group {"className":"sa-t2__big","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__big">
 <!-- wp:heading {"className":"sa-h2"} -->
-<h2 class="wp-block-heading sa-h2">Seven people<br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color">and one phone.</mark></h2>
+<h2 class="wp-block-heading sa-h2"><?php echo wp_kses_post( satei_adjusters_t( 'k80a28809' ) ); ?><br><mark style="background-color:rgba(0,0,0,0);color:#afa3a3" class="has-inline-color"><?php echo wp_kses_post( satei_adjusters_t( 'ka662866f' ) ); ?></mark></h2>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
@@ -41,7 +41,7 @@
 <!-- wp:group {"className":"sa-adj__ph","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-adj__ph">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sa-ph sa-ph--45 sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sa-ph sa-ph--45 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-floor-plan.webp' ) ); ?>" alt="Two adjusters reviewing an architectural floor plan together across an office work desk."/></figure>
+<figure class="wp-block-image size-full sa-ph sa-ph--45 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-floor-plan.webp' ) ); ?>" alt="<?php echo esc_attr( satei_adjusters_t( 'a79e601e6' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -51,11 +51,11 @@
 <!-- wp:group {"className":"sa-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-row sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3,"className":"sa-row__n"} -->
-<h3 class="wp-block-heading sa-row__n">Helen Marsh</h3>
+<h3 class="wp-block-heading sa-row__n"><?php echo wp_kses_post( satei_adjusters_t( 'k2d15e496' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-row__r"} -->
-<p class="sa-row__r">Founder, chartered loss adjuster (water and buildings)</p>
+<p class="sa-row__r"><?php echo wp_kses_post( satei_adjusters_t( 'kc0c04998' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -63,11 +63,11 @@
 <!-- wp:group {"className":"sa-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-row sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3,"className":"sa-row__n"} -->
-<h3 class="wp-block-heading sa-row__n">Tomás Ferreira</h3>
+<h3 class="wp-block-heading sa-row__n"><?php echo wp_kses_post( satei_adjusters_t( 'k7f292a7e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-row__r"} -->
-<p class="sa-row__r">Adjuster, escape-of-water and drying</p>
+<p class="sa-row__r"><?php echo wp_kses_post( satei_adjusters_t( 'k67b2530d' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -75,11 +75,11 @@
 <!-- wp:group {"className":"sa-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-row sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3,"className":"sa-row__n"} -->
-<h3 class="wp-block-heading sa-row__n">Amara Nwosu</h3>
+<h3 class="wp-block-heading sa-row__n"><?php echo wp_kses_post( satei_adjusters_t( 'k7e9da65c' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-row__r"} -->
-<p class="sa-row__r">Adjuster, fire and smoke</p>
+<p class="sa-row__r"><?php echo wp_kses_post( satei_adjusters_t( 'k37f3f637' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -87,11 +87,11 @@
 <!-- wp:group {"className":"sa-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-row sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3,"className":"sa-row__n"} -->
-<h3 class="wp-block-heading sa-row__n">Samir Haddad</h3>
+<h3 class="wp-block-heading sa-row__n"><?php echo wp_kses_post( satei_adjusters_t( 'k3432c5f7' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-row__r"} -->
-<p class="sa-row__r">Building surveyor, re-inspections</p>
+<p class="sa-row__r"><?php echo wp_kses_post( satei_adjusters_t( 'k456de9e6' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -99,11 +99,11 @@
 <!-- wp:group {"className":"sa-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-row sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3,"className":"sa-row__n"} -->
-<h3 class="wp-block-heading sa-row__n">Jonas Pike</h3>
+<h3 class="wp-block-heading sa-row__n"><?php echo wp_kses_post( satei_adjusters_t( 'k372c810e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-row__r"} -->
-<p class="sa-row__r">Contents and inventory</p>
+<p class="sa-row__r"><?php echo wp_kses_post( satei_adjusters_t( 'k089f830e' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -111,11 +111,11 @@
 <!-- wp:group {"className":"sa-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-row sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3,"className":"sa-row__n"} -->
-<h3 class="wp-block-heading sa-row__n">Lin Qiao</h3>
+<h3 class="wp-block-heading sa-row__n"><?php echo wp_kses_post( satei_adjusters_t( 'kafaa9b02' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-row__r"} -->
-<p class="sa-row__r">Desk reviews and report editor</p>
+<p class="sa-row__r"><?php echo wp_kses_post( satei_adjusters_t( 'k471ce105' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -123,11 +123,11 @@
 <!-- wp:group {"className":"sa-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-row sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3,"className":"sa-row__n"} -->
-<h3 class="wp-block-heading sa-row__n">Ruth Abernethy</h3>
+<h3 class="wp-block-heading sa-row__n"><?php echo wp_kses_post( satei_adjusters_t( 'k87cf8fc4' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sa-row__r"} -->
-<p class="sa-row__r">Scheduling and insurer liaison (answers the phone)</p>
+<p class="sa-row__r"><?php echo wp_kses_post( satei_adjusters_t( 'kf98b6023' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
