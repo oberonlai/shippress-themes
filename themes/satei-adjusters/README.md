@@ -9,4 +9,4 @@ A quiet WordPress landing theme for an independent loss-adjusting desk that take
 sp-scroll: `sp-parallax` on the hero photograph, `sp-reveal--wipe` (1.3s) on photographs, `sp-reveal--up` on text columns and rows, `sp-count` on the 48 h numeral.
 
 ## Pages and menu
-The demo import creates Home and a short Waitlist page and an anchor menu (Why, Calls, A visit, Adjusters, Cases, Fees, FAQ).
+The demo import creates Home, Waitlist (request a panel place), Thank you, Privacy and Terms, and an anchor menu on the home page (Why, Calls, A visit, Adjusters, Cases, Fees, FAQ). The footer links to Waitlist, Privacy and Terms.

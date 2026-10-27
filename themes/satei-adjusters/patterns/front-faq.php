@@ -27,7 +27,7 @@
 <!-- wp:group {"className":"sa-t2__big","layout":{"type":"default"}} -->
 <div class="wp-block-group sa-t2__big">
 <!-- wp:heading {"className":"sa-h2"} -->
-<h2 class="wp-block-heading sa-h2">Frequently asked<br><mark style="background-color:rgba(0,0,0,0);color:#ffffff" class="has-inline-color">questions</mark></h2>
+<h2 class="wp-block-heading sa-h2">Frequently asked<br><mark style="background-color:rgba(0,0,0,0);color:#6b5e66" class="has-inline-color">questions</mark></h2>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->

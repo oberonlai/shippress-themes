@@ -47,6 +47,14 @@
 <!-- wp:paragraph {"className":"sa-foot__l"} -->
 <p class="sa-foot__l"><a href="/waitlist/">Waitlist</a></p>
 <!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sa-foot__l"} -->
+<p class="sa-foot__l"><a href="/privacy/">Privacy</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sa-foot__l"} -->
+<p class="sa-foot__l"><a href="/terms/">Terms</a></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 </div>

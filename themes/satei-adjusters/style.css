@@ -86,7 +86,9 @@ body { -webkit-font-smoothing: antialiased; }
 .sa-t2--why .sa-ph { margin-top: 56px; }
 .sa-t2--why .sa-t2__big .sa-txt { max-width: 560px; }
 .sa-t2--panel .sa-t2__big .sa-txt { max-width: 560px; }
+.sa-t2--panel { grid-template-columns: 176px minmax(0, 1.25fr) minmax(0, 1fr); }
 .sa-t2--panel .sa-t2__mid .sa-ph img { aspect-ratio: 1.23 / 1; }
+.sa-t2--panel .sa-t2__big { padding-top: 0; }
 .sa-t2--calls, .sa-t2--adj, .sa-t2--cases, .sa-t2--fees { margin-bottom: 0; }
 .sa-t2--calls .sa-t2__mid .sa-txt, .sa-t2--adj .sa-t2__mid .sa-txt, .sa-t2--cases .sa-t2__mid .sa-txt, .sa-t2--fees .sa-t2__mid .sa-txt { max-width: 420px; }
 
@@ -110,7 +112,7 @@ body { -webkit-font-smoothing: antialiased; }
 .sa-hero { background: var(--sa-ground); }
 .sa-hero__top { padding-top: 44px; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 4fr); column-gap: 8.33%; align-items: end; padding-bottom: 0; }
 .sa-hero__kick { margin: 0 0 14px; }
-.sa-wordmark { font-family: var(--sa-display); font-size: var(--wp--preset--font-size--wordmark); font-weight: 500; line-height: .83; letter-spacing: -.02em; text-transform: uppercase; margin: 0 0 -24px; position: relative; z-index: 3; background: linear-gradient(180deg, #C4BABD, #AFA3A3 60%, #9A8E92); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; padding-top: .04em; }
+.sa-wordmark { font-family: var(--sa-display); font-size: var(--wp--preset--font-size--wordmark); font-weight: 500; line-height: .83; letter-spacing: -.02em; text-transform: uppercase; margin: 0 0 -34px; position: relative; z-index: 3; background: linear-gradient(180deg, #C4BABD, #AFA3A3 60%, #9A8E92); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; padding-top: .04em; }
 .sa-hero__r { padding-bottom: 36px; }
 .sa-lead { font-size: .9375rem; line-height: 1.75; margin: 0 0 18px; }
 .sa-hero__photo { position: relative; margin: -26px 0 0 40px; z-index: 1; }
@@ -146,6 +148,8 @@ body { -webkit-font-smoothing: antialiased; }
 /* ---- calls strip ---------------------------------------------------------- */
 .sa-strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 72px; }
 .sa-strip__i .sa-ph { margin-bottom: 14px; }
+.sa-strip__i .sa-ph img { aspect-ratio: 1.6 / 1; }
+.sa-strip__i .sa-h3 { margin-top: 0; }
 
 /* ---- adjusters ------------------------------------------------------------ */
 .sa-adj { display: grid; grid-template-columns: 5fr 7fr; column-gap: 40px; margin-top: 72px; align-items: start; }
@@ -227,7 +231,9 @@ body { -webkit-font-smoothing: antialiased; }
 	.sa-wordmark { margin-bottom: 0; }
 	.sa-hero__photo { margin-left: 0; }
 	.sa-hero__cover.wp-block-cover { min-height: 0; aspect-ratio: 4 / 3; border-radius: 0; }
-	.sa-hero__fg { position: static; display: block; padding: 24px 20px 40px; color: var(--sa-ink); }
+	.sa-hero__fg { position: static; display: flex; flex-direction: column; padding: 24px 20px 40px; color: var(--sa-ink); }
+	.sa-hero__stmt { order: 1; }
+	.sa-hero__addr { order: 2; }
 	.sa-hero__title { color: var(--sa-ink); font-size: 1.25rem; }
 	.sa-hero__sub { color: #555; }
 	.sa-hero__addr { color: #666; font-size: .75rem; margin-top: 16px; }
@@ -240,8 +246,13 @@ body { -webkit-font-smoothing: antialiased; }
 	.sa-t2__big { order: 2; }
 	.sa-t2__mid { order: 3; margin-top: 8px; }
 	.sa-t2 > .sa-lab { order: 1; }
+	.sa-t2--panel { grid-template-columns: none; }
 	.sa-t2--panel .sa-t2__mid { order: 2; margin: 0 0 28px; }
 	.sa-t2--panel .sa-t2__big { order: 3; }
+	.sa-t2--why .sa-t2__big { display: contents; }
+	.sa-t2--why .sa-t2__big > * { order: 2; }
+	.sa-t2--why .sa-t2__mid { order: 3; }
+	.sa-t2--why .sa-t2__big > .sa-ph { order: 4; margin-top: 32px; }
 	.sa-t2--why .sa-ph { margin-top: 32px; }
 	.sa-h2 { font-size: 1.875rem; margin-bottom: 24px; }
 	.sa-num { margin-bottom: 36px; }
@@ -265,7 +276,7 @@ body { -webkit-font-smoothing: antialiased; }
 	.sa-fees tr { border-top: 1px solid var(--sa-hair); padding: 16px 0; }
 	.sa-fees tr:last-child { border-bottom: 1px solid var(--sa-hair); }
 	.sa-fees td, .sa-fees tr:last-child td { border: 0; height: auto; padding: 0; white-space: normal; text-align: left; }
-	.sa-fees td:last-child { text-align: right; white-space: nowrap; margin-top: 4px; }
+	.sa-fees tr td:last-child, .sa-fees tr:last-child td:last-child { text-align: right; white-space: nowrap; margin-top: 4px; }
 	.sa-fees .sa-fees__s { width: 100%; }
 	.sa-faq { margin-left: 0; }
 	.sa-foot__top { flex-direction: column; align-items: flex-start; }
