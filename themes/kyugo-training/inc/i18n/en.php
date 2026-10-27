@@ -17,6 +17,7 @@ return array(
 	'hero_title' => 'Steady|hands,|first.',
 	'notes_label' => 'Notes',
 	'notes_h' => 'Dates & notes',
+	'notes_intro' => 'Read course updates, training schedules, and practical workplace first-aid notes from the instructional team at Kyugo Training in Utrecht. We share regular observations drawn from drills and scenario sessions.',
 	'notes_all' => 'All notes',
 	'card01_alt' => 'Close-up of interlocked hands performing chest compressions on a first-aid training mannequin.',
 	'card01_kick' => '08:30–10:30 · Drill',
