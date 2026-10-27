@@ -5,7 +5,7 @@
  * Categories: budou-academy
  * Keywords: sommelier, school, wine
  * Viewport Width: 1440
- * Description: Interlocking rounded photo tiles, a slanted gradient headline across the seam and the next-term bar.
+ * Description: Interlocking rounded photo tiles, the headline on a solid sage card and the next-term bar.
  */
 ?>
 <!-- wp:group {"className":"ba-hero","layout":{"type":"default"},"tagName":"section","align":"full"} -->

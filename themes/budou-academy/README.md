@@ -1,6 +1,6 @@
 # Budou Academy
 
-A block theme for a sommelier school that teaches people who already work in service: an interlocking collage of four rounded photographs under one slanted gradient headline, a floating pill header with three programme tabs, a Monday time rail, green bands with a photograph across the edge, a fee table and a sit-in band. See `readme.txt` for the description and image list, `brand.md` for the brief, `brand/design-spec.md` and `brand/reference.md` for the design notes.
+A block theme for a sommelier school that teaches people who already work in service: an interlocking collage of four rounded photographs with the headline on a solid sage card, a floating pill header with three programme tabs, a Monday time rail, green bands with a photograph across the edge, a fee table and a sit-in band. See `readme.txt` for the description and image list, `brand.md` for the brief, `brand/design-spec.md` and `brand/reference.md` for the design notes.
 
 ## Structure
 - `patterns/front-*.php`: the nine home sections (hero, about, day, features, programmes, fees, faculty, alumni, visit).

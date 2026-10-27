@@ -52,5 +52,8 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/demo/k2-nose.webp (copy of k2-nose.webp, featured image of the sample journal article)
 
 == Changelog ==
+= 1.0.1 =
+* Hero headline redesigned for legibility: solid sage card, upright heavier serif, no gradient over photos.
+
 = 1.0.0 =
 * First release (home page).
