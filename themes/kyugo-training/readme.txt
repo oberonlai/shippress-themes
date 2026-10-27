@@ -55,7 +55,7 @@ assets/images/p18.webp: generated with Grok for this theme, GPL-2.0-or-later / C
 
 Kyugo Training, (C) 2026 ShipPress, GPL-2.0-or-later.
 
-Fonts: Hanken Grotesk and Schibsted Grotesk, SIL Open Font License 1.1 (assets/fonts/OFL-*.txt).
+Fonts: Hanken Grotesk, Schibsted Grotesk, Noto Sans TC and Noto Sans JP, SIL Open Font License 1.1 (assets/fonts/OFL-*.txt).
 
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js, GPL-2.0-or-later, no third-party library.
 
