@@ -250,3 +250,11 @@ html.sp-no-motion .ks-ticker .ks-ticker__set { flex-wrap: wrap; }
 /* spacing fixes */
 .ks-foot__menu .wp-block-navigation__container { gap: 6px; }
 .ks-journal .ks-posts { padding-bottom: 0; }
+
+/* stage 2 fix: calmer italic ticker, single-line static ticker on narrow screens */
+.ks-ticker--b .ks-ticker__item { font-variation-settings: "WONK" 0, "SOFT" 0; font-size: 1.5rem; }
+@media (max-width: 781px) {
+	html.sp-no-motion .ks-ticker .ks-ticker__set { flex-wrap: nowrap; }
+	.ks-ticker .ks-ticker__item { font-size: 1.375rem; }
+}
+@media (max-width: 781px) { .ks-bench__card { margin-right: 20px; } }
