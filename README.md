@@ -221,6 +221,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/koma-manga"><img src="themes/koma-manga/screenshots/home-desktop.webp" width="260" alt="Koma Manga"></a><br><a href="themes/koma-manga">Koma Manga</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/komugi-pan"><img src="themes/komugi-pan/screenshots/home-desktop.webp" width="260" alt="Komugi Pan"></a><br><a href="themes/komugi-pan">Komugi Pan</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/komugi-school"><img src="themes/komugi-school/screenshots/home-desktop.webp" width="260" alt="Komugi School"></a><br><a href="themes/komugi-school">Komugi School</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kosei-architects"><img src="themes/kosei-architects/screenshots/home-desktop.webp" width="260" alt="Kosei Architects"></a><br><a href="themes/kosei-architects">Kosei Architects</a></td>
 </tr>
 <tr>
