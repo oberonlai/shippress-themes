@@ -14,13 +14,9 @@
 <figure class="wp-block-image size-full kt-slide kt-slide--1"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01.webp' ) ); ?>" alt="<?php echo esc_attr( kyugo_training_t( 'alt_p01' ) ); ?>" loading="eager" fetchpriority="high"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-slide kt-slide--2"} -->
-<figure class="wp-block-image size-full kt-slide kt-slide--2"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02.webp' ) ); ?>" alt="<?php echo esc_attr( kyugo_training_t( 'alt_p02' ) ); ?>"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-slide kt-slide--3"} -->
-<figure class="wp-block-image size-full kt-slide kt-slide--3"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03.webp' ) ); ?>" alt="<?php echo esc_attr( kyugo_training_t( 'alt_p03' ) ); ?>"/></figure>
-<!-- /wp:image --></div>
+<!-- wp:html -->
+<div class="kt-slides" aria-hidden="true"><img class="kt-slide--2" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02.webp' ) ); ?>" alt="" loading="eager"/><img class="kt-slide--3" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03.webp' ) ); ?>" alt="" loading="eager"/></div>
+<!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kt-hero__text","layout":{"type":"default"}} -->

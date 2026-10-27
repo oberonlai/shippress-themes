@@ -128,7 +128,8 @@ a { text-underline-offset: .2em; }
 .kt-cta--fill::before { background-color: var(--kt-olive); border-color: var(--kt-olive); }
 .kt-cta:hover::before { transform: scale(1.06); }
 .kt-cta--fill:hover::before { background-color: var(--kt-deep); }
-.kt-cta__label { font-size: .6875rem; line-height: 1; margin: 0 0 8px; align-self: end; color: inherit; opacity: .7; }
+.kt-cta__label { font-size: .6875rem; line-height: 1; margin: 0 0 8px; align-self: end; color: var(--kt-muted); }
+.kt-cta--line .kt-cta__label { color: rgba(255, 255, 255, .8); }
 .kt-cta__link { font: 700 1rem/1.4 var(--kt-head); align-self: start; margin: 0; }
 .kt-cta__link a { color: inherit; text-decoration: underline; }
 .kt-cta--line, .kt-cta--line a { color: #fff; }
@@ -136,7 +137,8 @@ a { text-underline-offset: .2em; }
 /* ---------- 1 hero ---------- */
 .kt-hero { position: relative; }
 .kt-hero__stage { position: relative; height: clamp(640px, 100svh, 900px); overflow: clip; background: #d9dcd6; }
-.kt-hero__stage .kt-slide { position: absolute; inset: 0; margin: 0; }
+.kt-hero__stage .kt-slide, .kt-hero__stage .kt-slides { position: absolute; inset: 0; margin: 0; }
+.kt-hero__stage .kt-slides img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 35% 40%; }
 .kt-hero__stage .kt-slide img { width: 100%; height: 100%; object-fit: cover; object-position: 35% 40%; }
 .kt-hero__stage::before { content: ""; position: absolute; inset: 0 0 auto; height: 140px; background: linear-gradient(180deg, rgba(0, 0, 0, .45) 0, rgba(0, 0, 0, 0) 100%); z-index: 3; pointer-events: none; }
 .kt-hero__stage::after { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(150deg, rgba(90, 97, 72, 0) 38%, rgba(90, 97, 72, .72) 66%, rgba(138, 145, 112, .92) 100%); }
@@ -209,7 +211,7 @@ html.sp-no-motion .kt-slide--2, html.sp-no-motion .kt-slide--3, .editor-styles-w
 .kt-stack__count { grid-column: 2; display: flex; align-items: baseline; justify-content: flex-end; gap: 14px; margin: 0; font-family: var(--kt-head); color: #fff; padding-right: 0; }
 .kt-stack__now { font-size: 2.5rem; font-weight: 600; line-height: 1; }
 .kt-stack__div { width: 1px; height: 24px; background: rgba(255, 255, 255, .4); align-self: center; }
-.kt-stack__total { font-size: 1rem; opacity: .6; }
+.kt-stack__total { font-size: 1rem; color: rgba(255, 255, 255, .7); }
 .kt-stack__arrow { appearance: none; border: 0; background: none; width: 44px; height: 44px; cursor: pointer; position: relative; padding: 0; }
 .kt-stack__arrow::before { content: ""; position: absolute; left: 12px; top: 14px; width: 14px; height: 14px; border: solid #fff; border-width: 0 0 1.5px 1.5px; transform: rotate(45deg); }
 .kt-stack__arrow--next::before { transform: rotate(-135deg); left: 8px; }
@@ -231,9 +233,10 @@ html.sp-no-motion .kt-slide--2, html.sp-no-motion .kt-slide--3, .editor-styles-w
 	.kt-card__sheet, .kt-card__panel { position: relative; left: auto; top: auto; width: calc(100% - 24px); margin: -64px 0 0 24px; padding: 32px 24px; }
 	.kt-card__sheet { position: absolute; left: 24px; right: auto; bottom: 0; top: 40%; margin: 0; width: calc(100% - 24px); height: calc(60% - 0px); transform: translate(10px, 8px) rotate(1.5deg); }
 	.kt-card__sheet--2 { transform: translate(20px, 16px) rotate(3deg); }
-	.kt-card__panel { padding: 32px 24px 28px; }
+	.kt-card__panel { padding: 88px 24px 28px; }
 	.kt-stack { padding-inline: 20px; }
-	.kt-stack__ctrl { order: 2; margin: 20px 0 0; }
+	.kt-stack__cards { padding-bottom: 36px; }
+	.kt-stack__ctrl { order: 2; margin: 28px 0 0; }
 	.kt-stack.is-js { display: flex; flex-direction: column; }
 	.kt-stack.is-js .kt-stack__ctrl { order: 2; }
 	.kt-stack__count { justify-content: center; grid-column: 2; }
@@ -298,10 +301,10 @@ html.sp-no-motion .kt-slide--2, html.sp-no-motion .kt-slide--3, .editor-styles-w
 .kt-stat { display: grid; grid-template-columns: 1fr auto; align-content: start; }
 .kt-stat__dash { grid-column: 1 / -1; width: 24px; height: 1px; background: rgba(255, 255, 255, .4); margin-bottom: 20px; }
 .kt-stat__title { grid-column: 1; font-size: 1.25rem; line-height: 1.5; color: #fff; }
-.kt-stat__sub { grid-column: 1; font: 700 1rem/1.5 var(--kt-head); opacity: .85; }
+.kt-stat__sub { grid-column: 1; font: 700 1rem/1.5 var(--kt-head); color: rgba(255, 255, 255, .85); }
 .kt-stat__num { grid-column: 2; grid-row: 2 / 4; text-align: right; margin: 0; font: 700 var(--wp--preset--font-size--stat)/1 var(--kt-head); }
 .kt-stat__num small { font-size: 1.5rem; margin-left: 6px; font-weight: 700; }
-.kt-stat__cap { grid-column: 2; text-align: right; font-size: .6875rem; opacity: .7; margin-top: 8px; }
+.kt-stat__cap { grid-column: 2; text-align: right; font-size: .6875rem; color: rgba(255, 255, 255, .75); margin-top: 8px; }
 @media (max-width: 781px) {
 	.kt-data { padding: 72px 20px; }
 	.kt-data__h { font-size: 1.75rem; margin-bottom: 40px; }
@@ -374,11 +377,11 @@ html.sp-no-motion .kt-slide--2, html.sp-no-motion .kt-slide--3, .editor-styles-w
 .kt-foot__grid { display: flex; justify-content: space-between; gap: 32px; align-items: flex-start; flex-wrap: wrap; }
 .kt-foot__brand { display: flex; align-items: center; gap: 14px; margin-bottom: 18px; }
 .kt-foot__name, .kt-foot__name a { font: 700 1.375rem/1 var(--kt-head); color: #fff; margin: 0; }
-.kt-foot__info { font-size: .8125rem; line-height: 1.8; opacity: .85; }
+.kt-foot__info { font-size: .8125rem; line-height: 1.8; color: rgba(255, 255, 255, .85); }
 .kt-foot__pills { display: flex; gap: 12px; flex-wrap: wrap; }
 .kt-pill a { display: inline-flex; align-items: center; height: 40px; padding: 0 20px; border: 1px solid rgba(255, 255, 255, .6); border-radius: 999px; font: 700 .8125rem/1 var(--kt-head); transition: background .3s var(--kt-ease), color .3s var(--kt-ease); }
 .kt-pill a:hover { background: #fff; color: #3E3E3E; }
-.kt-foot__legal { margin-top: 36px; font-size: .6875rem; opacity: .6; }
+.kt-foot__legal { margin-top: 36px; font-size: .6875rem; color: rgba(255, 255, 255, .7); }
 @media (max-width: 781px) { .kt-foot { padding: 44px 20px 36px; } }
 
 /* ---------- plain templates ---------- */
