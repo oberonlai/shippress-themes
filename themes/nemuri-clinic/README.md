@@ -15,3 +15,6 @@ sp-scroll: `sp-parallax` on the hero photograph and the study-room band, `sp-rev
 
 ## Photography
 All photographs are generated documentary interiors (no text, no logos) in one low-key evening style.
+
+## Inner pages
+`page-about`, `page-symptoms`, `page-night-study`, `page-treatment`, `page-team`, `page-fees`, `page-first-visit`, `page-stories` (English; the header menu and home links all point to them). They reuse the photo rows, half-disc headings and fee list.
