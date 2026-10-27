@@ -50,6 +50,7 @@ License: SIL Open Font License 1.1 (assets/fonts/OFL-NotoSansTC.txt, assets/font
 = Images =
 
 All photographs in assets/images/ were generated with AI (Grok Build) for this theme and are released under GPL-2.0-or-later. They show fictional scenes and no real people or brands.
+Files: assets/images/demo/p09-moisture-meter.webp, assets/images/p01-hero-skirting.webp, assets/images/p02-desk-dusk.webp, assets/images/p03-ceiling-bucket.webp, assets/images/p04-smoke-kitchen.webp, assets/images/p05-damp-paint.webp, assets/images/p06-tagging-contents.webp, assets/images/p07-phone-notebook.webp, assets/images/p08-front-door.webp, assets/images/p09-moisture-meter.webp, assets/images/p10-report-table.webp, assets/images/p11-floor-plan.webp, assets/images/p12-cellar-stairs.webp, assets/images/p13-smoke-window.webp, assets/images/p14-buckled-floor.webp, assets/images/p15-corridor-door.webp, assets/images/p16-drying-room.webp, assets/images/p17-adjuster-hall.webp
 
 = Scripts =
 
