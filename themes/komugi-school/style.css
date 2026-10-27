@@ -258,3 +258,42 @@ html.sp-no-motion .ks-ticker .ks-ticker__set { flex-wrap: wrap; }
 	.ks-ticker .ks-ticker__item { font-size: 1.375rem; }
 }
 @media (max-width: 781px) { .ks-bench__card { margin-right: 20px; } }
+
+/* ---------------------------------------------------------------- inner pages: head (chip bar, H1, lede, bleeding 21:9 photo), sub-sections, closing row, FAQ */
+.ks-phead .ks-bar { padding-top: 36px; padding-bottom: 20px; }
+:is(.ks-main, .editor-styles-wrapper) .ks-pt { margin: 0; padding-block: 12px 0; }
+:is(.ks-main, .editor-styles-wrapper) .ks-lede { font-size: var(--wp--preset--font-size--medium); line-height: 1.5; max-width: 720px; margin: 20px 0 36px; }
+.ks-phead { padding-bottom: 8px; }
+.ks-pphoto { margin-right: calc(var(--ks-gr) * -1); aspect-ratio: 21 / 9; }
+.ks-pphoto > figure { margin: 0; height: 100%; }
+.ks-pphoto img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+@media (max-width: 781px) { .ks-pphoto { aspect-ratio: 4 / 3; } }
+.ks-rows--tight .ks-row, .ks-row--plain { min-height: 0; }
+@media (min-width: 960px) {
+	:is(.ks-main, .editor-styles-wrapper) .ks-row--plain .ks-row__when { padding-block: 24px; }
+}
+:is(.ks-main, .editor-styles-wrapper) .ks-row--plain { grid-template-columns: 1fr; }
+@media (min-width: 960px) {
+	:is(.ks-main, .editor-styles-wrapper) .ks-row--plain { grid-template-columns: 2fr 6fr 4fr; }
+}
+.ks-tick .ks-sechead { margin-bottom: 28px; }
+.ks-tick .ks-ticker + .ks-ticker { margin-top: 4px; }
+:is(.ks-main, .editor-styles-wrapper) .ks-sub { display: grid; grid-template-columns: 1fr; gap: 16px; border-top: 1px solid var(--ks-rule); padding-block: 32px; }
+.ks-subs { border-bottom: 1px solid var(--ks-rule); padding-bottom: 0; }
+:is(.ks-main, .editor-styles-wrapper) .ks-sub__h { font-size: var(--wp--preset--font-size--large); line-height: 1.35; margin: 0; font-weight: 400; }
+.ks-sub__b > * + * { margin-top: 1rem; }
+.ks-sub__b > p { margin-block-end: 0; }
+@media (min-width: 960px) {
+	:is(.ks-main, .editor-styles-wrapper) .ks-sub { grid-template-columns: 4fr 7fr; column-gap: 24px; padding-block: 40px; }
+	.ks-sub__b { grid-column: 2; }
+}
+:is(.ks-main, .editor-styles-wrapper) .ks-close { margin-top: var(--ks-sec); border-top: 1px solid var(--ks-rule); border-bottom: 1px solid var(--ks-rule); padding-block: 24px; }
+.ks-close__in { gap: 12px 16px; align-items: center; }
+:is(.ks-main, .editor-styles-wrapper) .ks-close__text, :is(.ks-main, .editor-styles-wrapper) .ks-close__link { margin: 0; font-family: var(--ks-ui); font-size: .9375rem; }
+.ks-close__link { margin-left: auto !important; }
+.ks-close__link a { text-decoration: none; border-bottom: 1px solid var(--ks-ink); }
+.ks-faq { border-bottom: 1px solid var(--ks-rule); padding-top: 24px !important; }
+:is(.ks-main, .editor-styles-wrapper) .ks-faq__item { border-top: 1px solid var(--ks-rule); padding-block: 22px; margin: 0; }
+.ks-faq__item summary { font-family: var(--ks-display); font-size: var(--wp--preset--font-size--large); line-height: 1.4; cursor: pointer; list-style-position: outside; }
+.ks-faq__item[open] summary { margin-bottom: 14px; }
+.ks-faq__item > p { max-width: 720px; margin: 0 0 12px; }
