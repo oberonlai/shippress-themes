@@ -100,3 +100,26 @@ function nemuri_clinic_cjk_excerpt( $text, $num_words, $more, $original_text ) {
 	return mb_substr( $plain, 0, $limit ) . ( null === $more ? '…' : $more );
 }
 add_filter( 'wp_trim_words', 'nemuri_clinic_cjk_excerpt', 10, 4 );
+
+/**
+ * Language switch markup: the five sample languages, the current one marked. Links carry ?lang= for multilingual setups.
+ *
+ * @param string $class Wrapper class.
+ * @return string
+ */
+function nemuri_clinic_lang_switch( $class ) {
+	$labels  = array(
+		'en'    => 'EN',
+		'zh-TW' => '中文',
+		'ja'    => '日本語',
+		'fr'    => 'FR',
+		'de'    => 'DE',
+	);
+	$current = nemuri_clinic_lang();
+	$out     = '<nav class="' . esc_attr( $class ) . '" aria-label="Language">';
+	foreach ( $labels as $code => $label ) {
+		$cur  = $code === $current ? ' aria-current="true"' : '';
+		$out .= '<a href="' . esc_url( home_url( '/?lang=' . $code ) ) . '" hreflang="' . esc_attr( $code ) . '" lang="' . esc_attr( $code ) . '"' . $cur . '>' . esc_html( $label ) . '</a>';
+	}
+	return $out . '</nav>';
+}

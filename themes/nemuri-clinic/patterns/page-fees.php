@@ -8,6 +8,15 @@
  * Description: Inner page: Fees
  */
 ?>
+<!-- wp:group {"className":"nc-phead","layout":{"type":"default"}} -->
+<div class="wp-block-group nc-phead"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nc-phead__photo"} -->
+<figure class="wp-block-image size-large nc-phead__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/strip-diary.webp' ) ); ?>" alt="<?php echo esc_attr( 'Open sleep diary and pen on a table.' ); ?>"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"className":"nc-phead__bar"} -->
+<p class="nc-phead__bar"><span class="nc-phead__t"><?php echo wp_kses_post( nemuri_clinic_t( 'nph05' ) ); ?></span><span class="nc-bar__go" aria-hidden="true"></span></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 <!-- wp:group {"align":"full","className":"nc-sec nc-sec--white nc-pagesec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:group {"className":"nc-prose nc-prose--lead","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-prose nc-prose--lead">
@@ -33,8 +42,8 @@
 <!-- wp:paragraph {"className":"nc-fees__note"} -->
 <p class="nc-fees__note"><?php echo wp_kses_post( nemuri_clinic_t( 'k772da7cf' ) ); ?></p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group --><!-- wp:group {"className":"nc-dome nc-dome--ground","layout":{"type":"default"}} -->
-<div class="wp-block-group nc-dome nc-dome--ground"><!-- wp:heading {"level":2,"className":"nc-dome__t"} -->
+<!-- /wp:group --><!-- wp:group {"className":"nc-dome nc-dome--white","layout":{"type":"default"}} -->
+<div class="wp-block-group nc-dome nc-dome--white"><!-- wp:heading {"level":2,"className":"nc-dome__t"} -->
 <h2 class="wp-block-heading nc-dome__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k14674ed6' ) ); ?></h2>
 <!-- /wp:heading -->
 

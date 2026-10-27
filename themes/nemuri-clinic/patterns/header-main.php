@@ -21,6 +21,9 @@
 
 <!-- wp:paragraph {"className":"nc-tel"} -->
 <p class="nc-tel"><span class="nc-tel__l"><?php echo wp_kses_post( nemuri_clinic_t( 'k6ab9375e' ) ); ?></span> <a href="tel:+12065550142">(206) 555-0142</a></p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:paragraph -->
+<!-- wp:html -->
+<?php echo nemuri_clinic_lang_switch( 'nc-langs' ); ?>
+<!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

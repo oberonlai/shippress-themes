@@ -14,6 +14,9 @@
 <!-- wp:paragraph {"className":"nc-lead"} -->
 <p class="nc-lead"><?php echo wp_kses_post( nemuri_clinic_t( 'kcd9c151a' ) ); ?></p>
 <!-- /wp:paragraph -->
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nc-prose__img"} -->
+<figure class="wp-block-image size-large nc-prose__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/strip-corridor.webp' ) ); ?>" alt="<?php echo esc_attr( 'Quiet clinic corridor with soft evening light leading to the waiting area.' ); ?>"/></figure>
+<!-- /wp:image -->
 <!-- wp:heading {"level":2} -->
 <h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'k7af67582' ) ); ?></h2>
 <!-- /wp:heading -->
@@ -35,8 +38,8 @@
 </div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
-<!-- wp:group {"className":"nc-dome nc-dome--ground","layout":{"type":"default"}} -->
-<div class="wp-block-group nc-dome nc-dome--ground"><!-- wp:heading {"level":2,"className":"nc-dome__t"} -->
+<!-- wp:group {"className":"nc-dome nc-dome--white","layout":{"type":"default"}} -->
+<div class="wp-block-group nc-dome nc-dome--white"><!-- wp:heading {"level":2,"className":"nc-dome__t"} -->
 <h2 class="wp-block-heading nc-dome__t"><?php echo wp_kses_post( nemuri_clinic_t( 'kedf7553d' ) ); ?></h2>
 <!-- /wp:heading -->
 
@@ -44,3 +47,4 @@
 <p class="nc-dome__l"><?php echo wp_kses_post( nemuri_clinic_t( 'k5d29295c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
+<!-- wp:pattern {"slug":"nemuri-clinic/front-visit"} /-->

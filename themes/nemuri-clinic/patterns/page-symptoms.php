@@ -8,6 +8,15 @@
  * Description: Inner page: Symptoms
  */
 ?>
+<!-- wp:group {"className":"nc-phead","layout":{"type":"default"}} -->
+<div class="wp-block-group nc-phead"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nc-phead__photo"} -->
+<figure class="wp-block-image size-large nc-phead__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/symptom-3am.webp' ) ); ?>" alt="<?php echo esc_attr( 'Bedside clock reading three in the morning in a dark bedroom.' ); ?>"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"className":"nc-phead__bar"} -->
+<p class="nc-phead__bar"><span class="nc-phead__t"><?php echo wp_kses_post( nemuri_clinic_t( 'nph02' ) ); ?></span><span class="nc-bar__go" aria-hidden="true"></span></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 <!-- wp:group {"align":"full","className":"nc-sec nc-sec--white nc-pagesec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:group {"className":"nc-prose nc-prose--lead","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-prose nc-prose--lead">

@@ -30,6 +30,10 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
+<!-- wp:html -->
+<?php echo nemuri_clinic_lang_switch( 'nc-langs nc-langs--foot' ); ?>
+<!-- /wp:html -->
+
 <!-- wp:paragraph {"className":"nc-f__copy"} -->
 <p class="nc-f__copy"><?php echo wp_kses_post( nemuri_clinic_t( 'kcb9f632d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
