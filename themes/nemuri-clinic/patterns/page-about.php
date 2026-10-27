@@ -10,15 +10,29 @@
 ?>
 <!-- wp:group {"align":"full","className":"nc-sec nc-sec--white nc-pagesec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:group {"className":"nc-prose","layout":{"type":"default"}} -->
-<div class="wp-block-group nc-prose"><!-- wp:paragraph -->
-<p>Dr. Hana Ellery founded Nemuri Clinic in Seattle in 2016, after years of working night shifts and seeing how hard it was for working adults to reach sleep medicine during office hours. Most people who struggle to sleep face a poor choice: take time off work or let the exhaustion pile up.</p>
+<div class="wp-block-group nc-prose">
+<!-- wp:paragraph {"className":"nc-lead"} -->
+<p class="nc-lead">Founded in 2016, Nemuri Clinic is an evening sleep-medicine clinic in Seattle designed for working adults who struggle to fall or stay asleep. We provide thorough diagnostic evaluations and evidence-based sleep care during hours that fit your working life.</p>
 <!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Evening hours built for working adults</h2>
+<!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>So we open when the workday ends. Consultations run into the evening, and the clinic is built around one dedicated study room, with one person per night and a technologist awake throughout.</p>
+<p>Dr. Hana Ellery founded Nemuri Clinic in 2016 after years of clinical work in hospital sleep medicine. During those years, she noticed a persistent pattern: working adults with debilitating sleep difficulties regularly cancelled appointments or postponed evaluations because clinic hours conflicted with their professional responsibilities. Taking half a day off to discuss exhaustion often felt impossible for the people who needed care most. Nemuri Clinic was created to eliminate that barrier entirely. Our consultations run throughout the afternoon from 13:00 to 17:00 and continue into the evening from 17:30 until 21:00, Tuesday through Friday, with additional Saturday hours from 09:00 to 15:00. By keeping our doors open late in Suite 210 on Alder Lane, we ensure that an evaluation fits naturally around your working day rather than interrupting it.</p>
 <!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">A single quiet study room, not an assembly line</h2>
+<!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>We do not mail automated summaries. The physician and you sit down together and read the recorded night line by line, in plain English, and agree on a path that fits your life.</p>
-<!-- /wp:paragraph --></div>
+<p>Most commercial sleep centres operate multiple beds in anonymous laboratory environments that feel clinical and hurried. We deliberately chose a different path. Nemuri Clinic maintains just one private overnight study room, furnished with a comfortable bed, pale linen, soft lighting, and quiet acoustic insulation. When you stay with us for an in-lab polysomnography study, you are the only patient in the clinic. Senior sleep technologist Owen Mbeki monitors your physiological signals throughout the night from his adjoining control desk, maintaining vigilant, unhurried attention on your sleep architecture, respiratory patterns, and oxygenation. There are no competing bells, no unfamiliar ward sounds, and no rushed morning discharges. You check in calmly at 20:30, wake naturally by 07:00, and leave with a warm cup of coffee ready for your morning.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Reading your night together in plain language</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Diagnostic sleep testing often leaves patients with opaque medical summaries, confusing numerical indices, and little practical understanding of their condition. At Nemuri Clinic, we believe the diagnostic process is complete only when you understand what your night looked like. At your 45-minute results visit, scheduled within 10 days of your study, Dr. Hana Ellery or Dr. Tomas Varga sits beside you to review your sleep graphs step by step. We look at your sleep stages, awakenings, airflow changes, and oxygen levels together, explaining every finding in clear, plain language. We never hand you a generic prescription or rush you toward a single predetermined therapy. Instead, we discuss how your physiological data connects with your daily fatigue and collaborate with you on a sensible, sustainable path forward.</p>
+<!-- /wp:paragraph -->
+</div>
 <!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:group {"className":"nc-dome nc-dome--ground","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-dome nc-dome--ground"><!-- wp:heading {"level":2,"className":"nc-dome__t"} -->
@@ -67,3 +81,6 @@
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-consult-room.webp' ) ); ?>","dimRatio":0,"align":"full","className":"nc-band sp-parallax","layout":{"type":"default"}} -->
+<div class="wp-block-cover alignfull nc-band sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( 'Dim consultation room at dusk with an armchair, glowing table lamp, and sleep recorder.' ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-consult-room.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"></div></div>
+<!-- /wp:cover -->

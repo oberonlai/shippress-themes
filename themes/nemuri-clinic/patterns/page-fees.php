@@ -9,6 +9,15 @@
  */
 ?>
 <!-- wp:group {"align":"full","className":"nc-sec nc-sec--white nc-pagesec","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:group {"className":"nc-prose nc-prose--lead","layout":{"type":"default"}} -->
+<div class="wp-block-group nc-prose nc-prose--lead">
+<!-- wp:paragraph {"className":"nc-lead"} -->
+<p class="nc-lead">Nemuri Clinic operates as a self-pay medical practice in Seattle, providing transparent and straightforward pricing in USD for all consultations, diagnostic sleep studies, and treatment programmes. We provide an itemised receipt for every visit so you can submit claims to your insurance provider.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- wp:group {"align":"full","className":"nc-sec nc-sec--white nc-pagesec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:table {"className":"nc-fees__table"} -->
 <figure class="wp-block-table nc-fees__table"><table><tbody>
 <tr><td class="nc-fees__i">First consultation</td><td class="nc-fees__d">60 min with a sleep physician, two-week sleep diary handed out</td><td class="nc-fees__p">$180</td></tr>
@@ -54,5 +63,29 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- wp:group {"align":"full","className":"nc-sec nc-sec--white nc-pagesec","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:group {"className":"nc-prose","layout":{"type":"default"}} -->
+<div class="wp-block-group nc-prose">
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Consultation and diagnostic fees</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>We believe in complete financial transparency with no hidden laboratory charges or surprise facility fees. Our initial consultation lasts 60 minutes with a sleep physician, includes a comprehensive medical review, and provides you with a two-week sleep diary for $180. Follow-up consultations lasting 30 minutes are priced at $95. When diagnostic sleep recording is indicated, our portable home sleep test costs $320, which covers the one-night recorder, clinic set-up instruction, and physician interpretation. A full overnight study in our private Seattle room costs $1,250, including overnight stay, technologist monitoring from 20:30 to 07:00, and full polysomnographic analysis. Following any study, a 45-minute results visit to review your sleep graphs with your physician is $140.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Treatment programmes and therapy support</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Ongoing therapy fees at Nemuri Clinic are structured clearly so you can plan your care with confidence. Our specialized Cognitive Behavioural Therapy for Insomnia (CBT-I) programme with sleep psychologist Dr. Priya Raman costs $780, encompassing six weekly 50-minute individual clinical sessions dedicated to restoring healthy sleep patterns. For patients diagnosed with obstructive sleep apnea who begin respiratory therapy, our CPAP set-up and first-month check service is priced at $210. This service includes a comprehensive mask fitting and education session with nurse Grace Lin, personalized pressure adjustment coaching, and a formal objective data download and compliance check at four weeks. All fees are charged in USD at the time of service.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Billing policies, receipts, and cancellations</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Nemuri Clinic is a self-pay clinic, and payment is due at the time of your visit. We accept major credit cards, debit cards, and electronic payments. Following every consultation, diagnostic test, or therapy session, we provide an itemised receipt containing detailed diagnostic codes and procedural descriptions. You may submit this itemised receipt directly to your insurance company or health savings account for potential reimbursement; however, we cannot promise what your insurer will reimburse. If you need to reschedule or cancel an appointment, please provide at least 24 hours of notice. Cancellations made with less than 24 hours of advance notice incur a fixed $60 cancellation fee.</p>
+<!-- /wp:paragraph -->
+</div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
