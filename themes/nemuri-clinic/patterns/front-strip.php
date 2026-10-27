@@ -26,7 +26,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nc-strip__set","layout":{"type":"default"}} -->
-<div class="wp-block-group nc-strip__set" aria-hidden="true">
+<div class="wp-block-group nc-strip__set">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nc-strip__img"} -->
 <figure class="wp-block-image size-large nc-strip__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/strip-corridor.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->

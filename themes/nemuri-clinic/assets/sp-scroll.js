@@ -5,6 +5,7 @@
 			(navigator.webdriver && !/[?&]sp-motion/.test(q)) ||
 			(w.matchMedia && matchMedia('(prefers-reduced-motion:reduce)').matches);
 	h.classList.add('sp-js');
+	d.querySelectorAll(".sp-marquee .nc-strip__set:last-child").forEach(function (e) { e.setAttribute("aria-hidden", "true"); });
 	if (st || !w.IntersectionObserver) { h.classList.add('sp-no-motion'); return; }
 
 	function count(e) {

@@ -19,7 +19,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"full","className":"nc-fees","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull nc-fees"><!-- wp:table {"className":"nc-fees__table"} -->
+<div class="wp-block-group alignfull nc-fees"><!-- wp:html -->
 <figure class="wp-block-table nc-fees__table"><table><tbody>
 <tr><td class="nc-fees__i">First consultation</td><td class="nc-fees__d">60 min with a sleep physician, two-week sleep diary handed out</td><td class="nc-fees__p">$180</td></tr>
 <tr><td class="nc-fees__i">Follow-up consultation</td><td class="nc-fees__d">30 min</td><td class="nc-fees__p">$95</td></tr>
@@ -29,7 +29,7 @@
 <tr><td class="nc-fees__i">CBT-I programme</td><td class="nc-fees__d">six weekly 50-min sessions with a sleep psychologist</td><td class="nc-fees__p">$780</td></tr>
 <tr><td class="nc-fees__i">CPAP set-up and first-month check</td><td class="nc-fees__d">fitting, coaching, data check at four weeks</td><td class="nc-fees__p">$210</td></tr>
 </tbody></table></figure>
-<!-- /wp:table -->
+<!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"nc-fees__note"} -->
 <p class="nc-fees__note">Itemised receipt provided for every visit. Self-pay fees in USD. We cannot promise what your insurer will reimburse.</p>
