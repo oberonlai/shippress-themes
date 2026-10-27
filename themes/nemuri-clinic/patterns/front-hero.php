@@ -15,15 +15,15 @@
 
 <!-- wp:group {"className":"nc-hero__panel","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-hero__panel"><!-- wp:heading {"level":1,"className":"nc-hero__lead"} -->
-<h1 class="wp-block-heading nc-hero__lead"><span class="nc-hero__l1">Can't stay asleep?</span> <span class="nc-hero__l2">Let's read the night together.</span></h1>
+<h1 class="wp-block-heading nc-hero__lead"><span class="nc-hero__l1"><?php echo wp_kses_post( nemuri_clinic_t( 'k267cf93e' ) ); ?></span> <span class="nc-hero__l2"><?php echo wp_kses_post( nemuri_clinic_t( 'kdec56bb2' ) ); ?></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-hero__p"} -->
-<p class="nc-hero__p">Nemuri Clinic is an evening sleep clinic in Seattle for working adults. We listen first, record one night at home or in our study room, and sit with you to read it.</p>
+<p class="nc-hero__p"><?php echo wp_kses_post( nemuri_clinic_t( 'k0ee0337d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"nc-hero__bar"} -->
-<p class="nc-hero__bar"><a href="/notes/"><span class="nc-bar__d">2026.11.03</span><span class="nc-bar__t">Friday consultations now run until 21:00</span><span class="nc-bar__go" aria-hidden="true"></span></a></p>
+<p class="nc-hero__bar"><a href="/notes/"><span class="nc-bar__d">2026.11.03</span><span class="nc-bar__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k97831474' ) ); ?></span><span class="nc-bar__go" aria-hidden="true"></span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

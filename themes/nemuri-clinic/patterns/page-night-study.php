@@ -12,47 +12,47 @@
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:group {"className":"nc-prose","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-prose">
 <!-- wp:paragraph {"className":"nc-lead"} -->
-<p class="nc-lead">An accurate recording of your sleep provides the objective physiological data needed to understand why your nights feel fragmented or unrefreshing. Depending on your symptoms and clinical history, we offer both portable home sleep testing kits and private overnight studies in our Seattle clinic.</p>
+<p class="nc-lead"><?php echo wp_kses_post( nemuri_clinic_t( 'kf3b6234c' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Home sleep testing kit</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'k4ecfbe3b' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>For patients whose symptoms primarily suggest obstructive breathing disorders, a home sleep test offers a convenient and effective way to record sleep in your own bed. Sleep technologist Lucía Ferrer prepares your compact diagnostic kit and walks you through the equipment during an afternoon clinic visit. The kit includes an unobtrusive chest belt to monitor respiratory effort, a soft nasal cannula to measure airflow, and a lightweight finger clip to record blood oxygen levels and pulse rate. You take the kit home, apply the comfortable sensors at bedtime, and sleep in your familiar environment. The following morning, you return the recorder to our front desk. The $320 fee covers the kit preparation, personalized set-up instruction, and a physician reading.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kf237feae' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">In-lab night study in our private room</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'k05bf54a9' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>When symptoms are complex, involving insomnia, unusual nighttime movements, or unrefreshing sleep of unclear origin, we conduct a full overnight polysomnography in our private clinic suite. You check in at 20:30, entering a quiet, dim bedroom designed with comfortable furnishings, pale linen, and acoustic privacy. A sleep technologist gently applies surface sensors to your scalp, face, chest, and legs using gentle medical adhesive. These sensors monitor brainwave activity, eye movements, muscle tone, heart rhythm, respiratory effort, and oxygen saturation without pain. You settle into sleep at your customary bedtime. In the morning, you wake naturally by 07:00, the sensors are gently removed, and you enjoy a warm cup of coffee before heading to work. The $1,250 fee includes your stay, continuous monitoring, and detailed physician analysis.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k3a9a1590' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Who watches your night</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'k48a10661' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Your night study is never recorded unattended by automated software. Senior sleep technologist Owen Mbeki and sleep technologist Lucía Ferrer oversee all overnight polysomnography studies from our dedicated control station directly adjacent to the study room. They monitor real-time physiological signal traces across the night, checking sensor impedance and ensuring data integrity while you rest peacefully. If a sensor becomes loose while you shift in bed, our technologist can quietly reposition it with minimal disruption to your sleep. Having an experienced technologist on watch ensures the safety and precision of your study, producing pristine clinical data that gives your physician an accurate, reliable basis for interpretation.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k6620adf7' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">What to bring for your overnight stay</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'ka2f05652' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>To ensure your night in our Seattle clinic feels as natural and comfortable as possible, please bring loose, comfortable sleepwear such as pyjamas or a t-shirt and shorts. Pack your personal toiletries, a toothbrush, and any prescription medications you routinely take in the evening or morning. You are welcome to bring a favourite book or reading material to help you unwind before bedtime. Please avoid consuming caffeinated beverages, alcohol, or heavy daytime naps after 12:00 on the day of your study. We also request that you arrive with clean, dry hair free of styling gels or oils, which allows our scalp sensors to adhere cleanly and maintain clear signal connectivity throughout the recording.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kce50fb75' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">What your sleep reading reveals</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'k68d95c10' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>The overnight recording generates a comprehensive sleep architecture chart called a hypnogram. Rather than offering a single score, the hypnogram maps your journey through the different physiological stages of sleep across the night, showing how smoothly you transition from light sleep into deep slow-wave restoration and rapid-eye-movement dream states. It documents exactly when micro-arousals occur, whether your oxygen saturation dips, and how muscle tension or breathing pauses disrupt sleep continuity. It is important to note that sleep medicine cannot promise a definitive diagnosis from a single night of recording, as sleep varies naturally; however, this objective trace provides an invaluable roadmap for your physician during your results visit.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k83f6c2c6' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:group {"className":"nc-dome nc-dome--ground","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-dome nc-dome--ground"><!-- wp:heading {"level":2,"className":"nc-dome__t"} -->
-<h2 class="wp-block-heading nc-dome__t">How the night is read</h2>
+<h2 class="wp-block-heading nc-dome__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k436fef75' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-dome__l"} -->
-<p class="nc-dome__l">Line by line, with you</p>
+<p class="nc-dome__l"><?php echo wp_kses_post( nemuri_clinic_t( 'k66ecb41c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"align":"full","className":"nc-sec nc-pagesec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-pagesec"><!-- wp:group {"className":"nc-symptoms__rows sp-stagger","layout":{"type":"default"}} -->
@@ -64,11 +64,11 @@
 
 <!-- wp:group {"className":"nc-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-row__body"><!-- wp:heading {"level":3,"className":"nc-dot"} -->
-<h3 class="wp-block-heading nc-dot">Sensors and set-up</h3>
+<h3 class="wp-block-heading nc-dot"><?php echo wp_kses_post( nemuri_clinic_t( 'kb90735df' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Soft sensors on chest, finger and head. We explain each one and you can ask to stop at any point.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k4e120f23' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -79,11 +79,11 @@
 
 <!-- wp:group {"className":"nc-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-row__body"><!-- wp:heading {"level":3,"className":"nc-dot"} -->
-<h3 class="wp-block-heading nc-dot">A technologist on watch</h3>
+<h3 class="wp-block-heading nc-dot"><?php echo wp_kses_post( nemuri_clinic_t( 'kd02f105e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Owen Mbeki or another technologist stays at the desk throughout, checking the signal and the room.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kf1e2f568' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -94,15 +94,15 @@
 
 <!-- wp:group {"className":"nc-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-row__body"><!-- wp:heading {"level":3,"className":"nc-dot"} -->
-<h3 class="wp-block-heading nc-dot">Or at home</h3>
+<h3 class="wp-block-heading nc-dot"><?php echo wp_kses_post( nemuri_clinic_t( 'k22d805e0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Lucía Ferrer sets you up during an evening pickup and shows you how to wear the recorder.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kddf9ee39' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/fees/">Fees</a></p>
+<p class="nc-more"><a href="/fees/"><?php echo wp_kses_post( nemuri_clinic_t( 'k006300ef' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

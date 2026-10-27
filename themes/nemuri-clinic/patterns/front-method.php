@@ -10,11 +10,11 @@
 ?>
 <!-- wp:group {"className":"nc-dome nc-dome--white","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-dome nc-dome--white"><!-- wp:heading {"className":"nc-dome__t"} -->
-<h2 class="wp-block-heading nc-dome__t">How a night is read</h2>
+<h2 class="wp-block-heading nc-dome__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k05dbc2cf' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-dome__l"} -->
-<p class="nc-dome__l">Night study</p>
+<p class="nc-dome__l"><?php echo wp_kses_post( nemuri_clinic_t( 'k48b089e7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -28,78 +28,78 @@
 <div class="wp-block-group nc-method__stages">
 <!-- wp:group {"className":"nc-stage","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-stage"><!-- wp:paragraph {"className":"nc-label nc-label--s"} -->
-<p class="nc-label nc-label--s">Evening 1</p>
+<p class="nc-label nc-label--s"><?php echo wp_kses_post( nemuri_clinic_t( 'k3e4b55ec' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"nc-stage__t"} -->
-<h3 class="wp-block-heading nc-stage__t">First consultation</h3>
+<h3 class="wp-block-heading nc-stage__t"><?php echo wp_kses_post( nemuri_clinic_t( 'kdd5702e0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We begin with a 60-minute evening consultation with a sleep physician. We listen to your history, review your daytime challenges, and hand you a two-week sleep diary to track your patterns.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k731f8a14' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>You leave with a clear idea of what we will look at next and why.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kaf50d50b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nc-stage","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-stage"><!-- wp:paragraph {"className":"nc-label nc-label--s"} -->
-<p class="nc-label nc-label--s">Two weeks</p>
+<p class="nc-label nc-label--s"><?php echo wp_kses_post( nemuri_clinic_t( 'kb04026e8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"nc-stage__t"} -->
-<h3 class="wp-block-heading nc-stage__t">Your sleep diary</h3>
+<h3 class="wp-block-heading nc-stage__t"><?php echo wp_kses_post( nemuri_clinic_t( 'kf62de068' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>For fourteen consecutive days, you record your bedtimes, waking episodes, and daily routines.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k842a77ad' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This record provides essential context for interpreting any nighttime physiological testing that follows.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kb7119017' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nc-stage","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-stage"><!-- wp:paragraph {"className":"nc-label nc-label--s"} -->
-<p class="nc-label nc-label--s">One night</p>
+<p class="nc-label nc-label--s"><?php echo wp_kses_post( nemuri_clinic_t( 'kb23da1a0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"nc-stage__t"} -->
-<h3 class="wp-block-heading nc-stage__t">Home test or our room</h3>
+<h3 class="wp-block-heading nc-stage__t"><?php echo wp_kses_post( nemuri_clinic_t( 'ka335593a' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We record a single night of sleep, either in your own bed with a compact take-home recorder or in our private clinic room with full polysomnography monitored by a sleep technologist.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k94420571' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Whichever suits your history, the recording is read by a physician, not a program.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kb356cdd4' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nc-stage","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-stage"><!-- wp:paragraph {"className":"nc-label nc-label--s"} -->
-<p class="nc-label nc-label--s">Within 10 days</p>
+<p class="nc-label nc-label--s"><?php echo wp_kses_post( nemuri_clinic_t( 'kead37804' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"nc-stage__t"} -->
-<h3 class="wp-block-heading nc-stage__t">Results visit</h3>
+<h3 class="wp-block-heading nc-stage__t"><?php echo wp_kses_post( nemuri_clinic_t( 'ka3a1ffca' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>You return for a 45-minute evening visit where the physician sits down with you to review the night's recording line by line.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kebfa208d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We explain the findings in plain English and map out the next steps together.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k36ac39c0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/night-study/">How a night study works</a></p>
+<p class="nc-more"><a href="/night-study/"><?php echo wp_kses_post( nemuri_clinic_t( 'k07478946' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

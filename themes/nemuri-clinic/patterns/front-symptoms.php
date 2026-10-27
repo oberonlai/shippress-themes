@@ -11,11 +11,11 @@
 <!-- wp:group {"align":"full","className":"nc-sec nc-sec--white nc-symptoms","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-symptoms"><!-- wp:group {"className":"nc-head","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-head"><!-- wp:heading {"className":"nc-head__t"} -->
-<h2 class="wp-block-heading nc-head__t">What people arrive with</h2>
+<h2 class="wp-block-heading nc-head__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k85030722' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-label"} -->
-<p class="nc-label">Symptoms</p>
+<p class="nc-label"><?php echo wp_kses_post( nemuri_clinic_t( 'kdd296825' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -28,19 +28,19 @@
 
 <!-- wp:group {"className":"nc-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-row__body"><!-- wp:heading {"level":3,"className":"nc-dot"} -->
-<h3 class="wp-block-heading nc-dot">Waking at 3 a.m.</h3>
+<h3 class="wp-block-heading nc-dot"><?php echo wp_kses_post( nemuri_clinic_t( 'k5150e7d9' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>You fall asleep without trouble, but wake in the middle of the night and cannot drift back off.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k3ac54ee0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We examine your sleep patterns and nighttime habits, checking whether underlying breathing issues or conditioned arousal keep you awake.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k8657e28b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/symptoms/">Read more</a></p>
+<p class="nc-more"><a href="/symptoms/"><?php echo wp_kses_post( nemuri_clinic_t( 'k43340e6c' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -52,19 +52,19 @@
 
 <!-- wp:group {"className":"nc-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-row__body"><!-- wp:heading {"level":3,"className":"nc-dot"} -->
-<h3 class="wp-block-heading nc-dot">The snoring someone else heard</h3>
+<h3 class="wp-block-heading nc-dot"><?php echo wp_kses_post( nemuri_clinic_t( 'k95223cb9' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>You may believe you slept through the night, yet someone close to you noticed loud snoring or pauses in your breath.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k9029ccab' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We arrange a recorded night study to measure your airway, oxygen levels, and nighttime breathing stability.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'ka6f99fdb' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/symptoms/">Read more</a></p>
+<p class="nc-more"><a href="/symptoms/"><?php echo wp_kses_post( nemuri_clinic_t( 'k43340e6c' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -76,19 +76,19 @@
 
 <!-- wp:group {"className":"nc-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-row__body"><!-- wp:heading {"level":3,"className":"nc-dot"} -->
-<h3 class="wp-block-heading nc-dot">Sleeping after a night shift</h3>
+<h3 class="wp-block-heading nc-dot"><?php echo wp_kses_post( nemuri_clinic_t( 'ke23bfe23' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Returning home as the sun rises makes restorative rest difficult to protect against daylight and city noise.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k135471a6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We review your shift schedule and light exposure to design a sleep timing routine that supports restorative daytime rest.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k2791dfa7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/symptoms/">Read more</a></p>
+<p class="nc-more"><a href="/symptoms/"><?php echo wp_kses_post( nemuri_clinic_t( 'k43340e6c' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -100,19 +100,19 @@
 
 <!-- wp:group {"className":"nc-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-row__body"><!-- wp:heading {"level":3,"className":"nc-dot"} -->
-<h3 class="wp-block-heading nc-dot">Heavy afternoons at work</h3>
+<h3 class="wp-block-heading nc-dot"><?php echo wp_kses_post( nemuri_clinic_t( 'k58782f03' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Struggling to stay awake through afternoon meetings or long commutes signals unrefreshing sleep.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kc8670133' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We look closely at nocturnal sleep architecture and daytime fatigue patterns to find why your rest is not restoring you.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k2044f844' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/symptoms/">Read more</a></p>
+<p class="nc-more"><a href="/symptoms/"><?php echo wp_kses_post( nemuri_clinic_t( 'k43340e6c' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

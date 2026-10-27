@@ -12,35 +12,35 @@
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:group {"className":"nc-prose","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-prose">
 <!-- wp:paragraph {"className":"nc-lead"} -->
-<p class="nc-lead">Founded in 2016, Nemuri Clinic is an evening sleep-medicine clinic in Seattle designed for working adults who struggle to fall or stay asleep. We provide thorough diagnostic evaluations and evidence-based sleep care during hours that fit your working life.</p>
+<p class="nc-lead"><?php echo wp_kses_post( nemuri_clinic_t( 'k4686a42f' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Evening hours built for working adults</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'k9665881d' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Dr. Hana Ellery founded Nemuri Clinic in 2016 after years of clinical work in hospital sleep medicine. During those years, she noticed a persistent pattern: working adults with debilitating sleep difficulties regularly cancelled appointments or postponed evaluations because clinic hours conflicted with their professional responsibilities. Taking half a day off to discuss exhaustion often felt impossible for the people who needed care most. Nemuri Clinic was created to eliminate that barrier entirely. Our consultations run throughout the afternoon from 13:00 to 17:00 and continue into the evening from 17:30 until 21:00, Tuesday through Friday, with additional Saturday hours from 09:00 to 15:00. By keeping our doors open late in Suite 210 on Alder Lane, we ensure that an evaluation fits naturally around your working day rather than interrupting it.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kac36ab77' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">A single quiet study room, not an assembly line</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'kb49a6a0b' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Most commercial sleep centres operate multiple beds in anonymous laboratory environments that feel clinical and hurried. We deliberately chose a different path. Nemuri Clinic maintains just one private overnight study room, furnished with a comfortable bed, pale linen, soft lighting, and quiet acoustic insulation. When you stay with us for an in-lab polysomnography study, you are the only patient in the clinic. Senior sleep technologist Owen Mbeki monitors your physiological signals throughout the night from his adjoining control desk, maintaining vigilant, unhurried attention on your sleep architecture, respiratory patterns, and oxygenation. There are no competing bells, no unfamiliar ward sounds, and no rushed morning discharges. You check in calmly at 20:30, wake naturally by 07:00, and leave with a warm cup of coffee ready for your morning.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k7f32bf2f' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Reading your night together in plain language</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'ked080a13' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Diagnostic sleep testing often leaves patients with opaque medical summaries, confusing numerical indices, and little practical understanding of their condition. At Nemuri Clinic, we believe the diagnostic process is complete only when you understand what your night looked like. At your 45-minute results visit, scheduled within 10 days of your study, Dr. Hana Ellery or Dr. Tomas Varga sits beside you to review your sleep graphs step by step. We look at your sleep stages, awakenings, airflow changes, and oxygen levels together, explaining every finding in clear, plain language. We never hand you a generic prescription or rush you toward a single predetermined therapy. Instead, we discuss how your physiological data connects with your daily fatigue and collaborate with you on a sensible, sustainable path forward.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k3d69a642' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:group {"className":"nc-dome nc-dome--ground","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-dome nc-dome--ground"><!-- wp:heading {"level":2,"className":"nc-dome__t"} -->
-<h2 class="wp-block-heading nc-dome__t">How we work</h2>
+<h2 class="wp-block-heading nc-dome__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k1ef1eb09' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-dome__l"} -->
-<p class="nc-dome__l">Quiet, unhurried, precise</p>
+<p class="nc-dome__l"><?php echo wp_kses_post( nemuri_clinic_t( 'k79327893' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"align":"full","className":"nc-sec nc-pagesec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-pagesec"><!-- wp:group {"className":"nc-symptoms__rows sp-stagger","layout":{"type":"default"}} -->
@@ -52,11 +52,11 @@
 
 <!-- wp:group {"className":"nc-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-row__body"><!-- wp:heading {"level":3,"className":"nc-dot"} -->
-<h3 class="wp-block-heading nc-dot">One room, one person</h3>
+<h3 class="wp-block-heading nc-dot"><?php echo wp_kses_post( nemuri_clinic_t( 'k1bcae746' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Our overnight capacity is deliberately one person per night. The room is private and dim, and the technologist stays awake at the desk next door until you leave at 07:00.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k24f32d45' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -67,15 +67,15 @@
 
 <!-- wp:group {"className":"nc-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-row__body"><!-- wp:heading {"level":3,"className":"nc-dot"} -->
-<h3 class="wp-block-heading nc-dot">Reading the night together</h3>
+<h3 class="wp-block-heading nc-dot"><?php echo wp_kses_post( nemuri_clinic_t( 'k5d220097' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Results visits happen within 10 days of the recorded night. Forty-five minutes, the physician and you, the recording on the table.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k7e29cd13' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/team/">Meet the team</a></p>
+<p class="nc-more"><a href="/team/"><?php echo wp_kses_post( nemuri_clinic_t( 'ke79c6603' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

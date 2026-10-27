@@ -10,11 +10,11 @@
 ?>
 <!-- wp:group {"className":"nc-dome nc-dome--white","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-dome nc-dome--white"><!-- wp:heading {"className":"nc-dome__t"} -->
-<h2 class="wp-block-heading nc-dome__t">Three quiet stories</h2>
+<h2 class="wp-block-heading nc-dome__t"><?php echo wp_kses_post( nemuri_clinic_t( 'kbf32b7da' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-dome__l"} -->
-<p class="nc-dome__l">Stories</p>
+<p class="nc-dome__l"><?php echo wp_kses_post( nemuri_clinic_t( 'kcbb37401' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -32,19 +32,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"nc-card__t"} -->
-<h3 class="wp-block-heading nc-card__t">Awake at 3 a.m.</h3>
+<h3 class="wp-block-heading nc-card__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k052b37db' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-card__w"} -->
-<p class="nc-card__w">Ana, 41, project manager</p>
+<p class="nc-card__w"><?php echo wp_kses_post( nemuri_clinic_t( 'kfd8ae824' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-card__p"} -->
-<p class="nc-card__p">A take-home sleep test showed no breathing interruptions. Through six weekly CBT-I sessions with our sleep psychologist and a consistent rise time, she rebuilt her confidence in staying asleep.</p>
+<p class="nc-card__p"><?php echo wp_kses_post( nemuri_clinic_t( 'k23b6e5b6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/stories/">Read the story</a></p>
+<p class="nc-more"><a href="/stories/"><?php echo wp_kses_post( nemuri_clinic_t( 'k21957bfd' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -60,19 +60,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"nc-card__t"} -->
-<h3 class="wp-block-heading nc-card__t">The snoring someone else heard</h3>
+<h3 class="wp-block-heading nc-card__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k95223cb9' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-card__w"} -->
-<p class="nc-card__w">Daniel, 52, bus dispatcher</p>
+<p class="nc-card__w"><?php echo wp_kses_post( nemuri_clinic_t( 'kaf1724c0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-card__p"} -->
-<p class="nc-card__p">An overnight study in our clinic room revealed repeated breathing pauses. Following CPAP set-up and a four-week coaching check with Grace, his nocturnal breathing stabilized.</p>
+<p class="nc-card__p"><?php echo wp_kses_post( nemuri_clinic_t( 'k94b9dc19' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/stories/">Read the story</a></p>
+<p class="nc-more"><a href="/stories/"><?php echo wp_kses_post( nemuri_clinic_t( 'k21957bfd' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -88,19 +88,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"nc-card__t"} -->
-<h3 class="wp-block-heading nc-card__t">Sleeping after the night shift</h3>
+<h3 class="wp-block-heading nc-card__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k652a82c8' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-card__w"} -->
-<p class="nc-card__w">Mei, 34, ICU nurse</p>
+<p class="nc-card__w"><?php echo wp_kses_post( nemuri_clinic_t( 'k0837cc63' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-card__p"} -->
-<p class="nc-card__p">Navigating rotating hospital shifts disrupted her daytime sleep. We built a tailored light-exposure and sleep-timing schedule around her roster to protect her restorative rest.</p>
+<p class="nc-card__p"><?php echo wp_kses_post( nemuri_clinic_t( 'kda0fe492' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/stories/">Read the story</a></p>
+<p class="nc-more"><a href="/stories/"><?php echo wp_kses_post( nemuri_clinic_t( 'k21957bfd' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

@@ -11,11 +11,11 @@
 <!-- wp:group {"align":"full","className":"nc-sec nc-sec--white nc-people","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-people"><!-- wp:group {"className":"nc-head","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-head"><!-- wp:heading {"className":"nc-head__t"} -->
-<h2 class="wp-block-heading nc-head__t">Who sits with the result</h2>
+<h2 class="wp-block-heading nc-head__t"><?php echo wp_kses_post( nemuri_clinic_t( 'ke0037983' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-label"} -->
-<p class="nc-label">Team</p>
+<p class="nc-label"><?php echo wp_kses_post( nemuri_clinic_t( 'kac848fa2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -27,15 +27,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"nc-dot nc-person__n"} -->
-<h3 class="wp-block-heading nc-dot nc-person__n">Dr. Hana Ellery</h3>
+<h3 class="wp-block-heading nc-dot nc-person__n"><?php echo wp_kses_post( nemuri_clinic_t( 'kdd5bf1be' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-person__r"} -->
-<p class="nc-person__r">Medical director, sleep physician</p>
+<p class="nc-person__r"><?php echo wp_kses_post( nemuri_clinic_t( 'k0d5e9fb7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Dr. Ellery founded Nemuri Clinic in 2016 to ensure working adults could access thorough evening sleep evaluations. She sits with you during your results visit to explain what your night recording reveals.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'ka09f8d69' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -45,21 +45,21 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"nc-dot nc-person__n"} -->
-<h3 class="wp-block-heading nc-dot nc-person__n">Owen Mbeki</h3>
+<h3 class="wp-block-heading nc-dot nc-person__n"><?php echo wp_kses_post( nemuri_clinic_t( 'k2dd64c1e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-person__r"} -->
-<p class="nc-person__r">Senior sleep technologist</p>
+<p class="nc-person__r"><?php echo wp_kses_post( nemuri_clinic_t( 'kc278d970' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Owen oversees our overnight clinic studies, monitoring sensor signals and patient comfort throughout the quiet hours. He ensures every recording gathered between 20:30 and 07:00 is precise and complete.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'keda991b2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"nc-more nc-more--c"} -->
-<p class="nc-more nc-more--c"><a href="/team/">Meet all seven</a></p>
+<p class="nc-more nc-more--c"><a href="/team/"><?php echo wp_kses_post( nemuri_clinic_t( 'kde636302' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

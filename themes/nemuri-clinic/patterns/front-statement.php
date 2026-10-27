@@ -10,14 +10,14 @@
 ?>
 <!-- wp:group {"align":"full","className":"nc-sec nc-statement","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-statement"><!-- wp:paragraph {"className":"nc-label"} -->
-<p class="nc-label">Our approach</p>
+<p class="nc-label"><?php echo wp_kses_post( nemuri_clinic_t( 'k660de002' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-statement__t"} -->
-<p class="nc-statement__t">Sleep medicine should fit into the rhythm of working life. We hold our consultations in the evening so you never have to take time off work to be seen, listening carefully to your history before recommending an objective diagnostic test.</p>
+<p class="nc-statement__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k5d909ae6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more nc-more--c"} -->
-<p class="nc-more nc-more--c"><a href="/about/">About the clinic</a></p>
+<p class="nc-more nc-more--c"><a href="/about/"><?php echo wp_kses_post( nemuri_clinic_t( 'k7c16f89a' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

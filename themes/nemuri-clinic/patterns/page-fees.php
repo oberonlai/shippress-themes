@@ -12,7 +12,7 @@
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:group {"className":"nc-prose nc-prose--lead","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-prose nc-prose--lead">
 <!-- wp:paragraph {"className":"nc-lead"} -->
-<p class="nc-lead">Nemuri Clinic operates as a self-pay medical practice in Seattle, providing transparent and straightforward pricing in USD for all consultations, diagnostic sleep studies, and treatment programmes. We provide an itemised receipt for every visit so you can submit claims to your insurance provider.</p>
+<p class="nc-lead"><?php echo wp_kses_post( nemuri_clinic_t( 'k18bae8f4' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group --></div>
@@ -20,26 +20,26 @@
 <!-- wp:group {"align":"full","className":"nc-sec nc-sec--white nc-pagesec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:html -->
 <figure class="wp-block-table nc-fees__table"><table><tbody>
-<tr><td class="nc-fees__i">First consultation</td><td class="nc-fees__d">60 min with a sleep physician, two-week sleep diary handed out</td><td class="nc-fees__p">$180</td></tr>
-<tr><td class="nc-fees__i">Follow-up consultation</td><td class="nc-fees__d">30 min</td><td class="nc-fees__p">$95</td></tr>
-<tr><td class="nc-fees__i">Home sleep test</td><td class="nc-fees__d">one-night recorder, set-up visit and physician reading</td><td class="nc-fees__p">$320</td></tr>
-<tr><td class="nc-fees__i">Night study in our room</td><td class="nc-fees__d">one night of full polysomnography, technologist on watch, reading</td><td class="nc-fees__p">$1,250</td></tr>
-<tr><td class="nc-fees__i">Results visit</td><td class="nc-fees__d">45 min, the physician reads the night with you</td><td class="nc-fees__p">$140</td></tr>
-<tr><td class="nc-fees__i">CBT-I programme</td><td class="nc-fees__d">six weekly 50-min sessions with a sleep psychologist</td><td class="nc-fees__p">$780</td></tr>
-<tr><td class="nc-fees__i">CPAP set-up and first-month check</td><td class="nc-fees__d">fitting, coaching, data check at four weeks</td><td class="nc-fees__p">$210</td></tr>
+<tr><td class="nc-fees__i"><?php echo wp_kses_post( nemuri_clinic_t( 'kdd5702e0' ) ); ?></td><td class="nc-fees__d"><?php echo wp_kses_post( nemuri_clinic_t( 'ka923acd3' ) ); ?></td><td class="nc-fees__p">$180</td></tr>
+<tr><td class="nc-fees__i"><?php echo wp_kses_post( nemuri_clinic_t( 'ka79199e0' ) ); ?></td><td class="nc-fees__d"><?php echo wp_kses_post( nemuri_clinic_t( 'k3cbe8173' ) ); ?></td><td class="nc-fees__p">$95</td></tr>
+<tr><td class="nc-fees__i"><?php echo wp_kses_post( nemuri_clinic_t( 'kf1d0c6c1' ) ); ?></td><td class="nc-fees__d"><?php echo wp_kses_post( nemuri_clinic_t( 'k57ca058b' ) ); ?></td><td class="nc-fees__p">$320</td></tr>
+<tr><td class="nc-fees__i"><?php echo wp_kses_post( nemuri_clinic_t( 'kb31f4f0b' ) ); ?></td><td class="nc-fees__d"><?php echo wp_kses_post( nemuri_clinic_t( 'k713cda42' ) ); ?></td><td class="nc-fees__p">$1,250</td></tr>
+<tr><td class="nc-fees__i"><?php echo wp_kses_post( nemuri_clinic_t( 'ka3a1ffca' ) ); ?></td><td class="nc-fees__d"><?php echo wp_kses_post( nemuri_clinic_t( 'kb33561cf' ) ); ?></td><td class="nc-fees__p">$140</td></tr>
+<tr><td class="nc-fees__i"><?php echo wp_kses_post( nemuri_clinic_t( 'kaf74ae25' ) ); ?></td><td class="nc-fees__d"><?php echo wp_kses_post( nemuri_clinic_t( 'k20b1203c' ) ); ?></td><td class="nc-fees__p">$780</td></tr>
+<tr><td class="nc-fees__i"><?php echo wp_kses_post( nemuri_clinic_t( 'k8c7568f3' ) ); ?></td><td class="nc-fees__d"><?php echo wp_kses_post( nemuri_clinic_t( 'kfab4f913' ) ); ?></td><td class="nc-fees__p">$210</td></tr>
 </tbody></table></figure>
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"nc-fees__note"} -->
-<p class="nc-fees__note">Itemised receipt provided for every visit. Self-pay fees in USD. We cannot promise what your insurer will reimburse. Cancellation with less than 24 h notice: $60.</p>
+<p class="nc-fees__note"><?php echo wp_kses_post( nemuri_clinic_t( 'k772da7cf' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"nc-dome nc-dome--ground","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-dome nc-dome--ground"><!-- wp:heading {"level":2,"className":"nc-dome__t"} -->
-<h2 class="wp-block-heading nc-dome__t">Before you book</h2>
+<h2 class="wp-block-heading nc-dome__t"><?php echo wp_kses_post( nemuri_clinic_t( 'k14674ed6' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nc-dome__l"} -->
-<p class="nc-dome__l">Plain answers about cost</p>
+<p class="nc-dome__l"><?php echo wp_kses_post( nemuri_clinic_t( 'k35777e8a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"align":"full","className":"nc-sec nc-pagesec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull nc-sec nc-pagesec"><!-- wp:group {"className":"nc-symptoms__rows sp-stagger","layout":{"type":"default"}} -->
@@ -51,15 +51,15 @@
 
 <!-- wp:group {"className":"nc-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-row__body"><!-- wp:heading {"level":3,"className":"nc-dot"} -->
-<h3 class="wp-block-heading nc-dot">Reading included in studies</h3>
+<h3 class="wp-block-heading nc-dot"><?php echo wp_kses_post( nemuri_clinic_t( 'k88a79ce5' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The physician reading is part of every study price; the separate 45-minute results visit is $140.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k06b2d7a5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nc-more"} -->
-<p class="nc-more"><a href="/first-visit/">Plan a first visit</a></p>
+<p class="nc-more"><a href="/first-visit/"><?php echo wp_kses_post( nemuri_clinic_t( 'k26b3e31c' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -69,22 +69,22 @@
 <div class="wp-block-group alignfull nc-sec nc-sec--white nc-pagesec"><!-- wp:group {"className":"nc-prose","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-prose">
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Consultation and diagnostic fees</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'ke0a1069c' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>We believe in complete financial transparency with no hidden laboratory charges or surprise facility fees. Our initial consultation lasts 60 minutes with a sleep physician, includes a comprehensive medical review, and provides you with a two-week sleep diary for $180. Follow-up consultations lasting 30 minutes are priced at $95. When diagnostic sleep recording is indicated, our portable home sleep test costs $320, which covers the one-night recorder, clinic set-up instruction, and physician interpretation. A full overnight study in our private Seattle room costs $1,250, including overnight stay, technologist monitoring from 20:30 to 07:00, and full polysomnographic analysis. Following any study, a 45-minute results visit to review your sleep graphs with your physician is $140.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'k5c6f657a' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Treatment programmes and therapy support</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'kafa481b2' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Ongoing therapy fees at Nemuri Clinic are structured clearly so you can plan your care with confidence. Our specialized Cognitive Behavioural Therapy for Insomnia (CBT-I) programme with sleep psychologist Dr. Priya Raman costs $780, encompassing six weekly 50-minute individual clinical sessions dedicated to restoring healthy sleep patterns. For patients diagnosed with obstructive sleep apnea who begin respiratory therapy, our CPAP set-up and first-month check service is priced at $210. This service includes a comprehensive mask fitting and education session with nurse Grace Lin, personalized pressure adjustment coaching, and a formal objective data download and compliance check at four weeks. All fees are charged in USD at the time of service.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kf61ec10f' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Billing policies, receipts, and cancellations</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( nemuri_clinic_t( 'k5043dff9' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Nemuri Clinic is a self-pay clinic, and payment is due at the time of your visit. We accept major credit cards, debit cards, and electronic payments. Following every consultation, diagnostic test, or therapy session, we provide an itemised receipt containing detailed diagnostic codes and procedural descriptions. You may submit this itemised receipt directly to your insurance company or health savings account for potential reimbursement; however, we cannot promise what your insurer will reimburse. If you need to reschedule or cancel an appointment, please provide at least 24 hours of notice. Cancellations made with less than 24 hours of advance notice incur a fixed $60 cancellation fee.</p>
+<p><?php echo wp_kses_post( nemuri_clinic_t( 'kbab165a3' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group --></div>
