@@ -62,6 +62,7 @@ export function releasesJson(themes, commit = "") {
     ...(commit ? { commit } : {}),
     themes: [...themes].sort((a, b) => a.slug.localeCompare(b.slug)).map((t) => ({
       slug: t.slug, name: t.name, version: t.version, tag: releaseTag(t.slug, t.version), url: assetUrl(t.slug, t.version), sha256: t.sha256, size: t.size,
+      ...(t.updated ? { updated: t.updated } : {}),
     })),
   };
 }
@@ -91,13 +92,20 @@ export function publishedSha256(gh, tag, slug, tmp) {
   } finally { rmSync(dir, { recursive: true, force: true }); }
 }
 
+/** When a theme last changed (ISO 8601): the newest commit under themes/<slug>/ other than its screenshots. The app lists
+ *  the newest first; index.json cannot hold it (a squash merge's date is unknown until it lands). "" = no git history. */
+export function lastChange(root, slug) {
+  const r = spawnSync("git", ["-C", root, "log", "-1", "--format=%cI", "--", `themes/${slug}`, `:(exclude)themes/${slug}/screenshots`], { encoding: "utf8" });
+  return r.status === 0 ? r.stdout.trim() : "";
+}
+
 /** Reads dist/<slug>.zip + themes/<slug>/style.css for every built theme. */
 export function builtThemes(root, dist) {
   return readdirSync(dist).filter((f) => f.endsWith(".zip")).sort().map((f) => {
     const slug = f.slice(0, -4);
     const css = readFileSync(join(root, "themes", slug, "style.css"), "utf8");
     const buf = readFileSync(join(dist, f));
-    return { slug, name: styleHeader(css)["Theme Name"] || slug, version: themeVersion(css, slug), sha256: sha256(buf), size: buf.length };
+    return { slug, name: styleHeader(css)["Theme Name"] || slug, version: themeVersion(css, slug), sha256: sha256(buf), size: buf.length, updated: lastChange(root, slug) };
   });
 }
 
