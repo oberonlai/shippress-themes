@@ -1,14 +1,14 @@
-# Reference (draft; "our counterpart" column filled in stage 2)
+# Reference ("成品對應" / our counterpart filled in stage 1 spec; binding detail in `design-spec.md`)
 - Source: S5-Style entry https://www.s5-style.com/11519/ → https://gakuen.toyota-shokki.co.jp/ (company technical training school; category close to workplace training). Not used by any earlier theme (checked against all themes/*/brand/reference.md).
 - Tokens: `reference-tokens.md`. Screenshots: `ref/ref-first.png`, `ref/ref-full.png`, `ref/scroll-{school,data,about}-{before,after}.png` (the home has no scroll-reveal; before/after only show section positions).
 ## Signature candidates
-| # | Reference technique | Shape / position | Our counterpart |
+| # | Reference technique | Shape / position | Our counterpart (成品對應) |
 |---|---|---|---|
-| A | Two 120px white side rails framing a 1200px photo stage; left rail has vertical-written org name, logo mark, vertical copyright; right rail has hamburger lines, vertical "access", a main-colour tile | full-height strips left/right | |
-| B | Hero 4:3 photo with a corner colour wash (transparent→main) carrying a 3-line huge white tagline lower right | bottom-right 55%×60% | |
-| C | Stacked-paper card slider: square portrait photo bleeding top-left of a white card, text panel overlapping, two cards peeking behind | About block | |
-| D | Stat band on full-bleed colour with hairlines and giant numerals + small units | Data block | |
+| A | Two 120px white side rails framing a 1200px photo stage; left rail has vertical-written org name, logo mark, vertical copyright; right rail has hamburger lines, vertical "access", a main-colour tile | full-height strips left/right | **T1** on every page ≥1100px: fixed white 120px rails; left = olive plus mark + vertical "Kyugo Training" + vertical ©; right = "Menu" lines (→ #kt-nav), vertical "Find us" with pin, olive `#5A6148` tile 120×170 "Book a group", `#474D38` "Call us" tile. <1100px: white top bar, no vertical text. |
+| B | Hero 4:3 photo with a corner colour wash (transparent→main) carrying a 3-line huge white tagline lower right | bottom-right 55%×60% | **T2** Home hero: photo 01 (instructor kneeling by a resuscitation mannequin, trainee leaning in), olive wash 150deg, kicker "Before the ambulance arrives" + "Steady / hands, / first." Hanken 5rem white; CSS crossfade 01→02→03 900ms/4s. Every inner page head = same wash + 4.25rem title. |
+| C | Stacked-paper card slider: square portrait photo bleeding top-left of a white card, text panel overlapping, two cards peeking behind | About block | **T3** Home block 3 "A training day" (4 timed stages, photos 04–07) on the olive About band, counter "01 \| 04", 300ms flip; continued on Training day, Certificate, Book a group, Instructors, Stories, About. |
+| D | Stat band on full-bleed colour with hairlines and giant numerals + small units | Data block | Home block 6: photo 13 with dark olive veil, `sp-parallax` 10%, stats 12 / 6 / 5 / 3 with `sp-count`; also on Courses and Book a group. |
 ## Colour roles
-Main `#005EB8` (our `#5A6148`), gradient partner `#4299F0` (lighter olive), base `#FFFFFF`/`#F7F8F8`, text `#000`, footer `#3E3E3E`; no accent. See tokens (a).
+Main `#005EB8` (our `#5A6148`), gradient partner `#4299F0` (our `#8A9170`), base `#FFFFFF`/`#F7F8F8` (same), text `#000` (same), secondary `#838383` (same), hairline `#F0F0F0` (same), footer `#3E3E3E` (same); no accent (none). See tokens (a) and design-spec §3.
 ## Scroll / motion
-Hero fade slideshow 900ms/4000ms; cards swiper 300ms; hover 0.3s easeOutQuart; IO fade-in class `.js-fadeIn` 2s translate 20px (not on home).
+Hero fade slideshow 900ms/4000ms → CSS crossfade, same timings; cards swiper 300ms → click flip 300ms; hover 0.3s easeOutQuart → same; IO fade-in `.js-fadeIn` 2s translate 20px → `sp-reveal--up` 2s / 20px; added `sp-parallax` (blocks 5, 6, page heads) and `sp-count` (stats).
