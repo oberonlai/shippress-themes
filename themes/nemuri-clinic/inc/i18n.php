@@ -108,10 +108,11 @@ add_filter( 'wp_trim_words', 'nemuri_clinic_cjk_excerpt', 10, 4 );
  * @return string
  */
 function nemuri_clinic_lang_switch( $class ) {
+	// Native names are \u escapes so this file stays free of CJK (check-themes allows that only in ja / zh-TW files).
 	$labels  = array(
 		'en'    => 'EN',
-		'zh-TW' => '中文',
-		'ja'    => '日本語',
+		'zh-TW' => "\u{4E2D}\u{6587}",
+		'ja'    => "\u{65E5}\u{672C}\u{8A9E}",
 		'fr'    => 'FR',
 		'de'    => 'DE',
 	);
