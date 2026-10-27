@@ -40,5 +40,13 @@ Ines Varga, founder & lead instructor · Tomas Reyes, senior instructor, industr
 ## Stories (fictional firms)
 Halvorsen Logistics (18 night-shift staff, Emergency First Aid at Work) · De Vries Print & Pack (10 press operators, First Aid at Work + Burns & Chemical Splash) · Marlow House offices (24 staff, CPR & AED Operator) · Hotel Meridiaan kitchen (12 cooks and porters).
 
-## Pages (stage 2)
-About, Courses & fees, A training day, The certificate, Book a group, Instructors, Stories, FAQ, Contact & access, Notes.
+## Pages (en, imported by demo-content.json)
+- About us: lead, how we work (small groups, annual syllabus review), founder card (Ines Varga) in the stacked-paper stack.
+- Courses & fees: price table (7 courses, full width from 782px, stacked rows on phones), three course thumbnails, stat band with parallax photo.
+- A training day: four timed stages as rows plus the four-card stack, what to wear.
+- The certificate: three-card stack (covers / assessed / valid 3 years), reminders 90 days before expiry.
+- Book a group: four-step card stack, on-site fee €1,480 per group, space requirements, stat band.
+- Instructors: two cards (Ines Varga, Tomas Reyes), five hairline rows.
+- Stories: four fictional firms as a card stack. FAQ: ten questions. Contact & access: Werfstraat 41, 3511 Utrecht, phone, hours, bus 12 from Utrecht Centraal, parking.
+- Dates & notes (posts page) and six notes; the long note "Planning first-aid cover for night shifts" is the sample article. Newsletter (footer-only).
+Signature techniques carried to every inner page: side rails (T1) and the corner-wash page head (T2); the card stack (T3) on About, Training day, Certificate, Book a group, Instructors and Stories.
