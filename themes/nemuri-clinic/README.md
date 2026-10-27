@@ -18,3 +18,31 @@ All photographs are generated documentary interiors (no text, no logos) in one l
 
 ## Inner pages
 `page-about`, `page-symptoms`, `page-night-study`, `page-treatment`, `page-team`, `page-fees`, `page-first-visit`, `page-stories` (English; the header menu and home links all point to them). They reuse the photo rows, half-disc headings and fee list.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Nemuri Clinic home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Nemuri Clinic home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Symptoms: [desktop](screenshots/symptoms-desktop.webp) · [mobile](screenshots/symptoms-mobile.webp)
+- Night study: [desktop](screenshots/night-study-desktop.webp) · [mobile](screenshots/night-study-mobile.webp)
+- Treatment: [desktop](screenshots/treatment-desktop.webp) · [mobile](screenshots/treatment-mobile.webp)
+- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
+- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
+- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
+- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
+- Access: [desktop](screenshots/access-desktop.webp) · [mobile](screenshots/access-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
