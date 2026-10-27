@@ -10,3 +10,34 @@ sp-scroll: `sp-parallax` on the hero photograph, `sp-reveal--wipe` (1.3s) on pho
 
 ## Pages and menu
 The demo import creates Home, Waitlist (request a panel place), Thank you, Privacy and Terms, and an anchor menu on the home page (Why, Calls, A visit, Adjusters, Cases, Fees, FAQ). The footer links to Waitlist, Privacy and Terms.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Satei Adjusters home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Satei Adjusters home page on mobile"></td>
+</tr>
+</table>
+
+- How a visit runs: [desktop](screenshots/how-a-visit-runs-desktop.webp) · [mobile](screenshots/how-a-visit-runs-mobile.webp)
+- For insurers: [desktop](screenshots/for-insurers-desktop.webp) · [mobile](screenshots/for-insurers-mobile.webp)
+- Adjusters: [desktop](screenshots/adjusters-desktop.webp) · [mobile](screenshots/adjusters-mobile.webp)
+- Cases: [desktop](screenshots/cases-desktop.webp) · [mobile](screenshots/cases-mobile.webp)
+- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
+- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Waitlist: [desktop](screenshots/waitlist-desktop.webp) · [mobile](screenshots/waitlist-mobile.webp)
+- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
+- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
+- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
+- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
