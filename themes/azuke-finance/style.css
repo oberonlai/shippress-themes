@@ -307,3 +307,61 @@ body.az-page-apply .az-tab, body.az-page-thanks .az-tab { display: none; }
 .az-prose .az-table thead { border: 0; }
 .az-prose .az-table th { font-weight: 600; color: var(--az-main); font-size: .8125rem; }
 .az-prose .az-pill-row { margin-top: 2.5rem; }
+
+/* ---------- inner pages (stage 2): T1 head + bowed strip, T2 chapters, rows, journal ---------- */
+.az-hero--inner { padding-top: 10rem; padding-bottom: 4rem; }
+.az-hero--inner .az-lede { font-size: 1rem; max-width: 22rem; }
+.az-hero--inner .az-hero__side { margin-top: 3.5rem; }
+.az-hero--inner .az-mosaic { margin-top: 3.5rem; }
+.az-hero--inner .az-mosaic__bow { -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,0 C35,1.5 70,4 100,4.5 L100,96 C70,95.5 35,98 0,100 Z'/%3E%3C/svg%3E"); mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,0 C35,1.5 70,4 100,4.5 L100,96 C70,95.5 35,98 0,100 Z'/%3E%3C/svg%3E"); }
+.az-hero--inner .az-mosaic__row--1 { align-items: end; }
+.az-hero--inner .az-tile--sm img { aspect-ratio: 1.4; }
+.az-hero--plain { padding-bottom: 2rem; }
+.az-hero--plain .az-hero__side { grid-column: 2; grid-row: 2; margin-top: 2.5rem; padding-left: 0; }
+.az-hero--plain .az-lede { max-width: 34rem; font-size: 1.125rem; }
+.az-chapters--inner .az-ch { min-height: 78vh; padding-bottom: 80px; }
+.az-chapters--inner .az-ch:last-of-type { min-height: 0; }
+.az-chapters--inner .az-title--ch { font-size: clamp(2rem, 1rem + 2.4vw, 3.5rem); line-height: 1.12; text-align: center; }
+.az-chapters--inner .az-ch__row--solo { grid-template-columns: minmax(0, 36rem); }
+.az-chapters--inner .az-ch__row { grid-template-columns: minmax(0, 340px) minmax(150px, 228px); }
+.az-chapters--inner .az-ch__row--solo { grid-template-columns: minmax(0, 36rem); }
+.az-chapters:has(.az-ch-3 .az-ch__mark.sp-in) .az-list li:nth-child(3)::before { background: var(--az-ink); }
+.az-chapters:has(.az-ch-4 .az-ch__mark.sp-in) .az-list li:nth-child(3)::before { background: transparent; }
+.az-chapters:has(.az-ch-4 .az-ch__mark.sp-in) .az-list li:nth-child(4)::before { background: var(--az-ink); }
+.az-chapters--inner .az-list { right: 24px; }
+.az-endcta { padding: 2rem var(--az-pad) 8rem calc(51.5vw); }
+.az-endcta > * { margin: 0; }
+.az-rows { padding: 2rem 0 4rem; }
+.az-rows .az-gap__text { padding: 3rem 0 3rem var(--az-pad); border-top: 1px solid var(--az-hair); }
+.az-rows .az-gap__text:last-child { border-bottom: 1px solid var(--az-hair); }
+.az-rows .az-gap__text .az-label { font-size: 1.125rem; color: var(--az-ink); font-weight: 500; max-width: 18rem; }
+.az-gap--inner { padding-top: 7.5rem; }
+.az-gap--inner .az-gap__tag { font-size: 2.5rem; }
+.az-stories--inner { padding-top: 6rem; }
+.az-journal { padding: 0 var(--az-pad) 3rem calc(51.5vw); }
+.az-journal > * { margin: 0; }
+@media (min-width: 1024px) { .az-rows .az-gap__text { margin-right: 100px; } }
+@media (max-width: 781px) {
+	.az-hero--inner { padding-top: 7rem; padding-bottom: 2rem; }
+	.az-hero--plain .az-hero__side { grid-column: auto; padding: 0 16px; margin-top: 1.5rem; }
+	.az-chapters--inner .az-ch { min-height: 0; }
+	.az-chapters--inner .az-title--ch { font-size: 2.25rem; }
+	.az-chapters--inner .az-ch__row, .az-chapters--inner .az-ch__row--solo { grid-template-columns: 1fr; }
+	.az-endcta, .az-journal { padding: 1.5rem 16px 4rem; }
+	.az-rows .az-gap__text { padding: 2rem 16px; margin-right: 0; }
+	.az-stories--inner { padding-top: 3rem; }
+}
+/* single article and journal list */
+.az-single { padding: 10rem var(--az-pad) 7.5rem; }
+.az-single .az-prose-inner > * { max-width: 40rem; }
+.az-single .az-article-photo, .az-prose .az-article-photo { margin: 0 0 3rem; max-width: 60rem !important; }
+.az-article-photo img { display: block; width: 100%; aspect-ratio: 1.4; object-fit: cover; }
+.az-single .wp-block-post-content p { font-size: 1.0625rem; line-height: 1.75; }
+.az-journal-list { padding: 10rem var(--az-pad) 7.5rem; }
+.az-journal-list .wp-block-post-template { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 4rem; padding: 0; list-style: none; }
+.az-journal-list .wp-block-post-title { font-family: var(--az-display); font-size: 1.375rem; line-height: 1.25; letter-spacing: -0.02em; font-weight: 400; margin: 1rem 0 .5rem; }
+.az-journal-list .wp-block-post-title a { text-decoration: none; }
+.az-journal-list .wp-block-post-excerpt { font-size: .9375rem; line-height: 1.6; }
+@media (min-width: 1024px) { .az-single, .az-journal-list { padding-right: 100px; } }
+@media (max-width: 781px) { .az-single, .az-journal-list { padding: 7rem 16px 4rem; } .az-journal-list .wp-block-post-template { grid-template-columns: 1fr; } }
+.az-single .az-h1 { font-size: clamp(2.25rem, 1rem + 2.6vw, 3.5rem); line-height: 1.05; max-width: 52rem; margin-bottom: 3rem; }
