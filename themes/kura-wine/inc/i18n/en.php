@@ -1,0 +1,113 @@
+<?php
+/**
+ * Kura Wine: theme strings, English (also the fallback for every other language).
+ *
+ * @package kura-wine
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+return array(
+	'lang_label'   => 'EN',
+	'kv_h1_a'      => 'A few cases,',
+	'kv_h1_b'      => 'and who made them.',
+	'kv_bar1'      => 'Pouring this week: Jura Savagnin',
+	'kv_bar2'      => 'Open Wed–Sun',
+	'kv_bar3'      => 'Next case opens Friday 18:00',
+
+	'ab_label'     => 'About',
+	'ab_catch'     => 'We buy a little, and we buy it in person.',
+	'ab_p1'        => 'Kura Wine is an independent merchant founded in 2014 in Rotterdam. We work outside commercial import portfolios, dealing directly with small European vignerons who farm their own ground and bottle without industrial correction.',
+	'ab_p2'        => 'We bring in just four shipments each year. Buying in small volumes allows us to visit cellars in person, walk the vineyard rows, and understand how each parcel performed before a single case leaves for the Netherlands.',
+	'ab_p3'        => 'When the bottles arrive at Kelderstraat 9, they are not rushed to retail shelves. We carry them down stone cellar steps and let them rest quietly in straw, preserving the delicate balance and honest character intended by the grower.',
+	'ab_more'      => 'Our story',
+
+	'sh_label'     => 'Shipments',
+	'sh_catch'     => 'Three shipments landed this autumn.',
+	'sh1_region'   => 'Jura',
+	'sh1_grower'   => 'Maison Gérin',
+	'sh1_meta'     => 'Arrived 12 September · 40 cases',
+	'sh1_note'     => 'On steep limestone slopes above the valley, Élise Gérin works her vineyards with patience and minimal intervention. Her Savagnin Ouillé and Trousseau rested ten days in our cellar and show crystalline minerality alongside deep, unmasked fruit.',
+	'sh2_region'   => 'Douro',
+	'sh2_grower'   => 'Quinta da Serra Velha',
+	'sh2_meta'     => 'Arrived 26 September · 36 cases',
+	'sh2_note'     => 'High terraced plots above the winding Douro river give João Serra’s field blends extraordinary freshness. Hand-harvested from old mixed vines, these dry white and red cuvées deliver schist tension, fragrant mountain herbs, and balanced structural depth.',
+	'sh3_region'   => 'Burgenland',
+	'sh3_grower'   => 'Weingut Halbmayr',
+	'sh3_meta'     => 'Arrived 10 October · 30 cases',
+	'sh3_note'     => 'Martina Halbmayr tends biodynamic parcels near Lake Neusiedl, drawing wine directly from seasoned oak casks. Her Blaufränkisch and Grüner Veltliner show pure, savory focus, lifted acidity, and genuine cellar longevity.',
+	'sh_more'      => 'View shipments',
+	'sh_bottles'   => '2 bottles',
+
+	'po_label'     => 'Pouring this week',
+	'po_text'      => 'We open bottles from our latest autumn arrivals every Wednesday through Sunday at the shop counter. Current pours include Maison Gérin Savagnin Ouillé 2021 (€36) from the Jura, Quinta da Serra Velha Douro Branco 2023 (€19), Weingut Halbmayr Blaufränkisch Kogl 2022 (€26), and Grüner Veltliner 2023 (€18). Every pour is served at cellar temperature alongside honest conversation about the harvest.',
+	'po_more'      => 'All bottles',
+	'p1_region'    => 'Jura',
+	'p1_name'      => 'Savagnin Ouillé 2021',
+	'p1_grower'    => 'Maison Gérin',
+	'p1_price'     => '€36',
+	'p3_region'    => 'Douro',
+	'p3_name'      => 'Douro Branco 2023',
+	'p3_grower'    => 'Quinta da Serra Velha',
+	'p3_price'     => '€19',
+	'p5_region'    => 'Burgenland',
+	'p5_name'      => 'Blaufränkisch “Kogl” 2022',
+	'p5_grower'    => 'Weingut Halbmayr',
+	'p5_price'     => '€26',
+	'p6_region'    => 'Burgenland',
+	'p6_name'      => 'Grüner Veltliner 2023',
+	'p6_grower'    => 'Weingut Halbmayr',
+	'p6_price'     => '€18',
+
+	'cs_label'     => 'The case',
+	'cs_catch'     => 'Nothing goes on the shelf untasted.',
+	'cs_text'      => 'A shipment cannot be understood through paperwork or laboratory sheets. When wooden cases land at Kelderstraat 9, they enter an unvarying four-stage cellar ritual, set out below. We evaluate bottle variation, cellar settling, and structural openness before any cork is offered across the counter.',
+	'cs_r1'        => 'Arrives sealed',
+	'cs_r2'        => 'Rests ten days',
+	'cs_r3'        => 'Tasted by three',
+	'cs_r4'        => 'Opened on Friday',
+
+	'fr_label'     => 'Fridays',
+	'fr_catch'     => 'The case opens at six.',
+	'fr_p1'        => 'Every Friday at 18:00, we pull the nails from a newly rested wooden case and gather around the long cellar table. Ines Varga, Tomas Ekwueme, and Ruth Delacourt pour five distinct wines from the current shipment, sharing grower notes, vintage conditions, and cellar impressions.',
+	'fr_p2'        => 'Seats are limited to sixteen guests along the wooden table. For €22, each guest receives five generous pours accompanied by country bread, olive oil, and unhurried discussion. It is the heart of what we do in Rotterdam.',
+	'fr_more'      => 'Book a seat',
+
+	'vi_label'     => 'Visit',
+	'vi_r1a'       => 'Shop & cellar',
+	'vi_r1b'       => 'Kelderstraat 9, 3011 KD Rotterdam',
+	'vi_r2a'       => 'Open',
+	'vi_r2b'       => 'Wed–Sat 12:00–20:00, Sun 12:00–17:00',
+	'vi_r3a'       => 'Delivery',
+	'vi_r3b'       => 'Free in Rotterdam over €100',
+	'vi_r4a'       => 'Shipment Club',
+	'vi_r4b'       => 'One case each shipment, €112',
+	'vi_more'      => 'View more',
+
+	'alt_K1'       => 'A hand pulls an unlabelled dark wine bottle from a wooden cellar rack.',
+	'alt_K2'       => 'An opened wooden case on a table holding six wine bottles cushioned in straw.',
+	'alt_K3'       => 'Two glasses of red wine and an opened bottle sit on a wooden table.',
+	'alt_K4'       => 'A woman holds a wine bottle by the neck between wooden cellar racks.',
+	'alt_K5'       => 'Hands use a corkscrew to pull a natural cork over a wooden counter.',
+	'alt_K6'       => 'Stony limestone vineyard rows climb a quiet hillside under a dim dusk sky.',
+	'alt_K7'       => 'Terraced vineyard slopes overlook a calm river valley shrouded in evening mist.',
+	'alt_K8'       => 'A winemaker uses a glass pipette to draw wine from a large oak cask.',
+	'alt_K9'       => 'A man carries a stack of two wooden wine cases down stone cellar steps.',
+	'alt_K10'      => 'A row of opened wine bottles with loose corks rests along a shop counter.',
+	'alt_K11'      => 'Warm evening light shines through the glass storefront of a quiet wine shop.',
+	'alt_K12'      => 'Guests pass glasses of wine across a long wooden table lit by candles.',
+	'alt_P1'       => 'A dark clavelin bottle with a plain cream label stands on a slate shelf.',
+	'alt_P3'       => 'A clear bordeaux bottle filled with pale gold wine stands on a shelf.',
+	'alt_P5'       => 'A tall dark glass wine bottle with a blank label stands on slate.',
+	'alt_P6'       => 'A tall pale green flute wine bottle stands upright on a dark shelf.',
+
+	'ft_line'      => 'Independent wine merchant, Rotterdam, since 2014',
+	'ft_addr_h'    => 'Shop & cellar',
+	'ft_addr'      => 'Kelderstraat 9|3011 KD Rotterdam|Netherlands|+31 10 555 0142|cellar@kurawine.example',
+	'ft_hours_h'   => 'Hours',
+	'ft_hours'     => 'Wed–Sat 12:00–20:00|Sun 12:00–17:00|Closed Mon–Tue|Friday case opening 18:00',
+	'ft_legal'     => '© 2026 Kura Wine · Sale of alcohol to persons 18 and over only.',
+	'back_cellar'  => 'Back to the cellar',
+);
