@@ -1,7 +1,20 @@
 <!-- wp:template-part {"slug":"header","area":"header","tagName":"header","className":"nagi-head-part"} /-->
 
+<!-- wp:pattern {"slug":"nagi-imaging/head-news"} /-->
 <!-- wp:group {"tagName":"main","className":"nagi-main nagi-main--archive","layout":{"type":"constrained"}} -->
-<main class="wp-block-group nagi-main nagi-main--archive"><!-- wp:query-title {"type":"archive"} /--><!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"className":"nagi-news"} --><div class="wp-block-query nagi-news"><!-- wp:post-template --><!-- wp:group {"className":"nagi-newsrow","layout":{"type":"default"}} --><div class="wp-block-group nagi-newsrow"><!-- wp:post-date {"format":"d.m.Y","className":"nagi-newsrow__date"} /--><!-- wp:post-title {"level":3,"isLink":true,"className":"nagi-newsrow__title"} /--></div><!-- /wp:group --><!-- /wp:post-template --><!-- wp:query-pagination --><!-- wp:query-pagination-previous /--><!-- wp:query-pagination-next /--><!-- /wp:query-pagination --></div><!-- /wp:query --></main>
+<main class="wp-block-group nagi-main nagi-main--archive"><!-- wp:group {"className":"nagi-archive-sec","layout":{"type":"default"}} --><div class="wp-block-group nagi-archive-sec"><!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"className":"nagi-news"} -->
+<div class="wp-block-query nagi-news"><!-- wp:post-template -->
+<!-- wp:group {"className":"nagi-newsrow","layout":{"type":"default"}} -->
+<div class="wp-block-group nagi-newsrow"><!-- wp:post-date {"format":"d.m.Y","className":"nagi-newsrow__date"} /-->
+<!-- wp:post-terms {"term":"category","className":"nagi-newsrow__cat"} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"className":"nagi-newsrow__title"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:query --></div><!-- /wp:group --></main>
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->
