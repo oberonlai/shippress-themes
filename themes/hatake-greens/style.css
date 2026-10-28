@@ -53,7 +53,7 @@ img { max-width: 100%; height: auto; }
 /* ---- header: triangle logo, 3x2 anchor grid, one pill ---- */
 .hg-head-part { position: absolute; inset: 0 0 auto 0; z-index: 20; height: 0; margin: 0; }
 .hg-header { position: relative; height: 0; margin: 0; }
-.hg-logo { position: absolute; left: 0; top: 0; width: 168px; height: 116px; margin: 0; background: var(--hg-main); clip-path: polygon(0 0, 100% 30%, 52% 100%); }
+.hg-logo { position: absolute; left: 0; top: 0; width: 168px; height: 116px; margin: 0; background: var(--hg-accent); clip-path: polygon(0 0, 100% 30%, 52% 100%); }
 .hg-logo__t { margin: 0; padding: 14px 0 0 46px; font-family: var(--wp--preset--font-family--heading); font-weight: 600; font-size: 0.875rem; line-height: 1.35; letter-spacing: .06em; }
 .hg-logo__t a { color: #fff; text-decoration: none; }
 .hg-header__bar { position: absolute; top: 30px; right: 40px; display: flex; align-items: center; gap: 56px; margin: 0; }
@@ -118,12 +118,12 @@ img { max-width: 100%; height: auto; }
 .hg-grid--crate > .hg-card { grid-column: span 4; }
 .hg-grid--crate > .hg-tri-wrap ~ .hg-card:nth-child(-n+3) { grid-column: span 3; }
 .hg-tri-wrap { margin: 0; }
-.hg-tri { width: 100%; max-width: 560px; height: 460px; background: var(--hg-main); clip-path: polygon(0 0, 100% 18%, 30% 100%); box-sizing: border-box; padding: 56px 0 0 80px; }
+.hg-tri { width: 100%; max-width: 560px; height: 460px; background: var(--hg-accent); clip-path: polygon(0 0, 100% 18%, 30% 100%); box-sizing: border-box; padding: 56px 0 0 80px; }
 .hg-tri__h { margin: 0; color: #fff; font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.25rem); font-weight: 700; line-height: 1.4; }
 .hg-card { margin: 0; }
 .hg-card__img { margin: 0 0 1.25rem; aspect-ratio: 3 / 2; overflow: hidden; }
 .hg-card__img img { height: 100%; object-fit: cover; }
-.hg-card__t { margin: 0 0 .5rem; font-size: 1.625rem; font-weight: 700; line-height: 1.4; color: var(--hg-main); }
+.hg-card__t { margin: 0 0 .5rem; font-size: 1.625rem; font-weight: 700; line-height: 1.4; color: var(--hg-accent); }
 .hg-tag { margin-left: .75rem; font-family: var(--wp--preset--font-family--body); font-size: 0.8125rem; font-weight: 400; letter-spacing: .04em; color: var(--hg-accent); white-space: nowrap; }
 .hg-card__p { margin: 0 0 1rem; font-size: 1rem; line-height: 1.8; }
 .hg-card__link { margin: 0; font-family: var(--wp--preset--font-family--heading); font-size: 1.25rem; font-weight: 500; }
@@ -238,4 +238,12 @@ img { max-width: 100%; height: auto; }
 	.hg-join__fg { left: 24px; right: 24px; bottom: 48px; }
 	.hg-fgrid { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
 	.hg-card__t { font-size: 1.375rem; }
+}
+
+/* bright-leaf pills: solid green with white text, also over photos */
+.hg-pill.is-style-outline .wp-block-button__link { background: var(--hg-accent); border-color: var(--hg-accent); color: #fff; }
+.hg-pill.is-style-outline .wp-block-button__link:hover { background: #fff; border-color: #fff; color: var(--hg-accent); }
+@media (max-width: 781px) {
+	.hg-tri { height: 240px; padding: 28px 22% 0 24px; clip-path: polygon(0 0, 100% 0, 40% 100%, 0 100%); }
+	.hg-tri__h { font-size: 1.375rem; }
 }

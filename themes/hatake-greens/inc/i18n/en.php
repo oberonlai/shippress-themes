@@ -122,6 +122,7 @@ return array(
 	'st_label'       => 'Members',
 	'st_h'           => 'From our members',
 	'st1_n'          => 'The Park–Silva household',
+	'st1_i'          => 'PS',
 	'st1_m'          => '2 adults, Standard crate, members since 2021',
 	'st1_q'          => 'Having our vegetables arrive on Tuesday afternoon changed how we cook during the week. The greens are crisp, the roots keep well, and we rarely throw anything away.',
 	'alt_hk-14'      => 'Two people cooking food together with a wooden vegetable crate on the counter.',
