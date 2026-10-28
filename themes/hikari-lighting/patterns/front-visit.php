@@ -8,8 +8,8 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"hl-section hl-visit","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull hl-section hl-visit"><!-- wp:group {"className":"hl-wrap hl-visit__grid","layout":{"type":"default"}} -->
-<div class="wp-block-group hl-wrap hl-visit__grid"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hl-visit__img"} -->
-<figure class="wp-block-image size-large hl-visit__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/hl-06-window.webp' ) ); ?>" alt="Limestone showroom exterior at dusk with lit windows displaying lamps as a cyclist passes."/></figure>
+<div class="wp-block-group hl-wrap hl-visit__grid"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hl-visit__img sp-reveal sp-reveal--wipe"} -->
+<figure class="wp-block-image size-large hl-visit__img sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/hl-06-window.webp' ) ); ?>" alt="Limestone showroom exterior at dusk with lit windows displaying lamps as a cyclist passes."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hl-visit__text","layout":{"type":"default"}} -->
