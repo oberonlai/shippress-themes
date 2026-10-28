@@ -68,7 +68,7 @@ return array(
 	'f_title' => 'Fragen',
 	'foot_addr' => 'Azuke Finance B.V.|Haringvliet 92, 3011 TG Rotterdam, Niederlande',
 	'foot_hours' => 'Mo–Fr 8:30–17:30 CET · +31 10 555 0192',
-	'foot_lang' => 'English · 繁體中文 · 日本語 · Français · Deutsch',
+	'foot_lang' => 'English · Chinese · Japanese · Français · Deutsch',
 	'foot_links' => '[["So funktioniert’s", "/how-it-works/"], ["Preise", "/pricing/"], ["Für wen", "/who-its-for/"], ["Geschichten", "/stories/"], ["Über uns", "/about/"], ["FAQ", "/faq/"], ["Kontakt", "/contact/"], ["Früher Zugang", "/early-access/"], ["Datenschutz", "/privacy/"], ["AGB", "/terms/"]]',
 	'foot_mail' => 'apply@azuke.example · hello@azuke.example',
 	'g_label' => 'Die Liquiditätslücke',

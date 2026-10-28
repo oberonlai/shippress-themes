@@ -3,7 +3,7 @@
 Design plan row: b15-6 (small-supplier invoice factoring, type landing). Stage one: the home page in English. Inner pages and the other languages follow. All names, places, people and figures are fictional. Copy never promises approval, speed beyond the stated terms, or an outcome.
 
 ## Concept
-- **Name:** Azuke Finance B.V. "Azuke" (預ける) means to entrust something for safekeeping: the supplier hands over one invoice and gets cash back while the customer's payment is pending.
+- **Name:** Azuke Finance B.V. "Azuke" means to entrust something for safekeeping: the supplier hands over one invoice and gets cash back while the customer's payment is pending.
 - **Location:** Haringvliet 92, 3011 TG Rotterdam, Netherlands (fictional office); phone +31 10 555 0192; apply@azuke.example, hello@azuke.example.
 - **Founded:** 2019 by Ines Vercauteren and Tomás Aldana.
 - **Hours:** Mon–Fri 8:30–17:30 CET.

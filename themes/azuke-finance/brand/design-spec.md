@@ -3,7 +3,7 @@
 Slug `azuke-finance`, small-supplier invoice factoring, **type: landing** (one long conversion page with an anchor menu and one repeated CTA "Apply"; plus inner pages, early-access/newsletter, privacy, terms, thanks). Five languages: en, zh-TW, ja, fr, de.
 References (measurements in `reference-tokens.md`, screenshots in `brand/ref/`):
 - **Main: Coral Capital — https://coralcap.co/** (S5-Style #11295). Key visual, section system, type scale, palette relationship, motion.
-- **Secondary: ALEX 会計事務所 — https://alex-group.co.jp/** (S5-Style #12145). Only the flat overlay box on a full-bleed candid photo, and its slide-up timing.
+- **Secondary: ALEX Accounting Office — https://alex-group.co.jp/** (S5-Style #12145). Only the flat overlay box on a full-bleed candid photo, and its slide-up timing.
 Borrow structure, technique, numbers and colour relationships. Never their photos, copy, logo or full page layout.
 
 Fixed brand facts (every page, all five languages; brand.md must use exactly these): **Azuke Finance B.V.** ("azuke" = to entrust/hand over for safekeeping), founded **2019**, office **Haringvliet 92, 3011 TG Rotterdam, Netherlands** (fictional office), hours **Mon–Fri 8:30–17:30 CET**, phone **+31 10 555 0192**, apply@azuke.example / hello@azuke.example. Currency **EUR** in every language; no converted amounts.
@@ -22,7 +22,7 @@ Fixed brand facts (every page, all five languages; brand.md must use exactly the
 - Inner pages (T1 small): every inner page head = page title Onest 400 `4.25rem`/0.95, ls −0.05em with one accent word, at x=34 under ≥120px space; below it a **bowed strip** of 2 tiles (1.4:1, 41.9vw + 20.6vw, starting x=32.7vw, bleeding right, same mask with half amplitude). Images per page in §6.
 
 ### T2. Sticky chapter panel + scrolling chapter column (Coral "Capital / Talent / Insights")
-- **Reference (coral-part1/2.png):** left panel 600px (41.6vw) sand `#DBD3C7` full height, `position:sticky; top:0`, with a 3-item chapter list bottom-left (13px, items 27px apart, 6px dark dot at the active one). Right column from x=741, width ≈656: tiny coral numeral "01" (12px Inter) with a 16px coral underline, centred above a **96px** title (ls −0.04em); a full-width 1px hairline; a 16px/600 label; a giant numeral (~64px, "600億+"); then a ~340px text column and, at the right end, a stack of touching photos 228×163. Each chapter is ≥110vh.
+- **Reference (coral-part1/2.png):** left panel 600px (41.6vw) sand `#DBD3C7` full height, `position:sticky; top:0`, with a 3-item chapter list bottom-left (13px, items 27px apart, 6px dark dot at the active one). Right column from x=741, width ≈656: tiny coral numeral "01" (12px Inter) with a 16px coral underline, centred above a **96px** title (ls −0.04em); a full-width 1px hairline; a 16px/600 label; a giant numeral (~64px, "60B+"); then a ~340px text column and, at the right end, a stack of touching photos 228×163. Each chapter is ≥110vh.
 - **Azuke home `az-chapters` (#how), "How one invoice is funded":** panel 41.6vw, ground `#D6DBD6` (sage tint, §2), sticky top 0, height 100vh, flush left (no padding to the viewport edge). Chapter list bottom-left at left 24px / bottom 48px: "The invoice · The advance · The settle" Inter Tight 0.8125rem 500, 27px line pitch, active dot 6px `#333`; list items are anchor links to the chapters; the dot follows progress with CSS only: each chapter wrapper carries `sp-reveal` and the panel uses `:has()` (e.g. `.az-chapters:has(.az-ch-2.sp-in) .az-list li:nth-child(2)` gets the dot and earlier items lose it); without `:has()` support the dot stays on item 1. No custom scroll listener.
   - Right column from 51.5vw (741px), width 45.5vw (656px). Per chapter (min-height 110vh, padding 64px top / 120px bottom): numeral `01` Inter Tight 0.75rem 600 `#FF6D48` + 16×1px `#FF6D48` underline, centred over the title; title Onest 400 **6rem**/1.3, ls −0.04em, centred; 1px hairline `rgba(51,51,51,.2)` full column width 120px below; label Inter Tight 1rem 600; **giant figure** Onest 400 **4rem**/1 (64px); then a 2-col row: text 340px (2 paragraphs, 0.9375rem/1.6) | gap 70px | **thumb stack** 228px wide: two tiles 228×163 touching (2px gap). (Coral shows 3 tiles; we use 2 per chapter to stay inside the 18-image budget — the stack still reads as a stack.)
   - Chapters: 01 **The invoice** — figure "30 days"; thumbs H07, H08. 02 **The advance** — figure "90%"; thumbs H09, H10. 03 **The settle** — figure "1.4%"; thumbs H11, H12. (Texts in §5.)
@@ -54,17 +54,17 @@ Fixed brand facts (every page, all five languages; brand.md must use exactly the
 
 ---
 
-## 2. Colour (reference = Coral; relationships kept, two hues moved to the row palette 深川鼠)
+## 2. Colour (reference = Coral; relationships kept, two hues moved to the row palette Fukagawa grey)
 
 | Role | Coral (token a) | Azuke | Change / reason | Share |
 |---|---|---|---|---|
 | Base | `#F9F8F4` | **`#F9F8F4`** | exact | ~70% |
-| Soft panel | `#DBD3C7` sand | **`#D6DBD6`** | same lightness (L≈84%), hue moved to the row palette 深川鼠 `#5E6E68` family; keeping sand would make the page beige-led (common.md) and a Coral twin | ~10% |
+| Soft panel | `#DBD3C7` sand | **`#D6DBD6`** | same lightness (L≈84%), hue moved to the row palette Fukagawa grey `#5E6E68` family; keeping sand would make the page beige-led (common.md) and a Coral twin | ~10% |
 | Ink | `#333333` | **`#333333`** | exact | text |
 | Dark (tab, apply band, footer, overlay box) | `#312C29` | **`#2E322F`** | same lightness, warm brown neutralised toward sage | ~6% |
 | Light on dark | `#EDE6DD` | **`#EDE6DD`** | exact | text on dark only |
 | Accent | `#FF6D48` | **`#FF6D48`** | exact; H1 accent word, numerals 01/02/03 + underlines, story tag dot, tab chip hover | <2% |
-| Main (row) | — | **`#5E6E68`** 深川鼠 | brand colour: hairlines on dark, caption/label text, chapter-list text, link underline, pill hover fill | ≤4% |
+| Main (row) | — | **`#5E6E68`** Fukagawa grey | brand colour: hairlines on dark, caption/label text, chapter-list text, link underline, pill hover fill | ≤4% |
 | Hairline | rgba(51,51,51,.2) | same | exact | — |
 | Muted text | — | `#5E6E68` | = main (contrast on base 5.3:1) | — |
 
@@ -75,7 +75,7 @@ Fixed brand facts (every page, all five languages; brand.md must use exactly the
 ## 3. Type (font_direction **sans**)
 
 - Latin display: **Onest** (OFL, variable 300–600 used). Latin body/UI: **Inter Tight** (OFL, 400/500/600). No serif anywhere.
-- CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja), 黑體 for headings and body; never Noto Serif.
+- CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja), sans-serif (gothic) for headings and body; never Noto Serif.
 - Stacks (theme.json fontFamilies):
   - display: `"Onest", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
   - body: `"Inter Tight", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
@@ -142,7 +142,7 @@ Why not alike: no framed hero, no split hero, no staircase, no card stack, no ma
 **(2) Our translation (same composition, same motion idea, same image type: documentary photos, one monochrome grade).** The same pale page and tight headline; the photo wall becomes *the supplier's side of a late payment*: an owner at a packing bench comparing an invoice with its delivery note, a courier taking parcels at the workshop door, a wall calendar with a date circled thirty days out, shelves of packed orders, hands ticking a delivery note. Story: *"the sale is done and delivered; the cash is thirty days away — one invoice closes the gap."* The headline promises the result ("Paid Today For Last Week's Invoice"); the wall shows the real work that earned it. Motion: the bowed wall drifts slower than the page (sp-parallax), section titles below mask-wipe in, content rises in stagger, and the dark "Apply · 3 min" tab is fixed on the right edge exactly where Coral's tab sits.
 
 **(3) KV checklist (first screen 1440×900; all six visible without scrolling)**
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our version | Position | Motion | Image used |
 |---|---|---|---|---|---|
 | 1 | 72px tight H1, one coral word | Onest 400 4.5rem/0.91 ls −0.05em "Paid *Today* For / Last Week's Invoice", "Today" `#FF6D48` | top-left x=34, y≈290, max-w 900 | none (first screen visible immediately; letter-rise idea moves to the section titles as mask wipe) | — |
 | 2 | Documentary photo mosaic, 1.4:1 large tile + portrait, bleeding right | H01 large 603×431 at x=471,y=500; H02 portrait 341×401 at x=1084, y=555 bleeding right; row 2 H03–H05 below the fold | right two-thirds, from y≈500 to the bottom edge | `sp-parallax` `--sp-par:8%` on the mosaic (layer moves slower than the text) | H01, H02 (+H03, H04, H05 in row 2) |

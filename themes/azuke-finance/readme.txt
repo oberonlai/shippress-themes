@@ -25,7 +25,7 @@ The company, its address, telephone number, customers and prices are fictional.
 == Copyright ==
 
 Azuke Finance is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Onest (OFL-1.1) and Inter Tight (OFL-1.1), variable, Latin subset, WOFF2, see assets/fonts/.
+Fonts: Onest (OFL-1.1) and Inter Tight (OFL-1.1), variable, Latin subset, WOFF2; Noto Sans TC (OFL-1.1) and Noto Sans JP (OFL-1.1), subset WOFF2 for the Traditional Chinese and Japanese pages; see assets/fonts/.
 Scripts and styles: assets/sp-scroll.css and assets/sp-scroll.js are ShipPress's own scroll-effect files (GPL-2.0-or-later), no third-party library.
 
 = Images =

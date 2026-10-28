@@ -68,7 +68,7 @@ return array(
 	'f_title' => 'Questions',
 	'foot_addr' => 'Azuke Finance B.V.|Haringvliet 92, 3011 TG Rotterdam, Pays-Bas',
 	'foot_hours' => 'Lun–ven 8 h 30–17 h 30 CET · +31 10 555 0192',
-	'foot_lang' => 'English · 繁體中文 · 日本語 · Français · Deutsch',
+	'foot_lang' => 'English · Chinese · Japanese · Français · Deutsch',
 	'foot_links' => '[["Comment ça marche", "/how-it-works/"], ["Tarifs", "/pricing/"], ["À qui ça s\'adresse", "/who-its-for/"], ["Témoignages", "/stories/"], ["À propos", "/about/"], ["FAQ", "/faq/"], ["Contact", "/contact/"], ["Accès anticipé", "/early-access/"], ["Confidentialité", "/privacy/"], ["Conditions", "/terms/"]]',
 	'foot_mail' => 'apply@azuke.example · hello@azuke.example',
 	'g_label' => 'Le déficit de trésorerie',

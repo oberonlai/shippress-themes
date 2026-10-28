@@ -68,7 +68,7 @@ return array(
 	'f_title' => 'Questions',
 	'foot_addr' => 'Azuke Finance B.V.|Haringvliet 92, 3011 TG Rotterdam, Netherlands',
 	'foot_hours' => 'Mon–Fri 8:30–17:30 CET · +31 10 555 0192',
-	'foot_lang' => 'English · 繁體中文 · 日本語 · Français · Deutsch',
+	'foot_lang' => 'English · Chinese · Japanese · Français · Deutsch',
 	'foot_links' => '[["How it works", "/how-it-works/"], ["Pricing", "/pricing/"], ["Who it\'s for", "/who-its-for/"], ["Stories", "/stories/"], ["About", "/about/"], ["FAQ", "/faq/"], ["Contact", "/contact/"], ["Early access", "/early-access/"], ["Privacy", "/privacy/"], ["Terms", "/terms/"]]',
 	'foot_mail' => 'apply@azuke.example · hello@azuke.example',
 	'g_label' => 'The cash gap',

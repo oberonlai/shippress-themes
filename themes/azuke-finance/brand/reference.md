@@ -1,12 +1,12 @@
-# Reference (成品對應 filled from design-spec.md, stage 1 spec)
+# Reference (Implementation mapping, filled from design-spec.md, stage 1 spec)
 | Site | URL | Why | Used |
 |---|---|---|---|
 | Coral Capital (main) | https://coralcap.co/ | S5-Style #11295, finance/investment, quiet editorial type + documentary photography | key visual, section system, motion |
-| ALEX 会計事務所 (secondary) | https://alex-group.co.jp/ | S5-Style #12145, accounting for small companies, photo + overlay box | hero overlay card, appear motion |
+| ALEX Accounting Office (secondary) | https://alex-group.co.jp/ | S5-Style #12145, accounting for small companies, photo + overlay box | hero overlay card, appear motion |
 Screenshots: brand/ref/{coral,alex}-{first,part1,part2,part3}.png; scroll before/after: brand/ref/scroll-*.png. Measurements: reference-tokens.md.
 
-## Signature techniques (成品對應 = design-spec.md; T1–T3 chosen: #1+#2 → T1, #3 → T2, #4 → T3; #5 supporting)
-| # | Site | Technique (shape/composition/position) | 成品對應 |
+## Signature techniques (implementation mapping = design-spec.md; T1–T3 chosen: #1+#2 → T1, #3 → T2, #4 → T3; #5 supporting)
+| # | Site | Technique (shape/composition/position) | Implementation |
 |---|---|---|---|
 | 1 | Coral | Oversized serif H1 (72px, tight −0.06em) on pale ground with ONE word in accent, top-left, above a documentary mosaic | T1 `az-hero`: Onest 4.5rem/.91 ls −0.05em H1 "Paid *Today* For Last Week's Invoice", accent #FF6D48 on one word; inner page heads 4.25rem (design-spec §1 T1) |
 | 2 | Coral | Photo mosaic of 1.4:1 tiles (297×212 small, 603×431 large) in a 4-column grid bleeding off the right edge, bottom edge bowed; monochrome warm tone | T1 mosaic: H01 603×431 + H02 341×401 from x=471/y≈500 bleeding right, row 2 H03–H05 297×212; SVG bow mask ≈58px; sage-grey monochrome baked into all photos; `sp-parallax` 8%; bowed 2-tile strips on inner page heads |
