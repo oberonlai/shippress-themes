@@ -26,6 +26,11 @@ The showroom, its people, workshops, address, telephone number and prices are fi
 
 All photographs in assets/images/demo/ are AI-generated for this theme (CC0 / GPL-2.0-or-later):
 * P1: Bay Floor Lamp with a cylindrical linen drum shade on a solid travertine stone base.
+* P2: Ledger Table Lamp with an oak body and a pale paper shade, lit on a stone plinth.
+* P3: Quay Pendant, a spun aluminium dome hanging on a dark cable, lit.
+* P4: Lantern Wall Light with a brass swing arm and a linen cone shade on a plaster wall.
+* hl-11: Family setting an oak kitchen table under two spun aluminium pendants.
+* hl-12: Light plan drawing, lux meter, bulb samples and linen swatches on an oak table.
 * P5: Cairn Table Lamp with a rounded ceramic stoneware base and glowing pleated natural linen shade.
 * P6: Low Pendant Trio featuring three smoked glass globes suspended from a slim linear ceiling canopy.
 * hl-01: Woman in a dark coat turning on a linen floor lamp in a stone showroom.
@@ -53,6 +58,13 @@ Files (AI-generated for this theme, released under GPL-2.0-or-later / CC0):
 - assets/images/demo/p1-bay-floor-lamp.webp
 - assets/images/demo/p5-cairn-table-lamp.webp
 - assets/images/demo/p6-low-pendant-trio.webp
+- assets/images/demo/hl-09-halls.webp
+- assets/images/demo/hl-10-living.webp
+- assets/images/demo/hl-11-kitchen.webp
+- assets/images/demo/hl-12-plan.webp
+- assets/images/demo/p2-ledger-table-lamp.webp
+- assets/images/demo/p3-quay-pendant.webp
+- assets/images/demo/p4-lantern-wall-light.webp
 
 == Scroll effects ==
 

@@ -69,3 +69,7 @@ Over the past decade, our practice has expanded from our Steenkade 14 showroom i
 ## Photography
 
 Low-key real photography, one STYLE for every image: dim rooms lit by one or two 2700K lamps, limestone, lime plaster, oak and linen, muted charcoal / warm grey / umber with small pools of amber. No text, logos or cutouts.
+
+## Inner pages (en)
+
+Lamps (six pieces, monthly floor, 7-day trial), Rooms (dining and small restaurants up to 40 seats, living, reading, halls and stairs, kitchen), Fitting & Specification (consultation, light plan, home trial, installation and repair, price list, four questions), Projects (Kralingen living room 2025, Café Noor 28 seats, reading corner under the stairs, kitchen table for six), Visit (Steenkade 14, tram 7, step-free, hours), About & People (six people as text rows, six fictional workshops), Journal (index, archive, article "Why every bulb we sell is 2700K"), Contact & Book a Visit (hours, booking form), Bag. Every inner page opens with the dark head that lifts and a thin-caps marquee; Lamps, Fitting, Visit, About and Contact add the dark room box with one lit photo window.
