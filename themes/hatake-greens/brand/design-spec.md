@@ -57,7 +57,7 @@ Same composition (one full-bleed documentary photo, wide, the subject in the low
 H1 (en): "Picked at five. / On your counter by six." Sub-line: "Weekly vegetable membership · Wren Valley".
 
 ### (3) KV checklist (all implemented and visible on the first screen at 1440×900 and 390×844)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our equivalent | Position | Motion | Image |
 |---|---|---|---|---|---|
 | 1 | Full-bleed aerial valley photo (photo) | Full-bleed documentary photo: member lowering a wooden crate of greens onto a kitchen counter, window light, wide framing | whole first screen, 100vw × max(88vh,640px) | `sp-parallax`, `--sp-par: 8%` desktop / 5% mobile | hk-01 |
 | 2 | Wide-tracked white 2-line H1 bottom-left | "Picked at five. / On your counter by six." white, ls .16em | left 60 / bottom 96 (mobile 24 / 72) | none (hero: no reveal) | hk-01 |
@@ -72,7 +72,7 @@ Mobile (390): nav collapses to a "Menu" button + pill; no vertical or absolutely
 ## 3. Colour (reference relation kept: one muted brand green on white + warm-cool off-white, photos carry colour)
 | Role | Ours | Reference token (a) | Area | Note |
 |---|---|---|---|---|
-| Main / brand | `#4E5A48` 松葉色 | `#5BB543` | first screen ≤4% (logo); triangle section ≈9% | Replaced: the row fixes 松葉色; reference saturated green would exceed the quiet brief and clash with produce photos. Same usage slots kept (logo, big triangle, card titles). |
+| Main / brand | `#4E5A48` pine green | `#5BB543` | first screen ≤4% (logo); triangle section ≈9% | Replaced: the row fixes pine green; reference saturated green would exceed the quiet brief and clash with produce photos. Same usage slots kept (logo, big triangle, card titles). |
 | Accent | `#6E8A5B` | `#5BB543` reused for pill + dots | ≤3% | CTA pill, play-dots, tags |
 | Sub ground | `#EEF0EA` | `#F7F4EF` | ≈10% | cool sage-white instead of warm (avoid beige); cards/FAQ/intro strip, radius 4px |
 | Base | `#FFFFFF` | `#FFFFFF` | ≈45–50% | |
@@ -83,7 +83,7 @@ First-screen saturated (S>0.5) share: target ≤10%, hard cap 15% (check-first-s
 
 ## 4. Type (font_direction = sans)
 - Latin headings: **Hanken Grotesk** (500/600/700). Latin body + labels: **Schibsted Grotesk** (400/500).
-- Stacks: heading `"Hanken Grotesk", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; body `"Schibsted Grotesk", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`. `:lang(zh-TW)` puts Noto Sans TC first, `:lang(ja)` Noto Sans JP first (黑體 only, no 明體 anywhere). Copy shared/inc/editor-lang.php → inc/editor-lang.php and require it.
+- Stacks: heading `"Hanken Grotesk", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; body `"Schibsted Grotesk", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`. `:lang(zh)` sets display and heading to Noto Sans TC first, and body to the system Traditional Chinese faces (PingFang TC, Microsoft JhengHei) so body text is not set in the heading face. `:lang(ja)` puts Noto Sans JP first (gothic sans only, no mincho serif anywhere). Copy shared/inc/editor-lang.php → inc/editor-lang.php and require it.
 - All faces via theme.json `fontFamilies` + `fontFace` (woff2 in assets/fonts, including zh-TW / ja subset files via the Hokuto/Hada workaround), so editor and front end match.
 - Sizes (theme.json presets): small .8125rem, base 1rem (body lh 1.8 = token b card body 29/16), medium 1.25rem, large 1.625rem, x-large 2.25rem (H2, token 32px rounded up), xx-large 3rem (hero H1 cap), **xxx-large 4.5rem** (used: "Why short" statement §3 and closing join heading §10, `clamp(2.75rem,5.6vw,4.5rem)`, ls .02em, lh 1.15). CJK headings ×0.75, body lh 1.85; fr/de `hyphens:auto`.
 - Labels: "▶ Label" Schibsted .875rem ls .06em (token f/b). Headings weight 700 like token (H1/H2 700).

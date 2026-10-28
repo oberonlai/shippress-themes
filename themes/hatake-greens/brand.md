@@ -4,6 +4,7 @@ Weekly vegetable membership for city households (landing-page theme). Sample con
 
 ## Concept
 - **Name:** Hatake Greens (hatake = field). International, quiet, documentary.
+- **Audience:** city households who cook at home and want a weekly crate of vegetables from nearby farms.
 - **Location:** packing barn at 14 Orchard Lane, Wren Valley (fictional). USD prices in every language.
 - **History:** founded in 2019 by Ines Calder (grower relations) and Tomas Achebe (packing). Hatake Greens was founded in 2019 by Ines Calder and Tomas Achebe at a packing barn on 14 Orchard Lane in Wren Valley. The project began with a straightforward purpose: to bring morning-harvested vegetables directly into city households without the storage delays of conventional grocery supply chains. Working from the barn, the team established a weekly vegetable membership focused on seasonal freshness, steady farm partnerships, and transparent neighbourhood delivery.
 
