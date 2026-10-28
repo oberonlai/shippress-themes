@@ -1,0 +1,158 @@
+<?php
+/**
+ * Hatake Greens: theme strings, English (the source language; every other file overrides keys from this one).
+ *
+ * @package hatake-greens
+ */
+
+return array(
+	// Header and footer.
+	'nav_why'        => 'Why short',
+	'nav_crate'      => 'In the crate',
+	'nav_packing'    => 'Packing',
+	'nav_plan'       => 'The plan',
+	'nav_stories'    => 'Stories',
+	'nav_faq'        => 'Questions',
+	'nav_join'       => 'Join',
+	'logo_a'         => 'Hatake',
+	'logo_b'         => 'Greens',
+	'foot_name'      => 'Hatake Greens',
+	'foot_addr_t'    => 'Packing barn',
+	'foot_addr'      => '14 Orchard Lane, Wren Valley',
+	'foot_hours_t'   => 'Hours',
+	'foot_hours'     => 'Member desk Mon–Fri 9:00–17:00<br>Deliveries Tuesday and Thursday 14:00–19:00',
+	'foot_nav_t'     => 'Explore',
+	'foot_links'     => '<a href="/#why">Why short</a><br><a href="/#plan">The plan</a><br><a href="/#faq">Questions</a><br><a href="/privacy/">Privacy</a><br><a href="/terms/">Terms</a>',
+	'foot_copy'      => '© 2026 Hatake Greens, Wren Valley. Weekly vegetable membership since 2019.',
+	'search_results' => 'Search results for: %s',
+
+	// Hero.
+	'hero_l1'        => 'Picked at five.',
+	'hero_l2'        => 'On your counter by six.',
+	'hero_sub'       => 'Weekly vegetable membership · Wren Valley',
+	'hero_cta'       => 'Join',
+	'alt_hk-01'      => 'Person lowering a wooden crate filled with leafy greens onto a pale kitchen counter.',
+
+	// Intro.
+	'intro_label'    => 'Who it is for',
+	'intro_h'        => 'Fresh harvest for city kitchens',
+	'intro_p1'       => 'Hatake Greens delivers morning-harvested field vegetables directly to twelve neighbourhoods within 40 kilometres of our Wren Valley packing barn. Instead of storing produce in distribution hubs for days, we bring seasonal greens and vegetables to your door on the very day they are harvested.',
+	'intro_p2'       => 'Every Tuesday and Thursday, our crates offer a steady rhythm for everyday cooking. Whether you prepare meals daily or cook simple dinners during the workweek, each box provides clean, soil-grown vegetables picked that morning by local growers.',
+	'alt_hk-02'      => 'Person at an apartment table rinsing fresh green lettuce leaves in a colander.',
+
+	// Why the crate is short.
+	'why_label'      => 'Why a short crate',
+	'why_h'          => 'A short crate is a full week.',
+	'why_p1'         => 'Nine varieties are enough to cook hearty meals all week without letting forgotten produce wilt in the refrigerator drawer. By curating a balanced selection of sturdy roots, crisp leaves and versatile cooking vegetables, we remove kitchen waste before it begins.',
+	'why_p2'         => 'We work strictly with six partner farms within 60 kilometres of our barn. Keeping our supply chain short means crops stay in the ground until the morning of delivery, preserving their natural flavour, moisture and crisp texture.',
+	'why_p3'         => 'Direct delivery on harvest day removes unnecessary storage, cold warehouses and middle distributors. You receive vegetables at peak vitality, while our regional growers receive fair, steady income for every harvest.',
+	'alt_hk-03'      => 'Wide misty agricultural field with straight rows of green vegetables under dawn skies.',
+
+	// In the crate.
+	'crate_label'    => 'In the crate',
+	'crate_h_a'      => 'Nine kinds,',
+	'crate_h_b'      => 'picked this morning',
+	'crate_lead'     => 'Each standard crate contains approximately 4.5 kilograms of fresh produce across nine varieties.',
+	'crate_link'     => 'Join the next crate',
+	'c1_t'           => 'Carrots',
+	'c1_tag'         => 'Roots',
+	'c1_p'           => 'Crisp field carrots harvested with tops intact, sweet and firm from Ortiz Roots.',
+	'alt_hk-04'      => 'Top view of a freshly harvested bunch of carrots lying on a wooden board.',
+	'c2_t'           => 'Kale and chard',
+	'c2_tag'         => 'Greens',
+	'c2_p'           => 'Tender, dark leafy greens harvested by Moreau Field at five in the morning.',
+	'alt_hk-05'      => 'Fresh green kale and chard leaves resting inside the corner of a crate.',
+	'c3_t'           => 'New potatoes and onions',
+	'c3_tag'         => 'Pantry',
+	'c3_p'           => 'Clean seasonal potatoes and yellow onions from Mensah Hill, in breathable paper wrap.',
+	'alt_hk-06'      => 'New potatoes and whole yellow onions wrapped together in brown paper packaging.',
+	'c4_t'           => 'Herb bundle',
+	'c4_tag'         => 'Herbs',
+	'c4_p'           => 'Fresh dill and flat-leaf parsley tied with natural twine from Nair Herb Garden.',
+	'alt_hk-07'      => 'Bundle of fresh dill and parsley tied with natural twine resting on linen fabric.',
+	'c5_t'           => 'Radishes and spring onions',
+	'c5_tag'         => 'Salad',
+	'c5_p'           => 'Crisp washed radishes and scallions, ready for immediate weekday salads.',
+	'alt_hk-17'      => 'Washed red radishes and green spring onions covered in water droplets in a bowl.',
+
+	// The barn.
+	'barn_label'     => 'Morning in the barn',
+	'barn_cap'       => 'Inside the Wren Valley packing barn at 14 Orchard Lane, crates are packed by hand under natural morning light.',
+	'alt_hk-08'      => 'People packing vegetable crates along a long wooden table inside a bright timber barn.',
+
+	// Packing.
+	'pack_label'     => 'Packing',
+	'pack_h'         => 'How a box is packed that morning',
+	'pack_link'      => 'See the plan',
+	'p1_t'           => 'Field harvest',
+	'p1_tag'         => '5:00',
+	'p1_p'           => 'Growers cut crisp lettuce, chard and greens at dawn while the fields are still cold and wet with dew.',
+	'alt_hk-09'      => 'Farmer cutting fresh lettuce heads with a hand knife in the early dawn light.',
+	'p2_t'           => 'Washing and sorting',
+	'p2_tag'         => '7:30',
+	'p2_p'           => 'Vegetables arrive at the Wren Valley barn to be washed in cold water troughs and inspected by hand.',
+	'alt_hk-10'      => 'Pair of hands washing freshly harvested green vegetables in a stainless steel trough.',
+	'p3_t'           => 'Crating and loading',
+	'p3_tag'         => '9:00',
+	'p3_p'           => 'Nine varieties are packed into reusable wooden crates and loaded into vans for same-day delivery.',
+	'alt_hk-11'      => 'Stack of closed wooden delivery crates standing beside an open transport van door.',
+
+	// The plan.
+	'plan_label'     => 'The plan',
+	'plan_h'         => 'Standard crate $32 / week, delivery included',
+	'plan_p'         => 'One simple membership designed for everyday cooking. A standard crate contains 9 kinds of seasonal vegetables (about 4.5 kg) from 6 partner farms. Delivery is included across all 12 city neighbourhoods with zero crate deposit.',
+	'plan_f1'        => '9 kinds, about 4.5 kg',
+	'plan_f2'        => '6 partner farms within 60 km',
+	'plan_f3'        => 'Delivery included, no crate deposit',
+	'plan_f4'        => 'Skip, swap or pause until Sunday 20:00',
+	'plan_cta'       => 'Join',
+	'alt_hk-12'      => 'Top view of an open wooden crate displaying nine varieties of fresh vegetables.',
+	'tbl_item'       => 'Crate',
+	'tbl_price'      => 'Price',
+	'tbl_1'          => 'Small crate (1–2 people, 6 kinds)',
+	'tbl_1p'         => '$24 / week',
+	'tbl_2'          => 'Standard crate (2–4 people, 9 kinds)',
+	'tbl_2p'         => '$32 / week',
+	'tbl_3'          => 'Large crate (4–6 people, 12 kinds)',
+	'tbl_3p'         => '$44 / week',
+	'tbl_4'          => 'Every-other-week standard crate',
+	'tbl_4p'         => '$34 / delivery',
+
+	// Stories.
+	'st_label'       => 'Members',
+	'st_h'           => 'From our members',
+	'st1_n'          => 'The Park–Silva household',
+	'st1_m'          => '2 adults, Standard crate, members since 2021',
+	'st1_q'          => 'Having our vegetables arrive on Tuesday afternoon changed how we cook during the week. The greens are crisp, the roots keep well, and we rarely throw anything away.',
+	'alt_hk-14'      => 'Two people cooking food together with a wooden vegetable crate on the counter.',
+	'st2_n'          => 'Amara Diallo',
+	'st2_m'          => 'Living alone, Small crate, every other week',
+	'st2_i'          => 'AD',
+	'st2_q'          => 'The small crate is just right for one person. Receiving fresh vegetables every two weeks keeps my cooking varied without overwhelming my kitchen counter.',
+	'st3_n'          => 'The Weiss family',
+	'st3_m'          => '2 adults, 3 children, Large crate',
+	'st3_i'          => 'W',
+	'st3_q'          => 'With three hungry children, having twelve varieties delivered fresh on Thursday gives us everything we need for family dinners through the weekend.',
+
+	// Questions.
+	'faq_label'      => 'Questions',
+	'faq_h'          => 'Frequently asked questions',
+	'q1'             => 'When does delivery take place?',
+	'a1'             => 'Deliveries occur every Tuesday and Thursday between 14:00 and 19:00, depending on your neighbourhood route.',
+	'q2'             => 'Where do you deliver?',
+	'a2'             => 'We deliver to twelve city neighbourhoods within 40 kilometres of our Wren Valley barn: Riverside, Old Mill, Canal Quarter, Northgate, Linden Park, Harbour Row, Elm Hill, Station Square, Westbrook, Fairfield, Southbank and Kestrel Heights.',
+	'q3'             => 'How do crate returns work?',
+	'a3'             => 'There is no deposit. Simply leave your empty wooden crate on your doorstep and our driver will collect it on your next delivery day.',
+	'q4'             => 'Can I skip a week or pause my membership?',
+	'a4'             => 'Yes. You can skip a delivery, change your crate size or pause your membership anytime before Sunday at 20:00.',
+	'q5'             => 'Where does the produce come from?',
+	'a5'             => 'All vegetables are grown by six regional partner farms located within 60 kilometres of our Wren Valley packing barn.',
+	'q6'             => 'How can I reach member support?',
+	'a6'             => 'Our member desk is open Monday through Friday from 9:00 to 17:00.',
+
+	// Join.
+	'join_h'         => 'Your first crate, next Tuesday.',
+	'join_p'         => 'Join Hatake Greens today and receive seasonal vegetables harvested at dawn, delivered straight to your door.',
+	'join_cta'       => 'Join',
+	'alt_hk-16'      => 'Outdoor communal dinner table set with shared vegetable dishes in the late afternoon.',
+);
