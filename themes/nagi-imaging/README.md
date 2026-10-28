@@ -19,6 +19,8 @@ A calm block theme (type health) for a diagnostic imaging centre. Home page (Eng
 - `front-visit`
 
 ## Fonts
+Digits are drawn in Public Sans (a `Nagi Digits` unicode-range face in style.css) because Atkinson's slashed zero reads badly in times and prices.
+
 Public Sans and Atkinson Hyperlegible (SIL OFL 1.1, licences in assets/fonts).
 
 ## Images (AI-generated for this theme, no text or logos; assets/images/)

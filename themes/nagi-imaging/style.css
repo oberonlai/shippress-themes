@@ -49,6 +49,10 @@ a { text-underline-offset: .22em; transition: color .5s var(--ng-ease); }
 .screen-reader-text:focus { background: #fff; }
 img { max-width: 100%; height: auto; }
 
+/* Atkinson draws a slashed zero; digits come from Public Sans (same file as the display face) */
+@font-face { font-family: "Nagi Digits"; font-style: normal; font-weight: 100 900; font-display: swap; src: url("assets/fonts/public-sans-variable-latin.woff2") format("woff2"); unicode-range: U+0030-0039; }
+body, .editor-styles-wrapper { --wp--preset--font-family--body: "Nagi Digits", "Atkinson Hyperlegible", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif; font-variant-numeric: tabular-nums; }
+
 /* ---------- header ---------- */
 .nagi-header { position: absolute; top: 0; left: 0; right: 0; z-index: 30; display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; height: 96px; padding: 30px var(--ng-side) 0; background: transparent; margin: 0; }
 .nagi-header::before { content: ""; position: absolute; left: 0; top: 0; width: 30px; height: 30px; background: var(--ng-mist); border-bottom-right-radius: 30px; }
@@ -58,7 +62,7 @@ img { max-width: 100%; height: auto; }
 .nagi-brand__sub { margin: 4px 0 0; font-size: .75rem; letter-spacing: .08em; line-height: 1.2; color: #6B7880; }
 .nagi-mark { display: block; margin: 0; width: 28px; height: 28px; border: 2px solid var(--ng-ink); border-radius: 50%; position: relative; flex: none; }
 .nagi-mark::after { content: ""; position: absolute; left: -6px; right: -6px; top: 50%; height: 2px; margin-top: -1px; background: var(--ng-ink); }
-.nagi-nav { margin: 6px 0 0; font-size: .875rem; letter-spacing: .05em; text-transform: uppercase; }
+.nagi-nav { background: #fff; padding: 6px 14px; margin: 0; font-size: .875rem; letter-spacing: .05em; text-transform: uppercase; }
 .nagi-nav .wp-block-navigation__container { gap: 30px; }
 .nagi-nav a { color: var(--ng-ink); text-decoration: none; transition: color .5s var(--ng-ease); font-weight: 400; }
 .nagi-nav a:hover { color: var(--ng-main); text-decoration: underline; text-decoration-thickness: 1px; }
@@ -124,7 +128,7 @@ img { max-width: 100%; height: auto; }
 .nagi-ticker { position: absolute; left: 34.722%; top: 92.889%; width: 61.944%; display: flex; align-items: center; gap: 24px; margin: 0; font-size: .875rem; letter-spacing: .04em; line-height: 32px; white-space: nowrap; }
 .nagi-ticker > p { margin: 0; }
 .nagi-ticker__tag { text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px; }
-.nagi-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--ng-accent); display: inline-block; }
+.nagi-dot { margin-right: 6px; width: 6px; height: 6px; border-radius: 50%; background: var(--ng-accent); display: inline-block; }
 .nagi-ticker__line { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .nagi-ticker__line { font-size: .8125rem; letter-spacing: .02em; }
 .nagi-ticker__line a { text-decoration: underline; text-decoration-thickness: 1px; }
@@ -171,10 +175,12 @@ img { max-width: 100%; height: auto; }
 .nagi-purpose__a, .nagi-purpose__b { min-height: 140vh; padding: 0 var(--ng-side); position: relative; }
 .nagi-purpose__a { background: #fff; }
 .nagi-purpose__b { background: linear-gradient(to bottom, #fff 0, var(--ng-mist) 160px, var(--ng-mist) 100%); }
+@media (max-width: 781px) { .nagi-purpose__b { background: linear-gradient(to bottom, #fff 0, var(--ng-mist) 56px, var(--ng-mist) 100%); } }
 .nagi-purpose__in { position: sticky; top: 24vh; max-width: 1368px; margin: 0 auto; padding: 0; }
 .nagi-purpose__a { padding-top: 12vh; }
 .nagi-purpose__b .nagi-purpose__in { top: 30vh; }
 .nagi-purpose__b { padding-top: 20vh; }
+@media (max-width: 781px) { .nagi-purpose .nagi-purpose__b { padding-top: 96px; } }
 .nagi-col { margin: 0 0 0 33%; max-width: 760px; }
 .nagi-purpose__a .nagi-label { margin-left: 33%; }
 .nagi-statement { margin: 0 0 .35em; font-family: var(--ng-display); font-weight: 300; font-size: 2.5rem; line-height: 1.9; letter-spacing: .06em; color: var(--ng-ink); }
@@ -292,7 +298,7 @@ img { max-width: 100%; height: auto; }
 @media (max-width: 781px) {
 	.nagi-visit__top { padding-bottom: 72px; }
 	.nagi-visit__grid { grid-template-columns: 1fr; gap: 32px; }
-	.nagi-strips--visit { top: auto; position: relative; left: 16px; margin-top: -28px; font-size: 1.375rem; }
+	.nagi-strips--visit { top: auto; position: relative; left: 16px; margin-top: -72px; font-size: 1.375rem; }
 	.nagi-newsrow { flex-wrap: wrap; gap: 6px 16px; }
 	.nagi-newsrow__title { flex-basis: 100%; order: 3; }
 	.nagi-newsrow__go { order: 2; }
