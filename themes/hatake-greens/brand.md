@@ -51,3 +51,6 @@ Today, Hatake Greens delivers to twelve city neighbourhoods within 40 kilometres
 Pine sage #4E5A48 (main), leaf #6E8A5B (pill, dots), sage white #EEF0EA (cards), white ground, ink #1F251C, light leaf #CFE0C4 on photos.
 
 Fonts: Hanken Grotesk (headings), Schibsted Grotesk (reading); Noto Sans TC / JP for Chinese and Japanese.
+
+## Inner pages (en)
+The crate, Packing morning, Our growers, Plans & prices, Delivery, Member stories, Questions, Waitlist, About, plus Privacy, Terms and Thank you; one journal post ("From Dawn Soil to City Counters"). Each content page opens with a full-bleed photo head (bottom-left tracked headline, parallax), then a sage triangle opener on The crate, Packing, Growers, Plans, Delivery and Waitlist, and tagged 3:2 cards on The crate, Packing, Growers and Stories. Packing and About carry a full-width parallax photo band. Plans show the six-item price table (full width from 782px, price column never cut, stacked on phones).
