@@ -13,29 +13,29 @@ $img = esc_url( get_theme_file_uri( 'assets/images/demo/hl-05-planner.webp' ) );
 <!-- /wp:html -->
 
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hl-window sp-parallax"} -->
-<figure class="wp-block-image size-large hl-window sp-parallax"><img src="<?php echo $img; ?>" alt="Lighting planner and client examining a lamp head above drawings on a stone table."/></figure>
+<figure class="wp-block-image size-large hl-window sp-parallax"><img src="<?php echo $img; ?>" alt="<?php echo esc_attr( hikari_lighting_t( 'adb4d839b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hl-roombox__text","layout":{"type":"default"}} -->
 <div class="wp-block-group hl-roombox__text"><!-- wp:group {"className":"hl-roombox__head","layout":{"type":"default"}} -->
 <div class="wp-block-group hl-roombox__head"><!-- wp:paragraph {"className":"hl-label"} -->
-<p class="hl-label">[ 04 ] Fitting &amp; specification</p>
+<p class="hl-label"><?php echo wp_kses_post( hikari_lighting_t( 'kfeb9317a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"hl-h2"} -->
-<h2 class="wp-block-heading hl-h2">Specified in<br>your room.</h2>
+<h2 class="wp-block-heading hl-h2"><?php echo wp_kses_post( hikari_lighting_t( 'ke7031850' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hl-roombox__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hl-roombox__body"><!-- wp:paragraph -->
-<p>We begin in your space with a 90-minute home consultation for €120 across the Rotterdam area. We assess how daylight recedes, examine wall finishes and ceiling heights, and listen to how you inhabit each corner throughout the evening.</p>
+<p><?php echo wp_kses_post( hikari_lighting_t( 'k1c619c07' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>Following our visit, we deliver a written light plan detailing exact lamp positions, switching arrangements, dimmers, and bulb specifications. Every fitting is calibrated to 2700K warm white to maintain tonal harmony and eliminate cold glare.</p>
+<p><?php echo wp_kses_post( hikari_lighting_t( 'kfe1645b7' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>Before committing, you test up to three selected pieces in your home through our 7-day home trial for a refundable €50 deposit. Once confirmed, installation is completed seamlessly by our partner electrician.</p>
+<p><?php echo wp_kses_post( hikari_lighting_t( 'kfe37c0d4' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hl-mono hl-arrow"} -->
-<p class="hl-mono hl-arrow"><a href="/fitting/">Fitting &amp; prices ↗</a></p>
+<p class="hl-mono hl-arrow"><a href="/fitting/"><?php echo wp_kses_post( hikari_lighting_t( 'k101cddd4' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

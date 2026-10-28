@@ -10,20 +10,20 @@
 <section class="wp-block-group alignfull hl-section hl-pieces">
 <!-- wp:group {"className":"hl-wrap hl-row hl-row--A","layout":{"type":"default"}} -->
 <div class="wp-block-group hl-wrap hl-row hl-row--A"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hl-row__img"} -->
-<figure class="wp-block-image size-large hl-row__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p1-bay-floor-lamp.webp' ) ); ?>" alt="Bay Floor Lamp with a cylindrical linen drum shade on a solid travertine stone base."/></figure>
+<figure class="wp-block-image size-large hl-row__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p1-bay-floor-lamp.webp' ) ); ?>" alt="<?php echo esc_attr( hikari_lighting_t( 'a5f13d07a' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hl-row__text","layout":{"type":"default"}} -->
 <div class="wp-block-group hl-row__text"><!-- wp:paragraph {"className":"hl-label"} -->
-<p class="hl-label">[ 01 ] Floor</p>
+<p class="hl-label"><?php echo wp_kses_post( hikari_lighting_t( 'k1027cd3c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"hl-row__name"} -->
-<h3 class="wp-block-heading hl-row__name">Bay Floor Lamp</h3>
+<h3 class="wp-block-heading hl-row__name"><?php echo wp_kses_post( hikari_lighting_t( 'k15e980e5' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hl-mono"} -->
-<p class="hl-mono">For: living rooms, reading corners</p>
+<p class="hl-mono"><?php echo wp_kses_post( hikari_lighting_t( 'kbd07d289' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hl-row__price"} -->
@@ -31,31 +31,31 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Built with a natural linen drum shade on a solid travertine base. The low-slung proportion casts an intimate, warm pool of light at seating level, keeping the ceiling in restful shadow.</p>
+<p><?php echo wp_kses_post( hikari_lighting_t( 'keccabf3e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hl-mono hl-arrow"} -->
-<p class="hl-mono hl-arrow"><a href="/lamps/">View piece ↗</a></p>
+<p class="hl-mono hl-arrow"><a href="/lamps/"><?php echo wp_kses_post( hikari_lighting_t( 'kf91b1603' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hl-wrap hl-row hl-row--B","layout":{"type":"default"}} -->
 <div class="wp-block-group hl-wrap hl-row hl-row--B"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hl-row__img"} -->
-<figure class="wp-block-image size-large hl-row__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p5-cairn-table-lamp.webp' ) ); ?>" alt="Cairn Table Lamp with a rounded ceramic stoneware base and glowing pleated natural linen shade."/></figure>
+<figure class="wp-block-image size-large hl-row__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p5-cairn-table-lamp.webp' ) ); ?>" alt="<?php echo esc_attr( hikari_lighting_t( 'ad6dc29ad' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hl-row__text","layout":{"type":"default"}} -->
 <div class="wp-block-group hl-row__text"><!-- wp:paragraph {"className":"hl-label"} -->
-<p class="hl-label">[ 02 ] Table</p>
+<p class="hl-label"><?php echo wp_kses_post( hikari_lighting_t( 'k44b5c1ac' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"hl-row__name"} -->
-<h3 class="wp-block-heading hl-row__name">Cairn Table Lamp</h3>
+<h3 class="wp-block-heading hl-row__name"><?php echo wp_kses_post( hikari_lighting_t( 'k85bc249d' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hl-mono"} -->
-<p class="hl-mono">For: living rooms</p>
+<p class="hl-mono"><?php echo wp_kses_post( hikari_lighting_t( 'k3dc32eb6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hl-row__price"} -->
@@ -63,31 +63,31 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A heavy stoneware base supporting a softly pleated linen shade. Designed to sit on low shelving or a side table, providing a gentle 2700K accent that anchors the perimeter of a room.</p>
+<p><?php echo wp_kses_post( hikari_lighting_t( 'kba47b540' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hl-mono hl-arrow"} -->
-<p class="hl-mono hl-arrow"><a href="/lamps/">View piece ↗</a></p>
+<p class="hl-mono hl-arrow"><a href="/lamps/"><?php echo wp_kses_post( hikari_lighting_t( 'kf91b1603' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hl-wrap hl-row hl-row--A","layout":{"type":"default"}} -->
 <div class="wp-block-group hl-wrap hl-row hl-row--A"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"hl-row__img"} -->
-<figure class="wp-block-image size-large hl-row__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p6-low-pendant-trio.webp' ) ); ?>" alt="Low Pendant Trio featuring three smoked glass globes suspended from a slim linear ceiling canopy."/></figure>
+<figure class="wp-block-image size-large hl-row__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p6-low-pendant-trio.webp' ) ); ?>" alt="<?php echo esc_attr( hikari_lighting_t( 'a116d1fe4' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hl-row__text","layout":{"type":"default"}} -->
 <div class="wp-block-group hl-row__text"><!-- wp:paragraph {"className":"hl-label"} -->
-<p class="hl-label">[ 03 ] Pendant</p>
+<p class="hl-label"><?php echo wp_kses_post( hikari_lighting_t( 'kd7fcfc98' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"hl-row__name"} -->
-<h3 class="wp-block-heading hl-row__name">Low Pendant Trio</h3>
+<h3 class="wp-block-heading hl-row__name"><?php echo wp_kses_post( hikari_lighting_t( 'kb3aadaba' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hl-mono"} -->
-<p class="hl-mono">For: dining rooms, small restaurants</p>
+<p class="hl-mono"><?php echo wp_kses_post( hikari_lighting_t( 'k6b478b38' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hl-row__price"} -->
@@ -95,18 +95,18 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Three 18 cm smoked-glass pendants suspended from a slim linear canopy. Hung low over a dining table, they focus warmth directly onto linen and plates without glare.</p>
+<p><?php echo wp_kses_post( hikari_lighting_t( 'kc1e78466' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hl-mono hl-arrow"} -->
-<p class="hl-mono hl-arrow"><a href="/lamps/">View piece ↗</a></p>
+<p class="hl-mono hl-arrow"><a href="/lamps/"><?php echo wp_kses_post( hikari_lighting_t( 'kf91b1603' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hl-wrap hl-pieces__all","layout":{"type":"default"}} -->
 <div class="wp-block-group hl-wrap hl-pieces__all"><!-- wp:paragraph {"className":"hl-mono hl-arrow"} -->
-<p class="hl-mono hl-arrow"><a href="/lamps/">All six pieces ↗</a></p>
+<p class="hl-mono hl-arrow"><a href="/lamps/"><?php echo wp_kses_post( hikari_lighting_t( 'k4544c4c4' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
