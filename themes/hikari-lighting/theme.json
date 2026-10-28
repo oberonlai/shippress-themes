@@ -1,88 +1,321 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"customTemplates": [ { "name": "page-wide", "title": "Page with its own head", "postTypes": [ "page" ] } ],
+	"customTemplates": [
+		{
+			"name": "page-wide",
+			"title": "Page with its own head",
+			"postTypes": [
+				"page"
+			]
+		}
+	],
 	"settings": {
 		"appearanceTools": true,
 		"useRootPaddingAwareAlignments": true,
-		"layout": { "contentSize": "1280px", "wideSize": "1360px" },
+		"layout": {
+			"contentSize": "1280px",
+			"wideSize": "1360px"
+		},
 		"color": {
 			"defaultPalette": false,
 			"defaultGradients": false,
 			"palette": [
-				{ "slug": "ground", "name": "Ground", "color": "#F2F2F2" },
-				{ "slug": "ink", "name": "Ink", "color": "#0E0E0E" },
-				{ "slug": "curtain", "name": "Curtain", "color": "#1A1512" },
-				{ "slug": "oak", "name": "Black oak", "color": "#3F332C" },
-				{ "slug": "ceiling", "name": "Ceiling", "color": "#5A4C43" },
-				{ "slug": "side-wall", "name": "Side wall", "color": "#2B231F" },
-				{ "slug": "caption", "name": "Caption", "color": "#6B6560" },
-				{ "slug": "caption-dark", "name": "Caption on dark", "color": "#9A928C" },
-				{ "slug": "brass", "name": "Lamp brass", "color": "#C9A063" },
-				{ "slug": "white", "name": "White", "color": "#FFFFFF" }
+				{
+					"slug": "ground",
+					"name": "Ground",
+					"color": "#F2F2F2"
+				},
+				{
+					"slug": "ink",
+					"name": "Ink",
+					"color": "#0E0E0E"
+				},
+				{
+					"slug": "curtain",
+					"name": "Curtain",
+					"color": "#1A1512"
+				},
+				{
+					"slug": "oak",
+					"name": "Black oak",
+					"color": "#3F332C"
+				},
+				{
+					"slug": "ceiling",
+					"name": "Ceiling",
+					"color": "#5A4C43"
+				},
+				{
+					"slug": "side-wall",
+					"name": "Side wall",
+					"color": "#2B231F"
+				},
+				{
+					"slug": "caption",
+					"name": "Caption",
+					"color": "#6B6560"
+				},
+				{
+					"slug": "caption-dark",
+					"name": "Caption on dark",
+					"color": "#9A928C"
+				},
+				{
+					"slug": "brass",
+					"name": "Lamp brass",
+					"color": "#C9A063"
+				},
+				{
+					"slug": "white",
+					"name": "White",
+					"color": "#FFFFFF"
+				}
 			]
 		},
 		"typography": {
 			"fluid": false,
 			"fontFamilies": [
 				{
-					"slug": "heading", "name": "Heading", "fontFamily": "\"Outfit\", \"Noto Sans TC\", \"Noto Sans JP\", system-ui, sans-serif",
+					"slug": "heading",
+					"name": "Heading",
+					"fontFamily": "\"Outfit\", \"Noto Sans TC\", \"Noto Sans JP\", system-ui, sans-serif",
 					"fontFace": [
-						{ "fontFamily": "Outfit", "fontStyle": "normal", "fontWeight": "100 900", "fontDisplay": "swap", "src": [ "file:./assets/fonts/outfit-variable-latin.woff2" ] },
-						{ "fontFamily": "Noto Sans TC", "fontStyle": "normal", "fontWeight": "400", "fontDisplay": "swap", "src": [ "file:./assets/fonts/noto-sans-tc-zh-tw-400.woff2" ] },
-						{ "fontFamily": "Noto Sans TC", "fontStyle": "normal", "fontWeight": "700", "fontDisplay": "swap", "src": [ "file:./assets/fonts/noto-sans-tc-zh-tw-700.woff2" ] },
-						{ "fontFamily": "Noto Sans JP", "fontStyle": "normal", "fontWeight": "400", "fontDisplay": "swap", "src": [ "file:./assets/fonts/noto-sans-jp-400-ja.woff2" ] },
-						{ "fontFamily": "Noto Sans JP", "fontStyle": "normal", "fontWeight": "700", "fontDisplay": "swap", "src": [ "file:./assets/fonts/noto-sans-jp-700-ja.woff2" ] }
+						{
+							"fontFamily": "Outfit",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/outfit-variable-latin.woff2"
+							]
+						}
 					]
 				},
 				{
-					"slug": "body", "name": "Body", "fontFamily": "\"Figtree\", \"Noto Sans TC\", \"Noto Sans JP\", system-ui, sans-serif",
+					"slug": "noto-sans-tc",
+					"name": "Noto Sans TC",
+					"fontFamily": "\"Noto Sans TC\", system-ui, sans-serif",
 					"fontFace": [
-						{ "fontFamily": "Figtree", "fontStyle": "normal", "fontWeight": "300 900", "fontDisplay": "swap", "src": [ "file:./assets/fonts/figtree-variable-latin.woff2" ] }
+						{
+							"fontFamily": "Noto Sans TC",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/noto-sans-tc-zh-tw-400.woff2"
+							]
+						},
+						{
+							"fontFamily": "Noto Sans TC",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/noto-sans-tc-zh-tw-700.woff2"
+							]
+						}
 					]
 				},
 				{
-					"slug": "mono", "name": "Mono", "fontFamily": "\"IBM Plex Mono\", \"Noto Sans TC\", \"Noto Sans JP\", ui-monospace, monospace",
+					"slug": "noto-sans-jp",
+					"name": "Noto Sans JP",
+					"fontFamily": "\"Noto Sans JP\", system-ui, sans-serif",
 					"fontFace": [
-						{ "fontFamily": "IBM Plex Mono", "fontStyle": "normal", "fontWeight": "400", "fontDisplay": "swap", "src": [ "file:./assets/fonts/ibm-plex-mono-regular-latin1.woff2" ] },
-						{ "fontFamily": "IBM Plex Mono", "fontStyle": "normal", "fontWeight": "500", "fontDisplay": "swap", "src": [ "file:./assets/fonts/ibm-plex-mono-medium-latin1.woff2" ] }
+						{
+							"fontFamily": "Noto Sans JP",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/noto-sans-jp-400-ja.woff2"
+							]
+						},
+						{
+							"fontFamily": "Noto Sans JP",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/noto-sans-jp-700-ja.woff2"
+							]
+						}
+					]
+				},
+				{
+					"slug": "body",
+					"name": "Body",
+					"fontFamily": "\"Figtree\", \"Noto Sans TC\", \"Noto Sans JP\", system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Figtree",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/figtree-variable-latin.woff2"
+							]
+						}
+					]
+				},
+				{
+					"slug": "mono",
+					"name": "Mono",
+					"fontFamily": "\"IBM Plex Mono\", \"Noto Sans TC\", \"Noto Sans JP\", ui-monospace, monospace",
+					"fontFace": [
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono-regular-latin1.woff2"
+							]
+						},
+						{
+							"fontFamily": "IBM Plex Mono",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/ibm-plex-mono-medium-latin1.woff2"
+							]
+						}
 					]
 				}
 			],
 			"fontSizes": [
-				{ "slug": "x-small", "name": "X-small", "size": "0.75rem" },
-				{ "slug": "small", "name": "Small", "size": "0.875rem" },
-				{ "slug": "medium", "name": "Medium", "size": "1rem" },
-				{ "slug": "large", "name": "Large", "size": "1.25rem" },
-				{ "slug": "x-large", "name": "X-large", "size": "3.125rem" },
-				{ "slug": "xx-large", "name": "XX-large", "size": "4.25rem" },
-				{ "slug": "huge", "name": "Huge", "size": "5rem" }
+				{
+					"slug": "x-small",
+					"name": "X-small",
+					"size": "0.75rem"
+				},
+				{
+					"slug": "small",
+					"name": "Small",
+					"size": "0.875rem"
+				},
+				{
+					"slug": "medium",
+					"name": "Medium",
+					"size": "1rem"
+				},
+				{
+					"slug": "large",
+					"name": "Large",
+					"size": "1.25rem"
+				},
+				{
+					"slug": "x-large",
+					"name": "X-large",
+					"size": "3.125rem"
+				},
+				{
+					"slug": "xx-large",
+					"name": "XX-large",
+					"size": "4.25rem"
+				},
+				{
+					"slug": "huge",
+					"name": "Huge",
+					"size": "5rem"
+				}
 			]
 		},
 		"spacing": {
-			"units": [ "px", "rem", "%", "vw", "svh" ],
+			"units": [
+				"px",
+				"rem",
+				"%",
+				"vw",
+				"svh"
+			],
 			"spacingSizes": [
-				{ "slug": "20", "name": "S", "size": "1rem" },
-				{ "slug": "30", "name": "M", "size": "2.5rem" },
-				{ "slug": "40", "name": "L", "size": "6rem" },
-				{ "slug": "50", "name": "XL", "size": "11.25rem" }
+				{
+					"slug": "20",
+					"name": "S",
+					"size": "1rem"
+				},
+				{
+					"slug": "30",
+					"name": "M",
+					"size": "2.5rem"
+				},
+				{
+					"slug": "40",
+					"name": "L",
+					"size": "6rem"
+				},
+				{
+					"slug": "50",
+					"name": "XL",
+					"size": "11.25rem"
+				}
 			]
 		},
-		"border": { "radius": false }
+		"border": {
+			"radius": false
+		}
 	},
 	"styles": {
-		"color": { "background": "var(--wp--preset--color--ground)", "text": "var(--wp--preset--color--ink)" },
-		"typography": { "fontFamily": "var(--wp--preset--font-family--body)", "fontSize": "1rem", "lineHeight": "1.5" },
-		"spacing": { "blockGap": "0", "padding": { "left": "0", "right": "0" } },
+		"color": {
+			"background": "var(--wp--preset--color--ground)",
+			"text": "var(--wp--preset--color--ink)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--body)",
+			"fontSize": "1rem",
+			"lineHeight": "1.5"
+		},
+		"spacing": {
+			"blockGap": "0",
+			"padding": {
+				"left": "0",
+				"right": "0"
+			}
+		},
 		"elements": {
-			"heading": { "typography": { "fontFamily": "var(--wp--preset--font-family--heading)", "fontWeight": "600", "lineHeight": "1.05" } },
-			"h1": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
-			"h2": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)", "letterSpacing": "-0.01em", "lineHeight": "1" } },
-			"link": { "color": { "text": "var(--wp--preset--color--ink)" }, ":hover": { "color": { "text": "var(--wp--preset--color--ink)" } } },
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"fontWeight": "600",
+					"lineHeight": "1.05"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-large)",
+					"letterSpacing": "-0.01em",
+					"lineHeight": "1"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--ink)"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--ink)"
+					}
+				}
+			},
 			"button": {
-				"color": { "background": "var(--wp--preset--color--ink)", "text": "var(--wp--preset--color--ground)" },
-				"border": { "radius": "0" },
-				"typography": { "fontFamily": "var(--wp--preset--font-family--mono)", "fontSize": "0.875rem" }
+				"color": {
+					"background": "var(--wp--preset--color--ink)",
+					"text": "var(--wp--preset--color--ground)"
+				},
+				"border": {
+					"radius": "0"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--mono)",
+					"fontSize": "0.875rem"
+				}
 			}
 		}
 	}

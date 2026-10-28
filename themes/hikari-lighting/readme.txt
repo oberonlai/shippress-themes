@@ -65,6 +65,18 @@ Files (AI-generated for this theme, released under GPL-2.0-or-later / CC0):
 - assets/images/demo/p2-ledger-table-lamp.webp
 - assets/images/demo/p3-quay-pendant.webp
 - assets/images/demo/p4-lantern-wall-light.webp
+- assets/images/hl-01-bay.webp
+- assets/images/hl-02-floor.webp
+- assets/images/hl-03-dining.webp
+- assets/images/hl-04-reading.webp
+- assets/images/hl-05-planner.webp
+- assets/images/hl-06-window.webp
+- assets/images/hl-07-repair.webp
+- assets/images/hl-08-shade.webp
+- assets/images/hl-09-halls.webp
+- assets/images/hl-10-living.webp
+- assets/images/hl-11-kitchen.webp
+- assets/images/hl-12-plan.webp
 
 == Scroll effects ==
 
@@ -72,4 +84,4 @@ assets/sp-scroll.js and assets/sp-scroll.css (ShipPress, GPL-2.0-or-later) provi
 
 == Copyright ==
 
-Hikari Lighting WordPress Theme, (C) 2026 ShipPress. Hikari Lighting is distributed under the terms of the GNU GPL v2 or later. Fonts: Outfit, Figtree and IBM Plex Mono are licensed under the SIL Open Font License 1.1 (see assets/fonts/).
+Hikari Lighting WordPress Theme, (C) 2026 ShipPress. Hikari Lighting is distributed under the terms of the GNU GPL v2 or later. Fonts: Outfit, Figtree, IBM Plex Mono, Noto Sans TC and Noto Sans JP are licensed under the SIL Open Font License 1.1 (see assets/fonts/).
