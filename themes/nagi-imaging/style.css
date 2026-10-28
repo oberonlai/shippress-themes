@@ -432,3 +432,11 @@ body, .editor-styles-wrapper { --wp--preset--font-family--body: "Nagi Digits", "
 .editor-styles-wrapper .nagi-hero__stage { aspect-ratio: 8 / 5; }
 
 @media print { .nagi-header { position: static; } }
+
+/* Languages: Chinese and Japanese use Noto Sans (bundled CJK subset); Latin and figures stay in Public Sans / Atkinson */
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.02em; font-weight: 700; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2) { font-size: 0.75em; }
+:lang(ja) :is(h1, h2, h3, p) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3) { hyphens: auto; overflow-wrap: break-word; }

@@ -13,23 +13,23 @@
 <!-- wp:group {"className":"nagi-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-wrap">
 <!-- wp:paragraph {"className":"nagi-label"} -->
-<p class="nagi-label">Self-pay, EUR</p>
+<p class="nagi-label"><?php echo wp_kses_post( nagi_imaging_t( 'k909de81a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"nagi-word"} -->
-<h2 class="wp-block-heading nagi-word">Fees</h2>
+<h2 class="wp-block-heading nagi-word"><?php echo wp_kses_post( nagi_imaging_t( 'k006300ef' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
-<figure class="wp-block-table nagi-fees"><table><thead><tr><th>Study</th><th>What is included</th><th class="nagi-price">Price</th></tr></thead><tbody><tr><td data-label="Study"><strong>X-ray, one region</strong></td><td data-label="Included">two views, report</td><td data-label="Price" class="nagi-price">€65</td></tr><tr><td data-label="Study"><strong>Ultrasound, one region</strong></td><td data-label="Included">scan by sonographer, report</td><td data-label="Price" class="nagi-price">€120</td></tr><tr><td data-label="Study"><strong>DEXA bone density</strong></td><td data-label="Included">hip and spine, report with T-score</td><td data-label="Price" class="nagi-price">€95</td></tr><tr><td data-label="Study"><strong>Mammography with breast ultrasound</strong></td><td data-label="Included">both sides, report</td><td data-label="Price" class="nagi-price">€160</td></tr><tr><td data-label="Study"><strong>CT, one region</strong></td><td data-label="Included">contrast if needed, double read</td><td data-label="Price" class="nagi-price">€290</td></tr><tr><td data-label="Study"><strong>MRI, one region</strong></td><td data-label="Included">30–45 min scan, double read</td><td data-label="Price" class="nagi-price">€380</td></tr><tr><td data-label="Study"><strong>Second opinion on outside images</strong></td><td data-label="Included">report only, images uploaded by your doctor</td><td data-label="Price" class="nagi-price">€150</td></tr></tbody></table></figure>
+<figure class="wp-block-table nagi-fees"><table><thead><tr><th><?php echo wp_kses_post( nagi_imaging_t( 'k0a3dac23' ) ); ?></th><th><?php echo wp_kses_post( nagi_imaging_t( 'kd61ac03a' ) ); ?></th><th class="nagi-price"><?php echo wp_kses_post( nagi_imaging_t( 'k3601146c' ) ); ?></th></tr></thead><tbody><tr><td data-label="Study"><strong><?php echo wp_kses_post( nagi_imaging_t( 'k3c3d3df2' ) ); ?></strong></td><td data-label="Included"><?php echo wp_kses_post( nagi_imaging_t( 'ka3e0918b' ) ); ?></td><td data-label="Price" class="nagi-price">€65</td></tr><tr><td data-label="Study"><strong><?php echo wp_kses_post( nagi_imaging_t( 'ka3e11bb8' ) ); ?></strong></td><td data-label="Included"><?php echo wp_kses_post( nagi_imaging_t( 'ka78f5b2e' ) ); ?></td><td data-label="Price" class="nagi-price">€120</td></tr><tr><td data-label="Study"><strong><?php echo wp_kses_post( nagi_imaging_t( 'ked214949' ) ); ?></strong></td><td data-label="Included"><?php echo wp_kses_post( nagi_imaging_t( 'k364588dd' ) ); ?></td><td data-label="Price" class="nagi-price">€95</td></tr><tr><td data-label="Study"><strong><?php echo wp_kses_post( nagi_imaging_t( 'k1095fca5' ) ); ?></strong></td><td data-label="Included"><?php echo wp_kses_post( nagi_imaging_t( 'k20574a20' ) ); ?></td><td data-label="Price" class="nagi-price">€160</td></tr><tr><td data-label="Study"><strong><?php echo wp_kses_post( nagi_imaging_t( 'k0bf054e4' ) ); ?></strong></td><td data-label="Included"><?php echo wp_kses_post( nagi_imaging_t( 'k10ef89f4' ) ); ?></td><td data-label="Price" class="nagi-price">€290</td></tr><tr><td data-label="Study"><strong><?php echo wp_kses_post( nagi_imaging_t( 'k0932cf47' ) ); ?></strong></td><td data-label="Included"><?php echo wp_kses_post( nagi_imaging_t( 'k6ebd1205' ) ); ?></td><td data-label="Price" class="nagi-price">€380</td></tr><tr><td data-label="Study"><strong><?php echo wp_kses_post( nagi_imaging_t( 'kd3ca70f8' ) ); ?></strong></td><td data-label="Included"><?php echo wp_kses_post( nagi_imaging_t( 'k8186879b' ) ); ?></td><td data-label="Price" class="nagi-price">€150</td></tr></tbody></table></figure>
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"nagi-note"} -->
-<p class="nagi-note">Prices per study. Insurance referrals are billed to your insurer; we send the itemised receipt. Cancellation is free up to 24 hours before your appointment.</p>
+<p class="nagi-note"><?php echo wp_kses_post( nagi_imaging_t( 'k2d54eacf' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-arrowlink nagi-more"} -->
-<p class="nagi-arrowlink nagi-more"><a href="<?php echo esc_url( home_url( '/fees/' ) ); ?>">Fees &amp; insurance<span class="nagi-circle" aria-hidden="true">→</span></a></p>
+<p class="nagi-arrowlink nagi-more"><a href="<?php echo esc_url( home_url( '/fees/' ) ); ?>"><?php echo wp_kses_post( nagi_imaging_t( 'k31257546' ) ); ?><span class="nagi-circle" aria-hidden="true">→</span></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

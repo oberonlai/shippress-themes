@@ -15,21 +15,21 @@
 <!-- wp:group {"className":"nagi-purpose__in","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-purpose__in">
 <!-- wp:paragraph {"className":"nagi-label"} -->
-<p class="nagi-label">The wait</p>
+<p class="nagi-label"><?php echo wp_kses_post( nagi_imaging_t( 'k9d1b2730' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"nagi-col sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-col sp-stagger">
 <!-- wp:paragraph {"className":"nagi-statement sp-reveal sp-reveal--up"} -->
-<p class="nagi-statement sp-reveal sp-reveal--up">A scan takes minutes.</p>
+<p class="nagi-statement sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagi_imaging_t( 'k23024b1f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-statement sp-reveal sp-reveal--up"} -->
-<p class="nagi-statement sp-reveal sp-reveal--up">The report can take a week.</p>
+<p class="nagi-statement sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagi_imaging_t( 'k733555e7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-statement sp-reveal sp-reveal--up"} -->
-<p class="nagi-statement sp-reveal sp-reveal--up">That week is the hardest part.</p>
+<p class="nagi-statement sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagi_imaging_t( 'kb710d57a' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -45,7 +45,7 @@
 <!-- wp:group {"className":"nagi-col sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-col sp-stagger">
 <!-- wp:paragraph {"className":"nagi-statement nagi-statement--w sp-reveal sp-reveal--up"} -->
-<p class="nagi-statement nagi-statement--w sp-reveal sp-reveal--up">Scanned in the morning,</p>
+<p class="nagi-statement nagi-statement--w sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagi_imaging_t( 'k35822c6e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"nagi-hairline"} -->
@@ -53,11 +53,11 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"className":"nagi-statement nagi-statement--w sp-reveal sp-reveal--up"} -->
-<p class="nagi-statement nagi-statement--w sp-reveal sp-reveal--up">reported before evening.</p>
+<p class="nagi-statement nagi-statement--w sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagi_imaging_t( 'k8c39da18' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-body sp-reveal sp-reveal--up"} -->
-<p class="nagi-body sp-reveal sp-reveal--up">Nagi Imaging was set up to close the gap between the scan and the answer. We take patients from nearby clinics only, so two radiologists work a tight caseload and no study waits in a queue. A scan finished before 15:00 is read, checked and sent to the referring doctor by 18:00, so the plan can be made that evening instead of next week.</p>
+<p class="nagi-body sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagi_imaging_t( 'k3945ff96' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

@@ -13,11 +13,11 @@
 <!-- wp:group {"className":"nagi-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-wrap">
 <!-- wp:paragraph {"className":"nagi-label"} -->
-<p class="nagi-label">Who reads</p>
+<p class="nagi-label"><?php echo wp_kses_post( nagi_imaging_t( 'k02512577' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"nagi-word"} -->
-<h2 class="wp-block-heading nagi-word">People</h2>
+<h2 class="wp-block-heading nagi-word"><?php echo wp_kses_post( nagi_imaging_t( 'k78386ec8' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"nagi-people","layout":{"type":"default"}} -->
@@ -25,7 +25,7 @@
 <!-- wp:group {"className":"nagi-people__l","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-people__l">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nagi-frame nagi-p12 sp-parallax nagi-par-6"} -->
-<figure class="wp-block-image size-large nagi-frame nagi-p12 sp-parallax nagi-par-6"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-haddad.webp' ) ); ?>" alt="Dr. Amira Haddad sits calmly at a reading console turned gently toward the camera."/></figure>
+<figure class="wp-block-image size-large nagi-frame nagi-p12 sp-parallax nagi-par-6"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-haddad.webp' ) ); ?>" alt="<?php echo esc_attr( nagi_imaging_t( 'ab313eb70' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -33,11 +33,11 @@
 <!-- wp:group {"className":"nagi-people__r","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-people__r">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nagi-frame nagi-p13 sp-parallax nagi-par-9"} -->
-<figure class="wp-block-image size-large nagi-frame nagi-p13 sp-parallax nagi-par-9"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-oyelaran.webp' ) ); ?>" alt="Tomás Oyelaran adjusts a patient examination table beside the circular ring of a CT scanner."/></figure>
+<figure class="wp-block-image size-large nagi-frame nagi-p13 sp-parallax nagi-par-9"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-oyelaran.webp' ) ); ?>" alt="<?php echo esc_attr( nagi_imaging_t( 'acbb51a9e' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nagi-intro"} -->
-<p class="nagi-intro">Our clinical team brings dedicated diagnostic expertise to Grand Canal Dock: three consultant radiologists, a lead radiographer, a sonographer, a radiographer and the coordinator who keeps every referral moving.</p>
+<p class="nagi-intro"><?php echo wp_kses_post( nagi_imaging_t( 'k62a16b9b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"nagi-persons sp-stagger","layout":{"type":"default"}} -->
@@ -45,15 +45,15 @@
 <!-- wp:group {"className":"nagi-person sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-person sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"nagi-person__name"} -->
-<p class="nagi-person__name">Dr. Amira Haddad</p>
+<p class="nagi-person__name"><?php echo wp_kses_post( nagi_imaging_t( 'k0fb2f133' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__role"} -->
-<p class="nagi-person__role">Consultant radiologist, medical director, co-founder</p>
+<p class="nagi-person__role"><?php echo wp_kses_post( nagi_imaging_t( 'k457e436c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__line"} -->
-<p class="nagi-person__line">Leads body CT and MRI and the double-reading protocol.</p>
+<p class="nagi-person__line"><?php echo wp_kses_post( nagi_imaging_t( 'k4d7776e7' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -61,15 +61,15 @@
 <!-- wp:group {"className":"nagi-person sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-person sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"nagi-person__name"} -->
-<p class="nagi-person__name">Tomás Oyelaran</p>
+<p class="nagi-person__name"><?php echo wp_kses_post( nagi_imaging_t( 'k6712f69e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__role"} -->
-<p class="nagi-person__role">Lead radiographer, co-founder</p>
+<p class="nagi-person__role"><?php echo wp_kses_post( nagi_imaging_t( 'k57b8bac7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__line"} -->
-<p class="nagi-person__line">Runs the CT and MRI scan room at Calder Quay.</p>
+<p class="nagi-person__line"><?php echo wp_kses_post( nagi_imaging_t( 'k54c45309' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -77,15 +77,15 @@
 <!-- wp:group {"className":"nagi-person sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-person sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"nagi-person__name"} -->
-<p class="nagi-person__name">Dr. Lukas Brenner</p>
+<p class="nagi-person__name"><?php echo wp_kses_post( nagi_imaging_t( 'k1cda42ab' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__role"} -->
-<p class="nagi-person__role">Consultant radiologist, musculoskeletal</p>
+<p class="nagi-person__role"><?php echo wp_kses_post( nagi_imaging_t( 'k3733bcf4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__line"} -->
-<p class="nagi-person__line">Reads joint, spine and sports studies for local physios.</p>
+<p class="nagi-person__line"><?php echo wp_kses_post( nagi_imaging_t( 'k8d82d4fe' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -93,15 +93,15 @@
 <!-- wp:group {"className":"nagi-person sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-person sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"nagi-person__name"} -->
-<p class="nagi-person__name">Dr. Siobhán Kerr</p>
+<p class="nagi-person__name"><?php echo wp_kses_post( nagi_imaging_t( 'kc86344c6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__role"} -->
-<p class="nagi-person__role">Consultant radiologist, breast imaging and ultrasound</p>
+<p class="nagi-person__role"><?php echo wp_kses_post( nagi_imaging_t( 'k06ef5c93' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__line"} -->
-<p class="nagi-person__line">Reads mammography and breast ultrasound.</p>
+<p class="nagi-person__line"><?php echo wp_kses_post( nagi_imaging_t( 'k66cc5a48' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -109,15 +109,15 @@
 <!-- wp:group {"className":"nagi-person sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-person sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"nagi-person__name"} -->
-<p class="nagi-person__name">Priya Nair</p>
+<p class="nagi-person__name"><?php echo wp_kses_post( nagi_imaging_t( 'k7e439e22' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__role"} -->
-<p class="nagi-person__role">Senior sonographer</p>
+<p class="nagi-person__role"><?php echo wp_kses_post( nagi_imaging_t( 'k199e63dd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__line"} -->
-<p class="nagi-person__line">Scans abdomen, thyroid and soft tissue.</p>
+<p class="nagi-person__line"><?php echo wp_kses_post( nagi_imaging_t( 'keb36258b' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -125,15 +125,15 @@
 <!-- wp:group {"className":"nagi-person sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-person sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"nagi-person__name"} -->
-<p class="nagi-person__name">Jonas Lindgren</p>
+<p class="nagi-person__name"><?php echo wp_kses_post( nagi_imaging_t( 'k5ce9048e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__role"} -->
-<p class="nagi-person__role">Radiographer, X-ray, DEXA, mammography</p>
+<p class="nagi-person__role"><?php echo wp_kses_post( nagi_imaging_t( 'kafbb55ce' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__line"} -->
-<p class="nagi-person__line">Keeps doses low and patients comfortable.</p>
+<p class="nagi-person__line"><?php echo wp_kses_post( nagi_imaging_t( 'k9b691b29' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -141,15 +141,15 @@
 <!-- wp:group {"className":"nagi-person sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-person sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"nagi-person__name"} -->
-<p class="nagi-person__name">Grace Achterberg</p>
+<p class="nagi-person__name"><?php echo wp_kses_post( nagi_imaging_t( 'kb6c7117a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__role"} -->
-<p class="nagi-person__role">Referrals coordinator</p>
+<p class="nagi-person__role"><?php echo wp_kses_post( nagi_imaging_t( 'k5c1c6539' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nagi-person__line"} -->
-<p class="nagi-person__line">Answers the referral phone line and tracks every report.</p>
+<p class="nagi-person__line"><?php echo wp_kses_post( nagi_imaging_t( 'kd0c9729e' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -157,7 +157,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"nagi-arrowlink nagi-more"} -->
-<p class="nagi-arrowlink nagi-more"><a href="<?php echo esc_url( home_url( '/team/' ) ); ?>">Meet the team<span class="nagi-circle" aria-hidden="true">→</span></a></p>
+<p class="nagi-arrowlink nagi-more"><a href="<?php echo esc_url( home_url( '/team/' ) ); ?>"><?php echo wp_kses_post( nagi_imaging_t( 'ke79c6603' ) ); ?><span class="nagi-circle" aria-hidden="true">→</span></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

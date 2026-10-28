@@ -14,22 +14,22 @@
 <!-- wp:group {"className":"nagi-head__stage","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-head__stage">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nagi-frame nagi-hf1 sp-parallax nagi-par-6"} -->
-<figure class="wp-block-image size-large nagi-frame nagi-hf1 sp-parallax nagi-par-6"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-whelan.webp' ) ); ?>" alt="Dr. Nora Whelan speaks on a telephone at her clinic desk under a lamp."/></figure>
+<figure class="wp-block-image size-large nagi-frame nagi-hf1 sp-parallax nagi-par-6"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-whelan.webp' ) ); ?>" alt="<?php echo esc_attr( nagi_imaging_t( 'af4eef1e8' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nagi-frame nagi-hf2 sp-parallax nagi-par-9"} -->
-<figure class="wp-block-image size-large nagi-frame nagi-hf2 sp-parallax nagi-par-9"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h6-report.webp' ) ); ?>" alt="A hand places a printed report into a plain white envelope under lamp light."/></figure>
+<figure class="wp-block-image size-large nagi-frame nagi-hf2 sp-parallax nagi-par-9"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h6-report.webp' ) ); ?>" alt="<?php echo esc_attr( nagi_imaging_t( 'a14142e1d' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nagi-frame nagi-hf3 sp-parallax nagi-par-4"} -->
-<figure class="wp-block-image size-large nagi-frame nagi-hf3 sp-parallax nagi-par-4"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h4-corridor.webp' ) ); ?>" alt="A healthcare worker in dark scrubs walks down a dim corridor toward a lit door."/></figure>
+<figure class="wp-block-image size-large nagi-frame nagi-hf3 sp-parallax nagi-par-4"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h4-corridor.webp' ) ); ?>" alt="<?php echo esc_attr( nagi_imaging_t( 'ac925e995' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph {"className":"nagi-label nagi-head__label"} -->
-<p class="nagi-label nagi-head__label">For referring doctors</p>
+<p class="nagi-label nagi-head__label"><?php echo wp_kses_post( nagi_imaging_t( 'kf2542a85' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":1,"className":"nagi-strips nagi-head__title"} -->
-<h1 class="wp-block-heading nagi-strips nagi-head__title"><span class="nagi-strip">A direct line</span><span class="nagi-strip">for your clinic.</span></h1>
+<h1 class="wp-block-heading nagi-strips nagi-head__title"><span class="nagi-strip"><?php echo wp_kses_post( nagi_imaging_t( 'k869cfd15' ) ); ?></span><span class="nagi-strip"><?php echo wp_kses_post( nagi_imaging_t( 'k08abc9af' ) ); ?></span></h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"nagi-lede nagi-head__lede"} -->
-<p class="nagi-lede nagi-head__lede">We act as an extension of nearby general practices, outpatient clinics, and allied healthcare teams across Dublin. Our referral pathways are direct, responsive, and designed to minimise administrative burden.</p>
+<p class="nagi-lede nagi-head__lede"><?php echo wp_kses_post( nagi_imaging_t( 'k3c0be714' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -42,49 +42,49 @@
 <!-- wp:group {"className":"nagi-band__col","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-band__col">
 <!-- wp:paragraph {"className":"nagi-label nagi-label--w"} -->
-<p class="nagi-label nagi-label--w">Three ways to refer</p>
+<p class="nagi-label nagi-label--w"><?php echo wp_kses_post( nagi_imaging_t( 'kded020f3' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"nagi-band__line"} -->
-<p class="nagi-band__line">Portal, email or phone,</p>
+<p class="nagi-band__line"><?php echo wp_kses_post( nagi_imaging_t( 'ke286d9ed' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:separator {"className":"nagi-hairline"} -->
 <hr class="wp-block-separator has-alpha-channel-opacity nagi-hairline"/>
 <!-- /wp:separator -->
 <!-- wp:paragraph {"className":"nagi-band__line"} -->
-<p class="nagi-band__line">whichever your desk prefers.</p>
+<p class="nagi-band__line"><?php echo wp_kses_post( nagi_imaging_t( 'ke3f4b110' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"nagi-body nagi-band__body"} -->
-<p class="nagi-body nagi-band__body">Doctors and clinicians can refer patients through three straightforward channels. You may submit patient requests through our encrypted online portal, transmit a standard referral letter to referrals@nagi-imaging.example, or contact our dedicated clinical referral line directly at +353 1 555 0148. Our referral desk is staffed by Grace Achterberg from Monday to Friday between 08:00 and 17:00, assisting your practice team with scheduling, protocol queries, and urgent booking arrangements. We ensure patients are contacted promptly following referral receipt to confirm their preferred appointment time.</p>
+<p class="nagi-body nagi-band__body"><?php echo wp_kses_post( nagi_imaging_t( 'ke7e2b60a' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:group {"className":"nagi-ways sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-ways sp-stagger">
 <!-- wp:group {"className":"nagi-way sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-way sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"nagi-way__h"} -->
-<p class="nagi-way__h">Secure portal</p>
+<p class="nagi-way__h"><?php echo wp_kses_post( nagi_imaging_t( 'k79a12a77' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"nagi-way__t"} -->
-<p class="nagi-way__t">Encrypted request and image upload, with reports returned the same way.</p>
+<p class="nagi-way__t"><?php echo wp_kses_post( nagi_imaging_t( 'k50ff9641' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"nagi-way sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-way sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"nagi-way__h"} -->
-<p class="nagi-way__h">Referral email</p>
+<p class="nagi-way__h"><?php echo wp_kses_post( nagi_imaging_t( 'k50bb7f2d' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"nagi-way__t"} -->
-<p class="nagi-way__t">Send the letter to referrals@nagi-imaging.example.</p>
+<p class="nagi-way__t"><?php echo wp_kses_post( nagi_imaging_t( 'kde066567' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"nagi-way sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-way sp-reveal sp-reveal--up">
 <!-- wp:paragraph {"className":"nagi-way__h"} -->
-<p class="nagi-way__h">Phone line</p>
+<p class="nagi-way__h"><?php echo wp_kses_post( nagi_imaging_t( 'kff1c7076' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"nagi-way__t"} -->
-<p class="nagi-way__t">+353 1 555 0148, Monday to Friday 08:00–17:00, answered by Grace Achterberg.</p>
+<p class="nagi-way__t"><?php echo wp_kses_post( nagi_imaging_t( 'kd02c25da' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -101,30 +101,30 @@
 <!-- wp:group {"className":"nagi-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-wrap">
 <!-- wp:paragraph {"className":"nagi-label"} -->
-<p class="nagi-label">Working together</p>
+<p class="nagi-label"><?php echo wp_kses_post( nagi_imaging_t( 'k418d0ea1' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2,"className":"nagi-word nagi-word--s"} -->
-<h2 class="wp-block-heading nagi-word nagi-word--s">Requests</h2>
+<h2 class="wp-block-heading nagi-word nagi-word--s"><?php echo wp_kses_post( nagi_imaging_t( 'kb134a801' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:group {"className":"nagi-txs sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-txs sp-stagger">
 <!-- wp:group {"className":"nagi-tx sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-tx sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3,"className":"nagi-tx__h"} -->
-<h3 class="wp-block-heading nagi-tx__h">What information is required on the referral request?</h3>
+<h3 class="wp-block-heading nagi-tx__h"><?php echo wp_kses_post( nagi_imaging_t( 'kb348d1af' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"nagi-tx__b"} -->
-<p class="nagi-tx__b">To allow our radiologists to tailor imaging protocols accurately, referrals should include the patient's full demographic details, contact telephone number, relevant medical history, specific clinical question, and the requested anatomical region. If the patient has undergone previous imaging at another institution, noting this on the request enables us to arrange image transfer for direct longitudinal comparison. For CT referrals involving intravenous contrast, please provide recent renal function markers where available. Clear clinical questions allow our radiographers and radiologists to focus precisely on the underlying pathology.</p>
+<p class="nagi-tx__b"><?php echo wp_kses_post( nagi_imaging_t( 'k17ccb915' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"nagi-tx sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-tx sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":3,"className":"nagi-tx__h"} -->
-<h3 class="wp-block-heading nagi-tx__h">How are diagnostic reports and urgent findings handled?</h3>
+<h3 class="wp-block-heading nagi-tx__h"><?php echo wp_kses_post( nagi_imaging_t( 'k2627b26f' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"nagi-tx__b"} -->
-<p class="nagi-tx__b">Signed PDF reports are delivered directly into your practice management system via secure digital transmission or encrypted email. Scans performed before 15:00 are finalized and sent before 18:00, allowing you to review findings and discuss management with your patient that evening. In the event of an acute or unexpected abnormality—such as an unsuspected fracture, vascular occlusion, or urgent mass lesion—our reporting radiologist contacts you by telephone within the hour. Clinicians can also upload outside imaging studies through our portal for formal second-opinion reviews at €150.</p>
+<p class="nagi-tx__b"><?php echo wp_kses_post( nagi_imaging_t( 'k8c8aa77b' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -139,56 +139,56 @@
 <!-- wp:group {"className":"nagi-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-wrap">
 <!-- wp:paragraph {"className":"nagi-label"} -->
-<p class="nagi-label">In practice</p>
+<p class="nagi-label"><?php echo wp_kses_post( nagi_imaging_t( 'k985bfeba' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":2,"className":"nagi-word nagi-word--s"} -->
-<h2 class="wp-block-heading nagi-word nagi-word--s">Referrer notes</h2>
+<h2 class="wp-block-heading nagi-word nagi-word--s"><?php echo wp_kses_post( nagi_imaging_t( 'k5c3964aa' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:group {"className":"nagi-nls sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-nls sp-stagger">
 <!-- wp:group {"className":"nagi-nl sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-nl sp-reveal sp-reveal--up">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nagi-frame nagi-nl__img sp-parallax nagi-par-6"} -->
-<figure class="wp-block-image size-large nagi-frame nagi-nl__img sp-parallax nagi-par-6"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p15-mensah.webp' ) ); ?>" alt="A physiotherapist shows shoulder images on a tablet to a patient."/></figure>
+<figure class="wp-block-image size-large nagi-frame nagi-nl__img sp-parallax nagi-par-6"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p15-mensah.webp' ) ); ?>" alt="<?php echo esc_attr( nagi_imaging_t( 'a576cab10' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph {"className":"nagi-note__meta"} -->
-<p class="nagi-note__meta">Harbourside Physiotherapy · Kofi Mensah</p>
+<p class="nagi-note__meta"><?php echo wp_kses_post( nagi_imaging_t( 'kc7ad97bc' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3,"className":"nagi-note__title"} -->
-<h3 class="wp-block-heading nagi-note__title"><a href="<?php echo esc_url( home_url( '/words-a-physio-can-use/' ) ); ?>">Words a physio can use</a></h3>
+<h3 class="wp-block-heading nagi-note__title"><a href="<?php echo esc_url( home_url( '/words-a-physio-can-use/' ) ); ?>"><?php echo wp_kses_post( nagi_imaging_t( 'k2b9ce862' ) ); ?></a></h3>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"nagi-nl sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-nl sp-reveal sp-reveal--up">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nagi-frame nagi-nl__img sp-parallax nagi-par-8"} -->
-<figure class="wp-block-image size-large nagi-frame nagi-nl__img sp-parallax nagi-par-8"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p16-popescu.webp' ) ); ?>" alt="A GP and a nurse compare two chest images on a monitor."/></figure>
+<figure class="wp-block-image size-large nagi-frame nagi-nl__img sp-parallax nagi-par-8"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p16-popescu.webp' ) ); ?>" alt="<?php echo esc_attr( nagi_imaging_t( 'abe51e9b4' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph {"className":"nagi-note__meta"} -->
-<p class="nagi-note__meta">Liffey Street Clinic · Dr. Elena Popescu</p>
+<p class="nagi-note__meta"><?php echo wp_kses_post( nagi_imaging_t( 'k53aacf03' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3,"className":"nagi-note__title"} -->
-<h3 class="wp-block-heading nagi-note__title"><a href="<?php echo esc_url( home_url( '/last-years-images-side-by-side/' ) ); ?>">Last year’s images, side by side</a></h3>
+<h3 class="wp-block-heading nagi-note__title"><a href="<?php echo esc_url( home_url( '/last-years-images-side-by-side/' ) ); ?>"><?php echo wp_kses_post( nagi_imaging_t( 'k193c5f3b' ) ); ?></a></h3>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"nagi-nl sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nagi-nl sp-reveal sp-reveal--up">
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"nagi-frame nagi-nl__img sp-parallax nagi-par-5"} -->
-<figure class="wp-block-image size-large nagi-frame nagi-nl__img sp-parallax nagi-par-5"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h1-console.webp' ) ); ?>" alt="A radiographer sits at a dark console with soft monitor glow on face and hands."/></figure>
+<figure class="wp-block-image size-large nagi-frame nagi-nl__img sp-parallax nagi-par-5"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h1-console.webp' ) ); ?>" alt="<?php echo esc_attr( nagi_imaging_t( 'ae953099f' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph {"className":"nagi-note__meta"} -->
-<p class="nagi-note__meta">Ringsend Family Practice · Dr. Nora Whelan</p>
+<p class="nagi-note__meta"><?php echo wp_kses_post( nagi_imaging_t( 'kecfebf40' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":3,"className":"nagi-note__title"} -->
-<h3 class="wp-block-heading nagi-note__title"><a href="<?php echo esc_url( home_url( '/a-tuesday-knee/' ) ); ?>">A Tuesday knee</a></h3>
+<h3 class="wp-block-heading nagi-note__title"><a href="<?php echo esc_url( home_url( '/a-tuesday-knee/' ) ); ?>"><?php echo wp_kses_post( nagi_imaging_t( 'k44020d9c' ) ); ?></a></h3>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 <!-- wp:paragraph {"className":"nagi-arrowlink nagi-more"} -->
-<p class="nagi-arrowlink nagi-more"><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>">All news<span class="nagi-circle" aria-hidden="true">→</span></a></p>
+<p class="nagi-arrowlink nagi-more"><a href="<?php echo esc_url( home_url( '/news/' ) ); ?>"><?php echo wp_kses_post( nagi_imaging_t( 'k386e86ec' ) ); ?><span class="nagi-circle" aria-hidden="true">→</span></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
