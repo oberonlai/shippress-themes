@@ -39,10 +39,11 @@ body { -webkit-font-smoothing: antialiased; }
 .wp-site-blocks { padding-left: 0; padding-right: 0; }
 .wp-site-blocks > * { margin-block-start: 0; }
 :where(.wp-site-blocks) > * { margin-block-start: 0; }
-.nagi-main { padding: 0; margin: 0; max-width: none; }
+.nagi-main { padding: 0 !important; margin: 0 !important; max-width: none !important; }
+.nagi-main .alignfull, .nagi-main .wp-block-post-content { margin-left: 0 !important; margin-right: 0 !important; max-width: none !important; }
+.nagi-main--front .wp-block-post-content { padding-left: 0 !important; padding-right: 0 !important; }
 .nagi-main > .wp-block-post-content, .nagi-main--front > * { margin-block-start: 0; }
 .nagi-main > :where(.alignfull) { margin-left: 0; margin-right: 0; }
-.has-global-padding > .alignfull { margin-left: calc(var(--wp--style--root--padding-left, 0px) * -1); margin-right: calc(var(--wp--style--root--padding-right, 0px) * -1); }
 a { text-underline-offset: .22em; transition: color .5s var(--ng-ease); }
 :focus-visible { outline: 3px solid var(--ng-accent); outline-offset: 3px; }
 .screen-reader-text:focus { background: #fff; }
@@ -120,11 +121,12 @@ img { max-width: 100%; height: auto; }
 .nagi-lede { position: absolute; left: 38.889%; top: 64.889%; width: 31.944%; margin: 0; font-size: min(1.18vw, 1.0625rem); line-height: 1.85; }
 .nagi-links { position: absolute; left: 38.889%; top: 84%; display: flex; gap: 32px; margin: 0; font-size: min(1.1vw, .9375rem); }
 .nagi-links .nagi-arrowlink { font-size: inherit; }
-.nagi-ticker { position: absolute; left: 34.722%; top: 92.889%; width: 61.944%; display: flex; align-items: center; gap: 28px; margin: 0; font-size: .875rem; letter-spacing: .04em; line-height: 32px; white-space: nowrap; }
+.nagi-ticker { position: absolute; left: 34.722%; top: 92.889%; width: 61.944%; display: flex; align-items: center; gap: 24px; margin: 0; font-size: .875rem; letter-spacing: .04em; line-height: 32px; white-space: nowrap; }
 .nagi-ticker > p { margin: 0; }
 .nagi-ticker__tag { text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px; }
 .nagi-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--ng-accent); display: inline-block; }
 .nagi-ticker__line { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.nagi-ticker__line { font-size: .8125rem; letter-spacing: .02em; }
 .nagi-ticker__line a { text-decoration: underline; text-decoration-thickness: 1px; }
 .nagi-ticker__arrows { display: flex; gap: 8px; margin-left: auto; }
 @media (max-width: 1100px) and (min-width: 782px) { .nagi-ticker { font-size: .75rem; gap: 18px; } }
@@ -133,14 +135,14 @@ img { max-width: 100%; height: auto; }
 	.nagi-hero__stage { aspect-ratio: auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; padding: 80px 16px 0; max-width: none; }
 	.nagi-hero .nagi-frame { position: relative; left: auto; top: auto; aspect-ratio: auto; }
 	.nagi-hero .nagi-frame img { position: static; }
-	.nagi-f1 { order: 1; width: 100%; aspect-ratio: 16 / 9; }
+	.nagi-hero .nagi-f1 { order: 1; width: 100%; aspect-ratio: 16 / 9; }
 	.nagi-f1 img { position: absolute !important; inset: 0; }
-	.nagi-hero__title { order: 2; position: relative; left: auto; top: auto; margin: -28px 0 0 0; width: 100%; font-size: 1.75rem; }
+	.nagi-hero .nagi-hero__title { order: 2; position: relative; left: auto; top: auto; margin: -28px 0 0 0; width: 100%; font-size: 1.75rem; }
 	.nagi-strip { max-width: 100%; }
-	.nagi-f3, .nagi-f4, .nagi-f5 { order: 3; width: 30%; aspect-ratio: 3 / 2; margin-top: 20px; }
+	.nagi-hero .nagi-f3, .nagi-hero .nagi-f4, .nagi-hero .nagi-f5 { order: 3; width: 30%; aspect-ratio: 3 / 2; margin-top: 20px; }
 	.nagi-f3 img, .nagi-f4 img, .nagi-f5 img { position: absolute !important; inset: 0; }
-	.nagi-f3 { margin-top: 36px; } .nagi-f4 { margin-top: 64px; } .nagi-f5 { margin-top: 46px; }
-	.nagi-f2, .nagi-f6, .nagi-f7 { display: none; }
+	.nagi-hero .nagi-f3 { margin-top: 36px; } .nagi-hero .nagi-f4 { margin-top: 64px; } .nagi-hero .nagi-f5 { margin-top: 46px; }
+	.nagi-hero .nagi-f2, .nagi-hero .nagi-f6, .nagi-hero .nagi-f7 { display: none; }
 	.nagi-hero__bottom { display: block; order: 4; width: calc(100% + 32px); margin: 36px -16px 0; padding: 36px 16px 28px; background: var(--ng-light); }
 	.nagi-lede, .nagi-links, .nagi-ticker { position: static; width: auto; font-size: 1.0625rem; }
 	.nagi-links { flex-direction: column; gap: 12px; margin-top: 24px; font-size: .9375rem; }
@@ -149,7 +151,7 @@ img { max-width: 100%; height: auto; }
 	.nagi-ticker__tag { display: inline-flex; }
 	.nagi-ticker__line { display: block; margin-top: 4px; }
 	.nagi-ticker__line a { white-space: normal; }
-	.nagi-ticker__arrows { display: none; }
+	.nagi-ticker > .nagi-ticker__arrows { display: none; }
 }
 
 /* ---------- 2 studies ---------- */
@@ -168,11 +170,11 @@ img { max-width: 100%; height: auto; }
 .nagi-purpose { margin: 0; padding: 0; }
 .nagi-purpose__a, .nagi-purpose__b { min-height: 140vh; padding: 0 var(--ng-side); position: relative; }
 .nagi-purpose__a { background: #fff; }
-.nagi-purpose__b { background: linear-gradient(to bottom, #fff 0, var(--ng-mist) 260px, var(--ng-mist) 100%); }
+.nagi-purpose__b { background: linear-gradient(to bottom, #fff 0, var(--ng-mist) 160px, var(--ng-mist) 100%); }
 .nagi-purpose__in { position: sticky; top: 24vh; max-width: 1368px; margin: 0 auto; padding: 0; }
 .nagi-purpose__a { padding-top: 12vh; }
 .nagi-purpose__b .nagi-purpose__in { top: 30vh; }
-.nagi-purpose__b { padding-top: 10vh; }
+.nagi-purpose__b { padding-top: 20vh; }
 .nagi-col { margin: 0 0 0 33%; max-width: 760px; }
 .nagi-purpose__a .nagi-label { margin-left: 33%; }
 .nagi-statement { margin: 0 0 .35em; font-family: var(--ng-display); font-weight: 300; font-size: 2.5rem; line-height: 1.9; letter-spacing: .06em; color: var(--ng-ink); }
@@ -192,7 +194,7 @@ img { max-width: 100%; height: auto; }
 .nagi-method { display: grid; grid-template-columns: 7fr 5fr; gap: 48px; align-items: start; }
 .nagi-method__fig { position: relative; margin: 0; }
 .nagi-p10 { width: 100%; aspect-ratio: 3 / 2; }
-.nagi-strips--abs { position: absolute; left: calc(100% - 64px); top: 14%; z-index: 3; font-size: 2.25rem; }
+.nagi-strips--abs { position: absolute; left: calc(100% - 64px); top: 14%; z-index: 3; font-size: 2.25rem; width: max-content; max-width: none; }
 .nagi-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 40px 36px; margin: 0; padding-top: 220px; }
 .nagi-step { margin: 0; border-top: 1px solid #fff; padding-top: 14px; }
 .nagi-step__h { margin: 0 0 6px; font-weight: 700; font-size: 1.0625rem; letter-spacing: .02em; }
@@ -255,7 +257,7 @@ img { max-width: 100%; height: auto; }
 .nagi-people { display: grid; grid-template-columns: 5fr 7fr; gap: 72px; align-items: start; }
 .nagi-people__l, .nagi-people__r { margin: 0; }
 .nagi-p12 { width: 100%; aspect-ratio: 4 / 5; }
-.nagi-p13 { width: 55%; aspect-ratio: 3 / 2; margin: -48px 0 36px 0; }
+.nagi-p13 { width: 55%; aspect-ratio: 3 / 2; margin: 0 0 -12px 0; top: -48px; }
 .nagi-persons { border-top: 1px solid var(--ng-rule); margin: 0 0 40px; }
 .nagi-person { display: grid; grid-template-columns: 1fr; padding: 16px 0; border-bottom: 1px solid var(--ng-rule); margin: 0; }
 .nagi-person p { margin: 0; }
@@ -264,7 +266,7 @@ img { max-width: 100%; height: auto; }
 .nagi-person__line { font-size: .9375rem; line-height: 1.6; }
 @media (max-width: 781px) {
 	.nagi-people { grid-template-columns: 1fr; gap: 28px; }
-	.nagi-p13 { width: 70%; margin: 0 0 24px auto; }
+	.nagi-p13 { width: 70%; margin: 0 0 24px auto; top: 0; }
 }
 
 /* ---------- 9 visit + news ---------- */
@@ -272,7 +274,7 @@ img { max-width: 100%; height: auto; }
 .nagi-visit__grid { display: grid; grid-template-columns: 6fr 5fr; gap: 96px; align-items: start; }
 .nagi-visit__fig { position: relative; margin: 0; }
 .nagi-p17 { width: 100%; aspect-ratio: 3 / 2; }
-.nagi-strips--visit { top: 40%; font-size: 1.875rem; }
+.nagi-strips--visit { top: auto; bottom: 28px; font-size: 1.75rem; }
 .nagi-visit__text { margin: 0; padding-top: 24px; }
 .nagi-addr { margin: 0 0 20px; font-family: var(--ng-display); font-weight: 300; font-size: 1.75rem; line-height: 1.35; }
 .nagi-contact { margin: 0 0 16px; }
