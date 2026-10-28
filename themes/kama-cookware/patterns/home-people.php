@@ -1,0 +1,85 @@
+<?php
+/**
+ * Title: Home: people rows
+ * Slug: kama-cookware/home-people
+ * Categories: kama-cookware
+ * Keywords: cookware, pans, kitchenware, repair
+ * Viewport Width: 1440
+ * Description: Three text rows with hairlines.
+ */
+?>
+<!-- wp:group {"tagName":"section","align":"full","className":"km-sec km-sec--people","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull km-sec km-sec--people"><!-- wp:group {"className":"km-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group km-wrap"><!-- wp:group {"className":"km-people__head","layout":{"type":"default"}} -->
+<div class="wp-block-group km-people__head"><!-- wp:paragraph {"className":"km-label"} -->
+<p class="km-label"><?php echo esc_html( kama_cookware_t( 'pe_label' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"km-h2"} -->
+<h2 class="wp-block-heading km-h2"><?php echo esc_html( kama_cookware_t( 'pe_h' ) ); ?></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"km-rows","layout":{"type":"default"}} -->
+<div class="wp-block-group km-rows"><!-- wp:group {"className":"km-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group km-row sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"km-num"} -->
+<p class="km-num"><?php echo esc_html( kama_cookware_t( 'pe1_n' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"km-h3"} -->
+<h3 class="wp-block-heading km-h3"><?php echo esc_html( kama_cookware_t( 'pe1_t' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"km-role"} -->
+<p class="km-role"><?php echo esc_html( kama_cookware_t( 'pe1_r' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"km-row__p"} -->
+<p class="km-row__p"><?php echo esc_html( kama_cookware_t( 'pe1_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"km-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group km-row sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"km-num"} -->
+<p class="km-num"><?php echo esc_html( kama_cookware_t( 'pe2_n' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"km-h3"} -->
+<h3 class="wp-block-heading km-h3"><?php echo esc_html( kama_cookware_t( 'pe2_t' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"km-role"} -->
+<p class="km-role"><?php echo esc_html( kama_cookware_t( 'pe2_r' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"km-row__p"} -->
+<p class="km-row__p"><?php echo esc_html( kama_cookware_t( 'pe2_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"km-row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group km-row sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"km-num"} -->
+<p class="km-num"><?php echo esc_html( kama_cookware_t( 'pe3_n' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"km-h3"} -->
+<h3 class="wp-block-heading km-h3"><?php echo esc_html( kama_cookware_t( 'pe3_t' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"km-role"} -->
+<p class="km-role"><?php echo esc_html( kama_cookware_t( 'pe3_r' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"km-row__p"} -->
+<p class="km-row__p"><?php echo esc_html( kama_cookware_t( 'pe3_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"className":"km-pill-wrap"} -->
+<div class="wp-block-buttons km-pill-wrap"><!-- wp:button {"className":"km-pill"} -->
+<div class="wp-block-button km-pill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/about/' ) ); ?>"><?php echo esc_html( kama_cookware_t( 'pe_cta' ) ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
