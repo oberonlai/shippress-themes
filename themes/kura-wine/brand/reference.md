@@ -11,6 +11,16 @@ IMAGERY: photo (film-grain documentary).
 ## Colour
 base #282B33 / #33363E (~78%), text #DAD6CE, muted #8C8C8C, slate wash #7C8A91, accent red #6C030B–#C8161D (hero slide 1 only).
 ## Scroll effects: see stage-a.md table. Tokens: reference-tokens.md.
-## 成品對應欄（待階段二填）
+## 成品對應欄（design-spec.md 對應；done 欄由階段二實作後打勾）
 | ref element | our theme | done |
 |---|---|---|
+| KV full-bleed film photo, 3-slide fade 5s/3s, 10s zoom, transparent 90px header | T1 `kw-kv`: K1 cellar rack → K2 opened case → K3 tasting table, CSS fade 15s cycle + zoom, sp-parallax 10%, H1 bottom-left + info bar | |
+| Scattered About (2:3 left 33%, 3:2 right lower 23%, text col 8, mask reveal) | T2 `kw-about` (K4 + K5, sp-reveal--mask); also About, Growers, The Case, single product, journal single | |
+| Vertical-rl title beside 3:2 service photo | `kw-shipments` 3 alternating rows (K6/K7/K8 + Jura/Douro/Burgenland), Shipments, Growers, single product; ≥782px only | |
+| Company 50/50 split, 2×2 hairline link rows + ">" vs full-height 3:4 photo | T3 `kw-case` (K9 half-bleed, 4 stage rows); The Case, Tastings, About, Visit, Shop | |
+| Shop-info 2-col hairline rows on blurred grey-blue wash | `kw-visit` pre-footer: blurred K11 under 煤竹 #6A5A48 82%, sp-parallax 6%, every page | |
+| Blog 3:4 large left + small images | `kw-pouring` K10 3:4 + 2×2 bottles; Journal index 3:4 + 1:1 178px thumbs | |
+| Colour #282B33 / #33363E / #DAD6CE / #8C8C8C / wash #7C8A91 / red #6C030B–#C8161D | #282B33 / #33363E / #E2DCD0 / #94918A / wash #6A5A48 (row 煤竹) / wine #7A1E22 ≤2% | |
+| Lusitana serif 15px/25.5, labels 20px, max 20px | Fraunces 15px/25.5, labels 20px, KV H1 4.5rem; Karla utility; Noto Serif TC/JP | |
+| Motion: top 8% 1.5s cubic-bezier(.165,.84,.44,1); mask 5s; parallax scrub | sp-reveal--up (+stagger) 1.5s same curve, 24px; sp-reveal--mask; sp-parallax | |
+| Radius 0, no shadow, text button + ">" with 1px rule | identical | |
