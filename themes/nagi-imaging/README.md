@@ -1,6 +1,6 @@
 # Nagi Imaging
 
-A calm block theme (type health) for a diagnostic imaging centre. Home page (English) in this release; inner pages and other languages follow.
+A calm block theme (type health) for a diagnostic imaging centre. Home page, inner pages, news and one article (English) in this release; other languages follow.
 
 ## Signature
 - Scattered field of seven rounded low-key photographs, each drifting at its own speed (`sp-parallax`).

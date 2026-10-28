@@ -31,4 +31,4 @@ sp-scroll.css / sp-scroll.js: ShipPress, GPL-2.0-or-later.
 
 == Changelog ==
 = 1.0.0 =
-* First release: home page (English).
+* First release: home page, ten inner pages, news, one article and 404 (English).

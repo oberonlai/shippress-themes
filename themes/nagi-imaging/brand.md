@@ -53,5 +53,5 @@ Public Sans (200 for huge words, 300 for statements and strips, 400 for prices) 
 ## Home page
 Scattered photo field hero with strips and ticker; studies list with two drifting photos; pinned statement on mist; reporting method on mist; full-width fee table; parallax reading-room photograph; referrer notes in a scattered row on mist; people (two portraits, seven rows); visit and news.
 
-## Next release
-Pages: Studies, How we report, For referring doctors, Preparing for your scan, Fees, Team, About, Referrer notes, Contact & visit, News. Each page head repeats the scattered frames and the white strips title. Languages: zh-TW, ja, fr, de.
+## Inner pages (en, built)
+Studies (six study rows with photos, preparation on mist), How we report (full pinned white-to-mist statement, four stages, parallax reading-room photo, report contents), For referring doctors (three ways to refer on mist, requests, referrer notes), Preparing for your scan, Fees (full-width table, stacked on phones; payment and cancellation on mist), Team (seven rows, founders' statement on mist), About (2016 pinned statement, three story sections), Contact & visit (hours on mist), News and referrer-notes archive (ticker-style rows), one article ("A Tuesday knee"), single-post template with title on white strips crossing the featured image, 404. Every page head repeats the scattered rounded photo field with the title on white strips; every page closes on slate mist. Numbers (prices, times, hours) are identical to the home page.

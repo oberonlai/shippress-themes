@@ -15,3 +15,4 @@ assets/images/p16-popescu.webp: AI-generated (Grok) for this theme, no text or l
 assets/images/p17-reception.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
 assets/images/p8-mri.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
 assets/images/p9-ultrasound.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p18-xray.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0

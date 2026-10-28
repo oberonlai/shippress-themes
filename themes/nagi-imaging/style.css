@@ -41,7 +41,7 @@ body { -webkit-font-smoothing: antialiased; }
 :where(.wp-site-blocks) > * { margin-block-start: 0; }
 .nagi-main { padding: 0 !important; margin: 0 !important; max-width: none !important; }
 .nagi-main .alignfull, .nagi-main .wp-block-post-content { margin-left: 0 !important; margin-right: 0 !important; max-width: none !important; }
-.nagi-main--front .wp-block-post-content { padding-left: 0 !important; padding-right: 0 !important; }
+.nagi-main--front .wp-block-post-content, .nagi-main--page .wp-block-post-content { padding-left: 0 !important; padding-right: 0 !important; }
 .nagi-main > .wp-block-post-content, .nagi-main--front > * { margin-block-start: 0; }
 .nagi-main > :where(.alignfull) { margin-left: 0; margin-right: 0; }
 a { text-underline-offset: .22em; transition: color .5s var(--ng-ease); }
@@ -401,10 +401,10 @@ body, .editor-styles-wrapper { --wp--preset--font-family--body: "Nagi Digits", "
 .nagi-single__fig { position: relative; margin: 0; padding: 104px var(--ng-side) 0; max-width: 1368px; margin-inline: auto; }
 .nagi-single__fig .nagi-frame { width: 68%; aspect-ratio: 16 / 9; }
 .nagi-single__fig .nagi-frame img { height: 100%; }
-.nagi-single__title { position: absolute; left: calc(var(--ng-side) + 68% - 64px); top: 52%; margin: 0; z-index: 3; font-size: min(2.4vw, 2.25rem); width: max-content; max-width: 40%; }
-.nagi-single__body { max-width: 680px; margin: 0 auto; padding: 64px var(--ng-side) 96px; font-size: 1.0625rem; line-height: 1.9; }
+.nagi-single__title { position: absolute; left: calc(var(--ng-side) + (100% - 2 * var(--ng-side)) * .68 - 64px); top: 52%; margin: 0; z-index: 3; font-size: min(2.4vw, 2.25rem); font-weight: 300; line-height: 1.25; background: #fff; padding: 12px 18px; width: max-content; max-width: 34%; }
+.nagi-main .nagi-single__body { max-width: 680px !important; margin-left: auto !important; margin-right: auto !important; padding: 64px var(--ng-side) 96px; font-size: 1.0625rem; line-height: 1.9; }
 .nagi-single__body > * { margin-block: 0 1.4em; }
-.nagi-single__meta { max-width: 680px; margin: 0 auto; padding: 0 var(--ng-side); font-size: .875rem; letter-spacing: .06em; text-transform: uppercase; }
+.nagi-main .nagi-single__meta { text-align: left; max-width: 680px !important; margin: 24px auto 0 !important; padding: 0 var(--ng-side); font-size: .875rem; letter-spacing: .06em; text-transform: uppercase; }
 .nagi-archive-sec { padding: 72px var(--ng-side) 120px; max-width: 1368px; margin: 0 auto; }
 .nagi-newsrow__cat, .nagi-newsrow__cat a { font-size: .875rem; letter-spacing: .04em; text-transform: uppercase; text-decoration: none; min-width: 7rem; }
 .nagi-404 { padding: 168px var(--ng-side) 160px; max-width: 1368px; margin: 0 auto; }
@@ -422,7 +422,7 @@ body, .editor-styles-wrapper { --wp--preset--font-family--body: "Nagi Digits", "
 	.nagi-prow { grid-template-columns: 1fr; gap: 4px; }
 	.nagi-single__fig { padding-top: 80px; padding-inline: 16px; }
 	.nagi-single__fig .nagi-frame { width: 100%; }
-	.nagi-single__title { position: relative; left: 16px; top: auto; margin-top: -28px; font-size: 1.5rem; max-width: calc(100% - 16px); }
+	.nagi-single__title { position: relative; left: 16px; top: auto; margin-top: -28px; font-size: 1.375rem; max-width: calc(100% - 16px); }
 	.nagi-archive-sec { padding: 40px 16px 72px; }
 	.nagi-404 { padding: 120px 16px 96px; }
 }
