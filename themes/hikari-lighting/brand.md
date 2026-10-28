@@ -2,6 +2,8 @@
 
 Independent lighting showroom for homes and small dining rooms, Rotterdam. Founded 2016. Fictional brand; no real people, media, awards or claims.
 
+Brand name: Hikari Lighting. Location: Steenkade 14, Rotterdam. Audience: customers furnishing homes and small dining rooms.
+
 ## Concept
 
 Hikari Lighting was founded in 2016 by Ines Varga as an independent lighting showroom at Steenkade 14 in Rotterdam. Frustrated by the glare of mass-produced fixtures and impersonal retail catalogues, Ines established a quiet waterfront space dedicated exclusively to lighting homes and small dining rooms. From the beginning, our guiding principle has been simple: every room deserves its own hour, and light should be treated as the quietest furniture in the space.

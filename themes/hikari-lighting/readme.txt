@@ -41,6 +41,19 @@ All photographs in assets/images/demo/ are AI-generated for this theme (CC0 / GP
 * hl-11: Two spun aluminium pendant lamps glowing above a long wooden kitchen dining table.
 * hl-12: Overhead view of an architectural light plan drawing, lux meter, and material swatches on wood.
 
+Files (AI-generated for this theme, released under GPL-2.0-or-later / CC0):
+- assets/images/demo/hl-01-bay.webp
+- assets/images/demo/hl-02-floor.webp
+- assets/images/demo/hl-03-dining.webp
+- assets/images/demo/hl-04-reading.webp
+- assets/images/demo/hl-05-planner.webp
+- assets/images/demo/hl-06-window.webp
+- assets/images/demo/hl-07-repair.webp
+- assets/images/demo/hl-08-shade.webp
+- assets/images/demo/p1-bay-floor-lamp.webp
+- assets/images/demo/p5-cairn-table-lamp.webp
+- assets/images/demo/p6-low-pendant-trio.webp
+
 == Scroll effects ==
 
 assets/sp-scroll.js and assets/sp-scroll.css (ShipPress, GPL-2.0-or-later) provide the wipe reveal, the parallax windows and the marquee. They respect prefers-reduced-motion.

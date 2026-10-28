@@ -13,11 +13,9 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"hl-marq__run","layout":{"type":"default"}} -->
-<div class="wp-block-group hl-marq__run" aria-hidden="true"><!-- wp:paragraph -->
-<p>Steenkade 14 · Rotterdam · Wednesday to Sunday — Steenkade 14 · Rotterdam · Wednesday to Sunday —</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<!-- wp:html -->
+<div class="hl-marq__run hl-marq__run--dup" aria-hidden="true"><p>Steenkade 14 · Rotterdam · Wednesday to Sunday — Steenkade 14 · Rotterdam · Wednesday to Sunday —</p></div>
+<!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hl-wrap hl-foot__main","layout":{"type":"default"}} -->

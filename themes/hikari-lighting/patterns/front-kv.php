@@ -43,11 +43,9 @@ $img = esc_url( get_theme_file_uri( 'assets/images/demo/hl-01-bay.webp' ) );
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"hl-marq__run","layout":{"type":"default"}} -->
-<div class="wp-block-group hl-marq__run" aria-hidden="true"><!-- wp:paragraph -->
-<p>Light is the quietest furniture in the room — Light is the quietest furniture in the room —</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<!-- wp:html -->
+<div class="hl-marq__run hl-marq__run--dup" aria-hidden="true"><p>Light is the quietest furniture in the room — Light is the quietest furniture in the room —</p></div>
+<!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"full","className":"hl-kv__bar","layout":{"type":"default"}} -->

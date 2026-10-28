@@ -82,14 +82,14 @@ KV images to add to the image list: **hl-01** (listed in section 9, home). No it
 
 ## 3. Colour
 
-From FIGARO (roles and proportions, tok(a)); the dark is moved from neutral black to 黒橡 warm blacks because the product is light and a neutral `#0F0F0F` would duplicate Yoru Bar's `#0D0D0D` ground.
+From FIGARO (roles and proportions, tok(a)); the dark is moved from neutral black to kuro-kashi (black oak) warm blacks because the product is light and a neutral `#0F0F0F` would duplicate Yoru Bar's `#0D0D0D` ground.
 
 | Role | Hex | Source | Use | Share of a page |
 |---|---|---|---|---|
 | Ground | `#F2F2F2` | FIGARO ground `#F2F2F2` (exact) | page ground, info bar, footer | ≈55–60% (ref ≈70%; room boxes take the rest) |
 | Ink | `#0E0E0E` | FIGARO ink `#0E0E0E` (exact) | headings and body on light, marquee on light | ≈8% |
-| Curtain / front wall | `#1A1512` | FIGARO dark `#0F0F0F`, hue moved to 黒橡, lightness +3% (within ±5%) | KV curtain, page heads, room-box front wall, header after scroll on dark pages | ≈20% |
-| 黒橡 wall | `#3F332C` | design row hex 黒橡; plays FIGARO's lighter ceiling grey `≈#3A3A3A` | ceiling gradient end, side wall gradient end, product card ground | ≈6% |
+| Curtain / front wall | `#1A1512` | FIGARO dark `#0F0F0F`, hue moved to kuro-kashi (black oak), lightness +3% (within ±5%) | KV curtain, page heads, room-box front wall, header after scroll on dark pages | ≈20% |
+| kuro-kashi (black oak) wall | `#3F332C` | design row hex kuro-kashi (black oak); plays FIGARO's lighter ceiling grey `≈#3A3A3A` | ceiling gradient end, side wall gradient end, product card ground | ≈6% |
 | Ceiling light | `#5A4C43` | FIGARO ceiling top `≈#4A4A4A`, warmed | ceiling gradient start | ≈2% |
 | Side wall | `#2B231F` | FIGARO side wall `≈#1A1A1A`, warmed | side wall gradient start | ≈3% |
 | On-dark text | `#F2F2F2` | FIGARO white on dark | text on dark | — |
@@ -107,7 +107,7 @@ From FIGARO (roles and proportions, tok(a)); the dark is moved from neutral blac
 - Latin headings & wordmark text: **Outfit** (variable, 200–600) — FIGARO uses Manrope 600 (tok(b)); Outfit is the row's font and the closest geometric sans.
 - Latin body: **Figtree** 400/500/600 (row font).
 - Labels, nav, captions, info bar: **IBM Plex Mono** 400/500, Latin only (FIGARO's exact label face, tok(b); this is the mono signature of the reference; limited to ≤0.875rem text).
-- zh-TW: **Noto Sans TC** (黑體) 300/400/500/700 for headings and body; ja: **Noto Sans JP** (黑體) same weights. No Mincho/明體 anywhere.
+- zh-TW: **Noto Sans TC** (gothic sans) 300/400/500/700 for headings and body; ja: **Noto Sans JP** (gothic sans) same weights. No Mincho anywhere.
 - Stacks (theme.json `fontFamilies`, all loaded with `fontFace` from `assets/fonts/`, woff2, so editor iframe and front end are identical; zh-TW/ja subset files as Hokuto/Hada do — the subset script is broken, use their replacement method):
   - heading: `"Outfit", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
   - body: `"Figtree", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
