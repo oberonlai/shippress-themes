@@ -1,6 +1,6 @@
 # Azuke Finance
 
-A calm landing-page block theme (type landing) for small-supplier invoice funding. Home page (English) in this release; inner pages and the other languages follow.
+A calm landing-page block theme (type landing) for small-supplier invoice funding. English only in this release (zh-TW, ja, fr and de follow): the home page plus twelve inner pages (How it works, Pricing, Who it's for, Stories, About, FAQ, Apply, Contact, Early access, Privacy, Terms, Thanks). The header menu links to the inner pages; the home page keeps its sections as one long conversion page.
 
 ## Signature
 - A tight 4.5rem headline with one coral word above a bowed, monochrome documentary photo mosaic that bleeds off the right edge (Coral Capital, S5-Style #11295).
@@ -13,6 +13,9 @@ sp-scroll (assets/sp-scroll.css and .js): parallax on the mosaic and the full-bl
 
 ## Patterns
 - `front-hero`, `front-gap`, `front-chapters`, `front-pricing`, `front-stories`, `front-faq`, `front-apply`, `head-bar`, `foot-bar`, `page-head`
+
+## Photos
+All photographs are graded with a slightly higher contrast and darker midtones; each appears once on the home page.
 
 ## Fonts
 Onest and Inter Tight (SIL OFL 1.1, licences in assets/fonts).

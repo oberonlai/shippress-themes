@@ -95,7 +95,7 @@ html.sp-js:not(.sp-no-motion) .sp-reveal--mask { transition: opacity var(--sp-du
 body.az-page-apply .az-tab, body.az-page-thanks .az-tab { display: none; }
 
 /* ---------- T1: hero ---------- */
-.az-hero { display: grid; grid-template-columns: 32.7vw minmax(0, 1fr); padding: 12.5rem 0 0; overflow: clip; position: relative; }
+.az-hero { display: grid; grid-template-columns: 32.7vw minmax(0, 1fr); padding: 9rem 0 0; overflow: clip; position: relative; }
 .az-hero > .az-h1 { grid-column: 1 / -1; padding: 0 var(--az-pad); max-width: calc(900px + 2 * var(--az-pad)); position: relative; z-index: 2; }
 .az-hero__side { grid-column: 1; grid-row: 2; align-self: start; margin-top: 5.5rem; padding: 0 1.5rem 0 var(--az-pad); display: flex; flex-direction: column; gap: 1.25rem; position: relative; z-index: 2; }
 .az-hero__side > * { margin: 0; }
@@ -192,9 +192,9 @@ body.az-page-apply .az-tab, body.az-page-thanks .az-tab { display: none; }
 .az-fee table { width: 100%; border-collapse: collapse; border: 0; table-layout: auto; }
 .az-fee td { border: 0; border-bottom: 1px solid var(--az-hair); padding: 1.5rem 1rem 1.5rem 0; vertical-align: baseline; }
 .az-fee tr:first-child td { border-top: 1px solid var(--az-hair); }
-.az-fee__item { font-size: 1.125rem; font-weight: 500; width: 34%; }
-.az-fee__note { font-size: .875rem; color: var(--az-main); }
-.az-fee__price { font-family: var(--az-display); font-size: 1.75rem; line-height: 1.2; letter-spacing: -0.02em; text-align: right; white-space: nowrap; min-width: 14rem; padding-right: 0 !important; }
+.az-fee td:nth-child(1) { font-size: 1.125rem; font-weight: 500; width: 34%; }
+.az-fee td:nth-child(2) { font-size: .875rem; color: var(--az-main); }
+.az-fee td:nth-child(3) { font-family: var(--az-display); font-size: 1.75rem; line-height: 1.2; letter-spacing: -0.02em; text-align: right; white-space: nowrap; min-width: 14rem; padding-right: 0 !important; }
 .az-ex { margin-top: 4rem; padding: 3rem; background: var(--az-panel); }
 .az-ex > * { margin: 0; }
 .az-ex__figs { display: grid; grid-template-columns: repeat(4, auto); justify-content: space-between; gap: 2rem; margin-top: 2rem; }
@@ -209,8 +209,8 @@ body.az-page-apply .az-tab, body.az-page-thanks .az-tab { display: none; }
 	.az-fee tr { border-bottom: 1px solid var(--az-hair); padding: 1.1rem 0; }
 	.az-fee td { border: 0 !important; padding: .15rem 0 !important; min-width: 0; }
 	.az-fee tr:first-child { border-top: 1px solid var(--az-hair); }
-	.az-fee__item { width: 100% !important; }
-	.az-fee__price { text-align: left; font-weight: 500; min-width: 0; font-size: 1.5rem; }
+	.az-fee td:nth-child(1) { width: 100% !important; }
+	.az-fee td:nth-child(3) { text-align: left; font-weight: 500; min-width: 0; font-size: 1.5rem; }
 	.az-ex { padding: 1.75rem 1.25rem; }
 	.az-ex__figs { grid-template-columns: 1fr; gap: 1.5rem; }
 	.az-ex__n { font-size: 2.5rem; }
@@ -287,3 +287,23 @@ body.az-page-apply .az-tab, body.az-page-thanks .az-tab { display: none; }
 .az-pagehead { padding: 12.5rem var(--az-pad) 4rem; }
 .az-prose { padding: 0 var(--az-pad) 7.5rem; }
 @media (max-width: 781px) { .az-pagehead { padding: 7rem 16px 2rem; } .az-prose { padding: 0 16px 4rem; } }
+
+/* ---------- stage 2 fixes ---------- */
+.az-bar__right .wp-block-buttons, .az-bar__right .wp-block-button, .az-bar__right .az-langpill { margin: 0; }
+.az-bar__right .wp-block-buttons { display: flex; align-items: center; }
+.az-bar__right .az-pill--sm .wp-block-button__link { padding: .5rem 1.1rem; line-height: 1.2; }
+.az-caption { max-width: 22rem; text-wrap: balance; }
+.az-gap { padding-top: 7.5rem; }
+.az-ch:last-of-type { min-height: 0; padding-bottom: 64px; }
+@media (max-width: 781px) { .az-gap { padding-top: 3rem; } }
+@media (min-width: 1024px) { .az-chcol { padding-right: max(3vw, 140px); } }
+.az-prose > * { max-width: 46rem; margin-left: 0 !important; margin-right: auto !important; }
+.az-prose > .az-table { max-width: 60rem; }
+.az-prose h2 { font-family: var(--az-display); font-size: 1.75rem; font-weight: 400; letter-spacing: -0.02em; line-height: 1.15; margin: 2.75rem 0 .75rem; }
+.az-prose p, .az-prose li { font-size: 1.0625rem; line-height: 1.75; }
+.az-prose .az-table { max-width: 60rem; margin: 1.5rem 0 2rem; overflow-x: auto; }
+.az-prose .az-table table { width: 100%; border-collapse: collapse; font-size: .9375rem; }
+.az-prose .az-table th, .az-prose .az-table td { border: 0; border-bottom: 1px solid var(--az-hair); text-align: left; padding: .85rem 1rem .85rem 0; border-bottom: 1px solid var(--az-hair); vertical-align: top; }
+.az-prose .az-table thead { border: 0; }
+.az-prose .az-table th { font-weight: 600; color: var(--az-main); font-size: .8125rem; }
+.az-prose .az-pill-row { margin-top: 2.5rem; }

@@ -116,7 +116,7 @@ return array(
 	'alt_h10' => 'Workshop owner looking at a mobile phone with a relieved expression beside parcels.',
 	'alt_h11' => 'Two workers rolling large reels of raw cardboard into a manufacturing workshop.',
 	'alt_h12' => 'Worker handing a packaged order across a counter to a customer in a shop.',
-	'alt_h13' => 'Workshop owner turning off a desk lamp beside packed boxes at closing time.',
+	'alt_h13' => 'Workshop owner reaching to switch off a desk lamp beside stacked parcels at closing time.',
 	'alt_p1' => 'Maren Holt standing with folded arms beside stacked paper board in her workshop.',
 	'alt_p2' => 'Felipe Duarte loading metal baking trays onto a tall rack in a wholesale bakery.',
 	'alt_p3' => 'Sun-hee Park wearing an apron while pulling a screen at a printing table.',

@@ -19,8 +19,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:table {"className":"az-fee"} -->
-<figure class="wp-block-table az-fee"><table class="has-fixed-layout"><tbody><?php foreach ( (array) json_decode( azuke_finance_t( 'p_rows' ), true ) as $azr ) : ?><tr><td class="az-fee__item"><?php echo esc_html( $azr[0] ); ?></td><td class="az-fee__note"><?php echo esc_html( $azr[1] ); ?></td><td class="az-fee__price"><?php echo esc_html( $azr[2] ); ?></td></tr><?php endforeach; ?></tbody></table></figure>
+<!-- wp:table {"hasFixedLayout":true,"className":"az-fee"} -->
+<figure class="wp-block-table az-fee"><table class="has-fixed-layout"><tbody><?php foreach ( (array) json_decode( azuke_finance_t( 'p_rows' ), true ) as $azr ) : ?><tr><td><?php echo esc_html( $azr[0] ); ?></td><td><?php echo esc_html( $azr[1] ); ?></td><td><?php echo esc_html( $azr[2] ); ?></td></tr><?php endforeach; ?></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:group {"className":"az-ex","layout":{"type":"default"}} -->

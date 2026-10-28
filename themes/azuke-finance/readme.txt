@@ -43,7 +43,7 @@ Images: AI-generated for this theme with Grok Build image_gen as monochrome docu
 - assets/images/h10.webp (home chapter 02: Workshop owner looking at a mobile phone with a relieved expression beside parcels.)
 - assets/images/h11.webp (home chapter 03: Two workers rolling large reels of raw cardboard into a manufacturing workshop.)
 - assets/images/h12.webp (home chapter 03: Worker handing a packaged order across a counter to a customer in a shop.)
-- assets/images/h13.webp (home apply band: Workshop owner turning off a desk lamp beside packed boxes at closing time.)
+- assets/images/h13.webp (home apply band: Workshop owner reaching to switch off a desk lamp beside stacked parcels at closing time.)
 - assets/images/p1.webp (home story card: Maren Holt standing with folded arms beside stacked paper board in her workshop.)
 - assets/images/p2.webp (home story card: Felipe Duarte loading metal baking trays onto a tall rack in a wholesale bakery.)
 - assets/images/p3.webp (home story card: Sun-hee Park wearing an apron while pulling a screen at a printing table.)
