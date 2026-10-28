@@ -10,11 +10,11 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kw-kv sp-parallax","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kw-kv sp-parallax"><!-- wp:group {"className":"kw-kv__slides sp-parallax__layer","layout":{"type":"default"}} -->
-<div class="wp-block-group kw-kv__slides sp-parallax__layer"><?php echo kura_wine_image( 'K3', 'kw-slide kw-slide--3' ); ?>
+<div class="wp-block-group kw-kv__slides sp-parallax__layer"><?php echo kura_wine_image( 'K1', 'kw-slide kw-slide--1', 'fetchpriority="high"' ); ?>
 
-<?php echo kura_wine_image( 'K2', 'kw-slide kw-slide--2' ); ?>
+<?php echo kura_wine_image( 'K2', 'kw-slide kw-slide--2', 'aria-hidden="true"' ); ?>
 
-<?php echo kura_wine_image( 'K1', 'kw-slide kw-slide--1', 'fetchpriority="high"' ); ?></div>
+<?php echo kura_wine_image( 'K3', 'kw-slide kw-slide--3', 'aria-hidden="true"' ); ?></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kw-kv__fg","layout":{"type":"default"}} -->

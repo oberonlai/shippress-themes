@@ -32,8 +32,6 @@ Tags: e-commerce, block-patterns, full-site-editing, blog, custom-colors, editor
 @media (min-width: 782px) { :root { --kw-pad: 40px; } }
 @media (min-width: 1100px) { :root { --kw-pad: 60px; } }
 
-html { scroll-behavior: smooth; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body { font-optical-sizing: auto; -webkit-font-smoothing: antialiased; }
 img { display: block; max-width: 100%; height: auto; }
 a { text-underline-offset: .25em; text-decoration-thickness: 1px; }
@@ -143,15 +141,16 @@ body.home .kw-header { background: transparent; }
 	.kw-kv__bar { flex-direction: row; align-items: center; gap: 0; min-height: 56px; padding: 0; }
 	.kw-kv__bar .kw-kv__item + .kw-kv__item::before { content: ""; display: inline-block; width: 1px; height: 12px; margin: 0 24px; background: rgba(226, 220, 208, .5); vertical-align: -1px; }
 }
-/* cross-fade (5s interval, 3s fade) and slow 10s zoom: motion mode only; K1 alone otherwise (last in the DOM = on top) */
+/* cross-fade (5s interval, 3s fade) and slow 10s zoom: motion mode only. K1 is the permanent base; K2 and K3 (decorative, aria-hidden)
+   fade in over it in turn, so static / no-JS / editor / reduced-motion show K1 alone. */
+.kw-kv .kw-slide--2, .kw-kv .kw-slide--3 { opacity: 0; }
 @media (prefers-reduced-motion: no-preference) {
-	html.sp-js:not(.sp-no-motion) .kw-kv .kw-slide { animation: kw-fade 15s cubic-bezier(.25, 1, .5, 1) infinite; }
-	html.sp-js:not(.sp-no-motion) .kw-kv .kw-slide--1 { animation-delay: 0s; }
-	html.sp-js:not(.sp-no-motion) .kw-kv .kw-slide--2 { animation-delay: -10s; }
-	html.sp-js:not(.sp-no-motion) .kw-kv .kw-slide--3 { animation-delay: -5s; }
+	html.sp-js:not(.sp-no-motion) .kw-kv .kw-slide--2 { animation: kw-fade-2 15s cubic-bezier(.25, 1, .5, 1) infinite; }
+	html.sp-js:not(.sp-no-motion) .kw-kv .kw-slide--3 { animation: kw-fade-3 15s cubic-bezier(.25, 1, .5, 1) infinite; }
 	html.sp-js:not(.sp-no-motion) .kw-kv .kw-slide img { animation: kw-zoom 10s linear infinite alternate; }
 }
-@keyframes kw-fade { 0% { opacity: 1; } 13.333% { opacity: 1; } 33.333% { opacity: 0; } 80% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes kw-fade-2 { 0%, 13.333% { opacity: 0; } 33.333%, 66.6% { opacity: 1; } 66.7%, 100% { opacity: 0; } }
+@keyframes kw-fade-3 { 0%, 46.667% { opacity: 0; } 66.667%, 80% { opacity: 1; } 100% { opacity: 0; } }
 @keyframes kw-zoom { from { scale: 1; } to { scale: 1.1; } }
 .kw-kv.sp-parallax { --sp-par: 6%; }
 @media (min-width: 782px) { .kw-kv.sp-parallax { --sp-par: 10%; } }
@@ -258,15 +257,11 @@ body.home .kw-header { background: transparent; }
 .kw-irows { display: grid; grid-template-columns: 1fr; column-gap: 40px; }
 @media (min-width: 782px) { .kw-irows { grid-template-columns: repeat(2, 1fr); } }
 .kw-irow { margin: 0 !important; border-bottom: 1px solid rgba(226, 220, 208, .3); }
-.kw-irow a { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 72px; padding: 20px 0; text-decoration: none; color: #E2DCD0; }
-.kw-irow a::after { order: 3; }
-.kw-irow__a { display: block; font-size: .9375rem; font-weight: 500; }
-.kw-irow__b { display: block; font-size: .8125rem; letter-spacing: 1.3px; font-family: var(--kw-util); margin-top: 2px; opacity: .92; }
-.kw-irow a > span:first-child { flex: 0 0 auto; }
-.kw-irow a { flex-wrap: wrap; }
-.kw-irow a { display: grid; grid-template-columns: 1fr auto; }
+.kw-irow a { display: grid; grid-template-columns: 1fr auto; align-items: center; align-content: center; column-gap: 12px; row-gap: 2px; min-height: 72px; padding: 20px 0; text-decoration: none; color: #E2DCD0; }
 .kw-irow a > span { grid-column: 1; }
-.kw-irow a::after { grid-column: 2; grid-row: 1 / 3; }
+.kw-irow a::after { grid-column: 2; grid-row: 1 / 3; padding-left: 0; }
+.kw-irow__a { display: block; font-size: .9375rem; font-weight: 500; }
+.kw-irow__b { display: block; font-size: .8125rem; letter-spacing: 1.3px; font-family: var(--kw-util); }
 .kw-visit .kw-more { text-align: right; }
 .kw-visit .kw-more a { color: #E2DCD0; border-bottom-color: rgba(226, 220, 208, .5); }
 .kw-visit__more { display: flex; justify-content: flex-end; }
@@ -288,7 +283,6 @@ body.home .kw-header { background: transparent; }
 
 /* ---------- editor: no fixed header, final states ---------- */
 .editor-styles-wrapper .kw-header { position: relative; }
-.editor-styles-wrapper .kw-kv .kw-slide { animation: none; }
 .editor-styles-wrapper .kw-kv .kw-slide--2, .editor-styles-wrapper .kw-kv .kw-slide--3 { display: none; }
 html.sp-no-motion .kw-kv .kw-slide { animation: none !important; }
 html.sp-no-motion .kw-kv .kw-slide img { animation: none !important; scale: 1; }
