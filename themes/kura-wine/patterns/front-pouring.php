@@ -20,6 +20,8 @@ $bottles = array(
 <section class="wp-block-group alignfull kw-sec kw-pouring"><!-- wp:group {"className":"kw-wrap kw-pouring__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-wrap kw-pouring__grid"><?php echo kura_wine_image( 'K10', 'kw-pouring__big sp-reveal sp-reveal--mask' ); ?>
 
+<?php echo kura_wine_image( 'P2', 'kw-pouring__small sp-reveal sp-reveal--mask' ); ?>
+
 <!-- wp:group {"className":"kw-pouring__body","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-pouring__body"><!-- wp:paragraph {"className":"kw-label"} -->
 <p class="kw-label"><?php echo esc_html( kura_wine_t( 'po_label' ) ); ?></p>
@@ -32,7 +34,7 @@ $bottles = array(
 <?php if ( class_exists( 'WooCommerce' ) ) : ?>
 <!-- wp:woocommerce/product-collection {"queryId":3,"query":{"perPage":4,"pages":1,"offset":0,"postType":"product","order":"asc","orderBy":"menu_order","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":{},"isProductCollectionBlock":true,"featured":true,"woocommerceOnSale":false,"woocommerceStockStatus":["instock","outofstock","onbackorder"],"woocommerceAttributes":[],"woocommerceHandPickedProducts":[]},"tagName":"div","displayLayout":{"type":"flex","columns":2,"shrinkColumns":true},"dimensions":{"widthType":"fill"},"queryContextIncludes":["collection"],"className":"kw-bottles"} -->
 <div class="wp-block-woocommerce-product-collection kw-bottles"><!-- wp:woocommerce/product-template -->
-<!-- wp:woocommerce/product-image {"showSaleBadge":false,"imageSizing":"single","isDescendentOfQueryLoop":true,"aspectRatio":"3/4","className":"kw-card__photo"} /-->
+<!-- wp:woocommerce/product-image {"showSaleBadge":false,"imageSizing":"single","isDescendentOfQueryLoop":true,"aspectRatio":"4/5","className":"kw-card__photo"} /-->
 
 <!-- wp:post-terms {"term":"product_cat","className":"kw-card__region"} /-->
 

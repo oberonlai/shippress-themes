@@ -20,6 +20,11 @@
 <?php if ( class_exists( 'WooCommerce' ) && WP_Block_Type_Registry::get_instance()->is_registered( 'woocommerce/mini-cart' ) ) : ?>
 
 <!-- wp:woocommerce/mini-cart {"className":"kw-cart"} /-->
+<?php else : ?>
+
+<!-- wp:paragraph {"className":"kw-cartlink"} -->
+<p class="kw-cartlink"><a href="<?php echo esc_url( function_exists( 'wc_get_cart_url' ) ? wc_get_cart_url() : home_url( '/shop/' ) ); ?>"><?php echo esc_html( kura_wine_t( 'cart_label' ) ); ?> <span class="kw-cartlink__n">0</span></a></p>
+<!-- /wp:paragraph -->
 <?php endif; ?></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

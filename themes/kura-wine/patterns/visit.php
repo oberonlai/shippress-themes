@@ -13,7 +13,7 @@ $rows = array(
 	array( 1, '/visit/' ),
 	array( 2, '/visit/#hours' ),
 	array( 3, '/delivery/' ),
-	array( 4, '/tastings/#club' ),
+	array( 4, '/club/' ),
 );
 ?>
 <!-- wp:group {"tagName":"section","align":"full","anchor":"visit","className":"kw-visit sp-parallax","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
