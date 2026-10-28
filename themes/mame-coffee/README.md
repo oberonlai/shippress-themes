@@ -2,7 +2,7 @@
 
 An editorial block theme for a **small specialty coffee roastery and bar**: one 5 kg drum roaster, six green lots a year, four on the bar at a time, each poured between day 5 and day 28 after roasting.
 
-The demo roastery is fictional (Ghent, founded 2019 by Ines Duarte and Tomas Varga). The whole brand is written down in [`brand.md`](brand.md); every page's copy comes from it. Type: hospitality. The English home page and short inner pages (lots, bar, people, roastery, visit, journal) are in; richer inner pages and zh-TW, ja, fr and de follow.
+The demo roastery is fictional (Ghent, founded 2019 by Ines Duarte and Tomas Varga). The whole brand is written down in [`brand.md`](brand.md); every page's copy comes from it. Type: hospitality. The English home page and ten inner pages (about, lots, bar, roastery, origins, people, cupping, wholesale, visit, journal) plus a sample article are in; zh-TW, ja, fr and de follow.
 
 ## Concept: a window onto the roastery
 
@@ -23,10 +23,14 @@ The demo roastery is fictional (Ghent, founded 2019 by Ines Duarte and Tomas Var
 7. **Stories**: one wide and two narrow journal columns.
 8. **Visit**: a contained photograph with a statement and four info columns.
 
+## Inner pages
+
+Each page opens with the smaller framed window (`mc_pagehead()`: backdrop photograph, a sharp 56 % frame offset right, the title crossing its lower-left corner) and ends with a rule, one line and a round arrow link. Bodies reuse the rule-topped columns (lots, origins, people, cupping, wholesale), the rotated side label with hairline story, price, spec and schedule rows (about, bar, past lots, origins, people, wholesale, visit) and full-width `sp-parallax` photograph bands (Lots, Roastery). The journal index and archives use `home.html` / `archive.html` with a post grid (one wide card, then narrow ones); a single post sits on a deep-roast band with its photograph as a frame and the title crossing it. Price lists use a fixed price column at ≥782 px and stack on phones.
+
 ## Scroll effects
 
-`assets/sp-scroll.css` and `assets/sp-scroll.js` (ShipPress sp-scroll): `sp-parallax` on the hero and statement backdrops, `sp-stagger` + `sp-reveal--up` on the card columns, `sp-reveal--wipe` on the pour photograph. Off with reduced motion, without JavaScript, in the editor and with `?sp-static`.
+`assets/sp-scroll.css` and `assets/sp-scroll.js` (ShipPress sp-scroll): `sp-parallax` on the hero and statement backdrops and on the Roastery and Lots photograph bands, `sp-stagger` + `sp-reveal--up` on the card columns, `sp-reveal--wipe` on the pour photograph. Off with reduced motion, without JavaScript, in the editor and with `?sp-static`.
 
 ## Files
 
-`theme.json`, `style.css`, `functions.php`, `parts/` (header, footer), `templates/`, `patterns/` (`front-*` sections), `inc/` (demo import, strings, helpers), `demo-content.json`, `brand/` (reference notes and design spec).
+`theme.json`, `style.css`, `functions.php`, `parts/` (header, footer), `templates/`, `patterns/` (`front-*` home sections, `page-*` inner pages, `journal-*`), `inc/` (demo import, strings, helpers), `demo-content.json`, `brand/` (reference notes and design spec).

@@ -12,7 +12,7 @@ Mame Coffee is an editorial WordPress theme designed for independent specialty c
 
 A WordPress block theme from ShipPress. See README.md for the design notes, templates and patterns, and brand.md for the fictional roastery the sample content is written for.
 
-Scroll effects (assets/sp-scroll.css, assets/sp-scroll.js): a slow parallax on the hero and origin backdrops, a gentle rise-in for the card columns and a wipe on the pour photograph. They are off with prefers-reduced-motion, without JavaScript and inside the editor.
+Scroll effects (assets/sp-scroll.css, assets/sp-scroll.js): a slow parallax on the hero, origin and band photographs, a gentle rise-in for the card columns and a wipe on the pour photograph. They are off with prefers-reduced-motion, without JavaScript and inside the editor.
 
 == Installation ==
 

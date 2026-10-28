@@ -1,6 +1,6 @@
 # Mame Coffee — brand brief
 
-Design plan row: b15-4 (specialty coffee roastery and bar, hospitality). Stage 1 builds the English home page; inner pages and zh-TW, ja, fr, de follow in stage 2 (the brand world below stays the same in every language; prices keep their amount, currency EUR).
+Design plan row: b15-4 (specialty coffee roastery and bar, hospitality). The English home page and ten inner pages are built; zh-TW, ja, fr, de follow (the brand world below stays the same in every language; prices keep their amount, currency EUR).
 All names, places, people and figures are fictional.
 
 ## Concept
@@ -62,7 +62,9 @@ White page `#FFFFFF`, ink `#1D1D1D`, panel `#E8E8E8`, hairline `#C8C8C8`, black 
 Newsreader (headings, wordmark, prices) over Nunito Sans (text, navigation, labels). Traditional Chinese and Japanese in Noto Serif TC / JP (Mincho-style serif) for headings and text.
 
 ## Pages and contents
-Home (hero, origin statement, four lots, pour recipe, who roasts, bar price list, journal, visit); Lots, Bar menu, People, Roastery, Origins, Cupping & classes, Wholesale, About, Journal, Visit (stage 2).
+Home (hero, origin statement, four lots, pour recipe, who roasts, bar price list, journal, visit); Lots, Bar menu, People, Roastery, Origins, Cupping & classes, Wholesale, About, Journal (three notes and the full article "A Week at Hara Bura"), Visit.
+
+Every inner page opens with a smaller framed window: the backdrop photograph, a 56 %-wide sharp frame offset to the right and the page title crossing its lower-left corner. The Roastery and Lots pages carry a full-width parallax photograph band; Lots, Origins, People, Cupping and Wholesale use the rule-topped columns, and About, Bar, People, Origins, Wholesale and Visit use the rotated side label and hairline rows.
 
 ## Photography
 Seventeen documentary film photographs (35 mm look, fine grain, soft morning window light, muted warm-grey palette, diverse adults, no text, logos or packaging print), one shared style string, AI-generated for this theme.
