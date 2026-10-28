@@ -54,16 +54,16 @@ img { max-width: 100%; height: auto; }
 .hg-head-part { position: absolute; inset: 0 0 auto 0; z-index: 20; height: 0; margin: 0; }
 .hg-header { position: relative; height: 0; margin: 0; }
 .hg-logo { position: absolute; left: 0; top: 0; width: 168px; height: 116px; margin: 0; background: var(--hg-main); clip-path: polygon(0 0, 100% 30%, 52% 100%); }
-.hg-logo__t { margin: 0; padding: 22px 0 0 28px; font-family: var(--wp--preset--font-family--heading); font-weight: 600; font-size: 0.875rem; line-height: 1.35; letter-spacing: .06em; }
+.hg-logo__t { margin: 0; padding: 14px 0 0 46px; font-family: var(--wp--preset--font-family--heading); font-weight: 600; font-size: 0.875rem; line-height: 1.35; letter-spacing: .06em; }
 .hg-logo__t a { color: #fff; text-decoration: none; }
 .hg-header__bar { position: absolute; top: 30px; right: 40px; display: flex; align-items: center; gap: 56px; margin: 0; }
-.hg-nav { --wp--style--block-gap: 0; }
+.hg-nav { --wp--style--block-gap: 0; color: #fff; }
 .hg-nav .wp-block-navigation__container { display: grid; grid-template-columns: repeat(3, auto); column-gap: 36px; row-gap: 2px; }
-.hg-nav .wp-block-navigation-item__content { color: #fff; font-family: var(--wp--preset--font-family--body); font-size: 0.9375rem; letter-spacing: .05em; text-decoration: none; text-shadow: 0 1px 8px rgba(20, 26, 18, .35); }
+.hg-header .hg-nav a.wp-block-navigation-item__content { color: #fff; font-family: var(--wp--preset--font-family--body); font-size: 0.9375rem; letter-spacing: .05em; text-decoration: none; text-shadow: 0 1px 8px rgba(20, 26, 18, .35); }
 .hg-nav .wp-block-navigation-item__content:hover { text-decoration: underline; text-underline-offset: 4px; }
 .hg-nav .wp-block-navigation__responsive-container-open { color: #fff; }
 .hg-nav .wp-block-navigation__responsive-container.is-menu-open { padding: 2rem; }
-.hg-nav .is-menu-open .wp-block-navigation-item__content { color: var(--hg-ink); text-shadow: none; font-size: 1.125rem; }
+.hg-header .hg-nav .is-menu-open a.wp-block-navigation-item__content { color: var(--hg-ink); text-shadow: none; font-size: 1.125rem; }
 .hg-nav .is-menu-open .wp-block-navigation__container { display: flex; flex-direction: column; row-gap: 1rem; }
 .hg-btns { margin: 0; }
 .hg-pill .wp-block-button__link, .hg-pill > a { display: inline-block; min-width: 150px; text-align: center; border-radius: 9999px; font-family: var(--wp--preset--font-family--heading); font-size: 0.875rem; font-weight: 600; letter-spacing: .06em; padding: .65rem 1.75rem; line-height: 1.5; border: 1px solid var(--hg-accent); background: var(--hg-accent); color: #fff; text-decoration: none; transition: background .35s var(--hg-ease), color .35s var(--hg-ease), transform .35s var(--hg-ease); }
@@ -118,7 +118,7 @@ img { max-width: 100%; height: auto; }
 .hg-grid--crate > .hg-card { grid-column: span 4; }
 .hg-grid--crate > .hg-tri-wrap ~ .hg-card:nth-child(-n+3) { grid-column: span 3; }
 .hg-tri-wrap { margin: 0; }
-.hg-tri { width: 100%; max-width: 560px; height: 460px; background: var(--hg-main); clip-path: polygon(0 0, 100% 18%, 44% 100%); box-sizing: border-box; padding: 56px 0 0 72px; }
+.hg-tri { width: 100%; max-width: 560px; height: 460px; background: var(--hg-main); clip-path: polygon(0 0, 100% 18%, 30% 100%); box-sizing: border-box; padding: 56px 0 0 80px; }
 .hg-tri__h { margin: 0; color: #fff; font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.25rem); font-weight: 700; line-height: 1.4; }
 .hg-card { margin: 0; }
 .hg-card__img { margin: 0 0 1.25rem; aspect-ratio: 3 / 2; overflow: hidden; }
@@ -221,13 +221,15 @@ img { max-width: 100%; height: auto; }
 	.hg-band { aspect-ratio: 16 / 9; }
 }
 @media (max-width: 600px) {
+	/* the menu is inside the collapsed overlay here, so its items are not revealed on scroll */
+	html.sp-js:not(.sp-no-motion) .hg-nav .sp-reveal:not(.sp-in) { opacity: 1; transform: none; }
 	.hg-logo { width: 104px; height: 72px; }
-	.hg-logo__t { padding: 12px 0 0 16px; font-size: 0.75rem; }
+	.hg-logo__t { padding: 8px 0 0 26px; font-size: 0.75rem; }
 	.hg-header__bar { top: 16px; right: 16px; gap: 12px; }
 	.hg-header__bar .hg-btns { display: none; }
 	.hg-hero { --sp-par: 5%; min-height: max(88vh, 600px); }
 	.hg-hero__fg { left: 24px; right: 24px; bottom: 72px; }
-	.hg-hero__h { font-size: 1.75rem; letter-spacing: .12em; }
+	.hg-hero__h { font-size: 1.625rem; letter-spacing: .08em; }
 	.hg-grid, .hg-grid--crate { grid-template-columns: minmax(0, 1fr); row-gap: 56px; }
 	.hg-tri { max-width: none; height: 200px; padding: 28px 40% 0 24px; clip-path: polygon(0 0, 100% 0, 0 100%); }
 	.hg-tri__h { font-size: 1.5rem; }
