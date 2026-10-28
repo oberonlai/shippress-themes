@@ -1,0 +1,17 @@
+assets/images/h1-console.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/h2-gantry.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/h3-monitor.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/h4-corridor.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/h5-keyboard.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/h6-report.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/h7-chair.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p10-readers.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p11-room.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p12-haddad.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p13-oyelaran.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p14-whelan.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p15-mensah.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p16-popescu.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p17-reception.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p8-mri.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
+assets/images/p9-ultrasound.webp: AI-generated (Grok) for this theme, no text or logos, GPL-2.0-or-later / CC0
