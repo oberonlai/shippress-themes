@@ -28,6 +28,10 @@ body { background: var(--hl-ground); color: var(--hl-ink); font-family: var(--hl
 :lang(zh-TW) { --hl-heading: "Noto Sans TC", "Outfit", system-ui, sans-serif; --hl-body: "Noto Sans TC", "Figtree", system-ui, sans-serif; }
 :lang(ja) { --hl-heading: "Noto Sans JP", "Outfit", system-ui, sans-serif; --hl-body: "Noto Sans JP", "Figtree", system-ui, sans-serif; }
 :lang(zh-TW) body, :lang(ja) body, body:lang(zh-TW), body:lang(ja) { line-height: 1.85; }
+:is(:lang(zh-TW), :lang(ja)) { line-break: strict; }
+:is(:lang(zh-TW), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.03em; font-style: normal; }
+:lang(ja) :is(h1, h2, h3, h4, p) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h2, h3, h4, li) { hyphens: auto; overflow-wrap: break-word; }
 a { text-decoration: none; color: inherit; }
 a:focus-visible { outline: 2px solid var(--hl-brass); outline-offset: 3px; }
 img { display: block; max-width: 100%; height: auto; }
