@@ -8,9 +8,11 @@
 return array(
 	// Header and footer.
 	'nav_why'        => 'Why short',
-	'nav_crate'      => 'In the crate',
-	'nav_packing'    => 'Packing',
-	'nav_plan'       => 'The plan',
+	'nav_crate'      => 'The crate',
+	'nav_packing'    => 'Packing morning',
+	'nav_plan'       => 'Plans',
+	'nav_growers'    => 'Growers',
+	'nav_delivery'   => 'Delivery',
 	'nav_stories'    => 'Stories',
 	'nav_faq'        => 'Questions',
 	'nav_join'       => 'Join',
@@ -22,7 +24,7 @@ return array(
 	'foot_hours_t'   => 'Hours',
 	'foot_hours'     => 'Member desk Mon–Fri 9:00–17:00<br>Deliveries Tuesday and Thursday 14:00–19:00',
 	'foot_nav_t'     => 'Explore',
-	'foot_links'     => '<a href="/#why">Why short</a><br><a href="/#plan">The plan</a><br><a href="/#faq">Questions</a><br><a href="/privacy/">Privacy</a><br><a href="/terms/">Terms</a>',
+	'foot_links'     => '<a href="/about/">About</a><br><a href="/questions/">Questions</a><br><a href="/waitlist/">Waitlist</a><br><a href="/privacy/">Privacy</a><br><a href="/terms/">Terms</a>',
 	'foot_copy'      => '© 2026 Hatake Greens, Wren Valley. Weekly vegetable membership since 2019.',
 	'search_results' => 'Search results for: %s',
 

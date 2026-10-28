@@ -13,11 +13,11 @@ $t = 'hatake_greens_t';
 echo hg_open( 'hg-header', 'header', 'full' ) . "\n";
 echo hg_open( 'hg-logo' ) . "\n" . hg_p( 'hg-logo__t', '<a href="/">' . esc_html( $t( 'logo_a' ) ) . '<br>' . esc_html( $t( 'logo_b' ) ) . '</a>' ) . "\n" . hg_close() . "\n\n";
 echo hg_open( 'hg-header__bar' ) . "\n";
-$links = array( 'why', 'crate', 'packing', 'plan', 'stories', 'faq' );
+$links = array( 'crate' => '/the-crate/', 'packing' => '/packing/', 'plan' => '/plans/', 'growers' => '/growers/', 'delivery' => '/delivery/', 'stories' => '/stories/' );
 echo '<!-- wp:navigation {"overlayMenu":"mobile","overlayBackgroundColor":"paper","overlayTextColor":"ink","className":"hg-nav sp-stagger","layout":{"type":"flex","orientation":"horizontal"}} -->' . "\n";
-foreach ( $links as $k ) {
-	echo '<!-- wp:navigation-link ' . wp_json_encode( array( 'label' => $t( 'nav_' . $k ), 'type' => 'custom', 'url' => '/#' . $k, 'kind' => 'custom', 'isTopLevelLink' => true, 'className' => 'sp-reveal sp-reveal--up' ) ) . ' /-->' . "\n";
+foreach ( $links as $k => $u ) {
+	echo '<!-- wp:navigation-link ' . wp_json_encode( array( 'label' => $t( 'nav_' . $k ), 'type' => 'custom', 'url' => $u, 'kind' => 'custom', 'isTopLevelLink' => true, 'className' => 'sp-reveal sp-reveal--up' ) ) . ' /-->' . "\n";
 }
 echo '<!-- /wp:navigation -->' . "\n\n";
-echo hg_pill( '/#plan', $t( 'nav_join' ), 'hg-pill--head' ) . "\n";
+echo hg_pill( '/waitlist/', $t( 'nav_join' ), 'hg-pill--head' ) . "\n";
 echo hg_close() . "\n" . hg_close( 'header' );
