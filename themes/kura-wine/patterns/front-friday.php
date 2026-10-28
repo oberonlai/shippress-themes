@@ -30,6 +30,8 @@
 <?php echo kura_wine_more( 'fr_more', '/tastings/', 'sp-reveal sp-reveal--up' ); ?></div>
 <!-- /wp:group -->
 
-<?php echo kura_wine_image( 'K12', 'kw-friday__wide sp-reveal sp-reveal--mask' ); ?></div>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-ph kw-ph--k12 kw-friday__wide sp-reveal sp-reveal--mask"} -->
+<figure class="wp-block-image size-full kw-ph kw-ph--k12 kw-friday__wide sp-reveal sp-reveal--mask"><img src="<?php echo esc_url( kura_wine_img( 'K12' ) ); ?>" alt="<?php echo esc_attr( kura_wine_t( 'alt_K12' ) ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

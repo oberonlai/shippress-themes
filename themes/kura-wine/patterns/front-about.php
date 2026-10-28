@@ -36,8 +36,12 @@
 <?php echo kura_wine_more( 'ab_more', '/about/', 'sp-reveal sp-reveal--up' ); ?></div>
 <!-- /wp:group -->
 
-<?php echo kura_wine_image( 'K4', 'kw-about__tall sp-reveal sp-reveal--mask' ); ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-ph kw-ph--k4 kw-about__tall sp-reveal sp-reveal--mask"} -->
+<figure class="wp-block-image size-full kw-ph kw-ph--k4 kw-about__tall sp-reveal sp-reveal--mask"><img src="<?php echo esc_url( kura_wine_img( 'K4' ) ); ?>" alt="<?php echo esc_attr( kura_wine_t( 'alt_K4' ) ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo kura_wine_image( 'K5', 'kw-about__small sp-reveal sp-reveal--mask' ); ?></div>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-ph kw-ph--k5 kw-about__small sp-reveal sp-reveal--mask"} -->
+<figure class="wp-block-image size-full kw-ph kw-ph--k5 kw-about__small sp-reveal sp-reveal--mask"><img src="<?php echo esc_url( kura_wine_img( 'K5' ) ); ?>" alt="<?php echo esc_attr( kura_wine_t( 'alt_K5' ) ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

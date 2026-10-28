@@ -1,4 +1,4 @@
-# reference-tokens.md — asa-ban.com (BAN INOUE, S5-Style, 生活用品･物販 / ファッション). Measured 2026-10-28 by getComputedStyle at 1440×900 (Playwright, headless). Values only; no assets, copy or logo reused.
+# reference-tokens.md — asa-ban.com (BAN INOUE, S5-Style, lifestyle goods and fashion). Measured 2026-10-28 by getComputedStyle at 1440×900 (Playwright, headless). Values only; no assets, copy or logo reused.
 ## (a) Colour (hero slides rotate; area % from screenshot quantize)
 | role | hex | where | share |
 |---|---|---|---|

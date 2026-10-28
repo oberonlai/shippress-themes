@@ -18,9 +18,13 @@ $bottles = array(
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kw-sec kw-pouring","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kw-sec kw-pouring"><!-- wp:group {"className":"kw-wrap kw-pouring__grid","layout":{"type":"default"}} -->
-<div class="wp-block-group kw-wrap kw-pouring__grid"><?php echo kura_wine_image( 'K10', 'kw-pouring__big sp-reveal sp-reveal--mask' ); ?>
+<div class="wp-block-group kw-wrap kw-pouring__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-ph kw-ph--k10 kw-pouring__big sp-reveal sp-reveal--mask"} -->
+<figure class="wp-block-image size-full kw-ph kw-ph--k10 kw-pouring__big sp-reveal sp-reveal--mask"><img src="<?php echo esc_url( kura_wine_img( 'K10' ) ); ?>" alt="<?php echo esc_attr( kura_wine_t( 'alt_K10' ) ); ?>"/></figure>
+<!-- /wp:image -->
 
-<?php echo kura_wine_image( 'P2', 'kw-pouring__small sp-reveal sp-reveal--mask' ); ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-ph kw-ph--p2 kw-pouring__small sp-reveal sp-reveal--mask"} -->
+<figure class="wp-block-image size-full kw-ph kw-ph--p2 kw-pouring__small sp-reveal sp-reveal--mask"><img src="<?php echo esc_url( kura_wine_img( 'P2' ) ); ?>" alt="<?php echo esc_attr( kura_wine_t( 'alt_P2' ) ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:group {"className":"kw-pouring__body","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-pouring__body"><!-- wp:paragraph {"className":"kw-label"} -->

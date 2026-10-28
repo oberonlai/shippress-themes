@@ -30,7 +30,9 @@ $rows = array(
 
 <!-- wp:group {"className":"kw-ship<?php echo esc_attr( $r[2] ); ?>","layout":{"type":"default"}} -->
 <div class="wp-block-group kw-ship<?php echo esc_attr( $r[2] ); ?>"><!-- wp:group {"className":"kw-ship__pic","layout":{"type":"default"}} -->
-<div class="wp-block-group kw-ship__pic"><?php echo kura_wine_image( $r[1], 'kw-ship__img sp-reveal sp-reveal--mask' ); ?>
+<div class="wp-block-group kw-ship__pic"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-ph kw-ph--<?php echo esc_attr( strtolower( $r[1] ) ); ?> kw-ship__img sp-reveal sp-reveal--mask"} -->
+<figure class="wp-block-image size-full kw-ph kw-ph--<?php echo esc_attr( strtolower( $r[1] ) ); ?> kw-ship__img sp-reveal sp-reveal--mask"><img src="<?php echo esc_url( kura_wine_img( $r[1] ) ); ?>" alt="<?php echo esc_attr( kura_wine_t( 'alt_' . $r[1] ) ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kw-vt"} -->
 <p class="kw-vt"><?php echo esc_html( kura_wine_t( 'sh' . $r[0] . '_region' ) ); ?></p>

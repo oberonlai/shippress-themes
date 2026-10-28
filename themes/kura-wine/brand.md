@@ -31,7 +31,7 @@ Independent wine merchant and cellar in Rotterdam, Netherlands. Sample content i
 Supporting: region name set vertically (vertical-rl) beside each shipment photograph.
 
 ## Palette
-Ground #282B33 · section field #33363E · text #E2DCD0 · bright #F1ECE3 · muted #94918A · umber (煤竹) #6A5A48 · wine #7A1E22 (seal, focus ring, cart badge only). Radius 0, no shadows, 1px hairlines.
+Ground #282B33 · section field #33363E · text #E2DCD0 · bright #F1ECE3 · muted #94918A · umber (sooty bamboo (kurotake)) #6A5A48 · wine #7A1E22 (seal, focus ring, cart badge only). Radius 0, no shadows, 1px hairlines.
 
 ## Type
 Fraunces (variable, weights 300-500) for headings and body; Karla for utility lines (info bar, labels, meta). Noto Serif TC / JP for zh-TW and ja (stage 2).

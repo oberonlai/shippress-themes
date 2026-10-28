@@ -41,6 +41,8 @@ $rows = array(
 <!-- /wp:column -->
 
 <!-- wp:column {"className":"kw-case__photo"} -->
-<div class="wp-block-column kw-case__photo"><?php echo kura_wine_image( 'K9', 'kw-case__img sp-reveal sp-reveal--mask' ); ?></div>
+<div class="wp-block-column kw-case__photo"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kw-ph kw-ph--k9 kw-case__img sp-reveal sp-reveal--mask"} -->
+<figure class="wp-block-image size-full kw-ph kw-ph--k9 kw-case__img sp-reveal sp-reveal--mask"><img src="<?php echo esc_url( kura_wine_img( 'K9' ) ); ?>" alt="<?php echo esc_attr( kura_wine_t( 'alt_K9' ) ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

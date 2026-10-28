@@ -1,8 +1,8 @@
 # Kura Wine: design spec (stage 1, binding for implementation)
 
-Slug `kura-wine`, independent wine merchant, type **store** (WooCommerce required, checkout must work; theme must still render with WooCommerce off). Row b16-2: archetype editorial-magazine · nav centered · first_screen full-bleed-photo-info-bar · page_structure alternating-longform · font_direction **serif** (Fraunces / Karla, CJK Noto Serif TC / Noto Serif JP 明體) · IMAGERY **photo** (film grain).
+Slug `kura-wine`, independent wine merchant, type **store** (WooCommerce required, checkout must work; theme must still render with WooCommerce off). Row b16-2: archetype editorial-magazine · nav centered · first_screen full-bleed-photo-info-bar · page_structure alternating-longform · font_direction **serif** (Fraunces / Karla, CJK Noto Serif TC / Noto Serif JP Mincho/Ming serif) · IMAGERY **photo** (film grain).
 
-Main reference: **BAN INOUE, https://asa-ban.com/** (S5-Style 生活用品･物販 / ファッション). Measurements: `reference-tokens.md` (token letters (a)–(g) below refer to its sections). Screenshots: `brand/ref/asa-*.png`, `scroll-*.png`. We borrow composition, technique, colour relationships, motion values and the key-visual concept. Photos, copy and logo are our own; no asa-ban images, text, seal or wordmark.
+Main reference: **BAN INOUE, https://asa-ban.com/** (S5-Style lifestyle goods and fashion). Measurements: `reference-tokens.md` (token letters (a)–(g) below refer to its sections). Screenshots: `brand/ref/asa-*.png`, `scroll-*.png`. We borrow composition, technique, colour relationships, motion values and the key-visual concept. Photos, copy and logo are our own; no asa-ban images, text, seal or wordmark.
 
 Fixed brand facts (every page, all five languages): **Kura Wine**, founded **2014**, shop and cellar at **Kelderstraat 9, 3011 KD Rotterdam, Netherlands** (fictional address). Currency **EUR** in every language. Founder and buyer **Ines Varga**. See §7 for all numbers.
 
@@ -29,14 +29,14 @@ Fixed brand facts (every page, all five languages): **Kura Wine**, founded **201
 ### T3. 50/50 split: dark text column with hairline link rows in 2 columns ending in ">" against a full-height 3:4 photo; and its sibling, 2-column hairline info rows over a washed photo band (asa-ban Company `asa-company.png` + Shop info `asa-shop.png`)
 - Reference: Company section is two halves: left 0–728px flat `#33363E`, label "Company" 20px at top-left, then 2 × 2 grid of link rows (each cell ~173px wide at 1000px screenshot, ≈250px at 1440, row height 69–79px, padding-bottom 20px, 1px rule rgba(218,214,206,.2), ">" 6px right); right half 713×941 photo (3:4) bleeding to the top, right and bottom edges. Shop info: full-bleed blurred grey photo washed to `#7C8A91`, label left (cols 1–3), 2-col hairline rows (name 15px + address 13px, ">" at right, rule rgba(55,56,52,.3)), "View more >" right-aligned under the rows.
 - Kura split (home block 5 `kw-case`): `core/columns` alignfull, gap 0, 50/50. Left: flat `#33363E`, padding 120px 60px (desktop), label "The case" (`medium` 20px/500) + catch line + one 70-word paragraph + **2 × 2 hairline link rows** (cells 250px min, row 72px tall, 1px `rgba(218,214,206,.2)` bottom rule, Fraunces 15px text, ">" Karla 13px right-aligned): "01 Arrives sealed", "02 Rests ten days", "03 Tasted by three", "04 Opened on Friday" → each links to `/the-case/#arrives` … `#friday`. Right: photo **K9** 3:4, `object-fit: cover`, fills the column height (min 760px desktop), bleeding to the viewport's right edge, radius 0.
-- Kura info rows (home block 6 `kw-visit`): see block list; ground = blurred photo K11 washed with `#6A5A48` (煤竹) at 82% opacity, rows in `#E2DCD0` on it.
+- Kura info rows (home block 6 `kw-visit`): see block list; ground = blurred photo K11 washed with `#6A5A48` (sooty bamboo (kurotake)) at 82% opacity, rows in `#E2DCD0` on it.
 - Mobile: split stacks: photo first (4:5 crop, full width), then the text column; the 2×2 rows become 1 column. Info rows become 1 column.
 - Must not be diluted: the photo is a true half (50% of viewport, full block height, touching the viewport edge, not a contained card); the rows are hairlines with ">" (not buttons, not cards, no icons, no numbers in circles); the info band is a full-bleed photo wash with dark-on-wash hairline rows, not a plain colour block.
 - Inner pages: T3 split on The Case (mirrored: photo left), Tastings & Club (photo K10 right, rows = the six price items as links to anchors), Visit (photo K11 left, rows = address / hours / delivery / contact), About (photo K4 3:4 right, rows = Ines / Tomas / Ruth / Sam → anchors), Shop archive (rows = 3 shipment filters + "All bottles"). T3 info-row band is the pre-footer on **every** page (shared pattern `kw-visit`).
 
 ### Supporting detail (not counted, but required): vertical title beside a 3:2 photo (asa-ban Service slides, `asa-s1.png`, `scroll-service-3.png`)
 - Reference: 3:2 photo (539×359, ~37% width) with a vertical-rl title (20px/600, ls 6px, `#DAD6CE`) set immediately to the photo's right edge, bottom-aligned with the photo, padding-left 20px.
-- Kura: home block 3 `kw-shipments`, each shipment row; inner Shipments page and Growers page. Text: the region name ("Jura", "Douro", "Burgenland"; zh-TW「侏羅」「斗羅河谷」「布爾根蘭」, ja「ジュラ」「ドウロ」「ブルゲンラント」). `writing-mode: vertical-rl`, Fraunces 500 20px, letter-spacing 6px (Latin) / 0.3em (CJK), bottom-aligned to the photo, 20px gap. Different from Mame's rotated side label: ours is attached to each photo's edge as the photo's own caption, not a page-edge rail beside a header row.
+- Kura: home block 3 `kw-shipments`, each shipment row; inner Shipments page and Growers page. Text: the region name ("Jura", "Douro", "Burgenland"; set in the zh-TW and ja translations). `writing-mode: vertical-rl`, Fraunces 500 20px, letter-spacing 6px (Latin) / 0.3em (CJK), bottom-aligned to the photo, 20px gap. Different from Mame's rotated side label: ours is attached to each photo's edge as the photo's own caption, not a page-edge rail beside a header row.
 - **Desktop only (≥782px).** Below 782px the title is horizontal (`writing-mode: horizontal-tb`) above the photo, 0.875rem ls .12em caps. Never on any first screen.
 
 ### Continuation to inner pages (≥4 required; all listed)
@@ -69,7 +69,7 @@ Fixed brand facts (every page, all five languages): **Kura Wine**, founded **201
 - Same image type: documentary film photographs, muted, grain, cool-green shadows, a dusk magenta sky only in slide 3's window.
 
 ### (3) KV checklist (each built on the first screen; visible at 1440×900 and 390×844)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Which image |
 |---|---|---|---|---|---|
 | 1 | Full-bleed film photo, image scaled ~130% for zoom (e) | Buyer's hand drawing a bottle out of a cellar rack, film grain, dim cellar light, hand + plain bottle sharp right of centre, lower-left third dark and quiet for the H1 | full viewport (100svh), edge to edge | slow zoom: `scale` 1 → 1.10, 10s linear, `alternate infinite` (inner `img`) + `sp-parallax` `--sp-par: 10%` (mobile 6%) on the slide layer | **K1** |
 | 2 | 3-slide fade (g) | Slide 2 opened wooden case in straw with six bottles; slide 3 tasting table by a window at dusk, two glasses, opened bottle | same frame, stacked | cross-fade 15s cycle, 5s interval, 3s fade, `cubic-bezier(.25,1,.5,1)`; each slide zooms as #1 | **K2**, **K3** |
@@ -95,8 +95,8 @@ Implementation notes (KV):
 | Text | `#E2DCD0` | ref `#DAD6CE`, +3% lightness (contrast on `#282B33` 11.6:1) | body, headings, nav | text |
 | Text bright | `#F1ECE3` | ref text +8% (KV only) | KV H1 over photos | text |
 | Muted | `#8C8C8C` → `#94918A` | ref `#8C8C8C` warmed, +3% | footer address, meta, captions (4.9:1 on base) | <1% |
-| Wash / 煤竹 | `#6A5A48` | replaces ref slate wash `#7C8A91` (same role, same ~5–8% share). Reason: row palette 煤竹 is binding, and it is the colour of cork, cask and rack wood — a wine merchant's natural mid-tone; the grey-blue wash would read as a clinic. | T3 info band wash (82% over K11), selected size/filter chips border, quantity input rule | ~8% |
-| Rows on wash | `#E2DCD0` text, rule `rgba(226,220,208,.3)` | ref rows `#373834` on light wash; inverted because 煤竹 is darker than the ref wash (4.6:1) | info rows | — |
+| Wash / sooty bamboo (kurotake) | `#6A5A48` | replaces ref slate wash `#7C8A91` (same role, same ~5–8% share). Reason: row palette sooty bamboo (kurotake) is binding, and it is the colour of cork, cask and rack wood — a wine merchant's natural mid-tone; the grey-blue wash would read as a clinic. | T3 info band wash (82% over K11), selected size/filter chips border, quantity input rule | ~8% |
+| Rows on wash | `#E2DCD0` text, rule `rgba(226,220,208,.3)` | ref rows `#373834` on light wash; inverted because sooty bamboo (kurotake) is darker than the ref wash (4.6:1) | info rows | — |
 | Hairline | `rgba(226,220,208,.2)` | ref `rgba(218,214,206,.2)` | all 1px rules on dark | — |
 | Accent wine | `#7A1E22` | ref accent `#6C030B`–`#8A1B1B` (mid of the range) | seal, focus ring, cart count dot, sale badge, link underline on hover | ≤2% |
 
@@ -107,7 +107,7 @@ Implementation notes (KV):
 ## 3. Type (font_direction **serif**)
 - Latin headings, body, nav, prices: **Fraunces** (variable, opsz + wght; weights 300, 400, 500; italic 400). Reference is serif everywhere (Lusitana), so Fraunces carries body too (opsz auto keeps 15px text tight).
 - Latin utility only (wordmark, info bar, labels in caps, meta, form fields, WooCommerce notices, cart count): **Karla** 400/500.
-- zh-TW: **Noto Serif TC** (明體) headings **and** body; ja: **Noto Serif JP** (明體) headings **and** body. No Noto Sans / 黑體 anywhere.
+- zh-TW: **Noto Serif TC** (Mincho/Ming serif) headings **and** body; ja: **Noto Serif JP** (Mincho/Ming serif) headings **and** body. No Noto Sans / gothic/sans anywhere.
 - theme.json `fontFamilies` with `fontFace` (local woff2 in `assets/fonts/`, including zh-TW and ja subsets made with the Hokuto/Hada method — the CJK subset script is known broken). Editor and front end load the same faces. style.css uses `:lang()` → copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and `require_once` it in functions.php.
   - `serif` (headings + body): `"Fraunces", "Noto Serif TC", "Noto Serif JP", Georgia, "Times New Roman", serif`
   - `utility`: `"Karla", "Noto Serif TC", "Noto Serif JP", system-ui, sans-serif`
@@ -189,7 +189,7 @@ Journal posts (3 = the stories, fixed): 1 "Ten days on the rack: why we wait" (f
 IMAGERY: **photo** (reference is photo-led film documentary). Generate exactly these 18; no others. ★ = used on Home.
 
 STYLE (exact, every prompt):
-`documentary film photograph, 35mm, visible fine film grain, Kodak Portra 160 look slightly faded, muted low-contrast palette of slate grey, umber, cork brown, deep wine and pale cream, cool green-grey shadows, soft dim natural light, small independent wine shop and cellar in a modern international European city, diverse adults, candid unposed moment, shallow depth of field, plain unlabelled bottles or blank cream paper labels, no text, no logos, no printed labels, no signage lettering, no brand marks, no Japanese elements`
+`documentary film photograph, 35mm, visible fine film grain, portrait-film look slightly faded, muted low-contrast palette of slate grey, umber, cork brown, deep wine and pale cream, cool green-grey shadows, soft dim natural light, small independent wine shop and cellar in a modern international European city, diverse adults, candid unposed moment, shallow depth of field, plain unlabelled bottles or blank cream paper labels, no text, no logos, no printed labels, no signage lettering, no brand marks, no Japanese elements`
 
 | ID | Subject / composition | Ratio | Home | Pages (max once per page) |
 |---|---|---|---|---|
@@ -283,7 +283,7 @@ Copy `pipeline/assets/sp-scroll/` unchanged into `assets/`; theme `:root` overri
 
 ## 10. Home acceptance checklist
 1. First screen = K1 edge-to-edge under a transparent 90px header, H1 (2 lines, ≥4.25rem at 1440, Fraunces 300) bottom-left, info bar with 3 items on the bottom edge; nothing else. `?sp-motion`: K1 → K2 → K3 cross-fade every 5s with 3s fades, slow zoom visible; `?sp-static`: K1 only, still.
-2. Saturated share on first screen ≤15% (target ≤10%); colours = §2 (`#282B33` ground, `#33363E` sections, `#E2DCD0` text, 煤竹 `#6A5A48` only as the Visit wash and small rules, wine `#7A1E22` ≤2%).
+2. Saturated share on first screen ≤15% (target ≤10%); colours = §2 (`#282B33` ground, `#33363E` sections, `#E2DCD0` text, sooty bamboo (kurotake) `#6A5A48` only as the Visit wash and small rules, wine `#7A1E22` ≤2%).
 3. T2 scattered About visible: 2:3 left (≈33%), 3:2 right lower (≈23%), text column right of centre ≤500px, empty dark space between.
 4. Three shipment rows alternate sides; each 3:2 photo has its vertical region title on its right edge at 1440 (horizontal at 390).
 5. Pouring block: big 3:4 photo left + 2×2 bottles with prices from §7; links go to real WooCommerce products; add-to-cart → checkout works.
@@ -295,14 +295,14 @@ Copy `pipeline/assets/sp-scroll/` unchanged into `assets/`; theme `:root` overri
 11. auto-gates (`1 1` home mode) pass at en; check-parallax passes (KV + Visit band).
 12. English home ≥300 words, ≥3 narrative paragraphs; numbers equal §7.
 
-## 11. Similarity target (≈80%) — 相似度對照表
-| 維度 | 參考站數值 (token) | 本主題數值 |
+## 11. Similarity target (≈80%) — comparison table
+| Dimension | Reference value (token) | This theme's value |
 |---|---|---|
 | Page ground | `#282B33` ~75–80% (a) | `#282B33` ~62% + `#33363E` 14% = 76% |
 | Section ground | `#33363E` (a) | `#33363E` identical |
 | Text | `#DAD6CE` (a) | `#E2DCD0` (+3% L) |
 | Muted | `#8C8C8C` 13px ls 1.3px (a)(b) | `#94918A` 13px ls 1.3px |
-| Mid wash | `#7C8A91` ~5%, blurred photo (a) | `#6A5A48` 82% over blurred K11, ~8% (row 煤竹; reason §2) |
+| Mid wash | `#7C8A91` ~5%, blurred photo (a) | `#6A5A48` 82% over blurred K11, ~8% (row sooty bamboo (kurotake); reason §2) |
 | Accent | `#6C030B`–`#C8161D`, seal + photo (a) | `#7A1E22`, seal + wine in photos, ≤2% |
 | Hairlines | 1px rgba(218,214,206,.2) (a)(d) | 1px rgba(226,220,208,.2) |
 | First-screen saturation | slide 1 ≈72%, others 1–5% (a) | all slides ≤10% (quality gate) |
