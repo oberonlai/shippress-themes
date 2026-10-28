@@ -77,7 +77,7 @@ return array(
 	'pour_1_k'        => '15 g · 250 g · 93 °C',
 	'pour_1'          => 'We weigh 15 grams of freshly ground coffee for 250 grams of filtered water heated to 93 °C.',
 	'pour_2_k'        => '40 s bloom · three pours',
-	'pour_2'          => 'A 40-second bloom opens the grounds and releases the aromatics, then three steady, concentric pours extract clarity and balance.',
+	'pour_2'          => 'A 40-second bloom opens the grounds and releases the aromatics, then three steady, concentric pours extract clarity and balance from every dose.',
 	'pour_3_k'        => 'Done at 3:00',
 	'pour_3'          => 'The draw-down finishes at three minutes, a vibrant cup that shows the soil, altitude and processing of the farm.',
 	'pour_more'       => 'The bar menu',

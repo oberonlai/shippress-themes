@@ -7,6 +7,7 @@ All names, places, people and figures are fictional.
 - **Name:** Mame Coffee.
 - **Location:** Branderijstraat 12, 9000 Ghent, Belgium (fictional street): a roastery and coffee bar in one room, five minutes' walk from Gent-Dampoort station.
 - **Founded:** 2019, by Ines Duarte (head roaster) and Tomas Varga (green buyer) after years of roasting for others. One 5 kg drum roaster.
+- **Audience:** home brewers and café regulars in Ghent, plus restaurants and offices that buy beans wholesale and want to know exactly where their coffee comes from.
 - **Idea:** buy few green lots (six a year), keep four on the bar at a time, roast on three mornings a week and pour every lot between day 5 and day 28 after roasting.
 - **Hours:** Bar Wed–Sun 8:00–16:00; Monday and Tuesday closed to guests (roasting only). Roasting Monday, Tuesday, Thursday from 6:30; cupping every Thursday 11:00.
 - **Voice:** Calm, specific, and documentary, focusing on practical roastery routines and measured brewing without exaggeration. The language is factual and unhurried, presenting clear origin details and honest workshop craft.

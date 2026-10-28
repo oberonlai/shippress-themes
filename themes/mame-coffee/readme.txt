@@ -80,8 +80,11 @@ assets/images/10-ines.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/11-cupping.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/12-bar.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/13-green.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/13-green.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/14-trip.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/14-trip.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/15-cooling.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/15-cooling.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/16-lena.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/17-cup.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 
