@@ -10,12 +10,12 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"az-hero az-hero--inner","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull az-hero az-hero--inner"><!-- wp:heading {"level":1,"className":"az-h1 az-h1--page"} -->
-<h1 class="wp-block-heading az-h1 az-h1--page">Apply for Invoice <span class="az-accent">Funding</span></h1>
+<h1 class="wp-block-heading az-h1 az-h1--page"><?php echo wp_kses_post( azuke_finance_t( 'kf62269a0' ) ); ?> <span class="az-accent"><?php echo wp_kses_post( azuke_finance_t( 'k682889d0' ) ); ?></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"az-hero__side","layout":{"type":"default"}} -->
 <div class="wp-block-group az-hero__side"><!-- wp:paragraph {"className":"az-lede"} -->
-<p class="az-lede">Submit your business details and upload one completed commercial invoice in approximately three minutes. Our team in Rotterdam reviews submissions within one working day.</p>
+<p class="az-lede"><?php echo wp_kses_post( azuke_finance_t( 'k8e975549' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -41,48 +41,48 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"az-rows","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull az-rows"><!-- wp:group {"className":"az-gap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__text"><!-- wp:paragraph {"className":"az-label"} -->
-<p class="az-label">What to prepare before starting your application</p>
+<p class="az-label"><?php echo wp_kses_post( azuke_finance_t( 'k93d411b1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"az-gap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__col"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">Before beginning our three-minute application, ensure you have three essential items ready: your registered company number, your official business bank account IBAN, and a single completed B2B invoice between €1,000 and €150,000. The invoice must be accompanied by signed proof of fulfillment, such as a customer-signed delivery receipt, freight consignment note, or signed service sign-off sheet. Having these digital documents ready enables our underwriting team to evaluate your submission immediately without unnecessary correspondence or administrative delays.</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'k30cb9ba1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"az-gap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__text"><!-- wp:paragraph {"className":"az-label"} -->
-<p class="az-label">Online application details and submission</p>
+<p class="az-label"><?php echo wp_kses_post( azuke_finance_t( 'k23f2360e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"az-gap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__col"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">Our simple application requires five core pieces of information: company name, registered company number, business email address, direct telephone number, and the exact face value of your commercial invoice. You do not need to upload personal financial statements, multi-year business projections, or balance sheet histories. After entering these details and attaching your invoice and delivery documentation, submit the form for immediate review. There is no application fee and no obligation to proceed until you accept our formal funding offer.</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'k9304542a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"az-gap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__text"><!-- wp:paragraph {"className":"az-label"} -->
-<p class="az-label">Alternative submission methods and underwriting hours</p>
+<p class="az-label"><?php echo wp_kses_post( azuke_finance_t( 'k2276f9a3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"az-gap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__col"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">If you prefer not to submit through our web form, you can send your company registration number, IBAN, and invoice documentation directly to apply@azuke.example. You can also telephone our Rotterdam team directly at +31 10 555 0192. Our office hours are Monday through Friday, 8:30 to 17:30 CET. Priya Raman and our underwriting specialists review every incoming file promptly, ensuring you receive a definitive response and terms offer within one working day of submission.</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'kc043231c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"az-gap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__text"><!-- wp:paragraph {"className":"az-label"} -->
-<p class="az-label">Strict data privacy and European confidentiality</p>
+<p class="az-label"><?php echo wp_kses_post( azuke_finance_t( 'k43041d1a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"az-gap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__col"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">We handle your business and financial data with utmost rigor under European data protection standards. Your company details, client contracts, and bank records are encrypted and utilized solely for underwriting verification, fraud prevention, and invoice settlement. We never sell, trade, or share your proprietary commercial information with external marketing organizations or non-affiliated third parties. You maintain full ownership of your commercial data throughout our engagement. Apply in 3 minutes →</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'k8b475d9d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -91,7 +91,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"az-endcta","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull az-endcta"><!-- wp:buttons {"className":"az-pill-row"} -->
 <div class="wp-block-buttons az-pill-row"><!-- wp:button {"className":"az-pill az-pill--lg"} -->
-<div class="wp-block-button az-pill az-pill--lg"><a class="wp-block-button__link wp-element-button" href="mailto:apply@azuke.example">Email your invoice</a></div>
+<div class="wp-block-button az-pill az-pill--lg"><a class="wp-block-button__link wp-element-button" href="mailto:apply@azuke.example"><?php echo wp_kses_post( azuke_finance_t( 'k237e3407' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group -->

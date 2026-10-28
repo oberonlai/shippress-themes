@@ -10,12 +10,12 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"az-hero az-hero--inner","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull az-hero az-hero--inner"><!-- wp:heading {"level":1,"className":"az-h1 az-h1--page"} -->
-<h1 class="wp-block-heading az-h1 az-h1--page">Supplier <span class="az-accent">Stories</span></h1>
+<h1 class="wp-block-heading az-h1 az-h1--page"><?php echo wp_kses_post( azuke_finance_t( 'kec136b44' ) ); ?> <span class="az-accent"><?php echo wp_kses_post( azuke_finance_t( 'kcbb37401' ) ); ?></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"az-hero__side","layout":{"type":"default"}} -->
 <div class="wp-block-group az-hero__side"><!-- wp:paragraph {"className":"az-lede"} -->
-<p class="az-lede">Read how independent European suppliers use Azuke Finance to overcome thirty to sixty day payment terms and maintain operational momentum. These accounts illustrate how real businesses fund materials and payroll without waiting for corporate settlement.</p>
+<p class="az-lede"><?php echo wp_kses_post( azuke_finance_t( 'ka564e2a2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -121,48 +121,48 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"az-rows","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull az-rows"><!-- wp:group {"className":"az-gap__text","layout":{"type":"default"},"anchor":"story-1"} -->
 <div id="story-1" class="wp-block-group az-gap__text"><!-- wp:paragraph {"className":"az-label"} -->
-<p class="az-label">Maren Holt · Holt Paper Goods in Antwerp</p>
+<p class="az-label"><?php echo wp_kses_post( azuke_finance_t( 'k56752403' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"az-gap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__col"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">Maren Holt operates Holt Paper Goods, a sustainable packaging workshop based in Antwerp. When a regional retail chain placed an €8,600 packaging order on standard 45-day payment terms, Maren needed immediate liquidity to order fresh reels of recycled board for her next scheduled production run. Waiting six weeks for payment would have forced her to pause workshop machinery. By submitting the delivery note to Azuke Finance, Maren received a 90% cash advance the next working day, paying for her raw materials the very same week and keeping production running without interruption.</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'k1e3c5956' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"az-gap__text","layout":{"type":"default"},"anchor":"story-2"} -->
 <div id="story-2" class="wp-block-group az-gap__text"><!-- wp:paragraph {"className":"az-label"} -->
-<p class="az-label">Felipe Duarte · Duarte Bakehouse in Lyon</p>
+<p class="az-label"><?php echo wp_kses_post( azuke_finance_t( 'k06e02b05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"az-gap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__col"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">Felipe Duarte runs Duarte Bakehouse, an artisanal wholesale bakery in Lyon supplying hospitality venues across the region. When landing a major contract with a hotel group, Felipe issued a €3,200 invoice with 30-day payment terms. Facing a surge in holiday pastry orders, he required immediate working capital to purchase bulk flour, dairy, and seasonal ingredients. Azuke Finance funded 90% of the invoice value within twenty-four hours of verification, allowing Felipe to cover essential ingredient purchases for the holiday run without depleting his operating reserves.</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'k99193498' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"az-gap__text","layout":{"type":"default"},"anchor":"story-3"} -->
 <div id="story-3" class="wp-block-group az-gap__text"><!-- wp:paragraph {"className":"az-label"} -->
-<p class="az-label">Sun-hee Park · Park Print Studio in Cologne</p>
+<p class="az-label"><?php echo wp_kses_post( azuke_finance_t( 'kd95b665a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"az-gap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__col"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">Sun-hee Park directs Park Print Studio, a specialist textile printing workshop in Cologne. After completing a custom fabric printing commission for a major event agency, she billed an invoice of €21,000 on 60-day terms. Sun-hee relied on two freelance screen printers who required prompt payment upon project completion. Rather than carrying the payroll deficit for two months, Sun-hee uploaded the invoice and signed completion certificate to Azuke Finance. The advance arrived the following working day, enabling her to compensate both freelancers promptly and maintain loyal studio partnerships.</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'ka0568977' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"az-gap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__text"><!-- wp:paragraph {"className":"az-label"} -->
-<p class="az-label">Predictable financing for independent businesses</p>
+<p class="az-label"><?php echo wp_kses_post( azuke_finance_t( 'k258d203b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"az-gap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group az-gap__col"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">These illustrative cases reflect the practical working reality small European suppliers face every week. When you deliver high-quality goods and services, waiting months for trade settlement should never jeopardize your daily operations. Azuke Finance provides reliable working capital against verified invoices between €1,000 and €150,000, giving independent business owners the clarity and financial stability needed to grow sustainably. Apply in 3 minutes →</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'k3d9c4e94' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -170,14 +170,14 @@
 
 <!-- wp:group {"tagName":"section","align":"full","className":"az-journal","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull az-journal"><!-- wp:paragraph {"className":"az-link"} -->
-<p class="az-link"><a href="/closing-the-thirty-day-cash-gap/">From the journal: Closing the Thirty-Day Cash Gap: How European Small Suppliers Protect Working Capital →</a></p>
+<p class="az-link"><a href="/closing-the-thirty-day-cash-gap/"><?php echo wp_kses_post( azuke_finance_t( 'ka2678e60' ) ); ?></a></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"az-endcta","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull az-endcta"><!-- wp:buttons {"className":"az-pill-row"} -->
 <div class="wp-block-buttons az-pill-row"><!-- wp:button {"className":"az-pill az-pill--lg"} -->
-<div class="wp-block-button az-pill az-pill--lg"><a class="wp-block-button__link wp-element-button" href="/apply/">Apply · 3 min</a></div>
+<div class="wp-block-button az-pill az-pill--lg"><a class="wp-block-button__link wp-element-button" href="/apply/"><?php echo wp_kses_post( azuke_finance_t( 'k2aaa6a4a' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group -->

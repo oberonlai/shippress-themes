@@ -10,12 +10,12 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"az-hero az-hero--inner","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull az-hero az-hero--inner"><!-- wp:heading {"level":1,"className":"az-h1 az-h1--page"} -->
-<h1 class="wp-block-heading az-h1 az-h1--page">How It <span class="az-accent">Works</span></h1>
+<h1 class="wp-block-heading az-h1 az-h1--page"><?php echo wp_kses_post( azuke_finance_t( 'k637fce46' ) ); ?> <span class="az-accent"><?php echo wp_kses_post( azuke_finance_t( 'k7b8af977' ) ); ?></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"az-hero__side","layout":{"type":"default"}} -->
 <div class="wp-block-group az-hero__side"><!-- wp:paragraph {"className":"az-lede"} -->
-<p class="az-lede">We fund individual commercial invoices so European suppliers do not have to wait thirty to sixty days for customer payments. Here is how our four-stage funding process moves from your initial submission to final settlement.</p>
+<p class="az-lede"><?php echo wp_kses_post( azuke_finance_t( 'kbfe72508' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -41,13 +41,13 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"az-chapters az-chapters--inner","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull az-chapters az-chapters--inner"><!-- wp:group {"className":"az-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group az-panel"><!-- wp:html -->
-<ol class="az-list"><li><a href="#chapter-1">Apply online in three minutes</a></li><li><a href="#chapter-2">Upload one invoice with proof of delivery</a></li><li><a href="#chapter-3">Invoice confirmation with your customer</a></li><li><a href="#chapter-4">Receive ninety percent the next working day</a></li></ol>
+<ol class="az-list"><li><a href="#chapter-1"><?php echo wp_kses_post( azuke_finance_t( 'k692b45ad' ) ); ?></a></li><li><a href="#chapter-2"><?php echo wp_kses_post( azuke_finance_t( 'k55cf5ac9' ) ); ?></a></li><li><a href="#chapter-3"><?php echo wp_kses_post( azuke_finance_t( 'k8fee3ff7' ) ); ?></a></li><li><a href="#chapter-4"><?php echo wp_kses_post( azuke_finance_t( 'k1699d4f2' ) ); ?></a></li></ol>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"az-chcol","layout":{"type":"default"}} -->
 <div class="wp-block-group az-chcol"><!-- wp:heading {"level":2,"className":"az-sr"} -->
-<h2 class="wp-block-heading az-sr">How It Works</h2>
+<h2 class="wp-block-heading az-sr"><?php echo wp_kses_post( azuke_finance_t( 'kaabda4ec' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"az-ch az-ch-1","layout":{"type":"default"},"anchor":"chapter-1"} -->
@@ -60,7 +60,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"az-title az-title--ch sp-reveal sp-reveal--mask"} -->
-<h2 class="wp-block-heading az-title az-title--ch sp-reveal sp-reveal--mask">Apply online in three minutes</h2>
+<h2 class="wp-block-heading az-title az-title--ch sp-reveal sp-reveal--mask"><?php echo wp_kses_post( azuke_finance_t( 'k692b45ad' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"az-rule is-style-wide"} -->
@@ -71,7 +71,7 @@
 <div class="wp-block-group az-ch__body"><!-- wp:group {"className":"az-ch__row az-ch__row--solo sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group az-ch__row az-ch__row--solo sp-reveal sp-reveal--up"><!-- wp:group {"className":"az-ch__text","layout":{"type":"default"}} -->
 <div class="wp-block-group az-ch__text"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">Submitting an application takes approximately three minutes through our online portal. You only need your registered company number, your business bank account IBAN, and primary contact details. We do not ask for extensive historical business forecasts, personal director debentures, or lengthy administrative disclosures. There is no account setup fee, no recurring monthly subscription, and no ongoing volume commitment required to maintain an active profile. Once your basic business details are entered, your account profile is established, and you can immediately proceed to submit your first invoice for funding consideration.</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'k543fca97' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -88,7 +88,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"az-title az-title--ch sp-reveal sp-reveal--mask"} -->
-<h2 class="wp-block-heading az-title az-title--ch sp-reveal sp-reveal--mask">Upload one invoice with proof of delivery</h2>
+<h2 class="wp-block-heading az-title az-title--ch sp-reveal sp-reveal--mask"><?php echo wp_kses_post( azuke_finance_t( 'k55cf5ac9' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"az-rule is-style-wide"} -->
@@ -99,7 +99,7 @@
 <div class="wp-block-group az-ch__body"><!-- wp:group {"className":"az-ch__row az-ch__row--solo sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group az-ch__row az-ch__row--solo sp-reveal sp-reveal--up"><!-- wp:group {"className":"az-ch__text","layout":{"type":"default"}} -->
 <div class="wp-block-group az-ch__text"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">Select a completed commercial invoice issued to an EU-based business customer with a value between €1,000 and €150,000. Upload a clear digital copy of the invoice alongside its corresponding proof of fulfillment, such as a signed delivery note, a confirmed bill of lading, or a counter-signed work completion certificate. Our underwriting team relies on evidence that goods have been received or services completed rather than relying solely on your balance sheet history. You decide exactly which invoices to fund, with complete control over your cash flow.</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'k6607ba4a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -116,7 +116,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"az-title az-title--ch sp-reveal sp-reveal--mask"} -->
-<h2 class="wp-block-heading az-title az-title--ch sp-reveal sp-reveal--mask">Invoice confirmation with your customer</h2>
+<h2 class="wp-block-heading az-title az-title--ch sp-reveal sp-reveal--mask"><?php echo wp_kses_post( azuke_finance_t( 'k8fee3ff7' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"az-rule is-style-wide"} -->
@@ -127,7 +127,7 @@
 <div class="wp-block-group az-ch__body"><!-- wp:group {"className":"az-ch__row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group az-ch__row sp-reveal sp-reveal--up"><!-- wp:group {"className":"az-ch__text","layout":{"type":"default"}} -->
 <div class="wp-block-group az-ch__text"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">Within one working day, our team contacts your customer by email to verify the invoice value and confirmed payment terms. Your customer receives a straightforward, polite notification verifying that the goods or services were satisfactorily delivered and noting the payment account details for invoice settlement. We maintain professional, respectful communications so your valuable trade relationships remain completely undisturbed. Most corporate accounts payable departments are familiar with standard assignment verifications, allowing the confirmation process to complete smoothly and without unnecessary friction or operational delays.</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'k386d0923' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -150,7 +150,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"az-title az-title--ch sp-reveal sp-reveal--mask"} -->
-<h2 class="wp-block-heading az-title az-title--ch sp-reveal sp-reveal--mask">Receive ninety percent the next working day</h2>
+<h2 class="wp-block-heading az-title az-title--ch sp-reveal sp-reveal--mask"><?php echo wp_kses_post( azuke_finance_t( 'k1699d4f2' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"az-rule is-style-wide"} -->
@@ -161,7 +161,7 @@
 <div class="wp-block-group az-ch__body"><!-- wp:group {"className":"az-ch__row az-ch__row--solo sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group az-ch__row az-ch__row--solo sp-reveal sp-reveal--up"><!-- wp:group {"className":"az-ch__text","layout":{"type":"default"}} -->
 <div class="wp-block-group az-ch__text"><!-- wp:paragraph {"className":"az-body"} -->
-<p class="az-body">Upon confirmation, we transfer ninety percent of the invoice value directly to your business IBAN on the next working day. If approved before 13:00 CET, you can select our optional same-day payout for €25. When your customer pays the invoice on their agreed terms, we remit the remaining ten percent balance to you, deducting our 1.4 percent funding fee for the first thirty days. Apply in 3 minutes →</p>
+<p class="az-body"><?php echo wp_kses_post( azuke_finance_t( 'k0f333165' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -173,7 +173,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"az-endcta","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull az-endcta"><!-- wp:buttons {"className":"az-pill-row"} -->
 <div class="wp-block-buttons az-pill-row"><!-- wp:button {"className":"az-pill az-pill--lg"} -->
-<div class="wp-block-button az-pill az-pill--lg"><a class="wp-block-button__link wp-element-button" href="/apply/">Apply · 3 min</a></div>
+<div class="wp-block-button az-pill az-pill--lg"><a class="wp-block-button__link wp-element-button" href="/apply/"><?php echo wp_kses_post( azuke_finance_t( 'k2aaa6a4a' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group -->
