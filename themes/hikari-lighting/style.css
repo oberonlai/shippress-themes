@@ -73,8 +73,8 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* KV */
 .hl-kv { position: relative; min-height: clamp(640px, 100svh, 1000px) !important; padding: 0 !important; color: var(--hl-ground); align-items: stretch; background: var(--hl-curtain); }
-.hl-kv .wp-block-cover__image-background { object-position: 72% 50%; }
-.hl-kv .wp-block-cover__inner-container { width: 100%; max-width: none; padding: 0; margin: 0; display: flex; flex-direction: column; min-height: clamp(640px, 100svh, 1000px); position: relative; z-index: 3; box-sizing: border-box; }
+.hl-kv .wp-block-cover__image-background { object-position: 0% 50%; }
+.hl-kv .wp-block-cover__inner-container { width: 100%; min-width: 0; max-width: 100%; overflow: clip; padding: 0; margin: 0; display: flex; flex-direction: column; min-height: clamp(640px, 100svh, 1000px); position: relative; z-index: 3; box-sizing: border-box; }
 .hl-kv .wp-block-cover__inner-container > .wp-block-html { margin: 0; }
 .hl-kv__scrim, .hl-kv__curtain { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
 .hl-kv__scrim { background: linear-gradient(90deg, rgba(26,21,18,.62) 0%, rgba(26,21,18,.38) 55%, rgba(26,21,18,0) 78%); }
@@ -87,7 +87,9 @@ img { display: block; max-width: 100%; height: auto; }
 .hl-kv__one { font: 400 .875rem/1.5 var(--hl-body); color: rgba(242,242,242,.78); margin: 8px 0 0 var(--hl-gut); }
 
 /* marquee line (sp-marquee from sp-scroll.css; speed set here) */
-.hl-marq { overflow: clip; width: 100%; max-width: none; }
+.hl-marq { overflow: clip; width: 100%; max-width: 100%; min-width: 0; }
+.hl-marq__run[aria-hidden="true"] { display: none; }
+@media (prefers-reduced-motion: no-preference) { html:not(.sp-no-motion) .hl-marq__run[aria-hidden="true"] { display: block; } }
 .hl-marq__run { white-space: nowrap; padding-right: 2rem; box-sizing: border-box; }
 .hl-marq p { font: 200 5rem/1 var(--hl-heading); text-transform: uppercase; letter-spacing: .02em; margin: 0; white-space: nowrap; color: rgba(255,255,255,.92); }
 html:not(.sp-no-motion) .hl-marq.sp-marquee > * { animation-duration: 40s; }
@@ -112,8 +114,8 @@ html:not(.sp-no-motion) .hl-marq.sp-marquee > * { animation-duration: 40s; }
 .hl-intro__l { grid-column: 1 / 5; }
 .hl-intro__r { grid-column: 6 / 12; }
 .hl-makers { margin-top: 140px; }
-.hl-makers__list { list-style: none; margin: 0; padding: 0; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px 32px; }
-.hl-makers__list li { font: 500 1.25rem/1.2 var(--hl-heading); text-transform: uppercase; color: rgba(14,14,14,.7); }
+.hl-makers__list { list-style: none; margin: 0; padding: 0; display: flex; justify-content: space-between; flex-wrap: nowrap; gap: 16px 24px; }
+.hl-makers__list li { font: 500 clamp(.8rem, 1.25vw, 1.25rem)/1.2 var(--hl-heading); text-transform: uppercase; color: rgba(14,14,14,.7); }
 :lang(zh-TW) .hl-makers__list li, :lang(ja) .hl-makers__list li { text-transform: none; }
 
 /* room box */
@@ -205,7 +207,7 @@ html:not(.sp-no-motion) .hl-marq.sp-marquee > * { animation-duration: 40s; }
 	.hl-bar { gap: 16px; }
 	.hl-bar__mark { width: 100px; height: auto; }
 	.hl-nav { display: flex; justify-content: flex-end; }
-	.hl-kv .wp-block-cover__image-background { object-position: 78% 50%; }
+	.hl-kv .wp-block-cover__image-background { object-position: 90% 50%; }
 	.hl-kv__mark { width: calc(100vw - 48px); margin-top: clamp(96px, 22vh, 190px); }
 	.hl-kv__capline { width: calc(100vw - 48px); flex-direction: column; gap: 8px; margin-top: 24px; }
 	.hl-kv__h1 { font-size: 1rem !important; max-width: calc(100vw - 48px); margin-top: 20px !important; }
@@ -224,6 +226,7 @@ html:not(.sp-no-motion) .hl-marq.sp-marquee > * { animation-duration: 40s; }
 	.hl-intro__l { margin-bottom: 32px; }
 	.hl-makers { margin-top: 72px; }
 	.hl-makers__list { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+	.hl-makers__list li { white-space: normal; }
 	.hl-makers__list li { font-size: 1rem; }
 	.hl-roombox { padding: 600px 0 96px; margin-top: 96px; }
 	.hl-roombox::before, .hl-roombox::after { height: 560px; }
