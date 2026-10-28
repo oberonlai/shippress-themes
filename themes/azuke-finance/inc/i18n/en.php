@@ -1,6 +1,13 @@
 <?php
 /** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
+	'f_head' => 'Application details',
+	'f_company' => 'Company name',
+	'f_reg' => 'Company registration number',
+	'f_email' => 'Business email',
+	'f_phone' => 'Phone',
+	'f_amount' => 'Invoice amount (EUR)',
+	'f_upload' => 'Attach the invoice and signed delivery note',
 	'a_hours' => 'Mon–Fri 8:30–17:30 CET',
 	'a_l1' => 'Your company registration number',
 	'a_l2' => 'Your business IBAN',

@@ -25,7 +25,7 @@
 <div class="wp-block-group az-mosaic__stage sp-parallax"><!-- wp:group {"className":"az-mosaic__grid sp-parallax__layer","layout":{"type":"default"}} -->
 <div class="wp-block-group az-mosaic__grid sp-parallax__layer"><!-- wp:group {"className":"az-mosaic__row az-mosaic__row--1","layout":{"type":"default"}} -->
 <div class="wp-block-group az-mosaic__row az-mosaic__row--1"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"az-tile az-tile--lg"} -->
-<figure class="wp-block-image size-full az-tile az-tile--lg"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h01.webp' ) ); ?>" alt="<?php echo esc_attr( azuke_finance_t( 'alt_h01' ) ); ?>"/></figure>
+<figure class="wp-block-image size-full az-tile az-tile--lg"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h04.webp' ) ); ?>" alt="<?php echo esc_attr( azuke_finance_t( 'alt_h04' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"az-tile az-tile--sm"} -->
@@ -36,6 +36,44 @@
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"az-form","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull az-form"><!-- wp:paragraph {"className":"az-label"} -->
+<p class="az-label"><?php echo esc_html( azuke_finance_t( 'f_head' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"az-form__list","layout":{"type":"default"}} -->
+<div class="wp-block-group az-form__list"><!-- wp:paragraph {"className":"az-form__row"} -->
+<p class="az-form__row"><?php echo esc_html( azuke_finance_t( 'f_company' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"az-form__row"} -->
+<p class="az-form__row"><?php echo esc_html( azuke_finance_t( 'f_reg' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"az-form__row"} -->
+<p class="az-form__row"><?php echo esc_html( azuke_finance_t( 'f_email' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"az-form__row"} -->
+<p class="az-form__row"><?php echo esc_html( azuke_finance_t( 'f_phone' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"az-form__row"} -->
+<p class="az-form__row"><?php echo esc_html( azuke_finance_t( 'f_amount' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"az-form__row"} -->
+<p class="az-form__row"><?php echo esc_html( azuke_finance_t( 'f_upload' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"className":"az-pill-row"} -->
+<div class="wp-block-buttons az-pill-row"><!-- wp:button {"className":"az-pill az-pill--lg"} -->
+<div class="wp-block-button az-pill az-pill--lg"><a class="wp-block-button__link wp-element-button" href="mailto:apply@azuke.example"><?php echo esc_html( azuke_finance_t( 'cta' ) ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"az-rows","layout":{"type":"default"}} -->

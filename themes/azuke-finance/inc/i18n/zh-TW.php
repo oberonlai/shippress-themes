@@ -1,6 +1,13 @@
 <?php
 /** zh-TW strings of the theme's patterns (keys are hashes of the English text). */
 return array(
+	'f_head' => '申請資料',
+	'f_company' => '公司名稱',
+	'f_reg' => '公司登記編號',
+	'f_email' => '公司電子郵件',
+	'f_phone' => '電話',
+	'f_amount' => '發票金額（EUR）',
+	'f_upload' => '附上發票與簽收的送貨單',
 	'a_hours' => '週一至週五 8:30–17:30 CET',
 	'a_l1' => '公司登記編號',
 	'a_l2' => '公司 IBAN',

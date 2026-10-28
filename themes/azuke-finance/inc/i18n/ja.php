@@ -1,6 +1,13 @@
 <?php
 /** ja strings of the theme's patterns (keys are hashes of the English text). */
 return array(
+	'f_head' => '申し込み内容',
+	'f_company' => '会社名',
+	'f_reg' => '会社の登記番号',
+	'f_email' => 'ビジネス用メールアドレス',
+	'f_phone' => '電話番号',
+	'f_amount' => '請求書の金額（EUR）',
+	'f_upload' => '請求書と署名入りの納品書を添付',
 	'a_hours' => '月〜金 8:30–17:30 CET',
 	'a_l1' => '会社の登記番号',
 	'a_l2' => '事業用の IBAN',

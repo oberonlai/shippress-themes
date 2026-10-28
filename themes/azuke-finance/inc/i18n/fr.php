@@ -1,6 +1,13 @@
 <?php
 /** fr strings of the theme's patterns (keys are hashes of the English text). */
 return array(
+	'f_head' => 'Détails de la demande',
+	'f_company' => 'Nom de la société',
+	'f_reg' => 'Numéro d\'immatriculation',
+	'f_email' => 'E-mail professionnel',
+	'f_phone' => 'Téléphone',
+	'f_amount' => 'Montant de la facture (EUR)',
+	'f_upload' => 'Joindre la facture et le bon de livraison signé',
 	'a_hours' => 'Lun–ven 8 h 30–17 h 30 CET',
 	'a_l1' => 'Le numéro d\'immatriculation de votre société',
 	'a_l2' => 'L\'IBAN de votre entreprise',

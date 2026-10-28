@@ -1,6 +1,13 @@
 <?php
 /** de strings of the theme's patterns (keys are hashes of the English text). */
 return array(
+	'f_head' => 'Angaben zum Antrag',
+	'f_company' => 'Firmenname',
+	'f_reg' => 'Handelsregisternummer',
+	'f_email' => 'Geschäftliche E-Mail',
+	'f_phone' => 'Telefon',
+	'f_amount' => 'Rechnungsbetrag (EUR)',
+	'f_upload' => 'Rechnung und unterschriebenen Lieferschein anhängen',
 	'a_hours' => 'Mo–Fr 8:30–17:30 CET',
 	'a_l1' => 'Ihre Handelsregisternummer',
 	'a_l2' => 'Ihre Geschäfts-IBAN',
