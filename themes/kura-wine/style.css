@@ -39,6 +39,15 @@ a { text-underline-offset: .25em; text-decoration-thickness: 1px; }
 .kw-main a:focus-visible, .kw-foot a:focus-visible { outline-color: var(--kw-text); }
 :lang(fr), :lang(de) { hyphens: auto; }
 
+/* Languages: zh-TW / ja use the bundled Noto Serif subset (CJK glyphs only; Latin and figures stay in Fraunces / Karla) */
+:root:lang(zh) { --wp--preset--font-family--serif: "Fraunces", "Noto Serif TC", "Noto Serif CJK TC", serif; --wp--preset--font-family--utility: "Karla", "Noto Serif TC", "Noto Serif CJK TC", serif; }
+:root:lang(ja) { --wp--preset--font-family--serif: "Fraunces", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; --wp--preset--font-family--utility: "Karla", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif; }
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: .04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:lang(ja) :is(h1, h2, h3) { word-break: auto-phrase; }
+:root:lang(zh), :root:lang(ja) { --wp--preset--font-size--xx-large: clamp(1.9rem, 3.9vw, 3.375rem); --wp--preset--font-size--x-large: 2.0625rem; --wp--preset--font-size--large: 1.3125rem; --wp--preset--font-size--medium: 1.0625rem; }
+
 /* ---------- shared pieces ---------- */
 .kw-sec { padding: 112px var(--kw-pad) 96px; }
 @media (min-width: 782px) { .kw-sec { padding-top: 160px; padding-bottom: 160px; } }
