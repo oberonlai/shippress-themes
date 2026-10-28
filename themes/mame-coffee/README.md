@@ -34,3 +34,32 @@ Each page opens with the smaller framed window (`mc_pagehead()`: backdrop photog
 ## Files
 
 `theme.json`, `style.css`, `functions.php`, `parts/` (header, footer), `templates/`, `patterns/` (`front-*` home sections, `page-*` inner pages, `journal-*`), `inc/` (demo import, strings, helpers), `demo-content.json`, `brand/` (reference notes and design spec).
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mame Coffee home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mame Coffee home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Lots: [desktop](screenshots/lots-desktop.webp) · [mobile](screenshots/lots-mobile.webp)
+- Bar: [desktop](screenshots/bar-desktop.webp) · [mobile](screenshots/bar-mobile.webp)
+- Roastery: [desktop](screenshots/roastery-desktop.webp) · [mobile](screenshots/roastery-mobile.webp)
+- Origins: [desktop](screenshots/origins-desktop.webp) · [mobile](screenshots/origins-mobile.webp)
+- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
+- Cupping: [desktop](screenshots/cupping-desktop.webp) · [mobile](screenshots/cupping-mobile.webp)
+- Wholesale: [desktop](screenshots/wholesale-desktop.webp) · [mobile](screenshots/wholesale-mobile.webp)
+- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
+- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
