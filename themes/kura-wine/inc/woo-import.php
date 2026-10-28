@@ -204,6 +204,12 @@ if ( ! class_exists( 'Kura_Wine_Woo_Import' ) ) {
 					}
 					$bump( true );
 				}
+				// Prices are euros everywhere (home copy, brand.md §7): no cents, symbol first.
+				update_option( 'woocommerce_currency', 'EUR' );
+				update_option( 'woocommerce_currency_pos', 'left' );
+				update_option( 'woocommerce_price_num_decimals', '0' );
+				update_option( 'woocommerce_price_thousand_sep', ',' );
+				update_option( 'woocommerce_price_decimal_sep', '.' );
 				update_option( self::OPTION, array( 'imported' => time(), 'counts' => $counts ), false );
 			} finally {
 				self::$running = false;
