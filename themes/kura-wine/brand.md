@@ -35,3 +35,6 @@ Ground #282B33 · section field #33363E · text #E2DCD0 · bright #F1ECE3 · mut
 
 ## Type
 Fraunces (variable, weights 300-500) for headings and body; Karla for utility lines (info bar, labels, meta). Noto Serif TC / JP for zh-TW and ja (stage 2).
+
+## Journal
+- Journal page lists posts. One article: "Ten Days on the Rack: Why We Wait" (9 Oct 2026), on why every shipment rests ten days at 13 °C before a cork is drawn; ends on the Friday 18:00 case opening (twelve seats, five wines, €22).
