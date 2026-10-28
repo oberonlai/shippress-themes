@@ -381,14 +381,15 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/yamabiko-outdoor-supply"><img src="themes/yamabiko-outdoor-supply/screenshots/home-desktop.webp" width="260" alt="Yamabiko Outdoor Supply"></a><br><a href="themes/yamabiko-outdoor-supply">Yamabiko Outdoor Supply</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="themes/yohaku-studio/screenshots/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yoru-chocolate"><img src="themes/yoru-chocolate/screenshots/home-desktop.webp" width="260" alt="Yoru Chocolate"></a><br><a href="themes/yoru-chocolate">Yoru Chocolate</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/yoru-bar"><img src="themes/yoru-bar/screenshots/home-desktop.webp" width="260" alt="Yoru Bar"></a><br><a href="themes/yoru-bar">Yoru Bar</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yoru-chocolate"><img src="themes/yoru-chocolate/screenshots/home-desktop.webp" width="260" alt="Yoru Chocolate"></a><br><a href="themes/yoru-chocolate">Yoru Chocolate</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yose-rakugo"><img src="themes/yose-rakugo/screenshots/home-desktop.webp" width="260" alt="Yose Rakugo"></a><br><a href="themes/yose-rakugo">Yose Rakugo</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuge-sento"><img src="themes/yuge-sento/screenshots/home-desktop.webp" width="260" alt="Yuge Sento"></a><br><a href="themes/yuge-sento">Yuge Sento</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yui-credit-union"><img src="themes/yui-credit-union/screenshots/home-desktop.webp" width="260" alt="Yui Credit Union"></a><br><a href="themes/yui-credit-union">Yui Credit Union</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yui-credit-union"><img src="themes/yui-credit-union/screenshots/home-desktop.webp" width="260" alt="Yui Credit Union"></a><br><a href="themes/yui-credit-union">Yui Credit Union</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="themes/yukimi-kakigori/screenshots/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="themes/yuzu-chaya/screenshots/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
