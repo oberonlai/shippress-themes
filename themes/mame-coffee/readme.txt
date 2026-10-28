@@ -76,7 +76,6 @@ assets/images/05-lot-altorocio.webp: AI-generated for this theme, GPL-2.0-or-lat
 assets/images/06-lot-harabura.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/07-lot-mirador.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/08-pour.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
-assets/images/09-roastroom.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/10-ines.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/11-cupping.webp: AI-generated for this theme, GPL-2.0-or-later / CC0
 assets/images/12-bar.webp: AI-generated for this theme, GPL-2.0-or-later / CC0

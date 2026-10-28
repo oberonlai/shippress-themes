@@ -12,7 +12,7 @@ echo mc_open( 'mc-sec mc-people', 'section', 'full' ) . "\n" . mc_open( 'mc-wrap
 echo mc_p( 'mc-side', $t( 'ppl_label' ) ) . "\n\n";
 echo mc_open( 'mc-side-main' ) . "\n";
 echo mc_open( 'mc-grid mc-grid--3 sp-stagger' ) . "\n";
-echo mc_open( 'mc-card mc-card--wide sp-reveal sp-reveal--up' ) . "\n" . mc_rule() . "\n\n" . mc_title_row( $t( 'ppl_wide_title' ), '/roastery/' ) . "\n\n" . mc_p( 'mc-card__line', $t( 'ppl_wide_line' ) ) . "\n\n" . mc_panel( '09-roastroom.webp', $t( 'ppl_wide_alt' ), '', 'mc-panel--wide' ) . "\n" . mc_close() . "\n\n";
+echo mc_open( 'mc-card mc-card--wide sp-reveal sp-reveal--up' ) . "\n" . mc_rule() . "\n\n" . mc_title_row( $t( 'ppl_wide_title' ), '/roastery/' ) . "\n\n" . mc_p( 'mc-card__line', $t( 'ppl_wide_line' ) ) . "\n\n" . mc_panel( '11-cupping.webp', $t( 'ppl_wide_alt' ), '', 'mc-panel--wide' ) . "\n" . mc_close() . "\n\n";
 echo mc_open( 'mc-card sp-reveal sp-reveal--up' ) . "\n" . mc_rule() . "\n\n" . mc_title_row( $t( 'ppl_narrow_title' ), '/people/' ) . "\n\n" . mc_p( 'mc-card__line', $t( 'ppl_narrow_line' ) ) . "\n\n" . mc_panel( '10-ines.webp', $t( 'ppl_narrow_alt' ) ) . "\n" . mc_close() . "\n";
 echo mc_close() . "\n\n";
 echo mc_p( 'mc-para', $t( 'ppl_wide_text' ) ) . "\n\n";

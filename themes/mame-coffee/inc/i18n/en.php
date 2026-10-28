@@ -83,9 +83,9 @@ return array(
 
 	// patterns/front-people.php
 	'ppl_label'       => 'PEOPLE | WHO ROASTS',
-	'ppl_wide_title'  => 'ON BY 6:30, THREE MORNINGS A WEEK',
-	'ppl_wide_line'   => 'ROASTERY | 5 KG DRUM',
-	'ppl_wide_alt'    => 'Roaster checking a sample of roasted coffee beans from the trier near drum roaster.',
+	'ppl_wide_title'  => 'THURSDAY AT 11:00, WE CUP THE WEEK',
+	'ppl_wide_line'   => 'ROASTERY | CUPPING TABLE',
+	'ppl_wide_alt'    => 'Five people leaning over a long wooden cupping table, smelling rows of small white bowls of coffee.',
 	'ppl_wide_text'   => 'Our roastery starts early three mornings a week. Ines Duarte, Amara Okoye and Tomas Varga take turns on the five-kilogram drum roaster, keeping batches small so every profile stays exact. Every Thursday at 11:00, Mei Lin Ho cups all the roasts of the week and decides which bags move to the bar shelves, and which go back for another look.',
 	'ppl_narrow_title' => 'INES DUARTE',
 	'ppl_narrow_line' => 'HEAD ROASTER · CO-FOUNDER',
