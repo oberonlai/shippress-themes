@@ -1,120 +1,153 @@
 {
- "_comment": "Sample content for the demo import (inc/demo-import.php) and the catalogue screenshots, in en. Pages hold block markup; <!-- wp:pattern {\"slug\":\"...\"} /--> is expanded into the pattern on import. Stage 1 ships the home page; the inner pages are short placeholders until stage 2.",
- "site": {
-  "title": "Mame Coffee",
-  "tagline": "A small roastery and coffee bar in Ghent, since 2019."
- },
- "pages": [
-  {
-   "slug": "home",
-   "title": "Home",
-   "role": "front",
-   "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/front-hero\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-statement\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-lots\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-pour\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-people\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-bar\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-stories\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-visit\"} /-->"
+  "_comment": "Sample content for the demo import (inc/demo-import.php) and the catalogue screenshots, in en. Pages hold block markup; <!-- wp:pattern {\"slug\":\"...\"} /--> is expanded into the pattern on import. Inner pages use the page-wide template. The first journal post is the full article; the other two are short notes.",
+  "site": {
+    "title": "Mame Coffee",
+    "tagline": "A small roastery and coffee bar in Ghent, since 2019."
   },
-  {
-   "slug": "lots",
-   "title": "Lots",
-   "content": "<!-- wp:paragraph -->\n<p>We buy six green lots a year and keep four on the bar at a time. Kiamara (Nyeri, Kenya, 1,800 m, washed) €17, Alto Rocío (Huila, Colombia, 1,700 m, washed) €15, Hara Bura (Guji, Ethiopia, 2,000 m, natural) €16 and El Mirador (Chalatenango, El Salvador, 1,600 m, honey) €18, each per 200 g bag.</p>\n<!-- /wp:paragraph -->"
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "role": "front",
+      "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/front-hero\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-statement\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-lots\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-pour\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-people\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-bar\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-stories\"} /-->\n\n<!-- wp:pattern {\"slug\":\"mame-coffee/front-visit\"} /-->"
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "template": "page-wide",
+      "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/page-about\"} /-->"
+    },
+    {
+      "slug": "lots",
+      "title": "Current Lots",
+      "template": "page-wide",
+      "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/page-lots\"} /-->"
+    },
+    {
+      "slug": "bar",
+      "title": "Bar Menu",
+      "template": "page-wide",
+      "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/page-bar\"} /-->"
+    },
+    {
+      "slug": "roastery",
+      "title": "The Roastery",
+      "template": "page-wide",
+      "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/page-roastery\"} /-->"
+    },
+    {
+      "slug": "origins",
+      "title": "Our Origins",
+      "template": "page-wide",
+      "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/page-origins\"} /-->"
+    },
+    {
+      "slug": "people",
+      "title": "People",
+      "template": "page-wide",
+      "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/page-people\"} /-->"
+    },
+    {
+      "slug": "cupping",
+      "title": "Cupping & Classes",
+      "template": "page-wide",
+      "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/page-cupping\"} /-->"
+    },
+    {
+      "slug": "wholesale",
+      "title": "Wholesale Coffee",
+      "template": "page-wide",
+      "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/page-wholesale\"} /-->"
+    },
+    {
+      "slug": "visit",
+      "title": "Visit Us",
+      "template": "page-wide",
+      "content": "<!-- wp:pattern {\"slug\":\"mame-coffee/page-visit\"} /-->"
+    },
+    {
+      "slug": "journal",
+      "title": "Journal",
+      "role": "posts"
+    }
+  ],
+  "navigation": {
+    "title": "Main menu",
+    "items": [
+      {
+        "label": "Lots",
+        "page": "lots"
+      },
+      {
+        "label": "Bar",
+        "page": "bar"
+      },
+      {
+        "label": "Roastery",
+        "page": "roastery"
+      },
+      {
+        "label": "People",
+        "page": "people"
+      },
+      {
+        "label": "Journal",
+        "page": "journal"
+      },
+      {
+        "label": "Visit",
+        "page": "visit"
+      }
+    ]
   },
-  {
-   "slug": "bar",
-   "title": "Bar",
-   "content": "<!-- wp:paragraph -->\n<p>The bar is open Wednesday to Sunday, 8:00–16:00. Filter from the current lot is €4.50, espresso €3.00, cortado €3.80, flat white €4.20, a pour-over flight of two lots €8.00 and a cardamom bun €3.50.</p>\n<!-- /wp:paragraph -->"
-  },
-  {
-   "slug": "people",
-   "title": "People",
-   "content": "<!-- wp:paragraph -->\n<p>Seven of us: Ines Duarte (head roaster, co-founder), Tomas Varga (green buyer, co-founder), Amara Okoye (roaster), Mei Lin Ho (quality and cupping), Lena Brandt (head barista), Rafael Souza (barista) and Joost de Wit (wholesale and deliveries).</p>\n<!-- /wp:paragraph -->"
-  },
-  {
-   "slug": "roastery",
-   "title": "Roastery",
-   "content": "<!-- wp:paragraph -->\n<p>One 5 kg drum roaster, three mornings a week: Monday, Tuesday and Thursday from 6:30. Every Thursday at 11:00 Mei Lin Ho cups every roast of the week. Beans rest until day five and are poured at the bar until day twenty-eight.</p>\n<!-- /wp:paragraph -->"
-  },
-  {
-   "slug": "visit",
-   "title": "Visit",
-   "content": "<!-- wp:paragraph -->\n<p>Branderijstraat 12, 9000 Ghent, Belgium, five minutes’ walk from Gent-Dampoort station. Phone +32 9 000 12 34, hello@mamecoffee.example. Bar hours Wednesday to Sunday 8:00–16:00.</p>\n<!-- /wp:paragraph -->"
-  },
-  {
-   "slug": "journal",
-   "title": "Journal",
-   "role": "posts"
+  "links": {},
+  "categories": [
+    {
+      "slug": "journal",
+      "name": "Journal",
+      "description": "Notes from the roastery."
+    }
+  ],
+  "tags": [],
+  "posts": [
+    {
+      "slug": "a-week-at-hara-bura",
+      "title": "A Week at Hara Bura",
+      "date": "2026-10-08",
+      "categories": [
+        "journal"
+      ],
+      "tags": [],
+      "image": "assets/images/14-trip.webp",
+      "excerpt": "Tomas Varga reflects on a week spent alongside coffee producers at the Hara Bura washing station in Guji, Ethiopia.",
+      "content": "<!-- wp:paragraph -->\n<p>The morning air in Guji sits thin and cool at two thousand meters above sea level. Long before sunrise burns the mist off the valley floor, the surrounding hillsides are quiet, punctuated only by the rustle of morning birds among the native shade canopies. For Tomas Varga, green buyer for Mame Coffee, arriving at Hara Bura during peak harvest means slowing down to match the physical rhythms of the mountain. We buy only six green lots across the entire year, which means our visits to origin are never hurried sourcing tours. Instead, we spend full weeks on the ground, walking the narrow earthen paths between smallholder plots, watching cherries ripen on the branch, and listening to the growers whose families have tended these slopes for generations.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Harvest at Hara Bura requires extraordinary discipline. The coffee shrubs climb the steep volcanic slopes, producing cherries that mature at slightly different rates depending on elevation, wind exposure, and cloud cover. Pickers move through the same terraced rows several times over a season, selecting only the uniform, deep crimson fruit while leaving less mature cherries to develop further. Once gathered, the day's harvest is carried down to the station where hand sorting begins immediately. In natural processing, every imperfect or damaged cherry that passes through will distort the sweetness of the final dried lot, making initial visual inspection crucial.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>After washing and skimming in clean water channels, the whole intact cherries are spread across raised African drying beds. Here, the relationship between sunlight and airflow determines everything. For nearly three weeks, the cherries rest on perforated mesh raised waist-high above the ground, allowing dry mountain air to circulate beneath and over the fruit. Workers turn the cherries by hand every hour from morning until late afternoon, ensuring even moisture evaporation and preventing localized overheating. At midday, when the high-altitude sun becomes severe, breathable shade cloths are drawn over the beds; at dusk, they are covered again to shelter the cooling fruit from evening dew and sudden rains.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Walking beside these long timber tables, Tomas spent several afternoons talking with the producers about the season's rainfall and drying trajectories. Without relying on industrial machinery or artificial accelerants, producing a pristine natural coffee is an exercise in patient observation. When moisture levels steadily reach twelve percent, the dried cherries, now resembling dark raisins, are moved into ventilated resting sheds to stabilize before dry milling. Cupping sample bowls from these beds at origin reveals why this lot holds a permanent place in our thoughts: explosive strawberry aroma, refined malic acidity, and an astonishingly clean floral sweetness that lingers long after the swallow.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>Back in Ghent at our roastery at Branderijstraat 12, that harvest arrives in heavy jute sacks, ready for our 5 kg drum roaster. Every Tuesday morning at 6:30, roaster Amara Okoye charges the drum with Hara Bura, applying gentle conductive heat to preserve its delicate natural sugars and floral aromatic top notes. Every Thursday at 11:00, Mei Lin Ho cups each batch to verify development before it is packed into our charcoal matte bags. Between day 5 and day 28 of resting, Lena Brandt and Rafael Souza pour this coffee for our guests at €4.50 a cup, or hand over 200 g bags at €16. That single clean cup on our counter in Ghent is the quiet continuation of a quiet week in Guji.</p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "slug": "sorting-by-hand",
+      "title": "Sorting by hand",
+      "date": "2026-09-17",
+      "categories": [
+        "journal"
+      ],
+      "tags": [],
+      "image": "assets/images/13-green.webp",
+      "excerpt": "New green arrivals are graded by density and sorted for defects before the drum is lit.",
+      "content": "<!-- wp:paragraph -->\n<p>When a new lot of green coffee arrives in Ghent, we sort a sample by hand in a round sieve before it ever meets the drum. We look for broken beans, insect damage and anything that does not belong.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It takes an hour for a few hundred grams, and it tells us more about a harvest than any spreadsheet.</p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "slug": "day-5-to-day-28",
+      "title": "Day 5 to day 28",
+      "date": "2026-08-20",
+      "categories": [
+        "journal"
+      ],
+      "tags": [],
+      "image": "assets/images/15-cooling.webp",
+      "excerpt": "Why we rest every roast for five days, and why each lot leaves the bar within twenty-eight.",
+      "content": "<!-- wp:paragraph -->\n<p>Freshly roasted coffee is full of gas. We let every roast rest for five days before it is poured, so the cup is clear rather than foamy and sharp.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>After four weeks the sweetness starts to fade. So each lot leaves the bar by day twenty-eight, whatever is left in the bag.</p>\n<!-- /wp:paragraph -->"
+    }
+  ],
+  "screens": {
+    "home": "/"
   }
- ],
- "navigation": {
-  "title": "Main menu",
-  "items": [
-   {
-    "label": "Lots",
-    "page": "lots"
-   },
-   {
-    "label": "Bar",
-    "page": "bar"
-   },
-   {
-    "label": "People",
-    "page": "people"
-   },
-   {
-    "label": "Roastery",
-    "page": "roastery"
-   },
-   {
-    "label": "Visit",
-    "page": "visit"
-   }
-  ]
- },
- "links": {},
- "categories": [
-  {
-   "slug": "journal",
-   "name": "Journal",
-   "description": "Notes from the roastery."
-  }
- ],
- "tags": [],
- "posts": [
-  {
-   "slug": "a-week-at-hara-bura",
-   "title": "A week at Hara Bura",
-   "date": "2026-10-08",
-   "categories": [
-    "journal"
-   ],
-   "tags": [],
-   "image": "assets/images/14-trip.webp",
-   "excerpt": "Tomas Varga walks the hillside plots in Guji and watches natural processing on raised beds at harvest.",
-   "content": "<!-- wp:paragraph -->\n<p>Tomas Varga spent a week in Guji, Ethiopia, walking the hillside plots of the farm that grows our Hara Bura lot. Cherries are picked ripe, laid out on raised mesh beds and turned by hand through the day so they dry evenly.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>He came home with samples, notes and the same conclusion as every year: buy few lots, and know who grew them.</p>\n<!-- /wp:paragraph -->"
-  },
-  {
-   "slug": "sorting-by-hand",
-   "title": "Sorting by hand",
-   "date": "2026-09-17",
-   "categories": [
-    "journal"
-   ],
-   "tags": [],
-   "image": "assets/images/13-green.webp",
-   "excerpt": "New green arrivals are graded by density and sorted for defects before the drum is lit.",
-   "content": "<!-- wp:paragraph -->\n<p>When a new lot of green coffee arrives in Ghent, we sort a sample by hand in a round sieve before it ever meets the drum. We look for broken beans, insect damage and anything that does not belong.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>It takes an hour for a few hundred grams, and it tells us more about a harvest than any spreadsheet.</p>\n<!-- /wp:paragraph -->"
-  },
-  {
-   "slug": "day-5-to-day-28",
-   "title": "Day 5 to day 28",
-   "date": "2026-08-20",
-   "categories": [
-    "journal"
-   ],
-   "tags": [],
-   "image": "assets/images/15-cooling.webp",
-   "excerpt": "Why we rest every roast for five days, and why each lot leaves the bar within twenty-eight.",
-   "content": "<!-- wp:paragraph -->\n<p>Freshly roasted coffee is full of gas. We let every roast rest for five days before it is poured, so the cup is clear rather than foamy and sharp.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>After four weeks the sweetness starts to fade. So each lot leaves the bar by day twenty-eight, whatever is left in the bag.</p>\n<!-- /wp:paragraph -->"
-  }
- ],
- "screens": {
-  "home": "/"
- }
 }

@@ -90,3 +90,58 @@ function mc_panel( $file, $alt, $chip = '', $class = '' ) {
 	}
 	return $out . mc_img( $file, $alt ) . "\n" . mc_close();
 }
+
+/**
+ * Inner-page head (T1, smaller): a full-bleed backdrop photograph, a sharp 1.53 : 1 frame offset to the right and the
+ * page title (h1) crossing the frame's lower-left corner, one intro line under it. No parallax in the head.
+ */
+function mc_pagehead( $bg, $bg_alt, $frame, $frame_alt, $title, $intro, $low = false ) {
+	$url = mc_url( $bg );
+	$out = '<!-- wp:cover {"url":"' . $url . '","alt":"' . esc_attr( $bg_alt ) . '","dimRatio":40,"overlayColor":"roast","minHeight":760,"align":"full","className":"mc-ph","layout":{"type":"default"}} -->' . "\n";
+	$out .= '<div class="wp-block-cover alignfull mc-ph" style="min-height:760px"><img class="wp-block-cover__image-background" alt="' . esc_attr( $bg_alt ) . '" src="' . $url . '" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-roast-background-color has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container">';
+	$out .= mc_open( 'mc-ph__stage' ) . "\n" . mc_img( $frame, $frame_alt, 'mc-ph__frame' . ( $low ? ' mc-ph__frame--low' : '' ) ) . "\n\n";
+	$out .= mc_open( 'mc-ph__id' ) . "\n" . mc_h( 1, 'mc-ph__title', $title ) . "\n\n" . mc_p( 'mc-ph__intro', $intro ) . "\n" . mc_close() . "\n" . mc_close();
+	return $out . '</div></div>' . "\n<!-- /wp:cover -->";
+}
+
+/** Full-bleed photograph band with parallax (the foreground label never moves). */
+function mc_band( $file, $alt, $label = '', $class = '' ) {
+	$url = mc_url( $file );
+	$cls = trim( 'mc-band sp-parallax ' . $class );
+	$out = '<!-- wp:cover {"url":"' . $url . '","alt":"' . esc_attr( $alt ) . '","dimRatio":30,"overlayColor":"roast","minHeight":560,"align":"full","className":"' . $cls . '","layout":{"type":"default"}} -->' . "\n";
+	$out .= '<div class="wp-block-cover alignfull ' . esc_attr( $cls ) . '" style="min-height:560px"><img class="wp-block-cover__image-background" alt="' . esc_attr( $alt ) . '" src="' . $url . '" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-roast-background-color has-background-dim-30 has-background-dim"></span><div class="wp-block-cover__inner-container">';
+	if ( $label ) {
+		$out .= mc_p( 'mc-band__label', $label );
+	}
+	return $out . '</div></div>' . "\n<!-- /wp:cover -->";
+}
+
+/** Rule, heading and paragraph: one text column (heading is a sentence, so not in caps). */
+function mc_sect( $heading, $body, $class = '' ) {
+	return mc_open( trim( 'mc-card mc-card--text ' . $class ) ) . "\n" . mc_rule() . "\n\n" . mc_h( 3, 'mc-qh', $heading ) . "\n\n" . mc_p( 'mc-prose', $body ) . "\n" . mc_close();
+}
+
+/** Hairline story row: heading left, text right. */
+function mc_srow( $heading, $body ) {
+	return mc_open( 'mc-srow' ) . "\n" . mc_h( 3, 'mc-qh', $heading ) . "\n\n" . mc_p( 'mc-prose', $body ) . "\n" . mc_close();
+}
+
+/** Hairline price row (name, note, price); price column never cut. */
+function mc_prow( $name, $note, $price ) {
+	return mc_open( 'mc-price' ) . "\n" . mc_p( 'mc-price__n', $name ) . "\n\n" . mc_p( 'mc-price__d', $note ) . "\n\n" . mc_p( 'mc-price__p', $price ) . "\n" . mc_close();
+}
+
+/** Hairline spec row (label, value). */
+function mc_spec( $label, $value ) {
+	return mc_open( 'mc-spec' ) . "\n" . mc_p( 'mc-spec__k', $label ) . "\n\n" . mc_p( 'mc-spec__v', $value ) . "\n" . mc_close();
+}
+
+/** Closing row: the rule, one line and the round arrow link. */
+function mc_closing( $text, $href, $more ) {
+	return mc_open( 'mc-sec mc-closing', 'section', 'full' ) . "\n" . mc_open( 'mc-wrap' ) . "\n" . mc_rule() . "\n\n" . mc_open( 'mc-closing__row' ) . "\n" . mc_p( 'mc-closing__t', $text ) . "\n\n" . mc_more( $href, $more ) . "\n" . mc_close() . "\n" . mc_close() . "\n" . mc_close( 'section' );
+}
+
+/** Wide photograph (wipe reveal on the figure's child, like the home pour photo). */
+function mc_wide( $file, $alt ) {
+	return mc_img( $file, $alt, 'mc-wide sp-reveal sp-reveal--wipe' );
+}
