@@ -36,6 +36,16 @@ Images (all AI-generated for this theme, GPL-2.0-or-later):
 * assets/images/p7.webp — A grey bowl of muted white and pink winter heather on a white countertop. (AI-generated)
 * assets/images/p8.webp — A plain paper sack of compost, a terracotta pot and a trowel on a white bench. (AI-generated)
 * assets/images/v1.webp — Open glasshouse entrance doors with potted trees alongside a gravel path and bicycle rack. (AI-generated)
+* assets/images/demo/a1.webp — Raster copy of assets/images/a1.webp for the demo content. (AI-generated)
+* assets/images/demo/c2.webp — Raster copy of assets/images/c2.webp for the demo content. (AI-generated)
+* assets/images/demo/p1.webp — Raster copy of assets/images/p1.webp for the demo content. (AI-generated)
+* assets/images/demo/p2.webp — Raster copy of assets/images/p2.webp for the demo content. (AI-generated)
+* assets/images/demo/p3.webp — Raster copy of assets/images/p3.webp for the demo content. (AI-generated)
+* assets/images/demo/p4.webp — Raster copy of assets/images/p4.webp for the demo content. (AI-generated)
+* assets/images/demo/p5.webp — Raster copy of assets/images/p5.webp for the demo content. (AI-generated)
+* assets/images/demo/p6.webp — Raster copy of assets/images/p6.webp for the demo content. (AI-generated)
+* assets/images/demo/p7.webp — Raster copy of assets/images/p7.webp for the demo content. (AI-generated)
+* assets/images/demo/p8.webp — Raster copy of assets/images/p8.webp for the demo content. (AI-generated)
 
 scroll effects: assets/sp-scroll.css and assets/sp-scroll.js, ShipPress, GPL-2.0-or-later.
 

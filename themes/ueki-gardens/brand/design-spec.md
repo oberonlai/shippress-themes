@@ -1,6 +1,6 @@
 # Ueki Gardens: design spec (stage 1, binding for implementation)
 
-Slug `ueki-gardens`, garden centre, **type store (WooCommerce)**: shop templates, demo products, checkout must work; the theme must still render without WooCommerce. Row b19-2: archetype card-mosaic, hero photo-left-text-right, nav split, first screen three equal columns, page structure spec-catalogue, palette 青磁 `#748578` (moss family), fonts Figtree / Manrope, **font_direction sans**, IMAGERY **photo** (high-key).
+Slug `ueki-gardens`, garden centre, **type store (WooCommerce)**: shop templates, demo products, checkout must work; the theme must still render without WooCommerce. Row b19-2: archetype card-mosaic, hero photo-left-text-right, nav split, first screen three equal columns, page structure spec-catalogue, palette seiji `#748578` (moss family), fonts Figtree / Manrope, **font_direction sans**, IMAGERY **photo** (high-key).
 
 References: **plantica.net** (main, https://plantica.net/) and **Plants × Crafts** (secondary, https://plantsandcrafts.dougukan.jp/, ground split only). Measurements: `reference-tokens.md`; screens: `ref/plantica-first.png`, `ref/pac-first.png`, `ref/scroll-plantica-{500,1700,2900,3800,5500,7100}.png`. We borrow structure, technique, colour relationships, numbers and the key-visual concept. We never copy their photos, copy, logo or a whole page layout.
 
@@ -96,12 +96,12 @@ Reference relationships kept (plantica: white ground ≈ 70 %, near-black ink �
 | Ground | `#FEFFFE` | (a) ground `#FEFFFE`, unchanged | page ground | ≈ 62 % / 65 % |
 | Ink | `#0B110C` | (a) ink `#000300`, lightness +4 % | headings, nav, rules (at 20 %), filled pill | ≈ 6 % |
 | Body | `#3E3E3E` | (a) body grey, unchanged | body copy, lead | < 2 % |
-| Main / accent role | `#748578` 青磁 | replaces (a) accent `#976AE1` | floating MENU pill, tag dots on cards, active nav underline, links on hover, focus ring | < 1 % first screen, ≤ 3 % page |
+| Main / accent role | `#748578` seiji | replaces (a) accent `#976AE1` | floating MENU pill, tag dots on cards, active nav underline, links on hover, focus ring | < 1 % first screen, ≤ 3 % page |
 | Band | `#D5DDD7` | Plants × Crafts band `#CCCCCC`, hue-shifted to seiji at the same lightness step | T4 ground split, totals column, footer ground | ≈ 8 % / 12 % |
 | Pale hover | `#F2F5F3` | derived | pill hover, product card image ground | small |
 | Photos | multi-hue, muted | (a) photos ≈ 22 % | — | ≈ 22 % |
 
-- **Why the accent changes:** the row fixes palette 青磁 / moss, and plantica's vivid purple reads as florist/fashion, not as a garden centre. Seiji takes exactly the same role and share (menu pill, tag dots, active language), so the relationship stays.
+- **Why the accent changes:** the row fixes palette seiji / moss, and plantica's vivid purple reads as florist/fashion, not as a garden centre. Seiji takes exactly the same role and share (menu pill, tag dots, active language), so the relationship stays.
 - **Why the band changes:** a neutral `#CCCCCC` band makes a plant site look grey and dusty. The seiji tint keeps the same lightness step, so the contrast against white stays strong. (Tsumugi lesson: we do **not** use a near-white stone band.)
 - No beige or cream anywhere. No large saturated fields: moss never fills a section.
 - Contrast: ink on band 15:1; body `#3E3E3E` on white 10.6:1; white on moss `#748578` is 3.9:1, so the MENU pill text is 13 px 600 uppercase (UI label, not body text).
@@ -111,7 +111,7 @@ Reference relationships kept (plantica: white ground ≈ 70 %, near-black ink �
 
 ## 4. Typography (font_direction **sans**)
 
-- Latin headings: **Figtree** (500, 600). Latin body and UI: **Manrope** (400, 500, 600). Both are sans, matching plantica's grotesque PP Mori (token b). No serif anywhere, and no Mincho (明體) in CJK.
+- Latin headings: **Figtree** (500, 600). Latin body and UI: **Manrope** (400, 500, 600). Both are sans, matching plantica's grotesque PP Mori (token b). No serif anywhere,  in CJK.
 - Stacks (theme.json fontFamilies):
   - heading: `"Figtree", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
   - body: `"Manrope", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`

@@ -41,3 +41,5 @@ The voice is calm, unhurried, and grounded in practical horticultural reality wi
 
 ## Pages
 Home (stage 1). Inner pages follow in stage 2: Shop, In season, Choosing, Services, Aftercare, About, Visit, Journal.
+
+- Audience: households, balcony and windowsill growers, and first-time gardeners; our customers are ordinary people who want plants they can keep alive.
