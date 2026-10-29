@@ -69,6 +69,9 @@ Photographs were generated for this theme (AI-generated, CC0) and are released u
 Scroll effects (assets/sp-scroll.css, assets/sp-scroll.js) are ShipPress's own, GPL-2.0-or-later.
 
 == Changelog ==
+= 1.0.3 =
+* Inner-page headers: removed the small yellow figure chip; photo, daylight band and vertical title remain.
+
 = 1.0.2 =
 * Home first screen: removed the yellow figure that slid in over the photo; the photograph, daylight band and vertical catch copy remain.
 

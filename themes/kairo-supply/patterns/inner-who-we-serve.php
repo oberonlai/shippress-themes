@@ -16,7 +16,7 @@
 <figure class="wp-block-image size-full kai-phead__img kai-op-60-40"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/k03.webp' ) ); ?>" alt="Two electricians talking with a counter clerk across the trade counter."/></figure>
 <!-- /wp:image -->
 <!-- wp:html -->
-<span class="kai-hero__band" aria-hidden="true"></span><svg class="kai-phead__chip" viewBox="0 0 260 520" preserveAspectRatio="xMidYMax meet" aria-hidden="true" focusable="false"><g transform="translate(95 0) skewX(-14)" fill="#FFD900"><path d="M76 58C76 30 90 18 105 18s29 12 29 40z"/><rect x="68" y="56" width="74" height="9" rx="4"/><ellipse cx="105" cy="82" rx="23" ry="26"/><rect x="93" y="102" width="24" height="18"/><path d="M105 116C70 116 40 122 31 150L22 262L52 266L58 184L62 330L66 506H98L105 340L112 506H144L148 330L152 184L158 266L188 262L179 150C170 122 140 116 105 116z"/><ellipse cx="160" cy="138" rx="38" ry="19" transform="rotate(-18 160 138)" fill="none" stroke="#FFD900" stroke-width="11"/></g></svg>
+<span class="kai-hero__band" aria-hidden="true"></span>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->
