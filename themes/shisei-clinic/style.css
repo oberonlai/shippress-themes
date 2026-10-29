@@ -408,6 +408,7 @@ body::before {
 :lang(ja) :is(h1, h2, h3, h4, .ss-label-row__word, .ss-names strong, .ss-fees td) { font-family: "Noto Sans JP", "Figtree", system-ui, sans-serif; }
 :lang(zh-TW) .ss-lead, :lang(ja) .ss-lead { font-size: 1.5rem; letter-spacing: .16em; }
 :lang(zh-TW) .ss-kv__h1, :lang(ja) .ss-kv__h1 { font-size: 1.75rem; }
+:lang(fr) .ss-kv__h1, :lang(de) .ss-kv__h1 { font-size: clamp(1.25rem, 1.6vw, 1.4rem); letter-spacing: .02em; line-height: 1.6; }
 :lang(fr) :is(body, h1, h2, h3, p), :lang(de) :is(body, h1, h2, h3, p) { hyphens: auto; }
 
 /* ---------- tablet and mobile ---------- */
@@ -530,4 +531,9 @@ body::before {
 	.ss-meta { flex-wrap: wrap; gap: 4px 16px; }
 	.ss-meta__n { flex: 1 1 100%; }
 	.ss-meta__d { flex: 1; }
+}
+
+/* short page-head marks (FEES) open up so the last letter crosses the arch edge */
+@media (min-width: 960px) {
+	.ss-ph__mark--wide { font-size: clamp(4rem, 11vw, 10rem); letter-spacing: .3em; }
 }
