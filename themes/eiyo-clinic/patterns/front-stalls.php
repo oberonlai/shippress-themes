@@ -20,9 +20,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ec-in ec-flow","layout":{"type":"default"}} -->
-<div class="wp-block-group ec-in ec-flow"><?php echo eiyo_clinic_image( 'p05', 'ec-flow__side ec-flow__side--l' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group ec-in ec-flow"><?php echo eiyo_clinic_image( 'p05', 'ec-flow__side ec-flow__side--l', 'aria-hidden="true"' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 
-<?php echo eiyo_clinic_image( 'p07', 'ec-flow__side ec-flow__side--r' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<?php echo eiyo_clinic_image( 'p07', 'ec-flow__side ec-flow__side--r', 'aria-hidden="true"' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 
 <?php echo eiyo_clinic_image( 'p06', 'ec-flow__main' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 

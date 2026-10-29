@@ -13,9 +13,9 @@
 <div class="wp-block-group ec-kv sp-parallax"><!-- wp:group {"className":"sp-parallax__layer","layout":{"type":"default"}} -->
 <div class="wp-block-group sp-parallax__layer"><?php echo eiyo_clinic_image( 'p01', 'ec-slide ec-slide--1', 'fetchpriority="high"' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 
-<?php echo eiyo_clinic_image( 'p02', 'ec-slide ec-slide--2' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<?php echo eiyo_clinic_image( 'p02', 'ec-slide ec-slide--2', 'aria-hidden="true"' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 
-<?php echo eiyo_clinic_image( 'p03', 'ec-slide ec-slide--3' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
+<?php echo eiyo_clinic_image( 'p03', 'ec-slide ec-slide--3', 'aria-hidden="true"' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
