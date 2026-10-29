@@ -10,13 +10,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require_once get_template_directory() . '/inc/demo-import.php';
-require_once get_template_directory() . '/inc/editor-lang.php';
 require_once get_template_directory() . '/inc/i18n.php';
+require_once get_template_directory() . '/inc/editor-lang.php';
 
 define( 'KAIRO_SUPPLY_VERSION', wp_get_theme()->get( 'Version' ) );
 
 /**
- * Theme supports and editor styles. WooCommerce support is declared either way; without the plugin it does nothing.
+ * Theme supports and editor styles (the scroll-effect CSS shows the final state in the editor).
  */
 function kairo_supply_setup() {
 	add_theme_support( 'wp-block-styles' );
@@ -30,33 +30,20 @@ function kairo_supply_setup() {
 add_action( 'after_setup_theme', 'kairo_supply_setup' );
 
 /**
- * Front-end styles, and the scroll-effect script in the head (not deferred, so html.sp-js is set before the first paint).
+ * Front-end styles and the scroll-effect script (in the head, not deferred).
  */
 function kairo_supply_enqueue() {
 	wp_enqueue_style( 'kairo-supply-style', get_stylesheet_uri(), array(), KAIRO_SUPPLY_VERSION );
 	wp_enqueue_style( 'kairo-supply-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.css' ), array( 'kairo-supply-style' ), KAIRO_SUPPLY_VERSION );
-	wp_enqueue_script( 'kairo-supply-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.js' ), array(), KAIRO_SUPPLY_VERSION, false );
+	wp_enqueue_script( 'kairo-supply-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.js' ), array(), KAIRO_SUPPLY_VERSION, array( 'in_footer' => false ) );
 }
 add_action( 'wp_enqueue_scripts', 'kairo_supply_enqueue' );
 
 /**
- * Block style variations for the pill buttons. All CSS lives in style.css.
+ * Block style variations. All CSS lives in style.css.
  */
 function kairo_supply_block_styles() {
-	$styles = array(
-		'ks-pill'       => __( 'Outlined pill', 'kairo-supply' ),
-		'ks-pill-fill'  => __( 'Filled pill', 'kairo-supply' ),
-		'ks-pill-light' => __( 'Light pill (on dark)', 'kairo-supply' ),
-	);
-	foreach ( $styles as $name => $label ) {
-		register_block_style(
-			'core/button',
-			array(
-				'name'  => $name,
-				'label' => $label,
-			)
-		);
-	}
+	register_block_style( 'core/button', array( 'name' => 'text-link', 'label' => __( 'Text link with an arrow', 'kairo-supply' ) ) );
 }
 add_action( 'init', 'kairo_supply_block_styles' );
 
@@ -68,7 +55,7 @@ function kairo_supply_pattern_categories() {
 		'kairo-supply',
 		array(
 			'label'       => __( 'Kairo Supply', 'kairo-supply' ),
-			'description' => __( 'Sections for an electrical trade counter: the wordmark and stadium photo cover, the counter story, the dark stage, the account steps, the range, prices, stories, team and the single way to apply.', 'kairo-supply' ),
+			'description' => __( 'Sections for a trade counter: the light-band first screen, the pinned stage, floating cards, tilted portraits, account rows, rate table and the apply card.', 'kairo-supply' ),
 		)
 	);
 }

@@ -1,106 +1,76 @@
 <?php
 /**
- * Title: Footer: clinic details and notice
+ * Title: Footer: address, hours and links
  * Slug: kairo-supply/footer-main
  * Categories: kairo-supply
- * Inserter: no
+ * Keywords: electrical wholesaler, trade counter
  * Viewport Width: 1440
+ * Description: Deep slate footer with the counter details and two link columns.
  */
 ?>
-<!-- wp:group {"className":"ks-foot","align":"full","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull ks-foot"><!-- wp:group {"className":"ks-foot__cols","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-foot__cols"><!-- wp:group {"className":"ks-foot__col","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-foot__col"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label"><?php echo wp_kses_post( kairo_supply_t( 'k64d12922' ) ); ?></p>
+<!-- wp:group {"tagName":"footer","align":"full","className":"kai-footer","layout":{"type":"default"}} -->
+<footer class="wp-block-group alignfull kai-footer">
+<!-- wp:group {"className":"kai-wrap kai-footer__cols","layout":{"type":"default"}} -->
+<div class="wp-block-group kai-wrap kai-footer__cols">
+<!-- wp:group {"className":"kai-footer__c","layout":{"type":"default"}} -->
+<div class="wp-block-group kai-footer__c">
+<!-- wp:paragraph {"className":"kai-footer__name"} -->
+<p class="kai-footer__name"><?php echo wp_kses_post( kairo_supply_t( 'hd_logo' ) ); ?></p>
 <!-- /wp:paragraph -->
-
 <!-- wp:paragraph -->
-<p><?php echo wp_kses_post( kairo_supply_t( 'k99be3e3e' ) ); ?></p>
+<p><?php echo wp_kses_post( kairo_supply_t( 'ft_about' ) ); ?></p>
 <!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php echo wp_kses_post( kairo_supply_t( 'k22b9e61a' ) ); ?></p>
+<!-- wp:paragraph {"className":"kai-footer__open"} -->
+<p class="kai-footer__open"><i class="kai-dot12" aria-hidden="true"></i><?php echo wp_kses_post( kairo_supply_t( 'ft_open' ) ); ?></p>
 <!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>0100 555 0142</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php echo wp_kses_post( kairo_supply_t( 'kf7a7bbbe' ) ); ?></p>
-<!-- /wp:paragraph --></div>
+</div>
 <!-- /wp:group -->
-
-<!-- wp:group {"className":"ks-foot__col","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-foot__col"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label"><?php echo wp_kses_post( kairo_supply_t( 'k6a7e7316' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php echo wp_kses_post( kairo_supply_t( 'kf182dbd9' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php echo wp_kses_post( kairo_supply_t( 'ke7ed5f06' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php echo wp_kses_post( kairo_supply_t( 'k911bad98' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php echo wp_kses_post( kairo_supply_t( 'k33ee8130' ) ); ?></p>
-<!-- /wp:paragraph --></div>
+<!-- wp:group {"className":"kai-footer__c","layout":{"type":"default"}} -->
+<div class="wp-block-group kai-footer__c">
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="/who-we-serve/"><?php echo wp_kses_post( kairo_supply_t( 'ft_who' ) ); ?></a></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><a href="/accounts/"><?php echo wp_kses_post( kairo_supply_t( 'ft_accounts' ) ); ?></a></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><a href="/counter/"><?php echo wp_kses_post( kairo_supply_t( 'ft_counter' ) ); ?></a></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><a href="/ranges/"><?php echo wp_kses_post( kairo_supply_t( 'ft_ranges' ) ); ?></a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+</div>
 <!-- /wp:group -->
-
-<!-- wp:group {"className":"ks-foot__col","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-foot__col"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label"><?php echo wp_kses_post( kairo_supply_t( 'k453aceb0' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="/apply/"><?php echo wp_kses_post( kairo_supply_t( 'k9639e32c' ) ); ?></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="/prices/"><?php echo wp_kses_post( kairo_supply_t( 'ke16dd6e1' ) ); ?></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="/team/"><?php echo wp_kses_post( kairo_supply_t( 'kac848fa2' ) ); ?></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="/visit/"><?php echo wp_kses_post( kairo_supply_t( 'k5e706a9b' ) ); ?></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="/early-access/"><?php echo wp_kses_post( kairo_supply_t( 'k02abc1f4' ) ); ?></a></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><a href="/notes/"><?php echo wp_kses_post( kairo_supply_t( 'kf4c6f851' ) ); ?></a></p>
-<!-- /wp:paragraph --></div>
+<!-- wp:group {"className":"kai-footer__c","layout":{"type":"default"}} -->
+<div class="wp-block-group kai-footer__c">
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><a href="/delivery/"><?php echo wp_kses_post( kairo_supply_t( 'ft_delivery' ) ); ?></a></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><a href="/rates/"><?php echo wp_kses_post( kairo_supply_t( 'ft_rates' ) ); ?></a></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><a href="/team/"><?php echo wp_kses_post( kairo_supply_t( 'ft_team' ) ); ?></a></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><a href="/about/"><?php echo wp_kses_post( kairo_supply_t( 'ft_about_link' ) ); ?></a></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><a href="/visit/"><?php echo wp_kses_post( kairo_supply_t( 'ft_visit' ) ); ?></a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+</div>
 <!-- /wp:group -->
-
-<!-- wp:group {"className":"ks-foot__col","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-foot__col"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label"><?php echo wp_kses_post( kairo_supply_t( 'ka10a9bcd' ) ); ?></p>
-<!-- /wp:paragraph -->
-
+<!-- wp:group {"className":"kai-footer__c","layout":{"type":"default"}} -->
+<div class="wp-block-group kai-footer__c">
 <!-- wp:paragraph -->
-<p><a href="/privacy/"><?php echo wp_kses_post( kairo_supply_t( 'kc5f29bb3' ) ); ?></a></p>
+<p><?php echo wp_kses_post( kairo_supply_t( 'ft_language' ) ); ?></p>
 <!-- /wp:paragraph -->
-
 <!-- wp:paragraph -->
-<p><a href="/terms/"><?php echo wp_kses_post( kairo_supply_t( 'k6f1bf85c' ) ); ?></a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<p class="kai-footer__lang"><span>English</span> · <span>&#32321;&#39636;&#20013;&#25991;</span> · <span>&#26085;&#26412;&#35486;</span> · <span>Français</span> · <span>Deutsch</span></p>
+<!-- /wp:paragraph -->
+</div>
 <!-- /wp:group -->
-
-<!-- wp:group {"className":"ks-foot__mark","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-foot__mark"><!-- wp:paragraph {"className":"ks-deco"} -->
-<p class="ks-deco">KAIRO SUPPLY</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+</div>
+<!-- /wp:group -->
+<!-- wp:paragraph {"className":"kai-footer__copy"} -->
+<p class="kai-footer__copy"><?php echo wp_kses_post( kairo_supply_t( 'ft_copy' ) ); ?></p>
+<!-- /wp:paragraph -->
+</footer>
 <!-- /wp:group -->

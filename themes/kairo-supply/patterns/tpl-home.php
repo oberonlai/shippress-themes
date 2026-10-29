@@ -1,52 +1,20 @@
 <?php
 /**
- * Title: Template: home
+ * Title: Template: front page
  * Slug: kairo-supply/tpl-home
  * Categories: kairo-supply
- * Inserter: no
+ * Keywords: electrical wholesaler, trade counter
  * Viewport Width: 1440
+ * Description: Front page body.
  */
 ?>
-<!-- wp:group {"tagName":"main","className":"ks-main","layout":{"type":"default"}} -->
-<main class="wp-block-group ks-main"><!-- wp:pattern {"slug":"kairo-supply/notes-head"} /-->
-
-<!-- wp:group {"className":"ks-notes","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-notes"><!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"layout":{"type":"default"}} -->
-<div class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:group {"className":"ks-note-row","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-note-row"><!-- wp:group {"className":"ks-note-row__meta","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-note-row__meta"><!-- wp:post-date /-->
-
-<!-- wp:post-terms {"term":"category"} /--></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:post-title {"isLink":true,"level":2} /-->
-
-<!-- wp:post-excerpt {"excerptLength":28} /--></div>
-<!-- /wp:group -->
-
-<!-- wp:post-featured-image {"isLink":true} /--></div>
-<!-- /wp:group -->
-<!-- /wp:post-template -->
-
-<!-- wp:query-pagination -->
-<!-- wp:query-pagination-previous /-->
-
-<!-- wp:query-pagination-numbers /-->
-
-<!-- wp:query-pagination-next /-->
-<!-- /wp:query-pagination -->
-
-<!-- wp:query-no-results -->
-<!-- wp:paragraph -->
-<p><?php echo wp_kses_post( kairo_supply_t( 'k1121a6b7' ) ); ?></p>
-<!-- /wp:paragraph -->
-<!-- /wp:query-no-results --></div>
-<!-- /wp:query --></div>
-<!-- /wp:group -->
-
-<!-- wp:pattern {"slug":"kairo-supply/notes-more"} /-->
-
-<!-- wp:pattern {"slug":"kairo-supply/inner-close"} /--></main>
-<!-- /wp:group -->
+<!-- wp:pattern {"slug":"kairo-supply/front-hero"} /-->
+<!-- wp:pattern {"slug":"kairo-supply/front-stage"} /-->
+<!-- wp:pattern {"slug":"kairo-supply/front-doors"} /-->
+<!-- wp:pattern {"slug":"kairo-supply/front-who"} /-->
+<!-- wp:pattern {"slug":"kairo-supply/front-account"} /-->
+<!-- wp:pattern {"slug":"kairo-supply/front-counter"} /-->
+<!-- wp:pattern {"slug":"kairo-supply/front-rates"} /-->
+<!-- wp:pattern {"slug":"kairo-supply/front-morning"} /-->
+<!-- wp:pattern {"slug":"kairo-supply/front-stories"} /-->
+<!-- wp:pattern {"slug":"kairo-supply/front-apply"} /-->
