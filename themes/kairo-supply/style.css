@@ -3,8 +3,8 @@ Theme Name: Kairo Supply
 Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/kairo-supply
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
-Description: Kairo Supply is a trade-account landing theme for an electrical wholesaler's counter. The home page opens on a full-bleed counter photograph crossed by a diagonal band of daylight, with a flat yellow shadow on the wall, two lines of vertical catch copy and a dot rail; a rounded-top photo stage stays pinned while wide-tracked lines pass and the picture dissolves into pale fog with a yellow light cone; floating white cards carry vertical titles and inset photographs. Albert Sans over Hanken Grotesk, white and soft grey grounds, ink, deep slate and one signal yellow. Sample content in English. WCAG AA colours; scroll effects switch off for reduced motion.
-Version: 1.0.1
+Description: Kairo Supply is a trade-account landing theme for an electrical wholesaler's counter. The home page opens on a full-bleed counter photograph crossed by a diagonal band of daylight, with two lines of vertical catch copy and a dot rail; a rounded-top photo stage stays pinned while wide-tracked lines pass and the picture dissolves into pale fog with a yellow light cone; floating white cards carry vertical titles and inset photographs. Albert Sans over Hanken Grotesk, white and soft grey grounds, ink, deep slate and one signal yellow. Sample content in English. WCAG AA colours; scroll effects switch off for reduced motion.
+Version: 1.0.2
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -64,7 +64,6 @@ body:not(.home) .kai-head-part { position: sticky; top: 0; background: rgba(255,
 .kai-hero__layer { position: absolute; inset: 0; margin: 0; }
 .kai-hero__img, .kai-hero__img img { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; object-fit: cover; object-position: 66% 35%; filter: saturate(.8); }
 .kai-hero__band { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(145deg, rgba(255,255,255,0) 0 30%, rgba(255,255,255,.46) 32% 50%, rgba(255,255,255,0) 52% 100%); }
-.kai-hero__shadow { position: absolute; left: 34%; bottom: 6%; height: 52%; width: auto; aspect-ratio: 260 / 520; pointer-events: none; }
 .kai-hero__lockup { position: relative; z-index: 3; box-sizing: border-box; padding: 22vh var(--kai-gutter) 0; max-width: 560px; }
 .kai-hero__lockup > * { margin: 0; }
 .kai-hero__label { font-size: .75rem; font-weight: 600; letter-spacing: .02em; color: var(--kai-steel); margin-bottom: 1.1rem !important; }
@@ -82,16 +81,13 @@ body:not(.home) .kai-head-part { position: sticky; top: 0; background: rgba(255,
 .kai-rail a:hover i { background: var(--kai-yellow); }
 @media (prefers-reduced-motion: no-preference) {
 	html:not(.sp-no-motion) .kai-hero__band { animation: kai-band 1.2s var(--kai-expo) .2s both; }
-	html:not(.sp-no-motion) .kai-hero__shadow { animation: kai-shadow 1.2s var(--kai-expo) .2s both; }
 }
 @keyframes kai-band { from { opacity: 0; } to { opacity: 1; } }
-@keyframes kai-shadow { from { opacity: 0; transform: translate3d(-24px,0,0); } to { opacity: 1; transform: none; } }
 @media (max-width: 1023px) { .kai-hero__tate, .kai-rail { display: none; } }
 @media (max-width: 781px) {
 	.kai-hero { height: auto; max-height: none; min-height: 0; background: #fff; }
 	.kai-hero__layer { position: relative; inset: auto; height: 72svh; overflow: clip; }
 	.kai-hero__img, .kai-hero__img img { object-position: 64% 40%; }
-	.kai-hero__shadow { left: 6%; bottom: 10%; height: 300px; }
 	.kai-hero__lockup { padding: 2rem 1.25rem 2.5rem; max-width: none; }
 	.kai-hero__strip { display: block; margin-top: 1.25rem !important; font-size: 1.125rem; font-weight: 500; }
 	body.home .kai-head-part { color: var(--kai-ink); }
@@ -320,7 +316,6 @@ footer.kai-footer a[href^="mailto"], .kai-footer__lang a, .kai-footer__lang span
 .kai-phead__img, .kai-phead__img img { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; object-fit: cover; filter: saturate(.8); }
 .kai-phead__layer::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgba(255,255,255,.82), rgba(255,255,255,.4) 42%, rgba(255,255,255,0) 68%); }
 .kai-phead__chip { position: absolute; z-index: 2; left: var(--kai-gutter); bottom: 16px; width: auto; height: 160px; aspect-ratio: 260 / 520; pointer-events: none; }
-.kai-phead__shadow { left: 44%; height: 64%; }
 .kai-phead__lockup { position: relative; z-index: 3; box-sizing: border-box; padding: clamp(5rem, 14vh, 9rem) var(--kai-gutter) 11rem; max-width: 640px; }
 .kai-phead__lockup > * { margin: 0; }
 .kai-phead__h1 { font-size: clamp(2.5rem, 7vw, 4.5rem); font-weight: 500; line-height: 1.04; letter-spacing: -.01em; }
@@ -400,7 +395,6 @@ footer.kai-footer a[href^="mailto"], .kai-footer__lang a, .kai-footer__lang span
 	.kai-phead__layer::after { display: none; }
 	.kai-phead__lockup { padding: 2rem 1.25rem 2.5rem; max-width: none; }
 	.kai-phead__chip { height: 110px; bottom: 12px; }
-	.kai-phead__shadow { left: 6%; height: 240px; }
 	.kai-ritem { grid-template-columns: 1fr; gap: .6rem; }
 	.kai-stage--flat { height: auto; min-height: 0; background: var(--kai-soft); }
 	.kai-stage--flat .kai-stage__media { position: relative; height: auto; aspect-ratio: 4 / 5; }
@@ -421,7 +415,7 @@ footer.kai-footer a[href^="mailto"], .kai-footer__lang a, .kai-footer__lang span
 .kai-op-60-40 img { object-position: 60% 40%; }
 
 /* editor: always the final state */
-.editor-styles-wrapper .kai-hero__band, .editor-styles-wrapper .kai-hero__shadow { animation: none; }
+.editor-styles-wrapper .kai-hero__band { animation: none; }
 .editor-styles-wrapper .kai-stage { height: auto; }
 .editor-styles-wrapper .kai-stage__media img { transform: none; }
 .editor-styles-wrapper .kai-stage__media { position: relative; height: 70vh; }
