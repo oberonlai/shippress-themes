@@ -1,6 +1,6 @@
 # Nodoka Counselling
 
-A block theme (type business) for a psychotherapy practice. Home page (English) in this release; inner pages and the other languages follow.
+A block theme (type business) for a psychotherapy practice. Home page plus plain inner pages (English) in this release; richer inner pages and the other languages follow.
 
 ## Signature
 - A quiet split first screen: a tall low-key photo window (about 57% of the width, flush under the header) that settles slowly and drifts on scroll, a vertical tagline in the mist column, three clay vertical pill tabs straddling the photo's edge, a full-width hairline and a notice strip.
