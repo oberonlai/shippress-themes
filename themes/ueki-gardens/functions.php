@@ -11,6 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once get_template_directory() . '/inc/demo-import.php';
 require_once get_template_directory() . '/inc/editor-lang.php';
+require_once get_template_directory() . '/inc/woo-import.php';
 
 define( 'UEKI_GARDENS_VERSION', wp_get_theme()->get( 'Version' ) );
 
@@ -38,6 +39,9 @@ function ueki_gardens_enqueue() {
 	wp_enqueue_style( 'ueki-gardens-style', get_stylesheet_uri(), array(), UEKI_GARDENS_VERSION );
 	wp_enqueue_style( 'ueki-gardens-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.css' ), array(), UEKI_GARDENS_VERSION );
 	wp_enqueue_script( 'ueki-gardens-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.js' ), array(), UEKI_GARDENS_VERSION, false );
+	if ( class_exists( 'WooCommerce' ) ) {
+		wp_enqueue_style( 'ueki-gardens-woocommerce', get_theme_file_uri( 'assets/css/woocommerce.css' ), array( 'ueki-gardens-style' ), UEKI_GARDENS_VERSION );
+	}
 }
 add_action( 'wp_enqueue_scripts', 'ueki_gardens_enqueue' );
 
