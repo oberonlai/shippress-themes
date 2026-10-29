@@ -16,7 +16,7 @@
 
 <!-- wp:group {"className":"ks-pill sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-pill sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-kv__img"} -->
-<figure class="wp-block-image size-full ks-kv__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/k01.webp' ) ); ?>" alt="Hands sliding a taped coil of grey cable across a steel trade counter."/></figure>
+<figure class="wp-block-image size-full ks-kv__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/k01.webp' ) ); ?>" alt="Hands sliding a coil of grey cable across a steel trade counter."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

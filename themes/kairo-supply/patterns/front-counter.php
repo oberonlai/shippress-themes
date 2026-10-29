@@ -19,16 +19,16 @@
 
 <!-- wp:group {"className":"ks-12","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ks-12"><!-- wp:group {"className":"ks-counter__story sp-stagger","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-counter__story sp-stagger"><!-- wp:paragraph {"className":"ks-story sp-reveal sp-reveal--up"} -->
-<p class="ks-story sp-reveal sp-reveal--up">We built Kairo Supply around the daily pace of electrical contractors who cannot afford wasted morning hours.</p>
+<div class="wp-block-group ks-counter__story sp-stagger"><!-- wp:paragraph {"className":"ks-story sp-reveal sp-reveal--mask"} -->
+<p class="ks-story sp-reveal sp-reveal--mask">We built Kairo Supply around the daily pace of electrical contractors who cannot afford wasted morning hours.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"ks-story sp-reveal sp-reveal--up"} -->
-<p class="ks-story sp-reveal sp-reveal--up">When you arrive at Brennan Yard before dawn, your cable is measured and cut while you wait, and pre-ordered job packs sit tagged and waiting on the counter rack.</p>
+<!-- wp:paragraph {"className":"ks-story sp-reveal sp-reveal--mask"} -->
+<p class="ks-story sp-reveal sp-reveal--mask">When you arrive at Brennan Yard before dawn, your cable is measured and cut while you wait, and pre-ordered job packs sit tagged and waiting on the counter rack.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"ks-story sp-reveal sp-reveal--up"} -->
-<p class="ks-story sp-reveal sp-reveal--up">Standing in slow queues or sorting through unsorted components delays entire installation schedules.</p>
+<!-- wp:paragraph {"className":"ks-story sp-reveal sp-reveal--mask"} -->
+<p class="ks-story sp-reveal sp-reveal--mask">A typical morning: an electrician arrives at 06:30, collects pre-cut cable and a tagged job pack within minutes, and is on site before the first delivery truck has turned in.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
