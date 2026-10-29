@@ -62,7 +62,6 @@ return array(
 	'k5d364e1e' => '« Après des journées de neuf heures devant les écrans, ma nuque semblait verrouillée et les maux de tête épuisaient ma concentration. » Ana témoigne que des ajustements tout en douceur et des améliorations de son poste de travail ont permis d\'apaiser cette tension persistante, lui permettant d\'achever sa journée sans cette raideur habituelle.',
 	'k5e706a9b' => 'Consultation',
 	'k5f25a222' => 'Lun–Ven',
-	'k6002d762' => 'RETROUVER L\'AISANCE',
 	'k61523f20' => 'De longues heures en fauteuil de bureau compriment le bas de la colonne et raidissent les hanches. On se relève en fin de journée avec raideur et prudence, après quarante heures passées assis.',
 	'k638159c6' => 'Notre équipe réunit les chiropracteurs Dr. Naomi Hartley, Dr. Tomás Reyes et Dr. Priya Raman, le kinésiologue Samuel Osei et la massothérapeute Lena Vogel, soutenus à l\'accueil par Mei-Lin Chou et Claire Dubois. Répartis dans trois salles de soins et une salle de mouvement, nous offrons une prise en charge sans précipitation, pensée pour les exigences du travail de bureau.',
 	'k63d261f4' => 'hello@shisei.example',

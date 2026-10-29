@@ -62,7 +62,6 @@ return array(
 	'k5d364e1e' => '„Nach neunstündigen Bildschirmtagen fühlte sich mein Nacken wie blockiert an und Kopfschmerzen raubten mir die Konzentration.“ Ana berichtet, dass ruhige Justierungen und Anpassungen am Arbeitsplatz halfen, die anhaltenden Verspannungen zu lindern, sodass sie ihren Arbeitstag ohne das gewohnte Engegefühl beenden kann.',
 	'k5e706a9b' => 'Behandlung',
 	'k5f25a222' => 'Mo–Fr',
-	'k6002d762' => 'WIEDER ENTSPANNT',
 	'k61523f20' => 'Lange Stunden im Bürostuhl drücken die untere Wirbelsäule zusammen und verspannen die Hüften. Am Ende des Tages aufzustehen fühlt sich nach vierzig Stunden Sitzen steif und vorsichtig an.',
 	'k638159c6' => 'Unser Team vereint die Chiropraktikerinnen und Chiropraktiker Dr. Naomi Hartley, Dr. Tomás Reyes und Dr. Priya Raman, den Kinesiologen Samuel Osei und die Massagetherapeutin Lena Vogel. Mei-Lin Chou und Claire Dubois unterstützen das Team am Empfang. In drei Behandlungsräumen und einem Bewegungsraum bieten wir Betreuung ohne Eile, abgestimmt auf die Anforderungen der Schreibtischarbeit.',
 	'k63d261f4' => 'hello@shisei.example',
