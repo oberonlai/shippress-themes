@@ -13,7 +13,7 @@
 <div class="wp-block-group nc-hero__wrap"><!-- wp:group {"className":"nc-hero__stage","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-hero__stage"><!-- wp:group {"className":"nc-hero__photo sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group nc-hero__photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nc-hero__fig"} -->
-<figure class="wp-block-image size-full nc-hero__fig"><img fetchpriority="high" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/img-stair-light.webp' ) ); ?>" alt="<?php echo esc_attr( nodoka_counselling_t( 'alt_p15' ) ); ?>"/></figure>
+<figure class="wp-block-image size-full nc-hero__fig"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/img-stair-light.webp' ) ); ?>" alt="<?php echo esc_attr( nodoka_counselling_t( 'alt_p15' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"nc-hero__pt","layout":{"type":"default"}} -->
