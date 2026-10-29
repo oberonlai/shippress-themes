@@ -45,4 +45,7 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary hig
 - assets/images/p12.webp (clinician portrait)
 - assets/images/p13.webp (hours card: reception)
 - assets/images/p15.webp (fees: desk set-up round link)
-- assets/images/demo/note-desk.webp (sample article image, copy of p05)
+- assets/images/p14.webp (posture check; first visit and questions page heads)
+- assets/images/p16.webp (home stretch panel on Treatments, Stories head)
+- assets/images/p17.webp (clinic team; Clinicians and Notes heads)
+- assets/images/demo/note-sitting.webp (sample article image, resized copy of p04)

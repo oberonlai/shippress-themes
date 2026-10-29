@@ -48,7 +48,19 @@ Receipts for extended health plans on request; 24-hour cancellation. No prepayme
 - Ingrid Halvorsen, 42, translator — shoulder and jaw tension.
 
 ## Notes (blog)
-Six posts: a desk set-up you can check in five minutes; why your first visit takes an hour; three stretches between meetings; sitting is not the enemy, staying still is; what a follow-up actually does; when we send you to a physician instead.
+Sample content ships one article, "Sitting is not the enemy; staying still is" (desk notes). Planned topics for later: a desk set-up you can check in five minutes; why your first visit takes an hour; three stretches between meetings; what a follow-up actually does; when we send you to a physician instead.
 
 ## Pages
 Home, About, Conditions, Treatments, First visit, Fees, Clinicians, Stories, Notes, Questions, Contact & access.
+
+## Inner pages (en)
+Each page opens with the arch page head (arch photo with a white wordmark across its lower edge, an oval photo with two blurred echoes, the H1 and a short intro).
+- About: since 2015, what we do not do, our principles.
+- Conditions: neck and shoulders, lower back and hips, headaches and jaw, also seen (mid-back, forearm, sciatica-type pain), and when to see a physician first.
+- Treatments: adjustment, adjustment with soft-tissue work, movement plan session, desk and posture review; each ends with duration and price.
+- First visit: the four stages (Talk 15, Look 15, First adjustment 20, Plan 10), what to bring and wear, the follow-up rhythm.
+- Fees: the six-row price list (CAD, tax included), extended health plans, 24-hour cancellation, payment methods.
+- Clinicians: Dr. Naomi Hartley (founder), Dr. Tomás Reyes, Dr. Priya Raman, Samuel Osei, Lena Vogel, Mei-Lin Chou, Claire Dubois.
+- Stories: Ana Costa, Marcus Bell, Ingrid Halvorsen (they report; no guarantees).
+- Questions: ten answers as an accordion.
+- Contact & access: hours, location and access, booking by phone or email (online booking opens in 2027).
