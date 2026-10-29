@@ -71,6 +71,19 @@ function saji_culinary_go( $href, $label, $class = '' ) {
 }
 
 /**
+ * Full-bleed photo band with parallax (sp-parallax; the image moves slower than the page).
+ *
+ * @param string $file Image file.
+ * @param string $alt  Alt text.
+ * @return string Block markup.
+ */
+function saji_culinary_band( $file, $alt ) {
+	return '<!-- wp:cover {"url":"' . saji_culinary_img( $file ) . '","dimRatio":20,"overlayColor":"ink","isUserOverlayColor":true,"minHeight":56,"minHeightUnit":"vh","isDark":true,"align":"full","className":"saji-band sp-parallax"} -->' . "\n"
+		. '<div class="wp-block-cover alignfull saji-band sp-parallax" style="min-height:56vh"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background" alt="' . esc_attr( $alt ) . '" src="' . saji_culinary_img( $file ) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"></div></div>' . "\n"
+		. '<!-- /wp:cover -->';
+}
+
+/**
  * Content of one inner page in the content language (English when that language has no entry).
  *
  * @param string $slug Page slug.
@@ -141,6 +154,16 @@ function saji_culinary_inner( $slug ) {
 			$o .= '<tr><td>' . esc_html( $r[0] ) . '</td><td>' . esc_html( $r[1] ) . '</td><td>' . esc_html( $r[2] ) . '</td></tr>';
 		}
 		$o .= '</tbody></table></figure>' . "\n<!-- /wp:table -->\n\n";
+	}
+	if ( ! empty( $d['band'] ) ) {
+		// A full-bleed photo band with parallax splits the page; the copy sections continue in a second section.
+		$o .= '</div>' . "\n<!-- /wp:group --></section>\n<!-- /wp:group -->\n\n" . saji_culinary_band( $d['band'][0], $d['band'][1] ) . "\n\n";
+		$o .= '<!-- wp:group {"tagName":"section","align":"full","className":"saji-sec saji-inner saji-inner--cont","layout":{"type":"constrained"}} -->' . "\n" . '<section class="wp-block-group alignfull saji-sec saji-inner saji-inner--cont">';
+		$o .= '<!-- wp:group {"align":"wide","className":"saji-inner__body","layout":{"type":"default"}} -->' . "\n" . '<div class="wp-block-group alignwide saji-inner__body">';
+	}
+	foreach ( (array) ( $d['sections'] ?? array() ) as $sec ) {
+		$o .= '<!-- wp:heading {"level":2,"className":"saji-inner__h"} -->' . "\n" . '<h2 class="wp-block-heading saji-inner__h">' . esc_html( $sec[0] ) . '</h2>' . "\n<!-- /wp:heading -->\n\n";
+		$o .= '<!-- wp:paragraph -->' . "\n<p>" . esc_html( $sec[1] ) . "</p>\n<!-- /wp:paragraph -->\n\n";
 	}
 	$o .= saji_culinary_go( $d['go'][0], $d['go'][1], '' ) . '</div>' . "\n<!-- /wp:group --></section>\n<!-- /wp:group -->";
 	return $o;
