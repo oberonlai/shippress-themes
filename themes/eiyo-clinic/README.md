@@ -1,6 +1,6 @@
 # Eiyo Clinic
 
-Home page theme for a nutrition and dietetics clinic: white ground, cool paper, ink, one deep pine block, Instrument Sans and Public Sans. The home page opens on a rounded photograph inset from the sides that slowly crossfades and drifts with the scroll, with the headline under it and a paper strip at the right; then a four-line statement that lights up while scrolling, a coverflow problem row, a pine block with two hairline arches, three story cards, the people in the room, a quiet fee list and one closing strip. Works without WooCommerce.
+Theme for a nutrition and dietetics clinic: white ground, cool paper, ink, one deep pine block, Instrument Sans and Public Sans. The home page opens on a rounded photograph inset from the sides that slowly crossfades and drifts with the scroll, with the headline under it and a paper strip at the right; then a four-line statement that lights up while scrolling, a coverflow problem row, a pine block with two hairline arches, three story cards, the people in the room, a quiet fee list and one closing strip. Works without WooCommerce.
 
 ## Structure
 - `patterns/front-*.php` (home), `parts/header.html`, `parts/footer.html`; `templates/`; `demo-content.json`.

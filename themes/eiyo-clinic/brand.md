@@ -53,11 +53,13 @@ Payment by card. Itemised receipt (superbill) for your insurer on request; we do
 2. A four-line statement that fills from grey to ink while scrolling.
 3. A deep pine block rounded on two opposite corners holding two tall 1 px white arches that rise in.
 
+Continued on the inner pages: the inset photograph head (with a slow parallax drift) on every page; the lighting-up statement on About, Approach and Dietitians; pine blocks with hairline arches on Approach (three, staggered), Services (four, two by two), Fees (the three-month plan) and Contact (opening hours).
+
 ## Pages and contents
-Home (stage 1, English): inset photograph, statement, where eating stalls, how one consult runs, three stories, who is in the room, fees and visit, closing strip. Inner pages (stage 2): About, Approach, Services, Dietitians, Stories, Fees and insurance, Visit and contact, FAQ, Journal.
+Home (stage 1, English): inset photograph, statement, where eating stalls, how one consult runs, three stories, who is in the room, fees and visit, closing strip. Inner pages (stage 2, English, done): About, Approach, Services, Dietitians, Stories, Fees and insurance, Visit and contact, FAQ (eight questions), Journal with one article (The Case for the Plain Breakfast).
 
 ## Studio details (one synced source)
 - 418 Alder Row, Suite 2, Seattle, WA 98103; (206) 555-0143; hello@eiyoclinic.example; Mon–Fri 8:30–18:00 (Thu until 20:00); Sat 9:00–13:00; closed Sun and public holidays.
 
 ## Photography
-AI-generated high-key documentary photographs (Grok), diverse adults, sheer-curtain daylight, light oak, no text or logos. One shared style string for the whole theme; the home page uses 13 photographs (p01-p13), none repeated.
+AI-generated high-key documentary photographs (Grok), diverse adults, sheer-curtain daylight, light oak, no text or logos. One shared style string for the whole theme; the theme ships 18 photographs (p01-p17 plus the article image), the home page uses p01-p13 and no page repeats a photograph.
