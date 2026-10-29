@@ -12,8 +12,8 @@ Screenshots: brand/ref/sm-fold.png, sm-full.png, scroll-fade-before/mid/after.pn
 ## Colour relationships
 Ground pastel hue gradient (~75%), white veil sections (0.6), brown text #504742, heading #75645A, accent red pill #B8615E, white type on photos. Saturated share ~1%.
 
-## 成品對應
-| 參考元素 | 成品對應 |
+## Built result
+| Reference element | Built result |
 |---|---|
 | Right arch photo 700×809, radius 9999 9999 0 0, header → fold bottom | T1: left arch P01 (clinician steadying a seated desk worker's shoulder), same size/radius, mirrored per row (photo-left); inner pages: arch page head on all 10 pages |
 | White caps wordmark ~11vw straddling the arch bottom | T1: "BACK AT EASE" Figtree 300 caps clamp(4.25rem, 11vw, 9.875rem), white, across photo + ground; inner pages: page wordmark (ABOUT, FEES…) across the head arch |

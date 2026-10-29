@@ -1,6 +1,6 @@
 # Shisei Clinic: design spec (stage 1, binding for implementation)
 
-Slug `shisei-clinic`, chiropractic clinic for people who sit all week. Type **health** (business layout; WooCommerce declared compatible, not required). Design-plan row b18-1: archetype split-screen, hero photo-left-text-right, nav top-bar, real photography high-key, palette 青鈍 `#4A5962` (slate), fonts Figtree / Public Sans, font_direction **sans**, page_structure **narrative-problem-method-proof**.
+Slug `shisei-clinic`, chiropractic clinic for people who sit all week. Type **health** (business layout; WooCommerce declared compatible, not required). Design-plan row b18-1: archetype split-screen, hero photo-left-text-right, nav top-bar, real photography high-key, palette `#4A5962` (slate), fonts Figtree / Public Sans, font_direction **sans**, page_structure **narrative-problem-method-proof**.
 
 Reference (only one): **Sakura no Megumi acupuncture & osteopathic clinic, https://sakurano-megumi.com/** (S5-Style, medical/beauty). Measurements: `brand/reference-tokens.md` (token ids **a–g** cited in [brackets] below). Screenshots: `brand/ref/sm-fold.png` (first screen), `sm-full.png` (whole page), `scroll-fade-before/mid/after.png` (motion). We borrow structure, shapes, motion, colour relationships and the key-visual concept. We do **not** copy their photos, video, watercolour blossoms, text, catch copy or logo.
 
@@ -31,7 +31,7 @@ Fixed brand facts (every page, all five languages; details in §7): **Shisei Cli
 
 ### Supporting (not counted, also from the reference)
 - Concept block: tall arch portrait (≈480 wide, 0.7:1) with a round photo overlapping its bottom-right corner beside a 560 px text column [e].
-- Label rows: Latin caps word + 1 px hairline running to the right edge + small local label at the far right ("FEATURE ———— さくらの恵の特長") [f].
+- Label rows: Latin caps word + 1 px hairline running to the right edge + small local label at the far right ("FEATURE ———— features of the clinic") [f].
 - Full-bleed treatment panels with white title at right and "View details" pill bottom-right [e].
 - Bottom-to-top gradient mask fade on every block below the fold [g] (§8).
 
@@ -64,7 +64,7 @@ Every inner page opens with the **arch page head** = T1 + T2 in small: left arch
 High-key photograph in an arch on the **left**: a plain white treatment table by a window; a patient in a grey knit top sits upright on it with eyes closed, the clinician stands just behind, one hand steadying the patient's shoulder, the other resting at the base of the neck — the moment before a small, exact correction. Top-right, the oval close-up of the clinician's hands on the shoulder blade, with two blurred echoes stepping down. In the right half a two-line H1 ("A small, exact correction / after a week at a desk."), one sentence and a text link. Across the bottom the white wordmark "BACK AT EASE", half on the photo, half on the slate field. **Story**: shisei (posture) — the week of sitting is undone in one quiet, precise hour. **Motion**: same sequence and same mask fade (photo 0 s, oval 0.4 s, H1 0.8 s, wordmark 1.5 s; 1.2 s ease-out each); the slate field drifts slowly; the arch photo moves with `sp-parallax` while scrolling.
 
 ### (3) KV checklist (all six visible on the home first screen at 1440×900; mobile 390×844 notes in §6)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Image |
 |---|---|---|---|---|---|
 | 1 | Right arch photo: client lying back, practitioner's hands at the head | Left arch photo: clinician steadying a seated desk worker's shoulder and neck on a white table | x 40–740, header bottom → hero bottom (mobile: full width −40 px, 400 tall, top) | load mask fade 0 s, 1.2 s ease-out; scroll `sp-parallax --sp-par:8%` (mobile 5%) | **P01** |
 | 2 | White caps wordmark "SOFTLY ALIGNED" straddling arch bottom | White caps wordmark "BACK AT EASE", Figtree 300, `clamp(4.25rem,11vw,9.875rem)` crossing photo + ground | bottom of hero, left/right 32 px, bottom 28 px (mobile: in flow over arch bottom) | mask fade +1.5 s | — (type) |
@@ -166,7 +166,7 @@ Contrast: `#434C51` on `#E9EEF1` 7.9:1; white on `#4A5962` 7.2:1; body text neve
 
 ### Type (font_direction **sans**)
 - Latin headings and display: **Figtree** (300, 400, 500, 600). Latin body: **Public Sans** (400, 500, 600). Both self-hosted woff2 via theme.json `fontFamilies` + `fontFace` (front end and block editor load the same files).
-- Stacks: heading `"Figtree", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; body `"Public Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`. `:lang(zh-TW)` puts Noto Sans TC first, `:lang(ja)` Noto Sans JP first (黑體 / ゴシック, **no Serif/明朝 anywhere**). Noto Sans TC / JP 400 + 500 subset woff2 declared as `fontFace` in theme.json; subsets made with the Hokuto/Hada workaround (the CJK subset script is known broken). Because style.css uses `:lang(`, copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and require it.
+- Stacks: heading `"Figtree", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; body `"Public Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`. `:lang(zh-TW)` puts Noto Sans TC first, `:lang(ja)` Noto Sans JP first (gothic sans, **no serif anywhere**). Noto Sans TC / JP 400 + 500 subset woff2 declared as `fontFace` in theme.json; subsets made with the Hokuto/Hada workaround (the CJK subset script is known broken). Because style.css uses `:lang(`, copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and require it.
 - Font size presets (theme.json): small 0.8125rem · base 1rem · medium 1.25rem (section label H2 20 px [b]) · large 1.5rem (H3 24 px [b]) · x-large 2rem (lead H2 32 px [b]) · xx-large 4rem (panel titles 64 px [b]) · **display `clamp(4.25rem, 11vw, 9.875rem)`** (wordmark ≈158 px at 1440 [b]; max ≥ 4.25rem ✓).
 - Weights / line-height / tracking: body 400, 1rem, lh 1.75 (28/16 [b]), mobile 0.9375rem; lead H2 Figtree 400 lh 1.75 (56/32 [b]) ls 0.08em Latin / 0.16em CJK [b]; H3 Figtree 500 1.5rem lh 1.5 ls 0.04em (CJK 0.08em [b]); wordmark 300 lh 1 ls 0.04em [b]; label rows Figtree 300 2.5rem caps ls 0.04em.
 - CJK: headings ≈ 0.75× the English size (lead H2 1.5rem, H1 1.75rem), body lh 1.85, wordmarks stay Latin. fr/de: `hyphens: auto` on body and H1–H3.
