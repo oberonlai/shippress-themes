@@ -405,3 +405,21 @@ img { max-width: 100%; height: auto; }
 .saji-inner__body > .saji-inner__h:first-child { margin-top: 0 !important; }
 .saji-inner__rows + .saji-inner__h, .saji-ledger + .saji-inner__h { margin-top: 24px !important; }
 @media (max-width: 781px) { .saji-sec.saji-inner--cont { padding-top: 64px; } .saji-inner__h { font-size: 1.5rem; margin-top: 40px !important; } }
+
+/* ---------- stage-2 redo: hero timeline ---------- */
+/* the inner container shrank to the width of its in-flow content (the timeline items were all absolute, 0 wide) */
+.saji-hero .wp-block-cover__inner-container { flex: 0 0 100%; box-sizing: border-box; }
+@media (min-width: 782px) {
+	.saji-hero .saji-tl { position: static; height: 0; margin: 0; border: 0; }
+	.saji-hero .saji-tl::before { content: ""; position: absolute; left: 22%; right: 8%; bottom: 79px; height: 1px; background: #F6F5F2; }
+	.saji-hero .saji-tl .saji-tl__i { top: auto; bottom: 79px; }
+	.saji-hero .saji-tl__i--1 { left: 22%; } .saji-hero .saji-tl__i--2 { left: calc(22% + (70% * .2)); } .saji-hero .saji-tl__i--3 { left: calc(22% + (70% * .4)); } .saji-hero .saji-tl__i--4 { left: calc(22% + (70% * .6)); } .saji-hero .saji-tl__i--5 { left: calc(22% + (70% * .8)); } .saji-hero .saji-tl__i--end { left: 92%; }
+}
+.saji-tl__i--1::before { width: 11px; height: 11px; left: -5.5px; top: -6px; }
+@media (min-width: 782px) { .saji-hero::before { background: linear-gradient(to top, rgba(30,44,48,.68), rgba(30,44,48,.3) 20%, transparent 36%); } .saji-tl__time, .saji-tl__label { text-shadow: 0 1px 8px rgba(0,0,0,.7), 0 0 2px rgba(0,0,0,.5); } }
+@media (max-width: 479px) { .saji-tl__i--2 .saji-tl__time, .saji-tl__i--4 .saji-tl__time { bottom: 16px; } .saji-hero .saji-tl { margin-top: 48px; } .saji-tl__time { font-size: 0.75rem; } .saji-tl__i--end .saji-tl__time { transform: translateX(-100%); } }
+/* brick accents: current term stamp, pill menu hover / current */
+.saji-stamp--cell.saji-stamp--1 { background: var(--sj-brick); }
+.saji-stamp--cell.saji-stamp--1::after { border-color: var(--sj-paper); }
+.saji-head-part .saji-nav .wp-block-navigation-item a.wp-block-navigation-item__content:hover, .saji-head-part .saji-nav .wp-block-navigation-item.current-menu-item > a.wp-block-navigation-item__content, .saji-head-part .saji-nav .wp-block-navigation-item a[aria-current="page"] { background: var(--sj-brick); color: #fff; }
+@media (min-width: 782px) { html.saji-js body.home:not(.saji-past-hero) .saji-head-part .saji-nav .wp-block-navigation-item a.wp-block-navigation-item__content:hover, html.saji-js body.home:not(.saji-past-hero) .saji-head-part .saji-nav .wp-block-navigation-item a[aria-current="page"] { background: none; } }

@@ -134,7 +134,7 @@ return array(
 		'sub' => 'four steps to a place',
 		'img' => 'd2-fish.webp',
 		'alt' => 'A filleted fish on a steel bench.',
-		'pull' => 'Admissions at Saji are designed to identify commitment, stamina, and enthusiasm rather than previous culinary experience. We welcome twenty-four students per intake across two terms each year.',
+		'pull' => 'Admissions at Saji are designed to identify commitment, stamina, and enthusiasm rather than previous culinary experience. We welcome twenty-four students per intake across two intakes each year (February and September).',
 		'paras' => array(  ),
 		'rows' => array(
 			array( '1. Apply online', 'Step one', '', 'Send the short form with a few lines about why you want to cook.' ),
