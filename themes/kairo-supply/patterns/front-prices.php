@@ -12,104 +12,104 @@
 <section id="prices" class="wp-block-group alignfull ks-sec ks-prices"><!-- wp:group {"className":"ks-12","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ks-12"><!-- wp:group {"className":"ks-prices__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-prices__head"><!-- wp:heading {"level":2,"className":"ks-h2"} -->
-<h2 class="wp-block-heading ks-h2">Prices and credit on account</h2>
+<h2 class="wp-block-heading ks-h2"><?php echo wp_kses_post( kairo_supply_t( 'k625105c4' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Trade accounts carry thirty-day terms from monthly statements and credit up to €5,000 at opening, subject to approval and reviewed after three months. Cable cut to length carries no cut fee for lengths from five metres. Job packs picked and labelled by job cost €8 per pack when ordered by 15:00 for 06:30 collection. Van drops within twenty kilometres are €15 for orders placed before 11:00. Cable drum deposits of €40 are refunded in full upon return. All prices exclude VAT.</p>
+<p><?php echo wp_kses_post( kairo_supply_t( 'kde37299d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-prices__pill","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-prices__pill"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-img-pill"} -->
-<figure class="wp-block-image size-full ks-img-pill"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/k08.webp' ) ); ?>" alt="A contractor and counter staff reviewing a paper order list together on the counter."/></figure>
+<figure class="wp-block-image size-full ks-img-pill"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/k08.webp' ) ); ?>" alt="<?php echo esc_attr( kairo_supply_t( 'a2823a1a6' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-table","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-table"><!-- wp:group {"className":"ks-table__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-table__row"><!-- wp:paragraph {"className":"ks-table__item"} -->
-<p class="ks-table__item">Trade account</p>
+<p class="ks-table__item"><?php echo wp_kses_post( kairo_supply_t( 'kcbb19910' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__detail"} -->
-<p class="ks-table__detail">30-day terms, credit up to €5,000, up to 5 named buyers</p>
+<p class="ks-table__detail"><?php echo wp_kses_post( kairo_supply_t( 'kc1c91f39' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__price"} -->
-<p class="ks-table__price">No fee</p>
+<p class="ks-table__price"><?php echo wp_kses_post( kairo_supply_t( 'k87ab78d8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ks-table__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-table__row"><!-- wp:paragraph {"className":"ks-table__item"} -->
-<p class="ks-table__item">Cable cut to length</p>
+<p class="ks-table__item"><?php echo wp_kses_post( kairo_supply_t( 'k35af2ad2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__detail"} -->
-<p class="ks-table__detail">Any length from 5 m, cut while you wait (≤ 10 min)</p>
+<p class="ks-table__detail"><?php echo wp_kses_post( kairo_supply_t( 'k2f9053d4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__price"} -->
-<p class="ks-table__price">€0 per cut</p>
+<p class="ks-table__price"><?php echo wp_kses_post( kairo_supply_t( 'k2a301d98' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ks-table__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-table__row"><!-- wp:paragraph {"className":"ks-table__item"} -->
-<p class="ks-table__item">Job pack</p>
+<p class="ks-table__item"><?php echo wp_kses_post( kairo_supply_t( 'kb4fec13f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__detail"} -->
-<p class="ks-table__detail">Picked and labelled by job; pick list by 15:00, ready 06:30</p>
+<p class="ks-table__detail"><?php echo wp_kses_post( kairo_supply_t( 'k360c8134' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__price"} -->
-<p class="ks-table__price">€8 per pack</p>
+<p class="ks-table__price"><?php echo wp_kses_post( kairo_supply_t( 'kd8fe8c1b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ks-table__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-table__row"><!-- wp:paragraph {"className":"ks-table__item"} -->
-<p class="ks-table__item">Van delivery</p>
+<p class="ks-table__item"><?php echo wp_kses_post( kairo_supply_t( 'kace6f2a8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__detail"} -->
-<p class="ks-table__detail">Within 20 km, same day if ordered by 11:00</p>
+<p class="ks-table__detail"><?php echo wp_kses_post( kairo_supply_t( 'k64f1be27' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__price"} -->
-<p class="ks-table__price">€15 per drop</p>
+<p class="ks-table__price"><?php echo wp_kses_post( kairo_supply_t( 'k46ae74cf' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ks-table__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-table__row"><!-- wp:paragraph {"className":"ks-table__item"} -->
-<p class="ks-table__item">Cable drum deposit</p>
+<p class="ks-table__item"><?php echo wp_kses_post( kairo_supply_t( 'k89496d7b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__detail"} -->
-<p class="ks-table__detail">Refunded in full when the drum comes back</p>
+<p class="ks-table__detail"><?php echo wp_kses_post( kairo_supply_t( 'k1eebaf41' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__price"} -->
-<p class="ks-table__price">€40 per drum</p>
+<p class="ks-table__price"><?php echo wp_kses_post( kairo_supply_t( 'kab4b4c6d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ks-table__row","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-table__row"><!-- wp:paragraph {"className":"ks-table__item"} -->
-<p class="ks-table__item">Special order</p>
+<p class="ks-table__item"><?php echo wp_kses_post( kairo_supply_t( 'kdc0bc1a0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__detail"} -->
-<p class="ks-table__detail">Non-stock lines, 3–5 working days</p>
+<p class="ks-table__detail"><?php echo wp_kses_post( kairo_supply_t( 'k35a588be' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ks-table__price"} -->
-<p class="ks-table__price">€0 · 20% deposit</p>
+<p class="ks-table__price"><?php echo wp_kses_post( kairo_supply_t( 'k7af75d55' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-prices__note","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-prices__note"><!-- wp:paragraph -->
-<p>Prices ex VAT. Credit up to €5,000 on 30-day terms, subject to approval.</p>
+<p><?php echo wp_kses_post( kairo_supply_t( 'k74a952c3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-ks-pill"} -->
-<div class="wp-block-button is-style-ks-pill"><a class="wp-block-button__link wp-element-button" href="/prices/">Full prices &amp; credit</a></div>
+<div class="wp-block-button is-style-ks-pill"><a class="wp-block-button__link wp-element-button" href="/prices/"><?php echo wp_kses_post( kairo_supply_t( 'k8b27140c' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

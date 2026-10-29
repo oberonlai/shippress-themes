@@ -12,20 +12,20 @@
 <section id="how" class="wp-block-group alignfull ks-sec ks-how"><!-- wp:group {"className":"ks-12","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ks-12"><!-- wp:group {"className":"ks-how__left","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-how__left"><!-- wp:heading {"level":2,"className":"ks-h2"} -->
-<h2 class="wp-block-heading ks-h2">How an account opens</h2>
+<h2 class="wp-block-heading ks-h2"><?php echo wp_kses_post( kairo_supply_t( 'k0ea1d83a' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ks-sub"} -->
-<p class="ks-sub">Two working days, four steps</p>
+<p class="ks-sub"><?php echo wp_kses_post( kairo_supply_t( 'kd23e19be' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Opening a trade account takes two working days through four straightforward steps. Apply online or directly at the counter in ten minutes using your registered company name, VAT number, and one trade reference. Mei Lin Hart reviews your details and runs a credit check the same day, establishing credit terms up to €5,000 and issuing counter cards for up to five authorised buyers by the next working day. Once registered, your team can order for same-day delivery or collect pre-picked crates from trade yard lockers starting at 06:00.</p>
+<p><?php echo wp_kses_post( kairo_supply_t( 'kea8c3d1c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-ks-pill-fill"} -->
-<div class="wp-block-button is-style-ks-pill-fill"><a class="wp-block-button__link wp-element-button" href="/apply/">Open a trade account</a></div>
+<div class="wp-block-button is-style-ks-pill-fill"><a class="wp-block-button__link wp-element-button" href="/apply/"><?php echo wp_kses_post( kairo_supply_t( 'kc7f252f5' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -35,7 +35,7 @@
 <div class="wp-block-group ks-how__col sp-stagger"><!-- wp:group {"className":"ks-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-card sp-reveal sp-reveal--up"><!-- wp:group {"className":"ks-card__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-card__in"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label">Step 1</p>
+<p class="ks-label"><?php echo wp_kses_post( kairo_supply_t( 'k6f4a225b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-card__glyph","layout":{"type":"default"}} -->
@@ -43,11 +43,11 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Apply</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( kairo_supply_t( 'k9639e32c' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Apply online or at the counter in 10 minutes with your company name, VAT number, and one trade reference.</p>
+<p><?php echo wp_kses_post( kairo_supply_t( 'kcad7e752' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -55,7 +55,7 @@
 <!-- wp:group {"className":"ks-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-card sp-reveal sp-reveal--up"><!-- wp:group {"className":"ks-card__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-card__in"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label">Step 3</p>
+<p class="ks-label"><?php echo wp_kses_post( kairo_supply_t( 'k2d5ce426' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-card__glyph","layout":{"type":"default"}} -->
@@ -63,11 +63,11 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Counter card</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( kairo_supply_t( 'k6c1977b0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Counter card and up to 5 named buyers set up by the next working day.</p>
+<p><?php echo wp_kses_post( kairo_supply_t( 'k49c34617' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -77,7 +77,7 @@
 <div class="wp-block-group ks-how__col sp-stagger"><!-- wp:group {"className":"ks-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-card sp-reveal sp-reveal--up"><!-- wp:group {"className":"ks-card__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-card__in"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label">Step 2</p>
+<p class="ks-label"><?php echo wp_kses_post( kairo_supply_t( 'ke31ad128' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-card__glyph","layout":{"type":"default"}} -->
@@ -85,11 +85,11 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Credit check</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( kairo_supply_t( 'k623c39a4' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Credit check completed the same day.</p>
+<p><?php echo wp_kses_post( kairo_supply_t( 'k1bdf72d3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -97,7 +97,7 @@
 <!-- wp:group {"className":"ks-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-card sp-reveal sp-reveal--up"><!-- wp:group {"className":"ks-card__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-card__in"><!-- wp:paragraph {"className":"ks-label"} -->
-<p class="ks-label">Step 4</p>
+<p class="ks-label"><?php echo wp_kses_post( kairo_supply_t( 'k7882a4b5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ks-card__glyph","layout":{"type":"default"}} -->
@@ -105,11 +105,11 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">First order</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( kairo_supply_t( 'k64500d3e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>First order placed on account.</p>
+<p><?php echo wp_kses_post( kairo_supply_t( 'k8709e998' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
