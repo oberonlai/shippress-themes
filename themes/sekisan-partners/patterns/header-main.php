@@ -14,7 +14,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sk-rail__lang"} -->
-<p class="sk-rail__lang"><span class="is-current" aria-current="true">EN</span><span lang="zh-TW">繁</span><span lang="ja">日</span><span lang="fr">FR</span><span lang="de">DE</span></p>
+<p class="sk-rail__lang"><span class="is-current" aria-current="true">EN</span><span lang="zh-TW">ZH</span><span lang="ja">JA</span><span lang="fr">FR</span><span lang="de">DE</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sk-rail__word"} -->
