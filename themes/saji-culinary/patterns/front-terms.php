@@ -16,7 +16,7 @@
 <!-- wp:group {"align":"wide","className":"saji-grid saji-grid--4 sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide saji-grid saji-grid--4 sp-stagger"><!-- wp:group {"className":"saji-cell sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group saji-cell sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"saji-stamp saji-stamp--cell saji-stamp--1"} -->
-<p class="saji-stamp saji-stamp--cell saji-stamp--1"></p>
+<p class="saji-stamp saji-stamp--cell saji-stamp--1">I</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"saji-cell__photo"} -->
@@ -40,7 +40,7 @@
 
 <!-- wp:group {"className":"saji-cell sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group saji-cell sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"saji-stamp saji-stamp--cell saji-stamp--2"} -->
-<p class="saji-stamp saji-stamp--cell saji-stamp--2"></p>
+<p class="saji-stamp saji-stamp--cell saji-stamp--2">II</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"saji-cell__photo"} -->
@@ -64,7 +64,7 @@
 
 <!-- wp:group {"className":"saji-cell sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group saji-cell sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"saji-stamp saji-stamp--cell saji-stamp--3"} -->
-<p class="saji-stamp saji-stamp--cell saji-stamp--3"></p>
+<p class="saji-stamp saji-stamp--cell saji-stamp--3">III</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"saji-cell__photo"} -->
@@ -88,7 +88,7 @@
 
 <!-- wp:group {"className":"saji-cell sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group saji-cell sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"saji-stamp saji-stamp--cell saji-stamp--4"} -->
-<p class="saji-stamp saji-stamp--cell saji-stamp--4"></p>
+<p class="saji-stamp saji-stamp--cell saji-stamp--4">IV</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"saji-cell__photo"} -->

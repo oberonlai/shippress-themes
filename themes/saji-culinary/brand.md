@@ -7,6 +7,9 @@ The school draws its name from saji, the Japanese tasting spoon. On day one, eve
 
 By week three, students step onto the line to cook midday service for the public at The Pass, our on-site dining room. Marta and Owen built the curriculum around daily live lunch service, ensuring that timing, temperature, teamwork, and accountability become instinctive habits long before graduation.
 
+## Audience
+Our audience is prospective students: career-changers and school-leavers aged 18 to 35 who want to cook professionally, plus the parents and employers who support or sponsor them, and the public guests who book lunch at The Pass.
+
 ## Facts
 - Founded: 2011
 - Address: Veerkade 18, 3016 DE Rotterdam, Netherlands

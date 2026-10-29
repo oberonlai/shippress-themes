@@ -34,7 +34,7 @@ function saji_culinary_word( $word, $sub, $seal = '', $level = 2 ) {
 	$mod = 'new' === $seal ? ' saji-word__w--new' : '';
 	return '<!-- wp:group {"className":"saji-word sp-reveal sp-reveal--up","layout":{"type":"default"}} -->' . "\n"
 		. '<div class="wp-block-group saji-word sp-reveal sp-reveal--up"><!-- wp:heading {"level":' . (int) $level . ',"className":"saji-word__w' . $mod . '"} -->' . "\n"
-		. '<h' . (int) $level . ' class="wp-block-heading saji-word__w' . $mod . '">' . esc_html( $word ) . '</h' . (int) $level . '>' . "\n"
+		. '<h' . (int) $level . ' class="wp-block-heading saji-word__w' . $mod . '">' . esc_html( $word ) . ( 'new' === $seal ? '<span class="saji-word__seal">new</span>' : '' ) . '</h' . (int) $level . '>' . "\n"
 		. '<!-- /wp:heading -->' . "\n\n"
 		. '<!-- wp:paragraph {"className":"saji-word__sub"} -->' . "\n"
 		. '<p class="saji-word__sub">' . esc_html( $sub ) . '</p>' . "\n"

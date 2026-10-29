@@ -1,6 +1,6 @@
 # Saji Culinary School: design spec (stage 1, binding for implementation)
 
-Slug `saji-culinary`, professional culinary school, type `business` (declare WooCommerce support, nothing needs it). Design-plan row b18-2: archetype editorial-magazine, first screen `timeline-line`, page structure `day-schedule`, palette 鉄紺 `#1E2C30`, fonts Newsreader + Source Sans 3, font_direction **serif**.
+Slug `saji-culinary`, professional culinary school, type `business` (declare WooCommerce support, nothing needs it). Design-plan row b18-2: archetype editorial-magazine, first screen `timeline-line`, page structure `day-schedule`, palette tetsukon (iron navy) `#1E2C30`, fonts Newsreader + Source Sans 3, font_direction **serif**.
 Main reference: **menma.jp** (https://menma.jp/, food maker, collected on S5-Style). No secondary. Measurements are in `reference-tokens.md` (cited below as `tok(a)`…`tok(g)`). Screens: `ref/menma-first.png`, `ref/scroll-menma-before-unknown.png`, `ref/scroll-menma-after-cards.png`, `ref/menma-news.png`.
 We borrow structure, techniques, colour relationships and the hero concept. We do **not** copy menma's photos, illustrations, mascot, logo, hanzi stamps or wording.
 
@@ -34,7 +34,7 @@ Fixed brand facts (every page, all five languages): Saji Culinary School, founde
 - **Mobile (<782):** no vertical text and no absolutely positioned labels on the first screen. Header = lockup (mark + "Saji" 1.5rem white) left and the ø44 menu disc right, in normal flow. The headline is horizontal, Newsreader 2.25rem/1.15 white, in flow at the bottom of the hero above the timeline, on a bottom scrim `linear-gradient(to top, rgba(30,44,48,.62), rgba(30,44,48,0) 55%)`. The stacked nav is not shown (menu overlay instead); "Apply" pill sits under the headline.
 - **Do not dilute:** the desktop headline must be truly vertical (not rotated text, not horizontal), on the photo's right quarter; the nav must be a left stack on the photo, not a top bar; after the hero the pills must be filled ink, 47 px, fully round.
 
-### T3. Giant wide-tracked section word + circled seal biting its last letter, beside a ø260 halftone round portrait (menma "UNKNOWN CHARM" and "NEWS 新", `ref/scroll-menma-before-unknown.png`, `ref/menma-news.png`, `tok(b)` `tok(e)` `tok(f)`)
+### T3. Giant wide-tracked section word + circled seal biting its last letter, beside a ø260 halftone round portrait (menma "UNKNOWN CHARM" and "NEWS "new" hanzi", `ref/scroll-menma-before-unknown.png`, `ref/menma-news.png`, `tok(b)` `tok(e)` `tok(f)`)
 - **Reference:** a band about 400 px high; one or two giant uppercase words (90–120 px, very bold, wide tracking) with a small tracked Japanese subtitle in red under them; to the left a ø≈260 round portrait printed as a red/black halftone, its lower part red. On NEWS a ø120 thin red circle with one glyph overlaps the top of the word's last letter by about a third.
 - **Saji word:** Newsreader 600, uppercase, `font-size: clamp(3.5rem, 7.2vw, 6.5rem)` (preset `xxx-large`, the theme maximum), letter-spacing 0.08em, line-height 0.98, `#1E2C30`, left-aligned to the content column (never centred). Under it, 14 px gap, the subtitle: Newsreader italic 400 1.75rem, letter-spacing 0.06em, `#A8432F` (the reference's red ~28 px tracked subtitle).
 - **Seal:** `span.saji-seal` ø120 (≥1024; ø88 on 782–1023; ø64 <782), 1 px `#A8432F` circle, transparent fill, holding either our spoon mark (stroke 1.5 px `#A8432F`, 44 px high) or, on Notices only, the italic word "new" in Newsreader italic 2.25rem `#A8432F`. Position: absolutely placed relative to the word's last line: `right: -0.55em; top: -0.42em` of the word box, so the circle covers the upper-right third of the last letter (the word gets `display:inline-block; position:relative`). The seal is decorative, `aria-hidden`.
@@ -91,7 +91,7 @@ Mobile (390): items 1, 2, 3, 5 (as lockup + menu disc) and 6 stay; 4 becomes a h
 
 | Role | Hex | Source / change | Use | Share |
 |---|---|---|---|---|
-| Main ink (鉄紺) | `#1E2C30` | row hex; takes the role of menma's red frame/pill colour `#DA0000` | frame, stamps, nav pills, section words, footer, visit band, buttons | ~30% of a page |
+| Main ink (tetsukon (iron navy)) | `#1E2C30` | row hex; takes the role of menma's red frame/pill colour `#DA0000` | frame, stamps, nav pills, section words, footer, visit band, buttons | ~30% of a page |
 | Ground | `#F6F5F2` | menma off-white `#F9F7F5`, −1.5% lightness | page ground, cards, pill text | ~40% |
 | Secondary (steel mist) | `#D9E0E0` | replaces menma paper `#EFE8DB` | day-schedule band, halftone disc ground, note rules | ~15% |
 | Text | `#262629` | menma text `#262629` (unchanged) | body text | — |
@@ -99,7 +99,7 @@ Mobile (390): items 1, 2, 3, 5 (as lockup + menu disc) and 6 stay; 4 becomes a h
 | Muted text | `#5D6669` | derived from ink | dates, meta, captions | — |
 | Rule (light) | `#C9D0D0` | menma tan rule `#D9C9A8` role, cooled | notices list rules, form borders | — |
 
-Why the two changes: (1) menma's pure red `#DA0000` frame and green `#05A954` giant words read as packaged-food retail; the row requires a quiet 鉄紺 palette, so the frame/words take the ink and the red survives only as the brick accent in the same roles (subtitle, seal, card rules). (2) menma's paper `#EFE8DB` is cream, which common rules tell us to avoid; steel mist keeps the "second ground" role and matches the steel pass. Every other relationship (dark frame around a photo, off-white ground, accent on subtitles/seal/rules, ≈3% saturated on the first screen) is kept.
+Why the two changes: (1) menma's pure red `#DA0000` frame and green `#05A954` giant words read as packaged-food retail; the row requires a quiet tetsukon (iron navy) palette, so the frame/words take the ink and the red survives only as the brick accent in the same roles (subtitle, seal, card rules). (2) menma's paper `#EFE8DB` is cream, which common rules tell us to avoid; steel mist keeps the "second ground" role and matches the steel pass. Every other relationship (dark frame around a photo, off-white ground, accent on subtitles/seal/rules, ≈3% saturated on the first screen) is kept.
 
 - **First-screen saturated cap:** `check-first-screen.py` gate **15%**, target ≤ 8% (row note allows up to 30%; reference ≈ 3%). Only saturated items on the first screen: brick stamp rings, first tick, whatever colour the photo has. The H1 grade is muted cool-neutral (steel, white jackets, pale tiles), with greens/herbs small.
 - Contrast: `#262629` on `#F6F5F2` 14.6:1; white on `#1E2C30` 14.9:1; `#A8432F` on `#F6F5F2` 5.6:1 (subtitles fine at any size).
@@ -109,7 +109,7 @@ Why the two changes: (1) menma's pure red `#DA0000` frame and green `#05A954` gi
 ## 4. Typography (font_direction: serif)
 
 - **Latin display:** Newsreader (variable, opsz 6–72, wght 400–600, normal + italic). **Latin body/UI:** Source Sans 3 (variable wght 400–700).
-- **CJK (明體, both headings and body, no 黑體 anywhere):** Noto Serif TC (zh-TW), Noto Serif JP (ja), weights 400 and 600, subset files.
+- **CJK (Mincho/Ming serif, both headings and body, no gothic/sans anywhere):** Noto Serif TC (zh-TW), Noto Serif JP (ja), weights 400 and 600, subset files.
 - Stacks (theme.json `fontFamilies`):
   - `display`: `"Newsreader", "Noto Serif TC", "Noto Serif JP", Georgia, "Times New Roman", serif`
   - `body`: `"Source Sans 3", "Noto Serif TC", "Noto Serif JP", system-ui, sans-serif`
@@ -255,13 +255,13 @@ Per-page check: Home H1 P1 D1–D4 S1 C1 G1–G3 V1 (12). Day K1 K6 K2 P1 S1. Pr
 - **Section words per language** (keep short; seal and portrait as specified):
   | en | zh-TW | ja | fr | de |
   |---|---|---|---|---|
-  | THE PASS | 出餐台 | THE PASS | LE PASSE | DER PASS |
-  | A DAY | 一日 | 一日 | UN JOUR | EIN TAG |
-  | FOUR TERMS | 四個學期 | 四学期 | 4 TRIMESTRES | VIER TERMINE |
-  | BRIGADE | 廚房團隊 | BRIGADE | BRIGADE | BRIGADE |
-  | KITCHENS | 廚房 | KITCHENS | CUISINES | KÜCHEN |
-  | NOTICES | 公告 | お知らせ | AVIS | HINWEISE |
-  Vertical headline: en "Cooks are made / at the pass." · zh-TW「廚師，/ 在出餐台上養成。」· ja「料理人は、/ パスで育つ。」· fr "Le cuisinier / naît au passe." · de "Köche entstehen / am Pass."
+  | THE PASS | (see demo-content) | THE PASS | LE PASSE | DER PASS |
+  | A DAY | (see demo-content) | (see demo-content) | UN JOUR | EIN TAG |
+  | FOUR TERMS | (see demo-content) | (see demo-content) | 4 TRIMESTRES | VIER TERMINE |
+  | BRIGADE | (see demo-content) | BRIGADE | BRIGADE | BRIGADE |
+  | KITCHENS | (see demo-content) | KITCHENS | CUISINES | KÜCHEN |
+  | NOTICES | (see demo-content) | (see demo-content) | AVIS | HINWEISE |
+  Vertical headline: en "Cooks are made / at the pass." · zh-TW, ja: see demo-content.zh-TW.json / demo-content.ja.json · fr "Le cuisinier / naît au passe." · de "Köche entstehen / am Pass."
 
 ---
 

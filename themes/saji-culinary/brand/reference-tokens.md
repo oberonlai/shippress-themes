@@ -13,6 +13,6 @@
 ## (e) Imagery — IMAGERY = photo (hero + product photography on white; secondary mascot illustrations are minor)
 - Hero: one candid documentary photo, full-bleed, warm interior, person eating, 100% width × 100vh, no mask. Product shots 1:1 on white, cards 358 px wide. Halftone circle portrait ø≈260 beside the big section word.
 ## (f) Decoration
-- Four ø32 round stamps with one hanzi each sitting in the four corners of the red frame (fixed). Circled seal "新" overlapping the last letter of a giant word. Oval outline arrow buttons. Fixed bottom-right red pill "MODE CHANGE".
+- Four ø32 round stamps with one hanzi each sitting in the four corners of the red frame (fixed). Circled seal ""new" hanzi" overlapping the last letter of a giant word. Oval outline arrow buttons. Fixed bottom-right red pill "MODE CHANGE".
 ## (g) Motion
 - GSAP + ScrollTrigger + Lenis smooth scroll. Children fade-up: autoAlpha 0→1, y 50→0, .5 s, stagger .25, power1.out, start "top 83%". Per-char split: opacity 0→1, y 20→0, .6 s, stagger .05, power3.out, "top 80%" once. Random-order char pop scale 1.03–1.5→1 .3 s. Pinned header (scrub 1). Header pills slide over photo on scroll.

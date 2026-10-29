@@ -26,3 +26,16 @@ Saji Culinary School theme, (C) ShipPress, GPL-2.0-or-later.
 Fonts: Newsreader, Source Sans 3, Noto Serif TC and Noto Serif JP, SIL Open Font License 1.1 (see assets/fonts/OFL-*.txt).
 Images: all photographs in assets/images were AI-generated for this theme and are released under CC0.
 Scroll effects: assets/sp-scroll.css and sp-scroll.js (ShipPress, GPL-2.0-or-later), no third-party libraries.
+Image file: assets/images/c1-instructor.webp, AI-generated for this theme, CC0.
+Image file: assets/images/d1-cuts.webp, AI-generated for this theme, CC0.
+Image file: assets/images/d2-fish.webp, AI-generated for this theme, CC0.
+Image file: assets/images/d3-tart.webp, AI-generated for this theme, CC0.
+Image file: assets/images/d4-plate.webp, AI-generated for this theme, CC0.
+Image file: assets/images/g1-hotel.webp, AI-generated for this theme, CC0.
+Image file: assets/images/g2-bakery.webp, AI-generated for this theme, CC0.
+Image file: assets/images/g3-bistro.webp, AI-generated for this theme, CC0.
+Image file: assets/images/h1-pass.webp, AI-generated for this theme, CC0.
+Image file: assets/images/p1-taste.webp, AI-generated for this theme, CC0.
+Image file: assets/images/s1-stove.webp, AI-generated for this theme, CC0.
+Image file: assets/images/v1-school.webp, AI-generated for this theme, CC0.
+Image file: assets/images/demo/the-tasting-spoon.webp, AI-generated for this theme, CC0.

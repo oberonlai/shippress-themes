@@ -34,7 +34,7 @@ Tags: education, block-patterns, full-site-editing, blog, custom-colors, editor-
 @media (max-width: 781px) {
 	:root { --sj-sec: 72px; --sj-frame: 4px; }
 }
-:root:lang(zh) { --wp--preset--font-family--display: "Newsreader", "Noto Serif TC", "Noto Serif CJK TC", "Songti TC", serif; --wp--preset--font-family--body: "Source Sans 3", "Noto Serif TC", "Noto Serif CJK TC", serif; }
+:root:lang(zh) { --wp--preset--font-family--display: "Newsreader", "Noto Serif TC", "Noto Serif CJK TC", "Songti TC", serif; --wp--preset--font-family--body: "Source Sans 3", "Noto Serif CJK TC", "Songti TC", serif; }
 :root:lang(ja) { --wp--preset--font-family--display: "Newsreader", "Noto Serif JP", "Noto Serif CJK JP", "Hiragino Mincho ProN", serif; --wp--preset--font-family--body: "Source Sans 3", "Noto Serif JP", "Noto Serif CJK JP", serif; }
 :is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
 :lang(fr) body, :lang(de) body { hyphens: auto; }
@@ -63,11 +63,6 @@ img { max-width: 100%; height: auto; }
 .saji-stamp--3 { bottom: calc(var(--sj-frame) * -1); right: calc(var(--sj-frame) * -1); }
 .saji-stamp--4 { bottom: calc(var(--sj-frame) * -1); left: calc(var(--sj-frame) * -1); }
 .saji-frame .saji-stamp, .saji-stamp--cell { font-family: var(--sj-serif); font-weight: 600; font-size: 0.875rem; line-height: 32px; text-align: center; }
-.saji-frame .saji-stamp::before { content: ""; }
-.saji-stamp--1::before { content: "I" !important; }
-.saji-stamp--2::before { content: "II" !important; }
-.saji-stamp--3::before { content: "III" !important; }
-.saji-stamp--4::before { content: "IV" !important; }
 @media (max-width: 781px) {
 	.saji-frame .saji-stamp { width: 22px; height: 22px; font-size: 0.625rem; line-height: 22px; }
 	.saji-frame .saji-stamp::after { inset: 2px; }
@@ -166,7 +161,8 @@ img { max-width: 100%; height: auto; }
 .saji-t3--solo .saji-word { margin-bottom: 0 !important; }
 .saji-word__w { position: relative; display: inline-block; margin: 0; font-family: var(--sj-serif); font-weight: 600; font-size: var(--wp--preset--font-size--xxx-large); line-height: 0.98; letter-spacing: 0.08em; text-transform: uppercase; color: var(--sj-ink); }
 .saji-word__w::after { content: ""; position: absolute; right: -0.6em; top: -0.5em; width: 120px; height: 120px; border: 1px solid var(--sj-brick); border-radius: 50%; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 56' fill='none' stroke='%23A8432F' stroke-width='1.5' stroke-linecap='round'%3E%3Cellipse cx='20' cy='13' rx='9' ry='11.5'/%3E%3Cpath d='M17.5 24.5c.8 3.2 4.2 3.2 5 0M20 27.5V54'/%3E%3C/svg%3E") center / auto 44px no-repeat; pointer-events: none; }
-.saji-word__w--new::after { content: "new"; display: flex; align-items: center; justify-content: center; background: none; font-family: var(--sj-serif); font-style: italic; font-weight: 400; font-size: 2.25rem; letter-spacing: 0; text-transform: none; color: var(--sj-brick); }
+.saji-word__w--new::after { content: ""; background: none; }
+.saji-word__seal { position: absolute; right: -0.6em; top: -0.5em; display: flex; align-items: center; justify-content: center; width: 120px; height: 120px; font-family: var(--sj-serif); font-style: italic; font-weight: 400; font-size: 2.25rem; line-height: 1; letter-spacing: 0; text-transform: none; color: var(--sj-brick); pointer-events: none; }
 .saji-word__sub { margin: 14px 0 0; font-family: var(--sj-serif); font-style: italic; font-weight: 400; font-size: 1.75rem; line-height: 1.2; letter-spacing: 0.06em; color: var(--sj-brick); }
 .saji-halftone { position: relative; flex: none; width: 260px; height: 260px; margin: 0; border-radius: 50%; overflow: hidden; background: var(--sj-mist); isolation: isolate; }
 .saji-halftone img { display: block; width: 100%; height: 100%; object-fit: cover; transform: scale(var(--ht-z, 1.2)); transform-origin: var(--ht-o, 50% 35%); filter: grayscale(1) contrast(1.25) brightness(1.06); mix-blend-mode: multiply; }
@@ -249,7 +245,6 @@ img { max-width: 100%; height: auto; }
 .saji-cell .saji-go { margin-top: auto; text-align: right; }
 .saji-cell .saji-go a { width: 100%; justify-content: space-between; }
 .saji-terms .saji-stamp--cell::before, .saji-stamp--cell::before { content: ""; }
-.saji-stamp--cell.saji-stamp--1::before { content: "I" !important; } .saji-stamp--cell.saji-stamp--2::before { content: "II" !important; } .saji-stamp--cell.saji-stamp--3::before { content: "III" !important; } .saji-stamp--cell.saji-stamp--4::before { content: "IV" !important; }
 .saji-stamp--cell { top: auto; left: auto; right: auto; bottom: auto; }
 /* stagger step .25 s (reference: GSAP stagger .25) */
 .saji-sec .sp-stagger > .sp-reveal:nth-child(2) { --sp-delay: .25s; }
