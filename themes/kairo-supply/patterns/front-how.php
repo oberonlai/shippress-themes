@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:group {"className":"ks-sec ks-how","tagName":"section","align":"full","anchor":"how","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull ks-sec ks-how"><!-- wp:group {"className":"ks-12","align":"wide","layout":{"type":"default"}} -->
+<section id="how" class="wp-block-group alignfull ks-sec ks-how"><!-- wp:group {"className":"ks-12","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ks-12"><!-- wp:group {"className":"ks-how__left","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-how__left"><!-- wp:heading {"level":2,"className":"ks-h2"} -->
 <h2 class="wp-block-heading ks-h2">How an account opens</h2>

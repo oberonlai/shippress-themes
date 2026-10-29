@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:group {"className":"ks-sec ks-range","tagName":"section","align":"full","anchor":"range","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull ks-sec ks-range"><!-- wp:group {"className":"ks-12","align":"wide","layout":{"type":"default"}} -->
+<section id="range" class="wp-block-group alignfull ks-sec ks-range"><!-- wp:group {"className":"ks-12","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ks-12"><!-- wp:group {"className":"ks-range__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-range__head"><!-- wp:heading {"level":2,"className":"ks-h2"} -->
 <h2 class="wp-block-heading ks-h2">What's on the shelves</h2>

@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:group {"className":"ks-sec ks-team-sec","tagName":"section","align":"full","anchor":"team","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull ks-sec ks-team-sec"><!-- wp:group {"className":"ks-12 ks-team","align":"wide","layout":{"type":"default"}} -->
+<section id="team" class="wp-block-group alignfull ks-sec ks-team-sec"><!-- wp:group {"className":"ks-12 ks-team","align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ks-12 ks-team"><!-- wp:group {"className":"ks-team__egg","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-team__egg"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-img-egg"} -->
 <figure class="wp-block-image size-full ks-img-egg"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/k12.webp' ) ); ?>" alt="Trade counter manager resting hands on a steel counter with warehouse shelving behind."/></figure>

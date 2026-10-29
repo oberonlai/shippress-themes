@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:group {"className":"ks-sec ks-apply","tagName":"section","align":"full","anchor":"apply","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull ks-sec ks-apply"><!-- wp:group {"className":"ks-ghost","layout":{"type":"default"}} -->
+<section id="apply" class="wp-block-group alignfull ks-sec ks-apply"><!-- wp:group {"className":"ks-ghost","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-ghost"></div>
 <!-- /wp:group -->
 
