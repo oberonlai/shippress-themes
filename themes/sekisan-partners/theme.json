@@ -1,0 +1,118 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"layout": { "contentSize": "720px", "wideSize": "1272px" },
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{ "slug": "base", "name": "Base", "color": "#FFFFFF" },
+				{ "slug": "ink", "name": "Ink green", "color": "#2F3A34" },
+				{ "slug": "ground", "name": "Ground", "color": "#F3F5F3" },
+				{ "slug": "blue", "name": "Pencil blue", "color": "#004896" },
+				{ "slug": "teal", "name": "Teal", "color": "#36939C" },
+				{ "slug": "coral", "name": "Red pen", "color": "#F07A73" },
+				{ "slug": "hairline", "name": "Hairline", "color": "#DDE2DE" },
+				{ "slug": "muted", "name": "Muted text", "color": "#5C6660" },
+				{ "slug": "sage", "name": "Pale sage", "color": "#B8C9BE" }
+			]
+		},
+		"typography": {
+			"fluid": false,
+			"customFontSize": true,
+			"fontFamilies": [
+				{
+					"slug": "heading",
+					"name": "Heading",
+					"fontFamily": "\"Albert Sans\", \"Noto Sans TC\", \"Noto Sans JP\", system-ui, sans-serif",
+					"fontFace": [
+						{ "fontFamily": "Albert Sans", "fontWeight": "100 900", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/albert-sans-variable-latin.woff2" ] }
+					]
+				},
+				{
+					"slug": "body",
+					"name": "Body",
+					"fontFamily": "\"Onest\", \"Noto Sans TC\", \"Noto Sans JP\", system-ui, sans-serif",
+					"fontFace": [
+						{ "fontFamily": "Onest", "fontWeight": "100 900", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/onest-variable-latin.woff2" ] }
+					]
+				},
+				{
+					"slug": "display-zh",
+					"name": "Chinese subset (Noto Sans TC)",
+					"fontFamily": "\"Noto Sans TC\", sans-serif",
+					"fontFace": [
+						{ "fontFamily": "Noto Sans TC", "fontWeight": "400", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/noto-sans-tc-zh-tw-400.woff2" ] },
+						{ "fontFamily": "Noto Sans TC", "fontWeight": "700", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/noto-sans-tc-zh-tw-700.woff2" ] }
+					]
+				},
+				{
+					"slug": "display-ja",
+					"name": "Japanese subset (Noto Sans JP)",
+					"fontFamily": "\"Noto Sans JP\", sans-serif",
+					"fontFace": [
+						{ "fontFamily": "Noto Sans JP", "fontWeight": "400", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/noto-sans-jp-400-ja.woff2" ] },
+						{ "fontFamily": "Noto Sans JP", "fontWeight": "700", "fontStyle": "normal", "fontDisplay": "swap", "src": [ "file:./assets/fonts/noto-sans-jp-700-ja.woff2" ] }
+					]
+				}
+			],
+			"fontSizes": [
+				{ "slug": "small", "name": "Small", "size": "0.8125rem" },
+				{ "slug": "base", "name": "Base", "size": "1rem" },
+				{ "slug": "medium", "name": "Medium", "size": "1.225rem" },
+				{ "slug": "large", "name": "Large", "size": "1.333rem" },
+				{ "slug": "x-large", "name": "Index title", "size": "3.6rem" },
+				{ "slug": "xx-large", "name": "Display", "size": "clamp(2.75rem, 6.25vw, 5.625rem)" }
+			]
+		},
+		"spacing": {
+			"units": [ "px", "em", "rem", "%", "vw", "vh" ],
+			"spacingSizes": [
+				{ "slug": "20", "name": "XS", "size": "0.75rem" },
+				{ "slug": "30", "name": "S", "size": "1.25rem" },
+				{ "slug": "40", "name": "M", "size": "2rem" },
+				{ "slug": "50", "name": "L", "size": "4.5rem" },
+				{ "slug": "60", "name": "XL", "size": "8.75rem" }
+			]
+		},
+		"border": { "radius": true },
+		"shadow": { "defaultPresets": false, "presets": [] }
+	},
+	"styles": {
+		"color": { "background": "var(--wp--preset--color--base)", "text": "var(--wp--preset--color--ink)" },
+		"typography": { "fontFamily": "var(--wp--preset--font-family--body)", "fontSize": "var(--wp--preset--font-size--base)", "lineHeight": "1.7" },
+		"spacing": { "blockGap": "1.25rem" },
+		"elements": {
+			"link": {
+				"color": { "text": "var(--wp--preset--color--blue)" },
+				":hover": { "color": { "text": "var(--wp--preset--color--ink)" } }
+			},
+			"heading": {
+				"color": { "text": "var(--wp--preset--color--ink)" },
+				"typography": { "fontFamily": "var(--wp--preset--font-family--heading)", "fontWeight": "700", "lineHeight": "1.1" }
+			},
+			"h1": { "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)", "letterSpacing": "-0.025em" } },
+			"h2": { "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)", "letterSpacing": "-0.025em" } },
+			"h3": { "typography": { "fontSize": "var(--wp--preset--font-size--large)", "lineHeight": "1.4" } },
+			"button": {
+				"color": { "background": "var(--wp--preset--color--base)", "text": "var(--wp--preset--color--ink)" },
+				"border": { "radius": "0", "width": "3px", "style": "solid", "color": "var(--wp--preset--color--ink)" },
+				"typography": { "fontFamily": "var(--wp--preset--font-family--heading)", "fontSize": "1.125rem", "fontWeight": "600", "textDecoration": "none", "textTransform": "uppercase", "letterSpacing": "0.04em" },
+				"spacing": { "padding": { "top": "0.9rem", "bottom": "0.9rem", "left": "2rem", "right": "2rem" } }
+			}
+		},
+		"blocks": {
+			"core/navigation": { "typography": { "fontSize": "0.875rem", "fontWeight": "500" } }
+		}
+	},
+	"customTemplates": [
+		{ "name": "page-inner", "title": "Inner page", "postTypes": [ "page" ] }
+	],
+	"templateParts": [
+		{ "name": "header", "title": "Header", "area": "header" },
+		{ "name": "footer", "title": "Footer", "area": "footer" }
+	]
+}
