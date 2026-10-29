@@ -21,7 +21,7 @@
 
 <!-- wp:group {"className":"sk-footer__col","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-footer__col"><!-- wp:paragraph {"className":"sk-footer__links"} -->
-<p class="sk-footer__links"><a href="/#gap">The gap</a><a href="/#estimate">How we estimate</a><a href="/#handover">What you are handed</a><a href="/#fees">Fees</a><a href="/#cases">Cases</a><a href="/#people">People</a></p>
+<p class="sk-footer__links"><a href="/about/">About</a><a href="/how-we-estimate/">How we estimate</a><a href="/fees-and-scope/">Fees &amp; scope</a><a href="/cases/">Cases</a><a href="/cost-letter/">Cost letter</a><a href="/notes/">Notes</a><a href="/privacy-notice/">Privacy</a><a href="/terms/">Terms</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

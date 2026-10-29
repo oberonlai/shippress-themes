@@ -57,6 +57,9 @@
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p>An itemized log of site uncertainties, unresolved design junctions, and procurement risks, each assigned a clear financial contingency to protect project feasibility.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"sk-card__more"} -->
+<p class="sk-card__more">What it contains <span aria-hidden="true" class="sk-card__arrow"></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

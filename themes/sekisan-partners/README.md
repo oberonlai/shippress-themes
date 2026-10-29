@@ -13,7 +13,7 @@ Sekisan Partners is an independent building cost consultancy WordPress theme cra
 - `patterns/front-*.php`: the nine home sections (hero, gap, index, estimate, handover, fees, cases, people, request).
 - `templates/`: front page, page, index, single, archive, search, 404.
 - `assets/sp-scroll.css`, `assets/sp-scroll.js`: scroll effects (parallax, reveal).
-- `demo-content.json`: sample content (English); the header menu uses the home page anchors.
+- `demo-content.json`: sample content (English): home plus About, How we estimate, Fees & scope, Cases, Cost letter, Notes, Privacy, Terms, Thanks and Request pages; the header menu links to the inner pages.
 - Scroll effects respect `prefers-reduced-motion`; content is fully visible without JavaScript.
 
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
