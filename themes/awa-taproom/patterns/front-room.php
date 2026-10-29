@@ -11,7 +11,7 @@
 <!-- wp:group {"className":"awa-room sp-reveal sp-reveal--wipe","align":"full","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull awa-room sp-reveal sp-reveal--wipe">
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/r3-room.webp' ) ); ?>","alt":"Warm taproom at dusk with patrons seated at wooden tables and along the bar.","dimRatio":0,"overlayColor":"umber","isUserOverlayColor":true,"align":"full","className":"awa-room__cover","contentPosition":"bottom left"} -->
-<div class="wp-block-cover alignfull awa-room__cover"><span aria-hidden="true" class="wp-block-cover__background has-umber-background-color"></span><img class="wp-block-cover__image-background" alt="Warm taproom at dusk with patrons seated at wooden tables and along the bar." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/r3-room.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<div class="wp-block-cover alignfull has-custom-content-position is-position-bottom-left awa-room__cover"><img class="wp-block-cover__image-background" alt="Warm taproom at dusk with patrons seated at wooden tables and along the bar." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/r3-room.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-umber-background-color has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container">
 <!-- wp:heading {"level":2,"className":"awa-lead awa-lead--room"} -->
 <h2 class="wp-block-heading awa-lead awa-lead--room">Brewed <u>behind the bar</u>,<br>poured <u>a few metres away</u>,<br>drunk <u>at the same table</u>.</h2>
 <!-- /wp:heading -->

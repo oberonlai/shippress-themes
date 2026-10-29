@@ -57,6 +57,8 @@ u, .awa-u { text-decoration: underline 2px; text-underline-offset: 0.18em; text-
 .awa-tonight a:hover { color: var(--awa-side); }
 .awa-nav { color: #fff; }
 .awa-nav .wp-block-navigation__container { gap: 0; }
+.awa-bar { gap: 0 1.5rem; }
+.awa-nav { margin-left: auto; }
 .awa-nav .wp-block-navigation-item { position: relative; }
 .awa-nav .wp-block-navigation-item + .wp-block-navigation-item::before { content: ""; position: absolute; left: 0; top: 50%; height: 14px; margin-top: -7px; border-left: 1px dotted #fff; }
 .awa-nav .wp-block-navigation-item__content { color: #fff; font-family: var(--awa-sans); font-weight: 700; font-size: 1rem; letter-spacing: 0.04em; text-transform: uppercase; padding: 0 12px; text-decoration: none; transition: color 0.4s var(--awa-ease); }
@@ -72,7 +74,7 @@ u, .awa-u { text-decoration: underline 2px; text-underline-offset: 0.18em; text-
 .awa-hero .wp-block-cover__inner-container { position: static; width: 100%; max-width: none; padding: 0; margin: 0; }
 .awa-frame { position: absolute; z-index: 3; left: 15.9%; top: 14.4%; width: 68.3%; height: 71.1%; margin: 0; }
 .awa-frame img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 0; box-shadow: none; }
-.awa-lead--hero { position: absolute; z-index: 4; left: var(--awa-gut); top: 36%; margin: 0; color: #fff; font-family: var(--awa-sans); font-weight: 600; font-size: 1.5rem; line-height: 1.35; text-shadow: 0 1px 14px rgba(0, 0, 0, .35); }
+.awa-lead--hero { position: absolute; z-index: 4; left: var(--awa-gut); top: 36%; margin: 0; color: #fff; font-family: var(--awa-sans); font-weight: 600; font-size: 1.5rem; line-height: 1.35; text-shadow: 0 0 12px rgba(0, 0, 0, .75), 0 1px 3px rgba(0, 0, 0, .7); }
 .awa-mark { position: absolute; z-index: 4; left: var(--awa-gut); top: calc(89% - 3.9rem); margin: 0; }
 .awa-wordmark { margin: 0; color: #fff; font-weight: 600; font-size: var(--wp--preset--font-size--xx-large); line-height: 1; letter-spacing: 0.01em; text-transform: uppercase; white-space: nowrap; }
 .awa-mark__sub { margin: 0.55rem 0 0; color: #fff; font-weight: 600; font-size: 1.625rem; line-height: 1.2; }
@@ -85,7 +87,7 @@ u, .awa-u { text-decoration: underline 2px; text-underline-offset: 0.18em; text-
 /* 2. the room takes over */
 .awa-room { position: relative; margin: 0; padding: 0; }
 .awa-room__cover { min-height: 100svh !important; padding: 0 var(--awa-gut) 140px !important; position: relative; }
-.awa-room__cover::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 45%; z-index: 1; pointer-events: none; background: linear-gradient(to top, rgba(29, 29, 29, .55), transparent); }
+.awa-room__cover::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(to right, rgba(29, 29, 29, .55) 0, rgba(29, 29, 29, .35) 30%, transparent 55%), linear-gradient(to top, rgba(29, 29, 29, .55), transparent 45%); }
 .awa-room__cover .wp-block-cover__inner-container { position: relative; z-index: 2; width: 100%; max-width: 1340px; margin-inline: auto; text-align: left; color: #fff; }
 .awa-room .awa-lead { color: #fff; }
 .awa-room__body { color: #fff; font-size: 1.0625rem; line-height: 1.75; max-width: 34ch; margin-top: 1.75rem !important; }
@@ -179,7 +181,7 @@ u, .awa-u { text-decoration: underline 2px; text-underline-offset: 0.18em; text-
 .awa-visit__addr { font-family: var(--awa-serif); font-weight: 600; font-size: 1.25rem; line-height: 1.35;  }
 .awa-visit__hours { font-size: 0.9375rem; line-height: 1.7;  }
 .awa-visit__info .awa-link { margin-top: 0.5rem; }
-.awa-visit__frame { margin-left: 18%; width: 74%; }
+.awa-visit__frame { margin-left: 22%; width: 56%; }
 .awa-visit__img { margin: 0; }
 .awa-visit__img img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 0; }
 .awa-visit__title { position: absolute; z-index: 3; left: 0; bottom: 1.1rem; margin: 0; color: #fff; font-size: clamp(2.5rem, 4.6vw, 4.5rem); line-height: 1; text-transform: uppercase; letter-spacing: 0.01em; white-space: nowrap; }
@@ -252,3 +254,39 @@ u, .awa-u { text-decoration: underline 2px; text-underline-offset: 0.18em; text-
 /* film grade: muted ground and frame (first-screen saturated share stays low) */
 .awa-hero .wp-block-cover__image-background { filter: saturate(.4); }
 .awa-frame img { filter: saturate(.78); }
+
+/* side labels stay grey on dark grounds (beats the white paragraph colour of .awa-tanks / .awa-visit) */
+.awa-tanks p.awa-side, .awa-visit p.awa-side { color: var(--awa-side); }
+
+/* header: MENU text button on the right, TONIGHT hidden below 960px */
+.awa-nav .wp-block-navigation__responsive-container-open { font-family: var(--awa-sans); font-weight: 700; font-size: 0.9375rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.awa-nav .wp-block-navigation__responsive-container-open svg { display: none; }
+.awa-nav .wp-block-navigation__responsive-container-open::after { content: "MENU"; }
+@media (max-width: 959px) {
+	.awa-tonight { display: none; }
+	.awa-bar { padding-top: 28px; }
+	.awa-nav { margin-top: 0; }
+}
+
+/* hero frame wipes away with the first 120px of scroll (CSS scroll-driven, no listener; static under reduced motion, ?sp-static and in the editor) */
+@keyframes awa-frame-wipe { from { -webkit-mask-position: 0 0; mask-position: 0 0; } to { -webkit-mask-position: 0 100%; mask-position: 0 100%; } }
+@supports (animation-timeline: scroll()) {
+	@media (prefers-reduced-motion: no-preference) {
+		html.sp-js:not(.sp-no-motion) .awa-hero .awa-frame { -webkit-mask-image: linear-gradient(#000 50%, transparent 50%); mask-image: linear-gradient(#000 50%, transparent 50%); -webkit-mask-size: 100% 200%; mask-size: 100% 200%; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; animation: awa-frame-wipe cubic-bezier(.77, 0, .175, 1) both; animation-timeline: scroll(root); animation-range: 0 120px; }
+	}
+}
+
+/* inner pages */
+.awa-pagehead { background: var(--awa-umber); color: #fff; padding: clamp(140px, 16vw, 220px) var(--awa-gut) var(--awa-sec); }
+.awa-pagehead h1, .awa-pagehead p { color: #fff; }
+.awa-pagehead p.awa-side { color: var(--awa-side); }
+.awa-h1 { font-size: var(--wp--preset--font-size--xx-large); line-height: 1; text-transform: uppercase; margin: 0 0 1.5rem; }
+.awa-lead--page { max-width: 24em; }
+.awa-pageimg { margin: 56px 0 0; }
+.awa-pageimg img { display: block; width: 100%; aspect-ratio: 21 / 9; object-fit: cover; border-radius: 0; }
+.awa-main:not(.awa-main--front) > .wp-block-post-content > .awa-sec:last-child { padding-bottom: var(--awa-sec); }
+.awa-sec .awa-wrap > .awa-h2 { margin-bottom: 2.5rem; }
+.awa-sec .awa-body + .awa-body { margin-top: 1.25rem; }
+.awa-sec .awa-wrap > .awa-link, .awa-sec .awa-wrap > .awa-pageimg + .awa-link { margin-top: 2.5rem; }
+.awa-sec .awa-wrap > .awa-cards + .awa-link, .awa-sec .awa-wrap > .awa-price + .awa-note + .awa-link { margin-top: 2.5rem; }
+.awa-frame::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 22%; z-index: 1; pointer-events: none; background: linear-gradient(to right, rgba(29, 29, 29, .45), transparent); }

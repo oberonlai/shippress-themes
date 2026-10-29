@@ -24,7 +24,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-visit__hours"} -->
-<p class="awa-visit__hours">Tue–Thu 16:00–23:00 · Fri 16:00–24:00 · Sat 13:00–24:00 · Sun 13:00–21:00 · Mon closed. Kitchen until 21:00. Located near the line 14 Water Street bus stop, with street bicycle racks and step-free entrance. We are 21+ after 20:00, with families welcome earlier.</p>
+<p class="awa-visit__hours">Tue–Thu 16:00–23:00 · Fri 16:00–24:00 · Sat 13:00–24:00 · Sun 13:00–21:00 · Mon closed. Kitchen until 21:00.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-link awa-link--light"} -->
