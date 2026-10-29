@@ -25,7 +25,7 @@ The taproom, its people, address, telephone number and prices are fictional.
 == Copyright ==
 
 Awa Taproom is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Fraunces (OFL-1.1), Latin variable; Nunito Sans (OFL-1.1), Latin variable; WOFF2, see assets/fonts/.
+Fonts: Fraunces (OFL-1.1), Latin variable; Nunito Sans (OFL-1.1), Latin variable; Noto Serif JP and Noto Serif TC (OFL-1.1), CJK subsets for ja and zh-TW; WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are ShipPress's own small reveal and parallax script (GPL-2.0-or-later).
 
 = Images =
@@ -43,3 +43,8 @@ Images: AI-generated for this theme with Grok Build image_gen as film-grain docu
 - assets/images/c10-cellar.webp (home strip: connecting a keg in the cold room)
 - assets/images/c11-bar.webp (home strip: bar lead polishing a glass)
 - assets/images/x13-exterior.webp (home close: brick building at dusk)
+- assets/images/demo/r3-room.webp (sample-content copy of the taproom at six in the evening)
+- assets/images/e12-backroom.webp (sample content: the back room)
+- assets/images/g14-growler.webp (sample content: a filled growler)
+- assets/images/n15-snacks.webp (sample content: bar snacks)
+- assets/images/w16-notes.webp (sample content: brewer's notes)

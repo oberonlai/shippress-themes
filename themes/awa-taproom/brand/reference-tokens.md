@@ -47,7 +47,7 @@ Main images are real photography (mountain landscape, product can + glass still 
 - Circle ▸ buttons Ø24, 1px #1D1D1D.
 
 ## (g) Motion
-- Hero: `div.js_fv_heroImg.js_mask` — a CSS mask-image (180deg gradient, mask-size 100%×300%) whose mask-position is tweened by the site's own JS (custom rAF tween, easeInOutQuart); the photo frame is fully gone (opacity 0) by scrollY 100px, revealing the full-bleed mountain; then a lead line ("…つくる") swaps in at the bottom-left. Hero stays pinned: `.hm_fv` 1681px tall over a 900px sticky stage.
+- Hero: `div.js_fv_heroImg.js_mask` — a CSS mask-image (180deg gradient, mask-size 100%×300%) whose mask-position is tweened by the site's own JS (custom rAF tween, easeInOutQuart); the photo frame is fully gone (opacity 0) by scrollY 100px, revealing the full-bleed mountain; then a lead line ("... tsukuru", Japanese lead line) swaps in at the bottom-left. Hero stays pinned: `.hm_fv` 1681px tall over a 900px sticky stage.
 - Hero slider: the framed photo auto-cycles with the same mask wipe, slide progress 0–1, eased 0.5–0.8 and 0.65–0.95 with easeInOutQuart.
 - Link hover: color 0.4s cubic-bezier(.25,.46,.45,.94); product card hover swaps can photo → poured glass.
 - Dominant site easings in CSS: cubic-bezier(.77,0,.175,1) ×115 (easeInOutQuart-like), cubic-bezier(.165,.84,.44,1) ×98 (easeOutQuart).

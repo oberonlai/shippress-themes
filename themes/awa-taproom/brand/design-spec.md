@@ -1,6 +1,6 @@
 # Awa Taproom: design spec (stage 1, binding for implementation)
 
-Slug `awa-taproom`, small brewery taproom, type `hospitality` (WooCommerce compatible, not required; site works fully without it). Design-plan row b17-4: archetype horizontal-strip, hero framed-window, nav overlay, real photography with film grain, palette 黒茶 umber `#3B2E28`, fonts Fraunces / Nunito Sans, font_direction **serif**, page_structure **booking-led**.
+Slug `awa-taproom`, small brewery taproom, type `hospitality` (WooCommerce compatible, not required; site works fully without it). Design-plan row b17-4: archetype horizontal-strip, hero framed-window, nav overlay, real photography with film grain, palette black-brown umber `#3B2E28`, fonts Fraunces / Nunito Sans, font_direction **serif**, page_structure **booking-led**.
 
 Main (and only) reference: **AFURI BREWING — https://afuribrewing.com/** (S5-Style, craft beer). Measurements in `reference-tokens.md` (cited below as `tok(a)…tok(g)`), screenshots in `brand/ref/`. We borrow structure, technique, key-visual concept, colour relations and motion. We do not take any photo, copy, logo, can artwork or the isometric illustration.
 
@@ -56,7 +56,7 @@ Fixed brand facts (identical on every page and in all five languages; see sectio
 - Motion: hero ground H2 drifts with `sp-parallax` (the frame and type stay still → the frame reads as a window floating over the room); block 2's photo opens with `sp-reveal--wipe` (clip-path top→bottom, 1.1s `cubic-bezier(.77,0,.175,1)` = AFURI's easing). The hero itself has no reveal.
 
 ### (3) KV checklist (all items implemented and visible on the first screen at 1440×900)
-| # | 参考站元素 Reference element | 我們的對應 Our counterpart | 位置 Position | 動態 Motion | 用哪張圖 Image |
+| # | Reference element | Our counterpart | Position | Motion | Image |
 |---|---|---|---|---|---|
 | 1 | Sharp 983×640 framed photo of can + poured glass | Sharp framed film-grain photo: server pulling a pint from a plain tap into a plain glass, foam rising | x15.9%–84.2%, y14.4%–85.5% of the fold; mobile: 20px gutters, 4:5 | static in hero (the hand-over to the room happens in block 2 with sp-reveal--wipe) | **H1** |
 | 2 | Full-bleed mountain/sky ground around the frame | Full-bleed taproom before opening: tanks behind the bar, brick, warm unlit pendants, umber shadow; overlay `rgba(59,46,40,.35)` | Cover background, whole fold | `sp-parallax`, `--sp-par: 8%` desktop / 5% mobile | **H2** |
@@ -84,13 +84,13 @@ From AFURI (`tok(a)`); one substitution with reason.
 | Side label | `#BDBDBD` | AFURI rotated label, exact | T3 rotated gutter label, caption meta | — |
 | Accent | `#C98A3C` amber | AFURI colour lives only in the product cans → ours only in the beer itself | the beer in photos; UI: active nav underline and price-list "tonight" dot (6px) only | <1% UI |
 
-- Why the sky changes: AFURI's sky is 42% saturated in the fold, three times our cap (≤15%), and a mountain-blue reads as outdoors/brand-specific, not a taproom; the row's palette 黒茶 umber `#3B2E28` takes the *same role* (one flat ground behind the frame, white type on it). `#3B2E28` has HSV V = 23% (< the 24% threshold in `check-first-screen.py`), so the ground itself counts as unsaturated.
+- Why the sky changes: AFURI's sky is 42% saturated in the fold, three times our cap (≤15%), and a mountain-blue reads as outdoors/brand-specific, not a taproom; the row's palette black-brown umber `#3B2E28` takes the *same role* (one flat ground behind the frame, white type on it). `#3B2E28` has HSV V = 23% (< the 24% threshold in `check-first-screen.py`), so the ground itself counts as unsaturated.
 - **First-screen saturated share ≤ 15% (target 6–12%)**, measured with `scripts/check-first-screen.py --max 15`. Achieve it by grading H1/H2 muted (warm midtones held below HSV S 35% — brick and wood desaturated, film grain), keeping the amber beer only inside the glass (≈4–6% of the fold), and no coloured UI over the cover.
 - Not beige-led: base is pure white, umber only at the top of pages and in one band. Contrast: white on `#3B2E28` 13.9:1; ink on white 16.8:1; `#BDBDBD` side label is decorative (duplicates the section heading), fine at low contrast.
 
 ## 4. Typography
 
-font_direction **serif**: Latin display = Fraunces (serif), Latin body = Nunito Sans (row fonts); zh-TW / ja headings **and** body = Noto Serif TC / Noto Serif JP (明體), never Noto Sans (黑體) — no mixing.
+font_direction **serif**: Latin display = Fraunces (serif), Latin body = Nunito Sans (row fonts); zh-TW / ja headings **and** body = Noto Serif TC / Noto Serif JP (Mincho/Ming serif), never Noto Sans (gothic) — no mixing.
 
 Stacks (theme.json `fontFamilies`, all loaded with `fontFace` from `assets/fonts/`, woff2):
 - `display`: `"Fraunces", "Noto Serif TC", "Noto Serif JP", Georgia, serif` — Fraunces 400, 600 (variable opsz ok), normal + italic 400.
@@ -218,7 +218,7 @@ Brew Notes posts (4): "Why we only run four taps" (R3), "A Tuesday brew day, hou
 
 ---
 
-## 10. Scroll effects (3 types; from stage-a "捲動手法候選")
+## 10. Scroll effects (3 types; from stage-a "scroll-technique candidates")
 | sp-* class | Where | Source on afuribrewing.com | Trigger / time / easing |
 |---|---|---|---|
 | `sp-parallax` | home block 1 hero (Cover background H2, `--sp-par: 8%`, mobile 5%); home block 5 F7 (`--sp-par: 6%`, mobile 4%) | pinned stage: the mountain stays while the frame and page move (`tok(g)`) | CSS scroll-driven `view()`; IO+translate3d fallback from sp-scroll.js |
