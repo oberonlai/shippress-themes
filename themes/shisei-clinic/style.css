@@ -2,7 +2,7 @@
 Theme Name: Shisei Clinic
 Theme URI: https://github.com/oberonlai/shippress-themes
 Author: ShipPress
-Description: Shisei Clinic is a calm, photographic block theme for chiropractic clinics and health practices.
+Description: Shisei Clinic is a calm, photographic WordPress theme designed for chiropractic clinics and healthcare practices supporting desk workers. Rooted in an airy split-screen layout with high-key daylight photography and cool slate tones, it presents treatment methods, clear fees, and unhurried practitioner introductions. Built with Figtree and Public Sans typography, the theme emphasizes calm structure and thoughtful patient care.
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -27,7 +27,7 @@ Tags: block-patterns, full-site-editing, one-column, custom-colors, editor-style
 	--ss-hair: rgba(74, 89, 98, .2);
 	--ss-ease: .3s ease;
 }
-html { scroll-behavior: smooth; }
+html:not(.sp-no-motion) { scroll-behavior: smooth; }
 html, body { overflow-x: clip; }
 body {
 	-webkit-font-smoothing: antialiased;
@@ -149,7 +149,7 @@ body::before {
 }
 
 /* ---------- sections ---------- */
-.ss-sec { position: relative; padding: 0 0 240px; }
+.ss-sec { position: relative; padding: 0 0 240px; background: rgba(255, 255, 255, .35); }
 .ss-fv, .ss-clin { padding-top: 160px; }
 .ss-sec--veil { background: rgba(255, 255, 255, .6); padding: 160px 0 240px; }
 
@@ -248,7 +248,7 @@ body::before {
 .ss-hours tbody th { text-align: left; font-weight: 500; padding-left: 0; }
 .ss-hours-lines { display: none; margin: 0 0 24px; padding: 0; list-style: none; }
 .ss-hours-lines li { display: flex; flex-direction: column; gap: 2px; padding: 12px 0; border-bottom: 1px solid rgba(255, 255, 255, .3); font-size: .9375rem; }
-.ss-hours-lines span { font-size: .8125rem; opacity: .85; }
+.ss-hours-lines span { font-size: .8125rem; color: rgba(255, 255, 255, .85); }
 .ss-card__note { margin: 0 0 6px; font-size: .8125rem; line-height: 1.75; color: rgba(255, 255, 255, .8); }
 .ss-card__tel { margin: 22px 0 10px; }
 .ss-card__tel a { font-family: var(--wp--preset--font-family--display); font-weight: 400; font-size: 2rem; line-height: 1.3; color: #fff; text-decoration: none; }
@@ -296,7 +296,10 @@ body::before {
 	.ss-sec--veil { padding: 80px 0 120px; }
 	.ss-fv, .ss-clin { padding-top: 80px; }
 	/* key visual: stacked */
-	.ss-kv { height: auto; overflow: visible; max-width: 480px; margin: 0 auto; padding-bottom: 36px; }
+	.ss-kv { height: auto; overflow: visible; max-width: 480px; margin: 0 auto; padding-bottom: 36px; display: flex; flex-direction: column; }
+	.ss-kv__photo { order: 1; }
+	.ss-kv__mark { order: 2; }
+	.ss-kv__copy { order: 3; }
 	.ss-kv__photo { position: relative; left: auto; bottom: auto; width: calc(100% - 40px); height: 560px; margin: 0 auto; }
 	.ss-kv__oval { right: 12px; top: 72px; width: 92px; height: 115px; }
 	.ss-ghost--a { width: 60px; height: 88px; right: 112px; top: 150px; }
@@ -322,14 +325,6 @@ body::before {
 	.ss-fv { grid-template-columns: minmax(0, 1fr); row-gap: 56px; }
 	.ss-fv__text { padding: 0 20px; }
 	.ss-fv__photo { width: 80vw; max-width: 420px; margin: 0 auto; }
-	/* fees: stacked rows */
-	.ss-fees thead { display: none; }
-	.ss-fees table, .ss-fees tbody { display: block; }
-	.ss-fees tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 16px; padding: 18px 0; border-bottom: 1px solid var(--ss-hair); }
-	.ss-fees td { display: block; padding: 0; border: 0; }
-	.ss-fees td:first-child { grid-column: 1 / -1; padding: 0 0 6px; font-size: 1.0625rem; }
-	.ss-fees td:nth-child(2) { grid-column: 1; padding: 0; }
-	.ss-fees td:nth-child(3) { grid-column: 2; font-size: 1.25rem; }
 	.ss-fees__foot { flex-direction: column; align-items: flex-start; gap: 28px; }
 	/* card */
 	.ss-card { grid-template-columns: minmax(0, 1fr); }
@@ -344,6 +339,16 @@ body::before {
 	.ss-footer p.ss-footer__copy { width: calc(100% - 40px); }
 	.ss-pillbar { left: 12px; right: 12px; bottom: 12px; width: auto; height: 52px; padding: 0 3px 0 22px; gap: 16px; }
 	.ss-pillbar .wp-block-navigation__responsive-container-open { width: 140px; height: 46px; }
+}
+@media (max-width: 781px) {
+	/* fees: stacked rows */
+	.ss-fees thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+	.ss-fees table, .ss-fees tbody { display: block; }
+	.ss-fees tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 16px; padding: 18px 0; border-bottom: 1px solid var(--ss-hair); }
+	.ss-fees td { display: block; padding: 0; border: 0; }
+	.ss-fees td:first-child { grid-column: 1 / -1; padding: 0 0 6px; font-size: 1.0625rem; }
+	.ss-fees td:nth-child(2) { grid-column: 1; padding: 0; }
+	.ss-fees td:nth-child(3) { grid-column: 2; font-size: 1.25rem; }
 }
 @media (max-width: 599px) {
 	.ss-kv__photo { height: 400px; }
