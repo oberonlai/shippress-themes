@@ -12,25 +12,25 @@
 <section class="wp-block-group alignfull ss-sec ss-sec--veil ss-concept"><!-- wp:group {"className":"ss-wrap ss-concept__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-wrap ss-concept__in"><!-- wp:group {"className":"ss-concept__photos sp-reveal sp-reveal--mask","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-concept__photos sp-reveal sp-reveal--mask"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ss-concept__arch"} -->
-<figure class="wp-block-image size-full ss-concept__arch"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04.webp' ) ); ?>" alt="Man in a navy shirt standing by a bright window rolling his shoulder."/></figure>
+<figure class="wp-block-image size-full ss-concept__arch"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04.webp' ) ); ?>" alt="<?php echo esc_attr( shisei_clinic_t( 'aaf3783b5' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ss-concept__round"} -->
-<figure class="wp-block-image size-full ss-concept__round"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05.webp' ) ); ?>" alt="High-angle view of a laptop, notebook, mug, and chair at a pale desk."/></figure>
+<figure class="wp-block-image size-full ss-concept__round"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05.webp' ) ); ?>" alt="<?php echo esc_attr( shisei_clinic_t( 'a508d57dd' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-concept__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-concept__text"><!-- wp:heading {"className":"ss-lead"} -->
-<h2 class="wp-block-heading ss-lead"><span>Most of us sit for forty hours</span> <span>before anyone asks how.</span></h2>
+<h2 class="wp-block-heading ss-lead"><span><?php echo wp_kses_post( shisei_clinic_t( 'k1b48579c' ) ); ?></span> <span><?php echo wp_kses_post( shisei_clinic_t( 'kd1b9fdb2' ) ); ?></span></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Modern office routines place sustained, unnatural demands on the human spine. When you spend eight or more hours a day focused on screens, shoulders round forward, the neck bears extra load, and the hips stay locked in one position. Most people put up with this for forty hours every week, ignoring early stiffness until the tension settles in.</p>
+<p><?php echo wp_kses_post( shisei_clinic_t( 'k43cc4739' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>At Shisei Clinic, we provide a quiet, intentional space to undo that accumulated strain. Founded in 2015 in Vancouver, we offer unhurried appointments focused on restoring natural movement. We do not sell long prepaid contracts or recommend unnecessary imaging; instead, we listen carefully and deliver thoughtful, precise care that helps you return to work with genuine ease.</p>
+<p><?php echo wp_kses_post( shisei_clinic_t( 'ke0281c6a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

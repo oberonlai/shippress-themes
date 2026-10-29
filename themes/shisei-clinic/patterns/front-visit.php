@@ -13,28 +13,28 @@
 <div class="wp-block-group ss-wrap"><!-- wp:group {"className":"ss-card sp-reveal sp-reveal--mask","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-card sp-reveal sp-reveal--mask"><!-- wp:group {"className":"ss-card__photo","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-card__photo"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13.webp' ) ); ?>" alt="Quiet clinic reception area featuring a wooden bench, indoor plants, and bright window."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13.webp' ) ); ?>" alt="<?php echo esc_attr( shisei_clinic_t( 'aab28790e' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"ss-card__addr","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-card__addr"><!-- wp:paragraph -->
-<p>Suite 204, 1180 Linden Row<br>Vancouver, BC V6E 2S2, Canada<br>Five minutes on foot from the Linden Row SkyTrain stop.</p>
+<p><?php echo wp_kses_post( shisei_clinic_t( 'k28f0246b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-card__panel","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-card__panel"><!-- wp:paragraph {"className":"ss-card__label"} -->
-<p class="ss-card__label">HOURS &amp; LOCATION</p>
+<p class="ss-card__label"><?php echo wp_kses_post( shisei_clinic_t( 'kce6f9693' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<table class="ss-hours"><thead><tr><th><span class="screen-reader-text">Time</span></th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr></thead><tbody><tr><th>Morning</th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>–</td></tr><tr><th>Afternoon</th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>–</td><td>–</td></tr></tbody></table>
-<ul class="ss-hours-lines"><li>Mon–Fri <span>8:00–13:00 · 14:00–19:30</span></li><li>Sat <span>9:00–13:00</span></li><li>Sun &amp; holidays <span>closed</span></li></ul>
+<table class="ss-hours"><thead><tr><th><span class="screen-reader-text"><?php echo wp_kses_post( shisei_clinic_t( 'ka76d4ef5' ) ); ?></span></th><th><?php echo wp_kses_post( shisei_clinic_t( 'kfd29458a' ) ); ?></th><th><?php echo wp_kses_post( shisei_clinic_t( 'k2ddecde8' ) ); ?></th><th><?php echo wp_kses_post( shisei_clinic_t( 'k510c292b' ) ); ?></th><th><?php echo wp_kses_post( shisei_clinic_t( 'ked5e8353' ) ); ?></th><th><?php echo wp_kses_post( shisei_clinic_t( 'kac616f84' ) ); ?></th><th><?php echo wp_kses_post( shisei_clinic_t( 'k13c7d2d7' ) ); ?></th><th><?php echo wp_kses_post( shisei_clinic_t( 'kef6572e4' ) ); ?></th></tr></thead><tbody><tr><th><?php echo wp_kses_post( shisei_clinic_t( 'kb311a3fe' ) ); ?></th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>–</td></tr><tr><th><?php echo wp_kses_post( shisei_clinic_t( 'k31d0ff0a' ) ); ?></th><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>–</td><td>–</td></tr></tbody></table>
+<ul class="ss-hours-lines"><li><?php echo wp_kses_post( shisei_clinic_t( 'k5f25a222' ) ); ?> <span>8:00–13:00 · 14:00–19:30</span></li><li><?php echo wp_kses_post( shisei_clinic_t( 'k13c7d2d7' ) ); ?> <span>9:00–13:00</span></li><li><?php echo wp_kses_post( shisei_clinic_t( 'k52dc400e' ) ); ?> <span><?php echo wp_kses_post( shisei_clinic_t( 'k349e6863' ) ); ?></span></li></ul>
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"ss-card__note"} -->
-<p class="ss-card__note">Mon–Fri 8:00–13:00 and 14:00–19:30. Saturday 9:00–13:00. Closed Sundays and statutory holidays. Last booking 30 minutes before closing.</p>
+<p class="ss-card__note"><?php echo wp_kses_post( shisei_clinic_t( 'k58eb55ad' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-card__tel"} -->
@@ -42,7 +42,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ss-card__note"} -->
-<p class="ss-card__note">hello@shisei.example</p>
+<p class="ss-card__note"><?php echo wp_kses_post( shisei_clinic_t( 'k63d261f4' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

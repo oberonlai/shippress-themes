@@ -12,26 +12,26 @@
 <section class="wp-block-group alignfull ss-sec ss-clin"><!-- wp:group {"className":"ss-wrap ss-clin__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-wrap ss-clin__in"><!-- wp:group {"className":"ss-clin__photo sp-reveal sp-reveal--mask","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-clin__photo sp-reveal sp-reveal--mask"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ss-clin__arch"} -->
-<figure class="wp-block-image size-full ss-clin__arch"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12.webp' ) ); ?>" alt="Dr. Naomi Hartley standing in a bright treatment room with hands loosely clasped."/></figure>
+<figure class="wp-block-image size-full ss-clin__arch"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12.webp' ) ); ?>" alt="<?php echo esc_attr( shisei_clinic_t( 'a7aee1ba5' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ss-clin__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ss-clin__text"><!-- wp:heading {"className":"ss-lead"} -->
-<h2 class="wp-block-heading ss-lead"><span>Three chiropractors,</span> <span>one movement coach,</span> <span>one massage therapist.</span></h2>
+<h2 class="wp-block-heading ss-lead"><span><?php echo wp_kses_post( shisei_clinic_t( 'kd53d0548' ) ); ?></span> <span><?php echo wp_kses_post( shisei_clinic_t( 'k52d7b0d4' ) ); ?></span> <span><?php echo wp_kses_post( shisei_clinic_t( 'kc3fe9ff7' ) ); ?></span></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Our team brings together chiropractors Dr. Naomi Hartley, Dr. Tomás Reyes and Dr. Priya Raman, kinesiologist Samuel Osei and massage therapist Lena Vogel, supported at the front desk by Mei-Lin Chou and Claire Dubois. Working across three treatment rooms and one movement room, we offer unhurried care shaped around the demands of desk work.</p>
+<p><?php echo wp_kses_post( shisei_clinic_t( 'k638159c6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<ul class="ss-names"><li><strong>Dr. Naomi Hartley, DC</strong><span>Founder, clinic director</span></li><li><strong>Dr. Tomás Reyes, DC</strong><span>Chiropractor</span></li><li><strong>Dr. Priya Raman, DC</strong><span>Chiropractor</span></li><li><strong>Samuel Osei</strong><span>Kinesiologist, movement plans</span></li><li><strong>Lena Vogel</strong><span>Registered massage therapist</span></li><li><strong>Mei-Lin Chou</strong><span>Front desk and bookings</span></li><li><strong>Claire Dubois</strong><span>Clinic manager</span></li></ul>
+<ul class="ss-names"><li><strong><?php echo wp_kses_post( shisei_clinic_t( 'k9ae00245' ) ); ?></strong><span><?php echo wp_kses_post( shisei_clinic_t( 'k6ef5d7db' ) ); ?></span></li><li><strong><?php echo wp_kses_post( shisei_clinic_t( 'k63e7d3a5' ) ); ?></strong><span><?php echo wp_kses_post( shisei_clinic_t( 'k8fb0dead' ) ); ?></span></li><li><strong><?php echo wp_kses_post( shisei_clinic_t( 'k36b66920' ) ); ?></strong><span><?php echo wp_kses_post( shisei_clinic_t( 'k8fb0dead' ) ); ?></span></li><li><strong><?php echo wp_kses_post( shisei_clinic_t( 'k9b2a87a2' ) ); ?></strong><span><?php echo wp_kses_post( shisei_clinic_t( 'kff2c5f71' ) ); ?></span></li><li><strong><?php echo wp_kses_post( shisei_clinic_t( 'k08063771' ) ); ?></strong><span><?php echo wp_kses_post( shisei_clinic_t( 'kd852f081' ) ); ?></span></li><li><strong><?php echo wp_kses_post( shisei_clinic_t( 'k748b59a0' ) ); ?></strong><span><?php echo wp_kses_post( shisei_clinic_t( 'k7ea0de15' ) ); ?></span></li><li><strong><?php echo wp_kses_post( shisei_clinic_t( 'k4e063509' ) ); ?></strong><span><?php echo wp_kses_post( shisei_clinic_t( 'k56f724be' ) ); ?></span></li></ul>
 <!-- /wp:html -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-ss-pill-fill"} -->
-<div class="wp-block-button is-style-ss-pill-fill"><a class="wp-block-button__link wp-element-button" href="/clinicians/">Meet the team</a></div>
+<div class="wp-block-button is-style-ss-pill-fill"><a class="wp-block-button__link wp-element-button" href="/clinicians/"><?php echo wp_kses_post( shisei_clinic_t( 'ke79c6603' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

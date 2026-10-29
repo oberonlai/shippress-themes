@@ -1,0 +1,26 @@
+<?php
+/**
+ * Title: Template: single
+ * Slug: shisei-clinic/tpl-single
+ * Categories: shisei-clinic
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"ss-main","layout":{"type":"default"}} -->
+<main class="wp-block-group ss-main"><!-- wp:pattern {"slug":"shisei-clinic/single-head"} /-->
+
+<!-- wp:group {"className":"ss-sec ss-ibody ss-article","tagName":"section","align":"full","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull ss-sec ss-ibody ss-article"><!-- wp:group {"className":"ss-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group ss-wrap"><!-- wp:post-featured-image {"className":"ss-article__img sp-reveal sp-reveal--mask"} /-->
+
+<!-- wp:post-content {"className":"ss-article__body","layout":{"type":"constrained"}} /-->
+
+<!-- wp:post-terms {"term":"category","className":"ss-article__terms"} /-->
+
+<!-- wp:paragraph {"className":"ss-more"} -->
+<p class="ss-more"><a href="/notes/"><?php echo wp_kses_post( shisei_clinic_t( 'k67bfaf2f' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group --></main>
+<!-- /wp:group -->

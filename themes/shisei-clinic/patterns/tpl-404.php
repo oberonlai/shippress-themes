@@ -1,0 +1,22 @@
+<?php
+/**
+ * Title: Template: 404
+ * Slug: shisei-clinic/tpl-404
+ * Categories: shisei-clinic
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"ss-main","layout":{"type":"default"}} -->
+<main class="wp-block-group ss-main"><!-- wp:pattern {"slug":"shisei-clinic/lost-head"} /-->
+
+<!-- wp:group {"className":"ss-sec ss-ibody ss-ibody--close","tagName":"section","align":"full","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull ss-sec ss-ibody ss-ibody--close"><!-- wp:group {"className":"ss-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group ss-wrap"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-ss-pill-fill"} -->
+<div class="wp-block-button is-style-ss-pill-fill"><a class="wp-block-button__link wp-element-button" href="/"><?php echo wp_kses_post( shisei_clinic_t( 'k555c7cae' ) ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
