@@ -10,3 +10,30 @@ Theme for a nutrition and dietetics clinic: white ground, cool paper, ink, one d
 Status: home page in English plus eight starter inner pages (About, Approach, Services, Dietitians, Stories, Fees, Contact, FAQ) and the Journal. Full inner-page design with the signature techniques and the zh-TW, ja, fr and de languages follow.
 
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`. License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Eiyo Clinic home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Eiyo Clinic home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Approach: [desktop](screenshots/approach-desktop.webp) · [mobile](screenshots/approach-mobile.webp)
+- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
+- Dietitians: [desktop](screenshots/dietitians-desktop.webp) · [mobile](screenshots/dietitians-mobile.webp)
+- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
+- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
+- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
+- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
