@@ -28,7 +28,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Mark had spent years skipping breakfast, running on coffee until mid-morning hunger took over. Working with Tomás, he established an unhurried morning bowl of warm porridge and fruit, bringing calm stability to his workday.</p>
+<p>Mark had spent years skipping breakfast, running on coffee until mid-morning hunger took over. Working with Tomás, he established an unhurried morning bowl of warm porridge and fruit, a breakfast he now makes most mornings.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"ec-chip ec-chip--bare"} -->
@@ -46,7 +46,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Hospital night shifts left Rosa reliant on vending machines at three in the morning. Leila helped her design a packed thermal lunch that stays fresh for twelve hours, keeping her alert and nourished through demanding rotations.</p>
+<p>Hospital night shifts left Rosa reliant on vending machines at three in the morning. Leila helped her design a packed thermal lunch that stays fresh for twelve hours, a lunch she now prepares before each rotation.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"ec-chip ec-chip--bare"} -->

@@ -79,7 +79,7 @@ html .ec-nav .wp-block-navigation__responsive-container-close { top: 20px; right
 .ec-kv { position: relative; margin: 0 32px; height: min(calc((100vw - 64px) / 1.9), calc(100svh - 203px)); min-height: 220px; border-radius: 10px; overflow: clip; background: var(--ec-paper); --sp-par: 6%; }
 .ec-kv .sp-parallax__layer { position: absolute; inset: 0; }
 .ec-kv .wp-block-image { position: absolute; inset: 0; margin: 0; }
-.ec-kv .wp-block-image img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 50%; }
+.ec-kv .wp-block-image img { width: 100%; height: 100%; object-fit: cover; object-position: 62% 50%; }
 @media (prefers-reduced-motion: no-preference) {
 	/* slide 1 stays underneath; 2 fades in over it (1 s), 3 over 2, then 3 fades out to 1 again (18 s cycle, 5 s holds) */
 	html:not(.sp-no-motion) .ec-slide--2 { opacity: 0; animation: ec-fade2 18s linear infinite; }
@@ -134,7 +134,8 @@ html.sp-no-motion .ec-slide--2, html.sp-no-motion .ec-slide--3, .editor-styles-w
 	html.sp-js:not(.sp-no-motion) .ec-statement .sp-reveal:not(.sp-in) { opacity: .3; }
 }
 .ec-stmt .ec-chip { margin-top: 72px; }
-.ec-stmt__body { margin-top: 40px; max-width: 560px; font-size: .9375rem; line-height: 2; }
+.ec-stmt .ec-stmt__body { margin-top: 32px; }
+.ec-stmt__body { margin-top: 32px; max-width: 560px; font-size: .9375rem; line-height: 2; }
 
 /* ---------- problem: static coverflow, caption card, tab rules ---------- */
 .ec-stalls { padding-top: 40px; padding-bottom: 150px; }
@@ -170,7 +171,7 @@ html.sp-no-motion .ec-slide--2, html.sp-no-motion .ec-slide--3, .editor-styles-w
 .ec-arch h3 { color: #fff; font-size: 1.6875rem; line-height: 1.4; margin: 0; letter-spacing: .01em; }
 .ec-arch p { color: #fff; font-size: .9375rem; line-height: 2; margin: 0; }
 .ec-arch--a { grid-column: 1; grid-row: 1 / span 2; }
-.ec-arch--b { grid-column: 3; grid-row: 2; justify-self: end; margin-top: 130px; }
+.ec-arch--b { grid-column: 3; grid-row: 2; justify-self: end; margin-top: 200px; }
 .ec-method__photo { grid-column: 2; grid-row: 1 / span 2; margin: 120px 24px 0; }
 .ec-method__photo img { aspect-ratio: 4 / 5; border-radius: 10px; }
 .ec-method__head { grid-column: 3; grid-row: 1; justify-self: end; width: min(484px, 100%); box-sizing: border-box; }
@@ -290,9 +291,9 @@ html.sp-no-motion .ec-slide--2, html.sp-no-motion .ec-slide--3, .editor-styles-w
 	.ec-flow .ec-ph { position: static; transform: none !important; margin: 0 !important; }
 	.ec-flow__side { display: none; }
 	.ec-flow__main { width: 100%; }
-	.ec-flow__card { position: static; width: auto; margin: -48px 16px 0; left: auto; }
-	.ec-tabs { flex-wrap: wrap; row-gap: 12px; margin-top: 36px; }
-	.ec-tabs p { padding: 0 18px; }
+	.ec-flow__card { position: relative; z-index: 2; width: auto; margin: -48px 16px 0; left: auto; }
+	.ec-tabs { flex-wrap: wrap; gap: 8px 24px; margin-top: 36px; }
+	.ec-tabs p { padding: 0; border-left: 0; }
 	.ec-stalltext { column-count: 1; margin-top: 48px; }
 	.ec-method { border-radius: 0 48px 0 48px; padding-block: 80px; }
 	.ec-arch { width: 100%; aspect-ratio: auto; min-height: 420px; border-radius: 200px; padding: 72px 32px; }
@@ -310,3 +311,13 @@ html.sp-no-motion .ec-slide--2, html.sp-no-motion .ec-slide--3, .editor-styles-w
 	.ec-foot__cols { grid-template-columns: 1fr; gap: 28px; }
 	.ec-h2, .ec-method__head h2 { font-size: 1.875rem; }
 }
+
+/* ---------- inner pages ---------- */
+.ec-page { padding-top: 110px; padding-bottom: 130px; }
+.ec-page__in { max-width: 860px; }
+.ec-page__title { font-size: 2.75rem; margin: 14px 0 20px; }
+.ec-page__lead { font-size: 1.125rem; line-height: 1.8; margin: 0 0 56px; }
+.ec-page__in h3 { font-size: 1.375rem; margin: 40px 0 8px; }
+.ec-page__in p { line-height: 1.85; margin: 0 0 16px; }
+.ec-page__role { color: var(--ec-sage); font-family: var(--ec-head); font-weight: 500; margin-bottom: 8px; }
+@media (max-width: 781px) { .ec-page { padding-block: 60px 80px; } .ec-page__title { font-size: 2rem; } }

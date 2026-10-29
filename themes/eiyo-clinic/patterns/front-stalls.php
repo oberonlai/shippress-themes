@@ -59,7 +59,7 @@
 
 <!-- wp:group {"className":"ec-in ec-stalltext","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-in ec-stalltext"><!-- wp:paragraph -->
-<p><strong>Skipped breakfast</strong> often begins with a rush out the door and an extra coffee. By noon, hunger is urgent and options are limited to whatever is nearby. We help you assemble a simple, repeatable morning routine that takes under five minutes and carries you comfortably into lunchtime.</p>
+<p><strong>Skipped breakfast</strong> often begins with a rush out the door and an extra coffee. By noon, hunger is urgent and options are limited to whatever is nearby. We help you assemble a simple, repeatable morning routine that takes under five minutes and puts something on the table before the morning gets busy.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -67,7 +67,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>All-or-nothing weeks</strong> swing between immaculate meal preparation on Sunday and complete abandonment by Wednesday night. Real life rarely follows an immaculate schedule. We replace rigid expectations with flexible, forgiving meal combinations that still nourish you when meetings run over and energy is low.</p>
+<p><strong>All-or-nothing weeks</strong> swing between immaculate meal preparation on Sunday and complete abandonment by Wednesday night. Real life rarely follows a tidy schedule. We replace rigid expectations with flexible, forgiving meal combinations that still nourish you when meetings run over and energy is low.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

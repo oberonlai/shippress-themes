@@ -66,7 +66,7 @@ function eiyo_clinic_alts() {
 		'p05' => 'Person wearing an overcoat standing near an open apartment door holding a coffee cup.',
 		'p06' => 'Person eating a late evening meal quietly at a white kitchen island counter.',
 		'p07' => 'Person standing before an open refrigerator inspecting stacked plastic meal containers inside.',
-		'p08' => 'Overhead view of a breakfast plate beside a handwritten plan and a pencil.',
+		'p08' => 'A steel lunch box of roasted vegetables and chickpeas beside a glass bottle of water on an oak table.',
 		'p09' => 'Mature man preparing warm oatmeal with fresh fruit inside a sunlit home kitchen.',
 		'p10' => 'Woman wearing medical scrubs packing a reusable lunch container on a kitchen counter.',
 		'p11' => 'Parent and teenager arranging four ceramic plates onto a plain wooden dinner table.',
@@ -97,7 +97,14 @@ function eiyo_clinic_image( $id, $class = '', $img = '' ) {
 	$id    = strtolower( $id );
 	$alts  = eiyo_clinic_alts();
 	$class = trim( 'ec-ph ec-ph--' . $id . ' ' . $class );
+	if ( $img ) {
+		// Decorative copies: a custom HTML block, so aria-hidden is kept and the image block stays valid in the editor.
+		return '<!-- wp:html -->' . "\n"
+			. '<figure class="wp-block-image size-full ' . esc_attr( $class ) . '"><img src="' . esc_url( eiyo_clinic_img( $id ) ) . '" alt="" ' . $img . '/></figure>' . "\n"
+			. '<!-- /wp:html -->';
+	}
+	$alt = isset( $alts[ $id ] ) ? $alts[ $id ] : '';
 	return '<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"' . esc_attr( $class ) . '"} -->' . "\n"
-		. '<figure class="wp-block-image size-full ' . esc_attr( $class ) . '"><img src="' . esc_url( eiyo_clinic_img( $id ) ) . '" alt="' . esc_attr( isset( $alts[ $id ] ) ? $alts[ $id ] : '' ) . '"' . ( $img ? ' ' . $img : '' ) . '/></figure>' . "\n"
+		. '<figure class="wp-block-image size-full ' . esc_attr( $class ) . '"><img src="' . esc_url( eiyo_clinic_img( $id ) ) . '" alt="' . esc_attr( $alt ) . '"/></figure>' . "\n"
 		. '<!-- /wp:image -->';
 }

@@ -7,6 +7,6 @@ Home page theme for a nutrition and dietetics clinic: white ground, cool paper, 
 - Scroll effects: `assets/sp-scroll.css|js` (unchanged ShipPress copy): sp-parallax on the key visual, reveal-up with stagger on the statement lines, the arches and the story cards.
 - Photographs are AI-generated in `assets/images/`.
 
-Status: home page in English (stage 1). Inner pages and the zh-TW, ja, fr and de languages follow.
+Status: home page in English plus eight starter inner pages (About, Approach, Services, Dietitians, Stories, Fees, Contact, FAQ) and the Journal. Full inner-page design with the signature techniques and the zh-TW, ja, fr and de languages follow.
 
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`. License: GPL-2.0-or-later.
