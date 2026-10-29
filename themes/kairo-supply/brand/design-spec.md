@@ -1,5 +1,8 @@
 # Kairo Supply: design spec (stage 1, r2 rebuild, binding for implementation)
 
+> **Amendment (v1.0.2):** the flat yellow silhouette described for the home first screen (T1) was removed after review; the home hero keeps the photo, the diagonal daylight band, the vertical catch copy and the dot rail. Sections below that mention the home hero shadow are historical.
+
+
 Slug `kairo-supply`, electrical wholesaler trade counter, **trade-account landing page** (type `landing`, archetype sticky-media, hero full-bleed-photo, nav top-bar, page_structure landing-longform). Five languages: en, zh-TW, ja, fr, de.
 Reference (only one, token-complete): **otoden.co.jp** (Otofuke Densetsu 50th anniversary site, S5-Style, electrical construction). Measurements: `brand/reference-tokens.md`; screenshots: `brand/ref/`.
 We borrow structure, techniques, the key-visual idea, colour relationships and measured tokens. We do **not** copy photos, copy, logo, the "TOKACHI LIGHT." wordmark, the 50th badge or the record-sleeve "SPOT LIGHT" disc.

@@ -69,5 +69,8 @@ Photographs were generated for this theme (AI-generated, CC0) and are released u
 Scroll effects (assets/sp-scroll.css, assets/sp-scroll.js) are ShipPress's own, GPL-2.0-or-later.
 
 == Changelog ==
+= 1.0.2 =
+* Home first screen: removed the yellow figure that slid in over the photo; the photograph, daylight band and vertical catch copy remain.
+
 = 1.0.1 =
 * Rebuilt: new home, eleven styled inner pages, a story template and sample story, 17 photographs.

@@ -1,6 +1,6 @@
 # Kairo Supply
 
-Trade-account landing theme for an electrical wholesaler's counter. Signature: a full-bleed counter photograph with a diagonal daylight band and a flat yellow shadow, a rounded-top photo stage pinned while lines pass into pale fog, and floating cards with vertical titles. Albert Sans / Hanken Grotesk. Home page plus the twelve menu pages (plain en copy; styled inner layouts and the other languages follow); see brand.md.
+Trade-account landing theme for an electrical wholesaler's counter. Signature: a full-bleed counter photograph with a diagonal daylight band, a rounded-top photo stage pinned while lines pass into pale fog, and floating cards with vertical titles. Albert Sans / Hanken Grotesk. Home page plus the twelve menu pages (plain en copy; styled inner layouts and the other languages follow); see brand.md.
 
 <!-- screenshots:start -->
 ## Screenshots
