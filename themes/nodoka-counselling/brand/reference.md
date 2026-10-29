@@ -4,7 +4,7 @@ Secondary: https://mcares.co.jp/ (S5-Style #10898; pinned hero → ground, care 
 IMAGERY: photo (low-key, warm-neutral, grain; two armchairs, notebook, window light).
 Tokens: reference-tokens.md. Screenshots: ref/yosuga-*.png, ref/mcares-*.png, ref/scroll-*.png.
 Palette mapping: ground #EDE8DE→ cool mist #E9ECEC; olive text #58633E→ steel ink #2F3A40; peach tabs #DBC2B6→ muted clay #CDB8AE; brand steel #5C6B73.
-## Our adaptation (成品對應) — see design-spec.md
+## Our adaptation (finished-product mapping) — see design-spec.md
 | Reference element | Source | Nodoka counterpart (where) |
 |---|---|---|
 | Quiet split first screen, tall low-key photo window, 3 peach vertical pill tabs, hairline + NEWS strip | yosuga first screen | T1 home hero: armchairs photo x469–1295, clay #DBC2B6 tabs Book / Email / Online, hairline + NOTICE strip; compact T1 on all 10 inner heroes |

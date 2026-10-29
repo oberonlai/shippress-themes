@@ -73,7 +73,7 @@ Visible check at 1440×900: photo, vertical tagline, 3 tabs, wordmark+caption, h
 ## 3. Colour (reference relationships; steel family per row)
 
 Reference [tok a]: ground #EDE8DE 70% · olive heading #58633E · dark ink #3B3720 · peach tab #DBC2B6 ~2% · low-key photo ~33% width; saturated share 10.2%.
-**Change and reason:** the row fixes palette 青鈍 / steel #5C6B73 and common.md forbids defaulting to beige; Yuragi Spa (last shipped) was warm. So the beige ground moves to a cool mist with the *same lightness* (#EDE8DE L≈90% → #E9ECEC L≈92%, +2%), olive heading → steel (same role, same mid-dark value), dark ink → steel ink. The peach tab is kept at the **reference hex** — it is the warm note against the cool ground exactly as on yosuga.
+**Change and reason:** the row fixes palette steel #5C6B73 and common.md forbids defaulting to beige; Yuragi Spa (last shipped) was warm. So the beige ground moves to a cool mist with the *same lightness* (#EDE8DE L≈90% → #E9ECEC L≈92%, +2%), olive heading → steel (same role, same mid-dark value), dark ink → steel ink. The peach tab is kept at the **reference hex** — it is the warm note against the cool ground exactly as on yosuga.
 
 | Role | Hex | Share (first screen) | Source |
 |---|---|---|---|
@@ -94,7 +94,7 @@ Reference [tok a]: ground #EDE8DE 70% · olive heading #58633E · dark ink #3B37
 ## 4. Type (font_direction **sans**)
 
 - Latin headings: **Instrument Sans** (variable 400–700). Latin body: **Public Sans** (variable 300–700). Both sans; no serif anywhere.
-- CJK: **Noto Sans TC** (zh-TW), **Noto Sans JP** (ja), 400 + 500 — 黑體 for headings and body; never Noto Serif.
+- CJK: **Noto Sans TC** (zh-TW), **Noto Sans JP** (ja), 400 + 500 — sans-serif for headings and body; never Noto Serif.
 - Stacks (theme.json fontFamilies):
   - `heading`: "Instrument Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif
   - `body`: "Public Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif

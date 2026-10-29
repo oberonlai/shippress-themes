@@ -40,3 +40,11 @@ Photographs, generated for this theme, no text or logos, GPL-2.0-or-later:
 - assets/images/img-practitioner-tomas.webp
 - assets/images/img-lamp-desk.webp
 - assets/images/img-entrance.webp
+- assets/images/img-clock-shelf.webp
+- assets/images/img-couch-cushion.webp
+- assets/images/img-hands-cup.webp
+- assets/images/img-laptop-online.webp
+- assets/images/img-room-wide.webp
+- assets/images/img-stair-light.webp
+- assets/images/img-waiting-bench.webp
+- assets/images/demo/img-window-rain.webp
