@@ -50,5 +50,7 @@ Today, the taproom remains grounded in calm hospitality, daily draught line main
 2. Rule-topped cards: a 4 px ink rule cut near its right end, an outline circle arrow, caps names (AFURI product row).
 3. Underlined-phrase lead plus a rotated grey gutter label (AFURI lead and side label).
 
-## Pages
-Home (stage 1). Stage 2: On Tap & Prices, Book a Seat, The Brewery, People, Visit & Hours, Events & Back Room, Brew Notes, About, Contact.
+## Pages (en, all built)
+Home; On Tap (tap cards, six-row price list, snacks, growlers, next-week taps); Book a Seat (seat cards, how a hold works, request form); The Brewery (grain / hops / water / time, photo strip, wipe photo); Events & Back Room; Brew Notes (posts page, cards with cut rule) with one article, "Why we only run four taps"; About (parallax taproom band); People (horizontal strip of all seven); Visit & Hours (hours list); Contact.
+Every inner page opens with the short framed-window head (umber ground, framed photo, caps title across the frame edge), then an underlined-phrase lead with the rotated side label, then rule-topped cards. Scroll effects: sp-parallax on the home hero, the home price photo and the About band; sp-reveal wipe on Home, Brewery and Events photos; sp-stagger cards on Home, On Tap and Book a Seat.
+Photos: 16 (h1, h2, r3, s4, s5, s6, f7, b8, c9, c10, c11, x13, e12, g14, n15, w16), none repeated on one page.

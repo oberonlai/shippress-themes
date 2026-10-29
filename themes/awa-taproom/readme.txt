@@ -18,7 +18,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
 3. Activate Awa Taproom.
 
-On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page with all its text and images and a menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice. The theme works without WooCommerce.
+On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page, nine inner pages, one Brew Notes article, all their text and images and a menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice. The theme works without WooCommerce.
 
 The taproom, its people, address, telephone number and prices are fictional.
 
