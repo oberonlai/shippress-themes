@@ -44,4 +44,7 @@ Mon-Fri 08:30-17:30 CET. proposals@sekisan.example. No telephone number.
 3. Primary school extension - 1,450 m² - second-opinion review - estimate €4.6 m - outturn €4.75 m (ground conditions priced as a risk; half of the contingency used).
 
 ## Pages
-Home (stage 1: nine sections, anchors #gap #estimate #handover #fees #cases #people #request), Request a proposal, then in stage 2: About, How we estimate, Fees & scope, Cases, Cost letter, Notes (with three notes), Privacy, Terms, Thanks.
+Home (nine sections, anchors #gap #estimate #handover #fees #cases #people #request) plus ten inner pages, all English copy from the same facts:
+- **About** (founding 2011, the people, the studio, parallax site band), **How we estimate** (five stages as index rows), **Fees & scope** (the seven-row fee table, stacked below 782 px), **Cases** (three cases with fact tables and one coral lesson tile), **Request a proposal** (four process rows, what to send, studio), **Cost letter** (quarterly, free, first issue January 2027, email sign-up), **Notes** (hairline rows: date, teal category chip, title and excerpt), **Privacy notice**, **Terms of engagement**, **Thank you**.
+- One note: "Why the Risk Register Comes First" (category Method).
+- Signature techniques carried on every page: the 84 px ink rail (T1), coloured-first-letter headings and numbered caps index rows (T2 on About, Method, Cases, Request and Notes), the square 3 px arrow button (T3). Parallax on the home hero, the home gap photo, the home cases band and the About band.

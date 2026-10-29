@@ -488,7 +488,13 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 			try {
 				// 1. Media: raster copies of the illustrations, keyed by the SVG they stand for.
 				$media = array();
-				foreach ( glob( self::theme_dir() . '/assets/images/demo/*' ) ?: array() as $file ) {
+				$files = glob( self::theme_dir() . '/assets/images/demo/*' ) ?: array();
+				foreach ( isset( $demo['posts'] ) ? $demo['posts'] : array() as $p ) {
+					if ( ! empty( $p['image'] ) && is_readable( self::theme_dir() . '/' . $p['image'] ) ) {
+						$files[] = self::theme_dir() . '/' . $p['image'];
+					}
+				}
+				foreach ( array_unique( $files ) as $file ) {
 					if ( ! preg_match( '/\.(jpe?g|png|webp)$/i', $file ) ) {
 						continue;
 					}
@@ -1018,7 +1024,13 @@ if ( ! class_exists( 'ShipPress_Demo_Import' ) ) {
 			try {
 				// What the import would use right now: this theme's media, terms and pages (looked up, nothing created).
 				$media = array();
-				foreach ( glob( self::theme_dir() . '/assets/images/demo/*' ) ?: array() as $file ) {
+				$files = glob( self::theme_dir() . '/assets/images/demo/*' ) ?: array();
+				foreach ( isset( $demo['posts'] ) ? $demo['posts'] : array() as $p ) {
+					if ( ! empty( $p['image'] ) && is_readable( self::theme_dir() . '/' . $p['image'] ) ) {
+						$files[] = self::theme_dir() . '/' . $p['image'];
+					}
+				}
+				foreach ( array_unique( $files ) as $file ) {
 					$name = pathinfo( $file, PATHINFO_FILENAME );
 					$mid  = self::find( 'media', $name, 'attachment' );
 					if ( $mid ) {
