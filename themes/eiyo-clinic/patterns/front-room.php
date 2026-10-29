@@ -16,46 +16,46 @@
 
 <!-- wp:group {"className":"ec-room__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-room__text"><!-- wp:heading {"className":"ec-h2"} -->
-<h2 class="wp-block-heading ec-h2">Who is in the room</h2>
+<h2 class="wp-block-heading ec-h2"><?php echo wp_kses_post( eiyo_clinic_t( 'k35efe1e0' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Our clinic brings together registered dietitians and a cook who share a grounded, respectful philosophy around food. We spend our appointments listening closely, working alongside your doctor when health conditions require medical guidance, and offering sensible, practical care that respects your daily reality.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'k76c875ad' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ec-names","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-names"><!-- wp:paragraph {"className":"ec-name"} -->
-<p class="ec-name">Ingrid Solberg<br><em>Founder, registered dietitian</em></p>
+<p class="ec-name"><?php echo wp_kses_post( eiyo_clinic_t( 'k79e5cb90' ) ); ?><br><em><?php echo wp_kses_post( eiyo_clinic_t( 'kc2161e60' ) ); ?></em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-name"} -->
-<p class="ec-name">Tomás Ávila<br><em>Dietitian, blood sugar and cholesterol</em></p>
+<p class="ec-name"><?php echo wp_kses_post( eiyo_clinic_t( 'k422a71c3' ) ); ?><br><em><?php echo wp_kses_post( eiyo_clinic_t( 'k56e748b5' ) ); ?></em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-name"} -->
-<p class="ec-name">Amara Nwosu<br><em>Dietitian, family meals</em></p>
+<p class="ec-name"><?php echo wp_kses_post( eiyo_clinic_t( 'k7e9da65c' ) ); ?><br><em><?php echo wp_kses_post( eiyo_clinic_t( 'ke72d03af' ) ); ?></em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-name"} -->
-<p class="ec-name">Leila Haddad<br><em>Dietitian, shift work and eating out</em></p>
+<p class="ec-name"><?php echo wp_kses_post( eiyo_clinic_t( 'k09e85317' ) ); ?><br><em><?php echo wp_kses_post( eiyo_clinic_t( 'kaddd37eb' ) ); ?></em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-name"} -->
-<p class="ec-name">Daniel Brennan<br><em>Dietitian, plant-forward eating</em></p>
+<p class="ec-name"><?php echo wp_kses_post( eiyo_clinic_t( 'k322409e0' ) ); ?><br><em><?php echo wp_kses_post( eiyo_clinic_t( 'k70cb2b9a' ) ); ?></em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-name"} -->
-<p class="ec-name">Priya Raman<br><em>Cook, leads the kitchen classes</em></p>
+<p class="ec-name"><?php echo wp_kses_post( eiyo_clinic_t( 'ke16336e3' ) ); ?><br><em><?php echo wp_kses_post( eiyo_clinic_t( 'k0633fde3' ) ); ?></em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-name"} -->
-<p class="ec-name">Sofia Marchetti<br><em>Front desk and bookings</em></p>
+<p class="ec-name"><?php echo wp_kses_post( eiyo_clinic_t( 'k367a28c5' ) ); ?><br><em><?php echo wp_kses_post( eiyo_clinic_t( 'k7ea0de15' ) ); ?></em></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"className":"ec-chip"} -->
 <div class="wp-block-buttons ec-chip"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/dietitians/' ) ); ?>">Meet the dietitians</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/dietitians/' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'k2c011ec7' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

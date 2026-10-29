@@ -11,17 +11,17 @@
 <!-- wp:group {"tagName":"section","align":"full","anchor":"fees","className":"ec-sec ec-fees","layout":{"type":"default"}} -->
 <section id="fees" class="wp-block-group alignfull ec-sec ec-fees"><!-- wp:group {"className":"ec-in","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-in"><!-- wp:heading {"className":"ec-h2"} -->
-<h2 class="wp-block-heading ec-h2">Fees</h2>
+<h2 class="wp-block-heading ec-h2"><?php echo wp_kses_post( eiyo_clinic_t( 'k006300ef' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ec-feelist","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-feelist"><!-- wp:group {"className":"ec-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-fee"><!-- wp:paragraph {"className":"ec-fee__name"} -->
-<p class="ec-fee__name">First consult</p>
+<p class="ec-fee__name"><?php echo wp_kses_post( eiyo_clinic_t( 'k90704c55' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__note"} -->
-<p class="ec-fee__note">60 min, three-day food note reviewed, handwritten plan + typed copy within 2 working days</p>
+<p class="ec-fee__note"><?php echo wp_kses_post( eiyo_clinic_t( 'kc9514ca1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__price"} -->
@@ -31,11 +31,11 @@
 
 <!-- wp:group {"className":"ec-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-fee"><!-- wp:paragraph {"className":"ec-fee__name"} -->
-<p class="ec-fee__name">Follow-up</p>
+<p class="ec-fee__name"><?php echo wp_kses_post( eiyo_clinic_t( 'kb9c20d1b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__note"} -->
-<p class="ec-fee__note">30 min, in person</p>
+<p class="ec-fee__note"><?php echo wp_kses_post( eiyo_clinic_t( 'k70a457ab' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__price"} -->
@@ -45,11 +45,11 @@
 
 <!-- wp:group {"className":"ec-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-fee"><!-- wp:paragraph {"className":"ec-fee__name"} -->
-<p class="ec-fee__name">Video follow-up</p>
+<p class="ec-fee__name"><?php echo wp_kses_post( eiyo_clinic_t( 'k3bfef512' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__note"} -->
-<p class="ec-fee__note">30 min</p>
+<p class="ec-fee__note"><?php echo wp_kses_post( eiyo_clinic_t( 'k3cbe8173' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__price"} -->
@@ -59,11 +59,11 @@
 
 <!-- wp:group {"className":"ec-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-fee"><!-- wp:paragraph {"className":"ec-fee__name"} -->
-<p class="ec-fee__name">Three-month plan</p>
+<p class="ec-fee__name"><?php echo wp_kses_post( eiyo_clinic_t( 'kdfbce554' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__note"} -->
-<p class="ec-fee__note">First consult + 3 follow-ups at weeks 2, 6, 12 + written plan</p>
+<p class="ec-fee__note"><?php echo wp_kses_post( eiyo_clinic_t( 'k395f2451' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__price"} -->
@@ -73,11 +73,11 @@
 
 <!-- wp:group {"className":"ec-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-fee"><!-- wp:paragraph {"className":"ec-fee__name"} -->
-<p class="ec-fee__name">Family meals consult</p>
+<p class="ec-fee__name"><?php echo wp_kses_post( eiyo_clinic_t( 'kf2eb2b7c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__note"} -->
-<p class="ec-fee__note">75 min, up to 4 household members</p>
+<p class="ec-fee__note"><?php echo wp_kses_post( eiyo_clinic_t( 'k3e900ae3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__price"} -->
@@ -87,11 +87,11 @@
 
 <!-- wp:group {"className":"ec-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-fee"><!-- wp:paragraph {"className":"ec-fee__name"} -->
-<p class="ec-fee__name">Grocery walk</p>
+<p class="ec-fee__name"><?php echo wp_kses_post( eiyo_clinic_t( 'k10dc1b63' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__note"} -->
-<p class="ec-fee__note">45 min, at a store near the clinic</p>
+<p class="ec-fee__note"><?php echo wp_kses_post( eiyo_clinic_t( 'k6c658178' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__price"} -->
@@ -101,11 +101,11 @@
 
 <!-- wp:group {"className":"ec-fee","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-fee"><!-- wp:paragraph {"className":"ec-fee__name"} -->
-<p class="ec-fee__name">Kitchen class</p>
+<p class="ec-fee__name"><?php echo wp_kses_post( eiyo_clinic_t( 'kc9b6d525' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__note"} -->
-<p class="ec-fee__note">2 hours, small group of up to 6, per person</p>
+<p class="ec-fee__note"><?php echo wp_kses_post( eiyo_clinic_t( 'ke8b83019' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-fee__price"} -->
@@ -117,20 +117,20 @@
 <!-- wp:group {"className":"ec-visit","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-visit"><!-- wp:group {"className":"ec-visit__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-visit__text"><!-- wp:paragraph {"className":"ec-addr"} -->
-<p class="ec-addr">418 Alder Row, Suite 2, Seattle, WA 98103</p>
+<p class="ec-addr"><?php echo wp_kses_post( eiyo_clinic_t( 'k5a8a58e1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Mon–Fri 8:30–18:00 (Thu until 20:00); Sat 9:00–13:00. Closed Sun and public holidays.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'k9169a93b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Payment by card. Itemised receipt (superbill) for your insurer on request; we do not bill insurers directly. Cancellation free up to 24 hours before.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'ka77ec767' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"ec-chip"} -->
 <div class="wp-block-buttons ec-chip"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/fees/' ) ); ?>">Fees & insurance</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/fees/' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'k7504e9be' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->

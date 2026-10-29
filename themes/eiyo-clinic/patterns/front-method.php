@@ -14,16 +14,16 @@
 <div class="wp-block-group ec-in"><!-- wp:group {"className":"ec-method__grid sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-method__grid sp-stagger"><!-- wp:group {"className":"ec-arch ec-arch--a sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-arch ec-arch--a sp-reveal sp-reveal--up"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Before you come</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'kf7d8a15f' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Book a first consult. We send a three-day food note. Write what you ate, not what you should have.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'k25a422b1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"ec-chip ec-chip--on-pine"} -->
 <div class="wp-block-buttons ec-chip ec-chip--on-pine"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Booking</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'k0421bbd7' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -34,33 +34,33 @@
 
 <!-- wp:group {"className":"ec-method__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-method__head"><!-- wp:heading -->
-<h2 class="wp-block-heading">How one consult runs</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'k1b3818ae' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Four stages, written by hand: book, talk, plan, follow up.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'k2efb5871' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ec-arch ec-arch--b sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-arch ec-arch--b sp-reveal sp-reveal--up"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">In the room, 60 minutes</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'k831aa4a7' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We read your note together, pick two changes, and write the plan by hand. A typed copy reaches you within 2 working days. Follow-ups at weeks 2, 6 and 12.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'k9e7bbbd0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"ec-chip ec-chip--on-pine"} -->
 <div class="wp-block-buttons ec-chip ec-chip--on-pine"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/approach/' ) ); ?>">The approach</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/approach/' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'kdd2f4022' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ec-phrase"} -->
-<p class="ec-phrase">Plainer meals, planned together.</p>
+<p class="ec-phrase"><?php echo wp_kses_post( eiyo_clinic_t( 'kec18375c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

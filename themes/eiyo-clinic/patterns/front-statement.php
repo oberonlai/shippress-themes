@@ -13,30 +13,30 @@
 <div class="wp-block-group ec-in ec-cols"><!-- wp:group {"className":"ec-stmt","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-stmt"><!-- wp:group {"className":"ec-statement sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-statement sp-stagger"><!-- wp:paragraph {"className":"ec-line sp-reveal sp-reveal--up"} -->
-<p class="ec-line sp-reveal sp-reveal--up">Most of eating well is plain meals.</p>
+<p class="ec-line sp-reveal sp-reveal--up"><?php echo wp_kses_post( eiyo_clinic_t( 'k1a4cae7f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-line sp-reveal sp-reveal--up"} -->
-<p class="ec-line sp-reveal sp-reveal--up">Breakfast you will actually make,</p>
+<p class="ec-line sp-reveal sp-reveal--up"><?php echo wp_kses_post( eiyo_clinic_t( 'k409e88dd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-line sp-reveal sp-reveal--up"} -->
-<p class="ec-line sp-reveal sp-reveal--up">a lunch that survives the day,</p>
+<p class="ec-line sp-reveal sp-reveal--up"><?php echo wp_kses_post( eiyo_clinic_t( 'kd5fc041b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-line sp-reveal sp-reveal--up"} -->
-<p class="ec-line sp-reveal sp-reveal--up">and a plan written with you, not for you.</p>
+<p class="ec-line sp-reveal sp-reveal--up"><?php echo wp_kses_post( eiyo_clinic_t( 'k912f8f6c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"className":"ec-chip"} -->
 <div class="wp-block-buttons ec-chip"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About the clinic</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/about/' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'k7c16f89a' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"className":"ec-stmt__body"} -->
-<p class="ec-stmt__body">We sit down together in a quiet room on Alder Row to talk through what you actually eat across an ordinary week. There are no forbidden foods, calorie counts, or complicated rules to memorize. Instead, we look at the meals you already know how to make, untangle the habits that leave you depleted by mid-afternoon, and agree on two or three practical adjustments you can maintain without turning your life upside down.</p>
+<p class="ec-stmt__body"><?php echo wp_kses_post( eiyo_clinic_t( 'k7784e8ee' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

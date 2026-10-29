@@ -21,16 +21,16 @@
 
 <!-- wp:group {"className":"ec-kvrow","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-kvrow"><!-- wp:heading {"className":"ec-h1","level":1} -->
-<h1 class="wp-block-heading ec-h1">Plainer everyday meals, planned with you.</h1>
+<h1 class="wp-block-heading ec-h1"><?php echo wp_kses_post( eiyo_clinic_t( 'kdea1f6a8' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ec-strip","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-strip"><!-- wp:paragraph {"className":"ec-strip__day"} -->
-<p class="ec-strip__day">Tue &amp; Thu</p>
+<p class="ec-strip__day"><?php echo wp_kses_post( eiyo_clinic_t( 'k145166de' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ec-strip__text"} -->
-<p class="ec-strip__text"><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">First consults have mornings open this month</a></p>
+<p class="ec-strip__text"><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'k52e16da8' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

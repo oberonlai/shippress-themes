@@ -13,17 +13,17 @@
 <div class="wp-block-group ec-in"><!-- wp:group {"className":"ec-close","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-close"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading">Start with one 60-minute consult.</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'k3435c40f' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Book an unhurried first conversation with a registered dietitian in Seattle or by video.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'ke7daaab9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"className":"ec-chip ec-chip--white"} -->
 <div class="wp-block-buttons ec-chip ec-chip--white"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Book a consult</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'k2787b65f' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

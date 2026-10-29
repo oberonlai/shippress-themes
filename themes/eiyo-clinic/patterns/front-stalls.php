@@ -11,11 +11,11 @@
 <!-- wp:group {"tagName":"section","align":"full","anchor":"problem","className":"ec-sec ec-stalls","layout":{"type":"default"}} -->
 <section id="problem" class="wp-block-group alignfull ec-sec ec-stalls"><!-- wp:group {"className":"ec-in ec-stalls__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-in ec-stalls__head"><!-- wp:paragraph {"className":"ec-eyebrow"} -->
-<p class="ec-eyebrow">The problem</p>
+<p class="ec-eyebrow"><?php echo wp_kses_post( eiyo_clinic_t( 'k02094094' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ec-h2"} -->
-<h2 class="wp-block-heading ec-h2">Where everyday eating stalls</h2>
+<h2 class="wp-block-heading ec-h2"><?php echo wp_kses_post( eiyo_clinic_t( 'ka859ba15' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -28,16 +28,16 @@
 
 <!-- wp:group {"className":"ec-flow__card","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-flow__card"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Late dinners</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'kcf428317' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Dinner at nine in a dark kitchen. We plan three easy evenings from staples.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'ka5e56efd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"ec-chip"} -->
 <div class="wp-block-buttons ec-chip"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/approach/#stalls' ) ); ?>">The approach</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/approach/#stalls' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'kdd2f4022' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -45,29 +45,29 @@
 
 <!-- wp:group {"className":"ec-in ec-tabs","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-in ec-tabs"><!-- wp:paragraph -->
-<p><a href="<?php echo esc_url( home_url( '/approach/#stalls' ) ); ?>">Skipped breakfast</a></p>
+<p><a href="<?php echo esc_url( home_url( '/approach/#stalls' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'kc61c6b12' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-current"} -->
-<p class="is-current"><a href="<?php echo esc_url( home_url( '/approach/#stalls' ) ); ?>">Late dinners</a></p>
+<p class="is-current"><a href="<?php echo esc_url( home_url( '/approach/#stalls' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'kcf428317' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="<?php echo esc_url( home_url( '/approach/#stalls' ) ); ?>">All-or-nothing weeks</a></p>
+<p><a href="<?php echo esc_url( home_url( '/approach/#stalls' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'k348e2da6' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ec-in ec-stalltext","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-in ec-stalltext"><!-- wp:paragraph -->
-<p><strong>Skipped breakfast</strong> often begins with a rush out the door and an extra coffee. By noon, hunger is urgent and options are limited to whatever is nearby. We help you assemble a simple, repeatable morning routine that takes under five minutes and puts something on the table before the morning gets busy.</p>
+<p><strong><?php echo wp_kses_post( eiyo_clinic_t( 'kc61c6b12' ) ); ?></strong> <?php echo wp_kses_post( eiyo_clinic_t( 'kc9b4c293' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Late dinners</strong> happen when long working hours or tiring commutes leave the kitchen dark until eight or nine at night. Fatigue makes cooking feel impossible, leading to random pantry snacking or takeout. We plan three effortless evening options that rely on staple ingredients and ten minutes of gentle assembly.</p>
+<p><strong><?php echo wp_kses_post( eiyo_clinic_t( 'kcf428317' ) ); ?></strong> <?php echo wp_kses_post( eiyo_clinic_t( 'k12d223e0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>All-or-nothing weeks</strong> swing between immaculate meal preparation on Sunday and complete abandonment by Wednesday night. Real life rarely follows a tidy schedule. We replace rigid expectations with flexible, forgiving meal combinations that still nourish you when meetings run over and energy is low.</p>
+<p><strong><?php echo wp_kses_post( eiyo_clinic_t( 'k348e2da6' ) ); ?></strong> <?php echo wp_kses_post( eiyo_clinic_t( 'k8879b34c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

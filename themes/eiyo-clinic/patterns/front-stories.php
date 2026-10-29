@@ -11,11 +11,11 @@
 <!-- wp:group {"tagName":"section","align":"full","anchor":"stories","className":"ec-sec ec-stories","layout":{"type":"default"}} -->
 <section id="stories" class="wp-block-group alignfull ec-sec ec-stories"><!-- wp:group {"className":"ec-in ec-stories__head","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-in ec-stories__head"><!-- wp:paragraph {"className":"ec-eyebrow"} -->
-<p class="ec-eyebrow">Stories</p>
+<p class="ec-eyebrow"><?php echo wp_kses_post( eiyo_clinic_t( 'kcbb37401' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"ec-h2"} -->
-<h2 class="wp-block-heading ec-h2">Three people, three ordinary weeks</h2>
+<h2 class="wp-block-heading ec-h2"><?php echo wp_kses_post( eiyo_clinic_t( 'kb96cbfb6' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -24,16 +24,16 @@
 <div class="wp-block-group ec-card sp-reveal sp-reveal--up"><?php echo eiyo_clinic_image( 'p09', '' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Mark, 54 — breakfast back on the table</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'k35b66a8d' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Mark had spent years skipping breakfast, running on coffee until mid-morning hunger took over. Working with Tomás, he established an unhurried morning bowl of warm porridge and fruit, a breakfast he now makes most mornings.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'k349cb1f8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"ec-chip ec-chip--bare"} -->
 <div class="wp-block-buttons ec-chip ec-chip--bare"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/stories/' ) ); ?>">Read the story</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/stories/' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'k21957bfd' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -42,16 +42,16 @@
 <div class="wp-block-group ec-card sp-reveal sp-reveal--up"><?php echo eiyo_clinic_image( 'p10', '' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Rosa, 38, night-shift nurse — a lunch that lasts a 12-hour shift</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'kb6297200' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Hospital night shifts left Rosa reliant on vending machines at three in the morning. Leila helped her design a packed thermal lunch that stays fresh for twelve hours, a lunch she now prepares before each rotation.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'kcbb56d8f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"ec-chip ec-chip--bare"} -->
 <div class="wp-block-buttons ec-chip ec-chip--bare"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/stories/' ) ); ?>">Read the story</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/stories/' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'k21957bfd' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -60,16 +60,16 @@
 <div class="wp-block-group ec-card sp-reveal sp-reveal--up"><?php echo eiyo_clinic_image( 'p11', '' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">The Okafor-Lindh household — one dinner, four plates</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'k640f85bd' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Cooking for differing schedules and tastes was turning evenings into chaotic multi-meal short orders. Amara helped the family build adaptable dinners from shared bases, allowing everyone to eat well together from a single evening table.</p>
+<p><?php echo wp_kses_post( eiyo_clinic_t( 'k7f41558e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"ec-chip ec-chip--bare"} -->
 <div class="wp-block-buttons ec-chip ec-chip--bare"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/stories/' ) ); ?>">Read the story</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/stories/' ) ); ?>"><?php echo wp_kses_post( eiyo_clinic_t( 'k21957bfd' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
