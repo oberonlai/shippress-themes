@@ -1,0 +1,40 @@
+<?php
+/**
+ * Title: Footer: address, links and request button
+ * Slug: sekisan-partners/footer-main
+ * Categories: sekisan-partners
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"className":"sk-footer","align":"full","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull sk-footer"><!-- wp:group {"className":"sk-footer__grid","layout":{"type":"default"}} -->
+<div class="wp-block-group sk-footer__grid"><!-- wp:group {"className":"sk-footer__col","layout":{"type":"default"}} -->
+<div class="wp-block-group sk-footer__col"><!-- wp:paragraph {"className":"sk-footer__brand"} -->
+<p class="sk-footer__brand"><span class="sk-brand__mark"></span><span class="sk-brand__name">Sekisan <br>Partners</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sk-footer__small"} -->
+<p class="sk-footer__small">Maaskade 41, 3071 NB Rotterdam, Netherlands<br><a href="mailto:proposals@sekisan.example">proposals@sekisan.example</a><br>Mon–Fri 08:30–17:30 CET</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sk-footer__col","layout":{"type":"default"}} -->
+<div class="wp-block-group sk-footer__col"><!-- wp:paragraph {"className":"sk-footer__links"} -->
+<p class="sk-footer__links"><a href="/#gap">The gap</a><a href="/#estimate">How we estimate</a><a href="/#handover">What you are handed</a><a href="/#fees">Fees</a><a href="/#cases">Cases</a><a href="/#people">People</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sk-footer__col sk-footer__col--cta","layout":{"type":"default"}} -->
+<div class="wp-block-group sk-footer__col sk-footer__col--cta"><!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-sk-dark"} -->
+<div class="wp-block-button is-style-sk-dark"><a class="wp-block-button__link wp-element-button" href="/request-a-proposal/">Request a proposal</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"sk-footer__legal"} -->
+<p class="sk-footer__legal">© Sekisan Partners, Rotterdam</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
