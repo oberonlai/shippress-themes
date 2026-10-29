@@ -89,7 +89,7 @@ main > .alignfull:first-child, main .ks-sec { margin-block-start: 0; }
 	.ks-brand .wp-block-site-title { font-size: 1.25rem; }
 	.ks-pills { grid-column: 2; grid-row: 1; }
 	.ks-header .ks-nav { grid-column: 2; grid-row: 2; justify-self: stretch; }
-	.ks-lang, .ks-call { display: none; }
+	.ks-lang, .ks-pills .ks-call, .ks-pills .wp-block-buttons:has(.ks-call) { display: none; }
 	.ks-header .ks-nav .wp-block-navigation__responsive-container-open { display: flex; align-items: center; width: 100%; height: 24px; padding: 0 12px; border: 1px solid var(--ks-ink); border-radius: 16px; background: transparent; color: var(--ks-ink); font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: .8125rem; gap: 8px; box-sizing: border-box; }
 	.ks-header .wp-block-navigation__responsive-container-open svg { display: none; }
 	.ks-header .wp-block-navigation__responsive-container-open::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: currentColor; }
@@ -118,9 +118,9 @@ main > .alignfull:first-child, main .ks-sec { margin-block-start: 0; }
 .ks-sec > *:not(.ks-ghost) { position: relative; z-index: 1; }
 
 /* ---------- 1. KV ---------- */
-.ks-kv { display: grid; grid-template-rows: 1fr auto; min-height: calc(100svh - 96px); max-height: 1000px; padding: 0 24px 24px; margin: 0; }
+.ks-kv { display: grid; grid-template-columns: minmax(0, 1fr); grid-template-rows: 1fr auto; min-height: calc(100svh - 96px); max-height: 1000px; padding: 0 24px 24px; margin: 0; }
 .ks-kv > * { margin: 0; }
-.ks-kv__mid { display: grid; align-items: center; justify-items: center; overflow: clip; margin-left: -24px; margin-right: -24px; }
+.ks-kv__mid { display: grid; grid-template-columns: minmax(0, 1fr); align-items: center; justify-items: center; overflow: clip; margin-left: -24px; margin-right: -24px; }
 .ks-kv__mid > * { grid-area: 1 / 1; }
 .ks-mark { width: 100%; display: flex; justify-content: center; overflow: clip; white-space: nowrap; line-height: .8; }
 .ks-mark::before, .ks-ghost::before, .ks-foot__mark::before { flex: none; }
@@ -174,7 +174,7 @@ html.sp-no-motion .ks-tag > span > span { animation: none !important; transform:
 .ks-counter__egg { grid-column: 9 / 12; grid-row: 1; align-self: center; width: 100%; max-width: 375px; justify-self: end; }
 .ks-story { font-family: var(--wp--preset--font-family--display); font-size: 1.75rem; line-height: 2; letter-spacing: .02em; font-weight: 700; margin: 0 0 1.5rem; }
 .ks-counter__more { grid-column: 1 / 7; margin-top: 2.5rem; }
-.ks-counter__more > * { margin-top: 0; }
+.ks-counter__more > * + * { margin-top: 1.75rem; }
 @media (max-width: 781px) {
 	:root { --ks-pad: 6.5rem; }
 	.ks-12 { display: block; }
@@ -292,7 +292,8 @@ html.sp-no-motion .ks-tag > span > span { animation: none !important; transform:
 .ks-team { align-items: start; }
 .ks-team__egg { grid-column: 1 / 4; position: sticky; top: 120px; margin: 0; }
 .ks-team__list { grid-column: 5 / 13; }
-.ks-team__list > * + * { margin-top: 0; }
+.ks-team__list > .ks-h2 { margin-bottom: 1.25rem; }
+.ks-team__list > .ks-lead { margin-bottom: 2.5rem; }
 .ks-person { border-top: 1px solid var(--ks-grid); padding: 18px 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); column-gap: 20px; align-items: baseline; margin: 0; }
 .ks-person > * { margin: 0; }
 .ks-person__name { font-family: var(--wp--preset--font-family--display); font-size: 1.25rem; font-weight: 700; line-height: 1.3; }
@@ -312,7 +313,8 @@ html.sp-no-motion .ks-tag > span > span { animation: none !important; transform:
 .ks-apply__main { grid-column: 1 / 8; }
 .ks-apply__main > * + * { margin-top: 1.25rem; }
 .ks-apply__h { font-size: 3.5rem; line-height: 1.1; font-weight: 700; }
-.ks-need { list-style: none; margin: 0; padding: 0; }
+.ks-apply__main > .ks-need { margin-top: 1.75rem; margin-bottom: 2rem; }
+.ks-need { list-style: none; padding: 0; }
 .ks-need li { border-top: 1px solid var(--ks-grid); padding: 12px 0; font-size: 1.0625rem; }
 .ks-apply__side { grid-column: 9 / 13; }
 .ks-apply__side > * + * { margin-top: .6rem; }
