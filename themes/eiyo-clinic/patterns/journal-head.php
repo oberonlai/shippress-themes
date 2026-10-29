@@ -11,7 +11,9 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"ec-ihsec ec-jhead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ec-ihsec ec-jhead"><!-- wp:group {"className":"ec-ihead sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-ihead sp-parallax"><!-- wp:group {"className":"sp-parallax__layer","layout":{"type":"default"}} -->
-<div class="wp-block-group sp-parallax__layer"><?php echo eiyo_clinic_image( 'p03', '' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
+<div class="wp-block-group sp-parallax__layer"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ec-ph ec-ph--p03"} -->
+<figure class="wp-block-image size-full ec-ph ec-ph--p03"><img src="<?php echo esc_url( eiyo_clinic_img( 'p03' ) ); ?>" alt="<?php echo esc_attr( eiyo_clinic_alts()['p03'] ?? '' ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 

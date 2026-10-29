@@ -11,7 +11,9 @@
 <!-- wp:group {"tagName":"section","align":"full","anchor":"room","className":"ec-sec ec-room","layout":{"type":"default"}} -->
 <section id="room" class="wp-block-group alignfull ec-sec ec-room"><!-- wp:group {"className":"ec-in ec-room__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-in ec-room__grid"><!-- wp:group {"className":"ec-room__photo","layout":{"type":"default"}} -->
-<div class="wp-block-group ec-room__photo"><?php echo eiyo_clinic_image( 'p12', '' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
+<div class="wp-block-group ec-room__photo"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ec-ph ec-ph--p12"} -->
+<figure class="wp-block-image size-full ec-ph ec-ph--p12"><img src="<?php echo esc_url( eiyo_clinic_img( 'p12' ) ); ?>" alt="<?php echo esc_attr( eiyo_clinic_alts()['p12'] ?? '' ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ec-room__text","layout":{"type":"default"}} -->

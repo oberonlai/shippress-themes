@@ -41,7 +41,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ec-stmt__photo","layout":{"type":"default"}} -->
-<div class="wp-block-group ec-stmt__photo"><?php echo eiyo_clinic_image( 'p04', '' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
+<div class="wp-block-group ec-stmt__photo"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ec-ph ec-ph--p04"} -->
+<figure class="wp-block-image size-full ec-ph ec-ph--p04"><img src="<?php echo esc_url( eiyo_clinic_img( 'p04' ) ); ?>" alt="<?php echo esc_attr( eiyo_clinic_alts()['p04'] ?? '' ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

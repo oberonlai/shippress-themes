@@ -23,7 +23,7 @@ The clinic, people, address, telephone number and prices are fictional.
 == Copyright ==
 
 Eiyo Clinic is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Instrument Sans (OFL-1.1) and Public Sans (OFL-1.1), Latin variable WOFF2, see assets/fonts/.
+Fonts: Instrument Sans (OFL-1.1) and Public Sans (OFL-1.1), Latin variable WOFF2; Noto Sans TC (OFL-1.1, zh-TW subset) and Noto Sans JP (OFL-1.1, ja subset), WOFF2; see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and sp-scroll.js (ShipPress, GPL-2.0-or-later).
 
 = Images =

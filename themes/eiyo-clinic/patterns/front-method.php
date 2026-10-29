@@ -29,7 +29,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ec-method__photo","layout":{"type":"default"}} -->
-<div class="wp-block-group ec-method__photo"><?php echo eiyo_clinic_image( 'p08', '' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
+<div class="wp-block-group ec-method__photo"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ec-ph ec-ph--p08"} -->
+<figure class="wp-block-image size-full ec-ph ec-ph--p08"><img src="<?php echo esc_url( eiyo_clinic_img( 'p08' ) ); ?>" alt="<?php echo esc_attr( eiyo_clinic_alts()['p08'] ?? '' ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ec-method__head","layout":{"type":"default"}} -->

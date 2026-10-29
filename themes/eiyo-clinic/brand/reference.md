@@ -32,8 +32,8 @@ Before/after shots: `ref/scroll-textfill-mid.png` → `ref/scroll-textfill-done.
 ## Key visual concept (draft)
 Reference first screen: a family laughing around a laid table in a bright room (sheer curtain, white wall) inside a rounded inset photo; a calm large headline below, a small news strip at the right. Story: health is made of ordinary shared meals, delivered into everyday life. Signature motion: slow photo crossfade; the statement below lights up character by character while scrolling.
 Our translation: a dietitian and a client across a plain wooden table with a simple plate and a handwritten plan, window light — same inset rounded photo, same headline-under-photo, "next consult slot" strip in place of news. (See stage-a.md for the checklist.)
-## 成品對應 (reference element → Eiyo Clinic, binding detail in `design-spec.md`)
-| Reference (Kobe Yakult) | 成品對應 | Where | Spec |
+## Product mapping (reference element → Eiyo Clinic, binding detail in `design-spec.md`)
+| Reference (Kobe Yakult) | Product mapping | Where | Spec |
 |---|---|---|---|
 | Inset rounded hero photo 1376×725, r10, 32 px gutters | Inset r10 photo, ratio 1.9 (height-capped), dietitian + client at oak table, simple plate, handwritten plan (P01) | Home KV; every inner page head (T1) | §1 T1, §2 |
 | 3-photo Splide crossfade | CSS 3-slide crossfade P01 → P02 → P03 (clinic table → home lunch → shared dinner) + `sp-parallax` 6 % | Home KV | §2, §10 |

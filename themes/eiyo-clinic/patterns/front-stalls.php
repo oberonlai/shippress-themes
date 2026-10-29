@@ -20,11 +20,17 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ec-in ec-flow","layout":{"type":"default"}} -->
-<div class="wp-block-group ec-in ec-flow"><?php echo eiyo_clinic_image( 'p05', 'ec-flow__side ec-flow__side--l', 'aria-hidden="true"' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group ec-in ec-flow"><!-- wp:html -->
+<figure class="wp-block-image size-full ec-ph ec-ph--p05 ec-flow__side ec-flow__side--l"><img src="<?php echo esc_url( eiyo_clinic_img( 'p05' ) ); ?>" alt="" aria-hidden="true"/></figure>
+<!-- /wp:html -->
 
-<?php echo eiyo_clinic_image( 'p07', 'ec-flow__side ec-flow__side--r', 'aria-hidden="true"' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:html -->
+<figure class="wp-block-image size-full ec-ph ec-ph--p07 ec-flow__side ec-flow__side--r"><img src="<?php echo esc_url( eiyo_clinic_img( 'p07' ) ); ?>" alt="" aria-hidden="true"/></figure>
+<!-- /wp:html -->
 
-<?php echo eiyo_clinic_image( 'p06', 'ec-flow__main' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ec-ph ec-ph--p06 ec-flow__main"} -->
+<figure class="wp-block-image size-full ec-ph ec-ph--p06 ec-flow__main"><img src="<?php echo esc_url( eiyo_clinic_img( 'p06' ) ); ?>" alt="<?php echo esc_attr( eiyo_clinic_alts()['p06'] ?? '' ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:group {"className":"ec-flow__card","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-flow__card"><!-- wp:heading {"level":3} -->

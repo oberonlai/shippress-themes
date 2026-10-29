@@ -21,7 +21,9 @@
 
 <!-- wp:group {"className":"ec-in ec-cards sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group ec-in ec-cards sp-stagger"><!-- wp:group {"className":"ec-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group ec-card sp-reveal sp-reveal--up"><?php echo eiyo_clinic_image( 'p09', '' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group ec-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ec-ph ec-ph--p09"} -->
+<figure class="wp-block-image size-full ec-ph ec-ph--p09"><img src="<?php echo esc_url( eiyo_clinic_img( 'p09' ) ); ?>" alt="<?php echo esc_attr( eiyo_clinic_alts()['p09'] ?? '' ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'k35b66a8d' ) ); ?></h3>
@@ -39,7 +41,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ec-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group ec-card sp-reveal sp-reveal--up"><?php echo eiyo_clinic_image( 'p10', '' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group ec-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ec-ph ec-ph--p10"} -->
+<figure class="wp-block-image size-full ec-ph ec-ph--p10"><img src="<?php echo esc_url( eiyo_clinic_img( 'p10' ) ); ?>" alt="<?php echo esc_attr( eiyo_clinic_alts()['p10'] ?? '' ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'kb6297200' ) ); ?></h3>
@@ -57,7 +61,9 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ec-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group ec-card sp-reveal sp-reveal--up"><?php echo eiyo_clinic_image( 'p11', '' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<div class="wp-block-group ec-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ec-ph ec-ph--p11"} -->
+<figure class="wp-block-image size-full ec-ph ec-ph--p11"><img src="<?php echo esc_url( eiyo_clinic_img( 'p11' ) ); ?>" alt="<?php echo esc_attr( eiyo_clinic_alts()['p11'] ?? '' ); ?>"/></figure>
+<!-- /wp:image -->
 
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading"><?php echo wp_kses_post( eiyo_clinic_t( 'k640f85bd' ) ); ?></h3>

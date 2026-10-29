@@ -68,7 +68,7 @@ Kobe Yakult opens on a bright, white, curtain-lit room: a family laughing at a w
 Same inset rounded high-key photograph of people at a plain wooden table by a sheer-curtained window, now in **a bright consult room**: a dietitian and a client sit across the table; between them **one simple plate** (wholegrain toast, eggs, greens, a bowl of fruit) and **a handwritten one-page plan** with a pencil. Story: "plainer everyday meals, planned together" — the clinic is shown at the table, not as a medical office. The crossfade then moves from clinic to home: slide 2 the client at their own kitchen table with a simple packed lunch and the same handwritten plan; slide 3 two adults sharing a plain dinner at home. The headline beneath and the next-consult strip mirror the reference. Motion: same slow crossfade + our required parallax drift; below, the statement fills in exactly like the reference.
 
 ### (3) KV checklist (all six on the first screen, visible at 1440×900 and 390×844 unless noted)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Photo used |
 |---|---|---|---|---|---|
 | 1 | Inset rounded photo 1376×725, 32 px gutters, radius 10, under 75 px header | Same inset rounded photo: dietitian + client at a plain wood table by a sheer-curtained window, simple plate + handwritten plan | first screen top: x 32, y 75, w calc(100%−64px), ratio 1.9, max-height 100svh−203px; mobile w 358, 4:5 | `sp-parallax` drift `--sp-par: 6%` (mobile 4%) | P01 |
 | 2 | 3-photo slow crossfade of family-table scenes | 3-slide crossfade: clinic table → client's kitchen table with packed lunch → shared plain dinner at home | inside the same frame | CSS keyframes, 18 s cycle, 1 s fade, 5 s hold; static P01 under reduced-motion / `?sp-static` / editor | P01, P02, P03 |
@@ -129,17 +129,17 @@ Why not alike: no full-bleed or panel hero (inset photo with text below is new t
 | Base | `#FFFFFF` | KY ground [a-base] | page ground | 55–65 % |
 | Paper | `#F1F3F0` | KY `#F4F3EF` [a-paper], −1 % lightness, hue nudged from warm to neutral-cool to sit with pine and avoid cream | KV strip, chips, caption card, room section, close strip | 8–10 % |
 | Ink | `#303030` | KY ink [a-ink], unchanged | all text | text |
-| Main (pine) | `#2C4038` | row 藍海松茶; replaces KY red `#E50111` [a-main] in the same role | T3 block, header button, active tab rule | ≈ 12 % page, ≤ 3 % first screen |
+| Main (pine) | `#2C4038` | row "blue-sea pine tea"; replaces KY red `#E50111` [a-main] in the same role | T3 block, header button, active tab rule | ≈ 12 % page, ≤ 3 % first screen |
 | Pine deep | `#22332C` | main −5 % | button hover | tiny |
 | Pine phrase | `#3A5247` | main +8 % | big phrase on pine only | — |
 | Sage | `#6E8A7B` | derived from main | eyebrows' dot, small meta | < 2 % |
 | Muted | `#7A7F7C` | KY 50 % ink [a-ink] | dates, roles, grey tab labels | — |
 | Rule | `#D5DBD7` | KY 1 px grey rule [f-rule] | section rules, price list rows, tab separators | — |
 | Accent | `#D26A45` persimmon | KY tiny line-art colours [a-accent] | the 6 px dot in the dot-arrow chip only | < 1 % |
-Why not the reference red: a saturated red field reads as warning/urgency in a dietetics clinic and the row fixes 藍海松茶; the role, area and shape of the red are kept exactly. Contrast: white on pine 10.9:1; ink on paper 12:1.
+Why not the reference red: a saturated red field reads as warning/urgency in a dietetics clinic and the row fixes "blue-sea pine tea"; the role, area and shape of the red are kept exactly. Contrast: white on pine 10.9:1; ink on paper 12:1.
 
 ### Type (font_direction **sans**)
-- Latin: headings **Instrument Sans** (500/600), body **Public Sans** (400/500/600). CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja), 黑體, headings and body; no Mincho/明體 anywhere.
+- Latin: headings **Instrument Sans** (500/600), body **Public Sans** (400/500/600). CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja), gothic sans, headings and body; no Mincho/Mincho anywhere.
 - Stacks: headings `"Instrument Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; body `"Public Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; `:lang(zh-TW)` puts Noto Sans TC first, `:lang(ja)` Noto Sans JP first. Copy `shared/inc/editor-lang.php` → `inc/editor-lang.php` and require it.
 - All faces loaded via **theme.json fontFamilies + fontFace** (woff2 in `assets/fonts/`, zh-TW and ja subsets via the Hokuto/Hada method), so editor iframe and front end match (`check-editor-fonts.mjs`).
 - Presets (from tokens [b-*]): small 0.875rem; base 1rem (body 16/1.6, card text 0.9375rem/1.5 ls 0.06em CJK) ; medium 1.25rem (card title 20/600/1.5 ls 1px); large 1.6875rem (H3 27/600 ls 0.06em CJK, 0.01em Latin); x-large 2.3125rem (H2 + statement 37/600, lh 1.6 headings / 2.0 statement); hero H1 2.25rem/600/lh 1.6 (KY 32 px, +4 px for Latin x-height); **xx-large 4.25rem** (max; T3 phrase and inner page "number" lines). Eyebrow "The problem" etc. 1.0625rem/500 sentence case, no uppercase (KY "Service" label).
