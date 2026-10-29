@@ -172,11 +172,14 @@ u, .awa-u { text-decoration: underline 2px; text-underline-offset: 0.18em; text-
 .awa-visit { background: var(--awa-umber); color: #fff; padding-bottom: var(--awa-sec); }
 .awa-visit p, .awa-visit h2 { color: #fff; }
 .awa-visit__stage { position: relative; padding-bottom: 3rem; }
-.awa-visit__info { position: absolute; z-index: 2; left: 0; top: 0; width: 22%; }
-.awa-visit__addr { font-family: var(--awa-serif); font-weight: 600; font-size: 1.25rem; line-height: 1.35; margin-bottom: 1rem !important; }
-.awa-visit__hours { font-size: 0.9375rem; line-height: 1.7; margin-bottom: 1.25rem !important; }
+.awa-visit__info { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1rem 3.5rem; margin-bottom: 56px; }
+.awa-visit__info > * { margin: 0 !important; }
+.awa-visit__addr { max-width: 14em; }
+.awa-visit__hours { max-width: 30em; }
+.awa-visit__addr { font-family: var(--awa-serif); font-weight: 600; font-size: 1.25rem; line-height: 1.35;  }
+.awa-visit__hours { font-size: 0.9375rem; line-height: 1.7;  }
 .awa-visit__info .awa-link { margin-top: 0.5rem; }
-.awa-visit__frame { margin-left: 24%; width: 62%; }
+.awa-visit__frame { margin-left: 18%; width: 74%; }
 .awa-visit__img { margin: 0; }
 .awa-visit__img img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 0; }
 .awa-visit__title { position: absolute; z-index: 3; left: 0; bottom: 1.1rem; margin: 0; color: #fff; font-size: clamp(2.5rem, 4.6vw, 4.5rem); line-height: 1; text-transform: uppercase; letter-spacing: 0.01em; white-space: nowrap; }
@@ -206,7 +209,7 @@ u, .awa-u { text-decoration: underline 2px; text-underline-offset: 0.18em; text-
 	.awa-hold__grid { grid-template-columns: 1fr 1fr; }
 	.awa-card--wide { grid-column: 1 / -1; }
 	.awa-hold__grid > .awa-card:last-child { grid-column: 1 / -1; }
-	.awa-visit__info { position: static; width: auto; margin-bottom: 2rem; }
+	.awa-visit__info { margin-bottom: 2rem; }
 	.awa-visit__frame { margin-left: 0; width: 100%; }
 	.awa-visit__title { position: static; margin-top: 1.5rem; }
 	.awa-visit__stage { padding-bottom: 0; }
@@ -239,3 +242,13 @@ u, .awa-u { text-decoration: underline 2px; text-underline-offset: 0.18em; text-
 @media (prefers-reduced-motion: reduce) {
 	.awa-link a, .awa-circle a, .awa-btn a { transition: none; }
 }
+
+/* grid children: no flow-layout block gap */
+.awa-cards > *, .awa-hold__grid > *, .awa-strip > *, .awa-tanks__strip > *, .awa-made__grid > *, .awa-tanks__head > *, .awa-foot__grid > *, .awa-row > * { margin-block-start: 0; }
+.awa-cards, .awa-hold__grid { align-items: start; }
+.awa-bar { align-items: flex-start; }
+.awa-nav { margin-top: 10px; }
+
+/* film grade: muted ground and frame (first-screen saturated share stays low) */
+.awa-hero .wp-block-cover__image-background { filter: saturate(.4); }
+.awa-frame img { filter: saturate(.78); }
