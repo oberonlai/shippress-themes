@@ -18,7 +18,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
 3. Activate Kairo Supply.
 
-On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page with all its text and images and the menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
+On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page, the inner pages, the Notes page and one article with all their text and images and the menu, and sets the front page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
 
 The trade counter, its address, telephone number and prices are fictional.
 
@@ -44,7 +44,11 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary hig
 - assets/images/k11.webp (home story: collecting an order from a locker)
 - assets/images/k12.webp (home team: the counter manager at the counter)
 - assets/images/k13.webp (home apply: the trade counter at opening time)
+- assets/images/demo/k14.webp (counter and prices pages, article image: a cable cutter at the ruled bench)
+- assets/images/k15.webp (counter and visit pages: a van loaded at a roller door)
+- assets/images/k16.webp (team page: the counter staff at the end of the counter)
+- assets/images/k17.webp (visit page: the trade yard entrance)
 
 == Changelog ==
 = 1.0.0 =
-* First release: home page (English).
+* First release: home page, eleven inner pages and one article (English).

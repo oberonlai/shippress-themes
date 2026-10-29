@@ -53,8 +53,18 @@ Cable & flex - Containment & trunking - Wiring accessories - Distribution & prot
 Reference: UNION TEC (https://www.union-tec.jp/), see brand/reference.md.
 
 ## Pages and contents
-1. **Home** (stage 1, en) - front-kv, front-counter, front-stage, front-how, front-range, front-prices, front-stories, front-team, front-apply.
-2. Apply, How the counter works, Range, Prices & credit, Contractor stories, The counter team, Visit & hours, Early access (waitlist), Notes, Privacy, Terms, Thanks (stage 2; see brand/design-spec.md section 4).
+1. **Home** - front-kv, front-counter, front-stage, front-how, front-range, front-prices, front-stories, front-team, front-apply.
+2. **Apply** (/apply/, K13): what you need, the four steps, the single way to apply (mailto "Trade account application" or at the counter).
+3. **How the counter works** (/counter/, K14, egg K04, parallax band K15): a morning at the counter, cutting, job packs and lockers, van delivery.
+4. **Range** (/range/, K05, K06, K07): the six families, special orders.
+5. **Prices & credit** (/prices/, K08, egg K14): the full price list (same six rows as home), credit decision, returns.
+6. **Contractor stories** (/stories/, K09, egg K10, K11): Halden Electrical, Northgate Fit-Out, Lucas Ferreira.
+7. **The counter team** (/team/, K16, egg K12): founding story, seven people, one named contact per account.
+8. **Visit & hours** (/visit/, K15, egg K17): hours table, address, yard, lockers.
+9. **Early access** (/early-access/, K07): waitlist for online job-pack ordering (mailto "Early access").
+10. **Notes** (/notes/, K03): posts page; one article "Why we cut cable while you wait" (featured K14).
+11. **Privacy** (/privacy/), **Terms** (/terms/), **Thanks** (/thanks/): small page head, no photo.
+Signature techniques on inner pages: the ink page word with a stadium photo on every page except Privacy, Terms and Thanks; egg and story on Counter, Stories, Team, Visit and the article; pills everywhere. Parallax: home K01 and K03, every page head, and the K15 band on Counter.
 
 ## Photography
-Seventeen planned documentary photographs (Grok Build), one style: 35mm, natural high-key daylight, desaturated cool grey and steel cast, matte, hands and people at work, galvanised shelving and cable drums, no text or logos. Home uses K01-K13.
+Seventeen documentary photographs (Grok Build), one style: 35mm, natural high-key daylight, desaturated cool grey and steel cast, matte, hands and people at work, galvanised shelving and cable drums, no text or logos. Home uses K01-K13; K14-K17 are for the inner pages (K14 lives in assets/images/demo/ because it is also the article image).
