@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:cover {"url":"<?php echo saji_culinary_img( 'h1-pass.webp' ); ?>","dimRatio":20,"overlayColor":"ink","isUserOverlayColor":true,"focalPoint":{"x":0.5,"y":0.45},"minHeight":100,"minHeightUnit":"vh","contentPosition":"bottom left","isDark":true,"align":"full","className":"saji-hero sp-parallax"} -->
-<div class="wp-block-cover alignfull is-position-bottom-left saji-hero sp-parallax" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( saji_culinary_t( 'alt_h1' ) ); ?>" src="<?php echo saji_culinary_img( 'h1-pass.webp' ); ?>" data-object-fit="cover" data-object-position="50% 45%" style="object-position:50% 45%"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":1,"className":"saji-hero__title"} -->
+<div class="wp-block-cover alignfull has-custom-content-position is-position-bottom-left saji-hero sp-parallax" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( saji_culinary_t( 'alt_h1' ) ); ?>" src="<?php echo saji_culinary_img( 'h1-pass.webp' ); ?>" data-object-fit="cover" data-object-position="50% 45%" style="object-position:50% 45%"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":1,"className":"saji-hero__title"} -->
 <h1 class="wp-block-heading saji-hero__title"><?php echo saji_culinary_lines( 'h_title' ); ?></h1>
 <!-- /wp:heading -->
 

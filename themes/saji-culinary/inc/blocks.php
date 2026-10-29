@@ -27,13 +27,14 @@ function saji_culinary_img( $file ) {
  * @param string $word Section word (already translated).
  * @param string $sub  Subtitle under the word.
  * @param string $seal '' (spoon) or 'new'.
+ * @param int    $level Heading level (1 on inner pages).
  * @return string Block markup.
  */
-function saji_culinary_word( $word, $sub, $seal = '' ) {
+function saji_culinary_word( $word, $sub, $seal = '', $level = 2 ) {
 	$mod = 'new' === $seal ? ' saji-word__w--new' : '';
 	return '<!-- wp:group {"className":"saji-word sp-reveal sp-reveal--up","layout":{"type":"default"}} -->' . "\n"
-		. '<div class="wp-block-group saji-word sp-reveal sp-reveal--up"><!-- wp:heading {"level":2,"className":"saji-word__w' . $mod . '"} -->' . "\n"
-		. '<h2 class="wp-block-heading saji-word__w' . $mod . '">' . esc_html( $word ) . '</h2>' . "\n"
+		. '<div class="wp-block-group saji-word sp-reveal sp-reveal--up"><!-- wp:heading {"level":' . (int) $level . ',"className":"saji-word__w' . $mod . '"} -->' . "\n"
+		. '<h' . (int) $level . ' class="wp-block-heading saji-word__w' . $mod . '">' . esc_html( $word ) . '</h' . (int) $level . '>' . "\n"
 		. '<!-- /wp:heading -->' . "\n\n"
 		. '<!-- wp:paragraph {"className":"saji-word__sub"} -->' . "\n"
 		. '<p class="saji-word__sub">' . esc_html( $sub ) . '</p>' . "\n"
@@ -67,4 +68,80 @@ function saji_culinary_go( $href, $label, $class = '' ) {
 	return '<!-- wp:paragraph {"className":"' . esc_attr( $class ) . '"} -->' . "\n"
 		. '<p class="' . esc_attr( $class ) . '"><a href="' . esc_url( $href ) . '">' . esc_html( $label ) . '<span class="saji-oval" aria-hidden="true">→</span></a></p>' . "\n"
 		. '<!-- /wp:paragraph -->';
+}
+
+/**
+ * Content of one inner page in the content language (English when that language has no entry).
+ *
+ * @param string $slug Page slug.
+ * @return array
+ */
+function saji_culinary_page_data( $slug ) {
+	static $tables = array();
+	foreach ( array_unique( array( saji_culinary_lang(), 'en' ) ) as $lang ) {
+		if ( ! isset( $tables[ $lang ] ) ) {
+			$file            = get_template_directory() . '/inc/i18n/pages-' . $lang . '.php';
+			$tables[ $lang ] = is_readable( $file ) ? (array) include $file : array();
+		}
+		if ( isset( $tables[ $lang ][ $slug ] ) ) {
+			return (array) $tables[ $lang ][ $slug ];
+		}
+	}
+	return array();
+}
+
+/**
+ * Block markup of an inner page: the T3 word (h1) with an optional halftone portrait, a lead, paragraphs, hairline rows or
+ * a ledger table, and one oval link.
+ *
+ * @param string $slug Page slug.
+ * @return string Block markup.
+ */
+function saji_culinary_inner( $slug ) {
+	$d = saji_culinary_page_data( $slug );
+	if ( ! $d ) {
+		return '';
+	}
+	$o  = '<!-- wp:group {"tagName":"section","align":"full","className":"saji-sec saji-inner","layout":{"type":"constrained"}} -->' . "\n";
+	$o .= '<section class="wp-block-group alignfull saji-sec saji-inner">';
+	$o .= '<!-- wp:group {"align":"wide","className":"saji-t3 saji-t3--solo","layout":{"type":"default"}} -->' . "\n";
+	$o .= '<div class="wp-block-group alignwide saji-t3 saji-t3--solo">' . saji_culinary_word( $d['word'], $d['sub'], '', 1 );
+	if ( ! empty( $d['img'] ) ) {
+		$o .= "\n\n" . saji_culinary_halftone( $d['img'], $d['alt'] );
+	}
+	$o .= '</div>' . "\n<!-- /wp:group -->\n\n";
+	$o .= '<!-- wp:group {"align":"wide","className":"saji-inner__body","layout":{"type":"default"}} -->' . "\n";
+	$o .= '<div class="wp-block-group alignwide saji-inner__body"><!-- wp:paragraph {"className":"saji-pull"} -->' . "\n" . '<p class="saji-pull">' . esc_html( $d['pull'] ) . '</p>' . "\n<!-- /wp:paragraph -->\n\n";
+	foreach ( $d['paras'] as $p ) {
+		$o .= '<!-- wp:paragraph -->' . "\n<p>" . esc_html( $p ) . "</p>\n<!-- /wp:paragraph -->\n\n";
+	}
+	if ( ! empty( $d['rows'] ) ) {
+		$o .= '<!-- wp:group {"className":"saji-inner__rows","layout":{"type":"default"}} -->' . "\n" . '<div class="wp-block-group saji-inner__rows">';
+		foreach ( $d['rows'] as $r ) {
+			$anchor = ! empty( $r[4] ) ? $r[4] : '';
+			$attr   = $anchor ? '{"anchor":"' . esc_attr( $anchor ) . '","className":"saji-row","layout":{"type":"default"}}' : '{"className":"saji-row","layout":{"type":"default"}}';
+			$o     .= '<!-- wp:group ' . $attr . ' -->' . "\n" . '<div' . ( $anchor ? ' id="' . esc_attr( $anchor ) . '"' : '' ) . ' class="wp-block-group saji-row">';
+			$o     .= '<!-- wp:paragraph {"className":"saji-row__name"} -->' . "\n" . '<p class="saji-row__name">' . esc_html( $r[0] ) . '</p>' . "\n<!-- /wp:paragraph -->\n\n";
+			$o     .= '<!-- wp:paragraph {"className":"saji-row__station"} -->' . "\n" . '<p class="saji-row__station">' . esc_html( $r[1] ) . '</p>' . "\n<!-- /wp:paragraph -->\n\n";
+			if ( '' !== $r[2] ) {
+				$o .= '<!-- wp:paragraph {"className":"saji-row__since"} -->' . "\n" . '<p class="saji-row__since">' . esc_html( $r[2] ) . '</p>' . "\n<!-- /wp:paragraph -->\n\n";
+			}
+			if ( '' !== $r[3] ) {
+				$o .= '<!-- wp:paragraph {"className":"saji-row__text"} -->' . "\n" . '<p class="saji-row__text">' . esc_html( $r[3] ) . '</p>' . "\n<!-- /wp:paragraph -->";
+			}
+			$o .= '</div>' . "\n<!-- /wp:group -->\n\n";
+		}
+		$o .= '</div>' . "\n<!-- /wp:group -->\n\n";
+	}
+	if ( ! empty( $d['table'] ) ) {
+		$t    = $d['table'];
+		$head = array_shift( $t );
+		$o   .= '<!-- wp:table {"hasFixedLayout":true,"className":"saji-ledger"} -->' . "\n" . '<figure class="wp-block-table saji-ledger"><table class="has-fixed-layout"><thead><tr><th>' . esc_html( $head[0] ) . '</th><th>' . esc_html( $head[1] ) . '</th><th>' . esc_html( $head[2] ) . '</th></tr></thead><tbody>';
+		foreach ( $t as $r ) {
+			$o .= '<tr><td>' . esc_html( $r[0] ) . '</td><td>' . esc_html( $r[1] ) . '</td><td>' . esc_html( $r[2] ) . '</td></tr>';
+		}
+		$o .= '</tbody></table></figure>' . "\n<!-- /wp:table -->\n\n";
+	}
+	$o .= saji_culinary_go( $d['go'][0], $d['go'][1], '' ) . '</div>' . "\n<!-- /wp:group --></section>\n<!-- /wp:group -->";
+	return $o;
 }
