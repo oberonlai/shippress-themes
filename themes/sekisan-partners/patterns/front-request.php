@@ -12,31 +12,31 @@
 <section id="request" class="wp-block-group alignfull sk-sec sk-request"><!-- wp:group {"className":"sk-wrap sk-request__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-wrap sk-request__grid"><!-- wp:group {"className":"sk-request__main","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-request__main"><!-- wp:heading {"level":2,"className":"sk-head sk-head--coral sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading sk-head sk-head--coral sp-reveal sp-reveal--up"><span class="sk-head__first">R</span>equest a proposal</h2>
+<h2 class="wp-block-heading sk-head sk-head--coral sp-reveal sp-reveal--up"><span class="sk-head__first"><?php echo wp_kses_post( sekisan_partners_t( 'ke1e1d3d4' ) ); ?></span><?php echo wp_kses_post( sekisan_partners_t( 'k78d256c0' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"sk-lead"} -->
-<p class="sk-lead">Send us your project drawings, brief, or site location to receive a fixed fee proposal. Every cost plan is tailored to your procurement schedule, providing independent budget certainty before contractor discussions begin.</p>
+<p class="sk-lead"><?php echo wp_kses_post( sekisan_partners_t( 'kf053870a' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:group {"className":"sk-steps","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-steps"><!-- wp:paragraph {"className":"sk-step"} -->
-<p class="sk-step"><span class="sk-step__num">01</span> Send drawings and the site address</p>
+<p class="sk-step"><span class="sk-step__num">01</span> <?php echo wp_kses_post( sekisan_partners_t( 'k9a64b26d' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sk-step"} -->
-<p class="sk-step"><span class="sk-step__num">02</span> We reply with a fixed fee within 2 working days</p>
+<p class="sk-step"><span class="sk-step__num">02</span> <?php echo wp_kses_post( sekisan_partners_t( 'k7180ba69' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sk-step"} -->
-<p class="sk-step"><span class="sk-step__num">03</span> Concept cost plan in 10 working days</p>
+<p class="sk-step"><span class="sk-step__num">03</span> <?php echo wp_kses_post( sekisan_partners_t( 'kce310046' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-request__side","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-request__side"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-sk-dark"} -->
-<div class="wp-block-button is-style-sk-dark"><a class="wp-block-button__link wp-element-button" href="/request-a-proposal/">Request a proposal</a></div>
+<div class="wp-block-button is-style-sk-dark"><a class="wp-block-button__link wp-element-button" href="/request-a-proposal/"><?php echo wp_kses_post( sekisan_partners_t( 'k6f96ac44' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 <!-- wp:paragraph {"className":"sk-request__mail"} -->
-<p class="sk-request__mail"><a href="mailto:proposals@sekisan.example">proposals@sekisan.example</a></p>
+<p class="sk-request__mail"><a href="mailto:proposals@sekisan.example"><?php echo wp_kses_post( sekisan_partners_t( 'k7f805fa2' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

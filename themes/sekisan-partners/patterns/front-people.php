@@ -12,74 +12,74 @@
 <section id="people" class="wp-block-group alignfull sk-sec sk-people"><!-- wp:group {"className":"sk-wrap sk-people__wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-wrap sk-people__wrap"><!-- wp:group {"className":"sk-people__top","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-people__top"><!-- wp:heading {"level":2,"className":"sk-head sk-head--blue sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading sk-head sk-head--blue sp-reveal sp-reveal--up"><span class="sk-head__first">P</span>eople</h2>
+<h2 class="wp-block-heading sk-head sk-head--blue sp-reveal sp-reveal--up"><span class="sk-head__first"><?php echo wp_kses_post( sekisan_partners_t( 'k44c29edb' ) ); ?></span><?php echo wp_kses_post( sekisan_partners_t( 'kb5a19aad' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"sk-lead"} -->
-<p class="sk-lead">We are an independent team of chartered quantity surveyors and building cost consultants based in Rotterdam. Every project is led by a named partner from initial briefing through final handover, ensuring direct access, technical rigor, and consistent accountability across every stage of estimating and procurement.</p>
+<p class="sk-lead"><?php echo wp_kses_post( sekisan_partners_t( 'k531c2141' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-people__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-people__grid"><!-- wp:group {"className":"sk-people__list","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-people__list"><!-- wp:group {"className":"sk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-person"><!-- wp:paragraph {"className":"sk-person__name"} -->
-<p class="sk-person__name">Ilse van Damme</p>
+<p class="sk-person__name"><?php echo wp_kses_post( sekisan_partners_t( 'kc973a96a' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sk-person__role"} -->
-<p class="sk-person__role">Founding partner, chartered quantity surveyor</p>
+<p class="sk-person__role"><?php echo wp_kses_post( sekisan_partners_t( 'k834281f2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-person"><!-- wp:paragraph {"className":"sk-person__name"} -->
-<p class="sk-person__name">Tomás Ferreira</p>
+<p class="sk-person__name"><?php echo wp_kses_post( sekisan_partners_t( 'k7f292a7e' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sk-person__role"} -->
-<p class="sk-person__role">Partner, concept and feasibility cost plans</p>
+<p class="sk-person__role"><?php echo wp_kses_post( sekisan_partners_t( 'kbb1290ae' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-person"><!-- wp:paragraph {"className":"sk-person__name"} -->
-<p class="sk-person__name">Amara Okonjo</p>
+<p class="sk-person__name"><?php echo wp_kses_post( sekisan_partners_t( 'kb8641755' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sk-person__role"} -->
-<p class="sk-person__role">Senior estimator, measurement and bills of quantities</p>
+<p class="sk-person__role"><?php echo wp_kses_post( sekisan_partners_t( 'k38ea30f3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-person"><!-- wp:paragraph {"className":"sk-person__name"} -->
-<p class="sk-person__name">Lukas Brandt</p>
+<p class="sk-person__name"><?php echo wp_kses_post( sekisan_partners_t( 'kbfbf8295' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sk-person__role"} -->
-<p class="sk-person__role">Tender and procurement lead</p>
+<p class="sk-person__role"><?php echo wp_kses_post( sekisan_partners_t( 'ka5e922ab' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-person"><!-- wp:paragraph {"className":"sk-person__name"} -->
-<p class="sk-person__name">Mei-Lin Chou</p>
+<p class="sk-person__name"><?php echo wp_kses_post( sekisan_partners_t( 'k748b59a0' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sk-person__role"} -->
-<p class="sk-person__role">Cost monitoring on site</p>
+<p class="sk-person__role"><?php echo wp_kses_post( sekisan_partners_t( 'k33fe3af2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-person"><!-- wp:paragraph {"className":"sk-person__name"} -->
-<p class="sk-person__name">Hana Sato</p>
+<p class="sk-person__name"><?php echo wp_kses_post( sekisan_partners_t( 'k230ddf21' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sk-person__role"} -->
-<p class="sk-person__role">Cost data, editor of the Cost letter</p>
+<p class="sk-person__role"><?php echo wp_kses_post( sekisan_partners_t( 'kf20c43b6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-person","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-person"><!-- wp:paragraph {"className":"sk-person__name"} -->
-<p class="sk-person__name">Noor Haddad</p>
+<p class="sk-person__name"><?php echo wp_kses_post( sekisan_partners_t( 'ked8968b4' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"sk-person__role"} -->
-<p class="sk-person__role">Client desk and proposals</p>
+<p class="sk-person__role"><?php echo wp_kses_post( sekisan_partners_t( 'k9abf3457' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-people__photo","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-people__photo"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h10.webp' ) ); ?>" alt="Five colleagues reviewing architectural drawings together around a long table in bright studio."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h10.webp' ) ); ?>" alt="<?php echo esc_attr( sekisan_partners_t( 'a77700076' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

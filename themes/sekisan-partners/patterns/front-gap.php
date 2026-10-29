@@ -11,45 +11,45 @@
 <!-- wp:group {"tagName":"section","className":"sk-sec sk-gap","align":"full","anchor":"gap","layout":{"type":"default"}} -->
 <section id="gap" class="wp-block-group alignfull sk-sec sk-gap"><!-- wp:group {"className":"sk-gap__panel","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-gap__panel"><!-- wp:heading {"level":2,"className":"sk-head sk-head--teal sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading sk-head sk-head--teal sp-reveal sp-reveal--up"><span class="sk-head__first">T</span>he gap</h2>
+<h2 class="wp-block-heading sk-head sk-head--teal sp-reveal sp-reveal--up"><span class="sk-head__first"><?php echo wp_kses_post( sekisan_partners_t( 'kb9ece18c' ) ); ?></span><?php echo wp_kses_post( sekisan_partners_t( 'k02606326' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:group {"className":"sk-gap__rows","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-gap__rows"><!-- wp:group {"className":"sk-row sk-gap__row","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-row sk-gap__row"><!-- wp:paragraph {"className":"sk-row__label"} -->
-<p class="sk-row__label">At sketch</p>
+<p class="sk-row__label"><?php echo wp_kses_post( sekisan_partners_t( 'k9dc3d853' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:group {"className":"sk-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-row__body"><!-- wp:heading {"level":3,"className":"sk-row__title"} -->
-<h3 class="wp-block-heading sk-row__title">Early choices harden unpriced</h3>
+<h3 class="wp-block-heading sk-row__title"><?php echo wp_kses_post( sekisan_partners_t( 'kac26b31d' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Early design decisions set eighty percent of a building's eventual cost, yet projects routinely advance with only rough square-metre approximations. When geometry, structural grids, and envelope choices move forward unpriced, budget shortfalls remain hidden until drawings reach the market. An independent cost plan establishes dependable financial boundaries before architectural options harden into expensive commitments.</p>
+<p><?php echo wp_kses_post( sekisan_partners_t( 'ke757edcb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-row sk-gap__row","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-row sk-gap__row"><!-- wp:paragraph {"className":"sk-row__label"} -->
-<p class="sk-row__label">At tender</p>
+<p class="sk-row__label"><?php echo wp_kses_post( sekisan_partners_t( 'k501c2a6a' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:group {"className":"sk-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-row__body"><!-- wp:heading {"level":3,"className":"sk-row__title"} -->
-<h3 class="wp-block-heading sk-row__title">Bids arrive with no benchmark</h3>
+<h3 class="wp-block-heading sk-row__title"><?php echo wp_kses_post( sekisan_partners_t( 'k63d6678f' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Contractor bids arrive months later, often revealing substantial discrepancies between design expectations and commercial market rates. Without an itemized, independent benchmark prepared in advance, evaluating competitive submissions becomes guesswork, leaving clients exposed to hidden risk allowances and front-loaded billing. We provide the precise, trade-by-trade breakdown required to interrogate tender figures, identify exclusions, and negotiate from verifiable quantities.</p>
+<p><?php echo wp_kses_post( sekisan_partners_t( 'k1108284c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-row sk-gap__row","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-row sk-gap__row"><!-- wp:paragraph {"className":"sk-row__label"} -->
-<p class="sk-row__label">On site</p>
+<p class="sk-row__label"><?php echo wp_kses_post( sekisan_partners_t( 'kf0444a6f' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:group {"className":"sk-row__body","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-row__body"><!-- wp:heading {"level":3,"className":"sk-row__title"} -->
-<h3 class="wp-block-heading sk-row__title">Variations eat the contingency</h3>
+<h3 class="wp-block-heading sk-row__title"><?php echo wp_kses_post( sekisan_partners_t( 'k8de87185' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
-<p>Unforeseen ground conditions, unresolved detailing, and contractor variation claims quickly erode project contingencies once construction begins. When changes occur without an established baseline of quantities and agreed unit rates, disputes delay progress and drive up final outturn costs. Independent monitoring tracks variations against original contract allowances every month, giving project owners total financial control through final handover.</p>
+<p><?php echo wp_kses_post( sekisan_partners_t( 'k3a19423b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -57,7 +57,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"sk-gap__photo sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-gap__photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h02.webp' ) ); ?>" alt="Concrete frame of a five-storey building under construction with scaffolding under bright overcast sky."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h02.webp' ) ); ?>" alt="<?php echo esc_attr( sekisan_partners_t( 'a13691e25' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

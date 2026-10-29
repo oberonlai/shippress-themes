@@ -25,7 +25,7 @@ The consultancy, its address, people, cases and fees are fictional.
 == Copyright ==
 
 Sekisan Partners is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Albert Sans (OFL-1.1) and Onest (OFL-1.1), Latin variable, WOFF2, see assets/fonts/.
+Fonts: Albert Sans (OFL-1.1) and Onest (OFL-1.1), Latin variable, WOFF2; Noto Sans TC / JP (OFL-1.1) character subsets for zh-TW and ja, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later).
 
 = Images =
