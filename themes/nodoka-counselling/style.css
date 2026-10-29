@@ -39,7 +39,7 @@ img { max-width: 100%; height: auto; }
 .wp-block-post-content > * { margin-block: 0; }
 .nc-sec figure, .nc-hero figure { margin: 0; }
 .nc-sec img, .nc-hero img { display: block; }
-.nc-sec p, .nc-hero p { margin: 0; }
+:where(.nc-sec p, .nc-hero p) { margin: 0; }
 
 /* shared pieces */
 .nc-label { font-size: .8125rem; letter-spacing: .12em; line-height: 1.6; color: var(--nc-ink); }
@@ -194,7 +194,8 @@ html.sp-no-motion .nc-hero__fig, .editor-styles-wrapper .nc-hero__fig { animatio
 
 /* questions and first step */
 .nc-close { padding-top: 120px; }
-.nc-close__rule span { display: block; height: 1px; background: var(--nc-steel); margin-bottom: 120px; }
+.nc-close__rule { height: 1px; background: var(--nc-steel); margin-bottom: 120px; }
+.nc-close__rule span { display: none; }
 .nc-close__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 8%; align-items: start; }
 .nc-close__title { font-size: var(--wp--preset--font-size--x-large) !important; margin: 0 0 48px; }
 .nc-faq__i { border-top: 1px solid var(--nc-steel); padding: 22px 0; }
@@ -263,8 +264,9 @@ html.sp-no-motion .nc-hero__fig, .editor-styles-wrapper .nc-hero__fig { animatio
 
 	.nc-why__grid { grid-template-columns: minmax(0, 1fr); padding-left: 0; row-gap: 48px; }
 	.nc-why__text { max-width: none; gap: 32px; }
-	.nc-poem__s { line-height: 36px; margin-bottom: 36px; }
-	.nc-poem__s br.sp-br-desk { display: none; }
+	.nc-poem__s { line-height: 1.87; margin-bottom: 28px; }
+	.nc-poem__s { font-size: .8125rem; letter-spacing: .03em; }
+	.nc-open__lead { line-height: 1.87; }
 	.nc-for__grid, .nc-sto__grid, .nc-close__grid, .nc-who__grid, .nc-arr__foot, .nc-fee__foot { grid-template-columns: minmax(0, 1fr); row-gap: 48px; }
 	.nc-for__photo { order: -1; }
 	.nc-idx__row { grid-template-columns: 44px minmax(0, 1fr); }
@@ -301,3 +303,16 @@ html.sp-no-motion .nc-hero__fig, .editor-styles-wrapper .nc-hero__fig { animatio
 	.nc-hero .nc-hero__photo.sp-parallax { --sp-par: 5%; }
 	.nc-band.sp-parallax { --sp-par: 6%; }
 }
+.nc-inner > .nc-open { margin-bottom: 96px; }
+@media (max-width: 781px) { .nc-inner > .nc-open { margin-bottom: 48px; } }
+.nc-page > * + * { margin-top: 1.25rem; }
+.nc-idx__d { margin-top: 2px; }
+.nc-sec .nc-open__sub { margin-top: 24px; }
+.nc-arr__q + .nc-link { margin-top: 0; }
+.nc-who__side > .nc-who__p + .nc-who__p, .nc-who__side > .nc-who__rest { margin-top: 0; }
+.nc-fee__c > .nc-label { margin-bottom: 0; }
+.nc-why__side > * { margin: 0; }
+.nc-footer__col > .nc-footer__h + * { margin-top: 0; }
+.nc-band { padding: 0 max(var(--nc-gut), calc((100% - 1320px) / 2)) 56px; }
+.nc-band .wp-block-cover__inner-container { width: 100%; }
+.nc-footer .wp-block-separator.nc-footer__rule { width: 100%; max-width: none; }
