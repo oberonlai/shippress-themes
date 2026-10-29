@@ -1,6 +1,6 @@
 # Nodoka Counselling — brand brief
 
-Design plan row: b19-1 (psychotherapy practice, type business). Stage one: the home page in English. Inner pages and the other languages follow. All names, places and people are fictional. Copy never promises a cure, an outcome, a success rate or an award.
+Design plan row: b19-1 (psychotherapy practice, type business). The home page and ten inner pages plus one article exist in English; the other languages follow. All names, places and people are fictional. Copy never promises a cure, an outcome, a success rate or an award.
 
 ## Concept
 - **Name:** Nodoka Counselling, a psychotherapy practice. "Nodoka" is the Japanese word for calm, unhurried; the room is kept quiet so people can talk something through.
@@ -45,3 +45,17 @@ Split hero; poem-line intro with an offset photo; what the room is for (index of
 
 ## Next release
 Pages: About, Our approach, What we help with, Your first conversation, Practitioners, Fees & hours, Online sessions, Stories, Questions, Contact & booking. Each page head repeats the compact split window with the three tabs.
+
+## Inner pages (English)
+Every inner page opens with a compact split hero (photo window with parallax, three clay tabs, hairline) and carries at least one ruled opener.
+- **About the practice:** founder note (offset photo with poem lines), founding and values rows, rounded photo pair beside the rooms.
+- **Our approach:** poem lines with a shelf photo, modalities and confidentiality rows.
+- **What we help with:** seven numbered difficulties with a window photo, how we work, the not-an-emergency-service note.
+- **Your first conversation:** Before / During / After columns, full-width parallax corridor band, what the room is like.
+- **Practitioners:** rounded photo pair, six people as rows.
+- **Fees & hours:** full-width fee table (price column never clipped, stacked on phones), hours table, cancellation.
+- **Online sessions, Stories (three composite stories, process not outcomes), Questions (grouped FAQ), Contact & booking (form, address, hours).**
+- **Journal:** one article, "Finding Steady Ground in an Unhurried Room".
+
+## Photos
+Sixteen low-key documentary photographs, generated for the theme (no text, no logos, no cut-outs): hero armchairs, plaster leaf, window rain, notebook and tea, corridor door, two practitioner portraits, lamp desk, entrance, waiting bench, hands with cup, couch and cushion, wide room, laptop at home, stair light, clock shelf.
