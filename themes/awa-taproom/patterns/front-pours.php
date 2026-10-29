@@ -14,13 +14,13 @@
 <!-- wp:group {"className":"awa-pours__photo sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group awa-pours__photo sp-parallax">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"awa-pours__img"} -->
-<figure class="wp-block-image size-full awa-pours__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/f7-flight.webp' ) ); ?>" alt="Four tasting glasses of beer arranged in a line on a wooden tasting paddle."/></figure>
+<figure class="wp-block-image size-full awa-pours__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/f7-flight.webp' ) ); ?>" alt="<?php echo esc_attr( awa_taproom_t( 'a0eb6e0e1' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"awa-h2"} -->
-<h2 class="wp-block-heading awa-h2">Pours &amp; prices</h2>
+<h2 class="wp-block-heading awa-h2"><?php echo wp_kses_post( awa_taproom_t( 'kc48e2f5a' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"awa-price","layout":{"type":"default"}} -->
@@ -28,11 +28,11 @@
 <!-- wp:group {"className":"awa-row","layout":{"type":"default"}} -->
 <div class="wp-block-group awa-row">
 <!-- wp:paragraph {"className":"awa-row__name"} -->
-<p class="awa-row__name">Half pour</p>
+<p class="awa-row__name"><?php echo wp_kses_post( awa_taproom_t( 'kfc9c5523' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__size"} -->
-<p class="awa-row__size">200 ml</p>
+<p class="awa-row__size"><?php echo wp_kses_post( awa_taproom_t( 'k2ffc082a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__price"} -->
@@ -44,15 +44,15 @@
 <!-- wp:group {"className":"awa-row","layout":{"type":"default"}} -->
 <div class="wp-block-group awa-row">
 <!-- wp:paragraph {"className":"awa-row__name"} -->
-<p class="awa-row__name">Full pour</p>
+<p class="awa-row__name"><?php echo wp_kses_post( awa_taproom_t( 'k430ecee1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__size"} -->
-<p class="awa-row__size">400 ml</p>
+<p class="awa-row__size"><?php echo wp_kses_post( awa_taproom_t( 'k129732c5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__price"} -->
-<p class="awa-row__price">from $7</p>
+<p class="awa-row__price"><?php echo wp_kses_post( awa_taproom_t( 'k4a95ef4c' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -60,11 +60,11 @@
 <!-- wp:group {"className":"awa-row","layout":{"type":"default"}} -->
 <div class="wp-block-group awa-row">
 <!-- wp:paragraph {"className":"awa-row__name"} -->
-<p class="awa-row__name">Tasting flight</p>
+<p class="awa-row__name"><?php echo wp_kses_post( awa_taproom_t( 'k79abde36' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__size"} -->
-<p class="awa-row__size">four × 120 ml</p>
+<p class="awa-row__size"><?php echo wp_kses_post( awa_taproom_t( 'kc99e8205' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__price"} -->
@@ -76,11 +76,11 @@
 <!-- wp:group {"className":"awa-row","layout":{"type":"default"}} -->
 <div class="wp-block-group awa-row">
 <!-- wp:paragraph {"className":"awa-row__name"} -->
-<p class="awa-row__name">Growler fill</p>
+<p class="awa-row__name"><?php echo wp_kses_post( awa_taproom_t( 'k8722c8e3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__size"} -->
-<p class="awa-row__size">1 L</p>
+<p class="awa-row__size"><?php echo wp_kses_post( awa_taproom_t( 'k92b075cb' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__price"} -->
@@ -92,7 +92,7 @@
 <!-- wp:group {"className":"awa-row","layout":{"type":"default"}} -->
 <div class="wp-block-group awa-row">
 <!-- wp:paragraph {"className":"awa-row__name"} -->
-<p class="awa-row__name">Snack board for two</p>
+<p class="awa-row__name"><?php echo wp_kses_post( awa_taproom_t( 'ke71e4ecd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__size"} -->
@@ -108,11 +108,11 @@
 <!-- wp:group {"className":"awa-row","layout":{"type":"default"}} -->
 <div class="wp-block-group awa-row">
 <!-- wp:paragraph {"className":"awa-row__name"} -->
-<p class="awa-row__name">Back-room deposit</p>
+<p class="awa-row__name"><?php echo wp_kses_post( awa_taproom_t( 'kede9507e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__size"} -->
-<p class="awa-row__size">groups 8–16</p>
+<p class="awa-row__size"><?php echo wp_kses_post( awa_taproom_t( 'k53030987' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"awa-row__price"} -->
@@ -124,7 +124,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"awa-note"} -->
-<p class="awa-note">Water is free and always on the bar. Full pours are $7 for Tidewater Lager and $8 for all other current taps. The back-room deposit is credited directly to your final bill.</p>
+<p class="awa-note"><?php echo wp_kses_post( awa_taproom_t( 'k212917e3' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group --></section>

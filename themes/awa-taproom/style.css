@@ -360,3 +360,17 @@ u, .awa-u { text-decoration: underline 2px; text-underline-offset: 0.18em; text-
 	.awa-pagehead + .awa-sec { padding-top: 48px; }
 }
 .awa-posts > * { margin-block-start: 0; }
+
+/* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Fraunces / Nunito Sans) ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Fraunces", "Noto Serif TC", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Nunito Sans", "Noto Serif TC", "Noto Serif CJK TC", serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Fraunces", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Nunito Sans", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .awa-lead, .awa-h2, .awa-card__name, .awa-wordmark, .awa-mark__sub) { line-height: 1.4; letter-spacing: 0.04em; font-weight: 400; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .awa-body { line-height: 1.85; }
+:is(:lang(fr), :lang(de)) :is(h1, h2, h3, p, li, .wp-block-navigation-item__content) { hyphens: auto; overflow-wrap: break-word; }
