@@ -11,7 +11,9 @@
 <!-- wp:group {"className":"ks-kv","tagName":"section","align":"full","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ks-kv"><!-- wp:group {"className":"ks-kv__mid","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-kv__mid"><!-- wp:group {"className":"ks-mark","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-mark"></div>
+<div class="wp-block-group ks-mark"><!-- wp:paragraph {"className":"ks-deco"} -->
+<p class="ks-deco">SUPPLY KAIRO SUPPLY KAIRO</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-pill sp-parallax","layout":{"type":"default"}} -->

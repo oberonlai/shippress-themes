@@ -3,7 +3,7 @@ Source: S5-Style collection → UNION TEC https://www.union-tec.jp/ (BtoB space/
 Design-plan note names MonotaRO as industry analogue only (403 to bots, EC grid, not used as the visual reference).
 
 ## Signature technique candidates
-| # | Technique | Shape / composition / position | Our counterpart (成品對應) |
+| # | Technique | Shape / composition / position | Our counterpart |
 |---|---|---|---|
 | T1 | Stadium-masked photo over a giant cropped wordmark on a hairline grid | 950×405 pill photo centred, black wordmark ≈180px tall bleeding off both edges behind it, 176px hairline grid, wide-spaced one-line tagline at the bottom | **T1** home block 1 KV: `SUPPLY KAIRO SUPPLY KAIRO` Inter Tight 800 cap ≈184 px cut both edges, stadium K01 min(66vw,950)×2.35:1 with `sp-parallax` 8%, 176 px `#E3E6E9` grid, spread H1; inner page heads (9 pages) = page word + stadium photo |
 | T2 | Sticky hero that morphs the pill into a tall egg photo at right while the story text fills grey→ink | egg 375×540 at x874; paragraphs 28px/2.0 | **T2** home block 2: egg K02 26vw/0.7:1 right, story 1.75rem/2.0 left with `sp-stagger`+`sp-reveal--up` (substitute for scrub fill), ghost wordmark `#F4F6F7`; also Counter, Stories, Team, Visit, single post |

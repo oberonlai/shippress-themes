@@ -11,7 +11,9 @@
 <!-- wp:group {"className":"ks-phead ks-word--counter","tagName":"section","align":"full","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ks-phead ks-word--counter"><!-- wp:group {"className":"ks-phead__mid","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-phead__mid"><!-- wp:group {"className":"ks-pmark","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-pmark"></div>
+<div class="wp-block-group ks-pmark"><!-- wp:paragraph {"className":"ks-deco"} -->
+<p class="ks-deco">COUNTER COUNTER</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-ppill sp-parallax","layout":{"type":"default"}} -->
@@ -36,7 +38,9 @@
 
 <!-- wp:group {"className":"ks-sec ks-tt","tagName":"section","align":"full","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ks-sec ks-tt"><!-- wp:group {"className":"ks-ghost ks-ghost--tt","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-ghost ks-ghost--tt"></div>
+<div class="wp-block-group ks-ghost ks-ghost--tt"><!-- wp:paragraph {"className":"ks-deco"} -->
+<p class="ks-deco">KAIRO SUPPLY KAIRO</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-12","layout":{"type":"default"}} -->

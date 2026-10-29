@@ -10,7 +10,9 @@
 ?>
 <!-- wp:group {"className":"ks-sec ks-counter","tagName":"section","align":"full","anchor":"counter","layout":{"type":"default"}} -->
 <section id="counter" class="wp-block-group alignfull ks-sec ks-counter"><!-- wp:group {"className":"ks-ghost","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-ghost"></div>
+<div class="wp-block-group ks-ghost"><!-- wp:paragraph {"className":"ks-deco"} -->
+<p class="ks-deco">KAIRO SUPPLY KAIRO</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"screen-reader-text ks-h2-hidden"} -->

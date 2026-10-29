@@ -10,7 +10,9 @@
 ?>
 <!-- wp:group {"className":"ks-sec ks-apply","tagName":"section","align":"full","anchor":"apply","layout":{"type":"default"}} -->
 <section id="apply" class="wp-block-group alignfull ks-sec ks-apply"><!-- wp:group {"className":"ks-ghost","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-ghost"></div>
+<div class="wp-block-group ks-ghost"><!-- wp:paragraph {"className":"ks-deco"} -->
+<p class="ks-deco">APPLY APPLY APPLY</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-apply__photo","layout":{"type":"default"}} -->

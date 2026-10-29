@@ -13,7 +13,7 @@
 <div class="wp-block-group ks-brand"><!-- wp:site-title {"level":0} /-->
 
 <!-- wp:paragraph {"className":"ks-lang"} -->
-<p class="ks-lang"><span class="is-current"><?php echo wp_kses_post( kairo_supply_t( 'kaa85f184' ) ); ?></span> · <span>中文</span> · <span>日本語</span> · <span><?php echo wp_kses_post( kairo_supply_t( 'k11aedd0e' ) ); ?></span> · <span><?php echo wp_kses_post( kairo_supply_t( 'k3a52f3c2' ) ); ?></span></p>
+<p class="ks-lang"><span class="is-current"><?php echo wp_kses_post( kairo_supply_t( 'kaa85f184' ) ); ?></span> · <span>ZH</span> · <span>JA</span> · <span><?php echo wp_kses_post( kairo_supply_t( 'k11aedd0e' ) ); ?></span> · <span><?php echo wp_kses_post( kairo_supply_t( 'k3a52f3c2' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

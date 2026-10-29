@@ -11,7 +11,9 @@
 <!-- wp:group {"className":"ks-phead ks-word--range","tagName":"section","align":"full","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ks-phead ks-word--range"><!-- wp:group {"className":"ks-phead__mid","layout":{"type":"default"}} -->
 <div class="wp-block-group ks-phead__mid"><!-- wp:group {"className":"ks-pmark","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-pmark"></div>
+<div class="wp-block-group ks-pmark"><!-- wp:paragraph {"className":"ks-deco"} -->
+<p class="ks-deco">RANGE RANGE RANGE</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-ppill sp-parallax","layout":{"type":"default"}} -->

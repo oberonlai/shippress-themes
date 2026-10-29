@@ -37,6 +37,10 @@ body {
 :where(h1, h2, h3, h4) { text-wrap: balance; }
 :lang(zh-TW) { --ks-lh: 1.85; }
 :is(:lang(zh-TW), :lang(ja)) body { line-break: strict; }
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Sans TC", "Inter Tight", "Noto Sans CJK TC", sans-serif;
+	--wp--preset--font-family--body: "Hanken Grotesk", "PingFang TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
 :lang(zh-TW) body, :lang(zh-TW) .editor-styles-wrapper { font-family: "Hanken Grotesk", "Noto Sans TC", sans-serif; line-height: 1.85; letter-spacing: .04em; }
 :lang(zh-TW) h1, :lang(zh-TW) h2, :lang(zh-TW) h3, :lang(zh-TW) .ks-tag { font-family: "Inter Tight", "Noto Sans TC", sans-serif; }
 :lang(ja) body, :lang(ja) .editor-styles-wrapper { font-family: "Hanken Grotesk", "Noto Sans JP", sans-serif; line-height: 1.85; letter-spacing: .04em; }
@@ -115,7 +119,8 @@ main > .alignfull:first-child, main .ks-sec { margin-block-start: 0; }
 .ks-img-blob { border-radius: 48% 52% 46% 54% / 55% 45% 55% 45%; }
 .ks-img-pill img, .ks-img-egg img, .ks-img-blob img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .ks-ghost { position: absolute; left: 0; right: 0; overflow: clip; pointer-events: none; z-index: 0; display: flex; justify-content: center; }
-.ks-ghost::before { display: block; white-space: nowrap; text-align: center; font-family: var(--wp--preset--font-family--display); font-weight: 800; font-size: clamp(5.5rem, 17.5vw, 16rem); line-height: .8; letter-spacing: -.02em; color: #F4F6F7; }
+.ks-deco { margin: 0; padding: 0; display: block; white-space: nowrap; text-align: center; font-family: var(--wp--preset--font-family--display); font-weight: 800; font-size: clamp(5.5rem, 17.5vw, 16rem); line-height: .8; letter-spacing: -.02em; }
+.ks-ghost .ks-deco { color: #F4F6F7; }
 .ks-sec > *:not(.ks-ghost) { position: relative; z-index: 1; }
 
 /* ---------- 1. KV ---------- */
@@ -124,9 +129,8 @@ main > .alignfull:first-child, main .ks-sec { margin-block-start: 0; }
 .ks-kv__mid { display: grid; grid-template-columns: minmax(0, 1fr); align-items: center; justify-items: center; overflow: clip; margin-left: -24px; margin-right: -24px; }
 .ks-kv__mid > * { grid-area: 1 / 1; }
 .ks-mark { width: 100%; display: flex; justify-content: center; overflow: clip; white-space: nowrap; line-height: .8; }
-.ks-mark::before, .ks-ghost::before, .ks-foot__mark::before { flex: none; }
-.ks-mark::before { content: "SUPPLY KAIRO SUPPLY KAIRO"; display: block; white-space: nowrap; font-family: var(--wp--preset--font-family--display); font-weight: 800; font-size: clamp(5.5rem, 17.5vw, 16rem); line-height: .8; letter-spacing: -.02em; color: var(--ks-ink); text-align: center; transform: none; }
-.ks-mark::before { content: "SUPPLY KAIRO SUPPLY KAIRO" / ""; }
+.ks-mark .ks-deco, .ks-ghost .ks-deco, .ks-foot__mark .ks-deco { flex: none; }
+.ks-mark .ks-deco { color: var(--ks-ink); transform: none; }
 .ks-kv .ks-mark { height: calc(clamp(5.5rem, 17.5vw, 16rem) * .8); }
 .ks-kv .ks-pill { position: relative; z-index: 1; width: min(66vw, 950px); aspect-ratio: 2.35; border-radius: 9999px; overflow: clip; margin: 0; }
 .ks-kv .ks-pill > figure { margin: 0; width: 100%; height: 100%; }
@@ -156,7 +160,7 @@ html.sp-no-motion .ks-tag > span > span { animation: none !important; transform:
 @media (max-width: 781px) {
 	.ks-kv { min-height: 0; max-height: none; grid-template-rows: auto auto; padding-top: 28px; }
 	.ks-kv .ks-mark { height: calc(8rem * .8); }
-	.ks-kv .ks-mark::before { font-size: 8rem; }
+	.ks-kv .ks-mark .ks-deco { font-size: 8rem; }
 	.ks-kv .ks-pill { width: min(77vw, 300px); aspect-ratio: 1.6; }
 	.ks-kv .sp-parallax { --sp-par: 6%; }
 	.ks-tag { display: flex; flex-wrap: wrap; justify-content: flex-start; column-gap: .3em; font-size: 1.25rem; }
@@ -171,7 +175,6 @@ html.sp-no-motion .ks-tag > span > span { animation: none !important; transform:
 .ks-counter { --sp-dist: 16px; --sp-ease: cubic-bezier(.25, 1, .5, 1); }
 .ks-stage__list, .ks-how, .ks-case { --sp-dist: 24px; --sp-ease: cubic-bezier(.18, .06, .23, 1); }
 .ks-counter .ks-ghost { top: 50%; transform: translateY(-50%); }
-.ks-counter .ks-ghost::before { content: "KAIRO SUPPLY KAIRO"; }
 .ks-counter__story { grid-column: 1 / 8; grid-row: 1; }
 .ks-counter__egg { grid-column: 9 / 12; grid-row: 1; align-self: center; width: 100%; max-width: 375px; justify-self: end; }
 .ks-story { font-family: var(--wp--preset--font-family--display); font-size: 1.75rem; line-height: 2; letter-spacing: .02em; font-weight: 700; margin: 0 0 1.5rem; }
@@ -323,7 +326,6 @@ html.sp-no-motion .ks-tag > span > span { animation: none !important; transform:
 /* ---------- 9. apply ---------- */
 .ks-apply { overflow: clip; text-align: left; }
 .ks-apply .ks-ghost { top: 4rem; }
-.ks-apply .ks-ghost::before { content: "APPLY APPLY APPLY"; }
 .ks-apply__photo { width: min(56vw, 800px); margin: 0 auto 4rem !important; }
 .ks-apply__main { grid-column: 1 / 8; }
 .ks-apply__main > * + * { margin-top: 1.25rem; }
@@ -349,8 +351,7 @@ html.sp-no-motion .ks-tag > span > span { animation: none !important; transform:
 .ks-foot a { text-decoration: none; }
 .ks-foot a:hover { color: #296EDF; text-decoration: underline; }
 .ks-foot__mark { margin: 64px -24px 0; height: clamp(2.8rem, 9.8vw, 8.4rem); overflow: clip; display: flex; justify-content: center; }
-.ks-foot__mark::before { content: "KAIRO SUPPLY"; display: block; text-align: center; white-space: nowrap; font-family: var(--wp--preset--font-family--display); font-weight: 800; font-size: clamp(4rem, 14vw, 12rem); line-height: .8; letter-spacing: -.02em; color: var(--ks-ink); }
-.ks-foot__mark::before { content: "KAIRO SUPPLY" / ""; }
+.ks-foot__mark .ks-deco { color: var(--ks-ink); font-size: clamp(4rem, 14vw, 12rem); }
 @media (max-width: 781px) { .ks-foot__cols { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .ks-foot__cols { grid-template-columns: 1fr; } }
 
@@ -359,19 +360,7 @@ html.sp-no-motion .ks-tag > span > span { animation: none !important; transform:
 .ks-phead__mid { display: grid; grid-template-columns: minmax(0, 1fr); align-items: center; justify-items: center; overflow: clip; margin: 0 -24px; min-height: 380px; }
 .ks-phead__mid > * { grid-area: 1 / 1; margin: 0; }
 .ks-pmark { width: 100%; display: flex; justify-content: center; overflow: clip; white-space: nowrap; line-height: .8; height: calc(clamp(5rem, 12vw, 11rem) * .8); }
-.ks-pmark::before { flex: none; display: block; white-space: nowrap; font-family: var(--wp--preset--font-family--display); font-weight: 800; font-size: clamp(5rem, 12vw, 11rem); line-height: .8; letter-spacing: -.02em; color: var(--ks-ink); text-align: center; }
-.ks-word--apply .ks-pmark::before { content: "APPLY APPLY APPLY" / ""; }
-.ks-word--counter .ks-pmark::before { content: "COUNTER COUNTER" / ""; }
-.ks-word--range .ks-pmark::before { content: "RANGE RANGE RANGE" / ""; }
-.ks-word--prices .ks-pmark::before { content: "PRICES PRICES PRICES" / ""; }
-.ks-word--stories .ks-pmark::before { content: "STORIES STORIES" / ""; }
-.ks-word--team .ks-pmark::before { content: "TEAM TEAM TEAM TEAM" / ""; }
-.ks-word--visit .ks-pmark::before { content: "VISIT VISIT VISIT" / ""; }
-.ks-word--early-access .ks-pmark::before { content: "EARLY EARLY EARLY" / ""; }
-.ks-word--notes .ks-pmark::before { content: "NOTES NOTES NOTES" / ""; }
-.ks-word--privacy .ks-pmark::before { content: "PRIVACY PRIVACY" / ""; }
-.ks-word--terms .ks-pmark::before { content: "TERMS TERMS TERMS" / ""; }
-.ks-word--thanks .ks-pmark::before { content: "THANKS THANKS THANKS" / ""; }
+.ks-pmark .ks-deco { flex: none; color: var(--ks-ink); font-size: clamp(5rem, 12vw, 11rem); }
 .ks-ppill { position: relative; z-index: 1; width: min(52vw, 760px); aspect-ratio: 2.35; border-radius: 9999px; overflow: clip; --sp-par: 8%; }
 .ks-ppill > figure { margin: 0; width: 100%; height: 100%; }
 .ks-ppill img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -379,7 +368,7 @@ html.sp-no-motion .ks-tag > span > span { animation: none !important; transform:
 .ks-phead--small { padding-bottom: 24px; }
 .ks-phead--small .ks-phead__mid { min-height: 0; }
 .ks-phead--small .ks-pmark { height: calc(clamp(2.5rem, 6vw, 5.5rem) * .8); }
-.ks-phead--small .ks-pmark::before { font-size: clamp(2.5rem, 6vw, 5.5rem); }
+.ks-phead--small .ks-pmark .ks-deco { font-size: clamp(2.5rem, 6vw, 5.5rem); }
 .ks-phead__low { max-width: 1392px; margin: 40px auto 0; }
 .ks-phead__low > * { margin: 0; }
 .ks-phead__low > * + * { margin-top: 1rem; }
@@ -445,7 +434,6 @@ html.sp-no-motion .ks-tag > span > span { animation: none !important; transform:
 /* ---------- inner pages: T2 (egg + story), band, pairs, cases, people ---------- */
 .ks-tt { overflow: clip; --sp-dist: 16px; --sp-ease: cubic-bezier(.25, 1, .5, 1); }
 .ks-tt .ks-ghost { top: 50%; transform: translateY(-50%); }
-.ks-tt .ks-ghost::before { content: "KAIRO SUPPLY KAIRO"; }
 .ks-tt__h { grid-column: 1 / 8; grid-row: 1; margin-bottom: 2rem !important; }
 .ks-tt__story { grid-column: 1 / 8; grid-row: 2; }
 .ks-tt__egg { grid-column: 9 / 12; grid-row: 2 / 4; align-self: center; width: 100%; max-width: 375px; justify-self: end; }

@@ -25,12 +25,16 @@ The trade counter, its address, telephone number and prices are fictional.
 == Copyright ==
 
 Kairo Supply is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Inter Tight (OFL-1.1) and Hanken Grotesk (OFL-1.1), Latin variable, WOFF2, see assets/fonts/.
+Fonts: Inter Tight (OFL-1.1) and Hanken Grotesk (OFL-1.1), Latin variable, WOFF2; Noto Sans TC (OFL-1.1) zh-TW subset and Noto Sans JP (OFL-1.1) ja subset, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later).
 
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as documentary high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the counter is fictional). No transparent cut-outs are used.
+- assets/images/grid.svg (176 px hairline grid with plus ticks, original for this theme, GPL-2.0-or-later)
+- assets/images/grid-white.svg (white hairline grid overlay on photographs, original for this theme, GPL-2.0-or-later)
+- assets/images/demo/grid.png (raster of grid.svg for the Media Library)
+- assets/images/demo/grid-white.png (raster of grid-white.svg for the Media Library)
 - assets/images/k01.webp (home key visual: a coil of cable slid across a steel trade counter)
 - assets/images/k02.webp (home counter story: fittings placed in a crate beside a cable drum)
 - assets/images/k03.webp (home dark stage background: an aisle of cable drums on galvanised shelving)

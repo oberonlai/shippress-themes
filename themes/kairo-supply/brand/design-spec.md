@@ -1,6 +1,6 @@
 # Kairo Supply: design spec (stage 1, binding for implementation)
 
-Slug `kairo-supply`, type **landing** (trade-account landing page for an electrical wholesaler's trade counter). Row b17-5: archetype sticky-media, hero full-bleed-photo, nav top-bar, page_structure landing-longform, font_direction **sans** (Inter Tight / Hanken Grotesk, CJK Noto Sans TC / Noto Sans JP 黑體), palette 藍鼠 `#5C6E7A`, photographic.
+Slug `kairo-supply`, type **landing** (trade-account landing page for an electrical wholesaler's trade counter). Row b17-5: archetype sticky-media, hero full-bleed-photo, nav top-bar, page_structure landing-longform, font_direction **sans** (Inter Tight / Hanken Grotesk, CJK Noto Sans TC / Noto Sans JP gothic), palette blue-grey `#5C6E7A`, photographic.
 
 Reference: **UNION TEC** https://www.union-tec.jp/ (S5-Style, not used by any earlier theme). Measurements: `brand/reference-tokens.md` (cited below as token (a)–(g)). Screenshots: `brand/ref/`. MonotaRO (named in the plan note) is an industry analogue only, not a visual reference.
 We borrow structure, techniques, colour relationships, the key visual concept and the measured numbers. We do **not** copy UNION TEC's photos, copy, logo or SVG wordmark. All photos are generated, all copy is ours.
@@ -62,13 +62,13 @@ UNION TEC's first screen is a calm, monochrome engineering drawing: a white shee
 An electrical wholesaler's **trade counter**, early morning: in the stadium window, a documentary daylight photograph seen at counter height — **a coil of grey cable, taped and labelled, being slid across a worn steel-topped counter by a staff member's hands toward a contractor's hands** (hi-vis cuff, work gloves tucked in a pocket), shelves of cable drums soft in the background. The hand-at-work of the reference becomes the handover across the counter; story: **"the counter is where a job starts"** — cable cut to the metre, fittings picked by job, and an account that makes it quicker every time. Same hairline grid (our grid = a counter's ruled cutting mat), same huge cropped ink wordmark `KAIRO SUPPLY`, same one wide-spaced line: **"Cable cut to the metre. Fittings picked by job."** Motion: words of the tagline roll up on load (same .7 s / 40 ms, theme CSS, §8); the photo drifts inside the stadium (`sp-parallax`); the next block shows the egg photo of the job-pick and the story lines rise in. Image type: documentary real photography, daylight, desaturated cool grey (token (e)).
 
 ### (3) KV checklist (all six visible on the home first screen at 1440×900; at 390×844 items 1–5 visible, item 6 is block 2 directly below)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Photo |
 |---|---|---|---|---|---|
 | 1 | Stadium photo of a hand marking a floor plan, 950×405 (2.35:1) | Stadium photo: coil of taped grey cable slid across a steel counter from staff hands to a contractor's hands | centre; 66vw (max 950) × 2.35:1; y≈247–652 at 1440×900; mobile 342×214 (1.6:1) under the wordmark | `sp-parallax` inside the mask, `--sp-par: 8%` (mobile 6%) | K01 |
 | 2 | Giant black "UNION TEC" wordmark, ≈180 px cap, cut by both edges, behind the photo | `SUPPLY KAIRO SUPPLY KAIRO` Inter Tight 800 ink, cap ≈184 px, cut both sides, behind the pill | full width, vertical centre of hero (cap y≈358–542) | static | — |
 | 3 | 1 px hairline grid, 176 px cells, "+" ticks | Same grid, `#E3E6E9` lines, 9 px "+" ticks `#B9C1C7`, fixed; on the photo a white 28% copy of the grid | whole hero (and site background) | static (fixed attachment ≥ 1024 px) | — |
 | 4 | One bold JP line spread letter by letter across the full width + 13 px sub line | H1 "Cable cut to the metre. Fittings picked by job." spread word by word across the width; sub line "Electrical trade counter in Ostwick since 2004 · accounts open in two working days" | bottom: H1 baseline y≈808, sub y≈870, "Scroll" bottom-right | words roll up on load: translateY(100%)→0, .7 s `cubic-bezier(.25,1,.5,1)`, delay 40 ms × index | — |
-| 5 | Stacked pills top-right: filled "Contact", outlined "Menu"; Ja/En top-left under logo | Filled "● Open an account", outlined "● Call 0100 555 0142" (mobile "● Menu"); language switcher under the logo (EN · 中文 · 日本語 · FR · DE, inactive `#BDC3C7`) | header top-right / top-left | hover fill .7 s | — |
+| 5 | Stacked pills top-right: filled "Contact", outlined "Menu"; Ja/En top-left under logo | Filled "● Open an account", outlined "● Call 0100 555 0142" (mobile "● Menu"); language switcher under the logo (EN · ZH · JA · FR · DE, inactive `#BDC3C7`) | header top-right / top-left | hover fill .7 s | — |
 | 6 | Pill morphs into a tall egg photo at right while story text fills grey→ink | Tall egg photo of the job-pick (staff member's hands placing labelled fittings into a crate beside a cable drum) right; story lines rise in left | block 2, egg right 26vw 0.7:1; story cols 1–7 | `sp-stagger` + `sp-reveal--up` 16 px .8 s; egg static | K02 |
 
 Both K01 and K02 are in the image list (§10).
@@ -161,7 +161,7 @@ Every page except Privacy / Terms / Thanks: **T1 page head** → body → closin
 | Grid | `#E3E6E9` | UT hairline `#E6E6E6` (a), steel tint | 1 px grid, hairline rules | lines only |
 | Tick | `#B9C1C7` | UT "+" ticks (f) | grid crosses | lines only |
 | Ghost | `#F4F6F7` | UT ghosted wordmark `#F7F7F7` (a)(b) | ghost wordmarks | ≈4% |
-| Steel | `#5C6E7A` | plan hex 藍鼠; takes the role of UT photo cast `#8F9E97` (a) | photo grade; secondary text `#3E4A52` (derived, darker for 4.5:1); dark-stage overlay tint | photos ≈20% |
+| Steel | `#5C6E7A` | plan hex blue-grey; takes the role of UT photo cast `#8F9E97` (a) | photo grade; secondary text `#3E4A52` (derived, darker for 4.5:1); dark-stage overlay tint | photos ≈20% |
 | Accent | `#296EDF` | UT accent blue (a) — kept: blue suits an electrical trade | link hover, focus ring, fill-pill hover, the step-card label dot | ≤ 1% |
 | Muted | `#BDC3C7` | UT inactive `#BDBDBD` (f) | inactive language links | — |
 
@@ -172,7 +172,7 @@ Every page except Privacy / Terms / Thanks: **T1 page head** → body → closin
 ## 6. Type (font_direction **sans**; token (b))
 
 - Latin display: **Inter Tight** (OFL) 700 / 800. Latin body: **Hanken Grotesk** (OFL) 400 / 500 / 700. Both sans; no serif anywhere.
-- CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja), 400 / 700, 黑體 for headings and body; never a 明體.
+- CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja), 400 / 700, gothic sans for headings and body; never a Ming serif.
 - Stacks (theme.json `fontFamilies`, all with `fontFace` so the editor iframe and the front end load the same files):
   - `display`: `"Inter Tight", "Noto Sans TC", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif`
   - `body`: `"Hanken Grotesk", "Noto Sans TC", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif`

@@ -99,6 +99,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ks-foot__mark","layout":{"type":"default"}} -->
-<div class="wp-block-group ks-foot__mark"></div>
+<div class="wp-block-group ks-foot__mark"><!-- wp:paragraph {"className":"ks-deco"} -->
+<p class="ks-deco">KAIRO SUPPLY</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
