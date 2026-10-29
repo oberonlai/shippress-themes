@@ -2,7 +2,7 @@
 
 Slug `sekisan-partners`, independent building cost consultancy, **landing** theme (`type: landing`, page_structure `landing-longform`). Home = one long conversion page with an anchor menu and one repeated CTA: **"Request a proposal"**. Reference (only one): **Pacific Consultants, https://www.pacific.co.jp/** (S5-Style, construction consultancy). Measurements in `reference-tokens.md` (token letters (a)–(g) below refer to it), shots in `ref/`. Borrow structure, technique, colour relationships, motion and the key-visual concept. Never copy its photos, video, copy, wordmark or logo.
 
-Design row b17-6: archetype split-screen, hero text-left-photo-right, nav split, first_screen top-bottom-halves, main `#2F3A34` (黒緑), fonts **Albert Sans / Onest**, `font_direction: sans`, CJK **Noto Sans TC / Noto Sans JP (黑體)**, photo_direction high-key, IMAGERY **photo**.
+Design row b17-6: archetype split-screen, hero text-left-photo-right, nav split, first_screen top-bottom-halves, main `#2F3A34` (ink green), fonts **Albert Sans / Onest**, `font_direction: sans`, CJK **Noto Sans TC / Noto Sans JP (gothic sans)**, photo_direction high-key, IMAGERY **photo**.
 
 Fixed brand facts (every page, footer and all five languages use exactly these; full list in section 11): Sekisan Partners, founded **2011**, studio at **Maaskade 41, 3071 NB Rotterdam, Netherlands** (fictional address), fees in **EUR excl. VAT** in every language.
 
@@ -14,7 +14,7 @@ Fixed brand facts (every page, footer and all five languages use exactly these; 
 - Reference: a flat black (`#131416`) stripe 84 px wide, fixed to the left edge for the whole page: a 43 px white circle at the top (search), the language codes stacked under it with a 1 px vertical line beside them, a "Menu" icon in the middle, and at the bottom a small white square with the wordmark set vertically. The content is shifted 84 px right; everything, including the full-bleed hero, lives to the right of the rail.
 - Ours: `.sk-rail`, `position: fixed; inset: 0 auto 0 0; width: 84px; background: #2F3A34; z-index: 50`, in the header template part, on **every** template. `body` gets `padding-left: 84px` at ≥ 1024 px. Contents top to bottom:
   - y = 28: 43 px circle, 1 px white border, white `↑` (links `#top`; the only round element on the site, like the reference search circle).
-  - y = 108: language switcher, codes stacked one per line (`EN`, `繁`, `日`, `FR`, `DE`), Onest 500 0.75rem white, horizontal text (not rotated), 1 px white 60%-opacity vertical line 30 px tall at the left of the active code; inactive codes at 60% opacity.
+  - y = 108: language switcher, codes stacked one per line (`EN`, `ZH`, `JA`, `FR`, `DE`), Onest 500 0.75rem white, horizontal text (not rotated), 1 px white 60%-opacity vertical line 30 px tall at the left of the active code; inactive codes at 60% opacity.
   - bottom 28 px: 27 px white square, under it "Sekisan Partners" in `writing-mode: vertical-rl`, Albert Sans 500 0.875rem white, letter-spacing 0.04em (desktop only; this is chrome, not body text).
   - No link list in the rail (one top menu only; the anchor menu lives in the header, see 3).
 - < 1024 px: the rail turns into a **56 px solid `#2F3A34` top bar** (sticky, full width): white 20 px square + "Sekisan Partners" Albert Sans 600 1rem white at left, the WP Navigation overlay toggle (two 24 px white lines) at right; the language switcher moves into the overlay and the footer. No vertical text below 1024 px.
@@ -64,7 +64,7 @@ Pacific Consultants opens with one **full-bleed, backlit, desaturated steel-blue
 A **building cost consultancy's site office on a bright morning**: one full-bleed, high-key documentary photograph seen slightly from above at table height — a **marked-up cost plan spread across a pale table, a hand holding a graphite pencil ticking a column of figures** (figures soft and illegible), a scale ruler laid across the sheets, a white hard hat at the right edge, daylight from a large window at the left, the left 40% of the frame an almost empty bright table and wall (our "open sea": the quiet surface the headline sits on). Same story transposed: **one person, calm and precise, behind a large building — the price is written before the work starts.** Same image type: photograph, single subject, shallow focus, cool desaturated tones (ours high-key instead of backlit). Same motion idea: the photo is "alive" through parallax (it drifts slower than the page) instead of video, and the page proceeds in long, near-viewport sections — the gap panel slides over a still construction photo (block 2), headings rise in (0.8s), dots mark the anchors.
 
 ### (3) KV checklist (all six visible on the home first screen at 1440 × 900; at 390 × 844 items 1, 2, 4 and 5 visible, item 3 becomes the top bar, item 6 hidden)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Which image |
 |---|---|---|---|---|---|
 | 1 | Full-bleed backlit sea photo with one silhouetted person (video still) | Full-bleed high-key photo: marked-up cost plan on a site-office table, hand with pencil ticking a column, scale ruler, white hard hat at the right edge; empty bright table/wall in the left 40% | whole first screen right of the rail (x 84–1440, y 0–900); focal point at 68% / 55%; mobile: top half 390 × 380 under the 56 px bar | `sp-parallax` on the Cover background, `--sp-par: 8%` (mobile 6%) | **H01** |
 | 2 | White square mark + two-line serif wordmark top-left (x ≈ 124, y ≈ 36, 86 px square, 56 px type) | 64 px `#2F3A34` square + two-line wordmark "Sekisan / Partners" Albert Sans 600 2.4rem/1.0 ink | top-left, x = 125 (rail + 41 px), y = 36 | none | — |
@@ -141,7 +141,7 @@ Posts (3): "Why the risk register comes first" (H12, category Method), "Reading 
 ## 5. Colour (token (a); reference roles kept)
 | Role | Reference (token) | Ours | Change and reason | Share |
 |---|---|---|---|---|
-| Ink (rail, text, borders, dark block) | `#131416` | **`#2F3A34`** | design row main 黒緑 (required by plan); same role, still the darkest | ≈ 20% |
+| Ink (rail, text, borders, dark block) | `#131416` | **`#2F3A34`** | design row main ink green (required by plan); same role, still the darkest | ≈ 20% |
 | Ground | `#FFFFFF` | `#FFFFFF` | kept | ≈ 50% |
 | Ground alt (index rows, people) | `#F5F5F5` | `#F3F5F3` | ±1% L, green-tinted to sit with the ink | ≈ 12% |
 | Primary accent (odd numerals, links, active dot, first letter of "Estimate"/"People") | `#004896` | `#004896` | kept (blue pencil of a cost plan) | ≈ 3% |
@@ -156,7 +156,7 @@ Posts (3): "Why the risk register comes first" (H12, category Method), "Reading 
 
 ## 6. Type (font_direction **sans**; token (b))
 - Latin display: **Albert Sans** (600, 700, 800); Latin body/UI: **Onest** (400, 500, 600). Both loaded with theme.json `fontFamilies` + `fontFace` (woff2, latin + latin-ext subsets for fr/de), no wp_enqueue / external @font-face only.
-- CJK (黑體, no 明體 anywhere): zh-TW **Noto Sans TC** (400, 700), ja **Noto Sans JP** (400, 700), also via theme.json fontFace, subset with the Hokuto/Hada replacement method (the zh subset script is broken).
+- CJK (gothic sans, no mincho serif anywhere): zh-TW **Noto Sans TC** (400, 700), ja **Noto Sans JP** (400, 700), also via theme.json fontFace, subset with the Hokuto/Hada replacement method (the zh subset script is broken).
 - Stacks (theme.json presets): `heading` = `"Albert Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; `body` = `"Onest", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; `:lang(ja)` rules put Noto Sans JP before TC. style.css uses `:lang(` → copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and `require_once` it so the editor iframe shows the same fonts (check-editor-fonts.mjs, en + zh-TW).
 - Size presets: small 0.8125rem · base 1rem (body 1rem/1.7 = 16/27.2 token) · medium 1.225rem (19.6 px titles) · large 1.333rem (21.3 px card titles) · x-large 3.6rem (57.6 px index titles) · **xx-large 5.625rem (90 px) = max**, `clamp(2.75rem, 6.25vw, 5.625rem)` for the hero and `.sk-head` (≥ 4.25rem at 1440 ✓).
 - Weights / line-height / tracking: `.sk-head` 700 / 1.0 / −0.025em; index titles 800 / 1.1 / −0.025em uppercase; numerals 600 tabular; buttons 600 1.125rem uppercase +0.04em (the reference uses condensed Oswald; Albert Sans uppercase replaces it — no third family); body 400 / 1.7; Notes dates 600 2rem.
@@ -235,7 +235,7 @@ Per-page check: Home H01–H10 (10, no repeat); About H09 H10 H11; Method H02 H0
   2. 48-home timber housing terrace — 5,600 m² — detailed cost plan €13.4 m — contract €13.2 m.
   3. Primary school extension — 1,450 m² — second-opinion review — estimate €4.6 m — outturn €4.75 m (lesson: ground conditions priced as a risk, half of it used).
 - Cost letter: quarterly, first issue **January 2027**, free.
-- Languages keep EUR and these numbers; zh-TW/ja write "€6,800（未稅）" style, de "6.800 € zzgl. MwSt.", fr "6 800 € HT" (same values).
+- Languages keep EUR and these numbers; zh-TW/ja write "EUR 6,800 excl. VAT" style, de "6.800 € zzgl. MwSt.", fr "6 800 € HT" (same values).
 
 ## 12. Home acceptance checklist
 1. First screen 1440 × 900 shows all six KV items: full-bleed H01 right of the 84 px ink rail, square mark + two-line wordmark top-left, outline "Request a proposal" bottom-right, "Scroll" + line bottom-centre, six dots at the right edge; headline left in the empty part of the photo; no table/form/search/giant centred word; saturated share ≤ 15% (target ≤ 8%).

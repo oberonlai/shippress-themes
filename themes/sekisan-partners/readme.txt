@@ -25,7 +25,7 @@ The consultancy, its address, people, cases and fees are fictional.
 == Copyright ==
 
 Sekisan Partners is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Albert Sans (OFL-1.1) and Onest (OFL-1.1), Latin variable, WOFF2; Noto Sans TC / JP (OFL-1.1) character subsets for zh-TW and ja, see assets/fonts/.
+Fonts: Albert Sans (OFL-1.1) and Onest (OFL-1.1), Latin variable, WOFF2; Noto Sans TC (OFL-1.1) and Noto Sans JP (OFL-1.1), character subsets for zh-TW and ja, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later).
 
 = Images =
@@ -47,6 +47,7 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary hig
 - assets/images/h14.webp (Fees: concrete, brick, timber and steel samples)
 - assets/images/h15.webp (Notes: three bound tender submissions)
 - assets/images/h16.webp (Cost letter: a site-office window with rolled drawings)
+- assets/images/demo/h12.webp (Media Library raster copy of h12, the note's featured image)
 
 == Changelog ==
 = 1.0.0 =

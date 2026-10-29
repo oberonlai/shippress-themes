@@ -12,7 +12,7 @@ Independent building cost consultancy in Rotterdam (fictional): a proposal-reque
 - **Tone:** calm, precise and practical, the measured clarity of an experienced cost consultancy. Sentences stay grounded in project figures; no promotional rhetoric, no guarantees, no unverified claims.
 
 ## Hours and contact
-Mon-Fri 08:30-17:30 CET. proposals@sekisan.example. No telephone number.
+A working day runs 08:30-17:30 CET, Monday to Friday: morning measurement, then tender comparisons. proposals@sekisan.example. No telephone number.
 
 ## Process (identical on every page and language)
 1. Send drawings, project brief and site address.

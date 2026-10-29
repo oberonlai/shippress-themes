@@ -25,8 +25,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"sk-footer__col sk-footer__col--cta","layout":{"type":"default"}} -->
-<div class="wp-block-group sk-footer__col sk-footer__col--cta"><!-- wp:buttons -->
+<!-- wp:group {"className":"sk-footer__col","layout":{"type":"default"}} -->
+<div class="wp-block-group sk-footer__col"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-sk-dark"} -->
 <div class="wp-block-button is-style-sk-dark"><a class="wp-block-button__link wp-element-button" href="/request-a-proposal/">Request a proposal</a></div>
 <!-- /wp:button --></div>

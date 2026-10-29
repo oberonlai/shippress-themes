@@ -8,8 +8,8 @@ IMAGERY: photo (hero = backlit sea still/video, mid-page 16:9 aerials).
 4. Section-snap story: each section is one viewport; 6-dot pagination right edge; a photo stays fixed behind panels sliding over.
 ## Palette
 Ink #131416 · accent blue #004896 · teal #36939C · ground #FFFFFF/#F5F5F5 · coral spot #F07A73. First-screen saturation ≈0%.
-## 成品對應 (our mapping; binding details in design-spec.md)
-| Reference element (pacific.co.jp) | Sekisan Partners (成品對應) | Where |
+## Finished mapping (our mapping; binding details in design-spec.md)
+| Reference element (pacific.co.jp) | Sekisan Partners (finished mapping) | Where |
 |---|---|---|
 | Full-bleed backlit sea photo, silhouette, video still | Full-bleed high-key photo H01: marked-up cost plan, hand with pencil, scale ruler, hard hat; sp-parallax 8% | home hero (KV 1) |
 | White square mark + two-line serif wordmark top-left | 64 px #2F3A34 square + two-line "Sekisan / Partners" Albert Sans 600 (sans direction) | header, all pages |
