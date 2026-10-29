@@ -64,7 +64,7 @@ a { text-underline-offset: 3px; }
 .sk-rail__lang .is-current::before { content: ""; position: absolute; right: calc(100% + 9px); top: 50%; height: 30px; width: 1px; background: rgba(255, 255, 255, .6); translate: 0 -50%; }
 .sk-rail__word { position: absolute; bottom: 28px; left: 50%; translate: -50% 0; margin: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; }
 .sk-rail__sq { width: 27px; height: 27px; background: #fff; display: block; }
-.sk-rail__vert { writing-mode: vertical-rl; font-family: var(--sk-display); font-weight: 500; font-size: .875rem; letter-spacing: .04em; color: #fff; white-space: nowrap; }
+.sk-rail__vert { hyphens: manual; writing-mode: vertical-rl; font-family: var(--sk-display); font-weight: 500; font-size: .875rem; letter-spacing: .04em; color: #fff; white-space: nowrap; }
 
 /* header bar */
 header.wp-block-template-part { position: sticky; top: 0; z-index: 60; }
@@ -72,7 +72,7 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 60; }
 .sk-brand { margin: 0; }
 .sk-brand a { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; }
 .sk-brand__mark { display: block; width: 20px; height: 20px; background: #fff; flex: none; }
-.sk-brand__name { font-family: var(--sk-display); font-weight: 600; font-size: 1rem; line-height: 1; }
+.sk-brand__name { font-family: var(--sk-display); font-weight: 600; font-size: 1rem; line-height: 1; hyphens: manual; white-space: nowrap; }
 .sk-brand__name br { display: none; }
 .sk-bar__right { display: flex; align-items: center; gap: 28px; }
 .sk-bar__cta { display: none; }
@@ -98,6 +98,8 @@ header.wp-block-template-part { position: sticky; top: 0; z-index: 60; }
 	.sk-nav .wp-block-navigation__responsive-container-open { display: none !important; }
 	.sk-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: block !important; position: static; background: none; }
 	.sk-nav .wp-block-navigation__container { gap: 28px; }
+	:lang(fr) .sk-nav .wp-block-navigation__container, :lang(de) .sk-nav .wp-block-navigation__container { gap: 20px; }
+	.sk-nav .wp-block-navigation-item__content { hyphens: manual; white-space: nowrap; }
 	.sk-nav .wp-block-navigation-item__content { color: var(--sk-ink); font-family: "Onest", var(--sk-display); font-weight: 500; font-size: .875rem; text-decoration: none; padding: 4px 0; }
 	.sk-nav .wp-block-navigation-item__content:hover { text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1px; }
 	.sk-bar__cta { display: flex; margin: 0; }
@@ -174,6 +176,7 @@ html.sp-no-motion .sk-scroll__line { animation: none; }
 	.sk-hero__cta .wp-block-button__link { width: 100%; height: 64px; border-width: 3px; background: #fff; font-size: 1.125rem; }
 	.sk-hero__cta .wp-block-button__link::after { right: 24px; width: 24px; height: 24px; }
 	.sk-scroll { position: static; translate: none; flex-direction: row; margin-top: 28px; gap: 12px; }
+	.sk-hero .wp-block-cover__inner-container > .sk-scroll { margin-top: 20px; }
 	.sk-scroll__line { width: 46px; height: 1px; transform-origin: left; animation-name: sk-draw-x; }
 }
 @keyframes sk-draw-x { 0% { transform: scaleX(0); } 70%, 100% { transform: scaleX(1); } }
@@ -330,7 +333,8 @@ html.sp-no-motion .sk-scroll__line { animation: none; }
 .sk-footer__brand .sk-brand__name { font-size: 1.5rem; color: #fff; }
 .sk-footer__brand .sk-brand__name br { display: inline; }
 .sk-footer__small { font-size: .875rem; line-height: 1.8; color: rgba(255, 255, 255, .86); margin: 0; }
-.sk-footer__links { display: flex; flex-direction: column; gap: 10px; margin: 0; font-family: "Onest", var(--sk-display); font-weight: 500; font-size: .9375rem; }
+.sk-footer__brand .sk-brand__name { hyphens: manual; white-space: nowrap; }
+.sk-footer__links { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 32px; margin: 0; font-family: "Onest", var(--sk-display); font-weight: 500; font-size: .9375rem; }
 .sk-footer__links a { text-decoration: none; }
 .sk-footer__links a:hover { text-decoration: underline; }
 .sk-footer__legal { margin: 56px 0 0; font-size: .75rem; color: rgba(255, 255, 255, .6); }
