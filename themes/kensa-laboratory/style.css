@@ -7,7 +7,7 @@ Description: Kensa Laboratory is a block theme for a materials testing laborator
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Version: 1.0.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: kensa-laboratory
@@ -39,11 +39,11 @@ a { text-underline-offset: 3px; }
 
 /* Language stacks: CJK headings and body in Noto Sans, never a serif */
 :root:lang(ja), body:lang(ja) {
-	--wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans JP", "Noto Sans TC", system-ui, sans-serif;
+	--wp--preset--font-family--display: "Montserrat", "Noto Sans JP", "Noto Sans TC", system-ui, sans-serif;
 	--wp--preset--font-family--body: "Albert Sans", "Noto Sans JP", "Noto Sans TC", system-ui, sans-serif;
 }
 :root:lang(zh) {
-	--wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans TC", system-ui, sans-serif;
+	--wp--preset--font-family--display: "Montserrat", "Noto Sans TC", system-ui, sans-serif;
 	--wp--preset--font-family--body: "Albert Sans", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", system-ui, sans-serif;
 }
 :lang(zh), :lang(ja) { line-height: 1.85; }
@@ -105,12 +105,13 @@ a { text-underline-offset: 3px; }
 .kl-slide--side .kl-slide__media::after { content: ""; position: absolute; inset: 0; background: rgba(255, 255, 255, 0.4); }
 .kl-slide--c .kl-slide__media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(31, 42, 51, 0.5), rgba(31, 42, 51, 0) 58%); pointer-events: none; z-index: 1; }
 .kl-strip__h1 {
-	position: absolute; left: 48px; bottom: 44px; z-index: 2; margin: 0; max-width: 6.4em; color: #fff;
-	font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: clamp(2rem, 3.6vw, 3.25rem);
-	letter-spacing: 0.08em; line-height: 1.1; text-shadow: 0 1px 12px rgba(31, 42, 51, 0.35);
+	position: absolute; left: 48px; bottom: 44px; z-index: 2; margin: 0; color: #fff; white-space: nowrap;
+	font-family: var(--wp--preset--font-family--display); font-weight: 600; font-size: calc(var(--kl-w) * 0.036);
+	letter-spacing: 0.06em; line-height: 1.45; text-shadow: 0 1px 8px rgba(31, 42, 51, 0.28);
 }
-.kl-strip__h1 br { display: none; }
+.kl-strip__h1 br { display: inline; }
 .kl-strip__h1 { hyphens: manual; }
+:lang(ja) .kl-strip__h1, :lang(zh) .kl-strip__h1 { letter-spacing: 0.12em; line-height: 1.5; }
 .kl-ticks { display: flex; justify-content: center; gap: 8px; margin-top: 18px; }
 .kl-ticks span { width: 24px; height: 3px; background: #c7d0d8; }
 .kl-ticks span.is-on { background: var(--kl-ink); }
@@ -119,11 +120,10 @@ a { text-underline-offset: 3px; }
 	html.sp-js:not(.sp-no-motion) .kl-strip__track { animation: kl-drift 40s linear infinite alternate; }
 }
 @media (max-width: 781px) {
-	.kl-strip__h1 br { display: inline; }
 	.kl-strip { --kl-w: 84vw; padding-top: 20px; }
 	.kl-slide__media { aspect-ratio: 3 / 2; }
 	.kl-slide--c .kl-slide__media::after { display: none; }
-	.kl-strip__h1 { position: static; max-width: none; padding: 20px 0 0; color: var(--kl-ink); font-size: clamp(2rem, 9vw, 2.5rem); letter-spacing: 0.04em; text-shadow: none; }
+	.kl-strip__h1 { position: static; padding: 20px 0 0; color: var(--kl-ink); font-size: clamp(1.5rem, 6.6vw, 1.875rem); letter-spacing: 0.03em; white-space: normal; text-shadow: none; }
 	html.sp-js:not(.sp-no-motion) .kl-strip__track { animation: none; }
 }
 
@@ -160,7 +160,7 @@ a { text-underline-offset: 3px; }
 .kl-sec > * + * { margin-top: 20px; }
 .kl-sec h2 { margin-top: 0; }
 .kl-send h2 { margin-bottom: 28px; }
-.kl-label { display: flex; align-items: center; gap: 10px; margin: 0 0 16px; font-family: var(--wp--preset--font-family--body); font-weight: 500; font-size: 1rem; line-height: 1.5; letter-spacing: 0.125em; text-transform: uppercase; color: var(--kl-steel); }
+.kl-label { display: flex; align-items: center; gap: 10px; margin: 0 0 16px; font-family: var(--wp--preset--font-family--display); font-weight: 700; font-size: 1rem; line-height: 1.5; letter-spacing: 0.18em; text-transform: uppercase; color: var(--kl-steel); }
 .kl-label::after { content: ""; width: 32px; height: 1px; background: currentColor; }
 .kl-sec .kl-prose-wrap, .kl-sec .kl-prose { max-width: 720px; margin-left: var(--kl-off) !important; margin-right: auto; }
 .kl-prose-wrap > * + * { margin-top: 1.1rem; }
