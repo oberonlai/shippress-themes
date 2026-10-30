@@ -49,7 +49,7 @@ $img = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"sc-line__cap"} -->
-<p class="sc-line__cap"><?php echo esc_html( sc_t( 'st1' ) . ' → ' . sc_t( 'st2' ) . ' → ' . sc_t( 'st3' ) . ' → ' . sc_t( 'st4' ) . ' → ' . sc_t( 'st5' ) ); ?></p>
+<p class="sc-line__cap"><?php echo esc_html( sc_t( 'st1' ) . ' / ' . sc_t( 'st2' ) . ' / ' . sc_t( 'st3' ) . ' / ' . sc_t( 'st4' ) . ' / ' . sc_t( 'st5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

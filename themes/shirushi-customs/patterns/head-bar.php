@@ -16,7 +16,7 @@
 <!-- wp:navigation {"overlayMenu":"mobile","className":"sc-nav","layout":{"type":"flex","orientation":"horizontal"}} /-->
 
 <!-- wp:paragraph {"className":"sc-head-pill"} -->
-<p class="sc-head-pill"><a href="/contact/"><?php echo esc_html( sc_t( 'head_pill' ) ); ?> ↗</a></p>
+<p class="sc-head-pill"><a href="/contact/"><?php echo esc_html( sc_t( 'head_pill' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
