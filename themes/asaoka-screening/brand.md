@@ -49,5 +49,5 @@ Figtree 600 for headings, Source Sans 3 for text; Noto Sans TC / JP (gothic) for
 ## Home page
 Split hero (text left, two rounded photos right, slow parallax on the large one) with wave and notice card; why small firms put medicals off; the morning as five scoop tiles; how findings are explained (4 rows); parallax photo band with three figures; two company stories; packages (4 rows); open dates (4 rows); closing line with a long gradient pill.
 
-## Next release
-Pages: The Morning, Packages & Prices, Results & Follow-up, For Companies, Our Team, Company Stories, Access & Hours, FAQ, News, Reserve. Every page head repeats the mist band with a square-dot label and the wave foot.
+## Inner pages
+The Morning (timing rows, five scoop tiles, parallax waiting-room band), Packages & Prices (full-width ruled price table, four package tiles), Results & Follow-up (four ruled steps, booklet photo), For Companies (booking steps, open dates), Our Team (wide photo, seven ruled rows), Company Stories (three tiles, three stories), Access & Hours (parallax photo, hours rows), FAQ (eight ruled Q&A), News (five ruled rows), Contact & Reservations (sample request form, not wired to a mail service), Journal (blog page) and one article. Every page head is the mist band with a square-dot label, the wave foot and, on five pages, the tab-notched card.

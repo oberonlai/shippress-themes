@@ -16,7 +16,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 
 1. Download asaoka-screening.zip from the releases page of https://github.com/oberonlai/shippress-themes
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
-3. Activate Asaoka Screening. On activation it creates the home page and the menu (inc/demo-import.php).
+3. Activate Asaoka Screening. On activation it creates the home page, ten inner pages, the journal with one article and the menu (inc/demo-import.php).
 
 The centre, its people, address and prices are fictional.
 
@@ -38,3 +38,8 @@ Image file: assets/images/p09-clinic-exterior.webp, AI-generated for this theme,
 Image file: assets/images/p10-studio-staff.webp, AI-generated for this theme, CC0.
 Image file: assets/images/p11-bakery-staff.webp, AI-generated for this theme, CC0.
 Image file: assets/images/p12-reception.webp, AI-generated for this theme, CC0.
+Image file: assets/images/p13-waiting-area.webp, AI-generated for this theme, CC0.
+Image file: assets/images/p14-booklet-hands.webp, AI-generated for this theme, CC0.
+Image file: assets/images/p15-team.webp, AI-generated for this theme, CC0.
+Image file: assets/images/p16-accountants.webp, AI-generated for this theme, CC0.
+Image file: assets/images/demo/journal-calm-morning.webp, AI-generated for this theme, CC0.

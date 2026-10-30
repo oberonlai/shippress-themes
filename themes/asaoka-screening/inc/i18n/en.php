@@ -25,6 +25,10 @@ return array(
 	'fm_3'           => 'For Companies',
 	'fm_4'           => 'Team',
 	'fm_5'           => 'Access',
+	'fm_6'           => 'Company Stories',
+	'fm_7'           => 'FAQ',
+	'fm_8'           => 'News',
+	'fm_9'           => 'Contact',
 	'foot_note'      => '© 2026 Asaoka Screening. A fictional centre: its people, address and prices are sample content.',
 	'foot_top'       => 'Back to top',
 
