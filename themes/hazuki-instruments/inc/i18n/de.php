@@ -50,7 +50,7 @@ return array(
 	'k4a97b81e' => 'Zweiter Stock',
 	'k4dfbb099' => 'E-Mail',
 	'k533c7723' => 'Fünfundvierzig Minuten, eine geschlossene Tür, keine Eile.',
-	'k5541db79' => 'Finden Sie das Instrument, das zu Ihnen passt.',
+	'k5541db79' => 'Das passende Instrument finden.',
 	'k556b98a0' => 'Rechnungsadresse',
 	'k55bcf8b9' => 'Owen Pike',
 	'k5be125ad' => 'Nichts gefunden.',
