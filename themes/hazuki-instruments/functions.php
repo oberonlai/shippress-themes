@@ -11,6 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once get_template_directory() . '/inc/demo-import.php';
 require_once get_template_directory() . '/inc/editor-lang.php';
+require_once get_template_directory() . '/inc/woo-import.php';
 
 define( 'HAZUKI_INSTRUMENTS_VERSION', wp_get_theme()->get( 'Version' ) );
 
@@ -39,6 +40,9 @@ function hazuki_instruments_enqueue() {
 	wp_enqueue_style( 'hazuki-instruments-style', get_stylesheet_uri(), array(), HAZUKI_INSTRUMENTS_VERSION );
 	wp_enqueue_style( 'hazuki-instruments-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.css' ), array(), HAZUKI_INSTRUMENTS_VERSION );
 	wp_enqueue_script( 'hazuki-instruments-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.js' ), array(), HAZUKI_INSTRUMENTS_VERSION, false );
+	if ( class_exists( 'WooCommerce' ) ) {
+		wp_enqueue_style( 'hazuki-instruments-woocommerce', get_theme_file_uri( 'assets/css/woocommerce.css' ), array( 'hazuki-instruments-style' ), HAZUKI_INSTRUMENTS_VERSION );
+	}
 }
 add_action( 'wp_enqueue_scripts', 'hazuki_instruments_enqueue' );
 
@@ -55,3 +59,37 @@ function hazuki_instruments_pattern_categories() {
 	);
 }
 add_action( 'init', 'hazuki_instruments_pattern_categories' );
+
+/**
+ * The shop styles in the Site Editor too, while WooCommerce is active.
+ */
+function hazuki_instruments_editor_shop_styles() {
+	if ( class_exists( 'WooCommerce' ) ) {
+		add_editor_style( 'assets/css/woocommerce.css' );
+	}
+}
+add_action( 'admin_init', 'hazuki_instruments_editor_shop_styles' );
+
+/**
+ * With WooCommerce active, the mini cart becomes the last cell of the header (Block Hooks API), never twice.
+ *
+ * @param string[]                        $hooked   Block types hooked at this position.
+ * @param string                          $position before, after, first_child or last_child.
+ * @param string                          $anchor   Anchor block type.
+ * @param WP_Block_Template|WP_Post|array $context  Where the anchor is.
+ * @return string[]
+ */
+function hazuki_instruments_header_cart( $hooked, $position, $anchor, $context ) {
+	if ( 'after' !== $position || 'core/navigation' !== $anchor || ! class_exists( 'WooCommerce' ) ) {
+		return $hooked;
+	}
+	if ( ! ( $context instanceof WP_Block_Template ) || 'wp_template_part' !== $context->type || 'header' !== $context->slug ) {
+		return $hooked;
+	}
+	$block = 'woocommerce/mini-cart';
+	if ( ! in_array( $block, $hooked, true ) && WP_Block_Type_Registry::get_instance()->is_registered( $block ) && false === strpos( (string) $context->content, 'wp:' . $block ) ) {
+		$hooked[] = $block;
+	}
+	return $hooked;
+}
+add_filter( 'hooked_block_types', 'hazuki_instruments_header_cart', 20, 4 );
