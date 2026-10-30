@@ -26,7 +26,7 @@ $img = get_theme_file_uri( 'assets/images/' );
 <!-- /wp:group -->
 
 <!-- wp:table {"className":"sc-fees__table","hasFixedLayout":false} -->
-<figure class="wp-block-table sc-fees__table"><table><thead><tr><th>No.</th><th><?php echo esc_html( sc_t( 'fee_col_svc' ) ); ?></th><th class="has-text-align-right" data-align="right"><?php echo esc_html( sc_t( 'fee_col_price' ) ); ?></th></tr></thead><tbody><?php for ( $i = 1; $i <= 7; $i++ ) : ?><tr><td class="sc-fees__no">( 0<?php echo (int) $i; ?> )</td><td><strong><?php echo esc_html( sc_t( 'fee' . $i . '_t' ) ); ?></strong><br><span class="sc-fees__n"><?php echo esc_html( sc_t( 'fee' . $i . '_n' ) ); ?></span></td><td class="has-text-align-right sc-fees__price" data-align="right"><?php echo esc_html( sc_t( 'fee' . $i . '_p' ) ); ?></td></tr><?php endfor; ?></tbody></table></figure>
+<figure class="wp-block-table sc-fees__table"><table><thead><tr><th>No.</th><th><?php echo esc_html( sc_t( 'fee_col_svc' ) ); ?></th><th class="has-text-align-right"><?php echo esc_html( sc_t( 'fee_col_price' ) ); ?></th></tr></thead><tbody><?php for ( $i = 1; $i <= 7; $i++ ) : ?><tr><td class="sc-fees__no">( 0<?php echo (int) $i; ?> )</td><td><strong><?php echo esc_html( sc_t( 'fee' . $i . '_t' ) ); ?></strong><br><span class="sc-fees__n"><?php echo esc_html( sc_t( 'fee' . $i . '_n' ) ); ?></span></td><td class="has-text-align-right sc-fees__price"><?php echo esc_html( sc_t( 'fee' . $i . '_p' ) ); ?></td></tr><?php endfor; ?></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph {"className":"sc-fees__note"} -->

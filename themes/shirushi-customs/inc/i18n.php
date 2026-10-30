@@ -91,10 +91,12 @@ function sc_inner_head( $key, $img, $lit = array(), $pos = '50% 50%', $link = fa
 		$ticks .= "<!-- wp:paragraph {\"className\":\"" . $cls . "\"} -->\n<p class=\"" . $cls . "\"><span class=\"sc-n\">0" . $i . '</span> <span class="sc-w">' . $word . "</span></p>\n<!-- /wp:paragraph -->\n";
 	}
 	$alt = esc_attr( sc_t( $key . '_alt' ) );
+	$pc  = 'sc-pos-' . preg_replace( '/[^0-9]+/', '-', trim( $pos, '% ' ) );
+	$pc  = rtrim( str_replace( '%', '', $pc ), '-' );
 	return '<!-- wp:group {"tagName":"section","align":"full","className":"sc-ph sp-parallax","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sc-ph sp-parallax"><!-- wp:group {"className":"sc-ph__bg sp-parallax__layer","layout":{"type":"default"}} -->
-<div class="wp-block-group sc-ph__bg sp-parallax__layer"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="' . esc_url( $src ) . '" alt="' . $alt . '" style="object-position:' . esc_attr( $pos ) . '"/></figure>
+<div class="wp-block-group sc-ph__bg sp-parallax__layer"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"' . $pc . '"} -->
+<figure class="wp-block-image size-full ' . $pc . '"><img src="' . esc_url( $src ) . '" alt="' . $alt . '"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"sc-stage__veil","layout":{"type":"default"}} -->
@@ -119,3 +121,19 @@ function sc_inner_head( $key, $img, $lit = array(), $pos = '50% 50%', $link = fa
 <!-- /wp:group --></section>
 <!-- /wp:group -->';
 }
+
+
+/**
+ * Inner-page head photographs keep their object-position without an inline style in the saved block markup (which the
+ * block editor would flag as invalid): the sc-pos-X-Y class is turned into the style attribute at render time.
+ *
+ * @param string $html Rendered core/image block.
+ * @return string
+ */
+function sc_image_position( $html ) {
+	if ( preg_match( '/\bsc-pos-(\d{1,3})-(\d{1,3})\b/', $html, $m ) ) {
+		$html = preg_replace( '/<img\b/', '<img style="object-position:' . (int) $m[1] . '% ' . (int) $m[2] . '%"', $html, 1 );
+	}
+	return $html;
+}
+add_filter( 'render_block_core/image', 'sc_image_position' );

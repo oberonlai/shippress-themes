@@ -162,7 +162,7 @@ echo sc_inner_head( 'process', 'w1.webp', array( 1, 2, 3, 4, 5 ), '30% 50%', tru
 <!-- wp:group {"tagName":"section","align":"full","className":"sc-quay sc-quay--inner sp-parallax","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sc-quay sc-quay--inner sp-parallax"><!-- wp:group {"className":"sc-quay__bg sp-parallax__layer","layout":{"type":"default"}} -->
 <div class="wp-block-group sc-quay__bg sp-parallax__layer"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( $img . 'q1.webp' ); ?>" alt="" role="presentation"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( $img . 'q1.webp' ); ?>" alt=""/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
