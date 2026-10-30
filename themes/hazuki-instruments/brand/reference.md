@@ -6,7 +6,7 @@ Main reference: https://www.shimamura.co.jp/ (Japanese musical-instrument retail
 - T1 Seam headline: unequal full-height photo panels edge to edge, one vertical headline crossing the seam, a flat label bar across the foot of the strip.
 - T2 3-then-4 plain tile rhythm: caption-under-image tiles on a pale band, row of 3 wide then row of 4 narrower, 0 radius, closed by a wide hairline outline button.
 - T3 Quiet label system: small letter-spaced Latin caps centred label over alternating white / pale bands; dated hairline rows with right chevron.
-## Our mapping (成品對應) — per design-spec.md
+## Our mapping (as built) — per design-spec.md
 | Ref element | Our counterpart | Where |
 |---|---|---|
 | Four abutting portrait panels (1425×590) | `.hz-seam` 4 panels P01–P04, 2 px seams, 590 px, `sp-parallax` 8% | Home hero; 2–4 panel mini strips on Floor guide, Trial, Care, Rentals, Visit, About |

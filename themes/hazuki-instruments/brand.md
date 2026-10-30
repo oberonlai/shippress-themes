@@ -1,6 +1,6 @@
 # Hazuki Instruments - brand brief
 
-Musical-instrument shop on three floors in the harbour town of Wellmouth. Sample content in English, Traditional Chinese (Taiwan), Japanese, French and German, localised for each market. All names, places, people and figures are fictional.
+Musical-instrument shop on three floors, located in the harbour town of Wellmouth. Sample content in English, Traditional Chinese (Taiwan), Japanese, French and German, localised for each market. All names, places, people and figures are fictional.
 
 ## Concept
 - **Name:** Hazuki Instruments. One shop, three floors, 14 Calder Lane, Wellmouth (fictional).

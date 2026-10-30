@@ -1,6 +1,6 @@
 # Hazuki Instruments: design spec (stage B, binding for implementation)
 
-Slug `hazuki-instruments`, musical-instrument shop (type `store`, WooCommerce product templates styled; checkout must work). Row b20-2: archetype asymmetric-masonry, hero framed-window + full-bleed-photo-info-bar, nav centred, page structure alternating-longform, palette 藍鼠 `#5C6A78`, **font_direction: sans**.
+Slug `hazuki-instruments`, musical-instrument shop (type `store`, WooCommerce product templates styled; checkout must work). Row b20-2: archetype asymmetric-masonry, hero framed-window + full-bleed-photo-info-bar, nav centred, page structure alternating-longform, palette blue-grey (aonezu) `#5C6A78`, **font_direction: sans**.
 Reference (only one): **Shimamura Music, https://www.shimamura.co.jp/** — measurements in `reference-tokens.md`, screenshots in `ref/`. We borrow structure, technique, colour relationships and the key-visual concept. No copy, photos, illustrations or logo from the reference.
 
 Fixed brand facts (every page, all five languages, identical numbers):
@@ -15,7 +15,7 @@ Fixed brand facts (every page, all five languages, identical numbers):
 ### T1. Seam headline strip with a flat label bar (Shimamura hero, `ref/shim-first.png`)
 - Reference: directly under a 59 px white header, four full-height portrait photos sit edge to edge across the full width (1425×590 at 1440×900, each ≈25%, visible seams). One white vertical headline (≈38 px per glyph) runs down the seam between panels 2 and 3. A flat orange 26 px "Brand Promise" bar crosses the whole strip about 50 px above its bottom edge. The strip *is* the hero; nothing is overlaid besides the headline and bar.
 - Hazuki (desktop 1440): `.hz-seam` alignfull Group, height `clamp(460px, 65.5vh, 590px)` (590/900 = 65.5% from token (e)), 4 columns `grid-template-columns: 1fr 1fr 1fr 1fr`, `gap: 2px` on ground `#FFFFFF` (the 2 px white seam), radius 0. Each panel is a `figure` with `img` `object-fit: cover`, `object-position` set per image (faces/hands in upper third).
-- Headline: absolutely positioned at `left: 50%` (seam 2|3), `top: 44px`, `transform: translateX(-50%)`, `writing-mode: vertical-rl` in **ja and zh-TW**; in en/fr/de the headline is horizontal but rotated: `writing-mode: vertical-rl` + `text-orientation: sideways` (reads top→bottom). Text en: **"Find the one that fits."** Manrope 700, `2.375rem` (38 px = token f), letter-spacing .04em, white, `text-shadow: 0 1px 14px rgba(0,0,0,.28)`. ja「ぴったりの一本に、出会う。」, zh-TW「遇見剛好合手的那一把。」.
+- Headline: absolutely positioned at `left: 50%` (seam 2|3), `top: 44px`, `transform: translateX(-50%)`, `writing-mode: vertical-rl` in **ja and zh-TW**; in en/fr/de the headline is horizontal but rotated: `writing-mode: vertical-rl` + `text-orientation: sideways` (reads top→bottom). Text en: **"Find the one that fits."** Manrope 700, `2.375rem` (38 px = token f), letter-spacing .04em, white, `text-shadow: 0 1px 14px rgba(0,0,0,.28)`. ja(see demo-content.<lang>.json), zh-TW(see demo-content.<lang>.json).
 - Label bar: absolutely positioned full width, `bottom: 50px`, height **26 px**, ground **steel `#5C6A78`**, centred label "Fit · Trial · Care" Manrope 600 `0.8125rem`, white, letter-spacing .06em. (Reference role: orange 26 px bar; we use the row's steel and keep the bar exactly flat, full width, 26 px.)
 - Mobile ≤781: panels become a 2×2 grid (each 4:5), **no** vertical or absolutely positioned text: the headline moves under the grid as a normal horizontal `h1` (Manrope 700 2rem, ink, left, 24 px padding), the label bar becomes a static 26 px bar between the grid and the headline. (auto-gates checks overlap at 390 px.)
 - Must not be diluted: four panels, edge to edge, 2 px seams visible, panel photos **of people with instruments** (not products), headline exactly on the 2|3 seam, bar flat 26 px full width in steel (not a pill, not a gradient, not a translucent overlay).
@@ -51,12 +51,12 @@ Fixed brand facts (every page, all five languages, identical numbers):
 
 ## Key visual concept
 
-**(1) Reference first screen.** Shimamura opens on four abutting full-height portraits of ordinary people who play: a grey-haired man at a desk with a pen, a man playing alto sax under warm stage light, a laughing young woman with an electric guitar against cool blue window light, a student at a school desk. The vertical headline 「新しいじぶんに、出会える。」 ("you meet a new self") runs down the seam, and an orange "Brand Promise" bar crosses the foot. Story: every kind of person finds their own instrument and becomes a new self. Signature motion: the strip is a Swiper autoplay slider (3 slides, ≈4 s hold, default ease) and the header turns fixed on scroll.
+**(1) Reference first screen.** Shimamura opens on four abutting full-height portraits of ordinary people who play: a grey-haired man at a desk with a pen, a man playing alto sax under warm stage light, a laughing young woman with an electric guitar against cool blue window light, a student at a school desk. The vertical headline (see demo-content.<lang>.json) ("you meet a new self") runs down the seam, and an orange "Brand Promise" bar crosses the foot. Story: every kind of person finds their own instrument and becomes a new self. Signature motion: the strip is a Swiper autoplay slider (3 slides, ≈4 s hold, default ease) and the header turns fixed on scroll.
 
 **(2) Our translation (same industry, same composition, same image type — real photos of people).** Four film-grain documentary portraits of people meeting their instrument *inside Hazuki's shop*: a clerk lifting an acoustic guitar from a wall rack in a narrow aisle; a woman in her fifties at an upright piano in the sound booth; a teenager trying a trumpet with a staff member; an older man tuning a cello bow at the workbench counter. Warm shop light on panels 1 and 2, cool daylight on 3 and 4 (the same warm/cool split as the reference). Vertical headline "Find the one that fits." on the 2|3 seam; steel bar "Fit · Trial · Care" across the foot; under the strip an info row (hours · address · "Book a trial booth ›"). Story: **"A fitting, not a sale"** — the right instrument finds you, and we look after it afterwards. Motion: the reference's slider becomes slow vertical parallax of the four panel images (each `img` drifts inside its frame), and the header is sticky. No autoplay slider, no reveal on the hero.
 
 **(3) KV checklist (all six built on the first screen at 1440×900 and visible).**
-| # | 参考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our mapping | Position | Motion | Image used |
 |---|---|---|---|---|---|
 | 1 | Four abutting portrait panels, edge to edge | `.hz-seam` 4 panels, 2 px white seams, alignfull, 590 px high | hero, directly under the header | each panel `sp-parallax`, `--sp-par: 8%` (mobile 5%) | P01, P02, P03, P04 |
 | 2 | Vertical headline on the seam | "Find the one that fits." vertical, white, Manrope 700 38 px, on seam 2|3 | strip centre, top 44 px | none (hero, no reveal) | over P02/P03 |
@@ -79,10 +79,10 @@ Info row (part of the hero frame, row "full-bleed-photo-info-bar"): white, 56 px
 | Ink | `#1E2328` | ref #000 softened (allowed: text only) | all text, chevrons | text |
 | Grey text | `#8C939A` | ref date grey ≈#999 (−5% L) | dates, sub-captions `#6B737B` | text |
 | Hairline | `#E3E5E8` / button `#CCCCCC` | ref button #CCC (d) | rows, info row, outline buttons | lines |
-| Main steel | `#5C6A78` | row 藍鼠 hex; takes the ref orange bar role | T1 label bar, link hover, buttons hover, footer bottom bar, WooCommerce primary button | ≈3% first screen, ≤5% page |
+| Main steel | `#5C6A78` | row blue-grey (aonezu) hex; takes the ref orange bar role | T1 label bar, link hover, buttons hover, footer bottom bar, WooCommerce primary button | ≈3% first screen, ≤5% page |
 | Accent brass | `#B0702E` | ref orange relation (warm accent), muted | only the small dot before "Book a trial booth", sale badge, focus ring | <1% |
 
-Reason for changing orange: row palette is 藍鼠 steel and recent themes avoid high-chroma; the reference keeps one accent at ≈4% — we keep the same share with steel, plus a tiny brass.
+Reason for changing orange: row palette is blue-grey (aonezu) steel and recent themes avoid high-chroma; the reference keeps one accent at ≈4% — we keep the same share with steel, plus a tiny brass.
 **First-screen saturated cap: ≤10%** (gate 15%; measured target ≈4%: bar 1440×26 + link text). Never use steel or brass as a section background except the footer bottom bar (48 px).
 
 ## 3. Type (font_direction **sans**)
@@ -90,7 +90,7 @@ Reason for changing orange: row palette is 藍鼠 steel and recent themes avoid 
 - Stacks (theme.json fontFamilies, loaded by **fontFace** woff2 in `assets/fonts/`, same in editor and front):
   - heading: `"Manrope", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
   - body: `"IBM Plex Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
-  - `:lang(zh-TW)` → `"Noto Sans TC"` first; `:lang(ja)` → `"Noto Sans JP"` first (黑體, never Mincho/明體). Ship zh-TW and ja subset woff2 via the Hokuto/Hada method; copy `shared/inc/editor-lang.php` → `inc/editor-lang.php` and require it.
+  - `:lang(zh-TW)` → `"Noto Sans TC"` first; `:lang(ja)` → `"Noto Sans JP"` first (gothic sans, never Mincho/Mincho serif). Ship zh-TW and ja subset woff2 via the Hokuto/Hada method; copy `shared/inc/editor-lang.php` → `inc/editor-lang.php` and require it.
 - Sizes (theme.json presets): small 0.8125rem; base **0.9375rem** (15 px, token b) lh 1.6 (ref 1.5, raised for long copy); medium 1.0625rem (17 px captions); large 1.5rem; x-large 2.375rem (38 px headline / section headings); xx-large **3.25rem** (52 px = ref store heading); **huge 4.5rem** (≥4.25rem; used once on home for the "A fitting, not a sale." statement and for inner page titles `clamp(2.6rem, 5vw, 4.5rem)`), lh 1.1, Manrope 600, ls −0.01em.
 - Labels 1rem/500 ls .06em uppercase (token b h2 16 px .96 px). Nav IBM Plex Sans 400 1rem ls .06em (ref 16/300; Plex 300 too thin on Windows → 400).
 - CJK: sizes ×0.75 of en headings, body lh 1.85; fr/de `hyphens: auto`.
