@@ -19,3 +19,31 @@ Thirteen AI-generated film-grain photographs, each used once on the home page. N
 
 ## License
 GPL-2.0-or-later. Fonts: SIL OFL 1.1.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kumoi Lodge home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kumoi Lodge home page on mobile"></td>
+</tr>
+</table>
+
+- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
+- The stay: [desktop](screenshots/the-stay-desktop.webp) · [mobile](screenshots/the-stay-mobile.webp)
+- The table: [desktop](screenshots/the-table-desktop.webp) · [mobile](screenshots/the-table-mobile.webp)
+- Rates and booking: [desktop](screenshots/rates-and-booking-desktop.webp) · [mobile](screenshots/rates-and-booking-mobile.webp)
+- Walks and weather: [desktop](screenshots/walks-and-weather-desktop.webp) · [mobile](screenshots/walks-and-weather-mobile.webp)
+- Getting here: [desktop](screenshots/getting-here-desktop.webp) · [mobile](screenshots/getting-here-mobile.webp)
+- Keepers: [desktop](screenshots/keepers-desktop.webp) · [mobile](screenshots/keepers-mobile.webp)
+- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
