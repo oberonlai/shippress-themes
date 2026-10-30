@@ -41,7 +41,25 @@ body { -webkit-font-smoothing: antialiased; }
 .wp-site-blocks > * + *, .as-main { margin-block-start: 0; }
 .as-sec { padding: var(--as-pad) 0; }
 .as-mist { background: var(--as-mist); }
-:lang(de) .as-sec, :lang(fr) .as-sec { hyphens: auto; }
+:lang(de) :is(p, h1, h2, h3, li), :lang(fr) :is(p, h1, h2, h3, li) { hyphens: auto; overflow-wrap: break-word; }
+:lang(de) .as-hero__h1, :lang(fr) .as-hero__h1 { font-size: clamp(2.2rem, 4vw, 3.6rem); max-width: 17ch; }
+
+/* Languages: Chinese and Japanese use the bundled Noto Sans subsets (sans direction: gothic for headings and body; Latin and figures stay in Figtree / Source Sans 3) */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Figtree", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Source Sans 3", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Figtree", "Noto Sans JP", "Noto Sans CJK JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+	--wp--preset--font-family--body: "Source Sans 3", "Noto Sans JP", "Noto Sans CJK JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: .04em; max-width: none; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) .as-hero__h1 { font-size: clamp(2rem, 3.6vw, 3.25rem); line-height: 1.35; max-width: 14em; text-wrap: balance; word-break: auto-phrase; }
+:is(:lang(zh), :lang(ja)) .as-statement { font-size: 1.25rem; line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) .as-num { font-size: 2rem; }
+:is(:lang(zh), :lang(ja)) :is(.as-dot-label, .as-chip, .as-pricetable__cap) { letter-spacing: .08em; text-transform: none; }
 
 /* labels, headings, chips */
 .as-dot-label { display: inline-flex; align-items: center; gap: 10px; margin: 0; font-family: var(--wp--preset--font-family--display); font-size: .875rem; font-weight: 600; letter-spacing: .04em; color: var(--as-teal); line-height: 1.4; }
