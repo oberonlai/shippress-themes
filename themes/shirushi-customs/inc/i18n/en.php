@@ -1,0 +1,160 @@
+<?php
+/**
+ * Shirushi Customs: theme strings, English. Keys are used by the patterns, parts and templates through sc_t().
+ * "|" is a forced line break where sc_lines() is used.
+ *
+ * @package shirushi-customs
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+return array(
+	// Header and footer.
+	'brand'         => 'SHIRUSHI',
+	'head_pill'     => 'Open a file',
+	'foot_desk'     => 'Shed 11, North Quay, Port Ardale',
+	'foot_hours'    => 'Desk Mon–Fri 08:00–18:00 · Drop-off counter Mon–Fri 08:30–17:00 · Closed on public holidays',
+	'foot_phone'    => '+1 (555) 014-2300',
+	'foot_mail'     => 'desk@shirushi-customs.example',
+	'foot_copy'     => '© 2009–2026 Shirushi Customs. A fictional desk; its clients, prices and port are invented.',
+	'foot_pages'    => 'Pages',
+	'foot_contact'  => 'Desk',
+
+	// Stage (home block 1).
+	'alt_w1'        => 'Rows of identical cartons on steel racks in a dim warehouse bay, a gloved hand holding a blank packing list against a carton label',
+	'stage_h1'      => 'Your goods,|cleared with|every line checked.',
+	'stage_intro'   => 'Shirushi Customs is a small customs desk at North Quay that clears imported goods for small manufacturers. We check every line of the packing list against the cartons, lodge the declaration, settle the duty and hand the shipment across to your carrier, so you can keep making things.',
+	'stage_pill'    => 'How a clearance runs',
+	'scroll'        => 'Scroll',
+	'st1'           => 'Documents',
+	'st2'           => 'Classification',
+	'st3'           => 'Declaration',
+	'st4'           => 'Duty',
+	'st5'           => 'Release',
+
+	// Desk (block 2).
+	'alt_h2'        => 'A broker at a desk by a tall window comparing a packing list with a carton sample, cartons stacked behind her',
+	'desk_label'    => '( THE DESK )',
+	'desk_title'    => 'CUSTOMS CLEARANCE FOR SMALL MANUFACTURERS',
+	'desk_p1'       => 'Shirushi Customs was founded in 2009 by Emiko Hart, a licensed customs broker who spent twelve years at a freight forwarder before opening her own desk. We work for workshops and small factories that import components, materials and samples a few times a month and do not want a customs department of their own.',
+	'desk_p2'       => 'Seven people sit at the desk in Shed 11. Each shipment has one named broker from the first packing list to the release, and every declaration is read line by line against the goods before it is lodged. We explain the duty in plain words, and we tell you early when something does not match.',
+	'view_more'     => 'VIEW MORE',
+	'desk_pill'     => 'About the desk',
+
+	// Declarations (block 3).
+	'dec_label'     => '( DECLARATIONS )',
+	'dec_title'     => 'DECLARATIONS WE HANDLE',
+	'dec_lead'      => 'Four kinds of declaration cover almost everything a small manufacturer brings in. The desk chooses the one that fits the goods and tells you why, before anything is lodged.',
+	'dec_more'      => 'Details',
+	'alt_d1'        => 'Shrink-wrapped pallets of cartons at an open dock door with a hand pallet truck',
+	'alt_d2'        => 'Small parcels and padded envelopes sorted on a long white table',
+	'alt_d3'        => 'Open aluminium flight cases with product samples being checked against a list',
+	'alt_d4'        => 'Wooden crates of machine components and bicycle tubing in a small workshop',
+	'dec1_t'        => 'Import entry (formal)',
+	'dec1_p'        => 'The standard declaration for commercial goods: components, materials and finished stock. Every tariff line is classified, valued and checked against the invoice, then lodged and followed until the goods are released.',
+	'dec2_t'        => 'Low-value consignments',
+	'dec2_p'        => 'A shorter entry for small parcels of samples, spares and prototypes. Quicker to prepare and priced as a flat fee, with the same checking of the goods against the paperwork.',
+	'dec3_t'        => 'Temporary admission',
+	'dec3_p'        => 'For samples, trade-fair stock and machinery that comes in for repair. We set up the admission, record the goods that leave again and close the file once they have gone back.',
+	'dec4_t'        => 'Duty relief and inward processing',
+	'dec4_p'        => 'For components that become part of something you then sell abroad. We prepare the authorisation, keep the records the authority asks for and reconcile each entry against it.',
+
+	// Handover (block 4).
+	'ho_title'      => 'HANDOVER',
+	'ho_lead'       => 'A shipment does not simply arrive and leave. It is handed across five times, from your documents to the carrier’s driver, and at each hand-over one person at the desk is answerable for it.',
+	'ho_more'       => 'VIEW MORE',
+	'alt_s1'        => 'Hands laying a commercial invoice and a packing list side by side on a desk',
+	'alt_s2'        => 'A turned wooden part beside calipers and a thick closed reference book',
+	'alt_s3'        => 'A broker at a laptop with documents beside it, the screen angled away',
+	'alt_s4'        => 'Two people opening a carton for examination on a steel table',
+	'alt_s5'        => 'A loaded pallet being moved onto a small truck at a loading dock in morning light',
+	'ho1_p'         => 'You send the invoice, the packing list and the transport document. We read them against each other and against the goods description, and we ask about anything that does not match before the shipment is on its way.',
+	'ho2_p'         => 'Each product is given its tariff code with a short written reason. If the code is not obvious we check the explanatory notes and, when it matters, put the question to the authority before you place the order.',
+	'ho3_p'         => 'The broker prepares the entry line by line, checks values and origin, and lodges it. Documents received by 14:00 are lodged the same working day, and you receive a copy of exactly what was declared.',
+	'ho4_p'         => 'We calculate duty and import taxes and show them to you before they are paid. They are passed through at cost, without mark-up, and they appear on one monthly invoice with our own fees.',
+	'ho5_p'         => 'When the goods are released, the dock liaison arranges the handover to your carrier at North Quay. If goods are selected for examination, we are at the table and tell you what is found.',
+	'ho_prev'       => 'Previous card',
+	'ho_next'       => 'Next card',
+
+	// Quay (block 5).
+	'alt_q1'        => 'A quiet morning quay with stacked containers and a gantry crane in haze',
+	'quay_title'    => 'THE QUAY',
+	'quay_p'        => 'The desk sits in Shed 11 on North Quay, a few steps from the bays where containers are opened and checked. Being on the quay means the broker can see your cartons, speak to the dock team and be at the table when goods are selected for examination. Originals and samples are taken in at Door 4.',
+	'quay_pill'     => 'About the desk',
+	'map_l1'        => 'PORT ARDALE / NORTH QUAY',
+	'map_l2'        => 'SHED 11 · DOOR 4',
+	'map_l3'        => 'MON–FRI 08:00–18:00',
+
+	// Prepare (block 6).
+	'alt_p1'        => 'A flat lay on white: blank forms, a pen, a tape gun, a carton corner and a sample jar',
+	'prep_label'    => '( PREPARE )',
+	'prep_title'    => 'WHAT YOU PREPARE',
+	'prep_lead'     => 'Six documents are enough to start a clearance. If one is missing, we tell you which, on the same day.',
+	'prep1_t'       => 'Commercial invoice',
+	'prep1_n'       => 'Seller, buyer, goods, value and terms',
+	'prep2_t'       => 'Packing list',
+	'prep2_n'       => 'Cartons, contents and weights',
+	'prep3_t'       => 'Transport document',
+	'prep3_n'       => 'Bill of lading or air waybill',
+	'prep4_t'       => 'Certificate of origin',
+	'prep4_n'       => 'When a preference is claimed',
+	'prep5_t'       => 'Product specification',
+	'prep5_n'       => 'Materials and use of each item',
+	'prep6_t'       => 'Licence or permit',
+	'prep6_n'       => 'Only where the goods need one',
+	'prep_pill'     => 'What you prepare',
+
+	// Fees (block 7).
+	'fee_label'     => '( FEES )',
+	'fee_title'     => 'FEES',
+	'fee_lead'      => 'Seven fixed prices cover most of what the desk does, in US dollars. Invoices are monthly and payment is due within 14 days.',
+	'fee1_t'        => 'Import entry, up to 5 tariff lines',
+	'fee1_n'        => 'Formal entry, checked and lodged',
+	'fee1_p'        => '$95',
+	'fee2_t'        => 'Each additional tariff line',
+	'fee2_n'        => 'On the same entry, per line',
+	'fee2_p'        => '$6',
+	'fee3_t'        => 'Low-value consignment entry',
+	'fee3_n'        => 'Samples, spares and prototypes',
+	'fee3_p'        => '$38',
+	'fee4_t'        => 'Temporary admission (samples, trade fairs)',
+	'fee4_n'        => 'Set-up and closing of the admission',
+	'fee4_p'        => '$140',
+	'fee5_t'        => 'Tariff classification opinion, per product',
+	'fee5_n'        => 'In writing, with the reason',
+	'fee5_p'        => '$120',
+	'fee6_t'        => 'Duty relief / inward processing application',
+	'fee6_n'        => 'Authorisation and record set-up',
+	'fee6_p'        => '$280',
+	'fee7_t'        => 'Monthly desk account, up to 12 entries',
+	'fee7_n'        => 'One invoice, payment within 14 days',
+	'fee7_p'        => '$890 / month',
+	'fee_note'      => 'Duties and import taxes are passed through at cost, without mark-up.',
+	'fee_pill'      => 'Fees',
+	'fee_col_svc'   => 'Service',
+	'fee_col_price' => 'Price (USD)',
+
+	// Notes (block 8).
+	'notes_title'   => 'NOTES',
+	'notes_all'     => 'All notes',
+
+	// Notice (block 9).
+	'notice_label'  => '( CONTACT )',
+	'notice_desk'   => 'DESK',
+	'notice_l1'     => 'Call or write to the desk about a shipment.',
+	'notice_hours'  => '(Mon–Fri 08:00–18:00)',
+	'notice_open'   => 'Open a file',
+	'notice_drop'   => 'DROP-OFF COUNTER',
+	'notice_r1'     => 'Originals and samples are taken in at Door 4.',
+	'notice_time'   => '08:30–17:00',
+	'notice_days'   => 'Mon–Fri (closed public holidays)',
+	'notice_note'   => 'Originals by courier or at Door 4.',
+
+	// Templates.
+	'search_title'  => 'Search',
+	'nf_title'      => 'Page not found',
+	'nf_text'       => 'The page you were looking for is not here. Start again from the home page.',
+	'nf_home'       => 'Home',
+);
