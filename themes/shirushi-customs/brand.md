@@ -43,5 +43,8 @@ Lindgren Joinery (beech veneer panels, classification opinion before the first o
 ## Notes (6 sample posts)
 What goes on a packing list we can check in ten minutes - Classification before you order - Samples for a trade fair: temporary admission in plain words - When goods are selected for examination - Inward processing for small workshops - Reading a duty notice.
 
-## Pages (stage 2 adds the inner pages)
+## Pages
 Home - Services / Declarations - Process - What you prepare - Fees - Case files - The desk - About - Contact / Open a file - FAQ - Notes (index, archive, single) - 404 and search.
+
+Inner pages (en, stage 2): /services/ (head W3, strip of four declaration dossiers, extra rows, cut-off panel), /process/ (head W1, sticky ink timeline, five stage dossiers with #stage-N anchors, quay band), /prepare/ (head P1, six document rows, Door 4 panel), /fees/ (head S4, the seven-row fee table, notes beside A1, desk panel), /cases/ (head S5, four case dossiers), /team/ (head H2, roster of the seven people beside S3, Door 4 band), /about/ (head A2, history in three parts, quay band), /contact/ (head A1, notice panel, first e-mail rows, directions band with map), /faq/ (head S2, ten questions), /newsletter/. Copy: copy-inner.json drafts, same facts and prices as the home page.
+Sample article: "Classification before you order" carries the long text (about 600 words); the other five notes keep their short sample text.

@@ -44,3 +44,6 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/s5.webp (home handover 05: a loaded pallet moved onto a small truck)
 - assets/images/q1.webp (home quay: ground, blurred, and the sharp window: a morning quay with containers and a gantry crane)
 - assets/images/p1.webp and assets/images/demo/p1.webp (home prepare and note 6: a flat lay of blank forms, a tape gun and a sample jar)
+- assets/images/w3.webp (services page head: a desk lamp over document trays at dusk, two brokers checking papers)
+- assets/images/a1.webp (contact page head, fees notes and the Door 4 band on the desk page: the drop-off counter and a trolley of cartons)
+- assets/images/a2.webp (about page head: a long aisle of racks with cartons)
