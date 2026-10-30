@@ -139,8 +139,9 @@ function sc_image_position( $html ) {
 add_filter( 'render_block_core/image', 'sc_image_position' );
 
 /**
- * Fee table cell hooks (number column, price column) are added at render time: core/table does not save a class on a
- * cell, so classes written into the saved markup make the block invalid in the editor.
+ * Fee table cell hooks (number column, price column) are added at render time.
+ * core/table only saves alignment as class="has-text-align-right" data-align="right";
+ * any other class on a cell makes the block invalid.
  *
  * @param string $html Rendered core/table block.
  * @return string
@@ -156,7 +157,7 @@ function sc_fees_cells( $html ) {
 				'#<tr>(.*?)</tr>#s',
 				static function ( $tr ) {
 					$row = preg_replace( '#^<td>#', '<td class="sc-fees__no">', $tr[1], 1 );
-					$row = preg_replace( '#<td class="has-text-align-right">(?!.*<td)#s', '<td class="has-text-align-right sc-fees__price">', $row, 1 );
+					$row = preg_replace( '#<td class="has-text-align-right" data-align="right">(?!.*<td)#s', '<td class="has-text-align-right sc-fees__price" data-align="right">', $row, 1 );
 					return '<tr>' . $row . '</tr>';
 				},
 				$tb[0]
