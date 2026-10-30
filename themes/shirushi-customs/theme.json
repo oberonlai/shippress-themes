@@ -1,0 +1,113 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": false,
+    "layout": { "contentSize": "680px", "wideSize": "1400px" },
+    "color": {
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "defaultDuotone": false,
+      "custom": true,
+      "palette": [
+        { "slug": "paper", "name": "Paper (ground)", "color": "#F1F3F2" },
+        { "slug": "band", "name": "Band", "color": "#E6EAE9" },
+        { "slug": "card", "name": "Card panel", "color": "#F6F7F7" },
+        { "slug": "tint", "name": "Notice panel", "color": "#E3E9E9" },
+        { "slug": "stage", "name": "Dark stage", "color": "#101A1C" },
+        { "slug": "ink", "name": "Ink (text)", "color": "#1D2426" },
+        { "slug": "main", "name": "Steel (small accents)", "color": "#4C6568" },
+        { "slug": "amber", "name": "Seal amber (fee table only)", "color": "#B07A3A" },
+        { "slug": "white", "name": "White", "color": "#FFFFFF" }
+      ],
+      "gradients": []
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "customFontSize": true,
+      "fluid": false,
+      "fontFamilies": [
+        {
+          "slug": "display",
+          "name": "Display (Onest)",
+          "fontFamily": "\"Onest\", \"Noto Sans TC\", \"Noto Sans JP\", system-ui, sans-serif",
+          "fontFace": [
+            { "fontFamily": "Onest", "fontStyle": "normal", "fontWeight": "100 900", "fontDisplay": "swap", "src": ["file:./assets/fonts/onest-variable-latin.woff2"] }
+          ]
+        },
+        {
+          "slug": "body",
+          "name": "Body (Source Sans 3)",
+          "fontFamily": "\"Source Sans 3\", \"Noto Sans TC\", \"Noto Sans JP\", system-ui, sans-serif",
+          "fontFace": [
+            { "fontFamily": "Source Sans 3", "fontStyle": "normal", "fontWeight": "200 900", "fontDisplay": "swap", "src": ["file:./assets/fonts/source-sans-3-variable-latin.woff2"] }
+          ]
+        },
+        {
+          "slug": "sans-zh",
+          "name": "Chinese subset (Noto Sans TC)",
+          "fontFamily": "\"Noto Sans TC\", \"Noto Sans CJK TC\", sans-serif",
+          "fontFace": [
+            { "fontFamily": "Noto Sans TC", "fontStyle": "normal", "fontWeight": "400", "fontDisplay": "swap", "src": ["file:./assets/fonts/noto-sans-tc-zh-tw-400.woff2"] },
+            { "fontFamily": "Noto Sans TC", "fontStyle": "normal", "fontWeight": "700", "fontDisplay": "swap", "src": ["file:./assets/fonts/noto-sans-tc-zh-tw-700.woff2"] }
+          ]
+        },
+        {
+          "slug": "sans-ja",
+          "name": "Japanese subset (Noto Sans JP)",
+          "fontFamily": "\"Noto Sans JP\", \"Noto Sans CJK JP\", sans-serif",
+          "fontFace": [
+            { "fontFamily": "Noto Sans JP", "fontStyle": "normal", "fontWeight": "400", "fontDisplay": "swap", "src": ["file:./assets/fonts/noto-sans-jp-ja-400.woff2"] },
+            { "fontFamily": "Noto Sans JP", "fontStyle": "normal", "fontWeight": "700", "fontDisplay": "swap", "src": ["file:./assets/fonts/noto-sans-jp-ja-700.woff2"] }
+          ]
+        }
+      ],
+      "fontSizes": [
+        { "slug": "label", "name": "Label", "size": "0.75rem" },
+        { "slug": "small", "name": "Small", "size": "0.8125rem" },
+        { "slug": "base", "name": "Body", "size": "0.9375rem" },
+        { "slug": "medium", "name": "Card title", "size": "1.25rem" },
+        { "slug": "large", "name": "Section title", "size": "1.5rem" },
+        { "slug": "x-large", "name": "Numerals", "size": "2.5rem" },
+        { "slug": "xx-large", "name": "Statement", "size": "4.25rem" }
+      ]
+    },
+    "spacing": {
+      "units": ["px", "em", "rem", "%", "vw", "vh"],
+      "spacingSizes": [
+        { "slug": "20", "name": "S", "size": "1rem" },
+        { "slug": "30", "name": "M", "size": "2.5rem" },
+        { "slug": "40", "name": "L", "size": "6rem" },
+        { "slug": "50", "name": "XL", "size": "10rem" }
+      ]
+    },
+    "border": { "radius": true }
+  },
+  "styles": {
+    "color": { "background": "var(--wp--preset--color--paper)", "text": "var(--wp--preset--color--ink)" },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--body)",
+      "fontSize": "var(--wp--preset--font-size--base)",
+      "lineHeight": "1.8"
+    },
+    "spacing": { "blockGap": "0" },
+    "elements": {
+      "heading": {
+        "typography": { "fontFamily": "var(--wp--preset--font-family--display)", "fontWeight": "500", "lineHeight": "1.3" }
+      },
+      "link": {
+        "color": { "text": "var(--wp--preset--color--ink)" },
+        ":hover": { "color": { "text": "var(--wp--preset--color--main)" } }
+      }
+    }
+  },
+  "templateParts": [
+    { "name": "header", "title": "Header", "area": "header" },
+    { "name": "footer", "title": "Footer", "area": "footer" }
+  ],
+  "customTemplates": [
+    { "name": "page-wide", "title": "Wide page", "postTypes": ["page"] },
+    { "name": "page-inner", "title": "Inner page (dark head)", "postTypes": ["page"] }
+  ]
+}
