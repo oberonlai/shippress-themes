@@ -48,4 +48,4 @@ Across seventeen years of operation, our daily focus has remained consistent and
 3. Quiet label system: centred letter-spaced Latin caps label over alternating white / #F6F6F6 bands, and dated hairline rows with a right chevron (also used for prices, staff and hours).
 
 ## Pages
-Home (stage 1): seam strip, info row and floor notes, statement, FLOORS, TRIAL band, CARE, STAFF, VISIT. Inner pages follow in stage 2: Floor guide, Trial booth, Care and repair, Rentals, Staff, Shop, Floor notes, About, Visit.
+Home: seam strip, info row and floor notes, statement, FLOORS, TRIAL band, CARE, STAFF, VISIT. Inner pages (built, en): Floor guide, Trial booth, Care and repair (parallax aftercare band), Rentals, Staff, Shop, Floor notes (index + one article), About, Visit. Each opens with a mini seam strip or a quiet label, and reuses the dated-row grammar for prices, hours, history and staff.
