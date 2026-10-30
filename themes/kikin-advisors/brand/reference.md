@@ -1,0 +1,10 @@
+# Reference (our-counterpart column = finished-theme counterpart, filled in stage-1 spec; binding detail in design-spec.md)
+Reference: https://ohara-sr.com/ (S5-Style, finance-insurance category; a social-insurance & labour consultancy for start-ups). Not in the used-refs list.
+Rejected: pfa.or.jp (the row's planned reference) — dense, saturated portal, not a design reference.
+IMAGERY: illustration (black brush-pen outline + flat 3–4 colour fills). See reference-tokens.md.
+Shots: ref/ohara-first.png, ohara-service.png, ohara-flow.png, scroll-hero-before.png, scroll-news-after.png.
+| Technique | Reference | Ours (finished-theme counterpart) |
+|---|---|---|
+| T1 Wipe-open label-bar headline over a line-art city scene | First screen: two #2D3C9F bars, white 30px/700 ls .1em, 60px tall at x240 y325/y405, wipe 0→350/385px 1.0s over a 1400×640 hand-drawn street with tandem-bike pair; grey #F1F1F1 lower half | Home hero: two #45485A bars (H1 "See the plan drawn out / before you choose a scheme.") same size/position/wipe over our own line-art street K01; adviser at whiteboard + finance lead K02 slides in from right; #F3F4F6 lower half; sp-parallax 6%. Inner pages: one bar over skyline strip K14 |
+| T2 Outline circle badge + vertical headline straddling a rounded butter band | SERVICE & PRICE: Ø176 1px outline badge (EN caps + JP sub) on the top-right corner of a #FEFCE4 r40 band bleeding right; vertical JP headline; figure left, text centre, navy pill | Home #who (band R, #F4EBC4, K06) and #takeaway (mirrored band L, K10); badge-only on #hour ("60" + 3 rows) and #fees; inner: Who it's for, Basics, Member sessions, Advisers, About, Briefing, Fees, Request |
+| T3 Notched hairline panel with the button breaking its bottom border | NEWS & COLUMN: 980px 1px panel, 45° notches TL/BR, icon on top border, 3 cards with Ø210 round thumbs and 1px verticals, navy pill on the bottom border | Home OPEN SLOTS panel (K03–K05, CTA pill "Request a briefing" on border) and STORIES panel (K11–K13); inner: Briefing, Fees notes, Stories, Request, About office panel, Newsletter signup. Closing grid-paper (60px) CTA with #E9D77A pill + page-top disc on every page |
