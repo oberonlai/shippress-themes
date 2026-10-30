@@ -91,11 +91,11 @@
 <!-- /wp:woocommerce/product-template -->
 
 <!-- wp:query-pagination {"className":"uk-pagination","layout":{"type":"flex","justifyContent":"space-between"}} -->
-<!-- wp:query-pagination-previous {"label":"<?php echo esc_attr( ueki_gardens_t( 'add1f775e' ) ); ?>"} /-->
+<!-- wp:query-pagination-previous {"label":"<?php echo esc_attr( ueki_gardens_t( 'pager_prev' ) ); ?>"} /-->
 
 <!-- wp:query-pagination-numbers /-->
 
-<!-- wp:query-pagination-next {"label":"<?php echo esc_attr( ueki_gardens_t( 'a10ac3d04' ) ); ?>"} /-->
+<!-- wp:query-pagination-next {"label":"<?php echo esc_attr( ueki_gardens_t( 'pager_next' ) ); ?>"} /-->
 <!-- /wp:query-pagination -->
 
 <!-- wp:woocommerce/product-collection-no-results -->
@@ -104,7 +104,7 @@
 <p class="is-style-lead"><?php echo wp_kses_post( ueki_gardens_t( 'kc54b609c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:search {"label":"<?php echo esc_attr( ueki_gardens_t( 'a900e2cba' ) ); ?>","showLabel":false,"placeholder":"Lavender, fern, herbs…","buttonText":"<?php echo esc_attr( ueki_gardens_t( 'a13348442' ) ); ?>","query":{"post_type":"product"},"className":"uk-search-form"} /--></div>
+<!-- wp:search {"label":"<?php echo esc_attr( ueki_gardens_t( 'search_label' ) ); ?>","showLabel":false,"placeholder":"Lavender, fern, herbs…","buttonText":"<?php echo esc_attr( ueki_gardens_t( 'search_btn' ) ); ?>","query":{"post_type":"product"},"className":"uk-search-form"} /--></div>
 <!-- /wp:group -->
 <!-- /wp:woocommerce/product-collection-no-results --></div>
 <!-- /wp:woocommerce/product-collection --></section>

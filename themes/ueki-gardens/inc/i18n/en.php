@@ -148,5 +148,10 @@ return array(
 	'kf8c2e84a' => 'Plant problems in the first 30 days: bring it to the Saturday clinic',
 	'kfce2d22f' => 'Bright light',
 	'kfe877c90' => 'We are located at 14 Alder Lane in Fernhill, with forty parking spaces on gravel, wide customer trolley paths, and bus Route 7 stopping right at Alder Lane. Open Monday through Saturday 8:30 to 18:00, and Sunday 10:00 to 17:00. Stop by to collect reserved plants or wander our glasshouse bays.',
+	'nav_cart' => 'Cart',
+	'pager_prev' => 'Previous',
+	'pager_next' => 'Next',
+	'search_label' => 'Search plants',
+	'search_btn' => 'Search',
 	'search_results' => 'Search results for: %s',
 );

@@ -148,5 +148,10 @@ return array(
 	'kf8c2e84a' => 'Un souci de plante dans les 30 premiers jours : apportez-la à la clinique du samedi',
 	'kfce2d22f' => 'Lumière vive',
 	'kfe877c90' => 'Nous sommes au 14 Alder Lane, à Fernhill, avec quarante places de stationnement sur gravier, de larges allées pour les chariots et la ligne de bus 7 qui s\'arrête juste devant Alder Lane. Ouvert du lundi au samedi de 8:30 à 18:00, et le dimanche de 10:00 à 17:00. Passez retirer vos plantes réservées ou flâner dans nos travées de serre.',
+	'nav_cart' => 'Panier',
+	'pager_prev' => 'Précédent',
+	'pager_next' => 'Suivant',
+	'search_label' => 'Chercher une plante',
+	'search_btn' => 'Rechercher',
 	'search_results' => 'Résultats de recherche pour : %s',
 );

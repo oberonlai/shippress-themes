@@ -148,5 +148,10 @@ return array(
 	'kf8c2e84a' => 'Pflanzenprobleme in den ersten 30 Tagen: bringen Sie die Pflanze zur Samstagssprechstunde',
 	'kfce2d22f' => 'Helles Licht',
 	'kfe877c90' => 'Sie finden uns in der Alder Lane 14 in Fernhill, mit vierzig Parkplätzen auf Kies, breiten Wegen für Kundenwagen und der Buslinie 7, die direkt an der Alder Lane hält. Geöffnet Montag bis Samstag von 8:30 bis 18:00 und sonntags von 10:00 bis 17:00. Kommen Sie vorbei, um reservierte Pflanzen abzuholen oder durch unsere Gewächshausfelder zu schlendern.',
+	'nav_cart' => 'Warenkorb',
+	'pager_prev' => 'Zurück',
+	'pager_next' => 'Weiter',
+	'search_label' => 'Pflanzen suchen',
+	'search_btn' => 'Suchen',
 	'search_results' => 'Suchergebnisse für: %s',
 );
