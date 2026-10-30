@@ -62,7 +62,7 @@ img { max-width: 100%; }
 }
 @media (max-width: 781px) {
 	.km-header__bar { padding: 16px 24px; }
-	.km-pills--head { display: none; }
+	.km-header .km-pills--head { display: none; }
 }
 
 /* ===== Shared type and rules ===== */
@@ -101,7 +101,7 @@ img { max-width: 100%; }
 .km-window__img { position: absolute; inset: 0; margin: 0; }
 .km-window__img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; animation: km-settle 1.5s var(--km-ease) both; }
 .km-window::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to bottom, rgba(30, 26, 22, .30) 0, rgba(30, 26, 22, 0) 46%, rgba(30, 26, 22, 0) 78%, rgba(30, 26, 22, .22) 100%); }
-.km-mark { position: absolute; z-index: 2; top: 22%; left: 0; right: 0; text-align: center; color: #fff; animation: km-fade 1.2s ease .3s both; }
+.km-mark { text-shadow: 0 1px 18px rgba(30, 26, 22, .4); position: absolute; z-index: 2; top: 22%; left: 0; right: 0; text-align: center; color: #fff; animation: km-fade 1.2s ease .3s both; }
 .km-mark__name { margin: 0; font-size: var(--wp--preset--font-size--xx-large); font-weight: 300; line-height: 1.15; letter-spacing: .01em; color: #fff; }
 .km-mark__sub { margin: 14px 0 0; font-size: 1.0625rem; font-weight: 700; letter-spacing: .12em; line-height: 1.4; }
 .km-scroll { position: absolute; z-index: 2; bottom: 28px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 8px; color: #fff; font-size: .8125rem; letter-spacing: .1em; }
@@ -134,7 +134,7 @@ html.sp-no-motion .km-window__img img, html.sp-no-motion .km-mark, html.sp-no-mo
 .km-opener { min-height: max(100svh, 720px); align-items: center; --sp-par: 10%; }
 .km-opener__img { inset: -24px; }
 .km-opener__img img { filter: blur(6px); }
-.km-opener::after { content: ""; position: absolute; inset: 0; background: rgba(244, 236, 224, .18); pointer-events: none; }
+.km-opener::after { content: ""; position: absolute; inset: 0; background: rgba(244, 236, 224, .42); pointer-events: none; }
 .km-opener__in { position: relative; z-index: 1; box-sizing: border-box; width: 100%; padding: 96px 8vw 96px 20.1vw; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 9.5vw; align-items: center; }
 .km-opener .km-lead { margin: 0; }
 .km-stage { min-height: max(100svh, 720px); align-items: flex-end; --sp-par: 10%; }
@@ -239,8 +239,8 @@ ul.wp-block-list.km-sched, ul.wp-block-list.km-hours, ul.wp-block-list.km-ruled 
 .km-close__base { display: flex; align-items: flex-end; flex-wrap: wrap; gap: 20px 32px; }
 .km-close__legal { margin: 0 auto 0 0; font-size: .75rem; letter-spacing: .04em; }
 .km-langs { display: flex; gap: 16px; margin: 0; font-size: .8125rem; letter-spacing: .06em; }
-.km-langs span { opacity: .75; }
-.km-langs span[aria-current] { opacity: 1; border-bottom: 1px solid #fff; }
+.km-langs span { color: rgba(255, 255, 255, .78); }
+.km-langs span[aria-current] { color: #fff; border-bottom: 1px solid #fff; }
 .km-ring--close { color: #fff; }
 @media (max-width: 781px) {
 	.km-close { min-height: 560px; --sp-par: 5%; }
