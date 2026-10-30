@@ -23,3 +23,31 @@ Home, In season, Plants, Choosing a plant, Services & prices, Aftercare, About t
 ## Status
 
 English sample content only so far. zh-TW, ja, fr and de sample content and the translated pattern strings follow.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Ueki Gardens home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Ueki Gardens home page on mobile"></td>
+</tr>
+</table>
+
+- In season: [desktop](screenshots/in-season-desktop.webp) · [mobile](screenshots/in-season-mobile.webp)
+- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
+- Choosing a plant: [desktop](screenshots/choosing-a-plant-desktop.webp) · [mobile](screenshots/choosing-a-plant-mobile.webp)
+- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
+- Aftercare: [desktop](screenshots/aftercare-desktop.webp) · [mobile](screenshots/aftercare-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
+- Cart: [desktop](screenshots/cart-desktop.webp) · [mobile](screenshots/cart-mobile.webp)
+- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
