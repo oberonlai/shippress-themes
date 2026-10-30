@@ -1,0 +1,11 @@
+# Reference ("Ours" column = our counterpart, filled from design-spec.md)
+Main: https://www.sanno.ac.jp/ (Japanese management school; calm open-programme account). Imagery: photo.
+Screens: ref/sanno-first.png, ref/sanno-900.png, ref/sanno-1800.png, ref/sanno-2700.png, ref/sanno-3600.png; scroll: ref/scroll-sanno-header-before.png → ref/scroll-sanno-header-after.png, ref/scroll-sanno-hero-t0.png → ref/scroll-sanno-hero-t1.png. Tokens: reference-tokens.md.
+
+| # | Technique | Source | Ours |
+|---|---|---|---|
+| T1 | Inset photo stage (35 px margin) with a white notch card cut into the bottom-left corner holding a "recommend" slider line + black square arrows; wide-tracked serif statement fading in letter by letter | first screen | Home `ms-stage`: P01 (facilitator at a blank flipchart + four managers) inset 35 px, 1370×690; white 450×98 notch card bottom-left with "Next open seminar", 3-date snap strip and two 30×30 `#2A2628` arrows; ink statement fading in word by word at x130. Inner: 1370×420 short stage + notch card on 12 pages (spec §1 T1, §2) |
+| T2 | Giant serif section word straddling the edge between white and a pale gradient band; white cards with two-tone corner ticks (accent top-right, red bottom-left) and a bracket-cornered title box | "SANNO no manabi" | Home `#who`: "Who the day is for" Libre Baskerville 5rem cut at mid-height by the 124° `#EFEAEE→#D8CDD6` band; three 410/30 tick cards (plum TR, brick BL, bracket title box, 40×46 arrow) with P05–P07. Inner: every H1 is a giant word on the band; tick cards on Seminars, Fees & dates, Enrol, Stories (spec §1 T2) |
+| T3 | Two-tone short rule + serif Latin label; outline serif button with long arrow; vertical Latin heading beside a list | PICK UP / NEWS | Every label from home block 4 on has a 100×2 plum/brick rule; all buttons are 1 px outline serif with a long arrow; home `#dates` has vertical "DATES" beside a bordered 6-row dated panel. Inner: "HOURS" / "PEOPLE" / "STORIES" / "TERMS" vertical panels (spec §1 T3) |
+Colour: white / #F8F8F8 grounds, ink #212121, accent blue #005BCB (tiny), red tick #C9403B, tint gradient. 
+Ours: white / `#F8F6F7`, ink `#2A2628`, accent plum-grey `#655A62` (role of the blue, swap reasoned in design-spec §3), brick tick `#B5524F`, tint `#EFEAEE→#D8CDD6` at 124°. Type Libre Baskerville / Karla + Noto Serif TC / JP.
