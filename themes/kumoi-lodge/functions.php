@@ -77,3 +77,21 @@ function kumoi_lodge_pill( $label, $path ) {
 		. '<!-- /wp:button --></div>' . "\n"
 		. '<!-- /wp:buttons -->';
 }
+
+/**
+ * Inner-page head: a blurred full-width photograph (slow parallax) with the page label at the left and an intro at the right.
+ *
+ * @param string $h1_block Block markup of the page heading (a level 1 heading or query title).
+ * @param string $intro    Intro text (plain).
+ * @param string $img      Image name (assets/images/<name>.webp).
+ * @param string $alt      Alt text.
+ * @return string Block markup (escaped).
+ */
+function kumoi_lodge_head( $h1_block, $intro, $img, $alt ) {
+	return '<!-- wp:group {"className":"km-head sp-parallax","tagName":"section","layout":{"type":"default"},"align":"full"} -->' . "\n"
+		. '<section class="wp-block-group alignfull km-head sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"km-head__img"} -->' . "\n"
+		. '<figure class="wp-block-image size-full km-head__img"><img src="' . kumoi_lodge_img( $img ) . '" alt="' . esc_attr( $alt ) . '"/></figure>' . "\n<!-- /wp:image -->\n"
+		. '<!-- wp:group {"className":"km-head__in","layout":{"type":"default"}} -->' . "\n"
+		. '<div class="wp-block-group km-head__in">' . $h1_block . "\n"
+		. '<!-- wp:paragraph {"className":"km-lead"} -->' . "\n" . '<p class="km-lead">' . esc_html( $intro ) . "</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:group --></section>\n<!-- /wp:group -->";
+}
