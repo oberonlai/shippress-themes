@@ -8,8 +8,8 @@
  * Description: Square-dot label and title left, four ruled rows with chips and square arrow buttons right.
  */
 ?>
-<!-- wp:group {"className":"as-sec as-results","align":"full","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull as-sec as-results">
+<!-- wp:group {"className":"as-sec as-results as-mist","align":"full","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull as-sec as-results as-mist">
 
 <!-- wp:group {"className":"as-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group as-wrap">

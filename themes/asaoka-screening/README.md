@@ -8,4 +8,4 @@ See brand.md and brand/design-spec.md for the copy and the measured reference va
 
 ## Pages
 
-Home plus short placeholder pages for the six menu items (inner pages follow in the next release).
+Home plus short pages for the six menu items (The Morning, Packages, Results, For Companies, Team, Access), all linked from the header menu. Full inner pages and the zh-TW, ja, fr and de translations follow in the next release.
