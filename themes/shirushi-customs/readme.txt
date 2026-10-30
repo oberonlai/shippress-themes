@@ -25,7 +25,7 @@ The desk, its clients, address, telephone number and prices are fictional.
 == Copyright ==
 
 Shirushi Customs is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Onest (OFL-1.1) and Source Sans 3 (OFL-1.1), both variable WOFF2, Latin subset, see assets/fonts/.
+Fonts: Onest (OFL-1.1) and Source Sans 3 (OFL-1.1), both variable WOFF2, Latin subset; Noto Sans TC and Noto Sans JP (OFL-1.1), WOFF2 CJK subsets for zh-TW and ja. See assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later); no third-party animation library.
 
 = Images =
