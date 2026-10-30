@@ -30,7 +30,7 @@ foreach ( $kl_rooms as $n => $r ) :
 <figure class="wp-block-image size-full"><img src="<?php echo kumoi_lodge_img( $r[0] ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( $r[1] ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:html -->
-<span class="km-arrow km-arrow--l" aria-hidden="true">←</span><a class="km-arrow km-arrow--r" href="<?php echo esc_url( home_url( $r[2] ) ); ?>" aria-label="<?php echo esc_attr( kumoi_lodge_t( 'room_arrow' ) . ': ' . kumoi_lodge_t( 'room' . $n . '_name' ) ); ?>">→</a>
+<a class="km-arrow km-arrow--r" href="<?php echo esc_url( home_url( $r[2] ) ); ?>" aria-label="<?php echo esc_attr( kumoi_lodge_t( 'room_arrow' ) . ': ' . kumoi_lodge_t( 'room' . $n . '_name' ) ); ?>">→</a>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"km-split","layout":{"type":"default"}} -->

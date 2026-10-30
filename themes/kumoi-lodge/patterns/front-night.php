@@ -32,14 +32,14 @@
 <!-- /wp:list --></div>
 <!-- /wp:group -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"km-box__photo"} -->
-<figure class="wp-block-image size-full km-box__photo"><img src="<?php echo kumoi_lodge_img( 'kl-n1' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( 'alt_n1' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full km-box__photo"><img src="<?php echo kumoi_lodge_img( 'kl-n1' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( 'alt_n1' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"km-duo","layout":{"type":"default"}} -->
 <div class="wp-block-group km-duo"><?php foreach ( array( 1 => array( 'kl-f1', 'alt_f1' ), 2 => array( 'kl-k1', 'alt_k1' ) ) as $n => $q ) : ?><!-- wp:group {"className":"km-sq","layout":{"type":"default"}} -->
 <div class="wp-block-group km-sq"><!-- wp:group {"className":"km-photo km-photo--sq sp-reveal sp-reveal--zoom","layout":{"type":"default"}} -->
 <div class="wp-block-group km-photo km-photo--sq sp-reveal sp-reveal--zoom"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kumoi_lodge_img( $q[0] ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( $q[1] ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kumoi_lodge_img( $q[0] ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( $q[1] ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 <!-- wp:heading {"level":3,"className":"km-card-title"} -->

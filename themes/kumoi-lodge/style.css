@@ -85,7 +85,7 @@ img { max-width: 100%; }
 .km-rooms { background: var(--km-lichen); }
 .km-photo { position: relative; overflow: hidden; border-radius: 30px; }
 .km-photo figure, .km-box__photo { margin: 0; height: 100%; }
-.km-photo img, .km-box__photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.km-photo img, .km-box__photo img { display: block; width: 100%; height: 100%; object-fit: cover; transform: scale(1.04); }
 .km-photo--wide { aspect-ratio: 1.85 / 1; }
 .km-photo--sq { aspect-ratio: 1 / 1; margin-bottom: 28px; }
 .km-photo--access { aspect-ratio: 1.17 / 1; }
@@ -100,10 +100,10 @@ img { max-width: 100%; }
 .km-window { position: relative; height: calc(100svh - 154px); min-height: 560px; border-radius: 30px; overflow: clip; }
 .km-window__img { position: absolute; inset: 0; margin: 0; }
 .km-window__img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; animation: km-settle 1.5s var(--km-ease) both; }
-.km-window::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to bottom, rgba(30, 26, 22, .30) 0, rgba(30, 26, 22, 0) 46%, rgba(30, 26, 22, 0) 78%, rgba(30, 26, 22, .22) 100%); }
+.km-window::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(to bottom, rgba(30, 26, 22, .38) 0, rgba(30, 26, 22, 0) 46%, rgba(30, 26, 22, 0) 78%, rgba(30, 26, 22, .22) 100%); }
 .km-mark { text-shadow: 0 1px 18px rgba(30, 26, 22, .4); position: absolute; z-index: 2; top: 22%; left: 0; right: 0; text-align: center; color: #fff; animation: km-fade 1.2s ease .3s both; }
 .km-mark__name { margin: 0; font-size: var(--wp--preset--font-size--xx-large); font-weight: 300; line-height: 1.15; letter-spacing: .01em; color: #fff; }
-.km-mark__sub { margin: 14px 0 0; font-size: 1.0625rem; font-weight: 700; letter-spacing: .12em; line-height: 1.4; }
+.km-mark__sub { text-shadow: 0 1px 12px rgba(30, 26, 22, .5), 0 0 3px rgba(30, 26, 22, .35); margin: 14px 0 0; font-size: 1.0625rem; font-weight: 700; letter-spacing: .12em; line-height: 1.4; }
 .km-scroll { position: absolute; z-index: 2; bottom: 28px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 8px; color: #fff; font-size: .8125rem; letter-spacing: .1em; }
 .km-scroll i { display: block; width: 1px; height: 48px; background: #fff; transform-origin: top; animation: km-line 2.4s ease infinite; }
 .km-info { box-sizing: border-box; height: 120px; display: grid; grid-template-columns: 1fr 1px 1fr 1px auto; column-gap: 40px; align-items: center; padding: 0 16px; }
@@ -138,7 +138,8 @@ html.sp-no-motion .km-window__img img, html.sp-no-motion .km-mark, html.sp-no-mo
 .km-opener__in { position: relative; z-index: 1; box-sizing: border-box; width: 100%; padding: 96px 8vw 96px 20.1vw; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 9.5vw; align-items: center; }
 .km-opener .km-lead { margin: 0; }
 .km-stage { min-height: max(100svh, 720px); align-items: flex-end; --sp-par: 10%; }
-.km-stage::after, .km-close::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(30, 26, 22, .55), rgba(30, 26, 22, 0) 55%); pointer-events: none; }
+.km-stage::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(30, 26, 22, .55), rgba(30, 26, 22, 0) 55%), linear-gradient(to right, rgba(30, 26, 22, .45), rgba(30, 26, 22, 0) 60%); pointer-events: none; }
+.km-close::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(30, 26, 22, .65), rgba(30, 26, 22, 0) 60%); pointer-events: none; }
 .km-stage__text { position: relative; z-index: 1; box-sizing: border-box; max-width: 760px; padding: 50px; }
 .km-stage .km-lead { margin: 24px 0 0; max-width: 560px; }
 @media (max-width: 781px) {
@@ -203,10 +204,10 @@ ul.wp-block-list.km-sched, ul.wp-block-list.km-hours, ul.wp-block-list.km-ruled 
 
 /* ===== 7 Rate table ===== */
 .wp-block-table.km-rate-table { margin: 0; }
-.km-rate-table table { width: 100%; table-layout: auto; border-collapse: collapse; border: 0; }
+.km-rate-table table, .km-rate-table table.has-fixed-layout { width: 100%; table-layout: auto; border-collapse: collapse; border: 0; }
 .km-rate-table td { padding: 18px 0; border: 0; border-bottom: 1px solid var(--km-ink); font-size: var(--wp--preset--font-size--lead); letter-spacing: .03em; vertical-align: baseline; }
 .km-rate-table tr:first-child td { border-top: 1px solid var(--km-ink); }
-.km-rate-table td.km-price { width: 1%; padding-left: 32px; white-space: nowrap; text-align: right; font-family: var(--km-head); font-size: 1.25rem; font-variant-numeric: tabular-nums lining-nums; letter-spacing: 0; }
+.km-rate-table td:last-child { width: 1%; padding-left: 32px; white-space: nowrap; text-align: right; font-family: var(--km-head); font-size: 1.25rem; font-variant-numeric: tabular-nums lining-nums; letter-spacing: 0; }
 .km-rates__body { max-width: 680px; margin: 44px 0 0; }
 .km-rates .km-pills { margin-top: 32px; }
 @media (max-width: 781px) {
@@ -214,7 +215,7 @@ ul.wp-block-list.km-sched, ul.wp-block-list.km-hours, ul.wp-block-list.km-ruled 
 	.km-rate-table tr { padding: 14px 0; border-bottom: 1px solid var(--km-ink); }
 	.km-rate-table tr:first-child { border-top: 1px solid var(--km-ink); }
 	.km-rate-table td, .km-rate-table tr:first-child td { padding: 0; border: 0; }
-	.km-rate-table td.km-price { width: auto; padding: 4px 0 0; text-align: right; }
+	.km-rate-table td:last-child { width: auto; padding: 4px 0 0; text-align: right; }
 }
 
 /* ===== 8 Access ===== */
@@ -233,6 +234,7 @@ ul.wp-block-list.km-sched, ul.wp-block-list.km-hours, ul.wp-block-list.km-ruled 
 .km-close__body { position: relative; z-index: 1; box-sizing: border-box; width: 100%; padding: 50px; }
 .km-close__name, .km-close__addr { margin: 0; font-size: .8125rem; letter-spacing: .04em; line-height: 1.7; }
 .km-close__addr { margin-bottom: 28px; }
+.km-index { margin-top: 24px; }
 .km-index { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-bottom: 36px; font-size: 1.375rem; font-weight: 400; letter-spacing: .1em; text-transform: uppercase; line-height: 1.5; }
 .km-index a { border-bottom: 1px solid transparent; transition: border-color .3s ease; }
 .km-index a:hover { border-bottom-color: var(--km-ember); }
@@ -247,6 +249,9 @@ ul.wp-block-list.km-sched, ul.wp-block-list.km-hours, ul.wp-block-list.km-ruled 
 	.km-close__body { padding: 40px 24px; }
 	.km-index { font-size: 1rem; gap: 6px 16px; }
 	.km-ring { width: 84px; height: 84px; }
+	.km-close__base { flex-direction: column; align-items: flex-start; gap: 14px; }
+	.km-close__legal { margin: 0; }
+	.km-ring--close { width: 72px; height: 72px; order: 3; }
 }
 
 /* ===== Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Fraunces / Nunito Sans) ===== */

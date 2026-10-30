@@ -81,7 +81,7 @@ return array(
 	'tb2_p'        => 'Porridge, eggs and Amara’s bread, set by the window with the cloud still below. A packed lunch for the trail is €12.',
 	'tb2_ml'       => 'On the board',
 	'tb2_li'       => array( 'Porridge with honey', 'Soft eggs', 'Warm bread and butter', 'Preserves', 'Coffee and tea' ),
-	'table_body'   => 'Every evening at 18:30, supper is served family-style at the long timber table around one hearty pot of stew, crusty sourdough bread, and mountain cheeses. In the morning from 07:00, warm porridge, poached eggs, preserves, and hot coffee wait by the window looking out over the quiet cloud sea. Packed lunches for the trail are prepared for €12, and vegetarian diets are always accommodated.',
+	'table_body'   => 'Most of what reaches the table comes up the track on Yusuf’s back or the keepers’ shoulders: barley and lentils from the Vell valley, cheese from the two dairies below the pass, apples stored in the cellar since autumn. When the weather closes in, the supper bell rings a little early so that nobody walks in late.',
 	'table_pill'   => 'Ask about diets',
 	'rates_label'  => 'Rates, half board',
 	'rates_head'   => array( 'Item', 'Per night' ),
@@ -106,7 +106,7 @@ return array(
 		array( 'Desk', '08:00–20:00' ),
 	),
 	'close_name'   => 'Kumoi Lodge',
-	'close_addr'   => 'Kumoi Lodge, Harrow Ridge Track 4, 8742 Vell · 1,640 m',
+	'close_addr'   => 'Harrow Ridge Track 4, 8742 Vell · 1,640 m',
 	'close_seasons' => 'Open 1 May – 30 Nov and 26 Dec – 15 Mar',
 	'idx'          => array(
 		array( 'Rooms', '/rooms/' ),

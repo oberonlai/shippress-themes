@@ -29,7 +29,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"km-photo km-photo--access sp-reveal sp-reveal--zoom","layout":{"type":"default"}} -->
 <div class="wp-block-group km-photo km-photo--access sp-reveal sp-reveal--zoom"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kumoi_lodge_img( 'kl-m1' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( 'alt_m1' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kumoi_lodge_img( 'kl-m1' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( 'alt_m1' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

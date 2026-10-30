@@ -10,7 +10,7 @@
 ?>
 <!-- wp:group {"className":"km-stage sp-parallax","tagName":"section","layout":{"type":"default"},"align":"full"} -->
 <section class="wp-block-group alignfull km-stage sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"km-stage__img"} -->
-<figure class="wp-block-image size-full km-stage__img"><img src="<?php echo kumoi_lodge_img( 'kl-p1' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( 'alt_p1' ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full km-stage__img"><img src="<?php echo kumoi_lodge_img( 'kl-p1' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( 'alt_p1' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"km-stage__text sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group km-stage__text sp-reveal sp-reveal--up"><!-- wp:heading {"level":2,"className":"km-statement km-statement--white"} -->

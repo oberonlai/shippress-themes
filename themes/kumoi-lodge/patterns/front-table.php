@@ -17,7 +17,7 @@
 <div class="wp-block-group km-duo sp-stagger"><?php foreach ( array( 1 => 'kl-t1', 2 => 'kl-t2' ) as $n => $img ) : ?><!-- wp:group {"className":"km-sq sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group km-sq sp-reveal sp-reveal--up"><!-- wp:group {"className":"km-photo km-photo--sq sp-reveal sp-reveal--zoom","layout":{"type":"default"}} -->
 <div class="wp-block-group km-photo km-photo--sq sp-reveal sp-reveal--zoom"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kumoi_lodge_img( $img ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( 'alt_t' . $n ) ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kumoi_lodge_img( $img ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( 'alt_t' . $n ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 <!-- wp:heading {"level":3,"className":"km-card-title"} -->

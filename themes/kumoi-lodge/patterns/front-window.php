@@ -11,7 +11,7 @@
 <!-- wp:group {"className":"km-hero","tagName":"section","layout":{"type":"default"},"align":"full"} -->
 <section class="wp-block-group alignfull km-hero"><!-- wp:group {"className":"km-window sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group km-window sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"km-window__img"} -->
-<figure class="wp-block-image size-full km-window__img"><img src="<?php echo kumoi_lodge_img( 'kl-h1' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( 'alt_h1' ) ); ?>" fetchpriority="high"/></figure>
+<figure class="wp-block-image size-full km-window__img"><img src="<?php echo kumoi_lodge_img( 'kl-h1' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>" alt="<?php echo esc_attr( kumoi_lodge_t( 'alt_h1' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"km-mark","layout":{"type":"default"}} -->
 <div class="wp-block-group km-mark"><!-- wp:heading {"level":1,"className":"km-mark__name"} -->
