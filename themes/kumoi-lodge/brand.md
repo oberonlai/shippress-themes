@@ -59,4 +59,14 @@ First screen: a framed window (r30, inset 34 px) with a centred serif wordmark a
 
 ## Pages
 1. **Home** - front-window, front-opener, front-rooms, front-stage, front-night, front-table, front-rates, front-access, footer close.
-2. Rooms, The Stay, The Table, Rates & Booking, Walks & Weather, Getting here, Keepers, Notes, Contact (stage 2).
+2. **Rooms** (/rooms/): blurred head; five room cards (Ridge, Larch, Bunk Loft, Cairn, Window) as photo + hairline split rows, ids #ridge #larch #bunk #cairn #window, the last two tagged "Reopens 26 Dec"; what every room has; room by room; which rooms are open this month.
+3. **The Stay**: the facility box (lead, stove/boots/lamp icons, six-line schedule, tub photo); a night in order (rhythm, arriving, morning); two squares (Bunk Loft, first snow at the cairn); house notes as hairline rows.
+4. **The Table**: wide kitchen photo; supper and breakfast as split rows with the pot and the board; two squares; packed lunch box with bread/flask/apple icons; diets and allergies.
+5. **Rates & Booking**: five compact room rows, the seven-line rate table (full width at 782 px and up, stacked below), terms as hairline rows, the four booking steps, a booking box with an email pill.
+6. **Walks & Weather**: three walk cards (Cairn Loop 2 h 30 min, 6.4 km; Ridge to the Saddle 4 h, 11 km; Old Track down to Vell 1 h 45 min, 5 km), reading the weather, what to pack, sudden storms.
+7. **Getting here**: access box (car, boots, phone icons; track photo), two text columns, hours as hairline rows, the iced track.
+8. **Keepers**: history, two squares, seven people as text-only split rows, a closing line.
+9. **Notes**: the posts page (blurred head, journal posts as split rows with 1.85:1 rounded photographs, a closing text band). One article, "The night the track closed" (24 Oct 2026), is included; archive, category, tag and search lists use the same rows.
+10. **Contact**: contact box (letter, phone, clock icons; email, phone, desk hours, postal line; kitchen photo), seasons, rates, urgent arrival news.
+11. **404**: blurred head, one line and a pill to the home page.
+Every inner page opens with the out-of-focus head (parallax), uses at least two of the signature techniques and ends with the night close.

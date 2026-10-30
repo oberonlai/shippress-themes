@@ -44,3 +44,8 @@ Photographs, generated for this theme, no text or logos, GPL-2.0-or-later:
 - assets/images/kl-t2.webp
 - assets/images/kl-m1.webp
 - assets/images/kl-d1.webp
+- assets/images/kl-r4.webp
+- assets/images/kl-r5.webp
+- assets/images/kl-k2.webp
+- assets/images/kl-w1.webp
+- assets/images/kl-w2.webp
