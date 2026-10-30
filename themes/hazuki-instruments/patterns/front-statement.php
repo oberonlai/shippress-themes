@@ -12,21 +12,21 @@
 <section class="wp-block-group alignfull hz-sec hz-statement"><!-- wp:group {"align":"wide","className":"hz-statement__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hz-statement__grid"><!-- wp:group {"className":"hz-statement__l","layout":{"type":"default"}} -->
 <div class="wp-block-group hz-statement__l"><!-- wp:heading {"level":2,"fontSize":"huge","className":"hz-statement__h"} -->
-<h2 class="wp-block-heading has-huge-font-size hz-statement__h">A fitting, not a sale.</h2>
+<h2 class="wp-block-heading has-huge-font-size hz-statement__h"><?php echo wp_kses_post( hazuki_instruments_t( 'kd0a7881e' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hz-statement__img"} -->
-<figure class="wp-block-image size-full hz-statement__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-guitar-neck.webp' ) ); ?>" alt="A staff member gently adjusts a player&#x27;s fingers on a wooden guitar neck."/></figure>
+<figure class="wp-block-image size-full hz-statement__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-guitar-neck.webp' ) ); ?>" alt="<?php echo esc_attr( hazuki_instruments_t( 'ab9bdbae5' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hz-statement__r sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hz-statement__r sp-reveal sp-reveal--up"><!-- wp:paragraph -->
-<p>An instrument should never be an impulse taken down from a crowded hook. In our Calder Lane shop, we treat every selection as a physical fitting, taking the time to match scale length, neck contour, key action, and weight to the person who will hold it every day.</p>
+<p><?php echo wp_kses_post( hazuki_instruments_t( 'kc6096c86' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Whether you are stepping into a rehearsal room for the first time or returning to a familiar repertoire after decades away, we offer an unhurried space to listen, compare, and feel completely certain before taking an instrument home.</p>
+<p><?php echo wp_kses_post( hazuki_instruments_t( 'k28cf39dc' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
