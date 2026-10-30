@@ -14,8 +14,8 @@
 <p class="hz-label">CARE</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"hz-split","layout":{"type":"default"}} -->
-<div class="wp-block-group hz-split"><!-- wp:group {"className":"hz-split__t sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<!-- wp:group {"className":"hz-split hz-split--top","layout":{"type":"default"}} -->
+<div class="wp-block-group hz-split hz-split--top"><!-- wp:group {"className":"hz-split__t sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hz-split__t sp-reveal sp-reveal--up"><!-- wp:heading {"level":2,"className":"hz-h2"} -->
 <h2 class="wp-block-heading hz-h2">Looked after, long after.</h2>
 <!-- /wp:heading -->
