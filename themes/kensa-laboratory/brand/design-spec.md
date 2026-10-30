@@ -1,6 +1,6 @@
 # Kensa Laboratory: design spec (stage B, binding for implementation)
 
-Slug `kensa-laboratory`, a materials testing laboratory (concrete, rebar, cores, chemistry) with a sample-submission landing page. Type **landing** (business-services; WooCommerce declared compatible, not required). Design-plan row **b18-5**: archetype single-column-longform, hero diagonal-split (overridden by the reference strip, see T1), nav top-bar, real photography, documentary, palette navy-indigo (nando) `#465D73` (steel), fonts Schibsted Grotesk / Albert Sans, font_direction **sans**, CJK Noto Sans TC / Noto Sans JP, first_screen **top-bottom-halves**, page_structure **landing-longform**.
+Slug `kensa-laboratory`, a materials testing laboratory (concrete, rebar, cores, chemistry) with a sample-submission landing page. Type **landing** (business-services; WooCommerce declared compatible, not required). Design-plan row **b18-5**: archetype single-column-longform, hero diagonal-split (overridden by the reference strip, see T1), nav top-bar, real photography, documentary, palette navy-indigo (nando) `#465D73` (steel), fonts Montserrat / Albert Sans, font_direction **sans**, CJK Noto Sans TC / Noto Sans JP, first_screen **top-bottom-halves**, page_structure **landing-longform**.
 
 Reference (only one): **GBRC — https://www.gbrc.or.jp/** (Japanese building-materials test body). Screens `brand/ref/gbrc-first.png`, `gbrc-s1…s4.png`, `scroll-pagetop-*.png`; tokens `brand/reference-tokens.md` (cited below as [a]–[g]). We copy no photo, text, icon or logo of the reference; we copy its layout gestures, proportions, colour relationships and key-visual concept.
 
@@ -13,13 +13,13 @@ Imagery: **photo** (IMAGERY: photo from stage-a.md; the reference uses documenta
 ### T1. Peeking-neighbour slide strip (GBRC first screen, https://www.gbrc.or.jp/ top)
 - **Reference:** one 1000×380 (2.63:1) photograph centred under the header; the previous and next slides sit at the same height left and right, cut by the viewport edges (centre = 69% of 1440) [e]; a white bold headline ≈40px, letter-spacing ≈6px, lower-left on the photo [b]; five Ø10 dots under the strip, black active / grey [f]; bxSlider auto-advances sideways [g].
 - **Ours (home block 1, top half of first screen):** a horizontal track `.kl-strip__track` of 5 photos, each `width:min(1000px, 69.5vw); aspect-ratio:1000/380; object-fit:cover; border-radius:0`, gap **0** (reference slides abut), track centred so photo 1 (hero-compression) is in the middle and photos 5 / 2 peek on left / right, both cut by the viewport edge by the same amount. Neighbour slides carry a **white 40% veil** (`::after` rgba(255,255,255,.4)) like the reference's inactive slides.
-- Headline `h1` on the centre photo, lower-left: left 48px, bottom 44px (desktop ≥782px only), white, Schibsted Grotesk 700, `clamp(2.5rem, 4.6vw, 4.25rem)` (68px at 1440), letter-spacing **0.08em** (≈ref 6px at 40px scaled), line-height 1.1, text-shadow `0 1px 12px rgba(31,42,51,.35)`, max-width 11em (2 lines: "What will your / sample bear?").
+- Headline `h1` on the centre photo, lower-left: left 48px, bottom 44px (desktop ≥782px only), white, Montserrat 600, `calc(var(--kl-w) * 0.036)` (36px on the 1000px slide), letter-spacing **0.06em** (CJK 0.12em), line-height 1.45 (CJK 1.5), text-shadow `0 1px 8px rgba(31,42,51,.28)`, two lines, `white-space:nowrap` ("What will your / sample bear?").
 - Five ticks under the strip: 24×3px bars (our flattening of the Ø10 dots), gap 8px, centred, 18px below; first `#1F2A33`, others `#C7D0D8`. Decorative (aria-hidden), not buttons.
 - **Must not be weakened:** the neighbours must be visibly cut by both viewport edges at 1280 and 1440 (each ≥ 120px visible); the centre photo must stay 2.63:1 at ≥782px; headline stays white inside the photo, lower-left, not centred.
 
 ### T2. 4×2 outline tiles directly under the strip (GBRC SERVICE tiles)
 - **Reference:** eight tiles in a 4×2 grid in the 1000px container, 2px `#0097E0` border, radius 3px, height 84px, 28px dark-grey line icon at left, label centred, gap 28px horizontal / 33px vertical; hover 0.25s ease-in-out [c][d][f][g].
-- **Ours (home block 2, bottom half of first screen):** container 1000px; `grid-template-columns:repeat(4,1fr); column-gap:28px; row-gap:24px` (ref 33 → 24 so both rows fit in 900px high first screen); each tile is an `<a href="#test-…">` 84px high, `border:2px solid #465D73; border-radius:3px; background:#FFF`, inline SVG line icon 28px stroke 1.5 `#1F2A33` at left 20px, two-line label centred (line 1 test name Schibsted Grotesk 600 1rem `#1F2A33`; line 2 specimen Albert Sans 0.8125rem `#5B6873`). Hover/focus: background `#465D73`, text and icon white, 0.25s ease-in-out (ref [g]); one tile (Custom test plan) has the rust icon `#B5541C`.
+- **Ours (home block 2, bottom half of first screen):** container 1000px; `grid-template-columns:repeat(4,1fr); column-gap:28px; row-gap:24px` (ref 33 → 24 so both rows fit in 900px high first screen); each tile is an `<a href="#test-…">` 84px high, `border:2px solid #465D73; border-radius:3px; background:#FFF`, inline SVG line icon 28px stroke 1.5 `#1F2A33` at left 20px, two-line label centred (line 1 test name Montserrat 600 1rem `#1F2A33`; line 2 specimen Albert Sans 0.8125rem `#5B6873`). Hover/focus: background `#465D73`, text and icon white, 0.25s ease-in-out (ref [g]); one tile (Custom test plan) has the rust icon `#B5541C`.
 - Tiles: Compression · Flexure · Slump & air · Rebar tensile · Core test · Density & absorption · Chloride content · Custom test plan.
 - **Must not be weakened:** 2px full-saturation steel border (not grey, not 1px), 84px height, eight tiles in exactly 4×2 at ≥1024px, sitting **directly** under the ticks (gap 32px), no heading between strip and tiles.
 
@@ -87,7 +87,7 @@ First-screen saturated share: target ≈12% (photos are cool, foliage-free; stee
 
 ## 4. Type
 font_direction **sans**: Latin headings and body both sans; CJK Noto Sans TC / JP. No serif anywhere.
-- Headings: **Schibsted Grotesk** 500/600/700. Stack: `"Schibsted Grotesk", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; under `:lang(ja)` put Noto Sans JP before TC.
+- Headings: **Montserrat** 500/600/700 (the Latin face the reference sets its SERVICE-style labels in; CJK headings use the bundled Noto Sans 600 cut, never faux bold). Stack: `"Montserrat", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; under `:lang(ja)` put Noto Sans JP before TC.
 - Body: **Albert Sans** 400/500/600. Stack: `"Albert Sans", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif` (ja: JP first).
 - Load all via theme.json `fontFamilies` + `fontFace` (woff2 in assets/fonts, Latin + zh-TW and ja subsets via the Hokuto/Hada workaround). style.css has `:lang(` rules → copy shared/inc/editor-lang.php to inc/editor-lang.php, require_once in functions.php. Editor and front must match (check-editor-fonts.mjs).
 
@@ -129,7 +129,7 @@ Section opener (no Latin lockup — already used elsewhere): label in caps `labe
 ## 6. Home page
 
 ### First screen (1440×900; 1280×800 same structure)
-- 0–72 header: wordmark "KENSA LABORATORY" Schibsted Grotesk 700 1.125rem ls 0.12em left; anchor menu centre-right (Tests · How to send · Fees · Lab · FAQ, Albert Sans 500 0.9375rem); button "Book a submission" right.
+- 0–72 header: wordmark "KENSA LABORATORY" Montserrat 700 1.125rem ls 0.12em left; anchor menu centre-right (Tests · How to send · Fees · Lab · FAQ, Albert Sans 500 0.9375rem); button "Book a submission" right.
 - 104–484 strip (T1) with headline; 502 ticks.
 - 536–728 tiles (T2) 4×2.
 - 760–900: start of intro (label + first line of h2 visible) on white.
@@ -144,7 +144,7 @@ Ratio: white ~55%, photo ~35%, steel ~6%, mist 3%, rust ≤1%.
 | 3 | Intro "A neutral bench between the pour and the decision" `#about` | who/why | 720 prose column, 3 paragraphs; then **intro-bench** full container 1000×380; facts line under it: "8 open tests · 2 working days to report · 6 people at the bench" with `sp-count` | ~170 words |
 | 4 | Tests in detail `#tests` | what each test tells you | 8 ruled rows (`dl`, 1px `#C7D0D8` top rule; name 30% / what it shows + specimen + turnaround 70%); between row 4 and 5 a two-photo pair 3:2 side by side, gap 28: **test-flexure**, **test-chloride** | 8 × ~30 words |
 | 5 | Full-bleed parallax band | pause / receiving bay mood | `sp-parallax` cover, **parallax-receiving**, 100vw × 56vh (min 380px); foreground: white caption bottom-left in 1000 container "Every sample is logged the hour it arrives." on a `#1F2A33` 60% strip, not on the moving layer | 1 line |
-| 6 | How to send a sample `#send` | the process | 720 column; 4 numbered prose paragraphs (big number Schibsted 600 2.75rem `#465D73` in normal flow left, text right), not a grid, not a timeline; button "Book a submission" after step 4 | ~180 words |
+| 6 | How to send a sample `#send` | the process | 720 column; 4 numbered prose paragraphs (big number Montserrat 600 2.75rem `#465D73` in normal flow left, text right), not a grid, not a timeline; button "Book a submission" after step 4 | ~180 words |
 | 7 | Sample log band (T3) `#log` | proof of activity | full-bleed steel band, two white panels | 7 rows |
 | 8 | Fees `#fees` | price table | full-width 1000 table, 8 rows, price column nowrap right; note under table (turnaround, express) | 8 rows + 2 lines |
 | 9 | Lab & people `#lab` | who tests | 720 prose (2 paragraphs) + **people-team** 1000×380; then 6 names as a two-column ruled list (name 600 / role muted) — no portrait grid | ~120 words |
@@ -286,7 +286,7 @@ Also `sp-reveal--up` on case rows and log rows (not on tables, form, FAQ, legal)
 - [ ] Price table: 8 rows matching §8; ≥782px full width, price nowrap right, not cut at 800/1280; stacked at 390.
 - [ ] 13 photo positions, no duplicates, no text/logos in photos.
 - [ ] ≥650 English words, ≥3 prose paragraphs; numbers match §8.
-- [ ] Fonts Schibsted Grotesk / Albert Sans via theme.json fontFace; CJK Noto Sans; editor = front.
+- [ ] Fonts Montserrat / Albert Sans via theme.json fontFace; CJK Noto Sans; editor = front.
 - [ ] First-screen saturated share ≤15%; max font size 4.25rem in theme.json.
 - [ ] 390px: no overlay/vertical labels, headline under strip, no horizontal overflow.
 - [ ] Only one top menu; one CTA label "Book a submission" repeated (header, after process, final band).

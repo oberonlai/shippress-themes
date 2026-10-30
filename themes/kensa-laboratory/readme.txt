@@ -23,7 +23,7 @@ The laboratory, its people, address and prices are fictional.
 == Copyright ==
 
 Kensa Laboratory theme, (C) ShipPress, GPL-2.0-or-later.
-Fonts: Schibsted Grotesk, Albert Sans, Noto Sans TC and Noto Sans JP, SIL Open Font License 1.1 (see assets/fonts/OFL-*.txt).
+Fonts: Montserrat, Albert Sans, Noto Sans TC and Noto Sans JP, SIL Open Font License 1.1 (see assets/fonts/OFL-*.txt).
 Images: all photographs in assets/images were AI-generated for this theme and are released under CC0.
 Scroll effects: assets/sp-scroll.css and sp-scroll.js (ShipPress, GPL-2.0-or-later), no third-party libraries.
 Image file: assets/images/case-bridge.webp, AI-generated for this theme, CC0.
@@ -44,3 +44,7 @@ Image file: assets/images/reception.webp, AI-generated for this theme, CC0.
 Image file: assets/images/test-broken.webp, AI-generated for this theme, CC0.
 Image file: assets/images/test-density.webp, AI-generated for this theme, CC0.
 Image file: assets/images/demo/test-broken.webp, AI-generated for this theme, CC0.
+
+== Changelog ==
+= 1.0.1 =
+* Typography refresh: Montserrat display face, a calmer two-line hero headline, and a real 600 weight for Traditional Chinese and Japanese headings.
