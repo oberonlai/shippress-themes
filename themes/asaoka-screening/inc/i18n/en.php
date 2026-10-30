@@ -92,7 +92,7 @@ return array(
 
 	// Proof band.
 	'alt_P09'        => 'A low white clinic building among young trees beside a quiet path in the morning',
-	'proof_h'        => 'A quiet place that has done this since 2009',
+	'proof_h'        => 'Small, steady and easy to book',
 	'proof_n0'       => '2009',
 	'proof_d0'       => 'the year Dr Hana Asaoka opened the centre',
 	'proof_n1'       => '140',

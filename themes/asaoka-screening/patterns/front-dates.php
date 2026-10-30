@@ -31,13 +31,13 @@
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<ul class="as-rows sp-stagger">
+<div class="as-split__body"><ul class="as-rows sp-stagger">
 <li class="as-row sp-reveal sp-reveal--up"><div class="as-row__main"><p class="as-row__meta"><span class="as-row__step"><?php echo esc_html( asaoka_screening_t( 'date_d0' ) ); ?></span><span class="as-chip"><?php echo esc_html( asaoka_screening_t( 'date_c0' ) ); ?></span></p><p class="as-row__text"><?php echo esc_html( asaoka_screening_t( 'date_t0' ) ); ?></p></div><a class="as-go" href="/for-companies/" aria-label="<?php echo esc_attr( asaoka_screening_t( 'date_d0' ) ); ?>"><?php echo asaoka_screening_arrow(); ?></a></li>
 <li class="as-row sp-reveal sp-reveal--up"><div class="as-row__main"><p class="as-row__meta"><span class="as-row__step"><?php echo esc_html( asaoka_screening_t( 'date_d1' ) ); ?></span><span class="as-chip"><?php echo esc_html( asaoka_screening_t( 'date_c1' ) ); ?></span></p><p class="as-row__text"><?php echo esc_html( asaoka_screening_t( 'date_t1' ) ); ?></p></div><a class="as-go" href="/for-companies/" aria-label="<?php echo esc_attr( asaoka_screening_t( 'date_d1' ) ); ?>"><?php echo asaoka_screening_arrow(); ?></a></li>
 <li class="as-row sp-reveal sp-reveal--up"><div class="as-row__main"><p class="as-row__meta"><span class="as-row__step"><?php echo esc_html( asaoka_screening_t( 'date_d2' ) ); ?></span><span class="as-chip"><?php echo esc_html( asaoka_screening_t( 'date_c2' ) ); ?></span></p><p class="as-row__text"><?php echo esc_html( asaoka_screening_t( 'date_t2' ) ); ?></p></div><a class="as-go" href="/for-companies/" aria-label="<?php echo esc_attr( asaoka_screening_t( 'date_d2' ) ); ?>"><?php echo asaoka_screening_arrow(); ?></a></li>
 <li class="as-row sp-reveal sp-reveal--up"><div class="as-row__main"><p class="as-row__meta"><span class="as-row__step"><?php echo esc_html( asaoka_screening_t( 'date_d3' ) ); ?></span><span class="as-chip"><?php echo esc_html( asaoka_screening_t( 'date_c3' ) ); ?></span></p><p class="as-row__text"><?php echo esc_html( asaoka_screening_t( 'date_t3' ) ); ?></p></div><a class="as-go" href="/for-companies/" aria-label="<?php echo esc_attr( asaoka_screening_t( 'date_d3' ) ); ?>"><?php echo asaoka_screening_arrow(); ?></a></li>
 </ul>
-<p class="as-rows__note"><?php echo esc_html( asaoka_screening_t( 'date_note' ) ); ?></p>
+<p class="as-rows__note"><?php echo esc_html( asaoka_screening_t( 'date_note' ) ); ?></p></div>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->

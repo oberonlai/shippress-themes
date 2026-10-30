@@ -32,13 +32,13 @@
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<ul class="as-prices">
+<div class="as-split__body"><ul class="as-prices">
 <li class="as-prices__row"><div class="as-prices__name"><b><?php echo esc_html( asaoka_screening_t( 'pack_n0' ) ); ?></b><span><?php echo esc_html( asaoka_screening_t( 'pack_d0' ) ); ?></span></div><span class="as-prices__amount"><?php echo esc_html( asaoka_screening_t( 'pack_p0' ) ); ?></span></li>
 <li class="as-prices__row"><div class="as-prices__name"><b><?php echo esc_html( asaoka_screening_t( 'pack_n1' ) ); ?></b><span><?php echo esc_html( asaoka_screening_t( 'pack_d1' ) ); ?></span></div><span class="as-prices__amount"><?php echo esc_html( asaoka_screening_t( 'pack_p1' ) ); ?></span></li>
 <li class="as-prices__row"><div class="as-prices__name"><b><?php echo esc_html( asaoka_screening_t( 'pack_n2' ) ); ?></b><span><?php echo esc_html( asaoka_screening_t( 'pack_d2' ) ); ?></span></div><span class="as-prices__amount"><?php echo esc_html( asaoka_screening_t( 'pack_p2' ) ); ?></span></li>
 <li class="as-prices__row"><div class="as-prices__name"><b><?php echo esc_html( asaoka_screening_t( 'pack_n3' ) ); ?></b><span><?php echo esc_html( asaoka_screening_t( 'pack_d3' ) ); ?></span></div><span class="as-prices__amount"><?php echo esc_html( asaoka_screening_t( 'pack_p3' ) ); ?></span></li>
 </ul>
-<p class="as-prices__note"><?php echo esc_html( asaoka_screening_t( 'pack_note' ) ); ?></p>
+<p class="as-prices__note"><?php echo esc_html( asaoka_screening_t( 'pack_note' ) ); ?></p></div>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->
