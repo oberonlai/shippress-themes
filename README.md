@@ -251,39 +251,40 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/kotoba-language"><img src="themes/kotoba-language/screenshots/home-desktop.webp" width="260" alt="Kotoba Language"></a><br><a href="themes/kotoba-language">Kotoba Language</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kotonoha-honyaku"><img src="themes/kotonoha-honyaku/screenshots/home-desktop.webp" width="260" alt="Kotonoha Honyaku"></a><br><a href="themes/kotonoha-honyaku">Kotonoha Honyaku</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/kumo-eyewear"><img src="themes/kumo-eyewear/screenshots/home-desktop.webp" width="260" alt="Kumo Eyewear"></a><br><a href="themes/kumo-eyewear">Kumo Eyewear</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/kouhi-service"><img src="themes/kouhi-service/screenshots/home-desktop.webp" width="260" alt="Kouhi Service"></a><br><a href="themes/kouhi-service">Kouhi Service</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/kumo-eyewear"><img src="themes/kumo-eyewear/screenshots/home-desktop.webp" width="260" alt="Kumo Eyewear"></a><br><a href="themes/kumo-eyewear">Kumo Eyewear</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kumoi-lodge"><img src="themes/kumoi-lodge/screenshots/home-desktop.webp" width="260" alt="Kumoi Lodge"></a><br><a href="themes/kumoi-lodge">Kumoi Lodge</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kumotori-hut"><img src="themes/kumotori-hut/screenshots/home-desktop.webp" width="260" alt="Kumotori Hut"></a><br><a href="themes/kumotori-hut">Kumotori Hut</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/kura-shizuku"><img src="themes/kura-shizuku/screenshots/home-desktop.webp" width="260" alt="Kura Shizuku"></a><br><a href="themes/kura-shizuku">Kura Shizuku</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/kura-shizuku"><img src="themes/kura-shizuku/screenshots/home-desktop.webp" width="260" alt="Kura Shizuku"></a><br><a href="themes/kura-shizuku">Kura Shizuku</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kura-wine"><img src="themes/kura-wine/screenshots/home-desktop.webp" width="260" alt="Kura Wine"></a><br><a href="themes/kura-wine">Kura Wine</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kurogane-ironware"><img src="themes/kurogane-ironware/screenshots/home-desktop.webp" width="260" alt="Kurogane Ironware"></a><br><a href="themes/kurogane-ironware">Kurogane Ironware</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/kuyuru-incense"><img src="themes/kuyuru-incense/screenshots/home-desktop.webp" width="260" alt="Kuyuru Incense"></a><br><a href="themes/kuyuru-incense">Kuyuru Incense</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/kuyuru-incense"><img src="themes/kuyuru-incense/screenshots/home-desktop.webp" width="260" alt="Kuyuru Incense"></a><br><a href="themes/kuyuru-incense">Kuyuru Incense</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kyugo-training"><img src="themes/kyugo-training/screenshots/home-desktop.webp" width="260" alt="Kyugo Training"></a><br><a href="themes/kyugo-training">Kyugo Training</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/ma-vertical"><img src="themes/ma-vertical/screenshots/home-desktop.webp" width="260" alt="Ma Vertical"></a><br><a href="themes/ma-vertical">Ma Vertical</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/mado-air"><img src="themes/mado-air/screenshots/home-desktop.webp" width="260" alt="Mado Air"></a><br><a href="themes/mado-air">Mado Air</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/mado-air"><img src="themes/mado-air/screenshots/home-desktop.webp" width="260" alt="Mado Air"></a><br><a href="themes/mado-air">Mado Air</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/madoka-childcare"><img src="themes/madoka-childcare/screenshots/home-desktop.webp" width="260" alt="Madoka Childcare"></a><br><a href="themes/madoka-childcare">Madoka Childcare</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/mame-coffee"><img src="themes/mame-coffee/screenshots/home-desktop.webp" width="260" alt="Mame Coffee"></a><br><a href="themes/mame-coffee">Mame Coffee</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/mamori-hoken"><img src="themes/mamori-hoken/screenshots/home-desktop.webp" width="260" alt="Mamori Hoken"></a><br><a href="themes/mamori-hoken">Mamori Hoken</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/mamori-hoken"><img src="themes/mamori-hoken/screenshots/home-desktop.webp" width="260" alt="Mamori Hoken"></a><br><a href="themes/mamori-hoken">Mamori Hoken</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/manabi-juku"><img src="themes/manabi-juku/screenshots/home-desktop.webp" width="260" alt="Manabi Juku"></a><br><a href="themes/manabi-juku">Manabi Juku</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/megumi-pharmacy"><img src="themes/megumi-pharmacy/screenshots/home-desktop.webp" width="260" alt="Megumi Pharmacy"></a><br><a href="themes/megumi-pharmacy">Megumi Pharmacy</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/menya-kaen"><img src="themes/menya-kaen/screenshots/home-desktop.webp" width="260" alt="Menya Kaen"></a><br><a href="themes/menya-kaen">Menya Kaen</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/menya-kaen"><img src="themes/menya-kaen/screenshots/home-desktop.webp" width="260" alt="Menya Kaen"></a><br><a href="themes/menya-kaen">Menya Kaen</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/michi-motors"><img src="themes/michi-motors/screenshots/home-desktop.webp" width="260" alt="Michi Motors"></a><br><a href="themes/michi-motors">Michi Motors</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/michishirube-consulting"><img src="themes/michishirube-consulting/screenshots/home-desktop.webp" width="260" alt="Michishirube Consulting"></a><br><a href="themes/michishirube-consulting">Michishirube Consulting</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/mimi-veterinary"><img src="themes/mimi-veterinary/screenshots/home-desktop.webp" width="260" alt="Mimi Veterinary"></a><br><a href="themes/mimi-veterinary">Mimi Veterinary</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/mimi-veterinary"><img src="themes/mimi-veterinary/screenshots/home-desktop.webp" width="260" alt="Mimi Veterinary"></a><br><a href="themes/mimi-veterinary">Mimi Veterinary</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/minato-business-hotel"><img src="themes/minato-business-hotel/screenshots/home-desktop.webp" width="260" alt="Minato Business Hotel"></a><br><a href="themes/minato-business-hotel">Minato Business Hotel</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/minori-seminars"><img src="themes/minori-seminars/screenshots/home-desktop.webp" width="260" alt="Minori Seminars"></a><br><a href="themes/minori-seminars">Minori Seminars</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/mizuha-glass"><img src="themes/mizuha-glass/screenshots/home-desktop.webp" width="260" alt="Mizuha Glass"></a><br><a href="themes/mizuha-glass">Mizuha Glass</a></td>
