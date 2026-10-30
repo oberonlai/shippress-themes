@@ -72,11 +72,11 @@ takenaka-foodware.jp opens on a dark, slowly moving still-life: rows of identica
 *An ordinary shipment, handled with care at the desk.* A dark documentary photograph of a warehouse bay: rows of identical brown cartons stacked on steel racks receding in soft focus (= the shelves of bowls), and in the right third, in the foreground, a gloved hand holding a packing list against a carton label (= the gloved hand placing a piece). Graded teal-grey and dim. The statement "Your goods, cleared with every line checked." sits low and rides up over the slower photo; along the bottom a thin timeline line names the five stages a clearance passes through (the ref "Scroll Down" bar becomes our timeline). Then the cool paper sheet takes over. Same image type: photograph (IMAGERY photo).
 
 ### (3) KV checklist (all six implemented and visible in the first screen at 1440×900; #6 visible as the paper edge after the first scroll and at the bottom on mobile 390×844 when the stage is shorter)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Image used |
 |---|---|---|---|---|---|
 | 1 | Dark full-bleed shelves of identical stacked bowls | Dim warehouse bay, identical cartons on steel racks, teal-grey grade, ≥95% of the first screen | whole first screen | `sp-parallax` on the Cover background, `--sp-par: 10%` (mobile 6%) | **W1** |
 | 2 | Gloved hand placing a piece, soft-focus foreground | Gloved hand holding a packing list against a carton label, sharp, in the same photo | right third, lower half (x 62–90%, y 45–85%) | moves with the photo (parallax) | **W1** (composed into the frame) |
-| 3 | White overlay logo left + slim uppercase nav + outline pill + JP/EN | Transparent header 88px: wordmark "SHIRUSHI" left; SERVICES · PROCESS · FEES · CASES · ABOUT; outline pill "Open a file ↗"; EN / 中 / 日 / FR / DE | top | none (absolute header, not sticky) | — |
+| 3 | White overlay logo left + slim uppercase nav + outline pill + language links | Transparent header 88px: wordmark "SHIRUSHI" left; SERVICES · PROCESS · FEES · CASES · ABOUT; outline pill "Open a file ↗"; EN / ZH / JA / FR / DE | top | none (absolute header, not sticky) | — |
 | 4 | Three-line copy low on the image, rides up on scroll | H1 statement 3 lines, top at 64vh, cols 2–7; intro paragraph cols 7–11 below | bottom-left → rises | in-flow content against a 10% slower photo (no reveal on hero) | W1 behind |
 | 5 | "Scroll Down" label + 1px bar bottom-right | 1px timeline line 22–92% width with five ticks and labels DOCUMENTS … RELEASE, "Scroll" bar at far left | bottom, sticky `bottom: 32px` | fill `scaleX(.2→1)` by CSS view timeline where supported; static = full | — |
 | 6 | Pale grained paper sheet takes over | Cool paper `#F1F3F2` + 3.5% grain, flat edge under the photo | below the stage | none | — |
@@ -95,7 +95,7 @@ Not allowed: replacing the bay with an office, a map, a ship at sea, a skyline, 
 | Notice / tint panel | `#E3E9E9` | `≈#F6F3E8` / `rgba(42,49,64,.05)` OEM wash | T4 panel; prepare band uses `rgba(76,101,104,.06)` over paper | ~6% |
 | Dark stage | `#101A1C` | near-black photo avg 23/22/17 | stage overlay `rgba(16,26,28,.35)`, footer, quay band fallback | ~20% |
 | Text / ink | `#1D2426` (body at 85%, headings 100%) | `rgba(0,0,0,.8)` / `.9` | text, disc arrows, pill | — |
-| Main (steel, row hex 御召茶) | `#4C6568` | (no ref colour; ref is all neutral) | link underline, active tab, table price column text, tick lit on paper, footer rules | ≤4% (never a section background) |
+| Main (steel, row hex Oomeshi-cha) | `#4C6568` | (no ref colour; ref is all neutral) | link underline, active tab, table price column text, tick lit on paper, footer rules | ≤4% (never a section background) |
 | Hairline | `rgba(0,0,0,.1)` | news rows | rows, table rules, panel divider | — |
 | Accent (seal amber) | `#B07A3A` | none (ref has none) | a 6px square "seal" dot before "( 01 )" numbers on the fee table only | ≤1%, never in the first screen |
 
@@ -107,7 +107,7 @@ Not allowed: replacing the bay with an office, a map, a ship at sea, a skyline, 
 ## 4. Typography (font_direction **sans**)
 
 - Latin headings: **Onest** (400, 500). Latin body: **Source Sans 3** (400, 600). Both sans; no serif anywhere.
-- CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja), 黑體 for headings **and** body. No 明體.
+- CJK: **Noto Sans TC** (zh-TW) and **Noto Sans JP** (ja), sans-serif (gothic) for headings **and** body. No serif (Mincho) faces.
 - Stacks (theme.json `fontFamilies`):
   - heading: `"Onest", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`
   - body: `"Source Sans 3", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`

@@ -69,3 +69,53 @@ add_filter( 'language_attributes', 'sc_language_attributes' );
 function sc_lines( $key ) {
 	return implode( '<br>', array_map( 'esc_html', explode( '|', sc_t( $key ) ) ) );
 }
+
+/**
+ * Inner-page head (T1): a dark photograph band with the page title and lead bottom-left and the five-tick timeline
+ * line along its bottom. Ticks in $lit (1–5) are lit; the others are dimmed. Returns block markup.
+ *
+ * @param string $key  Strings prefix: <key>_title and <key>_lead.
+ * @param string $img  Image file in assets/images/.
+ * @param array  $lit  Lit ticks (1–5).
+ * @param string $pos  CSS object-position of the photograph.
+ * @param bool   $link Link each tick to the #stage-N anchor of the page (process page).
+ * @return string
+ */
+function sc_inner_head( $key, $img, $lit = array(), $pos = '50% 50%', $link = false ) {
+	$src   = get_theme_file_uri( 'assets/images/' . $img );
+	$ticks = '';
+	for ( $i = 1; $i <= 5; $i++ ) {
+		$cls   = 'sc-line__tick' . ( in_array( $i, $lit, true ) ? ' is-lit' : '' );
+		$word  = esc_html( sc_t( 'st' . $i ) );
+		$word  = $link ? '<a href="#stage-' . $i . '">' . $word . '</a>' : $word;
+		$ticks .= "<!-- wp:paragraph {\"className\":\"" . $cls . "\"} -->\n<p class=\"" . $cls . "\"><span class=\"sc-n\">0" . $i . '</span> <span class="sc-w">' . $word . "</span></p>\n<!-- /wp:paragraph -->\n";
+	}
+	$alt = esc_attr( sc_t( $key . '_alt' ) );
+	return '<!-- wp:group {"tagName":"section","align":"full","className":"sc-ph sp-parallax","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull sc-ph sp-parallax"><!-- wp:group {"className":"sc-ph__bg sp-parallax__layer","layout":{"type":"default"}} -->
+<div class="wp-block-group sc-ph__bg sp-parallax__layer"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="' . esc_url( $src ) . '" alt="' . $alt . '" style="object-position:' . esc_attr( $pos ) . '"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"sc-stage__veil","layout":{"type":"default"}} -->
+<div class="wp-block-group sc-stage__veil"></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sc-ph__in","layout":{"type":"default"}} -->
+<div class="wp-block-group sc-ph__in"><!-- wp:heading {"level":1,"className":"sc-ph__h1"} -->
+<h1 class="wp-block-heading sc-ph__h1">' . esc_html( sc_t( $key . '_title' ) ) . '</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"sc-ph__lead"} -->
+<p class="sc-ph__lead">' . esc_html( sc_t( $key . '_lead' ) ) . '</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"sc-line","layout":{"type":"default"}} -->
+<div class="wp-block-group sc-line"><!-- wp:group {"className":"sc-line__track","layout":{"type":"default"}} -->
+<div class="wp-block-group sc-line__track">' . $ticks . '</div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->';
+}

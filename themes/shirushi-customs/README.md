@@ -12,3 +12,9 @@ Shirushi Customs is a quiet WordPress block theme for a small customs broker tha
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+## Pages
+Home, Declarations (`/services/`), Process, What you prepare, Fees, Case files, About and Open a file (`/contact/`) use the "Inner page (dark head)" template: a dark photograph band with the title, a lead and the five-tick timeline line (the tick of the stage the page is about is lit), then the page sections. Notes is the posts page. Other languages follow in a later release.
+
+## Screenshots
+![Home](screenshot.png)
