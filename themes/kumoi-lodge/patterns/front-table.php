@@ -11,7 +11,7 @@
 <!-- wp:group {"className":"km-sec km-table","tagName":"section","layout":{"type":"default"},"align":"full","anchor":"table"} -->
 <section id="table" class="wp-block-group alignfull km-sec km-table"><!-- wp:group {"className":"km-col","layout":{"type":"default"}} -->
 <div class="wp-block-group km-col"><!-- wp:heading {"level":2,"className":"km-title"} -->
-<h2 class="wp-block-heading km-title"><?php kumoi_lodge_e( 'table_label' ); ?></h2>
+<h2 class="wp-block-heading km-title"><?php echo esc_html( kumoi_lodge_t( 'table_label' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:group {"className":"km-duo sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group km-duo sp-stagger"><?php foreach ( array( 1 => 'kl-t1', 2 => 'kl-t2' ) as $n => $img ) : ?><!-- wp:group {"className":"km-sq sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
@@ -37,7 +37,7 @@
 <!-- /wp:group --><?php endforeach; ?></div>
 <!-- /wp:group -->
 <!-- wp:paragraph {"className":"km-lead km-table__body"} -->
-<p class="km-lead km-table__body"><?php kumoi_lodge_e( 'table_body' ); ?></p>
+<p class="km-lead km-table__body"><?php echo esc_html( kumoi_lodge_t( 'table_body' ) ); ?></p>
 <!-- /wp:paragraph -->
 <?php echo kumoi_lodge_pill( kumoi_lodge_t( 'table_pill' ), '/the-table/' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
 <!-- /wp:group --></section>

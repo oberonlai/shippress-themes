@@ -11,10 +11,10 @@
 <!-- wp:group {"className":"km-sec km-rooms","tagName":"section","layout":{"type":"default"},"align":"full","anchor":"rooms"} -->
 <section id="rooms" class="wp-block-group alignfull km-sec km-rooms"><!-- wp:group {"className":"km-col","layout":{"type":"default"}} -->
 <div class="wp-block-group km-col"><!-- wp:heading {"level":2,"className":"km-title"} -->
-<h2 class="wp-block-heading km-title"><?php kumoi_lodge_e( 'rooms_label' ); ?></h2>
+<h2 class="wp-block-heading km-title"><?php echo esc_html( kumoi_lodge_t( 'rooms_label' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"km-lead km-intro"} -->
-<p class="km-lead km-intro"><?php kumoi_lodge_e( 'rooms_lead' ); ?></p>
+<p class="km-lead km-intro"><?php echo esc_html( kumoi_lodge_t( 'rooms_lead' ) ); ?></p>
 <!-- /wp:paragraph -->
 <?php
 $kl_rooms = array(
@@ -59,7 +59,7 @@ foreach ( $kl_rooms as $n => $r ) :
 <!-- /wp:group -->
 <?php endforeach; ?>
 <!-- wp:paragraph {"className":"km-meta km-rooms__note"} -->
-<p class="km-meta km-rooms__note"><?php kumoi_lodge_e( 'rooms_note' ); ?> · <a href="<?php echo esc_url( home_url( '/rooms/' ) ); ?>"><?php kumoi_lodge_e( 'rooms_all' ); ?></a></p>
+<p class="km-meta km-rooms__note"><?php echo esc_html( kumoi_lodge_t( 'rooms_note' ) ); ?> · <a href="<?php echo esc_url( home_url( '/rooms/' ) ); ?>"><?php echo esc_html( kumoi_lodge_t( 'rooms_all' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

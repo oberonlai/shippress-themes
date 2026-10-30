@@ -14,10 +14,10 @@
 <!-- /wp:image -->
 <!-- wp:group {"className":"km-stage__text sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group km-stage__text sp-reveal sp-reveal--up"><!-- wp:heading {"level":2,"className":"km-statement km-statement--white"} -->
-<h2 class="wp-block-heading km-statement km-statement--white"><?php kumoi_lodge_e( 'stage_l1' ); ?><br><?php kumoi_lodge_e( 'stage_l2' ); ?></h2>
+<h2 class="wp-block-heading km-statement km-statement--white"><?php echo esc_html( kumoi_lodge_t( 'stage_l1' ) ); ?><br><?php echo esc_html( kumoi_lodge_t( 'stage_l2' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"km-lead km-lead--white"} -->
-<p class="km-lead km-lead--white"><?php kumoi_lodge_e( 'stage_body' ); ?></p>
+<p class="km-lead km-lead--white"><?php echo esc_html( kumoi_lodge_t( 'stage_body' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

@@ -15,23 +15,23 @@
 <!-- /wp:image -->
 <!-- wp:group {"className":"km-mark","layout":{"type":"default"}} -->
 <div class="wp-block-group km-mark"><!-- wp:heading {"level":1,"className":"km-mark__name"} -->
-<h1 class="wp-block-heading km-mark__name"><?php kumoi_lodge_e( 'wordmark' ); ?></h1>
+<h1 class="wp-block-heading km-mark__name"><?php echo esc_html( kumoi_lodge_t( 'wordmark' ) ); ?></h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"km-mark__sub"} -->
-<p class="km-mark__sub"><?php kumoi_lodge_e( 'sub' ); ?></p>
+<p class="km-mark__sub"><?php echo esc_html( kumoi_lodge_t( 'sub' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:html -->
-<span class="km-scroll" aria-hidden="true"><?php kumoi_lodge_e( 'scroll' ); ?><i></i></span>
+<span class="km-scroll" aria-hidden="true"><?php echo esc_html( kumoi_lodge_t( 'scroll' ) ); ?><i></i></span>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"km-info","layout":{"type":"default"}} -->
 <div class="wp-block-group km-info"><!-- wp:group {"className":"km-info__cell","layout":{"type":"default"}} -->
 <div class="wp-block-group km-info__cell"><!-- wp:paragraph {"className":"km-label"} -->
-<p class="km-label"><?php kumoi_lodge_e( 'info_l1' ); ?></p>
+<p class="km-label"><?php echo esc_html( kumoi_lodge_t( 'info_l1' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"km-info__v"} -->
-<p class="km-info__v"><?php kumoi_lodge_e( 'info_v1' ); ?></p>
+<p class="km-info__v"><?php echo esc_html( kumoi_lodge_t( 'info_v1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:html -->
@@ -39,10 +39,10 @@
 <!-- /wp:html -->
 <!-- wp:group {"className":"km-info__cell","layout":{"type":"default"}} -->
 <div class="wp-block-group km-info__cell"><!-- wp:paragraph {"className":"km-label"} -->
-<p class="km-label"><?php kumoi_lodge_e( 'info_l2' ); ?></p>
+<p class="km-label"><?php echo esc_html( kumoi_lodge_t( 'info_l2' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"km-info__v"} -->
-<p class="km-info__v"><?php kumoi_lodge_e( 'info_v2' ); ?></p>
+<p class="km-info__v"><?php echo esc_html( kumoi_lodge_t( 'info_v2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:html -->

@@ -15,10 +15,10 @@
 <!-- wp:group {"className":"km-close__body","layout":{"type":"default"}} -->
 <div class="wp-block-group km-close__body"><!-- wp:group {"className":"km-close__top","layout":{"type":"default"}} -->
 <div class="wp-block-group km-close__top"><!-- wp:paragraph {"className":"km-close__name"} -->
-<p class="km-close__name"><?php kumoi_lodge_e( 'close_name' ); ?></p>
+<p class="km-close__name"><?php echo esc_html( kumoi_lodge_t( 'close_name' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"km-close__addr"} -->
-<p class="km-close__addr"><?php kumoi_lodge_e( 'close_addr' ); ?><br><?php kumoi_lodge_e( 'close_seasons' ); ?><br><a href="mailto:<?php echo esc_attr( kumoi_lodge_t( 'foot_email' ) ); ?>"><?php kumoi_lodge_e( 'foot_email' ); ?></a> · <?php kumoi_lodge_e( 'foot_phone' ); ?></p>
+<p class="km-close__addr"><?php echo esc_html( kumoi_lodge_t( 'close_addr' ) ); ?><br><?php echo esc_html( kumoi_lodge_t( 'close_seasons' ) ); ?><br><a href="mailto:<?php echo esc_attr( kumoi_lodge_t( 'foot_email' ) ); ?>"><?php echo esc_html( kumoi_lodge_t( 'foot_email' ) ); ?></a> · <?php echo esc_html( kumoi_lodge_t( 'foot_phone' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:html -->
@@ -26,7 +26,7 @@
 <!-- /wp:html -->
 <!-- wp:group {"className":"km-close__base","layout":{"type":"default"}} -->
 <div class="wp-block-group km-close__base"><!-- wp:paragraph {"className":"km-close__legal"} -->
-<p class="km-close__legal"><?php kumoi_lodge_e( 'legal' ); ?></p>
+<p class="km-close__legal"><?php echo esc_html( kumoi_lodge_t( 'legal' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:html -->
 <p class="km-langs"><?php foreach ( kumoi_lodge_a( 'langs' ) as $i => $l ) : ?><span<?php echo 0 === $i ? ' aria-current="true"' : ''; ?>><?php echo esc_html( $l ); ?></span><?php endforeach; ?></p>

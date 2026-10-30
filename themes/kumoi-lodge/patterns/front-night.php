@@ -11,18 +11,18 @@
 <!-- wp:group {"className":"km-sec km-night","tagName":"section","layout":{"type":"default"},"align":"full","anchor":"night"} -->
 <section id="night" class="wp-block-group alignfull km-sec km-night"><!-- wp:group {"className":"km-col","layout":{"type":"default"}} -->
 <div class="wp-block-group km-col"><!-- wp:heading {"level":2,"className":"km-title"} -->
-<h2 class="wp-block-heading km-title"><?php kumoi_lodge_e( 'night_label' ); ?></h2>
+<h2 class="wp-block-heading km-title"><?php echo esc_html( kumoi_lodge_t( 'night_label' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:group {"className":"km-box","layout":{"type":"default"}} -->
 <div class="wp-block-group km-box"><!-- wp:group {"className":"km-box__text","layout":{"type":"default"}} -->
 <div class="wp-block-group km-box__text"><!-- wp:paragraph {"className":"km-lead"} -->
-<p class="km-lead"><?php kumoi_lodge_e( 'night_lead' ); ?></p>
+<p class="km-lead"><?php echo esc_html( kumoi_lodge_t( 'night_lead' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:html -->
 <ul class="km-icons">
-<li><span class="km-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="9" width="14" height="11" rx="1.5"/><path d="M9 20v-4h6v4M8 9V6h8v3M12 6V3"/></svg></span><span class="km-icons__cap"><?php kumoi_lodge_e( 'ic1' ); ?></span></li>
-<li><span class="km-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h5v9l6 2.5c1.2.5 2 1.6 2 3V20H6z"/><path d="M6 17h13M11 8h-5"/></svg></span><span class="km-icons__cap"><?php kumoi_lodge_e( 'ic2' ); ?></span></li>
-<li><span class="km-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8l3 9H5zM12 12v7M8 20h8"/></svg></span><span class="km-icons__cap"><?php kumoi_lodge_e( 'ic3' ); ?></span></li>
+<li><span class="km-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="9" width="14" height="11" rx="1.5"/><path d="M9 20v-4h6v4M8 9V6h8v3M12 6V3"/></svg></span><span class="km-icons__cap"><?php echo esc_html( kumoi_lodge_t( 'ic1' ) ); ?></span></li>
+<li><span class="km-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h5v9l6 2.5c1.2.5 2 1.6 2 3V20H6z"/><path d="M6 17h13M11 8h-5"/></svg></span><span class="km-icons__cap"><?php echo esc_html( kumoi_lodge_t( 'ic2' ) ); ?></span></li>
+<li><span class="km-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8l3 9H5zM12 12v7M8 20h8"/></svg></span><span class="km-icons__cap"><?php echo esc_html( kumoi_lodge_t( 'ic3' ) ); ?></span></li>
 </ul>
 <!-- /wp:html -->
 <!-- wp:list {"className":"km-sched"} -->

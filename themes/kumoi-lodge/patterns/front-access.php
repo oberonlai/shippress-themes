@@ -11,15 +11,15 @@
 <!-- wp:group {"className":"km-sec km-access","tagName":"section","layout":{"type":"default"},"align":"full","anchor":"access"} -->
 <section id="access" class="wp-block-group alignfull km-sec km-access"><!-- wp:group {"className":"km-col","layout":{"type":"default"}} -->
 <div class="wp-block-group km-col"><!-- wp:heading {"level":2,"className":"km-title"} -->
-<h2 class="wp-block-heading km-title"><?php kumoi_lodge_e( 'access_label' ); ?></h2>
+<h2 class="wp-block-heading km-title"><?php echo esc_html( kumoi_lodge_t( 'access_label' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:group {"className":"km-access__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group km-access__grid"><!-- wp:group {"className":"km-access__text sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group km-access__text sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"km-lead"} -->
-<p class="km-lead"><?php kumoi_lodge_e( 'access_p1' ); ?></p>
+<p class="km-lead"><?php echo esc_html( kumoi_lodge_t( 'access_p1' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"km-lead"} -->
-<p class="km-lead"><?php kumoi_lodge_e( 'access_p2' ); ?></p>
+<p class="km-lead"><?php echo esc_html( kumoi_lodge_t( 'access_p2' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:list {"className":"km-hours"} -->
 <ul class="wp-block-list km-hours"><?php foreach ( kumoi_lodge_a( 'hours' ) as $row ) : ?><!-- wp:list-item -->

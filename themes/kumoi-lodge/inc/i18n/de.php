@@ -112,7 +112,7 @@ return array(
 		array( 'Notizen', '/notes/' ),
 		array( 'Kontakt', '/contact/' ),
 	),
-	'langs'        => array( 'EN', '中文', '日本語', 'FR', 'DE' ),
+	'langs'        => array( 'EN', 'ZH', 'JA', 'FR', 'DE' ),
 	'legal'        => '© 2026 Kumoi Lodge. Eine fiktive Berghütte.',
 	'foot_email'   => 'stay@kumoilodge.example',
 	'foot_phone'   => '+00 41 555 0164',

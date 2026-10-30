@@ -14,10 +14,10 @@
 <!-- /wp:image -->
 <!-- wp:group {"className":"km-opener__in","layout":{"type":"default"}} -->
 <div class="wp-block-group km-opener__in"><!-- wp:heading {"level":2,"className":"km-statement sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading km-statement sp-reveal sp-reveal--up"><?php kumoi_lodge_e( 'op_l1' ); ?><br><?php kumoi_lodge_e( 'op_l2' ); ?><br><?php kumoi_lodge_e( 'op_l3' ); ?><br><?php kumoi_lodge_e( 'op_l4' ); ?></h2>
+<h2 class="wp-block-heading km-statement sp-reveal sp-reveal--up"><?php echo esc_html( kumoi_lodge_t( 'op_l1' ) ); ?><br><?php echo esc_html( kumoi_lodge_t( 'op_l2' ) ); ?><br><?php echo esc_html( kumoi_lodge_t( 'op_l3' ) ); ?><br><?php echo esc_html( kumoi_lodge_t( 'op_l4' ) ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"km-lead sp-reveal sp-reveal--up","style":{"layout":{}}} -->
-<p class="km-lead sp-reveal sp-reveal--up" style="--sp-delay:.15s"><?php kumoi_lodge_e( 'op_body' ); ?></p>
+<p class="km-lead sp-reveal sp-reveal--up" style="--sp-delay:.15s"><?php echo esc_html( kumoi_lodge_t( 'op_body' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

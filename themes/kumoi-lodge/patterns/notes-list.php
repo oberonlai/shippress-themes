@@ -34,7 +34,7 @@
 <!-- /wp:query-pagination -->
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"className":"km-lead"} -->
-<p class="km-lead"><?php kumoi_lodge_e( 'notes_none' ); ?></p>
+<p class="km-lead"><?php echo esc_html( kumoi_lodge_t( 'notes_none' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>

@@ -102,7 +102,7 @@ All three come from glanta and keep its shapes, proportions and contrast: rounde
 - **Mobile <782:** box stacks: photo first (aspect 1.4:1) then text (padding 28px 24px); icons stay in one row (3 × 44 px fit at 342 px); squares become 1-up full width, gap 40 px.
 
 ### Closing device (T4, glanta footer, `ref/scroll-glanta-12800.png`) — on every page
-Full-bleed dusk photo D1 (`min-height: 760px`, mobile 560 px), `sp-parallax --sp-par:8%` (mobile 5%), gradient `linear-gradient(to top, rgba(30,26,22,.55), rgba(30,26,22,0) 55%)`. Bottom-left (padding 50 px, `tok(c)` frame), white: "Kumoi Lodge" Nunito Sans 0.8125rem, postal line 0.8125rem; then the **wide-tracked index row** Nunito Sans 400 **1.375rem** (22 px), `letter-spacing: .1em`, uppercase, gap 24px, wraps to two lines: ROOMS · THE STAY · THE TABLE · RATES · WALKS · GETTING HERE · KEEPERS · NOTES · CONTACT. Right-bottom: language switcher (EN 中文 日本語 FR DE) 0.8125rem white and the ember ring "Hold a room" (see §3). Copyright line 0.75rem. Not a fixed badge; not sticky.
+Full-bleed dusk photo D1 (`min-height: 760px`, mobile 560 px), `sp-parallax --sp-par:8%` (mobile 5%), gradient `linear-gradient(to top, rgba(30,26,22,.55), rgba(30,26,22,0) 55%)`. Bottom-left (padding 50 px, `tok(c)` frame), white: "Kumoi Lodge" Nunito Sans 0.8125rem, postal line 0.8125rem; then the **wide-tracked index row** Nunito Sans 400 **1.375rem** (22 px), `letter-spacing: .1em`, uppercase, gap 24px, wraps to two lines: ROOMS · THE STAY · THE TABLE · RATES · WALKS · GETTING HERE · KEEPERS · NOTES · CONTACT. Right-bottom: language switcher (EN ZH JA FR DE) 0.8125rem white and the ember ring "Hold a room" (see §3). Copyright line 0.75rem. Not a fixed badge; not sticky.
 
 ### Continuation to inner pages (each technique on ≥ 4 inner pages)
 | Page | T1 split row | T2 blurred opener (page head) | T3 box / r30 squares | T4 close |
@@ -213,7 +213,7 @@ Every inner page: header bar (ink on `#E0E5C5`, not overlaid) → **T2 page head
 
 | Role | Hex | Source token | Use | Share |
 |---|---|---|---|---|
-| Ink (main) | `#3C342C` | row hex 黒橡; replaces ref `#000000` (warm near-black, same black-on-pale relationship; a lodge reads warmer than pure black) | all type, 1 px rules, box borders, pills, icons | ~8% |
+| Ink (main) | `#3C342C` | row hex kuro-tsurubami; replaces ref `#000000` (warm near-black, same black-on-pale relationship; a lodge reads warmer than pure black) | all type, 1 px rules, box borders, pills, icons | ~8% |
 | Meta | `#5E564E` | ref `#505050` warmed toward ink | meta lines, labels | — |
 | Ground 1 lichen (page base) | `#E0E5C5` | ref lichen, exact | site background, header, rooms, walks, notes | ~22% |
 | Ground 2 mint | `#D3E8DD` | ref mint, exact | rates band, Rates page | ~8% |
@@ -227,7 +227,7 @@ Contrast: ink on every ground ≥ 9:1; meta on lichen ≥ 5.5:1; ember ring text
 
 ## 6. Type, sizes, layout tokens
 
-- **Font direction: serif.** Latin headings **Fraunces** (variable, opsz; weights 300, 400, italic 400), Latin body **Nunito Sans** (400, 600, 700). CJK: **Noto Serif TC** (zh-TW) and **Noto Serif JP** (ja), 明體, for both headings and body (do not mix in Noto Sans).
+- **Font direction: serif.** Latin headings **Fraunces** (variable, opsz; weights 300, 400, italic 400), Latin body **Nunito Sans** (400, 600, 700). CJK: **Noto Serif TC** (zh-TW) and **Noto Serif JP** (ja), Mingti serif, for both headings and body (do not mix in Noto Sans).
 - Stacks (theme.json `fontFamilies` + `fontFace`, woff2 in `assets/fonts/`, zh-TW and ja subsets as in Hokuto/Hada; same files load in the editor iframe — copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and require it because style.css uses `:lang()`):
   - heading: `"Fraunces", "Noto Serif TC", "Noto Serif JP", Georgia, serif`
   - body: `"Nunito Sans", "Noto Serif TC", "Noto Serif JP", system-ui, sans-serif`

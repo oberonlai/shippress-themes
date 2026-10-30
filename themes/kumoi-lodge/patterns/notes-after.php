@@ -12,10 +12,10 @@
 <section class="wp-block-group alignfull km-sec km-g-cream"><!-- wp:group {"className":"km-col","layout":{"type":"default"}} -->
 <div class="wp-block-group km-col"><!-- wp:group {"className":"km-narr sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group km-narr sp-reveal sp-reveal--up"><!-- wp:heading {"level":3,"className":"km-card-title"} -->
-<h3 class="wp-block-heading km-card-title"><?php kumoi_lodge_e( 'notes_more_h' ); ?></h3>
+<h3 class="wp-block-heading km-card-title"><?php echo esc_html( kumoi_lodge_t( 'notes_more_h' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"km-lead"} -->
-<p class="km-lead"><?php kumoi_lodge_e( 'notes_more_p' ); ?></p>
+<p class="km-lead"><?php echo esc_html( kumoi_lodge_t( 'notes_more_p' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <?php echo kumoi_lodge_pill( kumoi_lodge_t( 'hold' ), '/rates-and-booking/' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></div>
