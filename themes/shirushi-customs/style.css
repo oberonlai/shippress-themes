@@ -522,3 +522,27 @@ section.sc-ph { position: relative; background: var(--sc-stage); color: #F1F3F2;
 	.sc-quay--inner .sc-quay__text { align-self: start; padding-top: 40px; }
 	.sc-quay--inner .sc-quay__inset { align-self: start; margin-top: 40px; }
 }
+
+/* Languages: zh-TW and ja use bundled Noto Sans TC / JP subsets (CJK characters only; Latin and figures stay in Onest / Source Sans 3) */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Onest", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Source Sans 3", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Onest", "Noto Sans JP", "Noto Sans CJK JP", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+	--wp--preset--font-family--body: "Source Sans 3", "Noto Sans JP", "Noto Sans CJK JP", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: .04em; }
+:is(:lang(zh), :lang(ja)) :is(.sc-nav, .sc-footer__k, .sc-fees__table thead th, .sc-line__scroll, .sc-line__tick) { text-transform: none; }
+:is(:lang(zh), :lang(ja)) .sc-stage__h1 { font-size: clamp(1.75rem, 3.3vw, 3.2rem); line-height: 1.4; max-width: 70%; }
+:is(:lang(zh), :lang(ja)) .sc-ph__h1 { font-size: clamp(1.75rem, 3vw, 2.8rem); line-height: 1.4; }
+:is(:lang(zh), :lang(ja)) .sc-plain__title { font-size: clamp(1.6rem, 3vw, 2.8rem); line-height: 1.4; }
+:lang(ja) :is(h1, h2, h3) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, h4, li, td) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .sc-stage__h1 { font-size: clamp(2rem, 3.8vw, 3.5rem); }
+:is(:lang(fr), :lang(de)) .sc-ph__h1 { font-size: clamp(2rem, 3.4vw, 3.25rem); }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) .sc-stage__h1 { font-size: 1.75rem; max-width: none; }
+	:is(:lang(fr), :lang(de)) .sc-stage__h1 { font-size: 1.875rem; }
+}
