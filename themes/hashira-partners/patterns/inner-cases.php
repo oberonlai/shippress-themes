@@ -337,7 +337,7 @@
 <!-- wp:group {"className":"hp-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step__body">
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">Project: Bay 3, Tanner Row Sheds, 180 m². Concept: a stockroom with a van door. Type: parts storage. A bicycle-parts seller outgrew a garage and needed one level floor with a roller door wide enough for two vans. Tanner Row Sheds is in Eastgate. The building has 12 bays, from 90 to 180 m², a clear height of 6 m, and rent from $12 per m² per month. Bay 3 sits at the top of that size range.</p>
+<p class="hp-step__text">A bicycle-parts seller outgrew a garage and needed one level floor with a roller door wide enough for two vans. Tanner Row Sheds is in Eastgate. The building has 12 bays, from 90 to 180 m², a clear height of 6 m, and rent from $12 per m² per month. Bay 3 sits at the top of that size range.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->
@@ -357,7 +357,7 @@
 <!-- wp:group {"className":"hp-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step__body">
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">Project: Bay 7, Mill Cross Yard, 240 m². Concept: early mornings, cold floors. Type: cool dispatch. A flower wholesaler wanted north light and a 05:00 loading slot, so we viewed the yard at that hour. Mill Cross Yard has 10 bays, from 150 to 300 m², a clear height of 6.5 m, and rent from $11 per m² per month. The yard is in Mill Cross, between steel-clad sheds, and Tomasz Wrona is the agent.</p>
+<p class="hp-step__text">A flower wholesaler wanted north light and a 05:00 loading slot, so we viewed the yard at that hour. Mill Cross Yard has 10 bays, from 150 to 300 m², a clear height of 6.5 m, and rent from $11 per m² per month. The yard is in Mill Cross, between steel-clad sheds, and Tomasz Wrona is the agent.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->
@@ -377,7 +377,7 @@
 <!-- wp:group {"className":"hp-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step__body">
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">Project: Bay 2, Foundry Court, 320 m². Concept: height for one big machine. Type: print finishing. A print finisher needed 8 m clear and a floor rated for its folder, which Daniel Cho checked before terms. Foundry Court is in Eastgate. It has 6 bays, from 200 to 420 m², a clear height of 8 m, and rent from $11 per m² per month. It is a tall foundry hall, and 320 m² gave the machine a single room under that height.</p>
+<p class="hp-step__text">A print finisher needed 8 m clear and a floor rated for its folder, which Daniel Cho checked before terms. Foundry Court is in Eastgate. It has 6 bays, from 200 to 420 m², a clear height of 8 m, and rent from $11 per m² per month. It is a tall foundry hall, and 320 m² gave the machine a single room under that height.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->
@@ -397,7 +397,7 @@
 <!-- wp:group {"className":"hp-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step__body">
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">Project: Bay 6, Ferry Road Depot, 160 m². Concept: a workshop with a shared yard. Type: workshop. A furniture restorer wanted a bench by the shutter and a neighbour who would not mind dust. Ferry Road Depot is in Riverside. It has 9 bays, from 100 to 220 m², a clear height of 5 m, and rent from $13 per m² per month.</p>
+<p class="hp-step__text">A furniture restorer wanted a bench by the shutter and a neighbour who would not mind dust. Ferry Road Depot is in Riverside. It has 9 bays, from 100 to 220 m², a clear height of 5 m, and rent from $13 per m² per month.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->

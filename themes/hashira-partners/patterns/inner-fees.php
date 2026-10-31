@@ -125,7 +125,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-body"} -->
-<p class="hp-body">Daniel Cho is the building surveyor who prepares a floor and loading check when you ask for the report. The first row is the only round at no charge. The next three rows are work you can add. The last two rows are the placement fee, and only one of them applies. These six rows are the fees of the firm. They do not change from page to page.</p>
+<p class="hp-body">Daniel Cho is the building surveyor who prepares a floor and loading check when you ask for the report. The first row is the only round at no charge, and only one of the two placement rows applies.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
