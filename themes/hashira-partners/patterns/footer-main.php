@@ -45,20 +45,55 @@
 <p class="hp-foot__h"><?php echo wp_kses_post( hashira_partners_t( 'k453aceb0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:navigation {"overlayMenu":"never","className":"hp-foot__nav","layout":{"type":"flex","orientation":"vertical"}} -->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'a9fdd5aad' ) ); ?>","url":"/buildings/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'aa7a750a6' ) ); ?>","url":"/cases/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'a74e406ff' ) ); ?>","url":"/viewings/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'a006300ef' ) ); ?>","url":"/fees/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'aac848fa2' ) ); ?>","url":"/team/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'a7cdc93ea' ) ); ?>","url":"/owners/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'af907357f' ) ); ?>","url":"/bay-guide/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'af4c6f851' ) ); ?>","url":"/notes/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'abbaff128' ) ); ?>","url":"/contact/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'affb7e666' ) ); ?>","url":"/newsletter/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'ac5f29bb3' ) ); ?>","url":"/privacy/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":"<?php echo esc_attr( hashira_partners_t( 'a6f1bf85c' ) ); ?>","url":"/terms/","kind":"custom","isTopLevelLink":true} /-->
-<!-- /wp:navigation --></div>
+<!-- wp:group {"className":"hp-foot__nav","layout":{"type":"default"}} -->
+<div class="wp-block-group hp-foot__nav"><!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/buildings/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'a9fdd5aad' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/cases/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'aa7a750a6' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/viewings/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'a74e406ff' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/fees/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'a006300ef' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/team/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'aac848fa2' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/owners/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'a7cdc93ea' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/bay-guide/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'af907357f' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/notes/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'af4c6f851' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'abbaff128' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/newsletter/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'affb7e666' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/privacy/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'ac5f29bb3' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="<?php echo esc_url( home_url( '/terms/' ) ); ?>"><?php echo wp_kses_post( hashira_partners_t( 'a6f1bf85c' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
