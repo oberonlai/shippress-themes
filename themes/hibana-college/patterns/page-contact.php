@@ -59,7 +59,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:cover {"url":"","dimRatio":40,"overlayColor":"base","isUserOverlayColor":true,"minHeight":420,"minHeightUnit":"px","contentPosition":"bottom left","align":"full","className":"hc-floor hc-floor--band sp-parallax"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/f1.webp' ) ); ?>","dimRatio":40,"overlayColor":"base","isUserOverlayColor":true,"minHeight":420,"minHeightUnit":"px","contentPosition":"bottom left","align":"full","className":"hc-floor hc-floor--band sp-parallax"} -->
 <div class="wp-block-cover alignfull has-custom-content-position is-position-bottom-left hc-floor hc-floor--band sp-parallax" style="min-height:420px"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( hibana_college_t( 'contact_cover_alt' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/f1.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 <!-- wp:paragraph {"className":"hc-floor__p"} -->
 <p class="hc-floor__p"><?php echo wp_kses_post( hibana_college_t( 'contact_cover_p' ) ); ?></p>

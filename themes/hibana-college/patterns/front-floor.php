@@ -7,7 +7,7 @@
  * Description: Full-bleed parallax photograph of the empty booth aisle with four figures: 12 students, 2 instructors, 24 booths, 728 hours.
  */
 ?>
-<!-- wp:cover {"url":"","dimRatio":40,"overlayColor":"base","isUserOverlayColor":true,"minHeight":640,"minHeightUnit":"px","contentPosition":"center center","align":"full","className":"hc-floor sp-parallax"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/f1.webp' ) ); ?>","dimRatio":40,"overlayColor":"base","isUserOverlayColor":true,"minHeight":640,"minHeightUnit":"px","contentPosition":"center center","align":"full","className":"hc-floor sp-parallax"} -->
 <div class="wp-block-cover alignfull hc-floor sp-parallax" style="min-height:640px"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-40 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( hibana_college_t( 'alt_f1' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/f1.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 <!-- wp:heading {"level":2,"className":"screen-reader-text"} -->
 <h2 class="wp-block-heading screen-reader-text"><?php echo wp_kses_post( hibana_college_t( 'floor_h' ) ); ?></h2>
