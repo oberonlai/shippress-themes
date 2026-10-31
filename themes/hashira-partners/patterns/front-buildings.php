@@ -33,7 +33,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Eastgate · 90–180 m²</p>
+<p class="hp-card__meta">Tanner Row · 90–180 m²</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
@@ -65,7 +65,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Riverside · 120–240 m²</p>
+<p class="hp-card__meta">Quay Lane · 120–240 m²</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
@@ -129,7 +129,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Eastgate · 200–420 m²</p>
+<p class="hp-card__meta">Foundry Court · 200–420 m²</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
@@ -161,7 +161,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Riverside · 100–220 m²</p>
+<p class="hp-card__meta">Ferry Road · 100–220 m²</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
@@ -193,7 +193,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Mill Cross · 90–160 m²</p>
+<p class="hp-card__meta">Orchard Street · 90–160 m²</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
@@ -212,9 +212,18 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"className":"hp-more__link hp-more__link--r"} -->
-<p class="hp-more__link hp-more__link--r"><a href="/buildings/">All buildings →</a></p>
-<!-- /wp:paragraph -->
+<!-- wp:group {"className":"hp-more hp-more--r","layout":{"type":"default"}} -->
+<div class="wp-block-group hp-more hp-more--r">
+<!-- wp:buttons {"className":"hp-pills"} -->
+<div class="wp-block-buttons hp-pills"><!-- wp:button {"className":"hp-pill hp-pill--dark"} -->
+<div class="wp-block-button hp-pill hp-pill--dark"><a class="wp-block-button__link wp-element-button" href="#request">Request a viewing ↓</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"className":"hp-more__link"} -->
+<p class="hp-more__link"><a href="/buildings/">All buildings →</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 </section>

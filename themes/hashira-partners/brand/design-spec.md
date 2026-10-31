@@ -65,7 +65,7 @@ The placement fee is paid only once a lease is signed. Listing a bay is free for
 | # | Project | Concept | Overview | Type | Photo |
 |---|---|---|---|---|---|
 | 1 | Bay 3, Tanner Row Sheds, 180 m² | A stockroom with a van door | A bicycle-parts seller outgrew a garage and needed one level floor with a roller door wide enough for two vans. | Parts storage | C1 |
-| 2 | Bay 11, Mill Cross Yard, 240 m² | Early mornings, cold floors | A flower wholesaler wanted north light and a 05:00 loading slot, so we viewed the yard at that hour. | Cool dispatch | C2 |
+| 2 | Bay 7, Mill Cross Yard, 240 m² | Early mornings, cold floors | A flower wholesaler wanted north light and a 05:00 loading slot, so we viewed the yard at that hour. | Cool dispatch | C2 |
 | 3 | Bay 2, Foundry Court, 320 m² | Height for one big machine | A print finisher needed 8 m clear and a floor rated for its folder, which Daniel Cho checked before terms. | Print finishing | C3 |
 | 4 | Bay 6, Ferry Road Depot, 160 m² | A workshop with a shared yard | A furniture restorer wanted a bench by the shutter and a neighbour who would not mind dust. | Workshop | C4 (Cases page only) |
 
@@ -167,7 +167,7 @@ Black `#000000`, `min-height: 100svh`, flex column.
 | 4 | `front-cases` | proof | `#cases`. T2 with 3 panels, then small right-aligned link "All case notes →" | C1, C2, C3 | 3 × 35 words |
 | 5 | `front-buildings` | what we handle | `#buildings`. T3 with h2 "Buildings / we handle", 6 cards, then "All buildings →" | B1–B6 | 6 × 22 words |
 | 6 | `front-viewing` | how it runs | `#viewing`. White. h2 94 px at x 51. 5 rows split at 52%: left number + name, 1.25rem 600; right paragraph 1.0625rem; 1 px black rule between rows. Then a line: "The first viewing round is free. A placement fee of 1 month's rent is due only once a lease is signed." Then W1 full bleed, `aspect-ratio: 21/9`, parallax | W1 | 5 × 30 words |
-| 7 | `front-request` | the one CTA | `#request`. Black. T1 "Bring your list," / "we'll bring the keys."; left: label + R1 4:3, width 555; right from x 747: 40 words + form (name, email, size needed, district select) + submit pill | R1 | 60 words |
+| 7 | `front-request` | the one CTA | `#request`. Black. T1 "Bring your list" / "we'll bring the keys."; left: label + R1 4:3, width 555; right from x 747: 40 words + form (name, email, size needed, district select) + submit pill | R1 | 60 words |
 | 8 | Footer | info | Black, facts strip, office, hours, page links, language switch | — | — |
 
 Form submit is an outline pill "Request a viewing" 42 px, white on black, the same component as the hero. Form mechanism: reuse Fumi Launch's static form pattern (no external service), landing on `/thanks/`. No sp-reveal on the form. Pills link to `#request` at the end of §4, §5 and in every inner page head: same text, same style. It is the only CTA.
