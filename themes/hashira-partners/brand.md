@@ -40,7 +40,7 @@ Black #000000 and white #FFFFFF grounds, grey #767676 for secondary text on whit
 
 ## Pages and contents
 1. **Home** - front-hero, front-vision, front-marquee, front-cases, front-buildings, front-viewing, front-request.
-2. Inner pages (stage 2): Buildings, Case notes, How a viewing runs, Fees, Team, Owners, Bay guide, Notes, Contact, Newsletter, Thanks, Privacy, Terms.
+2. Inner pages (en): Buildings (/buildings/, stepped-bar archive of all six), Case notes (/cases/, four case panels), How a viewing runs (/viewings/, five ruled steps and a wide panel), Fees (/fees/, three stepped notes and the six-row table), Team (/team/, founder story and seven stepped cards), Owners (/owners/), Bay guide (/bay-guide/), Notes (/notes/ index, one article in Field notes), Contact, Newsletter, Thanks, Privacy, Terms. Every inner page opens on the ruled two-line black head and closes on the one request pill; 404 and search reuse the head.
 
 ## Photography
-Seventeen AI-generated photographs (Grok Build), one style: 35 mm documentary, natural daylight through roller shutters and clerestory windows, high-key, muted warm-grey concrete and cardboard, candid, diverse adults in plain workwear, no text or logos. Thirteen are on the home page.
+Seventeen AI-generated photographs (Grok Build), plus one 16:9 crop of the flower-wholesaler photograph used as the article's featured image, one style: 35 mm documentary, natural daylight through roller shutters and clerestory windows, high-key, muted warm-grey concrete and cardboard, candid, diverse adults in plain workwear, no text or logos. Thirteen are on the home page.

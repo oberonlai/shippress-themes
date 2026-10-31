@@ -12,6 +12,8 @@ Hashira Partners is a small-warehouse leasing brokerage in Port Merrin, founded 
 
 A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). The home page opens on a black first screen with a two-line headline locked between three full-width rules, then runs through a statement, a looping line, three full-height case photographs with four caption columns, a stepped-bar buildings archive, five ruled viewing steps and one request form. See README.md for the design notes.
 
+The inner pages (buildings, case notes, viewings, fees, team, owners, bay guide, contact, newsletter, thanks, privacy, terms), a notes index and one sample article are imported with the theme and share the ruled black head, the stepped-bar cards and the case panels of the home page.
+
 == Installation ==
 
 1. Download hashira-partners.zip from https://github.com/oberonlai/shippress-themes/releases/download/themes/hashira-partners.zip
