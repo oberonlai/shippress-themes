@@ -16,11 +16,7 @@
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
-<!-- wp:group {"className":"hp-marquee__item hp-marquee__dup","layout":{"type":"default"}} -->
-<div class="wp-block-group hp-marquee__item hp-marquee__dup" aria-hidden="true">
-<!-- wp:paragraph {"className":"hp-marquee__text"} -->
-<p class="hp-marquee__text">Small bays. Honest viewings.</p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group --></section>
+<!-- wp:html -->
+<div class="hp-marquee__item hp-marquee__dup" aria-hidden="true"><p class="hp-marquee__text">Small bays. Honest viewings.</p></div>
+<!-- /wp:html --></section>
 <!-- /wp:group -->
