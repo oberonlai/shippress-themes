@@ -43,7 +43,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"className":"sj-hero__lead"} -->
-<p class="sj-hero__lead"><?php echo suji_clinic_lines( 'hero_lead' ); ?></p>
+<p class="sj-hero__lead"><?php echo str_replace( '<br>', ' <br>', suji_clinic_lines( 'hero_lead' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
