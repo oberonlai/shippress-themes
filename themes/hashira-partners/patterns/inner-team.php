@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","className":"hp-ihead","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group hp-ihead">
+<section class="wp-block-group alignfull hp-ihead">
 <!-- wp:heading {"level":1,"className":"hp-h1 hp-h1--close"} -->
 <h1 class="wp-block-heading hp-h1 hp-h1--close"><span class="hp-line hp-line--1"><span class="hp-line__t">Seven people,</span></span> <span class="hp-line hp-line--2"><span class="hp-line__t">one office.</span></span></h1>
 <!-- /wp:heading -->
@@ -39,7 +39,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","className":"hp-ibody hp-ibody--tight","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group hp-ibody hp-ibody--tight">
+<section class="wp-block-group alignfull hp-ibody hp-ibody--tight">
 <!-- wp:group {"className":"hp-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wrap">
 <!-- wp:group {"className":"hp-split","layout":{"type":"default"}} -->
@@ -83,7 +83,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","className":"hp-ibody","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group hp-ibody">
+<section class="wp-block-group alignfull hp-ibody">
 <!-- wp:group {"className":"hp-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wrap">
 <!-- wp:heading {"level":2,"className":"hp-h2"} -->
@@ -257,7 +257,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","className":"hp-iclose","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group hp-iclose">
+<section class="wp-block-group alignfull hp-iclose">
 <!-- wp:group {"className":"hp-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wrap">
 <!-- wp:group {"className":"hp-iclose__in","layout":{"type":"default"}} -->
