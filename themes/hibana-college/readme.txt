@@ -50,3 +50,4 @@ Image files:
 - assets/images/s1.webp: AI-generated, CC0
 - assets/images/s2.webp: AI-generated, CC0
 - assets/images/s3.webp: AI-generated, CC0
+- assets/images/demo/y3.webp: AI-generated, CC0 (copy of y3.webp for the sample post)

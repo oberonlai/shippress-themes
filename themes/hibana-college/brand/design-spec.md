@@ -162,7 +162,7 @@ Dark ground needs `theme.json` palette slugs `base` `#080D1B`, `contrast` `#FFFF
 
 ## 3. Type (font_direction: **serif**; tok(b))
 
-Direction: Latin serif headings, CJK Noto Serif (明體). Trajan-like caps are approximated with Literata caps at 400.
+Direction: Latin serif headings, CJK Noto Serif. Trajan-like caps are approximated with Literata caps at 400.
 - **Headings stack:** `Literata, "Noto Serif TC", "Noto Serif JP", Georgia, serif`
 - **Body stack (en, fr, de):** `"Work Sans", "Noto Serif TC", "Noto Serif JP", system-ui, sans-serif`
 - **zh-TW:** `:lang(zh-TW)` headings and body `"Noto Serif TC", Literata, serif`
