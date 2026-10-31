@@ -11,24 +11,24 @@
 <!-- wp:group {"tagName":"section","className":"hp-ihead","align":"full","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull hp-ihead">
 <!-- wp:heading {"level":1,"className":"hp-h1 hp-h1--close"} -->
-<h1 class="wp-block-heading hp-h1 hp-h1--close"><span class="hp-line hp-line--1"><span class="hp-line__t">Seven people,</span></span> <span class="hp-line hp-line--2"><span class="hp-line__t">one office.</span></span></h1>
+<h1 class="wp-block-heading hp-h1 hp-h1--close"><span class="hp-line hp-line--1"><span class="hp-line__t"><?php echo wp_kses_post( hashira_partners_t( 'ke0e03090' ) ); ?></span></span> <span class="hp-line hp-line--2"><span class="hp-line__t"><?php echo wp_kses_post( hashira_partners_t( 'k19e2c22b' ) ); ?></span></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hp-mission","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-mission">
 <!-- wp:paragraph {"className":"hp-label"} -->
-<p class="hp-label">Team</p>
+<p class="hp-label"><?php echo wp_kses_post( hashira_partners_t( 'kac848fa2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-mission__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-mission__col">
 <!-- wp:paragraph {"className":"hp-lead"} -->
-<p class="hp-lead">Founded in 2014 in Port Merrin: agents, a lease clerk, a surveyor and a viewing coordinator.</p>
+<p class="hp-lead"><?php echo wp_kses_post( hashira_partners_t( 'kae30c261' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"hp-pills"} -->
 <div class="wp-block-buttons hp-pills"><!-- wp:button {"className":"hp-pill"} -->
-<div class="wp-block-button hp-pill"><a class="wp-block-button__link wp-element-button" href="/#request">Request a viewing ↓</a></div>
+<div class="wp-block-button hp-pill"><a class="wp-block-button__link wp-element-button" href="/#request"><?php echo wp_kses_post( hashira_partners_t( 'k411d327c' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>
@@ -47,15 +47,15 @@
 <!-- wp:group {"className":"hp-split__text","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-split__text">
 <!-- wp:heading {"level":2,"className":"hp-view"} -->
-<h2 class="wp-block-heading hp-view">Founded in 2014</h2>
+<h2 class="wp-block-heading hp-view"><?php echo wp_kses_post( hashira_partners_t( 'k8b4908d8' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-body"} -->
-<p class="hp-body">In 2014 Mika Hashira founded Hashira Partners in Port Merrin. She is founder and managing partner. The firm leases small warehouse bays to local firms and shows them in the bay. The office is still Unit 4, 18 Tanner Row. The portfolio is still 6 buildings and 50 bays, from 90 to 420 m², in Eastgate, Riverside and Mill Cross. A viewing raises the shutter, walks the floor and includes the owner where that can be arranged.</p>
+<p class="hp-body"><?php echo wp_kses_post( hashira_partners_t( 'k209520e6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-body"} -->
-<p class="hp-body">We do not take bays over 420 m², cold stores or hazardous storage. A firm tells us the size, the district and when it needs the bay. We reply within 1 business day. The first viewing round, up to 3 bays, is free. The placement fee is paid only once a lease is signed: 1 month's rent up to 24 months, or 1.5 months' rent from 25 months. That is the practice she still runs.</p>
+<p class="hp-body"><?php echo wp_kses_post( hashira_partners_t( 'ke3d2fa41' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -63,7 +63,7 @@
 <!-- wp:group {"className":"hp-split__photo","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-split__photo">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","aspectRatio":"4/5","scale":"cover","className":"hp-photo-r"} -->
-<figure class="wp-block-image size-full hp-photo-r"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/a1-founder-stool.webp' ) ); ?>" alt="The founder reading papers on a stool in an empty bay" style="aspect-ratio:4/5;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full hp-photo-r"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/a1-founder-stool.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'af24d21f6' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -77,7 +77,7 @@
 <!-- wp:group {"className":"hp-wide hp-wide--full sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wide hp-wide--full sp-parallax">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hp-wide__img"} -->
-<figure class="wp-block-image size-full hp-wide__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/v1-floor-plan.webp' ) ); ?>" alt="Three people at a plain table reading a floor plan and a tablet in a bright small office"/></figure>
+<figure class="wp-block-image size-full hp-wide__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/v1-floor-plan.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'a04b99ce8' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -87,7 +87,7 @@
 <!-- wp:group {"className":"hp-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wrap">
 <!-- wp:heading {"level":2,"className":"hp-h2"} -->
-<h2 class="wp-block-heading hp-h2">The seven of us</h2>
+<h2 class="wp-block-heading hp-h2"><?php echo wp_kses_post( hashira_partners_t( 'k6d76e853' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hp-arch__wrap","layout":{"type":"default"}} -->
@@ -103,15 +103,15 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Mika Hashira</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'kff8c275c' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Mika Hashira, founder, managing partner, still asks that a viewing raise the shutter, walk the floor and include the owner where possible.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'k9022d848' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Founder, managing partner</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'kd1f4df22' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -125,15 +125,15 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Tomasz Wrona</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'kc7114a5c' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Tomasz Wrona, agent, Eastgate and Mill Cross, shows Tanner Row Sheds, Foundry Court, Mill Cross Yard and Orchard Street Works.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'k0baaa11d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Agent, Eastgate and Mill Cross</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'ka56d3251' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -147,15 +147,15 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Adaeze Nwosu</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'k0802e663' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Adaeze Nwosu, agent, Riverside and Ferry Road, shows Quay Lane Units and Ferry Road Depot.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'kc6f5c563' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Agent, Riverside and Ferry Road</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'k62c7b087' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -169,15 +169,15 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Lucía Ferrer</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'k70c69064' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Lucía Ferrer, lease clerk, reads the heads of terms through with you when a bay fits.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'k46db35d6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Lease clerk</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'kb0da1ce3' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -191,15 +191,15 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Daniel Cho</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'k7cad581d' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Daniel Cho, building surveyor, checks a floor before terms when the use needs it, as he did for the folder at Bay 2, Foundry Court.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'k2a944711' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Building surveyor</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'k9272910f' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -213,15 +213,15 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Priya Raman</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'ke16336e3' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Priya Raman, viewing coordinator, runs the 20-minute call that narrows a list to 3 bays.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'k87f78cef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Viewing coordinator</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'kefa8bd4e' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -235,15 +235,15 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Henrik Aas</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'k1314abe2' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Henrik Aas, owner relations, speaks to owners about listing a bay, which is free.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'kfaee9e09' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Owner relations</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'k4df5010d' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -263,12 +263,12 @@
 <!-- wp:group {"className":"hp-iclose__in","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-iclose__in">
 <!-- wp:paragraph {"className":"hp-lead"} -->
-<p class="hp-lead">Tell us the size, the district and when you need the bay. We reply within 1 business day.</p>
+<p class="hp-lead"><?php echo wp_kses_post( hashira_partners_t( 'kec35f333' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"hp-pills"} -->
 <div class="wp-block-buttons hp-pills"><!-- wp:button {"className":"hp-pill"} -->
-<div class="wp-block-button hp-pill"><a class="wp-block-button__link wp-element-button" href="/#request">Request a viewing</a></div>
+<div class="wp-block-button hp-pill"><a class="wp-block-button__link wp-element-button" href="/#request"><?php echo wp_kses_post( hashira_partners_t( 'kc71b3327' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>

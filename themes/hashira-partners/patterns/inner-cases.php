@@ -11,24 +11,24 @@
 <!-- wp:group {"tagName":"section","className":"hp-ihead","align":"full","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull hp-ihead">
 <!-- wp:heading {"level":1,"className":"hp-h1 hp-h1--close"} -->
-<h1 class="wp-block-heading hp-h1 hp-h1--close"><span class="hp-line hp-line--1"><span class="hp-line__t">Four notes,</span></span> <span class="hp-line hp-line--2"><span class="hp-line__t">four real asks.</span></span></h1>
+<h1 class="wp-block-heading hp-h1 hp-h1--close"><span class="hp-line hp-line--1"><span class="hp-line__t"><?php echo wp_kses_post( hashira_partners_t( 'k3b02c076' ) ); ?></span></span> <span class="hp-line hp-line--2"><span class="hp-line__t"><?php echo wp_kses_post( hashira_partners_t( 'k2793ef9c' ) ); ?></span></span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hp-mission","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-mission">
 <!-- wp:paragraph {"className":"hp-label"} -->
-<p class="hp-label">Case notes</p>
+<p class="hp-label"><?php echo wp_kses_post( hashira_partners_t( 'ka7a750a6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-mission__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-mission__col">
 <!-- wp:paragraph {"className":"hp-lead"} -->
-<p class="hp-lead">A project, a concept, an overview and a type of work. Tenants are described by what they do, never by a promise.</p>
+<p class="hp-lead"><?php echo wp_kses_post( hashira_partners_t( 'kfcb4e635' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"hp-pills"} -->
 <div class="wp-block-buttons hp-pills"><!-- wp:button {"className":"hp-pill"} -->
-<div class="wp-block-button hp-pill"><a class="wp-block-button__link wp-element-button" href="/#request">Request a viewing ↓</a></div>
+<div class="wp-block-button hp-pill"><a class="wp-block-button__link wp-element-button" href="/#request"><?php echo wp_kses_post( hashira_partners_t( 'k411d327c' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>
@@ -47,21 +47,21 @@
 <!-- wp:group {"className":"hp-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":2,"className":"hp-step__name"} -->
-<h2 class="wp-block-heading hp-step__name">Why we write them</h2>
+<h2 class="wp-block-heading hp-step__name"><?php echo wp_kses_post( hashira_partners_t( 'k1f833068' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hp-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step__body">
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">We write case notes so a firm can see a real ask next to a real bay before requesting a viewing. Each note has a project, a concept, a short overview and a type of work. The four published notes are parts storage, cool dispatch, print finishing and a workshop.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'k65c5943f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">The bays are Bay 3 at Tanner Row Sheds, Bay 7 at Mill Cross Yard, Bay 2 at Foundry Court and Bay 6 at Ferry Road Depot. Sizes stay at 180 m², 240 m², 320 m² and 160 m². We leave out move-in dates, savings and ratings. Tenants are described by the work they do.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'kd7daeb65' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">A note is not an offer of the same bay next week. Availability sits with the viewing desk. Write to viewings@hashirapartners.example or call 555-0142. We reply within 1 business day, and Priya Raman narrows a live list to 3 bays on a 20-minute call.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'k94f8f217' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -81,7 +81,7 @@
 <!-- wp:group {"className":"hp-panel sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-panel sp-parallax">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hp-panel__img"} -->
-<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c1-van-racking.webp' ) ); ?>" alt="Steel racking of unmarked cardboard boxes and a van at a raised shutter"/></figure>
+<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c1-van-racking.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'adc6fd4df' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-cap","layout":{"type":"default"}} -->
@@ -89,11 +89,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Project</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k9e727fdd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Bay 3, Tanner Row Sheds, 180 m²</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k408787f0' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -101,11 +101,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Concept</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'kd99a604c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A stockroom with a van door</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'kb659b9ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -113,11 +113,11 @@
 <!-- wp:group {"className":"hp-cap__col hp-cap__col--ov","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col hp-cap__col--ov">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Overview</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k3b878279' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A bicycle-parts seller outgrew a garage and needed one level floor with a roller door wide enough for two vans.</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'kde85a9f7' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -125,11 +125,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Type</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'ka1fa2777' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Parts storage</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k0d7d7a12' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -141,7 +141,7 @@
 <!-- wp:group {"className":"hp-panel sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-panel sp-parallax">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hp-panel__img"} -->
-<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c2-flower-buckets.webp' ) ); ?>" alt="People carrying buckets of pale flowers across a cold concrete floor in early light"/></figure>
+<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c2-flower-buckets.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'a9e9a979e' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-cap","layout":{"type":"default"}} -->
@@ -149,11 +149,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Project</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k9e727fdd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Bay 7, Mill Cross Yard, 240 m²</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k88339c45' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -161,11 +161,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Concept</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'kd99a604c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Early mornings, cold floors</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k9e598e3b' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -173,11 +173,11 @@
 <!-- wp:group {"className":"hp-cap__col hp-cap__col--ov","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col hp-cap__col--ov">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Overview</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k3b878279' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A flower wholesaler wanted north light and a 05:00 loading slot, so we viewed the yard at that hour.</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k32fa9c9f' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -185,11 +185,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Type</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'ka1fa2777' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Cool dispatch</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'kebbf8dbc' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -201,7 +201,7 @@
 <!-- wp:group {"className":"hp-panel sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-panel sp-parallax">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hp-panel__img"} -->
-<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c3-finishing-machine.webp' ) ); ?>" alt="A tall bay with a large grey finishing machine and one operator"/></figure>
+<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c3-finishing-machine.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'a80f8b215' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-cap","layout":{"type":"default"}} -->
@@ -209,11 +209,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Project</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k9e727fdd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Bay 2, Foundry Court, 320 m²</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'kc17ddf52' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -221,11 +221,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Concept</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'kd99a604c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Height for one big machine</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k28a25262' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -233,11 +233,11 @@
 <!-- wp:group {"className":"hp-cap__col hp-cap__col--ov","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col hp-cap__col--ov">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Overview</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k3b878279' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A print finisher needed 8 m clear and a floor rated for its folder, which Daniel Cho checked before terms.</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k1c869046' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -245,11 +245,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Type</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'ka1fa2777' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Print finishing</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k622385ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -261,7 +261,7 @@
 <!-- wp:group {"className":"hp-panel sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-panel sp-parallax">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hp-panel__img"} -->
-<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c4-restorer-bench.webp' ) ); ?>" alt="Furniture restorers at workbenches beside an open roller shutter"/></figure>
+<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c4-restorer-bench.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'a3f4d9b1b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-cap","layout":{"type":"default"}} -->
@@ -269,11 +269,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Project</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k9e727fdd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Bay 6, Ferry Road Depot, 160 m²</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'kb0e07635' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -281,11 +281,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Concept</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'kd99a604c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A workshop with a shared yard</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k105ba137' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -293,11 +293,11 @@
 <!-- wp:group {"className":"hp-cap__col hp-cap__col--ov","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col hp-cap__col--ov">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Overview</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k3b878279' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A furniture restorer wanted a bench by the shutter and a neighbour who would not mind dust.</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k0400520b' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -305,11 +305,11 @@
 <!-- wp:group {"className":"hp-cap__col","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Type</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'ka1fa2777' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Workshop</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k8e5d9dbc' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -331,17 +331,17 @@
 <!-- wp:group {"className":"hp-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":2,"className":"hp-step__name"} -->
-<h2 class="wp-block-heading hp-step__name">Bay 3, Tanner Row Sheds</h2>
+<h2 class="wp-block-heading hp-step__name"><?php echo wp_kses_post( hashira_partners_t( 'kf47eb616' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hp-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step__body">
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">A bicycle-parts seller outgrew a garage and needed one level floor with a roller door wide enough for two vans. Tanner Row Sheds is in Eastgate. The building has 12 bays, from 90 to 180 m², a clear height of 6 m, and rent from $12 per m² per month. Bay 3 sits at the top of that size range.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'k386d0822' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">We showed the shutter raised and walked the floor, and the width of the door was judged against two vans because that was the working question. The note stops at the ask and the bay. There is no move-in date, no saving and no score. Tomasz Wrona covers Eastgate if you want to know whether a similar bay is free. Tell us the size, the district and when you need it.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'k77c27ccd' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -351,17 +351,17 @@
 <!-- wp:group {"className":"hp-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":2,"className":"hp-step__name"} -->
-<h2 class="wp-block-heading hp-step__name">Bay 7, Mill Cross Yard</h2>
+<h2 class="wp-block-heading hp-step__name"><?php echo wp_kses_post( hashira_partners_t( 'k819ca101' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hp-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step__body">
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">A flower wholesaler wanted north light and a 05:00 loading slot, so we viewed the yard at that hour. Mill Cross Yard has 10 bays, from 150 to 300 m², a clear height of 6.5 m, and rent from $11 per m² per month. The yard is in Mill Cross, between steel-clad sheds, and Tomasz Wrona is the agent.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'kd117dd05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">We went at 05:00 because that was the slot they needed to judge. Published viewing hours remain Tue–Sat 09:00–15:00. The floor was cold concrete. That is not a cold store, and cold stores are outside what we handle. The note records the light, the hour and the floor. It does not record a result, a rating or a claim that Bay 7 will be empty for the next firm.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'ke5a849d7' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -371,17 +371,17 @@
 <!-- wp:group {"className":"hp-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":2,"className":"hp-step__name"} -->
-<h2 class="wp-block-heading hp-step__name">Bay 2, Foundry Court</h2>
+<h2 class="wp-block-heading hp-step__name"><?php echo wp_kses_post( hashira_partners_t( 'kc5b3f145' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hp-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step__body">
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">A print finisher needed 8 m clear and a floor rated for its folder, which Daniel Cho checked before terms. Foundry Court is in Eastgate. It has 6 bays, from 200 to 420 m², a clear height of 8 m, and rent from $11 per m² per month. It is a tall foundry hall, and 320 m² gave the machine a single room under that height.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'k593603f7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">Daniel Cho is our building surveyor. The note says he checked the floor. It does not publish a pass mark or a score for a different machine. On the viewing itself we still measure the shutter, walk the loading route and test the power. A written floor and loading check report, if you want one for your own equipment, is $340.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'k5e4b33b5' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -391,21 +391,21 @@
 <!-- wp:group {"className":"hp-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":2,"className":"hp-step__name"} -->
-<h2 class="wp-block-heading hp-step__name">Bay 6, Ferry Road Depot</h2>
+<h2 class="wp-block-heading hp-step__name"><?php echo wp_kses_post( hashira_partners_t( 'k19e661a7' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hp-step__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-step__body">
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">A furniture restorer wanted a bench by the shutter and a neighbour who would not mind dust. Ferry Road Depot is in Riverside. It has 9 bays, from 100 to 220 m², a clear height of 5 m, and rent from $13 per m² per month.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'k832408a2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">Adaeze Nwosu is the agent for Riverside and Ferry Road. The depot has a canopy over the loading edge, and Bay 6 opens onto a yard used with neighbouring bays. Dust, the bench and the neighbour were the brief, so those were the things to stand next to with the shutter open.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'kfa69325d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-step__text"} -->
-<p class="hp-step__text">The note does not say the neighbour agreed, and it does not offer a rating of the yard. It records what was asked and what the bay was. A workshop use belongs in the 20-minute call before anyone books the round.</p>
+<p class="hp-step__text"><?php echo wp_kses_post( hashira_partners_t( 'k3f8f8609' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -425,12 +425,12 @@
 <!-- wp:group {"className":"hp-iclose__in","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-iclose__in">
 <!-- wp:paragraph {"className":"hp-lead"} -->
-<p class="hp-lead">Tell us the size, the district and when you need the bay. We reply within 1 business day.</p>
+<p class="hp-lead"><?php echo wp_kses_post( hashira_partners_t( 'kec35f333' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"hp-pills"} -->
 <div class="wp-block-buttons hp-pills"><!-- wp:button {"className":"hp-pill"} -->
-<div class="wp-block-button hp-pill"><a class="wp-block-button__link wp-element-button" href="/#request">Request a viewing</a></div>
+<div class="wp-block-button hp-pill"><a class="wp-block-button__link wp-element-button" href="/#request"><?php echo wp_kses_post( hashira_partners_t( 'kc71b3327' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>
