@@ -46,7 +46,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hc-arrow"} -->
-<p class="hc-arrow"><a href="/workshop-and-safety/"><?php echo wp_kses_post( hibana_college_t( 'about_l2' ) ); ?></a></p>
+<p class="hc-arrow"><a href="/workshop-safety/"><?php echo wp_kses_post( hibana_college_t( 'about_l2' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

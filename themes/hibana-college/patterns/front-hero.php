@@ -52,7 +52,7 @@
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"className":"hc-tl__names"} -->
-<p class="hc-tl__names">1 <?php echo wp_kses_post( hibana_college_t( 'tl_1' ) ); ?> · 2 <?php echo wp_kses_post( hibana_college_t( 'tl_2' ) ); ?> · 3 <?php echo wp_kses_post( hibana_college_t( 'tl_3' ) ); ?> · 4 <?php echo wp_kses_post( hibana_college_t( 'tl_4' ) ); ?> · 5 <?php echo wp_kses_post( hibana_college_t( 'tl_5' ) ); ?> · 6 <?php echo wp_kses_post( hibana_college_t( 'tl_6' ) ); ?></p>
+<p class="hc-tl__names">1 <?php echo wp_kses_post( hibana_college_t( 'tl_1' ) ); ?><br>2 <?php echo wp_kses_post( hibana_college_t( 'tl_2' ) ); ?><br>3 <?php echo wp_kses_post( hibana_college_t( 'tl_3' ) ); ?><br>4 <?php echo wp_kses_post( hibana_college_t( 'tl_4' ) ); ?><br>5 <?php echo wp_kses_post( hibana_college_t( 'tl_5' ) ); ?><br>6 <?php echo wp_kses_post( hibana_college_t( 'tl_6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hc-rail"} -->

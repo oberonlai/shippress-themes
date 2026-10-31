@@ -48,3 +48,5 @@ Image files:
 - assets/images/p1.webp: AI-generated, CC0
 - assets/images/p2.webp: AI-generated, CC0
 - assets/images/s1.webp: AI-generated, CC0
+- assets/images/s2.webp: AI-generated, CC0
+- assets/images/s3.webp: AI-generated, CC0

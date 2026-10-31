@@ -29,7 +29,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"hc-more"} -->
-<p class="hc-more"><a href="/course/"><?php echo wp_kses_post( hibana_college_t( 'more_detail' ) ); ?></a></p>
+<p class="hc-more"><a href="/six-month-course/"><?php echo wp_kses_post( hibana_college_t( 'more_detail' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
