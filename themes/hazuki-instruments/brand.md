@@ -43,7 +43,7 @@ Across seventeen years of operation, our daily focus has remained consistent and
 - Rent paid counts toward purchase within 12 months.
 
 ## Signature techniques (carried to every page)
-1. Seam headline strip: abutting full-height photo panels, 2 px seams, one vertical headline across the seam, flat steel 26 px label bar at the foot (home 4 panels; inner pages mini strips).
+1. Seam headline strip: abutting full-height photo panels, 2 px seams, one vertical headline across the seam, no bar over the home hero since 1.0.1 (home 4 panels; inner pages mini strips keep a flat steel 26 px label bar at the foot).
 2. 3-then-4 plain tile rhythm: caption-under-image 4:3 tiles, radius 0, a row of three then a row of four, closed by a wide outline button.
 3. Quiet label system: centred letter-spaced Latin caps label over alternating white / #F6F6F6 bands, and dated hairline rows with a right chevron (also used for prices, staff and hours).
 

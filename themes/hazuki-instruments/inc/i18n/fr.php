@@ -102,7 +102,6 @@ return array(
 	'kcd6397b9' => 'Kenji Arai',
 	'kd0a7881e' => 'Un essayage, pas une vente.',
 	'kd0fbda98' => 'Page introuvable',
-	'kd3c6ab31' => 'Choisir · Essayer · Entretenir',
 	'kd5fbbba2' => 'Batteries &amp; percussions',
 	'kdd7bf230' => 'Adresse',
 	'ke1168cef' => 'Presque fini : emballé à la main en boutique',

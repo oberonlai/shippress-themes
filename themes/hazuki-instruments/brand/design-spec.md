@@ -12,7 +12,7 @@ Fixed brand facts (every page, all five languages, identical numbers):
 
 ## 1. Signature techniques (three; must be obvious at a glance)
 
-### T1. Seam headline strip with a flat label bar (Shimamura hero, `ref/shim-first.png`)
+### T1. Seam headline strip (1.0.1: the home hero no longer carries the label bar; inner mini strips still do) (Shimamura hero, `ref/shim-first.png`)
 - Reference: directly under a 59 px white header, four full-height portrait photos sit edge to edge across the full width (1425×590 at 1440×900, each ≈25%, visible seams). One white vertical headline (≈38 px per glyph) runs down the seam between panels 2 and 3. A flat orange 26 px "Brand Promise" bar crosses the whole strip about 50 px above its bottom edge. The strip *is* the hero; nothing is overlaid besides the headline and bar.
 - Hazuki (desktop 1440): `.hz-seam` alignfull Group, height `clamp(460px, 65.5vh, 590px)` (590/900 = 65.5% from token (e)), 4 columns `grid-template-columns: 1fr 1fr 1fr 1fr`, `gap: 2px` on ground `#FFFFFF` (the 2 px white seam), radius 0. Each panel is a `figure` with `img` `object-fit: cover`, `object-position` set per image (faces/hands in upper third).
 - Headline: absolutely positioned at `left: 50%` (seam 2|3), `top: 44px`, `transform: translateX(-50%)`, `writing-mode: vertical-rl` in **ja and zh-TW**; in en/fr/de the headline is horizontal but rotated: `writing-mode: vertical-rl` + `text-orientation: sideways` (reads top→bottom). Text en: **"Find the one that fits."** Manrope 700, `2.375rem` (38 px = token f), letter-spacing .04em, white, `text-shadow: 0 1px 14px rgba(0,0,0,.28)`. ja(see demo-content.<lang>.json), zh-TW(see demo-content.<lang>.json).
@@ -222,7 +222,7 @@ Not used: hero reveal, sp-count, sp-marquee, any reveal on the price list or for
 - [ ] Header white, centred nav, sticky; one menu.
 - [ ] Hero: 4 abutting portrait photos P01–P04 (people with instruments), 2 px seams, ≈590 px tall at 1440×900.
 - [ ] Vertical white headline on seam 2|3 (desktop); horizontal h1 under grid on mobile.
-- [ ] Steel `#5C6A78` flat 26 px bar "Fit · Trial · Care" across the strip foot.
+- [x] Removed in 1.0.1 (owner: ugly): the steel `#5C6A78` 26 px bar "Fit · Trial · Care" across the home strip foot. Inner mini strips keep their bars.
 - [ ] Info row (hours · address · Book a trial booth ›) directly under the strip.
 - [ ] 3 dated Floor-notes rows with chevrons + right-aligned "All floor notes", first row visible at 900 px.
 - [ ] Statement heading at 4.5rem (≥4.25rem) with offset P05.
