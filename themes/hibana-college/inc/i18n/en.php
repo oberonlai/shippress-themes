@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns (keys are named after the pattern part). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'about_h1' => 'About',
 	'about_intro' => 'Hibana College opened in 2011 so adults who had never held a torch could learn welding and fabrication. The workshop is in Port Aldren.',
@@ -96,6 +96,7 @@ return array(
 	'crow4_d' => 'A $500 deposit secures a booth. Helmet, jacket, gloves and boots are issued on the first morning, before the first drawing.',
 	'crow4_n' => 'Day one',
 	'crow4_r' => '$500 deposit',
+	'date_fmt' => 'j F Y',
 	'fee1_l' => '26 weeks, 728 hours, kit included',
 	'fee1_n' => 'Six-Month Course',
 	'fee1_p' => '$9,800',
