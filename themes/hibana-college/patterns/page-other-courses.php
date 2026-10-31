@@ -31,8 +31,8 @@
 
 <!-- wp:group {"className":"hc-sec hc-isecwrap","layout":{"type":"default"},"tagName":"section","align":"full"} -->
 <section class="wp-block-group alignfull hc-sec hc-isecwrap">
-<!-- wp:group {"className":"hc-wrap hc-inner-body","layout":{"type":"default"}} -->
-<div class="wp-block-group hc-wrap hc-inner-body">
+<!-- wp:group {"className":"hc-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group hc-wrap">
 <!-- wp:group {"className":"hc-isplit","layout":{"type":"default"}} -->
 <div class="wp-block-group hc-isplit">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hc-isplit__img"} -->
@@ -49,8 +49,11 @@
 <p><?php echo wp_kses_post( hibana_college_t( 'other_courses_s1_p1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
+<!-- wp:group {"className":"hc-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group hc-wrap">
 <!-- wp:group {"className":"hc-isec sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hc-isec sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":2,"className":"hc-sec__h"} -->
@@ -60,8 +63,11 @@
 <!-- wp:paragraph -->
 <p><?php echo wp_kses_post( hibana_college_t( 'other_courses_s2_p1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
+<!-- wp:group {"className":"hc-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group hc-wrap">
 <!-- wp:group {"className":"hc-isec sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hc-isec sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":2,"className":"hc-sec__h"} -->
@@ -71,8 +77,11 @@
 <!-- wp:paragraph -->
 <p><?php echo wp_kses_post( hibana_college_t( 'other_courses_s3_p1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
+<!-- wp:group {"className":"hc-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group hc-wrap">
 <!-- wp:group {"className":"hc-isec sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hc-isec sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":2,"className":"hc-sec__h"} -->
@@ -82,8 +91,11 @@
 <!-- wp:paragraph -->
 <p><?php echo wp_kses_post( hibana_college_t( 'other_courses_s4_p1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
+<!-- wp:group {"className":"hc-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group hc-wrap">
 <!-- wp:paragraph {"className":"hc-arrow"} -->
 <p class="hc-arrow"><a href="/fees/"><?php echo wp_kses_post( hibana_college_t( 'other_courses_next' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>

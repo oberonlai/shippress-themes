@@ -31,14 +31,8 @@
 
 <!-- wp:group {"className":"hc-sec hc-isecwrap","layout":{"type":"default"},"tagName":"section","align":"full"} -->
 <section class="wp-block-group alignfull hc-sec hc-isecwrap">
-<!-- wp:group {"className":"hc-wrap hc-inner-body","layout":{"type":"default"}} -->
-<div class="wp-block-group hc-wrap hc-inner-body">
-<!-- wp:group {"className":"hc-isplit","layout":{"type":"default"}} -->
-<div class="wp-block-group hc-isplit">
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hc-isplit__img"} -->
-<figure class="wp-block-image size-full hc-isplit__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/y3.webp' ) ); ?>" alt="<?php echo esc_attr( hibana_college_t( 'journal_alt1' ) ); ?>"/></figure>
-<!-- /wp:image -->
-
+<!-- wp:group {"className":"hc-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group hc-wrap">
 <!-- wp:group {"className":"hc-isec sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hc-isec sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":2,"className":"hc-sec__h"} -->
@@ -51,6 +45,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
+<!-- wp:group {"className":"hc-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group hc-wrap">
 <!-- wp:group {"className":"hc-isec sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hc-isec sp-reveal sp-reveal--up">
 <!-- wp:heading {"level":2,"className":"hc-sec__h"} -->
@@ -60,16 +56,26 @@
 <!-- wp:paragraph -->
 <p><?php echo wp_kses_post( hibana_college_t( 'journal_s2_p1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
+<!-- wp:group {"className":"hc-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group hc-wrap">
 <!-- wp:query {"query":{"perPage":10,"postType":"post","inherit":false},"layout":{"type":"default"}} -->
 <div class="wp-block-query"><!-- wp:post-template -->
-<!-- wp:post-title {"isLink":true,"level":3} /-->
+<!-- wp:group {"className":"hc-post__meta","layout":{"type":"default"}} -->
+<div class="wp-block-group hc-post__meta"><!-- wp:post-date /--></div>
+<!-- /wp:group -->
+
+<!-- wp:post-title {"isLink":true,"level":3,"className":"hc-h2"} /-->
 
 <!-- wp:post-excerpt /-->
 <!-- /wp:post-template --></div>
-<!-- /wp:query -->
+<!-- /wp:query --></div>
+<!-- /wp:group -->
 
+<!-- wp:group {"className":"hc-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group hc-wrap">
 <!-- wp:paragraph {"className":"hc-arrow"} -->
 <p class="hc-arrow"><a href="/admissions/"><?php echo wp_kses_post( hibana_college_t( 'journal_next' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
