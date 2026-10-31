@@ -8,7 +8,7 @@ Similarity target ≈ 80 % in colour relationship, photo treatment, motion, deco
 
 ## 1. Signature techniques (three, obvious at a glance)
 
-### T1. Mist wave foot + tab-notched notice card (ref: hero wave + 重要なお知らせ card)
+### T1. Mist wave foot + tab-notched notice card (ref: hero wave + important-notice card)
 - **Reference:** under the photo row a pale-mint SVG wave rises ≈160 px from the bottom (f). A white card r24 (d), ≈ 70 % container width, straddles the wave; a white tab (r16 top corners only) sits on its top-left edge holding a coral "!" icon + label in coral; inside one row: green date, filled green chip, text, 34 px squircle arrow button at the far right.
 - **Ours, home hero bottom half:** wave fill `#EAF0EE`, height 150 px desktop / 72 px mobile, curve rising from left (low) to right (high) like the ref. Card `#FFFFFF`, width 78 % of 1220 container (≈ 950 px), r24, shadow `0 0 32px rgba(63,90,86,.10)` (d, green-tinted glow → teal tint). Card top edge sits 40 % above the wave crest so it visibly straddles it. Tab: 236×44 px, white, r16 16 0 0, overlapping the card top by 0 (it is the card's own raised tab, like the ref); content = 18 px coral `#E9795C` round "!" icon + "Next open dates for company groups" 0.875rem/600 in coral. Row: date `Tue 18 Nov` teal 600 · chip `6 places left` (bg `#5E7D78`, white, 0.75rem, pill, 4/14 px padding) · text "Morning group slot, 7:30–11:30, up to 12 staff" · 34 px squircle (r 33 %) arrow button bg `#EAF0EE`, arrow `#5E7D78`.
 - **Not to be diluted:** the coral tab must be a real raised tab on the card's top-left (not a floating badge), the wave must be a visible curve (not a straight band), coral appears only here and on the header CTA.
@@ -18,8 +18,8 @@ Similarity target ≈ 80 % in colour relationship, photo treatment, motion, deco
 - **Ours, home §3 "What the morning covers":** five tiles, gap 24 px (c), photo `aspect-ratio:1.08/1; border-radius:26px; object-fit:cover`. Scoop: pseudo-element 56×56 white with `border-top-left-radius:56px` at bottom-right, with a 30 px round button bg `#5E7D78` + white arrow (on hover → `#3F5A56`, .3s ease, arrow nudges 3 px). Label centred under tile, Figtree 1.125rem/600 `#3F5A56`, plus one 0.875rem line of muted `#5E6B69` text ("about 15 min"). Tablet 3+2, mobile 2 columns (the 5th spans, centred at 50 % width); never a horizontal scroller.
 - **Not to be diluted:** the scoop must be a true cut (white matches the section ground) with the round arrow sitting in it; radius 26 stays.
 
-### T3. Square-dot Latin label + big title left, ruled dated rows right (ref: "■ News 新着情報" block)
-- **Reference:** mint band; left column (≈ 22 %) 8 px green square + "News" 0.875rem, title 2.1rem below, "一覧を見る" link with a small filled square arrow; right column rows separated by 1 px hairline `#D8E0D8` (d): green date + filled chip on line 1, text on line 2, 34 px white squircle arrow button at right.
+### T3. Square-dot Latin label + big title left, ruled dated rows right (ref: "■ News" block)
+- **Reference:** mint band; left column (≈ 22 %) 8 px green square + "News" 0.875rem, title 2.1rem below, "view all" link with a small filled square arrow; right column rows separated by 1 px hairline `#D8E0D8` (d): green date + filled chip on line 1, text on line 2, 34 px white squircle arrow button at right.
 - **Ours, home §4 "How findings are explained" and §6 "Open dates":** grid 3/12 + 9/12, gap 64 px. Label: 8×8 `#5E7D78` square + Latin label ("Results", "Booking") Figtree 0.875rem/600 letter-spacing .04em `#5E7D78`. Title Figtree 2.25rem/600 `#2F3B39`. Rows: padding 26 px 0, hairline `1px solid #D3DEDB`; line 1 = step/date in teal 600 0.875rem + chip; line 2 = 1rem body; arrow button 34 px squircle white with `#5E7D78` arrow (on mist band) or `#EAF0EE` (on white).
 - **Not to be diluted:** the square dot, the left/right split and the hairlines; rows are not cards.
 
@@ -45,7 +45,7 @@ Every inner page head = mist `#EAF0EE` band 300 px desktop with ■ label + H1 l
 **(2) Our translation (same scene type, same motion idea, same image type = real high-key daylight photos).** *A company medical is an ordinary calm morning, not an ordeal.* Top half: text left, and on the right two rounded tall photos side by side (inside the container, not bleeding off): the large one is the row's signature scene — a physician and a client reading a printed results booklet at a pale wood table in bright daylight; the narrower one continues the reference's "people walking outdoors" — two colleagues walking along a tree-lined path towards a low clinic building in the morning. Bottom half: the mist wave and the notice card with the next open company date (the reference's notice card = our booking news). Motion: photos enter staggered on load (CSS keyframe, not scroll reveal), the large photo has slow parallax (the reference's drift, made scroll-driven).
 
 **(3) KV checklist** (all visible in the 1440×900 first screen; images listed in §8)
-| # | 参考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Which image |
 |---|---|---|---|---|---|
 | 1 | Tall rounded photo of everyday people (family / senior walking) | Large rounded photo (0.85:1, r30): physician + client reading a printed results booklet at a pale wood table | right half of top half, x 640–1060, y 150–640 | `sp-parallax` `--sp-par:8%` + load fade-up 24 px .8 s | P01 hero-booklet |
 | 2 | Second rounded photo cropped narrow beside the first (neighbour sliver) | Narrow rounded photo (0.42:1, r30): two colleagues walking on a tree-lined path to the clinic | right of #1, x 1084–1220, top offset +56 px | load fade-up, delay .12 s | P02 morning-walk |
@@ -56,7 +56,7 @@ Every inner page head = mist `#EAF0EE` band 300 px desktop with ■ label + H1 l
 
 ---
 
-## 2. Colour (source: tokens a; reference relation green-main / mint-band / coral-accent kept, hue shifted to the row's 錆青磁 slate-teal because the row fixes `#5E7D78`; ref green #198754 is also too close to recent green themes)
+## 2. Colour (source: tokens a; reference relation green-main / mint-band / coral-accent kept, hue shifted to the row's sabi-seiji slate-teal because the row fixes `#5E7D78`; ref green #198754 is also too close to recent green themes)
 | Role | Hex | Ref counterpart | Share (first screen) |
 |---|---|---|---|
 | Base | `#FFFFFF` | #FFFFFF | ≈ 62 % |
@@ -72,7 +72,7 @@ Photos ≈ 12 %. **First-screen saturated share ≤ 15 %** (target ≈ 8 %; chec
 
 ## 3. Type (font_direction sans; tokens b)
 - Latin headings: **Figtree** 500/600. Latin body: **Source Sans 3** 400/600.
-- Stacks: heading `"Figtree","Noto Sans TC","Noto Sans JP",system-ui,sans-serif`; body `"Source Sans 3","Noto Sans TC","Noto Sans JP",system-ui,sans-serif`. `:lang(zh-TW)` puts Noto Sans TC first, `:lang(ja)` Noto Sans JP first (黑體; no Mincho anywhere).
+- Stacks: heading `"Figtree","Noto Sans TC","Noto Sans JP",system-ui,sans-serif`; body `"Source Sans 3","Noto Sans TC","Noto Sans JP",system-ui,sans-serif`. `:lang(zh-TW)` puts Noto Sans TC first, `:lang(ja)` Noto Sans JP first (gothic; no Mincho anywhere).
 - All via theme.json `fontFamilies` + `fontFace` (woff2 in assets/fonts, incl. zh-TW / ja subsets); editor = front end; copy shared/inc/editor-lang.php → inc/editor-lang.php, require in functions.php.
 - Scale (theme.json): xs .8125rem · sm .875rem · base 1.0625rem (lh 1.8, ref b) · md 1.25rem · lg 1.75rem · xl 2.25rem (section titles, ref 1.6–2.4) · xxl 3rem · display **clamp(2.6rem, 5vw, 4.5rem)** (H1; max 4.5rem ≥ 4.25). Weights 400/600 only (ref regular/medium). Headings lh 1.3, letter-spacing −.01em. CJK ≈ 0.75× display size, body lh 1.85; de/fr `hyphens:auto`.
 

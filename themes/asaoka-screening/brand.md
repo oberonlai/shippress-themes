@@ -20,7 +20,7 @@ Design plan row: b20-1 (corporate health screening centre, type business). Stage
 - Priya Nair, company liaison
 
 ## Hours
-Checks Mon–Sat 7:30–11:30. Result explanations Mon–Fri 14:00–17:00. Closed Sundays and public holidays.
+The screening day: Checks Mon–Sat 7:30–11:30. Result explanations Mon–Fri 14:00–17:00. Closed Sundays and public holidays.
 
 ## Fixed facts (identical on every page and language)
 - Groups of 5 to 40 staff per morning; reserve at least 3 weeks ahead; we confirm a request within 2 working days.
