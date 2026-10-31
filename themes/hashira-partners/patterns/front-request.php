@@ -33,7 +33,7 @@
 <!-- wp:group {"className":"hp-split__form","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-split__form">
 <!-- wp:paragraph {"className":"hp-lead"} -->
-<p class="hp-lead">Send your name, your email, the size you need and the district: Eastgate, Riverside or Mill Cross. Priya Raman replies within 1 business day. The first viewing round, up to 3 bays, is free and runs Tue–Sat 09:00–15:00. The placement fee is 1 month's rent up to 24 months, or 1.5 months' rent from 25 months, paid only once a lease is signed.</p>
+<p class="hp-lead">Send your name, your email, the size you need and the district: Eastgate, Riverside or Mill Cross. Priya Raman replies within 1 business day. The first viewing round, up to 3 bays, is free.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->

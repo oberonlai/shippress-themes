@@ -29,7 +29,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Tanner Row Sheds in Eastgate: 12 bays of 90–180 m², clear height 6 m. Rent from $12 per m² per month.</p>
+<p class="hp-card__sum">12 bays of 90–180 m², clear height 6 m. Rent from $12 per m² per month.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
@@ -61,7 +61,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Quay Lane Units in Riverside: 8 bays of 120–240 m², clear height 5.5 m. Rent from $14 per m² per month.</p>
+<p class="hp-card__sum">8 bays of 120–240 m², clear height 5.5 m. Rent from $14 per m² per month.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
@@ -93,7 +93,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Mill Cross Yard in Mill Cross: 10 bays of 150–300 m², clear height 6.5 m. Rent from $11 per m² per month.</p>
+<p class="hp-card__sum">10 bays of 150–300 m², clear height 6.5 m. Rent from $11 per m² per month.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
@@ -125,7 +125,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Foundry Court in Eastgate holds 6 bays of 200–420 m², clear height 8 m. Rent from $11 per m² per month.</p>
+<p class="hp-card__sum">6 bays of 200–420 m², clear height 8 m. Rent from $11 per m² per month.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
@@ -157,7 +157,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Ferry Road Depot in Riverside: 9 bays of 100–220 m², clear height 5 m. Rent from $13 per m² per month.</p>
+<p class="hp-card__sum">9 bays of 100–220 m², clear height 5 m. Rent from $13 per m² per month.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
@@ -189,7 +189,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">Orchard Street Works in Mill Cross: 5 bays of 90–160 m², clear height 4.5 m. Rent from $15 per m² per month.</p>
+<p class="hp-card__sum">5 bays of 90–160 m², clear height 4.5 m. Rent from $15 per m² per month.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
