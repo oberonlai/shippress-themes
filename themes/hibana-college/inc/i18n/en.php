@@ -103,7 +103,7 @@ return array(
 	'm5_name' => 'Fabrication',
 	'm5_tab' => 'MONTH 5',
 	'm6_big' => '6',
-	'm6_det' => 'Test plates seen by a visiting independent inspector, then two weeks on placement in a local shop. Leaves the bench: a test plate set and an inspector\'s report.',
+	'm6_det' => 'Inspector-read test plates, then two weeks on placement. Leaves the bench: a plate set and a report.',
 	'm6_name' => 'Test Pieces & Placement',
 	'm6_tab' => 'MONTH 6',
 	'month_word' => 'Month',
