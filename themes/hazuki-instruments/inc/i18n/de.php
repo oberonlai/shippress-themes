@@ -102,7 +102,6 @@ return array(
 	'kcd6397b9' => 'Kenji Arai',
 	'kd0a7881e' => 'Eine Anprobe, kein Verkauf.',
 	'kd0fbda98' => 'Seite nicht gefunden',
-	'kd3c6ab31' => 'Passen · Probieren · Pflegen',
 	'kd5fbbba2' => 'Schlagzeug &amp; Percussion',
 	'kdd7bf230' => 'Adresse',
 	'ke1168cef' => 'Fast geschafft: im Laden von Hand verpackt',

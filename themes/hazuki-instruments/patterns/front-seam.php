@@ -5,7 +5,7 @@
  * Categories: hazuki-instruments
  * Keywords: musical instruments, shop, store
  * Viewport Width: 1440
- * Description: Four abutting full-height photographs of players with their instruments, a vertical headline on the seam between the second and third panel and a flat steel label bar across the foot.
+ * Description: Four abutting full-height photographs of players with their instruments, a vertical headline on the seam between the second and third panel and nothing else over the photographs.
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"hz-seam","layout":{"type":"default"}} -->
@@ -28,10 +28,6 @@
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
-
-<!-- wp:paragraph {"className":"hz-seam__bar"} -->
-<p class="hz-seam__bar"><?php echo wp_kses_post( hazuki_instruments_t( 'kd3c6ab31' ) ); ?></p>
-<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"hz-seam__title"} -->
 <h1 class="wp-block-heading hz-seam__title"><?php echo wp_kses_post( hazuki_instruments_t( 'k5541db79' ) ); ?></h1>

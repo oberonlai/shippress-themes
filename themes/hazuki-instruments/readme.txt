@@ -65,3 +65,7 @@ Image files (all AI-generated, GPL-2.0-or-later / CC0):
 - assets/images/p14-workbench.webp
 - assets/images/p15-counter-staff.webp
 - assets/images/p16-shopfront.webp
+
+== Changelog ==
+= 1.0.1 =
+* Home hero: removed the steel "Fit · Trial · Care" label bar across the foot of the portrait strip (all five languages); the headline now uses the full strip height. Inner-page strips are unchanged.

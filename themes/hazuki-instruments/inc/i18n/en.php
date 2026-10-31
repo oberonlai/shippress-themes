@@ -102,7 +102,6 @@ return array(
 	'kcd6397b9' => 'Kenji Arai',
 	'kd0a7881e' => 'A fitting, not a sale.',
 	'kd0fbda98' => 'Page not found',
-	'kd3c6ab31' => 'Fit · Trial · Care',
 	'kd5fbbba2' => 'Drums &amp; percussion',
 	'kdd7bf230' => 'Address',
 	'ke1168cef' => 'Almost there: packed by hand in the shop',
