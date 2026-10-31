@@ -8,3 +8,32 @@ A dark, photo-led block theme for a welding and metal-fabrication trade school f
 - Theme text lives in `inc/i18n/<lang>.php`; patterns under `patterns/` read it through `hibana_college_t()`.
 - Photographs: 17 AI-generated images (CC0), listed in `readme.txt`. Fonts: OFL-1.1, files in `assets/fonts/`.
 - Reference and design notes: `brand/` and `brand.md`. The college and its people are fictional.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hibana College home page on desktop"></td>
+<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hibana College home page on mobile"></td>
+</tr>
+</table>
+
+- Six month course: [desktop](screenshots/six-month-course-desktop.webp) · [mobile](screenshots/six-month-course-mobile.webp)
+- Workshop week: [desktop](screenshots/workshop-week-desktop.webp) · [mobile](screenshots/workshop-week-mobile.webp)
+- Other courses: [desktop](screenshots/other-courses-desktop.webp) · [mobile](screenshots/other-courses-mobile.webp)
+- Instructors: [desktop](screenshots/instructors-desktop.webp) · [mobile](screenshots/instructors-mobile.webp)
+- Graduate stories: [desktop](screenshots/graduate-stories-desktop.webp) · [mobile](screenshots/graduate-stories-mobile.webp)
+- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
+- Admissions: [desktop](screenshots/admissions-desktop.webp) · [mobile](screenshots/admissions-mobile.webp)
+- Workshop safety: [desktop](screenshots/workshop-safety-desktop.webp) · [mobile](screenshots/workshop-safety-mobile.webp)
+- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
+- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
+- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
+- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
+- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
+- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+<!-- screenshots:end -->
