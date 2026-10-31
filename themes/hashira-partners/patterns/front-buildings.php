@@ -13,7 +13,7 @@
 <!-- wp:group {"className":"hp-arch__wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-arch__wrap">
 <!-- wp:heading {"level":2,"className":"hp-h2"} -->
-<h2 class="wp-block-heading hp-h2">Buildings<br>we handle</h2>
+<h2 class="wp-block-heading hp-h2"><?php echo wp_kses_post( hashira_partners_t( 'k8d3f8d48' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hp-arch sp-stagger","layout":{"type":"default"}} -->
@@ -25,25 +25,25 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Tanner Row Sheds</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'kf31a80df' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">12 bays of 90–180 m², clear height 6 m. Rent from $12 per m² per month.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'k6e2fb848' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Tanner Row · 90–180 m²</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'ke190ce81' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-card__foot">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","aspectRatio":"2/3","scale":"cover","className":"hp-card__photo"} -->
-<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b1-shed-row.webp' ) ); ?>" alt="Low corrugated shed row with rolled shutters, overcast sky and a parked van" style="aspect-ratio:2/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b1-shed-row.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'a839c904d' ) ); ?>" style="aspect-ratio:2/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"hp-card__more"} -->
-<p class="hp-card__more"><a href="/buildings/">View More →</a></p>
+<p class="hp-card__more"><a href="/buildings/"><?php echo wp_kses_post( hashira_partners_t( 'k7448fe87' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -57,25 +57,25 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Quay Lane Units</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'kd1bfdb49' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">8 bays of 120–240 m², clear height 5.5 m. Rent from $14 per m² per month.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'kbbdbe556' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Quay Lane · 120–240 m²</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'k6468afec' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-card__foot">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","aspectRatio":"2/3","scale":"cover","className":"hp-card__photo"} -->
-<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b2-quay-units.webp' ) ); ?>" alt="Brick waterside units with grey shutters along a quay" style="aspect-ratio:2/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b2-quay-units.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'a1f528476' ) ); ?>" style="aspect-ratio:2/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"hp-card__more"} -->
-<p class="hp-card__more"><a href="/buildings/">View More →</a></p>
+<p class="hp-card__more"><a href="/buildings/"><?php echo wp_kses_post( hashira_partners_t( 'k7448fe87' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -89,25 +89,25 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Mill Cross Yard</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'k7351c3a0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">10 bays of 150–300 m², clear height 6.5 m. Rent from $11 per m² per month.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'k94d986e1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Mill Cross · 150–300 m²</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'k7304a059' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-card__foot">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","aspectRatio":"2/3","scale":"cover","className":"hp-card__photo"} -->
-<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b3-yard.webp' ) ); ?>" alt="Yard between two steel-clad sheds, with puddles and painted ground lines" style="aspect-ratio:2/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b3-yard.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'a9fb1af1d' ) ); ?>" style="aspect-ratio:2/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"hp-card__more"} -->
-<p class="hp-card__more"><a href="/buildings/">View More →</a></p>
+<p class="hp-card__more"><a href="/buildings/"><?php echo wp_kses_post( hashira_partners_t( 'k7448fe87' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -121,25 +121,25 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Foundry Court</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'k89096013' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">6 bays of 200–420 m², clear height 8 m. Rent from $11 per m² per month.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'k35609117' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Foundry Court · 200–420 m²</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'k8cf018be' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-card__foot">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","aspectRatio":"2/3","scale":"cover","className":"hp-card__photo"} -->
-<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b4-foundry.webp' ) ); ?>" alt="Tall old foundry hall exterior with steel windows" style="aspect-ratio:2/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b4-foundry.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'adac2f7fa' ) ); ?>" style="aspect-ratio:2/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"hp-card__more"} -->
-<p class="hp-card__more"><a href="/buildings/">View More →</a></p>
+<p class="hp-card__more"><a href="/buildings/"><?php echo wp_kses_post( hashira_partners_t( 'k7448fe87' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -153,25 +153,25 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Ferry Road Depot</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'k10dcf4b7' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">9 bays of 100–220 m², clear height 5 m. Rent from $13 per m² per month.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'kdc8178df' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Ferry Road · 100–220 m²</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'k5b30330f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-card__foot">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","aspectRatio":"2/3","scale":"cover","className":"hp-card__photo"} -->
-<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b5-depot.webp' ) ); ?>" alt="Depot with a canopy extending over a loading edge" style="aspect-ratio:2/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b5-depot.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'a763dd22f' ) ); ?>" style="aspect-ratio:2/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"hp-card__more"} -->
-<p class="hp-card__more"><a href="/buildings/">View More →</a></p>
+<p class="hp-card__more"><a href="/buildings/"><?php echo wp_kses_post( hashira_partners_t( 'k7448fe87' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -185,25 +185,25 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hp-card__title"} -->
-<h3 class="wp-block-heading hp-card__title">Orchard Street Works</h3>
+<h3 class="wp-block-heading hp-card__title"><?php echo wp_kses_post( hashira_partners_t( 'ka347ac04' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum"} -->
-<p class="hp-card__sum">5 bays of 90–160 m², clear height 4.5 m. Rent from $15 per m² per month.</p>
+<p class="hp-card__sum"><?php echo wp_kses_post( hashira_partners_t( 'k6bd351b2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-card__meta"} -->
-<p class="hp-card__meta">Orchard Street · 90–160 m²</p>
+<p class="hp-card__meta"><?php echo wp_kses_post( hashira_partners_t( 'k19a0b66a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hp-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-card__foot">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","aspectRatio":"2/3","scale":"cover","className":"hp-card__photo"} -->
-<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b6-workshops.webp' ) ); ?>" alt="Narrow street of small workshops with roller doors" style="aspect-ratio:2/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full hp-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/b6-workshops.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'aabff1ce4' ) ); ?>" style="aspect-ratio:2/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"hp-card__more"} -->
-<p class="hp-card__more"><a href="/buildings/">View More →</a></p>
+<p class="hp-card__more"><a href="/buildings/"><?php echo wp_kses_post( hashira_partners_t( 'k7448fe87' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -216,12 +216,12 @@
 <div class="wp-block-group hp-more hp-more--r">
 <!-- wp:buttons {"className":"hp-pills"} -->
 <div class="wp-block-buttons hp-pills"><!-- wp:button {"className":"hp-pill hp-pill--dark"} -->
-<div class="wp-block-button hp-pill hp-pill--dark"><a class="wp-block-button__link wp-element-button" href="#request">Request a viewing ↓</a></div>
+<div class="wp-block-button hp-pill hp-pill--dark"><a class="wp-block-button__link wp-element-button" href="#request"><?php echo wp_kses_post( hashira_partners_t( 'k411d327c' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"className":"hp-more__link"} -->
-<p class="hp-more__link"><a href="/buildings/">All buildings →</a></p>
+<p class="hp-more__link"><a href="/buildings/"><?php echo wp_kses_post( hashira_partners_t( 'ka654be09' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 </div>

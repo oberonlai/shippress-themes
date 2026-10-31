@@ -13,7 +13,7 @@
 <!-- wp:group {"className":"hp-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wrap">
 <!-- wp:heading {"level":2,"className":"hp-h2"} -->
-<h2 class="wp-block-heading hp-h2">Case notes</h2>
+<h2 class="wp-block-heading hp-h2"><?php echo wp_kses_post( hashira_partners_t( 'ka7a750a6' ) ); ?></h2>
 <!-- /wp:heading -->
 </div>
 <!-- /wp:group -->
@@ -23,7 +23,7 @@
 <!-- wp:group {"className":"hp-panel sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-panel sp-parallax">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hp-panel__img"} -->
-<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c1-van-racking.webp' ) ); ?>" alt="Steel racking of unmarked cardboard boxes and a van at a raised shutter"/></figure>
+<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c1-van-racking.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'adc6fd4df' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-cap","layout":{"type":"default"}} -->
@@ -31,11 +31,11 @@
 <!-- wp:group {"className":"hp-cap__col ","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col ">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Project</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k9e727fdd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Bay 3, Tanner Row Sheds, 180 m²</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k408787f0' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -43,11 +43,11 @@
 <!-- wp:group {"className":"hp-cap__col ","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col ">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Concept</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'kd99a604c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A stockroom with a van door</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'kb659b9ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -55,11 +55,11 @@
 <!-- wp:group {"className":"hp-cap__col hp-cap__col--ov","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col hp-cap__col--ov">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Overview</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k3b878279' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A bicycle-parts seller outgrew a garage and needed one level floor with a roller door wide enough for two vans.</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'kde85a9f7' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -67,11 +67,11 @@
 <!-- wp:group {"className":"hp-cap__col ","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col ">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Type</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'ka1fa2777' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Parts storage</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k0d7d7a12' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -83,7 +83,7 @@
 <!-- wp:group {"className":"hp-panel sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-panel sp-parallax">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hp-panel__img"} -->
-<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c2-flower-buckets.webp' ) ); ?>" alt="People carrying buckets of pale flowers across a cold concrete floor in early light"/></figure>
+<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c2-flower-buckets.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'a9e9a979e' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-cap","layout":{"type":"default"}} -->
@@ -91,11 +91,11 @@
 <!-- wp:group {"className":"hp-cap__col ","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col ">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Project</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k9e727fdd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Bay 7, Mill Cross Yard, 240 m²</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k88339c45' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -103,11 +103,11 @@
 <!-- wp:group {"className":"hp-cap__col ","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col ">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Concept</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'kd99a604c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Early mornings, cold floors</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k9e598e3b' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -115,11 +115,11 @@
 <!-- wp:group {"className":"hp-cap__col hp-cap__col--ov","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col hp-cap__col--ov">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Overview</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k3b878279' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A flower wholesaler wanted north light and a 05:00 loading slot, so we viewed the yard at that hour.</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k32fa9c9f' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -127,11 +127,11 @@
 <!-- wp:group {"className":"hp-cap__col ","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col ">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Type</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'ka1fa2777' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Cool dispatch</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'kebbf8dbc' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -143,7 +143,7 @@
 <!-- wp:group {"className":"hp-panel sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-panel sp-parallax">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hp-panel__img"} -->
-<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c3-finishing-machine.webp' ) ); ?>" alt="Tall bay with a large grey finishing machine, one operator and high windows"/></figure>
+<figure class="wp-block-image size-full hp-panel__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/c3-finishing-machine.webp' ) ); ?>" alt="<?php echo esc_attr( hashira_partners_t( 'a846feb8b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hp-cap","layout":{"type":"default"}} -->
@@ -151,11 +151,11 @@
 <!-- wp:group {"className":"hp-cap__col ","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col ">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Project</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k9e727fdd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Bay 2, Foundry Court, 320 m²</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'kc17ddf52' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -163,11 +163,11 @@
 <!-- wp:group {"className":"hp-cap__col ","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col ">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Concept</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'kd99a604c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Height for one big machine</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k28a25262' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -175,11 +175,11 @@
 <!-- wp:group {"className":"hp-cap__col hp-cap__col--ov","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col hp-cap__col--ov">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Overview</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'k3b878279' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A print finisher needed 8 m clear and a floor rated for its folder, which Daniel Cho checked before terms.</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k1c869046' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -187,11 +187,11 @@
 <!-- wp:group {"className":"hp-cap__col ","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-cap__col ">
 <!-- wp:paragraph {"className":"hp-cap__label"} -->
-<p class="hp-cap__label">Type</p>
+<p class="hp-cap__label"><?php echo wp_kses_post( hashira_partners_t( 'ka1fa2777' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Print finishing</p>
+<p class="hp-cap__val"><?php echo wp_kses_post( hashira_partners_t( 'k622385ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -206,12 +206,12 @@
 <div class="wp-block-group hp-wrap hp-more">
 <!-- wp:buttons {"className":"hp-pills"} -->
 <div class="wp-block-buttons hp-pills"><!-- wp:button {"className":"hp-pill hp-pill--dark"} -->
-<div class="wp-block-button hp-pill hp-pill--dark"><a class="wp-block-button__link wp-element-button" href="#request">Request a viewing ↓</a></div>
+<div class="wp-block-button hp-pill hp-pill--dark"><a class="wp-block-button__link wp-element-button" href="#request"><?php echo wp_kses_post( hashira_partners_t( 'k411d327c' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"className":"hp-more__link"} -->
-<p class="hp-more__link"><a href="/cases/">All case notes →</a></p>
+<p class="hp-more__link"><a href="/cases/"><?php echo wp_kses_post( hashira_partners_t( 'k205e029a' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
