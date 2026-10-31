@@ -47,9 +47,9 @@
 
 <!-- wp:group {"className":"hc-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hc-wrap">
-<!-- wp:table {"className":"hc-fees"} -->
+<!-- wp:html -->
 <figure class="wp-block-table hc-fees"><table><thead><tr><th><?php echo wp_kses_post( hibana_college_t( 'fees_c1' ) ); ?></th><th><?php echo wp_kses_post( hibana_college_t( 'fees_c2' ) ); ?></th><th class="hc-fee"><?php echo wp_kses_post( hibana_college_t( 'fees_c3' ) ); ?></th></tr></thead><tbody><tr><td><?php echo wp_kses_post( hibana_college_t( 'fee1_n' ) ); ?></td><td><?php echo wp_kses_post( hibana_college_t( 'fee1_l' ) ); ?></td><td class="hc-fee"><?php echo wp_kses_post( hibana_college_t( 'fee1_p' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( hibana_college_t( 'fee2_n' ) ); ?></td><td><?php echo wp_kses_post( hibana_college_t( 'fee2_l' ) ); ?></td><td class="hc-fee"><?php echo wp_kses_post( hibana_college_t( 'fee2_p' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( hibana_college_t( 'fee3_n' ) ); ?></td><td><?php echo wp_kses_post( hibana_college_t( 'fee3_l' ) ); ?></td><td class="hc-fee"><?php echo wp_kses_post( hibana_college_t( 'fee3_p' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( hibana_college_t( 'fee4_n' ) ); ?></td><td><?php echo wp_kses_post( hibana_college_t( 'fee4_l' ) ); ?></td><td class="hc-fee"><?php echo wp_kses_post( hibana_college_t( 'fee4_p' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( hibana_college_t( 'fee5_n' ) ); ?></td><td><?php echo wp_kses_post( hibana_college_t( 'fee5_l' ) ); ?></td><td class="hc-fee"><?php echo wp_kses_post( hibana_college_t( 'fee5_p' ) ); ?></td></tr></tbody></table></figure>
-<!-- /wp:table -->
+<!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"hc-fees__note"} -->
 <p class="hc-fees__note"><?php echo wp_kses_post( hibana_college_t( 'fees_note' ) ); ?></p>
