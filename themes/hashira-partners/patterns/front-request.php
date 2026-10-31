@@ -13,7 +13,7 @@
 <!-- wp:group {"className":"hp-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wrap">
 <!-- wp:heading {"level":2,"className":"hp-h1 hp-h1--close"} -->
-<h2 class="wp-block-heading hp-h1 hp-h1--close"><span class="hp-line hp-line--1"><span class="hp-line__t">Bring your list,</span></span> <span class="hp-line hp-line--2"><span class="hp-line__t">we'll bring the keys.</span></span></h2>
+<h2 class="wp-block-heading hp-h1 hp-h1--close"><span class="hp-line hp-line--1"><span class="hp-line__t">Bring your list</span></span> <span class="hp-line hp-line--2"><span class="hp-line__t">we'll bring the keys.</span></span></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hp-split hp-split--req","layout":{"type":"default"}} -->

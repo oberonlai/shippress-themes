@@ -27,7 +27,7 @@ Mika Hashira, founder and managing partner. Tomasz Wrona, agent, Eastgate and Mi
 1. Request: size, district, when; reply within 1 business day. 2. Call: 20 minutes with Priya Raman, narrowed to 3 bays. 3. Viewing round: about 2 hours, up to 3 bays, with an agent and, where possible, the owner. 4. Check: measure the shutter, walk the loading route, test the power. 5. Terms: Lucia Ferrer reads the heads of terms through with you.
 
 ## Case notes (fictional tenants)
-Bay 3, Tanner Row Sheds, 180 m2: a bicycle-parts seller needed one level floor and a roller door for two vans. Bay 11, Mill Cross Yard, 240 m2: a flower wholesaler wanted north light and a 05:00 loading slot. Bay 2, Foundry Court, 320 m2: a print finisher needed 8 m clear and a floor rated for its folder. Bay 6, Ferry Road Depot, 160 m2: a furniture restorer wanted a bench by the shutter (Cases page).
+Bay 3, Tanner Row Sheds, 180 m2: a bicycle-parts seller needed one level floor and a roller door for two vans. Bay 7, Mill Cross Yard, 240 m2: a flower wholesaler wanted north light and a 05:00 loading slot. Bay 2, Foundry Court, 320 m2: a print finisher needed 8 m clear and a floor rated for its folder. Bay 6, Ferry Road Depot, 160 m2: a furniture restorer wanted a bench by the shutter (Cases page).
 
 ## Signature techniques (carried to every page)
 1. **Ruled two-line headline** (reference: a Japanese property reuse company's first screen): three full-width 2 px rules, one above, between and below a bold line over a lighter, larger, tight-tracked line; glyphs touch the rules and descenders cross the bottom one. Home hero, home close and every page head.

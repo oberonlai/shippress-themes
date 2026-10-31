@@ -59,7 +59,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A bicycle-parts seller outgrew a garage and needed one level floor with a roller door wide enough for two vans. Bay 3, Tanner Row Sheds, 180 m², is that stockroom with a van door.</p>
+<p class="hp-cap__val">A bicycle-parts seller outgrew a garage and needed one level floor with a roller door wide enough for two vans.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -95,7 +95,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">Bay 11, Mill Cross Yard, 240 m²</p>
+<p class="hp-cap__val">Bay 7, Mill Cross Yard, 240 m²</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -119,7 +119,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A flower wholesaler wanted north light and a 05:00 loading slot, so we viewed the yard at that hour. Bay 11, Mill Cross Yard, 240 m², is the cool-dispatch note: early mornings, cold floors.</p>
+<p class="hp-cap__val">A flower wholesaler wanted north light and a 05:00 loading slot, so we viewed the yard at that hour.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -179,7 +179,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hp-cap__val"} -->
-<p class="hp-cap__val">A print finisher needed 8 m clear and a floor rated for its folder, which Daniel Cho checked before terms. Bay 2, Foundry Court, is 320 m² inside a hall with 8 m clear height.</p>
+<p class="hp-cap__val">A print finisher needed 8 m clear and a floor rated for its folder, which Daniel Cho checked before terms.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -204,6 +204,12 @@
 
 <!-- wp:group {"className":"hp-wrap hp-more","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wrap hp-more">
+<!-- wp:buttons {"className":"hp-pills"} -->
+<div class="wp-block-buttons hp-pills"><!-- wp:button {"className":"hp-pill hp-pill--dark"} -->
+<div class="wp-block-button hp-pill hp-pill--dark"><a class="wp-block-button__link wp-element-button" href="#request">Request a viewing ↓</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
 <!-- wp:paragraph {"className":"hp-more__link"} -->
 <p class="hp-more__link"><a href="/cases/">All case notes →</a></p>
 <!-- /wp:paragraph -->
