@@ -1,0 +1,8 @@
+# Reference tokens — https://www.repast.co.jp/ (measured 2026-10-31, 1440×900, getComputedStyle + CSS file)
+(a) Colour: text #2d313f (ink navy), orange #ff3e00 (49 uses, wedge bands), #fe9600 / #fe8100 / #ffc742 (gradient + button), greys #e8e8e8 #f5f5f5 #656874. First screen: full-bleed video-still photograph, pale/blurred, almost no saturated colour (<5%, only a small #ff3e00 header pill ≈0.5%). Lower sections: orange diagonal wedge bands behind carousels ≈35% of those screens.
+(b) Type: "Noto Sans Japanese" 400 16px body; h1 32px/700; h2 30px/700 centred, with Latin script sub-line (handwritten, orange); nav 16px, no tracking.
+(c) Spacing: container ≈1100px (x 170–1270); section head → lead → content ≈ 40px gaps; header white 88px sticky with shadow after scroll.
+(d) Radius: mostly 0; 50% for round buttons/dots; 50px pill once. Buttons flat with 4px grey bottom rule. Cards: white label tab with 3px orange bottom border.
+(e) IMAGERY = photo (documentary, soft daylight, warm). Slideshow photo 726×~450 (≈1.6:1) left, white text card right overlapping the photo's right edge by ~0 and extending to container edge (≈34% width); service photos abut each other edge to edge (366px wide, 3:2), white label tab 240×58 overlapping the photo bottom edge.
+(f) Decoration: slanted orange wedge bands (≈6° angle) full-bleed; script Latin sub-heads; round dots + pause button under carousel; round dark scroll-to-top Ø50.
+(g) Motion: hero = looping video still, centred headline; carousel autoplay with dots/pause; hover transition .3s (ease); no scroll-trigger library found (run.js = carousel/menu helpers).
