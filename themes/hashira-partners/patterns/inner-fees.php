@@ -59,7 +59,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum hp-card__sum--full"} -->
-<p class="hp-card__sum hp-card__sum--full">The first viewing round, up to 3 bays, is free. It takes about 2 hours, with an agent and, where possible, the owner. The 20-minute call with Priya Raman is how those three bays are chosen. We reply to the request within 1 business day. Office hours are Mon–Fri 08:30–17:30. Viewing hours are Tue–Sat 09:00–15:00. Each extra viewing round is $120. A further round is another set of up to 3 bays. The free round does not include the floor and loading check report at $340, or the lease read-through with our clerk at $480. Those two items are there if you ask for them. Bays in the round come from the 6 buildings we lease, 50 bays in all, from 90 to 420 m², in Eastgate, Riverside and Mill Cross. A request is enough to start. Nothing is signed by walking through a door.</p>
+<p class="hp-card__sum hp-card__sum--full">The first viewing round, up to 3 bays, is free. It takes about 2 hours, with an agent and, where possible, the owner. We reply to a request within 1 business day, and viewings run Tue–Sat 09:00–15:00. Nothing is signed by walking through a door.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -77,7 +77,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum hp-card__sum--full"} -->
-<p class="hp-card__sum hp-card__sum--full">The placement fee is paid only once a lease is signed. Placement fee, lease up to 24 months: 1 month's rent. Placement fee, lease of 25 months or more: 1.5 months' rent. One of those two rows applies, according to the length of the lease. The rent in the fee is the rent on that lease. It is not due when you send a request, when you take the call with Priya Raman, or when you finish a viewing round. The lease read-through with Lucía Ferrer, at $480, can happen before signing so the heads of terms are clear. That reading is not the placement fee. Hashira Partners is the broker. The lease is between the firm taking the bay and the owner. Starting rents by building are published on the buildings page, from $11 to $15 per m² per month, and they stay in USD. No second placement fee is added later for the same signed lease.</p>
+<p class="hp-card__sum hp-card__sum--full">The placement fee is paid only once a lease is signed: 1 month's rent for a lease up to 24 months, 1.5 months' rent for 25 months or more. Nothing is due when you send a request, take the call or finish a viewing round. The lease is between the firm and the owner; we are the broker.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -95,7 +95,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hp-card__sum hp-card__sum--full"} -->
-<p class="hp-card__sum hp-card__sum--full">Listing a bay is free for owners. Henrik Aas handles owner relations. An owner can call 555-0142 and ask for him, or write to viewings@hashirapartners.example, and we reply within 1 business day. A listed bay is shown among the buildings we already lease: Tanner Row Sheds, Quay Lane Units, Mill Cross Yard, Foundry Court, Ferry Road Depot and Orchard Street Works. Viewings sit in the usual hours, Tue–Sat 09:00–15:00, with an agent and with the owner where possible. A free listing still has to fit the portfolio. We take bays from 90 to 420 m². We do not take cold stores, hazardous storage or a bay over 420 m². The placement fee, if a lease is later signed, remains a separate line: 1 month's rent up to 24 months, or 1.5 months' rent from 25 months, paid only once on signing. The listing itself has no price.</p>
+<p class="hp-card__sum hp-card__sum--full">Listing a bay is free for owners. Call 555-0142 and ask for Henrik Aas, or write to viewings@hashirapartners.example; we reply within 1 business day. We take bays from 90 to 420 m², but not cold stores or hazardous storage. The placement fee applies only if a lease is later signed.</p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
