@@ -27,7 +27,7 @@ The firm, its buildings, people, address, telephone number and fees are fictiona
 == Copyright ==
 
 Hashira Partners is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Schibsted Grotesk (OFL-1.1), variable, Latin; Outfit (OFL-1.1), variable, Latin; both WOFF2, see assets/fonts/.
+Fonts: Schibsted Grotesk (OFL-1.1), variable, Latin; Outfit (OFL-1.1), variable, Latin; Noto Sans TC (OFL-1.1), 400 and 700, Traditional Chinese subset; Noto Sans JP (OFL-1.1), 400 and 700, Japanese subset; all WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are ShipPress's own (GPL-2.0-or-later); no third-party script.
 
 = Images =
@@ -35,7 +35,19 @@ Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are ShipPress's own
 Images: AI-generated for this theme with Grok Build image_gen as documentary photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the firm is fictional). No transparent cut-outs are used.
 - assets/images/h1-bay-viewing.webp (home first screen: an agent and an owner talking in an empty bay with the shutter half open)
 - assets/images/v1-floor-plan.webp (home statement: three people at a planning table)
-- assets/images/c1-van-racking.webp, c2-flower-buckets.webp, c3-finishing-machine.webp (home case panels)
-- assets/images/b1-shed-row.webp, b2-quay-units.webp, b3-yard.webp, b4-foundry.webp, b5-depot.webp, b6-workshops.webp (home buildings archive)
+- assets/images/c1-van-racking.webp (case panel: steel racking and a van at an open shutter)
+- assets/images/c2-flower-buckets.webp (case panel: people carrying buckets of pale flowers across a cold concrete floor)
+- assets/images/c3-finishing-machine.webp (case panel: a tall bay with a large grey finishing machine and one operator)
+- assets/images/c4-restorer-bench.webp (case panel: furniture restorers at workbenches beside an open roller shutter)
+- assets/images/b1-shed-row.webp (buildings archive: a low row of corrugated sheds and a van)
+- assets/images/b2-quay-units.webp (buildings archive: brick waterside units with grey roller shutters)
+- assets/images/b3-yard.webp (buildings archive: a yard between two steel-clad sheds)
+- assets/images/b4-foundry.webp (buildings archive: a tall old foundry hall with steel-framed windows)
+- assets/images/b5-depot.webp (buildings archive: a depot with a canopy over the loading edge)
+- assets/images/b6-workshops.webp (buildings archive: a narrow street of small workshops with roller doors)
 - assets/images/w1-measuring.webp (home viewing section: measuring a shutter opening)
 - assets/images/r1-key-hand.webp (home request section: a key ring passed hand to hand)
+- assets/images/a1-founder-stool.webp (team: the founder reading papers on a stool in an empty bay)
+- assets/images/g1-pallet-plan.webp (bay guide and fees: a pallet, a tape measure and a folded floor plan on bare concrete)
+- assets/images/o1-owner-sweeping.webp (owners: an owner sweeping an empty bay, sun across the floor)
+- assets/images/demo/mill-cross-early.webp (sample post image for the Media Library: Mill Cross Yard in early light)

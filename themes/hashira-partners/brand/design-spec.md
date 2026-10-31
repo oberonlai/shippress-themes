@@ -5,7 +5,7 @@ Slug `hashira-partners`, small-warehouse leasing brokerage, viewing-request land
 Home = one long conversion page, an anchor menu and one repeated CTA, **"Request a viewing"**. Borrow structure, technique, colour relation, numbers and the key-visual concept. Do not copy ReeL's photos, copy or logo. The row's hex, fonts and first-screen fields are reference only; this spec binds.
 
 **Decisions that differ from stage-a.md (this spec wins):**
-1. **Colour:** stage-a proposed brown ground `#2A221E` and tinted `#F3F0ED`. That is 15% lightness off the reference. The similarity brief allows ±5%, and nothing about warehouses rules out black, so the page uses ReeL's black and white. 焦茶 `#6A5348` survives only as the hover and focus colour.
+1. **Colour:** stage-a proposed brown ground `#2A221E` and tinted `#F3F0ED`. That is 15% lightness off the reference. The similarity brief allows ±5%, and nothing about warehouses rules out black, so the page uses ReeL's black and white. Burnt brown `#6A5348` survives only as the hover and focus colour.
 2. **Headline text:** stage-a's "Small bays, shown properly." + "Find the right bay" does not fit one line at 118 px. The two lines are now "Small bays," / "shown properly." and together they are the H1.
 3. **Hero motion:** stage-a lists sp-reveal on the hero, which the rules forbid. The hero uses a transform-only CSS load animation instead (section 3).
 4. **Archive image:** token (e) says 4:3, but `ref/scroll-reel-5800.png` and `-6600.png` show a small 2:3 portrait at about 38% of the card, with "View More →" at bottom right. The screenshots win.
@@ -123,7 +123,7 @@ No moved-in dates, savings, ratings or guarantees.
 
 ## 2. Key visual concept
 
-**(1) Reference.** ReeL's first screen is a black field and nothing else: a two-line headline ("想像する建築" over "Re-Imagination") locked between three white rules, an "Our Mission" label left, a bold paragraph right at 52%, an outline pill "Scroll to Discover ↓", and coordinates at the foot. The story is that land and buildings hold a potential waiting to be imagined. The signature motion: headline lines rise about 24 px into their rule slots, and the page flips black to white on scroll.
+**(1) Reference.** ReeL's first screen is a black field and nothing else: a two-line headline (a Japanese line over "Re-Imagination") locked between three white rules, an "Our Mission" label left, a bold paragraph right at 52%, an outline pill "Scroll to Discover ↓", and coordinates at the foot. The story is that land and buildings hold a potential waiting to be imagined. The signature motion: headline lines rise about 24 px into their rule slots, and the page flips black to white on scroll.
 
 **(2) Ours.** The same ruled black field, with the story moved to a concrete place: an empty bay is a beginning, not a vacancy. ReeL's empty black lower half becomes a documentary photograph of an agent and an owner standing in an empty bay with the roller shutter half open and daylight falling in under it. The coordinates become the facts of that bay. On load the rules draw, the lines rise, and the photo opens upward like a shutter. On scroll the photograph moves slower than the page, then black hands over to white.
 
@@ -156,7 +156,7 @@ Black `#000000`, `min-height: 100svh`, flex column.
 
 **Mobile first screen (390×844):** everything in normal flow, nothing absolutely positioned over text, no vertical type. Header 64 px; rules 1.5 px, gap 44 px, gutter 24 px; both lines `11.5vw`; label above paragraph, 1rem lh 1.6; pill; photo fills the rest, minimum 240 px; strip wraps to 2 lines in flow, 12 px text.
 
-**Headline length limit:** each line ≤ 16 Latin characters. fr: "Petites cellules," / "bien montrées." de: "Kleine Hallen," / "richtig gezeigt." zh-TW: 「小倉庫，」/「好好帶看。」 ja: 「小さな倉庫を、」/「きちんと案内。」 CJK sizes are 0.75× (88 / 98 px) in Noto Sans weights 700 / 500. Rewrite rather than wrap if a line overflows.
+**Headline length limit:** each line ≤ 16 Latin characters. fr: "Petites cellules," / "bien montrées." de: "Kleine Hallen," / "richtig gezeigt." zh-TW and ja use the translated two-line headlines stored in demo-content.zh-TW.json and demo-content.ja.json. CJK sizes are 0.75× (88 / 98 px) in Noto Sans weights 700 / 500. Rewrite rather than wrap if a line overflows.
 
 ### Block order
 | # | Pattern | Purpose | Layout | Photos | Copy |
@@ -228,7 +228,7 @@ Footer black: 1 px white rule, four text columns (Office / Hours / Pages / Langu
 | Ink | `#000000` | token (a) | text, bars, rules on white | — |
 | Text on dark | `#FFFFFF` | token (a) | text, rules on black | first screen about 7% |
 | Grey body | `#767676` | token (a) ≈ `#8A8A8A`, darkened | secondary text on white | — |
-| 焦茶 secondary | `#6A5348` | design-plan row | pill hover fill, focus ring, link underline only | ≤ 1%; never at rest on the first screen |
+| Burnt-brown secondary | `#6A5348` | design-plan row | pill hover fill, focus ring, link underline only | ≤ 1%; never at rest on the first screen |
 
 `#8A8A8A` on white is 3.4:1, so `#767676` (4.5:1) is the one change beyond ±5%, made for contrast. Not beige: the light ground is pure white. Photographs supply the only colour.
 
@@ -236,10 +236,10 @@ Footer black: 1 px white rule, four text columns (Office / Hours / Pages / Langu
 
 **Type (sans):**
 - Latin headings: **Schibsted Grotesk** 500 / 700. Latin body, labels, nav: **Outfit** 400 / 500 / 600 / 700. Both OFL, nearest available to token (b)'s geometric grotesque.
-- zh-TW stack: `"Schibsted Grotesk", "Noto Sans TC", "Noto Sans JP", sans-serif` and `Outfit, "Noto Sans TC", "Noto Sans JP", sans-serif`.
-- ja stack: the same with `"Noto Sans JP"` before `"Noto Sans TC"`.
+- zh-TW display: `"Schibsted Grotesk", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif`. zh-TW body: `Outfit, "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif` (system Traditional Chinese faces; the bundled Noto Sans TC heading face stays off the body stack).
+- ja display and body: Schibsted Grotesk or Outfit, then `"Noto Sans JP"`, then the system Japanese faces.
 - en, fr, de stack: Latin face, then `"Noto Sans TC", "Noto Sans JP", sans-serif`.
-- No 明體 anywhere. Load all through theme.json `fontFamilies` + `fontFace`, including zh-TW and ja subsets, so editor and front end match. `:lang()` rules require `inc/editor-lang.php`. CJK sizes 0.75×, body lh 1.85; fr and de `hyphens: auto`.
+- No mincho (serif CJK) anywhere. Load all through theme.json `fontFamilies` + `fontFace`, including zh-TW and ja subsets, so editor and front end match. `:lang()` rules require `inc/editor-lang.php`. CJK sizes 0.75×, body lh 1.85; fr and de `hyphens: auto`.
 
 | Preset | Size | Use | Token |
 |---|---|---|---|
