@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","className":"hp-ihead hp-ihead--small","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group hp-ihead hp-ihead--small">
+<section class="wp-block-group alignfull hp-ihead hp-ihead--small">
 <!-- wp:heading {"level":1,"className":"hp-h1 hp-h1--close"} -->
 <h1 class="wp-block-heading hp-h1 hp-h1--close"><span class="hp-line hp-line--1"><span class="hp-line__t">Privacy</span></span></h1>
 <!-- /wp:heading -->
@@ -17,7 +17,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","className":"hp-ibody hp-ibody--legal","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group hp-ibody hp-ibody--legal">
+<section class="wp-block-group alignfull hp-ibody hp-ibody--legal">
 <!-- wp:group {"className":"hp-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wrap">
 <!-- wp:group {"className":"hp-legal","layout":{"type":"default"}} -->

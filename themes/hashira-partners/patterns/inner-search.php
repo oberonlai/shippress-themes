@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","className":"hp-ihead","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group hp-ihead">
+<section class="wp-block-group alignfull hp-ihead">
 <!-- wp:heading {"level":1,"className":"hp-h1 hp-h1--close"} -->
 <h1 class="wp-block-heading hp-h1 hp-h1--close"><span class="hp-line hp-line--1"><span class="hp-line__t">Search</span></span> <span class="hp-line hp-line--2"><span class="hp-line__t">results.</span></span></h1>
 <!-- /wp:heading -->

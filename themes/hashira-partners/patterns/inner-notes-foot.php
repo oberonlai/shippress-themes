@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","className":"hp-ibody hp-ibody--tight","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group hp-ibody hp-ibody--tight">
+<section class="wp-block-group alignfull hp-ibody hp-ibody--tight">
 <!-- wp:group {"className":"hp-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wrap">
 <!-- wp:group {"className":"hp-steps sp-stagger","layout":{"type":"default"}} -->
@@ -41,7 +41,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","className":"hp-iclose","align":"full","layout":{"type":"default"}} -->
-<section class="wp-block-group hp-iclose">
+<section class="wp-block-group alignfull hp-iclose">
 <!-- wp:group {"className":"hp-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hp-wrap">
 <!-- wp:group {"className":"hp-iclose__in","layout":{"type":"default"}} -->
