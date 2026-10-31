@@ -12,3 +12,6 @@ Hashira Partners is a small-warehouse leasing brokerage in Port Merrin, founded 
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+## Status
+Home page (English) is complete: gates pass at 390 px and 1280 px, 13 block documents validate, editor and front fonts match. The inner pages (Buildings, Cases, Viewings, Fees, Team), the language switch, the privacy, terms and thanks pages and the zh-TW, ja, fr and de versions come in the next step; the menu and "View More" links point to those pages.
