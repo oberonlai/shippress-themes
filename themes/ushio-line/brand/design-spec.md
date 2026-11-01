@@ -75,7 +75,7 @@ People (7, fictional, diverse):
 | Ewa Nowak | Timetable planner | Writes the seasonal timetable |
 | Samir Haddad | General manager | Since 2019 |
 
-Stories (4): Dana Whitfield, night nurse, takes the 05:40 home from Customs Stairs; Oskar Bell, apprentice, bicycle on every morning peak to Shipyard Steps; Leila Rahimi, fish seller, first at Fishmarket Quay with her cart on the ramp; the Lantern Point Year 5 class and their one Tuesday trip across the bay.
+Stories (4): Dana Whitfield, night nurse, takes the first boat home from Customs Stairs (the 05:40 from Eastmole, at the stairs at 05:54); Oskar Bell, apprentice, bicycle on every morning peak to Shipyard Steps; Leila Rahimi, fish seller, first at Fishmarket Quay with her cart on the ramp; the Lantern Point Year 5 class and their one Tuesday trip across the bay.
 
 Do not claim punctuality rates, safety records, awards, passenger totals or green credentials. Sailings can be changed by weather: say so plainly.
 

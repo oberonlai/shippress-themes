@@ -16,7 +16,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 
 1. Download ushio-line.zip from the releases page of https://github.com/oberonlai/shippress-themes
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
-3. Activate Ushio Line. On activation it creates the home page, short pages for the menu items, the notices page with six notices and the menu (inc/demo-import.php).
+3. Activate Ushio Line. On activation it creates the home page, eight inner pages (piers, timetable, fares, boats, crew, on board, about, contact), the notices page with six notices and the menu (inc/demo-import.php).
 
 The company, its people, address and prices are fictional.
 
@@ -40,3 +40,5 @@ Image file: assets/images/c2-rope.webp, AI-generated for this theme, CC0.
 Image file: assets/images/t1-ticket-window.webp, AI-generated for this theme, CC0.
 Image file: assets/images/s1-nurse.webp, AI-generated for this theme, CC0.
 Image file: assets/images/a1-ramp.webp, AI-generated for this theme, CC0.
+Image file: assets/images/e1-engine.webp, AI-generated for this theme, CC0.
+Image file: assets/images/n1-dusk-deck.webp, AI-generated for this theme, CC0.

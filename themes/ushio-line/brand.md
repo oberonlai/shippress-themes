@@ -1,6 +1,6 @@
 # Ushio Line — brand brief
 
-Design plan row: b21-3 (harbour passenger ferry, type business). Stage one: the home page in English. Inner pages and the other languages follow. The company, its people, piers, boats, address and figures are fictional. Copy never claims punctuality rates, safety records, awards, passenger totals or green credentials.
+Design plan row: b21-3 (harbour passenger ferry, type business). The home page and the eight inner pages exist in English; the other languages follow. The company, its people, piers, boats, address and figures are fictional. Copy never claims punctuality rates, safety records, awards, passenger totals or green credentials.
 
 ## Concept
 - **Name:** Ushio Line, the harbour ferry of Calder Bay (a fictional harbour city, no country named). Tagline: Harbour ferry, pier to pier. Story line: the pier is the platform, the water is the line.
@@ -34,3 +34,16 @@ A sailing day runs from the crew coming aboard at 05:15, through the first boat 
 2. Every call to action is text, an arrow and a 1 px sine-wave underline; no filled buttons.
 3. A radius-240 slate band inset 11 px on a pale mist ground, holding the sailing day, with a ghost word at its foot.
 4. A square-cut photograph flush to the viewport edge beside a serif text column, with one small photograph floating lower right.
+
+## Inner pages (en)
+Every inner page opens with a three-panel mini strip (inset 30 px, radius 96 px, panels 30/40/30), then a label, a heading and a short lead, then the body, and closes on one sine-wave link.
+- **Piers:** the six piers on a sine route, a slate band with the six pier names and minutes, one section per pier with boarding notes, then the parallax water photograph.
+- **Timetable:** the six stops of the sailing day in the slate band, the departure pattern by period, minutes per pier, and the seasonal and weather note.
+- **Fares:** a "Ways to pay" band, the six-line fare list, paper tickets, concessions and ten-ride tickets (unused rides never expire).
+- **The Boats:** a specifications band (180 passengers, 24 bicycles, step-free ramp, four crew), five boats with built years, and a split row on Slack Water, the relief boat.
+- **Crew:** a "Four to a sailing" band, a split row with seven named people in ruled rows, and how a shift runs from 05:15.
+- **On Board:** a split row on step-free boarding, then bicycles, children, pets, and fog, swell and lost property.
+- **About:** a band with 1974, 1996 and 2008, a history split row, a working morning, and a note from Samir Haddad.
+- **Notices:** the posts page, a dated list of six notices; the first, the winter timetable, is a full article.
+- **Contact:** office address, phone, email, hours, ticket windows and lost property.
+The daily routine on every page is the same sailing day: crew aboard at 05:15, first boat at 05:40, last boat from Ropewalk at 23:10. Dana Whitfield takes the first boat (the 05:40 from Eastmole), which reaches Customs Stairs at 05:54.
