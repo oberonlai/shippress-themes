@@ -42,6 +42,6 @@ for ( $ul_i = 1; $ul_i <= 4; $ul_i++ ) {
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<?php echo ushio_line_ticks( array( array( 50, 5, 35 ), array( 56, 70, 70 ), array( 3, 8, 35 ) ) ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
+<?php echo ushio_line_ticks( array( array( 50, 5, 35 ), array( 56, 70, 70 ), array( 3, 1, 35 ) ) ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 <!-- /wp:html --></section>
 <!-- /wp:group -->
