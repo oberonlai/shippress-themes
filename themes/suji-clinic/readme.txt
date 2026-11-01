@@ -25,7 +25,7 @@ The clinic, its people, address, telephone number and prices are fictional.
 == Copyright ==
 
 Suji Clinic is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Figtree (OFL-1.1), Latin variable; Public Sans (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Figtree (OFL-1.1), Latin variable; Public Sans (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1) and Noto Sans JP (OFL-1.1), subsets for the Traditional Chinese and Japanese sample content; all WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress, GPL-2.0-or-later); no third-party libraries.
 
 = Images =

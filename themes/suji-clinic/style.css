@@ -97,15 +97,8 @@ html.sp-no-motion .sj-hero .sj-hero__img--a, .editor-styles-wrapper .sj-hero .sj
 .sj-nav .wp-block-navigation-item { flex: 1 1 0; position: relative; display: block; }
 .sj-nav .wp-block-navigation-item + .wp-block-navigation-item::before { content: ""; position: absolute; left: 0; top: 50%; width: 1px; height: 36px; margin-top: -18px; background: var(--sj-rule); }
 .sj-nav .wp-block-navigation-item__content { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 108px; padding: 0 6px; font-family: var(--sj-body); font-weight: 300; font-size: 1rem; letter-spacing: .1em; color: var(--sj-ink); text-align: center; line-height: 1.5; }
-.sj-nav .wp-block-navigation-item__content::after { display: block; font-size: .6875rem; letter-spacing: .1em; text-transform: uppercase; color: var(--sj-muted); font-weight: 400; margin-top: 2px; }
-.sj-nav .wp-block-navigation-item:hover .wp-block-navigation-item__label { border-bottom: 1px solid var(--sj-ink); }
-.sj-nav li:nth-child(1) > a::after { content: "HOME"; }
-.sj-nav li:nth-child(2) > a::after { content: "WHAT WE TREAT"; }
-.sj-nav li:nth-child(3) > a::after { content: "HOW IT WORKS"; }
-.sj-nav li:nth-child(4) > a::after { content: "WHO'S IN THE ROOM"; }
-.sj-nav li:nth-child(5) > a::after { content: "RETURNS"; }
-.sj-nav li:nth-child(6) > a::after { content: "PRICES"; }
-.sj-nav li:nth-child(7) > a::after { content: "FIND US"; }
+.sj-nav .wp-block-navigation-item__content em { display: inline-block; font-style: normal; font-size: .6875rem; letter-spacing: .1em; text-transform: uppercase; color: var(--sj-muted); font-weight: 400; margin-top: 2px; }
+.sj-nav .wp-block-navigation-item:hover .wp-block-navigation-item__label { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
 
 /* ---------- Problem ---------- */
 .sj-problem__grid { display: grid; grid-template-columns: 324px 1fr; column-gap: 108px; align-items: start; }
@@ -290,7 +283,7 @@ html.sp-no-motion .sj-hero .sj-hero__img--a, .editor-styles-wrapper .sj-hero .sj
 	.sj-notice { position: static; width: auto; height: 120px; margin: 28px 24px 32px; }
 	.sj-notice__icon { display: none; }
 	.sj-nav .wp-block-navigation-item__content { height: 56px; }
-	.sj-nav .wp-block-navigation-item__content::after { display: none; }
+	.sj-nav .wp-block-navigation-item__content em, .sj-nav .wp-block-navigation-item__label br { display: none; }
 	.sj-problem__grid { grid-template-columns: 1fr; row-gap: 32px; }
 	.sj-problem__head .sj-giant { font-size: 2.75rem; }
 	.sj-problem__body { padding-left: 24px; }
@@ -426,7 +419,7 @@ html.sp-no-motion .sj-hero .sj-hero__img--a, .editor-styles-wrapper .sj-hero .sj
 }
 @media (prefers-reduced-motion: reduce) { .sj-card__photo img { transition: none; } }
 /* CJK: sans stacks (Noto Sans TC / JP), about 0.75x heading size, body line-height 1.85; fr/de hyphenate */
-:root:lang(zh-TW) { --wp--preset--font-family--display: Figtree, "Noto Sans TC", sans-serif; --wp--preset--font-family--body: "Public Sans", "Noto Sans TC", sans-serif; }
+:root:lang(zh-TW) { --wp--preset--font-family--display: Figtree, "Noto Sans TC", sans-serif; --wp--preset--font-family--body: "Public Sans", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif; }
 :root:lang(ja) { --wp--preset--font-family--display: Figtree, "Noto Sans JP", sans-serif; --wp--preset--font-family--body: "Public Sans", "Noto Sans JP", sans-serif; }
 :lang(zh-TW) body, :lang(ja) body { line-height: 1.85; letter-spacing: .1em; }
 :lang(zh-TW) .sj-hero__h, :lang(ja) .sj-hero__h { font-size: clamp(2rem, 3vw, 3.375rem); letter-spacing: .1em; line-height: 1.4; }

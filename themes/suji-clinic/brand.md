@@ -17,6 +17,9 @@ The work still follows three stages. Assess is the first visit, sixty minutes, u
 
 Seven people staff the rooms. Solheim remains lead sports physician and founder. Dr Tomasz Wrona shares the medical list. Amara Nwosu leads physiotherapy, Rafael Montoya works on running gait, and Leilani Kealoha treats shoulders, elbows and throwing athletes. Priya Raman coaches strength through the rebuild weeks. Hana Lindgren keeps the diary: Monday, Wednesday and Friday 9:00–19:00, Tuesday and Thursday 7:30–19:00, Saturday 9:00–13:00, closed Sunday. The early assessment slots are Tuesday and Thursday at 7:30. Booking is by phone on +00 555 0148 or by email at hello@sujiclinic.example, and cancellation is free up to 24 hours before.
 
+## A day at the clinic
+A typical day starts with the Tuesday and Thursday 7:30 assessment slots, or at 9:00 on the other weekdays. Morning sessions are mostly first assessments of 60 minutes and follow-ups of 40 minutes; Rafael Montoya runs the treadmill gait checks through the middle of the day, and Priya Raman coaches strength sessions alongside the physiotherapists. Hana Lindgren answers the phone and email through the day and records cancellations, which are free up to 24 hours before. The rooms close at 19:00 on weekdays and at 13:00 on Saturday.
+
 ## People (7)
 - **Dr Ingrid Solheim**, Lead sports physician, founder. Dr Ingrid Solheim founded Suji Sports Medicine Clinic in 2014 and still leads assessment. She matches the painful tissue to the training the athlete wants back, and sets the first plan from that sixty-minute visit.
 - **Dr Tomasz Wrona**, Sports physician. Dr Tomasz Wrona sees club athletes and amateur runners on the medical side of the plan. He sorts what can be treated in the rooms from fractures and surgical cases that are referred on.

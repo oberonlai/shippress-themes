@@ -31,7 +31,7 @@ Real photographs, bright, desaturated clinical palette (white coats, pale walls,
 - Director portrait 642×597 (≈1.08:1) with vertical Latin word GREETING running down its left edge, name plate overlapping lower-left.
 
 ## (f) Decoration
-Seam: none visible between hero halves. Notice card on the seam at bottom right: 470×120, lavender `#AD9FBD`@90%, 1px white inner frame 6px inset, icon disc Ø80 white 20% + two-line centred white text. Header info box: 1px white outline 245×72 + violet tab 162×90 "WEB 予約" with notch triangle bottom-right. Pagetop tab 45×45 taupe, bottom-right fixed. Nav dividers: 1px × 36px vertical rules between items. Vertical text (JP tategaki) in greeting.
+Seam: none visible between hero halves. Notice card on the seam at bottom right: 470×120, lavender `#AD9FBD`@90%, 1px white inner frame 6px inset, icon disc Ø80 white 20% + two-line centred white text. Header info box: 1px white outline 245×72 + violet tab 162×90 "WEB reservation" (Japanese) with notch triangle bottom-right. Pagetop tab 45×45 taupe, bottom-right fixed. Nav dividers: 1px × 36px vertical rules between items. Vertical text (JP tategaki) in greeting.
 
 ## (g) Motion
 Hero: slick fade, 5000 ms autoplay, crossfade (opacity). Nav: second fixed nav translates in from −90px when scrolling up past the nav, out when scrolling down; transition `.3s ease-in-out`. Pagetop fades in after 100px (jQuery fadeIn slow). Hover: `.3s` opacity/colour on links. No scroll-reveal found (AOS stylesheet loaded, zero `data-aos` elements).

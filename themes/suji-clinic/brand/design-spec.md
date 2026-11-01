@@ -73,7 +73,7 @@ The reference's hero cycles real work: a dentist at the microscope beside a surg
 Same composition, same motion idea, same image type (real photographs). **Left: a clinician taping a runner's ankle on a treatment table, hands in focus. Right: that runner's race shoes on the floor beside the table.** The injury and the goal in one spread. The story is **"The shoes are waiting. We set the way back."** The photos change, the headline does not: taping fades to a gait check on a treadmill, the shoes fade to feet at a start line, so the spread moves from injured to returning.
 
 ### (3) KV checklist (each item is built and visible on the first screen)
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our version | Position | Motion | Image used |
 |---|---|---|---|---|---|
 | 1 | Left photo: dentist at work, close | Clinician taping a runner's ankle, hands in focus, treatment table | Left 50%, full height | Fades to H3 at 5 s, 1.2 s fade | H1, then H3 |
 | 2 | Right photo: second clinician, meeting at the centre | Race shoes on the floor beside the table, runner's heel at the frame edge | Right 50%, full height | Fades to H4 with the left panel | H2, then H4 |
