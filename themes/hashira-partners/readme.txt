@@ -51,3 +51,5 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/g1-pallet-plan.webp (bay guide and fees: a pallet, a tape measure and a folded floor plan on bare concrete)
 - assets/images/o1-owner-sweeping.webp (owners: an owner sweeping an empty bay, sun across the floor)
 - assets/images/demo/mill-cross-early.webp (sample post image for the Media Library: Mill Cross Yard in early light)
+- assets/images/demo/owner-sweeping.webp (sample post image for the Media Library: an owner sweeping an empty bay)
+- assets/images/demo/pallet-plan.webp (sample post image for the Media Library: a pallet, a tape measure and a folded floor plan)
