@@ -17,7 +17,7 @@ We borrow structure, technique, colour values and the key-visual idea. Photos, c
 - **Reference:** a 1400×473 photo inset 20 px from each side, directly under a 100 px header, radius 0. A 1120 px strip overlaps its bottom edge by about 35 px. The strip is translucent where it crosses the photo and reads as white below it. It holds four 247×85 banners with a gap of 23 px, each with a hairline and soft shadow.
 - **Used in:** home block 2.
 - **Geometry at 1440:** stage x 20–1420, y 100–573, 0 radius, `aspect-ratio: 1400/473`. Strip `width: min(1120px, 100% - 40px)`, centred, `margin-top: -35px`, `background: rgba(255,255,255,.85)`, `padding: 25px 31px 0`, `z-index: 2`. The strip is a **sibling after** the stage, never inside it, because `.sp-parallax` clips with `overflow: clip`.
-- **Tile:** 247×85 (2.9:1), white, 1 px `#C5C5C5`, radius 0, shadow `3.5px 3.5px 4px rgba(0,0,0,.1)`. Inside: a 96×85 photo flush left (`object-fit: cover`), then a text column with padding 10 px 12 px: round ▶ dot Ø16 `#CD491C`, title Mulish 600 0.875rem/1.3 `#014B80`, one sub-line Mulish 0.75rem/1.35 `#333333`.
+- **Tile:** 247×85 (2.9:1), white, 1 px `#C5C5C5`, radius 0, shadow `3.5px 3.5px 4px rgba(0,0,0,.1)`. Inside: a 96×85 photo flush left (`object-fit: cover`), then a text column with padding 10 px 12 px: round ▶ dot Ø7 (1.0.1; was Ø16) `#CD491C`, title Mulish 600 0.875rem/1.3 `#014B80`, one sub-line Mulish 0.75rem/1.35 `#333333`.
 - **Tile copy** (each links to its anchor on Who it's for):
   - "Changing career" / "From any first job"
   - "Returning to care" / "A six-week refresher"
@@ -33,7 +33,7 @@ We borrow structure, technique, colour values and the key-visual idea. Photos, c
 - **Reference:** a single white r15 sheet with a soft offset shadow on a cream band. Five cells in a 3+2 grid, each 345 wide with a gap of 22. Each cell has a 3 px rule across its top in its own colour, a centred round-dot title in that colour, a centred spot image, then 2–4 lines of left-aligned text. The sixth slot stays empty. Under the sheet sit small white link cards.
 - **Used in:** home block 4, "Five ways to train".
 - **Geometry:** band `#F6F6EB`, padding 30 px 0 80 px, centred H2 above. Sheet 1100 wide, padding 10 px, radius 15, white, shadow as `tok(d)`. Cells 345 wide, gap 22 px, 3+2. Cell padding: 32 px 30 px 36 px, with the rule on the cell's top edge.
-- **Cell content, in order:** title row (Ø16 dot, Fraunces 500 1.25rem, centred), 4:3 photo 285 wide with r8, centred, 16 px below the title, then 3 lines of 0.9375rem/26px text.
+- **Cell content, in order:** title row (Ø7 dot (1.0.1; was Ø16), Fraunces 500 1.25rem, centred), 4:3 photo 285 wide with r8, centred, 16 px below the title, then 3 lines of 0.9375rem/26px text.
 - **Sixth slot:** one plain text link with an accent dot, bottom-right aligned, "Compare all five courses".
 - **Under the sheet:** at the left, two white r8 link rows 352 wide with the same shadow and a `›` in `#CD491C`, 16 px apart, reading "Fees and bursaries" and "Next open morning". Nothing to their right.
 - **Colours per cell** (rule and dot use R1's exact value; title text uses a darker same-hue value because R1's fail contrast at 2.2–3.6:1):

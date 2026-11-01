@@ -50,3 +50,8 @@ Image files:
 - assets/images/p1.webp: CC0
 - assets/images/s1.webp: CC0
 - assets/images/w1.webp: CC0
+
+== Changelog ==
+= 1.0.1 =
+* Home hero: the headline and "About the college" link now sit in a wider text safe zone, clear of the people in the photographs (desktop); phones are unchanged (text stays above the photo).
+* The orange-red dots before links, strip tiles, course titles and inner-page tiles are smaller (7 px) and centred on the text.
