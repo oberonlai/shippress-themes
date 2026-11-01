@@ -9,7 +9,7 @@
 | Text | #1A1A1A | — |
 | Accent | none; photo colour (sea teal, white gulls) | — |
 First-screen saturated share (HSV s>0.6) measured: 5.0% (main), 0.3% (secondary).
-Ours: the saturated blue is replaced by 勝色 #3E4C55, the pale blue by a mist #DCE6EA.
+Ours: the saturated blue is replaced by katsu-iro slate #3E4C55, the pale blue by a mist #DCE6EA.
 
 ## (b) Type
 - Latin: a geometric sans (Reddit Sans). JP body Zen Kaku Gothic New 16/28, colour #1A1A1A, tracking normal.

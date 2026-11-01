@@ -212,6 +212,12 @@ Each: mini strip → label + heading → page body → T2 close line. No sidebar
 9. **Contact** (`/contact`): office address, phone, email, hours, ticket windows, lost property. No form required. T2 mailto.
 10. **404 / search**: label + heading + T2 home.
 
+Repo contract (`scripts/check-themes.mjs`):
+- `theme-meta.json` `pages`: home, about, news, article, category, tag, newsletter, contact, each with a `screens.<page>` URL in `demo-content.json`. Map news and newsletter to Notices, article to the first demo post, category and tag to a real demo term, contact to Contact.
+- `templates/tag.html` exists (copy of `archive.html`, label TAG). Notices is the single `role: posts` page, empty, no template. Demo posts have categories and tags.
+- `brand.md` states name, place, founding, people, audience, voice and a "day" description; it uses the word "day". Section 0 is the source.
+- All files in `brand/`, `theme-meta.json` and the like are English only; Chinese and Japanese appear only in `demo-content.zh-TW.json`, `demo-content.ja.json` and paths containing zh-TW or ja. Screens, slugs and order match English in every language.
+
 ---
 
 ## 5. Colour, type, spacing
@@ -219,25 +225,25 @@ Each: mini strip → label + heading → page body → T2 close line. No sidebar
 ### Colour
 | Role | Hex | Source token | Use | Share |
 |---|---|---|---|---|
-| Main 勝色 | `#3E4C55` | replaces `#303EC8`, `tok(a)` | bands, footer, wordmark, ticks | 25–30% of page; 0% saturated on first screen |
+| Main slate (katsu-iro) | `#3E4C55` | replaces `#303EC8`, `tok(a)` | bands, footer, wordmark, ticks | 25–30% of page; 0% saturated on first screen |
 | Secondary mist | `#DCE6EA` | replaces `#DAE8FF`, `tok(a)` | section grounds | 20% |
 | Base | `#FFFFFF` | `tok(a)` unchanged | page | 45% |
 | Text | `#1A1A1A` | `tok(a)` unchanged | body, headings on light | — |
 | Muted | `#55626A` | derived from main | captions, meta (5.9:1 on white) | — |
 | Accent rope rust | `#A8573F` | ours; reference has none | one 6px dot before the "Today's sailings" label; active nav dot. Never text | < 1% |
 
-**Why the main hue changes.** The rule is to use the reference colours unless they clearly do not suit; blue suits a ferry, so this exception is not about the industry. It comes from two binding rules: the row note requires a quiet palette, and the common rules forbid large high-saturation fields. `#303EC8` on 35% of a page is exactly that. 勝色 keeps what matters in the reference, the value structure: L* 31.5 against the reference's 34.5, white on main 8.9:1 against 7.9:1, and the band still reads as a heavy solid shape (the Tsumugi lesson: never swap contrast for pale stone). Mist `#DCE6EA` drops the periwinkle cast of `#DAE8FF`, which clashes with slate, at near-equal lightness.
+**Why the main hue changes.** The rule is to use the reference colours unless they clearly do not suit; blue suits a ferry, so this exception is not about the industry. It comes from two binding rules: the row note requires a quiet palette, and the common rules forbid large high-saturation fields. `#303EC8` on 35% of a page is exactly that. Slate keeps what matters in the reference, the value structure: L* 31.5 against the reference's 34.5, white on main 8.9:1 against 7.9:1, and the band still reads as a heavy solid shape (the Tsumugi lesson: never swap contrast for pale stone). Mist `#DCE6EA` drops the periwinkle cast of `#DAE8FF`, which clashes with slate, at near-equal lightness.
 
 **First-screen saturated share** (HSV s>0.6, `check-first-screen.py`): reference 5.0%. Target ≤ 5%, hard cap **15%** (row ceiling 30%; common rule 15%). Only photographs carry colour, so the photo grade must stay cool and low in saturation.
 
 ### Type (font_direction: serif)
 - Latin headings: **Source Serif 4** (400, 600). Latin body: **Nunito Sans** (400, 500, 600).
 - Heading stack: `"Source Serif 4", "Noto Serif TC", "Noto Serif JP", Georgia, serif`.
-- Body stack (en, fr, de): `"Nunito Sans", "Noto Serif TC", "Noto Serif JP", system-ui, sans-serif`.
-- zh-TW, headings and body: `:lang(zh-TW)` `"Noto Serif TC", "Source Serif 4", serif` (明體).
-- ja, headings and body: `:lang(ja)` `"Noto Serif JP", "Source Serif 4", serif` (明體).
+- Body stack (en, fr, de): `"Nunito Sans", system-ui, sans-serif`.
+- zh-TW display, `:root:lang(zh-TW)`: `"Noto Serif TC", "Source Serif 4", serif` (Ming style). zh-TW body: `"Songti TC", "PMingLiU", serif`, system Ming fonts only. The repo gate forbids the bundled zh family and any Japanese font in the zh body stack, so serif direction is kept with system fonts.
+- ja, headings and body: `:lang(ja)` `"Noto Serif JP", "Source Serif 4", serif` (Mincho style).
 - Do not use the reference's sans (Reddit Sans) or Noto Sans. Its numbers apply; its family does not, because the row sets serif.
-- Load all faces with `theme.json` `fontFamilies` + `fontFace`, including the zh-TW and ja subsets; same fonts in editor and front end. `style.css` uses `:lang(`, so copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and `require_once` it in `functions.php`. Must pass `check-editor-fonts.mjs`.
+- Load all faces with `theme.json` `fontFamilies` + `fontFace`, including the zh-TW and ja subsets; same fonts in editor and front end. `style.css` uses `:lang(`, so copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and `require_once` it in `functions.php`. List every file in `theme-meta.json` `fonts[].files` with `licenseFile` and license, and name each family in `readme.txt`. Must pass `check-editor-fonts.mjs`.
 
 | Preset | Size | LH | Weight | Tracking | Source |
 |---|---|---|---|---|---|

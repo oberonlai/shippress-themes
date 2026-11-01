@@ -1,7 +1,7 @@
 # Reference (draft) — Ushio Line (harbour passenger ferry, b21-3)
 Reference: https://cruise-kobe.com/
 Secondary: https://www.asukacruise.co.jp/brand/
-Source: S5-Style category "旅行･観光･航空･海運･交通". Screenshots: ref/ck-first.png, ref/scroll-ck-*.png, ref/asuka-first.png, ref/scroll-asuka-split.png. Tokens: reference-tokens.md.
+Source: S5-Style travel, tourism, aviation, shipping and transport category. Screenshots: ref/ck-first.png, ref/scroll-ck-*.png, ref/asuka-first.png, ref/scroll-asuka-split.png. Tokens: reference-tokens.md.
 
 ## Candidates borrowed
 1. Triple-panel photo strip inside one huge-radius frame, logo on the seam, wave ticks around it (main first screen).
@@ -10,7 +10,7 @@ Source: S5-Style category "旅行･観光･航空･海運･交通". Screensh
 4. Secondary: serif split row, half-width photo flush to the edge, copy right, one small photo floating lower right.
 
 ## Colour mapping
-勝色 #3E4C55 plays the blue; mist #DCE6EA the pale ground; white base; ink #1A2328; one tiny accent (rope rust) #A8573F under 1%.
+Slate #3E4C55 plays the blue; mist #DCE6EA the pale ground; white base; text #1A1A1A; one tiny accent (rope rust) #A8573F under 1%.
 
 ## Product mapping
 | Reference element | Ours |
@@ -26,5 +26,5 @@ Source: S5-Style category "旅行･観光･航空･海運･交通". Screensh
 | Ghost word at the band foot | "Pier to pier, daily" |
 | Asuka serif split, flush photo with floating sea photo | T4 `front-line`, mirrored `front-crew`; also Boats, Crew, On Board, About |
 | Bounce-in (back.out) | `sp-reveal--zoom` on pier photos, `--sp-ease` back approximation |
-| Blue #303EC8 / pale #DAE8FF / white / #1A1A1A | 勝色 #3E4C55 / mist #DCE6EA / white / #1A1A1A (reason: design-spec section 5) |
+| Blue #303EC8 / pale #DAE8FF / white / #1A1A1A | Slate #3E4C55 / mist #DCE6EA / white / #1A1A1A (reason: design-spec section 5) |
 | Cut-out gull and lighthouse, vertical booking tab, load screen, Lenis | Not used |
