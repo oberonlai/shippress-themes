@@ -23,7 +23,7 @@ The company, its people, address and prices are fictional.
 == Copyright ==
 
 Ushio Line theme, (C) ShipPress, GPL-2.0-or-later.
-Fonts: Source Serif 4 and Nunito Sans, SIL Open Font License 1.1 (see assets/fonts/OFL-*.txt).
+Fonts: Source Serif 4, Nunito Sans, Noto Serif TC and Noto Serif JP, SIL Open Font License 1.1 (see assets/fonts/OFL-*.txt). Noto Serif TC and Noto Serif JP are subset (Regular 400) to the characters of the Traditional Chinese and Japanese sample text.
 Images: all photographs in assets/images were AI-generated for this theme and are released under CC0.
 Scroll effects: assets/sp-scroll.css and sp-scroll.js (ShipPress, GPL-2.0-or-later), no third-party libraries.
 Image file: assets/images/k1-gangway.webp, AI-generated for this theme, CC0.
