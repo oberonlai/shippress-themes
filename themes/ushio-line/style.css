@@ -124,7 +124,7 @@ img { max-width: 100%; height: auto; }
 .ul-piers { background: var(--ul-mist); padding: 120px 0; }
 .ul-piers__head { max-width: 760px; margin-inline: 0; }
 .ul-piers__head { margin-left: max(var(--ul-pad), calc((100% - 1220px) / 2)); width: auto; max-width: 760px; }
-.ul-route { position: relative; list-style: none; height: 6px; margin: 112px auto 88px; padding: 0; }
+.ul-route { position: relative; list-style: none; height: 6px; margin: 112px 6px 88px; padding: 0; }
 .ul-route::before { content: ""; position: absolute; inset: 0; background: var(--ul-slate); -webkit-mask: var(--ul-wave) repeat-x 0 0 / 16px 6px; mask: var(--ul-wave) repeat-x 0 0 / 16px 6px; }
 .ul-route__stop { position: absolute; left: var(--p); top: 3px; width: 0; margin: 0; }
 .ul-route__dot { position: absolute; left: 0; top: -6px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--ul-slate); box-shadow: 0 0 0 4px var(--ul-mist); }
@@ -137,7 +137,7 @@ img { max-width: 100%; height: auto; }
 .ul-trio img { display: block; width: 100%; aspect-ratio: .73; object-fit: cover; border-radius: 48px; }
 .ul-trio figcaption { margin: 14px 0 0; font-size: .875rem; line-height: 1.4; letter-spacing: .28px; color: var(--ul-muted); text-align: left; }
 .ul-links { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px 40px; margin-top: 80px; }
-.ul-ticks-row { margin-top: 64px; height: 12px; align-items: center; }
+.ul-ticks-row { margin-top: 64px; height: 12px; align-items: center; overflow: clip; }
 .ul-ticks-row__set { display: flex; align-items: center; justify-content: space-around; gap: 64px; padding-right: 64px; }
 .ul-ticks-row__set + .ul-ticks-row__set { display: none; }
 @media (prefers-reduced-motion: no-preference) { html:not(.sp-no-motion) .ul-ticks-row__set + .ul-ticks-row__set { display: flex; } }
@@ -166,6 +166,7 @@ img { max-width: 100%; height: auto; }
 .ul-water__line { margin: 0; font-family: var(--ul-display); font-size: var(--wp--preset--font-size--x-large); line-height: 1.15; color: #fff; text-align: left; }
 
 /* ruled rows */
+.ul-split__text .ul-wave, .ul-story__text .ul-wave, .ul-access__text .ul-wave { margin-top: 1.75rem; }
 .ul-rule-rows { list-style: none; margin: 2rem 0 1.75rem; padding: 0; border-bottom: 1px solid var(--ul-rule); }
 .ul-rule-row { display: grid; grid-template-columns: 9rem 11rem minmax(0, 1fr); gap: 8px 18px; align-items: baseline; padding: 16px 0; border-top: 1px solid var(--ul-rule); }
 .ul-rule-row--two { grid-template-columns: 8rem minmax(0, 1fr); }
@@ -176,7 +177,7 @@ img { max-width: 100%; height: auto; }
 
 /* fares */
 .ul-fares { background: var(--ul-mist); padding: 120px 0; }
-.ul-fares__top { display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: 60px; align-items: end; margin-bottom: 64px; }
+.ul-fares__top { display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: 60px; align-items: center; margin-bottom: 64px; }
 .ul-fares__photo { margin: 0; }
 .ul-fares__photo img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 48px; }
 .ul-fare-list { list-style: none; margin: 0 0 40px; padding: 0; border-bottom: 1px solid var(--ul-rule); }
@@ -245,6 +246,8 @@ img { max-width: 100%; height: auto; }
 	.ul-hero__frame { height: 560px; min-height: 0; border-radius: 72px; }
 	.ul-seam__mark { font-size: 2.25rem; }
 	.ul-seam__tag { font-size: .8125rem; max-width: 9.5rem; margin-inline: auto; }
+	.ul-sec > .ul-tick, .ul-sec > p > .ul-tick { display: none; }
+	.ul-water__line { font-size: 2rem; }
 	.ul-hero__frame > .ul-tick, .ul-hero > .ul-tick:nth-of-type(n+4) { display: none; }
 	.ul-hero__today { display: block; margin-top: 28px; text-align: center; }
 	.ul-hero .ul-today { width: 172px; }
