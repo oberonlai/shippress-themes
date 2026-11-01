@@ -48,8 +48,9 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/n2-band.webp (Close-up of a resistance band around the ankles during a side step; home)
 - assets/images/n3-hop.webp (Close-up of feet landing a hop on a marked clinic floor; home)
 - assets/images/p1-dawn.webp (Lone runner small on an empty track at dawn under a pale sky; home)
+- assets/images/demo/journal-return-checks.webp (Copy of the calf-raise photo, imported as the sample journal post's featured image)
 - assets/images/d1-solheim.webp (Dr Ingrid Solheim in slate scrubs, smiling in a pale corridor; home)
 
 == Changelog ==
 = 1.0.0 =
-* Home page (English).
+* Home page and ten inner pages (injuries, method, team, stories, fees, athletes & clubs, visit, about, journal, FAQ) with the twin photo head, tinted bands and offset-line cards, a sample journal post, and the post, archive, search and 404 templates (English).
