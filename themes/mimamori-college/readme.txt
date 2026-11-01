@@ -52,6 +52,10 @@ Image files:
 - assets/images/w1.webp: CC0
 
 == Changelog ==
+= 1.0.2 =
+* Home hero: the headline no longer ends on a one-word last line ("time.") on phones and tablets; below 1100 px it wraps as one balanced block.
+* Header: between 600 and 959 px the menu stays a hamburger instead of wrapping into a vertical list that hung outside the header, and the opened menu's links are no longer pushed past the left screen edge (the list was absolutely positioned inside the overlay).
+
 = 1.0.1 =
 * Home hero: the headline and "About the college" link now sit in a wider text safe zone, clear of the people in the photographs (desktop); phones are unchanged (text stays above the photo).
 * The orange-red dots before links, strip tiles, course titles and inner-page tiles are smaller (7 px) and centred on the text.

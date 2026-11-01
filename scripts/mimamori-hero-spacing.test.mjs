@@ -98,8 +98,11 @@ test("phones: the copy is stacked above the photo, never over it", () => {
 	assert.match(copy, /align-self:\s*start/);
 });
 
-test("release metadata: 1.0.1 with a changelog entry", () => {
-	assert.match(css, /^\s*Version:\s*1\.0\.1\s*$/m);
+// 1.0.2 moved the version on (scripts/mimamori-title-nav.test.mjs checks it); this only requires 1.0.1 or later with its changelog entry kept.
+const atLeast = (v, min) => v.split(".").map(Number).reduce((r, n, i) => r || Math.sign(n - min.split(".")[i]), 0) >= 0;
+test("release metadata: 1.0.1 or later with the 1.0.1 changelog entry", () => {
+	const v = /^\s*Version:\s*(\S+)\s*$/m.exec(css)[1];
+	assert.ok(atLeast(v, "1.0.1"), `Version ${v} is at least 1.0.1`);
 	assert.match(read("readme.txt"), /= 1\.0\.1 =\n\* [^\n]*(dot|spacing|headline)[^\n]*/i);
-	assert.equal(JSON.parse(read("theme-meta.json")).version, "1.0.1");
+	assert.equal(JSON.parse(read("theme-meta.json")).version, v);
 });
