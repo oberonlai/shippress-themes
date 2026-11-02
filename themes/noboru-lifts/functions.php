@@ -68,3 +68,18 @@ function noboru_lifts_pattern_categories() {
 	);
 }
 add_action( 'init', 'noboru_lifts_pattern_categories' );
+
+/**
+ * The posts page has no archive title; show the page's own title in its query-title block.
+ *
+ * @param string $html Rendered block.
+ * @return string
+ */
+function noboru_lifts_posts_page_title( $html ) {
+	if ( is_home() && ! is_front_page() && '' === trim( wp_strip_all_tags( $html ) ) ) {
+		$title = get_the_title( (int) get_option( 'page_for_posts' ) );
+		return '<h1 class="wp-block-query-title nl-pagehead__h1">' . esc_html( $title ) . '</h1>';
+	}
+	return $html;
+}
+add_filter( 'render_block_core/query-title', 'noboru_lifts_posts_page_title' );
