@@ -18,7 +18,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
 3. Activate Noboru Lifts.
 
-On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates its pages with all their text and images, three news posts with two categories and three tags, the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
+On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates its pages with all their text and images, a news article with its category and tags, the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
 
 The company, its people, buildings, address, telephone number and prices are fictional.
 
@@ -49,9 +49,7 @@ Images: AI-generated for this theme with Grok Build image_gen as low-key documen
 - assets/images/p16-crew.webp (Three technicians with tool bags pausing in an office corridor, talking)
 - assets/images/p17-desk.webp (Quiet reception desk at early morning, a desk phone and notebook, lifts softly lit behind)
 - assets/images/p18-founder.webp (A woman in her fifties, a senior technician, standing calmly in a machine room)
-- assets/images/demo/p15-checklist.webp (copy of p15-checklist.webp: the featured image of a news post; the demo/ copy is the one imported into the Media Library)
-- assets/images/demo/p14-dawn.webp (copy of p14-dawn.webp: the featured image of a news post; imported into the Media Library)
-- assets/images/demo/p05-machine.webp (copy of p05-machine.webp: the featured image of a news post; imported into the Media Library)
+- assets/images/demo/p15-checklist.webp (copy of p15-checklist.webp: the featured image of the news article; the demo/ copy is the one imported into the Media Library)
 
 == Changelog ==
 = 1.0.0 =

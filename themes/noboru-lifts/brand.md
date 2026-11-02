@@ -57,4 +57,4 @@ The daily routine starts at 06:30. Vans are out by 06:40, the first lift is take
 3. Sticky split visit cards on a ruled grey grid band, with a hanging corner tab.
 
 ## Pages
-Home (landing, anchors #visit #buildings #fees #book), The Visit, Buildings, Fees, About, News (posts page), Slot List (waitlist), Contact, Privacy, Terms, Thanks.
+Home (landing, anchors #visit #buildings #fees #book), The Visit, Buildings, Fees, About, News (posts page, one article "What a paper checklist catches"), Slot List (waitlist), Contact, Privacy, Terms, Thanks. Inner pages open with a compact head and carry the visit cards, ink-strip headings and the hairline frame.
