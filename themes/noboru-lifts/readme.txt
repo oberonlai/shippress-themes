@@ -49,6 +49,8 @@ Images: AI-generated for this theme with Grok Build image_gen as low-key documen
 - assets/images/p16-crew.webp (Three technicians with tool bags pausing in an office corridor, talking)
 - assets/images/p17-desk.webp (Quiet reception desk at early morning, a desk phone and notebook, lifts softly lit behind)
 - assets/images/p18-founder.webp (A woman in her fifties, a senior technician, standing calmly in a machine room)
+- assets/images/demo/p05-machine.webp (copy of p05-machine.webp: featured image of the post "Reading an old lift's logbook"; the demo/ copy is the one imported into the Media Library, same GPL-2.0-or-later / CC0 license as the original)
+- assets/images/demo/p14-dawn.webp (copy of p14-dawn.webp: featured image of the post "Why we start at seven"; the demo/ copy is the one imported into the Media Library, same GPL-2.0-or-later / CC0 license as the original)
 - assets/images/demo/p15-checklist.webp (copy of p15-checklist.webp: the featured image of the news article; the demo/ copy is the one imported into the Media Library)
 
 == Changelog ==
