@@ -83,3 +83,14 @@ function noboru_lifts_posts_page_title( $html ) {
 	return $html;
 }
 add_filter( 'render_block_core/query-title', 'noboru_lifts_posts_page_title' );
+
+/* The marquee's second copy is decorative; aria-hidden is not saved by core/group, so add it on render. */
+function noboru_lifts_hide_marquee_copy( $html ) {
+	$p = new WP_HTML_Tag_Processor( $html );
+	if ( $p->next_tag( array( 'class_name' => 'nl-set--dup' ) ) ) {
+		$p->set_attribute( 'aria-hidden', 'true' );
+		return $p->get_updated_html();
+	}
+	return $html;
+}
+add_filter( 'render_block_core/group', 'noboru_lifts_hide_marquee_copy' );

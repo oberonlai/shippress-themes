@@ -34,8 +34,8 @@
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"nl-set","layout":{"type":"default"}} -->
-<div class="wp-block-group nl-set" aria-hidden="true"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nl-p1"} -->
+<!-- wp:group {"className":"nl-set nl-set--dup","layout":{"type":"default"}} -->
+<div class="wp-block-group nl-set nl-set--dup"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nl-p1"} -->
 <figure class="wp-block-image size-full nl-p1"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-corridor.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 
