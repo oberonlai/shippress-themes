@@ -54,5 +54,8 @@ Images: AI-generated for this theme with Grok Build image_gen as low-key documen
 - assets/images/demo/p15-checklist.webp (copy of p15-checklist.webp: the featured image of the news article; the demo/ copy is the one imported into the Media Library)
 
 == Changelog ==
+= 1.0.1 =
+* New conventional header on every page: logo mark and site name with the tagline on the left, one row of menu links, a call button on the right, and the hamburger menu on small screens. The stacked boxed menu, the sideways tabs and the scroll-driven header are gone.
+
 = 1.0.0 =
 * First release.
