@@ -80,10 +80,10 @@ body::after {
 .nl-header { position: sticky; top: 0; height: 0; z-index: 80; margin: 0; }
 .nl-bar {
 	position: absolute; left: 0; right: 0; top: 0; height: 48px; padding: 12px 12px 0; box-sizing: border-box;
-	display: grid; grid-template-columns: auto 1fr auto auto auto; align-items: stretch;
+	display: grid; grid-template-columns: auto 1fr auto auto auto; grid-template-rows: minmax(0, 1fr); align-items: stretch;
 	background: var(--nl-paper) linear-gradient(var(--nl-ink), var(--nl-ink)) 12px 100% / calc(100% - 24px) 1px no-repeat;
 }
-.nl-bar > * { margin: 0; }
+.nl-bar > * { margin: 0; min-height: 0; overflow: clip; }
 .nl-vtab--co, .nl-vtab--nav { display: none; }
 .nl-brand { display: flex; flex-direction: column; justify-content: center; padding: 0 20px; gap: 0; }
 .nl-brand__name, .nl-brand__name a { font: 700 1.125rem/1.1 var(--nl-disp); text-decoration: none; color: var(--nl-ink); margin: 0; }
@@ -222,7 +222,7 @@ html:not(.sp-no-motion) .sp-marquee.nl-drift > * { animation-duration: 72s; }
 .nl-card__text { padding: 0 72px; align-self: center; max-width: 664px; box-sizing: border-box; }
 .nl-card__text .nl-h2 { margin-bottom: 24px; }
 .nl-card__text p { font-size: 1rem; line-height: 2; max-width: 520px; }
-.nl-tab { position: absolute; top: -1px; right: -1px; width: 112px; height: 50px; box-sizing: border-box; border: 1px solid #3E3A39; background: var(--nl-band); padding: 6px 0 0; text-align: center; font: 600 .75rem/1 var(--nl-disp); letter-spacing: .1em; margin: 0; }
+.nl-tab { position: absolute; top: -1px; right: -1px; width: 112px; height: 50px; box-sizing: border-box; border: 1px solid #3E3A39; background: var(--nl-band); padding: 6px 0 0; text-align: center; font: 600 .75rem/1 var(--nl-disp); letter-spacing: .1em; text-transform: uppercase; margin: 0; }
 .nl-tab strong { display: block; font-size: 2rem; line-height: 1; letter-spacing: 0; font-weight: 600; margin-top: 2px; }
 
 /* ---- 4. buildings checkerboard ---- */
