@@ -29,6 +29,7 @@ Reference (only one): Ando Hazama renewal landing page, https://www.ad-hzm.co.jp
 | Fault call-outs | Mon–Fri **07:00–19:00** |
 | Next free slot (notice card) | **Tuesday, 07:00** |
 | The visit | **60 minutes** per lift, **2 technicians**, **5 stops** (landing, car, pit, machine, lobby), **32-point** paper checklist, written report in **2 working days** |
+| Reply to a booking | within **1 working day** |
 | Team | **7** people (below) |
 | Currency | **USD** in every language; no converted prices |
 
@@ -63,7 +64,7 @@ The 32-point checklist and the written report are included in the inspection hou
 **Stories (3, fictional buildings, no percentages or savings figures):**
 1. **Alder House**: 9 floors, 2 lifts, manager Priya Nair. A door that hesitated on floor 6 was traced to a worn sill guide.
 2. **Foundry Court**: 6 floors, 1 lift, converted warehouse, manager Daniel Osei. An old lift with no paperwork gets its first written record.
-3. **Meridian Yard**: 12 floors, 3 lifts, manager Lucia Ferrante. Three lifts inspected over one early morning, one at a time, so a lift stayed free for early staff. It takes three 60-minute slots across two mornings.
+3. **Meridian Yard**: 12 floors, 3 lifts, manager Lucia Ferrante. Three lifts inspected one at a time across two mornings, three 60-minute slots, so a lift stayed free for early staff.
 
 **A day (for brand.md, contract word "day"):** the daily routine starts at 06:30 at Wharf Row, vans out by 06:40, first lift out of service at 07:00, reports written in the afternoon, the second round at 18:00.
 
@@ -102,7 +103,7 @@ Copy rules: no guarantees, no invented statistics, no awards, no real brands. Al
 ### Continuation to inner pages
 | Page | T1 | T2 | T3 |
 |---|---|---|---|
-| The Visit | Three full cards, 800 extra words of detail, different photos | Yes | Compact head, card "60 minutes" |
+| The Visit | Three full cards with more detail and different photos | Yes | Compact head, card "60 minutes" |
 | Buildings | Three story cards, tabs "CASE 01–03" | Yes | Compact head, card "4–12 floors" |
 | Fees | One non-sticky card: what is included, tab "FEES" | Yes | Compact head, card "From $240" |
 | About | Founder card, tab "2011" | Yes | Compact head, card "7 people" |
@@ -147,7 +148,7 @@ Every image here is on the list in section 9.
 | Paper | `#F9F9F9` | ref paper | ground, with faint grain (inline SVG `feTurbulence` ≤ 4% opacity) | 62% |
 | Band | `#E4E4E4` | ref grey band | T1 band, block 9, 24 px grid | 15% |
 | Ink | `#3E3A39` | ref ink | text, rules, strips, footer | 10% |
-| Slate | `#626E78` | row hex | secondary text on paper (4.96:1), filled tabs in block 7 note, form focus | ≤ 5% |
+| Slate | `#626E78` | row hex | secondary text on paper (4.96:1), form field borders on focus | ≤ 5% |
 | Accent gradient | `#1B7A74` to `#1A5F86`, 45deg | ref CTA | header CTA cell, form submit, nothing else | ≤ 3% |
 | White | `#FFFFFF` | ref strip type | type on ink and gradient | — |
 
@@ -276,7 +277,6 @@ Every page: T3 compact head, T2 H2s, closes with the outline button to `/#book`,
 | 12 | 404 / search | templates | — | none | Eyebrow, H1, outline button home |
 
 - Reachable pages: 11 + posts; ≥ 9 satisfied. Also add `templates/tag.html`, `screens.*` for all 8 codes, and exactly one `posts` page.
-- Reply time: **1 working day**. Add it to the fixed facts wherever a reply is mentioned.
 
 ---
 
