@@ -26,6 +26,9 @@ The cinema, the films, the people, the address, telephone numbers and prices are
 
 == Changelog ==
 
+= 1.1.1 =
+* Updated theme files (templates/archive.html, templates/category.html, templates/tag.html).
+
 = 1.1.0 =
 * Redesign (user feedback: looked the same as Yoru Chocolate and Tsuba Millinery, dull one-tone plum). New archetype: horizontal scroll strip. Fixed top bar with ruled cells (H6), end-credits footer (F9), home as a sideways film strip (L4); the Programme page shows the same synced programme as a contact sheet.
 * New palette from Japanese traditional colours, used big: shu vermilion #EB6101 (hero, page heads, intertitles, ticket stub; sumi text on it 5.07:1), sumi #1C1C1C (bar, film strip, credits, text), tokiwa green #007B43 (membership band, intertitles; gofun text 5.27:1), washi #F7F3EA for reading, deep shu #A84200 links (5.51:1). The palette slugs keep their 1.0 names, so colours picked in existing content follow the new palette.
