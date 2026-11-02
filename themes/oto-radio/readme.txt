@@ -73,3 +73,7 @@ The same photographs, imported into the Media Library by the demo import and use
 - assets/images/demo/vinyl.jpg
 
 The waveform (a small SVG of bars inside style.css), the tuning dial, the on-air lamp and the record sleeves drawn in style.css are original work written for this theme (same copyright and license).
+
+== Changelog ==
+= 1.0.2 =
+* Updated theme files (style.css).

@@ -2,7 +2,7 @@
 (function (d, w) {
 	var h = d.documentElement, q = location.search,
 		st = /[?&]sp-static/.test(q) ||
-			(navigator.webdriver && !/[?&]sp-motion/.test(q)) ||
+			((navigator.webdriver || /HeadlessChrome/.test(navigator.userAgent)) && !/[?&]sp-motion/.test(q)) ||
 			(w.matchMedia && matchMedia('(prefers-reduced-motion:reduce)').matches);
 	h.classList.add('sp-js');
 	if (st || !w.IntersectionObserver) { h.classList.add('sp-no-motion'); return; }
