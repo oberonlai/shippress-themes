@@ -135,4 +135,9 @@ return array(
 	'ke9989db5' => 'Car',
 	'kf441dd1e' => 'Arjun Menon',
 	'search_results' => 'Search results for: %s',
+	'news_eyebrow' => 'Field notes',
+	'news_k' => 'Next step',
+	'news_v' => 'Book an inspection',
+	'news_tab' => 'Note 01',
+	'news_alt' => 'Closed stainless lift doors at the end of a dim office corridor',
 );

@@ -135,4 +135,9 @@ return array(
 	'ke9989db5' => '車廂',
 	'kf441dd1e' => 'Arjun Menon',
 	'search_results' => '「%s」的搜尋結果',
+	'news_eyebrow' => '現場筆記',
+	'news_k' => '下一步',
+	'news_v' => '預約檢查',
+	'news_tab' => '筆記 01',
+	'news_alt' => '昏暗辦公走廊盡頭緊閉的不鏽鋼電梯門',
 );

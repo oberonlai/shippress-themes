@@ -135,4 +135,9 @@ return array(
 	'ke9989db5' => 'Kabine',
 	'kf441dd1e' => 'Arjun Menon',
 	'search_results' => 'Suchergebnisse für: %s',
+	'news_eyebrow' => 'Feldnotizen',
+	'news_k' => 'Nächster Schritt',
+	'news_v' => 'Prüfung buchen',
+	'news_tab' => 'Notiz 01',
+	'news_alt' => 'Geschlossene Aufzugstüren aus Edelstahl am Ende eines dunklen Büroflurs',
 );

@@ -135,4 +135,9 @@ return array(
 	'ke9989db5' => 'かご',
 	'kf441dd1e' => 'Arjun Menon',
 	'search_results' => '「%s」の検索結果',
+	'news_eyebrow' => '現場ノート',
+	'news_k' => '次のステップ',
+	'news_v' => '点検を予約する',
+	'news_tab' => 'ノート 01',
+	'news_alt' => '薄暗いオフィスの廊下の突き当たりにある、閉じたステンレスのエレベーター扉',
 );

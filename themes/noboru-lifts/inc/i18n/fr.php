@@ -135,4 +135,9 @@ return array(
 	'ke9989db5' => 'Cabine',
 	'kf441dd1e' => 'Arjun Menon',
 	'search_results' => 'Résultats de recherche pour : %s',
+	'news_eyebrow' => 'Notes de terrain',
+	'news_k' => 'Étape suivante',
+	'news_v' => 'Réserver une inspection',
+	'news_tab' => 'Note 01',
+	'news_alt' => 'Portes d’ascenseur en inox fermées au bout d’un couloir de bureaux sombre',
 );
