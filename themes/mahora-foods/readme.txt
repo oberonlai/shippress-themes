@@ -51,3 +51,7 @@ Image files (all AI-generated, GPL-2.0-or-later / CC0):
 - assets/images/m16.webp
 - assets/images/m17.webp
 - assets/images/demo/service-day-notes.webp (copy of m04, thumbnail of the sample article)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (theme-meta.json).

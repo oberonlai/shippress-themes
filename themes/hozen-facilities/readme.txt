@@ -3,7 +3,7 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
@@ -51,3 +51,7 @@ All images are AI-generated for this theme (Grok Build), no text or logos, relea
 - assets/images/s4-pool.webp (home sites #04). AI-generated, CC0.
 - assets/images/sv-switchboard.webp (home services). AI-generated, CC0.
 - assets/images/demo/p1-chiller.webp (copy imported into the Media Library). AI-generated, CC0.
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (assets/sp-scroll.js, style.css).

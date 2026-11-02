@@ -3,7 +3,7 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,3 +64,7 @@ Subset of Noto Sans JP for Japanese pages, weight 400.
 All photographs in assets/images/ were generated with an AI image model for this theme and are released under CC0 1.0 (public domain dedication).
 
 Files: assets/images/doctor-reading.webp, assets/images/hero-consult-room.webp, assets/images/method-sensors.webp, assets/images/story-blackout.webp, assets/images/story-cpap.webp, assets/images/story-dawn-tea.webp, assets/images/strip-corridor.webp, assets/images/strip-diary.webp, assets/images/strip-home-kit.webp, assets/images/study-room.webp, assets/images/symptom-3am.webp, assets/images/symptom-afternoon.webp, assets/images/symptom-shift.webp, assets/images/symptom-snore.webp, assets/images/technologist-desk.webp, assets/images/visit-entrance.webp
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (theme-meta.json).
