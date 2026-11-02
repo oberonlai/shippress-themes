@@ -46,7 +46,7 @@
 
 <!-- wp:buttons {"className": "iy-more"} -->
 <div class="wp-block-buttons iy-more"><!-- wp:button {"className": "is-style-text-link"} -->
-<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/workshop-notes/"><?php echo esc_html( itomaki_yarn_t( 'all_notes' ) ); ?></a></div>
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/knitting-notes/"><?php echo esc_html( itomaki_yarn_t( 'all_notes' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>
