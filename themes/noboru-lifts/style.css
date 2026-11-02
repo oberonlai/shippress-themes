@@ -414,3 +414,17 @@ body.home .nl-main { padding-top: 0; }
 	.nl-h2--xl { font-size: clamp(2.25rem, 3.4vw, 3.25rem); }
 	.nl-h2--xl .nl-strip { white-space: nowrap; }
 }
+
+/* header: the overlay menu from 960 down (WordPress switches at 600) */
+@media (min-width: 600px) and (max-width: 959px) {
+	.nl-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none; }
+	.nl-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; align-items: center; }
+}
+
+/* booking card: two-column fields keep the card at the visit-card height */
+@media (min-width: 960px) {
+	.nl-bookcard__form { padding: 48px 56px 40px; }
+	.nl-bookcard .nl-form { display: grid; grid-template-columns: 1fr 1fr; column-gap: 16px; }
+	.nl-bookcard .nl-form button { grid-column: 1 / -1; }
+	.nl-bookcard__form .nl-body { margin-bottom: 16px; }
+}

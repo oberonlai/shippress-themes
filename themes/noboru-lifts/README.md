@@ -1,6 +1,6 @@
 # Noboru Lifts
 
-A landing-page block theme for an office lift inspection contractor. Reference: a Japanese renewal landing page (see brand/reference.md). Stage one covers the home page in English.
+A landing-page block theme for an office lift inspection contractor. Reference: a Japanese renewal landing page (see brand/reference.md). The home page is a one-page conversion flow with an anchor CTA; the header menu links to the inner pages (The visit, Buildings, Fees, About). Below 960 px the header becomes a 56 px bar with an overlay menu.
 
 ## Techniques
 1. **Open paper first screen** (front-hero): hairline frame, boxed header that shrinks after the hero (CSS scroll-driven, no script), a photo row drifting left, a headline cut by the fold, a notice card with a sideways tab.
@@ -12,3 +12,6 @@ front-hero, front-intro, front-visit, front-buildings, front-quiet (parallax), f
 
 ## Scroll effects
 `assets/sp-scroll.css` and `assets/sp-scroll.js` (shared ShipPress component): reveal, stagger, parallax, marquee.
+
+## Sample content
+Pages: home, the-visit, buildings, fees, about, news (posts page), slot-list, contact, privacy, terms, thanks. Fonts: Instrument Sans and Albert Sans (Noto Sans TC and Noto Sans JP for zh-TW and ja display), all OFL-1.1, listed in theme-meta.json.
