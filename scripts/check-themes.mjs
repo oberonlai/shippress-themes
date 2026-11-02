@@ -31,6 +31,8 @@ const SECRETS = [
   [/-----BEGIN [A-Z ]*PRIVATE KEY-----/, "private key"],
   [/\b(api[_-]?key|secret|password|token)\s*[:=]\s*["'][^"']{6,}["']/i, "hard-coded credential"],
   [/fonts\.(googleapis|gstatic)\.com|use\.typekit\.net|fonts\.bunny\.net/, "remote font host (bundle fonts instead)"],
+  // the store's demo/static check fails a page that still links to the render host (2026-11-02)
+  [/\b(localhost|127\.0\.0\.1)\b|\/\/\[::1\]/i, "local URL (localhost / 127.0.0.1): a theme never needs one, the store check rejects it"],
 ];
 // Demo copy names only fictional people, companies, publications and awards. Real ones that have slipped in before
 // (or are the obvious next temptation for a Japanese-inspired theme) are refused; real city names are fine.
@@ -170,6 +172,9 @@ export function checkDemo(dir, read, has, demo, meta, importer = readFileSync(SH
     }
   }
   if (meta?.type === "store" && !(demo.products ?? []).length) errs.push("a store theme needs sample products in demo-content.json");
+  // 2026-11-02 (mahora-foods, nemuri-clinic): a store block makes the store render a WooCommerce /shop/. A theme without a shop
+  // gets an empty one whose "no products" block links to the render host (http://127.0.0.1/shop/), so the demo check fails.
+  if (meta?.store && !((demo.products ?? []).length && ["archive-product", "single-product"].every((t) => has(`templates/${t}.html`)))) errs.push("theme-meta.json declares a store block but has no shop (sample products in demo-content.json and templates/archive-product.html + single-product.html): drop the store block if the theme is not a shop");
   if (meta?.type === "store" && !["archive-product", "single-product"].every((t) => has(`templates/${t}.html`))) errs.push("a store theme needs templates/archive-product.html and templates/single-product.html");
   if (has("assets/images")) for (const f of readdirSync(join(dir, "assets/images")).filter((f) => f.endsWith(".svg"))) {
     const name = f.slice(0, -4);

@@ -7,6 +7,7 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { checkZhFonts, woff2Codepoints, zhCjkChars, zhTwText } from "./zh-fonts.mjs";
 import { spawnSync } from "node:child_process";
+import vm from "node:vm";
 import { buildIndex, checkTheme, cssWords, expandPatterns, gateMetrics, hasAlpha, homeMetrics, i18nStrings, LEGACY_IMPORTERS, maxFontRem, patternBody, REAL_NAMES, styleHeader, TYPES } from "./check-themes.mjs";
 
 const THEMES = fileURLToPath(new URL("../themes/", import.meta.url));
@@ -374,4 +375,82 @@ test("store themes must declare a store block in theme-meta.json (2026-10-24, ha
     delete m.store; writeFileSync(p, JSON.stringify(m));
     assert.match(checkTheme(t, store).join("\n"), /a store theme needs a "store" block/);
   } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+// 2026-11-02 (store static-render checks): the ShipPress store renders every theme on a throwaway WordPress and rejects a
+// theme whose demo pages still link to localhost, or whose static home page does not match the live one.
+const metaOf = (s) => JSON.parse(readFileSync(join(THEMES, s, "theme-meta.json"), "utf8"));
+
+test("theme files must not contain localhost URLs (store check: no 127.0.0.1 / localhost in the demo)", () => {
+  const dir = mkdtempSync(join(tmpdir(), "theme-localhost-"));
+  try {
+    const t = join(dir, slugs[0]);
+    cpSync(join(THEMES, slugs[0]), t, { recursive: true });
+    assert.doesNotMatch(checkTheme(t, slugs[0]).join("\n"), /local URL/);
+    writeFileSync(join(t, "functions.php"), readFileSync(join(t, "functions.php"), "utf8") + "\n// see http://localhost:8080/shop/ and http://127.0.0.1/shop/\n");
+    const errs = checkTheme(t, slugs[0]).filter((e) => /local URL/.test(e));
+    assert.equal(errs.length, 1, errs.join("\n"));
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+test("a store block needs a real shop: sample products and the shop templates (mahora-foods, nemuri-clinic)", () => {
+  const plain = slugs.find((s) => !metaOf(s).store && metaOf(s).type !== "store");
+  const dir = mkdtempSync(join(tmpdir(), "theme-shopless-"));
+  try {
+    const t = join(dir, plain);
+    cpSync(join(THEMES, plain), t, { recursive: true });
+    const p = join(t, "theme-meta.json"), m = JSON.parse(readFileSync(p, "utf8"));
+    assert.doesNotMatch(checkTheme(t, plain).join("\n"), /store block/);
+    // WooCommerce is only declared: the store would render an empty /shop/ whose "no products" block links to the render host
+    writeFileSync(p, JSON.stringify({ ...m, store: { plugin: "woocommerce", required: false, templates: [], sampleProducts: 0, withoutPlugin: "No shop is needed." } }));
+    assert.match(checkTheme(t, plain).join("\n"), /declares a store block but has no shop/);
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});
+
+test("no business theme declares WooCommerce without having a shop", () => {
+  for (const s of slugs) {
+    const st = metaOf(s).store;
+    if (!st) continue;
+    assert.ok(st.sampleProducts > 0 && (st.templates ?? []).includes("archive-product"), `${s}: store block without a shop`);
+  }
+});
+
+// Headless Chrome (the store's check screenshots, other crawlers) sometimes captures an entrance animation in its first frame:
+// the same page then passes or fails the visual diff at random. sp-scroll.js already treats navigator.webdriver as "no motion";
+// a headless user agent gets the same final state.
+function spScrollClasses(slug, { userAgent, webdriver = false }) {
+  const added = [];
+  const noop = () => {};
+  class IO { observe() {} unobserve() {} }
+  const ctx = {
+    document: { documentElement: { classList: { add: (c) => added.push(c) } }, addEventListener: noop, querySelectorAll: () => [] },
+    navigator: { webdriver, userAgent }, location: { search: "" }, matchMedia: () => ({ matches: false }),
+    IntersectionObserver: IO, getComputedStyle: () => ({}), requestAnimationFrame: noop, CSS: { supports: () => true },
+  };
+  ctx.window = ctx; ctx.self = ctx;
+  vm.runInNewContext(readFileSync(join(THEMES, slug, "assets/sp-scroll.js"), "utf8"), ctx);
+  return added;
+}
+for (const slug of ["hozen-facilities", "shizuka-hearing"]) {
+  test(`${slug}: sp-scroll.js shows the final state to headless Chrome, motion to a normal browser`, () => {
+    assert.deepEqual(spScrollClasses(slug, { userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/142.0.0.0 Safari/537.36" }), ["sp-js", "sp-no-motion"]);
+    assert.deepEqual(spScrollClasses(slug, { userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" }), ["sp-js"]);
+    assert.deepEqual(spScrollClasses(slug, { userAgent: "x", webdriver: true }), ["sp-js", "sp-no-motion"]);
+  });
+}
+
+test("hozen-facilities and shizuka-hearing: first-screen entrance animations do not start from opacity 0", () => {
+  // the hero photo / tiles stay visible even if the animation never starts (LCP, screenshots, crawlers)
+  const hozen = readFileSync(join(THEMES, "hozen-facilities/style.css"), "utf8");
+  assert.doesNotMatch(hozen.match(/@keyframes hz-focus-in \{[^}]*\}[^}]*\}/)[0], /from \{[^}]*opacity: 0/);
+  const shizuka = readFileSync(join(THEMES, "shizuka-hearing/style.css"), "utf8");
+  assert.doesNotMatch(shizuka.match(/@keyframes sh-fade \{[^}]*\}[^}]*\}/)[0], /from \{[^}]*opacity: 0/);
+});
+
+test("oto-radio: the masthead bar keeps its height without the search button (the static package drops search)", () => {
+  const css = readFileSync(join(THEMES, "oto-radio/style.css"), "utf8");
+  const button = css.match(/\.oto-mast__search \.wp-block-search__button \{[^}]*?height: ([\d.]+rem)/)[1];
+  const bar = css.match(/\.oto-mast__bar \{[^}]*\}/)[0];
+  assert.match(bar, /box-sizing: content-box/);
+  assert.ok(bar.includes(`min-height: ${button}`), `bar min-height must equal the search button height ${button}`);
 });
