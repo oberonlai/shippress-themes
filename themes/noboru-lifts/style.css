@@ -41,12 +41,10 @@ Tags: block-patterns, full-site-editing, custom-colors, editor-style, translatio
 :lang(de) p, :lang(fr) p { hyphens: auto; }
 
 html, body { overflow-x: clip; }
-html { scroll-behavior: smooth; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body {
 	-webkit-font-smoothing: antialiased;
 	background-color: var(--nl-paper);
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .24 0 0 0 0 .22 0 0 0 0 .22 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .24 0 0 0 0 .22 0 0 0 0 .22 0 0 0 .035 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 .wp-site-blocks { padding: 0; }
 .wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }
@@ -61,6 +59,16 @@ a { text-underline-offset: .2em; }
 body::before { content: ""; position: fixed; inset: 12px; border: 1px solid var(--nl-ink); pointer-events: none; z-index: 90; }
 body::after {
 	content: ""; position: fixed; inset: 8px; pointer-events: none; z-index: 91;
+	background:
+		linear-gradient(#1A5F86, #1A5F86) right 0 top 4px / 9px 1px no-repeat,
+		linear-gradient(#1A5F86, #1A5F86) right 4px top 0 / 1px 9px no-repeat,
+		linear-gradient(#1B7A74, #1B7A74) left 0 bottom 4px / 9px 1px no-repeat,
+		linear-gradient(#1B7A74, #1B7A74) left 4px bottom 0 / 1px 9px no-repeat;
+}
+
+/* crosshair ticks on photo and card corners */
+.nl-portrait::after, .nl-card::after, .nl-bookcard::after {
+	content: ""; position: absolute; inset: -4px; pointer-events: none; z-index: 5;
 	background:
 		linear-gradient(#1A5F86, #1A5F86) right 0 top 4px / 9px 1px no-repeat,
 		linear-gradient(#1A5F86, #1A5F86) right 4px top 0 / 1px 9px no-repeat,
@@ -97,7 +105,7 @@ body::after {
 .nl-nav .wp-block-navigation-item__content { display: flex; align-items: center; height: 100%; padding: 0 16px; font: 700 .9375rem/1 var(--nl-disp); text-decoration: none; white-space: nowrap; color: var(--nl-ink); }
 .nl-nav .wp-block-navigation-item__content:hover { background: var(--nl-ink); color: #fff; }
 .nl-cta { display: flex; }
-.nl-cta a { display: flex; align-items: center; justify-content: center; padding: 0 20px; background: var(--nl-cta); color: #fff; font: 700 .9375rem/1.3 var(--nl-disp); text-decoration: none; text-align: center; white-space: nowrap; }
+.nl-cta a { flex: 1; display: flex; align-items: center; justify-content: center; padding: 0 20px; background: var(--nl-cta); color: #fff; font: 700 .9375rem/1.3 var(--nl-disp); text-decoration: none; text-align: center; white-space: nowrap; }
 .nl-cta a:hover { filter: brightness(1.12); }
 .nl-nav .wp-block-navigation__responsive-container.is-menu-open { background: var(--nl-paper); color: var(--nl-ink); }
 .nl-nav .wp-block-navigation__responsive-container-open { color: var(--nl-ink); border-left: 1px solid var(--nl-ink); padding: 0 12px; height: 100%; }
@@ -110,7 +118,7 @@ body::after {
 	body.home .nl-brand__sub { max-height: 1.5em; opacity: 1; }
 	body.home .nl-nav { width: 408px; }
 	body.home .nl-nav .wp-block-navigation__container { flex-direction: column; }
-	body.home .nl-nav .wp-block-navigation-item { flex: 1; border-left: 0; border-top: 1px solid var(--nl-ink); }
+	body.home .nl-nav .wp-block-navigation-item { flex: 1; border-left: 0 solid var(--nl-ink); border-top: 1px solid var(--nl-ink); }
 	body.home .nl-nav .wp-block-navigation-item:first-child { border-top: 0; }
 	body.home .nl-cta { width: 132px; }
 	body.home .nl-cta a { white-space: normal; padding: 0 12px; }
@@ -159,7 +167,7 @@ body::after {
 .nl-wrap { max-width: 1200px; margin-left: auto; margin-right: auto; padding-left: 24px; padding-right: 24px; box-sizing: border-box; }
 .nl-sec { padding-top: var(--nl-sec); padding-bottom: var(--nl-sec); }
 .nl-sec[id], section[id] { scroll-margin-top: 60px; }
-.nl-body, .nl-body p { font-size: 1rem; line-height: 2; }
+.nl-body, .nl-body p { font-size: 1.125rem; line-height: 2; }
 .nl-body p + p { margin-top: 1em; }
 
 /* outline button with split arrow cell */
@@ -178,13 +186,13 @@ body::after {
 html:not(.sp-no-motion) .sp-marquee.nl-drift > * { animation-duration: 72s; }
 .nl-drift figure { flex: none; margin: 0; }
 .nl-drift img { width: 100%; height: 100%; object-fit: cover; }
-.nl-p1 { width: 300px; height: 300px; margin-top: 40px; }
-.nl-p2 { width: 390px; height: 520px; }
-.nl-p3 { width: 280px; height: 420px; margin-top: -30px; }
-.nl-p4 { width: 400px; height: 300px; margin-top: 50px; }
-.nl-p5 { width: 340px; height: 340px; margin-top: -20px; }
+.nl-p1 { width: 270px; height: 270px; margin-top: 36px; }
+.nl-p2 { width: 351px; height: 468px; }
+.nl-p3 { width: 252px; height: 378px; margin-top: -27px; }
+.nl-p4 { width: 360px; height: 270px; margin-top: 45px; }
+.nl-p5 { width: 306px; height: 306px; margin-top: -18px; }
 .nl-hero__low { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; position: relative; z-index: 2; }
-.nl-hero__title { overflow: clip; padding: 8px 0 0 16px; min-width: 0; }
+.nl-hero__title { overflow: clip; padding: 8px 0 0 0; min-width: 0; }
 .nl-hero__title .nl-eyebrow { margin-bottom: 12px; }
 .nl-hero__h1 { font-family: var(--nl-disp); font-weight: 700; font-size: clamp(2.75rem, 5.84vw, 5.25rem); line-height: 1.08; letter-spacing: -.01em; margin: 0 0 -.14em; white-space: nowrap; }
 .nl-note { position: relative; flex: none; width: 494px; height: 132px; box-sizing: border-box; display: grid; grid-template-columns: 198px 1fr; border-top: 1px solid var(--nl-ink); border-left: 1px solid var(--nl-ink); background: var(--nl-paper); margin: 0; }
@@ -201,7 +209,7 @@ html:not(.sp-no-motion) .sp-marquee.nl-drift > * { animation-duration: 72s; }
 .nl-corner { position: relative; }
 
 /* ---- 2. intro ---- */
-.nl-intro .nl-wrap { display: grid; grid-template-columns: 1fr 384px 380px; gap: 56px; align-items: start; max-width: 1344px; }
+.nl-intro .nl-wrap { display: grid; grid-template-columns: 1fr 384px 380px; gap: 40px; align-items: start; max-width: 1344px; }
 .nl-portrait { position: relative; }
 .nl-portrait figure img { width: 384px; height: 576px; object-fit: cover; }
 .nl-portrait .nl-vtab { position: absolute; left: -14px; top: 40px; z-index: 2; }
@@ -242,11 +250,12 @@ html:not(.sp-no-motion) .sp-marquee.nl-drift > * { animation-duration: 72s; }
 .nl-quiet__card .nl-h2 { margin-bottom: 20px; }
 .nl-quiet__card p { font-size: 1rem; line-height: 1.9; }
 .nl-quiet__card .nl-vtab { position: absolute; left: -14px; top: 0; }
+.nl-quiet__card p.nl-vtab { font-size: .6875rem; line-height: 12px; }
 
 /* ---- 6. sheet ---- */
 .nl-sheet .nl-wrap { display: grid; grid-template-columns: 480px 1fr; gap: 96px; align-items: start; }
 .nl-sheet figure img { width: 480px; height: 720px; object-fit: cover; }
-.nl-sheet__lead { font-size: 1rem; line-height: 2; margin-bottom: 32px; max-width: 520px; }
+.nl-sheet__lead { font-size: 1.125rem; line-height: 2; margin-bottom: 32px; max-width: 520px; }
 .nl-rows { border-top: 1px solid var(--nl-ink); max-width: 560px; }
 .nl-row { display: flex; justify-content: space-between; border-bottom: 1px solid var(--nl-ink); padding: 8px 0; }
 .nl-row p { font: 600 1rem/1.8 var(--nl-disp); }
@@ -260,7 +269,7 @@ html:not(.sp-no-motion) .sp-marquee.nl-drift > * { animation-duration: 72s; }
 .nl-fees th, .nl-fees td { border: 0; border-bottom: 1px solid var(--nl-ink); padding: 20px 0; font: 600 1.125rem/1.6 var(--nl-disp); text-align: left; }
 .nl-fees th { font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; padding: 14px 0; }
 .nl-fees th:last-child, .nl-fees td:last-child { text-align: right; white-space: nowrap; padding-left: 24px; font-variant-numeric: tabular-nums; }
-.nl-fees-note { margin-top: 24px; font-size: 1rem; }
+.nl-fees-note { margin-top: 24px; font-size: 1.125rem; line-height: 2; }
 @media (max-width: 781px) {
 	.nl-fees thead { display: none; }
 	.nl-fees table, .nl-fees tbody, .nl-fees tr, .nl-fees td { display: block; width: 100%; box-sizing: border-box; }
@@ -272,9 +281,9 @@ html:not(.sp-no-motion) .sp-marquee.nl-drift > * { animation-duration: 72s; }
 /* ---- 8. crew ---- */
 .nl-crew .nl-wrap > figure img { width: 100%; aspect-ratio: 21 / 9; object-fit: cover; }
 .nl-crew .nl-wrap > figure { margin-bottom: 64px; }
-.nl-crew__lead { font-size: 1rem; max-width: 640px; margin-bottom: 40px; }
-.nl-people { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--nl-ink); }
-.nl-person { padding: 18px 24px 18px 0; border-bottom: 1px solid var(--nl-ink); }
+.nl-crew__lead { font-size: 1.125rem; line-height: 2; max-width: 640px; margin-bottom: 40px; }
+.nl-people { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--nl-ink); }
+.nl-person { padding: 18px 24px 18px 0; border-top: 1px solid var(--nl-ink); }
 .nl-person p:first-child { font: 700 1.125rem/1.5 var(--nl-disp); }
 .nl-person p:last-child { font-size: .9375rem; line-height: 1.6; }
 
@@ -284,7 +293,7 @@ html:not(.sp-no-motion) .sp-marquee.nl-drift > * { animation-duration: 72s; }
 .nl-story:last-of-type { border-bottom: 1px solid var(--nl-ink); }
 .nl-story h3 { font: 700 1.375rem/1.4 var(--nl-disp); }
 .nl-story__meta { font-size: .9375rem; line-height: 1.6; }
-.nl-story p.nl-story__t { font-size: 1rem; line-height: 1.9; max-width: 640px; }
+.nl-story p.nl-story__t { font-size: 1.125rem; line-height: 2; max-width: 640px; }
 .nl-story__by { font: 600 .9375rem/1.6 var(--nl-disp); margin-top: 8px; }
 
 /* ---- 10. book ---- */
@@ -342,9 +351,10 @@ body.home .nl-main { padding-top: 0; }
 	.nl-card { position: relative; top: auto; grid-template-columns: 1fr; height: auto; margin-bottom: 24px; margin-left: 12px; margin-right: 12px; }
 	.nl-card__photo { aspect-ratio: 1 / 1; height: auto; border-right: 0; border-bottom: 1px solid #3E3A39; }
 	.nl-card__text { padding: 32px 24px; max-width: none; }
-	.nl-tab { position: static; width: auto; height: auto; border: 0; background: none; text-align: left; padding: 0 0 12px; font-size: .75rem; }
+	.nl-tab { position: static; order: 1; justify-self: end; width: auto; height: auto; border: 0; border-left: 1px solid #3E3A39; border-bottom: 1px solid #3E3A39; background: none; text-align: left; padding: 6px 12px; font-size: .75rem; }
 	.nl-tab strong { display: inline; font-size: 1.25rem; margin-left: 6px; }
-	.nl-card .nl-tab { order: 0; }
+	.nl-card__text, .nl-bookcard__form { order: 2; }
+	.nl-quiet__card p.nl-vtab { line-height: 1.2; }
 	.nl-vtab:not(.nl-vtab--foot):not(.nl-vtab--co):not(.nl-vtab--nav) { writing-mode: horizontal-tb; position: static; width: auto; padding: 0 0 8px; border: 0; background: none; font-size: .6875rem; line-height: 1.2; display: block; }
 	.nl-sheet .nl-wrap { grid-template-columns: 1fr; }
 	.nl-sheet figure img { width: 100%; height: auto; aspect-ratio: 3 / 2; }
@@ -357,12 +367,11 @@ body.home .nl-main { padding-top: 0; }
 }
 @media (max-width: 782px) {
 	:root { --nl-sec: 96px; }
+	.nl-portrait::after, .nl-card::after, .nl-bookcard::after { display: none; }
 	.nl-intro .nl-wrap { grid-template-columns: 1fr; gap: 32px; }
 	.nl-portrait figure img { width: 100%; height: auto; aspect-ratio: 2 / 3; }
 	.nl-board { grid-template-columns: 1fr; margin: 0 6px; }
 	.nl-board__t { padding: 32px 24px; aspect-ratio: auto; }
-	.nl-board figure { order: 0; }
-	.nl-board > :nth-child(4) { order: 4; }
 	.nl-quiet.wp-block-cover { min-height: 0 !important; padding-top: 320px; --sp-par: 6%; margin-bottom: 0; }
 	.nl-kv { --sp-par: 6%; }
 	.nl-h2--xl { font-size: 2.25rem; }
@@ -386,7 +395,9 @@ body.home .nl-main { padding-top: 0; }
 	.nl-hero__title .nl-eyebrow { letter-spacing: .3em; }
 	.nl-hero__h1 { margin-bottom: 0; white-space: normal; }
 	.nl-note { width: 100%; height: auto; grid-template-columns: 120px 1fr; min-height: 120px; }
-	.nl-note__photo { height: 120px; }
+	.nl-note__photo { grid-column: 1; grid-row: 1 / 3; width: 120px; height: 120px; }
+	.nl-vtab--note { grid-column: 2; grid-row: 1; }
+	.nl-note__text { grid-column: 2; grid-row: 2; }
 	.nl-note__text { padding: 14px 16px; }
 	.nl-vtab--note { position: static; writing-mode: horizontal-tb; width: auto; border: 0; padding: 0 0 4px; background: none; }
 	.nl-quiet__card { position: relative; right: auto; width: 100%; border-left: 0; }
@@ -396,3 +407,10 @@ body.home .nl-main { padding-top: 0; }
 .nl-bookcard__form .nl-body { margin-bottom: 24px; }
 .nl-bookcard .nl-tab { text-transform: uppercase; }
 .nl-bookcard .nl-tab strong { font-size: 1.125rem; margin-top: 8px; letter-spacing: .1em; }
+
+@media (min-width: 1248px) {
+	.nl-wrap, .nl-visit .nl-visit__head, .nl-buildings__head { padding-left: 0; padding-right: 0; }
+	.nl-intro .nl-wrap { padding-left: 24px; padding-right: 24px; }
+	.nl-h2--xl { font-size: clamp(2.25rem, 3.4vw, 3.25rem); }
+	.nl-h2--xl .nl-strip { white-space: nowrap; }
+}
