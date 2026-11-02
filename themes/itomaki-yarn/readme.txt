@@ -55,5 +55,8 @@ Images: AI-generated for this theme with Grok Build image_gen as soft watercolou
 - assets/images/demo/j-winter.webp (knitting note: a scarf before the snow)
 
 == Changelog ==
+= 1.0.2 =
+* Updated theme files (patterns/home-journal.php).
+
 = 1.0.1 =
 * Updated theme files (functions.php, inc/editor-lang.php).
