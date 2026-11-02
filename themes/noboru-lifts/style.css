@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/noboru
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Noboru Lifts — a landing-page theme for an office lift inspection and maintenance contractor. Open paper inside a 1 px hairline frame with small crosshair ticks, a row of low-key lift photographs drifting left under a huge bold headline cut by the fold, a notice card with a sideways tab flush bottom-right, every heading on solid ink strips, and three split visit cards that pin and slide over each other on a ruled grey grid band. One slate-grey and ink palette with a single teal-to-blue call-to-action cell. Instrument Sans for headings, Albert Sans for reading. Sample content in English, Traditional Chinese, Japanese, French and German. Works without WooCommerce. WCAG AA colours; scroll effects respect reduced motion.
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -94,75 +94,59 @@ body::after {
 	white-space: nowrap; color: var(--nl-ink);
 }
 
-/* header */
-.nl-header { position: sticky; top: 0; height: 0; z-index: 80; margin: 0; }
+/* header: brand (mark, name, tagline) left, one row of links, CTA right; the hamburger overlay below 960 px */
+.nl-header { position: sticky; top: 0; z-index: 80; margin: 0; }
 .nl-bar {
-	position: absolute; left: 0; right: 0; top: 0; height: 48px; padding: 12px 12px 0; box-sizing: border-box;
-	display: grid; grid-template-columns: auto 1fr auto auto auto; grid-template-rows: minmax(0, 1fr); align-items: stretch;
+	display: flex; align-items: center; gap: 28px; height: 72px; padding: 12px 40px 0; box-sizing: border-box;
 	background: var(--nl-paper) linear-gradient(var(--nl-ink), var(--nl-ink)) 12px 100% / calc(100% - 24px) 1px no-repeat;
 }
-.nl-bar > * { margin: 0; min-height: 0; overflow: clip; }
-.nl-vtab--co, .nl-vtab--nav { display: none; }
-.nl-brand { display: flex; flex-direction: column; justify-content: center; padding: 0 20px; gap: 0; }
-.nl-brand__name, .nl-brand__name a { font: 700 1.125rem/1.1 var(--nl-disp); text-decoration: none; color: var(--nl-ink); margin: 0; }
-.nl-brand__sub { font-family: var(--nl-disp); font-size: .8125rem; line-height: 1.3; max-height: 0; opacity: 0; overflow: clip; color: var(--nl-ink); }
-.nl-nav { align-self: stretch; }
-@media (min-width: 600px) {
-	.nl-nav, .nl-nav .wp-block-navigation__responsive-container, .nl-nav .wp-block-navigation__responsive-close, .nl-nav .wp-block-navigation__responsive-dialog, .nl-nav .wp-block-navigation__responsive-container-content { height: 100%; display: flex; flex-direction: column; justify-content: stretch; }
-	.nl-nav .wp-block-navigation__container { gap: 0; align-items: stretch; height: 100%; width: 100%; }
+.nl-bar > * { margin: 0; min-width: 0; }
+.nl-brand { display: grid; grid-template-columns: auto auto; column-gap: 12px; align-items: center; justify-content: start; flex: none; }
+.nl-brand::before {
+	content: ""; grid-row: 1 / 3; width: 34px; height: 34px;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' viewBox='0 0 34 34' fill='none' stroke='%23FFFFFF' stroke-width='2'%3E%3Cpath d='M17 26V9M10 15l7-7 7 7'/%3E%3C/svg%3E") center / 100% 100% no-repeat, var(--nl-cta);
 }
-.nl-nav .wp-block-navigation-item { border-left: 1px solid var(--nl-ink); }
-.nl-nav .wp-block-navigation-item__content { display: flex; align-items: center; height: 100%; padding: 0 16px; font: 700 .9375rem/1 var(--nl-disp); text-decoration: none; white-space: nowrap; color: var(--nl-ink); }
-.nl-nav .wp-block-navigation-item__content:hover { background: var(--nl-ink); color: #fff; }
-.nl-cta { display: flex; }
-.nl-cta a { flex: 1; display: flex; align-items: center; justify-content: center; padding: 0 20px; background: var(--nl-cta); color: #fff; font: 700 .9375rem/1.3 var(--nl-disp); text-decoration: none; text-align: center; white-space: nowrap; }
+.nl-brand__name, .nl-brand__name a { font: 700 1.25rem/1.15 var(--nl-disp); letter-spacing: .01em; text-decoration: none; color: var(--nl-ink); margin: 0; }
+.nl-brand__sub { font: 500 .75rem/1.3 var(--nl-disp); letter-spacing: .04em; color: var(--nl-slate); }
+nav.nl-menu { margin-left: auto; align-self: stretch; display: flex; align-items: center; }
+.nl-menu .wp-block-navigation__container { gap: 4px 36px; align-items: center; }
+.nl-menu .wp-block-navigation-item__content { display: block; padding: 8px 0; font: 600 .9375rem/1.2 var(--nl-disp); letter-spacing: .02em; text-decoration: none; white-space: nowrap; color: var(--nl-ink); }
+.nl-menu .wp-block-navigation-item__content:hover, .nl-menu .wp-block-navigation-item__content[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .45em; text-decoration-color: var(--nl-a); }
+.nl-cta { flex: none; display: flex; }
+.nl-cta a { display: flex; align-items: center; justify-content: center; height: 44px; padding: 0 22px; box-sizing: border-box; background: var(--nl-cta); color: #fff; font: 700 .9375rem/1.2 var(--nl-disp); letter-spacing: .02em; text-decoration: none; text-align: center; white-space: nowrap; }
 .nl-cta a:hover { filter: brightness(1.12); }
-.nl-nav .wp-block-navigation__responsive-container.is-menu-open { background: var(--nl-paper); color: var(--nl-ink); }
-.nl-nav .wp-block-navigation__responsive-container-open { color: var(--nl-ink); border-left: 1px solid var(--nl-ink); padding: 0 12px; height: 100%; }
+.nl-menu .wp-block-navigation__responsive-container.is-menu-open { background: var(--nl-paper); color: var(--nl-ink); padding: 24px 24px 40px; }
+.nl-menu .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { flex-direction: column; align-items: stretch; gap: 0; width: 100%; }
+.nl-menu .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item { border-bottom: 1px solid rgba(62, 58, 57, .2); }
+.nl-menu .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__content { padding: 18px 0; font-size: 1.25rem; }
+.nl-menu .wp-block-navigation__responsive-container-open, .nl-menu .wp-block-navigation__responsive-container-close { color: var(--nl-ink); padding: 8px; }
+.nl-menu .wp-block-navigation__responsive-container-open svg { width: 28px; height: 28px; }
 
-@media (min-width: 960px) {
-	body.home .nl-bar { height: 132px; }
-	body.home .nl-vtab--co, body.home .nl-vtab--nav { display: block; align-self: center; }
-	body.home .nl-vtab--nav { margin-right: 0; }
-	body.home .nl-brand__name, body.home .nl-brand__name a { font-size: 1.75rem; }
-	body.home .nl-brand__sub { max-height: 1.5em; opacity: 1; }
-	body.home .nl-nav { width: 408px; }
-	body.home .nl-nav .wp-block-navigation__container { flex-direction: column; }
-	body.home .nl-nav .wp-block-navigation-item { flex: 1; border-left: 0 solid var(--nl-ink); border-top: 1px solid var(--nl-ink); }
-	body.home .nl-nav .wp-block-navigation-item:first-child { border-top: 0; }
-	body.home .nl-cta { width: 132px; }
-	body.home .nl-cta a { white-space: normal; padding: 0 12px; }
-	@supports (animation-timeline: scroll()) {
-		@media (prefers-reduced-motion: no-preference) {
-			body.home .nl-bar { animation: nl-head linear both; animation-timeline: scroll(root); animation-range: 0 220px; }
-			body.home .nl-brand__name, body.home .nl-brand__name a { animation: nl-name linear both; animation-timeline: scroll(root); animation-range: 0 220px; }
-			body.home .nl-brand__sub { animation: nl-sub linear both; animation-timeline: scroll(root); animation-range: 0 220px; }
-			body.home .nl-vtab--co, body.home .nl-vtab--nav { animation: nl-vtab linear both; animation-timeline: scroll(root); animation-range: 0 220px; }
-			body.home .nl-nav { animation: nl-navw linear both; animation-timeline: scroll(root); animation-range: 0 220px; }
-			body.home .nl-nav .wp-block-navigation__container { animation: nl-navdir linear both; animation-timeline: scroll(root); animation-range: 0 220px; }
-			body.home .nl-nav .wp-block-navigation-item { animation: nl-item linear both; animation-timeline: scroll(root); animation-range: 0 220px; }
-			body.home .nl-cta { animation: nl-ctaw linear both; animation-timeline: scroll(root); animation-range: 0 220px; }
-			body.home .nl-cta a { animation: nl-ctaa linear both; animation-timeline: scroll(root); animation-range: 0 220px; }
-		}
-	}
+/* header: the overlay menu from 960 down (WordPress switches at 600) */
+@media (min-width: 600px) and (max-width: 959px) {
+	.nl-menu .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none; }
+	.nl-menu .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; align-items: center; }
 }
-@keyframes nl-head { from { height: 132px; } to { height: 48px; } }
-@keyframes nl-name { from { font-size: 1.75rem; } to { font-size: 1.125rem; } }
-@keyframes nl-sub { from { max-height: 1.5em; opacity: 1; } to { max-height: 0; opacity: 0; } }
-@keyframes nl-vtab { from { width: 12px; opacity: 1; padding-block: 8px; } to { width: 0; opacity: 0; padding-block: 0; border-width: 0; } }
-@keyframes nl-navw { from { width: 408px; } to { width: 408px; } }
-@keyframes nl-navdir { from { flex-direction: column; } to { flex-direction: row; } }
-@keyframes nl-item { from { flex: 1; border-left-width: 0; border-top-width: 1px; } to { flex: 1; border-left-width: 1px; border-top-width: 0; } }
-@keyframes nl-ctaw { from { width: 132px; } to { width: 168px; } }
-@keyframes nl-ctaa { from { white-space: normal; } to { white-space: nowrap; } }
-
 @media (max-width: 959px) {
-	.nl-bar { height: 56px; padding: 6px 6px 0; grid-template-columns: 1fr auto auto; background-position: 6px 100%; background-size: calc(100% - 12px) 1px; }
-	.nl-brand { padding: 0 12px; }
-	.nl-cta a { border-left: 1px solid var(--nl-ink); background: var(--nl-cta); padding: 0 12px; font-size: .875rem; }
+	.nl-bar { gap: 12px; padding: 12px 20px 0; }
+	.nl-cta { order: 2; margin-left: auto; }
+	nav.nl-menu { order: 3; margin-left: 0; }
+	.nl-brand__sub { display: none; }
+	.nl-brand::before { grid-row: 1; }
+}
+@media (max-width: 782px) {
+	.nl-bar { height: 60px; padding: 6px 12px 0; background-position: 6px 100%; background-size: calc(100% - 12px) 1px; }
 }
 @media (max-width: 599px) {
-	.nl-cta a { white-space: normal; max-width: 120px; line-height: 1.2; }
+	.nl-bar { gap: 8px; padding: 6px 8px 0 14px; }
+	.nl-brand { column-gap: 8px; }
+	.nl-brand::before { width: 28px; height: 28px; }
+	.nl-brand__name, .nl-brand__name a { font-size: 1.0625rem; }
+	.nl-cta a { height: 38px; padding: 0 12px; font-size: .8125rem; }
+}
+@media (max-width: 420px) {
+	.nl-brand::before { display: none; }
+	.nl-cta a { white-space: normal; max-width: 128px; padding: 0 10px; font-size: .75rem; line-height: 1.15; }
 }
 @media (max-width: 782px) {
 	body::before { inset: 6px; }
@@ -176,7 +160,7 @@ body::after {
 .nl-strip { display: inline-block; background: var(--nl-ink); color: #fff; padding: .08em .22em; margin-bottom: 8px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .nl-wrap { max-width: 1200px; margin-left: auto; margin-right: auto; padding-left: 24px; padding-right: 24px; box-sizing: border-box; }
 .nl-sec { padding-top: var(--nl-sec); padding-bottom: var(--nl-sec); }
-.nl-sec[id], section[id] { scroll-margin-top: 60px; }
+.nl-sec[id], section[id] { scroll-margin-top: 88px; }
 .nl-body, .nl-body p { font-size: 1.125rem; line-height: 2; }
 .nl-body p + p { margin-top: 1em; }
 
@@ -187,7 +171,7 @@ body::after {
 .nl-btn .wp-block-button__link:hover::after, .nl-btn a:hover::after { background: var(--nl-arrow-white) center / 18px 12px no-repeat, var(--nl-ink); }
 
 /* ---- 1. hero ---- */
-.nl-hero { position: relative; min-height: 100svh; box-sizing: border-box; padding: 132px 12px 12px; display: flex; flex-direction: column; overflow: clip; }
+.nl-hero { position: relative; min-height: calc(100svh - 72px); box-sizing: border-box; padding: 24px 12px 12px; display: flex; flex-direction: column; overflow: clip; }
 .nl-kv { flex: 1; min-height: 420px; display: flex; align-items: center; --sp-par: 10%; margin: 0 -12px; }
 .nl-kv__layer { width: 100%; }
 .nl-drift { display: flex; overflow: clip; align-items: center; }
@@ -335,8 +319,7 @@ html:not(.sp-no-motion) .sp-marquee.nl-drift > * { animation-duration: 72s; }
 .nl-footer__links a:hover { text-decoration: underline; }
 
 /* ---- inner pages: compact head (T3), ruled text rows, T1 variants ---- */
-.nl-main { padding-top: 48px; }
-body.home .nl-main { padding-top: 0; }
+.nl-main { padding-top: 0; }
 .nl-pagehead, .nl-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; min-height: 360px; box-sizing: border-box; overflow: clip; border-bottom: 1px solid var(--nl-ink); }
 .nl-pagehead { padding: 72px 0 0; }
 .nl-pagehead > * { min-width: 0; }
@@ -430,7 +413,7 @@ body.home .nl-main { padding-top: 0; }
 	.nl-tab strong { display: inline; font-size: 1.25rem; margin-left: 6px; }
 	.nl-card__text, .nl-bookcard__form { order: 2; }
 	.nl-quiet__card p.nl-vtab { line-height: 1.2; }
-	.nl-vtab:not(.nl-vtab--foot):not(.nl-vtab--co):not(.nl-vtab--nav) { writing-mode: horizontal-tb; position: static; width: auto; padding: 0 0 8px; border: 0; background: none; font-size: .6875rem; line-height: 1.2; display: block; }
+	.nl-vtab:not(.nl-vtab--foot) { writing-mode: horizontal-tb; position: static; width: auto; padding: 0 0 8px; border: 0; background: none; font-size: .6875rem; line-height: 1.2; display: block; }
 	.nl-sheet .nl-wrap { grid-template-columns: 1fr; }
 	.nl-sheet figure img { width: 100%; height: auto; aspect-ratio: 3 / 2; }
 	.nl-bookcard { grid-template-columns: 1fr; }
@@ -456,7 +439,7 @@ body.home .nl-main { padding-top: 0; }
 	.nl-pagehead { padding: 64px 20px 32px; }
 }
 @media (max-width: 781px) {
-	.nl-hero { padding: 56px 6px 6px; min-height: 0; }
+	.nl-hero { padding: 20px 6px 6px; min-height: 0; }
 	.nl-kv { flex: none; min-height: 0; height: 240px; margin: 0 -6px; }
 	.nl-drift > * { gap: 60px; padding-right: 60px; }
 	.nl-drift > :first-child { margin-left: -40px; min-width: calc(100% + 40px); }
@@ -477,7 +460,7 @@ body.home .nl-main { padding-top: 0; }
 	.nl-vtab--note { grid-column: 2; grid-row: 1; }
 	.nl-note__text { grid-column: 2; grid-row: 2; }
 	.nl-note__text { padding: 14px 16px; }
-	.nl-note .nl-vtab.nl-vtab--note:not(.nl-vtab--foot):not(.nl-vtab--co):not(.nl-vtab--nav) { position: static; writing-mode: horizontal-tb; width: auto; border: 0; padding: 14px 16px 0; background: none; }
+	.nl-note .nl-vtab.nl-vtab--note:not(.nl-vtab--foot) { position: static; writing-mode: horizontal-tb; width: auto; border: 0; padding: 14px 16px 0; background: none; }
 	.nl-quiet__card { position: relative; right: auto; width: 100%; border-left: 0; }
 	.nl-quiet.wp-block-cover { flex-direction: column; align-items: stretch; }
 }
@@ -491,14 +474,6 @@ body.home .nl-main { padding-top: 0; }
 	.nl-intro .nl-wrap { padding-left: 24px; padding-right: 24px; }
 	.nl-h2--xl { font-size: clamp(2.25rem, 3.4vw, 3.25rem); }
 	.nl-h2--xl .nl-strip { white-space: nowrap; }
-}
-
-body:not(.home) .nl-nav .wp-block-navigation__container { flex-direction: row; flex-wrap: nowrap; }
-
-/* header: the overlay menu from 960 down (WordPress switches at 600) */
-@media (min-width: 600px) and (max-width: 959px) {
-	.nl-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none; }
-	.nl-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; align-items: center; }
 }
 
 /* booking card: two-column fields keep the card at the visit-card height */
