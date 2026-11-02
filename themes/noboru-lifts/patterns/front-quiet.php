@@ -8,8 +8,8 @@
  * Description: Full-bleed parallax band with a static paper card flush bottom-right.
  */
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-dawn.webp' ) ); ?>","dimRatio":0,"minHeight":680,"minHeightUnit":"px","isDark":false,"className":"nl-quiet sp-parallax","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light nl-quiet sp-parallax" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Wide empty lobby at dawn, lift doors to the right, long floor reflection" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-dawn.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"nl-quiet__card","layout":{"type":"default"}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-dawn.webp' ) ); ?>","align":"full","dimRatio":0,"minHeight":680,"minHeightUnit":"px","isDark":false,"className":"nl-quiet sp-parallax","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull is-light nl-quiet sp-parallax" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Wide empty lobby at dawn, lift doors to the right, long floor reflection" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-dawn.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"nl-quiet__card","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-quiet__card"><!-- wp:paragraph {"className":"nl-vtab"} -->
 <p class="nl-vtab">Note 02</p>
 <!-- /wp:paragraph -->
