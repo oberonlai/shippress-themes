@@ -9,17 +9,17 @@
  */
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-dawn.webp' ) ); ?>","align":"full","dimRatio":0,"minHeight":680,"minHeightUnit":"px","isDark":false,"className":"nl-quiet sp-parallax","layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull is-light nl-quiet sp-parallax" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Wide empty lobby at dawn, lift doors to the right, long floor reflection" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-dawn.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"nl-quiet__card","layout":{"type":"default"}} -->
+<div class="wp-block-cover alignfull is-light nl-quiet sp-parallax" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( noboru_lifts_t( 'a45f5685d' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-dawn.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"nl-quiet__card","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-quiet__card"><!-- wp:paragraph {"className":"nl-vtab"} -->
-<p class="nl-vtab">Note 02</p>
+<p class="nl-vtab"><?php echo wp_kses_post( noboru_lifts_t( 'k5e0f9729' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"nl-h2"} -->
-<h2 class="wp-block-heading nl-h2"><span class="nl-strip">Why 07:00</span></h2>
+<h2 class="wp-block-heading nl-h2"><span class="nl-strip"><?php echo wp_kses_post( noboru_lifts_t( 'k7acd0e02' ) ); ?></span></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The day starts at 06:30 at 14 Wharf Row. Vans leave by 06:40, and the first lift is out of service at 07:00, before the building fills. A second round begins at 18:00. Reports are written in the afternoon.</p>
+<p><?php echo wp_kses_post( noboru_lifts_t( 'kaf7b96b8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->

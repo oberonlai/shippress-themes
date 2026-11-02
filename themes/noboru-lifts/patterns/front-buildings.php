@@ -11,50 +11,50 @@
 <!-- wp:group {"tagName":"section","align":"full","anchor":"buildings","className":"nl-buildings","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull nl-buildings" id="buildings"><!-- wp:group {"className":"nl-buildings__head","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-buildings__head"><!-- wp:heading {"className":"nl-h2"} -->
-<h2 class="wp-block-heading nl-h2"><span class="nl-strip">Buildings</span><br><span class="nl-strip">the hour is for</span></h2>
+<h2 class="wp-block-heading nl-h2"><span class="nl-strip"><?php echo wp_kses_post( noboru_lifts_t( 'k9fdd5aad' ) ); ?></span><br><span class="nl-strip"><?php echo wp_kses_post( noboru_lifts_t( 'k809d7674' ) ); ?></span></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nl-board","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-board"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nl-board__img"} -->
-<figure class="wp-block-image size-full nl-board__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-building.webp' ) ); ?>" alt="Six-floor office building exterior at dusk with a few lit windows"/></figure>
+<figure class="wp-block-image size-full nl-board__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-building.webp' ) ); ?>" alt="<?php echo esc_attr( noboru_lifts_t( 'afdecf763' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"nl-board__t sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-board__t sp-reveal sp-reveal--up"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Offices of 4 to 12 floors</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( noboru_lifts_t( 'k93095ccd' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The hour is for facilities managers and owners of office buildings in that range. One lift takes 60 minutes and two technicians. Further lifts on the same visit follow one after another, so a car can stay free.</p>
+<p><?php echo wp_kses_post( noboru_lifts_t( 'k654df389' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nl-board__img"} -->
-<figure class="wp-block-image size-full nl-board__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-lobby.webp' ) ); ?>" alt="Older office lobby with a terrazzo floor and two lift doors in early light"/></figure>
+<figure class="wp-block-image size-full nl-board__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-lobby.webp' ) ); ?>" alt="<?php echo esc_attr( noboru_lifts_t( 'a9727b91b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"nl-board__t sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-board__t sp-reveal sp-reveal--up"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Older lifts with thin paperwork</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( noboru_lifts_t( 'k84bd1df8' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Some office lifts have run for years with almost nothing on file. The hour writes the record: five stops, the 32-point checklist and a report in 2 working days. The manager keeps the paper.</p>
+<p><?php echo wp_kses_post( noboru_lifts_t( 'k4f4488a6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nl-board__img"} -->
-<figure class="wp-block-image size-full nl-board__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-warehouse.webp' ) ); ?>" alt="Converted brick warehouse office with a lift shaft of steel and glass"/></figure>
+<figure class="wp-block-image size-full nl-board__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-warehouse.webp' ) ); ?>" alt="<?php echo esc_attr( noboru_lifts_t( 'af0f4f32a' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"nl-board__t sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-board__t sp-reveal sp-reveal--up"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Buildings that cannot stop by day</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( noboru_lifts_t( 'k80ecf42e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Slots are Monday to Friday, 07:00 or 18:00, one hour, off the busy times. Lifts are taken one at a time when staff still need a car. Meridian Yard used three slots across two mornings.</p>
+<p><?php echo wp_kses_post( noboru_lifts_t( 'kdf4d6272' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

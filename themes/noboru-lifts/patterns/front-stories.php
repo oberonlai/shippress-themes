@@ -11,27 +11,27 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"nl-stories","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull nl-stories"><!-- wp:group {"className":"nl-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-wrap"><!-- wp:heading {"className":"nl-h2"} -->
-<h2 class="wp-block-heading nl-h2"><span class="nl-strip">Three buildings</span></h2>
+<h2 class="wp-block-heading nl-h2"><span class="nl-strip"><?php echo wp_kses_post( noboru_lifts_t( 'k3b3363f8' ) ); ?></span></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"nl-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-story sp-reveal sp-reveal--up"><!-- wp:group {"className":"nl-story__l","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-story__l"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Alder House</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( noboru_lifts_t( 'k1b1de10c' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nl-story__meta"} -->
-<p class="nl-story__meta">9 floors, 2 lifts</p>
+<p class="nl-story__meta"><?php echo wp_kses_post( noboru_lifts_t( 'k20c1479a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nl-story__r","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-story__r"><!-- wp:paragraph {"className":"nl-story__t"} -->
-<p class="nl-story__t">A door that hesitated on floor 6 was traced to a worn sill guide. The two technicians noted it on the paper checklist during the 60 minutes and went through it with the manager before the lift returned to service.</p>
+<p class="nl-story__t"><?php echo wp_kses_post( noboru_lifts_t( 'k4351b8ba' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nl-story__by"} -->
-<p class="nl-story__by">Manager: Priya Nair</p>
+<p class="nl-story__by"><?php echo wp_kses_post( noboru_lifts_t( 'k92b3030c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -39,21 +39,21 @@
 <!-- wp:group {"className":"nl-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-story sp-reveal sp-reveal--up"><!-- wp:group {"className":"nl-story__l","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-story__l"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Foundry Court</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( noboru_lifts_t( 'k89096013' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nl-story__meta"} -->
-<p class="nl-story__meta">6 floors, 1 lift, a converted warehouse</p>
+<p class="nl-story__meta"><?php echo wp_kses_post( noboru_lifts_t( 'k3b2a25f5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nl-story__r","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-story__r"><!-- wp:paragraph {"className":"nl-story__t"} -->
-<p class="nl-story__t">An old lift with no paperwork got its first written record: five stops and the 32-point checklist. The findings were read on paper, and the written report followed in 2 working days.</p>
+<p class="nl-story__t"><?php echo wp_kses_post( noboru_lifts_t( 'k2bb528ea' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nl-story__by"} -->
-<p class="nl-story__by">Manager: Daniel Osei</p>
+<p class="nl-story__by"><?php echo wp_kses_post( noboru_lifts_t( 'ke14d4af6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -61,28 +61,28 @@
 <!-- wp:group {"className":"nl-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-story sp-reveal sp-reveal--up"><!-- wp:group {"className":"nl-story__l","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-story__l"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Meridian Yard</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( noboru_lifts_t( 'k7baaf2af' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"nl-story__meta"} -->
-<p class="nl-story__meta">12 floors, 3 lifts</p>
+<p class="nl-story__meta"><?php echo wp_kses_post( noboru_lifts_t( 'k181994e0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nl-story__r","layout":{"type":"default"}} -->
 <div class="wp-block-group nl-story__r"><!-- wp:paragraph {"className":"nl-story__t"} -->
-<p class="nl-story__t">Three lifts were inspected one at a time across two mornings, in three 60-minute slots, so one lift stayed free for early staff. Each car had its own paper checklist.</p>
+<p class="nl-story__t"><?php echo wp_kses_post( noboru_lifts_t( 'k6e21ccfc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nl-story__by"} -->
-<p class="nl-story__by">Manager: Lucia Ferrante</p>
+<p class="nl-story__by"><?php echo wp_kses_post( noboru_lifts_t( 'k6360b30f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"className":"nl-btnrow"} -->
 <div class="wp-block-buttons nl-btnrow"><!-- wp:button {"className":"nl-btn"} -->
-<div class="wp-block-button nl-btn"><a class="wp-block-button__link wp-element-button" href="/buildings/">Read the buildings</a></div>
+<div class="wp-block-button nl-btn"><a class="wp-block-button__link wp-element-button" href="/buildings/"><?php echo wp_kses_post( noboru_lifts_t( 'kb6057adc' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>
