@@ -14,25 +14,25 @@ A serif block theme for a nursing college. The home page opens on a film-grain s
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kango College home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kango College home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kango-college/home-desktop.webp" width="640" alt="Kango College home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kango-college/home-mobile.webp" width="200" alt="Kango College home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Programmes: [desktop](screenshots/programmes-desktop.webp) · [mobile](screenshots/programmes-mobile.webp)
-- Teaching day: [desktop](screenshots/teaching-day-desktop.webp) · [mobile](screenshots/teaching-day-mobile.webp)
-- Skills lab: [desktop](screenshots/skills-lab-desktop.webp) · [mobile](screenshots/skills-lab-mobile.webp)
-- Admissions: [desktop](screenshots/admissions-desktop.webp) · [mobile](screenshots/admissions-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Faculty: [desktop](screenshots/faculty-desktop.webp) · [mobile](screenshots/faculty-mobile.webp)
-- Placements: [desktop](screenshots/placements-desktop.webp) · [mobile](screenshots/placements-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/kango-college/about-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kango-college/news-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kango-college/article-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kango-college/category-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kango-college/tag-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kango-college/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kango-college/contact-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/contact-mobile.webp)
+- Programmes: [desktop](https://shots.codotx.com/kango-college/programmes-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/programmes-mobile.webp)
+- Teaching day: [desktop](https://shots.codotx.com/kango-college/teaching-day-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/teaching-day-mobile.webp)
+- Skills lab: [desktop](https://shots.codotx.com/kango-college/skills-lab-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/skills-lab-mobile.webp)
+- Admissions: [desktop](https://shots.codotx.com/kango-college/admissions-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/admissions-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/kango-college/fees-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/fees-mobile.webp)
+- Faculty: [desktop](https://shots.codotx.com/kango-college/faculty-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/faculty-mobile.webp)
+- Placements: [desktop](https://shots.codotx.com/kango-college/placements-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/placements-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/kango-college/notes-desktop.webp) · [mobile](https://shots.codotx.com/kango-college/notes-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kango-college/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kango-college/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kango-college/fr/home-desktop.webp) · [de](https://shots.codotx.com/kango-college/de/home-desktop.webp)
 <!-- screenshots:end -->
