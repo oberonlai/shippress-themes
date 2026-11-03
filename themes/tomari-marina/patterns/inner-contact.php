@@ -1,0 +1,163 @@
+<?php
+/**
+ * Title: Contact & Access: office, road, sea and email
+ * Slug: tomari-marina/inner-contact
+ * Categories: tomari-marina
+ * Keywords: inner
+ * Viewport Width: 1440
+ * Description: The Contact page: a page head with numeral 09, hairline rows for office hours, road, sea and email, the open-today tab and a short write-to-us block.
+ */
+?>
+<!-- wp:group {"tagName":"section","align":"full","className":"tm-t1__panel tm-head","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull tm-t1__panel tm-head"><!-- wp:group {"className":"tm-t1__tl","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-t1__tl"><!-- wp:html -->
+<svg class="tm-pennant" width="48" height="38" viewBox="0 0 48 38" aria-hidden="true" focusable="false"><path d="M2 0h4v38H2z M6 3l40 11L6 25z" fill="#C30D23"/></svg>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"className":"tm-t1__label"} -->
+<p class="tm-t1__label"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_23' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tm-t1__word"} -->
+<p class="tm-t1__word"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_24' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"tm-t1__num"} -->
+<p class="tm-t1__num"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_25' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"aspectRatio":"0.52","scale":"cover","sizeSlug":"large","linkDestination":"none","className":"tm-t1__portrait"} -->
+<figure class="wp-block-image size-large tm-t1__portrait"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07-office-dusk.webp' ) ); ?>" alt="<?php echo esc_attr( tomari_marina_t( 'in_contact_26' ) ); ?>" style="aspect-ratio:0.52;object-fit:cover"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":1,"className":"tm-t1__statement"} -->
+<h1 class="wp-block-heading tm-t1__statement"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_27' ) ); ?></h1>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"tm-t1__side","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-t1__side"><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( tomari_marina_t( 'in_contact_28' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:pattern {"slug":"tomari-marina/bottom-line-inner"} /--></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"tm-board tm-board--inner","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull tm-board tm-board--inner"><!-- wp:paragraph {"className":"tm-board__title"} -->
+<p class="tm-board__title"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_29' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"tm-row sp-reveal sp-reveal--up ","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-row sp-reveal sp-reveal--up "><!-- wp:group {"className":"tm-cell tm-cell--label","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--label"><!-- wp:heading {"level":3,"className":"tm-cell__title"} -->
+<h3 class="wp-block-heading tm-cell__title"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_02' ) ); ?></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-cell tm-cell--wide","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--wide"><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( tomari_marina_t( 'in_contact_01' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-cell tm-cell--facts","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--facts"><!-- wp:list {"className":"tm-facts"} -->
+<ul class="wp-block-list tm-facts"><li><?php echo wp_kses_post( tomari_marina_t( 'in_contact_03' ) ); ?></li><li><?php echo wp_kses_post( tomari_marina_t( 'in_contact_04' ) ); ?></li></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-row sp-reveal sp-reveal--up ","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-row sp-reveal sp-reveal--up "><!-- wp:group {"className":"tm-cell tm-cell--label","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--label"><!-- wp:heading {"level":3,"className":"tm-cell__title"} -->
+<h3 class="wp-block-heading tm-cell__title"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_06' ) ); ?></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-cell tm-cell--wide","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--wide"><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( tomari_marina_t( 'in_contact_05' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-cell tm-cell--facts","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--facts"><!-- wp:list {"className":"tm-facts"} -->
+<ul class="wp-block-list tm-facts"><li><?php echo wp_kses_post( tomari_marina_t( 'in_contact_07' ) ); ?></li><li><?php echo wp_kses_post( tomari_marina_t( 'in_contact_08' ) ); ?></li></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-row sp-reveal sp-reveal--up ","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-row sp-reveal sp-reveal--up "><!-- wp:group {"className":"tm-cell tm-cell--label","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--label"><!-- wp:heading {"level":3,"className":"tm-cell__title"} -->
+<h3 class="wp-block-heading tm-cell__title"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_10' ) ); ?></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-cell tm-cell--wide","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--wide"><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( tomari_marina_t( 'in_contact_09' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-cell tm-cell--facts","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--facts"><!-- wp:list {"className":"tm-facts"} -->
+<ul class="wp-block-list tm-facts"><li><?php echo wp_kses_post( tomari_marina_t( 'in_contact_11' ) ); ?></li><li><?php echo wp_kses_post( tomari_marina_t( 'in_contact_12' ) ); ?></li><li><?php echo wp_kses_post( tomari_marina_t( 'in_contact_13' ) ); ?></li></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-row sp-reveal sp-reveal--up ","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-row sp-reveal sp-reveal--up "><!-- wp:group {"className":"tm-cell tm-cell--label","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--label"><!-- wp:heading {"level":3,"className":"tm-cell__title"} -->
+<h3 class="wp-block-heading tm-cell__title"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_15' ) ); ?></h3>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-cell tm-cell--wide","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--wide"><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( tomari_marina_t( 'in_contact_14' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-cell tm-cell--facts","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-cell tm-cell--facts"><!-- wp:list {"className":"tm-facts"} -->
+<ul class="wp-block-list tm-facts"><li><?php echo wp_kses_post( tomari_marina_t( 'in_contact_16' ) ); ?></li><li><?php echo wp_kses_post( tomari_marina_t( 'in_contact_17' ) ); ?></li></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"tm-tab","layout":{"type":"default"}} -->
+<div class="wp-block-group tm-tab"><!-- wp:paragraph {"className":"tm-tab__a"} -->
+<p class="tm-tab__a"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_30' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tm-tab__b"} -->
+<p class="tm-tab__b"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_31' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tm-tab__c"} -->
+<p class="tm-tab__c"><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_32' ) ); ?> ›</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"tm-request tm-section","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull tm-request tm-section"><!-- wp:heading {"level":2,"className":"tm-h2 sp-stagger"} -->
+<h2 class="wp-block-heading tm-h2 sp-stagger"><span class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_18' ) ); ?></span><span class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_19' ) ); ?></span></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"tm-request__text"} -->
+<p class="tm-request__text"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_20' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tm-circle"} -->
+<p class="tm-circle"><a href="mailto:office@tomarimarina.example"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_21' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"tm-circle"} -->
+<p class="tm-circle"><a href="<?php echo esc_url( home_url( '/season-fees/' ) ); ?>"><?php echo wp_kses_post( tomari_marina_t( 'in_contact_22' ) ); ?></a></p>
+<!-- /wp:paragraph --></section>
+<!-- /wp:group -->
