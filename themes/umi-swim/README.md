@@ -17,26 +17,26 @@ Block theme (business, works without WooCommerce) for a swimming school for chil
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Umi Swim School home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Umi Swim School home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/umi-swim/home-desktop.webp" width="640" alt="Umi Swim School home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/umi-swim/home-mobile.webp" width="200" alt="Umi Swim School home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Programmes: [desktop](screenshots/programmes-desktop.webp) · [mobile](screenshots/programmes-mobile.webp)
-- Timetable: [desktop](screenshots/timetable-desktop.webp) · [mobile](screenshots/timetable-mobile.webp)
-- Coaches: [desktop](screenshots/coaches-desktop.webp) · [mobile](screenshots/coaches-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- First lesson: [desktop](screenshots/first-lesson-desktop.webp) · [mobile](screenshots/first-lesson-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Pool: [desktop](screenshots/pool-desktop.webp) · [mobile](screenshots/pool-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Access: [desktop](screenshots/access-desktop.webp) · [mobile](screenshots/access-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/umi-swim/about-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/about-mobile.webp)
+- Programmes: [desktop](https://shots.codotx.com/umi-swim/programmes-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/programmes-mobile.webp)
+- Timetable: [desktop](https://shots.codotx.com/umi-swim/timetable-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/timetable-mobile.webp)
+- Coaches: [desktop](https://shots.codotx.com/umi-swim/coaches-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/coaches-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/umi-swim/fees-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/fees-mobile.webp)
+- First lesson: [desktop](https://shots.codotx.com/umi-swim/first-lesson-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/first-lesson-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/umi-swim/stories-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/stories-mobile.webp)
+- Pool: [desktop](https://shots.codotx.com/umi-swim/pool-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/pool-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/umi-swim/faq-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/faq-mobile.webp)
+- Access: [desktop](https://shots.codotx.com/umi-swim/access-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/access-mobile.webp)
+- News: [desktop](https://shots.codotx.com/umi-swim/news-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/umi-swim/article-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/umi-swim/category-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/umi-swim/tag-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/umi-swim/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/umi-swim/contact-desktop.webp) · [mobile](https://shots.codotx.com/umi-swim/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/umi-swim/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/umi-swim/ja/home-desktop.webp) · [fr](https://shots.codotx.com/umi-swim/fr/home-desktop.webp) · [de](https://shots.codotx.com/umi-swim/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -13,20 +13,20 @@ Fixed 92px left rail with hairline frame columns and corner ticks, a giant Glooc
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Fumi Press Launch home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Fumi Press Launch home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/fumi-launch/home-desktop.webp" width="640" alt="Fumi Press Launch home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/fumi-launch/home-mobile.webp" width="200" alt="Fumi Press Launch home page on mobile"></td>
 </tr>
 </table>
 
-- Excerpt: [desktop](screenshots/excerpt-desktop.webp) · [mobile](screenshots/excerpt-mobile.webp)
-- Editions: [desktop](screenshots/editions-desktop.webp) · [mobile](screenshots/editions-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Excerpt: [desktop](https://shots.codotx.com/fumi-launch/excerpt-desktop.webp) · [mobile](https://shots.codotx.com/fumi-launch/excerpt-mobile.webp)
+- Editions: [desktop](https://shots.codotx.com/fumi-launch/editions-desktop.webp) · [mobile](https://shots.codotx.com/fumi-launch/editions-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/fumi-launch/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/fumi-launch/newsletter-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/fumi-launch/thanks-desktop.webp) · [mobile](https://shots.codotx.com/fumi-launch/thanks-mobile.webp)
+- About: [desktop](https://shots.codotx.com/fumi-launch/about-desktop.webp) · [mobile](https://shots.codotx.com/fumi-launch/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/fumi-launch/news-desktop.webp) · [mobile](https://shots.codotx.com/fumi-launch/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/fumi-launch/article-desktop.webp) · [mobile](https://shots.codotx.com/fumi-launch/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/fumi-launch/category-desktop.webp) · [mobile](https://shots.codotx.com/fumi-launch/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/fumi-launch/tag-desktop.webp) · [mobile](https://shots.codotx.com/fumi-launch/tag-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/fumi-launch/contact-desktop.webp) · [mobile](https://shots.codotx.com/fumi-launch/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/fumi-launch/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/fumi-launch/ja/home-desktop.webp) · [fr](https://shots.codotx.com/fumi-launch/fr/home-desktop.webp) · [de](https://shots.codotx.com/fumi-launch/de/home-desktop.webp)
 <!-- screenshots:end -->

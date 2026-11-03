@@ -18,25 +18,25 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Ayumi Podiatry home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Ayumi Podiatry home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/ayumi-podiatry/home-desktop.webp" width="640" alt="Ayumi Podiatry home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/ayumi-podiatry/home-mobile.webp" width="200" alt="Ayumi Podiatry home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Conditions: [desktop](screenshots/conditions-desktop.webp) · [mobile](screenshots/conditions-mobile.webp)
-- Treatments: [desktop](screenshots/treatments-desktop.webp) · [mobile](screenshots/treatments-mobile.webp)
-- Orthotics: [desktop](screenshots/orthotics-desktop.webp) · [mobile](screenshots/orthotics-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/ayumi-podiatry/about-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/ayumi-podiatry/news-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/ayumi-podiatry/article-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/ayumi-podiatry/category-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/ayumi-podiatry/tag-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/ayumi-podiatry/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/ayumi-podiatry/contact-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/contact-mobile.webp)
+- Conditions: [desktop](https://shots.codotx.com/ayumi-podiatry/conditions-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/conditions-mobile.webp)
+- Treatments: [desktop](https://shots.codotx.com/ayumi-podiatry/treatments-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/treatments-mobile.webp)
+- Orthotics: [desktop](https://shots.codotx.com/ayumi-podiatry/orthotics-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/orthotics-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/ayumi-podiatry/fees-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/fees-mobile.webp)
+- First visit: [desktop](https://shots.codotx.com/ayumi-podiatry/first-visit-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/first-visit-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/ayumi-podiatry/team-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/team-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/ayumi-podiatry/stories-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/stories-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/ayumi-podiatry/visit-desktop.webp) · [mobile](https://shots.codotx.com/ayumi-podiatry/visit-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/ayumi-podiatry/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/ayumi-podiatry/ja/home-desktop.webp) · [fr](https://shots.codotx.com/ayumi-podiatry/fr/home-desktop.webp) · [de](https://shots.codotx.com/ayumi-podiatry/de/home-desktop.webp)
 <!-- screenshots:end -->

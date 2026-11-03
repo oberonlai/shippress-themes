@@ -33,20 +33,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hari Tailor home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hari Tailor home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hari-tailor/home-desktop.webp" width="640" alt="Hari Tailor home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hari-tailor/home-mobile.webp" width="200" alt="Hari Tailor home page on mobile"></td>
 </tr>
 </table>
 
-- Process: [desktop](screenshots/process-desktop.webp) · [mobile](screenshots/process-mobile.webp)
-- Cloth book: [desktop](screenshots/cloth-book-desktop.webp) · [mobile](screenshots/cloth-book-mobile.webp)
-- Appointments: [desktop](screenshots/appointments-desktop.webp) · [mobile](screenshots/appointments-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Process: [desktop](https://shots.codotx.com/hari-tailor/process-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/process-mobile.webp)
+- Cloth book: [desktop](https://shots.codotx.com/hari-tailor/cloth-book-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/cloth-book-mobile.webp)
+- Appointments: [desktop](https://shots.codotx.com/hari-tailor/appointments-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/appointments-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hari-tailor/about-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hari-tailor/news-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hari-tailor/article-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hari-tailor/category-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hari-tailor/tag-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hari-tailor/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hari-tailor/contact-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hari-tailor/search-desktop.webp) · [mobile](https://shots.codotx.com/hari-tailor/search-mobile.webp)
 <!-- screenshots:end -->

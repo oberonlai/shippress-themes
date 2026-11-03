@@ -18,25 +18,25 @@ Hero with three equal columns, approach statement and counts, full-bleed packing
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shirota Laundry home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shirota Laundry home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shirota-laundry/home-desktop.webp" width="640" alt="Shirota Laundry home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shirota-laundry/home-mobile.webp" width="200" alt="Shirota Laundry home page on mobile"></td>
 </tr>
 </table>
 
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- How it works: [desktop](screenshots/how-it-works-desktop.webp) · [mobile](screenshots/how-it-works-mobile.webp)
-- Hotels: [desktop](screenshots/hotels-desktop.webp) · [mobile](screenshots/hotels-mobile.webp)
-- Clinics: [desktop](screenshots/clinics-desktop.webp) · [mobile](screenshots/clinics-mobile.webp)
-- Linen rental: [desktop](screenshots/linen-rental-desktop.webp) · [mobile](screenshots/linen-rental-mobile.webp)
-- Rates: [desktop](screenshots/rates-desktop.webp) · [mobile](screenshots/rates-mobile.webp)
-- Quality: [desktop](screenshots/quality-desktop.webp) · [mobile](screenshots/quality-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Services: [desktop](https://shots.codotx.com/shirota-laundry/services-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/services-mobile.webp)
+- How it works: [desktop](https://shots.codotx.com/shirota-laundry/how-it-works-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/how-it-works-mobile.webp)
+- Hotels: [desktop](https://shots.codotx.com/shirota-laundry/hotels-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/hotels-mobile.webp)
+- Clinics: [desktop](https://shots.codotx.com/shirota-laundry/clinics-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/clinics-mobile.webp)
+- Linen rental: [desktop](https://shots.codotx.com/shirota-laundry/linen-rental-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/linen-rental-mobile.webp)
+- Rates: [desktop](https://shots.codotx.com/shirota-laundry/rates-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/rates-mobile.webp)
+- Quality: [desktop](https://shots.codotx.com/shirota-laundry/quality-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/quality-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shirota-laundry/about-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/about-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/shirota-laundry/stories-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/stories-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shirota-laundry/contact-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shirota-laundry/news-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shirota-laundry/article-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shirota-laundry/category-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shirota-laundry/tag-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shirota-laundry/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shirota-laundry/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/shirota-laundry/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/shirota-laundry/ja/home-desktop.webp) · [fr](https://shots.codotx.com/shirota-laundry/fr/home-desktop.webp) · [de](https://shots.codotx.com/shirota-laundry/de/home-desktop.webp)
 <!-- screenshots:end -->

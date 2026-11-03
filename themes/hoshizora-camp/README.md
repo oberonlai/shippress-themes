@@ -15,19 +15,19 @@ Every template is the app shell: the header, the page column and the night sideb
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hoshizora Camp home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hoshizora Camp home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hoshizora-camp/home-desktop.webp" width="640" alt="Hoshizora Camp home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hoshizora-camp/home-mobile.webp" width="200" alt="Hoshizora Camp home page on mobile"></td>
 </tr>
 </table>
 
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Rooms: [desktop](https://shots.codotx.com/hoshizora-camp/rooms-desktop.webp) · [mobile](https://shots.codotx.com/hoshizora-camp/rooms-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hoshizora-camp/about-desktop.webp) · [mobile](https://shots.codotx.com/hoshizora-camp/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hoshizora-camp/news-desktop.webp) · [mobile](https://shots.codotx.com/hoshizora-camp/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hoshizora-camp/article-desktop.webp) · [mobile](https://shots.codotx.com/hoshizora-camp/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hoshizora-camp/category-desktop.webp) · [mobile](https://shots.codotx.com/hoshizora-camp/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hoshizora-camp/tag-desktop.webp) · [mobile](https://shots.codotx.com/hoshizora-camp/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hoshizora-camp/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hoshizora-camp/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hoshizora-camp/contact-desktop.webp) · [mobile](https://shots.codotx.com/hoshizora-camp/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hoshizora-camp/search-desktop.webp) · [mobile](https://shots.codotx.com/hoshizora-camp/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hoshizora-camp/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hoshizora-camp/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hoshizora-camp/fr/home-desktop.webp) · [de](https://shots.codotx.com/hoshizora-camp/de/home-desktop.webp)
 <!-- screenshots:end -->

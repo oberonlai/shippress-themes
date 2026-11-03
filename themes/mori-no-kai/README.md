@@ -66,21 +66,21 @@ Twelve photographs in `assets/images/` (copies in `assets/images/demo/` for the 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mori no Kai home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mori no Kai home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/mori-no-kai/home-desktop.webp" width="640" alt="Mori no Kai home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/mori-no-kai/home-mobile.webp" width="200" alt="Mori no Kai home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Projects: [desktop](screenshots/projects-desktop.webp) · [mobile](screenshots/projects-mobile.webp)
-- Volunteer: [desktop](screenshots/volunteer-desktop.webp) · [mobile](screenshots/volunteer-mobile.webp)
-- Donate: [desktop](screenshots/donate-desktop.webp) · [mobile](screenshots/donate-mobile.webp)
-- Impact: [desktop](screenshots/impact-desktop.webp) · [mobile](screenshots/impact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/mori-no-kai/about-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/mori-no-kai/news-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/mori-no-kai/article-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/mori-no-kai/category-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/mori-no-kai/tag-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/mori-no-kai/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/mori-no-kai/contact-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/contact-mobile.webp)
+- Projects: [desktop](https://shots.codotx.com/mori-no-kai/projects-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/projects-mobile.webp)
+- Volunteer: [desktop](https://shots.codotx.com/mori-no-kai/volunteer-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/volunteer-mobile.webp)
+- Donate: [desktop](https://shots.codotx.com/mori-no-kai/donate-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/donate-mobile.webp)
+- Impact: [desktop](https://shots.codotx.com/mori-no-kai/impact-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/impact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/mori-no-kai/search-desktop.webp) · [mobile](https://shots.codotx.com/mori-no-kai/search-mobile.webp)
 <!-- screenshots:end -->

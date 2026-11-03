@@ -1,18 +1,23 @@
 #!/usr/bin/env node
-// Copies the catalogue screenshots the ShipPress app renders (app/themes/<slug>/screenshots/<page>-{desktop,mobile}.webp,
-// written by the app's scripts/theme-screenshots.mjs) into this repo and shows them in the READMEs. Node 18+, no dependencies.
+// Shows the catalogue screenshots the ShipPress app renders (app/themes/<slug>/screenshots/<page>-{desktop,mobile}.webp,
+// written by the app's scripts/theme-screenshots.mjs) in the READMEs. Node 18+, no dependencies.
+// #600: the screenshots themselves are NOT copied into this repo any more (24k WebPs, 3.8 GB): the app's scripts/upload-theme-shots.mjs
+// puts them in the Cloudflare R2 bucket shippress-theme-shots, public at https://shots.codotx.com/<slug>/<file>, and the READMEs link there.
 //   node scripts/sync-screenshots.mjs <app screenshots root, e.g. ../app/themes> [slug ...]   # default: every theme
 //   node scripts/sync-screenshots.mjs --strip                                                   # release build only, see below
-// Per theme: themes/<slug>/screenshots/ is replaced by the app's *.webp files (a theme the app has no screenshots for is
-// skipped with a warning), and themes/<slug>/README.md gets a "## Screenshots" section between the screenshots markers
+// Per theme (a theme the app has no screenshots for is skipped with a warning): themes/<slug>/README.md gets a "## Screenshots" section between the screenshots markers
 // (home desktop + mobile side by side, then a link per other page). The root README.md gets a "## Gallery" of every theme
-// with a home screenshot, between the gallery markers. Running it twice changes nothing.
+// with a home screenshot (its README has the screenshots section), between the gallery markers. Running it twice changes nothing.
 // The screenshots are not part of a theme: the release zips leave out screenshots/ and, via --strip (run on the CI
 // checkout before zipping), the README section, so syncing screenshots never changes a released theme's bytes.
-import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { DEMO_LANGS, styleHeader } from "./check-themes.mjs";
+
+/** Where the screenshots are served from (R2 bucket shippress-theme-shots, custom domain). */
+export const SHOTS_BASE = "https://shots.codotx.com";
+export const shotUrl = (slug, file, base = SHOTS_BASE) => `${base}/${slug}/${file}`;
 
 const SHOTS = ["<!-- screenshots:start -->", "<!-- screenshots:end -->"];
 const GALLERY = ["<!-- gallery:start -->", "<!-- gallery:end -->"];
@@ -48,32 +53,33 @@ export function shotPages(files, order = []) {
 }
 
 /** The "## Screenshots" section of a theme README. */
-export function screenshotsSection(name, files, order, langs = []) {
+export function screenshotsSection(name, files, order, langs = [], slug = "", base = SHOTS_BASE) {
+  const u = (f) => shotUrl(slug, f, base);
   const has = (f) => files.includes(f);
   const lines = ["## Screenshots", ""];
   if (has("home-desktop.webp") || has("home-mobile.webp")) {
     lines.push("<table>", "<tr>");
-    if (has("home-desktop.webp")) lines.push(`<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="${escape(name)} home page on desktop"></td>`);
-    if (has("home-mobile.webp")) lines.push(`<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="${escape(name)} home page on mobile"></td>`);
+    if (has("home-desktop.webp")) lines.push(`<td valign="top"><img src="${u("home-desktop.webp")}" width="640" alt="${escape(name)} home page on desktop"></td>`);
+    if (has("home-mobile.webp")) lines.push(`<td valign="top"><img src="${u("home-mobile.webp")}" width="200" alt="${escape(name)} home page on mobile"></td>`);
     lines.push("</tr>", "</table>", "");
   }
   for (const page of shotPages(files, order).filter((p) => p !== "home")) {
-    const links = ["desktop", "mobile"].filter((v) => has(`${page}-${v}.webp`)).map((v) => `[${v}](screenshots/${page}-${v}.webp)`);
+    const links = ["desktop", "mobile"].filter((v) => has(`${page}-${v}.webp`)).map((v) => `[${v}](${u(`${page}-${v}.webp`)})`);
     lines.push(`- ${label(page)}: ${links.join(" · ")}`);
   }
-  // Sample content in other languages: screenshots/<lang>/ holds the same pages captured in that language.
-  if (langs.length) lines.push(`- Other languages (home page): ${langs.map((l) => `[${l}](screenshots/${l}/home-desktop.webp)`).join(" · ")}`);
+  // Sample content in other languages: <lang>/ holds the same pages captured in that language.
+  if (langs.length) lines.push(`- Other languages (home page): ${langs.map((l) => `[${l}](${u(`${l}/home-desktop.webp`)})`).join(" · ")}`);
   while (lines.at(-1) === "") lines.pop();
   return lines.join("\n");
 }
 
 /** The "## Gallery" section of the root README: themes = [{slug, name}] with a home desktop screenshot. */
-export function gallerySection(themes) {
+export function gallerySection(themes, base = SHOTS_BASE) {
   const lines = ["## Gallery", "", "<table>"];
   for (let i = 0; i < themes.length; i += PER_ROW) {
     lines.push("<tr>");
     for (const { slug, name } of themes.slice(i, i + PER_ROW)) {
-      lines.push(`<td align="center" valign="top" width="33%"><a href="themes/${slug}"><img src="themes/${slug}/screenshots/home-desktop.webp" width="260" alt="${escape(name)}"></a><br><a href="themes/${slug}">${escape(name)}</a></td>`);
+      lines.push(`<td align="center" valign="top" width="33%"><a href="themes/${slug}"><img src="${shotUrl(slug, "home-desktop.webp", base)}" width="260" alt="${escape(name)}"></a><br><a href="themes/${slug}">${escape(name)}</a></td>`);
     }
     lines.push("</tr>");
   }
@@ -92,8 +98,9 @@ export function insertAfterThemes(md, block) {
 
 const writeIfChanged = (file, text) => { if (!existsSync(file) || readFileSync(file, "utf8") !== text) writeFileSync(file, text); };
 
-/** Syncs screenshots from `from` (<from>/<slug>/screenshots/*.webp) into the repo at `root`. Returns the synced slugs. */
-export function sync({ root, from, slugs, log = console.log, warn = console.warn }) {
+/** Links the screenshots in `from` (<from>/<slug>/screenshots/*.webp, the app's local capture, uploaded to R2 by the app's
+ *  scripts/upload-theme-shots.mjs) from the READMEs of the repo at `root`. Copies nothing. Returns the synced slugs. */
+export function sync({ root, from, slugs, base = SHOTS_BASE, log = console.log, warn = console.warn }) {
   const themesDir = join(root, "themes");
   const all = readdirSync(themesDir).filter((d) => statSync(join(themesDir, d)).isDirectory()).sort();
   const synced = [];
@@ -102,29 +109,23 @@ export function sync({ root, from, slugs, log = console.log, warn = console.warn
     if (!existsSync(dir)) { warn(`! ${slug}: no themes/${slug} in this repo, skipped`); continue; }
     if (!existsSync(src)) { warn(`! ${slug}: no screenshots at ${src}, skipped`); continue; }
     const files = readdirSync(src).filter((f) => f.endsWith(".webp")).sort();
-    const out = join(dir, "screenshots");
-    rmSync(out, { recursive: true, force: true }); mkdirSync(out, { recursive: true });
-    for (const f of files) copyFileSync(join(src, f), join(out, f));
     // Per-language captures (<src>/<lang>/*.webp) for themes whose sample content comes in other languages.
     const langs = DEMO_LANGS.filter((l) => existsSync(join(src, l)) && statSync(join(src, l)).isDirectory());
-    for (const l of langs) {
-      mkdirSync(join(out, l), { recursive: true });
-      for (const f of readdirSync(join(src, l)).filter((f) => f.endsWith(".webp"))) copyFileSync(join(src, l, f), join(out, l, f));
-    }
     const name = themeName(dir, slug);
     const metaFile = join(dir, "theme-meta.json");
     const order = existsSync(metaFile) ? JSON.parse(readFileSync(metaFile, "utf8")).pages ?? [] : [];
     const readme = join(dir, "README.md");
     const md = existsSync(readme) ? readFileSync(readme, "utf8") : `# ${name}\n`;
-    writeIfChanged(readme, upsertSection(md, SHOTS, screenshotsSection(name, files, order, langs)));
+    writeIfChanged(readme, upsertSection(md, SHOTS, screenshotsSection(name, files, order, langs, slug, base)));
     log(`✓ ${slug}: ${files.length} screenshots${langs.length ? ` + ${langs.join(", ")}` : ""}`);
     synced.push(slug);
   }
-  const shown = all.filter((s) => existsSync(join(themesDir, s, "screenshots", "home-desktop.webp"))).map((slug) => ({ slug, name: themeName(join(themesDir, slug), slug) }));
+  // The gallery lists every theme whose README has the screenshots section with a home page (the screenshots are in R2).
+  const shown = all.filter((s) => { const r = join(themesDir, s, "README.md"); return existsSync(r) && readFileSync(r, "utf8").includes(`${shotUrl(s, "home-desktop.webp", base)}`); }).map((slug) => ({ slug, name: themeName(join(themesDir, slug), slug) }));
   const rootReadme = join(root, "README.md");
   if (shown.length) {
     const md = existsSync(rootReadme) ? readFileSync(rootReadme, "utf8") : "";
-    writeIfChanged(rootReadme, upsertSection(md, GALLERY, gallerySection(shown), insertAfterThemes));
+    writeIfChanged(rootReadme, upsertSection(md, GALLERY, gallerySection(shown, base), insertAfterThemes));
     log(`✓ README.md gallery (${shown.length} themes)`);
   }
   return synced;

@@ -50,27 +50,27 @@ Bundled sp-scroll (parallax on the hero and the stories band, staggered reveals)
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kouhi Service home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kouhi Service home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kouhi-service/home-desktop.webp" width="640" alt="Kouhi Service home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kouhi-service/home-mobile.webp" width="200" alt="Kouhi Service home page on mobile"></td>
 </tr>
 </table>
 
-- The service: [desktop](screenshots/the-service-desktop.webp) · [mobile](screenshots/the-service-mobile.webp)
-- Tasting visit: [desktop](screenshots/tasting-visit-desktop.webp) · [mobile](screenshots/tasting-visit-mobile.webp)
-- Plans and pricing: [desktop](screenshots/plans-and-pricing-desktop.webp) · [mobile](screenshots/plans-and-pricing-mobile.webp)
-- Machines and beans: [desktop](screenshots/machines-and-beans-desktop.webp) · [mobile](screenshots/machines-and-beans-mobile.webp)
-- Offices we serve: [desktop](screenshots/offices-we-serve-desktop.webp) · [mobile](screenshots/offices-we-serve-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- The service: [desktop](https://shots.codotx.com/kouhi-service/the-service-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/the-service-mobile.webp)
+- Tasting visit: [desktop](https://shots.codotx.com/kouhi-service/tasting-visit-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/tasting-visit-mobile.webp)
+- Plans and pricing: [desktop](https://shots.codotx.com/kouhi-service/plans-and-pricing-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/plans-and-pricing-mobile.webp)
+- Machines and beans: [desktop](https://shots.codotx.com/kouhi-service/machines-and-beans-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/machines-and-beans-mobile.webp)
+- Offices we serve: [desktop](https://shots.codotx.com/kouhi-service/offices-we-serve-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/offices-we-serve-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kouhi-service/about-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/about-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/kouhi-service/faq-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/faq-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kouhi-service/contact-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/contact-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kouhi-service/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/newsletter-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/kouhi-service/privacy-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/kouhi-service/terms-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/terms-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/kouhi-service/thanks-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/thanks-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/kouhi-service/journal-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/journal-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kouhi-service/news-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kouhi-service/article-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kouhi-service/category-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kouhi-service/tag-desktop.webp) · [mobile](https://shots.codotx.com/kouhi-service/tag-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kouhi-service/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kouhi-service/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kouhi-service/fr/home-desktop.webp) · [de](https://shots.codotx.com/kouhi-service/de/home-desktop.webp)
 <!-- screenshots:end -->

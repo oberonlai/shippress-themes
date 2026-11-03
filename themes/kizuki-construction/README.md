@@ -13,19 +13,19 @@ Kizuki Construction — a theme for a general construction contractor, set as on
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kizuki Construction home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kizuki Construction home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kizuki-construction/home-desktop.webp" width="640" alt="Kizuki Construction home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kizuki-construction/home-mobile.webp" width="200" alt="Kizuki Construction home page on mobile"></td>
 </tr>
 </table>
 
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Services: [desktop](https://shots.codotx.com/kizuki-construction/services-desktop.webp) · [mobile](https://shots.codotx.com/kizuki-construction/services-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kizuki-construction/about-desktop.webp) · [mobile](https://shots.codotx.com/kizuki-construction/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kizuki-construction/news-desktop.webp) · [mobile](https://shots.codotx.com/kizuki-construction/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kizuki-construction/article-desktop.webp) · [mobile](https://shots.codotx.com/kizuki-construction/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kizuki-construction/category-desktop.webp) · [mobile](https://shots.codotx.com/kizuki-construction/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kizuki-construction/tag-desktop.webp) · [mobile](https://shots.codotx.com/kizuki-construction/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kizuki-construction/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kizuki-construction/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kizuki-construction/contact-desktop.webp) · [mobile](https://shots.codotx.com/kizuki-construction/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kizuki-construction/search-desktop.webp) · [mobile](https://shots.codotx.com/kizuki-construction/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kizuki-construction/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kizuki-construction/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kizuki-construction/fr/home-desktop.webp) · [de](https://shots.codotx.com/kizuki-construction/de/home-desktop.webp)
 <!-- screenshots:end -->

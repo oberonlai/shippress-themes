@@ -64,16 +64,16 @@ Code: GPL-2.0-or-later. Fonts: SIL Open Font License 1.1, bundled in `assets/fon
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Ma Vertical home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Ma Vertical home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/ma-vertical/home-desktop.webp" width="640" alt="Ma Vertical home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/ma-vertical/home-mobile.webp" width="200" alt="Ma Vertical home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
+- About: [desktop](https://shots.codotx.com/ma-vertical/about-desktop.webp) · [mobile](https://shots.codotx.com/ma-vertical/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/ma-vertical/news-desktop.webp) · [mobile](https://shots.codotx.com/ma-vertical/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/ma-vertical/article-desktop.webp) · [mobile](https://shots.codotx.com/ma-vertical/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/ma-vertical/category-desktop.webp) · [mobile](https://shots.codotx.com/ma-vertical/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/ma-vertical/tag-desktop.webp) · [mobile](https://shots.codotx.com/ma-vertical/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/ma-vertical/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/ma-vertical/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/ma-vertical/contact-desktop.webp) · [mobile](https://shots.codotx.com/ma-vertical/contact-mobile.webp)
 <!-- screenshots:end -->

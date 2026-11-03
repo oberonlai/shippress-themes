@@ -35,22 +35,22 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Yohaku Studio home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Yohaku Studio home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/yohaku-studio/home-desktop.webp" width="640" alt="Yohaku Studio home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/yohaku-studio/home-mobile.webp" width="200" alt="Yohaku Studio home page on mobile"></td>
 </tr>
 </table>
 
-- Work: [desktop](screenshots/work-desktop.webp) · [mobile](screenshots/work-mobile.webp)
-- Case study: [desktop](screenshots/case-study-desktop.webp) · [mobile](screenshots/case-study-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Process: [desktop](screenshots/process-desktop.webp) · [mobile](screenshots/process-mobile.webp)
-- Start a project: [desktop](screenshots/start-a-project-desktop.webp) · [mobile](screenshots/start-a-project-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Work: [desktop](https://shots.codotx.com/yohaku-studio/work-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/work-mobile.webp)
+- Case study: [desktop](https://shots.codotx.com/yohaku-studio/case-study-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/case-study-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/yohaku-studio/services-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/services-mobile.webp)
+- Process: [desktop](https://shots.codotx.com/yohaku-studio/process-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/process-mobile.webp)
+- Start a project: [desktop](https://shots.codotx.com/yohaku-studio/start-a-project-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/start-a-project-mobile.webp)
+- About: [desktop](https://shots.codotx.com/yohaku-studio/about-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/yohaku-studio/news-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/yohaku-studio/article-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/yohaku-studio/category-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/yohaku-studio/tag-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/yohaku-studio/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/yohaku-studio/contact-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/yohaku-studio/search-desktop.webp) · [mobile](https://shots.codotx.com/yohaku-studio/search-mobile.webp)
 <!-- screenshots:end -->

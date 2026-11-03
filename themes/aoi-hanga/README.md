@@ -14,19 +14,19 @@ Aoi Hanga — a store theme for a small woodblock print studio, with WooCommerce
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Aoi Hanga home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Aoi Hanga home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/aoi-hanga/home-desktop.webp" width="640" alt="Aoi Hanga home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/aoi-hanga/home-mobile.webp" width="200" alt="Aoi Hanga home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/aoi-hanga/shop-desktop.webp) · [mobile](https://shots.codotx.com/aoi-hanga/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/aoi-hanga/product-desktop.webp) · [mobile](https://shots.codotx.com/aoi-hanga/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/aoi-hanga/about-desktop.webp) · [mobile](https://shots.codotx.com/aoi-hanga/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/aoi-hanga/contact-desktop.webp) · [mobile](https://shots.codotx.com/aoi-hanga/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/aoi-hanga/news-desktop.webp) · [mobile](https://shots.codotx.com/aoi-hanga/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/aoi-hanga/article-desktop.webp) · [mobile](https://shots.codotx.com/aoi-hanga/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/aoi-hanga/category-desktop.webp) · [mobile](https://shots.codotx.com/aoi-hanga/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/aoi-hanga/tag-desktop.webp) · [mobile](https://shots.codotx.com/aoi-hanga/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/aoi-hanga/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/aoi-hanga/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/aoi-hanga/search-desktop.webp) · [mobile](https://shots.codotx.com/aoi-hanga/search-mobile.webp)
 <!-- screenshots:end -->

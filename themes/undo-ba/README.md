@@ -40,20 +40,20 @@ GPL-2.0-or-later. Fonts: SIL OFL 1.1. Photographs: AI-generated for this theme, 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Undo Ba home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Undo Ba home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/undo-ba/home-desktop.webp" width="640" alt="Undo Ba home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/undo-ba/home-mobile.webp" width="200" alt="Undo Ba home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Programs: [desktop](screenshots/programs-desktop.webp) · [mobile](screenshots/programs-mobile.webp)
-- Coaches: [desktop](screenshots/coaches-desktop.webp) · [mobile](screenshots/coaches-mobile.webp)
-- Pricing: [desktop](screenshots/pricing-desktop.webp) · [mobile](screenshots/pricing-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/undo-ba/about-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/about-mobile.webp)
+- Programs: [desktop](https://shots.codotx.com/undo-ba/programs-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/programs-mobile.webp)
+- Coaches: [desktop](https://shots.codotx.com/undo-ba/coaches-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/coaches-mobile.webp)
+- Pricing: [desktop](https://shots.codotx.com/undo-ba/pricing-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/pricing-mobile.webp)
+- News: [desktop](https://shots.codotx.com/undo-ba/news-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/undo-ba/article-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/undo-ba/category-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/undo-ba/tag-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/undo-ba/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/undo-ba/contact-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/undo-ba/search-desktop.webp) · [mobile](https://shots.codotx.com/undo-ba/search-mobile.webp)
 <!-- screenshots:end -->

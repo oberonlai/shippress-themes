@@ -17,29 +17,29 @@ English home page and the linked inner pages as plain text pages. Inner-page lay
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kaname Watches home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kaname Watches home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kaname-watches/home-desktop.webp" width="640" alt="Kaname Watches home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kaname-watches/home-mobile.webp" width="200" alt="Kaname Watches home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- How we choose: [desktop](screenshots/how-we-choose-desktop.webp) · [mobile](screenshots/how-we-choose-mobile.webp)
-- The bench: [desktop](screenshots/the-bench-desktop.webp) · [mobile](screenshots/the-bench-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Cart: [desktop](screenshots/cart-desktop.webp) · [mobile](screenshots/cart-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- Straps and sizing: [desktop](screenshots/straps-and-sizing-desktop.webp) · [mobile](screenshots/straps-and-sizing-mobile.webp)
-- Pre owned: [desktop](screenshots/pre-owned-desktop.webp) · [mobile](screenshots/pre-owned-mobile.webp)
-- Delivery and returns: [desktop](screenshots/delivery-and-returns-desktop.webp) · [mobile](screenshots/delivery-and-returns-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Shop: [desktop](https://shots.codotx.com/kaname-watches/shop-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/shop-mobile.webp)
+- How we choose: [desktop](https://shots.codotx.com/kaname-watches/how-we-choose-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/how-we-choose-mobile.webp)
+- The bench: [desktop](https://shots.codotx.com/kaname-watches/the-bench-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/the-bench-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/kaname-watches/visit-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/visit-mobile.webp)
+- Cart: [desktop](https://shots.codotx.com/kaname-watches/cart-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/cart-mobile.webp)
+- People: [desktop](https://shots.codotx.com/kaname-watches/people-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/people-mobile.webp)
+- Straps and sizing: [desktop](https://shots.codotx.com/kaname-watches/straps-and-sizing-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/straps-and-sizing-mobile.webp)
+- Pre owned: [desktop](https://shots.codotx.com/kaname-watches/pre-owned-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/pre-owned-mobile.webp)
+- Delivery and returns: [desktop](https://shots.codotx.com/kaname-watches/delivery-and-returns-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/delivery-and-returns-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/kaname-watches/stories-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/stories-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/kaname-watches/product-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kaname-watches/about-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kaname-watches/news-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kaname-watches/article-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kaname-watches/category-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kaname-watches/tag-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kaname-watches/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kaname-watches/contact-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kaname-watches/search-desktop.webp) · [mobile](https://shots.codotx.com/kaname-watches/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kaname-watches/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kaname-watches/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kaname-watches/fr/home-desktop.webp) · [de](https://shots.codotx.com/kaname-watches/de/home-desktop.webp)
 <!-- screenshots:end -->

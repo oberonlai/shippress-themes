@@ -81,20 +81,20 @@ Fonts: Zen Maru Gothic and Nunito, SIL Open Font License 1.1 (see `readme.txt`).
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Sakura Juku home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Sakura Juku home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/sakura-juku/home-desktop.webp" width="640" alt="Sakura Juku home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/sakura-juku/home-mobile.webp" width="200" alt="Sakura Juku home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Courses: [desktop](screenshots/courses-desktop.webp) · [mobile](screenshots/courses-mobile.webp)
-- Levels: [desktop](screenshots/levels-desktop.webp) · [mobile](screenshots/levels-mobile.webp)
-- Timetable: [desktop](screenshots/timetable-desktop.webp) · [mobile](screenshots/timetable-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/sakura-juku/about-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/about-mobile.webp)
+- Courses: [desktop](https://shots.codotx.com/sakura-juku/courses-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/courses-mobile.webp)
+- Levels: [desktop](https://shots.codotx.com/sakura-juku/levels-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/levels-mobile.webp)
+- Timetable: [desktop](https://shots.codotx.com/sakura-juku/timetable-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/timetable-mobile.webp)
+- News: [desktop](https://shots.codotx.com/sakura-juku/news-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/sakura-juku/article-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/sakura-juku/category-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/sakura-juku/tag-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/sakura-juku/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/sakura-juku/contact-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/sakura-juku/search-desktop.webp) · [mobile](https://shots.codotx.com/sakura-juku/search-mobile.webp)
 <!-- screenshots:end -->

@@ -24,18 +24,18 @@ The Visit, Buildings, Fees, About, Slot List and Contact use the visit-card (T1)
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Noboru Lifts home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Noboru Lifts home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/noboru-lifts/home-desktop.webp" width="640" alt="Noboru Lifts home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/noboru-lifts/home-mobile.webp" width="200" alt="Noboru Lifts home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/noboru-lifts/about-desktop.webp) · [mobile](https://shots.codotx.com/noboru-lifts/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/noboru-lifts/news-desktop.webp) · [mobile](https://shots.codotx.com/noboru-lifts/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/noboru-lifts/article-desktop.webp) · [mobile](https://shots.codotx.com/noboru-lifts/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/noboru-lifts/category-desktop.webp) · [mobile](https://shots.codotx.com/noboru-lifts/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/noboru-lifts/tag-desktop.webp) · [mobile](https://shots.codotx.com/noboru-lifts/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/noboru-lifts/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/noboru-lifts/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/noboru-lifts/contact-desktop.webp) · [mobile](https://shots.codotx.com/noboru-lifts/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/noboru-lifts/search-desktop.webp) · [mobile](https://shots.codotx.com/noboru-lifts/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/noboru-lifts/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/noboru-lifts/ja/home-desktop.webp) · [fr](https://shots.codotx.com/noboru-lifts/fr/home-desktop.webp) · [de](https://shots.codotx.com/noboru-lifts/de/home-desktop.webp)
 <!-- screenshots:end -->

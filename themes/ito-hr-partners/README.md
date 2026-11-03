@@ -24,20 +24,20 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Ito HR Partners home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Ito HR Partners home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/ito-hr-partners/home-desktop.webp" width="640" alt="Ito HR Partners home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/ito-hr-partners/home-mobile.webp" width="200" alt="Ito HR Partners home page on mobile"></td>
 </tr>
 </table>
 
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Services: [desktop](https://shots.codotx.com/ito-hr-partners/services-desktop.webp) · [mobile](https://shots.codotx.com/ito-hr-partners/services-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/ito-hr-partners/fees-desktop.webp) · [mobile](https://shots.codotx.com/ito-hr-partners/fees-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/ito-hr-partners/team-desktop.webp) · [mobile](https://shots.codotx.com/ito-hr-partners/team-mobile.webp)
+- About: [desktop](https://shots.codotx.com/ito-hr-partners/about-desktop.webp) · [mobile](https://shots.codotx.com/ito-hr-partners/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/ito-hr-partners/news-desktop.webp) · [mobile](https://shots.codotx.com/ito-hr-partners/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/ito-hr-partners/article-desktop.webp) · [mobile](https://shots.codotx.com/ito-hr-partners/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/ito-hr-partners/category-desktop.webp) · [mobile](https://shots.codotx.com/ito-hr-partners/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/ito-hr-partners/tag-desktop.webp) · [mobile](https://shots.codotx.com/ito-hr-partners/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/ito-hr-partners/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/ito-hr-partners/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/ito-hr-partners/contact-desktop.webp) · [mobile](https://shots.codotx.com/ito-hr-partners/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/ito-hr-partners/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/ito-hr-partners/ja/home-desktop.webp) · [fr](https://shots.codotx.com/ito-hr-partners/fr/home-desktop.webp) · [de](https://shots.codotx.com/ito-hr-partners/de/home-desktop.webp)
 <!-- screenshots:end -->

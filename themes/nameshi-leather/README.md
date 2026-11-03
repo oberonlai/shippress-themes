@@ -44,21 +44,21 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`): Libre Baskerville shipped
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Nameshi Leather home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Nameshi Leather home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/nameshi-leather/home-desktop.webp" width="640" alt="Nameshi Leather home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/nameshi-leather/home-mobile.webp" width="200" alt="Nameshi Leather home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Patina guide: [desktop](screenshots/patina-guide-desktop.webp) · [mobile](screenshots/patina-guide-mobile.webp)
-- Repairs: [desktop](screenshots/repairs-desktop.webp) · [mobile](screenshots/repairs-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/nameshi-leather/shop-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/nameshi-leather/product-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/nameshi-leather/about-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/about-mobile.webp)
+- Patina guide: [desktop](https://shots.codotx.com/nameshi-leather/patina-guide-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/patina-guide-mobile.webp)
+- Repairs: [desktop](https://shots.codotx.com/nameshi-leather/repairs-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/repairs-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/nameshi-leather/contact-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/nameshi-leather/news-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/nameshi-leather/article-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/nameshi-leather/category-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/nameshi-leather/tag-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/nameshi-leather/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/nameshi-leather/search-desktop.webp) · [mobile](https://shots.codotx.com/nameshi-leather/search-mobile.webp)
 <!-- screenshots:end -->

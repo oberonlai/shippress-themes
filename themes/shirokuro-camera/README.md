@@ -16,20 +16,20 @@ Every template is the centred header (the Shop cameras button, the shop name in 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shirokuro Camera home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shirokuro Camera home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shirokuro-camera/home-desktop.webp" width="640" alt="Shirokuro Camera home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shirokuro-camera/home-mobile.webp" width="200" alt="Shirokuro Camera home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Shop: [desktop](https://shots.codotx.com/shirokuro-camera/shop-desktop.webp) · [mobile](https://shots.codotx.com/shirokuro-camera/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/shirokuro-camera/product-desktop.webp) · [mobile](https://shots.codotx.com/shirokuro-camera/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shirokuro-camera/about-desktop.webp) · [mobile](https://shots.codotx.com/shirokuro-camera/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shirokuro-camera/contact-desktop.webp) · [mobile](https://shots.codotx.com/shirokuro-camera/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shirokuro-camera/news-desktop.webp) · [mobile](https://shots.codotx.com/shirokuro-camera/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shirokuro-camera/article-desktop.webp) · [mobile](https://shots.codotx.com/shirokuro-camera/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shirokuro-camera/category-desktop.webp) · [mobile](https://shots.codotx.com/shirokuro-camera/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shirokuro-camera/tag-desktop.webp) · [mobile](https://shots.codotx.com/shirokuro-camera/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shirokuro-camera/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shirokuro-camera/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/shirokuro-camera/search-desktop.webp) · [mobile](https://shots.codotx.com/shirokuro-camera/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/shirokuro-camera/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/shirokuro-camera/ja/home-desktop.webp) · [fr](https://shots.codotx.com/shirokuro-camera/fr/home-desktop.webp) · [de](https://shots.codotx.com/shirokuro-camera/de/home-desktop.webp)
 <!-- screenshots:end -->

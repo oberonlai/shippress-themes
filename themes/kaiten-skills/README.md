@@ -19,22 +19,22 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kaiten Skills home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kaiten Skills home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kaiten-skills/home-desktop.webp" width="640" alt="Kaiten Skills home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kaiten-skills/home-mobile.webp" width="200" alt="Kaiten Skills home page on mobile"></td>
 </tr>
 </table>
 
-- Courses: [desktop](screenshots/courses-desktop.webp) · [mobile](screenshots/courses-mobile.webp)
-- How it works: [desktop](screenshots/how-it-works-desktop.webp) · [mobile](screenshots/how-it-works-mobile.webp)
-- Pricing: [desktop](screenshots/pricing-desktop.webp) · [mobile](screenshots/pricing-mobile.webp)
-- Tutors: [desktop](screenshots/tutors-desktop.webp) · [mobile](screenshots/tutors-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Courses: [desktop](https://shots.codotx.com/kaiten-skills/courses-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/courses-mobile.webp)
+- How it works: [desktop](https://shots.codotx.com/kaiten-skills/how-it-works-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/how-it-works-mobile.webp)
+- Pricing: [desktop](https://shots.codotx.com/kaiten-skills/pricing-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/pricing-mobile.webp)
+- Tutors: [desktop](https://shots.codotx.com/kaiten-skills/tutors-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/tutors-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/kaiten-skills/stories-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/stories-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kaiten-skills/contact-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/contact-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kaiten-skills/about-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kaiten-skills/news-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kaiten-skills/article-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kaiten-skills/category-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kaiten-skills/tag-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kaiten-skills/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kaiten-skills/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kaiten-skills/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kaiten-skills/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kaiten-skills/fr/home-desktop.webp) · [de](https://shots.codotx.com/kaiten-skills/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -20,25 +20,25 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Aya Paper home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Aya Paper home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/aya-paper/home-desktop.webp" width="640" alt="Aya Paper home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/aya-paper/home-mobile.webp" width="200" alt="Aya Paper home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Papers: [desktop](screenshots/papers-desktop.webp) · [mobile](screenshots/papers-mobile.webp)
-- Weights: [desktop](screenshots/weights-desktop.webp) · [mobile](screenshots/weights-mobile.webp)
-- Counter: [desktop](screenshots/counter-desktop.webp) · [mobile](screenshots/counter-mobile.webp)
-- Envelopes notebooks: [desktop](screenshots/envelopes-notebooks-desktop.webp) · [mobile](screenshots/envelopes-notebooks-mobile.webp)
-- Prices: [desktop](screenshots/prices-desktop.webp) · [mobile](screenshots/prices-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Shop: [desktop](https://shots.codotx.com/aya-paper/shop-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/aya-paper/product-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/product-mobile.webp)
+- Papers: [desktop](https://shots.codotx.com/aya-paper/papers-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/papers-mobile.webp)
+- Weights: [desktop](https://shots.codotx.com/aya-paper/weights-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/weights-mobile.webp)
+- Counter: [desktop](https://shots.codotx.com/aya-paper/counter-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/counter-mobile.webp)
+- Envelopes notebooks: [desktop](https://shots.codotx.com/aya-paper/envelopes-notebooks-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/envelopes-notebooks-mobile.webp)
+- Prices: [desktop](https://shots.codotx.com/aya-paper/prices-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/prices-mobile.webp)
+- About: [desktop](https://shots.codotx.com/aya-paper/about-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/aya-paper/news-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/aya-paper/article-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/aya-paper/category-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/aya-paper/tag-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/aya-paper/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/aya-paper/contact-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/aya-paper/search-desktop.webp) · [mobile](https://shots.codotx.com/aya-paper/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/aya-paper/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/aya-paper/ja/home-desktop.webp) · [fr](https://shots.codotx.com/aya-paper/fr/home-desktop.webp) · [de](https://shots.codotx.com/aya-paper/de/home-desktop.webp)
 <!-- screenshots:end -->

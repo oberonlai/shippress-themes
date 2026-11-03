@@ -42,20 +42,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mimi Veterinary home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mimi Veterinary home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/mimi-veterinary/home-desktop.webp" width="640" alt="Mimi Veterinary home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/mimi-veterinary/home-mobile.webp" width="200" alt="Mimi Veterinary home page on mobile"></td>
 </tr>
 </table>
 
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/mimi-veterinary/services-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/services-mobile.webp)
+- First visit: [desktop](https://shots.codotx.com/mimi-veterinary/first-visit-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/first-visit-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/mimi-veterinary/fees-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/fees-mobile.webp)
+- About: [desktop](https://shots.codotx.com/mimi-veterinary/about-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/mimi-veterinary/news-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/mimi-veterinary/article-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/mimi-veterinary/category-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/mimi-veterinary/tag-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/mimi-veterinary/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/mimi-veterinary/contact-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/mimi-veterinary/search-desktop.webp) · [mobile](https://shots.codotx.com/mimi-veterinary/search-mobile.webp)
 <!-- screenshots:end -->

@@ -19,22 +19,22 @@ Plus Jakarta Sans (headings) and DM Sans (body), both OFL-1.1, bundled as Latin 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mikura Storage home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mikura Storage home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/mikura-storage/home-desktop.webp" width="640" alt="Mikura Storage home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/mikura-storage/home-mobile.webp" width="200" alt="Mikura Storage home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Sizes: [desktop](screenshots/sizes-desktop.webp) · [mobile](screenshots/sizes-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/mikura-storage/about-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/mikura-storage/news-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/mikura-storage/article-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/mikura-storage/category-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/mikura-storage/tag-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/mikura-storage/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/mikura-storage/contact-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/contact-mobile.webp)
+- Sizes: [desktop](https://shots.codotx.com/mikura-storage/sizes-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/sizes-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/mikura-storage/visit-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/visit-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/mikura-storage/privacy-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/mikura-storage/terms-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/terms-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/mikura-storage/thanks-desktop.webp) · [mobile](https://shots.codotx.com/mikura-storage/thanks-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/mikura-storage/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/mikura-storage/ja/home-desktop.webp) · [fr](https://shots.codotx.com/mikura-storage/fr/home-desktop.webp) · [de](https://shots.codotx.com/mikura-storage/de/home-desktop.webp)
 <!-- screenshots:end -->

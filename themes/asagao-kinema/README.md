@@ -48,20 +48,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Illustrations AI-generate
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Asagao Kinema home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Asagao Kinema home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/asagao-kinema/home-desktop.webp" width="640" alt="Asagao Kinema home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/asagao-kinema/home-mobile.webp" width="200" alt="Asagao Kinema home page on mobile"></td>
 </tr>
 </table>
 
-- Programme: [desktop](screenshots/programme-desktop.webp) · [mobile](screenshots/programme-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Membership: [desktop](screenshots/membership-desktop.webp) · [mobile](screenshots/membership-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Programme: [desktop](https://shots.codotx.com/asagao-kinema/programme-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/programme-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/asagao-kinema/visit-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/visit-mobile.webp)
+- Membership: [desktop](https://shots.codotx.com/asagao-kinema/membership-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/membership-mobile.webp)
+- About: [desktop](https://shots.codotx.com/asagao-kinema/about-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/asagao-kinema/news-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/asagao-kinema/article-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/asagao-kinema/category-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/asagao-kinema/tag-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/asagao-kinema/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/asagao-kinema/contact-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/asagao-kinema/search-desktop.webp) · [mobile](https://shots.codotx.com/asagao-kinema/search-mobile.webp)
 <!-- screenshots:end -->

@@ -86,21 +86,21 @@ assets/images/          AI-generated photographs (+ demo/ copies for the Media L
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hana Kago home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hana Kago home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hana-kago/home-desktop.webp" width="640" alt="Hana Kago home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hana-kago/home-mobile.webp" width="200" alt="Hana Kago home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Delivery: [desktop](screenshots/delivery-desktop.webp) · [mobile](screenshots/delivery-mobile.webp)
-- Subscriptions: [desktop](screenshots/subscriptions-desktop.webp) · [mobile](screenshots/subscriptions-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hana-kago/about-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hana-kago/news-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hana-kago/article-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hana-kago/category-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hana-kago/tag-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hana-kago/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hana-kago/contact-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/contact-mobile.webp)
+- Delivery: [desktop](https://shots.codotx.com/hana-kago/delivery-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/delivery-mobile.webp)
+- Subscriptions: [desktop](https://shots.codotx.com/hana-kago/subscriptions-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/subscriptions-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/hana-kago/shop-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/hana-kago/product-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/product-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hana-kago/search-desktop.webp) · [mobile](https://shots.codotx.com/hana-kago/search-mobile.webp)
 <!-- screenshots:end -->

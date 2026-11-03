@@ -47,21 +47,21 @@ GPL-2.0-or-later. Fonts OFL-1.1 without Reserved Font Names (see `assets/fonts/`
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tsuki Silver home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tsuki Silver home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsuki-silver/home-desktop.webp" width="640" alt="Tsuki Silver home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsuki-silver/home-mobile.webp" width="200" alt="Tsuki Silver home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Ring sizing: [desktop](screenshots/ring-sizing-desktop.webp) · [mobile](screenshots/ring-sizing-mobile.webp)
-- Care guide: [desktop](screenshots/care-guide-desktop.webp) · [mobile](screenshots/care-guide-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/tsuki-silver/shop-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/tsuki-silver/product-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/product-mobile.webp)
+- Ring sizing: [desktop](https://shots.codotx.com/tsuki-silver/ring-sizing-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/ring-sizing-mobile.webp)
+- Care guide: [desktop](https://shots.codotx.com/tsuki-silver/care-guide-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/care-guide-mobile.webp)
+- About: [desktop](https://shots.codotx.com/tsuki-silver/about-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/tsuki-silver/contact-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/tsuki-silver/news-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/tsuki-silver/article-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/tsuki-silver/category-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/tsuki-silver/tag-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/tsuki-silver/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/tsuki-silver/search-desktop.webp) · [mobile](https://shots.codotx.com/tsuki-silver/search-mobile.webp)
 <!-- screenshots:end -->

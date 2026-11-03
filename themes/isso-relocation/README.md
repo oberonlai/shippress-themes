@@ -11,29 +11,29 @@ Photos: 16 film-grain photographs in `assets/images`. Pages (en): home, method, 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Isso Relocation home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Isso Relocation home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/isso-relocation/home-desktop.webp" width="640" alt="Isso Relocation home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/isso-relocation/home-mobile.webp" width="200" alt="Isso Relocation home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Method: [desktop](screenshots/method-desktop.webp) · [mobile](screenshots/method-mobile.webp)
-- Prices: [desktop](screenshots/prices-desktop.webp) · [mobile](screenshots/prices-mobile.webp)
-- Moves: [desktop](screenshots/moves-desktop.webp) · [mobile](screenshots/moves-mobile.webp)
-- Planning: [desktop](screenshots/planning-desktop.webp) · [mobile](screenshots/planning-mobile.webp)
-- Crew: [desktop](screenshots/crew-desktop.webp) · [mobile](screenshots/crew-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Request a quote: [desktop](screenshots/request-a-quote-desktop.webp) · [mobile](screenshots/request-a-quote-mobile.webp)
-- Updates: [desktop](screenshots/updates-desktop.webp) · [mobile](screenshots/updates-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/isso-relocation/about-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/isso-relocation/news-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/isso-relocation/article-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/isso-relocation/category-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/isso-relocation/tag-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/isso-relocation/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/isso-relocation/contact-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/contact-mobile.webp)
+- Method: [desktop](https://shots.codotx.com/isso-relocation/method-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/method-mobile.webp)
+- Prices: [desktop](https://shots.codotx.com/isso-relocation/prices-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/prices-mobile.webp)
+- Moves: [desktop](https://shots.codotx.com/isso-relocation/moves-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/moves-mobile.webp)
+- Planning: [desktop](https://shots.codotx.com/isso-relocation/planning-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/planning-mobile.webp)
+- Crew: [desktop](https://shots.codotx.com/isso-relocation/crew-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/crew-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/isso-relocation/faq-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/faq-mobile.webp)
+- Request a quote: [desktop](https://shots.codotx.com/isso-relocation/request-a-quote-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/request-a-quote-mobile.webp)
+- Updates: [desktop](https://shots.codotx.com/isso-relocation/updates-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/updates-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/isso-relocation/thanks-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/thanks-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/isso-relocation/privacy-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/isso-relocation/terms-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/terms-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/isso-relocation/journal-desktop.webp) · [mobile](https://shots.codotx.com/isso-relocation/journal-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/isso-relocation/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/isso-relocation/ja/home-desktop.webp) · [fr](https://shots.codotx.com/isso-relocation/fr/home-desktop.webp) · [de](https://shots.codotx.com/isso-relocation/de/home-desktop.webp)
 <!-- screenshots:end -->

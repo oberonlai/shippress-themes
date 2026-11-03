@@ -61,17 +61,17 @@ Code: GPL-2.0-or-later. Fonts: SIL Open Font License 1.1, bundled in `assets/fon
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kenchiku Grid home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kenchiku Grid home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kenchiku-grid/home-desktop.webp" width="640" alt="Kenchiku Grid home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kenchiku-grid/home-mobile.webp" width="200" alt="Kenchiku Grid home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Projects: [desktop](screenshots/projects-desktop.webp) · [mobile](screenshots/projects-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kenchiku-grid/about-desktop.webp) · [mobile](https://shots.codotx.com/kenchiku-grid/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kenchiku-grid/news-desktop.webp) · [mobile](https://shots.codotx.com/kenchiku-grid/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kenchiku-grid/article-desktop.webp) · [mobile](https://shots.codotx.com/kenchiku-grid/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kenchiku-grid/category-desktop.webp) · [mobile](https://shots.codotx.com/kenchiku-grid/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kenchiku-grid/tag-desktop.webp) · [mobile](https://shots.codotx.com/kenchiku-grid/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kenchiku-grid/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kenchiku-grid/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kenchiku-grid/contact-desktop.webp) · [mobile](https://shots.codotx.com/kenchiku-grid/contact-mobile.webp)
+- Projects: [desktop](https://shots.codotx.com/kenchiku-grid/projects-desktop.webp) · [mobile](https://shots.codotx.com/kenchiku-grid/projects-mobile.webp)
 <!-- screenshots:end -->

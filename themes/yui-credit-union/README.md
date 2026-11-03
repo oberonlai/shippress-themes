@@ -15,25 +15,25 @@ A WordPress block theme (type business) for a member-owned credit union. Home pa
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Yui Credit Union home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Yui Credit Union home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/yui-credit-union/home-desktop.webp" width="640" alt="Yui Credit Union home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/yui-credit-union/home-mobile.webp" width="200" alt="Yui Credit Union home page on mobile"></td>
 </tr>
 </table>
 
-- Savings: [desktop](screenshots/savings-desktop.webp) · [mobile](screenshots/savings-mobile.webp)
-- Loans: [desktop](screenshots/loans-desktop.webp) · [mobile](screenshots/loans-mobile.webp)
-- Rates: [desktop](screenshots/rates-desktop.webp) · [mobile](screenshots/rates-mobile.webp)
-- Calculator: [desktop](screenshots/calculator-desktop.webp) · [mobile](screenshots/calculator-mobile.webp)
-- Membership: [desktop](screenshots/membership-desktop.webp) · [mobile](screenshots/membership-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Branches: [desktop](screenshots/branches-desktop.webp) · [mobile](screenshots/branches-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Savings: [desktop](https://shots.codotx.com/yui-credit-union/savings-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/savings-mobile.webp)
+- Loans: [desktop](https://shots.codotx.com/yui-credit-union/loans-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/loans-mobile.webp)
+- Rates: [desktop](https://shots.codotx.com/yui-credit-union/rates-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/rates-mobile.webp)
+- Calculator: [desktop](https://shots.codotx.com/yui-credit-union/calculator-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/calculator-mobile.webp)
+- Membership: [desktop](https://shots.codotx.com/yui-credit-union/membership-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/membership-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/yui-credit-union/stories-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/stories-mobile.webp)
+- About: [desktop](https://shots.codotx.com/yui-credit-union/about-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/about-mobile.webp)
+- Branches: [desktop](https://shots.codotx.com/yui-credit-union/branches-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/branches-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/yui-credit-union/contact-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/contact-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/yui-credit-union/journal-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/journal-mobile.webp)
+- News: [desktop](https://shots.codotx.com/yui-credit-union/news-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/yui-credit-union/article-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/yui-credit-union/category-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/yui-credit-union/tag-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/yui-credit-union/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/yui-credit-union/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/yui-credit-union/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/yui-credit-union/ja/home-desktop.webp) · [fr](https://shots.codotx.com/yui-credit-union/fr/home-desktop.webp) · [de](https://shots.codotx.com/yui-credit-union/de/home-desktop.webp)
 <!-- screenshots:end -->

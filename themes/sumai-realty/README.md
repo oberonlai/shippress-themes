@@ -88,19 +88,19 @@ Seven photographs, AI-generated for this theme and released under GPL-2.0-or-lat
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Sumai Realty home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Sumai Realty home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/sumai-realty/home-desktop.webp" width="640" alt="Sumai Realty home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/sumai-realty/home-mobile.webp" width="200" alt="Sumai Realty home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Listings: [desktop](screenshots/listings-desktop.webp) · [mobile](screenshots/listings-mobile.webp)
-- Listing: [desktop](screenshots/listing-desktop.webp) · [mobile](screenshots/listing-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/sumai-realty/about-desktop.webp) · [mobile](https://shots.codotx.com/sumai-realty/about-mobile.webp)
+- Listings: [desktop](https://shots.codotx.com/sumai-realty/listings-desktop.webp) · [mobile](https://shots.codotx.com/sumai-realty/listings-mobile.webp)
+- Listing: [desktop](https://shots.codotx.com/sumai-realty/listing-desktop.webp) · [mobile](https://shots.codotx.com/sumai-realty/listing-mobile.webp)
+- News: [desktop](https://shots.codotx.com/sumai-realty/news-desktop.webp) · [mobile](https://shots.codotx.com/sumai-realty/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/sumai-realty/article-desktop.webp) · [mobile](https://shots.codotx.com/sumai-realty/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/sumai-realty/category-desktop.webp) · [mobile](https://shots.codotx.com/sumai-realty/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/sumai-realty/tag-desktop.webp) · [mobile](https://shots.codotx.com/sumai-realty/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/sumai-realty/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/sumai-realty/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/sumai-realty/contact-desktop.webp) · [mobile](https://shots.codotx.com/sumai-realty/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/sumai-realty/search-desktop.webp) · [mobile](https://shots.codotx.com/sumai-realty/search-mobile.webp)
 <!-- screenshots:end -->

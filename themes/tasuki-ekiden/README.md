@@ -16,19 +16,19 @@ Every template is the centred header, the page column and the footer. Page bodie
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tasuki Ekiden home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tasuki Ekiden home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/tasuki-ekiden/home-desktop.webp" width="640" alt="Tasuki Ekiden home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/tasuki-ekiden/home-mobile.webp" width="200" alt="Tasuki Ekiden home page on mobile"></td>
 </tr>
 </table>
 
-- Course: [desktop](screenshots/course-desktop.webp) · [mobile](screenshots/course-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Course: [desktop](https://shots.codotx.com/tasuki-ekiden/course-desktop.webp) · [mobile](https://shots.codotx.com/tasuki-ekiden/course-mobile.webp)
+- About: [desktop](https://shots.codotx.com/tasuki-ekiden/about-desktop.webp) · [mobile](https://shots.codotx.com/tasuki-ekiden/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/tasuki-ekiden/news-desktop.webp) · [mobile](https://shots.codotx.com/tasuki-ekiden/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/tasuki-ekiden/article-desktop.webp) · [mobile](https://shots.codotx.com/tasuki-ekiden/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/tasuki-ekiden/category-desktop.webp) · [mobile](https://shots.codotx.com/tasuki-ekiden/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/tasuki-ekiden/tag-desktop.webp) · [mobile](https://shots.codotx.com/tasuki-ekiden/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/tasuki-ekiden/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/tasuki-ekiden/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/tasuki-ekiden/contact-desktop.webp) · [mobile](https://shots.codotx.com/tasuki-ekiden/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/tasuki-ekiden/search-desktop.webp) · [mobile](https://shots.codotx.com/tasuki-ekiden/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/tasuki-ekiden/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/tasuki-ekiden/ja/home-desktop.webp) · [fr](https://shots.codotx.com/tasuki-ekiden/fr/home-desktop.webp) · [de](https://shots.codotx.com/tasuki-ekiden/de/home-desktop.webp)
 <!-- screenshots:end -->

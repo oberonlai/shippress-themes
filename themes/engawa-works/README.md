@@ -35,20 +35,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Engawa Works home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Engawa Works home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/engawa-works/home-desktop.webp" width="640" alt="Engawa Works home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/engawa-works/home-mobile.webp" width="200" alt="Engawa Works home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Plans: [desktop](screenshots/plans-desktop.webp) · [mobile](screenshots/plans-mobile.webp)
-- Community events: [desktop](screenshots/community-events-desktop.webp) · [mobile](screenshots/community-events-mobile.webp)
-- Tour booking: [desktop](screenshots/tour-booking-desktop.webp) · [mobile](screenshots/tour-booking-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/engawa-works/about-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/about-mobile.webp)
+- Plans: [desktop](https://shots.codotx.com/engawa-works/plans-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/plans-mobile.webp)
+- Community events: [desktop](https://shots.codotx.com/engawa-works/community-events-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/community-events-mobile.webp)
+- Tour booking: [desktop](https://shots.codotx.com/engawa-works/tour-booking-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/tour-booking-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/engawa-works/contact-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/engawa-works/news-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/engawa-works/article-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/engawa-works/category-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/engawa-works/tag-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/engawa-works/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/engawa-works/search-desktop.webp) · [mobile](https://shots.codotx.com/engawa-works/search-mobile.webp)
 <!-- screenshots:end -->

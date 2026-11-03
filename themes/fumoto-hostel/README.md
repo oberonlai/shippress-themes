@@ -24,24 +24,24 @@ Demo content creates the home page and the eight inner pages, using the `page-*`
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Fumoto Hostel home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Fumoto Hostel home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/fumoto-hostel/home-desktop.webp" width="640" alt="Fumoto Hostel home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/fumoto-hostel/home-mobile.webp" width="200" alt="Fumoto Hostel home page on mobile"></td>
 </tr>
 </table>
 
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- The house: [desktop](screenshots/the-house-desktop.webp) · [mobile](screenshots/the-house-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- A night here: [desktop](screenshots/a-night-here-desktop.webp) · [mobile](screenshots/a-night-here-mobile.webp)
-- Neighbourhood: [desktop](screenshots/neighbourhood-desktop.webp) · [mobile](screenshots/neighbourhood-mobile.webp)
-- Rates: [desktop](screenshots/rates-desktop.webp) · [mobile](screenshots/rates-mobile.webp)
-- Booking: [desktop](screenshots/booking-desktop.webp) · [mobile](screenshots/booking-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Rooms: [desktop](https://shots.codotx.com/fumoto-hostel/rooms-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/rooms-mobile.webp)
+- The house: [desktop](https://shots.codotx.com/fumoto-hostel/the-house-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/the-house-mobile.webp)
+- People: [desktop](https://shots.codotx.com/fumoto-hostel/people-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/people-mobile.webp)
+- A night here: [desktop](https://shots.codotx.com/fumoto-hostel/a-night-here-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/a-night-here-mobile.webp)
+- Neighbourhood: [desktop](https://shots.codotx.com/fumoto-hostel/neighbourhood-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/neighbourhood-mobile.webp)
+- Rates: [desktop](https://shots.codotx.com/fumoto-hostel/rates-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/rates-mobile.webp)
+- Booking: [desktop](https://shots.codotx.com/fumoto-hostel/booking-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/booking-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/fumoto-hostel/contact-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/contact-mobile.webp)
+- About: [desktop](https://shots.codotx.com/fumoto-hostel/about-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/fumoto-hostel/news-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/fumoto-hostel/article-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/fumoto-hostel/category-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/fumoto-hostel/tag-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/fumoto-hostel/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/fumoto-hostel/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/fumoto-hostel/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/fumoto-hostel/ja/home-desktop.webp) · [fr](https://shots.codotx.com/fumoto-hostel/fr/home-desktop.webp) · [de](https://shots.codotx.com/fumoto-hostel/de/home-desktop.webp)
 <!-- screenshots:end -->

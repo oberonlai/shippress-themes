@@ -48,21 +48,21 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Asa Linen home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Asa Linen home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/asa-linen/home-desktop.webp" width="640" alt="Asa Linen home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/asa-linen/home-mobile.webp" width="200" alt="Asa Linen home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Fabric guide: [desktop](screenshots/fabric-guide-desktop.webp) · [mobile](screenshots/fabric-guide-mobile.webp)
-- Care guide: [desktop](screenshots/care-guide-desktop.webp) · [mobile](screenshots/care-guide-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/asa-linen/shop-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/asa-linen/product-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/product-mobile.webp)
+- Fabric guide: [desktop](https://shots.codotx.com/asa-linen/fabric-guide-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/fabric-guide-mobile.webp)
+- Care guide: [desktop](https://shots.codotx.com/asa-linen/care-guide-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/care-guide-mobile.webp)
+- About: [desktop](https://shots.codotx.com/asa-linen/about-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/asa-linen/contact-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/asa-linen/news-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/asa-linen/article-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/asa-linen/category-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/asa-linen/tag-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/asa-linen/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/asa-linen/search-desktop.webp) · [mobile](https://shots.codotx.com/asa-linen/search-mobile.webp)
 <!-- screenshots:end -->

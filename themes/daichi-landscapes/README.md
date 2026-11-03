@@ -12,28 +12,28 @@ A WordPress block theme for a commercial landscaping company in Vancouver (found
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Daichi Landscapes home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Daichi Landscapes home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/daichi-landscapes/home-desktop.webp" width="640" alt="Daichi Landscapes home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/daichi-landscapes/home-mobile.webp" width="200" alt="Daichi Landscapes home page on mobile"></td>
 </tr>
 </table>
 
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Pricing: [desktop](screenshots/pricing-desktop.webp) · [mobile](screenshots/pricing-mobile.webp)
-- Projects: [desktop](screenshots/projects-desktop.webp) · [mobile](screenshots/projects-mobile.webp)
-- Northshore college forecourt: [desktop](screenshots/northshore-college-forecourt-desktop.webp) · [mobile](screenshots/northshore-college-forecourt-mobile.webp)
-- Riverside general hospital courtyard: [desktop](screenshots/riverside-general-hospital-courtyard-desktop.webp) · [mobile](screenshots/riverside-general-hospital-courtyard-mobile.webp)
-- Fraser street renewal: [desktop](screenshots/fraser-street-renewal-desktop.webp) · [mobile](screenshots/fraser-street-renewal-mobile.webp)
-- Process: [desktop](screenshots/process-desktop.webp) · [mobile](screenshots/process-mobile.webp)
-- Aftercare: [desktop](screenshots/aftercare-desktop.webp) · [mobile](screenshots/aftercare-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- Careers: [desktop](screenshots/careers-desktop.webp) · [mobile](screenshots/careers-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Services: [desktop](https://shots.codotx.com/daichi-landscapes/services-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/services-mobile.webp)
+- Pricing: [desktop](https://shots.codotx.com/daichi-landscapes/pricing-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/pricing-mobile.webp)
+- Projects: [desktop](https://shots.codotx.com/daichi-landscapes/projects-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/projects-mobile.webp)
+- Northshore college forecourt: [desktop](https://shots.codotx.com/daichi-landscapes/northshore-college-forecourt-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/northshore-college-forecourt-mobile.webp)
+- Riverside general hospital courtyard: [desktop](https://shots.codotx.com/daichi-landscapes/riverside-general-hospital-courtyard-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/riverside-general-hospital-courtyard-mobile.webp)
+- Fraser street renewal: [desktop](https://shots.codotx.com/daichi-landscapes/fraser-street-renewal-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/fraser-street-renewal-mobile.webp)
+- Process: [desktop](https://shots.codotx.com/daichi-landscapes/process-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/process-mobile.webp)
+- Aftercare: [desktop](https://shots.codotx.com/daichi-landscapes/aftercare-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/aftercare-mobile.webp)
+- About: [desktop](https://shots.codotx.com/daichi-landscapes/about-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/about-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/daichi-landscapes/team-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/team-mobile.webp)
+- Careers: [desktop](https://shots.codotx.com/daichi-landscapes/careers-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/careers-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/daichi-landscapes/contact-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/contact-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/daichi-landscapes/journal-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/journal-mobile.webp)
+- News: [desktop](https://shots.codotx.com/daichi-landscapes/news-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/daichi-landscapes/article-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/daichi-landscapes/category-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/daichi-landscapes/tag-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/daichi-landscapes/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/daichi-landscapes/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/daichi-landscapes/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/daichi-landscapes/ja/home-desktop.webp) · [fr](https://shots.codotx.com/daichi-landscapes/fr/home-desktop.webp) · [de](https://shots.codotx.com/daichi-landscapes/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -69,20 +69,20 @@ Seven photographs in `assets/images/` (copies in `assets/images/demo/` for the M
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shiro Horitsu home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shiro Horitsu home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shiro-horitsu/home-desktop.webp" width="640" alt="Shiro Horitsu home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shiro-horitsu/home-mobile.webp" width="200" alt="Shiro Horitsu home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Practice areas: [desktop](screenshots/practice-areas-desktop.webp) · [mobile](screenshots/practice-areas-mobile.webp)
-- Attorneys: [desktop](screenshots/attorneys-desktop.webp) · [mobile](screenshots/attorneys-mobile.webp)
-- Consultation: [desktop](screenshots/consultation-desktop.webp) · [mobile](screenshots/consultation-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shiro-horitsu/about-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/about-mobile.webp)
+- Practice areas: [desktop](https://shots.codotx.com/shiro-horitsu/practice-areas-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/practice-areas-mobile.webp)
+- Attorneys: [desktop](https://shots.codotx.com/shiro-horitsu/attorneys-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/attorneys-mobile.webp)
+- Consultation: [desktop](https://shots.codotx.com/shiro-horitsu/consultation-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/consultation-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shiro-horitsu/news-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shiro-horitsu/article-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shiro-horitsu/category-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shiro-horitsu/tag-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shiro-horitsu/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shiro-horitsu/contact-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/shiro-horitsu/search-desktop.webp) · [mobile](https://shots.codotx.com/shiro-horitsu/search-mobile.webp)
 <!-- screenshots:end -->

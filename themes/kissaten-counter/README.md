@@ -68,17 +68,17 @@ Parts: `parts/header.html` (opening-hours strip, brand mark, menu, "Find the cou
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kissaten Counter home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kissaten Counter home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kissaten-counter/home-desktop.webp" width="640" alt="Kissaten Counter home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kissaten-counter/home-mobile.webp" width="200" alt="Kissaten Counter home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Menu: [desktop](screenshots/menu-desktop.webp) · [mobile](screenshots/menu-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kissaten-counter/about-desktop.webp) · [mobile](https://shots.codotx.com/kissaten-counter/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kissaten-counter/news-desktop.webp) · [mobile](https://shots.codotx.com/kissaten-counter/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kissaten-counter/article-desktop.webp) · [mobile](https://shots.codotx.com/kissaten-counter/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kissaten-counter/category-desktop.webp) · [mobile](https://shots.codotx.com/kissaten-counter/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kissaten-counter/tag-desktop.webp) · [mobile](https://shots.codotx.com/kissaten-counter/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kissaten-counter/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kissaten-counter/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kissaten-counter/contact-desktop.webp) · [mobile](https://shots.codotx.com/kissaten-counter/contact-mobile.webp)
+- Menu: [desktop](https://shots.codotx.com/kissaten-counter/menu-desktop.webp) · [mobile](https://shots.codotx.com/kissaten-counter/menu-mobile.webp)
 <!-- screenshots:end -->

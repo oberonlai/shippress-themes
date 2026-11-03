@@ -44,21 +44,21 @@ GPL-2.0-or-later. Fonts OFL-1.1 without Reserved Font Names (see `assets/fonts/`
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hibiki Records home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hibiki Records home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hibiki-records/home-desktop.webp" width="640" alt="Hibiki Records home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hibiki-records/home-mobile.webp" width="200" alt="Hibiki Records home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- New arrivals: [desktop](screenshots/new-arrivals-desktop.webp) · [mobile](screenshots/new-arrivals-mobile.webp)
-- Listening booth: [desktop](screenshots/listening-booth-desktop.webp) · [mobile](screenshots/listening-booth-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/hibiki-records/shop-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/hibiki-records/product-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/product-mobile.webp)
+- New arrivals: [desktop](https://shots.codotx.com/hibiki-records/new-arrivals-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/new-arrivals-mobile.webp)
+- Listening booth: [desktop](https://shots.codotx.com/hibiki-records/listening-booth-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/listening-booth-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hibiki-records/about-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hibiki-records/contact-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hibiki-records/news-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hibiki-records/article-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hibiki-records/category-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hibiki-records/tag-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hibiki-records/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hibiki-records/search-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-records/search-mobile.webp)
 <!-- screenshots:end -->

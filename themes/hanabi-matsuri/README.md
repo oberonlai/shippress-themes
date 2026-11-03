@@ -82,19 +82,19 @@ Code: GPL-2.0-or-later. Fonts: SIL Open Font License 1.1, bundled in `assets/fon
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hanabi Matsuri home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hanabi Matsuri home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hanabi-matsuri/home-desktop.webp" width="640" alt="Hanabi Matsuri home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hanabi-matsuri/home-mobile.webp" width="200" alt="Hanabi Matsuri home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Program: [desktop](screenshots/program-desktop.webp) · [mobile](screenshots/program-mobile.webp)
-- Tickets: [desktop](screenshots/tickets-desktop.webp) · [mobile](screenshots/tickets-mobile.webp)
-- Access: [desktop](screenshots/access-desktop.webp) · [mobile](screenshots/access-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hanabi-matsuri/about-desktop.webp) · [mobile](https://shots.codotx.com/hanabi-matsuri/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hanabi-matsuri/news-desktop.webp) · [mobile](https://shots.codotx.com/hanabi-matsuri/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hanabi-matsuri/article-desktop.webp) · [mobile](https://shots.codotx.com/hanabi-matsuri/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hanabi-matsuri/category-desktop.webp) · [mobile](https://shots.codotx.com/hanabi-matsuri/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hanabi-matsuri/tag-desktop.webp) · [mobile](https://shots.codotx.com/hanabi-matsuri/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hanabi-matsuri/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hanabi-matsuri/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hanabi-matsuri/contact-desktop.webp) · [mobile](https://shots.codotx.com/hanabi-matsuri/contact-mobile.webp)
+- Program: [desktop](https://shots.codotx.com/hanabi-matsuri/program-desktop.webp) · [mobile](https://shots.codotx.com/hanabi-matsuri/program-mobile.webp)
+- Tickets: [desktop](https://shots.codotx.com/hanabi-matsuri/tickets-desktop.webp) · [mobile](https://shots.codotx.com/hanabi-matsuri/tickets-mobile.webp)
+- Access: [desktop](https://shots.codotx.com/hanabi-matsuri/access-desktop.webp) · [mobile](https://shots.codotx.com/hanabi-matsuri/access-mobile.webp)
 <!-- screenshots:end -->

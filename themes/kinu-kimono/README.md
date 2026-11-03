@@ -55,21 +55,21 @@ Photographs: AI-generated for this theme, released under GPL-2.0-or-later / CC0.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kinu Kimono home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kinu Kimono home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kinu-kimono/home-desktop.webp" width="640" alt="Kinu Kimono home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kinu-kimono/home-mobile.webp" width="200" alt="Kinu Kimono home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Plans: [desktop](screenshots/plans-desktop.webp) · [mobile](screenshots/plans-mobile.webp)
-- How it works: [desktop](screenshots/how-it-works-desktop.webp) · [mobile](screenshots/how-it-works-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kinu-kimono/about-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/about-mobile.webp)
+- Plans: [desktop](https://shots.codotx.com/kinu-kimono/plans-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/plans-mobile.webp)
+- How it works: [desktop](https://shots.codotx.com/kinu-kimono/how-it-works-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/how-it-works-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kinu-kimono/news-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kinu-kimono/article-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kinu-kimono/category-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kinu-kimono/tag-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kinu-kimono/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kinu-kimono/contact-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/contact-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/kinu-kimono/shop-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/kinu-kimono/product-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/product-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kinu-kimono/search-desktop.webp) · [mobile](https://shots.codotx.com/kinu-kimono/search-mobile.webp)
 <!-- screenshots:end -->

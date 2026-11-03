@@ -83,20 +83,20 @@ assets/images/          AI-generated photographs (+ demo/ copies for the Media L
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kami no Ne home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kami no Ne home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kami-no-ne/home-desktop.webp" width="640" alt="Kami no Ne home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kami-no-ne/home-mobile.webp" width="200" alt="Kami no Ne home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Workshops: [desktop](screenshots/workshops-desktop.webp) · [mobile](screenshots/workshops-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kami-no-ne/about-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kami-no-ne/news-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kami-no-ne/article-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kami-no-ne/category-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kami-no-ne/tag-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kami-no-ne/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kami-no-ne/contact-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/contact-mobile.webp)
+- Workshops: [desktop](https://shots.codotx.com/kami-no-ne/workshops-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/workshops-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/kami-no-ne/shop-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/kami-no-ne/product-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/product-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kami-no-ne/search-desktop.webp) · [mobile](https://shots.codotx.com/kami-no-ne/search-mobile.webp)
 <!-- screenshots:end -->

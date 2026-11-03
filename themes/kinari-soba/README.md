@@ -37,18 +37,18 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Illustrations and photogr
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kinari Soba home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kinari Soba home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kinari-soba/home-desktop.webp" width="640" alt="Kinari Soba home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kinari-soba/home-mobile.webp" width="200" alt="Kinari Soba home page on mobile"></td>
 </tr>
 </table>
 
-- Menu: [desktop](screenshots/menu-desktop.webp) · [mobile](screenshots/menu-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Menu: [desktop](https://shots.codotx.com/kinari-soba/menu-desktop.webp) · [mobile](https://shots.codotx.com/kinari-soba/menu-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kinari-soba/about-desktop.webp) · [mobile](https://shots.codotx.com/kinari-soba/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kinari-soba/contact-desktop.webp) · [mobile](https://shots.codotx.com/kinari-soba/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kinari-soba/news-desktop.webp) · [mobile](https://shots.codotx.com/kinari-soba/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kinari-soba/article-desktop.webp) · [mobile](https://shots.codotx.com/kinari-soba/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kinari-soba/category-desktop.webp) · [mobile](https://shots.codotx.com/kinari-soba/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kinari-soba/tag-desktop.webp) · [mobile](https://shots.codotx.com/kinari-soba/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kinari-soba/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kinari-soba/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kinari-soba/search-desktop.webp) · [mobile](https://shots.codotx.com/kinari-soba/search-mobile.webp)
 <!-- screenshots:end -->

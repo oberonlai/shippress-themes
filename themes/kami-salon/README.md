@@ -73,20 +73,20 @@ Nine photographs in `assets/images/` (copies in `assets/images/demo/` for the Me
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kami Salon home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kami Salon home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kami-salon/home-desktop.webp" width="640" alt="Kami Salon home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kami-salon/home-mobile.webp" width="200" alt="Kami Salon home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Stylists: [desktop](screenshots/stylists-desktop.webp) · [mobile](screenshots/stylists-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Booking: [desktop](screenshots/booking-desktop.webp) · [mobile](screenshots/booking-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kami-salon/about-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/about-mobile.webp)
+- Stylists: [desktop](https://shots.codotx.com/kami-salon/stylists-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/stylists-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/kami-salon/services-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/services-mobile.webp)
+- Booking: [desktop](https://shots.codotx.com/kami-salon/booking-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/booking-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kami-salon/news-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kami-salon/article-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kami-salon/category-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kami-salon/tag-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kami-salon/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kami-salon/contact-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kami-salon/search-desktop.webp) · [mobile](https://shots.codotx.com/kami-salon/search-mobile.webp)
 <!-- screenshots:end -->

@@ -27,17 +27,17 @@ Fourteen AI-generated high-key photographs (one STYLE string): a bright teaching
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hakari Course home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hakari Course home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hakari-course/home-desktop.webp" width="640" alt="Hakari Course home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hakari-course/home-mobile.webp" width="200" alt="Hakari Course home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/hakari-course/about-desktop.webp) · [mobile](https://shots.codotx.com/hakari-course/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hakari-course/news-desktop.webp) · [mobile](https://shots.codotx.com/hakari-course/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hakari-course/article-desktop.webp) · [mobile](https://shots.codotx.com/hakari-course/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hakari-course/category-desktop.webp) · [mobile](https://shots.codotx.com/hakari-course/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hakari-course/tag-desktop.webp) · [mobile](https://shots.codotx.com/hakari-course/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hakari-course/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hakari-course/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hakari-course/contact-desktop.webp) · [mobile](https://shots.codotx.com/hakari-course/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hakari-course/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hakari-course/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hakari-course/fr/home-desktop.webp) · [de](https://shots.codotx.com/hakari-course/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -47,21 +47,21 @@ Fonts: Space Grotesk, Inter and IBM Plex Mono (SIL OFL 1.1). Photographs: AI-gen
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Neiro Hall home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Neiro Hall home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/neiro-hall/home-desktop.webp" width="640" alt="Neiro Hall home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/neiro-hall/home-mobile.webp" width="200" alt="Neiro Hall home page on mobile"></td>
 </tr>
 </table>
 
-- Calendar: [desktop](screenshots/calendar-desktop.webp) · [mobile](screenshots/calendar-mobile.webp)
-- Artists: [desktop](screenshots/artists-desktop.webp) · [mobile](screenshots/artists-mobile.webp)
-- Venue: [desktop](screenshots/venue-desktop.webp) · [mobile](screenshots/venue-mobile.webp)
-- Tickets: [desktop](screenshots/tickets-desktop.webp) · [mobile](screenshots/tickets-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Calendar: [desktop](https://shots.codotx.com/neiro-hall/calendar-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/calendar-mobile.webp)
+- Artists: [desktop](https://shots.codotx.com/neiro-hall/artists-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/artists-mobile.webp)
+- Venue: [desktop](https://shots.codotx.com/neiro-hall/venue-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/venue-mobile.webp)
+- Tickets: [desktop](https://shots.codotx.com/neiro-hall/tickets-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/tickets-mobile.webp)
+- About: [desktop](https://shots.codotx.com/neiro-hall/about-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/neiro-hall/news-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/neiro-hall/article-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/neiro-hall/category-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/neiro-hall/tag-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/neiro-hall/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/neiro-hall/contact-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/neiro-hall/search-desktop.webp) · [mobile](https://shots.codotx.com/neiro-hall/search-mobile.webp)
 <!-- screenshots:end -->

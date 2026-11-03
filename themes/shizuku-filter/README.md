@@ -13,27 +13,27 @@ Photos: 12 high-key photographs in `assets/images` (one consistent spout-free ce
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shizuku Filter home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shizuku Filter home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shizuku-filter/home-desktop.webp" width="640" alt="Shizuku Filter home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shizuku-filter/home-mobile.webp" width="200" alt="Shizuku Filter home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Rewards: [desktop](screenshots/rewards-desktop.webp) · [mobile](screenshots/rewards-mobile.webp)
-- The filter: [desktop](screenshots/the-filter-desktop.webp) · [mobile](screenshots/the-filter-mobile.webp)
-- Making schedule: [desktop](screenshots/making-schedule-desktop.webp) · [mobile](screenshots/making-schedule-mobile.webp)
-- Our story: [desktop](screenshots/our-story-desktop.webp) · [mobile](screenshots/our-story-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Updates: [desktop](screenshots/updates-desktop.webp) · [mobile](screenshots/updates-mobile.webp)
-- Waitlist: [desktop](screenshots/waitlist-desktop.webp) · [mobile](screenshots/waitlist-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/shizuku-filter/about-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shizuku-filter/news-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shizuku-filter/article-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shizuku-filter/category-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shizuku-filter/tag-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shizuku-filter/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/newsletter-mobile.webp)
+- Rewards: [desktop](https://shots.codotx.com/shizuku-filter/rewards-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/rewards-mobile.webp)
+- The filter: [desktop](https://shots.codotx.com/shizuku-filter/the-filter-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/the-filter-mobile.webp)
+- Making schedule: [desktop](https://shots.codotx.com/shizuku-filter/making-schedule-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/making-schedule-mobile.webp)
+- Our story: [desktop](https://shots.codotx.com/shizuku-filter/our-story-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/our-story-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/shizuku-filter/faq-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/faq-mobile.webp)
+- Updates: [desktop](https://shots.codotx.com/shizuku-filter/updates-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/updates-mobile.webp)
+- Waitlist: [desktop](https://shots.codotx.com/shizuku-filter/waitlist-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/waitlist-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shizuku-filter/contact-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/contact-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/shizuku-filter/privacy-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/shizuku-filter/terms-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/terms-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/shizuku-filter/thanks-desktop.webp) · [mobile](https://shots.codotx.com/shizuku-filter/thanks-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/shizuku-filter/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/shizuku-filter/ja/home-desktop.webp) · [fr](https://shots.codotx.com/shizuku-filter/fr/home-desktop.webp) · [de](https://shots.codotx.com/shizuku-filter/de/home-desktop.webp)
 <!-- screenshots:end -->

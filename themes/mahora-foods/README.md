@@ -21,26 +21,26 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mahora Foods home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mahora Foods home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/mahora-foods/home-desktop.webp" width="640" alt="Mahora Foods home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/mahora-foods/home-mobile.webp" width="200" alt="Mahora Foods home page on mobile"></td>
 </tr>
 </table>
 
-- How we work: [desktop](screenshots/how-we-work-desktop.webp) · [mobile](screenshots/how-we-work-mobile.webp)
-- Workplaces: [desktop](screenshots/workplaces-desktop.webp) · [mobile](screenshots/workplaces-mobile.webp)
-- Menus: [desktop](screenshots/menus-desktop.webp) · [mobile](screenshots/menus-mobile.webp)
-- Sites: [desktop](screenshots/sites-desktop.webp) · [mobile](screenshots/sites-mobile.webp)
-- Case studies: [desktop](screenshots/case-studies-desktop.webp) · [mobile](screenshots/case-studies-mobile.webp)
-- Starting: [desktop](screenshots/starting-desktop.webp) · [mobile](screenshots/starting-mobile.webp)
-- Rates: [desktop](screenshots/rates-desktop.webp) · [mobile](screenshots/rates-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- How we work: [desktop](https://shots.codotx.com/mahora-foods/how-we-work-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/how-we-work-mobile.webp)
+- Workplaces: [desktop](https://shots.codotx.com/mahora-foods/workplaces-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/workplaces-mobile.webp)
+- Menus: [desktop](https://shots.codotx.com/mahora-foods/menus-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/menus-mobile.webp)
+- Sites: [desktop](https://shots.codotx.com/mahora-foods/sites-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/sites-mobile.webp)
+- Case studies: [desktop](https://shots.codotx.com/mahora-foods/case-studies-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/case-studies-mobile.webp)
+- Starting: [desktop](https://shots.codotx.com/mahora-foods/starting-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/starting-mobile.webp)
+- Rates: [desktop](https://shots.codotx.com/mahora-foods/rates-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/rates-mobile.webp)
+- About: [desktop](https://shots.codotx.com/mahora-foods/about-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/about-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/mahora-foods/notes-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/notes-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/mahora-foods/contact-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/contact-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/mahora-foods/privacy-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/privacy-mobile.webp)
+- News: [desktop](https://shots.codotx.com/mahora-foods/news-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/mahora-foods/article-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/mahora-foods/category-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/mahora-foods/tag-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/mahora-foods/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/mahora-foods/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/mahora-foods/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/mahora-foods/ja/home-desktop.webp) · [fr](https://shots.codotx.com/mahora-foods/fr/home-desktop.webp) · [de](https://shots.codotx.com/mahora-foods/de/home-desktop.webp)
 <!-- screenshots:end -->

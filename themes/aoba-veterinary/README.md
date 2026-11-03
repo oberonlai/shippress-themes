@@ -24,26 +24,26 @@ p01-consult-room, p02-cradle, p03-waiting, p04-ear, p05-exam, p06-walk, p07-dire
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Aoba Veterinary home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Aoba Veterinary home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/aoba-veterinary/home-desktop.webp" width="640" alt="Aoba Veterinary home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/aoba-veterinary/home-mobile.webp" width="200" alt="Aoba Veterinary home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Cat care: [desktop](screenshots/cat-care-desktop.webp) · [mobile](screenshots/cat-care-mobile.webp)
-- Surgery dental: [desktop](screenshots/surgery-dental-desktop.webp) · [mobile](screenshots/surgery-dental-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Access: [desktop](screenshots/access-desktop.webp) · [mobile](screenshots/access-mobile.webp)
-- Book: [desktop](screenshots/book-desktop.webp) · [mobile](screenshots/book-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/aoba-veterinary/about-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/about-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/aoba-veterinary/services-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/services-mobile.webp)
+- Cat care: [desktop](https://shots.codotx.com/aoba-veterinary/cat-care-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/cat-care-mobile.webp)
+- Surgery dental: [desktop](https://shots.codotx.com/aoba-veterinary/surgery-dental-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/surgery-dental-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/aoba-veterinary/fees-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/fees-mobile.webp)
+- First visit: [desktop](https://shots.codotx.com/aoba-veterinary/first-visit-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/first-visit-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/aoba-veterinary/team-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/team-mobile.webp)
+- News: [desktop](https://shots.codotx.com/aoba-veterinary/news-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/aoba-veterinary/article-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/article-mobile.webp)
+- Access: [desktop](https://shots.codotx.com/aoba-veterinary/access-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/access-mobile.webp)
+- Book: [desktop](https://shots.codotx.com/aoba-veterinary/book-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/book-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/aoba-veterinary/search-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/search-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/aoba-veterinary/category-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/aoba-veterinary/tag-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/aoba-veterinary/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/aoba-veterinary/contact-desktop.webp) · [mobile](https://shots.codotx.com/aoba-veterinary/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/aoba-veterinary/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/aoba-veterinary/ja/home-desktop.webp) · [fr](https://shots.codotx.com/aoba-veterinary/fr/home-desktop.webp) · [de](https://shots.codotx.com/aoba-veterinary/de/home-desktop.webp)
 <!-- screenshots:end -->

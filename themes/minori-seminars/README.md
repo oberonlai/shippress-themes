@@ -15,17 +15,17 @@ All photographs in assets/images were AI-generated for this theme (CC0). The des
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Minori Seminars home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Minori Seminars home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/minori-seminars/home-desktop.webp" width="640" alt="Minori Seminars home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/minori-seminars/home-mobile.webp" width="200" alt="Minori Seminars home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/minori-seminars/about-desktop.webp) · [mobile](https://shots.codotx.com/minori-seminars/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/minori-seminars/news-desktop.webp) · [mobile](https://shots.codotx.com/minori-seminars/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/minori-seminars/article-desktop.webp) · [mobile](https://shots.codotx.com/minori-seminars/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/minori-seminars/category-desktop.webp) · [mobile](https://shots.codotx.com/minori-seminars/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/minori-seminars/tag-desktop.webp) · [mobile](https://shots.codotx.com/minori-seminars/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/minori-seminars/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/minori-seminars/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/minori-seminars/contact-desktop.webp) · [mobile](https://shots.codotx.com/minori-seminars/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/minori-seminars/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/minori-seminars/ja/home-desktop.webp) · [fr](https://shots.codotx.com/minori-seminars/fr/home-desktop.webp) · [de](https://shots.codotx.com/minori-seminars/de/home-desktop.webp)
 <!-- screenshots:end -->

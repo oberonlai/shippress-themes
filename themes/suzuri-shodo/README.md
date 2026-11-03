@@ -36,20 +36,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Suzuri Shodo home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Suzuri Shodo home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/suzuri-shodo/home-desktop.webp" width="640" alt="Suzuri Shodo home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/suzuri-shodo/home-mobile.webp" width="200" alt="Suzuri Shodo home page on mobile"></td>
 </tr>
 </table>
 
-- Classes: [desktop](screenshots/classes-desktop.webp) · [mobile](screenshots/classes-mobile.webp)
-- Timetable: [desktop](screenshots/timetable-desktop.webp) · [mobile](screenshots/timetable-mobile.webp)
-- Materials: [desktop](screenshots/materials-desktop.webp) · [mobile](screenshots/materials-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Classes: [desktop](https://shots.codotx.com/suzuri-shodo/classes-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/classes-mobile.webp)
+- Timetable: [desktop](https://shots.codotx.com/suzuri-shodo/timetable-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/timetable-mobile.webp)
+- Materials: [desktop](https://shots.codotx.com/suzuri-shodo/materials-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/materials-mobile.webp)
+- About: [desktop](https://shots.codotx.com/suzuri-shodo/about-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/suzuri-shodo/contact-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/suzuri-shodo/news-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/suzuri-shodo/article-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/suzuri-shodo/category-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/suzuri-shodo/tag-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/suzuri-shodo/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/suzuri-shodo/search-desktop.webp) · [mobile](https://shots.codotx.com/suzuri-shodo/search-mobile.webp)
 <!-- screenshots:end -->

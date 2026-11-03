@@ -35,20 +35,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tsumiki Accounting home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tsumiki Accounting home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsumiki-accounting/home-desktop.webp" width="640" alt="Tsumiki Accounting home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsumiki-accounting/home-mobile.webp" width="200" alt="Tsumiki Accounting home page on mobile"></td>
 </tr>
 </table>
 
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Tax calendar: [desktop](screenshots/tax-calendar-desktop.webp) · [mobile](screenshots/tax-calendar-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/tsumiki-accounting/services-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/services-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/tsumiki-accounting/fees-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/fees-mobile.webp)
+- Tax calendar: [desktop](https://shots.codotx.com/tsumiki-accounting/tax-calendar-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/tax-calendar-mobile.webp)
+- About: [desktop](https://shots.codotx.com/tsumiki-accounting/about-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/tsumiki-accounting/news-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/tsumiki-accounting/article-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/tsumiki-accounting/category-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/tsumiki-accounting/tag-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/tsumiki-accounting/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/tsumiki-accounting/contact-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/tsumiki-accounting/search-desktop.webp) · [mobile](https://shots.codotx.com/tsumiki-accounting/search-mobile.webp)
 <!-- screenshots:end -->

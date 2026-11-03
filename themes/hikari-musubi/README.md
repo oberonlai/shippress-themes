@@ -50,20 +50,20 @@ Fonts: Gloock and Public Sans (SIL OFL 1.1). Photographs: AI-generated for this 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hikari Musubi home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hikari Musubi home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hikari-musubi/home-desktop.webp" width="640" alt="Hikari Musubi home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hikari-musubi/home-mobile.webp" width="200" alt="Hikari Musubi home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Plans: [desktop](screenshots/plans-desktop.webp) · [mobile](screenshots/plans-mobile.webp)
-- Gallery: [desktop](screenshots/gallery-desktop.webp) · [mobile](screenshots/gallery-mobile.webp)
-- Venues: [desktop](screenshots/venues-desktop.webp) · [mobile](screenshots/venues-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hikari-musubi/about-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/about-mobile.webp)
+- Plans: [desktop](https://shots.codotx.com/hikari-musubi/plans-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/plans-mobile.webp)
+- Gallery: [desktop](https://shots.codotx.com/hikari-musubi/gallery-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/gallery-mobile.webp)
+- Venues: [desktop](https://shots.codotx.com/hikari-musubi/venues-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/venues-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hikari-musubi/news-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hikari-musubi/article-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hikari-musubi/category-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hikari-musubi/tag-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hikari-musubi/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hikari-musubi/contact-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hikari-musubi/search-desktop.webp) · [mobile](https://shots.codotx.com/hikari-musubi/search-mobile.webp)
 <!-- screenshots:end -->

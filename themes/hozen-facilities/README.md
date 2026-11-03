@@ -24,22 +24,22 @@ sp-scroll (assets/sp-scroll.css and .js): photo focus-in, fade-up rows and paral
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hozen Facilities home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hozen Facilities home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hozen-facilities/home-desktop.webp" width="640" alt="Hozen Facilities home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hozen-facilities/home-mobile.webp" width="200" alt="Hozen Facilities home page on mobile"></td>
 </tr>
 </table>
 
-- Sites: [desktop](screenshots/sites-desktop.webp) · [mobile](screenshots/sites-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Call outs: [desktop](screenshots/call-outs-desktop.webp) · [mobile](screenshots/call-outs-mobile.webp)
-- Compliance: [desktop](screenshots/compliance-desktop.webp) · [mobile](screenshots/compliance-mobile.webp)
-- Prices: [desktop](screenshots/prices-desktop.webp) · [mobile](screenshots/prices-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Sites: [desktop](https://shots.codotx.com/hozen-facilities/sites-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/sites-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/hozen-facilities/services-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/services-mobile.webp)
+- Call outs: [desktop](https://shots.codotx.com/hozen-facilities/call-outs-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/call-outs-mobile.webp)
+- Compliance: [desktop](https://shots.codotx.com/hozen-facilities/compliance-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/compliance-mobile.webp)
+- Prices: [desktop](https://shots.codotx.com/hozen-facilities/prices-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/prices-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hozen-facilities/about-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hozen-facilities/news-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hozen-facilities/article-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hozen-facilities/category-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hozen-facilities/tag-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hozen-facilities/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hozen-facilities/contact-desktop.webp) · [mobile](https://shots.codotx.com/hozen-facilities/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hozen-facilities/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hozen-facilities/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hozen-facilities/fr/home-desktop.webp) · [de](https://shots.codotx.com/hozen-facilities/de/home-desktop.webp)
 <!-- screenshots:end -->

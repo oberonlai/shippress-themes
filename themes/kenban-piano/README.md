@@ -37,20 +37,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kenban Piano School home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kenban Piano School home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kenban-piano/home-desktop.webp" width="640" alt="Kenban Piano School home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kenban-piano/home-mobile.webp" width="200" alt="Kenban Piano School home page on mobile"></td>
 </tr>
 </table>
 
-- Lessons: [desktop](screenshots/lessons-desktop.webp) · [mobile](screenshots/lessons-mobile.webp)
-- Teachers: [desktop](screenshots/teachers-desktop.webp) · [mobile](screenshots/teachers-mobile.webp)
-- Recitals: [desktop](screenshots/recitals-desktop.webp) · [mobile](screenshots/recitals-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Lessons: [desktop](https://shots.codotx.com/kenban-piano/lessons-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/lessons-mobile.webp)
+- Teachers: [desktop](https://shots.codotx.com/kenban-piano/teachers-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/teachers-mobile.webp)
+- Recitals: [desktop](https://shots.codotx.com/kenban-piano/recitals-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/recitals-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kenban-piano/about-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kenban-piano/contact-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kenban-piano/news-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kenban-piano/article-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kenban-piano/category-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kenban-piano/tag-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kenban-piano/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kenban-piano/search-desktop.webp) · [mobile](https://shots.codotx.com/kenban-piano/search-mobile.webp)
 <!-- screenshots:end -->

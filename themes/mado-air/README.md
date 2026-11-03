@@ -13,17 +13,17 @@ Palette: white, soft grey `#E9E9E9`, ink `#333333`, dark `#1F1F1F`, cyan `#4DC0D
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mado Air home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mado Air home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/mado-air/home-desktop.webp" width="640" alt="Mado Air home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/mado-air/home-mobile.webp" width="200" alt="Mado Air home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/mado-air/about-desktop.webp) · [mobile](https://shots.codotx.com/mado-air/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/mado-air/news-desktop.webp) · [mobile](https://shots.codotx.com/mado-air/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/mado-air/article-desktop.webp) · [mobile](https://shots.codotx.com/mado-air/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/mado-air/category-desktop.webp) · [mobile](https://shots.codotx.com/mado-air/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/mado-air/tag-desktop.webp) · [mobile](https://shots.codotx.com/mado-air/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/mado-air/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/mado-air/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/mado-air/contact-desktop.webp) · [mobile](https://shots.codotx.com/mado-air/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/mado-air/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/mado-air/ja/home-desktop.webp) · [fr](https://shots.codotx.com/mado-air/fr/home-desktop.webp) · [de](https://shots.codotx.com/mado-air/de/home-desktop.webp)
 <!-- screenshots:end -->

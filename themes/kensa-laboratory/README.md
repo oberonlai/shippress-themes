@@ -15,20 +15,20 @@ Home, Sample log, Privacy and Terms of testing are included in the demo content.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kensa Laboratory home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kensa Laboratory home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kensa-laboratory/home-desktop.webp" width="640" alt="Kensa Laboratory home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kensa-laboratory/home-mobile.webp" width="200" alt="Kensa Laboratory home page on mobile"></td>
 </tr>
 </table>
 
-- Sample log: [desktop](screenshots/sample-log-desktop.webp) · [mobile](screenshots/sample-log-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Sample log: [desktop](https://shots.codotx.com/kensa-laboratory/sample-log-desktop.webp) · [mobile](https://shots.codotx.com/kensa-laboratory/sample-log-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/kensa-laboratory/privacy-desktop.webp) · [mobile](https://shots.codotx.com/kensa-laboratory/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/kensa-laboratory/terms-desktop.webp) · [mobile](https://shots.codotx.com/kensa-laboratory/terms-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kensa-laboratory/about-desktop.webp) · [mobile](https://shots.codotx.com/kensa-laboratory/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kensa-laboratory/news-desktop.webp) · [mobile](https://shots.codotx.com/kensa-laboratory/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kensa-laboratory/article-desktop.webp) · [mobile](https://shots.codotx.com/kensa-laboratory/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kensa-laboratory/category-desktop.webp) · [mobile](https://shots.codotx.com/kensa-laboratory/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kensa-laboratory/tag-desktop.webp) · [mobile](https://shots.codotx.com/kensa-laboratory/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kensa-laboratory/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kensa-laboratory/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kensa-laboratory/contact-desktop.webp) · [mobile](https://shots.codotx.com/kensa-laboratory/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kensa-laboratory/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kensa-laboratory/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kensa-laboratory/fr/home-desktop.webp) · [de](https://shots.codotx.com/kensa-laboratory/de/home-desktop.webp)
 <!-- screenshots:end -->

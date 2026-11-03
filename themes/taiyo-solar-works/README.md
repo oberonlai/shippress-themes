@@ -68,27 +68,27 @@ Merriweather and Source Sans 3 (SIL OFL 1.1, licences in assets/fonts).
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Taiyo Solar Works home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Taiyo Solar Works home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/taiyo-solar-works/home-desktop.webp" width="640" alt="Taiyo Solar Works home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/taiyo-solar-works/home-mobile.webp" width="200" alt="Taiyo Solar Works home page on mobile"></td>
 </tr>
 </table>
 
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Installations: [desktop](screenshots/installations-desktop.webp) · [mobile](screenshots/installations-mobile.webp)
-- Kenning case: [desktop](screenshots/kenning-case-desktop.webp) · [mobile](screenshots/kenning-case-mobile.webp)
-- Residential solar: [desktop](screenshots/residential-solar-desktop.webp) · [mobile](screenshots/residential-solar-mobile.webp)
-- Battery storage ev charging: [desktop](screenshots/battery-storage-ev-charging-desktop.webp) · [mobile](screenshots/battery-storage-ev-charging-mobile.webp)
-- Commercial roofs: [desktop](screenshots/commercial-roofs-desktop.webp) · [mobile](screenshots/commercial-roofs-mobile.webp)
-- How it works: [desktop](screenshots/how-it-works-desktop.webp) · [mobile](screenshots/how-it-works-mobile.webp)
-- Maintenance warranty: [desktop](screenshots/maintenance-warranty-desktop.webp) · [mobile](screenshots/maintenance-warranty-mobile.webp)
-- Pricing financing: [desktop](screenshots/pricing-financing-desktop.webp) · [mobile](screenshots/pricing-financing-mobile.webp)
-- Free roof assessment: [desktop](screenshots/free-roof-assessment-desktop.webp) · [mobile](screenshots/free-roof-assessment-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- News: [desktop](https://shots.codotx.com/taiyo-solar-works/news-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/taiyo-solar-works/article-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/taiyo-solar-works/category-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/category-mobile.webp)
+- Installations: [desktop](https://shots.codotx.com/taiyo-solar-works/installations-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/installations-mobile.webp)
+- Kenning case: [desktop](https://shots.codotx.com/taiyo-solar-works/kenning-case-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/kenning-case-mobile.webp)
+- Residential solar: [desktop](https://shots.codotx.com/taiyo-solar-works/residential-solar-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/residential-solar-mobile.webp)
+- Battery storage ev charging: [desktop](https://shots.codotx.com/taiyo-solar-works/battery-storage-ev-charging-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/battery-storage-ev-charging-mobile.webp)
+- Commercial roofs: [desktop](https://shots.codotx.com/taiyo-solar-works/commercial-roofs-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/commercial-roofs-mobile.webp)
+- How it works: [desktop](https://shots.codotx.com/taiyo-solar-works/how-it-works-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/how-it-works-mobile.webp)
+- Maintenance warranty: [desktop](https://shots.codotx.com/taiyo-solar-works/maintenance-warranty-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/maintenance-warranty-mobile.webp)
+- Pricing financing: [desktop](https://shots.codotx.com/taiyo-solar-works/pricing-financing-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/pricing-financing-mobile.webp)
+- Free roof assessment: [desktop](https://shots.codotx.com/taiyo-solar-works/free-roof-assessment-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/free-roof-assessment-mobile.webp)
+- About: [desktop](https://shots.codotx.com/taiyo-solar-works/about-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/taiyo-solar-works/contact-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/contact-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/taiyo-solar-works/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/newsletter-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/taiyo-solar-works/tag-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/tag-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/taiyo-solar-works/search-desktop.webp) · [mobile](https://shots.codotx.com/taiyo-solar-works/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/taiyo-solar-works/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/taiyo-solar-works/ja/home-desktop.webp) · [fr](https://shots.codotx.com/taiyo-solar-works/fr/home-desktop.webp) · [de](https://shots.codotx.com/taiyo-solar-works/de/home-desktop.webp)
 <!-- screenshots:end -->

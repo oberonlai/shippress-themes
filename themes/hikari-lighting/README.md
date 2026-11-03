@@ -30,23 +30,23 @@ License: GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`).
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hikari Lighting home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hikari Lighting home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hikari-lighting/home-desktop.webp" width="640" alt="Hikari Lighting home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hikari-lighting/home-mobile.webp" width="200" alt="Hikari Lighting home page on mobile"></td>
 </tr>
 </table>
 
-- Lamps: [desktop](screenshots/lamps-desktop.webp) · [mobile](screenshots/lamps-mobile.webp)
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- Fitting: [desktop](screenshots/fitting-desktop.webp) · [mobile](screenshots/fitting-mobile.webp)
-- Projects: [desktop](screenshots/projects-desktop.webp) · [mobile](screenshots/projects-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Lamps: [desktop](https://shots.codotx.com/hikari-lighting/lamps-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/lamps-mobile.webp)
+- Rooms: [desktop](https://shots.codotx.com/hikari-lighting/rooms-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/rooms-mobile.webp)
+- Fitting: [desktop](https://shots.codotx.com/hikari-lighting/fitting-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/fitting-mobile.webp)
+- Projects: [desktop](https://shots.codotx.com/hikari-lighting/projects-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/projects-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/hikari-lighting/visit-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/visit-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/hikari-lighting/journal-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/journal-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hikari-lighting/about-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hikari-lighting/contact-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hikari-lighting/news-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hikari-lighting/article-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hikari-lighting/category-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hikari-lighting/tag-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hikari-lighting/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hikari-lighting/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hikari-lighting/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hikari-lighting/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hikari-lighting/fr/home-desktop.webp) · [de](https://shots.codotx.com/hikari-lighting/de/home-desktop.webp)
 <!-- screenshots:end -->

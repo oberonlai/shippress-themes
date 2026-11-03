@@ -38,27 +38,27 @@ About (cropped `Kotoba.`, parallax classroom band, arc-flanked circle), Courses,
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kotoba Language home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kotoba Language home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kotoba-language/home-desktop.webp" width="640" alt="Kotoba Language home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kotoba-language/home-mobile.webp" width="200" alt="Kotoba Language home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Courses: [desktop](screenshots/courses-desktop.webp) · [mobile](screenshots/courses-mobile.webp)
-- Pathways work: [desktop](screenshots/pathways-work-desktop.webp) · [mobile](screenshots/pathways-work-mobile.webp)
-- Pathways settlement: [desktop](screenshots/pathways-settlement-desktop.webp) · [mobile](screenshots/pathways-settlement-mobile.webp)
-- Pathways exams: [desktop](screenshots/pathways-exams-desktop.webp) · [mobile](screenshots/pathways-exams-mobile.webp)
-- Teachers: [desktop](screenshots/teachers-desktop.webp) · [mobile](screenshots/teachers-mobile.webp)
-- Levels placement: [desktop](screenshots/levels-placement-desktop.webp) · [mobile](screenshots/levels-placement-mobile.webp)
-- Fees intake: [desktop](screenshots/fees-intake-desktop.webp) · [mobile](screenshots/fees-intake-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Enquiry: [desktop](screenshots/enquiry-desktop.webp) · [mobile](screenshots/enquiry-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/kotoba-language/about-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kotoba-language/news-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kotoba-language/article-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kotoba-language/category-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kotoba-language/tag-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kotoba-language/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kotoba-language/contact-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/contact-mobile.webp)
+- Courses: [desktop](https://shots.codotx.com/kotoba-language/courses-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/courses-mobile.webp)
+- Pathways work: [desktop](https://shots.codotx.com/kotoba-language/pathways-work-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/pathways-work-mobile.webp)
+- Pathways settlement: [desktop](https://shots.codotx.com/kotoba-language/pathways-settlement-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/pathways-settlement-mobile.webp)
+- Pathways exams: [desktop](https://shots.codotx.com/kotoba-language/pathways-exams-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/pathways-exams-mobile.webp)
+- Teachers: [desktop](https://shots.codotx.com/kotoba-language/teachers-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/teachers-mobile.webp)
+- Levels placement: [desktop](https://shots.codotx.com/kotoba-language/levels-placement-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/levels-placement-mobile.webp)
+- Fees intake: [desktop](https://shots.codotx.com/kotoba-language/fees-intake-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/fees-intake-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/kotoba-language/stories-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/stories-mobile.webp)
+- Enquiry: [desktop](https://shots.codotx.com/kotoba-language/enquiry-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/enquiry-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/kotoba-language/journal-desktop.webp) · [mobile](https://shots.codotx.com/kotoba-language/journal-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kotoba-language/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kotoba-language/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kotoba-language/fr/home-desktop.webp) · [de](https://shots.codotx.com/kotoba-language/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -12,19 +12,19 @@ Yukimi Kakigori — a kakigori shaved-ice parlour theme built on sticky media: o
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Yukimi Kakigori home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Yukimi Kakigori home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/yukimi-kakigori/home-desktop.webp" width="640" alt="Yukimi Kakigori home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/yukimi-kakigori/home-mobile.webp" width="200" alt="Yukimi Kakigori home page on mobile"></td>
 </tr>
 </table>
 
-- Projects: [desktop](screenshots/projects-desktop.webp) · [mobile](screenshots/projects-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Projects: [desktop](https://shots.codotx.com/yukimi-kakigori/projects-desktop.webp) · [mobile](https://shots.codotx.com/yukimi-kakigori/projects-mobile.webp)
+- About: [desktop](https://shots.codotx.com/yukimi-kakigori/about-desktop.webp) · [mobile](https://shots.codotx.com/yukimi-kakigori/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/yukimi-kakigori/news-desktop.webp) · [mobile](https://shots.codotx.com/yukimi-kakigori/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/yukimi-kakigori/article-desktop.webp) · [mobile](https://shots.codotx.com/yukimi-kakigori/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/yukimi-kakigori/category-desktop.webp) · [mobile](https://shots.codotx.com/yukimi-kakigori/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/yukimi-kakigori/tag-desktop.webp) · [mobile](https://shots.codotx.com/yukimi-kakigori/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/yukimi-kakigori/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/yukimi-kakigori/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/yukimi-kakigori/contact-desktop.webp) · [mobile](https://shots.codotx.com/yukimi-kakigori/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/yukimi-kakigori/search-desktop.webp) · [mobile](https://shots.codotx.com/yukimi-kakigori/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/yukimi-kakigori/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/yukimi-kakigori/ja/home-desktop.webp) · [fr](https://shots.codotx.com/yukimi-kakigori/fr/home-desktop.webp) · [de](https://shots.codotx.com/yukimi-kakigori/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -40,23 +40,23 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs generated wit
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hagane Machinery home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hagane Machinery home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hagane-machinery/home-desktop.webp" width="640" alt="Hagane Machinery home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hagane-machinery/home-mobile.webp" width="200" alt="Hagane Machinery home page on mobile"></td>
 </tr>
 </table>
 
-- Machines: [desktop](screenshots/machines-desktop.webp) · [mobile](screenshots/machines-mobile.webp)
-- How we build: [desktop](screenshots/how-we-build-desktop.webp) · [mobile](screenshots/how-we-build-mobile.webp)
-- Engineers: [desktop](screenshots/engineers-desktop.webp) · [mobile](screenshots/engineers-mobile.webp)
-- Industries: [desktop](screenshots/industries-desktop.webp) · [mobile](screenshots/industries-mobile.webp)
-- Service: [desktop](screenshots/service-desktop.webp) · [mobile](screenshots/service-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Machines: [desktop](https://shots.codotx.com/hagane-machinery/machines-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/machines-mobile.webp)
+- How we build: [desktop](https://shots.codotx.com/hagane-machinery/how-we-build-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/how-we-build-mobile.webp)
+- Industries: [desktop](https://shots.codotx.com/hagane-machinery/industries-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/industries-mobile.webp)
+- Service: [desktop](https://shots.codotx.com/hagane-machinery/service-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/service-mobile.webp)
+- Engineers: [desktop](https://shots.codotx.com/hagane-machinery/engineers-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/engineers-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hagane-machinery/about-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hagane-machinery/news-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hagane-machinery/article-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hagane-machinery/category-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hagane-machinery/tag-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hagane-machinery/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hagane-machinery/contact-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hagane-machinery/search-desktop.webp) · [mobile](https://shots.codotx.com/hagane-machinery/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hagane-machinery/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hagane-machinery/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hagane-machinery/fr/home-desktop.webp) · [de](https://shots.codotx.com/hagane-machinery/de/home-desktop.webp)
 <!-- screenshots:end -->

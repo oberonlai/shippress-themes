@@ -14,24 +14,24 @@ Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`. License:
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kura Wine home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kura Wine home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kura-wine/home-desktop.webp" width="640" alt="Kura Wine home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kura-wine/home-mobile.webp" width="200" alt="Kura Wine home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Shipments: [desktop](screenshots/shipments-desktop.webp) · [mobile](screenshots/shipments-mobile.webp)
-- The case: [desktop](screenshots/the-case-desktop.webp) · [mobile](screenshots/the-case-mobile.webp)
-- Tastings: [desktop](screenshots/tastings-desktop.webp) · [mobile](screenshots/tastings-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Delivery: [desktop](screenshots/delivery-desktop.webp) · [mobile](screenshots/delivery-mobile.webp)
-- Club: [desktop](screenshots/club-desktop.webp) · [mobile](screenshots/club-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/kura-wine/about-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kura-wine/news-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kura-wine/article-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kura-wine/category-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kura-wine/tag-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kura-wine/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kura-wine/contact-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/contact-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/kura-wine/shop-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/shop-mobile.webp)
+- Shipments: [desktop](https://shots.codotx.com/kura-wine/shipments-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/shipments-mobile.webp)
+- The case: [desktop](https://shots.codotx.com/kura-wine/the-case-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/the-case-mobile.webp)
+- Tastings: [desktop](https://shots.codotx.com/kura-wine/tastings-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/tastings-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/kura-wine/visit-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/visit-mobile.webp)
+- Delivery: [desktop](https://shots.codotx.com/kura-wine/delivery-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/delivery-mobile.webp)
+- Club: [desktop](https://shots.codotx.com/kura-wine/club-desktop.webp) · [mobile](https://shots.codotx.com/kura-wine/club-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kura-wine/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kura-wine/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kura-wine/fr/home-desktop.webp) · [de](https://shots.codotx.com/kura-wine/de/home-desktop.webp)
 <!-- screenshots:end -->

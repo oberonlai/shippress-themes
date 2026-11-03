@@ -23,27 +23,27 @@ Instrument Serif (display) and Source Sans 3 (text), bundled under `assets/fonts
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shirabe Research home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shirabe Research home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shirabe-research/home-desktop.webp" width="640" alt="Shirabe Research home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shirabe-research/home-mobile.webp" width="200" alt="Shirabe Research home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Method: [desktop](screenshots/method-desktop.webp) · [mobile](screenshots/method-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Studies: [desktop](screenshots/studies-desktop.webp) · [mobile](screenshots/studies-mobile.webp)
-- Study grocery co op: [desktop](screenshots/study-grocery-co-op-desktop.webp) · [mobile](screenshots/study-grocery-co-op-mobile.webp)
-- Study bicycle maker: [desktop](screenshots/study-bicycle-maker-desktop.webp) · [mobile](screenshots/study-bicycle-maker-mobile.webp)
-- Study library network: [desktop](screenshots/study-library-network-desktop.webp) · [mobile](screenshots/study-library-network-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Research ethics privacy: [desktop](screenshots/research-ethics-privacy-desktop.webp) · [mobile](screenshots/research-ethics-privacy-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/shirabe-research/about-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shirabe-research/news-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shirabe-research/article-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shirabe-research/category-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shirabe-research/tag-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shirabe-research/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shirabe-research/contact-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/contact-mobile.webp)
+- Method: [desktop](https://shots.codotx.com/shirabe-research/method-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/method-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/shirabe-research/services-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/services-mobile.webp)
+- Studies: [desktop](https://shots.codotx.com/shirabe-research/studies-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/studies-mobile.webp)
+- Study grocery co op: [desktop](https://shots.codotx.com/shirabe-research/study-grocery-co-op-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/study-grocery-co-op-mobile.webp)
+- Study bicycle maker: [desktop](https://shots.codotx.com/shirabe-research/study-bicycle-maker-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/study-bicycle-maker-mobile.webp)
+- Study library network: [desktop](https://shots.codotx.com/shirabe-research/study-library-network-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/study-library-network-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/shirabe-research/fees-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/fees-mobile.webp)
+- People: [desktop](https://shots.codotx.com/shirabe-research/people-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/people-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/shirabe-research/journal-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/journal-mobile.webp)
+- Research ethics privacy: [desktop](https://shots.codotx.com/shirabe-research/research-ethics-privacy-desktop.webp) · [mobile](https://shots.codotx.com/shirabe-research/research-ethics-privacy-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/shirabe-research/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/shirabe-research/ja/home-desktop.webp) · [fr](https://shots.codotx.com/shirabe-research/fr/home-desktop.webp) · [de](https://shots.codotx.com/shirabe-research/de/home-desktop.webp)
 <!-- screenshots:end -->

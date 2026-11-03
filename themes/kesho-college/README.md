@@ -14,28 +14,28 @@ A hairdressing and beauty college theme (ShipPress, `kesho-college` 1.0.0). Engl
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kesho College home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kesho College home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kesho-college/home-desktop.webp" width="640" alt="Kesho College home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kesho-college/home-mobile.webp" width="200" alt="Kesho College home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Courses: [desktop](screenshots/courses-desktop.webp) · [mobile](screenshots/courses-mobile.webp)
-- Hairdressing diploma: [desktop](screenshots/hairdressing-diploma-desktop.webp) · [mobile](screenshots/hairdressing-diploma-mobile.webp)
-- A training day: [desktop](screenshots/a-training-day-desktop.webp) · [mobile](screenshots/a-training-day-mobile.webp)
-- Tuition and intakes: [desktop](screenshots/tuition-and-intakes-desktop.webp) · [mobile](screenshots/tuition-and-intakes-mobile.webp)
-- Instructors: [desktop](screenshots/instructors-desktop.webp) · [mobile](screenshots/instructors-mobile.webp)
-- Student salon: [desktop](screenshots/student-salon-desktop.webp) · [mobile](screenshots/student-salon-mobile.webp)
-- Graduate stories: [desktop](screenshots/graduate-stories-desktop.webp) · [mobile](screenshots/graduate-stories-mobile.webp)
-- Admissions: [desktop](screenshots/admissions-desktop.webp) · [mobile](screenshots/admissions-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/kesho-college/about-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/about-mobile.webp)
+- Courses: [desktop](https://shots.codotx.com/kesho-college/courses-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/courses-mobile.webp)
+- Hairdressing diploma: [desktop](https://shots.codotx.com/kesho-college/hairdressing-diploma-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/hairdressing-diploma-mobile.webp)
+- A training day: [desktop](https://shots.codotx.com/kesho-college/a-training-day-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/a-training-day-mobile.webp)
+- Tuition and intakes: [desktop](https://shots.codotx.com/kesho-college/tuition-and-intakes-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/tuition-and-intakes-mobile.webp)
+- Instructors: [desktop](https://shots.codotx.com/kesho-college/instructors-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/instructors-mobile.webp)
+- Student salon: [desktop](https://shots.codotx.com/kesho-college/student-salon-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/student-salon-mobile.webp)
+- Graduate stories: [desktop](https://shots.codotx.com/kesho-college/graduate-stories-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/graduate-stories-mobile.webp)
+- Admissions: [desktop](https://shots.codotx.com/kesho-college/admissions-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/admissions-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/kesho-college/faq-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/faq-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/kesho-college/visit-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/visit-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/kesho-college/journal-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/journal-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kesho-college/news-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kesho-college/article-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kesho-college/category-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kesho-college/tag-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kesho-college/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kesho-college/contact-desktop.webp) · [mobile](https://shots.codotx.com/kesho-college/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kesho-college/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kesho-college/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kesho-college/fr/home-desktop.webp) · [de](https://shots.codotx.com/kesho-college/de/home-desktop.webp)
 <!-- screenshots:end -->

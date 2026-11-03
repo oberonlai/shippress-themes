@@ -44,20 +44,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`): Cardo subset to Latin (no
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mizuha Glass home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mizuha Glass home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/mizuha-glass/home-desktop.webp" width="640" alt="Mizuha Glass home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/mizuha-glass/home-mobile.webp" width="200" alt="Mizuha Glass home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Shipping and care: [desktop](screenshots/shipping-and-care-desktop.webp) · [mobile](screenshots/shipping-and-care-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/mizuha-glass/shop-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/mizuha-glass/product-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/mizuha-glass/about-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/about-mobile.webp)
+- Shipping and care: [desktop](https://shots.codotx.com/mizuha-glass/shipping-and-care-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/shipping-and-care-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/mizuha-glass/contact-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/mizuha-glass/news-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/mizuha-glass/article-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/mizuha-glass/category-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/mizuha-glass/tag-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/mizuha-glass/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/mizuha-glass/search-desktop.webp) · [mobile](https://shots.codotx.com/mizuha-glass/search-mobile.webp)
 <!-- screenshots:end -->

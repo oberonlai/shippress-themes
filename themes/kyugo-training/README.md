@@ -22,25 +22,25 @@ p01–p18 (.webp), notes use assets/images/demo/.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kyugo Training home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kyugo Training home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kyugo-training/home-desktop.webp" width="640" alt="Kyugo Training home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kyugo-training/home-mobile.webp" width="200" alt="Kyugo Training home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Courses: [desktop](screenshots/courses-desktop.webp) · [mobile](screenshots/courses-mobile.webp)
-- Training day: [desktop](screenshots/training-day-desktop.webp) · [mobile](screenshots/training-day-mobile.webp)
-- Certificate: [desktop](screenshots/certificate-desktop.webp) · [mobile](screenshots/certificate-mobile.webp)
-- Instructors: [desktop](screenshots/instructors-desktop.webp) · [mobile](screenshots/instructors-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Book a group: [desktop](screenshots/book-a-group-desktop.webp) · [mobile](screenshots/book-a-group-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/kyugo-training/about-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/about-mobile.webp)
+- Courses: [desktop](https://shots.codotx.com/kyugo-training/courses-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/courses-mobile.webp)
+- Training day: [desktop](https://shots.codotx.com/kyugo-training/training-day-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/training-day-mobile.webp)
+- Certificate: [desktop](https://shots.codotx.com/kyugo-training/certificate-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/certificate-mobile.webp)
+- Instructors: [desktop](https://shots.codotx.com/kyugo-training/instructors-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/instructors-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/kyugo-training/stories-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/stories-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/kyugo-training/faq-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/faq-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kyugo-training/contact-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/contact-mobile.webp)
+- Book a group: [desktop](https://shots.codotx.com/kyugo-training/book-a-group-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/book-a-group-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/kyugo-training/notes-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/notes-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kyugo-training/news-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kyugo-training/article-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kyugo-training/category-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kyugo-training/tag-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kyugo-training/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kyugo-training/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kyugo-training/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kyugo-training/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kyugo-training/fr/home-desktop.webp) · [de](https://shots.codotx.com/kyugo-training/de/home-desktop.webp)
 <!-- screenshots:end -->

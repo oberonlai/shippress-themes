@@ -78,18 +78,18 @@ Code: GPL-2.0-or-later. Fonts: SIL Open Font License 1.1, bundled in `assets/fon
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shashin Folio home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shashin Folio home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shashin-folio/home-desktop.webp" width="640" alt="Shashin Folio home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shashin-folio/home-mobile.webp" width="200" alt="Shashin Folio home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Work: [desktop](screenshots/work-desktop.webp) · [mobile](screenshots/work-mobile.webp)
-- Series: [desktop](screenshots/series-desktop.webp) · [mobile](screenshots/series-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shashin-folio/about-desktop.webp) · [mobile](https://shots.codotx.com/shashin-folio/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shashin-folio/news-desktop.webp) · [mobile](https://shots.codotx.com/shashin-folio/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shashin-folio/article-desktop.webp) · [mobile](https://shots.codotx.com/shashin-folio/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shashin-folio/category-desktop.webp) · [mobile](https://shots.codotx.com/shashin-folio/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shashin-folio/tag-desktop.webp) · [mobile](https://shots.codotx.com/shashin-folio/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shashin-folio/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shashin-folio/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shashin-folio/contact-desktop.webp) · [mobile](https://shots.codotx.com/shashin-folio/contact-mobile.webp)
+- Work: [desktop](https://shots.codotx.com/shashin-folio/work-desktop.webp) · [mobile](https://shots.codotx.com/shashin-folio/work-mobile.webp)
+- Series: [desktop](https://shots.codotx.com/shashin-folio/series-desktop.webp) · [mobile](https://shots.codotx.com/shashin-folio/series-mobile.webp)
 <!-- screenshots:end -->

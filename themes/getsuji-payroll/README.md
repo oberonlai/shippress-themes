@@ -16,26 +16,26 @@ Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`. License:
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Getsuji Payroll home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Getsuji Payroll home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/getsuji-payroll/home-desktop.webp" width="640" alt="Getsuji Payroll home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/getsuji-payroll/home-mobile.webp" width="200" alt="Getsuji Payroll home page on mobile"></td>
 </tr>
 </table>
 
-- The month: [desktop](screenshots/the-month-desktop.webp) · [mobile](screenshots/the-month-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Accounts: [desktop](screenshots/accounts-desktop.webp) · [mobile](screenshots/accounts-mobile.webp)
-- The bureau: [desktop](screenshots/the-bureau-desktop.webp) · [mobile](screenshots/the-bureau-mobile.webp)
-- Request: [desktop](screenshots/request-desktop.webp) · [mobile](screenshots/request-mobile.webp)
-- Letter: [desktop](screenshots/letter-desktop.webp) · [mobile](screenshots/letter-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- The month: [desktop](https://shots.codotx.com/getsuji-payroll/the-month-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/the-month-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/getsuji-payroll/fees-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/fees-mobile.webp)
+- Accounts: [desktop](https://shots.codotx.com/getsuji-payroll/accounts-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/accounts-mobile.webp)
+- The bureau: [desktop](https://shots.codotx.com/getsuji-payroll/the-bureau-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/the-bureau-mobile.webp)
+- Request: [desktop](https://shots.codotx.com/getsuji-payroll/request-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/request-mobile.webp)
+- Letter: [desktop](https://shots.codotx.com/getsuji-payroll/letter-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/letter-mobile.webp)
+- News: [desktop](https://shots.codotx.com/getsuji-payroll/news-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/getsuji-payroll/article-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/getsuji-payroll/category-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/category-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/getsuji-payroll/search-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/search-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/getsuji-payroll/privacy-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/getsuji-payroll/terms-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/terms-mobile.webp)
+- About: [desktop](https://shots.codotx.com/getsuji-payroll/about-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/about-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/getsuji-payroll/tag-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/getsuji-payroll/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/getsuji-payroll/contact-desktop.webp) · [mobile](https://shots.codotx.com/getsuji-payroll/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/getsuji-payroll/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/getsuji-payroll/ja/home-desktop.webp) · [fr](https://shots.codotx.com/getsuji-payroll/fr/home-desktop.webp) · [de](https://shots.codotx.com/getsuji-payroll/de/home-desktop.webp)
 <!-- screenshots:end -->

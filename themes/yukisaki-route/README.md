@@ -20,24 +20,24 @@ Thirteen low-key, neutral-grey documentary photographs on the home page, none re
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Yukisaki Route home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Yukisaki Route home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/yukisaki-route/home-desktop.webp" width="640" alt="Yukisaki Route home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/yukisaki-route/home-mobile.webp" width="200" alt="Yukisaki Route home page on mobile"></td>
 </tr>
 </table>
 
-- How it works: [desktop](screenshots/how-it-works-desktop.webp) · [mobile](screenshots/how-it-works-mobile.webp)
-- Round sheet: [desktop](screenshots/round-sheet-desktop.webp) · [mobile](screenshots/round-sheet-mobile.webp)
-- Trial: [desktop](screenshots/trial-desktop.webp) · [mobile](screenshots/trial-mobile.webp)
-- Pricing: [desktop](screenshots/pricing-desktop.webp) · [mobile](screenshots/pricing-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Field notes: [desktop](screenshots/field-notes-desktop.webp) · [mobile](screenshots/field-notes-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- How it works: [desktop](https://shots.codotx.com/yukisaki-route/how-it-works-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/how-it-works-mobile.webp)
+- Round sheet: [desktop](https://shots.codotx.com/yukisaki-route/round-sheet-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/round-sheet-mobile.webp)
+- Trial: [desktop](https://shots.codotx.com/yukisaki-route/trial-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/trial-mobile.webp)
+- Pricing: [desktop](https://shots.codotx.com/yukisaki-route/pricing-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/pricing-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/yukisaki-route/stories-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/stories-mobile.webp)
+- About: [desktop](https://shots.codotx.com/yukisaki-route/about-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/about-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/yukisaki-route/faq-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/faq-mobile.webp)
+- News: [desktop](https://shots.codotx.com/yukisaki-route/news-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/news-mobile.webp)
+- Field notes: [desktop](https://shots.codotx.com/yukisaki-route/field-notes-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/field-notes-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/yukisaki-route/article-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/yukisaki-route/category-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/yukisaki-route/tag-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/yukisaki-route/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/yukisaki-route/contact-desktop.webp) · [mobile](https://shots.codotx.com/yukisaki-route/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/yukisaki-route/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/yukisaki-route/ja/home-desktop.webp) · [fr](https://shots.codotx.com/yukisaki-route/fr/home-desktop.webp) · [de](https://shots.codotx.com/yukisaki-route/de/home-desktop.webp)
 <!-- screenshots:end -->

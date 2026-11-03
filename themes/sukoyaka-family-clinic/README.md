@@ -40,23 +40,23 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs generated wit
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Sukoyaka Family Clinic home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Sukoyaka Family Clinic home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/sukoyaka-family-clinic/home-desktop.webp" width="640" alt="Sukoyaka Family Clinic home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/sukoyaka-family-clinic/home-mobile.webp" width="200" alt="Sukoyaka Family Clinic home page on mobile"></td>
 </tr>
 </table>
 
-- Care: [desktop](screenshots/care-desktop.webp) · [mobile](screenshots/care-mobile.webp)
-- Your visit: [desktop](screenshots/your-visit-desktop.webp) · [mobile](screenshots/your-visit-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- Families: [desktop](screenshots/families-desktop.webp) · [mobile](screenshots/families-mobile.webp)
-- Vaccinations and checks: [desktop](screenshots/vaccinations-and-checks-desktop.webp) · [mobile](screenshots/vaccinations-and-checks-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Care: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/care-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/care-mobile.webp)
+- Your visit: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/your-visit-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/your-visit-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/team-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/team-mobile.webp)
+- Families: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/families-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/families-mobile.webp)
+- Vaccinations and checks: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/vaccinations-and-checks-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/vaccinations-and-checks-mobile.webp)
+- About: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/about-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/news-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/article-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/category-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/tag-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/contact-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/sukoyaka-family-clinic/search-desktop.webp) · [mobile](https://shots.codotx.com/sukoyaka-family-clinic/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/sukoyaka-family-clinic/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/sukoyaka-family-clinic/ja/home-desktop.webp) · [fr](https://shots.codotx.com/sukoyaka-family-clinic/fr/home-desktop.webp) · [de](https://shots.codotx.com/sukoyaka-family-clinic/de/home-desktop.webp)
 <!-- screenshots:end -->

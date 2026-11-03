@@ -23,18 +23,18 @@ home-hero, home-mosaic, home-journal, menu-head, menu-main, about-head, about-ma
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Akachōchin home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Akachōchin home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/akachochin-izakaya/home-desktop.webp" width="640" alt="Akachōchin home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/akachochin-izakaya/home-mobile.webp" width="200" alt="Akachōchin home page on mobile"></td>
 </tr>
 </table>
 
-- Menu: [desktop](screenshots/menu-desktop.webp) · [mobile](screenshots/menu-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Menu: [desktop](https://shots.codotx.com/akachochin-izakaya/menu-desktop.webp) · [mobile](https://shots.codotx.com/akachochin-izakaya/menu-mobile.webp)
+- About: [desktop](https://shots.codotx.com/akachochin-izakaya/about-desktop.webp) · [mobile](https://shots.codotx.com/akachochin-izakaya/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/akachochin-izakaya/news-desktop.webp) · [mobile](https://shots.codotx.com/akachochin-izakaya/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/akachochin-izakaya/article-desktop.webp) · [mobile](https://shots.codotx.com/akachochin-izakaya/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/akachochin-izakaya/category-desktop.webp) · [mobile](https://shots.codotx.com/akachochin-izakaya/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/akachochin-izakaya/tag-desktop.webp) · [mobile](https://shots.codotx.com/akachochin-izakaya/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/akachochin-izakaya/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/akachochin-izakaya/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/akachochin-izakaya/contact-desktop.webp) · [mobile](https://shots.codotx.com/akachochin-izakaya/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/akachochin-izakaya/search-desktop.webp) · [mobile](https://shots.codotx.com/akachochin-izakaya/search-mobile.webp)
 <!-- screenshots:end -->

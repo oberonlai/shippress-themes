@@ -22,18 +22,18 @@ home-hero, home-strip, home-process, home-journal, printing-head, printing-main,
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Katsuji Press home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Katsuji Press home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/katsuji-press/home-desktop.webp" width="640" alt="Katsuji Press home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/katsuji-press/home-mobile.webp" width="200" alt="Katsuji Press home page on mobile"></td>
 </tr>
 </table>
 
-- Printing: [desktop](screenshots/printing-desktop.webp) · [mobile](screenshots/printing-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Printing: [desktop](https://shots.codotx.com/katsuji-press/printing-desktop.webp) · [mobile](https://shots.codotx.com/katsuji-press/printing-mobile.webp)
+- About: [desktop](https://shots.codotx.com/katsuji-press/about-desktop.webp) · [mobile](https://shots.codotx.com/katsuji-press/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/katsuji-press/news-desktop.webp) · [mobile](https://shots.codotx.com/katsuji-press/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/katsuji-press/article-desktop.webp) · [mobile](https://shots.codotx.com/katsuji-press/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/katsuji-press/category-desktop.webp) · [mobile](https://shots.codotx.com/katsuji-press/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/katsuji-press/tag-desktop.webp) · [mobile](https://shots.codotx.com/katsuji-press/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/katsuji-press/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/katsuji-press/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/katsuji-press/contact-desktop.webp) · [mobile](https://shots.codotx.com/katsuji-press/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/katsuji-press/search-desktop.webp) · [mobile](https://shots.codotx.com/katsuji-press/search-mobile.webp)
 <!-- screenshots:end -->

@@ -36,19 +36,19 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kasumi Bar home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kasumi Bar home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kasumi-bar/home-desktop.webp" width="640" alt="Kasumi Bar home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kasumi-bar/home-mobile.webp" width="200" alt="Kasumi Bar home page on mobile"></td>
 </tr>
 </table>
 
-- Menu: [desktop](screenshots/menu-desktop.webp) · [mobile](screenshots/menu-mobile.webp)
-- Reservations: [desktop](screenshots/reservations-desktop.webp) · [mobile](screenshots/reservations-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Menu: [desktop](https://shots.codotx.com/kasumi-bar/menu-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-bar/menu-mobile.webp)
+- Reservations: [desktop](https://shots.codotx.com/kasumi-bar/reservations-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-bar/reservations-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kasumi-bar/about-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-bar/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kasumi-bar/news-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-bar/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kasumi-bar/article-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-bar/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kasumi-bar/category-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-bar/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kasumi-bar/tag-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-bar/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kasumi-bar/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-bar/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kasumi-bar/contact-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-bar/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kasumi-bar/search-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-bar/search-mobile.webp)
 <!-- screenshots:end -->

@@ -43,23 +43,23 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs generated wit
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Aozora Primary School home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Aozora Primary School home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/aozora-primary-school/home-desktop.webp" width="640" alt="Aozora Primary School home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/aozora-primary-school/home-mobile.webp" width="200" alt="Aozora Primary School home page on mobile"></td>
 </tr>
 </table>
 
-- School day: [desktop](screenshots/school-day-desktop.webp) · [mobile](screenshots/school-day-mobile.webp)
-- Curriculum: [desktop](screenshots/curriculum-desktop.webp) · [mobile](screenshots/curriculum-mobile.webp)
-- Teachers: [desktop](screenshots/teachers-desktop.webp) · [mobile](screenshots/teachers-mobile.webp)
-- Admissions: [desktop](screenshots/admissions-desktop.webp) · [mobile](screenshots/admissions-mobile.webp)
-- Fees and open days: [desktop](screenshots/fees-and-open-days-desktop.webp) · [mobile](screenshots/fees-and-open-days-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- School day: [desktop](https://shots.codotx.com/aozora-primary-school/school-day-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/school-day-mobile.webp)
+- Curriculum: [desktop](https://shots.codotx.com/aozora-primary-school/curriculum-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/curriculum-mobile.webp)
+- Teachers: [desktop](https://shots.codotx.com/aozora-primary-school/teachers-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/teachers-mobile.webp)
+- Admissions: [desktop](https://shots.codotx.com/aozora-primary-school/admissions-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/admissions-mobile.webp)
+- Fees and open days: [desktop](https://shots.codotx.com/aozora-primary-school/fees-and-open-days-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/fees-and-open-days-mobile.webp)
+- About: [desktop](https://shots.codotx.com/aozora-primary-school/about-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/aozora-primary-school/news-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/aozora-primary-school/article-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/aozora-primary-school/category-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/aozora-primary-school/tag-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/aozora-primary-school/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/aozora-primary-school/contact-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/aozora-primary-school/search-desktop.webp) · [mobile](https://shots.codotx.com/aozora-primary-school/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/aozora-primary-school/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/aozora-primary-school/ja/home-desktop.webp) · [fr](https://shots.codotx.com/aozora-primary-school/fr/home-desktop.webp) · [de](https://shots.codotx.com/aozora-primary-school/de/home-desktop.webp)
 <!-- screenshots:end -->

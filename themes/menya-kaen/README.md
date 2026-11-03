@@ -98,20 +98,20 @@ GPL-2.0-or-later. Fonts: SIL OFL 1.1. Photographs: AI-generated for this theme, 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Menya Kaen home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Menya Kaen home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/menya-kaen/home-desktop.webp" width="640" alt="Menya Kaen home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/menya-kaen/home-mobile.webp" width="200" alt="Menya Kaen home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Menu: [desktop](screenshots/menu-desktop.webp) · [mobile](screenshots/menu-mobile.webp)
-- Toppings: [desktop](screenshots/toppings-desktop.webp) · [mobile](screenshots/toppings-mobile.webp)
-- Access: [desktop](screenshots/access-desktop.webp) · [mobile](screenshots/access-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/menya-kaen/about-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/about-mobile.webp)
+- Menu: [desktop](https://shots.codotx.com/menya-kaen/menu-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/menu-mobile.webp)
+- Toppings: [desktop](https://shots.codotx.com/menya-kaen/toppings-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/toppings-mobile.webp)
+- Access: [desktop](https://shots.codotx.com/menya-kaen/access-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/access-mobile.webp)
+- News: [desktop](https://shots.codotx.com/menya-kaen/news-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/menya-kaen/article-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/menya-kaen/category-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/menya-kaen/tag-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/menya-kaen/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/menya-kaen/contact-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/menya-kaen/search-desktop.webp) · [mobile](https://shots.codotx.com/menya-kaen/search-mobile.webp)
 <!-- screenshots:end -->

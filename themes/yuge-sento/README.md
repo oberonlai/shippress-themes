@@ -35,19 +35,19 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Yuge Sento home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Yuge Sento home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/yuge-sento/home-desktop.webp" width="640" alt="Yuge Sento home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/yuge-sento/home-mobile.webp" width="200" alt="Yuge Sento home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Bath guide: [desktop](screenshots/bath-guide-desktop.webp) · [mobile](screenshots/bath-guide-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/yuge-sento/about-desktop.webp) · [mobile](https://shots.codotx.com/yuge-sento/about-mobile.webp)
+- Bath guide: [desktop](https://shots.codotx.com/yuge-sento/bath-guide-desktop.webp) · [mobile](https://shots.codotx.com/yuge-sento/bath-guide-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/yuge-sento/fees-desktop.webp) · [mobile](https://shots.codotx.com/yuge-sento/fees-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/yuge-sento/contact-desktop.webp) · [mobile](https://shots.codotx.com/yuge-sento/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/yuge-sento/news-desktop.webp) · [mobile](https://shots.codotx.com/yuge-sento/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/yuge-sento/article-desktop.webp) · [mobile](https://shots.codotx.com/yuge-sento/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/yuge-sento/category-desktop.webp) · [mobile](https://shots.codotx.com/yuge-sento/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/yuge-sento/tag-desktop.webp) · [mobile](https://shots.codotx.com/yuge-sento/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/yuge-sento/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/yuge-sento/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/yuge-sento/search-desktop.webp) · [mobile](https://shots.codotx.com/yuge-sento/search-mobile.webp)
 <!-- screenshots:end -->

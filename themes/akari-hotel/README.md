@@ -44,29 +44,29 @@ Until the inner pages ship, every header and footer link points to a section of 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Akari Hotel home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Akari Hotel home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/akari-hotel/home-desktop.webp" width="640" alt="Akari Hotel home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/akari-hotel/home-mobile.webp" width="200" alt="Akari Hotel home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Stay: [desktop](screenshots/stay-desktop.webp) · [mobile](screenshots/stay-mobile.webp)
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- Rates: [desktop](screenshots/rates-desktop.webp) · [mobile](screenshots/rates-mobile.webp)
-- Breakfast bar: [desktop](screenshots/breakfast-bar-desktop.webp) · [mobile](screenshots/breakfast-bar-mobile.webp)
-- Work stays: [desktop](screenshots/work-stays-desktop.webp) · [mobile](screenshots/work-stays-mobile.webp)
-- Neighbourhood: [desktop](screenshots/neighbourhood-desktop.webp) · [mobile](screenshots/neighbourhood-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Enquire: [desktop](screenshots/enquire-desktop.webp) · [mobile](screenshots/enquire-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/akari-hotel/about-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/about-mobile.webp)
+- Stay: [desktop](https://shots.codotx.com/akari-hotel/stay-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/stay-mobile.webp)
+- Rooms: [desktop](https://shots.codotx.com/akari-hotel/rooms-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/rooms-mobile.webp)
+- Rates: [desktop](https://shots.codotx.com/akari-hotel/rates-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/rates-mobile.webp)
+- Breakfast bar: [desktop](https://shots.codotx.com/akari-hotel/breakfast-bar-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/breakfast-bar-mobile.webp)
+- Work stays: [desktop](https://shots.codotx.com/akari-hotel/work-stays-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/work-stays-mobile.webp)
+- Neighbourhood: [desktop](https://shots.codotx.com/akari-hotel/neighbourhood-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/neighbourhood-mobile.webp)
+- People: [desktop](https://shots.codotx.com/akari-hotel/people-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/people-mobile.webp)
+- News: [desktop](https://shots.codotx.com/akari-hotel/news-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/news-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/akari-hotel/journal-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/journal-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/akari-hotel/article-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/akari-hotel/category-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/akari-hotel/tag-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/akari-hotel/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/newsletter-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/akari-hotel/faq-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/faq-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/akari-hotel/contact-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/contact-mobile.webp)
+- Enquire: [desktop](https://shots.codotx.com/akari-hotel/enquire-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/enquire-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/akari-hotel/privacy-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/privacy-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/akari-hotel/search-desktop.webp) · [mobile](https://shots.codotx.com/akari-hotel/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/akari-hotel/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/akari-hotel/ja/home-desktop.webp) · [fr](https://shots.codotx.com/akari-hotel/fr/home-desktop.webp) · [de](https://shots.codotx.com/akari-hotel/de/home-desktop.webp)
 <!-- screenshots:end -->

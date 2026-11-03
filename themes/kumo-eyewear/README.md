@@ -45,21 +45,21 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kumo Eyewear home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kumo Eyewear home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kumo-eyewear/home-desktop.webp" width="640" alt="Kumo Eyewear home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kumo-eyewear/home-mobile.webp" width="200" alt="Kumo Eyewear home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Fitting guide: [desktop](screenshots/fitting-guide-desktop.webp) · [mobile](screenshots/fitting-guide-mobile.webp)
-- Lens options: [desktop](screenshots/lens-options-desktop.webp) · [mobile](screenshots/lens-options-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/kumo-eyewear/shop-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/kumo-eyewear/product-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/product-mobile.webp)
+- Fitting guide: [desktop](https://shots.codotx.com/kumo-eyewear/fitting-guide-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/fitting-guide-mobile.webp)
+- Lens options: [desktop](https://shots.codotx.com/kumo-eyewear/lens-options-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/lens-options-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kumo-eyewear/about-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kumo-eyewear/contact-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kumo-eyewear/news-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kumo-eyewear/article-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kumo-eyewear/category-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kumo-eyewear/tag-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kumo-eyewear/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kumo-eyewear/search-desktop.webp) · [mobile](https://shots.codotx.com/kumo-eyewear/search-mobile.webp)
 <!-- screenshots:end -->

@@ -16,19 +16,19 @@ Every template is the top header (with the side-rail menu on wide screens), the 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kanna Komuten home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kanna Komuten home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kanna-komuten/home-desktop.webp" width="640" alt="Kanna Komuten home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kanna-komuten/home-mobile.webp" width="200" alt="Kanna Komuten home page on mobile"></td>
 </tr>
 </table>
 
-- Projects: [desktop](screenshots/projects-desktop.webp) · [mobile](screenshots/projects-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Projects: [desktop](https://shots.codotx.com/kanna-komuten/projects-desktop.webp) · [mobile](https://shots.codotx.com/kanna-komuten/projects-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kanna-komuten/about-desktop.webp) · [mobile](https://shots.codotx.com/kanna-komuten/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kanna-komuten/news-desktop.webp) · [mobile](https://shots.codotx.com/kanna-komuten/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kanna-komuten/article-desktop.webp) · [mobile](https://shots.codotx.com/kanna-komuten/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kanna-komuten/category-desktop.webp) · [mobile](https://shots.codotx.com/kanna-komuten/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kanna-komuten/tag-desktop.webp) · [mobile](https://shots.codotx.com/kanna-komuten/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kanna-komuten/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kanna-komuten/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kanna-komuten/contact-desktop.webp) · [mobile](https://shots.codotx.com/kanna-komuten/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kanna-komuten/search-desktop.webp) · [mobile](https://shots.codotx.com/kanna-komuten/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kanna-komuten/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kanna-komuten/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kanna-komuten/fr/home-desktop.webp) · [de](https://shots.codotx.com/kanna-komuten/de/home-desktop.webp)
 <!-- screenshots:end -->

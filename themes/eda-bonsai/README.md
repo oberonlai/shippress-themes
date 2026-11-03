@@ -44,21 +44,21 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`): Rosarivo shipped unmodifi
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Eda Bonsai home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Eda Bonsai home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/eda-bonsai/home-desktop.webp" width="640" alt="Eda Bonsai home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/eda-bonsai/home-mobile.webp" width="200" alt="Eda Bonsai home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Care calendar: [desktop](screenshots/care-calendar-desktop.webp) · [mobile](screenshots/care-calendar-mobile.webp)
-- Workshops: [desktop](screenshots/workshops-desktop.webp) · [mobile](screenshots/workshops-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/eda-bonsai/shop-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/eda-bonsai/product-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/eda-bonsai/about-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/about-mobile.webp)
+- Care calendar: [desktop](https://shots.codotx.com/eda-bonsai/care-calendar-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/care-calendar-mobile.webp)
+- Workshops: [desktop](https://shots.codotx.com/eda-bonsai/workshops-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/workshops-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/eda-bonsai/contact-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/eda-bonsai/news-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/eda-bonsai/article-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/eda-bonsai/category-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/eda-bonsai/tag-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/eda-bonsai/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/eda-bonsai/search-desktop.webp) · [mobile](https://shots.codotx.com/eda-bonsai/search-mobile.webp)
 <!-- screenshots:end -->

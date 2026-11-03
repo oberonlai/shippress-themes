@@ -16,28 +16,28 @@ WordPress block theme for an online certification academy (project management an
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shikaku Academy home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shikaku Academy home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shikaku-academy/home-desktop.webp" width="640" alt="Shikaku Academy home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shikaku-academy/home-mobile.webp" width="200" alt="Shikaku Academy home page on mobile"></td>
 </tr>
 </table>
 
-- Courses: [desktop](screenshots/courses-desktop.webp) · [mobile](screenshots/courses-mobile.webp)
-- Project delivery foundations: [desktop](screenshots/project-delivery-foundations-desktop.webp) · [mobile](screenshots/project-delivery-foundations-mobile.webp)
-- Lesson player: [desktop](screenshots/lesson-player-desktop.webp) · [mobile](screenshots/lesson-player-mobile.webp)
-- Plans: [desktop](screenshots/plans-desktop.webp) · [mobile](screenshots/plans-mobile.webp)
-- How it works: [desktop](screenshots/how-it-works-desktop.webp) · [mobile](screenshots/how-it-works-mobile.webp)
-- Instructors: [desktop](screenshots/instructors-desktop.webp) · [mobile](screenshots/instructors-mobile.webp)
-- Student stories: [desktop](screenshots/student-stories-desktop.webp) · [mobile](screenshots/student-stories-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Support: [desktop](screenshots/support-desktop.webp) · [mobile](screenshots/support-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- My courses: [desktop](screenshots/my-courses-desktop.webp) · [mobile](screenshots/my-courses-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Courses: [desktop](https://shots.codotx.com/shikaku-academy/courses-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/courses-mobile.webp)
+- Project delivery foundations: [desktop](https://shots.codotx.com/shikaku-academy/project-delivery-foundations-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/project-delivery-foundations-mobile.webp)
+- Lesson player: [desktop](https://shots.codotx.com/shikaku-academy/lesson-player-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/lesson-player-mobile.webp)
+- Plans: [desktop](https://shots.codotx.com/shikaku-academy/plans-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/plans-mobile.webp)
+- How it works: [desktop](https://shots.codotx.com/shikaku-academy/how-it-works-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/how-it-works-mobile.webp)
+- Instructors: [desktop](https://shots.codotx.com/shikaku-academy/instructors-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/instructors-mobile.webp)
+- Student stories: [desktop](https://shots.codotx.com/shikaku-academy/student-stories-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/student-stories-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shikaku-academy/about-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/about-mobile.webp)
+- Support: [desktop](https://shots.codotx.com/shikaku-academy/support-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/support-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/shikaku-academy/faq-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/faq-mobile.webp)
+- My courses: [desktop](https://shots.codotx.com/shikaku-academy/my-courses-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/my-courses-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/shikaku-academy/journal-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/journal-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shikaku-academy/news-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shikaku-academy/article-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shikaku-academy/category-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shikaku-academy/tag-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shikaku-academy/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shikaku-academy/contact-desktop.webp) · [mobile](https://shots.codotx.com/shikaku-academy/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/shikaku-academy/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/shikaku-academy/ja/home-desktop.webp) · [fr](https://shots.codotx.com/shikaku-academy/fr/home-desktop.webp) · [de](https://shots.codotx.com/shikaku-academy/de/home-desktop.webp)
 <!-- screenshots:end -->

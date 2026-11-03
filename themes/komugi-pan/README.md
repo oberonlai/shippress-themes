@@ -85,20 +85,20 @@ assets/images/          AI-generated photographs (+ demo/ copies for the Media L
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Komugi Pan home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Komugi Pan home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/komugi-pan/home-desktop.webp" width="640" alt="Komugi Pan home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/komugi-pan/home-mobile.webp" width="200" alt="Komugi Pan home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Bake schedule: [desktop](screenshots/bake-schedule-desktop.webp) · [mobile](screenshots/bake-schedule-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/komugi-pan/about-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/komugi-pan/news-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/komugi-pan/article-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/komugi-pan/category-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/komugi-pan/tag-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/komugi-pan/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/komugi-pan/contact-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/contact-mobile.webp)
+- Bake schedule: [desktop](https://shots.codotx.com/komugi-pan/bake-schedule-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/bake-schedule-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/komugi-pan/shop-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/komugi-pan/product-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/product-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/komugi-pan/search-desktop.webp) · [mobile](https://shots.codotx.com/komugi-pan/search-mobile.webp)
 <!-- screenshots:end -->

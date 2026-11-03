@@ -16,20 +16,20 @@ Every template is the header (workshop name, account, cart and the Shop the lacq
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Urushi Nuri home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Urushi Nuri home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/urushi-nuri/home-desktop.webp" width="640" alt="Urushi Nuri home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/urushi-nuri/home-mobile.webp" width="200" alt="Urushi Nuri home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Shop: [desktop](https://shots.codotx.com/urushi-nuri/shop-desktop.webp) · [mobile](https://shots.codotx.com/urushi-nuri/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/urushi-nuri/product-desktop.webp) · [mobile](https://shots.codotx.com/urushi-nuri/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/urushi-nuri/about-desktop.webp) · [mobile](https://shots.codotx.com/urushi-nuri/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/urushi-nuri/contact-desktop.webp) · [mobile](https://shots.codotx.com/urushi-nuri/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/urushi-nuri/news-desktop.webp) · [mobile](https://shots.codotx.com/urushi-nuri/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/urushi-nuri/article-desktop.webp) · [mobile](https://shots.codotx.com/urushi-nuri/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/urushi-nuri/category-desktop.webp) · [mobile](https://shots.codotx.com/urushi-nuri/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/urushi-nuri/tag-desktop.webp) · [mobile](https://shots.codotx.com/urushi-nuri/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/urushi-nuri/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/urushi-nuri/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/urushi-nuri/search-desktop.webp) · [mobile](https://shots.codotx.com/urushi-nuri/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/urushi-nuri/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/urushi-nuri/ja/home-desktop.webp) · [fr](https://shots.codotx.com/urushi-nuri/fr/home-desktop.webp) · [de](https://shots.codotx.com/urushi-nuri/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -35,20 +35,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Koke Garden home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Koke Garden home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/koke-garden/home-desktop.webp" width="640" alt="Koke Garden home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/koke-garden/home-mobile.webp" width="200" alt="Koke Garden home page on mobile"></td>
 </tr>
 </table>
 
-- Projects: [desktop](screenshots/projects-desktop.webp) · [mobile](screenshots/projects-mobile.webp)
-- Case study: [desktop](screenshots/case-study-desktop.webp) · [mobile](screenshots/case-study-mobile.webp)
-- Seasonal care: [desktop](screenshots/seasonal-care-desktop.webp) · [mobile](screenshots/seasonal-care-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Projects: [desktop](https://shots.codotx.com/koke-garden/projects-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/projects-mobile.webp)
+- Case study: [desktop](https://shots.codotx.com/koke-garden/case-study-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/case-study-mobile.webp)
+- Seasonal care: [desktop](https://shots.codotx.com/koke-garden/seasonal-care-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/seasonal-care-mobile.webp)
+- About: [desktop](https://shots.codotx.com/koke-garden/about-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/koke-garden/news-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/koke-garden/article-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/koke-garden/category-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/koke-garden/tag-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/koke-garden/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/koke-garden/contact-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/koke-garden/search-desktop.webp) · [mobile](https://shots.codotx.com/koke-garden/search-mobile.webp)
 <!-- screenshots:end -->

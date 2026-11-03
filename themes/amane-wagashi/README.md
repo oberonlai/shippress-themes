@@ -47,21 +47,21 @@ GPL-2.0-or-later. Fonts OFL-1.1 without Reserved Font Names (see `assets/fonts/`
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Amane Wagashi home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Amane Wagashi home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/amane-wagashi/home-desktop.webp" width="640" alt="Amane Wagashi home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/amane-wagashi/home-mobile.webp" width="200" alt="Amane Wagashi home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Seasonal calendar: [desktop](screenshots/seasonal-calendar-desktop.webp) · [mobile](screenshots/seasonal-calendar-mobile.webp)
-- Pre orders: [desktop](screenshots/pre-orders-desktop.webp) · [mobile](screenshots/pre-orders-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/amane-wagashi/shop-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/amane-wagashi/product-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/product-mobile.webp)
+- Seasonal calendar: [desktop](https://shots.codotx.com/amane-wagashi/seasonal-calendar-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/seasonal-calendar-mobile.webp)
+- Pre orders: [desktop](https://shots.codotx.com/amane-wagashi/pre-orders-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/pre-orders-mobile.webp)
+- About: [desktop](https://shots.codotx.com/amane-wagashi/about-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/amane-wagashi/contact-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/amane-wagashi/news-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/amane-wagashi/article-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/amane-wagashi/category-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/amane-wagashi/tag-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/amane-wagashi/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/amane-wagashi/search-desktop.webp) · [mobile](https://shots.codotx.com/amane-wagashi/search-mobile.webp)
 <!-- screenshots:end -->

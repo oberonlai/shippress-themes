@@ -86,20 +86,20 @@ assets/images/          AI-generated photographs (+ demo/ copies for the Media L
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hamono Kaji home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hamono Kaji home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hamono-kaji/home-desktop.webp" width="640" alt="Hamono Kaji home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hamono-kaji/home-mobile.webp" width="200" alt="Hamono Kaji home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Care: [desktop](screenshots/care-desktop.webp) · [mobile](screenshots/care-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hamono-kaji/about-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hamono-kaji/news-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hamono-kaji/article-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hamono-kaji/category-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hamono-kaji/tag-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hamono-kaji/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hamono-kaji/contact-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/contact-mobile.webp)
+- Care: [desktop](https://shots.codotx.com/hamono-kaji/care-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/care-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/hamono-kaji/shop-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/hamono-kaji/product-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/product-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hamono-kaji/search-desktop.webp) · [mobile](https://shots.codotx.com/hamono-kaji/search-mobile.webp)
 <!-- screenshots:end -->
