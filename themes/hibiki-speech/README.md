@@ -42,26 +42,26 @@ Hanken Grotesk, Public Sans, Noto Sans TC and Noto Sans JP (SIL OFL 1.1, licence
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hibiki Speech home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hibiki Speech home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hibiki-speech/home-desktop.webp" width="640" alt="Hibiki Speech home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hibiki-speech/home-mobile.webp" width="200" alt="Hibiki Speech home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Children: [desktop](screenshots/children-desktop.webp) · [mobile](screenshots/children-mobile.webp)
-- Adults: [desktop](screenshots/adults-desktop.webp) · [mobile](screenshots/adults-mobile.webp)
-- Method: [desktop](screenshots/method-desktop.webp) · [mobile](screenshots/method-mobile.webp)
-- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/hibiki-speech/about-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/about-mobile.webp)
+- Children: [desktop](https://shots.codotx.com/hibiki-speech/children-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/children-mobile.webp)
+- Adults: [desktop](https://shots.codotx.com/hibiki-speech/adults-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/adults-mobile.webp)
+- Method: [desktop](https://shots.codotx.com/hibiki-speech/method-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/method-mobile.webp)
+- First visit: [desktop](https://shots.codotx.com/hibiki-speech/first-visit-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/first-visit-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/hibiki-speech/team-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/team-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/hibiki-speech/fees-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/fees-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/hibiki-speech/stories-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/stories-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hibiki-speech/news-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hibiki-speech/article-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hibiki-speech/category-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hibiki-speech/tag-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hibiki-speech/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/newsletter-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/hibiki-speech/faq-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/faq-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hibiki-speech/contact-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hibiki-speech/search-desktop.webp) · [mobile](https://shots.codotx.com/hibiki-speech/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hibiki-speech/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hibiki-speech/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hibiki-speech/fr/home-desktop.webp) · [de](https://shots.codotx.com/hibiki-speech/de/home-desktop.webp)
 <!-- screenshots:end -->

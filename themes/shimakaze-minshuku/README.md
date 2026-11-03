@@ -19,19 +19,19 @@ home-hero, home-dinner, home-rates, home-island, home-journal, rooms-head, rooms
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shimakaze Minshuku home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shimakaze Minshuku home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shimakaze-minshuku/home-desktop.webp" width="640" alt="Shimakaze Minshuku home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shimakaze-minshuku/home-mobile.webp" width="200" alt="Shimakaze Minshuku home page on mobile"></td>
 </tr>
 </table>
 
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- Island: [desktop](screenshots/island-desktop.webp) · [mobile](screenshots/island-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Rooms: [desktop](https://shots.codotx.com/shimakaze-minshuku/rooms-desktop.webp) · [mobile](https://shots.codotx.com/shimakaze-minshuku/rooms-mobile.webp)
+- Island: [desktop](https://shots.codotx.com/shimakaze-minshuku/island-desktop.webp) · [mobile](https://shots.codotx.com/shimakaze-minshuku/island-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shimakaze-minshuku/about-desktop.webp) · [mobile](https://shots.codotx.com/shimakaze-minshuku/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shimakaze-minshuku/news-desktop.webp) · [mobile](https://shots.codotx.com/shimakaze-minshuku/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shimakaze-minshuku/article-desktop.webp) · [mobile](https://shots.codotx.com/shimakaze-minshuku/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shimakaze-minshuku/category-desktop.webp) · [mobile](https://shots.codotx.com/shimakaze-minshuku/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shimakaze-minshuku/tag-desktop.webp) · [mobile](https://shots.codotx.com/shimakaze-minshuku/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shimakaze-minshuku/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shimakaze-minshuku/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shimakaze-minshuku/contact-desktop.webp) · [mobile](https://shots.codotx.com/shimakaze-minshuku/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/shimakaze-minshuku/search-desktop.webp) · [mobile](https://shots.codotx.com/shimakaze-minshuku/search-mobile.webp)
 <!-- screenshots:end -->

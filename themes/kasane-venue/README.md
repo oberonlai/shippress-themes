@@ -18,26 +18,26 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kasane Venue home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kasane Venue home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kasane-venue/home-desktop.webp" width="640" alt="Kasane Venue home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kasane-venue/home-mobile.webp" width="200" alt="Kasane Venue home page on mobile"></td>
 </tr>
 </table>
 
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- The day: [desktop](screenshots/the-day-desktop.webp) · [mobile](screenshots/the-day-mobile.webp)
-- Food: [desktop](screenshots/food-desktop.webp) · [mobile](screenshots/food-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- The building: [desktop](screenshots/the-building-desktop.webp) · [mobile](screenshots/the-building-mobile.webp)
-- Viewings: [desktop](screenshots/viewings-desktop.webp) · [mobile](screenshots/viewings-mobile.webp)
-- Questions: [desktop](screenshots/questions-desktop.webp) · [mobile](screenshots/questions-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Rooms: [desktop](https://shots.codotx.com/kasane-venue/rooms-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/rooms-mobile.webp)
+- The day: [desktop](https://shots.codotx.com/kasane-venue/the-day-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/the-day-mobile.webp)
+- Food: [desktop](https://shots.codotx.com/kasane-venue/food-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/food-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/kasane-venue/fees-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/fees-mobile.webp)
+- People: [desktop](https://shots.codotx.com/kasane-venue/people-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/people-mobile.webp)
+- The building: [desktop](https://shots.codotx.com/kasane-venue/the-building-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/the-building-mobile.webp)
+- Viewings: [desktop](https://shots.codotx.com/kasane-venue/viewings-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/viewings-mobile.webp)
+- Questions: [desktop](https://shots.codotx.com/kasane-venue/questions-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/questions-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kasane-venue/about-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kasane-venue/news-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kasane-venue/article-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kasane-venue/category-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kasane-venue/tag-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kasane-venue/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kasane-venue/contact-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kasane-venue/search-desktop.webp) · [mobile](https://shots.codotx.com/kasane-venue/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kasane-venue/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kasane-venue/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kasane-venue/fr/home-desktop.webp) · [de](https://shots.codotx.com/kasane-venue/de/home-desktop.webp)
 <!-- screenshots:end -->

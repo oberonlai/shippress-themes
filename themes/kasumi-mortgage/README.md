@@ -43,4 +43,27 @@ Home, Mortgages & fees, How it works, Advisers, First-time buyers, Rates & costs
 GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated for this theme, released under GPL-2.0-or-later / CC0. All names, the city, the address, telephone numbers, rates and fees are fictional.
 
 <!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/kasumi-mortgage/home-desktop.webp" width="640" alt="Kasumi Mortgage home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kasumi-mortgage/home-mobile.webp" width="200" alt="Kasumi Mortgage home page on mobile"></td>
+</tr>
+</table>
+
+- Mortgages: [desktop](https://shots.codotx.com/kasumi-mortgage/mortgages-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/mortgages-mobile.webp)
+- How it works: [desktop](https://shots.codotx.com/kasumi-mortgage/how-it-works-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/how-it-works-mobile.webp)
+- Advisers: [desktop](https://shots.codotx.com/kasumi-mortgage/advisers-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/advisers-mobile.webp)
+- First time buyers: [desktop](https://shots.codotx.com/kasumi-mortgage/first-time-buyers-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/first-time-buyers-mobile.webp)
+- Rates: [desktop](https://shots.codotx.com/kasumi-mortgage/rates-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/rates-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kasumi-mortgage/about-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kasumi-mortgage/news-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kasumi-mortgage/article-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kasumi-mortgage/category-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kasumi-mortgage/tag-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kasumi-mortgage/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kasumi-mortgage/contact-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kasumi-mortgage/search-desktop.webp) · [mobile](https://shots.codotx.com/kasumi-mortgage/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kasumi-mortgage/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kasumi-mortgage/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kasumi-mortgage/fr/home-desktop.webp) · [de](https://shots.codotx.com/kasumi-mortgage/de/home-desktop.webp)
 <!-- screenshots:end -->

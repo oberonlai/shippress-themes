@@ -15,22 +15,22 @@ Framed-window hero (the frame wipes away on the first 120px of scroll, CSS only,
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Awa Taproom home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Awa Taproom home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/awa-taproom/home-desktop.webp" width="640" alt="Awa Taproom home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/awa-taproom/home-mobile.webp" width="200" alt="Awa Taproom home page on mobile"></td>
 </tr>
 </table>
 
-- On tap: [desktop](screenshots/on-tap-desktop.webp) · [mobile](screenshots/on-tap-mobile.webp)
-- Book a seat: [desktop](screenshots/book-a-seat-desktop.webp) · [mobile](screenshots/book-a-seat-mobile.webp)
-- The brewery: [desktop](screenshots/the-brewery-desktop.webp) · [mobile](screenshots/the-brewery-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- On tap: [desktop](https://shots.codotx.com/awa-taproom/on-tap-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/on-tap-mobile.webp)
+- Book a seat: [desktop](https://shots.codotx.com/awa-taproom/book-a-seat-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/book-a-seat-mobile.webp)
+- The brewery: [desktop](https://shots.codotx.com/awa-taproom/the-brewery-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/the-brewery-mobile.webp)
+- People: [desktop](https://shots.codotx.com/awa-taproom/people-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/people-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/awa-taproom/visit-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/visit-mobile.webp)
+- About: [desktop](https://shots.codotx.com/awa-taproom/about-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/awa-taproom/news-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/awa-taproom/article-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/awa-taproom/category-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/awa-taproom/tag-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/awa-taproom/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/awa-taproom/contact-desktop.webp) · [mobile](https://shots.codotx.com/awa-taproom/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/awa-taproom/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/awa-taproom/ja/home-desktop.webp) · [fr](https://shots.codotx.com/awa-taproom/fr/home-desktop.webp) · [de](https://shots.codotx.com/awa-taproom/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -95,20 +95,20 @@ Twenty-five AI-generated photographs made for this theme (`assets/images/*.jpg`,
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Yuzu Chaya home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Yuzu Chaya home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/yuzu-chaya/home-desktop.webp" width="640" alt="Yuzu Chaya home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/yuzu-chaya/home-mobile.webp" width="200" alt="Yuzu Chaya home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Brewing guide: [desktop](screenshots/brewing-guide-desktop.webp) · [mobile](screenshots/brewing-guide-mobile.webp)
-- Tea subscription: [desktop](screenshots/tea-subscription-desktop.webp) · [mobile](screenshots/tea-subscription-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/yuzu-chaya/about-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/yuzu-chaya/news-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/yuzu-chaya/article-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/yuzu-chaya/category-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/yuzu-chaya/tag-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/yuzu-chaya/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/yuzu-chaya/contact-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/contact-mobile.webp)
+- Brewing guide: [desktop](https://shots.codotx.com/yuzu-chaya/brewing-guide-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/brewing-guide-mobile.webp)
+- Tea subscription: [desktop](https://shots.codotx.com/yuzu-chaya/tea-subscription-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/tea-subscription-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/yuzu-chaya/shop-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/yuzu-chaya/product-desktop.webp) · [mobile](https://shots.codotx.com/yuzu-chaya/product-mobile.webp)
 <!-- screenshots:end -->

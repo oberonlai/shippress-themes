@@ -42,26 +42,26 @@ The journal posts reuse three of them from assets/images/demo/.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hada Dermatology home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hada Dermatology home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hada-dermatology/home-desktop.webp" width="640" alt="Hada Dermatology home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hada-dermatology/home-mobile.webp" width="200" alt="Hada Dermatology home page on mobile"></td>
 </tr>
 </table>
 
-- Conditions: [desktop](screenshots/conditions-desktop.webp) · [mobile](screenshots/conditions-mobile.webp)
-- Skin checks: [desktop](screenshots/skin-checks-desktop.webp) · [mobile](screenshots/skin-checks-mobile.webp)
-- Children: [desktop](screenshots/children-desktop.webp) · [mobile](screenshots/children-mobile.webp)
-- Cosmetic: [desktop](screenshots/cosmetic-desktop.webp) · [mobile](screenshots/cosmetic-mobile.webp)
-- Doctors: [desktop](screenshots/doctors-desktop.webp) · [mobile](screenshots/doctors-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
-- Book: [desktop](screenshots/book-desktop.webp) · [mobile](screenshots/book-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Conditions: [desktop](https://shots.codotx.com/hada-dermatology/conditions-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/conditions-mobile.webp)
+- Skin checks: [desktop](https://shots.codotx.com/hada-dermatology/skin-checks-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/skin-checks-mobile.webp)
+- Children: [desktop](https://shots.codotx.com/hada-dermatology/children-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/children-mobile.webp)
+- Cosmetic: [desktop](https://shots.codotx.com/hada-dermatology/cosmetic-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/cosmetic-mobile.webp)
+- Doctors: [desktop](https://shots.codotx.com/hada-dermatology/doctors-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/doctors-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/hada-dermatology/fees-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/fees-mobile.webp)
+- First visit: [desktop](https://shots.codotx.com/hada-dermatology/first-visit-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/first-visit-mobile.webp)
+- Book: [desktop](https://shots.codotx.com/hada-dermatology/book-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/book-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hada-dermatology/about-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hada-dermatology/news-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hada-dermatology/article-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hada-dermatology/category-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hada-dermatology/tag-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hada-dermatology/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hada-dermatology/contact-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hada-dermatology/search-desktop.webp) · [mobile](https://shots.codotx.com/hada-dermatology/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hada-dermatology/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hada-dermatology/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hada-dermatology/fr/home-desktop.webp) · [de](https://shots.codotx.com/hada-dermatology/de/home-desktop.webp)
 <!-- screenshots:end -->

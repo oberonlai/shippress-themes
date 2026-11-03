@@ -19,24 +19,24 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hazuki Instruments home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hazuki Instruments home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hazuki-instruments/home-desktop.webp" width="640" alt="Hazuki Instruments home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hazuki-instruments/home-mobile.webp" width="200" alt="Hazuki Instruments home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Floors: [desktop](screenshots/floors-desktop.webp) · [mobile](screenshots/floors-mobile.webp)
-- Trial booth: [desktop](screenshots/trial-booth-desktop.webp) · [mobile](screenshots/trial-booth-mobile.webp)
-- Care: [desktop](screenshots/care-desktop.webp) · [mobile](screenshots/care-mobile.webp)
-- Rentals: [desktop](screenshots/rentals-desktop.webp) · [mobile](screenshots/rentals-mobile.webp)
-- Staff: [desktop](screenshots/staff-desktop.webp) · [mobile](screenshots/staff-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/hazuki-instruments/about-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hazuki-instruments/news-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hazuki-instruments/article-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hazuki-instruments/category-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hazuki-instruments/tag-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hazuki-instruments/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hazuki-instruments/contact-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/contact-mobile.webp)
+- Floors: [desktop](https://shots.codotx.com/hazuki-instruments/floors-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/floors-mobile.webp)
+- Trial booth: [desktop](https://shots.codotx.com/hazuki-instruments/trial-booth-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/trial-booth-mobile.webp)
+- Care: [desktop](https://shots.codotx.com/hazuki-instruments/care-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/care-mobile.webp)
+- Rentals: [desktop](https://shots.codotx.com/hazuki-instruments/rentals-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/rentals-mobile.webp)
+- Staff: [desktop](https://shots.codotx.com/hazuki-instruments/staff-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/staff-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/hazuki-instruments/visit-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/visit-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/hazuki-instruments/shop-desktop.webp) · [mobile](https://shots.codotx.com/hazuki-instruments/shop-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hazuki-instruments/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hazuki-instruments/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hazuki-instruments/fr/home-desktop.webp) · [de](https://shots.codotx.com/hazuki-instruments/de/home-desktop.webp)
 <!-- screenshots:end -->

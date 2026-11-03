@@ -45,21 +45,21 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tsuya Lacquer home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tsuya Lacquer home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsuya-lacquer/home-desktop.webp" width="640" alt="Tsuya Lacquer home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsuya-lacquer/home-mobile.webp" width="200" alt="Tsuya Lacquer home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- The craft: [desktop](screenshots/the-craft-desktop.webp) · [mobile](screenshots/the-craft-mobile.webp)
-- Care guide: [desktop](screenshots/care-guide-desktop.webp) · [mobile](screenshots/care-guide-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/tsuya-lacquer/shop-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/tsuya-lacquer/product-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/product-mobile.webp)
+- The craft: [desktop](https://shots.codotx.com/tsuya-lacquer/the-craft-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/the-craft-mobile.webp)
+- Care guide: [desktop](https://shots.codotx.com/tsuya-lacquer/care-guide-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/care-guide-mobile.webp)
+- About: [desktop](https://shots.codotx.com/tsuya-lacquer/about-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/tsuya-lacquer/contact-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/tsuya-lacquer/news-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/tsuya-lacquer/article-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/tsuya-lacquer/category-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/tsuya-lacquer/tag-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/tsuya-lacquer/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/tsuya-lacquer/search-desktop.webp) · [mobile](https://shots.codotx.com/tsuya-lacquer/search-mobile.webp)
 <!-- screenshots:end -->

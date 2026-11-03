@@ -14,26 +14,26 @@ A dark, photo-led block theme for a welding and metal-fabrication trade school f
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hibana College home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hibana College home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hibana-college/home-desktop.webp" width="640" alt="Hibana College home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hibana-college/home-mobile.webp" width="200" alt="Hibana College home page on mobile"></td>
 </tr>
 </table>
 
-- Six month course: [desktop](screenshots/six-month-course-desktop.webp) · [mobile](screenshots/six-month-course-mobile.webp)
-- Workshop week: [desktop](screenshots/workshop-week-desktop.webp) · [mobile](screenshots/workshop-week-mobile.webp)
-- Other courses: [desktop](screenshots/other-courses-desktop.webp) · [mobile](screenshots/other-courses-mobile.webp)
-- Instructors: [desktop](screenshots/instructors-desktop.webp) · [mobile](screenshots/instructors-mobile.webp)
-- Graduate stories: [desktop](screenshots/graduate-stories-desktop.webp) · [mobile](screenshots/graduate-stories-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Admissions: [desktop](screenshots/admissions-desktop.webp) · [mobile](screenshots/admissions-mobile.webp)
-- Workshop safety: [desktop](screenshots/workshop-safety-desktop.webp) · [mobile](screenshots/workshop-safety-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Six month course: [desktop](https://shots.codotx.com/hibana-college/six-month-course-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/six-month-course-mobile.webp)
+- Workshop week: [desktop](https://shots.codotx.com/hibana-college/workshop-week-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/workshop-week-mobile.webp)
+- Other courses: [desktop](https://shots.codotx.com/hibana-college/other-courses-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/other-courses-mobile.webp)
+- Instructors: [desktop](https://shots.codotx.com/hibana-college/instructors-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/instructors-mobile.webp)
+- Graduate stories: [desktop](https://shots.codotx.com/hibana-college/graduate-stories-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/graduate-stories-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/hibana-college/fees-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/fees-mobile.webp)
+- Admissions: [desktop](https://shots.codotx.com/hibana-college/admissions-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/admissions-mobile.webp)
+- Workshop safety: [desktop](https://shots.codotx.com/hibana-college/workshop-safety-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/workshop-safety-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hibana-college/about-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hibana-college/contact-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hibana-college/news-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hibana-college/article-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hibana-college/category-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hibana-college/tag-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/tag-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hibana-college/search-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/search-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hibana-college/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hibana-college/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hibana-college/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hibana-college/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hibana-college/fr/home-desktop.webp) · [de](https://shots.codotx.com/hibana-college/de/home-desktop.webp)
 <!-- screenshots:end -->

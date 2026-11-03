@@ -18,25 +18,25 @@ Stage 2: home and ten inner pages (The Engagement, Office, Celebrations, Banquet
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Enishi Catering home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Enishi Catering home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/enishi-catering/home-desktop.webp" width="640" alt="Enishi Catering home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/enishi-catering/home-mobile.webp" width="200" alt="Enishi Catering home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- The engagement: [desktop](screenshots/the-engagement-desktop.webp) · [mobile](screenshots/the-engagement-mobile.webp)
-- Office: [desktop](screenshots/office-desktop.webp) · [mobile](screenshots/office-mobile.webp)
-- Celebrations: [desktop](screenshots/celebrations-desktop.webp) · [mobile](screenshots/celebrations-mobile.webp)
-- Banquets: [desktop](screenshots/banquets-desktop.webp) · [mobile](screenshots/banquets-mobile.webp)
-- Menus: [desktop](screenshots/menus-desktop.webp) · [mobile](screenshots/menus-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/enishi-catering/about-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/enishi-catering/news-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/enishi-catering/article-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/enishi-catering/category-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/enishi-catering/tag-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/enishi-catering/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/enishi-catering/contact-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/contact-mobile.webp)
+- The engagement: [desktop](https://shots.codotx.com/enishi-catering/the-engagement-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/the-engagement-mobile.webp)
+- Office: [desktop](https://shots.codotx.com/enishi-catering/office-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/office-mobile.webp)
+- Celebrations: [desktop](https://shots.codotx.com/enishi-catering/celebrations-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/celebrations-mobile.webp)
+- Banquets: [desktop](https://shots.codotx.com/enishi-catering/banquets-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/banquets-mobile.webp)
+- Menus: [desktop](https://shots.codotx.com/enishi-catering/menus-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/menus-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/enishi-catering/team-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/team-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/enishi-catering/stories-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/stories-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/enishi-catering/search-desktop.webp) · [mobile](https://shots.codotx.com/enishi-catering/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/enishi-catering/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/enishi-catering/ja/home-desktop.webp) · [fr](https://shots.codotx.com/enishi-catering/fr/home-desktop.webp) · [de](https://shots.codotx.com/enishi-catering/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -12,19 +12,19 @@ Hotaru Ehon — a picture-book illustrator theme set like a poster: under a form
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hotaru Ehon home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hotaru Ehon home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hotaru-ehon/home-desktop.webp" width="640" alt="Hotaru Ehon home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hotaru-ehon/home-mobile.webp" width="200" alt="Hotaru Ehon home page on mobile"></td>
 </tr>
 </table>
 
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Services: [desktop](https://shots.codotx.com/hotaru-ehon/services-desktop.webp) · [mobile](https://shots.codotx.com/hotaru-ehon/services-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hotaru-ehon/about-desktop.webp) · [mobile](https://shots.codotx.com/hotaru-ehon/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hotaru-ehon/news-desktop.webp) · [mobile](https://shots.codotx.com/hotaru-ehon/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hotaru-ehon/article-desktop.webp) · [mobile](https://shots.codotx.com/hotaru-ehon/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hotaru-ehon/category-desktop.webp) · [mobile](https://shots.codotx.com/hotaru-ehon/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hotaru-ehon/tag-desktop.webp) · [mobile](https://shots.codotx.com/hotaru-ehon/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hotaru-ehon/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hotaru-ehon/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hotaru-ehon/contact-desktop.webp) · [mobile](https://shots.codotx.com/hotaru-ehon/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hotaru-ehon/search-desktop.webp) · [mobile](https://shots.codotx.com/hotaru-ehon/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hotaru-ehon/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hotaru-ehon/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hotaru-ehon/fr/home-desktop.webp) · [de](https://shots.codotx.com/hotaru-ehon/de/home-desktop.webp)
 <!-- screenshots:end -->

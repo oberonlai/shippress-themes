@@ -36,20 +36,20 @@ Theme code GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kage Gallery home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kage Gallery home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kage-gallery/home-desktop.webp" width="640" alt="Kage Gallery home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kage-gallery/home-mobile.webp" width="200" alt="Kage Gallery home page on mobile"></td>
 </tr>
 </table>
 
-- Exhibitions: [desktop](screenshots/exhibitions-desktop.webp) · [mobile](screenshots/exhibitions-mobile.webp)
-- Artists: [desktop](screenshots/artists-desktop.webp) · [mobile](screenshots/artists-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Exhibitions: [desktop](https://shots.codotx.com/kage-gallery/exhibitions-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/exhibitions-mobile.webp)
+- Artists: [desktop](https://shots.codotx.com/kage-gallery/artists-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/artists-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/kage-gallery/visit-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/visit-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kage-gallery/about-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kage-gallery/news-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kage-gallery/article-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kage-gallery/category-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kage-gallery/tag-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kage-gallery/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kage-gallery/contact-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kage-gallery/search-desktop.webp) · [mobile](https://shots.codotx.com/kage-gallery/search-mobile.webp)
 <!-- screenshots:end -->

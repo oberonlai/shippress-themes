@@ -16,19 +16,19 @@ Every template is the top header, the page column and the footer. Page bodies co
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Fukusa Chado home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Fukusa Chado home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/fukusa-chado/home-desktop.webp" width="640" alt="Fukusa Chado home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/fukusa-chado/home-mobile.webp" width="200" alt="Fukusa Chado home page on mobile"></td>
 </tr>
 </table>
 
-- Lessons: [desktop](screenshots/lessons-desktop.webp) · [mobile](screenshots/lessons-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Lessons: [desktop](https://shots.codotx.com/fukusa-chado/lessons-desktop.webp) · [mobile](https://shots.codotx.com/fukusa-chado/lessons-mobile.webp)
+- About: [desktop](https://shots.codotx.com/fukusa-chado/about-desktop.webp) · [mobile](https://shots.codotx.com/fukusa-chado/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/fukusa-chado/news-desktop.webp) · [mobile](https://shots.codotx.com/fukusa-chado/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/fukusa-chado/article-desktop.webp) · [mobile](https://shots.codotx.com/fukusa-chado/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/fukusa-chado/category-desktop.webp) · [mobile](https://shots.codotx.com/fukusa-chado/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/fukusa-chado/tag-desktop.webp) · [mobile](https://shots.codotx.com/fukusa-chado/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/fukusa-chado/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/fukusa-chado/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/fukusa-chado/contact-desktop.webp) · [mobile](https://shots.codotx.com/fukusa-chado/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/fukusa-chado/search-desktop.webp) · [mobile](https://shots.codotx.com/fukusa-chado/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/fukusa-chado/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/fukusa-chado/ja/home-desktop.webp) · [fr](https://shots.codotx.com/fukusa-chado/fr/home-desktop.webp) · [de](https://shots.codotx.com/fukusa-chado/de/home-desktop.webp)
 <!-- screenshots:end -->

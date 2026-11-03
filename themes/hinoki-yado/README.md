@@ -79,18 +79,18 @@ Code: GPL-2.0-or-later. Fonts: SIL Open Font License 1.1, bundled in `assets/fon
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hinoki Yado home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hinoki Yado home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hinoki-yado/home-desktop.webp" width="640" alt="Hinoki Yado home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hinoki-yado/home-mobile.webp" width="200" alt="Hinoki Yado home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- Onsen dining: [desktop](screenshots/onsen-dining-desktop.webp) · [mobile](screenshots/onsen-dining-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hinoki-yado/about-desktop.webp) · [mobile](https://shots.codotx.com/hinoki-yado/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hinoki-yado/news-desktop.webp) · [mobile](https://shots.codotx.com/hinoki-yado/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hinoki-yado/article-desktop.webp) · [mobile](https://shots.codotx.com/hinoki-yado/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hinoki-yado/category-desktop.webp) · [mobile](https://shots.codotx.com/hinoki-yado/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hinoki-yado/tag-desktop.webp) · [mobile](https://shots.codotx.com/hinoki-yado/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hinoki-yado/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hinoki-yado/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hinoki-yado/contact-desktop.webp) · [mobile](https://shots.codotx.com/hinoki-yado/contact-mobile.webp)
+- Rooms: [desktop](https://shots.codotx.com/hinoki-yado/rooms-desktop.webp) · [mobile](https://shots.codotx.com/hinoki-yado/rooms-mobile.webp)
+- Onsen dining: [desktop](https://shots.codotx.com/hinoki-yado/onsen-dining-desktop.webp) · [mobile](https://shots.codotx.com/hinoki-yado/onsen-dining-mobile.webp)
 <!-- screenshots:end -->

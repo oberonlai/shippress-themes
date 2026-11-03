@@ -47,27 +47,27 @@ Newsreader and Public Sans (SIL OFL 1.1, licences in assets/fonts).
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Oto Audio home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Oto Audio home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/oto-audio/home-desktop.webp" width="640" alt="Oto Audio home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/oto-audio/home-mobile.webp" width="200" alt="Oto Audio home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Compare: [desktop](screenshots/compare-desktop.webp) · [mobile](screenshots/compare-mobile.webp)
-- Listening room: [desktop](screenshots/listening-room-desktop.webp) · [mobile](screenshots/listening-room-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Shipping returns: [desktop](screenshots/shipping-returns-desktop.webp) · [mobile](screenshots/shipping-returns-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Cart: [desktop](screenshots/cart-desktop.webp) · [mobile](screenshots/cart-mobile.webp)
-- Checkout: [desktop](screenshots/checkout-desktop.webp) · [mobile](screenshots/checkout-mobile.webp)
-- My account: [desktop](screenshots/my-account-desktop.webp) · [mobile](screenshots/my-account-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Shop: [desktop](https://shots.codotx.com/oto-audio/shop-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/oto-audio/product-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/product-mobile.webp)
+- Compare: [desktop](https://shots.codotx.com/oto-audio/compare-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/compare-mobile.webp)
+- Listening room: [desktop](https://shots.codotx.com/oto-audio/listening-room-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/listening-room-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/oto-audio/services-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/services-mobile.webp)
+- About: [desktop](https://shots.codotx.com/oto-audio/about-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/about-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/oto-audio/journal-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/journal-mobile.webp)
+- Shipping returns: [desktop](https://shots.codotx.com/oto-audio/shipping-returns-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/shipping-returns-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/oto-audio/contact-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/contact-mobile.webp)
+- Cart: [desktop](https://shots.codotx.com/oto-audio/cart-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/cart-mobile.webp)
+- Checkout: [desktop](https://shots.codotx.com/oto-audio/checkout-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/checkout-mobile.webp)
+- My account: [desktop](https://shots.codotx.com/oto-audio/my-account-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/my-account-mobile.webp)
+- News: [desktop](https://shots.codotx.com/oto-audio/news-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/oto-audio/article-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/oto-audio/category-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/oto-audio/tag-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/oto-audio/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/oto-audio/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/oto-audio/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/oto-audio/ja/home-desktop.webp) · [fr](https://shots.codotx.com/oto-audio/fr/home-desktop.webp) · [de](https://shots.codotx.com/oto-audio/de/home-desktop.webp)
 <!-- screenshots:end -->

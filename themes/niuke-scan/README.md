@@ -19,26 +19,26 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Niuke Scan home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Niuke Scan home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/niuke-scan/home-desktop.webp" width="640" alt="Niuke Scan home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/niuke-scan/home-mobile.webp" width="200" alt="Niuke Scan home page on mobile"></td>
 </tr>
 </table>
 
-- How it works: [desktop](screenshots/how-it-works-desktop.webp) · [mobile](screenshots/how-it-works-mobile.webp)
-- Scanner: [desktop](screenshots/scanner-desktop.webp) · [mobile](screenshots/scanner-mobile.webp)
-- Pricing: [desktop](screenshots/pricing-desktop.webp) · [mobile](screenshots/pricing-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Setup: [desktop](screenshots/setup-desktop.webp) · [mobile](screenshots/setup-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Waitlist: [desktop](screenshots/waitlist-desktop.webp) · [mobile](screenshots/waitlist-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- How it works: [desktop](https://shots.codotx.com/niuke-scan/how-it-works-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/how-it-works-mobile.webp)
+- Scanner: [desktop](https://shots.codotx.com/niuke-scan/scanner-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/scanner-mobile.webp)
+- Pricing: [desktop](https://shots.codotx.com/niuke-scan/pricing-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/pricing-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/niuke-scan/stories-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/stories-mobile.webp)
+- About: [desktop](https://shots.codotx.com/niuke-scan/about-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/about-mobile.webp)
+- Setup: [desktop](https://shots.codotx.com/niuke-scan/setup-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/setup-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/niuke-scan/contact-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/contact-mobile.webp)
+- Waitlist: [desktop](https://shots.codotx.com/niuke-scan/waitlist-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/waitlist-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/niuke-scan/thanks-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/thanks-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/niuke-scan/privacy-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/niuke-scan/terms-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/terms-mobile.webp)
+- News: [desktop](https://shots.codotx.com/niuke-scan/news-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/niuke-scan/article-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/niuke-scan/category-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/niuke-scan/tag-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/niuke-scan/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/niuke-scan/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/niuke-scan/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/niuke-scan/ja/home-desktop.webp) · [fr](https://shots.codotx.com/niuke-scan/fr/home-desktop.webp) · [de](https://shots.codotx.com/niuke-scan/de/home-desktop.webp)
 <!-- screenshots:end -->

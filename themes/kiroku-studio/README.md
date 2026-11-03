@@ -92,20 +92,20 @@ Demo posts (journal and case notes): seven posts in four categories (Case notes,
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kiroku Studio home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kiroku Studio home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kiroku-studio/home-desktop.webp" width="640" alt="Kiroku Studio home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kiroku-studio/home-mobile.webp" width="200" alt="Kiroku Studio home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Work: [desktop](screenshots/work-desktop.webp) · [mobile](screenshots/work-mobile.webp)
-- Case study: [desktop](screenshots/case-study-desktop.webp) · [mobile](screenshots/case-study-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kiroku-studio/about-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/about-mobile.webp)
+- Work: [desktop](https://shots.codotx.com/kiroku-studio/work-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/work-mobile.webp)
+- Case study: [desktop](https://shots.codotx.com/kiroku-studio/case-study-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/case-study-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/kiroku-studio/services-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/services-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kiroku-studio/news-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kiroku-studio/article-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kiroku-studio/category-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kiroku-studio/tag-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kiroku-studio/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kiroku-studio/contact-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kiroku-studio/search-desktop.webp) · [mobile](https://shots.codotx.com/kiroku-studio/search-mobile.webp)
 <!-- screenshots:end -->

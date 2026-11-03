@@ -70,20 +70,20 @@ Nine photographs in `assets/images/` (copies in `assets/images/demo/` for the Me
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hakuba Dental home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hakuba Dental home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hakuba-dental/home-desktop.webp" width="640" alt="Hakuba Dental home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hakuba-dental/home-mobile.webp" width="200" alt="Hakuba Dental home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Treatments: [desktop](screenshots/treatments-desktop.webp) · [mobile](screenshots/treatments-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hakuba-dental/about-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/about-mobile.webp)
+- Treatments: [desktop](https://shots.codotx.com/hakuba-dental/treatments-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/treatments-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/hakuba-dental/fees-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/fees-mobile.webp)
+- First visit: [desktop](https://shots.codotx.com/hakuba-dental/first-visit-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/first-visit-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hakuba-dental/news-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hakuba-dental/article-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hakuba-dental/category-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hakuba-dental/tag-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hakuba-dental/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hakuba-dental/contact-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hakuba-dental/search-desktop.webp) · [mobile](https://shots.codotx.com/hakuba-dental/search-mobile.webp)
 <!-- screenshots:end -->

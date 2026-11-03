@@ -21,28 +21,28 @@ Home page (English) is complete: gates pass at 390 px and 1280 px, 13 block docu
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hashira Partners home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hashira Partners home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hashira-partners/home-desktop.webp" width="640" alt="Hashira Partners home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hashira-partners/home-mobile.webp" width="200" alt="Hashira Partners home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Buildings: [desktop](screenshots/buildings-desktop.webp) · [mobile](screenshots/buildings-mobile.webp)
-- Cases: [desktop](screenshots/cases-desktop.webp) · [mobile](screenshots/cases-mobile.webp)
-- Viewings: [desktop](screenshots/viewings-desktop.webp) · [mobile](screenshots/viewings-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- Owners: [desktop](screenshots/owners-desktop.webp) · [mobile](screenshots/owners-mobile.webp)
-- Bay guide: [desktop](screenshots/bay-guide-desktop.webp) · [mobile](screenshots/bay-guide-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/hashira-partners/about-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hashira-partners/news-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hashira-partners/article-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hashira-partners/category-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hashira-partners/tag-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/tag-mobile.webp)
+- Buildings: [desktop](https://shots.codotx.com/hashira-partners/buildings-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/buildings-mobile.webp)
+- Cases: [desktop](https://shots.codotx.com/hashira-partners/cases-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/cases-mobile.webp)
+- Viewings: [desktop](https://shots.codotx.com/hashira-partners/viewings-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/viewings-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/hashira-partners/fees-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/fees-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/hashira-partners/team-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/team-mobile.webp)
+- Owners: [desktop](https://shots.codotx.com/hashira-partners/owners-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/owners-mobile.webp)
+- Bay guide: [desktop](https://shots.codotx.com/hashira-partners/bay-guide-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/bay-guide-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/hashira-partners/notes-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/notes-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hashira-partners/contact-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/contact-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hashira-partners/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/newsletter-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/hashira-partners/thanks-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/thanks-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/hashira-partners/privacy-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/hashira-partners/terms-desktop.webp) · [mobile](https://shots.codotx.com/hashira-partners/terms-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hashira-partners/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hashira-partners/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hashira-partners/fr/home-desktop.webp) · [de](https://shots.codotx.com/hashira-partners/de/home-desktop.webp)
 <!-- screenshots:end -->

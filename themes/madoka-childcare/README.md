@@ -18,28 +18,28 @@ The home page (English) is finished: torn hero frame, care day on torn sand band
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Madoka Childcare home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Madoka Childcare home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/madoka-childcare/home-desktop.webp" width="640" alt="Madoka Childcare home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/madoka-childcare/home-mobile.webp" width="200" alt="Madoka Childcare home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Care day: [desktop](screenshots/care-day-desktop.webp) · [mobile](screenshots/care-day-mobile.webp)
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- Educators: [desktop](screenshots/educators-desktop.webp) · [mobile](screenshots/educators-mobile.webp)
-- Food: [desktop](screenshots/food-desktop.webp) · [mobile](screenshots/food-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Enrolment: [desktop](screenshots/enrolment-desktop.webp) · [mobile](screenshots/enrolment-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/madoka-childcare/about-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/about-mobile.webp)
+- Care day: [desktop](https://shots.codotx.com/madoka-childcare/care-day-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/care-day-mobile.webp)
+- Rooms: [desktop](https://shots.codotx.com/madoka-childcare/rooms-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/rooms-mobile.webp)
+- Educators: [desktop](https://shots.codotx.com/madoka-childcare/educators-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/educators-mobile.webp)
+- Food: [desktop](https://shots.codotx.com/madoka-childcare/food-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/food-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/madoka-childcare/fees-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/fees-mobile.webp)
+- Enrolment: [desktop](https://shots.codotx.com/madoka-childcare/enrolment-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/enrolment-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/madoka-childcare/stories-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/stories-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/madoka-childcare/faq-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/faq-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/madoka-childcare/visit-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/visit-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/madoka-childcare/notes-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/notes-mobile.webp)
+- News: [desktop](https://shots.codotx.com/madoka-childcare/news-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/madoka-childcare/article-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/madoka-childcare/category-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/madoka-childcare/tag-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/madoka-childcare/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/madoka-childcare/contact-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/madoka-childcare/search-desktop.webp) · [mobile](https://shots.codotx.com/madoka-childcare/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/madoka-childcare/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/madoka-childcare/ja/home-desktop.webp) · [fr](https://shots.codotx.com/madoka-childcare/fr/home-desktop.webp) · [de](https://shots.codotx.com/madoka-childcare/de/home-desktop.webp)
 <!-- screenshots:end -->

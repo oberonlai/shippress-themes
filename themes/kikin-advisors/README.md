@@ -11,29 +11,29 @@ All illustrations in assets/images were AI-generated for this theme (CC0). The p
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kikin Advisors home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kikin Advisors home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kikin-advisors/home-desktop.webp" width="640" alt="Kikin Advisors home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kikin-advisors/home-mobile.webp" width="200" alt="Kikin Advisors home page on mobile"></td>
 </tr>
 </table>
 
-- Briefing: [desktop](screenshots/briefing-desktop.webp) · [mobile](screenshots/briefing-mobile.webp)
-- Who its for: [desktop](screenshots/who-its-for-desktop.webp) · [mobile](screenshots/who-its-for-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Basics: [desktop](screenshots/basics-desktop.webp) · [mobile](screenshots/basics-mobile.webp)
-- Member sessions: [desktop](screenshots/member-sessions-desktop.webp) · [mobile](screenshots/member-sessions-mobile.webp)
-- Advisers: [desktop](screenshots/advisers-desktop.webp) · [mobile](screenshots/advisers-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Request: [desktop](screenshots/request-desktop.webp) · [mobile](screenshots/request-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Briefing: [desktop](https://shots.codotx.com/kikin-advisors/briefing-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/briefing-mobile.webp)
+- Who its for: [desktop](https://shots.codotx.com/kikin-advisors/who-its-for-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/who-its-for-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/kikin-advisors/fees-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/fees-mobile.webp)
+- Basics: [desktop](https://shots.codotx.com/kikin-advisors/basics-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/basics-mobile.webp)
+- Member sessions: [desktop](https://shots.codotx.com/kikin-advisors/member-sessions-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/member-sessions-mobile.webp)
+- Advisers: [desktop](https://shots.codotx.com/kikin-advisors/advisers-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/advisers-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/kikin-advisors/stories-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/stories-mobile.webp)
+- Request: [desktop](https://shots.codotx.com/kikin-advisors/request-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/request-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kikin-advisors/about-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/about-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kikin-advisors/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/newsletter-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/kikin-advisors/thanks-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/thanks-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/kikin-advisors/privacy-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/kikin-advisors/terms-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/terms-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/kikin-advisors/notes-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/notes-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kikin-advisors/news-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kikin-advisors/article-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kikin-advisors/category-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kikin-advisors/tag-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/tag-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kikin-advisors/contact-desktop.webp) · [mobile](https://shots.codotx.com/kikin-advisors/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kikin-advisors/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kikin-advisors/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kikin-advisors/fr/home-desktop.webp) · [de](https://shots.codotx.com/kikin-advisors/de/home-desktop.webp)
 <!-- screenshots:end -->

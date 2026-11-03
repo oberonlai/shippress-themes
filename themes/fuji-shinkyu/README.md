@@ -80,18 +80,18 @@ Code: GPL-2.0-or-later. Fonts: SIL Open Font License 1.1, bundled in `assets/fon
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Fuji Shinkyu home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Fuji Shinkyu home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/fuji-shinkyu/home-desktop.webp" width="640" alt="Fuji Shinkyu home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/fuji-shinkyu/home-mobile.webp" width="200" alt="Fuji Shinkyu home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Treatments: [desktop](screenshots/treatments-desktop.webp) · [mobile](screenshots/treatments-mobile.webp)
-- Booking: [desktop](screenshots/booking-desktop.webp) · [mobile](screenshots/booking-mobile.webp)
+- About: [desktop](https://shots.codotx.com/fuji-shinkyu/about-desktop.webp) · [mobile](https://shots.codotx.com/fuji-shinkyu/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/fuji-shinkyu/news-desktop.webp) · [mobile](https://shots.codotx.com/fuji-shinkyu/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/fuji-shinkyu/article-desktop.webp) · [mobile](https://shots.codotx.com/fuji-shinkyu/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/fuji-shinkyu/category-desktop.webp) · [mobile](https://shots.codotx.com/fuji-shinkyu/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/fuji-shinkyu/tag-desktop.webp) · [mobile](https://shots.codotx.com/fuji-shinkyu/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/fuji-shinkyu/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/fuji-shinkyu/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/fuji-shinkyu/contact-desktop.webp) · [mobile](https://shots.codotx.com/fuji-shinkyu/contact-mobile.webp)
+- Treatments: [desktop](https://shots.codotx.com/fuji-shinkyu/treatments-desktop.webp) · [mobile](https://shots.codotx.com/fuji-shinkyu/treatments-mobile.webp)
+- Booking: [desktop](https://shots.codotx.com/fuji-shinkyu/booking-desktop.webp) · [mobile](https://shots.codotx.com/fuji-shinkyu/booking-mobile.webp)
 <!-- screenshots:end -->

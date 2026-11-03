@@ -21,17 +21,17 @@ Home, Courses, Who it’s for, A training day, Placement, Fees, About, Contact, 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mimamori College home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mimamori College home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/mimamori-college/home-desktop.webp" width="640" alt="Mimamori College home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/mimamori-college/home-mobile.webp" width="200" alt="Mimamori College home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/mimamori-college/about-desktop.webp) · [mobile](https://shots.codotx.com/mimamori-college/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/mimamori-college/news-desktop.webp) · [mobile](https://shots.codotx.com/mimamori-college/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/mimamori-college/article-desktop.webp) · [mobile](https://shots.codotx.com/mimamori-college/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/mimamori-college/category-desktop.webp) · [mobile](https://shots.codotx.com/mimamori-college/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/mimamori-college/tag-desktop.webp) · [mobile](https://shots.codotx.com/mimamori-college/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/mimamori-college/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/mimamori-college/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/mimamori-college/contact-desktop.webp) · [mobile](https://shots.codotx.com/mimamori-college/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/mimamori-college/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/mimamori-college/ja/home-desktop.webp) · [fr](https://shots.codotx.com/mimamori-college/fr/home-desktop.webp) · [de](https://shots.codotx.com/mimamori-college/de/home-desktop.webp)
 <!-- screenshots:end -->

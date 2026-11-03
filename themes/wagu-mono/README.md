@@ -64,21 +64,21 @@ AI-generated for this theme (no text, logos or real people), released under GPL-
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Wagu Mono home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Wagu Mono home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/wagu-mono/home-desktop.webp" width="640" alt="Wagu Mono home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/wagu-mono/home-mobile.webp" width="200" alt="Wagu Mono home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Makers: [desktop](screenshots/makers-desktop.webp) · [mobile](screenshots/makers-mobile.webp)
-- Furniture care: [desktop](screenshots/furniture-care-desktop.webp) · [mobile](screenshots/furniture-care-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/wagu-mono/about-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/wagu-mono/news-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/wagu-mono/article-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/wagu-mono/category-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/wagu-mono/tag-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/wagu-mono/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/wagu-mono/contact-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/contact-mobile.webp)
+- Makers: [desktop](https://shots.codotx.com/wagu-mono/makers-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/makers-mobile.webp)
+- Furniture care: [desktop](https://shots.codotx.com/wagu-mono/furniture-care-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/furniture-care-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/wagu-mono/shop-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/wagu-mono/product-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/product-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/wagu-mono/search-desktop.webp) · [mobile](https://shots.codotx.com/wagu-mono/search-mobile.webp)
 <!-- screenshots:end -->

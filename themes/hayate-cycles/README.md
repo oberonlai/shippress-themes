@@ -24,22 +24,22 @@ The header carries the menu, a Cart link (WooCommerce cart, or the shop page whe
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hayate Cycles home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hayate Cycles home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hayate-cycles/home-desktop.webp" width="640" alt="Hayate Cycles home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hayate-cycles/home-mobile.webp" width="200" alt="Hayate Cycles home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Prices: [desktop](screenshots/prices-desktop.webp) · [mobile](screenshots/prices-mobile.webp)
-- Rides: [desktop](screenshots/rides-desktop.webp) · [mobile](screenshots/rides-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/hayate-cycles/about-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hayate-cycles/news-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hayate-cycles/article-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hayate-cycles/category-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hayate-cycles/tag-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hayate-cycles/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hayate-cycles/contact-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/contact-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/hayate-cycles/services-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/services-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/hayate-cycles/shop-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/shop-mobile.webp)
+- Prices: [desktop](https://shots.codotx.com/hayate-cycles/prices-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/prices-mobile.webp)
+- Rides: [desktop](https://shots.codotx.com/hayate-cycles/rides-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/rides-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/hayate-cycles/visit-desktop.webp) · [mobile](https://shots.codotx.com/hayate-cycles/visit-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hayate-cycles/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hayate-cycles/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hayate-cycles/fr/home-desktop.webp) · [de](https://shots.codotx.com/hayate-cycles/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -96,20 +96,20 @@ Twenty-eight original illustrations drawn in code for this theme (`assets/images
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Seiji Utsuwa home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Seiji Utsuwa home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/seiji-utsuwa/home-desktop.webp" width="640" alt="Seiji Utsuwa home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/seiji-utsuwa/home-mobile.webp" width="200" alt="Seiji Utsuwa home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Kilns: [desktop](screenshots/kilns-desktop.webp) · [mobile](screenshots/kilns-mobile.webp)
-- Care guide: [desktop](screenshots/care-guide-desktop.webp) · [mobile](screenshots/care-guide-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/seiji-utsuwa/about-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/seiji-utsuwa/news-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/seiji-utsuwa/article-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/seiji-utsuwa/category-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/seiji-utsuwa/tag-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/seiji-utsuwa/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/seiji-utsuwa/contact-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/contact-mobile.webp)
+- Kilns: [desktop](https://shots.codotx.com/seiji-utsuwa/kilns-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/kilns-mobile.webp)
+- Care guide: [desktop](https://shots.codotx.com/seiji-utsuwa/care-guide-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/care-guide-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/seiji-utsuwa/shop-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/seiji-utsuwa/product-desktop.webp) · [mobile](https://shots.codotx.com/seiji-utsuwa/product-mobile.webp)
 <!-- screenshots:end -->

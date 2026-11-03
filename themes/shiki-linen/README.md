@@ -16,24 +16,24 @@ A WooCommerce store theme for a small bed-linen shop. Version 1.0.0 (home page, 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shiki Linen home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shiki Linen home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shiki-linen/home-desktop.webp" width="640" alt="Shiki Linen home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shiki-linen/home-mobile.webp" width="200" alt="Shiki Linen home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Cloths: [desktop](screenshots/cloths-desktop.webp) · [mobile](screenshots/cloths-mobile.webp)
-- Made to order: [desktop](screenshots/made-to-order-desktop.webp) · [mobile](screenshots/made-to-order-mobile.webp)
-- Sizes prices: [desktop](screenshots/sizes-prices-desktop.webp) · [mobile](screenshots/sizes-prices-mobile.webp)
-- Care: [desktop](screenshots/care-desktop.webp) · [mobile](screenshots/care-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Shop: [desktop](https://shots.codotx.com/shiki-linen/shop-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/shiki-linen/product-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/product-mobile.webp)
+- Cloths: [desktop](https://shots.codotx.com/shiki-linen/cloths-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/cloths-mobile.webp)
+- Made to order: [desktop](https://shots.codotx.com/shiki-linen/made-to-order-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/made-to-order-mobile.webp)
+- Sizes prices: [desktop](https://shots.codotx.com/shiki-linen/sizes-prices-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/sizes-prices-mobile.webp)
+- Care: [desktop](https://shots.codotx.com/shiki-linen/care-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/care-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shiki-linen/about-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shiki-linen/news-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shiki-linen/article-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shiki-linen/category-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shiki-linen/tag-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shiki-linen/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shiki-linen/contact-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/shiki-linen/search-desktop.webp) · [mobile](https://shots.codotx.com/shiki-linen/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/shiki-linen/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/shiki-linen/ja/home-desktop.webp) · [fr](https://shots.codotx.com/shiki-linen/fr/home-desktop.webp) · [de](https://shots.codotx.com/shiki-linen/de/home-desktop.webp)
 <!-- screenshots:end -->

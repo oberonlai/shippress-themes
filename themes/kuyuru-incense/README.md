@@ -46,21 +46,21 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kuyuru Incense home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kuyuru Incense home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kuyuru-incense/home-desktop.webp" width="640" alt="Kuyuru Incense home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kuyuru-incense/home-mobile.webp" width="200" alt="Kuyuru Incense home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Scent guide: [desktop](screenshots/scent-guide-desktop.webp) · [mobile](screenshots/scent-guide-mobile.webp)
-- How to burn: [desktop](screenshots/how-to-burn-desktop.webp) · [mobile](screenshots/how-to-burn-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/kuyuru-incense/shop-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/kuyuru-incense/product-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/product-mobile.webp)
+- Scent guide: [desktop](https://shots.codotx.com/kuyuru-incense/scent-guide-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/scent-guide-mobile.webp)
+- How to burn: [desktop](https://shots.codotx.com/kuyuru-incense/how-to-burn-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/how-to-burn-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kuyuru-incense/about-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kuyuru-incense/contact-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kuyuru-incense/news-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kuyuru-incense/article-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kuyuru-incense/category-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kuyuru-incense/tag-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kuyuru-incense/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kuyuru-incense/search-desktop.webp) · [mobile](https://shots.codotx.com/kuyuru-incense/search-mobile.webp)
 <!-- screenshots:end -->

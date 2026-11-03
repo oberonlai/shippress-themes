@@ -19,26 +19,26 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mochi Pet Supply home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mochi Pet Supply home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/mochi-pet-supply/home-desktop.webp" width="640" alt="Mochi Pet Supply home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/mochi-pet-supply/home-mobile.webp" width="200" alt="Mochi Pet Supply home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Food finder: [desktop](screenshots/food-finder-desktop.webp) · [mobile](screenshots/food-finder-mobile.webp)
-- Subscribe and save: [desktop](screenshots/subscribe-and-save-desktop.webp) · [mobile](screenshots/subscribe-and-save-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Nutrition desk: [desktop](screenshots/nutrition-desk-desktop.webp) · [mobile](screenshots/nutrition-desk-mobile.webp)
-- Feeding guides: [desktop](screenshots/feeding-guides-desktop.webp) · [mobile](screenshots/feeding-guides-mobile.webp)
-- Delivery returns: [desktop](screenshots/delivery-returns-desktop.webp) · [mobile](screenshots/delivery-returns-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Shop: [desktop](https://shots.codotx.com/mochi-pet-supply/shop-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/mochi-pet-supply/product-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/product-mobile.webp)
+- Food finder: [desktop](https://shots.codotx.com/mochi-pet-supply/food-finder-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/food-finder-mobile.webp)
+- Subscribe and save: [desktop](https://shots.codotx.com/mochi-pet-supply/subscribe-and-save-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/subscribe-and-save-mobile.webp)
+- About: [desktop](https://shots.codotx.com/mochi-pet-supply/about-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/about-mobile.webp)
+- Nutrition desk: [desktop](https://shots.codotx.com/mochi-pet-supply/nutrition-desk-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/nutrition-desk-mobile.webp)
+- Feeding guides: [desktop](https://shots.codotx.com/mochi-pet-supply/feeding-guides-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/feeding-guides-mobile.webp)
+- Delivery returns: [desktop](https://shots.codotx.com/mochi-pet-supply/delivery-returns-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/delivery-returns-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/mochi-pet-supply/stories-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/stories-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/mochi-pet-supply/visit-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/visit-mobile.webp)
+- News: [desktop](https://shots.codotx.com/mochi-pet-supply/news-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/mochi-pet-supply/article-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/mochi-pet-supply/category-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/mochi-pet-supply/tag-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/mochi-pet-supply/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/mochi-pet-supply/contact-desktop.webp) · [mobile](https://shots.codotx.com/mochi-pet-supply/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/mochi-pet-supply/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/mochi-pet-supply/ja/home-desktop.webp) · [fr](https://shots.codotx.com/mochi-pet-supply/fr/home-desktop.webp) · [de](https://shots.codotx.com/mochi-pet-supply/de/home-desktop.webp)
 <!-- screenshots:end -->

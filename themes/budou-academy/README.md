@@ -17,24 +17,24 @@ English home page and the linked inner pages as short text pages. Inner-page lay
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Budou Academy home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Budou Academy home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/budou-academy/home-desktop.webp" width="640" alt="Budou Academy home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/budou-academy/home-mobile.webp" width="200" alt="Budou Academy home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Day: [desktop](screenshots/day-desktop.webp) · [mobile](screenshots/day-mobile.webp)
-- Programmes: [desktop](screenshots/programmes-desktop.webp) · [mobile](screenshots/programmes-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Faculty: [desktop](screenshots/faculty-desktop.webp) · [mobile](screenshots/faculty-mobile.webp)
-- Alumni: [desktop](screenshots/alumni-desktop.webp) · [mobile](screenshots/alumni-mobile.webp)
-- Restaurants: [desktop](screenshots/restaurants-desktop.webp) · [mobile](screenshots/restaurants-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/budou-academy/about-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/budou-academy/news-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/budou-academy/article-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/budou-academy/category-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/budou-academy/tag-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/budou-academy/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/budou-academy/contact-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/contact-mobile.webp)
+- Day: [desktop](https://shots.codotx.com/budou-academy/day-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/day-mobile.webp)
+- Programmes: [desktop](https://shots.codotx.com/budou-academy/programmes-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/programmes-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/budou-academy/fees-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/fees-mobile.webp)
+- Faculty: [desktop](https://shots.codotx.com/budou-academy/faculty-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/faculty-mobile.webp)
+- Alumni: [desktop](https://shots.codotx.com/budou-academy/alumni-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/alumni-mobile.webp)
+- Restaurants: [desktop](https://shots.codotx.com/budou-academy/restaurants-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/restaurants-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/budou-academy/visit-desktop.webp) · [mobile](https://shots.codotx.com/budou-academy/visit-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/budou-academy/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/budou-academy/ja/home-desktop.webp) · [fr](https://shots.codotx.com/budou-academy/fr/home-desktop.webp) · [de](https://shots.codotx.com/budou-academy/de/home-desktop.webp)
 <!-- screenshots:end -->

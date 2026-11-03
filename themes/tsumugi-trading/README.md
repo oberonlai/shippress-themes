@@ -40,23 +40,23 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs generated wit
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tsumugi Trading home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tsumugi Trading home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsumugi-trading/home-desktop.webp" width="640" alt="Tsumugi Trading home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsumugi-trading/home-mobile.webp" width="200" alt="Tsumugi Trading home page on mobile"></td>
 </tr>
 </table>
 
-- Business: [desktop](screenshots/business-lines-desktop.webp) · [mobile](screenshots/business-lines-mobile.webp)
-- How we trade: [desktop](screenshots/how-we-trade-desktop.webp) · [mobile](screenshots/how-we-trade-mobile.webp)
-- Leadership: [desktop](screenshots/leadership-desktop.webp) · [mobile](screenshots/leadership-mobile.webp)
-- Sustainability: [desktop](screenshots/sustainability-desktop.webp) · [mobile](screenshots/sustainability-mobile.webp)
-- Careers: [desktop](screenshots/careers-desktop.webp) · [mobile](screenshots/careers-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Business lines: [desktop](https://shots.codotx.com/tsumugi-trading/business-lines-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/business-lines-mobile.webp)
+- How we trade: [desktop](https://shots.codotx.com/tsumugi-trading/how-we-trade-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/how-we-trade-mobile.webp)
+- Leadership: [desktop](https://shots.codotx.com/tsumugi-trading/leadership-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/leadership-mobile.webp)
+- Sustainability: [desktop](https://shots.codotx.com/tsumugi-trading/sustainability-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/sustainability-mobile.webp)
+- Careers: [desktop](https://shots.codotx.com/tsumugi-trading/careers-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/careers-mobile.webp)
+- About: [desktop](https://shots.codotx.com/tsumugi-trading/about-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/tsumugi-trading/news-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/tsumugi-trading/article-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/tsumugi-trading/category-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/tsumugi-trading/tag-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/tsumugi-trading/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/tsumugi-trading/contact-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/tsumugi-trading/search-desktop.webp) · [mobile](https://shots.codotx.com/tsumugi-trading/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/tsumugi-trading/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/tsumugi-trading/ja/home-desktop.webp) · [fr](https://shots.codotx.com/tsumugi-trading/fr/home-desktop.webp) · [de](https://shots.codotx.com/tsumugi-trading/de/home-desktop.webp)
 <!-- screenshots:end -->

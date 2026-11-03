@@ -16,20 +16,20 @@ Every template is the header (the shop name centred, the Book a fitting button, 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hanayui Kimono home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hanayui Kimono home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hanayui-kimono/home-desktop.webp" width="640" alt="Hanayui Kimono home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hanayui-kimono/home-mobile.webp" width="200" alt="Hanayui Kimono home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Shop: [desktop](https://shots.codotx.com/hanayui-kimono/shop-desktop.webp) · [mobile](https://shots.codotx.com/hanayui-kimono/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/hanayui-kimono/product-desktop.webp) · [mobile](https://shots.codotx.com/hanayui-kimono/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hanayui-kimono/about-desktop.webp) · [mobile](https://shots.codotx.com/hanayui-kimono/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hanayui-kimono/contact-desktop.webp) · [mobile](https://shots.codotx.com/hanayui-kimono/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hanayui-kimono/news-desktop.webp) · [mobile](https://shots.codotx.com/hanayui-kimono/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hanayui-kimono/article-desktop.webp) · [mobile](https://shots.codotx.com/hanayui-kimono/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hanayui-kimono/category-desktop.webp) · [mobile](https://shots.codotx.com/hanayui-kimono/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hanayui-kimono/tag-desktop.webp) · [mobile](https://shots.codotx.com/hanayui-kimono/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hanayui-kimono/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hanayui-kimono/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hanayui-kimono/search-desktop.webp) · [mobile](https://shots.codotx.com/hanayui-kimono/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hanayui-kimono/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hanayui-kimono/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hanayui-kimono/fr/home-desktop.webp) · [de](https://shots.codotx.com/hanayui-kimono/de/home-desktop.webp)
 <!-- screenshots:end -->

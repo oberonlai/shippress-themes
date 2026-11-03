@@ -16,19 +16,19 @@ Every template is the top header (with the side-rail menu on wide screens), the 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Koshi Machiya home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Koshi Machiya home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/koshi-machiya/home-desktop.webp" width="640" alt="Koshi Machiya home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/koshi-machiya/home-mobile.webp" width="200" alt="Koshi Machiya home page on mobile"></td>
 </tr>
 </table>
 
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Rooms: [desktop](https://shots.codotx.com/koshi-machiya/rooms-desktop.webp) · [mobile](https://shots.codotx.com/koshi-machiya/rooms-mobile.webp)
+- About: [desktop](https://shots.codotx.com/koshi-machiya/about-desktop.webp) · [mobile](https://shots.codotx.com/koshi-machiya/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/koshi-machiya/news-desktop.webp) · [mobile](https://shots.codotx.com/koshi-machiya/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/koshi-machiya/article-desktop.webp) · [mobile](https://shots.codotx.com/koshi-machiya/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/koshi-machiya/category-desktop.webp) · [mobile](https://shots.codotx.com/koshi-machiya/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/koshi-machiya/tag-desktop.webp) · [mobile](https://shots.codotx.com/koshi-machiya/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/koshi-machiya/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/koshi-machiya/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/koshi-machiya/contact-desktop.webp) · [mobile](https://shots.codotx.com/koshi-machiya/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/koshi-machiya/search-desktop.webp) · [mobile](https://shots.codotx.com/koshi-machiya/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/koshi-machiya/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/koshi-machiya/ja/home-desktop.webp) · [fr](https://shots.codotx.com/koshi-machiya/fr/home-desktop.webp) · [de](https://shots.codotx.com/koshi-machiya/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -37,27 +37,27 @@ The demo import creates Home, Projects (with the child page Harbour Workshops), 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kosei Architects home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kosei Architects home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kosei-architects/home-desktop.webp" width="640" alt="Kosei Architects home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kosei-architects/home-mobile.webp" width="200" alt="Kosei Architects home page on mobile"></td>
 </tr>
 </table>
 
-- Projects: [desktop](screenshots/projects-desktop.webp) · [mobile](screenshots/projects-mobile.webp)
-- Harbour workshops: [desktop](screenshots/harbour-workshops-desktop.webp) · [mobile](screenshots/harbour-workshops-mobile.webp)
-- Workplaces: [desktop](screenshots/workplaces-desktop.webp) · [mobile](screenshots/workplaces-mobile.webp)
-- Housing: [desktop](screenshots/housing-desktop.webp) · [mobile](screenshots/housing-mobile.webp)
-- Renovation: [desktop](screenshots/renovation-desktop.webp) · [mobile](screenshots/renovation-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Process: [desktop](screenshots/process-desktop.webp) · [mobile](screenshots/process-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Studio: [desktop](screenshots/studio-desktop.webp) · [mobile](screenshots/studio-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Projects: [desktop](https://shots.codotx.com/kosei-architects/projects-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/projects-mobile.webp)
+- Harbour workshops: [desktop](https://shots.codotx.com/kosei-architects/harbour-workshops-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/harbour-workshops-mobile.webp)
+- Workplaces: [desktop](https://shots.codotx.com/kosei-architects/workplaces-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/workplaces-mobile.webp)
+- Housing: [desktop](https://shots.codotx.com/kosei-architects/housing-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/housing-mobile.webp)
+- Renovation: [desktop](https://shots.codotx.com/kosei-architects/renovation-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/renovation-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/kosei-architects/services-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/services-mobile.webp)
+- Process: [desktop](https://shots.codotx.com/kosei-architects/process-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/process-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/kosei-architects/fees-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/fees-mobile.webp)
+- Studio: [desktop](https://shots.codotx.com/kosei-architects/studio-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/studio-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kosei-architects/about-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/about-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/kosei-architects/journal-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/journal-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kosei-architects/news-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kosei-architects/article-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kosei-architects/category-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kosei-architects/tag-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kosei-architects/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kosei-architects/contact-desktop.webp) · [mobile](https://shots.codotx.com/kosei-architects/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kosei-architects/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kosei-architects/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kosei-architects/fr/home-desktop.webp) · [de](https://shots.codotx.com/kosei-architects/de/home-desktop.webp)
 <!-- screenshots:end -->

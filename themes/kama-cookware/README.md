@@ -25,27 +25,27 @@ Split navigation on wide screens; below 782px all six links sit behind the menu 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kama Cookware home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kama Cookware home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kama-cookware/home-desktop.webp" width="640" alt="Kama Cookware home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kama-cookware/home-mobile.webp" width="200" alt="Kama Cookware home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Carbon steel frying pan: [desktop](screenshots/carbon-steel-frying-pan-desktop.webp) · [mobile](screenshots/carbon-steel-frying-pan-mobile.webp)
-- Which pan: [desktop](screenshots/which-pan-desktop.webp) · [mobile](screenshots/which-pan-mobile.webp)
-- Seasoning care: [desktop](screenshots/seasoning-care-desktop.webp) · [mobile](screenshots/seasoning-care-mobile.webp)
-- Repair service: [desktop](screenshots/repair-service-desktop.webp) · [mobile](screenshots/repair-service-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Shipping returns: [desktop](screenshots/shipping-returns-desktop.webp) · [mobile](screenshots/shipping-returns-mobile.webp)
-- Cart: [desktop](screenshots/cart-desktop.webp) · [mobile](screenshots/cart-mobile.webp)
-- Checkout: [desktop](screenshots/checkout-desktop.webp) · [mobile](screenshots/checkout-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/kama-cookware/about-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kama-cookware/news-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kama-cookware/article-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kama-cookware/category-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kama-cookware/tag-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kama-cookware/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kama-cookware/contact-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/contact-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/kama-cookware/shop-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/shop-mobile.webp)
+- Carbon steel frying pan: [desktop](https://shots.codotx.com/kama-cookware/carbon-steel-frying-pan-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/carbon-steel-frying-pan-mobile.webp)
+- Which pan: [desktop](https://shots.codotx.com/kama-cookware/which-pan-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/which-pan-mobile.webp)
+- Seasoning care: [desktop](https://shots.codotx.com/kama-cookware/seasoning-care-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/seasoning-care-mobile.webp)
+- Repair service: [desktop](https://shots.codotx.com/kama-cookware/repair-service-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/repair-service-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/kama-cookware/journal-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/journal-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/kama-cookware/visit-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/visit-mobile.webp)
+- Shipping returns: [desktop](https://shots.codotx.com/kama-cookware/shipping-returns-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/shipping-returns-mobile.webp)
+- Cart: [desktop](https://shots.codotx.com/kama-cookware/cart-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/cart-mobile.webp)
+- Checkout: [desktop](https://shots.codotx.com/kama-cookware/checkout-desktop.webp) · [mobile](https://shots.codotx.com/kama-cookware/checkout-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kama-cookware/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kama-cookware/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kama-cookware/fr/home-desktop.webp) · [de](https://shots.codotx.com/kama-cookware/de/home-desktop.webp)
 <!-- screenshots:end -->

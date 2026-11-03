@@ -33,19 +33,19 @@ Fonts: Klee One (Fontworks, OFL-1.1), Noto Sans (Noto Project, OFL-1.1). Photogr
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tabi Note home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tabi Note home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/tabi-note/home-desktop.webp" width="640" alt="Tabi Note home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/tabi-note/home-mobile.webp" width="200" alt="Tabi Note home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Tours: [desktop](screenshots/tours-desktop.webp) · [mobile](screenshots/tours-mobile.webp)
-- Itinerary: [desktop](screenshots/itinerary-desktop.webp) · [mobile](screenshots/itinerary-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/tabi-note/about-desktop.webp) · [mobile](https://shots.codotx.com/tabi-note/about-mobile.webp)
+- Tours: [desktop](https://shots.codotx.com/tabi-note/tours-desktop.webp) · [mobile](https://shots.codotx.com/tabi-note/tours-mobile.webp)
+- Itinerary: [desktop](https://shots.codotx.com/tabi-note/itinerary-desktop.webp) · [mobile](https://shots.codotx.com/tabi-note/itinerary-mobile.webp)
+- News: [desktop](https://shots.codotx.com/tabi-note/news-desktop.webp) · [mobile](https://shots.codotx.com/tabi-note/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/tabi-note/article-desktop.webp) · [mobile](https://shots.codotx.com/tabi-note/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/tabi-note/category-desktop.webp) · [mobile](https://shots.codotx.com/tabi-note/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/tabi-note/tag-desktop.webp) · [mobile](https://shots.codotx.com/tabi-note/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/tabi-note/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/tabi-note/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/tabi-note/contact-desktop.webp) · [mobile](https://shots.codotx.com/tabi-note/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/tabi-note/search-desktop.webp) · [mobile](https://shots.codotx.com/tabi-note/search-mobile.webp)
 <!-- screenshots:end -->

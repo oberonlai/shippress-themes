@@ -34,24 +34,24 @@ Each inner page (template `page-wide`) opens with a small arch-window header (T1
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Suzu Ballet home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Suzu Ballet home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/suzu-ballet/home-desktop.webp" width="640" alt="Suzu Ballet home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/suzu-ballet/home-mobile.webp" width="200" alt="Suzu Ballet home page on mobile"></td>
 </tr>
 </table>
 
-- Classes: [desktop](screenshots/classes-desktop.webp) · [mobile](screenshots/classes-mobile.webp)
-- Timetable: [desktop](screenshots/timetable-desktop.webp) · [mobile](screenshots/timetable-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Teachers: [desktop](screenshots/teachers-desktop.webp) · [mobile](screenshots/teachers-mobile.webp)
-- Trial: [desktop](screenshots/trial-desktop.webp) · [mobile](screenshots/trial-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Showcase: [desktop](screenshots/showcase-desktop.webp) · [mobile](screenshots/showcase-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Classes: [desktop](https://shots.codotx.com/suzu-ballet/classes-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/classes-mobile.webp)
+- Timetable: [desktop](https://shots.codotx.com/suzu-ballet/timetable-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/timetable-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/suzu-ballet/fees-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/fees-mobile.webp)
+- Teachers: [desktop](https://shots.codotx.com/suzu-ballet/teachers-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/teachers-mobile.webp)
+- Trial: [desktop](https://shots.codotx.com/suzu-ballet/trial-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/trial-mobile.webp)
+- About: [desktop](https://shots.codotx.com/suzu-ballet/about-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/about-mobile.webp)
+- Showcase: [desktop](https://shots.codotx.com/suzu-ballet/showcase-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/showcase-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/suzu-ballet/journal-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/journal-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/suzu-ballet/contact-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/suzu-ballet/news-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/suzu-ballet/article-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/suzu-ballet/category-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/suzu-ballet/tag-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/suzu-ballet/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/suzu-ballet/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/suzu-ballet/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/suzu-ballet/ja/home-desktop.webp) · [fr](https://shots.codotx.com/suzu-ballet/fr/home-desktop.webp) · [de](https://shots.codotx.com/suzu-ballet/de/home-desktop.webp)
 <!-- screenshots:end -->

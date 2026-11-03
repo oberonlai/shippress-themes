@@ -25,25 +25,25 @@ GPL-2.0-or-later. Fonts: SIL OFL 1.1.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kumoi Lodge home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kumoi Lodge home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kumoi-lodge/home-desktop.webp" width="640" alt="Kumoi Lodge home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kumoi-lodge/home-mobile.webp" width="200" alt="Kumoi Lodge home page on mobile"></td>
 </tr>
 </table>
 
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- The stay: [desktop](screenshots/the-stay-desktop.webp) · [mobile](screenshots/the-stay-mobile.webp)
-- The table: [desktop](screenshots/the-table-desktop.webp) · [mobile](screenshots/the-table-mobile.webp)
-- Rates and booking: [desktop](screenshots/rates-and-booking-desktop.webp) · [mobile](screenshots/rates-and-booking-mobile.webp)
-- Walks and weather: [desktop](screenshots/walks-and-weather-desktop.webp) · [mobile](screenshots/walks-and-weather-mobile.webp)
-- Getting here: [desktop](screenshots/getting-here-desktop.webp) · [mobile](screenshots/getting-here-mobile.webp)
-- Keepers: [desktop](screenshots/keepers-desktop.webp) · [mobile](screenshots/keepers-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Rooms: [desktop](https://shots.codotx.com/kumoi-lodge/rooms-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/rooms-mobile.webp)
+- The stay: [desktop](https://shots.codotx.com/kumoi-lodge/the-stay-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/the-stay-mobile.webp)
+- The table: [desktop](https://shots.codotx.com/kumoi-lodge/the-table-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/the-table-mobile.webp)
+- Rates and booking: [desktop](https://shots.codotx.com/kumoi-lodge/rates-and-booking-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/rates-and-booking-mobile.webp)
+- Walks and weather: [desktop](https://shots.codotx.com/kumoi-lodge/walks-and-weather-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/walks-and-weather-mobile.webp)
+- Getting here: [desktop](https://shots.codotx.com/kumoi-lodge/getting-here-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/getting-here-mobile.webp)
+- Keepers: [desktop](https://shots.codotx.com/kumoi-lodge/keepers-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/keepers-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/kumoi-lodge/notes-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/notes-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kumoi-lodge/contact-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/contact-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kumoi-lodge/about-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kumoi-lodge/news-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kumoi-lodge/article-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kumoi-lodge/category-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kumoi-lodge/tag-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kumoi-lodge/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kumoi-lodge/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kumoi-lodge/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kumoi-lodge/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kumoi-lodge/fr/home-desktop.webp) · [de](https://shots.codotx.com/kumoi-lodge/de/home-desktop.webp)
 <!-- screenshots:end -->

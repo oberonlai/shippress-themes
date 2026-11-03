@@ -40,26 +40,26 @@ Each page opens with the smaller framed window (`mc_pagehead()`: backdrop photog
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Mame Coffee home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Mame Coffee home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/mame-coffee/home-desktop.webp" width="640" alt="Mame Coffee home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/mame-coffee/home-mobile.webp" width="200" alt="Mame Coffee home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Lots: [desktop](screenshots/lots-desktop.webp) · [mobile](screenshots/lots-mobile.webp)
-- Bar: [desktop](screenshots/bar-desktop.webp) · [mobile](screenshots/bar-mobile.webp)
-- Roastery: [desktop](screenshots/roastery-desktop.webp) · [mobile](screenshots/roastery-mobile.webp)
-- Origins: [desktop](screenshots/origins-desktop.webp) · [mobile](screenshots/origins-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- Cupping: [desktop](screenshots/cupping-desktop.webp) · [mobile](screenshots/cupping-mobile.webp)
-- Wholesale: [desktop](screenshots/wholesale-desktop.webp) · [mobile](screenshots/wholesale-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/mame-coffee/about-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/about-mobile.webp)
+- Lots: [desktop](https://shots.codotx.com/mame-coffee/lots-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/lots-mobile.webp)
+- Bar: [desktop](https://shots.codotx.com/mame-coffee/bar-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/bar-mobile.webp)
+- Roastery: [desktop](https://shots.codotx.com/mame-coffee/roastery-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/roastery-mobile.webp)
+- Origins: [desktop](https://shots.codotx.com/mame-coffee/origins-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/origins-mobile.webp)
+- People: [desktop](https://shots.codotx.com/mame-coffee/people-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/people-mobile.webp)
+- Cupping: [desktop](https://shots.codotx.com/mame-coffee/cupping-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/cupping-mobile.webp)
+- Wholesale: [desktop](https://shots.codotx.com/mame-coffee/wholesale-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/wholesale-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/mame-coffee/visit-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/visit-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/mame-coffee/journal-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/journal-mobile.webp)
+- News: [desktop](https://shots.codotx.com/mame-coffee/news-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/mame-coffee/article-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/mame-coffee/category-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/mame-coffee/tag-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/mame-coffee/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/mame-coffee/contact-desktop.webp) · [mobile](https://shots.codotx.com/mame-coffee/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/mame-coffee/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/mame-coffee/ja/home-desktop.webp) · [fr](https://shots.codotx.com/mame-coffee/fr/home-desktop.webp) · [de](https://shots.codotx.com/mame-coffee/de/home-desktop.webp)
 <!-- screenshots:end -->

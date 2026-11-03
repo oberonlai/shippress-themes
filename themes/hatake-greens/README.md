@@ -25,28 +25,28 @@ The header menu goes to the real inner pages (the crate, packing morning, plans,
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hatake Greens home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hatake Greens home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hatake-greens/home-desktop.webp" width="640" alt="Hatake Greens home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hatake-greens/home-mobile.webp" width="200" alt="Hatake Greens home page on mobile"></td>
 </tr>
 </table>
 
-- The crate: [desktop](screenshots/the-crate-desktop.webp) · [mobile](screenshots/the-crate-mobile.webp)
-- Packing: [desktop](screenshots/packing-desktop.webp) · [mobile](screenshots/packing-mobile.webp)
-- Growers: [desktop](screenshots/growers-desktop.webp) · [mobile](screenshots/growers-mobile.webp)
-- Plans: [desktop](screenshots/plans-desktop.webp) · [mobile](screenshots/plans-mobile.webp)
-- Delivery: [desktop](screenshots/delivery-desktop.webp) · [mobile](screenshots/delivery-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Questions: [desktop](screenshots/questions-desktop.webp) · [mobile](screenshots/questions-mobile.webp)
-- Waitlist: [desktop](screenshots/waitlist-desktop.webp) · [mobile](screenshots/waitlist-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- The crate: [desktop](https://shots.codotx.com/hatake-greens/the-crate-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/the-crate-mobile.webp)
+- Packing: [desktop](https://shots.codotx.com/hatake-greens/packing-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/packing-mobile.webp)
+- Growers: [desktop](https://shots.codotx.com/hatake-greens/growers-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/growers-mobile.webp)
+- Plans: [desktop](https://shots.codotx.com/hatake-greens/plans-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/plans-mobile.webp)
+- Delivery: [desktop](https://shots.codotx.com/hatake-greens/delivery-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/delivery-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/hatake-greens/stories-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/stories-mobile.webp)
+- Questions: [desktop](https://shots.codotx.com/hatake-greens/questions-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/questions-mobile.webp)
+- Waitlist: [desktop](https://shots.codotx.com/hatake-greens/waitlist-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/waitlist-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hatake-greens/about-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/about-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/hatake-greens/privacy-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/hatake-greens/terms-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/terms-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/hatake-greens/thanks-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/thanks-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hatake-greens/news-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hatake-greens/article-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hatake-greens/category-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hatake-greens/tag-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hatake-greens/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hatake-greens/contact-desktop.webp) · [mobile](https://shots.codotx.com/hatake-greens/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hatake-greens/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hatake-greens/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hatake-greens/fr/home-desktop.webp) · [de](https://shots.codotx.com/hatake-greens/de/home-desktop.webp)
 <!-- screenshots:end -->

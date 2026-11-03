@@ -33,23 +33,23 @@ Home, For employers, For job seekers, How a placement works, Consultants, Fees, 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Nami Staffing home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Nami Staffing home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/nami-staffing/home-desktop.webp" width="640" alt="Nami Staffing home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/nami-staffing/home-mobile.webp" width="200" alt="Nami Staffing home page on mobile"></td>
 </tr>
 </table>
 
-- Employers: [desktop](screenshots/employers-desktop.webp) · [mobile](screenshots/employers-mobile.webp)
-- Job seekers: [desktop](screenshots/job-seekers-desktop.webp) · [mobile](screenshots/job-seekers-mobile.webp)
-- Placement: [desktop](screenshots/placement-desktop.webp) · [mobile](screenshots/placement-mobile.webp)
-- Consultants: [desktop](screenshots/consultants-desktop.webp) · [mobile](screenshots/consultants-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Employers: [desktop](https://shots.codotx.com/nami-staffing/employers-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/employers-mobile.webp)
+- Job seekers: [desktop](https://shots.codotx.com/nami-staffing/job-seekers-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/job-seekers-mobile.webp)
+- Placement: [desktop](https://shots.codotx.com/nami-staffing/placement-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/placement-mobile.webp)
+- Consultants: [desktop](https://shots.codotx.com/nami-staffing/consultants-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/consultants-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/nami-staffing/fees-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/fees-mobile.webp)
+- About: [desktop](https://shots.codotx.com/nami-staffing/about-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/nami-staffing/news-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/nami-staffing/article-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/nami-staffing/category-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/nami-staffing/tag-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/nami-staffing/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/nami-staffing/contact-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/nami-staffing/search-desktop.webp) · [mobile](https://shots.codotx.com/nami-staffing/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/nami-staffing/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/nami-staffing/ja/home-desktop.webp) · [fr](https://shots.codotx.com/nami-staffing/fr/home-desktop.webp) · [de](https://shots.codotx.com/nami-staffing/de/home-desktop.webp)
 <!-- screenshots:end -->

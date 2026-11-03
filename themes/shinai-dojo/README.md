@@ -12,19 +12,19 @@ Shinai Dojo — a neighbourhood kendo dojo theme set like a magazine. A formal t
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shinai Dojo home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shinai Dojo home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shinai-dojo/home-desktop.webp" width="640" alt="Shinai Dojo home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shinai-dojo/home-mobile.webp" width="200" alt="Shinai Dojo home page on mobile"></td>
 </tr>
 </table>
 
-- Classes: [desktop](screenshots/classes-desktop.webp) · [mobile](screenshots/classes-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Classes: [desktop](https://shots.codotx.com/shinai-dojo/classes-desktop.webp) · [mobile](https://shots.codotx.com/shinai-dojo/classes-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shinai-dojo/about-desktop.webp) · [mobile](https://shots.codotx.com/shinai-dojo/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shinai-dojo/news-desktop.webp) · [mobile](https://shots.codotx.com/shinai-dojo/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shinai-dojo/article-desktop.webp) · [mobile](https://shots.codotx.com/shinai-dojo/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shinai-dojo/category-desktop.webp) · [mobile](https://shots.codotx.com/shinai-dojo/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shinai-dojo/tag-desktop.webp) · [mobile](https://shots.codotx.com/shinai-dojo/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shinai-dojo/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shinai-dojo/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shinai-dojo/contact-desktop.webp) · [mobile](https://shots.codotx.com/shinai-dojo/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/shinai-dojo/search-desktop.webp) · [mobile](https://shots.codotx.com/shinai-dojo/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/shinai-dojo/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/shinai-dojo/ja/home-desktop.webp) · [fr](https://shots.codotx.com/shinai-dojo/fr/home-desktop.webp) · [de](https://shots.codotx.com/shinai-dojo/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -12,19 +12,19 @@ Teuchi Udon — a handmade udon shop theme laid out like an app: under a formal 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Teuchi Udon home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Teuchi Udon home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/teuchi-udon/home-desktop.webp" width="640" alt="Teuchi Udon home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/teuchi-udon/home-mobile.webp" width="200" alt="Teuchi Udon home page on mobile"></td>
 </tr>
 </table>
 
-- Menu: [desktop](screenshots/menu-desktop.webp) · [mobile](screenshots/menu-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Menu: [desktop](https://shots.codotx.com/teuchi-udon/menu-desktop.webp) · [mobile](https://shots.codotx.com/teuchi-udon/menu-mobile.webp)
+- About: [desktop](https://shots.codotx.com/teuchi-udon/about-desktop.webp) · [mobile](https://shots.codotx.com/teuchi-udon/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/teuchi-udon/news-desktop.webp) · [mobile](https://shots.codotx.com/teuchi-udon/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/teuchi-udon/article-desktop.webp) · [mobile](https://shots.codotx.com/teuchi-udon/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/teuchi-udon/category-desktop.webp) · [mobile](https://shots.codotx.com/teuchi-udon/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/teuchi-udon/tag-desktop.webp) · [mobile](https://shots.codotx.com/teuchi-udon/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/teuchi-udon/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/teuchi-udon/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/teuchi-udon/contact-desktop.webp) · [mobile](https://shots.codotx.com/teuchi-udon/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/teuchi-udon/search-desktop.webp) · [mobile](https://shots.codotx.com/teuchi-udon/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/teuchi-udon/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/teuchi-udon/ja/home-desktop.webp) · [fr](https://shots.codotx.com/teuchi-udon/fr/home-desktop.webp) · [de](https://shots.codotx.com/teuchi-udon/de/home-desktop.webp)
 <!-- screenshots:end -->

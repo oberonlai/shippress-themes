@@ -19,25 +19,25 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Denki Components home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Denki Components home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/denki-components/home-desktop.webp" width="640" alt="Denki Components home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/denki-components/home-mobile.webp" width="200" alt="Denki Components home page on mobile"></td>
 </tr>
 </table>
 
-- Products: [desktop](screenshots/products-desktop.webp) · [mobile](screenshots/products-mobile.webp)
-- Ceramic capacitors: [desktop](screenshots/ceramic-capacitors-desktop.webp) · [mobile](screenshots/ceramic-capacitors-mobile.webp)
-- Chip resistors: [desktop](screenshots/chip-resistors-desktop.webp) · [mobile](screenshots/chip-resistors-mobile.webp)
-- Inductors beads: [desktop](screenshots/inductors-beads-desktop.webp) · [mobile](screenshots/inductors-beads-mobile.webp)
-- Quality: [desktop](screenshots/quality-desktop.webp) · [mobile](screenshots/quality-mobile.webp)
-- Samples: [desktop](screenshots/samples-desktop.webp) · [mobile](screenshots/samples-mobile.webp)
-- Plant: [desktop](screenshots/plant-desktop.webp) · [mobile](screenshots/plant-mobile.webp)
-- Cases: [desktop](screenshots/cases-desktop.webp) · [mobile](screenshots/cases-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Products: [desktop](https://shots.codotx.com/denki-components/products-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/products-mobile.webp)
+- Ceramic capacitors: [desktop](https://shots.codotx.com/denki-components/ceramic-capacitors-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/ceramic-capacitors-mobile.webp)
+- Chip resistors: [desktop](https://shots.codotx.com/denki-components/chip-resistors-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/chip-resistors-mobile.webp)
+- Inductors beads: [desktop](https://shots.codotx.com/denki-components/inductors-beads-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/inductors-beads-mobile.webp)
+- Quality: [desktop](https://shots.codotx.com/denki-components/quality-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/quality-mobile.webp)
+- Samples: [desktop](https://shots.codotx.com/denki-components/samples-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/samples-mobile.webp)
+- Plant: [desktop](https://shots.codotx.com/denki-components/plant-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/plant-mobile.webp)
+- Cases: [desktop](https://shots.codotx.com/denki-components/cases-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/cases-mobile.webp)
+- About: [desktop](https://shots.codotx.com/denki-components/about-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/denki-components/contact-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/denki-components/news-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/denki-components/article-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/denki-components/category-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/denki-components/tag-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/denki-components/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/denki-components/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/denki-components/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/denki-components/ja/home-desktop.webp) · [fr](https://shots.codotx.com/denki-components/fr/home-desktop.webp) · [de](https://shots.codotx.com/denki-components/de/home-desktop.webp)
 <!-- screenshots:end -->

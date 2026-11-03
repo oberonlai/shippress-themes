@@ -72,20 +72,20 @@ Twelve photographs in `assets/images/` (copies in `assets/images/demo/` for the 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kaze Yoga home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kaze Yoga home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kaze-yoga/home-desktop.webp" width="640" alt="Kaze Yoga home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kaze-yoga/home-mobile.webp" width="200" alt="Kaze Yoga home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Timetable: [desktop](screenshots/timetable-desktop.webp) · [mobile](screenshots/timetable-mobile.webp)
-- Instructors: [desktop](screenshots/instructors-desktop.webp) · [mobile](screenshots/instructors-mobile.webp)
-- Trial class: [desktop](screenshots/trial-class-desktop.webp) · [mobile](screenshots/trial-class-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kaze-yoga/about-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/about-mobile.webp)
+- Timetable: [desktop](https://shots.codotx.com/kaze-yoga/timetable-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/timetable-mobile.webp)
+- Instructors: [desktop](https://shots.codotx.com/kaze-yoga/instructors-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/instructors-mobile.webp)
+- Trial class: [desktop](https://shots.codotx.com/kaze-yoga/trial-class-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/trial-class-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kaze-yoga/news-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kaze-yoga/article-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kaze-yoga/category-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kaze-yoga/tag-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kaze-yoga/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kaze-yoga/contact-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kaze-yoga/search-desktop.webp) · [mobile](https://shots.codotx.com/kaze-yoga/search-mobile.webp)
 <!-- screenshots:end -->

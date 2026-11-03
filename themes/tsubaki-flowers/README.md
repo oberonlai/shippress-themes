@@ -15,24 +15,24 @@ Home page (en) is final for stage two: hero text contrast and mobile crop fixed,
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tsubaki Flowers home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tsubaki Flowers home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsubaki-flowers/home-desktop.webp" width="640" alt="Tsubaki Flowers home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsubaki-flowers/home-mobile.webp" width="200" alt="Tsubaki Flowers home page on mobile"></td>
 </tr>
 </table>
 
-- Story: [desktop](screenshots/story-desktop.webp) · [mobile](screenshots/story-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- Week: [desktop](screenshots/week-desktop.webp) · [mobile](screenshots/week-mobile.webp)
-- Flowers prices: [desktop](screenshots/flowers-prices-desktop.webp) · [mobile](screenshots/flowers-prices-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Story: [desktop](https://shots.codotx.com/tsubaki-flowers/story-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/story-mobile.webp)
+- People: [desktop](https://shots.codotx.com/tsubaki-flowers/people-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/people-mobile.webp)
+- Week: [desktop](https://shots.codotx.com/tsubaki-flowers/week-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/week-mobile.webp)
+- Flowers prices: [desktop](https://shots.codotx.com/tsubaki-flowers/flowers-prices-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/flowers-prices-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/tsubaki-flowers/shop-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/shop-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/tsubaki-flowers/visit-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/visit-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/tsubaki-flowers/journal-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/journal-mobile.webp)
+- About: [desktop](https://shots.codotx.com/tsubaki-flowers/about-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/tsubaki-flowers/news-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/tsubaki-flowers/article-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/tsubaki-flowers/category-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/tsubaki-flowers/tag-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/tsubaki-flowers/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/tsubaki-flowers/contact-desktop.webp) · [mobile](https://shots.codotx.com/tsubaki-flowers/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/tsubaki-flowers/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/tsubaki-flowers/ja/home-desktop.webp) · [fr](https://shots.codotx.com/tsubaki-flowers/fr/home-desktop.webp) · [de](https://shots.codotx.com/tsubaki-flowers/de/home-desktop.webp)
 <!-- screenshots:end -->

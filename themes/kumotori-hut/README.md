@@ -35,20 +35,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Illustrations AI-generate
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kumotori Hut home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kumotori Hut home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kumotori-hut/home-desktop.webp" width="640" alt="Kumotori Hut home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kumotori-hut/home-mobile.webp" width="200" alt="Kumotori Hut home page on mobile"></td>
 </tr>
 </table>
 
-- Routes: [desktop](screenshots/routes-desktop.webp) · [mobile](screenshots/routes-mobile.webp)
-- Stay booking: [desktop](screenshots/stay-booking-desktop.webp) · [mobile](screenshots/stay-booking-mobile.webp)
-- Season: [desktop](screenshots/season-desktop.webp) · [mobile](screenshots/season-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Routes: [desktop](https://shots.codotx.com/kumotori-hut/routes-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/routes-mobile.webp)
+- Stay booking: [desktop](https://shots.codotx.com/kumotori-hut/stay-booking-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/stay-booking-mobile.webp)
+- Season: [desktop](https://shots.codotx.com/kumotori-hut/season-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/season-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kumotori-hut/about-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kumotori-hut/news-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kumotori-hut/article-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kumotori-hut/category-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kumotori-hut/tag-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kumotori-hut/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kumotori-hut/contact-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kumotori-hut/search-desktop.webp) · [mobile](https://shots.codotx.com/kumotori-hut/search-mobile.webp)
 <!-- screenshots:end -->

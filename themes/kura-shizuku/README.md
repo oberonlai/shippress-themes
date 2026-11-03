@@ -101,20 +101,20 @@ Twenty-four original illustrations drawn in code for this theme (`assets/images/
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kura Shizuku home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kura Shizuku home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kura-shizuku/home-desktop.webp" width="640" alt="Kura Shizuku home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kura-shizuku/home-mobile.webp" width="200" alt="Kura Shizuku home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Brewery: [desktop](screenshots/brewery-desktop.webp) · [mobile](screenshots/brewery-mobile.webp)
-- Tasting room: [desktop](screenshots/tasting-room-desktop.webp) · [mobile](screenshots/tasting-room-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kura-shizuku/about-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kura-shizuku/news-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kura-shizuku/article-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kura-shizuku/category-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kura-shizuku/tag-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kura-shizuku/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kura-shizuku/contact-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/contact-mobile.webp)
+- Brewery: [desktop](https://shots.codotx.com/kura-shizuku/brewery-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/brewery-mobile.webp)
+- Tasting room: [desktop](https://shots.codotx.com/kura-shizuku/tasting-room-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/tasting-room-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/kura-shizuku/shop-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/kura-shizuku/product-desktop.webp) · [mobile](https://shots.codotx.com/kura-shizuku/product-mobile.webp)
 <!-- screenshots:end -->

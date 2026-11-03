@@ -28,27 +28,27 @@ See readme.txt.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Azuke Finance home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Azuke Finance home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/azuke-finance/home-desktop.webp" width="640" alt="Azuke Finance home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/azuke-finance/home-mobile.webp" width="200" alt="Azuke Finance home page on mobile"></td>
 </tr>
 </table>
 
-- How it works: [desktop](screenshots/how-it-works-desktop.webp) · [mobile](screenshots/how-it-works-mobile.webp)
-- Pricing: [desktop](screenshots/pricing-desktop.webp) · [mobile](screenshots/pricing-mobile.webp)
-- Who its for: [desktop](screenshots/who-its-for-desktop.webp) · [mobile](screenshots/who-its-for-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Apply: [desktop](screenshots/apply-desktop.webp) · [mobile](screenshots/apply-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Early access: [desktop](screenshots/early-access-desktop.webp) · [mobile](screenshots/early-access-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- How it works: [desktop](https://shots.codotx.com/azuke-finance/how-it-works-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/how-it-works-mobile.webp)
+- Pricing: [desktop](https://shots.codotx.com/azuke-finance/pricing-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/pricing-mobile.webp)
+- Who its for: [desktop](https://shots.codotx.com/azuke-finance/who-its-for-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/who-its-for-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/azuke-finance/stories-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/stories-mobile.webp)
+- About: [desktop](https://shots.codotx.com/azuke-finance/about-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/about-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/azuke-finance/faq-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/faq-mobile.webp)
+- Apply: [desktop](https://shots.codotx.com/azuke-finance/apply-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/apply-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/azuke-finance/contact-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/contact-mobile.webp)
+- Early access: [desktop](https://shots.codotx.com/azuke-finance/early-access-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/early-access-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/azuke-finance/privacy-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/azuke-finance/terms-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/terms-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/azuke-finance/thanks-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/thanks-mobile.webp)
+- News: [desktop](https://shots.codotx.com/azuke-finance/news-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/azuke-finance/article-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/azuke-finance/category-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/azuke-finance/tag-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/azuke-finance/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/azuke-finance/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/azuke-finance/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/azuke-finance/ja/home-desktop.webp) · [fr](https://shots.codotx.com/azuke-finance/fr/home-desktop.webp) · [de](https://shots.codotx.com/azuke-finance/de/home-desktop.webp)
 <!-- screenshots:end -->

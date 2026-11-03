@@ -49,26 +49,26 @@ The clinic, its clinicians, addresses and prices are fictional. Works without an
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hone Orthopedics home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hone Orthopedics home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hone-orthopedics/home-desktop.webp" width="640" alt="Hone Orthopedics home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hone-orthopedics/home-mobile.webp" width="200" alt="Hone Orthopedics home page on mobile"></td>
 </tr>
 </table>
 
-- Specialists: [desktop](screenshots/specialists-desktop.webp) · [mobile](screenshots/specialists-mobile.webp)
-- Conditions: [desktop](screenshots/conditions-desktop.webp) · [mobile](screenshots/conditions-mobile.webp)
-- Sports injury: [desktop](screenshots/sports-injury-desktop.webp) · [mobile](screenshots/sports-injury-mobile.webp)
-- Physiotherapy: [desktop](screenshots/physiotherapy-desktop.webp) · [mobile](screenshots/physiotherapy-mobile.webp)
-- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Book: [desktop](screenshots/book-desktop.webp) · [mobile](screenshots/book-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Specialists: [desktop](https://shots.codotx.com/hone-orthopedics/specialists-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/specialists-mobile.webp)
+- Conditions: [desktop](https://shots.codotx.com/hone-orthopedics/conditions-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/conditions-mobile.webp)
+- Sports injury: [desktop](https://shots.codotx.com/hone-orthopedics/sports-injury-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/sports-injury-mobile.webp)
+- Physiotherapy: [desktop](https://shots.codotx.com/hone-orthopedics/physiotherapy-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/physiotherapy-mobile.webp)
+- First visit: [desktop](https://shots.codotx.com/hone-orthopedics/first-visit-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/first-visit-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/hone-orthopedics/fees-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/fees-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/hone-orthopedics/stories-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/stories-mobile.webp)
+- Book: [desktop](https://shots.codotx.com/hone-orthopedics/book-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/book-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hone-orthopedics/about-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hone-orthopedics/news-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hone-orthopedics/article-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hone-orthopedics/category-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hone-orthopedics/tag-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hone-orthopedics/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hone-orthopedics/contact-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/contact-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/hone-orthopedics/journal-desktop.webp) · [mobile](https://shots.codotx.com/hone-orthopedics/journal-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hone-orthopedics/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hone-orthopedics/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hone-orthopedics/fr/home-desktop.webp) · [de](https://shots.codotx.com/hone-orthopedics/de/home-desktop.webp)
 <!-- screenshots:end -->

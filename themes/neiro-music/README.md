@@ -27,26 +27,26 @@ A WordPress block theme for a private music school in Ghent (founded 2011) for c
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Neiro Music home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Neiro Music home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/neiro-music/home-desktop.webp" width="640" alt="Neiro Music home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/neiro-music/home-mobile.webp" width="200" alt="Neiro Music home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Lessons: [desktop](screenshots/lessons-desktop.webp) · [mobile](screenshots/lessons-mobile.webp)
-- Schedule: [desktop](screenshots/schedule-desktop.webp) · [mobile](screenshots/schedule-mobile.webp)
-- Teachers: [desktop](screenshots/teachers-desktop.webp) · [mobile](screenshots/teachers-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Recitals: [desktop](screenshots/recitals-desktop.webp) · [mobile](screenshots/recitals-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/neiro-music/about-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/about-mobile.webp)
+- Lessons: [desktop](https://shots.codotx.com/neiro-music/lessons-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/lessons-mobile.webp)
+- Schedule: [desktop](https://shots.codotx.com/neiro-music/schedule-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/schedule-mobile.webp)
+- Teachers: [desktop](https://shots.codotx.com/neiro-music/teachers-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/teachers-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/neiro-music/fees-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/fees-mobile.webp)
+- Recitals: [desktop](https://shots.codotx.com/neiro-music/recitals-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/recitals-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/neiro-music/stories-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/stories-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/neiro-music/faq-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/faq-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/neiro-music/visit-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/visit-mobile.webp)
+- News: [desktop](https://shots.codotx.com/neiro-music/news-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/neiro-music/article-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/neiro-music/category-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/neiro-music/tag-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/neiro-music/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/neiro-music/contact-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/neiro-music/search-desktop.webp) · [mobile](https://shots.codotx.com/neiro-music/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/neiro-music/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/neiro-music/ja/home-desktop.webp) · [fr](https://shots.codotx.com/neiro-music/fr/home-desktop.webp) · [de](https://shots.codotx.com/neiro-music/de/home-desktop.webp)
 <!-- screenshots:end -->

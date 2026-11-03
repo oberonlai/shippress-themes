@@ -19,26 +19,26 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Ishizue Holdings home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Ishizue Holdings home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/ishizue-holdings/home-desktop.webp" width="640" alt="Ishizue Holdings home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/ishizue-holdings/home-mobile.webp" width="200" alt="Ishizue Holdings home page on mobile"></td>
 </tr>
 </table>
 
-- History: [desktop](screenshots/history-desktop.webp) · [mobile](screenshots/history-mobile.webp)
-- Companies: [desktop](screenshots/companies-desktop.webp) · [mobile](screenshots/companies-mobile.webp)
-- Leadership: [desktop](screenshots/leadership-desktop.webp) · [mobile](screenshots/leadership-mobile.webp)
-- Governance: [desktop](screenshots/governance-desktop.webp) · [mobile](screenshots/governance-mobile.webp)
-- Investors: [desktop](screenshots/investors-desktop.webp) · [mobile](screenshots/investors-mobile.webp)
-- Sustainability: [desktop](screenshots/sustainability-desktop.webp) · [mobile](screenshots/sustainability-mobile.webp)
-- Owners: [desktop](screenshots/owners-desktop.webp) · [mobile](screenshots/owners-mobile.webp)
-- Shared services: [desktop](screenshots/shared-services-desktop.webp) · [mobile](screenshots/shared-services-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- History: [desktop](https://shots.codotx.com/ishizue-holdings/history-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/history-mobile.webp)
+- Companies: [desktop](https://shots.codotx.com/ishizue-holdings/companies-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/companies-mobile.webp)
+- Leadership: [desktop](https://shots.codotx.com/ishizue-holdings/leadership-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/leadership-mobile.webp)
+- Governance: [desktop](https://shots.codotx.com/ishizue-holdings/governance-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/governance-mobile.webp)
+- Investors: [desktop](https://shots.codotx.com/ishizue-holdings/investors-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/investors-mobile.webp)
+- Sustainability: [desktop](https://shots.codotx.com/ishizue-holdings/sustainability-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/sustainability-mobile.webp)
+- Owners: [desktop](https://shots.codotx.com/ishizue-holdings/owners-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/owners-mobile.webp)
+- Shared services: [desktop](https://shots.codotx.com/ishizue-holdings/shared-services-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/shared-services-mobile.webp)
+- About: [desktop](https://shots.codotx.com/ishizue-holdings/about-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/ishizue-holdings/news-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/ishizue-holdings/article-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/ishizue-holdings/category-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/ishizue-holdings/tag-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/ishizue-holdings/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/ishizue-holdings/contact-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/ishizue-holdings/search-desktop.webp) · [mobile](https://shots.codotx.com/ishizue-holdings/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/ishizue-holdings/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/ishizue-holdings/ja/home-desktop.webp) · [fr](https://shots.codotx.com/ishizue-holdings/fr/home-desktop.webp) · [de](https://shots.codotx.com/ishizue-holdings/de/home-desktop.webp)
 <!-- screenshots:end -->

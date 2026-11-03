@@ -27,24 +27,24 @@ A WordPress block theme for a structural engineering practice at Calder Quay (fo
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kiban Structural home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kiban Structural home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kiban-structural/home-desktop.webp" width="640" alt="Kiban Structural home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kiban-structural/home-mobile.webp" width="200" alt="Kiban Structural home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Process: [desktop](screenshots/process-desktop.webp) · [mobile](screenshots/process-mobile.webp)
-- Projects: [desktop](screenshots/projects-desktop.webp) · [mobile](screenshots/projects-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/kiban-structural/about-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/about-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/kiban-structural/services-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/services-mobile.webp)
+- Process: [desktop](https://shots.codotx.com/kiban-structural/process-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/process-mobile.webp)
+- Projects: [desktop](https://shots.codotx.com/kiban-structural/projects-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/projects-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/kiban-structural/fees-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/fees-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/kiban-structural/team-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/team-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/kiban-structural/journal-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/journal-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/kiban-structural/faq-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/faq-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kiban-structural/news-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kiban-structural/article-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kiban-structural/category-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kiban-structural/tag-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kiban-structural/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kiban-structural/contact-desktop.webp) · [mobile](https://shots.codotx.com/kiban-structural/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kiban-structural/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kiban-structural/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kiban-structural/fr/home-desktop.webp) · [de](https://shots.codotx.com/kiban-structural/de/home-desktop.webp)
 <!-- screenshots:end -->

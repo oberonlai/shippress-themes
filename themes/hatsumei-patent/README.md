@@ -41,23 +41,23 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs generated wit
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hatsumei Patent Attorneys home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hatsumei Patent Attorneys home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hatsumei-patent/home-desktop.webp" width="640" alt="Hatsumei Patent Attorneys home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hatsumei-patent/home-mobile.webp" width="200" alt="Hatsumei Patent Attorneys home page on mobile"></td>
 </tr>
 </table>
 
-- Practice areas: [desktop](screenshots/practice-areas-desktop.webp) · [mobile](screenshots/practice-areas-mobile.webp)
-- From idea to patent: [desktop](screenshots/from-idea-to-patent-desktop.webp) · [mobile](screenshots/from-idea-to-patent-mobile.webp)
-- Attorneys: [desktop](screenshots/attorneys-desktop.webp) · [mobile](screenshots/attorneys-mobile.webp)
-- First meeting: [desktop](screenshots/first-meeting-desktop.webp) · [mobile](screenshots/first-meeting-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Practice areas: [desktop](https://shots.codotx.com/hatsumei-patent/practice-areas-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/practice-areas-mobile.webp)
+- From idea to patent: [desktop](https://shots.codotx.com/hatsumei-patent/from-idea-to-patent-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/from-idea-to-patent-mobile.webp)
+- Attorneys: [desktop](https://shots.codotx.com/hatsumei-patent/attorneys-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/attorneys-mobile.webp)
+- First meeting: [desktop](https://shots.codotx.com/hatsumei-patent/first-meeting-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/first-meeting-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/hatsumei-patent/fees-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/fees-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hatsumei-patent/about-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hatsumei-patent/news-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hatsumei-patent/article-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hatsumei-patent/category-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hatsumei-patent/tag-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hatsumei-patent/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hatsumei-patent/contact-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hatsumei-patent/search-desktop.webp) · [mobile](https://shots.codotx.com/hatsumei-patent/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hatsumei-patent/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hatsumei-patent/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hatsumei-patent/fr/home-desktop.webp) · [de](https://shots.codotx.com/hatsumei-patent/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -5,25 +5,25 @@
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Sora Fertility Centre home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Sora Fertility Centre home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/sora-fertility-centre/home-desktop.webp" width="640" alt="Sora Fertility Centre home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/sora-fertility-centre/home-mobile.webp" width="200" alt="Sora Fertility Centre home page on mobile"></td>
 </tr>
 </table>
 
-- Treatments: [desktop](screenshots/treatments-desktop.webp) · [mobile](screenshots/treatments-mobile.webp)
-- Ivf: [desktop](screenshots/ivf-desktop.webp) · [mobile](screenshots/ivf-mobile.webp)
-- Tests: [desktop](screenshots/tests-desktop.webp) · [mobile](screenshots/tests-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Treatments: [desktop](https://shots.codotx.com/sora-fertility-centre/treatments-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/treatments-mobile.webp)
+- Ivf: [desktop](https://shots.codotx.com/sora-fertility-centre/ivf-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/ivf-mobile.webp)
+- Tests: [desktop](https://shots.codotx.com/sora-fertility-centre/tests-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/tests-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/sora-fertility-centre/fees-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/fees-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/sora-fertility-centre/faq-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/faq-mobile.webp)
+- About: [desktop](https://shots.codotx.com/sora-fertility-centre/about-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/about-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/sora-fertility-centre/team-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/team-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/sora-fertility-centre/stories-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/stories-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/sora-fertility-centre/contact-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/contact-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/sora-fertility-centre/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/newsletter-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/sora-fertility-centre/privacy-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/privacy-mobile.webp)
+- News: [desktop](https://shots.codotx.com/sora-fertility-centre/news-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/sora-fertility-centre/article-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/sora-fertility-centre/category-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/sora-fertility-centre/tag-desktop.webp) · [mobile](https://shots.codotx.com/sora-fertility-centre/tag-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/sora-fertility-centre/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/sora-fertility-centre/ja/home-desktop.webp) · [fr](https://shots.codotx.com/sora-fertility-centre/fr/home-desktop.webp) · [de](https://shots.codotx.com/sora-fertility-centre/de/home-desktop.webp)
 <!-- screenshots:end -->

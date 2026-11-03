@@ -16,20 +16,20 @@ Every template is the header (shop name, Shop the tackle button, account, cart a
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Tsuribito Tackle home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Tsuribito Tackle home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsuribito-tackle/home-desktop.webp" width="640" alt="Tsuribito Tackle home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/tsuribito-tackle/home-mobile.webp" width="200" alt="Tsuribito Tackle home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Shop: [desktop](https://shots.codotx.com/tsuribito-tackle/shop-desktop.webp) · [mobile](https://shots.codotx.com/tsuribito-tackle/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/tsuribito-tackle/product-desktop.webp) · [mobile](https://shots.codotx.com/tsuribito-tackle/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/tsuribito-tackle/about-desktop.webp) · [mobile](https://shots.codotx.com/tsuribito-tackle/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/tsuribito-tackle/contact-desktop.webp) · [mobile](https://shots.codotx.com/tsuribito-tackle/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/tsuribito-tackle/news-desktop.webp) · [mobile](https://shots.codotx.com/tsuribito-tackle/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/tsuribito-tackle/article-desktop.webp) · [mobile](https://shots.codotx.com/tsuribito-tackle/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/tsuribito-tackle/category-desktop.webp) · [mobile](https://shots.codotx.com/tsuribito-tackle/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/tsuribito-tackle/tag-desktop.webp) · [mobile](https://shots.codotx.com/tsuribito-tackle/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/tsuribito-tackle/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/tsuribito-tackle/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/tsuribito-tackle/search-desktop.webp) · [mobile](https://shots.codotx.com/tsuribito-tackle/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/tsuribito-tackle/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/tsuribito-tackle/ja/home-desktop.webp) · [fr](https://shots.codotx.com/tsuribito-tackle/fr/home-desktop.webp) · [de](https://shots.codotx.com/tsuribito-tackle/de/home-desktop.webp)
 <!-- screenshots:end -->

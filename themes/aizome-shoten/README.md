@@ -92,19 +92,19 @@ Twenty original illustrations drawn in code for this theme (`assets/images/*.svg
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Aizome Shoten home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Aizome Shoten home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/aizome-shoten/home-desktop.webp" width="640" alt="Aizome Shoten home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/aizome-shoten/home-mobile.webp" width="200" alt="Aizome Shoten home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Events: [desktop](screenshots/events-desktop.webp) · [mobile](screenshots/events-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/aizome-shoten/about-desktop.webp) · [mobile](https://shots.codotx.com/aizome-shoten/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/aizome-shoten/news-desktop.webp) · [mobile](https://shots.codotx.com/aizome-shoten/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/aizome-shoten/article-desktop.webp) · [mobile](https://shots.codotx.com/aizome-shoten/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/aizome-shoten/category-desktop.webp) · [mobile](https://shots.codotx.com/aizome-shoten/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/aizome-shoten/tag-desktop.webp) · [mobile](https://shots.codotx.com/aizome-shoten/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/aizome-shoten/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/aizome-shoten/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/aizome-shoten/contact-desktop.webp) · [mobile](https://shots.codotx.com/aizome-shoten/contact-mobile.webp)
+- Events: [desktop](https://shots.codotx.com/aizome-shoten/events-desktop.webp) · [mobile](https://shots.codotx.com/aizome-shoten/events-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/aizome-shoten/shop-desktop.webp) · [mobile](https://shots.codotx.com/aizome-shoten/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/aizome-shoten/product-desktop.webp) · [mobile](https://shots.codotx.com/aizome-shoten/product-mobile.webp)
 <!-- screenshots:end -->

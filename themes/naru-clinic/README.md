@@ -21,25 +21,25 @@ Home, About, Services, Workplace assessments, Return to work, Health checks, For
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Naru Clinic home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Naru Clinic home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/naru-clinic/home-desktop.webp" width="640" alt="Naru Clinic home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/naru-clinic/home-mobile.webp" width="200" alt="Naru Clinic home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Workplace assessments: [desktop](screenshots/workplace-assessments-desktop.webp) · [mobile](screenshots/workplace-assessments-mobile.webp)
-- Return to work: [desktop](screenshots/return-to-work-desktop.webp) · [mobile](screenshots/return-to-work-mobile.webp)
-- Health checks: [desktop](screenshots/health-checks-desktop.webp) · [mobile](screenshots/health-checks-mobile.webp)
-- For employers: [desktop](screenshots/for-employers-desktop.webp) · [mobile](screenshots/for-employers-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- Case stories: [desktop](screenshots/case-stories-desktop.webp) · [mobile](screenshots/case-stories-mobile.webp)
-- Clinic access: [desktop](screenshots/clinic-access-desktop.webp) · [mobile](screenshots/clinic-access-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/naru-clinic/about-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/about-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/naru-clinic/services-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/services-mobile.webp)
+- Workplace assessments: [desktop](https://shots.codotx.com/naru-clinic/workplace-assessments-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/workplace-assessments-mobile.webp)
+- Return to work: [desktop](https://shots.codotx.com/naru-clinic/return-to-work-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/return-to-work-mobile.webp)
+- Health checks: [desktop](https://shots.codotx.com/naru-clinic/health-checks-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/health-checks-mobile.webp)
+- For employers: [desktop](https://shots.codotx.com/naru-clinic/for-employers-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/for-employers-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/naru-clinic/team-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/team-mobile.webp)
+- Case stories: [desktop](https://shots.codotx.com/naru-clinic/case-stories-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/case-stories-mobile.webp)
+- Clinic access: [desktop](https://shots.codotx.com/naru-clinic/clinic-access-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/clinic-access-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/naru-clinic/contact-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/naru-clinic/news-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/naru-clinic/article-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/naru-clinic/category-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/naru-clinic/tag-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/naru-clinic/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/naru-clinic/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/naru-clinic/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/naru-clinic/ja/home-desktop.webp) · [fr](https://shots.codotx.com/naru-clinic/fr/home-desktop.webp) · [de](https://shots.codotx.com/naru-clinic/de/home-desktop.webp)
 <!-- screenshots:end -->

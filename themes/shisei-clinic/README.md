@@ -16,27 +16,27 @@ Patterns: front-kv, front-concept, front-concerns, front-care, front-first-visit
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shisei Clinic home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shisei Clinic home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shisei-clinic/home-desktop.webp" width="640" alt="Shisei Clinic home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shisei-clinic/home-mobile.webp" width="200" alt="Shisei Clinic home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Conditions: [desktop](screenshots/conditions-desktop.webp) · [mobile](screenshots/conditions-mobile.webp)
-- Treatments: [desktop](screenshots/treatments-desktop.webp) · [mobile](screenshots/treatments-mobile.webp)
-- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Clinicians: [desktop](screenshots/clinicians-desktop.webp) · [mobile](screenshots/clinicians-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- Questions: [desktop](screenshots/questions-desktop.webp) · [mobile](screenshots/questions-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- 404: [desktop](screenshots/404-desktop.webp) · [mobile](screenshots/404-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/shisei-clinic/about-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/about-mobile.webp)
+- Conditions: [desktop](https://shots.codotx.com/shisei-clinic/conditions-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/conditions-mobile.webp)
+- Treatments: [desktop](https://shots.codotx.com/shisei-clinic/treatments-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/treatments-mobile.webp)
+- First visit: [desktop](https://shots.codotx.com/shisei-clinic/first-visit-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/first-visit-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/shisei-clinic/fees-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/fees-mobile.webp)
+- Clinicians: [desktop](https://shots.codotx.com/shisei-clinic/clinicians-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/clinicians-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/shisei-clinic/stories-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/stories-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/shisei-clinic/notes-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/notes-mobile.webp)
+- Questions: [desktop](https://shots.codotx.com/shisei-clinic/questions-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/questions-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shisei-clinic/contact-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shisei-clinic/news-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shisei-clinic/article-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shisei-clinic/category-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shisei-clinic/tag-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shisei-clinic/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/shisei-clinic/search-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/search-mobile.webp)
+- 404: [desktop](https://shots.codotx.com/shisei-clinic/404-desktop.webp) · [mobile](https://shots.codotx.com/shisei-clinic/404-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/shisei-clinic/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/shisei-clinic/ja/home-desktop.webp) · [fr](https://shots.codotx.com/shisei-clinic/fr/home-desktop.webp) · [de](https://shots.codotx.com/shisei-clinic/de/home-desktop.webp)
 <!-- screenshots:end -->

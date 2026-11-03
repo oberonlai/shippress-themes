@@ -24,23 +24,23 @@ Home, Declarations (`/services/`), Process, What you prepare, Fees, Case files, 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shirushi Customs home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shirushi Customs home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shirushi-customs/home-desktop.webp" width="640" alt="Shirushi Customs home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shirushi-customs/home-mobile.webp" width="200" alt="Shirushi Customs home page on mobile"></td>
 </tr>
 </table>
 
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Process: [desktop](screenshots/process-desktop.webp) · [mobile](screenshots/process-mobile.webp)
-- Prepare: [desktop](screenshots/prepare-desktop.webp) · [mobile](screenshots/prepare-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Cases: [desktop](screenshots/cases-desktop.webp) · [mobile](screenshots/cases-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Services: [desktop](https://shots.codotx.com/shirushi-customs/services-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/services-mobile.webp)
+- Process: [desktop](https://shots.codotx.com/shirushi-customs/process-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/process-mobile.webp)
+- Prepare: [desktop](https://shots.codotx.com/shirushi-customs/prepare-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/prepare-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/shirushi-customs/fees-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/fees-mobile.webp)
+- Cases: [desktop](https://shots.codotx.com/shirushi-customs/cases-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/cases-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shirushi-customs/about-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shirushi-customs/contact-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/contact-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/shirushi-customs/notes-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/notes-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shirushi-customs/news-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shirushi-customs/article-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shirushi-customs/category-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shirushi-customs/tag-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shirushi-customs/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shirushi-customs/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/shirushi-customs/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/shirushi-customs/ja/home-desktop.webp) · [fr](https://shots.codotx.com/shirushi-customs/fr/home-desktop.webp) · [de](https://shots.codotx.com/shirushi-customs/de/home-desktop.webp)
 <!-- screenshots:end -->

@@ -35,24 +35,24 @@ About the firm, People, Approach, Services, Fees, Stories, Introductory meeting,
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hoshi Wealth Partners home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hoshi Wealth Partners home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hoshi-wealth-partners/home-desktop.webp" width="640" alt="Hoshi Wealth Partners home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hoshi-wealth-partners/home-mobile.webp" width="200" alt="Hoshi Wealth Partners home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- Approach: [desktop](screenshots/approach-desktop.webp) · [mobile](screenshots/approach-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Introductory meeting: [desktop](screenshots/introductory-meeting-desktop.webp) · [mobile](screenshots/introductory-meeting-mobile.webp)
-- Disclosures: [desktop](screenshots/disclosures-desktop.webp) · [mobile](screenshots/disclosures-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/hoshi-wealth-partners/about-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hoshi-wealth-partners/news-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hoshi-wealth-partners/article-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hoshi-wealth-partners/category-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hoshi-wealth-partners/tag-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hoshi-wealth-partners/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hoshi-wealth-partners/contact-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/contact-mobile.webp)
+- People: [desktop](https://shots.codotx.com/hoshi-wealth-partners/people-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/people-mobile.webp)
+- Approach: [desktop](https://shots.codotx.com/hoshi-wealth-partners/approach-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/approach-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/hoshi-wealth-partners/services-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/services-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/hoshi-wealth-partners/fees-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/fees-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/hoshi-wealth-partners/stories-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/stories-mobile.webp)
+- Introductory meeting: [desktop](https://shots.codotx.com/hoshi-wealth-partners/introductory-meeting-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/introductory-meeting-mobile.webp)
+- Disclosures: [desktop](https://shots.codotx.com/hoshi-wealth-partners/disclosures-desktop.webp) · [mobile](https://shots.codotx.com/hoshi-wealth-partners/disclosures-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hoshi-wealth-partners/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hoshi-wealth-partners/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hoshi-wealth-partners/fr/home-desktop.webp) · [de](https://shots.codotx.com/hoshi-wealth-partners/de/home-desktop.webp)
 <!-- screenshots:end -->

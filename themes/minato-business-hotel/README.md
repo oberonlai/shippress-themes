@@ -47,23 +47,23 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`). Photographs AI-generated 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Minato Business Hotel home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Minato Business Hotel home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/minato-business-hotel/home-desktop.webp" width="640" alt="Minato Business Hotel home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/minato-business-hotel/home-mobile.webp" width="200" alt="Minato Business Hotel home page on mobile"></td>
 </tr>
 </table>
 
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- Your stay: [desktop](screenshots/your-stay-desktop.webp) · [mobile](screenshots/your-stay-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- Breakfast: [desktop](screenshots/breakfast-desktop.webp) · [mobile](screenshots/breakfast-mobile.webp)
-- Business: [desktop](screenshots/business-desktop.webp) · [mobile](screenshots/business-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Rooms: [desktop](https://shots.codotx.com/minato-business-hotel/rooms-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/rooms-mobile.webp)
+- Your stay: [desktop](https://shots.codotx.com/minato-business-hotel/your-stay-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/your-stay-mobile.webp)
+- People: [desktop](https://shots.codotx.com/minato-business-hotel/people-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/people-mobile.webp)
+- Breakfast: [desktop](https://shots.codotx.com/minato-business-hotel/breakfast-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/breakfast-mobile.webp)
+- Business: [desktop](https://shots.codotx.com/minato-business-hotel/business-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/business-mobile.webp)
+- About: [desktop](https://shots.codotx.com/minato-business-hotel/about-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/minato-business-hotel/news-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/minato-business-hotel/article-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/minato-business-hotel/category-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/minato-business-hotel/tag-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/minato-business-hotel/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/minato-business-hotel/contact-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/minato-business-hotel/search-desktop.webp) · [mobile](https://shots.codotx.com/minato-business-hotel/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/minato-business-hotel/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/minato-business-hotel/ja/home-desktop.webp) · [fr](https://shots.codotx.com/minato-business-hotel/fr/home-desktop.webp) · [de](https://shots.codotx.com/minato-business-hotel/de/home-desktop.webp)
 <!-- screenshots:end -->

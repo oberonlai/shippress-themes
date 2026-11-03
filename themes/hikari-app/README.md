@@ -44,20 +44,20 @@ Fonts: Sora and Inter (SIL OFL 1.1, from google/fonts). Photographs: AI-generate
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hikari App home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hikari App home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hikari-app/home-desktop.webp" width="640" alt="Hikari App home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hikari-app/home-mobile.webp" width="200" alt="Hikari App home page on mobile"></td>
 </tr>
 </table>
 
-- Features: [desktop](screenshots/features-desktop.webp) · [mobile](screenshots/features-mobile.webp)
-- Pricing: [desktop](screenshots/pricing-desktop.webp) · [mobile](screenshots/pricing-mobile.webp)
-- Changelog: [desktop](screenshots/changelog-desktop.webp) · [mobile](screenshots/changelog-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Features: [desktop](https://shots.codotx.com/hikari-app/features-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/features-mobile.webp)
+- Pricing: [desktop](https://shots.codotx.com/hikari-app/pricing-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/pricing-mobile.webp)
+- Changelog: [desktop](https://shots.codotx.com/hikari-app/changelog-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/changelog-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hikari-app/about-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hikari-app/news-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hikari-app/article-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hikari-app/category-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hikari-app/tag-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hikari-app/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hikari-app/contact-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hikari-app/search-desktop.webp) · [mobile](https://shots.codotx.com/hikari-app/search-mobile.webp)
 <!-- screenshots:end -->

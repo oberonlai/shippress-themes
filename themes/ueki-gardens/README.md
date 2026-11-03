@@ -29,25 +29,25 @@ English sample content only so far. zh-TW, ja, fr and de sample content and the 
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Ueki Gardens home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Ueki Gardens home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/ueki-gardens/home-desktop.webp" width="640" alt="Ueki Gardens home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/ueki-gardens/home-mobile.webp" width="200" alt="Ueki Gardens home page on mobile"></td>
 </tr>
 </table>
 
-- In season: [desktop](screenshots/in-season-desktop.webp) · [mobile](screenshots/in-season-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Choosing a plant: [desktop](screenshots/choosing-a-plant-desktop.webp) · [mobile](screenshots/choosing-a-plant-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Aftercare: [desktop](screenshots/aftercare-desktop.webp) · [mobile](screenshots/aftercare-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Cart: [desktop](screenshots/cart-desktop.webp) · [mobile](screenshots/cart-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- In season: [desktop](https://shots.codotx.com/ueki-gardens/in-season-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/in-season-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/ueki-gardens/shop-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/shop-mobile.webp)
+- Choosing a plant: [desktop](https://shots.codotx.com/ueki-gardens/choosing-a-plant-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/choosing-a-plant-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/ueki-gardens/services-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/services-mobile.webp)
+- Aftercare: [desktop](https://shots.codotx.com/ueki-gardens/aftercare-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/aftercare-mobile.webp)
+- About: [desktop](https://shots.codotx.com/ueki-gardens/about-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/about-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/ueki-gardens/visit-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/visit-mobile.webp)
+- Cart: [desktop](https://shots.codotx.com/ueki-gardens/cart-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/cart-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/ueki-gardens/journal-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/journal-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/ueki-gardens/article-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/article-mobile.webp)
+- News: [desktop](https://shots.codotx.com/ueki-gardens/news-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/news-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/ueki-gardens/category-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/ueki-gardens/tag-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/ueki-gardens/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/ueki-gardens/contact-desktop.webp) · [mobile](https://shots.codotx.com/ueki-gardens/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/ueki-gardens/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/ueki-gardens/ja/home-desktop.webp) · [fr](https://shots.codotx.com/ueki-gardens/fr/home-desktop.webp) · [de](https://shots.codotx.com/ueki-gardens/de/home-desktop.webp)
 <!-- screenshots:end -->

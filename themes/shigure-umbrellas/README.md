@@ -43,21 +43,21 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`): Ibarra Real Nova and Golo
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shigure Umbrellas home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shigure Umbrellas home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shigure-umbrellas/home-desktop.webp" width="640" alt="Shigure Umbrellas home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shigure-umbrellas/home-mobile.webp" width="200" alt="Shigure Umbrellas home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Care repair: [desktop](screenshots/care-repair-desktop.webp) · [mobile](screenshots/care-repair-mobile.webp)
-- Size guide: [desktop](screenshots/size-guide-desktop.webp) · [mobile](screenshots/size-guide-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/shigure-umbrellas/shop-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/shigure-umbrellas/product-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shigure-umbrellas/about-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/about-mobile.webp)
+- Care repair: [desktop](https://shots.codotx.com/shigure-umbrellas/care-repair-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/care-repair-mobile.webp)
+- Size guide: [desktop](https://shots.codotx.com/shigure-umbrellas/size-guide-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/size-guide-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shigure-umbrellas/contact-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shigure-umbrellas/news-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shigure-umbrellas/article-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shigure-umbrellas/category-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shigure-umbrellas/tag-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shigure-umbrellas/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/shigure-umbrellas/search-desktop.webp) · [mobile](https://shots.codotx.com/shigure-umbrellas/search-mobile.webp)
 <!-- screenshots:end -->

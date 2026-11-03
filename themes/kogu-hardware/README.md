@@ -19,23 +19,23 @@ All photographs are generated documentary images (no people's likeness, no text)
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kogu Hardware home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kogu Hardware home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kogu-hardware/home-desktop.webp" width="640" alt="Kogu Hardware home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kogu-hardware/home-mobile.webp" width="200" alt="Kogu Hardware home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Home fixers: [desktop](screenshots/home-fixers-desktop.webp) · [mobile](screenshots/home-fixers-mobile.webp)
-- Trade: [desktop](screenshots/trade-desktop.webp) · [mobile](screenshots/trade-mobile.webp)
-- Makers: [desktop](screenshots/makers-desktop.webp) · [mobile](screenshots/makers-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- How to ask: [desktop](screenshots/how-to-ask-desktop.webp) · [mobile](screenshots/how-to-ask-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/kogu-hardware/about-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kogu-hardware/news-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kogu-hardware/article-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kogu-hardware/category-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kogu-hardware/tag-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kogu-hardware/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kogu-hardware/contact-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/contact-mobile.webp)
+- Home fixers: [desktop](https://shots.codotx.com/kogu-hardware/home-fixers-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/home-fixers-mobile.webp)
+- Trade: [desktop](https://shots.codotx.com/kogu-hardware/trade-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/trade-mobile.webp)
+- Makers: [desktop](https://shots.codotx.com/kogu-hardware/makers-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/makers-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/kogu-hardware/services-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/services-mobile.webp)
+- How to ask: [desktop](https://shots.codotx.com/kogu-hardware/how-to-ask-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/how-to-ask-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/kogu-hardware/visit-desktop.webp) · [mobile](https://shots.codotx.com/kogu-hardware/visit-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kogu-hardware/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kogu-hardware/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kogu-hardware/fr/home-desktop.webp) · [de](https://shots.codotx.com/kogu-hardware/de/home-desktop.webp)
 <!-- screenshots:end -->

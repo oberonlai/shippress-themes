@@ -13,19 +13,19 @@ Hakobi Logistics — a theme for a logistics company (warehousing, line haul, la
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hakobi Logistics home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hakobi Logistics home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hakobi-logistics/home-desktop.webp" width="640" alt="Hakobi Logistics home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hakobi-logistics/home-mobile.webp" width="200" alt="Hakobi Logistics home page on mobile"></td>
 </tr>
 </table>
 
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Services: [desktop](https://shots.codotx.com/hakobi-logistics/services-desktop.webp) · [mobile](https://shots.codotx.com/hakobi-logistics/services-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hakobi-logistics/about-desktop.webp) · [mobile](https://shots.codotx.com/hakobi-logistics/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hakobi-logistics/news-desktop.webp) · [mobile](https://shots.codotx.com/hakobi-logistics/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hakobi-logistics/article-desktop.webp) · [mobile](https://shots.codotx.com/hakobi-logistics/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hakobi-logistics/category-desktop.webp) · [mobile](https://shots.codotx.com/hakobi-logistics/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hakobi-logistics/tag-desktop.webp) · [mobile](https://shots.codotx.com/hakobi-logistics/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hakobi-logistics/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hakobi-logistics/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hakobi-logistics/contact-desktop.webp) · [mobile](https://shots.codotx.com/hakobi-logistics/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hakobi-logistics/search-desktop.webp) · [mobile](https://shots.codotx.com/hakobi-logistics/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hakobi-logistics/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hakobi-logistics/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hakobi-logistics/fr/home-desktop.webp) · [de](https://shots.codotx.com/hakobi-logistics/de/home-desktop.webp)
 <!-- screenshots:end -->

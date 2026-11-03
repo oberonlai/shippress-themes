@@ -34,7 +34,7 @@ function fixture() {
 const snapshot = (dir) => Object.fromEntries(readdirSync(dir, { recursive: true, withFileTypes: true }).filter((e) => e.isFile())
   .map((e) => join(e.parentPath ?? e.path, e.name)).sort().map((f) => [f, readFileSync(f, "utf8")]));
 
-test("copies every *.webp, replaces the old screenshots dir, skips a theme without screenshots", () => {
+test("copies nothing into the repo (the screenshots live in R2); skips a theme without screenshots", () => {
   const { tmp, root, from } = fixture();
   try {
     const stale = join(root, "themes", "a", "screenshots");
@@ -43,8 +43,8 @@ test("copies every *.webp, replaces the old screenshots dir, skips a theme witho
     const warnings = [];
     const synced = sync({ root, from, log: () => {}, warn: (m) => warnings.push(m) });
     assert.deepEqual(synced, ["a", "b", "d"]);
-    assert.deepEqual(readdirSync(stale), ["about-desktop.webp", "about-mobile.webp", "home-desktop.webp", "home-mobile.webp", "news-desktop.webp", "news-mobile.webp", "rooms-desktop.webp", "rooms-mobile.webp"]);
-    assert.equal(readFileSync(join(stale, "home-mobile.webp"), "utf8"), "a-home-mobile");
+    assert.deepEqual(readdirSync(stale), ["old-desktop.webp"], "an existing screenshots dir is left alone, nothing is copied");
+    assert.ok(!existsSync(join(root, "themes", "b", "screenshots")));
     assert.ok(!existsSync(join(root, "themes", "c", "screenshots")));
     assert.match(warnings.join("\n"), /c: no screenshots/);
     assert.equal(readFileSync(join(root, "themes", "c", "README.md"), "utf8"), "# Gamma\n\nDesign notes.\n", "a skipped theme's README is left alone");
@@ -55,8 +55,8 @@ test("only the given slugs are synced", () => {
   const { tmp, root, from } = fixture();
   try {
     assert.deepEqual(sync({ root, from, slugs: ["b"], ...quiet }), ["b"]);
-    assert.ok(existsSync(join(root, "themes", "b", "screenshots", "home-desktop.webp")));
-    assert.ok(!existsSync(join(root, "themes", "a", "screenshots")));
+    assert.match(readFileSync(join(root, "themes", "b", "README.md"), "utf8"), /shots\.codotx\.com\/b\/home-desktop\.webp/);
+    assert.doesNotMatch(readFileSync(join(root, "themes", "a", "README.md"), "utf8"), /screenshots:start/);
   } finally { rmSync(tmp, { recursive: true, force: true }); }
 });
 
@@ -67,10 +67,10 @@ test("theme README: screenshots section appended between markers, missing README
     const a = readFileSync(join(root, "themes", "a", "README.md"), "utf8");
     assert.ok(a.startsWith("# Alpha Ya\n\nDesign notes.\n\n<!-- screenshots:start -->\n## Screenshots\n"));
     assert.ok(a.endsWith("<!-- screenshots:end -->\n"));
-    assert.match(a, /<img src="screenshots\/home-desktop\.webp" width="640"/);
-    assert.match(a, /<img src="screenshots\/home-mobile\.webp" width="200"/);
+    assert.match(a, /<img src="https:\/\/shots\.codotx\.com\/a\/home-desktop\.webp" width="640"/);
+    assert.match(a, /<img src="https:\/\/shots\.codotx\.com\/a\/home-mobile\.webp" width="200"/);
     // theme-meta.json page order first, then other pages by name; home is not repeated in the list
-    assert.match(a, /- About: \[desktop\]\(screenshots\/about-desktop\.webp\) · \[mobile\]\(screenshots\/about-mobile\.webp\)\n- News: .*\n- Rooms: .*\n<!-- screenshots:end -->/);
+    assert.match(a, /- About: \[desktop\]\(https:\/\/shots\.codotx\.com\/a\/about-desktop\.webp\) · \[mobile\]\(https:\/\/shots\.codotx\.com\/a\/about-mobile\.webp\)\n- News: .*\n- Rooms: .*\n<!-- screenshots:end -->/);
     assert.doesNotMatch(a, /- Home:/);
     assert.ok(readFileSync(join(root, "themes", "d", "README.md"), "utf8").startsWith("# Delta\n\n<!-- screenshots:start -->"));
     assert.match(readFileSync(join(root, "themes", "b", "README.md"), "utf8"), /alt="Beta &amp; Co home page on desktop"/);
@@ -112,7 +112,7 @@ test("root README: gallery inserted after the Themes table, 3 per row, idempoten
     assert.ok(md.includes("| [A](themes/a) | a |\n\n<!-- gallery:start -->"));
     // a, b, d have a home screenshot (c has none): one row of three
     assert.equal(md.split("<tr>").length - 1, 1);
-    assert.match(md, /<a href="themes\/a"><img src="themes\/a\/screenshots\/home-desktop\.webp" width="260" alt="Alpha Ya"><\/a><br><a href="themes\/a">Alpha Ya<\/a>/);
+    assert.match(md, /<a href="themes\/a"><img src="https:\/\/shots\.codotx\.com\/a\/home-desktop\.webp" width="260" alt="Alpha Ya"><\/a><br><a href="themes\/a">Alpha Ya<\/a>/);
     assert.ok(md.indexOf("themes/a\"") < md.indexOf("themes/b\"") && md.indexOf("themes/b\"") < md.indexOf("themes/d\""));
     assert.doesNotMatch(md, /themes\/c/);
 
@@ -133,7 +133,7 @@ test("gallerySection rows, insertAfterThemes fallback, upsertSection replaces in
   assert.deepEqual(shotPages(["z-desktop.webp", "home-mobile.webp", "about-desktop.webp", "x.png"], ["home", "about"]), ["home", "about", "z"]);
 });
 
-test("per-language screenshots (<lang>/ folders) are copied and linked; other folders are ignored", () => {
+test("per-language screenshots (<lang>/ folders) are linked; other folders are ignored", () => {
   const tmp = mkdtempSync(join(tmpdir(), "sync-shots-lang-"));
   try {
     const root = join(tmp, "repo"), from = join(tmp, "app");
@@ -144,9 +144,9 @@ test("per-language screenshots (<lang>/ folders) are copied and linked; other fo
       writeFileSync(join(from, "a/screenshots", d, "home-desktop.webp"), "w" + d);
     }
     sync({ root, from, slugs: ["a"], ...quiet });
-    assert.equal(readFileSync(join(root, "themes/a/screenshots/ja/home-desktop.webp"), "utf8"), "wja");
-    assert.equal(readFileSync(join(root, "themes/a/screenshots/fr/home-desktop.webp"), "utf8"), "wfr");
-    assert.equal(existsSync(join(root, "themes/a/screenshots/xx")), false);
-    assert.match(readFileSync(join(root, "themes/a/README.md"), "utf8"), /Other languages \(home page\): \[ja\]\(screenshots\/ja\/home-desktop\.webp\) · \[fr\]/);
+    assert.equal(existsSync(join(root, "themes/a/screenshots")), false);
+    const md = readFileSync(join(root, "themes/a/README.md"), "utf8");
+    assert.match(md, /Other languages \(home page\): \[ja\]\(https:\/\/shots\.codotx\.com\/a\/ja\/home-desktop\.webp\) · \[fr\]/);
+    assert.doesNotMatch(md, /\/xx\//);
   } finally { rmSync(tmp, { recursive: true, force: true }); }
 });

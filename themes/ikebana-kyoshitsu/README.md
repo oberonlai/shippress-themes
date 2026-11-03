@@ -81,19 +81,19 @@ Code: GPL-2.0-or-later. Fonts: SIL Open Font License 1.1, bundled in `assets/fon
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Ikebana Kyoshitsu home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Ikebana Kyoshitsu home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/ikebana-kyoshitsu/home-desktop.webp" width="640" alt="Ikebana Kyoshitsu home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/ikebana-kyoshitsu/home-mobile.webp" width="200" alt="Ikebana Kyoshitsu home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Classes: [desktop](screenshots/classes-desktop.webp) · [mobile](screenshots/classes-mobile.webp)
-- Schedule: [desktop](screenshots/schedule-desktop.webp) · [mobile](screenshots/schedule-mobile.webp)
-- Teachers: [desktop](screenshots/teachers-desktop.webp) · [mobile](screenshots/teachers-mobile.webp)
+- About: [desktop](https://shots.codotx.com/ikebana-kyoshitsu/about-desktop.webp) · [mobile](https://shots.codotx.com/ikebana-kyoshitsu/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/ikebana-kyoshitsu/news-desktop.webp) · [mobile](https://shots.codotx.com/ikebana-kyoshitsu/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/ikebana-kyoshitsu/article-desktop.webp) · [mobile](https://shots.codotx.com/ikebana-kyoshitsu/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/ikebana-kyoshitsu/category-desktop.webp) · [mobile](https://shots.codotx.com/ikebana-kyoshitsu/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/ikebana-kyoshitsu/tag-desktop.webp) · [mobile](https://shots.codotx.com/ikebana-kyoshitsu/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/ikebana-kyoshitsu/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/ikebana-kyoshitsu/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/ikebana-kyoshitsu/contact-desktop.webp) · [mobile](https://shots.codotx.com/ikebana-kyoshitsu/contact-mobile.webp)
+- Classes: [desktop](https://shots.codotx.com/ikebana-kyoshitsu/classes-desktop.webp) · [mobile](https://shots.codotx.com/ikebana-kyoshitsu/classes-mobile.webp)
+- Schedule: [desktop](https://shots.codotx.com/ikebana-kyoshitsu/schedule-desktop.webp) · [mobile](https://shots.codotx.com/ikebana-kyoshitsu/schedule-mobile.webp)
+- Teachers: [desktop](https://shots.codotx.com/ikebana-kyoshitsu/teachers-desktop.webp) · [mobile](https://shots.codotx.com/ikebana-kyoshitsu/teachers-mobile.webp)
 <!-- screenshots:end -->

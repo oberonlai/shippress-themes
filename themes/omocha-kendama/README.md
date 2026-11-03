@@ -14,19 +14,19 @@ Omocha Kendama — a store theme for a small wooden toy shop and turning worksho
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Omocha Kendama home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Omocha Kendama home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/omocha-kendama/home-desktop.webp" width="640" alt="Omocha Kendama home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/omocha-kendama/home-mobile.webp" width="200" alt="Omocha Kendama home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/omocha-kendama/shop-desktop.webp) · [mobile](https://shots.codotx.com/omocha-kendama/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/omocha-kendama/product-desktop.webp) · [mobile](https://shots.codotx.com/omocha-kendama/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/omocha-kendama/about-desktop.webp) · [mobile](https://shots.codotx.com/omocha-kendama/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/omocha-kendama/contact-desktop.webp) · [mobile](https://shots.codotx.com/omocha-kendama/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/omocha-kendama/news-desktop.webp) · [mobile](https://shots.codotx.com/omocha-kendama/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/omocha-kendama/article-desktop.webp) · [mobile](https://shots.codotx.com/omocha-kendama/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/omocha-kendama/category-desktop.webp) · [mobile](https://shots.codotx.com/omocha-kendama/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/omocha-kendama/tag-desktop.webp) · [mobile](https://shots.codotx.com/omocha-kendama/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/omocha-kendama/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/omocha-kendama/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/omocha-kendama/search-desktop.webp) · [mobile](https://shots.codotx.com/omocha-kendama/search-mobile.webp)
 <!-- screenshots:end -->

@@ -18,27 +18,27 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Shiori Books home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Shiori Books home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/shiori-books/home-desktop.webp" width="640" alt="Shiori Books home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/shiori-books/home-mobile.webp" width="200" alt="Shiori Books home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- New books: [desktop](screenshots/new-books-desktop.webp) · [mobile](screenshots/new-books-mobile.webp)
-- Readings: [desktop](screenshots/readings-desktop.webp) · [mobile](screenshots/readings-mobile.webp)
-- Second hand: [desktop](screenshots/second-hand-desktop.webp) · [mobile](screenshots/second-hand-mobile.webp)
-- Subscription: [desktop](screenshots/subscription-desktop.webp) · [mobile](screenshots/subscription-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Booksellers: [desktop](screenshots/booksellers-desktop.webp) · [mobile](screenshots/booksellers-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Cart: [desktop](screenshots/cart-desktop.webp) · [mobile](screenshots/cart-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Shop: [desktop](https://shots.codotx.com/shiori-books/shop-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/shop-mobile.webp)
+- New books: [desktop](https://shots.codotx.com/shiori-books/new-books-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/new-books-mobile.webp)
+- Readings: [desktop](https://shots.codotx.com/shiori-books/readings-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/readings-mobile.webp)
+- Second hand: [desktop](https://shots.codotx.com/shiori-books/second-hand-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/second-hand-mobile.webp)
+- Subscription: [desktop](https://shots.codotx.com/shiori-books/subscription-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/subscription-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/shiori-books/services-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/services-mobile.webp)
+- Booksellers: [desktop](https://shots.codotx.com/shiori-books/booksellers-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/booksellers-mobile.webp)
+- About: [desktop](https://shots.codotx.com/shiori-books/about-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/about-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/shiori-books/visit-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/visit-mobile.webp)
+- Cart: [desktop](https://shots.codotx.com/shiori-books/cart-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/cart-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/shiori-books/journal-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/journal-mobile.webp)
+- News: [desktop](https://shots.codotx.com/shiori-books/news-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/shiori-books/article-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/shiori-books/category-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/shiori-books/tag-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/shiori-books/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/shiori-books/contact-desktop.webp) · [mobile](https://shots.codotx.com/shiori-books/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/shiori-books/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/shiori-books/ja/home-desktop.webp) · [fr](https://shots.codotx.com/shiori-books/fr/home-desktop.webp) · [de](https://shots.codotx.com/shiori-books/de/home-desktop.webp)
 <!-- screenshots:end -->

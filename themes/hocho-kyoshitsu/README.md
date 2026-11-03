@@ -19,18 +19,18 @@ home-hero, home-fish, home-rates, home-journal, classes-head, classes-main, abou
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hōchō Kyōshitsu home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hōchō Kyōshitsu home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hocho-kyoshitsu/home-desktop.webp" width="640" alt="Hōchō Kyōshitsu home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hocho-kyoshitsu/home-mobile.webp" width="200" alt="Hōchō Kyōshitsu home page on mobile"></td>
 </tr>
 </table>
 
-- Classes: [desktop](screenshots/classes-desktop.webp) · [mobile](screenshots/classes-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Classes: [desktop](https://shots.codotx.com/hocho-kyoshitsu/classes-desktop.webp) · [mobile](https://shots.codotx.com/hocho-kyoshitsu/classes-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hocho-kyoshitsu/about-desktop.webp) · [mobile](https://shots.codotx.com/hocho-kyoshitsu/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hocho-kyoshitsu/news-desktop.webp) · [mobile](https://shots.codotx.com/hocho-kyoshitsu/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hocho-kyoshitsu/article-desktop.webp) · [mobile](https://shots.codotx.com/hocho-kyoshitsu/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hocho-kyoshitsu/category-desktop.webp) · [mobile](https://shots.codotx.com/hocho-kyoshitsu/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hocho-kyoshitsu/tag-desktop.webp) · [mobile](https://shots.codotx.com/hocho-kyoshitsu/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hocho-kyoshitsu/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hocho-kyoshitsu/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hocho-kyoshitsu/contact-desktop.webp) · [mobile](https://shots.codotx.com/hocho-kyoshitsu/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/hocho-kyoshitsu/search-desktop.webp) · [mobile](https://shots.codotx.com/hocho-kyoshitsu/search-mobile.webp)
 <!-- screenshots:end -->

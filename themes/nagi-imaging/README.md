@@ -31,17 +31,17 @@ See assets/images/readme.txt.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Nagi Imaging home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Nagi Imaging home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/nagi-imaging/home-desktop.webp" width="640" alt="Nagi Imaging home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/nagi-imaging/home-mobile.webp" width="200" alt="Nagi Imaging home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/nagi-imaging/about-desktop.webp) · [mobile](https://shots.codotx.com/nagi-imaging/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/nagi-imaging/news-desktop.webp) · [mobile](https://shots.codotx.com/nagi-imaging/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/nagi-imaging/article-desktop.webp) · [mobile](https://shots.codotx.com/nagi-imaging/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/nagi-imaging/category-desktop.webp) · [mobile](https://shots.codotx.com/nagi-imaging/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/nagi-imaging/tag-desktop.webp) · [mobile](https://shots.codotx.com/nagi-imaging/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/nagi-imaging/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/nagi-imaging/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/nagi-imaging/contact-desktop.webp) · [mobile](https://shots.codotx.com/nagi-imaging/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/nagi-imaging/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/nagi-imaging/ja/home-desktop.webp) · [fr](https://shots.codotx.com/nagi-imaging/fr/home-desktop.webp) · [de](https://shots.codotx.com/nagi-imaging/de/home-desktop.webp)
 <!-- screenshots:end -->

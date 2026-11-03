@@ -16,28 +16,28 @@ The demo import creates Home, Waitlist (request a panel place), Thank you, Priva
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Satei Adjusters home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Satei Adjusters home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/satei-adjusters/home-desktop.webp" width="640" alt="Satei Adjusters home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/satei-adjusters/home-mobile.webp" width="200" alt="Satei Adjusters home page on mobile"></td>
 </tr>
 </table>
 
-- How a visit runs: [desktop](screenshots/how-a-visit-runs-desktop.webp) · [mobile](screenshots/how-a-visit-runs-mobile.webp)
-- For insurers: [desktop](screenshots/for-insurers-desktop.webp) · [mobile](screenshots/for-insurers-mobile.webp)
-- Adjusters: [desktop](screenshots/adjusters-desktop.webp) · [mobile](screenshots/adjusters-mobile.webp)
-- Cases: [desktop](screenshots/cases-desktop.webp) · [mobile](screenshots/cases-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Waitlist: [desktop](screenshots/waitlist-desktop.webp) · [mobile](screenshots/waitlist-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- Privacy: [desktop](screenshots/privacy-desktop.webp) · [mobile](screenshots/privacy-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- How a visit runs: [desktop](https://shots.codotx.com/satei-adjusters/how-a-visit-runs-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/how-a-visit-runs-mobile.webp)
+- For insurers: [desktop](https://shots.codotx.com/satei-adjusters/for-insurers-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/for-insurers-mobile.webp)
+- Adjusters: [desktop](https://shots.codotx.com/satei-adjusters/adjusters-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/adjusters-mobile.webp)
+- Cases: [desktop](https://shots.codotx.com/satei-adjusters/cases-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/cases-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/satei-adjusters/fees-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/fees-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/satei-adjusters/faq-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/faq-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/satei-adjusters/contact-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/contact-mobile.webp)
+- Waitlist: [desktop](https://shots.codotx.com/satei-adjusters/waitlist-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/waitlist-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/satei-adjusters/thanks-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/thanks-mobile.webp)
+- Privacy: [desktop](https://shots.codotx.com/satei-adjusters/privacy-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/privacy-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/satei-adjusters/terms-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/terms-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/satei-adjusters/notes-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/notes-mobile.webp)
+- About: [desktop](https://shots.codotx.com/satei-adjusters/about-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/satei-adjusters/news-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/satei-adjusters/article-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/satei-adjusters/category-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/satei-adjusters/tag-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/satei-adjusters/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/satei-adjusters/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/satei-adjusters/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/satei-adjusters/ja/home-desktop.webp) · [fr](https://shots.codotx.com/satei-adjusters/fr/home-desktop.webp) · [de](https://shots.codotx.com/satei-adjusters/de/home-desktop.webp)
 <!-- screenshots:end -->

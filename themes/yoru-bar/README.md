@@ -16,26 +16,26 @@ Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`. License:
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Yoru Bar home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Yoru Bar home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/yoru-bar/home-desktop.webp" width="640" alt="Yoru Bar home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/yoru-bar/home-mobile.webp" width="200" alt="Yoru Bar home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Reserve: [desktop](screenshots/reserve-desktop.webp) · [mobile](screenshots/reserve-mobile.webp)
-- The list: [desktop](screenshots/the-list-desktop.webp) · [mobile](screenshots/the-list-mobile.webp)
-- The build: [desktop](screenshots/the-build-desktop.webp) · [mobile](screenshots/the-build-mobile.webp)
-- On service: [desktop](screenshots/on-service-desktop.webp) · [mobile](screenshots/on-service-mobile.webp)
-- Our story: [desktop](screenshots/our-story-desktop.webp) · [mobile](screenshots/our-story-mobile.webp)
-- Private counter: [desktop](screenshots/private-counter-desktop.webp) · [mobile](screenshots/private-counter-mobile.webp)
-- Kitchen: [desktop](screenshots/kitchen-desktop.webp) · [mobile](screenshots/kitchen-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/yoru-bar/about-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/yoru-bar/news-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/yoru-bar/article-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/yoru-bar/category-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/yoru-bar/tag-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/yoru-bar/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/yoru-bar/contact-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/contact-mobile.webp)
+- Reserve: [desktop](https://shots.codotx.com/yoru-bar/reserve-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/reserve-mobile.webp)
+- The list: [desktop](https://shots.codotx.com/yoru-bar/the-list-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/the-list-mobile.webp)
+- The build: [desktop](https://shots.codotx.com/yoru-bar/the-build-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/the-build-mobile.webp)
+- On service: [desktop](https://shots.codotx.com/yoru-bar/on-service-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/on-service-mobile.webp)
+- Our story: [desktop](https://shots.codotx.com/yoru-bar/our-story-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/our-story-mobile.webp)
+- Private counter: [desktop](https://shots.codotx.com/yoru-bar/private-counter-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/private-counter-mobile.webp)
+- Kitchen: [desktop](https://shots.codotx.com/yoru-bar/kitchen-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/kitchen-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/yoru-bar/visit-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/visit-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/yoru-bar/search-desktop.webp) · [mobile](https://shots.codotx.com/yoru-bar/search-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/yoru-bar/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/yoru-bar/ja/home-desktop.webp) · [fr](https://shots.codotx.com/yoru-bar/fr/home-desktop.webp) · [de](https://shots.codotx.com/yoru-bar/de/home-desktop.webp)
 <!-- screenshots:end -->

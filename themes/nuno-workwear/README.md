@@ -30,24 +30,24 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`).
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Nuno Workwear home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Nuno Workwear home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/nuno-workwear/home-desktop.webp" width="640" alt="Nuno Workwear home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/nuno-workwear/home-mobile.webp" width="200" alt="Nuno Workwear home page on mobile"></td>
 </tr>
 </table>
 
-- Catalogue: [desktop](screenshots/catalogue-desktop.webp) · [mobile](screenshots/catalogue-mobile.webp)
-- Fabrics: [desktop](screenshots/fabrics-desktop.webp) · [mobile](screenshots/fabrics-mobile.webp)
-- Fit: [desktop](screenshots/fit-desktop.webp) · [mobile](screenshots/fit-mobile.webp)
-- Repairs: [desktop](screenshots/repairs-desktop.webp) · [mobile](screenshots/repairs-mobile.webp)
-- Crew orders: [desktop](screenshots/crew-orders-desktop.webp) · [mobile](screenshots/crew-orders-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Catalogue: [desktop](https://shots.codotx.com/nuno-workwear/catalogue-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/catalogue-mobile.webp)
+- Fabrics: [desktop](https://shots.codotx.com/nuno-workwear/fabrics-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/fabrics-mobile.webp)
+- Fit: [desktop](https://shots.codotx.com/nuno-workwear/fit-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/fit-mobile.webp)
+- Repairs: [desktop](https://shots.codotx.com/nuno-workwear/repairs-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/repairs-mobile.webp)
+- Crew orders: [desktop](https://shots.codotx.com/nuno-workwear/crew-orders-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/crew-orders-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/nuno-workwear/stories-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/stories-mobile.webp)
+- About: [desktop](https://shots.codotx.com/nuno-workwear/about-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/about-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/nuno-workwear/contact-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/contact-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/nuno-workwear/journal-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/journal-mobile.webp)
+- News: [desktop](https://shots.codotx.com/nuno-workwear/news-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/nuno-workwear/article-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/nuno-workwear/category-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/nuno-workwear/tag-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/nuno-workwear/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/nuno-workwear/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/nuno-workwear/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/nuno-workwear/ja/home-desktop.webp) · [fr](https://shots.codotx.com/nuno-workwear/fr/home-desktop.webp) · [de](https://shots.codotx.com/nuno-workwear/de/home-desktop.webp)
 <!-- screenshots:end -->

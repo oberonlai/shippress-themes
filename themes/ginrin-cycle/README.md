@@ -97,21 +97,21 @@ assets/images/          AI-generated photographs (+ demo/ copies for the Media L
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Ginrin Cycle home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Ginrin Cycle home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/ginrin-cycle/home-desktop.webp" width="640" alt="Ginrin Cycle home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/ginrin-cycle/home-mobile.webp" width="200" alt="Ginrin Cycle home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Builds: [desktop](screenshots/builds-desktop.webp) · [mobile](screenshots/builds-mobile.webp)
-- Repair: [desktop](screenshots/repair-desktop.webp) · [mobile](screenshots/repair-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/ginrin-cycle/about-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/ginrin-cycle/news-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/ginrin-cycle/article-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/ginrin-cycle/category-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/ginrin-cycle/tag-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/ginrin-cycle/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/ginrin-cycle/contact-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/contact-mobile.webp)
+- Builds: [desktop](https://shots.codotx.com/ginrin-cycle/builds-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/builds-mobile.webp)
+- Repair: [desktop](https://shots.codotx.com/ginrin-cycle/repair-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/repair-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/ginrin-cycle/shop-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/ginrin-cycle/product-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/product-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/ginrin-cycle/search-desktop.webp) · [mobile](https://shots.codotx.com/ginrin-cycle/search-mobile.webp)
 <!-- screenshots:end -->

@@ -19,25 +19,25 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Yuragi Spa home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Yuragi Spa home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/yuragi-spa/home-desktop.webp" width="640" alt="Yuragi Spa home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/yuragi-spa/home-mobile.webp" width="200" alt="Yuragi Spa home page on mobile"></td>
 </tr>
 </table>
 
-- Treatments: [desktop](screenshots/treatments-desktop.webp) · [mobile](screenshots/treatments-mobile.webp)
-- Rooms: [desktop](screenshots/rooms-desktop.webp) · [mobile](screenshots/rooms-mobile.webp)
-- Booking: [desktop](screenshots/booking-desktop.webp) · [mobile](screenshots/booking-mobile.webp)
-- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- Gifts: [desktop](screenshots/gifts-desktop.webp) · [mobile](screenshots/gifts-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Treatments: [desktop](https://shots.codotx.com/yuragi-spa/treatments-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/treatments-mobile.webp)
+- Rooms: [desktop](https://shots.codotx.com/yuragi-spa/rooms-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/rooms-mobile.webp)
+- Booking: [desktop](https://shots.codotx.com/yuragi-spa/booking-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/booking-mobile.webp)
+- First visit: [desktop](https://shots.codotx.com/yuragi-spa/first-visit-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/first-visit-mobile.webp)
+- People: [desktop](https://shots.codotx.com/yuragi-spa/people-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/people-mobile.webp)
+- Gifts: [desktop](https://shots.codotx.com/yuragi-spa/gifts-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/gifts-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/yuragi-spa/visit-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/visit-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/yuragi-spa/journal-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/journal-mobile.webp)
+- About: [desktop](https://shots.codotx.com/yuragi-spa/about-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/yuragi-spa/news-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/yuragi-spa/article-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/yuragi-spa/category-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/yuragi-spa/tag-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/yuragi-spa/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/yuragi-spa/contact-desktop.webp) · [mobile](https://shots.codotx.com/yuragi-spa/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/yuragi-spa/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/yuragi-spa/ja/home-desktop.webp) · [fr](https://shots.codotx.com/yuragi-spa/fr/home-desktop.webp) · [de](https://shots.codotx.com/yuragi-spa/de/home-desktop.webp)
 <!-- screenshots:end -->

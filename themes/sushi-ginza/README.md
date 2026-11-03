@@ -45,19 +45,19 @@ Fonts: DM Serif Display and Inter (SIL OFL 1.1, from google/fonts). Photographs:
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Sushi Ginza home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Sushi Ginza home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/sushi-ginza/home-desktop.webp" width="640" alt="Sushi Ginza home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/sushi-ginza/home-mobile.webp" width="200" alt="Sushi Ginza home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Omakase: [desktop](screenshots/omakase-desktop.webp) · [mobile](screenshots/omakase-mobile.webp)
-- Booking: [desktop](screenshots/booking-desktop.webp) · [mobile](screenshots/booking-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- About: [desktop](https://shots.codotx.com/sushi-ginza/about-desktop.webp) · [mobile](https://shots.codotx.com/sushi-ginza/about-mobile.webp)
+- Omakase: [desktop](https://shots.codotx.com/sushi-ginza/omakase-desktop.webp) · [mobile](https://shots.codotx.com/sushi-ginza/omakase-mobile.webp)
+- Booking: [desktop](https://shots.codotx.com/sushi-ginza/booking-desktop.webp) · [mobile](https://shots.codotx.com/sushi-ginza/booking-mobile.webp)
+- News: [desktop](https://shots.codotx.com/sushi-ginza/news-desktop.webp) · [mobile](https://shots.codotx.com/sushi-ginza/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/sushi-ginza/article-desktop.webp) · [mobile](https://shots.codotx.com/sushi-ginza/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/sushi-ginza/category-desktop.webp) · [mobile](https://shots.codotx.com/sushi-ginza/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/sushi-ginza/tag-desktop.webp) · [mobile](https://shots.codotx.com/sushi-ginza/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/sushi-ginza/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/sushi-ginza/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/sushi-ginza/contact-desktop.webp) · [mobile](https://shots.codotx.com/sushi-ginza/contact-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/sushi-ginza/search-desktop.webp) · [mobile](https://shots.codotx.com/sushi-ginza/search-mobile.webp)
 <!-- screenshots:end -->

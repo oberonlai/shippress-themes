@@ -44,20 +44,20 @@ GPL-2.0-or-later. Fonts OFL-1.1 (see `assets/fonts/`): Prata and Radio Canada, b
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Kurogane Ironware home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Kurogane Ironware home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/kurogane-ironware/home-desktop.webp" width="640" alt="Kurogane Ironware home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kurogane-ironware/home-mobile.webp" width="200" alt="Kurogane Ironware home page on mobile"></td>
 </tr>
 </table>
 
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Product: [desktop](screenshots/product-desktop.webp) · [mobile](screenshots/product-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Seasoning and care: [desktop](screenshots/seasoning-and-care-desktop.webp) · [mobile](screenshots/seasoning-and-care-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/kurogane-ironware/shop-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/shop-mobile.webp)
+- Product: [desktop](https://shots.codotx.com/kurogane-ironware/product-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/product-mobile.webp)
+- About: [desktop](https://shots.codotx.com/kurogane-ironware/about-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/about-mobile.webp)
+- Seasoning and care: [desktop](https://shots.codotx.com/kurogane-ironware/seasoning-and-care-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/seasoning-and-care-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kurogane-ironware/contact-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/contact-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kurogane-ironware/news-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kurogane-ironware/article-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kurogane-ironware/category-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kurogane-ironware/tag-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kurogane-ironware/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/newsletter-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/kurogane-ironware/search-desktop.webp) · [mobile](https://shots.codotx.com/kurogane-ironware/search-mobile.webp)
 <!-- screenshots:end -->

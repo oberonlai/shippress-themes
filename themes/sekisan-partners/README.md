@@ -25,26 +25,26 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Sekisan Partners home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Sekisan Partners home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/sekisan-partners/home-desktop.webp" width="640" alt="Sekisan Partners home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/sekisan-partners/home-mobile.webp" width="200" alt="Sekisan Partners home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- How we estimate: [desktop](screenshots/how-we-estimate-desktop.webp) · [mobile](screenshots/how-we-estimate-mobile.webp)
-- Fees and scope: [desktop](screenshots/fees-and-scope-desktop.webp) · [mobile](screenshots/fees-and-scope-mobile.webp)
-- Cases: [desktop](screenshots/cases-desktop.webp) · [mobile](screenshots/cases-mobile.webp)
-- Cost letter: [desktop](screenshots/cost-letter-desktop.webp) · [mobile](screenshots/cost-letter-mobile.webp)
-- Notes: [desktop](screenshots/notes-desktop.webp) · [mobile](screenshots/notes-mobile.webp)
-- Request a proposal: [desktop](screenshots/request-a-proposal-desktop.webp) · [mobile](screenshots/request-a-proposal-mobile.webp)
-- Privacy notice: [desktop](screenshots/privacy-notice-desktop.webp) · [mobile](screenshots/privacy-notice-mobile.webp)
-- Terms: [desktop](screenshots/terms-desktop.webp) · [mobile](screenshots/terms-mobile.webp)
-- Thanks: [desktop](screenshots/thanks-desktop.webp) · [mobile](screenshots/thanks-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/sekisan-partners/about-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/about-mobile.webp)
+- How we estimate: [desktop](https://shots.codotx.com/sekisan-partners/how-we-estimate-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/how-we-estimate-mobile.webp)
+- Fees and scope: [desktop](https://shots.codotx.com/sekisan-partners/fees-and-scope-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/fees-and-scope-mobile.webp)
+- Cases: [desktop](https://shots.codotx.com/sekisan-partners/cases-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/cases-mobile.webp)
+- Cost letter: [desktop](https://shots.codotx.com/sekisan-partners/cost-letter-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/cost-letter-mobile.webp)
+- Notes: [desktop](https://shots.codotx.com/sekisan-partners/notes-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/notes-mobile.webp)
+- Request a proposal: [desktop](https://shots.codotx.com/sekisan-partners/request-a-proposal-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/request-a-proposal-mobile.webp)
+- Privacy notice: [desktop](https://shots.codotx.com/sekisan-partners/privacy-notice-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/privacy-notice-mobile.webp)
+- Terms: [desktop](https://shots.codotx.com/sekisan-partners/terms-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/terms-mobile.webp)
+- Thanks: [desktop](https://shots.codotx.com/sekisan-partners/thanks-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/thanks-mobile.webp)
+- News: [desktop](https://shots.codotx.com/sekisan-partners/news-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/sekisan-partners/article-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/sekisan-partners/category-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/sekisan-partners/tag-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/sekisan-partners/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/sekisan-partners/contact-desktop.webp) · [mobile](https://shots.codotx.com/sekisan-partners/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/sekisan-partners/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/sekisan-partners/ja/home-desktop.webp) · [fr](https://shots.codotx.com/sekisan-partners/fr/home-desktop.webp) · [de](https://shots.codotx.com/sekisan-partners/de/home-desktop.webp)
 <!-- screenshots:end -->

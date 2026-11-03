@@ -13,26 +13,26 @@ sp-scroll: `sp-parallax` on the bench photograph and the production floor, `sp-r
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Komugi School home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Komugi School home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/komugi-school/home-desktop.webp" width="640" alt="Komugi School home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/komugi-school/home-mobile.webp" width="200" alt="Komugi School home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Programme: [desktop](screenshots/programme-desktop.webp) · [mobile](screenshots/programme-mobile.webp)
-- Training day: [desktop](screenshots/training-day-desktop.webp) · [mobile](screenshots/training-day-mobile.webp)
-- Courses: [desktop](screenshots/courses-desktop.webp) · [mobile](screenshots/courses-mobile.webp)
-- Instructors: [desktop](screenshots/instructors-desktop.webp) · [mobile](screenshots/instructors-mobile.webp)
-- Admissions: [desktop](screenshots/admissions-desktop.webp) · [mobile](screenshots/admissions-mobile.webp)
-- Careers: [desktop](screenshots/careers-desktop.webp) · [mobile](screenshots/careers-mobile.webp)
-- Facilities: [desktop](screenshots/facilities-desktop.webp) · [mobile](screenshots/facilities-mobile.webp)
-- Faq: [desktop](screenshots/faq-desktop.webp) · [mobile](screenshots/faq-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/komugi-school/about-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/komugi-school/news-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/komugi-school/article-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/komugi-school/category-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/komugi-school/tag-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/komugi-school/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/komugi-school/contact-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/contact-mobile.webp)
+- Programme: [desktop](https://shots.codotx.com/komugi-school/programme-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/programme-mobile.webp)
+- Training day: [desktop](https://shots.codotx.com/komugi-school/training-day-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/training-day-mobile.webp)
+- Courses: [desktop](https://shots.codotx.com/komugi-school/courses-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/courses-mobile.webp)
+- Instructors: [desktop](https://shots.codotx.com/komugi-school/instructors-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/instructors-mobile.webp)
+- Admissions: [desktop](https://shots.codotx.com/komugi-school/admissions-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/admissions-mobile.webp)
+- Careers: [desktop](https://shots.codotx.com/komugi-school/careers-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/careers-mobile.webp)
+- Facilities: [desktop](https://shots.codotx.com/komugi-school/facilities-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/facilities-mobile.webp)
+- Faq: [desktop](https://shots.codotx.com/komugi-school/faq-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/faq-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/komugi-school/journal-desktop.webp) · [mobile](https://shots.codotx.com/komugi-school/journal-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/komugi-school/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/komugi-school/ja/home-desktop.webp) · [fr](https://shots.codotx.com/komugi-school/fr/home-desktop.webp) · [de](https://shots.codotx.com/komugi-school/de/home-desktop.webp)
 <!-- screenshots:end -->

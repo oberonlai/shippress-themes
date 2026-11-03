@@ -25,25 +25,25 @@ AI-generated for this theme (no text or logos): see readme.txt.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Megumi Pharmacy home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Megumi Pharmacy home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/megumi-pharmacy/home-desktop.webp" width="640" alt="Megumi Pharmacy home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/megumi-pharmacy/home-mobile.webp" width="200" alt="Megumi Pharmacy home page on mobile"></td>
 </tr>
 </table>
 
-- Prescriptions: [desktop](screenshots/prescriptions-desktop.webp) · [mobile](screenshots/prescriptions-mobile.webp)
-- Services: [desktop](screenshots/services-desktop.webp) · [mobile](screenshots/services-mobile.webp)
-- Medicine reviews: [desktop](screenshots/medicine-reviews-desktop.webp) · [mobile](screenshots/medicine-reviews-mobile.webp)
-- Vaccinations: [desktop](screenshots/vaccinations-desktop.webp) · [mobile](screenshots/vaccinations-mobile.webp)
-- People: [desktop](screenshots/people-desktop.webp) · [mobile](screenshots/people-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- Shop: [desktop](screenshots/shop-desktop.webp) · [mobile](screenshots/shop-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- Prescriptions: [desktop](https://shots.codotx.com/megumi-pharmacy/prescriptions-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/prescriptions-mobile.webp)
+- Services: [desktop](https://shots.codotx.com/megumi-pharmacy/services-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/services-mobile.webp)
+- Medicine reviews: [desktop](https://shots.codotx.com/megumi-pharmacy/medicine-reviews-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/medicine-reviews-mobile.webp)
+- Vaccinations: [desktop](https://shots.codotx.com/megumi-pharmacy/vaccinations-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/vaccinations-mobile.webp)
+- People: [desktop](https://shots.codotx.com/megumi-pharmacy/people-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/people-mobile.webp)
+- About: [desktop](https://shots.codotx.com/megumi-pharmacy/about-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/about-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/megumi-pharmacy/visit-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/visit-mobile.webp)
+- Shop: [desktop](https://shots.codotx.com/megumi-pharmacy/shop-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/shop-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/megumi-pharmacy/stories-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/stories-mobile.webp)
+- News: [desktop](https://shots.codotx.com/megumi-pharmacy/news-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/megumi-pharmacy/article-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/megumi-pharmacy/category-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/megumi-pharmacy/tag-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/megumi-pharmacy/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/megumi-pharmacy/contact-desktop.webp) · [mobile](https://shots.codotx.com/megumi-pharmacy/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/megumi-pharmacy/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/megumi-pharmacy/ja/home-desktop.webp) · [fr](https://shots.codotx.com/megumi-pharmacy/fr/home-desktop.webp) · [de](https://shots.codotx.com/megumi-pharmacy/de/home-desktop.webp)
 <!-- screenshots:end -->

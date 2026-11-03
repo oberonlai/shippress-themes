@@ -18,26 +18,26 @@ License: GPL-2.0-or-later.
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Michi Motors home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Michi Motors home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/michi-motors/home-desktop.webp" width="640" alt="Michi Motors home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/michi-motors/home-mobile.webp" width="200" alt="Michi Motors home page on mobile"></td>
 </tr>
 </table>
 
-- New cars: [desktop](screenshots/new-cars-desktop.webp) · [mobile](screenshots/new-cars-mobile.webp)
-- Vehicle: [desktop](screenshots/vehicle-desktop.webp) · [mobile](screenshots/vehicle-mobile.webp)
-- Approved used: [desktop](screenshots/approved-used-desktop.webp) · [mobile](screenshots/approved-used-mobile.webp)
-- Service: [desktop](screenshots/service-desktop.webp) · [mobile](screenshots/service-mobile.webp)
-- Locations: [desktop](screenshots/locations-desktop.webp) · [mobile](screenshots/locations-mobile.webp)
-- Team: [desktop](screenshots/team-desktop.webp) · [mobile](screenshots/team-mobile.webp)
-- Finance: [desktop](screenshots/finance-desktop.webp) · [mobile](screenshots/finance-mobile.webp)
-- Test drive: [desktop](screenshots/test-drive-desktop.webp) · [mobile](screenshots/test-drive-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Search: [desktop](screenshots/search-desktop.webp) · [mobile](screenshots/search-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- New cars: [desktop](https://shots.codotx.com/michi-motors/new-cars-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/new-cars-mobile.webp)
+- Vehicle: [desktop](https://shots.codotx.com/michi-motors/vehicle-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/vehicle-mobile.webp)
+- Approved used: [desktop](https://shots.codotx.com/michi-motors/approved-used-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/approved-used-mobile.webp)
+- Service: [desktop](https://shots.codotx.com/michi-motors/service-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/service-mobile.webp)
+- Locations: [desktop](https://shots.codotx.com/michi-motors/locations-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/locations-mobile.webp)
+- Team: [desktop](https://shots.codotx.com/michi-motors/team-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/team-mobile.webp)
+- Finance: [desktop](https://shots.codotx.com/michi-motors/finance-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/finance-mobile.webp)
+- Test drive: [desktop](https://shots.codotx.com/michi-motors/test-drive-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/test-drive-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/michi-motors/contact-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/contact-mobile.webp)
+- About: [desktop](https://shots.codotx.com/michi-motors/about-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/michi-motors/news-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/michi-motors/article-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/michi-motors/category-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/category-mobile.webp)
+- Search: [desktop](https://shots.codotx.com/michi-motors/search-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/search-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/michi-motors/tag-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/michi-motors/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/michi-motors/newsletter-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/michi-motors/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/michi-motors/ja/home-desktop.webp) · [fr](https://shots.codotx.com/michi-motors/fr/home-desktop.webp) · [de](https://shots.codotx.com/michi-motors/de/home-desktop.webp)
 <!-- screenshots:end -->

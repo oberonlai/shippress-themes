@@ -15,26 +15,26 @@ The header menu links to the nine inner pages (About, Conditions, After surgery,
 
 <table>
 <tr>
-<td valign="top"><img src="screenshots/home-desktop.webp" width="640" alt="Hodoki Clinic home page on desktop"></td>
-<td valign="top"><img src="screenshots/home-mobile.webp" width="200" alt="Hodoki Clinic home page on mobile"></td>
+<td valign="top"><img src="https://shots.codotx.com/hodoki-clinic/home-desktop.webp" width="640" alt="Hodoki Clinic home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hodoki-clinic/home-mobile.webp" width="200" alt="Hodoki Clinic home page on mobile"></td>
 </tr>
 </table>
 
-- About: [desktop](screenshots/about-desktop.webp) · [mobile](screenshots/about-mobile.webp)
-- Conditions: [desktop](screenshots/conditions-desktop.webp) · [mobile](screenshots/conditions-mobile.webp)
-- After surgery: [desktop](screenshots/after-surgery-desktop.webp) · [mobile](screenshots/after-surgery-mobile.webp)
-- Desk workers: [desktop](screenshots/desk-workers-desktop.webp) · [mobile](screenshots/desk-workers-mobile.webp)
-- First visit: [desktop](screenshots/first-visit-desktop.webp) · [mobile](screenshots/first-visit-mobile.webp)
-- Fees: [desktop](screenshots/fees-desktop.webp) · [mobile](screenshots/fees-mobile.webp)
-- Therapists: [desktop](screenshots/therapists-desktop.webp) · [mobile](screenshots/therapists-mobile.webp)
-- Stories: [desktop](screenshots/stories-desktop.webp) · [mobile](screenshots/stories-mobile.webp)
-- Visit: [desktop](screenshots/visit-desktop.webp) · [mobile](screenshots/visit-mobile.webp)
-- News: [desktop](screenshots/news-desktop.webp) · [mobile](screenshots/news-mobile.webp)
-- Article: [desktop](screenshots/article-desktop.webp) · [mobile](screenshots/article-mobile.webp)
-- Category: [desktop](screenshots/category-desktop.webp) · [mobile](screenshots/category-mobile.webp)
-- Tag: [desktop](screenshots/tag-desktop.webp) · [mobile](screenshots/tag-mobile.webp)
-- Newsletter: [desktop](screenshots/newsletter-desktop.webp) · [mobile](screenshots/newsletter-mobile.webp)
-- Contact: [desktop](screenshots/contact-desktop.webp) · [mobile](screenshots/contact-mobile.webp)
-- Journal: [desktop](screenshots/journal-desktop.webp) · [mobile](screenshots/journal-mobile.webp)
-- Other languages (home page): [zh-TW](screenshots/zh-TW/home-desktop.webp) · [ja](screenshots/ja/home-desktop.webp) · [fr](screenshots/fr/home-desktop.webp) · [de](screenshots/de/home-desktop.webp)
+- About: [desktop](https://shots.codotx.com/hodoki-clinic/about-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/about-mobile.webp)
+- Conditions: [desktop](https://shots.codotx.com/hodoki-clinic/conditions-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/conditions-mobile.webp)
+- After surgery: [desktop](https://shots.codotx.com/hodoki-clinic/after-surgery-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/after-surgery-mobile.webp)
+- Desk workers: [desktop](https://shots.codotx.com/hodoki-clinic/desk-workers-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/desk-workers-mobile.webp)
+- First visit: [desktop](https://shots.codotx.com/hodoki-clinic/first-visit-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/first-visit-mobile.webp)
+- Fees: [desktop](https://shots.codotx.com/hodoki-clinic/fees-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/fees-mobile.webp)
+- Therapists: [desktop](https://shots.codotx.com/hodoki-clinic/therapists-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/therapists-mobile.webp)
+- Stories: [desktop](https://shots.codotx.com/hodoki-clinic/stories-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/stories-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/hodoki-clinic/visit-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/visit-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hodoki-clinic/news-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hodoki-clinic/article-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hodoki-clinic/category-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hodoki-clinic/tag-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hodoki-clinic/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hodoki-clinic/contact-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/contact-mobile.webp)
+- Journal: [desktop](https://shots.codotx.com/hodoki-clinic/journal-desktop.webp) · [mobile](https://shots.codotx.com/hodoki-clinic/journal-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hodoki-clinic/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hodoki-clinic/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hodoki-clinic/fr/home-desktop.webp) · [de](https://shots.codotx.com/hodoki-clinic/de/home-desktop.webp)
 <!-- screenshots:end -->
