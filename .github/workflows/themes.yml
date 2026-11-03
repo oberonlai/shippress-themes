@@ -42,6 +42,16 @@ jobs:
         with:
           fetch-depth: 0   # release tags: check-themes refuses a released version whose files changed (bump-released.mjs)
           fetch-tags: true
+          # Full history and tags, but no file contents until they are checked out, and the catalogue screenshots (3.8 GB,
+          # not part of any zip) are never checked out: this job reads none of them, except the one home screenshot that
+          # check-themes.test.mjs measures (check-first-screen.py: asa-linen and jika-tabi). Fixes #596
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/themes/*/screenshots/*
+            /themes/asa-linen/screenshots/home-desktop.webp
+            /themes/jika-tabi/screenshots/home-desktop.webp
       - uses: actions/setup-node@v4
         with:
           node-version: 22
