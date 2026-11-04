@@ -1,6 +1,6 @@
 # Kanjo College: design spec (stage B, binding for implementation)
 
-Slug `kanjo-college`, accountancy training college for adults (type `education`, no WooCommerce needed; declare compatibility only). Design row b23-3: archetype single-column-longform, hero framed-window, nav top-bar, first screen timeline-line, page structure process-timeline, palette slate (藍鼠 #5C6A72), font direction **sans**.
+Slug `kanjo-college`, accountancy training college for adults (type `education`, no WooCommerce needed; declare compatibility only). Design row b23-3: archetype single-column-longform, hero framed-window, nav top-bar, first screen timeline-line, page structure process-timeline, palette slate (ai-nezumi, indigo mouse grey #5C6A72), font direction **sans**.
 
 References (see `reference.md`, `reference-tokens.md`, `ref/*.png`):
 - Main: Mejiro "Mejinavi 2026" admissions microsite, https://www.mejiro.ac.jp/univ/mejinavi2026/
@@ -64,7 +64,7 @@ Mobile 390: H1 first (no chip overlap), window full width minus 32px at 4:5 r32,
 
 ## 3. Colour
 
-Source: Mito secondary ground/sky values (#EFF6F8 / #E4F1F4) are within 5% lightness of our ground/band; Mejiro's structure (pale ground ~60%, one band ~25%, one display colour ~5%, dark sub-pill) kept, but Mejiro green #5EB473 and red-orange #E8543C are swapped to the design row's required slate #5C6A72 and a muted ledger red. Reason: the row fixes palette 藍鼠 and quality gate caps saturated share at 15–30%; Mejiro's first screen is ~35% saturated, which fails the gate, and a grass-green college reads as a nature brand, not accountancy.
+Source: Mito secondary ground/sky values (#EFF6F8 / #E4F1F4) are within 5% lightness of our ground/band; Mejiro's structure (pale ground ~60%, one band ~25%, one display colour ~5%, dark sub-pill) kept, but Mejiro green #5EB473 and red-orange #E8543C are swapped to the design row's required slate #5C6A72 and a muted ledger red. Reason: the row fixes palette ai-nezumi slate and quality gate caps saturated share at 15–30%; Mejiro's first screen is ~35% saturated, which fails the gate, and a grass-green college reads as a nature brand, not accountancy.
 
 | role | hex | share | source token |
 |---|---|---|---|
@@ -260,5 +260,5 @@ Mobile keeps both with `--sp-par: 6%`. `check-parallax.mjs` must show ≥ 6px de
 - [ ] Fee table full width at 800/1280, prices nowrap right-aligned and unclipped; stacks on 390.
 - [ ] 390 first screen: no vertical/absolute labels over text; no horizontal overflow.
 - [ ] ≥ 250 English words, ≥ 3 paragraphs; numbers match section 8 exactly.
-- [ ] Fonts: Schibsted Grotesk / Instrument Sans via theme.json fontFace, same in editor and front end; CJK Noto Sans TC / JP (黑體) for headings.
+- [ ] Fonts: Schibsted Grotesk / Instrument Sans via theme.json fontFace, same in editor and front end; CJK Noto Sans TC / JP (gothic, sans) for headings.
 - [ ] `auto-gates.mjs … en … 1 1` pass=true.
