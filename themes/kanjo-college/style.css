@@ -458,15 +458,20 @@ a { text-underline-offset: .2em; }
 	.kc-route { display: none; }
 }
 
-/* Languages: Chinese uses a bundled Noto Sans TC subset for headings (CJK characters only; Latin and figures stay in Schibsted Grotesk / Instrument Sans) */
+/* Languages: Chinese and Japanese use bundled Noto Sans TC / JP subsets for headings (CJK characters only; Latin and figures stay in Schibsted Grotesk / Instrument Sans) */
 :root:lang(zh) {
 	--wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans TC", "Noto Sans CJK TC", sans-serif;
 	--wp--preset--font-family--body: "Instrument Sans", "PingFang TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans JP", "Noto Sans CJK JP", sans-serif;
+	--wp--preset--font-family--body: "Instrument Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans CJK JP", Meiryo, sans-serif;
 }
 :is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
 :is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
 :is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
 :is(:lang(zh), :lang(ja)) :is(.kc-brand, .kc-win__cap, .kc-win__idx, .kc-count, .kc-step__no, .kc-ruled__no) { letter-spacing: 0.02em; }
 :is(:lang(zh), :lang(ja)) .kc-win__cap { line-height: 1.2; }
+:lang(ja) :is(h1, h2, h3) { word-break: auto-phrase; }
 :is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li) { hyphens: auto; overflow-wrap: break-word; }
 :lang(de) :is(h1, h2, h3) { hyphenate-limit-chars: 7 3 3; }

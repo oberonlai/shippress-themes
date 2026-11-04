@@ -25,7 +25,7 @@ The college, its people, address, telephone number and prices are fictional.
 == Copyright ==
 
 Kanjo College is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Instrument Sans (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), subset to the zh-TW sample text; all WOFF2, see assets/fonts/.
+Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Instrument Sans (OFL-1.1), Latin variable; Noto Sans TC and Noto Sans JP (OFL-1.1), subset to the zh-TW and ja sample text; all WOFF2, see assets/fonts/.
 
 = Images =
 
