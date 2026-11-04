@@ -11,7 +11,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"tn-sec tn-visits","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tn-sec tn-visits"><!-- wp:html -->
-<svg class="tn-hill tn-hill--back" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 70C220 20 420 10 640 48S1000 118 1200 60S1380 20 1440 34V120H0Z"/></svg>
+<svg class="tn-hill tn-hill--back" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 84C300 66 560 44 820 32S1260 20 1440 12V120H0Z"/></svg>
 <!-- /wp:html --><!-- wp:group {"align":"wide","className":"tn-sticky tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-sticky tn-wrap"><!-- wp:group {"className":"tn-sticky__col","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-sticky__col"><!-- wp:paragraph {"className":"tn-label"} -->
