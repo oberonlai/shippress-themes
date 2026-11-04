@@ -7,11 +7,6 @@
  * Viewport Width: 1440
  * Description: Three portrait cards with name-and-route pills and a short story under each, separated by dotted dividers.
  */
-$kc_stories = array(
-	array( 'p10', 'Marta Ruiz', 'Evening route', 'Working full time as a bookkeeper, Marta chose our evening classes to move toward an assistant accountant role. The 36-hour syllabus and two mock papers gave her steady confidence in ledger reconciliation.', 'A woman in her thirties studying accounting notes at a kitchen table.' ),
-	array( 'p11', 'Daniel Mensah', 'Day route', 'After years in retail management, Daniel joined the Monday and Wednesday day classes. Twelve-week terms let him learn management accounting while keeping his weekday responsibilities.', 'A man in his forties reading an accountancy workbook on a commuter train.' ),
-	array( 'p12', 'Priya Nair', 'One paper per term', 'Returning to work after parental leave, Priya took one paper each term to refresh her skills. Classes of at most sixteen gave her the direct access to her lecturer that she needed.', 'A woman in her fifties working in a library carrel with a laptop and calculator.' ),
-);
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-sec kc-stories","layout":{"type":"default"}} -->
 <section id="stories" class="wp-block-group alignfull kc-sec kc-stories"><!-- wp:group {"className":"kc-in","layout":{"type":"default"}} -->
@@ -26,29 +21,70 @@ $kc_stories = array(
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-cards kc-cards--stories sp-stagger","layout":{"type":"default"}} -->
-<div class="wp-block-group kc-cards kc-cards--stories sp-stagger"><?php foreach ( $kc_stories as $i => $kc_s ) : ?>
-<!-- wp:group {"className":"kc-card kc-card--<?php echo (int) ( $i + 1 ); ?> sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group kc-card kc-card--<?php echo (int) ( $i + 1 ); ?> sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-card__in","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-cards kc-cards--stories sp-stagger"><!-- wp:group {"className":"kc-card kc-card--1 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card kc-card--1 sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-card__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-card__in"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-card__photo"} -->
-<figure class="wp-block-image size-full kc-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/' . $kc_s[0] . '.webp' ) ); ?>" alt="<?php echo esc_attr( $kc_s[4] ); ?>"/></figure>
+<figure class="wp-block-image size-full kc-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10.webp' ) ); ?>" alt="A woman in her thirties studying accounting notes at a kitchen table."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kc-pill","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-pill"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><?php echo esc_html( $kc_s[1] ); ?></h3>
+<h3 class="wp-block-heading">Marta Ruiz</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-pill__sub"} -->
-<p class="kc-pill__sub"><?php echo esc_html( $kc_s[2] ); ?></p>
+<p class="kc-pill__sub">Evening route</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"kc-card__story"} -->
-<p class="kc-card__story"><?php echo esc_html( $kc_s[3] ); ?></p>
+<p class="kc-card__story">Working full time as a bookkeeper, Marta chose our evening classes to move toward an assistant accountant role. The 36-hour syllabus and two mock papers gave her steady confidence in ledger reconciliation.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
-<?php endforeach; ?></div>
+<!-- wp:group {"className":"kc-card kc-card--2 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card kc-card--2 sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-card__in","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card__in"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-card__photo"} -->
+<figure class="wp-block-image size-full kc-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11.webp' ) ); ?>" alt="A man in his forties reading an accountancy workbook on a commuter train."/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"kc-pill","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-pill"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Daniel Mensah</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kc-pill__sub"} -->
+<p class="kc-pill__sub">Day route</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"kc-card__story"} -->
+<p class="kc-card__story">After years in retail management, Daniel joined the Monday and Wednesday day classes. Twelve-week terms let him learn management accounting while keeping his weekday responsibilities.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"kc-card kc-card--3 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card kc-card--3 sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-card__in","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card__in"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-card__photo"} -->
+<figure class="wp-block-image size-full kc-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12.webp' ) ); ?>" alt="A woman in her fifties working in a library carrel with a laptop and calculator."/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"kc-pill","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-pill"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Priya Nair</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kc-pill__sub"} -->
+<p class="kc-pill__sub">One paper per term</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"kc-card__story"} -->
+<p class="kc-card__story">Returning to work after parental leave, Priya took one paper each term to refresh her skills. Classes of at most sixteen gave her the direct access to her lecturer that she needed.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+</div>
 <!-- /wp:group -->
 
 <!-- wp:buttons -->

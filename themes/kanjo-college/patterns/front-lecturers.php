@@ -37,8 +37,8 @@ $kc_rows = array(
 <h2 class="wp-block-heading sp-reveal sp-reveal--up">Lecturers, ruled and named</h2>
 <!-- /wp:heading -->
 
-<!-- wp:group {"className":"kc-ledger sp-stagger","layout":{"type":"default"}} -->
-<div class="wp-block-group kc-ledger sp-stagger"><?php foreach ( $kc_rows as $kc_r ) : ?>
+<!-- wp:group {"className":"kc-lrows sp-stagger","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-lrows sp-stagger"><?php foreach ( $kc_rows as $kc_r ) : ?>
 <!-- wp:group {"className":"kc-lrow sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-lrow sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kc-lrow__name"} -->
 <p class="kc-lrow__name"><?php echo esc_html( $kc_r[0] ); ?></p>

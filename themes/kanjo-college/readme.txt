@@ -30,4 +30,15 @@ Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Instrument Sans (OFL-1.1), L
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as documentary high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the college is fictional). No transparent cut-outs are used. The line-art in assets/line/ is original SVG drawn for this theme.
-- assets/images/p01.webp to p12.webp (home page: lecturer at a ruled whiteboard, ruling hands, four portraits, evening class, evening study room, two lecturers, three learner portraits)
+- assets/images/p01.webp (home cover window: lecturer ruling a line on a whiteboard, two students with an exercise)
+- assets/images/p02.webp (home intro: hands ruling a pencil line on a ledger exercise)
+- assets/images/p03.webp (home paper card 1: man with a ring binder)
+- assets/images/p04.webp (home paper card 2: woman in a cardigan with a pencil)
+- assets/images/p05.webp (home paper card 3: young woman holding an exercise sheet)
+- assets/images/p06.webp (home paper card 4: man in reading glasses with a folder)
+- assets/images/p07.webp (home term pacing: evening class seen from the back)
+- assets/images/p08.webp (home evening study room (parallax band))
+- assets/images/p09.webp (home lecturers: two lecturers reviewing scripts)
+- assets/images/p10.webp (home story: woman studying at a kitchen table)
+- assets/images/p11.webp (home story: man reading a workbook on a train)
+- assets/images/p12.webp (home story: woman in a library carrel)

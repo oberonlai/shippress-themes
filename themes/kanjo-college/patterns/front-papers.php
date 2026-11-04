@@ -7,12 +7,6 @@
  * Viewport Width: 1440
  * Description: Four outlined portrait paper cards on a ledger line-art band, each with an overlapping cloud-pill label and dotted dividers.
  */
-$kc_papers = array(
-	array( 'p03', 'Financial Accounting', 'Paper 1 · 12 weeks', 'Double entry, trial balances and the primary statements.', 'A man in his thirties holding a ring binder against a plain wall.' ),
-	array( 'p04', 'Management Accounting', 'Paper 2 · 12 weeks', 'Costing, budgets and variance analysis for decisions.', 'A woman in a cardigan with a pencil behind her ear.' ),
-	array( 'p05', 'Tax &amp; Payroll', 'Paper 3 · 12 weeks', 'Tax computations, statutory deductions and payroll routines.', 'A young woman holding a printed accounting exercise sheet.' ),
-	array( 'p06', 'Audit &amp; Assurance', 'Paper 4 · 12 weeks', 'Verification, controls and professional documentation.', 'A mature man in reading glasses holding a folder.' ),
-);
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-sec kc-papers","layout":{"type":"default"}} -->
 <section id="papers" class="wp-block-group alignfull kc-sec kc-papers"><!-- wp:group {"className":"kc-in","layout":{"type":"default"}} -->
@@ -31,29 +25,91 @@ $kc_papers = array(
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-cards sp-stagger","layout":{"type":"default"}} -->
-<div class="wp-block-group kc-cards sp-stagger"><?php foreach ( $kc_papers as $i => $kc_p ) : ?>
-<!-- wp:group {"className":"kc-card kc-card--<?php echo (int) ( $i + 1 ); ?> sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group kc-card kc-card--<?php echo (int) ( $i + 1 ); ?> sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-card__in","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-cards sp-stagger"><!-- wp:group {"className":"kc-card kc-card--1 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card kc-card--1 sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-card__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-card__in"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-card__photo"} -->
-<figure class="wp-block-image size-full kc-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/' . $kc_p[0] . '.webp' ) ); ?>" alt="<?php echo esc_attr( $kc_p[4] ); ?>"/></figure>
+<figure class="wp-block-image size-full kc-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03.webp' ) ); ?>" alt="A man in his thirties holding a ring binder against a plain wall."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kc-pill","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-pill"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading"><?php echo $kc_p[1]; // phpcs:ignore WordPress.Security.EscapeOutput ?></h3>
+<h3 class="wp-block-heading">Financial Accounting</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-pill__sub"} -->
-<p class="kc-pill__sub"><?php echo esc_html( $kc_p[2] ); ?></p>
+<p class="kc-pill__sub">Paper 1 · 12 weeks</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"kc-card__note"} -->
-<p class="kc-card__note"><?php echo esc_html( $kc_p[3] ); ?></p>
+<p class="kc-card__note">Double entry, trial balances and the primary statements.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
-<?php endforeach; ?></div>
+<!-- wp:group {"className":"kc-card kc-card--2 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card kc-card--2 sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-card__in","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card__in"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-card__photo"} -->
+<figure class="wp-block-image size-full kc-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p04.webp' ) ); ?>" alt="A woman in a cardigan with a pencil behind her ear."/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"kc-pill","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-pill"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Management Accounting</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kc-pill__sub"} -->
+<p class="kc-pill__sub">Paper 2 · 12 weeks</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"kc-card__note"} -->
+<p class="kc-card__note">Costing, budgets and variance analysis for decisions.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"kc-card kc-card--3 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card kc-card--3 sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-card__in","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card__in"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-card__photo"} -->
+<figure class="wp-block-image size-full kc-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05.webp' ) ); ?>" alt="A young woman holding a printed accounting exercise sheet."/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"kc-pill","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-pill"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Tax &amp; Payroll</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kc-pill__sub"} -->
+<p class="kc-pill__sub">Paper 3 · 12 weeks</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"kc-card__note"} -->
+<p class="kc-card__note">Tax computations, statutory deductions and payroll routines.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"kc-card kc-card--4 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card kc-card--4 sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-card__in","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card__in"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-card__photo"} -->
+<figure class="wp-block-image size-full kc-card__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06.webp' ) ); ?>" alt="A mature man in reading glasses holding a folder."/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"kc-pill","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-pill"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Audit &amp; Assurance</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kc-pill__sub"} -->
+<p class="kc-pill__sub">Paper 4 · 12 weeks</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"kc-card__note"} -->
+<p class="kc-card__note">Verification, controls and professional documentation.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+</div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"className":"kc-papers__more"} -->
