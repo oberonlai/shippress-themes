@@ -82,7 +82,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tn-sec tn-after tn-after--first","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tn-sec tn-after tn-after--first"><!-- wp:group {"align":"wide","className":"tn-narrow tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-narrow tn-wrap"><!-- wp:paragraph -->
-<p>When illness or injury interrupts normal routines, healing often unfolds most comfortably in the familiar spaces of home. Our visiting nurses and therapists work quietly alongside patients in their living rooms, kitchens, and garden paths. Rather than imposing rigid hospital schedules, we tailor each visit to the practical contours of daily life, supporting patients as they regain mobility, adjust to new medical regimens, or spend peaceful final weeks surrounded by family.</p>
+<p>Rather than imposing rigid hospital schedules, we tailor each visit to the practical contours of daily life, supporting patients as they regain mobility, adjust to new medical regimens, or spend peaceful final weeks surrounded by family.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

@@ -73,6 +73,7 @@ assets/images/demo/p10-street.webp: generated with Grok for this theme, GPL-2.0-
 assets/images/demo/p11-plan.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/demo/p12-bakery.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/demo/p13-briefing.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
+assets/images/demo/p06-kitchen.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p01-cuff.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p02-window.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0
 assets/images/p03-pills.webp: generated with Grok for this theme, GPL-2.0-or-later / CC0

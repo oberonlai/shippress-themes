@@ -1,6 +1,6 @@
 # Tayori Nursing — brand brief
 
-Design plan row: b23-1 (home-visit nursing service, type business). Stage one: the home page in English. Inner pages and the other languages follow. All names, places, people and figures are fictional. Nursing copy never promises an outcome.
+Design plan row: b23-1 (home-visit nursing service, type business). The home page and the inner pages are written in English; the other languages follow. All names, places, people and figures are fictional. Nursing copy never promises an outcome.
 
 ## Concept
 - **Name:** Tayori Nursing. "Tayori" means someone to rely on; the service is meant to be exactly that person at your door.
@@ -49,3 +49,14 @@ Manrope (headings, labels) over Public Sans (reading). Noto Sans TC and Noto San
 
 ## Home page
 Hero of four pebble photographs and two doodles over a celadon wave; staggered statement; why visits at home; visits with a sticky heading and three white cards; a morning round beside a parallax photograph; the care plan card; fees; stories; the seven people and the area; a celadon call band.
+
+## Inner pages
+- **About:** pebble head (window talk, office exterior, nurse doodle), a staggered fill statement, how we work in two text rows, three values (continuity, respect, clear boundaries) beside a kitchen-table pebble.
+- **Visits:** sticky heading with pills 01 Care / 02 Move / 03 Stay beside three white cards (nursing from $48, rehabilitation from $70, palliative from $48), then what we do not provide (emergencies go to local emergency services).
+- **A morning round:** the five stops as large timed rows, a full-width parallax photograph of the morning briefing, a closing statement.
+- **Care plan:** four white step cards (first call, kitchen-table assessment, written plan, review every 30 days) and what the written plan contains.
+- **Fees:** the six fixed prices in a full-width table card, then insurance, cancellation and two short answers beside a sticky heading.
+- **Stories:** a statement intro and three full stories (Rosa, Mr. Delacroix, the Haddad family), each with its own photograph; experiences, never promises.
+- **Nurses:** seven stacked white cards, name left and role right, no portrait grid.
+- **Contact:** address, hours, service area (8 km), a plain form and short answers.
+- **News:** posts page with 16:10 thumbnails, one article (preparing for a first home nursing visit), categories Notes from the round and Office news, tags rehabilitation, medicines, family, on-call.

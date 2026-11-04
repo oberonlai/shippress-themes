@@ -171,7 +171,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-line sp-reveal sp-reveal--up tn-line--last"} -->
-<p class="tn-line sp-reveal sp-reveal--up tn-line--last">personal routines, dignity, and quiet reassurance.</p>
+<p class="tn-line sp-reveal sp-reveal--up tn-line--last">dignity and quiet reassurance.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

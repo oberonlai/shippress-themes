@@ -8,7 +8,7 @@ A block theme for a home-visit nursing service. Warm grey ground, scattered pebb
 - Design notes: `brand.md`, `brand/design-spec.md`.
 
 ## Status
-- Home page (English) is complete: hero, statement, why, visits, morning round, care plan, fees, stories, people, call.
-- Main menu links to real pages (About, Visits, A morning round, Care plan, Fees, Stories, Contact) created by the demo import; News is the posts page.
-- Hero parallax speeds are 6 / 9 / 9 / 7 % (sp-scroll scales the layer, so values above 9 % would expose the ground).
-- Inner pages, the remaining demo posts and the zh-TW, ja, fr and de translations are still to do.
+- English is complete: home, About, Visits, A morning round, Care plan, Fees, Stories, Nurses, Contact, News (posts page), one article, category and tag archives, search and 404.
+- Inner pages are patterns (`page-about`, `page-visits`, `page-morning-round`, `page-care-plan`, `page-fees`, `page-stories`, `page-nurses`, `page-contact`) with a small pebble head; templates use `head-page`, `head-archive`, `head-search`, `head-news`.
+- The signature carries over: pebble heads on every inner page, sticky heading with white cards on Visits, Care plan, Fees and Nurses, grey-to-ink statements on About, A morning round and Stories, parallax on the head pebbles and on the full-width briefing photograph.
+- The zh-TW, ja, fr and de translations are still to do.
