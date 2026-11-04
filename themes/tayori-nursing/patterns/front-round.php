@@ -12,20 +12,20 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tn-sec tn-round","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tn-sec tn-round"><!-- wp:group {"align":"wide","className":"tn-round__grid tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-round__grid tn-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-round__photo sp-parallax"} -->
-<figure class="wp-block-image size-full tn-round__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10-street.webp' ) ); ?>" alt="Nurse with a bag wheels a bicycle along a quiet tree-lined street."/></figure>
+<figure class="wp-block-image size-full tn-round__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10-street.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'a1f12810c' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"tn-round__text","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-round__text"><!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">A morning round</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'kba075e57' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tn-h2"} -->
-<h2 class="wp-block-heading tn-h2">How a morning round<br>is walked</h2>
+<h2 class="wp-block-heading tn-h2"><?php echo wp_kses_post( tayori_nursing_t( 'k36ef6391' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Our nursing days follow a calm, predictable schedule across Linden Vale:</p>
+<p><?php echo wp_kses_post( tayori_nursing_t( 'kea307a23' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"tn-round__rows","layout":{"type":"default"}} -->
@@ -35,7 +35,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-stop"} -->
-<p class="tn-stop">Office briefing</p>
+<p class="tn-stop"><?php echo wp_kses_post( tayori_nursing_t( 'k8de5707a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -45,7 +45,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-stop"} -->
-<p class="tn-stop">First visit: blood pressure and medicines</p>
+<p class="tn-stop"><?php echo wp_kses_post( tayori_nursing_t( 'ke49ab152' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -55,7 +55,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-stop"} -->
-<p class="tn-stop">Wound dressing</p>
+<p class="tn-stop"><?php echo wp_kses_post( tayori_nursing_t( 'k2d6d4c9d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -65,7 +65,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-stop"} -->
-<p class="tn-stop">Rehab walk on the street outside</p>
+<p class="tn-stop"><?php echo wp_kses_post( tayori_nursing_t( 'k420277c1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -75,7 +75,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-stop"} -->
-<p class="tn-stop">Notes written and a call to the family</p>
+<p class="tn-stop"><?php echo wp_kses_post( tayori_nursing_t( 'k72bb99dc' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -13,7 +13,7 @@
 <section class="wp-block-group alignfull tn-sec tn-stories"><!-- wp:group {"align":"wide","className":"tn-stories__grid tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-stories__grid tn-wrap"><!-- wp:group {"className":"tn-pwrap tn-pwrap--stories","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-pwrap tn-pwrap--stories"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--a tn-stories__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--a tn-stories__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-bakery.webp' ) ); ?>" alt="Older woman with a cane walks out of a bakery with a nurse behind."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--a tn-stories__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-bakery.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'abf9b02b8' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-doodle tn-pwrap--stories-d"} -->
@@ -23,46 +23,46 @@
 
 <!-- wp:group {"className":"tn-stories__text","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-stories__text"><!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">Stories</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'kcbb37401' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-quote"} -->
-<p class="tn-quote">Rosa, 82, returned home after a hip operation, hesitant about walking alone.</p>
+<p class="tn-quote"><?php echo wp_kses_post( tayori_nursing_t( 'k3f7052a2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Through six weeks of regular rehabilitation visits, she practiced standing safely and walking out to the street until she was able to walk to the bakery again on her own.</p>
+<p><?php echo wp_kses_post( tayori_nursing_t( 'k1f76ef2a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-story__link"} -->
-<p class="tn-story__link"><a href="/stories/">Read Rosa’s story</a></p>
+<p class="tn-story__link"><a href="/stories/"><?php echo wp_kses_post( tayori_nursing_t( 'k9e35b858' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"tn-story__row","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-story__row"><!-- wp:paragraph {"className":"tn-story__name"} -->
-<p class="tn-story__name">Mr. Delacroix</p>
+<p class="tn-story__name"><?php echo wp_kses_post( tayori_nursing_t( 'k36c07940' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-story__text"} -->
-<p class="tn-story__text">Faced learning how to use an insulin pen at home following a new diagnosis. Our visiting nurse attended three visits a week to guide his technique, gradually tapering to one visit a week as he gained complete confidence.</p>
+<p class="tn-story__text"><?php echo wp_kses_post( tayori_nursing_t( 'k5f4a1a8b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-story__link"} -->
-<p class="tn-story__link"><a href="/stories/">Read</a></p>
+<p class="tn-story__link"><a href="/stories/"><?php echo wp_kses_post( tayori_nursing_t( 'k7a1a5f3e' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tn-story__row","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-story__row"><!-- wp:paragraph {"className":"tn-story__name"} -->
-<p class="tn-story__name">The Haddad family</p>
+<p class="tn-story__name"><?php echo wp_kses_post( tayori_nursing_t( 'kb63a32e9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-story__text"} -->
-<p class="tn-story__text">Wished for their father to spend his last weeks in peace in his own bedroom. With regular nursing visits and our 24-hour on-call line, the family had continuous guidance and clinical reassurance whenever questions arose.</p>
+<p class="tn-story__text"><?php echo wp_kses_post( tayori_nursing_t( 'kacf9e3fb' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-story__link"} -->
-<p class="tn-story__link"><a href="/stories/">Read</a></p>
+<p class="tn-story__link"><a href="/stories/"><?php echo wp_kses_post( tayori_nursing_t( 'k7a1a5f3e' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

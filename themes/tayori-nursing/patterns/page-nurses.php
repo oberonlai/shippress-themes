@@ -12,11 +12,11 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tn-phead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tn-phead"><!-- wp:group {"className":"tn-phead__field","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-phead__field"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--a tn-ph1 sp-parallax"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--a tn-ph1 sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-briefing.webp' ) ); ?>" alt="Two nurses and a coordinator at the morning briefing around an office table."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--a tn-ph1 sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-briefing.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'a73a01d96' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--b tn-ph2 sp-parallax"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--b tn-ph2 sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-oncall.webp' ) ); ?>" alt="Nurse at an office window answering a phone in evening light."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--b tn-ph2 sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-oncall.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'a60c95a2b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-doodle tn-phd"} -->
@@ -26,15 +26,15 @@
 
 <!-- wp:group {"className":"tn-phead__inner tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-phead__inner tn-wrap"><!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">The team</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'ke51d7e07' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"tn-phead__title"} -->
-<h1 class="wp-block-heading tn-phead__title">Our Team</h1>
+<h1 class="wp-block-heading tn-phead__title"><?php echo wp_kses_post( tayori_nursing_t( 'kf9381dd3' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"tn-phead__lead"} -->
-<p class="tn-phead__lead">Our seven-member clinical team brings diverse nursing, therapy, and coordination expertise to homes across Linden Vale.</p>
+<p class="tn-phead__lead"><?php echo wp_kses_post( tayori_nursing_t( 'k093b5a7d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -47,20 +47,20 @@
 <section class="wp-block-group alignfull tn-sec tn-t2sec"><!-- wp:group {"align":"wide","className":"tn-sticky tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-sticky tn-wrap"><!-- wp:group {"className":"tn-sticky__col","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-sticky__col"><!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">The team</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'ke51d7e07' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tn-h2"} -->
-<h2 class="wp-block-heading tn-h2">Seven people,<br>one office</h2>
+<h2 class="wp-block-heading tn-h2"><?php echo wp_kses_post( tayori_nursing_t( 'ka43ce5d6' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"tn-pills"} -->
-<p class="tn-pills"><a class="tn-pill tn-pill--1" href="#nurse-01">Nurses</a><a class="tn-pill tn-pill--5" href="#nurse-05">Therapists</a><a class="tn-pill tn-pill--7" href="#nurse-07">Office</a></p>
+<p class="tn-pills"><a class="tn-pill tn-pill--1" href="#nurse-01"><?php echo wp_kses_post( tayori_nursing_t( 'kbee801c6' ) ); ?></a><a class="tn-pill tn-pill--5" href="#nurse-05"><?php echo wp_kses_post( tayori_nursing_t( 'k09d44f4e' ) ); ?></a><a class="tn-pill tn-pill--7" href="#nurse-07"><?php echo wp_kses_post( tayori_nursing_t( 'kdf814135' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"tn-btns"} -->
 <div class="wp-block-buttons tn-btns"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Contact the office</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( tayori_nursing_t( 'k9550be87' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -69,112 +69,112 @@
 <div class="wp-block-group tn-sticky__cards"><!-- wp:group {"anchor":"nurse-01","className":"tn-card tn-card--person","layout":{"type":"default"}} -->
 <div id="nurse-01" class="wp-block-group tn-card tn-card--person"><!-- wp:group {"className":"tn-card__head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group tn-card__head"><!-- wp:paragraph {"className":"tn-card__name"} -->
-<p class="tn-card__name">Mira Castell</p>
+<p class="tn-card__name"><?php echo wp_kses_post( tayori_nursing_t( 'k25040106' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Founder &amp; Director, Registered Nurse</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'k8841b409' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
-<p class="tn-card__lead">Mira Castell established Tayori Nursing in 2017 to bring attentive, high-quality clinical healthcare directly into Linden Vale homes. As founder and director, she oversees clinical quality while continuing to conduct primary assessments and routine home nursing visits. Mira believes unhurried observation and warm personal communication form the true foundation of exceptional home-based recovery and ongoing medical support.</p>
+<p class="tn-card__lead"><?php echo wp_kses_post( tayori_nursing_t( 'kdcc5675e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"anchor":"nurse-02","className":"tn-card tn-card--person","layout":{"type":"default"}} -->
 <div id="nurse-02" class="wp-block-group tn-card tn-card--person"><!-- wp:group {"className":"tn-card__head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group tn-card__head"><!-- wp:paragraph {"className":"tn-card__name"} -->
-<p class="tn-card__name">Jonah Abebe</p>
+<p class="tn-card__name"><?php echo wp_kses_post( tayori_nursing_t( 'k1233113f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Lead Nurse, Palliative Care</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'kab4a0ddd' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
-<p class="tn-card__lead">Jonah Abebe leads our palliative and end-of-life care visits with deep clinical precision and gentle compassion. He coordinates closely with attending physicians, patients, and family members to ensure optimal symptom control, pain management, and dignity at home. Jonah's experienced bedside manner helps households navigate demanding medical circumstances with calm reassurance and unwavering professional support throughout every stage of care.</p>
+<p class="tn-card__lead"><?php echo wp_kses_post( tayori_nursing_t( 'k2975e6f6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"anchor":"nurse-03","className":"tn-card tn-card--person","layout":{"type":"default"}} -->
 <div id="nurse-03" class="wp-block-group tn-card tn-card--person"><!-- wp:group {"className":"tn-card__head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group tn-card__head"><!-- wp:paragraph {"className":"tn-card__name"} -->
-<p class="tn-card__name">Sofia Brandt</p>
+<p class="tn-card__name"><?php echo wp_kses_post( tayori_nursing_t( 'kfd1cc816' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Nurse, Wound &amp; Stoma Care</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'k9f08c767' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
-<p class="tn-card__lead">Sofia Brandt specializes in post-surgical wound management, stoma care, and chronic skin integrity. Visiting homes throughout Linden Vale, she applies modern sterile techniques to dress complex wounds, monitor healing, and minimize tissue discomfort. Sofia is passionate about patient education, patiently guiding individuals and their family caregivers on daily skin hygiene, dressing maintenance, and infection prevention between scheduled visits.</p>
+<p class="tn-card__lead"><?php echo wp_kses_post( tayori_nursing_t( 'k806c8c38' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"anchor":"nurse-04","className":"tn-card tn-card--person","layout":{"type":"default"}} -->
 <div id="nurse-04" class="wp-block-group tn-card tn-card--person"><!-- wp:group {"className":"tn-card__head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group tn-card__head"><!-- wp:paragraph {"className":"tn-card__name"} -->
-<p class="tn-card__name">Tomás Ferreira</p>
+<p class="tn-card__name"><?php echo wp_kses_post( tayori_nursing_t( 'k7f292a7e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Nurse, Evening &amp; On-Call Coordinator</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'k98a615db' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
-<p class="tn-card__lead">Tomás Ferreira manages our evening visits and coordinates the 24-hour on-call response line for registered patients. With extensive clinical experience, Tomás brings clear decision-making and a calm, reassuring voice to after-hours inquiries. He ensures that patients requiring evening medication administration, urgent advice, or sudden symptom checks receive prompt clinical support outside standard daytime office hours across Linden Vale.</p>
+<p class="tn-card__lead"><?php echo wp_kses_post( tayori_nursing_t( 'kb48f76b8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"anchor":"nurse-05","className":"tn-card tn-card--person","layout":{"type":"default"}} -->
 <div id="nurse-05" class="wp-block-group tn-card tn-card--person"><!-- wp:group {"className":"tn-card__head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group tn-card__head"><!-- wp:paragraph {"className":"tn-card__name"} -->
-<p class="tn-card__name">Priya Raman</p>
+<p class="tn-card__name"><?php echo wp_kses_post( tayori_nursing_t( 'ke16336e3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Physiotherapist</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'k66760cc6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
-<p class="tn-card__lead">Priya Raman leads our home-based physiotherapy visits, helping individuals rebuild physical strength, coordination, and mobility following surgery, falls, or illness. Her 40-minute rehabilitation sessions take place inside living rooms, stairwells, and outdoor pavements. Priya emphasizes practical, real-world movement, helping patients regain personal independence and navigate their home environments with renewed safety, ease, and confidence.</p>
+<p class="tn-card__lead"><?php echo wp_kses_post( tayori_nursing_t( 'k56acf503' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"anchor":"nurse-06","className":"tn-card tn-card--person","layout":{"type":"default"}} -->
 <div id="nurse-06" class="wp-block-group tn-card tn-card--person"><!-- wp:group {"className":"tn-card__head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group tn-card__head"><!-- wp:paragraph {"className":"tn-card__name"} -->
-<p class="tn-card__name">Hana Okoye</p>
+<p class="tn-card__name"><?php echo wp_kses_post( tayori_nursing_t( 'kbe24a4ba' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Occupational Therapist</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'k8a940d01' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
-<p class="tn-card__lead">Hana Okoye provides occupational therapy assessments and rehabilitation in the home, focusing on functional ergonomics and domestic independence. She evaluates how individuals interact with their furniture, doorways, and bathing facilities, recommending practical adjustments. Hana works patiently alongside patients to practice daily living activities—such as dressing, cooking, and safe transfers—enabling them to live safely, comfortably, and self-sufficiently at home.</p>
+<p class="tn-card__lead"><?php echo wp_kses_post( tayori_nursing_t( 'kd7cd31ef' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"anchor":"nurse-07","className":"tn-card tn-card--person","layout":{"type":"default"}} -->
 <div id="nurse-07" class="wp-block-group tn-card tn-card--person"><!-- wp:group {"className":"tn-card__head","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group tn-card__head"><!-- wp:paragraph {"className":"tn-card__name"} -->
-<p class="tn-card__name">Elise Moreau</p>
+<p class="tn-card__name"><?php echo wp_kses_post( tayori_nursing_t( 'k3603ace5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Care-Plan Coordinator</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'kd80ba76b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
-<p class="tn-card__lead">Elise Moreau serves as the dedicated care-plan coordinator at our 14 Orchard Row office. She handles initial phone consultations, organizes visit timetables, and liaises directly with insurance providers. Elise ensures that written care agreements are completed within three days, shared with primary physicians, and reviewed every 30 days, keeping communication effortless between families and our visiting clinical team.</p>
+<p class="tn-card__lead"><?php echo wp_kses_post( tayori_nursing_t( 'k57edbf98' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

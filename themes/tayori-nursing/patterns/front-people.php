@@ -13,7 +13,7 @@
 <section class="wp-block-group alignfull tn-sec tn-people"><!-- wp:group {"align":"wide","className":"tn-people__grid tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-people__grid tn-wrap"><!-- wp:group {"className":"tn-pwrap tn-pwrap--people","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-pwrap tn-pwrap--people"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--d tn-people__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--d tn-people__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-briefing.webp' ) ); ?>" alt="Two nurses and a coordinator hold a morning briefing around an office table."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--d tn-people__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-briefing.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'a2c0d8375' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-doodle tn-pwrap--people-d"} -->
@@ -23,96 +23,96 @@
 
 <!-- wp:group {"className":"tn-people__text","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-people__text"><!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">Who visits, where</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'k9ae87d78' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tn-h2"} -->
-<h2 class="wp-block-heading tn-h2">Seven people,<br>one office</h2>
+<h2 class="wp-block-heading tn-h2"><?php echo wp_kses_post( tayori_nursing_t( 'ka43ce5d6' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Care begins where daily life happens. Based at 14 Orchard Row, our registered nurses and therapists visit homes across Linden Vale within an 8 km radius (about 20 minutes by bicycle or car), seven days a week from 8:00 to 20:00.</p>
+<p><?php echo wp_kses_post( tayori_nursing_t( 'k98ce4233' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"tn-people__list","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-people__list"><!-- wp:group {"className":"tn-person","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-person"><!-- wp:paragraph {"className":"tn-person__name"} -->
-<p class="tn-person__name">Mira Castell</p>
+<p class="tn-person__name"><?php echo wp_kses_post( tayori_nursing_t( 'k25040106' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-person__role"} -->
-<p class="tn-person__role">Founder and director, registered nurse</p>
+<p class="tn-person__role"><?php echo wp_kses_post( tayori_nursing_t( 'k7c409001' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tn-person","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-person"><!-- wp:paragraph {"className":"tn-person__name"} -->
-<p class="tn-person__name">Jonah Abebe</p>
+<p class="tn-person__name"><?php echo wp_kses_post( tayori_nursing_t( 'k1233113f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-person__role"} -->
-<p class="tn-person__role">Lead nurse, palliative care</p>
+<p class="tn-person__role"><?php echo wp_kses_post( tayori_nursing_t( 'ke42d5d73' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tn-person","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-person"><!-- wp:paragraph {"className":"tn-person__name"} -->
-<p class="tn-person__name">Sofia Brandt</p>
+<p class="tn-person__name"><?php echo wp_kses_post( tayori_nursing_t( 'kfd1cc816' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-person__role"} -->
-<p class="tn-person__role">Nurse, wound and stoma care</p>
+<p class="tn-person__role"><?php echo wp_kses_post( tayori_nursing_t( 'kd197dd0b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tn-person","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-person"><!-- wp:paragraph {"className":"tn-person__name"} -->
-<p class="tn-person__name">Tomás Ferreira</p>
+<p class="tn-person__name"><?php echo wp_kses_post( tayori_nursing_t( 'k7f292a7e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-person__role"} -->
-<p class="tn-person__role">Nurse, evening and on-call coordinator</p>
+<p class="tn-person__role"><?php echo wp_kses_post( tayori_nursing_t( 'k7d4dff22' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tn-person","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-person"><!-- wp:paragraph {"className":"tn-person__name"} -->
-<p class="tn-person__name">Priya Raman</p>
+<p class="tn-person__name"><?php echo wp_kses_post( tayori_nursing_t( 'ke16336e3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-person__role"} -->
-<p class="tn-person__role">Physiotherapist (rehabilitation visits)</p>
+<p class="tn-person__role"><?php echo wp_kses_post( tayori_nursing_t( 'kd594a76c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tn-person","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-person"><!-- wp:paragraph {"className":"tn-person__name"} -->
-<p class="tn-person__name">Hana Okoye</p>
+<p class="tn-person__name"><?php echo wp_kses_post( tayori_nursing_t( 'kbe24a4ba' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-person__role"} -->
-<p class="tn-person__role">Occupational therapist</p>
+<p class="tn-person__role"><?php echo wp_kses_post( tayori_nursing_t( 'kf2ef2c59' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tn-person","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-person"><!-- wp:paragraph {"className":"tn-person__name"} -->
-<p class="tn-person__name">Elise Moreau</p>
+<p class="tn-person__name"><?php echo wp_kses_post( tayori_nursing_t( 'k3603ace5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-person__role"} -->
-<p class="tn-person__role">Care-plan coordinator (office)</p>
+<p class="tn-person__role"><?php echo wp_kses_post( tayori_nursing_t( 'k7d3018f4' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-people__hours"} -->
-<p class="tn-people__hours">Office hours: Mon–Sat 8:30–18:00 · Visit hours: 7 days, 8:00–20:00 · On-call line: 24 hours, for registered patients only.</p>
+<p class="tn-people__hours"><?php echo wp_kses_post( tayori_nursing_t( 'k6dafd5e0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"tn-btns"} -->
 <div class="wp-block-buttons tn-btns"><!-- wp:button {"className":"is-style-text-link"} -->
-<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/nurses/">Meet the nurses</a></div>
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/nurses/"><?php echo wp_kses_post( tayori_nursing_t( 'k092f6bab' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

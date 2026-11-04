@@ -14,26 +14,26 @@
 <div class="wp-block-group alignwide tn-plan__card tn-wrap"><!-- wp:group {"className":"tn-plan__top","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-plan__top"><!-- wp:group {"className":"tn-plan__head","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-plan__head"><!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">Care plan</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'k974ecb9b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tn-h2"} -->
-<h2 class="wp-block-heading tn-h2">How a care plan<br>is agreed</h2>
+<h2 class="wp-block-heading tn-h2"><?php echo wp_kses_post( tayori_nursing_t( 'ke7d709b1' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Every visit schedule begins with careful listening and written agreement.</p>
+<p><?php echo wp_kses_post( tayori_nursing_t( 'k9e11e644' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"tn-btns"} -->
 <div class="wp-block-buttons tn-btns"><!-- wp:button {"className":"is-style-text-link"} -->
-<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/care-plan/">About care plans</a></div>
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/care-plan/"><?php echo wp_kses_post( tayori_nursing_t( 'k2ad59c7a' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-plan__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-plan__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-plan.webp' ) ); ?>" alt="Nurse, older woman, and son review a paper care plan at the kitchen table."/></figure>
+<figure class="wp-block-image size-full tn-plan__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-plan.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'a0e5cd9df' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -44,11 +44,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-key"} -->
-<p class="tn-key">First call</p>
+<p class="tn-key"><?php echo wp_kses_post( tayori_nursing_t( 'kfbaf76e4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-step__text"} -->
-<p class="tn-step__text">We call back within 1 working day to discuss your situation.</p>
+<p class="tn-step__text"><?php echo wp_kses_post( tayori_nursing_t( 'k2127536b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -58,11 +58,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-key"} -->
-<p class="tn-key">Kitchen-table assessment</p>
+<p class="tn-key"><?php echo wp_kses_post( tayori_nursing_t( 'k8dd23f06' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-step__text"} -->
-<p class="tn-step__text">A 60-minute assessment at home, with family if you wish.</p>
+<p class="tn-step__text"><?php echo wp_kses_post( tayori_nursing_t( 'k06feaf3c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -72,11 +72,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-key"} -->
-<p class="tn-key">Written plan agreed</p>
+<p class="tn-key"><?php echo wp_kses_post( tayori_nursing_t( 'k5a50d85f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-step__text"} -->
-<p class="tn-step__text">Delivered within 3 days, signed by you and shared with your doctor.</p>
+<p class="tn-step__text"><?php echo wp_kses_post( tayori_nursing_t( 'k4b875fdf' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -86,11 +86,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-key"} -->
-<p class="tn-key">Review every 30 days</p>
+<p class="tn-key"><?php echo wp_kses_post( tayori_nursing_t( 'k4587d7dd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-step__text"} -->
-<p class="tn-step__text">We review progress together every 30 days and adjust visits as your needs change.</p>
+<p class="tn-step__text"><?php echo wp_kses_post( tayori_nursing_t( 'k1a4a5f33' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

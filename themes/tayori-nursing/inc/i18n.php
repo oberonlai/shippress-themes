@@ -26,6 +26,26 @@ function tayori_nursing_lang() {
 }
 
 /**
+ * One theme string in the content language (English when that language has none).
+ *
+ * @param string $key String key (see inc/i18n/en.php).
+ * @return string
+ */
+function tayori_nursing_t( $key ) {
+	static $tables = array();
+	foreach ( array_unique( array( tayori_nursing_lang(), 'en' ) ) as $lang ) {
+		if ( ! isset( $tables[ $lang ] ) ) {
+			$file            = __DIR__ . '/i18n/' . $lang . '.php';
+			$tables[ $lang ] = is_readable( $file ) ? (array) include $file : array();
+		}
+		if ( isset( $tables[ $lang ][ $key ] ) ) {
+			return (string) $tables[ $lang ][ $key ];
+		}
+	}
+	return '';
+}
+
+/**
  * <html lang>: on a site still set to English whose sample content is in another language, the content's language.
  *
  * @param string $output The lang/dir attributes.

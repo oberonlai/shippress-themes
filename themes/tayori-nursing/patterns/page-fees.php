@@ -12,11 +12,11 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tn-phead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tn-phead"><!-- wp:group {"className":"tn-phead__field","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-phead__field"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--a tn-ph1 sp-parallax"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--a tn-ph1 sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-oncall.webp' ) ); ?>" alt="Nurse at an office window answering a phone in evening light."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--a tn-ph1 sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14-oncall.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'a60c95a2b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--b tn-ph2 sp-parallax"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--b tn-ph2 sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-kitchen.webp' ) ); ?>" alt="Adult daughter and her mother read discharge papers together at a kitchen table."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--b tn-ph2 sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-kitchen.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'a6b259d05' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-doodle tn-phd"} -->
@@ -26,15 +26,15 @@
 
 <!-- wp:group {"className":"tn-phead__inner tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-phead__inner tn-wrap"><!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">Fees</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'k006300ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"tn-phead__title"} -->
-<h1 class="wp-block-heading tn-phead__title">Fees &amp; Insurance</h1>
+<h1 class="wp-block-heading tn-phead__title"><?php echo wp_kses_post( tayori_nursing_t( 'k09ac1c74' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"tn-phead__lead"} -->
-<p class="tn-phead__lead">We maintain clear, straightforward pricing with no hidden charges, giving you a written estimate at your home assessment visit.</p>
+<p class="tn-phead__lead"><?php echo wp_kses_post( tayori_nursing_t( 'k79ee4582' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -47,25 +47,25 @@
 <section class="wp-block-group alignfull tn-sec tn-fees"><!-- wp:group {"align":"wide","className":"tn-fees__card tn-fees__card--stack tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-fees__card tn-fees__card--stack tn-wrap"><!-- wp:group {"className":"tn-fees__head","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-fees__head"><!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">Fees</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'k006300ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tn-h2"} -->
-<h2 class="wp-block-heading tn-h2">Standard Visit Rates</h2>
+<h2 class="wp-block-heading tn-h2"><?php echo wp_kses_post( tayori_nursing_t( 'k2e058084' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Our fees are transparent and fixed across all services. The initial 60-minute home assessment visit is $60. Subsequent nursing visits cost $48 for 30 minutes or $85 for 60 minutes. Rehabilitation visits with our physiotherapist or occupational therapist cost $70 for 40 minutes. Visits scheduled early or late (before 8:30 or after 18:00) carry an additional $15 per visit, while registered patients can maintain access to our 24-hour on-call line for $30 per month. Where your insurer has an agreement with us we send the bill to them; otherwise these are the self-pay prices. We give you a written estimate at the assessment visit.</p>
+<p><?php echo wp_kses_post( tayori_nursing_t( 'k290d190f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tn-fees__body","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-fees__body"><!-- wp:table {"className":"tn-fees-table"} -->
-<figure class="wp-block-table tn-fees-table"><table class="has-fixed-layout"><tbody><tr><td>Home assessment visit, 60 min (first visit)</td><td class="has-text-align-right" data-align="right">$60</td></tr><tr><td>Nursing visit, 30 min</td><td class="has-text-align-right" data-align="right">$48</td></tr><tr><td>Nursing visit, 60 min</td><td class="has-text-align-right" data-align="right">$85</td></tr><tr><td>Rehabilitation visit (physiotherapy or OT), 40 min</td><td class="has-text-align-right" data-align="right">$70</td></tr><tr><td>Early or late visit (before 8:30 or after 18:00)</td><td class="has-text-align-right" data-align="right">+$15 per visit</td></tr><tr><td>24-hour on-call line, per month</td><td class="has-text-align-right" data-align="right">$30</td></tr></tbody></table></figure>
+<figure class="wp-block-table tn-fees-table"><table class="has-fixed-layout"><tbody><tr><td><?php echo wp_kses_post( tayori_nursing_t( 'k2b2a0429' ) ); ?></td><td class="has-text-align-right" data-align="right">$60</td></tr><tr><td><?php echo wp_kses_post( tayori_nursing_t( 'kc09a141e' ) ); ?></td><td class="has-text-align-right" data-align="right">$48</td></tr><tr><td><?php echo wp_kses_post( tayori_nursing_t( 'k321cb271' ) ); ?></td><td class="has-text-align-right" data-align="right">$85</td></tr><tr><td><?php echo wp_kses_post( tayori_nursing_t( 'kfd20f8bf' ) ); ?></td><td class="has-text-align-right" data-align="right">$70</td></tr><tr><td><?php echo wp_kses_post( tayori_nursing_t( 'kbfcd136a' ) ); ?></td><td class="has-text-align-right" data-align="right"><?php echo wp_kses_post( tayori_nursing_t( 'k53002f7a' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( tayori_nursing_t( 'k631267cc' ) ); ?></td><td class="has-text-align-right" data-align="right">$30</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph {"className":"tn-fees__note"} -->
-<p class="tn-fees__note">Where your insurer has an agreement with us we send the bill to them; otherwise these are the self-pay prices. We give you a written estimate at the assessment visit.</p>
+<p class="tn-fees__note"><?php echo wp_kses_post( tayori_nursing_t( 'kbe87a368' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -75,20 +75,20 @@
 <section class="wp-block-group alignfull tn-sec tn-t2sec"><!-- wp:group {"align":"wide","className":"tn-sticky tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-sticky tn-wrap"><!-- wp:group {"className":"tn-sticky__col","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-sticky__col"><!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">Good to know</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'k7dadd2a4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tn-h2"} -->
-<h2 class="wp-block-heading tn-h2">Insurance, estimates<br>and cancellation</h2>
+<h2 class="wp-block-heading tn-h2"><?php echo wp_kses_post( tayori_nursing_t( 'k828ccc62' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"tn-pills"} -->
-<p class="tn-pills"><a class="tn-pill tn-pill--1" href="#note-01">01 Insurance</a><a class="tn-pill tn-pill--2" href="#note-02">02 Cancellation</a><a class="tn-pill tn-pill--3" href="#note-03">03 Questions</a></p>
+<p class="tn-pills"><a class="tn-pill tn-pill--1" href="#note-01"><?php echo wp_kses_post( tayori_nursing_t( 'ke9f4d208' ) ); ?></a><a class="tn-pill tn-pill--2" href="#note-02"><?php echo wp_kses_post( tayori_nursing_t( 'k590e66dd' ) ); ?></a><a class="tn-pill tn-pill--3" href="#note-03"><?php echo wp_kses_post( tayori_nursing_t( 'k38d61860' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"tn-btns"} -->
 <div class="wp-block-buttons tn-btns"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a home assessment</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( tayori_nursing_t( 'k0b5abf9c' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -101,16 +101,16 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Insurance</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'keaff1bdf' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"className":"tn-card__h"} -->
-<h2 class="wp-block-heading tn-card__h">Insurance and Written Estimates</h2>
+<h2 class="wp-block-heading tn-card__h"><?php echo wp_kses_post( tayori_nursing_t( 'kdde905dc' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Understanding care costs in advance is vital for peace of mind. During your kitchen-table assessment, we evaluate whether your existing insurance provider holds an agreement with Tayori Nursing. If covered, we submit all billing claims directly to your insurer on your behalf. For private or self-pay arrangements, we present an itemized written estimate specifying expected visit lengths, visit frequencies, and total monthly costs before care begins.</p>
+<p><?php echo wp_kses_post( tayori_nursing_t( 'k74c39624' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -121,20 +121,20 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Cancellation</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'k3ae3f4b3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"className":"tn-card__h"} -->
-<h2 class="wp-block-heading tn-card__h">Cancellation Policy</h2>
+<h2 class="wp-block-heading tn-card__h"><?php echo wp_kses_post( tayori_nursing_t( 'k44d626b1' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We understand that medical schedules, family obligations, and personal health can change unexpectedly. You may cancel or reschedule any planned visit free of charge provided you notify our office at least 24 hours before your scheduled appointment time. Cancellations made with less than 24 hours notice may incur the standard visit fee, as clinicians are reserved exclusively for your scheduled time slot.</p>
+<p><?php echo wp_kses_post( tayori_nursing_t( 'kbd045575' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__price"} -->
-<p class="tn-card__price">Free to cancel or reschedule up to 24 hours before the visit.</p>
+<p class="tn-card__price"><?php echo wp_kses_post( tayori_nursing_t( 'k83519d29' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -145,31 +145,31 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Questions</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'k6ce3bdc3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"className":"tn-card__h"} -->
-<h2 class="wp-block-heading tn-card__h">Two common questions</h2>
+<h2 class="wp-block-heading tn-card__h"><?php echo wp_kses_post( tayori_nursing_t( 'k180c5d30' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"tn-qa","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-qa"><!-- wp:heading {"level":3,"className":"tn-qa__q"} -->
-<h3 class="wp-block-heading tn-qa__q">How are billing and payment handled if I have insurance?</h3>
+<h3 class="wp-block-heading tn-qa__q"><?php echo wp_kses_post( tayori_nursing_t( 'k8e3a7452' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>If your insurance company has an active billing agreement with Tayori Nursing, our office submits all paperwork and invoices directly to them following each round of visits. You will only receive a statement for co-payments or uncovered deductibles outlined in your agreement. If your insurer does not hold a direct contract with us, we supply standard itemized receipts so you can submit claims for reimbursement.</p>
+<p><?php echo wp_kses_post( tayori_nursing_t( 'kc1562892' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tn-qa","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-qa"><!-- wp:heading {"level":3,"className":"tn-qa__q"} -->
-<h3 class="wp-block-heading tn-qa__q">Are there extra fees for travel within Linden Vale?</h3>
+<h3 class="wp-block-heading tn-qa__q"><?php echo wp_kses_post( tayori_nursing_t( 'kc5165e5f' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We never charge travel fees or mileage surcharges for visits located within our designated 8 km service boundary around 14 Orchard Row. The visit rate agreed in your written plan covers travel entirely. The only potential supplement is the $15 per visit surcharge applied when you request care before 8:30 in the morning or after 18:00 in the evening.</p>
+<p><?php echo wp_kses_post( tayori_nursing_t( 'k0faed072' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

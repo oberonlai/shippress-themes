@@ -12,38 +12,38 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tn-statement","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tn-statement"><!-- wp:group {"align":"wide","className":"tn-statement__inner tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-statement__inner tn-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--b tn-statement__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--b tn-statement__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-laugh.webp' ) ); ?>" alt="Older man laughs with a nurse as their hands rest clasped together."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--b tn-statement__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-laugh.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'aa4808531' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">Care where life already is</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'ke2a3a184' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"tn-fill sp-stagger tn-fill--a","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-fill sp-stagger tn-fill--a"><!-- wp:paragraph {"className":"tn-line sp-reveal sp-reveal--up"} -->
-<p class="tn-line sp-reveal sp-reveal--up">Care is not an interruption to your day.</p>
+<p class="tn-line sp-reveal sp-reveal--up"><?php echo wp_kses_post( tayori_nursing_t( 'kf5535b70' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-line sp-reveal sp-reveal--up"} -->
-<p class="tn-line sp-reveal sp-reveal--up">It belongs beside the morning tea,</p>
+<p class="tn-line sp-reveal sp-reveal--up"><?php echo wp_kses_post( tayori_nursing_t( 'ke8304092' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-line sp-reveal sp-reveal--up"} -->
-<p class="tn-line sp-reveal sp-reveal--up">in the quiet rooms you know best.</p>
+<p class="tn-line sp-reveal sp-reveal--up"><?php echo wp_kses_post( tayori_nursing_t( 'k8682a4e8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tn-fill sp-stagger tn-fill--b","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-fill sp-stagger tn-fill--b"><!-- wp:paragraph {"className":"tn-line sp-reveal sp-reveal--up"} -->
-<p class="tn-line sp-reveal sp-reveal--up">We arrive on foot, by bicycle, or by car,</p>
+<p class="tn-line sp-reveal sp-reveal--up"><?php echo wp_kses_post( tayori_nursing_t( 'k69541435' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-line sp-reveal sp-reveal--up"} -->
-<p class="tn-line sp-reveal sp-reveal--up">bringing attentive clinical nursing</p>
+<p class="tn-line sp-reveal sp-reveal--up"><?php echo wp_kses_post( tayori_nursing_t( 'k63c2a214' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-line sp-reveal sp-reveal--up tn-line--last"} -->
-<p class="tn-line sp-reveal sp-reveal--up tn-line--last">straight to your kitchen table.</p>
+<p class="tn-line sp-reveal sp-reveal--up tn-line--last"><?php echo wp_kses_post( tayori_nursing_t( 'k6fd17d7a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

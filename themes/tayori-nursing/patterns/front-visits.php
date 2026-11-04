@@ -15,20 +15,20 @@
 <!-- /wp:html --><!-- wp:group {"align":"wide","className":"tn-sticky tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-sticky tn-wrap"><!-- wp:group {"className":"tn-sticky__col","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-sticky__col"><!-- wp:paragraph {"className":"tn-label"} -->
-<p class="tn-label">Visits we offer</p>
+<p class="tn-label"><?php echo wp_kses_post( tayori_nursing_t( 'k7ff237f4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tn-h2"} -->
-<h2 class="wp-block-heading tn-h2">What a visit<br>can be</h2>
+<h2 class="wp-block-heading tn-h2"><?php echo wp_kses_post( tayori_nursing_t( 'k0bfd5746' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"tn-pills"} -->
-<p class="tn-pills"><a class="tn-pill tn-pill--1" href="#visit-01">01 Care</a><a class="tn-pill tn-pill--2" href="#visit-02">02 Move</a><a class="tn-pill tn-pill--3" href="#visit-03">03 Stay</a></p>
+<p class="tn-pills"><a class="tn-pill tn-pill--1" href="#visit-01"><?php echo wp_kses_post( tayori_nursing_t( 'k9c1bbb66' ) ); ?></a><a class="tn-pill tn-pill--2" href="#visit-02"><?php echo wp_kses_post( tayori_nursing_t( 'kec18ec22' ) ); ?></a><a class="tn-pill tn-pill--3" href="#visit-03"><?php echo wp_kses_post( tayori_nursing_t( 'k9c150266' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"tn-btns"} -->
 <div class="wp-block-buttons tn-btns"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/visits/">All visits</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/visits/"><?php echo wp_kses_post( tayori_nursing_t( 'k53b82222' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -41,38 +41,38 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Nursing visits</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'kff753f39' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-card__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07-wound.webp' ) ); ?>" alt="Nurse applies a clean bandage to a patient's lower leg on a sofa."/></figure>
+<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07-wound.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'a42d945d1' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
-<p class="tn-card__lead">Clinical support tailored to daily health needs, including blood pressure monitoring, medication management, injections, and clean dressing for complex or post-operative wounds.</p>
+<p class="tn-card__lead"><?php echo wp_kses_post( tayori_nursing_t( 'kf6a9512b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"tn-card__cols","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-card__cols"><!-- wp:group {"className":"tn-card__key","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-card__key"><!-- wp:paragraph {"className":"tn-key"} -->
-<p class="tn-key">Care</p>
+<p class="tn-key"><?php echo wp_kses_post( tayori_nursing_t( 'k6bc43cc1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:list {"className":"tn-bullets"} -->
 <ul class="wp-block-list tn-bullets"><!-- wp:list-item -->
-<li>Blood pressure and medication checks</li>
+<li><?php echo wp_kses_post( tayori_nursing_t( 'kd07b45b9' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Injections and wound dressing</li>
+<li><?php echo wp_kses_post( tayori_nursing_t( 'kbed18544' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>30-minute or 60-minute visits</li>
+<li><?php echo wp_kses_post( tayori_nursing_t( 'k59ed7243' ) ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-card__price"} -->
-<p class="tn-card__price">Nursing visits from $48</p>
+<p class="tn-card__price"><?php echo wp_kses_post( tayori_nursing_t( 'k8575af55' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -83,38 +83,38 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Rehabilitation at home</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'kb5a83be2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-card__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-walk.webp' ) ); ?>" alt="Physiotherapist walks beside a woman using a walking frame along a bright hallway."/></figure>
+<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-walk.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'a16e20372' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
-<p class="tn-card__lead">Personalised physiotherapy and occupational therapy sessions designed to restore safe mobility, balance, and household independence after surgery or illness.</p>
+<p class="tn-card__lead"><?php echo wp_kses_post( tayori_nursing_t( 'ke373a4b1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"tn-card__cols","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-card__cols"><!-- wp:group {"className":"tn-card__key","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-card__key"><!-- wp:paragraph {"className":"tn-key"} -->
-<p class="tn-key">Move</p>
+<p class="tn-key"><?php echo wp_kses_post( tayori_nursing_t( 'k6bc362db' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:list {"className":"tn-bullets"} -->
 <ul class="wp-block-list tn-bullets"><!-- wp:list-item -->
-<li>Physiotherapy and occupational therapy</li>
+<li><?php echo wp_kses_post( tayori_nursing_t( 'ke0b7f9e6' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Safe mobility and balance practice</li>
+<li><?php echo wp_kses_post( tayori_nursing_t( 'k1dd6297d' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>40-minute rehabilitation visits</li>
+<li><?php echo wp_kses_post( tayori_nursing_t( 'kff1ea043' ) ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-card__price"} -->
-<p class="tn-card__price">Rehabilitation visits from $70</p>
+<p class="tn-card__price"><?php echo wp_kses_post( tayori_nursing_t( 'kcdb8cd18' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -125,38 +125,38 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tn-card__label"} -->
-<p class="tn-card__label">Palliative care at home</p>
+<p class="tn-card__label"><?php echo wp_kses_post( tayori_nursing_t( 'ke95d3f7f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-card__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-bedside.webp' ) ); ?>" alt="Nurse sits beside a bed holding the hand of a resting older man."/></figure>
+<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-bedside.webp' ) ); ?>" alt="<?php echo esc_attr( tayori_nursing_t( 'ac91f4cf6' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
-<p class="tn-card__lead">Gentle, unhurried nursing care focused on pain management, physical comfort, and emotional support in familiar surroundings. Coordinated closely with your physician.</p>
+<p class="tn-card__lead"><?php echo wp_kses_post( tayori_nursing_t( 'k8441fd30' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"tn-card__cols","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-card__cols"><!-- wp:group {"className":"tn-card__key","layout":{"type":"default"}} -->
 <div class="wp-block-group tn-card__key"><!-- wp:paragraph {"className":"tn-key"} -->
-<p class="tn-key">Stay</p>
+<p class="tn-key"><?php echo wp_kses_post( tayori_nursing_t( 'k89302eb6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:list {"className":"tn-bullets"} -->
 <ul class="wp-block-list tn-bullets"><!-- wp:list-item -->
-<li>Pain management and comfort</li>
+<li><?php echo wp_kses_post( tayori_nursing_t( 'k1d5792b5' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Emotional support for the family</li>
+<li><?php echo wp_kses_post( tayori_nursing_t( 'kc0b9b757' ) ); ?></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li>Coordinated with your physician</li>
+<li><?php echo wp_kses_post( tayori_nursing_t( 'k3523ed5b' ) ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tn-card__price"} -->
-<p class="tn-card__price">Palliative care visits from $48</p>
+<p class="tn-card__price"><?php echo wp_kses_post( tayori_nursing_t( 'kc2da42da' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
