@@ -15,3 +15,23 @@ License: GPL-2.0-or-later.
 ## Editor notes
 - Block editor check: all home blocks and templates parse without invalid or missing blocks (the fee table keeps `hasFixedLayout` and styles the price column with `:last-child`, since the editor drops classes on table cells).
 - Navigation: the demo import builds the main menu from real pages (Papers, Term calendar, Lecturers, Fees & funding, Stories).
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/kanjo-college/home-desktop.webp" width="640" alt="Kanjo College home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kanjo-college/home-mobile.webp" width="200" alt="Kanjo College home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/kanjo-college/about-desktop.webp) · [mobile](https://shots.codotx.com/kanjo-college/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kanjo-college/news-desktop.webp) · [mobile](https://shots.codotx.com/kanjo-college/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kanjo-college/article-desktop.webp) · [mobile](https://shots.codotx.com/kanjo-college/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kanjo-college/category-desktop.webp) · [mobile](https://shots.codotx.com/kanjo-college/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kanjo-college/tag-desktop.webp) · [mobile](https://shots.codotx.com/kanjo-college/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kanjo-college/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kanjo-college/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kanjo-college/contact-desktop.webp) · [mobile](https://shots.codotx.com/kanjo-college/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kanjo-college/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kanjo-college/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kanjo-college/fr/home-desktop.webp) · [de](https://shots.codotx.com/kanjo-college/de/home-desktop.webp)
+<!-- screenshots:end -->
