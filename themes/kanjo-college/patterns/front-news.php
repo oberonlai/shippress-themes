@@ -12,11 +12,11 @@
 <section class="wp-block-group alignfull kc-sec kc-news"><!-- wp:group {"className":"kc-in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-in"><!-- wp:group {"className":"kc-head","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-head"><!-- wp:paragraph {"className":"kc-chip sp-reveal sp-reveal--up"} -->
-<p class="kc-chip sp-reveal sp-reveal--up">News</p>
+<p class="kc-chip sp-reveal sp-reveal--up"><?php echo wp_kses_post( kanjo_college_t( 'kdd1ba187' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading sp-reveal sp-reveal--up">College notices</h2>
+<h2 class="wp-block-heading sp-reveal sp-reveal--up"><?php echo wp_kses_post( kanjo_college_t( 'k240e3b92' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -33,14 +33,14 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph -->
-<p>No notices yet.</p>
+<p><?php echo wp_kses_post( kanjo_college_t( 'kd2f9730f' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-text-link"} -->
-<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/news/">View all news →</a></div>
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/news/"><?php echo wp_kses_post( kanjo_college_t( 'k86a1efc6' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>

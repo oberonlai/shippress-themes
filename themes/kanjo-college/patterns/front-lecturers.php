@@ -20,7 +20,7 @@ $kc_rows = array(
 <section id="lecturers" class="wp-block-group alignfull kc-sec kc-lect"><!-- wp:group {"className":"kc-in kc-lect__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-in kc-lect__in"><!-- wp:group {"className":"kc-lect__win","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-lect__win"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-lect__img"} -->
-<figure class="wp-block-image size-full kc-lect__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09.webp' ) ); ?>" alt="Two lecturers seated at a desk reviewing marked examination scripts together."/></figure>
+<figure class="wp-block-image size-full kc-lect__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09.webp' ) ); ?>" alt="<?php echo esc_attr( kanjo_college_t( 'ab10e66e3' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
@@ -30,11 +30,11 @@ $kc_rows = array(
 
 <!-- wp:group {"className":"kc-lect__list","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-lect__list"><!-- wp:paragraph {"className":"kc-chip sp-reveal sp-reveal--up"} -->
-<p class="kc-chip sp-reveal sp-reveal--up">The lecturers</p>
+<p class="kc-chip sp-reveal sp-reveal--up"><?php echo wp_kses_post( kanjo_college_t( 'k3574c15d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading sp-reveal sp-reveal--up">Lecturers, ruled and named</h2>
+<h2 class="wp-block-heading sp-reveal sp-reveal--up"><?php echo wp_kses_post( kanjo_college_t( 'k1566989a' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"kc-lrows sp-stagger","layout":{"type":"default"}} -->
@@ -61,7 +61,7 @@ $kc_rows = array(
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-text-link"} -->
-<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/lecturers/">Meet the lecturers →</a></div>
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/lecturers/"><?php echo wp_kses_post( kanjo_college_t( 'ke93c8d9f' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

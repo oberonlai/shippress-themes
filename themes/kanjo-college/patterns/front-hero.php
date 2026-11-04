@@ -16,24 +16,24 @@
 <!-- wp:group {"align":"wide","className":"kc-hero__in","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide kc-hero__in"><!-- wp:group {"className":"kc-hero__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hero__text"><!-- wp:paragraph {"className":"kc-chip kc-chip--hero"} -->
-<p class="kc-chip kc-chip--hero">Evening and day terms</p>
+<p class="kc-chip kc-chip--hero"><?php echo wp_kses_post( kanjo_college_t( 'k526ba9a1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"kc-h1"} -->
-<h1 class="wp-block-heading kc-h1">Rule your own line into accountancy.</h1>
+<h1 class="wp-block-heading kc-h1"><?php echo wp_kses_post( kanjo_college_t( 'k52a8793e' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-lead"} -->
-<p class="kc-lead">Adult classes for bookkeeping and accountancy papers in Halden, paced over twelve-week terms. Study by day or by evening at our Northgate college.</p>
+<p class="kc-lead"><?php echo wp_kses_post( kanjo_college_t( 'kde4ed2d1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"kc-hero__links"} -->
 <div class="wp-block-buttons kc-hero__links"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/papers/">See the four papers</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/papers/"><?php echo wp_kses_post( kanjo_college_t( 'kf8d183bb' ) ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-text-link"} -->
-<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/#pace">How a term runs →</a></div>
+<div class="wp-block-button is-style-text-link"><a class="wp-block-button__link wp-element-button" href="/#pace"><?php echo wp_kses_post( kanjo_college_t( 'k00b70c29' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -42,9 +42,9 @@
 <?php echo kanjo_college_svg( 'path-signpost' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 	<div class="kc-sign__post"><span class="kc-sign__pole" aria-hidden="true"></span>
 		<ul class="kc-sign__arms">
-			<li><a href="/papers/">Papers</a></li>
-			<li><a href="/#pace">Pace</a></li>
-			<li><a href="/taking-a-place/">Places</a></li>
+			<li><a href="/papers/"><?php echo wp_kses_post( kanjo_college_t( 'k60b1a0c2' ) ); ?></a></li>
+			<li><a href="/#pace"><?php echo wp_kses_post( kanjo_college_t( 'k01237971' ) ); ?></a></li>
+			<li><a href="/taking-a-place/"><?php echo wp_kses_post( kanjo_college_t( 'k78d77a0b' ) ); ?></a></li>
 		</ul>
 	</div>
 </div>
@@ -53,11 +53,11 @@
 
 <!-- wp:group {"className":"kc-win","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-win"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-win__img sp-parallax"} -->
-<figure class="wp-block-image size-full kc-win__img sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01.webp' ) ); ?>" alt="Lecturer rules a line on a whiteboard while two adult students review an exercise."/></figure>
+<figure class="wp-block-image size-full kc-win__img sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01.webp' ) ); ?>" alt="<?php echo esc_attr( kanjo_college_t( 'aad22fc04' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kc-win__cap"} -->
-<p class="kc-win__cap">Accountancy college · Halden</p>
+<p class="kc-win__cap"><?php echo wp_kses_post( kanjo_college_t( 'k551e17ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-win__idx"} -->
