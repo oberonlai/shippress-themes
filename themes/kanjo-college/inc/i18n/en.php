@@ -109,5 +109,10 @@ return array(
 	'kf8a28783' => 'Working full time as a bookkeeper, Marta chose our evening classes to move toward an assistant accountant role. The 36-hour syllabus and two mock papers gave her steady confidence in ledger reconciliation.',
 	'kf8d183bb' => 'See the four papers',
 	'kfd69c5cf' => 'Results',
+	'news_chip' => 'College notices',
+	'news_title' => 'News',
+	'news_lead' => 'Timetables, library hours and what a mock paper day is like, posted before each term.',
+	'news_alt' => 'An examination hall with single desks spaced apart in rows under morning light.',
+	'news_cap' => 'News · Halden',
 	'search_results' => 'Search results for: %s',
 );

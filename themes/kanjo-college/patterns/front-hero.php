@@ -67,6 +67,10 @@
 <!-- wp:html -->
 <span class="kc-stk kc-stk--a" aria-hidden="true"></span><span class="kc-stk kc-stk--b" aria-hidden="true"><?php echo kanjo_college_svg( 'squiggle' ); // phpcs:ignore WordPress.Security.EscapeOutput ?></span><span class="kc-stk kc-stk--c" aria-hidden="true"></span>
 <!-- /wp:html --></div>
-<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:html -->
+<div class="kc-pager" aria-hidden="true"><span>1</span><i></i><span>5</span></div>
+<!-- /wp:html --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

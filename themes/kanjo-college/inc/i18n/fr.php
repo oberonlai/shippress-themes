@@ -109,5 +109,10 @@ return array(
 	'kf8a28783' => 'Comptable à temps plein, Marta a choisi nos cours du soir pour évoluer vers un poste d’assistante comptable. Le programme de 36 heures et les deux examens blancs lui ont donné une confiance solide dans le rapprochement des comptes.',
 	'kf8d183bb' => 'Voir les quatre épreuves',
 	'kfd69c5cf' => 'Résultats',
+	'news_chip' => 'Avis du collège',
+	'news_title' => 'Actualités',
+	'news_lead' => 'Emplois du temps, horaires de la bibliothèque et déroulement d’un jour de blanc, publiés avant chaque trimestre.',
+	'news_alt' => 'Une salle d’examen aux pupitres individuels espacés, sous la lumière du matin.',
+	'news_cap' => 'Actualités · Halden',
 	'search_results' => 'Résultats de recherche pour : %s',
 );

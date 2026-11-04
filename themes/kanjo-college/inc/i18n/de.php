@@ -109,5 +109,10 @@ return array(
 	'kf8a28783' => 'Marta arbeitet in Vollzeit als Buchhalterin und wählte unsere Abendkurse, um auf eine Stelle als Assistentin im Rechnungswesen hinzuarbeiten. Der Lehrplan von 36 Stunden und zwei Probeklausuren gaben ihr stetige Sicherheit bei Kontenabstimmungen.',
 	'kf8d183bb' => 'Die vier Fächer ansehen',
 	'kfd69c5cf' => 'Ergebnisse',
+	'news_chip' => 'Mitteilungen des Colleges',
+	'news_title' => 'Neuigkeiten',
+	'news_lead' => 'Stundenpläne, Bibliothekszeiten und der Ablauf eines Probeprüfungstags, veröffentlicht vor jedem Term.',
+	'news_alt' => 'Ein Prüfungssaal mit Einzeltischen in Reihen im Morgenlicht.',
+	'news_cap' => 'Neuigkeiten · Halden',
 	'search_results' => 'Suchergebnisse für: %s',
 );
