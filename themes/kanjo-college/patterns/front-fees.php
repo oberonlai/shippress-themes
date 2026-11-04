@@ -20,8 +20,8 @@
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:table {"className":"kc-table"} -->
-<figure class="wp-block-table kc-table"><table class="has-fixed-layout"><thead><tr><th>Item</th><th>What it includes</th><th class="kc-price">Price</th></tr></thead><tbody><tr><td>Placement chat and exercise</td><td>A 30-minute chat and a 45-minute exercise, at college or online</td><td class="kc-price">Free</td></tr><tr><td>Foundation paper, one term</td><td>12 weeks, 36 class hours, two mock papers</td><td class="kc-price">$640</td></tr><tr><td>Intermediate paper, one term</td><td>12 weeks, 36 class hours, two mock papers, written feedback</td><td class="kc-price">$780</td></tr><tr><td>Advanced paper, one term</td><td>12 weeks, 36 class hours, two mock papers, written feedback</td><td class="kc-price">$920</td></tr><tr><td>Mock paper day, stand-alone</td><td>An invigilated sitting with a marked script</td><td class="kc-price">$85</td></tr></tbody></table></figure>
+<!-- wp:table {"hasFixedLayout":true,"className":"kc-table"} -->
+<figure class="wp-block-table kc-table"><table class="has-fixed-layout"><thead><tr><th>Item</th><th>What it includes</th><th>Price</th></tr></thead><tbody><tr><td>Placement chat and exercise</td><td>A 30-minute chat and a 45-minute exercise, at college or online</td><td>Free</td></tr><tr><td>Foundation paper, one term</td><td>12 weeks, 36 class hours, two mock papers</td><td>$640</td></tr><tr><td>Intermediate paper, one term</td><td>12 weeks, 36 class hours, two mock papers, written feedback</td><td>$780</td></tr><tr><td>Advanced paper, one term</td><td>12 weeks, 36 class hours, two mock papers, written feedback</td><td>$920</td></tr><tr><td>Mock paper day, stand-alone</td><td>An invigilated sitting with a marked script</td><td>$85</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph {"className":"kc-note"} -->

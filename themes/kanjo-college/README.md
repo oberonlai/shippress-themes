@@ -11,3 +11,7 @@ Kanjo College is an accountancy training college WordPress theme designed for ad
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+## Editor notes
+- Block editor check: all home blocks and templates parse without invalid or missing blocks (the fee table keeps `hasFixedLayout` and styles the price column with `:last-child`, since the editor drops classes on table cells).
+- Navigation: the demo import builds the main menu from real pages (Papers, Term calendar, Lecturers, Fees & funding, Stories).
