@@ -350,7 +350,20 @@ test("quality gate helpers: alpha detection and largest font size", () => {
 test("check-first-screen.py measures the saturated share of the first screen", (t) => {
   if (spawnSync("python3", ["-c", "import PIL"]).status !== 0) return t.skip("python3 with Pillow is not available");
   const script = fileURLToPath(new URL("./check-first-screen.py", import.meta.url));
-  const run = (slug, ...args) => spawnSync("python3", [script, join(THEMES, slug, "screenshots/home-desktop.webp"), ...args], { encoding: "utf8" });
+  // The catalogue screenshots are not in git (R2, https://shots.codotx.com/<slug>/home-desktop.webp; #600): a local copy
+  // (the app's capture) is used when there is one, else the home screenshot is downloaded. No network: the test is skipped.
+  const tmp = mkdtempSync(join(tmpdir(), "first-screen-"));
+  t.after(() => rmSync(tmp, { recursive: true, force: true }));
+  const shot = (slug) => {
+    const local = join(THEMES, slug, "screenshots/home-desktop.webp");
+    if (existsSync(local)) return local;
+    const out = join(tmp, `${slug}.webp`);
+    const r = spawnSync("curl", ["-fsSL", "--retry", "3", "--max-time", "60", "-o", out, `https://shots.codotx.com/${slug}/home-desktop.webp`], { encoding: "utf8" });
+    return r.status === 0 && existsSync(out) ? out : null;
+  };
+  const calmShot = shot("asa-linen");
+  if (!calmShot) return t.skip("asa-linen/home-desktop.webp is not in git and could not be downloaded from R2 (offline?)");
+  const run = (slug, ...args) => spawnSync("python3", [script, shot(slug), ...args], { encoding: "utf8" });
   const calm = run("asa-linen");
   assert.equal(calm.status, 0, calm.stdout + calm.stderr);
   assert.match(calm.stdout, /^\d+\.\d% saturated pixels in the first 1440x900 \(max 30%\): ok/);
