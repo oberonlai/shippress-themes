@@ -56,7 +56,7 @@ Enrol, Weeks 1-4, Mock paper, Exam week, Results. Two mock papers (week 6 practi
 3. Fixed bottom route bar with a pencil marker, bubble and goal flag, driven by CSS scroll timeline (reference: Mejiro Mejinavi 2026).
 
 ## Pages
-Home, About, Papers, Term calendar, Lecturers, Fees & funding, Taking a place, Stories, Contact, News (posts page), plus article, category, tag and newsletter templates. Stage 1 builds the home page; inner pages are placeholders until stage 2.
+Home, About, Papers, Term calendar, Lecturers, Fees & funding, Taking a place, Stories, Contact, News (posts page), plus article, category, tag and newsletter templates. Every inner page opens on a small 420×300 rounded photograph window (vertical caption, index 02–10, two outline stickers); Papers, About, Lecturers and Stories use the portrait paper cards; Term and About carry a parallax photograph band; the route bar is on every page.
 
 ## Photography
 Documentary high-key photographs generated for this theme (Grok Build), one style string: natural window daylight, slate-blue and warm grey palette, adult learners of mixed ethnicities, no text or logos. Decoration is flat 1.5 px line-art SVG drawn for this theme.

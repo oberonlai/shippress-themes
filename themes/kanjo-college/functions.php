@@ -11,6 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once get_template_directory() . '/inc/demo-import.php';
 require_once get_template_directory() . '/inc/editor-lang.php';
+require_once get_template_directory() . '/inc/blocks.php';
 
 define( 'KANJO_COLLEGE_VERSION', wp_get_theme()->get( 'Version' ) );
 

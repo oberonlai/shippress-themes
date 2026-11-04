@@ -41,6 +41,16 @@
 <!-- wp:paragraph {"className":"kc-foot__links"} -->
 <p class="kc-foot__links"><a href="/papers/">Papers</a><br><a href="/term/">Term</a><br><a href="/lecturers/">Lecturers</a><br><a href="/fees/">Fees</a><br><a href="/stories/">Stories</a></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kc-foot__col","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-foot__col"><!-- wp:paragraph {"className":"kc-foot__head"} -->
+<p class="kc-foot__head">More</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kc-foot__links"} -->
+<p class="kc-foot__links"><a href="/about/">About</a><br><a href="/taking-a-place/">Taking a place</a><br><a href="/news/">News</a><br><a href="/newsletter/">Newsletter</a><br><a href="/contact/">Contact</a></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
