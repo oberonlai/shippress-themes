@@ -12,7 +12,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tn-sec tn-stories","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tn-sec tn-stories"><!-- wp:group {"align":"wide","className":"tn-stories__grid tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-stories__grid tn-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--a tn-stories__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--a tn-stories__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p12-bakery.webp' ) ); ?>" alt="Older woman with a cane walks out of a bakery with a nurse behind."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--a tn-stories__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p12-bakery.webp' ) ); ?>" alt="Older woman with a cane walks out of a bakery with a nurse behind."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"tn-stories__text","layout":{"type":"default"}} -->

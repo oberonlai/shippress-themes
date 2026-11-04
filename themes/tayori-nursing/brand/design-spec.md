@@ -189,14 +189,14 @@ FAQ is not a separate page (avoid the Sokuten pattern); short Q&A rows live on F
 | Hairline / dotted rule | `#D9D9D9` / `#D7D3D0` | <1% | tok(a) |
 | Unfilled statement grey | `#C9C4BF` | 0% | tok(b) est. |
 | Doodle pastels | `#FDD79A`, `#DAD0EC`, `#FAACA8`, `#DCE5E0` | <2% | tok(a) pastels + a celadon tint |
-Why celadon and not the reference green: the design-plan row fixes the palette family (青磁 celadon, `#5E7A70`) and the note asks for a quiet palette; a full-bleed `#62B850` wave would read loud for a medical home-care service and repeats greens used by recent health themes. Relationships stay identical: grey ground 60% / one green-family wave mass / ink text / white cards.
+Why celadon and not the reference green: the design-plan row fixes the palette family (celadon, `#5E7A70`) and the note asks for a quiet palette; a full-bleed `#62B850` wave would read loud for a medical home-care service and repeats greens used by recent health themes. Relationships stay identical: grey ground 60% / one green-family wave mass / ink text / white cards.
 First-screen saturated share cap: **15%** (scripts/check-first-screen.py, expected 6–12%). Contrast: white on `#5E7A70` 4.7:1 (H1, CTA text ≥ 18 px bold OK); labels on ground use `#4F6A60`.
 
 ## 6. Type (font_direction **sans**)
 - Latin headings: **Manrope** (variable, 400–800, latin + latin-ext). Latin body: **Public Sans** (variable, 400–700, latin + latin-ext). Both sans (reference Helvetica, tok(b)).
-- zh-TW: headings `"Manrope", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif` (bundled **Noto Sans TC** subset, 500/600, 黑體); body `"Public Sans", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif` (system 黑體; body stacks must not contain the bundled zh or ja family, repo contract).
+- zh-TW: headings `"Manrope", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif` (bundled **Noto Sans TC** subset, 500/600, gothic sans); body `"Public Sans", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif` (system gothic sans; body stacks must not contain the bundled zh or ja family, repo contract).
 - ja: headings `"Manrope", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif` (bundled **Noto Sans JP** subset, 500/600); body `"Public Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif`.
-- No serif or 明體 anywhere.
+- No serif or serif anywhere.
 - All fonts load through **theme.json `fontFamilies` + `fontFace`** (assets/fonts, woff2), so the editor iframe and the front end show the same faces; copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and require it (style.css uses `:lang()`). zh-TW/ja subsets made with the Hokuto/Hada method (the subset script is known broken). List every file in theme-meta.json `fonts[].files` with license (OFL) and name each family in readme.txt.
 - Sizes (theme.json presets): small 0.8125rem (labels, tok(b) 12–13 px bold) · body 1rem / 1.75 en (tok(b) 16/24 ≈ 1.5, we open to 1.75 for long care copy), CJK 1rem / 1.85 · medium 1.375rem / 2.2 (statement, tok(b)) · large 1.75rem / 1.6 (section H2, tok(b) ~28 px, weight 600, letter-spacing 0.04em) · x-large 2.25rem / 1.4 (inner page titles, statement last line) · **xx-large 4.25rem / 1.12** (H1, max). CJK headings ≈ 0.75× of Latin, letter-spacing 0.06em. fr/de `hyphens: auto`.
 - Weights: headings 600, labels 700, body 400.

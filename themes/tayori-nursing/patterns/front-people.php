@@ -12,7 +12,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tn-sec tn-people","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tn-sec tn-people"><!-- wp:group {"align":"wide","className":"tn-people__grid tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-people__grid tn-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--d tn-people__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--d tn-people__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p13-briefing.webp' ) ); ?>" alt="Two nurses and a coordinator hold a morning briefing around an office table."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--d tn-people__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-briefing.webp' ) ); ?>" alt="Two nurses and a coordinator hold a morning briefing around an office table."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"tn-people__text","layout":{"type":"default"}} -->

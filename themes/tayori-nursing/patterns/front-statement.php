@@ -12,7 +12,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tn-statement","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tn-statement"><!-- wp:group {"align":"wide","className":"tn-statement__inner tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-statement__inner tn-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--b tn-statement__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--b tn-statement__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p05-laugh.webp' ) ); ?>" alt="Older man laughs with a nurse as their hands rest clasped together."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--b tn-statement__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p05-laugh.webp' ) ); ?>" alt="Older man laughs with a nurse as their hands rest clasped together."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tn-label"} -->
@@ -48,7 +48,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-doodle tn-d3"} -->
-<figure class="wp-block-image size-full tn-doodle tn-d3"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/d3-bicycle.webp' ) ); ?>" alt=""/></figure>
+<figure class="wp-block-image size-full tn-doodle tn-d3"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/d3-bicycle.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

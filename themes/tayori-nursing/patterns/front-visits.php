@@ -46,7 +46,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-card__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p07-wound.webp' ) ); ?>" alt="Nurse applies a clean bandage to a patient's lower leg on a sofa."/></figure>
+<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07-wound.webp' ) ); ?>" alt="Nurse applies a clean bandage to a patient's lower leg on a sofa."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
@@ -88,7 +88,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-card__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p08-walk.webp' ) ); ?>" alt="Physiotherapist walks beside a woman using a walking frame along a bright hallway."/></figure>
+<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-walk.webp' ) ); ?>" alt="Physiotherapist walks beside a woman using a walking frame along a bright hallway."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->
@@ -130,7 +130,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-card__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p09-bedside.webp' ) ); ?>" alt="Nurse sits beside a bed holding the hand of a resting older man."/></figure>
+<figure class="wp-block-image size-full tn-card__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-bedside.webp' ) ); ?>" alt="Nurse sits beside a bed holding the hand of a resting older man."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tn-card__lead"} -->

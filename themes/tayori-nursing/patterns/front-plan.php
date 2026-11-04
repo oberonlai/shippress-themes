@@ -33,7 +33,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-plan__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-plan__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p11-plan.webp' ) ); ?>" alt="Nurse, older woman, and son review a paper care plan at the kitchen table."/></figure>
+<figure class="wp-block-image size-full tn-plan__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-plan.webp' ) ); ?>" alt="Nurse, older woman, and son review a paper care plan at the kitchen table."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

@@ -30,7 +30,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-pebble tn-pebble--c tn-why__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full tn-pebble tn-pebble--c tn-why__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p06-kitchen.webp' ) ); ?>" alt="Daughter and elderly mother review hospital discharge papers at a sunlit kitchen table."/></figure>
+<figure class="wp-block-image size-full tn-pebble tn-pebble--c tn-why__photo sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p06-kitchen.webp' ) ); ?>" alt="Daughter and elderly mother review hospital discharge papers at a sunlit kitchen table."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

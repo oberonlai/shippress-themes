@@ -12,7 +12,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tn-sec tn-round","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tn-sec tn-round"><!-- wp:group {"align":"wide","className":"tn-round__grid tn-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tn-round__grid tn-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tn-round__photo sp-parallax"} -->
-<figure class="wp-block-image size-full tn-round__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p10-street.webp' ) ); ?>" alt="Nurse with a bag wheels a bicycle along a quiet tree-lined street."/></figure>
+<figure class="wp-block-image size-full tn-round__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10-street.webp' ) ); ?>" alt="Nurse with a bag wheels a bicycle along a quiet tree-lined street."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"tn-round__text","layout":{"type":"default"}} -->
