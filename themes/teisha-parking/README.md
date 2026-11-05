@@ -5,6 +5,7 @@ Teisha Parking is a landing theme for a commercial car-park operator in Northgat
 ## Structure
 - `patterns/front-*.php`: the ten home sections (hero window, ticker and ledger, about, sites masonry, dusk band, steps, contract, fees, notes, request band).
 - `patterns/head-*.php`, `foot-main.php`: header bar, page head, footer.
+- Menu pages (demo content): Sites, Choosing, Contract and Fees reuse the home section patterns as real pages; Stories is the journal.
 - `templates/`: front page, page, single, journal home, archive, category, tag, search, index, 404.
 - `inc/i18n/<lang>.php`: the theme strings; `demo-content*.json`: sample content.
 - `assets/sp-scroll.*`: ShipPress scroll effects (parallax, reveal, marquee, count).
