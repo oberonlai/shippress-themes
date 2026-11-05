@@ -247,9 +247,12 @@ a { text-underline-offset: 0.2em; }
 @media (max-width: 781px) {
 	:root { --tp-pad: 20px; --tp-sec: 96px; }
 	.tp-bar { height: 64px; grid-template-columns: 1fr auto; }
-	.tp-bar__cta { display: none; }
+	.tp-bar .tp-bar__cta { display: none !important; }
 	.tp-nav { justify-self: end; }
-	.tp-hero .tp-win { height: 300px; margin: 48px 0 40px; }
+	.tp-hero .tp-win { height: 300px; margin: 56px 0 56px !important; }
+	.tp-hero .tp-catch { margin-top: 0 !important; }
+	.tp-hero .tp-cap--hero { margin-top: 16px !important; }
+	.tp-hero .tp-hero__cta { margin-top: 28px !important; }
 	.tp-win::before { inset: -24px 0; }
 	.tp-col--1 { --sp-par: 4%; } .tp-col--2 { --sp-par: 6%; } .tp-col--3 { --sp-par: 8%; }
 	.tp-line--2 { padding-left: 12px; } .tp-line--3 { padding-left: 24px; }
@@ -289,3 +292,7 @@ a { text-underline-offset: 0.2em; }
 	html.sp-js:not(.sp-no-motion) .tp-cap--hero { animation: tp-fade 0.5s ease 1.3s backwards; }
 	html.sp-js:not(.sp-no-motion) .tp-scroll::after { animation: tp-rule 0.8s ease-out 1.4s backwards; }
 }
+
+/* desaturated, low-key photographs (keeps the first screen quiet) */
+.tp-col img { filter: saturate(0.38); }
+.tp-win__in > figure img, .tp-tile__img img, .tp-note__img img, .tp-cover .wp-block-cover__image-background { filter: saturate(0.85); }
