@@ -53,11 +53,11 @@ Home = one long conversion page with an anchor menu and **one** repeated CTA wor
 |---|---|---|---|---|---|
 | 1 | Tall low-key photo window, 0 radius | Three-equal-column window, booth / hand-over / lit bays, hairlines overshoot 48px | x145–1033, y160–800 | slit 70px 600 ms ease-out cubic → opens centre-out 700 ms in-out quint; columns `sp-parallax` 6/9/12 % | P01, P02, P03 |
 | 2 | Pale vertical wash ground | `linear-gradient(180deg,#FFFFFF 0%,#DDE1E3 45%,#F4F5F5 100%)` | full first screen | none | — |
-| 3 | Three stepped catch lines | three lines on sites / choosing / applying, step 29px | right x1080–1380, y400–500 | `sp-stagger` + `sp-reveal--up` is **not** used on hero; instead CSS load fade+blur(8→0)+translateY(20→0) 500 ms, delays 900/1050/1200 ms, html.sp-js gated | — |
+| 3 | Three stepped catch lines | three lines on sites / choosing / applying, step 29px | right x1080–1380, y400–500 | CSS load fade (no sp-reveal on hero)+blur(8→0)+translateY(20→0) 500 ms, delays 900/1050/1200 ms, html.sp-js gated | — |
 | 4 | Italic caption overlapping window corner | "Bay 14, Canal Street — 6.40 pm" + 2 lines | x80–380, y630–700 | fade 500 ms, delay 1300 ms | — |
 | 5 | Hairline "Scroll" rule | "SCROLL" caps + 1px rule to right edge | y770 | rule scaleX 0→1 800 ms ease-out, delay 1400 ms | — |
 | 6 | Outline pill CTA | "Ask for a bay" pill, the single CTA | bottom-right x1204 y796 | hover fill navy 300 ms | — |
-H1 (visually the display line, replacing the reference's handwritten word area, NOT a script font): "A bay of your own." Figtree 300 `clamp(2.75rem, 5.2vw, 4.5rem)` lh 1.05, ls -0.01em, ink, right-aligned at x≈1080–1380, y≈250–360 (above the catch lines). Header: centered nav (logo wordmark left 1.25rem Figtree 600, anchor menu centered: Sites · Choosing · Contract · Fees · Stories, navy pill "Menu"-style button right = the CTA pill is NOT duplicated in header; header right holds a solid navy pill "Apply" 120×40 radius 100 linking `#apply` — same wording rule: label it "Ask for a bay").
+H1 (visually the display line, replacing the reference's handwritten word area, NOT a script font): "A bay of your own." Figtree 300 `clamp(2.75rem, 5.2vw, 4.5rem)` lh 1.05, ls -0.01em, ink, right-aligned at x≈1080–1380, y≈250–360 (above the catch lines). Header (centered nav): wordmark left (Figtree 600 1.25rem); anchor menu centered: Sites · Choosing · Contract · Fees · Stories; right: solid navy pill 120×40 radius 100 labelled "Ask for a bay" linking `#apply` (same single CTA wording).
 
 ## 3. Colour (reference relations, navy swapped in)
 | Role | Hex | Share | Source |
@@ -130,7 +130,7 @@ Home photo positions: P01 P02 P03 P04 P05 P06 P07 P08 P09 P10 P11 P12 P13 P14 = 
 ## 8. Fixed numbers (identical on every page and all five languages)
 - Company: Teisha Parking, founded **2009**, office: 18 Canal Street, Northgate (fictional town). Office hours Mon–Sat 9:00–18:00, closed Sun & holidays; sites open 24 h; office phone line Mon–Fri 9:00–17:00. Reply to any request within **2 working days**; notice period **30 days**.
 - Sites (6, total **412** bays): Canal Street 64 · Market Hall 88 · Northgate Station 96 · Orchard Yard 42 · Riverside Depot 74 · Library Square 48.
-- Fees (monthly unless stated): Open-air bay €95 · Covered bay €135 · Compact / motorcycle bay €45 · Bay with EV charger €165 (most chosen mark: Covered) · Weekday-only bay (Mon–Fri) €80 · Deposit for key fob €30 one-off. (6 items)
+- Fees (monthly unless stated): Open-air bay €95 · Covered bay €135 · Compact / motorcycle bay €45 · Bay with EV charger €165 (amber "most chosen" mark goes on Covered bay) · Weekday-only bay (Mon–Fri) €80 · Deposit for key fob €30 one-off. (6 items)
 - Process (4): 1 Ask for a bay (form) → 2 Reply within 2 working days with free bays → 3 Walk the site together (20 minutes) → 4 Sign, pay first month + fob deposit, start on the 1st or 15th.
 - People (6): Mara Lindqvist (founder, site walks), Tomás Reyes (operations), Aiko Brandt (contracts), Samuel Okafor (night attendant, Canal Street), Lena Fischer (accounts), Priya Nair (customer replies).
 - Stories (3): "The nurse on nights" (Covered bay, Northgate Station), "Two vans, one bakery" (Riverside Depot), "Charging by the library" (EV bay, Library Square).
