@@ -321,6 +321,49 @@ a { text-underline-offset: 0.2em; }
 .hf-single__img { max-width: 1296px; margin: 0 auto 32px !important; }
 .hf-single__img img { border-radius: 0 clamp(48px, 8vw, 120px) 0 0; }
 
+/* ---- inner pages: body blocks */
+.hf-pagehead { overflow: visible; padding-bottom: 8px; }
+.hf-lead, .hf-prose .hf-lead { font-size: var(--wp--preset--font-size--medium); line-height: 1.7; color: var(--hf-navy); font-weight: 500; }
+.hf-body--intro { padding-bottom: 24px; }
+.hf-body { padding-top: 72px; padding-bottom: 72px; }
+.hf-prose .hf-h3 { color: var(--hf-navy); }
+.hf-about { padding-top: 56px; padding-bottom: 96px; }
+.hf-rowD { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; margin-top: 120px !important; align-items: center; position: relative; z-index: 1; }
+.hf-rowA + .hf-rowA { margin-top: 120px !important; }
+.hf-about .hf-rowA { align-items: center; }
+.hf-duo__text > * + *, .hf-approach__text > * + * { margin-top: 1.2rem !important; }
+.hf-fig--narrow { max-width: 420px; }
+.hf-fig--tight { max-width: 100%; }
+.hf-sticker--win-b { width: 110px; right: 14%; bottom: -52px; }
+.hf-win--right .hf-win__img img { object-position: 85% 50%; }
+.hf-cols { display: grid; gap: 56px 48px; }
+.hf-cols--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.hf-cols--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.hf-cell { border-top: 2px solid var(--hf-navy); padding-top: 18px; }
+.hf-cell > * + * { margin-top: 0.8rem !important; }
+.hf-cell__h { font-size: 1.25rem; font-weight: 700; line-height: 1.3; color: var(--hf-navy); }
+.hf-years { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; margin-block: 40px !important; }
+.hf-year { border-top: 2px solid var(--hf-navy); padding-top: 14px; }
+.hf-year__n { font-family: var(--hf-display); font-weight: 800; font-size: 2.0625rem; color: var(--hf-otext); line-height: 1; }
+.hf-year__t { margin-top: 10px !important; font-size: 0.9375rem; line-height: 1.7; }
+.hf-bios { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 64px; }
+.hf-bio { padding: 28px 0; border-top: 1px solid var(--hf-rule); }
+.hf-bio__name { font-family: var(--hf-display); font-size: 1.375rem; font-weight: 700; color: var(--hf-navy); }
+.hf-bio__role { font-size: 0.875rem; color: var(--hf-steel); margin-top: 4px !important; font-weight: 600; }
+.hf-bio__text { margin-top: 0.9rem !important; font-size: 0.96875rem; line-height: 1.75; }
+.hf-fees--page { padding-top: 24px; padding-bottom: 24px; }
+.hf-field--page { min-height: 64vh; }
+.hf-endcta { background: var(--hf-cloud-soft); padding-top: 72px; padding-bottom: 72px; }
+.hf-endcta__in { display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap; max-width: 1296px; margin-inline: auto !important; }
+.hf-endcta__t { font-family: var(--hf-display); font-size: var(--wp--preset--font-size--x-large); font-weight: 700; color: var(--hf-navy); line-height: 1.2; max-width: 640px; }
+.hf-endcta__act { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
+.hf-endcta__act > * { margin: 0 !important; }
+.hf-endcta .hf-pill a { background: var(--hf-navy); color: #fff; height: 52px; padding: 0 16px 0 26px; }
+.hf-single__wrap { position: relative; max-width: 1296px; margin: 0 auto 32px !important; }
+.hf-single__wrap .hf-single__img { margin: 0 !important; }
+.hf-single__wrap .hf-sticker { width: 110px; bottom: -52px; left: 8%; }
+.hf-card__img img { aspect-ratio: 113 / 100; }
+
 /* ---- responsive */
 @media (max-width: 960px) {
 	.hf-bar__cta { display: none; }
@@ -402,3 +445,17 @@ a { text-underline-offset: 0.2em; }
 	.hf-pill a, .hf-arrow, .hf-nav .wp-block-navigation__responsive-container-open { transition: none; }
 }
 html.sp-no-motion .hf-sticker, html.sp-no-motion .hf-circuit__lark, .editor-styles-wrapper .hf-sticker, .editor-styles-wrapper .hf-circuit__lark { animation: none !important; }
+
+@media (max-width: 960px) {
+	.hf-rowD { grid-template-columns: minmax(0, 1fr); gap: 40px; margin-top: 64px !important; }
+	.hf-rowA + .hf-rowA { margin-top: 64px !important; }
+	.hf-cols--2, .hf-cols--3, .hf-bios { grid-template-columns: minmax(0, 1fr); }
+	.hf-years { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.hf-fig--narrow { max-width: 70%; }
+	.hf-body { padding-top: 48px; padding-bottom: 48px; }
+	.hf-sticker--win-b { width: 80px; bottom: -36px; }
+	.hf-single__wrap .hf-sticker { width: 80px; bottom: -36px; }
+}
+@media (max-width: 600px) {
+	.hf-years { grid-template-columns: minmax(0, 1fr); }
+}
