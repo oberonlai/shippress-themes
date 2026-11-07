@@ -14,8 +14,8 @@
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p01-echo-room.webp' ) ); ?>","dimRatio":0,"focalPoint":{"x":0.5,"y":0.4},"isDark":false,"className":"ib-hero__photo sp-parallax"} -->
-<div class="wp-block-cover ib-hero__photo sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Sonographer placing an ultrasound probe on a patient&#x27;s chest beside a reviewing cardiologist." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p01-echo-room.webp' ) ); ?>" style="object-position:50% 40%" data-object-fit="cover" data-object-position="50% 40%"/><div class="wp-block-cover__inner-container"></div></div>
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p01-echo-room.webp' ) ); ?>","dimRatio":0,"alt":"Sonographer placing an ultrasound probe on a patient's chest beside a reviewing cardiologist.","focalPoint":{"x":0.5,"y":0.4},"isDark":false,"className":"ib-hero__photo sp-parallax"} -->
+<div class="wp-block-cover is-light ib-hero__photo sp-parallax"><img class="wp-block-cover__image-background" alt="Sonographer placing an ultrasound probe on a patient&#x27;s chest beside a reviewing cardiologist." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p01-echo-room.webp' ) ); ?>" style="object-position:50% 40%" data-object-fit="cover" data-object-position="50% 40%"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:group {"className":"ib-hero__bar","layout":{"type":"default"}} -->

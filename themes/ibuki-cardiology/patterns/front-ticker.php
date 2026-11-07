@@ -22,7 +22,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ib-lane__row","layout":{"type":"default"}} -->
-<div class="wp-block-group ib-lane__row" aria-hidden="true"><!-- wp:paragraph {"className":"ib-lane__t"} -->
+<div class="wp-block-group ib-lane__row"><!-- wp:paragraph {"className":"ib-lane__t"} -->
 <p class="ib-lane__t">Monday <b>Rhythm</b></p>
 <!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ib-lane__img"} -->
 <figure class="wp-block-image size-full ib-lane__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p04-holter.webp' ) ); ?>" alt=""/></figure>
@@ -48,7 +48,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ib-lane__row","layout":{"type":"default"}} -->
-<div class="wp-block-group ib-lane__row" aria-hidden="true"><!-- wp:paragraph {"className":"ib-lane__t"} -->
+<div class="wp-block-group ib-lane__row"><!-- wp:paragraph {"className":"ib-lane__t"} -->
 <p class="ib-lane__t">Wednesday <b>Heart failure</b></p>
 <!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ib-lane__img"} -->
 <figure class="wp-block-image size-full ib-lane__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p05-waiting.webp' ) ); ?>" alt=""/></figure>
@@ -74,7 +74,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ib-lane__row","layout":{"type":"default"}} -->
-<div class="wp-block-group ib-lane__row" aria-hidden="true"><!-- wp:paragraph {"className":"ib-lane__t"} -->
+<div class="wp-block-group ib-lane__row"><!-- wp:paragraph {"className":"ib-lane__t"} -->
 <p class="ib-lane__t">Friday <b>Prevention</b></p>
 <!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ib-lane__img"} -->
 <figure class="wp-block-image size-full ib-lane__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p06-treadmill.webp' ) ); ?>" alt=""/></figure>
