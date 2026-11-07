@@ -51,6 +51,8 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/h18.webp and assets/images/demo/story-h18.webp (story: the trainer at a distant airfield)
 - assets/images/demo/note-h09.webp, assets/images/demo/note-h11.webp and assets/images/demo/note-h13.webp (field-note images, copies of h09, h11 and h13; imported into the Media Library)
 
+Noto Sans TC (OFL-1.1), zh-TW heading subset, WOFF2, see assets/fonts/.
+
 == Changelog ==
 = 1.0.0 =
 * First release.

@@ -14,40 +14,40 @@
 <!-- /wp:html --><!-- wp:group {"align":"wide","className":"hf-in hf-trial__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hf-in hf-trial__grid"><!-- wp:group {"className":"hf-trial__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-trial__text sp-stagger"><!-- wp:heading {"level":2,"className":"hf-trial__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading hf-trial__h sp-reveal sp-reveal--up">Come and read the wind with us.</h2>
+<h2 class="wp-block-heading hf-trial__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( hibari_flight_t( 'k4d37a71c' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Taking your first step into aviation starts with a single trial flight over the Vale. You will sit in the pilot’s seat, handle the controls in calm air, and experience how flight instruction works before committing to a full licence programme.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( hibari_flight_t( 'ke1a35bb6' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:group {"className":"hf-steps sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-steps sp-stagger"><!-- wp:group {"className":"hf-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-step sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"hf-step__n"} -->
 <p class="hf-step__n">1</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hf-step__t"} -->
-<p class="hf-step__t"><strong>Choose a morning</strong> Pick an available Tuesday to Sunday slot online or by phone.</p>
+<p class="hf-step__t"><strong><?php echo wp_kses_post( hibari_flight_t( 'k57bde343' ) ); ?></strong> <?php echo wp_kses_post( hibari_flight_t( 'k8fecaa53' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"hf-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-step sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"hf-step__n"} -->
 <p class="hf-step__n">2</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hf-step__t"} -->
-<p class="hf-step__t"><strong>Confirmation</strong> Receive confirmation and your pre-flight guide within one working day.</p>
+<p class="hf-step__t"><strong><?php echo wp_kses_post( hibari_flight_t( 'kf4d1ea47' ) ); ?></strong> <?php echo wp_kses_post( hibari_flight_t( 'k63a0d8cd' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"hf-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-step sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"hf-step__n"} -->
 <p class="hf-step__n">3</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hf-step__t"} -->
-<p class="hf-step__t"><strong>Arrive early</strong> Arrive at Hangar 2 thirty minutes early with photo ID.</p>
+<p class="hf-step__t"><strong><?php echo wp_kses_post( hibari_flight_t( 'k4d57fa60' ) ); ?></strong> <?php echo wp_kses_post( hibari_flight_t( 'kc0bb0a3d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"hf-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-step sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"hf-step__n"} -->
 <p class="hf-step__n">4</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hf-step__t"} -->
-<p class="hf-step__t"><strong>Fly</strong> Brief with your instructor, take off, and take the controls for 40 minutes.</p>
+<p class="hf-step__t"><strong><?php echo wp_kses_post( hibari_flight_t( 'kac51deb7' ) ); ?></strong> <?php echo wp_kses_post( hibari_flight_t( 'k15765d6d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:group {"className":"hf-trial__actions sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-trial__actions sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"hf-pill hf-pill--navy"} -->
-<p class="hf-pill hf-pill--navy"><a href="/trial-flight/">Book a trial flight</a></p>
+<p class="hf-pill hf-pill--navy"><a href="/trial-flight/"><?php echo wp_kses_post( hibari_flight_t( 'kcbf60688' ) ); ?></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hf-tlink"} -->
-<p class="hf-tlink"><a href="tel:+155501420911">Call +1 555 0142 0911</a></p>
+<p class="hf-tlink"><a href="tel:+155501420911"><?php echo wp_kses_post( hibari_flight_t( 'k5c3c3169' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:group {"className":"hf-trial__art","layout":{"type":"default"}} -->

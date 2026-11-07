@@ -11,9 +11,9 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"hf-sec hf-stories","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hf-sec hf-stories"><!-- wp:group {"align":"wide","className":"hf-in hf-stories__top","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hf-in hf-stories__top"><!-- wp:heading {"level":2,"className":"hf-word "} -->
-<h2 class="wp-block-heading hf-word ">STORIES</h2>
+<h2 class="wp-block-heading hf-word "><?php echo wp_kses_post( hibari_flight_t( 'kde6bb23f' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"hf-tlink"} -->
-<p class="hf-tlink"><a href="/stories/">All stories →</a></p>
+<p class="hf-tlink"><a href="/stories/"><?php echo wp_kses_post( hibari_flight_t( 'k306427e4' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:query {"queryId":2,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"align":"wide","className":"hf-cards"} -->
 <div class="wp-block-query alignwide hf-cards"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
