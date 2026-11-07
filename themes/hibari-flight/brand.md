@@ -69,5 +69,7 @@ Supporting: a drawn airfield circuit with a travelling lark behind a centred sta
 9. **Stories** (/stories/) - posts page; six entries (Stories, Field notes).
 10. **Contact** (/contact/) - address, phone, hours.
 
+Every inner page opens with the photo window (one rounded top-right corner, title on the photo). About, Licences, Crew, The Field, Contact and Trial flight carry drawn larks, a windsock or a headset on the edges of square photographs; Licences, Lesson block and Trial flight carry the navy strip (licence path, lesson steps, booking steps); The Field has a full-width parallax photo. The article is "Priya's first solo", written in the same plain voice.
+
 ## Photography
 Eighteen AI-generated photographs (Grok Build), one style: high-key documentary, natural daylight under a soft blue-grey overcast, regional grass and asphalt airfield, white two-seat trainer with slate-blue trim, diverse adults in navy, grey and khaki, 35mm, gentle grain, no text or logos. The larks, windsock, headset, cloud and the mark are hand-written SVG.
