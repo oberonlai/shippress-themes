@@ -10,7 +10,7 @@ Product-site category on S5-Style. IMAGERY = photo.
 5. Hairlines that draw themselves in on scroll (scaleX / scaleY, 0.9 s), cell content rising 24 px.
 ## Colour relation
 Ground white, ink #111, photo stage cool grey; one deep brown ground band from the secondary (Amprem relation) mapped to #6B5C4C family. Accent pills small and quiet.
-## Our mapping (成品對應; binding detail in design-spec.md)
+## Our mapping (as built; binding detail in design-spec.md)
 | Reference element | Ours | Where |
 |---|---|---|
 | Ruled grid with outer rails, 3 equal cells (rails max(20px, 8.9vw)) | same grid, 1 px #1A1714 hairlines on every cell | every page, every row (T1) |
