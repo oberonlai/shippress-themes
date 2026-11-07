@@ -18,7 +18,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
 3. Activate Kakeru Run.
 
-On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page with all its text and images, the Stories page and the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice. The theme works without WooCommerce.
+On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates the home page and the inner pages (Shoes, Lasts, Gait session, About, Contact, Newsletter, Stories) with their text and images, two sample posts and the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice. The theme works without WooCommerce.
 
 The shop, its people, address, telephone number and prices are fictional.
 
@@ -38,6 +38,8 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/P05.webp (home: Long on slate paper)
 - assets/images/P06.webp (home: Tempo on clay paper)
 - assets/images/P07.webp (home: four lasts on kraft paper)
+- assets/images/demo/P07.webp (copy of P07 for the sample post media library)
+- assets/images/demo/P09.webp (copy of P09 for the sample post media library)
 - assets/images/P08.webp (home: gait lab, runner's feet on the treadmill and a tripod camera)
 - assets/images/P09.webp (home: fitter's hands at the toe of a shoe)
 - assets/images/P10.webp (home: boxed pair on a packing table)
