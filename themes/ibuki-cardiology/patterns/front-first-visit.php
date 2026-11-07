@@ -63,7 +63,7 @@
 <!-- /wp:paragraph --><!-- wp:group {"className":"ib-seg__bar","layout":{"type":"default"}} -->
 <div class="wp-block-group ib-seg__bar"></div>
 <!-- /wp:group --><!-- wp:paragraph {"className":"ib-seg__n"} -->
-<p class="ib-seg__n">Plan + booking</p>
+<p class="ib-seg__n">Plan</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ib-seg__m"} -->
 <p class="ib-seg__m">10 min</p>
 <!-- /wp:paragraph --></div>

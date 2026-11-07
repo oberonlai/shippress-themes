@@ -42,6 +42,11 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p10-desk.webp and assets/images/demo/p10-desk.webp (home follow-up strip: the follow-up desk; the demo/ copy is the one imported into the Media Library)
 - assets/images/p11-corridor.webp and assets/images/demo/p11-corridor.webp (home people: four staff walking down a corridor; the demo/ copy is the one imported into the Media Library)
 - assets/images/p12-entrance.webp and assets/images/demo/p12-entrance.webp (home close: the clinic street entrance; the demo/ copy is the one imported into the Media Library)
+- assets/images/p02-hana.webp and assets/images/demo/p02-hana.webp (a teacher noting home blood pressure readings in a staff room; the demo/ copy is the one imported into the Media Library)
+- assets/images/p13-lobby.webp and assets/images/demo/p13-lobby.webp (the clinic building lift lobby and stairwell; the demo/ copy is the one imported into the Media Library)
+- assets/images/p14-explain.webp and assets/images/demo/p14-explain.webp (a cardiologist explaining a paper trace to a patient on the couch; the demo/ copy is the one imported into the Media Library)
+- assets/images/p15-family.webp and assets/images/demo/p15-family.webp (an older man and his daughter in a consultation; the demo/ copy is the one imported into the Media Library)
+- assets/images/p16-cuff.webp and assets/images/demo/p16-cuff.webp (a woman checking her blood pressure at home; the demo/ copy is the one imported into the Media Library)
 
 == Changelog ==
 = 1.0.0 =

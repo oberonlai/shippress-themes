@@ -7,7 +7,7 @@ Ibuki Cardiology is a calm, block-based WordPress theme designed for independent
 - `patterns/tpl-*.php`: page, single post, archive, search and 404 bodies; `templates/`: the block templates.
 - `assets/sp-scroll.*`: reveal, stagger, parallax and marquee classes (`sp-*`), no third-party scripts.
 - `inc/demo-import.php`: sets up the sample pages and posts on activation; `demo-content.json`: the sample content.
-- Photos: `assets/images/demo/` (AI-generated, GPL-2.0-or-later / CC0). See `readme.txt` for the list.
+- Photos: `assets/images/demo/` (16 AI-generated high-key documentary photographs, GPL-2.0-or-later / CC0). See `readme.txt` for the list.
 
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
