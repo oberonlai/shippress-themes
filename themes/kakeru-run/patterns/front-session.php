@@ -133,7 +133,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-textlink"} -->
-<p class="kr-textlink"><a href="/prices/">All prices →</a></p>
+<p class="kr-textlink"><a href="/gait-session/">All prices →</a></p>
 <!-- /wp:paragraph -->
 
 </div>
