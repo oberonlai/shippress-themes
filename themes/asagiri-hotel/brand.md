@@ -54,7 +54,7 @@ Free. Every 20 minutes from 05:10 to 00:30; on call from 00:30 to 05:10, ready i
 3. Pale panel with a photograph that rises above its top edge, and a wide inset photograph with a translucent card carrying a 6 px oxblood top rule.
 
 ## Pages
-Home (stage 1), Rooms, Late check-in, Shuttle, Rates, Night pantry, About, FAQ, News, Contact (stage 2).
+Home, Rooms, Late check-in, Shuttle, Rates, Night pantry, About, FAQ, Contact, Newsletter, News (posts page), one article (When a flight diverted at 01:50), category, tag, search and 404 templates. Every page opens with the inset dark photograph head; Rooms and About carry the opener with a flush-right strip, Late check-in, Shuttle and Rates carry the wide photograph with a ruled card, and Rooms, Late check-in, Night pantry and Contact carry the panel with a rising photograph.
 
 ## Photography
-AI-generated low-key documentary photographs (Grok Build), one style: airport hotel at night, one warm practical light, diverse adults, no text or logos.
+AI-generated low-key documentary photographs (Grok Build), one style: airport hotel at night, one warm practical light, diverse adults, no text or logos. 18 photographs in total; none repeats within a page.
