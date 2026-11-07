@@ -10,7 +10,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"ib-news","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ib-news"><!-- wp:group {"className":"ib-news__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ib-news__in"><!-- wp:heading {"level":2,"className":"ib-news__title"} -->
-<h2 class="wp-block-heading ib-news__title">News</h2>
+<h2 class="wp-block-heading ib-news__title"><?php echo wp_kses_post( ibuki_cardiology_t( 'kdd1ba187' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:query {"queryId":11,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"className":"ib-newsq"} -->
 <div class="wp-block-query ib-newsq"><!-- wp:post-template -->
 <!-- wp:group {"className":"ib-newsrow","layout":{"type":"default"}} -->
@@ -26,7 +26,7 @@
 <!-- /wp:group -->
 <!-- /wp:post-template --></div>
 <!-- /wp:query --><!-- wp:paragraph {"className":"ib-blk ib-blk--ink"} -->
-<p class="ib-blk ib-blk--ink"><a href="/news/">All news<span class="ib-arr">↗</span></a></p>
+<p class="ib-blk ib-blk--ink"><a href="/news/"><?php echo wp_kses_post( ibuki_cardiology_t( 'k386e86ec' ) ); ?><span class="ib-arr">↗</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

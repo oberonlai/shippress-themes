@@ -10,38 +10,38 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"ib-proof","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ib-proof"><!-- wp:group {"className":"ib-proof__top","layout":{"type":"default"}} -->
 <div class="wp-block-group ib-proof__top"><!-- wp:heading {"level":2,"className":"ib-proof__title"} -->
-<h2 class="wp-block-heading ib-proof__title">In their words</h2>
+<h2 class="wp-block-heading ib-proof__title"><?php echo wp_kses_post( ibuki_cardiology_t( 'keb7acb32' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ib-proof__small"} -->
-<figure class="wp-block-image size-full ib-proof__small"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p08-talk.webp' ) ); ?>" alt="Cardiologist and patient discussing medical results together across a desk near a bright window."/></figure>
+<figure class="wp-block-image size-full ib-proof__small"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p08-talk.webp' ) ); ?>" alt="<?php echo esc_attr( ibuki_cardiology_t( 'ac14d46ef' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ib-step sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group ib-step sp-stagger"><!-- wp:paragraph {"className":"ib-step__l ib-step__l--1 sp-reveal sp-reveal--up"} -->
-<p class="ib-step__l ib-step__l--1 sp-reveal sp-reveal--up">We see you on the day</p>
+<p class="ib-step__l ib-step__l--1 sp-reveal sp-reveal--up"><?php echo wp_kses_post( ibuki_cardiology_t( 'k4af7e6c2' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ib-step__l ib-step__l--2 sp-reveal sp-reveal--up"} -->
-<p class="ib-step__l ib-step__l--2 sp-reveal sp-reveal--up">we said we would,</p>
+<p class="ib-step__l ib-step__l--2 sp-reveal sp-reveal--up"><?php echo wp_kses_post( ibuki_cardiology_t( 'k6665c8fb' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ib-step__l ib-step__l--3 sp-reveal sp-reveal--up"} -->
-<p class="ib-step__l ib-step__l--3 sp-reveal sp-reveal--up">and we call when results are in.</p>
+<p class="ib-step__l ib-step__l--3 sp-reveal sp-reveal--up"><?php echo wp_kses_post( ibuki_cardiology_t( 'k96a527c2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ib-proof__low","layout":{"type":"default"}} -->
 <div class="wp-block-group ib-proof__low"><!-- wp:group {"className":"ib-proof__bleed sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group ib-proof__bleed sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ib-proof__bleedimg"} -->
-<figure class="wp-block-image size-full ib-proof__bleedimg"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p09-walter.webp' ) ); ?>" alt="Man in a dark jacket walking out through the clinic glass entrance into daylight."/></figure>
+<figure class="wp-block-image size-full ib-proof__bleedimg"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p09-walter.webp' ) ); ?>" alt="<?php echo esc_attr( ibuki_cardiology_t( 'a2a7c9803' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ib-proof__stories sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ib-proof__stories sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ib-story"} -->
-<p class="ib-story"><a href="/stories/"><strong>Walter, 58, bus driver</strong><span>Palpitations on early shifts; Holter fitted on a Monday, reviewed the next week.</span><span class="ib-arr">↗</span></a></p>
+<p class="ib-story"><a href="/stories/"><strong><?php echo wp_kses_post( ibuki_cardiology_t( 'ka56231bc' ) ); ?></strong><span><?php echo wp_kses_post( ibuki_cardiology_t( 'kb33a0701' ) ); ?></span><span class="ib-arr">↗</span></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ib-story"} -->
-<p class="ib-story"><a href="/stories/"><strong>Hana, 41, teacher</strong><span>High readings at school; 24-hour monitor on a Tuesday, a plan with Dr. Ribeiro.</span><span class="ib-arr">↗</span></a></p>
+<p class="ib-story"><a href="/stories/"><strong><?php echo wp_kses_post( ibuki_cardiology_t( 'kceba07e0' ) ); ?></strong><span><?php echo wp_kses_post( ibuki_cardiology_t( 'k869e90e1' ) ); ?></span><span class="ib-arr">↗</span></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ib-story"} -->
-<p class="ib-story"><a href="/stories/"><strong>Joseph, 72, retired joiner</strong><span>Heart Failure Clinic every three months; Jonas calls between visits.</span><span class="ib-arr">↗</span></a></p>
+<p class="ib-story"><a href="/stories/"><strong><?php echo wp_kses_post( ibuki_cardiology_t( 'k0905677b' ) ); ?></strong><span><?php echo wp_kses_post( ibuki_cardiology_t( 'k11076d5d' ) ); ?></span><span class="ib-arr">↗</span></a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ib-rowlink ib-rowlink--w"} -->
-<p class="ib-rowlink ib-rowlink--w"><a href="/stories/">Read patient stories<span class="ib-arr">↗</span></a></p>
+<p class="ib-rowlink ib-rowlink--w"><a href="/stories/"><?php echo wp_kses_post( ibuki_cardiology_t( 'k674eecb5' ) ); ?><span class="ib-arr">↗</span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

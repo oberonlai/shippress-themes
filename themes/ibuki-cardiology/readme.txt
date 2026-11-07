@@ -25,7 +25,7 @@ The clinic, its people, address, telephone number and prices are fictional.
 == Copyright ==
 
 Ibuki Cardiology is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Inter Tight (OFL-1.1), Latin variable; Manrope (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Inter Tight (OFL-1.1), Latin variable; Manrope (OFL-1.1), Latin variable; Noto Sans TC and Noto Sans JP (OFL-1.1), CJK subsets; all WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are small ShipPress files (GPL-2.0-or-later); no third-party script or library is used.
 
 = Images =
