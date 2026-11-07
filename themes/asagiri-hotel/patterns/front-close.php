@@ -16,10 +16,10 @@
 <!-- /wp:paragraph -->
 <!-- wp:group {"className":"ag-close__pills","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-close__pills"><!-- wp:paragraph {"className":"ag-pill ag-pill--dark"} -->
-<p class="ag-pill ag-pill--dark"><a href="/rates/"><?php echo wp_kses_post( asagiri_hotel_t( 'k8f152109' ) ); ?><span class="ag-arr" aria-hidden="true"></span></a></p>
+<p class="ag-pill ag-pill--dark"><a href="/rates/"><?php echo wp_kses_post( asagiri_hotel_t( 'k8f152109' ) ); ?><span class="ag-arr" aria-hidden="true"><svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1" focusable="false"><path d="M0 5h15M11 1l4 4-4 4"/></svg></span></a></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"ag-pill ag-pill--dark"} -->
-<p class="ag-pill ag-pill--dark"><a href="/shuttle/"><?php echo wp_kses_post( asagiri_hotel_t( 'k73929152' ) ); ?><span class="ag-arr" aria-hidden="true"></span></a></p>
+<p class="ag-pill ag-pill--dark"><a href="/shuttle/"><?php echo wp_kses_post( asagiri_hotel_t( 'k73929152' ) ); ?><span class="ag-arr" aria-hidden="true"><svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1" focusable="false"><path d="M0 5h15M11 1l4 4-4 4"/></svg></span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
