@@ -67,9 +67,7 @@
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ib-seg__m"} -->
 <p class="ib-seg__m">10 min</p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group --><!-- wp:paragraph {"className":"ib-timing__end"} -->
-<p class="ib-timing__end">10:00</p>
-<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:paragraph {"className":"ib-rowlink ib-rowlink--l"} -->
 <p class="ib-rowlink ib-rowlink--l"><a href="/first-visit/">What to bring<span class="ib-arr">↗</span></a></p>
 <!-- /wp:paragraph --></div>

@@ -31,17 +31,17 @@ Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are small ShipPress
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as photorealistic high-key documentary photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the clinic is fictional). No transparent cut-outs are used.
-- assets/images/demo/p01-echo-room.webp (home hero: a sonographer, a patient and a cardiologist at the echo screen; imported into the Media Library)
-- assets/images/demo/p03-probe.webp (home clinics: hands and probe over gel on a chest; imported into the Media Library)
-- assets/images/demo/p04-holter.webp (home ticker lane 1: a nurse fitting a Holter monitor; imported into the Media Library)
-- assets/images/demo/p05-waiting.webp (home ticker lane 2: a bright waiting area; imported into the Media Library)
-- assets/images/demo/p06-treadmill.webp (home ticker lane 3: a stress test on a treadmill; imported into the Media Library)
-- assets/images/demo/p07-ecg.webp (home first visit: a nurse attaching ECG electrodes; imported into the Media Library)
-- assets/images/demo/p08-talk.webp (home proof band: a cardiologist and patient at a desk; imported into the Media Library)
-- assets/images/demo/p09-walter.webp (home proof band: a man leaving the clinic entrance; imported into the Media Library)
-- assets/images/demo/p10-desk.webp (home follow-up strip: the follow-up desk; imported into the Media Library)
-- assets/images/demo/p11-corridor.webp (home people: four staff walking down a corridor; imported into the Media Library)
-- assets/images/demo/p12-entrance.webp (home close: the clinic street entrance; imported into the Media Library)
+- assets/images/p01-echo-room.webp and assets/images/demo/p01-echo-room.webp (home hero: a sonographer, a patient and a cardiologist at the echo screen; the demo/ copy is the one imported into the Media Library)
+- assets/images/p03-probe.webp and assets/images/demo/p03-probe.webp (home clinics: hands and probe over gel on a chest; the demo/ copy is the one imported into the Media Library)
+- assets/images/p04-holter.webp and assets/images/demo/p04-holter.webp (home ticker lane 1: a nurse fitting a Holter monitor; the demo/ copy is the one imported into the Media Library)
+- assets/images/p05-waiting.webp and assets/images/demo/p05-waiting.webp (home ticker lane 2: a bright waiting area; the demo/ copy is the one imported into the Media Library)
+- assets/images/p06-treadmill.webp and assets/images/demo/p06-treadmill.webp (home ticker lane 3: a stress test on a treadmill; the demo/ copy is the one imported into the Media Library)
+- assets/images/p07-ecg.webp and assets/images/demo/p07-ecg.webp (home first visit: a nurse attaching ECG electrodes; the demo/ copy is the one imported into the Media Library)
+- assets/images/p08-talk.webp and assets/images/demo/p08-talk.webp (home proof band: a cardiologist and patient at a desk; the demo/ copy is the one imported into the Media Library)
+- assets/images/p09-walter.webp and assets/images/demo/p09-walter.webp (home proof band: a man leaving the clinic entrance; the demo/ copy is the one imported into the Media Library)
+- assets/images/p10-desk.webp and assets/images/demo/p10-desk.webp (home follow-up strip: the follow-up desk; the demo/ copy is the one imported into the Media Library)
+- assets/images/p11-corridor.webp and assets/images/demo/p11-corridor.webp (home people: four staff walking down a corridor; the demo/ copy is the one imported into the Media Library)
+- assets/images/p12-entrance.webp and assets/images/demo/p12-entrance.webp (home close: the clinic street entrance; the demo/ copy is the one imported into the Media Library)
 
 == Changelog ==
 = 1.0.0 =
