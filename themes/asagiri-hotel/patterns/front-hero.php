@@ -15,7 +15,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"ag-hero__mid","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-hero__mid"><!-- wp:heading {"level":1,"className":"ag-hero__h1 ag-rise1"} -->
-<h1 class="wp-block-heading ag-hero__h1 ag-rise1"><?php echo wp_kses_post( asagiri_hotel_t( 'k127a0372' ) ); ?></h1>
+<h1 class="wp-block-heading ag-hero__h1 ag-rise1"><?php echo wp_kses_post( asagiri_hotel_t( 'ka7fd3f55' ) ); ?></h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"ag-hero__sub sp-count ag-rise2"} -->
 <p class="ag-hero__sub sp-count ag-rise2"><?php echo wp_kses_post( asagiri_hotel_t( 'k7f52f8ec' ) ); ?></p>
