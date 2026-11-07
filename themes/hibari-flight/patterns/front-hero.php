@@ -21,10 +21,10 @@
 <!-- /wp:heading --><!-- wp:paragraph {"className":"hf-hero__sub"} -->
 <p class="hf-hero__sub">Private pilot training at Brackmoor Airfield since 2011.</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:paragraph {"className":"hf-pill hf-hero__pill"} -->
 <p class="hf-pill hf-hero__pill"><a href="/trial-flight/">Book a trial flight</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hf-sticker hf-sticker--hero-lark"} -->
+<!-- /wp:paragraph --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hf-sticker hf-sticker--hero-lark"} -->
 <figure class="wp-block-image size-full hf-sticker hf-sticker--hero-lark"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/stickers/lark-perched.svg' ) ); ?>" alt=""/></figure>
 <!-- /wp:image --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hf-sticker hf-sticker--hero-sock"} -->
 <figure class="wp-block-image size-full hf-sticker hf-sticker--hero-sock"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/stickers/windsock.svg' ) ); ?>" alt=""/></figure>

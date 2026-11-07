@@ -49,6 +49,7 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/h16.webp and assets/images/demo/story-h16.webp (story: first-time visitor in the cockpit)
 - assets/images/h17.webp and assets/images/demo/story-h17.webp (story: thumbs-up after the first solo)
 - assets/images/h18.webp and assets/images/demo/story-h18.webp (story: the trainer at a distant airfield)
+- assets/images/demo/note-h09.webp, assets/images/demo/note-h11.webp and assets/images/demo/note-h13.webp (field-note images, copies of h09, h11 and h13; imported into the Media Library)
 
 == Changelog ==
 = 1.0.0 =
