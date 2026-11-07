@@ -12,3 +12,23 @@ Ibuki Cardiology is a calm, block-based WordPress theme designed for independent
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/ibuki-cardiology/home-desktop.webp" width="640" alt="Ibuki Cardiology home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/ibuki-cardiology/home-mobile.webp" width="200" alt="Ibuki Cardiology home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/ibuki-cardiology/about-desktop.webp) · [mobile](https://shots.codotx.com/ibuki-cardiology/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/ibuki-cardiology/news-desktop.webp) · [mobile](https://shots.codotx.com/ibuki-cardiology/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/ibuki-cardiology/article-desktop.webp) · [mobile](https://shots.codotx.com/ibuki-cardiology/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/ibuki-cardiology/category-desktop.webp) · [mobile](https://shots.codotx.com/ibuki-cardiology/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/ibuki-cardiology/tag-desktop.webp) · [mobile](https://shots.codotx.com/ibuki-cardiology/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/ibuki-cardiology/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/ibuki-cardiology/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/ibuki-cardiology/contact-desktop.webp) · [mobile](https://shots.codotx.com/ibuki-cardiology/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/ibuki-cardiology/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/ibuki-cardiology/ja/home-desktop.webp) · [fr](https://shots.codotx.com/ibuki-cardiology/fr/home-desktop.webp) · [de](https://shots.codotx.com/ibuki-cardiology/de/home-desktop.webp)
+<!-- screenshots:end -->
