@@ -19,7 +19,7 @@
 <!-- /wp:heading --><!-- wp:paragraph {"className":"hf-circuit__body sp-reveal sp-reveal--up"} -->
 <p class="hf-circuit__body sp-reveal sp-reveal--up">Climb out from the runway, turn across the wind, track downwind alongside the field, then come down the base turn to line up on final.<br>Inside this familiar shape you learn speed control, radio calls and steady landings<br>long before you leave the circuit and go cross-country.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hf-pill sp-reveal sp-reveal--up"} -->
-<p class="hf-pill sp-reveal sp-reveal--up"><a href="/lesson-block/">How a lesson block runs<span class="hf-pill__disc" aria-hidden="true"></span></a></p>
+<p class="hf-pill sp-reveal sp-reveal--up"><a href="/lesson-block/">How a lesson block runs</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"align":"full","className":"hf-strips3 sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull hf-strips3 sp-stagger"><!-- wp:group {"className":"hf-strip3__item sp-reveal sp-reveal--up","layout":{"type":"default"}} -->

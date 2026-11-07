@@ -45,7 +45,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:group {"className":"hf-trial__actions sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-trial__actions sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"hf-pill hf-pill--navy"} -->
-<p class="hf-pill hf-pill--navy"><a href="/trial-flight/">Book a trial flight<span class="hf-pill__disc" aria-hidden="true"></span></a></p>
+<p class="hf-pill hf-pill--navy"><a href="/trial-flight/">Book a trial flight</a></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hf-tlink"} -->
 <p class="hf-tlink"><a href="tel:+155501420911">Call +1 555 0142 0911</a></p>
 <!-- /wp:paragraph --></div>

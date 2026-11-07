@@ -9,7 +9,9 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"hf-sec hf-hero","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull hf-sec hf-hero"><!-- wp:group {"align":"wide","className":"hf-hero__stage","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull hf-sec hf-hero"><!-- wp:html -->
+<div class="hf-blob hf-blob--board" aria-hidden="true"></div>
+<!-- /wp:html --><!-- wp:group {"align":"wide","className":"hf-hero__stage","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hf-hero__stage"><!-- wp:group {"className":"hf-hero__win sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-hero__win sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hf-hero__img"} -->
 <figure class="wp-block-image size-full hf-hero__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h01.webp' ) ); ?>" alt="Flight instructor pointing toward distant windsock while student in open cockpit adjusts aviation headset."/></figure>
@@ -20,7 +22,7 @@
 <p class="hf-hero__sub">Private pilot training at Brackmoor Airfield since 2011.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:paragraph {"className":"hf-pill hf-hero__pill"} -->
-<p class="hf-pill hf-hero__pill"><a href="/trial-flight/">Book a trial flight<span class="hf-pill__disc" aria-hidden="true"></span></a></p>
+<p class="hf-pill hf-hero__pill"><a href="/trial-flight/">Book a trial flight</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hf-sticker hf-sticker--hero-lark"} -->
 <figure class="wp-block-image size-full hf-sticker hf-sticker--hero-lark"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/stickers/lark-perched.svg' ) ); ?>" alt=""/></figure>
