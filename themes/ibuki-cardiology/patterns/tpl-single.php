@@ -9,18 +9,32 @@
 ?>
 <!-- wp:group {"className":"ib-wrapin ib-single","layout":{"type":"default"}} -->
 <div class="wp-block-group ib-wrapin ib-single"><!-- wp:post-terms {"term":"category","className":"ib-pagehead__l"} /-->
-
 <!-- wp:post-title {"level":1,"className":"ib-pagehead__t ib-single__t"} /-->
-
 <!-- wp:post-date {"className":"ib-single__d"} /-->
-
 <!-- wp:post-featured-image {"aspectRatio":"16/9","className":"ib-single__img"} /-->
-
 <!-- wp:post-content {"layout":{"type":"constrained","contentSize":"680px"}} /-->
-
 <!-- wp:group {"className":"ib-single__nav","layout":{"type":"default"}} -->
 <div class="wp-block-group ib-single__nav"><!-- wp:post-navigation-link {"type":"previous","showTitle":true,"label":"Previous"} /-->
-
 <!-- wp:post-navigation-link {"showTitle":true,"label":"Next"} /--></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --><!-- wp:group {"tagName":"section","align":"full","className":"ib-close ib-close--s","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull ib-close ib-close--s"><!-- wp:group {"className":"ib-close__in","layout":{"type":"default"}} -->
+<div class="wp-block-group ib-close__in"><!-- wp:group {"className":"ib-close__text sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group ib-close__text sp-reveal sp-reveal--up"><!-- wp:heading {"level":2,"className":"ib-close__title"} -->
+<h2 class="wp-block-heading ib-close__title">Book a first<br>visit.</h2>
+<!-- /wp:heading --><!-- wp:paragraph {"className":"ib-close__lead"} -->
+<p class="ib-close__lead">We see new patients from Monday to Friday with scheduled appointments beginning at 08:30.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph {"className":"ib-close__addr"} -->
+<p class="ib-close__addr">Ibuki Cardiology<br>14 Harbour Lane, 2nd floor, Northbridge<br>Phone +1 555 0142<br>desk@ibuki-cardiology.example</p>
+<!-- /wp:paragraph --><!-- wp:paragraph {"className":"ib-close__addr"} -->
+<p class="ib-close__addr">Monday–Friday 08:00–17:30<br>Saturday 09:00–12:30 (follow-ups only)<br>Closed Sunday and public holidays</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --><!-- wp:group {"className":"ib-close__media","layout":{"type":"default"}} -->
+<div class="wp-block-group ib-close__media"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ib-close__img"} -->
+<figure class="wp-block-image size-full ib-close__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p12-entrance.webp' ) ); ?>" alt="Clinic glass entrance and quiet sidewalk viewed from the street on a bright morning."/></figure>
+<!-- /wp:image --><!-- wp:paragraph {"className":"ib-blk ib-blk--paper"} -->
+<p class="ib-blk ib-blk--paper"><a href="/contact/">Book a visit<span class="ib-arr">↗</span></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
 <!-- /wp:group -->
