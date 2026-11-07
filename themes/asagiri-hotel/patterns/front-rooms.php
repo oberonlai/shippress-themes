@@ -21,7 +21,7 @@
 <p class=""><?php echo wp_kses_post( asagiri_hotel_t( 'k93ab14ac' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"ag-pill "} -->
-<p class="ag-pill "><a href="/rooms/"><?php echo wp_kses_post( asagiri_hotel_t( 'k33cb36ec' ) ); ?><span class="ag-arr" aria-hidden="true"></span></a></p>
+<p class="ag-pill "><a href="/rooms/"><?php echo wp_kses_post( asagiri_hotel_t( 'k33cb36ec' ) ); ?><span class="ag-arr" aria-hidden="true"><svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1" focusable="false"><path d="M0 5h15M11 1l4 4-4 4"/></svg></span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:html -->
 <svg class="ag-motif" width="130" height="130" viewBox="0 0 130 130" fill="none" stroke="#730D0D" stroke-width="1" aria-hidden="true" focusable="false"><g transform="translate(22 65)"><rect x="-17" y="-17" width="34" height="34" transform="rotate(45)"/><rect x="-26" y="-26" width="52" height="52" transform="rotate(45)"/></g><g transform="translate(65 65)"><rect x="-17" y="-17" width="34" height="34" transform="rotate(45)"/><rect x="-26" y="-26" width="52" height="52" transform="rotate(45)"/></g><g transform="translate(108 65)"><rect x="-17" y="-17" width="34" height="34" transform="rotate(45)"/><rect x="-26" y="-26" width="52" height="52" transform="rotate(45)"/></g></svg>

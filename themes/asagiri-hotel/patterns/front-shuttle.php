@@ -35,7 +35,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:paragraph {"className":"ag-pill "} -->
-<p class="ag-pill "><a href="/shuttle/"><?php echo wp_kses_post( asagiri_hotel_t( 'kbb66b9d7' ) ); ?><span class="ag-arr" aria-hidden="true"></span></a></p>
+<p class="ag-pill "><a href="/shuttle/"><?php echo wp_kses_post( asagiri_hotel_t( 'kbb66b9d7' ) ); ?><span class="ag-arr" aria-hidden="true"><svg width="16" height="10" viewBox="0 0 16 10" fill="none" stroke="currentColor" stroke-width="1" focusable="false"><path d="M0 5h15M11 1l4 4-4 4"/></svg></span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
