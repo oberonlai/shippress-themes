@@ -11,7 +11,7 @@
 ?>
 <!-- wp:group {"align":"full","className":"hf-foot","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull hf-foot"><!-- wp:html -->
-<div class="hf-foot__deco" aria-hidden="true"><svg viewBox="0 0 700 520" width="700" height="520"><circle cx="0" cy="260" r="350" fill="#14286A"/><circle cx="-10" cy="260" r="110" fill="#001650"/></svg></div>
+<div class="hf-foot__deco" aria-hidden="true"><svg viewBox="0 0 700 520" width="700" height="520"><circle cx="0" cy="260" r="350" fill="#14286A"/><defs><mask id="hf-fm"><rect width="700" height="520" fill="#fff"/><circle cx="190" cy="240" r="78" fill="#000"/></mask></defs><circle cx="155" cy="260" r="92" fill="#001650" mask="url(#hf-fm)"/></svg></div>
 <!-- /wp:html --><!-- wp:group {"className":"hf-foot__in","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-foot__in"><!-- wp:group {"align":"wide","className":"hf-foot__top","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hf-foot__top"><!-- wp:group {"className":"hf-foot__brand","layout":{"type":"default"}} -->

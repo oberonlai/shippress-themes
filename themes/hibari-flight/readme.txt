@@ -32,10 +32,10 @@ Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are part of the Shi
 
 Images: AI-generated for this theme with Grok Build image_gen as photorealistic high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the school is fictional). No transparent cut-outs are used. The larks, windsock, headset, cloud and the mark (assets/stickers/*.svg, assets/mark.svg) are hand-written SVG for this theme.
 - assets/images/h01.webp (home hero window and Trial flight head: instructor on the wing root pointing at the windsock)
-- assets/images/h02.webp (home approach: student doing the walk-round)
+- assets/images/h02.webp (home approach: single student doing the walk-round)
 - assets/images/h03.webp (home approach: fuel sample held to the light)
 - assets/images/h04.webp (home approach: the trainer taxiing on grass)
-- assets/images/h05.webp (home licences: student with headset by the wing tip)
+- assets/images/h05.webp (home licences: student looking up with a headset in hand)
 - assets/images/h06.webp (home circuit strip: wing tip and windsock)
 - assets/images/h07.webp (home circuit strip: throttle and stick)
 - assets/images/h08.webp (home circuit strip: view over the nose)

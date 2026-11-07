@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/h13.webp' ) ); ?>","dimRatio":0,"minHeight":78,"minHeightUnit":"vh","align":"full","className":"hf-field sp-parallax","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover alignfull hf-field sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Airfield hangar with open doors, orange windsock, and two parked training aircraft." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h13.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","className":"hf-field__copy","layout":{"type":"default"}} -->
+<div class="wp-block-cover alignfull hf-field sp-parallax" style="padding-top:0;padding-bottom:0;min-height:78vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Airfield hangar with open doors, orange windsock, and two parked training aircraft." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h13.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","className":"hf-field__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hf-field__copy"><!-- wp:paragraph {"className":"hf-label hf-label--white"} -->
 <p class="hf-label hf-label--white">THE FIELD</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":2,"className":"hf-field__h"} -->

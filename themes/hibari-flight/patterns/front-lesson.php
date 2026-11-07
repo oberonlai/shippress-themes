@@ -10,7 +10,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"hf-sec hf-lesson","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hf-sec hf-lesson"><!-- wp:html -->
-<div class="hf-lesson__deco" aria-hidden="true"><svg viewBox="0 0 1100 760" width="1100" height="760" preserveAspectRatio="xMinYMin slice"><circle cx="0" cy="380" r="550" fill="#14286A"/><circle cx="-20" cy="380" r="150" fill="#001650"/></svg></div>
+<div class="hf-lesson__deco" aria-hidden="true"><svg viewBox="0 0 1100 760" width="1100" height="760" preserveAspectRatio="xMinYMin slice"><circle cx="0" cy="380" r="550" fill="#14286A"/><defs><mask id="hf-lm"><rect width="1100" height="760" fill="#fff"/><circle cx="285" cy="345" r="112" fill="#000"/></mask></defs><circle cx="235" cy="380" r="130" fill="#001650" mask="url(#hf-lm)"/></svg></div>
 <!-- /wp:html --><!-- wp:group {"className":"hf-lesson__head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-lesson__head sp-reveal sp-reveal--up"><!-- wp:heading {"level":2,"className":"hf-word hf-word--white"} -->
 <h2 class="wp-block-heading hf-word hf-word--white">LESSON</h2>

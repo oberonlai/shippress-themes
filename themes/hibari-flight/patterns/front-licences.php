@@ -19,7 +19,7 @@
 <div class="wp-block-group hf-fig hf-fig--p78 "><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hf-fig__img sp-reveal sp-reveal--zoom"} -->
 <figure class="wp-block-image size-full hf-fig__img sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/h05.webp' ) ); ?>" alt="Student pilot standing by airplane wing tip holding headset while looking at clouds."/></figure>
 <!-- /wp:image --><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hf-sticker hf-sticker--r-c"} -->
-<figure class="wp-block-image size-full hf-sticker hf-sticker--r-c"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/stickers/headset.svg' ) ); ?>" alt=""/></figure>
+<figure class="wp-block-image size-full hf-sticker hf-sticker--r-c"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/stickers/lark-flying.svg' ) ); ?>" alt=""/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --><!-- wp:group {"className":"hf-licences__rows sp-stagger","layout":{"type":"default"}} -->
