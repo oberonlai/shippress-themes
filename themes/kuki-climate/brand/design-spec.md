@@ -176,7 +176,7 @@ First-screen saturated share: target ≤ 8%, **hard cap 15%** (`scripts/check-fi
 
 ## 6. Type
 
-Direction **sans** (row `font_direction: sans`): Latin headings and body both sans; CJK Noto Sans TC / Noto Sans JP (黑體), never Serif/明體.
+Direction **sans** (row `font_direction: sans`): Latin headings and body both sans; CJK Noto Sans TC / Noto Sans JP (gothic sans), never Noto Serif (Mincho).
 - Headings: **Manrope** (variable 200–800; ship 200, 300, 500, 600) — `"Manrope", "Noto Sans TC", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif` (zh-TW) / `"Manrope", "Noto Sans JP", "Noto Sans TC", …` (ja).
 - Body: **Source Sans 3** (400, 500, 600) — en/fr/de `"Source Sans 3", "Helvetica Neue", Arial, sans-serif`; zh-TW body `"Source Sans 3", "PingFang TC", "Microsoft JhengHei", sans-serif` (**no** bundled zh font, no JP font in the zh body stack, per check-themes); ja body `"Source Sans 3", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif`.
 - Display stacks `:root:lang(zh*)` heading = Manrope + bundled **Noto Sans TC** subset; `:lang(ja)` heading = Manrope + bundled **Noto Sans JP** subset (use the Hokuto/Hada subset workaround; the zh subset script is known broken).
