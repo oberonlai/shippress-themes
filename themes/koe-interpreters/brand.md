@@ -39,6 +39,13 @@ The request desk is open Monday to Friday, 08:30-18:00 CET. A meeting day follow
 
 ## Pages
 Home (one long conversion page with an anchor menu and one repeated request button), About, Briefs, Meeting day, Rates, Request a team, Notes (posts), Early access (waitlist), Thanks, Privacy, Terms.
+- Every inner page starts with the same head: a teal-grey gradient band with a small label, the page title, a one-sentence lead, one slanted column of two photo cards (about -11 degrees, bleeding off the right) and a static seam strip with one photo capsule, then the white sheet with 40px rounded top corners.
+- About: three narrative sections, a full-width parallax photograph of the hall, the seven people as text rows, and the 2011-to-today paragraph.
+- Briefs: nine tilted pair cards on the teal-to-amber band with two slanted photo columns, then four assignment families linked to the stories.
+- Meeting day: photograph, the five-marker hour ruler with longer notes, three team-composition columns, equipment and booth handovers.
+- Rates: the seven-row price table (same as home), the worked example of 2,840 euros, three tilted operating-rule cards, cancellation and travel terms.
+- Request a team: the six things to send, the email button, the desk facts, three steps from brief to booth. Early access: the online brief with three function cards and a mailto button. Thanks: one card, replying within one business day.
+- Notes: first note large, the others in two columns; one long note (what the sound check is for) with the other stories as short notes.
 
 ## Photography
 Documentary photographs on 35 mm film: visible fine grain, soft halation, lifted blacks, a muted cool teal-grey grade with a faint mauve tint and warm amber highlights, soft daylight from large windows. Conference booths, floor, consoles, headsets and notes; adults of mixed backgrounds in dark business clothing; no text, logos or brands.

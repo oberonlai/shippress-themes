@@ -15,7 +15,7 @@
 <!-- wp:paragraph {"className":"ko-label"} -->
 <p class="ko-label">Notes</p>
 <!-- /wp:paragraph -->
-<!-- wp:query-title {"type":"search","level":1} /-->
+<!-- wp:query-title {"type":"archive","level":1} /-->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"ko-hcols","layout":{"type":"default"}} -->
