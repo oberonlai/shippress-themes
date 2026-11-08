@@ -12,19 +12,19 @@
 <section id="about" class="wp-block-group alignfull ko-sheet ko-statement"><!-- wp:group {"className":"ko-statement__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ko-statement__in"><!-- wp:group {"className":"ko-stmt sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group ko-stmt sp-stagger"><!-- wp:paragraph {"className":"ko-stmt__l sp-reveal sp-reveal--up"} -->
-<p class="ko-stmt__l sp-reveal sp-reveal--up">We put a quiet voice</p>
+<p class="ko-stmt__l sp-reveal sp-reveal--up"><?php echo wp_kses_post( koe_interpreters_t( 'k0edfd0b7' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ko-stmt__l sp-reveal sp-reveal--up"} -->
-<p class="ko-stmt__l sp-reveal sp-reveal--up">between the speaker</p>
+<p class="ko-stmt__l sp-reveal sp-reveal--up"><?php echo wp_kses_post( koe_interpreters_t( 'k4080d5df' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ko-stmt__l sp-reveal sp-reveal--up"} -->
-<p class="ko-stmt__l sp-reveal sp-reveal--up"><strong class="ko-grad">and the room that listens.</strong></p>
+<p class="ko-stmt__l sp-reveal sp-reveal--up"><strong class="ko-grad"><?php echo wp_kses_post( koe_interpreters_t( 'k3f6d0d70' ) ); ?></strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ko-statement__text","layout":{"type":"default"}} -->
 <div class="wp-block-group ko-statement__text"><!-- wp:paragraph -->
-<p>Since 2011, Koe Interpreters has provided conference interpreting for bilateral negotiations, executive boards, and international assemblies from our desk in Rotterdam. We believe that true interpretation requires quiet discipline: conveying tone, nuance, and intent without ever drawing attention to the booth itself.</p>
+<p><?php echo wp_kses_post( koe_interpreters_t( 'k1849ca89' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>Our roster of thirty-eight conference interpreters covers English, Traditional Chinese, Japanese, French, and German. We only accept assignments where we can thoroughly brief our team, examine reference documents in advance, and prepare custom glossaries, ensuring that every speaker's argument moves seamlessly across the room.</p>
+<p><?php echo wp_kses_post( koe_interpreters_t( 'k4765335b' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ko-textlink"} -->
-<p class="ko-textlink"><a href="#meeting-day">See how a meeting day is staffed ↓</a></p>
+<p class="ko-textlink"><a href="#meeting-day"><?php echo wp_kses_post( koe_interpreters_t( 'kf32a0d7f' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

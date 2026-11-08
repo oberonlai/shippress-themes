@@ -11,31 +11,31 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"ko-process","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ko-process"><!-- wp:group {"align":"wide","className":"ko-process__in","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ko-process__in"><!-- wp:heading {"className":"sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading sp-reveal sp-reveal--up">Three steps from brief to booth</h2>
+<h2 class="wp-block-heading sp-reveal sp-reveal--up"><?php echo wp_kses_post( koe_interpreters_t( 'kcae7bf8e' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:group {"className":"ko-steps sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group ko-steps sp-stagger"><!-- wp:group {"className":"ko-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ko-step sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ko-step__num"} -->
 <p class="ko-step__num">01</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Send the brief</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( koe_interpreters_t( 'k54bb2b5c' ) ); ?></h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>Share your event dates, venue, language requirements, and preliminary agenda. Our request desk reviews room logistics and returns a fixed quote within one business day.</p>
+<p><?php echo wp_kses_post( koe_interpreters_t( 'k050f498f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ko-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ko-step sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ko-step__num"} -->
 <p class="ko-step__num">02</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Prepare and brief</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( koe_interpreters_t( 'k62fbe046' ) ); ?></h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>Send background documents and presentation decks five working days in advance. We hold a twenty-minute speaker briefing and issue a consolidated glossary two days before the conference.</p>
+<p><?php echo wp_kses_post( koe_interpreters_t( 'k80a87842' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ko-step sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group ko-step sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"ko-step__num"} -->
 <p class="ko-step__num">03</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">On-site delivery</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( koe_interpreters_t( 'kdfdf794e' ) ); ?></h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>Interpreters arrive seventy-five minutes prior to the opening session for sound checks. Following adjournment, the chief interpreter delivers final glossary notes within two business days.</p>
+<p><?php echo wp_kses_post( koe_interpreters_t( 'k1c27c0e9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

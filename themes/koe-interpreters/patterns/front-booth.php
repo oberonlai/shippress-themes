@@ -9,11 +9,11 @@
  */
 ?>
 <!-- wp:cover {"url":"<?php echo koe_interpreters_img( 'p10.webp' ); ?>","dimRatio":50,"overlayColor":"ink","isUserOverlayColor":true,"align":"full","className":"ko-booth sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-cover alignfull ko-booth sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim"></span><img class="wp-block-cover__image-background" alt="View through booth glass looking out over seated delegates in a bright hall." src="<?php echo koe_interpreters_img( 'p10.webp' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","className":"ko-booth__copy","layout":{"type":"default"}} -->
+<div class="wp-block-cover alignfull ko-booth sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( koe_interpreters_t( 'a2effeb45' ) ); ?>" src="<?php echo koe_interpreters_img( 'p10.webp' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","className":"ko-booth__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ko-booth__copy"><!-- wp:heading {"className":"ko-booth__q"} -->
-<h2 class="wp-block-heading ko-booth__q">The audience should forget the booth is there.</h2>
+<h2 class="wp-block-heading ko-booth__q"><?php echo wp_kses_post( koe_interpreters_t( 'kb443f32b' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"ko-booth__cap"} -->
-<p class="ko-booth__cap">Koe booth rule no. 1.</p>
+<p class="ko-booth__cap"><?php echo wp_kses_post( koe_interpreters_t( 'k135ba04d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->

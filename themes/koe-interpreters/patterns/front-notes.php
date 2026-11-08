@@ -11,9 +11,9 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"ko-notes","anchor":"notes","layout":{"type":"default"}} -->
 <section id="notes" class="wp-block-group alignfull ko-notes"><!-- wp:group {"align":"wide","className":"ko-notes__head","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide ko-notes__head"><!-- wp:heading {"className":"sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading sp-reveal sp-reveal--up">Notes from the booth</h2>
+<h2 class="wp-block-heading sp-reveal sp-reveal--up"><?php echo wp_kses_post( koe_interpreters_t( 'k4f2b15a6' ) ); ?></h2>
 <!-- /wp:heading --><!-- wp:paragraph {"className":"ko-textlink"} -->
-<p class="ko-textlink"><a href="/notes/">All notes →</a></p>
+<p class="ko-textlink"><a href="/notes/"><?php echo wp_kses_post( koe_interpreters_t( 'k363636a3' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:query {"queryId":2,"query":{"perPage":2,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"align":"wide","className":"ko-notes__list"} -->
 <div class="wp-block-query alignwide ko-notes__list"><!-- wp:post-template {"layout":{"type":"grid","columnCount":2}} -->
