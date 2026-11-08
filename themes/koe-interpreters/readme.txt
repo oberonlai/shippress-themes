@@ -45,8 +45,11 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary fil
 - assets/images/p12.webp (home note: sound check at the booth door; demo copy note-p12.webp)
 - assets/images/p13.webp (home note: consecutive shorthand notebook; demo copy note-p13.webp)
 - assets/images/p14.webp (home request close: hall in evening light)
-- assets/images/p15.webp, p16.webp and p17.webp (briefing room, briefing call, press conference; used on inner pages)
-- assets/images/demo/*.webp (copies of the images above, imported into the Media Library as featured images of the notes)
+- assets/images/p15.webp (inner pages: briefing room)
+- assets/images/p16.webp (inner pages: interpreter on a briefing call)
+- assets/images/p17.webp (note: small press conference; inner pages)
+- assets/images/demo/note-p12.webp and assets/images/demo/note-p13.webp (copies of p12 and p13, featured images of the notes)
+- assets/images/demo/story-p06.webp, assets/images/demo/story-p09.webp and assets/images/demo/story-p17.webp (copies of p06, p09 and p17, featured images of the stories)
 
 == Changelog ==
 = 1.0.0 =
