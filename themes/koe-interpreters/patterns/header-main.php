@@ -13,6 +13,6 @@
 <!-- /wp:paragraph --><!-- wp:navigation {"overlayMenu":"mobile","className":"ko-nav","icon":"menu","layout":{"type":"flex","orientation":"horizontal"}} /--><!-- wp:html -->
 <p class="ko-lang" role="group" aria-label="Languages of the sample content"><span class="is-on" aria-current="true">EN</span><span>ZH</span><span>JA</span><span>FR</span><span>DE</span></p>
 <!-- /wp:html --><!-- wp:paragraph {"className":"ko-pill ko-header__cta"} -->
-<p class="ko-pill ko-header__cta"><a href="/request/">Request a team <span aria-hidden="true">→</span></a></p>
+<p class="ko-pill ko-header__cta"><a href="/request/">Request a team →</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
