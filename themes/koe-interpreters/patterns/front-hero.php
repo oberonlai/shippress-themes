@@ -14,13 +14,9 @@
 <!-- /wp:html --><!-- wp:group {"className":"ko-hero__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group ko-hero__copy"><!-- wp:heading {"level":1,"className":"ko-hero__h1"} -->
 <h1 class="wp-block-heading ko-hero__h1"><span class="ko-line">Two rooms,</span> <span class="ko-line">one calm voice,</span> <span class="ko-line">in your meeting.</span></h1>
-<!-- /wp:heading --><!-- wp:group {"className":"ko-hero__sub","layout":{"type":"default"}} -->
-<div class="wp-block-group ko-hero__sub"><!-- wp:html -->
-<svg class="ko-wave" width="49" height="40" viewBox="0 0 49 40" fill="none" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M2 8c6-6 11 6 17 0s11 6 17 0 8 4 11 2" stroke="#58B193"/><path d="M2 20c6-6 11 6 17 0s11 6 17 0 8 4 11 2" stroke="#F0A040"/><path d="M2 32c6-6 11 6 17 0s11 6 17 0 8 4 11 2" stroke="#FFFFFF"/></svg>
-<!-- /wp:html --><!-- wp:paragraph -->
-<p>Conference interpreters for bilingual meetings, since 2011.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --><!-- wp:buttons {"className":"ko-hero__cta"} -->
+<!-- /wp:heading --><!-- wp:paragraph {"className":"ko-hero__sub"} -->
+<p class="ko-hero__sub">Conference interpreters for bilingual meetings, since 2011.</p>
+<!-- /wp:paragraph --><!-- wp:buttons {"className":"ko-hero__cta"} -->
 <div class="wp-block-buttons ko-hero__cta"><!-- wp:button {"className":"ko-pill"} -->
 <div class="wp-block-button ko-pill"><a class="wp-block-button__link wp-element-button" href="#request">Request a team →</a></div>
 <!-- /wp:button --></div>

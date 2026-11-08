@@ -115,16 +115,14 @@ p.ko-pill a {
 	inset: 0;
 	z-index: 2;
 	background: var(--ko-ink);
-	opacity: 0.62;
+	opacity: 0.8;
 	clip-path: polygon(0 0, 760px 0, 935px 100%, 0 100%);
 	pointer-events: none;
 }
 .ko-hero__copy { position: relative; z-index: 3; padding: 250px 0 0 56px; max-width: 800px; box-sizing: border-box; }
 .ko-hero__h1 { margin: 0; color: #fff; white-space: nowrap; }
-.ko-hero__h1 .ko-line { display: block; }
-.ko-hero__sub { display: flex; align-items: center; gap: 14px; margin-top: 36px; }
-.ko-hero__sub p { margin: 0; font-weight: 500; font-size: 1.375rem; color: #fff; line-height: 1.3; }
-.ko-wave { flex: none; display: block; }
+.ko-hero__h1 .ko-line { display: block; width: fit-content; }
+.ko-hero__sub { max-width: 470px; min-height: 40px; margin: 36px 0 0; padding-left: 63px; display: flex; align-items: center; font-weight: 500; font-size: 1.375rem; line-height: 1.3; color: #fff; background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='49' height='40' viewBox='0 0 49 40' fill='none' stroke-width='3' stroke-linecap='round'><path d='M2 8c6-6 11 6 17 0s11 6 17 0 8 4 11 2' stroke='%2358B193'/><path d='M2 20c6-6 11 6 17 0s11 6 17 0 8 4 11 2' stroke='%23F0A040'/><path d='M2 32c6-6 11 6 17 0s11 6 17 0 8 4 11 2' stroke='%23FFFFFF'/></svg>") no-repeat left center; }
 .ko-hero__cta { margin-top: 28px; }
 .ko-hero__cta .wp-block-button__link { display: inline-flex; align-items: center; height: 48px; padding: 0 24px; box-sizing: border-box; font-size: 1rem; }
 
@@ -371,6 +369,10 @@ html.sp-no-motion .ko-strip > :nth-child(2), .editor-styles-wrapper .ko-strip > 
 .editor-styles-wrapper .ko-hero__h1 { white-space: normal; }
 .editor-styles-wrapper .ko-head-part { position: static; background: var(--ko-ink); }
 
+@media (max-width: 1280px) {
+	.ko-hero__h1 { font-size: clamp(2.75rem, 5.4vw, 6rem); }
+}
+
 /* ---------- tablet ---------- */
 @media (max-width: 1099px) {
 	.ko-wall { grid-template-columns: repeat(3, 160px); justify-content: start; }
@@ -397,8 +399,7 @@ html.sp-no-motion .ko-strip > :nth-child(2), .editor-styles-wrapper .ko-strip > 
 	.ko-scrim { clip-path: none; opacity: 0.55; }
 	.ko-hero__copy { padding: 120px var(--ko-gut) 0; max-width: none; }
 	.ko-hero__h1 { font-size: 2.75rem; line-height: 1.02; }
-	.ko-hero__sub { margin-top: 24px; }
-	.ko-hero__sub p { font-size: 1rem; }
+	.ko-hero__sub { margin-top: 24px; font-size: 1rem; white-space: normal; width: auto; }
 	.ko-hero__cta { margin-top: 24px; }
 	.ko-cols { position: relative; right: auto; top: auto; width: 100%; height: 190px; margin-top: 28px; overflow: clip; }
 	.ko-cols__rot { inset: auto; left: 14px; top: 8px; width: 380px; height: 400px; gap: 10px; }
