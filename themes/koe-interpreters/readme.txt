@@ -25,7 +25,7 @@ The agency, its people, address, telephone number and prices are fictional.
 == Copyright ==
 
 Koe Interpreters is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Fraunces (OFL-1.1), Latin variable; Newsreader (OFL-1.1), Latin variable roman and italic; both WOFF2, see assets/fonts/.
+Fonts: Fraunces (OFL-1.1), Latin variable; Newsreader (OFL-1.1), Latin variable roman and italic; Noto Serif TC and Noto Serif JP (OFL-1.1), static 400 subsets used for Chinese and Japanese headings; all WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are part of the ShipPress theme set (GPL-2.0-or-later).
 
 = Images =
