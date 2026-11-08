@@ -176,7 +176,7 @@ html.sp-no-motion .ko-strip > :nth-child(2), .editor-styles-wrapper .ko-strip > 
 }
 
 /* ---------- block 2: the rounded sheet and the statement ---------- */
-.ko-main--front > .wp-block-post-content > .ko-sheet { margin-top: calc(var(--ko-sheet-r) * -1); }
+.ko-main > .wp-block-post-content > .ko-sheet, .ko-main > .ko-sheet { margin-top: calc(var(--ko-sheet-r) * -1); }
 .ko-sheet {
 	position: relative;
 	z-index: 2;
@@ -358,14 +358,87 @@ html.sp-no-motion .ko-strip > :nth-child(2), .editor-styles-wrapper .ko-strip > 
 .ko-foot a:hover { color: #fff; text-decoration: underline; }
 .ko-foot__copy { position: relative; z-index: 1; max-width: var(--ko-w); margin: 56px auto 0; font-size: 0.8125rem; color: rgba(227, 241, 238, 0.7); }
 
-/* ---------- inner pages: slim head, sheet, text ---------- */
-.ko-pagehead { position: relative; padding: 168px var(--ko-gut) 96px; color: #fff; }
-.ko-pagehead__in { max-width: var(--ko-w); margin-inline: auto; }
-.ko-pagehead h1, .ko-pagehead .wp-block-post-title, .ko-pagehead .wp-block-query-title { margin: 0; max-width: 900px; font-size: clamp(2.75rem, 5.2vw, 4.5rem); line-height: 1.02; color: #fff; }
-.ko-pagehead .ko-label { margin-bottom: 14px; }
-.ko-main > .ko-sheet { margin-top: calc(var(--ko-sheet-r) * -1); padding: 96px var(--ko-gut) 120px; }
+/* ---------- inner pages: head band with slanted cards, seam strip, sheet, text ---------- */
+.ko-pagehead { position: relative; overflow: clip; min-height: 520px; box-sizing: border-box; display: flex; flex-direction: column; padding: 140px var(--ko-gut) var(--ko-sheet-r); color: #fff; }
+.ko-pagehead__in { position: relative; z-index: 3; box-sizing: border-box; width: 100%; max-width: var(--ko-w); margin-inline: auto; padding-bottom: 28px; flex: 1 1 auto; }
+.ko-pagehead h1, .ko-pagehead .wp-block-post-title, .ko-pagehead .wp-block-query-title { margin: 0; max-width: 760px; font-size: clamp(2.75rem, 5.2vw, 4.5rem); line-height: 1.02; color: #fff; }
+.ko-pagehead .ko-label, .ko-pagehead .ko-label a { margin-bottom: 14px; color: var(--ko-mint); text-decoration: none; }
+.ko-pagehead__lead { max-width: 560px; margin: 22px 0 0; font-size: 1.125rem; line-height: 1.55; color: #fff; }
+.ko-hcols { position: absolute; right: 90px; top: -130px; width: 200px; height: 760px; z-index: 2; pointer-events: none; margin: 0; }
+.ko-hcols__rot { position: absolute; inset: 0; rotate: -11deg; transform-origin: 50% 0; }
+.ko-hcol { display: flex; flex-direction: column; gap: 22px; width: 200px; margin: 0; }
+.ko-hcol .ko-card img { aspect-ratio: 3 / 4; }
+.ko-strip--static { position: relative; left: auto; right: auto; bottom: auto; z-index: 3; flex: none; height: 72px; margin: 0 calc(var(--ko-gut) * -1); padding-left: max(var(--ko-gut), calc((100% - var(--ko-w)) / 2)); box-sizing: border-box; font-size: 2.5rem; line-height: 72px; }
+.ko-strip--static .ko-cap { width: 96px; height: 54px; margin: 0 18px; border-radius: 14px; }
+
+.ko-sheet--page { padding: 88px var(--ko-gut) 104px; }
+.ko-sheet--short { padding-bottom: 72px; }
+.ko-body { position: relative; z-index: 2; background: #fff; padding: 96px var(--ko-gut) 120px; }
+.ko-body--top { padding-top: 88px; }
+.ko-sheet--page h2, .ko-body h2 { margin: 64px 0 20px; font-size: clamp(1.75rem, 2.6vw, 2.25rem); line-height: 1.25; }
+.ko-sheet--page > h2:first-child, .ko-body > h2:first-child, .ko-sheet--page > figure + h2 { margin-top: 0; }
+.ko-sheet--page > figure + h2 { margin-top: 56px; }
+.ko-sheet--page h3, .ko-body h3 { margin: 0 0 12px; font-size: 1.375rem; }
+.ko-sheet--page p, .ko-body p { margin-block: 0 1.1em; }
+.ko-sheet--page ol, .ko-body ol { padding-left: 1.4em; }
+.ko-sheet--page li, .ko-body li { margin-bottom: 0.7em; padding-left: 0.3em; }
+.ko-sheet--page li::marker { font-family: var(--ko-display); color: var(--ko-teal); }
+.ko-sheet--page .wp-block-buttons, .ko-body .wp-block-buttons { margin-top: 36px; }
+.ko-sheet--page .ko-textlink, .ko-body .ko-textlink { margin: -0.3em 0 0; }
 .ko-prose { max-width: 760px; margin-inline: auto; }
+.ko-prose--note { max-width: 680px; }
 .ko-list { max-width: var(--ko-w); margin-inline: auto; }
+.ko-wide-img { margin: 0 0 56px; }
+.ko-wide-img img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; }
+.ko-sheet--wide .ko-example { margin-top: 32px; }
+.ko-rates-note { margin: 16px 0 0; color: var(--ko-muted); font-size: 0.9375rem; }
+.ko-sheet--wide .ko-rates td:nth-child(3) { font-size: 1.5rem; }
+.ko-ruler--page { margin-top: 56px; }
+.ko-ruler__notes--long .ko-stop__note { font-size: 0.9375rem; }
+.ko-ruler__notes--long { padding-right: 0; }
+.ko-body--wide { padding-top: 24px; }
+.ko-cols3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 40px; }
+.ko-col3 { padding-top: 20px; border-top: 1px solid var(--ko-ink); }
+.ko-col3 p { font-size: 1rem; }
+.ko-people { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 56px; margin: 32px auto 48px; }
+.ko-person { padding: 16px 0; border-top: 1px solid var(--ko-rule); }
+.ko-person__name { margin: 0 !important; font-family: var(--ko-display); font-weight: 500; font-size: 1.5rem; line-height: 1.3; }
+.ko-person__role { margin: 2px 0 0 !important; color: var(--ko-muted); }
+.ko-fact { margin: 0 !important; font-size: 1rem; line-height: 1.5; }
+.ko-facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px 40px; margin: 32px auto 0; padding: 28px 32px; box-sizing: border-box; background: var(--ko-mint); border-radius: 8px; }
+.ko-nextrow { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin: 32px auto 0; }
+.ko-next { padding-top: 20px; border-top: 1px solid var(--ko-ink); }
+.ko-next__num { margin: 0 0 12px !important; font-family: var(--ko-display); font-weight: 300; font-size: 3.5rem; line-height: 1; color: var(--ko-sage); }
+.ko-next p:last-child { font-size: 1rem; }
+.ko-band { position: relative; z-index: 2; padding: 104px var(--ko-gut) 120px; color: #fff; overflow: clip; }
+.ko-band__in { position: relative; z-index: 2; max-width: var(--ko-w); margin-inline: auto; }
+.ko-band h2 { margin: 0 0 20px; color: #fff; }
+.ko-band__tail { max-width: 600px; margin: 0 0 8px; color: #fff; }
+.ko-band .ko-wall { margin-top: 48px; }
+.ko-band .ko-band__tail + .ko-wall { margin-top: 56px; }
+.ko-band--briefs .ko-wall { margin-top: 0; }
+.ko-band--briefs .ko-band__tail { margin-top: 56px; max-width: 840px; }
+.ko-band--briefs .ko-bcols { top: 40px; }
+.ko-wall--few { grid-template-columns: repeat(3, 250px); gap: 16px 20px; max-width: none; }
+.ko-wall--few .ko-pair { width: 250px; height: auto; min-height: 255px; padding: 24px 20px; }
+.ko-wall--few .ko-pair__lang { flex: 0 0 auto; min-height: 84px; font-size: 1.5rem; }
+.ko-wall--few .ko-pair__txt { font-size: 0.9375rem; }
+.ko-wall--few .ko-pair:nth-child(6) { margin-left: 0; }
+.ko-band--one .ko-wall--few { grid-template-columns: 250px; }
+.ko-booth--page { min-height: 56vh; --sp-par: 10%; }
+.ko-sheet--note { padding-top: 64px; }
+.ko-single__img { max-width: 1000px; margin: 0 auto 48px; }
+.ko-single__img img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; }
+.ko-note__foot { max-width: 680px; margin: 48px auto 0; }
+.ko-note__foot .ko-note__cat { margin: 0 0 6px; }
+/* notes index: first note large, the others in two columns */
+.ko-notes__list .wp-block-post-template.is-layout-grid > li:first-child { grid-column: 1 / -1; }
+.ko-notes__list .wp-block-post-template > li:first-child .ko-note { display: grid; grid-template-columns: 7fr 5fr; gap: 0 40px; align-items: center; }
+.ko-notes__list .wp-block-post-template > li:first-child .ko-note__img { grid-row: 1 / span 4; }
+.ko-notes__list .wp-block-post-template > li:first-child .ko-note__title { font-size: 2.25rem; line-height: 1.2; }
+.ko-notes__list .wp-block-post-template > li:first-child .ko-note > * { margin-block: 0; }
+.ko-notes__list .wp-block-post-template > li:first-child .ko-note__cat { margin-bottom: 10px; }
+.ko-notes__list .wp-block-post-template > li:first-child .ko-note__excerpt { margin-top: 14px; }
 
 /* ---------- editor ---------- */
 .editor-styles-wrapper .ko-hero__h1 { white-space: normal; }
@@ -385,6 +458,12 @@ html.sp-no-motion .ko-strip > :nth-child(2), .editor-styles-wrapper .ko-strip > 
 	.ko-nav .wp-block-navigation__container { gap: 20px; }
 	.ko-day__a { gap: 40px; }
 	.ko-foot__in { grid-template-columns: 1fr 1fr; }
+	.ko-wall--few { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+	.ko-wall--few .ko-pair { width: auto; }
+	.ko-cols3, .ko-nextrow { gap: 28px; }
+}
+@media (max-width: 899px) {
+	.ko-hcols { display: none; }
 }
 
 /* ---------- mobile ---------- */
@@ -466,6 +545,24 @@ html.sp-no-motion .ko-strip > :nth-child(2), .editor-styles-wrapper .ko-strip > 
 
 	.ko-foot { padding: 64px var(--ko-gut); }
 	.ko-foot__in { grid-template-columns: 1fr; gap: 32px; }
-	.ko-pagehead { padding: 120px var(--ko-gut) 64px; }
-	.ko-main > .ko-sheet { padding: 64px var(--ko-gut) 88px; }
+	.ko-pagehead { min-height: 360px; padding: 104px var(--ko-gut) var(--ko-sheet-r); }
+	.ko-pagehead__lead { font-size: 1rem; margin-top: 16px; }
+	.ko-strip--static { height: 56px; font-size: 1.75rem; line-height: 56px; }
+	.ko-strip--static .ko-cap { width: 72px; height: 42px; margin: 0 12px; border-radius: 10px; }
+	.ko-sheet--page { padding: 56px var(--ko-gut) 72px; }
+	.ko-sheet--short { padding-bottom: 48px; }
+	.ko-body, .ko-body--top { padding: 56px var(--ko-gut) 80px; }
+	.ko-body--wide { padding-top: 16px; }
+	.ko-sheet--page h2, .ko-body h2 { margin-top: 48px; }
+	.ko-band { padding: 72px var(--ko-gut) 80px; background-image: linear-gradient(180deg, #25535D 0%, #55717D 55%, #6E8590 100%) !important; }
+	.ko-band--briefs .ko-band__tail { margin-top: 36px; }
+	.ko-wall--few, .ko-band--one .ko-wall--few { grid-template-columns: 1fr; }
+	.ko-wall--few .ko-pair { min-height: 0; }
+	.ko-cols3, .ko-nextrow, .ko-people, .ko-facts { grid-template-columns: 1fr; gap: 24px; }
+	.ko-people { gap: 0; }
+	.ko-wide-img { margin-bottom: 36px; }
+	.ko-booth--page { min-height: 40vh; }
+	.ko-single__img { margin-bottom: 32px; }
+	.ko-notes__list .wp-block-post-template > li:first-child .ko-note { display: block; }
+	.ko-notes__list .wp-block-post-template > li:first-child .ko-note__title { font-size: 1.5rem; }
 }
