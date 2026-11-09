@@ -32,8 +32,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tp-hero__draw sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full tp-hero__draw sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/elevation-room.svg' ) ); ?>" alt=""/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"tp-hero__draw"} -->
+<figure class="wp-block-image size-full tp-hero__draw"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/elevation-room.svg' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"tp-hero__mark","layout":{"type":"default"}} -->

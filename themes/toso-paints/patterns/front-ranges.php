@@ -8,8 +8,8 @@
  * Description: Round-thumbnail range strip with outline circle arrows, then a giant caps marquee.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"tp-sec tp-ranges","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull tp-sec tp-ranges"><!-- wp:group {"align":"wide","className":"tp-ranges__row","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"tp-sec tp-ranges tp-pale","backgroundColor":"pale","textColor":"ground","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull tp-sec tp-ranges tp-pale has-ground-color has-pale-background-color has-text-color has-background"><!-- wp:group {"align":"wide","className":"tp-ranges__row","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tp-ranges__row"><!-- wp:paragraph {"className":"tp-label tp-ranges__label"} -->
 <p class="tp-label tp-ranges__label">Ranges</p>
 <!-- /wp:paragraph -->
