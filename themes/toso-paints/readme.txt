@@ -30,6 +30,33 @@ Instrument Sans (SIL Open Font License 1.1, assets/fonts/OFL-InstrumentSans.txt)
 
 The photographs in assets/images were generated with an AI image tool for this theme and are released under GPL-2.0-or-later with the theme. The two line drawings (elevation-room.svg and elevation-detail.svg) are original artwork. The scroll effects (assets/sp-scroll.css and sp-scroll.js) are ShipPress code under GPL-2.0-or-later.
 
+Image files:
+
+* assets/images/chapter-mix.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/chapter-paint.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/chapter-paper.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/collect.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/chapter-paper.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/drawdown.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/product-eggshell.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/product-sample.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/shop-wall.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/swatch-table.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/drawdown.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/hero-paper.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/hero-tin.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/hero-wall.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/match-phone.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/product-eggshell.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/product-grasscloth.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/product-limewash.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/product-linen-paper.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/product-matt.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/product-sample.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/shop-wall.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/swatch-table.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/elevation-room.svg and assets/images/elevation-detail.svg: original line drawings, GPL-2.0-or-later.
+
 == Copyright ==
 
 Toso Paints, ShipPress, GPL-2.0-or-later.
