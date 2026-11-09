@@ -344,133 +344,136 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <td align="center" valign="top" width="33%"><a href="themes/nuno-workwear"><img src="https://shots.codotx.com/nuno-workwear/home-desktop.webp" width="260" alt="Nuno Workwear"></a><br><a href="themes/nuno-workwear">Nuno Workwear</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/okami-college"><img src="https://shots.codotx.com/okami-college/home-desktop.webp" width="260" alt="Okami College"></a><br><a href="themes/okami-college">Okami College</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/omocha-kendama"><img src="https://shots.codotx.com/omocha-kendama/home-desktop.webp" width="260" alt="Omocha Kendama"></a><br><a href="themes/omocha-kendama">Omocha Kendama</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/oto-audio"><img src="https://shots.codotx.com/oto-audio/home-desktop.webp" width="260" alt="Oto Audio"></a><br><a href="themes/oto-audio">Oto Audio</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/oto-radio"><img src="https://shots.codotx.com/oto-radio/home-desktop.webp" width="260" alt="Oto Radio"></a><br><a href="themes/oto-radio">Oto Radio</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/oto-radio"><img src="https://shots.codotx.com/oto-radio/home-desktop.webp" width="260" alt="Oto Radio"></a><br><a href="themes/oto-radio">Oto Radio</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/renkei-forum"><img src="https://shots.codotx.com/renkei-forum/home-desktop.webp" width="260" alt="Renkei Forum"></a><br><a href="themes/renkei-forum">Renkei Forum</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/saji-culinary"><img src="https://shots.codotx.com/saji-culinary/home-desktop.webp" width="260" alt="Saji Culinary School"></a><br><a href="themes/saji-culinary">Saji Culinary School</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/sakura-juku"><img src="https://shots.codotx.com/sakura-juku/home-desktop.webp" width="260" alt="Sakura Juku"></a><br><a href="themes/sakura-juku">Sakura Juku</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/sakura-juku"><img src="https://shots.codotx.com/sakura-juku/home-desktop.webp" width="260" alt="Sakura Juku"></a><br><a href="themes/sakura-juku">Sakura Juku</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/satei-adjusters"><img src="https://shots.codotx.com/satei-adjusters/home-desktop.webp" width="260" alt="Satei Adjusters"></a><br><a href="themes/satei-adjusters">Satei Adjusters</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/seiji-utsuwa"><img src="https://shots.codotx.com/seiji-utsuwa/home-desktop.webp" width="260" alt="Seiji Utsuwa"></a><br><a href="themes/seiji-utsuwa">Seiji Utsuwa</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/seimitsu-works"><img src="https://shots.codotx.com/seimitsu-works/home-desktop.webp" width="260" alt="Seimitsu Works"></a><br><a href="themes/seimitsu-works">Seimitsu Works</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/seimitsu-works"><img src="https://shots.codotx.com/seimitsu-works/home-desktop.webp" width="260" alt="Seimitsu Works"></a><br><a href="themes/seimitsu-works">Seimitsu Works</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/seisui-environmental"><img src="https://shots.codotx.com/seisui-environmental/home-desktop.webp" width="260" alt="Seisui Environmental"></a><br><a href="themes/seisui-environmental">Seisui Environmental</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/seiwa-furniture"><img src="https://shots.codotx.com/seiwa-furniture/home-desktop.webp" width="260" alt="Seiwa Furniture"></a><br><a href="themes/seiwa-furniture">Seiwa Furniture</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/sekisan-partners"><img src="https://shots.codotx.com/sekisan-partners/home-desktop.webp" width="260" alt="Sekisan Partners"></a><br><a href="themes/sekisan-partners">Sekisan Partners</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/sekisan-partners"><img src="https://shots.codotx.com/sekisan-partners/home-desktop.webp" width="260" alt="Sekisan Partners"></a><br><a href="themes/sekisan-partners">Sekisan Partners</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shashin-folio"><img src="https://shots.codotx.com/shashin-folio/home-desktop.webp" width="260" alt="Shashin Folio"></a><br><a href="themes/shashin-folio">Shashin Folio</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shigure-umbrellas"><img src="https://shots.codotx.com/shigure-umbrellas/home-desktop.webp" width="260" alt="Shigure Umbrellas"></a><br><a href="themes/shigure-umbrellas">Shigure Umbrellas</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/shikaku-academy"><img src="https://shots.codotx.com/shikaku-academy/home-desktop.webp" width="260" alt="Shikaku Academy"></a><br><a href="themes/shikaku-academy">Shikaku Academy</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/shikaku-academy"><img src="https://shots.codotx.com/shikaku-academy/home-desktop.webp" width="260" alt="Shikaku Academy"></a><br><a href="themes/shikaku-academy">Shikaku Academy</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shiki-linen"><img src="https://shots.codotx.com/shiki-linen/home-desktop.webp" width="260" alt="Shiki Linen"></a><br><a href="themes/shiki-linen">Shiki Linen</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shimakaze-minshuku"><img src="https://shots.codotx.com/shimakaze-minshuku/home-desktop.webp" width="260" alt="Shimakaze Minshuku"></a><br><a href="themes/shimakaze-minshuku">Shimakaze Minshuku</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/shinai-dojo"><img src="https://shots.codotx.com/shinai-dojo/home-desktop.webp" width="260" alt="Shinai Dojo"></a><br><a href="themes/shinai-dojo">Shinai Dojo</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/shinai-dojo"><img src="https://shots.codotx.com/shinai-dojo/home-desktop.webp" width="260" alt="Shinai Dojo"></a><br><a href="themes/shinai-dojo">Shinai Dojo</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shinayaka-pilates"><img src="https://shots.codotx.com/shinayaka-pilates/home-desktop.webp" width="260" alt="Shinayaka Pilates"></a><br><a href="themes/shinayaka-pilates">Shinayaka Pilates</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shiori-books"><img src="https://shots.codotx.com/shiori-books/home-desktop.webp" width="260" alt="Shiori Books"></a><br><a href="themes/shiori-books">Shiori Books</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/shiori-review"><img src="https://shots.codotx.com/shiori-review/home-desktop.webp" width="260" alt="Shiori Review"></a><br><a href="themes/shiori-review">Shiori Review</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/shiori-review"><img src="https://shots.codotx.com/shiori-review/home-desktop.webp" width="260" alt="Shiori Review"></a><br><a href="themes/shiori-review">Shiori Review</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shirabe-research"><img src="https://shots.codotx.com/shirabe-research/home-desktop.webp" width="260" alt="Shirabe Research"></a><br><a href="themes/shirabe-research">Shirabe Research</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shirayami-butoh"><img src="https://shots.codotx.com/shirayami-butoh/home-desktop.webp" width="260" alt="Shirayami Butoh"></a><br><a href="themes/shirayami-butoh">Shirayami Butoh</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/shiro-horitsu"><img src="https://shots.codotx.com/shiro-horitsu/home-desktop.webp" width="260" alt="Shiro Horitsu"></a><br><a href="themes/shiro-horitsu">Shiro Horitsu</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/shiro-horitsu"><img src="https://shots.codotx.com/shiro-horitsu/home-desktop.webp" width="260" alt="Shiro Horitsu"></a><br><a href="themes/shiro-horitsu">Shiro Horitsu</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shirokuro-camera"><img src="https://shots.codotx.com/shirokuro-camera/home-desktop.webp" width="260" alt="Shirokuro Camera"></a><br><a href="themes/shirokuro-camera">Shirokuro Camera</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shirota-laundry"><img src="https://shots.codotx.com/shirota-laundry/home-desktop.webp" width="260" alt="Shirota Laundry"></a><br><a href="themes/shirota-laundry">Shirota Laundry</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/shirushi-customs"><img src="https://shots.codotx.com/shirushi-customs/home-desktop.webp" width="260" alt="Shirushi Customs"></a><br><a href="themes/shirushi-customs">Shirushi Customs</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/shirushi-customs"><img src="https://shots.codotx.com/shirushi-customs/home-desktop.webp" width="260" alt="Shirushi Customs"></a><br><a href="themes/shirushi-customs">Shirushi Customs</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shisei-clinic"><img src="https://shots.codotx.com/shisei-clinic/home-desktop.webp" width="260" alt="Shisei Clinic"></a><br><a href="themes/shisei-clinic">Shisei Clinic</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shizuka-hearing"><img src="https://shots.codotx.com/shizuka-hearing/home-desktop.webp" width="260" alt="Shizuka Hearing"></a><br><a href="themes/shizuka-hearing">Shizuka Hearing</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/shizuku-filter"><img src="https://shots.codotx.com/shizuku-filter/home-desktop.webp" width="260" alt="Shizuku Filter"></a><br><a href="themes/shizuku-filter">Shizuku Filter</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/shizuku-filter"><img src="https://shots.codotx.com/shizuku-filter/home-desktop.webp" width="260" alt="Shizuku Filter"></a><br><a href="themes/shizuku-filter">Shizuku Filter</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/shokutaku-dining"><img src="https://shots.codotx.com/shokutaku-dining/home-desktop.webp" width="260" alt="Shokutaku Dining"></a><br><a href="themes/shokutaku-dining">Shokutaku Dining</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/sokuten-survey"><img src="https://shots.codotx.com/sokuten-survey/home-desktop.webp" width="260" alt="Sokuten Survey"></a><br><a href="themes/sokuten-survey">Sokuten Survey</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/sora-fertility-centre"><img src="https://shots.codotx.com/sora-fertility-centre/home-desktop.webp" width="260" alt="Sora Fertility Centre"></a><br><a href="themes/sora-fertility-centre">Sora Fertility Centre</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/sora-fertility-centre"><img src="https://shots.codotx.com/sora-fertility-centre/home-desktop.webp" width="260" alt="Sora Fertility Centre"></a><br><a href="themes/sora-fertility-centre">Sora Fertility Centre</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/soroban-kaikei"><img src="https://shots.codotx.com/soroban-kaikei/home-desktop.webp" width="260" alt="Soroban Kaikei"></a><br><a href="themes/soroban-kaikei">Soroban Kaikei</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/suji-clinic"><img src="https://shots.codotx.com/suji-clinic/home-desktop.webp" width="260" alt="Suji Clinic"></a><br><a href="themes/suji-clinic">Suji Clinic</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/sukoyaka-family-clinic"><img src="https://shots.codotx.com/sukoyaka-family-clinic/home-desktop.webp" width="260" alt="Sukoyaka Family Clinic"></a><br><a href="themes/sukoyaka-family-clinic">Sukoyaka Family Clinic</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/sukoyaka-family-clinic"><img src="https://shots.codotx.com/sukoyaka-family-clinic/home-desktop.webp" width="260" alt="Sukoyaka Family Clinic"></a><br><a href="themes/sukoyaka-family-clinic">Sukoyaka Family Clinic</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/sumai-realty"><img src="https://shots.codotx.com/sumai-realty/home-desktop.webp" width="260" alt="Sumai Realty"></a><br><a href="themes/sumai-realty">Sumai Realty</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/sumika-residences"><img src="https://shots.codotx.com/sumika-residences/home-desktop.webp" width="260" alt="Sumika Residences"></a><br><a href="themes/sumika-residences">Sumika Residences</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/sushi-ginza"><img src="https://shots.codotx.com/sushi-ginza/home-desktop.webp" width="260" alt="Sushi Ginza"></a><br><a href="themes/sushi-ginza">Sushi Ginza</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/sushi-ginza"><img src="https://shots.codotx.com/sushi-ginza/home-desktop.webp" width="260" alt="Sushi Ginza"></a><br><a href="themes/sushi-ginza">Sushi Ginza</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/susugi-wash"><img src="https://shots.codotx.com/susugi-wash/home-desktop.webp" width="260" alt="Susugi Wash"></a><br><a href="themes/susugi-wash">Susugi Wash</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/suzu-ballet"><img src="https://shots.codotx.com/suzu-ballet/home-desktop.webp" width="260" alt="Suzu Ballet"></a><br><a href="themes/suzu-ballet">Suzu Ballet</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/suzuri-shodo"><img src="https://shots.codotx.com/suzuri-shodo/home-desktop.webp" width="260" alt="Suzuri Shodo"></a><br><a href="themes/suzuri-shodo">Suzuri Shodo</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/suzuri-shodo"><img src="https://shots.codotx.com/suzuri-shodo/home-desktop.webp" width="260" alt="Suzuri Shodo"></a><br><a href="themes/suzuri-shodo">Suzuri Shodo</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tabi-note"><img src="https://shots.codotx.com/tabi-note/home-desktop.webp" width="260" alt="Tabi Note"></a><br><a href="themes/tabi-note">Tabi Note</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tabiji-clinic"><img src="https://shots.codotx.com/tabiji-clinic/home-desktop.webp" width="260" alt="Tabiji Clinic"></a><br><a href="themes/tabiji-clinic">Tabiji Clinic</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/taiko-juku"><img src="https://shots.codotx.com/taiko-juku/home-desktop.webp" width="260" alt="Taiko Juku"></a><br><a href="themes/taiko-juku">Taiko Juku</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/taiko-juku"><img src="https://shots.codotx.com/taiko-juku/home-desktop.webp" width="260" alt="Taiko Juku"></a><br><a href="themes/taiko-juku">Taiko Juku</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/taiyo-solar-works"><img src="https://shots.codotx.com/taiyo-solar-works/home-desktop.webp" width="260" alt="Taiyo Solar Works"></a><br><a href="themes/taiyo-solar-works">Taiyo Solar Works</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tasuki-ekiden"><img src="https://shots.codotx.com/tasuki-ekiden/home-desktop.webp" width="260" alt="Tasuki Ekiden"></a><br><a href="themes/tasuki-ekiden">Tasuki Ekiden</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/tayori-nursing"><img src="https://shots.codotx.com/tayori-nursing/home-desktop.webp" width="260" alt="Tayori Nursing"></a><br><a href="themes/tayori-nursing">Tayori Nursing</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/tayori-nursing"><img src="https://shots.codotx.com/tayori-nursing/home-desktop.webp" width="260" alt="Tayori Nursing"></a><br><a href="themes/tayori-nursing">Tayori Nursing</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/teuchi-udon"><img src="https://shots.codotx.com/teuchi-udon/home-desktop.webp" width="260" alt="Teuchi Udon"></a><br><a href="themes/teuchi-udon">Teuchi Udon</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tomari-marina"><img src="https://shots.codotx.com/tomari-marina/home-desktop.webp" width="260" alt="Tomari Marina"></a><br><a href="themes/tomari-marina">Tomari Marina</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/totonou-sauna"><img src="https://shots.codotx.com/totonou-sauna/home-desktop.webp" width="260" alt="Totonou Sauna"></a><br><a href="themes/totonou-sauna">Totonou Sauna</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/totonou-sauna"><img src="https://shots.codotx.com/totonou-sauna/home-desktop.webp" width="260" alt="Totonou Sauna"></a><br><a href="themes/totonou-sauna">Totonou Sauna</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsuba-millinery"><img src="https://shots.codotx.com/tsuba-millinery/home-desktop.webp" width="260" alt="Tsuba Millinery"></a><br><a href="themes/tsuba-millinery">Tsuba Millinery</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsubaki-flowers"><img src="https://shots.codotx.com/tsubaki-flowers/home-desktop.webp" width="260" alt="Tsubaki Flowers"></a><br><a href="themes/tsubaki-flowers">Tsubaki Flowers</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/tsuki-silver"><img src="https://shots.codotx.com/tsuki-silver/home-desktop.webp" width="260" alt="Tsuki Silver"></a><br><a href="themes/tsuki-silver">Tsuki Silver</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/tsuki-silver"><img src="https://shots.codotx.com/tsuki-silver/home-desktop.webp" width="260" alt="Tsuki Silver"></a><br><a href="themes/tsuki-silver">Tsuki Silver</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsumiki-accounting"><img src="https://shots.codotx.com/tsumiki-accounting/home-desktop.webp" width="260" alt="Tsumiki Accounting"></a><br><a href="themes/tsumiki-accounting">Tsumiki Accounting</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsumugi-trading"><img src="https://shots.codotx.com/tsumugi-trading/home-desktop.webp" width="260" alt="Tsumugi Trading"></a><br><a href="themes/tsumugi-trading">Tsumugi Trading</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/tsuribito-tackle"><img src="https://shots.codotx.com/tsuribito-tackle/home-desktop.webp" width="260" alt="Tsuribito Tackle"></a><br><a href="themes/tsuribito-tackle">Tsuribito Tackle</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/tsuribito-tackle"><img src="https://shots.codotx.com/tsuribito-tackle/home-desktop.webp" width="260" alt="Tsuribito Tackle"></a><br><a href="themes/tsuribito-tackle">Tsuribito Tackle</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsuya-jewellers"><img src="https://shots.codotx.com/tsuya-jewellers/home-desktop.webp" width="260" alt="Tsuya Jewellers"></a><br><a href="themes/tsuya-jewellers">Tsuya Jewellers</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/tsuya-lacquer"><img src="https://shots.codotx.com/tsuya-lacquer/home-desktop.webp" width="260" alt="Tsuya Lacquer"></a><br><a href="themes/tsuya-lacquer">Tsuya Lacquer</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/ueki-gardens"><img src="https://shots.codotx.com/ueki-gardens/home-desktop.webp" width="260" alt="Ueki Gardens"></a><br><a href="themes/ueki-gardens">Ueki Gardens</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/ueki-gardens"><img src="https://shots.codotx.com/ueki-gardens/home-desktop.webp" width="260" alt="Ueki Gardens"></a><br><a href="themes/ueki-gardens">Ueki Gardens</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/umi-swim"><img src="https://shots.codotx.com/umi-swim/home-desktop.webp" width="260" alt="Umi Swim School"></a><br><a href="themes/umi-swim">Umi Swim School</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/undo-ba"><img src="https://shots.codotx.com/undo-ba/home-desktop.webp" width="260" alt="Undo Ba"></a><br><a href="themes/undo-ba">Undo Ba</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/urushi-nuri"><img src="https://shots.codotx.com/urushi-nuri/home-desktop.webp" width="260" alt="Urushi Nuri"></a><br><a href="themes/urushi-nuri">Urushi Nuri</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/urushi-nuri"><img src="https://shots.codotx.com/urushi-nuri/home-desktop.webp" width="260" alt="Urushi Nuri"></a><br><a href="themes/urushi-nuri">Urushi Nuri</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/ushio-line"><img src="https://shots.codotx.com/ushio-line/home-desktop.webp" width="260" alt="Ushio Line"></a><br><a href="themes/ushio-line">Ushio Line</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/wagu-mono"><img src="https://shots.codotx.com/wagu-mono/home-desktop.webp" width="260" alt="Wagu Mono"></a><br><a href="themes/wagu-mono">Wagu Mono</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/waku-exhibits"><img src="https://shots.codotx.com/waku-exhibits/home-desktop.webp" width="260" alt="Waku Exhibits"></a><br><a href="themes/waku-exhibits">Waku Exhibits</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/waku-exhibits"><img src="https://shots.codotx.com/waku-exhibits/home-desktop.webp" width="260" alt="Waku Exhibits"></a><br><a href="themes/waku-exhibits">Waku Exhibits</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/wariate-shifts"><img src="https://shots.codotx.com/wariate-shifts/home-desktop.webp" width="260" alt="Wariate Shifts"></a><br><a href="themes/wariate-shifts">Wariate Shifts</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yamabiko-outdoor-supply"><img src="https://shots.codotx.com/yamabiko-outdoor-supply/home-desktop.webp" width="260" alt="Yamabiko Outdoor Supply"></a><br><a href="themes/yamabiko-outdoor-supply">Yamabiko Outdoor Supply</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="https://shots.codotx.com/yohaku-studio/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="https://shots.codotx.com/yohaku-studio/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yoru-bar"><img src="https://shots.codotx.com/yoru-bar/home-desktop.webp" width="260" alt="Yoru Bar"></a><br><a href="themes/yoru-bar">Yoru Bar</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yoru-chocolate"><img src="https://shots.codotx.com/yoru-chocolate/home-desktop.webp" width="260" alt="Yoru Chocolate"></a><br><a href="themes/yoru-chocolate">Yoru Chocolate</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yose-rakugo"><img src="https://shots.codotx.com/yose-rakugo/home-desktop.webp" width="260" alt="Yose Rakugo"></a><br><a href="themes/yose-rakugo">Yose Rakugo</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yose-rakugo"><img src="https://shots.codotx.com/yose-rakugo/home-desktop.webp" width="260" alt="Yose Rakugo"></a><br><a href="themes/yose-rakugo">Yose Rakugo</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuge-sento"><img src="https://shots.codotx.com/yuge-sento/home-desktop.webp" width="260" alt="Yuge Sento"></a><br><a href="themes/yuge-sento">Yuge Sento</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yui-credit-union"><img src="https://shots.codotx.com/yui-credit-union/home-desktop.webp" width="260" alt="Yui Credit Union"></a><br><a href="themes/yui-credit-union">Yui Credit Union</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="https://shots.codotx.com/yukimi-kakigori/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="https://shots.codotx.com/yukimi-kakigori/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yukisaki-route"><img src="https://shots.codotx.com/yukisaki-route/home-desktop.webp" width="260" alt="Yukisaki Route"></a><br><a href="themes/yukisaki-route">Yukisaki Route</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuragi-spa"><img src="https://shots.codotx.com/yuragi-spa/home-desktop.webp" width="260" alt="Yuragi Spa"></a><br><a href="themes/yuragi-spa">Yuragi Spa</a></td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="https://shots.codotx.com/yuzu-chaya/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
 </table>
