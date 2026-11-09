@@ -461,6 +461,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/wariate-shifts"><img src="https://shots.codotx.com/wariate-shifts/home-desktop.webp" width="260" alt="Wariate Shifts"></a><br><a href="themes/wariate-shifts">Wariate Shifts</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yamabiko-outdoor-supply"><img src="https://shots.codotx.com/yamabiko-outdoor-supply/home-desktop.webp" width="260" alt="Yamabiko Outdoor Supply"></a><br><a href="themes/yamabiko-outdoor-supply">Yamabiko Outdoor Supply</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/yanagi-hygiene"><img src="https://shots.codotx.com/yanagi-hygiene/home-desktop.webp" width="260" alt="Yanagi Hygiene"></a><br><a href="themes/yanagi-hygiene">Yanagi Hygiene</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="https://shots.codotx.com/yohaku-studio/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
 </tr>
 <tr>
