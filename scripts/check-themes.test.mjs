@@ -467,3 +467,27 @@ test("oto-radio: the masthead bar keeps its height without the search button (th
   assert.match(bar, /box-sizing: content-box/);
   assert.ok(bar.includes(`min-height: ${button}`), `bar min-height must equal the search button height ${button}`);
 });
+
+test("phpSingleQuotedEscapes: a \\u{…} escape in a single-quoted PHP string prints literally (Kogarashi Inn footer, #642)", async () => {
+  const { phpSingleQuotedEscapes } = await import("./check-themes.mjs");
+  // the bug: 'Fran\u{00E7}ais' prints "Fran\u{00E7}ais"
+  assert.deepEqual(phpSingleQuotedEscapes("<?php\n$l = array(\n\t'ja' => \"\\u{65E5}\",\n\t'fr' => 'Fran\\u{00E7}ais',\n);\n"), [{ line: 4, text: "'Fran\\u{00E7}ais'" }]);
+  // fine: double quotes, the literal character, comments, HTML outside <?php ?>, a double-quoted string holding a quote
+  const ok = [
+    "<?php $a = \"Fran\\u{00E7}ais\"; $b = 'Français';",
+    "<?php // 'x\\u{00E7}'\n# 'y\\u{00E7}'\n/* 'z\\u{00E7}' */ $c = 1;",
+    "<p>Don't \\u{00E7} here</p><?php echo esc_html( \"\\u{4E2D}\" ); ?><a href='x'>it's</a>",
+    "<?php $d = \"it's \\u{00E7}\"; $e = 'don\\'t';",
+  ];
+  for (const s of ok) assert.deepEqual(phpSingleQuotedEscapes(s), [], s);
+});
+
+test("checkTheme reports a single-quoted \\u{…} escape in a theme PHP file (#642)", () => {
+  const dir = mkdtempSync(join(tmpdir(), "theme-sq-escape-"));
+  try {
+    const t = join(dir, slugs[0]);
+    cpSync(join(THEMES, slugs[0]), t, { recursive: true });
+    writeFileSync(join(t, "functions.php"), readFileSync(join(t, "functions.php"), "utf8") + "\n$sp_fr = 'Fran\\u{00E7}ais';\n");
+    assert.match(checkTheme(t, slugs[0]).join("\n"), /functions\.php:\d+: 'Fran\\u\{00E7\}ais' is single-quoted/);
+  } finally { rmSync(dir, { recursive: true, force: true }); }
+});

@@ -407,6 +407,7 @@ export function checkTheme(dir, slug) {
   for (const f of walk(dir).filter((f) => TEXT.test(f))) {
     const rel = relative(dir, f);
     if (/OFL.*\.txt$/.test(rel)) continue; // upstream license texts
+    if (rel.endsWith(".php")) for (const { line, text } of phpSingleQuotedEscapes(readFileSync(f, "utf8"))) errs.push(`${rel}:${line}: ${text} is single-quoted, so PHP prints its \\u{…} escape literally (use double quotes or the character itself)`);
     readFileSync(f, "utf8").split("\n").forEach((line, i) => {
       for (const [re, what] of SECRETS) if (re.test(line)) errs.push(`${rel}:${i + 1}: ${what}`);
       for (const e of line.match(EMAIL) ?? []) if (!SAFE_EMAIL.test(e)) errs.push(`${rel}:${i + 1}: real-looking email ${e} (use an example.com / .example address)`);
@@ -416,6 +417,32 @@ export function checkTheme(dir, slug) {
     });
   }
   return errs;
+}
+
+/** Single-quoted PHP strings that hold a `\u{HEX}` escape: PHP prints those literally (Kogarashi Inn's footer said
+ *  "Fran\u{00E7}ais", #642). Only code inside <?php … ?> counts; comments and double-quoted / backtick strings are skipped.
+ *  Returns [{ line, text }] (1-based line of the opening quote). */
+export function phpSingleQuotedEscapes(src) {
+  const out = [];
+  let i = 0, line = 1, php = false;
+  const n = src.length, nl = (a, b) => { for (let k = a; k < b; k++) if (src[k] === "\n") line++; };
+  while (i < n) {
+    if (!php) { const j = [src.indexOf("<?php", i), src.indexOf("<?=", i)].filter((x) => x >= 0).sort((a, b) => a - b)[0] ?? -1; if (j < 0) break; nl(i, j); i = j + (src.startsWith("<?php", j) ? 5 : 3); php = true; continue; }
+    const c = src[i];
+    if (c === "?" && src[i + 1] === ">") { php = false; i += 2; continue; }
+    if (c === "\n") { line++; i++; continue; }
+    if (c === "#" || (c === "/" && src[i + 1] === "/")) { while (i < n && src[i] !== "\n" && !(src[i] === "?" && src[i + 1] === ">")) i++; continue; }
+    if (c === "/" && src[i + 1] === "*") { const j = src.indexOf("*/", i + 2); const e = j < 0 ? n : j + 2; nl(i, e); i = e; continue; }
+    if (c === "'" || c === '"' || c === "`") {
+      const start = i, l0 = line; i++;
+      while (i < n && src[i] !== c) { if (src[i] === "\\") i++; i++; }
+      const text = src.slice(start, i + 1); nl(start, i + 1); i++;
+      if (c === "'" && /\\u\{[0-9A-Fa-f]+\}/.test(text)) out.push({ line: l0, text });
+      continue;
+    }
+    i++;
+  }
+  return out;
 }
 
 /** Root index.json: theme-meta.json + where to get each theme, plus the template wall's filter lists. */
