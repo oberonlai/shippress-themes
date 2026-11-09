@@ -56,7 +56,7 @@ return array(
 	'today_l' => 'Today',
 	'today_fig' => '11:00–21:30',
 	'today_note' => 'Lunch runs Monday to Friday from 11:00 to 15:00, with last orders at 14:30. Counters reopen for dinner until 21:30.',
-	'il_kitchens' => 'Kitchens',
+	'il_kitchens' => 'Open kitchens',
 	'il_table' => 'Hold a table',
 	'il_find' => 'Find us',
 	'hall_p1' => 'Since 4 March 2019, Hiroba Food Hall has occupied the ground floor of a former harbour warehouse at Havenhof in Rotterdam. We gathered eight independent kitchen counters around a central dining floor of 180 shared seats and 24 counter stools, creating a calm, communal dining room designed around the everyday city lunch.',

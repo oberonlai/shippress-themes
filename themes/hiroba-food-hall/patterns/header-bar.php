@@ -11,13 +11,19 @@
 ?>
 <!-- wp:group {"align":"full","className":"hb-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull hb-header"><!-- wp:group {"align":"wide","className":"hb-bar","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide hb-bar"><!-- wp:navigation {"overlayMenu":"never","className":"hb-nav hb-nav--l","layout":{"type":"flex","orientation":"horizontal"},"ariaLabel":"Left"} -->
+<div class="wp-block-group alignwide hb-bar"><!-- wp:group {"className":"hb-links hb-links--l","layout":{"type":"default"}} -->
+<div class="wp-block-group hb-links hb-links--l"><!-- wp:paragraph {"className":"hb-link"} -->
+<p class="hb-link"><a href="/kitchens/"><?php echo esc_html( hiroba_t( 'nav_kitchens' ) ); ?></a></p>
+<!-- /wp:paragraph -->
 
-<!-- wp:navigation-link {"label":<?php echo wp_json_encode( hiroba_t( 'nav_kitchens' ) ); ?>,"url":"/kitchens/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":<?php echo wp_json_encode( hiroba_t( 'nav_lunch' ) ); ?>,"url":"/lunch-hour/","kind":"custom","isTopLevelLink":true} /-->
-<!-- wp:navigation-link {"label":<?php echo wp_json_encode( hiroba_t( 'nav_tables' ) ); ?>,"url":"/tables/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:paragraph {"className":"hb-link"} -->
+<p class="hb-link"><a href="/lunch-hour/"><?php echo esc_html( hiroba_t( 'nav_lunch' ) ); ?></a></p>
+<!-- /wp:paragraph -->
 
-<!-- /wp:navigation -->
+<!-- wp:paragraph {"className":"hb-link"} -->
+<p class="hb-link"><a href="/tables/"><?php echo esc_html( hiroba_t( 'nav_tables' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 
 <!-- wp:group {"className":"hb-brand","layout":{"type":"default"}} -->
 <div class="wp-block-group hb-brand"><!-- wp:paragraph {"className":"hb-brand__title"} -->

@@ -1,6 +1,6 @@
 # Hiroba Food Hall: design spec (stage 1, binding for implementation)
 
-Slug `hiroba-food-hall`, a city food hall with eight kitchens under one roof, built around the weekday lunch. Type `hospitality` (declare WooCommerce compatibility only; the site works fully without it). Design row b26-3: archetype **card-mosaic**, hero **framed-window**, nav **split**, first screen **horizontal-scroll-strip**, page structure **day-schedule**, palette 黒茶 (row hex `#3F342C`, family ink), font direction **serif** (Fraunces / Literata, CJK Noto Serif TC / Noto Serif JP), imagery **photo** (film grain). Five languages: en, zh-TW, ja, fr, de.
+Slug `hiroba-food-hall`, a city food hall with eight kitchens under one roof, built around the weekday lunch. Type `hospitality` (declare WooCommerce compatibility only; the site works fully without it). Design row b26-3: archetype **card-mosaic**, hero **framed-window**, nav **split**, first screen **horizontal-scroll-strip**, page structure **day-schedule**, palette kurocha (black tea brown) (row hex `#3F342C`, family ink), font direction **serif** (Fraunces / Literata, CJK Noto Serif TC / Noto Serif JP), imagery **photo** (film grain). Five languages: en, zh-TW, ja, fr, de.
 
 References (see `reference.md`, `reference-tokens.md`, `ref/*.png`):
 - Main: **Shiodome Yokocho** https://redine.jp/shiodome/ (shared food hall, many specialist kitchens on one floor). Source of the palette (ink, muted gold, white, warm paper band, stone band), the kitchen card (cover photo + round medallion straddling its edge + flanked-rule "recommended" label + three square thumbnails + dark hours chip + full-width gold button), the caps title lockup with a 40px gold rule, the gold-highlighted statement words, the hero ease (100svh → 97svh) and the SCROLL cue line.
@@ -222,7 +222,7 @@ Standard screens (`demo-content.json` `screens`): home, about → About, news �
 |---|---|---|---|
 | Display (headings, caps lockup, figures) | **Fraunces** (variable, latin + latin-ext, 400–700, opsz) → `Fraunces, Georgia, "Times New Roman", serif` | `Fraunces, "Noto Serif TC", "Songti TC", "PMingLiU", serif` | `Fraunces, "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif` |
 | Body | **Literata** (variable, latin + latin-ext, 400–700) → `Literata, Georgia, serif` | `Literata, "Songti TC", "PMingLiU", "MingLiU", serif` (system Mincho; built-in Noto Serif TC must NOT be in the body stack) | `Literata, "Hiragino Mincho ProN", "Yu Mincho", serif` (no built-in JP font in the body stack) |
-- Serif direction: Latin serif + CJK Noto Serif TC / JP 明體; no 黑體 anywhere.
+- Serif direction: Latin serif + CJK Noto Serif TC / JP Mincho; no Gothic anywhere.
 - Noto Serif TC / JP: subset woff2 (headings only, ≤ 400 KB each) loaded via theme.json `fontFace`; use the Hokuto / Hada subsetting workaround (the shared subset script is broken). `:lang()` rules → copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and require it.
 - Presets: small 0.8125rem, base 1rem (body 1.0625rem, line-height 1.75), medium 1.25rem, large 1.875rem (statement 30px `tok(b)`), x-large 2.25rem (caps lockup 36px `tok(b)`), xx-large 3rem, **huge 4.25rem** (H1; ≥ 4.25rem rule).
 - CJK: sizes ≈ 0.75× en for display, body line-height 1.85, caps lockup stays Latin; fr/de `hyphens: auto`.

@@ -48,4 +48,7 @@ Images: AI-generated for this theme with Grok Build image_gen as film-grain 35 m
 - assets/images/p16.webp (guest note 2: kitchen cook wearing an apron standing at the counter pass reviewing incoming lunch orders)
 - assets/images/p17.webp (guest note 3: cook preparing fresh herbs on a cutting board in the quietly lit morning hall)
 - assets/images/p18.webp (home visit, guest note 4: exterior view of the food hall entrance showing glass doors and parked bicycles outside)
-- assets/images/demo/p15.webp to p18.webp (copies of the guest-note photographs, imported into the Media Library as featured images)
+- assets/images/demo/p15.webp (copy of p15.webp, imported into the Media Library as the featured image of a guest note; CC0 / GPL-2.0-or-later)
+- assets/images/demo/p16.webp (copy of p16.webp, imported into the Media Library as the featured image of a guest note; CC0 / GPL-2.0-or-later)
+- assets/images/demo/p17.webp (copy of p17.webp, imported into the Media Library as the featured image of a guest note; CC0 / GPL-2.0-or-later)
+- assets/images/demo/p18.webp (copy of p18.webp, imported into the Media Library as the featured image of a guest note; CC0 / GPL-2.0-or-later)
