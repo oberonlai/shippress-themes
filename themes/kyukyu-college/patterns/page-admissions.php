@@ -95,7 +95,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Written|Test</p>
+<p class="kk-lead">Written<br>Test</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -127,7 +127,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Fitness|Assessment</p>
+<p class="kk-lead">Fitness<br>Assessment</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -159,7 +159,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Interview|Conversation</p>
+<p class="kk-lead">Interview<br>Conversation</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

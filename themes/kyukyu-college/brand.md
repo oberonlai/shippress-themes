@@ -61,7 +61,7 @@ A routine day at the college starts in the skills lab at 07:30. Classroom terms 
 
 ## Pages
 
-Home (stage 1), About the college, Paramedic Diploma, Ride-along placements, Admissions, Fees & funding, Faculty, Campus & visit, Stories, Contact.
+Home, About the college, Paramedic Diploma, Ride-along placements, Admissions, Fees & funding, Faculty, Campus & visit, Stories, Contact.
 
 ## Claims
 

@@ -53,7 +53,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">2011|Founding</p>
+<p class="kk-lead">2011<br>Founding</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -85,7 +85,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Scenario first|How we teach</p>
+<p class="kk-lead">Scenario first<br>How we teach</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -117,7 +117,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">The building|Where we work</p>
+<p class="kk-lead">The building<br>Where we work</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

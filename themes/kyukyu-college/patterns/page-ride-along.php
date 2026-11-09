@@ -41,11 +41,7 @@
 
 <!-- wp:group {"tagName": "section", "className": "kk-wrap kk-sec kk-split", "layout": {"type": "default"}} -->
 <section class="wp-block-group kk-wrap kk-sec kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
-<div class="wp-block-group kk-cell kk-cell--l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className": "kk-word"} -->
-<p class="kk-word">WEEK</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className": "kk-sub"} -->
+<div class="wp-block-group kk-cell kk-cell--l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className": "kk-sub"} -->
 <p class="kk-sub">A placement week</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
@@ -81,7 +77,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Before|The shift</p>
+<p class="kk-lead">Before<br>The shift</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -113,7 +109,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">On|Shift</p>
+<p class="kk-lead">On<br>Shift</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -145,7 +141,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">After|The shift</p>
+<p class="kk-lead">After<br>The shift</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

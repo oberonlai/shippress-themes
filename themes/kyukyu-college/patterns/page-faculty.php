@@ -53,7 +53,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Clinical|And placement</p>
+<p class="kk-lead">Clinical<br>And placement</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -85,7 +85,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Coursework|And support</p>
+<p class="kk-lead">Coursework<br>And support</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

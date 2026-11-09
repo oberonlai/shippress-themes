@@ -71,7 +71,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Classroom|Term one</p>
+<p class="kk-lead">Classroom<br>Term one</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -107,7 +107,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Skills lab|Term two</p>
+<p class="kk-lead">Skills lab<br>Term two</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -143,7 +143,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Ride-along|Term three</p>
+<p class="kk-lead">Ride-along<br>Term three</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
