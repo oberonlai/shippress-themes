@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName": "section", "anchor": "facts", "className": "kk-wrap kk-sec kk-split kk-facts", "layout": {"type": "default"}} -->
 <section id="facts" class="wp-block-group kk-wrap kk-sec kk-split kk-facts"><!-- wp:group {"className": "kk-cell kk-cell--l kk-cell--vig", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l kk-cell--vig"><!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "kk-vig"} -->
-<figure class="wp-block-image size-full kk-vig"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/kk-vignette.svg' ) ); ?>" alt="A flat illustration of a small town skyline with a plain white ambulance standing on a tinted tile."/></figure>
+<figure class="wp-block-image size-full kk-vig"><img src="<?php echo kyukyu_college_img( '../kk-vignette.svg' ); ?>" alt="A flat illustration of a small town skyline with a plain white ambulance standing on a tinted tile."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -24,8 +24,8 @@
 <p class="kk-sub">The course in four numbers</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className": "kk-facts sp-stagger", "layout": {"type": "default"}} -->
-<div class="wp-block-group kk-facts sp-stagger"><!-- wp:group {"className":"kk-fact","layout":{"type":"default"}} -->
+<!-- wp:group {"className": "kk-figs sp-stagger", "layout": {"type": "default"}} -->
+<div class="wp-block-group kk-figs sp-stagger"><!-- wp:group {"className":"kk-fact","layout":{"type":"default"}} -->
 <div class="wp-block-group kk-fact"><!-- wp:paragraph {"className":"kk-fact__n sp-reveal sp-count"} -->
 <p class="kk-fact__n sp-reveal sp-count">36</p>
 <!-- /wp:paragraph -->

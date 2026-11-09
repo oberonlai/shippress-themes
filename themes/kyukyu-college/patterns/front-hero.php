@@ -21,9 +21,12 @@
 <!-- /wp:image -->
 
 <!-- wp:html -->
-<a class="kk-disc" href="/#term"><span class="kk-disc__btn" aria-hidden="true"></span><span class="kk-disc__cap">Watch a drill</span></a>
+<a class="kk-disc" href="/#term" aria-label="Watch a drill"><span class="kk-disc__btn"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="#fff" d="M9 6.5v11l9-5.5z"/></svg></span></a>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
+<!-- wp:html -->
+<a class="kk-disc__cap" href="/#term">Watch a drill</a>
+<!-- /wp:html -->
 <!-- wp:html -->
 <ul class="kk-term"><li><strong>Sep</strong> · Classroom</li><li><strong>Dec</strong> · Skills lab</li><li><strong>Mar</strong> · Ride-along</li><li><strong>Jul</strong> · Qualify</li></ul>
 <!-- /wp:html --></section>
