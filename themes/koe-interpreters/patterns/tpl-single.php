@@ -1,0 +1,30 @@
+<?php
+/**
+ * Title: Template: single
+ * Slug: koe-interpreters/tpl-single
+ * Categories: koe-interpreters
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"ko-main","layout":{"type":"default"}} -->
+<main class="wp-block-group ko-main"><!-- wp:pattern {"slug":"koe-interpreters/head-single"} /-->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"ko-sheet ko-sheet--page ko-sheet--note","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull ko-sheet ko-sheet--page ko-sheet--note"><!-- wp:post-featured-image {"aspectRatio":"16/9","className":"ko-single__img"} /-->
+
+<!-- wp:post-content {"className":"ko-prose ko-prose--note","layout":{"type":"constrained"}} /-->
+
+<!-- wp:group {"className":"ko-note__foot","layout":{"type":"default"}} -->
+<div class="wp-block-group ko-note__foot"><!-- wp:post-terms {"term":"category","className":"ko-note__cat"} /-->
+
+<!-- wp:post-terms {"term":"post_tag","prefix":"Tags: ","className":"ko-note__cat"} /-->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"ko-pill"} -->
+<div class="wp-block-button ko-pill"><a class="wp-block-button__link wp-element-button" href="/request/"><?php echo wp_kses_post( koe_interpreters_t( 'kff78594b' ) ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
