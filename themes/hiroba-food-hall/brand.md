@@ -47,3 +47,8 @@ Ruth Adeyemi is the hall's voice (About, Tables, Contact). No other named people
 
 ## Imagery
 Real film-grain 35 mm photographs generated for the theme: counters, bowls, trays, shared tables. No text, logos or brands.
+
+## Inner pages (en)
+- Kitchens (8 kitchen cards, 2-up), Lunch Hour (hours strip plus the 11:00-21:30 day ruler with 8 stamps and notes), Hold a Table ("Your table" card), Prices (7-row price table, full width from 782px, stacked rows on mobile), About, People (8 cards), Visit (hours strip, opening-hours table), Guest notes (journal, one article), Contact.
+- Every page opens on the pale head: rounded photo window, caps title lockup with the 40px gold rule and gold words, then the convex arc. Parallax: About head window and its full-width photo band, plus the home hall photograph.
+- Page template "Page with photo head" (page-feature) renders the page's own content, which carries the head and the sections.

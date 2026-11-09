@@ -20,7 +20,7 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 
 On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates its pages with all their text and images, four guest notes with four categories and six tags, the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice. The theme works as a plain site without WooCommerce.
 
-The hall, its kitchens, people, address, telephone number and prices are fictional.
+The sample pages (Kitchens, Lunch Hour, Hold a Table, Prices, About, People, Visit, Contact and one guest note) use the same fictional hall. The hall, its kitchens, people, address, telephone number and prices are fictional.
 
 == Copyright ==
 
