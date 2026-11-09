@@ -1,0 +1,26 @@
+<?php
+/** de strings of the theme's patterns (keys are hashes of the English text). */
+return array(
+	'a19ba7995' => 'Hände in Handschuhen halten ein unbeschriftetes Impfstofffläschchen und eine Spritze über einem weißen Tablett.',
+	'a27e2942d' => 'Pflegefachkraft bei einer Teambesprechung mit fünf Kolleginnen und Kollegen an einem hölzernen Konferenztisch in einem hellen Raum.',
+	'a2b263a7b' => 'Reisende Person mit Rucksack geht durch eine sonnendurchflutete, unscharfe Flughafenhalle.',
+	'a3fcd9dea' => 'Geöffneter medizinischer Kühlschrank mit ordentlichen Reihen schlichter weißer Impfstoffpackungen.',
+	'a40e5bf60' => 'Nahaufnahme einer Hand, die eine leere Seite in einem Impfpass abstempelt.',
+	'a4c4a7be2' => 'Handgepäckkoffer und ein geschlossener, unbeschriebener Impfpass auf einer hellen Bank.',
+	'a5060bd22' => 'Ein Arzt und ein Paar betrachten eine gedruckte Weltkarte mit Bleistiftnotizen zur Reiseroute.',
+	'a622553c1' => 'Pflegefachkraft verabreicht einem sitzenden Reisenden eine Impfung in den Oberarm.',
+	'a70e43dea' => 'Pflegefachkraft zieht einen Impfstoff in eine Spritze auf, während ein Arzt einen Reiseplan prüft.',
+	'a71319ae2' => 'Praxiseingang von der Straße aus gesehen mit einer Glastür in hellem Holz.',
+	'a9f3df8a8' => 'Arzt an einem Holzschreibtisch im aufmerksamen Gespräch mit einer sitzenden jungen reisenden Person.',
+	'ac0b3eac5' => 'Heller Wartebereich der Praxis mit Bänken aus hellem Holz, einer Pflanze und einer lesenden reisenden Person.',
+	'afc8f8021' => 'Pflegefachkraft reicht einem Reisenden über den Schreibtisch einen kleinen leeren Impfpass.',
+	'affb35f07' => 'Sanft unscharfer Praxisflur, von diffusem Tageslicht erhellt, mit schemenhaften Gestalten.',
+	'date_fmt' => 'j. F Y',
+	'k04071fee' => 'Notizen und Berichte',
+	'k1c257965' => 'Bringen Sie Ihren Reiseplan mit.',
+	'k26bd62d6' => 'Termin vereinbaren',
+	'k34fac04e' => 'Versuchen Sie es über das Menü oben oder <a href="/">kehren Sie zur Startseite zurück</a>.',
+	'kc290a594' => 'Nächster Schritt',
+	'kd0fbda98' => 'Seite nicht gefunden',
+	'search_results' => 'Suchergebnisse für: %s',
+);

@@ -1,0 +1,26 @@
+<?php
+/** fr strings of the theme's patterns (keys are hashes of the English text). */
+return array(
+	'a19ba7995' => 'Mains gantées tenant un flacon de vaccin sans étiquette et une seringue au-dessus d\'un plateau blanc.',
+	'a27e2942d' => 'Infirmière briefant cinq collègues autour d\'une table de réunion en bois dans une pièce lumineuse.',
+	'a2b263a7b' => 'Voyageur avec sac à dos traversant le hall ensoleillé et légèrement flou d\'un terminal d\'aéroport.',
+	'a3fcd9dea' => 'Réfrigérateur médical ouvert garni d\'alignements soignés de boîtes blanches de vaccins.',
+	'a40e5bf60' => 'Gros plan d\'une main tamponnant une page vierge d\'un carnet de vaccination.',
+	'a4c4a7be2' => 'Valise cabine et carnet de vaccination vierge fermé posés sur un banc en bois clair.',
+	'a5060bd22' => 'Médecin et un couple examinant un planisphère imprimé annoté au crayon.',
+	'a622553c1' => 'Infirmière administrant une injection vaccinale dans le haut du bras d\'un voyageur assis.',
+	'a70e43dea' => 'Infirmière prélevant un vaccin dans une seringue aux côtés d\'un médecin examinant un itinéraire.',
+	'a71319ae2' => 'Entrée de la clinique vue depuis la rue, laissant entrevoir une porte vitrée en bois clair.',
+	'a9f3df8a8' => 'Médecin assis à un bureau en bois, échangeant attentivement avec un jeune voyageur assis.',
+	'ac0b3eac5' => 'Espace d\'attente lumineux de la clinique avec bancs en bois clair, une plante et un voyageur en train de lire.',
+	'afc8f8021' => 'Infirmière tendant un carnet de vaccination vierge à un voyageur par-dessus un bureau.',
+	'affb35f07' => 'Couloir de clinique doucement estompé, baigné d\'une lumière naturelle diffuse avec de discrètes silhouettes humaines.',
+	'date_fmt' => 'j F Y',
+	'k04071fee' => 'Notes et récits',
+	'k1c257965' => 'Apportez votre itinéraire.',
+	'k26bd62d6' => 'Prendre rendez-vous',
+	'k34fac04e' => 'Consultez le menu ci-dessus ou <a href="/">rendez-vous sur la page d\'accueil</a>.',
+	'kc290a594' => 'Étape suivante',
+	'kd0fbda98' => 'Page introuvable',
+	'search_results' => 'Résultats de recherche pour : %s',
+);
