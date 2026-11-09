@@ -16,9 +16,9 @@
 <div class="wp-block-group hf-foot__in"><!-- wp:group {"align":"wide","className":"hf-foot__top","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hf-foot__top"><!-- wp:group {"className":"hf-foot__brand","layout":{"type":"default"}} -->
 <div class="wp-block-group hf-foot__brand"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hf-mark hf-mark--foot"} -->
-<figure class="wp-block-image size-full hf-mark hf-mark--foot"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/mark.svg' ) ); ?>" alt="Hibari Flight, home"/></figure>
+<figure class="wp-block-image size-full hf-mark hf-mark--foot"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/mark-white.svg' ) ); ?>" alt="Hibari Flight"/></figure>
 <!-- /wp:image --><!-- wp:paragraph {"className":"hf-foot__word"} -->
-<p class="hf-foot__word">HIBARI FLIGHT</p>
+<p class="hf-foot__word"><span class="hf-foot__name">HIBARI</span><span class="hf-foot__sub">FLIGHT SCHOOL</span></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"hf-foot__addr"} -->
 <p class="hf-foot__addr">Hangar 2, Brackmoor Airfield<br>Field Road, Alder Vale<br><a href="tel:+155501420911">+1 555 0142 0911</a><br><a href="mailto:hello@hibariflight.example">hello@hibariflight.example</a></p>
 <!-- /wp:paragraph --></div>
