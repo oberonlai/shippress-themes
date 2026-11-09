@@ -34,6 +34,7 @@ return array(
 	'nav_kitchens' => 'Kitchens',
 	'nav_lunch' => 'Lunch hour',
 	'nav_tables' => 'Tables',
+	'brand_name' => 'Hiroba',
 	'brand_sub' => 'Food Hall',
 	'nav_visit' => 'Visit',
 	'nav_journal' => 'Journal',

@@ -20,7 +20,9 @@
 <!-- /wp:navigation -->
 
 <!-- wp:group {"className":"hb-brand","layout":{"type":"default"}} -->
-<div class="wp-block-group hb-brand"><!-- wp:site-title {"level":0,"className":"hb-brand__title"} /-->
+<div class="wp-block-group hb-brand"><!-- wp:paragraph {"className":"hb-brand__title"} -->
+<p class="hb-brand__title"><a href="/" rel="home"><?php echo esc_html( hiroba_t( 'brand_name' ) ); ?></a></p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hb-brand__sub"} -->
 <p class="hb-brand__sub"><?php echo esc_html( hiroba_t( 'brand_sub' ) ); ?></p>
