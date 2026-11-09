@@ -418,3 +418,48 @@ mark.has-inline-color { background: none; }
 
 /* ---------- misc ---------- */
 @media print { .hb-head-part { position: static; } }
+
+/* ---------- languages (zh-TW, ja, fr, de) ---------- */
+/* CJK: display = built-in Noto Serif subset (Mincho); body = system serif of the language, never the built-in subset */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Noto Serif TC", Fraunces, "Noto Serif CJK TC", "Songti TC", serif;
+	--wp--preset--font-family--body: Literata, "Songti TC", "PMingLiU", "MingLiU", "Noto Serif CJK TC", serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Noto Serif JP", Fraunces, "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: Literata, "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif CJK JP", serif;
+}
+:root:is(:lang(zh), :lang(ja)) {
+	--wp--preset--font-size--huge: 3.1875rem;
+	--wp--preset--font-size--xx-large: 2.25rem;
+	--wp--preset--font-size--x-large: 1.75rem;
+	--wp--preset--font-size--large: 1.4375rem;
+	--wp--preset--font-size--base: 1rem;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; text-autospace: normal; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { letter-spacing: .04em; }
+:is(:lang(zh), :lang(ja)) .hb-h1 { line-height: 1.3; letter-spacing: .02em; }
+:is(:lang(zh), :lang(ja)) .hb-caps { font-size: 1.75rem; line-height: 1.4; letter-spacing: .12em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .hb-sub { letter-spacing: .12em; }
+:is(:lang(zh), :lang(ja)) .hb-brand__sub { letter-spacing: .12em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .hb-nav { font-size: .875rem; letter-spacing: .08em; }
+:is(:lang(zh), :lang(ja)) .hb-statement { font-size: 1.4375rem; line-height: 1.8; }
+:is(:lang(zh), :lang(ja)) .hb-title { font-size: 1.75rem; line-height: 1.5; }
+:is(:lang(zh), :lang(ja)) .hb-fig__n { font-size: 2.5rem; }
+:is(:lang(zh), :lang(ja)) :is(.hb-stand, .hb-intro, .hb-body p) { line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite, figcaption) { font-style: normal; }
+:lang(ja) :is(h1, h2, h3, .hb-statement, .hb-stand, .hb-intro, .hb-caps, .hb-sub, .hb-card__cuisine, figcaption) { word-break: auto-phrase; }
+@media (min-width: 601px) { :lang(zh) :is(h1, h2, h3, .hb-statement) { word-break: keep-all; overflow-wrap: anywhere; } }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) .hb-h1 { font-size: 2.125rem; line-height: 1.35; }
+	:is(:lang(zh), :lang(ja)) .hb-caps { font-size: 1.375rem; }
+	:is(:lang(zh), :lang(ja)) .hb-statement { font-size: 1.1875rem; }
+	:is(:lang(zh), :lang(ja)) .hb-title { font-size: 1.5rem; }
+}
+/* French and German: automatic hyphenation for long words in narrow columns */
+:lang(de) :is(p, li, h1, h2, h3, h4, figcaption, label, .wp-block-button__link), :lang(fr) :is(p, li, h3, figcaption) { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(de), :lang(fr)) .hb-caps { letter-spacing: .12em; }
+@media (max-width: 781px) {
+	:lang(de) .hb-h1 { font-size: 2.125rem; }
+	:lang(de) .hb-caps { font-size: 1.25rem; }
+}
