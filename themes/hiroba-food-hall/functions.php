@@ -35,6 +35,7 @@ add_action( 'after_setup_theme', 'hiroba_setup' );
 function hiroba_enqueue() {
 	wp_enqueue_style( 'hiroba-food-hall-style', get_stylesheet_uri(), array(), HIROBA_FOOD_HALL_VERSION );
 	wp_enqueue_style( 'hiroba-food-hall-scroll', get_theme_file_uri( 'assets/sp-scroll.css' ), array( 'hiroba-food-hall-style' ), HIROBA_FOOD_HALL_VERSION );
+	wp_enqueue_script( 'hiroba-food-hall-strip', get_theme_file_uri( 'assets/hb-strip.js' ), array(), HIROBA_FOOD_HALL_VERSION, true );
 	wp_enqueue_script( 'hiroba-food-hall-scroll', get_theme_file_uri( 'assets/sp-scroll.js' ), array(), HIROBA_FOOD_HALL_VERSION, false );
 }
 add_action( 'wp_enqueue_scripts', 'hiroba_enqueue' );

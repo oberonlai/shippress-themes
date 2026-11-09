@@ -25,7 +25,7 @@ The hall, its kitchens, people, address, telephone number and prices are fiction
 == Copyright ==
 
 Hiroba Food Hall is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Fraunces (OFL-1.1), Latin variable; Literata (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/. Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (GPL-2.0-or-later, ShipPress).
+Fonts: Fraunces (OFL-1.1), Latin variable; Literata (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/. Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js and assets/hb-strip.js (GPL-2.0-or-later, ShipPress).
 
 = Images =
 

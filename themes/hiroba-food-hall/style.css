@@ -87,7 +87,7 @@ mark.has-inline-color { background: none; }
 .hb-caps { font: 500 2.25rem/40px var(--hb-display); letter-spacing: .2em; text-transform: uppercase; margin: 0; color: var(--hb-ink); }
 .hb-sub { font: 400 .875rem/1.6 var(--hb-body); letter-spacing: .3em; margin: 6px 0 0; color: var(--hb-muted); }
 .hb-rule.wp-block-separator { width: 40px; max-width: 40px; height: 2px; border: 0; background: var(--hb-gold); opacity: 1; margin: 20px auto; }
-.hb-statement { font: 600 1.875rem/1.6 var(--hb-display); margin: 0; text-align: center; }
+.hb-statement { font: 600 1.875rem/1.6 var(--hb-display); margin: 0; text-align: center; text-wrap: balance; }
 .hb-gold, mark.has-gold-color { color: var(--hb-gold); background: none; }
 .hb-intro { max-width: 640px; margin: 0 auto 48px !important; text-align: center; }
 .hb-more { text-align: center; margin: 48px auto 0 !important; font: 600 .9375rem/1.5 var(--hb-display); letter-spacing: .04em; }
@@ -109,7 +109,7 @@ mark.has-inline-color { background: none; }
 /* ---------- hero: framed window + strip (T2) ---------- */
 .hb-hero { background: var(--hb-window); padding: 24px var(--hb-gut) 0; }
 .hb-hero__frame { position: relative; max-width: 1000px; margin: 0 auto; }
-.hb-window { height: 540px; border-radius: 12px; overflow: hidden; background: var(--hb-stone); }
+.hb-window { height: min(540px, max(360px, 50svh)); border-radius: 12px; overflow: hidden; background: var(--hb-stone); }
 .hb-window__in { height: 100%; }
 .hb-strip { display: flex; gap: 8px; height: 100%; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; }
 .hb-strip::-webkit-scrollbar { display: none; }
@@ -122,7 +122,7 @@ mark.has-inline-color { background: none; }
 .hb-cue { position: absolute; right: 24px; bottom: 24px; z-index: 2; display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
 .hb-cue__chip { margin: 0 !important; background: #fff; border-radius: 6px; padding: 6px 12px; font: 600 .8125rem/1.3 var(--hb-body); }
 .hb-cue__line.wp-block-separator { width: 2px; max-width: 2px; height: 80px; border: 0; background: #fff; opacity: 1; margin: 0 11px 0 0; transform-origin: top; }
-.hb-hero__head { max-width: 1000px; margin: 32px auto 0; padding-bottom: 28px; }
+.hb-hero__head { max-width: 1000px; margin: 28px auto 0; padding-bottom: 12px; }
 .hb-h1 { font: 600 var(--wp--preset--font-size--huge)/1.05 var(--hb-display); margin: 0 0 18px; letter-spacing: -.01em; }
 .hb-hero__row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 32px; align-items: center; }
 .hb-stand { margin: 0 !important; max-width: 560px; font-size: 1.125rem; line-height: 1.6; }
@@ -163,7 +163,7 @@ mark.has-inline-color { background: none; }
 
 /* ---------- hours strip + arc ---------- */
 .hb-hours { background: var(--hb-window); overflow: hidden; padding: 0; }
-.hb-hours__in { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) 1px auto; gap: 56px; align-items: center; padding: 56px 0 0; }
+.hb-hours__in { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) 1px auto; gap: 56px; align-items: center; padding: 36px 0 0; }
 .hb-today__l { font: 400 .875rem/1.5 var(--hb-body); color: var(--hb-muted); margin: 0 !important; }
 .hb-today__fig { font: 600 2.25rem/1.2 var(--hb-display); font-variant-numeric: tabular-nums; margin: 4px 0 8px !important; }
 .hb-today__note { font-size: .875rem; line-height: 1.6; margin: 0 !important; max-width: 440px; }
@@ -177,6 +177,7 @@ mark.has-inline-color { background: none; }
 .hb-arc { height: 160px; background: #fff; border-radius: 50% 50% 0 0 / 100% 100% 0 0; width: 140%; max-width: none; margin: 56px 0 0 !important; position: relative; left: -20%; }
 @media (max-width: 781px) {
 	.hb-hours__in { grid-template-columns: 1fr; gap: 24px; padding-top: 32px; justify-items: center; text-align: center; }
+	.hb-hours__in { padding-inline: 16px; }
 	.hb-today__note { margin-inline: auto !important; }
 	.hb-vrule { width: 64px; height: 1px; }
 	.hb-ilinks { gap: 32px; }
@@ -290,6 +291,7 @@ mark.has-inline-color { background: none; }
 
 /* ---------- guest notes ---------- */
 .hb-notes .hb-cards { margin-bottom: 0 !important; }
+.hb-notes > .hb-notes__q { max-width: 1024px !important; margin-inline: auto !important; }
 
 /* ---------- footer ---------- */
 .hb-foot { background: var(--hb-ink); color: rgba(246, 241, 231, .8); padding: 72px var(--hb-gut) 32px; }
