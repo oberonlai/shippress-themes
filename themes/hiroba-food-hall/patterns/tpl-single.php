@@ -9,8 +9,12 @@
  * Description: Pale head with category, title and date, the featured photo, then the text.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"hb-pagehead","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull hb-pagehead"><!-- wp:group {"className":"hb-pagehead__in","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"hb-pagehead hb-pagehead--photo","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull hb-pagehead hb-pagehead--photo"><!-- wp:group {"className":"hb-pwin","layout":{"type":"default"}} -->
+<div class="wp-block-group hb-pwin"><!-- wp:post-featured-image {"aspectRatio":"21/9","className":"hb-pwin__img"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hb-pagehead__in","layout":{"type":"default"}} -->
 <div class="wp-block-group hb-pagehead__in"><!-- wp:post-terms {"term":"category","isLink":false,"className":"hb-caps hb-caps--page"} /-->
 
 <!-- wp:separator {"className":"hb-rule"} -->
@@ -28,7 +32,5 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"hb-sec hb-prose","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull hb-sec hb-prose"><!-- wp:post-featured-image {"aspectRatio":"16/9","className":"hb-single__img"} /-->
-
-<!-- wp:post-content {"layout":{"type":"constrained"}} /--></section>
+<section class="wp-block-group alignfull hb-sec hb-prose"><!-- wp:post-content {"layout":{"type":"constrained"}} /--></section>
 <!-- /wp:group -->

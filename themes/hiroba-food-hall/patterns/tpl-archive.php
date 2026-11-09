@@ -9,8 +9,14 @@
  * Description: Pale head with the archive title, then post cards.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"hb-pagehead","layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull hb-pagehead"><!-- wp:group {"className":"hb-pagehead__in","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"hb-pagehead hb-pagehead--photo","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull hb-pagehead hb-pagehead--photo"><!-- wp:group {"className":"hb-pwin","layout":{"type":"default"}} -->
+<div class="wp-block-group hb-pwin"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hb-pwin__img"} -->
+<figure class="wp-block-image size-full hb-pwin__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14.webp' ) ); ?>" alt="<?php echo esc_attr( hiroba_t( 'alt_p14' ) ); ?>"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hb-pagehead__in","layout":{"type":"default"}} -->
 <div class="wp-block-group hb-pagehead__in"><!-- wp:paragraph {"className":"hb-caps hb-caps--page"} -->
 <p class="hb-caps hb-caps--page"><?php echo esc_html( hiroba_t( 'page_caps' ) ); ?></p>
 <!-- /wp:paragraph -->

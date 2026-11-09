@@ -52,6 +52,10 @@
 <!-- wp:navigation-link {"label":<?php echo wp_json_encode( hiroba_t( 'nav_tables' ) ); ?>,"url":"/tables/","kind":"custom","isTopLevelLink":true} /-->
 <!-- wp:navigation-link {"label":<?php echo wp_json_encode( hiroba_t( 'nav_visit' ) ); ?>,"url":"/visit/","kind":"custom","isTopLevelLink":true} /-->
 <!-- wp:navigation-link {"label":<?php echo wp_json_encode( hiroba_t( 'nav_journal' ) ); ?>,"url":"/journal/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":<?php echo wp_json_encode( hiroba_t( 'nav_prices' ) ); ?>,"url":"/prices/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":<?php echo wp_json_encode( hiroba_t( 'nav_about' ) ); ?>,"url":"/about/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":<?php echo wp_json_encode( hiroba_t( 'nav_people' ) ); ?>,"url":"/people/","kind":"custom","isTopLevelLink":true} /-->
+<!-- wp:navigation-link {"label":<?php echo wp_json_encode( hiroba_t( 'nav_contact' ) ); ?>,"url":"/contact/","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- /wp:navigation --></div>
 <!-- /wp:group -->
