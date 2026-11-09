@@ -226,6 +226,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/kasumi-bar"><img src="https://shots.codotx.com/kasumi-bar/home-desktop.webp" width="260" alt="Kasumi Bar"></a><br><a href="themes/kasumi-bar">Kasumi Bar</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kasumi-mortgage"><img src="https://shots.codotx.com/kasumi-mortgage/home-desktop.webp" width="260" alt="Kasumi Mortgage"></a><br><a href="themes/kasumi-mortgage">Kasumi Mortgage</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/kataribe-partners"><img src="https://shots.codotx.com/kataribe-partners/home-desktop.webp" width="260" alt="Kataribe Partners"></a><br><a href="themes/kataribe-partners">Kataribe Partners</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/katsuji-press"><img src="https://shots.codotx.com/katsuji-press/home-desktop.webp" width="260" alt="Katsuji Press"></a><br><a href="themes/katsuji-press">Katsuji Press</a></td>
 </tr>
 <tr>
