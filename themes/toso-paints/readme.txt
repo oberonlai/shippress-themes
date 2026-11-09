@@ -42,6 +42,12 @@ Image files:
 * assets/images/demo/product-sample.webp: AI-generated photograph, GPL-2.0-or-later.
 * assets/images/demo/shop-wall.webp: AI-generated photograph, GPL-2.0-or-later.
 * assets/images/demo/swatch-table.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/product-grasscloth.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/product-limewash.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/product-linen-paper.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/product-matt.webp: AI-generated photograph, GPL-2.0-or-later.
+* assets/images/demo/elevation-detail.png: Raster copy of the theme's own line drawing, GPL-2.0-or-later.
+* assets/images/demo/elevation-room.png: Raster copy of the theme's own line drawing, GPL-2.0-or-later.
 * assets/images/drawdown.webp: AI-generated photograph, GPL-2.0-or-later.
 * assets/images/hero-paper.webp: AI-generated photograph, GPL-2.0-or-later.
 * assets/images/hero-tin.webp: AI-generated photograph, GPL-2.0-or-later.

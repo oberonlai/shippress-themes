@@ -10,6 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require_once get_template_directory() . '/inc/demo-import.php';
+require_once get_template_directory() . '/inc/woo-import.php';
 require_once get_template_directory() . '/inc/editor-lang.php';
 
 define( 'TOSO_PAINTS_VERSION', wp_get_theme()->get( 'Version' ) );
@@ -38,8 +39,21 @@ function toso_paints_enqueue() {
 	wp_enqueue_style( 'toso-paints-style', get_stylesheet_uri(), array(), TOSO_PAINTS_VERSION );
 	wp_enqueue_style( 'toso-paints-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.css' ), array( 'toso-paints-style' ), TOSO_PAINTS_VERSION );
 	wp_enqueue_script( 'toso-paints-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.js' ), array(), TOSO_PAINTS_VERSION, false );
+	if ( class_exists( 'WooCommerce' ) ) {
+		wp_enqueue_style( 'toso-paints-woocommerce', get_theme_file_uri( 'assets/css/woocommerce.css' ), array( 'toso-paints-style' ), TOSO_PAINTS_VERSION );
+	}
 }
 add_action( 'wp_enqueue_scripts', 'toso_paints_enqueue' );
+
+/**
+ * The shop styles in the Site Editor too, so the store templates look the same while editing.
+ */
+function toso_paints_editor_shop_styles() {
+	if ( class_exists( 'WooCommerce' ) ) {
+		add_editor_style( 'assets/css/woocommerce.css' );
+	}
+}
+add_action( 'admin_init', 'toso_paints_editor_shop_styles' );
 
 /**
  * With WooCommerce active, the mini cart sits beside the header button (Block Hooks API). Without it: nothing.

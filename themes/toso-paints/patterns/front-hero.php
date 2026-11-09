@@ -11,20 +11,20 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tp-hero","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tp-hero"><!-- wp:group {"className":"tp-hero__cols","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-hero__cols">
-<!-- wp:group {"className":"tp-col sp-parallax","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group tp-col sp-parallax" style="--sp-par:6%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:group {"className":"tp-col sp-parallax tp-par-6","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tp-col sp-parallax tp-par-6"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-wall.webp' ) ); ?>" alt="Interior wall half painted in moss green with a paint roller on dust sheets."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"tp-col sp-parallax","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group tp-col sp-parallax" style="--sp-par:10%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:group {"className":"tp-col sp-parallax tp-par-10","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tp-col sp-parallax tp-par-10"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-paper.webp' ) ); ?>" alt="Shop clerk unrolling a roll of textured wallpaper sample across a dark wooden counter."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"tp-col sp-parallax","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group tp-col sp-parallax" style="--sp-par:8%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<!-- wp:group {"className":"tp-col sp-parallax tp-par-8","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group tp-col sp-parallax tp-par-8"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-tin.webp' ) ); ?>" alt="Open metal tin of freshly mixed moss paint resting on a canvas dust sheet."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->

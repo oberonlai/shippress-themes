@@ -73,12 +73,13 @@ a { text-underline-offset: .22em; }
 @media (max-width: 781px) {
 	.tp-header { padding-top: 20px; align-items: center; }
 	.tp-header__right { display: none; }
-	.tp-brand { font-size: .875rem; }
-	.home .tp-brand { position: static; width: auto; height: auto; clip-path: none; }
+	.tp-header__left { flex-direction: row; align-items: center; justify-content: space-between; width: 100%; }
+	.tp-brand { font-size: .875rem; margin-bottom: 0; }
+	.tp-nav { margin-left: auto; }
 }
 .tp-fixed-cta { position: fixed; left: 50%; bottom: 42px; transform: translateX(-50%); z-index: 40; margin: 0; }
 .tp-fixed-cta .wp-block-buttons { margin: 0; }
-.tp-fixed-cta .wp-block-button__link { background: rgba(26, 33, 28, .55); backdrop-filter: blur(6px); }
+.tp-fixed-cta .wp-block-button__link { background: rgba(26, 33, 28, .7); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
 @media (max-width: 781px) { .tp-fixed-cta { display: none; } }
 
 /* T1: three equal columns + room drawing */
@@ -91,7 +92,7 @@ a { text-underline-offset: .22em; }
 .tp-col::after { content: ""; position: absolute; inset: 0; background: rgba(26, 33, 28, .18); pointer-events: none; }
 .tp-hero__draw { align-self: stretch; justify-self: start; width: 78%; height: 100%; pointer-events: none; z-index: 2; }
 .tp-hero__draw img { width: 100%; height: 100%; display: block; }
-.tp-hero__mark { place-self: center stretch; z-index: 3; text-align: center; padding: 34px 20px; margin: 0; background: rgba(26, 33, 28, .4); -webkit-backdrop-filter: blur(24px) brightness(.55); backdrop-filter: blur(24px) brightness(.55); }
+.tp-hero__mark { place-self: center; width: fit-content; max-width: 100%; z-index: 3; text-align: center; padding: 40px clamp(28px, 4vw, 64px); margin: 0; background: rgba(26, 33, 28, .42); -webkit-backdrop-filter: blur(20px) brightness(.6); backdrop-filter: blur(20px) brightness(.6); -webkit-mask-image: linear-gradient(to bottom, transparent, #000 22%, #000 78%, transparent), linear-gradient(to right, transparent, #000 16%, #000 84%, transparent); -webkit-mask-composite: source-in; mask-image: linear-gradient(to bottom, transparent, #000 22%, #000 78%, transparent), linear-gradient(to right, transparent, #000 16%, #000 84%, transparent); mask-composite: intersect; }
 .tp-wordmark { white-space: nowrap; }
 .tp-wordmark { font-size: clamp(2.25rem, 4.4vw, 4rem); letter-spacing: .12em; font-weight: 400; line-height: 1.1; margin: 0; text-transform: uppercase; }
 .tp-hero__sub { font-size: .875rem; margin: 18px 0 0; color: rgba(242, 244, 240, .9); line-height: 1.6; }
@@ -102,9 +103,9 @@ a { text-underline-offset: .22em; }
 .tp-chip .tp-arrow { display: inline-grid; place-items: center; width: 16px; height: 16px; border: 1px solid currentColor; border-radius: 50%; font-size: 9px; }
 @media (max-width: 781px) {
 	.tp-hero { height: 78svh; min-height: 460px; }
-	.tp-hero__mark { padding: 20px 8px; }
+	.tp-hero__mark { width: 100%; padding: 28px 24px; }
 	.tp-wordmark { font-size: 1.5rem; letter-spacing: .08em; }
-	.tp-hero__sub { font-size: .75rem; }
+	.tp-hero__sub { font-size: .75rem; text-wrap: balance; }
 	.tp-chip-wrap { margin: 14px 0 0; height: auto; padding: 0 var(--tp-side) 0; }
 	.tp-chip { height: auto; min-height: 34px; flex-wrap: wrap; padding: 6px 12px 6px 0; line-height: 1.4; }
 }
@@ -126,8 +127,8 @@ a { text-underline-offset: .22em; }
 .tp-ranges__label { padding-right: 28px; border-right: 1px solid rgba(26, 33, 28, .3); line-height: 40px; }
 .tp-ranges__items { display: flex; gap: 56px; flex-wrap: wrap; align-items: center; }
 .tp-range { display: flex; align-items: center; gap: 14px; }
-.tp-range__thumb { margin: 0; width: 72px; height: 72px; flex: none; }
-.tp-range__thumb img { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; display: block; }
+.tp-range__thumb { margin: 0; width: 72px; height: 72px; flex: none; border-radius: 50%; overflow: hidden; }
+.tp-range__thumb img { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; object-position: 50% 62%; transform: scale(1.7); transform-origin: 50% 62%; display: block; }
 .tp-range__name { margin: 0; font-size: 1rem; line-height: 1.3; }
 .tp-range__name a { text-decoration: none; }
 .tp-marquee { margin-top: 80px; padding: 0 0 clamp(2.5rem, 5vw, 4.5rem); overflow: clip; }
@@ -170,7 +171,7 @@ a { text-underline-offset: .22em; }
 .tp-table th, .tp-table td { border: 0; border-top: 1px solid rgba(26, 33, 28, .15); padding: 0 20px 0 0; height: 72px; text-align: left; vertical-align: middle; }
 .tp-table thead th { height: 44px; font-size: .8125rem; font-weight: 400; text-transform: uppercase; letter-spacing: .04em; border-top: 0; border-bottom: 1px solid rgba(26, 33, 28, .15); }
 .tp-table tbody td:first-child { font-size: 1.125rem; font-weight: 500; font-family: var(--wp--preset--font-family--display); }
-.tp-table .tp-price { text-align: right; white-space: nowrap; padding-right: 0; font-weight: 500; }
+.tp-table th:last-child, .tp-table td:last-child { text-align: right; white-space: nowrap; padding-right: 0; font-weight: 500; }
 .tp-table tbody tr:last-child td { border-bottom: 1px solid rgba(26, 33, 28, .15); }
 .tp-catalogue__foot { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; margin-top: 36px; }
 .tp-catalogue__foot p { margin: 0; }
@@ -180,7 +181,7 @@ a { text-underline-offset: .22em; }
 	.tp-table tr { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 16px 0; border-top: 1px solid rgba(26, 33, 28, .15); }
 	.tp-table th, .tp-table td { display: block; height: auto; border: 0; padding: 0; grid-column: 1 / -1; font-size: .9375rem; }
 	.tp-table td:first-child { grid-column: 1; }
-	.tp-table td.tp-price { grid-column: 2; grid-row: 1; }
+	.tp-table td:last-child { grid-column: 2; grid-row: 1; }
 	.tp-table tbody tr:last-child td { border-bottom: 0; }
 	.tp-table tbody tr:last-child { border-bottom: 1px solid rgba(26, 33, 28, .15); }
 }
@@ -226,8 +227,8 @@ a { text-underline-offset: .22em; }
 .tp-row__date { grid-column: 1 / span 2; font-size: .8125rem; }
 .tp-row__title { grid-column: 3 / span 6; font-size: 1.375rem; line-height: 1.4; font-weight: 400; }
 .tp-row__title a { text-decoration: none; }
-.tp-row__img { grid-column: 10 / span 3; justify-self: end; width: 160px; }
-.tp-row__img img { width: 160px; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.tp-row__img { grid-column: 10 / span 3; justify-self: end; width: 208px; }
+.tp-row__img img { width: 208px; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
 .tp-journal .tp-linkrow { margin-top: 32px; }
 @media (max-width: 781px) { .tp-row { grid-template-columns: 1fr 96px; row-gap: 6px; } .tp-row__date { grid-column: 1; } .tp-row__title { grid-column: 1; font-size: 1.125rem; } .tp-row__img { grid-column: 2; grid-row: 1 / span 2; width: 96px; } .tp-row__img img { width: 96px; } }
 
@@ -262,3 +263,20 @@ a { text-underline-offset: .22em; }
 /* the marquee copy is only needed while it runs */
 html.sp-no-motion .tp-marquee__run + .tp-marquee__run { display: none; }
 @media (prefers-reduced-motion: reduce) { .tp-marquee__run + .tp-marquee__run { display: none; } }
+
+/* The roll and the limewash board sit lower in their photos than the tins do. */
+.tp-range:nth-child(2) .tp-range__thumb img { object-position: 30% 60%; transform-origin: 30% 60%; }
+.tp-range:nth-child(3) .tp-range__thumb img { object-position: 45% 72%; transform-origin: 45% 72%; transform: scale(2.2); }
+
+/* Hero photos settle in from 1.08 to 1 (the parallax moves the img inside, so the scale sits on the figure). */
+.tp-col .wp-block-image { overflow: hidden; }
+@media (prefers-reduced-motion: no-preference) {
+	html:not(.sp-static) .tp-col .wp-block-image { animation: tp-scalein 1.2s var(--tp-ease) both; }
+	html:not(.sp-static) .tp-counter__now { animation: tp-fadein .9s var(--tp-ease) both; }
+}
+@keyframes tp-scalein { from { transform: scale(1.08); } to { transform: scale(1); } }
+@keyframes tp-fadein { from { opacity: 0; } to { opacity: 1; } }
+
+.tp-par-6 { --sp-par: 6%; }
+.tp-par-8 { --sp-par: 8%; }
+.tp-par-10 { --sp-par: 10%; }

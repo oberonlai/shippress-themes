@@ -68,7 +68,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tp-marquee__run","layout":{"type":"default"}} -->
-<div class="wp-block-group tp-marquee__run" aria-hidden="true"><!-- wp:paragraph {"className":"tp-marquee__text"} -->
+<div class="wp-block-group tp-marquee__run"><!-- wp:paragraph {"className":"tp-marquee__text"} -->
 <p class="tp-marquee__text">MATCH IT. MIX IT. HANG IT. LIVE WITH IT. <span class="tp-dot" aria-hidden="true"></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>

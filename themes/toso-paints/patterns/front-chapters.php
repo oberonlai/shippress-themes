@@ -10,8 +10,8 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"tp-chapters","style":{"spacing":{"padding":{"left":"0","right":"0"}}},"layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tp-chapters" style="padding-left:0;padding-right:0">
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paint.webp' ) ); ?>","dimRatio":35,"overlayColor":"ground","minHeight":100,"minHeightUnit":"vh","isDark":true,"className":"tp-chap sp-parallax"} -->
-<div class="wp-block-cover tp-chap sp-parallax" style="--sp-par:10%;min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-35 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Person seen from behind rolling moss green paint onto a wall in low light." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paint.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paint.webp' ) ); ?>","dimRatio":40,"overlayColor":"ground","minHeight":100,"minHeightUnit":"vh","isDark":true,"alt":"Person seen from behind rolling moss green paint onto a wall in low light.","className":"tp-chap sp-parallax tp-par-10"} -->
+<div class="wp-block-cover tp-chap sp-parallax tp-par-10" style="min-height:100vh"><img class="wp-block-cover__image-background" alt="Person seen from behind rolling moss green paint onto a wall in low light." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paint.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-chap__top"><!-- wp:paragraph {"className":"tp-label tp-label--slant"} -->
 <p class="tp-label tp-label--slant">Ranges</p>
 <!-- /wp:paragraph -->
@@ -44,8 +44,8 @@
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paper.webp' ) ); ?>","dimRatio":35,"overlayColor":"ground","minHeight":100,"minHeightUnit":"vh","isDark":true,"className":"tp-chap sp-parallax"} -->
-<div class="wp-block-cover tp-chap sp-parallax" style="--sp-par:10%;min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-35 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Hands smoothing a fresh wallpaper drop with a wide brush along a seam." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paper.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paper.webp' ) ); ?>","dimRatio":40,"overlayColor":"ground","minHeight":100,"minHeightUnit":"vh","isDark":true,"alt":"Hands smoothing a fresh wallpaper drop with a wide brush along a seam.","className":"tp-chap sp-parallax tp-par-10"} -->
+<div class="wp-block-cover tp-chap sp-parallax tp-par-10" style="min-height:100vh"><img class="wp-block-cover__image-background" alt="Hands smoothing a fresh wallpaper drop with a wide brush along a seam." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paper.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-chap__top"><!-- wp:paragraph {"className":"tp-label tp-label--slant"} -->
 <p class="tp-label tp-label--slant">Ranges</p>
 <!-- /wp:paragraph -->
@@ -78,8 +78,8 @@
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-mix.webp' ) ); ?>","dimRatio":35,"overlayColor":"ground","minHeight":100,"minHeightUnit":"vh","isDark":true,"className":"tp-chap sp-parallax"} -->
-<div class="wp-block-cover tp-chap sp-parallax" style="--sp-par:10%;min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-35 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Tinting machine nozzle dispensing a stream of dark colourant into an open paint can." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-mix.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-mix.webp' ) ); ?>","dimRatio":40,"overlayColor":"ground","minHeight":100,"minHeightUnit":"vh","isDark":true,"alt":"Shop assistant stirring freshly tinted moss green paint in an open white can at the mixing counter.","className":"tp-chap sp-parallax tp-par-10"} -->
+<div class="wp-block-cover tp-chap sp-parallax tp-par-10" style="min-height:100vh"><img class="wp-block-cover__image-background" alt="Shop assistant stirring freshly tinted moss green paint in an open white can at the mixing counter." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-mix.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-chap__top"><!-- wp:paragraph {"className":"tp-label tp-label--slant"} -->
 <p class="tp-label tp-label--slant">Ranges</p>
 <!-- /wp:paragraph -->

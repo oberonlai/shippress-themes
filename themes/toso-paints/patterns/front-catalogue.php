@@ -15,17 +15,17 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tp-catalogue__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading tp-catalogue__h sp-reveal sp-reveal--up">What is on the shelf,<br>and what it costs.</h2>
+<h2 class="wp-block-heading tp-catalogue__h sp-reveal sp-reveal--up">What is on the shelf, and what it costs.</h2>
 <!-- /wp:heading -->
 
 <!-- wp:table {"className":"tp-table","hasFixedLayout":false} -->
-<figure class="wp-block-table tp-table"><table><thead><tr><th>Range</th><th>Finish</th><th>Size</th><th>Coverage</th><th class="tp-price">Price</th></tr></thead><tbody>
-<tr><td>House Matt</td><td>Flat matt, washable, walls and ceilings</td><td>2.5 L</td><td>About 12 m² per litre per coat</td><td class="tp-price">€58</td></tr>
-<tr><td>Wood &amp; Metal Eggshell</td><td>Low sheen, skirting, doors, radiators</td><td>1 L</td><td>—</td><td class="tp-price">€34</td></tr>
-<tr><td>Lime Wash</td><td>Mineral, soft cloudy finish</td><td>2.5 L</td><td>About 8 m² per litre</td><td class="tp-price">€46</td></tr>
-<tr><td>Sample Pot</td><td>Any colour mixed to order</td><td>100 ml</td><td>—</td><td class="tp-price">€6</td></tr>
-<tr><td>Linen-Weave Wallpaper</td><td>Paste-the-wall, woven texture</td><td>Roll 10.05 × 0.52 m</td><td>—</td><td class="tp-price">€72</td></tr>
-<tr><td>Grasscloth Wallpaper</td><td>Natural fibre on paper backing</td><td>Roll 5.5 × 0.91 m</td><td>—</td><td class="tp-price">€138</td></tr>
+<figure class="wp-block-table tp-table"><table><thead><tr><th>Range</th><th>Finish</th><th>Size</th><th>Coverage</th><th>Price</th></tr></thead><tbody>
+<tr><td>House Matt</td><td>Flat matt, washable, walls and ceilings</td><td>2.5 L</td><td>About 12 m² per litre per coat</td><td>€58</td></tr>
+<tr><td>Wood &amp; Metal Eggshell</td><td>Low sheen, skirting, doors, radiators</td><td>1 L</td><td>—</td><td>€34</td></tr>
+<tr><td>Lime Wash</td><td>Mineral, soft cloudy finish</td><td>2.5 L</td><td>About 8 m² per litre</td><td>€46</td></tr>
+<tr><td>Sample Pot</td><td>Any colour mixed to order</td><td>100 ml</td><td>—</td><td>€6</td></tr>
+<tr><td>Linen-Weave Wallpaper</td><td>Paste-the-wall, woven texture</td><td>Roll 10.05 × 0.52 m</td><td>—</td><td>€72</td></tr>
+<tr><td>Grasscloth Wallpaper</td><td>Natural fibre on paper backing</td><td>Roll 5.5 × 0.91 m</td><td>—</td><td>€138</td></tr>
 </tbody></table></figure>
 <!-- /wp:table -->
 
