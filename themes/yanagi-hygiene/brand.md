@@ -68,7 +68,7 @@ Plans run 12 months; either side can end them with 30 days' notice.
 3. Pentagon request tab, in the header, the request band and a sticky bottom bar.
 
 ## Pages and contents
-Home (one long page), About, Notes (posts page), Season List (early-slot waitlist), Request an Inspection Hour (contact), Thanks, Privacy, Terms. Stage two adds Sites, The Inspection Hour, The Treatment Year and Records.
+Home (one long page), About, Notes (posts page), Season List (early-slot waitlist), Request an Inspection Hour (contact), Thanks, Privacy, Terms. Inner pages: Sites We Look After (cross-section with six pills), The Inspection Hour (sticky photo, tool-case pills), The Treatment Year (parallax head, twelve-month rail with four season pills, full fee table), Records and Compliance (sample findings-sheet plan with five numbered pills). Every inner page has a photo band with the skyline foot and an arc into the title on a pale wash, except Thanks, Privacy and Terms. The sticky request bar is on About, Sites, Inspection, Plan, Records, Notes and each article. One sample article: why the first hour starts at the loading dock.
 
 ## Photography
 Documentary photographs of real commercial building interiors and back-of-house spaces; soft daylight with one warm work-light accent; technicians in plain sage-green coveralls; no text, logos or visible pests.

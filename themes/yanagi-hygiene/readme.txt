@@ -55,5 +55,11 @@ Images: all photographs are AI-generated for this theme (Grok image generation) 
 - assets/images/demo/skyline.png (raster copy of skyline.svg; GPL-2.0-or-later)
 - assets/images/demo/skyline-pale.png (raster copy of skyline-pale.svg; GPL-2.0-or-later)
 - assets/images/i11-kit.webp (inspection kit flat lay, used by later pages; CC0 1.0, AI-generated)
+- assets/images/i12-roof.webp (rooftop plant room with bird netting; CC0 1.0, AI-generated)
+- assets/images/i13-office.webp (office kitchenette check in the evening; CC0 1.0, AI-generated)
+- assets/images/i14-depot.webp (two staff beside a van at the depot; CC0 1.0, AI-generated)
+- assets/images/i15-training.webp (training room with a magnifier lamp; CC0 1.0, AI-generated)
+- assets/images/sheet.svg (sample findings-sheet floor plan line drawing made for this theme; GPL-2.0-or-later)
+- assets/images/demo/sheet.jpg (raster copy of sheet.svg; GPL-2.0-or-later)
 
 Scripts and styles: assets/sp-scroll.css and assets/sp-scroll.js are ShipPress's own small scroll-effect files (GPL-2.0-or-later).
