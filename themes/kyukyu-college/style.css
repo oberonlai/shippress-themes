@@ -136,7 +136,7 @@ a { text-underline-offset: 0.18em; }
 .kk-hero > * { margin: 0; }
 .kk-hero::before { content: ""; position: absolute; inset: 0; z-index: 0; background: #de8289; opacity: 0.18; clip-path: polygon(78% 0, 100% 0, 100% 100%, 60% 100%); pointer-events: none; }
 .kk-hero__lead { grid-column: 1 / 3; grid-row: 1; align-self: start; padding-top: 72px; font-family: var(--kk-display); font-weight: 600; font-size: clamp(1.5rem, 2.4vw, 2.25rem); letter-spacing: 0.02em; line-height: 1.25; color: var(--kk-ink); position: relative; z-index: 2; }
-.kk-hero__name { grid-column: 1 / 3; grid-row: 2; align-self: end; position: relative; z-index: 2; font-family: var(--kk-display); font-weight: 600; font-size: var(--wp--preset--font-size--hero); line-height: 0.86; letter-spacing: -0.02em; text-transform: uppercase; color: var(--kk-ink); }
+.kk-hero__name { text-shadow: 0 0 0.12em rgba(233, 237, 240, 0.6); grid-column: 1 / 3; grid-row: 2; align-self: end; position: relative; z-index: 2; font-family: var(--kk-display); font-weight: 600; font-size: var(--wp--preset--font-size--hero); line-height: 0.86; letter-spacing: -0.02em; text-transform: uppercase; color: var(--kk-ink); }
 .kk-hero__name .kk-l3 { display: block; font-size: 0.477em; line-height: 0.9; margin-top: 0.06em; }
 .kk-hero__photo { grid-column: 2 / 4; grid-row: 1 / 3; position: relative; z-index: 1; height: min(710px, calc(100svh - 250px)); min-height: 420px; --sp-par: 8%; }
 .kk-hero__photo figure { margin: 0; height: 100%; }
@@ -285,6 +285,13 @@ a { text-underline-offset: 0.18em; }
 @media (max-width: 1023px) { .kk-cards { grid-template-columns: 1fr 1fr; gap: 28px; } }
 @media (max-width: 781px) { .kk-cardswrap, .kk-notes-page .kk-cards-q { padding: 0 var(--kk-cp) var(--kk-sp); } .kk-cards { grid-template-columns: 1fr; } }
 
+/* ===== Inner page head: tinted photo ===== */
+.kk-pagephoto { padding: 40px var(--kk-cp) 0; border-top: 0; background: var(--kk-ground); }
+.kk-polys { position: relative; aspect-ratio: 2.2 / 1; --sp-par: 8%; }
+.kk-polys figure { margin: 0; height: 100%; }
+.kk-polys img { display: block; width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 781px) { .kk-pagephoto { padding-top: 24px; } .kk-polys { aspect-ratio: 3 / 2; } }
+
 /* ===== Inner basics, footer ===== */
 .kk-pagetitle { font-size: var(--wp--preset--font-size--xx-large); line-height: 1.1; color: var(--kk-ink); padding: var(--kk-sp) var(--kk-cp) 24px; }
 .kk-prose { padding: 0 var(--kk-cp) var(--kk-sp); }
@@ -294,7 +301,7 @@ a { text-underline-offset: 0.18em; }
 .kk-feature { margin: 24px var(--kk-cp) 40px; }
 .kk-feature img { width: 100%; display: block; object-fit: cover; }
 .kk-notes-page .kk-pagetitle { padding-left: 48px; padding-right: 48px; }
-.kk-foot { margin: 0; background: #fff; padding: 80px var(--kk-mr) 28px var(--kk-m); border-top: 1px solid var(--kk-line); }
+.kk-foot { margin: 0 calc(var(--kk-rail) * -1) 0 0; background: linear-gradient(var(--kk-line), var(--kk-line)) var(--kk-m) 0 / 1px 100% no-repeat, linear-gradient(var(--kk-line), var(--kk-line)) calc(100% - var(--kk-rail) - var(--kk-mr) - 1px) 0 / 1px 100% no-repeat, #fff; padding: 80px calc(var(--kk-mr) + var(--kk-rail)) 28px var(--kk-m); border-top: 1px solid var(--kk-line); }
 .kk-foot__grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr 1.2fr; gap: 40px; padding: 0 var(--kk-cp); }
 .kk-foot__col > * { margin: 0 0 14px; }
 .kk-foot__h { font-family: var(--kk-display); font-weight: 600; font-size: 1.125rem; color: var(--kk-ink); }
