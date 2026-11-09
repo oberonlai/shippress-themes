@@ -11,4 +11,20 @@ Further down: nine tilted language-pair cards on a teal-to-amber band, an hour r
 
 <!-- screenshots:start -->
 ## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/koe-interpreters/home-desktop.webp" width="640" alt="Koe Interpreters home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/koe-interpreters/home-mobile.webp" width="200" alt="Koe Interpreters home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/koe-interpreters/about-desktop.webp) · [mobile](https://shots.codotx.com/koe-interpreters/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/koe-interpreters/news-desktop.webp) · [mobile](https://shots.codotx.com/koe-interpreters/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/koe-interpreters/article-desktop.webp) · [mobile](https://shots.codotx.com/koe-interpreters/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/koe-interpreters/category-desktop.webp) · [mobile](https://shots.codotx.com/koe-interpreters/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/koe-interpreters/tag-desktop.webp) · [mobile](https://shots.codotx.com/koe-interpreters/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/koe-interpreters/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/koe-interpreters/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/koe-interpreters/contact-desktop.webp) · [mobile](https://shots.codotx.com/koe-interpreters/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/koe-interpreters/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/koe-interpreters/ja/home-desktop.webp) · [fr](https://shots.codotx.com/koe-interpreters/fr/home-desktop.webp) · [de](https://shots.codotx.com/koe-interpreters/de/home-desktop.webp)
 <!-- screenshots:end -->
