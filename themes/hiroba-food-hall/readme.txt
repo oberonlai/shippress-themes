@@ -25,7 +25,7 @@ The sample pages (Kitchens, Lunch Hour, Hold a Table, Prices, About, People, Vis
 == Copyright ==
 
 Hiroba Food Hall is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Fraunces (OFL-1.1), Latin variable; Literata (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/. Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js and assets/hb-strip.js (GPL-2.0-or-later, ShipPress).
+Fonts: Fraunces (OFL-1.1), Latin variable; Literata (OFL-1.1), Latin variable; Noto Serif TC and Noto Serif JP (OFL-1.1), subsets for the Traditional Chinese and Japanese headings; all WOFF2, see assets/fonts/. Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js and assets/hb-strip.js (GPL-2.0-or-later, ShipPress).
 
 = Images =
 
