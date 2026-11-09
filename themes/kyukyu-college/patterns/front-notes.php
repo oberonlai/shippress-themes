@@ -12,17 +12,17 @@
 <section id="notes" class="wp-block-group kk-wrap kk-sec kk-notes-sec"><!-- wp:group {"className": "kk-split kk-nhead", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-split kk-nhead"><!-- wp:group {"className": "kk-cell kk-cell--l sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className": "kk-word"} -->
-<p class="kk-word">NOTES</p>
+<p class="kk-word"><?php echo wp_kses_post( kyukyu_college_t( 'kad11572a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-sub"} -->
-<p class="kk-sub">From the classroom and the road</p>
+<p class="kk-sub"><?php echo wp_kses_post( kyukyu_college_t( 'k00fefc53' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className": "kk-cell kk-cell--r sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--r sp-reveal sp-reveal--up"><!-- wp:paragraph -->
-<p>Graduates, students and instructors write about what the work and the training feel like from the inside: night shifts, second careers and why every compression is timed.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'kbee68553' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

@@ -12,21 +12,21 @@
 <section id="term" class="wp-block-group kk-wrap kk-sec kk-term-sec"><!-- wp:group {"className": "kk-split kk-thead", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-split kk-thead"><!-- wp:group {"className": "kk-cell kk-cell--l sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className": "kk-word"} -->
-<p class="kk-word">TERM</p>
+<p class="kk-word"><?php echo wp_kses_post( kyukyu_college_t( 'k8baeec6d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-sub"} -->
-<p class="kk-sub">How a year is arranged</p>
+<p class="kk-sub"><?php echo wp_kses_post( kyukyu_college_t( 'k18897ff1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className": "kk-cell kk-cell--r sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--r sp-reveal sp-reveal--up"><!-- wp:heading {"level": 2, "className": "kk-statement"} -->
-<h2 class="wp-block-heading kk-statement">One year, three terms, each in a different room.</h2>
+<h2 class="wp-block-heading kk-statement"><?php echo wp_kses_post( kyukyu_college_t( 'k7927f9ff' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The diploma is built as a sequence you can feel: a term of classroom foundations, a term of scenarios in the skills lab, a term on the road. Each is twelve weeks, and each is taught at the same ratio of one instructor to eight students.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'k8613f784' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -34,7 +34,7 @@
 <!-- wp:group {"className": "kk-chapter kk-split", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-chapter kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l kk-cell--pic", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l kk-cell--pic"><!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "kk-sticky"} -->
-<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p02-classroom-ecg.webp' ); ?>" alt="An instructor stands at a whiteboard before students examining printed ECG strips at desks."/></figure>
+<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p02-classroom-ecg.webp' ); ?>" alt="<?php echo esc_attr( kyukyu_college_t( 'a81b5e63c' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -45,20 +45,20 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Classroom<br>Term one</p>
+<p class="kk-lead"><?php echo wp_kses_post( kyukyu_college_t( 'k1b820e53' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level": 3, "className": "kk-h3"} -->
-<h3 class="wp-block-heading kk-h3">Foundations and bioscience</h3>
+<h3 class="wp-block-heading kk-h3"><?php echo wp_kses_post( kyukyu_college_t( 'k6eafbe05' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Anatomy, emergency pharmacology, cardiology and ECG interpretation, taught through case studies and patient assessment, so the clinical knowledge is there before the simulation suite.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'k1062a7ab' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-fact-line"} -->
-<p class="kk-fact-line">12 weeks · September to December · 1 instructor per 8 students</p>
+<p class="kk-fact-line"><?php echo wp_kses_post( kyukyu_college_t( 'ke3734679' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -66,7 +66,7 @@
 <!-- wp:group {"className": "kk-chapter kk-split", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-chapter kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l kk-cell--pic", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l kk-cell--pic"><!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "kk-sticky"} -->
-<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p03-skills-lab-stretcher.webp' ); ?>" alt="Two students lift a manikin on a wheeled stretcher into an ambulance simulator."/></figure>
+<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p03-skills-lab-stretcher.webp' ); ?>" alt="<?php echo esc_attr( kyukyu_college_t( 'a75f1313b' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -77,20 +77,20 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Skills lab<br>Term two</p>
+<p class="kk-lead"><?php echo wp_kses_post( kyukyu_college_t( 'k31f341eb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level": 3, "className": "kk-h3"} -->
-<h3 class="wp-block-heading kk-h3">Simulation and scenarios</h3>
+<h3 class="wp-block-heading kk-h3"><?php echo wp_kses_post( kyukyu_college_t( 'k3798ecc0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Training moves into the skills lab and two ambulance-body simulators: extrication, airway management, intravenous access and timed chest compressions, watched by working paramedics.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'k703e64d4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-fact-line"} -->
-<p class="kk-fact-line">12 weeks · January to March · 1 instructor per 8 students</p>
+<p class="kk-fact-line"><?php echo wp_kses_post( kyukyu_college_t( 'kfe8e640d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -98,7 +98,7 @@
 <!-- wp:group {"className": "kk-chapter kk-split", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-chapter kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l kk-cell--pic", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l kk-cell--pic"><!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "kk-sticky"} -->
-<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p04-kit-bag-check.webp' ); ?>" alt="A student and paramedic inspect a medical kit bag behind an open white ambulance."/></figure>
+<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p04-kit-bag-check.webp' ); ?>" alt="<?php echo esc_attr( kyukyu_college_t( 'ad290ab39' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -109,20 +109,20 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Ride-along<br>Term three</p>
+<p class="kk-lead"><?php echo wp_kses_post( kyukyu_college_t( 'k513d6bb9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level": 3, "className": "kk-h3"} -->
-<h3 class="wp-block-heading kk-h3">Operational placements</h3>
+<h3 class="wp-block-heading kk-h3"><?php echo wp_kses_post( kyukyu_college_t( 'k032bbef4' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Under registered paramedic mentors, students work frontline shifts across Northmere, applying the protocols to real dispatches before final assessment and qualification.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'k608cba58' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-fact-line"} -->
-<p class="kk-fact-line">12 weeks · March to June · 1 instructor per 8 students</p>
+<p class="kk-fact-line"><?php echo wp_kses_post( kyukyu_college_t( 'kdf9e5d97' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

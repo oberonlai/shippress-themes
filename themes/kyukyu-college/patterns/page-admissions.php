@@ -12,7 +12,7 @@
 <!-- wp:group {"className": "kk-wrap kk-pagephoto", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-wrap kk-pagephoto"><!-- wp:group {"className": "kk-polys sp-parallax", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-polys sp-parallax"><!-- wp:image {"sizeSlug": "full", "linkDestination": "none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kyukyu_college_img( 'p08-carry-chair.webp' ); ?>" alt="An applicant lifts a weighted carry chair in a drill hall while an assessor times her."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo kyukyu_college_img( 'p08-carry-chair.webp' ); ?>" alt="<?php echo esc_attr( kyukyu_college_t( 'a5d89755d' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -20,21 +20,21 @@
 <!-- wp:group {"tagName": "section", "className": "kk-wrap kk-sec kk-split", "layout": {"type": "default"}} -->
 <section class="wp-block-group kk-wrap kk-sec kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l"><!-- wp:paragraph {"className": "kk-word"} -->
-<p class="kk-word">ENTRY</p>
+<p class="kk-word"><?php echo wp_kses_post( kyukyu_college_t( 'k5d5fa847' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-sub"} -->
-<p class="kk-sub">Admissions</p>
+<p class="kk-sub"><?php echo wp_kses_post( kyukyu_college_t( 'kfff3e55e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className": "kk-cell kk-cell--r", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--r"><!-- wp:heading {"level": 1, "className": "kk-statement"} -->
-<h1 class="wp-block-heading kk-statement">Admissions</h1>
+<h1 class="wp-block-heading kk-statement"><?php echo wp_kses_post( kyukyu_college_t( 'kfff3e55e' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Kyukyu College admits cohorts of 24 candidates twice each year for terms commencing in September and February. Our competitive selection process identifies individuals with sound academic aptitude, strong physical resilience, and calm interpersonal judgment.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'k4bf60448' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -42,17 +42,17 @@
 <!-- wp:group {"tagName": "section", "className": "kk-wrap kk-sec kk-split", "layout": {"type": "default"}} -->
 <section class="wp-block-group kk-wrap kk-sec kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className": "kk-sub"} -->
-<p class="kk-sub">Requirements</p>
+<p class="kk-sub"><?php echo wp_kses_post( kyukyu_college_t( 'k5a2ebfb8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className": "kk-cell kk-cell--r sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--r sp-reveal sp-reveal--up"><!-- wp:heading {"level": 2, "className": "kk-statement"} -->
-<h2 class="wp-block-heading kk-statement">What are the five entry requirements?</h2>
+<h2 class="wp-block-heading kk-statement"><?php echo wp_kses_post( kyukyu_college_t( 'k41d61194' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
-<ol class="kk-req sp-stagger"><li class="sp-reveal sp-reveal--up"><span class="kk-req__n">01</span><span class="kk-req__t"><strong>Age.</strong> Aged 18 or over.</span></li><li class="sp-reveal sp-reveal--up"><span class="kk-req__n">02</span><span class="kk-req__t"><strong>Schooling.</strong> A school-leaving certificate with English, maths and a science, or our Foundation Term.</span></li><li class="sp-reveal sp-reveal--up"><span class="kk-req__n">03</span><span class="kk-req__t"><strong>Fitness.</strong> Pass the fitness and manual-handling assessment: carry-chair lift, 3-minute step test.</span></li><li class="sp-reveal sp-reveal--up"><span class="kk-req__n">04</span><span class="kk-req__t"><strong>Health.</strong> Health clearance and vaccinations.</span></li><li class="sp-reveal sp-reveal--up"><span class="kk-req__n">05</span><span class="kk-req__t"><strong>Background.</strong> A background check. A driving licence is welcome but not required to start.</span></li></ol>
+<ol class="kk-req sp-stagger"><li class="sp-reveal sp-reveal--up"><span class="kk-req__n">01</span><span class="kk-req__t"><strong><?php echo wp_kses_post( kyukyu_college_t( 'k6d0c3fd9' ) ); ?></strong> <?php echo wp_kses_post( kyukyu_college_t( 'k3536e3cc' ) ); ?></span></li><li class="sp-reveal sp-reveal--up"><span class="kk-req__n">02</span><span class="kk-req__t"><strong><?php echo wp_kses_post( kyukyu_college_t( 'k331a0656' ) ); ?></strong> <?php echo wp_kses_post( kyukyu_college_t( 'kbb5f59b3' ) ); ?></span></li><li class="sp-reveal sp-reveal--up"><span class="kk-req__n">03</span><span class="kk-req__t"><strong><?php echo wp_kses_post( kyukyu_college_t( 'kc6cc679f' ) ); ?></strong> <?php echo wp_kses_post( kyukyu_college_t( 'kf6637d88' ) ); ?></span></li><li class="sp-reveal sp-reveal--up"><span class="kk-req__n">04</span><span class="kk-req__t"><strong><?php echo wp_kses_post( kyukyu_college_t( 'k2db26308' ) ); ?></strong> <?php echo wp_kses_post( kyukyu_college_t( 'k2419b33f' ) ); ?></span></li><li class="sp-reveal sp-reveal--up"><span class="kk-req__n">05</span><span class="kk-req__t"><strong><?php echo wp_kses_post( kyukyu_college_t( 'k3cb417bd' ) ); ?></strong> <?php echo wp_kses_post( kyukyu_college_t( 'ka01867b0' ) ); ?></span></li></ol>
 <!-- /wp:html --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -60,31 +60,31 @@
 <!-- wp:group {"tagName": "section", "className": "kk-wrap kk-sec kk-split", "layout": {"type": "default"}} -->
 <section class="wp-block-group kk-wrap kk-sec kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className": "kk-sub"} -->
-<p class="kk-sub">The process</p>
+<p class="kk-sub"><?php echo wp_kses_post( kyukyu_college_t( 'kde6ac014' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className": "kk-cell kk-cell--r sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--r sp-reveal sp-reveal--up"><!-- wp:heading {"level": 2, "className": "kk-statement"} -->
-<h2 class="wp-block-heading kk-statement">What is the five-stage admissions timeline?</h2>
+<h2 class="wp-block-heading kk-statement"><?php echo wp_kses_post( kyukyu_college_t( 'kee6d08e6' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Admissions follow a structured five-stage timeline for both intakes. For the September cohort, applications close on 31 March, followed by written testing and physical assessments in April, formal panel interviews in May, and final health and background verifications in June. For the February cohort, applications must be submitted by 30 September, leading to testing in October, interviews in November, and clearances in December. Lena Fischer, our admissions officer, reviews every dossier to ensure candidates meet each prerequisite before inviting them to our Northmere campus for physical and academic assessments.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'k3dcc005b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"className": "kk-wrap kk-weekwrap sp-stagger", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-wrap kk-weekwrap sp-stagger"><!-- wp:html -->
-<ol class="kk-week"><li class="sp-reveal sp-reveal--up"><span class="kk-week__day">Apply</span><span class="kk-week__time">By 31 March</span><span class="kk-week__txt">Send your application and the $60 application fee.</span></li><li class="sp-reveal sp-reveal--up"><span class="kk-week__day">Written test</span><span class="kk-week__time">April</span><span class="kk-week__txt">Anatomy, numeracy and reading comprehension.</span></li><li class="sp-reveal sp-reveal--up"><span class="kk-week__day">Fitness assessment</span><span class="kk-week__time">April</span><span class="kk-week__txt">Carry-chair lift and a 3-minute step test.</span></li><li class="sp-reveal sp-reveal--up"><span class="kk-week__day">Interview</span><span class="kk-week__time">May</span><span class="kk-week__txt">A conversation with faculty about shift work.</span></li><li class="sp-reveal sp-reveal--up"><span class="kk-week__day">Checks</span><span class="kk-week__time">June</span><span class="kk-week__txt">Health clearance, vaccinations and a background check.</span></li></ol>
+<ol class="kk-week"><li class="sp-reveal sp-reveal--up"><span class="kk-week__day"><?php echo wp_kses_post( kyukyu_college_t( 'k9639e32c' ) ); ?></span><span class="kk-week__time"><?php echo wp_kses_post( kyukyu_college_t( 'kbd176b24' ) ); ?></span><span class="kk-week__txt"><?php echo wp_kses_post( kyukyu_college_t( 'k8ade7aa9' ) ); ?></span></li><li class="sp-reveal sp-reveal--up"><span class="kk-week__day"><?php echo wp_kses_post( kyukyu_college_t( 'kc972fac8' ) ); ?></span><span class="kk-week__time"><?php echo wp_kses_post( kyukyu_college_t( 'k3fcf026b' ) ); ?></span><span class="kk-week__txt"><?php echo wp_kses_post( kyukyu_college_t( 'k763613c9' ) ); ?></span></li><li class="sp-reveal sp-reveal--up"><span class="kk-week__day"><?php echo wp_kses_post( kyukyu_college_t( 'kbb41d2e4' ) ); ?></span><span class="kk-week__time"><?php echo wp_kses_post( kyukyu_college_t( 'k3fcf026b' ) ); ?></span><span class="kk-week__txt"><?php echo wp_kses_post( kyukyu_college_t( 'kd986a34f' ) ); ?></span></li><li class="sp-reveal sp-reveal--up"><span class="kk-week__day"><?php echo wp_kses_post( kyukyu_college_t( 'kcb20d178' ) ); ?></span><span class="kk-week__time"><?php echo wp_kses_post( kyukyu_college_t( 'k195fbb57' ) ); ?></span><span class="kk-week__txt"><?php echo wp_kses_post( kyukyu_college_t( 'kc3572d26' ) ); ?></span></li><li class="sp-reveal sp-reveal--up"><span class="kk-week__day"><?php echo wp_kses_post( kyukyu_college_t( 'kf5515010' ) ); ?></span><span class="kk-week__time"><?php echo wp_kses_post( kyukyu_college_t( 'k688937cc' ) ); ?></span><span class="kk-week__txt"><?php echo wp_kses_post( kyukyu_college_t( 'k5865996d' ) ); ?></span></li></ol>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className": "kk-wrap kk-chapter kk-split", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-wrap kk-chapter kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l kk-cell--pic", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l kk-cell--pic"><!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "kk-sticky"} -->
-<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p16-library-torso.webp' ); ?>" alt="Two students study an anatomy torso model in a library corner."/></figure>
+<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p16-library-torso.webp' ); ?>" alt="<?php echo esc_attr( kyukyu_college_t( 'a9e11c702' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -95,20 +95,20 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Written<br>Test</p>
+<p class="kk-lead"><?php echo wp_kses_post( kyukyu_college_t( 'k27c694ef' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level": 3, "className": "kk-h3"} -->
-<h3 class="wp-block-heading kk-h3">The written test</h3>
+<h3 class="wp-block-heading kk-h3"><?php echo wp_kses_post( kyukyu_college_t( 'k2dd89818' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The testing day evaluates both cognitive aptitude and physical stamina in our drill hall.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'kf9717361' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-fact-line"} -->
-<p class="kk-fact-line">April · September intake · October · February intake</p>
+<p class="kk-fact-line"><?php echo wp_kses_post( kyukyu_college_t( 'k7cc451b0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -116,7 +116,7 @@
 <!-- wp:group {"className": "kk-wrap kk-chapter kk-split", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-wrap kk-chapter kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l kk-cell--pic", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l kk-cell--pic"><!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "kk-sticky"} -->
-<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p11-debrief.webp' ); ?>" alt="An instructor debriefs two students after a scenario, one hand raised as they explain."/></figure>
+<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p11-debrief.webp' ); ?>" alt="<?php echo esc_attr( kyukyu_college_t( 'a65bc8763' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -127,20 +127,20 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Fitness<br>Assessment</p>
+<p class="kk-lead"><?php echo wp_kses_post( kyukyu_college_t( 'kdd2eba0d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level": 3, "className": "kk-h3"} -->
-<h3 class="wp-block-heading kk-h3">The fitness assessment</h3>
+<h3 class="wp-block-heading kk-h3"><?php echo wp_kses_post( kyukyu_college_t( 'k844eb3ec' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The written examination tests basic anatomical knowledge, practical numeracy, and reading comprehension under strict time constraints.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'k32116b53' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-fact-line"} -->
-<p class="kk-fact-line">Carry-chair lift · 3-minute step test</p>
+<p class="kk-fact-line"><?php echo wp_kses_post( kyukyu_college_t( 'k5ba0c91c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -148,7 +148,7 @@
 <!-- wp:group {"className": "kk-wrap kk-chapter kk-split", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-wrap kk-chapter kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l kk-cell--pic", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l kk-cell--pic"><!-- wp:image {"sizeSlug": "full", "linkDestination": "none", "className": "kk-sticky"} -->
-<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p17-open-evening.webp' ); ?>" alt="Visitors in the skills lab are shown a defibrillator trainer at an open evening."/></figure>
+<figure class="wp-block-image size-full kk-sticky"><img src="<?php echo kyukyu_college_img( 'p17-open-evening.webp' ); ?>" alt="<?php echo esc_attr( kyukyu_college_t( 'a31fe9447' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -159,20 +159,20 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-lead"} -->
-<p class="kk-lead">Interview<br>Conversation</p>
+<p class="kk-lead"><?php echo wp_kses_post( kyukyu_college_t( 'kd966a1c7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level": 3, "className": "kk-h3"} -->
-<h3 class="wp-block-heading kk-h3">The interview</h3>
+<h3 class="wp-block-heading kk-h3"><?php echo wp_kses_post( kyukyu_college_t( 'k6870cc8e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The physical evaluation measures cardiovascular capacity through a three-minute step test and functional strength through a controlled carry-chair lift with a weighted simulator. Candidates who achieve passing marks advance to an interview with faculty members. These discussions examine communication skills, emotional composure, ethical reasoning, and the applicant's realistic understanding of shift work in emergency pre-hospital healthcare.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'kd0a2e33f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className": "kk-fact-line"} -->
-<p class="kk-fact-line">May · September intake · November · February intake</p>
+<p class="kk-fact-line"><?php echo wp_kses_post( kyukyu_college_t( 'k6d77044d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -180,22 +180,22 @@
 <!-- wp:group {"tagName": "section", "className": "kk-wrap kk-sec kk-split", "layout": {"type": "default"}} -->
 <section class="wp-block-group kk-wrap kk-sec kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className": "kk-sub"} -->
-<p class="kk-sub">Dates</p>
+<p class="kk-sub"><?php echo wp_kses_post( kyukyu_college_t( 'k5f0ca3e8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className": "kk-cell kk-cell--r sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--r sp-reveal sp-reveal--up"><!-- wp:heading {"level": 2, "className": "kk-statement"} -->
-<h2 class="wp-block-heading kk-statement">Two intakes a year, 24 places each.</h2>
+<h2 class="wp-block-heading kk-statement"><?php echo wp_kses_post( kyukyu_college_t( 'kb4472919' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>September intake: apply by 31 March. February intake: apply by 30 September.</p>
+<p><?php echo wp_kses_post( kyukyu_college_t( 'k2f438d0d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className": "is-style-long-arrow kk-pill"} -->
-<div class="wp-block-button is-style-long-arrow kk-pill"><a class="wp-block-button__link wp-element-button" href="/contact/">Ask admissions</a></div>
+<div class="wp-block-button is-style-long-arrow kk-pill"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( kyukyu_college_t( 'kaee7aa11' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>
@@ -204,18 +204,18 @@
 <!-- wp:group {"tagName": "section", "className": "kk-wrap kk-sec kk-split", "layout": {"type": "default"}} -->
 <section class="wp-block-group kk-wrap kk-sec kk-split"><!-- wp:group {"className": "kk-cell kk-cell--l sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className": "kk-sub"} -->
-<p class="kk-sub">Next</p>
+<p class="kk-sub"><?php echo wp_kses_post( kyukyu_college_t( 'k10ac3d04' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className": "kk-cell kk-cell--r sp-reveal sp-reveal--up", "layout": {"type": "default"}} -->
 <div class="wp-block-group kk-cell kk-cell--r sp-reveal sp-reveal--up"><!-- wp:heading {"level": 2, "className": "kk-statement"} -->
-<h2 class="wp-block-heading kk-statement">Fees and funding, set out plainly.</h2>
+<h2 class="wp-block-heading kk-statement"><?php echo wp_kses_post( kyukyu_college_t( 'k8340a1ab' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className": "is-style-long-arrow kk-pill"} -->
-<div class="wp-block-button is-style-long-arrow kk-pill"><a class="wp-block-button__link wp-element-button" href="/fees/">Continue</a></div>
+<div class="wp-block-button is-style-long-arrow kk-pill"><a class="wp-block-button__link wp-element-button" href="/fees/"><?php echo wp_kses_post( kyukyu_college_t( 'ka0bfb8e5' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></section>
