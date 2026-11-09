@@ -26,7 +26,7 @@ $e = 'kyukyu_college_e';
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<ul class="kk-foot__links"><li><a href="/about/">About the college</a></li><li><a href="/#visit">Campus &amp; visit</a></li><li><a href="/contact/">Contact</a></li><li><a href="/news/">Stories</a></li></ul>
+<ul class="kk-foot__links"><li><a href="/about/">About the college</a></li><li><a href="/campus/">Campus &amp; visit</a></li><li><a href="/contact/">Contact</a></li><li><a href="/news/">Stories</a></li></ul>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
