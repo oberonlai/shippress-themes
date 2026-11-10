@@ -25,3 +25,29 @@ AI-generated for this theme as film-grain photographs with no text or logos (ass
 
 ## Motion
 assets/sp-scroll.css and assets/sp-scroll.js give gentle reveal, stagger, count and parallax effects; assets/hb-strip.js scrolls the window strip from its buttons. All of it stops under prefers-reduced-motion and content stays visible without JavaScript.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/hiroba-food-hall/home-desktop.webp" width="640" alt="Hiroba Food Hall home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hiroba-food-hall/home-mobile.webp" width="200" alt="Hiroba Food Hall home page on mobile"></td>
+</tr>
+</table>
+
+- Kitchens: [desktop](https://shots.codotx.com/hiroba-food-hall/kitchens-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/kitchens-mobile.webp)
+- Lunch hour: [desktop](https://shots.codotx.com/hiroba-food-hall/lunch-hour-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/lunch-hour-mobile.webp)
+- Tables: [desktop](https://shots.codotx.com/hiroba-food-hall/tables-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/tables-mobile.webp)
+- Prices: [desktop](https://shots.codotx.com/hiroba-food-hall/prices-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/prices-mobile.webp)
+- People: [desktop](https://shots.codotx.com/hiroba-food-hall/people-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/people-mobile.webp)
+- Visit: [desktop](https://shots.codotx.com/hiroba-food-hall/visit-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/visit-mobile.webp)
+- About: [desktop](https://shots.codotx.com/hiroba-food-hall/about-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hiroba-food-hall/news-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hiroba-food-hall/article-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hiroba-food-hall/category-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hiroba-food-hall/tag-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hiroba-food-hall/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hiroba-food-hall/contact-desktop.webp) · [mobile](https://shots.codotx.com/hiroba-food-hall/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hiroba-food-hall/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hiroba-food-hall/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hiroba-food-hall/fr/home-desktop.webp) · [de](https://shots.codotx.com/hiroba-food-hall/de/home-desktop.webp)
+<!-- screenshots:end -->
