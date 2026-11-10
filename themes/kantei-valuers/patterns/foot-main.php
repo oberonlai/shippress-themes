@@ -20,11 +20,11 @@ $cols = array(
 <div class="wp-block-group alignfull kv-foot"><!-- wp:group {"className":"kv-foot__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-foot__grid"><!-- wp:group {"className":"kv-foot__brand","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-foot__brand"><!-- wp:html -->
-<span class="kv-foot__mark"><svg width="40" height="40" viewBox="0 0 56 56" aria-hidden="true" focusable="false"><rect x="2" y="2" width="52" height="52" fill="#4E555C"/><path d="M12 38h32M16 38v-5M24 38v-3M32 38v-5M40 38v-3" stroke="#fff" stroke-width="2" fill="none"/><path d="M12 20h32" stroke="#EC6C00" stroke-width="3"/></svg><span><?php echo $e( 'site_title' ); ?></span></span>
+<span class="kv-foot__mark"><svg width="40" height="40" viewBox="0 0 56 56" aria-hidden="true" focusable="false"><rect x="2" y="2" width="52" height="52" fill="#4E555C"/><path d="M12 38h32M16 38v-5M24 38v-3M32 38v-5M40 38v-3" stroke="#fff" stroke-width="2" fill="none"/><path d="M12 20h32" stroke="#EC6C00" stroke-width="3"/></svg><span><?php echo esc_html( kantei_valuers_t( 'site_title' ) ); ?></span></span>
 <!-- /wp:html -->
 
 <!-- wp:paragraph {"className":"kv-foot__addr"} -->
-<p class="kv-foot__addr"><?php echo $e( 'foot_line' ); ?><br><?php echo $e( 'foot_hours' ); ?><br><a href="mailto:<?php echo $e( 'foot_mail' ); ?>"><?php echo $e( 'foot_mail' ); ?></a></p>
+<p class="kv-foot__addr"><?php echo esc_html( kantei_valuers_t( 'foot_line' ) ); ?><br><?php echo esc_html( kantei_valuers_t( 'foot_hours' ) ); ?><br><a href="mailto:<?php echo esc_html( kantei_valuers_t( 'foot_mail' ) ); ?>"><?php echo esc_html( kantei_valuers_t( 'foot_mail' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -49,7 +49,7 @@ $cols = array(
 
 <!-- wp:group {"className":"kv-foot__base","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-foot__base"><!-- wp:paragraph {"className":"kv-foot__legal"} -->
-<p class="kv-foot__legal"><?php echo $e( 'legal' ); ?> <a href="/privacy/"><?php echo $e( 'f_privacy' ); ?></a> · <a href="/terms/"><?php echo $e( 'f_terms' ); ?></a></p>
+<p class="kv-foot__legal"><?php echo esc_html( kantei_valuers_t( 'legal' ) ); ?> <a href="/privacy/"><?php echo esc_html( kantei_valuers_t( 'f_privacy' ) ); ?></a> · <a href="/terms/"><?php echo esc_html( kantei_valuers_t( 'f_terms' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

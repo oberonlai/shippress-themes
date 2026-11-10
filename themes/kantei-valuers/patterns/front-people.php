@@ -12,15 +12,15 @@ $a = 'kantei_valuers_a';
 $i = 'kantei_valuers_img';
 $l = 'kantei_valuers_lines';
 ?>
-<!-- wp:cover {"url":"<?php echo $i( 'h02-team-pavement.webp' ); ?>","alt":"<?php echo $a( 'alt_people' ); ?>","dimRatio":0,"isDark":false,"align":"full","tagName":"section","className":"kv-teamphoto sp-parallax","layout":{"type":"default"}} -->
-<section class="wp-block-cover alignfull is-light kv-teamphoto sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo $a( 'alt_people' ); ?>" src="<?php echo $i( 'h02-team-pavement.webp' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"></div></section>
+<!-- wp:cover {"url":"<?php echo $i( 'h02-team-pavement.webp' ); ?>","alt":"<?php echo esc_attr( kantei_valuers_t( 'alt_people' ) ); ?>","dimRatio":0,"isDark":false,"align":"full","tagName":"section","className":"kv-teamphoto sp-parallax","layout":{"type":"default"}} -->
+<section class="wp-block-cover alignfull is-light kv-teamphoto sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( kantei_valuers_t( 'alt_people' ) ); ?>" src="<?php echo $i( 'h02-team-pavement.webp' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"></div></section>
 <!-- /wp:cover -->
 
 <!-- wp:group {"align":"full","tagName":"section","anchor":"people","className":"kv-lead kv-people","layout":{"type":"default"}} -->
 <section id="people" class="wp-block-group alignfull kv-lead kv-people"><!-- wp:group {"className":"kv-people__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-people__grid"><!-- wp:group {"className":"kv-people__l sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-people__l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kv-label kv-label--light"} -->
-<p class="kv-label kv-label--light"><?php echo $e( 'people_label' ); ?></p>
+<p class="kv-label kv-label--light"><?php echo esc_html( kantei_valuers_t( 'people_label' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kv-h2 kv-h2--light"} -->
@@ -28,7 +28,7 @@ $l = 'kantei_valuers_lines';
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kv-people__body"} -->
-<p class="kv-people__body"><?php echo $e( 'people_body' ); ?></p>
+<p class="kv-people__body"><?php echo esc_html( kantei_valuers_t( 'people_body' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

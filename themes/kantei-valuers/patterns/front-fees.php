@@ -17,7 +17,7 @@ for ( $n = 1; $n <= 7; $n++ ) {
 <!-- wp:group {"align":"full","tagName":"section","anchor":"fees","className":"kv-sec kv-fees","layout":{"type":"default"}} -->
 <section id="fees" class="wp-block-group alignfull kv-sec kv-fees"><!-- wp:group {"className":"kv-fees__head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-fees__head sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kv-label"} -->
-<p class="kv-label"><?php echo $e( 'fees_label' ); ?></p>
+<p class="kv-label"><?php echo esc_html( kantei_valuers_t( 'fees_label' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kv-h2"} -->
@@ -25,12 +25,12 @@ for ( $n = 1; $n <= 7; $n++ ) {
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php echo $e( 'fees_intro' ); ?></p>
+<p><?php echo esc_html( kantei_valuers_t( 'fees_intro' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:table {"className":"kv-table"} -->
-<figure class="wp-block-table kv-table"><table><thead><tr><th><?php echo $e( 'th_no' ); ?></th><th><?php echo $e( 'th_ins' ); ?></th><th><?php echo $e( 'th_get' ); ?></th><th class="kv-fee"><?php echo $e( 'th_fee' ); ?></th></tr></thead><tbody><?php echo $rows; ?></tbody></table></figure>
+<figure class="wp-block-table kv-table"><table><thead><tr><th><?php echo esc_html( kantei_valuers_t( 'th_no' ) ); ?></th><th><?php echo esc_html( kantei_valuers_t( 'th_ins' ) ); ?></th><th><?php echo esc_html( kantei_valuers_t( 'th_get' ) ); ?></th><th class="kv-fee"><?php echo esc_html( kantei_valuers_t( 'th_fee' ) ); ?></th></tr></thead><tbody><?php echo $rows; ?></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:list {"className":"kv-notes"} -->
@@ -43,7 +43,7 @@ for ( $n = 1; $n <= 7; $n++ ) {
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline-pill"} -->
-<div class="wp-block-button is-style-outline-pill"><a class="wp-block-button__link wp-element-button" href="/fees/"><?php echo $e( 'fees_more' ); ?></a></div>
+<div class="wp-block-button is-style-outline-pill"><a class="wp-block-button__link wp-element-button" href="/fees/"><?php echo esc_html( kantei_valuers_t( 'fees_more' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group -->

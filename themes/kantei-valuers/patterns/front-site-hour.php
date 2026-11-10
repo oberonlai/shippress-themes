@@ -16,7 +16,7 @@ $photos = array( 1 => 'h06-plan.webp', 2 => 'h07-tape.webp', 3 => 'h08-condition
 <!-- wp:group {"align":"full","tagName":"section","anchor":"site-hour","className":"kv-sec kv-hour","layout":{"type":"default"}} -->
 <section id="site-hour" class="wp-block-group alignfull kv-sec kv-hour"><!-- wp:group {"className":"kv-hour__head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-hour__head sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kv-label"} -->
-<p class="kv-label"><?php echo $e( 'hour_label' ); ?></p>
+<p class="kv-label"><?php echo esc_html( kantei_valuers_t( 'hour_label' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kv-h2"} -->
@@ -24,7 +24,7 @@ $photos = array( 1 => 'h06-plan.webp', 2 => 'h07-tape.webp', 3 => 'h08-condition
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php echo $e( 'hour_intro' ); ?></p>
+<p><?php echo esc_html( kantei_valuers_t( 'hour_intro' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -32,7 +32,7 @@ $photos = array( 1 => 'h06-plan.webp', 2 => 'h07-tape.webp', 3 => 'h08-condition
 <div class="wp-block-group kv-deck"><?php foreach ( $photos as $n => $img ) : ?><!-- wp:group {"className":"kv-deck__card kv-deck__card--<?php echo $n; ?>","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-deck__card kv-deck__card--<?php echo $n; ?>"><!-- wp:group {"className":"kv-deck__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-deck__text"><!-- wp:paragraph {"className":"kv-deck__stamp"} -->
-<p class="kv-deck__stamp"><?php echo $e( "h{$n}_stamp" ); ?> <span><?php echo $e( 'min' ); ?></span></p>
+<p class="kv-deck__stamp"><?php echo $e( "h{$n}_stamp" ); ?> <span><?php echo esc_html( kantei_valuers_t( 'min' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kv-deck__title"} -->

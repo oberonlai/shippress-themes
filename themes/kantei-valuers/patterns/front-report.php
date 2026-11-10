@@ -16,7 +16,7 @@ $l = 'kantei_valuers_lines';
 <section id="report" class="wp-block-group alignfull kv-sec kv-report"><!-- wp:group {"className":"kv-report__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-report__grid"><!-- wp:group {"className":"kv-report__l sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-report__l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kv-label"} -->
-<p class="kv-label"><?php echo $e( 'report_label' ); ?></p>
+<p class="kv-label"><?php echo esc_html( kantei_valuers_t( 'report_label' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kv-h2"} -->
@@ -24,11 +24,11 @@ $l = 'kantei_valuers_lines';
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php echo $e( 'report_body' ); ?></p>
+<p><?php echo esc_html( kantei_valuers_t( 'report_body' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"kv-report__img"} -->
-<figure class="wp-block-image size-large kv-report__img"><img src="<?php echo $i( 'h10-report.webp' ); ?>" alt="<?php echo $a( 'alt_report' ); ?>"/></figure>
+<figure class="wp-block-image size-large kv-report__img"><img src="<?php echo $i( 'h10-report.webp' ); ?>" alt="<?php echo esc_attr( kantei_valuers_t( 'alt_report' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

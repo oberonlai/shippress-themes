@@ -14,7 +14,7 @@ $l = 'kantei_valuers_lines';
 <section id="practice" class="wp-block-group alignfull kv-sec kv-practice"><!-- wp:group {"className":"kv-practice__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-practice__grid"><!-- wp:group {"className":"kv-practice__l sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-practice__l sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kv-label"} -->
-<p class="kv-label"><?php echo $e( 'practice_label' ); ?></p>
+<p class="kv-label"><?php echo esc_html( kantei_valuers_t( 'practice_label' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kv-statement"} -->
@@ -24,16 +24,16 @@ $l = 'kantei_valuers_lines';
 
 <!-- wp:group {"className":"kv-practice__r sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-practice__r sp-reveal sp-reveal--up"><!-- wp:paragraph -->
-<p><?php echo $e( 'practice_p1' ); ?></p>
+<p><?php echo esc_html( kantei_valuers_t( 'practice_p1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><?php echo $e( 'practice_p2' ); ?></p>
+<p><?php echo esc_html( kantei_valuers_t( 'practice_p2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline-pill"} -->
-<div class="wp-block-button is-style-outline-pill"><a class="wp-block-button__link wp-element-button" href="/about/"><?php echo $e( 'practice_more' ); ?></a></div>
+<div class="wp-block-button is-style-outline-pill"><a class="wp-block-button__link wp-element-button" href="/about/"><?php echo esc_html( kantei_valuers_t( 'practice_more' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

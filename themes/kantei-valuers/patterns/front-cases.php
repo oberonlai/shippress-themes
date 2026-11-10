@@ -20,7 +20,7 @@ $cases = array(
 <!-- wp:group {"align":"full","tagName":"section","anchor":"cases","className":"kv-sec kv-cases","layout":{"type":"default"}} -->
 <section id="cases" class="wp-block-group alignfull kv-sec kv-cases"><!-- wp:group {"className":"kv-cases__head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-cases__head sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kv-label"} -->
-<p class="kv-label"><?php echo $e( 'cases_label' ); ?></p>
+<p class="kv-label"><?php echo esc_html( kantei_valuers_t( 'cases_label' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kv-h2"} -->

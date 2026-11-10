@@ -18,11 +18,11 @@ $ico = array(
 <!-- wp:group {"align":"full","tagName":"section","anchor":"instructions","className":"kv-lead kv-ins","layout":{"type":"default"}} -->
 <section id="instructions" class="wp-block-group alignfull kv-lead kv-ins"><!-- wp:group {"className":"kv-ins__head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-ins__head sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kv-label kv-label--light"} -->
-<p class="kv-label kv-label--light"><?php echo $e( 'ins_label' ); ?></p>
+<p class="kv-label kv-label--light"><?php echo esc_html( kantei_valuers_t( 'ins_label' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kv-h2 kv-h2--light"} -->
-<h2 class="wp-block-heading kv-h2 kv-h2--light"><?php echo $e( 'ins_title' ); ?></h2>
+<h2 class="wp-block-heading kv-h2 kv-h2--light"><?php echo esc_html( kantei_valuers_t( 'ins_title' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -57,7 +57,7 @@ $ico = array(
 <section class="wp-block-group alignfull kv-sec kv-scope"><!-- wp:group {"className":"kv-scope__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-scope__grid"><!-- wp:group {"className":"kv-scope__col sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-scope__col sp-reveal sp-reveal--up"><!-- wp:heading {"level":3,"className":"kv-scope__h"} -->
-<h3 class="wp-block-heading kv-scope__h"><?php echo $e( 'value_h' ); ?></h3>
+<h3 class="wp-block-heading kv-scope__h"><?php echo esc_html( kantei_valuers_t( 'value_h' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:list {"className":"kv-rules"} -->
@@ -71,7 +71,7 @@ $ico = array(
 
 <!-- wp:group {"className":"kv-scope__col kv-scope__col--no sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kv-scope__col kv-scope__col--no sp-reveal sp-reveal--up"><!-- wp:heading {"level":3,"className":"kv-scope__h"} -->
-<h3 class="wp-block-heading kv-scope__h"><?php echo $e( 'novalue_h' ); ?></h3>
+<h3 class="wp-block-heading kv-scope__h"><?php echo esc_html( kantei_valuers_t( 'novalue_h' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:list {"className":"kv-rules"} -->

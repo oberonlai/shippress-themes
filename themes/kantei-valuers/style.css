@@ -48,7 +48,7 @@ Tags: block-patterns, full-site-editing, custom-colors, editor-style, translatio
 html { scroll-behavior: smooth; }
 html, body { overflow-x: clip; }
 body { -webkit-font-smoothing: antialiased; }
-.kv-main > *, .kv-main .wp-block-post-content > * { margin-block-start: 0; margin-block-end: 0; }
+.wp-site-blocks > *, .kv-main > *, .wp-block-post-content > * { margin-block-start: 0; margin-block-end: 0; }
 .kv-header-wrap, .kv-head-part { margin: 0; padding: 0; }
 img { max-width: 100%; height: auto; }
 
@@ -80,7 +80,7 @@ img { max-width: 100%; height: auto; }
 .kv-tile__mark { display: block; width: 56px; height: 56px; }
 .kv-tile__name { margin-top: 10px; font-family: var(--kv-display); font-size: 1.375rem; font-weight: 700; line-height: 1.2; }
 .kv-tile__sub { margin-top: 2px; font-family: var(--kv-display); font-size: 0.6875rem; font-weight: 700; letter-spacing: 0.16em; color: var(--kv-lead); }
-.kv-slab { position: fixed; top: 19px; right: 19px; z-index: 50; display: flex; align-items: center; gap: 28px; height: 64px; padding: 0 24px 0 30px; background: #fff; border-radius: 0; }
+.kv-slab { position: fixed; top: 19px; right: 19px; z-index: 50; display: flex; align-items: center; gap: 28px; height: 64px; padding: 0 24px 0 30px; background: #fff; border-radius: 0; box-shadow: 0 0 0 1px rgba(29, 34, 38, 0.08); }
 .kv-nav .wp-block-navigation__container { gap: 28px; align-items: stretch; }
 .kv-nav .wp-block-navigation-item { position: relative; }
 .kv-nav .wp-block-navigation-item__content { display: flex; align-items: center; height: 64px; padding: 0; color: var(--kv-ink); font-family: var(--kv-display); font-size: 0.875rem; font-weight: 700; letter-spacing: 0.04em; text-decoration: none; }
@@ -96,8 +96,8 @@ img { max-width: 100%; height: auto; }
 
 /* ---------- 1. hero ---------- */
 .kv-hero { align-items: flex-end; min-height: clamp(680px, 100svh, 960px); padding: 0; }
-.kv-hero > .wp-block-cover__background.has-background-dim-0 { opacity: 1; background: linear-gradient(to top, rgba(29, 34, 38, 0.62) 0%, rgba(29, 34, 38, 0) 52%); animation: kv-resolve 1.2s ease-out both; }
-.kv-hero .wp-block-cover__image-background { object-position: 55% 40%; }
+.kv-hero > .wp-block-cover__background.has-background-dim-0 { opacity: 1 !important; background: linear-gradient(to top, rgba(29, 34, 38, 0.7) 0%, rgba(29, 34, 38, 0.5) 34%, rgba(29, 34, 38, 0) 68%), linear-gradient(to right, rgba(29, 34, 38, 0.42) 0%, rgba(29, 34, 38, 0) 56%); animation: kv-resolve 1.2s ease-out both; }
+.kv-hero .wp-block-cover__image-background { object-position: 50% 40%; }
 .kv-hero .wp-block-cover__inner-container { box-sizing: border-box; width: 100%; padding: 0 var(--kv-gut) 152px; color: #fff; }
 .kv-hero__row { display: flex; align-items: flex-end; justify-content: space-between; gap: 32px; }
 .kv-hero__text { max-width: 760px; }
@@ -107,7 +107,7 @@ img { max-width: 100%; height: auto; }
 .kv-line--3 { animation-delay: 0.24s, 0.24s; }
 .kv-hero__rule.wp-block-separator { width: 20px; max-width: 20px; height: 2px; margin: 24px 0 16px; border: 0; background: #fff; opacity: 1; }
 .kv-hero__sub { margin: 0; color: #fff; font-size: 1rem; font-weight: 700; line-height: 1.7; }
-.kv-hero__sub--caps { margin-top: 4px; font-family: var(--kv-display); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; opacity: 0.92; }
+.kv-hero__sub--caps { margin-top: 4px; font-family: var(--kv-display); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; }
 .kv-ring { position: relative; flex: none; display: grid; place-items: center; width: 175px; height: 175px; color: #fff; text-decoration: none; }
 .kv-ring::before { content: ""; position: absolute; inset: 0; border: 1px solid rgba(255, 255, 255, 0.55); border-radius: 50%; }
 .kv-ring__orbit { position: absolute; inset: 12px; border: 1px solid rgba(255, 255, 255, 0.35); border-left-color: transparent; border-radius: 50%; animation: kv-orbit 24s linear infinite; }
@@ -132,7 +132,7 @@ html.sp-no-motion .kv-line, html.sp-no-motion .kv-ring__orbit, html.sp-no-motion
 
 /* ---------- 2. practice ---------- */
 .kv-practice { background: var(--kv-pale); }
-.kv-practice__grid { display: grid; grid-template-columns: 7fr 5fr; gap: 64px; align-items: end; }
+.kv-practice__grid { display: grid; grid-template-columns: 7.5fr 4.5fr; gap: 64px; align-items: end; }
 .kv-practice__r p { margin: 0 0 1.25rem; }
 .kv-practice__r .wp-block-buttons { margin-top: 0.5rem; }
 
@@ -157,7 +157,7 @@ html.sp-no-motion .kv-line, html.sp-no-motion .kv-ring__orbit, html.sp-no-motion
 .kv-panel { align-items: flex-end; justify-content: flex-start; min-height: 0; height: 100%; padding: 0; text-align: left; border-radius: 0; }
 .kv-panel--1 { flex: 645 1 0; border-radius: var(--kv-radius) 0 0 var(--kv-radius); }
 .kv-panel--2 { flex: 720 1 0; }
-.kv-panel > .wp-block-cover__background.has-background-dim-0 { opacity: 1; background: linear-gradient(to top, rgba(29, 34, 38, 0.78) 0%, rgba(29, 34, 38, 0.4) 55%, rgba(29, 34, 38, 0.12) 100%); }
+.kv-panel > .wp-block-cover__background.has-background-dim-0 { opacity: 1 !important; background: linear-gradient(to top, rgba(29, 34, 38, 0.86) 0%, rgba(29, 34, 38, 0.6) 50%, rgba(29, 34, 38, 0.12) 100%); }
 .kv-panel .wp-block-cover__inner-container { box-sizing: border-box; width: 100%; padding: 0 clamp(24px, 3.5vw, 48px) clamp(24px, 3.5vw, 48px); color: #fff; }
 .kv-panel__ico { display: block; margin-bottom: 14px; }
 .kv-panel__title { margin: 0 0 12px; color: #fff; font-size: 2rem; line-height: 1.3; }
@@ -217,14 +217,15 @@ html.sp-no-motion .kv-line, html.sp-no-motion .kv-ring__orbit, html.sp-no-motion
 .kv-table table { width: 100%; border-collapse: collapse; table-layout: auto; border: 0; }
 .kv-table th { padding: 14px 16px; background: var(--kv-lead); color: #fff; border: 0; font-family: var(--kv-display); font-size: 0.875rem; font-weight: 700; text-align: left; letter-spacing: 0.04em; }
 .kv-table td { padding: 18px 16px; background: #fff; border: 0; border-bottom: 1px solid var(--kv-rule); font-size: 0.9375rem; line-height: 1.6; vertical-align: top; }
-.kv-table td:first-child, .kv-table th:first-child { width: 1%; color: var(--kv-muted); }
+.kv-table td:first-child, .kv-table th:first-child { width: 1%; }
+.kv-table td:first-child { color: var(--kv-muted); }
 .kv-table .kv-fee { width: 1%; padding-left: 24px; font-variant-numeric: tabular-nums; font-weight: 700; text-align: right; white-space: nowrap; }
 .kv-table .kv-l { display: none; }
 .kv-notes { margin: 24px 0; padding: 0; list-style: none; }
 .kv-notes li { color: var(--kv-muted); font-size: 0.875rem; line-height: 1.9; }
 
 /* ---------- 9. request band ---------- */
-.kv-request { position: relative; box-sizing: border-box; min-height: 440px; margin-top: 40px; background: var(--kv-lead-band); color: #fff; }
+.kv-request { position: relative; box-sizing: border-box; min-height: 440px; margin-top: 0; background: var(--kv-lead-band); color: #fff; }
 .kv-strip { position: absolute; top: -40px; left: 0; display: flex; width: min(577px, 40vw); height: 424px; }
 .kv-strip figure { flex: 1; height: 100%; margin: 0; }
 .kv-strip img { display: block; width: 100%; height: 100%; object-fit: cover; }
@@ -333,7 +334,7 @@ html.sp-no-motion .kv-line, html.sp-no-motion .kv-ring__orbit, html.sp-no-motion
 	.kv-table .kv-fee { width: auto; padding-left: 16px; text-align: right; white-space: normal; }
 	.kv-table .kv-fee .kv-l { float: left; }
 
-	.kv-request { margin-top: 24px; }
+	.kv-request { margin-top: 0; }
 	.kv-strip { position: relative; top: -24px; width: 100%; height: auto; margin-bottom: -24px; }
 	.kv-strip figure { aspect-ratio: 2 / 3; height: auto; }
 	.kv-request__body { width: 100%; min-height: 0; margin-left: 0; padding: 24px var(--kv-gut) 96px; }
@@ -348,3 +349,6 @@ html.sp-no-motion .kv-line, html.sp-no-motion .kv-ring__orbit, html.sp-no-motion
 @media (max-width: 781px) and (hover: none) {
 	.kv-circle a:hover { background: transparent; }
 }
+
+/* flow-layout block gap must not offset grid / flex children */
+.kv-prows > *, .kv-cards > *, .kv-rrows > *, .kv-deck > *, .kv-info > *, .kv-panels > *, .kv-practice__grid > *, .kv-people__grid > *, .kv-report__grid > *, .kv-scope__grid > *, .kv-foot__grid > *, .kv-foot__cols > *, .kv-strip > *, .kv-request__row > * { margin-block-start: 0; }
