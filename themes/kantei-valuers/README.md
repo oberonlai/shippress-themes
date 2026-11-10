@@ -13,3 +13,23 @@ Kantei Valuers is a long-form landing WordPress theme for commercial property va
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/kantei-valuers/home-desktop.webp" width="640" alt="Kantei Valuers home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kantei-valuers/home-mobile.webp" width="200" alt="Kantei Valuers home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/kantei-valuers/about-desktop.webp) · [mobile](https://shots.codotx.com/kantei-valuers/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kantei-valuers/news-desktop.webp) · [mobile](https://shots.codotx.com/kantei-valuers/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kantei-valuers/article-desktop.webp) · [mobile](https://shots.codotx.com/kantei-valuers/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kantei-valuers/category-desktop.webp) · [mobile](https://shots.codotx.com/kantei-valuers/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kantei-valuers/tag-desktop.webp) · [mobile](https://shots.codotx.com/kantei-valuers/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kantei-valuers/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kantei-valuers/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kantei-valuers/contact-desktop.webp) · [mobile](https://shots.codotx.com/kantei-valuers/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kantei-valuers/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kantei-valuers/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kantei-valuers/fr/home-desktop.webp) · [de](https://shots.codotx.com/kantei-valuers/de/home-desktop.webp)
+<!-- screenshots:end -->
