@@ -1,0 +1,154 @@
+{
+ "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+ "version": 3,
+ "settings": {
+  "appearanceTools": true,
+  "useRootPaddingAwareAlignments": true,
+  "layout": { "contentSize": "720px", "wideSize": "1290px" },
+  "color": {
+   "defaultPalette": false,
+   "defaultGradients": false,
+   "defaultDuotone": false,
+   "custom": true,
+   "palette": [
+    { "slug": "paper", "name": "White (ground)", "color": "#FFFFFF" },
+    { "slug": "pale", "name": "Pale ground", "color": "#F4F5F5" },
+    { "slug": "ink", "name": "Ink (text, chips)", "color": "#1D2226" },
+    { "slug": "lead", "name": "Lead (bands)", "color": "#4E555C" },
+    { "slug": "lead-deep", "name": "Lead deep (band end, footer rule)", "color": "#3A4046" },
+    { "slug": "rule", "name": "Hairline", "color": "#DADFE2" },
+    { "slug": "accent", "name": "Accent (the one pill, small labels)", "color": "#C05700" },
+    { "slug": "accent-mark", "name": "Accent mark (non-text marks)", "color": "#EC6C00" },
+    { "slug": "accent-light", "name": "Accent light (labels on lead)", "color": "#F2A25C" },
+    { "slug": "muted", "name": "Muted text", "color": "#5C646B" }
+   ],
+   "gradients": [
+    { "slug": "lead-band", "name": "Lead band", "gradient": "linear-gradient(90deg, #4E555C 0%, #3A4046 100%)" }
+   ]
+  },
+  "typography": {
+   "defaultFontSizes": false,
+   "customFontSize": true,
+   "fluid": { "minViewportWidth": "390px", "maxViewportWidth": "1440px" },
+   "fontFamilies": [
+    {
+     "slug": "display",
+     "name": "Headings (Schibsted Grotesk)",
+     "fontFamily": "\"Schibsted Grotesk\", \"Helvetica Neue\", Arial, sans-serif",
+     "fontFace": [
+      {
+       "fontFamily": "Schibsted Grotesk",
+       "fontStyle": "normal",
+       "fontWeight": "400 900",
+       "fontDisplay": "swap",
+       "src": [ "file:./assets/fonts/schibsted-grotesk-variable-latin.woff2" ]
+      }
+     ]
+    },
+    {
+     "slug": "body",
+     "name": "Body (Manrope)",
+     "fontFamily": "\"Manrope\", \"Helvetica Neue\", Arial, sans-serif",
+     "fontFace": [
+      {
+       "fontFamily": "Manrope",
+       "fontStyle": "normal",
+       "fontWeight": "200 800",
+       "fontDisplay": "swap",
+       "src": [ "file:./assets/fonts/manrope-variable-latin.woff2" ]
+      }
+     ]
+    }
+    ,{
+     "slug": "noto-sans-tc",
+     "name": "Noto Sans TC",
+     "fontFamily": "\"Noto Sans TC\", system-ui, sans-serif",
+     "fontFace": [
+      {
+       "fontFamily": "Noto Sans TC",
+       "fontStyle": "normal",
+       "fontWeight": "700",
+       "fontDisplay": "swap",
+       "src": [ "file:./assets/fonts/noto-sans-tc-zh-tw-700.woff2" ]
+      }
+     ]
+    }
+    ,{
+     "slug": "noto-sans-jp",
+     "name": "Noto Sans JP",
+     "fontFamily": "\"Noto Sans JP\", system-ui, sans-serif",
+     "fontFace": [
+      {
+       "fontFamily": "Noto Sans JP",
+       "fontStyle": "normal",
+       "fontWeight": "700",
+       "fontDisplay": "swap",
+       "src": [ "file:./assets/fonts/noto-sans-jp-ja-700.woff2" ]
+      }
+     ]
+    }
+   ],
+   "fontSizes": [
+    { "slug": "x-small", "name": "Label", "size": "0.75rem", "fluid": false },
+    { "slug": "small", "name": "Small", "size": "0.875rem", "fluid": false },
+    { "slug": "base", "name": "Body", "size": "1rem", "fluid": false },
+    { "slug": "medium", "name": "Lead", "size": "1.25rem", "fluid": { "min": "1.125rem", "max": "1.25rem" } },
+    { "slug": "large", "name": "Section heading", "size": "2.0625rem", "fluid": { "min": "1.625rem", "max": "2.0625rem" } },
+    { "slug": "x-large", "name": "Statement", "size": "3.5rem", "fluid": { "min": "2rem", "max": "3.5rem" } },
+    { "slug": "huge", "name": "Hero headline", "size": "4.25rem", "fluid": { "min": "2.5rem", "max": "4.25rem" } }
+   ]
+  },
+  "spacing": {
+   "units": [ "px", "em", "rem", "%", "vw", "vh" ],
+   "spacingSizes": [
+    { "slug": "20", "name": "XS", "size": "0.75rem" },
+    { "slug": "30", "name": "S", "size": "1.5rem" },
+    { "slug": "40", "name": "M", "size": "3rem" },
+    { "slug": "50", "name": "L", "size": "4.5rem" },
+    { "slug": "60", "name": "XL", "size": "clamp(4rem, 8.4vw, 7.5rem)" }
+   ]
+  },
+  "border": { "radius": true },
+  "shadow": { "defaultPresets": false, "presets": [] }
+ },
+ "styles": {
+  "color": { "background": "var(--wp--preset--color--paper)", "text": "var(--wp--preset--color--ink)" },
+  "typography": {
+   "fontFamily": "var(--wp--preset--font-family--body)",
+   "fontSize": "var(--wp--preset--font-size--base)",
+   "lineHeight": "2",
+   "letterSpacing": "0.025em"
+  },
+  "spacing": { "padding": { "left": "0", "right": "0" }, "blockGap": "1.25rem" },
+  "elements": {
+   "link": {
+    "color": { "text": "var(--wp--preset--color--ink)" },
+    ":hover": { "color": { "text": "var(--wp--preset--color--accent)" } },
+    "typography": { "textDecoration": "underline" }
+   },
+   "heading": {
+    "typography": { "fontFamily": "var(--wp--preset--font-family--display)", "fontWeight": "700", "lineHeight": "1.45", "letterSpacing": "0.03em" },
+    "color": { "text": "var(--wp--preset--color--ink)" }
+   },
+   "h1": { "typography": { "fontSize": "var(--wp--preset--font-size--huge)", "lineHeight": "1.25", "letterSpacing": "0.01em" } },
+   "h2": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
+   "h3": { "typography": { "fontSize": "var(--wp--preset--font-size--medium)", "lineHeight": "1.6", "letterSpacing": "0.02em" } },
+   "button": {
+    "color": { "background": "var(--wp--preset--color--accent)", "text": "var(--wp--preset--color--paper)" },
+    "border": { "radius": "999px" },
+    "typography": { "fontFamily": "var(--wp--preset--font-family--display)", "fontWeight": "700", "fontSize": "var(--wp--preset--font-size--small)", "lineHeight": "1.75", "letterSpacing": "0.04em" }
+   }
+  },
+  "blocks": {
+   "core/site-title": { "typography": { "fontFamily": "var(--wp--preset--font-family--display)", "fontWeight": "700", "fontSize": "1.375rem" } },
+   "core/navigation": { "typography": { "fontFamily": "var(--wp--preset--font-family--display)", "fontWeight": "700", "fontSize": "var(--wp--preset--font-size--small)" } }
+  }
+ },
+ "customTemplates": [
+  { "name": "page-bare", "title": "Page with its own photo head", "postTypes": [ "page" ] }
+ ],
+ "templateParts": [
+  { "name": "header", "title": "Header", "area": "header" },
+  { "name": "footer", "title": "Footer", "area": "footer" }
+ ]
+}
