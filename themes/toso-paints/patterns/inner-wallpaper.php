@@ -54,7 +54,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tp-range__name"} -->
-<p class="tp-range__name"><a href="/product/linen-weave-wallpaper/">Linen-Weave</a> <span class="tp-circle" aria-hidden="true">→</span></p>
+<p class="tp-range__name"><a href="/order-collection/">Linen-Weave</a> <span class="tp-circle" aria-hidden="true">→</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -64,7 +64,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tp-range__name"} -->
-<p class="tp-range__name"><a href="/product/grasscloth-wallpaper/">Grasscloth</a> <span class="tp-circle" aria-hidden="true">→</span></p>
+<p class="tp-range__name"><a href="/order-collection/">Grasscloth</a> <span class="tp-circle" aria-hidden="true">→</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

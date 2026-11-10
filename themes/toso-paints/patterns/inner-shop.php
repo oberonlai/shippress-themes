@@ -74,7 +74,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tp-range__name"} -->
-<p class="tp-range__name"><a href="/product/sample-pot/">Sample Pot</a> <span class="tp-circle" aria-hidden="true">→</span></p>
+<p class="tp-range__name"><a href="/order-collection/">Sample Pot</a> <span class="tp-circle" aria-hidden="true">→</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -151,7 +151,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tp-cap"} -->
-<p class="tp-cap"><span class="tp-cap__a"><a href="/product/house-matt/">House Matt</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Flat matt, washable · 2.5 L</em><br><span class="tp-cap__p">€58</span></p>
+<p class="tp-cap"><span class="tp-cap__a"><a href="/order-collection/">House Matt</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Flat matt, washable · 2.5 L</em><br><span class="tp-cap__p">€58</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -161,7 +161,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tp-cap"} -->
-<p class="tp-cap"><span class="tp-cap__a"><a href="/product/wood-metal-eggshell/">Wood &amp; Metal Eggshell</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Low sheen · 1 L</em><br><span class="tp-cap__p">€34</span></p>
+<p class="tp-cap"><span class="tp-cap__a"><a href="/order-collection/">Wood &amp; Metal Eggshell</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Low sheen · 1 L</em><br><span class="tp-cap__p">€34</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -171,7 +171,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tp-cap"} -->
-<p class="tp-cap"><span class="tp-cap__a"><a href="/product/lime-wash/">Lime Wash</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Mineral, soft cloudy finish · 2.5 L</em><br><span class="tp-cap__p">€46</span></p>
+<p class="tp-cap"><span class="tp-cap__a"><a href="/order-collection/">Lime Wash</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Mineral, soft cloudy finish · 2.5 L</em><br><span class="tp-cap__p">€46</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -181,7 +181,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tp-cap"} -->
-<p class="tp-cap"><span class="tp-cap__a"><a href="/product/sample-pot/">Sample Pot</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Any colour mixed to order · 100 ml</em><br><span class="tp-cap__p">€6</span></p>
+<p class="tp-cap"><span class="tp-cap__a"><a href="/order-collection/">Sample Pot</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Any colour mixed to order · 100 ml</em><br><span class="tp-cap__p">€6</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -242,7 +242,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tp-cap"} -->
-<p class="tp-cap"><span class="tp-cap__a"><a href="/product/linen-weave-wallpaper/">Linen-Weave Wallpaper</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Paste-the-wall, woven texture · roll 10.05 × 0.52 m</em><br><span class="tp-cap__p">€72</span></p>
+<p class="tp-cap"><span class="tp-cap__a"><a href="/order-collection/">Linen-Weave Wallpaper</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Paste-the-wall, woven texture · roll 10.05 × 0.52 m</em><br><span class="tp-cap__p">€72</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -252,7 +252,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"tp-cap"} -->
-<p class="tp-cap"><span class="tp-cap__a"><a href="/product/grasscloth-wallpaper/">Grasscloth Wallpaper</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Natural fibre on paper backing · roll 5.5 × 0.91 m</em><br><span class="tp-cap__p">€138</span></p>
+<p class="tp-cap"><span class="tp-cap__a"><a href="/order-collection/">Grasscloth Wallpaper</a> <span class="tp-circle" aria-hidden="true">→</span></span><br><em>Natural fibre on paper backing · roll 5.5 × 0.91 m</em><br><span class="tp-cap__p">€138</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
