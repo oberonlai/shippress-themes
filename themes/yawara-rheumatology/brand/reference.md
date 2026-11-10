@@ -19,14 +19,22 @@ IMAGERY: photo (the reference uses bright daylight photographs only; high-key, h
 ## Colour relationships taken from the reference (our hex in the "Ours" column is filled in by design-spec)
 | Role | Reference | Ours |
 |---|---|---|
-| Ground | #FFFFFF | |
-| Ink | #001446 | |
-| Haze wash | #C0E0F0 | |
-| Label grey-blue | #7A86A2 | |
-| Accent (single CTA) | #C86D00 | |
-| Notice chip | pale red tint | |
+| Ground | #FFFFFF | #FFFFFF |
+| Ink | #001446 | #001446 |
+| Haze wash | #C0E0F0 | high-key photos + band #E6F0F7 |
+| Label grey-blue | #7A86A2 | #7A86A2 |
+| Accent (single CTA) | #C86D00 | #C86D00 ("Book a first visit" only, hover #001446) |
+| Notice chip | pale red tint | #FDE8E8 bg / #C00000 text |
 
 ## Final mapping (to be filled after build)
 | Reference element | Our counterpart (page / block) |
 |---|---|
-| | |
+| Top-half photo strip, wide 3.62:1 cell + abutting squares, white lower half (T1) | Home block 1 `yw-kv` (P01 wide + P02–P04 squares); `yw-pagehead` on every inner page; home block 8 visit strip |
+| White 163x163 seam tab card with small-caps sub-label (T2) | Home KV squares, home block 2 (P05), block 4 team squares, block 7 journal squares; Conditions, Team, Journal/category/tag pageheads and lists |
+| Caption tab straddling the seam | Home KV (P01), block 3 parallax band (P06), block 8 (P14); First visit (P15), Contact (P14), single post head |
+| Dated notice reel on pale chip + italic phone + hours (T3) | Home KV white half; Journal/archive dates; Fees chip; Contact phone row; Notices sign-up |
+| Logo over the seam at x=80, column at 50% | Home KV lockup; 50% column line on all pages; footer |
+| Brightness 140%->100% haze lift (2 s) | Home P01 on load |
+| Sideways strip pan | Home KV `sp-marquee` (120 s drift) |
+| Photo panning inside oversized cell | `sp-parallax` home block 3 (P06, 10%) and block 8 (P14, 8%) |
+| Single orange CTA, fade 800 ms + hover to navy | "Book a first visit" in header, KV and block 8 |
