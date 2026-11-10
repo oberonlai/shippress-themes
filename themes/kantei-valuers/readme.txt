@@ -29,7 +29,7 @@ The practice, its people, address, telephone number, figures and fees are fictio
 == Copyright ==
 
 Kantei Valuers is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Manrope (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), zh-TW heading subset; all WOFF2, see assets/fonts/.
+Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Manrope (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), zh-TW heading subset; Noto Sans JP (OFL-1.1), ja heading subset; all WOFF2, see assets/fonts/.
 
 = Images =
 
