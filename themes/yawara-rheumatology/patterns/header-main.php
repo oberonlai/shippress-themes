@@ -15,7 +15,7 @@
 
 <!-- wp:buttons {"className":"yw-header__cta"} -->
 <div class="wp-block-buttons yw-header__cta"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( yawara_rheumatology_t( 'kfca8a5d7' ) ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( yawara_rheumatology_t( 'header_cta' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

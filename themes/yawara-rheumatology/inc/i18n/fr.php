@@ -16,6 +16,7 @@ return array(
 	'kd0fbda98' => 'Page introuvable',
 	'kd254861f' => 'Informations',
 	'kdf9c2823' => '12 LINDEN ROW · HARROW QUAY',
+	'header_cta' => 'Premier rendez-vous',
 	'kfca8a5d7' => 'Prendre rendez-vous pour une première consultation',
 	'search_results' => 'Résultats de recherche pour : %s',
 	'08_30_c8d4' => '8 h 30',

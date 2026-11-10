@@ -16,6 +16,7 @@ return array(
 	'kd0fbda98' => 'Page not found',
 	'kd254861f' => 'Notices',
 	'kdf9c2823' => '12 LINDEN ROW · HARROW QUAY',
+	'header_cta' => 'Book a first visit',
 	'kfca8a5d7' => 'Book a first visit',
 	'search_results' => 'Search results for: %s',
 	'08_30_c8d4' => '08:30',

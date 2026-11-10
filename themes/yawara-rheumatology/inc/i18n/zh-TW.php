@@ -16,6 +16,7 @@ return array(
 	'kd0fbda98' => '找不到此頁面',
 	'kd254861f' => '診所公告',
 	'kdf9c2823' => '12 LINDEN ROW · HARROW QUAY',
+	'header_cta' => '預約初診',
 	'kfca8a5d7' => '預約初診',
 	'search_results' => '「%s」的搜尋結果',
 	'08_30_c8d4' => '08:30',

@@ -16,6 +16,7 @@ return array(
 	'kd0fbda98' => 'ページが見つかりません',
 	'kd254861f' => 'お知らせ',
 	'kdf9c2823' => '12 LINDEN ROW · HARROW QUAY',
+	'header_cta' => '初診のご予約',
 	'kfca8a5d7' => '初診のご予約',
 	'search_results' => '「%s」の検索結果',
 	'08_30_c8d4' => '08:30',

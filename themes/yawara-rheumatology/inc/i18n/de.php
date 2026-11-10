@@ -16,6 +16,7 @@ return array(
 	'kd0fbda98' => 'Seite nicht gefunden',
 	'kd254861f' => 'Mitteilungen',
 	'kdf9c2823' => '12 LINDEN ROW · HARROW QUAY',
+	'header_cta' => 'Ersttermin',
 	'kfca8a5d7' => 'Ersttermin vereinbaren',
 	'search_results' => 'Suchergebnisse für: %s',
 	'08_30_c8d4' => '8:30',
