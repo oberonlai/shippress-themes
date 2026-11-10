@@ -29,9 +29,9 @@ for ( $n = 1; $n <= 7; $n++ ) {
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:table {"className":"kv-table"} -->
+<!-- wp:html -->
 <figure class="wp-block-table kv-table"><table><thead><tr><th><?php echo esc_html( kantei_valuers_t( 'th_no' ) ); ?></th><th><?php echo esc_html( kantei_valuers_t( 'th_ins' ) ); ?></th><th><?php echo esc_html( kantei_valuers_t( 'th_get' ) ); ?></th><th class="kv-fee"><?php echo esc_html( kantei_valuers_t( 'th_fee' ) ); ?></th></tr></thead><tbody><?php echo $rows; ?></tbody></table></figure>
-<!-- /wp:table -->
+<!-- /wp:html -->
 
 <!-- wp:list {"className":"kv-notes"} -->
 <ul class="wp-block-list kv-notes"><?php for ( $n = 1; $n <= 4; $n++ ) : ?><!-- wp:list-item -->
