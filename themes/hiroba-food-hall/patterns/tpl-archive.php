@@ -1,0 +1,72 @@
+<?php
+/**
+ * Title: Archive: head and list
+ * Slug: hiroba-food-hall/tpl-archive
+ * Categories: hiroba-food-hall
+ * Keywords: food hall, restaurant, lunch
+ * Viewport Width: 1440
+ * Inserter: no
+ * Description: Pale head with the archive title, then post cards.
+ */
+?>
+<!-- wp:group {"tagName":"section","align":"full","className":"hb-pagehead hb-pagehead--photo","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull hb-pagehead hb-pagehead--photo"><!-- wp:group {"className":"hb-pwin","layout":{"type":"default"}} -->
+<div class="wp-block-group hb-pwin"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hb-pwin__img"} -->
+<figure class="wp-block-image size-full hb-pwin__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p14.webp' ) ); ?>" alt="<?php echo esc_attr( hiroba_t( 'alt_p14' ) ); ?>"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hb-pagehead__in","layout":{"type":"default"}} -->
+<div class="wp-block-group hb-pagehead__in"><!-- wp:paragraph {"className":"hb-caps hb-caps--page"} -->
+<p class="hb-caps hb-caps--page"><?php echo esc_html( hiroba_t( 'page_caps' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"className":"hb-rule"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity hb-rule"/>
+<!-- /wp:separator -->
+
+<!-- wp:query-title {"type":"archive","showPrefix":false,"className":"hb-title"} /-->
+
+<!-- wp:term-description {"className":"hb-lead"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hb-arc","layout":{"type":"default"}} -->
+<div class="wp-block-group hb-arc"></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"hb-sec hb-list","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull hb-sec hb-list"><!-- wp:query {"queryId":22,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"className":"hb-notes__q hb-notes__q--index"} -->
+<div class="wp-block-query hb-notes__q hb-notes__q--index"><!-- wp:post-template {"className":"hb-cards sp-stagger","layout":{"type":"grid","columnCount":2}} -->
+<!-- wp:group {"className":"hb-card hb-card--post sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group hb-card hb-card--post sp-reveal sp-reveal--up"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"16/9","className":"hb-card__cover"} /-->
+
+<!-- wp:group {"className":"hb-medal hb-medal--cat","layout":{"type":"default"}} -->
+<div class="wp-block-group hb-medal hb-medal--cat"><!-- wp:post-terms {"term":"category","isLink":false,"className":"hb-medal__m"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hb-post__text","layout":{"type":"default"}} -->
+<div class="wp-block-group hb-post__text"><!-- wp:post-title {"level":3,"isLink":true,"className":"hb-card__name"} /-->
+
+<!-- wp:post-date {"format":"j F Y","className":"hb-post__date"} /-->
+
+<!-- wp:post-excerpt {"excerptLength":22,"className":"hb-post__ex"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"className":"hb-pagination","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<!-- wp:query-pagination-previous {"label":<?php echo wp_json_encode( hiroba_t( 'newer' ) ); ?>} /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next {"label":<?php echo wp_json_encode( hiroba_t( 'older' ) ); ?>} /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p><?php echo esc_html( hiroba_t( 'no_results' ) ); ?></p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></section>
+<!-- /wp:group -->
