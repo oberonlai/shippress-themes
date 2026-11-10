@@ -11,3 +11,23 @@ Editorial block theme for a paramedic training college. Navy ink on a cool grey 
 Further languages (zh-TW, ja, fr, de) follow in a later release.
 
 See brand.md and brand/design-spec.md.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/kyukyu-college/home-desktop.webp" width="640" alt="Kyukyu College home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kyukyu-college/home-mobile.webp" width="200" alt="Kyukyu College home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/kyukyu-college/about-desktop.webp) · [mobile](https://shots.codotx.com/kyukyu-college/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kyukyu-college/news-desktop.webp) · [mobile](https://shots.codotx.com/kyukyu-college/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kyukyu-college/article-desktop.webp) · [mobile](https://shots.codotx.com/kyukyu-college/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kyukyu-college/category-desktop.webp) · [mobile](https://shots.codotx.com/kyukyu-college/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kyukyu-college/tag-desktop.webp) · [mobile](https://shots.codotx.com/kyukyu-college/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kyukyu-college/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kyukyu-college/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kyukyu-college/contact-desktop.webp) · [mobile](https://shots.codotx.com/kyukyu-college/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kyukyu-college/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kyukyu-college/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kyukyu-college/fr/home-desktop.webp) · [de](https://shots.codotx.com/kyukyu-college/de/home-desktop.webp)
+<!-- screenshots:end -->
