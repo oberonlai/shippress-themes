@@ -26,3 +26,24 @@ Home, Ranges, Colour Mixing, Wallpaper, Order & Collection, About, Journal (post
 ## WooCommerce
 
 Optional. With it active, `inc/woo-import.php` adds two product categories, five tags and six products with photographs and prices; run twice it creates nothing new. Without it, the Ranges page lists the same lines with prices and orders go by email.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/toso-paints/home-desktop.webp" width="640" alt="Toso Paints home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/toso-paints/home-mobile.webp" width="200" alt="Toso Paints home page on mobile"></td>
+</tr>
+</table>
+
+- Shop: [desktop](https://shots.codotx.com/toso-paints/shop-desktop.webp) · [mobile](https://shots.codotx.com/toso-paints/shop-mobile.webp)
+- About: [desktop](https://shots.codotx.com/toso-paints/about-desktop.webp) · [mobile](https://shots.codotx.com/toso-paints/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/toso-paints/news-desktop.webp) · [mobile](https://shots.codotx.com/toso-paints/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/toso-paints/article-desktop.webp) · [mobile](https://shots.codotx.com/toso-paints/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/toso-paints/category-desktop.webp) · [mobile](https://shots.codotx.com/toso-paints/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/toso-paints/tag-desktop.webp) · [mobile](https://shots.codotx.com/toso-paints/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/toso-paints/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/toso-paints/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/toso-paints/contact-desktop.webp) · [mobile](https://shots.codotx.com/toso-paints/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/toso-paints/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/toso-paints/ja/home-desktop.webp) · [fr](https://shots.codotx.com/toso-paints/fr/home-desktop.webp) · [de](https://shots.codotx.com/toso-paints/de/home-desktop.webp)
+<!-- screenshots:end -->
