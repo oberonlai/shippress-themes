@@ -233,7 +233,7 @@ html.sp-no-motion .yw-cell--haze img, html.sp-no-motion .yw-slogan, html.sp-no-m
 
 /* ---------- inner basics ---------- */
 .yw-pagehead { padding-bottom: 2rem; }
-.yw-prose { padding: 0 var(--yw-gut) var(--yw-sec); }
+.yw-prose { padding: 0; }
 
 /* ---------- footer ---------- */
 .yw-footer { background: #fff; padding: 4.5rem var(--yw-gut) 2rem; border-top: 1px solid var(--yw-hair); }
@@ -253,3 +253,83 @@ html.sp-no-motion .yw-cell--haze img, html.sp-no-motion .yw-slogan, html.sp-no-m
 }
 .yw-split__r > .yw-phone { margin-top: 1.5rem; }
 .yw-col > .yw-phone { margin-top: .5rem; }
+
+/* ---------- inner page head: short half-and-half (strip 320px, white half with the column at 50%) ---------- */
+.yw-ph { margin: 0; }
+.yw-ph__strip { display: grid; grid-template-columns: 1fr 320px; gap: 0; height: 320px; margin: 0; overflow: clip; }
+.yw-ph__strip > * { margin: 0 !important; }
+.yw-ph__strip .yw-cell { height: 100%; aspect-ratio: auto; }
+.yw-ph__strip .yw-cell--sq { width: 320px; }
+.yw-ph__strip--one { grid-template-columns: 1fr; }
+.yw-ph__strip .wp-block-post-featured-image { margin: 0; height: 100%; }
+.yw-ph__strip .yw-cell .yw-caption { z-index: 2; }
+.yw-ph__white { min-height: 200px; padding: 2.5rem var(--yw-gut) 2.5rem; background: #fff; }
+.yw-ph__white.yw-split > .yw-split__l { padding-right: 3rem; }
+.yw-crumb { font-size: .725rem; letter-spacing: .05em; text-transform: uppercase; color: var(--yw-label); margin: 0; line-height: 1.3; }
+.yw-crumb a { color: var(--yw-label); text-decoration: none; }
+.yw-crumb a:hover { text-decoration: underline; }
+.yw-ph__white h1 { margin: 0; }
+.yw-lede { font-size: 1.0625rem; line-height: 1.8; margin: 1.25rem 0 0; max-width: 34rem; }
+.yw-chipline { margin: 1.25rem 0 0; }
+.yw-ph--plain .yw-ph__white { padding-top: 4rem; }
+.yw-ph--post .yw-ph__white .yw-chip { margin-bottom: 1.25rem; }
+.yw-ph--post .yw-ph__white h1 { line-height: 1.4; letter-spacing: .12em; font-size: 1.5rem; }
+@media (max-width: 781px) {
+	.yw-ph__strip { grid-template-columns: 1fr 180px; height: 220px; }
+	.yw-ph__strip .yw-cell--sq { width: 180px; }
+	.yw-ph__strip--one { grid-template-columns: 1fr; }
+	.yw-ph__white { padding-top: 2rem; padding-bottom: 2rem; min-height: 0; }
+	.yw-ph__white.yw-split > .yw-split__l { padding-right: 0; margin-bottom: 1rem; }
+}
+
+/* ---------- inner bodies: sections on the 50% column line ---------- */
+.yw-body { padding-top: calc(var(--yw-sec) * .7); padding-bottom: calc(var(--yw-sec) * .7); }
+.yw-body + .yw-body { padding-top: 0; }
+.yw-band + .yw-body { padding-top: calc(var(--yw-sec) * .7); }
+.yw-body > .yw-split__r { grid-column: 2; }
+.yw-body .yw-split__l .yw-cell--sq { max-width: 480px; }
+.yw-body h2 { font-size: 1.5rem; margin: 0 0 1.25rem; }
+.yw-body .yw-split__r > p { margin: 0 0 1.1rem; }
+.yw-body .yw-sub { margin-top: .5rem; }
+.yw-person h3 { margin: 0; }
+.yw-person.yw-body { padding-top: 0; padding-bottom: 2.25rem; border: 0; }
+.yw-trio + .yw-person { padding-top: calc(var(--yw-sec) * .6); }
+.yw-body .yw-split__r .yw-phone, .yw-body .yw-split__r .yw-hours { margin-top: .75rem; }
+.yw-body .yw-split__r .yw-chip { margin: 0 0 .75rem; }
+.yw-faq details { border-top: 1px solid var(--yw-hair); padding: 1rem 0; }
+.yw-faq details:last-of-type { border-bottom: 1px solid var(--yw-hair); }
+.yw-faq summary { cursor: pointer; font-family: var(--yw-disp); font-weight: 500; font-size: 1.0625rem; letter-spacing: .06em; color: var(--yw-ink); line-height: 1.5; }
+.yw-faq summary:focus-visible { outline: 2px solid var(--yw-tide); outline-offset: 4px; }
+.yw-faq details p { margin: .75rem 0 0; }
+@media (max-width: 781px) {
+	.yw-body > .yw-split__r { grid-column: 1; }
+	.yw-body { padding-top: 3rem; padding-bottom: 3rem; }
+	.yw-person.yw-body { padding-bottom: 1.5rem; }
+}
+
+/* ---------- fees table: full width from 782px, price never cut; stacked rows on small screens ---------- */
+.yw-feeswrap { padding-bottom: 0; }
+.yw-fees { margin: 0; width: 100%; max-width: 1280px; }
+.yw-fees table { width: 100%; border-collapse: collapse; table-layout: auto; }
+.yw-fees th, .yw-fees td { padding: 1.1rem .75rem; text-align: left; border-bottom: 1px solid var(--yw-hair); font-size: 1rem; line-height: 1.5; vertical-align: top; }
+.yw-fees th { font-family: var(--yw-disp); font-weight: 500; font-size: .79rem; letter-spacing: .1em; text-transform: uppercase; color: var(--yw-label); border-bottom: 1px solid var(--yw-ink); }
+.yw-fees th:last-child, .yw-fees td.yw-price { white-space: nowrap; text-align: right; width: 1%; font-family: var(--yw-disp); font-weight: 500; color: var(--yw-ink); }
+.yw-fees td:nth-child(2) { white-space: nowrap; width: 1%; padding-right: 3rem; }
+.yw-feenote { font-size: .875rem; color: var(--yw-label); margin: 1.25rem 0 0; }
+@media (max-width: 781px) {
+	.yw-fees table, .yw-fees tbody, .yw-fees tr, .yw-fees td { display: block; width: 100%; }
+	.yw-fees thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+	.yw-fees tr { padding: 1rem 0; border-bottom: 1px solid var(--yw-hair); }
+	.yw-fees td { border: 0; padding: .1rem 0; width: auto; }
+	.yw-fees td:nth-child(2) { padding-right: 0; white-space: normal; font-size: .875rem; color: var(--yw-label); }
+	.yw-fees td.yw-price { text-align: right; width: auto; }
+}
+
+/* ---------- article ---------- */
+.yw-article { max-width: 680px; margin: 0 auto !important; padding: calc(var(--yw-sec) * .6) var(--yw-gut) 2rem !important; }
+.yw-article p { margin: 0 0 1.25rem; }
+.yw-article__terms { max-width: 680px; margin: 0 auto; padding: 0 var(--yw-gut) var(--yw-sec); }
+.yw-article__terms > * { margin: .4rem 0 0; }
+.yw-article__terms a { color: var(--yw-ink); }
+.yw-query { padding-bottom: 0; }
+.yw-ph--post .yw-ph__strip .yw-cell { height: 100%; }

@@ -53,8 +53,13 @@ The one-page written plan is included.
 3. One-line dated notice on a pale red chip, one notice at a time, with the phone number in italic numerals.
 Reference: https://otani.or.jp/ (measured values in brand/reference-tokens.md).
 
-## Pages (stage 1: home only; inner pages in stage 2)
-Home, About, Conditions, Your first visit, Team, Fees, Questions, Journal (posts), Notices (newsletter), Contact, Privacy.
+## Pages
+Home, About, Conditions, Your first visit, Team, Fees, Questions, Journal (posts), Notices (newsletter), Contact, Privacy, plus one article ("The knuckle that stiffened overnight").
+- Every inner page opens with the short half-and-half page head: a 320 px photo strip (one wide cell, one square cell with a seam tab card) over a white half with the breadcrumb at the left margin and the H1 and one-line lede on the 50% column.
+- About, Conditions, First visit and Team carry seam tab cards on body photos; About and First visit have a full-width parallax photo band.
+- Fees: three-column table (service, time, fee) at full width from 782 px, stacked rows below; chip "Fees reviewed 2026.04.01".
+- Questions: eight collapsible answers. Notices and Contact: mailto buttons only (no form back end); the notices request is not a subscription until the clinic confirms it.
+- Physiotherapist is Tamsin Rehn on every page.
 
 ## Photography
 Sixteen AI-generated photographs (Grok Build), one style: high-key documentary, soft window daylight, white walls and pale blue-grey tones, low saturation, diverse adults, no text or logos.
