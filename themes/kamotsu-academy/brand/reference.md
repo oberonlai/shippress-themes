@@ -17,7 +17,16 @@ Main reference: https://www.kobedenshi.ac.jp/ (an S5-Style listed vocational col
 - Accent hi-vis amber #D9A441, under 3%, small chips and one underline only
 - First-screen saturated share: under 5%
 
-## Mapping to our product (column "ours" is filled by the design stage)
-| Reference element | Ours |
+## Mapping to our product (finished-theme counterpart; binding detail in `design-spec.md`)
+| Reference element | Ours (finished theme) |
 |---|---|
-| (to be completed in design-spec) | |
+| Full-bleed 1440x790 workshop photo, four people at a table | Home KV: full-bleed P01, instructor on the cab step, trainee with a walk-round card, second trainee at the trailer wheels; `sp-parallax` 10% (phone 6%) |
+| Giant white two-line caps word "LEARN BY / CREATION" spanning the content width | "WALK ROUND / THEN DRIVE", Hanken Grotesk 800, white, width-matched lines up to 13.3rem (T1); inner pages: one white word on a 460 px photo band (COURSES, FEES, TEST DAY...) |
+| Small caps kicker + black italic tagline over line 1 | Kicker "KAMOTSU ACADEMY · HGV TRAINING SINCE 2009" + ink italic "Check first. Then drive." left-aligned over line 1 |
+| Header over the photo, nav + two black pills | Split nav over the photo: six links left, wordmark centre, two navy #243044 pills right (Open yard, Book an assessment) |
+| White docked card bottom-right, thumbnail + round chevron | "Next intake" card 400x136 r8 with P02 thumb, mini timeline line Enrol to Test day, 32 px chevron (T2); also on the home road band and every inner page head |
+| "68th since1958" + lead + skyline strip | Block 2: "since 2009" numeral + narrative + 8:1 yard panorama strip P03, hi-vis highlighter on one phrase |
+| Four tall promo cards (288x450, r6) on #F5F5F5, white 48 px chevron, yellow badge | Block 3: Class C+E, Class C, Refresher, Driver CPC cards (P04-P07), hi-vis 90 px badge "Next intake 12 Jan" (T3); Courses, C+E, Class C, Fees, Stories pages |
+| Three square event cards + centred outline pill | Block 9: three story cards (P16-P18) + "All stories" outline pill |
+| Fade + rise on scroll, 200 ms column stagger | `sp-reveal--up` (.6 s ease-in-out, 24 px) and `sp-stagger` on card rows and timeline stops |
+| Dark particle band, 3D stickers, Slick carousel, slide-in menu | Not adopted |
