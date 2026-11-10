@@ -10,11 +10,11 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"yw-journal"} -->
 <section class="wp-block-group alignfull yw-journal"><!-- wp:group {"className":"yw-journal__head"} -->
 <div class="wp-block-group yw-journal__head"><!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading"><?php esc_html_e( 'Patient notes', 'yawara-rheumatology' ); ?></h2>
+<h2 class="wp-block-heading"><?php echo esc_html( yawara_rheumatology_t( 'patient_notes_e066' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"yw-more"} -->
-<p class="yw-more"><a href="/journal/"><?php esc_html_e( 'all notes', 'yawara-rheumatology' ); ?></a></p>
+<p class="yw-more"><a href="/journal/"><?php echo esc_html( yawara_rheumatology_t( 'all_notes_bbc0' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

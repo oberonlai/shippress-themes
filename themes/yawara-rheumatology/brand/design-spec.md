@@ -81,7 +81,7 @@ Reference relationship kept: white ground + pale haze photographs + one deep ink
 | Body text | #1A1F2B | ref #111111 (+5% lightness, softer on long copy) | tiny | paragraphs |
 | Label grey-blue | #7A86A2 | ref #7A86A2 | tiny | small-caps sub-labels, meta |
 | Haze band | #E6F0F7 | ref #D0E0F0 (+5% lightness) | 0% (below fold only) | blocks 6 and 8 background bands |
-| Tide (row hex) | #53727D | design row palette 錆納戸; replaces ref mid blue #3A75B8 (that blue only appears inside the reference's building photo) | <1% | links underline, figures numerals, focus ring |
+| Tide (row hex) | #53727D | design row palette; replaces ref mid blue #3A75B8 (that blue only appears inside the reference's building photo) | <1% | links underline, figures numerals, focus ring |
 | Accent (single CTA only) | #C86D00 | ref #C86D00 (kept) ; hover → #001446 | ~1% | "Book a first visit" button only (header + KV + close block — same wording) |
 | Notice chip | #FDE8E8 bg / #C00000 text | ref pale red chip | ~1% | notice reel, post dates, fees chip |
 | Hairline | #DDE3EA | derived from #D0E0F0 | — | table row lines, form fields |
@@ -93,7 +93,7 @@ Reference relationship kept: white ground + pale haze photographs + one deep ink
 - Stacks:
   - heading: `"Figtree", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif` (on `:root:lang(zh*)` the bundled zh subset family first; on `:lang(ja)` the ja subset first)
   - body: `"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif`; zh-TW body = system Chinese sans (`"PingFang TC", "Microsoft JhengHei", sans-serif`, no bundled CJK); ja body = `"Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif`.
-  - CJK headings: Noto Sans TC / Noto Sans JP (黑體/ゴシック), subsetted woff2, weight 500; never a Mincho/serif. Use the Hokuto/Hada subsetting workaround; copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and require it.
+  - CJK headings: Noto Sans TC / Noto Sans JP (sans-serif Gothic style), subsetted woff2, weight 500; never a Mincho/serif. Use the Hokuto/Hada subsetting workaround; copy `shared/inc/editor-lang.php` to `inc/editor-lang.php` and require it.
 - Scale (rem; ref values from `tok(b)` converted at 16px):
 | Token | Size | Weight / lh / ls | Source |
 |---|---|---|---|

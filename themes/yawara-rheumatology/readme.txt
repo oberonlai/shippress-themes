@@ -28,4 +28,21 @@ Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js, ShipPress, GPL-2.0
 
 = Images =
 
-Images: AI-generated for this theme with Grok Build image_gen as photorealistic high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real people, no brands). No transparent cut-outs are used. Files in assets/images/ (the demo/ copies are the ones imported into the Media Library): p01-wrist (home first screen), p02-hands, p03-ultrasound, p04-plan (first-screen squares), p05-window (home problem), p06-table (home method band), p07-elbow, p08-nurse, p09-putty (home team), p10-waiting (home day), p11-diary, p12-driver, p13-teacher (journal entries), p14-entrance (home visit), p15-usroom, p16-splint (inner pages).
+Images: AI-generated for this theme with Grok Build image_gen as photorealistic high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real people, no brands). No transparent cut-outs are used. The demo/ copies are the ones imported into the Media Library.
+
+- assets/images/p01-wrist.webp and assets/images/demo/p01-wrist.webp (home first screen, wide cell: a rheumatologist supporting a patient's wrist)
+- assets/images/p02-hands.webp and assets/images/demo/p02-hands.webp (home first screen: hands resting on a table)
+- assets/images/p03-ultrasound.webp and assets/images/demo/p03-ultrasound.webp (home first screen: ultrasound probe on a wrist)
+- assets/images/p04-plan.webp and assets/images/demo/p04-plan.webp (home first screen: nurse and patient reading a plan)
+- assets/images/p05-window.webp and assets/images/demo/p05-window.webp (home problem block: a woman flexing her fingers at a window)
+- assets/images/p06-table.webp and assets/images/demo/p06-table.webp (home method band: doctor, patient and nurse around a plan)
+- assets/images/p07-elbow.webp and assets/images/demo/p07-elbow.webp (home team: doctor examining an elbow)
+- assets/images/p08-nurse.webp and assets/images/demo/p08-nurse.webp (home team: nurse specialist at a desk)
+- assets/images/p09-putty.webp and assets/images/demo/p09-putty.webp (home team: physiotherapist with therapy putty)
+- assets/images/p10-waiting.webp and assets/images/demo/p10-waiting.webp (home day block: sunlit waiting area)
+- assets/images/p11-diary.webp and assets/images/demo/p11-diary.webp (journal entry: a hand writing in a diary)
+- assets/images/p12-driver.webp and assets/images/demo/p12-driver.webp (journal entry: a bus driver stretching his wrists)
+- assets/images/p13-teacher.webp and assets/images/demo/p13-teacher.webp (journal entry: a teacher in a review appointment)
+- assets/images/p14-entrance.webp and assets/images/demo/p14-entrance.webp (home visit band: clinic entrance in daylight)
+- assets/images/p15-usroom.webp and assets/images/demo/p15-usroom.webp (inner pages: ultrasound room)
+- assets/images/p16-splint.webp and assets/images/demo/p16-splint.webp (inner pages: occupational therapist fitting a wrist splint)
