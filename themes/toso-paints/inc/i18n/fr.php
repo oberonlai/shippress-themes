@@ -256,5 +256,6 @@ return array(
 	'kfee167e2' => 'Nos archives rassemblent des centaines de réalisations concrètes à travers la ville. Dans une cuisine orientée au nord à Kralingen, un vert formulé d\'après une photo sur téléphone a été réchauffé d\'un ton après vérification de la carte d\'application près de la fenêtre. Pour une entrée en paille japonaise à Delfshaven, quatre rouleaux ont été calculés pour une montée d\'escalier sous combles, avec un rouleau de réserve conservé du même bain exact. Dans un appartement en location à Noord, un badigeon de chaux a été appliqué sur une ancienne émulsion après une sous-couche, après avoir été testé sur deux planches d\'essai peintes lors de notre table d\'échantillons du samedi.',
 	'kffa2157b' => 'Apportez une photo du mur.',
 	'kffb7e666' => 'Lettre d\'information',
+	'tpjournalh' => 'Notes du comptoir',
 	'search_results' => 'Résultats de recherche pour : %s',
 );

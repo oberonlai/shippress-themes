@@ -256,5 +256,6 @@ return array(
 	'kfee167e2' => 'Our archive holds hundreds of practical cases from across the city. In a north kitchen in Kralingen, a green matched from a phone photo was mixed one step warmer after the drawdown check by the window. For a grasscloth hallway in Delfshaven, four rolls were calculated for a stair wall with a sloped ceiling, with one spare roll kept from the exact same batch. In a rental flat in Noord, lime wash was applied over old emulsion after a primer coat, tested with two sample boards painted at our Saturday swatch table first.',
 	'kffa2157b' => 'Bring a photo of the wall.',
 	'kffb7e666' => 'Newsletter',
+	'tpjournalh' => 'Notes from the counter',
 	'search_results' => 'Search results for: %s',
 );

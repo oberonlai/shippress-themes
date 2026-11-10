@@ -8,10 +8,18 @@
  */
 ?>
 <!-- wp:group {"tagName":"main","className":"tp-main","layout":{"type":"default"}} -->
-<main class="wp-block-group tp-main"><!-- wp:group {"align":"full","className":"tp-sec tp-journal tp-archive","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull tp-sec tp-journal tp-archive"><!-- wp:query-title {"type":"archive","level":1,"className":"tp-page__title"} /-->
+<main class="wp-block-group tp-main"><!-- wp:group {"align":"full","className":"tp-band tp-band--journal","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull tp-band tp-band--journal"><!-- wp:paragraph {"className":"tp-label tp-label--slant"} -->
+<p class="tp-label tp-label--slant"><?php echo wp_kses_post( toso_paints_t( 'k6b2b5614' ) ); ?></p>
+<!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"className":"tp-lede"} -->
+<!-- wp:heading {"level":1,"className":"tp-band__h","fontSize":"x-large"} -->
+<h1 class="wp-block-heading tp-band__h has-x-large-font-size"><?php echo wp_kses_post( toso_paints_t( 'tpjournalh' ) ); ?></h1>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","className":"tp-sec tp-journal tp-archive","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull tp-sec tp-journal tp-archive"><!-- wp:paragraph {"className":"tp-lede"} -->
 <p class="tp-lede"><?php echo wp_kses_post( toso_paints_t( 'k460c78ce' ) ); ?></p>
 <!-- /wp:paragraph -->
 

@@ -255,7 +255,7 @@ a { text-underline-offset: .22em; }
 .tp-ihead__in > * { margin: 0; }
 .tp-ihead__h { margin-top: 16px !important; line-height: 1.1; font-weight: 400; }
 .tp-band { position: relative; padding: 150px var(--tp-side) 44px; background: var(--tp-ground); overflow: clip; min-height: 260px; margin: 0; }
-.tp-band::before { content: ""; position: absolute; inset: 0 0 0 45%; background: url(assets/images/elevation-detail.svg) center / 100% 100% no-repeat; opacity: .6; pointer-events: none; }
+.tp-band::before { content: ""; position: absolute; inset: 110px 0 0 45%; background: url(assets/images/elevation-detail.svg) center / 100% 100% no-repeat; opacity: .6; pointer-events: none; }
 .tp-band > * { position: relative; margin: 0; }
 .tp-band__h { margin-top: 14px; font-weight: 400; line-height: 1.1; }
 .wp-block-cover.tp-chap--inner { position: relative; top: auto; min-height: clamp(480px, 70vh, 640px); margin: 0; }
@@ -319,6 +319,13 @@ a { text-underline-offset: .22em; }
 .tp-single .wp-block-post-featured-image { margin: 40px 0; }
 .tp-single .wp-block-post-featured-image img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 0; }
 .tp-single .tp-rule { margin-top: 28px; margin-bottom: 0; }
+/* The stacked nav runs down the left to about y 340: on desktop every page head starts to the right of it and the band is tall enough to hold it. */
+@media (min-width: 782px) {
+	.tp-band { min-height: 400px; padding-left: calc(var(--tp-side) + 280px); }
+	.tp-page, .tp-main > .tp-journal:first-child { padding-left: calc(var(--tp-side) + 280px); }
+	.tp-ihead .wp-block-cover__inner-container { padding-left: calc(40px + 280px); }
+	.tp-ihead::before { top: 110px; }
+}
 @media (max-width: 1000px) {
 	.tp-pcards--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 	.tp-pcards--4 .tp-pcard:nth-child(even) { margin-top: 0 !important; }

@@ -256,5 +256,6 @@ return array(
 	'kfee167e2' => 'Unser Archiv umfasst Hunderte praktischer Fälle aus der ganzen Stadt. In einer Nordküche in Kralingen wurde ein nach einem Handyfoto abgestimmtes Grün nach der Prüfung des Aufzugsmusters am Fenster eine Nuance wärmer angemischt. Für einen Flur mit Grastapete in Delfshaven wurden vier Rollen für eine Treppenwand mit Dachschräge berechnet, dazu eine Reserverolle aus exakt derselben Charge. In einer Mietwohnung in Noord wurde Kalkfarbe nach einem Grundierungsanstrich über alter Dispersion aufgetragen – vorab getestet mit zwei Mustertafeln, die an unserem Samstags-Mustertisch gestrichen wurden.',
 	'kffa2157b' => 'Bringen Sie ein Foto der Wand mit.',
 	'kffb7e666' => 'Newsletter',
+	'tpjournalh' => 'Notizen vom Tresen',
 	'search_results' => 'Suchergebnisse für: %s',
 );
