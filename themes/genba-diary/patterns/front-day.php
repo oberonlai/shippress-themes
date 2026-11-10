@@ -103,7 +103,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"gd-more"} -->
-<p class="gd-more"><a href="/diary-day/#truck"><?php echo esc_html( genba_diary_t( 'more' ) ); ?></a></p>
+<p class="gd-more"><a href="/diary-day/#deliveries"><?php echo esc_html( genba_diary_t( 'more' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -127,7 +127,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"gd-more"} -->
-<p class="gd-more"><a href="/diary-day/#photo"><?php echo esc_html( genba_diary_t( 'more' ) ); ?></a></p>
+<p class="gd-more"><a href="/diary-day/#photos"><?php echo esc_html( genba_diary_t( 'more' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -175,7 +175,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"gd-more"} -->
-<p class="gd-more"><a href="/diary-day/#sign"><?php echo esc_html( genba_diary_t( 'more' ) ); ?></a></p>
+<p class="gd-more"><a href="/diary-day/#signoff"><?php echo esc_html( genba_diary_t( 'more' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

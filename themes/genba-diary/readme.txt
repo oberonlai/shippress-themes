@@ -62,5 +62,8 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/demo/g16-story-facade.webp (AI-generated high-key site photograph, CC0)
 
 == Changelog ==
+= 1.0.1 =
+* Align home diary-day fragment links (#photo, #sign, #truck) with the page section ids (photos, signoff, deliveries).
+
 = 1.0.0 =
 * Initial release.
