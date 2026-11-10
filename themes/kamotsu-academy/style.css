@@ -536,3 +536,13 @@ body:has(.ka-kv) .ka-bar { background: transparent; }
 .ka-single__title { font-family: var(--ka-display); font-weight: 800; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.1; margin: 0 0 28px; max-width: 720px; margin-inline: auto; }
 .ka-single__body .ka-prose { max-width: 720px; margin-inline: auto; }
 .ka-single__body .ka-prose > * { max-width: 720px; margin-inline: auto; }
+
+/* KV desktop: photo starts below the top band so the giant word keeps >= 11% of the width clear of the truck and crew */
+@media (min-width: 1024px) {
+	.ka-kv { --ka-kv-top: 20vw; min-height: max(640px, 62vw); background: var(--ka-ink-deep); }
+	.ka-kv .ka-kv__photo { top: var(--ka-kv-top); }
+	.ka-kv .ka-kv__photo .wp-block-cover__image-background { height: 100%; min-height: 56.25vw; }
+	.ka-kv__l1 { font-size: clamp(3rem, 9vw, 8.5rem); }
+	.ka-kv__l2 { font-size: clamp(3.5rem, 10.5vw, 9.5rem); }
+	.ka-kv__top { margin-bottom: 0; }
+}
