@@ -48,7 +48,7 @@
 
 <!-- wp:group {"className":"yw-tab"} -->
 <div class="wp-block-group yw-tab"><!-- wp:paragraph {"className":"yw-tab__t"} -->
-<p class="yw-tab__t"><a href="/team/"><?php echo esc_html( yawara_rheumatology_t( 'tomasz_rehn_3135' ) ); ?></a></p>
+<p class="yw-tab__t"><a href="/team/"><?php echo esc_html( yawara_rheumatology_t( 'tamsin_rehn_3135' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"yw-tab__s"} -->
