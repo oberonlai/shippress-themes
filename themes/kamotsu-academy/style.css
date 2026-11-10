@@ -39,13 +39,16 @@ html:root { --sp-dist: 24px; --sp-dur: 0.6s; --sp-ease: cubic-bezier(0.45, 0, 0.
 }
 :root:lang(ja) {
 	--wp--preset--font-family--display: "Hanken Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
-	--wp--preset--font-family--body: "Work Sans", "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
+	--wp--preset--font-family--body: "Work Sans", "Hiragino Sans", "Yu Gothic", sans-serif;
 }
 :lang(ja) :is(h1, h2, h3, p) { word-break: auto-phrase; }
 :is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
 :is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.02em; }
 :lang(fr) body, :lang(de) body, :lang(fr) :is(h1, h2, h3), :lang(de) :is(h1, h2, h3) { hyphens: auto; }
 :is(:lang(zh), :lang(ja)) h1.ka-kv__word { line-height: 0.9; letter-spacing: -0.02em; hyphens: none; }
+:is(:lang(fr), :lang(de)) h1.ka-kv__word { hyphens: none; }
+:is(:lang(fr), :lang(de)) .ka-kv__l1 { font-size: calc(var(--wp--preset--font-size--kv-1) * 0.85); }
+:is(:lang(fr), :lang(de)) .ka-kv__l2 { font-size: calc(var(--wp--preset--font-size--kv-2) * 0.85); }
 
 /* ===== Base ===== */
 html, body { overflow-x: clip; }
@@ -405,6 +408,7 @@ body:has(.ka-kv) .ka-bar { background: transparent; }
 	.ka-pagewrap .ka-card__thumb img { height: 80px; }
 }
 :is(:lang(zh), :lang(ja)) .ka-pagehead__word { line-height: 0.9; letter-spacing: -0.02em; hyphens: none; }
+:is(:lang(fr), :lang(de)) .ka-pagehead__word { letter-spacing: 0; hyphens: none; font-size: min(calc(var(--ka-pk, 18) * 0.8vw), 10.6rem); }
 
 /* single post head: category word over the featured image */
 .ka-pagehead--post { position: relative; display: flex; min-height: 440px; padding: 44px var(--ka-m) 28px; box-sizing: border-box; margin: 0; align-items: stretch; }
