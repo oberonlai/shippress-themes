@@ -26,6 +26,8 @@ The shop, its products, address, telephone number and prices are fictional.
 
 Instrument Sans (SIL Open Font License 1.1, assets/fonts/OFL-InstrumentSans.txt) for headings and labels, and Onest (SIL Open Font License 1.1, assets/fonts/OFL-Onest.txt) for reading.
 
+Noto Sans TC and Noto Sans JP (SIL Open Font License 1.1, assets/fonts/OFL-NotoSansTC.txt and OFL-NotoSansJP.txt), subset to the characters of the Traditional Chinese and Japanese sample text, for headings in those languages.
+
 == Images ==
 
 The photographs in assets/images were generated with an AI image tool for this theme and are released under GPL-2.0-or-later with the theme. The two line drawings (elevation-room.svg and elevation-detail.svg) are original artwork. The scroll effects (assets/sp-scroll.css and sp-scroll.js) are ShipPress code under GPL-2.0-or-later.

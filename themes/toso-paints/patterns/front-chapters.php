@@ -11,9 +11,9 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tp-chapters","style":{"spacing":{"padding":{"left":"0","right":"0"}}},"layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull tp-chapters" style="padding-left:0;padding-right:0">
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paint.webp' ) ); ?>","dimRatio":40,"overlayColor":"ground","minHeight":100,"minHeightUnit":"vh","isDark":true,"alt":"Person seen from behind rolling moss green paint onto a wall in low light.","className":"tp-chap sp-parallax tp-par-10"} -->
-<div class="wp-block-cover tp-chap sp-parallax tp-par-10" style="min-height:100vh"><img class="wp-block-cover__image-background" alt="Person seen from behind rolling moss green paint onto a wall in low light." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paint.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
+<div class="wp-block-cover tp-chap sp-parallax tp-par-10" style="min-height:100vh"><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( toso_paints_t( 'a494a17fd' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paint.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-chap__top"><!-- wp:paragraph {"className":"tp-label tp-label--slant"} -->
-<p class="tp-label tp-label--slant">Ranges</p>
+<p class="tp-label tp-label--slant"><?php echo wp_kses_post( toso_paints_t( 'k92711ef5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tp-ticks"} -->
@@ -23,19 +23,19 @@
 
 <!-- wp:group {"className":"tp-chap__body","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-chap__body"><!-- wp:paragraph {"className":"tp-chap__small"} -->
-<p class="tp-chap__small">Chapter one</p>
+<p class="tp-chap__small"><?php echo wp_kses_post( toso_paints_t( 'k4eb2cb81' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tp-chap__word","fontSize":"huge"} -->
-<h2 class="wp-block-heading tp-chap__word has-huge-font-size">Paint</h2>
+<h2 class="wp-block-heading tp-chap__word has-huge-font-size"><?php echo wp_kses_post( toso_paints_t( 'k4802a5ac' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Durable House Matt, low-sheen Wood &amp; Metal Eggshell and mineral Lime Wash, each mixed with pigments that answer to the light in your window.</p>
+<p><?php echo wp_kses_post( toso_paints_t( 'k51605586' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tp-linkrow"} -->
-<p class="tp-linkrow"><a href="#catalogue">Explore ranges</a> <span class="tp-circle" aria-hidden="true">→</span></p>
+<p class="tp-linkrow"><a href="#catalogue"><?php echo wp_kses_post( toso_paints_t( 'k763f218d' ) ); ?></a> <span class="tp-circle" aria-hidden="true">→</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -45,9 +45,9 @@
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paper.webp' ) ); ?>","dimRatio":40,"overlayColor":"ground","minHeight":100,"minHeightUnit":"vh","isDark":true,"alt":"Hands smoothing a fresh wallpaper drop with a wide brush along a seam.","className":"tp-chap sp-parallax tp-par-10"} -->
-<div class="wp-block-cover tp-chap sp-parallax tp-par-10" style="min-height:100vh"><img class="wp-block-cover__image-background" alt="Hands smoothing a fresh wallpaper drop with a wide brush along a seam." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paper.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
+<div class="wp-block-cover tp-chap sp-parallax tp-par-10" style="min-height:100vh"><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( toso_paints_t( 'a9a40b726' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-paper.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-chap__top"><!-- wp:paragraph {"className":"tp-label tp-label--slant"} -->
-<p class="tp-label tp-label--slant">Ranges</p>
+<p class="tp-label tp-label--slant"><?php echo wp_kses_post( toso_paints_t( 'k92711ef5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tp-ticks"} -->
@@ -57,19 +57,19 @@
 
 <!-- wp:group {"className":"tp-chap__body","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-chap__body"><!-- wp:paragraph {"className":"tp-chap__small"} -->
-<p class="tp-chap__small">Chapter two</p>
+<p class="tp-chap__small"><?php echo wp_kses_post( toso_paints_t( 'ke9852b65' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tp-chap__word","fontSize":"huge"} -->
-<h2 class="wp-block-heading tp-chap__word has-huge-font-size">Paper</h2>
+<h2 class="wp-block-heading tp-chap__word has-huge-font-size"><?php echo wp_kses_post( toso_paints_t( 'kd0a662a5' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Paste-the-wall Linen-Weave and natural-fibre Grasscloth. We calculate the rolls from your room, in one batch, plus a spare.</p>
+<p><?php echo wp_kses_post( toso_paints_t( 'k76991c24' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tp-linkrow"} -->
-<p class="tp-linkrow"><a href="#catalogue">Explore ranges</a> <span class="tp-circle" aria-hidden="true">→</span></p>
+<p class="tp-linkrow"><a href="#catalogue"><?php echo wp_kses_post( toso_paints_t( 'k763f218d' ) ); ?></a> <span class="tp-circle" aria-hidden="true">→</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -79,9 +79,9 @@
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-mix.webp' ) ); ?>","dimRatio":40,"overlayColor":"ground","minHeight":100,"minHeightUnit":"vh","isDark":true,"alt":"Shop assistant stirring freshly tinted moss green paint in an open white can at the mixing counter.","className":"tp-chap sp-parallax tp-par-10"} -->
-<div class="wp-block-cover tp-chap sp-parallax tp-par-10" style="min-height:100vh"><img class="wp-block-cover__image-background" alt="Shop assistant stirring freshly tinted moss green paint in an open white can at the mixing counter." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-mix.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
+<div class="wp-block-cover tp-chap sp-parallax tp-par-10" style="min-height:100vh"><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( toso_paints_t( 'ae258f317' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/chapter-mix.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-ground-background-color has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"tp-chap__top","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-chap__top"><!-- wp:paragraph {"className":"tp-label tp-label--slant"} -->
-<p class="tp-label tp-label--slant">Ranges</p>
+<p class="tp-label tp-label--slant"><?php echo wp_kses_post( toso_paints_t( 'k92711ef5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tp-ticks"} -->
@@ -91,19 +91,19 @@
 
 <!-- wp:group {"className":"tp-chap__body","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-chap__body"><!-- wp:paragraph {"className":"tp-chap__small"} -->
-<p class="tp-chap__small">Chapter three</p>
+<p class="tp-chap__small"><?php echo wp_kses_post( toso_paints_t( 'ke4f86a05' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"className":"tp-chap__word","fontSize":"huge"} -->
-<h2 class="wp-block-heading tp-chap__word has-huge-font-size">Mix</h2>
+<h2 class="wp-block-heading tp-chap__word has-huge-font-size"><?php echo wp_kses_post( toso_paints_t( 'k3037bfcf' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Every tin is mixed to order at the Verfstraat counter, tested on a card and kept on file by recipe number.</p>
+<p><?php echo wp_kses_post( toso_paints_t( 'k5ab0a489' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tp-linkrow"} -->
-<p class="tp-linkrow"><a href="#catalogue">Explore ranges</a> <span class="tp-circle" aria-hidden="true">→</span></p>
+<p class="tp-linkrow"><a href="#catalogue"><?php echo wp_kses_post( toso_paints_t( 'k763f218d' ) ); ?></a> <span class="tp-circle" aria-hidden="true">→</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

@@ -13,19 +13,19 @@
 <div class="wp-block-group tp-hero__cols">
 <!-- wp:group {"className":"tp-col sp-parallax tp-par-6","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group tp-col sp-parallax tp-par-6"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-wall.webp' ) ); ?>" alt="Interior wall half painted in moss green with a paint roller on dust sheets."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-wall.webp' ) ); ?>" alt="<?php echo esc_attr( toso_paints_t( 'a78b91c4a' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tp-col sp-parallax tp-par-10","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group tp-col sp-parallax tp-par-10"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-paper.webp' ) ); ?>" alt="Shop clerk unrolling a roll of textured wallpaper sample across a dark wooden counter."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-paper.webp' ) ); ?>" alt="<?php echo esc_attr( toso_paints_t( 'a6310c7c1' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tp-col sp-parallax tp-par-8","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group tp-col sp-parallax tp-par-8"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-tin.webp' ) ); ?>" alt="Open metal tin of freshly mixed moss paint resting on a canvas dust sheet."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-tin.webp' ) ); ?>" alt="<?php echo esc_attr( toso_paints_t( 'ae84d4ddf' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -38,17 +38,17 @@
 
 <!-- wp:group {"className":"tp-hero__mark","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-hero__mark"><!-- wp:heading {"level":1,"className":"tp-wordmark"} -->
-<h1 class="wp-block-heading tp-wordmark">TOSO PAINTS</h1>
+<h1 class="wp-block-heading tp-wordmark"><?php echo wp_kses_post( toso_paints_t( 'kf10b8a8c' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"tp-hero__sub"} -->
-<p class="tp-hero__sub">Paint and wallpaper, matched to your room · Rotterdam since 2009</p>
+<p class="tp-hero__sub"><?php echo wp_kses_post( toso_paints_t( 'k3ff695fb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"tp-chip-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group tp-chip-wrap"><!-- wp:paragraph {"className":"tp-chip"} -->
-<p class="tp-chip"><span class="tp-chip__date">SAT 10:00</span> <a href="#journal">Swatch table every Saturday, 10:00–13:00</a> <span class="tp-arrow" aria-hidden="true">→</span></p>
+<p class="tp-chip"><span class="tp-chip__date"><?php echo wp_kses_post( toso_paints_t( 'kfb6a0a84' ) ); ?></span> <a href="#journal"><?php echo wp_kses_post( toso_paints_t( 'ke44df6e0' ) ); ?></a> <span class="tp-arrow" aria-hidden="true">→</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

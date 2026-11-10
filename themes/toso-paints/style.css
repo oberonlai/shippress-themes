@@ -372,3 +372,27 @@ html.sp-no-motion .tp-marquee__run + .tp-marquee__run { display: none; }
 .tp-par-6 { --sp-par: 6%; }
 .tp-par-8 { --sp-par: 8%; }
 .tp-par-10 { --sp-par: 10%; }
+
+/* Languages: Chinese and Japanese headings use a bundled Noto Sans subset (CJK characters only; Latin and figures stay in Instrument Sans / Onest); body uses system sans */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Instrument Sans", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", sans-serif;
+	--wp--preset--font-family--body: "Onest", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif;
+	--wp--preset--font-size--xx-large: clamp(1.75rem, 3.3vw, 3rem);
+	--wp--preset--font-size--huge: clamp(2.25rem, 4.2vw, 3.75rem);
+	--wp--preset--font-size--x-large: 2.25rem;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Instrument Sans", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+	--wp--preset--font-family--body: "Onest", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans CJK JP", sans-serif;
+	--wp--preset--font-size--xx-large: clamp(1.75rem, 3.3vw, 3rem);
+	--wp--preset--font-size--huge: clamp(2.25rem, 4.2vw, 3.75rem);
+	--wp--preset--font-size--x-large: 2.25rem;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) :is(.tp-label, .tp-brand) { letter-spacing: 0.1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .tp-chap__word { line-height: 1.2; letter-spacing: 0.02em; }
+:is(:lang(zh), :lang(ja)) .tp-marquee__text { font-size: clamp(2.25rem, 4.7vw, 4.25rem); letter-spacing: 0.04em; }
+:lang(ja) :is(h1, h2, h3, p) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3) { hyphens: auto; }
+:is(:lang(fr), :lang(de)) :is(.tp-chap__word, .tp-marquee__text) { font-size: clamp(2.5rem, 4.8vw, 4.2rem); overflow-wrap: break-word; }

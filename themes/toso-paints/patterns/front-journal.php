@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"tp-sec tp-journal","backgroundColor":"raised","anchor":"journal","layout":{"type":"constrained"}} -->
 <section id="journal" class="wp-block-group alignfull tp-sec tp-journal has-raised-background-color has-background"><!-- wp:group {"align":"wide","className":"tp-journal__in","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide tp-journal__in"><!-- wp:paragraph {"className":"tp-label tp-label--slant"} -->
-<p class="tp-label tp-label--slant">Journal</p>
+<p class="tp-label tp-label--slant"><?php echo wp_kses_post( toso_paints_t( 'k6b2b5614' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:query {"queryId":8,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"className":"tp-rows"} -->
@@ -27,13 +27,13 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph -->
-<p>New notes are on the way.</p>
+<p><?php echo wp_kses_post( toso_paints_t( 'ka702e6af' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query -->
 
 <!-- wp:paragraph {"className":"tp-linkrow"} -->
-<p class="tp-linkrow"><a href="/journal/">Read journal</a> <span class="tp-circle" aria-hidden="true">→</span></p>
+<p class="tp-linkrow"><a href="/journal/"><?php echo wp_kses_post( toso_paints_t( 'k5952bddb' ) ); ?></a> <span class="tp-circle" aria-hidden="true">→</span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
