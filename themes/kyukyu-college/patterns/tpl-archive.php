@@ -8,9 +8,23 @@
  */
 ?>
 <!-- wp:group {"tagName":"main","className":"kk-main","layout":{"type":"default"}} -->
-<main class="wp-block-group kk-main"><!-- wp:group {"className":"kk-sec kk-wrap kk-notes-page","layout":{"type":"default"}} -->
+<main class="wp-block-group kk-main"><!-- wp:group {"className":"kk-wrap kk-pagephoto","layout":{"type":"default"}} -->
+<div class="wp-block-group kk-wrap kk-pagephoto"><!-- wp:query {"queryId":3,"query":{"perPage":1,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":false},"layout":{"type":"default"}} -->
+<div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default"}} -->
+<!-- wp:group {"className":"kk-polys sp-parallax","layout":{"type":"default"}} -->
+<div class="wp-block-group kk-polys sp-parallax"><!-- wp:post-featured-image {"isLink":false} /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kk-sec kk-wrap kk-notes-page","layout":{"type":"default"}} -->
 <div class="wp-block-group kk-sec kk-wrap kk-notes-page"><!-- wp:paragraph {"className":"kk-word kk-wordpad"} -->
 <p class="kk-word kk-wordpad"><?php echo wp_kses_post( kyukyu_college_t( 'kad11572a' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kk-sub kk-notes-sub"} -->
+<p class="kk-sub kk-notes-sub"><?php echo wp_kses_post( kyukyu_college_t( 'k00fefc53' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:query-title {"type":"archive","level":1,"className":"kk-pagetitle"} /-->

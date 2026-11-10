@@ -147,7 +147,7 @@ a { text-underline-offset: 0.18em; }
 .kk-disc__btn { display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; background: var(--kk-ink); transition: transform 0.3s ease-out; }
 .kk-disc__btn svg { margin-left: 3px; }
 .kk-disc:hover .kk-disc__btn { transform: scale(1.05); }
-.kk-disc__cap { grid-column: 2 / 4; grid-row: 3; justify-self: end; align-self: start; margin-top: 10px; position: relative; z-index: 2; font-family: var(--kk-body); font-weight: 600; font-size: 0.8125rem; color: var(--kk-ink); text-decoration: none; }
+.kk-disc__cap { position: absolute; right: 114px; bottom: 60px; z-index: 2; padding: 4px 8px; background: #fff; font-family: var(--kk-body); font-weight: 600; font-size: 0.8125rem; color: var(--kk-ink); text-decoration: none; }
 .kk-disc__cap:hover { color: var(--kk-red); }
 .kk-term { grid-column: 2 / 4; grid-row: 4; list-style: none; margin: 14px 0 0 !important; padding: 0 0 16px; position: relative; display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--kk-ink); z-index: 2; }
 .kk-term li { position: relative; font-size: 0.8125rem; color: var(--kk-ink); margin: 0; }
@@ -164,7 +164,7 @@ a { text-underline-offset: 0.18em; }
 	.kk-hero__photo { height: auto; min-height: 0; aspect-ratio: 4 / 3; --sp-par: 5%; }
 	.kk-disc { right: 14px; bottom: 14px; }
 	.kk-disc__btn { width: 44px; height: 44px; }
-	.kk-disc__cap { display: block; margin-top: 12px; }
+	.kk-disc__cap { right: 66px; bottom: 20px; font-size: 0.75rem; }
 	.kk-term { margin-top: 20px !important; grid-template-columns: 1fr 1fr; gap: 12px 16px; border-bottom: 0; padding: 0; }
 	.kk-term li, .kk-term li:nth-child(4) { position: relative; right: auto; bottom: auto; text-align: left; padding-left: 20px; }
 	.kk-term li::after, .kk-term li:nth-child(4)::after { left: 0; right: auto; bottom: auto; top: 0.35em; }
@@ -333,3 +333,11 @@ a { text-underline-offset: 0.18em; }
 @media (max-width: 781px) { .kk-mods li { gap: 12px; } }
 .kk-wordpad { padding: var(--kk-sp) var(--kk-cp) 0; }
 .kk-wordpad + .kk-pagetitle { padding-top: 12px; }
+
+/* hero lockup keeps its tight line height in zh/ja (beats the :lang() heading rule) */
+:is(:lang(zh), :lang(ja)) h1.kk-hero__name { line-height: 0.86; letter-spacing: -0.02em; }
+:is(:lang(zh), :lang(ja)) h1.kk-hero__name .kk-l3 { line-height: 0.9; }
+/* Stories archive head: featured photo with polygons, red sub line */
+.kk-polys .wp-block-post-featured-image { height: 100%; margin: 0; }
+.kk-polys .wp-block-post-featured-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.kk-notes-page .kk-notes-sub { padding: 0 48px; margin-top: 0; }

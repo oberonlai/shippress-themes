@@ -22,11 +22,11 @@
 
 <!-- wp:html -->
 <a class="kk-disc" href="/#term" aria-label="<?php echo esc_attr( kyukyu_college_t( 'a2f08be57' ) ); ?>"><span class="kk-disc__btn"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="#fff" d="M9 6.5v11l9-5.5z"/></svg></span></a>
-<!-- /wp:html --></div>
-<!-- /wp:group -->
+<!-- /wp:html -->
 <!-- wp:html -->
 <?php echo wp_kses_post( kyukyu_college_t( 'kb8fdd22e' ) ); ?>
-<!-- /wp:html -->
+<!-- /wp:html --></div>
+<!-- /wp:group -->
 <!-- wp:html -->
 <ul class="kk-term"><li><strong><?php echo wp_kses_post( kyukyu_college_t( 'kf04aa701' ) ); ?></strong> <?php echo wp_kses_post( kyukyu_college_t( 'kce61e23b' ) ); ?></li><li><strong><?php echo wp_kses_post( kyukyu_college_t( 'kd207b4e0' ) ); ?></strong> <?php echo wp_kses_post( kyukyu_college_t( 'k5aab5973' ) ); ?></li><li><strong><?php echo wp_kses_post( kyukyu_college_t( 'k7ce6b228' ) ); ?></strong> <?php echo wp_kses_post( kyukyu_college_t( 'kd9f5674d' ) ); ?></li><li><strong><?php echo wp_kses_post( kyukyu_college_t( 'ka2866cd6' ) ); ?></strong> <?php echo wp_kses_post( kyukyu_college_t( 'k0ec14341' ) ); ?></li></ul>
 <!-- /wp:html --></section>
