@@ -60,7 +60,16 @@ Prices include the lorry for the test and a warm-up drive; official test fees ar
 - **Sofia Ferreira**: Refresher Trainee. Returned to professional driving after ten years away, completing a dedicated one-to-one refresher day in the yard.
 
 ## Pages
-Home; Courses; Class C+E; Class C; The yard weeks; Fees & dates; Test day; About; Fleet & yard; Stories (posts: Leila, Marcus, Sofia, and a notice about intakes); Contact & visit.
+Every inner page opens with a page-head band: a full-width documentary photo under one white caps word, with a white info card docked at its bottom-right corner.
+- Courses (COURSES): four tall promo cards, a comparison table, three text sections.
+- Class C+E (C+E) and Class C (CLASS C): who it is for, the six-day road, vehicle and test photos, prices, square cards for the other courses.
+- The yard weeks (THE YARD): the seven-week road, week-by-week rows with photos, the daily yard schedule, the mock test.
+- Fees & dates (FEES): the seven-price table, 2027 intake dates, what is and is not included, square cards.
+- Test day (TEST DAY): booking, the three test parts, a parallax dawn-road band, the retest.
+- About (SINCE 2009): founding story, the five staff, the yard panorama strip.
+- Fleet & yard (FLEET): five lorries, yard facts, the coupling photo.
+- Contact & visit (VISIT): address, hours, phone, email, open yard Saturdays, assessment drive.
+- Stories: posts page, category, tag and archive pages use the square story cards; one full story (Leila) is on a single post template.
 
 ## Claims
 No pass-rate guarantees, awards, real media, real test bodies or real brands. The academy, its people, address, telephone number and prices are fictional.
