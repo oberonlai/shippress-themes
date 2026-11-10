@@ -46,3 +46,6 @@ Rent Notes: one page a quarter by email, the lettings and sales compared that qu
 1. Full-bleed documentary photograph with a white square logo tile, a floating white nav slab with one pill, a bottom-left two-line headline over a 20 px rule and a turning ring badge.
 2. Two full-photograph instruction panels that touch with no gap, a dark scrim, text on the photo bottom-left and a 44 px outline circle arrow, half backed by the lead band.
 3. A strip of three tall photographs flush to the window's left edge rising 40 px above the lead request band, with a large phone figure and the one accent pill.
+
+## Inner pages (en)
+About (founding story, the seven people, lender and owner desks, three recent instructions), Instructions (two panels, scope lists, documents, five questions), Site hour (the four-part card deck, before and after the hour), Report (twenty pages in four row groups, lender and owner formats), Fees (the seven-row table, notes, payment and cancellation), News (posts page, report-style rows), Rent Notes (quarterly page, early-access form), Contact (mail lines, three steps), Thanks, Privacy, Terms. Every photo-head page repeats the home signatures: logo tile and floating slab, bottom-left headline over a 20 px rule, touching photo panels and the photo-strip request band.

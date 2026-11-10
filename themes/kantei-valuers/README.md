@@ -4,6 +4,7 @@ Kantei Valuers is a long-form landing WordPress theme for commercial property va
 
 ## Structure
 - `patterns/front-*.php`: the nine home sections (hero, practice, people, instructions, cases, site hour, report, fees, request band); `head-bar.php` and `foot-main.php` are the header and footer.
+- `patterns/head-*.php`, `pair-*.php`, `inner-*.php`: inner-page photo heads, touching photo panels, scope, documents, recent, steps and the early-access form (builders in `inc/inner.php`).
 - `templates/`: front page, page, single entry, news list, archive, category, tag, search and 404.
 - `inc/i18n/<lang>.php`: the theme strings; `demo-content*.json`: sample content.
 - Photos: `assets/images/` (AI-generated, GPL-2.0-or-later / CC0). See `readme.txt` for the list.
