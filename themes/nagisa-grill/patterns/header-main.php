@@ -30,7 +30,7 @@
 
 <!-- wp:buttons {"className":"ng-header__cta"} -->
 <div class="wp-block-buttons ng-header__cta"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/tables/">Book a table</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/tables/"><span class="ng-cta-long">Book a table</span><span class="ng-cta-short">Book</span></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

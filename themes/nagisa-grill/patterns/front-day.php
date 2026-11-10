@@ -19,7 +19,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"ng-day__photo"} -->
-<figure class="wp-block-image size-full ng-day__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-chalk.webp' ) ); ?>" alt="Close-up of a hand writing with chalk across a dark kitchen slate board." style="aspect-ratio:4/5;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full ng-day__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-chalk.webp' ) ); ?>" alt="A hand with a stub of chalk ruling lines across a dark kitchen slate board." style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

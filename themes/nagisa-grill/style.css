@@ -56,9 +56,10 @@ a { text-underline-offset: 0.25em; }
 .ng-label { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; margin: 0 0 24px; }
 .ng-label > * { margin: 0; }
 .ng-label__t, .ng-card__date, .ng-row__time, .ng-footer__lbl {
-	font-size: 0.875rem; line-height: 1.5; letter-spacing: 0.12em; font-variant-caps: all-small-caps; text-transform: none;
+	font-size: 0.75rem; line-height: 1.5; letter-spacing: 0.14em; text-transform: uppercase;
 }
-.ng-label__t { color: var(--ng-slate); margin: 0; }
+.ng-row__time { font-size: 0.875rem; color: #5E6E78; }
+.ng-label__t { color: #5E6E78; margin: 0; }
 .ng-label__t a { color: inherit; text-decoration: none; }
 .ng-scene .ng-tide, .ng-concept .ng-tide, .ng-visit .ng-tide, .ng-footer .ng-tide { color: #fff; }
 .ng-scene .ng-label__t, .ng-concept .ng-label__t, .ng-visit .ng-label__t { color: rgba(255, 255, 255, .85); }
@@ -88,6 +89,12 @@ a { text-underline-offset: 0.25em; }
 	font-family: var(--ng-disp); font-weight: 300; font-size: clamp(2.5rem, 6.1vw, 5.5rem); line-height: 1.5; letter-spacing: 0; text-decoration: none;
 }
 .ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { align-items: flex-start; gap: 0; }
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:nth-last-child(-n+2) { margin-top: 0; }
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:nth-last-child(2) { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255, 255, 255, .35); }
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:nth-last-child(-n+2) a,
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:nth-last-child(-n+2) .wp-block-navigation-item__label {
+	font-family: var(--ng-body); font-weight: 400; font-size: 1rem; line-height: 1.8; letter-spacing: 0.04em;
+}
 .ng-logo { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
 .ng-logo > * { margin: 0; }
 .ng-logo__name { font: 400 1.25rem/1.2 var(--ng-disp); letter-spacing: 0.22em; text-transform: uppercase; white-space: nowrap; }
@@ -98,6 +105,7 @@ a { text-underline-offset: 0.25em; }
 .ng-header__visit { font-size: 0.875rem; letter-spacing: 0.06em; }
 .ng-header__cta .wp-block-button__link { display: inline-flex; align-items: center; height: 48px; padding: 0 26px; border-radius: 999px; background: var(--ng-band); color: #fff; font-size: 1rem; white-space: nowrap; text-decoration: none; transition: background-color .3s; }
 .ng-header__cta .wp-block-button__link:hover { background: var(--ng-slate); }
+.ng-cta-short { display: none; }
 .ng-header-solid .ng-header { position: relative; background: var(--ng-band); }
 .ng-header-solid .ng-header__bar { height: 60px; }
 .ng-header-solid .ng-header__cta .wp-block-button__link { background: #fff; color: var(--ng-ink); height: 40px; }
@@ -106,7 +114,9 @@ a { text-underline-offset: 0.25em; }
 	.ng-header__visit, .ng-logo__sub { display: none; }
 	.ng-logo__name { font-size: 0.875rem; letter-spacing: 0.16em; }
 	.ng-tide--logo { width: 104px; }
-	.ng-header__cta .wp-block-button__link { height: 40px; padding: 0 12px; font-size: 0.75rem; }
+	.ng-cta-long { display: none; }
+	.ng-cta-short { display: inline; }
+	.ng-header__cta .wp-block-button__link { height: 40px; padding: 0 16px; font-size: 0.8125rem; }
 	.ng-header-solid .ng-header__bar { height: 64px; }
 }
 
@@ -133,6 +143,7 @@ a { text-underline-offset: 0.25em; }
 .ng-tabs .ng-tab .wp-block-button__link:focus-visible { outline: 2px solid var(--ng-ember); outline-offset: 2px; }
 @media (max-width: 781px) {
 	.ng-kv { --sp-par: 6%; }
+	.ng-kv .wp-block-cover__image-background { object-position: 70% 30% !important; }
 	.ng-kv .wp-block-cover__inner-container { padding: 0 24px; }
 	.ng-infobar { flex-direction: column; align-items: stretch; gap: 10px; padding: 16px 0 24px; }
 	.ng-infobar__r { flex-direction: column; align-items: stretch; gap: 14px; }
@@ -178,7 +189,7 @@ a { text-underline-offset: 0.25em; }
 .ng-rows { display: block; background: var(--ng-tide-line) repeat-x left top; padding-top: 8px; margin-bottom: 40px; }
 .ng-row { display: grid; grid-template-columns: 96px minmax(0, 1fr); column-gap: 24px; padding: 28px 0 32px; background: var(--ng-tide-line) repeat-x left bottom; margin: 0; }
 .ng-row > * { margin: 0; }
-.ng-row__time { color: var(--ng-slate); padding-top: 0.45rem; }
+.ng-row__time { padding-top: 0.3rem; }
 .ng-row__body > * { margin: 0; }
 .ng-row__body h3 { font-weight: 400; margin-bottom: 8px; }
 .ng-day .ng-link, .ng-tables .ng-link { color: var(--ng-band); }
@@ -247,7 +258,7 @@ a { text-underline-offset: 0.25em; }
 .ng-card > * { margin: 0; }
 .ng-card__img { margin: 0 0 20px; }
 .ng-card__img img { display: block; width: 100%; border-radius: 0; }
-.ng-card__date { color: var(--ng-slate); margin-bottom: 6px; }
+.ng-card__date { color: #5E6E78; margin-bottom: 6px; }
 .ng-card__t { font: 400 1.5rem/1.35 var(--ng-disp); margin: 0; }
 .ng-card__t a { color: var(--ng-ink); text-decoration: none; }
 .ng-card__t a:hover { color: var(--ng-slate); }
@@ -260,7 +271,7 @@ a { text-underline-offset: 0.25em; }
 /* ---------- visit band ---------- */
 .ng-visit { --sp-par: 10%; color: #fff; padding: 0; min-height: 72svh !important; }
 .wp-block-cover.has-custom-content-position.has-custom-content-position.ng-visit .wp-block-cover__inner-container { width: 100%; padding: 120px var(--ng-gut) 96px; }
-.ng-visit__col .ng-copy { margin-bottom: 0; }
+.ng-visit__col .ng-copy { margin-bottom: 0; max-width: 640px; }
 .ng-visit__actions { display: flex; align-items: center; gap: 32px; margin-top: 40px; }
 .ng-visit__actions > * { margin: 0; }
 .ng-pill-white .wp-block-button__link { background: #fff; color: var(--ng-ink); }

@@ -43,7 +43,7 @@
 <!-- /wp:cover -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-bream.webp' ) ); ?>","dimRatio":35,"overlayColor":"scene","isUserOverlayColor":true,"minHeight":640,"className":"ng-panel sp-reveal sp-reveal--up"} -->
-<div class="wp-block-cover ng-panel sp-reveal sp-reveal--up" style="min-height:640px"><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim-35 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Whole grilled fish served on an oval platter with lemon wedges and greens." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-bream.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3,"className":"ng-panel__t"} -->
+<div class="wp-block-cover ng-panel sp-reveal sp-reveal--up" style="min-height:640px"><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim-35 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Two guests sharing plates, bread and a jug of water at a linen-covered table." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-bream.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3,"className":"ng-panel__t"} -->
 <h3 class="wp-block-heading ng-panel__t">Whole fish for two</h3>
 <!-- /wp:heading -->
 

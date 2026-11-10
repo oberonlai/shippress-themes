@@ -27,7 +27,7 @@
 
 <!-- wp:group {"className":"ng-rules"} -->
 <div class="wp-block-group ng-rules"><!-- wp:paragraph {"className":"ng-rule"} -->
-<p class="ng-rule">Book up to 30 days ahead, for parties of 1 to 8 guests.</p>
+<p class="ng-rule">Parties of up to 8 at one table; larger groups write first.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ng-rule"} -->

@@ -31,7 +31,7 @@ The dining room opens for only one dinner service from Wednesday to Sunday, with
 - **Henrik Dahl** — Wine and the bar. Oversees the zinc bar and selects the wines poured during service; opens the counter at 17:30 for early arrivals and shore plates.
 
 ## Process (how a table is held)
-1. Book up to 30 days ahead by form or email, for parties of 1 to 8 guests.
+1. Parties of up to 8 sit at one table; larger groups write first.
 2. A deposit of €20 per guest holds the table and comes off the bill.
 3. We hold your table for 15 minutes after the seating time.
 4. Cancel by 15:00 the day before and the deposit is returned in full.
@@ -45,7 +45,7 @@ The dining room opens for only one dinner service from Wednesday to Sunday, with
 - Table deposit — per guest, taken off the bill — **€20**
 
 ## Fixed numbers
-Founded 2019 · 7 Harbour Row · one boat (Wren, Berth 14) · out 05:30, in 10:30 · bar 17:30 · seatings 18:00 and 20:30 · last order 22:00 · doors close 23:00 · stock simmers 6 hours · bread baked at 14:00 · tables for 1 to 8 · book up to 30 days ahead · deposit €20 per guest · table held 15 minutes · cancel by 15:00 the day before. No awards, no press, no "best", no guaranteed freshness, no real brands or places.
+Founded 2019 · 7 Harbour Row · one boat (Wren, Berth 14) · out 05:30, in 10:30 · bar 17:30 · seatings 18:00 and 20:30 · last order 22:00 · doors close 23:00 · stock simmers 6 hours · bread baked at 14:00 · tables for 1 to 8 · deposit €20 per guest · table held 15 minutes · cancel by 15:00 the day before. No awards, no press, no "best", no guaranteed freshness, no real brands or places.
 
 ## Signature techniques (carried to inner pages)
 1. Foot wordmark and info bar: the six-letter name spread edge to edge along the bottom of a dimmed full-bleed film photograph, with a hairline info row and two outlined tabs beneath (inner pages: the same head at 64svh with a tracked page title).
