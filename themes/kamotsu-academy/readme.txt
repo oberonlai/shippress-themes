@@ -27,7 +27,7 @@ The academy, its people, address, telephone number, figures and prices are ficti
 == Copyright ==
 
 Kamotsu Academy is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Hanken Grotesk (OFL-1.1), Latin variable, regular and italic; Work Sans (OFL-1.1), Latin variable; all WOFF2, see assets/fonts/.
+Fonts: Hanken Grotesk (OFL-1.1), Latin variable, regular and italic; Work Sans (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), Bold, subset; Noto Sans JP (OFL-1.1), Bold, subset; all WOFF2, see assets/fonts/.
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as photorealistic high-key documentary photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the academy is fictional). No transparent cut-outs are used.
