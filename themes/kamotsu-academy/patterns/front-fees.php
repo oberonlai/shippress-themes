@@ -31,6 +31,9 @@
 <!-- /wp:button -->
 </div>
 <!-- /wp:buttons -->
+<!-- wp:paragraph {"className":"ka-fees__dates"} -->
+<p class="ka-fees__dates"><?php echo wp_kses_post( kamotsu_academy_t( 'fees_dates' ) ); ?></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:html -->

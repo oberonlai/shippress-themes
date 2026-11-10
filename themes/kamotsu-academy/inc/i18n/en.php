@@ -115,6 +115,7 @@ return array(
 	'fees_k' => 'Fees',
 	'fees_h' => 'What it costs.',
 	'fees_lead' => 'Prices include the lorry for the test and a warm-up drive. The official test fees are paid by you to the testing authority.',
+	'fees_dates' => 'Course start dates in 2027: 12 Jan, 9 Mar, 11 May, 6 Jul, 14 Sep and 9 Nov.',
 	'fees_pill' => 'Fees &amp; dates',
 	'f1_t' => 'Assessment drive',
 	'f1_d' => '2 hours · deducted from a course booked within 30 days',
