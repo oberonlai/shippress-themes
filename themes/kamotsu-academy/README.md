@@ -23,3 +23,23 @@ Version 1.0.0 · GPL-2.0-or-later · Fonts: Hanken Grotesk (display), Work Sans 
 - `inc/`: demo import (pages, menu, stories), language helpers.
 - `assets/images/`: AI-generated photographs, CC0. `assets/fonts/`: the two font families with their licence.
 - `brand.md` and `brand/`: brand notes, design spec and reference mapping.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/kamotsu-academy/home-desktop.webp" width="640" alt="Kamotsu Academy home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kamotsu-academy/home-mobile.webp" width="200" alt="Kamotsu Academy home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/kamotsu-academy/about-desktop.webp) · [mobile](https://shots.codotx.com/kamotsu-academy/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kamotsu-academy/news-desktop.webp) · [mobile](https://shots.codotx.com/kamotsu-academy/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kamotsu-academy/article-desktop.webp) · [mobile](https://shots.codotx.com/kamotsu-academy/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kamotsu-academy/category-desktop.webp) · [mobile](https://shots.codotx.com/kamotsu-academy/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kamotsu-academy/tag-desktop.webp) · [mobile](https://shots.codotx.com/kamotsu-academy/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kamotsu-academy/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kamotsu-academy/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kamotsu-academy/contact-desktop.webp) · [mobile](https://shots.codotx.com/kamotsu-academy/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kamotsu-academy/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kamotsu-academy/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kamotsu-academy/fr/home-desktop.webp) · [de](https://shots.codotx.com/kamotsu-academy/de/home-desktop.webp)
+<!-- screenshots:end -->
