@@ -9,11 +9,27 @@
  */
 ?>
 <!-- wp:group {"tagName":"main","className":"ka-main","layout":{"type":"default"}} -->
-<main class="wp-block-group ka-main"><!-- wp:group {"className":"ka-sec ka-wrap ka-arch","layout":{"type":"default"}} -->
-<div class="wp-block-group ka-sec ka-wrap ka-arch">
-<!-- wp:heading {"level":1,"className":"ka-pagetitle"} -->
-<h1 class="wp-block-heading ka-pagetitle"><?php echo wp_kses_post( kamotsu_academy_t( 'tpl_stories' ) ); ?></h1>
+<main class="wp-block-group ka-main">
+<!-- wp:group {"align":"full","className":"ka-pagewrap","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull ka-pagewrap">
+<!-- wp:group {"tagName":"section","className":"ka-pagehead","layout":{"type":"default"}} -->
+<section class="wp-block-group ka-pagehead">
+<!-- wp:cover {"url":"<?php echo kamotsu_academy_img( 'p09-theory-evening.webp' ); ?>","dimRatio":0,"focalPoint":{"x":0.5,"y":0.5},"isDark":false,"className":"ka-pagehead__photo","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light ka-pagehead__photo"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo kamotsu_academy_a( 'alt_p09' ); ?>" src="<?php echo kamotsu_academy_img( 'p09-theory-evening.webp' ); ?>" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><div class="wp-block-cover__inner-container"></div></div>
+<!-- /wp:cover -->
+<!-- wp:heading {"level":1,"className":"ka-pagehead__word ka-pw-7"} -->
+<h1 class="wp-block-heading ka-pagehead__word ka-pw-7"><?php echo wp_kses_post( kamotsu_academy_t( 'arch_word' ) ); ?></h1>
 <!-- /wp:heading -->
+</section>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"ka-sec ka-wrap ka-arch","layout":{"type":"default"}} -->
+<div class="wp-block-group ka-sec ka-wrap ka-arch">
+<!-- wp:paragraph {"className":"ka-lead ka-lead--xl"} -->
+<p class="ka-lead ka-lead--xl"><?php echo wp_kses_post( kamotsu_academy_t( 'arch_intro' ) ); ?></p>
+<!-- /wp:paragraph -->
 <!-- wp:query {"queryId":12,"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"className":"ka-sq-q","layout":{"type":"default"}} -->
 <div class="wp-block-query ka-sq-q"><!-- wp:post-template {"className":"ka-sq-row sp-stagger","layout":{"type":"default"}} -->
 <!-- wp:group {"className":"ka-sq sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
