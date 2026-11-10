@@ -80,7 +80,7 @@
 <!-- wp:group {"className":"yw-white"} -->
 <div class="wp-block-group yw-white"><!-- wp:group {"className":"yw-lockup"} -->
 <div class="wp-block-group yw-lockup"><!-- wp:paragraph {"className":"yw-lockup__name"} -->
-<p class="yw-lockup__name">Yawara Rheumatology</p>
+<p class="yw-lockup__name"><?php echo wp_kses_post( yawara_rheumatology_t( 'kb02192b0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"yw-lockup__sub"} -->

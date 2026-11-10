@@ -23,7 +23,7 @@ The clinic, its people, address, telephone number and fees are fictional.
 == Copyright ==
 
 Yawara Rheumatology is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Figtree (OFL-1.1), Latin variable, roman and italic; Public Sans (OFL-1.1), Latin variable; all WOFF2, see assets/fonts/.
+Fonts: Figtree (OFL-1.1), Latin variable, roman and italic; Public Sans (OFL-1.1), Latin variable; Noto Sans TC and Noto Sans JP (OFL-1.1), subsets for the Traditional Chinese and Japanese sample text; all WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js, ShipPress, GPL-2.0-or-later.
 
 = Images =

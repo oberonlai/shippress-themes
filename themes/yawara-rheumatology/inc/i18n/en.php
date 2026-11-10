@@ -1,15 +1,23 @@
 <?php
-/**
- * Yawara Rheumatology: theme strings (English).
- *
- * @package yawara-rheumatology
- */
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
-
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
+	'date_fmt' => 'j F Y',
+	'k006300ef' => 'Fees',
+	'k13348442' => 'Search',
+	'k229eb040' => 'Conditions',
+	'k6b2b5614' => 'Journal',
+	'k6ce3bdc3' => 'Questions',
+	'k9906c684' => 'Your first visit',
+	'kac848fa2' => 'Team',
+	'kb02192b0' => 'Yawara Rheumatology',
+	'kbbaff128' => 'Contact',
+	'kc5f29bb3' => 'Privacy',
+	'kc92a7d43' => '© 2026 Yawara Rheumatology. A fictional clinic; all names, places and figures are invented.',
+	'kd0fbda98' => 'Page not found',
+	'kd254861f' => 'Notices',
+	'kdf9c2823' => '12 LINDEN ROW · HARROW QUAY',
+	'kfca8a5d7' => 'Book a first visit',
+	'search_results' => 'Search results for: %s',
 	'08_30_c8d4' => '08:30',
 	'flare_slots_52b1' => 'FLARE SLOTS',
 	'a_sunlit_clinic_waiting_room_wit_fa79' => 'A sunlit clinic waiting room with chairs, a potted plant and a person reading.',
