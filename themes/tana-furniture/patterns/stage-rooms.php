@@ -30,7 +30,7 @@
 
 <!-- wp:group {"className":"tf-stage__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group tf-stage__copy"><!-- wp:heading {"level":1,"className":"tf-h1"} -->
-<h1 class="wp-block-heading tf-h1"><span class="tf-step"><?php echo esc_html( tana_furniture_t( 'sg_rooms_h1_1' ) ); ?></span><span class="tf-step"><?php echo esc_html( tana_furniture_t( 'sg_rooms_h1_2' ) ); ?></span></h1>
+<h1 class="wp-block-heading tf-h1"><?php echo tana_furniture_hero( array( 'sg_rooms_h1_1', 'sg_rooms_h1_2' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"is-style-stamp tf-stamp"} -->

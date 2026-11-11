@@ -95,3 +95,17 @@ function tana_furniture_e( $key ) {
 function tana_furniture_a( $key ) {
 	echo esc_attr( tana_furniture_t( $key ) );
 }
+
+/**
+ * One flowing hero headline; CJK wraps only between translated phrases.
+ *
+ * @param string[] $keys Localised phrase keys.
+ * @return string Escaped inline HTML.
+ */
+function tana_furniture_hero( $keys ) {
+	$separator = in_array( tana_furniture_lang(), array( 'zh-TW', 'ja' ), true ) ? '<wbr>' : ' ';
+	$phrases   = array_map( function ( $key ) {
+		return '<span class="tf-phrase">' . esc_html( tana_furniture_t( $key ) ) . '</span>';
+	}, $keys );
+	return implode( $separator, $phrases );
+}
