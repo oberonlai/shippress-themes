@@ -423,11 +423,11 @@ body:not(:has(.ng-kv, .ng-head)) .ng-header__cta .wp-block-button__link { backgr
 .ng-main--plain .ng-query { padding-top: clamp(4rem, 7vw, 6rem); }
 @media (max-width: 781px) { .ng-prose-sect, .ng-band, .ng-dark { padding-inline: 24px; } .ng-close { padding-inline: 24px; } }
 
-/* Languages: Chinese and Japanese use a bundled Noto Serif subset (CJK characters only; Latin and figures stay in Fraunces / Source Serif 4) */
-@font-face { font-family: "Noto Serif TC"; font-style: normal; font-weight: 300 600; font-display: swap; src: url("assets/fonts/noto-serif-tc-subset.woff2") format("woff2"); }
+/* Languages: Latin stays in Fraunces / Source Serif 4. zh-TW headings use the bundled Noto Serif TC subset; zh-TW body uses system Traditional Chinese fonts. Japanese uses the bundled Noto Serif JP subset. */
+@font-face { font-family: "Noto Serif TC"; font-style: normal; font-weight: 300 600; font-display: swap; src: url("assets/fonts/noto-serif-tc-zh-tw-400.woff2") format("woff2"); }
 :root:lang(zh) {
-	--wp--preset--font-family--display: "Fraunces", "Noto Serif TC", "Noto Serif CJK TC", "PingFang TC", serif;
-	--wp--preset--font-family--body: "Source Serif 4", "Noto Serif TC", "Noto Serif CJK TC", "PingFang TC", serif;
+	--wp--preset--font-family--display: "Fraunces", "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+	--wp--preset--font-family--body: "Source Serif 4", "Songti TC", "PMingLiU", "Microsoft JhengHei", serif;
 }
 :is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
 :is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.45; letter-spacing: 0.04em; }

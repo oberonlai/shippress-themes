@@ -25,7 +25,7 @@ The restaurant, its people, address and prices are fictional.
 == Copyright ==
 
 Nagisa Grill is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Fraunces (OFL-1.1), Latin variable; Source Serif 4 (OFL-1.1), Latin variable, roman and italic; all WOFF2, see assets/fonts/.
+Fonts: Fraunces (OFL-1.1), Latin variable; Source Serif 4 (OFL-1.1), Latin variable, roman and italic; Noto Serif TC (OFL-1.1), Traditional Chinese heading subset; Noto Serif JP (OFL-1.1), Japanese subset; all WOFF2, see assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js, ShipPress, GPL-2.0-or-later.
 Forms: inc/shippress-forms.php, assets/shippress-forms.css and assets/shippress-forms-editor.js, ShipPress, GPL-2.0-or-later.
 
