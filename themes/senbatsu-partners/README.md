@@ -1,6 +1,8 @@
 # Senbatsu Partners
 
-A block theme for a retained executive search firm: one long conversion page with an anchor menu and a single repeated next step, "Open a search". Dusk-navy diagonal hero with a documentary partner photograph and a grey-framed next-step holder, a proof strip of filled seats, 4 x 2 label-above seat tiles, chevron criteria lists, a shortlist narrative with a parallax corridor band, a transparent fee table, a partner profile, case letters and an FAQ. Manrope for headings, Instrument Sans for reading, and a Noto Sans TC subset for Traditional Chinese headings.
+A block theme for a retained executive search firm: one long conversion page with an anchor menu and a single repeated next step, "Open a search". Solid deep-navy hero with a clear documentary partner photograph, a strong Instrument Sans headline and direct primary/secondary actions, a proof strip of filled seats, 4 x 2 label-above seat tiles, chevron criteria lists, a shortlist narrative with a parallax corridor band, a transparent fee table, a partner profile, case letters and an FAQ. Instrument Sans for hero headings and reading, Manrope for section headings, and a Noto Sans TC subset for Traditional Chinese headings.
+
+Version 1.0.1 removes the floating role-brief card and photo wash, gives inner heroes the same clean split, and stacks the photo/actions on small screens. The original bizreach.jp-inspired 80×2 brick rule and navy/brick relationship remain; the hero field deepens to `#1F2D3B`, with the existing `#B4412F` action colour.
 
 All people, the firm and its fees are fictional. Contact and newsletter sections use the optional ShipPress form slot (Contact Form 7, WPForms, MailPoet or Mailchimp for WP) with a mailto fallback.
 

@@ -51,3 +51,10 @@ Images: AI-generated for this theme with Grok Build image_gen as high-key docume
 - assets/images/office.webp (inner pages: the firm's meeting room)
 - assets/images/partners-walk.webp (inner pages: two partners in a stair hall)
 - assets/images/desk-notes.webp (inner pages: a desk with a printed quarterly letter)
+
+== Changelog ==
+
+= 1.0.1 =
+* Redesign hero with solid navy, clear photography and stronger type.
+* Remove floating role brief; simplify hero actions and navigation hierarchy.
+* Match inner-page heroes and improve mobile/long-locale wrapping.
