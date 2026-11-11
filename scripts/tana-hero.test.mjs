@@ -40,3 +40,8 @@ test("hero strings are escaped and joined with semantic Latin spaces or CJK wrap
   }
   for (const lang of ["zh-TW", "ja"]) assert.equal((run(lang).match(/<wbr>/g) || []).length, 3, `${lang}: safe phrase boundaries`);
 });
+
+test("long dynamic CJK titles can wrap, and the journal has its own real heading", () => {
+  assert.match(css, /:is\(\.tf-h1--post, \.tf-h1--query\)\s*\{[^}]*word-break: auto-phrase;[^}]*overflow-wrap: break-word/);
+  assert.match(readFileSync(new URL("templates/home.html", root), "utf8"), /tana-furniture\/stage-journal/);
+});

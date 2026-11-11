@@ -428,3 +428,6 @@ a { text-underline-offset: .2em; }
 @media (max-width: 781px) {
   :is(:lang(zh), :lang(ja)) .tf-h1 { font-size: clamp(1.875rem, 7.8vw, 2.75rem); }
 }
+
+/* User-authored post/archive titles do not have the demo's explicit phrase spans. */
+:is(:lang(zh), :lang(ja)) :is(.tf-h1--post, .tf-h1--query) { word-break: normal; word-break: auto-phrase; overflow-wrap: break-word; }

@@ -4,7 +4,7 @@
  * Slug: tana-furniture/stage-prices
  * Categories: tana-furniture
  * Inserter: no
- * Description: The three-photo stage with the stepped headline and the pentagon stamp.
+ * Description: The three-photo stage with an editorial headline and the pentagon stamp.
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"tf-stage tf-stage--page","layout":{"type":"default"}} -->
