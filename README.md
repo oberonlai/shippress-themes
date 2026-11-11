@@ -336,6 +336,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/mugi-bakehouse"><img src="https://shots.codotx.com/mugi-bakehouse/home-desktop.webp" width="260" alt="Mugi Bakehouse"></a><br><a href="themes/mugi-bakehouse">Mugi Bakehouse</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/nagi-imaging"><img src="https://shots.codotx.com/nagi-imaging/home-desktop.webp" width="260" alt="Nagi Imaging"></a><br><a href="themes/nagi-imaging">Nagi Imaging</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/nagisa-grill"><img src="https://shots.codotx.com/nagisa-grill/home-desktop.webp" width="260" alt="Nagisa Grill"></a><br><a href="themes/nagisa-grill">Nagisa Grill</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/nameshi-leather"><img src="https://shots.codotx.com/nameshi-leather/home-desktop.webp" width="260" alt="Nameshi Leather"></a><br><a href="themes/nameshi-leather">Nameshi Leather</a></td>
 </tr>
 <tr>
@@ -477,21 +478,23 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <td align="center" valign="top" width="33%"><a href="themes/yamabiko-outdoor-supply"><img src="https://shots.codotx.com/yamabiko-outdoor-supply/home-desktop.webp" width="260" alt="Yamabiko Outdoor Supply"></a><br><a href="themes/yamabiko-outdoor-supply">Yamabiko Outdoor Supply</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yanagi-hygiene"><img src="https://shots.codotx.com/yanagi-hygiene/home-desktop.webp" width="260" alt="Yanagi Hygiene"></a><br><a href="themes/yanagi-hygiene">Yanagi Hygiene</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yawara-rheumatology"><img src="https://shots.codotx.com/yawara-rheumatology/home-desktop.webp" width="260" alt="Yawara Rheumatology"></a><br><a href="themes/yawara-rheumatology">Yawara Rheumatology</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="https://shots.codotx.com/yohaku-studio/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="https://shots.codotx.com/yohaku-studio/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yoru-bar"><img src="https://shots.codotx.com/yoru-bar/home-desktop.webp" width="260" alt="Yoru Bar"></a><br><a href="themes/yoru-bar">Yoru Bar</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yoru-chocolate"><img src="https://shots.codotx.com/yoru-chocolate/home-desktop.webp" width="260" alt="Yoru Chocolate"></a><br><a href="themes/yoru-chocolate">Yoru Chocolate</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yose-rakugo"><img src="https://shots.codotx.com/yose-rakugo/home-desktop.webp" width="260" alt="Yose Rakugo"></a><br><a href="themes/yose-rakugo">Yose Rakugo</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yose-rakugo"><img src="https://shots.codotx.com/yose-rakugo/home-desktop.webp" width="260" alt="Yose Rakugo"></a><br><a href="themes/yose-rakugo">Yose Rakugo</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuge-sento"><img src="https://shots.codotx.com/yuge-sento/home-desktop.webp" width="260" alt="Yuge Sento"></a><br><a href="themes/yuge-sento">Yuge Sento</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yui-credit-union"><img src="https://shots.codotx.com/yui-credit-union/home-desktop.webp" width="260" alt="Yui Credit Union"></a><br><a href="themes/yui-credit-union">Yui Credit Union</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="https://shots.codotx.com/yukimi-kakigori/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="https://shots.codotx.com/yukimi-kakigori/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yukisaki-route"><img src="https://shots.codotx.com/yukisaki-route/home-desktop.webp" width="260" alt="Yukisaki Route"></a><br><a href="themes/yukisaki-route">Yukisaki Route</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuragi-spa"><img src="https://shots.codotx.com/yuragi-spa/home-desktop.webp" width="260" alt="Yuragi Spa"></a><br><a href="themes/yuragi-spa">Yuragi Spa</a></td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="https://shots.codotx.com/yuzu-chaya/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
 </table>

@@ -1,0 +1,441 @@
+/*
+Theme Name: Nagisa Grill
+Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/nagisa-grill
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Nagisa Grill is an editorial magazine WordPress theme designed for coastal seafood restaurants and daily-catch kitchens. Built around a calm day-schedule layout with serif typography and full-bleed imagery, it reflects the unhurried rhythm of one boat and one dinner service. Lightweight and block-first, it offers dedicated patterns for daily service times, kitchen notes, and table reservations without requiring extra plugins.
+Version: 1.0.0
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nagisa-grill
+Tags: block-patterns, full-site-editing, blog, custom-colors, editor-style, translation-ready, wide-blocks, block-styles
+*/
+
+:root {
+	--ng-base: var(--wp--preset--color--base);
+	--ng-ink: var(--wp--preset--color--ink);
+	--ng-band: var(--wp--preset--color--band);
+	--ng-slate: var(--wp--preset--color--slate);
+	--ng-scene: var(--wp--preset--color--scene);
+	--ng-tint: var(--wp--preset--color--tint);
+	--ng-ember: var(--wp--preset--color--ember);
+	--ng-disp: var(--wp--preset--font-family--display);
+	--ng-body: var(--wp--preset--font-family--body);
+	--ng-gut: clamp(1.5rem, 5.55vw, 5rem);
+	--ng-sec: clamp(7.5rem, 16.7vw, 15rem);
+	--ng-ease: cubic-bezier(.625, .05, 0, 1);
+	--ng-tide-line: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='8' viewBox='0 0 30 8'%3E%3Cpath d='M0 4q3.75 -3.2 7.5 0t7.5 0t7.5 0t7.5 0' fill='none' stroke='%235E6E78' stroke-opacity='.5' stroke-linecap='round'/%3E%3C/svg%3E");
+	--ng-tide-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 20' fill='none' stroke='%23fff' stroke-linecap='round'%3E%3Cpath d='M0 4q3.75 -3.2 7.5 0t7.5 0t7.5 0t7.5 0t7.5 0t7.5 0t7.5 0t7.5 0M0 10q3.75 -3.2 7.5 0t7.5 0t7.5 0t7.5 0t7.5 0t7.5 0t7.5 0t7.5 0M0 16q3.75 -3.2 7.5 0t7.5 0t7.5 0t7.5 0t7.5 0t7.5 0t7.5 0t7.5 0'/%3E%3C/svg%3E");
+	--ng-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 8'%3E%3Cpath d='M0 4h27M23 1l4 3-4 3' fill='none' stroke='%23000'/%3E%3C/svg%3E");
+	/* forms: mapped to the theme tokens (light ground) */
+	--sp-form-accent: var(--wp--preset--color--band);
+	--sp-form-on-accent: var(--wp--preset--color--base);
+	--sp-form-radius: 24px;
+	--sp-form-focus: var(--wp--preset--color--ember);
+	--sp-form-surface: #fff;
+	--sp-form-text: var(--wp--preset--color--ink);
+	--sp-form-border: #c5cdd2;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; -webkit-font-smoothing: antialiased; }
+html:lang(de), html:lang(fr) { hyphens: auto; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li) { hyphens: auto; overflow-wrap: break-word; }
+.wp-site-blocks > * { margin-block-start: 0; }
+:where(.ng-main, .ng-header, .ng-footer) > * { margin-block-start: 0; }
+.ng-main { padding: 0; }
+.ng-main .wp-block-post-content > * { margin-block: 0; }
+a { text-underline-offset: 0.25em; }
+
+/* ---------- T2: tide marks ---------- */
+.ng-tide { display: block; width: 60px; height: 20px; color: var(--ng-slate); }
+.ng-tide path { vector-effect: non-scaling-stroke; }
+.ng-label { display: flex; flex-direction: column; align-items: flex-start; gap: 24px; margin: 0 0 24px; }
+.ng-label > * { margin: 0; }
+.ng-label__t, .ng-card__date, .ng-row__time, .ng-footer__lbl {
+	font-size: 0.75rem; line-height: 1.5; letter-spacing: 0.14em; text-transform: uppercase;
+}
+.ng-row__time { font-size: 0.875rem; color: #5E6E78; }
+.ng-label__t { color: #5E6E78; margin: 0; }
+.ng-label__t a { color: inherit; text-decoration: none; }
+.ng-scene .ng-tide, .ng-concept .ng-tide, .ng-visit .ng-tide, .ng-footer .ng-tide { color: #fff; }
+.ng-scene .ng-label__t, .ng-concept .ng-label__t, .ng-visit .ng-label__t { color: rgba(255, 255, 255, .85); }
+
+/* text links with the long thin arrow (drawn with a mask, no text) */
+.ng-link { margin: 0; font-size: 0.875rem; letter-spacing: 0.06em; }
+.ng-link a { display: inline-flex; align-items: center; gap: 12px; color: inherit; text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 4px; transition: color .3s; }
+.ng-link a::after { content: ""; width: 28px; height: 8px; background: currentColor; -webkit-mask: var(--ng-arrow) no-repeat center / contain; mask: var(--ng-arrow) no-repeat center / contain; }
+.ng-link a:hover { color: var(--ng-slate); }
+.ng-visit .ng-link a:hover { color: #fff; opacity: .75; }
+
+/* ---------- header (overlay) ---------- */
+.ng-header { position: absolute; inset: 0 0 auto 0; z-index: 20; color: #fff; }
+.ng-header a { color: inherit; text-decoration: none; }
+.ng-header__bar { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; height: 100px; padding: 0 40px; gap: 16px; }
+.ng-header__bar > * { margin: 0; }
+.ng-nav { justify-self: start; color: #fff; }
+.ng-nav .wp-block-navigation__responsive-container-open,
+.ng-nav .wp-block-navigation__responsive-container-close {
+	font-family: var(--ng-body); font-size: 0.875rem; letter-spacing: 0.08em; color: #fff; background-color: transparent; cursor: pointer;
+}
+.ng-nav .wp-block-navigation__responsive-container-open { padding: 22px 0 0; background-image: var(--ng-tide-icon); background-repeat: no-repeat; background-position: left top; background-size: 40px 14px; }
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open { padding: 40px var(--ng-gut); }
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content { padding-top: 6rem; }
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item a,
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item__label {
+	font-family: var(--ng-disp); font-weight: 300; font-size: clamp(2.5rem, 6.1vw, 5.5rem); line-height: 1.5; letter-spacing: 0; text-decoration: none;
+}
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container { align-items: flex-start; gap: 0; }
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:nth-last-child(-n+2) { margin-top: 0; }
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:nth-last-child(2) { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255, 255, 255, .35); }
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:nth-last-child(-n+2) a,
+.ng-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation-item:nth-last-child(-n+2) .wp-block-navigation-item__label {
+	font-family: var(--ng-body); font-weight: 400; font-size: 1rem; line-height: 1.8; letter-spacing: 0.04em;
+}
+.ng-logo { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
+.ng-logo > * { margin: 0; }
+.ng-logo__name { font: 400 1.25rem/1.2 var(--ng-disp); letter-spacing: 0.22em; text-transform: uppercase; white-space: nowrap; }
+.ng-tide--logo { width: 140px; height: 14px; color: #fff; }
+.ng-logo__sub { font-size: 0.5625rem; letter-spacing: 0.3em; text-transform: uppercase; line-height: 1.4; white-space: nowrap; color: rgba(255, 255, 255, .9); }
+.ng-header__r { justify-self: end; display: flex; align-items: center; gap: 24px; }
+.ng-header__r > * { margin: 0; }
+.ng-header__visit { font-size: 0.875rem; letter-spacing: 0.06em; }
+.ng-header__cta .wp-block-button__link { display: inline-flex; align-items: center; height: 48px; padding: 0 26px; border-radius: 999px; background: var(--ng-band); color: #fff; font-size: 1rem; white-space: nowrap; text-decoration: none; transition: background-color .3s; }
+.ng-header__cta .wp-block-button__link:hover { background: var(--ng-slate); }
+.ng-cta-short { display: none; }
+.ng-header-solid .ng-header { position: relative; background: var(--ng-band); }
+.ng-header-solid .ng-header__bar { height: 60px; }
+.ng-header-solid .ng-header__cta .wp-block-button__link { background: #fff; color: var(--ng-ink); height: 40px; }
+@media (max-width: 781px) {
+	.ng-header__bar { height: 72px; padding: 0 20px; gap: 8px; }
+	.ng-header__visit, .ng-logo__sub { display: none; }
+	.ng-logo__name { font-size: 0.875rem; letter-spacing: 0.16em; }
+	.ng-tide--logo { width: 104px; }
+	.ng-cta-long { display: none; }
+	.ng-cta-short { display: inline; }
+	.ng-header__cta .wp-block-button__link { height: 40px; padding: 0 16px; font-size: 0.8125rem; }
+	.ng-header-solid .ng-header__bar { height: 64px; }
+}
+
+/* ---------- T1: foot wordmark + info bar ---------- */
+.ng-kv { --sp-par: 8%; color: #fff; padding: 0; min-height: 100svh !important; align-items: flex-end; }
+.wp-block-cover.has-custom-content-position.has-custom-content-position.ng-kv .wp-block-cover__inner-container { width: 100%; padding: 20px var(--ng-gut) 0; min-height: 0; display: flex; flex-direction: column; justify-content: flex-end; background: var(--wp--preset--color--scene); position: relative; z-index: 2; }
+.ng-wm {
+	--ng-wm-size: clamp(3.5rem, 7.4vw, 6.5rem);
+	display: flex; justify-content: space-between; width: 100%; margin: 0;
+	font: 300 var(--ng-wm-size)/1 var(--ng-disp); text-transform: uppercase; letter-spacing: 0; color: #fff;
+}
+.ng-wm span { display: block; }
+.ng-infobar { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin: 0 0 3svh; padding: 18px 0 28px; border-top: 1px solid rgba(255, 255, 255, .55); font-size: 0.875rem; line-height: 1.5; letter-spacing: 0.05em; }
+.ng-infobar p { margin: 0; }
+.ng-infobar__l { display: flex; align-items: center; gap: 12px; }
+.ng-tick { display: inline-block; width: 1px; height: 24px; background: #fff; }
+.ng-infobar__r { display: flex; align-items: center; gap: 32px; }
+.ng-tabs { gap: 12px; flex-wrap: nowrap; }
+.ng-tabs .ng-tab .wp-block-button__link {
+	display: flex; justify-content: space-between; align-items: center; width: 168px; height: 48px; padding: 0 18px; border: 1px solid #fff; border-radius: 0;
+	background: transparent; color: #fff; font-size: 0.875rem; letter-spacing: 0.05em; transition: background-color .3s, color .3s;
+}
+.ng-tabs .ng-tab .wp-block-button__link::after { content: ""; width: 28px; height: 8px; background: currentColor; -webkit-mask: var(--ng-arrow) no-repeat center / contain; mask: var(--ng-arrow) no-repeat center / contain; }
+.ng-tabs .ng-tab .wp-block-button__link:hover { background: #fff; color: var(--ng-ink); }
+.ng-tabs .ng-tab .wp-block-button__link:focus-visible { outline: 2px solid var(--ng-ember); outline-offset: 2px; }
+@media (max-width: 781px) {
+	.ng-kv { --sp-par: 6%; }
+	.ng-kv .wp-block-cover__image-background { object-position: 70% 30% !important; }
+	.ng-kv .wp-block-cover__inner-container { padding: 16px 24px 0; }
+	.ng-infobar { flex-direction: column; align-items: stretch; gap: 10px; padding: 16px 0 24px; }
+	.ng-infobar__r { flex-direction: column; align-items: stretch; gap: 14px; }
+	.ng-tabs { width: 100%; }
+	.ng-tabs .ng-tab { width: calc(50% - 6px); flex: none; }
+	.ng-tabs .ng-tab .wp-block-button__link { width: 100%; height: 44px; padding: 0 14px; }
+}
+
+/* KV intro: slate field with a window that opens to full bleed, then the letters rise, then the header drops in. Load-time only. */
+@media (prefers-reduced-motion: no-preference) {
+	html.sp-js:not(.sp-no-motion) .ng-kv::after {
+		content: ""; position: absolute; inset: 0; z-index: 3; pointer-events: none; box-sizing: border-box;
+		border: solid var(--ng-band); border-width: 0; animation: ng-open .8s cubic-bezier(.55, .055, .675, .19) .25s both;
+	}
+	html.sp-js:not(.sp-no-motion) .ng-kv .ng-wm span { animation: ng-rise .9s var(--ng-ease) both; }
+	html.sp-js:not(.sp-no-motion) .ng-kv .ng-wm span:nth-child(1) { animation-delay: .75s; }
+	html.sp-js:not(.sp-no-motion) .ng-kv .ng-wm span:nth-child(2) { animation-delay: .9s; }
+	html.sp-js:not(.sp-no-motion) .ng-kv .ng-wm span:nth-child(3) { animation-delay: 1.05s; }
+	html.sp-js:not(.sp-no-motion) .ng-kv .ng-wm span:nth-child(4) { animation-delay: 1.2s; }
+	html.sp-js:not(.sp-no-motion) .ng-kv .ng-wm span:nth-child(5) { animation-delay: 1.35s; }
+	html.sp-js:not(.sp-no-motion) .ng-kv .ng-wm span:nth-child(6) { animation-delay: 1.5s; }
+	html.sp-js:not(.sp-no-motion) .ng-header { animation: ng-drop .9s cubic-bezier(.25, .46, .45, .94) 1.5s both; }
+	@keyframes ng-open { from { border-width: 28svh 30vw; } to { border-width: 0; } }
+	@keyframes ng-rise { from { opacity: 0; transform: translate3d(0, 24px, 0); } to { opacity: 1; transform: none; } }
+	@keyframes ng-drop { from { opacity: 0; transform: translate3d(0, -12px, 0); } to { opacity: 1; transform: none; } }
+}
+
+/* ---------- concept (full-bleed dim photo, copy left) ---------- */
+.ng-concept { color: #fff; padding: 0; min-height: 900px !important; }
+.wp-block-cover.has-custom-content-position.has-custom-content-position.ng-concept .wp-block-cover__inner-container { width: 100%; padding: 120px var(--ng-gut); }
+.ng-concept__col { max-width: 520px; }
+.ng-h-photo { color: #fff; margin: 0 0 32px; line-height: 1.15; font-weight: 300; }
+.ng-copy { color: rgba(255, 255, 255, .94); line-height: 2; margin: 0 0 1.5rem; }
+
+/* ---------- Cantina split: section word left (469px), copy from 50% ---------- */
+.ng-split { display: grid; grid-template-columns: minmax(0, 469px) minmax(0, 1fr); column-gap: clamp(2rem, 11.8vw, 10.625rem); align-items: start; }
+.ng-split > * { margin: 0; }
+.ng-day { padding: var(--ng-sec) var(--ng-gut); }
+.ng-word { color: var(--ng-band); font-weight: 300; line-height: 1.2; margin: 0 0 64px; }
+.ng-day__photo { width: 360px; max-width: 100%; margin: 0; }
+.ng-day__photo img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 0; }
+.ng-lede { font-size: 1.25rem; line-height: 1.7; margin: 0 0 48px; }
+.ng-rows { display: block; background: var(--ng-tide-line) repeat-x left top; padding-top: 8px; margin-bottom: 40px; }
+.ng-row { display: grid; grid-template-columns: 96px minmax(0, 1fr); column-gap: 24px; padding: 28px 0 32px; background: var(--ng-tide-line) repeat-x left bottom; margin: 0; }
+.ng-row > * { margin: 0; }
+.ng-row__time { padding-top: 0.3rem; }
+.ng-row__body > * { margin: 0; }
+.ng-row__body h3 { font-weight: 400; margin-bottom: 8px; }
+.ng-day .ng-link, .ng-tables .ng-link { color: var(--ng-band); }
+
+/* ---------- T3: near-black scene with the offset photo duo ---------- */
+.ng-scene { background: var(--ng-scene); color: #fff; padding: var(--ng-sec) 0; overflow: clip; }
+.ng-scene > * { margin: 0; }
+.ng-scene__head { padding: 0 var(--ng-gut); margin-bottom: clamp(4rem, 6.7vw, 6rem); }
+.ng-duo { display: grid; grid-template-columns: 28% 72%; align-items: start; }
+.ng-duo > * { margin: 0; }
+.ng-duo__s { grid-column: 1; grid-row: 1; --sp-par: 10%; aspect-ratio: 1.4 / 1; }
+.ng-duo__lw { grid-column: 2; grid-row: 1 / span 2; margin-top: 120px; }
+.ng-duo__l { --sp-par: 6%; aspect-ratio: 1.6 / 1; }
+.ng-duo figure { margin: 0; height: 100%; }
+.ng-duo img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 0; }
+.ng-duo__copy { grid-column: 1; grid-row: 2; padding: 48px 32px 0 var(--ng-gut); }
+.ng-duo__copy p { color: rgba(255, 255, 255, .92); line-height: 2; margin: 0 0 1.25rem; max-width: 340px; font-size: 0.9375rem; }
+@media (max-width: 781px) {
+	.ng-scene { padding: 120px 0; }
+	.ng-duo { display: block; }
+	.ng-duo__s { width: 72%; }
+	.ng-duo__lw { margin-top: -40px; position: relative; }
+	.ng-duo__copy { padding: 40px 24px 0; }
+	.ng-duo__copy p { max-width: none; }
+}
+
+/* ---------- tables ---------- */
+.ng-tables { padding: var(--ng-sec) 0 clamp(7.5rem, 13vw, 12rem); }
+.ng-tables .ng-split { padding: 0 var(--ng-gut); }
+.ng-rules { background: var(--ng-tide-line) repeat-x left top; padding-top: 8px; margin-bottom: 48px; }
+.ng-rule { margin: 0; padding: 18px 0 22px; background: var(--ng-tide-line) repeat-x left bottom; }
+.ng-tables__foot { display: flex; align-items: flex-end; gap: 64px; padding: clamp(5rem, 9vw, 8rem) var(--ng-gut) 0; }
+.ng-tables__foot > * { margin: 0; }
+.ng-tables__photo { flex: none; width: 555px; max-width: 100%; }
+.ng-tables__photo img { display: block; width: 100%; aspect-ratio: 1.4; object-fit: cover; border-radius: 0; }
+.ng-promise { font: italic 400 1.25rem/1.6 var(--ng-body); color: var(--ng-band); max-width: 360px; }
+
+/* ---------- plates: slate band with three full-bleed photo panels ---------- */
+.ng-plates { background: var(--ng-band); color: #fff; padding: 140px 0 145px; }
+.ng-plates > * { margin: 0; }
+.ng-plates__h { color: #fff; padding: 0 var(--ng-gut); margin-bottom: 72px !important; }
+.ng-panels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; }
+.ng-panels > * { margin: 0; }
+.ng-panel { min-height: 640px !important; padding: 0; color: #fff; align-items: stretch; }
+.ng-panel .wp-block-cover__inner-container { align-self: stretch; display: flex; flex-direction: column; align-items: center; text-align: center; padding: 140px 24px 76px; }
+.ng-panel__t { color: #fff; font-size: clamp(2rem, 3.4vw, 3rem); font-weight: 300; line-height: 1.2; margin: 0 0 12px; }
+.ng-panel__p { font-size: 0.875rem; letter-spacing: 0.06em; margin: 0; }
+.ng-panel__link { margin: auto 0 0; font-size: 0.875rem; letter-spacing: 0.06em; }
+.ng-panel__link a { color: #fff; text-decoration: none; border-bottom: 1px solid #fff; padding-bottom: 4px; }
+.ng-plates__note { text-align: right; font-size: 0.875rem; padding: 32px var(--ng-gut) 0; }
+@media (max-width: 781px) {
+	.ng-plates { padding: 96px 0 96px; }
+	.ng-panels { grid-template-columns: 1fr; }
+	.ng-panel { min-height: 420px !important; }
+	.ng-panel .wp-block-cover__inner-container { padding: 90px 24px 48px; }
+	.ng-plates__note { text-align: left; }
+}
+
+/* ---------- journal ---------- */
+.ng-journal { padding: var(--ng-sec) var(--ng-gut); }
+.ng-journal__head { display: flex; justify-content: space-between; align-items: flex-end; margin: 0 0 72px; }
+.ng-journal__word > * { margin-bottom: 0; }
+.ng-journal__word .ng-word { margin: 0; }
+.ng-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 56px 40px; list-style: none; padding: 0; margin: 0; }
+.ng-cards > li { margin: 0; }
+.ng-card > * { margin: 0; }
+.ng-card__img { margin: 0 0 20px; }
+.ng-card__img img { display: block; width: 100%; border-radius: 0; }
+.ng-card__date { color: #5E6E78; margin-bottom: 6px; }
+.ng-card__t { font: 400 1.5rem/1.35 var(--ng-disp); margin: 0; }
+.ng-card__t a { color: var(--ng-ink); text-decoration: none; }
+.ng-card__t a:hover { color: var(--ng-slate); }
+.ng-query { padding: 0 var(--ng-gut) var(--ng-sec); }
+.ng-journal .ng-query { padding: 0; }
+.ng-listhead { padding: 120px var(--ng-gut) 72px; }
+.ng-listhead > * { margin-bottom: 0; }
+.ng-pagination { margin-top: 64px; justify-content: space-between; font-size: 0.875rem; }
+
+/* ---------- visit band ---------- */
+.ng-visit { --sp-par: 10%; color: #fff; padding: 0; min-height: 72svh !important; }
+.wp-block-cover.has-custom-content-position.has-custom-content-position.ng-visit .wp-block-cover__inner-container { width: 100%; padding: 120px var(--ng-gut) 96px; }
+.ng-visit__col .ng-copy { margin-bottom: 0; max-width: 640px; }
+.ng-visit__actions { display: flex; align-items: center; gap: 32px; margin-top: 40px; }
+.ng-visit__actions > * { margin: 0; }
+.ng-pill-white .wp-block-button__link { background: #fff; color: var(--ng-ink); }
+.ng-pill-white .wp-block-button__link:hover { background: var(--ng-tint); color: var(--ng-ink); }
+@media (max-width: 781px) { .ng-visit { --sp-par: 6%; } .ng-visit__actions { flex-direction: column; align-items: flex-start; gap: 24px; } }
+
+/* ---------- footer ---------- */
+.ng-footer {
+	background: var(--ng-scene); color: rgba(255, 255, 255, .88); padding: 160px var(--ng-gut) 48px;
+	--sp-form-surface: rgba(255, 255, 255, .06); --sp-form-text: #f4f6f7; --sp-form-border: rgba(244, 246, 247, .45);
+	--sp-form-accent: #f4f6f7; --sp-form-on-accent: #14191c; --sp-form-focus: #e08a66;
+}
+.ng-footer a { color: inherit; text-decoration-color: rgba(255, 255, 255, .4); }
+.ng-footer__top { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 80px; margin: 0 0 clamp(6rem, 11vw, 10rem); }
+.ng-footer__top > * { margin: 0; }
+.ng-footer__h { font: 300 2rem/1.3 var(--ng-disp); color: #fff; margin: 0 0 12px; }
+.ng-footer__note { font-size: 0.875rem; margin: 0 0 28px; color: rgba(255, 255, 255, .8); }
+.ng-footer__lbl { color: rgba(255, 255, 255, .6); margin: 0 0 8px; }
+.ng-footer__info p { margin: 0 0 28px; }
+.ng-wm--foot { --sp-dist: 24px; --sp-dur: 1.2s; --sp-ease: cubic-bezier(.625, .05, 0, 1); margin: 0 0 28px; }
+.ng-tide--foot { color: #fff; width: 100%; max-width: 280px; height: 14px; margin: 0 0 64px; }
+.ng-footer__bottom { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; font-size: 0.875rem; }
+.ng-footer__bottom > * { margin: 0; }
+.ng-footer__copy { color: rgba(255, 255, 255, .7); }
+@media (max-width: 781px) {
+	.ng-footer { padding: 96px 24px 40px; }
+	.ng-footer__top { grid-template-columns: 1fr; row-gap: 56px; }
+}
+
+/* ---------- plain templates (list, single, page) ---------- */
+.ng-prose { padding: 96px 24px 120px; }
+.ng-article__head { padding: 96px var(--ng-gut) 48px; }
+.ng-article__head > * { margin-bottom: 16px; }
+.ng-article__title { color: var(--ng-ink); }
+.ng-article__img { padding: 0 var(--ng-gut); margin: 0 0 56px; }
+.ng-article__img img { display: block; width: 100%; border-radius: 0; }
+.ng-article__terms { padding: 0 var(--ng-gut) var(--ng-sec); max-width: 720px; margin-inline: auto; }
+
+/* ---------- forms on dark / light grounds are mapped via --sp-form-* ---------- */
+.sp-newsletter-fallback { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; max-width: 520px; }
+
+/* ---------- responsive: split to one column, cards ---------- */
+@media (max-width: 959px) {
+	.ng-split { display: block; }
+	.ng-split > * + * { margin-top: 48px; }
+	.ng-day, .ng-journal { padding-block: 120px; }
+	.ng-tables__foot { flex-direction: column; align-items: flex-start; gap: 32px; }
+	.ng-cards { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 781px) {
+	.ng-concept { min-height: 720px !important; }
+	.ng-day, .ng-journal { padding-inline: 24px; }
+	.ng-tables .ng-split, .ng-tables__foot, .ng-scene__head, .ng-plates__h { padding-inline: 24px; }
+	.ng-day__photo { width: 100%; }
+	.ng-row { grid-template-columns: 64px minmax(0, 1fr); column-gap: 16px; }
+	.ng-cards { grid-template-columns: 1fr; }
+	.ng-journal__head { flex-direction: column; align-items: flex-start; gap: 24px; }
+	.ng-listhead, .ng-query, .ng-article__head, .ng-article__img, .ng-article__terms { padding-inline: 24px; }
+}
+
+/* ---------- inner pages: T1 photo head ---------- */
+.ng-head { --sp-par: 6%; color: #fff; padding: 0; min-height: 62svh !important; align-items: flex-end; }
+.wp-block-cover.has-custom-content-position.has-custom-content-position.ng-head .wp-block-cover__inner-container { width: 100%; padding: 140px var(--ng-gut) 0; display: flex; flex-direction: column; justify-content: flex-end; }
+.ng-head__t { color: #fff; font-weight: 300; line-height: 1.05; margin: 0 0 clamp(2rem, 5vw, 3.5rem); overflow-wrap: anywhere; }
+.ng-head .ng-infobar { margin-bottom: 3svh; }
+@media (max-width: 781px) {
+	.ng-head { min-height: 440px !important; }
+	.wp-block-cover.has-custom-content-position.has-custom-content-position.ng-head .wp-block-cover__inner-container { padding: 120px 24px 0; }
+}
+/* pages that have no photo head get the solid bar */
+body:not(:has(.ng-kv, .ng-head)) .ng-header { position: relative; background: var(--ng-band); }
+body:not(:has(.ng-kv, .ng-head)) .ng-header__bar { height: 60px; }
+body:not(:has(.ng-kv, .ng-head)) .ng-header__cta .wp-block-button__link { background: #fff; color: var(--ng-ink); height: 40px; }
+.ng-main--page .wp-block-post-content > :where(:not(.alignfull)) { padding-inline: 24px; }
+.ng-main--page .wp-block-post-content > :where(:not(.alignfull)):first-child { margin-top: 96px; }
+.ng-main--page .wp-block-post-content > :where(:not(.alignfull)):last-child { margin-bottom: 120px; }
+
+/* ---------- inner pages: sections ---------- */
+.ng-prose-sect { padding: clamp(5rem, 9vw, 8rem) var(--ng-gut); }
+.ng-prose-sect .ng-word { margin-bottom: 0; overflow-wrap: anywhere; }
+.ng-prose-sect .ng-split__r > p:not(.ng-lede, .ng-link, .ng-rule, .ng-person__r) { margin: 0 0 1.25rem; line-height: 1.9; max-width: 680px; }
+.ng-prose-sect .ng-lede { max-width: 680px; }
+.ng-copy-h { font: 400 1.5rem/1.35 var(--ng-disp); margin: 0 0 16px; }
+.ng-split__r > * + .ng-copy-h { margin-top: 56px; }
+.ng-split__r .ng-rules { max-width: 680px; }
+.ng-split__r .ng-link { margin-top: 32px; }
+.ng-address { line-height: 1.8; margin-top: 8px; }
+.ng-visit-form .ng-copy-h:first-child { margin-top: 0; }
+.ng-close { padding: 0 var(--ng-gut) var(--ng-sec); margin-top: clamp(4rem, 7vw, 6rem); }
+.ng-book { background: var(--ng-base); }
+.ng-book__col { max-width: 720px; }
+.ng-book__col > .sp-form-slot, .ng-book__col .ng-copy-h + .sp-form-slot { margin-top: 32px; }
+
+/* day rows on inner pages keep the home rhythm */
+.ng-day .ng-split__r > .ng-lede { margin-bottom: 40px; }
+
+/* ---------- people as text rows ---------- */
+.ng-people { background: var(--ng-tide-line) repeat-x left top; padding-top: 8px; margin: 8px 0 0; }
+.ng-person { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); column-gap: 32px; align-items: baseline; padding: 24px 0 26px; background: var(--ng-tide-line) repeat-x left bottom; margin: 0; }
+.ng-person > * { margin: 0; }
+.ng-person__who > * { margin: 0; }
+.ng-person__n { font: 400 1.5rem/1.3 var(--ng-disp); }
+.ng-person__r { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: #5E6E78; margin-top: 4px !important; }
+.ng-person__l { line-height: 1.7; }
+@media (max-width: 781px) { .ng-person { grid-template-columns: 1fr; row-gap: 8px; } }
+
+/* ---------- slate band (text) and dark newsletter ground ---------- */
+.ng-band { background: var(--ng-band); color: #fff; padding: clamp(5rem, 9vw, 8rem) var(--ng-gut); }
+.ng-band > * { margin: 0; }
+.ng-band__col { max-width: 720px; }
+.ng-band .ng-tide, .ng-dark .ng-tide { color: #fff; }
+.ng-band .ng-label__t, .ng-dark .ng-label__t { color: rgba(255, 255, 255, .85); }
+.ng-band .ng-copy { max-width: 640px; margin-bottom: 2rem; }
+.ng-band .ng-link a:hover, .ng-dark .ng-link a:hover { color: #fff; opacity: .75; }
+.ng-dark {
+	background: var(--ng-scene); color: #fff; padding: clamp(5rem, 9vw, 8rem) var(--ng-gut);
+	--sp-form-surface: rgba(255, 255, 255, .06); --sp-form-text: #f4f6f7; --sp-form-border: rgba(244, 246, 247, .45);
+	--sp-form-accent: #f4f6f7; --sp-form-on-accent: #14191c; --sp-form-focus: #e08a66;
+}
+.ng-dark > * { margin: 0; }
+.ng-dark__col { max-width: 720px; }
+.ng-dark .ng-copy { margin-bottom: 2rem; }
+
+/* ---------- price table: full width from 782px, price column never clipped ---------- */
+.ng-price-sect .ng-price-head { margin-bottom: 40px; }
+.ng-price-sect .ng-price-head > * { margin-bottom: 0; }
+.ng-price-sect .ng-lede { max-width: 680px; }
+.ng-price { margin: 0 0 24px; overflow: visible; }
+.ng-price table { width: 100%; border-collapse: collapse; border: 0; table-layout: auto; font-size: 1.0625rem; }
+.ng-price th { text-align: left; font-size: 0.75rem; font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; color: #5E6E78; padding: 0 24px 16px 0; border: 0; background: var(--ng-tide-line) repeat-x left bottom; }
+.ng-price th:last-child, .ng-price td:last-child { text-align: right; padding-right: 0; white-space: nowrap; }
+.ng-price td { padding: 24px 24px 26px 0; border: 0; background: var(--ng-tide-line) repeat-x left bottom; vertical-align: baseline; }
+.ng-price td:first-child { font: 400 1.5rem/1.3 var(--ng-disp); width: 32%; }
+.ng-price td:last-child { font: 300 1.75rem/1.3 var(--ng-disp); color: var(--ng-band); }
+@media (max-width: 781px) {
+	.ng-price table, .ng-price tbody, .ng-price tr, .ng-price td { display: block; width: 100%; }
+	.ng-price thead { display: none; }
+	.ng-price tr { padding: 20px 0 22px; background: var(--ng-tide-line) repeat-x left bottom; }
+	.ng-price td { padding: 0 0 6px; background: none; }
+	.ng-price td:first-child { width: 100%; }
+	.ng-price td:last-child { text-align: right; padding-top: 4px; }
+}
+.ng-plates .ng-panel { min-height: 520px !important; }
+.ng-plates .ng-panels { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 781px) { .ng-plates .ng-panels { grid-template-columns: 1fr; } .ng-plates .ng-panel { min-height: 420px !important; } }
+
+/* journal lists below the photo head */
+.ng-main--plain .ng-query { padding-top: clamp(4rem, 7vw, 6rem); }
+@media (max-width: 781px) { .ng-prose-sect, .ng-band, .ng-dark { padding-inline: 24px; } .ng-close { padding-inline: 24px; } }
+
+/* Languages: Latin stays in Fraunces / Source Serif 4. zh-TW headings use the bundled Noto Serif TC subset; zh-TW body uses system Traditional Chinese fonts. Japanese uses the bundled Noto Serif JP subset. */
+@font-face { font-family: "Noto Serif TC"; font-style: normal; font-weight: 300 600; font-display: swap; src: url("assets/fonts/noto-serif-tc-zh-tw-400.woff2") format("woff2"); }
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Fraunces", "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+	--wp--preset--font-family--body: "Source Serif 4", "Songti TC", "PMingLiU", "Microsoft JhengHei", serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.45; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) :is(.ng-label__t, .ng-card__date, .ng-row__time, .ng-footer__lbl) { letter-spacing: 0.1em; text-transform: none; }
+@font-face { font-family: "Noto Serif JP"; font-style: normal; font-weight: 300 600; font-display: swap; src: url("assets/fonts/noto-serif-jp-subset.woff2") format("woff2"); }
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Fraunces", "Noto Serif JP", "Noto Serif CJK JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Source Serif 4", "Noto Serif JP", "Noto Serif CJK JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+}
+:lang(ja) :is(h1, h2, h3, h4, .ng-split__t) { word-break: auto-phrase; }
