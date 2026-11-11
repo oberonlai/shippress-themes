@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Home: diagonal-seam first screen and proof strip
+ * Title: Home: executive-search first screen and proof strip
  * Slug: senbatsu-partners/front-hero
  * Categories: senbatsu-partners
  * Inserter: no
@@ -25,8 +25,8 @@
 <h1 class="wp-block-heading sb-hero__h1"><?php echo wp_kses_post( senbatsu_partners_t( 'k9547cc50' ) ); ?></h1>
 <!-- /wp:heading -->
 
-<!-- wp:group {"className":"sb-holder"} -->
-<div class="wp-block-group sb-holder">
+<!-- wp:group {"className":"sb-hero__actions"} -->
+<div class="wp-block-group sb-hero__actions">
 <!-- wp:buttons {"className":"sb-btn sb-btn--primary"} -->
 <div class="wp-block-buttons sb-btn sb-btn--primary"><!-- wp:button {"width":100} -->
 <div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( senbatsu_partners_t( 'k9b410351' ) ); ?></a></div>
@@ -43,25 +43,7 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"sb-brief-card"} -->
-<div class="wp-block-group sb-brief-card">
-<!-- wp:paragraph {"className":"sb-brief-card__t"} -->
-<p class="sb-brief-card__t"><strong><?php echo wp_kses_post( senbatsu_partners_t( 'k5a510dd8' ) ); ?></strong></p>
-<!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p><?php echo wp_kses_post( senbatsu_partners_t( 'kebbef45f' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><?php echo wp_kses_post( senbatsu_partners_t( 'k40e9cc8f' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p><span class="sb-line-held"><?php echo wp_kses_post( senbatsu_partners_t( 'k3fe13d50' ) ); ?></span></p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 </section>
