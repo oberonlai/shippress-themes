@@ -53,5 +53,7 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary low
 - assets/images/p18-shop-front.webp (home visit: the shop front at dusk)
 
 == Changelog ==
+= 1.0.1 =
+* Replace stepped hero headlines with a heavier, left-aligned editorial block on home and inner pages in all five languages. Keep the pentagon CTA separate, improve photo contrast without blur, and respect reduced motion. Fix the mobile info bar animation offset and stack its content without clipping.
 = 1.0.0 =
 * First release.
