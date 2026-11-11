@@ -80,7 +80,8 @@ function nagisa_grill_head( $file, $alt, $title, $left, $fact, $title_block = ''
 		'cover',
 		array(
 			'url'             => $url,
-			'dimRatio'        => 35,
+			'alt'             => $alt,
+			'dimRatio'        => 50,
 			'overlayColor'    => 'scene',
 			'isUserOverlayColor' => true,
 			'minHeight'       => 62,
@@ -91,8 +92,8 @@ function nagisa_grill_head( $file, $alt, $title, $left, $fact, $title_block = ''
 			'tagName'         => 'section',
 		)
 	) . "\n";
-	$out .= '<section class="wp-block-cover alignfull has-custom-content-position is-position-bottom-left ng-head sp-parallax" style="min-height:62vh"><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim-35 has-background-dim"></span>';
-	$out .= '<img class="wp-block-cover__image-background" alt="' . esc_attr( $alt ) . '" src="' . $url . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container">';
+	$out .= '<section class="wp-block-cover alignfull has-custom-content-position is-position-bottom-left ng-head sp-parallax" style="min-height:62vh">';
+	$out .= '<img class="wp-block-cover__image-background" alt="' . esc_attr( $alt ) . '" src="' . $url . '" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim"></span><div class="wp-block-cover__inner-container">';
 	$out .= $title_block ? $title_block : nagisa_grill_h( 1, esc_html( $title ), 'ng-head__t', 'xx-large' );
 	$info  = nagisa_grill_p( '<span class="ng-tick" aria-hidden="true"></span>' . esc_html( $left ), 'ng-infobar__l' );
 	$info .= nagisa_grill_p( esc_html( $fact ), 'ng-infobar__boat' );
@@ -173,9 +174,9 @@ function nagisa_grill_band( $label, $heading, $text, $href = '', $link = '' ) {
 /** Photo panel for the menu band: array( file, alt, title, line ). */
 function nagisa_grill_panel( $p ) {
 	$url = nagisa_grill_img( $p[0] );
-	$out = nagisa_grill_open( 'cover', array( 'url' => $url, 'dimRatio' => 35, 'overlayColor' => 'scene', 'isUserOverlayColor' => true, 'minHeight' => 520, 'className' => 'ng-panel sp-reveal sp-reveal--up' ) ) . "\n";
-	$out .= '<div class="wp-block-cover ng-panel sp-reveal sp-reveal--up" style="min-height:520px"><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim-35 has-background-dim"></span>';
-	$out .= '<img class="wp-block-cover__image-background" alt="' . esc_attr( $p[1] ) . '" src="' . $url . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container">';
+	$out = nagisa_grill_open( 'cover', array( 'url' => $url, 'alt' => $p[1], 'dimRatio' => 50, 'overlayColor' => 'scene', 'isUserOverlayColor' => true, 'minHeight' => 520, 'className' => 'ng-panel sp-reveal sp-reveal--up' ) ) . "\n";
+	$out .= '<div class="wp-block-cover ng-panel sp-reveal sp-reveal--up" style="min-height:520px">';
+	$out .= '<img class="wp-block-cover__image-background" alt="' . esc_attr( $p[1] ) . '" src="' . $url . '" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim"></span><div class="wp-block-cover__inner-container">';
 	$out .= nagisa_grill_h( 3, esc_html( $p[2] ), 'ng-panel__t' ) . nagisa_grill_p( esc_html( $p[3] ), 'ng-panel__p' );
 	return $out . '</div></div>' . "\n<!-- /wp:cover -->\n\n";
 }
@@ -192,13 +193,13 @@ function nagisa_grill_plates( $heading, $panels ) {
 
 /** Price table: array( array( item, what, price ), ... ) with column heads $heads. */
 function nagisa_grill_prices( $heads, $rows ) {
-	$t  = nagisa_grill_open( 'table', array( 'className' => 'ng-price' ) ) . "\n" . '<figure class="wp-block-table ng-price"><table><thead><tr>';
+	$t  = nagisa_grill_open( 'table', array( 'hasFixedLayout' => false, 'className' => 'ng-price' ) ) . "\n" . '<figure class="wp-block-table ng-price"><table><thead><tr>';
 	foreach ( $heads as $h ) {
 		$t .= '<th>' . esc_html( $h ) . '</th>';
 	}
 	$t .= '</tr></thead><tbody>';
 	foreach ( $rows as $r ) {
-		$t .= '<tr><td data-label="' . esc_attr( $heads[0] ) . '">' . esc_html( $r[0] ) . '</td><td data-label="' . esc_attr( $heads[1] ) . '">' . esc_html( $r[1] ) . '</td><td class="ng-price__v">' . esc_html( $r[2] ) . '</td></tr>';
+		$t .= '<tr><td>' . esc_html( $r[0] ) . '</td><td>' . esc_html( $r[1] ) . '</td><td>' . esc_html( $r[2] ) . '</td></tr>';
 	}
 	return $t . '</tbody></table></figure>' . "\n<!-- /wp:table -->\n\n";
 }

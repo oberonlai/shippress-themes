@@ -14,8 +14,8 @@
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"ng-panels sp-stagger"} -->
-<div class="wp-block-group ng-panels sp-stagger"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p07-bar.webp' ) ); ?>","dimRatio":35,"overlayColor":"scene","isUserOverlayColor":true,"minHeight":640,"className":"ng-panel sp-reveal sp-reveal--up"} -->
-<div class="wp-block-cover ng-panel sp-reveal sp-reveal--up" style="min-height:640px"><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim-35 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Three small seafood plates and a glass of white wine on a zinc counter." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07-bar.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3,"className":"ng-panel__t"} -->
+<div class="wp-block-group ng-panels sp-stagger"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p07-bar.webp' ) ); ?>","alt":"Three small seafood plates and a glass of white wine on a zinc counter.","dimRatio":50,"overlayColor":"scene","isUserOverlayColor":true,"minHeight":640,"className":"ng-panel sp-reveal sp-reveal--up"} -->
+<div class="wp-block-cover ng-panel sp-reveal sp-reveal--up" style="min-height:640px"><img class="wp-block-cover__image-background" alt="Three small seafood plates and a glass of white wine on a zinc counter." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07-bar.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3,"className":"ng-panel__t"} -->
 <h3 class="wp-block-heading ng-panel__t">At the bar</h3>
 <!-- /wp:heading -->
 
@@ -28,8 +28,8 @@
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-broth.webp' ) ); ?>","dimRatio":35,"overlayColor":"scene","isUserOverlayColor":true,"minHeight":640,"className":"ng-panel sp-reveal sp-reveal--up"} -->
-<div class="wp-block-cover ng-panel sp-reveal sp-reveal--up" style="min-height:640px"><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim-35 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Overhead view of a cooked fish fillet served with broth on grey ceramic." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-broth.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3,"className":"ng-panel__t"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-broth.webp' ) ); ?>","alt":"Overhead view of a cooked fish fillet served with broth on grey ceramic.","dimRatio":50,"overlayColor":"scene","isUserOverlayColor":true,"minHeight":640,"className":"ng-panel sp-reveal sp-reveal--up"} -->
+<div class="wp-block-cover ng-panel sp-reveal sp-reveal--up" style="min-height:640px"><img class="wp-block-cover__image-background" alt="Overhead view of a cooked fish fillet served with broth on grey ceramic." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-broth.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3,"className":"ng-panel__t"} -->
 <h3 class="wp-block-heading ng-panel__t">The Boat Menu</h3>
 <!-- /wp:heading -->
 
@@ -42,8 +42,8 @@
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-bream.webp' ) ); ?>","dimRatio":35,"overlayColor":"scene","isUserOverlayColor":true,"minHeight":640,"className":"ng-panel sp-reveal sp-reveal--up"} -->
-<div class="wp-block-cover ng-panel sp-reveal sp-reveal--up" style="min-height:640px"><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim-35 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Two guests sharing plates, bread and a jug of water at a linen-covered table." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-bream.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3,"className":"ng-panel__t"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-bream.webp' ) ); ?>","alt":"Two guests sharing plates, bread and a jug of water at a linen-covered table.","dimRatio":50,"overlayColor":"scene","isUserOverlayColor":true,"minHeight":640,"className":"ng-panel sp-reveal sp-reveal--up"} -->
+<div class="wp-block-cover ng-panel sp-reveal sp-reveal--up" style="min-height:640px"><img class="wp-block-cover__image-background" alt="Two guests sharing plates, bread and a jug of water at a linen-covered table." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-bream.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3,"className":"ng-panel__t"} -->
 <h3 class="wp-block-heading ng-panel__t">Whole fish for two</h3>
 <!-- /wp:heading -->
 

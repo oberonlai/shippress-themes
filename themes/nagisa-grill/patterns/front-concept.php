@@ -8,8 +8,8 @@
  * Description: Full-bleed dim photograph of the boat at the quay with the concept in white on the left half.
  */
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-quay.webp' ) ); ?>","dimRatio":45,"overlayColor":"scene","isUserOverlayColor":true,"minHeight":900,"contentPosition":"center left","align":"full","className":"ng-concept","tagName":"section"} -->
-<section class="wp-block-cover alignfull has-custom-content-position is-position-center-left ng-concept" style="min-height:900px"><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim-45 has-background-dim"></span><img class="wp-block-cover__image-background" alt="A wooden day boat moored at a stone quay while crew unload fish crates." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-quay.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ng-concept__col"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-quay.webp' ) ); ?>","alt":"A wooden day boat moored at a stone quay while crew unload fish crates.","dimRatio":50,"overlayColor":"scene","isUserOverlayColor":true,"minHeight":900,"contentPosition":"center left","align":"full","className":"ng-concept","tagName":"section"} -->
+<section class="wp-block-cover alignfull has-custom-content-position is-position-center-left ng-concept" style="min-height:900px"><img class="wp-block-cover__image-background" alt="A wooden day boat moored at a stone quay while crew unload fish crates." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-quay.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ng-concept__col"} -->
 <div class="wp-block-group ng-concept__col"><!-- wp:group {"className":"ng-label"} -->
 <div class="wp-block-group ng-label"><?php echo nagisa_grill_tide(); ?>
 
