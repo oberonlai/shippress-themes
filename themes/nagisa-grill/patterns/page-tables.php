@@ -5,7 +5,7 @@
  * Categories: nagisa-grill
  * Inserter: no
  */
-echo nagisa_grill_head( 'p05-room.webp', 'Dining room before service with bare wooden tables, linen and tall windows onto a grey harbour.', 'Tables', 'A small dining room', '[Held 15 minutes]' );
+echo nagisa_grill_head( 'p05-room.webp', 'Dining room before service with bare wooden tables, linen and tall windows onto a grey harbour.', 'Tables', 'A small dining room', 'Held 15 minutes' );
 
 $right  = nagisa_grill_p( 'We keep a small dining room of bare wood tables overlooking Port Ellery harbour, so reservations stay intimate and calm. Each table is prepared for one seating, and your evening is never hurried.', 'ng-lede' );
 $right .= nagisa_grill_copy( 'How a table is held', array( 'Reserving a table follows four steps, designed to protect the catch and our guests.' ) );

@@ -5,7 +5,7 @@
  * Categories: nagisa-grill
  * Inserter: no
  */
-echo nagisa_grill_head( 'p14-pass.webp', 'Three cooks plating side by side along the steel pass under warm lamps.', 'The Day', 'Wed–Sun · one service', '[Seatings 18:00 · 20:30]' );
+echo nagisa_grill_head( 'p14-pass.webp', 'Three cooks plating side by side along the steel pass under warm lamps.', 'The Day', 'Wed–Sun · one service', 'Seatings 18:00 · 20:30' );
 
 $rows = array(
 	array( '05:30', 'The Wren leaves Berth 14', 'Tomas Varga takes the Wren out from Berth 14 into coastal waters for morning line and pot fishing.' ),

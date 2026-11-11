@@ -5,7 +5,7 @@
  * Categories: nagisa-grill
  * Inserter: no
  */
-echo nagisa_grill_head( 'p15-skipper.webp', 'The skipper coiling rope on the deck of the day boat under an overcast sky.', 'About', 'Harbour Row, Port Ellery', '[Since 2019]' );
+echo nagisa_grill_head( 'p15-skipper.webp', 'The skipper coiling rope on the deck of the day boat under an overcast sky.', 'About', 'Harbour Row, Port Ellery', 'Since 2019' );
 
 $story  = nagisa_grill_p( 'Founded in 2019 at 7 Harbour Row in Port Ellery, Nagisa Grill is the shared work of chef Inès Calder and skipper Tomas Varga: to bring the honest work of one coastal boat directly to the dinner table.', 'ng-lede' );
 $story .= nagisa_grill_copy( 'Our story: 7 Harbour Row since 2019', array( 'In 2019, chef Inès Calder and skipper Tomas Varga opened Nagisa Grill along the quayside at 7 Harbour Row. Their partnership began with a simple premise: skip the long supply chain of commercial fish trading and connect one boat directly to one kitchen. With the dining room only steps from the water where the Wren docks, every guest shares in the daily fortunes of our coastal waters.' ) );

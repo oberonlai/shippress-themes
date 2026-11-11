@@ -5,7 +5,7 @@
  * Categories: nagisa-grill
  * Inserter: no
  */
-echo nagisa_grill_head( 'p09-bream.webp', 'Whole grilled sea bream for two on an oval platter with lemon and greens.', 'Menu', 'Fixed formats, a daily board', '[Five courses €78]' );
+echo nagisa_grill_head( 'p09-bream.webp', 'Whole grilled sea bream for two on an oval platter with lemon and greens.', 'Menu', 'Fixed formats, a daily board', 'Five courses €78' );
 
 $right  = nagisa_grill_p( 'Because we cook exclusively what the Wren lands at Berth 14 each morning, our dishes change daily on the chalk board. We offer our cooking through fixed formats and transparent prices.', 'ng-lede' );
 $right .= nagisa_grill_prices(

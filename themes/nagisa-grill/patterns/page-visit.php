@@ -5,7 +5,7 @@
  * Categories: nagisa-grill
  * Inserter: no
  */
-echo nagisa_grill_head( 'p13-harbour.webp', 'The harbour at dusk with the restaurant windows reflected across calm water.', 'Visit', 'Harbour Row, Port Ellery', '[Wed–Sun · 17:30–23:00]' );
+echo nagisa_grill_head( 'p13-harbour.webp', 'The harbour at dusk with the restaurant windows reflected across calm water.', 'Visit', 'Harbour Row, Port Ellery', 'Wed–Sun · 17:30–23:00' );
 
 ob_start();
 ?>

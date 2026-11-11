@@ -5,7 +5,7 @@
  * Categories: nagisa-grill
  * Inserter: no
  */
-echo nagisa_grill_head( 'p02-quay.webp', 'A small wooden day boat at a stone quay at dawn as a crate of fish is handed up to a cook.', 'The Boat', 'The day boat', '[The Wren · Berth 14]' );
+echo nagisa_grill_head( 'p02-quay.webp', 'A small wooden day boat at a stone quay at dawn as a crate of fish is handed up to a cook.', 'The Boat', 'The day boat', 'The Wren · Berth 14' );
 
 $one  = nagisa_grill_p( 'Nagisa Grill relies entirely on a single wooden day boat moored at Berth 14 in Port Ellery. Every dish served in our dining room begins with what skipper Tomas Varga lands that morning.', 'ng-lede' );
 $one .= nagisa_grill_copy( 'One boat: the Wren', array( 'The Wren is a traditional wooden-hulled day boat operated by skipper and co-founder Tomas Varga. Moored at Berth 14, she leaves the harbour at 05:30 each morning from Wednesday to Sunday, working close coastal grounds with low-impact line and pot fishing. There are no factory freezers or prolonged voyages aboard; by 10:30 the boat is tied back up at the stone quay, delivering crates of glistening seafood straight to the kitchen door at 7 Harbour Row.' ) );

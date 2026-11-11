@@ -5,7 +5,7 @@
  * Categories: nagisa-grill
  * Inserter: no
  */
-echo nagisa_grill_head( 'p04-grill.webp', 'Hands scoring the skin of a whole fish over a low charcoal grill with wisps of smoke.', 'Kitchen', 'Charcoal and patience', '[Charcoal grill · one pass]' );
+echo nagisa_grill_head( 'p04-grill.webp', 'Hands scoring the skin of a whole fish over a low charcoal grill with wisps of smoke.', 'Kitchen', 'Charcoal and patience', 'Charcoal grill · one pass' );
 
 $right  = nagisa_grill_p( 'Our kitchen at 7 Harbour Row is built around an open charcoal hearth, patient broth preparation and whole-catch cookery. We cook strictly what the Wren brings to our quay each morning.', 'ng-lede' );
 $right .= nagisa_grill_rules(

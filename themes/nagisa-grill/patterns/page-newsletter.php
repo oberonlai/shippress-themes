@@ -5,7 +5,7 @@
  * Categories: nagisa-grill
  * Inserter: no
  */
-echo nagisa_grill_head( 'p16-after.webp', 'A table after service with folded napkins, a snuffed candle and two empty glasses.', 'Newsletter', 'The Board, by email', '[Wednesdays]' );
+echo nagisa_grill_head( 'p16-after.webp', 'A table after service with folded napkins, a snuffed candle and two empty glasses.', 'Newsletter', 'The Board, by email', 'Wednesdays' );
 
 $right  = nagisa_grill_p( 'The Board is our weekly letter, sent from 7 Harbour Row on Wednesday mornings. It carries notes from the Wren’s landings alongside the open tables of the coming fortnight.', 'ng-lede' );
 $right .= nagisa_grill_copy( 'What is The Board?', array( 'Written by Inès Calder and Tomas Varga, each letter shares notes on the coastal waters, what the Wren has been landing at Berth 14, and what Jun Park is cooking over the charcoal grill. Most importantly, it lists the open tables across the 18:00 and 20:30 seatings for the next two weeks, so readers can book before the dates fill.' ) );

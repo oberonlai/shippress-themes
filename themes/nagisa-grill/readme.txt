@@ -46,3 +46,6 @@ Images: AI-generated for this theme with Grok Build image_gen as film-grain, sla
 - assets/images/p11-bones.webp and assets/images/demo/p11-bones.webp (journal entry: breaking down a fish, bones for stock)
 - assets/images/p12-pour.webp and assets/images/demo/p12-pour.webp (journal entry: wine poured at a candlelit table)
 - assets/images/p13-harbour.webp (home visit band: the harbour at dusk)
+- assets/images/p14-pass.webp (inner pages: the kitchen pass during service)
+- assets/images/p15-skipper.webp (inner pages: the skipper on the deck of the Wren)
+- assets/images/p16-after.webp and assets/images/demo/p16-after.webp (journal entry and newsletter head: the dining room after service)
