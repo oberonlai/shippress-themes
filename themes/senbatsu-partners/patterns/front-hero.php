@@ -55,18 +55,16 @@
 <h2 class="wp-block-heading sb-proof__t"><?php echo wp_kses_post( senbatsu_partners_t( 'kbac6b1e3' ) ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:group {"className":"sb-proof__grid"} -->
-<div class="wp-block-group sb-proof__grid">
+<!-- wp:group {"className":"sb-proof__cols"} -->
+<div class="wp-block-group sb-proof__cols">
+<!-- wp:group {"className":"sb-proof__col"} -->
+<div class="wp-block-group sb-proof__col">
+<!-- wp:paragraph {"className":"sb-proof__cat"} -->
+<p class="sb-proof__cat"><?php echo wp_kses_post( senbatsu_partners_t( 'sb_seats_exec' ) ); ?></p>
+<!-- /wp:paragraph -->
+
 <!-- wp:paragraph {"className":"sb-proof__seat"} -->
 <p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k3aab6f2f' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"sb-proof__seat"} -->
-<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k9d6ee09b' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"sb-proof__seat"} -->
-<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k201f8ab7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sb-proof__seat"} -->
@@ -78,11 +76,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sb-proof__seat"} -->
-<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k7cdd6cbe' ) ); ?></p>
+<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'kbb001568' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sb-proof__seat"} -->
-<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k0c663861' ) ); ?></p>
+<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k1dec78f3' ) ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sb-proof__col"} -->
+<div class="wp-block-group sb-proof__col">
+<!-- wp:paragraph {"className":"sb-proof__cat"} -->
+<p class="sb-proof__cat"><?php echo wp_kses_post( senbatsu_partners_t( 'sb_seats_board' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sb-proof__seat"} -->
@@ -94,16 +100,34 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sb-proof__seat"} -->
-<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'kbb001568' ) ); ?></p>
+<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k201f8ab7' ) ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sb-proof__col"} -->
+<div class="wp-block-group sb-proof__col">
+<!-- wp:paragraph {"className":"sb-proof__cat"} -->
+<p class="sb-proof__cat"><?php echo wp_kses_post( senbatsu_partners_t( 'sb_seats_ops' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sb-proof__seat"} -->
+<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k9d6ee09b' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sb-proof__seat"} -->
+<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k7cdd6cbe' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sb-proof__seat"} -->
+<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k0c663861' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sb-proof__seat"} -->
 <p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k5003c57c' ) ); ?></p>
 <!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"sb-proof__seat"} -->
-<p class="sb-proof__seat"><?php echo wp_kses_post( senbatsu_partners_t( 'k1dec78f3' ) ); ?></p>
-<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 

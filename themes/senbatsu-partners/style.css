@@ -4,7 +4,7 @@ Theme URI: https://github.com/oberonlai/shippress-themes/tree/main/themes/senbat
 Author: ShipPress
 Author URI: https://github.com/oberonlai/shippress-themes
 Description: Senbatsu Partners is a WordPress landing theme designed for retained executive search firms, boards, and leadership consultancies. Built around a single-column longform layout with anchor navigation and clear house rules, it presents mandates, partner bios, transparent fees, and process timelines with calm typographic clarity. The theme features documentary photography, responsive fee tables, and subtle scroll motions for professional corporate presentation.
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
@@ -98,7 +98,7 @@ a { text-underline-offset: 3px; }
 
 /* ---------- hero: opaque navy, natural photo, no floating card ---------- */
 .sb-hero { position: relative; background: var(--sb-navy-deep); color: #fff; margin: 0; }
-.sb-hero__photo { position: absolute; left: 55%; right: 0; top: 0; bottom: 0; margin: 0; }
+.sb-hero__photo { position: absolute; left: 55%; right: 0; top: 0; bottom: 0; margin: 0; clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%); }
 .sb-hero__photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 85% 30%; }
 .sb-hero__inner { position: relative; width: min(1280px, 100% - 96px); margin: 0 auto; padding: 80px 0 88px; box-sizing: border-box; }
 .sb-hero__copy { width: 48%; max-width: 560px; min-width: 0; }
@@ -120,11 +120,20 @@ a { text-underline-offset: 3px; }
 }
 
 /* proof strip */
-.sb-proof { background: #fff; padding: 28px 20px 28px; text-align: center; }
-.sb-proof__t { margin: 0 0 20px; font: 700 1.25rem/1.25 var(--sb-disp); color: #111; }
-.sb-proof__grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 20px 16px; width: min(992px, 100%); margin: 0 auto; }
-.sb-proof__seat { margin: 0; font: 600 .9375rem/1.35 var(--sb-disp); color: var(--sb-navy); text-wrap: balance; }
-.sb-proof__note { margin: 14px 0 0; font-size: .75rem; color: var(--sb-muted); }
+.sb-proof { background: #F3F3F3; padding: 80px 20px 72px; border-bottom: 1px solid var(--sb-rule); }
+.sb-proof > .sb-proof__t, .sb-proof > .sb-proof__cols, .sb-proof > .sb-proof__note { box-sizing: border-box; width: min(1080px, 100%); margin-left: auto; margin-right: auto; }
+.sb-proof > .sb-proof__t { margin-top: 0; margin-bottom: 40px; }
+.sb-proof > .sb-proof__note { margin-top: 28px; margin-bottom: 0; }
+.sb-proof__t {  font: 700 clamp(1.75rem, 3vw, 2.25rem)/1.2 var(--sb-body); letter-spacing: -.02em; color: var(--sb-navy-deep); text-wrap: balance; overflow-wrap: anywhere; }
+.sb-proof__t::before { content: ""; display: block; width: 80px; height: 2px; margin-bottom: 24px; background: var(--sb-accent); }
+.sb-proof__cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; align-items: stretch; }
+/* WordPress flow layout adds a block-gap margin to every sibling after the first; in a grid that would drop cards 2 and 3 */
+.sb-proof .sb-proof__cols > .sb-proof__col { margin: 0; }
+.sb-proof__col { background: #fff; padding: 28px 28px 20px; box-sizing: border-box; min-width: 0; }
+.sb-proof__cat { margin: 0 0 8px; padding-top: 14px; border-top: 2px solid var(--sb-accent); font: 700 .8125rem/1.4 var(--sb-body); letter-spacing: .12em; text-transform: uppercase; color: var(--sb-navy-deep); overflow-wrap: anywhere; }
+.sb-proof__seat { margin: 0; padding: 14px 0; border-top: 1px solid var(--sb-rule); font: 600 1.0625rem/1.4 var(--sb-body); color: var(--sb-navy); overflow-wrap: anywhere; }
+.sb-proof__cat + .sb-proof__seat { border-top: 0; }
+.sb-proof__note { padding-left: 16px; border-left: 2px solid var(--sb-accent); font-size: .875rem; line-height: 1.6; color: #333; }
 
 /* ---------- bands and section openers ---------- */
 .sb-band { padding: 120px 20px; margin: 0; }
@@ -194,6 +203,9 @@ hr.sb-rule.wp-block-separator { width: 80px; max-width: 80px; height: 2px; margi
 .sb-band > .sb-terms { max-width: 720px; margin: 0 0 32px max(0px, calc((100% - 992px) / 2)) !important; }
 .sb-band > .sb-holder { margin-left: max(0px, calc((100% - 992px) / 2)) !important; margin-right: auto !important; }
 .sb-fees thead { border-bottom: 1px solid var(--sb-rule); }
+@media (min-width: 782px) {
+ .sb-proof__cat { box-sizing: border-box; min-height: 3.75rem; }
+}
 @media (max-width: 781px) {
 	.sb-fees table, .sb-fees tbody, .sb-fees tr, .sb-fees td { display: block; width: 100%; box-sizing: border-box; }
 	.sb-fees thead { display: none; }
@@ -287,7 +299,8 @@ hr.sb-rule.wp-block-separator { width: 80px; max-width: 80px; height: 2px; margi
  .sb-hero__inner { padding: 56px 0 64px; }
  .sb-hero__copy { width: 48%; }
  .sb-hero__h1, .sb-hero h1 { font-size: clamp(2.75rem, 5.5vw, 4rem); }
-	.sb-proof__grid { grid-template-columns: repeat(3, 1fr); }
+	.sb-proof__cols { gap: 16px; }
+	.sb-proof__col { padding: 24px 20px 16px; }
 	.sb-tiles { grid-template-columns: repeat(2, 1fr); }
 	.sb-lists { grid-template-columns: repeat(2, 1fr); }
 }
@@ -296,13 +309,15 @@ hr.sb-rule.wp-block-separator { width: 80px; max-width: 80px; height: 2px; margi
  .sb-hero { display: flex; flex-direction: column; padding: 0; }
  .sb-hero__inner { width: auto; margin: 0 20px; padding: 36px 0 40px; }
  .sb-hero__copy { width: 100%; max-width: none; }
- .sb-hero__photo { position: relative; inset: auto; order: 2; width: 100%; aspect-ratio: 4 / 3; margin: 0; }
+ .sb-hero__photo { position: relative; inset: auto; order: 2; width: 100%; aspect-ratio: 4 / 3; margin: 0; clip-path: none; }
  .sb-hero__photo img { position: absolute; inset: 0; object-position: 80% 35%; }
  .sb-hero__h1, .sb-hero h1, :lang(fr) .sb-hero h1 { font-size: clamp(2.75rem, 11.5vw, 3.5rem); }
  :is(:lang(zh), :lang(ja)) .sb-hero h1 { font-size: clamp(2rem, 8.5vw, 3rem); }
  .sb-hero__kicker { font-size: .875rem; margin-bottom: 24px; }
  .sb-hero__actions { margin-top: 28px; align-items: stretch; }
  .sb-hero__actions .sb-btn, .sb-hero__actions .wp-block-button { width: 100%; }
+ .sb-proof { padding: 56px 20px 48px; }
+ .sb-proof__cols { grid-template-columns: 1fr; }
  .sb-hero__actions .sb-btn--secondary .wp-block-button__link { border: 1px solid #8996a8; min-height: 56px; padding: 14px 20px; text-decoration: none; }
 
 	.sb-band { padding: 72px 20px; }
@@ -332,7 +347,6 @@ hr.sb-rule.wp-block-separator { width: 80px; max-width: 80px; height: 2px; margi
 	.sb-nav .wp-block-navigation__responsive-container-open { padding: 6px 12px; }
 	.sb-header__bar { gap: 12px; }
 	.sb-holder { width: 100%; }
-	.sb-proof__grid { grid-template-columns: repeat(2, 1fr); }
 	.sb-eyebrow { font-size: 1rem; }
 	.sb-footer__top { gap: 36px; }
 	.sp-form-slot .sp-newsletter-fallback { grid-template-columns: 1fr; gap: 8px; }
@@ -343,7 +357,7 @@ hr.sb-rule.wp-block-separator { width: 80px; max-width: 80px; height: 2px; margi
 .sb-seam--photo > * { width: auto; margin-left: 0; margin-right: 0; }
 .sb-seam__in { position: relative; z-index: 2; width: min(1008px, 100% - 40px) !important; margin: 0 auto !important; padding: 88px 0; box-sizing: border-box; }
 .sb-seam__in .sb-seam__h { max-width: 52%; margin: 0; }
-.sb-seam__photo { position: absolute; left: 58%; right: 0; top: 0; bottom: 0; margin: 0 !important; clip-path: none; }
+.sb-seam__photo { position: absolute; left: 58%; right: 0; top: 0; bottom: 0; margin: 0 !important; clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%); }
 .sb-seam__photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .sb-seam__photo--top img { object-position: 50% 22%; }
 .sb-seam__photo--left img { object-position: 40% 40%; }

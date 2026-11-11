@@ -54,6 +54,10 @@ Images: AI-generated for this theme with Grok Build image_gen as high-key docume
 
 == Changelog ==
 
+= 1.0.2 =
+* Restore the original diagonal navy/photo edge on the home hero and inner photo heroes (solid navy, full-strength photo, no wash).
+* Redesign the filled-seats strip as a structured three-column credibility band with localized category labels.
+
 = 1.0.1 =
 * Redesign hero with solid navy, clear photography and stronger type.
 * Remove floating role brief; simplify hero actions and navigation hierarchy.
