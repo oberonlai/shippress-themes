@@ -432,3 +432,8 @@ a { text-underline-offset: .2em; }
 
 /* User-authored post/archive titles do not have the demo's explicit phrase spans. */
 :is(:lang(zh), :lang(ja)) :is(.tf-h1--post, .tf-h1--query) { word-break: normal; word-break: auto-phrase; overflow-wrap: break-word; }
+
+/* Keep the smaller desktop photo/text seam comfortably clear at tablet-landscape widths. */
+@media (min-width: 782px) and (max-width: 1199px) {
+  :is(:lang(zh), :lang(ja)) .tf-stage:not(.tf-stage--page) .tf-h1 { max-width: 13ch; }
+}
