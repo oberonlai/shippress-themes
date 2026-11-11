@@ -38,6 +38,20 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
+<!-- wp:group {"className":"kh-card kh-card--stat","layout":{"type":"default"}} -->
+<div class="wp-block-group kh-card kh-card--stat"><!-- wp:paragraph {"className":"kh-stat__n"} -->
+<p class="kh-stat__n"><span><?php echo esc_html( kashidashi_hire_t( 'out_n1' ) ); ?></span> <?php echo esc_html( kashidashi_hire_t( 'out_n1l' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kh-stat__n"} -->
+<p class="kh-stat__n"><span><?php echo esc_html( kashidashi_hire_t( 'out_n2' ) ); ?></span> <?php echo esc_html( kashidashi_hire_t( 'out_n2l' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kh-stat__link"} -->
+<p class="kh-stat__link"><a href="/fleet/"><?php echo esc_html( kashidashi_hire_t( 'out_c5l' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
 <!-- wp:group {"className":"kh-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kh-card"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo kashidashi_hire_img( 'p05-dumper-school' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>" alt="<?php echo esc_attr( kashidashi_hire_t( 'alt_p05' ) ); ?>"/></figure>
@@ -96,20 +110,6 @@
 <p class="kh-card__back"><?php echo esc_html( kashidashi_hire_t( 'out_back' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"kh-card kh-card--stat","layout":{"type":"default"}} -->
-<div class="wp-block-group kh-card kh-card--stat"><!-- wp:paragraph {"className":"kh-stat__n"} -->
-<p class="kh-stat__n"><span><?php echo esc_html( kashidashi_hire_t( 'out_n1' ) ); ?></span> <?php echo esc_html( kashidashi_hire_t( 'out_n1l' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"kh-stat__n"} -->
-<p class="kh-stat__n"><span><?php echo esc_html( kashidashi_hire_t( 'out_n2' ) ); ?></span> <?php echo esc_html( kashidashi_hire_t( 'out_n2l' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"kh-stat__link"} -->
-<p class="kh-stat__link"><a href="/fleet/"><?php echo esc_html( kashidashi_hire_t( 'out_c5l' ) ); ?></a></p>
-<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

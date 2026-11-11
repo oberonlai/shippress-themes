@@ -41,7 +41,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="/#fleet"><?php echo esc_html( kashidashi_hire_t( 'ft_fleet' ) ); ?></a><br><a href="/#week"><?php echo esc_html( kashidashi_hire_t( 'ft_week' ) ); ?></a><br><a href="/#rates"><?php echo esc_html( kashidashi_hire_t( 'ft_rates' ) ); ?></a><br><a href="/#yard"><?php echo esc_html( kashidashi_hire_t( 'ft_yard' ) ); ?></a><br><a href="/#faq"><?php echo esc_html( kashidashi_hire_t( 'ft_faq' ) ); ?></a><br><a href="/request/"><?php echo esc_html( kashidashi_hire_t( 'ft_request' ) ); ?></a></p>
+<p><a href="/fleet/"><?php echo esc_html( kashidashi_hire_t( 'ft_fleet' ) ); ?></a><br><a href="/hire-week/"><?php echo esc_html( kashidashi_hire_t( 'ft_week' ) ); ?></a><br><a href="/rates/"><?php echo esc_html( kashidashi_hire_t( 'ft_rates' ) ); ?></a><br><a href="/yard/"><?php echo esc_html( kashidashi_hire_t( 'ft_yard' ) ); ?></a><br><a href="/faq/"><?php echo esc_html( kashidashi_hire_t( 'ft_faq' ) ); ?></a><br><a href="/request/"><?php echo esc_html( kashidashi_hire_t( 'ft_request' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
