@@ -103,9 +103,11 @@ function tana_furniture_a( $key ) {
  * @return string Escaped inline HTML.
  */
 function tana_furniture_hero( $keys ) {
-	$separator = in_array( tana_furniture_lang(), array( 'zh-TW', 'ja' ), true ) ? '<wbr>' : ' ';
-	$phrases   = array_map( function ( $key ) {
-		return '<span class="tf-phrase">' . esc_html( tana_furniture_t( $key ) ) . '</span>';
+	$phrases = array_map( function ( $key ) {
+		return esc_html( tana_furniture_t( $key ) );
 	}, $keys );
-	return implode( $separator, $phrases );
+	if ( ! in_array( tana_furniture_lang(), array( 'zh-TW', 'ja' ), true ) ) {
+		return implode( ' ', $phrases );
+	}
+	return '<span class="tf-phrase">' . implode( '</span><wbr><span class="tf-phrase">', $phrases ) . '</span>';
 }

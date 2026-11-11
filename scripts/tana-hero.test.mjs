@@ -35,8 +35,8 @@ test("hero strings are escaped and joined with semantic Latin spaces or CJK wrap
   const run = (lang) => execFileSync(process.env.PHP_BINARY || "php", ["-r", prelude + `$GLOBALS['lang'] = '${lang}'; echo tana_furniture_hero(array('st_h1_1', 'st_h1_2', 'st_h1_3', 'st_h1_4'));`, fileURLToPath(new URL("inc/i18n.php", root))], { encoding: "utf8" });
   for (const lang of ["en", "fr", "de"]) {
     const html = run(lang);
-    assert.equal((html.match(/<\/span> <span/g) || []).length, 3, `${lang}: semantic spaces`);
-    assert.doesNotMatch(html, /<wbr>|tf-step/);
+    assert.match(html, /\S \S/, `${lang}: semantic spaces`);
+    assert.doesNotMatch(html, /<[^>]+>/, `${lang}: no unnecessary wrappers`);
   }
   for (const lang of ["zh-TW", "ja"]) assert.equal((run(lang).match(/<wbr>/g) || []).length, 3, `${lang}: safe phrase boundaries`);
 });
