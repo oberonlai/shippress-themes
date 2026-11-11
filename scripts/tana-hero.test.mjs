@@ -45,3 +45,10 @@ test("long dynamic CJK titles can wrap, and the journal has its own real heading
   assert.match(css, /:is\(\.tf-h1--post, \.tf-h1--query\)\s*\{[^}]*word-break: auto-phrase;[^}]*overflow-wrap: break-word/);
   assert.match(readFileSync(new URL("templates/home.html", root), "utf8"), /tana-furniture\/stage-journal/);
 });
+
+test("mobile info bar is full-width, stacked and never gets the desktop translateX animation", () => {
+  const mobile = css.slice(css.indexOf("/* ---------- mobile"), css.indexOf("/* ---------- plain text"));
+  assert.match(mobile, /html:not\(\.sp-no-motion\) \.tf-stage \.tf-bar\s*\{[^}]*animation: none/);
+  assert.match(mobile, /\.tf-bar__text\s*\{[^}]*display: grid;[^}]*grid-template-columns: minmax\(0, 1fr\)/);
+  assert.match(mobile, /\.tf-bar\s*\{[^}]*box-sizing: border-box/);
+});
