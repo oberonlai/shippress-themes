@@ -1,33 +1,29 @@
-# Senbatsu Partners 1.0.1 — hero redesign (local draft)
+# Senbatsu Partners 1.0.1 — premium executive-search hero
 
 ## Plan
-1. RED: source contracts for no floating role card, opaque navy/no photo wash, auto-height headline, direct CTA group, consistent inner hero and patch version.
-2. GREEN: replace only hero/header/inner-hero presentation; keep literal blocks, existing translations and form handling.
-3. Review: inspect diff and all locale text/CTA sizing. Run theme, pattern, form and local WordPress gates.
-4. Verify desktop + 390/360 mobile in en, zh-TW, ja, fr, de; refresh screenshot only after review.
+1. RED: regression contracts for no floating role card, opaque navy/no photo wash, content-driven headline height, direct CTA group, consistent inner hero and patch version.
+2. GREEN: replace only hero/header/inner-hero presentation; retain literal blocks, existing translations and form handling.
+3. Review: inspect diff and locale text/CTA sizing; run theme, pattern, form and real WordPress gates.
+4. Verify desktop 1440 and mobile 390/360 in en, zh-TW, ja, fr, de; refresh theme and catalogue screenshots before release.
 
-## Acceptance
-- No ROLE BRIEF hero card in any language, no floating replacement.
-- Opaque deep navy and natural photo; heavier Instrument Sans headline; brick CTA without grey holder.
-- Clearly secondary header action; readable navigation without overlap.
-- No fixed hero height, clipping, blur, or horizontal overflow. Full-width wrapping mobile CTAs.
-- Inner photo heroes use same straight navy/photo split and brick rule.
-- Contact/newsletter forms, translation keys, below-fold CTA holders remain unchanged.
-- External issue/PR/release/App/landing/deploy await owner authorization; never hand-push release tags.
+## Acceptance criteria
+- Given any locale, when the home hero renders, then no floating ROLE BRIEF card or replacement overlay appears.
+- Opaque deep navy, natural full-strength photo, heavier Instrument Sans headline and direct brick CTA without a grey frame.
+- Clear primary/secondary navigation hierarchy; all sections remain reachable.
+- Content-driven height with no blur, clipping or horizontal overflow; full-width wrapping mobile CTAs.
+- Photo inner heroes use the same straight navy/photo split and 80x2 brick rule.
+- Contact/newsletter form contracts and below-fold holders remain unchanged.
+- Versioned release through ordinary PR/CI, never a hand-pushed release tag.
 
-Risk: medium visual, low runtime; no form or import behavior changes intended.
+## Scope and risk
+Budget: eleven tracked paths covering hero presentation, palette/metadata/index/readme, this plan and one CI regression test. No new dependencies or public interfaces. Low runtime risk / familiar WordPress CSS: light white-box review plus source, runtime and visual acceptance.
 
-## Budget and review
-- Scope: hero/header/inner-hero CSS, shared literal front hero, patch metadata/index, readme, one regression test and this spec (7 tracked paths). No dependencies, public API or form changes.
-- Risk quadrant: low runtime risk / familiar WordPress CSS; light white-box diff review plus source and runtime smoke tests. Visual acceptance is still mandatory before release.
-- Separate cleanup review removed obsolete brief-card styling, checked mobile cascade/long-label auto-height and retained below-fold/form holders.
-
-## Actual verification
-- RED recorded before implementation; GREEN: 9/9 standard-library unit tests.
+## Test and review record
+- Source contracts initially RED before implementation, then 9/9 GREEN; migrated to Node built-ins in scripts/senbatsu-hero.test.mjs and added to normal theme CI.
+- Separate cleanup review removed obsolete card styling; reviewed mobile cascade/long-label auto-height and unchanged below-fold/form holders.
 - pattern_source.py PASS; check-themes-own.mjs PASS; PHP syntax PASS; git diff --check PASS.
-- repo gates labels/tags/woo/themes/import2/nowoo PASS (dry run, no commit/push); no WooCommerce dependency, 18 HTTP pages OK, zero PHP warnings, second import created zero duplicates.
-- Fresh WordPress fixtures in en/zh-TW/ja/fr/de: localized home and newsletter hero rendered; no role card; contact/newsletter fallback runtime PASS in all five.
-- A discarded experiment switched languages in an existing fixture; importer correctly retained old form attributes, so fresh per-locale fixtures were used instead. No theme behavior changed to bypass that test.
-- NOT verified: browser screenshots at desktop/360/390, live site, editor block validity, real iPhone Safari, installed CF7/WPForms. Theme screenshot.png has not yet been refreshed.
-- Local Sonnet CLI attempt failed before reading/writing code with 401 Invalid API key. No credential accessed, no alternate auth attempted. Local patch authored by coordinator instead.
-- No issue, PR, push, merge, tag, release, App update, landing update, deployment or notifications performed.
+- Dry-run repo gates labels/tags/woo/themes/import2/nowoo PASS: 18 HTTP pages OK, zero PHP warnings, no duplicates on second import.
+- Fresh WordPress fixtures in en/zh-TW/ja/fr/de: localized home/newsletter hero rendering and contact/newsletter mailto fallback runtime PASS.
+- Visual acceptance: 60 real-WordPress cases across five locales at 1440/390/360px (static home, motion, reduced motion, and newsletter inner hero); no overflow, clipping, overlapping header/title, broken image or floating card. Screenshots visually reviewed before push; screenshot.png refreshed.
+- First-screen saturation: 4.3% (design limit 12%); editor parser: 26 documents, zero invalid blocks.
+- Normal theme regression suite: 117 passed, zero failed, one existing skipped test.
