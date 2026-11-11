@@ -1,13 +1,13 @@
 # Tana Furniture
 
-A WooCommerce-ready block theme for an independent furniture shop. Black three-pane photo stage with a stepped headline across the seam and a pentagon house stamp; a grey band of white photo-top cards over a 5 x 2 line-icon tile index; a parallax showroom band; a slow materials marquee; offset story rows; ruled room cells. Albert Sans for headings, Onest for reading.
+A WooCommerce-ready block theme for an independent furniture shop. Black three-pane photo stage with a confident left-aligned editorial headline and a separate pentagon house stamp; a grey band of white photo-top cards over a 5 x 2 line-icon tile index; a parallax showroom band; a slow materials marquee; offset story rows; ruled room cells. Albert Sans for headings, Onest for reading.
 
 - Design notes: `brand/design-spec.md`, `brand/reference.md`, `brand/reference-tokens.md`
 - Patterns: `patterns/front-*.php` (home), `patterns/stage-*.php` (page stages), `inc/stage.php`
 - Scroll effects: `assets/sp-scroll.css`, `assets/sp-scroll.js`
 - Forms: `inc/shippress-forms.php` (dynamic `shippress/form` block, no required plugin)
 - Shop: optional WooCommerce support (`templates/archive-product.html`, `templates/single-product.html`, `assets/css/woocommerce.css`, six sample products imported by `inc/woo-import.php` only while WooCommerce is active)
-- Hero: the stage headline sits on a locally blurred band over the photo panes, so the first screen stays readable while the top and bottom of the photos stay clear
+- Hero (1.0.1): a heavier headline sits at the lower-left above the info bar, with a separate right-side stamp and a bottom gradient for contrast. Mobile keeps the normal-flow photo stack; CJK phrase wrapping, dynamic titles and reduced motion are supported.
 
 <!-- screenshots:start -->
 ## Screenshots
