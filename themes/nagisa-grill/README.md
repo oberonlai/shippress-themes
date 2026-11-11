@@ -11,3 +11,23 @@ Nagisa Grill — an editorial block theme for a coastal seafood restaurant that 
 Design notes: `brand.md`, `brand/`.
 
 License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/nagisa-grill/home-desktop.webp" width="640" alt="Nagisa Grill home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/nagisa-grill/home-mobile.webp" width="200" alt="Nagisa Grill home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/nagisa-grill/about-desktop.webp) · [mobile](https://shots.codotx.com/nagisa-grill/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/nagisa-grill/news-desktop.webp) · [mobile](https://shots.codotx.com/nagisa-grill/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/nagisa-grill/article-desktop.webp) · [mobile](https://shots.codotx.com/nagisa-grill/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/nagisa-grill/category-desktop.webp) · [mobile](https://shots.codotx.com/nagisa-grill/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/nagisa-grill/tag-desktop.webp) · [mobile](https://shots.codotx.com/nagisa-grill/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/nagisa-grill/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/nagisa-grill/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/nagisa-grill/contact-desktop.webp) · [mobile](https://shots.codotx.com/nagisa-grill/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/nagisa-grill/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/nagisa-grill/ja/home-desktop.webp) · [fr](https://shots.codotx.com/nagisa-grill/fr/home-desktop.webp) · [de](https://shots.codotx.com/nagisa-grill/de/home-desktop.webp)
+<!-- screenshots:end -->
