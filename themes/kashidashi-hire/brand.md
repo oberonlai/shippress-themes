@@ -47,3 +47,14 @@ Mon 24 Nov.
 ## Pages
 - **Home:** hero with the two-cell dock, yard board, out this week, the yard, fleet finder, hire week, rates, stories, FAQ, request band.
 - **Fleet, Hire week, Rates, The yard, Stories, FAQ, Request dates, Yard board (newsletter), Journal, Privacy, Terms of hire, Thanks.**
+
+## Inner pages (en)
+- **Fleet:** photo head, three-tab finder (by machine, by job, by site) with twelve tiles, copy rows, spec table (weight, reach, minimum gate width), request band.
+- **Hire week:** the Monday to Friday strip, daily detail rows, the before-Monday checklist (site access, ground, fuel and sign-off).
+- **Rates:** seven-row rates table (stacked cards on mobile), what is included and not, delivery zones, request band.
+- **The yard:** history from 2004, the six people as ruled rows, workshop photo, night-return parallax band, hours and phone, request band.
+- **Stories:** finder over four hires (Foundry Row, Brookside School, Riverside path, Ashgrove allotments) and the four story rows; one article, Foundry Row, in the journal.
+- **FAQ:** twelve questions in three tagged groups (Booking, On site, Return).
+- **Request dates:** what to send, hours, request form slot with mailto fallback.
+- **Yard board:** weekly Friday returns email, signup slot that never claims a subscription without a plugin.
+- **Journal, Privacy, Terms of hire, Thanks:** plain pages.

@@ -48,4 +48,4 @@ Bundled resources:
 
 == Changelog ==
 = 1.0.0 =
-* Initial release: home page (English).
+* Initial release: home page and inner pages (English).
