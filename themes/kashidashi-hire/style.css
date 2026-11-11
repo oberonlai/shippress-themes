@@ -502,4 +502,25 @@ html.sp-no-motion .kh-pane { animation: none !important; }
 	.kh-lab { display: inline; color: #4f5852; font: 600 .75rem/1.3 var(--wp--preset--font-family--display); letter-spacing: .06em; text-align: left; text-transform: uppercase; }
 	.kh-table .kh-table__v { min-width: 0; }
 }
+/* ===== Languages: zh-TW and ja headings use a bundled Noto Sans subset (sans, no Mincho); body copy uses system CJK sans. fr and de hyphenate. ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans TC", "Noto Sans CJK TC", sans-serif;
+	--wp--preset--font-family--body: "Source Sans 3", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans JP", "Noto Sans CJK JP", sans-serif;
+	--wp--preset--font-family--body: "Source Sans 3", "Hiragino Sans", "Yu Gothic", sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: .04em; }
+:is(:lang(zh), :lang(ja)) :is(.kh-label, .kh-tag, .kh-scroll, .kh-hero__kicker, .kh-notice__tag, .kh-card__back, .kh-lab, .kh-fig small) { letter-spacing: .1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .kh-hero__title { font-size: clamp(1.9rem, 3.8vw, 3.4rem); line-height: 1.3; letter-spacing: .02em; }
+:is(:lang(zh), :lang(ja)) .kh-band__quote { font-size: clamp(1.25rem, 2.4vw, 1.9rem); line-height: 1.6; }
+:is(:lang(zh), :lang(ja)) .kh-reqcard__title { font-size: clamp(1.25rem, 2vw, 1.4rem); }
+:is(:lang(zh), :lang(ja)) :is(.kh-plainhead h1, .kh-ihead__title) { font-size: clamp(1.75rem, 3vw, 2.6rem); }
+:lang(ja) :is(h1, h2, h3, p) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li, td) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .kh-hero__title { font-size: clamp(2.1rem, 4.2vw, 3.8rem); }
+:is(:lang(fr), :lang(de)) :is(.kh-plainhead h1, .kh-ihead__title) { font-size: clamp(1.9rem, 3.3vw, 2.9rem); }
+:is(:lang(fr), :lang(de)) .kh-band__quote { font-size: clamp(1.35rem, 2.7vw, 2.1rem); }
 .editor-styles-wrapper .kh-pane1--list, .editor-styles-wrapper .kh-pane2--list { display: block !important; }

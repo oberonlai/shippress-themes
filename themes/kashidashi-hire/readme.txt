@@ -15,6 +15,8 @@ A landing-page theme for a plant hire yard: a slant-cut pine logo tab and wedge 
 == Fonts ==
 * Schibsted Grotesk (SIL OFL 1.1): headings, the wordmark and tags.
 * Source Sans 3 (SIL OFL 1.1): body text.
+* Noto Sans TC (SIL OFL 1.1): Traditional Chinese headings (subset of the sample content).
+* Noto Sans JP (SIL OFL 1.1): Japanese headings (subset of the sample content).
 Both are bundled as Latin subsets under assets/fonts with their licence files.
 
 == Images ==
@@ -24,7 +26,7 @@ The sample photographs were generated for this theme and are released under GPL-
 Kashidashi Hire, Copyright 2026 ShipPress. Distributed under the GNU General Public License v2 or later.
 
 Bundled resources:
-* Schibsted Grotesk and Source Sans 3 fonts: SIL Open Font License 1.1 (assets/fonts).
+* Schibsted Grotesk, Source Sans 3, Noto Sans TC and Noto Sans JP fonts: SIL Open Font License 1.1 (assets/fonts).
 * assets/images/p01-handover.webp: generated for this theme, GPL-2.0-or-later.
 * assets/images/p02-yard-line.webp: generated for this theme, GPL-2.0-or-later.
 * assets/images/p03-low-loader.webp: generated for this theme, GPL-2.0-or-later.
