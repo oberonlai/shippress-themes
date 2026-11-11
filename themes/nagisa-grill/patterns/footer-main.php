@@ -34,36 +34,36 @@ echo shippress_form_slot(
 
 <!-- wp:group {"className":"ng-footer__info"} -->
 <div class="wp-block-group ng-footer__info"><!-- wp:paragraph {"className":"ng-footer__lbl"} -->
-<p class="ng-footer__lbl">Hours</p>
+<p class="ng-footer__lbl"><?php echo wp_kses_post( nagisa_grill_t( 'k6a7e7316' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Wednesday to Sunday<br>Bar from 17:30 · seatings at 18:00 and 20:30<br>Last order 22:00 · doors close 23:00<br>Closed Monday and Tuesday</p>
+<p><?php echo wp_kses_post( nagisa_grill_t( 'kdc613d9c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ng-footer__lbl"} -->
-<p class="ng-footer__lbl">Find us</p>
+<p class="ng-footer__lbl"><?php echo wp_kses_post( nagisa_grill_t( 'kedf7553d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>7 Harbour Row, Port Ellery<br><a href="mailto:table@nagisagrill.example">table@nagisagrill.example</a></p>
+<p><?php echo wp_kses_post( nagisa_grill_t( 'ka3342d6c' ) ); ?><br><a href="mailto:table@nagisagrill.example"><?php echo wp_kses_post( nagisa_grill_t( 'k1a875966' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"ng-wm ng-wm--foot sp-stagger"} -->
-<h2 class="wp-block-heading ng-wm ng-wm--foot sp-stagger"><span class="sp-reveal sp-reveal--up">N</span><span class="sp-reveal sp-reveal--up">A</span><span class="sp-reveal sp-reveal--up">G</span><span class="sp-reveal sp-reveal--up">I</span><span class="sp-reveal sp-reveal--up">S</span><span class="sp-reveal sp-reveal--up">A</span></h2>
+<h2 class="wp-block-heading ng-wm ng-wm--foot sp-stagger"><span class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagisa_grill_t( 'k8d9c307c' ) ); ?></span><span class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagisa_grill_t( 'k7fc56270' ) ); ?></span><span class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagisa_grill_t( 'kdfcf28d0' ) ); ?></span><span class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagisa_grill_t( 'kdd753679' ) ); ?></span><span class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagisa_grill_t( 'k5dbc98dc' ) ); ?></span><span class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( nagisa_grill_t( 'k7fc56270' ) ); ?></span></h2>
 <!-- /wp:heading -->
 
 <?php echo nagisa_grill_tide( 'ng-tide--foot' ); ?>
 
 <!-- wp:group {"className":"ng-footer__bottom"} -->
 <div class="wp-block-group ng-footer__bottom"><!-- wp:paragraph {"className":"ng-footer__links"} -->
-<p class="ng-footer__links"><a href="/newsletter/">Newsletter</a> · <a href="/visit/">Visit</a> · <a href="/journal/">Journal</a></p>
+<p class="ng-footer__links"><a href="/newsletter/"><?php echo wp_kses_post( nagisa_grill_t( 'kffb7e666' ) ); ?></a> · <a href="/visit/"><?php echo wp_kses_post( nagisa_grill_t( 'k5e706a9b' ) ); ?></a> · <a href="/journal/"><?php echo wp_kses_post( nagisa_grill_t( 'k6b2b5614' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ng-footer__copy"} -->
-<p class="ng-footer__copy">© 2019–2026 Nagisa Grill. A fictional restaurant; all names, places and figures are invented.</p>
+<p class="ng-footer__copy"><?php echo wp_kses_post( nagisa_grill_t( 'k3103c02c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

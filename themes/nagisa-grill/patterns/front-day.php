@@ -15,17 +15,17 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"className":"ng-word","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading ng-word has-xx-large-font-size">The day</h2>
+<h2 class="wp-block-heading ng-word has-xx-large-font-size"><?php echo wp_kses_post( nagisa_grill_t( 'ke9baaa74' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"ng-day__photo"} -->
-<figure class="wp-block-image size-full ng-day__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-chalk.webp' ) ); ?>" alt="A hand with a stub of chalk ruling lines across a dark kitchen slate board." style="aspect-ratio:4/5;object-fit:cover"/></figure>
+<figure class="wp-block-image size-full ng-day__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-chalk.webp' ) ); ?>" alt="<?php echo esc_attr( nagisa_grill_t( 'aa2c3ac97' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"ng-split__r"} -->
 <div class="wp-block-group ng-split__r"><!-- wp:paragraph {"className":"ng-lede"} -->
-<p class="ng-lede">Every service follows the rhythm of the tide and the kitchen's preparation.</p>
+<p class="ng-lede"><?php echo wp_kses_post( nagisa_grill_t( 'k1e718ea4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ng-rows sp-stagger"} -->
@@ -36,11 +36,11 @@
 
 <!-- wp:group {"className":"ng-row__body"} -->
 <div class="wp-block-group ng-row__body"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">The Wren leaves Berth 14</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( nagisa_grill_t( 'k6eb9cf09' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Tomas Varga takes the day boat out into the coastal waters at first light.</p>
+<p><?php echo wp_kses_post( nagisa_grill_t( 'k8d613e59' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -52,11 +52,11 @@
 
 <!-- wp:group {"className":"ng-row__body"} -->
 <div class="wp-block-group ng-row__body"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">The catch lands at the quay</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( nagisa_grill_t( 'k034609e6' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Crates of fish are brought directly from the boat to the kitchen.</p>
+<p><?php echo wp_kses_post( nagisa_grill_t( 'k826cfcc1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -68,11 +68,11 @@
 
 <!-- wp:group {"className":"ng-row__body"} -->
 <div class="wp-block-group ng-row__body"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">The board is written</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( nagisa_grill_t( 'k45ab01f7' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The evening menu is set on the slate once the fish is broken down.</p>
+<p><?php echo wp_kses_post( nagisa_grill_t( 'kb2d89834' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -84,11 +84,11 @@
 
 <!-- wp:group {"className":"ng-row__body"} -->
 <div class="wp-block-group ng-row__body"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">The bar opens</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( nagisa_grill_t( 'ka51dc6a7' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Early arrivals gather for shore plates and wine before the dining room begins.</p>
+<p><?php echo wp_kses_post( nagisa_grill_t( 'kc70af393' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -100,11 +100,11 @@
 
 <!-- wp:group {"className":"ng-row__body"} -->
 <div class="wp-block-group ng-row__body"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">First seating</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( nagisa_grill_t( 'k0bc80558' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The charcoal hearth is lit and the five-course dinner service commences.</p>
+<p><?php echo wp_kses_post( nagisa_grill_t( 'k8761a814' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -116,18 +116,18 @@
 
 <!-- wp:group {"className":"ng-row__body"} -->
 <div class="wp-block-group ng-row__body"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Second seating</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( nagisa_grill_t( 'kc6f37c4f' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The dining room welcomes the second table seating, with last orders taken at 22:00.</p>
+<p><?php echo wp_kses_post( nagisa_grill_t( 'k6f4c4f92' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ng-link"} -->
-<p class="ng-link"><a href="/the-day/">The whole day</a></p>
+<p class="ng-link"><a href="/the-day/"><?php echo wp_kses_post( nagisa_grill_t( 'k2543f648' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

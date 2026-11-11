@@ -16,12 +16,12 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"className":"ng-word","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading ng-word has-xx-large-font-size">Journal</h2>
+<h2 class="wp-block-heading ng-word has-xx-large-font-size"><?php echo wp_kses_post( nagisa_grill_t( 'k6b2b5614' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"ng-link"} -->
-<p class="ng-link"><a href="/journal/">All entries</a></p>
+<p class="ng-link"><a href="/journal/"><?php echo wp_kses_post( nagisa_grill_t( 'k881fa484' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -30,7 +30,7 @@
 <!-- wp:group {"className":"ng-card sp-reveal sp-reveal--up"} -->
 <div class="wp-block-group ng-card sp-reveal sp-reveal--up"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3","scale":"cover","className":"ng-card__img"} /-->
 
-<!-- wp:post-date {"format":"j F Y","className":"ng-card__date"} /-->
+<!-- wp:post-date {"format":"<?php echo esc_attr( nagisa_grill_t( 'date_fmt' ) ); ?>","className":"ng-card__date"} /-->
 
 <!-- wp:post-title {"level":3,"isLink":true,"className":"ng-card__t"} /--></div>
 <!-- /wp:group -->

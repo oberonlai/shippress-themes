@@ -9,32 +9,32 @@
  */
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-harbour.webp' ) ); ?>","alt":"Calm coastal harbour at dusk with restaurant windows lit along the water's edge.","dimRatio":30,"overlayColor":"scene","isUserOverlayColor":true,"minHeight":72,"minHeightUnit":"vh","contentPosition":"bottom left","align":"full","className":"ng-visit sp-parallax","tagName":"section"} -->
-<section class="wp-block-cover alignfull has-custom-content-position is-position-bottom-left ng-visit sp-parallax" style="min-height:72vh"><img class="wp-block-cover__image-background" alt="Calm coastal harbour at dusk with restaurant windows lit along the water's edge." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-harbour.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim-30 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ng-visit__col"} -->
+<section class="wp-block-cover alignfull has-custom-content-position is-position-bottom-left ng-visit sp-parallax" style="min-height:72vh"><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( nagisa_grill_t( 'ac0300890' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p13-harbour.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-scene-background-color has-background-dim-30 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ng-visit__col"} -->
 <div class="wp-block-group ng-visit__col"><!-- wp:group {"className":"ng-label"} -->
 <div class="wp-block-group ng-label"><?php echo nagisa_grill_tide(); ?>
 
 <!-- wp:paragraph {"className":"ng-label__t"} -->
-<p class="ng-label__t">Visit</p>
+<p class="ng-label__t"><?php echo wp_kses_post( nagisa_grill_t( 'k5e706a9b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"className":"ng-h-photo","fontSize":"x-large"} -->
-<h2 class="wp-block-heading ng-h-photo has-x-large-font-size">7 Harbour Row,<br>Port Ellery.</h2>
+<h2 class="wp-block-heading ng-h-photo has-x-large-font-size"><?php echo wp_kses_post( nagisa_grill_t( 'kadc39253' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"ng-copy"} -->
-<p class="ng-copy">Wednesday to Sunday · bar from 17:30 · seatings at 18:00 and 20:30. Take the harbour tram to the Harbour Row stop, just a four-minute walk from the quay.</p>
+<p class="ng-copy"><?php echo wp_kses_post( nagisa_grill_t( 'kb15f1af0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"ng-visit__actions"} -->
 <div class="wp-block-group ng-visit__actions"><!-- wp:buttons {"className":"ng-pill-white"} -->
 <div class="wp-block-buttons ng-pill-white"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/tables/">Book a table</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/tables/"><?php echo wp_kses_post( nagisa_grill_t( 'ka09e00d1' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"className":"ng-link"} -->
-<p class="ng-link"><a href="/visit/">How to find us</a></p>
+<p class="ng-link"><a href="/visit/"><?php echo wp_kses_post( nagisa_grill_t( 'k9811b3d4' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div></section>
