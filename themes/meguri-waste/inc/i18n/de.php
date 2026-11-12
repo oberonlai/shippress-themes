@@ -165,6 +165,8 @@ return array(
 	'pg_contact_t' => 'Abholplan festlegen',
 	'pg_newsletter_lead' => 'Collection Notes ist der E-Mail-Rundbrief von Meguri Waste für gewerbliche Facility Manager und Standortkoordinatoren. Abonnieren Sie ihn für Hinweise zu Routentagen, feiertagsbedingten Fahrplanänderungen und direkten Betriebsmeldungen unseres Betriebshofs.',
 	'pg_newsletter_t' => 'Abholhinweise',
+	'pg_posts_t' => 'Standortberichte',
+	'pg_posts_lead' => 'Kurze Berichte von den Standorten, die wir anfahren: was sich auf der Route geändert hat, welche Tonnen umgezogen sind und wie ein Zeitplan gehalten hat.',
 	'pr1_c' => '1 Fraktion · ein 660-L-Behälter',
 	'pr1_d' => 'Eine Fraktion, wöchentlich geleert.',
 	'pr1_p' => '€48/Woche',

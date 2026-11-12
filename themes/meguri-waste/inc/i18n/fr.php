@@ -165,6 +165,8 @@ return array(
 	'pg_contact_t' => 'Planifier vos collectes',
 	'pg_newsletter_lead' => 'Collection Notes est la lettre d\'information de Meguri Waste destinée aux gestionnaires de services généraux et coordinateurs de site. Abonnez-vous pour recevoir les notifications de passage, les aménagements d\'horaires lors des jours fériés et les actualités opérationnelles du dépôt.',
 	'pg_newsletter_t' => 'Notes de collecte',
+	'pg_posts_t' => 'Notes de site',
+	'pg_posts_lead' => 'De courts comptes rendus des sites que nous collectons : ce qui a changé sur la tournée, quels bacs ont bougé et comment un planning a tenu.',
 	'pr1_c' => '1 flux · un bac de 660 L',
 	'pr1_d' => 'Un flux, collecté chaque semaine.',
 	'pr1_p' => '48 €/semaine',

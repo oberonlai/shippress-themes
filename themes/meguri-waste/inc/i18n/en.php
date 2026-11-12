@@ -165,6 +165,8 @@ return array(
 	'pg_contact_t' => 'Set your schedule',
 	'pg_newsletter_lead' => 'Collection Notes is Meguri Waste\'s email bulletin for commercial facilities managers and site coordinators. Subscribe to receive route-day notices, holiday timetable shifts, and direct depot service updates.',
 	'pg_newsletter_t' => 'Collection notes',
+	'pg_posts_t' => 'Site notes',
+	'pg_posts_lead' => 'Short field reports from the sites we collect from: what changed on the route, which bins moved, and how a schedule held up.',
 	'pr1_c' => '1 stream · one 660 L bin',
 	'pr1_d' => 'One stream, collected weekly.',
 	'pr1_p' => '€48/week',
