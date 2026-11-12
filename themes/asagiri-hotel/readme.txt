@@ -25,7 +25,7 @@ The hotel, its people, address, telephone number and prices are fictional.
 == Copyright ==
 
 Asagiri Hotel is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Libre Baskerville (OFL-1.1) and Lora (OFL-1.1), Latin subsets, see assets/fonts/.
+Fonts: Libre Baskerville (OFL-1.1) and Lora (OFL-1.1), Latin subsets; Noto Serif TC and Noto Serif JP (OFL-1.1), subset to the characters of the zh-TW and ja sample text. Licenses in assets/fonts/.
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js are small ShipPress files (GPL-2.0-or-later); no third-party script or library is used.
 
 = Images =

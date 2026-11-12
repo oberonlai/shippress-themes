@@ -1,6 +1,7 @@
 <?php
 /** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
+	'date_fmt' => 'j F Y',
 	'k00e6fbe2' => 'Land late.<br>The desk is up.',
 	'k04128012' => '04:30–10:00, per person',
 	'k0484b293' => 'When flights arrive after airport concourses have shuttered their restaurants, hot food provides immediate relief. Between 22:00 and 03:00, the Night Pantry at Asagiri Hotel serves fresh, simple sustenance on the ground floor. Guests will find steaming pots of soup, freshly toasted sandwiches made to order, seasonal whole fruit, and an array of loose-leaf herbal teas and fresh coffee. Everything is served quietly in our low-lit dining area, allowing weary travellers to dine peacefully before heading to their rooms to sleep.',
@@ -255,4 +256,5 @@ return array(
 	'kfbb7ea7c' => 'Runs the pantry from 22:00 and the breakfast counter from 04:30.',
 	'kfd2a0de8' => 'Prices per room per night, taxes included.',
 	'kffb7e666' => 'Newsletter',
+	'search_results' => 'Search results for: %s',
 );
