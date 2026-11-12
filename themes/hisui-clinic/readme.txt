@@ -54,3 +54,7 @@ Photographs were generated with AI for this theme and are distributed under the 
 - assets/images/demo/m1.webp (fasting tests post featured image; copy of assets/images/m1.webp imported into the Media Library, AI-generated, GPL-2.0-or-later)
 - assets/images/demo/m2.webp (first consultation post featured image; copy of assets/images/m2.webp imported into the Media Library, AI-generated, GPL-2.0-or-later)
 The line icons and the arrow circles are inline SVG drawn for this theme (inc/i18n.php), GPL-2.0-or-later.
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (patterns/front-conditions.php).
