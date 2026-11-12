@@ -13,6 +13,7 @@ define( 'KAKERU_RUN_VERSION', wp_get_theme()->get( 'Version' ) );
 
 require_once get_template_directory() . '/inc/demo-import.php';
 require_once get_template_directory() . '/inc/editor-lang.php';
+require_once get_template_directory() . '/inc/woo-import.php';
 
 /**
  * Theme supports + editor styles. WooCommerce support is declared either way; without the plugin it does nothing.
@@ -37,6 +38,9 @@ add_action( 'after_setup_theme', 'kakeru_run_setup' );
 function kakeru_run_enqueue() {
 	wp_enqueue_style( 'kakeru-run-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.css' ), array(), KAKERU_RUN_VERSION );
 	wp_enqueue_style( 'kakeru-run-style', get_stylesheet_uri(), array( 'kakeru-run-sp-scroll' ), KAKERU_RUN_VERSION );
+	if ( class_exists( 'WooCommerce' ) ) {
+		wp_enqueue_style( 'kakeru-run-woocommerce', get_theme_file_uri( 'assets/css/woocommerce.css' ), array( 'kakeru-run-style' ), KAKERU_RUN_VERSION );
+	}
 	wp_enqueue_script( 'kakeru-run-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.js' ), array(), KAKERU_RUN_VERSION, false );
 }
 add_action( 'wp_enqueue_scripts', 'kakeru_run_enqueue' );
