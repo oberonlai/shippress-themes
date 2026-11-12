@@ -13,5 +13,19 @@ A block theme for a scheduled commercial waste collection service. A watercolour
 <!-- screenshots:start -->
 ## Screenshots
 
-Screenshots are added when the theme is shipped.
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/meguri-waste/home-desktop.webp" width="640" alt="Meguri Waste home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/meguri-waste/home-mobile.webp" width="200" alt="Meguri Waste home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/meguri-waste/about-desktop.webp) · [mobile](https://shots.codotx.com/meguri-waste/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/meguri-waste/news-desktop.webp) · [mobile](https://shots.codotx.com/meguri-waste/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/meguri-waste/article-desktop.webp) · [mobile](https://shots.codotx.com/meguri-waste/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/meguri-waste/category-desktop.webp) · [mobile](https://shots.codotx.com/meguri-waste/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/meguri-waste/tag-desktop.webp) · [mobile](https://shots.codotx.com/meguri-waste/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/meguri-waste/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/meguri-waste/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/meguri-waste/contact-desktop.webp) · [mobile](https://shots.codotx.com/meguri-waste/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/meguri-waste/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/meguri-waste/ja/home-desktop.webp) · [fr](https://shots.codotx.com/meguri-waste/fr/home-desktop.webp) · [de](https://shots.codotx.com/meguri-waste/de/home-desktop.webp)
 <!-- screenshots:end -->
