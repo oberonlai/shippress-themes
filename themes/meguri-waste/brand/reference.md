@@ -14,5 +14,12 @@ Full-bleed watercolour panorama (woman in straw hat seen from behind, looking ov
 ## Scroll effects (no libraries beyond jQuery; see tokens (g))
 Header shrink >200px; fadeInDown 3s at 200px inside viewport; Ken Burns hero; smooth anchor scroll.
 
-## Our counterpart
-(blank until stage 2)
+## Our counterpart (see design-spec.md)
+| Reference | Meguri Waste |
+|---|---|
+| Watercolour bay panorama, person from behind, catch on picture, Ken Burns | Dawn loading-dock watercolour panorama (P01) in a sideways pan-strip, coordinator in hi-vis from behind, h1 "A collection day / you can plan around." 400/700 on the sky, Ken Burns 20s + sp-parallax 8% |
+| Outlined permit / helpline boxes, slate current tab | Teal-outline licence box, red-outline missed-pickup line box, slate tab "Set your schedule" |
+| Service lead: text left, wash bleeding off right, dissolving to white; 3px gradient hairline | Lead band on home intro, schedule CTA and every inner page; mask 0→38%, hairline #A8D26B→#22B0A4 |
+| Flat pictograms + long slate arrows + teal drops under ruled h2 | "A collection day" 5-step (home) / 7-step (inner) timed pictogram line; ruled h2 + teal-dash h3 site-wide |
+| Pale link boxes, 3-up cards with teal circle-arrow | Case-note rows 360×248 with teal circle-arrow, outline tag chips |
+| fadeInDown 3s, header shrink, smooth anchor | sp-reveal--down .9s + sp-stagger, sticky nav row, CSS smooth scroll |
