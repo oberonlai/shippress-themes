@@ -30,6 +30,8 @@ Himuro Gelato is distributed under the terms of the GNU GPL v2 or later.
 Fonts: Fraunces (OFL-1.1), Latin variable; Literata (OFL-1.1), Latin variable; Noto Serif TC (OFL-1.1), Traditional Chinese heading subset; Noto Serif JP (OFL-1.1), Japanese heading subset; all WOFF2, see assets/fonts/.
 Photographs were generated with AI for this theme and are distributed under the same GPL v2 or later license:
 - assets/images/h01.webp and assets/images/demo/h01.webp (home hero; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/g1.webp (flavours page panel; AI-generated photograph made for this theme, GPL-2.0-or-later)
+- assets/images/g2.webp (flavours page panel; AI-generated photograph made for this theme, GPL-2.0-or-later)
 - assets/images/h02.webp and assets/images/demo/h02.webp (home hero cross-fade; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
 - assets/images/h03.webp and assets/images/demo/h03.webp (home hero cross-fade, contact head; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
 - assets/images/p04.webp and assets/images/demo/p04.webp (home introduction; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)

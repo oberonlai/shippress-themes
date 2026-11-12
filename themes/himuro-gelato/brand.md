@@ -31,7 +31,7 @@ Morning: Tomas starts the daily routine by checking the bases that rested overni
 
 ## Pages and contents
 1. **Home** - front-kv, front-intro, front-viewer, front-batch, front-prices, front-people, front-visit, front-journal, front-note.
-2. **About** (/about/), **Flavours** (/flavours/), **Batches** (/batches/), **Tubs** (/tubs/), **People** (/people/), **Visit** (/visit/), **Journal** (/journal/, posts page), **Newsletter** (/newsletter/), **Contact** (/contact/): short versions now, extended in the second stage.
+2. **About** (/about/) - founding story, two portraits, three house rules as lit rows on dark grain. **Flavours** (/flavours/) - six viewer panels with index, spec box and sweetness meter, rotating-batch and allergen note. **Batches** (/batches/) - five pacing stages as lit rows, then each stage in full. **Tubs** (/tubs/) - three tub panels, the full price list, how to reserve (form slot with mailto fallback). **People** (/people/) - team portraits in ruled rows and three customer stories as lit rows. **Visit** (/visit/) - address, hours, how to arrive, seating, full-width parallax photo. **Journal** (/journal/, posts page) with one article, "The Eleven-Minute Churn". **Newsletter** (/newsletter/) - standalone subscribe page (email field, mailto fallback, never claims a subscription). **Contact** (/contact/) - email, phone, enquiries, contact form slot with mailto fallback.
 
 ## Photography
-Sixteen AI-generated film-grain photographs (Grok Build), one style: 35 mm grain, soft side-window daylight, slightly lifted blacks, muted plum-grey grade with pale paper and brushed steel; diverse people; no text, logos or brand marks.
+Eighteen AI-generated film-grain photographs (Grok Build), one style: 35 mm grain, soft side-window daylight, slightly lifted blacks, muted plum-grey grade with pale paper and brushed steel; diverse people; no text, logos or brand marks.
