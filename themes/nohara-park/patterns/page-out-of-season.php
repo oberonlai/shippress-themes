@@ -150,8 +150,8 @@
 <!-- wp:group {"align":"full","tagName":"section","className":"np-sec np-sec--tight np-stays","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull np-sec np-sec--tight np-stays"><!-- wp:group {"className":"np-wrap np-wrap--cards","layout":{"type":"default"}} -->
 <div class="wp-block-group np-wrap np-wrap--cards"><!-- wp:group {"className":"np-headrule","layout":{"type":"default"}} -->
-<div class="wp-block-group np-headrule"><!-- wp:heading {"className":"np-h2 sp-reveal sp-reveal--down"} -->
-<h2 class="wp-block-heading np-h2 sp-reveal sp-reveal--down"><?php echo esc_html( nohara_park_t( 'out_of_season_s1_h' ) ); ?></h2>
+<div class="wp-block-group np-headrule"><!-- wp:heading {"anchor":"hedges","className":"np-h2 sp-reveal sp-reveal--down"} -->
+<h2 class="wp-block-heading np-h2 sp-reveal sp-reveal--down" id="hedges"><?php echo esc_html( nohara_park_t( 'out_of_season_s1_h' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
