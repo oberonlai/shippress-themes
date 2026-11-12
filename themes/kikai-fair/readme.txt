@@ -52,3 +52,5 @@ Images: AI-generated for this theme with Grok Build image_gen as high-key docume
 - assets/images/v03a-north-entrance.webp (Visitors walking toward the modern glass facade of Riverside Exhibition Centre north entrance)
 - assets/images/v03b-tram-stop.webp (Public tram stop and metal bicycle parking racks outside the exhibition venue entrance)
 - assets/images/demo/d01-demo-stage.webp (Host with a microphone beside a running spindle moulder in front of a seated audience)
+- assets/images/demo/h03-demo-edgebander.webp (Copy of h03-edgebander.webp: edgebander running at a stand, used as a demo article image)
+- assets/images/demo/c04-demo-extraction.webp (Copy of c04-extraction.webp: visitor and exhibitor reading a meter on a dust extraction unit, used as a demo article image)
