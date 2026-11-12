@@ -28,4 +28,20 @@ The cafe, its people, its address, telephone number and prices are fictional.
 
 Himuro Gelato is distributed under the terms of the GNU GPL v2 or later.
 Fonts: Fraunces (OFL-1.1), Latin variable; Literata (OFL-1.1), Latin variable; Noto Serif TC (OFL-1.1), Traditional Chinese heading subset; Noto Serif JP (OFL-1.1), Japanese heading subset; all WOFF2, see assets/fonts/.
-Photographs were generated with AI for this theme.
+Photographs were generated with AI for this theme and are distributed under the same GPL v2 or later license:
+- assets/images/h01.webp and assets/images/demo/h01.webp (home hero; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/h02.webp and assets/images/demo/h02.webp (home hero cross-fade; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/h03.webp and assets/images/demo/h03.webp (home hero cross-fade, contact head; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/p04.webp and assets/images/demo/p04.webp (home introduction; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/v1.webp and assets/images/demo/v1.webp (home viewer thumbnail, tubs; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/v2.webp and assets/images/demo/v2.webp (home viewer thumbnail; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/v3.webp and assets/images/demo/v3.webp (home viewer main, flavours head; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/b1.webp and assets/images/demo/b1.webp (home batch band, batches head; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/b2.webp and assets/images/demo/b2.webp (home lit-row parked photo; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/r1.webp and assets/images/demo/r1.webp (home people, people head; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/r2.webp and assets/images/demo/r2.webp (home people; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/r3.webp and assets/images/demo/r3.webp (home people; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/s1.webp and assets/images/demo/s1.webp (home visit band, visit head; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/j1.webp and assets/images/demo/j1.webp (journal post and head; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/j2.webp and assets/images/demo/j2.webp (journal post; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/a1.webp and assets/images/demo/a1.webp (about head, newsletter head; AI-generated photograph made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)

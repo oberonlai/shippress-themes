@@ -114,7 +114,7 @@ Technique continuation on ≥ 4 inner pages: T1 on About, Flavours, Batches, Peo
 ---
 
 ## 6. Colour (reference relationships, plum family)
-Reference hexes are coffee browns; the row fixes palette 梅鼠 plum #6B5A5E, and brown would also repeat the reference's identity. So hue is moved to plum while **lightness and the share of each role are kept from the reference tokens (within ±5% L)**.
+Reference hexes are coffee browns; the row fixes palette plum #6B5A5E, and brown would also repeat the reference's identity. So hue is moved to plum while **lightness and the share of each role are kept from the reference tokens (within ±5% L)**.
 | Role | Reference (token a) | Ours | Share |
 |---|---|---|---|
 | Paper ground | #ECE9E1 (62%) | **#ECE8E8** | ~58% |
