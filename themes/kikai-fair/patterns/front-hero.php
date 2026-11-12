@@ -46,7 +46,7 @@
 <!-- /wp:buttons -->
 
 <!-- wp:html -->
-<ol class="kf-timeline" aria-label="Fair days"><li><span class="kf-timeline__d">Day 1</span><span class="kf-timeline__t">Tue 9 Mar · 09:00–17:30</span></li><li><span class="kf-timeline__d">Day 2</span><span class="kf-timeline__t">Wed 10 Mar · 09:00–17:30</span></li><li><span class="kf-timeline__d">Day 3</span><span class="kf-timeline__t">Thu 11 Mar · 09:00–16:00</span></li></ol>
+<ol class="kf-timeline" aria-label="Fair days"><li><span class="kf-timeline__d">Day 1</span><span class="kf-timeline__t">Tue 9 Mar<br>09:00–17:30</span></li><li><span class="kf-timeline__d">Day 2</span><span class="kf-timeline__t">Wed 10 Mar<br>09:00–17:30</span></li><li><span class="kf-timeline__d">Day 3</span><span class="kf-timeline__t">Thu 11 Mar<br>09:00–16:00</span></li></ol>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
