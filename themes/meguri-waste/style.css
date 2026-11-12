@@ -125,7 +125,7 @@ a { text-underline-offset: .2em; }
 }
 .mw-hero__in { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
 .mw-hero__panel { position: absolute; left: max(24px, calc((100vw - 1200px) / 2)); top: 44px; max-width: 700px; padding: 32px 40px 36px; box-sizing: border-box; background: rgba(255,255,255,.72); pointer-events: auto; }
-.mw-hero__h1 { margin: 0; font-size: var(--wp--preset--font-size--hero); font-weight: 400; line-height: 1.08; letter-spacing: -.01em; color: var(--mw-slate); }
+.mw-hero__h1 { text-wrap: balance; margin: 0; font-size: var(--wp--preset--font-size--hero); font-weight: 400; line-height: 1.08; letter-spacing: -.01em; color: var(--mw-slate); }
 .mw-hero__h1 strong { font-weight: 700; }
 .mw-hero__lead { margin: 22px 0 0; max-width: 560px; font-size: 1.0625rem; line-height: 1.7; }
 .mw-hero__cta { margin-top: 24px; gap: 24px; align-items: center; }
@@ -136,7 +136,7 @@ a { text-underline-offset: .2em; }
 .mw-tag::after { content: ""; position: absolute; left: 50%; top: 6px; width: 6px; height: 6px; margin-left: -3px; border-radius: 50%; background: var(--mw-teal); }
 .mw-tag b { display: block; font-family: var(--wp--preset--font-family--display); font-weight: 600; font-size: .9375rem; color: var(--mw-slate); }
 .mw-tag span { display: block; margin-top: 4px; font-size: .75rem; color: var(--wp--preset--color--patina); }
-.mw-tag--1 { left: 18.5%; } .mw-tag--2 { left: 31.5%; } .mw-tag--3 { left: 39%; } .mw-tag--4 { left: 45%; } .mw-tag--5 { left: 51%; }
+.mw-tag--1 { left: 15%; } .mw-tag--2 { left: 35.7%; } .mw-tag--3 { left: 41%; } .mw-tag--4 { left: 46%; } .mw-tag--5 { left: 50.9%; }
 @media (prefers-reduced-motion: no-preference) {
 	html:not(.sp-no-motion) .mw-tag { animation: mw-sway 6s ease-in-out infinite alternate; }
 	html:not(.sp-no-motion) .mw-tag--2 { animation-delay: -1.5s; } html:not(.sp-no-motion) .mw-tag--3 { animation-delay: -3s; }
@@ -186,9 +186,9 @@ a { text-underline-offset: .2em; }
 /* ---------- streams: ruled rows + aside ---------- */
 .mw-sec--paper, .mw-notes { background: var(--mw-paper); }
 .mw-streams__cols { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 60px; align-items: start; }
-.mw-row { display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; gap: 28px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--mw-rule); }
+.mw-row { display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; gap: 36px; align-items: center; padding: 26px 0; border-bottom: 1px solid var(--mw-rule); }
 .mw-row:first-child { border-top: 1px solid var(--mw-rule); }
-.mw-row__ico svg { width: 64px; height: 64px; }
+.mw-row__ico svg { width: 84px; height: 84px; margin: -10px; }
 .mw-row__body p { margin: 6px 0 0 40px; font-size: .9375rem; line-height: 1.7; }
 .mw-chip { margin: 0; padding: 2px 8px; border: 1px solid var(--mw-slate); font-size: .6875rem; font-weight: 500; line-height: 1.6; color: var(--mw-slate); white-space: nowrap; }
 .mw-streams__pic img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
@@ -228,7 +228,7 @@ a { text-underline-offset: .2em; }
 .mw-dock.wp-block-cover { min-height: 560px; padding: 0; align-items: flex-end; --sp-par: 10%; background: #fff; }
 .mw-dock .wp-block-cover__inner-container { width: 100%; }
 .mw-dock__wrap { padding-bottom: 48px; }
-.mw-dock__panel { max-width: 420px; padding: 32px 36px 34px; background: #fff; }
+.mw-dock__panel { color: var(--mw-ink); max-width: 420px; padding: 32px 36px 34px; background: #fff; }
 .mw-dock__panel p { margin: 12px 0 0; font-size: .9375rem; line-height: 1.75; }
 .mw-dock .wp-block-cover__image-background { object-position: center bottom; }
 @media (max-width: 781px) {
@@ -308,3 +308,7 @@ a { text-underline-offset: .2em; }
 .mw-foot .mw-box { display: inline-block; margin-top: 12px; }
 .mw-foot__copy { margin-top: 56px !important; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.25); font-size: .8125rem !important; color: rgba(255,255,255,.75); }
 @media (max-width: 781px) { .mw-foot__cols { grid-template-columns: 1fr; gap: 32px; } .mw-foot .mw-box { white-space: normal; } }
+.mw-dock__panel .mw-h3 { color: var(--mw-slate); font-size: 1.25rem; }
+.mw-foot .mw-foot__copy { margin-inline: auto; width: 100%; max-width: 1248px; }
+.mw-case:first-of-type { border-top: 0; }
+.mw-wash__text { max-width: 480px; }
