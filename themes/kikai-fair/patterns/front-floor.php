@@ -24,7 +24,7 @@
 
 <!-- wp:buttons {"className":"kf-btn-line kf-btn-line--dark"} -->
 <div class="wp-block-buttons kf-btn-line kf-btn-line--dark"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/exhibitors/#zones">See the floor plan<svg class="kf-arrow" width="28" height="6" viewBox="0 0 28 6" aria-hidden="true" focusable="false"><path d="M0 3H27M23.5.5 27 3l-3.5 2.5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/exhibitors/#stand">See the floor plan<svg class="kf-arrow" width="28" height="6" viewBox="0 0 28 6" aria-hidden="true" focusable="false"><path d="M0 3H27M23.5.5 27 3l-3.5 2.5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -91,6 +91,6 @@
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<div class="kf-ctrl" aria-hidden="true"><a href="/exhibitors/#zones" tabindex="-1"><svg width="48" height="8" viewBox="0 0 48 8" focusable="false"><path d="M48 4H1M5.5.5 1 4l4.5 3.5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a><span class="kf-ctrl__pause"><i></i><i></i></span><a href="/exhibitors/#zones" tabindex="-1"><svg width="48" height="8" viewBox="0 0 48 8" focusable="false"><path d="M0 4H47M42.5.5 47 4l-4.5 3.5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a></div>
+<div class="kf-ctrl" aria-hidden="true"><a href="/exhibitors/#stand" tabindex="-1"><svg width="48" height="8" viewBox="0 0 48 8" focusable="false"><path d="M48 4H1M5.5.5 1 4l4.5 3.5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a><span class="kf-ctrl__pause"><i></i><i></i></span><a href="/exhibitors/#stand" tabindex="-1"><svg width="48" height="8" viewBox="0 0 48 8" focusable="false"><path d="M0 4H47M42.5.5 47 4l-4.5 3.5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a></div>
 <!-- /wp:html --></section>
 <!-- /wp:group -->

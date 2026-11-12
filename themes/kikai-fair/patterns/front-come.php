@@ -43,8 +43,8 @@
 
 <!-- wp:group {"className":"kf-value__photo kf-pair sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kf-value__photo kf-pair sp-reveal sp-reveal--up"><!-- wp:html -->
-<figure class="kf-pair__a"><img src="<?php echo kikai_fair_img( 'v03a-north-entrance.webp' ); ?>" alt="Visitors walking toward the glass facade of the Riverside Exhibition Centre north entrance" width="1600" height="1067" loading="lazy"/><figcaption>Hall 4 north entrance, where passes are scanned.</figcaption></figure>
-<figure class="kf-pair__b"><img src="<?php echo kikai_fair_img( 'v03b-tram-stop.webp' ); ?>" alt="Tram stop and bicycle racks outside the exhibition centre" width="1600" height="1067" loading="lazy"/><figcaption>Tram line 3 stops at Harbour Road, four minutes on foot.</figcaption></figure>
+<figure class="kf-pair__a"><img src="<?php echo kikai_fair_img( 'v03a-north-entrance.webp' ); ?>" alt="Visitors in lanyards walking across the forecourt toward the glass facade of the Riverside Exhibition Centre" width="1600" height="1067" loading="lazy"/><figcaption>The glass north entrance, where passes are scanned.</figcaption></figure>
+<figure class="kf-pair__b"><img src="<?php echo kikai_fair_img( 'v03b-tram-stop.webp' ); ?>" alt="Tram stop and bicycle racks outside the exhibition centre" width="1600" height="1067" loading="lazy"/><figcaption>Tram line 3 stops at Harbour Road, with bicycle racks beside it.</figcaption></figure>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

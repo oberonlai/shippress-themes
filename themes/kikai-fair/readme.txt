@@ -45,7 +45,7 @@ Images: AI-generated for this theme with Grok Build image_gen as high-key docume
 - assets/images/m03-buyer-meeting.webp (Two professionals discussing plywood samples with a laptop at an exhibition stand table)
 - assets/images/p01-empty-aisle.webp (Long view of empty hall aisle before opening with covered machines and overhead lights)
 - assets/images/s01-pass-scan.webp (Attendant scanning digital QR code admission pass on visitor badge at entry turnstile)
-- assets/images/v01-hall-aisle.webp (Elevated mezzanine perspective of wide hall aisle filled with running machinery and trade visitors)
+- assets/images/v01-hall-aisle.webp (Visitors and an exhibitor gathered around a stand with a running woodworking machine)
 - assets/images/v03a-north-entrance.webp (Visitors walking toward the modern glass facade of Riverside Exhibition Centre north entrance)
 - assets/images/v03b-tram-stop.webp (Public tram stop and metal bicycle parking racks outside the exhibition venue entrance)
 - assets/images/demo/m03-buyer-meeting.webp (Two professionals discussing plywood samples with a laptop at an exhibition stand table)

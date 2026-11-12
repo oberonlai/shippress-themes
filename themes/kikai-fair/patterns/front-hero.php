@@ -26,12 +26,15 @@
 <figure class="kf-slide kf-slide--2" role="img" aria-label="Two visitors behind a safety barrier watching a CNC router nest cabinet parts" style="background-image:url(<?php echo kikai_fair_img( 'h02-cnc-router.webp' ); ?>)"></figure>
 <figure class="kf-slide kf-slide--3" role="img" aria-label="Exhibitor feeds a white panel through an edgebander while a visitor inspects a finished edge" style="background-image:url(<?php echo kikai_fair_img( 'h03-edgebander.webp' ); ?>)"></figure>
 <label class="kf-pause" for="kf-pause"><span class="kf-pause__icon" aria-hidden="true"></span><span class="screen-reader-text">Pause or resume the slideshow</span></label>
-<div class="kf-datecard"><p class="kf-datecard__d">9–11 March 2027</p><p class="kf-datecard__p">Hall 4 · Riverside Exhibition Centre</p></div>
 </div>
 <!-- /wp:html -->
 
 <!-- wp:group {"className":"kf-hero__panel","layout":{"type":"default"}} -->
-<div class="wp-block-group kf-hero__panel"><!-- wp:heading {"level":1,"className":"kf-hero__title"} -->
+<div class="wp-block-group kf-hero__panel"><!-- wp:html -->
+<p class="kf-datecard"><span class="kf-datecard__d">9–11 March 2027</span><span class="kf-datecard__p">Hall 4 · Riverside Exhibition Centre</span></p>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":1,"className":"kf-hero__title"} -->
 <h1 class="wp-block-heading kf-hero__title">Machines running. Buyers listening.</h1>
 <!-- /wp:heading -->
 

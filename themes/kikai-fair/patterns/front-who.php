@@ -9,7 +9,11 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kf-value kf-lattice","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull kf-value kf-lattice" id="who"><!-- wp:group {"align":"wide","className":"kf-value__in","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kf-value kf-lattice" id="who"><!-- wp:heading {"textAlign":"center","className":"kf-why"} -->
+<h2 class="wp-block-heading has-text-align-center kf-why">Why come</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"align":"wide","className":"kf-value__in","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide kf-value__in"><!-- wp:group {"className":"kf-value__text sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kf-value__text sp-reveal sp-reveal--up"><!-- wp:group {"className":"kf-num","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group kf-num"><!-- wp:paragraph {"className":"kf-vlabel"} -->

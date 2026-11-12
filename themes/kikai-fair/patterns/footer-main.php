@@ -22,7 +22,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kf-footer__links"} -->
-<p class="kf-footer__links"><a href="/visit/">Access</a><a href="/exhibitors/#zones">Floor plan</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/contact/">Contact</a></p>
+<p class="kf-footer__links"><a href="/#come">Access</a><a href="/exhibitors/#stand">Exhibitors</a><a href="/about/">About</a><a href="/news/">News</a><a href="/contact/">Contact</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kf-footer__copy"} -->
