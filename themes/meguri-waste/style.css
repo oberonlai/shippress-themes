@@ -89,6 +89,9 @@ a { text-underline-offset: .2em; }
 .mw-nav .wp-block-navigation-item__content { padding: 15px 16px; text-decoration: none; color: var(--mw-slate); }
 .mw-nav .wp-block-navigation-item__content:hover { color: var(--mw-teal-ink); }
 .mw-nav .wp-block-navigation__container > li:last-child > .wp-block-navigation-item__content { background: var(--mw-slate); color: #fff; padding-inline: 22px; margin-left: 8px; }
+.mw-nav__boxes { display: none; }
+.mw-nav .is-menu-open .mw-nav__boxes { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; margin-top: 28px; }
+.mw-nav .is-menu-open .mw-nav__boxes .mw-box { white-space: normal; }
 .mw-nav .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__container > li:last-child > .wp-block-navigation-item__content { margin: 12px 0 0; display: inline-block; }
 @media (max-width: 781px) {
 	.mw-util { display: none; }
@@ -103,7 +106,7 @@ a { text-underline-offset: .2em; }
 .mw-cta-row { margin-top: 48px; }
 
 /* ---------- hero: pannable dock panorama (S1) ---------- */
-.mw-hero { position: relative; height: 640px; background: #fff; isolation: isolate; --sp-par: 8%; view-timeline-name: --mw-hero; view-timeline-axis: block; }
+.mw-hero { position: relative; height: 640px; background: #fff; isolation: isolate; --sp-par: 4%; view-timeline-name: --mw-hero; view-timeline-axis: block; }
 .mw-hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 72px; background: linear-gradient(180deg, rgba(255,255,255,0), #fff); pointer-events: none; z-index: 1; }
 .mw-hero__strip { height: 100%; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x proximity; scrollbar-width: none; scroll-behavior: smooth; }
 .mw-hero__strip::-webkit-scrollbar { display: none; }
@@ -124,7 +127,7 @@ a { text-underline-offset: .2em; }
 	html.sp-js:not(.sp-no-motion) .mw-hero__pic img { animation: mw-kb 20s ease-in-out infinite alternate; }
 }
 .mw-hero__in { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
-.mw-hero__panel { position: absolute; left: max(24px, calc((100vw - 1200px) / 2)); top: 56px; max-width: 640px; padding: 32px 40px 36px; box-sizing: border-box; background: rgba(255,255,255,.72); pointer-events: auto; }
+.mw-hero__panel { position: absolute; left: max(24px, calc((100vw - 1200px) / 2)); top: 56px; max-width: 640px; padding: 32px 40px 36px; box-sizing: border-box; background: rgba(255,255,255,.82); pointer-events: auto; }
 .mw-hero__h1 { text-wrap: balance; margin: 0; font-size: var(--wp--preset--font-size--hero); font-weight: 400; line-height: 1.08; letter-spacing: -.01em; color: var(--mw-slate); }
 .mw-hero__h1 strong { font-weight: 700; }
 .mw-hero__lead { margin: 22px 0 0; max-width: 560px; font-size: 1.0625rem; line-height: 1.7; }
@@ -216,7 +219,7 @@ a { text-underline-offset: .2em; }
 .mw-step:not(:last-child)::after { content: ""; position: absolute; top: 87px; left: calc(50% + 54px); right: calc(-50% + 58px); height: 12px; background: linear-gradient(var(--mw-slate), var(--mw-slate)) 0 50% / 100% 2px no-repeat, radial-gradient(circle, var(--mw-teal) 0 5px, transparent 6px) 50% 50% / 12px 12px no-repeat; }
 .mw-step:not(:last-child)::before { content: ""; position: absolute; top: 88px; right: calc(-50% + 52px); width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 8px solid var(--mw-slate); transform: translateY(-4px); }
 .mw-day__lead { margin-top: 60px !important; }
-.mw-cols { columns: 2; column-gap: 60px; }
+.mw-cols { max-width: 760px; }
 @media (max-width: 781px) {
 	.mw-line { flex-direction: column; align-items: center; gap: 48px; }
 	.mw-step { flex: none; width: 100%; }

@@ -2,11 +2,11 @@
 /** en strings of the theme's patterns (semantic keys). */
 return array(
 	'alt_p01' => 'Coordinator in hi-vis vest and manager observing collection truck reversing into commercial loading dock.',
-	'alt_p02' => 'Row of four commercial waste bins with hanging blank paper tags in morning light.',
+	'alt_p02' => 'Close view of a grey commercial bin handle with a blank paper day tag and a red lid tag in soft morning light.',
 	'alt_p03' => 'Driver in workwear lifting a large wheeled commercial bin onto a truck lift mechanism.',
 	'alt_p04' => 'Commercial collection truck parked at a loading dock with early morning workers and shadows.',
 	'alt_p05' => 'Organised indoor bin room with open door showing neatly lined containers with coloured lids.',
-	'alt_p06' => 'Coordinator with clipboard walking alongside a facilities manager during an outdoor site inspection.',
+	'alt_p06' => 'Coordinator and facilities manager leaning over a site plan on a meeting-room table to agree bin positions.',
 	'alt_p07' => 'Route lead standing next to the open cab door of a collection truck.',
 	'alt_p08' => 'Commercial office building service yard arranged with tidy metal cages for sorted recyclables.',
 	'alt_p09' => 'Back entrance of a food hall with small organic waste caddies being collected.',

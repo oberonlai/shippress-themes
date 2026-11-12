@@ -54,3 +54,20 @@ function meguri_waste_pattern_categories() {
 	);
 }
 add_action( 'init', 'meguri_waste_pattern_categories' );
+
+/**
+ * The two utility boxes (licence number, missed-pickup line) sit above the bar on desktop; on small screens that row is
+ * hidden, so the same boxes are added to the end of the navigation overlay (shown only while the drawer is open).
+ */
+function meguri_waste_nav_boxes( $block_content, $block ) {
+	if ( false === strpos( $block_content, 'mw-nav' ) || false === strpos( $block_content, 'wp-block-navigation__responsive-container' ) ) {
+		return $block_content;
+	}
+	$boxes = '<div class="mw-nav__boxes"><p class="mw-box mw-box--licence">' . esc_html( meguri_waste_t( 'hd_licence' ) ) . '</p><p class="mw-box mw-box--alert">' . esc_html( meguri_waste_t( 'hd_missed' ) ) . '</p></div>';
+	$pos   = strrpos( $block_content, '</ul>' );
+	if ( false === $pos ) {
+		return $block_content;
+	}
+	return substr_replace( $block_content, '</ul>' . $boxes, $pos, 5 );
+}
+add_filter( 'render_block_core/navigation', 'meguri_waste_nav_boxes', 10, 2 );

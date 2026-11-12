@@ -5,6 +5,8 @@ A block theme for a scheduled commercial waste collection service. A watercolour
 - Design notes: `brand/design-spec.md`, `brand/reference.md`, `brand/reference-tokens.md`
 - Patterns: `patterns/front-*.php` (home), `patterns/foot-main.php`, `patterns/head-util.php`, `patterns/page-*.php`
 - Sample pages: about, streams, a collection day, weekly cover, sites, set your schedule, collection notes, privacy, terms and thanks are imported from `demo-content.json`
+- Menu: Streams, A collection day, Weekly cover, Sites, About and Set your schedule link to their own pages; the licence and missed-pickup boxes show above the bar on desktop and inside the menu drawer on small screens (`meguri_waste_nav_boxes` in `functions.php`).
+- Images: ten watercolour illustrations (`assets/images/p01-p10.webp`), generated without any lettering; inner-page images are added with the inner pages.
 - Scroll effects: `assets/sp-scroll.css`, `assets/sp-scroll.js` (reveal down, stagger, parallax)
 - Forms: `inc/shippress-forms.php` (dynamic `shippress/form` block, no required plugin). Suggested Contact Form 7 fields: name*, company / site name*, email*, phone, site address, streams, bins per week, message.
 
