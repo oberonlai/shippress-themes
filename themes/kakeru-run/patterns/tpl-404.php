@@ -1,0 +1,38 @@
+<?php
+/**
+ * Title: Template: 404
+ * Slug: kakeru-run/tpl-404
+ * Categories: kakeru-run
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"kr-main","layout":{"type":"default"}} -->
+<main class="wp-block-group kr-main"><!-- wp:group {"align":"full","className":"kr-row kr-head","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull kr-row kr-head"><!-- wp:group {"className":"kr-rail kr-rail--l","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-rail kr-rail--l"></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kr-cell kr-cell--pad kr-s3","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-cell kr-cell--pad kr-s3"><!-- wp:paragraph {"className":"kr-label"} -->
+<p class="kr-label">404</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"className":"kr-h2 kr-h2--display"} -->
+<h1 class="wp-block-heading kr-h2 kr-h2--display"><?php echo wp_kses_post( kakeru_run_t( 'kd0fbda98' ) ); ?></h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php echo wp_kses_post( kakeru_run_t( 'kc38221cf' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kr-textlink"} -->
+<p class="kr-textlink"><a href="/"><?php echo wp_kses_post( kakeru_run_t( 'kb7a6b1a7' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kr-rail kr-rail--r","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-rail kr-rail--r"></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></main>
+<!-- /wp:group -->

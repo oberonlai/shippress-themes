@@ -1,0 +1,47 @@
+/* Kakeru Run — shop styles. Loaded only while WooCommerce is active. */
+.kr-products { margin: 0; padding: 0; border-top: var(--kr-line); padding-inline: var(--kr-m); background: linear-gradient(var(--kr-ink), var(--kr-ink)) var(--kr-m) 0 / 1px 100% no-repeat, linear-gradient(var(--kr-ink), var(--kr-ink)) calc(100% - var(--kr-m) - 1px) 0 / 1px 100% no-repeat; }
+.kr-products .wc-block-product-template { margin: 0; padding: 0; list-style: none; gap: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.kr-products .wc-block-product { margin: 0; display: flex; flex-direction: column; border-right: var(--kr-line); border-bottom: var(--kr-line); }
+.kr-products .wc-block-product:nth-child(3n) { border-right: 0; }
+.kr-pcard__img { margin: 0 !important; }
+.kr-pcard__img img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; }
+.kr-pcard__cap { flex: 1; display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; border-top: var(--kr-line); padding: var(--kr-pad); transition: background-color 0.3s; }
+.wc-block-product:hover .kr-pcard__cap { background: var(--kr-mist); }
+.kr-pcard__name { margin: 0; font-family: var(--kr-display); font-size: 1.65rem; font-weight: 700; letter-spacing: 0.04em; }
+.kr-pcard__name a { text-decoration: none; }
+.kr-pcard__price { margin: 0; font-family: var(--kr-display); font-weight: 700; white-space: nowrap; }
+.kr-products .wp-block-query-pagination { padding: var(--kr-pad); border-top: var(--kr-line); }
+.kr-sortrow .wc-block-catalog-sorting select { border: 1.5px solid var(--kr-ink); border-radius: 999px; padding: 10px 20px; background: transparent; font-family: var(--kr-body); }
+.kr-sortrow { border-top: var(--kr-line); }
+.kr-pgallery { padding: 0; }
+.kr-pgallery .woocommerce-product-gallery { margin: 0; }
+.kr-pgallery img { display: block; width: 100%; height: auto; }
+.kr-pgallery .flex-control-thumbs { display: grid; grid-template-columns: repeat(4, 1fr); margin: 0; padding: 0; list-style: none; border-top: var(--kr-line); }
+.kr-pgallery .flex-control-thumbs li { margin: 0; border-right: var(--kr-line); }
+.kr-pgallery .flex-control-thumbs li:last-child { border-right: 0; }
+.kr-pprice { font-family: var(--kr-display); font-size: 1.65rem; font-weight: 700; margin: 0 0 1rem; }
+.kr-addcart .single_add_to_cart_button, .kr-addcart .wp-element-button, .wc-block-components-button:not(.is-link), .woocommerce .button { min-height: 56px; padding: 14px 40px; border: 1.5px solid var(--kr-main); border-radius: 999px; background: var(--kr-main); color: var(--kr-paper); font-family: var(--kr-body); font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; }
+.kr-addcart .single_add_to_cart_button:hover, .wc-block-components-button:not(.is-link):hover { background: var(--kr-ink); border-color: var(--kr-ink); color: var(--kr-paper); }
+.kr-addcart select, .kr-addcart .qty { min-height: 48px; border: 1.5px solid var(--kr-ink); border-radius: 0; padding: 8px 14px; font-family: var(--kr-body); background: transparent; }
+.kr-pdetails .wc-tabs, .kr-pdetails .woocommerce-tabs ul.tabs { padding: 0; list-style: none; display: flex; gap: 1.5rem; border-bottom: var(--kr-line); }
+.kr-pdetails table { width: 100%; border-collapse: collapse; }
+.kr-pdetails th, .kr-pdetails td { padding: 12px var(--kr-pad); border-bottom: 1px solid var(--kr-ink); text-align: left; }
+.kr-pdetails td { text-align: right; white-space: nowrap; }
+.kr-storerow .wc-block-components-totals-wrapper, .kr-storerow .wc-block-cart__totals-title { border-color: var(--kr-ink); }
+.kr-storerow .wp-block-woocommerce-cart-order-summary-block, .kr-storerow .wc-block-components-sidebar { border: 1.5px solid var(--kr-ink); padding: var(--kr-pad); }
+.kr-storecontent input[type="text"], .kr-storecontent input[type="email"], .kr-storecontent input[type="tel"], .kr-storecontent select, .wc-block-components-text-input input { border: 1.5px solid var(--kr-ink); border-radius: 0; }
+.kr-confirm { font-family: var(--kr-display); }
+@media (max-width: 1023px) {
+	.kr-products .wc-block-product-template { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.kr-products .wc-block-product:nth-child(3n) { border-right: var(--kr-line); }
+	.kr-products .wc-block-product:nth-child(2n) { border-right: 0; }
+}
+@media (max-width: 781px) {
+	.kr-products .wc-block-product-template { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+	.kr-pcard__cap { flex-direction: column; gap: 0.25rem; }
+	.kr-pcard__name { font-size: 1.15rem; }
+}
+@media (max-width: 479px) {
+	.kr-products .wc-block-product-template { grid-template-columns: minmax(0, 1fr); }
+	.kr-products .wc-block-product { border-right: 0 !important; }
+}

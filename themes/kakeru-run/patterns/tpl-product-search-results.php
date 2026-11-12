@@ -1,0 +1,73 @@
+<?php
+/**
+ * Title: Template: product-search-results
+ * Slug: kakeru-run/tpl-product-search-results
+ * Categories: kakeru-run
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"kr-main","layout":{"type":"default"}} -->
+<main class="wp-block-group kr-main"><!-- wp:group {"align":"full","className":"kr-row kr-head","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull kr-row kr-head"><!-- wp:group {"className":"kr-rail kr-rail--l","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-rail kr-rail--l"></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kr-cell kr-cell--pad kr-s3","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-cell kr-cell--pad kr-s3"><!-- wp:paragraph {"className":"kr-label"} -->
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'k13348442' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query-title {"type":"search","level":1,"showPrefix":false,"className":"kr-h2 kr-h2--display"} /-->
+
+<!-- wp:search {"label":"<?php echo esc_attr( kakeru_run_t( 'a7bd0e4cf' ) ); ?>","showLabel":false,"buttonText":"<?php echo esc_attr( kakeru_run_t( 'a13348442' ) ); ?>","query":{"post_type":"product"}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kr-rail kr-rail--r","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-rail kr-rail--r"></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:woocommerce/store-notices {"align":"wide"} /-->
+
+<!-- wp:group {"align":"full","className":"kr-row kr-head kr-sortrow","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull kr-row kr-head kr-sortrow"><!-- wp:group {"className":"kr-rail kr-rail--l","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-rail kr-rail--l"></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kr-cell kr-cell--pad kr-s3","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-cell kr-cell--pad kr-s3"><!-- wp:woocommerce/catalog-sorting /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kr-rail kr-rail--r","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-rail kr-rail--r"></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:woocommerce/product-collection {"queryId":0,"query":{"perPage":12,"pages":1,"offset":0,"postType":"product","order":"asc","orderBy":"menu_order","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":{},"isProductCollectionBlock":true,"featured":false,"woocommerceOnSale":false,"woocommerceStockStatus":["instock","outofstock","onbackorder"],"woocommerceAttributes":[],"woocommerceHandPickedProducts":[]},"tagName":"div","displayLayout":{"type":"flex","columns":3,"shrinkColumns":true},"dimensions":{"widthType":"fill"},"queryContextIncludes":["collection"],"align":"full","className":"kr-products"} -->
+<div class="wp-block-woocommerce-product-collection alignfull kr-products"><!-- wp:woocommerce/product-template -->
+<!-- wp:woocommerce/product-image {"showSaleBadge":false,"imageSizing":"single","isDescendentOfQueryLoop":true,"aspectRatio":"1","className":"kr-pcard__img"} /-->
+
+<!-- wp:group {"className":"kr-pcard__cap","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-pcard__cap"><!-- wp:post-title {"level":3,"isLink":true,"className":"kr-pcard__name","__woocommerceNamespace":"woocommerce/product-collection/product-title"} /-->
+
+<!-- wp:woocommerce/product-price {"isDescendentOfQueryLoop":true,"className":"kr-pcard__price"} /--></div>
+<!-- /wp:group -->
+<!-- /wp:woocommerce/product-template -->
+
+<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:woocommerce/product-collection-no-results -->
+<!-- wp:paragraph {"className":"kr-nores"} -->
+<p class="kr-nores"><?php echo wp_kses_post( kakeru_run_t( 'kd56054cb' ) ); ?></p>
+<!-- /wp:paragraph -->
+<!-- /wp:woocommerce/product-collection-no-results -->
+</div>
+<!-- /wp:woocommerce/product-collection --></main>
+<!-- /wp:group -->
