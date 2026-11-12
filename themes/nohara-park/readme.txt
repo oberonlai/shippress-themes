@@ -51,3 +51,7 @@ Photographs were generated with AI for this theme and are distributed under the 
 - assets/images/demo/j2.webp (journal post featured image; copy of assets/images/j2.webp imported into the Media Library, AI-generated, GPL-2.0-or-later)
 - assets/images/demo/j3.webp (journal post featured image; copy of assets/images/j3.webp imported into the Media Library, AI-generated, GPL-2.0-or-later)
 The wordmark mark is an inline SVG drawn for this theme (patterns/header-main.php), GPL-2.0-or-later.
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (patterns/page-out-of-season.php).
