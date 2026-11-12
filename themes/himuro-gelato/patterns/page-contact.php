@@ -5,7 +5,7 @@
  * Categories: himuro-gelato
  * Keywords: page-contact
  * Viewport Width: 1440
- * Description: Inner page: Contact.
+ * Description: Inner page: Contact. Email, phone and enquiries with the contact form slot and a mailto fallback.
  */
 ?>
 <!-- wp:group {"className":"hg-head","layout":{"type":"default"},"tagName":"section","align":"full"} -->
@@ -24,16 +24,22 @@
 <p class="hg-label"><?php echo esc_html( himuro_gelato_t( 'pg_contact_label' ) ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"className":"hg-prose__body sp-stagger","layout":{"type":"default"}} -->
-<div class="wp-block-group hg-prose__body sp-stagger"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up"><?php echo esc_html( himuro_gelato_t( 'pg_contact_p1' ) ); ?></p>
+<!-- wp:paragraph {"className":"hg-lede sp-reveal sp-reveal--up"} -->
+<p class="hg-lede sp-reveal sp-reveal--up"><?php echo esc_html( himuro_gelato_t( 'pg_contact_lede' ) ); ?></p>
 <!-- /wp:paragraph -->
 
+<!-- wp:group {"className":"hg-prose__body sp-stagger","layout":{"type":"default"}} -->
+<div class="wp-block-group hg-prose__body sp-stagger"><!-- wp:heading {"level":2,"className":"hg-prose__h sp-reveal sp-reveal--up"} -->
+<h2 class="wp-block-heading hg-prose__h sp-reveal sp-reveal--up"><?php echo esc_html( himuro_gelato_t( 'pg_contact_h1' ) ); ?></h2>
+<!-- /wp:heading -->
+
 <!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up"><?php echo esc_html( himuro_gelato_t( 'pg_contact_p2' ) ); ?></p>
+<p class="sp-reveal sp-reveal--up"><?php echo esc_html( himuro_gelato_t( 'pg_contact_p1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
+<!-- wp:group {"className":"hg-form hg-prose__body","layout":{"type":"default"}} -->
+<div class="wp-block-group hg-form hg-prose__body">
 <?php
 ob_start(); ?>
 <!-- wp:buttons -->
@@ -45,5 +51,27 @@ ob_start(); ?>
 $hg_fallback = ob_get_clean();
 echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $hg_fallback ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 ?></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hg-prose__body sp-stagger","layout":{"type":"default"}} -->
+<div class="wp-block-group hg-prose__body sp-stagger"><!-- wp:heading {"level":2,"className":"hg-prose__h sp-reveal sp-reveal--up"} -->
+<h2 class="wp-block-heading hg-prose__h sp-reveal sp-reveal--up"><?php echo esc_html( himuro_gelato_t( 'pg_contact_h2' ) ); ?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
+<p class="sp-reveal sp-reveal--up"><?php echo esc_html( himuro_gelato_t( 'pg_contact_p2' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hg-prose__body sp-stagger","layout":{"type":"default"}} -->
+<div class="wp-block-group hg-prose__body sp-stagger"><!-- wp:heading {"level":2,"className":"hg-prose__h sp-reveal sp-reveal--up"} -->
+<h2 class="wp-block-heading hg-prose__h sp-reveal sp-reveal--up"><?php echo esc_html( himuro_gelato_t( 'pg_contact_h3' ) ); ?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
+<p class="sp-reveal sp-reveal--up"><?php echo esc_html( himuro_gelato_t( 'pg_contact_p3' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+</div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
