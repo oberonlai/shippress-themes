@@ -10,7 +10,7 @@
 <section class="wp-block-group alignfull ag-shuttle"><!-- wp:group {"className":"ag-shuttle__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-shuttle__grid"><!-- wp:group {"className":"ag-shuttle__photo","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-shuttle__photo"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p07-shuttle-kerb.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'kd4f70977' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover;object-position:50% 50%"/></figure>
+<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p07-shuttle-kerb.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'kd4f70977' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"ag-shuttle__text","layout":{"type":"default"}} -->

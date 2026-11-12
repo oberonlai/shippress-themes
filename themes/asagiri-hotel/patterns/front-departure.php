@@ -11,7 +11,7 @@
 <div class="wp-block-group ag-depart__panel"><!-- wp:group {"className":"ag-depart__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-depart__grid"><!-- wp:group {"className":"ag-depart__photo","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-depart__photo"><!-- wp:image {"aspectRatio":"1/1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p09-breakfast-counter.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'k59a0136c' ) ); ?>" style="aspect-ratio:1/1;object-fit:cover;object-position:50% 50%"/></figure>
+<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p09-breakfast-counter.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'k59a0136c' ) ); ?>" style="aspect-ratio:1/1;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"ag-depart__text","layout":{"type":"default"}} -->

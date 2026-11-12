@@ -8,8 +8,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"ag-hero","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull ag-hero"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p01-key-card.webp' ) ); ?>","dimRatio":30,"customOverlayColor":"#1B1B1A","isUserOverlayColor":true,"focalPoint":{"x":0.5,"y":0.5},"isDark":true,"className":"ag-hero__photo sp-parallax"} -->
-<div class="wp-block-cover is-dark ag-hero__photo sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-30 has-background-dim" style="background-color:#1B1B1A"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( asagiri_hotel_t( 'k68031e0d' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p01-key-card.webp' ) ); ?>" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ag-hero__in","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull ag-hero"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p01-key-card.webp' ) ); ?>","dimRatio":30,"customOverlayColor":"#1B1B1A","isUserOverlayColor":true,"isDark":true,"className":"ag-hero__photo sp-parallax"} -->
+<div class="wp-block-cover is-dark ag-hero__photo sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-30 has-background-dim" style="background-color:#1B1B1A"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( asagiri_hotel_t( 'k68031e0d' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p01-key-card.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ag-hero__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-hero__in"><!-- wp:group {"className":"ag-hero__top","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-hero__top"></div>
 <!-- /wp:group -->

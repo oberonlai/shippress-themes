@@ -46,7 +46,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"ag-intro__photo","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-intro__photo"><!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p02-ledger.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'kf7433340' ) ); ?>" style="aspect-ratio:3/4;object-fit:cover;object-position:50% 40%"/></figure>
+<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p02-ledger.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'kf7433340' ) ); ?>" style="aspect-ratio:3/4;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

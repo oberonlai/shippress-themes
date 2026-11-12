@@ -7,8 +7,8 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"ag-phead","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull ag-phead"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p08-apron-window.webp' ) ); ?>","dimRatio":45,"customOverlayColor":"#1B1B1A","isUserOverlayColor":true,"focalPoint":{"x":0.5,"y":0.5},"isDark":true,"className":"ag-phead__photo sp-parallax"} -->
-<div class="wp-block-cover is-dark ag-phead__photo sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-45 has-background-dim" style="background-color:#1B1B1A"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( asagiri_hotel_t( 'k120e3fc4' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p08-apron-window.webp' ) ); ?>" style="object-position:50% 50%" data-object-fit="cover" data-object-position="50% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ag-phead__in","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull ag-phead"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p08-apron-window.webp' ) ); ?>","dimRatio":45,"customOverlayColor":"#1B1B1A","isUserOverlayColor":true,"isDark":true,"className":"ag-phead__photo sp-parallax"} -->
+<div class="wp-block-cover is-dark ag-phead__photo sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-45 has-background-dim" style="background-color:#1B1B1A"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( asagiri_hotel_t( 'k120e3fc4' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p08-apron-window.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ag-phead__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-phead__in"><!-- wp:heading {"level":1,"className":"ag-phead__t ag-rise1"} -->
 <h1 class="wp-block-heading ag-phead__t ag-rise1"><?php echo wp_kses_post( asagiri_hotel_t( 'k76978279' ) ); ?></h1>
 <!-- /wp:heading -->
@@ -42,8 +42,8 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"ag-strip sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-strip sp-stagger"><!-- wp:group {"className":"ag-room sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
-<div class="wp-block-group ag-room sp-reveal sp-reveal--wipe"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":""} -->
-<figure class="wp-block-image size-full "><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p03-night-room.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'k3871c7d7' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover;object-position:50% 50%"/></figure>
+<div class="wp-block-group ag-room sp-reveal sp-reveal--wipe"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p03-night-room.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'k3871c7d7' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"level":3,"className":"ag-room__n"} -->
 <h3 class="wp-block-heading ag-room__n"><?php echo wp_kses_post( asagiri_hotel_t( 'k64a45efb' ) ); ?></h3>
@@ -55,8 +55,8 @@
 <p class="ag-room__p"><?php echo wp_kses_post( asagiri_hotel_t( 'k785caac3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ag-room sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
-<div class="wp-block-group ag-room sp-reveal sp-reveal--wipe"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":""} -->
-<figure class="wp-block-image size-full "><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p04-twin-room.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'k57338dd5' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover;object-position:50% 50%"/></figure>
+<div class="wp-block-group ag-room sp-reveal sp-reveal--wipe"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p04-twin-room.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'k57338dd5' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"level":3,"className":"ag-room__n"} -->
 <h3 class="wp-block-heading ag-room__n"><?php echo wp_kses_post( asagiri_hotel_t( 'k36b13d6e' ) ); ?></h3>
@@ -68,8 +68,8 @@
 <p class="ag-room__p"><?php echo wp_kses_post( asagiri_hotel_t( 'k7e97aca0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"ag-room sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
-<div class="wp-block-group ag-room sp-reveal sp-reveal--wipe"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none","className":""} -->
-<figure class="wp-block-image size-full "><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p05-quiet-suite.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'kb7d3d243' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover;object-position:50% 50%"/></figure>
+<div class="wp-block-group ag-room sp-reveal sp-reveal--wipe"><!-- wp:image {"aspectRatio":"4/5","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p05-quiet-suite.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'kb7d3d243' ) ); ?>" style="aspect-ratio:4/5;object-fit:cover"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"level":3,"className":"ag-room__n"} -->
 <h3 class="wp-block-heading ag-room__n"><?php echo wp_kses_post( asagiri_hotel_t( 'kb331484f' ) ); ?></h3>
@@ -111,7 +111,7 @@
 <div class="wp-block-group ag-depart__panel"><!-- wp:group {"className":"ag-depart__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-depart__grid"><!-- wp:group {"className":"ag-depart__photo","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-depart__photo"><!-- wp:image {"aspectRatio":"1/1","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p10-linen-room.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'kc31c2cdc' ) ); ?>" style="aspect-ratio:1/1;object-fit:cover;object-position:50% 50%"/></figure>
+<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p10-linen-room.webp' ) ); ?>" alt="<?php echo esc_attr( asagiri_hotel_t( 'kc31c2cdc' ) ); ?>" style="aspect-ratio:1/1;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"ag-depart__text","layout":{"type":"default"}} -->
