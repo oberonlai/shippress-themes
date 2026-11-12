@@ -27,7 +27,7 @@ The company, its people, its address, telephone numbers, licence number and pric
 == Copyright ==
 
 Meguri Waste is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Hanken Grotesk (OFL-1.1), Latin variable; Instrument Sans (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Hanken Grotesk (OFL-1.1), Latin variable; Instrument Sans (OFL-1.1), Latin variable; both WOFF2; Noto Sans TC (OFL-1.1), Bold subset for Traditional Chinese headings; see assets/fonts/.
 Illustrations were generated with AI for this theme and are distributed under the same GPL v2 or later license:
 - assets/images/p01.webp and assets/images/demo/p01.webp (home hero panorama; AI-generated illustration made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
 - assets/images/p02.webp and assets/images/demo/p02.webp (home introduction band; AI-generated illustration made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
