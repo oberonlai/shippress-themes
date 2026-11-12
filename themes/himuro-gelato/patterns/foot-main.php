@@ -60,7 +60,9 @@
 <p class="hg-foot__lab"><?php echo esc_html( himuro_gelato_t( 'ft_nl' ) ); ?></p>
 <!-- /wp:paragraph -->
 
-<?php echo shippress_form_slot( array( 'kind' => 'newsletter', 'email' => 'hello@himurogelato.example', 'label' => himuro_gelato_t( 'forms_email' ), 'submit' => himuro_gelato_t( 'forms_subscribe' ), 'notice' => himuro_gelato_t( 'forms_mail_notice' ), 'subject' => himuro_gelato_t( 'forms_mail_subject' ) ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<!-- wp:paragraph {"className":"hg-foot__links"} -->
+<p class="hg-foot__links"><a href="/newsletter/"><?php echo esc_html( himuro_gelato_t( 'ft_nl_link' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hg-foot__base","layout":{"type":"default"}} -->

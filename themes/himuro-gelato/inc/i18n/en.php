@@ -157,5 +157,6 @@ return array(
 	'ft_addr' => '14 Quay Lane, Harbour Quarter|Larkhaven',
 	'ft_hours' => 'Wed–Sun 12:00–21:00',
 	'ft_nl' => 'The flavour note',
+	'ft_nl_link' => 'Read the note and subscribe →',
 	'ft_legal' => '© 2019–2026 Himuro Gelato · a fictional cafe',
 );
