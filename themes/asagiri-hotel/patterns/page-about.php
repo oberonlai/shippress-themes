@@ -8,7 +8,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"ag-phead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull ag-phead"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p15-hotel-exterior.webp' ) ); ?>","dimRatio":45,"customOverlayColor":"#1B1B1A","isUserOverlayColor":true,"isDark":true,"className":"ag-phead__photo sp-parallax"} -->
-<div class="wp-block-cover is-dark ag-phead__photo sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-45 has-background-dim" style="background-color:#1B1B1A"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( asagiri_hotel_t( 'kb320b29b' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p15-hotel-exterior.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ag-phead__in","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-dark ag-phead__photo sp-parallax"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-50 has-background-dim" style="background-color:#1B1B1A"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( asagiri_hotel_t( 'kb320b29b' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/demo/p15-hotel-exterior.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ag-phead__in","layout":{"type":"default"}} -->
 <div class="wp-block-group ag-phead__in"><!-- wp:heading {"level":1,"className":"ag-phead__t ag-rise1"} -->
 <h1 class="wp-block-heading ag-phead__t ag-rise1"><?php echo wp_kses_post( asagiri_hotel_t( 'k8f7f4c1c' ) ); ?></h1>
 <!-- /wp:heading -->
