@@ -59,5 +59,8 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/kr-monogram.svg (own drawing, the KR outline monogram)
 
 == Changelog ==
+= 1.0.1 =
+* Updated theme files (demo-content.fr.json).
+
 = 1.0.0 =
 * First release: home page, nine inner pages (Shoes, Lasts, Gait session, Prices, About, Ordering, Visit, Newsletter, Customer stories), one sample article, the stories grid and WooCommerce templates with six sample pairs.
