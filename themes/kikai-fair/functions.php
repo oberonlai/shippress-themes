@@ -1,0 +1,55 @@
+<?php
+/**
+ * Kikai Fair — functions and definitions.
+ *
+ * @package kikai-fair
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+require_once get_template_directory() . '/inc/demo-import.php';
+require_once get_template_directory() . '/inc/i18n.php';
+require_once get_template_directory() . '/inc/editor-lang.php';
+require_once get_template_directory() . '/inc/shippress-forms.php';
+
+define( 'KIKAI_FAIR_VERSION', wp_get_theme()->get( 'Version' ) );
+
+/**
+ * Theme supports and editor styles. WooCommerce support is declared either way; without the plugin it does nothing.
+ */
+function kikai_fair_setup() {
+	add_theme_support( 'wp-block-styles' );
+	add_theme_support( 'editor-styles' );
+	add_theme_support( 'responsive-embeds' );
+	add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'woocommerce' );
+	add_editor_style( 'style.css' );
+	add_editor_style( 'assets/sp-scroll.css' );
+}
+add_action( 'after_setup_theme', 'kikai_fair_setup' );
+
+/**
+ * Front-end assets: theme stylesheet and scroll effects (CSS + JS in the head, not deferred).
+ */
+function kikai_fair_enqueue() {
+	wp_enqueue_style( 'kikai-fair-style', get_stylesheet_uri(), array(), KIKAI_FAIR_VERSION );
+	wp_enqueue_style( 'kikai-fair-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.css' ), array( 'kikai-fair-style' ), KIKAI_FAIR_VERSION );
+	wp_enqueue_script( 'kikai-fair-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.js' ), array(), KIKAI_FAIR_VERSION, false );
+}
+add_action( 'wp_enqueue_scripts', 'kikai_fair_enqueue' );
+
+/**
+ * Pattern category.
+ */
+function kikai_fair_pattern_categories() {
+	register_block_pattern_category(
+		'kikai-fair',
+		array(
+			'label'       => __( 'Kikai Fair', 'kikai-fair' ),
+			'description' => __( 'Sections for a trade-fair landing page: diagonal hero with twin audience bars, a dark faceted card strip, numbered value rows, an ochre day line and an access band.', 'kikai-fair' ),
+		)
+	);
+}
+add_action( 'init', 'kikai_fair_pattern_categories' );
