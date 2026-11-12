@@ -23,8 +23,8 @@
 <div class="kf-hero__photo">
 <input class="kf-pause-input" type="checkbox" id="kf-pause" aria-label="Pause the photo slideshow"/>
 <figure class="kf-slide kf-slide--1"><img src="<?php echo kikai_fair_img( 'h01-panel-saw.webp' ); ?>" alt="Exhibitor cuts a birch panel on a sliding saw while a buyer watches with ear defenders lowered" width="1800" height="1200" fetchpriority="high"/></figure>
-<figure class="kf-slide kf-slide--2"><img src="<?php echo kikai_fair_img( 'h02-cnc-router.webp' ); ?>" alt="Two visitors behind a safety barrier watching a CNC router nest cabinet parts" width="1800" height="1200"/></figure>
-<figure class="kf-slide kf-slide--3"><img src="<?php echo kikai_fair_img( 'h03-edgebander.webp' ); ?>" alt="Exhibitor feeds a white panel through an edgebander while a visitor inspects a finished edge" width="1800" height="1200"/></figure>
+<figure class="kf-slide kf-slide--2" role="img" aria-label="Two visitors behind a safety barrier watching a CNC router nest cabinet parts" style="background-image:url(<?php echo kikai_fair_img( 'h02-cnc-router.webp' ); ?>)"></figure>
+<figure class="kf-slide kf-slide--3" role="img" aria-label="Exhibitor feeds a white panel through an edgebander while a visitor inspects a finished edge" style="background-image:url(<?php echo kikai_fair_img( 'h03-edgebander.webp' ); ?>)"></figure>
 <label class="kf-pause" for="kf-pause"><span class="kf-pause__icon" aria-hidden="true"></span><span class="screen-reader-text">Pause or resume the slideshow</span></label>
 <div class="kf-datecard"><p class="kf-datecard__d">9–11 March 2027</p><p class="kf-datecard__p">Hall 4 · Riverside Exhibition Centre</p></div>
 </div>
