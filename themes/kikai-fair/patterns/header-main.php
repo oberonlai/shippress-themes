@@ -16,7 +16,7 @@
 <!-- wp:navigation {"overlayMenu":"mobile","className":"kf-nav","layout":{"type":"flex","orientation":"horizontal","justifyContent":"center"}} /-->
 
 <!-- wp:paragraph {"className":"kf-bar__cta"} -->
-<p class="kf-bar__cta"><a href="/#pass">Request a pass</a></p>
+<p class="kf-bar__cta"><a href="/request-a-pass/">Request a pass</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
