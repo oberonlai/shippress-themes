@@ -53,3 +53,11 @@ Returning for its 9th edition from 9 to 11 March 2027, Kikai Fair occupies 22,00
 
 ## Pages
 - Home (one long conversion page, anchor menu, one repeated CTA "Request a pass"), Exhibitors, Programme, About, Visit, Request a pass, Contact, Newsletter (early access), News (three stories from the 2025 edition), Privacy, Terms, Thanks.
+
+## Inner pages (en)
+- About: history since 2011, the fair office team (five named people), floor rules (barrier lines, ear defenders, no sawdust on aisles).
+- Exhibitors: faceted band with four zone cards, stand rates (shell stand, raw space, demo slot), build-up Monday 8 March, stories from the 2025 edition, contact Tomás Ferreira.
+- Programme: three fair days, the daily day line, Demo Stage and lunch talks (Lena Vogt), booked buyer meetings.
+- Visit: tram line 3, parking P2 at €12 per day, bicycle racks, hours, price list, safety and accessibility.
+- Request a pass: three numbered steps, mailto/plugin form slot, full price list, group and student passes (Aiyana Brooks). Passes close 21 February 2027.
+- Contact, Early access (newsletter), News (one story, Six panels, one afternoon), Privacy, Terms, Thanks.
