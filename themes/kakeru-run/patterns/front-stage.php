@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:heading {"level":1,"className":"kr-sr"} -->
-<h1 class="wp-block-heading kr-sr">Kakeru Run: shoes fitted to how you land</h1>
+<h1 class="wp-block-heading kr-sr"><?php echo wp_kses_post( kakeru_run_t( 'k57341dfd' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"align":"full","className":"kr-row kr-stage","layout":{"type":"default"}} -->
@@ -19,15 +19,15 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--stage kr-slides","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--stage kr-slides"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-slide"} -->
-<figure class="wp-block-image size-full kr-slide"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P01.webp' ) ); ?>" alt="Fitter crouching beside a shop treadmill watching a customer jog during a gait fitting session"/></figure>
+<figure class="wp-block-image size-full kr-slide"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P01.webp' ) ); ?>" alt="<?php echo esc_attr( kakeru_run_t( 'a7f6e635d' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-slide"} -->
-<figure class="wp-block-image size-full kr-slide"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P02.webp' ) ); ?>" alt="Three unbranded running shoe pairs resting on boxes atop a pale wooden bench"/></figure>
+<figure class="wp-block-image size-full kr-slide"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P02.webp' ) ); ?>" alt="<?php echo esc_attr( kakeru_run_t( 'a70967835' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-slide"} -->
-<figure class="wp-block-image size-full kr-slide"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P03.webp' ) ); ?>" alt="Single grey running shoe in three-quarter view centered on seamless light grey studio paper"/></figure>
+<figure class="wp-block-image size-full kr-slide"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P03.webp' ) ); ?>" alt="<?php echo esc_attr( kakeru_run_t( 'adb68db98' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 </div>
@@ -47,7 +47,7 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--pad","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--pad"><!-- wp:paragraph {"className":"kr-note"} -->
-<p class="kr-note">Since 2014 · 2140 Canyon Row, Boulder, Colorado. Gait sessions start on the hour Tuesday through Sunday.</p>
+<p class="kr-note"><?php echo wp_kses_post( kakeru_run_t( 'kf3d0015e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 </div>
@@ -91,7 +91,7 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--pad kr-cell--end","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--pad kr-cell--end"><!-- wp:paragraph {"className":"kr-textlink"} -->
-<p class="kr-textlink"><a href="/gait-session/">Book a gait session →</a></p>
+<p class="kr-textlink"><a href="/gait-session/"><?php echo wp_kses_post( kakeru_run_t( 'k0e614ec5' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 </div>

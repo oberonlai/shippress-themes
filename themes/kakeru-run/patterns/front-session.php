@@ -15,7 +15,7 @@
 
 <!-- wp:group {"className":"kr-cell kr-photo kr-photo--two","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-photo kr-photo--two"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-photo__img"} -->
-<figure class="wp-block-image size-full kr-photo__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P09.webp' ) ); ?>" alt="Fitter hands pressing the toe box of a shoe on a seated customer foot"/></figure>
+<figure class="wp-block-image size-full kr-photo__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P09.webp' ) ); ?>" alt="<?php echo esc_attr( kakeru_run_t( 'a44b43804' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 </div>
@@ -23,32 +23,32 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--text","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--text"><!-- wp:paragraph {"className":"kr-label"} -->
-<p class="kr-label">SESSION</p>
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'k8e32a82f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kr-h2 kr-h2--cell"} -->
-<h2 class="wp-block-heading kr-h2 kr-h2--cell">How a gait session runs</h2>
+<h2 class="wp-block-heading kr-h2 kr-h2--cell"><?php echo wp_kses_post( kakeru_run_t( 'k8e5c6e1d' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>A 45-minute fitting is a calm, step-by-step evaluation designed to find the last and pair that match your natural stride. We take the time to inspect your movement and confirm comfort under real running conditions.</p>
+<p><?php echo wp_kses_post( kakeru_run_t( 'k12690fc8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"kr-ruled"} -->
 <ul class="wp-block-list kr-ruled"><!-- wp:list-item -->
-<li><span class="kr-k">Talk</span><span class="kr-v">10 min</span><small>What you run, your weekly mileage, and what your current pair does well or poorly.</small></li>
+<li><span class="kr-k"><?php echo wp_kses_post( kakeru_run_t( 'kd7663fa4' ) ); ?></span><span class="kr-v"><?php echo wp_kses_post( kakeru_run_t( 'k7dd6a6ab' ) ); ?></span><small><?php echo wp_kses_post( kakeru_run_t( 'k6ace1373' ) ); ?></small></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li><span class="kr-k">Watch</span><span class="kr-v">10 min</span><small>Filming your current shoes on the treadmill at an easy pace from the side and rear.</small></li>
+<li><span class="kr-k"><?php echo wp_kses_post( kakeru_run_t( 'kf2065865' ) ); ?></span><span class="kr-v"><?php echo wp_kses_post( kakeru_run_t( 'k7dd6a6ab' ) ); ?></span><small><?php echo wp_kses_post( kakeru_run_t( 'k5dd67862' ) ); ?></small></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li><span class="kr-k">Try</span><span class="kr-v">20 min</span><small>Testing three pairs across two lasts on the belt, reviewed side by side on video.</small></li>
+<li><span class="kr-k"><?php echo wp_kses_post( kakeru_run_t( 'keead05a0' ) ); ?></span><span class="kr-v"><?php echo wp_kses_post( kakeru_run_t( 'kcb1a708a' ) ); ?></span><small><?php echo wp_kses_post( kakeru_run_t( 'k361f6ed0' ) ); ?></small></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li><span class="kr-k">Decide</span><span class="kr-v">5 min</span><small>Take your pair home, order online later from your session notes, or special-order.</small></li>
+<li><span class="kr-k"><?php echo wp_kses_post( kakeru_run_t( 'kebfab29b' ) ); ?></span><span class="kr-v"><?php echo wp_kses_post( kakeru_run_t( 'kd7faf6a9' ) ); ?></span><small><?php echo wp_kses_post( kakeru_run_t( 'k74bbf74d' ) ); ?></small></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list -->
 
 <!-- wp:buttons {"className":"kr-pillwrap"} -->
 <div class="wp-block-buttons kr-pillwrap"><!-- wp:button {"className":"kr-pill kr-pill--white"} -->
-<div class="wp-block-button kr-pill kr-pill--white"><a class="wp-block-button__link wp-element-button" href="/gait-session/">Book a session</a></div>
+<div class="wp-block-button kr-pill kr-pill--white"><a class="wp-block-button__link wp-element-button" href="/gait-session/"><?php echo wp_kses_post( kakeru_run_t( 'kc6aaeb32' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -69,11 +69,11 @@
 
 <!-- wp:group {"className":"kr-cell kr-priceline sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-priceline sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kr-label"} -->
-<p class="kr-label">45 MIN</p>
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'k79dd719b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-priceline__n"} -->
-<p class="kr-priceline__n">Gait session</p>
+<p class="kr-priceline__n"><?php echo wp_kses_post( kakeru_run_t( 'kb089421a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-price"} -->
@@ -85,15 +85,15 @@
 
 <!-- wp:group {"className":"kr-cell kr-priceline sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-priceline sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kr-label"} -->
-<p class="kr-label">20 MIN</p>
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'kffd7c241' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-priceline__n"} -->
-<p class="kr-priceline__n">Quick fit, no treadmill</p>
+<p class="kr-priceline__n"><?php echo wp_kses_post( kakeru_run_t( 'k762e5cd9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-price"} -->
-<p class="kr-price">Free</p>
+<p class="kr-price"><?php echo wp_kses_post( kakeru_run_t( 'kb24ce0cd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 </div>
@@ -101,15 +101,15 @@
 
 <!-- wp:group {"className":"kr-cell kr-priceline sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-priceline sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kr-label"} -->
-<p class="kr-label">20 MIN</p>
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'kffd7c241' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-priceline__n"} -->
-<p class="kr-priceline__n">Three-week re-check run</p>
+<p class="kr-priceline__n"><?php echo wp_kses_post( kakeru_run_t( 'kc6f57a9b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-price"} -->
-<p class="kr-price">Free with a pair</p>
+<p class="kr-price"><?php echo wp_kses_post( kakeru_run_t( 'k14b33a1b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 </div>
@@ -129,11 +129,11 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--pad kr-cell--between kr-s3","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--pad kr-cell--between kr-s3"><!-- wp:paragraph {"className":"kr-spec"} -->
-<p class="kr-spec">The $40 session is credited toward a pair bought within 30 days.</p>
+<p class="kr-spec"><?php echo wp_kses_post( kakeru_run_t( 'k529b0052' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-textlink"} -->
-<p class="kr-textlink"><a href="/gait-session/">All prices →</a></p>
+<p class="kr-textlink"><a href="/gait-session/"><?php echo wp_kses_post( kakeru_run_t( 'k77979d18' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 </div>

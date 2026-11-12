@@ -15,7 +15,7 @@
 
 <!-- wp:group {"className":"kr-cell kr-lab sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-lab sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-lab__img"} -->
-<figure class="wp-block-image size-full kr-lab__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P08.webp' ) ); ?>" alt="Runner feet jogging on a treadmill belt filmed by a tripod camera at ankle height"/></figure>
+<figure class="wp-block-image size-full kr-lab__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P08.webp' ) ); ?>" alt="<?php echo esc_attr( kakeru_run_t( 'ae2acaafe' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 </div>
@@ -31,15 +31,15 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--pad","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--pad"><!-- wp:paragraph {"className":"kr-label"} -->
-<p class="kr-label">SIDE AND REAR</p>
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'kf75ba047' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kr-h3"} -->
-<h3 class="wp-block-heading kr-h3">Gait Lab</h3>
+<h3 class="wp-block-heading kr-h3"><?php echo wp_kses_post( kakeru_run_t( 'k82e73c8e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kr-spec"} -->
-<p class="kr-spec">Side and rear video at an easy pace. We observe landing contact and arch roll on our shop treadmill before selecting pairs.</p>
+<p class="kr-spec"><?php echo wp_kses_post( kakeru_run_t( 'kd88d2074' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 </div>

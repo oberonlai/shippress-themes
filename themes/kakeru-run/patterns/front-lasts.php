@@ -15,20 +15,20 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--text","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--text"><!-- wp:paragraph {"className":"kr-label"} -->
-<p class="kr-label">LASTS</p>
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'ka91e3555' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kr-h2 kr-h2--cell"} -->
-<h2 class="wp-block-heading kr-h2 kr-h2--cell">Four lasts, one fit</h2>
+<h2 class="wp-block-heading kr-h2 kr-h2--cell"><?php echo wp_kses_post( kakeru_run_t( 'kc0dd61e5' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>A shoe can only fit as well as the wooden form it was shaped over. Rather than stretching one standard shape across every runner, our partner factory builds across four distinct lasts: Narrow (94 mm inside width) for low-volume feet, Standard (98 mm) for neutral volume, Wide (103 mm) for broad midfeet, and Open-toe (108 mm) for full toe splay on downhill landings.</p>
+<p><?php echo wp_kses_post( kakeru_run_t( 'k06fd0d5c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"kr-pillwrap"} -->
 <div class="wp-block-buttons kr-pillwrap"><!-- wp:button {"className":"kr-pill kr-pill--clay"} -->
-<div class="wp-block-button kr-pill kr-pill--clay"><a class="wp-block-button__link wp-element-button" href="/lasts/">See the lasts</a></div>
+<div class="wp-block-button kr-pill kr-pill--clay"><a class="wp-block-button__link wp-element-button" href="/lasts/"><?php echo wp_kses_post( kakeru_run_t( 'kdd714c53' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -37,7 +37,7 @@
 
 <!-- wp:group {"className":"kr-cell kr-photo kr-photo--wide","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-photo kr-photo--wide"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-photo__img"} -->
-<figure class="wp-block-image size-full kr-photo__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P07.webp' ) ); ?>" alt="Four shoemaker lasts arranged in a horizontal row on kraft paper from narrow to wide"/></figure>
+<figure class="wp-block-image size-full kr-photo__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P07.webp' ) ); ?>" alt="<?php echo esc_attr( kakeru_run_t( 'aeecf18bb' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 </div>

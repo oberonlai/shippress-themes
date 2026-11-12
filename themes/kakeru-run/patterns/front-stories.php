@@ -15,11 +15,11 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--pad kr-s3","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--pad kr-s3"><!-- wp:paragraph {"className":"kr-label"} -->
-<p class="kr-label">Customers</p>
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'ke6d0e1c8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kr-h2"} -->
-<h2 class="wp-block-heading kr-h2">Stories</h2>
+<h2 class="wp-block-heading kr-h2"><?php echo wp_kses_post( kakeru_run_t( 'kcbb37401' ) ); ?></h2>
 <!-- /wp:heading -->
 
 </div>
@@ -39,20 +39,20 @@
 
 <!-- wp:group {"className":"kr-cell kr-tile sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-tile sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-tile__img"} -->
-<figure class="wp-block-image size-full kr-tile__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P18.webp' ) ); ?>" alt="Woman in her fifties running at an easy pace along a pale park pathway"/></figure>
+<figure class="wp-block-image size-full kr-tile__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/P18.webp' ) ); ?>" alt="<?php echo esc_attr( kakeru_run_t( 'a0a7fbca6' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kr-tile__cap","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-tile__cap"><!-- wp:paragraph {"className":"kr-label"} -->
-<p class="kr-label">STORY 01</p>
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'k9cb36441' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kr-h3"} -->
-<h3 class="wp-block-heading kr-h3">“My toes finally have room on the downhill.”</h3>
+<h3 class="wp-block-heading kr-h3"><?php echo wp_kses_post( kakeru_run_t( 'kbdeddfdb' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kr-spec"} -->
-<p class="kr-spec">Maren, 52 — returning to running after ten years away. She switched from her rigid road pair to Ease on our Open-toe last.</p>
+<p class="kr-spec"><?php echo wp_kses_post( kakeru_run_t( 'k2c59dcf5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 </div>
@@ -63,15 +63,15 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--pad kr-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--pad kr-story sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kr-label"} -->
-<p class="kr-label">STORY 02</p>
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'ke48eafcc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kr-h3"} -->
-<h3 class="wp-block-heading kr-h3">The side video showed the heel slipping.</h3>
+<h3 class="wp-block-heading kr-h3"><?php echo wp_kses_post( kakeru_run_t( 'kf96a29ed' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Jonah, 31 — training for his first marathon. He tested Tempo on the Narrow last, then settled on Long on the Standard last.</p>
+<p><?php echo wp_kses_post( kakeru_run_t( 'kb6ec36f9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 </div>
@@ -79,15 +79,15 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--pad kr-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--pad kr-story sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kr-label"} -->
-<p class="kr-label">STORY 03</p>
+<p class="kr-label"><?php echo wp_kses_post( kakeru_run_t( 'kcac6b2e9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kr-h3"} -->
-<h3 class="wp-block-heading kr-h3">Back for the three-week re-check run.</h3>
+<h3 class="wp-block-heading kr-h3"><?php echo wp_kses_post( kakeru_run_t( 'k0382c667' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Ama, 38 — preparing for a 50 km trail race. She chose Ridge on the Wide last with a custom workshop heel-lock lacing set-up.</p>
+<p><?php echo wp_kses_post( kakeru_run_t( 'kb28aa16e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 </div>
@@ -107,7 +107,7 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--pad kr-cell--end kr-s3","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--pad kr-cell--end kr-s3"><!-- wp:paragraph {"className":"kr-textlink"} -->
-<p class="kr-textlink"><a href="/stories/">All stories →</a></p>
+<p class="kr-textlink"><a href="/stories/"><?php echo wp_kses_post( kakeru_run_t( 'k306427e4' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 </div>

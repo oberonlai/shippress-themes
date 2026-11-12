@@ -15,15 +15,15 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--pad kr-s2","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--pad kr-s2"><!-- wp:heading {"level":2,"className":"kr-h2"} -->
-<h2 class="wp-block-heading kr-h2">We watch how you land first.</h2>
+<h2 class="wp-block-heading kr-h2"><?php echo wp_kses_post( kakeru_run_t( 'k99447361' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Most running shoe shops start at the shoe wall, picking models by brand or color before you ever take a stride. At Kakeru Run, we start on the treadmill. We film your feet from the side and behind at an easy pace to see where you land, how your foot rolls through transition, and how much volume your forefoot needs when your arch loads.</p>
+<p><?php echo wp_kses_post( kakeru_run_t( 'k4d69bb2b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Once we know your mechanics, we bring out three pairs built across our four dedicated lasts. You test each option directly on the belt, comparing side-by-side video to find a natural, unforced fit that supports your daily training.</p>
+<p><?php echo wp_kses_post( kakeru_run_t( 'kb31c7062' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 </div>
@@ -31,19 +31,19 @@
 
 <!-- wp:group {"className":"kr-cell kr-cell--facts","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-cell kr-cell--facts"><!-- wp:paragraph {"className":"kr-fact"} -->
-<p class="kr-fact"><span class="kr-fact__k">Founded</span><span class="kr-fact__v">2014</span></p>
+<p class="kr-fact"><span class="kr-fact__k"><?php echo wp_kses_post( kakeru_run_t( 'k19b59153' ) ); ?></span><span class="kr-fact__v">2014</span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-fact"} -->
-<p class="kr-fact"><span class="kr-fact__k">Lasts</span><span class="kr-fact__v">Four</span></p>
+<p class="kr-fact"><span class="kr-fact__k"><?php echo wp_kses_post( kakeru_run_t( 'kd8de6a6d' ) ); ?></span><span class="kr-fact__v"><?php echo wp_kses_post( kakeru_run_t( 'k981b8fce' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-fact"} -->
-<p class="kr-fact"><span class="kr-fact__k">House pairs</span><span class="kr-fact__v">Six</span></p>
+<p class="kr-fact"><span class="kr-fact__k"><?php echo wp_kses_post( kakeru_run_t( 'kde1ddc52' ) ); ?></span><span class="kr-fact__v"><?php echo wp_kses_post( kakeru_run_t( 'ke6fbc0b9' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kr-fact"} -->
-<p class="kr-fact"><span class="kr-fact__k">Gait session</span><span class="kr-fact__v">45 min</span></p>
+<p class="kr-fact"><span class="kr-fact__k"><?php echo wp_kses_post( kakeru_run_t( 'kb089421a' ) ); ?></span><span class="kr-fact__v"><?php echo wp_kses_post( kakeru_run_t( 'k33eb3492' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 </div>
