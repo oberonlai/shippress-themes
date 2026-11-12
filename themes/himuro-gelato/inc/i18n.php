@@ -75,7 +75,7 @@ function himuro_gelato_lines( $key ) {
  * @return string
  */
 function himuro_gelato_img( $name ) {
-	return esc_url( get_theme_file_uri( 'assets/images/' . $name . '.webp' ) );
+	return esc_url( get_theme_file_uri( 'assets/images/demo/' . $name . '.webp' ) );
 }
 
 /**

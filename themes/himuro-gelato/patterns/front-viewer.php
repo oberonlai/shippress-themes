@@ -78,7 +78,7 @@
 
 <!-- wp:group {"className":"hg-spec__cells","layout":{"type":"default"}} -->
 <div class="wp-block-group hg-spec__cells"><!-- wp:paragraph {"className":"hg-spec__cell"} -->
-<p class="hg-spec__cell"><?php echo esc_html( himuro_gelato_t( 'vw_sweet' ) ); ?> <span class="hg-dim"><?php echo esc_html( himuro_gelato_t( 'vw_low' ) ); ?></span> <span class="hg-dots" aria-hidden="true">●●●○○</span> <span class="hg-dim"><?php echo esc_html( himuro_gelato_t( 'vw_high' ) ); ?></span></p>
+<p class="hg-spec__cell"><?php echo esc_html( himuro_gelato_t( 'vw_sweet' ) ); ?><br><span class="hg-meter"><span class="hg-dim"><?php echo esc_html( himuro_gelato_t( 'vw_low' ) ); ?></span> <span class="hg-dots" aria-hidden="true">●●●○○</span> <span class="hg-dim"><?php echo esc_html( himuro_gelato_t( 'vw_high' ) ); ?></span></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hg-spec__cell"} -->
