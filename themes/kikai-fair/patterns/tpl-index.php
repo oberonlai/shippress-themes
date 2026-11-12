@@ -7,8 +7,8 @@
  * Viewport Width: 1440
  */
 ?>
-<!-- wp:group {"tagName":"main","className":"kf-main kf-main--list","layout":{"type":"constrained"}} -->
-<main class="wp-block-group kf-main kf-main--list"><!-- wp:heading {"level":1} -->
+<!-- wp:group {"tagName":"main","className":"kf-main kf-main--list kf-lattice","layout":{"type":"constrained"}} -->
+<main class="wp-block-group kf-main kf-main--list kf-lattice"><!-- wp:heading {"level":1} -->
 <h1 class="wp-block-heading">News and Reports from the Floor</h1>
 <!-- /wp:heading -->
 
