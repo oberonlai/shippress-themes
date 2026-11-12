@@ -39,4 +39,12 @@ Illustrations were generated with AI for this theme and are distributed under th
 - assets/images/p08.webp and assets/images/demo/p08.webp (home site note, post; AI-generated illustration made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
 - assets/images/p09.webp and assets/images/demo/p09.webp (home site note, post; AI-generated illustration made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
 - assets/images/p10.webp and assets/images/demo/p10.webp (home schedule band; AI-generated illustration made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
+- assets/images/p11.webp (about lead; AI-generated illustration made for this theme, GPL-2.0-or-later)
+- assets/images/p12.webp (streams lead strip; AI-generated illustration made for this theme, GPL-2.0-or-later)
+- assets/images/p13.webp (collection day lead; AI-generated illustration made for this theme, GPL-2.0-or-later)
+- assets/images/p14.webp (weekly cover lead; AI-generated illustration made for this theme, GPL-2.0-or-later)
+- assets/images/p15.webp (sites case note; AI-generated illustration made for this theme, GPL-2.0-or-later)
+- assets/images/p16.webp (set your schedule lead; AI-generated illustration made for this theme, GPL-2.0-or-later)
+- assets/images/p17.webp (collection notes lead; AI-generated illustration made for this theme, GPL-2.0-or-later)
+- assets/images/p18.webp and assets/images/demo/p18.webp (day-tag post; AI-generated illustration made for this theme, GPL-2.0-or-later; the demo/ copy is the one imported into the Media Library)
 The pictograms are inline SVG drawn for this theme (inc/i18n.php), GPL-2.0-or-later.
