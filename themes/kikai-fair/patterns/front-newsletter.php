@@ -10,11 +10,11 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kf-news","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kf-news" id="newsletter"><!-- wp:heading {"level":3,"className":"kf-news__h"} -->
-<h3 class="wp-block-heading kf-news__h">Hear first when the floor plan is out</h3>
+<h3 class="wp-block-heading kf-news__h"><?php echo wp_kses_post( kikai_fair_t( 'kf73b7c65' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kf-news__lead"} -->
-<p class="kf-news__lead">The floor plan is due on 15 January 2027, followed by the exhibitor list and the demo timetable: four emails at most before the fair.</p>
+<p class="kf-news__lead"><?php echo wp_kses_post( kikai_fair_t( 'k0393de9d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kf-news__form","layout":{"type":"default"}} -->

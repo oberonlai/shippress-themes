@@ -13,7 +13,7 @@
 <div class="wp-block-group alignwide kf-value__in"><!-- wp:group {"className":"kf-value__text sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kf-value__text sp-reveal sp-reveal--up"><!-- wp:group {"className":"kf-num","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group kf-num"><!-- wp:paragraph {"className":"kf-vlabel"} -->
-<p class="kf-vlabel">Part</p>
+<p class="kf-vlabel"><?php echo wp_kses_post( kikai_fair_t( 'k5bfce74a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kf-numeral"} -->
@@ -22,29 +22,29 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"className":"kf-value__h"} -->
-<h2 class="wp-block-heading kf-value__h">How to come</h2>
+<h2 class="wp-block-heading kf-value__h"><?php echo wp_kses_post( kikai_fair_t( 'k5309e2d9' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Hall 4 at Riverside Exhibition Centre, 12 Harbour Road in Lindmark, is reached directly by tram line 3 at the Harbour Road stop, with visitor parking at P2 and bicycle racks at the north entrance. Entry is by pre-registered pass only, so the way in is three short steps.</p>
+<p><?php echo wp_kses_post( kikai_fair_t( 'k58deb867' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<ol class="kf-steps"><li><b>1</b> Request a pass before Sunday 21 February 2027.</li><li><b>2</b> Receive a QR pass by email within 2 working days.</li><li><b>3</b> Scan it at the Hall 4 north entrance.</li></ol>
-<ul class="kf-prices"><li><span class="kf-prices__n">Trade day pass (pre-registered)</span><span class="kf-prices__p">€25</span></li><li><span class="kf-prices__n">Three-day trade pass</span><span class="kf-prices__p">€45</span></li><li><span class="kf-prices__n">Apprentice / student day pass (with school ID)</span><span class="kf-prices__p">€10</span></li><li><span class="kf-prices__n">Group pass, 5 people, one day</span><span class="kf-prices__p">€100</span></li><li><span class="kf-prices__n">Shell stand 9 m² (exhibitor)</span><span class="kf-prices__p">€2,700</span></li><li><span class="kf-prices__n">Raw floor space, per m² (min. 18 m²)</span><span class="kf-prices__p">€240</span></li><li><span class="kf-prices__n">Live demonstration slot, 30 min on the Demo Stage</span><span class="kf-prices__p">€180</span></li></ul>
+<ol class="kf-steps"><li><b>1</b> <?php echo wp_kses_post( kikai_fair_t( 'k634af89d' ) ); ?></li><li><b>2</b> <?php echo wp_kses_post( kikai_fair_t( 'kda5a9b89' ) ); ?></li><li><b>3</b> <?php echo wp_kses_post( kikai_fair_t( 'k73f86480' ) ); ?></li></ol>
+<ul class="kf-prices"><li><span class="kf-prices__n"><?php echo wp_kses_post( kikai_fair_t( 'kd366b3f2' ) ); ?></span><span class="kf-prices__p">€25</span></li><li><span class="kf-prices__n"><?php echo wp_kses_post( kikai_fair_t( 'kb02e4d87' ) ); ?></span><span class="kf-prices__p">€45</span></li><li><span class="kf-prices__n"><?php echo wp_kses_post( kikai_fair_t( 'ke336ac95' ) ); ?></span><span class="kf-prices__p">€10</span></li><li><span class="kf-prices__n"><?php echo wp_kses_post( kikai_fair_t( 'k6499fdab' ) ); ?></span><span class="kf-prices__p">€100</span></li><li><span class="kf-prices__n"><?php echo wp_kses_post( kikai_fair_t( 'kf26dc36a' ) ); ?></span><span class="kf-prices__p">€2,700</span></li><li><span class="kf-prices__n"><?php echo wp_kses_post( kikai_fair_t( 'k72e6068d' ) ); ?></span><span class="kf-prices__p">€240</span></li><li><span class="kf-prices__n"><?php echo wp_kses_post( kikai_fair_t( 'kca999a05' ) ); ?></span><span class="kf-prices__p">€180</span></li></ul>
 <!-- /wp:html -->
 
 <!-- wp:buttons {"className":"kf-btn-line"} -->
 <div class="wp-block-buttons kf-btn-line"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#pass">Request a pass<svg class="kf-arrow" width="28" height="6" viewBox="0 0 28 6" aria-hidden="true" focusable="false"><path d="M0 3H27M23.5.5 27 3l-3.5 2.5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#pass"><?php echo wp_kses_post( kikai_fair_t( 'k55f8b22f' ) ); ?><svg class="kf-arrow" width="28" height="6" viewBox="0 0 28 6" aria-hidden="true" focusable="false"><path d="M0 3H27M23.5.5 27 3l-3.5 2.5" fill="none" stroke="currentColor" stroke-width="1"/></svg></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kf-value__photo kf-pair sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kf-value__photo kf-pair sp-reveal sp-reveal--up"><!-- wp:html -->
-<figure class="kf-pair__a"><img src="<?php echo kikai_fair_img( 'v03a-north-entrance.webp' ); ?>" alt="Visitors in lanyards walking across the forecourt toward the glass facade of the Riverside Exhibition Centre" width="1600" height="1067" loading="lazy"/><figcaption>The glass north entrance, where passes are scanned.</figcaption></figure>
-<figure class="kf-pair__b"><img src="<?php echo kikai_fair_img( 'v03b-tram-stop.webp' ); ?>" alt="Tram stop and bicycle racks outside the exhibition centre" width="1600" height="1067" loading="lazy"/><figcaption>Tram line 3 stops at Harbour Road, with bicycle racks beside it.</figcaption></figure>
+<figure class="kf-pair__a"><img src="<?php echo kikai_fair_img( 'v03a-north-entrance.webp' ); ?>" alt="<?php echo esc_attr( kikai_fair_t( 'af805a978' ) ); ?>" width="1600" height="1067" loading="lazy"/><figcaption><?php echo wp_kses_post( kikai_fair_t( 'ka1413865' ) ); ?></figcaption></figure>
+<figure class="kf-pair__b"><img src="<?php echo kikai_fair_img( 'v03b-tram-stop.webp' ); ?>" alt="<?php echo esc_attr( kikai_fair_t( 'afdb3dde9' ) ); ?>" width="1600" height="1067" loading="lazy"/><figcaption><?php echo wp_kses_post( kikai_fair_t( 'kb1f01f3f' ) ); ?></figcaption></figure>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

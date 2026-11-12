@@ -10,14 +10,14 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"kf-value kf-lattice","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kf-value kf-lattice" id="who"><!-- wp:heading {"textAlign":"center","className":"kf-why"} -->
-<h2 class="wp-block-heading has-text-align-center kf-why">Why come</h2>
+<h2 class="wp-block-heading has-text-align-center kf-why"><?php echo wp_kses_post( kikai_fair_t( 'kb7153d01' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"align":"wide","className":"kf-value__in","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide kf-value__in"><!-- wp:group {"className":"kf-value__text sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kf-value__text sp-reveal sp-reveal--up"><!-- wp:group {"className":"kf-num","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group kf-num"><!-- wp:paragraph {"className":"kf-vlabel"} -->
-<p class="kf-vlabel">Part</p>
+<p class="kf-vlabel"><?php echo wp_kses_post( kikai_fair_t( 'k5bfce74a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kf-numeral"} -->
@@ -26,15 +26,15 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"className":"kf-value__h"} -->
-<h2 class="wp-block-heading kf-value__h">Who is on the floor</h2>
+<h2 class="wp-block-heading kf-value__h"><?php echo wp_kses_post( kikai_fair_t( 'k9e5d96c0' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Since 2011 Kikai Fair has kept one rule: woodworking machinery runs under real production load instead of standing silent as a showroom piece. Independent joinery shops, millwork studios and cabinet manufacturers walk the aisles beside equipment engineers, checking cut accuracy, dust containment and cycle times at the spindle itself. Across 22,000 square metres, 180 exhibitors and 62 machines running under power give buyers a plain answer on how a machine performs before they sign an order.</p>
+<p><?php echo wp_kses_post( kikai_fair_t( 'k8652dce9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kf-quote"} -->
-<p class="kf-quote">“We measure the fair by the clean sawdust on the catch trays and the orders signed beside running saws.” — Mira Halvorsen, fair director</p>
+<p class="kf-quote"><?php echo wp_kses_post( kikai_fair_t( 'kee25f423' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kf-stats","layout":{"type":"default"}} -->
@@ -42,7 +42,7 @@
 <div class="wp-block-group kf-stats__row">
 <!-- wp:group {"className":"kf-stat","layout":{"type":"default"}} -->
 <div class="wp-block-group kf-stat"><!-- wp:paragraph {"className":"kf-stat__cap"} -->
-<p class="kf-stat__cap">Exhibitors<br>on the floor</p>
+<p class="kf-stat__cap"><?php echo wp_kses_post( kikai_fair_t( 'k70b71fd2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kf-stat__num sp-reveal sp-count"} -->
@@ -56,7 +56,7 @@
 
 <!-- wp:group {"className":"kf-stat","layout":{"type":"default"}} -->
 <div class="wp-block-group kf-stat"><!-- wp:paragraph {"className":"kf-stat__cap"} -->
-<p class="kf-stat__cap">Machines<br>running</p>
+<p class="kf-stat__cap"><?php echo wp_kses_post( kikai_fair_t( 'k87e43199' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kf-stat__num sp-reveal sp-count"} -->
@@ -71,7 +71,7 @@
 <div class="wp-block-group kf-stats__row">
 <!-- wp:group {"className":"kf-stat","layout":{"type":"default"}} -->
 <div class="wp-block-group kf-stat"><!-- wp:paragraph {"className":"kf-stat__cap"} -->
-<p class="kf-stat__cap">Floor<br>zones</p>
+<p class="kf-stat__cap"><?php echo wp_kses_post( kikai_fair_t( 'k09f0e27e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kf-stat__num sp-reveal sp-count"} -->
@@ -85,11 +85,11 @@
 
 <!-- wp:group {"className":"kf-stat","layout":{"type":"default"}} -->
 <div class="wp-block-group kf-stat"><!-- wp:paragraph {"className":"kf-stat__cap"} -->
-<p class="kf-stat__cap">Hall<br>area</p>
+<p class="kf-stat__cap"><?php echo wp_kses_post( kikai_fair_t( 'k23123741' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kf-stat__num sp-reveal sp-count"} -->
-<p class="kf-stat__num sp-reveal sp-count">22,000 <small>m²</small></p>
+<p class="kf-stat__num sp-reveal sp-count">22,000 <small><?php echo wp_kses_post( kikai_fair_t( 'ka643abca' ) ); ?></small></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -100,7 +100,7 @@
 
 <!-- wp:group {"className":"kf-value__photo sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kf-value__photo sp-reveal sp-reveal--up"><!-- wp:html -->
-<figure class="kf-photo"><img src="<?php echo kikai_fair_img( 'v01-hall-aisle.webp' ); ?>" alt="Elevated view of a wide hall aisle with running machines and trade visitors" width="1600" height="1067" loading="lazy"/></figure>
+<figure class="kf-photo"><img src="<?php echo kikai_fair_img( 'v01-hall-aisle.webp' ); ?>" alt="<?php echo esc_attr( kikai_fair_t( 'a08249538' ) ); ?>" width="1600" height="1067" loading="lazy"/></figure>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
