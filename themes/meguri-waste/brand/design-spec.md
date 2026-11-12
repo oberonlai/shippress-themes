@@ -3,7 +3,7 @@
 Type: **landing** (one long conversion home with anchor menu + one repeated CTA "Set your schedule"). Industry: commercial waste collection on a fixed weekly schedule.
 Primary reference: **https://www.daiseki.co.jp/** (home, /business/, /business/recycle/waste_oil.html). Tokens: `reference-tokens.md` (cited below as T(a)…T(g)). Screens: `ref/daiseki-*.png`.
 **Imagery: illustration** (from stage-a IMAGERY). Style reference daiseki.co.jp watercolour; **we generate our own illustrations — never copy, trace or edit the reference's pictures, characters, compositions or logo.** Process pictograms are our own flat SVGs.
-Font direction: **sans** (Latin headings + body sans; zh-TW / ja Noto Sans TC / Noto Sans JP 黑體; no Mincho/serif anywhere).
+Font direction: **sans** (Latin headings + body sans; zh-TW / ja Noto Sans TC / Noto Sans JP gothic faces; no Mincho/serif anywhere).
 Similarity target: ~80% to the reference in palette, image treatment, motion, decoration and layout rhythm; copy, pictures and logo 100% ours.
 
 ---
@@ -48,7 +48,7 @@ Supporting (not counted): header utility row with outline boxes (teal-outline "L
 **(2) Our transposition.** Same composition, same motion idea, same imagery type (watercolour illustration): a watercolour panorama of a **commercial loading dock just after dawn**. A coordinator in an orange hi-vis vest, seen from behind at the left foreground, walks a facilities manager (side view, clipboard) along a row of five labelled bins toward a collection truck backing in on the right; pale office blocks with window dots and a far second truck in wet wash behind; pale cyan sky dissolving to white at the foot. Story: **"the collection that comes on the day you can plan around."** Motion: slow Ken Burns (CSS keyframe on the inner img, 20s ease-in-out alternate, scale 1→1.06) + `sp-parallax` on the strip + sideways pan of the strip itself. h1 on the sky: "A collection day / **you can plan around.**" — line 1 weight 400, line 2 weight 700 (mixed weights like the reference).
 
 **(3) KV checklist** (all on the home first screen, all visible at 1280×800):
-| # | 參考站元素 | 我們的對應 | 位置 | 動態 | 用哪張圖 |
+| # | Reference element | Our counterpart | Position | Motion | Picture |
 |---|---|---|---|---|---|
 | 1 | Full-bleed watercolour panorama, pale sky fading to white | Dock-at-dawn panorama, pale cyan sky → white at foot | Full width, 640px under header | `sp-parallax` `--sp-par:8%` (mobile 5%); Ken Burns 20s 1→1.06 | P01 |
 | 2 | Person seen from behind in foreground, looking into scene | Coordinator in orange vest from behind + manager beside her | Strip x 8–30%, bottom-aligned, ≥45% strip height | static in picture; pans with strip | P01 |
