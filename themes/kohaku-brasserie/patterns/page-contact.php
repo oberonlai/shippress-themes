@@ -65,7 +65,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"className":"kb-ledger","hasFixedLayout":false} -->
-<figure class="wp-block-table kb-ledger"><table><tbody><tr><td class="kb-ledger__item">Tue–Sat</td><td class="kb-ledger__desc">Lunch, the quiet hours, dinner and the late sitting.</td><td class="kb-ledger__price">11:30–00:00</td></tr><tr><td class="kb-ledger__item">Sun</td><td class="kb-ledger__desc">Lunch and the quiet hours.</td><td class="kb-ledger__price">11:30–17:00</td></tr><tr><td class="kb-ledger__item">Mon</td><td class="kb-ledger__desc">The room rests.</td><td class="kb-ledger__price">Closed</td></tr></tbody></table></figure>
+<figure class="wp-block-table kb-ledger"><table><tbody><tr><td>Tue–Sat</td><td>Lunch, the quiet hours, dinner and the late sitting.</td><td>11:30–00:00</td></tr><tr><td>Sun</td><td>Lunch and the quiet hours.</td><td>11:30–17:00</td></tr><tr><td>Mon</td><td>The room rests.</td><td>Closed</td></tr></tbody></table></figure>
 <!-- /wp:table --></section>
 <!-- /wp:group -->
 

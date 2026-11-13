@@ -113,7 +113,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"className":"kb-ledger","hasFixedLayout":false} -->
-<figure class="wp-block-table kb-ledger"><table><tbody><tr><td class="kb-ledger__item">Lunch</td><td class="kb-ledger__desc">Two- and three-course set menus.</td><td class="kb-ledger__price">11:30–14:30</td></tr><tr><td class="kb-ledger__item">The quiet hours</td><td class="kb-ledger__desc">Afternoon plate and coffee; no booking for four or fewer.</td><td class="kb-ledger__price">14:30–18:00</td></tr><tr><td class="kb-ledger__item">Dinner</td><td class="kb-ledger__desc">À la carte, mains from €24.</td><td class="kb-ledger__price">18:00–22:00</td></tr><tr><td class="kb-ledger__item">The late sitting</td><td class="kb-ledger__desc">Three courses for €52; kitchen last orders at 23:15.</td><td class="kb-ledger__price">22:00–00:00</td></tr></tbody></table></figure>
+<figure class="wp-block-table kb-ledger"><table><tbody><tr><td>Lunch</td><td>Two- and three-course set menus.</td><td>11:30–14:30</td></tr><tr><td>The quiet hours</td><td>Afternoon plate and coffee; no booking for four or fewer.</td><td>14:30–18:00</td></tr><tr><td>Dinner</td><td>À la carte, mains from €24.</td><td>18:00–22:00</td></tr><tr><td>The late sitting</td><td>Three courses for €52; kitchen last orders at 23:15.</td><td>22:00–00:00</td></tr></tbody></table></figure>
 <!-- /wp:table --></section>
 <!-- /wp:group -->
 
