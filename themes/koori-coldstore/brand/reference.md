@@ -20,7 +20,7 @@ None triggered by scroll (Splide fade only; no IntersectionObserver). Recorded a
 | Two-row header 110px (utility + main nav), logo left | sticky two-row header 104px: plain utility row (dock hours, phone, language) + wordmark, one anchor `core/navigation`, CTA "Ask about capacity" | all pages | §3 #1 |
 | Full-bleed 690px crossfade hero (forklift in chilled hall) | full-bleed low-key dock hero, 3 slides K01 (supervisor probing at the dock seal, driver with pallet) / K02 (forklift aisle) / K03 (frozen-room door), 4000/1000 ms | home §2; Rooms head as 2-slide | T1, KV |
 | Thin catch line bottom-left + kicker | kicker + h1 "A numbered room / that holds its cold." Schibsted Grotesk 400 4.5rem white, bottom-left | home §2 | T1 |
-| Tilted italic red English line across the catch's foot | "Room 4 · −21 °C · held", Schibsted 700 italic, #BFD3CF, −7° | home §2 + every inner page head | T1 |
+| Tilted italic red English line across the catch's foot | "Room 7 · −21 °C · held", Schibsted 700 italic, #BFD3CF, −7° | home §2 + every inner page head | T1 |
 | Pager: SVG progress ring + boxed pause | identical geometry (r 14.5, stroke 4, dash 91.11; pause 38×20), CSS clock + tiny click-only JS | hero, card photos, Rooms head | T1 |
 | Quick-guide white card in the hero | not used (no card docked on the hero) | — | §2 |
 | Alert band: 310px label + hairline rows | "room log" strip: 310 label + 3 rows (time, room, reading, amber tick) | home §3; register / hours / terms strips on Rooms, Booking, Rates, Dock, About, Ask | T3 |
