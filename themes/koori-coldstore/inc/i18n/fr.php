@@ -305,7 +305,7 @@ return array(
 	'hero_h1_a' => 'Une salle numérotée',
 	'hero_h1_b' => 'qui garde son froid.',
 	'hero_kicker' => 'Entreposage frigorifique régional · Northmere Port',
-	'hero_tilt' => 'Salle 7 · −21 °C · maintenue',
+	'hero_tilt' => 'Salle 7 · −21 °C',
 	'home_go' => 'Retour à la page d’accueil',
 	'j_intro' => 'Des nouvelles du quai et des salles.',
 	'journal_h' => 'Journal',
