@@ -12,3 +12,23 @@ Akiha College is an editorial WordPress theme built for an electrical apprentice
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/akiha-college/home-desktop.webp" width="640" alt="Akiha College home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/akiha-college/home-mobile.webp" width="200" alt="Akiha College home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/akiha-college/about-desktop.webp) · [mobile](https://shots.codotx.com/akiha-college/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/akiha-college/news-desktop.webp) · [mobile](https://shots.codotx.com/akiha-college/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/akiha-college/article-desktop.webp) · [mobile](https://shots.codotx.com/akiha-college/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/akiha-college/category-desktop.webp) · [mobile](https://shots.codotx.com/akiha-college/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/akiha-college/tag-desktop.webp) · [mobile](https://shots.codotx.com/akiha-college/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/akiha-college/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/akiha-college/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/akiha-college/contact-desktop.webp) · [mobile](https://shots.codotx.com/akiha-college/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/akiha-college/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/akiha-college/ja/home-desktop.webp) · [fr](https://shots.codotx.com/akiha-college/fr/home-desktop.webp) · [de](https://shots.codotx.com/akiha-college/de/home-desktop.webp)
+<!-- screenshots:end -->
