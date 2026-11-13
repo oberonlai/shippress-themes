@@ -38,24 +38,24 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kf-fishes","layout":{"type":"default"}} -->
-<div class="wp-block-group kf-fishes"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kf-fish kf-fish--p01 sp-parallax__layer"} -->
-<figure class="wp-block-image size-full kf-fish kf-fish--p01 sp-parallax__layer"><img src="<?php echo kaimon_fishmongers_img( 'p01-bream.webp' ); ?>" alt="Whole gilt-head bream hanging vertically against dark wet slate with scales reflecting pale light." width="720" height="2000"/></figure>
+<div class="wp-block-group kf-fishes"><!-- wp:image {"sizeSlug":"full","width":426,"height":1280,"linkDestination":"none","className":"kf-fish kf-fish--p01 sp-parallax__layer"} -->
+<figure class="wp-block-image size-full kf-fish kf-fish--p01 sp-parallax__layer"><img src="<?php echo kaimon_fishmongers_img( 'p01-bream.webp' ); ?>" alt="Whole bream lying on dark slate with scales catching pale light." width="426" height="1280"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kf-fish kf-fish--p03 sp-parallax__layer"} -->
-<figure class="wp-block-image size-full kf-fish kf-fish--p03 sp-parallax__layer"><img src="<?php echo kaimon_fishmongers_img( 'p03-seabass.webp' ); ?>" alt="Whole sea bass hanging head up and tail down against a dark slate background." width="680" height="2000"/></figure>
+<!-- wp:image {"sizeSlug":"full","width":426,"height":1280,"linkDestination":"none","className":"kf-fish kf-fish--p03 sp-parallax__layer"} -->
+<figure class="wp-block-image size-full kf-fish kf-fish--p03 sp-parallax__layer"><img src="<?php echo kaimon_fishmongers_img( 'p03-seabass.webp' ); ?>" alt="Whole sea bass on a plain dark slate surface." width="426" height="1280"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kf-fish kf-fish--p02 sp-parallax__layer"} -->
-<figure class="wp-block-image size-full kf-fish kf-fish--p02 sp-parallax__layer"><img src="<?php echo kaimon_fishmongers_img( 'p02-mackerel.webp' ); ?>" alt="Whole mackerel hanging vertically against dark slate showing muted blue and black tiger stripes." width="560" height="2000"/></figure>
+<!-- wp:image {"sizeSlug":"full","width":366,"height":1280,"linkDestination":"none","className":"kf-fish kf-fish--p02 sp-parallax__layer"} -->
+<figure class="wp-block-image size-full kf-fish kf-fish--p02 sp-parallax__layer"><img src="<?php echo kaimon_fishmongers_img( 'p02-mackerel.webp' ); ?>" alt="Whole mackerel on dark slate showing muted blue and black stripes." width="366" height="1280"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kf-fish kf-fish--p05 sp-parallax__layer"} -->
-<figure class="wp-block-image size-full kf-fish kf-fish--p05 sp-parallax__layer"><img src="<?php echo kaimon_fishmongers_img( 'p05-shrimp.webp' ); ?>" alt="Pink-grey shrimp arranged over crushed ice in a narrow stainless steel display tray." width="680" height="2000"/></figure>
+<!-- wp:image {"sizeSlug":"full","width":426,"height":1278,"linkDestination":"none","className":"kf-fish kf-fish--p05 sp-parallax__layer"} -->
+<figure class="wp-block-image size-full kf-fish kf-fish--p05 sp-parallax__layer"><img src="<?php echo kaimon_fishmongers_img( 'p05-shrimp.webp' ); ?>" alt="Single pale langoustine on a plain dark slate surface." width="426" height="1278"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kf-fish kf-fish--p04 sp-parallax__layer"} -->
-<figure class="wp-block-image size-full kf-fish kf-fish--p04 sp-parallax__layer"><img src="<?php echo kaimon_fishmongers_img( 'p04-squid.webp' ); ?>" alt="Whole squid hanging vertically with tentacles extended downward against a wet dark slate surface." width="680" height="2000"/></figure>
+<!-- wp:image {"sizeSlug":"full","width":426,"height":1280,"linkDestination":"none","className":"kf-fish kf-fish--p04 sp-parallax__layer"} -->
+<figure class="wp-block-image size-full kf-fish kf-fish--p04 sp-parallax__layer"><img src="<?php echo kaimon_fishmongers_img( 'p04-squid.webp' ); ?>" alt="Whole squid with tentacles trailing down on dark slate." width="426" height="1280"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

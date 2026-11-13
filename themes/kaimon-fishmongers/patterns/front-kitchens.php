@@ -14,8 +14,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kf-kitchens__top","layout":{"type":"default"}} -->
-<div class="wp-block-group kf-kitchens__top"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kf-kitchens__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full kf-kitchens__photo sp-reveal sp-reveal--zoom"><img src="<?php echo kaimon_fishmongers_img( 'k1-stock.webp' ); ?>" alt="Cook ladling clear fish stock from stainless pot beside a colander of bones." width="1800" height="1200" loading="lazy"/></figure>
+<div class="wp-block-group kf-kitchens__top"><!-- wp:image {"sizeSlug":"full","width":1248,"height":832,"linkDestination":"none","className":"kf-kitchens__photo sp-reveal sp-reveal--zoom"} -->
+<figure class="wp-block-image size-full kf-kitchens__photo sp-reveal sp-reveal--zoom"><img src="<?php echo kaimon_fishmongers_img( 'k1-stock.webp' ); ?>" alt="Cook ladling clear fish stock from stainless pot beside a colander of bones." width="1248" height="832"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kf-kitchens__intro sp-reveal sp-reveal--up","layout":{"type":"default"}} -->

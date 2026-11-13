@@ -53,3 +53,15 @@ function kaimon_fishmongers_pattern_categories() {
 	);
 }
 add_action( 'init', 'kaimon_fishmongers_pattern_categories' );
+
+/**
+ * Label the mobile menu button with a real (translatable) word instead of CSS-generated text.
+ */
+function kaimon_fishmongers_menu_button_label( $html ) {
+	return preg_replace(
+		'/(<button[^>]*wp-block-navigation__responsive-container-open[^>]*>)(.*?)(<\/button>)/s',
+		'$1$2<span class="kf-menu-label">' . esc_html__( 'Menu', 'kaimon-fishmongers' ) . '</span>$3',
+		$html
+	);
+}
+add_filter( 'render_block_core/navigation', 'kaimon_fishmongers_menu_button_label' );

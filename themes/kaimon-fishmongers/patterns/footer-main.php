@@ -8,8 +8,8 @@
  */
 ?>
 <!-- wp:group {"align":"full","className":"kf-footer-photo sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull kf-footer-photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo kaimon_fishmongers_img( 'f1-evening.webp' ); ?>" alt="Empty stainless steel counter being washed down with water and melting crushed ice." width="2000" height="1050"/></figure>
+<div class="wp-block-group alignfull kf-footer-photo sp-parallax"><!-- wp:image {"sizeSlug":"full","width":1280,"height":674,"linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="<?php echo kaimon_fishmongers_img( 'f1-evening.webp' ); ?>" alt="Empty stainless steel counter being washed down with water and melting crushed ice." width="1280" height="674"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

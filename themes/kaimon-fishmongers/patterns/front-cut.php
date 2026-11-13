@@ -38,7 +38,7 @@
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kf-cut__photo sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full kf-cut__photo sp-reveal sp-reveal--zoom"><img src="<?php echo kaimon_fishmongers_img( 'c1-fillet.webp' ); ?>" alt="Fishmonger cutting along sea bass spine on white board with customer hands at counter." width="1280" height="2000" loading="lazy"/></figure>
+<!-- wp:image {"sizeSlug":"full","width":832,"height":1248,"linkDestination":"none","className":"kf-cut__photo sp-reveal sp-reveal--zoom"} -->
+<figure class="wp-block-image size-full kf-cut__photo sp-reveal sp-reveal--zoom"><img src="<?php echo kaimon_fishmongers_img( 'c1-fillet.webp' ); ?>" alt="Fishmonger cutting along sea bass spine on white board with customer hands at counter." width="832" height="1248"/></figure>
 <!-- /wp:image --></section>
 <!-- /wp:group -->
