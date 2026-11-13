@@ -21,7 +21,7 @@
 <!-- wp:group {"className":"nk-cards sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-cards sp-stagger"><!-- wp:group {"className":"nk-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img"} -->
-<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-fresh.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k1' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-fresh.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k1' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-card__milk"} -->
@@ -43,7 +43,7 @@
 
 <!-- wp:group {"className":"nk-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img"} -->
-<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-bloomy.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k2' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-bloomy.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k2' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-card__milk"} -->
@@ -65,7 +65,7 @@
 
 <!-- wp:group {"className":"nk-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img"} -->
-<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-washed.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k3' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-washed.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k3' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-card__milk"} -->
@@ -87,7 +87,7 @@
 
 <!-- wp:group {"className":"nk-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img"} -->
-<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-alpine.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k4' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-alpine.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k4' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-card__milk"} -->
@@ -109,7 +109,7 @@
 
 <!-- wp:group {"className":"nk-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img"} -->
-<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-blue.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k5' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-blue.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k5' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-card__milk"} -->
@@ -131,7 +131,7 @@
 
 <!-- wp:group {"className":"nk-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img"} -->
-<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-goat.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k6' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img"><img src="<?php echo noka_cheese_img( 'style-goat.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k6' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-card__milk"} -->
@@ -162,7 +162,7 @@
 <!-- wp:group {"className":"nk-cell nk-cell--photo nk-sticky nk-sticky--styles","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-cell nk-cell--photo nk-sticky nk-sticky--styles"><!-- wp:group {"className":"nk-photo-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-photo-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-pebble nk-pebble--c"} -->
-<figure class="wp-block-image size-full nk-pebble nk-pebble--c"><img src="<?php echo noka_cheese_img( 'styles-arrangement.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_styles' ) ); ?>" width="1024" height="1024"/></figure>
+<figure class="wp-block-image size-full nk-pebble nk-pebble--c"><img src="<?php echo noka_cheese_img( 'styles-arrangement.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_styles' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

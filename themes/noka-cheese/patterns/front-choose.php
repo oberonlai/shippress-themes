@@ -19,7 +19,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-sq nk-sq--45"} -->
-<figure class="wp-block-image size-full nk-sq nk-sq--45"><img src="<?php echo noka_cheese_img( 'choose-taste.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_choose' ) ); ?>" width="832" height="1040"/></figure>
+<figure class="wp-block-image size-full nk-sq nk-sq--45"><img src="<?php echo noka_cheese_img( 'choose-taste.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_choose' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

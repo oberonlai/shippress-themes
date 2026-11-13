@@ -43,7 +43,7 @@
 <!-- /wp:html -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-pebble nk-pebble--a nk-hero__pebble sp-parallax"} -->
-<figure class="wp-block-image size-full nk-pebble nk-pebble--a nk-hero__pebble sp-parallax"><img src="<?php echo noka_cheese_img( 'hero-wire-cut.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_hero' ) ); ?>" width="1024" height="1024"/></figure>
+<figure class="wp-block-image size-full nk-pebble nk-pebble--a nk-hero__pebble sp-parallax"><img src="<?php echo noka_cheese_img( 'hero-wire-cut.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_hero' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

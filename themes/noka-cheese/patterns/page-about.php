@@ -26,7 +26,7 @@
 <!-- wp:group {"className":"nk-cell nk-cell--photo","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-cell nk-cell--photo"><!-- wp:group {"className":"nk-photo-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-photo-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-pebble nk-pebble--a nk-pebble--head"} -->
-<figure class="wp-block-image size-full nk-pebble nk-pebble--a nk-pebble--head"><img src="<?php echo noka_cheese_img( 'noa-cellar.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_monger' ) ); ?>" width="1024" height="1024"/></figure>
+<figure class="wp-block-image size-full nk-pebble nk-pebble--a nk-pebble--head"><img src="<?php echo noka_cheese_img( 'noa-cellar.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_monger' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -59,8 +59,8 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:cover {"url":"<?php echo noka_cheese_img( 'counter-band.webp' ); ?>","dimRatio":0,"minHeight":420,"minHeightUnit":"px","align":"full","className":"nk-band nk-band--wide sp-parallax","style":{"color":{}},"layout":{"type":"default"}} -->
-<div class="wp-block-cover alignfull nk-band nk-band--wide sp-parallax" style="min-height:420px"><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( noka_cheese_t( 'alt_band' ) ); ?>" src="<?php echo noka_cheese_img( 'counter-band.webp' ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"></div></div>
+<!-- wp:cover {"url":"<?php echo noka_cheese_img( 'counter-band.webp' ); ?>","dimRatio":0,"isDark":false,"minHeight":420,"minHeightUnit":"px","align":"full","className":"nk-band nk-band--wide sp-parallax","layout":{"type":"default"}} -->
+<div class="wp-block-cover alignfull is-light nk-band nk-band--wide sp-parallax" style="min-height:420px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( noka_cheese_t( 'alt_band' ) ); ?>" src="<?php echo noka_cheese_img( 'counter-band.webp' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:group {"className":"nk-sec nk-spec nk-spec--people","tagName":"section","align":"full","layout":{"type":"default"}} -->

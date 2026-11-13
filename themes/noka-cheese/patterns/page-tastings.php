@@ -32,7 +32,7 @@
 <!-- wp:group {"className":"nk-cell nk-cell--photo","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-cell nk-cell--photo"><!-- wp:group {"className":"nk-photo-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-photo-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-pebble nk-pebble--c nk-pebble--head"} -->
-<figure class="wp-block-image size-full nk-pebble nk-pebble--c nk-pebble--head"><img src="<?php echo noka_cheese_img( 'tasting-table.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_t1' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-pebble nk-pebble--c nk-pebble--head"><img src="<?php echo noka_cheese_img( 'tasting-table.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_t1' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -103,7 +103,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-sq nk-sq--32"} -->
-<figure class="wp-block-image size-full nk-sq nk-sq--32"><img src="<?php echo noka_cheese_img( 'styles-arrangement.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_head_s0' ) ); ?>" width="1024" height="1024"/></figure>
+<figure class="wp-block-image size-full nk-sq nk-sq--32"><img src="<?php echo noka_cheese_img( 'styles-arrangement.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_head_s0' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

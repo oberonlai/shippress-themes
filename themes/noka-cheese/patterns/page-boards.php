@@ -26,7 +26,7 @@
 <!-- wp:group {"className":"nk-cell nk-cell--photo","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-cell nk-cell--photo"><!-- wp:group {"className":"nk-photo-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-photo-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-pebble nk-pebble--b nk-pebble--head"} -->
-<figure class="wp-block-image size-full nk-pebble nk-pebble--b nk-pebble--head"><img src="<?php echo noka_cheese_img( 'board-four.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_board' ) ); ?>" width="1248" height="832"/></figure>
+<figure class="wp-block-image size-full nk-pebble nk-pebble--b nk-pebble--head"><img src="<?php echo noka_cheese_img( 'board-four.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_board' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -45,7 +45,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-sq nk-sq--32"} -->
-<figure class="wp-block-image size-full nk-sq nk-sq--32"><img src="<?php echo noka_cheese_img( 'board-two.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_b0' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-sq nk-sq--32"><img src="<?php echo noka_cheese_img( 'board-two.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_b0' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -138,7 +138,7 @@
 
 <!-- wp:group {"className":"nk-tablewrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-tablewrap"><!-- wp:table {"className":"nk-table"} -->
-<figure class="wp-block-table nk-table"><table><thead><tr><th><?php echo wp_kses_post( noka_cheese_t( 'rs_th1' ) ); ?></th><th><?php echo wp_kses_post( noka_cheese_t( 'rs_th2' ) ); ?></th><th class="nk-price"><?php echo wp_kses_post( noka_cheese_t( 'rs_th3' ) ); ?></th></tr></thead><tbody><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i1' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d1' ) ); ?></td><td class="nk-price"><?php echo wp_kses_post( noka_cheese_t( 'rs_c1' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i2' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d2' ) ); ?></td><td class="nk-price"><?php echo wp_kses_post( noka_cheese_t( 'rs_c2' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i3' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d3' ) ); ?></td><td class="nk-price"><?php echo wp_kses_post( noka_cheese_t( 'rs_c3' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i4' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d4' ) ); ?></td><td class="nk-price"><?php echo wp_kses_post( noka_cheese_t( 'rs_c4' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i5' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d5' ) ); ?></td><td class="nk-price"><?php echo wp_kses_post( noka_cheese_t( 'rs_c5' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i6' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d6' ) ); ?></td><td class="nk-price"><?php echo wp_kses_post( noka_cheese_t( 'rs_c6' ) ); ?></td></tr></tbody></table></figure>
+<figure class="wp-block-table nk-table"><table><thead><tr><th><?php echo wp_kses_post( noka_cheese_t( 'rs_th1' ) ); ?></th><th><?php echo wp_kses_post( noka_cheese_t( 'rs_th2' ) ); ?></th><th><?php echo wp_kses_post( noka_cheese_t( 'rs_th3' ) ); ?></th></tr></thead><tbody><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i1' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d1' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_c1' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i2' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d2' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_c2' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i3' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d3' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_c3' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i4' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d4' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_c4' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i5' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d5' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_c5' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( noka_cheese_t( 'rs_i6' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_d6' ) ); ?></td><td><?php echo wp_kses_post( noka_cheese_t( 'rs_c6' ) ); ?></td></tr></tbody></table></figure>
 <!-- /wp:table --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -165,7 +165,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-sq nk-sq--32 nk-sq--after"} -->
-<figure class="wp-block-image size-full nk-sq nk-sq--32 nk-sq--after"><img src="<?php echo noka_cheese_img( 'board-eight.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_b2' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-sq nk-sq--32 nk-sq--after"><img src="<?php echo noka_cheese_img( 'board-eight.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_b2' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

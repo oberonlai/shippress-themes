@@ -26,7 +26,7 @@
 <!-- wp:group {"className":"nk-cell nk-cell--photo","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-cell nk-cell--photo"><!-- wp:group {"className":"nk-photo-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-photo-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-pebble nk-pebble--a nk-pebble--head"} -->
-<figure class="wp-block-image size-full nk-pebble nk-pebble--a nk-pebble--head"><img src="<?php echo noka_cheese_img( 'styles-arrangement.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_head_s0' ) ); ?>" width="1024" height="1024"/></figure>
+<figure class="wp-block-image size-full nk-pebble nk-pebble--a nk-pebble--head"><img src="<?php echo noka_cheese_img( 'styles-arrangement.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_head_s0' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -38,7 +38,7 @@
 <div class="wp-block-group alignfull nk-row nk-row--catalogue"><!-- wp:group {"className":"nk-cell nk-cell--photo nk-sticky","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-cell nk-cell--photo nk-sticky"><!-- wp:group {"className":"nk-photo-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-photo-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-pebble nk-pebble--c"} -->
-<figure class="wp-block-image size-full nk-pebble nk-pebble--c"><img src="<?php echo noka_cheese_img( 'statement-wrap.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_statement' ) ); ?>" width="1024" height="1024"/></figure>
+<figure class="wp-block-image size-full nk-pebble nk-pebble--c"><img src="<?php echo noka_cheese_img( 'statement-wrap.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_statement' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -46,7 +46,7 @@
 <!-- wp:group {"className":"nk-cell nk-cell--text","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-cell nk-cell--text"><!-- wp:group {"className":"nk-entry","anchor":"fresh","layout":{"type":"default"}} -->
 <div id="fresh" class="wp-block-group nk-entry"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img nk-card__img--wide"} -->
-<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-fresh.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k1' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-fresh.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k1' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-eyebrow"} -->
@@ -102,7 +102,7 @@
 
 <!-- wp:group {"className":"nk-entry","anchor":"bloomy","layout":{"type":"default"}} -->
 <div id="bloomy" class="wp-block-group nk-entry"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img nk-card__img--wide"} -->
-<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-bloomy.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k2' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-bloomy.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k2' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-eyebrow"} -->
@@ -158,7 +158,7 @@
 
 <!-- wp:group {"className":"nk-entry","anchor":"washed-rind","layout":{"type":"default"}} -->
 <div id="washed-rind" class="wp-block-group nk-entry"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img nk-card__img--wide"} -->
-<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-washed.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k3' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-washed.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k3' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-eyebrow"} -->
@@ -214,7 +214,7 @@
 
 <!-- wp:group {"className":"nk-entry","anchor":"alpine","layout":{"type":"default"}} -->
 <div id="alpine" class="wp-block-group nk-entry"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img nk-card__img--wide"} -->
-<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-alpine.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k4' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-alpine.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k4' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-eyebrow"} -->
@@ -270,7 +270,7 @@
 
 <!-- wp:group {"className":"nk-entry","anchor":"blue","layout":{"type":"default"}} -->
 <div id="blue" class="wp-block-group nk-entry"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img nk-card__img--wide"} -->
-<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-blue.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k5' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-blue.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k5' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-eyebrow"} -->
@@ -326,7 +326,7 @@
 
 <!-- wp:group {"className":"nk-entry","anchor":"goat-sheep","layout":{"type":"default"}} -->
 <div id="goat-sheep" class="wp-block-group nk-entry"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-card__img nk-card__img--wide"} -->
-<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-goat.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k6' ) ); ?>" width="1200" height="800"/></figure>
+<figure class="wp-block-image size-full nk-card__img nk-card__img--wide"><img src="<?php echo noka_cheese_img( 'style-goat.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_k6' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"nk-eyebrow"} -->
