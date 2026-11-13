@@ -144,7 +144,9 @@ p:last-child { margin-bottom: 0; }
 /* ---------- night band ---------- */
 .kb-night { position: relative; background: var(--kb-espresso); color: var(--kb-paper); padding: 0; }
 .kb-night__bg { position: sticky; top: 0; z-index: 0; height: var(--kb-pin); margin: 0 0 calc(var(--kb-pin) * -1); }
-.kb-night__bg img { width: 100%; height: 100%; object-fit: cover; opacity: .38; }
+.kb-night__bg { background: var(--kb-espresso); }
+.kb-night__bg img { width: 100%; height: 100%; object-fit: cover; }
+.kb-night__bg::after { content: ""; position: absolute; inset: 0; background: rgba(29, 25, 21, .62); }
 .kb-night__in { position: relative; z-index: 1; width: 40%; min-width: 22rem; margin-left: 120px; padding: var(--kb-gap) 0; }
 .kb-night__word { margin: 0 0 2.5rem; font-size: var(--wp--preset--font-size--display-xl); font-weight: 300; line-height: 1; letter-spacing: -.05em; color: var(--kb-paper); }
 .kb-night__text p { font-size: 1.0625rem; line-height: 1.85; color: rgba(246, 243, 236, .92); margin-bottom: 1.6em; }
@@ -185,7 +187,7 @@ p:last-child { margin-bottom: 0; }
 .kb-chap__text { grid-column: 3; margin: 0; }
 @media (max-width: 1023px) { .kb-chap { grid-template-columns: 30% 6% minmax(0, 64%); } .kb-chap__time { font-size: 1.75rem; } }
 @media (max-width: 781px) {
-	.kb-fig { position: static; aspect-ratio: 2 / 1; max-height: none; }
+	.kb-fig { position: relative; top: auto; aspect-ratio: 2 / 1; max-height: none; }
 	.kb-chap { display: block; min-height: 0; padding: 1.5rem 0 2.5rem; }
 	.kb-chap__time { font-size: 2rem; }
 	.kb-chap__text { margin-top: 1rem; }

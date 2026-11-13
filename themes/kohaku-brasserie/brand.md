@@ -5,6 +5,7 @@ A city brasserie that keeps one room working from lunch through the late sitting
 ## Concept
 - **Name:** Kohaku Brasserie.
 - **Location:** 14 Arcade Row, Old Exchange Quarter, Lowmarket (a fictional city). Email bookings@kohaku-brasserie.example, phone +00 20 7000 0414. EUR (€) prices in every language, service included.
+- **Founded:** 2014.
 - **History:** opened in 2014 by Inès Marchetti (front of house) and Tomasz Lindqvist (head chef) as a single unhurried room that does not close between lunch and dinner. In 2019 eight counter seats were added at the pass, so guests can watch the plating.
 - **Today:** 64 seats in the main room, 8 counter seats at the pass, 8 bar seats, and the Lantern Room (14 seated / 20 standing) for groups.
 - **Audience:** neighbours and office colleagues who want a dependable set lunch, people who work or meet in the quiet afternoon hours, and couples and small groups for the late sitting.
