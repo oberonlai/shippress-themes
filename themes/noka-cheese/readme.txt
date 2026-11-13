@@ -28,7 +28,7 @@ The shop, its people, address, telephone number, makers and prices are fictional
 == Copyright ==
 
 Noka Cheese is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Albert Sans (OFL-1.1), Latin variable; Instrument Sans (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), zh-TW headings subset; all WOFF2, see assets/fonts/.
+Fonts: Albert Sans (OFL-1.1), Latin variable; Instrument Sans (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), zh-TW headings subset; Noto Sans JP (OFL-1.1), ja headings subset; all WOFF2, see assets/fonts/.
 
 = Images =
 
