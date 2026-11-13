@@ -39,7 +39,7 @@
 
 <!-- wp:group {"className":"nk-hero__stage","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-hero__stage"><!-- wp:html -->
-<svg class="nk-hero__glyph" viewBox="0 0 420 420" width="380" height="380" aria-hidden="true" focusable="false" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M40 350H320V210Z"/><path d="M320 210 380 140M40 350 100 280 380 140M320 350 380 280V140"/><circle cx="200" cy="316" r="14"/><circle cx="262" cy="336" r="8"/><circle cx="128" cy="338" r="8"/></svg>
+<svg class="nk-hero__glyph" viewBox="0 0 380 420" width="380" height="420" aria-hidden="true" focusable="false" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M40 190 320 40Q372 150 340 270Z"/><path d="M40 190V300L340 380V270"/><path d="M40 245 340 325"/><circle cx="150" cy="275" r="16"/><circle cx="250" cy="310" r="10"/><circle cx="95" cy="288" r="8"/></svg>
 <!-- /wp:html -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-pebble nk-pebble--a nk-hero__pebble sp-parallax"} -->
