@@ -410,3 +410,22 @@ a { text-underline-offset: .2em; }
 	.nk-main--list, .nk-main--single, .nk-shop, .nk-main:not(.nk-main--front) { padding: 64px var(--nk-g) 80px; }
 }
 @media (max-width: 781px) { .nk-card__name, .nk-h2 { hyphens: auto; } .nk-h2 { font-size: 2rem; } }
+
+/* Languages: zh-TW and ja use Noto Sans (sans, no mixed serif). Headings load the bundled subset; body copy uses system CJK sans. DE/FR hyphenate. */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Albert Sans", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Instrument Sans", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Albert Sans", "Noto Sans JP", "Noto Sans CJK JP", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+	--wp--preset--font-family--body: "Instrument Sans", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .nk-h1, .nk-h2, .nk-wordmark, .nk-quote) { line-height: 1.35; letter-spacing: .02em; }
+:is(:lang(zh), :lang(ja)) .nk-h1 { font-size: clamp(2.75rem, 5vw, 4.25rem); }
+:is(:lang(zh), :lang(ja)) .nk-h2 { font-size: clamp(1.75rem, 3vw, 2.25rem); }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) :is(.nk-eyebrow, .nk-card__milk, .nk-lang) { letter-spacing: .08em; text-transform: none; }
+:lang(ja) :is(.nk-h1, .nk-h2) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(body, .nk-h1, .nk-h2, .nk-card__name) { hyphens: auto; }
+:lang(de) .nk-h1 { font-size: clamp(2.5rem, 4.4vw, 3.75rem); overflow-wrap: anywhere; }
