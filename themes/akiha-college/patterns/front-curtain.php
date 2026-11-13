@@ -9,7 +9,7 @@
  */
 ?>
 <!-- wp:cover {"url":"<?php echo akiha_college_img( 'f1.webp' ); ?>","dimRatio":0,"minHeight":160,"minHeightUnit":"vh","isDark":false,"align":"full","className":"ak-curtain sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-cover alignfull is-light ak-curtain sp-parallax" style="min-height:160vh;--sp-par:12%"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo akiha_college_a( 'alt_f1' ); ?>" src="<?php echo akiha_college_img( 'f1.webp' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ak-curtain__col","layout":{"type":"default"}} -->
+<div class="wp-block-cover alignfull is-light ak-curtain sp-parallax" style="min-height:160vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo akiha_college_a( 'alt_f1' ); ?>" src="<?php echo akiha_college_img( 'f1.webp' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ak-curtain__col","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-curtain__col"><!-- wp:group {"className":"ak-panel ak-panel--a","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-panel ak-panel--a"><!-- wp:paragraph {"className":"ak-label"} -->
 <p class="ak-label"><?php echo esc_html( akiha_college_t( 'lbl_site' ) ); ?></p>

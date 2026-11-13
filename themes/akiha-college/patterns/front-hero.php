@@ -27,6 +27,6 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ak-hero__window sp-parallax"} -->
-<figure class="wp-block-image size-full ak-hero__window sp-parallax" style="--sp-par:8%"><img src="<?php echo akiha_college_img( 'h01.webp' ); ?>" alt="<?php echo akiha_college_a( 'alt_h01' ); ?>" loading="eager" fetchpriority="high"/></figure>
+<figure class="wp-block-image size-full ak-hero__window sp-parallax"><img src="<?php echo akiha_college_img( 'h01.webp' ); ?>" alt="<?php echo akiha_college_a( 'alt_h01' ); ?>"/></figure>
 <!-- /wp:image --></section>
 <!-- /wp:group -->

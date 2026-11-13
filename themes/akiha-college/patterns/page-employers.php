@@ -15,7 +15,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ak-pagewin"} -->
-<figure class="wp-block-image size-full ak-pagewin"><img src="<?php echo akiha_college_img( 'e1.webp' ); ?>" alt="<?php echo akiha_college_a( 'alt_e1' ); ?>" loading="eager" fetchpriority="high"/></figure>
+<figure class="wp-block-image size-full ak-pagewin"><img src="<?php echo akiha_college_img( 'e1.webp' ); ?>" alt="<?php echo akiha_college_a( 'alt_e1' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"ak-sec ak-rail ak-rail--inner ak-rail--emp ak-rail--emppage","layout":{"type":"default"}} -->
@@ -55,7 +55,7 @@
 <!-- /wp:group -->
 
 <!-- wp:cover {"url":"<?php echo akiha_college_img( 'o1.webp' ); ?>","dimRatio":0,"minHeight":110,"minHeightUnit":"vh","isDark":false,"align":"full","className":"ak-curtain ak-curtain--page sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-cover alignfull is-light ak-curtain ak-curtain--page sp-parallax" style="min-height:110vh;--sp-par:12%"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo akiha_college_a( 'alt_o1' ); ?>" src="<?php echo akiha_college_img( 'o1.webp' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ak-curtain__col","layout":{"type":"default"}} -->
+<div class="wp-block-cover alignfull is-light ak-curtain ak-curtain--page sp-parallax" style="min-height:110vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo akiha_college_a( 'alt_o1' ); ?>" src="<?php echo akiha_college_img( 'o1.webp' ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"ak-curtain__col","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-curtain__col"><!-- wp:group {"className":"ak-panel ak-panel--a","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-panel ak-panel--a"><!-- wp:paragraph {"className":"ak-label"} -->
 <p class="ak-label"><?php echo esc_html( akiha_college_t( 'lbl_trial' ) ); ?></p>

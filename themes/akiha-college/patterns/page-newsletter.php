@@ -15,7 +15,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ak-pagewin"} -->
-<figure class="wp-block-image size-full ak-pagewin"><img src="<?php echo akiha_college_img( 'j3.webp' ); ?>" alt="<?php echo akiha_college_a( 'alt_post3' ); ?>" loading="eager" fetchpriority="high"/></figure>
+<figure class="wp-block-image size-full ak-pagewin"><img src="<?php echo akiha_college_img( 'j3.webp' ); ?>" alt="<?php echo akiha_college_a( 'alt_post3' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"ak-sec ak-rail ak-rail--inner ak-rail--newsletter","layout":{"type":"default"}} -->
