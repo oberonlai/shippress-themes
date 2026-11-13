@@ -50,3 +50,10 @@ All photographs are AI-generated for this theme and licensed GPL-2.0-or-later / 
 - assets/images/case-fish.webp (case 02); GPL-2.0-or-later / CC0
 - assets/images/case-dough.webp (case 03); GPL-2.0-or-later / CC0
 - assets/images/enquiry.webp (capacity enquiry block); GPL-2.0-or-later / CC0
+- assets/images/demo/post-log.webp (copy of the frozen pallets photograph imported as a journal entry image); GPL-2.0-or-later / CC0
+- assets/images/demo/post-offer.webp (copy of the planner photograph imported as a journal entry image); GPL-2.0-or-later / CC0
+- assets/images/demo/post-room12.webp (copy of the deep-frozen boxes photograph imported as a journal entry image); GPL-2.0-or-later / CC0
+
+== Copyright ==
+
+Koori Cold Stores WordPress theme, (C) 2026 ShipPress. Distributed under the terms of the GNU GPL v2 or later. Photographs in assets/images are AI-generated for this theme and released under GPL-2.0-or-later / CC0. Bundled fonts are under the SIL Open Font License 1.1 (see assets/fonts/OFL-*.txt).
