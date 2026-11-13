@@ -3,6 +3,7 @@ Contributors: shippress
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 7.4
+Stable tag: 1.0.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,3 +49,7 @@ Photographs (assets/images/, with a copy in assets/images/demo/ that the importe
 
 Files: assets/images/board-eight.webp, assets/images/board-four.webp, assets/images/board-two.webp, assets/images/cellar-brushing.webp, assets/images/choose-taste.webp, assets/images/counter-band.webp, assets/images/farm-goats.webp, assets/images/hero-wire-cut.webp, assets/images/noa-cellar.webp, assets/images/statement-wrap.webp, assets/images/style-alpine.webp, assets/images/style-bloomy.webp, assets/images/style-blue.webp, assets/images/style-fresh.webp, assets/images/style-goat.webp, assets/images/style-washed.webp, assets/images/styles-arrangement.webp, assets/images/tasting-table.webp (all under GPL-2.0-or-later / CC0 as above).
 Demo copies: assets/images/demo/board-eight.webp, assets/images/demo/board-four.webp, assets/images/demo/board-two.webp, assets/images/demo/cellar-brushing.webp, assets/images/demo/choose-taste.webp, assets/images/demo/counter-band.webp, assets/images/demo/farm-goats.webp, assets/images/demo/hero-wire-cut.webp, assets/images/demo/noa-cellar.webp, assets/images/demo/statement-wrap.webp, assets/images/demo/style-alpine.webp, assets/images/demo/style-bloomy.webp, assets/images/demo/style-blue.webp, assets/images/demo/style-fresh.webp, assets/images/demo/style-goat.webp, assets/images/demo/style-washed.webp, assets/images/demo/styles-arrangement.webp, assets/images/demo/tasting-table.webp (same photographs, same license).
+
+== Changelog ==
+= 1.0.0 =
+* First release: home, twelve inner pages, a journal article, WooCommerce styling, newsletter and contact form slots.

@@ -72,4 +72,15 @@ No certifications, awards, health claims or real brands.
 4. Blur-to-focus first screen (supporting).
 
 ## Pages
-Home, Cheeses, Boards, How we cut, Tastings, Cellar, Makers, About, Visit (contact), Counter letter (newsletter), Journal, Privacy, Terms; shop, product, cart, checkout and account with WooCommerce.
+Home, Cheeses, Boards, How we cut, Tastings, Cellar, Makers, About, Visit (contact), Counter letter (newsletter), Journal (posts page), Privacy, Terms, plus one journal article; shop, product, cart, checkout and account with WooCommerce.
+- Cheeses: spec catalogue of the six styles (milk and rind, what is on the counter now, price per 100 g) beside a sticky pebble photograph; closes with the arch band.
+- Boards: the three boards, wedges and the cheese of the month, how reserving works, the full price list (full width, stacked on phones) and a note form for tables of more than eight; arch band.
+- How we cut: taste, cut, wrap in three dotted-rule rows.
+- Tastings: Saturday sittings at 10:30 and 15:00, how to book, what is on the table; arch band.
+- Cellar: 11 °C and 92 % humidity, Elif's routine, wheels finished in the shop's cellar.
+- Makers: four fictional makers with two paragraphs each.
+- About: since 2014, a parallax counter photograph, the seven people, a day at the counter; arch band.
+- Visit: address, hours, directions, pickup, contact form slot (email button when no form plugin); arch band with a call button.
+- Counter letter: monthly newsletter page with an email field that works with or without a plugin (without one it opens the email app and says the person is not subscribed yet).
+- Privacy and Terms: legal text on dotted rules.
+- Every content page starts with an eyebrow, the title and a double-rim pebble photograph; the three dotted guides run behind every page.
