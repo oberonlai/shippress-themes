@@ -24,9 +24,9 @@ Tags: e-commerce, block-patterns, full-site-editing, blog, custom-colors, editor
 	--nk-mist: var(--wp--preset--color--mist);
 	--nk-g: 10.3vw;
 	--nk-text-pad: 5.1vw;
-	--nk-pebble-a: 58% 42% 47% 53% / 52% 46% 54% 48%;
-	--nk-pebble-b: 46% 54% 41% 59% / 57% 49% 51% 43%;
-	--nk-pebble-c: 52% 48% 60% 40% / 44% 58% 42% 56%;
+	--nk-pebble-a: 46% 54% 38% 62% / 48% 36% 64% 52%;
+	--nk-pebble-b: 56% 44% 50% 50% / 38% 56% 44% 62%;
+	--nk-pebble-c: 40% 60% 58% 42% / 54% 42% 58% 46%;
 	--nk-ease: cubic-bezier(.22, 1, .36, 1);
 	--sp-dist: 24px;
 	--sp-dur: .8s;
@@ -53,7 +53,9 @@ Tags: e-commerce, block-patterns, full-site-editing, blog, custom-colors, editor
 	min-height: 100vh;
 }
 .wp-site-blocks > * { margin-block: 0; }
-.wp-site-blocks .nk-main, .wp-site-blocks .nk-main > * { margin-block: 0; }
+.wp-site-blocks .nk-main, .wp-site-blocks .nk-main > *, .nk-main--front .wp-block-post-content > * { margin-block: 0; }
+.nk-table thead { border: 0; }
+.nk-sec > *, .nk-footer > * { margin-block: 0; }
 body { -webkit-font-smoothing: antialiased; }
 .nk-main--list, .nk-main--single, .nk-shop, .nk-main:not(.nk-main--front) { padding: 96px var(--nk-g) 120px; }
 a { text-underline-offset: .2em; }
@@ -61,7 +63,7 @@ a { text-underline-offset: .2em; }
 /* header */
 .nk-head-part { position: sticky; top: 0; z-index: 50; background: rgba(221, 227, 211, .94); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
 .nk-bar { padding: 0; }
-.nk-bar .nk-bar__in { position: relative; max-width: none; margin-inline: var(--nk-g); height: 88px; gap: 24px; }
+.nk-bar .nk-bar__in { position: relative; max-width: none !important; margin-inline: var(--nk-g) !important; height: 88px; gap: 24px; }
 .nk-glyph { display: inline-flex; width: 50px; flex: none; }
 .nk-glyph svg { display: block; }
 .nk-glyph svg path { stroke: var(--nk-ink); }
@@ -85,11 +87,11 @@ a { text-underline-offset: .2em; }
 	.nk-nav .wp-block-navigation__responsive-container.is-menu-open { background: var(--nk-ground); color: var(--nk-ink); font-size: 1.5rem; }
 	.nk-nav .wp-block-navigation__container { flex-wrap: wrap; gap: 14px; }
 	.nk-nav .wp-block-navigation__container > li:nth-child(5) { margin-left: 0; }
-	.nk-bar .nk-bar__in { margin-inline: 6vw; height: 72px; }
+	.nk-bar .nk-bar__in { margin-inline: 6vw !important; height: 72px; }
 }
 @media (max-width: 781px) {
 	.nk-brand { font-size: 1.125rem; }
-	.nk-head-cta { display: none; }
+	.nk-bar .nk-head-cta { display: none; }
 }
 
 /* buttons: white pills (RT(d): 2 px border, radius 24.8, height 49.6) */
@@ -110,7 +112,7 @@ a { text-underline-offset: .2em; }
 @media (max-width: 1023px) { .nk-vpill { display: none; } }
 
 /* grid rows on the guides: left cell starts on the 10.3% guide, right text at x 794 (RT(c)) */
-.nk-sec .nk-row, .nk-hero .nk-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; max-width: none; margin-inline: var(--nk-g); }
+.nk-sec .nk-row, .nk-hero .nk-row, .nk-footer .nk-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; max-width: none; margin-inline: var(--nk-g); }
 .nk-row > .nk-cell { margin: 0; min-width: 0; }
 .nk-row > .nk-cell:nth-child(2).nk-cell--text { padding-left: var(--nk-text-pad); max-width: calc(var(--nk-text-pad) + 447px); }
 .nk-row > .nk-cell:nth-child(2).nk-cell--photo { padding-left: 4.9vw; }
@@ -144,6 +146,7 @@ a { text-underline-offset: .2em; }
 .nk-hero .nk-row--hero { min-height: calc(100vh - 88px); max-height: none; padding-bottom: 80px; box-sizing: border-box; }
 .nk-hero__text { padding: 120px 11.1vw 0 0; display: flex; flex-direction: column; align-items: flex-end; text-align: right; }
 .nk-hero__text > * { margin-block: 0; }
+.nk-hero__text .nk-lead { margin: 40px 0 36px; }
 .nk-hero__text .nk-eyebrow { align-self: flex-start; text-align: left; margin-bottom: 0; }
 .nk-h1 { margin: 80px 0 0; font-size: var(--wp--preset--font-size--hero); font-weight: 600; line-height: 1.0; letter-spacing: -.01em; }
 .nk-hero__text .nk-lead { margin-left: auto; }
@@ -178,9 +181,9 @@ a { text-underline-offset: .2em; }
 /* counter band: parallax cover */
 .nk-band { --sp-par: 10%; min-height: 600px; align-items: flex-end; padding: 0; }
 .nk-band .wp-block-cover__inner-container { width: 100%; padding: 0 var(--nk-g) 56px; box-sizing: border-box; }
-.nk-panel { width: 447px; max-width: 100%; box-sizing: border-box; padding: 40px; background: var(--nk-paper); border-radius: 24.8px; }
+.nk-panel { color: var(--nk-ink); width: 447px; max-width: 100%; box-sizing: border-box; padding: 40px; background: var(--nk-paper); border-radius: 24.8px; }
 .nk-panel > * { margin-block: 0; }
-.nk-panel__line { margin-top: 4px; font-size: 1.5rem; font-weight: 500; line-height: 1.4; }
+.nk-panel__line { color: var(--nk-ink); margin-top: 4px; font-size: 1.5rem; font-weight: 500; line-height: 1.4; }
 .nk-panel__hours { margin-top: 16px; font-size: var(--wp--preset--font-size--s); color: var(--nk-muted); }
 .nk-band .wp-block-cover__background { display: none; }
 
@@ -276,7 +279,7 @@ a { text-underline-offset: .2em; }
 @media (max-width: 781px) {
 	:root { --nk-g: 6vw; }
 	.wp-site-blocks { background-position: 6% 0, 50% 0, 94% 0; }
-	.nk-sec .nk-row, .nk-hero .nk-row { grid-template-columns: minmax(0, 1fr); row-gap: 40px; }
+	.nk-sec .nk-row, .nk-hero .nk-row, .nk-footer .nk-row { grid-template-columns: minmax(0, 1fr); row-gap: 40px; }
 	.nk-row > .nk-cell:nth-child(2).nk-cell--text, .nk-row > .nk-cell:nth-child(2).nk-cell--photo, .nk-row > .nk-cell:nth-child(2).nk-cell--form { padding-left: 0; max-width: none; }
 	.nk-sticky, .nk-sticky--styles { position: static; }
 	.nk-pebble { width: 300px; max-width: 100%; box-shadow: 10px 9px 0 0 var(--nk-rind); }
@@ -295,7 +298,7 @@ a { text-underline-offset: .2em; }
 	.nk-hero__text .nk-lead { margin-left: 0; max-width: none; font-size: 1rem; line-height: 1.85; }
 	.nk-h1, .nk-hero .nk-h1 { margin-top: 28px; font-size: 3rem; line-height: 1.02; }
 	.nk-hero__stage { padding: 40px 0 0; display: flex; justify-content: center; }
-	.nk-hero__glyph { left: 50%; top: 0; width: 220px; transform: translateX(-190px); }
+	.nk-hero__glyph { left: 50%; top: 4px; width: 200px; transform: translateX(-190px); }
 	.nk-hero__stage .nk-hero__pebble { margin-left: 0; }
 	.nk-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 16px; row-gap: 36px; }
 	.nk-card__name { font-size: .9375rem; }
