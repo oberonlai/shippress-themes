@@ -1,0 +1,34 @@
+=== Noka Cheese ===
+Contributors: shippress
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Noka Cheese is an independent cheese shop founded in 2014 at Old Dairy Yard, Brookmere, with one counter and a small ageing cellar under it. This is its WordPress store theme: about sixty cheeses in six styles, boards for pickup and Saturday tastings, with the same people, prices and hours throughout. Boards are reserved by 18:00 the day before and collected from 11:00. Pickup only.
+
+== Description ==
+
+A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). See README.md for the design notes, templates and patterns.
+
+== Installation ==
+
+1. Download noka-cheese.zip from https://github.com/oberonlai/shippress-themes/releases/download/themes/noka-cheese.zip
+2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
+3. Activate Noka Cheese.
+
+On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates its pages with all their text and images, journal entries with a category and tags, the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
+
+Forms: the counter letter section uses a small dynamic block (inc/shippress-forms.php). With MailPoet or Mailchimp for WP configured it shows that form; without a plugin it shows a real email field and a button that opens your email app with the address (nothing is subscribed until the email is sent). Contact pages use Contact Form 7 or WPForms when present, else an email button.
+
+The shop, its people, address, telephone number, makers and prices are fictional.
+
+== Copyright ==
+
+Noka Cheese is distributed under the terms of the GNU GPL v2 or later.
+Fonts: Albert Sans (OFL-1.1), Latin variable; Instrument Sans (OFL-1.1), Latin variable; all WOFF2, see assets/fonts/.
+
+= Images =
+
+Images: AI-generated for this theme with Grok Build image_gen as high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the shop is fictional). No transparent cut-outs are used. See assets/images/.
