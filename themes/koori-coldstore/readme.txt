@@ -12,7 +12,7 @@ Koori Cold Stores is a regional cold-storage operator at Northmere Port. A shipp
 
 A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). See README.md for the design notes, templates and patterns.
 
-Fonts: Schibsted Grotesk (headings) and Onest (reading text), both under the SIL Open Font License 1.1.
+Fonts: Schibsted Grotesk (headings) and Onest (reading text), both under the SIL Open Font License 1.1. Chinese headings use a Noto Sans TC subset (OFL 1.1).
 
 == Installation ==
 
