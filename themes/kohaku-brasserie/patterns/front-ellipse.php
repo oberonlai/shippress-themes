@@ -20,21 +20,21 @@
 
 <!-- wp:group {"className":"kb-ellipse__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-ellipse__in"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(the room)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'k34c46f6a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kb-ellipse__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kb-ellipse__h sp-reveal sp-reveal--up">A city brasserie built around one room, working through every hour of the day.</h2>
+<h2 class="wp-block-heading kb-ellipse__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'k77be6d50' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kb-ellipse__p sp-reveal sp-reveal--up"} -->
-<p class="kb-ellipse__p sp-reveal sp-reveal--up">We believe hospitality is best sustained when a dining room never feels hurried or shut. Inès Marchetti and Tomasz Lindqvist founded Kohaku in 2014 to give Lowmarket a dependable table from midday until midnight. Whether you arrive for an unhurried lunch, an afternoon meeting over small plates, or a late supper at the counter, the room remains steady, generous, and attentive to every guest.</p>
+<p class="kb-ellipse__p sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'k2769240a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-ellipse__pw","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-ellipse__pw"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-ellipse__photo sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full kb-ellipse__photo sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h05' ); ?>" alt="Overhead view of roasted fish with brown butter served on a dark stoneware plate."/></figure>
+<figure class="wp-block-image size-full kb-ellipse__photo sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h05' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'a00cc7816' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

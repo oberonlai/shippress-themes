@@ -11,28 +11,28 @@
 <section class="wp-block-group alignfull kb-sec kb-menus"><!-- wp:group {"className":"kb-menus__head","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-menus__head"><!-- wp:group {"className":"kb-menus__intro sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-menus__intro sp-stagger"><!-- wp:paragraph {"className":"kb-label sp-reveal sp-reveal--up"} -->
-<p class="kb-label sp-reveal sp-reveal--up">(the menus)</p>
+<p class="kb-label sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'k8db7c88f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kb-menus__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kb-menus__h sp-reveal sp-reveal--up">Menus &amp; Prices</h2>
+<h2 class="wp-block-heading kb-menus__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'k5aaacec1' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Our kitchen prepares seasonal menus across four services each day, with all prices in euros including service.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'kb986f853' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-menus__photo sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full kb-menus__photo sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h10' ); ?>" alt="Plated dishes line the kitchen pass beneath warm overhead lamps and an order rail."/></figure>
+<figure class="wp-block-image size-full kb-menus__photo sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h10' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'a6be52179' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:table {"className":"kb-ledger","hasFixedLayout":false} -->
-<figure class="wp-block-table kb-ledger"><table><tbody><tr><td>Set lunch, two courses</td><td>Two courses served during midday lunch service from 11:30 to 14:30.</td><td>€28</td></tr><tr><td>Set lunch, three courses</td><td>Three courses served during midday lunch service from 11:30 to 14:30.</td><td>€34</td></tr><tr><td>Afternoon plate</td><td>Served during the quiet afternoon hours from 14:30 to 18:00 without reservation.</td><td>€16</td></tr><tr><td>Dinner à la carte</td><td>Seasonal à la carte mains served during dinner service from 18:00 to 22:00.</td><td>mains from €24</td></tr><tr><td>Late-sitting menu, three courses</td><td>Three courses served during the late sitting from 22:00 to 00:00, with last kitchen orders at 23:15.</td><td>€52</td></tr><tr><td>Counter menu at the pass, six courses</td><td>Six courses served at the eight counter seats directly overlooking the kitchen pass.</td><td>€78</td></tr></tbody></table></figure>
+<figure class="wp-block-table kb-ledger"><table><tbody><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kd6b97b02' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'k9f15cd04' ) ); ?></td><td>€28</td></tr><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kebe4e840' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'ke9e7b0e1' ) ); ?></td><td>€34</td></tr><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'ka0a90b90' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kcf0ea931' ) ); ?></td><td>€16</td></tr><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'k6a73a878' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kd27d59e2' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kc9961bcb' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'k91588900' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'k21223d75' ) ); ?></td><td>€52</td></tr><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kbe6f014d' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'k5d3f1a4c' ) ); ?></td><td>€78</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph {"className":"kb-arrowlink"} -->
-<p class="kb-arrowlink"><a href="/menus/">View all menus →</a></p>
+<p class="kb-arrowlink"><a href="/menus/"><?php echo wp_kses_post( kohaku_brasserie_t( 'k75300973' ) ); ?></a></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

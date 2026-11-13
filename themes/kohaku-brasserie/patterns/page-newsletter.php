@@ -10,7 +10,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-hero kb-phero sp-parallax kb-phero--plain","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-hero kb-phero sp-parallax kb-phero--plain"><!-- wp:group {"className":"kb-hero__bg sp-parallax__layer","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-hero__bg sp-parallax__layer"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-phero__img"} -->
-<figure class="wp-block-image size-full kb-phero__img"><img src="<?php echo kohaku_brasserie_img( 'h03' ); ?>" alt="A single coffee cup and an open book rest on an afternoon dining table."/></figure>
+<figure class="wp-block-image size-full kb-phero__img"><img src="<?php echo kohaku_brasserie_img( 'h03' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'a576f6601' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -20,11 +20,11 @@
 
 <!-- wp:group {"className":"kb-hero__copy kb-phero__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-hero__copy kb-phero__copy"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(the Monday letter)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'k2f9ce1df' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"kb-hero__h1 kb-phero__h1"} -->
-<h1 class="wp-block-heading kb-hero__h1 kb-phero__h1">The Monday letter</h1>
+<h1 class="wp-block-heading kb-hero__h1 kb-phero__h1"><?php echo wp_kses_post( kohaku_brasserie_t( 'k89a0f181' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -32,11 +32,11 @@
 <!-- wp:group {"tagName":"section","className":"kb-sec kb-intro","layout":{"type":"default"}} -->
 <section class="wp-block-group kb-sec kb-intro"><!-- wp:group {"className":"kb-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-wrap"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(one email each Monday)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'k1a37a189' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-intro__p sp-reveal sp-reveal--up"} -->
-<p class="kb-intro__p sp-reveal sp-reveal--up">The Monday letter is a weekly note published every Monday morning. It provides our regulars with an unhurried look at upcoming seasonal plates, cellar additions, and music for the week ahead.</p>
+<p class="kb-intro__p sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'kea247dfe' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -44,11 +44,11 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-sec kb-formsec","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-sec kb-formsec"><!-- wp:group {"className":"kb-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-wrap"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(subscribe)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'ke013745d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-formsec__lead"} -->
-<p class="kb-formsec__lead">Leave your address and we will open an email to us with your request.</p>
+<p class="kb-formsec__lead"><?php echo wp_kses_post( kohaku_brasserie_t( 'k09fdfc3d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kb-page__form","layout":{"type":"default"}} -->
@@ -60,19 +60,19 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-sec kb-rows","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-sec kb-rows"><!-- wp:group {"className":"kb-rows__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-rows__in"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(about the letter)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'k57a7617e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kb-chap sp-reveal sp-reveal--up kb-chap--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap sp-reveal sp-reveal--up kb-chap--plain"><!-- wp:group {"className":"kb-chap__when","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__when"><!-- wp:heading {"level":2,"className":"kb-chap__h"} -->
-<h2 class="wp-block-heading kb-chap__h">The Monday letter publication schedule</h2>
+<h2 class="wp-block-heading kb-chap__h"><?php echo wp_kses_post( kohaku_brasserie_t( 'k22e037f0' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-chap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__text"><!-- wp:paragraph -->
-<p>At Kohaku Brasserie, we believe communication should be as deliberate and thoughtful as our cooking. The Monday letter is sent once every Monday morning, directly to your inbox before our weekly service begins on Tuesday at 11:30. We never flood your inbox with daily promotions, marketing campaigns, or third-party announcements. Instead, it serves as a single quiet dispatch that shares what is inspiring our kitchen and dining room as the new week gets underway.</p>
+<p><?php echo wp_kses_post( kohaku_brasserie_t( 'k69e430f7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -80,13 +80,13 @@
 <!-- wp:group {"className":"kb-chap sp-reveal sp-reveal--up kb-chap--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap sp-reveal sp-reveal--up kb-chap--plain"><!-- wp:group {"className":"kb-chap__when","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__when"><!-- wp:heading {"level":2,"className":"kb-chap__h"} -->
-<h2 class="wp-block-heading kb-chap__h">What will you find inside each letter?</h2>
+<h2 class="wp-block-heading kb-chap__h"><?php echo wp_kses_post( kohaku_brasserie_t( 'ka2c2646a' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-chap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__text"><!-- wp:paragraph -->
-<p>Each Monday letter previews next week's afternoon plates served during the quiet hours from 14:30 to 18:00 for €16, curated by Tomasz Lindqvist and Kenji Albrecht-Mori. You will also discover the musical selections chosen by Daniel Okafor for the late sitting between 22:00 and midnight, along with notes on newly uncorked wines by the glass starting from €7 selected by Lucía Ferreira. It offers an authentic window into our craft, helping you plan your next visit.</p>
+<p><?php echo wp_kses_post( kohaku_brasserie_t( 'k73a42b5e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -94,13 +94,13 @@
 <!-- wp:group {"className":"kb-chap sp-reveal sp-reveal--up kb-chap--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap sp-reveal sp-reveal--up kb-chap--plain"><!-- wp:group {"className":"kb-chap__when","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__when"><!-- wp:heading {"level":2,"className":"kb-chap__h"} -->
-<h2 class="wp-block-heading kb-chap__h">How do you subscribe or manage your preferences?</h2>
+<h2 class="wp-block-heading kb-chap__h"><?php echo wp_kses_post( kohaku_brasserie_t( 'k48ea5a0b' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-chap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__text"><!-- wp:paragraph -->
-<p>To subscribe, simply enter your email address into the form below. When you submit your request, your email client will prepare a direct subscription note addressed to bookings@kohaku-brasserie.example. We handle your contact details with care and confidentiality, never sharing them with external services. Every issue includes a simple, immediate option to unsubscribe, or you can email Hana Novak at any time to remove your address from our mailing list.</p>
+<p><?php echo wp_kses_post( kohaku_brasserie_t( 'k74a70d73' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

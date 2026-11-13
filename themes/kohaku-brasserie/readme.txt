@@ -27,7 +27,7 @@ The brasserie, its people, its address, telephone number and prices are fictiona
 == Copyright ==
 
 Kohaku Brasserie is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Fraunces (OFL-1.1), Latin variable; Literata (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Fraunces (OFL-1.1), Latin variable; Literata (OFL-1.1), Latin variable; Noto Serif TC and Noto Serif JP (OFL-1.1), subset headings for Traditional Chinese and Japanese; all WOFF2, see assets/fonts/.
 Photographs were generated with AI for this theme and are distributed under the same GPL v2 or later license:
 - assets/images/h01.webp (home hero, slide 1; AI-generated photograph made for this theme, GPL-2.0-or-later)
 - assets/images/h02.webp (home hero, slide 2; AI-generated photograph made for this theme, GPL-2.0-or-later)

@@ -10,7 +10,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-hero kb-phero sp-parallax","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-hero kb-phero sp-parallax"><!-- wp:group {"className":"kb-hero__bg sp-parallax__layer","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-hero__bg sp-parallax__layer"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-phero__img"} -->
-<figure class="wp-block-image size-full kb-phero__img"><img src="<?php echo kohaku_brasserie_img( 'h02' ); ?>" alt="Daylight from a tall window falls on two lunch plates and sliced bread at the corner table."/></figure>
+<figure class="wp-block-image size-full kb-phero__img"><img src="<?php echo kohaku_brasserie_img( 'h02' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'a579746ee' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -20,29 +20,29 @@
 
 <!-- wp:group {"className":"kb-hero__copy kb-phero__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-hero__copy kb-phero__copy"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(the service day)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'k735c8e41' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"kb-hero__h1 kb-phero__h1"} -->
-<h1 class="wp-block-heading kb-hero__h1 kb-phero__h1">The Day</h1>
+<h1 class="wp-block-heading kb-hero__h1 kb-phero__h1"><?php echo wp_kses_post( kohaku_brasserie_t( 'k7f4271ad' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-hero__line","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-hero__line"><!-- wp:paragraph {"className":"kb-stamp kb-at-12"} -->
-<p class="kb-stamp kb-at-12">11:30 <span class="kb-stamp__w">lunch</span></p>
+<p class="kb-stamp kb-at-12">11:30 <span class="kb-stamp__w"><?php echo wp_kses_post( kohaku_brasserie_t( 'kbba63abc' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-stamp kb-at-37"} -->
-<p class="kb-stamp kb-at-37">14:30 <span class="kb-stamp__w">quiet hours</span></p>
+<p class="kb-stamp kb-at-37">14:30 <span class="kb-stamp__w"><?php echo wp_kses_post( kohaku_brasserie_t( 'k369da4f9' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-stamp kb-at-63"} -->
-<p class="kb-stamp kb-at-63">18:00 <span class="kb-stamp__w">dinner</span></p>
+<p class="kb-stamp kb-at-63">18:00 <span class="kb-stamp__w"><?php echo wp_kses_post( kohaku_brasserie_t( 'kad5acdfa' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-stamp kb-at-88"} -->
-<p class="kb-stamp kb-at-88">22:00 <span class="kb-stamp__w">late sitting</span></p>
+<p class="kb-stamp kb-at-88">22:00 <span class="kb-stamp__w"><?php echo wp_kses_post( kohaku_brasserie_t( 'k259c6c00' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kb-phero__disc kb-at-12","layout":{"type":"default"}} -->
@@ -54,11 +54,11 @@
 <!-- wp:group {"tagName":"section","className":"kb-sec kb-intro","layout":{"type":"default"}} -->
 <section class="wp-block-group kb-sec kb-intro"><!-- wp:group {"className":"kb-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-wrap"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(one room, four sittings)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'k5bc3f3ac' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-intro__p sp-reveal sp-reveal--up"} -->
-<p class="kb-intro__p sp-reveal sp-reveal--up">A single service day at Kohaku Brasserie unfolds across four continuous chapters from morning to midnight. The room adapts naturally as the daylight recedes, altering light, music, and table settings to suit each hour.</p>
+<p class="kb-intro__p sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'k3823fe8d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -66,14 +66,14 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-sec kb-day kb-day--page","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-sec kb-day kb-day--page"><!-- wp:group {"className":"kb-day__head","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-day__head"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(the chapters)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'k3ff475c6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-day__stack","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-day__stack"><!-- wp:group {"className":"kb-fig kb-fig--1","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-fig kb-fig--1"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-fig__img"} -->
-<figure class="wp-block-image size-full kb-fig__img"><img src="<?php echo kohaku_brasserie_img( 'h06' ); ?>" alt="Server hands place warm ceramic plates across a full wooden table during lunch service."/></figure>
+<figure class="wp-block-image size-full kb-fig__img"><img src="<?php echo kohaku_brasserie_img( 'h06' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'a00393822' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kb-fig__count"} -->
@@ -88,24 +88,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-chap__name"} -->
-<p class="kb-chap__name">(Lunch)</p>
+<p class="kb-chap__name"><?php echo wp_kses_post( kohaku_brasserie_t( 'k58da7919' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-chap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__text"><!-- wp:heading {"level":2,"className":"kb-chap__h"} -->
-<h2 class="wp-block-heading kb-chap__h">Lunch service (11:30–14:30)</h2>
+<h2 class="wp-block-heading kb-chap__h"><?php echo wp_kses_post( kohaku_brasserie_t( 'kc01d19f3' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>The service day begins at 11:30 as morning light filters through the tall windows onto fresh white linen. Lunch caters to business colleagues, solitary readers, and neighborhood gatherings looking for a structured midday meal. Guests select between our two-course lunch for €28 or three-course lunch for €34, served with prompt efficiency from the kitchen pass. Bread arrives warm at the table, water is poured without hesitation, and the room hums with conversational energy until orders wrap at 14:30, leaving the floor ready for the quieter hours of the afternoon.</p>
+<p><?php echo wp_kses_post( kohaku_brasserie_t( 'k986f6960' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-fig kb-fig--2","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-fig kb-fig--2"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-fig__img"} -->
-<figure class="wp-block-image size-full kb-fig__img"><img src="<?php echo kohaku_brasserie_img( 'h07' ); ?>" alt="A waiter folds white cloth napkins at an empty table in afternoon light."/></figure>
+<figure class="wp-block-image size-full kb-fig__img"><img src="<?php echo kohaku_brasserie_img( 'h07' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'a0f2a1549' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kb-fig__count"} -->
@@ -120,24 +120,24 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-chap__name"} -->
-<p class="kb-chap__name">(The quiet hours)</p>
+<p class="kb-chap__name"><?php echo wp_kses_post( kohaku_brasserie_t( 'k5f9e6e1d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-chap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__text"><!-- wp:heading {"level":2,"className":"kb-chap__h"} -->
-<h2 class="wp-block-heading kb-chap__h">The quiet hours (14:30–18:00)</h2>
+<h2 class="wp-block-heading kb-chap__h"><?php echo wp_kses_post( kohaku_brasserie_t( 'k52a2e75e' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Between 14:30 and 18:00, Kohaku Brasserie does not close its doors. Instead, the tempo slows deliberately. Table linen is cleared from bare wooden tops, the music softens, and long afternoon sunlight cuts across the room. We offer our afternoon plate for €16, alongside freshly brewed coffee, tea, and warm pastries. No reservations are needed for parties of four or fewer; guests drop in to read, hold quiet conversations, or write at corner tables, finding a calm haven in the city center when most restaurant dining rooms are locked.</p>
+<p><?php echo wp_kses_post( kohaku_brasserie_t( 'k02887c55' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-fig kb-fig--3","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-fig kb-fig--3"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-fig__img"} -->
-<figure class="wp-block-image size-full kb-fig__img"><img src="<?php echo kohaku_brasserie_img( 'h08' ); ?>" alt="Two dining guests hold wine glasses beside a flickering candle and a dessert plate."/></figure>
+<figure class="wp-block-image size-full kb-fig__img"><img src="<?php echo kohaku_brasserie_img( 'h08' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'a53cced02' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kb-fig__count"} -->
@@ -152,17 +152,17 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-chap__name"} -->
-<p class="kb-chap__name">(Dinner and the late sitting)</p>
+<p class="kb-chap__name"><?php echo wp_kses_post( kohaku_brasserie_t( 'ke6cc7048' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-chap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__text"><!-- wp:heading {"level":2,"className":"kb-chap__h"} -->
-<h2 class="wp-block-heading kb-chap__h">Dinner and the late sitting (18:00–00:00)</h2>
+<h2 class="wp-block-heading kb-chap__h"><?php echo wp_kses_post( kohaku_brasserie_t( 'kc47ebd83' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>At 18:00, crisp linen returns to the tables and tungsten lamps illuminate the room as dinner service begins. Guests order à la carte mains from €24 or experience the six-course counter menu for €78. From 22:00 until midnight, the brasserie transitions into the late sitting. Head waiter Daniel Okafor oversees the floor as candles are lit, the soundtrack turns mellow, and guests enjoy our three-course late-sitting menu for €52. Kitchen last orders are taken at 23:15, allowing the evening to wind down gently before closing at 00:00.</p>
+<p><?php echo wp_kses_post( kohaku_brasserie_t( 'kbd492b50' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -182,21 +182,21 @@
 
 <!-- wp:group {"className":"kb-ellipse__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-ellipse__in"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(why one room)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'k55634244' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kb-ellipse__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kb-ellipse__h sp-reveal sp-reveal--up">Why do we keep one room open all day?</h2>
+<h2 class="wp-block-heading kb-ellipse__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'ka0bf59f7' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kb-ellipse__p sp-reveal sp-reveal--up"} -->
-<p class="kb-ellipse__p sp-reveal sp-reveal--up">Many European brasseries historically served as all-day civic gathering points, a tradition Kohaku Brasserie deliberately preserves at 14 Arcade Row. A neighborhood lives across multiple tempos: early meetings, post-lunch work sessions, spontaneous late-afternoon reunions, and leisurely dinners. Splitting service into rigid shifts breaks that continuity. By keeping one room open continuously from 11:30 through midnight, we ensure our guests always have a dependable, warm table waiting for them, whether they arrive for an espresso at 15:00 or stay through until midnight dessert.</p>
+<p class="kb-ellipse__p sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'k64474197' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-ellipse__pw","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-ellipse__pw"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-ellipse__photo sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full kb-ellipse__photo sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h11' ); ?>" alt="The restaurant entrance at dusk with an open reservation book beside a wooden coat stand."/></figure>
+<figure class="wp-block-image size-full kb-ellipse__photo sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h11' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'ab7cc3f65' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -204,7 +204,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-sec kb-after","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-sec kb-after"><!-- wp:group {"className":"kb-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-wrap"><!-- wp:paragraph {"className":"kb-arrowlink"} -->
-<p class="kb-arrowlink"><a href="/book/">Book a table →</a></p>
+<p class="kb-arrowlink"><a href="/book/"><?php echo wp_kses_post( kohaku_brasserie_t( 'k44c40c4b' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

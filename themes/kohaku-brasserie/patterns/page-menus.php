@@ -10,7 +10,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-hero kb-phero sp-parallax","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-hero kb-phero sp-parallax"><!-- wp:group {"className":"kb-hero__bg sp-parallax__layer","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-hero__bg sp-parallax__layer"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-phero__img"} -->
-<figure class="wp-block-image size-full kb-phero__img"><img src="<?php echo kohaku_brasserie_img( 'h10' ); ?>" alt="Plated dishes line the kitchen pass beneath warm overhead lamps and an order rail."/></figure>
+<figure class="wp-block-image size-full kb-phero__img"><img src="<?php echo kohaku_brasserie_img( 'h10' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'a6be52179' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -20,29 +20,29 @@
 
 <!-- wp:group {"className":"kb-hero__copy kb-phero__copy","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-hero__copy kb-phero__copy"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(the menus)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'k8db7c88f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"kb-hero__h1 kb-phero__h1"} -->
-<h1 class="wp-block-heading kb-hero__h1 kb-phero__h1">Menus &amp; Prices</h1>
+<h1 class="wp-block-heading kb-hero__h1 kb-phero__h1"><?php echo wp_kses_post( kohaku_brasserie_t( 'k5aaacec1' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-hero__line","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-hero__line"><!-- wp:paragraph {"className":"kb-stamp kb-at-12"} -->
-<p class="kb-stamp kb-at-12">€28 <span class="kb-stamp__w">lunch</span></p>
+<p class="kb-stamp kb-at-12">€28 <span class="kb-stamp__w"><?php echo wp_kses_post( kohaku_brasserie_t( 'kbba63abc' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-stamp kb-at-37"} -->
-<p class="kb-stamp kb-at-37">€16 <span class="kb-stamp__w">afternoon</span></p>
+<p class="kb-stamp kb-at-37">€16 <span class="kb-stamp__w"><?php echo wp_kses_post( kohaku_brasserie_t( 'k75631f39' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-stamp kb-at-63"} -->
-<p class="kb-stamp kb-at-63">€24 <span class="kb-stamp__w">dinner</span></p>
+<p class="kb-stamp kb-at-63">€24 <span class="kb-stamp__w"><?php echo wp_kses_post( kohaku_brasserie_t( 'kad5acdfa' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-stamp kb-at-88"} -->
-<p class="kb-stamp kb-at-88">€52 <span class="kb-stamp__w">late sitting</span></p>
+<p class="kb-stamp kb-at-88">€52 <span class="kb-stamp__w"><?php echo wp_kses_post( kohaku_brasserie_t( 'k259c6c00' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kb-phero__disc kb-at-12","layout":{"type":"default"}} -->
@@ -64,33 +64,33 @@
 
 <!-- wp:group {"className":"kb-ellipse__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-ellipse__in"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(the ledger)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'kbeb7d668' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kb-ellipse__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kb-ellipse__h sp-reveal sp-reveal--up">Every menu at Kohaku Brasserie is grounded in seasonal cooking, balanced flavors, and precise pass work.</h2>
+<h2 class="wp-block-heading kb-ellipse__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'k2f9463ac' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kb-ellipse__p sp-reveal sp-reveal--up"} -->
-<p class="kb-ellipse__p sp-reveal sp-reveal--up">All listed prices are inclusive of service and transparently presented.</p>
+<p class="kb-ellipse__p sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'keda575f3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-sec kb-ledgersec","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-sec kb-ledgersec"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(six menus, prices include service)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'kf9b5bc68' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"className":"kb-ledger","hasFixedLayout":false} -->
-<figure class="wp-block-table kb-ledger"><table><tbody><tr><td>Set lunch, two courses</td><td>Two courses served during midday lunch service from 11:30 to 14:30.</td><td>€28</td></tr><tr><td>Set lunch, three courses</td><td>Three courses served during midday lunch service from 11:30 to 14:30.</td><td>€34</td></tr><tr><td>Afternoon plate</td><td>Served during the quiet afternoon hours from 14:30 to 18:00 without reservation.</td><td>€16</td></tr><tr><td>Dinner à la carte</td><td>Seasonal à la carte mains served during dinner service from 18:00 to 22:00.</td><td>mains from €24</td></tr><tr><td>Late-sitting menu, three courses</td><td>Three courses served during the late sitting from 22:00 to 00:00, with last kitchen orders at 23:15.</td><td>€52</td></tr><tr><td>Counter menu at the pass, six courses</td><td>Six courses served at the eight counter seats directly overlooking the kitchen pass.</td><td>€78</td></tr></tbody></table></figure>
+<figure class="wp-block-table kb-ledger"><table><tbody><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kd6b97b02' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'k9f15cd04' ) ); ?></td><td>€28</td></tr><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kebe4e840' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'ke9e7b0e1' ) ); ?></td><td>€34</td></tr><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'ka0a90b90' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kcf0ea931' ) ); ?></td><td>€16</td></tr><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'k6a73a878' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kd27d59e2' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kc9961bcb' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'k91588900' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'k21223d75' ) ); ?></td><td>€52</td></tr><tr><td><?php echo wp_kses_post( kohaku_brasserie_t( 'kbe6f014d' ) ); ?></td><td><?php echo wp_kses_post( kohaku_brasserie_t( 'k5d3f1a4c' ) ); ?></td><td>€78</td></tr></tbody></table></figure>
 <!-- /wp:table --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-photoband","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-photoband"><!-- wp:group {"className":"kb-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-page__img sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full kb-page__img sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h14' ); ?>" alt="A chef plates a dish in front of a seated guest at the counter seats."/></figure>
+<figure class="wp-block-image size-full kb-page__img sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h14' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'a7b9b2ca3' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -98,19 +98,19 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-sec kb-rows","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-sec kb-rows"><!-- wp:group {"className":"kb-rows__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-rows__in"><!-- wp:paragraph {"className":"kb-label"} -->
-<p class="kb-label">(what is on the menus)</p>
+<p class="kb-label"><?php echo wp_kses_post( kohaku_brasserie_t( 'kd36ebc1c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kb-chap sp-reveal sp-reveal--up kb-chap--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap sp-reveal sp-reveal--up kb-chap--plain"><!-- wp:group {"className":"kb-chap__when","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__when"><!-- wp:heading {"level":2,"className":"kb-chap__h"} -->
-<h2 class="wp-block-heading kb-chap__h">Midday and quiet hours menus</h2>
+<h2 class="wp-block-heading kb-chap__h"><?php echo wp_kses_post( kohaku_brasserie_t( 'k54a61da1' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-chap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__text"><!-- wp:paragraph -->
-<p>From 11:30 to 14:30 Tuesday through Saturday, our set lunch provides two courses for €28 or three courses for €34. The menu features light broths with seasonal herbs, pan-roasted market fish with steamed greens, and poached pear tart. During the quiet hours between 14:30 and 18:00, we serve our afternoon plate for €16, composed of warm sourdough, cultured butter, braised seasonal beans, and mature cheese. These daytime offerings give guests a focused, satisfying meal without fuss, whether stopping during a working lunch or taking a solitary break.</p>
+<p><?php echo wp_kses_post( kohaku_brasserie_t( 'k6038f44f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -118,13 +118,13 @@
 <!-- wp:group {"className":"kb-chap sp-reveal sp-reveal--up kb-chap--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap sp-reveal sp-reveal--up kb-chap--plain"><!-- wp:group {"className":"kb-chap__when","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__when"><!-- wp:heading {"level":2,"className":"kb-chap__h"} -->
-<h2 class="wp-block-heading kb-chap__h">Evening and counter menus</h2>
+<h2 class="wp-block-heading kb-chap__h"><?php echo wp_kses_post( kohaku_brasserie_t( 'k13cf2be2' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-chap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__text"><!-- wp:paragraph -->
-<p>Dinner service runs from 18:00 to 22:00, offering à la carte mains from €24 including roast cod with brown butter, slow-cooked pork neck, and ember-roasted winter squash. At the 8 counter seats directly fronting the kitchen pass, Tomasz Lindqvist serves the six-course counter menu for €78, presenting an immersive sequence of market-driven courses. Later in the evening, from 22:00 until midnight, our three-course late-sitting menu is priced at €52, with comforting savory plates and desserts served until kitchen last orders at 23:15.</p>
+<p><?php echo wp_kses_post( kohaku_brasserie_t( 'k80559ed3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -132,13 +132,13 @@
 <!-- wp:group {"className":"kb-chap sp-reveal sp-reveal--up kb-chap--plain","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap sp-reveal sp-reveal--up kb-chap--plain"><!-- wp:group {"className":"kb-chap__when","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__when"><!-- wp:heading {"level":2,"className":"kb-chap__h"} -->
-<h2 class="wp-block-heading kb-chap__h">How are allergens and wine pairings handled?</h2>
+<h2 class="wp-block-heading kb-chap__h"><?php echo wp_kses_post( kohaku_brasserie_t( 'k8060fff1' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kb-chap__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-chap__text"><!-- wp:paragraph -->
-<p>Our kitchen team takes food allergies and intolerances seriously. Detailed allergen records are kept at the pass, and Amara Osei and the brigade adapt dishes to accommodate dietary needs when notified in advance. For wine pairings, sommelier Lucía Ferreira curates a versatile cellar with wines by the glass starting from €7. Each glass is chosen to harmonize with the seasoning of our seasonal dishes, allowing guests to explore distinctive regional pours whether dining at the counter, enjoying lunch, or having a late-night plate.</p>
+<p><?php echo wp_kses_post( kohaku_brasserie_t( 'k914199d8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -148,7 +148,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-sec kb-after","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-sec kb-after"><!-- wp:group {"className":"kb-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-wrap"><!-- wp:paragraph {"className":"kb-arrowlink"} -->
-<p class="kb-arrowlink"><a href="/book/">Book a table →</a></p>
+<p class="kb-arrowlink"><a href="/book/"><?php echo wp_kses_post( kohaku_brasserie_t( 'k44c40c4b' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

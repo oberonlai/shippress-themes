@@ -10,20 +10,20 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-sec kb-pm","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-sec kb-pm"><!-- wp:group {"className":"kb-pm__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-pm__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-pm__photo sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full kb-pm__photo sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h09' ); ?>" alt="A pear tart on a dark stoneware plate beside a cup of coffee and a closed laptop at a window table."/></figure>
+<figure class="wp-block-image size-full kb-pm__photo sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h09' ); ?>" alt="<?php echo esc_attr( kohaku_brasserie_t( 'ac7eef09e' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kb-pm__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-pm__text sp-stagger"><!-- wp:paragraph {"className":"kb-label sp-reveal sp-reveal--up"} -->
-<p class="kb-label sp-reveal sp-reveal--up">(the quiet hours)</p>
+<p class="kb-label sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'ka02fd09c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"kb-pm__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kb-pm__h sp-reveal sp-reveal--up">What the room is for in the afternoon</h2>
+<h2 class="wp-block-heading kb-pm__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'k3a45a6a4' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Between midday service and evening dinner, Kohaku offers a rare quiet haven in the Old Exchange Quarter. Tables are spaced for privacy, allowing guests to work, read, or hold informal conversations without feeling rushed. Enjoy freshly brewed coffee alongside our daily afternoon plate while the dining room rests in calm natural light.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( kohaku_brasserie_t( 'k33bce3cd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kb-facts sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
@@ -32,11 +32,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-fact"} -->
-<p class="kb-fact">Afternoon plate €16</p>
+<p class="kb-fact"><?php echo wp_kses_post( kohaku_brasserie_t( 'k24df79a5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-fact"} -->
-<p class="kb-fact">No booking needed for ≤4</p>
+<p class="kb-fact"><?php echo wp_kses_post( kohaku_brasserie_t( 'k82cefa40' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
