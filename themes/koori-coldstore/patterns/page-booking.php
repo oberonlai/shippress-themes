@@ -9,6 +9,18 @@
  * Description: Booking head, the four steps in one fused card, what we ask for, and the sample room-log strip.
  */
 ?>
+<?php ob_start(); ?>
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"kc-btn"} -->
+<div class="wp-block-button kc-btn"><a class="wp-block-button__link wp-element-button" href="mailto:ask@koori-coldstore.example?subject=<?php echo rawurlencode( koori_coldstore_t( 'forms_contact_subject' ) ); ?>"><?php echo esc_html( koori_coldstore_t( 'contact_email' ) ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"className":"kc-form-note"} -->
+<p class="kc-form-note"><?php echo esc_html( koori_coldstore_t( 'forms_contact_note' ) ); ?></p>
+<!-- /wp:paragraph -->
+<?php $kc_fallback = ob_get_clean(); ?>
+
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-hero kc-head kc-slider kc-slider--1 sp-parallax","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-hero kc-head kc-slider kc-slider--1 sp-parallax"><!-- wp:group {"className":"kc-slides sp-parallax__layer","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-slides sp-parallax__layer"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-slide kc-slide--1"} -->
@@ -161,6 +173,27 @@
 <!-- wp:paragraph -->
 <p><?php echo esc_html( koori_coldstore_t( 'bk3_c1_b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"kc-sec kc-bookform","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kc-sec kc-bookform"><!-- wp:group {"className":"kc-cards","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-cards"><!-- wp:group {"className":"kc-card kc-card--form","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-card kc-card--form"><!-- wp:heading {"level":2,"className":"kc-card__title"} -->
+<h2 class="wp-block-heading kc-card__title"><?php echo esc_html( koori_coldstore_t( 'ask_card_t' ) ); ?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kc-card__p"} -->
+<p class="kc-card__p"><?php echo esc_html( koori_coldstore_t( 'ask_card_p' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"kc-form-slot","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-form-slot"><?php echo shippress_form_slot( array(
+	'kind'     => 'contact',
+	'fallback' => $kc_fallback,
+) ); ?></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
