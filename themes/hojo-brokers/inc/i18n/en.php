@@ -111,12 +111,12 @@ return array(
 	'k47559fb8' => 'NEXT',
 	'k497c221c' => 'Property and stock cover pays for physical destruction or damage to your buildings, machinery, tenant improvements, and declared stock caused by insured perils such as fire, storm, or escape of water. It routinely leaves out stock stored above sprinkler heads, materials kept in open yards without prior insurer agreement, and inventory valued at flat annual averages during peak seasonal surges. During our on-site inspection, we walk your warehouse floor and ask: what is the single highest valuation of stock held within this building across the past twelve months, and does your declared sum reflect that peak or merely a quiet baseline?',
 	'k49c43385' => 'Mara Hojo',
-	'k49f45acd' => '<a class="hb-cell" href="/covers/#property"><span class="hb-cell__t">Property and stock</span><span class="hb-cell__d">Buildings, plant and stock, and whether the declared value matches what is on the racks.</span></a>
-<a class="hb-cell" href="/covers/#interruption"><span class="hb-cell__t">Business interruption</span><span class="hb-cell__d">How long the indemnity period lasts against how long a rebuild really takes.</span></a>
-<a class="hb-cell" href="/covers/#liability"><span class="hb-cell__t">Public and products liability</span><span class="hb-cell__d">Who is covered for injury or damage on site, and what the wording leaves out.</span></a>
-<a class="hb-cell" href="/covers/#employers"><span class="hb-cell__t">Employers\' liability</span><span class="hb-cell__d">Cover for staff injured at work, including temporary and agency workers on your floor.</span></a>
-<a class="hb-cell" href="/covers/#transit"><span class="hb-cell__t">Goods in transit</span><span class="hb-cell__d">Stock on your own vehicles and with hauliers, from the dock to the customer.</span></a>
-<a class="hb-cell" href="/covers/#cyber"><span class="hb-cell__t">Cyber and data</span><span class="hb-cell__d">Order systems and records that stop the yard when they fail, and what pays then.</span></a>',
+	'k49f45acd' => '<a class="hb-cell" href="/covers/#cover-1"><span class="hb-cell__t">Property and stock</span><span class="hb-cell__d">Buildings, plant and stock, and whether the declared value matches what is on the racks.</span></a>
+<a class="hb-cell" href="/covers/#cover-2"><span class="hb-cell__t">Business interruption</span><span class="hb-cell__d">How long the indemnity period lasts against how long a rebuild really takes.</span></a>
+<a class="hb-cell" href="/covers/#cover-3"><span class="hb-cell__t">Public and products liability</span><span class="hb-cell__d">Who is covered for injury or damage on site, and what the wording leaves out.</span></a>
+<a class="hb-cell" href="/covers/#cover-4"><span class="hb-cell__t">Employers\' liability</span><span class="hb-cell__d">Cover for staff injured at work, including temporary and agency workers on your floor.</span></a>
+<a class="hb-cell" href="/covers/#cover-5"><span class="hb-cell__t">Goods in transit</span><span class="hb-cell__d">Stock on your own vehicles and with hauliers, from the dock to the customer.</span></a>
+<a class="hb-cell" href="/covers/#cover-6"><span class="hb-cell__t">Cyber and data</span><span class="hb-cell__d">Order systems and records that stop the yard when they fail, and what pays then.</span></a>',
 	'k49f566a5' => 'A written cover map: what is covered, what is not and what is underinsured, set out line by line so you can see where the schedule and the site disagree.',
 	'k50df0571' => 'Tomas stays on the file through the adjuster visit and every query until the insurer pays, and tells you in plain words if an offer looks short.',
 	'k52036337' => 'Three firms, three gaps found on site.',
@@ -216,12 +216,12 @@ return array(
 	'ka912e1ad' => 'These terms set out the basis on which Hojo Brokers provides commercial cover reviews and insurance broking services to corporate clients.',
 	'kab949360' => 'Hojo Brokers is located on the 3rd floor at 18 Quayside Road in Calder Bay. We are open Monday to Friday from 08:30 to 17:30. Site visits to warehouses, workshops, and commercial premises are available Monday through Saturday by appointment, with Saturday visits scheduled from 09:00 to 13:00. We are closed on Sundays and public holidays. You can contact our office by telephone at +00 41 2290 6604 or by email at review@hojobrokers.example. Our office overlooks the commercial docklands, with visitor parking available behind the main building off Quayside Road.',
 	'kabfcf041' => 'review@hojobrokers.example',
-	'kac43e14a' => '<a class="hb-cell" href="/trades/#warehousing"><span class="hb-cell__t">Warehousing and logistics</span><span class="hb-cell__d">Racking heights, shared sites and other people\'s goods stored under your roof.</span></a>
-<a class="hb-cell" href="/trades/#food"><span class="hb-cell__t">Food distribution and cold store</span><span class="hb-cell__d">Spoilage after a power failure, refrigerant leaks and seasonal stock peaks.</span></a>
-<a class="hb-cell" href="/trades/#manufacturing"><span class="hb-cell__t">Light manufacturing</span><span class="hb-cell__d">Machinery breakdown, tooling on loan and the supplier whose failure stops your line.</span></a>
-<a class="hb-cell" href="/trades/#timber"><span class="hb-cell__t">Timber and building supplies</span><span class="hb-cell__d">Fire spread across open yards, kiln rebuild times and stock stacked outdoors.</span></a>
-<a class="hb-cell" href="/trades/#print"><span class="hb-cell__t">Print and packaging workshops</span><span class="hb-cell__d">Customers\' paper and plates on your floor, and the dust and fire load around them.</span></a>
-<a class="hb-cell" href="/trades/#wholesale"><span class="hb-cell__t">Wholesale and trade counters</span><span class="hb-cell__d">Walk-in customers, counter theft and stock that changes value through the year.</span></a>',
+	'kac43e14a' => '<a class="hb-cell" href="/trades/#trade-1"><span class="hb-cell__t">Warehousing and logistics</span><span class="hb-cell__d">Racking heights, shared sites and other people\'s goods stored under your roof.</span></a>
+<a class="hb-cell" href="/trades/#trade-2"><span class="hb-cell__t">Food distribution and cold store</span><span class="hb-cell__d">Spoilage after a power failure, refrigerant leaks and seasonal stock peaks.</span></a>
+<a class="hb-cell" href="/trades/#trade-3"><span class="hb-cell__t">Light manufacturing</span><span class="hb-cell__d">Machinery breakdown, tooling on loan and the supplier whose failure stops your line.</span></a>
+<a class="hb-cell" href="/trades/#trade-4"><span class="hb-cell__t">Timber and building supplies</span><span class="hb-cell__d">Fire spread across open yards, kiln rebuild times and stock stacked outdoors.</span></a>
+<a class="hb-cell" href="/trades/#trade-5"><span class="hb-cell__t">Print and packaging workshops</span><span class="hb-cell__d">Customers\' paper and plates on your floor, and the dust and fire load around them.</span></a>
+<a class="hb-cell" href="/trades/#trade-6"><span class="hb-cell__t">Wholesale and trade counters</span><span class="hb-cell__d">Walk-in customers, counter theft and stock that changes value through the year.</span></a>',
 	'kac8ea4f9' => 'How Are Claims Reported During Office Hours?',
 	'kad156c31' => 'The gaps we find most often, trade by trade.',
 	'kae5734b0' => 'Employers\' Liability',

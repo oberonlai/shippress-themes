@@ -111,12 +111,12 @@ return array(
 	'k47559fb8' => '次へ',
 	'k497c221c' => '財物・在庫保険は、火災、風水害、給排水設備からの漏水など補償対象となる事故によって、建物、機械設備、テナント造作、および申告済みの在庫に生じた物理的な損壊や損害を補償します。しかし、スプリンクラーヘッドより高い位置に保管された在庫や、保険会社との事前合意なしに野積みにされた資材、繁忙期のピーク時にもかかわらず一律の年間平均額で計上された在庫などは、日常的に対象外となっています。弊社の現地調査では、倉庫内を実際に歩きながら確認します。「過去十二か月間でこの建物内に保管された在庫の最高評価額はいくらでしたか？ そして、現在の申告額はそのピーク時を反映していますか、それとも閑散期の基準額にすぎませんか？」',
 	'k49c43385' => 'Mara Hojo',
-	'k49f45acd' => '<a class="hb-cell" href="/covers/#property"><span class="hb-cell__t">財物・在庫</span><span class="hb-cell__d">建物、設備、在庫、そして申告額がラック上の現物と一致しているか。</span></a>
-<a class="hb-cell" href="/covers/#interruption"><span class="hb-cell__t">休業損害</span><span class="hb-cell__d">実際の再建に要する期間に対し、約定の補償期間が十分か。</span></a>
-<a class="hb-cell" href="/covers/#liability"><span class="hb-cell__t">施設・生産物賠償責任</span><span class="hb-cell__d">敷地内での対人・対物事故で誰が補償対象となるか、約款で除外されている事項は何か。</span></a>
-<a class="hb-cell" href="/covers/#employers"><span class="hb-cell__t">使用者賠償責任</span><span class="hb-cell__d">現場のパートや派遣労働者を含む、業務中に被災した従業員への補償。</span></a>
-<a class="hb-cell" href="/covers/#transit"><span class="hb-cell__t">運送保険</span><span class="hb-cell__d">自社便および運送業者の車両内にある商品、荷受場から顧客の手元まで。</span></a>
-<a class="hb-cell" href="/covers/#cyber"><span class="hb-cell__t">サイバー・データ</span><span class="hb-cell__d">障害発生時に現場のオペレーションを停止させる受発注システムやデータ、そしてその際に何が補償されるか。</span></a>',
+	'k49f45acd' => '<a class="hb-cell" href="/covers/#cover-1"><span class="hb-cell__t">財物・在庫</span><span class="hb-cell__d">建物、設備、在庫、そして申告額がラック上の現物と一致しているか。</span></a>
+<a class="hb-cell" href="/covers/#cover-2"><span class="hb-cell__t">休業損害</span><span class="hb-cell__d">実際の再建に要する期間に対し、約定の補償期間が十分か。</span></a>
+<a class="hb-cell" href="/covers/#cover-3"><span class="hb-cell__t">施設・生産物賠償責任</span><span class="hb-cell__d">敷地内での対人・対物事故で誰が補償対象となるか、約款で除外されている事項は何か。</span></a>
+<a class="hb-cell" href="/covers/#cover-4"><span class="hb-cell__t">使用者賠償責任</span><span class="hb-cell__d">現場のパートや派遣労働者を含む、業務中に被災した従業員への補償。</span></a>
+<a class="hb-cell" href="/covers/#cover-5"><span class="hb-cell__t">運送保険</span><span class="hb-cell__d">自社便および運送業者の車両内にある商品、荷受場から顧客の手元まで。</span></a>
+<a class="hb-cell" href="/covers/#cover-6"><span class="hb-cell__t">サイバー・データ</span><span class="hb-cell__d">障害発生時に現場のオペレーションを停止させる受発注システムやデータ、そしてその際に何が補償されるか。</span></a>',
 	'k49f566a5' => '書面による補償マップ：何が補償され、何が対象外で、どこに一部保険が生じているかを明細ごとに整理し、保険明細書と現場の実態が食い違っている箇所を一目でご確認いただけます。',
 	'k50df0571' => 'Tomasがアジャスターの立会いや保険会社からのあらゆる照会に対応し、保険金が支払われるまで案件を担当します。また、提示額が不足していると見受けられる場合は、わかりやすい言葉でお伝えします。',
 	'k52036337' => '三つの企業、現場で見つかった三つのギャップ。',
@@ -216,12 +216,12 @@ return array(
 	'ka912e1ad' => '本規約は、Hojo Brokersが法人のお客様に対して事業用保険の補償診断および保険仲立（ブローキング）サービスを提供する際の基本条件を定めるものです。',
 	'kab949360' => 'Hojo Brokersのオフィスは3階、所在地はCalder Bayの18 Quayside Roadです。営業時間は月曜日から金曜日の08:30から17:30までです。倉庫、作業所、事業用施設への現地訪問は月曜日から土曜日まで事前予約制にて承っており、土曜日の訪問枠は09:00から13:00までとなります。日曜日および祝日は休業いたします。お電話（+00 41 2290 6604）またはメール（review@hojobrokers.example）にてお問い合わせいただけます。オフィスからは商業港湾地区が一望でき、Quayside Road沿いの本館裏手に来客用駐車場をご用意しております。',
 	'kabfcf041' => 'review@hojobrokers.example',
-	'kac43e14a' => '<a class="hb-cell" href="/trades/#warehousing"><span class="hb-cell__t">倉庫業・物流業</span><span class="hb-cell__d">ラックの積載高、共同利用施設、受託保管する他者所有の貨物。</span></a>
-<a class="hb-cell" href="/trades/#food"><span class="hb-cell__t">食品流通・低温冷蔵倉庫</span><span class="hb-cell__d">停電による腐敗損害、冷媒漏えい事故、季節変動に伴う在庫ピーク。</span></a>
-<a class="hb-cell" href="/trades/#manufacturing"><span class="hb-cell__t">軽工業・製造業</span><span class="hb-cell__d">機械の故障・破損、借用金型や治具、操業停止を招く供給元の倒産・事故。</span></a>
-<a class="hb-cell" href="/trades/#timber"><span class="hb-cell__t">木材・建築資材</span><span class="hb-cell__d">屋外ヤードの延焼リスク、乾燥炉の再建期間、屋外野積み在庫。</span></a>
-<a class="hb-cell" href="/trades/#print"><span class="hb-cell__t">印刷・包装加工所</span><span class="hb-cell__d">預かり用紙や刷版の管理、周囲の紙粉堆積と火災荷重リスク。</span></a>
-<a class="hb-cell" href="/trades/#wholesale"><span class="hb-cell__t">卸売・店頭販売</span><span class="hb-cell__d">来店客の事故、店頭盗難、年間を通じて価格変動する在庫リスク。</span></a>',
+	'kac43e14a' => '<a class="hb-cell" href="/trades/#trade-1"><span class="hb-cell__t">倉庫業・物流業</span><span class="hb-cell__d">ラックの積載高、共同利用施設、受託保管する他者所有の貨物。</span></a>
+<a class="hb-cell" href="/trades/#trade-2"><span class="hb-cell__t">食品流通・低温冷蔵倉庫</span><span class="hb-cell__d">停電による腐敗損害、冷媒漏えい事故、季節変動に伴う在庫ピーク。</span></a>
+<a class="hb-cell" href="/trades/#trade-3"><span class="hb-cell__t">軽工業・製造業</span><span class="hb-cell__d">機械の故障・破損、借用金型や治具、操業停止を招く供給元の倒産・事故。</span></a>
+<a class="hb-cell" href="/trades/#trade-4"><span class="hb-cell__t">木材・建築資材</span><span class="hb-cell__d">屋外ヤードの延焼リスク、乾燥炉の再建期間、屋外野積み在庫。</span></a>
+<a class="hb-cell" href="/trades/#trade-5"><span class="hb-cell__t">印刷・包装加工所</span><span class="hb-cell__d">預かり用紙や刷版の管理、周囲の紙粉堆積と火災荷重リスク。</span></a>
+<a class="hb-cell" href="/trades/#trade-6"><span class="hb-cell__t">卸売・店頭販売</span><span class="hb-cell__d">来店客の事故、店頭盗難、年間を通じて価格変動する在庫リスク。</span></a>',
 	'kac8ea4f9' => '営業時間中の保険金請求のご連絡方法は？',
 	'kad156c31' => '業種別にみる、補償の不備・抜け漏れの典型例。',
 	'kae5734b0' => '使用者賠償責任保険',

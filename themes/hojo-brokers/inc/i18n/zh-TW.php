@@ -111,12 +111,12 @@ return array(
 	'k47559fb8' => '下一步',
 	'k497c221c' => '財產與存貨保險賠償因火災、暴風雨或水管漏水等承保危險事故，對您的建築物、機械設備、裝潢改良工程以及申報存貨所造成的實質毀損或滅失。這類保險往往容易遺漏堆放於自動撒水頭上方的存貨、未經保險公司事先同意存放在露天廠區的物料，以及在旺季高峰期仍僅以全年平均水準估算的存貨。在實地勘查過程中，我們實地走訪您的倉儲現場並提出核心問題：在過去十二個月內，此建築物內存放的存貨單一最高價值為何？您目前申報的保險金額究竟反映了旺季高峰，抑或僅是淡季的基本水位？',
 	'k49c43385' => 'Mara Hojo',
-	'k49f45acd' => '<a class="hb-cell" href="/covers/#property"><span class="hb-cell__t">財產與存貨</span><span class="hb-cell__d">建築物、廠房設備與存貨，以及申報價值是否與料架上的實際貨品相符。</span></a>
-<a class="hb-cell" href="/covers/#interruption"><span class="hb-cell__t">營業中斷</span><span class="hb-cell__d">補償期限的長短，對比實際重建所需的真實時間。</span></a>
-<a class="hb-cell" href="/covers/#liability"><span class="hb-cell__t">公共與產品責任</span><span class="hb-cell__d">現場發生人員受傷或財物受損時的承保對象，以及保單條款遺漏的細節。</span></a>
-<a class="hb-cell" href="/covers/#employers"><span class="hb-cell__t">雇主責任</span><span class="hb-cell__d">員工工作受傷的保障，包括現場的臨時工與派遣人員。</span></a>
-<a class="hb-cell" href="/covers/#transit"><span class="hb-cell__t">貨物運輸</span><span class="hb-cell__d">自家車輛與承運車隊運送的存貨，從碼頭直到送達客戶。</span></a>
-<a class="hb-cell" href="/covers/#cyber"><span class="hb-cell__t">網路與數據安全</span><span class="hb-cell__d">一旦故障便會使廠區停擺的訂單系統與紀錄，以及屆時由何者賠付。</span></a>',
+	'k49f45acd' => '<a class="hb-cell" href="/covers/#cover-1"><span class="hb-cell__t">財產與存貨</span><span class="hb-cell__d">建築物、廠房設備與存貨，以及申報價值是否與料架上的實際貨品相符。</span></a>
+<a class="hb-cell" href="/covers/#cover-2"><span class="hb-cell__t">營業中斷</span><span class="hb-cell__d">補償期限的長短，對比實際重建所需的真實時間。</span></a>
+<a class="hb-cell" href="/covers/#cover-3"><span class="hb-cell__t">公共與產品責任</span><span class="hb-cell__d">現場發生人員受傷或財物受損時的承保對象，以及保單條款遺漏的細節。</span></a>
+<a class="hb-cell" href="/covers/#cover-4"><span class="hb-cell__t">雇主責任</span><span class="hb-cell__d">員工工作受傷的保障，包括現場的臨時工與派遣人員。</span></a>
+<a class="hb-cell" href="/covers/#cover-5"><span class="hb-cell__t">貨物運輸</span><span class="hb-cell__d">自家車輛與承運車隊運送的存貨，從碼頭直到送達客戶。</span></a>
+<a class="hb-cell" href="/covers/#cover-6"><span class="hb-cell__t">網路與數據安全</span><span class="hb-cell__d">一旦故障便會使廠區停擺的訂單系統與紀錄，以及屆時由何者賠付。</span></a>',
 	'k49f566a5' => '一份書面保障分析圖：逐行詳列已承保項目、未承保項目與保障不足之處，讓您清楚看見保單明細與現場實際狀況不符之處。',
 	'k50df0571' => 'Tomas 會全程跟進案件，從理算師現場勘查到各項諮詢，直至保險公司完成賠付，並在理賠金額不足時以平實直白的話語明確告知您。',
 	'k52036337' => '三家企業，實地勘查發現的三大缺口。',
@@ -216,12 +216,12 @@ return array(
 	'ka912e1ad' => '本條款載明 Hojo Brokers 向企業客戶提供商業保險保障檢視及保險經紀服務之基礎準則。',
 	'kab949360' => 'Hojo Brokers 位於 Calder Bay 的 3 樓，地址為 18 Quayside Road。我們的營業時間為週一至週五 08:30 至 17:30。倉庫、工場及商業場所的實地訪勘於週一至週六接受預約，週六訪勘時段為 09:00 至 13:00。週日與國定假日公休。您可透過電話 +00 41 2290 6604 或發送電子郵件至 review@hojobrokers.example 與我們聯絡。我們的辦公室可俯瞰商業碼頭區，Quayside Road 主建築後方備有訪客停車位。',
 	'kabfcf041' => 'review@hojobrokers.example',
-	'kac43e14a' => '<a class="hb-cell" href="/trades/#warehousing"><span class="hb-cell__t">倉儲與物流</span><span class="hb-cell__d">料架高度、共用場地，以及存放在您屋簷下的他人貨物。</span></a>
-<a class="hb-cell" href="/trades/#food"><span class="hb-cell__t">食品配送與冷凍冷藏倉儲</span><span class="hb-cell__d">斷電後之腐壞變質、冷媒外洩與季節性庫存高峰。</span></a>
-<a class="hb-cell" href="/trades/#manufacturing"><span class="hb-cell__t">輕工業製造</span><span class="hb-cell__d">機械故障、借入之模具設備，以及供應商斷供導致停線的風險。</span></a>
-<a class="hb-cell" href="/trades/#timber"><span class="hb-cell__t">木材與建材供應</span><span class="hb-cell__d">露天堆置場火勢蔓延、乾燥窯重建期，以及露天堆放之庫存。</span></a>
-<a class="hb-cell" href="/trades/#print"><span class="hb-cell__t">印刷與包裝工廠</span><span class="hb-cell__d">廠內的客戶紙張與印版，以及周遭粉塵與火災載負荷。</span></a>
-<a class="hb-cell" href="/trades/#wholesale"><span class="hb-cell__t">批發與門市展示處</span><span class="hb-cell__d">來店客戶、櫃台竊盜，以及價值隨季節波動的庫存。</span></a>',
+	'kac43e14a' => '<a class="hb-cell" href="/trades/#trade-1"><span class="hb-cell__t">倉儲與物流</span><span class="hb-cell__d">料架高度、共用場地，以及存放在您屋簷下的他人貨物。</span></a>
+<a class="hb-cell" href="/trades/#trade-2"><span class="hb-cell__t">食品配送與冷凍冷藏倉儲</span><span class="hb-cell__d">斷電後之腐壞變質、冷媒外洩與季節性庫存高峰。</span></a>
+<a class="hb-cell" href="/trades/#trade-3"><span class="hb-cell__t">輕工業製造</span><span class="hb-cell__d">機械故障、借入之模具設備，以及供應商斷供導致停線的風險。</span></a>
+<a class="hb-cell" href="/trades/#trade-4"><span class="hb-cell__t">木材與建材供應</span><span class="hb-cell__d">露天堆置場火勢蔓延、乾燥窯重建期，以及露天堆放之庫存。</span></a>
+<a class="hb-cell" href="/trades/#trade-5"><span class="hb-cell__t">印刷與包裝工廠</span><span class="hb-cell__d">廠內的客戶紙張與印版，以及周遭粉塵與火災載負荷。</span></a>
+<a class="hb-cell" href="/trades/#trade-6"><span class="hb-cell__t">批發與門市展示處</span><span class="hb-cell__d">來店客戶、櫃台竊盜，以及價值隨季節波動的庫存。</span></a>',
 	'kac8ea4f9' => '上班時間內如何通報理賠？',
 	'kad156c31' => '各行各業中，我們最常發現的保障缺口。',
 	'kae5734b0' => '雇主責任險',
