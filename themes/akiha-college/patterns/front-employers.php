@@ -52,15 +52,15 @@
 
 <!-- wp:group {"className":"ak-conds","layout":{"type":"default"}} -->
 <div class="wp-block-group ak-conds"><!-- wp:paragraph {"className":"ak-cond"} -->
-<p class="ak-cond"><a href="<?php echo akiha_college_url( '/employers/' ); ?>"><span class="ak-mark">(01)</span> <?php echo esc_html( akiha_college_t( 'cond1_t' ) ); ?>. <?php echo esc_html( akiha_college_t( 'cond1_d' ) ); ?></a></p>
+<p class="ak-cond"><a href="<?php echo akiha_college_url( '/employers/' ); ?>"><span class="ak-mark">(01)</span><?php echo esc_html( akiha_college_t( 'cond1_t' ) ); ?>. <?php echo esc_html( akiha_college_t( 'cond1_d' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ak-cond"} -->
-<p class="ak-cond"><a href="<?php echo akiha_college_url( '/employers/' ); ?>"><span class="ak-mark">(02)</span> <?php echo esc_html( akiha_college_t( 'cond2_t' ) ); ?>. <?php echo esc_html( akiha_college_t( 'cond2_d' ) ); ?></a></p>
+<p class="ak-cond"><a href="<?php echo akiha_college_url( '/employers/' ); ?>"><span class="ak-mark">(02)</span><?php echo esc_html( akiha_college_t( 'cond2_t' ) ); ?>. <?php echo esc_html( akiha_college_t( 'cond2_d' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"ak-cond"} -->
-<p class="ak-cond"><a href="<?php echo akiha_college_url( '/employers/' ); ?>"><span class="ak-mark">(03)</span> <?php echo esc_html( akiha_college_t( 'cond3_t' ) ); ?>. <?php echo esc_html( akiha_college_t( 'cond3_d' ) ); ?></a></p>
+<p class="ak-cond"><a href="<?php echo akiha_college_url( '/employers/' ); ?>"><span class="ak-mark">(03)</span><?php echo esc_html( akiha_college_t( 'cond3_t' ) ); ?>. <?php echo esc_html( akiha_college_t( 'cond3_d' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

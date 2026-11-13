@@ -28,8 +28,16 @@
 <figure class="wp-block-table ak-fees"><table class="has-fixed-layout"><tbody><tr><td><span class="ak-fee__n"><?php echo esc_html( akiha_college_t( 'fee1_n' ) ); ?></span> <span class="ak-fee__d"><?php echo esc_html( akiha_college_t( 'fee1_d' ) ); ?></span></td><td class="ak-fee__p"><?php echo esc_html( akiha_college_t( 'fee1_p' ) ); ?></td></tr><tr><td><span class="ak-fee__n"><?php echo esc_html( akiha_college_t( 'fee2_n' ) ); ?></span> <span class="ak-fee__d"><?php echo esc_html( akiha_college_t( 'fee2_d' ) ); ?></span></td><td class="ak-fee__p"><?php echo esc_html( akiha_college_t( 'fee2_p' ) ); ?></td></tr><tr><td><span class="ak-fee__n"><?php echo esc_html( akiha_college_t( 'fee3_n' ) ); ?></span> <span class="ak-fee__d"><?php echo esc_html( akiha_college_t( 'fee3_d' ) ); ?></span></td><td class="ak-fee__p"><?php echo esc_html( akiha_college_t( 'fee3_p' ) ); ?></td></tr><tr><td><span class="ak-fee__n"><?php echo esc_html( akiha_college_t( 'fee4_n' ) ); ?></span> <span class="ak-fee__d"><?php echo esc_html( akiha_college_t( 'fee4_d' ) ); ?></span></td><td class="ak-fee__p"><?php echo esc_html( akiha_college_t( 'fee4_p' ) ); ?></td></tr><tr><td><span class="ak-fee__n"><?php echo esc_html( akiha_college_t( 'fee5_n' ) ); ?></span> <span class="ak-fee__d"><?php echo esc_html( akiha_college_t( 'fee5_d' ) ); ?></span></td><td class="ak-fee__p"><?php echo esc_html( akiha_college_t( 'fee5_p' ) ); ?></td></tr><tr><td><span class="ak-fee__n"><?php echo esc_html( akiha_college_t( 'fee6_n' ) ); ?></span> <span class="ak-fee__d"><?php echo esc_html( akiha_college_t( 'fee6_d' ) ); ?></span></td><td class="ak-fee__p"><?php echo esc_html( akiha_college_t( 'fee6_p' ) ); ?></td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
-<!-- wp:paragraph {"className":"ak-intakes"} -->
-<p class="ak-intakes"><?php echo esc_html( akiha_college_t( 'int1' ) ); ?><br><?php echo esc_html( akiha_college_t( 'int2' ) ); ?><br><?php echo esc_html( akiha_college_t( 'int3' ) ); ?></p>
+<!-- wp:paragraph {"className":"ak-intake"} -->
+<p class="ak-intake"><?php echo esc_html( akiha_college_t( 'int1' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ak-intake"} -->
+<p class="ak-intake"><?php echo esc_html( akiha_college_t( 'int2' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"ak-intake"} -->
+<p class="ak-intake"><?php echo esc_html( akiha_college_t( 'int3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
