@@ -55,8 +55,8 @@ html { scroll-behavior: auto; }
 body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 .wp-site-blocks { padding: 0; }
 .wp-site-blocks > * { margin-block: 0; }
-.wp-site-blocks .wp-block-group, .wp-site-blocks .wp-block-image { margin-block-start: 0; margin-block-end: 0; }
-.wp-block-group:where(.is-layout-flow) > * { margin-block-start: 0; }
+:where(.wp-site-blocks .wp-block-group, .wp-site-blocks .wp-block-image) { margin-block-start: 0; margin-block-end: 0; }
+:where(.wp-block-group.is-layout-flow) > * { margin-block-start: 0; }
 .wp-site-blocks img { display: block; max-width: 100%; height: auto; }
 a { text-underline-offset: 4px; }
 p { margin-block: 0; }
@@ -335,3 +335,6 @@ body:not(.home) .ak-header { border-bottom: 1px solid var(--ak-rule); }
 	.ak-btn--head .wp-block-button__link { gap: 10px; height: 36px; padding: 0 8px 0 10px; font-size: 0.75rem; }
 	.ak-btn--head .wp-block-button__link::after { display: none; }
 }
+
+/* grid and flex containers lay out their own gaps; cancel the flow-layout block gap on their children */
+.wp-site-blocks :is(.ak-cards, .ak-pos, .ak-figures, .ak-hero__top, .ak-fcols, .ak-fnews, .ak-newsletter, .ak-case__cap, .ak-row, .ak-post, .ak-rail, .ak-watch, .ak-apply__btns, .ak-header__bar, .ak-cases, .ak-fig) > * { margin-block-start: 0; }
