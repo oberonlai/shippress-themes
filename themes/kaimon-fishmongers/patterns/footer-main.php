@@ -41,5 +41,5 @@
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<div class="kf-corner" role="group" aria-label="Quick links"><?php echo kaimon_fishmongers_basket_link(); // phpcs:ignore WordPress.Security.EscapeOutput ?><a href="#kf-nav">Menu ↑</a><a href="/order/">Order</a><a href="/visit/">Visit</a><a href="/landing-list/">The Landing List</a></div>
+<div class="kf-corner" role="group" aria-label="Quick links"><?php if ( function_exists( 'WC' ) && WC()->cart ) : ?><a href="<?php echo esc_url( wc_get_cart_url() ); ?>">Basket (<?php echo (int) WC()->cart->get_cart_contents_count(); ?>)</a><?php endif; ?><a href="#kf-nav">Menu ↑</a><a href="/order/">Order</a><a href="/visit/">Visit</a><a href="/landing-list/">The Landing List</a></div>
 <!-- /wp:html -->

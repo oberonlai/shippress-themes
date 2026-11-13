@@ -167,7 +167,7 @@ Reference hexes kept (±5% lightness max) for similarity; the row's tide colours
 | `ink-3` | **#818283** | grain dots, + ticks, disabled only (never text) | T(a) exact; 3.6:1, so no text |
 | `line` | **#BDBDBD** | hairlines | T(d) exact |
 | `accent` | **#AA0813** | ≤ 1% | T(a) exact: stamp, circle arrows, active underline, error. Kept from the reference instead of stage-a's brick #B4492B: it is the seal colour of the reference and stays ≤1%, which serves the 80% similarity target better; 6.7:1 on `ground` |
-| `tide` | **#3E5556** | ≤ 3% first screen, ~4% page | row hex (鉄御納戸); labels, links, step numbers, submit fill (7.0:1 on `ground`, 7.5:1 white on it) |
+| `tide` | **#3E5556** | ≤ 3% first screen, ~4% page | row hex (Tetsu-onando, iron navy); labels, links, step numbers, submit fill (7.0:1 on `ground`, 7.5:1 white on it) |
 | `deep` | **#26373A** | photo overlay tint 10%, mobile menu overlay, dark-ground form token | tide darkened; stands in for the reference's dark walnut band ~#2B1D17 (T(a)) — the dark *photographs* carry the reference's ~20% dark share |
 | `sea-glass` | **#B9CDD0** | footer only | T(a) "pale aqua footer wash", sampled from `ref/scroll-abemamoru-7200.png` |
 | `ice` | **#E3E9E7** | success panel, table hover row | ground darkened 5% |

@@ -53,15 +53,3 @@ function kaimon_fishmongers_pattern_categories() {
 	);
 }
 add_action( 'init', 'kaimon_fishmongers_pattern_categories' );
-
-/**
- * "Basket (n)" in the footer corner stack, only when WooCommerce is active.
- *
- * @return string
- */
-function kaimon_fishmongers_basket_link() {
-	if ( ! function_exists( 'WC' ) || ! WC()->cart ) {
-		return '';
-	}
-	return '<a href="' . esc_url( wc_get_cart_url() ) . '">' . esc_html__( 'Basket', 'kaimon-fishmongers' ) . ' (' . (int) WC()->cart->get_cart_contents_count() . ')</a>';
-}
