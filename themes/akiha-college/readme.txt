@@ -47,6 +47,11 @@ All photographs are AI-generated for this theme and licensed GPL-2.0-or-later / 
 - assets/images/demo/j2.webp (copy imported into the Media Library for the journal entry); GPL-2.0-or-later / CC0
 - assets/images/j3.webp (home journal and post 3: bay two in the morning); GPL-2.0-or-later / CC0
 - assets/images/demo/j3.webp (copy imported into the Media Library for the journal entry); GPL-2.0-or-later / CC0
+- assets/images/a1.webp (About head: the founder at a workbench in the foundry shed); GPL-2.0-or-later / CC0
+- assets/images/p1.webp (Apprenticeship head: a row of six training boards); GPL-2.0-or-later / CC0
+- assets/images/s1.webp (How we judge head: the assessor on site); GPL-2.0-or-later / CC0
+- assets/images/o1.webp (Open board head and Employers trial week curtain: visitors at a board); GPL-2.0-or-later / CC0
+- assets/images/k1.webp (Contact head and Open board curtain: the college exterior); GPL-2.0-or-later / CC0
 
 == Copyright ==
 
