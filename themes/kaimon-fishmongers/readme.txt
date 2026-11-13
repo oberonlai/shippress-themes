@@ -27,7 +27,7 @@ The shop, its people, address, telephone number, boats and prices are fictional.
 == Copyright ==
 
 Kaimon Fishmongers is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Onest (OFL-1.1), Latin variable; Albert Sans (OFL-1.1), Latin variable, regular and italic; all WOFF2, see assets/fonts/.
+Fonts: Onest (OFL-1.1), Latin variable; Albert Sans (OFL-1.1), Latin variable, regular and italic; Noto Sans TC and Noto Sans JP (OFL-1.1), subset WOFF2 (regular and bold) for the Traditional Chinese and Japanese sample text; all WOFF2, see assets/fonts/.
 
 = Images =
 
