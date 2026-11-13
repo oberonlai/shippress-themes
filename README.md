@@ -286,6 +286,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/kogarashi-inn"><img src="https://shots.codotx.com/kogarashi-inn/home-desktop.webp" width="260" alt="Kogarashi Inn"></a><br><a href="themes/kogarashi-inn">Kogarashi Inn</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kogu-hardware"><img src="https://shots.codotx.com/kogu-hardware/home-desktop.webp" width="260" alt="Kogu Hardware"></a><br><a href="themes/kogu-hardware">Kogu Hardware</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/kohaku-brasserie"><img src="https://shots.codotx.com/kohaku-brasserie/home-desktop.webp" width="260" alt="Kohaku Brasserie"></a><br><a href="themes/kohaku-brasserie">Kohaku Brasserie</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/koke-garden"><img src="https://shots.codotx.com/koke-garden/home-desktop.webp" width="260" alt="Koke Garden"></a><br><a href="themes/koke-garden">Koke Garden</a></td>
 </tr>
 <tr>
