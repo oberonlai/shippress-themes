@@ -57,8 +57,8 @@ Prices for this week's board. They move with the boats; the board in the shop is
 ## Newsletter
 The Landing List, every Monday at 17:00: which boats are expected and what they will likely bring, about a three-minute read.
 
-## Pages (stage 2 builds the inner pages)
-Home, The Boats, The Counter, Cut to Order, The Day, Kitchens, About, People, Visit, Order (contact), The Landing List (newsletter), Journal (3 posts), Privacy.
+## Pages
+Home, The Boats, The Counter, Cut to Order, The Day, Kitchens, About, People, Visit, Order (contact), The Landing List (newsletter), Journal (posts page, one article), Privacy. Every inner page opens with a small catch head (three hanging dark fish photographs, a vertical plate with the page kicker, the headline) and a full-bleed dark head photograph with a white tab; ruled index rows with flush-right thumbnails carry the boats, cuts, kitchens, people and dates. Prices appear only as the eight-item board (identical everywhere). The order page and The Landing List use the shared form slot: a plugin form when one is active, otherwise a mailto button or an email field that opens the visitor's mail app and says they are not subscribed yet.
 
 ## Visual language
 Pale speckled paper ground, near-black ink, one tiny seal-red accent, tide and deep-sea slate for links and dark moments, film-grain low-key photographs, radius 0, no shadows. Fonts: Onest (headings), Albert Sans (body); Noto Sans TC / Noto Sans JP for the Chinese and Japanese editions.

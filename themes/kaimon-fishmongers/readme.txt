@@ -54,3 +54,7 @@ Images: AI-generated for this theme with Grok Build image_gen as low-key film-gr
 - assets/images/demo/p05-shrimp.webp (Raster copy of p05-shrimp for the sample shop products; same licence as above.)
 - assets/images/demo/l5-scallops.webp (Raster copy of l5-scallops for the sample shop products; same licence as above.)
 - assets/images/f1-evening.webp (Empty stainless steel counter being washed down with water and melting crushed ice.)
+- assets/images/a1-quay.webp (Fishmonger and a skipper checking crates of fish on a stone quay at dawn.)
+- assets/images/v1-shopfront.webp (Narrow fishmonger shopfront in the early morning with an open door and a steel ice counter inside.)
+- assets/images/r1-trim.webp (Kitchen porter carrying a steel tub of fish heads and frames on ice at the shop back door.)
+- assets/images/d1-wrap.webp (Hands tying waxed paper and string around a fish fillet on a steel counter.)
