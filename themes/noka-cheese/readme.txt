@@ -40,7 +40,11 @@ Photographs (assets/images/, with a copy in assets/images/demo/ that the importe
 - counter-band.webp (Long pale stone counter with whole wheels on oak shelves in morning light.)
 - choose-taste.webp (Monger offers a sliver of cheese on a knife tip to a customer's hand.)
 - noa-cellar.webp (Woman in a pale cellar turns a washed-rind wheel on a wooden board.)
+- board-two.webp, board-eight.webp (a board for two and a long board for eight, nobody in frame)
 - board-four.webp (Five cheeses with bread, quince and pickles on a pale wooden board.)
 - cellar-brushing.webp (Cellar keeper brushes orange rinds of small wheels lined on shelves.)
 - farm-goats.webp (Goats in a bright pale barn while two adults talk by the gate.)
 - tasting-table.webp (Six small cheeses in a row on a pale table as the host points.)
+
+Files: assets/images/board-eight.webp, assets/images/board-four.webp, assets/images/board-two.webp, assets/images/cellar-brushing.webp, assets/images/choose-taste.webp, assets/images/counter-band.webp, assets/images/farm-goats.webp, assets/images/hero-wire-cut.webp, assets/images/noa-cellar.webp, assets/images/statement-wrap.webp, assets/images/style-alpine.webp, assets/images/style-bloomy.webp, assets/images/style-blue.webp, assets/images/style-fresh.webp, assets/images/style-goat.webp, assets/images/style-washed.webp, assets/images/styles-arrangement.webp, assets/images/tasting-table.webp (all under GPL-2.0-or-later / CC0 as above).
+Demo copies: assets/images/demo/board-eight.webp, assets/images/demo/board-four.webp, assets/images/demo/board-two.webp, assets/images/demo/cellar-brushing.webp, assets/images/demo/choose-taste.webp, assets/images/demo/counter-band.webp, assets/images/demo/farm-goats.webp, assets/images/demo/hero-wire-cut.webp, assets/images/demo/noa-cellar.webp, assets/images/demo/statement-wrap.webp, assets/images/demo/style-alpine.webp, assets/images/demo/style-bloomy.webp, assets/images/demo/style-blue.webp, assets/images/demo/style-fresh.webp, assets/images/demo/style-goat.webp, assets/images/demo/style-washed.webp, assets/images/demo/styles-arrangement.webp, assets/images/demo/tasting-table.webp (same photographs, same license).

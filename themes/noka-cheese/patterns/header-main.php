@@ -21,7 +21,11 @@
 <!-- /wp:html -->
 
 <!-- wp:group {"className":"nk-bar__end","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group nk-bar__end"><?php if ( class_exists( 'WooCommerce' ) ) : ?>
+<div class="wp-block-group nk-bar__end"><?php if ( function_exists( 'pll_the_languages' ) ) : ?>
+<!-- wp:html -->
+<ul class="nk-lang"><?php pll_the_languages( array( 'show_names' => 0, 'show_flags' => 0, 'display_names_as' => 'slug', 'hide_current' => 0 ) ); ?></ul>
+<!-- /wp:html -->
+<?php endif; ?><?php if ( class_exists( 'WooCommerce' ) ) : ?>
 <!-- wp:woocommerce/mini-cart {"className":"nk-cart"} /-->
 <?php endif; ?>
 
