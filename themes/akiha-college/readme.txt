@@ -28,6 +28,26 @@ Scroll effects use the bundled sp-scroll files (assets/sp-scroll.css and assets/
 
 The college, its people, sites, prices and photographs are fictional.
 
+== Photographs ==
+
+All photographs are AI-generated for this theme and licensed GPL-2.0-or-later / CC0.
+
+- assets/images/h01.webp (home hero window: apprentice terminating an armoured cable while the instructor watches); GPL-2.0-or-later / CC0
+- assets/images/c1.webp (home case 01: finished distribution board in a bakery back room); GPL-2.0-or-later / CC0
+- assets/images/c2.webp (home case 02: cable tray run in a sports hall); GPL-2.0-or-later / CC0
+- assets/images/c3.webp (home case 03: isolator in a car park); GPL-2.0-or-later / CC0
+- assets/images/c4.webp (home case 04: tester at a motor isolator); GPL-2.0-or-later / CC0
+- assets/images/h02.webp (home: torque spanner on a brass gland); GPL-2.0-or-later / CC0
+- assets/images/f1.webp (home curtain: the workshop); GPL-2.0-or-later / CC0
+- assets/images/e1.webp (home employers: corridor under fit-out); GPL-2.0-or-later / CC0
+- assets/images/e2.webp (home employers: assessor and apprentice at a consumer unit); GPL-2.0-or-later / CC0
+- assets/images/j1.webp (home journal and post 1: brass gland and armour wires); GPL-2.0-or-later / CC0
+- assets/images/demo/j1.webp (copy imported into the Media Library for the journal entry); GPL-2.0-or-later / CC0
+- assets/images/j2.webp (home journal and post 2: newcomers at the college door); GPL-2.0-or-later / CC0
+- assets/images/demo/j2.webp (copy imported into the Media Library for the journal entry); GPL-2.0-or-later / CC0
+- assets/images/j3.webp (home journal and post 3: bay two in the morning); GPL-2.0-or-later / CC0
+- assets/images/demo/j3.webp (copy imported into the Media Library for the journal entry); GPL-2.0-or-later / CC0
+
 == Copyright ==
 
 Akiha College WordPress theme, (C) 2026 ShipPress. Distributed under the terms of the GNU GPL v2 or later. Photographs in assets/images are AI-generated for this theme and released under GPL-2.0-or-later / CC0. Bundled fonts are under the SIL Open Font License 1.1 (see assets/fonts/OFL-*.txt).

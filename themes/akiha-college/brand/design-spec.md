@@ -1,6 +1,6 @@
 # Akiha College: design spec (stage 1 spec, binding for implementation)
 
-Slug `akiha-college`, electrical apprenticeship college, type **business** (category education-classes; WooCommerce compatible, not required; the site must work with WooCommerce off). Row b30-2: archetype **editorial-magazine**, hero **framed-window**, nav **centered** (exactly one top menu), first screen **top-bottom-halves**, page structure **results-first-case-wall**, palette 紺鼠 (row hex `#4E5964`, family ink), fonts **Newsreader / Source Serif 4**, font_direction **serif**, CJK **Noto Serif TC / Noto Serif JP** (Mincho direction), five languages en, zh-TW, ja, fr, de.
+Slug `akiha-college`, electrical apprenticeship college, type **business** (category education-classes; WooCommerce compatible, not required; the site must work with WooCommerce off). Row b30-2: archetype **editorial-magazine**, hero **framed-window**, nav **centered** (exactly one top menu), first screen **top-bottom-halves**, page structure **results-first-case-wall**, palette Konnezumi (navy grey) (row hex `#4E5964`, family ink), fonts **Newsreader / Source Serif 4**, font_direction **serif**, CJK **Noto Serif TC / Noto Serif JP** (Mincho direction), five languages en, zh-TW, ja, fr, de.
 
 Reference (S5-Style, not in `steps/used-refs.txt`): **primary** https://www.landic.com/recruit/ (quiet mist-grey recruiting site, serif statement above a framed documentary photo, nav docked at the fold, sticky label rail, panels over a fixed photo). **Secondary** https://www.pro-seeds.com/ (structure only: figures strip, left label column, dated rows; its navy/yellow colours are NOT used). Measurements: `brand/reference-tokens.md`, quoted below as **RT(a)…RT(g)**. Screens: `brand/ref/landic-first.png`, `scroll-landic-900/1800/2700/4500/9000/14400/16200/18000/19800.png`, `seeds-first.png`.
 
@@ -164,11 +164,11 @@ Signatures continue on inner pages: T1 on 9 pages, T2 on 7, T3 on 5.
 | Card | `#F4F5F6` | **`#F4F5F6`** | < 1% | notice card, form fields surface |
 | Ink | `#222222` | **`#1F262C`** (≈ −1% L, cooler) | 3% | text, rules, arrow boxes, footer ground |
 | Muted | #222 @ 40% | `#5E666D` | — | captions, dates, inactive index (opacity .4 on ink) |
-| Slate (brand, row hex 紺鼠) | dark accent `#202028` button | **`#4E5964`** | ≈ 1% | header button, links hover, focus ring |
+| Slate (brand, row hex Konnezumi (navy grey)) | dark accent `#202028` button | **`#4E5964`** | ≈ 1% | header button, links hover, focus ring |
 | Copper accent | none | `#B8582B` | ≤ 0.5% (≤ 1.5% site-wide) | the 1px underline under "Signed by" and the case year tag only |
 | Rules | #222 low opacity | `rgba(31,38,44,.18)` | — | row rules |
 | Error / success (forms) | — | `#9A3A2C` / `#3E6B52` | — | form states only |
-Reason for the slate button instead of near-black: the row palette 紺鼠 `#4E5964`; white on it = 7.1:1. Saturated share: reference 8.4%; our cap **≤ 15%** (scripts/check-first-screen.py). Photos are graded cool and low-saturation (§7) so they carry the same "colour from the photograph only" relation.
+Reason for the slate button instead of near-black: the row palette Konnezumi (navy grey) `#4E5964`; white on it = 7.1:1. Saturated share: reference 8.4%; our cap **≤ 15%** (scripts/check-first-screen.py). Photos are graded cool and low-saturation (§7) so they carry the same "colour from the photograph only" relation.
 
 ## 5. Type (font_direction **serif**)
 - Latin display **Newsreader** (400, 500; variable opsz), Latin body **Source Serif 4** (400, 600). Both OFL, woff2 in `assets/fonts/`, loaded through **theme.json `fontFamilies` + `fontFace`** (editor and front end identical; check-editor-fonts.mjs must pass). Labels and nav use Source Serif 4 too (no sans anywhere; the reference's Inter labels become Source Serif 4 at the same sizes).
