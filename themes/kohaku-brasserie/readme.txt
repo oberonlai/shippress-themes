@@ -40,6 +40,8 @@ Photographs were generated with AI for this theme and are distributed under the 
 - assets/images/h09.webp (home afternoon; AI-generated photograph made for this theme, GPL-2.0-or-later)
 - assets/images/h10.webp (home menus; AI-generated photograph made for this theme, GPL-2.0-or-later)
 - assets/images/h11.webp (home booking band; AI-generated photograph made for this theme, GPL-2.0-or-later)
+- assets/images/h12.webp (The Kitchen; AI-generated photograph made for this theme, GPL-2.0-or-later)
+- assets/images/h13.webp (The Room; AI-generated photograph made for this theme, GPL-2.0-or-later)
 - assets/images/demo/h05.webp (demo-import copy of the h05 photograph for a note's featured image; AI-generated photograph made for this theme, GPL-2.0-or-later)
 - assets/images/demo/h07.webp (demo-import copy of the h07 photograph for a note's featured image; AI-generated photograph made for this theme, GPL-2.0-or-later)
 - assets/images/demo/h08.webp (demo-import copy of the h08 photograph for a note's featured image; AI-generated photograph made for this theme, GPL-2.0-or-later)

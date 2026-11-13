@@ -25,7 +25,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kb-foot__links"} -->
-<p class="kb-foot__links"><a href="/about/">The Room</a><br><a href="/the-day/">The Day</a><br><a href="/menus/">Menus &amp; Prices</a><br><a href="/kitchen/">The Kitchen</a><br><a href="/notes/">Notes</a></p>
+<p class="kb-foot__links"><a href="/about/">The Room</a><br><a href="/the-day/">The Day</a><br><a href="/menus/">Menus &amp; Prices</a><br><a href="/kitchen/">The Kitchen</a><br><a href="/notes/">Notes</a><br><a href="/book/">Book a table</a><br><a href="/contact/">Visit</a><br><a href="/newsletter/">The Monday letter</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

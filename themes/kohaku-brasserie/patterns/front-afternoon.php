@@ -10,7 +10,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kb-sec kb-pm","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kb-sec kb-pm"><!-- wp:group {"className":"kb-pm__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group kb-pm__grid"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-pm__photo sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full kb-pm__photo sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h09' ); ?>" alt="A small plate of food and black coffee sit beside a closed laptop computer."/></figure>
+<figure class="wp-block-image size-full kb-pm__photo sp-reveal sp-reveal--wipe"><img src="<?php echo kohaku_brasserie_img( 'h09' ); ?>" alt="A pear tart on a dark stoneware plate beside a cup of coffee and a closed laptop at a window table."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kb-pm__text sp-stagger","layout":{"type":"default"}} -->

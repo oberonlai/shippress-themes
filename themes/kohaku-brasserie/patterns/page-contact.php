@@ -1,0 +1,67 @@
+<?php
+/**
+ * Title: Page: Visit
+ * Slug: kohaku-brasserie/page-contact
+ * Categories: kohaku-brasserie
+ * Inserter: no
+ * Description: Inner page: Visit.
+ */
+?>
+<!-- wp:group {"tagName":"section","className":"kb-sec kb-page","layout":{"type":"default"}} -->
+<section class="wp-block-group kb-sec kb-page"><!-- wp:group {"className":"kb-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group kb-wrap"><!-- wp:group {"className":"kb-page__head","layout":{"type":"default"}} -->
+<div class="wp-block-group kb-page__head"><!-- wp:paragraph {"className":"kb-label"} -->
+<p class="kb-label">(visit)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"className":"kb-page__title"} -->
+<h1 class="wp-block-heading kb-page__title">Visit</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kb-page__lead"} -->
+<p class="kb-page__lead">Find the room on Arcade Row, or write to us before you come.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kb-page__img"} -->
+<figure class="wp-block-image size-full kb-page__img"><img src="<?php echo kohaku_brasserie_img( 'h11' ); ?>" alt="The restaurant entrance features an open reservation ledger beside a wooden coat stand."/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"kb-page__cols","layout":{"type":"default"}} -->
+<div class="wp-block-group kb-page__cols"><!-- wp:group {"className":"kb-page__col","layout":{"type":"default"}} -->
+<div class="wp-block-group kb-page__col"><!-- wp:paragraph -->
+<p>14 Arcade Row<br>Old Exchange Quarter, Lowmarket</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tue–Sat 11:30–00:00<br>Sun 11:30–17:00<br>Mon closed</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kb-page__col","layout":{"type":"default"}} -->
+<div class="wp-block-group kb-page__col"><!-- wp:paragraph -->
+<p><a href="mailto:bookings@kohaku-brasserie.example">bookings@kohaku-brasserie.example</a><br>+00 20 7000 0414</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>To reserve a table, use <a href="/book/">Book a Table</a>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kb-page__form","layout":{"type":"default"}} -->
+<div class="wp-block-group kb-page__form"><?php
+ob_start();
+?>
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"kb-btn"} -->
+<div class="wp-block-button kb-btn"><a class="wp-block-button__link wp-element-button" href="mailto:bookings@kohaku-brasserie.example"><?php echo esc_html( kohaku_brasserie_t( 'contact_email' ) ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+<?php
+$fallback = ob_get_clean();
+echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $fallback ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+?></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
