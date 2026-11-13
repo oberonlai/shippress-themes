@@ -1,4 +1,4 @@
-# Reference (draft - the "our counterpart" column is filled in after the build)
+# Reference (our counterpart column = planned build, see design-spec.md)
 
 Primary: https://www.landic.com/recruit/ (first screen, `ref/landic-first.png`; scroll states `ref/scroll-landic-900.png`, `-1800`, `-2700`, `-4500`, `-9000`, `-14400`, `-16200`, `-18000`, `-19800`).
 Secondary: https://www.pro-seeds.com/ (`ref/seeds-first.png`; figures strip, left label column and dated rows).
@@ -10,9 +10,9 @@ The brief is a quiet documentary college whose first screen shows the work (an a
 ## Signature candidates (3 adopted)
 | # | Technique | Source | Our counterpart |
 |---|---|---|---|
-| T1 | Serif statement over a full-width framed photo window with the navigation bar docked directly under the window at the fold; the bar then rides up and sticks to the top | primary, `ref/landic-first.png`, `ref/scroll-landic-900.png` | (fill after build) |
-| T2 | Sticky left label rail (Latin label + "View all" box) with a case index whose active entry is dark and others dimmed, beside a stack of wide case photos with "(01)" captions | primary, `ref/scroll-landic-9000.png`, `ref/scroll-landic-14400.png` | (fill after build) |
-| T3 | Pale ground panels slide over a fixed full-bleed photograph; a pale serif line sits in the slit where the photo shows between two panels | primary, `ref/scroll-landic-16200.png`, `ref/scroll-landic-18000.png` | (fill after build) |
+| T1 | Serif statement over a full-width framed photo window with the navigation bar docked directly under the window at the fold; the bar then rides up and sticks to the top | primary, `ref/landic-first.png`, `ref/scroll-landic-900.png` | Home hero: H1 "Would you sign this off?" (Newsreader 4.75rem, one line, x30) over framed window H01 (x30 y277, 2.42:1, radius 0, sp-parallax 8%); header (59px, centred links, slate "Apply for a place") docked under the window at the fold, then sticky. Inner pages: serif H1 + 2.42:1 framed window head on 9 pages. |
+| T2 | Sticky left label rail (Latin label + "View all" box) with a case index whose active entry is dark and others dimmed, beside a stack of wide case photos with "(01)" captions | primary, `ref/scroll-landic-9000.png`, `ref/scroll-landic-14400.png` | Home blocks 2, 4, 6, 7, 8: sticky 208px rail (dash, label, index of the four cases dimmed to .4, "View all" + arrow box) beside the 1018px column at x377 with 1.85:1 case photos C1-C4 and "(01)" marks, ruled assessment rows, fee table and journal rows. Inner: Work, How we judge, Apprenticeship, Fees, Instructors, Contact, Journal. |
+| T3 | Pale ground panels slide over a fixed full-bleed photograph; a pale serif line sits in the slit where the photo shows between two panels | primary, `ref/scroll-landic-16200.png`, `ref/scroll-landic-18000.png` | Home block 5 "On site": full-bleed Cover F1 (sp-parallax 12%), pale #E6EAEB panels in the 1018 column, a 240px slit with the white serif line "Nobody signs off work they have not watched." Inner: About, Apprenticeship, How we judge, Employers, Open board. |
 Candidates not taken: alternating sticky half-width photo swap (too close to existing sticky photo columns), figures strip with marquee (too close to existing ticker ledgers).
 
 ## Measured tokens
