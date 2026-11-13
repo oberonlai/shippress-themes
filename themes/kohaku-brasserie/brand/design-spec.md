@@ -121,7 +121,7 @@ Standard map in theme-meta: home, about→The Room, news→Notes, article→firs
 | `paper` | `#F6F3EC` | ~12% | sasa white paper bands, warmed so it never reads pure white; also text on photo |
 | `espresso` (night bands, footer) | `#1D1915` | ~25% | sasa dim fire scene, darkened warm |
 | `ink` (text) | `#26221D` | text | ao slate `#4F545A` relationship (dark neutral on stone) moved warm so it pairs with clove; contrast 11.2:1 on stone |
-| `clove` (mid, row colour) | `#7A6A56` | ~8% | row palette 丁子茶; rules, labels, small fills; ink-on-clove not used for body |
+| `clove` (mid, row colour) | `#7A6A56` | ~8% | row palette "clove brown" (chojicha); rules, labels, small fills; ink-on-clove not used for body |
 | `clove-text` | `#5E5141` | labels | clove darkened for AA small text on stone (5.0:1) |
 | `amber` (accent) | `#B98A45` | <2% | lamp light; only the hero disc, the Book underline, focus outline on dark |
 | `hairline` | `rgba(38,34,29,.18)` | — | sasa `#C8C8C8` row separators |
@@ -129,7 +129,7 @@ Not cream/beige (stone is a grey-green neutral). First-screen saturated share: t
 
 ## 6. Typography (serif)
 - **Latin display:** Fraunces (variable, opsz 144, weight 300 for display, 400 for nav/wordmark). **Latin body:** Literata (400/500, italic 400). Both self-hosted woff2 via **theme.json `fontFamilies` + `fontFace`** (editor = front end).
-- **CJK (serif direction, 明體):** zh-TW display stack `"Fraunces", "Noto Serif TC", "Songti TC", serif`; ja display stack `"Fraunces", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif`. Bundle Noto Serif TC and Noto Serif JP **subsets** (weights 400/600) as fontFace in theme.json using the Hokuto/Hada substitute subsetting (the zh subset script is known broken). Body CJK stacks use system serif only: zh-TW `"Literata", "Songti TC", "PMingLiU", serif`; ja `"Literata", "Hiragino Mincho ProN", "Yu Mincho", serif` (repo contract: zh body stack must not contain the bundled zh family or a JP family). `:lang()` rules → copy `shared/inc/editor-lang.php` to `inc/` and require it. CJK sizes ≈ 0.75× Latin, body lh 1.85; fr/de `hyphens: auto`.
+- **CJK (serif direction, Mincho):** zh-TW display stack `"Fraunces", "Noto Serif TC", "Songti TC", serif`; ja display stack `"Fraunces", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif`. Bundle Noto Serif TC and Noto Serif JP **subsets** (weights 400/600) as fontFace in theme.json using the Hokuto/Hada substitute subsetting (the zh subset script is known broken). Body CJK stacks use system serif only: zh-TW `"Literata", "Songti TC", "PMingLiU", serif`; ja `"Literata", "Hiragino Mincho ProN", "Yu Mincho", serif` (repo contract: zh body stack must not contain the bundled zh family or a JP family). `:lang()` rules → copy `shared/inc/editor-lang.php` to `inc/` and require it. CJK sizes ≈ 0.75× Latin, body lh 1.85; fr/de `hyphens: auto`.
 - **Scale (theme.json fontSizes):** `display-xl` clamp(4.25rem, 8.3vw, **7.5rem**) ls −0.05em lh 1.0 (T(b) sasa 120px / ls −6px) · `display` clamp(2.75rem, 5.2vw, 5.5rem) lh 1.02 (hero H1) · `h2` clamp(2.25rem, 3.6vw, 3.5rem) lh 1.15 (T(b) ao 56px / lh 70px) · `h3` 1.5rem lh 1.6 ls 0.04em (sasa H3 24px) · `body` 1.0625rem lh 1.85 (T(b) 14–16px scaled up for legibility) · `small` 0.875rem · `label` 0.8125rem lh 1.55 in parentheses `(the room)`, sentence case (T(b) 13px / 20px). Nav Fraunces 400 1rem ls −0.025em (sasa 16px / −0.4px). Largest size 7.5rem ≥ 4.25rem ✓; mobile minimum of the largest preset 4.25rem.
 
 ## 7. Motion and scroll (sp-scroll only; hero has no reveal)
