@@ -100,7 +100,7 @@
 <!-- wp:group {"className":"nk-cell nk-cell--photo sp-reveal sp-reveal--zoom","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-cell nk-cell--photo sp-reveal sp-reveal--zoom"><!-- wp:group {"className":"nk-photo-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-photo-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-pebble nk-pebble--a"} -->
-<figure class="wp-block-image size-full nk-pebble nk-pebble--a"><img src="<?php echo noka_cheese_img( 'noa-cellar.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_monger' ) ); ?>" width="1400" height="1400"/></figure>
+<figure class="wp-block-image size-full nk-pebble nk-pebble--a"><img src="<?php echo noka_cheese_img( 'noa-cellar.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_monger' ) ); ?>" width="1024" height="1024"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

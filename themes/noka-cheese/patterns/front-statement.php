@@ -12,7 +12,7 @@
 <div class="wp-block-group alignfull nk-row nk-row--statement"><!-- wp:group {"className":"nk-cell nk-cell--photo nk-sticky","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-cell nk-cell--photo nk-sticky"><!-- wp:group {"className":"nk-photo-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-photo-wrap"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"nk-pebble nk-pebble--b"} -->
-<figure class="wp-block-image size-full nk-pebble nk-pebble--b"><img src="<?php echo noka_cheese_img( 'statement-wrap.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_statement' ) ); ?>" width="1400" height="1400"/></figure>
+<figure class="wp-block-image size-full nk-pebble nk-pebble--b"><img src="<?php echo noka_cheese_img( 'statement-wrap.webp' ); ?>" alt="<?php echo esc_attr( noka_cheese_t( 'alt_statement' ) ); ?>" width="1024" height="1024"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

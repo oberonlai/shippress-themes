@@ -32,3 +32,15 @@ Fonts: Albert Sans (OFL-1.1), Latin variable; Instrument Sans (OFL-1.1), Latin v
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the shop is fictional). No transparent cut-outs are used. See assets/images/.
+Photographs (assets/images/, with a copy in assets/images/demo/ that the importer uses for the Media Library):
+- hero-wire-cut.webp (Monger draws a steel wire through an orange washed-rind wheel as a customer watches.)
+- statement-wrap.webp (Two hands fold two-layer cheese paper around a wedge beside a pencil.)
+- styles-arrangement.webp (Six different cheeses rest together on smooth pale plaster forms.)
+- style-fresh.webp, style-bloomy.webp, style-washed.webp, style-alpine.webp, style-blue.webp, style-goat.webp (one photograph for each of the six cheese styles)
+- counter-band.webp (Long pale stone counter with whole wheels on oak shelves in morning light.)
+- choose-taste.webp (Monger offers a sliver of cheese on a knife tip to a customer's hand.)
+- noa-cellar.webp (Woman in a pale cellar turns a washed-rind wheel on a wooden board.)
+- board-four.webp (Five cheeses with bread, quince and pickles on a pale wooden board.)
+- cellar-brushing.webp (Cellar keeper brushes orange rinds of small wheels lined on shelves.)
+- farm-goats.webp (Goats in a bright pale barn while two adults talk by the gate.)
+- tasting-table.webp (Six small cheeses in a row on a pale table as the host points.)
