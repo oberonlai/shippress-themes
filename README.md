@@ -391,6 +391,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/nodoka-counselling"><img src="https://shots.codotx.com/nodoka-counselling/home-desktop.webp" width="260" alt="Nodoka Counselling"></a><br><a href="themes/nodoka-counselling">Nodoka Counselling</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/nohara-park"><img src="https://shots.codotx.com/nohara-park/home-desktop.webp" width="260" alt="Nohara Holiday Park"></a><br><a href="themes/nohara-park">Nohara Holiday Park</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/noka-cheese"><img src="https://shots.codotx.com/noka-cheese/home-desktop.webp" width="260" alt="Noka Cheese"></a><br><a href="themes/noka-cheese">Noka Cheese</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/nuno-workwear"><img src="https://shots.codotx.com/nuno-workwear/home-desktop.webp" width="260" alt="Nuno Workwear"></a><br><a href="themes/nuno-workwear">Nuno Workwear</a></td>
 </tr>
 <tr>
