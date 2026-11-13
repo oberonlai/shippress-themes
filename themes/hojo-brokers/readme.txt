@@ -48,3 +48,7 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/case-print-workshop.webp (cases: print workshop)
 - assets/images/about-mezzanine-office.webp (about and contact band: the mezzanine office)
 - assets/images/demo/wording-read-aloud.webp (copy of the wording photo, imported as the article featured image)
+
+== Changelog ==
+= 1.0.1 =
+* Updated theme files (inc/i18n/de.php, inc/i18n/en.php, inc/i18n/fr.php, inc/i18n/ja.php and 1 more).
