@@ -20,13 +20,7 @@
 
 <!-- wp:paragraph {"className":"nk-lead nk-lead--page"} -->
 <p class="nk-lead nk-lead--page"><?php echo wp_kses_post( noka_cheese_t( 'bd_intro' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:buttons {"className":"nk-pills"} -->
-<div class="wp-block-buttons nk-pills"><!-- wp:button {"className":"nk-pill nk-pill--solid"} -->
-<div class="wp-block-button nk-pill nk-pill--solid"><a class="wp-block-button__link wp-element-button" href="/shop/"><?php echo wp_kses_post( noka_cheese_t( 'cta_reserve_arrow' ) ); ?></a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nk-cell nk-cell--photo","layout":{"type":"default"}} -->
