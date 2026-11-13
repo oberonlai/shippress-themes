@@ -8,6 +8,8 @@ Koori Cold Stores is a regional cold-storage operator at Northmere Port. A shipp
 - `assets/shippress-forms.css`, `inc/shippress-forms.php`: optional contact and newsletter forms (mailto fallback without plugins).
 - `inc/i18n/<lang>.php`: theme strings; `demo-content.json`: sample content.
 
+Navigation: one top menu (Rooms, Booking and Rates anchor to the front page; About and Journal are separate pages). Fonts: Schibsted Grotesk (display) and Onest (text), both OFL-1.1, listed in `theme-meta.json`. `screenshot.png` is the 1440x900 front page.
+
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.

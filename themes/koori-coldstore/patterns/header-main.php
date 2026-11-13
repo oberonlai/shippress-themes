@@ -28,7 +28,7 @@
 
 <!-- wp:buttons {"className":"kc-header__cta"} -->
 <div class="wp-block-buttons kc-header__cta"><!-- wp:button {"className":"kc-btn"} -->
-<div class="wp-block-button kc-btn"><a class="wp-block-button__link wp-element-button" href="<?php echo koori_coldstore_url( '/ask/' ); ?>"><?php echo esc_html( koori_coldstore_t( 'cta_ask' ) ); ?></a></div>
+<div class="wp-block-button kc-btn"><a class="wp-block-button__link wp-element-button" href="<?php echo koori_coldstore_url( '/ask/' ); ?>"><span class="kc-cta-full"><?php echo esc_html( koori_coldstore_t( 'cta_ask' ) ); ?></span><span class="kc-cta-short"><?php echo esc_html( koori_coldstore_t( 'cta_ask_short' ) ); ?></span></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
