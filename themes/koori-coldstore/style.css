@@ -54,6 +54,15 @@ html { scroll-behavior: auto; }
 body { overflow-wrap: break-word; }
 :lang(fr) :is(body, h2, h3, p), :lang(de) :is(body, h2, h3, p) { hyphens: auto; }
 :lang(fr) :is(.kc-giant, .kc-sublabel, .kc-wordmark, .kc-tilt), :lang(de) :is(.kc-giant, .kc-sublabel, .kc-wordmark, .kc-tilt) { hyphens: none; }
+/* check-themes: :root:lang(zh) must set WordPress preset stacks. Display lists bundled Noto Sans TC; body uses system Traditional Chinese faces. */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Onest", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+	--wp--preset--font-family--body: "Onest", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+}
 :root:lang(zh-TW) .kc-h1, :root:lang(zh-TW) h2, :root:lang(zh-TW) h3, :root:lang(zh-TW) .kc-wordmark, :root:lang(zh-TW) .kc-tilt { font-family: "Schibsted Grotesk", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; }
 :root:lang(zh-TW) body { font-family: "Onest", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif; line-height: 1.85; letter-spacing: .04em; }
 :root:lang(ja) .kc-h1, :root:lang(ja) h2, :root:lang(ja) h3, :root:lang(ja) .kc-wordmark, :root:lang(ja) .kc-tilt { font-family: "Schibsted Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif; }
