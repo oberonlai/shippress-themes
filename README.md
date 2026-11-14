@@ -521,34 +521,35 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/urushi-nuri"><img src="https://shots.codotx.com/urushi-nuri/home-desktop.webp" width="260" alt="Urushi Nuri"></a><br><a href="themes/urushi-nuri">Urushi Nuri</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/ushio-line"><img src="https://shots.codotx.com/ushio-line/home-desktop.webp" width="260" alt="Ushio Line"></a><br><a href="themes/ushio-line">Ushio Line</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/wagu-mono"><img src="https://shots.codotx.com/wagu-mono/home-desktop.webp" width="260" alt="Wagu Mono"></a><br><a href="themes/wagu-mono">Wagu Mono</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/utsushi-films"><img src="https://shots.codotx.com/utsushi-films/home-desktop.webp" width="260" alt="Utsushi Films"></a><br><a href="themes/utsushi-films">Utsushi Films</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/wagu-mono"><img src="https://shots.codotx.com/wagu-mono/home-desktop.webp" width="260" alt="Wagu Mono"></a><br><a href="themes/wagu-mono">Wagu Mono</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/waku-exhibits"><img src="https://shots.codotx.com/waku-exhibits/home-desktop.webp" width="260" alt="Waku Exhibits"></a><br><a href="themes/waku-exhibits">Waku Exhibits</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/wariate-shifts"><img src="https://shots.codotx.com/wariate-shifts/home-desktop.webp" width="260" alt="Wariate Shifts"></a><br><a href="themes/wariate-shifts">Wariate Shifts</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yamabiko-outdoor-supply"><img src="https://shots.codotx.com/yamabiko-outdoor-supply/home-desktop.webp" width="260" alt="Yamabiko Outdoor Supply"></a><br><a href="themes/yamabiko-outdoor-supply">Yamabiko Outdoor Supply</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yamabiko-outdoor-supply"><img src="https://shots.codotx.com/yamabiko-outdoor-supply/home-desktop.webp" width="260" alt="Yamabiko Outdoor Supply"></a><br><a href="themes/yamabiko-outdoor-supply">Yamabiko Outdoor Supply</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yanagi-hygiene"><img src="https://shots.codotx.com/yanagi-hygiene/home-desktop.webp" width="260" alt="Yanagi Hygiene"></a><br><a href="themes/yanagi-hygiene">Yanagi Hygiene</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yawara-rheumatology"><img src="https://shots.codotx.com/yawara-rheumatology/home-desktop.webp" width="260" alt="Yawara Rheumatology"></a><br><a href="themes/yawara-rheumatology">Yawara Rheumatology</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yoake-patisserie"><img src="https://shots.codotx.com/yoake-patisserie/home-desktop.webp" width="260" alt="Yoake Patisserie"></a><br><a href="themes/yoake-patisserie">Yoake Patisserie</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yoake-patisserie"><img src="https://shots.codotx.com/yoake-patisserie/home-desktop.webp" width="260" alt="Yoake Patisserie"></a><br><a href="themes/yoake-patisserie">Yoake Patisserie</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yohaku-studio"><img src="https://shots.codotx.com/yohaku-studio/home-desktop.webp" width="260" alt="Yohaku Studio"></a><br><a href="themes/yohaku-studio">Yohaku Studio</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yoru-bar"><img src="https://shots.codotx.com/yoru-bar/home-desktop.webp" width="260" alt="Yoru Bar"></a><br><a href="themes/yoru-bar">Yoru Bar</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yoru-chocolate"><img src="https://shots.codotx.com/yoru-chocolate/home-desktop.webp" width="260" alt="Yoru Chocolate"></a><br><a href="themes/yoru-chocolate">Yoru Chocolate</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yoru-chocolate"><img src="https://shots.codotx.com/yoru-chocolate/home-desktop.webp" width="260" alt="Yoru Chocolate"></a><br><a href="themes/yoru-chocolate">Yoru Chocolate</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yose-rakugo"><img src="https://shots.codotx.com/yose-rakugo/home-desktop.webp" width="260" alt="Yose Rakugo"></a><br><a href="themes/yose-rakugo">Yose Rakugo</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuge-sento"><img src="https://shots.codotx.com/yuge-sento/home-desktop.webp" width="260" alt="Yuge Sento"></a><br><a href="themes/yuge-sento">Yuge Sento</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yui-credit-union"><img src="https://shots.codotx.com/yui-credit-union/home-desktop.webp" width="260" alt="Yui Credit Union"></a><br><a href="themes/yui-credit-union">Yui Credit Union</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yui-credit-union"><img src="https://shots.codotx.com/yui-credit-union/home-desktop.webp" width="260" alt="Yui Credit Union"></a><br><a href="themes/yui-credit-union">Yui Credit Union</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="https://shots.codotx.com/yukimi-kakigori/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yukisaki-route"><img src="https://shots.codotx.com/yukisaki-route/home-desktop.webp" width="260" alt="Yukisaki Route"></a><br><a href="themes/yukisaki-route">Yukisaki Route</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yuragi-spa"><img src="https://shots.codotx.com/yuragi-spa/home-desktop.webp" width="260" alt="Yuragi Spa"></a><br><a href="themes/yuragi-spa">Yuragi Spa</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yuragi-spa"><img src="https://shots.codotx.com/yuragi-spa/home-desktop.webp" width="260" alt="Yuragi Spa"></a><br><a href="themes/yuragi-spa">Yuragi Spa</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="https://shots.codotx.com/yuzu-chaya/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
 </table>
