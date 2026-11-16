@@ -41,4 +41,4 @@ Supporting: eyebrow with a 76px rule, dash-flanked labels, a 1px line dropping i
 Real documentary colour photographs of couples travelling (generated for this theme): natural light, muted greens, shallow depth of field, foreground leaf blur; no text, no logos, no cut-outs.
 
 ## Pages
-home, questions, sample-trips, destinations, how-it-works, prices, about, planners, planning-call (contact and the single way to book), letter (newsletter), privacy, journal (posts page); three posts. Stage one ships the home page and one post.
+home, questions, sample-trips, destinations, how-it-works, prices, about, planners, planning-call (contact and the single way to book), letter (newsletter), privacy, journal (posts page); one post ("What we ask on the first call"). Inner pages carry the three signature techniques: the three-question foot on the page heads of questions, sample-trips, destinations, how-it-works, prices and about; the photo pair on destinations, how-it-works, about and planners; itinerary cards on questions, sample-trips, destinations, prices and the journal; a parallax band on questions, sample-trips, destinations and how-it-works.
