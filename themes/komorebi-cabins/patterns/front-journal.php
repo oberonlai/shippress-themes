@@ -11,11 +11,11 @@
 <section class="wp-block-group alignfull kc-section kc-journal"><!-- wp:group {"className":"kc-journal__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-journal__in"><!-- wp:group {"className":"kc-titlebar","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-titlebar"><!-- wp:heading {"level":2,"className":"kc-title"} -->
-<h2 class="wp-block-heading kc-title">Journal</h2>
+<h2 class="wp-block-heading kc-title"><?php echo wp_kses_post( komorebi_cabins_t( 'k6b2b5614' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-bracket"} -->
-<p class="kc-bracket">[ stories from the forest ]</p>
+<p class="kc-bracket"><?php echo wp_kses_post( komorebi_cabins_t( 'kf2c753c2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -34,7 +34,7 @@
 <!-- /wp:query -->
 
 <!-- wp:paragraph {"className":"kc-journal__more"} -->
-<p class="kc-journal__more"><a href="/journal/">Read the journal →</a></p>
+<p class="kc-journal__more"><a href="/journal/"><?php echo wp_kses_post( komorebi_cabins_t( 'k9daf1b4b' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

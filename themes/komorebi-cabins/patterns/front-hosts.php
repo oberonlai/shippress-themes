@@ -10,86 +10,86 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-section kc-hosts","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-section kc-hosts"><!-- wp:group {"className":"kc-hosts__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hosts__in"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-hosts__photo"} -->
-<figure class="wp-block-image size-full kc-hosts__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/host-portrait.webp' ) ); ?>" alt="Host in a wool jacket sitting on a cabin porch step beside an axe."/></figure>
+<figure class="wp-block-image size-full kc-hosts__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/host-portrait.webp' ) ); ?>" alt="<?php echo esc_attr( komorebi_cabins_t( 'ac97931f2' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kc-hosts__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hosts__text sp-stagger"><!-- wp:heading {"level":2,"className":"kc-statement sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kc-statement sp-reveal sp-reveal--up">Who looks after the cabins</h2>
+<h2 class="wp-block-heading kc-statement sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'kd16d5a86' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-lead sp-reveal sp-reveal--up"} -->
-<p class="kc-lead sp-reveal sp-reveal--up">Ilse Marten and Ruben Okafor built the first four cabins in 2014 and still live on the land. Seven people now look after thirty-eight hectares of cedar and beech and twelve cabins: they split the wood, turn the beds between eleven and three, and answer the phone every day from half past eight.</p>
+<p class="kc-lead sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'k074e6229' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-ruled sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k kc-name"} -->
-<p class="kc-ruled__k kc-name">Ilse Marten</p>
+<p class="kc-ruled__k kc-name"><?php echo wp_kses_post( komorebi_cabins_t( 'kc9cbbaca' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">Co-founder, host</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k99e74999' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k kc-name"} -->
-<p class="kc-ruled__k kc-name">Ruben Okafor</p>
+<p class="kc-ruled__k kc-name"><?php echo wp_kses_post( komorebi_cabins_t( 'kdb5850af' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">Co-founder, woodsman and repairs</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kcfe7cb8c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k kc-name"} -->
-<p class="kc-ruled__k kc-name">Sofia Navarro</p>
+<p class="kc-ruled__k kc-name"><?php echo wp_kses_post( komorebi_cabins_t( 'k76d61fac' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">Housekeeping lead</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k6a5c1ee9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k kc-name"} -->
-<p class="kc-ruled__k kc-name">Amira Haddad</p>
+<p class="kc-ruled__k kc-name"><?php echo wp_kses_post( komorebi_cabins_t( 'kf325961f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">Bookings and the office</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k3f205f6e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k kc-name"} -->
-<p class="kc-ruled__k kc-name">Tobias Klein</p>
+<p class="kc-ruled__k kc-name"><?php echo wp_kses_post( komorebi_cabins_t( 'k257084ae' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">Carpentry</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kc6dca424' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k kc-name"} -->
-<p class="kc-ruled__k kc-name">Nora Adeyemi</p>
+<p class="kc-ruled__k kc-name"><?php echo wp_kses_post( komorebi_cabins_t( 'k4bb05712' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">Weekend host</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k479e9b6a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k kc-name"} -->
-<p class="kc-ruled__k kc-name">Jonah Pereira</p>
+<p class="kc-ruled__k kc-name"><?php echo wp_kses_post( komorebi_cabins_t( 'k7f66d41f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">Forest walks and trails</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k2fb674a0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -10,24 +10,24 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-head","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-head"><!-- wp:group {"className":"kc-head__photo sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-head__photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/keys-office.webp' ) ); ?>" alt="Host handing a key on a wooden tag to a guest across a timber counter in the woodshed office."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/keys-office.webp' ) ); ?>" alt="<?php echo esc_attr( komorebi_cabins_t( 'a1fa8a8d2' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-head__gutter","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-head__gutter"><!-- wp:paragraph {"className":"kc-head__kicker"} -->
-<p class="kc-head__kicker">One way to hold a weekend</p>
+<p class="kc-head__kicker"><?php echo wp_kses_post( komorebi_cabins_t( 'k4858cbbd' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":1,"className":"kc-head__h1"} -->
-<h1 class="wp-block-heading kc-head__h1">Reserve</h1>
+<h1 class="wp-block-heading kc-head__h1"><?php echo wp_kses_post( komorebi_cabins_t( 'k66f9c6c5' ) ); ?></h1>
 <!-- /wp:heading --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-intro-in","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-intro-in"><!-- wp:paragraph {"className":"kc-lead kc-pintro"} -->
-<p class="kc-lead kc-pintro">We use a straightforward four-step process to hold your cabin without automated booking rush. Submit your dates, and our office will place a personal forty-eight-hour hold while you finalize arrangements.</p>
+<p class="kc-lead kc-pintro"><?php echo wp_kses_post( komorebi_cabins_t( 'kd6895286' ) ); ?></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->
 
@@ -35,11 +35,11 @@
 <section class="wp-block-group alignfull kc-sec"><!-- wp:group {"className":"kc-list__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-list__in"><!-- wp:group {"className":"kc-titlebar","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-titlebar"><!-- wp:heading {"level":2,"className":"kc-title"} -->
-<h2 class="wp-block-heading kc-title">One way to hold a weekend</h2>
+<h2 class="wp-block-heading kc-title"><?php echo wp_kses_post( komorebi_cabins_t( 'k4858cbbd' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-bracket"} -->
-<p class="kc-bracket">[ four steps ]</p>
+<p class="kc-bracket"><?php echo wp_kses_post( komorebi_cabins_t( 'k7862711d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -50,7 +50,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-step__t"} -->
-<p class="kc-step__t"><strong>Choose a cabin and dates</strong><br>Friday to Sunday, or two midweek nights.</p>
+<p class="kc-step__t"><strong><?php echo wp_kses_post( komorebi_cabins_t( 'kab4ecf47' ) ); ?></strong><br><?php echo wp_kses_post( komorebi_cabins_t( 'k866013d9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -60,7 +60,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-step__t"} -->
-<p class="kc-step__t"><strong>Send the hold request</strong><br>Use the form below, or write to us.</p>
+<p class="kc-step__t"><strong><?php echo wp_kses_post( komorebi_cabins_t( 'k1128189c' ) ); ?></strong><br><?php echo wp_kses_post( komorebi_cabins_t( 'keac596c9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -70,7 +70,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-step__t"} -->
-<p class="kc-step__t"><strong>We hold it for 48 hours</strong><br>Our confirmation email carries a 30% deposit link.</p>
+<p class="kc-step__t"><strong><?php echo wp_kses_post( komorebi_cabins_t( 'k5ddaa3f1' ) ); ?></strong><br><?php echo wp_kses_post( komorebi_cabins_t( 'k2551a1d9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -80,7 +80,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-step__t"} -->
-<p class="kc-step__t"><strong>Arrive from 15:00</strong><br>Keys wait at the woodshed office.</p>
+<p class="kc-step__t"><strong><?php echo wp_kses_post( komorebi_cabins_t( 'ke8e00bdd' ) ); ?></strong><br><?php echo wp_kses_post( komorebi_cabins_t( 'ke7777d67' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -90,12 +90,12 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-sec","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-sec"><!-- wp:group {"className":"kc-sec__in sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-sec__in sp-stagger"><!-- wp:heading {"level":2,"className":"kc-sec__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kc-sec__h sp-reveal sp-reveal--up">How do you hold a weekend cabin?</h2>
+<h2 class="wp-block-heading kc-sec__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'k3edae396' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"kc-sec__body","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-sec__body"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Holding a cabin at Komorebi Cabins follows a calm, personal sequence designed to make planning simple. First, choose your preferred cabin size and dates, selecting either a two-night weekend from Friday to Sunday or two midweek nights from Monday to Thursday. Second, send us your hold request by completing the form below or emailing us directly at stay@komorebi-cabins.example. Third, our booking manager Amira Haddad will place a provisional hold on the cabin for forty-eight hours and email you a confirmation containing a link for the thirty percent deposit. Once your deposit is received within the forty-eight-hour window, your weekend is secured. Fourth, arrive at the forest on your start date from fifteen o'clock onwards, where your keys and orientation notes will be waiting at the woodshed office.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'k7cd2629c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -105,62 +105,62 @@
 <section class="wp-block-group alignfull kc-sec kc-list kc-terms"><!-- wp:group {"className":"kc-list__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-list__in"><!-- wp:group {"className":"kc-titlebar","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-titlebar"><!-- wp:heading {"level":2,"className":"kc-title"} -->
-<h2 class="wp-block-heading kc-title">The terms</h2>
+<h2 class="wp-block-heading kc-title"><?php echo wp_kses_post( komorebi_cabins_t( 'kc8d8f71d' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-bracket"} -->
-<p class="kc-bracket">[ plain and short ]</p>
+<p class="kc-bracket"><?php echo wp_kses_post( komorebi_cabins_t( 'k13bf3246' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled kc-terms","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled kc-terms"><!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Hold</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kbcd8db57' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">48 hours, no payment yet</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k2b0be4df' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Deposit</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k92f80bd5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">30%, by link in our email</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kdc0a922a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Free cancellation</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k86ef189a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">until 14 days before arrival</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k585fc183' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">After that</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kfb7b449f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">the deposit is kept</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kfe33339d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Minimum stay</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k1c3b4b16' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">2 nights</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k0bcab51c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -170,12 +170,12 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-sec","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-sec"><!-- wp:group {"className":"kc-sec__in sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-sec__in sp-stagger"><!-- wp:heading {"level":2,"className":"kc-sec__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kc-sec__h sp-reveal sp-reveal--up">What are the deposit and cancellation terms?</h2>
+<h2 class="wp-block-heading kc-sec__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'kb8ff6dd3' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"kc-sec__body","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-sec__body"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">To confirm any reservation, a thirty percent deposit is required within forty-eight hours of receiving your booking email, with the remaining balance settled prior to arrival. We recognize that schedules can change, so we provide free cancellation up to fourteen days before your scheduled arrival date, returning your full deposit without deduction. If you need to cancel within fourteen days of arrival, the thirty percent deposit is retained by the village to cover held calendar dates and preparation costs. All bookings require a minimum stay of two nights, whether for a weekend or midweek visit. Standard check-in takes place between fifteen o'clock and nineteen o'clock at the woodshed office, while check-out on your departure morning is at eleven o'clock to allow our housekeeping team time to prepare the cabins.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'kb6944bc7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -185,11 +185,11 @@
 <section id="hold" class="wp-block-group alignfull kc-formsec"><!-- wp:group {"className":"kc-formsec__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-formsec__in"><!-- wp:group {"className":"kc-formsec__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-formsec__text"><!-- wp:heading {"level":2,"className":"kc-sec__h"} -->
-<h2 class="wp-block-heading kc-sec__h">Send a hold request</h2>
+<h2 class="wp-block-heading kc-sec__h"><?php echo wp_kses_post( komorebi_cabins_t( 'kb5d11627' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We keep the cabin for 48 hours while we confirm, and the confirmation email carries the 30% deposit link. Cancel free of charge until 14 days before arrival.</p>
+<p><?php echo wp_kses_post( komorebi_cabins_t( 'k7615b005' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

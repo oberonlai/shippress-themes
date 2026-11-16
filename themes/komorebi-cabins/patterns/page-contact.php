@@ -10,18 +10,18 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-head kc-head--plain","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-head kc-head--plain"><!-- wp:group {"className":"kc-head__gutter","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-head__gutter"><!-- wp:paragraph {"className":"kc-head__kicker"} -->
-<p class="kc-head__kicker">We reply within one working day</p>
+<p class="kc-head__kicker"><?php echo wp_kses_post( komorebi_cabins_t( 'k2ef91355' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":1,"className":"kc-head__h1"} -->
-<h1 class="wp-block-heading kc-head__h1">Contact</h1>
+<h1 class="wp-block-heading kc-head__h1"><?php echo wp_kses_post( komorebi_cabins_t( 'kbbaff128' ) ); ?></h1>
 <!-- /wp:heading --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-intro-in","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-intro-in"><!-- wp:paragraph {"className":"kc-lead kc-pintro"} -->
-<p class="kc-lead kc-pintro">We are on hand seven days a week at the woodshed office to answer questions regarding cabin availability and travel. We reply to all email inquiries within one working day.</p>
+<p class="kc-lead kc-pintro"><?php echo wp_kses_post( komorebi_cabins_t( 'kf5654f27' ) ); ?></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->
 
@@ -29,28 +29,28 @@
 <section class="wp-block-group alignfull kc-sec kc-list kc-details"><!-- wp:group {"className":"kc-list__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-list__in"><!-- wp:group {"className":"kc-titlebar","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-titlebar"><!-- wp:heading {"level":2,"className":"kc-title"} -->
-<h2 class="wp-block-heading kc-title">Reach the office</h2>
+<h2 class="wp-block-heading kc-title"><?php echo wp_kses_post( komorebi_cabins_t( 'k6f8aca31' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-bracket"} -->
-<p class="kc-bracket">[ every day ]</p>
+<p class="kc-bracket"><?php echo wp_kses_post( komorebi_cabins_t( 'kad44f95e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled kc-details","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled kc-details"><!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Email</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kce8ae9da' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">stay@komorebi-cabins.example</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'ka20d869b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Phone</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kbcc254b5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
@@ -60,21 +60,21 @@
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Calls</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kb21c391f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">daily 08:30–19:00</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kf14dda00' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">We reply</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k091ce55f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">within one working day</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k3a8c2471' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -85,11 +85,11 @@
 <section id="write" class="wp-block-group alignfull kc-formsec"><!-- wp:group {"className":"kc-formsec__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-formsec__in"><!-- wp:group {"className":"kc-formsec__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-formsec__text"><!-- wp:heading {"level":2,"className":"kc-sec__h"} -->
-<h2 class="wp-block-heading kc-sec__h">Write to us</h2>
+<h2 class="wp-block-heading kc-sec__h"><?php echo wp_kses_post( komorebi_cabins_t( 'k786e3cc6' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Questions about the cabins, a group, the way here or anything else. Tell us how we can reach you.</p>
+<p><?php echo wp_kses_post( komorebi_cabins_t( 'ke60a11f0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -116,12 +116,12 @@ echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $fallback ) 
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-sec","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-sec"><!-- wp:group {"className":"kc-sec__in sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-sec__in sp-stagger"><!-- wp:heading {"level":2,"className":"kc-sec__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kc-sec__h sp-reveal sp-reveal--up">How can you get in touch with our office?</h2>
+<h2 class="wp-block-heading kc-sec__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'k3c5cc258' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"kc-sec__body","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-sec__body"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Our team operates from the woodshed office located at Larch Gate on Gravel Lane in Hollin Vale. You can reach us by email at stay@komorebi-cabins.example or by telephone at +44 1632 960 418. Telephone calls are answered daily between eight-thirty and nineteen o'clock, covering booking inquiries, arrival updates, and general information about the village. Written inquiries received through our contact form or via email are reviewed by Amira Haddad and answered within one working day. Whether you have questions regarding cabin layouts, bringing a dog to Fern or Beech, or arranging arrival assistance from the Larch Gate bus stop, we are glad to provide clear, practical answers to help you prepare for your stay.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'keb62598f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -130,12 +130,12 @@ echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $fallback ) 
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-sec","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-sec"><!-- wp:group {"className":"kc-sec__in sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-sec__in sp-stagger"><!-- wp:heading {"level":2,"className":"kc-sec__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kc-sec__h sp-reveal sp-reveal--up">How do office hours and inquiries work?</h2>
+<h2 class="wp-block-heading kc-sec__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'k489a3786' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"kc-sec__body","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-sec__body"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">The woodshed office opens every morning at eight-thirty and closes at nineteen o'clock in the evening. If you are inquiring about holding a weekend, please mention your preferred cabin size, your exact dates, the number of guests in your party, and whether you plan to bring a dog. While online hold requests and emails can be sent at any time, in-person assistance and telephone support end at nineteen o'clock when our office closes for the evening. If you require emergency assistance during your stay, instructions and direct contact details are posted on the inside of every cabin entrance door. For all routine matters, including route advice, extra firewood requests, and local walk suggestions, please reach out during regular daily office hours.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'k1382bcde' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

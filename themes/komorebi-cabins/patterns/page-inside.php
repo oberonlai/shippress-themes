@@ -10,24 +10,24 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-head","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-head"><!-- wp:group {"className":"kc-head__photo sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-head__photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/gravel-lane.webp' ) ); ?>" alt="A gravel lane entering the forest between beech trunks towards a small timber gate."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/gravel-lane.webp' ) ); ?>" alt="<?php echo esc_attr( komorebi_cabins_t( 'a6aa27c18' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-head__gutter","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-head__gutter"><!-- wp:paragraph {"className":"kc-head__kicker"} -->
-<p class="kc-head__kicker">The same in every cabin</p>
+<p class="kc-head__kicker"><?php echo wp_kses_post( komorebi_cabins_t( 'k16d07a7e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":1,"className":"kc-head__h1"} -->
-<h1 class="wp-block-heading kc-head__h1">Inside</h1>
+<h1 class="wp-block-heading kc-head__h1"><?php echo wp_kses_post( komorebi_cabins_t( 'k9b6d3000' ) ); ?></h1>
 <!-- /wp:heading --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-intro-in","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-intro-in"><!-- wp:paragraph {"className":"kc-lead kc-pintro"} -->
-<p class="kc-lead kc-pintro">Every cabin is built from solid timber with the exact same practical amenities, letting you cook, rest, and warm up by the fire. We keep the interiors simple, functional, and free from unnecessary distractions.</p>
+<p class="kc-lead kc-pintro"><?php echo wp_kses_post( komorebi_cabins_t( 'k9b3afcc9' ) ); ?></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->
 
@@ -39,13 +39,13 @@
 
 <!-- wp:group {"className":"kc-inside__main","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-inside__main"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-inside__a"} -->
-<figure class="wp-block-image size-full kc-inside__a"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/inside-stove.webp' ) ); ?>" alt="Lit black wood stove inside a timber cabin living room beside a comfortable sofa."/></figure>
+<figure class="wp-block-image size-full kc-inside__a"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/inside-stove.webp' ) ); ?>" alt="<?php echo esc_attr( komorebi_cabins_t( 'a1350b99a' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-inside__peek","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-inside__peek"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-inside__b"} -->
-<figure class="wp-block-image size-full kc-inside__b"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/inside-kitchen.webp' ) ); ?>" alt="Cabin kitchen corner with an induction hob, open wooden shelves, and plain ceramic tableware."/></figure>
+<figure class="wp-block-image size-full kc-inside__b"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/inside-kitchen.webp' ) ); ?>" alt="<?php echo esc_attr( komorebi_cabins_t( 'a79a4fea8' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -53,36 +53,36 @@
 <!-- wp:group {"className":"kc-inside__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-inside__row"><!-- wp:group {"className":"kc-inside__head sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-inside__head sp-stagger"><!-- wp:heading {"level":2,"className":"kc-title sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kc-title sp-reveal sp-reveal--up">Inside</h2>
+<h2 class="wp-block-heading kc-title sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'k9b6d3000' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-bracket sp-reveal sp-reveal--up"} -->
-<p class="kc-bracket sp-reveal sp-reveal--up">[ the same in every cabin ]</p>
+<p class="kc-bracket sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'k4c37ad9d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-inside__body","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-inside__body"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Across all twelve cabins, the equipment and fittings are completely standardized so you know exactly what awaits your arrival. Inside you will find a cast-iron wood stove, an induction hob with oven, a refrigerator, an electric kettle, and a coffee press. We supply matching crockery and cutlery suited to the cabin sleep count, along with washed bed linen and bathroom towels. The washroom features a rain shower with hot water, and a first-aid box is mounted on the wall. Outside, your private sheltered porch includes two timber armchairs and a full basket of seasoned firewood. We also supply a sturdy hand torch for walking forest paths after dusk. You will find no television or screens in any cabin, keeping the rooms peaceful and oriented toward the trees.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'ka95e8a04' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"kc-inside__more"} -->
-<p class="kc-inside__more"><a href="#every">What every cabin has ▾</a></p>
+<p class="kc-inside__more"><a href="#every"><?php echo wp_kses_post( komorebi_cabins_t( 'k6935e10d' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-inside__strip","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-inside__strip"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-s"} -->
-<figure class="wp-block-image size-full kc-s"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/wood-stack.webp' ) ); ?>" alt="Hands carefully stacking split cedar and beech firewood logs against an outdoor cabin wall."/></figure>
+<figure class="wp-block-image size-full kc-s"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/wood-stack.webp' ) ); ?>" alt="<?php echo esc_attr( komorebi_cabins_t( 'a68076378' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-s"} -->
-<figure class="wp-block-image size-full kc-s"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/bath-window.webp' ) ); ?>" alt="Deep bathtub beside a large forest window with clean towels folded on a stool."/></figure>
+<figure class="wp-block-image size-full kc-s"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/bath-window.webp' ) ); ?>" alt="<?php echo esc_attr( komorebi_cabins_t( 'a664f664c' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-s"} -->
-<figure class="wp-block-image size-full kc-s"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/porch-coffee.webp' ) ); ?>" alt="Guest holding a hot coffee mug while sitting on a cabin porch in morning mist."/></figure>
+<figure class="wp-block-image size-full kc-s"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/porch-coffee.webp' ) ); ?>" alt="<?php echo esc_attr( komorebi_cabins_t( 'ac06f0252' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -91,132 +91,132 @@
 <section id="every" class="wp-block-group alignfull kc-sec kc-list kc-every"><!-- wp:group {"className":"kc-list__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-list__in"><!-- wp:group {"className":"kc-titlebar","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-titlebar"><!-- wp:heading {"level":2,"className":"kc-title"} -->
-<h2 class="wp-block-heading kc-title">In every cabin</h2>
+<h2 class="wp-block-heading kc-title"><?php echo wp_kses_post( komorebi_cabins_t( 'k2abdf7e7' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-bracket"} -->
-<p class="kc-bracket">[ twelve things you will find ]</p>
+<p class="kc-bracket"><?php echo wp_kses_post( komorebi_cabins_t( 'k3335260a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled kc-every","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled kc-every"><!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Wood stove</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k2674a0f0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">with the first basket of firewood</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kca581e5b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Induction hob and oven</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k36d17978' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">with pans and a baking tray</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kc606de28' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Fridge</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k5b9ccf39' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">with a small freezer box</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kf0dc4788' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Kettle and coffee press</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kbd0dbf5f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">filters and tea on the shelf</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k315db8b6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Crockery and cutlery</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kab386191' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">for the number of beds</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kb0626c27' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Linen and towels</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kc2455e5f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">washed and pressed</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k69ebf18b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Rain shower</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k2e5e75f6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">with hot water all day</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k89f105bf' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Porch</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k1dc6369e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">two timber chairs</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kc2bd8fcb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Firewood basket</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k8ebc91e8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">refilled every morning at ten</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k45dbb817' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Torch</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'ka8b6ce53' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">for the paths after dusk</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k46ccad13' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">First-aid box</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k4fb1c713' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">on the wall by the door</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k63a77590' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">No television</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'ka6a94742' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">the trees are the view</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k43419d53' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -226,12 +226,12 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-sec","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-sec"><!-- wp:group {"className":"kc-sec__in sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-sec__in sp-stagger"><!-- wp:heading {"level":2,"className":"kc-sec__h sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kc-sec__h sp-reveal sp-reveal--up">What should guests bring and remember?</h2>
+<h2 class="wp-block-heading kc-sec__h sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'kbc06b235' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"kc-sec__body","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-sec__body"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Because Komorebi Cabins is an independent self-catering retreat, you should plan to bring all your own groceries, coffee, cooking oils, and condiments for your stay. Sturdy walking boots or waterproof shoes are strongly recommended, as the paths between cabins and trailheads are unpaved gravel and forest soil. We suggest packing a spare torch or headlamp for late-night walks, along with warm layers for evenings on the porch. To preserve the calm of the valley, our house rules ask all guests to observe village quiet hours between twenty-two o'clock and seven o'clock each morning. Smoking is strictly prohibited inside the cabins, and campfires may only be lit in Hollow's dedicated stone pit. When departing at eleven o'clock, please wash your cooking dishes and leave keys at the woodshed office.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'kd0d19fc1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -241,52 +241,52 @@
 <section class="wp-block-group alignfull kc-sec kc-list kc-bring"><!-- wp:group {"className":"kc-list__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-list__in"><!-- wp:group {"className":"kc-titlebar","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-titlebar"><!-- wp:heading {"level":2,"className":"kc-title"} -->
-<h2 class="wp-block-heading kc-title">What to bring</h2>
+<h2 class="wp-block-heading kc-title"><?php echo wp_kses_post( komorebi_cabins_t( 'k07e3e742' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-bracket"} -->
-<p class="kc-bracket">[ for a self-catering stay ]</p>
+<p class="kc-bracket"><?php echo wp_kses_post( komorebi_cabins_t( 'kacd46daa' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled kc-bring","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled kc-bring"><!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Food and coffee</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kbe215eef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">there is no shop in the village</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k33e67af3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Boots or waterproof shoes</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kcae82c8e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">the paths are gravel and forest soil</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k2534b363' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">A spare torch</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kbabc8aad' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">or a headlamp</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kd8c99ade' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">A warm layer</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k338609fa' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">for evenings on the porch</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k128366c7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -297,18 +297,18 @@
 <section class="wp-block-group alignfull kc-sec kc-list kc-house"><!-- wp:group {"className":"kc-list__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-list__in"><!-- wp:group {"className":"kc-titlebar","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-titlebar"><!-- wp:heading {"level":2,"className":"kc-title"} -->
-<h2 class="wp-block-heading kc-title">House rules</h2>
+<h2 class="wp-block-heading kc-title"><?php echo wp_kses_post( komorebi_cabins_t( 'k294c08f0' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-bracket"} -->
-<p class="kc-bracket">[ to keep the woods quiet ]</p>
+<p class="kc-bracket"><?php echo wp_kses_post( komorebi_cabins_t( 'k54c0f61c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled kc-house","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled kc-house"><!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Quiet hours</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k63bca4eb' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
@@ -318,31 +318,31 @@
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Smoking</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k759f4309' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">not inside the cabins</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'kdb055830' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Open fires</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'k1f9b33ba' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">only in the Hollow fire pit</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k8b65b221' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-ruled__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-ruled__row"><!-- wp:paragraph {"className":"kc-ruled__k"} -->
-<p class="kc-ruled__k">Check-out</p>
+<p class="kc-ruled__k"><?php echo wp_kses_post( komorebi_cabins_t( 'kedfd56b3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-ruled__v"} -->
-<p class="kc-ruled__v">wash your dishes and leave the keys at the office</p>
+<p class="kc-ruled__v"><?php echo wp_kses_post( komorebi_cabins_t( 'k933e5ce3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

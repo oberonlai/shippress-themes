@@ -10,11 +10,11 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"kc-section kc-letterwrap","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull kc-section kc-letterwrap"><!-- wp:group {"className":"kc-letter kc-dark","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-letter kc-dark"><!-- wp:heading {"level":2,"className":"kc-letter__h"} -->
-<h2 class="wp-block-heading kc-letter__h">The Woodshed Letter</h2>
+<h2 class="wp-block-heading kc-letter__h"><?php echo wp_kses_post( komorebi_cabins_t( 'kbce0dc10' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-letter__p"} -->
-<p class="kc-letter__p">One short note on the first Thursday of each month: the weekends still open, how the woods are changing, and one recipe for the cabin stove.</p>
+<p class="kc-letter__p"><?php echo wp_kses_post( komorebi_cabins_t( 'kaffae34a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-letter__form","layout":{"type":"default"}} -->

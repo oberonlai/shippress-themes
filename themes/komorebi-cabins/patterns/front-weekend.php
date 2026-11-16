@@ -11,11 +11,11 @@
 <section class="wp-block-group alignfull kc-section kc-weekend"><!-- wp:group {"className":"kc-weekend__in","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-weekend__in"><!-- wp:group {"className":"kc-weekend__text sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-weekend__text sp-stagger"><!-- wp:heading {"level":2,"className":"kc-statement sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading kc-statement sp-reveal sp-reveal--up">One way to hold a weekend.</h2>
+<h2 class="wp-block-heading kc-statement sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'k7071b93e' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-lead sp-reveal sp-reveal--up"} -->
-<p class="kc-lead sp-reveal sp-reveal--up">There is one way to book a cabin here, and it is the same for everyone. Choose the size and the dates, send us a hold request, and we keep the cabin for you for 48 hours while we confirm. Cancel free of charge until 14 days before arrival; after that the 30% deposit is kept.</p>
+<p class="kc-lead sp-reveal sp-reveal--up"><?php echo wp_kses_post( komorebi_cabins_t( 'k2fb5f401' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-steps sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
@@ -25,7 +25,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-step__t"} -->
-<p class="kc-step__t"><strong>Choose a cabin and dates</strong><br>Friday to Sunday, or two midweek nights.</p>
+<p class="kc-step__t"><strong><?php echo wp_kses_post( komorebi_cabins_t( 'kab4ecf47' ) ); ?></strong><br><?php echo wp_kses_post( komorebi_cabins_t( 'k866013d9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -35,7 +35,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-step__t"} -->
-<p class="kc-step__t"><strong>Send the hold request</strong><br>Use the form on Reserve, or write to us.</p>
+<p class="kc-step__t"><strong><?php echo wp_kses_post( komorebi_cabins_t( 'k1128189c' ) ); ?></strong><br><?php echo wp_kses_post( komorebi_cabins_t( 'k5329b768' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -45,7 +45,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-step__t"} -->
-<p class="kc-step__t"><strong>We hold it for 48 hours</strong><br>Our confirmation email carries a 30% deposit link.</p>
+<p class="kc-step__t"><strong><?php echo wp_kses_post( komorebi_cabins_t( 'k5ddaa3f1' ) ); ?></strong><br><?php echo wp_kses_post( komorebi_cabins_t( 'k2551a1d9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -55,20 +55,20 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-step__t"} -->
-<p class="kc-step__t"><strong>Arrive from 15:00</strong><br>Keys are waiting at the woodshed office.</p>
+<p class="kc-step__t"><strong><?php echo wp_kses_post( komorebi_cabins_t( 'ke8e00bdd' ) ); ?></strong><br><?php echo wp_kses_post( komorebi_cabins_t( 'kd4348c25' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"className":"kc-buttons"} -->
 <div class="wp-block-buttons kc-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/reserve/">Hold a weekend</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/reserve/"><?php echo wp_kses_post( komorebi_cabins_t( 'kd30c5b85' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-weekend__photo"} -->
-<figure class="wp-block-image size-full kc-weekend__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/arrival-path.webp' ) ); ?>" alt="Family walking with travel bags along a gravel path towards a warmly lit cabin."/></figure>
+<figure class="wp-block-image size-full kc-weekend__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/arrival-path.webp' ) ); ?>" alt="<?php echo esc_attr( komorebi_cabins_t( 'aa36cfdb1' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
