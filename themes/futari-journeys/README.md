@@ -10,3 +10,23 @@ A calm, bespoke travel-planner block theme for couples: an inset documentary pho
 
 ## Patterns
 `front-hero`, `front-pair`, `front-budget`, `front-timing`, `front-band`, `front-documents`, `front-how`, `front-planners`, `front-book`, `front-letter`, plus `header-main` and `footer-main`.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/futari-journeys/home-desktop.webp" width="640" alt="Futari Journeys home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/futari-journeys/home-mobile.webp" width="200" alt="Futari Journeys home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/futari-journeys/about-desktop.webp) · [mobile](https://shots.codotx.com/futari-journeys/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/futari-journeys/news-desktop.webp) · [mobile](https://shots.codotx.com/futari-journeys/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/futari-journeys/article-desktop.webp) · [mobile](https://shots.codotx.com/futari-journeys/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/futari-journeys/category-desktop.webp) · [mobile](https://shots.codotx.com/futari-journeys/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/futari-journeys/tag-desktop.webp) · [mobile](https://shots.codotx.com/futari-journeys/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/futari-journeys/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/futari-journeys/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/futari-journeys/contact-desktop.webp) · [mobile](https://shots.codotx.com/futari-journeys/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/futari-journeys/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/futari-journeys/ja/home-desktop.webp) · [fr](https://shots.codotx.com/futari-journeys/fr/home-desktop.webp) · [de](https://shots.codotx.com/futari-journeys/de/home-desktop.webp)
+<!-- screenshots:end -->
