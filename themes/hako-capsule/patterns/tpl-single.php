@@ -27,6 +27,12 @@
 <div class="wp-block-group hk-narrow hk-single__meta"><!-- wp:post-terms {"term":"category","className":"hk-chip"} /-->
 
 <!-- wp:post-terms {"term":"post_tag","className":"hk-chip"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hk-narrow hk-single__back","layout":{"type":"default"}} -->
+<div class="wp-block-group hk-narrow hk-single__back"><!-- wp:paragraph {"className":"hk-pill hk-pill--line"} -->
+<p class="hk-pill hk-pill--line"><a href="<?php echo hako_capsule_url( '/journal/' ); ?>"><?php echo esc_html( hako_capsule_t( 'art_back' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
