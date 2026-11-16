@@ -54,4 +54,6 @@ Images: AI-generated for this theme with Grok Build image_gen as dark documentar
 - assets/images/gravel-lane.webp (gravel lane leading through a small timber gate into dense cedar and beech woods)
 - assets/images/autumn-beech.webp (autumn beech woodland with copper foliage and a cabin roof visible among tree trunks)
 - assets/images/cabins-clearing.webp (three timber cabins spaced among cedar trees in a woodland clearing with chimney smoke)
-- assets/images/demo/wood-stack.webp, arrival-path.webp, autumn-beech.webp (smaller copies used as the featured images of the stories)
+- assets/images/demo/wood-stack.webp (smaller copy of wood-stack.webp, featured image of a story)
+- assets/images/demo/arrival-path.webp (smaller copy of arrival-path.webp, featured image of a story)
+- assets/images/demo/autumn-beech.webp (smaller copy of autumn-beech.webp, featured image of a story)

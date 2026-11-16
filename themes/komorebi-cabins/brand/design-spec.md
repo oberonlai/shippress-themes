@@ -145,7 +145,7 @@ Posts (3, category "From the woods", tags "cabins", "seasons", "hosts"): "Stacki
 
 ## 5. Colour
 
-**Reference relationship (T(a))**: greige ground ~55%, dark muted forest photographs ~40%, ink text, deep green as the dark ground, one terracotta button ~2%, white Menu box. We keep the reference hexes exactly; the row hue 木賊色 `#3B7960` enters only as small accents.
+**Reference relationship (T(a))**: greige ground ~55%, dark muted forest photographs ~40%, ink text, deep green as the dark ground, one terracotta button ~2%, white Menu box. We keep the reference hexes exactly; the row hue (local word) `#3B7960` enters only as small accents.
 
 | Token (theme.json slug) | Hex | Role | Share (home) | Source |
 |---|---|---|---|---|
@@ -155,7 +155,7 @@ Posts (3, category "From the woods", tags "cabins", "seasons", "hosts"): "Stacki
 | `ink` | `#343434` | all text | type | **T(a) exact** |
 | `forest` | `#222F25` | footer, newsletter panel, notice chip base | ~8% | **T(a) exact** |
 | `terracotta` | `#8B5A44` | Reserve button, primary buttons | ~2% | **T(a) exact** |
-| `tokusa` | `#3B7960` | step numerals, link hover, focus ring | <2% | row hex 木賊色 |
+| `tokusa` | `#3B7960` | step numerals, link hover, focus ring | <2% | row hex (local word) |
 | `white` | `#FFFFFF` | Menu box, active chip cell, inputs | <2% | T(a) |
 | `muted` | `#6E6A66` | captions, meta, dot | <1% | ink +25% L |
 | `error` | `#9E3B2A` | form errors | — | terracotta −5% L, redder |
@@ -311,7 +311,7 @@ Copy `pipeline/assets/forms/shippress-forms.php` unchanged to `inc/`, the CSS an
 | Second ground | `#D8D3CE` (T(a)) | `#D8D3CE` exact (chip box, weekend section) |
 | Ink / deep green | `#343434` / `#222F25` (T(a)) | exact (text / footer, newsletter, notice chip) |
 | Accent button | terracotta ~`#8B5A44` ~2% (T(a)) | `#8B5A44` exact ~2% |
-| Extra hue | — | 木賊色 `#3B7960` <2% (row), numerals / focus only |
+| Extra hue | — | (local word) `#3B7960` <2% (row), numerals / focus only |
 | Saturated share | well under 15% (T(a)) | target ≤10% (cap 15%) |
 | Hero photo | max-width 86.46% flush left, 1230×710 (1.73), y148–860 (T(c), T(e)) | identical, P01 |
 | Gutter | season chip, vertical 2-line serif tagline, "Scroll" + dot (T(f)) | identical set; chip Summer / Autumn; tagline Lora 1.5rem |
