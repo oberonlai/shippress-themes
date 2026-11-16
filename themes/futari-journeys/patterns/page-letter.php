@@ -9,7 +9,7 @@
 ?>
 <!-- wp:group {"className":"fj-hero-wrap fj-pagehead-wrap","layout":{"type":"default"},"align":"full"} -->
 <div class="wp-block-group alignfull fj-hero-wrap fj-pagehead-wrap"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/travel-folder.webp' ) ); ?>","dimRatio":100,"customGradient":"linear-gradient(180deg,rgba(34,34,34,.30) 0,rgba(34,34,34,0) 130px,rgba(255,255,255,0) calc(100% - 150px),#FFFFFF 100%)","focalPoint":{"x":0.5,"y":0.5},"minHeight":52,"minHeightUnit":"svh","contentPosition":"bottom center","isDark":false,"className":"fj-pagehead","layout":{"type":"default"}} -->
-<div class="wp-block-cover has-custom-content-position is-position-bottom-center fj-pagehead" style="min-height:52svh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(180deg,rgba(34,34,34,.30) 0,rgba(34,34,34,0) 130px,rgba(255,255,255,0) calc(100% - 150px),#FFFFFF 100%)"></span><img class="wp-block-cover__image-background" alt="Fabric travel folder, two brass keys, a pressed leaf and a pencil on white linen." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/travel-folder.webp' ) ); ?>" data-object-fit="cover" data-object-position="50% 50%" style="object-position:50% 50%"/><div class="wp-block-cover__inner-container"></div></div>
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center fj-pagehead" style="min-height:52svh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(180deg,rgba(34,34,34,.30) 0,rgba(34,34,34,0) 130px,rgba(255,255,255,0) calc(100% - 150px),#FFFFFF 100%)"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( futari_journeys_t( 'a793dfff9' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/travel-folder.webp' ) ); ?>" data-object-fit="cover" data-object-position="50% 50%" style="object-position:50% 50%"/><div class="wp-block-cover__inner-container"></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
 
@@ -18,7 +18,7 @@
 <div class="wp-block-columns fj-lockup__cols"><!-- wp:column {"width":"55%"} -->
 <div class="wp-block-column" style="flex-basis:55%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Four letters a year</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'kb7e5446a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -27,7 +27,7 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":1,"className":"fj-h1 fj-h1--in"} -->
-<h1 class="wp-block-heading fj-h1 fj-h1--in">The Route Letter</h1>
+<h1 class="wp-block-heading fj-h1 fj-h1--in"><?php echo wp_kses_post( futari_journeys_t( 'k6d2a1f4b' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -37,7 +37,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"fj-lead fj-lead--in"} -->
-<p class="fj-lead fj-lead--in">The Route Letter is our seasonal dispatch sent four times a year. It shares quiet reflections on where couples travelled and announces calendar openings for upcoming seasons.</p>
+<p class="fj-lead fj-lead--in"><?php echo wp_kses_post( futari_journeys_t( 'kcedc7f47' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -49,7 +49,7 @@
 <div class="wp-block-columns fj-chap__cols"><!-- wp:column {"width":"33.333%"} -->
 <div class="wp-block-column" style="flex-basis:33.333%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Chapter 01</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k0125f641' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -58,24 +58,24 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"fj-h2 fj-h2--ch sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up">What is inside each letter</h2>
+<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'k87983037' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.667%"} -->
 <div class="wp-block-column" style="flex-basis:66.667%"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">We publish four letters each year, dispatched in March, June, September, and December. Each issue contains only two things: honest field notes about where couples travelled during that past season, and a clear announcement of which calendar months have opened for upcoming route planning. You will read about specific experiences, such as springtime ferry crossings in the Azores or autumn grape harvests in Puglia, without promotional hyperbole. We share practical observations about route timings, regional train connections, and quiet rural lodgings that our travellers enjoyed.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'kd8045700' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"fj-ruled sp-stagger fj-ruled--t"} -->
 <ul class="wp-block-list fj-ruled sp-stagger fj-ruled--t"><!-- wp:list-item {"className":"fj-ruled__i sp-reveal sp-reveal--up"} -->
-<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k">March</strong><span class="fj-ruled__v">Notes from the winter journeys and the spring months still open</span></li>
+<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k"><?php echo wp_kses_post( futari_journeys_t( 'kfa3e5eda' ) ); ?></strong><span class="fj-ruled__v"><?php echo wp_kses_post( futari_journeys_t( 'kdf20cb4b' ) ); ?></span></li>
 <!-- /wp:list-item --><!-- wp:list-item {"className":"fj-ruled__i sp-reveal sp-reveal--up"} -->
-<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k">June</strong><span class="fj-ruled__v">Notes from spring and early summer, and the autumn months open</span></li>
+<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k"><?php echo wp_kses_post( futari_journeys_t( 'k688937cc' ) ); ?></strong><span class="fj-ruled__v"><?php echo wp_kses_post( futari_journeys_t( 'k1c512ebd' ) ); ?></span></li>
 <!-- /wp:list-item --><!-- wp:list-item {"className":"fj-ruled__i sp-reveal sp-reveal--up"} -->
-<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k">September</strong><span class="fj-ruled__v">Notes from the summer and the months open after the new year</span></li>
+<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k"><?php echo wp_kses_post( futari_journeys_t( 'kcc5d9056' ) ); ?></strong><span class="fj-ruled__v"><?php echo wp_kses_post( futari_journeys_t( 'ka4389de2' ) ); ?></span></li>
 <!-- /wp:list-item --><!-- wp:list-item {"className":"fj-ruled__i sp-reveal sp-reveal--up"} -->
-<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k">December</strong><span class="fj-ruled__v">Notes from the autumn and the year ahead</span></li>
+<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k"><?php echo wp_kses_post( futari_journeys_t( 'k82331503' ) ); ?></strong><span class="fj-ruled__v"><?php echo wp_kses_post( futari_journeys_t( 'k2d70f816' ) ); ?></span></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:column --></div>
@@ -88,7 +88,7 @@
 <div class="wp-block-group fj-narrow"><!-- wp:group {"className":"fj-panel fj-dark","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-panel fj-dark"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Chapter 02</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k11022b56' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -97,11 +97,11 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"fj-h2"} -->
-<h2 class="wp-block-heading fj-h2">How to subscribe</h2>
+<h2 class="wp-block-heading fj-h2"><?php echo wp_kses_post( futari_journeys_t( 'k0e145efd' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fj-panel__p"} -->
-<p class="fj-panel__p">To receive the dispatch, enter your email address in our subscription form or write directly to hello@futari-journeys.example with the subject Subscribe to The Route Letter. If you use our web form, your email app opens with the message ready, and you are not on the list until you send it. We keep our subscriber list completely private, never share contact details with outside parties, and send no advertising or frequent marketing updates between the seasonal dispatches. You may remove your address from our mailing list at any time with a simple reply.</p>
+<p class="fj-panel__p"><?php echo wp_kses_post( futari_journeys_t( 'k1032ac7b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"fj-letter__form fj-letter__form--panel","layout":{"type":"default"}} -->

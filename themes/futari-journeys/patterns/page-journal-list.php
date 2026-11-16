@@ -39,7 +39,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph -->
-<p>Nothing here yet. Try the questions couples ask, or book a planning call.</p>
+<p><?php echo wp_kses_post( futari_journeys_t( 'k57a570a1' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>

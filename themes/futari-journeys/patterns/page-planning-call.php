@@ -9,7 +9,7 @@
 ?>
 <!-- wp:group {"className":"fj-hero-wrap fj-pagehead-wrap","layout":{"type":"default"},"align":"full"} -->
 <div class="wp-block-group alignfull fj-hero-wrap fj-pagehead-wrap"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/studio-door.webp' ) ); ?>","dimRatio":100,"customGradient":"linear-gradient(180deg,rgba(34,34,34,.30) 0,rgba(34,34,34,0) 130px,rgba(255,255,255,0) calc(100% - 150px),#FFFFFF 100%)","focalPoint":{"x":0.5,"y":0.55},"minHeight":52,"minHeightUnit":"svh","contentPosition":"bottom center","isDark":false,"className":"fj-pagehead","layout":{"type":"default"}} -->
-<div class="wp-block-cover has-custom-content-position is-position-bottom-center fj-pagehead" style="min-height:52svh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(180deg,rgba(34,34,34,.30) 0,rgba(34,34,34,0) 130px,rgba(255,255,255,0) calc(100% - 150px),#FFFFFF 100%)"></span><img class="wp-block-cover__image-background" alt="Planner holding open the pale green studio door beside an olive tree." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/studio-door.webp' ) ); ?>" data-object-fit="cover" data-object-position="50% 55%" style="object-position:50% 55%"/><div class="wp-block-cover__inner-container"></div></div>
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center fj-pagehead" style="min-height:52svh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(180deg,rgba(34,34,34,.30) 0,rgba(34,34,34,0) 130px,rgba(255,255,255,0) calc(100% - 150px),#FFFFFF 100%)"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( futari_journeys_t( 'a3625ea3a' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/studio-door.webp' ) ); ?>" data-object-fit="cover" data-object-position="50% 55%" style="object-position:50% 55%"/><div class="wp-block-cover__inner-container"></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
 
@@ -18,7 +18,7 @@
 <div class="wp-block-columns fj-lockup__cols"><!-- wp:column {"width":"55%"} -->
 <div class="wp-block-column" style="flex-basis:55%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Free, 45 minutes</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k5fa748c8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -27,7 +27,7 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":1,"className":"fj-h1 fj-h1--in"} -->
-<h1 class="wp-block-heading fj-h1 fj-h1--in">Book a Planning Call</h1>
+<h1 class="wp-block-heading fj-h1 fj-h1--in"><?php echo wp_kses_post( futari_journeys_t( 'k6a52c61e' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -37,7 +37,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"fj-lead fj-lead--in"} -->
-<p class="fj-lead fj-lead--in">Every journey begins with a conversation. We offer a free forty-five-minute video call to listen to your ideas, discuss preferred seasons, and answer your questions.</p>
+<p class="fj-lead fj-lead--in"><?php echo wp_kses_post( futari_journeys_t( 'k4b8daa0d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -49,7 +49,7 @@
 <div class="wp-block-columns fj-chap__cols"><!-- wp:column {"width":"33.333%"} -->
 <div class="wp-block-column" style="flex-basis:33.333%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Chapter 01</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k0125f641' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -58,24 +58,24 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"fj-h2 fj-h2--ch sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up">How the call works</h2>
+<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'kad701190' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.667%"} -->
 <div class="wp-block-column" style="flex-basis:66.667%"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Our planning calls last forty-five minutes, take place over private video, and are completely free of charge. They are scheduled Monday to Saturday between 09:00 and 19:00 CET. You do not need a completed itinerary or fixed dates before we talk; bring your dates if you already have them, or simply bring your questions if you are unsure where to begin. During our call, we discuss your travel pacing, preferences, and budget expectations. Within seven days of our conversation, we deliver an initial custom route and a fixed planning fee.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'kb3d9585f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"className":"fj-ruled sp-stagger fj-ruled--t"} -->
 <ul class="wp-block-list fj-ruled sp-stagger fj-ruled--t"><!-- wp:list-item {"className":"fj-ruled__i sp-reveal sp-reveal--up"} -->
-<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k">Length</strong><span class="fj-ruled__v">Forty-five minutes by private video</span></li>
+<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k"><?php echo wp_kses_post( futari_journeys_t( 'kba2a9c6c' ) ); ?></strong><span class="fj-ruled__v"><?php echo wp_kses_post( futari_journeys_t( 'k8ef1cb25' ) ); ?></span></li>
 <!-- /wp:list-item --><!-- wp:list-item {"className":"fj-ruled__i sp-reveal sp-reveal--up"} -->
-<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k">Cost</strong><span class="fj-ruled__v">Free of charge</span></li>
+<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k"><?php echo wp_kses_post( futari_journeys_t( 'k20b4f77b' ) ); ?></strong><span class="fj-ruled__v"><?php echo wp_kses_post( futari_journeys_t( 'kced9bd74' ) ); ?></span></li>
 <!-- /wp:list-item --><!-- wp:list-item {"className":"fj-ruled__i sp-reveal sp-reveal--up"} -->
-<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k">When</strong><span class="fj-ruled__v">Monday–Saturday, 09:00–19:00 CET</span></li>
+<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k"><?php echo wp_kses_post( futari_journeys_t( 'k4e97aeea' ) ); ?></strong><span class="fj-ruled__v"><?php echo wp_kses_post( futari_journeys_t( 'kc888165d' ) ); ?></span></li>
 <!-- /wp:list-item --><!-- wp:list-item {"className":"fj-ruled__i sp-reveal sp-reveal--up"} -->
-<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k">Afterwards</strong><span class="fj-ruled__v">A first route and a fixed planning fee within seven days</span></li>
+<li class="fj-ruled__i sp-reveal sp-reveal--up"><strong class="fj-ruled__k"><?php echo wp_kses_post( futari_journeys_t( 'k9b5ff90a' ) ); ?></strong><span class="fj-ruled__v"><?php echo wp_kses_post( futari_journeys_t( 'kef9512f3' ) ); ?></span></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:column --></div>
@@ -89,7 +89,7 @@
 <div class="wp-block-columns fj-chap__cols"><!-- wp:column {"width":"33.333%"} -->
 <div class="wp-block-column" style="flex-basis:33.333%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Chapter 02</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k11022b56' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -98,13 +98,13 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"fj-h2 fj-h2--ch sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up">Book your call</h2>
+<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'k17a07d49' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.667%"} -->
 <div class="wp-block-column" style="flex-basis:66.667%"><!-- wp:paragraph -->
-<p>To request a consultation, submit our appointment request form or send an email directly to hello@futari-journeys.example with the subject line Planning call request. Please share your names, the occasion you are celebrating, approximate dates or season, estimated duration in nights, and two convenient time windows for a video call. You may also include any questions or initial destination thoughts. If your email app opens automatically, please send the pre-filled message, and one of our planners will reply within one business day to confirm your meeting link.</p>
+<p><?php echo wp_kses_post( futari_journeys_t( 'k26b864cc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"fj-form-col","layout":{"type":"default"}} -->
@@ -135,7 +135,7 @@ echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $fallback ) 
 <div class="wp-block-columns fj-chap__cols"><!-- wp:column {"width":"33.333%"} -->
 <div class="wp-block-column" style="flex-basis:33.333%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Chapter 03</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k8f6e38e3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -144,21 +144,21 @@ echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $fallback ) 
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"fj-h2 fj-h2--ch sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up">Visit the studio</h2>
+<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'kce9e1fc7' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.667%"} -->
 <div class="wp-block-column" style="flex-basis:66.667%"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">If you are in Valmere or prefer to meet in person, we welcome visits to our planning studio on the second floor of 8 Linden Row. Studio visits are arranged by advance appointment Tuesday to Saturday from 10:00 to 18:00. You can reach our front desk by telephone at +00 0000 0000 or by email at hello@futari-journeys.example. We are always glad to spread out our blank maps and region photographs across our timber table to explore journey ideas together over tea.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'k4f4fd6cb' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"className":"fj-fees fj-hours"} -->
-<figure class="wp-block-table fj-fees fj-hours"><table class="has-fixed-layout"><thead><tr><th>Service</th><th>When</th></tr></thead><tbody><tr><td><strong>Planning calls</strong><br><span class="fj-note">Private video, free</span></td><td>Monday–Saturday 09:00–19:00 CET</td></tr><tr><td><strong>Studio visits</strong><br><span class="fj-note">By appointment</span></td><td>Tuesday–Saturday 10:00–18:00</td></tr><tr><td><strong>Travel-day line</strong><br><span class="fj-note">For couples on the road</span></td><td>24 hours a day while you travel</td></tr></tbody></table></figure>
+<figure class="wp-block-table fj-fees fj-hours"><table class="has-fixed-layout"><thead><tr><th><?php echo wp_kses_post( futari_journeys_t( 'kc2ba7e78' ) ); ?></th><th><?php echo wp_kses_post( futari_journeys_t( 'k4e97aeea' ) ); ?></th></tr></thead><tbody><tr><td><strong><?php echo wp_kses_post( futari_journeys_t( 'k98435214' ) ); ?></strong><br><span class="fj-note"><?php echo wp_kses_post( futari_journeys_t( 'k3995b4a9' ) ); ?></span></td><td><?php echo wp_kses_post( futari_journeys_t( 'kc424af54' ) ); ?></td></tr><tr><td><strong><?php echo wp_kses_post( futari_journeys_t( 'k951beba4' ) ); ?></strong><br><span class="fj-note"><?php echo wp_kses_post( futari_journeys_t( 'kbe62ee40' ) ); ?></span></td><td><?php echo wp_kses_post( futari_journeys_t( 'kd58c77b9' ) ); ?></td></tr><tr><td><strong><?php echo wp_kses_post( futari_journeys_t( 'k155043d6' ) ); ?></strong><br><span class="fj-note"><?php echo wp_kses_post( futari_journeys_t( 'k21826d6a' ) ); ?></span></td><td><?php echo wp_kses_post( futari_journeys_t( 'ka053b537' ) ); ?></td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph {"className":"fj-fine"} -->
-<p class="fj-fine">2nd floor, 8 Linden Row, Valmere · +00 0000 0000</p>
+<p class="fj-fine"><?php echo wp_kses_post( futari_journeys_t( 'k7bfd42f0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

@@ -9,17 +9,17 @@
 ?>
 <!-- wp:group {"className":"fj-hero-wrap fj-pagehead-wrap","layout":{"type":"default"},"align":"full"} -->
 <div class="wp-block-group alignfull fj-hero-wrap fj-pagehead-wrap"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/planning-hands.webp' ) ); ?>","dimRatio":100,"customGradient":"linear-gradient(180deg,rgba(34,34,34,.30) 0,rgba(34,34,34,0) 130px,rgba(255,255,255,0) calc(100% - 150px),#FFFFFF 100%)","focalPoint":{"x":0.5,"y":0.55},"minHeight":52,"minHeightUnit":"svh","contentPosition":"bottom center","isDark":false,"className":"fj-pagehead","layout":{"type":"default"}} -->
-<div class="wp-block-cover has-custom-content-position is-position-bottom-center fj-pagehead" style="min-height:52svh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(180deg,rgba(34,34,34,.30) 0,rgba(34,34,34,0) 130px,rgba(255,255,255,0) calc(100% - 150px),#FFFFFF 100%)"></span><img class="wp-block-cover__image-background" alt="Hands resting beside coffee cups, a closed notebook, and a route map." src="<?php echo esc_url( get_theme_file_uri( 'assets/images/planning-hands.webp' ) ); ?>" data-object-fit="cover" data-object-position="50% 55%" style="object-position:50% 55%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"fj-qfoot","layout":{"type":"default"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center fj-pagehead" style="min-height:52svh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient" style="background:linear-gradient(180deg,rgba(34,34,34,.30) 0,rgba(34,34,34,0) 130px,rgba(255,255,255,0) calc(100% - 150px),#FFFFFF 100%)"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( futari_journeys_t( 'af8487f91' ) ); ?>" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/planning-hands.webp' ) ); ?>" data-object-fit="cover" data-object-position="50% 55%" style="object-position:50% 55%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"fj-qfoot","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-qfoot"><!-- wp:html -->
-<a class="fj-q" href="#fees"><span class="fj-q__n">01</span><span class="fj-q__t">What the fee covers</span><span class="fj-disc"><svg class="fj-disc__svg" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="11" fill="currentColor"/><path d="M6.5 11h8M11.5 7.5 15 11l-3.5 3.5" fill="none" stroke="#fff" stroke-width="1.2"/></svg></span></a>
+<a class="fj-q" href="#fees"><span class="fj-q__n">01</span><span class="fj-q__t"><?php echo wp_kses_post( futari_journeys_t( 'ke0fcc47d' ) ); ?></span><span class="fj-disc"><svg class="fj-disc__svg" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="11" fill="currentColor"/><path d="M6.5 11h8M11.5 7.5 15 11l-3.5 3.5" fill="none" stroke="#fff" stroke-width="1.2"/></svg></span></a>
 <!-- /wp:html -->
 
 <!-- wp:html -->
-<a class="fj-q" href="#travel"><span class="fj-q__n">02</span><span class="fj-q__t">What travel costs</span><span class="fj-disc"><svg class="fj-disc__svg" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="11" fill="currentColor"/><path d="M6.5 11h8M11.5 7.5 15 11l-3.5 3.5" fill="none" stroke="#fff" stroke-width="1.2"/></svg></span></a>
+<a class="fj-q" href="#travel"><span class="fj-q__n">02</span><span class="fj-q__t"><?php echo wp_kses_post( futari_journeys_t( 'kb3966836' ) ); ?></span><span class="fj-disc"><svg class="fj-disc__svg" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="11" fill="currentColor"/><path d="M6.5 11h8M11.5 7.5 15 11l-3.5 3.5" fill="none" stroke="#fff" stroke-width="1.2"/></svg></span></a>
 <!-- /wp:html -->
 
 <!-- wp:html -->
-<a class="fj-q" href="#pay"><span class="fj-q__n">03</span><span class="fj-q__t">When you pay</span><span class="fj-disc"><svg class="fj-disc__svg" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="11" fill="currentColor"/><path d="M6.5 11h8M11.5 7.5 15 11l-3.5 3.5" fill="none" stroke="#fff" stroke-width="1.2"/></svg></span></a>
+<a class="fj-q" href="#pay"><span class="fj-q__n">03</span><span class="fj-q__t"><?php echo wp_kses_post( futari_journeys_t( 'kd8a58d88' ) ); ?></span><span class="fj-disc"><svg class="fj-disc__svg" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="11" fill="currentColor"/><path d="M6.5 11h8M11.5 7.5 15 11l-3.5 3.5" fill="none" stroke="#fff" stroke-width="1.2"/></svg></span></a>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
@@ -30,7 +30,7 @@
 <div class="wp-block-columns fj-lockup__cols"><!-- wp:column {"width":"55%"} -->
 <div class="wp-block-column" style="flex-basis:55%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Fixed fees, in the open</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k205fb96b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -39,7 +39,7 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":1,"className":"fj-h1 fj-h1--in"} -->
-<h1 class="wp-block-heading fj-h1 fj-h1--in">Prices</h1>
+<h1 class="wp-block-heading fj-h1 fj-h1--in"><?php echo wp_kses_post( futari_journeys_t( 'ke16dd6e1' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -49,7 +49,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"fj-lead fj-lead--in"} -->
-<p class="fj-lead fj-lead--in">We believe in complete clarity before you begin planning. Our planning fees are fixed upfront, while travel expenses are paid directly to hotels, railways, and local operators.</p>
+<p class="fj-lead fj-lead--in"><?php echo wp_kses_post( futari_journeys_t( 'k3389264c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -63,7 +63,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"level":2,"className":"fj-dash__t"} -->
-<h2 class="wp-block-heading fj-dash__t">Planning fees</h2>
+<h2 class="wp-block-heading fj-dash__t"><?php echo wp_kses_post( futari_journeys_t( 'kfa918d1d' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"fj-dash__line"} -->
@@ -78,7 +78,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"fj-fine fj-fine--wide"} -->
-<p class="fj-fine fj-fine--wide">Our planning fees are fixed per couple: the initial forty-five-minute video call is free; an anniversary weekend of two to four nights in one place is €290; a short escape of five to seven nights with up to two stops is €450; a honeymoon of eight to sixteen nights with up to three stops is €780; and a long journey of seventeen to thirty nights across two or more countries is €1,150. For surprise journeys where one partner plans and we keep the secret, our surprise planning add-on is €120.</p>
+<p class="fj-fine fj-fine--wide"><?php echo wp_kses_post( futari_journeys_t( 'ka73c7f30' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -89,7 +89,7 @@
 <div class="wp-block-columns fj-chap__cols"><!-- wp:column {"width":"33.333%"} -->
 <div class="wp-block-column" style="flex-basis:33.333%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Chapter 01</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k0125f641' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -98,13 +98,13 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"fj-h2 fj-h2--ch sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up">What the fee covers</h2>
+<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'ke0fcc47d' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.667%"} -->
 <div class="wp-block-column" style="flex-basis:66.667%"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Your planning fee covers the undivided attention of a dedicated planner from your first call to your return flight. It includes the research and design of a bespoke itinerary, two full rounds of route changes, direct coordination with independent accommodations and transport operators, Jonas Weber managing booking logistics, and Priya Nair checking your entry paperwork. It also includes Ren Ishida's hand-drawn maps, your printed day sheets sent fourteen days before departure, and round-the-clock emergency assistance from Camille Laurent on our travel-day line. We take no commission from hotels.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'k1b6e2277' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -117,7 +117,7 @@
 <div class="wp-block-columns fj-chap__cols"><!-- wp:column {"width":"33.333%"} -->
 <div class="wp-block-column" style="flex-basis:33.333%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Chapter 02</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k11022b56' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -126,13 +126,13 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"fj-h2 fj-h2--ch sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up">What travel costs</h2>
+<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'kb3966836' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.667%"} -->
 <div class="wp-block-column" style="flex-basis:66.667%"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Travel expenses vary based on your chosen season, destinations, and style of travel. Most honeymoons we plan range between €6,000 and €14,000 for two, including flights, characterful stays, and private transfers. For instance, an eight-night rail journey across Slovenia in September came to €5,200 for two, while a five-night autumn anniversary stay at a restored masseria in Puglia cost €3,600 for two. We provide honest estimates during your initial call, and because we never take supplier commissions, we pass on any seasonal rates or discounts directly to you.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'k2dcede36' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -143,7 +143,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"level":3,"className":"fj-dash__t"} -->
-<h3 class="wp-block-heading fj-dash__t">Two budgets, side by side</h3>
+<h3 class="wp-block-heading fj-dash__t"><?php echo wp_kses_post( futari_journeys_t( 'k28799536' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"fj-dash__line"} -->
@@ -155,29 +155,29 @@
 <div class="wp-block-group fj-trips sp-stagger"><!-- wp:group {"className":"fj-trip","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-trip"><!-- wp:group {"className":"fj-trip__photo sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-trip__photo sp-reveal sp-reveal--wipe"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"fj-ph fj-ph--171"} -->
-<figure class="wp-block-image size-full fj-ph fj-ph--171"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/train-window.webp' ) ); ?>" alt="Couple sitting together by a train window looking out at passing mountains."/></figure>
+<figure class="wp-block-image size-full fj-ph fj-ph--171"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/train-window.webp' ) ); ?>" alt="<?php echo esc_attr( futari_journeys_t( 'ad08030fa' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"fj-chip"} -->
-<p class="fj-chip">Slovenia · September</p>
+<p class="fj-chip"><?php echo wp_kses_post( futari_journeys_t( 'k0167588e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"fj-trip__sheet","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-trip__sheet"><!-- wp:heading {"level":3,"className":"fj-trip__t"} -->
-<h3 class="wp-block-heading fj-trip__t">By train, lake to sea</h3>
+<h3 class="wp-block-heading fj-trip__t"><?php echo wp_kses_post( futari_journeys_t( 'kfca6113e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fj-facts"} -->
-<p class="fj-facts">8 nights by rail · 10th anniversary · €5,200 for two</p>
+<p class="fj-facts"><?php echo wp_kses_post( futari_journeys_t( 'kca4b2e4e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-trip__p"} -->
-<p class="fj-trip__p">Mei and Tomasz took scenic regional trains from the mountains to the coast, sleeping in small guesthouses.</p>
+<p class="fj-trip__p"><?php echo wp_kses_post( futari_journeys_t( 'k0bec6ad5' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-more"} -->
-<p class="fj-more"><a href="/sample-trips/#trip-slovenia">Read the trip →</a></p>
+<p class="fj-more"><a href="/sample-trips/#trip-slovenia"><?php echo wp_kses_post( futari_journeys_t( 'ked926373' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -185,29 +185,29 @@
 <!-- wp:group {"className":"fj-trip","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-trip"><!-- wp:group {"className":"fj-trip__photo sp-reveal sp-reveal--wipe","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-trip__photo sp-reveal sp-reveal--wipe"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"fj-ph fj-ph--171"} -->
-<figure class="wp-block-image size-full fj-ph fj-ph--171"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/olive-table.webp' ) ); ?>" alt="Older couple sharing bread and laughing at a table under olive trees."/></figure>
+<figure class="wp-block-image size-full fj-ph fj-ph--171"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/olive-table.webp' ) ); ?>" alt="<?php echo esc_attr( futari_journeys_t( 'aa21c54be' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"fj-chip"} -->
-<p class="fj-chip">Puglia · October</p>
+<p class="fj-chip"><?php echo wp_kses_post( futari_journeys_t( 'ke29badd5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"fj-trip__sheet","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-trip__sheet"><!-- wp:heading {"level":3,"className":"fj-trip__t"} -->
-<h3 class="wp-block-heading fj-trip__t">Twenty-five years, five slow days</h3>
+<h3 class="wp-block-heading fj-trip__t"><?php echo wp_kses_post( futari_journeys_t( 'k7cd32d24' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fj-facts"} -->
-<p class="fj-facts">5 nights · 25th anniversary surprise · €3,600 for two</p>
+<p class="fj-facts"><?php echo wp_kses_post( futari_journeys_t( 'k15aeb9b8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-trip__p"} -->
-<p class="fj-trip__p">Marco planned this one in secret with us: a farm table, olive trees and a very long lunch.</p>
+<p class="fj-trip__p"><?php echo wp_kses_post( futari_journeys_t( 'k9f8a681f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-more"} -->
-<p class="fj-more"><a href="/sample-trips/#trip-puglia">Read the trip →</a></p>
+<p class="fj-more"><a href="/sample-trips/#trip-puglia"><?php echo wp_kses_post( futari_journeys_t( 'ked926373' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -221,7 +221,7 @@
 <div class="wp-block-columns fj-chap__cols"><!-- wp:column {"width":"33.333%"} -->
 <div class="wp-block-column" style="flex-basis:33.333%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">Chapter 03</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k8f6e38e3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -230,17 +230,17 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"fj-h2 fj-h2--ch sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up">When you pay</h2>
+<h2 class="wp-block-heading fj-h2 fj-h2--ch sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'kd8a58d88' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66.667%"} -->
 <div class="wp-block-column" style="flex-basis:66.667%"><!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Our planning fee is billed in two equal installments: fifty percent once your initial custom route is delivered, and fifty percent after your itinerary is finalized and supplier bookings are secured. If you decide not to proceed before that first route is sent, cancellation is completely free. Accommodation, train tickets, ferries, and flights are paid directly to the individual providers under their respective booking terms. Jonas Weber verifies all payment schedules so you always know when each supplier payment is due, keeping your finances orderly and transparent.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'kbf2f929f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-more"} -->
-<p class="fj-more"><a href="/planning-call/">Book a planning call →</a></p>
+<p class="fj-more"><a href="/planning-call/"><?php echo wp_kses_post( futari_journeys_t( 'k9e529b12' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
