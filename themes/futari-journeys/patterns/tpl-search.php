@@ -22,7 +22,7 @@
 
 <!-- wp:query-title {"type":"search","level":1,"className":"fj-h1 fj-h1--in"} /-->
 
-<!-- wp:search {"label":"<?php echo esc_attr( futari_journeys_t( 'a13348442' ) ); ?>","showLabel":false,"placeholder":"Search the journal","buttonText":"<?php echo esc_attr( futari_journeys_t( 'a13348442' ) ); ?>","className":"fj-search"} /--></div>
+<!-- wp:search {"label":"<?php echo esc_attr( futari_journeys_t( 'a13348442' ) ); ?>","showLabel":false,"buttonText":"<?php echo esc_attr( futari_journeys_t( 'a13348442' ) ); ?>","className":"fj-search"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
