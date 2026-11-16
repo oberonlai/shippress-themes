@@ -46,6 +46,9 @@ All photographs are AI-generated for this theme and licensed GPL-2.0-or-later / 
 - assets/images/p12-towel-shelf.webp (towel and shower corridor); GPL-2.0-or-later / CC0
 - assets/images/p13-lounge.webp (common lounge); GPL-2.0-or-later / CC0
 - assets/images/p14-night-desk.webp (night desk); GPL-2.0-or-later / CC0
+- assets/images/p15-walkway.webp (covered walkway); GPL-2.0-or-later / CC0
+- assets/images/p16-curtain-closed.webp (pod with the curtain closed); GPL-2.0-or-later / CC0
+- assets/images/p17-housekeeping.webp (housekeeping cart); GPL-2.0-or-later / CC0
 - assets/images/demo/p18-morning-pod.webp (journal post); GPL-2.0-or-later / CC0
 
 == Changelog ==

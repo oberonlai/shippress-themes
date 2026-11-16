@@ -39,7 +39,17 @@ Supporting: wordmark band over a 1px-framed sticky nav, full-width section rules
 ## Pages and contents
 1. **Home** - stage, story, wall, compare, band, minute, rules, notes, letter, book.
 2. **About, Pods & Cabins, Compare & Prices, Day-use Showers, House Rules, Access, Night Desk, FAQ, Book (contact), The Last Train Letter (newsletter), Journal (posts).**
-3. One post: "The 00:52 last train" (category Night desk; tags last-train, standard-pod).
+   - About: parallax head, the 2019 story, four building cells (lobby, pods, showers, lounge), founding numerals 2019 / 84 / 10, standards of care.
+   - Pods & Cabins: Tonight card on the head photograph, a four-cell numeral wall, four 50/50 rows (photo left, spec list right, foot strip with price, count and arrow box).
+   - Compare & Prices: three "from" numeral cards (EUR 24 / 42 / 72), the full comparison table, a six-line price list, what is included and the free cancellation until 18:00 on arrival day.
+   - Day-use Showers: four-cell wall (day-use pod, private shower, hours, towel set), numerals 45 MIN / 06 OPEN / 10 ROOMS, a four-line ruled how-it-works list.
+   - House Rules: eight ruled rules with a sentence each, numerals 22 QUIET / 10 OUT / 8 RULES.
+   - Access: four ruled walking lines beside a 1px line map, numerals 1 MIN / 80 M / 24 HRS, address and hours list.
+   - Night Desk: seven people as ruled cells (two photographs, five initials), a newsletter band.
+   - FAQ: ten questions as ruled disclosure rows with a square plus box.
+   - Book: four booking steps, the request form slot (mail fallback), walk-in note and a foot strip. The Last Train Letter: stand-alone sign-up panel on ink.
+   - Journal: posts as a three-across ruled cell wall. Signature coverage: wall on About, Pods, Showers, Night Desk and Journal; numeral cards on About, Prices, Showers, House Rules, Access; Tonight card on Pods, Showers, Access, Book.
+3. One post: "The 00:52 last train" (category Night desk; tags last-train, standard-pod), told by a commuter named Thomas and the night clerk Jonah.
 
 ## Photography
-High-key documentary photographs (AI-generated with Grok Build), one style: 35mm, soft daylight with cool LED, pale grey and white surfaces, oak and brushed steel, diverse people, no text, logos or signage. Scenes: the night clerk handing a locker key across the counter, pods, a quiet corridor, a cabin, a shower room, the station street, the pod hall, the front desk at night, the washroom row, lockers.
+High-key documentary photographs (AI-generated with Grok Build), one style: 35mm, soft daylight with cool LED, pale grey and white surfaces, oak and brushed steel, diverse people, no text, logos or signage. Scenes: the night clerk handing a locker key across the counter, pods, a quiet corridor, a cabin, a shower room, the station street, the pod hall, the front desk at night, the washroom row, lockers, a covered walkway, a pod with the curtain closed, and a housekeeper folding towels (18 photographs in all).
