@@ -52,6 +52,38 @@
 <!-- wp:paragraph {"className":"hm-body"} -->
 <p class="hm-body"><?php echo esc_html( hinata_market_t( 'boxb_text' ) ); ?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hm-hours","layout":{"type":"default"}} -->
+<div class="wp-block-group hm-hours"><!-- wp:group {"className":"hm-kv","layout":{"type":"default"}} -->
+<div class="wp-block-group hm-kv"><!-- wp:paragraph {"className":"hm-kv__k"} -->
+<p class="hm-kv__k"><?php echo esc_html( hinata_market_t( 'hr1_k' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"hm-kv__v"} -->
+<p class="hm-kv__v"><?php echo esc_html( hinata_market_t( 'hr1_v' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hm-kv","layout":{"type":"default"}} -->
+<div class="wp-block-group hm-kv"><!-- wp:paragraph {"className":"hm-kv__k"} -->
+<p class="hm-kv__k"><?php echo esc_html( hinata_market_t( 'hr2_k' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"hm-kv__v"} -->
+<p class="hm-kv__v"><?php echo esc_html( hinata_market_t( 'hr2_v' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"hm-kv","layout":{"type":"default"}} -->
+<div class="wp-block-group hm-kv"><!-- wp:paragraph {"className":"hm-kv__k"} -->
+<p class="hm-kv__k"><?php echo esc_html( hinata_market_t( 'hr3_k' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"hm-kv__v"} -->
+<p class="hm-kv__v"><?php echo esc_html( hinata_market_t( 'hr3_v' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
@@ -124,7 +156,17 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hm-col hm-col--right","layout":{"type":"default"}} -->
-<div class="wp-block-group hm-col hm-col--right"><!-- wp:paragraph {"className":"hm-label hm-label--double"} -->
+<div class="wp-block-group hm-col hm-col--right"><!-- wp:group {"className":"hm-today","layout":{"type":"default"}} -->
+<div class="wp-block-group hm-today"><!-- wp:paragraph {"className":"hm-today__label"} -->
+<p class="hm-today__label"><?php echo esc_html( hinata_market_t( 'today_label' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hm-photo hm-photo--today"} -->
+<figure class="wp-block-image size-full hm-photo hm-photo--today"><img src="<?php echo hinata_market_img( 'today-crates.webp' ); ?>" alt="<?php echo hinata_market_a( 'alt_h03' ); ?>"/><figcaption class="wp-element-caption"><?php echo esc_html( hinata_market_t( 'today_cap' ) ); ?></figcaption></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"hm-label hm-label--double"} -->
 <p class="hm-label hm-label--double"><?php echo esc_html( hinata_market_t( 'notes_label' ) ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -134,38 +176,6 @@
 
 <!-- wp:paragraph {"className":"hm-sign"} -->
 <p class="hm-sign"><?php echo esc_html( hinata_market_t( 'front_sign' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:group {"className":"hm-hours","layout":{"type":"default"}} -->
-<div class="wp-block-group hm-hours"><!-- wp:group {"className":"hm-kv","layout":{"type":"default"}} -->
-<div class="wp-block-group hm-kv"><!-- wp:paragraph {"className":"hm-kv__k"} -->
-<p class="hm-kv__k"><?php echo esc_html( hinata_market_t( 'hr1_k' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"hm-kv__v"} -->
-<p class="hm-kv__v"><?php echo esc_html( hinata_market_t( 'hr1_v' ) ); ?></p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"hm-kv","layout":{"type":"default"}} -->
-<div class="wp-block-group hm-kv"><!-- wp:paragraph {"className":"hm-kv__k"} -->
-<p class="hm-kv__k"><?php echo esc_html( hinata_market_t( 'hr2_k' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"hm-kv__v"} -->
-<p class="hm-kv__v"><?php echo esc_html( hinata_market_t( 'hr2_v' ) ); ?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"hm-kv","layout":{"type":"default"}} -->
-<div class="wp-block-group hm-kv"><!-- wp:paragraph {"className":"hm-kv__k"} -->
-<p class="hm-kv__k"><?php echo esc_html( hinata_market_t( 'hr3_k' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"className":"hm-kv__v"} -->
-<p class="hm-kv__v"><?php echo esc_html( hinata_market_t( 'hr3_v' ) ); ?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->

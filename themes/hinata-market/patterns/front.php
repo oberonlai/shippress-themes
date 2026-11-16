@@ -168,16 +168,6 @@
 <!-- wp:paragraph {"className":"hm-date__temp"} -->
 <p class="hm-date__temp"><?php echo esc_html( hinata_market_t( 'date_temp' ) ); ?></p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"className":"hm-today","layout":{"type":"default"}} -->
-<div class="wp-block-group hm-today"><!-- wp:paragraph {"className":"hm-today__label"} -->
-<p class="hm-today__label"><?php echo esc_html( hinata_market_t( 'today_label' ) ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"hm-photo hm-photo--today"} -->
-<figure class="wp-block-image size-full hm-photo hm-photo--today"><img src="<?php echo hinata_market_img( 'today-crates.webp' ); ?>" alt="<?php echo hinata_market_a( 'alt_h03' ); ?>"/><figcaption class="wp-element-caption"><?php echo esc_html( hinata_market_t( 'today_cap' ) ); ?></figcaption></figure>
-<!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
