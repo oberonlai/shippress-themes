@@ -1,7 +1,7 @@
 # Hinata Market: brand
 
-## Name and place
-**Hinata Market**, a weekend farmers' market. Linden Station Square, Easthaven (a fictional town), between the station's east exit and the tram stop. Market office: Linden Station Square, tel. 020 448 6130, hello@hinata-market.example. Sub-line: Station Square · Saturdays.
+## Name and location
+**Hinata Market**, a weekend farmers' market. Location: Linden Station Square, Easthaven (a fictional town), between the station's east exit and the tram stop. Market office: Linden Station Square, tel. 020 448 6130, hello@hinata-market.example. Sub-line: Station Square · Saturdays.
 
 ## Founded
 Spring 2011, when nine local growers and the station's community council set up the first trestle tables on the square. Rows C and D were added in 2015, which brought the market to forty pitches in four rows of ten. The weekly list started with issue No. 1 on Saturday 5 November 2022; the front page in the sample content shows Issue No. 212, Saturday 21 November 2026.
