@@ -31,8 +31,8 @@
 
 <!-- wp:group {"className":"fj-lockup","layout":{"type":"default"},"align":"full"} -->
 <div class="wp-block-group alignfull fj-lockup"><!-- wp:columns {"className":"fj-lockup__cols"} -->
-<div class="wp-block-columns fj-lockup__cols"><!-- wp:column {"width":"58.333%"} -->
-<div class="wp-block-column" style="flex-basis:58.333%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
+<div class="wp-block-columns fj-lockup__cols"><!-- wp:column {"width":"64%"} -->
+<div class="wp-block-column" style="flex-basis:64%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
 <p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k63d8afdb' ) ); ?></p>
 <!-- /wp:paragraph -->
@@ -47,8 +47,8 @@
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"41.667%"} -->
-<div class="wp-block-column" style="flex-basis:41.667%"><!-- wp:group {"className":"fj-drop","layout":{"type":"default"}} -->
+<!-- wp:column {"width":"36%"} -->
+<div class="wp-block-column" style="flex-basis:36%"><!-- wp:group {"className":"fj-drop","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-drop"></div>
 <!-- /wp:group -->
 
