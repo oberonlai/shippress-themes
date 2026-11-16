@@ -171,6 +171,7 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/hikari-musubi"><img src="https://shots.codotx.com/hikari-musubi/home-desktop.webp" width="260" alt="Hikari Musubi"></a><br><a href="themes/hikari-musubi">Hikari Musubi</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/himuro-gelato"><img src="https://shots.codotx.com/himuro-gelato/home-desktop.webp" width="260" alt="Himuro Gelato"></a><br><a href="themes/himuro-gelato">Himuro Gelato</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/hinata-market"><img src="https://shots.codotx.com/hinata-market/home-desktop.webp" width="260" alt="Hinata Market"></a><br><a href="themes/hinata-market">Hinata Market</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/hinoki-yado"><img src="https://shots.codotx.com/hinoki-yado/home-desktop.webp" width="260" alt="Hinoki Yado"></a><br><a href="themes/hinoki-yado">Hinoki Yado</a></td>
 </tr>
 <tr>

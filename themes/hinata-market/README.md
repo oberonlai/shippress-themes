@@ -18,3 +18,23 @@ License: GPL-2.0-or-later.
 ## Notes
 - Headings and notice titles use the deep russet (`#8A5638`) so the colour carries through the type; body copy stays in ink.
 - Menu items link to real pages (About, Notices, Stalls, Visit, Apply, Contact) created by the demo import.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/hinata-market/home-desktop.webp" width="640" alt="Hinata Market home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hinata-market/home-mobile.webp" width="200" alt="Hinata Market home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/hinata-market/about-desktop.webp) · [mobile](https://shots.codotx.com/hinata-market/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hinata-market/news-desktop.webp) · [mobile](https://shots.codotx.com/hinata-market/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hinata-market/article-desktop.webp) · [mobile](https://shots.codotx.com/hinata-market/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hinata-market/category-desktop.webp) · [mobile](https://shots.codotx.com/hinata-market/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hinata-market/tag-desktop.webp) · [mobile](https://shots.codotx.com/hinata-market/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hinata-market/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hinata-market/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hinata-market/contact-desktop.webp) · [mobile](https://shots.codotx.com/hinata-market/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hinata-market/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hinata-market/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hinata-market/fr/home-desktop.webp) · [de](https://shots.codotx.com/hinata-market/de/home-desktop.webp)
+<!-- screenshots:end -->
