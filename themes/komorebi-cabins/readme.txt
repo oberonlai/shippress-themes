@@ -41,7 +41,7 @@ Images: AI-generated for this theme with Grok Build image_gen as dark documentar
 - assets/images/cabin-fern.webp (interior of a small cabin with a double bed under a sloped timber ceiling)
 - assets/images/cabin-beech.webp (timber cabin living area with a dining table, wooden staircase, and tall forest window)
 - assets/images/cabin-cedar.webp (exterior of a timber cabin among cedar trees with chairs on the front porch)
-- assets/images/cabin-hollow.webp (large timber cabin in a woodland clearing with a stone fire pit at dusk)
+- assets/images/cabin-hollow.webp (double-height living room of the largest cabin with a long dining table and a window onto cedar trunks)
 - assets/images/inside-stove.webp (lit black wood stove inside a timber cabin living room beside a comfortable sofa)
 - assets/images/inside-kitchen.webp (cabin kitchen corner with an induction hob, open wooden shelves, and plain ceramic tableware)
 - assets/images/wood-stack.webp (hands carefully stacking split cedar and beech firewood logs against an outdoor cabin wall)

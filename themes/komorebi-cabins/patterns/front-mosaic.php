@@ -28,7 +28,7 @@
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-m kc-m--hollow sp-reveal sp-reveal--zoom"} -->
-<figure class="wp-block-image size-full kc-m kc-m--hollow sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cabin-hollow.webp' ) ); ?>" alt="Large timber cabin in a woodland clearing with a stone fire pit at dusk."/><figcaption class="wp-element-caption">Hollow · sleeps 8</figcaption></figure>
+<figure class="wp-block-image size-full kc-m kc-m--hollow sp-reveal sp-reveal--zoom"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cabin-hollow.webp' ) ); ?>" alt="Double-height living room of the largest cabin with a long dining table and a tall window onto cedar trunks."/><figcaption class="wp-element-caption">Hollow · sleeps 8</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kc-mosaic__vtext"} -->

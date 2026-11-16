@@ -10,7 +10,7 @@
 <!-- wp:group {"align":"full","className":"kc-hero","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull kc-hero"><!-- wp:group {"className":"kc-hero__notice","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hero__notice"><!-- wp:paragraph -->
-<p><span class="kc-info" aria-hidden="true">i</span>Weekend dates open for spring · Fri–Sun</p>
+<p><span class="kc-info" aria-hidden="true">i</span>Weekend dates now open · Fri–Sun</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
