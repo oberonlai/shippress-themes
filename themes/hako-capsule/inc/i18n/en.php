@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns. */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'ab_b1' => 'Our story',
 	'ab_b2' => 'The building',
@@ -157,6 +157,7 @@ return array(
 	'cmp_stay_night' => 'Overnight',
 	'cmp_title' => 'Compare',
 	'contact_email' => 'Email the night desk',
+	'date_fmt' => 'j F Y',
 	'faq_h1' => 'FAQ',
 	'faq_intro' => 'Find clear answers to common questions about our facilities, check-in policies, pod amenities, and house rules. Contact our 24-hour desk if you need further details.',
 	'faq_s1_b' => 'Our front desk is staffed 24 hours a day, so there is always someone available to assist you. Standard check-in begins at 15:00 and continues through 02:00 for late rail arrivals. If you expect to arrive after 02:00, please notify us in advance via stay@hako-capsule.example so our night clerk can note your reservation. Check-out is strictly at 10:00 to allow our housekeeping team adequate time to clean and sanitize all 84 pods before daytime arrivals. Guests needing early arrival or late departure may store luggage free of charge in our staffed luggage room.',
@@ -244,6 +245,11 @@ return array(
 	'jl_aria' => 'Subscribe to The Last Train Letter',
 	'jl_c' => 'Monthly',
 	'jl_f' => 'Free',
+	'k2b9645dc' => 'LH',
+	'k4e0d4f6c' => 'SM',
+	'k618441d4' => 'LF',
+	'kc23fa999' => 'DO',
+	'keb0459bf' => 'MO',
 	'kv_addr' => 'Address',
 	'kv_addr_v' => '3 Platform Lane, Easthaven',
 	'kv_day' => 'Day-use pods',
@@ -433,6 +439,7 @@ return array(
 	'rs_out' => 'Check-out 10:00',
 	'rs_quiet' => 'Quiet hours 22:00–07:00',
 	'rules_title' => 'House rules',
+	'search_results' => 'Search results for: %s',
 	'sh_b1' => 'Day use',
 	'sh_b2' => 'In numbers',
 	'sh_b3' => 'How it works',

@@ -48,7 +48,7 @@
 <div class="wp-block-group hk-wall hk-wall--grid hk-wall--n4 sp-reveal sp-reveal--up"><!-- wp:group {"className":"hk-cell","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-cell"><!-- wp:group {"className":"hk-cell__iniwrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-cell__iniwrap"><!-- wp:paragraph {"className":"hk-cell__ini"} -->
-<p class="hk-cell__ini">MO</p>
+<p class="hk-cell__ini"><?php echo wp_kses_post( hako_capsule_t( 'keb0459bf' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -80,7 +80,7 @@
 <!-- wp:group {"className":"hk-cell","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-cell"><!-- wp:group {"className":"hk-cell__iniwrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-cell__iniwrap"><!-- wp:paragraph {"className":"hk-cell__ini"} -->
-<p class="hk-cell__ini">LF</p>
+<p class="hk-cell__ini"><?php echo wp_kses_post( hako_capsule_t( 'k618441d4' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -172,7 +172,7 @@
 <!-- wp:group {"className":"hk-cell","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-cell"><!-- wp:group {"className":"hk-cell__iniwrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-cell__iniwrap"><!-- wp:paragraph {"className":"hk-cell__ini"} -->
-<p class="hk-cell__ini">SM</p>
+<p class="hk-cell__ini"><?php echo wp_kses_post( hako_capsule_t( 'k4e0d4f6c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -204,7 +204,7 @@
 <!-- wp:group {"className":"hk-cell","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-cell"><!-- wp:group {"className":"hk-cell__iniwrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-cell__iniwrap"><!-- wp:paragraph {"className":"hk-cell__ini"} -->
-<p class="hk-cell__ini">DO</p>
+<p class="hk-cell__ini"><?php echo wp_kses_post( hako_capsule_t( 'kc23fa999' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -236,7 +236,7 @@
 <!-- wp:group {"className":"hk-cell","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-cell"><!-- wp:group {"className":"hk-cell__iniwrap","layout":{"type":"default"}} -->
 <div class="wp-block-group hk-cell__iniwrap"><!-- wp:paragraph {"className":"hk-cell__ini"} -->
-<p class="hk-cell__ini">LH</p>
+<p class="hk-cell__ini"><?php echo wp_kses_post( hako_capsule_t( 'k2b9645dc' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
