@@ -53,5 +53,8 @@ Images: AI-generated for this theme with Grok Build image_gen as high-key docume
 - assets/images/travel-folder.webp (the Route Letter page head: a travel folder, keys, a leaf and a pencil)
 
 == Changelog ==
+= 1.0.1 =
+* Fix the home page hero link to the documents question: the section now has the #documents anchor in all five languages.
+
 = 1.0.0 =
 * First release.
