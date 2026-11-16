@@ -12,7 +12,7 @@ Hako Capsule is a calm, typographic WordPress block theme for station-front caps
 
 A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). The home page is built from patterns: a stage photograph with a Tonight card, a narrow story column, a five-cell pod wall, a comparison table, a parallax shower band, notched numeral cards, ruled house rules, night-desk stories, a newsletter slot and an ink booking band.
 
-Fonts: Geist (headings) and Inter Tight (reading text), both under the SIL Open Font License 1.1.
+Fonts: Geist (headings) and Inter Tight (reading text), both under the SIL Open Font License 1.1. Chinese headings use a Noto Sans TC subset (OFL 1.1). Japanese headings and body use a Noto Sans JP subset (OFL 1.1).
 
 == Installation ==
 
