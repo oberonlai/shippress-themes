@@ -29,7 +29,7 @@ The studio, its trips, couples, people, address and prices are fictional.
 == Copyright ==
 
 Futari Journeys is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Manrope (OFL-1.1), Latin variable; Public Sans (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Manrope (OFL-1.1), Latin variable; Public Sans (OFL-1.1), Latin variable; Noto Sans TC and Noto Sans JP (OFL-1.1), subset WOFF2 for zh-TW and ja headings; see assets/fonts/.
 
 = Images =
 
