@@ -60,4 +60,14 @@ Grow, rear or make it yourself. Within 60 km of the square. Someone from the far
 One email every Thursday at 18:00: next Saturday's stalls, what is in season, market notices and a note from one grower.
 
 ## Pages
-Home (front page, stall strip, season band, how to apply, pitch fees, office and weekly list), About the market, Notices (the posts page), Stalls and growers, In season, Visit, Apply for a pitch, Pitch fees, Weekly list, Contact, Privacy.
+Home (front page, stall strip, season band, how to apply, pitch fees, office and weekly list) plus ten inner pages, all in the same ruled frame with a mini-gazette head (label bar, title, intro and a date card):
+- About the market: history rows by year (2011, 2015, 2022), the lead photograph with four diamonds, seven people as rows, three grower stories.
+- Notices (the posts page): three ruled columns with categories and tags, notice rows with thumbnails and the date card; one article, "A honey stall joins Row C from 28 November".
+- Stalls and growers: a full-width parallax photograph, the row map, twelve regular stalls grouped by Row A to D, the six rules.
+- In season: lead photograph, twelve months as dotted rows, the sixty-kilometre note.
+- Visit: nine visitor facts (hours, getting here, payment, bikes, bags, dogs, access, lost property).
+- Apply for a pitch: lead photograph, who can apply, six rules, four steps with photographs and a form slot with a mailto fallback.
+- Pitch fees: the seven-row fee table (full width at 782px and up, stacked on phones) and the terms.
+- Weekly list: what each Thursday issue holds, the newsletter slot on a dark panel and the privacy note.
+- Contact: office facts, Saturday desk, a form slot with a mailto fallback.
+- Privacy: plain text.

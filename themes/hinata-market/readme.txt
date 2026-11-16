@@ -24,7 +24,7 @@ On activation the theme sets itself up as a ready-to-use website (inc/demo-impor
 
 Optional forms: the weekly-list box uses a small dynamic block. With MailPoet or Mailchimp for WP active, their form is shown; without a plugin it shows an email field that opens your mail app (you are not on the list until you send the request). The contact and pitch application pages use Contact Form 7 or WPForms when present, and a mail button otherwise.
 
-Scroll effects use the bundled sp-scroll files (assets/sp-scroll.css and assets/sp-scroll.js); they respect prefers-reduced-motion.
+Inner pages: about, notices, stalls and growers, in season, visit, apply for a pitch, pitch fees, weekly list, contact and privacy, plus one notice, each with a ruled mini-gazette head and a date card. Scroll effects use the bundled sp-scroll files (assets/sp-scroll.css and assets/sp-scroll.js); they respect prefers-reduced-motion.
 
 The market, its people, places and prices are fictional.
 
