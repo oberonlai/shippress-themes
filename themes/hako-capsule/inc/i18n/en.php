@@ -8,7 +8,7 @@ return array(
 	'alt_p05' => 'A single private cabin showing a narrow bed, small desk, and open door.',
 	'alt_p06' => 'A private tiled shower room with a glass door and rolled white towel.',
 	'alt_p07' => 'A traveller pulling a suitcase along a station walkway toward a white building.',
-	'alt_p08' => 'Two tiers of modern sleeping capsules receding along a clean hotel hallway.',
+	'alt_p08' => 'A traveller\'s hand drawing back a pale linen curtain on a made-up capsule bed with folded towels.',
 	'alt_p09' => 'A night clerk writing at a desk beside rows of brass keys.',
 	'alt_p10' => 'A row of white washroom basins and mirrors under soft lighting.',
 	'alt_p11' => 'A hand turning a metal key inside a grey locker beside a backpack.',

@@ -39,10 +39,13 @@ All photographs are AI-generated for this theme and licensed GPL-2.0-or-later / 
 - assets/images/p05-single-cabin.webp (Single Cabin); GPL-2.0-or-later / CC0
 - assets/images/p06-shower-room.webp (shower room); GPL-2.0-or-later / CC0
 - assets/images/p07-station-street.webp (station street); GPL-2.0-or-later / CC0
-- assets/images/p08-pod-hall.webp (pod hall); GPL-2.0-or-later / CC0
+- assets/images/p08-pod-hall.webp (pod curtain close-up); GPL-2.0-or-later / CC0
 - assets/images/p09-front-desk.webp (front desk); GPL-2.0-or-later / CC0
 - assets/images/p10-washroom-row.webp (washroom row); GPL-2.0-or-later / CC0
 - assets/images/p11-lockers.webp (lockers); GPL-2.0-or-later / CC0
+- assets/images/p12-towel-shelf.webp (towel and shower corridor); GPL-2.0-or-later / CC0
+- assets/images/p13-lounge.webp (common lounge); GPL-2.0-or-later / CC0
+- assets/images/p14-night-desk.webp (night desk); GPL-2.0-or-later / CC0
 - assets/images/demo/p18-morning-pod.webp (journal post); GPL-2.0-or-later / CC0
 
 == Changelog ==

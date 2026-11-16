@@ -71,12 +71,6 @@ img { max-width: 100%; height: auto; }
 .hk-bar { position: sticky; top: 0; z-index: 60; box-sizing: border-box; height: 76px; display: flex; align-items: center; justify-content: center; padding: 0 168px; background: var(--hk-base); border: var(--hk-line); border-right: 0; }
 .hk-mark { position: absolute; left: 32px; top: 50%; transform: translateY(-50%); margin: 0; font-family: var(--hk-display); font-weight: 400; font-size: 1.125rem; letter-spacing: .32em; line-height: 1; }
 .hk-mark a { text-decoration: none; color: var(--hk-ink); }
-@supports (animation-timeline: scroll()) {
-	.hk-mark { opacity: 0; animation: hk-mark-in linear both; animation-timeline: scroll(root); animation-range: 0 120px; }
-}
-@keyframes hk-mark-in { from { opacity: 0; } to { opacity: 1; } }
-html.sp-no-motion .hk-mark, .editor-styles-wrapper .hk-mark { animation: none; opacity: 1; }
-@media (prefers-reduced-motion: reduce) { .hk-mark { animation: none; opacity: 1; } }
 
 .hk-nav { font-family: var(--hk-body); font-weight: 300; font-size: 1rem; letter-spacing: .1em; text-transform: uppercase; }
 .hk-nav .wp-block-navigation__container { gap: 40px; flex-wrap: nowrap; }
@@ -109,8 +103,8 @@ html.sp-no-motion .hk-mark, .editor-styles-wrapper .hk-mark { animation: none; o
 	.hk-nav { margin-left: auto; }
 }
 @media (max-width: 781px) {
-	.hk-band { height: 48px; }
-	.hk-wordmark { letter-spacing: .24em; padding-left: .24em; }
+	.hk-band { height: 48px; padding-right: 96px; box-sizing: border-box; }
+	.hk-wordmark { font-size: 1.125rem; letter-spacing: .18em; padding-left: .18em; }
 	.hk-bar { height: 56px; }
 	.hk-slab { top: -49px; width: 88px; height: 116px; padding: 0 8px 12px; border-radius: 0 0 0 16px; }
 	.hk-slab__label { font-size: .625rem; letter-spacing: .1em; }
@@ -222,7 +216,7 @@ html.sp-no-motion .hk-tag, .editor-styles-wrapper .hk-tag { animation: none; }
 }
 
 /* ---------- comparison table ---------- */
-.hk-sec--compare .hk-in { padding-top: 72px; padding-bottom: 88px; }
+.hk-sec--compare .hk-in { padding-top: 72px; padding-bottom: 48px; }
 figure.wp-block-table.hk-table { margin: 0; overflow: visible; }
 .hk-table table { width: 100%; table-layout: fixed; border-collapse: collapse; border: var(--hk-line); font-size: var(--wp--preset--font-size--cell); line-height: 1.6; }
 .hk-table th { background: var(--hk-pale); font-weight: 500; font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; text-align: left; padding: 16px 14px; border: 0; border-bottom: var(--hk-line); }
