@@ -49,3 +49,7 @@ All photographs are AI-generated for this theme and licensed GPL-2.0-or-later / 
 
 = 1.0.0 =
 * Initial release.
+
+== Copyright ==
+
+Hako Capsule WordPress theme, (C) 2026 ShipPress. Distributed under the terms of the GNU GPL v2 or later. Photographs in assets/images are AI-generated for this theme and released under GPL-2.0-or-later / CC0. Bundled fonts are under the SIL Open Font License 1.1 (see assets/fonts/OFL-*.txt).

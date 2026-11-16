@@ -29,8 +29,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hk-notch__r","layout":{"type":"default"}} -->
-<div class="wp-block-group hk-notch__r"><!-- wp:paragraph {"className":"hk-badge"} -->
-<p class="hk-badge"></p>
+<div class="wp-block-group hk-notch__r"><!-- wp:paragraph {"className":"hk-badge hk-badge--m1"} -->
+<p class="hk-badge hk-badge--m1"><span class="hk-badge__i"></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-notch__u"} -->
@@ -61,8 +61,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hk-notch__r","layout":{"type":"default"}} -->
-<div class="wp-block-group hk-notch__r"><!-- wp:paragraph {"className":"hk-badge"} -->
-<p class="hk-badge"></p>
+<div class="wp-block-group hk-notch__r"><!-- wp:paragraph {"className":"hk-badge hk-badge--m2"} -->
+<p class="hk-badge hk-badge--m2"><span class="hk-badge__i"></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-notch__u"} -->
@@ -93,8 +93,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"hk-notch__r","layout":{"type":"default"}} -->
-<div class="wp-block-group hk-notch__r"><!-- wp:paragraph {"className":"hk-badge"} -->
-<p class="hk-badge"></p>
+<div class="wp-block-group hk-notch__r"><!-- wp:paragraph {"className":"hk-badge hk-badge--m3"} -->
+<p class="hk-badge hk-badge--m3"><span class="hk-badge__i"></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hk-notch__u"} -->
