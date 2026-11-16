@@ -17,7 +17,7 @@ return array(
 	'forms_contact_note' => 'Opens your email app. Tell us your names, the occasion, rough dates and two times that suit you for a call.',
 	'forms_contact_subject' => 'Planning call request',
 	'forms_email' => 'Email address',
-	'forms_mail_notice' => 'This opens your email app. Send the message to subscribe; you are not subscribed yet.',
+	'forms_mail_notice' => 'Your email app will open with the message ready. Send it to finish subscribing: you are not on the list until you do.',
 	'forms_mail_subject' => 'Subscribe to The Route Letter',
 	'forms_subscribe' => 'Send me the Route Letter',
 	'k00f94dc1' => 'We refine stays, pacing and transfers together until it feels right.',
