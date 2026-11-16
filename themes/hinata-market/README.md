@@ -14,3 +14,7 @@ Navigation: one top menu (About, Notices, Stalls, Visit, Apply, Contact). Fonts:
 Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
 
 License: GPL-2.0-or-later.
+
+## Notes
+- Headings and notice titles use the deep russet (`#8A5638`) so the colour carries through the type; body copy stays in ink.
+- Menu items link to real pages (About, Notices, Stalls, Visit, Apply, Contact) created by the demo import.
