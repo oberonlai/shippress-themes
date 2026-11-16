@@ -11,7 +11,7 @@
 <div class="wp-block-group alignfull fj-section fj-planners"><!-- wp:group {"className":"fj-narrow","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-narrow"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">The planners</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k7f781c16' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -20,13 +20,13 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"fj-h2 sp-reveal sp-reveal--up"} -->
-<h2 class="wp-block-heading fj-h2 sp-reveal sp-reveal--up">Three planners, one of them yours.</h2>
+<h2 class="wp-block-heading fj-h2 sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'ke3aadbd5' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"className":"fj-planners__cols"} -->
 <div class="wp-block-columns fj-planners__cols"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"fj-ph fj-ph--32 sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full fj-ph fj-ph--32 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/studio-table.webp' ) ); ?>" alt="Three travel planners gathered around a long timber table with route maps."/></figure>
+<figure class="wp-block-image size-full fj-ph fj-ph--32 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/studio-table.webp' ) ); ?>" alt="<?php echo esc_attr( futari_journeys_t( 'a08a8fe05' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -34,48 +34,48 @@
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"className":"fj-people sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-people sp-stagger"><!-- wp:group {"className":"fj-person sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-person sp-reveal sp-reveal--up"><!-- wp:heading {"level":3,"className":"fj-person__n"} -->
-<h3 class="wp-block-heading fj-person__n">Aiko Brandt</h3>
+<h3 class="wp-block-heading fj-person__n"><?php echo wp_kses_post( futari_journeys_t( 'kbb1640f1' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fj-person__r"} -->
-<p class="fj-person__r">Founder and lead planner</p>
+<p class="fj-person__r"><?php echo wp_kses_post( futari_journeys_t( 'k1937b44f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-person__s"} -->
-<p class="fj-person__s">Plans honeymoons and anniversary journeys with personal care from the first call to the flight home.</p>
+<p class="fj-person__s"><?php echo wp_kses_post( futari_journeys_t( 'kd5072c61' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"fj-person sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-person sp-reveal sp-reveal--up"><!-- wp:heading {"level":3,"className":"fj-person__n"} -->
-<h3 class="wp-block-heading fj-person__n">Mateus Okafor</h3>
+<h3 class="wp-block-heading fj-person__n"><?php echo wp_kses_post( futari_journeys_t( 'k440efb73' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fj-person__r"} -->
-<p class="fj-person__r">Planner, islands and coasts</p>
+<p class="fj-person__r"><?php echo wp_kses_post( futari_journeys_t( 'k5ca4a97e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-person__s"} -->
-<p class="fj-person__s">Shapes archipelago routes, coastal walks and seaside hideaways across the Azores and Zanzibar.</p>
+<p class="fj-person__s"><?php echo wp_kses_post( futari_journeys_t( 'k2c540ddf' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"fj-person sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-person sp-reveal sp-reveal--up"><!-- wp:heading {"level":3,"className":"fj-person__n"} -->
-<h3 class="wp-block-heading fj-person__n">Lina Haddad</h3>
+<h3 class="wp-block-heading fj-person__n"><?php echo wp_kses_post( futari_journeys_t( 'k23abe95e' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"fj-person__r"} -->
-<p class="fj-person__r">Planner, mountains and rail</p>
+<p class="fj-person__r"><?php echo wp_kses_post( futari_journeys_t( 'k5318ba72' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-person__s"} -->
-<p class="fj-person__s">Designs scenic overland routes, alpine stays and lake-to-sea rail journeys across Slovenia.</p>
+<p class="fj-person__s"><?php echo wp_kses_post( futari_journeys_t( 'kd347f796' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"fj-more"} -->
-<p class="fj-more"><a href="/planners/">All seven people →</a></p>
+<p class="fj-more"><a href="/planners/"><?php echo wp_kses_post( futari_journeys_t( 'k3dfdd6d2' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

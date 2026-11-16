@@ -13,7 +13,7 @@
 <div class="wp-block-columns fj-letter__cols"><!-- wp:column {"width":"41.667%"} -->
 <div class="wp-block-column" style="flex-basis:41.667%"><!-- wp:group {"className":"fj-eyebrow-row","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-eyebrow-row"><!-- wp:paragraph {"className":"fj-eyebrow"} -->
-<p class="fj-eyebrow">The Route Letter</p>
+<p class="fj-eyebrow"><?php echo wp_kses_post( futari_journeys_t( 'k6d2a1f4b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:separator {"className":"fj-rule"} -->
@@ -22,11 +22,11 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"fj-h3"} -->
-<h3 class="wp-block-heading fj-h3">One letter a season.</h3>
+<h3 class="wp-block-heading fj-h3"><?php echo wp_kses_post( futari_journeys_t( 'k04b0ad54' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Four letters a year, in March, June, September and December: where couples went that season and which months open next. Nothing else.</p>
+<p><?php echo wp_kses_post( futari_journeys_t( 'kd14c935d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 

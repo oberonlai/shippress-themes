@@ -13,39 +13,39 @@
 <div class="wp-block-group fj-footer__in"><!-- wp:columns {"className":"fj-footer__cols"} -->
 <div class="wp-block-columns fj-footer__cols"><!-- wp:column {} -->
 <div class="wp-block-column"><!-- wp:paragraph {"className":"fj-foot__mark"} -->
-<p class="fj-foot__mark">futari journeys</p>
+<p class="fj-foot__mark"><?php echo wp_kses_post( futari_journeys_t( 'k414b2da2' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-foot__t"} -->
-<p class="fj-foot__t">2nd floor, 8 Linden Row, Valmere</p>
+<p class="fj-foot__t"><?php echo wp_kses_post( futari_journeys_t( 'k06a60427' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-foot__t"} -->
-<p class="fj-foot__t">Trips for two, planned one at a time.</p>
+<p class="fj-foot__t"><?php echo wp_kses_post( futari_journeys_t( 'ked60290c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {} -->
 <div class="wp-block-column"><!-- wp:paragraph {"className":"fj-foot__h"} -->
-<p class="fj-foot__h">Hours</p>
+<p class="fj-foot__h"><?php echo wp_kses_post( futari_journeys_t( 'k6a7e7316' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-foot__t"} -->
-<p class="fj-foot__t">Studio: Tuesday–Saturday 10:00–18:00, by appointment</p>
+<p class="fj-foot__t"><?php echo wp_kses_post( futari_journeys_t( 'kdba1d0c3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-foot__t"} -->
-<p class="fj-foot__t">Planning calls: Monday–Saturday 09:00–19:00 CET</p>
+<p class="fj-foot__t"><?php echo wp_kses_post( futari_journeys_t( 'k7070db7a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-foot__t"} -->
-<p class="fj-foot__t">Travel-day line: 24 hours a day while you travel</p>
+<p class="fj-foot__t"><?php echo wp_kses_post( futari_journeys_t( 'kb0eff9a7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {} -->
 <div class="wp-block-column"><!-- wp:paragraph {"className":"fj-foot__h"} -->
-<p class="fj-foot__h">Contact</p>
+<p class="fj-foot__h"><?php echo wp_kses_post( futari_journeys_t( 'kbbaff128' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-foot__t"} -->
@@ -53,27 +53,27 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-foot__t"} -->
-<p class="fj-foot__t"><a href="mailto:hello@futari-journeys.example">hello@futari-journeys.example</a></p>
+<p class="fj-foot__t"><a href="mailto:hello@futari-journeys.example"><?php echo wp_kses_post( futari_journeys_t( 'k504fcd89' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-foot__t"} -->
-<p class="fj-foot__t"><a href="/planning-call/">Book a planning call →</a></p>
+<p class="fj-foot__t"><a href="/planning-call/"><?php echo wp_kses_post( futari_journeys_t( 'k9e529b12' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {} -->
 <div class="wp-block-column"><!-- wp:paragraph {"className":"fj-foot__h"} -->
-<p class="fj-foot__h">Pages</p>
+<p class="fj-foot__h"><?php echo wp_kses_post( futari_journeys_t( 'k453aceb0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-foot__links"} -->
-<p class="fj-foot__links"><a href="/about/">About</a><br><a href="/questions/">Questions</a><br><a href="/letter/">The Route Letter</a><br><a href="/journal/">Journal</a><br><a href="/privacy/">Privacy</a></p>
+<p class="fj-foot__links"><a href="/about/"><?php echo wp_kses_post( futari_journeys_t( 'k8f7f4c1c' ) ); ?></a><br><a href="/questions/"><?php echo wp_kses_post( futari_journeys_t( 'k6ce3bdc3' ) ); ?></a><br><a href="/letter/"><?php echo wp_kses_post( futari_journeys_t( 'k6d2a1f4b' ) ); ?></a><br><a href="/journal/"><?php echo wp_kses_post( futari_journeys_t( 'k6b2b5614' ) ); ?></a><br><a href="/privacy/"><?php echo wp_kses_post( futari_journeys_t( 'kc5f29bb3' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:paragraph {"className":"fj-foot__fine"} -->
-<p class="fj-foot__fine">© Futari Journeys. Every trip is planned one couple at a time.</p>
+<p class="fj-foot__fine"><?php echo wp_kses_post( futari_journeys_t( 'k0bd9ae68' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

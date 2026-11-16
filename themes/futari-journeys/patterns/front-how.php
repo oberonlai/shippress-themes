@@ -15,7 +15,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"level":2,"className":"fj-dash__t"} -->
-<h2 class="wp-block-heading fj-dash__t">How a trip is built</h2>
+<h2 class="wp-block-heading fj-dash__t"><?php echo wp_kses_post( futari_journeys_t( 'kc214e10a' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"fj-dash__line"} -->
@@ -27,39 +27,39 @@
 <div class="wp-block-columns fj-how__cols"><!-- wp:column {"width":"58.333%"} -->
 <div class="wp-block-column" style="flex-basis:58.333%"><!-- wp:list {"ordered":true,"className":"fj-steps sp-stagger"} -->
 <ol class="wp-block-list fj-steps sp-stagger"><!-- wp:list-item {"className":"fj-step sp-reveal sp-reveal--up"} -->
-<li class="fj-step sp-reveal sp-reveal--up"><span class="fj-step__n">1</span><span class="fj-step__b"><strong>The planning call</strong><span class="fj-step__d">A forty-five-minute video conversation about your thoughts, dates and budget.</span></span><span class="fj-step__tm">Free</span></li>
+<li class="fj-step sp-reveal sp-reveal--up"><span class="fj-step__n">1</span><span class="fj-step__b"><strong><?php echo wp_kses_post( futari_journeys_t( 'kfc35f996' ) ); ?></strong><span class="fj-step__d"><?php echo wp_kses_post( futari_journeys_t( 'k06d693e0' ) ); ?></span></span><span class="fj-step__tm"><?php echo wp_kses_post( futari_journeys_t( 'kb24ce0cd' ) ); ?></span></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"className":"fj-step sp-reveal sp-reveal--up"} -->
-<li class="fj-step sp-reveal sp-reveal--up"><span class="fj-step__n">2</span><span class="fj-step__b"><strong>A first route and a fee</strong><span class="fj-step__d">A tailored outline and a fixed planning fee.</span></span><span class="fj-step__tm">Within 7 days</span></li>
+<li class="fj-step sp-reveal sp-reveal--up"><span class="fj-step__n">2</span><span class="fj-step__b"><strong><?php echo wp_kses_post( futari_journeys_t( 'k2b5bde41' ) ); ?></strong><span class="fj-step__d"><?php echo wp_kses_post( futari_journeys_t( 'k1cc35391' ) ); ?></span></span><span class="fj-step__tm"><?php echo wp_kses_post( futari_journeys_t( 'k69175728' ) ); ?></span></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"className":"fj-step sp-reveal sp-reveal--up"} -->
-<li class="fj-step sp-reveal sp-reveal--up"><span class="fj-step__n">3</span><span class="fj-step__b"><strong>Two rounds of changes</strong><span class="fj-step__d">We refine stays, pacing and transfers together until it feels right.</span></span><span class="fj-step__tm">At your pace</span></li>
+<li class="fj-step sp-reveal sp-reveal--up"><span class="fj-step__n">3</span><span class="fj-step__b"><strong><?php echo wp_kses_post( futari_journeys_t( 'k4cb88025' ) ); ?></strong><span class="fj-step__d"><?php echo wp_kses_post( futari_journeys_t( 'k00f94dc1' ) ); ?></span></span><span class="fj-step__tm"><?php echo wp_kses_post( futari_journeys_t( 'k2cfa5ad6' ) ); ?></span></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"className":"fj-step sp-reveal sp-reveal--up"} -->
-<li class="fj-step sp-reveal sp-reveal--up"><span class="fj-step__n">4</span><span class="fj-step__b"><strong>Bookings confirmed</strong><span class="fj-step__d">Rooms, trains and guides secured directly, with no hotel commission.</span></span><span class="fj-step__tm">After approval</span></li>
+<li class="fj-step sp-reveal sp-reveal--up"><span class="fj-step__n">4</span><span class="fj-step__b"><strong><?php echo wp_kses_post( futari_journeys_t( 'kae03477a' ) ); ?></strong><span class="fj-step__d"><?php echo wp_kses_post( futari_journeys_t( 'k9951dfb4' ) ); ?></span></span><span class="fj-step__tm"><?php echo wp_kses_post( futari_journeys_t( 'kc5de01fb' ) ); ?></span></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"className":"fj-step sp-reveal sp-reveal--up"} -->
-<li class="fj-step sp-reveal sp-reveal--up"><span class="fj-step__n">5</span><span class="fj-step__b"><strong>The travel kit</strong><span class="fj-step__d">Route map, day sheets and bookings folder, plus the travel-day line on the road.</span></span><span class="fj-step__tm">14 days before</span></li>
+<li class="fj-step sp-reveal sp-reveal--up"><span class="fj-step__n">5</span><span class="fj-step__b"><strong><?php echo wp_kses_post( futari_journeys_t( 'k0a32ed7f' ) ); ?></strong><span class="fj-step__d"><?php echo wp_kses_post( futari_journeys_t( 'kbb06700b' ) ); ?></span></span><span class="fj-step__tm"><?php echo wp_kses_post( futari_journeys_t( 'k544f19d5' ) ); ?></span></li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list -->
 
 <!-- wp:paragraph {"className":"fj-fine"} -->
-<p class="fj-fine">Start four to nine months ahead for a honeymoon; six weeks is enough for an anniversary weekend.</p>
+<p class="fj-fine"><?php echo wp_kses_post( futari_journeys_t( 'kad217351' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"fj-more"} -->
-<p class="fj-more"><a href="/how-it-works/">How it works →</a></p>
+<p class="fj-more"><a href="/how-it-works/"><?php echo wp_kses_post( futari_journeys_t( 'kb9631843' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"41.667%"} -->
 <div class="wp-block-column" style="flex-basis:41.667%"><!-- wp:group {"className":"fj-how__photo","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-how__photo"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"fj-ph fj-ph--45 sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full fj-ph fj-ph--45 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/video-call.webp' ) ); ?>" alt="Planner speaking on a video call from a bright desk with plants."/></figure>
+<figure class="wp-block-image size-full fj-ph fj-ph--45 sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/video-call.webp' ) ); ?>" alt="<?php echo esc_attr( futari_journeys_t( 'a9821a68b' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

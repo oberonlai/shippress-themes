@@ -15,7 +15,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading {"level":2,"className":"fj-dash__t"} -->
-<h2 class="wp-block-heading fj-dash__t">Book a planning call</h2>
+<h2 class="wp-block-heading fj-dash__t"><?php echo wp_kses_post( futari_journeys_t( 'k9269b061' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"className":"fj-dash__line"} -->
@@ -24,17 +24,17 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"fj-book__p"} -->
-<p class="fj-book__p">Forty-five minutes by video, free, Monday to Saturday 09:00–19:00 CET. Bring your dates if you have them and your questions if you don’t. Within seven days you will have a first route and a fee for the whole plan.</p>
+<p class="fj-book__p"><?php echo wp_kses_post( futari_journeys_t( 'kecaba4bc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"fj-btns"} -->
 <div class="wp-block-buttons fj-btns"><!-- wp:button {"className":"fj-btn fj-btn--line"} -->
-<div class="wp-block-button fj-btn fj-btn--line"><a class="wp-block-button__link wp-element-button" href="/planning-call/">Book a planning call</a></div>
+<div class="wp-block-button fj-btn fj-btn--line"><a class="wp-block-button__link wp-element-button" href="/planning-call/"><?php echo wp_kses_post( futari_journeys_t( 'k9269b061' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"className":"fj-book__small"} -->
-<p class="fj-book__small">+00 0000 0000 · <a href="mailto:hello@futari-journeys.example">hello@futari-journeys.example</a></p>
+<p class="fj-book__small">+00 0000 0000 · <a href="mailto:hello@futari-journeys.example"><?php echo wp_kses_post( futari_journeys_t( 'k504fcd89' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

@@ -14,18 +14,18 @@
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":2,"className":"fj-statement"} -->
-<h2 class="wp-block-heading fj-statement">A trip is not about where you go.<br>It is about who you go with.</h2>
+<h2 class="wp-block-heading fj-statement"><?php echo wp_kses_post( futari_journeys_t( 'k5484fa9d' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"fj-pair__stage","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-pair__stage"><!-- wp:group {"className":"fj-pair__photos","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-pair__photos"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"fj-pair__l sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full fj-pair__l sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/ferry-rail.webp' ) ); ?>" alt="Couple leaning together at a ferry railing looking across the open sea."/></figure>
+<figure class="wp-block-image size-full fj-pair__l sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/ferry-rail.webp' ) ); ?>" alt="<?php echo esc_attr( futari_journeys_t( 'a41e6c6d7' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"fj-pair__r sp-reveal sp-reveal--wipe"} -->
-<figure class="wp-block-image size-full fj-pair__r sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/harbour-path.webp' ) ); ?>" alt="Couple walking along a stone harbour path at dawn carrying a shared bag."/></figure>
+<figure class="wp-block-image size-full fj-pair__r sp-reveal sp-reveal--wipe"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/harbour-path.webp' ) ); ?>" alt="<?php echo esc_attr( futari_journeys_t( 'ae2a61e7a' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -33,22 +33,22 @@
 <div class="wp-block-group fj-pair__text"><!-- wp:columns {"className":"fj-pair__cols"} -->
 <div class="wp-block-columns fj-pair__cols"><!-- wp:column {"width":"55%"} -->
 <div class="wp-block-column" style="flex-basis:55%"><!-- wp:heading {"level":3,"className":"fj-statement fj-statement--s sp-reveal sp-reveal--up"} -->
-<h3 class="wp-block-heading fj-statement fj-statement--s sp-reveal sp-reveal--up">Since 2014,<br>one couple at a time,<br>about forty trips a year.</h3>
+<h3 class="wp-block-heading fj-statement fj-statement--s sp-reveal sp-reveal--up"><?php echo wp_kses_post( futari_journeys_t( 'ka55e17c1' ) ); ?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"45%"} -->
 <div class="wp-block-column" style="flex-basis:45%"><!-- wp:group {"className":"fj-pair__txt sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group fj-pair__txt sp-reveal sp-reveal--up"><!-- wp:paragraph -->
-<p>Aiko Brandt started the studio after planning her sister’s honeymoon. What began around a kitchen table grew from a simple observation: travel works smoothly when two people can talk honestly about what they want, without pre-packaged schedules or rushed departures.</p>
+<p><?php echo wp_kses_post( futari_journeys_t( 'k357ba9a7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Every journey starts with a forty-five-minute call and the questions you already have. We listen to how you like to spend your mornings, how far you prefer to walk, and what pace feels peaceful before drawing a single line on the map.</p>
+<p><?php echo wp_kses_post( futari_journeys_t( 'k0b5f6dc4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>We plan about forty trips a year so that a dedicated planner stays with you from the first conversation to the flight home. You have direct access to the person who designed your route whenever a question arises.</p>
+<p><?php echo wp_kses_post( futari_journeys_t( 'ke1109943' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
