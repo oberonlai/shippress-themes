@@ -32,7 +32,7 @@ Fonts: Plus Jakarta Sans (OFL-1.1), Latin variable; Public Sans (OFL-1.1), Latin
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as high-key documentary photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands). No transparent cut-outs are used.
-- assets/images/hero-lobby.webp (home first screen slide 1: a tour director hands boarding passes at a hotel lobby desk)
+- assets/images/hero-lobby.webp (home first screen slide 1: a tour director hands boarding passes to a group in a limestone hotel lobby; fades into navy under the headline)
 - assets/images/hero-coach.webp (home first screen slide 2: colleagues boarding a white coach at dawn)
 - assets/images/hero-gate.webp (home first screen slide 3: a tour director counts heads at an airport gate)
 - assets/images/case-lisbon.webp (home case wall: rooftop dinner above a river)
