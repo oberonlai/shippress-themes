@@ -438,3 +438,23 @@ a { text-decoration: none; text-underline-offset: .3em; }
 	.ks-jrow { grid-template-columns: 1fr 96px; column-gap: 16px; }
 	.ks-jrow__img img { width: 96px; height: 64px; }
 }
+
+/* Languages: zh-TW and ja use a bundled Noto Sans subset (CJK glyphs only; Latin and figures stay Bricolage Grotesque / DM Sans). Gothic throughout, no Mincho. */
+:root:lang(zh-TW), :root:lang(zh-Hant), :root:lang(zh) {
+	--wp--preset--font-family--display: "Bricolage Grotesque", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "DM Sans", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Bricolage Grotesque", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+	--wp--preset--font-family--body: "DM Sans", "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+}
+:lang(zh) body, :lang(ja) body { line-height: 1.85; letter-spacing: .04em; line-break: strict; }
+:lang(zh) :is(h1, h2, h3, .ks-band__statement), :lang(ja) :is(h1, h2, h3, .ks-band__statement) { font-weight: 400; letter-spacing: .06em; text-transform: none; line-height: 1.4; }
+:lang(zh) .ks-band__statement, :lang(ja) .ks-band__statement { font-size: 3.25rem; max-width: 720px; }
+:lang(ja) :is(.ks-band__statement, .ks-lead, .ks-body) { word-break: auto-phrase; }
+:lang(fr) :is(p, h2, h3), :lang(de) :is(p, h2, h3) { hyphens: auto; }
+:lang(fr) .ks-band__statement, :lang(de) .ks-band__statement { font-size: 3.5rem; hyphens: manual; overflow-wrap: break-word; }
+@media (max-width: 781px) {
+	:lang(zh) .ks-band__statement, :lang(ja) .ks-band__statement { font-size: 2.125rem; }
+	:lang(fr) .ks-band__statement, :lang(de) .ks-band__statement { font-size: 2.25rem; }
+}

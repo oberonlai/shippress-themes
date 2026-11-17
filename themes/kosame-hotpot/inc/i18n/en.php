@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns (semantic keys). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'about_h1' => 'About',
 	'about_kicker' => 'Since 2016',
@@ -140,6 +140,7 @@ return array(
 	'courses_vt_finish' => 'TO FINISH',
 	'courses_vt_plates' => 'PLATES',
 	'courses_vt_sets' => 'SETS',
+	'date_fmt' => 'j F Y',
 	'day_p' => 'A day at Kosame follows an unhurried, exact kitchen discipline that begins long before the first guest arrives, finishing broths at dawn and testing table burners before dinner service.',
 	'day_t0' => '05:30',
 	'day_t1' => '07:30',
@@ -205,6 +206,8 @@ return array(
 	'journal_vl_posts' => '01 · From the kitchen',
 	'journal_vt_about-journal' => 'STORIES',
 	'journal_vt_posts' => 'JOURNAL',
+	'kd0fbda98' => 'Page not found',
+	'keff3cfeb' => 'The page you were looking for is not here. Try the menu above.',
 	'lb_book' => 'For a table, use|the booking request',
 	'lb_courses' => 'Every course,|plate by plate',
 	'lb_room1' => 'Room One · 2–4 guests|for a quiet dinner',
@@ -320,6 +323,7 @@ return array(
 	'seal_line' => 'Broth on at 05:30. Doors at 17:00.',
 	'seal_place' => 'Harbour Row',
 	'seal_sub' => 'Hot pot',
+	'search_results' => 'Search results for: %s',
 	'spec_base' => 'Base',
 	'spec_best' => 'Best with',
 	'spec_cancel' => 'Cancel',
