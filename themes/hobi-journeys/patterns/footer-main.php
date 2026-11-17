@@ -66,6 +66,8 @@
 <!-- /wp:list-item --><!-- wp:list-item -->
 <li><a href="/journal/">Journal</a></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
+<li><a href="/people/">People</a></li>
+<!-- /wp:list-item --><!-- wp:list-item -->
 <li><a href="/brief/">Brief us</a></li>
 <!-- /wp:list-item --><!-- wp:list-item -->
 <li><a href="/contact/">Contact</a></li>

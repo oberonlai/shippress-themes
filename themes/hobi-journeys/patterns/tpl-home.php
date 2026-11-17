@@ -12,8 +12,12 @@
 <main class="wp-block-group alignfull hj-main"><!-- wp:group {"className":"hj-section hj-lines hj-listhead","layout":{"type":"default"},"align":"full"} -->
 <div class="wp-block-group alignfull hj-section hj-lines hj-listhead"><!-- wp:group {"className":"hj-narrow","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-narrow"><!-- wp:heading {"level":1,"className":"hj-page-h"} -->
-<h1 class="wp-block-heading hj-page-h">Journal</h1>
-<!-- /wp:heading --></div>
+<h1 class="wp-block-heading hj-page-h">Journal.</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Field notes and planning essays from our planners and tour directors, written from 41 delivered programmes.</p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
