@@ -46,3 +46,7 @@ Images: AI-generated for this theme with Grok Build image_gen as high-key docume
 - assets/images/welcome-desk.webp and assets/images/demo/welcome-desk.webp (home journal row 1 and story 1; the demo/ copy is imported into the Media Library)
 - assets/images/farewell-dinner.webp and assets/images/demo/farewell-dinner.webp (home journal row 2 and story 2)
 - assets/images/return-arrivals.webp and assets/images/demo/return-arrivals.webp (home journal row 3 and story 3)
+- assets/images/office-planning.webp (About page head)
+- assets/images/tour-director.webp (People page head, About page)
+- assets/images/brief-meeting.webp (Brief us page)
+- assets/images/dest-seville.webp (Destinations page, Seville card)

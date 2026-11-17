@@ -40,3 +40,6 @@ Supporting: a framed centre panel between two full-height photographs, page-wide
 
 ## Photography
 High-key, desaturated documentary photographs (soft daylight, cool grey-blue undertones): hotel lobbies, coaches, airports and destinations with small groups of adult colleagues; no text, logos or signage; no cut-outs.
+
+## Inner pages
+Delivered trips, Programmes (with the six-line price table), How we plan, Destinations, About, People, Brief us, Contact, The Itinerary (newsletter), Journal and Privacy, plus the story "Why we still hand out boarding passes". Each page head repeats the home hero (heavy headline over a scrimmed photograph with a hairline ticket card); case walls, the navy brief band and the column hairlines continue on the inner pages.
