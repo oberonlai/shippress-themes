@@ -10,11 +10,11 @@
 <!-- wp:group {"className":"hj-section hj-lines hj-wall","layout":{"type":"default"},"anchor":"delivered","align":"full"} -->
 <div id="delivered" class="wp-block-group alignfull hj-section hj-lines hj-wall"><!-- wp:group {"className":"hj-wall__head hj-wide","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-wall__head hj-wide"><!-- wp:heading {"level":2,"className":"hj-word"} -->
-<h2 class="wp-block-heading hj-word">Delivered.</h2>
+<h2 class="wp-block-heading hj-word"><?php echo wp_kses_post( hobi_journeys_t( 'k5388601c' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hj-wall__intro"} -->
-<p class="hj-wall__intro">Every programme we operate is designed around one team, their qualifying performance threshold, and four days away together. Here are four reward trips, summits and retreats delivered over the past eighteen months, with the exact headcount, length and per-guest investment of each.</p>
+<p class="hj-wall__intro"><?php echo wp_kses_post( hobi_journeys_t( 'kdae98b79' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -22,7 +22,7 @@
 <div class="wp-block-group hj-wall__grid"><!-- wp:group {"className":"hj-wall__col sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-wall__col sp-stagger"><!-- wp:group {"className":"hj-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-card__img"} -->
-<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-lisbon.webp' ) ); ?>" alt="Colleagues seated at a long dinner table on a rooftop terrace overlooking a river."/></figure>
+<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-lisbon.webp' ) ); ?>" alt="<?php echo esc_attr( hobi_journeys_t( 'ab079d6b8' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
@@ -31,28 +31,28 @@
 
 <!-- wp:group {"className":"hj-card__top","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__top"><!-- wp:paragraph  -->
-<p>Medical devices sales team · March 2026</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'k721145bf' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph  -->
-<p>96 guests</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'kdc8a930f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hj-card__title"} -->
-<h3 class="wp-block-heading hj-card__title">Lisbon, the river and Sintra</h3>
+<h3 class="wp-block-heading hj-card__title"><?php echo wp_kses_post( hobi_journeys_t( 'k86824e24' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hj-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__foot"><!-- wp:group {"className":"hj-card__c","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__c"><!-- wp:paragraph  -->
-<p>Returned<br><strong>22 Mar 2026</strong></p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'kfdfac28b' ) ); ?><br><strong><?php echo wp_kses_post( hobi_journeys_t( 'k07ead383' ) ); ?></strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hj-card__c","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__c"><!-- wp:paragraph  -->
-<p>4 days · <strong>€2,950</strong> per guest</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'k54691128' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -64,7 +64,7 @@
 
 <!-- wp:group {"className":"hj-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-card__img"} -->
-<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-capetown.webp' ) ); ?>" alt="Colleagues standing on a white catamaran deck with a mountain in the background."/></figure>
+<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-capetown.webp' ) ); ?>" alt="<?php echo esc_attr( hobi_journeys_t( 'a259bf851' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
@@ -73,28 +73,28 @@
 
 <!-- wp:group {"className":"hj-card__top","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__top"><!-- wp:paragraph  -->
-<p>Insurance top sellers · February 2025</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'k935c6002' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph  -->
-<p>120 guests</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'k18e61e2d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hj-card__title"} -->
-<h3 class="wp-block-heading hj-card__title">Cape Town and the winelands</h3>
+<h3 class="wp-block-heading hj-card__title"><?php echo wp_kses_post( hobi_journeys_t( 'k0b7f4fb2' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hj-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__foot"><!-- wp:group {"className":"hj-card__c","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__c"><!-- wp:paragraph  -->
-<p>Returned<br><strong>16 Feb 2025</strong></p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'kfdfac28b' ) ); ?><br><strong><?php echo wp_kses_post( hobi_journeys_t( 'ke23e5131' ) ); ?></strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hj-card__c","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__c"><!-- wp:paragraph  -->
-<p>5 nights · <strong>€4,100</strong> per guest</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'kc74fdfb2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -108,7 +108,7 @@
 <!-- wp:group {"className":"hj-wall__col hj-wall__col--b sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-wall__col hj-wall__col--b sp-stagger"><!-- wp:group {"className":"hj-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-card__img"} -->
-<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-dolomites.webp' ) ); ?>" alt="A group of colleagues in light jackets hiking along a mountain trail below peaks."/></figure>
+<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-dolomites.webp' ) ); ?>" alt="<?php echo esc_attr( hobi_journeys_t( 'a8f46d0e5' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
@@ -117,28 +117,28 @@
 
 <!-- wp:group {"className":"hj-card__top","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__top"><!-- wp:paragraph  -->
-<p>Software sales leaders · September 2025</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'k56f75d7f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph  -->
-<p>38 guests</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'k0a99f211' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hj-card__title"} -->
-<h3 class="wp-block-heading hj-card__title">Dolomites, hut to hut</h3>
+<h3 class="wp-block-heading hj-card__title"><?php echo wp_kses_post( hobi_journeys_t( 'k528d2556' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hj-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__foot"><!-- wp:group {"className":"hj-card__c","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__c"><!-- wp:paragraph  -->
-<p>Returned<br><strong>21 Sept 2025</strong></p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'kfdfac28b' ) ); ?><br><strong><?php echo wp_kses_post( hobi_journeys_t( 'k0187ede4' ) ); ?></strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hj-card__c","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__c"><!-- wp:paragraph  -->
-<p>3 nights · <strong>€2,180</strong> per guest</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'kaf564e73' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -150,7 +150,7 @@
 
 <!-- wp:group {"className":"hj-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-card__img"} -->
-<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-copenhagen.webp' ) ); ?>" alt="Colleagues riding bicycles along a paved harbour waterfront lined with historic building facades."/></figure>
+<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-copenhagen.webp' ) ); ?>" alt="<?php echo esc_attr( hobi_journeys_t( 'a843e3b88' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
@@ -159,28 +159,28 @@
 
 <!-- wp:group {"className":"hj-card__top","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__top"><!-- wp:paragraph  -->
-<p>Logistics sales team · January 2026</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'k089855a6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph  -->
-<p>64 guests</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'ke6f2cb36' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"className":"hj-card__title"} -->
-<h3 class="wp-block-heading hj-card__title">Copenhagen harbour kick-off</h3>
+<h3 class="wp-block-heading hj-card__title"><?php echo wp_kses_post( hobi_journeys_t( 'k078084e6' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hj-card__foot","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__foot"><!-- wp:group {"className":"hj-card__c","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__c"><!-- wp:paragraph  -->
-<p>Returned<br><strong>25 Jan 2026</strong></p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'kfdfac28b' ) ); ?><br><strong><?php echo wp_kses_post( hobi_journeys_t( 'kddb395c5' ) ); ?></strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hj-card__c","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card__c"><!-- wp:paragraph  -->
-<p>3 nights · <strong>€1,620</strong> per guest</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'k91c041c7' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -191,7 +191,7 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"hj-more"} -->
-<p class="hj-more"><a href="/delivered-trips/">All delivered trips →</a></p>
+<p class="hj-more"><a href="/delivered-trips/"><?php echo wp_kses_post( hobi_journeys_t( 'k839dc269' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

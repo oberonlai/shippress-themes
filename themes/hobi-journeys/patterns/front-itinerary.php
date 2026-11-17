@@ -11,11 +11,11 @@
 <div class="wp-block-group alignfull hj-section hj-lines hj-itinerary hj-grey"><!-- wp:group {"className":"hj-itinerary__in","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-itinerary__in"><!-- wp:group {"className":"hj-itinerary__txt","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-itinerary__txt"><!-- wp:heading {"level":2,"className":"hj-h2"} -->
-<h2 class="wp-block-heading hj-h2">The Itinerary</h2>
+<h2 class="wp-block-heading hj-h2"><?php echo wp_kses_post( hobi_journeys_t( 'k67ff701c' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph  -->
-<p>First Tuesday of the month: one delivered trip, one planning note, next season’s dates. A short monthly letter for corporate travel planners and sales leaders.</p>
+<p><?php echo wp_kses_post( hobi_journeys_t( 'kf65d3217' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

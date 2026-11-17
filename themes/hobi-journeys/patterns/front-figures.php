@@ -16,7 +16,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hj-fig__l"} -->
-<p class="hj-fig__l">programmes delivered since 2012</p>
+<p class="hj-fig__l"><?php echo wp_kses_post( hobi_journeys_t( 'kbfbe12f0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -26,7 +26,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hj-fig__l"} -->
-<p class="hj-fig__l">guests travelled</p>
+<p class="hj-fig__l"><?php echo wp_kses_post( hobi_journeys_t( 'kf49d26c6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -36,7 +36,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hj-fig__l"} -->
-<p class="hj-fig__l">destinations</p>
+<p class="hj-fig__l"><?php echo wp_kses_post( hobi_journeys_t( 'k9ca41468' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -46,7 +46,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"hj-fig__l"} -->
-<p class="hj-fig__l">guests per programme</p>
+<p class="hj-fig__l"><?php echo wp_kses_post( hobi_journeys_t( 'k876c0331' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

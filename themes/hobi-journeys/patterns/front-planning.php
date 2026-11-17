@@ -11,17 +11,17 @@
 <div class="wp-block-group alignfull hj-section hj-lines hj-planning hj-grey"><!-- wp:group {"className":"hj-planning__in hj-wide","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-planning__in hj-wide"><!-- wp:group {"className":"hj-planning__fig","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-planning__fig"><!-- wp:image {"sizeSlug":"full","className":"hj-planning__img"} -->
-<figure class="wp-block-image size-full hj-planning__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/planning-site-visit.webp' ) ); ?>" alt="A travel planner and hotel manager inspecting an empty, spacious ballroom during a site visit."/></figure>
+<figure class="wp-block-image size-full hj-planning__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/planning-site-visit.webp' ) ); ?>" alt="<?php echo esc_attr( hobi_journeys_t( 'a10f92884' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"hj-cap"} -->
-<p class="hj-cap">Stage 03: a planner and the venue manager walk the ballroom before the programme is final.</p>
+<p class="hj-cap"><?php echo wp_kses_post( hobi_journeys_t( 'k5ddbda25' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"hj-planning__body","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-planning__body"><!-- wp:heading {"level":2,"className":"hj-h2"} -->
-<h2 class="wp-block-heading hj-h2">From budget to return flight.</h2>
+<h2 class="wp-block-heading hj-h2"><?php echo wp_kses_post( hobi_journeys_t( 'kcef94760' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"hj-stages sp-stagger","layout":{"type":"default"}} -->
@@ -32,16 +32,16 @@
 
 <!-- wp:group {"className":"hj-stage__m","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-stage__m"><!-- wp:heading {"level":3,"className":"hj-stage__t"} -->
-<h3 class="wp-block-heading hj-stage__t">Budget and rule</h3>
+<h3 class="wp-block-heading hj-stage__t"><?php echo wp_kses_post( hobi_journeys_t( 'ke3ea24d6' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hj-stage__s"} -->
-<p class="hj-stage__s">We establish your overall budget, guest headcount and the qualifying rule, to anchor every later decision.</p>
+<p class="hj-stage__s"><?php echo wp_kses_post( hobi_journeys_t( 'kc5d26927' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"hj-stage__w"} -->
-<p class="hj-stage__w">Week 1</p>
+<p class="hj-stage__w"><?php echo wp_kses_post( hobi_journeys_t( 'kd6f637a6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -52,16 +52,16 @@
 
 <!-- wp:group {"className":"hj-stage__m","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-stage__m"><!-- wp:heading {"level":3,"className":"hj-stage__t"} -->
-<h3 class="wp-block-heading hj-stage__t">Three destinations, costed</h3>
+<h3 class="wp-block-heading hj-stage__t"><?php echo wp_kses_post( hobi_journeys_t( 'k16b9b190' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hj-stage__s"} -->
-<p class="hj-stage__s">We present three researched, itemised destinations that match your travel window and flight preferences.</p>
+<p class="hj-stage__s"><?php echo wp_kses_post( hobi_journeys_t( 'ke34b4543' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"hj-stage__w"} -->
-<p class="hj-stage__w">Weeks 2–3</p>
+<p class="hj-stage__w"><?php echo wp_kses_post( hobi_journeys_t( 'k05524fab' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -72,16 +72,16 @@
 
 <!-- wp:group {"className":"hj-stage__m","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-stage__m"><!-- wp:heading {"level":3,"className":"hj-stage__t"} -->
-<h3 class="wp-block-heading hj-stage__t">Site visit and final programme</h3>
+<h3 class="wp-block-heading hj-stage__t"><?php echo wp_kses_post( hobi_journeys_t( 'kdd0029e6' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hj-stage__s"} -->
-<p class="hj-stage__s">We inspect hotels and venues on site, lock the dinners and finalise the minute-by-minute programme.</p>
+<p class="hj-stage__s"><?php echo wp_kses_post( hobi_journeys_t( 'k8d8971d2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"hj-stage__w"} -->
-<p class="hj-stage__w">Weeks 4–8</p>
+<p class="hj-stage__w"><?php echo wp_kses_post( hobi_journeys_t( 'k6e3d14d0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -92,16 +92,16 @@
 
 <!-- wp:group {"className":"hj-stage__m","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-stage__m"><!-- wp:heading {"level":3,"className":"hj-stage__t"} -->
-<h3 class="wp-block-heading hj-stage__t">Announce to the team and register guests</h3>
+<h3 class="wp-block-heading hj-stage__t"><?php echo wp_kses_post( hobi_journeys_t( 'kfbdf456b' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hj-stage__s"} -->
-<p class="hj-stage__s">You launch the reward internally while we manage registrations, room allocations and flight manifests.</p>
+<p class="hj-stage__s"><?php echo wp_kses_post( hobi_journeys_t( 'ke8161796' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"hj-stage__w"} -->
-<p class="hj-stage__w">From 6 months out</p>
+<p class="hj-stage__w"><?php echo wp_kses_post( hobi_journeys_t( 'kec490e28' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -112,22 +112,22 @@
 
 <!-- wp:group {"className":"hj-stage__m","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-stage__m"><!-- wp:heading {"level":3,"className":"hj-stage__t"} -->
-<h3 class="wp-block-heading hj-stage__t">Travel, return flight and debrief</h3>
+<h3 class="wp-block-heading hj-stage__t"><?php echo wp_kses_post( hobi_journeys_t( 'k58b2d3f0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hj-stage__s"} -->
-<p class="hj-stage__s">Our tour directors run every transfer, backed by the duty line, followed by a full debrief within ten working days.</p>
+<p class="hj-stage__s"><?php echo wp_kses_post( hobi_journeys_t( 'k38033fac' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"hj-stage__w"} -->
-<p class="hj-stage__w">On the trip + 10 days</p>
+<p class="hj-stage__w"><?php echo wp_kses_post( hobi_journeys_t( 'kc861e520' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"hj-more hj-more--left"} -->
-<p class="hj-more hj-more--left"><a href="/how-we-plan/">How we plan →</a></p>
+<p class="hj-more hj-more--left"><a href="/how-we-plan/"><?php echo wp_kses_post( hobi_journeys_t( 'k05798666' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
