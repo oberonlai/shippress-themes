@@ -43,4 +43,6 @@ Images: AI-generated for this theme with Grok Build image_gen as high-key docume
 - assets/images/band-coast-road.webp (home parallax band: coaches on a coastal road)
 - assets/images/venue-courtyard.webp (home destinations panel, left)
 - assets/images/venue-terrace.webp (home destinations panel, right)
-- assets/images/welcome-desk.webp, farewell-dinner.webp, return-arrivals.webp (and their demo/ copies) (home journal rows and the three stories)
+- assets/images/welcome-desk.webp and assets/images/demo/welcome-desk.webp (home journal row 1 and story 1; the demo/ copy is imported into the Media Library)
+- assets/images/farewell-dinner.webp and assets/images/demo/farewell-dinner.webp (home journal row 2 and story 2)
+- assets/images/return-arrivals.webp and assets/images/demo/return-arrivals.webp (home journal row 3 and story 3)

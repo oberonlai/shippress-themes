@@ -73,7 +73,7 @@ body { -webkit-font-smoothing: antialiased; }
 @media (min-width: 1280px) { .hj-nav .wp-block-navigation__container { gap: 36px; } }
 .hj-nav .wp-block-navigation-item__content { color: #fff; font-weight: 700; font-size: 1.0625rem; text-decoration: none; padding: 6px 0; background-image: linear-gradient(var(--hj-red), var(--hj-red)); background-size: 0 2px; background-repeat: no-repeat; background-position: 0 100%; transition: background-size .3s var(--hj-ease); }
 .hj-nav .wp-block-navigation-item__content:hover { background-size: 100% 2px; }
-.hj-header__cta { justify-self: end; display: none; }
+.hj-header__cta { justify-self: end; display: none !important; }
 .hj-link-cta .wp-block-button__link { background: transparent; color: #fff; padding: 6px 0; font-weight: 700; font-size: 1.0625rem; background-image: linear-gradient(var(--hj-red), var(--hj-red)); background-size: 0 2px; background-repeat: no-repeat; background-position: 0 100%; transition: background-size .3s var(--hj-ease); }
 .hj-link-cta .wp-block-button__link:hover { background-size: 100% 2px; color: #fff; }
 .hj-nav .wp-block-navigation__responsive-container-open { color: #fff; min-height: 44px; min-width: 44px; justify-content: flex-end; }
@@ -90,7 +90,7 @@ body { -webkit-font-smoothing: antialiased; }
 @media (min-width: 1024px) {
 	.hj-head-part { position: sticky; top: 0; }
 	.hj-header__in { min-height: 72px; padding: 0 40px; }
-	.hj-header__cta { display: flex; }
+	.hj-header__cta { display: flex !important; }
 	.hj-nav .wp-block-navigation__responsive-container-open { display: none !important; }
 }
 
@@ -109,6 +109,8 @@ body { -webkit-font-smoothing: antialiased; }
 .hj-hero__slides { position: absolute; inset: 0; }
 .hj-hero__slides img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 100% 55%; opacity: 0; }
 .hj-hero__slides img:first-child { opacity: 1; }
+.hj-hero__slides img + img { z-index: 1; }
+.hj-hero__slides img + img + img { z-index: 2; }
 .hj-hero__scrim { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(19, 32, 59, .2), rgba(19, 32, 59, .7)); pointer-events: none; }
 .hj-bars { position: absolute; z-index: 3; top: 24px; left: 24px; display: flex; gap: 6px; }
 .hj-bars i { position: relative; display: block; width: 40px; height: 3px; background: rgba(255, 255, 255, .6); overflow: hidden; }
@@ -163,7 +165,6 @@ body { -webkit-font-smoothing: antialiased; }
 	html.sp-js:not(.sp-no-motion) .hj-wipe span:nth-child(3) { animation-delay: .16s; }
 	html.sp-js:not(.sp-no-motion) .hj-hero__title { animation: hj-rise .6s var(--hj-ease) .45s both; }
 	html.sp-js:not(.sp-no-motion) .hj-ticket--hero { animation: hj-fade .6s var(--hj-ease) .75s both; }
-	html.sp-js:not(.sp-no-motion) .hj-hero__slides img:nth-child(1) { animation: hj-s1 18s linear infinite; }
 	html.sp-js:not(.sp-no-motion) .hj-hero__slides img:nth-child(2) { animation: hj-s2 18s linear infinite; }
 	html.sp-js:not(.sp-no-motion) .hj-hero__slides img:nth-child(3) { animation: hj-s3 18s linear infinite; }
 	html.sp-js:not(.sp-no-motion) .hj-bars i::after { animation: hj-bar 18s linear infinite; }
@@ -173,7 +174,6 @@ body { -webkit-font-smoothing: antialiased; }
 @keyframes hj-wipe { from { transform: scaleY(1); visibility: visible; } to { transform: scaleY(0); visibility: hidden; } }
 @keyframes hj-rise { from { transform: translateY(40px); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes hj-fade { from { transform: translateY(24px); opacity: 0; } to { transform: none; opacity: 1; } }
-@keyframes hj-s1 { 0%, 26.67% { opacity: 1; } 33.33%, 93.33% { opacity: 0; } 100% { opacity: 1; } }
 @keyframes hj-s2 { 0%, 26.67% { opacity: 0; } 33.33%, 60% { opacity: 1; } 66.67%, 100% { opacity: 0; } }
 @keyframes hj-s3 { 0%, 60% { opacity: 0; } 66.67%, 93.33% { opacity: 1; } 100% { opacity: 0; } }
 @keyframes hj-bar { 0% { transform: scaleX(0); } 33.33% { transform: scaleX(1); } 33.34%, 100% { transform: scaleX(0); } }
@@ -187,7 +187,7 @@ body { -webkit-font-smoothing: antialiased; }
 @media (max-width: 781px) {
 	.hj-figures { padding-block: 48px 0; }
 	.hj-figures__row { grid-template-columns: repeat(2, 1fr); row-gap: 32px; }
-	.hj-fig__n { font-size: 3rem; }
+	.hj-fig__n { font-size: 2.75rem; white-space: nowrap; }
 }
 
 /* ---------------- case wall (S2) ---------------- */
