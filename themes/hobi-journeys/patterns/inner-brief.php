@@ -130,7 +130,7 @@ echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $fallback ) 
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","className":"hj-brief__photo"} -->
-<figure class="wp-block-image size-full hj-brief__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/brief-meeting.webp' ) ); ?>" alt="A planner and a client sales director talking across a small meeting table with a notebook and a coffee." width="1248" height="832" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-brief__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/brief-meeting.webp' ) ); ?>" alt="A planner and a client sales director talking across a small meeting table with a notebook and a coffee."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

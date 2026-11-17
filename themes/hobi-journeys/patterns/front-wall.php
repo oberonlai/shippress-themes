@@ -22,7 +22,7 @@
 <div class="wp-block-group hj-wall__grid"><!-- wp:group {"className":"hj-wall__col sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-wall__col sp-stagger"><!-- wp:group {"className":"hj-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-card__img"} -->
-<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-lisbon.webp' ) ); ?>" alt="Colleagues seated at a long dinner table on a rooftop terrace overlooking a river." width="1312" height="1600" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-lisbon.webp' ) ); ?>" alt="Colleagues seated at a long dinner table on a rooftop terrace overlooking a river."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
@@ -64,7 +64,7 @@
 
 <!-- wp:group {"className":"hj-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-card__img"} -->
-<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-capetown.webp' ) ); ?>" alt="Colleagues standing on a white catamaran deck with a mountain in the background." width="1312" height="1600" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-capetown.webp' ) ); ?>" alt="Colleagues standing on a white catamaran deck with a mountain in the background."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
@@ -108,7 +108,7 @@
 <!-- wp:group {"className":"hj-wall__col hj-wall__col--b sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-wall__col hj-wall__col--b sp-stagger"><!-- wp:group {"className":"hj-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-card__img"} -->
-<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-dolomites.webp' ) ); ?>" alt="A group of colleagues in light jackets hiking along a mountain trail below peaks." width="1312" height="1600" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-dolomites.webp' ) ); ?>" alt="A group of colleagues in light jackets hiking along a mountain trail below peaks."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
@@ -150,7 +150,7 @@
 
 <!-- wp:group {"className":"hj-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-card sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-card__img"} -->
-<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-copenhagen.webp' ) ); ?>" alt="Colleagues riding bicycles along a paved harbour waterfront lined with historic building facades." width="1312" height="1600" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/case-copenhagen.webp' ) ); ?>" alt="Colleagues riding bicycles along a paved harbour waterfront lined with historic building facades."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->

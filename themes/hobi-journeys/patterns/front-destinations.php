@@ -9,11 +9,11 @@
 ?>
 <!-- wp:group {"className":"hj-dst","layout":{"type":"default"},"align":"full"} -->
 <div class="wp-block-group alignfull hj-dst"><!-- wp:image {"sizeSlug":"full","className":"hj-dst__img hj-dst__img--l"} -->
-<figure class="wp-block-image size-full hj-dst__img hj-dst__img--l"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/venue-courtyard.webp' ) ); ?>" alt="Two colleagues conversing with coffee cups in a quiet hotel courtyard with olive trees." width="1040" height="1600" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-dst__img hj-dst__img--l"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/venue-courtyard.webp' ) ); ?>" alt="Two colleagues conversing with coffee cups in a quiet hotel courtyard with olive trees."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","className":"hj-dst__img hj-dst__img--r"} -->
-<figure class="wp-block-image size-full hj-dst__img hj-dst__img--r"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/venue-terrace.webp' ) ); ?>" alt="Colleagues holding glasses during a welcome reception on an outdoor hotel terrace at dusk." width="1040" height="1600" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-dst__img hj-dst__img--r"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/venue-terrace.webp' ) ); ?>" alt="Colleagues holding glasses during a welcome reception on an outdoor hotel terrace at dusk."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hj-dst__panel","layout":{"type":"default"}} -->

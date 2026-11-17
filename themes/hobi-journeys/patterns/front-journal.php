@@ -22,7 +22,7 @@
 <!-- wp:group {"className":"hj-journal__rows sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-journal__rows sp-stagger"><!-- wp:group {"className":"hj-jrow sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-jrow sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-jrow__img"} -->
-<figure class="wp-block-image size-full hj-jrow__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/welcome-desk.webp' ) ); ?>" alt="A hand arranging name badges, lanyards and folded day sheets on a welcome desk." width="1800" height="1200" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-jrow__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/welcome-desk.webp' ) ); ?>" alt="A hand arranging name badges, lanyards and folded day sheets on a welcome desk."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hj-jrow__txt","layout":{"type":"default"}} -->
@@ -42,7 +42,7 @@
 
 <!-- wp:group {"className":"hj-jrow sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-jrow sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-jrow__img"} -->
-<figure class="wp-block-image size-full hj-jrow__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/farewell-dinner.webp' ) ); ?>" alt="A woman standing to give a toast to colleagues at an evening dinner table." width="1800" height="1200" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-jrow__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/farewell-dinner.webp' ) ); ?>" alt="A woman standing to give a toast to colleagues at an evening dinner table."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hj-jrow__txt","layout":{"type":"default"}} -->
@@ -62,7 +62,7 @@
 
 <!-- wp:group {"className":"hj-jrow sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-jrow sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","className":"hj-jrow__img"} -->
-<figure class="wp-block-image size-full hj-jrow__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/return-arrivals.webp' ) ); ?>" alt="Colleagues wheeling suitcases through an airport arrivals hall and waving goodbye to their director." width="1800" height="1200" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-jrow__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/return-arrivals.webp' ) ); ?>" alt="Colleagues wheeling suitcases through an airport arrivals hall and waving goodbye to their director."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"hj-jrow__txt","layout":{"type":"default"}} -->

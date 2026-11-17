@@ -11,7 +11,7 @@
 <div class="wp-block-group alignfull hj-section hj-lines hj-planning hj-grey"><!-- wp:group {"className":"hj-planning__in hj-wide","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-planning__in hj-wide"><!-- wp:group {"className":"hj-planning__fig","layout":{"type":"default"}} -->
 <div class="wp-block-group hj-planning__fig"><!-- wp:image {"sizeSlug":"full","className":"hj-planning__img"} -->
-<figure class="wp-block-image size-full hj-planning__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/planning-site-visit.webp' ) ); ?>" alt="A travel planner and hotel manager inspecting an empty, spacious ballroom during a site visit." width="1312" height="1600" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-planning__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/planning-site-visit.webp' ) ); ?>" alt="A travel planner and hotel manager inspecting an empty, spacious ballroom during a site visit."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"hj-cap"} -->

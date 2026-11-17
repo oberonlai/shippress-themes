@@ -9,7 +9,7 @@
 ?>
 <!-- wp:group {"className":"hj-band sp-parallax","layout":{"type":"default"},"align":"full"} -->
 <div class="wp-block-group alignfull hj-band sp-parallax"><!-- wp:image {"sizeSlug":"full","className":"hj-band__img"} -->
-<figure class="wp-block-image size-full hj-band__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/band-coast-road.webp' ) ); ?>" alt="Aerial view of two white coaches driving along a coastal road beside cliffs." width="2000" height="890" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full hj-band__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/band-coast-road.webp' ) ); ?>" alt="Aerial view of two white coaches driving along a coastal road beside cliffs."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
