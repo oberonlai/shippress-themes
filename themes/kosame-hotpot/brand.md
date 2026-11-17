@@ -32,7 +32,7 @@ In 2023 three private rooms opened upstairs for celebrations, family meals and l
 The daily routine of the kitchen and floor: 05:30 broths on · 07:30 market delivery at the back door · 10:00 meat cut and plated cold · 12:00 lunch service on Saturday and Sunday · 14:00 booking desk opens · 16:30 burners tested, pots set · 17:00 doors · 21:30 last order · 22:30 close; broths strained and the white broth started for tomorrow.
 
 ## The room
-18 tables for 1–6 guests (64 seats), each with its own induction burner and pot. Three private rooms upstairs.
+18 tables for 1–6 guests (64 seats), each with its own burner and pot. Three private rooms upstairs.
 
 ## Broths (four, all finished by dawn)
 - **Clear**: chicken and kelp, 6 hours.
@@ -43,18 +43,18 @@ Any two in one split pot at no extra cost.
 
 ## Courses (EUR, per person)
 Every set: split pot, vegetable platter, sauce bar. Dinner is two hours at the table.
-- Garden set €32 (seasonal vegetables, tofu, mushrooms, hand-cut noodles; vegetarian with Forest broth)
-- Pork set €38 (shoulder and belly slices)
-- Beef set €46 (brisket and chuck slices)
-- Seafood set €52 (prawns, mussels, white fish, squid)
-- Marbled beef set €64 (marbled sirloin and rib slices)
-- Extra plate of marbled beef €18 (150 g)
-- The finish €6 (rice porridge with egg, or noodles, cooked in your broth)
+- Garden set £32 (seasonal vegetables, tofu, mushrooms, hand-cut noodles; vegetarian with Forest broth)
+- Pork set £38 (shoulder and belly slices)
+- Beef set £46 (brisket and chuck slices)
+- Seafood set £52 (prawns, mussels, white fish, squid)
+- Marbled beef set £64 (marbled sirloin and rib slices)
+- Extra plate of marbled beef £18 (150 g)
+- The finish £6 (rice porridge with egg, or noodles, cooked in your broth)
 
 ## Private rooms
-- **Room One**: 2–4 guests, 1 pot, room fee €30.
-- **Room Two**: 6–8 guests, 2 pots, room fee €50.
-- **Room Three**: 10–14 guests, 3 pots on one long table, room fee €80.
+- **Room One**: 2–4 guests, 1 pot, room fee £30.
+- **Room Two**: 6–8 guests, 2 pots, room fee £50.
+- **Room Three**: 10–14 guests, 3 pots on one long table, room fee £80.
 Fee per booking; every guest takes a set; request at least 3 days ahead; free cancellation until 72 hours before.
 
 ## Hours

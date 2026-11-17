@@ -259,20 +259,20 @@ Reduced motion, `?sp-static`, no JS and the editor: no movement. Acceptance: `ch
 ## 9. Fixed facts (identical on every page and in all five locales; brand.md must copy these)
 
 - **Name**: Kosame Hot Pot ("kosame" = light rain; it rained on the opening night). **Founded** 2016 by **Mara Lindqvist** and **Daniel Cho**. **Address**: 14 Harbour Row, Wellmouth (fictional). **Phone** +44 1632 960 527 (booking desk, Tue–Sun 14:00–22:00). **Email** table@kosame-hotpot.example (every mailto).
-- **Room**: 18 tables for 1–6 guests (64 seats) in the dining room, each with its own induction burner and pot; **3 private rooms** upstairs.
+- **Room**: 18 tables for 1–6 guests (64 seats) in the dining room, each with its own burner and pot; **3 private rooms** upstairs.
 - **Broths (4, all finished by dawn)**: **Clear** — chicken and kelp, 6 hours · **Red** — beef fat, dried chilli and Sichuan pepper, 4 hours · **White** — pork bone, 12 hours (started the evening before) · **Forest** — mushroom and kelp, vegetarian, 3 hours. Any two in one split pot at no extra cost.
 - **Price list (7 items, per person; home §5 and Courses identical)**:
   | Item | What's in it | Price |
   |---|---|---|
-  | Garden set | seasonal vegetables, tofu, mushrooms, hand-cut noodles (vegetarian with Forest broth) | **€32** |
-  | Pork set | shoulder and belly slices, vegetable platter | **€38** |
-  | Beef set | brisket and chuck slices, vegetable platter | **€46** |
-  | Seafood set | prawns, mussels, white fish, squid, vegetable platter | **€52** |
-  | Marbled beef set | marbled sirloin and rib slices, vegetable platter | **€64** |
-  | Extra plate of marbled beef | 150 g | **€18** |
-  | The finish | rice porridge with egg, or noodles, cooked in your broth | **€6** |
+  | Garden set | seasonal vegetables, tofu, mushrooms, hand-cut noodles (vegetarian with Forest broth) | **£32** |
+  | Pork set | shoulder and belly slices, vegetable platter | **£38** |
+  | Beef set | brisket and chuck slices, vegetable platter | **£46** |
+  | Seafood set | prawns, mussels, white fish, squid, vegetable platter | **£52** |
+  | Marbled beef set | marbled sirloin and rib slices, vegetable platter | **£64** |
+  | Extra plate of marbled beef | 150 g | **£18** |
+  | The finish | rice porridge with egg, or noodles, cooked in your broth | **£6** |
   Every set: split pot, vegetable platter, sauce bar. Dinner: two hours at the table.
-- **Private rooms (3)**: **Room One** 2–4 guests, 1 pot, room fee **€30** · **Room Two** 6–8 guests, 2 pots, **€50** · **Room Three** 10–14 guests, 3 pots on one long table, **€80**. Fee per booking; every guest takes a set; request ≥3 days ahead; free cancellation until **72 hours** before.
+- **Private rooms (3)**: **Room One** 2–4 guests, 1 pot, room fee **£30** · **Room Two** 6–8 guests, 2 pots, **£50** · **Room Three** 10–14 guests, 3 pots on one long table, **£80**. Fee per booking; every guest takes a set; request ≥3 days ahead; free cancellation until **72 hours** before.
 - **Hours**: dinner **Tue–Sun 17:00–22:30** (last order 21:30) · lunch **Sat–Sun 12:00–15:00** (last order 14:00) · **closed Monday** · booking desk Tue–Sun 14:00–22:00.
 - **Book a table (the single way, 4 steps)**: 1 choose the date, time, number of guests and the dining room or a private room · 2 send the booking request (form on Book a table, or the email it opens) · 3 we confirm by email **within 3 hours** during desk hours (requests after 22:00 are answered from 14:00 the next opening day) · 4 arrive; the table is held **15 minutes** and your pot is on the burner as you sit. Free cancellation until **24 hours** before (private rooms 72 hours). 7 or more guests → a private room.
 - **A day at Kosame (daily routine)**: 05:30 broths on · 07:30 market delivery at the back door · 10:00 meat cut and plated cold · 12:00 lunch (Sat–Sun) · 14:00 booking desk opens · 16:30 burners tested, pots set · 17:00 doors · 22:30 close; broths strained, the white broth started for tomorrow. (Home §7 shows 8 rows: 05:30, 07:30, 10:00, 14:00, 16:30, 17:00, 21:30 last order, 22:30.)
@@ -374,7 +374,7 @@ Copy `pipeline/assets/forms/shippress-forms.php` unchanged to `inc/`, its CSS an
 4. 390×844: header 64px; stage in flow ≈52svh with horizontal dots and no phrases; then seal + horizontal H1; **no vertical writing, no absolute labels, no overlap**, no horizontal overflow.
 5. §2 booking frame right after the seal: "Reservations" + 1px underline, full-width azuki "Book a table" button 530×88, two notes, four 3px azuki lines (drawn in with motion; fully drawn static).
 6. §3–§10 each open with a centred vertical header (label · 1px rule · heading) at ≥782; horizontal <782.
-7. §5 price table: 7 rows matching §9 (€32 / €38 / €46 / €52 / €64 / €18 / €6), full column width, price column nowrap right, not clipped at 800 and 1280; stacked <782.
+7. §5 price table: 7 rows matching §9 (£32 / £38 / £46 / £52 / £64 / £18 / £6), full column width, price column nowrap right, not clipped at 800 and 1280; stacked <782.
 8. §6 three white link boxes with 2px `#DBDABE` border and long arrows; more buttons with corner brackets in §3, §4, §9.
 9. §7 daily routine (8 rows, 05:30 … 22:30) and narrative ¶; §8 P11 + 7 named people; §9 3 notice rows (text only); §10 wash gradient `#E8D8D8`→`#FFF`, P12 590×200, info table 498px (Tue–Sun 17:00–22:30, Sat–Sun 12:00–15:00, closed Monday, desk 14:00–22:00, phone, address).
 10. §11 closing booking frame; §12 full-width P13 band with the 4.25rem statement bottom-left and visible parallax; §13 dark letter with the newsletter slot (email + submit + notice without plugins; no reveal); footer `#E7E7E7` with page index.

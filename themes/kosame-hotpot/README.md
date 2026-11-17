@@ -10,3 +10,9 @@ A quiet block theme for hot pot, shabu-shabu and sukiyaki restaurants that take 
 - **Forms**: the shippress form slot for contact and newsletter (works without a plugin).
 
 Patterns are in `patterns/` (prefix `kosame-hotpot/`), the home page is the `front` pattern. Design notes: `brand/design-spec.md`.
+
+## Notes
+
+- Fonts: Bricolage Grotesque (display) and DM Sans (text), both OFL-1.1, bundled as Latin variable subsets in `assets/fonts/`.
+- Demo content is a fictional UK-style restaurant: prices in pounds (£) and a +44 1632 number.
+- Photographs are generated low-key images; replace them from the editor.
