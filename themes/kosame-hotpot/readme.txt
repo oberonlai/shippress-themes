@@ -45,6 +45,14 @@ All photographs are AI-generated for this theme and licensed GPL-2.0-or-later / 
 - assets/images/head-of-broth.webp (people); GPL-2.0-or-later / CC0
 - assets/images/storefront-rain.webp (visit); GPL-2.0-or-later / CC0
 - assets/images/dining-room-service.webp (parallax band); GPL-2.0-or-later / CC0
+- assets/images/sauce-bar.webp (sauce bar); GPL-2.0-or-later / CC0
+- assets/images/the-finish.webp (the finish); GPL-2.0-or-later / CC0
+- assets/images/booking-desk.webp (booking desk); GPL-2.0-or-later / CC0
+- assets/images/room-celebration.webp (celebration); GPL-2.0-or-later / CC0
+- assets/images/market-delivery.webp (market delivery); GPL-2.0-or-later / CC0
+- assets/images/demo/sauce-bar.webp (post featured image); GPL-2.0-or-later / CC0
+- assets/images/demo/room-celebration.webp (post featured image); GPL-2.0-or-later / CC0
+- assets/images/demo/market-delivery.webp (post featured image); GPL-2.0-or-later / CC0
 
 == Copyright ==
 
