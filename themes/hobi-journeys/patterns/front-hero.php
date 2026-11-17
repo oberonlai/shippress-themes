@@ -23,7 +23,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"hj-hero__lede"} -->
-<p class="hj-hero__lede">We turn a demanding sales year into four days your team remembers. Fully planned corporate reward travel, team retreats and summits for groups of 20 to 120 guests, from brief to debrief.</p>
+<p class="hj-hero__lede">We turn a demanding sales year into four days your team remembers. Corporate reward trips, retreats and summits for groups of 20 to 120 guests, from brief to debrief.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"hj-hero__btn"} -->
