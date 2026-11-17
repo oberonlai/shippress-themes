@@ -45,3 +45,8 @@ All photographs are AI-generated for this theme and licensed GPL-2.0-or-later / 
 - assets/images/head-of-broth.webp (people); GPL-2.0-or-later / CC0
 - assets/images/storefront-rain.webp (visit); GPL-2.0-or-later / CC0
 - assets/images/dining-room-service.webp (parallax band); GPL-2.0-or-later / CC0
+
+== Copyright ==
+
+Kosame Hot Pot is distributed under the terms of the GNU GPL v2 or later.
+Fonts: Bricolage Grotesque (OFL-1.1) and DM Sans (OFL-1.1), Latin variable WOFF2, see assets/fonts/. Photographs: AI-generated for this theme, GPL-2.0-or-later / CC0.
