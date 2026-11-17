@@ -1,0 +1,12 @@
+# Reference (our counterpart filled from design-spec.md)
+
+Primary: https://baqemono.jp/ (a small digital creative atelier; S5-Style listed). Secondary: https://kaitamaki.com/ (film-look photography archive; S5-Style listed).
+
+Screens: ref/bq-first.png, ref/scroll-bq-creation-*.png, ref/kt-first.png, ref/scroll-kt-zoom-*.png.
+
+| # | Reference signature | Shape / composition | Our counterpart |
+|---|---|---|---|
+| T1 | Dark inset window on a pale page, 87% wide, with a one-word-per-line tracked caps statement at its left third (baqemono hero) | 1258x567 window, 76px under a transparent nav, copyright line under | S1: home hero `ug-window` - dark `#232A2B` window 1258x464 (87%) at y104, tracked caps H1 "DRAWN / BY HAND. / FINISHED / ON SCREEN." (Syne 700 3rem ls .2em) in the left 38% cell, film-grain photo P01 (animator flipping key drawings at a light table, line test on the monitor) in the right 62% with sp-parallax 8%; repeated as the page window (H1 4.25rem) on every inner page and as the dark quote window (home block 10) |
+| T2 | Case ledger: date rail left, 712px image + title + body centre, credit stack right (baqemono /creation/) | 3 columns 80 / 364-1076 / 1120-1360 | S2: `ug-case` credit ledger, identical grid 240 / 712 / 240 (gap 44, x80 / 364-1076 / 1120-1360): date + format rail, 16:9 712x400 still (4px), Syne caps title + round 44px `#383D3E` arrow, body; credits CLIENT / AGENCY / DIRECTION / ANIMATION + 24px hairline + underlined delivery line (no awards). Home block 3 (4 cases), Work, Commercials, Title sequences, Shorts; same grid for process steps, people, rates, journal |
+| T3 | Mono HUD strip with caption, tick scale and frame counter over a film-look photograph (kaitamaki) | bottom strip 36px from the edge, Source Code Pro-like 12px | S1 HUD `ug-hud` under the window: red 5px dot + "Line test - take 07 · 24 fps" left, "scroll - the work is below" centre, 24-tick scale + "07 / 24" right (Manrope 600 .75rem tabular, ls .1em, `#5C6B6E`), with the cyan `#A2D7DD` light-table strip of key-drawing frames (sp-marquee 40s) between window and HUD; kaitamaki's contact-sheet pull-back becomes S3 `ug-sheet` (6 staggered columns of 168px plates, lower-case mono labels, sp-reveal--zoom 2s / .5s delay) on home block 4, Work, Studio |
+| T4 | Collapsed crumb header "logo │ SECTION" + red dot on one nav word (baqemono) | supporting | Supporting: red `#A93432` 5px dot on the WORK nav item and in the HUD; inner-page header crumb "ugoki │ PAGE" with a 1px x 20px divider (static, no scroll morph) |
