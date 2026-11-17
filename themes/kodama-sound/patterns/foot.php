@@ -70,5 +70,5 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
-<a class="kd-index" href="#projects"><span aria-hidden="true">+</span> <?php echo esc_html( kodama_sound_t( 'idx' ) ); ?></a>
+<a class="kd-index" href="#site-index"><span aria-hidden="true">+</span> <?php echo esc_html( kodama_sound_t( 'idx' ) ); ?></a>
 <!-- /wp:html -->

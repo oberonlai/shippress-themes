@@ -52,3 +52,10 @@ Images: AI-generated for this theme with Grok Build image_gen as low-key documen
 - assets/images/send-a-cut-drive.webp
 - assets/images/sliver-cable-reel.webp
 - assets/images/studio-room.webp
+
+== Changelog ==
+= 1.0.1 =
+* Fix the footer "+ Index" link: it now jumps to the footer site index (#site-index), which exists on every page, instead of #projects, which only exists on the home page.
+
+= 1.0.0 =
+* First release.
