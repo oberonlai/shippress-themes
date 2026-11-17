@@ -12,7 +12,7 @@ Kosame Hot Pot is a quiet block theme for hot pot, shabu-shabu and sukiyaki rest
 
 A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). See README.md for the design notes, templates and patterns.
 
-Fonts: Bricolage Grotesque (headings) and DM Sans (reading text), both under the SIL Open Font License 1.1.
+Fonts: Bricolage Grotesque (Latin headings), DM Sans (Latin reading text), Noto Sans TC (Traditional Chinese headings) and Noto Sans JP (Japanese headings), all under the SIL Open Font License 1.1. Chinese and Japanese body text uses the system face for that language.
 
 == Installation ==
 
@@ -57,4 +57,4 @@ All photographs are AI-generated for this theme and licensed GPL-2.0-or-later / 
 == Copyright ==
 
 Kosame Hot Pot is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Bricolage Grotesque (OFL-1.1) and DM Sans (OFL-1.1), Latin variable WOFF2, see assets/fonts/. Photographs: AI-generated for this theme, GPL-2.0-or-later / CC0.
+Fonts: Bricolage Grotesque (OFL-1.1) and DM Sans (OFL-1.1), Latin variable WOFF2; Noto Sans TC and Noto Sans JP (OFL-1.1), CJK heading subsets. See assets/fonts/. Photographs: AI-generated for this theme, GPL-2.0-or-later / CC0.
