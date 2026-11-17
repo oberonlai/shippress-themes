@@ -14,21 +14,9 @@
 <figure class="wp-block-image size-full ks-stage__slide ks-stage__slide--1"><img src="<?php echo kosame_hotpot_img( 'kv-split-pot.webp' ); ?>" alt="<?php echo kosame_hotpot_a( 'alt_p01' ); ?>"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-stage__slide ks-stage__slide--2"} -->
-<figure class="wp-block-image size-full ks-stage__slide ks-stage__slide--2"><img src="<?php echo kosame_hotpot_img( 'beef-plate.webp' ); ?>" alt="<?php echo kosame_hotpot_a( 'alt_p02' ); ?>"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-stage__slide ks-stage__slide--3"} -->
-<figure class="wp-block-image size-full ks-stage__slide ks-stage__slide--3"><img src="<?php echo kosame_hotpot_img( 'ladle-pour.webp' ); ?>" alt="<?php echo kosame_hotpot_a( 'alt_p03' ); ?>"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-stage__slide ks-stage__slide--4"} -->
-<figure class="wp-block-image size-full ks-stage__slide ks-stage__slide--4"><img src="<?php echo kosame_hotpot_img( 'vegetable-platter.webp' ); ?>" alt="<?php echo kosame_hotpot_a( 'alt_p04' ); ?>"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ks-stage__slide ks-stage__slide--5"} -->
-<figure class="wp-block-image size-full ks-stage__slide ks-stage__slide--5"><img src="<?php echo kosame_hotpot_img( 'room-four.webp' ); ?>" alt="<?php echo kosame_hotpot_a( 'alt_p05' ); ?>"/></figure>
-<!-- /wp:image --></div>
+<!-- wp:html -->
+<div class="ks-stage__more" aria-hidden="true"><figure class="ks-stage__slide ks-stage__slide--2"><img src="<?php echo kosame_hotpot_img( 'beef-plate.webp' ); ?>" alt="<?php echo kosame_hotpot_a( 'alt_p02' ); ?>"/></figure><figure class="ks-stage__slide ks-stage__slide--3"><img src="<?php echo kosame_hotpot_img( 'ladle-pour.webp' ); ?>" alt="<?php echo kosame_hotpot_a( 'alt_p03' ); ?>"/></figure><figure class="ks-stage__slide ks-stage__slide--4"><img src="<?php echo kosame_hotpot_img( 'vegetable-platter.webp' ); ?>" alt="<?php echo kosame_hotpot_a( 'alt_p04' ); ?>"/></figure><figure class="ks-stage__slide ks-stage__slide--5"><img src="<?php echo kosame_hotpot_img( 'room-four.webp' ); ?>" alt="<?php echo kosame_hotpot_a( 'alt_p05' ); ?>"/></figure></div>
+<!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:html -->
