@@ -11,3 +11,23 @@ A corporate incentive travel agency block theme: a heavy white headline over thr
 
 ## Patterns
 `front-hero`, `front-figures`, `front-wall`, `front-narrative`, `front-planning`, `front-band`, `front-destinations`, `front-brief`, `front-journal`, `front-itinerary`, plus `header-main` and `footer-main`.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/hobi-journeys/home-desktop.webp" width="640" alt="Hobi Journeys home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/hobi-journeys/home-mobile.webp" width="200" alt="Hobi Journeys home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/hobi-journeys/about-desktop.webp) · [mobile](https://shots.codotx.com/hobi-journeys/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/hobi-journeys/news-desktop.webp) · [mobile](https://shots.codotx.com/hobi-journeys/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/hobi-journeys/article-desktop.webp) · [mobile](https://shots.codotx.com/hobi-journeys/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/hobi-journeys/category-desktop.webp) · [mobile](https://shots.codotx.com/hobi-journeys/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/hobi-journeys/tag-desktop.webp) · [mobile](https://shots.codotx.com/hobi-journeys/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/hobi-journeys/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/hobi-journeys/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/hobi-journeys/contact-desktop.webp) · [mobile](https://shots.codotx.com/hobi-journeys/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/hobi-journeys/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/hobi-journeys/ja/home-desktop.webp) · [fr](https://shots.codotx.com/hobi-journeys/fr/home-desktop.webp) · [de](https://shots.codotx.com/hobi-journeys/de/home-desktop.webp)
+<!-- screenshots:end -->
