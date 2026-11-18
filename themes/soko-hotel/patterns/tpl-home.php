@@ -15,7 +15,11 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","className":"sk-sec sk-listing","layout":{"type":"default"}} -->
-<section class="wp-block-group sk-sec sk-listing"><!-- wp:query {"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"layout":{"type":"default"}} -->
+<section class="wp-block-group sk-sec sk-listing"><!-- wp:paragraph {"className":"sk-journal__lede"} -->
+<p class="sk-journal__lede"><?php echo esc_html( soko_hotel_t( 'journal_intro' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query {"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"layout":{"type":"default"}} -->
 <div class="wp-block-query"><!-- wp:post-template {"className":"sk-posts","layout":{"type":"grid","columnCount":3}} -->
 <!-- wp:group {"className":"sk-post","layout":{"type":"default"}} -->
 <div class="wp-block-group sk-post"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"12/5","className":"sk-post__img"} /-->

@@ -54,3 +54,17 @@ function soko_hotel_pattern_categories() {
 	);
 }
 add_action( 'init', 'soko_hotel_pattern_categories' );
+
+/**
+ * Group style used by journal posts: the first three paragraphs set as three equal columns from 1100px.
+ */
+function soko_hotel_block_styles() {
+	register_block_style(
+		'core/group',
+		array(
+			'name'  => 'essay-3col',
+			'label' => __( 'Essay, three columns', 'soko-hotel' ),
+		)
+	);
+}
+add_action( 'init', 'soko_hotel_block_styles' );
