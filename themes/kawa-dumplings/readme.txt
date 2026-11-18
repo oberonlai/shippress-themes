@@ -48,3 +48,6 @@ Images: AI-generated for this theme with Grok Build image_gen as high-key docume
 - assets/images/post-broth.webp (broth and set broth jelly)
 - assets/images/post-table-six.webp (a table for six)
 - assets/images/post-wrappers.webp (rolled wrappers)
+- assets/images/demo/post-broth.webp (copy of the journal image for the media library)
+- assets/images/demo/post-table-six.webp (copy of the journal image for the media library)
+- assets/images/demo/post-wrappers.webp (copy of the journal image for the media library)

@@ -3,6 +3,9 @@
 ## Name and place
 Kawa Dumpling House ("kawa" is the house's short name) is a fictional soup dumpling house with three branches in Port Aldren, a fictional harbour city. Head kitchen: 12 Harbour Street, Port Aldren. Phone +00 555 0140. Email hello@kawa-dumplings.example.
 
+## Location
+Port Aldren (fictional harbour city); three branches: Harbour Street, Linden Market and Station Arcade.
+
 ## Founded
 2014, by Lena Kowal and Samuel Adeyemi, with one glass-walled kitchen on Harbour Street.
 
