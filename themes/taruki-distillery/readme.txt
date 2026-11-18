@@ -46,7 +46,9 @@ Images: AI-generated for this theme with Grok Build image_gen as film-grain docu
 - assets/images/img-12.webp (home people: tasting room lead portrait)
 - assets/images/img-13.webp (bottling bench (journal entry Inside batch 112))
 - assets/images/img-14.webp (tasting room interior (stage 2 inner pages))
-- assets/images/demo/post-batch-112.webp, post-ottilie.webp, post-grove.webp (featured images of the three journal entries, copies imported into the Media Library)
+- assets/images/demo/post-batch-112.webp (featured image of a journal entry; imported into the Media Library)
+- assets/images/demo/post-ottilie.webp (featured image of a journal entry; imported into the Media Library)
+- assets/images/demo/post-grove.webp (featured image of a journal entry; imported into the Media Library)
 
 == Changelog ==
 = 1.0.0 =

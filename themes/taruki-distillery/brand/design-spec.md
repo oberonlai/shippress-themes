@@ -41,7 +41,7 @@ We borrow structure, techniques, colour relationships and the hero concept. We n
 **(3) KV checklist (all visible in the 1440×900 and 390 first screens).**
 | # | Reference element | Our version | Position | Motion | Image |
 |---|---|---|---|---|---|
-| 1 | Burnt-orange + caramel stacked strips | copper "Next tour: today 14:00 · 4 places left →" strip + caramel "Batch 112 · day 4 of 9 · Cut" strip with EN/中文/日本語/FR/DE links | top, full width, 48px + 40px | none | — |
+| 1 | Burnt-orange + caramel stacked strips | copper "Next tour: today 14:00 · 4 places left →" strip + caramel "Batch 112 · day 4 of 9 · Cut" strip with the opening hours at the right (built version; no language links) | top, full width, 48px + 40px | none | — |
 | 2 | Amber blurred bar photo | distiller tasting the cut at the spout, botanical trays behind, film grain | hero left 56% (desktop), top 56vw (mobile) | sp-parallax, --sp-par 8% (mobile 6%) | img-01 |
 | 3 | Charcoal nav row, caps, underline current | one centred menu on #3C3939, Work Sans caps 0.95rem tracked 0.08em, 4px #9A9696 underline | under strips | none | — |
 | 4 | Light lines + orange caps link | H1 DM Serif Display 4.5rem #F3EDE6 "Steamed peel, slow copper, a glass at the spout." + 2-line lede + caps link "Book a tour" #E08A5A | hero right 44% on #3C3939 | lines in place (no reveal on hero); link underline grows on hover 0.3s | — |
