@@ -48,4 +48,6 @@ All photographs are generated for this theme and licensed GPL-2.0-or-later with 
 * assets/images/room-harbour.webp: GPL-2.0-or-later
 * assets/images/room-loft.webp: GPL-2.0-or-later
 * assets/images/room-quay.webp: GPL-2.0-or-later
+* assets/images/quay-street.webp: GPL-2.0-or-later
+* assets/images/reception.webp: GPL-2.0-or-later
 * assets/images/warehouse-water.webp: GPL-2.0-or-later
