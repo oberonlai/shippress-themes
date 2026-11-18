@@ -16,7 +16,7 @@
 
 <!-- wp:group {"className":"tt-lead__text","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-lead__text"><!-- wp:html -->
-<span class="tt-chips tt-chips--onphoto"><span class="tt-chip tt-chip--box">Since 2009</span><span class="tt-chip tt-chip--pill">Schools · Teachers · Parents</span></span>
+<div class="tt-lead__chips"><span class="tt-chips tt-chips--onphoto"><span class="tt-chip tt-chip--box">Since 2009</span><span class="tt-chip tt-chip--pill">Schools · Teachers · Parents</span></span></div>
 <!-- /wp:html -->
 
 <!-- wp:heading {"level":1,"className":"tt-lead__h"} -->
