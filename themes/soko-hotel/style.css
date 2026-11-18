@@ -373,3 +373,17 @@ html.sp-no-motion .sk-stage__photo img, html.sp-no-motion .sk-stage__copy, html.
 @media (min-width: 1100px) and (max-width: 1279.98px) {
 	.sk-edge { display: none; }
 }
+
+/* HERO-SAFE at 1280: bright brick detail sits at both sides of the still (left edge, and the door frame from ~46%); centre a narrow headline column in the dark gap so it keeps >= 11% of the viewport clear of both */
+@media (min-width: 1200px) and (max-width: 1439.98px) {
+	.sk-stage__copy { left: 14.7vw; width: 25.4vw; }
+	.sk-stage__h1 { max-width: 100%; font-size: clamp(2.25rem, 3.6vw, 3rem); }
+	.sk-stage__sub { max-width: 100%; }
+}
+
+/* HERO-SAFE at 1440+: narrower headline column so the text keeps >= 11% of the viewport clear of the photo subject */
+@media (min-width: 1440px) {
+	.sk-stage__copy { left: 18vw; width: 380px; }
+	.sk-stage__h1 { max-width: 100%; font-size: clamp(2.5rem, 3.4vw, 3.5rem); }
+	.sk-stage__sub { max-width: 100%; }
+}
