@@ -45,7 +45,7 @@ Rule for the implementer: if a value is written here, use it exactly; if it is n
 
 ### T2. Vertical title over three equal serif columns (Tawaraya essay, RT(b))
 - Reference: a three-character title set `vertical-rl`, centred (40px, ls .12em, #333), above three equal text columns ≈345px wide, gap ≈62px, lh ≈2.2, ls .08em, 7 lines each; small caption (12px, #B2B2B2, ls .1em) and author line centred beneath.
-- Ours: home H3 "Essay". Title **"No. 7"** set `writing-mode: vertical-rl; text-orientation: upright` (desktop ≥1100px; upright letters stacked, Gloock 2.5rem, ls .12em, colour #333333, centred, block height ≈150px). For zh-TW/ja the title is native CJK (e.g. 七號倉庫 / 七番倉庫), naturally upright. Below: **three columns, each 345px, gap 62px, total 1159px, centred**; Source Sans 3 300, 1rem, lh 2.2, ls .035em (CJK: ls .08em, system Mincho body). Caption above columns centred: "An essay on the building" 12px #B2B2B2 ls .1em; author line beneath: "Text by Ines Varga, founder" 13px #666 ls .08em centred.
+- Ours: home H3 "Essay". Title **"No. 7"** set `writing-mode: vertical-rl; text-orientation: upright` (desktop ≥1100px; upright letters stacked, Gloock 2.5rem, ls .12em, colour #333333, centred, block height ≈150px). For zh-TW/ja the title is the native CJK word for "warehouse No. 7", naturally upright. Below: **three columns, each 345px, gap 62px, total 1159px, centred**; Source Sans 3 300, 1rem, lh 2.2, ls .035em (CJK: ls .08em, system Mincho body). Caption above columns centred: "An essay on the building" 12px #B2B2B2 ls .1em; author line beneath: "Text by Ines Varga, founder" 13px #666 ls .08em centred.
 - Not to dilute: three columns of equal width (never 2, never a card), vertical title strictly centred above the middle column, generous lh 2.2, no images inside the columns.
 - Continues to inner pages: The Building (history essay, title "1924"), People (title "Hands", three columns = three people), Canteen (title "Table", three columns: morning / evening / suppliers), Journal single posts (post title horizontal, but the post lede uses the three-column layout at ≥1100px for the first 3 paragraphs via a `is-style-essay-3col` group style).
 
@@ -154,7 +154,7 @@ Standard page map for theme-meta `pages`/`screens`: home → `/`; about → `/th
 | `ink-soft` | #666666 | RT #666 wordmark on white | captions, roles, meta |
 | `mist` | #B2B2B2 | RT #B2B2B2 text on black | nav, labels on black |
 | `ivory` | #F2EEE6 | ours (H1 on photo; needs more contrast than #B2B2B2) | H1 + hover on black only |
-| `umber` | #8C7042 | row hex 路考茶 = RT photo highlight umber | 1px rules, edge label, focus ring, link underline; ≤3% |
+| `umber` | #8C7042 | row hex "road-test tea" = RT photo highlight umber | 1px rules, edge label, focus ring, link underline; ≤3% |
 | `line` | #D9D6CF | ours (hairline on paper) | hairlines |
 Rules: no other colour; no coloured section grounds; no cream/beige. First-screen saturated (S>.5,V>.25) target ≤8%, hard cap 15%.
 
