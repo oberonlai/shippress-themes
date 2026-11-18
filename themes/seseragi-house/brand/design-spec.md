@@ -174,7 +174,7 @@ T1 on About, Breakfast, The river, The stay (+ Rooms margin title); T2 on Rooms 
 | `ink` | **#212529** | text ~8 % | RT ink, unchanged |
 | `mist` | **#E5E4DF** | ~6 % | RT hairline / mist stone, unchanged (hairlines, mist bands, contact window) |
 | `stone` | **#C0BDB0** | — | RT secondary hairline, unchanged (input borders) |
-| `white-tea` | **#C0A48A** | ~2 % | row hex (白茶) = RT accent role (RT's own accent is form-error red only; white tea is the row colour and sits in the same warm range as RT's timber): menu dot, link underlines, button hover fill. Never text (2.3:1). |
+| `white-tea` | **#C0A48A** | ~2 % | row hex = RT accent role (RT's own accent is form-error red only; white tea is the row colour and sits in the same warm range as RT's timber): menu dot, link underlines, button hover fill. Never text (2.3:1). |
 | `tea-deep` | **#7D6650** | ~1 % | same hue as white-tea, darker for text roles: eyebrows/labels on `#F7F7F3` (5.1:1) |
 | `river` | **#3C4743** | ~8 % | deep river grey-green: dim band overlay, footer (white text 10:1). Sampled from RT's dark timber photo zone, tinted to the river |
 | `white` | #FFFFFF | ~2 % | text on photos (RT white) |

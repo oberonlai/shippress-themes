@@ -34,3 +34,22 @@ Scripts and styles: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress scro
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as high-key documentary photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands).
+
+- assets/images/kv-breakfast-above-water.webp (home hero: the house from the far bank, breakfast at the bay window) - GPL-2.0-or-later / CC0
+- assets/images/couple-kitchen-door.webp (home and About: the hosts at the kitchen door) - GPL-2.0-or-later / CC0
+- assets/images/jonas-coffee-stairs.webp (home and About: coffee carried down the staircase) - GPL-2.0-or-later / CC0
+- assets/images/window-table-set.webp (home: the window table set for breakfast) - GPL-2.0-or-later / CC0
+- assets/images/arrival-tea-terrace.webp (home and The stay: arrival tea on the river terrace) - GPL-2.0-or-later / CC0
+- assets/images/breakfast-table-overhead.webp (home and Breakfast: bread, jam and coffee on the window table) - GPL-2.0-or-later / CC0
+- assets/images/tray-bread-board.webp (home tray strip: bread board and butter) - GPL-2.0-or-later / CC0
+- assets/images/tray-jam-jars.webp (home tray strip: jam jars) - GPL-2.0-or-later / CC0
+- assets/images/tray-coffee-sill.webp (home tray strip: coffee pot and cups on the sill) - GPL-2.0-or-later / CC0
+- assets/images/tray-eggs-yoghurt.webp (home tray strip: eggs and yoghurt tray) - GPL-2.0-or-later / CC0
+- assets/images/river-dusk.webp (home dim band: the river at dusk) - GPL-2.0-or-later / CC0
+- assets/images/room-weir.webp (Weir Room) - GPL-2.0-or-later / CC0
+- assets/images/room-willow.webp (Willow Room) - GPL-2.0-or-later / CC0
+- assets/images/room-loft.webp (Loft Room) - GPL-2.0-or-later / CC0
+- assets/images/room-boathouse.webp (Boathouse Room) - GPL-2.0-or-later / CC0
+- assets/images/post-marta-slicing-loaf.webp (and assets/images/demo/post-marta-slicing-loaf.webp when present; post thumbnail) - GPL-2.0-or-later / CC0
+- assets/images/post-river-path.webp (and assets/images/demo/post-river-path.webp when present; post thumbnail) - GPL-2.0-or-later / CC0
+- assets/images/post-rowing-boat.webp (and assets/images/demo/post-rowing-boat.webp when present; post thumbnail: rowing boat at the jetty) - GPL-2.0-or-later / CC0

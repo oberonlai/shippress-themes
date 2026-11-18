@@ -9,8 +9,8 @@
 ?>
 <!-- wp:group {"tagName":"section","anchor":"river","className":"sese-river-wrap","layout":{"type":"default"}} -->
 <section id="river" class="wp-block-group sese-river-wrap">
-<!-- wp:cover {"url":"<?php echo esc_url( seseragi_house_img( 'river-dusk.webp' ) ); ?>","dimRatio":50,"overlayColor":"river","minHeight":120,"minHeightUnit":"vh","className":"sese-river sp-parallax","layout":{"type":"default"}} -->
-<div class="wp-block-cover sese-river sp-parallax" style="min-height:120vh"><span aria-hidden="true" class="wp-block-cover__background has-river-background-color has-background-dim-50 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( seseragi_house_t( 'alt_p12' ) ); ?>" src="<?php echo esc_url( seseragi_house_img( 'river-dusk.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<!-- wp:cover {"url":"<?php echo esc_url( seseragi_house_img( 'river-dusk.webp' ) ); ?>","dimRatio":50,"alt":"<?php echo esc_attr( seseragi_house_t( 'alt_p12' ) ); ?>","overlayColor":"river","minHeight":120,"minHeightUnit":"vh","className":"sese-river sp-parallax","layout":{"type":"default"}} -->
+<div class="wp-block-cover sese-river sp-parallax" style="min-height:120vh"><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( seseragi_house_t( 'alt_p12' ) ); ?>" src="<?php echo esc_url( seseragi_house_img( 'river-dusk.webp' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-river-background-color has-background-dim"></span><div class="wp-block-cover__inner-container">
 <!-- wp:group {"className":"sese-river__fg","layout":{"type":"default"}} -->
 <div class="wp-block-group sese-river__fg">
 <!-- wp:paragraph {"className":"sese-vt sese-vt--light"} -->
