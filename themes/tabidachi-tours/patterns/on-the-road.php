@@ -10,16 +10,16 @@
 <!-- wp:group {"className":"tt-sec tt-road","layout":{"type":"default"},"align":"full"} -->
 <div class="wp-block-group alignfull tt-sec tt-road"><!-- wp:group {"className":"tt-wrap tt-road__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-wrap tt-road__grid"><!-- wp:html -->
-<figure class="tt-road__fig"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/safety-corridor-2100.webp' ) ); ?>" alt="A tour leader with a phone and a room list checking a room in a bright hostel corridor while students wave from a doorway." width="1248" height="832" loading="lazy" decoding="async"/><p class="tt-bubble tt-bubble--road">21:00 · 84 of 84 in</p></figure>
+<figure class="tt-road__fig"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/safety-corridor-2100.webp' ) ); ?>" alt="<?php echo esc_attr( tabidachi_tours_t( 'ab82156b0' ) ); ?>" width="1248" height="832" loading="lazy" decoding="async"/><p class="tt-bubble tt-bubble--road"><?php echo wp_kses_post( tabidachi_tours_t( 'k8fd7cb39' ) ); ?></p></figure>
 <!-- /wp:html -->
 
 <!-- wp:group {"className":"tt-road__text","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-road__text"><!-- wp:heading {"level":2,"className":"tt-h2"} -->
-<h2 class="wp-block-heading tt-h2">A day on a trip has a rhythm.</h2>
+<h2 class="wp-block-heading tt-h2"><?php echo wp_kses_post( tabidachi_tours_t( 'k0acf1eca' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Every tour follows the same schedule: wake-up at 07:00, a breakfast headcount at 07:30, a departure count at 08:15, lunch checks at 12:30, a return headcount at 17:40, a message to parents at 21:00 and lights out at 22:30. Across 612 trips since 2009 that rhythm has not changed.</p>
+<p><?php echo wp_kses_post( tabidachi_tours_t( 'kccfc587a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"tt-figs sp-stagger","layout":{"type":"default"}} -->
@@ -29,7 +29,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tt-fig__l"} -->
-<p class="tt-fig__l">leader to students</p>
+<p class="tt-fig__l"><?php echo wp_kses_post( tabidachi_tours_t( 'kf8a56539' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"tt-fig sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-fig sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"tt-fig__n sp-count"} -->
@@ -37,7 +37,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tt-fig__l"} -->
-<p class="tt-fig__l">h duty line on every trip</p>
+<p class="tt-fig__l"><?php echo wp_kses_post( tabidachi_tours_t( 'kad00aa1d' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"tt-fig sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-fig sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"tt-fig__n sp-count"} -->
@@ -45,7 +45,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tt-fig__l"} -->
-<p class="tt-fig__l">headcounts a day, at least</p>
+<p class="tt-fig__l"><?php echo wp_kses_post( tabidachi_tours_t( 'k0876482c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --><!-- wp:group {"className":"tt-fig sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-fig sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"tt-fig__n sp-count"} -->
@@ -53,13 +53,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"tt-fig__l"} -->
-<p class="tt-fig__l">trips since 2009</p>
+<p class="tt-fig__l"><?php echo wp_kses_post( tabidachi_tours_t( 'k254708aa' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"tt-link"} -->
-<p class="tt-link"><a href="/safety/">Safety and care →</a></p>
+<p class="tt-link"><a href="/safety/"><?php echo wp_kses_post( tabidachi_tours_t( 'k60995ba2' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
