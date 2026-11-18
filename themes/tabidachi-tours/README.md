@@ -16,3 +16,23 @@ header-main, hero, gateways, story, term-line, trips, quote-band, on-the-road, p
 - Lead photo regenerated: tighter documentary framing, warm sunny light, subjects in the right half so the headline sits on open sky (hero-safe gate passes at 1440, 1280 and 1100).
 - Mobile: lead photo is square and cropped to the leader, teacher and line; the headcount bubble sits directly under the photo and points up at it; rail rows are top-aligned.
 - Docked card is wider; the audience-card photo notch is larger; the top menu links to real pages (schools, teachers, parents, trips, how we plan, about).
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/tabidachi-tours/home-desktop.webp" width="640" alt="Tabidachi Study Tours home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/tabidachi-tours/home-mobile.webp" width="200" alt="Tabidachi Study Tours home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/tabidachi-tours/about-desktop.webp) · [mobile](https://shots.codotx.com/tabidachi-tours/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/tabidachi-tours/news-desktop.webp) · [mobile](https://shots.codotx.com/tabidachi-tours/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/tabidachi-tours/article-desktop.webp) · [mobile](https://shots.codotx.com/tabidachi-tours/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/tabidachi-tours/category-desktop.webp) · [mobile](https://shots.codotx.com/tabidachi-tours/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/tabidachi-tours/tag-desktop.webp) · [mobile](https://shots.codotx.com/tabidachi-tours/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/tabidachi-tours/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/tabidachi-tours/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/tabidachi-tours/contact-desktop.webp) · [mobile](https://shots.codotx.com/tabidachi-tours/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/tabidachi-tours/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/tabidachi-tours/ja/home-desktop.webp) · [fr](https://shots.codotx.com/tabidachi-tours/fr/home-desktop.webp) · [de](https://shots.codotx.com/tabidachi-tours/de/home-desktop.webp)
+<!-- screenshots:end -->
