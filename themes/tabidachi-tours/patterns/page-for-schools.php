@@ -98,7 +98,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:table {"className":"tt-prices"} -->
+<!-- wp:table {"hasFixedLayout":true,"className":"tt-prices"} -->
 <figure class="wp-block-table tt-prices"><table class="has-fixed-layout"><thead><tr><th>Trip</th><th>What it is</th><th>Price per student</th></tr></thead><tbody><tr><td class="tt-pt__trip">Day field trip by coach</td><td class="tt-pt__what">Coach, museum entries and workshops, leaders.</td><td class="tt-pt__price">from €42</td></tr><tr><td class="tt-pt__trip">Two-night residential, coach</td><td class="tt-pt__what">Coach, beds and meals, curriculum visits.</td><td class="tt-pt__price">from €265</td></tr><tr><td class="tt-pt__trip">Three-night history trip abroad by coach and ferry</td><td class="tt-pt__what">Ferry, coach, full board, guided site entries.</td><td class="tt-pt__price">from €410</td></tr><tr><td class="tt-pt__trip">Four-night study tour abroad by air</td><td class="tt-pt__what">Return flights, hotel, meals, transfers, visits.</td><td class="tt-pt__price">from €690</td></tr><tr><td class="tt-pt__trip">Five-night science and geography tour by air</td><td class="tt-pt__what">Flights, full board, fieldwork entries, guides.</td><td class="tt-pt__price">from €840</td></tr><tr><td class="tt-pt__trip">Seven-night language week with host families</td><td class="tt-pt__what">Flights, host families, meals, morning lessons.</td><td class="tt-pt__price">from €1,190</td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
