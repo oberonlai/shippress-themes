@@ -23,7 +23,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"className":"yk-lede"} -->
-<p class="yk-lede"><?php echo esc_html( yukishiro_chalet_t( 'compare_lede' ) ); ?> <a href="/packages/"><?php echo esc_html( yukishiro_chalet_t( 'compare_more' ) ); ?></a></p>
+<p class="yk-lede"><?php echo esc_html( yukishiro_chalet_t( 'compare_lede' ) ); ?> <a href="/compare/"><?php echo esc_html( yukishiro_chalet_t( 'compare_more' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
@@ -33,7 +33,7 @@
 <!-- /wp:table -->
 
 <!-- wp:paragraph {"className":"yk-more"} -->
-<p class="yk-more"><a href="/packages/"><?php echo esc_html( yukishiro_chalet_t( 'compare_link' ) ); ?></a></p>
+<p class="yk-more"><a href="/compare/"><?php echo esc_html( yukishiro_chalet_t( 'compare_link' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
