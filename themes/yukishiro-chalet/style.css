@@ -419,3 +419,23 @@ html:not(.sp-js) .yk-bar { display: none; }
 	.yk-request { padding: 56px 0; }
 	.yk-ph--plain.yk-sec { padding: 40px 0 8px; }
 }
+
+/* ===== Languages: zh-TW and ja use a bundled Noto Serif subset for display; text uses system CJK sans after Lato ===== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Cormorant Garamond", "Noto Serif TC", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Lato", "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Cormorant Garamond", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Lato", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Noto Sans CJK JP", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .yk-h1, .yk-title, .yk-sh, .yk-lead, .yk-qa__q, .yk-time) { font-weight: 400; font-style: normal; line-height: 1.4; letter-spacing: .06em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .yk-h1 { font-size: clamp(2.5rem, 5.4vw, 3.25rem); line-height: 1.3; }
+:is(:lang(zh), :lang(ja)) .yk-title { font-size: 2.25rem; }
+:is(:lang(zh), :lang(ja)) .yk-sh { font-size: 1.5rem; }
+:is(:lang(zh), :lang(ja)) .yk-lead { font-size: 1.5rem; }
+:lang(ja) :is(h1, h2, h3, p) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, h4, .yk-title, .yk-sh) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .yk-h1 { font-size: clamp(2.5rem, 5.6vw, 3.5rem); }
+:is(:lang(fr), :lang(de)) .yk-title { font-size: 2.5rem; }

@@ -10,7 +10,7 @@ Yukishiro Chalet is a calm WordPress theme designed for ski-in chalets and mount
 
 == Description ==
 
-A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). See brand.md for the design notes. Fonts: Cormorant Garamond (display) and Lato (text), both under the SIL Open Font License.
+A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). See brand.md for the design notes. Fonts: Cormorant Garamond (display), Lato (text), and Noto Serif TC / Noto Serif JP (zh-TW and ja display subsets), all under the SIL Open Font License.
 
 == Installation ==
 
@@ -28,7 +28,7 @@ The Snow letter section on the home page uses the shared form slot (inc/shippres
 
 == Copyright ==
 
-Yukishiro Chalet, (C) ShipPress, GPL-2.0-or-later. Cormorant Garamond and Lato are licensed under the SIL Open Font License 1.1 (see assets/fonts). Photographs are generated for this theme.
+Yukishiro Chalet, (C) ShipPress, GPL-2.0-or-later. Cormorant Garamond, Lato, Noto Serif TC and Noto Serif JP are licensed under the SIL Open Font License 1.1 (see assets/fonts). Photographs are generated for this theme.
 
 == Images ==
 
