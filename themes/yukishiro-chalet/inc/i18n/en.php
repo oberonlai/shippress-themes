@@ -102,7 +102,7 @@ return array(
 	'hero_h1' => 'SKIS AT THE DOOR.',
 	'hero_line' => 'Eighteen rooms at the foot of the gondola',
 	'intro_lead' => 'The',
-	'intro_lede' => 'Founded in 2009 by Anna Brenner and Luc Morel in her grandparents\' guesthouse, Yukishiro Chalet is an independent family-run lodge in Valmont-Haut at 1,480 metres, built around quiet hospitality, local dining and easy access to the snow.',
+	'intro_lede' => 'At 1,480 metres in Valmont-Haut, eighteen rooms sit ninety metres from the gondola station, with a drying room for your boots overnight and one way to ask for dates.',
 	'intro_more' => 'See more',
 	'intro_p1' => 'The chalet began in 2009 as eleven rooms in a family guesthouse and is now eighteen, still run by the two people who opened it. Anna looks after the guests and the house, Luc runs the kitchen, and between them they have kept what matters most to a mountain stay: warm rooms, a proper dinner and nobody hurrying you out of the door.',
 	'intro_p2' => 'From 5 December to 12 April the gondola station is ninety metres from the front step. You click into your skis outside the drying room, where your boots have spent the night on warm racks, and the lifts carry you into sixty-four kilometres of pistes served by fourteen lifts, with no bus to catch and no gear to carry.',
