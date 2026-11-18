@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns (semantic keys). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'about_band_lede' => 'When the table is cleared, the house goes quiet.',
 	'about_band_p1' => 'The Boathouse stands at the water\'s edge with its deck lamp lit, and the river carries the last of the light downstream. Tomorrow the bread comes at 06:30.',
@@ -113,6 +113,7 @@ return array(
 	'crumb_rooms' => 'Rooms',
 	'crumb_the-river' => 'The river',
 	'crumb_the-stay' => 'The stay',
+	'date_fmt' => 'j F Y',
 	'day1_n' => '06:30',
 	'day1_t' => 'At 06:30, Ana Ferreira\'s warm loaves reach the kitchen door.',
 	'day2_n' => '08:00',
@@ -246,6 +247,7 @@ return array(
 	'rooms_s3_h' => 'Rates and Booking Conditions',
 	'rooms_sheet' => 'Four rooms, breakfast included, €140 to €195 a night.',
 	'rooms_vt' => 'Weir · Willow · Loft · Boathouse',
+	'search_results' => 'Search results for: %s',
 	'sheet_eyebrow' => 'On the river Lisle since 2014',
 	'sheet_link' => 'Ask about dates →',
 	'sheet_text' => 'Open the window; the river is already on the table.',

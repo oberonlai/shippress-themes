@@ -28,7 +28,7 @@ Ask about dates and Contact: recommended Contact Form 7 fields are name (require
 == Copyright ==
 
 Seseragi House is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Spectral (OFL-1.1), Latin static 300, 400, 500, 600 and 400 italic; Karla (OFL-1.1), Latin variable; all WOFF2, see assets/fonts/.
+Fonts: Spectral (OFL-1.1), Latin static 300, 400, 500, 600 and 400 italic; Karla (OFL-1.1), Latin variable; Noto Serif TC and Noto Serif JP (OFL-1.1), static 400 subsets for the zh-TW and ja headings; all WOFF2, see assets/fonts/.
 Scripts and styles: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress scroll effects, GPL-2.0-or-later); inc/shippress-forms.php with assets/shippress-forms.css and assets/shippress-forms-editor.js (optional forms, GPL-2.0-or-later).
 
 = Images =
