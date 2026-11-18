@@ -11,7 +11,7 @@
 <div class="wp-block-group alignfull tt-hero"><!-- wp:group {"className":"tt-hero__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-hero__grid"><!-- wp:group {"className":"tt-lead","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-lead"><!-- wp:html -->
-<div class="tt-lead__photo sp-parallax"><figure class="tt-lead__fig"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/kv-coach-count.webp' ) ); ?>" alt="A tour leader counting teenage students onto a white coach while a teacher checks a clipboard." width="1248" height="832" fetchpriority="high" decoding="async"/></figure></div>
+<div class="tt-lead__photo sp-parallax"><figure class="tt-lead__fig"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/kv-coach-count.webp' ) ); ?>" alt="A tour leader raising a hand to count teenage students stepping onto a white coach while a teacher holds a clipboard beside him." width="1248" height="832" fetchpriority="high" decoding="async"/></figure></div>
 <!-- /wp:html -->
 
 <!-- wp:group {"className":"tt-lead__text","layout":{"type":"default"}} -->

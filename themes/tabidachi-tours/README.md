@@ -11,3 +11,8 @@ School excursion and study-trip organiser WordPress theme for educational travel
 
 ## Patterns
 header-main, hero, gateways, story, term-line, trips, quote-band, on-the-road, prices-glance, request, journal-list, footer-main, and the template bodies tpl-home / tpl-archive / tpl-search / tpl-404 / tpl-single.
+
+## Stage 2 fixes (home)
+- Lead photo regenerated: tighter documentary framing, warm sunny light, subjects in the right half so the headline sits on open sky (hero-safe gate passes at 1440, 1280 and 1100).
+- Mobile: lead photo is square and cropped to the leader, teacher and line; the headcount bubble sits directly under the photo and points up at it; rail rows are top-aligned.
+- Docked card is wider; the audience-card photo notch is larger; the top menu links to real pages (schools, teachers, parents, trips, how we plan, about).
