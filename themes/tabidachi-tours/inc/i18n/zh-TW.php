@@ -538,4 +538,9 @@ return array(
 	'k46b17f20' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">2026 年 11 月 5 日</time><span class="tt-chips"><span class="tt-chip tt-chip--box">旅程進行中</span><span class="tt-chip tt-chip--pill">清點人數</span></span><span class="tt-jrow__t">我們如何在四分鐘內清點一輛 42 人的巴士</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
 	'k2c14cd63' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">2026 年 10 月 22 日</time><span class="tt-chips"><span class="tt-chip tt-chip--box">規劃筆記</span><span class="tt-chip tt-chip--pill">風險評估</span></span><span class="tt-jrow__t">校董真的會讀的風險評估</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
 	'k9061e102' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">2026 年 10 月 8 日</time><span class="tt-chips"><span class="tt-chip tt-chip--box">旅程進行中</span><span class="tt-chip tt-chip--pill">行李打包</span></span><span class="tt-jrow__t">五晚行程的打包清單：家長要求的那一份</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
+	'af533eccd' => '一長列學生走在綠意盎然的海岸懸崖步道上，後方是一位身穿海軍藍背心的帶隊領隊。',
+	'k209ec94f' => '創辦人的話',
+	'k818d5012' => '「讓他們上車時清點，下車時清點，中間的時間，就讓他們望著窓外。」',
+	'k3b00e458' => '— Mara Lindqvist，創辦人',
+	'k0f89c1d3' => 'The Register — 每半學期一封信',
 );

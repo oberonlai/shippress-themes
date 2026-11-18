@@ -538,4 +538,9 @@ return array(
 	'k46b17f20' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">5 nov. 2026</time><span class="tt-chips"><span class="tt-chip tt-chip--box">En route</span><span class="tt-chip tt-chip--pill">comptage</span></span><span class="tt-jrow__t">Comment nous comptons un car de 42 élèves en moins de quatre minutes</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
 	'k2c14cd63' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">22 oct. 2026</time><span class="tt-chips"><span class="tt-chip tt-chip--box">Notes de planification</span><span class="tt-chip tt-chip--pill">évaluation des risques</span></span><span class="tt-jrow__t">Une évaluation des risques que les conseils lisent vraiment</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
 	'k9061e102' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">8 oct. 2026</time><span class="tt-chips"><span class="tt-chip tt-chip--box">En route</span><span class="tt-chip tt-chip--pill">valise</span></span><span class="tt-jrow__t">Préparer cinq nuits : la liste demandée par les parents</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
+	'af533eccd' => 'Une longue file d’élèves marche sur un sentier de falaise verdoyant au-dessus de la mer, un accompagnateur en gilet bleu marine fermant la marche.',
+	'k209ec94f' => 'Le mot de la fondatrice',
+	'k818d5012' => '« Comptez-les à la montée, comptez-les à la descente, et entre les deux, laissez-les regarder par la fenêtre. »',
+	'k3b00e458' => '— Mara Lindqvist, fondatrice',
+	'k0f89c1d3' => 'The Register — une lettre par demi-trimestre',
 );

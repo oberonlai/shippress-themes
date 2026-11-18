@@ -538,4 +538,9 @@ return array(
 	'k46b17f20' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">2026年11月5日</time><span class="tt-chips"><span class="tt-chip tt-chip--box">旅先にて</span><span class="tt-chip tt-chip--pill">人数確認</span></span><span class="tt-jrow__t">42人乗りのバスを4分以内に数える方法</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
 	'k2c14cd63' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">2026年10月22日</time><span class="tt-chips"><span class="tt-chip tt-chip--box">計画ノート</span><span class="tt-chip tt-chip--pill">リスク評価</span></span><span class="tt-jrow__t">理事会が本当に読むリスク評価</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
 	'k9061e102' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">2026年10月8日</time><span class="tt-chips"><span class="tt-chip tt-chip--box">旅先にて</span><span class="tt-chip tt-chip--pill">荷造り</span></span><span class="tt-jrow__t">5泊の荷造りリスト：保護者の方々から頼まれたもの</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
+	'af533eccd' => '緑の海岸の崖道を歩く生徒たちの長い列。最後尾にはネイビーのベストを着たリーダーがいる。',
+	'k209ec94f' => '創業者より',
+	'k818d5012' => '「乗るときに数え、降りるときに数える。その間は、窓の外を眺めさせてあげてください。」',
+	'k3b00e458' => '— マーラ・リンドクヴィスト（創業者）',
+	'k0f89c1d3' => 'The Register — 学期の半ばごとに一通',
 );

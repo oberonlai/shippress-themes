@@ -538,4 +538,9 @@ return array(
 	'k46b17f20' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">5 Nov 2026</time><span class="tt-chips"><span class="tt-chip tt-chip--box">On the road</span><span class="tt-chip tt-chip--pill">headcount</span></span><span class="tt-jrow__t">How we count a coach of 42 in under four minutes</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
 	'k2c14cd63' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">22 Oct 2026</time><span class="tt-chips"><span class="tt-chip tt-chip--box">Planning notes</span><span class="tt-chip tt-chip--pill">risk assessment</span></span><span class="tt-jrow__t">A risk assessment governors actually read</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
 	'k9061e102' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">8 Oct 2026</time><span class="tt-chips"><span class="tt-chip tt-chip--box">On the road</span><span class="tt-chip tt-chip--pill">packing</span></span><span class="tt-jrow__t">Packing for five nights: the list parents asked for</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
+	'af533eccd' => 'A long line of students walking along a green coastal cliff path above the sea, a leader in a navy gilet at the back.',
+	'k209ec94f' => 'From the founder',
+	'k818d5012' => '“Count them on, count them off, and in between let them look out of the window.”',
+	'k3b00e458' => '— Mara Lindqvist, founder',
+	'k0f89c1d3' => 'The Register — one letter each half-term',
 );

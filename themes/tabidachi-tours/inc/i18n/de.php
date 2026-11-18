@@ -538,4 +538,9 @@ return array(
 	'k46b17f20' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">5. Nov. 2026</time><span class="tt-chips"><span class="tt-chip tt-chip--box">Unterwegs</span><span class="tt-chip tt-chip--pill">Zählung</span></span><span class="tt-jrow__t">Wie wir einen Bus mit 42 Schülern in unter vier Minuten zählen</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
 	'k2c14cd63' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">22. Okt. 2026</time><span class="tt-chips"><span class="tt-chip tt-chip--box">Planungsnotizen</span><span class="tt-chip tt-chip--pill">Risikobewertung</span></span><span class="tt-jrow__t">Eine Risikobewertung, die Schulgremien wirklich lesen</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
 	'k9061e102' => '<a class="tt-jrow__a" href="/journal/"><time class="tt-jrow__d">8. Okt. 2026</time><span class="tt-chips"><span class="tt-chip tt-chip--box">Unterwegs</span><span class="tt-chip tt-chip--pill">Packen</span></span><span class="tt-jrow__t">Packen für fünf Nächte: die Liste, nach der Eltern gefragt haben</span><span class="tt-jrow__go" aria-hidden="true">→</span></a>',
+	'af533eccd' => 'Eine lange Schülerreihe geht auf einem grünen Küstenpfad über dem Meer, am Ende ein Leiter in marineblauer Weste.',
+	'k209ec94f' => 'Von der Gründerin',
+	'k818d5012' => '„Zählen Sie sie hinein, zählen Sie sie hinaus, und lassen Sie sie dazwischen aus dem Fenster schauen.“',
+	'k3b00e458' => '— Mara Lindqvist, Gründerin',
+	'k0f89c1d3' => 'The Register — ein Brief pro Halbjahr',
 );
