@@ -46,5 +46,8 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary fil
 - assets/images/stage-manager.webp (a stage manager at a prompt desk)
 - assets/images/tech-desk.webp (a technical director at a console)
 - assets/images/strike-dawn.webp (an empty hall after the strike)
+- assets/images/services-hall.webp (a conference hall set in rows facing a low stage)
+- assets/images/venue-empty.webp (an empty raw warehouse venue with high windows)
+- assets/images/studio-warehouse.webp (a technician labelling a flight case in the warehouse)
 - assets/images/rehearsal.webp, assets/images/post-vesta.webp and assets/images/post-halden.webp (journal thumbnails)
 - assets/images/demo/kickoff-hall.webp, assets/images/demo/rehearsal.webp, assets/images/demo/post-vesta.webp and assets/images/demo/post-halden.webp (copies of the above used as sample post images)
