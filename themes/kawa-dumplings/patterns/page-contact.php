@@ -68,11 +68,10 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"kd-ticker__run","layout":{"type":"default"}} -->
-<div class="wp-block-group kd-ticker__run" aria-hidden="true"><!-- wp:paragraph -->
-<p><?php echo esc_html( kawa_dumplings_t( 'ticker_text' ) ); ?></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<!-- wp:html -->
+<div class="wp-block-group kd-ticker__run" aria-hidden="true"><p><?php echo esc_html( kawa_dumplings_t( 'ticker_text' ) ); ?></p>
+</div>
+<!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
