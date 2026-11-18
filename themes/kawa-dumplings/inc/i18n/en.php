@@ -58,7 +58,7 @@ return array(
 	'ft2_h' => 'Tue–Sat 10:00–17:00',
 	'ft2_h_d' => 'Hours',
 	'ft3_a' => 'Unit 4, Station Arcade',
-	'ft3_h' => 'Mon–Fri 07:30–20:00',
+	'ft3_h' => 'Mon–Fri 07:30–20:00, Sat–Sun 10:00–18:00',
 	'ft3_h_d' => 'Hours',
 	'ft_bottom' => '© Kawa Dumpling House · Port Aldren · Since 2014',
 	'ft_contact' => 'Contact',
