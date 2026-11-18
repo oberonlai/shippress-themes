@@ -49,7 +49,7 @@ Seasons: winter 5 Dec – 12 Apr, summer 20 Jun – 20 Sep. Lift pass included w
 Winter: 07:00 breakfast · 08:45 ski school at the door · 12:30 soup in the boot room · 16:00 cake by the fire · 19:30 dinner · 22:00 boots on the dryers. Summer: 07:00 breakfast · 08:30 trail briefing · 09:00 gondola up · 13:00 hut lunch · 17:00 sauna · 19:30 dinner.
 
 ## Pages
-Home, Packages, Lift pass, Rooms, Summer, The chalet (about), Check dates, Contact, Snow letter, Journal, Privacy. Journal stories: How the drying room works overnight; Your first day on skis, from the door; Hut-to-hut in four days.
+Home, Packages, Compare packages, Lift pass, Rooms, Winter, Summer, The chalet (about), Check dates, Contact, Snow letter, Journal, Privacy. Inner pages share one head (full-bleed photograph, italic lead-in, caps title, concave white arc); Packages, Lift pass and Check dates add the docked three-cell desk; Packages, Rooms, Winter and Summer carry the tabbed card strip; Winter adds a parallax drying-room band. Journal stories: How the drying room works overnight; Your first day on skis, from the door; Hut-to-hut in four days.
 
 ## Visual system
 High-key documentary photography, white ground, pale lilac-grey panel #F4F4F9, deep lilac ink #2A2D4A, lilac #8D93C8 for rules, brass #C9A25F for the five snow glyphs only. Cormorant Garamond display, Lato text. See brand/design-spec.md.
