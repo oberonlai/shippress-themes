@@ -35,6 +35,16 @@
 <!-- wp:paragraph {"className":"td-foot__p"} -->
 <p class="td-foot__p"><a href="mailto:hello@taruki-distillery.example">hello@taruki-distillery.example</a><br>+00 1234 5678</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph {"className":"td-caps td-caps--light"} -->
+<p class="td-caps td-caps--light"><?php echo esc_html( taruki_t( 'foot_pages' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"td-foot__p"} -->
+<p class="td-foot__p"><a href="/book/"><?php echo esc_html( taruki_t( 'foot_l_book' ) ); ?></a><br><a href="/people/"><?php echo esc_html( taruki_t( 'foot_l_people' ) ); ?></a><br><a href="/visit/"><?php echo esc_html( taruki_t( 'foot_l_visit' ) ); ?></a><br><a href="/faq/"><?php echo esc_html( taruki_t( 'foot_l_faq' ) ); ?></a><br><a href="/newsletter/"><?php echo esc_html( taruki_t( 'foot_l_news' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
