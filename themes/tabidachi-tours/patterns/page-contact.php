@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"tt-standfirst"} -->
-<p class="tt-standfirst">Get in touch with our team in Ashby Vale to discuss upcoming tours, ask logistical questions, or arrange a visit to our office.</p>
+<p class="tt-standfirst">Get in touch with our team in Ashby Vale to discuss upcoming tours, ask logistical questions, or arrange a visit to our office. We support heads, teachers, and parents with clear, prompt answers.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -30,11 +30,7 @@
 <div class="wp-block-group alignfull tt-sec tt-isec"><!-- wp:group {"className":"tt-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-wrap"><!-- wp:group {"className":"tt-cols","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-cols"><!-- wp:group {"className":"tt-cols__main","layout":{"type":"default"}} -->
-<div class="wp-block-group tt-cols__main"><!-- wp:paragraph {"className":"tt-ilede tt-ilede--sm"} -->
-<p class="tt-ilede tt-ilede--sm">Get in touch with our team in Ashby Vale to discuss upcoming tours, ask logistical questions, or arrange a visit to our office. We support heads, teachers, and parents with clear, prompt answers.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:html -->
+<div class="wp-block-group tt-cols__main"><!-- wp:html -->
 <dl class="tt-dl"><div><dt>Office</dt><dd>18 Platform Lane, Ashby Vale</dd></div><div><dt>Hours</dt><dd>Monday to Friday, 08:30–17:30</dd></div><div><dt>Phone</dt><dd>+44 1632 960 418</dd></div><div><dt>Plan requests</dt><dd>plans@tabidachi-tours.example</dd></div><div><dt>General</dt><dd>hello@tabidachi-tours.example</dd></div><div><dt>Duty line on trips</dt><dd>+44 1632 960 499, open 24 h</dd></div><div><dt>Getting here</dt><dd>Ashby Vale station, 6 minutes on foot; visitor parking, 2 spaces</dd></div></dl>
 <!-- /wp:html -->
 

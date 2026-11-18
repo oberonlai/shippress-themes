@@ -44,7 +44,7 @@
 <!-- /wp:group -->
 
 <!-- wp:html -->
-<div class="tt-dayline" aria-label="A day on a trip, 06:00 to 23:00"><p class="tt-dayline__lab">A day on a trip</p><div class="tt-dayline__bar"><span class="tt-dayline__s tt-dayline__s--a">06:00</span><span class="tt-dayline__s tt-dayline__s--b">23:00</span><span class="tt-tick" style="left:5.882%"><i></i><b>07:00</b></span><span class="tt-tick" style="left:8.824%"><i></i><b>07:30</b></span><span class="tt-tick" style="left:13.235%"><i></i><b>08:15</b></span><span class="tt-tick" style="left:38.235%"><i></i><b>12:30</b></span><span class="tt-tick" style="left:68.627%"><i></i><b>17:40</b></span><span class="tt-tick tt-tick--now" style="left:88.235%"><i></i><b>21:00</b></span><span class="tt-tick" style="left:97.059%"><i></i><b>22:30</b></span><span class="tt-dayline__now" style="left:88.235%" aria-hidden="true"><em>Now</em></span></div></div>
+<div class="tt-dayline" aria-label="A day on a trip, 06:00 to 23:00"><p class="tt-dayline__lab">A day on a trip</p><div class="tt-dayline__bar"><span class="tt-dayline__s tt-dayline__s--a">06:00</span><span class="tt-tick" style="left:5.882%"><i></i><b>07:00</b></span><span class="tt-tick" style="left:8.824%"><i></i><b>07:30</b></span><span class="tt-tick" style="left:13.235%"><i></i><b>08:15</b></span><span class="tt-tick" style="left:38.235%"><i></i><b>12:30</b></span><span class="tt-tick" style="left:68.627%"><i></i><b>17:40</b></span><span class="tt-tick tt-tick--now" style="left:88.235%"><i></i><b>21:00</b></span><span class="tt-tick" style="left:97.059%"><i></i><b>22:30</b></span><span class="tt-dayline__now" style="left:88.235%" aria-hidden="true"><em>Now</em></span></div></div>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 

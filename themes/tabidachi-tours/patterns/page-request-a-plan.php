@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"tt-standfirst"} -->
-<p class="tt-standfirst">Tell us about your travelling group and learning objectives, and our planning team will construct a comprehensive itinerary and costed quotation.</p>
+<p class="tt-standfirst">Tell us about your travelling group and learning objectives, and our planning team will construct a comprehensive itinerary and costed quotation. We reply to every school request within three working days.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -34,11 +34,7 @@
 <div class="wp-block-group alignfull tt-sec tt-isec"><!-- wp:group {"className":"tt-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-wrap"><!-- wp:group {"className":"tt-cols","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-cols"><!-- wp:group {"className":"tt-cols__main","layout":{"type":"default"}} -->
-<div class="wp-block-group tt-cols__main"><!-- wp:paragraph {"className":"tt-ilede tt-ilede--sm"} -->
-<p class="tt-ilede tt-ilede--sm">Tell us about your travelling group and learning objectives, and our planning team will construct a comprehensive itinerary and costed quotation. We reply to every school request within three working days.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:group {"className":"tt-brows","layout":{"type":"default"}} -->
+<div class="wp-block-group tt-cols__main"><!-- wp:group {"className":"tt-brows","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-brows"><!-- wp:group {"className":"tt-brow tt-brow--stack","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-brow tt-brow--stack"><!-- wp:heading {"level":2,"className":"tt-brow__h"} -->
 <h2 class="wp-block-heading tt-brow__h">What happens after you submit</h2>
