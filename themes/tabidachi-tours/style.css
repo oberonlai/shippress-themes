@@ -126,7 +126,7 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 }
 
 /* ---------- hero (S1 + S3) ---------- */
-.tt-hero { width: min(1400px, calc(100% - 40px)); margin: 20px auto 0; }
+.tt-hero { width: min(1400px, calc(100% - 40px)); margin: 0 auto; padding-top: 20px; }
 .tt-hero__grid { display: grid; grid-template-columns: minmax(0, 1045fr) minmax(0, 335fr); gap: 20px; }
 .tt-lead { position: relative; }
 .tt-lead__photo { position: relative; border-radius: 8px; overflow: clip; aspect-ratio: 1045 / 669; background: var(--tt-wash); }
@@ -147,9 +147,9 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 .tt-dock__s { font-size: .8125rem; line-height: 1.4; color: var(--tt-soft); margin-top: 6px !important; }
 .tt-dock__u { font-size: .8125rem; font-weight: 600; margin-top: 10px !important; text-decoration: underline; text-underline-offset: 4px; }
 
-.tt-rail { list-style: none; margin: 0; padding: 0; display: grid; grid-template-rows: repeat(5, minmax(0, 1fr)); gap: 20px; height: 0; min-height: 100%; }
-.tt-rail__row { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 16px; min-height: 0; }
-.tt-rail__img { display: block; height: 100%; aspect-ratio: .77; object-fit: cover; border-radius: 2px; }
+.tt-rail { list-style: none; margin: 0; padding: 0; display: grid; grid-template-rows: repeat(5, minmax(0, 1fr)); gap: 20px; container-type: size; align-self: stretch; }
+.tt-rail__row { display: grid; grid-template-columns: calc((100cqh - 80px) / 5 * .77) minmax(0, 1fr); gap: 16px; min-height: 0; }
+.tt-rail__img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 2px; }
 .tt-rail__txt { min-width: 0; }
 .tt-rail__txt .tt-chips { display: flex; flex-wrap: nowrap; }
 .tt-rail__txt .tt-chip { height: 24px; font-size: .75rem; padding: 0 8px; }
@@ -192,10 +192,9 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 	.tt-hero__grid { grid-template-columns: minmax(0, 64fr) minmax(0, 36fr); }
 	.tt-lead__h { font-size: 3.25rem; }
 	.tt-lead__sub { font-size: 1.0625rem; }
-	.tt-rail__img { aspect-ratio: .77; }
 }
 @media (max-width: 781px) {
-	.tt-hero { margin-top: 16px; }
+	.tt-hero { padding-top: 16px; }
 	.tt-hero__grid { display: block; }
 	.tt-lead__photo { aspect-ratio: 4 / 5; }
 	.tt-lead__photo::after { display: none; }
@@ -208,8 +207,8 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 	.tt-lead .tt-bubble { position: relative; left: auto; top: auto; display: inline-block; margin: 20px 0 0; white-space: normal; }
 	.tt-lead .tt-bubble::after { left: 26px; top: -8px; bottom: auto; transform: rotate(225deg); }
 	.tt-dock { position: relative; right: auto; bottom: auto; width: auto; margin-top: 28px; }
-	.tt-rail { display: block; height: auto; min-height: 0; margin-top: 28px; }
-	.tt-rail__row { margin-bottom: 16px; }
+	.tt-rail { display: block; container-type: normal; margin-top: 28px; }
+	.tt-rail__row { display: grid; grid-template-columns: 64px minmax(0, 1fr); margin-bottom: 16px; }
 	.tt-rail__img { width: 64px; height: 83px; }
 	.tt-rail__t { font-size: 1rem; }
 	.tt-dayline { margin-top: 48px; }
@@ -349,7 +348,7 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 }
 
 /* ---------- request band ---------- */
-.tt-request-sec { padding-block: 0 112px; }
+.tt-request-sec { padding-block: 56px 112px; }
 .tt-dark { color: #fff; }
 .tt-request { background: var(--tt-ink); border-radius: 8px; padding: 72px 60px; text-align: center; }
 .tt-request > * { margin-inline: auto; }
@@ -361,7 +360,7 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 .tt-fact + .tt-fact { border-left: 1px solid rgba(255, 255, 255, .25); }
 .tt-request .wp-block-buttons { justify-content: center; }
 @media (max-width: 781px) {
-	.tt-request-sec { padding-block: 0 64px; }
+	.tt-request-sec { padding-block: 40px 64px; }
 	.tt-request-sec .tt-wrap { width: calc(100% - 32px); }
 	.tt-request { padding: 48px 24px; }
 	.tt-request__h { font-size: 2.5rem; overflow-wrap: anywhere; }
@@ -372,7 +371,7 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 /* ---------- journal list ---------- */
 .tt-jrow { border-top: 1px solid var(--tt-line); }
 .tt-jrow:last-child { border-bottom: 1px solid var(--tt-line); }
-.tt-jrow__a { display: grid; grid-template-columns: 140px auto minmax(0, 1fr) auto; align-items: center; gap: 24px; padding: 22px 0; color: var(--tt-ink); text-decoration: none; }
+.tt-jrow__a { display: grid; grid-template-columns: 140px 280px minmax(0, 1fr) auto; align-items: center; gap: 24px; padding: 22px 0; color: var(--tt-ink); text-decoration: none; }
 .tt-jrow__d { font-size: .8125rem; color: var(--tt-soft); font-variant-numeric: tabular-nums; }
 .tt-jrow__t { font: 400 var(--wp--preset--font-size--medium)/1.35 var(--tt-serif); letter-spacing: -.02em; }
 .tt-jrow__go { font-size: 1.25rem; transition: translate var(--tt-hover); }

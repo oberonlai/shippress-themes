@@ -10,7 +10,7 @@
 <!-- wp:group {"className":"tt-sec tt-road","layout":{"type":"default"},"align":"full"} -->
 <div class="wp-block-group alignfull tt-sec tt-road"><!-- wp:group {"className":"tt-wrap tt-road__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group tt-wrap tt-road__grid"><!-- wp:html -->
-<figure class="tt-road__fig"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/safety-corridor-2100.webp' ) ); ?>" alt="A tour leader with a phone and a room list checking a room in a bright hostel corridor while students wave from a doorway." width="1800" height="1154" loading="lazy" decoding="async"/><p class="tt-bubble tt-bubble--road">21:00 · 84 of 84 in</p></figure>
+<figure class="tt-road__fig"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/safety-corridor-2100.webp' ) ); ?>" alt="A tour leader with a phone and a room list checking a room in a bright hostel corridor while students wave from a doorway." width="1248" height="832" loading="lazy" decoding="async"/><p class="tt-bubble tt-bubble--road">21:00 · 84 of 84 in</p></figure>
 <!-- /wp:html -->
 
 <!-- wp:group {"className":"tt-road__text","layout":{"type":"default"}} -->
