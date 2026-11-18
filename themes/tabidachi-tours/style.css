@@ -110,8 +110,9 @@ a { text-underline-offset: 4px; }
 html.sp-no-motion .tt-ticker > span:last-child { display: none; }
 html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflow: ellipsis; }
 .tt-header__cta { flex: none; }
-@media (max-width: 1279px) { .tt-ticker { width: 220px; } }
-@media (max-width: 1099px) { .tt-ticker { display: none; } .tt-header__cta { margin-left: auto !important; } }
+@media (max-width: 1279px) { .tt-ticker { display: none; } .tt-header__cta { margin-left: auto !important; } }
+.tt-nav .wp-block-navigation__container { flex-wrap: nowrap; }
+.tt-wordmark a { white-space: nowrap; }
 @media (max-width: 1023px) {
 	.tt-nav .wp-block-navigation__responsive-container-open:not(.always-shown) { display: flex; }
 	.tt-nav .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) { display: none; }
@@ -139,8 +140,8 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 .tt-lead__text { box-sizing: border-box; }
 .tt-lead__h { font-family: var(--tt-serif); font-size: clamp(3.25rem, 5vw, var(--wp--preset--font-size--hero)); font-weight: 400; line-height: 1.04; letter-spacing: -.02em; color: #fff; margin: 0; }
 .tt-lead__sub { font: 400 var(--wp--preset--font-size--lead)/1.43 var(--tt-sans); max-width: min(520px, 30vw); margin: 16px 0 0; color: #fff; }
-.tt-bubble { position: absolute; left: 47%; top: 48%; z-index: 3; margin: 0; background: #fff; border: 1px solid var(--tt-ink); border-radius: 24px; padding: 14px 22px; font: 700 1rem/1.3 var(--tt-sans); color: var(--tt-ink); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.tt-bubble::after { content: ""; position: absolute; right: 26px; bottom: -8px; width: 14px; height: 14px; background: #fff; border-right: 1px solid var(--tt-ink); border-bottom: 1px solid var(--tt-ink); transform: rotate(45deg); }
+.tt-bubble { position: absolute; left: 65%; top: 50%; z-index: 3; margin: 0; background: #fff; border: 1px solid var(--tt-ink); border-radius: 24px; padding: 14px 22px; font: 700 1rem/1.3 var(--tt-sans); color: var(--tt-ink); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tt-bubble::after { content: ""; position: absolute; left: 20px; bottom: -8px; width: 14px; height: 14px; background: #fff; border-right: 1px solid var(--tt-ink); border-bottom: 1px solid var(--tt-ink); transform: rotate(45deg); }
 .tt-dock { position: absolute; right: 20px; bottom: -33px; z-index: 3; width: 240px; min-height: 150px; box-sizing: border-box; background: var(--wp--preset--color--tint-celadon); border: 1px solid var(--tt-ink); padding: 26px 18px 16px; }
 .tt-dock p { margin: 0; }
 .tt-dock__tab { position: absolute; top: -14px; left: 14px; height: 26px; display: inline-flex; align-items: center; gap: 6px; padding: 0 10px; background: #fff; border: 1px solid var(--tt-ink); border-radius: 3px; font: 700 .75rem/1 var(--tt-sans); letter-spacing: .08em; text-transform: uppercase; }
@@ -171,6 +172,8 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 .tt-dayline__now { position: absolute; left: 43.75%; top: -5px; width: 10px; height: 10px; margin-left: -5px; box-sizing: border-box; border-radius: 50%; background: var(--tt-gold); border: 1px solid var(--tt-ink); }
 .tt-dayline__now em { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); font: 600 .6875rem/1 var(--tt-sans); font-style: normal; letter-spacing: .08em; text-transform: uppercase; color: var(--tt-gold-ink); }
 
+@media (min-width: 1100px) and (max-width: 1279px) { .tt-lead__text { top: 28px; } .tt-lead__chips { margin-bottom: 14px; } .tt-lead__h { font-size: 3rem; } .tt-lead__sub { font-size: .9375rem; line-height: 1.4; max-width: 30vw; margin-top: 10px; } }
+
 /* hero load motion: final state is the default */
 @media (prefers-reduced-motion: no-preference) {
 	html.sp-js:not(.sp-no-motion) .tt-lead__fig img { animation: tt-fade .25s ease-in-out both; }
@@ -180,7 +183,7 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 	html.sp-js:not(.sp-no-motion) .tt-rail__row:nth-child(3) { animation-delay: .44s; }
 	html.sp-js:not(.sp-no-motion) .tt-rail__row:nth-child(4) { animation-delay: .56s; }
 	html.sp-js:not(.sp-no-motion) .tt-rail__row:nth-child(5) { animation-delay: .68s; }
-	html.sp-js:not(.sp-no-motion) .tt-lead .tt-bubble { animation: tt-pop .6s var(--tt-ease) .8s both; transform-origin: 90% 100%; }
+	html.sp-js:not(.sp-no-motion) .tt-lead .tt-bubble { animation: tt-pop .6s var(--tt-ease) .8s both; transform-origin: 10% 100%; }
 	html.sp-js:not(.sp-no-motion) .tt-dayline__now { animation: tt-now 1.2s var(--tt-ease) .6s both; }
 	html.sp-js:not(.sp-no-motion) .tt-dock__tab i { animation: tt-pulse 2s ease-in-out infinite; }
 	@keyframes tt-fade { from { opacity: 0; } }
@@ -190,11 +193,17 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 	@keyframes tt-pulse { 50% { opacity: .35; } }
 }
 
-@media (max-width: 1023px) {
-	.tt-hero__grid { grid-template-columns: minmax(0, 64fr) minmax(0, 36fr); }
+@media (max-width: 1099px) {
+	.tt-hero__grid { display: block; }
 	.tt-lead__text { left: 40px; }
 	.tt-lead__h { font-size: 3.25rem; }
 	.tt-lead__sub { font-size: 1.0625rem; max-width: 520px; }
+	.tt-rail { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); grid-template-rows: none; container-type: normal; gap: 16px; margin-top: 56px; }
+	.tt-rail__row { display: block; }
+	.tt-rail__img { width: 100%; height: auto; aspect-ratio: .77; }
+	.tt-rail__txt { margin-top: 10px; }
+	.tt-rail__txt .tt-chips { flex-wrap: wrap; min-height: 60px; align-content: flex-start; }
+	.tt-rail__t { font-size: 1rem; -webkit-line-clamp: 4; }
 }
 @media (max-width: 781px) {
 	.tt-hero { padding-top: 16px; }
@@ -209,11 +218,12 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 	.tt-chips--onphoto .tt-chip { border-color: var(--tt-ink); color: var(--tt-ink); }
 	.tt-chips--onphoto { flex-wrap: wrap; }
 	.tt-lead .tt-bubble { position: relative; left: auto; top: auto; display: inline-block; margin: 20px 0 0; white-space: normal; }
-	.tt-lead .tt-bubble::after { right: auto; left: 26px; top: -8px; bottom: auto; transform: rotate(225deg); }
-	.tt-dock { position: relative; right: auto; bottom: auto; width: auto; margin-top: 28px; }
-	.tt-rail { display: block; container-type: normal; margin-top: 28px; }
+	.tt-lead .tt-bubble::after { left: 26px; top: -8px; bottom: auto; transform: rotate(225deg); }
+	.tt-dock { position: relative; right: auto; bottom: auto; width: auto; min-height: 0; margin-top: 28px; }
+	.tt-rail { display: block; margin-top: 28px; }
 	.tt-rail__row { display: grid; grid-template-columns: 64px minmax(0, 1fr); margin-bottom: 16px; }
-	.tt-rail__img { width: 64px; height: 83px; }
+	.tt-rail__txt { margin-top: 0; }
+	.tt-rail__img { width: 64px; height: 83px; aspect-ratio: auto; }
 	.tt-rail__t { font-size: 1rem; }
 	.tt-dayline { margin-top: 48px; }
 	.tt-tick:not(.tt-tick--now) b { display: none; }
@@ -247,7 +257,7 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 	.tt-gate { flex: 0 0 46vw; scroll-snap-align: start; }
 	.tt-pager { display: flex; }
 }
-@media (max-width: 781px) { .tt-gate { flex-basis: 82vw; } .tt-gate__t { font-size: 2rem; } .tt-sec { padding-block: 64px; } }
+@media (max-width: 781px) { .tt-shead { flex-wrap: wrap; } .tt-shead__n { text-align: left; } .tt-gate { flex-basis: 82vw; } .tt-gate__t { font-size: 2rem; } .tt-sec { padding-block: 64px; } }
 
 /* ---------- story ---------- */
 .tt-story__grid { display: grid; grid-template-columns: 5fr 7fr; gap: 40px; margin-top: 40px; }
@@ -327,7 +337,7 @@ html.sp-no-motion .tt-ticker > span:first-child { overflow: hidden; text-overflo
 @media (max-width: 781px) {
 	.tt-road__grid { grid-template-columns: 1fr; gap: 24px; }
 	.tt-bubble--road { position: relative; left: auto; top: auto; display: inline-block; margin-top: 20px; white-space: normal; }
-	.tt-bubble--road::after { right: auto; left: 26px; top: -8px; bottom: auto; transform: rotate(225deg); }
+	.tt-bubble--road::after { left: 26px; top: -8px; bottom: auto; transform: rotate(225deg); }
 	.tt-fig__n { font-size: 2.5rem; }
 }
 
