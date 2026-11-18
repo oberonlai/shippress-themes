@@ -63,8 +63,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"className":"sese-vt sp-reveal sp-reveal--up sese-vt--b"} -->
-<p class="sese-vt sp-reveal sp-reveal--up sese-vt--b"><?php echo esc_html( seseragi_house_t( 'couple_vt' ) ); ?></p>
+<!-- wp:paragraph {"className":"sese-vt sese-vt--b"} -->
+<p class="sese-vt sese-vt--b"><?php echo esc_html( seseragi_house_t( 'couple_vt' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

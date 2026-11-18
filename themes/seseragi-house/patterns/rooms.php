@@ -17,8 +17,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"className":"sese-vt sese-vt--rooms sp-reveal sp-reveal--up"} -->
-<p class="sese-vt sese-vt--rooms sp-reveal sp-reveal--up"><?php echo esc_html( seseragi_house_t( 'rooms_vt' ) ); ?></p>
+<!-- wp:paragraph {"className":"sese-vt sese-vt--rooms"} -->
+<p class="sese-vt sese-vt--rooms"><?php echo esc_html( seseragi_house_t( 'rooms_vt' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sese-rooms__run sp-stagger","layout":{"type":"default"}} -->
