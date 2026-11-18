@@ -1,0 +1,202 @@
+<?php
+/**
+ * Title: Page: Lift pass
+ * Slug: yukishiro-chalet/page-lift-pass
+ * Categories: yukishiro-chalet
+ * Viewport Width: 1440
+ * Description: Page head, seam desk and the sticky media split with the lift pass questions.
+ */
+?>
+<!-- wp:cover {"url":"<?php echo esc_url( yukishiro_chalet_img( 'lift-pass-gondola.webp' ) ); ?>","dimRatio":30,"overlayColor":"ink","minHeight":480,"minHeightUnit":"px","contentPosition":"center center","isDark":true,"className":"yk-ph sp-parallax","layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-light yk-ph sp-parallax" style="min-height:480px"><span aria-hidden="true" class="wp-block-cover__background has-ink-background-color has-background-dim-30 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php echo esc_attr( yukishiro_chalet_t( 'alt_p05' ) ); ?>" src="<?php echo esc_url( yukishiro_chalet_img( 'lift-pass-gondola.webp' ) ); ?>" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"className":"yk-lead yk-lead--w"} -->
+<p class="yk-lead yk-lead--w"><?php echo esc_html( yukishiro_chalet_t( 'ph_lift-pass_lead' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"className":"yk-h1"} -->
+<h1 class="wp-block-heading yk-h1"><?php echo esc_html( yukishiro_chalet_t( 'ph_lift-pass_h1' ) ); ?></h1>
+<!-- /wp:heading --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:html -->
+<svg class="yk-seam yk-seam--page" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0,40 C360,120 1080,120 1440,40 L1440,120 L0,120 Z" fill="#FFFFFF"/></svg>
+<!-- /wp:html -->
+
+<!-- wp:group {"className":"yk-desk-wrap yk-desk-wrap--page","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-desk-wrap yk-desk-wrap--page"><!-- wp:group {"className":"yk-desk","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-desk"><!-- wp:group {"className":"yk-cell","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-cell"><!-- wp:paragraph {"className":"yk-cell__k"} -->
+<p class="yk-cell__k"><?php echo esc_html( yukishiro_chalet_t( 'dk_lift_k1' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"yk-cell__v"} -->
+<p class="yk-cell__v"><?php echo esc_html( yukishiro_chalet_t( 'dk_lift_v1' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-cell","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-cell"><!-- wp:paragraph {"className":"yk-cell__k"} -->
+<p class="yk-cell__k"><?php echo esc_html( yukishiro_chalet_t( 'dk_lift_k2' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"yk-cell__v"} -->
+<p class="yk-cell__v"><?php echo esc_html( yukishiro_chalet_t( 'dk_lift_v2' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-cell","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-cell"><!-- wp:paragraph {"className":"yk-cell__k"} -->
+<p class="yk-cell__k"><?php echo esc_html( yukishiro_chalet_t( 'dk_lift_k3' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"yk-cell__v"} -->
+<p class="yk-cell__v"><?php echo esc_html( yukishiro_chalet_t( 'dk_lift_v3' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons {"className":"yk-desk__btn"} -->
+<div class="wp-block-buttons yk-desk__btn"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/check-dates/"><?php echo esc_html( yukishiro_chalet_t( 'check_dates' ) ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","className":"yk-sec yk-plans","layout":{"type":"default"}} -->
+<section class="wp-block-group yk-sec yk-plans"><!-- wp:group {"className":"yk-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-wrap"><!-- wp:group {"className":"yk-chap","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-chap"><!-- wp:paragraph {"className":"yk-lead"} -->
+<p class="yk-lead"><?php echo esc_html( yukishiro_chalet_t( 'c_lift_lead' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"yk-title"} -->
+<h2 class="wp-block-heading yk-title"><?php echo esc_html( yukishiro_chalet_t( 'c_lift_title' ) ); ?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:separator {"className":"yk-rule"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity yk-rule"/>
+<!-- /wp:separator -->
+
+<!-- wp:paragraph {"className":"yk-lede yk-lede--full"} -->
+<p class="yk-lede yk-lede--full"><?php echo esc_html( yukishiro_chalet_t( 'c_lift_intro' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","className":"yk-sec yk-lift yk-sec--tight","layout":{"type":"default"}} -->
+<section class="wp-block-group yk-sec yk-lift yk-sec--tight"><!-- wp:group {"className":"yk-wrap yk-lift__grid","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-wrap yk-lift__grid"><!-- wp:group {"className":"yk-lift__media","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-lift__media"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"yk-lift__img"} -->
+<figure class="wp-block-image size-full yk-lift__img"><img src="<?php echo esc_url( yukishiro_chalet_img( 'drying-room.webp' ) ); ?>" alt="<?php echo esc_attr( yukishiro_chalet_t( 'alt_p09' ) ); ?>"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-lift__text","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-lift__text"><!-- wp:group {"className":"yk-rows sp-stagger","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-rows sp-stagger"><!-- wp:group {"className":"yk-row  sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-row  sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yk-row__k"} -->
+<p class="yk-row__k"><?php echo esc_html( yukishiro_chalet_t( 'lift_k1' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"yk-row__v sp-count"} -->
+<p class="yk-row__v sp-count"><?php echo esc_html( yukishiro_chalet_t( 'lift_v1' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-row  sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-row  sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yk-row__k"} -->
+<p class="yk-row__k"><?php echo esc_html( yukishiro_chalet_t( 'lift_k2' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"yk-row__v sp-count"} -->
+<p class="yk-row__v sp-count"><?php echo esc_html( yukishiro_chalet_t( 'lift_v2' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-row  sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-row  sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yk-row__k"} -->
+<p class="yk-row__k"><?php echo esc_html( yukishiro_chalet_t( 'lift_k3' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"yk-row__v"} -->
+<p class="yk-row__v"><?php echo esc_html( yukishiro_chalet_t( 'lift_v3' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-row  sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-row  sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yk-row__k"} -->
+<p class="yk-row__k"><?php echo esc_html( yukishiro_chalet_t( 'lift_k4' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"yk-row__v"} -->
+<p class="yk-row__v"><?php echo esc_html( yukishiro_chalet_t( 'lift_v4' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-row  sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-row  sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yk-row__k"} -->
+<p class="yk-row__k"><?php echo esc_html( yukishiro_chalet_t( 'lift_k5' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"yk-row__v"} -->
+<p class="yk-row__v"><?php echo esc_html( yukishiro_chalet_t( 'lift_v5' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-qa","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-qa"><!-- wp:heading {"level":3,"className":"yk-qa__q"} -->
+<h3 class="wp-block-heading yk-qa__q"><?php echo esc_html( yukishiro_chalet_t( 's_lift-pass_0_h' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"yk-qa__a"} -->
+<p class="yk-qa__a"><?php echo esc_html( yukishiro_chalet_t( 's_lift-pass_0_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-qa","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-qa"><!-- wp:heading {"level":3,"className":"yk-qa__q"} -->
+<h3 class="wp-block-heading yk-qa__q"><?php echo esc_html( yukishiro_chalet_t( 's_lift-pass_1_h' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"yk-qa__a"} -->
+<p class="yk-qa__a"><?php echo esc_html( yukishiro_chalet_t( 's_lift-pass_1_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-qa","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-qa"><!-- wp:heading {"level":3,"className":"yk-qa__q"} -->
+<h3 class="wp-block-heading yk-qa__q"><?php echo esc_html( yukishiro_chalet_t( 's_lift-pass_2_h' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"yk-qa__a"} -->
+<p class="yk-qa__a"><?php echo esc_html( yukishiro_chalet_t( 's_lift-pass_2_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"yk-qa","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-qa"><!-- wp:heading {"level":3,"className":"yk-qa__q"} -->
+<h3 class="wp-block-heading yk-qa__q"><?php echo esc_html( yukishiro_chalet_t( 's_lift-pass_3_h' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"yk-qa__a"} -->
+<p class="yk-qa__a"><?php echo esc_html( yukishiro_chalet_t( 's_lift-pass_3_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","className":"yk-sec yk-sec--cta","layout":{"type":"default"}} -->
+<section class="wp-block-group yk-sec yk-sec--cta"><!-- wp:group {"className":"yk-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group yk-wrap"><!-- wp:buttons {"className":"yk-cta"} -->
+<div class="wp-block-buttons yk-cta"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/check-dates/"><?php echo esc_html( yukishiro_chalet_t( 'check_dates' ) ); ?></a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/compare/"><?php echo esc_html( yukishiro_chalet_t( 'cta_compare' ) ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
