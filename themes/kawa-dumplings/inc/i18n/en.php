@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns (semantic keys). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'about_day_h' => 'A day at Harbour Street',
 	'about_h1' => 'About Kawa — The Fold',
@@ -75,6 +75,7 @@ return array(
 	'ct_phone' => 'Telephone',
 	'ct_phone_v' => '+00 555 0140',
 	'cta_order_ahead' => 'Order ahead',
+	'date_fmt' => 'j F Y',
 	'day1' => 'Broth jelly set, doughs rested',
 	'day1_t' => '06:30',
 	'day2' => 'Wrappers rolled',
@@ -217,6 +218,8 @@ return array(
 	'ixl_privacy' => 'Your details',
 	'jr_h2' => 'Notes from the kitchen and counters',
 	'jr_link' => 'Read all notes',
+	'k315262c6' => 'hello@kawa-dumplings.example',
+	'k8cf04a97' => 'Home',
 	'letter_h1' => 'The Steam Letter',
 	'letter_intro' => 'The Steam Letter is our monthly dispatch sent directly from the Harbour Street kitchen bench to your inbox. Published once a month on the first Friday, it shares seasonal kitchen notes, branch schedule updates, and frozen pack restock alerts.',
 	'letter_lede' => 'The Steam Letter is our monthly dispatch sent directly from the Harbour Street kitchen bench to your inbox.',
@@ -370,6 +373,7 @@ return array(
 	'pv_p2' => 'We use these details to reply to you, to prepare your order at the window you named and, if you asked for the steam letter, to send it once a month. We keep them only as long as that takes.',
 	'pv_p3' => 'We do not sell or share your details. Orders are prepared by the kitchen team of the branch you picked, and nobody else sees them.',
 	'pv_p4' => 'Write to hello@kawa-dumplings.example at any time to see, correct or delete what we hold, or to stop the steam letter. Every issue also carries an unsubscribe note.',
+	'search_results' => 'Search results for: %s',
 	'since_2014' => '2014',
 	'since_2018' => '2018',
 	'since_2022' => '2022',
