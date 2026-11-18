@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns (semantic keys). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'alt_p01' => 'Producer holding cue sheet as technicians raise black lighting truss in empty dawn hall.',
 	'alt_p02' => 'Producer and client reviewing a floor plan and cue sheets on a white table.',
@@ -34,6 +34,7 @@ return array(
 	'crew_h' => 'The people on the cue sheet.',
 	'crew_more' => 'View crew',
 	'crew_p' => 'Our core production team brings together seasoned stage management, audio-visual engineering, and precise live cue calling. Backed by thirty-eight specialized crew on call, we maintain direct technical oversight from initial load-in through final strike.',
+	'date_fmt' => 'j F Y',
 	'foot_addr' => 'Unit 4, Harbour Works, 18 Quay Road, Port Ellery',
 	'foot_addr_h' => 'Studio and warehouse',
 	'foot_contact' => 'Contact',
@@ -124,6 +125,7 @@ return array(
 	'run_p' => 'Every show day runs on the same printed sheet. Each time on it has a name next to it, so the crew always knows who is moving next and nobody has to shout across the hall.',
 	'search_h1' => 'SEARCH',
 	'search_none' => 'Nothing found for that search.',
+	'search_results' => 'Search results for: %s',
 	'w1_m' => 'Sales kick-off · 900 guests · 2025',
 	'w1_t' => 'Northline Logistics annual kick-off',
 	'w2_m' => 'Award ceremony · 420 guests · 2026',

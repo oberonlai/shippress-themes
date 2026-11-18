@@ -28,7 +28,7 @@ Contact and brief enquiries: recommended Contact Form 7 fields are name (require
 == Copyright ==
 
 Moyooshi Productions is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Karla (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Karla (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/. Noto Sans TC and Noto Sans JP (OFL-1.1), subset WOFF2 for the Traditional Chinese and Japanese headings.
 Scripts and styles: assets/sp-scroll.css and assets/sp-scroll.js (ShipPress scroll effects, GPL-2.0-or-later); inc/shippress-forms.php with assets/shippress-forms.css and assets/shippress-forms-editor.js (optional forms, GPL-2.0-or-later).
 
 = Images =
