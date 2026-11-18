@@ -104,11 +104,11 @@ body.home .mp-head .wp-block-button__link:hover { background: var(--mp-on); colo
 
 /* ---- hero + cue bar (T1) ---- */
 .wp-block-cover.mp-hero { position: relative; min-height: max(640px, 100svh); padding: 0; margin: 0; align-items: stretch; justify-content: stretch; background: #1a2326; }
-.mp-hero::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(180deg, rgba(10, 15, 17, .45) 0, rgba(10, 15, 17, 0) 35%, rgba(10, 15, 17, .5) 100%); }
+.mp-hero::after { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; background: linear-gradient(180deg, rgba(10, 15, 17, .45) 0, rgba(10, 15, 17, 0) 35%, rgba(10, 15, 17, .5) 100%), linear-gradient(90deg, rgba(10, 15, 17, .55) 0, rgba(10, 15, 17, .4) 45%, rgba(10, 15, 17, 0) 70%); }
 .wp-block-cover.mp-hero > .wp-block-cover__inner-container { position: relative; z-index: 2; display: flex; width: 100%; max-width: none; padding: 0; }
 .mp-hero__in { display: flex; flex-direction: column; justify-content: space-between; width: 100%; min-height: max(640px, 100svh); padding: 0 var(--mp-gut) var(--mp-gut); box-sizing: border-box; }
 .mp-hero__top { padding-top: clamp(120px, 22svh, 240px); }
-.mp-h1 { max-width: 900px; font-family: var(--mp-display); font-size: 4.5rem; font-weight: 700; line-height: 1.15; letter-spacing: -.03em; color: #fff; }
+.mp-h1 { max-width: min(700px, 46vw); font-family: var(--mp-display); font-size: 4.5rem; font-weight: 700; line-height: 1.15; letter-spacing: -.03em; color: #fff; }
 .mp-hero__sub { margin-top: 24px; max-width: 46ch; font-size: 1.125rem; line-height: 1.6; color: #fff; }
 .mp-bar { display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid rgba(255, 255, 255, .9); border-left: 1px solid rgba(255, 255, 255, .9); margin-top: 40px; }
 .mp-cell { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 168px; padding: 16px; box-sizing: border-box; border-right: 1px solid rgba(255, 255, 255, .9); border-bottom: 1px solid rgba(255, 255, 255, .9); background: rgba(10, 15, 17, .38); color: #fff; transition: background-color .2s ease-in-out, color .2s ease-in-out; }
@@ -185,7 +185,7 @@ body.home .mp-head .wp-block-button__link:hover { background: var(--mp-on); colo
 .mp-figs { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--mp-ink); border-bottom: 1px solid var(--mp-ink); }
 .mp-fx { padding: 32px 24px 36px; border-left: 1px solid var(--mp-ink); }
 .mp-fx:first-child { border-left: 0; padding-left: 0; }
-.mp-fx__n { font-family: var(--mp-display); font-size: 4.25rem; font-weight: 700; line-height: 1.05; letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+.mp-fx__n { font-family: var(--mp-display); font-size: 4.25rem; font-weight: 700; line-height: 1.05; letter-spacing: -.04em; }
 .mp-fx__l { margin-top: 8px; font-size: .875rem; line-height: 1.5; color: var(--mp-muted); }
 
 /* ---- run sheet ---- */
@@ -285,7 +285,8 @@ body.home .mp-head .wp-block-button__link:hover { background: var(--mp-on); colo
 	.mp-sec { padding-top: 56px; padding-bottom: 72px; }
 	.mp-problem, .mp-method, .mp-works { padding-bottom: 96px; }
 	.mp-head { min-height: 64px; gap: 12px; }
-	.mp-head__cta { display: none; }
+	.mp-head .wp-block-buttons.mp-head__cta { display: none; }
+	.mp-hero > .wp-block-cover__image-background { object-position: 80% 50% !important; }
 	.mp-nav { flex: 0 0 auto; margin-left: auto; }
 	.wp-block-cover.mp-hero, .mp-hero__in { min-height: 100svh; }
 	.mp-hero__top { padding-top: 104px; }

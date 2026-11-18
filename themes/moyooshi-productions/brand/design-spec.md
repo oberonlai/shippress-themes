@@ -124,14 +124,14 @@ theme-meta screens: home, about, news -> journal, article -> a case study post, 
 | mist | #EEF3F3 | crew band, form surface ~8 % | tok(a) pale wash #F2F2F2, cooled |
 | line | #0A0F11 1px; on photo rgba(255,255,255,.9) | | tok(d) |
 | muted text | #4A5559 | captions, sub-lines | — |
-| accent | #008899 (納戸色) | arrows, bracket numbers, run-sheet times, focus ring; <= 4 % | row hex; reference has no accent (0 %) — the design row requires the teal family, used only as line/ink accent |
+| accent | #008899 () | arrows, bracket numbers, run-sheet times, focus ring; <= 4 % | row hex; reference has no accent (0 %) — the design row requires the teal family, used only as line/ink accent |
 | deep | #0B3A42 | one dark band (truss) | row teal family, darkened |
 First-screen saturated share: <= 8 % target, hard limit 15 % (check-first-screen.py). Teal is never a large fill. No beige/cream.
 
 ## 6. Type (font_direction = sans)
 - Latin display: **Schibsted Grotesk** (600/700/800). Latin body: **Karla** (400/500/700). Both sans; no serif anywhere.
 - Stacks: display `"Schibsted Grotesk", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif`; body `Karla, system-ui, -apple-system, "Segoe UI", sans-serif`.
-- zh-TW: `:root:lang(zh-TW)` display `"Schibsted Grotesk", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif`; body `Karla, "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif` (body must not contain the bundled zh family or JP fonts). ja: display `"Schibsted Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif`; body `Karla, "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", sans-serif`. CJK = 黑體 only, never Mincho/明體.
+- zh-TW: `:root:lang(zh-TW)` display `"Schibsted Grotesk", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif`; body `Karla, "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif` (body must not contain the bundled zh family or JP fonts). ja: display `"Schibsted Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif`; body `Karla, "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", sans-serif`. CJK =  only, never Mincho/.
 - Loading: all via theme.json `fontFamilies` + `fontFace` (woff2 in assets/fonts, Latin + zh-TW/ja subsets of Noto Sans TC/JP 700 for headings, via the Hokuto/Hada subset workaround); editor and front identical; copy shared/inc/editor-lang.php when `:lang(` rules exist.
 - Scale (tok(b)): giant word `clamp(3.5rem, 11.2vw, 10rem)` 800, lh 1, -0.08em (ref 160px/-0.08em) · H1 hero 4.5rem 700 lh 1.15 (largest theme.json size `xx-large` = 10rem, `x-large` = 4.5rem, >= 4.25rem satisfied) · statement H2 3.75rem/1.4 700 (ref 60/84) · row title 2.25rem 700 (ref 36px) · cell caps 2.5rem 700 -0.04em · body 1rem (16px) lh 1.9 (ref 14/33.6 lh 2.4, enlarged for Latin legibility) · English sub-line 15px · micro-label 12px 600 caps -0.04em (ref 12px 600 -0.48px) · nav 15px caps.
 - CJK: sizes x0.75 for giant word/H1, body lh 1.85; giant words stay Latin caps in all languages (they are labels), translated statement beneath. de/fr: `hyphens:auto`.
