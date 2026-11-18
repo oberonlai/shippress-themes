@@ -29,3 +29,28 @@ The Snow letter section on the home page uses the shared form slot (inc/shippres
 == Copyright ==
 
 Yukishiro Chalet, (C) ShipPress, GPL-2.0-or-later. Cormorant Garamond and Lato are licensed under the SIL Open Font License 1.1 (see assets/fonts). Photographs are generated for this theme.
+
+== Images ==
+
+All photographs are generated for this theme and licensed GPL-2.0-or-later with the theme:
+* assets/images/card-first-tracks.webp: GPL-2.0-or-later
+* assets/images/card-hiking-week.webp: GPL-2.0-or-later
+* assets/images/card-hut-to-hut.webp: GPL-2.0-or-later
+* assets/images/card-ski-week.webp: GPL-2.0-or-later
+* assets/images/card-ski-weekend.webp: GPL-2.0-or-later
+* assets/images/card-summer-weekend.webp: GPL-2.0-or-later
+* assets/images/chalet-exterior.webp: GPL-2.0-or-later
+* assets/images/drying-room.webp: GPL-2.0-or-later
+* assets/images/hut-trail.webp: GPL-2.0-or-later
+* assets/images/kv-bindings-door.webp: GPL-2.0-or-later
+* assets/images/lift-pass-gondola.webp: GPL-2.0-or-later
+* assets/images/lounge-fire.webp: GPL-2.0-or-later
+* assets/images/post-drying.webp: GPL-2.0-or-later
+* assets/images/post-first-day.webp: GPL-2.0-or-later
+* assets/images/room-double.webp: GPL-2.0-or-later
+* assets/images/room-family.webp: GPL-2.0-or-later
+* assets/images/room-loft.webp: GPL-2.0-or-later
+* assets/images/skis-at-door.webp: GPL-2.0-or-later
+* assets/images/demo/hut-trail.webp: GPL-2.0-or-later
+* assets/images/demo/post-drying.webp: GPL-2.0-or-later
+* assets/images/demo/post-first-day.webp: GPL-2.0-or-later

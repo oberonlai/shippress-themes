@@ -42,15 +42,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"yk-card__t"} -->
-<h3 class="wp-block-heading yk-card__t">{{t:card_ski-week_t|Ski week}}</h3>
+<h3 class="wp-block-heading yk-card__t"><?php echo esc_html( yukishiro_chalet_t( 'card_ski-week_t' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"yk-card__x"} -->
-<p class="yk-card__x">{{t:card_ski-week_x|Seven nights with a six-day lift pass, half board and the drying room every morning.}}</p>
+<p class="yk-card__x"><?php echo esc_html( yukishiro_chalet_t( 'card_ski-week_x' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"yk-card__p"} -->
-<p class="yk-card__p">{{t:card_ski-week_p|from €1,640 · 7 nights}}</p>
+<p class="yk-card__p"><?php echo esc_html( yukishiro_chalet_t( 'card_ski-week_p' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"yk-twin"} -->
@@ -70,15 +70,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"yk-card__t"} -->
-<h3 class="wp-block-heading yk-card__t">{{t:card_ski-weekend_t|Ski weekend}}</h3>
+<h3 class="wp-block-heading yk-card__t"><?php echo esc_html( yukishiro_chalet_t( 'card_ski-weekend_t' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"yk-card__x"} -->
-<p class="yk-card__x">{{t:card_ski-weekend_x|Three nights and a two-day pass: a short stay for a first look at the valley.}}</p>
+<p class="yk-card__x"><?php echo esc_html( yukishiro_chalet_t( 'card_ski-weekend_x' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"yk-card__p"} -->
-<p class="yk-card__p">{{t:card_ski-weekend_p|from €690 · 3 nights}}</p>
+<p class="yk-card__p"><?php echo esc_html( yukishiro_chalet_t( 'card_ski-weekend_p' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"yk-twin"} -->
@@ -98,15 +98,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"yk-card__t"} -->
-<h3 class="wp-block-heading yk-card__t">{{t:card_first-tracks_t|First tracks}}</h3>
+<h3 class="wp-block-heading yk-card__t"><?php echo esc_html( yukishiro_chalet_t( 'card_first-tracks_t' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"yk-card__x"} -->
-<p class="yk-card__x">{{t:card_first-tracks_x|Five nights for beginners: pass included and four ski-school mornings at the door.}}</p>
+<p class="yk-card__x"><?php echo esc_html( yukishiro_chalet_t( 'card_first-tracks_x' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"yk-card__p"} -->
-<p class="yk-card__p">{{t:card_first-tracks_p|from €1,280 · 5 nights}}</p>
+<p class="yk-card__p"><?php echo esc_html( yukishiro_chalet_t( 'card_first-tracks_p' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"yk-twin"} -->
@@ -126,15 +126,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"yk-card__t"} -->
-<h3 class="wp-block-heading yk-card__t">{{t:card_hiking-week_t|Hiking week}}</h3>
+<h3 class="wp-block-heading yk-card__t"><?php echo esc_html( yukishiro_chalet_t( 'card_hiking-week_t' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"yk-card__x"} -->
-<p class="yk-card__x">{{t:card_hiking-week_x|Seven nights with a mountain guide on three days, ridges, lakes and the gondola included.}}</p>
+<p class="yk-card__x"><?php echo esc_html( yukishiro_chalet_t( 'card_hiking-week_x' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"yk-card__p"} -->
-<p class="yk-card__p">{{t:card_hiking-week_p|from €1,120 · 7 nights}}</p>
+<p class="yk-card__p"><?php echo esc_html( yukishiro_chalet_t( 'card_hiking-week_p' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"yk-twin"} -->
@@ -154,15 +154,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"yk-card__t"} -->
-<h3 class="wp-block-heading yk-card__t">{{t:card_hut-to-hut_t|Hut-to-hut}}</h3>
+<h3 class="wp-block-heading yk-card__t"><?php echo esc_html( yukishiro_chalet_t( 'card_hut-to-hut_t' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"yk-card__x"} -->
-<p class="yk-card__x">{{t:card_hut-to-hut_x|Four nights: two in the chalet and two in mountain huts along the high col route.}}</p>
+<p class="yk-card__x"><?php echo esc_html( yukishiro_chalet_t( 'card_hut-to-hut_x' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"yk-card__p"} -->
-<p class="yk-card__p">{{t:card_hut-to-hut_p|from €860 · 4 nights}}</p>
+<p class="yk-card__p"><?php echo esc_html( yukishiro_chalet_t( 'card_hut-to-hut_p' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"yk-twin"} -->
@@ -182,15 +182,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"yk-card__t"} -->
-<h3 class="wp-block-heading yk-card__t">{{t:card_summer-weekend_t|Long summer weekend}}</h3>
+<h3 class="wp-block-heading yk-card__t"><?php echo esc_html( yukishiro_chalet_t( 'card_summer-weekend_t' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"yk-card__x"} -->
-<p class="yk-card__x">{{t:card_summer-weekend_x|Three nights on the balcony side of the valley, with the gondola and two chairlifts included.}}</p>
+<p class="yk-card__x"><?php echo esc_html( yukishiro_chalet_t( 'card_summer-weekend_x' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"yk-card__p"} -->
-<p class="yk-card__p">{{t:card_summer-weekend_p|from €480 · 3 nights}}</p>
+<p class="yk-card__p"><?php echo esc_html( yukishiro_chalet_t( 'card_summer-weekend_p' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"yk-twin"} -->
