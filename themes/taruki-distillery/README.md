@@ -1,6 +1,6 @@
 # Taruki Distillery
 
-A craft gin distillery theme: two flat colour strips over a charcoal navigation row, a split hero with a six-dot batch timeline, a sticky still photograph beside six process chapters, an inset still-room photograph, a frosted botanicals photograph, a price ledger and one booking route. DM Serif Display for headings, Work Sans for reading. Works without WooCommerce.
+A craft gin distillery theme: two flat colour strips over a charcoal navigation row, a split hero with a six-dot batch timeline, a sticky still photograph beside six process chapters, an inset still-room photograph, a frosted botanicals photograph, a price ledger, a ruled team list beside one portrait and one booking route. DM Serif Display for headings, Work Sans for reading. Works without WooCommerce.
 
 ## Structure
 - `patterns/front-*.php`: the ten home sections (hero, band, process, still room, bottle, ledger, tour, people, journal, letter); `head-strips.php`, `foot-main.php`: header strips and footer; `page-*.php`: newsletter and booking form pages.
