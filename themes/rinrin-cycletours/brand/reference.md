@@ -1,0 +1,24 @@
+# Reference notes (draft; the "our implementation" column is filled in during the build)
+
+Primary: https://matsukawaura-guide.com/  Secondary: https://mikurasima-portal.jp/
+Screens: `ref/matsu-*.png`, `ref/mikura-strips.png`, scroll pairs `ref/scroll-matsu-*.png`. Tokens: `reference-tokens.md`.
+IMAGERY: photo (documentary, cool natural light, no illustration).
+
+## Structure observed (primary)
+Full-bleed harbour hero with vertical headline lower right and a small catch at the left; overlay link groups instead of a bar, collapsing to an outline "Menu" pill; "About" on a blurred photo ground with a staggered underlined heading and two photos flush to opposite viewport edges; members block; framed inset band with a centred video card; stacked experience rows (photo left, vertical title and body at right, circle arrow); full-bleed stay-plan band with a cropped ghost glyph; access; footer on mist.
+Secondary: stacked full-width photo strips, one narrow vertical caption in the centre column, a small right-edge link stack, an inset page frame.
+
+## Signature candidates
+| # | Candidate | Source | Our implementation |
+|---|---|---|---|
+| C1 | Full-bleed aerial quay photo, tall vertical headline at lower right, small catch at left, overlay link groups with arrows | primary hero | |
+| C2 | Blurred photo ground, 3-line heading with stepped indents and a hairline under each line, text lines at wide leading | primary About | |
+| C3 | Stacked full-bleed photo strips with a single vertical caption in the centre column and a right-edge link stack | secondary | |
+| C4 | Framed inset band whose photo scales while a centred card sits on it | primary scaler | |
+| C5 | Photo-left row with vertical title and body columns and an 80px circle arrow, on sky ground | primary rows | |
+
+## Colour relations
+Mist #E6EEEF ground, sky #C4DDE7 second ground, black ink, white; photographs carry all the colour. First-screen saturated share 12.3%.
+
+## Scroll effects (see stage-a.md table)
+GSAP ScrollTrigger scrub 2 parallax (X/Y), images scaled 1.2; Lenis smooth scroll; fade-in rows; scaler band.
