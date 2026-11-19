@@ -37,8 +37,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"yr-cards sp-stagger","layout":{"type":"default"}} -->
-<div class="wp-block-group yr-cards sp-stagger"><!-- wp:group {"className":"yr-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group yr-card sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yr-card__head"} -->
+<div class="wp-block-group yr-cards sp-stagger"><!-- wp:group {"className":"yr-card sp-reveal sp-reveal--up","layout":{"type":"default"},"anchor":"first-light"} -->
+<div id="first-light" class="wp-block-group yr-card sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yr-card__head"} -->
 <p class="yr-card__head"><span class="yr-card__name"><?php echo esc_html( yuzuriha_retreat_t( 'card1_name' ) ); ?></span><i class="yr-card__tick" aria-hidden="true"></i><span class="yr-card__label"><?php echo esc_html( yuzuriha_retreat_t( 'card1_label' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
@@ -69,8 +69,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yr-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group yr-card sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yr-card__head"} -->
+<!-- wp:group {"className":"yr-card sp-reveal sp-reveal--up","layout":{"type":"default"},"anchor":"forest"} -->
+<div id="forest" class="wp-block-group yr-card sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yr-card__head"} -->
 <p class="yr-card__head"><span class="yr-card__name"><?php echo esc_html( yuzuriha_retreat_t( 'card2_name' ) ); ?></span><i class="yr-card__tick" aria-hidden="true"></i><span class="yr-card__label"><?php echo esc_html( yuzuriha_retreat_t( 'card2_label' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
@@ -101,8 +101,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yr-card sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group yr-card sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yr-card__head"} -->
+<!-- wp:group {"className":"yr-card sp-reveal sp-reveal--up","layout":{"type":"default"},"anchor":"quiet"} -->
+<div id="quiet" class="wp-block-group yr-card sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"yr-card__head"} -->
 <p class="yr-card__head"><span class="yr-card__name"><?php echo esc_html( yuzuriha_retreat_t( 'card3_name' ) ); ?></span><i class="yr-card__tick" aria-hidden="true"></i><span class="yr-card__label"><?php echo esc_html( yuzuriha_retreat_t( 'card3_label' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
