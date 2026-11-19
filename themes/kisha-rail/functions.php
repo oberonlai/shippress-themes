@@ -1,0 +1,56 @@
+<?php
+/**
+ * Kisha Rail Holidays: functions and definitions.
+ *
+ * @package kisha-rail
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+require_once get_template_directory() . '/inc/demo-import.php';
+require_once get_template_directory() . '/inc/i18n.php';
+require_once get_template_directory() . '/inc/editor-lang.php';
+require_once get_template_directory() . '/inc/shippress-forms.php';
+
+define( 'KISHA_RAIL_VERSION', wp_get_theme()->get( 'Version' ) );
+
+/**
+ * Theme supports and editor styles. WooCommerce support is declared either way; without the plugin it does nothing.
+ */
+function kisha_rail_setup() {
+	add_theme_support( 'wp-block-styles' );
+	add_theme_support( 'editor-styles' );
+	add_theme_support( 'responsive-embeds' );
+	add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'woocommerce' );
+	add_editor_style( 'style.css' );
+	add_editor_style( 'assets/sp-scroll.css' );
+}
+add_action( 'after_setup_theme', 'kisha_rail_setup' );
+
+/**
+ * Front-end styles and scripts. The scroll script loads in the head, not deferred, so the hidden states only exist once
+ * it ran.
+ */
+function kisha_rail_enqueue() {
+	wp_enqueue_style( 'kisha-rail-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.css' ), array(), KISHA_RAIL_VERSION );
+	wp_enqueue_style( 'kisha-rail-style', get_stylesheet_uri(), array( 'kisha-rail-sp-scroll' ), KISHA_RAIL_VERSION );
+	wp_enqueue_script( 'kisha-rail-sp-scroll', get_theme_file_uri( 'assets/sp-scroll.js' ), array(), KISHA_RAIL_VERSION, false );
+}
+add_action( 'wp_enqueue_scripts', 'kisha_rail_enqueue' );
+
+/**
+ * Pattern category.
+ */
+function kisha_rail_pattern_categories() {
+	register_block_pattern_category(
+		'kisha-rail',
+		array(
+			'label'       => __( 'Kisha Rail Holidays', 'kisha-rail' ),
+			'description' => __( 'Sections for an escorted rail-tour company: the framed photo window with docked tab cards, the day schedule with a route scale, the viaduct band, the dark band of four lines and the one way to request a brochure.', 'kisha-rail' ),
+		)
+	);
+}
+add_action( 'init', 'kisha_rail_pattern_categories' );
