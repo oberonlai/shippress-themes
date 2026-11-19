@@ -19,7 +19,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"yr-ridge"} -->
-<figure class="wp-block-image size-full yr-ridge"><img src="<?php echo yuzuriha_retreat_img( 'p12-lodge-blue-hour.webp' ); ?>" alt="<?php echo yuzuriha_retreat_a( 'alt_p12' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full yr-ridge"><img src="<?php echo yuzuriha_retreat_img( 'p12-lodge-blue-hour.webp' ); ?>" alt="<?php echo yuzuriha_retreat_a( 'alt_p12' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->

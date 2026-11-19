@@ -1,7 +1,7 @@
 <?php
 /** en strings of the theme's patterns (semantic keys). */
 return array(
-	'alt_p01' => 'A teacher kneels on a timber deck unrolling the last of a row of yoga mats at first light while two guests carry cups of tea from the kitchen door, larch forest in mist behind.',
+	'alt_p01' => 'A teacher kneels on a timber deck unrolling the last of a row of yoga mats at first light while two guests stand by the kitchen door holding cups of tea, larch forest in mist behind.',
 	'alt_p02' => 'A guest wrapped in a wool blanket sits on the edge of the deck holding a cup of tea and looks into the mist over the larch forest.',
 	'alt_p03' => 'Rows of guests in a forward fold on mats in the timber practice hall, tall windows onto the trees and soft daylight.',
 	'alt_p04' => 'A small group walking single file on a mossy forest path among tall straight trunks, a guide at the front, light fog.',
