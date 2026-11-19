@@ -53,3 +53,10 @@ Images: AI-generated for this theme with Grok Build image_gen as film-grain docu
 - assets/images/demo/p13-tea-pour.webp (demo/ copy imported into the Media Library as a post featured image; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/demo/p14-larch-ridge.webp (demo/ copy imported into the Media Library as a post featured image; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/demo/p15-bread-soup.webp (demo/ copy imported into the Media Library as a post featured image; AI-generated, GPL-2.0-or-later / CC0)
+
+== Changelog ==
+= 1.0.1 =
+* Fix dead links: the home calendar cards link to /calendar/#first-light, #forest and #quiet, and the Calendar page now has those ids on its first three cards, so the links land on the right card.
+
+= 1.0.0 =
+* First release.
