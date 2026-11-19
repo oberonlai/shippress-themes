@@ -6,7 +6,7 @@ return array(
 	'alt_p03' => 'Rows of guests in a forward fold on mats in the timber practice hall, tall windows onto the trees and soft daylight.',
 	'alt_p04' => 'A small group walking single file on a mossy forest path among tall straight trunks, a guide at the front, light fog.',
 	'alt_p05' => 'Supper at the long table with twelve places, bowls, bread and low pendant lamps, hands passing a dish.',
-	'alt_p06' => 'Guests stand among rows of dark yoga mats with a folded wool blanket on each on a timber deck at dawn, mist in the forest below.',
+	'alt_p06' => 'A row of twelve pale yoga mats on an empty timber deck at dawn, a folded grey wool blanket at the end of each, mist in the forest below.',
 	'alt_p07' => 'Walkers crossing a narrow timber footbridge over a forest stream.',
 	'alt_p08' => 'Two guests sit by the large window of a timber room with a linen bed and a folded wool blanket, looking out at the larch forest.',
 	'alt_p09' => 'The lodge seen from the slope: a long two-storey timber building with a covered deck on posts among larch and pine, in overcast morning light.',
