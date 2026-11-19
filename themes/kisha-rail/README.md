@@ -11,4 +11,21 @@ Kisha Rail Holidays — a block theme for an escorted rail-tour company that ser
 Design notes: `brand.md`, `brand/`.
 
 <!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/kisha-rail/home-desktop.webp" width="640" alt="Kisha Rail Holidays home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/kisha-rail/home-mobile.webp" width="200" alt="Kisha Rail Holidays home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/kisha-rail/about-desktop.webp) · [mobile](https://shots.codotx.com/kisha-rail/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/kisha-rail/news-desktop.webp) · [mobile](https://shots.codotx.com/kisha-rail/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/kisha-rail/article-desktop.webp) · [mobile](https://shots.codotx.com/kisha-rail/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/kisha-rail/category-desktop.webp) · [mobile](https://shots.codotx.com/kisha-rail/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/kisha-rail/tag-desktop.webp) · [mobile](https://shots.codotx.com/kisha-rail/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/kisha-rail/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/kisha-rail/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/kisha-rail/contact-desktop.webp) · [mobile](https://shots.codotx.com/kisha-rail/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/kisha-rail/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/kisha-rail/ja/home-desktop.webp) · [fr](https://shots.codotx.com/kisha-rail/fr/home-desktop.webp) · [de](https://shots.codotx.com/kisha-rail/de/home-desktop.webp)
 <!-- screenshots:end -->
