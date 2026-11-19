@@ -48,3 +48,10 @@ Images: AI-generated for this theme with Grok Build image_gen as film-grain docu
 - assets/images/p11-sleeper-cabin.webp - GPL-2.0-or-later / CC0
 - assets/images/p12-manager-portrait.webp - GPL-2.0-or-later / CC0
 - assets/images/p13-brochure-hands.webp - GPL-2.0-or-later / CC0
+- assets/images/p14-dining-car.webp - GPL-2.0-or-later / CC0
+- assets/images/p15-brochure-desk.webp - GPL-2.0-or-later / CC0
+- assets/images/p16-carriage-step.webp - GPL-2.0-or-later / CC0
+- assets/images/p17-dinner.webp - GPL-2.0-or-later / CC0
+- assets/images/demo/p06-viaduct.webp - GPL-2.0-or-later / CC0
+- assets/images/demo/p11-sleeper-cabin.webp - GPL-2.0-or-later / CC0
+- assets/images/demo/p16-carriage-step.webp - GPL-2.0-or-later / CC0
