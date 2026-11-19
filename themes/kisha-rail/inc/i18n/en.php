@@ -74,7 +74,7 @@ return array(
 	'day_w1' => 'Amara is at the table from 07:15 with the day sheet, read aloud once.',
 	'day_w2' => 'Leave your case outside; Ravi\'s van takes it to tonight\'s hotel.',
 	'day_w3' => 'Twelve minutes by coach; the platform is step-free.',
-	'day_w4' => 'Reserved seats together, window seats in turn; 1 h 50 on the train.',
+	'day_w4' => 'Reserved seats together, window seats in turn; 1 h 50 on the train.',
 	'day_w5' => 'Lunch at a booked table; a level 1.5 km walk or a free afternoon.',
 	'day_w6' => 'The short line along the water; 40 minutes.',
 	'day_w7' => 'Your case is already in your room.',
