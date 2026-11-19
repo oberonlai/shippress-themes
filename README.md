@@ -591,6 +591,9 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="https://shots.codotx.com/yuzu-chaya/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
+<tr>
+<td align="center" valign="top" width="33%"><a href="themes/yuzuriha-retreat"><img src="https://shots.codotx.com/yuzuriha-retreat/home-desktop.webp" width="260" alt="Yuzuriha Retreat"></a><br><a href="themes/yuzuriha-retreat">Yuzuriha Retreat</a></td>
+</tr>
 </table>
 <!-- gallery:end -->
 
