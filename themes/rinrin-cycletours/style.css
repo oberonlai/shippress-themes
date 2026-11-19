@@ -47,12 +47,12 @@ img { height: auto; }
 .rc-wordmark { margin: 0; flex: 0 0 262px; font: 600 1.375rem/1 var(--wp--preset--font-family--display); letter-spacing: 0; }
 .rc-wordmark a { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
 .rc-wheel { flex: none; }
-body:not(:has(.rc-hero, .rc-single-hero)) .rc-wordmark a, body:not(:has(.rc-hero, .rc-single-hero)) .rc-nav .wp-block-navigation-item__content { color: var(--wp--preset--color--ink); }
+body:not(:has(.rc-hero, .rc-single-hero)) .rc-wordmark a, body:not(:has(.rc-hero, .rc-single-hero)) .rc-head .rc-nav .wp-block-navigation-item__content { color: var(--wp--preset--color--ink); }
 .rc-nav { flex: 1 1 auto; }
 .rc-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { color: #fff; }
 .rc-nav .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container { display: grid; grid-template-columns: repeat(3, minmax(0, 25.7vw)); grid-template-rows: repeat(3, auto); grid-auto-flow: column; gap: 2px 0; align-items: start; }
-.rc-nav .wp-block-navigation-item__content { display: inline-block; padding: 2px 22px 2px 0; font: 600 .875rem/1.6 var(--wp--preset--font-family--display); letter-spacing: .02em; text-decoration: none; color: #fff; background: var(--rc-arrow-w) no-repeat right center / 12px 9px; transition: opacity .5s var(--rc-ease); }
-body:not(:has(.rc-hero, .rc-single-hero)) .rc-nav .wp-block-navigation-item__content { background-image: var(--rc-arrow); }
+.rc-head .rc-nav .wp-block-navigation-item__content { display: inline-block; padding: 2px 22px 2px 0; font: 600 .875rem/1.6 var(--wp--preset--font-family--display); letter-spacing: .02em; text-decoration: none; color: #fff; background: var(--rc-arrow-w) no-repeat right center / 12px 9px; transition: opacity .5s var(--rc-ease); }
+body:not(:has(.rc-hero, .rc-single-hero)) .rc-head .rc-nav .wp-block-navigation-item__content { background-image: var(--rc-arrow); }
 .rc-nav .wp-block-navigation-item__content:hover { opacity: .65; }
 /* The one Menu pill (the core open button): fixed top right. Visible from the start at <=1023px; on desktop it fades in once the hero has scrolled away. */
 .rc-nav .wp-block-navigation__responsive-container-open { position: fixed; top: 20px; right: 58px; z-index: 60; display: none; align-items: center; gap: 12px; height: 34px; min-width: 100px; justify-content: center; padding: 0 16px; border: 1px solid var(--wp--preset--color--ink); border-radius: 999px; background: rgba(255, 255, 255, .85); color: var(--wp--preset--color--ink); font: 600 .8125rem/1 var(--wp--preset--font-family--display); letter-spacing: .06em; }
@@ -60,7 +60,7 @@ body:not(:has(.rc-hero, .rc-single-hero)) .rc-nav .wp-block-navigation-item__con
 .rc-nav .wp-block-navigation__responsive-container-open svg { order: 2; width: 18px; height: 18px; }
 .rc-nav .wp-block-navigation__responsive-container.is-menu-open { background: var(--wp--preset--color--mist); color: var(--wp--preset--color--ink); }
 .rc-nav .is-menu-open .wp-block-navigation__container { display: flex; flex-direction: column; gap: 14px; }
-.rc-nav .is-menu-open .wp-block-navigation-item__content { color: var(--wp--preset--color--ink); font-size: 1.5rem; background-image: var(--rc-arrow); background-size: 16px 11px; padding-right: 30px; }
+.rc-head .rc-nav .is-menu-open .wp-block-navigation-item__content { color: var(--wp--preset--color--ink); font-size: 1.5rem; background-image: var(--rc-arrow); background-size: 16px 11px; padding-right: 30px; }
 @media (min-width: 1024px) {
 	.rc-nav .wp-block-navigation__responsive-container-open { display: flex; opacity: 0; visibility: hidden; }
 	.rc-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: block; position: static; background: none; }
@@ -81,11 +81,11 @@ body:not(:has(.rc-hero, .rc-single-hero)) .rc-nav .wp-block-navigation-item__con
 /* ==== H1 Quay hero: full-bleed photo, tall vertical headline lower right, four-line catch at the left ==== */
 .rc-hero { position: relative; min-height: clamp(640px, 100svh, 1000px); margin: 0; overflow: clip; color: #fff; background: var(--wp--preset--color--slate); }
 .rc-hero__img { position: absolute; inset: 0; margin: 0; }
-.rc-hero__img img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 60%; }
-.rc-hero::before { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(to bottom, rgba(27, 36, 32, .38), rgba(27, 36, 32, 0) 24%), linear-gradient(to left, rgba(27, 36, 32, .28), rgba(27, 36, 32, 0) 40%); }
+.rc-hero__img img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+.rc-hero::before { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(to bottom, rgba(27, 36, 32, .38), rgba(27, 36, 32, 0) 24%), linear-gradient(to left, rgba(27, 36, 32, .38), rgba(27, 36, 32, 0) 42%); }
 .rc-hero__inner { position: absolute; inset: 0; z-index: 2; }
-.rc-hero__catch { position: absolute; left: 5.5%; top: 46%; max-width: 380px; margin: 0; font-size: 1rem; line-height: 1.8; letter-spacing: .1em; color: #fff; }
-.rc-hero .rc-hero__title { position: absolute; right: 6.5%; top: 18%; bottom: 4%; margin: 0; writing-mode: vertical-rl; font-size: var(--wp--preset--font-size--huge); font-weight: 300; line-height: 1.15; letter-spacing: .04em; color: #fff; -webkit-mask-image: linear-gradient(to bottom, #000 60%, rgba(0, 0, 0, .7)); mask-image: linear-gradient(to bottom, #000 60%, rgba(0, 0, 0, .7)); }
+.rc-hero__catch { position: absolute; left: 33%; top: 24%; max-width: 380px; margin: 0; font-size: 1rem; line-height: 1.8; letter-spacing: .1em; color: #fff; }
+.rc-hero .rc-hero__title { position: absolute; right: 6.5%; top: 18%; bottom: 4%; margin: 0; writing-mode: vertical-rl; font-size: var(--wp--preset--font-size--huge); font-weight: 300; line-height: 1.15; letter-spacing: .04em; word-spacing: .2em; color: #fff; -webkit-mask-image: linear-gradient(to bottom, #000 60%, rgba(0, 0, 0, .7)); mask-image: linear-gradient(to bottom, #000 60%, rgba(0, 0, 0, .7)); }
 .rc-hero__col { display: block; }
 .rc-hero__scroll { position: absolute; left: 50%; bottom: 24px; width: 1px; height: 40px; background: #fff; }
 @media (max-width: 1023px) {
@@ -106,9 +106,10 @@ body:not(:has(.rc-hero, .rc-single-hero)) .rc-nav .wp-block-navigation-item__con
 .rc-about::after { content: ""; position: absolute; inset: 0; z-index: -1; background: rgba(230, 238, 239, .72); }
 .rc-about__text { position: relative; margin-left: 40%; width: 34%; }
 .rc-about__lab { margin: 0; }
-.rc-about__h { margin: 0 0 2.25rem; font-size: var(--wp--preset--font-size--x-large); font-weight: 300; line-height: 1.35; }
+.rc-about__h { margin: 0 0 2.25rem; font-size: clamp(1.75rem, 2.8vw, 2.5rem); font-weight: 300; line-height: 1.35; }
 .rc-step { display: block; width: fit-content; max-width: 100%; margin: 0 0 .5em; padding-bottom: .35em; border-bottom: 1px solid var(--wp--preset--color--ink); }
 .rc-step--2 { margin-left: 70px; }
+@media (min-width: 1024px) { .rc-about__h .rc-step { white-space: nowrap; max-width: none; } }
 .rc-about__p { margin: 0 0 1.5rem; }
 .rc-about .wp-block-buttons { margin-top: 2.5rem; }
 .rc-about__photo { position: absolute; margin: 0; overflow: hidden; }
@@ -185,10 +186,10 @@ body:not(:has(.rc-hero, .rc-single-hero)) .rc-nav .wp-block-navigation-item__con
 .rc-sstrip { position: relative; min-height: max(560px, 80svh); overflow: clip; color: #fff; --sp-par: 10%; background: var(--wp--preset--color--slate); }
 .rc-sstrip__img { position: absolute; inset: 0; margin: 0; }
 .rc-sstrip__img img { width: 100%; height: 100%; object-fit: cover; }
-.rc-sstrip::before { content: ""; position: absolute; inset: 0; z-index: 1; background: rgba(27, 36, 32, .22); pointer-events: none; }
+.rc-sstrip::before { content: ""; position: absolute; inset: 0; z-index: 1; background: rgba(27, 36, 32, .3); pointer-events: none; }
 .rc-sstrip__inner { position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.5rem; padding: 0 24px; }
 .rc-sstrip .rc-sstrip__cap { margin: 0; writing-mode: vertical-rl; font: 300 2.25rem/1.3 var(--wp--preset--font-family--display); letter-spacing: .08em; color: #fff; }
-.rc-sstrip__sub { margin: 0; max-width: 420px; text-align: center; font-size: .9375rem; line-height: 1.7; color: #fff; }
+.rc-sstrip__sub { text-shadow: 0 1px 12px rgba(27, 36, 32, .5); margin: 0; max-width: 420px; text-align: center; font-size: .9375rem; line-height: 1.7; color: #fff; }
 .rc-links { position: absolute; right: 56px; bottom: 56px; display: flex; flex-direction: column; align-items: flex-end; gap: .45rem; }
 .rc-links a { padding: 2px 22px 2px 0; font-size: .875rem; line-height: 1.5; color: #fff; text-decoration: none; background: var(--rc-arrow-w) no-repeat right center / 12px 9px; transition: opacity .5s var(--rc-ease); }
 .rc-links a:hover { text-decoration: underline; text-underline-offset: .3em; }
@@ -205,6 +206,7 @@ body:not(:has(.rc-hero, .rc-single-hero)) .rc-nav .wp-block-navigation-item__con
 .rc-grades { display: grid; grid-template-columns: 1fr 2fr; gap: 64px; padding: 160px var(--rc-edge); background: var(--wp--preset--color--sky); }
 .rc-grades__h { margin: 0 0 1.75rem; font-size: var(--wp--preset--font-size--large); font-weight: 300; line-height: 1.5; }
 .rc-grades__h .rc-step--2 { margin-left: 70px; }
+@media (min-width: 1024px) { .rc-about__h .rc-step { white-space: nowrap; max-width: none; } }
 .rc-grades__p { margin: 0; font-size: .9375rem; line-height: 1.9; }
 .rc-ledger { list-style: none; margin: 0; padding: 0; }
 .rc-ledger__cols, .rc-ledger__row { display: grid; grid-template-columns: 1fr .95fr 1.05fr 1fr 1.5fr; gap: 16px; align-items: baseline; }
@@ -232,6 +234,7 @@ body:not(:has(.rc-hero, .rc-single-hero)) .rc-nav .wp-block-navigation-item__con
 
 /* ==== Journal ==== */
 .rc-journal { padding: 160px var(--rc-edge) 120px; background: var(--wp--preset--color--mist); }
+.rc-journal__head { margin-bottom: 56px; }
 .rc-journal__head .rc-label { margin-bottom: 1rem; }
 .rc-journal__h { margin: 0 0 56px; font-size: var(--wp--preset--font-size--large); font-weight: 300; }
 .rc-jlist .wp-block-post-template { gap: 40px 32px; }
