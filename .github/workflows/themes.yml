@@ -53,6 +53,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      # Hero diversity of the plan (design-plan.json rules.hero_diversity): fingerprint / share / hot-class rules for rows that carry a composition.
+      - name: Check design plan
+        run: node --test scripts/check-design-plan.test.mjs && python3 scripts/check-design-plan.py design-plan.json
       - name: Check themes
         run: node --test scripts/check-themes.test.mjs scripts/release-themes.test.mjs scripts/komugi-bake-board.test.mjs scripts/sync-screenshots.test.mjs scripts/bump-released.test.mjs scripts/kensa-typography.test.mjs scripts/hazuki-hero-bar.test.mjs scripts/mimamori-hero-spacing.test.mjs scripts/mimamori-title-nav.test.mjs scripts/noboru-header.test.mjs scripts/hibari-logo.test.mjs scripts/genba-diary-fragments.test.mjs scripts/tana-hero.test.mjs scripts/senbatsu-hero.test.mjs && node scripts/check-themes.mjs
       - name: Build one zip per theme

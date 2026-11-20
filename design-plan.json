@@ -35,6 +35,44 @@
       "pages": "Same fixed page codes as every theme (check-themes.mjs PAGES: home, about, news, article, category, tag, newsletter, contact) and >= 8 demo pages, so no gate changes: home = the long landing page; about = the team/maker story; news = updates/changelog; newsletter = the waitlist / early-access signup page; contact = enquiry; plus privacy, terms and thanks (post-signup) pages; >= 1 post (launch note). Header menu = in-page anchors to the home sections + one CTA; inner pages reachable from the footer.",
       "gate": "quality_gate 2 unchanged (>= 250 home words, >= 3 narrative paragraphs, >= 12 images, >= 8 on home, >= 4.25rem type, first-screen colour limit). Screenshots: all 8 page codes have screens URLs as usual.",
       "style": "Japanese/Taiwanese local feel, quiet palette, at least half sans (黑體); illustration-led references get self-made same-style illustrations; key-visual concept checklist from the reference applies."
+    },
+    "hero_diversity": {
+      "since": "2026-11-20",
+      "direction": "The coarse hero class is not enough: yuzuriha-retreat, makiba-farmstay, yukishiro-chalet and rinrin-cycletours are four classes of one look (full-bleed photo, headline on top, one info strip at the bottom). Finished themes are never changed; every NEW row adds hero_composition (how the photo sits and is cropped), hero_text (where the headline sits) and hero_footer (what closes the hero), and hero_fingerprint = \"<hero_composition>/<hero_text>/<hero_footer>\". Stage 1 builds exactly that first screen (not a full-bleed photo with overlaid text unless the row says so) and the stage-1 review checks it.",
+      "fields_required_from_batch": 38,
+      "window": 30,
+      "max_share_in_window": 0.25,
+      "hot_share": 0.2,
+      "checks": "scripts/check-design-plan.py (CI, \"design-plan\" step) and pipeline plan-next.sh, for every row that has the fields (rows without them are unknown and tolerated; rows of batch >= fields_required_from_batch must have them): (1) hero_fingerprint differs from each of the previous 30 rows (done or todo); (2) its hero class is at most 25% of the 30 rows ending with it; (3) its hero class is not one that exceeds 20% of the rows done before it (full-bleed-photo is about 22%, so new rows avoid it); the fields must come from enums and the composition must fit the hero class (composition_by_hero). Rejected rows are not counted.",
+      "composition_by_hero": {
+        "full-bleed-photo": [
+          "full-bleed"
+        ],
+        "text-left-photo-right": [
+          "split-photo-right",
+          "inset-card"
+        ],
+        "photo-left-text-right": [
+          "split-photo-left"
+        ],
+        "framed-window": [
+          "framed-window",
+          "strip"
+        ],
+        "diagonal-split": [
+          "diagonal-split"
+        ],
+        "product-grid-hero": [
+          "product-grid",
+          "collage"
+        ],
+        "text-left-art-right": [
+          "split-photo-right"
+        ],
+        "stacked-collage": [
+          "collage"
+        ]
+      }
     }
   },
   "enums": {
@@ -131,6 +169,35 @@
     "font_direction": [
       "sans",
       "serif"
+    ],
+    "hero_composition": [
+      "full-bleed",
+      "framed-window",
+      "strip",
+      "split-photo-right",
+      "split-photo-left",
+      "diagonal-split",
+      "product-grid",
+      "inset-card",
+      "collage"
+    ],
+    "hero_text": [
+      "overlay-left",
+      "overlay-bottom",
+      "overlay-center",
+      "beside-photo",
+      "below-photo",
+      "on-solid-panel",
+      "split-over-seam"
+    ],
+    "hero_footer": [
+      "none",
+      "timeline",
+      "stats-row",
+      "card-row",
+      "info-bar",
+      "booking-bar",
+      "logo-row"
     ]
   },
   "nav_note": "Every theme has one real global top header (site title/logo + primary nav + CTA) and no other navigation: no side rail, no second menu. centered/split/overlay describe how that one menu is arranged (overlay = the menu opens over the page, e.g. on phones).",
@@ -8578,11 +8645,15 @@
       ],
       "n": 258,
       "status": "todo",
-      "id": "b36-5"
+      "id": "b36-5",
+      "hero_composition": "split-photo-left",
+      "hero_text": "beside-photo",
+      "hero_footer": "stats-row",
+      "hero_fingerprint": "split-photo-left/beside-photo/stats-row"
     },
     {
       "archetype": "asymmetric-masonry",
-      "hero": "photo-left-text-right",
+      "hero": "product-grid-hero",
       "nav": "centered",
       "image": "real-photography",
       "illustration": "low-key",
@@ -8612,11 +8683,15 @@
       ],
       "n": 259,
       "status": "todo",
-      "id": "b36-6"
+      "id": "b36-6",
+      "hero_composition": "product-grid",
+      "hero_text": "overlay-bottom",
+      "hero_footer": "card-row",
+      "hero_fingerprint": "product-grid/overlay-bottom/card-row"
     },
     {
       "archetype": "split-screen",
-      "hero": "full-bleed-photo",
+      "hero": "framed-window",
       "nav": "centered",
       "image": "real-photography",
       "illustration": "film-grain",
@@ -8646,7 +8721,11 @@
       ],
       "n": 260,
       "status": "todo",
-      "id": "b37-1"
+      "id": "b37-1",
+      "hero_composition": "framed-window",
+      "hero_text": "on-solid-panel",
+      "hero_footer": "booking-bar",
+      "hero_fingerprint": "framed-window/on-solid-panel/booking-bar"
     },
     {
       "archetype": "asymmetric-masonry",
@@ -8680,7 +8759,11 @@
       ],
       "n": 261,
       "status": "todo",
-      "id": "b37-2"
+      "id": "b37-2",
+      "hero_composition": "split-photo-right",
+      "hero_text": "beside-photo",
+      "hero_footer": "timeline",
+      "hero_fingerprint": "split-photo-right/beside-photo/timeline"
     },
     {
       "archetype": "horizontal-strip",
@@ -8714,11 +8797,15 @@
       ],
       "n": 262,
       "status": "todo",
-      "id": "b37-3"
+      "id": "b37-3",
+      "hero_composition": "strip",
+      "hero_text": "below-photo",
+      "hero_footer": "card-row",
+      "hero_fingerprint": "strip/below-photo/card-row"
     },
     {
       "archetype": "sticky-media",
-      "hero": "framed-window",
+      "hero": "diagonal-split",
       "nav": "centered",
       "image": "real-photography",
       "illustration": "low-key",
@@ -8748,11 +8835,15 @@
       ],
       "n": 263,
       "status": "todo",
-      "id": "b37-4"
+      "id": "b37-4",
+      "hero_composition": "diagonal-split",
+      "hero_text": "split-over-seam",
+      "hero_footer": "none",
+      "hero_fingerprint": "diagonal-split/split-over-seam/none"
     },
     {
       "archetype": "single-column-longform",
-      "hero": "photo-left-text-right",
+      "hero": "product-grid-hero",
       "nav": "overlay",
       "image": "real-photography",
       "illustration": "high-key",
@@ -8782,7 +8873,11 @@
       ],
       "n": 264,
       "status": "todo",
-      "id": "b37-5"
+      "id": "b37-5",
+      "hero_composition": "product-grid",
+      "hero_text": "beside-photo",
+      "hero_footer": "logo-row",
+      "hero_fingerprint": "product-grid/beside-photo/logo-row"
     },
     {
       "archetype": "card-mosaic",
@@ -8816,7 +8911,11 @@
       ],
       "n": 265,
       "status": "todo",
-      "id": "b37-6"
+      "id": "b37-6",
+      "hero_composition": "diagonal-split",
+      "hero_text": "overlay-left",
+      "hero_footer": "info-bar",
+      "hero_fingerprint": "diagonal-split/overlay-left/info-bar"
     }
   ],
   "page_structures": [
