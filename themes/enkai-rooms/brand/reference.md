@@ -1,0 +1,31 @@
+# Enkai Rooms: reference notes (stage 1 draft; "Our counterpart" column is filled in stage 2)
+
+IMAGERY: photo (the reference shows real low-key food and room photography; no illustration).
+
+## Sources
+- Primary: https://kyoto-kitcho.com/ (Kyoto Kitcho; the root kitcho.com redirects here). Top page, restaurant page /restaurant/arashiyama/. Screens: `ref/kitcho-top-first.png`, `ref/kitcho-arashiyama-first.png`, `ref/kitcho-hana-first.png`, `ref/scroll-kitcho-arashiyama-900|1800|2700.png`.
+- Secondary: https://kikunoi.jp/en/ (Kikunoi). Screens: `ref/kikunoi-first.png`, `ref/scroll-kikunoi-1000|2000|3200.png`.
+- Neither domain is on the used-references list. Only structure, hand, colour relations and concept are borrowed. No image, text or logo is copied.
+
+## Pages observed
+Primary: a black first screen with a close-up of one dish on glazed pottery (low-key, shallow depth), a tall white paper-like logo tag hanging from the top-left over a thin saturated red announcement strip and a black nav bar with a hairline-outlined reservation button; deeper pages open on a pale patterned title band (centred serif title + small Latin line) and a full-width room photograph; then alternating photo / text rows, a dated notice list on hairlines, and a 2x2 grid of photo tiles with centred labels (food / rooms / sights / access).
+Secondary: near-black ground, one seasonal dish photograph with a centred month name and Latin month line; a right-edge text menu; gold labels on alternating dark rows (address, hours, phone, closed days); a fixed gold "Reservation" tab; three-photo room strip with a short caption.
+
+## Signature candidates (3 chosen; see stage-a.md)
+| # | Technique | Source | Shape and position |
+|---|---|---|---|
+| T1 | Hanging paper tag + strip + black nav | primary header | 80 x 174 px pale tag hanging from the top-left over a 38 px strip and a 70 px black bar |
+| T2 | 2x2 abutting photo tiles, dark scrim, centred label and short arrow | primary restaurant page link grid | four tiles 1:0.57, 4 px gap, label centred |
+| T3 | Seasonal caption: month name + Latin month line centred on the low-key photo | secondary first screen | small serif two-line caption, centred, over a dimmed dish photo |
+Rejected for being too close to listed themes: edge-flush alternating photo rows (waku-exhibits), right-edge vertical nav rail (kotoba-language), fixed vertical tab (azuke-finance).
+
+## Our counterpart (stage 2)
+| # | Reference | Our counterpart (see design-spec.md) |
+|---|---|---|
+| T1 | Hanging paper tag + red strip + black nav (primary header) | 80 x 174 #F7F4F1 tag "ENKAI / ROOMS" at x 30 hanging 66 px into the hero; 38 px #6C3524 strip; 70 px #17100D bar with centred anchor nav and outline "Ask about a date"; every page |
+| T2 | 2x2 abutting photo tiles, 45% scrim, centred label + arrow | Home block 3 (Rooms / Menus / Weddings / Ask, P04-P07), 1060 wide, 4 px gap, 1.76:1; also on Rooms, Menus, Weddings, Ask |
+| T3 | Seasonal month caption on a dimmed photo (secondary) | "The first course of November" caption on the hero seam; repeated on the title band of Rooms, Menus, Weddings, About, Journal |
+| KV | Dish close-up on a black stage, title fades in, background settles | Diagonal two-photo hero (P01 floor manager setting name cards, P02 chef carrying the first course), H1 split over the seam, fades 1.4 s after 0.7 s, parallax layers 6/8 % |
+| Rows | Gold labels on alternating dark rows (secondary) | Room ledgers under the three-photo room strip (home block 4, Rooms page) |
+| Motion | fade 1400 ms easeInOutCubic; background drift 1.5 s | sp-reveal--up 1.4 s / 10 px, sp-stagger .12 s, sp-parallax 10 % band (P12) |
+| Colour | #000 / #F7F7F7 / #FF2219 / #BB944E | #17100D / #F3F0EE / #6C3524 / #BB944E |
