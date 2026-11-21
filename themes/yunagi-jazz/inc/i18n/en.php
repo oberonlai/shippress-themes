@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns (semantic keys; the other languages translate the same keys). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'about_cap' => 'Søren Vik tuning before the closing set',
 	'about_d1_a' => 'Lawn walk and lantern check',
@@ -123,6 +123,7 @@ return array(
 	'cr_s5' => 'Looks after the gates, the free water taps and the boat shuttle.',
 	'cr_s6' => 'Runs the box office all year and answers every ticket request within one working day.',
 	'cr_s7' => 'Directs the kitchen tent and bar, with seasonal trays and drinks for the lawn.',
+	'date_fmt' => 'j F Y',
 	'food_dish1_d' => 'Simmered with summer garden herbs, with thick sourdough bread',
 	'food_dish1_n' => 'Saltmere fish stew',
 	'food_dish2_d' => 'Roasted beetroot, crumbled goat curd and a lemon dressing',
@@ -191,6 +192,8 @@ return array(
 	'jr_h' => 'From the lawn',
 	'jr_l' => 'Journal',
 	'jr_more' => 'All notes →',
+	'k6d70686b' => 'hello@yunagijazz.example',
+	'k8ce88b46' => 'tickets@yunagijazz.example',
 	'lawn_cap' => 'Harbour Lawn at 20:40 · six hundred lanterns · the sea behind the stage',
 	'lineup_h1' => 'Lineup',
 	'lineup_lead' => 'The twelfth edition of Yunagi Jazz presents fourteen acts across two summer evenings on the Lawn Stage at Saltmere Quay. Artistic director Margit Aalto programs a single unhurried stage where acoustic jazz unfolds set by set against the harbour water.',
@@ -279,6 +282,7 @@ return array(
 	'schedule_s2_b' => 'Every musical performance on the Lawn Stage runs for exactly fifty minutes. Stage manager Inès Laurent directs ten-minute changeovers between sets, keeping the sound checks contained and the schedule running strictly to the minute. A pocket-sized, printed hour-by-hour card is handed to each guest upon entry at Gate A, matching this schedule entirely. Attendees holding valid wristbands may leave and re-enter the grounds throughout the evening. Lawn sweeps conclude at 01:00 following each performance day.',
 	'schedule_s2_h' => 'Changeovers and Gate Cards',
 	'schedule_s2_l' => 'Printable card',
+	'search_results' => 'Search results for: %s',
 	'sun_h' => 'Sunday',
 	'sun_intro' => 'Gates open at 15:00 for the second evening on the harbour lawn. Music begins at half past three with twenty student players and ends with the weekend’s musicians together under the lanterns.',
 	'sun_l' => '22 August · gates 15:00',
