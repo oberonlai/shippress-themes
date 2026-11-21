@@ -18,7 +18,7 @@
 <!-- wp:navigation {"overlayMenu":"mobile","hasIcon":false,"className":"yj-nav","layout":{"type":"flex","justifyContent":"center"}} /-->
 
 <!-- wp:buttons {"className":"yj-stubwrap"} -->
-<div class="wp-block-buttons yj-stubwrap-wrap"><!-- wp:button {"className":"yj-stub yj-head__buy"} -->
+<div class="wp-block-buttons yj-stubwrap"><!-- wp:button {"className":"yj-stub yj-head__buy"} -->
 <div class="wp-block-button yj-stub yj-head__buy"><a class="wp-block-button__link wp-element-button" href="/tickets/"><?php echo esc_html( yunagi_jazz_t( 'head_buy' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->

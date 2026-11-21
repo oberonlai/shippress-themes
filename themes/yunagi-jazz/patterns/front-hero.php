@@ -60,7 +60,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"yj-stubwrap"} -->
-<div class="wp-block-buttons yj-stubwrap-wrap"><!-- wp:button {"className":"yj-stub"} -->
+<div class="wp-block-buttons yj-stubwrap"><!-- wp:button {"className":"yj-stub"} -->
 <div class="wp-block-button yj-stub"><a class="wp-block-button__link wp-element-button" href="/tickets/"><?php echo esc_html( yunagi_jazz_t( 'hero_buy' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
