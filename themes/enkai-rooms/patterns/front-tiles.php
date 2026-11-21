@@ -16,7 +16,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"er-tile__l"} -->
-<p class="er-tile__l"><a href="#rooms">Rooms<span class="er-arrow"></span></a></p>
+<p class="er-tile__l"><a href="/rooms/">Rooms<span class="er-arrow"></span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -26,7 +26,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"er-tile__l"} -->
-<p class="er-tile__l"><a href="#menus">Menus<span class="er-arrow"></span></a></p>
+<p class="er-tile__l"><a href="/menus/">Menus<span class="er-arrow"></span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -36,7 +36,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"er-tile__l"} -->
-<p class="er-tile__l"><a href="#stories">Weddings<span class="er-arrow"></span></a></p>
+<p class="er-tile__l"><a href="/weddings/">Weddings<span class="er-arrow"></span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -46,7 +46,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"er-tile__l"} -->
-<p class="er-tile__l"><a href="#ask">Ask about a date<span class="er-arrow"></span></a></p>
+<p class="er-tile__l"><a href="/ask-about-a-date/">Ask about a date<span class="er-arrow"></span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

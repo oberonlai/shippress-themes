@@ -18,11 +18,13 @@
 <div class="wp-block-group alignfull er-bar"><!-- wp:group {"className":"er-bar__in","layout":{"type":"default"}} -->
 <div class="wp-block-group er-bar__in"><!-- wp:navigation {"overlayMenu":"mobile","overlayBackgroundColor":"dark","overlayTextColor":"on-dark","className":"er-nav","layout":{"type":"flex","orientation":"horizontal","justifyContent":"center"}} /-->
 
-<!-- wp:buttons {"className":"er-bar__cta"} -->
+<!-- wp:group {"className":"er-bar__r","layout":{"type":"default"}} -->
+<div class="wp-block-group er-bar__r"><!-- wp:buttons {"className":"er-bar__cta"} -->
 <div class="wp-block-buttons er-bar__cta"><!-- wp:button {"className":"is-style-outline er-btn-outline"} -->
-<div class="wp-block-button is-style-outline er-btn-outline"><a class="wp-block-button__link wp-element-button" href="#ask">Ask about a date</a></div>
+<div class="wp-block-button is-style-outline er-btn-outline"><a class="wp-block-button__link wp-element-button" href="/ask-about-a-date/">Ask about a date</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 

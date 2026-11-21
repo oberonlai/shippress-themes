@@ -25,7 +25,7 @@
 
 <!-- wp:buttons {"className":"er-ask__btn"} -->
 <div class="wp-block-buttons er-ask__btn"><!-- wp:button {"className":"er-btn"} -->
-<div class="wp-block-button er-btn"><a class="wp-block-button__link wp-element-button" href="mailto:rooms@enkai-rooms.example?subject=Private%20room%20enquiry">Ask about a date</a></div>
+<div class="wp-block-button er-btn"><a class="wp-block-button__link wp-element-button" href="/ask-about-a-date/">Ask about a date</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

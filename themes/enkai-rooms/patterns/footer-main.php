@@ -11,7 +11,7 @@
 <div class="wp-block-group alignfull er-footer er-dark"><!-- wp:group {"className":"er-footer__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group er-footer__grid"><!-- wp:group {"className":"er-footer__c","layout":{"type":"default"}} -->
 <div class="wp-block-group er-footer__c"><!-- wp:paragraph {"className":"er-footer__mark"} -->
-<p class="er-footer__mark">Enkai Rooms</p>
+<p class="er-footer__mark"><a href="/" aria-label="Enkai Rooms, home"><span class="er-ftag__rule"></span><span class="er-ftag__a">ENKAI</span><span class="er-ftag__b">ROOMS</span></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -35,7 +35,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><a href="/#rooms">Rooms</a><br><a href="/#menus">Menus and prices</a><br><a href="/#stories">Evenings</a><br><a href="/#people">People</a><br><a href="/#questions">Questions</a><br><a href="/#ask">Ask about a date</a></p>
+<p><a href="/rooms/">Rooms</a><br><a href="/menus/">Menus and prices</a><br><a href="/weddings/">Weddings</a><br><a href="/company-dinners/">Company dinners</a><br><a href="/about/">The house</a><br><a href="/journal/">Journal</a><br><a href="/ask-about-a-date/">Ask about a date</a><br><a href="/privacy/">Privacy</a><br><a href="/terms/">Terms</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

@@ -38,7 +38,7 @@
 
 <!-- wp:buttons {"className":"er-hero__btn"} -->
 <div class="wp-block-buttons er-hero__btn"><!-- wp:button {"className":"er-btn"} -->
-<div class="wp-block-button er-btn"><a class="wp-block-button__link wp-element-button" href="#ask">Ask about a date</a></div>
+<div class="wp-block-button er-btn"><a class="wp-block-button__link wp-element-button" href="/ask-about-a-date/">Ask about a date</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
