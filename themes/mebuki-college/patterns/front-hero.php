@@ -36,7 +36,7 @@
 <figure class="wp-block-image size-full mb-hero__img"><img src="<?php echo mebuki_college_img( 'p01-kv-sand-table.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p01' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:html -->
-<svg class="mb-chalk" viewBox="0 0 800 740" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M470 598C442 540 300 522 216 570C140 614 150 688 250 704C362 720 472 692 484 626C492 572 402 540 318 548"/><path class="mb-chalk__arrow" pathLength="1" d="M478 546C522 472 512 384 542 306C556 264 580 232 614 206M614 206L601 236M614 206L582 212"/><path class="mb-chalk__tick" pathLength="1" d="M508 150L532 186L580 128"/></svg>
+<svg class="mb-chalk" viewBox="0 0 800 740" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M440 560C400 470 190 450 120 540C60 620 100 700 250 718C400 736 500 690 504 600C508 520 380 470 270 490"/><path class="mb-chalk__arrow" pathLength="1" d="M494 470C560 380 540 300 566 220C582 170 620 130 676 96M676 96L664 138M676 96L632 104"/><path class="mb-chalk__tick" pathLength="1" d="M400 300L424 336L472 278"/><path class="mb-chalk__spark" pathLength="1" d="M190 110L240 70M170 170L236 140M180 232L232 214"/><path class="mb-chalk__spark" pathLength="1" d="M330 80L338 110L368 118L338 126L330 156L322 126L292 118L322 110Z"/></svg>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -66,5 +66,8 @@
 <div class="mb-hcard__rows"><a href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>" class="mb-hcard__row"><span class="mb-hcard__d"><?php echo esc_html( mebuki_college_t( 'hc3_d1' ) ); ?></span> <?php echo esc_html( mebuki_college_t( 'hc3_t1' ) ); ?></a><a href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>" class="mb-hcard__row mb-hcard__row--2"><span class="mb-hcard__d"><?php echo esc_html( mebuki_college_t( 'hc3_d2' ) ); ?></span> <?php echo esc_html( mebuki_college_t( 'hc3_t2' ) ); ?></a></div>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></section>
+<!-- /wp:group -->
+<!-- wp:html -->
+<svg class="mb-hero__wave" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 48V24C60 4 120 4 180 24S300 44 360 24S480 4 540 24S660 44 720 24S840 4 900 24S1020 44 1080 24S1200 4 1260 24S1380 44 1440 24V48Z"/></svg>
+<!-- /wp:html --></section>
 <!-- /wp:group -->
