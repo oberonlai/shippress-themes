@@ -22,7 +22,7 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"en-slide__scrim","layout":{"type":"default"}} -->
-<div class="wp-block-group en-slide__scrim" aria-hidden="true"></div>
+<div class="wp-block-group en-slide__scrim"></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"en-cap","layout":{"type":"default"}} -->
@@ -56,7 +56,7 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"en-slide__scrim","layout":{"type":"default"}} -->
-<div class="wp-block-group en-slide__scrim" aria-hidden="true"></div>
+<div class="wp-block-group en-slide__scrim"></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"en-cap","layout":{"type":"default"}} -->
@@ -90,7 +90,7 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"en-slide__scrim","layout":{"type":"default"}} -->
-<div class="wp-block-group en-slide__scrim" aria-hidden="true"></div>
+<div class="wp-block-group en-slide__scrim"></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"en-cap","layout":{"type":"default"}} -->

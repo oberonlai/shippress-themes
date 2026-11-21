@@ -10,7 +10,7 @@ Primary reference: https://kakimori.com/ (independent stationery shop, product-p
 | Hero photo | desaturated warm brass / grey-lilac (#8C8A92 to #E8E6E2) | first screen ~100% photo, saturated share < 8% |
 | Accent | #FF5800 orange, only as 1px title underlines, 1px tagline rules, active language link | < 1% |
 | Banner photo tints | indigo/teal/blush product macros inside one r8 band | ~4% |
-Relationship to carry over: white page, near-black text, almost no UI colour, accent confined to hairlines; photographs carry all colour. Ours: slate #5E7380 as the single hairline/accent colour in place of orange.
+Relationship to carry over: white page, near-black text, almost no UI colour, accent confined to hairlines; photographs carry all colour. Ours: the orange #FF5800 stays as the hairline-only accent (under 1% of the page), and slate #5E7380 replaces the reference grey on flat buttons and labels.
 
 ## (b) Type
 - Body: Zen Kaku Gothic New 16px / 28.8px (1.8), weight 400, ls normal, #333.

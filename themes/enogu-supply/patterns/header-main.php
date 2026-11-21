@@ -23,7 +23,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"en-bar","align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull en-bar">
+<div class="wp-block-group alignwide en-bar">
 <!-- wp:group {"className":"en-brand","layout":{"type":"default"}} -->
 <div class="wp-block-group en-brand">
 <!-- wp:site-title {"level":0,"className":"en-brand__title"} /-->
