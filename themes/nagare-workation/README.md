@@ -7,3 +7,5 @@ A block theme for lakeside hotels that rent rooms by the week and the month to p
 - Scroll effects: sp-reveal (wipe, up + stagger, zoom, left/right) and sp-parallax on the lake sliver and the seam band.
 - Forms: `shippress_form_slot` newsletter in the footer and on the Newsletter page; works without plugins (mailto fallback with a visible notice).
 - Design notes: `brand.md`, `brand/design-spec.md`, `brand/reference.md`.
+- Header: the one top menu stays on a single line over the text pane; on the home page it turns solid (sticky) once the hero has been scrolled past, using CSS scroll-driven animation (no JS; browsers without support keep the transparent overlay header).
+- Photography: AI-generated documentary photographs (guests of different ages and backgrounds); the "A week" strip is four frames, Monday to Thursday.
