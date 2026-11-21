@@ -47,7 +47,7 @@ Similarity target: **80 %** to the reference in colour relationships, photo trea
 ### T1. Hanging paper tag over a thin strip and a black bar (RT (c)(d), `ref/kitcho-top-first.png`)
 - Reference: a tall pale paper tag 80 × 174 px hangs from the top-left (x 30) over a 38 px saturated red announcement strip and a 70 px black nav bar; the tag casts a soft shadow onto the hero below. Nav labels separated by short grey hairlines; a white 1 px outline reservation button at the right.
 - Ours (every page, header template part): strip **38 px, #6C3524**, centred text "Spring dates are open for company dinners and family tables" (Source Sans 3 .8125rem, ls .08em, #F2EEEA); bar **70 px, #17100D**; tag **80 × 174 at x 30, y 0**, ground #F7F4F1, shadow `0 8px 16px rgba(0,0,0,.35)`, radius 0, z above strip and bar and hanging 66 px into the hero. Tag content top-to-bottom: a 1 px #6C3524 rule 24 px wide, "ENKAI" Cormorant Garamond 600 1.125rem ls .1em #1B1411, "ROOMS" Source Sans 3 600 .5625rem ls .3em, then a 10 × 10 russet square. It is the site logo (link home).
-- Centred nav (anchors on home, absolute links elsewhere): Rooms · Menus · Evenings · People · Questions, separated by 1 px × 14 px #5A4A44 rules; right: language links (EN 中 日 FR DE, .75rem) and the outline button **"Ask about a date"** (1 px #F2EEEA, 200 × 40, Source Sans 3 .875rem ls .1em; hover fills #F2EEEA, text #17100D, .4 s ease-out).
+- Centred nav (anchors on home, absolute links elsewhere): Rooms · Menus · Evenings · People · Questions, separated by 1 px × 14 px #5A4A44 rules; right: language links (EN   FR DE, .75rem) and the outline button **"Ask about a date"** (1 px #F2EEEA, 200 × 40, Source Sans 3 .875rem ls .1em; hover fills #F2EEEA, text #17100D, .4 s ease-out).
 - Must not dilute: the tag must visibly hang below the bar onto the hero; the strip stays a saturated russet band (not a hairline); the bar stays near-black.
 
 ### T2. 2 × 2 abutting photo tiles with dark scrim, centred serif label and short arrow (RT (c)(e)(f), `ref/scroll-kitcho-arashiyama-2700.png`)
@@ -156,7 +156,7 @@ Standard screens: home, about=/about/, news=/journal/, article=first post, categ
 
 ## 5. Colour and type
 
-### Colour (RT (a) relationships kept; accent red → row russet because the row palette is 錆色 and the first-screen cap is 15 %)
+### Colour (RT (a) relationships kept; accent red → row russet because the row palette is  and the first-screen cap is 15 %)
 | Role | RT | Ours | Share | Note |
 |---|---|---|---|---|
 | Base dark (bar, hero ground, dark sections) | #000000 | **#17100D** | ~35 % | warm black, L +5 % |
@@ -176,7 +176,7 @@ First-screen saturated share (HSV s > .45, v > .24): RT 29.4 %; **ours target �
 
 ### Type (font_direction serif)
 - Latin display: **Cormorant Garamond** (500, 600, italic 500). Latin body: **Source Sans 3** (400, 600).
-- CJK display: zh-TW **Noto Serif TC**, ja **Noto Serif JP** (明體 / 明朝; subsets for zh-TW and ja shipped as woff2). No 黑體 headings.
+- CJK display: zh-TW **Noto Serif TC**, ja **Noto Serif JP** ( / ; subsets for zh-TW and ja shipped as woff2). No  headings.
 - Stacks (theme.json fontFamilies + fontFace, woff2 in assets/fonts, license files, listed in theme-meta `fonts[].files` and readme.txt; editor = front; copy `shared/inc/editor-lang.php` → `inc/editor-lang.php` and require it because style.css uses `:lang()`):
   - display: `"Cormorant Garamond", "Noto Serif TC", "Noto Serif JP", Georgia, serif`; `:root:lang(zh*)` display `"Cormorant Garamond", "Noto Serif TC", "Songti TC", "PMingLiU", serif`; `:lang(ja)` display `"Cormorant Garamond", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif`.
   - body: `"Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif`; zh-TW body `"Source Sans 3", "PingFang TC", "Microsoft JhengHei", sans-serif` (no Noto TC, no JP font — repo gate); ja body `"Source Sans 3", "Hiragino Sans", "Yu Gothic", sans-serif`.

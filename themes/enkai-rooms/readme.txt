@@ -36,3 +36,20 @@ Fonts: Cormorant Garamond (OFL-1.1), Latin variable, roman and italic; Source Sa
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as photorealistic low-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the restaurant is fictional). No transparent cut-outs are used.
+- assets/images/p01-name-cards.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p02-first-course.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p03-long-room-forty.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p04-garden-room.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p05-first-course.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p06-toast.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p07-reservation-book.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p08-long-room-empty.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p09-garden-table.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p10-lamp-room.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p11-plating.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p12-mid-dinner.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p13-floor-team.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p14-name-card.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/demo/p03-long-room-forty.webp (copy imported into the Media Library for a sample post; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/demo/p06-toast.webp (copy imported into the Media Library for a sample post; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/demo/p11-plating.webp (copy imported into the Media Library for a sample post; AI-generated, GPL-2.0-or-later / CC0)
