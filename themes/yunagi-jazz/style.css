@@ -46,7 +46,9 @@ a { transition: color .3s var(--yj-curve), background-color .3s var(--yj-curve),
 a:focus-visible, button:focus-visible { outline: 2px solid var(--yj-plum); outline-offset: 3px; }
 :is(.yj-foot, .yj-sheet--ink, .yj-mat) :is(a, button):focus-visible { outline-color: var(--yj-brass-light); }
 .wp-site-blocks > *, .yj-main { margin-block-start: 0; }
-.yj-main { background: linear-gradient(#FAF9FB, #ECE9EE) top / 100% 220px no-repeat, #ECE9EE; padding-bottom: 0; }
+.yj-main { background: linear-gradient(#FAF9FB, #ECE9EE) top / 100% 220px no-repeat, #ECE9EE; padding-bottom: 80px; }
+/* WordPress zeroes the bottom margin of a last child, so the gap after a wrapper is padding */
+.yj-pin, .yj-band-wrap { padding-bottom: 80px; }
 .yj-main > * { margin: 0; }
 
 /* ---------- ticket stub (the one buy button) ---------- */
@@ -93,7 +95,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--yj-plum); outli
 .yj-eyebrow { margin: 0 0 12px; font: 600 .75rem/1.5 var(--yj-body); letter-spacing: .18em; text-transform: uppercase; color: var(--yj-brass-light); }
 .yj-eyebrow a { color: inherit; text-decoration: none; }
 .yj-eyebrow__m { display: none; }
-.yj-h1 { margin: 0; max-width: 820px; font-weight: 400; color: #FAF9FB; }
+.yj-h1 { margin: 0; max-width: 820px; font-weight: 400; color: #FAF9FB; font-size: clamp(2.75rem, 5vw, 3.5rem); }
 .yj-facts { margin: 0; font: 500 .9375rem/1.6 var(--yj-body); color: #FAF9FB; }
 .yj-mat__facts .yj-stubwrap { margin-top: 20px; }
 .yj-mat--mini { height: 320px; }
@@ -182,7 +184,7 @@ html.sp-no-motion .yj-strip__set[aria-hidden="true"] { display: none; }
 .yj-band { --sp-par: 10%; height: 640px; width: 100%; margin: 0; background: var(--yj-ink); }
 .yj-band .wp-block-image { margin: 0; height: 100%; }
 .yj-band img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.yj-cap { margin: 24px 24px 80px; text-align: center; font: 600 .75rem/1.6 var(--yj-body); letter-spacing: .18em; text-transform: uppercase; color: var(--yj-grey); }
+.yj-cap { margin: 24px 24px 0; text-align: center; font: 600 .75rem/1.6 var(--yj-body); letter-spacing: .18em; text-transform: uppercase; color: var(--yj-grey); }
 
 /* ---------- one way in (ink sheet) ---------- */
 .yj-sheet--ink { background: var(--yj-ink); color: var(--yj-sheet); }
@@ -240,7 +242,7 @@ html.sp-no-motion .yj-strip__set[aria-hidden="true"] { display: none; }
 .yj-badge { position: fixed; right: 0; bottom: 0; z-index: 50; width: 216px; height: 272px; box-sizing: border-box; display: flex; flex-direction: column; align-items: flex-end; justify-content: flex-end; padding: 0 24px 24px; background: var(--yj-plum); border-top-left-radius: 216px 216px; color: var(--yj-sheet); text-decoration: none; }
 .yj-badge span { display: block; }
 .yj-badge__y { font: 600 .875rem/1.6 var(--yj-body); letter-spacing: .04em; }
-.yj-badge__d { font: 500 2.75rem/1 var(--yj-display); }
+.yj-badge__d { font: 600 2.75rem/1 var(--yj-display); letter-spacing: .02em; }
 .yj-badge__m { font: italic 400 1.5rem/1.2 var(--yj-display); }
 .yj-badge__r { width: 120px; margin: 12px 0; border-top: 1px dotted rgba(250, 249, 251, .5); }
 .yj-badge__v { background: var(--yj-sheet); color: var(--yj-ink); border-radius: 999px; padding: 4px 12px; font: 600 .75rem/1.5 var(--yj-body); letter-spacing: .04em; }
@@ -313,9 +315,12 @@ html.sp-no-motion .yj-strip__set[aria-hidden="true"] { display: none; }
 	.yj-row--lantern { grid-template-columns: minmax(0, 1fr); }
 	.yj-query .yj-query__grid { grid-template-columns: minmax(0, 1fr); }
 	.yj-band { height: 360px; --sp-par: 6%; }
-	.yj-cap { margin-bottom: 40px; }
+	.yj-main, .yj-pin, .yj-band-wrap { padding-bottom: 40px; }
 	.yj-buy__t { font-size: 2.25rem; }
 	.yj-foot { padding: 64px 20px 40px; }
 	.yj-foot__grid { grid-template-columns: minmax(0, 1fr); gap: 36px; }
 	.yj-sheet--post { padding: 40px 20px; }
 }
+
+/* Bodoni Moda hairlines vanish at its large optical sizes (the en dash and the euro sign disappear), so every display text uses the sturdier opsz 14 cut */
+:is(h1, h2, h3, h4, .yj-logo, .yj-foot__logo, .yj-badge__d, .yj-badge__m, .yj-fact__n, .yj-row__time, .yj-row__act, .yj-price, .yj-panel__t, .yj-proc__n, .yj-card__act, .yj-crew__n, .yj-post__title) { font-variation-settings: "opsz" 14; }
