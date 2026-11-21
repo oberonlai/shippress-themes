@@ -47,7 +47,7 @@
 <!-- wp:group {"className":"en-hcol en-hcol--2","layout":{"type":"default"}} -->
 <div class="wp-block-group en-hcol en-hcol--2">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"en-hcol__img"} -->
-<figure class="wp-block-image size-full en-hcol__img"><img src="<?php echo enogu_supply_img( 'hero-pigment-jars.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_h3' ); ?>"/></figure>
+<figure class="wp-block-image size-full en-hcol__img"><img src="<?php echo enogu_supply_img( 'mill-packing.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_b1' ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"en-slide__scrim","layout":{"type":"default"}} -->
@@ -66,7 +66,7 @@
 
 <!-- wp:buttons {"className":"en-cap__tab","layout":{"type":"flex"}} -->
 <div class="wp-block-buttons en-cap__tab"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#letter"><?php echo esc_html( enogu_supply_t( 'tab_more' ) ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#join"><?php echo esc_html( enogu_supply_t( 'tab_join' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 </div>
