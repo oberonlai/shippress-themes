@@ -32,6 +32,9 @@ Fonts: Red Hat Display (OFL-1.1), Latin variable; Nunito Sans (OFL-1.1), Latin v
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as documentary photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the hotel is fictional). No transparent cut-outs are used.
+- assets/images/demo/p07-call-booth.webp (demo/ copy imported into the Media Library as a post featured image; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/demo/p12-supplies-shelf.webp (demo/ copy imported into the Media Library as a post featured image; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/demo/p17-coffee-pour.webp (demo/ copy imported into the Media Library as a post featured image; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/p01-desk-call.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/p02-breakfast-table.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/p03-cowork-floor.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
@@ -46,3 +49,5 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/p12-supplies-shelf.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/p13-meeting-room.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/p14-host-lamps.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p15-front-desk.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p17-coffee-pour.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)

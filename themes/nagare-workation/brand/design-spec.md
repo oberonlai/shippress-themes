@@ -140,7 +140,7 @@ T1 ≥4 pages ✓ (Rooms, Coworking, A week, Lakeside, Book); T2 ≥4 ✓ (Rates
 
 ## 5. Colour and type
 
-### Colour (RT (a) relationships kept; beige recoloured to lake mist because the row palette is 花浅葱 blue and beige is banned as a default — each role keeps its RT share and lightness within ±5 %)
+### Colour (RT (a) relationships kept; beige recoloured to lake mist because the row palette is  blue and beige is banned as a default — each role keeps its RT share and lightness within ±5 %)
 | Role | RT value | Ours | Share | Notes |
 |---|---|---|---|---|
 | Ink / text / icon tiles | #322E21 | **#1E2B31** | ~10 % | contrast on ground 13:1 |
@@ -149,7 +149,7 @@ T1 ≥4 pages ✓ (Rooms, Coworking, A week, Lakeside, Book); T2 ≥4 ✓ (Rates
 | Label cell | #D1C8A6 | **#C9DAE0** | ~5 % | price label cells |
 | Sub-label cell | #E8E3D1 | **#DCE7EB** | ~2 % | |
 | White | #FFFFFF | **#FFFFFF** | ~12 % | value cells, cards |
-| Accent (one only) | #EC572E | **#2A83A2** 花浅葱 | ~4 % | the two price numerals, Book pill, links underline; small accent text uses **#1F6783** (5.6:1 on ground) |
+| Accent (one only) | #EC572E | **#2A83A2**  | ~4 % | the two price numerals, Book pill, links underline; small accent text uses **#1F6783** (5.6:1 on ground) |
 | Line | — | **#BFD0D6** | hairlines | stats row, tables |
 | Muted text | — | **#4A5A61** | captions | 6.4:1 on ground |
 | Footer | (#322E21) | **#1E2B31** | footer | text #EEF3F4 |
@@ -158,7 +158,7 @@ First-screen saturated share: target ≤ 12 %, hard max 15 % (`scripts/check-fir
 ### Type (font_direction sans)
 - Latin display: **Red Hat Display** (300, 400, 500, 700) — maps RT's Stahl-style display and numerals.
 - Latin body: **Nunito Sans** (400, 600, 700).
-- CJK: zh-TW **Noto Sans TC**, ja **Noto Sans JP** (黑體/ゴシック, no Mincho anywhere).
+- CJK: zh-TW **Noto Sans TC**, ja **Noto Sans JP** (/, no Mincho anywhere).
 - Stacks (theme.json fontFamilies + fontFace, woff2 in assets/fonts, zh-TW/ja subsets; editor and front identical; copy shared/inc/editor-lang.php to inc/ and require it because style.css uses `:lang()`):
   - display: `"Red Hat Display", "Noto Sans TC", "Noto Sans JP", system-ui, sans-serif` — `:root:lang(zh*)` display stack `"Red Hat Display", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif`; `:lang(ja)` `"Red Hat Display", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif`.
   - body: `"Nunito Sans", system-ui, -apple-system, "Segoe UI", sans-serif`; zh-TW body `"Nunito Sans", "PingFang TC", "Microsoft JhengHei", sans-serif` (no Noto TC, no JP font, per repo gate); ja body `"Nunito Sans", "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif`.
