@@ -58,7 +58,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nw-card__more"} -->
-<p class="nw-card__more"><a href="<?php echo esc_url( home_url( '/two-translators-one-month/' ) ); ?>"><?php echo esc_html( nagare_workation_t( 'st_more' ) ); ?></a></p>
+<p class="nw-card__more"><a href="<?php echo esc_url( home_url( '/stories/#two-translators' ) ); ?>"><?php echo esc_html( nagare_workation_t( 'st_more' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -76,7 +76,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"nw-card__more"} -->
-<p class="nw-card__more"><a href="<?php echo esc_url( home_url( '/a-week-to-write-the-first-chapter/' ) ); ?>"><?php echo esc_html( nagare_workation_t( 'st_more' ) ); ?></a></p>
+<p class="nw-card__more"><a href="<?php echo esc_url( home_url( '/stories/#first-chapter' ) ); ?>"><?php echo esc_html( nagare_workation_t( 'st_more' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -51,3 +51,5 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/p14-host-lamps.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/p15-front-desk.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/p17-coffee-pour.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p16-window-studio.webp (Rooms and Journal photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p18-back-door.webp (About photograph; AI-generated, GPL-2.0-or-later / CC0)

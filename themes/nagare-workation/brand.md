@@ -26,13 +26,13 @@ Life at Nagare balances sustained professional focus with the calm presence of n
 - **Ilse Varga**, Founder and General Manager. Ilse founded Nagare in 2018 by restoring the former 1960s boat-builders' lodge on Lake Ostra. She oversees hotel operations, guest stays, and the overall vision of the retreat.
 - **Daniel Osei**, Front Desk and Stays. Daniel welcomes arriving guests at the front desk and coordinates check-ins on Sundays and Mondays. He looks after daily hospitality needs and keeps the lodge running calmly.
 - **Mei-Lin Hoang**, Coworking Floor Host. Mei-Lin hosts the coworking floor Monday through Friday from 08:30 to 18:00. She manages desk setups, maintains office supplies, and assists guests with their work routines.
-- **Tomás Ferreira**, Kitchen Lead. Tomás prepares daily morning breakfasts and the communal weekday dinners at the long table from Monday to Thursday. His cooking brings guests together after long days of focused work.
+- **Tomás Ferreira**, Kitchen Lead. Tomás prepares daily morning breakfasts and the communal weekday dinners at the long table from Monday to Friday. His cooking brings guests together after long days of focused work.
 - **Ana Petrova**, Connectivity and IT. Ana maintains the 1 Gbps wired fibre network, private acoustic booths, and external displays. She ensures reliable, high-speed connectivity across all thirty-eight desks.
 - **Jonas Lindqvist**, Lake and Grounds. Jonas manages the lakefront property, wooden boats, and shoreline sauna. He prepares the dock each morning for early swims and maintains the lakeside walking paths.
 - **Priya Nair**, Bookings. Priya manages all reservation inquiries submitted through the website or by email. She coordinates schedules and confirms every booking within one working day.
 
 ## A day at Nagare (the daily routine)
-The daily routine: an early swim off the dock or a shower, breakfast in the kitchen lodge prepared by Tomás, Mei-Lin opening the coworking floor at 08:30, deep work and video calls through the middle of the day with wired gigabit fibre at every desk and sound-insulated booths down the hall, then a pause: the sauna, a walk on the shoreline loop, or a weekday dinner at the long table Monday to Thursday.
+The daily routine: an early swim off the dock or a shower, breakfast in the kitchen lodge prepared by Tomás, Mei-Lin opening the coworking floor at 08:30, deep work and video calls through the middle of the day with wired gigabit fibre at every desk and sound-insulated booths down the hall, then a pause: the sauna, a walk on the shoreline loop, or a weekday dinner at the long table Monday to Friday.
 
 ## Rates (EUR, per room incl. VAT, weekly cleaning and breakfast included; identical on every page)
 | Item | Stay | Price |
