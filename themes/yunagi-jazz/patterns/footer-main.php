@@ -76,6 +76,10 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"yj-foot__l"} -->
+<p class="yj-foot__l"><a href="/food/"><?php echo esc_html( yunagi_jazz_t( 'ft_food' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"yj-foot__l"} -->
 <p class="yj-foot__l"><a href="/about/"><?php echo esc_html( yunagi_jazz_t( 'ft_about' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
@@ -85,6 +89,10 @@
 
 <!-- wp:paragraph {"className":"yj-foot__l"} -->
 <p class="yj-foot__l"><a href="/contact/"><?php echo esc_html( yunagi_jazz_t( 'ft_contact' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"yj-foot__l"} -->
+<p class="yj-foot__l"><a href="/newsletter/"><?php echo esc_html( yunagi_jazz_t( 'ft_newsletter' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
