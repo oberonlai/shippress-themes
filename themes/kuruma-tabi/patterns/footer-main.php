@@ -54,7 +54,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kt-foot__links"} -->
-<p class="kt-foot__links"><a href="<?php echo esc_url( home_url( '/privacy/' ) ); ?>"><?php echo esc_html( kuruma_tabi_t( 'f_priv' ) ); ?></a> <a href="<?php echo esc_url( home_url( '/terms/' ) ); ?>"><?php echo esc_html( kuruma_tabi_t( 'f_terms' ) ); ?></a></p>
+<p class="kt-foot__links"><a href="<?php echo esc_url( home_url( '/how-it-works/' ) ); ?>"><?php echo esc_html( kuruma_tabi_t( 'f_how' ) ); ?></a> <a href="<?php echo esc_url( home_url( '/questions/' ) ); ?>"><?php echo esc_html( kuruma_tabi_t( 'f_qa' ) ); ?></a> <a href="<?php echo esc_url( home_url( '/journal/' ) ); ?>"><?php echo esc_html( kuruma_tabi_t( 'f_journal' ) ); ?></a> <a href="<?php echo esc_url( home_url( '/privacy/' ) ); ?>"><?php echo esc_html( kuruma_tabi_t( 'f_priv' ) ); ?></a> <a href="<?php echo esc_url( home_url( '/terms/' ) ); ?>"><?php echo esc_html( kuruma_tabi_t( 'f_terms' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

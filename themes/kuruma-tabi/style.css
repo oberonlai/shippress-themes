@@ -255,6 +255,37 @@ html.sp-js:not(.sp-no-motion) .kt-stop { animation: kt-fade .6s ease both; anima
 .kt-article__img { margin: 24px 0 32px; }
 .kt-tags a { margin-right: 12px; }
 
+/* ==== Inner page head (split, optional T2 foot), prose widths, wide trio, about band ==== */
+.kt-hero--page { grid-template-rows: auto; grid-template-areas: "text photo"; }
+.kt-hero--page.kt-hero--foot { grid-template-rows: auto 80px; grid-template-areas: "text photo" "tab bar"; }
+.kt-hero--page .kt-hero__text { padding-block: 64px; }
+.kt-hero--page .kt-hero__photo { height: auto; min-height: 360px; }
+.kt-hero--page .kt-h1 { font-size: clamp(2.25rem, 3.6vw, 3.25rem); margin-bottom: 24px; }
+.kt-p--w { max-width: 760px; }
+.kt-p--c.kt-p--w { margin-inline: auto; }
+.kt-btns--c { margin-top: 8px; }
+.kt-btn--line .wp-block-button__link { background: transparent; color: var(--wp--preset--color--primary); border: 1px solid var(--wp--preset--color--primary); }
+.kt-cta { padding-bottom: 0; }
+.kt-cta .kt-wrap { padding-bottom: var(--kt-pt); }
+.kt-cta .kt-head { margin-bottom: 36px; }
+.kt-three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px; }
+.kt-two .kt-h3--s, .kt-three .kt-h3--s { margin-bottom: 14px; }
+.kt-trio--w { align-items: flex-start; gap: 56px; }
+.kt-trio--w .kt-vitem__b { text-align: left; }
+.kt-trio--w .kt-vitem__h { text-align: center; }
+.kt-panel__h { margin: 0 0 12px; font-size: 1.25rem; font-weight: 400; letter-spacing: .03em; line-height: 1.4; }
+.kt-panel__q--s { font-size: .9375rem; line-height: 1.75; margin: 0; }
+.kt-band { padding: 0; }
+.kt-main > .kt-band + .kt-sec { padding-top: var(--kt-pt); }
+@media (max-width: 1099px) { .kt-three { grid-template-columns: 1fr; gap: 32px; } .kt-trio--w { flex-wrap: wrap; } }
+@media (max-width: 781px) {
+	.kt-hero--page, .kt-hero--page.kt-hero--foot { grid-template-rows: auto; grid-template-areas: "photo" "text" "tab" "bar"; }
+	.kt-hero--page .kt-hero__photo { min-height: 0; }
+	.kt-hero--page .kt-hero__text { padding: 32px var(--kt-m) 36px; }
+	.kt-hero--page .kt-h1 { font-size: 2.25rem; }
+	.kt-trio--w { flex-direction: column; align-items: center; }
+}
+
 /* ==== Languages ==== */
 :root:lang(zh) { --wp--preset--font-family--display: "Hanken Grotesk", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; --wp--preset--font-family--body: "Public Sans", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif; }
 :root:lang(ja) { --wp--preset--font-family--display: "Hanken Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif; --wp--preset--font-family--body: "Public Sans", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif; }
