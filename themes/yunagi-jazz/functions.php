@@ -54,3 +54,16 @@ function yunagi_jazz_pattern_categories() {
 	);
 }
 add_action( 'init', 'yunagi_jazz_pattern_categories' );
+
+/** The cloned marquee set is decorative: mark it aria-hidden at render time (a raw aria-hidden in the block markup makes core/group invalid in the editor). */
+function yunagi_jazz_strip_clone_aria( $content, $block ) {
+	if ( 'core/group' !== ( $block['blockName'] ?? '' ) || false === strpos( $content, 'yj-strip__set--clone' ) ) {
+		return $content;
+	}
+	$p = new WP_HTML_Tag_Processor( $content );
+	if ( $p->next_tag( 'div' ) && $p->has_class( 'yj-strip__set--clone' ) ) {
+		$p->set_attribute( 'aria-hidden', 'true' );
+	}
+	return $p->get_updated_html();
+}
+add_filter( 'render_block', 'yunagi_jazz_strip_clone_aria', 10, 2 );

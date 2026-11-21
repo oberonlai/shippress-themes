@@ -99,12 +99,12 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"yj-strip__set","layout":{"type":"default"}} -->
-<div class="wp-block-group yj-strip__set" aria-hidden="true">
+<!-- wp:group {"className":"yj-strip__set yj-strip__set--clone","layout":{"type":"default"}} -->
+<div class="wp-block-group yj-strip__set yj-strip__set--clone">
 <!-- wp:group {"className":"yj-card","layout":{"type":"default"}} -->
 <div class="wp-block-group yj-card">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"yj-card__img"} -->
-<figure class="wp-block-image size-full yj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07-singer-mic.webp' ) ); ?>" alt="" loading="lazy"/></figure>
+<figure class="wp-block-image size-full yj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p07-singer-mic.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -112,7 +112,7 @@
 <!-- wp:group {"className":"yj-card","layout":{"type":"default"}} -->
 <div class="wp-block-group yj-card">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"yj-card__img"} -->
-<figure class="wp-block-image size-full yj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-trumpet.webp' ) ); ?>" alt="" loading="lazy"/></figure>
+<figure class="wp-block-image size-full yj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-trumpet.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -120,7 +120,7 @@
 <!-- wp:group {"className":"yj-card","layout":{"type":"default"}} -->
 <div class="wp-block-group yj-card">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"yj-card__img"} -->
-<figure class="wp-block-image size-full yj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-archtop-guitar.webp' ) ); ?>" alt="" loading="lazy"/></figure>
+<figure class="wp-block-image size-full yj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-archtop-guitar.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -128,7 +128,7 @@
 <!-- wp:group {"className":"yj-card","layout":{"type":"default"}} -->
 <div class="wp-block-group yj-card">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"yj-card__img"} -->
-<figure class="wp-block-image size-full yj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01-bassist-tuning.webp' ) ); ?>" alt="" loading="lazy"/></figure>
+<figure class="wp-block-image size-full yj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01-bassist-tuning.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -136,7 +136,7 @@
 <!-- wp:group {"className":"yj-card","layout":{"type":"default"}} -->
 <div class="wp-block-group yj-card">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"yj-card__img"} -->
-<figure class="wp-block-image size-full yj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p17-sound-check.webp' ) ); ?>" alt="" loading="lazy"/></figure>
+<figure class="wp-block-image size-full yj-card__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p17-sound-check.webp' ) ); ?>" alt=""/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
