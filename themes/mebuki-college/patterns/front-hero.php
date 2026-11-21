@@ -36,7 +36,7 @@
 <figure class="wp-block-image size-full mb-hero__img"><img src="<?php echo mebuki_college_img( 'p01-kv-sand-table.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p01' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:html -->
-<svg class="mb-chalk" viewBox="0 0 800 740" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M470 598C442 540 300 522 216 570C140 614 150 688 250 704C362 720 472 692 484 626C492 572 402 540 318 548"/><path class="mb-chalk__arrow" pathLength="1" d="M478 546C524 470 506 362 548 238M548 238L522 264M548 238L570 270"/><path class="mb-chalk__tick" pathLength="1" d="M452 162L478 198L526 140"/></svg>
+<svg class="mb-chalk" viewBox="0 0 800 740" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M470 598C442 540 300 522 216 570C140 614 150 688 250 704C362 720 472 692 484 626C492 572 402 540 318 548"/><path class="mb-chalk__arrow" pathLength="1" d="M478 546C522 472 512 384 542 306C556 264 580 232 614 206M614 206L601 236M614 206L582 212"/><path class="mb-chalk__tick" pathLength="1" d="M508 150L532 186L580 128"/></svg>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

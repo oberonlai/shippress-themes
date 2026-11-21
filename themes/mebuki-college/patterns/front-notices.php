@@ -18,10 +18,10 @@
 <!-- /wp:heading -->
 <!-- wp:query {"queryId":7,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"className":"mb-notes__q"} -->
 <div class="wp-block-query mb-notes__q"><!-- wp:post-template {"layout":{"type":"default"}} -->
-<!-- wp:group {"className":"mb-note","layout":{"type":"default"}} -->
-<div class="wp-block-group mb-note"><!-- wp:post-date {"format":"d.m.Y","className":"mb-note__d"} /-->
+<!-- wp:group {"className":"mb-notice","layout":{"type":"default"}} -->
+<div class="wp-block-group mb-notice"><!-- wp:post-date {"format":"d.m.Y","className":"mb-notice__d"} /-->
 
-<!-- wp:post-title {"level":3,"isLink":true,"className":"mb-note__t"} /--></div>
+<!-- wp:post-title {"level":3,"isLink":true,"className":"mb-notice__t"} /--></div>
 <!-- /wp:group -->
 <!-- /wp:post-template --></div>
 <!-- /wp:query -->

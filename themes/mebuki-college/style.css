@@ -153,9 +153,9 @@ section[id] { scroll-margin-top: 96px; }
 	@keyframes mb-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
 }
 .mb-hero__cards { position: relative; z-index: 2; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; width: min(1240px, calc(100% - 40px)); margin: -60px auto 0; padding-bottom: 28px; }
-.mb-hcard { display: grid; grid-template-columns: 104px 1fr; align-items: center; min-height: 120px; padding: 22px 24px 22px 28px; background: #fff; border: 1px solid var(--wp--preset--color--line); border-radius: 15px; transition: border-color .6s var(--mb-ease); }
+.mb-hcard { display: grid; grid-template-columns: 112px 1fr; align-items: center; min-height: 120px; padding: 22px 24px 22px 28px; background: #fff; border: 1px solid var(--wp--preset--color--line); border-radius: 15px; transition: border-color .6s var(--mb-ease); }
 .mb-hcard:hover { border-color: var(--wp--preset--color--sage); }
-.mb-hcard__label { align-self: stretch; display: flex; align-items: center; padding-right: 16px; margin-right: 16px; border-right: 1px solid var(--wp--preset--color--line); font-size: .8125rem; font-weight: 600; letter-spacing: .08em; color: var(--wp--preset--color--accent); line-height: 1.4; }
+.mb-hcard__label { align-self: stretch; display: flex; align-items: center; padding-right: 14px; margin-right: 14px; border-right: 1px solid var(--wp--preset--color--line); font-size: .8125rem; font-weight: 600; letter-spacing: .04em; color: var(--wp--preset--color--accent); line-height: 1.4; }
 .mb-hcard__rows { display: flex; flex-direction: column; min-width: 0; }
 .mb-hcard__row { font-size: .875rem; line-height: 1.9; color: var(--wp--preset--color--ink); text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; letter-spacing: .01em; }
 .mb-hcard__row:hover { text-decoration: underline; text-underline-offset: 4px; }
@@ -249,7 +249,7 @@ section[id] { scroll-margin-top: 96px; }
 /* ==== H4 garden band (parallax) ==== */
 .mb-garden { position: relative; display: grid; align-items: end; justify-items: start; height: 560px; padding: 0 0 48px var(--mb-x); --sp-par: 8%; }
 .mb-garden .mb-garden__img { position: absolute; inset: 0; margin: 0; }
-.mb-garden .mb-garden__img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.mb-garden .mb-garden__img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
 .mb-garden__card { position: relative; z-index: 2; width: min(520px, calc(100% - 40px)); padding: 24px 32px; background: #fff; border-radius: 15px; }
 .mb-garden__p { font-size: .9375rem; line-height: 1.8; margin-top: 8px; }
 @media (max-width: 781px) { .mb-garden { height: 360px; padding: 0 20px 20px; --sp-par: 5%; } .mb-garden__card { padding: 18px 20px; } .mb-garden__p { font-size: .875rem; } }
@@ -274,6 +274,7 @@ section[id] { scroll-margin-top: 96px; }
 /* ==== H6 fee sheet ==== */
 .mb-fees { margin: 0; width: 100%; }
 .mb-fees table { width: 100%; border-collapse: collapse; table-layout: auto; font-size: 1rem; }
+.mb-fees thead { border-bottom: 0; }
 .mb-fees th { background: var(--wp--preset--color--wash); font-size: .8125rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--wp--preset--color--muted); text-align: left; padding: 16px 24px; border: 0; }
 .mb-fees td { padding: 22px 24px; vertical-align: top; border: 0; border-bottom: 1px solid var(--wp--preset--color--line); line-height: 1.7; }
 .mb-fees th:first-child, .mb-fees td:first-child { width: 30%; }
@@ -298,7 +299,7 @@ section[id] { scroll-margin-top: 96px; }
 
 /* ==== H7 admission ==== */
 .mb-adm { display: grid; grid-template-columns: minmax(0, 840fr) minmax(0, 400fr); align-items: start; width: min(1240px, calc(100% - 40px)); margin-inline: auto; }
-.mb-adm__panel { position: relative; z-index: 1; padding: 80px 100px; background: #fff; border-radius: 20px; }
+.mb-adm__panel { position: relative; z-index: 1; padding: 80px 190px 80px 100px; background: #fff; border-radius: 20px; }
 .mb-adm__panel .mb-pill, .mb-adm__panel .mb-h2, .mb-adm__panel .mb-secline { text-align: left; }
 .mb-steps { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin: 56px 0 56px; }
 .mb-step { position: relative; padding-top: 28px; border-top: 1px solid var(--wp--preset--color--sage); }
@@ -310,11 +311,11 @@ section[id] { scroll-margin-top: 96px; }
 .mb-adm__ph { position: relative; z-index: 2; width: calc(100% + 160px); margin-left: -160px; margin-top: 80px; aspect-ratio: 560 / 640; border-radius: 20px; overflow: clip; --mb-band: var(--wp--preset--color--wash); }
 .mb-adm__ph .mb-adm__img { position: absolute; inset: 0; margin: 0; }
 .mb-adm__ph .mb-adm__img img { display: block; width: 100%; height: 100%; object-fit: cover; }
-@media (max-width: 1280px) { .mb-adm__panel { padding: 64px 56px; } }
+@media (max-width: 1280px) { .mb-adm__panel { padding: 64px 150px 64px 56px; } }
 @media (max-width: 1099px) { .mb-steps { grid-template-columns: 1fr; gap: 36px; } }
 @media (max-width: 781px) {
 	.mb-adm { display: block; }
-	.mb-adm__panel { padding: 40px 24px; }
+	.mb-adm__panel, .mb-adm__panel { padding: 40px 24px; }
 	.mb-adm__ph { width: 100%; margin: 24px 0 0; aspect-ratio: 4 / 5; }
 	.mb-disc--left { width: 70px; height: 70px; border-top-right-radius: 38px; }
 	.mb-disc--left::after { left: 70px; }
@@ -343,17 +344,17 @@ section[id] { scroll-margin-top: 96px; }
 /* ==== H10 notices and letters ==== */
 .mb-notes { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: 96px; align-items: start; }
 .mb-notes__q .wp-block-post-template { list-style: none; margin: 0; padding: 0; }
-.mb-note { display: grid; grid-template-columns: 120px minmax(0, 1fr); align-items: baseline; padding: 20px 0; border-bottom: 1px solid #D6DDCB; }
-.mb-note:first-child { border-top: 1px solid #D6DDCB; }
-.mb-note__d { font-size: .875rem; font-variant-numeric: tabular-nums; color: var(--wp--preset--color--muted); margin: 0; }
-.mb-note__t { font-family: var(--wp--preset--font-family--body); font-size: 1rem; font-weight: 400; line-height: 1.6; letter-spacing: .02em; margin: 0; }
-.mb-note__t a { text-decoration: none; }
-.mb-note__t a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.mb-notice { display: grid; grid-template-columns: 120px minmax(0, 1fr); align-items: baseline; padding: 20px 0; border-bottom: 1px solid #D6DDCB; }
+.mb-notice:first-child { border-top: 1px solid #D6DDCB; }
+.mb-notice__d { font-size: .875rem; font-variant-numeric: tabular-nums; color: var(--wp--preset--color--muted); margin: 0; }
+.mb-notice__t { font-family: var(--wp--preset--font-family--body); font-size: 1rem; font-weight: 400; line-height: 1.6; letter-spacing: .02em; margin: 0; }
+.mb-notice__t a { text-decoration: none; }
+.mb-notice__t a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .mb-letters { padding: 40px; background: #fff; border-radius: 20px; }
 .mb-letters__h { font-size: 1.625rem; margin: 0 0 14px; }
 .mb-letters__p { font-size: .9375rem; line-height: 1.85; margin-bottom: 28px; }
 @media (max-width: 1099px) { .mb-notes { display: block; } .mb-letters { margin-top: 56px; } }
-@media (max-width: 781px) { .mb-letters { padding: 28px 22px; } .mb-note { grid-template-columns: 1fr; row-gap: 2px; } .mb-h2--m { font-size: 2.25rem; } }
+@media (max-width: 781px) { .mb-letters { padding: 28px 22px; } .mb-notice { grid-template-columns: 1fr; row-gap: 2px; } .mb-h2--m { font-size: 2.25rem; } }
 
 /* ==== H11 visit ==== */
 .mb-visit { max-width: 760px; margin-inline: auto; padding-inline: 20px; text-align: center; }
@@ -365,7 +366,7 @@ section[id] { scroll-margin-top: 96px; }
 .mb-foot { background: var(--wp--preset--color--footer); color: var(--wp--preset--color--mist); padding: 96px 0 40px; --sp-form-accent: #C9D3B8; }
 .mb-foot a { color: var(--wp--preset--color--mist); text-decoration: none; }
 .mb-foot a:hover { text-decoration: underline; text-underline-offset: 4px; }
-.mb-foot__grid { display: grid; grid-template-columns: 1.2fr .8fr 1fr 1.2fr; column-gap: 60px; }
+.mb-foot__grid { display: grid; grid-template-columns: 1.1fr 1.1fr .8fr 1.1fr; column-gap: 48px; }
 .mb-foot__mark { font-family: var(--wp--preset--font-family--display); font-size: 1.5rem; margin-bottom: 14px; }
 .mb-foot__label { font-size: .75rem; font-weight: 600; letter-spacing: .2em; text-transform: uppercase; color: #C9D3B8; margin-bottom: 18px; }
 .mb-foot__p { font-size: .9375rem; line-height: 1.85; margin: 0 0 6px; }

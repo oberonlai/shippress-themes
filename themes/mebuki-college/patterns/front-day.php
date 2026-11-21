@@ -92,10 +92,7 @@
 <h3 class="wp-block-heading mb-card__h"><?php echo esc_html( mebuki_college_t( 'cm_h' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"mb-card__p"} -->
-<p class="mb-card__p"><?php echo esc_html( mebuki_college_t( 'cm_p1' ) ); ?></p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph {"className":"mb-card__p"} -->
-<p class="mb-card__p"><?php echo esc_html( mebuki_college_t( 'cm_p2' ) ); ?></p>
+<p class="mb-card__p"><?php echo esc_html( mebuki_college_t( 'cm_p' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:html -->
@@ -119,10 +116,7 @@
 <h3 class="wp-block-heading mb-card__h"><?php echo esc_html( mebuki_college_t( 'ca_h' ) ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"mb-card__p"} -->
-<p class="mb-card__p"><?php echo esc_html( mebuki_college_t( 'ca_p1' ) ); ?></p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph {"className":"mb-card__p"} -->
-<p class="mb-card__p"><?php echo esc_html( mebuki_college_t( 'ca_p2' ) ); ?></p>
+<p class="mb-card__p"><?php echo esc_html( mebuki_college_t( 'ca_p' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:html -->
