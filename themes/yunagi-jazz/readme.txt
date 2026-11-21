@@ -53,4 +53,6 @@ Images: AI-generated for this theme with Grok Build image_gen as low-key documen
 - assets/images/p16-boat-shuttle.webp - GPL-2.0-or-later / CC0
 - assets/images/p17-sound-check.webp - GPL-2.0-or-later / CC0
 - assets/images/p18-kitchen-tent.webp - GPL-2.0-or-later / CC0
-- assets/images/demo/*.webp - copies of the three journal featured photographs for the Media Library - GPL-2.0-or-later / CC0
+- assets/images/demo/p15-lighting-lanterns.webp - GPL-2.0-or-later / CC0
+- assets/images/demo/p16-boat-shuttle.webp - GPL-2.0-or-later / CC0
+- assets/images/demo/p17-sound-check.webp - GPL-2.0-or-later / CC0
