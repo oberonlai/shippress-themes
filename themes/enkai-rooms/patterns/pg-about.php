@@ -15,7 +15,17 @@
 
 <!-- wp:paragraph {"className":"er-titleband__sub"} -->
 <p class="er-titleband__sub">A harbour restaurant since 2011 · Calder</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"er-season","layout":{"type":"default"}} -->
+<div class="wp-block-group er-season"><!-- wp:paragraph {"className":"er-season__a"} -->
+<p class="er-season__a"><?php echo wp_kses_post( enkai_rooms_t( 'season_about_1' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"er-season__b"} -->
+<p class="er-season__b"><?php echo wp_kses_post( enkai_rooms_t( 'season_about_2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"align":"full","sizeSlug":"full","linkDestination":"none","className":"er-wide"} -->

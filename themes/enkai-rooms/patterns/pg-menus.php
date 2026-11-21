@@ -15,7 +15,17 @@
 
 <!-- wp:paragraph {"className":"er-titleband__sub"} -->
 <p class="er-titleband__sub">Fixed banquets · Priced per head</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"er-season","layout":{"type":"default"}} -->
+<div class="wp-block-group er-season"><!-- wp:paragraph {"className":"er-season__a"} -->
+<p class="er-season__a"><?php echo wp_kses_post( enkai_rooms_t( 'season_menus_1' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"er-season__b"} -->
+<p class="er-season__b"><?php echo wp_kses_post( enkai_rooms_t( 'season_menus_2' ) ); ?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"full","className":"er-menus","layout":{"type":"default"}} -->

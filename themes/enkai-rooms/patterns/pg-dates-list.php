@@ -18,8 +18,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"er-narr sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group er-narr sp-reveal sp-reveal--up"><!-- wp:paragraph -->
+<!-- wp:group {"className":"er-narr er-datesform sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group er-narr er-datesform sp-reveal sp-reveal--up"><!-- wp:paragraph -->
 <p>Join our priority dates list to receive early notice when reservation calendars open for forthcoming seasons. Subscribers receive room availability one week before dates are released to the public.</p>
 <!-- /wp:paragraph -->
 
