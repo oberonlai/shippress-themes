@@ -18,6 +18,8 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 2. In WordPress admin, go to Appearance > Themes > Add New Theme > Upload Theme, choose the zip and click Install Now.
 3. Activate Kirinuki Studio.
 
+The inner pages (About, Shoots, Work, Day rates, Book a shoot, FAQ, Open dates list, Contact, Privacy, Terms, Thanks and the Journal with one article) share a mist head with a small chamfered photo triptych.
+
 On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates its pages with all their text and images, a journal entry with a category and tags, the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
 
 The scroll effects (assets/sp-scroll.css and sp-scroll.js) respect prefers-reduced-motion and show the final state without JavaScript. The newsletter and contact slots use Contact Form 7, WPForms, MailPoet or Mailchimp for WP when active; without a plugin they fall back to an email link.
@@ -32,21 +34,21 @@ Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Albert Sans (OFL-1.1), Latin
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as high-key studio photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the studio is fictional). No transparent cut-outs are used.
-- assets/images/b1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/c1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/c2.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/c3.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/d1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/h1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/h2.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/h3.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/p1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/r1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/s1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/w1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/w2.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/w3.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/w4.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/w5.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
-- assets/images/w6.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/b1.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/c1.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/c2.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/c3.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/d1.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/h1.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/h2.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/h3.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p1.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/r1.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/s1.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w1.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w2.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w3.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w4.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w5.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w6.webp (photograph used on the home and inner pages; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/demo/c1.webp (demo/ copy imported into the Media Library as a post featured image; AI-generated, GPL-2.0-or-later / CC0)

@@ -64,3 +64,12 @@ Logo row (invented, typeset text only): ALDER & MOSS, KESTREL CERAMICS, ORIEL KN
 
 ## Pages
 Home (one long conversion page with an anchor menu and one repeated call to action, Book a shoot), About, Shoots, Work, Day rates, Booking, FAQ, Journal (one post: 48 bottles, one sweep), Open dates list (newsletter), Contact, Privacy, Terms, Thanks.
+
+## Inner pages (en)
+- **About:** the 2014 story, Bay A and Bay B, the seven people as rows and role chips, the studio rules, an "Inside the studio" tile band.
+- **Shoots:** chip sheet of the four kinds, a row of detail for each (what to send, what you receive, which day rate), a dark band of four chamfered tiles.
+- **Work:** a nine-tile chamfered wall, then the Alder & Moss, Kestrel Ceramics and Oriel Knit case notes in full.
+- **Day rates:** the seven included lines as chips, the six-row price table (never clipped, stacked on phones), notice, holds and cancellation.
+- **Book a shoot:** four prose rows, what to send us, a contact form slot with the mailto button as fallback, what arrives after the day.
+- **FAQ, Journal, Open dates list, Contact, Privacy, Terms, Thanks:** same mist head and ruled sheets; one journal post, "48 bottles, one sweep", told by Ines Calloway.
+- Every page repeats the same facts: day rates, 3 and 5 working day turnaround, hours, address and the one "Book a shoot" action.
