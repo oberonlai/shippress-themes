@@ -1,0 +1,18 @@
+<?php
+/**
+ * Title: Header: brand, menu and call buttons
+ * Slug: azukari-stays/header-main
+ * Categories: azukari-stays
+ * Inserter: no
+ * Viewport Width: 1440
+ */
+?>
+<!-- wp:group {"align":"full","className":"az-header","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull az-header"><!-- wp:group {"className":"az-header__bar","layout":{"type":"default"}} -->
+<div class="wp-block-group az-header__bar"><!-- wp:site-title {"level":0,"isLink":true,"className":"az-brand"} /-->
+
+<!-- wp:navigation {"overlayMenu":"mobile","className":"az-stepper","layout":{"type":"flex","orientation":"horizontal"}} /-->
+
+<!-- wp:pattern {"slug":"azukari-stays/head-book"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
