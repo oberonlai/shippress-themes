@@ -172,12 +172,12 @@
 <div class="wp-block-group en-picks en-picks--inner sp-stagger">
 <!-- wp:group {"className":"en-tile sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group en-tile sp-reveal sp-reveal--up">
-<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/product/palette-knife-and-brass-sharpener-set/"} -->
-<figure class="wp-block-image size-full en-tile__img"><a href="/product/palette-knife-and-brass-sharpener-set/"><img src="<?php echo enogu_supply_img( 'product-tool-set.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_k4' ); ?>"/></a></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/shop/#items"} -->
+<figure class="wp-block-image size-full en-tile__img"><a href="/shop/#items"><img src="<?php echo enogu_supply_img( 'product-tool-set.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_k4' ); ?>"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"en-tile__n"} -->
-<p class="en-tile__n"><a href="/product/palette-knife-and-brass-sharpener-set/"><?php echo esc_html( enogu_supply_t( 'pr8n' ) ); ?></a></p>
+<p class="en-tile__n"><a href="/shop/#items"><?php echo esc_html( enogu_supply_t( 'pr8n' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"en-tile__s"} -->

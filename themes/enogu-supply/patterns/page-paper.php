@@ -192,12 +192,12 @@
 <div class="wp-block-group en-picks en-picks--inner sp-stagger">
 <!-- wp:group {"className":"en-tile sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group en-tile sp-reveal sp-reveal--up">
-<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/product/cotton-watercolour-sheet/"} -->
-<figure class="wp-block-image size-full en-tile__img"><a href="/product/cotton-watercolour-sheet/"><img src="<?php echo enogu_supply_img( 'product-cotton-sheet.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_k1' ); ?>"/></a></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/shop/#items"} -->
+<figure class="wp-block-image size-full en-tile__img"><a href="/shop/#items"><img src="<?php echo enogu_supply_img( 'product-cotton-sheet.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_k1' ); ?>"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"en-tile__n"} -->
-<p class="en-tile__n"><a href="/product/cotton-watercolour-sheet/"><?php echo esc_html( enogu_supply_t( 'pr1n' ) ); ?></a></p>
+<p class="en-tile__n"><a href="/shop/#items"><?php echo esc_html( enogu_supply_t( 'pr1n' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"en-tile__s"} -->
@@ -212,12 +212,12 @@
 
 <!-- wp:group {"className":"en-tile sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group en-tile sp-reveal sp-reveal--up">
-<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/product/cotton-paper-block/"} -->
-<figure class="wp-block-image size-full en-tile__img"><a href="/product/cotton-paper-block/"><img src="<?php echo enogu_supply_img( 'hero-paper-deckle.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_h1b' ); ?>"/></a></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/shop/#items"} -->
+<figure class="wp-block-image size-full en-tile__img"><a href="/shop/#items"><img src="<?php echo enogu_supply_img( 'hero-paper-deckle.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_h1b' ); ?>"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"en-tile__n"} -->
-<p class="en-tile__n"><a href="/product/cotton-paper-block/"><?php echo esc_html( enogu_supply_t( 'pr2n' ) ); ?></a></p>
+<p class="en-tile__n"><a href="/shop/#items"><?php echo esc_html( enogu_supply_t( 'pr2n' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"en-tile__s"} -->
@@ -232,12 +232,12 @@
 
 <!-- wp:group {"className":"en-tile sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group en-tile sp-reveal sp-reveal--up">
-<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/product/sketch-paper-roll/"} -->
-<figure class="wp-block-image size-full en-tile__img"><a href="/product/sketch-paper-roll/"><img src="<?php echo enogu_supply_img( 'product-sketch-roll.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_k5' ); ?>"/></a></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/shop/#items"} -->
+<figure class="wp-block-image size-full en-tile__img"><a href="/shop/#items"><img src="<?php echo enogu_supply_img( 'product-sketch-roll.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_k5' ); ?>"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"en-tile__n"} -->
-<p class="en-tile__n"><a href="/product/sketch-paper-roll/"><?php echo esc_html( enogu_supply_t( 'pr3n' ) ); ?></a></p>
+<p class="en-tile__n"><a href="/shop/#items"><?php echo esc_html( enogu_supply_t( 'pr3n' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"en-tile__s"} -->

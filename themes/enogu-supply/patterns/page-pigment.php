@@ -172,12 +172,12 @@
 <div class="wp-block-group en-picks en-picks--inner sp-stagger">
 <!-- wp:group {"className":"en-tile sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group en-tile sp-reveal sp-reveal--up">
-<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/product/artists-watercolour-tube/"} -->
-<figure class="wp-block-image size-full en-tile__img"><a href="/product/artists-watercolour-tube/"><img src="<?php echo enogu_supply_img( 'product-tube.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_k2' ); ?>"/></a></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/shop/#items"} -->
+<figure class="wp-block-image size-full en-tile__img"><a href="/shop/#items"><img src="<?php echo enogu_supply_img( 'product-tube.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_k2' ); ?>"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"en-tile__n"} -->
-<p class="en-tile__n"><a href="/product/artists-watercolour-tube/"><?php echo esc_html( enogu_supply_t( 'pr4n' ) ); ?></a></p>
+<p class="en-tile__n"><a href="/shop/#items"><?php echo esc_html( enogu_supply_t( 'pr4n' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"en-tile__s"} -->
@@ -192,12 +192,12 @@
 
 <!-- wp:group {"className":"en-tile sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group en-tile sp-reveal sp-reveal--up">
-<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/product/pure-pigment-jar/"} -->
-<figure class="wp-block-image size-full en-tile__img"><a href="/product/pure-pigment-jar/"><img src="<?php echo enogu_supply_img( 'hero-pigment-jars.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_h3' ); ?>"/></a></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"custom","className":"en-tile__img","href":"/shop/#items"} -->
+<figure class="wp-block-image size-full en-tile__img"><a href="/shop/#items"><img src="<?php echo enogu_supply_img( 'hero-pigment-jars.webp' ); ?>" alt="<?php echo enogu_supply_a( 'alt_h3' ); ?>"/></a></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"en-tile__n"} -->
-<p class="en-tile__n"><a href="/product/pure-pigment-jar/"><?php echo esc_html( enogu_supply_t( 'pr5n' ) ); ?></a></p>
+<p class="en-tile__n"><a href="/shop/#items"><?php echo esc_html( enogu_supply_t( 'pr5n' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"en-tile__s"} -->
