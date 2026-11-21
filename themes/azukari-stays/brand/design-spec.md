@@ -183,11 +183,11 @@ Signature continuation summary: **T1** on every page; **T2** on What we handle, 
 | `muted` | #5A6166 | captions, labels, facts lines | text | ours (6.1:1 on base) |
 | `hairline` | #CCCCCC | inactive stepper dots and track | <1% | RT(d)(f) #CCCCCC (identical) |
 | `rule` | #D5DAD9 | section rules, left rail, table rules (#C5CBCA inside the bar/sheet) | <1% | RT hairline tone on our ground |
-| `accent` | #9F563A | active stepper dot/track/label, the filled CTA, text links, T2 dot, chapter stage word | ≤2% | row hex 柿渋 replaces RT #EB5A3E (same roles) |
+| `accent` | #9F563A | active stepper dot/track/label, the filled CTA, text links, T2 dot, chapter stage word | ≤2% | row hex kakishibu (persimmon-tannin) replaces RT #EB5A3E (same roles) |
 | `accent-dark` | #874630 | CTA hover | – | accent −10% L |
 | `accent-on-dark` | #C98C72 | stepper over hero, labels and numbers on `dark`, focus on dark | <1% | accent tint for 5.2:1 on #1C262E |
 | `white` | #FFFFFF | T3 label tab, text on dark, outline button on hero | ~3% | RT white tab (identical) |
-**Why the ground and accent change:** dark block, hairline, white tab and all roles are kept exact. The ground #F4F1E8 is a cream; common.md forbids defaulting to cream/beige, and a cream ground with a clay accent would read as a generic beige-terracotta theme, so the ground keeps its lightness and goes cool (#F1F3F2). The vermilion #EB5A3E is replaced by the row's palette 柿渋 #9F563A (row requirement) with the same roles; it is never a section ground. Avoids recent mains: sage (Kirinuki), russet #6C3524 (Enkai: ours is lighter, browner, and only ≤2%), olive (Hozue), sea-green (Shimaya).
+**Why the ground and accent change:** dark block, hairline, white tab and all roles are kept exact. The ground #F4F1E8 is a cream; common.md forbids defaulting to cream/beige, and a cream ground with a clay accent would read as a generic beige-terracotta theme, so the ground keeps its lightness and goes cool (#F1F3F2). The vermilion #EB5A3E is replaced by the row's palette kakishibu (persimmon-tannin) #9F563A (row requirement) with the same roles; it is never a section ground. Avoids recent mains: sage (Kirinuki), russet #6C3524 (Enkai: ours is lighter, browner, and only ≤2%), olive (Hozue), sea-green (Shimaya).
 **First-screen saturation:** button 280 × 56 ≈ 1.2% + lit dot/label ≈ 0.1% + P01 (graded; target ≤6%) → **target ≤8.7%**, cap 15%.
 
 ### Type (font_direction **sans**: Latin sans display + Latin sans body + CJK Noto Sans TC / JP Gothic (hei-ti) for display; no Mincho/serif anywhere)
