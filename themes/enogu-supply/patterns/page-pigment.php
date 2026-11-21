@@ -117,7 +117,7 @@
 <!-- wp:group {"className":"en-wide en-block","anchor":"specs","layout":{"type":"default"}} -->
 <div id="specs" class="wp-block-group en-wide en-block">
 <!-- wp:table {"className":"en-spec"} -->
-<figure class="wp-block-table en-spec"><table><thead><tr><th><?php echo esc_html( enogu_supply_t( 'th_item' ) ); ?></th><th><?php echo esc_html( enogu_supply_t( 'th_spec' ) ); ?></th><th><?php echo esc_html( enogu_supply_t( 'th_price' ) ); ?></th></tr></thead><tbody><tr><td class="en-spec__n"><?php echo esc_html( enogu_supply_t( 'pr4n' ) ); ?></td><td class="en-spec__s"><?php echo esc_html( enogu_supply_t( 'pr4s' ) ); ?></td><td class="en-spec__p"><?php echo esc_html( enogu_supply_t( 'pr4p' ) ); ?></td></tr><tr><td class="en-spec__n"><?php echo esc_html( enogu_supply_t( 'pr5n' ) ); ?></td><td class="en-spec__s"><?php echo esc_html( enogu_supply_t( 'pr5s' ) ); ?></td><td class="en-spec__p"><?php echo esc_html( enogu_supply_t( 'pr5p' ) ); ?></td></tr></tbody></table></figure>
+<figure class="wp-block-table en-spec"><table><thead><tr><th><?php echo esc_html( enogu_supply_t( 'th_item' ) ); ?></th><th><?php echo esc_html( enogu_supply_t( 'th_spec' ) ); ?></th><th><?php echo esc_html( enogu_supply_t( 'th_price' ) ); ?></th></tr></thead><tbody><tr><td><?php echo esc_html( enogu_supply_t( 'pr4n' ) ); ?></td><td><?php echo esc_html( enogu_supply_t( 'pr4s' ) ); ?></td><td><?php echo esc_html( enogu_supply_t( 'pr4p' ) ); ?></td></tr><tr><td><?php echo esc_html( enogu_supply_t( 'pr5n' ) ); ?></td><td><?php echo esc_html( enogu_supply_t( 'pr5s' ) ); ?></td><td><?php echo esc_html( enogu_supply_t( 'pr5p' ) ); ?></td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph {"className":"en-note"} -->
