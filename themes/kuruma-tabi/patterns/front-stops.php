@@ -7,8 +7,8 @@
  * Description: Three route rows: a narrow text column and a wide photograph, mirrored from row to row, with a line drawing on the seam.
  */
 ?>
-<!-- wp:group {"tagName":"section","align":"full","className":"kt-sec","layout":{"type":"default"},"anchor":"stops"} -->
-<section id="stops" class="wp-block-group alignfull kt-sec"><!-- wp:group {"className":"kt-wrap","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"kt-sec kt-sec--pb","layout":{"type":"default"},"anchor":"stops"} -->
+<section id="stops" class="wp-block-group alignfull kt-sec kt-sec--pb"><!-- wp:group {"className":"kt-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kt-wrap"><!-- wp:group {"className":"kt-head","layout":{"type":"default"}} -->
 <div class="wp-block-group kt-head"><!-- wp:html -->
 <span class="kt-emblem"><?php echo kuruma_tabi_icon( 'wheel' ); ?></span>
