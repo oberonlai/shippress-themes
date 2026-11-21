@@ -589,8 +589,11 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <td align="center" valign="top" width="33%"><a href="themes/yukishiro-chalet"><img src="https://shots.codotx.com/yukishiro-chalet/home-desktop.webp" width="260" alt="Yukishiro Chalet"></a><br><a href="themes/yukishiro-chalet">Yukishiro Chalet</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yunagi-jazz"><img src="https://shots.codotx.com/yunagi-jazz/home-desktop.webp" width="260" alt="Yunagi Jazz"></a><br><a href="themes/yunagi-jazz">Yunagi Jazz</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuragi-spa"><img src="https://shots.codotx.com/yuragi-spa/home-desktop.webp" width="260" alt="Yuragi Spa"></a><br><a href="themes/yuragi-spa">Yuragi Spa</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="https://shots.codotx.com/yuzu-chaya/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%"><a href="themes/yuzuriha-retreat"><img src="https://shots.codotx.com/yuzuriha-retreat/home-desktop.webp" width="260" alt="Yuzuriha Retreat"></a><br><a href="themes/yuzuriha-retreat">Yuzuriha Retreat</a></td>
 </tr>
 </table>
