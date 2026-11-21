@@ -27,8 +27,8 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","align":"full","className":"kt-sec kt-sec--wash","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull kt-sec kt-sec--wash"><!-- wp:group {"className":"kt-wrap","layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"kt-sec kt-sec--pb","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kt-sec kt-sec--pb"><!-- wp:group {"className":"kt-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kt-wrap"><!-- wp:group {"className":"kt-head","layout":{"type":"default"}} -->
 <div class="wp-block-group kt-head"><!-- wp:html -->
 <span class="kt-emblem"><?php echo kuruma_tabi_icon( 'wheel' ); ?></span>

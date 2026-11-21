@@ -47,6 +47,7 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary pho
 - assets/images/van-interior.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/child-seat-fit.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/luggage-load.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/snow-valley.webp (itineraries, fares and vehicles page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/family-sunset-road.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/guide-waving-van.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/demo/p06-lakeside-walk.webp (demo/ copy imported into the Media Library as a post featured image; AI-generated, GPL-2.0-or-later / CC0)
