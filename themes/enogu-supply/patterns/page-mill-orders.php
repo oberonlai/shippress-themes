@@ -299,7 +299,7 @@
 <?php
 ob_start(); ?>
 <!-- wp:buttons {"className":"en-formfb","layout":{"type":"flex"}} -->
-<div class="wp-block-buttons en-formfb"><!-- wp:button {"className":"en-tab en-tab--lg"} -->
+<div class="wp-block-buttons en-formfb"><!-- wp:button {"className":"en-tab en-tab\u002d\u002dlg"} -->
 <div class="wp-block-button en-tab en-tab--lg"><a class="wp-block-button__link wp-element-button" href="mailto:hello@enogu-supply.example?subject=<?php echo rawurlencode( enogu_supply_t( 'mill_mail_subject' ) ); ?>"><?php echo esc_html( enogu_supply_t( 'mill_email' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
