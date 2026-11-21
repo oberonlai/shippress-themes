@@ -1,0 +1,222 @@
+<?php
+/**
+ * Title: Page: guides
+ * Slug: kuruma-tabi/page-guides
+ * Categories: kuruma-tabi
+ * Inserter: no
+ * Viewport Width: 1440
+ * Description: Guides page: split head, the founders, the lead guide portrait with a docked tab and a thumbnail list of the other guides.
+ */
+?>
+<!-- wp:group {"tagName":"main","className":"kt-main","layout":{"type":"default"}} -->
+<main class="wp-block-group kt-main"><!-- wp:group {"tagName":"section","align":"full","className":"kt-hero kt-hero--page","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kt-hero kt-hero--page"><!-- wp:group {"className":"kt-hero__text","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-hero__text"><!-- wp:heading {"level":1,"className":"kt-h1"} -->
+<h1 class="wp-block-heading kt-h1"><span class="kt-w" style="--i:0"><?php echo esc_html( kuruma_tabi_t( 'gd_h1' ) ); ?></span></h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kt-lede"} -->
+<p class="kt-lede"><?php echo esc_html( kuruma_tabi_t( 'gd_lede' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-hero__photo","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-hero__photo"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-ph"} -->
+<figure class="wp-block-image size-full kt-ph"><img src="<?php echo kuruma_tabi_img( 'luggage-load.webp' ); ?>" alt="<?php echo kuruma_tabi_a( 'alt_p12' ); ?>"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"kt-sec","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kt-sec"><!-- wp:group {"className":"kt-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-wrap"><!-- wp:group {"className":"kt-head","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-head"><!-- wp:html -->
+<span class="kt-emblem"><?php echo kuruma_tabi_icon( 'wheel' ); ?></span>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2,"className":"kt-h2"} -->
+<h2 class="wp-block-heading kt-h2"><?php echo esc_html( kuruma_tabi_t( 'gd_1_h' ) ); ?></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"kt-p kt-p--c kt-p--w"} -->
+<p class="kt-p kt-p--c kt-p--w"><?php echo esc_html( kuruma_tabi_t( 'gd_1_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"kt-sec kt-sec--wash","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kt-sec kt-sec--wash"><!-- wp:group {"className":"kt-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-wrap"><!-- wp:group {"className":"kt-head","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-head"><!-- wp:html -->
+<span class="kt-emblem"><?php echo kuruma_tabi_icon( 'wheel' ); ?></span>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2,"className":"kt-h2"} -->
+<h2 class="wp-block-heading kt-h2"><?php echo esc_html( kuruma_tabi_t( 'gd_2_h' ) ); ?></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"kt-p kt-p--c kt-p--w"} -->
+<p class="kt-p kt-p--c kt-p--w"><?php echo esc_html( kuruma_tabi_t( 'gd_2_b' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"kt-guides","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guides"><!-- wp:group {"className":"kt-lead","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-lead"><!-- wp:group {"className":"kt-lead__ph","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-lead__ph"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-ph"} -->
+<figure class="wp-block-image size-full kt-ph"><img src="<?php echo kuruma_tabi_img( 'guide-portrait-amara.webp' ); ?>" alt="<?php echo kuruma_tabi_a( 'alt_p07' ); ?>"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"className":"kt-tab2","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-tab2"><!-- wp:heading {"level":3,"className":"kt-tab2__n"} -->
+<h3 class="wp-block-heading kt-tab2__n"><?php echo esc_html( kuruma_tabi_t( 'amara_n' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kt-tab2__l"} -->
+<p class="kt-tab2__l"><?php echo esc_html( kuruma_tabi_t( 'amara_l' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"kt-p kt-lead__b"} -->
+<p class="kt-p kt-lead__b"><?php echo esc_html( kuruma_tabi_t( 'amara_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-glist sp-stagger","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-glist sp-stagger"><!-- wp:group {"className":"kt-guide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide sp-reveal sp-reveal--up"><!-- wp:group {"className":"kt-guide__th","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide__th"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-ph"} -->
+<figure class="wp-block-image size-full kt-ph"><img src="<?php echo kuruma_tabi_img( 'guide-daniel.webp' ); ?>" alt="<?php echo kuruma_tabi_a( 'alt_g_daniel' ); ?>"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-guide__tx","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide__tx"><!-- wp:heading {"level":3,"className":"kt-guide__n"} -->
+<h3 class="wp-block-heading kt-guide__n"><?php echo esc_html( kuruma_tabi_t( 'daniel_n' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kt-guide__l"} -->
+<p class="kt-guide__l"><?php echo esc_html( kuruma_tabi_t( 'daniel_l' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kt-guide__b"} -->
+<p class="kt-guide__b"><?php echo esc_html( kuruma_tabi_t( 'daniel_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-guide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide sp-reveal sp-reveal--up"><!-- wp:group {"className":"kt-guide__th","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide__th"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-ph"} -->
+<figure class="wp-block-image size-full kt-ph"><img src="<?php echo kuruma_tabi_img( 'guide-mika.webp' ); ?>" alt="<?php echo kuruma_tabi_a( 'alt_g_mika' ); ?>"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-guide__tx","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide__tx"><!-- wp:heading {"level":3,"className":"kt-guide__n"} -->
+<h3 class="wp-block-heading kt-guide__n"><?php echo esc_html( kuruma_tabi_t( 'mika_n' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kt-guide__l"} -->
+<p class="kt-guide__l"><?php echo esc_html( kuruma_tabi_t( 'mika_l' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kt-guide__b"} -->
+<p class="kt-guide__b"><?php echo esc_html( kuruma_tabi_t( 'mika_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-guide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide sp-reveal sp-reveal--up"><!-- wp:group {"className":"kt-guide__th","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide__th"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-ph"} -->
+<figure class="wp-block-image size-full kt-ph"><img src="<?php echo kuruma_tabi_img( 'guide-noor.webp' ); ?>" alt="<?php echo kuruma_tabi_a( 'alt_p08' ); ?>"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-guide__tx","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide__tx"><!-- wp:heading {"level":3,"className":"kt-guide__n"} -->
+<h3 class="wp-block-heading kt-guide__n"><?php echo esc_html( kuruma_tabi_t( 'noor_n' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kt-guide__l"} -->
+<p class="kt-guide__l"><?php echo esc_html( kuruma_tabi_t( 'noor_l' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kt-guide__b"} -->
+<p class="kt-guide__b"><?php echo esc_html( kuruma_tabi_t( 'noor_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-guide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide sp-reveal sp-reveal--up"><!-- wp:group {"className":"kt-guide__th","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide__th"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-ph"} -->
+<figure class="wp-block-image size-full kt-ph"><img src="<?php echo kuruma_tabi_img( 'guide-tomas.webp' ); ?>" alt="<?php echo kuruma_tabi_a( 'alt_p09' ); ?>"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-guide__tx","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide__tx"><!-- wp:heading {"level":3,"className":"kt-guide__n"} -->
+<h3 class="wp-block-heading kt-guide__n"><?php echo esc_html( kuruma_tabi_t( 'tomas_n' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kt-guide__l"} -->
+<p class="kt-guide__l"><?php echo esc_html( kuruma_tabi_t( 'tomas_l' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kt-guide__b"} -->
+<p class="kt-guide__b"><?php echo esc_html( kuruma_tabi_t( 'tomas_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-guide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide sp-reveal sp-reveal--up"><!-- wp:group {"className":"kt-guide__th","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide__th"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-ph"} -->
+<figure class="wp-block-image size-full kt-ph"><img src="<?php echo kuruma_tabi_img( 'guide-lin.webp' ); ?>" alt="<?php echo kuruma_tabi_a( 'alt_g_lin' ); ?>"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-guide__tx","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-guide__tx"><!-- wp:heading {"level":3,"className":"kt-guide__n"} -->
+<h3 class="wp-block-heading kt-guide__n"><?php echo esc_html( kuruma_tabi_t( 'lin_n' ) ); ?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"kt-guide__l"} -->
+<p class="kt-guide__l"><?php echo esc_html( kuruma_tabi_t( 'lin_l' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kt-guide__b"} -->
+<p class="kt-guide__b"><?php echo esc_html( kuruma_tabi_t( 'lin_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"kt-sec kt-sec--pb","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kt-sec kt-sec--pb"><!-- wp:group {"className":"kt-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-wrap"><!-- wp:group {"className":"kt-head","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-head"><!-- wp:html -->
+<span class="kt-emblem"><?php echo kuruma_tabi_icon( 'wheel' ); ?></span>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2,"className":"kt-h2"} -->
+<h2 class="wp-block-heading kt-h2"><?php echo esc_html( kuruma_tabi_t( 'gd_3_h' ) ); ?></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"kt-p kt-p--c kt-p--w"} -->
+<p class="kt-p kt-p--c kt-p--w"><?php echo esc_html( kuruma_tabi_t( 'gd_3_b' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:pattern {"slug":"kuruma-tabi/inner-cta"} /-->
+</main>
+<!-- /wp:group -->
