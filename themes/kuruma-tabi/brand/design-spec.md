@@ -50,7 +50,7 @@ Inner page head (all pages): split, title left x 120–660 (h1 3.25rem), 2:1 pho
 |---|---|---|---|---|---|
 | 1 | Aerial forest + volcano, full-bleed | Documentary photo: guide holding van door, family stepping out at a mountain viewpoint, valley behind | right half x 720–1440, y 90–820 (720x730), radius 0 | `sp-parallax` `--sp-par: 8%` (mobile 5%) | `hero-viewpoint.webp` |
 | 2 | Vertical white headline "welcome to the forest" | H1 "One family, one driver, the whole day." 4.5rem (72 px) Hanken Grotesk 300, lh 1.1, ls -.01em, ink #1B2622, 3 lines max | left column x 120–660, top y≈230 | on-load CSS keyframes: each word span scale 1.08 → 1, opacity 0 → 1, y 10 px → 0, 0.9 s cubic-bezier(.25,.46,.45,.94), 80 ms stagger per word (CSS only, `prefers-reduced-motion` = none) | — |
-| 3 | Two-line sub-line under headline | Lede (≤28 words) 18 px + language line "Guides speak English · 中文 · 日本語 · Français · Deutsch" 13.6 px caps-free #4A5652 with 1 px vertical bars (token b tags) | under H1, 32 px gap | fade in after H1, 0.6 s, delay 0.5 s | — |
+| 3 | Two-line sub-line under headline | Lede (≤28 words) 18 px + language line "Guides speak English · Mandarin · Japanese · French · German" 13.6 px caps-free #4A5652 with 1 px vertical bars (token b tags) | under H1, 32 px gap | fade in after H1, 0.6 s, delay 0.5 s | — |
 | 4 | White "PLAY MOVIE" tab bottom-left | White 240x80 tab "Send an itinerary →" (= the single CTA, anchors #request) | x 0–240, y 820–900 | none | — |
 | 5 | Navy "NEWS" bar + one ticker line | Evergreen #006E54 720x80 bar: "A DAY" + 5 timed stops, 10:15 ticked with #C9962B dot | x 720–1440, y 820–900 | stops fade in 60 ms stagger on load (CSS keyframes, not sp-reveal) | — |
 | 6 | Header: logo disc left, nav centre, utility right | Wordmark "Kuruma Tabi" + 30 px wheel emblem left; anchor menu centred (The day · Fares · Guides · Questions · Request); language switch right; exactly one top menu | y 0–90, white ground | none | — |
@@ -126,7 +126,7 @@ Why not alike: none of the four uses a split hero with a foot bar; the only "one
 |---|---|---|---|
 | Base | #FFFFFF | 55% / 60% | token a Base #FFFFFF |
 | Wash | #E4EEEA | 25–30% / 0% | role of #E6F0F8 (hue moved to evergreen family to match primary; lightness 93% ≈ ref 94%) |
-| Primary | #006E54 | ≤5% / ≤8% | plan hex; plays navy #094A81 role (bars, line art, emblems, buttons). Navy not used: plan palette is 萌葱 and blue clashes with industry green-road theme |
+| Primary | #006E54 | ≤5% / ≤8% | plan hex; plays navy #094A81 role (bars, line art, emblems, buttons). Navy not used: plan palette is moegi evergreen and blue clashes with industry green-road theme |
 | Ink | #1B2622 | text | ref #101010 tinted 3% green |
 | Muted text | #4A5652 | subtitles, tags | — |
 | Accent | #C9962B | <1% ("now" tick, small numerals) | role of logo yellow #FFE300 (lowered saturation, quiet) |
@@ -137,7 +137,7 @@ First-screen saturated share ≤15% (hard cap 30%): photo is high-key with desat
 - Latin headings: **Hanken Grotesk** (300, 400, 600); body/UI: **Public Sans** (400, 600). Both via theme.json `fontFamilies` + `fontFace` (woff2 in assets/fonts, OFL), same in editor and front.
 - zh-TW stack headings: `"Hanken Grotesk", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif`; body: `"Public Sans", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif` (body must NOT include bundled Noto Sans TC or JP).
 - ja headings: `"Hanken Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif`; body `"Public Sans", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif`.
-- Bundled subset Noto Sans TC + Noto Sans JP (400/500) for display, loaded in theme.json fontFace; copy inc/editor-lang.php from shared/ (style.css uses `:lang(`). No serif/明體 anywhere.
+- Bundled subset Noto Sans TC + Noto Sans JP (400/500) for display, loaded in theme.json fontFace; copy inc/editor-lang.php from shared/ (style.css uses `:lang(`). No serif/Mincho serif anywhere.
 - Scale: display H1 4.5rem (72 px, ≥4.25rem) weight 300 lh 1.1; page H1 3.25rem; h2 2rem (32 px) 400 caps ls .05em lh 1.3 (token b); h3 1.6rem (25.6 px) 400 lh 1.7 ls .05em (token b); body 0.9375rem (15 px) lh 1.8 (token b 14.94/1.8) — raise to 1rem on home lede/narrative; nav 1.1rem (17.6 px) ls .05em; tags 0.85rem; button 0.9375rem caps ls .08em. CJK ×0.75 of Latin heading size, body lh 1.85. de/fr `hyphens:auto`.
 
 ## 8. Similarity table (target 80%)

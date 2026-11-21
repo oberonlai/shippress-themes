@@ -6,3 +6,5 @@ A ShipPress block theme for private chauffeured sightseeing tours: a split photo
 - Fonts: Hanken Grotesk (headings), Public Sans (text), Noto Sans TC / JP subsets for the zh-TW and ja sample content.
 - Design notes: brand/design-spec.md, brand/reference.md, brand/reference-tokens.md.
 - Scroll effects: assets/sp-scroll.css and sp-scroll.js (sp-reveal, sp-stagger, sp-count, sp-parallax); forms: inc/shippress-forms.php.
+
+- Inner pages (stage-2 working set): itineraries, fares, guides, vehicles, about, questions, request, season notes, privacy, terms; the main menu links to them. Home carries a season-notes strip above the footer.

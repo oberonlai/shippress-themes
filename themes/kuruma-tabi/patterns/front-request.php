@@ -54,3 +54,21 @@ echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $fallback ) 
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"kt-nlband","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull kt-nlband"><!-- wp:group {"className":"kt-wrap kt-nlband__in","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-wrap kt-nlband__in"><!-- wp:group {"className":"kt-nlband__tx","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-nlband__tx"><!-- wp:paragraph {"className":"kt-nlband__h"} -->
+<p class="kt-nlband__h"><?php echo esc_html( kuruma_tabi_t( 'nl_h' ) ); ?></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"kt-nlband__p"} -->
+<p class="kt-nlband__p"><?php echo esc_html( kuruma_tabi_t( 'nl_sub' ) ); ?></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"kt-nlband__f","layout":{"type":"default"}} -->
+<div class="wp-block-group kt-nlband__f"><?php echo shippress_form_slot( array( 'kind' => 'newsletter', 'email' => 'plan@kurumatabi.example', 'label' => kuruma_tabi_t( 'forms_email' ), 'submit' => kuruma_tabi_t( 'forms_subscribe' ), 'notice' => kuruma_tabi_t( 'forms_mail_notice' ), 'subject' => kuruma_tabi_t( 'forms_mail_subject' ) ) ); ?></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->

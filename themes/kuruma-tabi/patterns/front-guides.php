@@ -53,9 +53,9 @@
 <!-- wp:group {"className":"kt-glist sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kt-glist sp-stagger"><!-- wp:group {"className":"kt-guide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kt-guide sp-reveal sp-reveal--up"><!-- wp:group {"className":"kt-guide__th","layout":{"type":"default"}} -->
-<div class="wp-block-group kt-guide__th"><!-- wp:html -->
-<span class="kt-disc"><?php echo kuruma_tabi_icon( 'wheel' ); ?></span>
-<!-- /wp:html --></div>
+<div class="wp-block-group kt-guide__th"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-ph"} -->
+<figure class="wp-block-image size-full kt-ph"><img src="<?php echo kuruma_tabi_img( 'guide-daniel.webp' ); ?>" alt="<?php echo kuruma_tabi_a( 'alt_g_daniel' ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kt-guide__tx","layout":{"type":"default"}} -->
@@ -75,9 +75,9 @@
 
 <!-- wp:group {"className":"kt-guide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kt-guide sp-reveal sp-reveal--up"><!-- wp:group {"className":"kt-guide__th","layout":{"type":"default"}} -->
-<div class="wp-block-group kt-guide__th"><!-- wp:html -->
-<span class="kt-disc"><?php echo kuruma_tabi_icon( 'wheel' ); ?></span>
-<!-- /wp:html --></div>
+<div class="wp-block-group kt-guide__th"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-ph"} -->
+<figure class="wp-block-image size-full kt-ph"><img src="<?php echo kuruma_tabi_img( 'guide-mika.webp' ); ?>" alt="<?php echo kuruma_tabi_a( 'alt_g_mika' ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kt-guide__tx","layout":{"type":"default"}} -->
@@ -141,9 +141,9 @@
 
 <!-- wp:group {"className":"kt-guide sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kt-guide sp-reveal sp-reveal--up"><!-- wp:group {"className":"kt-guide__th","layout":{"type":"default"}} -->
-<div class="wp-block-group kt-guide__th"><!-- wp:html -->
-<span class="kt-disc"><?php echo kuruma_tabi_icon( 'wheel' ); ?></span>
-<!-- /wp:html --></div>
+<div class="wp-block-group kt-guide__th"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kt-ph"} -->
+<figure class="wp-block-image size-full kt-ph"><img src="<?php echo kuruma_tabi_img( 'guide-lin.webp' ); ?>" alt="<?php echo kuruma_tabi_a( 'alt_g_lin' ); ?>"/></figure>
+<!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kt-guide__tx","layout":{"type":"default"}} -->

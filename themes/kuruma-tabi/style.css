@@ -127,8 +127,8 @@ html.sp-js:not(.sp-no-motion) .kt-stop { animation: kt-fade .6s ease both; anima
 .kt-wide { position: relative; }
 .kt-wide__ph img { aspect-ratio: 2.6 / 1; object-fit: cover; }
 .kt-wide__ph { position: relative; }
-.kt-wide__ph::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(27, 38, 34, 0) 35%, rgba(27, 38, 34, .5) 100%); pointer-events: none; }
-.kt-wide__h { position: absolute; z-index: 2; right: 48px; top: 50%; transform: translateY(-50%); margin: 0; text-align: right; color: var(--wp--preset--color--base); font-family: var(--wp--preset--font-family--display); font-size: 2.5rem; font-weight: 300; line-height: 1.25; letter-spacing: .01em; }
+.kt-wide__ph::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(27, 38, 34, 0) 25%, rgba(27, 38, 34, .62) 100%), linear-gradient(180deg, rgba(27, 38, 34, .28), rgba(27, 38, 34, 0) 60%); pointer-events: none; }
+.kt-wide__h { position: absolute; z-index: 2; right: 48px; top: 50%; transform: translateY(-50%); margin: 0; text-align: right; color: var(--wp--preset--color--base); font-family: var(--wp--preset--font-family--display); font-size: 2.5rem; font-weight: 300; line-height: 1.25; letter-spacing: .01em; text-shadow: 0 1px 14px rgba(27, 38, 34, .45); }
 
 /* ==== T1 route rows: 300 text / 40 gap / 880 photo, mirrored, line drawing on the seam ==== */
 .kt-rows { display: grid; gap: 80px; }
@@ -144,8 +144,9 @@ html.sp-js:not(.sp-no-motion) .kt-stop { animation: kt-fade .6s ease both; anima
 .kt-seam--binoculars .kt-ic { width: 108px; height: 137px; }
 .kt-seam--map .kt-ic { width: 130px; height: 108px; }
 .kt-seam--camera .kt-ic { width: 100px; height: 138px; }
-.kt-seam--map { top: 0; }
+.kt-seam--map { top: -84px; }
 .kt-seam--camera { top: -16px; }
+.kt-seam--camera .kt-ic, .kt-seam--binoculars .kt-ic { filter: drop-shadow(0 0 1.5px #fff) drop-shadow(0 0 1px #fff) drop-shadow(0 0 1px #fff); }
 .kt-tags { display: flex; flex-wrap: wrap; margin: 0 0 14px; padding: 0; list-style: none; font-size: var(--wp--preset--font-size--tag); color: var(--wp--preset--color--muted); }
 .kt-tags li { padding: 0 12px; border-left: 1px solid var(--wp--preset--color--ink); line-height: 1.2; }
 .kt-tags li:first-child { padding-left: 0; border-left: 0; }
@@ -232,6 +233,12 @@ html.sp-js:not(.sp-no-motion) .kt-stop { animation: kt-fade .6s ease both; anima
 .kt-foot__h { margin: 0 0 10px; font-size: .8125rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--wp--preset--color--primary); }
 .kt-foot__p { margin: 0; font-size: .9375rem; line-height: 1.8; }
 .kt-foot__c--n .kt-foot__p { color: var(--wp--preset--color--muted); }
+.kt-nlband { margin-top: 80px; background: var(--wp--preset--color--wash); padding: 56px 0; }
+.kt-nlband__in { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+.kt-nlband__h { margin: 0 0 6px; font-family: var(--wp--preset--font-family--display); font-size: 1.5rem; font-weight: 300; }
+.kt-nlband__p { margin: 0; color: var(--wp--preset--color--muted); }
+.kt-nlband__f .kt-form, .kt-nlband__f { margin-top: 0; }
+@media (max-width: 781px) { .kt-nlband__in { grid-template-columns: 1fr; gap: 20px; } }
 .kt-form--foot { margin-top: 16px; }
 .kt-foot__legal { display: flex; justify-content: space-between; gap: 24px; margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--wp--preset--color--line); font-size: .8125rem; color: var(--wp--preset--color--muted); }
 .kt-foot__legal p { margin: 0; }
@@ -261,10 +268,11 @@ html.sp-js:not(.sp-no-motion) .kt-stop { animation: kt-fade .6s ease both; anima
 	.kt-bar { flex-wrap: wrap; row-gap: 6px; }
 	.kt-stops { flex-basis: 100%; order: 3; }
 	.kt-bar__go { margin-left: auto; }
-	.kt-line { grid-template-columns: 1fr; gap: 0; padding-top: 0; }
+	.kt-line { grid-template-columns: 1fr 1fr; gap: 36px 20px; padding-top: 0; }
 	.kt-line::before { display: none; }
-	.kt-node { padding: 20px 0 20px 32px; border-left: 1px solid var(--wp--preset--color--primary); }
-	.kt-node::before { top: 26px; left: -5px; }
+	.kt-node { padding: 22px 0 0; border-top: 1px solid var(--wp--preset--color--primary); }
+	.kt-node::before { top: -5px; left: 0; }
+	.kt-node__p { font-size: 1.0625rem; }
 	.kt-welcome { grid-template-columns: 1fr 1fr; gap: 40px; }
 	.kt-guides, .kt-request { grid-template-columns: 1fr; gap: 56px; }
 	.kt-lead { max-width: 540px; }
