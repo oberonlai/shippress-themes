@@ -12,28 +12,28 @@
 <div class="wp-block-group alignfull er-menus" id="menus"><!-- wp:group {"className":"er-wrap er-menus__top","layout":{"type":"default"}} -->
 <div class="wp-block-group er-wrap er-menus__top"><!-- wp:group {"className":"er-menus__text sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group er-menus__text sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"er-label er-label--light"} -->
-<p class="er-label er-label--light">Menus and prices</p>
+<p class="er-label er-label--light"><?php echo wp_kses_post( enkai_rooms_t( 'kde497520' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">What a banquet costs per head</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( enkai_rooms_t( 'k6e949eab' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>We cook fixed multi-course banquets designed around shared hospitality. Prices run from €68 per head for the five-course Lamp Room supper to €112 per head for an eight-course wedding feast. All prices include VAT; a 10 % service charge is added.</p>
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k9b44e117' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>A 30 % deposit confirms your date, and final guest numbers are due 10 days before. Minimum numbers: Lamp Room 6, Garden Room 10, Long Room 20.</p>
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k24132b62' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"er-menus__img"} -->
-<figure class="wp-block-image size-large er-menus__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-plating.webp' ) ); ?>" alt="Head chef plating dishes under glowing pass heat lamps."/></figure>
+<figure class="wp-block-image size-large er-menus__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p11-plating.webp' ) ); ?>" alt="<?php echo esc_attr( enkai_rooms_t( 'aab68670a' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:table {"className":"er-prices er-wrap"} -->
-<figure class="wp-block-table er-prices er-wrap"><table><tbody><tr><td>Lamp Room supper — five courses</td><td>€68 per head</td></tr><tr><td>Family table — six courses, shared main carved at the table</td><td>€78 per head</td></tr><tr><td>Company dinner — six courses, printed menus and name cards</td><td>€84 per head</td></tr><tr><td>Wedding party banquet — eight courses, toast glass and cake service</td><td>€112 per head</td></tr><tr><td>Paired drinks — a glass with each course, or an alcohol-free pairing</td><td>€42 per head</td></tr><tr><td>Children's plate (under 12)</td><td>€28 per child</td></tr><tr><td>Late room — each hour after 23:00</td><td>€180 per hour</td></tr></tbody></table></figure>
+<figure class="wp-block-table er-prices er-wrap"><table><tbody><tr><td><?php echo wp_kses_post( enkai_rooms_t( 'k5b8a2f60' ) ); ?></td><td><?php echo wp_kses_post( enkai_rooms_t( 'k7431b3ac' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( enkai_rooms_t( 'k4b03cf37' ) ); ?></td><td><?php echo wp_kses_post( enkai_rooms_t( 'kebeae694' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( enkai_rooms_t( 'k85c6cc4c' ) ); ?></td><td><?php echo wp_kses_post( enkai_rooms_t( 'kaacbdeab' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( enkai_rooms_t( 'k9ac0f35f' ) ); ?></td><td><?php echo wp_kses_post( enkai_rooms_t( 'k39571719' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( enkai_rooms_t( 'k322c2942' ) ); ?></td><td><?php echo wp_kses_post( enkai_rooms_t( 'k72ee8ef3' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( enkai_rooms_t( 'k50984ee8' ) ); ?></td><td><?php echo wp_kses_post( enkai_rooms_t( 'k7b7dc4a0' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( enkai_rooms_t( 'k338e6c4f' ) ); ?></td><td><?php echo wp_kses_post( enkai_rooms_t( 'k71eb9304' ) ); ?></td></tr></tbody></table></figure>
 <!-- /wp:table --></div>
 <!-- /wp:group -->

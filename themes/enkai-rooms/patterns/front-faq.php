@@ -12,47 +12,47 @@
 <div class="wp-block-group alignfull er-faq" id="questions"><!-- wp:group {"className":"er-faq__in","layout":{"type":"default"}} -->
 <div class="wp-block-group er-faq__in"><!-- wp:group {"className":"er-faq__head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group er-faq__head sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"er-label er-label--light"} -->
-<p class="er-label er-label--light">Questions</p>
+<p class="er-label er-label--light"><?php echo wp_kses_post( enkai_rooms_t( 'k6ce3bdc3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Frequently asked questions</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( enkai_rooms_t( 'kaf2a4d28' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:details {"className":"er-faq__i"} -->
-<details class="wp-block-details er-faq__i"><summary>What are the minimum numbers?</summary><!-- wp:paragraph -->
-<p>The Lamp Room needs at least 6 guests, the Garden Room 10 and the Long Room 20. Smaller parties are welcome to ask about a Lamp Room supper.</p>
+<details class="wp-block-details er-faq__i"><summary><?php echo wp_kses_post( enkai_rooms_t( 'kf75972c3' ) ); ?></summary><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k3b322a9a' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"er-faq__i"} -->
-<details class="wp-block-details er-faq__i"><summary>Can you cater for dietary needs?</summary><!-- wp:paragraph -->
-<p>Yes. Tell us about allergies and dietary requirements at least 10 days before and the kitchen will adapt each course, including vegetarian, vegan and gluten-free plates.</p>
+<details class="wp-block-details er-faq__i"><summary><?php echo wp_kses_post( enkai_rooms_t( 'k3adff4e2' ) ); ?></summary><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k20977a68' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"er-faq__i"} -->
-<details class="wp-block-details er-faq__i"><summary>How does the deposit work?</summary><!-- wp:paragraph -->
-<p>A 30 % deposit confirms your date. Cancel 30 days or more ahead for a full refund, 10 to 29 days for 50 %, and under 10 days the deposit is not refunded.</p>
+<details class="wp-block-details er-faq__i"><summary><?php echo wp_kses_post( enkai_rooms_t( 'k35130f10' ) ); ?></summary><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k7bf31021' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"er-faq__i"} -->
-<details class="wp-block-details er-faq__i"><summary>Are children welcome?</summary><!-- wp:paragraph -->
-<p>Children under 12 are welcome and have their own plate at €28 per child. Highchairs are available on request.</p>
+<details class="wp-block-details er-faq__i"><summary><?php echo wp_kses_post( enkai_rooms_t( 'k30462ffe' ) ); ?></summary><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k0bd00fa9' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"er-faq__i"} -->
-<details class="wp-block-details er-faq__i"><summary>Can we have music, speeches or a screen?</summary><!-- wp:paragraph -->
-<p>Yes. Acoustic music, speeches and a screen are welcome in the Long Room. Tell us what you plan so the room is set with the right sightlines and power.</p>
+<details class="wp-block-details er-faq__i"><summary><?php echo wp_kses_post( enkai_rooms_t( 'k48c47ce0' ) ); ?></summary><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k0d2cb33a' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"er-faq__i"} -->
-<details class="wp-block-details er-faq__i"><summary>What about access and parking?</summary><!-- wp:paragraph -->
-<p>The whole ground floor is step-free. Public parking is a short walk down the harbour, about 100 metres from the door.</p>
+<details class="wp-block-details er-faq__i"><summary><?php echo wp_kses_post( enkai_rooms_t( 'kcfacc80e' ) ); ?></summary><!-- wp:paragraph -->
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k5b97a649' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details --></div>
 <!-- /wp:group --></div>

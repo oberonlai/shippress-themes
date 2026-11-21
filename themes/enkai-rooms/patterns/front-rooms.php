@@ -11,32 +11,32 @@
 <!-- wp:group {"align":"full","className":"er-rooms er-dark","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull er-rooms er-dark" id="rooms"><!-- wp:group {"className":"er-wrap er-rooms__head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group er-wrap er-rooms__head sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"er-label"} -->
-<p class="er-label">The rooms</p>
+<p class="er-label"><?php echo wp_kses_post( enkai_rooms_t( 'kde4d6e66' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Three rooms, three sizes</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( enkai_rooms_t( 'k06245f0c' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"er-wrap er-roomgrid sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group er-wrap er-roomgrid sp-stagger"><!-- wp:group {"className":"er-room sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group er-room sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"er-room__img"} -->
-<figure class="wp-block-image size-large er-room__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-long-room-empty.webp' ) ); ?>" alt="Empty Long Room showing the long oak table set for an evening banquet."/></figure>
+<figure class="wp-block-image size-large er-room__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p08-long-room-empty.webp' ) ); ?>" alt="<?php echo esc_attr( enkai_rooms_t( 'af793c3c4' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"er-room__n"} -->
-<h3 class="wp-block-heading er-room__n">The Long Room</h3>
+<h3 class="wp-block-heading er-room__n"><?php echo wp_kses_post( enkai_rooms_t( 'k3bdf09cd' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"er-room__t"} -->
-<p class="er-room__t">One 14 m oak table, or five rounds, under a row of brass lamps; the room for company dinners and wedding parties.</p>
+<p class="er-room__t"><?php echo wp_kses_post( enkai_rooms_t( 'k2975e3a0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"er-ledger","layout":{"type":"default"}} -->
 <div class="wp-block-group er-ledger"><!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Seated</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k5f9d8e43' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
@@ -45,7 +45,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Standing</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'ka66b284e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
@@ -54,29 +54,29 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Table</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k51c45b79' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
-<p class="er-row__v">One 14 m oak table, or 5 rounds</p>
+<p class="er-row__v"><?php echo wp_kses_post( enkai_rooms_t( 'k53c2badb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Best for</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k422390fc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
-<p class="er-row__v">Company dinners, wedding parties</p>
+<p class="er-row__v"><?php echo wp_kses_post( enkai_rooms_t( 'keef80c4e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">From</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k5da618e8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
-<p class="er-row__v">€84 per head</p>
+<p class="er-row__v"><?php echo wp_kses_post( enkai_rooms_t( 'kaacbdeab' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -84,21 +84,21 @@
 
 <!-- wp:group {"className":"er-room sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group er-room sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"er-room__img"} -->
-<figure class="wp-block-image size-large er-room__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-garden-table.webp' ) ); ?>" alt="Set long dining table inside the Garden Room facing courtyard windows at dusk."/></figure>
+<figure class="wp-block-image size-large er-room__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p09-garden-table.webp' ) ); ?>" alt="<?php echo esc_attr( enkai_rooms_t( 'adea88e1b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"er-room__n"} -->
-<h3 class="wp-block-heading er-room__n">The Garden Room</h3>
+<h3 class="wp-block-heading er-room__n"><?php echo wp_kses_post( enkai_rooms_t( 'k5344fc5d' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"er-room__t"} -->
-<p class="er-room__t">One long table beside a tall courtyard window; the room for family celebrations.</p>
+<p class="er-room__t"><?php echo wp_kses_post( enkai_rooms_t( 'k2587b1dd' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"er-ledger","layout":{"type":"default"}} -->
 <div class="wp-block-group er-ledger"><!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Seated</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k5f9d8e43' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
@@ -107,7 +107,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Standing</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'ka66b284e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
@@ -116,29 +116,29 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Table</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k51c45b79' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
-<p class="er-row__v">One long table, courtyard window</p>
+<p class="er-row__v"><?php echo wp_kses_post( enkai_rooms_t( 'k62365dad' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Best for</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k422390fc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
-<p class="er-row__v">Family celebrations</p>
+<p class="er-row__v"><?php echo wp_kses_post( enkai_rooms_t( 'kebc6d6ac' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">From</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k5da618e8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
-<p class="er-row__v">€78 per head</p>
+<p class="er-row__v"><?php echo wp_kses_post( enkai_rooms_t( 'kebeae694' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -146,21 +146,21 @@
 
 <!-- wp:group {"className":"er-room sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group er-room sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"er-room__img"} -->
-<figure class="wp-block-image size-large er-room__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10-lamp-room.webp' ) ); ?>" alt="Round wooden dining table for ten guests beneath a single warm brass pendant."/></figure>
+<figure class="wp-block-image size-large er-room__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p10-lamp-room.webp' ) ); ?>" alt="<?php echo esc_attr( enkai_rooms_t( 'a80441942' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"er-room__n"} -->
-<h3 class="wp-block-heading er-room__n">The Lamp Room</h3>
+<h3 class="wp-block-heading er-room__n"><?php echo wp_kses_post( enkai_rooms_t( 'ke4c57054' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"er-room__t"} -->
-<p class="er-room__t">One round table under a single brass lamp; the room for small anniversaries and board dinners.</p>
+<p class="er-room__t"><?php echo wp_kses_post( enkai_rooms_t( 'kdf6f529f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"er-ledger","layout":{"type":"default"}} -->
 <div class="wp-block-group er-ledger"><!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Seated</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k5f9d8e43' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
@@ -169,7 +169,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Standing</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'ka66b284e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
@@ -178,29 +178,29 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Table</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k51c45b79' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
-<p class="er-row__v">One round table, brass lamp</p>
+<p class="er-row__v"><?php echo wp_kses_post( enkai_rooms_t( 'k3e6858c3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">Best for</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k422390fc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
-<p class="er-row__v">Small anniversaries, board dinners</p>
+<p class="er-row__v"><?php echo wp_kses_post( enkai_rooms_t( 'k466d2d00' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"er-row","layout":{"type":"default"}} -->
 <div class="wp-block-group er-row"><!-- wp:paragraph {"className":"er-row__l"} -->
-<p class="er-row__l">From</p>
+<p class="er-row__l"><?php echo wp_kses_post( enkai_rooms_t( 'k5da618e8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"er-row__v"} -->
-<p class="er-row__v">€68 per head</p>
+<p class="er-row__v"><?php echo wp_kses_post( enkai_rooms_t( 'k7431b3ac' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

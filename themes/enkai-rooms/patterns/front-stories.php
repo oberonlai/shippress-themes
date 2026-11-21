@@ -11,54 +11,54 @@
 <!-- wp:group {"align":"full","className":"er-stories er-dark er-dark--alt","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull er-stories er-dark er-dark--alt" id="stories"><!-- wp:group {"className":"er-wrap er-stories__head sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group er-wrap er-stories__head sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"er-label"} -->
-<p class="er-label">Three evenings</p>
+<p class="er-label"><?php echo wp_kses_post( enkai_rooms_t( 'k7fd87b39' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Stories from the tables</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( enkai_rooms_t( 'k49d745e5' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"er-wrap er-storygrid sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group er-wrap er-storygrid sp-stagger"><!-- wp:group {"className":"er-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group er-story sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"er-label"} -->
-<p class="er-label">Long Room · 38 guests</p>
+<p class="er-label"><?php echo wp_kses_post( enkai_rooms_t( 'k0fc93c60' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Forty at one table</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( enkai_rooms_t( 'k42e56b45' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>A logistics company celebrated its tenth-year dinner in the Long Room, with 38 guests seated along the single oak table. They had our six-course company dinner menu, and toasts, reflections and quiet conversation carried late into the evening.</p>
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k017124b5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"er-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group er-story sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"er-label"} -->
-<p class="er-label">Garden Room · 16 guests</p>
+<p class="er-label"><?php echo wp_kses_post( enkai_rooms_t( 'kd35fd492' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Eighty candles, sixteen chairs</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( enkai_rooms_t( 'k8d685343' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>A family gathered in the Garden Room to celebrate a grandmother's eightieth birthday. Sixteen guests sat around the long table for our family table menu, and the shared main was carved at the table as dusk settled over the courtyard.</p>
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k8defe6b5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"er-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group er-story sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"er-label"} -->
-<p class="er-label">Long Room · 52 guests</p>
+<p class="er-label"><?php echo wp_kses_post( enkai_rooms_t( 'ka7c48e59' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">After the town hall</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( enkai_rooms_t( 'kf0deb518' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Following a ceremony at the town hall, 52 wedding guests gathered in the Long Room for an opening toast, standing. Forty then sat down along the oak table for the eight-course wedding banquet, ending with cake service under the lamps.</p>
+<p><?php echo wp_kses_post( enkai_rooms_t( 'k8ddba970' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
