@@ -334,3 +334,91 @@ img { max-width: 100%; height: auto; }
 .en-nav .wp-block-navigation__responsive-container-open svg { display: none; }
 .en-nav .wp-block-navigation__responsive-container-open::after { content: "Menu"; }
 @media (max-width: 781px) { .en-nav { margin-right: 0; } }
+
+/* ---------- inner pages: T1 slim head (two photo columns + below-photo title), T2 band, spec tables, people rows ---------- */
+.en-page.en-inner { padding: 16px 0 128px; }
+.en-inner--tail { padding-top: 96px; }
+.en-head { padding: 0 var(--en-gut); }
+.en-head__grid { max-width: 1392px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.en-hcol { position: relative; overflow: hidden; margin: 0; aspect-ratio: 692 / 360; background: var(--en-tile); }
+.en-hcol > .wp-block-image { position: absolute; inset: 0; margin: 0; width: 100%; height: 100%; }
+.en-hcol > .wp-block-image img { width: 100%; height: 100%; object-fit: cover; }
+.en-hcol .en-slide__scrim { height: 70%; }
+.en-head__title { max-width: 1392px; margin: 32px auto 0; padding: 0 0 28px; border-bottom: 1px solid #DDDDDD; }
+.en-head__title--solo { margin: 48px auto 56px; max-width: 950px; padding: 0 var(--en-gut) 28px; }
+.en-h1--inner { margin: 0 0 12px; font-family: var(--en-display); font-size: 3.25rem; font-weight: 300; line-height: 1.1; letter-spacing: -.005em; color: var(--en-ink); }
+.en-head__lede { margin: 0; max-width: 720px; font-size: 17px; line-height: 1.7; color: var(--en-ink); }
+.en-block { margin-top: 96px; padding: 0 var(--en-gut); }
+.en-head + .en-tagline, .en-head + .en-block { margin-top: 80px; }
+.en-tagline + .en-block { margin-top: 32px; }
+.en-page.en-inner > .en-tagline { margin: 80px 0 0; }
+.en-col.en-block, .en-wide.en-block { margin-left: auto; margin-right: auto; }
+.en-col.en-block { max-width: calc(670px + 2 * var(--en-gut)); box-sizing: border-box; }
+.en-wide { max-width: calc(950px + 2 * var(--en-gut)); box-sizing: border-box; margin-left: auto; margin-right: auto; }
+.en-form { max-width: calc(670px + 2 * var(--en-gut)); margin-left: auto; margin-right: auto; box-sizing: border-box; }
+.en-body { margin: 0 0 1.2em; font-size: 16px; line-height: 1.85; }
+.en-more-link { margin: 0; font-size: 14px; }
+.en-more-link a { color: var(--en-slate); text-underline-offset: 3px; }
+.en-note { margin: 16px 0 0; font-size: 13px; color: var(--en-muted); line-height: 1.6; }
+.en-tab--lg .wp-block-button__link { display: flex; align-items: center; justify-content: center; width: 180px; height: 44px; padding: 0; border-radius: 2px; font-size: 13px; font-weight: 500; letter-spacing: .04em; box-shadow: none; }
+.en-formfb { margin: 0; }
+
+/* spec / price tables: full wide container at >= 782px, price never clipped */
+.en-spec { margin: 0; width: 100%; }
+.en-spec table { width: 100%; border-collapse: collapse; table-layout: auto; font-size: 15px; line-height: 1.6; border: 0; }
+.en-spec th { padding: 0 16px 12px 0; text-align: left; font-family: var(--en-display); font-size: 12px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--en-slate); border: 0; border-bottom: 1px solid var(--en-ink); }
+.en-spec th:last-child { text-align: right; padding-right: 0; }
+.en-spec td { padding: 16px 16px 16px 0; border: 0; border-bottom: 1px solid #E5E5E5; vertical-align: top; }
+.en-spec .en-spec__n { font-family: var(--en-display); font-weight: 500; font-size: 15px; }
+.en-spec .en-spec__s { color: #555555; }
+.en-spec .en-spec__p, .en-spec td:last-child { white-space: nowrap; text-align: right; padding-right: 0; }
+
+/* people rows, wide shop-week and contact facts */
+.en-people { margin: 32px 0 0; }
+.en-person { margin: 0; padding: 16px 0; border-top: 1px solid #E5E5E5; display: grid; grid-template-columns: 180px 1fr; gap: 24px; }
+.en-person:last-child { border-bottom: 1px solid #E5E5E5; }
+.en-person__n { margin: 0; font-family: var(--en-display); font-size: 18px; font-weight: 500; line-height: 1.4; }
+.en-person__d { margin: 0; font-size: 14px; line-height: 1.7; color: #555555; }
+.en-weektable--wide { width: 100%; }
+.en-facts th { width: 120px; }
+.en-facts td:last-child { white-space: normal; text-align: left; padding-right: 0; }
+.en-stats--page { margin-top: 0; }
+
+/* tiles inside inner pages */
+.en-picks--inner { grid-template-columns: repeat(auto-fit, 188px); max-width: 950px; }
+.en-steps--page { margin: 8px 0 0; }
+
+/* full-width parallax photo band */
+.en-pband { position: relative; height: 420px; margin: 96px 0 0; background: var(--en-tile); }
+.en-pband__bg { position: absolute; inset: 0; margin: 0; }
+.en-pband__bg img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 55%; }
+
+@media (max-width: 1023px) {
+	.en-hcol .en-cap__tab { display: none; }
+	.en-hcol .en-cap { left: 14px; bottom: 14px; }
+	.en-hcol .en-cap__b { font-size: 16px; }
+	.en-picks--inner { grid-template-columns: repeat(2, 1fr); max-width: 480px; }
+}
+@media (max-width: 781px) {
+	.en-hcol { aspect-ratio: 3 / 4; }
+	.en-hcol .en-cap, .en-hcol .en-slide__scrim { display: none; }
+	.en-head__grid { gap: 6px; }
+	.en-head__title { margin-top: 20px; padding: 0 0 20px; }
+	.en-h1--inner { font-size: 2.5rem; }
+	.en-head__lede { font-size: 16px; }
+	.en-page.en-inner { padding-bottom: 88px; }
+	.en-block { margin-top: 72px; }
+	.en-head + .en-tagline, .en-head + .en-block, .en-page.en-inner > .en-tagline { margin-top: 56px; }
+	.en-pband { height: 280px; margin-top: 72px; }
+	.en-person { grid-template-columns: 1fr; gap: 4px; }
+	/* spec / price tables stack */
+	.en-spec thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+	.en-spec table, .en-spec tbody, .en-spec tr, .en-spec td { display: block; width: 100%; box-sizing: border-box; }
+	.en-spec tr { padding: 14px 0; border-bottom: 1px solid #E5E5E5; }
+	.en-spec td { padding: 0; border: 0; }
+	.en-spec .en-spec__s { margin-top: 2px; font-size: 14px; }
+	.en-spec .en-spec__p, .en-spec td:last-child { text-align: right; margin-top: 6px; font-weight: 500; }
+	.en-facts td:last-child { text-align: left; margin-top: 2px; }
+	.en-facts th { width: auto; }
+	.en-picks--inner { max-width: none; }
+}

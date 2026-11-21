@@ -64,4 +64,6 @@ Prices include VAT. Mill-order paper is quoted per sheet; we confirm within two 
 ## Pages
 Home, Shop, Paper, Pigment & Paint, Brushes, Studio Tools, Mill Orders, Price List, Visit, About, Journal, Newsletter, Contact. Stories (invented): Wrenfield College of Art & Design degree show order of 320 sheets; Oona Lind and a rough paper that went out of production; Rafael Duarte building a six-colour earth palette.
 
+Inner pages (all built from patterns/page-*.php and shop-*.php): each has a slim head of two equal photo columns with a caption and flat tab, then the title and a one-line lede under the photos; section titles use the centred hairline-underlined lockup; vertical taglines on Paper, Pigment, Brushes, Studio tools, Mill orders, About and Newsletter; spec tables (Item / Specification / Price) on the four range pages and the full eight-item Price list, stacked on phones; four-panel range bands on Shop, Mill orders and About; a full-width parallax shop-front photograph on Visit; the shop-week table on Visit; seven people as list rows on About. Contact and Mill orders use the form slot with a mailto fallback; Newsletter is a standalone page with the newsletter slot. One journal entry: How We Pack a Mill Order.
+
 No awards, guarantees, real brands, real mills, real media or real people.
