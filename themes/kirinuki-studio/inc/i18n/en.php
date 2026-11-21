@@ -195,10 +195,10 @@ return array(
 	'studio_sub' => 'Since 2014',
 	'work_c1' => 'Alder & Moss',
 	'work_c2' => 'Oriel Knit',
-	'work_c3' => 'Kestrel Ceramics',
+	'work_c3' => 'Holloway Tea',
 	'work_h' => 'Work',
 	'work_l1' => '48 skincare bottles, one sweep',
 	'work_l2' => '40 jumpers on the ghost mannequin',
-	'work_l3' => 'A lifestyle set day in Bay B daylight',
+	'work_l3' => 'A whole range reviewed on the sweep',
 	'work_sub' => 'Recent shoots',
 );
