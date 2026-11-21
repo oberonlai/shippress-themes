@@ -10,8 +10,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 return array(
-	'strip' => 'Mill orders leave every Thursday at 17:00 · Free EU shipping over €80',
-	'strip_m' => 'Mill orders leave Thursdays 17:00',
+	'strip' => 'The next mill order leaves Thursday at 17:00 · Free EU shipping over €80',
+	'strip_m' => 'Next mill order: Thursday 17:00',
 	'f_addr_h' => 'Visit',
 	'f_addr' => 'Calder Row 9, Wrenfield',
 	'f_phone' => '+00 31 555 0148',

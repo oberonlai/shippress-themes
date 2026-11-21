@@ -91,9 +91,9 @@ img { max-width: 100%; height: auto; }
 .en-slide > .wp-block-image img { width: 100%; height: 100%; object-fit: cover; }
 .en-slide--1 img { object-position: 40% 45%; }
 .en-slide--2 img { object-position: 50% 40%; }
-.en-slide--3 img { object-position: 50% 60%; }
+.en-slide--3 img { object-position: 45% 60%; }
 .en-slide__b { opacity: 0; }
-.en-slide__scrim { position: absolute; left: 0; right: 0; bottom: 0; height: 38%; z-index: 1; margin: 0; background: linear-gradient(to top, rgba(255, 255, 255, .72), rgba(255, 255, 255, 0)); pointer-events: none; }
+.en-slide__scrim { position: absolute; left: 0; right: 0; bottom: 0; height: 55%; z-index: 1; margin: 0; background: linear-gradient(to top, rgba(255, 255, 255, .92) 0%, rgba(255, 255, 255, .8) 45%, rgba(255, 255, 255, 0)); pointer-events: none; }
 .en-cap { position: absolute; left: 24px; bottom: 24px; z-index: 2; margin: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 0; }
 .en-cap__a { margin: 0; font-size: 13px; line-height: 1.5; letter-spacing: .06em; color: var(--en-ink); }
 .en-cap__b { margin: 0; font-family: var(--en-display); font-size: 20px; line-height: 1.4; letter-spacing: .05em; color: var(--en-ink); }
@@ -104,7 +104,7 @@ img { max-width: 100%; height: auto; }
 .en-hero-text__l { grid-column: 1 / 9; }
 .en-hero-text__r { grid-column: 9 / 13; padding-bottom: 8px; }
 .en-eyebrow { display: inline-block; margin: 0 0 18px; padding-bottom: 4px; border-bottom: 1px solid var(--en-line); font-size: 13px; line-height: 1.4; letter-spacing: .12em; }
-.en-h1 { margin: 0; font-family: var(--en-display); font-size: clamp(2.75rem, 5vw, 4.5rem); font-weight: 300; line-height: 1.04; letter-spacing: -.01em; color: var(--en-ink); }
+.en-h1 { margin: 0; font-family: var(--en-display); font-size: clamp(2.75rem, 5vw, 4.5rem); font-weight: 300; line-height: 1.04; letter-spacing: -.01em; color: var(--en-ink); text-wrap: balance; }
 .en-hero-text__r .en-lede { margin-bottom: 20px; }
 .en-hero-btns { display: flex; align-items: center; gap: 24px; margin: 0; }
 .en-hero-btns .wp-block-button__link { width: 180px; height: 40px; display: flex; align-items: center; justify-content: center; padding: 0; border-radius: 2px; }
@@ -128,6 +128,7 @@ img { max-width: 100%; height: auto; }
 .en-band__panels { display: grid; grid-template-columns: repeat(4, 1fr); height: 100%; gap: 0; }
 .en-panel { position: relative; overflow: hidden; margin: 0; height: 100%; }
 .en-panel > .wp-block-image { height: 100%; margin: 0; }
+.en-panel > .wp-block-image a { display: block; height: 100%; }
 .en-panel > .wp-block-image img { width: 100%; height: 100%; object-fit: cover; }
 .en-band::after { content: ""; position: absolute; inset: 0; z-index: 1; background: rgba(40, 48, 56, .18); pointer-events: none; }
 .en-band__title { position: absolute; left: 50%; top: 50%; z-index: 3; transform: translate(-50%, -50%); margin: 0; font-family: var(--en-display); font-size: 36px; font-weight: 300; line-height: 1.2; letter-spacing: .08em; color: #fff; white-space: nowrap; text-shadow: 0 1px 12px rgba(0, 0, 0, .25); pointer-events: none; }
@@ -142,8 +143,10 @@ img { max-width: 100%; height: auto; }
 .en-picks { display: grid; grid-template-columns: repeat(4, 188px); gap: 50px; justify-content: center; margin: 0 auto; }
 .en-tile { margin: 0; text-align: center; }
 .en-tile__img { aspect-ratio: 1; background: var(--en-tile); margin: 0 0 12px; overflow: hidden; }
+.en-tile__img a { display: block; height: 100%; }
 .en-tile__img img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s cubic-bezier(.23, 1, .32, 1); }
-.en-tile:hover .en-tile__img img { transform: scale(1.04); }
+.en-tile:hover .en-tile__img a { display: block; height: 100%; }
+.en-tile__img img { transform: scale(1.04); }
 .en-tile__n, .en-tile__s, .en-tile__p { margin: 0; line-height: 1.5; }
 .en-tile__n { font-size: 14px; }
 .en-tile__n a { color: var(--en-ink); text-decoration: none; }
@@ -315,3 +318,10 @@ img { max-width: 100%; height: auto; }
 	.en-letter { padding-top: 72px; padding-bottom: 72px; }
 	.en-footer__cols { grid-template-columns: 1fr; gap: 28px; }
 }
+
+/* ---------- WooCommerce templates (basic) ---------- */
+.en-picks--shop { max-width: 950px; margin: 0 auto; }
+.en-picks--shop .wc-block-product-template { gap: 50px; }
+.en-product { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; max-width: 950px; margin: 0 auto; }
+.en-product__title { font-size: 1.75rem; font-weight: 400; letter-spacing: .05em; margin: 0 0 12px; }
+@media (max-width: 781px) { .en-product { grid-template-columns: 1fr; gap: 24px; } }

@@ -36,4 +36,21 @@ Fonts: Manrope (OFL-1.1), Latin variable; Public Sans (OFL-1.1), Latin variable;
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as documentary high-key photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the shop is fictional). No transparent cut-outs are used. All are in assets/images/ (the ones imported into the Media Library are copied in assets/images/demo/).
-@@IMAGES@@
+- assets/images/hero-plan-chest.webp (home hero column 1: clerk drawing a cotton sheet from a plan chest)
+- assets/images/hero-paper-deckle.webp and assets/images/demo/hero-paper-deckle.webp (home hero column 1 (second still) and product Cotton paper block)
+- assets/images/hero-brush-counter.webp (home hero column 2: student comparing two round brushes at the counter)
+- assets/images/hero-brush-jar.webp and assets/images/demo/hero-brush-jar.webp (home hero column 2 (second still) and product Brush roll)
+- assets/images/hero-pigment-jars.webp and assets/images/demo/hero-pigment-jars.webp (home hero column 3: glass jars of earth pigment, and product Pure pigment jar)
+- assets/images/hero-swatch.webp (home hero column 3 (second still): a hand painting a swatch strip)
+- assets/images/range-paper.webp (home range panel: an open plan-chest drawer)
+- assets/images/range-pigment.webp (home range panel: paint tubes and pans)
+- assets/images/range-brushes.webp (home range panel: brushes on grey linen)
+- assets/images/range-tools.webp (home range panel: knives, sharpener, tape and board)
+- assets/images/product-cotton-sheet.webp and assets/images/demo/product-cotton-sheet.webp (home pick and product: cotton watercolour sheet)
+- assets/images/product-tube.webp and assets/images/demo/product-tube.webp (home pick and product: watercolour tube)
+- assets/images/product-round-brush.webp and assets/images/demo/product-round-brush.webp (home pick and product: round brush)
+- assets/images/product-tool-set.webp and assets/images/demo/product-tool-set.webp (home pick and product: palette knives and brass sharpener)
+- assets/images/product-sketch-roll.webp and assets/images/demo/product-sketch-roll.webp (product: sketch paper roll)
+- assets/images/story-shopfront.webp (home story: the shop front)
+- assets/images/mill-packing.webp and assets/images/demo/mill-packing.webp (home mill-order band (parallax) and journal entry: packing sheets between boards)
+- assets/images/week-demo.webp (home shop week: Thursday demo evening)
