@@ -1,4 +1,4 @@
-# Reference research (draft; "Our implementation" column filled in at the build step)
+# Reference research
 
 Reference: https://www.sa-nu.com/weekday (SANU 2nd Home Weekday, a subscription for weekday stays in nature cabins; the same audience as weekly/monthly workation stays). Category on the gallery: hotels / lodging. Imagery: **photo** (documentary).
 No secondary reference (the one site covers hero, price board, workspace and CTA).
@@ -16,10 +16,10 @@ firstview (two-pane photo, 100vh) / "what is" statement on pale ground / "think"
 ## Our adaptation table
 | Reference element | Our implementation |
 |---|---|
-| Two-pane hero | (build step) |
-| Price board | (build step) |
-| Seam portrait | (build step) |
-| Icon tiles | (build step) |
-| Right-edge photo strip | (build step) |
+| Two-pane hero | Home hero: three panes 60/30/10 (photo P01-P03 with 2.4 s inset wipe / pale text pane with H1 + stats row / P04 lake sliver in parallax 8 %); two-pane page head on Rooms, Coworking, A week, Lakeside, Book |
+| Price board | Home "Weekly and monthly rates": #C9DAE0 label cells + white value cells, 20 px gaps, "+" joiner, 96 px light numerals EUR 690 / 2,150 in #2A83A2, outline pill; full ledger on Rates, boards on Rooms, Coworking, Book |
+| Seam portrait | Home: P09 lake band (parallax 10 %) with P10 0.63:1 portrait crossing into the ground, words "Bring / the work. / The lake / stays." split both sides; also About, Coworking, Lakeside, Journal |
+| Icon tiles | Coworking floor 3x2: 70 px #1E2B31 squares, white line icons (Home and Coworking page) |
+| Right-edge photo strip | Home coworking section: P11-P13 abutting 284x258 flush right; Rooms page (P01, P05, P17) |
 
 Colours, type, spacing, radius, imagery and motion values: `reference-tokens.md`. Screenshots: `ref/sanu-*.png`, `ref/scroll-sanu-*.png`.
