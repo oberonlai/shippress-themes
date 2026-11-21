@@ -27,7 +27,7 @@ The hotel, its people, address, telephone number, email and prices are fictional
 == Copyright ==
 
 Nagare Workation Hotel is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Red Hat Display (OFL-1.1), Latin variable; Nunito Sans (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), zh-TW subset; all WOFF2, see assets/fonts/.
+Fonts: Red Hat Display (OFL-1.1), Latin variable; Nunito Sans (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), zh-TW subset; Noto Sans JP (OFL-1.1), ja subset; all WOFF2, see assets/fonts/.
 
 = Images =
 
