@@ -55,8 +55,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"className":"kr-statement__photo kr-chamfer kr-chamfer--s sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group kr-statement__photo kr-chamfer kr-chamfer--s sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-fill"} -->
+<!-- wp:group {"className":"kr-statement__photo kr-chamfer kr-chamfer--s","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-statement__photo kr-chamfer kr-chamfer--s"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-fill"} -->
 <figure class="wp-block-image size-full kr-fill"><img src="<?php echo kirinuki_studio_img( 's1.webp' ); ?>" alt="<?php echo kirinuki_studio_a( 'alt_s1' ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>

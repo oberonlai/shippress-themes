@@ -22,8 +22,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kr-people","layout":{"type":"default"}} -->
-<div class="wp-block-group kr-people"><!-- wp:group {"className":"kr-people__photo kr-chamfer sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
-<div class="wp-block-group kr-people__photo kr-chamfer sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-fill"} -->
+<div class="wp-block-group kr-people"><!-- wp:group {"className":"kr-people__photo kr-chamfer","layout":{"type":"default"}} -->
+<div class="wp-block-group kr-people__photo kr-chamfer"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kr-fill"} -->
 <figure class="wp-block-image size-full kr-fill"><img src="<?php echo kirinuki_studio_img( 'p1.webp' ); ?>" alt="<?php echo kirinuki_studio_a( 'alt_p1' ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->

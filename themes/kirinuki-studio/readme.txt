@@ -32,3 +32,21 @@ Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Albert Sans (OFL-1.1), Latin
 = Images =
 
 Images: AI-generated for this theme with Grok Build image_gen as high-key studio photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the studio is fictional). No transparent cut-outs are used.
+- assets/images/b1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/c1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/c2.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/c3.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/d1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/h1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/h2.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/h3.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/p1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/r1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/s1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w1.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w2.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w3.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w4.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w5.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/w6.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
+- assets/images/demo/c1.webp (demo/ copy imported into the Media Library as a post featured image; AI-generated, GPL-2.0-or-later / CC0)
