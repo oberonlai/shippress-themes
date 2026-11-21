@@ -18,7 +18,11 @@
 <!-- wp:paragraph {"className":"kr-title__sub"} -->
 <p class="kr-title__sub"><?php echo esc_html( kirinuki_studio_t( 'faq_sub' ) ); ?></p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"className":"kr-faq__note"} -->
+<p class="kr-faq__note"><?php echo esc_html( kirinuki_studio_t( 'faq_note' ) ); ?></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kr-faq__list","layout":{"type":"default"}} -->
