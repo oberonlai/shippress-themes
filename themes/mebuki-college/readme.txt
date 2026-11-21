@@ -30,9 +30,9 @@ All photographs are generated for this theme and are released under the same GPL
 Mebuki College, Copyright 2026 ShipPress. Distributed under the GNU General Public License v2 or later.
 
 Images (generated for this theme, licensed GPL-2.0-or-later like the theme):
-* assets/images/demo/p05-small-group.webp
-* assets/images/demo/p06-morning-door.webp
-* assets/images/demo/p10-garden-mud-kitchen.webp
+* assets/images/demo/post-open-day.webp
+* assets/images/demo/post-only-watching.webp
+* assets/images/demo/post-week-three.webp
 * assets/images/p01-kv-sand-table.webp
 * assets/images/p02-floor-practice.webp
 * assets/images/p03-talk-it-through.webp

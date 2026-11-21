@@ -186,7 +186,7 @@ return array(
 	'adm_h' => 'How you are admitted',
 	'adm_line' => 'Our admissions process ensures mutual alignment between each applicant and our intensive practice method.',
 	'cta_apply2' => 'Apply for September 2027',
-	'alt_p14' => 'An applicant helps a child pour water at a table while a tutor observes.',
+	'alt_p14' => 'A tutor and an applicant talk on a bench in the nursery garden while two children water the grass behind them.',
 	'disc_adm' => 'Admissions: how to apply',
 	'pp0_n' => 'Clara Benedetti',
 	'pp0_r' => 'Principal',
