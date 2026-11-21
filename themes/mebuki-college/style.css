@@ -95,7 +95,7 @@ section[id] { scroll-margin-top: 96px; }
 .mb-eyebrow { position: relative; font-size: .8125rem; font-weight: 600; letter-spacing: .2em; color: var(--wp--preset--color--accent); line-height: 1.5; text-transform: uppercase; }
 
 /* ==== Round arrow disc in a scooped corner (T2 cards, T3 photos) ==== */
-.mb-disc { position: absolute; right: 0; bottom: 0; z-index: 3; width: 90px; height: 90px; margin: 0; display: grid; place-items: center; background: var(--mb-band); border-top-left-radius: 50px; }
+.mb-disc { position: absolute; right: -1px; bottom: -1px; z-index: 3; width: 91px; height: 91px; margin: 0; display: grid; place-items: center; background: var(--mb-band); border-top-left-radius: 50px; }
 .mb-disc::before, .mb-disc::after { content: ""; position: absolute; width: 20px; height: 20px; background: radial-gradient(circle at 0 0, transparent 19.5px, var(--mb-band) 20px); }
 .mb-disc::before { right: 0; top: -20px; }
 .mb-disc::after { right: 90px; bottom: 0; }
@@ -103,7 +103,7 @@ section[id] { scroll-margin-top: 96px; }
 .mb-disc a svg { transition: transform .6s var(--mb-ease); }
 .mb-disc a:hover { background: var(--wp--preset--color--accent-dark); }
 .mb-disc a:hover svg { transform: translateX(4px); }
-.mb-disc--left { right: auto; left: 0; border-top-left-radius: 0; border-top-right-radius: 50px; }
+.mb-disc--left { right: auto; left: -1px; border-top-left-radius: 0; border-top-right-radius: 50px; }
 .mb-disc--left::before { right: auto; left: 0; top: -20px; background: radial-gradient(circle at 100% 0, transparent 19.5px, var(--mb-band) 20px); }
 .mb-disc--left::after { right: auto; left: 90px; bottom: 0; background: radial-gradient(circle at 100% 0, transparent 19.5px, var(--mb-band) 20px); }
 
@@ -237,7 +237,7 @@ section[id] { scroll-margin-top: 96px; }
 .mb-card--flip .mb-card__h { color: var(--wp--preset--color--ink); }
 @media (max-width: 1099px) { .mb-card { grid-template-columns: 400px 1fr; } .mb-card--flip { grid-template-columns: 1fr 400px; } .mb-card__panel { padding: 0 36px; } }
 @media (max-width: 781px) {
-	.mb-day { overflow-x: auto; scroll-snap-type: x proximity; margin-bottom: 56px; padding-bottom: 12px; margin-inline: -20px; padding-inline: 20px; }
+	.mb-day { overflow-x: auto; scroll-snap-type: x proximity; scroll-padding-inline: 20px; margin-bottom: 56px; padding-bottom: 12px; margin-inline: -20px; padding-inline: 20px; }
 	.mb-day__in { grid-template-columns: repeat(7, 160px); width: max-content; column-gap: 0; }
 	.mb-stop { scroll-snap-align: start; padding-right: 16px; }
 	.mb-card, .mb-card--flip { display: flex; flex-direction: column; height: auto; }
@@ -383,7 +383,8 @@ section[id] { scroll-margin-top: 96px; }
 .sp-form-slot .sp-newsletter-fallback input[type="email"]:hover { border-color: var(--wp--preset--color--sage); }
 .sp-form-slot .sp-newsletter-fallback button[type="submit"] { height: 52px; padding: 0 32px; border-radius: 100px; border: 0; font-size: .9375rem; font-weight: 600; justify-self: start; transition: background-color .6s var(--mb-ease); transition-delay: 0s; }
 .sp-form-slot .sp-newsletter-fallback button[type="submit"]:hover { background: var(--wp--preset--color--accent-dark); }
-.sp-form-slot .sp-newsletter-fallback p { font-size: .8125rem; line-height: 1.7; margin: 4px 0 0; opacity: .85; }
+.sp-form-slot .sp-newsletter-fallback p { font-size: .8125rem; line-height: 1.7; margin: 4px 0 0; color: var(--wp--preset--color--muted); }
+.mb-foot .sp-form-slot .sp-newsletter-fallback p { color: #B9C2AA; }
 .sp-form-slot :is(.sp-newsletter-fallback, .wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form) :is(input, textarea, select):focus-visible, .sp-form-slot :is(button, input[type="submit"]):focus-visible { outline: 2px solid var(--sp-form-focus); outline-offset: 2px; }
 .mb-foot .sp-form-slot :is(.sp-newsletter-fallback, .wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form) { --sp-form-accent: #C9D3B8; --sp-form-on-accent: #2E3328; --sp-form-surface: rgba(255, 255, 255, .06); --sp-form-text: #fff; --sp-form-border: rgba(255, 255, 255, .4); --sp-form-focus: #C9D3B8; }
 .mb-foot .sp-form-slot .sp-newsletter-fallback button[type="submit"]:hover { background: #fff; }

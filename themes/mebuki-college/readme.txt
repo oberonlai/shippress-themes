@@ -25,6 +25,32 @@ The home page opens on a pale split hero with one documentary photograph and a t
 
 All photographs are generated for this theme and are released under the same GPL licence as the theme.
 
+== Copyright ==
+
+Mebuki College, Copyright 2026 ShipPress. Distributed under the GNU General Public License v2 or later.
+
+Images (generated for this theme, licensed GPL-2.0-or-later like the theme):
+* assets/images/demo/p05-small-group.webp
+* assets/images/demo/p06-morning-door.webp
+* assets/images/demo/p10-garden-mud-kitchen.webp
+* assets/images/p01-kv-sand-table.webp
+* assets/images/p02-floor-practice.webp
+* assets/images/p03-talk-it-through.webp
+* assets/images/p04-studio-water.webp
+* assets/images/p05-small-group.webp
+* assets/images/p06-morning-door.webp
+* assets/images/p07-coat-pegs.webp
+* assets/images/p08-seminar-notes.webp
+* assets/images/p09-music-circle.webp
+* assets/images/p10-garden-mud-kitchen.webp
+* assets/images/p11-route-diploma.webp
+* assets/images/p12-route-graduate.webp
+* assets/images/p13-route-weekend.webp
+* assets/images/p14-observed-morning.webp
+* assets/images/p15-ines-portrait.webp
+
+Fonts: Fraunces and Source Sans 3, SIL Open Font License 1.1 (assets/fonts).
+
 == Changelog ==
 
 = 1.0.0 =
