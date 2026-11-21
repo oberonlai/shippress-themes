@@ -29,3 +29,29 @@ The company, its people, homes, prices and figures are fictional.
 == Copyright ==
 
 Azukari Stays WordPress theme, Copyright 2026 ShipPress. Distributed under the terms of the GNU GPL v2 or later. Fonts: Outfit and Inter Tight, SIL Open Font License 1.1 (assets/fonts/OFL-Outfit.txt, OFL-InterTight.txt). Photographs: generated for this theme.
+
+= Images =
+
+Images: AI-generated for this theme with Grok Build image_gen as documentary available-light photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the company is fictional). No transparent cut-outs are used.
+- assets/images/p01-kv-bedroom.webp (Housekeeper shaking out a white duvet while a man photographs a sunlit farmhouse bedroom.)
+- assets/images/p02-farmhouse-front.webp (Man carrying a canvas linen bag along a gravel path toward an open farmhouse door.)
+- assets/images/p03-linen-line.webp (Woman hanging white sheets and towels on a long outdoor washing line in a yard.)
+- assets/images/p04-listing-measure.webp (Man measuring an empty farmhouse living room wall with a small handheld laser device.)
+- assets/images/p05-turnover-hall.webp (Woman carrying a linen bag through a stone hallway while a colleague cleans behind.)
+- assets/images/p06-linen-step.webp (Cotton bag of folded white linen resting on a worn stone doorstep beside ivy.)
+- assets/images/p07-key-linen.webp (Iron key on folded linen cloth next to a small jar of garden flowers.)
+- assets/images/p08-statement-table.webp (Two women reviewing printed paper documents together at a sunlit wooden kitchen table.)
+- assets/images/p09-home-hillside.webp (Stone farmhouse situated on a green hillside surrounded by rolling countryside fields.)
+- assets/images/p10-home-townhouse.webp (Narrow stone townhouse with painted door and window boxes along a quiet cobbled street.)
+- assets/images/p11-home-marsh.webp (Low whitewashed cottage standing beside tall marsh grass and a tidal creek waterway.)
+- assets/images/p12-home-barn.webp (Converted stone and timber barn with large glass windows beside an apple orchard.)
+- assets/images/p13-home-mill.webp (Old stone mill house standing beside a running stream and weir in wooded valley.)
+- assets/images/p14-home-lake.webp (Timber cottage and wooden jetty beside a calm misty lake in the early morning.)
+- assets/images/p15-orchard-band.webp (Farmhouse seen across an orchard as a woman carries laundry toward the open door.)
+- assets/images/p16-owner-returns.webp (Man in a linen jacket opening bedroom window shutters in a sunlit farmhouse room.)
+- assets/images/p17-owner-nadia.webp (Woman with a small suitcase standing at the wooden gate of a stone farmhouse.)
+- assets/images/p18-owners-okafor.webp (Older couple sitting together on a garden bench outside their whitewashed coastal cottage.)
+
+== Changelog ==
+= 1.0.0 =
+* First release: home page.
