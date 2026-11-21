@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns (semantic keys). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'alt_a1' => 'Open studio bay door facing a brick wharf yard with a delivery van outside.',
 	'alt_b1' => 'Wide view of the studio floor showing lighting gear, sweep, and delivery trolley.',
@@ -58,6 +58,7 @@ return array(
 	'chip_pack_5' => 'Marketplace crops',
 	'contact_email' => 'Email the studio',
 	'cta' => 'Book a shoot',
+	'date_fmt' => 'j F Y',
 	'day_h' => 'A shoot day',
 	'day_h1' => 'Send the list, then the call',
 	'day_h2' => 'First frames on the screen',
@@ -334,6 +335,7 @@ return array(
 	'inc_5' => 'Basic retouch (clean-up, colour match, crop to your marketplace sizes)',
 	'inc_6' => 'Online gallery within 3 working days',
 	'inc_7' => 'Final files within 5 working days',
+	'k57a9d1a4' => 'This page is not here. Try the menu, or go back to the home page.',
 	'kinds_app_h' => 'Apparel & motion',
 	'kinds_flat_h' => 'Detail & flat lay',
 	'kinds_h' => 'Kinds of shoot',
@@ -399,6 +401,7 @@ return array(
 	'rate_th1' => 'Shoot',
 	'rate_th2' => 'What you get',
 	'rate_th3' => 'Price',
+	'search_results' => 'Search results for: %s',
 	'studio_h' => 'The studio',
 	'studio_lead' => 'We shoot your whole range on one sweep, in one day. You watch the first frame appear on the screen and say yes before the batch begins.',
 	'studio_p1' => 'Ines Calloway opened Kirinuki Studio in 2014 with one bay and one white sweep at Wharf Yard, Harwick, after years in a catalogue house where five sets ran at once. Today there are two bays, seven people and a rule that only one thing is shot at a time.',

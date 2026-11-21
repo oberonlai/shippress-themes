@@ -414,3 +414,22 @@ a { text-underline-offset: 3px; }
 	.kr-prow { padding: 24px 0; }
 	.kr-sec:has(+ .kr-band), .kr-sec:has(+ .kr-floor) { padding-bottom: 72px; }
 }
+
+/* ==== Languages: CJK stacks (Noto Sans TC / JP, gothic only), CJK line-breaking, FR/DE hyphenation ==== */
+:root:lang(zh) { --wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; --wp--preset--font-family--body: "Albert Sans", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; }
+:root:lang(ja) { --wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif; --wp--preset--font-family--body: "Albert Sans", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif; }
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; line-break: strict; word-break: normal; overflow-wrap: anywhere; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .kr-lead) { line-height: 1.4; letter-spacing: .02em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(zh), :lang(ja)) .kr-hero__h { font-size: clamp(2.1rem, 4.6vw, 4rem); line-height: 1.25; letter-spacing: .01em; max-width: 9em; }
+:is(:lang(zh), :lang(ja)) .kr-hero__h .kr-hero__light { font-size: .5em; white-space: normal; }
+:is(:lang(zh), :lang(ja)) .kr-hero__lede { max-width: 30em; }
+:is(:lang(zh), :lang(ja)) :is(.kr-body, .kr-qa p, .kr-dayrow__p, .kr-close__p, .kr-case__p, .kr-floor__p, .kr-person__d) { line-height: 1.85; }
+:is(:lang(zh), :lang(ja)) .kr-close__h { font-size: 2.25rem; line-height: 1.35; }
+:is(:lang(zh), :lang(ja)) .kr-lead { font-size: 1.5rem; }
+:is(:lang(zh), :lang(ja)) .kr-logo { letter-spacing: .06em; }
+:is(:lang(zh), :lang(ja)) .kr-rates__n, :is(:lang(zh), :lang(ja)) .kr-qa summary { line-height: 1.6; }
+:lang(ja) :is(h1, h2, h3, .kr-lead, .kr-close__h, .kr-hero__lede) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, li, h1, h2, h3, h4) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) .kr-hero__h { font-size: clamp(2.4rem, 5.2vw, 4.4rem); }
+:lang(de) :is(.kr-close__h, .kr-lead) { font-size: 2rem; }
