@@ -37,7 +37,7 @@
 
 <!-- wp:paragraph -->
 <p>Our dates list is entirely private, non-commercial, and managed directly from our events office at 14 Harbour Steps in Calder. We do not distribute advertising, third-party newsletters, or frequent promotional mailings. You will only receive an email when upcoming seasonal booking schedules are announced or when an unexpected cancellation opens a weekend dining room. Standard booking terms apply: thirty percent deposit to confirm, ten days for final numbers, and full provisional support from Aiyana Reyes. You may unsubscribe from the dates list at any time with a single click.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"full","className":"er-rooms er-dark","layout":{"type":"default"}} -->

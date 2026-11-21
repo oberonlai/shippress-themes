@@ -37,5 +37,5 @@
 
 <!-- wp:paragraph -->
 <p>While your date is provisionally held, we recommend reviewing our banquet menus to determine which dining style best suits your gathering: the five-course Lamp Room supper at €68 per head, the six-course family table at €78, the corporate dinner at €84, or the eight-course wedding banquet at €112. If you have immediate questions regarding room setup, audiovisual equipment for speeches, or weekend lunch hours from 12:00 to 15:30, you may call our office at +00 31 555 0186 or write to rooms@enkai-rooms.example.</p>
-<!-- /wp:paragraph -->
+<!-- /wp:paragraph --></div>
 <!-- /wp:group -->

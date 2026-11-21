@@ -11,13 +11,13 @@
 <!-- wp:group {"align":"full","className":"er-hero sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull er-hero sp-parallax"><!-- wp:group {"className":"er-hero__half er-hero__half--l","layout":{"type":"default"}} -->
 <div class="wp-block-group er-hero__half er-hero__half--l"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"er-hero__fig sp-parallax__layer"} -->
-<figure class="wp-block-image size-full er-hero__fig sp-parallax__layer" style="--sp-par:6%"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01-name-cards.webp' ) ); ?>" alt="Floor manager placing blank name cards along a set long table under warm lamps."/></figure>
+<figure class="wp-block-image size-full er-hero__fig sp-parallax__layer"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p01-name-cards.webp' ) ); ?>" alt="Floor manager placing blank name cards along a set long table under warm lamps."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"er-hero__half er-hero__half--r","layout":{"type":"default"}} -->
 <div class="wp-block-group er-hero__half er-hero__half--r"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"er-hero__fig sp-parallax__layer"} -->
-<figure class="wp-block-image size-full er-hero__fig sp-parallax__layer" style="--sp-par:8%"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-first-course.webp' ) ); ?>" alt="Chef in a dark apron carrying a plated first course through a restaurant doorway."/></figure>
+<figure class="wp-block-image size-full er-hero__fig sp-parallax__layer"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p02-first-course.webp' ) ); ?>" alt="Chef in a dark apron carrying a plated first course through a restaurant doorway."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 

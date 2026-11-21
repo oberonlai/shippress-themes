@@ -19,7 +19,7 @@
 <!-- /wp:group -->
 
 <!-- wp:image {"align":"full","sizeSlug":"full","linkDestination":"none","className":"er-wide sp-parallax"} -->
-<figure class="wp-block-image alignfull size-full er-wide sp-parallax" style="--sp-par:8%"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-long-room-forty.webp' ) ); ?>" alt="Long oak dining table laid for forty guests with unlit candles beside evening windows."/></figure>
+<figure class="wp-block-image alignfull size-full er-wide sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/p03-long-room-forty.webp' ) ); ?>" alt="Long oak dining table laid for forty guests with unlit candles beside evening windows."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"align":"full","className":"er-rooms er-dark","layout":{"type":"default"}} -->
