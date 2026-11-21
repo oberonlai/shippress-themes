@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns (semantic keys). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'ab_h1' => 'About Nagare',
 	'ab_lede' => 'Founded in 2018 by Ilse Varga, Nagare Workation Hotel was conceived as a dedicated sanctuary for focused work and quiet living. We converted a 1960s boat-builders\' lodge into a 24-room retreat on Lake Ostra.',
@@ -137,6 +137,7 @@ return array(
 	'cwf_w2' => 'one quiet floor.',
 	'cwf_w3' => 'Calls stay',
 	'cwf_w4' => 'in the booths.',
+	'date_fmt' => 'j F Y',
 	'day1_p' => 'The morning starts quietly with an early swim off the wooden dock or a warm shower, followed by fresh breakfast in the kitchen lodge prepared by Tomás. By eight-thirty, Mei-Lin opens the coworking floor, switching on lamps as sunlight spreads across thirty-eight timber desks.',
 	'day1_when' => 'Morning',
 	'day2_p' => 'Deep work fills the midday hours. With wired gigabit fibre at every desk and sound-insulated phone booths just down the hall, complex tasks and video calls proceed without interruption while the lake water ripples outside the glass.',
@@ -210,6 +211,8 @@ return array(
 	'jr_w2' => 'from the shore.',
 	'jr_w3' => 'Stays,',
 	'jr_w4' => 'in their words.',
+	'k57a9d1a4' => 'This page is not here. Try the menu, or go back to the home page.',
+	'k6cb15768' => 'stay@nagare-hotel.example',
 	'lang_chip' => 'EN',
 	'lg_addon' => 'Add-on',
 	'lg_desk' => 'Desk Room',
@@ -329,6 +332,7 @@ return array(
 	'seam_w2' => 'the work.',
 	'seam_w3' => 'The lake',
 	'seam_w4' => 'stays.',
+	'search_results' => 'Search results for: %s',
 	'sliver_cap' => 'Lake Ostra · 38 desks',
 	'st1_meta' => 'Window Studio · Month',
 	'st1_p' => 'Sofia needed uninterrupted focus and dependable connectivity to lead a major software deployment while enjoying daily shoreline walks.',
