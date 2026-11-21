@@ -48,3 +48,10 @@ Images: AI-generated for this theme with Grok Build image_gen as high-key docume
 - assets/images/p6-terrace.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/t1-wristband.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/demo/j1-clipboard.webp (demo/ copy imported into the Media Library as a post featured image; AI-generated, GPL-2.0-or-later / CC0)
+
+== Changelog ==
+= 1.0.1 =
+* Fix dead links: the fourth tile of the Contact, Newsletter and Stallholders strips pointed at #faq, #programme and #tickets, which do not exist on those pages. They now link to the FAQ, Programme and Tickets pages.
+
+= 1.0.0 =
+* First release.
