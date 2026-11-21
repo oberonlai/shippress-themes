@@ -20,4 +20,12 @@ Secondary: near-black ground, one seasonal dish photograph with a centred month 
 Rejected for being too close to listed themes: edge-flush alternating photo rows (waku-exhibits), right-edge vertical nav rail (kotoba-language), fixed vertical tab (azuke-finance).
 
 ## Our counterpart (stage 2)
-(blank)
+| # | Reference | Our counterpart (see design-spec.md) |
+|---|---|---|
+| T1 | Hanging paper tag + red strip + black nav (primary header) | 80 x 174 #F7F4F1 tag "ENKAI / ROOMS" at x 30 hanging 66 px into the hero; 38 px #6C3524 strip; 70 px #17100D bar with centred anchor nav and outline "Ask about a date"; every page |
+| T2 | 2x2 abutting photo tiles, 45% scrim, centred label + arrow | Home block 3 (Rooms / Menus / Weddings / Ask, P04-P07), 1060 wide, 4 px gap, 1.76:1; also on Rooms, Menus, Weddings, Ask |
+| T3 | Seasonal month caption on a dimmed photo (secondary) | "The first course of November" caption on the hero seam; repeated on the title band of Rooms, Menus, Weddings, About, Journal |
+| KV | Dish close-up on a black stage, title fades in, background settles | Diagonal two-photo hero (P01 floor manager setting name cards, P02 chef carrying the first course), H1 split over the seam, fades 1.4 s after 0.7 s, parallax layers 6/8 % |
+| Rows | Gold labels on alternating dark rows (secondary) | Room ledgers under the three-photo room strip (home block 4, Rooms page) |
+| Motion | fade 1400 ms easeInOutCubic; background drift 1.5 s | sp-reveal--up 1.4 s / 10 px, sp-stagger .12 s, sp-parallax 10 % band (P12) |
+| Colour | #000 / #F7F7F7 / #FF2219 / #BB944E | #17100D / #F3F0EE / #6C3524 / #BB944E |
