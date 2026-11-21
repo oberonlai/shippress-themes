@@ -29,7 +29,7 @@ The studio, its people, address, telephone number, email, clients and prices are
 == Copyright ==
 
 Kirinuki Studio is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Albert Sans (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Schibsted Grotesk (OFL-1.1), Latin variable; Albert Sans (OFL-1.1), Latin variable; Noto Sans TC (OFL-1.1), Traditional Chinese subset weights 400 and 700; Noto Sans JP (OFL-1.1), Japanese subset weights 400 and 700; all WOFF2, see assets/fonts/.
 
 = Images =
 
