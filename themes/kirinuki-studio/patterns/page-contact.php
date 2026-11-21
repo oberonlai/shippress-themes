@@ -89,11 +89,9 @@
 <!-- wp:group {"className":"kr-prow__body","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-prow__body"><!-- wp:group {"className":"kr-formwrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kr-formwrap"><?php ob_start(); ?>
-<!-- wp:buttons {"className":"kr-btns"} -->
-<div class="wp-block-buttons kr-btns"><!-- wp:button {"className":"kr-pill kr-pill--dark"} -->
+<div class="wp-block-buttons kr-btns">
 <div class="wp-block-button kr-pill kr-pill--dark"><a class="wp-block-button__link wp-element-button" href="mailto:hello@kirinuki-studio.example"><?php echo esc_html( kirinuki_studio_t( 'contact_email' ) ); ?></a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
+</div>
 <?php $fallback = ob_get_clean(); echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $fallback ) ); ?></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
