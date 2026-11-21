@@ -10,7 +10,7 @@ Tsukuri Design Office is a calm, portfolio-focused WordPress theme designed for 
 
 == Description ==
 
-A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). The home page opens on a flat pale mauve-grey title strip with a studio photograph that crosses the seam, then a foam-model row, the problem and the method as caption rows, a full-bleed model shop band, twin proof photographs, product rows, a dark statement band, one way to start a project and the journal. Inner pages: Work (four cases as twin photographs), Method (four stages), Medical devices, Consumer products, Model shop, Studio (eight people as ruled rows), Fees (a six-line fee table that stacks on phones), Start a project, Contact and Newsletter, each opening with a short title strip and a photograph that crosses the seam; single posts open with a twin photograph pair. See README.md for the design notes.
+A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). The home page opens on a flat pale mauve-grey title strip with a large title, a short lede, two buttons, a stacked collage of three overlapping photographs (foam model, tool sample, production part) that crosses the seam and a ruled row of four studio figures, then a foam-model row, the problem and the method as caption rows, a full-bleed model shop band, twin proof photographs, product rows, a dark statement band, one way to start a project and the journal. Inner pages: Work (four cases as twin photographs), Method (four stages), Medical devices, Consumer products, Model shop, Studio (eight people as ruled rows), Fees (a six-line fee table that stacks on phones), Start a project, Contact and Newsletter, each opening with a short title strip and a photograph that crosses the seam; single posts open with a twin photograph pair. See README.md for the design notes.
 
 == Installation ==
 
@@ -51,3 +51,10 @@ Images: AI-generated for this theme with Grok Build image_gen as photorealistic 
 - assets/images/p14-sanding-foam.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/p15-first-off.webp (home page photograph; AI-generated, GPL-2.0-or-later / CC0)
 - assets/images/p16-pen-parts.webp (inner page photograph; AI-generated, GPL-2.0-or-later / CC0)
+
+== Changelog ==
+= 1.0.1 =
+* Redesigned the home hero: a larger title with a short lede and two buttons (Start a project, See the work), a stacked collage of three overlapping photographs labelled Foam 08, Tool sample and Production that crosses the strip seam, and a ruled row of four studio figures. The grey strip no longer stops in the middle of the hero. New hero text added to all five languages.
+
+= 1.0.0 =
+* First release.
