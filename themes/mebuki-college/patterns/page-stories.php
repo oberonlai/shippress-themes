@@ -24,7 +24,7 @@
 <figure class="wp-block-image size-full mb-ph__img"><img src="<?php echo mebuki_college_img( 'p12-route-graduate.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p12' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:html -->
-<svg class="mb-chalk mb-chalk--s" viewBox="0 0 680 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M236 318C196 246 330 196 438 214C546 232 566 318 480 358C394 398 252 388 226 336C212 306 262 270 332 262"/><path class="mb-chalk__arrow" pathLength="1" d="M470 196C520 160 540 118 560 74M560 74L538 104M560 74L586 100"/><path class="mb-chalk__tick" pathLength="1" d="M588 156L606 184L640 140"/></svg>
+<svg class="mb-chalk mb-chalk--s" viewBox="0 0 680 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M360 400C360 365 290 355 235 368C190 380 185 425 240 438C300 450 360 430 362 396"/><path class="mb-chalk__arrow" pathLength="1" d="M560 150C580 110 600 90 620 60M620 60L596 82M620 60L638 92"/><path class="mb-chalk__tick" pathLength="1" d="M588 156L606 184L640 140"/></svg>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->

@@ -24,7 +24,7 @@
 <figure class="wp-block-image size-full mb-ph__img"><img src="<?php echo mebuki_college_img( 'p14-observed-morning.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p14' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:html -->
-<svg class="mb-chalk mb-chalk--s" viewBox="0 0 680 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M180 120C260 84 400 90 500 112C556 124 596 152 584 196C570 244 440 262 330 246"/><path class="mb-chalk__arrow" pathLength="1" d="M376 300C430 330 500 320 560 280"/><path class="mb-chalk__tick" pathLength="1" d="M380 150L416 200L494 106"/></svg>
+<svg class="mb-chalk mb-chalk--s" viewBox="0 0 680 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M400 300C400 262 360 245 330 255C296 266 285 310 305 338C325 362 385 355 398 318"/><path class="mb-chalk__arrow" pathLength="1" d="M300 372C330 386 370 384 400 368"/><path class="mb-chalk__tick" pathLength="1" d="M395 85L415 115L455 65"/></svg>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->
