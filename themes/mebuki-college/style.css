@@ -30,6 +30,26 @@ Tags: block-theme, full-site-editing, education, one-column, custom-colors, cust
 	--sp-form-text: var(--wp--preset--color--ink);
 	--sp-form-border: var(--wp--preset--color--accent-soft);
 }
+/* ==== Languages: CJK display stacks, sizes about 0.75x of English, FR/DE hyphenation ==== */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Fraunces", "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+	--wp--preset--font-family--body: "Source Sans 3", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Fraunces", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+	--wp--preset--font-family--body: "Source Sans 3", "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", sans-serif;
+}
+:is(:root:lang(zh), :root:lang(ja)) {
+	--wp--preset--font-size--medium-large: 1.25rem;
+	--wp--preset--font-size--large: 2.625rem;
+	--wp--preset--font-size--x-large: 2.75rem;
+	--wp--preset--font-size--huge: 3.25rem;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.5; letter-spacing: .05em; font-weight: 400; }
+:is(:lang(zh), :lang(ja)) .mb-hero__h { font-size: clamp(2.25rem, 4vw, 3.25rem); line-height: 1.45; font-weight: 400; }
+:lang(ja) :is(h1, h2, h3) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, li, td, h2, h3) { hyphens: auto; overflow-wrap: break-word; }
 html { scroll-padding-top: 96px; }
 html.sp-js:not(.sp-no-motion) { scroll-behavior: smooth; }
 body { -webkit-font-smoothing: antialiased; overflow-x: clip; }
