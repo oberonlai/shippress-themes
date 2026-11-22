@@ -19,6 +19,7 @@ The home page opens on a pale split hero with one documentary photograph and a t
 == Fonts ==
 
 * Fraunces (headings, times and prices), SIL Open Font License 1.1.
+* Noto Serif TC and Noto Serif JP (headings on zh-TW and ja pages, subset), SIL Open Font License 1.1.
 * Source Sans 3 (body copy, navigation and labels), SIL Open Font License 1.1.
 
 == Images ==
