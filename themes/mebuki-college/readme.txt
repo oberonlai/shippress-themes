@@ -48,6 +48,9 @@ Images (generated for this theme, licensed GPL-2.0-or-later like the theme):
 * assets/images/p13-route-weekend.webp
 * assets/images/p14-observed-morning.webp
 * assets/images/p15-ines-portrait.webp
+* assets/images/p16-campus-orchard-row.webp
+* assets/images/p17-partner-nursery.webp
+* assets/images/p18-library-journal.webp
 
 Fonts: Fraunces and Source Sans 3, SIL Open Font License 1.1 (assets/fonts).
 
