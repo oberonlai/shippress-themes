@@ -24,7 +24,7 @@
 <figure class="wp-block-image size-full mb-ph__img"><img src="<?php echo mebuki_college_img( 'p17-partner-nursery.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p17' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:html -->
-<svg class="mb-chalk mb-chalk--s" viewBox="0 0 680 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M150 318C140 258 230 232 296 258C350 280 330 346 262 352C210 356 176 330 190 296"/><path class="mb-chalk__arrow" pathLength="1" d="M310 252C390 190 450 150 560 120M560 120L526 112M560 120L540 150"/><path class="mb-chalk__tick" pathLength="1" d="M588 190L606 218L640 174"/></svg>
+<svg class="mb-chalk mb-chalk--s" viewBox="0 0 680 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M150 318C140 258 230 232 296 258C350 280 330 346 262 352C210 356 176 330 190 296"/><path class="mb-chalk__arrow" pathLength="1" d="M352 236C388 192 424 158 474 130M474 130L442 125M474 130L458 157"/><path class="mb-chalk__tick" pathLength="1" d="M588 190L606 218L640 174"/></svg>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->
