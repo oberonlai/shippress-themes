@@ -14,7 +14,7 @@
 <p class="mb-eyebrow"><?php echo esc_html( mebuki_college_t( 'hero_eyebrow' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":1,"className":"mb-hero__h"} -->
-<h1 class="wp-block-heading mb-hero__h"><?php echo esc_html( mebuki_college_t( 'hero_h1' ) ); ?></h1>
+<h1 class="wp-block-heading mb-hero__h"><?php echo str_replace( '，', '，<wbr>', esc_html( mebuki_college_t( 'hero_h1' ) ) ); ?></h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"mb-hero__lede"} -->
 <p class="mb-hero__lede"><?php echo esc_html( mebuki_college_t( 'hero_lede' ) ); ?></p>
@@ -36,7 +36,7 @@
 <figure class="wp-block-image size-full mb-hero__img"><img src="<?php echo mebuki_college_img( 'p01-kv-sand-table.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p01' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:html -->
-<svg class="mb-chalk" viewBox="0 0 800 740" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M440 560C400 470 190 450 120 540C60 620 100 700 250 718C400 736 500 690 504 600C508 520 380 470 270 490"/><path class="mb-chalk__arrow" pathLength="1" d="M494 470C560 380 540 300 566 220C582 170 620 130 676 96M676 96L664 138M676 96L632 104"/><path class="mb-chalk__tick" pathLength="1" d="M400 300L424 336L472 278"/><path class="mb-chalk__spark" pathLength="1" d="M190 110L240 70M170 170L236 140M180 232L232 214"/><path class="mb-chalk__spark" pathLength="1" d="M330 80L338 110L368 118L338 126L330 156L322 126L292 118L322 110Z"/></svg>
+<svg class="mb-chalk" viewBox="0 0 800 740" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path class="mb-chalk__loop" pathLength="1" d="M440 560C400 470 190 450 120 540C60 620 100 700 250 718C400 736 500 690 504 600C508 520 380 470 270 490"/><path class="mb-chalk__arrow" pathLength="1" d="M494 470C530 410 548 340 556 282M556 282L532 306M556 282L570 312"/><path class="mb-chalk__tick" pathLength="1" d="M400 300L424 336L472 278"/><path class="mb-chalk__spark" pathLength="1" d="M190 110L240 70M170 170L236 140M180 232L232 214"/><path class="mb-chalk__spark" pathLength="1" d="M330 80L338 110L368 118L338 126L330 156L322 126L292 118L322 110Z"/></svg>
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
