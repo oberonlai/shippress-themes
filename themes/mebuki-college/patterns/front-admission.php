@@ -70,7 +70,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"mb-adm__ph sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-adm__ph sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-adm__img"} -->
-<figure class="wp-block-image size-full mb-adm__img"><img src="<?php echo mebuki_college_img( 'p14-observed-morning.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p14' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-adm__img"><img src="<?php echo mebuki_college_img( 'p14-observed-morning.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p14' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:html -->
 <p class="mb-disc mb-disc--left"><a href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>" aria-label="<?php echo mebuki_college_a( 'disc_adm' ); ?>"><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" focusable="false"><path d="M2.5 1.5 10 6l-7.5 4.5z" fill="currentColor"/></svg></a></p>

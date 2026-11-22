@@ -35,7 +35,7 @@
 <div class="wp-block-group mb-t3grid sp-stagger"><!-- wp:group {"className":"mb-t3 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3 sp-reveal sp-reveal--up"><!-- wp:group {"className":"mb-t3__ph","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3__ph"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-t3__img"} -->
-<figure class="wp-block-image size-full mb-t3__img"><img src="<?php echo mebuki_college_img( 'p02-floor-practice.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p02' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-t3__img"><img src="<?php echo mebuki_college_img( 'p02-floor-practice.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p02' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"mb-t3__tab","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3__tab"><!-- wp:paragraph {"className":"mb-t3__label"} -->
@@ -56,7 +56,7 @@
 <!-- wp:group {"className":"mb-t3 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3 sp-reveal sp-reveal--up"><!-- wp:group {"className":"mb-t3__ph","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3__ph"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-t3__img"} -->
-<figure class="wp-block-image size-full mb-t3__img"><img src="<?php echo mebuki_college_img( 'p03-talk-it-through.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p03' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-t3__img"><img src="<?php echo mebuki_college_img( 'p03-talk-it-through.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p03' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"mb-t3__tab","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3__tab"><!-- wp:paragraph {"className":"mb-t3__label"} -->
@@ -77,7 +77,7 @@
 <!-- wp:group {"className":"mb-t3 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3 sp-reveal sp-reveal--up"><!-- wp:group {"className":"mb-t3__ph","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3__ph"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-t3__img"} -->
-<figure class="wp-block-image size-full mb-t3__img"><img src="<?php echo mebuki_college_img( 'p04-studio-water.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p04' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-t3__img"><img src="<?php echo mebuki_college_img( 'p04-studio-water.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p04' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"mb-t3__tab","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3__tab"><!-- wp:paragraph {"className":"mb-t3__label"} -->
@@ -98,7 +98,7 @@
 <!-- wp:group {"className":"mb-t3 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3 sp-reveal sp-reveal--up"><!-- wp:group {"className":"mb-t3__ph","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3__ph"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-t3__img"} -->
-<figure class="wp-block-image size-full mb-t3__img"><img src="<?php echo mebuki_college_img( 'p05-small-group.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p05' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-t3__img"><img src="<?php echo mebuki_college_img( 'p05-small-group.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p05' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"mb-t3__tab","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3__tab"><!-- wp:paragraph {"className":"mb-t3__label"} -->

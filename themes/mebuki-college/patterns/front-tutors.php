@@ -12,7 +12,7 @@
 <div class="wp-block-group mb-wrap mb-tutors"><!-- wp:group {"className":"mb-tutors__photo sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-tutors__photo sp-reveal sp-reveal--up"><!-- wp:group {"className":"mb-t3__ph mb-t3__ph--tall","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3__ph mb-t3__ph--tall"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-t3__img"} -->
-<figure class="wp-block-image size-full mb-t3__img"><img src="<?php echo mebuki_college_img( 'p15-ines-portrait.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p15' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-t3__img"><img src="<?php echo mebuki_college_img( 'p15-ines-portrait.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p15' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"mb-t3__tab","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-t3__tab"><!-- wp:paragraph {"className":"mb-t3__label"} -->

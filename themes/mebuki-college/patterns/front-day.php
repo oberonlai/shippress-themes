@@ -78,10 +78,10 @@
 <div class="wp-block-group mb-cards"><!-- wp:group {"anchor":"morning","className":"mb-card sp-stagger","layout":{"type":"default"}} -->
 <div id="morning" class="wp-block-group mb-card sp-stagger"><!-- wp:group {"className":"mb-card__photos sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-card__photos sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-card__img"} -->
-<figure class="wp-block-image size-full mb-card__img"><img src="<?php echo mebuki_college_img( 'p06-morning-door.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p06' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-card__img"><img src="<?php echo mebuki_college_img( 'p06-morning-door.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p06' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-card__img"} -->
-<figure class="wp-block-image size-full mb-card__img"><img src="<?php echo mebuki_college_img( 'p07-coat-pegs.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p07' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-card__img"><img src="<?php echo mebuki_college_img( 'p07-coat-pegs.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p07' ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"mb-card__panel sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
@@ -102,10 +102,10 @@
 <!-- wp:group {"anchor":"afternoon","className":"mb-card sp-stagger mb-card--flip","layout":{"type":"default"}} -->
 <div id="afternoon" class="wp-block-group mb-card sp-stagger mb-card--flip"><!-- wp:group {"className":"mb-card__photos sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-card__photos sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-card__img"} -->
-<figure class="wp-block-image size-full mb-card__img"><img src="<?php echo mebuki_college_img( 'p08-seminar-notes.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p08' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-card__img"><img src="<?php echo mebuki_college_img( 'p08-seminar-notes.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p08' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-card__img"} -->
-<figure class="wp-block-image size-full mb-card__img"><img src="<?php echo mebuki_college_img( 'p09-music-circle.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p09' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-card__img"><img src="<?php echo mebuki_college_img( 'p09-music-circle.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p09' ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"mb-card__panel sp-reveal sp-reveal--up","layout":{"type":"default"}} -->

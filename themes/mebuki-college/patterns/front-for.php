@@ -23,7 +23,7 @@
 <!-- wp:group {"className":"mb-routes","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-routes"><!-- wp:group {"className":"mb-route sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-route sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-route__img"} -->
-<figure class="wp-block-image size-full mb-route__img"><img src="<?php echo mebuki_college_img( 'p11-route-diploma.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p11' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-route__img"><img src="<?php echo mebuki_college_img( 'p11-route-diploma.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p11' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"mb-route__text","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-route__text"><!-- wp:heading {"level":3,"className":"mb-route__h"} -->
@@ -45,7 +45,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"mb-route sp-reveal sp-reveal--up mb-route--flip","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-route sp-reveal sp-reveal--up mb-route--flip"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-route__img"} -->
-<figure class="wp-block-image size-full mb-route__img"><img src="<?php echo mebuki_college_img( 'p12-route-graduate.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p12' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-route__img"><img src="<?php echo mebuki_college_img( 'p12-route-graduate.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p12' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"mb-route__text","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-route__text"><!-- wp:heading {"level":3,"className":"mb-route__h"} -->
@@ -67,7 +67,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"mb-route sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-route sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-route__img"} -->
-<figure class="wp-block-image size-full mb-route__img"><img src="<?php echo mebuki_college_img( 'p13-route-weekend.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p13' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-route__img"><img src="<?php echo mebuki_college_img( 'p13-route-weekend.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p13' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"mb-route__text","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-route__text"><!-- wp:heading {"level":3,"className":"mb-route__h"} -->

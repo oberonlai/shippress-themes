@@ -9,7 +9,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"mb-garden sp-parallax","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull mb-garden sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"mb-garden__img"} -->
-<figure class="wp-block-image size-full mb-garden__img"><img src="<?php echo mebuki_college_img( 'p10-garden-mud-kitchen.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p10' ); ?>" loading="lazy"/></figure>
+<figure class="wp-block-image size-full mb-garden__img"><img src="<?php echo mebuki_college_img( 'p10-garden-mud-kitchen.webp' ); ?>" alt="<?php echo mebuki_college_a( 'alt_p10' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"mb-garden__card","layout":{"type":"default"}} -->
 <div class="wp-block-group mb-garden__card"><!-- wp:paragraph {"className":"mb-eyebrow"} -->
