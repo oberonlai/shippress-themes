@@ -14,7 +14,7 @@
 <p class="mb-eyebrow"><?php echo esc_html( mebuki_college_t( 'hero_eyebrow' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:heading {"level":1,"className":"mb-hero__h"} -->
-<h1 class="wp-block-heading mb-hero__h"><?php echo str_replace( '，', '，<wbr>', esc_html( mebuki_college_t( 'hero_h1' ) ) ); ?></h1>
+<h1 class="wp-block-heading mb-hero__h"><?php echo str_replace( "\u{FF0C}", "\u{FF0C}<wbr>", esc_html( mebuki_college_t( 'hero_h1' ) ) ); ?></h1>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"className":"mb-hero__lede"} -->
 <p class="mb-hero__lede"><?php echo esc_html( mebuki_college_t( 'hero_lede' ) ); ?></p>
