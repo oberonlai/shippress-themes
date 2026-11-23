@@ -29,3 +29,22 @@ All photographs are generated for this theme and are released under the same GPL
 == Copyright ==
 
 Michikusa Lodge, Copyright 2026 ShipPress. Distributed under the GNU General Public License v2 or later.
+
+Images (generated for this theme, licensed GPL-2.0-or-later like the theme):
+* assets/images/demo/post-bag.webp
+* assets/images/demo/post-charging.webp
+* assets/images/demo/post-lake.webp
+* assets/images/p01-key-on-counter.webp
+* assets/images/p02-car-under-canopy.webp
+* assets/images/p03-night-clerk.webp
+* assets/images/p04-key-lockers.webp
+* assets/images/p05-driver-room.webp
+* assets/images/p06-twin-room.webp
+* assets/images/p07-breakfast-tray.webp
+* assets/images/p08-breakfast-counter.webp
+* assets/images/p09-trunk-road.webp
+* assets/images/p10-lake-layby.webp
+* assets/images/p11-bakery-window.webp
+* assets/images/p12-charging-canopy.webp
+* assets/images/p13-desk-team.webp
+* assets/images/p14-guest-walking.webp
