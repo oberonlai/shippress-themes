@@ -1,0 +1,451 @@
+/*
+Theme Name: Otonoha Acoustics
+Theme URI: https://github.com/oberonlai/shippress-themes
+Author: ShipPress
+Author URI: https://github.com/oberonlai/shippress-themes
+Description: Otonoha Acoustics is a quiet block theme for an architectural acoustic consultancy that measures rooms before finishes are specified. The first screen is a diagonal split: a pale upper half with the staggered headline, a dark low-key photograph of an empty auditorium below a rising seam with the second line in white, and a five-tick survey-day timeline. Below it four square room cards drift sideways across a pale band, a tall photograph stays put beside four measurements, the report feed runs off a white sheet, and a graphite band carries the single booking pill. Hanken Grotesk and Onest, silver-slate tones, quiet scroll effects.
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 7.4
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: otonoha-acoustics
+Tags: block-theme, full-site-editing, blog, one-column, custom-colors, custom-logo
+*/
+
+/* ==== Tokens (values from brand/reference-tokens.md and brand/design-spec.md) ==== */
+:root {
+	--oto-base: var(--wp--preset--color--base);
+	--oto-pale: var(--wp--preset--color--pale);
+	--oto-primary: var(--wp--preset--color--primary);
+	--oto-deep: var(--wp--preset--color--deep);
+	--oto-muted: var(--wp--preset--color--muted);
+	--oto-silver: var(--wp--preset--color--silver);
+	--oto-line: var(--wp--preset--color--line);
+	--oto-ink: var(--wp--preset--color--ink);
+	--oto-head-h: 80px;
+	--sp-dist: 24px;
+	--sp-dur: .7s;
+	--sp-ease: cubic-bezier(.2, .7, .2, 1);
+	/* form contract v1: mapped from the theme tokens above */
+	--sp-form-accent: var(--wp--preset--color--primary);
+	--sp-form-on-accent: var(--wp--preset--color--base);
+	--sp-form-radius: 8px;
+	--sp-form-focus: var(--wp--preset--color--deep);
+	--sp-form-surface: var(--wp--preset--color--base);
+	--sp-form-text: var(--wp--preset--color--deep);
+	--sp-form-border: #B9C0C6;
+}
+html { scroll-padding-top: 96px; }
+body { -webkit-font-smoothing: antialiased; }
+.oto-main { display: block; }
+a { text-underline-offset: 4px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--oto-deep); outline-offset: 2px; }
+.oto-wrap { width: min(1040px, 100% - 48px); margin-inline: auto; box-sizing: border-box; }
+.oto-sec { padding-block: 112px; }
+.oto-approach.oto-sec { padding-top: 80px; }
+.oto-title { margin: 0; font-family: var(--wp--preset--font-family--display); font-weight: 300; font-size: 2.25rem; line-height: 1.2; color: var(--oto-deep); }
+.oto-eyebrow { margin: 0; font-size: .8125rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; line-height: 1.8; color: var(--oto-muted); }
+.oto-link { margin: 28px 0 0; font-weight: 600; font-size: .9375rem; }
+.oto-link a { color: var(--oto-primary); text-decoration: underline; text-decoration-thickness: 1px; }
+
+/* ==== Outline pill (hero, booking band) and arrow disc ==== */
+.oto-pill { margin: 0; }
+.oto-pill a { display: inline-flex; align-items: center; justify-content: center; gap: 14px; box-sizing: border-box; min-width: 216px; height: 60px; padding: 0 24px; border: 1px solid #fff; border-radius: 999px; color: #fff; font-family: var(--wp--preset--font-family--body); font-size: .9375rem; font-weight: 600; letter-spacing: .02em; text-decoration: none; transition: background-color .2s ease, color .2s ease; }
+.oto-pill a::after { content: ""; flex: none; width: 14px; height: 14px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1 8h13M9 3l5 5-5 5' fill='none' stroke='%23000' stroke-width='1.6'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1 8h13M9 3l5 5-5 5' fill='none' stroke='%23000' stroke-width='1.6'/%3E%3C/svg%3E") center / contain no-repeat; }
+.oto-pill a:hover, .oto-pill a:focus-visible { background: #fff; color: var(--oto-primary); }
+
+/* ==== Header: corner tile, centred menu, deep tab (sticky by CSS only) ==== */
+.oto-head-part { position: sticky; top: 0; z-index: 50; }
+.oto-head { display: grid; grid-template-columns: 200px minmax(0, 1fr) 220px; align-items: stretch; height: var(--oto-head-h); background: var(--oto-base); border-bottom: 1px solid var(--oto-line); box-sizing: border-box; }
+.oto-logo { display: flex; align-items: center; justify-content: center; background: var(--oto-primary); }
+.oto-logo__p { margin: 0; text-align: center; font-family: var(--wp--preset--font-family--display); font-size: 1.125rem; font-weight: 500; line-height: 1.4; letter-spacing: .28em; margin-right: -.28em; }
+.oto-logo__p a { color: #fff; text-decoration: none; }
+.oto-nav { justify-content: center; align-self: center; font-size: .9375rem; font-weight: 600; letter-spacing: .06em; }
+.oto-nav .wp-block-navigation__container { gap: 4px 34px; }
+.oto-nav a { color: var(--oto-deep); text-decoration: none; }
+.oto-nav a:hover { color: var(--oto-primary); }
+.oto-tab { display: flex; margin: 0; background: var(--oto-deep); }
+.oto-tab a { display: flex; align-items: center; justify-content: center; width: 100%; color: #fff; font-size: .875rem; font-weight: 600; letter-spacing: .06em; text-decoration: none; transition: background-color .2s ease; }
+.oto-tab a:hover { background: var(--oto-primary); }
+.oto-nav .wp-block-navigation__responsive-container.is-menu-open { background: var(--oto-deep); padding: 24px; }
+.oto-nav .is-menu-open .wp-block-navigation-item__content { color: #fff; font-size: 1.5rem; font-weight: 600; }
+.oto-nav .is-menu-open .wp-block-navigation__container { gap: 20px; align-items: flex-start; }
+@media (max-width: 1099px) {
+	.oto-nav { justify-self: end; align-self: stretch; }
+	.oto-nav .wp-block-navigation__responsive-container-open { display: flex !important; align-items: center; justify-content: center; width: 64px; height: 100%; margin: 0; background: var(--oto-deep); color: #fff; }
+	.oto-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none !important; }
+}
+@media (max-width: 781px) {
+	:root { --oto-head-h: 64px; }
+	.oto-head { grid-template-columns: 152px minmax(0, 1fr) 64px; }
+	.oto-logo__p { font-size: .9375rem; }
+	.oto-tab { display: none; }
+	.oto-nav { grid-column: 3; align-self: stretch; }
+	html { scroll-padding-top: 76px; }
+}
+
+/* ==== Hero: diagonal split, split-over-seam headline, timeline foot ==== */
+.oto-hero { position: relative; height: 620px; background: var(--oto-pale); }
+.oto-hero__plate { position: absolute; inset: 0; clip-path: polygon(0 60%, 100% 37%, 100% 100%, 0 100%); background: var(--oto-ink); }
+.oto-hero__plate::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgba(18, 23, 27, .18) 0, transparent 30%, transparent 52%, rgba(18, 23, 27, .6) 100%); }
+.oto-hero__par { position: absolute; inset: 0; height: 100%; --sp-par: 8%; }
+.oto-hero__img { margin: 0; height: 100%; }
+.oto-hero__img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 0%; }
+.oto-hero__text { position: relative; z-index: 1; padding-top: 70px; }
+.oto-hero__text .oto-eyebrow { margin-bottom: 23px; }
+.oto-h1 { margin: 0; font-family: var(--wp--preset--font-family--display); font-size: clamp(3.5rem, 5vw, var(--wp--preset--font-size--xx-large)); font-weight: 500; line-height: 1.1; letter-spacing: -.01em; color: var(--oto-deep); }
+.oto-l1 { display: block; white-space: nowrap; }
+.oto-l2 { display: block; margin-inline-start: clamp(96px, 11.8vw, 170px); margin-block-start: 153px; color: #fff; white-space: nowrap; }
+:lang(zh-TW) .oto-l2 { font-size: .88em; }
+:lang(ja) .oto-l2 { font-size: .8em; }
+@media (min-width: 1100px) { :lang(fr) .oto-l2, :lang(fr) .oto-pill--hero { margin-inline-start: clamp(48px, 4.5vw, 64px); } }
+.oto-lead { position: absolute; top: 70px; right: 0; width: 360px; margin: 0; font-size: 1rem; line-height: 1.8; color: var(--oto-deep); }
+.oto-pill--hero { margin: 25px 0 0 clamp(96px, 11.8vw, 170px); }
+.oto-timeline { position: absolute; left: 0; right: 0; bottom: 12px; z-index: 1; color: #fff; }
+.oto-tl { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 22% 25% 25% 28% 0; position: relative; }
+.oto-tl::before { content: ""; position: absolute; left: 0; right: 0; top: 28px; height: 1px; background: rgba(255, 255, 255, .55); }
+.oto-tl li { position: relative; display: flex; flex-direction: column; margin: 0; padding: 0; }
+.oto-tl li::before { content: ""; order: 2; width: 1px; height: 8px; margin: 8px 0 6px; background: rgba(255, 255, 255, .85); }
+.oto-tl__t { order: 1; font-size: .8125rem; font-weight: 600; letter-spacing: .1em; line-height: 1.2; }
+.oto-tl__l { order: 3; font-size: .875rem; line-height: 1.4; color: rgba(255, 255, 255, .86); }
+.oto-tl li:last-child { grid-column: 5; justify-self: end; width: max-content; text-align: right; align-items: flex-end; }
+@media (min-width: 782px) and (max-width: 1099px) {
+	.oto-hero { height: auto; min-height: 780px; }
+	.oto-hero__plate { clip-path: polygon(0 40%, 100% 22%, 100% 100%, 0 100%); }
+	.oto-hero__text { padding-top: 56px; }
+	.oto-h1 { font-size: 3.5rem; }
+	.oto-l2 { margin-inline-start: 96px; margin-block-start: 190px; white-space: normal; }
+	.oto-lead { position: static; width: auto; max-width: 540px; margin: 28px 0 0 96px; color: #fff; }
+	.oto-pill--hero { margin: 24px 0 0 96px; }
+}
+@media (max-width: 781px) {
+	.oto-hero { height: auto; display: flex; flex-direction: column; }
+	.oto-hero__text { order: 1; padding-top: 32px; }
+	.oto-h1 { font-size: 2.5rem; line-height: 1.15; }
+	.oto-l1 { white-space: normal; }
+	.oto-l2 { margin-inline-start: 24px; margin-block-start: 0; color: var(--oto-deep); white-space: normal; }
+	.oto-lead { position: static; width: auto; margin-top: 16px; font-size: .9375rem; }
+	.oto-pill--hero { margin: 24px 0 0; }
+	.oto-pill--hero a { width: 100%; max-width: 320px; border-color: var(--oto-primary); color: var(--oto-primary); }
+	.oto-pill--hero a:hover, .oto-pill--hero a:focus-visible { background: var(--oto-primary); color: #fff; }
+	.oto-hero__plate { order: 2; position: relative; inset: auto; height: 300px; margin-top: 32px; clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 100%); }
+	.oto-hero__plate::after { display: none; }
+	.oto-timeline { order: 3; position: static; width: 100%; padding: 8px 24px 16px; box-sizing: border-box; color: var(--oto-deep); background: var(--oto-pale); }
+	.oto-tl { display: block; }
+	.oto-tl::before, .oto-tl li::before { display: none; }
+	.oto-tl li, .oto-tl li:last-child { grid-column: auto; justify-self: stretch; display: grid; grid-template-columns: 76px 1fr; width: auto; text-align: left; align-items: baseline; padding: 12px 0; border-top: 1px solid var(--oto-line); }
+	.oto-tl li:first-child { border-top: 0; }
+	.oto-tl__l { color: var(--oto-deep); font-size: .9375rem; }
+}
+
+/* ==== T1: room cards straddling a pale band, drifting sideways ==== */
+.oto-rooms { --oto-card: calc((100vw - 100px) / 4); --oto-pt: 40px; padding-top: var(--oto-pt); padding-bottom: 48px; background: linear-gradient(180deg, var(--oto-pale) 0, var(--oto-pale) calc(var(--oto-pt) + var(--oto-card) / 2), var(--oto-base) calc(var(--oto-pt) + var(--oto-card) / 2)); }
+.oto-strip { display: flex; overflow: clip; }
+.oto-strip__set { display: flex; flex: none; box-sizing: border-box; padding-left: 20px; }
+.oto-strip__set--dup { display: none; }
+.oto-card { position: relative; flex: none; width: var(--oto-card); aspect-ratio: 1; margin-right: 20px; border-radius: 8px; overflow: hidden; background: var(--oto-ink); }
+.oto-card__img { position: absolute; inset: 0; margin: 0; }
+.oto-card__img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.oto-card::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(180deg, rgba(20, 26, 30, .35) 0, transparent 30%, transparent 70%, rgba(20, 26, 30, .45) 100%); }
+.oto-card__l { position: absolute; inset: 0; z-index: 2; margin: 0; padding: 12px 14px; font-family: var(--wp--preset--font-family--display); font-size: 1rem; font-weight: 500; line-height: 1.4; text-shadow: 0 1px 8px rgba(0, 0, 0, .45); }
+.oto-card__l a { color: #fff; text-decoration: none; }
+.oto-card__l a::after { content: ""; position: absolute; inset: 0; }
+.oto-card__c { position: absolute; left: 14px; right: 14px; bottom: 12px; z-index: 3; margin: 0; pointer-events: none; font-size: .6875rem; line-height: 1.4; color: #fff; text-shadow: 0 1px 6px rgba(0, 0, 0, .5); }
+@media (prefers-reduced-motion: no-preference) {
+	html:not(.sp-no-motion) .oto-strip.sp-marquee > * { animation-duration: 34s; }
+	html:not(.sp-no-motion) .oto-strip.sp-marquee > .oto-strip__set--dup { display: flex; }
+	html:not(.sp-no-motion) .oto-strip.sp-marquee:is(:hover, :focus-within) > * { animation-play-state: paused; }
+}
+.oto-rooms__line { padding-top: 40px; }
+.oto-rooms__p { margin: 0; max-width: 760px; font-size: 1.0625rem; line-height: 1.8; }
+.oto-rooms__line .oto-link { margin-top: 12px; }
+@media (max-width: 781px) {
+	.oto-rooms { --oto-card: 72vw; --oto-pt: 24px; padding-bottom: 56px; }
+	html:not(.sp-no-motion) .oto-strip.sp-marquee, .oto-strip { display: block; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+	html:not(.sp-no-motion) .oto-strip.sp-marquee > .oto-strip__set { animation: none; display: flex; min-width: 0; width: max-content; padding-left: 20px; }
+	html:not(.sp-no-motion) .oto-strip.sp-marquee > .oto-strip__set--dup, .oto-strip__set--dup { display: none; }
+	.oto-card { margin-right: 12px; scroll-snap-align: start; }
+}
+
+/* ==== Approach: stacked three-line heading, 1px rule, two columns ==== */
+.oto-approach__grid { display: grid; grid-template-columns: 288px 1px 31px minmax(0, 1fr); align-items: stretch; }
+.oto-approach__h { margin: 0; font-family: var(--wp--preset--font-family--display); font-size: 1.75rem; font-weight: 500; line-height: 1.35; color: var(--oto-deep); }
+.oto-approach__rule { width: 1px; background: var(--oto-line); }
+.oto-approach__cols { grid-column: 4; display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; }
+.oto-approach__cols p { margin: 0; line-height: 1.85; }
+@media (max-width: 1099px) {
+	.oto-approach__grid { grid-template-columns: 1fr; row-gap: 28px; }
+	.oto-approach__h, .oto-approach__rule { grid-column: 1; }
+	.oto-approach__h br { display: none; }
+	.oto-approach__rule { width: 100%; height: 1px; }
+	.oto-approach__cols { grid-column: 1; grid-template-columns: 1fr; row-gap: 20px; }
+}
+
+/* ==== Survey: sticky photograph beside four measurements ==== */
+.oto-survey__grid { display: grid; grid-template-columns: 480px minmax(0, 1fr); column-gap: 80px; align-items: start; }
+.oto-survey__media { position: sticky; top: 112px; }
+.oto-survey__img { margin: 0; }
+.oto-survey__img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.oto-survey__items .oto-title { margin-bottom: 64px; }
+.oto-item { margin-bottom: 88px; }
+.oto-item:last-child { margin-bottom: 0; }
+.oto-item__n { margin: 0 0 8px; font-family: var(--wp--preset--font-family--display); font-size: 2.25rem; font-weight: 300; line-height: 1.2; color: var(--oto-silver); }
+.oto-item__t { margin: 0 0 14px; font-family: var(--wp--preset--font-family--display); font-size: 1.5rem; font-weight: 500; line-height: 1.35; }
+.oto-item p { margin-block: 0; line-height: 1.8; }
+.oto-item .oto-item__g { margin-top: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--oto-line); font-size: .875rem; font-weight: 600; line-height: 1.6; color: var(--oto-primary); }
+@media (max-width: 1099px) {
+	.oto-survey__grid { grid-template-columns: 1fr; row-gap: 40px; }
+	.oto-survey__media { position: static; }
+	.oto-survey__img img { aspect-ratio: 4 / 3; }
+	.oto-item { margin-bottom: 56px; }
+}
+
+/* ==== T2: pale label column + white sheet bleeding off the right edge ==== */
+.oto-report { background: var(--oto-pale); padding-top: 80px; }
+.oto-report__grid { display: grid; grid-template-columns: max(300px, 36.11%) minmax(0, 1fr); align-items: start; }
+.oto-report__label { box-sizing: border-box; padding: 0 40px 80px clamp(32px, calc((100vw - 1040px) / 2 + 40px), 240px); }
+.oto-report__sub { margin: 18px 0 12px; font-size: 1.125rem; font-weight: 600; line-height: 1.5; }
+.oto-report__desc { margin: 0; font-size: .9375rem; line-height: 1.8; }
+.oto-report__sheet { min-width: 0; background: var(--oto-base); }
+.oto-feed { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; padding: 56px 0 64px; scrollbar-width: thin; scrollbar-color: var(--oto-line) transparent; }
+.oto-feed__item { flex: none; box-sizing: border-box; width: 420px; padding: 0 32px; scroll-snap-align: start; }
+.oto-feed__item + .oto-feed__item { border-left: 1px solid var(--oto-line); }
+.oto-feed__ph { display: flex; align-items: center; justify-content: center; height: 215px; }
+.oto-feed__img { margin: 0; }
+.oto-feed__img img { display: block; height: 215px; object-fit: cover; }
+.oto-feed__img--portrait img { width: 161px; }
+.oto-feed__img--landscape img { width: 287px; }
+.oto-feed__m { margin: 28px 0 6px; font-size: .875rem; color: var(--oto-muted); line-height: 1.5; }
+.oto-feed__row { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.oto-feed__t { margin: 0; }
+.oto-feed__t a { color: var(--oto-primary); font-family: var(--wp--preset--font-family--display); font-size: 1.375rem; font-weight: 500; line-height: 1.4; text-decoration: none; }
+.oto-disc { display: inline-flex; flex: none; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; background: var(--oto-primary); transition: background-color .2s ease; }
+.oto-disc:hover { background: var(--oto-deep); }
+.oto-disc--pin { margin-bottom: 16px; }
+.oto-post__t a::after { content: ""; flex: none; width: 18px; height: 18px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1 8h13M9 3l5 5-5 5' fill='none' stroke='%23000' stroke-width='1.6'/%3E%3C/svg%3E") center / contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M1 8h13M9 3l5 5-5 5' fill='none' stroke='%23000' stroke-width='1.6'/%3E%3C/svg%3E") center / contain no-repeat; }
+@media (max-width: 781px) {
+	.oto-report { padding-top: 56px; }
+	.oto-report__grid { grid-template-columns: 1fr; }
+	.oto-report__label { padding: 0 24px 40px; }
+	.oto-report__sheet { margin-left: 24px; }
+	.oto-feed { padding: 40px 0 48px; }
+	.oto-feed__item { width: 80vw; padding: 0 24px; }
+}
+
+/* ==== Quiet band: parallax cover ==== */
+.oto-quiet { align-items: center; min-height: 560px; padding: 0; }
+.oto-quiet .wp-block-cover__background { opacity: .35; }
+.oto-quiet .wp-block-cover__inner-container { width: 100%; max-width: none; }
+.oto-quiet__s { margin: 0; max-width: 760px; font-family: var(--wp--preset--font-family--display); font-size: 2.25rem; font-weight: 300; line-height: 1.35; color: #fff; }
+.oto-quiet__c { margin: 24px 0 0; font-size: .8125rem; letter-spacing: .12em; text-transform: uppercase; color: rgba(255, 255, 255, .8); }
+@media (max-width: 781px) {
+	.oto-quiet { min-height: 380px; }
+	.oto-quiet__s { font-size: 1.5rem; }
+}
+
+/* ==== Cases ==== */
+.oto-cases__head { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; margin-bottom: 56px; }
+.oto-cases__count { margin: 0; color: var(--oto-deep); }
+.oto-cases__n { font-family: var(--wp--preset--font-family--display); font-size: 2.25rem; font-weight: 500; line-height: 1; }
+.oto-cases__count small { font-size: .875rem; }
+.oto-cases__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; }
+.oto-case__img { margin: 0; }
+.oto-case__img img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.oto-case__t { margin: 20px 0 14px; font-family: var(--wp--preset--font-family--display); font-size: 1.25rem; font-weight: 500; line-height: 1.4; }
+.oto-case__t a { color: var(--oto-primary); text-decoration: none; }
+.oto-case__t a:hover { text-decoration: underline; text-decoration-thickness: 1px; }
+.oto-spec { display: flex; gap: 12px; margin: 0; padding: 7px 0; border-top: 1px solid var(--oto-line); font-size: .8125rem; line-height: 1.5; }
+.oto-spec__k { flex: 0 0 76px; color: var(--oto-muted); }
+.oto-spec__v { min-width: 0; }
+@media (max-width: 1099px) {
+	.oto-cases__grid { grid-template-columns: 1fr; gap: 48px; }
+}
+
+/* ==== Fees table ==== */
+.oto-fees__sub { margin: 14px 0 0; font-size: 1.125rem; font-weight: 600; line-height: 1.5; }
+.oto-fees__table { margin: 48px 0 0; }
+.oto-fees__table thead { border-bottom: 0; }
+.oto-fees__table table { width: 100%; table-layout: auto; border-collapse: collapse; }
+.oto-fees__table th, .oto-fees__table td { padding: 20px 0; border: 0; border-bottom: 1px solid var(--oto-line); text-align: left; vertical-align: top; line-height: 1.6; }
+.oto-fees__table thead th { padding: 0 0 12px; font-size: .8125rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--oto-muted); }
+.oto-fees__table th:last-child, .oto-fees__table td:last-child { width: 1%; padding-left: 32px; white-space: nowrap; text-align: right; font-weight: 600; }
+.oto-fees__note { margin: 28px 0 0; max-width: 780px; font-size: .9375rem; line-height: 1.8; color: var(--oto-muted); }
+@media (max-width: 781px) {
+	.oto-fees__table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+	.oto-fees__table table, .oto-fees__table tbody, .oto-fees__table tr, .oto-fees__table td { display: block; width: auto; }
+	.oto-fees__table tr { padding: 16px 0; border-bottom: 1px solid var(--oto-line); }
+	.oto-fees__table td { padding: 0; border: 0; }
+	.oto-fees__table td:first-child { font-weight: 600; }
+	.oto-fees__table th:last-child, .oto-fees__table td:last-child { width: auto; padding: 6px 0 0; text-align: right; }
+}
+
+/* ==== Booking rows ==== */
+.oto-rows { margin-top: 48px; border-bottom: 1px solid var(--oto-line); }
+.oto-row { display: grid; grid-template-columns: 158px minmax(0, 1fr); column-gap: 24px; align-items: baseline; padding: 16px 0; border-top: 1px solid var(--oto-line); }
+.oto-row p { margin: 0; }
+.oto-row__l { font-size: .875rem; font-weight: 600; color: var(--oto-muted); }
+.oto-row__t { line-height: 1.7; }
+@media (max-width: 781px) {
+	.oto-row { grid-template-columns: 1fr; row-gap: 4px; }
+}
+
+/* ==== T3: graphite booking band, white footer ==== */
+.oto-cta { background: var(--oto-primary); padding: 26px 0; }
+.oto-cta__in { display: flex; align-items: center; justify-content: space-between; gap: 32px; width: min(968px, 100% - 48px); margin-inline: auto; }
+.oto-cta__t { margin: 0; font-size: 1.125rem; font-weight: 600; letter-spacing: .08em; line-height: 1.5; color: #fff; }
+.oto-foot { padding: 96px 0 40px; background: var(--oto-base); }
+.oto-foot__top { display: grid; grid-template-columns: minmax(0, 480px) minmax(0, 1fr); gap: 40px; }
+.oto-foot__brand { padding-left: 30px; }
+.oto-foot__mark { margin: 0; font-family: var(--wp--preset--font-family--display); font-size: 1.125rem; font-weight: 500; letter-spacing: .28em; line-height: 1.4; }
+.oto-foot__mark a { color: var(--oto-deep); text-decoration: none; }
+.oto-foot__tag { margin: 16px 0 0; max-width: 340px; font-size: .875rem; line-height: 1.7; color: var(--oto-muted); }
+.oto-foot__cols { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.oto-foot__label { margin: 0 0 10px; font-size: .8125rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--oto-muted); }
+.oto-foot__p { margin: 0 0 12px; font-size: .9375rem; line-height: 1.7; }
+.oto-foot__p a { color: var(--oto-deep); }
+.oto-foot__cal { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 40px; align-items: center; margin-top: 64px; padding: 40px 48px; background: var(--oto-pale); }
+.oto-foot__calh { margin: 0; font-size: 1.75rem; }
+.oto-foot__calp { margin: 10px 0 0; font-size: .9375rem; line-height: 1.7; }
+.oto-foot__links { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--oto-line); }
+.oto-foot__list { display: flex; flex-wrap: wrap; gap: 8px 28px; margin: 0; padding: 0; list-style: none; font-size: .875rem; }
+.oto-foot__list li { margin: 0; }
+.oto-foot__list a { color: var(--oto-deep); text-decoration: none; }
+.oto-foot__list a:hover { text-decoration: underline; text-decoration-thickness: 1px; }
+.oto-foot__copy { margin: 0; font-size: .8125rem; letter-spacing: .08em; text-transform: uppercase; color: var(--oto-silver); }
+@media (max-width: 1099px) {
+	.oto-foot__top { grid-template-columns: 1fr; }
+	.oto-foot__brand { padding-left: 0; }
+	.oto-foot__cal { grid-template-columns: 1fr; padding: 32px 24px; }
+}
+@media (max-width: 781px) {
+	.oto-sec { padding-block: 72px; }
+	.oto-cta__in { flex-direction: column; align-items: stretch; gap: 20px; }
+	.oto-cta .oto-pill a { width: 100%; }
+	.oto-foot { padding-top: 64px; }
+	.oto-foot__cols { grid-template-columns: 1fr; gap: 28px; }
+}
+
+/* ==== Form slot: newsletter fallback and plugin forms, mapped from the tokens ==== */
+.sp-newsletter-fallback { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 12px; align-items: end; font-size: .9375rem; }
+.sp-newsletter-fallback label { grid-column: 1 / -1; margin: 0; font-size: .8125rem; font-weight: 600; letter-spacing: .08em; }
+.sp-newsletter-fallback input[type="email"] { height: 48px; padding: 0 16px; border-color: var(--sp-form-border); }
+.sp-newsletter-fallback input[type="email"]:hover { border-color: var(--sp-form-accent); }
+.sp-newsletter-fallback button[type="submit"] { height: 52px; padding: 0 28px; border: 0; border-radius: 999px; font-size: .9375rem; font-weight: 600; }
+.sp-newsletter-fallback button[type="submit"]:hover { background: var(--oto-deep); }
+.sp-newsletter-fallback p { grid-column: 1 / -1; margin: 4px 0 0; font-size: .8125rem; line-height: 1.6; color: var(--oto-muted); }
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form) label { font-size: .8125rem; font-weight: 600; letter-spacing: .08em; }
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form) :is(input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]), select) { min-height: 48px; }
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form) textarea { min-height: 160px; }
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form) :is(button[type="submit"], input[type="submit"], .wpforms-submit) { min-height: 52px; border: 0; border-radius: 999px; font-weight: 600; }
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form) :is(.wpcf7-not-valid-tip, .wpforms-error, .mailpoet_validate_error) { color: #8E3B32; border: 0; padding: 4px 0 0; }
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form) :is(.wpforms-confirmation-container-full, .mailpoet_validate_success, .mc4wp-success) { color: #3E6650; }
+.oto-cta :is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form, .sp-newsletter-fallback) { --sp-form-accent: #fff; --sp-form-on-accent: var(--wp--preset--color--primary); --sp-form-surface: rgba(255, 255, 255, .08); --sp-form-text: #fff; --sp-form-border: rgba(255, 255, 255, .5); --sp-form-focus: var(--wp--preset--color--pale); }
+@media (max-width: 781px) {
+	.sp-newsletter-fallback { grid-template-columns: 1fr; }
+	.sp-newsletter-fallback button[type="submit"] { width: 100%; }
+}
+
+/* ==== Inner pages: page-head band with ghost word, white sheet ==== */
+.oto-pagehead { position: relative; background: var(--oto-base); }
+.oto-pagehead__band { position: relative; box-sizing: border-box; display: flex; align-items: flex-end; width: calc(100% - 160px); height: 172px; padding: 0 24px 34px max(24px, calc((100vw - 1040px) / 2)); background: var(--oto-pale); }
+.oto-pagehead__h { position: relative; z-index: 1; margin: 0; font-family: var(--wp--preset--font-family--display); font-size: 2.5rem; font-weight: 500; line-height: 1.15; color: var(--oto-deep); }
+.oto-ghost { position: absolute; right: 0; bottom: -48px; margin: 0; font-family: var(--wp--preset--font-family--display); font-size: 7.5rem; font-weight: 300; line-height: 1; letter-spacing: .02em; text-transform: uppercase; color: rgba(255, 255, 255, .85); pointer-events: none; user-select: none; }
+.oto-sheet { position: relative; z-index: 2; box-sizing: border-box; padding: 72px 24px 112px max(24px, calc((100vw - 1040px) / 2)); background: var(--oto-base); }
+.oto-sheet > * { max-width: 1040px; }
+.oto-article__date { margin: 0 0 24px; font-size: .875rem; color: var(--oto-muted); }
+.oto-article__img img { display: block; width: 100%; height: auto; }
+.oto-tags { margin-top: 32px; font-size: .875rem; color: var(--oto-muted); }
+.oto-post { display: grid; grid-template-columns: 158px minmax(0, 1fr); column-gap: 24px; align-items: center; padding: 18px 0; border-top: 1px solid var(--oto-line); }
+.oto-post__d { margin: 0; font-size: .875rem; font-weight: 600; color: var(--oto-muted); }
+.oto-post__t { margin: 0; font-size: 1.375rem; font-weight: 500; }
+.oto-post__t a { display: flex; align-items: center; justify-content: space-between; gap: 16px; color: var(--oto-primary); text-decoration: none; }
+@media (max-width: 781px) {
+	.oto-pagehead__band { width: 100%; height: auto; min-height: 120px; padding-top: 32px; }
+	.oto-pagehead__h { font-size: 1.75rem; }
+	.oto-ghost { position: static; display: none; }
+	.oto-sheet { padding-top: 40px; padding-bottom: 72px; }
+	.oto-post { grid-template-columns: 1fr; row-gap: 4px; }
+}
+
+/* ==== Inner pages: fees table, ink pill ==== */
+.oto-pill--ink a { border-color: var(--oto-primary); color: var(--oto-primary); }
+.oto-pill--ink a:hover, .oto-pill--ink a:focus-visible { background: var(--oto-primary); color: #fff; }
+.oto-fees-table { margin: 32px 0; }
+.oto-fees-table table { width: 100%; border-collapse: collapse; }
+.oto-fees-table th, .oto-fees-table td { padding: 16px 12px 16px 0; border: 0; border-bottom: 1px solid var(--oto-line); text-align: left; vertical-align: top; line-height: 1.6; overflow-wrap: anywhere; }
+.oto-fees-table th { font-size: .8125rem; letter-spacing: .08em; text-transform: uppercase; color: var(--oto-muted); }
+.oto-fees-table td:last-child, .oto-fees-table th:last-child { width: 28%; white-space: nowrap; font-weight: 600; color: var(--oto-primary); }
+@media (max-width: 781px) { .oto-fees-table td:last-child, .oto-fees-table th:last-child { width: 34%; white-space: normal; } }
+
+/* ==== Inner pages: lead line, figures, blocks, static room cards on the head-band seam, spec list ==== */
+.oto-intro { margin: 0 0 40px; font-size: 1.1875rem; line-height: 1.8; color: var(--oto-deep); }
+.oto-fig { margin: 8px 0 48px; }
+.oto-fig img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.oto-block { margin-bottom: 56px; }
+.oto-block p { margin-block: 0 16px; line-height: 1.85; }
+.oto-block h2 { margin: 0 0 18px; font-family: var(--wp--preset--font-family--display); font-size: 1.75rem; font-weight: 500; line-height: 1.3; color: var(--oto-deep); }
+.oto-sheet h2.wp-block-heading:not(.oto-title) { font-family: var(--wp--preset--font-family--display); font-size: 1.75rem; font-weight: 500; line-height: 1.3; color: var(--oto-deep); margin: 56px 0 18px; }
+.oto-sr { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.oto-sheet--a { padding-bottom: 56px; }
+.oto-sheet--b { padding-top: 64px; }
+.oto-specs { margin: 8px 0 24px; max-width: 520px; border-bottom: 1px solid var(--oto-line); }
+.oto-specs .oto-spec__k { flex-basis: 96px; }
+.oto-pagehead--cards .oto-pagehead__band { height: 268px; align-items: flex-start; padding-top: 56px; }
+.oto-cardrow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; margin: -188px 0 56px !important; position: relative; z-index: 3; }
+.oto-cardrow .oto-card { width: auto; margin-right: 0; }
+.oto-quiet--inner { min-height: 480px; }
+.oto-row details summary { cursor: pointer; font-weight: 600; line-height: 1.6; }
+.oto-row details p { margin: 12px 0 0; line-height: 1.8; }
+.oto-row details { padding-right: 8px; }
+.oto-report--inner { padding-top: 64px; }
+@media (max-width: 781px) {
+	.oto-pagehead--cards .oto-pagehead__band { height: auto; padding-top: 32px; }
+	.oto-cardrow { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 0 40px !important; padding-bottom: 8px; }
+	.oto-cardrow .oto-card { flex: none; width: 72vw; margin-right: 12px; scroll-snap-align: start; }
+	.oto-sheet--a { padding-bottom: 32px; }
+	.oto-sheet--b { padding-top: 40px; }
+	.oto-quiet--inner { min-height: 380px; }
+}
+.oto-fees__table table.has-fixed-layout, .oto-fees__table table { table-layout: auto; width: 100%; }
+
+/* Languages: Chinese and Japanese headings use a bundled Noto Sans subset (CJK characters only; Latin and figures stay in Hanken Grotesk / Onest). Body copy uses system CJK fonts. */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Hanken Grotesk", "Noto Sans TC", "Noto Sans CJK TC", system-ui, sans-serif;
+	--wp--preset--font-family--body: "Onest", "PingFang TC", "Noto Sans CJK TC", "Microsoft JhengHei", system-ui, sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Hanken Grotesk", "Noto Sans JP", "Noto Sans CJK JP", system-ui, sans-serif;
+	--wp--preset--font-family--body: "Onest", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans CJK JP", Meiryo, system-ui, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; word-break: normal; overflow-wrap: anywhere; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, .oto-title, .oto-approach__h, .oto-item__t, .oto-case__t, .oto-feed__t) { line-height: 1.4; letter-spacing: .04em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .oto-h1 { font-size: clamp(2.6rem, 3.75vw, 3.75rem); line-height: 1.25; letter-spacing: .02em; }
+:is(:lang(zh), :lang(ja)) .oto-pagehead__h { font-size: 2rem; }
+:is(:lang(zh), :lang(ja)) :is(.oto-eyebrow, .oto-foot__label, .oto-foot__copy, .oto-quiet__c, .oto-fees__table thead th) { letter-spacing: .1em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) .oto-ghost { font-size: 5.5rem; text-transform: none; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(fr), :lang(de)) body { hyphens: auto; -webkit-hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(fr), :lang(de)) :is(.oto-h1, .oto-title, .oto-approach__h, .oto-item__t, .oto-case__t, .oto-pagehead__h) { hyphens: auto; overflow-wrap: break-word; }
+:lang(de) .oto-h1 { font-size: clamp(2.8rem, 4.2vw, 4.4rem); }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) .oto-h1 { font-size: 2rem; }
+	:lang(de) .oto-h1 { font-size: 2.1rem; }
+	:is(:lang(zh), :lang(ja)) .oto-ghost { font-size: 3.5rem; }
+}
+
+@media (min-width: 782px) and (max-width: 1099px) {
+	:lang(ja) .oto-l2 { font-size: 1em; }
+}
+@media (max-width: 781px) {
+	:lang(ja) .oto-l2 { font-size: 1em; }
+}
+
+/* Survey calendar page: the body already holds the sign-up form, so the footer panel is dropped there. */
+body:has(.oto-sheet .sp-newsletter-fallback, .oto-sheet .mailpoet_form, .oto-sheet .mc4wp-form, .oto-sheet .wpcf7) .oto-foot__cal { display: none; }
+.oto-sheet > p + :is(.sp-newsletter-fallback, .mailpoet_form, .mc4wp-form, .wpcf7, .wpforms-container) { margin-block-start: 2rem; }
+.oto-sheet > p + .sp-form-slot, .oto-sheet > p + div:has(.sp-newsletter-fallback) { margin-block-start: 2rem; }
+@media (min-width: 1100px) and (max-width: 1279px) { .oto-l2 { margin-block-start: 185px; } .oto-hero { height: 650px; } }
+@media (min-width: 1100px) and (max-width: 1439px) { :lang(zh-TW) .oto-l2, :lang(zh-TW) .oto-pill--hero { margin-inline-start: clamp(150px, 17vw, 240px); } }
+@media (min-width: 1100px) and (max-width: 1439px) { :lang(ja) .oto-l2, :lang(ja) .oto-pill--hero { margin-inline-start: clamp(150px, 17vw, 240px); } }
