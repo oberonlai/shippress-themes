@@ -208,7 +208,7 @@ return array(
 	'hc_band_label' => 'Avant et pendant un traitement',
 	'hc_h1' => 'Déroulement d’un traitement',
 	'hc_label' => 'Déroulement d’un traitement',
-	'hc_lead' => 'Chez Soroe Clinic, le soin orthodontique suit une séquence ordonnée en quatre étapes avant la pose de vos appareils. Nous planifions chaque phase par écrit pour que vous sachiez exactement à quoi vous attendre dès le début.',
+	'hc_lead' => 'Chez Soroe Clinic, le soin orthodontique suit une séquence ordonnée de trois visites avant la première gouttière. Nous planifions chaque phase par écrit pour que vous sachiez exactement à quoi vous attendre dès le début.',
 	'hc_s1_1' => 'Avant le début du traitement actif, nous réalisons trois rendez-vous dédiés pour une planification approfondie, sans pression. Vient d’abord la première conversation de trente minutes, entièrement gratuite. Nous examinons vos dents, écoutons vos préoccupations et prenons quelques photographies préliminaires, sans radiographie et sans décision à prendre ce jour-là. Suit le rendez-vous de bilan de quarante-cinq minutes, à 190 €, où Aiyana Brooks réalise un scan 3D précis, deux radiographies numériques et des photographies diagnostiques.',
 	'hc_s1_2' => 'Enfin, vous venez à un entretien de plan de quarante minutes, compris dans vos frais de diagnostic. La Dr. Varga ou le Dr. Mensah vous présente votre plan écrit complet, avec les options d’appareils, le calendrier estimé et les tarifs exacts, à étudier chez vous.',
 	'hc_s1_h' => 'Que se passe-t-il lors des premiers rendez-vous, avant le traitement ?',

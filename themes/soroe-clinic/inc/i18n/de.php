@@ -208,7 +208,7 @@ return array(
 	'hc_band_label' => 'Vor und während einer Behandlung',
 	'hc_h1' => 'Ablauf einer Behandlung',
 	'hc_label' => 'Ablauf einer Behandlung',
-	'hc_lead' => 'Die kieferorthopädische Behandlung in der Soroe Clinic folgt vor dem Einsetzen Ihrer Apparaturen einer geordneten Abfolge von vier Schritten. Wir planen jede Phase schriftlich, damit Sie von Anfang an genau wissen, was Sie erwartet.',
+	'hc_lead' => 'Die kieferorthopädische Behandlung in der Soroe Clinic folgt einer geordneten Abfolge von drei Terminen vor der ersten Schiene. Wir planen jede Phase schriftlich, damit Sie von Anfang an genau wissen, was Sie erwartet.',
 	'hc_s1_1' => 'Bevor die aktive Behandlung beginnt, absolvieren wir drei eigene Termine, um ohne Druck gründlich zu planen. Zuerst kommt das erste Gespräch von dreißig Minuten, das völlig kostenlos ist. Wir untersuchen Ihre Zähne, hören auf Ihre Anliegen und machen erste Fotos, ohne Röntgenbilder und ohne Entscheidung an diesem Tag. Danach folgt der Unterlagentermin von fünfundvierzig Minuten für 190 €, bei dem Aiyana Brooks einen präzisen 3D-Scan, zwei digitale Röntgenbilder und diagnostische Fotos anfertigt.',
 	'hc_s1_2' => 'Schließlich kommen Sie zu einem Plangespräch von vierzig Minuten, das in Ihrem Diagnosehonorar enthalten ist. Dr. Varga oder Dr. Mensah stellt Ihnen Ihren umfassenden schriftlichen Plan vor, mit den Apparaturen zur Wahl, dem voraussichtlichen Zeitplan und den genauen Kosten, damit Sie ihn zu Hause prüfen können.',
 	'hc_s1_h' => 'Was geschieht in den ersten Terminen vor der Behandlung?',

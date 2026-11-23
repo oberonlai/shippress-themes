@@ -208,7 +208,7 @@ return array(
 	'hc_band_label' => 'Before and during a course',
 	'hc_h1' => 'How a course works',
 	'hc_label' => 'How a course works',
-	'hc_lead' => 'Orthodontic care at Soroe Clinic follows an orderly four-step sequence before your appliances are placed. We plan every phase in writing so you know exactly what to expect from the start.',
+	'hc_lead' => 'Orthodontic care at Soroe Clinic follows an orderly sequence of three visits before the first tray. We plan every phase in writing so you know exactly what to expect from the start.',
 	'hc_s1_1' => 'Before active treatment begins, we complete three dedicated appointments to ensure thorough planning without pressure. First is the thirty-minute first conversation, which is completely free. We examine your teeth, listen to your concerns, and take preliminary photographs, with no X-rays taken and no decisions required that day. Next is the forty-five-minute records appointment, costing €190, where Aiyana Brooks takes a precise 3D scan, two digital X-rays, and diagnostic photographs.',
 	'hc_s1_2' => 'Finally, you attend a forty-minute plan conversation, included in your diagnostic fee. Dr. Varga or Dr. Mensah presents your comprehensive written plan, explaining appliance options, estimated timeline, and exact fees for you to review at home.',
 	'hc_s1_h' => 'What happens during the initial appointments before treatment?',
