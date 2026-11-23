@@ -63,8 +63,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
-<!-- wp:paragraph {"className":"so-note"} -->
-<p class="so-note"><?php echo esc_html( soroe_clinic_t( 'e_note' ) ); ?></p>
+<!-- wp:paragraph {"className":"so-fine"} -->
+<p class="so-fine"><?php echo esc_html( soroe_clinic_t( 'e_note' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

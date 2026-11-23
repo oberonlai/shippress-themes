@@ -24,8 +24,8 @@
 <!-- wp:table {"className":"so-fees"} -->
 <figure class="wp-block-table so-fees"><table><thead><tr><th><?php echo esc_html( soroe_clinic_t( 'fe_th1' ) ); ?></th><th><?php echo esc_html( soroe_clinic_t( 'fe_th2' ) ); ?></th><th><?php echo esc_html( soroe_clinic_t( 'fe_th3' ) ); ?></th></tr></thead><tbody><tr><td><?php echo esc_html( soroe_clinic_t( 'fe_i1' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_d1' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_p1' ) ); ?></td></tr><tr><td><?php echo esc_html( soroe_clinic_t( 'fe_i2' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_d2' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_p2' ) ); ?></td></tr><tr><td><?php echo esc_html( soroe_clinic_t( 'fe_i3' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_d3' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_p3' ) ); ?></td></tr><tr><td><?php echo esc_html( soroe_clinic_t( 'fe_i4' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_d4' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_p4' ) ); ?></td></tr><tr><td><?php echo esc_html( soroe_clinic_t( 'fe_i5' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_d5' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_p5' ) ); ?></td></tr><tr><td><?php echo esc_html( soroe_clinic_t( 'fe_i6' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_d6' ) ); ?></td><td><?php echo esc_html( soroe_clinic_t( 'fe_p6' ) ); ?></td></tr></tbody></table></figure>
 <!-- /wp:table -->
-<!-- wp:paragraph {"className":"so-note"} -->
-<p class="so-note"><?php echo esc_html( soroe_clinic_t( 'fe_note' ) ); ?></p>
+<!-- wp:paragraph {"className":"so-fine"} -->
+<p class="so-fine"><?php echo esc_html( soroe_clinic_t( 'fe_note' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"so-link"} -->
 <p class="so-link"><a href="<?php echo esc_url( home_url( '/fees/' ) ); ?>"><?php echo esc_html( soroe_clinic_t( 'fe_cta' ) ); ?></a></p>

@@ -200,8 +200,6 @@ return array(
 	'fv_label' => 'Before anything is decided',
 	'fv_h' => 'Your first visit',
 	'fv_intro' => 'Starting orthodontic care begins with four straightforward steps designed so you never feel rushed.',
-	'fv_hd1' => 'Day',
-	'fv_hd2' => 'Hours',
 	'fv_d1' => 'Monday',
 	'fv_h1' => '08:30–17:30',
 	'fv_d2' => 'Tuesday',

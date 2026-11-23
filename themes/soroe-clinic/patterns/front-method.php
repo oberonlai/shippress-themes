@@ -54,8 +54,8 @@
 <div class="wp-block-group so-step__media sp-reveal sp-reveal--right"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"so-photo"} -->
 <figure class="wp-block-image size-full so-photo"><img src="<?php echo soroe_clinic_img( 'p04-plan-conversation.webp' ); ?>" alt="<?php echo soroe_clinic_a( 'alt_p04' ); ?>"/></figure>
 <!-- /wp:image -->
-<!-- wp:paragraph {"className":"so-num"} -->
-<p class="so-num" aria-hidden="true"><span class="so-num__h">#</span>02</p>
+<!-- wp:paragraph {"className":"so-num so-num--right"} -->
+<p class="so-num so-num--right" aria-hidden="true"><span class="so-num__h">#</span>02</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"so-step__text sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
