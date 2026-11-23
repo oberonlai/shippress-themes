@@ -173,9 +173,9 @@
 <!-- wp:group {"className":"so-form","layout":{"type":"default"}} -->
 <div class="wp-block-group so-form"><?php
 ob_start(); ?>
-<!-- wp:buttons {"className":"so-btn so-btn--arrow-wrap"} -->
-<div class="wp-block-buttons so-btn so-btn--arrow-wrap"><!-- wp:button {"className":"so-btn so-btn--arrow"} -->
-<div class="wp-block-button so-btn so-btn--arrow"><a class="wp-block-button__link wp-element-button" href="mailto:hello@soroeclinic.example?subject=<?php echo rawurlencode( soroe_clinic_t( 'firstvisit_mail_subject' ) ); ?>"><?php echo esc_html( soroe_clinic_t( 'firstvisit_email_button' ) ); ?></a></div>
+<!-- wp:buttons {"className":"so-btn so-btn-arrow-wrap"} -->
+<div class="wp-block-buttons so-btn so-btn-arrow-wrap"><!-- wp:button {"className":"so-btn so-btn-arrow"} -->
+<div class="wp-block-button so-btn so-btn-arrow"><a class="wp-block-button__link wp-element-button" href="mailto:hello@soroeclinic.example?subject=<?php echo rawurlencode( soroe_clinic_t( 'firstvisit_mail_subject' ) ); ?>"><?php echo esc_html( soroe_clinic_t( 'firstvisit_email_button' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 <?php
