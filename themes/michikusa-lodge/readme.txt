@@ -31,9 +31,7 @@ All photographs are generated for this theme and are released under the same GPL
 Michikusa Lodge, Copyright 2026 ShipPress. Distributed under the GNU General Public License v2 or later.
 
 Images (generated for this theme, licensed GPL-2.0-or-later like the theme):
-* assets/images/demo/post-bag.webp
-* assets/images/demo/post-charging.webp
-* assets/images/demo/post-lake.webp
+
 * assets/images/p01-key-on-counter.webp
 * assets/images/p02-car-under-canopy.webp
 * assets/images/p03-night-clerk.webp
@@ -48,3 +46,8 @@ Images (generated for this theme, licensed GPL-2.0-or-later like the theme):
 * assets/images/p12-charging-canopy.webp
 * assets/images/p13-desk-team.webp
 * assets/images/p14-guest-walking.webp
+* assets/images/p15-bathroom.webp
+* assets/images/p16-packed-bag.webp
+* assets/images/p17-lodge-first-light.webp
+* assets/images/p18-family-room.webp
+* assets/images/demo/p16-packed-bag.webp (copy of p16 for the demo post)
