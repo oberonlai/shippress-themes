@@ -600,20 +600,21 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 </tr>
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/yose-rakugo"><img src="https://shots.codotx.com/yose-rakugo/home-desktop.webp" width="260" alt="Yose Rakugo"></a><br><a href="themes/yose-rakugo">Yose Rakugo</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/yubi-college"><img src="https://shots.codotx.com/yubi-college/home-desktop.webp" width="260" alt="Yubi College"></a><br><a href="themes/yubi-college">Yubi College</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuge-sento"><img src="https://shots.codotx.com/yuge-sento/home-desktop.webp" width="260" alt="Yuge Sento"></a><br><a href="themes/yuge-sento">Yuge Sento</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yui-credit-union"><img src="https://shots.codotx.com/yui-credit-union/home-desktop.webp" width="260" alt="Yui Credit Union"></a><br><a href="themes/yui-credit-union">Yui Credit Union</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yui-credit-union"><img src="https://shots.codotx.com/yui-credit-union/home-desktop.webp" width="260" alt="Yui Credit Union"></a><br><a href="themes/yui-credit-union">Yui Credit Union</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="https://shots.codotx.com/yukimi-kakigori/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yukisaki-route"><img src="https://shots.codotx.com/yukisaki-route/home-desktop.webp" width="260" alt="Yukisaki Route"></a><br><a href="themes/yukisaki-route">Yukisaki Route</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yukishiro-chalet"><img src="https://shots.codotx.com/yukishiro-chalet/home-desktop.webp" width="260" alt="Yukishiro Chalet"></a><br><a href="themes/yukishiro-chalet">Yukishiro Chalet</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yukishiro-chalet"><img src="https://shots.codotx.com/yukishiro-chalet/home-desktop.webp" width="260" alt="Yukishiro Chalet"></a><br><a href="themes/yukishiro-chalet">Yukishiro Chalet</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yunagi-jazz"><img src="https://shots.codotx.com/yunagi-jazz/home-desktop.webp" width="260" alt="Yunagi Jazz"></a><br><a href="themes/yunagi-jazz">Yunagi Jazz</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuragi-spa"><img src="https://shots.codotx.com/yuragi-spa/home-desktop.webp" width="260" alt="Yuragi Spa"></a><br><a href="themes/yuragi-spa">Yuragi Spa</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="https://shots.codotx.com/yuzu-chaya/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="https://shots.codotx.com/yuzu-chaya/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzuriha-retreat"><img src="https://shots.codotx.com/yuzuriha-retreat/home-desktop.webp" width="260" alt="Yuzuriha Retreat"></a><br><a href="themes/yuzuriha-retreat">Yuzuriha Retreat</a></td>
 </tr>
 </table>
