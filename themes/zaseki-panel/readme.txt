@@ -31,7 +31,7 @@ The company, its people, buildings, address, telephone number and prices are fic
 == Copyright ==
 
 Zaseki Panel is distributed under the terms of the GNU GPL v2 or later.
-Fonts: Outfit (OFL-1.1), Latin variable; Nunito Sans (OFL-1.1), Latin variable; both WOFF2, see assets/fonts/.
+Fonts: Outfit (OFL-1.1), Latin variable; Nunito Sans (OFL-1.1), Latin variable; both WOFF2; Noto Sans TC and Noto Sans JP (OFL-1.1), subset to the Traditional Chinese and Japanese sample text; see assets/fonts/.
 
 = Images =
 
