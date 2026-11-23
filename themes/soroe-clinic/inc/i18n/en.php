@@ -239,6 +239,10 @@ return array(
 	'e4_h' => 'That page is not here.',
 	'e4_p' => 'It may have moved. Try the home page, or book a first visit.',
 	'e4_cta' => 'Back to home',
+	'alt_p13' => 'The clinic’s street front on Linden Row, with bicycle racks at the door and staff at the reception desk behind the window.',
+	'alt_p14' => 'A clinician in gloves hands a retainer case to a young patient in a bright consulting room.',
+	'alt_p15' => 'Mei Lin Zhou preparing sterile packs at the counter in front of a treatment chair.',
+	'alt_p16' => 'Dr. Kwame Mensah shows a teenage patient her smile in a hand mirror while her father looks on.',
 	// BEGIN inner pages (generated)
 	'about_h1' => 'About the clinic',
 	'about_lead' => 'Founded in 2011 by Dr. Ilse Varga, Soroe Clinic is a small orthodontic-only practice in Wrenfield for teenagers and adults. We focus entirely on orthodontic care, planning every course in short, unhurried visits.',
@@ -405,8 +409,4 @@ return array(
 	'ic_h' => 'Every visit plans the next.',
 	'ic_p' => 'Start with a free thirty-minute conversation. No X-rays, no decision on the day.',
 	// END inner pages
-	'alt_p13' => 'The clinic’s street front on Linden Row, with bicycle racks at the door and staff at the reception desk behind the window.',
-	'alt_p14' => 'A clinician in gloves hands a retainer case to a young patient in a bright consulting room.',
-	'alt_p15' => 'Mei Lin Zhou preparing sterile packs at the counter in front of a treatment chair.',
-	'alt_p16' => 'Dr. Kwame Mensah shows a teenage patient her smile in a hand mirror while her father looks on.',
 );
