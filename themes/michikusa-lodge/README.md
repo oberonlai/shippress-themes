@@ -39,3 +39,28 @@ EB Garamond and Karla (SIL OFL 1.1), with Noto Serif TC and Noto Serif JP subset
 - assets/images/p12-charging-canopy.webp
 - assets/images/p13-desk-team.webp
 - assets/images/p14-guest-walking.webp
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/michikusa-lodge/home-desktop.webp" width="640" alt="Michikusa Lodge home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/michikusa-lodge/home-mobile.webp" width="200" alt="Michikusa Lodge home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/michikusa-lodge/about-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/michikusa-lodge/news-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/michikusa-lodge/article-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/michikusa-lodge/category-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/michikusa-lodge/tag-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/michikusa-lodge/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/michikusa-lodge/contact-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/contact-mobile.webp)
+- Rooms: [desktop](https://shots.codotx.com/michikusa-lodge/rooms-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/rooms-mobile.webp)
+- Stay: [desktop](https://shots.codotx.com/michikusa-lodge/stay-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/stay-mobile.webp)
+- Late: [desktop](https://shots.codotx.com/michikusa-lodge/late-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/late-mobile.webp)
+- Road: [desktop](https://shots.codotx.com/michikusa-lodge/road-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/road-mobile.webp)
+- Questions: [desktop](https://shots.codotx.com/michikusa-lodge/questions-desktop.webp) · [mobile](https://shots.codotx.com/michikusa-lodge/questions-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/michikusa-lodge/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/michikusa-lodge/ja/home-desktop.webp) · [fr](https://shots.codotx.com/michikusa-lodge/fr/home-desktop.webp) · [de](https://shots.codotx.com/michikusa-lodge/de/home-desktop.webp)
+<!-- screenshots:end -->
