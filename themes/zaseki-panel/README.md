@@ -12,3 +12,23 @@ Notice strip and top bar, hero (photo | clay grid panel | photo) with an informa
 
 ## Fonts
 Outfit and Nunito Sans (OFL-1.1), loaded through theme.json.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/zaseki-panel/home-desktop.webp" width="640" alt="Zaseki Panel home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/zaseki-panel/home-mobile.webp" width="200" alt="Zaseki Panel home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/zaseki-panel/about-desktop.webp) · [mobile](https://shots.codotx.com/zaseki-panel/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/zaseki-panel/news-desktop.webp) · [mobile](https://shots.codotx.com/zaseki-panel/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/zaseki-panel/article-desktop.webp) · [mobile](https://shots.codotx.com/zaseki-panel/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/zaseki-panel/category-desktop.webp) · [mobile](https://shots.codotx.com/zaseki-panel/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/zaseki-panel/tag-desktop.webp) · [mobile](https://shots.codotx.com/zaseki-panel/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/zaseki-panel/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/zaseki-panel/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/zaseki-panel/contact-desktop.webp) · [mobile](https://shots.codotx.com/zaseki-panel/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/zaseki-panel/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/zaseki-panel/ja/home-desktop.webp) · [fr](https://shots.codotx.com/zaseki-panel/fr/home-desktop.webp) · [de](https://shots.codotx.com/zaseki-panel/de/home-desktop.webp)
+<!-- screenshots:end -->
