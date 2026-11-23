@@ -72,3 +72,13 @@ Survey (walls, sockets, desk count, Wi-Fi); wall and power (bracket at 140 cm ce
 
 ## Pages
 Home (landing, anchors #floor #hold #box #install #price #pilots #questions), The panel, Install, Pricing, Pre-order, Pilot notes, About, Questions, Journal (posts), Waitlist (newsletter), Contact, Privacy, Terms, Thanks. Every price, date and number is identical on every page and in all five languages (EUR everywhere). Everything on the site, including people, buildings and numbers, is fictional.
+
+### Inner pages (en)
+- The panel: head with the tilted desk grid; the three taps in full; specification table beside the workshop photo; the three colours (sage free, clay held, stone taken); four parts tiles.
+- Install: the survey, install-day and walk-through rows; a parallax survey band; the five-row install table; four "what your building provides" tiles; the care plan (EUR 180 per panel per year; floor-plan update EUR 90).
+- Pricing: the full six-row price table (full width from 782 px, price column never clipped; stacked rows on phones); four line tiles; batch dates and deposit terms; two worked examples.
+- Pre-order: intro, four "what happens next" tiles, price summary, then the contact form slot (a plugin form when one exists, else the "Email your pre-order" mailto button).
+- Pilot notes: three stories (Quayside Works, Lindenhof Commons, Oriel House) with anchors, each beside a photograph; qualitative only.
+- About: founding in 2022, the five staff as list rows, a parallax workshop band, a day on the floor, workshop visits on Thursdays.
+- Questions: six answers in three groups. Waitlist (newsletter): a standalone page with the newsletter form slot, which works without a plugin by opening the email app and says the signup is not complete until we reply. Contact: address, phone, email, hours and the contact form slot. Privacy, Terms and Thanks are plain text pages.
+- One article: "What we learned in the Quayside lobby" (category Pilots, tags lobby and front-desk).
