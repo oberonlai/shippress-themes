@@ -41,8 +41,8 @@ Tags: block-patterns, full-site-editing, custom-colors, editor-style, translatio
 	--sp-form-text: var(--wp--preset--color--contrast);
 }
 
-html { scroll-behavior: smooth; scroll-padding-top: 90px; }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+html { scroll-padding-top: 90px; }
+@media (prefers-reduced-motion: no-preference) { html.sp-js:not(.sp-no-motion) { scroll-behavior: smooth; } }
 body { -webkit-font-smoothing: antialiased; }
 .zp-main { display: block; }
 .zp-main a:where(:not(.wp-element-button)) { text-underline-offset: 3px; text-decoration-thickness: 1px; }
@@ -103,7 +103,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 	.zp-nav .wp-block-navigation-item { white-space: nowrap; }
 }
 @media (max-width: 781px) {
-	.zp-head-btn { display: none; }
+	.zp-bar .zp-head-btn { display: none; }
 	.zp-strip__t { font-size: .8125rem; }
 	.zp-bar { height: 60px; }
 	.zp-nav { flex: none; }
