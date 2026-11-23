@@ -13,7 +13,7 @@
 <!-- wp:group {"className":"zp-strip","layout":{"type":"default"}} -->
 <div class="wp-block-group zp-strip">
 <!-- wp:paragraph {"className":"zp-strip__t"} -->
-<p class="zp-strip__t"><a href="#price"><?php echo esc_html( zaseki_panel_t( 'strip' ) ); ?></a></p>
+<p class="zp-strip__t"><a href="/#price"><?php echo esc_html( zaseki_panel_t( 'strip' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
