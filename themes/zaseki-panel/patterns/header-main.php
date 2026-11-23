@@ -33,8 +33,8 @@
 <!-- wp:html -->
 <nav class="zp-lang" aria-label="<?php echo esc_attr( zaseki_panel_t( 'lang_label' ) ); ?>"><ul>
 <li><a href="<?php echo esc_url( zaseki_panel_url( 'en' ) ); ?>" hreflang="en" lang="en"<?php echo 'en' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>EN</a></li>
-<li><a href="<?php echo esc_url( zaseki_panel_url( 'zh-TW' ) ); ?>" hreflang="zh-TW" lang="zh-TW"<?php echo 'zh-TW' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>中文</a></li>
-<li><a href="<?php echo esc_url( zaseki_panel_url( 'ja' ) ); ?>" hreflang="ja" lang="ja"<?php echo 'ja' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>日本語</a></li>
+<li><a href="<?php echo esc_url( zaseki_panel_url( 'zh-TW' ) ); ?>" hreflang="zh-TW" lang="zh-TW"<?php echo 'zh-TW' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>&#20013;&#25991;</a></li>
+<li><a href="<?php echo esc_url( zaseki_panel_url( 'ja' ) ); ?>" hreflang="ja" lang="ja"<?php echo 'ja' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>&#26085;&#26412;&#35486;</a></li>
 <li><a href="<?php echo esc_url( zaseki_panel_url( 'fr' ) ); ?>" hreflang="fr" lang="fr"<?php echo 'fr' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>FR</a></li>
 <li><a href="<?php echo esc_url( zaseki_panel_url( 'de' ) ); ?>" hreflang="de" lang="de"<?php echo 'de' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>DE</a></li>
 </ul></nav>
