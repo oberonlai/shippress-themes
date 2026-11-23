@@ -31,25 +31,13 @@
 <!-- /wp:group -->
 <!-- wp:navigation {"overlayMenu":"always","className":"zp-nav","layout":{"type":"flex","orientation":"horizontal"}} /-->
 <!-- wp:html -->
-<?php
-$zp_langs = array(
-	'en'    => 'EN',
-	'zh-TW' => zaseki_panel_endonym( 'zh-TW' ),
-	'ja'    => zaseki_panel_endonym( 'ja' ),
-	'fr'    => 'FR',
-	'de'    => 'DE',
-);
-$zp_cur   = zaseki_panel_lang();
-echo '<nav class="zp-lang" aria-label="' . esc_attr( zaseki_panel_t( 'lang_label' ) ) . '"><ul>';
-foreach ( $zp_langs as $zp_code => $zp_name ) {
-	$zp_url = add_query_arg( 'lang', $zp_code, home_url( '/' ) );
-	if ( function_exists( 'pll_the_languages' ) || defined( 'ICL_SITEPRESS_VERSION' ) ) {
-		$zp_url = apply_filters( 'wpml_permalink', home_url( '/' ), $zp_code );
-	}
-	echo '<li><a href="' . esc_url( $zp_url ) . '" hreflang="' . esc_attr( $zp_code ) . '" lang="' . esc_attr( $zp_code ) . '"' . ( $zp_code === $zp_cur ? ' aria-current="true"' : '' ) . '>' . esc_html( $zp_name ) . '</a></li>';
-}
-echo '</ul></nav>';
-?>
+<nav class="zp-lang" aria-label="<?php echo esc_attr( zaseki_panel_t( 'lang_label' ) ); ?>"><ul>
+<li><a href="<?php echo esc_url( zaseki_panel_url( 'en' ) ); ?>" hreflang="en" lang="en"<?php echo 'en' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>EN</a></li>
+<li><a href="<?php echo esc_url( zaseki_panel_url( 'zh-TW' ) ); ?>" hreflang="zh-TW" lang="zh-TW"<?php echo 'zh-TW' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>中文</a></li>
+<li><a href="<?php echo esc_url( zaseki_panel_url( 'ja' ) ); ?>" hreflang="ja" lang="ja"<?php echo 'ja' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>日本語</a></li>
+<li><a href="<?php echo esc_url( zaseki_panel_url( 'fr' ) ); ?>" hreflang="fr" lang="fr"<?php echo 'fr' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>FR</a></li>
+<li><a href="<?php echo esc_url( zaseki_panel_url( 'de' ) ); ?>" hreflang="de" lang="de"<?php echo 'de' === zaseki_panel_lang() ? ' aria-current="true"' : ''; ?>>DE</a></li>
+</ul></nav>
 <!-- /wp:html -->
 <!-- wp:buttons {"className":"zp-head-btn"} -->
 <div class="wp-block-buttons zp-head-btn"><!-- wp:button -->

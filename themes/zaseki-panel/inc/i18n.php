@@ -49,6 +49,19 @@ function zaseki_panel_endonym( $code ) {
 }
 
 /**
+ * Link to the home page in one content language (WPML or Polylang permalink when present, ?lang= otherwise).
+ *
+ * @param string $code Language code.
+ * @return string
+ */
+function zaseki_panel_url( $code ) {
+	if ( function_exists( 'pll_the_languages' ) || defined( 'ICL_SITEPRESS_VERSION' ) ) {
+		return (string) apply_filters( 'wpml_permalink', home_url( '/' ), $code );
+	}
+	return add_query_arg( 'lang', $code, home_url( '/' ) );
+}
+
+/**
  * One theme string in the content language (English when that language has none).
  *
  * @param string $key String key (see inc/i18n/en.php).
