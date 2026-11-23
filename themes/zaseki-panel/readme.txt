@@ -49,3 +49,4 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary hig
 - assets/images/pilot-quayside.webp (home pilot notes and journal entry: a bright lobby front desk)
 - assets/images/pilot-lindenhof.webp (home pilot notes: a coworking lobby by a bike store)
 - assets/images/pilot-oriel.webp (home pilot notes: one floor shared by three studios)
+- assets/images/demo/hold-release.webp and assets/images/demo/pilot-quayside.webp (copies of the two photos used as journal featured images in the Media Library)
