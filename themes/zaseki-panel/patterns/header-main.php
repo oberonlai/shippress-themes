@@ -32,7 +32,13 @@
 <!-- wp:navigation {"overlayMenu":"always","className":"zp-nav","layout":{"type":"flex","orientation":"horizontal"}} /-->
 <!-- wp:html -->
 <?php
-$zp_langs = array( 'en' => 'EN', 'zh-TW' => '中文', 'ja' => '日本語', 'fr' => 'FR', 'de' => 'DE' );
+$zp_langs = array(
+	'en'    => 'EN',
+	'zh-TW' => zaseki_panel_endonym( 'zh-TW' ),
+	'ja'    => zaseki_panel_endonym( 'ja' ),
+	'fr'    => 'FR',
+	'de'    => 'DE',
+);
 $zp_cur   = zaseki_panel_lang();
 echo '<nav class="zp-lang" aria-label="' . esc_attr( zaseki_panel_t( 'lang_label' ) ) . '"><ul>';
 foreach ( $zp_langs as $zp_code => $zp_name ) {

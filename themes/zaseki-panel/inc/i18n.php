@@ -25,6 +25,30 @@ function zaseki_panel_lang() {
 }
 
 /**
+ * Native name of one content language, read from that language's own string table.
+ *
+ * Chinese and Japanese endonyms stay in inc/i18n/zh-TW.php and inc/i18n/ja.php.
+ *
+ * @param string $code Language code, such as zh-TW or ja.
+ * @return string
+ */
+function zaseki_panel_endonym( $code ) {
+	static $cache = array();
+	if ( isset( $cache[ $code ] ) ) {
+		return $cache[ $code ];
+	}
+	$cache[ $code ] = $code;
+	if ( preg_match( '/^[a-z]{2}(?:-[A-Z]{2})?$/', $code ) ) {
+		$file  = __DIR__ . '/i18n/' . $code . '.php';
+		$table = is_readable( $file ) ? (array) include $file : array();
+		if ( isset( $table['endonym'] ) ) {
+			$cache[ $code ] = (string) $table['endonym'];
+		}
+	}
+	return $cache[ $code ];
+}
+
+/**
  * One theme string in the content language (English when that language has none).
  *
  * @param string $key String key (see inc/i18n/en.php).
