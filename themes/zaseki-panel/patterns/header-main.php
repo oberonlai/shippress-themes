@@ -30,6 +30,21 @@
 </div>
 <!-- /wp:group -->
 <!-- wp:navigation {"overlayMenu":"always","className":"zp-nav","layout":{"type":"flex","orientation":"horizontal"}} /-->
+<!-- wp:html -->
+<?php
+$zp_langs = array( 'en' => 'EN', 'zh-TW' => '中文', 'ja' => '日本語', 'fr' => 'FR', 'de' => 'DE' );
+$zp_cur   = zaseki_panel_lang();
+echo '<nav class="zp-lang" aria-label="' . esc_attr( zaseki_panel_t( 'lang_label' ) ) . '"><ul>';
+foreach ( $zp_langs as $zp_code => $zp_name ) {
+	$zp_url = add_query_arg( 'lang', $zp_code, home_url( '/' ) );
+	if ( function_exists( 'pll_the_languages' ) || defined( 'ICL_SITEPRESS_VERSION' ) ) {
+		$zp_url = apply_filters( 'wpml_permalink', home_url( '/' ), $zp_code );
+	}
+	echo '<li><a href="' . esc_url( $zp_url ) . '" hreflang="' . esc_attr( $zp_code ) . '" lang="' . esc_attr( $zp_code ) . '"' . ( $zp_code === $zp_cur ? ' aria-current="true"' : '' ) . '>' . esc_html( $zp_name ) . '</a></li>';
+}
+echo '</ul></nav>';
+?>
+<!-- /wp:html -->
 <!-- wp:buttons {"className":"zp-head-btn"} -->
 <div class="wp-block-buttons zp-head-btn"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/pre-order/"><?php echo esc_html( zaseki_panel_t( 'btn_pre' ) ); ?></a></div>
