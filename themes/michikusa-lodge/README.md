@@ -1,6 +1,6 @@
 # Michikusa Lodge
 
-A quiet block theme (type hospitality) for a trunk-road motor lodge. Home page (English) in this release; inner pages and other languages follow.
+A quiet block theme (type hospitality) for a trunk-road motor lodge. Home page plus eleven inner pages and one article in English; other languages follow.
 
 ## Signature
 - Framed-window hero: an inset window holding two film-grain photographs laid over each other (double exposure), the menu and a round amber "Book tonight" disc on the photo, a booking bar docked on the window foot and the headline below on paper.

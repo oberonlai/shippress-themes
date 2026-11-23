@@ -53,3 +53,15 @@ Desk 06:00–02:00 (night locker with code after 02:00); check-in from 15:00; ch
 
 ## Rules
 No guarantees, awards, press quotes, statistics or real brands. Same prices, hours and room counts on every page and in every language. One repeated call to action: Book tonight.
+
+## Pages (English demo content; slugs are the same in every language)
+- Rooms `/rooms/`: four room bands, each with a fact ledger (beds, sleeps, rooms, parking, from-price); the step-free ledger lists a 90 cm door, a roll-in shower and a 3.6 m parking bay; full seven-line price table.
+- What a stay includes `/what-a-stay-includes/`: breakfast and the 04:00 bag, parking and quiet hours, in-room comforts, price table.
+- Late arrivals `/late-arrivals/`: the arrival log (21:40, 23:15, 01:40, after 02:00), night locker, road closures, four numbered steps.
+- The road `/the-road/`: directions from km 211 and km 213, a parallax photograph band, a distance ledger (Orme bakery 4 km, lake lay-by 12 km, Harlow Crossing station 7 km, hospital 26 km, fuel 3 km away).
+- About the lodge `/about/`: 1987 and 2016 story, the daily routine ledger (04:00 to 02:00), the seven people.
+- Book tonight `/book-tonight/` (contact): booking-bar echo, four steps, desk ledger, request form slot (Contact Form 7 or WPForms when active, otherwise an "Email the desk" mailto button). Suggested form fields: name, email, mobile phone, arrival date, nights (1-14), room type, guests (1-4), expected arrival (before 22:00 / 22:00-02:00 / after 02:00), overnight charging, dog, vehicle over 6 m, message, consent.
+- Road notes `/road-notes/` (newsletter): what the monthly letter holds and a standalone email form (MailPoet or Mailchimp for WP when active, otherwise a mailto request that says the reader is not yet on the list).
+- Questions `/questions/`: twelve answers in three groups. Terms `/terms/`, Privacy `/privacy/`, Request received `/thanks/`.
+- Journal `/journal/` (posts page) with one article, "How the 04:30 bag is packed" (category From the desk, tag breakfast).
+- Title windows: every page, including terms, privacy and thanks, opens on the double-exposure window (a different photograph pair per page) so the overlay menu stays readable.
