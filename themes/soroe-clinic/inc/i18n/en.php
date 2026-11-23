@@ -48,6 +48,7 @@ return array(
 	'fl_privacy' => 'Privacy',
 	'f_news' => 'Letters from the chair',
 	'f_news_text' => 'Four letters a year: Saturday dates, retainer and aligner care, one note from the chair.',
+	'f_news_link' => 'Read the letters page',
 	'f_copy' => '© 2026 Soroe Clinic',
 	'f_top' => 'Back to top',
 	'chip_addr' => '21 Linden Row',

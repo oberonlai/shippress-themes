@@ -8,7 +8,18 @@
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","anchor":"notices","className":"so-cell so-notices","layout":{"type":"default"}} -->
-<section id="notices" class="wp-block-group alignfull so-cell so-notices"><!-- wp:group {"className":"so-notices__grid","layout":{"type":"default"}} -->
+<section id="notices" class="wp-block-group alignfull so-cell so-notices"><!-- wp:group {"className":"so-mchips","layout":{"type":"default"}} -->
+<div class="wp-block-group so-mchips"><!-- wp:paragraph {"className":"so-chip so-chip--phone"} -->
+<p class="so-chip so-chip--phone"><a href="tel:+0020555190"><?php echo esc_html( soroe_clinic_t( 'phone' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"so-chip so-chip--pin"} -->
+<p class="so-chip so-chip--pin"><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>"><?php echo esc_html( soroe_clinic_t( 'chip_addr' ) ); ?></a></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"so-chip so-chip--book"} -->
+<p class="so-chip so-chip--book"><a href="<?php echo esc_url( home_url( '/first-visit/' ) ); ?>"><?php echo esc_html( soroe_clinic_t( 'cta_book' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"so-notices__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group so-notices__grid"><!-- wp:group {"className":"sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sp-reveal sp-reveal--up"><!-- wp:group {"className":"so-notices__head","layout":{"type":"default"}} -->
 <div class="wp-block-group so-notices__head"><!-- wp:paragraph {"className":"so-label"} -->

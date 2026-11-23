@@ -10,7 +10,7 @@ Source: https://yaizu-ortho.com/ (an orthodontic-only practice site, hand-built 
 | Text | #000000 body, #3C699C small labels and dates | | |
 | Accent (numerals, large ghost word) | #E3E3D5 (pale stone) | on band only | numerals "#01 #02 #03" |
 Secondary site j-ortho.jp: page gutter #E6EEEF pale mint frame, white cells, one pale aqua button #A9E1E6, low-key photo; first-screen saturated share 2.3%.
-Our mapping: main #4F6B74 (rust-navy slate-teal), ink #1E2A2F, ground #F4F7F6, mist #E1EAEB, numeral tint #DCE6E3, tiny accent #C9826A (dots, 1 link only).
+Our mapping: main #44698A (rust-navy slate-teal), ink #1E2A2F, ground #F4F7F6, mist #E1EAEB, numeral tint #DCE6E3, tiny accent #C9826A (dots, 1 link only).
 
 ## (b) Type
 - Body: Zen Kaku Gothic New 400/500, 16 px, line-height 30.4 px (1.9), letter-spacing 0.8 px (0.05em).

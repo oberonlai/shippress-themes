@@ -102,7 +102,10 @@
 <!-- /wp:paragraph -->
 <!-- wp:group {"className":"so-form so-form--dark","layout":{"type":"default"}} -->
 <div class="wp-block-group so-form so-form--dark"><?php echo shippress_form_slot( array( 'kind' => 'newsletter', 'email' => 'hello@soroeclinic.example', 'label' => soroe_clinic_t( 'forms_email' ), 'submit' => soroe_clinic_t( 'forms_subscribe' ), 'notice' => soroe_clinic_t( 'forms_mail_notice' ), 'subject' => soroe_clinic_t( 'forms_mail_subject' ) ) ); ?></div>
-<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- wp:paragraph {"className":"so-fsmall so-fcol__nl"} -->
+<p class="so-fsmall so-fcol__nl"><a href="<?php echo esc_url( home_url( '/newsletter/' ) ); ?>"><?php echo esc_html( soroe_clinic_t( 'f_news_link' ) ); ?></a></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"so-fbottom","layout":{"type":"default"}} -->

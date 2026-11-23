@@ -20,7 +20,7 @@
 <p class="so-body so-body--light"><?php echo esc_html( soroe_clinic_t( 'bk_p' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"so-facts"} -->
-<p class="so-facts"><a href="tel:+0020555190"><?php echo esc_html( soroe_clinic_t( 'phone' ) ); ?></a> · <a href="mailto:hello@soroeclinic.example"><?php echo esc_html( soroe_clinic_t( 'email' ) ); ?></a></p>
+<p class="so-facts"><a href="tel:+0020555190"><?php echo esc_html( soroe_clinic_t( 'phone' ) ); ?></a><span class="so-facts__dot" aria-hidden="true"> · </span><a href="mailto:hello@soroeclinic.example"><?php echo esc_html( soroe_clinic_t( 'email' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 <!-- wp:buttons {"className":"so-btn so-btn--white-wrap"} -->
 <div class="wp-block-buttons so-btn so-btn--white-wrap"><!-- wp:button {"className":"so-btn so-btn--white"} -->
