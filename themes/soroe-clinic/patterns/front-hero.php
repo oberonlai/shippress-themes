@@ -54,7 +54,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- wp:html -->
-<svg class="so-thread" viewBox="0 0 1424 804" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path class="so-thread__line" pathLength="1" d="M432 330C512 316 612 270 692 240C760 214 840 250 930 240C1030 228 1100 176 1204 152C1270 138 1318 130 1346 114C1376 96 1356 62 1328 66C1296 70 1294 112 1330 126"/><circle class="so-thread__dot" cx="1331" cy="127" r="3.5"/><text class="so-thread__tag" x="1070" y="196" transform="rotate(-20 1070 196)"><?php echo esc_html( soroe_clinic_t( 'hero_tag' ) ); ?></text></svg>
+<svg class="so-thread" viewBox="0 0 1424 804" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path class="so-thread__line" pathLength="1" d="M432 330C512 316 612 270 692 240C760 214 840 250 930 240C1030 228 1100 176 1204 152C1270 138 1318 130 1346 114C1376 96 1356 62 1328 66C1296 70 1294 112 1330 126"/><circle class="so-thread__dot" cx="1331" cy="127" r="3.5"/><text class="so-thread__tag" x="1152" y="146" transform="rotate(-15 1152 146)"><?php echo esc_html( soroe_clinic_t( 'hero_tag' ) ); ?></text></svg>
 <!-- /wp:html -->
 <!-- wp:group {"className":"so-logorow","layout":{"type":"default"}} -->
 <div class="wp-block-group so-logorow"><!-- wp:group {"className":"so-logo","layout":{"type":"default"}} -->

@@ -102,6 +102,7 @@ a { text-underline-offset: 4px; }
 .so-wordmark { margin: 0; font-family: var(--wp--preset--font-family--display); font-size: 1.375rem; font-weight: 500; letter-spacing: .01em; line-height: 1.1; }
 .so-wordmark a, .so-phone a, .so-lang a { color: var(--so-ink); text-decoration: none; }
 .so-wordsub { margin: 0; font-size: .6875rem; font-weight: 500; letter-spacing: .14em; line-height: 1.2; text-transform: uppercase; color: var(--so-muted); }
+.so-phone, .so-phone a { font-family: var(--wp--preset--font-family--display); }
 .so-phone { margin: 0; font-family: var(--wp--preset--font-family--display); font-size: 1.0625rem; font-weight: 500; line-height: 1; white-space: nowrap; }
 .so-phone a { display: inline-flex; align-items: center; gap: 8px; }
 .so-phone a::before { content: ""; width: 16px; height: 16px; background: var(--so-phone-i) center / contain no-repeat; }
@@ -323,11 +324,11 @@ a { text-underline-offset: 4px; }
 .so-footer a { color: var(--wp--preset--color--footer-text); text-decoration: none; }
 .so-footer a:hover { text-decoration: underline; }
 .so-fword { font-family: var(--wp--preset--font-family--display); font-size: 1.5rem; font-weight: 500; }
-.so-fline { margin: 8px 0 24px !important; font-size: 1rem; opacity: .85; }
+.so-fline { margin: 8px 0 24px !important; font-size: 1rem; color: #C9D6D8; }
 .so-fsmall { font-size: .9375rem; line-height: 1.9; }
 .so-flabel { margin-bottom: 14px !important; font-size: .75rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--wp--preset--color--numeral); }
 .so-fhour { padding-left: 3.2em; text-indent: -3.2em; }
-.so-fhour span { display: inline-block; width: 3.2em; text-indent: 0; opacity: .7; }
+.so-fhour span { display: inline-block; width: 3.2em; text-indent: 0; color: #9FB3B8; }
 .so-fcol--news .so-fsmall { margin-bottom: 18px !important; }
 .so-fbottom { display: flex; justify-content: space-between; margin-top: 72px; padding-top: 24px; border-top: 1px solid rgba(255, 255, 255, .2); }
 
@@ -384,7 +385,8 @@ a { text-underline-offset: 4px; }
 	.so-cell { padding-inline: 32px; }
 	.so-hero { padding-bottom: 24px; }
 	.so-hero__grid { grid-template-columns: minmax(0, 48%) 32px minmax(0, 1fr); }
-	.so-vlabel, .so-thread, .so-ghost, .so-method__line { display: none; }
+	.so-vlabel, .so-thread, .so-ghost { display: none; }
+	.so-method__line { position: static; width: 220px; margin: -48px 0 64px; }
 	.so-stroke { display: block; }
 	.so-hero__h { font-size: 3.5rem; }
 	.so-hero__text { padding-right: 32px; }
@@ -475,3 +477,5 @@ a { text-underline-offset: 4px; }
 	.so-pagehead { padding-block: 56px 40px; }
 	.so-pagehead__h { font-size: 2.5rem; }
 }
+a[href^="tel:"] { font-family: var(--wp--preset--font-family--display); }
+.so-chip, .so-chip a { font-family: var(--wp--preset--font-family--display); }
