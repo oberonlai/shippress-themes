@@ -33,7 +33,7 @@ return array(
 	'forms_mail_subject' => 'Road notes: please add me',
 	'foot_notes_l' => 'Road notes',
 	'foot_notes_p' => 'One letter a month: pass closures, road works, breakfast changes.',
-	'foot_copy' => '© 2027 Michikusa Lodge',
+	'foot_copy' => '© ' . gmdate( 'Y' ) . ' Michikusa Lodge',
 	'foot_top' => 'Back to top',
 	'alt_p02' => 'A dark estate car parked under a lit canopy outside a single-storey motor lodge at night.',
 	'alt_p01' => 'A man\'s hand places a brass key with a leather tag on a worn wooden counter.',

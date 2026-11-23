@@ -75,7 +75,7 @@
 <div class="wp-block-group ml-foot__bottom"><!-- wp:paragraph {"className":"ml-foot__copy"} -->
 <p class="ml-foot__copy"><?php echo esc_html( michikusa_lodge_t( 'foot_copy' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:paragraph {"className":"ml-foot__copy ml-foot__top"} -->
-<p class="ml-foot__copy ml-foot__top"><a href="#top"><?php echo esc_html( michikusa_lodge_t( 'foot_top' ) ); ?></a></p>
+<p class="ml-foot__copy ml-foot__top"><a href="#top"><span class="ml-top__a" aria-hidden="true">↑</span><span class="ml-top__t"><?php echo esc_html( michikusa_lodge_t( 'foot_top' ) ); ?></span></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
