@@ -7,6 +7,9 @@ Reference: Artedomus (https://www.artedomus.com/): the sun-edge photograph, the 
 ## Home blocks
 Header with the two-weight wordmark and one centred menu; hero (three flush photo columns with one continuous shadow wedge, headline and outline boxes beside them) with a stats row; the flush range ledger; why the window; the loan card; the parallax showroom band; the spec-sheet table; the price band; project cards; visit hours; the new-arrivals letter; a six-column footer.
 
+## Shop (optional)
+The theme declares WooCommerce support but does not require it. With WooCommerce active it ships `archive-product` and `single-product` templates and five sample products (standard sample loan, large board deposit, layout plan, site measure, pallet delivery) matching the Prices page. Without WooCommerce the Prices, Borrow and Contact pages carry the same information.
+
 ## Patterns
 `front-hero`, `front-ranges`, `front-daylight`, `front-borrow`, `front-band`, `front-spec`, `front-prices`, `front-projects`, `front-visit`, `front-letter`, `tpl-home` (posts list), `header-main`, `footer-main`.
 
