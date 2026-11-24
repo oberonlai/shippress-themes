@@ -70,8 +70,10 @@ Prices in EUR including VAT. Tile and stone are priced per square metre on each 
 2. Alder Row stair, Linde & Mensah Studio: honed limestone treads and landing, spec sheet checked for slip rating and shade V2.
 3. Harbour Lane bakery counter: warm-grey stone mosaic strips 2.5 x 12 on the counter front, grout colour matched on the bench.
 
-## Pages (stage 2 builds the inner pages)
+## Pages
 Ranges, Borrow a sample (booking and enquiry), Spec sheets, Prices, Projects, The showroom, Visit, Contact, Journal (posts page), New-arrivals letter (newsletter), Loan terms, Privacy, Thanks; two journal posts (Showroom notes, Specification).
+
+Inner pages carry the home signatures: a smaller sun-edge photo triptych head (Ranges, Borrow, Spec sheets, Prices, Projects, The showroom, Visit, Letter), flush photo ledgers with outline-box caption plates (Ranges, Spec sheets, Projects, The showroom) and parallax photo bands (Borrow, Visit). No photograph repeats on one page.
 
 ## Forms
 Contact and Borrow pages use the shared form slot (contact kind) with a mailto fallback; the home letter band and the newsletter page use the newsletter kind (email field and submit without plugins, opens the visitor's email app). Suggested sample-request fields for Contact Form 7 or WPForms: name, email, phone, I am (homeowner, architect or designer, builder), project, samples wanted, large boards needed, collection day, window appointment wanted, message, consent. The theme does not create forms.
