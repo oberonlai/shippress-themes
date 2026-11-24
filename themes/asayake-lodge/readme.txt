@@ -44,6 +44,8 @@ Images (generated for this theme, licensed GPL-2.0-or-later like the theme):
 * assets/images/p11-breakfast-table.webp
 * assets/images/p12-key-box.webp
 * assets/images/p13-crayons.webp
+* assets/images/p14-house-front.webp
+* assets/images/p15-bus-stop.webp
 * assets/images/demo/p11-breakfast-table.webp
 * assets/images/demo/p12-key-box.webp
 * assets/images/demo/p13-crayons.webp

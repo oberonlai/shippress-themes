@@ -51,9 +51,11 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"al-sec al-lead","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull al-sec al-lead"><!-- wp:paragraph {"className":"al-lead__p"} -->
+<section class="wp-block-group alignfull al-sec al-lead"><!-- wp:group {"className":"al-lead__in","layout":{"type":"default"}} -->
+<div class="wp-block-group al-lead__in"><!-- wp:paragraph {"className":"al-lead__p"} -->
 <p class="al-lead__p"><?php echo esc_html( asayake_lodge_t( 'rates_intro' ) ); ?></p>
-<!-- /wp:paragraph --></section>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","anchor":"rates","className":"al-sec al-rates","layout":{"type":"default"}} -->
