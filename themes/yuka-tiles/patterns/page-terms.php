@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: Loan terms
- * Slug: yuka-tiles/terms
+ * Slug: yuka-tiles/page-terms
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

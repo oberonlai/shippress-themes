@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: Contact
- * Slug: yuka-tiles/contact
+ * Slug: yuka-tiles/page-contact
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

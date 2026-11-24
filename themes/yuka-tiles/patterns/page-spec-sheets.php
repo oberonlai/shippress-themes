@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: Spec sheets
- * Slug: yuka-tiles/spec-sheets
+ * Slug: yuka-tiles/page-spec-sheets
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

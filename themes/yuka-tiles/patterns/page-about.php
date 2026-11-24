@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: The showroom
- * Slug: yuka-tiles/about
+ * Slug: yuka-tiles/page-about
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

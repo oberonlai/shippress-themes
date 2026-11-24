@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: Visit
- * Slug: yuka-tiles/visit
+ * Slug: yuka-tiles/page-visit
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

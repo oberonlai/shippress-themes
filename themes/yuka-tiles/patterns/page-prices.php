@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: Prices
- * Slug: yuka-tiles/prices
+ * Slug: yuka-tiles/page-prices
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

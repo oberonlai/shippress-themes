@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: New-arrivals letter
- * Slug: yuka-tiles/newsletter
+ * Slug: yuka-tiles/page-newsletter
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: Privacy
- * Slug: yuka-tiles/privacy
+ * Slug: yuka-tiles/page-privacy
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

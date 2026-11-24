@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: Thanks
- * Slug: yuka-tiles/thanks
+ * Slug: yuka-tiles/page-thanks
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

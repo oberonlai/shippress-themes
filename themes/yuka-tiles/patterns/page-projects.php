@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: Projects
- * Slug: yuka-tiles/projects
+ * Slug: yuka-tiles/page-projects
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

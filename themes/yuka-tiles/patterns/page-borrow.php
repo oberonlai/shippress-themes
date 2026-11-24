@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: Borrow a sample
- * Slug: yuka-tiles/borrow
+ * Slug: yuka-tiles/page-borrow
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440

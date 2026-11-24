@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Page: Ranges
- * Slug: yuka-tiles/ranges
+ * Slug: yuka-tiles/page-ranges
  * Categories: yuka-tiles
  * Inserter: no
  * Viewport Width: 1440
