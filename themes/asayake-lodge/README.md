@@ -9,4 +9,21 @@ A calm block theme for a small guest house that hosts families and carers of hos
 - **Pages:** home, about, rooms, a day, rates, getting here, questions, who the stay is for, house rules, book, house letter and the letters archive.
 
 <!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/asayake-lodge/home-desktop.webp" width="640" alt="Asayake Lodge home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/asayake-lodge/home-mobile.webp" width="200" alt="Asayake Lodge home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/asayake-lodge/about-desktop.webp) · [mobile](https://shots.codotx.com/asayake-lodge/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/asayake-lodge/news-desktop.webp) · [mobile](https://shots.codotx.com/asayake-lodge/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/asayake-lodge/article-desktop.webp) · [mobile](https://shots.codotx.com/asayake-lodge/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/asayake-lodge/category-desktop.webp) · [mobile](https://shots.codotx.com/asayake-lodge/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/asayake-lodge/tag-desktop.webp) · [mobile](https://shots.codotx.com/asayake-lodge/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/asayake-lodge/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/asayake-lodge/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/asayake-lodge/contact-desktop.webp) · [mobile](https://shots.codotx.com/asayake-lodge/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/asayake-lodge/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/asayake-lodge/ja/home-desktop.webp) · [fr](https://shots.codotx.com/asayake-lodge/fr/home-desktop.webp) · [de](https://shots.codotx.com/asayake-lodge/de/home-desktop.webp)
 <!-- screenshots:end -->
