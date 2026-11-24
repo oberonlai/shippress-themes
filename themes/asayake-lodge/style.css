@@ -333,3 +333,57 @@ html.sp-no-motion .al-shaft, html.sp-no-motion .al-sun, html.sp-no-motion header
 .al-band__t { margin: 0; font-family: var(--al-sans); font-weight: 700; font-size: 1rem; letter-spacing: .02em; color: #fff; }
 .al-band__ico { flex: none; display: block; }
 @media (max-width: 781px) { .al-band__in { padding: 14px var(--al-gut); } .al-band__t { font-size: .9375rem; } }
+
+/* ---- inner pages: framed head (T1), lead, prose, splits, people, FAQ, forms ---- */
+.al-pagehead--page { padding-bottom: 28px; }
+.al-field--inner { padding: 0 40px 40px; }
+.al-field--bar { padding: 0 40px 36px; }
+.al-field--bar .al-bar { position: static; transform: none; margin-inline: auto; width: min(1120px, 100%); border-radius: 8px; }
+@media (min-width: 782px) { .al-window--inner { height: clamp(200px, 17vw, 244px); } }
+@media (max-width: 781px) { .al-field--inner, .al-field--bar { padding: 0 16px 20px; } .al-field--bar .al-bar { border-radius: 8px; } }
+.al-lead { padding-bottom: 0; }
+.al-lead__p { margin: 0; font-family: var(--al-serif); font-size: clamp(1.25rem, 1.05rem + .7vw, 1.625rem); line-height: 1.5; max-width: 52ch; }
+.al-proses { padding-block: calc(var(--al-sec) * .5); }
+.al-prose { display: grid; grid-template-columns: 4fr 8fr; gap: 48px; padding: 2rem 0; border-top: 1px solid var(--al-blush); }
+.al-proses .al-prose:first-child { border-top: 0; }
+.al-prose__h { margin: 0; font-size: 1.5rem; font-weight: 500; line-height: 1.25; }
+.al-prose .al-body { max-width: 66ch; margin: 0; }
+.al-h2--sm { font-size: 1.75rem !important; }
+.al-splitsec { padding-block: calc(var(--al-sec) * .45); }
+.al-split { display: grid; grid-template-columns: 5fr 7fr; gap: 56px; align-items: center; }
+.al-split--rev { grid-template-columns: 7fr 5fr; }
+.al-split--rev .al-split__media { order: 2; }
+.al-split__img, .al-split__img img { margin: 0; }
+.al-split__img img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 12px; }
+.al-split__img--tall img { aspect-ratio: 4 / 5; }
+.al-split__text .al-body { max-width: 56ch; }
+.al-rooms__grid--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.al-day__intro { margin-bottom: 2.5rem; max-width: 62ch; }
+.al-day__intro .al-body { margin-bottom: 0; }
+.al-people .al-person { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 1.5rem; align-items: baseline; padding: 1rem 0; border-top: 1px solid var(--al-blush); }
+.al-people .al-person:first-child { border-top: 0; }
+.al-person__n { margin: 0; font-family: var(--al-serif); font-size: 1.25rem; font-weight: 500; }
+.al-person__r { margin: 0; color: var(--al-muted); }
+.al-faq { padding: 0 28px; }
+.al-faq .wp-block-details { border-top: 1px solid var(--al-blush); margin: 0; }
+.al-faq .wp-block-details:first-child { border-top: 0; }
+.al-faq summary { list-style: none; cursor: pointer; position: relative; padding: 1.1rem 2.25rem 1.1rem 0; font-family: var(--al-serif); font-size: 1.1875rem; font-weight: 500; line-height: 1.35; }
+.al-faq summary::-webkit-details-marker { display: none; }
+.al-faq summary::after { content: ""; position: absolute; right: 4px; top: 50%; width: 9px; height: 9px; border-right: 2px solid var(--al-rose); border-bottom: 2px solid var(--al-rose); transform: translateY(-70%) rotate(45deg); transition: transform .3s ease-in-out; }
+.al-faq details[open] summary::after { transform: translateY(-30%) rotate(-135deg); }
+.al-faq summary:focus-visible { outline: 2px solid var(--al-ink); outline-offset: 2px; }
+.al-faq .wp-block-details p { margin: 0 0 1.25rem; max-width: 70ch; }
+.al-formsec { padding-block: calc(var(--al-sec) * .5); }
+.al-formcard { background: var(--al-white); border: 1px solid var(--al-blush); border-radius: 12px; padding: 32px 28px; }
+.al-formcard .al-h2 { margin-bottom: 1rem; }
+.al-form__call { margin: 1.25rem 0 0; }
+@media (max-width: 781px) {
+	.al-prose, .al-split, .al-split--rev { grid-template-columns: 1fr; gap: 1rem; }
+	.al-split { gap: 24px; }
+	.al-split--rev .al-split__media { order: 0; }
+	.al-rooms__grid--two { grid-template-columns: 1fr; }
+	.al-people .al-person { grid-template-columns: 1fr; gap: .15rem; }
+	.al-faq, .al-notes__card { padding-inline: 18px; }
+	.al-formcard { padding: 22px 18px; }
+}
+html:lang(fr) .al-prose .al-body, html:lang(de) .al-prose .al-body, html:lang(fr) .al-faq p, html:lang(de) .al-faq p, html:lang(fr) .al-split__text .al-body, html:lang(de) .al-split__text .al-body { hyphens: auto; }
