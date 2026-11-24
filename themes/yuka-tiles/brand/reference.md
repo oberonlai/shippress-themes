@@ -9,9 +9,10 @@ Tokens: `reference-tokens.md`.
 ## Signature candidates (shapes to keep visible)
 | # | Reference device | Our counterpart (fill at build) |
 |---|---|---|
-| T1 | Header wordmark set in two weights inside one word, giant and centred, shrinking on scroll via CSS scroll-driven animation, nav row under it | |
-| T2 | Bottom scrim caption plate on a photo with a pair of 2 px white outline link boxes side by side | |
-| T3 | Full-height photo panels stacked flush, alternating 1-up and 2-up rows with a 1-2 px white seam | |
+| T1 | Sun-edge triptych: three equal flush photo columns cut by one hard diagonal daylight edge aligned across the seams, 2 px white seams | |
+| T2 | Bottom scrim caption plate with a pair of 2 px white outline link boxes side by side | |
+| T3 | Alternating 1-up / 2-up flush full-height photo rows with a 2 px white seam | |
+| T4 (supporting) | Two-weight header wordmark shrinking on scroll (CSS scroll-driven) | |
 
 ## Key visual
 Reference first screen: one full-bleed close-up of glazed tile in a hard sun beam, shadow wedge across a corner where two wall planes meet, under a huge quiet wordmark. Story: a surface is judged in real light. Our translation: three equal high-key columns (porcelain, stone, glazed), a sun edge across each, text beside, stats row below.
