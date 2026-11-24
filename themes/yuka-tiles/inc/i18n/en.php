@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns. */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'ab_d1' => 'Sage glazed tile at the window corner, with the sun edge from ten o’clock.',
 	'ab_d2' => 'A homeowner comparing two porcelain slabs, with the tray of grout sticks between them.',
@@ -95,6 +95,7 @@ return array(
 	'contact_s1_h' => 'Showroom details and opening hours',
 	'contact_s2_b' => 'For architectural schedules, slip resistance data, or high-volume material quotations, Amira Haddad prepares specification sheets within 48 hours. If you are preparing an installation and need exact floor and wall dimensions, Lucas Ferreira carries out site measures within 25 km of Eastmere for EUR 85. Lucas also prepares complete room layout drawings showing cut pieces and grout joint alignment for EUR 120, a fee that is credited back on tile and stone orders over EUR 1,500. Message us with your site address to arrange a visit.',
 	'contact_s2_h' => 'Architectural enquiries and site measures',
+	'date_fmt' => 'j F Y',
 	'day_h' => 'A tile looks different at one o’clock.',
 	'day_label' => 'Why we compare at the window',
 	'day_p1' => 'Electric showroom lamps flatten glaze and stone, hiding how depth and tone shift in real spaces. The same porcelain slab reads warm and pale at ten in the morning, then turns cooler grey by four in the afternoon. For that reason, our low comparison bench stands directly in the long south-east window, where unobstructed natural light shows every true surface character.',
@@ -141,6 +142,9 @@ return array(
 	'hero_h1' => 'Seen in daylight.',
 	'hero_lead' => 'Five ranges of porcelain, stone and glazed tile at a south-east window. Borrow up to five samples for seven days.',
 	'hours_short' => 'Open Tue–Sat 10:00–18:00',
+	'k1fbf13e1' => '48 h',
+	'k6df8fe0f' => 'Nothing here yet. Write to the showroom and we will send what you need.',
+	'k8cf04a97' => 'Home',
 	'lang_label' => 'Language',
 	'lbl_about' => 'Since 2009',
 	'lbl_borrow' => 'One loan card',
@@ -262,6 +266,7 @@ return array(
 	'rt_l3' => '7 days',
 	'rt_l4' => '14 days',
 	'rt_l5' => 'In stock',
+	'search_results' => 'Search results for: %s',
 	'sp_e1' => 'PS-1212-WG',
 	'sp_e2' => '120 × 120 cm, 9 mm',
 	'sp_e3' => 'Matt',
