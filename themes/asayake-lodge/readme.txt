@@ -29,3 +29,21 @@ All photographs are generated for this theme and are released under the same GPL
 == Copyright ==
 
 Asayake Lodge, Copyright 2026 ShipPress. Distributed under the GNU General Public License v2 or later.
+
+Images (generated for this theme, licensed GPL-2.0-or-later like the theme):
+* assets/images/p01-kitchen-dawn.webp
+* assets/images/p02-ledger-table.webp
+* assets/images/p03-thermos-hands.webp
+* assets/images/p04-dawn-path.webp
+* assets/images/p05-accessible-twin.webp
+* assets/images/p06-single-room.webp
+* assets/images/p07-family-room.webp
+* assets/images/p08-accessible-bathroom.webp
+* assets/images/p09-night-corridor.webp
+* assets/images/p10-room-key.webp
+* assets/images/p11-breakfast-table.webp
+* assets/images/p12-key-box.webp
+* assets/images/p13-crayons.webp
+* assets/images/demo/p11-breakfast-table.webp
+* assets/images/demo/p12-key-box.webp
+* assets/images/demo/p13-crayons.webp
