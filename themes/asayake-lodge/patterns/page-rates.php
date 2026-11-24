@@ -10,8 +10,8 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"al-field al-field--inner","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull al-field al-field--inner"><!-- wp:group {"className":"al-window al-window--inner","layout":{"type":"default"}} -->
-<div class="wp-block-group al-window al-window--inner"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"al-window__img"} -->
-<figure class="wp-block-image size-full al-window__img"><img src="<?php echo asayake_lodge_img( 'p07-family-room.webp' ); ?>" alt="<?php echo asayake_lodge_a( 'alt_p07' ); ?>" style="object-position:50% 60%"/></figure>
+<div class="wp-block-group al-window al-window--inner"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"al-window__img al-pos-50-60"} -->
+<figure class="wp-block-image size-full al-window__img al-pos-50-60"><img src="<?php echo asayake_lodge_img( 'p07-family-room.webp' ); ?>" alt="<?php echo asayake_lodge_a( 'alt_p07' ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:group {"className":"al-bar","layout":{"type":"default"}} -->
 <div class="wp-block-group al-bar"><!-- wp:group {"className":"al-cell","layout":{"type":"default"}} -->
