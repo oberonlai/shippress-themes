@@ -9,11 +9,7 @@
  */
 ?>
 <?php ob_start(); ?>
-<!-- wp:buttons {"className":"yt-pair yt-pair--copper yt-pair--single"} -->
-<div class="wp-block-buttons yt-pair yt-pair--copper yt-pair--single"><!-- wp:button {"className":"yt-box"} -->
-<div class="wp-block-button yt-box"><a class="wp-block-button__link wp-element-button" href="mailto:hello@yuka-tiles.example?subject=<?php echo rawurlencode( yuka_tiles_t( 'contact_mail_subject' ) ); ?>"><?php echo esc_html( yuka_tiles_t( 'contact_email_button' ) ); ?></a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
+<div class="wp-block-buttons yt-pair yt-pair--copper yt-pair--single"><div class="wp-block-button yt-box"><a class="wp-block-button__link wp-element-button" href="mailto:hello@yuka-tiles.example?subject=<?php echo rawurlencode( yuka_tiles_t( 'contact_mail_subject' ) ); ?>"><?php echo esc_html( yuka_tiles_t( 'contact_email_button' ) ); ?></a></div></div>
 <?php $yt_fallback = ob_get_clean(); ?>
 <!-- wp:group {"tagName":"section","className":"yt-sec yt-psec","layout":{"type":"default"}} -->
 <section class="wp-block-group yt-sec yt-psec">
