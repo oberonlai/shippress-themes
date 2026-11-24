@@ -286,6 +286,60 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--yt-ink); outli
 .yt-article { padding-block: 64px 96px; }
 .yt-tags a { color: var(--yt-soft); }
 
+/* ---------- inner pages: T1 head (smaller sun-edge triptych), ruled sections, staff rows, contact */
+.yt-ihead { display: grid; grid-template-columns: 60fr 40fr; height: 380px; background: #fff; }
+.yt-ihead__tri { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: #fff; overflow: clip; min-height: 0; }
+.yt-ihead__col { position: relative; min-height: 0; height: 100%; overflow: clip; }
+.yt-ihead__col .wp-block-image, .yt-ihead__col .wp-block-image img { width: 100%; height: 100%; }
+.yt-ihead__col .wp-block-image img { object-fit: cover; }
+.yt-ihead__text { display: flex; flex-direction: column; justify-content: flex-end; padding: 0 72px 40px 64px; min-width: 0; }
+.yt-ihead__label { margin: 0 0 12px; font-size: .9375rem; color: var(--yt-soft); }
+.yt-ihead__t { margin: 0 0 16px; font-size: var(--wp--preset--font-size--title); line-height: 1.05; letter-spacing: -.02em; color: var(--yt-ink); }
+.yt-ihead__lede { margin: 0 0 24px; font-size: 1.25rem; line-height: 1.5; font-weight: 300; color: var(--yt-ink); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.yt-isecs { padding-block: 24px 24px; }
+.yt-isec { display: grid; grid-template-columns: 4fr 7fr; gap: 64px; padding: 36px 0; border-top: 1px solid var(--yt-rule); --sp-dist: 12px; --sp-dur: .6s; }
+.yt-isecs .yt-wrap > .yt-isec:last-child { border-bottom: 1px solid var(--yt-rule); }
+.yt-isec__h { margin: 0; font-size: 1.5rem; font-weight: 500; line-height: 1.2; color: var(--yt-ink); }
+.yt-isec__p { margin: 0; font-size: var(--wp--preset--font-size--prose); line-height: 1.65; max-width: 45rem; color: var(--yt-ink); }
+.yt-isec--plain { grid-template-columns: 1fr; gap: 12px; padding: 28px 0; }
+.yt-ledger--inner { margin-top: 0; }
+.yt-isecs + .yt-ledger--inner, .yt-ihead + .yt-ledger--inner { margin-top: 2px; }
+.yt-ledger--inner + .yt-isecs { margin-top: 24px; }
+.yt-band--inner { height: 560px; margin-top: 0; }
+.yt-glance { padding-block: 56px 72px; }
+.yt-glance .yt-h2 { margin-bottom: 24px; }
+.yt-table--spec td:nth-child(2) { color: var(--yt-ink); }
+.yt-pair--single { grid-template-columns: minmax(0, 360px); margin-bottom: 12px; }
+.yt-request, .yt-letter-page { padding-block: 72px 96px; background: var(--yt-surface); }
+.yt-request .yt-h2 { margin-bottom: 24px; }
+.yt-hours--page { max-width: 640px; margin-bottom: 24px; }
+.yt-team { padding-block: 72px 80px; }
+.yt-stafflist { margin-top: 32px; border-bottom: 1px solid var(--yt-rule); }
+.yt-staff { display: grid; grid-template-columns: 4fr 3fr 7fr; gap: 24px; align-items: baseline; padding: 16px 0; border-top: 1px solid var(--yt-rule); --sp-dist: 12px; --sp-dur: .6s; }
+.yt-staff__n { margin: 0; font-family: var(--yt-display); font-size: 1.125rem; font-weight: 500; color: var(--yt-ink); }
+.yt-staff__r { margin: 0; font-size: .875rem; color: var(--yt-grey); }
+.yt-staff__l { margin: 0; font-size: 1rem; color: var(--yt-soft); }
+.yt-contact { align-items: start; }
+.yt-contact__img img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+.yt-contact .yt-isec { grid-template-columns: 1fr; gap: 12px; padding: 24px 0; }
+.yt-contact .yt-lede { margin-bottom: 8px; }
+@media (max-width: 1099px) {
+	.yt-ihead__text { padding: 0 32px 32px 32px; }
+	.yt-isec { grid-template-columns: 1fr 2fr; gap: 40px; }
+}
+@media (max-width: 781px) {
+	.yt-ihead { display: block; height: auto; }
+	.yt-ihead__tri { height: 200px; }
+	.yt-ihead__text { padding: 24px var(--yt-pad) 8px; }
+	.yt-ihead__t { font-size: 2.5rem; }
+	.yt-ihead__lede { font-size: 1.0625rem; -webkit-line-clamp: unset; display: block; }
+	.yt-isec { grid-template-columns: 1fr; gap: 12px; padding: 28px 0; }
+	.yt-band--inner { height: 440px; }
+	.yt-staff { grid-template-columns: 1fr; gap: 4px; }
+	.yt-pair--single { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { .yt-isec, .yt-staff { --sp-dist: 0px; } }
+
 /* ---------- CJK, fr, de */
 :root:lang(zh) { --wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif; --wp--preset--font-family--body: "Albert Sans", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif; }
 :root:lang(ja) { --wp--preset--font-family--display: "Schibsted Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif; --wp--preset--font-family--body: "Albert Sans", "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", sans-serif; }
