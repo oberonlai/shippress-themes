@@ -9,12 +9,7 @@
  */
 ?>
 <?php
-ob_start(); ?>
-<!-- wp:buttons {"className":"al-btn al-btn--fill-wrap"} -->
-<div class="wp-block-buttons al-btn al-btn--fill-wrap"><!-- wp:button {"className":"al-btn al-btn--fill"} -->
-<div class="wp-block-button al-btn al-btn--fill"><a class="wp-block-button__link wp-element-button" href="mailto:stay@asayake-lodge.example?subject=<?php echo rawurlencode( asayake_lodge_t( 'book_mail_subject' ) ); ?>"><?php echo esc_html( asayake_lodge_t( 'book_email_button' ) ); ?></a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons -->
+ob_start(); ?><div class="wp-block-buttons al-btn al-btn--fill-wrap"><div class="wp-block-button al-btn al-btn--fill"><a class="wp-block-button__link wp-element-button" href="mailto:stay@asayake-lodge.example?subject=<?php echo rawurlencode( asayake_lodge_t( 'book_mail_subject' ) ); ?>"><?php echo esc_html( asayake_lodge_t( 'book_email_button' ) ); ?></a></div></div>
 <?php
 $al_fallback = ob_get_clean();
 ?>
