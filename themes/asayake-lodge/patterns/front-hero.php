@@ -132,3 +132,13 @@
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
+<!-- wp:group {"className":"al-band","layout":{"type":"default"}} -->
+<div class="wp-block-group al-band"><!-- wp:group {"className":"al-band__in","layout":{"type":"default"}} -->
+<div class="wp-block-group al-band__in"><!-- wp:paragraph {"className":"al-band__t"} -->
+<p class="al-band__t"><?php echo esc_html( asayake_lodge_t( 'band_t' ) ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:html -->
+<svg class="al-band__ico" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="#D69A5C" stroke-width="1.6" stroke-linejoin="round"/></svg>
+<!-- /wp:html --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->

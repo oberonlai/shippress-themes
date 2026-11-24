@@ -114,7 +114,7 @@ img { max-width: 100%; height: auto; }
 .al-window { position: relative; max-width: 1360px; margin-inline: auto; height: clamp(260px, 30.5vw, 440px); border-radius: 12px; overflow: clip; background: var(--al-ink); }
 .al-window__img { position: absolute; inset: 0; margin: 0; }
 .al-window__img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 60% 12%; border-radius: 0; }
-.al-shaft { position: absolute; top: 0; right: 0; width: 66%; height: 100%; pointer-events: none; mix-blend-mode: screen; background: linear-gradient(118deg, rgba(255, 246, 236, 0) 18%, rgba(255, 246, 236, .6) 44%, rgba(255, 246, 236, .22) 62%, rgba(255, 246, 236, 0) 82%); animation: al-shaft 1.6s cubic-bezier(.3, 0, .3, 1) both; }
+.al-shaft { position: absolute; top: 0; right: 0; width: 66%; height: 100%; pointer-events: none; mix-blend-mode: screen; clip-path: polygon(56% 0, 88% 0, 54% 100%, 24% 100%); background: linear-gradient(90deg, rgba(255, 246, 236, .16) 24%, rgba(255, 246, 236, .46) 52%, rgba(255, 246, 236, .16) 82%); animation: al-shaft 1.6s cubic-bezier(.3, 0, .3, 1) both; }
 @keyframes al-shaft { from { opacity: 0; transform: translate3d(-24px, 0, 0); } to { opacity: 1; transform: none; } }
 .al-bar { position: absolute; top: 0; left: 50%; width: min(1120px, calc(100% - 96px)); transform: translateX(-50%); display: grid; grid-template-columns: repeat(4, 1fr); background: var(--al-white); border-radius: 0 0 8px 8px; min-height: 56px; z-index: 3; }
 .al-cell { padding: .55rem 1.25rem; border-left: 1px solid var(--al-blush); display: flex; flex-direction: column; justify-content: center; }
@@ -166,6 +166,7 @@ img { max-width: 100%; height: auto; }
 	.al-dayline { height: auto; display: grid; grid-template-columns: repeat(5, 1fr); margin-top: 20px; padding-top: 14px; }
 	.al-dayline::before { top: 6px; }
 	.al-tick { position: static; transform: none; padding-top: 12px; text-align: center; font-size: .6875rem; }
+	.al-tick, .al-tick--1, .al-tick--2, .al-tick--3, .al-tick--4, .al-tick--5 { position: relative; left: auto; }
 	.al-tick::before { top: 1px; height: 11px; }
 	.al-sun { display: none; }
 	.al-hcards { grid-template-columns: 1fr; gap: 12px; margin-top: 8px; }
@@ -266,7 +267,7 @@ html.sp-no-motion .al-shaft, html.sp-no-motion .al-sun, html.sp-no-motion header
 }
 
 /* ---- T2 key-card band ---- */
-.al-keyband { background: var(--al-blush); border-radius: 16px; padding: 48px; display: grid; grid-template-columns: 11fr 9fr; gap: 40px; align-items: center; min-height: 280px; overflow: visible; }
+.al-keyband { background: #B8A39D; border-radius: 16px; padding: 48px; display: grid; grid-template-columns: 11fr 9fr; gap: 40px; align-items: center; min-height: 280px; overflow: visible; }
 .al-keyband__h { margin: 0 0 .75rem; font-size: 2.25rem; font-weight: 500; line-height: 1.15; }
 .al-keyband__p { margin: 0 0 1.5rem; max-width: 40ch; }
 .al-keyband__photo { display: flex; justify-content: center; }
@@ -324,3 +325,10 @@ html.sp-no-motion .al-shaft, html.sp-no-motion .al-sun, html.sp-no-motion header
 
 /* ---- editor ---- */
 .editor-styles-wrapper .al-head { position: relative; }
+
+/* ---- dark info band under the hero ---- */
+.al-band { background: #3E3230; color: #fff; }
+.al-band__in { max-width: var(--al-w); margin-inline: auto; min-height: 68px; padding: 0 var(--al-gut); display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.al-band__t { margin: 0; font-family: var(--al-sans); font-weight: 700; font-size: 1rem; letter-spacing: .02em; color: #fff; }
+.al-band__ico { flex: none; display: block; }
+@media (max-width: 781px) { .al-band__in { padding: 14px var(--al-gut); } .al-band__t { font-size: .9375rem; } }

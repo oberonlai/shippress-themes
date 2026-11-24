@@ -64,6 +64,7 @@ return array(
 	'tick3' => '11:00',
 	'tick4' => '14:00',
 	'tick5' => '21:00',
+	'band_t' => 'Night phone 21:00–07:00 · +00 44 555 0142',
 	'card1_t' => '04:50',
 	'card1_h' => 'The kitchen is already warm',
 	'card1_b' => 'Fresh coffee and hot water are ready before the early rounds.',
