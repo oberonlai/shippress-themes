@@ -113,29 +113,29 @@ img { max-width: 100%; height: auto; }
 .al-field { background: var(--al-rose); padding: 28px 40px 32px; }
 .al-window { position: relative; max-width: 1360px; margin-inline: auto; height: clamp(260px, 30.5vw, 440px); border-radius: 12px; overflow: clip; background: var(--al-ink); }
 .al-window__img { position: absolute; inset: 0; margin: 0; }
-.al-window__img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 60% 45%; border-radius: 0; }
-.al-shaft { position: absolute; top: 0; right: 0; width: 66%; height: 100%; pointer-events: none; mix-blend-mode: screen; background: linear-gradient(118deg, rgba(255, 246, 236, 0) 18%, rgba(255, 246, 236, .4) 46%, rgba(255, 246, 236, .12) 62%, rgba(255, 246, 236, 0) 82%); animation: al-shaft 1.6s cubic-bezier(.3, 0, .3, 1) both; }
+.al-window__img img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 60% 12%; border-radius: 0; }
+.al-shaft { position: absolute; top: 0; right: 0; width: 66%; height: 100%; pointer-events: none; mix-blend-mode: screen; background: linear-gradient(118deg, rgba(255, 246, 236, 0) 18%, rgba(255, 246, 236, .6) 44%, rgba(255, 246, 236, .22) 62%, rgba(255, 246, 236, 0) 82%); animation: al-shaft 1.6s cubic-bezier(.3, 0, .3, 1) both; }
 @keyframes al-shaft { from { opacity: 0; transform: translate3d(-24px, 0, 0); } to { opacity: 1; transform: none; } }
 .al-bar { position: absolute; top: 0; left: 50%; width: min(1120px, calc(100% - 96px)); transform: translateX(-50%); display: grid; grid-template-columns: repeat(4, 1fr); background: var(--al-white); border-radius: 0 0 8px 8px; min-height: 56px; z-index: 3; }
 .al-cell { padding: .55rem 1.25rem; border-left: 1px solid var(--al-blush); display: flex; flex-direction: column; justify-content: center; }
 .al-cell:first-child { border-left: 0; }
 .al-cell__l { margin: 0; font-family: var(--al-sans); font-weight: 700; font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--al-rose); line-height: 1.3; }
 .al-cell__v { margin: 0; font-family: var(--al-serif); font-weight: 500; font-size: 1.0625rem; color: var(--al-ink); line-height: 1.25; }
-.al-hero__below { max-width: var(--al-w); margin-inline: auto; padding: 22px var(--al-gut) 40px; }
+.al-hero__below { width: min(var(--al-w), calc(100% - 2 * var(--al-gut))); margin-inline: auto; padding: 20px 0 40px; }
 .al-hero__row { display: grid; grid-template-columns: minmax(0, 1fr) 270px 96px; gap: 24px; align-items: start; }
-.al-hero__h { font-size: var(--wp--preset--font-size--display); font-weight: 500; line-height: 1.05; letter-spacing: -.01em; margin: 0; }
+.al-hero__h { font-size: var(--wp--preset--font-size--display); font-weight: 500; line-height: 1.1; letter-spacing: -.01em; margin: 0; }
 .al-u { background: linear-gradient(var(--al-amber), var(--al-amber)) left bottom / 64px 3px no-repeat; padding-bottom: .1em; }
 .al-hero__col--lead { padding-top: .35rem; }
 .al-hero__lead { font-size: 1rem; line-height: 1.55; margin: 0 0 .9rem; color: var(--al-ink); }
 .al-hero__col--mark { padding-top: .5rem; }
 .al-emblem { display: block; width: 96px; height: 96px; }
 
-.al-dayline { position: relative; height: 56px; margin-top: 18px; }
+.al-dayline { position: relative; height: 52px; margin-top: 10px; }
 .al-dayline::before { content: ""; position: absolute; left: 0; right: 0; top: 10px; height: 1px; background: rgba(62, 50, 48, .4); }
 .al-tick { position: absolute; top: 0; margin: 0; padding-top: 18px; transform: translateX(-50%); font-family: var(--al-sans); font-size: .8125rem; line-height: 1; color: var(--al-ink); }
 .al-tick::before { content: ""; position: absolute; top: 5px; left: 50%; width: 1px; height: 11px; background: rgba(62, 50, 48, .55); }
 .al-tick--1 { left: 16%; } .al-tick--2 { left: 50%; } .al-tick--3 { left: 67%; } .al-tick--4 { left: 84%; } .al-tick--5 { left: 97%; }
-.al-sun { position: absolute; top: 4px; left: 16%; width: 12px; height: 12px; margin: 0 0 0 -6px; border-radius: 50%; background: var(--al-amber); animation: al-sun 1.2s ease-out .5s both; z-index: 2; }
+.al-sun { position: absolute; top: 7px; left: 16%; width: 7px; height: 7px; margin: 0 0 0 -3.5px; border-radius: 50%; background: var(--al-amber); animation: al-sun 1.2s ease-out .5s both; z-index: 2; }
 @keyframes al-sun { from { left: 16%; } to { left: 50%; } }
 .al-sun { left: 50%; }
 .al-hcards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 4px; }
@@ -159,7 +159,7 @@ img { max-width: 100%; height: auto; }
 	.al-cell { border-left: 0; border-top: 1px solid var(--al-blush); padding: .5rem .9rem; }
 	.al-cell:nth-child(2n) { border-left: 1px solid var(--al-blush); }
 	.al-cell:first-child, .al-cell:nth-child(2) { border-top: 0; }
-	.al-hero__below { padding: 24px var(--al-gut) 32px; }
+	.al-hero__below { padding: 24px 0 32px; }
 	.al-hero__row { grid-template-columns: minmax(0, 1fr); }
 	.al-hero__col--mark { display: none; }
 	.al-hero__col--lead { grid-row: auto; padding-top: .75rem; }
@@ -176,7 +176,7 @@ html.sp-no-motion .al-shaft, html.sp-no-motion .al-sun, html.sp-no-motion header
 
 /* ---- T3: notes card ---- */
 .al-notes { padding-top: calc(var(--al-sec) * .6); padding-bottom: calc(var(--al-sec) * .6); }
-.al-notes__h { font-family: var(--al-sans) !important; font-size: .75rem !important; font-weight: 700 !important; letter-spacing: .06em; text-transform: uppercase; color: var(--al-rose); margin: 0 0 .9rem !important; }
+.al-notes__h { font-family: var(--al-sans) !important; font-size: .75rem !important; font-weight: 700 !important; letter-spacing: .06em; text-transform: uppercase; color: var(--al-rose); margin: 0 auto .9rem !important; width: 100%; }
 .al-notes__card { background: var(--al-white); border: 1px solid var(--al-blush); border-radius: 12px; padding: 0 28px; }
 .al-note { display: flex; align-items: center; gap: 1rem; min-height: 60px; border-top: 1px solid var(--al-blush); position: relative; }
 .al-note:first-child { border-top: 0; }
@@ -254,7 +254,7 @@ html.sp-no-motion .al-shaft, html.sp-no-motion .al-sun, html.sp-no-motion header
 
 /* ---- rates ---- */
 .al-rates__list { border-top: 1px solid var(--al-blush); }
-.al-rate { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.9fr) minmax(9ch, auto); gap: 1.5rem; align-items: center; min-height: 64px; border-bottom: 1px solid var(--al-blush); padding: .75rem 0; }
+.al-rate { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.9fr) 13rem; gap: 1.5rem; align-items: center; min-height: 64px; border-bottom: 1px solid var(--al-blush); padding: .75rem 0; }
 .al-rate__name { margin: 0; font-family: var(--al-serif); font-size: 1.25rem; font-weight: 500; }
 .al-rate__note { margin: 0; color: var(--al-muted); font-size: .9375rem; }
 .al-rate__price { margin: 0; font-family: var(--al-serif); font-size: 1.25rem; font-weight: 500; text-align: right; white-space: nowrap; min-width: 9ch; }
