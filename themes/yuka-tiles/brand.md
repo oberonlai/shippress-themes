@@ -66,9 +66,9 @@ Prices in EUR including VAT. Tile and stone are priced per square metre on each 
 - Samuel Mensah, Architect, Linde & Mensah Studio. An architect who specified honed limestone treads and landings for the Alder Row terraced house project. He worked with the showroom to verify slip ratings and shade variation V2.
 
 ## Projects (invented, qualitative)
-1. Kowalczyk kitchen, Eastmere: 120 x 120 warm-grey porcelain floor chosen after two loans and a 13:00 comparison.
+1. Kowalczyk kitchen, Eastmere: off-white glazed wall tile 7.5 x 15 over a honed limestone worktop, chosen after two loans and a 13:00 comparison.
 2. Alder Row stair, Linde & Mensah Studio: honed limestone treads and landing, spec sheet checked for slip rating and shade V2.
-3. Harbour Lane bakery counter: muted green glazed wall tile 6.5 x 20 on the counter front, grout colour matched on the bench.
+3. Harbour Lane bakery counter: warm-grey stone mosaic strips 2.5 x 12 on the counter front, grout colour matched on the bench.
 
 ## Pages (stage 2 builds the inner pages)
 Ranges, Borrow a sample (booking and enquiry), Spec sheets, Prices, Projects, The showroom, Visit, Contact, Journal (posts page), New-arrivals letter (newsletter), Loan terms, Privacy, Thanks; two journal posts (Showroom notes, Specification).

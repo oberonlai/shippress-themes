@@ -40,7 +40,7 @@ img { max-width: 100%; height: auto; }
 .wp-block-image img { display: block; }
 :where(.yt-main) > * { margin-block: 0; }
 .yt-wrap { width: min(1296px, calc(100% - 2 * var(--yt-pad))); margin-inline: auto; }
-.yt-wrap--c { width: min(1120px, calc(100% - 2 * var(--yt-pad))); }
+.yt-wrap--c { width: min(1296px, calc(100% - 2 * var(--yt-pad))); }
 .yt-sec { padding-block: 96px; }
 .yt-label { margin: 0 0 16px; font-size: 1rem; font-weight: 400; color: var(--yt-grey); line-height: 1.4; }
 .yt-h2 { font-size: var(--wp--preset--font-size--section); line-height: 1.15; margin: 0 0 32px; max-width: 18ch; color: var(--yt-ink); }
@@ -118,8 +118,8 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--yt-ink); outli
 .yt-grid__img img { object-fit: cover; }
 .yt-par-1 { --sp-par: 6%; } .yt-par-2 { --sp-par: 9%; } .yt-par-3 { --sp-par: 7%; }
 .yt-par-1 img { object-position: 50% 60%; } .yt-par-2 img { object-position: 45% 55%; } .yt-par-3 img { object-position: 40% 50%; }
-.yt-sun { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(112deg, rgba(0, 0, 0, 0) 0 54%, rgba(38, 34, 30, .22) 54% 100%); }
-.yt-grid__cap { position: absolute; left: 0; right: 0; bottom: 0; z-index: 3; margin: 0; padding: 36px 20px 16px; font-size: .9375rem; font-weight: 400; color: #fff; background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .33) 100%); }
+.yt-sun { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(148deg, rgba(0, 0, 0, 0) 0 50%, rgba(38, 34, 30, .22) 50% 100%); }
+.yt-grid__cap { position: absolute; left: calc(100% / 3 + 1px); width: calc(100% / 3 - 2px); box-sizing: border-box; bottom: 0; z-index: 3; margin: 0; padding: 36px 20px 16px; font-size: .9375rem; font-weight: 400; color: #fff; background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .33) 100%); }
 .yt-hero__text { display: flex; flex-direction: column; justify-content: flex-end; padding: 0 72px 0 64px; min-width: 0; }
 .yt-eyebrow { margin: 0 0 24px; font-size: .9375rem; font-weight: 400; letter-spacing: .02em; color: var(--yt-soft); }
 .yt-hero__h1 { margin: 0 0 24px; font-size: clamp(3rem, 5vw, 4.5rem); line-height: 1.02; letter-spacing: -.02em; color: var(--yt-ink); }
@@ -137,11 +137,12 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--yt-ink); outli
 }
 @media (max-width: 781px) {
 	.yt-hero__inner { display: block; height: auto; }
-	.yt-grid { height: 260px; }
+	.yt-grid { height: auto; grid-template-rows: 260px auto; }
+	.yt-grid__col { height: 260px; }
+	.yt-sun { inset: 0 0 auto 0; height: 260px; }
 	.yt-par-1 { --sp-par: 4%; } .yt-par-2 { --sp-par: 6%; } .yt-par-3 { --sp-par: 5%; }
-	.yt-grid__cap { position: static; background: none; color: var(--yt-soft); font-size: .875rem; padding: 10px 0 0; }
+	.yt-grid__cap { position: static; grid-column: 1 / -1; grid-row: 2; width: auto; background: none; color: var(--yt-soft); font-size: .875rem; padding: 10px var(--yt-pad) 0; }
 	.yt-grid__col { overflow: clip; }
-	.yt-grid__col .yt-grid__cap { position: absolute; left: -9999px; }
 	.yt-hero__text { padding: 24px var(--yt-pad) 0; }
 	.yt-eyebrow { font-size: .875rem; margin-bottom: 16px; }
 	.yt-hero__h1 { font-size: 3rem; }
@@ -298,3 +299,14 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--yt-ink); outli
 :lang(fr) h1, :lang(fr) h2, :lang(fr) h3, :lang(de) h1, :lang(de) h2, :lang(de) h3, :lang(fr) p, :lang(de) p, :lang(fr) li, :lang(de) li, :lang(fr) td, :lang(de) td { hyphens: auto; overflow-wrap: break-word; }
 :lang(fr) .yt-h2, :lang(de) .yt-h2 { max-width: 22ch; }
 @media (max-width: 1280px) { :lang(de) .yt-nav a, :lang(fr) .yt-nav a { letter-spacing: .01em; } }
+
+/* ---------- shop templates (WooCommerce, optional) */
+.yt-shop-bar { margin: 24px 0 32px; align-items: center; font-size: .9375rem; color: var(--yt-soft); }
+.yt-products .wp-block-woocommerce-product-template { gap: 32px 2px; }
+.yt-product__image img { border-radius: 0; }
+.yt-product__title { margin: 12px 0 4px; font-size: 1.125rem; font-weight: 400; }
+.yt-product__title a { color: var(--yt-ink); text-decoration: none; }
+.yt-product__price { color: var(--yt-soft); font-size: .9375rem; }
+.yt-product-main { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+.yt-product-main__price { font-size: 1.25rem; color: var(--yt-copper); }
+@media (max-width: 781px) { .yt-product-main { grid-template-columns: 1fr; gap: 24px; } }

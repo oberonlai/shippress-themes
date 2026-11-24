@@ -54,4 +54,4 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary hig
 - assets/images/project-stair.webp (home project card 2)
 - assets/images/project-bakery.webp (home project card 3)
 - assets/images/visit-entrance.webp (home visit block)
-- assets/images/demo/hero-bench-client.webp and assets/images/demo/range-stone.webp (Media Library copies for the journal entries' featured images; same photographs as above)
+- assets/images/demo/hero-bench-client.webp, assets/images/demo/range-stone.webp, assets/images/demo/range-porcelain.webp, assets/images/demo/borrow-sample-bag.webp, assets/images/demo/spec-sheet-board.webp and assets/images/demo/project-stair.webp (Media Library copies for the journal entries' and sample products' featured images; same photographs as above)

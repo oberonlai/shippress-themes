@@ -25,9 +25,6 @@
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"yt-grid__img"} -->
 <figure class="wp-block-image size-full yt-grid__img"><img src="<?php echo yuka_tiles_img( 'hero-bench-client.webp' ); ?>" alt="<?php echo yuka_tiles_a( 'alt_h2' ); ?>"/></figure>
 <!-- /wp:image -->
-<!-- wp:paragraph {"className":"yt-grid__cap"} -->
-<p class="yt-grid__cap"><?php echo esc_html( yuka_tiles_t( 'hero_cap' ) ); ?></p>
-<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"yt-grid__col sp-parallax yt-par-3","layout":{"type":"default"}} -->
@@ -40,6 +37,9 @@
 <!-- wp:html -->
 <div class="yt-sun" aria-hidden="true"></div>
 <!-- /wp:html -->
+<!-- wp:paragraph {"className":"yt-grid__cap"} -->
+<p class="yt-grid__cap"><?php echo esc_html( yuka_tiles_t( 'hero_cap' ) ); ?></p>
+<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"yt-hero__text","layout":{"type":"default"}} -->
