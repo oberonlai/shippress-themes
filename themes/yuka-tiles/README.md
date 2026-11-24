@@ -15,3 +15,23 @@ The theme declares WooCommerce support but does not require it. With WooCommerce
 
 ## Fonts
 Schibsted Grotesk and Albert Sans (OFL-1.1), Noto Sans TC and Noto Sans JP for Chinese and Japanese, loaded through theme.json.
+
+<!-- screenshots:start -->
+## Screenshots
+
+<table>
+<tr>
+<td valign="top"><img src="https://shots.codotx.com/yuka-tiles/home-desktop.webp" width="640" alt="Yuka Tiles home page on desktop"></td>
+<td valign="top"><img src="https://shots.codotx.com/yuka-tiles/home-mobile.webp" width="200" alt="Yuka Tiles home page on mobile"></td>
+</tr>
+</table>
+
+- About: [desktop](https://shots.codotx.com/yuka-tiles/about-desktop.webp) · [mobile](https://shots.codotx.com/yuka-tiles/about-mobile.webp)
+- News: [desktop](https://shots.codotx.com/yuka-tiles/news-desktop.webp) · [mobile](https://shots.codotx.com/yuka-tiles/news-mobile.webp)
+- Article: [desktop](https://shots.codotx.com/yuka-tiles/article-desktop.webp) · [mobile](https://shots.codotx.com/yuka-tiles/article-mobile.webp)
+- Category: [desktop](https://shots.codotx.com/yuka-tiles/category-desktop.webp) · [mobile](https://shots.codotx.com/yuka-tiles/category-mobile.webp)
+- Tag: [desktop](https://shots.codotx.com/yuka-tiles/tag-desktop.webp) · [mobile](https://shots.codotx.com/yuka-tiles/tag-mobile.webp)
+- Newsletter: [desktop](https://shots.codotx.com/yuka-tiles/newsletter-desktop.webp) · [mobile](https://shots.codotx.com/yuka-tiles/newsletter-mobile.webp)
+- Contact: [desktop](https://shots.codotx.com/yuka-tiles/contact-desktop.webp) · [mobile](https://shots.codotx.com/yuka-tiles/contact-mobile.webp)
+- Other languages (home page): [zh-TW](https://shots.codotx.com/yuka-tiles/zh-TW/home-desktop.webp) · [ja](https://shots.codotx.com/yuka-tiles/ja/home-desktop.webp) · [fr](https://shots.codotx.com/yuka-tiles/fr/home-desktop.webp) · [de](https://shots.codotx.com/yuka-tiles/de/home-desktop.webp)
+<!-- screenshots:end -->
