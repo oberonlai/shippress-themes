@@ -37,7 +37,7 @@
 <!-- wp:paragraph {"className":"kc-footer__h"} -->
 <p class="kc-footer__h"><?php echo esc_html( kodou_charging_t( 'ft_pages_h' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:html -->
-<ul class="kc-footer__links"><li><a href="/#why"><?php echo esc_html( kodou_charging_t( 'fl_about' ) ); ?></a></li><li><a href="/#assessment"><?php echo esc_html( kodou_charging_t( 'fl_assess' ) ); ?></a></li><li><a href="/#pricing"><?php echo esc_html( kodou_charging_t( 'fl_services' ) ); ?></a></li><li><a href="/sites/"><?php echo esc_html( kodou_charging_t( 'fl_sites' ) ); ?></a></li><li><a href="/stories/"><?php echo esc_html( kodou_charging_t( 'fl_stories' ) ); ?></a></li><li><a href="/news/"><?php echo esc_html( kodou_charging_t( 'fl_news' ) ); ?></a></li><li><a href="/contact/"><?php echo esc_html( kodou_charging_t( 'fl_contact' ) ); ?></a></li></ul>
+<ul class="kc-footer__links"><li><a href="/about/"><?php echo esc_html( kodou_charging_t( 'fl_about' ) ); ?></a></li><li><a href="/site-assessment/"><?php echo esc_html( kodou_charging_t( 'fl_assess' ) ); ?></a></li><li><a href="/services/"><?php echo esc_html( kodou_charging_t( 'fl_services' ) ); ?></a></li><li><a href="/sites/"><?php echo esc_html( kodou_charging_t( 'fl_sites' ) ); ?></a></li><li><a href="/stories/"><?php echo esc_html( kodou_charging_t( 'fl_stories' ) ); ?></a></li><li><a href="/news/"><?php echo esc_html( kodou_charging_t( 'fl_news' ) ); ?></a></li><li><a href="/contact/"><?php echo esc_html( kodou_charging_t( 'fl_contact' ) ); ?></a></li><li><a href="/privacy/"><?php echo esc_html( kodou_charging_t( 'fl_privacy' ) ); ?></a></li><li><a href="/terms/"><?php echo esc_html( kodou_charging_t( 'fl_terms' ) ); ?></a></li></ul>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->
