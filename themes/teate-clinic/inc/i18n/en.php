@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns (semantic keys). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'about_0_a' => 'Maren Holt and Kofi Mensah opened Teate Clinic in 2014 after they met working in a sports-club clinic. They wanted a quieter room of their own: two osteopaths, one pale couch, and enough time to listen before anyone is asked to lie down. Halbrook is home. The clinic sits on the ground floor of 14 Linden Row, step-free from the street, with light oak, white linen and window light.',
 	'about_0_b' => 'The line they still use is the tagline on the card: Hands-on care for desks and sport. Maren spends her clinic days with the neck, shoulders and lower back of people who work at a desk. Kofi sees runners, cyclists and swimmers who train for fun and arrive with a knee, an ankle, a hip or a shoulder that will not settle. They share the week so that evening hours stay available mainly for people coming straight from work.',
@@ -154,6 +154,7 @@ return array(
 	'ct_2_v' => '+00 44 555 0172',
 	'ct_3_l' => 'Email',
 	'ct_3_v' => 'hello@teate-clinic.example',
+	'date_fmt' => 'j F Y',
 	'day_1_t' => '07:45',
 	'day_1_v' => 'Rooms aired, couches made with fresh linen',
 	'day_2_t' => '08:00',
@@ -240,6 +241,7 @@ return array(
 	'hr_phone_v' => 'Mon–Fri 08:00–18:00',
 	'hr_sat' => 'Saturday',
 	'hr_sat_v' => '08:30–13:00',
+	'k8cf04a97' => 'Home',
 	'lang_label' => 'Language',
 	'list_h' => 'Notes',
 	'list_l' => 'NOTES',
@@ -354,6 +356,7 @@ return array(
 	'refer_3_v' => 'We stop and send you to a doctor first.',
 	'refer_4_l' => 'A fall',
 	'refer_4_v' => 'We stop and send you to a doctor first.',
+	'search_results' => 'Search results for: %s',
 	'sh_conditions_1' => 'Neck',
 	'sh_conditions_2' => 'Back',
 	'sh_conditions_3' => 'Sport',
