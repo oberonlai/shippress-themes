@@ -1,6 +1,6 @@
 # Design spec: Kodou Charging (kodou-charging)
 
-Stage 1 design spec (design director). Implementers follow this literally; when a value here conflicts with taste, this file wins. Row b40-5: landing type, single-column-longform, sans, palette 錆浅葱 #5A7E78, IMAGERY **photo**.
+Stage 1 design spec (design director). Implementers follow this literally; when a value here conflicts with taste, this file wins. Row b40-5: landing type, single-column-longform, sans, palette sabi-asagi (rust teal) #5A7E78, IMAGERY **photo**.
 
 - Main reference: Nichicon V2H / V2L page, https://www.nichicon.co.jp/products/v2h/ (screens `brand/ref/nichicon-v2h-first.png`, `brand/ref/nichicon-v2h-full.png`, `brand/ref/nichicon-first.png`, `brand/ref/scroll-nichicon-fade-*.png`). Measured values: `brand/reference-tokens.md` (cited below as `tok(a)`…`tok(g)`).
 - No secondary reference.
@@ -138,14 +138,14 @@ theme-meta pages: home, about, news, article, category, tag, newsletter (→ /ne
 | body | #4A5755 | text | ref body grey #555555 (−3 % L) |
 | muted | #8A9693 | breadcrumb, eyebrow | ref #B1B1B1 darkened for contrast |
 | hairline | #D9E0DE | rules | ref #E0E0E0 |
-| accent | #5A7E78 | ~6–8 % | **replaces ref blue #1450E1**: plan palette 錆浅葱 is fixed by the row; blue would also read as a generic utility brand. Used exactly where Nichicon uses blue: section H2s, accent phrases, active tab fill, banner border, bullet dots |
+| accent | #5A7E78 | ~6–8 % | **replaces ref blue #1450E1**: plan palette sabi-asagi (rust teal) is fixed by the row; blue would also read as a generic utility brand. Used exactly where Nichicon uses blue: section H2s, accent phrases, active tab fill, banner border, bullet dots |
 | deep | #2F4A45 | footer bg, links, focus | ref navy #113293 role (logo/footer only) |
 | spark | #C8873A | <1 % | only the 8 px live dot in the booking bar pictogram and form success icon |
 Contrast: accent on white ≈ 4.4:1 → only for text ≥ 20 px bold / 24 px regular; small links use deep #2F4A45 (≈ 9.6:1). First-screen saturated share ≤ 5 % (check-first-screen.py cap 15 %).
 
 ## 7. Type (font_direction: **sans**)
 - Latin headings: **Hanken Grotesk** (400/500/600/700); Latin body: **Nunito Sans** (400/600/700). Both sans; no serif anywhere.
-- CJK: zh-TW `"Hanken Grotesk", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif` for headings (bundled Noto Sans TC subset, display only); body `"Nunito Sans", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif` (system, no bundled CJK). ja headings `"Hanken Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif`; body `"Nunito Sans", "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", sans-serif`. 黑體 only, no 明體.
+- CJK: zh-TW `"Hanken Grotesk", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif` for headings (bundled Noto Sans TC subset, display only); body `"Nunito Sans", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif` (system, no bundled CJK). ja headings `"Hanken Grotesk", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif`; body `"Nunito Sans", "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", sans-serif`. gothic (sans) only, no serif or mincho.
 - Load all through theme.json `fontFamilies` + `fontFace` (woff2 in assets/fonts, listed in theme-meta `fonts[].files` with OFL license); copy `shared/inc/editor-lang.php` to `inc/` and require it (style.css uses `:lang()`), so editor = front end. zh-TW/ja subsets via the Hokuto/Hada workaround.
 | Role | Size | Weight / lh / tracking | Source |
 |---|---|---|---|

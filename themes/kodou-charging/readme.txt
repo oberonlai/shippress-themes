@@ -26,6 +26,23 @@ Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (reveal, stagger, c
 
 WooCommerce: support is declared; the theme works fully without it.
 
+== Images ==
+
+Photographs are original images generated for this theme and released under GPL-2.0-or-later with the theme:
+- assets/images/check-bay-layout.webp (GPL-2.0-or-later)
+- assets/images/check-cable-route.webp (GPL-2.0-or-later)
+- assets/images/check-report.webp (GPL-2.0-or-later)
+- assets/images/check-switchboard.webp (GPL-2.0-or-later)
+- assets/images/demo/check-cable-route.webp (GPL-2.0-or-later)
+- assets/images/fleet-bays.webp (GPL-2.0-or-later)
+- assets/images/hero-fitter-column.webp (GPL-2.0-or-later)
+- assets/images/site-band-wide.webp (GPL-2.0-or-later)
+- assets/images/staff-bays.webp (GPL-2.0-or-later)
+- assets/images/story-depot.webp (GPL-2.0-or-later)
+- assets/images/story-health-centre.webp (GPL-2.0-or-later)
+- assets/images/story-offices.webp (GPL-2.0-or-later)
+- assets/images/visit-walkthrough.webp (GPL-2.0-or-later)
+
 == Copyright ==
 
 Kodou Charging, Copyright 2026 ShipPress. Licensed under GPL-2.0-or-later. Fonts (Hanken Grotesk, Nunito Sans) are licensed under the SIL Open Font License 1.1; see assets/fonts. Photographs are generated for this theme and licensed under GPL-2.0-or-later.
