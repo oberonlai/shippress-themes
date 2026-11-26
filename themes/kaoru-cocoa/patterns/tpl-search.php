@@ -15,7 +15,8 @@
 <!-- wp:query-title {"type":"search","level":1,"className":"kc-word kc-word--page"} /--></div>
 <!-- /wp:group -->
 <!-- wp:group {"align":"full","className":"kc-sec kc-sec--in","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull kc-sec kc-sec--in"><div class="kc-col"><!-- wp:search {"label":"Search","buttonText":"Search"} /-->
+<div class="wp-block-group alignfull kc-sec kc-sec--in"><!-- wp:group {"className":"kc-col","layout":{"type":"default"}} -->
+<div class="wp-block-group kc-col"><!-- wp:search {"label":"Search","buttonText":"Search"} /-->
 
 <!-- wp:query {"queryId":4,"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"layout":{"type":"default"}} -->
 <div class="wp-block-query"><!-- wp:post-template {"className":"kc-rows","layout":{"type":"default"}} -->
@@ -39,5 +40,6 @@
 
 <!-- wp:query-pagination-next /-->
 <!-- /wp:query-pagination --></div>
-<!-- /wp:query --></div></div>
+<!-- /wp:query --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
