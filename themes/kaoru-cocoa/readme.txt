@@ -46,5 +46,6 @@ Images: AI-generated for this theme with Grok Build image_gen as high-key docume
 - assets/images/story-favours.webp (small favour boxes tied with linen)
 - assets/images/story-table.webp (a seated tasting table from above)
 - assets/images/visit-counter.webp (the shop counter and marble slab)
+- assets/images/about-makers.webp (two makers working chocolate on the marble slab)
 - assets/images/demo/post-temper.webp (sample post image, a copy of plate-temper)
 - assets/images/demo/post-flight.webp (sample post image, a copy of card-flight)
