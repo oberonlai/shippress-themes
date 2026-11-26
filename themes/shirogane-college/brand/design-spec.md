@@ -310,7 +310,7 @@ The relationship we keep from Azabu: **one deep brand colour** for headings and 
 | ground | **#FFFFFF** | ~55 % | Azabu #FFFFFF `tok(a)` (unchanged) |
 | pale band | **#EDF0E6** | ~12 % | Azabu pale band #EADDEE (lilac) → same lightness (±3 % L), hue moved to the plan's green family. Used for the booking strip, hex band, intake band, thumb squares |
 | pale grey | #EEF1F2 | table header row | Azabu #EAEDF2 (±2 %) |
-| **main (pine, 松葉)** | **#5C6B48** | ~14 % (hero panel, heads, page heads) | plan hex. Takes Azabu's brand purple #7B2482 role: H2 heads, icons, links, Apply button, panels. HSV S 0.33 |
+| **main (pine, plan palette "matsuba")** | **#5C6B48** | ~14 % (hero panel, heads, page heads) | plan hex. Takes Azabu's brand purple #7B2482 role: H2 heads, icons, links, Apply button, panels. HSV S 0.33 |
 | pine-deep | #3F4A31 | footer, hover | – |
 | panel light text | #EEF1E8 / #DDE3D3 | text on pine | – |
 | ink | #232820 | headings, body | Azabu #000000 → warm-green black (L +12 %, softer on white; contrast 15 : 1) |
@@ -373,7 +373,7 @@ The relationship we keep from Azabu: **one deep brand colour** for headings and 
   - **Outline button**: 1 px #5C6B48, pine text, same size.
 - Focus ring everywhere: 2 px #B5472F outline, 2 px offset.
 
-## 9. Scroll effects (from stage-a "捲動手法候選"; sp-scroll copied unchanged)
+## 9. Scroll effects (from the stage-a scroll-effect candidates; sp-scroll copied unchanged)
 
 **Three sp effects**: `sp-reveal--up` (with `sp-stagger`), `sp-parallax`, `sp-count`. The fourth motion is the hero cross-dissolve, our own CSS keyframes (Azabu `slideShow`, `tok(g)`), not an sp class. No wipe, no marquee.
 
