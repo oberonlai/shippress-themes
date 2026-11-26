@@ -4,7 +4,7 @@
 Kikan College, a plumbing and heating apprenticeship college for adults (fictional). One course, two years: one year at the bench in the college halls, one year placed with a working firm. Intake every September. Industry: apprenticeship college, business type.
 
 ## Location and founding
-4 Foundry Row, Wrenfield (fictional, international-neutral town). Founded in 2009 by Rosa Lindqvist and Emeka Obi in a rented foundry workshop with six benches. Email hello@kikan-college.example, phone +00 44 555 0193. Tagline: "Warm homes start at the bench."
+22 Foundry Lane, Wrenfield (fictional, international-neutral town). Founded in 2009 by Rosa Lindqvist and Emeka Obi in a rented foundry workshop with six benches. Email hello@kikan-college.example, phone +00 44 555 0193. Tagline: "Warm homes start at the bench."
 
 ## Story
 Kikan College trains adults for site work in plumbing and heating. Rosa Lindqvist, a master plumber, and Emeka Obi, who spent two decades servicing boilers, founded it in 2009 and still teach. Year 1 is the bench year: 38 teaching weeks, September to July, four bench days (Monday to Thursday) in Bench Hall A (pipework, soldering, bending, drainage) and Bench Hall B (boiler rig, controls, heat pumps), and one theory day on Friday (water regulations, heat loss, reading drawings, safe working). Year 2 is the placement year: four days a week with a partner firm and one day at college on Friday, with one site visit per term from the placement coordinator, Grace Mwangi.
