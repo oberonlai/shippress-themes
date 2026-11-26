@@ -167,12 +167,8 @@
 <?php
 ob_start();
 ?>
-<!-- wp:paragraph {"className":"nk-form-note"} -->
 <p class="nk-form-note"><?php echo esc_html( noki_surveyors_t( 'contact_fallback_note' ) ); ?></p>
-<!-- /wp:paragraph -->
-<!-- wp:buttons {"className":"nk-btns"} -->
-<div class="wp-block-buttons nk-btns"><!-- wp:button {"className":"nk-btn"} --><div class="wp-block-button nk-btn"><a class="wp-block-button__link wp-element-button" href="mailto:hello@noki-surveyors.example?subject=<?php echo rawurlencode( noki_surveyors_t( 'contact_mail_subject' ) ); ?>"><?php echo esc_html( noki_surveyors_t( 'contact_email_button' ) ); ?></a></div><!-- /wp:button --></div>
-<!-- /wp:buttons -->
+<div class="wp-block-buttons nk-btns"><div class="wp-block-button nk-btn"><a class="wp-block-button__link wp-element-button" href="mailto:hello@noki-surveyors.example?subject=<?php echo rawurlencode( noki_surveyors_t( 'contact_mail_subject' ) ); ?>"><?php echo esc_html( noki_surveyors_t( 'contact_email_button' ) ); ?></a></div></div>
 <?php
 $noki_fallback = ob_get_clean();
 echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $noki_fallback ) ); // phpcs:ignore WordPress.Security.EscapeOutput
