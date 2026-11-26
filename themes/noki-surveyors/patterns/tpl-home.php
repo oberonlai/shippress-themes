@@ -22,12 +22,20 @@
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
+<!-- wp:paragraph {"className":"nk-listlede"} -->
+<p class="nk-listlede"><?php echo esc_html( noki_surveyors_t( 'list_p' ) ); ?></p>
+<!-- /wp:paragraph -->
 <!-- wp:query {"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"layout":{"type":"default"}} -->
 <div class="wp-block-query"><!-- wp:post-template {"className":"nk-list"} -->
 <!-- wp:group {"className":"nk-listrow","layout":{"type":"default"}} -->
 <div class="wp-block-group nk-listrow">
 <!-- wp:post-date {"format":"j M Y","className":"nk-listrow__d"} /-->
+<!-- wp:group {"className":"nk-listrow__b","layout":{"type":"default"}} -->
+<div class="wp-block-group nk-listrow__b">
+<!-- wp:post-terms {"term":"category","className":"nk-listrow__c"} /-->
 <!-- wp:post-title {"isLink":true,"level":3,"className":"nk-listrow__t"} /-->
+</div>
+<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
