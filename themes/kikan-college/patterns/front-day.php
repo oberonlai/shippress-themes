@@ -76,8 +76,8 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"kc-seg kc-seg--tint kc-seg--5","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-seg kc-seg--tint kc-seg--5">
-<!-- wp:paragraph {"className":"kc-seg__l kc-vh"} -->
-<p class="kc-seg__l kc-vh"><?php echo esc_html( kikan_college_t( 'seg5_l' ) ); ?></p>
+<!-- wp:paragraph {"className":"kc-seg__l"} -->
+<p class="kc-seg__l"><?php echo esc_html( kikan_college_t( 'seg5_l' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"kc-seg__t"} -->
 <p class="kc-seg__t"><?php echo esc_html( kikan_college_t( 'seg5_t' ) ); ?></p>
@@ -96,8 +96,8 @@
 <!-- /wp:group -->
 <!-- wp:group {"className":"kc-seg kc-seg--copper kc-seg--7","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-seg kc-seg--copper kc-seg--7">
-<!-- wp:paragraph {"className":"kc-seg__l kc-vh"} -->
-<p class="kc-seg__l kc-vh"><?php echo esc_html( kikan_college_t( 'seg7_l' ) ); ?></p>
+<!-- wp:paragraph {"className":"kc-seg__l"} -->
+<p class="kc-seg__l"><?php echo esc_html( kikan_college_t( 'seg7_l' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- wp:paragraph {"className":"kc-seg__t"} -->
 <p class="kc-seg__t"><?php echo esc_html( kikan_college_t( 'seg7_t' ) ); ?></p>
@@ -107,6 +107,9 @@
 
 </div>
 <!-- /wp:group -->
+<!-- wp:paragraph {"className":"kc-legend"} -->
+<p class="kc-legend"><?php echo esc_html( kikan_college_t( 'day_legend' ) ); ?></p>
+<!-- /wp:paragraph -->
 <!-- wp:group {"className":"kc-fri","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-fri">
 <!-- wp:paragraph {"className":"kc-fri__l"} -->
