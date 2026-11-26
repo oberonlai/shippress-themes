@@ -412,3 +412,25 @@ mark.has-primary-color { color: var(--kc-pri); }
 	--wp--preset--font-family--display: "Hanken Grotesk", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
 	--wp--preset--font-family--body: "Nunito Sans", "PingFang TC", "Microsoft JhengHei", sans-serif;
 }
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Hanken Grotesk", "Noto Sans JP", "Noto Sans CJK JP", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+	--wp--preset--font-family--body: "Nunito Sans", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.02em; }
+:lang(ja) :is(h1, h2, h3, p) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, li) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(zh), :lang(ja)) .kc-hero__h1 { line-height: 1.3; letter-spacing: 0.01em; font-weight: 700; }
+:is(:lang(fr), :lang(de)) .kc-hero__h1 { hyphens: auto; }
+@media (min-width: 1100px) {
+	:is(:lang(zh), :lang(ja)) .kc-hero__h1 { font-size: 3.25rem; }
+	:is(:lang(fr), :lang(de)) .kc-hero__h1 { font-size: 3.75rem; }
+}
+@media (max-width: 1099px) {
+	:is(:lang(zh), :lang(ja)) .kc-hero__h1 { font-size: 2.5rem; }
+	:is(:lang(fr), :lang(de)) .kc-hero__h1 { font-size: 3rem; }
+}
+@media (max-width: 599px) {
+	:is(:lang(zh), :lang(ja)) .kc-hero__h1 { font-size: 2rem; }
+	:is(:lang(fr), :lang(de)) .kc-hero__h1 { font-size: 2.125rem; }
+}
