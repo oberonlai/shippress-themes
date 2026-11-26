@@ -61,27 +61,6 @@
 <!-- /wp:group -->
 </section>
 <!-- /wp:group -->
-<!-- wp:group {"tagName":"section","anchor":"winter","align":"full","className":"nk-notice nk-notice--page","layout":{"type":"default"}} -->
-<section id="winter" class="wp-block-group alignfull nk-notice nk-notice--page">
-<!-- wp:group {"className":"nk-notice__box nk-notice__box--long","layout":{"type":"default"}} -->
-<div class="wp-block-group nk-notice__box nk-notice__box--long">
-<!-- wp:group {"className":"nk-notice__label","layout":{"type":"default"}} -->
-<div class="wp-block-group nk-notice__label">
-<!-- wp:paragraph {"className":"nk-notice__t"} -->
-<p class="nk-notice__t"><?php echo esc_html( noki_surveyors_t( 'notice_t' ) ); ?></p>
-<!-- /wp:paragraph -->
-<!-- wp:paragraph {"className":"nk-notice__s"} -->
-<p class="nk-notice__s"><?php echo esc_html( noki_surveyors_t( 'notice_s' ) ); ?></p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
-<!-- wp:paragraph {"className":"nk-notice__line"} -->
-<p class="nk-notice__line"><?php echo esc_html( noki_surveyors_t( 'prices_0_b' ) ); ?></p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->
-</section>
-<!-- /wp:group -->
 <!-- wp:group {"tagName":"section","anchor":"price","align":"full","className":"nk-sec nk-sec--prices","layout":{"type":"default"}} -->
 <section id="price" class="wp-block-group alignfull nk-sec nk-sec--prices">
 <!-- wp:group {"className":"nk-wrap nk-wrap--c","layout":{"type":"default"}} -->
@@ -111,6 +90,27 @@
 <!-- /wp:html -->
 <!-- wp:paragraph {"className":"nk-note"} -->
 <p class="nk-note"><?php echo esc_html( noki_surveyors_t( 'pr_note' ) ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+</section>
+<!-- /wp:group -->
+<!-- wp:group {"tagName":"section","anchor":"winter","align":"full","className":"nk-notice nk-notice--page","layout":{"type":"default"}} -->
+<section id="winter" class="wp-block-group alignfull nk-notice nk-notice--page">
+<!-- wp:group {"className":"nk-notice__box nk-notice__box--long","layout":{"type":"default"}} -->
+<div class="wp-block-group nk-notice__box nk-notice__box--long">
+<!-- wp:group {"className":"nk-notice__label","layout":{"type":"default"}} -->
+<div class="wp-block-group nk-notice__label">
+<!-- wp:paragraph {"className":"nk-notice__t"} -->
+<p class="nk-notice__t"><?php echo esc_html( noki_surveyors_t( 'notice_t' ) ); ?></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"nk-notice__s"} -->
+<p class="nk-notice__s"><?php echo esc_html( noki_surveyors_t( 'notice_s' ) ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:paragraph {"className":"nk-notice__line"} -->
+<p class="nk-notice__line"><?php echo esc_html( noki_surveyors_t( 'prices_0_b' ) ); ?></p>
 <!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->
