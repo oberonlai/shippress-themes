@@ -27,3 +27,27 @@ Optional forms: the request, contact and slot alerts pages use a dynamic form bl
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (reveal, stagger, count and parallax). They respect prefers-reduced-motion and show everything without JavaScript.
 
 WooCommerce: support is declared; the theme works fully without it.
+
+== Images ==
+
+Photographs are original images generated for this theme and released under GPL-2.0-or-later with the theme:
+- assets/images/ask-crack-gauge.webp (GPL-2.0-or-later)
+- assets/images/ask-floorboards.webp (GPL-2.0-or-later)
+- assets/images/ask-pole-camera.webp (GPL-2.0-or-later)
+- assets/images/field-downpipe.webp (GPL-2.0-or-later)
+- assets/images/field-sill-photo.webp (GPL-2.0-or-later)
+- assets/images/field-terrace-row.webp (GPL-2.0-or-later)
+- assets/images/find-flat-roof.webp (GPL-2.0-or-later)
+- assets/images/find-floor-level.webp (GPL-2.0-or-later)
+- assets/images/find-lintel-crack.webp (GPL-2.0-or-later)
+- assets/images/find-tide-mark.webp (GPL-2.0-or-later)
+- assets/images/find-valley-slates.webp (GPL-2.0-or-later)
+- assets/images/hero-damp-meter.webp (GPL-2.0-or-later)
+- assets/images/hero-ladder-lintel.webp (GPL-2.0-or-later)
+- assets/images/report-table.webp (GPL-2.0-or-later)
+- assets/images/visit-ladder-walk.webp (GPL-2.0-or-later)
+- assets/images/demo/find-lintel-crack.webp (GPL-2.0-or-later)
+
+== Copyright ==
+
+Noki Surveyors, Copyright 2026 ShipPress. Licensed under GPL-2.0-or-later. Fonts (Barlow, IBM Plex Sans, Noto Sans TC, Noto Sans JP) are licensed under the SIL Open Font License 1.1; see assets/fonts. Photographs are generated for this theme and licensed under GPL-2.0-or-later.
