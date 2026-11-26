@@ -27,7 +27,7 @@
 
 <!-- wp:group {"className":"sz-message__text","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-message__text"><!-- wp:paragraph {"className":"sz-para sp-reveal sp-reveal--up"} -->
-<p class="sz-para sp-reveal sp-reveal--up">Kidney disease rarely announces itself with sharp discomfort or sudden warning symptoms. Instead, renal function tends to decline quietly over many months and years, with critical markers like serum creatinine, estimated filtration rate, and urine protein shifting in subtle increments that brief, disconnected medical appointments easily overlook.</p>
+<p class="sz-para sp-reveal sp-reveal--up">Kidney disease rarely announces itself. There is usually no pain and no warning, only blood and urine numbers that drift a little from one year to the next. A single appointment can easily miss that drift, so we keep your results side by side and look at the direction they are taking.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-para sp-reveal sp-reveal--up"} -->
