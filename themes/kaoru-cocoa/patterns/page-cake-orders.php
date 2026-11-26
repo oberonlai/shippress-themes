@@ -11,46 +11,46 @@
 <!-- wp:group {"align":"full","className":"kc-hero kc-ihead","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull kc-hero kc-ihead"><!-- wp:group {"className":"kc-window","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-window"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-window__photo kc-ihead__photo"} -->
-<figure class="wp-block-image size-full kc-window__photo kc-ihead__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/plate-glaze.webp' ) ); ?>" alt="Dark mirror chocolate glaze poured smoothly over a round cake on a wire rack."/></figure>
+<figure class="wp-block-image size-full kc-window__photo kc-ihead__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/plate-glaze.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'a2baccc6e' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-strips","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-strips"><!-- wp:paragraph {"className":"kc-strip kc-strip--1"} -->
-<p class="kc-strip kc-strip--1">Choose</p>
+<p class="kc-strip kc-strip--1"><?php echo wp_kses_post( kaoru_cocoa_t( 'k961f2247' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-strip kc-strip--2"} -->
-<p class="kc-strip kc-strip--2">Three days</p>
+<p class="kc-strip kc-strip--2"><?php echo wp_kses_post( kaoru_cocoa_t( 'k9fabf41d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-strip kc-strip--3"} -->
-<p class="kc-strip kc-strip--3">Collect</p>
+<p class="kc-strip kc-strip--3"><?php echo wp_kses_post( kaoru_cocoa_t( 'ke7ca8519' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-hero__text kc-ihead__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hero__text kc-ihead__text"><!-- wp:paragraph {"className":"kc-label"} -->
-<p class="kc-label">Cake orders</p>
+<p class="kc-label"><?php echo wp_kses_post( kaoru_cocoa_t( 'k4d2ae10e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"kc-h1 kc-h1--in"} -->
-<h1 class="wp-block-heading kc-h1 kc-h1--in">Cake Orders and Collection</h1>
+<h1 class="wp-block-heading kc-h1 kc-h1--in"><?php echo wp_kses_post( kaoru_cocoa_t( 'k10a4a8fc' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-lede"} -->
-<p class="kc-lede">Our whole cakes are baked by Adaeze Okafor, finished with fresh glazes, and boxed by Sofia Marchetti for weekend collections at 14 Linden Arcade. We prepare three signature cakes in two sizes for collection Friday through Sunday.</p>
+<p class="kc-lede"><?php echo wp_kses_post( kaoru_cocoa_t( 'k717640f6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"full","className":"kc-isec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull kc-isec"><!-- wp:heading {"level":2,"className":"kc-h2"} -->
-<h2 class="wp-block-heading kc-h2">Our three signature cakes and sizes</h2>
+<h2 class="wp-block-heading kc-h2"><?php echo wp_kses_post( kaoru_cocoa_t( 'k3675041d' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Pastry chef Adaeze Okafor prepares three signature cakes for special gatherings, each showcasing distinct cocoa characteristics. The Dark Ganache 70% delivers an uncompromised, bittersweet chocolate experience finished with a smooth mirror glaze and crushed nibs. The Hazelnut Praline layers delicate sponge with slow-roasted nut praline cream and smooth milk couverture. The Cocoa and Pear pairs poached fruit with deeply aromatic dark chocolate ganache. Every cake is offered in two sizes: an eighteen-centimetre round serving eight guests for EUR 42.00, or a twenty-two-centimetre round serving twelve guests for EUR 58.00. Prices include VAT, and all cakes are paid upon collection at our counter.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'kc5fa3f27' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -59,26 +59,26 @@
 <div class="wp-block-group kc-wall kc-wall--in sp-stagger"><!-- wp:group {"className":"kc-wall__col kc-wall__col--1 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-wall__col kc-wall__col--1 sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-cardwrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-cardwrap"><!-- wp:paragraph {"className":"kc-tagline"} -->
-<p class="kc-tagline"><span class="kc-chip">Order</span><em>Chocolate</em></p>
+<p class="kc-tagline"><span class="kc-chip"><?php echo wp_kses_post( kaoru_cocoa_t( 'ka240fa27' ) ); ?></span><em><?php echo wp_kses_post( kaoru_cocoa_t( 'k6ea408ea' ) ); ?></em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-card"><!-- wp:group {"className":"kc-card__head","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-card__head"><!-- wp:heading {"level":3,"className":"kc-card__title"} -->
-<h3 class="wp-block-heading kc-card__title">Dark ganache 70%</h3>
+<h3 class="wp-block-heading kc-card__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'k2d2512e1' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-card__sub"} -->
-<p class="kc-card__sub">Mirror glaze and a few cocoa nibs</p>
+<p class="kc-card__sub"><?php echo wp_kses_post( kaoru_cocoa_t( 'k3311b70c' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"kc-price"} -->
-<p class="kc-price"><span class="kc-price__item"><span class="kc-price__lab">18 cm</span> <b>EUR 42.00</b></span> <span class="kc-price__item"><span class="kc-price__lab">22 cm</span> <b>EUR 58.00</b></span></p>
+<p class="kc-price"><span class="kc-price__item"><span class="kc-price__lab"><?php echo wp_kses_post( kaoru_cocoa_t( 'kfb7a451e' ) ); ?></span> <b><?php echo wp_kses_post( kaoru_cocoa_t( 'kb6577a0d' ) ); ?></b></span> <span class="kc-price__item"><span class="kc-price__lab"><?php echo wp_kses_post( kaoru_cocoa_t( 'kcf566920' ) ); ?></span> <b><?php echo wp_kses_post( kaoru_cocoa_t( 'k824f17f1' ) ); ?></b></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-card__img kc-card__img--sq"} -->
-<figure class="wp-block-image size-full kc-card__img kc-card__img--sq"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-cake.webp' ) ); ?>" alt="Whole round dark ganache cake with glossy glaze and cocoa nibs on a stand."/></figure>
+<figure class="wp-block-image size-full kc-card__img kc-card__img--sq"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-cake.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'a542399a6' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -87,26 +87,26 @@
 <!-- wp:group {"className":"kc-wall__col kc-wall__col--2 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-wall__col kc-wall__col--2 sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-cardwrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-cardwrap"><!-- wp:paragraph {"className":"kc-tagline"} -->
-<p class="kc-tagline"><span class="kc-chip">Order</span><em>Nut</em></p>
+<p class="kc-tagline"><span class="kc-chip"><?php echo wp_kses_post( kaoru_cocoa_t( 'ka240fa27' ) ); ?></span><em><?php echo wp_kses_post( kaoru_cocoa_t( 'k8bf7f3c3' ) ); ?></em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-card"><!-- wp:group {"className":"kc-card__head","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-card__head"><!-- wp:heading {"level":3,"className":"kc-card__title"} -->
-<h3 class="wp-block-heading kc-card__title">Hazelnut praline</h3>
+<h3 class="wp-block-heading kc-card__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'kb73f088c' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-card__sub"} -->
-<p class="kc-card__sub">Praline cream and milk couverture</p>
+<p class="kc-card__sub"><?php echo wp_kses_post( kaoru_cocoa_t( 'k74a18b0a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"kc-price"} -->
-<p class="kc-price"><span class="kc-price__item"><span class="kc-price__lab">18 cm</span> <b>EUR 42.00</b></span> <span class="kc-price__item"><span class="kc-price__lab">22 cm</span> <b>EUR 58.00</b></span></p>
+<p class="kc-price"><span class="kc-price__item"><span class="kc-price__lab"><?php echo wp_kses_post( kaoru_cocoa_t( 'kfb7a451e' ) ); ?></span> <b><?php echo wp_kses_post( kaoru_cocoa_t( 'kb6577a0d' ) ); ?></b></span> <span class="kc-price__item"><span class="kc-price__lab"><?php echo wp_kses_post( kaoru_cocoa_t( 'kcf566920' ) ); ?></span> <b><?php echo wp_kses_post( kaoru_cocoa_t( 'k824f17f1' ) ); ?></b></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-card__img kc-card__img--sq"} -->
-<figure class="wp-block-image size-full kc-card__img kc-card__img--sq"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/story-birthday.webp' ) ); ?>" alt="Hazelnut praline cake with a blank card plaque resting on a white table."/></figure>
+<figure class="wp-block-image size-full kc-card__img kc-card__img--sq"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/story-birthday.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'a6baf28ec' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -115,26 +115,26 @@
 <!-- wp:group {"className":"kc-wall__col kc-wall__col--3 sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-wall__col kc-wall__col--3 sp-reveal sp-reveal--up"><!-- wp:group {"className":"kc-cardwrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-cardwrap"><!-- wp:paragraph {"className":"kc-tagline"} -->
-<p class="kc-tagline"><span class="kc-chip">Order</span><em>Fruit</em></p>
+<p class="kc-tagline"><span class="kc-chip"><?php echo wp_kses_post( kaoru_cocoa_t( 'ka240fa27' ) ); ?></span><em><?php echo wp_kses_post( kaoru_cocoa_t( 'k3b26194b' ) ); ?></em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-card","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-card"><!-- wp:group {"className":"kc-card__head","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-card__head"><!-- wp:heading {"level":3,"className":"kc-card__title"} -->
-<h3 class="wp-block-heading kc-card__title">Cocoa and pear</h3>
+<h3 class="wp-block-heading kc-card__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'ka5810dbc' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-card__sub"} -->
-<p class="kc-card__sub">Poached pear and dark ganache</p>
+<p class="kc-card__sub"><?php echo wp_kses_post( kaoru_cocoa_t( 'kd945ca93' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"kc-price"} -->
-<p class="kc-price"><span class="kc-price__item"><span class="kc-price__lab">18 cm</span> <b>EUR 42.00</b></span> <span class="kc-price__item"><span class="kc-price__lab">22 cm</span> <b>EUR 58.00</b></span></p>
+<p class="kc-price"><span class="kc-price__item"><span class="kc-price__lab"><?php echo wp_kses_post( kaoru_cocoa_t( 'kfb7a451e' ) ); ?></span> <b><?php echo wp_kses_post( kaoru_cocoa_t( 'kb6577a0d' ) ); ?></b></span> <span class="kc-price__item"><span class="kc-price__lab"><?php echo wp_kses_post( kaoru_cocoa_t( 'kcf566920' ) ); ?></span> <b><?php echo wp_kses_post( kaoru_cocoa_t( 'k824f17f1' ) ); ?></b></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-card__img kc-card__img--45"} -->
-<figure class="wp-block-image size-full kc-card__img kc-card__img--45"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-slice.webp' ) ); ?>" alt="A slice of dark chocolate and pear cake on a white ceramic plate."/></figure>
+<figure class="wp-block-image size-full kc-card__img kc-card__img--45"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-slice.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'a4eaef5f9' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -147,44 +147,44 @@
 <div class="wp-block-group kc-today__grid"><!-- wp:group {"className":"kc-hour kc-hour--1","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour kc-hour--1"><!-- wp:group {"className":"kc-plate","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-plate"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-plate__img sp-reveal sp-reveal--up"} -->
-<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cake-box.webp' ) ); ?>" alt="Hands carefully lowering a glazed round cake into a plain white bakery box."/></figure>
+<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/cake-box.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'a27953a68' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kc-plate__tag"} -->
-<p class="kc-plate__tag">16:00 · Boxed</p>
+<p class="kc-plate__tag"><?php echo wp_kses_post( kaoru_cocoa_t( 'k47a630ca' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-hour__text kc-hour__text--first","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__text kc-hour__text--first"><!-- wp:heading {"level":2,"className":"kc-h2"} -->
-<h2 class="wp-block-heading kc-h2">How to place your cake order</h2>
+<h2 class="wp-block-heading kc-h2"><?php echo wp_kses_post( kaoru_cocoa_t( 'k9353fa52' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Ordering a whole cake follows four straightforward steps.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'ka50055db' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-hour__entry sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__entry sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kc-numeral"} -->
-<p class="kc-numeral"><span>Steps</span><b>1–2</b></p>
+<p class="kc-numeral"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'kf3a29486' ) ); ?></span><b>1–2</b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kc-hour__title"} -->
-<h3 class="wp-block-heading kc-hour__title">Choose your cake</h3>
+<h3 class="wp-block-heading kc-hour__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'k10ebfb69' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"kc-acc sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-acc sp-stagger"><!-- wp:details {"className":"kc-acc__row sp-reveal sp-reveal--up","showContent":true} -->
-<details class="wp-block-details kc-acc__row sp-reveal sp-reveal--up" open><summary>Choose a cake<br><em>One of three, 18 or 22 cm</em></summary>
+<details class="wp-block-details kc-acc__row sp-reveal sp-reveal--up" open><summary><?php echo wp_kses_post( kaoru_cocoa_t( 'kdc474b6d' ) ); ?><br><em><?php echo wp_kses_post( kaoru_cocoa_t( 'k2cab5599' ) ); ?></em></summary>
 <!-- wp:paragraph -->
-<p>First, choose your cake from our three signature recipes, select either the eighteen or twenty-two-centimetre size, and provide an optional short message for the chocolate plaque.</p>
+<p><?php echo wp_kses_post( kaoru_cocoa_t( 'k1558b3fa' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"kc-acc__row sp-reveal sp-reveal--up"} -->
-<details class="wp-block-details kc-acc__row sp-reveal sp-reveal--up"><summary>Pick a collection day<br><em>Friday, Saturday or Sunday</em></summary>
+<details class="wp-block-details kc-acc__row sp-reveal sp-reveal--up"><summary><?php echo wp_kses_post( kaoru_cocoa_t( 'k7f7dd091' ) ); ?><br><em><?php echo wp_kses_post( kaoru_cocoa_t( 'k4ac2adfc' ) ); ?></em></summary>
 <!-- wp:paragraph -->
-<p>Second, pick your collection day from Friday, Saturday, or Sunday between 11:00 and 17:00.</p>
+<p><?php echo wp_kses_post( kaoru_cocoa_t( 'k9ff32faf' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details --></div>
 <!-- /wp:group --></div>
@@ -195,36 +195,36 @@
 <!-- wp:group {"className":"kc-hour kc-hour--2","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour kc-hour--2"><!-- wp:group {"className":"kc-plate","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-plate"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-plate__img sp-reveal sp-reveal--up"} -->
-<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/story-favours.webp' ) ); ?>" alt="Small white favour boxes tied with linen thread neatly arranged on a counter."/></figure>
+<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/story-favours.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'aaa73ca19' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kc-plate__tag"} -->
-<p class="kc-plate__tag">Friday to Sunday · Collected</p>
+<p class="kc-plate__tag"><?php echo wp_kses_post( kaoru_cocoa_t( 'ka9bc5af0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-hour__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__text"><!-- wp:group {"className":"kc-hour__entry sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__entry sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kc-numeral"} -->
-<p class="kc-numeral"><span>Steps</span><b>3–4</b></p>
+<p class="kc-numeral"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'kf3a29486' ) ); ?></span><b>3–4</b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kc-hour__title"} -->
-<h3 class="wp-block-heading kc-hour__title">Order, then collect</h3>
+<h3 class="wp-block-heading kc-hour__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'ka66b42b7' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"kc-acc sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-acc sp-stagger"><!-- wp:details {"className":"kc-acc__row sp-reveal sp-reveal--up","showContent":true} -->
-<details class="wp-block-details kc-acc__row sp-reveal sp-reveal--up" open><summary>Order three days ahead<br><em>By form, email or at the counter</em></summary>
+<details class="wp-block-details kc-acc__row sp-reveal sp-reveal--up" open><summary><?php echo wp_kses_post( kaoru_cocoa_t( 'k2166cc23' ) ); ?><br><em><?php echo wp_kses_post( kaoru_cocoa_t( 'kfae04272' ) ); ?></em></summary>
 <!-- wp:paragraph -->
-<p>Third, place your order at least three days ahead through our order form, via email, or in person at our shop counter.</p>
+<p><?php echo wp_kses_post( kaoru_cocoa_t( 'k31e08590' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details -->
 
 <!-- wp:details {"className":"kc-acc__row sp-reveal sp-reveal--up"} -->
-<details class="wp-block-details kc-acc__row sp-reveal sp-reveal--up"><summary>Collect it<br><em>Boxed at 16:00 the day before</em></summary>
+<details class="wp-block-details kc-acc__row sp-reveal sp-reveal--up"><summary><?php echo wp_kses_post( kaoru_cocoa_t( 'k28fcb8fd' ) ); ?><br><em><?php echo wp_kses_post( kaoru_cocoa_t( 'k7efba478' ) ); ?></em></summary>
 <!-- wp:paragraph -->
-<p>We review and confirm every order within one working day.</p>
+<p><?php echo wp_kses_post( kaoru_cocoa_t( 'k622fce58' ) ); ?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details --></div>
 <!-- /wp:group --></div>
@@ -236,45 +236,45 @@
 
 <!-- wp:group {"align":"full","anchor":"collection","className":"kc-isec","layout":{"type":"default"}} -->
 <div id="collection" class="wp-block-group alignfull kc-isec"><!-- wp:heading {"level":2,"className":"kc-h2"} -->
-<h2 class="wp-block-heading kc-h2">Collection days and payment at the counter</h2>
+<h2 class="wp-block-heading kc-h2"><?php echo wp_kses_post( kaoru_cocoa_t( 'k58b1e4d4' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Cake collections take place exclusively on Friday, Saturday, and Sunday between 11:00 and 17:00 at 14 Linden Arcade in Harrowfield. We do not require advance online payment; your cake is paid for at the counter when you come to collect it. Each cake is packed in a sturdy, unprinted white cake box tied with natural cord, designed to sit level during your journey home. We recommend storing your cake in a cool room or refrigerator, bringing it to room temperature thirty minutes before serving to ensure the ganache and sponge attain their proper softness and aroma.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k11911269' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-panel kc-panel--hours","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel kc-panel--hours"><!-- wp:paragraph {"className":"kc-panel__head"} -->
-<p class="kc-panel__head">Cake collection</p>
+<p class="kc-panel__head"><?php echo wp_kses_post( kaoru_cocoa_t( 'kceaf8b06' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-panel__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel__row"><!-- wp:paragraph {"className":"kc-panel__cell"} -->
-<p class="kc-panel__cell"><span>Fri</span><b>11:00–17:00</b></p>
+<p class="kc-panel__cell"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'kac616f84' ) ); ?></span><b>11:00–17:00</b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-panel__text"} -->
-<p class="kc-panel__text">Collect at the counter</p>
+<p class="kc-panel__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'kf273c729' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-panel__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel__row"><!-- wp:paragraph {"className":"kc-panel__cell"} -->
-<p class="kc-panel__cell"><span>Sat</span><b>11:00–17:00</b></p>
+<p class="kc-panel__cell"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'k13c7d2d7' ) ); ?></span><b>11:00–17:00</b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-panel__text"} -->
-<p class="kc-panel__text">Collect at the counter</p>
+<p class="kc-panel__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'kf273c729' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-panel__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel__row"><!-- wp:paragraph {"className":"kc-panel__cell"} -->
-<p class="kc-panel__cell"><span>Sun</span><b>11:00–17:00</b></p>
+<p class="kc-panel__cell"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'kef6572e4' ) ); ?></span><b>11:00–17:00</b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-panel__text"} -->
-<p class="kc-panel__text">Collect at the counter</p>
+<p class="kc-panel__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'kf273c729' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -282,11 +282,11 @@
 
 <!-- wp:group {"align":"full","anchor":"order","className":"kc-isec","layout":{"type":"default"}} -->
 <div id="order" class="wp-block-group alignfull kc-isec"><!-- wp:heading {"level":2,"className":"kc-h2"} -->
-<h2 class="wp-block-heading kc-h2">Order a cake</h2>
+<h2 class="wp-block-heading kc-h2"><?php echo wp_kses_post( kaoru_cocoa_t( 'k517d583c' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Order at least three days ahead; we reply within one working day and you pay at collection.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'kb56a5fa9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-form","layout":{"type":"default"}} -->

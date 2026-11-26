@@ -11,46 +11,46 @@
 <!-- wp:group {"align":"full","className":"kc-hero kc-ihead","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull kc-hero kc-ihead"><!-- wp:group {"className":"kc-window","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-window"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-window__photo kc-ihead__photo"} -->
-<figure class="wp-block-image size-full kc-window__photo kc-ihead__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-cocoa.webp' ) ); ?>" alt="A cup of warm drinking cocoa on a white saucer resting upon pale marble."/></figure>
+<figure class="wp-block-image size-full kc-window__photo kc-ihead__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/card-cocoa.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'adb873d51' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-strips","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-strips"><!-- wp:paragraph {"className":"kc-strip kc-strip--1"} -->
-<p class="kc-strip kc-strip--1">Once a month</p>
+<p class="kc-strip kc-strip--1"><?php echo wp_kses_post( kaoru_cocoa_t( 'kfb48f923' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-strip kc-strip--2"} -->
-<p class="kc-strip kc-strip--2">New origins</p>
+<p class="kc-strip kc-strip--2"><?php echo wp_kses_post( kaoru_cocoa_t( 'kdb7b89a8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-strip kc-strip--3"} -->
-<p class="kc-strip kc-strip--3">Cake calendar</p>
+<p class="kc-strip kc-strip--3"><?php echo wp_kses_post( kaoru_cocoa_t( 'k6b28f734' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-hero__text kc-ihead__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hero__text kc-ihead__text"><!-- wp:paragraph {"className":"kc-label"} -->
-<p class="kc-label">Newsletter</p>
+<p class="kc-label"><?php echo wp_kses_post( kaoru_cocoa_t( 'kffb7e666' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"kc-h1 kc-h1--in"} -->
-<h1 class="wp-block-heading kc-h1 kc-h1--in">One Letter a Month</h1>
+<h1 class="wp-block-heading kc-h1 kc-h1--in"><?php echo wp_kses_post( kaoru_cocoa_t( 'k39763e40' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-lede"} -->
-<p class="kc-lede">Once a month, we write a short letter about the new origins arriving on our slab, our upcoming cake calendar, and dates for seated tastings. We never send more than one issue per month, keeping our notes quiet and focused.</p>
+<p class="kc-lede"><?php echo wp_kses_post( kaoru_cocoa_t( 'k5e845853' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"full","className":"kc-isec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull kc-isec"><!-- wp:heading {"level":2,"className":"kc-h2"} -->
-<h2 class="wp-block-heading kc-h2">What we share in our monthly dispatch</h2>
+<h2 class="wp-block-heading kc-h2"><?php echo wp_kses_post( kaoru_cocoa_t( 'kabbed762' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Our monthly letter is a quiet chronicle of life inside 14 Linden Arcade. Each issue highlights the arrival of new bean harvests from our five partner growers—Alto Sereno, Río Claro Growers, Monte Ceiba, Bahía Verde, and Ridgeway Estate—describing how each origin behaves on Noor Halvorsen's marble slab. We also publish Adaeze Okafor's seasonal cake calendar so you can plan weekend celebration orders in advance, along with newly opened dates for Priya Raman's weekend seated tastings. In addition, we share brief making notes on roasting profiles, humidity adjustments, and the evolving flavours of our single-origin chocolates, keeping you connected to the rhythm of our workshop.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k83372098' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -58,11 +58,11 @@
 <div id="subscribe" class="wp-block-group alignfull kc-isec kc-isec--wide"><!-- wp:group {"className":"kc-letter__panel","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-letter__panel"><!-- wp:group {"className":"kc-letter__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-letter__text"><!-- wp:heading {"level":2,"className":"kc-letter__title"} -->
-<h2 class="wp-block-heading kc-letter__title">Ask for the letter</h2>
+<h2 class="wp-block-heading kc-letter__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'k1fee5cb6' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Enter your email address and send the request. It opens your email app; you are not subscribed until we reply.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k0910ea91' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -81,10 +81,10 @@
 
 <!-- wp:group {"align":"full","className":"kc-isec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull kc-isec"><!-- wp:heading {"level":2,"className":"kc-h2"} -->
-<h2 class="wp-block-heading kc-h2">Quiet delivery and how to subscribe</h2>
+<h2 class="wp-block-heading kc-h2"><?php echo wp_kses_post( kaoru_cocoa_t( 'kca024f1e' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">We respect your inbox and believe communication should remain thoughtful and unhurried. We publish at most one letter per calendar month, with no unexpected promotional emails or commercial advertising. To subscribe, enter your email address into our newsletter form or send a brief message to hello@kaoru-cocoa.example with the subject line Making-day letter: subscribe. This opens your email application with our address pre-filled. Please send the message to request the letter; you are not subscribed until we manually verify your address and reply. We confirm all subscriptions within one working day, and you may easily unsubscribe at any time by sending a one-line reply.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k68a555eb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

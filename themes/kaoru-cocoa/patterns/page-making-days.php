@@ -11,35 +11,35 @@
 <!-- wp:group {"align":"full","className":"kc-hero kc-ihead","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull kc-hero kc-ihead"><!-- wp:group {"className":"kc-window","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-window"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-window__photo kc-ihead__photo"} -->
-<figure class="wp-block-image size-full kc-window__photo kc-ihead__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-ribbon-slab.webp' ) ); ?>" alt="Maker pouring a ribbon of dark tempered chocolate onto marble beside a row of clear moulds."/></figure>
+<figure class="wp-block-image size-full kc-window__photo kc-ihead__photo"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-ribbon-slab.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'af7a5c6c3' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-strips","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-strips"><!-- wp:paragraph {"className":"kc-strip kc-strip--1"} -->
-<p class="kc-strip kc-strip--1">Temper at ten</p>
+<p class="kc-strip kc-strip--1"><?php echo wp_kses_post( kaoru_cocoa_t( 'ke00fbc3d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-strip kc-strip--2"} -->
-<p class="kc-strip kc-strip--2">Mould at noon</p>
+<p class="kc-strip kc-strip--2"><?php echo wp_kses_post( kaoru_cocoa_t( 'k2774f3f1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-strip kc-strip--3"} -->
-<p class="kc-strip kc-strip--3">Glaze at three</p>
+<p class="kc-strip kc-strip--3"><?php echo wp_kses_post( kaoru_cocoa_t( 'kc2fd6a2a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-hero__text kc-ihead__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hero__text kc-ihead__text"><!-- wp:paragraph {"className":"kc-label"} -->
-<p class="kc-label">Making days</p>
+<p class="kc-label"><?php echo wp_kses_post( kaoru_cocoa_t( 'k78aff2ff' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"kc-h1 kc-h1--in"} -->
-<h1 class="wp-block-heading kc-h1 kc-h1--in">Making Days</h1>
+<h1 class="wp-block-heading kc-h1 kc-h1--in"><?php echo wp_kses_post( kaoru_cocoa_t( 'k25dc2f1d' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-lede"} -->
-<p class="kc-lede">Every morning we temper small batches on our marble slab and serve them at the counter the same afternoon. Our weekly making calendar follows a steady rhythm so each bar, bonbon, and cake reaches you at its peak.</p>
+<p class="kc-lede"><?php echo wp_kses_post( kaoru_cocoa_t( 'kb19c0d54' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -49,46 +49,46 @@
 <div class="wp-block-group kc-today__grid"><!-- wp:group {"className":"kc-hour kc-hour--1","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour kc-hour--1"><!-- wp:group {"className":"kc-plate","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-plate"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-plate__img sp-reveal sp-reveal--up"} -->
-<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/plate-roast.webp' ) ); ?>" alt="Roasted and cracked cocoa beans spread across a steel tray resting on white marble."/></figure>
+<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/plate-roast.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'a35c77ccf' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kc-plate__tag"} -->
-<p class="kc-plate__tag">08:00 · Roasting</p>
+<p class="kc-plate__tag"><?php echo wp_kses_post( kaoru_cocoa_t( 'k8595c0e6' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-hour__text kc-hour__text--first","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__text kc-hour__text--first"><!-- wp:heading {"level":2,"className":"kc-h2"} -->
-<h2 class="wp-block-heading kc-h2">The four hours of the making day</h2>
+<h2 class="wp-block-heading kc-h2"><?php echo wp_kses_post( kaoru_cocoa_t( 'k2ad8cafc' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Our workshop lives by a three-line motto: temper at ten, mould at noon, glaze at three.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k3e8f463f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-hour__entry sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__entry sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kc-numeral"} -->
-<p class="kc-numeral"><span>Hour</span><b>08:00</b></p>
+<p class="kc-numeral"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'kb55e509c' ) ); ?></span><b>08:00</b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kc-hour__title"} -->
-<h3 class="wp-block-heading kc-hour__title">Roasting and cracking</h3>
+<h3 class="wp-block-heading kc-hour__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'kd9c92f99' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">The day begins at 08:00 when Tomás Rivera roasts and cracks raw cocoa beans on steel trays, filling the shop with warm aromas.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k5b94d037' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Tomás Rivera arrives first to roast raw harvest beans in small batches, cracking the husks and winnowing them on wide steel trays. The whole kitchen warms as the nibs are weighed and ground for the first pot of morning cocoa.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k23c400c3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-fact"} -->
-<p class="kc-fact">Beans: Monte Ceiba this week</p>
+<p class="kc-fact"><?php echo wp_kses_post( kaoru_cocoa_t( 'k2e4e52bb' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-fact"} -->
-<p class="kc-fact">Ready for the counter at 09:00</p>
+<p class="kc-fact"><?php echo wp_kses_post( kaoru_cocoa_t( 'kfb612777' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -97,38 +97,38 @@
 <!-- wp:group {"className":"kc-hour kc-hour--2","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour kc-hour--2"><!-- wp:group {"className":"kc-plate","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-plate"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-plate__img sp-reveal sp-reveal--up"} -->
-<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/plate-temper.webp' ) ); ?>" alt="Hands tabling dark chocolate with a palette knife and steel scraper across marble."/></figure>
+<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/plate-temper.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'ad3629505' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kc-plate__tag"} -->
-<p class="kc-plate__tag">10:00 · Tempering</p>
+<p class="kc-plate__tag"><?php echo wp_kses_post( kaoru_cocoa_t( 'k104d9f6f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-hour__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__text"><!-- wp:group {"className":"kc-hour__entry sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__entry sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kc-numeral"} -->
-<p class="kc-numeral"><span>Hour</span><b>10:00</b></p>
+<p class="kc-numeral"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'kb55e509c' ) ); ?></span><b>10:00</b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kc-hour__title"} -->
-<h3 class="wp-block-heading kc-hour__title">Tempering on the slab</h3>
+<h3 class="wp-block-heading kc-hour__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'k9d795de9' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">At 10:00, Noor Halvorsen brings molten chocolate to the stone slab, cooling and working it with a palette knife until the crystals settle into temper.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k331a6d99' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Noor Halvorsen works the warm melted chocolate across the marble slab, sweeping wide ribbons with a palette knife and steel scraper to guide the cooling curve. Once the working temperature is reached, the batch is gathered into steel bowls ready for casting.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'kc05a09ef' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-fact"} -->
-<p class="kc-fact">Method: marble tabling</p>
+<p class="kc-fact"><?php echo wp_kses_post( kaoru_cocoa_t( 'k7d4234bc' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-fact"} -->
-<p class="kc-fact">Ready for moulding at 12:00</p>
+<p class="kc-fact"><?php echo wp_kses_post( kaoru_cocoa_t( 'kb2c8fc5f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -137,38 +137,38 @@
 <!-- wp:group {"className":"kc-hour kc-hour--3","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour kc-hour--3"><!-- wp:group {"className":"kc-plate","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-plate"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-plate__img sp-reveal sp-reveal--up"} -->
-<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/plate-mould.webp' ) ); ?>" alt="Piping dark chocolate into clear polycarbonate bonbon moulds on a white workshop slab."/></figure>
+<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/plate-mould.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'a8319fe9b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kc-plate__tag"} -->
-<p class="kc-plate__tag">12:00 · Moulding</p>
+<p class="kc-plate__tag"><?php echo wp_kses_post( kaoru_cocoa_t( 'kdbac7bb1' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-hour__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__text"><!-- wp:group {"className":"kc-hour__entry sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__entry sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kc-numeral"} -->
-<p class="kc-numeral"><span>Hour</span><b>12:00</b></p>
+<p class="kc-numeral"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'kb55e509c' ) ); ?></span><b>12:00</b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kc-hour__title"} -->
-<h3 class="wp-block-heading kc-hour__title">Filling the moulds</h3>
+<h3 class="wp-block-heading kc-hour__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'k55937126' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Lukas Brenner takes over at 12:00, filling and tapping the moulds to release air bubbles.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k0f707a44' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Lukas Brenner takes over the marble station to fill clear polycarbonate moulds for single-origin bars and delicate bonbon shells. Each mould is firmly tapped on the slab to release trapped air bubbles before resting to set in cool air.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k13a929a7' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-fact"} -->
-<p class="kc-fact">Batch: single-origin bars and weekly bonbons</p>
+<p class="kc-fact"><?php echo wp_kses_post( kaoru_cocoa_t( 'k0a6202c3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-fact"} -->
-<p class="kc-fact">Ready for the counter at 13:00</p>
+<p class="kc-fact"><?php echo wp_kses_post( kaoru_cocoa_t( 'k9bd83816' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -177,38 +177,38 @@
 <!-- wp:group {"className":"kc-hour kc-hour--4","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour kc-hour--4"><!-- wp:group {"className":"kc-plate","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-plate"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-plate__img sp-reveal sp-reveal--up"} -->
-<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/plate-glaze.webp' ) ); ?>" alt="Dark mirror chocolate glaze poured smoothly over a round cake on a wire rack."/></figure>
+<figure class="wp-block-image size-full kc-plate__img sp-reveal sp-reveal--up"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/plate-glaze.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'a2baccc6e' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"className":"kc-plate__tag"} -->
-<p class="kc-plate__tag">15:00 · Glazing</p>
+<p class="kc-plate__tag"><?php echo wp_kses_post( kaoru_cocoa_t( 'k694a3d1a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-hour__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__text"><!-- wp:group {"className":"kc-hour__entry sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-hour__entry sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"kc-numeral"} -->
-<p class="kc-numeral"><span>Hour</span><b>15:00</b></p>
+<p class="kc-numeral"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'kb55e509c' ) ); ?></span><b>15:00</b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kc-hour__title"} -->
-<h3 class="wp-block-heading kc-hour__title">Glazing tomorrow's cakes</h3>
+<h3 class="wp-block-heading kc-hour__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'ke4d4a1ad' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">At 15:00, Adaeze Okafor finishes the day by glazing cakes for the following day's collections, ensuring an unbroken shine across every surface.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k0f270f83' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Adaeze Okafor glazes round dark ganache and praline cakes resting on wire racks, pouring a deep, reflective chocolate mirror glaze in smooth single motions. These cakes rest overnight in the cool room, ready for weekend collections.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k4c3827a8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-fact"} -->
-<p class="kc-fact">Cakes: Dark ganache 70% and Hazelnut praline</p>
+<p class="kc-fact"><?php echo wp_kses_post( kaoru_cocoa_t( 'k0e34dd33' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-fact"} -->
-<p class="kc-fact">Ready for collection Friday to Sunday</p>
+<p class="kc-fact"><?php echo wp_kses_post( kaoru_cocoa_t( 'k3db95806' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -218,90 +218,90 @@
 
 <!-- wp:group {"align":"full","anchor":"week","className":"kc-isec","layout":{"type":"default"}} -->
 <div id="week" class="wp-block-group alignfull kc-isec"><!-- wp:heading {"level":2,"className":"kc-h2"} -->
-<h2 class="wp-block-heading kc-h2">What is made on which day</h2>
+<h2 class="wp-block-heading kc-h2"><?php echo wp_kses_post( kaoru_cocoa_t( 'kbdef0dc3' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Our kitchen follows a focused weekly calendar from Tuesday through Sunday. Tuesdays are dedicated to moulding our single-origin bars across our five seasonal harvests. On Wednesdays, we craft our filled bonbons, piping delicate ganaches into crisp shells. Thursdays combine bonbon making with traditional hazelnut and almond pralines.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k6b76a259' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Fridays are reserved for baking and preparing cakes for weekend celebrations. On Saturdays, our counter manages weekend cake collections and seated tastings. Sundays focus entirely on counter tastings and drinking cocoa, with no moulding taking place. We are closed on Mondays so our kitchen and team can rest before the weekly cycle begins again.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k99127459' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-panel-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel-wrap"><!-- wp:group {"className":"kc-panel","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel"><!-- wp:paragraph {"className":"kc-panel__head"} -->
-<p class="kc-panel__head">What is made on which day</p>
+<p class="kc-panel__head"><?php echo wp_kses_post( kaoru_cocoa_t( 'kbdef0dc3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"kc-panel__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel__row"><!-- wp:paragraph {"className":"kc-panel__cell"} -->
-<p class="kc-panel__cell"><span>Day</span><b>Tue</b></p>
+<p class="kc-panel__cell"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'k03727ac4' ) ); ?></span><b><?php echo wp_kses_post( kaoru_cocoa_t( 'k2ddecde8' ) ); ?></b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-panel__text"} -->
-<p class="kc-panel__text">Single-origin bars</p>
+<p class="kc-panel__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'k1b2bbfec' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-panel__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel__row"><!-- wp:paragraph {"className":"kc-panel__cell"} -->
-<p class="kc-panel__cell"><span>Day</span><b>Wed</b></p>
+<p class="kc-panel__cell"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'k03727ac4' ) ); ?></span><b><?php echo wp_kses_post( kaoru_cocoa_t( 'k510c292b' ) ); ?></b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-panel__text"} -->
-<p class="kc-panel__text">Bonbons</p>
+<p class="kc-panel__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'k5a934f94' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-panel__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel__row"><!-- wp:paragraph {"className":"kc-panel__cell"} -->
-<p class="kc-panel__cell"><span>Day</span><b>Thu</b></p>
+<p class="kc-panel__cell"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'k03727ac4' ) ); ?></span><b><?php echo wp_kses_post( kaoru_cocoa_t( 'ked5e8353' ) ); ?></b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-panel__text"} -->
-<p class="kc-panel__text">Bonbons and pralines</p>
+<p class="kc-panel__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'k0d6cf15e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-panel__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel__row"><!-- wp:paragraph {"className":"kc-panel__cell"} -->
-<p class="kc-panel__cell"><span>Day</span><b>Fri</b></p>
+<p class="kc-panel__cell"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'k03727ac4' ) ); ?></span><b><?php echo wp_kses_post( kaoru_cocoa_t( 'kac616f84' ) ); ?></b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-panel__text"} -->
-<p class="kc-panel__text">Cakes for the weekend</p>
+<p class="kc-panel__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'k1e954486' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-panel__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel__row"><!-- wp:paragraph {"className":"kc-panel__cell"} -->
-<p class="kc-panel__cell"><span>Day</span><b>Sat</b></p>
+<p class="kc-panel__cell"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'k03727ac4' ) ); ?></span><b><?php echo wp_kses_post( kaoru_cocoa_t( 'k13c7d2d7' ) ); ?></b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-panel__text"} -->
-<p class="kc-panel__text">Cake collection and seated tastings</p>
+<p class="kc-panel__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'k632b77c8' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-panel__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel__row"><!-- wp:paragraph {"className":"kc-panel__cell"} -->
-<p class="kc-panel__cell"><span>Day</span><b>Sun</b></p>
+<p class="kc-panel__cell"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'k03727ac4' ) ); ?></span><b><?php echo wp_kses_post( kaoru_cocoa_t( 'kef6572e4' ) ); ?></b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-panel__text"} -->
-<p class="kc-panel__text">Tastings and cocoa only (no moulding)</p>
+<p class="kc-panel__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'k2a7fb6b5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-panel__row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-panel__row"><!-- wp:paragraph {"className":"kc-panel__cell"} -->
-<p class="kc-panel__cell"><span>Day</span><b>Mon</b></p>
+<p class="kc-panel__cell"><span><?php echo wp_kses_post( kaoru_cocoa_t( 'k03727ac4' ) ); ?></span><b><?php echo wp_kses_post( kaoru_cocoa_t( 'kfd29458a' ) ); ?></b></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-panel__text"} -->
-<p class="kc-panel__text">Closed</p>
+<p class="kc-panel__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'k03f4a478' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -310,34 +310,34 @@
 
 <!-- wp:group {"align":"full","className":"kc-slab sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull kc-slab sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-slab__img"} -->
-<figure class="wp-block-image size-full kc-slab__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/band-marble.webp' ) ); ?>" alt="Overhead view of white marble slab with tempered chocolate sheets and palette knife."/></figure>
+<figure class="wp-block-image size-full kc-slab__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/band-marble.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'aa6298ead' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kc-slab__card","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-slab__card"><!-- wp:heading {"level":3,"className":"kc-slab__title"} -->
-<h3 class="wp-block-heading kc-slab__title">Four metres from the counter.</h3>
+<h3 class="wp-block-heading kc-slab__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'ke0aa7cdd' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-slab__text"} -->
-<p class="kc-slab__text">Everything on the menu is tabled on this slab, in view of the seats, and served the same afternoon.</p>
+<p class="kc-slab__text"><?php echo wp_kses_post( kaoru_cocoa_t( 'k045c7049' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"full","className":"kc-isec","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull kc-isec"><!-- wp:heading {"level":2,"className":"kc-h2"} -->
-<h2 class="wp-block-heading kc-h2">Why chocolate is best the same afternoon</h2>
+<h2 class="wp-block-heading kc-h2"><?php echo wp_kses_post( kaoru_cocoa_t( 'k3990a6d9' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Freshly tempered chocolate possesses qualities that fade over weeks of transit and shelf storage. When chocolate sets on our marble slab, its cocoa butter forms tight, uniform crystals that yield an immaculate satin gloss, a clean snap, and an immediate release of volatile scents when broken. Serving our bars and bonbons the same afternoon captures these sensory nuances at their peak.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'kc0e63c3e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-body"} -->
-<p class="kc-body">Bars will keep their texture and aroma for months if kept cool and dry between sixteen and eighteen degrees, away from damp refrigerators and pungent spices. Bonbons are best enjoyed within two weeks of their moulding day.</p>
+<p class="kc-body"><?php echo wp_kses_post( kaoru_cocoa_t( 'k70a8ca0f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-link"} -->
-<p class="kc-link"><a href="/why-we-temper-at-ten/">Read why we temper at ten →</a></p>
+<p class="kc-link"><a href="/why-we-temper-at-ten/"><?php echo wp_kses_post( kaoru_cocoa_t( 'k8aec7cd2' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

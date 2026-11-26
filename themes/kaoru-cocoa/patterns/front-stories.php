@@ -10,72 +10,72 @@
 ?>
 <!-- wp:group {"align":"full","anchor":"stories","className":"kc-stories","layout":{"type":"default"}} -->
 <div id="stories" class="wp-block-group alignfull kc-stories"><!-- wp:heading {"level":2,"className":"kc-word"} -->
-<h2 class="wp-block-heading kc-word">Stories</h2>
+<h2 class="wp-block-heading kc-word"><?php echo wp_kses_post( kaoru_cocoa_t( 'kcbb37401' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"className":"kc-stories__rows","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-stories__rows"><!-- wp:group {"className":"kc-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-story sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-story__img"} -->
-<figure class="wp-block-image size-full kc-story__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/story-birthday.webp' ) ); ?>" alt="Hazelnut praline cake with a blank card plaque resting on a white table."/></figure>
+<figure class="wp-block-image size-full kc-story__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/story-birthday.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'a6baf28ec' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kc-story__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-story__text"><!-- wp:paragraph {"className":"kc-meta"} -->
-<p class="kc-meta">Saturday collection · 22 cm</p>
+<p class="kc-meta"><?php echo wp_kses_post( kaoru_cocoa_t( 'k3cbfe9a6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kc-story__title"} -->
-<h3 class="wp-block-heading kc-story__title">The Osei eightieth</h3>
+<h3 class="wp-block-heading kc-story__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'k2301ca68' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-story__note"} -->
-<p class="kc-story__note">Martin ordered a twenty-two-centimetre hazelnut praline cake for his mother’s eightieth birthday. Collected on a quiet Saturday at eleven, it was boxed fresh with unlit candles ready for the family gathering.</p>
+<p class="kc-story__note"><?php echo wp_kses_post( kaoru_cocoa_t( 'k0a97b3ba' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-story sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-story__img"} -->
-<figure class="wp-block-image size-full kc-story__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/story-favours.webp' ) ); ?>" alt="Small white favour boxes tied with linen thread neatly arranged on a counter."/></figure>
+<figure class="wp-block-image size-full kc-story__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/story-favours.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'aaa73ca19' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kc-story__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-story__text"><!-- wp:paragraph {"className":"kc-meta"} -->
-<p class="kc-meta">Friday collection · Bonbons</p>
+<p class="kc-meta"><?php echo wp_kses_post( kaoru_cocoa_t( 'k382e0554' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kc-story__title"} -->
-<h3 class="wp-block-heading kc-story__title">Forty small boxes</h3>
+<h3 class="wp-block-heading kc-story__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'k7db98138' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-story__note"} -->
-<p class="kc-story__note">For Hana Kovač’s small wedding, Lukas moulded eighty bonbons on a Wednesday morning. Packed into forty plain two-bonbon boxes tied with linen thread, they were collected fresh on the Friday afternoon.</p>
+<p class="kc-story__note"><?php echo wp_kses_post( kaoru_cocoa_t( 'k194228e3' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-story sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-story sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-story__img"} -->
-<figure class="wp-block-image size-full kc-story__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/story-table.webp' ) ); ?>" alt="Overhead view of guests tasting chocolate squares and drinking cocoa around a table."/></figure>
+<figure class="wp-block-image size-full kc-story__img"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/story-table.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'a0f29c424' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"kc-story__text","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-story__text"><!-- wp:paragraph {"className":"kc-meta"} -->
-<p class="kc-meta">First Thursday · Seated tasting</p>
+<p class="kc-meta"><?php echo wp_kses_post( kaoru_cocoa_t( 'kea1003d9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"kc-story__title"} -->
-<h3 class="wp-block-heading kc-story__title">The Thursday table</h3>
+<h3 class="wp-block-heading kc-story__title"><?php echo wp_kses_post( kaoru_cocoa_t( 'kd4acb7d8' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-story__note"} -->
-<p class="kc-story__note">A neighbourhood reading group books our 16:00 seated tasting on the first Thursday of every month. Priya sets out six origin bars, two bonbons and hot cocoa for their forty-five minutes at the long table.</p>
+<p class="kc-story__note"><?php echo wp_kses_post( kaoru_cocoa_t( 'ka9a13075' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"kc-link"} -->
-<p class="kc-link"><a href="/about/#stories">Read the stories →</a></p>
+<p class="kc-link"><a href="/about/#stories"><?php echo wp_kses_post( kaoru_cocoa_t( 'k6d2c0241' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

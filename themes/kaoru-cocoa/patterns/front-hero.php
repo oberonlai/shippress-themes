@@ -11,21 +11,21 @@
 <!-- wp:group {"align":"full","anchor":"top","className":"kc-hero","layout":{"type":"default"}} -->
 <div id="top" class="wp-block-group alignfull kc-hero"><!-- wp:group {"className":"kc-window","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-window"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-window__photo sp-parallax"} -->
-<figure class="wp-block-image size-full kc-window__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-ribbon-slab.webp' ) ); ?>" alt="Maker pouring a ribbon of dark tempered chocolate onto marble beside a row of clear moulds."/></figure>
+<figure class="wp-block-image size-full kc-window__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-ribbon-slab.webp' ) ); ?>" alt="<?php echo esc_attr( kaoru_cocoa_t( 'af7a5c6c3' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-strips","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-strips"><!-- wp:paragraph {"className":"kc-strip kc-strip--1"} -->
-<p class="kc-strip kc-strip--1">Temper at ten</p>
+<p class="kc-strip kc-strip--1"><?php echo wp_kses_post( kaoru_cocoa_t( 'ke00fbc3d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-strip kc-strip--2"} -->
-<p class="kc-strip kc-strip--2">Mould at noon</p>
+<p class="kc-strip kc-strip--2"><?php echo wp_kses_post( kaoru_cocoa_t( 'k2774f3f1' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-strip kc-strip--3"} -->
-<p class="kc-strip kc-strip--3">Glaze at three</p>
+<p class="kc-strip kc-strip--3"><?php echo wp_kses_post( kaoru_cocoa_t( 'kc2fd6a2a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -35,51 +35,51 @@
 <!-- /wp:html -->
 
 <!-- wp:heading {"level":1,"className":"kc-h1"} -->
-<h1 class="wp-block-heading kc-h1">Tempered at ten.</h1>
+<h1 class="wp-block-heading kc-h1"><?php echo wp_kses_post( kaoru_cocoa_t( 'k890e7168' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"kc-lede"} -->
-<p class="kc-lede">Small batches made on the slab each morning, served at the counter the same afternoon.</p>
+<p class="kc-lede"><?php echo wp_kses_post( kaoru_cocoa_t( 'kce7f9648' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"className":"kc-btns"} -->
 <div class="wp-block-buttons kc-btns"><!-- wp:button {"className":"kc-btn kc-btn--primary"} -->
-<div class="wp-block-button kc-btn kc-btn--primary"><a class="wp-block-button__link wp-element-button" href="/tasting/#book">Book a tasting</a></div>
+<div class="wp-block-button kc-btn kc-btn--primary"><a class="wp-block-button__link wp-element-button" href="/tasting/#book"><?php echo wp_kses_post( kaoru_cocoa_t( 'k6f917d2c' ) ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"kc-btn kc-btn--pill"} -->
-<div class="wp-block-button kc-btn kc-btn--pill"><a class="wp-block-button__link wp-element-button" href="/cake-orders/">Order a cake</a></div>
+<div class="wp-block-button kc-btn kc-btn--pill"><a class="wp-block-button__link wp-element-button" href="/cake-orders/"><?php echo wp_kses_post( kaoru_cocoa_t( 'k517d583c' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"className":"kc-hours"} -->
-<p class="kc-hours">Open Tuesday to Sunday, 09:00–18:00 · Closed on Mondays</p>
+<p class="kc-hours"><?php echo wp_kses_post( kaoru_cocoa_t( 'kb5f81dc5' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"kc-logorow","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-logorow"><!-- wp:paragraph {"className":"kc-logorow__label"} -->
-<p class="kc-logorow__label">Beans this season from</p>
+<p class="kc-logorow__label"><?php echo wp_kses_post( kaoru_cocoa_t( 'k74abf4da' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-logorow__name"} -->
-<p class="kc-logorow__name">Alto Sereno</p>
+<p class="kc-logorow__name"><?php echo wp_kses_post( kaoru_cocoa_t( 'k11547c5c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-logorow__name"} -->
-<p class="kc-logorow__name">Río Claro Growers</p>
+<p class="kc-logorow__name"><?php echo wp_kses_post( kaoru_cocoa_t( 'kcbbbc83b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-logorow__name"} -->
-<p class="kc-logorow__name">Monte Ceiba</p>
+<p class="kc-logorow__name"><?php echo wp_kses_post( kaoru_cocoa_t( 'k3e9e356f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-logorow__name"} -->
-<p class="kc-logorow__name">Bahía Verde</p>
+<p class="kc-logorow__name"><?php echo wp_kses_post( kaoru_cocoa_t( 'k9668e938' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"kc-logorow__name"} -->
-<p class="kc-logorow__name">Ridgeway Estate</p>
+<p class="kc-logorow__name"><?php echo wp_kses_post( kaoru_cocoa_t( 'kd5141915' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
