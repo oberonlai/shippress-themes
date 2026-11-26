@@ -50,3 +50,4 @@ Photographs are original images generated for this theme and released under GPL-
 == Copyright ==
 
 Kodou Charging, Copyright 2026 ShipPress. Licensed under GPL-2.0-or-later. Fonts (Hanken Grotesk, Nunito Sans) are licensed under the SIL Open Font License 1.1; see assets/fonts. Photographs are generated for this theme and licensed under GPL-2.0-or-later.
+Noto Sans TC: Copyright 2012 Google Inc. License: SIL Open Font License, Version 1.1 (assets/fonts/OFL-NotoSansTC.txt, https://openfontlicense.org). File: assets/fonts/noto-sans-tc-zh-tw-700.woff2.
