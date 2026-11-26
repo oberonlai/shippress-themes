@@ -173,7 +173,9 @@ img { max-width: 100%; height: auto; }
 .tc-split { display: grid; grid-template-columns: 7fr 5fr; gap: 56px; align-items: start; }
 .tc-split__main { min-width: 0; }
 .tc-split__main .tc-lead { margin-bottom: 28px !important; }
-.tc-split__side { position: sticky; top: 104px; }
+.tc-split__side { align-self: stretch; display: flex; flex-direction: column; }
+.tc-split__side .tc-portrait { flex: 1; min-height: 0; }
+.tc-split__side .tc-portrait img { height: 100%; min-height: 360px; }
 .tc-portrait img { aspect-ratio: 4 / 5; }
 .tc-flow { list-style: none; margin: 28px 0 0; padding: 0; }
 .tc-flow li { display: flex; gap: 16px; padding: 10px 0; border-top: 2px dotted var(--tc-pri); }
@@ -212,10 +214,10 @@ img { max-width: 100%; height: auto; }
 .wp-block-table.tc-pt thead { border: 0; }
 .wp-block-table.tc-pt th { font-size: .875rem; font-weight: 600; color: var(--tc-strong); padding: 10px 12px 12px 0; border-bottom: 1px solid var(--tc-pri); }
 .wp-block-table.tc-pt td { border-bottom: 1px solid var(--tc-line); }
-.wp-block-table.tc-pt .tc-pt__v { font-weight: 600; width: 20%; }
-.wp-block-table.tc-pt .tc-pt__len, .wp-block-table.tc-pt th:nth-child(3) { width: 130px; white-space: nowrap; }
-.wp-block-table.tc-pt .tc-pt__p, .wp-block-table.tc-pt th:nth-child(4) { white-space: nowrap; text-align: right; min-width: 110px; padding-right: 0; }
-.wp-block-table.tc-pt .tc-pt__p { font-weight: 600; }
+.wp-block-table.tc-pt td:nth-child(1) { font-weight: 600; width: 20%; }
+.wp-block-table.tc-pt td:nth-child(3), .wp-block-table.tc-pt th:nth-child(3) { width: 130px; white-space: nowrap; }
+.wp-block-table.tc-pt td:nth-child(4), .wp-block-table.tc-pt th:nth-child(4) { white-space: nowrap; text-align: right; min-width: 110px; padding-right: 0; }
+.wp-block-table.tc-pt td:nth-child(4) { font-weight: 600; }
 
 /* tiles */
 .tc-tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
@@ -284,7 +286,8 @@ img { max-width: 100%; height: auto; }
 	.tc-hero__mid { padding: 8px 0; }
 	.tc-pair, .tc-split { grid-template-columns: 1fr; gap: 40px; }
 	.tc-prose { column-count: 1; }
-	.tc-split__side { position: static; max-width: 420px; }
+	.tc-split__side { max-width: 420px; }
+	.tc-split__side .tc-portrait img { height: auto; }
 	.tc-comps { grid-template-columns: 1fr; gap: 40px; }
 	.tc-footer__in { grid-template-columns: 1fr; gap: 32px; }
 }
@@ -292,9 +295,9 @@ img { max-width: 100%; height: auto; }
 	.tc-sec { padding: 56px 0; }
 	.tc-sec.tc-hero { padding: 16px 0 32px; }
 	.tc-sec.tc-sec--notices { padding-top: 16px; }
-	.tc-band { height: 420px; --sp-par: 6%; }
-	.tc-band__in { margin-bottom: 24px; }
-	.tc-bandcard { padding: 24px; }
+	.tc-band { height: auto; padding-top: 240px; --sp-par: 6%; }
+	.tc-band__in { width: calc(100% - 32px); margin-bottom: 16px; }
+	.tc-bandcard { width: 100%; padding: 20px; }
 	.tc-sheet { grid-template-columns: repeat(2, 1fr); margin-top: 24px; }
 	.tc-sheet__cell + .tc-sheet__cell::before { display: none; }
 	.tc-sheet__cell:nth-child(n+3) { border-top: 2px dotted var(--tc-pri); }
@@ -312,9 +315,9 @@ img { max-width: 100%; height: auto; }
 	.wp-block-table.tc-pt thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 	.wp-block-table.tc-pt tr { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 14px 0; border-bottom: 1px solid var(--tc-line); }
 	.wp-block-table.tc-pt td { display: block; border: 0; padding: 0; width: auto; min-width: 0; }
-	.wp-block-table.tc-pt .tc-pt__v, .wp-block-table.tc-pt .tc-pt__w { grid-column: 1 / -1; width: auto; }
-	.wp-block-table.tc-pt .tc-pt__p { grid-column: 2; grid-row: 3; }
-	.wp-block-table.tc-pt .tc-pt__len { grid-column: 1; grid-row: 3; width: auto; color: var(--tc-muted); }
+	.wp-block-table.tc-pt td:nth-child(1), .wp-block-table.tc-pt td:nth-child(2) { grid-column: 1 / -1; width: auto; }
+	.wp-block-table.tc-pt td:nth-child(4) { grid-column: 2; grid-row: 3; }
+	.wp-block-table.tc-pt td:nth-child(3) { grid-column: 1; grid-row: 3; width: auto; color: var(--tc-muted); }
 }
 @media (max-width: 559px) {
 	.tc-tiles { grid-template-columns: 1fr 1fr; gap: 12px; }
