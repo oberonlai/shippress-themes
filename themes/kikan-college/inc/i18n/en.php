@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns (semantic keys). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'about_h' => 'About',
 	'about_lede' => 'Kikan College is a plumbing and heating apprenticeship college at 22 Foundry Lane, Wrenfield, founded in 2009 by Rosa Lindqvist and Emeka Obi in a former foundry workshop. The two bench halls are on the ground floor and are step-free.',
@@ -126,6 +126,7 @@ return array(
 	'ct_phone_v' => '+00 44 555 0193',
 	'cta_apply' => 'Apply',
 	'cta_taster' => 'Taster|Saturday',
+	'date_fmt' => 'j F Y',
 	'day_c1_h' => 'Morning at the bench',
 	'day_c1_p' => 'Between a quarter to eight and half past twelve you cut, bend and joint. The first block is the week’s measuring and cutting; after a short break the second block turns it into the week’s piece, an assembly of copper pipe that has to hold pressure on Friday. Instructors walk the benches and check joints with a torch, not a lecture.',
 	'day_c2_h' => 'Afternoon on the rig',
@@ -141,6 +142,7 @@ return array(
 	'emeka_p' => 'Emeka runs Bench Hall B and the boiler rig. He spent two decades servicing boilers before teaching, and he builds the weekly faults that the rig block is about. Ask him why a radiator is cold and expect a question back before you get an answer.',
 	'emeka_r' => 'Co-founder and head of heating',
 	'emeka_t' => 'Teaches: boiler rig, controls, commissioning',
+	'endonym' => 'English',
 	'fee1_c' => '38 weeks, 4 bench days + 1 theory day',
 	'fee1_i' => 'Year 1 — bench year',
 	'fee1_n' => '1',
@@ -279,6 +281,7 @@ return array(
 	'instructors_s6_p1' => 'Monday to Thursday, 07:45–15:30, Bench Hall A is led by Rosa Lindqvist, with Hana Petrović on soldering and pipework. Bench Hall B is led by Emeka Obi, and the boiler rig fills the afternoon block from 13:15 to 15:00. Luis Carvalho teaches heat pumps and controls and takes Friday, 08:30–12:30, in the theory room, then the open bench until 15:30.',
 	'instructors_s6_p2' => 'Grace Mwangi is with Year 2 apprentices on site for one visit each term, while their other Friday hours are the college day. The evening refresher on Tuesdays, 18:00–21:00, is six evenings for people already in the trade, at EUR 390, and it sits outside the apprenticeship week. Five people, two halls, one theory day, one coordinator on the road.',
 	'instructors_strip' => 'FIVE PEOPLE',
+	'k8cf04a97' => 'Home',
 	'lang_label' => 'Language',
 	'list_h' => 'News',
 	'list_n' => '01',
@@ -415,6 +418,7 @@ return array(
 	'sat_s4_t' => '13:00–14:30',
 	'sat_s5_l' => 'Questions',
 	'sat_s5_t' => '14:30',
+	'search_results' => 'Search results for: %s',
 	'seg1_l' => 'Tool check',
 	'seg1_t' => '07:45',
 	'seg2_l' => 'Bench block one',
@@ -584,5 +588,4 @@ return array(
 	'years_h' => 'The two years',
 	'years_n' => '03',
 	'years_sub' => 'One year at the bench, one year placed with a working firm.',
-	'endonym' => 'English',
 );
