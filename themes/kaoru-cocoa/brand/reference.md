@@ -18,7 +18,7 @@ Half the viewport is a fixed full-height photograph (overhead glazed cakes on a 
 | C5 (support) | Dotted accordion with round chevrons | Recit menu list | 36 px serif title, sub-line, black 24 px disc chevron |
 
 ## Palette (from the reference)
-Ground white #FFFFFF; panel #F5F5F4; ink #333333; muted #777777; photo plate cast #E0E0E0 family; accent only as one thin rust line (#B5472A) and inside photographs. Our row colour 煤竹 #6B5A4E (smoked bamboo brown) takes the ink role for headings and rules, keeping the reference's white ground and pale panel; saturated share stays far under 15%.
+Ground white #FFFFFF; panel #F5F5F4; ink #333333; muted #777777; photo plate cast #E0E0E0 family; accent only as one thin rust line (#B5472A) and inside photographs. Our row colour #6B5A4E (smoked-bamboo brown) takes the ink role for headings and rules, keeping the reference's white ground and pale panel; saturated share stays far under 15%.
 
 ## Our counterpart (filled by stage 2)
 | Reference element | Our version | Where | Status |
