@@ -354,3 +354,72 @@ a:hover { text-decoration: underline; text-decoration-color: var(--kc-accent); }
 /* the 24px disc chevron is drawn as the summary's background image (no pseudo-element dot) */
 .kc-acc__row summary { background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12' fill='%236B5A4E'/%3E%3Cpath d='M7 10l5 5 5-5' fill='none' stroke='%23fff' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") right center / 24px 24px no-repeat; }
 .kc-acc__row[open] summary { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12' fill='%236B5A4E'/%3E%3Cpath d='M7 14l5-5 5 5' fill='none' stroke='%23fff' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+
+/* ---------- inner pages: framed window head (T3), sections, dotted rows, price table ---------- */
+.kc-ihead .kc-window { width: min(560px, calc(100% - 0px)); }
+.kc-ihead__photo { aspect-ratio: 16 / 9; }
+.kc-ihead__text { padding-top: 8px; }
+.kc-h1--in { font-size: clamp(2.5rem, 5vw, 3.5rem); line-height: 1.05; margin: 8px 0 0; max-width: 16em; }
+.kc-ihead .kc-lede { max-width: 34em; }
+@media (min-width: 1280px) { .kc-ihead .kc-strips { left: calc(50% + 304px); } }
+@media (max-width: 781px) { .kc-ihead__photo { aspect-ratio: 16 / 10; } .kc-h1--in { font-size: 2.25rem; } }
+.kc-main--inner > .kc-ihead + * { margin-top: 0; }
+.kc-isec { max-width: 720px; margin: clamp(56px, 7vw, 104px) auto 0; padding: 0 24px; box-sizing: border-box; }
+.kc-isec--wide { max-width: 1192px; }
+.kc-h2 { font-size: 2.5rem; line-height: 1.1; letter-spacing: -.02em; margin: 0 0 24px; }
+.kc-h2--plain { font-size: 1.75rem; margin: 32px 0 12px; }
+.kc-isec .kc-body, .kc-hour__text .kc-body { max-width: 640px; }
+.kc-isec .kc-btns { justify-content: flex-start; }
+.kc-isec .kc-panel { margin-top: 28px; }
+.kc-today--in { margin-top: clamp(56px, 7vw, 104px); }
+.kc-hour__text .kc-h2 { margin-bottom: 20px; }
+.kc-hour__text .kc-acc { margin: 24px 0 0; }
+.kc-counter--in { margin-top: clamp(56px, 7vw, 104px); }
+.kc-wall--in .kc-wall__col--2 { margin-top: 80px; }
+.kc-wall--in .kc-wall__col--3 { margin-top: 160px; }
+@media (max-width: 1239px) { .kc-wall--in .kc-wall__col--2 { margin-top: 56px; } .kc-wall--in .kc-wall__col--3 { margin-top: 112px; } }
+@media (max-width: 781px) { .kc-wall--in .kc-wall__col--2, .kc-wall--in .kc-wall__col--3 { margin-top: 0; } }
+.kc-dot-row { display: grid; grid-template-columns: 96px 1fr; gap: 16px; align-items: start; padding: 16px 0; border-top: 1px dotted var(--kc-brand); }
+.kc-dots .kc-dot-row:last-child { border-bottom: 1px dotted var(--kc-brand); }
+.kc-dot-row__time { font-family: var(--kc-display); font-size: 1.5rem; line-height: 1.2; letter-spacing: 0; margin: 0; }
+.kc-dot-row__name { font-size: 1.25rem; line-height: 1.2; letter-spacing: -.01em; margin: 0 0 2px; }
+.kc-dot-row__line { font-size: .9375rem; line-height: 1.55; margin: 0; }
+.kc-dot-row .kc-meta { margin-bottom: 6px; }
+@media (max-width: 520px) { .kc-dot-row { grid-template-columns: 1fr; gap: 6px; } }
+.kc-acc--qa .kc-acc__row summary { min-height: 0; font-size: 1.5rem; line-height: 1.15; padding: 24px 44px 20px 0; }
+.kc-acc--qa .kc-acc__row summary em { margin-top: 6px; }
+.kc-pgrid { display: grid; grid-template-columns: minmax(0, 1fr) 384px; gap: 80px; align-items: start; }
+.kc-pgrid__card { min-width: 0; }
+.kc-pgrid__form { border: 1px solid var(--kc-brand); border-radius: 5px; padding: 24px 20px; background: #fff; }
+.kc-pgrid__form .kc-card__title { font-size: 1.5rem; margin-bottom: 16px; }
+.kc-pgrid__form .kc-btns { justify-content: flex-start; margin-top: 0; }
+.kc-form { margin-top: 20px; }
+.kc-isec .kc-form { margin-top: 24px; }
+.kc-form__note { margin: 14px 0 0; font-size: .9375rem; line-height: 1.55; max-width: 560px; }
+@media (max-width: 899px) { .kc-pgrid { grid-template-columns: 1fr; gap: 40px; } .kc-pgrid__card { max-width: 420px; } }
+.kc-letter__panel { margin: 0; }
+.kc-isec--wide .kc-letter__panel { padding: 48px 60px; }
+@media (max-width: 781px) { .kc-isec--wide .kc-letter__panel { padding: 32px 20px; } }
+.kc-slab .kc-slab__img { position: absolute; inset: 0; margin: 0; overflow: clip; }
+.kc-slab .kc-slab__img img { display: block; width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 781px) { .kc-slab .kc-slab__img { position: relative; height: 420px; } }
+
+/* price table: full width from 782px, price column never cut, stacked on phones */
+.is-style-kc-prices { margin: 0; width: 100%; }
+.is-style-kc-prices table { width: 100%; border-collapse: collapse; table-layout: auto; font-size: 1rem; line-height: 1.5; }
+.is-style-kc-prices th { font-family: var(--kc-display); font-weight: 400; font-size: 1.125rem; text-align: left; padding: 0 16px 12px 0; border-bottom: 1px solid var(--kc-ink); }
+.is-style-kc-prices td { padding: 16px 16px 16px 0; border-bottom: 1px dotted var(--kc-brand); vertical-align: baseline; }
+.is-style-kc-prices td:first-child { font-family: var(--kc-display); font-size: 1.25rem; line-height: 1.2; white-space: nowrap; }
+.is-style-kc-prices th:last-child, .is-style-kc-prices td:last-child { text-align: right; white-space: nowrap; padding-right: 0; }
+.is-style-kc-prices td b { font-family: var(--kc-display); font-weight: 400; font-size: 1.25rem; }
+@media (max-width: 781px) {
+	.is-style-kc-prices table, .is-style-kc-prices tbody, .is-style-kc-prices tr, .is-style-kc-prices td { display: block; width: 100%; box-sizing: border-box; }
+	.is-style-kc-prices thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); }
+	.is-style-kc-prices tr { padding: 16px 0; border-bottom: 1px dotted var(--kc-brand); }
+	.is-style-kc-prices td { padding: 0; border: 0; }
+	.is-style-kc-prices td:first-child { white-space: normal; }
+	.is-style-kc-prices td:nth-child(2) { color: var(--kc-muted); font-size: .9375rem; margin: 4px 0 8px; }
+	.is-style-kc-prices th:last-child, .is-style-kc-prices td:last-child { text-align: left; white-space: normal; }
+}
+.kc-main--inner { padding-bottom: clamp(64px, 8vw, 120px); }
+.kc-acc--qa .kc-acc__row > p { margin-top: -4px; }
