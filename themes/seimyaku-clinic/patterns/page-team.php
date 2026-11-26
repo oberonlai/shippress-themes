@@ -4,14 +4,14 @@
  * Slug: seimyaku-clinic/page-team
  * Categories: seimyaku-clinic
  * Viewport Width: 1440
- * Description: Inner page: photograph band with the docked title below, then the text (the detailed layout is built in stage 2).
+ * Description: Inner page: photograph band, the giant word, seven slashed name and role rows beside two photographs.
  * Inserter: no
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-phead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-phead"><!-- wp:group {"className":"sz-phead__media sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-phead__media sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'team-corridor.webp' ); ?>" alt="Three clinicians conversing in a bright corridor while one holds a digital tablet."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'team-corridor.webp' ); ?>" alt="Three clinicians talking in a bright corridor, one holding a tablet."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"sz-veil sz-veil--static","layout":{"type":"default"}} -->
@@ -34,20 +34,142 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","align":"full","className":"sz-prose","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull sz-prose"><!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Medical Leadership and Physicians</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Our medical team is led by Dr Ilse Marchetti, our founder and consultant nephrologist, who established the clinic in 2013 following extensive clinical service in hospital renal medicine. Dr Marchetti oversees long-term kidney monitoring strategies and complex glomerular evaluations. Working alongside her is Dr Kwame Asante, consultant nephrologist, who specializes in the longitudinal management of chronic kidney disease stages 2 through 4 and pre-dialysis planning. Dr Hana Reyes, our hypertension physician, directs our blood pressure diagnostic protocols, focusing on secondary causes of hypertension, resistant blood pressure regimens, and 24-hour ambulatory blood pressure interpretations. Together, our physicians review case files collaboratively while preserving individual patient-physician continuity across successive appointments.</p>
+<!-- wp:group {"tagName":"section","align":"full","className":"sz-roster","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull sz-roster"><!-- wp:group {"className":"sz-t4","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-t4"><!-- wp:paragraph {"className":"is-style-sz-chip"} -->
+<p class="is-style-sz-chip">The team</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Nursing, Diagnostics, and Patient Support</h2>
-<!-- /wp:heading -->
+<!-- wp:heading {"level":2,"className":"sz-giant"} -->
+<h2 class="wp-block-heading sz-giant">THE TEAM</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
 
-<!-- wp:paragraph -->
-<p>Clinical investigations and daily care coordination are maintained by our dedicated support staff. Tomas Lindqvist serves as our lead nurse, managing morning sample collections, patient triage, and phone follow-ups regarding test results. Priya Nair, our specialized renal dietitian, provides individual 45-minute nutrition consultations focused on practical dietary modifications, sodium management, and electrolyte balance. Elena Varga, our diagnostic sonographer, performs high-resolution renal and urinary tract ultrasound examinations right here in our calm clinical suites. Coordinating your appointments and documentation is Samuel Obi, our patient coordinator, who ensures referral records, test results, and scheduling logistics proceed smoothly without bureaucratic friction.</p>
-<!-- /wp:paragraph --></section>
+<!-- wp:group {"className":"sz-roster__grid","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-roster__grid"><!-- wp:group {"className":"sz-roster__list sp-stagger","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-roster__list sp-stagger"><!-- wp:paragraph {"className":"sz-roster__intro"} -->
+<p class="sz-roster__intro">Together, our physicians review case files collaboratively while preserving individual patient-physician continuity across successive appointments.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"sz-roster__row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-roster__row sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-roster__who"} -->
+<p class="sz-roster__who"><span class="sz-people__name">Dr Ilse Marchetti</span><span class="sz-people__role">founder, nephrologist</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__about"} -->
+<p class="sz-roster__about">Opened the clinic in 2013 after years in a hospital renal unit. Oversees long-term kidney monitoring and complex glomerular work.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__lang"} -->
+<p class="sz-roster__lang">Speaks: English, Italian</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-roster__row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-roster__row sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-roster__who"} -->
+<p class="sz-roster__who"><span class="sz-people__name">Dr Kwame Asante</span><span class="sz-people__role">nephrologist</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__about"} -->
+<p class="sz-roster__about">Follows chronic kidney disease stages 2 to 4 over the years, and plans ahead with the hospital unit for stage 4.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__lang"} -->
+<p class="sz-roster__lang">Speaks: English, Twi</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-roster__row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-roster__row sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-roster__who"} -->
+<p class="sz-roster__who"><span class="sz-people__name">Dr Hana Reyes</span><span class="sz-people__role">hypertension physician</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__about"} -->
+<p class="sz-roster__about">Leads our blood pressure work: secondary causes, resistant hypertension and 24-hour monitor readings.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__lang"} -->
+<p class="sz-roster__lang">Speaks: English, Spanish, Tagalog</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-roster__row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-roster__row sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-roster__who"} -->
+<p class="sz-roster__who"><span class="sz-people__name">Tomas Lindqvist</span><span class="sz-people__role">lead nurse</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__about"} -->
+<p class="sz-roster__about">Runs the morning sample collection, triage and the phone calls with your results.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__lang"} -->
+<p class="sz-roster__lang">Speaks: English, Swedish</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-roster__row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-roster__row sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-roster__who"} -->
+<p class="sz-roster__who"><span class="sz-people__name">Priya Nair</span><span class="sz-people__role">renal dietitian</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__about"} -->
+<p class="sz-roster__about">Forty-five-minute sessions on salt, potassium and protein, built around what you actually eat.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__lang"} -->
+<p class="sz-roster__lang">Speaks: English, Malayalam, Hindi</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-roster__row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-roster__row sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-roster__who"} -->
+<p class="sz-roster__who"><span class="sz-people__name">Elena Varga</span><span class="sz-people__role">sonographer</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__about"} -->
+<p class="sz-roster__about">Performs kidney and urinary tract ultrasound in our own rooms, with the picture explained as she goes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__lang"} -->
+<p class="sz-roster__lang">Speaks: English, Hungarian</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-roster__row sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-roster__row sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-roster__who"} -->
+<p class="sz-roster__who"><span class="sz-people__name">Samuel Obi</span><span class="sz-people__role">patient coordinator</span></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__about"} -->
+<p class="sz-roster__about">Handles referral records, scheduling and itemised receipts so the paperwork stays out of your way.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-roster__lang"} -->
+<p class="sz-roster__lang">Speaks: English, Igbo</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-roster__photos","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-roster__photos"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sp-reveal sp-reveal--wipe sz-roster__photo"} -->
+<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe sz-roster__photo"><img src="<?php echo seimyaku_clinic_img( 'story-ruth-tea.webp' ); ?>" alt="The same woman at home with a cup in hand, reading a results letter."/></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sp-reveal sp-reveal--wipe sz-roster__photo"} -->
+<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe sz-roster__photo"><img src="<?php echo seimyaku_clinic_img( 'story-amara-bike.webp' ); ?>" alt="A woman in her late thirties locking a bicycle outside a clinic entrance."/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","align":"full","className":"sz-cta","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull sz-cta"><!-- wp:paragraph {"className":"sz-cta__line"} -->
+<p class="sz-cta__line">Meet the people who will follow your care.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"sz-btn"} -->
+<div class="wp-block-button sz-btn"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a first consultation</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></section>
 <!-- /wp:group -->

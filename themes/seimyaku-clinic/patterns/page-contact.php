@@ -4,14 +4,14 @@
  * Slug: seimyaku-clinic/page-contact
  * Categories: seimyaku-clinic
  * Viewport Width: 1440
- * Description: Inner page: photograph band with the docked title below, then the text (the detailed layout is built in stage 2).
+ * Description: Inner page: photograph band, the booking form (dynamic slot with mailto fallback) beside phone, email, hours and what happens next.
  * Inserter: no
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-phead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-phead"><!-- wp:group {"className":"sz-phead__media sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-phead__media sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'dietitian-plate.webp' ); ?>" alt="Dietitian showing a plate model and food cards to a seated patient."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'results-folder.webp' ); ?>" alt="Hands sorting past lab sheets and letters into a folder on a table."/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"sz-veil sz-veil--static","layout":{"type":"default"}} -->
@@ -34,28 +34,19 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","align":"full","className":"sz-prose","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull sz-prose"><!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Booking Your First Appointment</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>To book an initial consultation with Dr Ilse Marchetti or Dr Kwame Asante, please contact our administrative desk by phone or complete our booking form. When requesting an appointment, provide your full name, contact telephone number, email address, date of birth, and preferred appointment days between Monday and Saturday. It is also helpful to state your general clinical reason for visiting—such as kidney function review, persistent high blood pressure, or follow-up after a stone—and whether you possess a doctor's referral letter. To ensure strict medical confidentiality, please do not transmit sensitive laboratory reports via unsecured email forms; instead, bring paper copies directly to your initial consultation.</p>
+<!-- wp:group {"tagName":"section","align":"full","className":"sz-contact","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull sz-contact"><!-- wp:group {"className":"sz-contact__form","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-contact__form"><!-- wp:paragraph {"className":"is-style-sz-chip"} -->
+<p class="is-style-sz-chip">Book</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Direct Contact and What Happens Next</h2>
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Book a first consultation</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Our coordination team is available Monday through Friday from 08:30 to 17:30 (Wednesday until 19:30) and Saturday mornings from 09:00 to 12:30. You can telephone us directly at +00 31 555 0148 or email care@seimyaku-clinic.example. Once your inquiry is submitted, our coordinator Samuel Obi reviews your scheduling details within one working day / our desk contacts you to confirm an appointment slot matching your preferred schedule / we send a clear pre-visit checklist detailing which medical letters, previous lab sheets, and prescription lists to bring with you. If you have immediate questions regarding fees or parking accessibility, our team is glad to assist.</p>
-<!-- /wp:paragraph --></section>
-<!-- /wp:group -->
-
-<!-- wp:group {"tagName":"section","align":"full","className":"sz-formsec","layout":{"type":"default"}} -->
-<section class="wp-block-group alignfull sz-formsec"><!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Book a first consultation</h2>
-<!-- /wp:heading -->
+<p>To book an initial consultation with Dr Ilse Marchetti or Dr Kwame Asante, please contact our administrative desk by phone or complete our booking form. When requesting an appointment, provide your full name, contact telephone number, email address, date of birth, and preferred appointment days between Monday and Saturday. It is also helpful to state your general clinical reason for visiting—such as kidney function review, persistent high blood pressure, or follow-up after a stone—and whether you possess a doctor's referral letter.</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:group {"anchor":"write","className":"sz-formwrap","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-formwrap" id="write"><?php
@@ -70,5 +61,72 @@ echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $sz_fallback
 
 <!-- wp:paragraph {"className":"sz-note"} -->
 <p class="sz-note">We do not accept results by email; please bring them to the visit. In an emergency, call your local emergency number.</p>
-<!-- /wp:paragraph --></section>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-contact__side","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-contact__side"><!-- wp:group {"className":"sz-contact__box","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-contact__box"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Phone and email</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>+00 31 555 0148</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="mailto:care@seimyaku-clinic.example">care@seimyaku-clinic.example</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-contact__box","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-contact__box"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Hours</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Monday–Friday 08:30–17:30 (Wednesday to 19:30)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Saturday 09:00–12:30 · Sunday closed</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-contact__box","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-contact__box"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What happens next</h3>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"sz-next__row","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-next__row"><!-- wp:paragraph {"className":"sz-next__t"} -->
+<p class="sz-next__t">Within one working day</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-next__d"} -->
+<p class="sz-next__d">Samuel Obi reviews your scheduling details.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-next__row","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-next__row"><!-- wp:paragraph {"className":"sz-next__t"} -->
+<p class="sz-next__t">A slot is confirmed</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-next__d"} -->
+<p class="sz-next__d">The desk contacts you with a time that matches your preferred days.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"sz-next__row","layout":{"type":"default"}} -->
+<div class="wp-block-group sz-next__row"><!-- wp:paragraph {"className":"sz-next__t"} -->
+<p class="sz-next__t">A checklist follows</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-next__d"} -->
+<p class="sz-next__d">Which letters, lab sheets and medicine lists to bring.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
 <!-- /wp:group -->
