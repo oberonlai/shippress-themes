@@ -33,6 +33,10 @@ Fonts: Outfit (OFL-1.1), Latin variable; Figtree (OFL-1.1), Latin variable; Noto
 
 Images: AI-generated for this theme with Grok Build image_gen as high-key documentary photographs, released under GPL-2.0-or-later / CC0 (no stock images, no real or famous people, no brands; the clinic is fictional). No transparent cut-outs are used. All files live in assets/images/demo/ (the copies imported into the Media Library):
 - assets/images/bp-diary.webp and assets/images/demo/bp-diary.webp (GPL-2.0-or-later / CC0)
+- assets/images/results-folder.webp and assets/images/demo/results-folder.webp (GPL-2.0-or-later / CC0)
+- assets/images/results-call.webp and assets/images/demo/results-call.webp (GPL-2.0-or-later / CC0)
+- assets/images/reception.webp and assets/images/demo/reception.webp (GPL-2.0-or-later / CC0)
+- assets/images/home-cuff-close.webp and assets/images/demo/home-cuff-close.webp (GPL-2.0-or-later / CC0)
 - assets/images/dietitian-plate.webp and assets/images/demo/dietitian-plate.webp (GPL-2.0-or-later / CC0)
 - assets/images/entrance-stairs.webp and assets/images/demo/entrance-stairs.webp (GPL-2.0-or-later / CC0)
 - assets/images/first-consult-desk.webp and assets/images/demo/first-consult-desk.webp (GPL-2.0-or-later / CC0)
