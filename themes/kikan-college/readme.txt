@@ -49,3 +49,8 @@ Photographs are original images generated for this theme and released under GPL-
 - assets/images/who-learner.webp (GPL-2.0-or-later)
 - assets/images/year-bench.webp (GPL-2.0-or-later)
 - assets/images/year-placement.webp (GPL-2.0-or-later)
+- assets/images/demo/story-farid.webp (GPL-2.0-or-later)
+
+== Copyright ==
+
+Kikan College, Copyright 2026 ShipPress. Licensed under GPL-2.0-or-later. Fonts (Instrument Sans, Source Sans 3, Noto Sans TC, Noto Sans JP) are licensed under the SIL Open Font License 1.1; see assets/fonts. Photographs are generated for this theme and licensed under GPL-2.0-or-later.
