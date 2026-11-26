@@ -30,7 +30,7 @@
 <!-- wp:group {"className":"sg-dayg__ph","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-dayg__ph">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-dayph"} -->
-<figure class="wp-block-image size-full sg-dayph"><img src="<?php echo shirogane_college_img( 'day-handover.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p04' ) ); ?>"/></figure>
+<figure class="wp-block-image size-full sg-dayph"><img src="<?php echo shirogane_college_img( 'day-handover.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p04' ) ); ?>" loading="eager"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph {"className":"sg-cap"} -->
 <p class="sg-cap"><?php echo esc_html( shirogane_college_t( 'cap_a' ) ); ?></p>
@@ -108,7 +108,7 @@
 <!-- wp:group {"className":"sg-dayg__ph","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-dayg__ph">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-dayph"} -->
-<figure class="wp-block-image size-full sg-dayph"><img src="<?php echo shirogane_college_img( 'day-theatre.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p05' ) ); ?>"/></figure>
+<figure class="wp-block-image size-full sg-dayph"><img src="<?php echo shirogane_college_img( 'day-theatre.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p05' ) ); ?>" loading="eager"/></figure>
 <!-- /wp:image -->
 <!-- wp:paragraph {"className":"sg-cap"} -->
 <p class="sg-cap"><?php echo esc_html( shirogane_college_t( 'cap_b' ) ); ?></p>

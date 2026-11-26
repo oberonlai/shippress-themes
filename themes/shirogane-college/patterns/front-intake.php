@@ -17,7 +17,7 @@
 <!-- wp:group {"className":"sg-split__img","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-split__img">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--32"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'openday-tour.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p13' ) ); ?>"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'openday-tour.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p13' ) ); ?>" loading="eager"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -40,7 +40,7 @@
 <div class="sg-figs"><div class="sg-fig"><p class="sg-fig__n sp-reveal sp-count">24</p><p class="sg-fig__l"><?php echo esc_html( shirogane_college_t( 'fig1' ) ); ?></p></div><div class="sg-fig"><p class="sg-fig__n sp-reveal sp-count">40</p><p class="sg-fig__l"><?php echo esc_html( shirogane_college_t( 'fig2' ) ); ?></p></div><div class="sg-fig"><p class="sg-fig__n sp-reveal sp-count">6</p><p class="sg-fig__l"><?php echo esc_html( shirogane_college_t( 'fig3' ) ); ?></p></div></div>
 <!-- /wp:html -->
 <!-- wp:html -->
-<div class="sg-bookbar__in sg-bookbar__in--compact"><a class="sg-book" style="--sg-rule:#5C6B48" href="/admissions/#apply"><span class="sg-book__t"><?php echo esc_html( shirogane_college_t( 'book_apply' ) ); ?></span><span class="sg-book__d"><?php echo esc_html( shirogane_college_t( 'book_apply_d' ) ); ?></span><svg class="sg-chev" width="8" height="14" viewBox="0 0 8 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M1 1l6 6-6 6"/></svg></a><a class="sg-book" style="--sg-rule:#8E6E2A" href="/visit/#open-day"><span class="sg-book__t"><?php echo esc_html( shirogane_college_t( 'book_open' ) ); ?></span><span class="sg-book__d"><?php echo esc_html( shirogane_college_t( 'book_open_d' ) ); ?></span><svg class="sg-chev" width="8" height="14" viewBox="0 0 8 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M1 1l6 6-6 6"/></svg></a><a class="sg-book" style="--sg-rule:#3F7C85" href="/visit/#ward-visit"><span class="sg-book__t"><?php echo esc_html( shirogane_college_t( 'book_visit' ) ); ?></span><span class="sg-book__d"><?php echo esc_html( shirogane_college_t( 'book_visit_d' ) ); ?></span><svg class="sg-chev" width="8" height="14" viewBox="0 0 8 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M1 1l6 6-6 6"/></svg></a></div>
+<div class="sg-bookbar__in sg-bookbar__in--compact sg-bookbar__in--one"><a class="sg-book" style="--sg-rule:#5C6B48" href="/admissions/#apply"><span class="sg-book__t"><?php echo esc_html( shirogane_college_t( 'book_apply' ) ); ?></span><span class="sg-book__d"><?php echo esc_html( shirogane_college_t( 'book_apply_d' ) ); ?></span><svg class="sg-chev" width="8" height="14" viewBox="0 0 8 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M1 1l6 6-6 6"/></svg></a></div>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->
