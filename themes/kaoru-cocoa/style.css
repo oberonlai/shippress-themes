@@ -427,3 +427,16 @@ a:hover { text-decoration: underline; text-decoration-color: var(--kc-accent); }
 .is-style-kc-prices th { border-bottom: 1px solid var(--kc-ink); }
 .is-style-kc-prices td { border-bottom: 1px dotted var(--kc-brand); }
 @media (max-width: 781px) { .is-style-kc-prices td { border: 0; } }
+
+/* Languages: Chinese uses a bundled Noto Serif TC subset for headings (CJK characters only; Latin and figures stay in Fraunces / Source Serif 4). Body uses system Chinese fonts. */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Fraunces", "Noto Serif TC", "Noto Serif CJK TC", serif;
+	--wp--preset--font-family--body: "Source Serif 4", "PingFang TC", "Noto Serif CJK TC", "Microsoft JhengHei", serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: 0.03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: 0.04em; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3) { hyphens: auto; }
+:is(:lang(zh), :lang(ja)) .kc-h1 { font-size: clamp(2.25rem, 4.6vw, 3.4rem); line-height: 1.25; letter-spacing: .02em; }
+:is(:lang(zh), :lang(ja)) .has-display-font-size { font-size: clamp(2.25rem, 4.6vw, 3.4rem); }
+:is(:lang(fr), :lang(de)) .kc-h1 { font-size: clamp(2.6rem, 5.4vw, 4.25rem); }
