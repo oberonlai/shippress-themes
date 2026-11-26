@@ -31,16 +31,26 @@ WooCommerce: support is declared; the theme works fully without it.
 == Images ==
 
 Photographs are original images generated for this theme and released under GPL-2.0-or-later with the theme:
+- assets/images/about-clinicians.webp (GPL-2.0-or-later)
 - assets/images/band-room.webp (GPL-2.0-or-later)
 - assets/images/clinician-kofi.webp (GPL-2.0-or-later)
 - assets/images/clinician-maren.webp (GPL-2.0-or-later)
 - assets/images/complaint-back.webp (GPL-2.0-or-later)
 - assets/images/complaint-neck.webp (GPL-2.0-or-later)
 - assets/images/complaint-sport.webp (GPL-2.0-or-later)
+- assets/images/contact-door.webp (GPL-2.0-or-later)
+- assets/images/demo/complaint-neck.webp (GPL-2.0-or-later)
+- assets/images/demo/letter-band.webp (GPL-2.0-or-later)
 - assets/images/hero-shoulder.webp (GPL-2.0-or-later)
 - assets/images/letter-band.webp (GPL-2.0-or-later)
 - assets/images/method-movement.webp (GPL-2.0-or-later)
+- assets/images/prices-linen.webp (GPL-2.0-or-later)
 - assets/images/story-daniel.webp (GPL-2.0-or-later)
 - assets/images/story-sofia.webp (GPL-2.0-or-later)
 - assets/images/story-tomas.webp (GPL-2.0-or-later)
+- assets/images/visit-reception.webp (GPL-2.0-or-later)
 - assets/images/why-hands.webp (GPL-2.0-or-later)
+
+== Copyright ==
+
+Teate Clinic, Copyright 2026 ShipPress. Licensed under GPL-2.0-or-later. Fonts (Outfit, Figtree, Noto Sans TC, Noto Sans JP) are licensed under the SIL Open Font License 1.1; see assets/fonts. Photographs are generated for this theme and licensed under GPL-2.0-or-later.

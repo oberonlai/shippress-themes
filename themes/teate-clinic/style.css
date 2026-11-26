@@ -56,7 +56,7 @@ img { max-width: 100%; height: auto; }
 .tc-header__row { width: min(1296px, calc(100% - 40px)); margin-inline: auto; min-height: 65px; display: flex; align-items: center; gap: 28px; }
 .tc-brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--tc-ink); }
 .tc-mark { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; background: var(--tc-pri); }
-.tc-wordmark { font-family: var(--tc-display); font-weight: 500; font-size: 1.25rem; letter-spacing: -.01em; }
+.tc-wordmark { white-space: nowrap; font-family: var(--tc-display); font-weight: 500; font-size: 1.25rem; letter-spacing: -.01em; }
 .tc-nav { margin-left: auto; font-size: .9375rem; font-weight: 500; }
 .tc-nav .wp-block-navigation__container { gap: 28px; }
 .tc-nav a { text-decoration: none; color: var(--tc-ink); }
@@ -77,7 +77,7 @@ img { max-width: 100%; height: auto; }
 	.tc-nav .wp-block-navigation__responsive-container-open { display: flex !important; }
 	.tc-nav .wp-block-navigation__responsive-container:not(.is-menu-open) { display: none !important; }
 }
-@media (max-width: 559px) { .tc-btn--head { display: none; } .tc-header__row { gap: 12px; } }
+@media (max-width: 559px) { .tc-btns .wp-block-button.tc-btn--head { display: none; } .tc-header__row { gap: 12px; } }
 
 /* hero (T1): rounded photo left, celadon card + H1 + two outline boxes right */
 .tc-sec.tc-hero { padding: 24px 0 48px; background: linear-gradient(180deg, #EEF3EF 0, #EEF3EF 62%, #FFFFFF 100%); }
@@ -179,7 +179,7 @@ img { max-width: 100%; height: auto; }
 .tc-flow__n { min-width: 28px; font-size: .8125rem; font-weight: 600; letter-spacing: .1em; color: var(--tc-strong); padding-top: 3px; }
 
 /* the room: parallax band */
-.tc-band { position: relative; height: 560px; display: grid; align-items: end; --sp-par: 10%; }
+.tc-band { position: relative; height: 560px; display: grid; grid-template-columns: minmax(0, 1fr); align-items: end; --sp-par: 10%; }
 .tc-band__img { position: absolute; inset: 0; margin: 0; }
 .tc-band__img img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .tc-band__in { position: relative; z-index: 1; width: min(1296px, calc(100% - 40px)); margin: 0 auto 48px; }
