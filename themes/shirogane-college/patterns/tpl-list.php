@@ -8,13 +8,30 @@
  * Description: Posts list for the posts page, archive, category, tag and search templates: Azabu-style news rows with a square thumb, date, chip, title and chevron.
  */
 ?>
+<!-- wp:group {"tagName":"section","align":"full","className":"sg-phead","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull sg-phead">
+<!-- wp:group {"className":"sg-phead__panel","layout":{"type":"default"}} -->
+<div class="wp-block-group sg-phead__panel">
+<!-- wp:html -->
+<nav class="sg-crumb" aria-label="Breadcrumb"><a href="/"><?php echo esc_html( shirogane_college_t( 'crumb_home' ) ); ?></a><span aria-hidden="true">›</span><span><?php echo esc_html( shirogane_college_t( 'crumb_news' ) ); ?></span></nav>
+<!-- /wp:html -->
+<!-- wp:heading {"level":1,"className":"sg-phead__h"} -->
+<h1 class="wp-block-heading sg-phead__h"><?php echo esc_html( shirogane_college_t( 'list_h' ) ); ?></h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"className":"sg-phead__lead"} -->
+<p class="sg-phead__lead"><?php echo esc_html( shirogane_college_t( 'list_lead' ) ); ?></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-phead__ph sp-parallax"} -->
+<figure class="wp-block-image size-full sg-phead__ph sp-parallax"><img src="<?php echo shirogane_college_img( 'day-handover.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p04' ) ); ?>" loading="eager"/></figure>
+<!-- /wp:image -->
+</section>
+<!-- /wp:group -->
 <!-- wp:group {"tagName":"section","align":"full","className":"sg-sec sg-sec--list","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sg-sec sg-sec--list">
 <!-- wp:group {"className":"sg-wrap","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-wrap">
-<!-- wp:heading {"level":1,"className":"sg-page__h"} -->
-<h1 class="wp-block-heading sg-page__h"><?php echo esc_html( shirogane_college_t( 'list_h' ) ); ?></h1>
-<!-- /wp:heading -->
 <!-- wp:query {"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"layout":{"type":"default"}} -->
 <div class="wp-block-query"><!-- wp:post-template {"className":"sg-news"} -->
 <!-- wp:group {"className":"sg-newsrow","layout":{"type":"default"}} -->
