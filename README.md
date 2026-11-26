@@ -269,36 +269,37 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 <td align="center" valign="top" width="33%"><a href="themes/kaori-cosme"><img src="https://shots.codotx.com/kaori-cosme/home-desktop.webp" width="260" alt="Kaori Cosme"></a><br><a href="themes/kaori-cosme">Kaori Cosme</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/kaoru-cocoa"><img src="https://shots.codotx.com/kaoru-cocoa/home-desktop.webp" width="260" alt="Kaoru Cocoa"></a><br><a href="themes/kaoru-cocoa">Kaoru Cocoa</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/karan-geta"><img src="https://shots.codotx.com/karan-geta/home-desktop.webp" width="260" alt="Karan Geta"></a><br><a href="themes/karan-geta">Karan Geta</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kasane-venue"><img src="https://shots.codotx.com/kasane-venue/home-desktop.webp" width="260" alt="Kasane Venue"></a><br><a href="themes/kasane-venue">Kasane Venue</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/kashidashi-hire"><img src="https://shots.codotx.com/kashidashi-hire/home-desktop.webp" width="260" alt="Kashidashi Hire"></a><br><a href="themes/kashidashi-hire">Kashidashi Hire</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/kashidashi-hire"><img src="https://shots.codotx.com/kashidashi-hire/home-desktop.webp" width="260" alt="Kashidashi Hire"></a><br><a href="themes/kashidashi-hire">Kashidashi Hire</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kasumi-bar"><img src="https://shots.codotx.com/kasumi-bar/home-desktop.webp" width="260" alt="Kasumi Bar"></a><br><a href="themes/kasumi-bar">Kasumi Bar</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kasumi-mortgage"><img src="https://shots.codotx.com/kasumi-mortgage/home-desktop.webp" width="260" alt="Kasumi Mortgage"></a><br><a href="themes/kasumi-mortgage">Kasumi Mortgage</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/katachi-ergonomics"><img src="https://shots.codotx.com/katachi-ergonomics/home-desktop.webp" width="260" alt="Katachi Ergonomics"></a><br><a href="themes/katachi-ergonomics">Katachi Ergonomics</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/katachi-ergonomics"><img src="https://shots.codotx.com/katachi-ergonomics/home-desktop.webp" width="260" alt="Katachi Ergonomics"></a><br><a href="themes/katachi-ergonomics">Katachi Ergonomics</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kataribe-partners"><img src="https://shots.codotx.com/kataribe-partners/home-desktop.webp" width="260" alt="Kataribe Partners"></a><br><a href="themes/kataribe-partners">Kataribe Partners</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/katsuji-press"><img src="https://shots.codotx.com/katsuji-press/home-desktop.webp" width="260" alt="Katsuji Press"></a><br><a href="themes/katsuji-press">Katsuji Press</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/kawa-dumplings"><img src="https://shots.codotx.com/kawa-dumplings/home-desktop.webp" width="260" alt="Kawa Dumpling House"></a><br><a href="themes/kawa-dumplings">Kawa Dumpling House</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/kawa-dumplings"><img src="https://shots.codotx.com/kawa-dumplings/home-desktop.webp" width="260" alt="Kawa Dumpling House"></a><br><a href="themes/kawa-dumplings">Kawa Dumpling House</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kaze-clinic"><img src="https://shots.codotx.com/kaze-clinic/home-desktop.webp" width="260" alt="Kaze Clinic"></a><br><a href="themes/kaze-clinic">Kaze Clinic</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kaze-yoga"><img src="https://shots.codotx.com/kaze-yoga/home-desktop.webp" width="260" alt="Kaze Yoga"></a><br><a href="themes/kaze-yoga">Kaze Yoga</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/kazoe-app"><img src="https://shots.codotx.com/kazoe-app/home-desktop.webp" width="260" alt="Kazoe Books App"></a><br><a href="themes/kazoe-app">Kazoe Books App</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/kazoe-app"><img src="https://shots.codotx.com/kazoe-app/home-desktop.webp" width="260" alt="Kazoe Books App"></a><br><a href="themes/kazoe-app">Kazoe Books App</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kazu-data-course"><img src="https://shots.codotx.com/kazu-data-course/home-desktop.webp" width="260" alt="Kazu Data Course"></a><br><a href="themes/kazu-data-course">Kazu Data Course</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kenban-piano"><img src="https://shots.codotx.com/kenban-piano/home-desktop.webp" width="260" alt="Kenban Piano School"></a><br><a href="themes/kenban-piano">Kenban Piano School</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/kenchiku-grid"><img src="https://shots.codotx.com/kenchiku-grid/home-desktop.webp" width="260" alt="Kenchiku Grid"></a><br><a href="themes/kenchiku-grid">Kenchiku Grid</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/kenchiku-grid"><img src="https://shots.codotx.com/kenchiku-grid/home-desktop.webp" width="260" alt="Kenchiku Grid"></a><br><a href="themes/kenchiku-grid">Kenchiku Grid</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kensa-laboratory"><img src="https://shots.codotx.com/kensa-laboratory/home-desktop.webp" width="260" alt="Kensa Laboratory"></a><br><a href="themes/kensa-laboratory">Kensa Laboratory</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kesho-college"><img src="https://shots.codotx.com/kesho-college/home-desktop.webp" width="260" alt="Kesho College"></a><br><a href="themes/kesho-college">Kesho College</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/kiban-structural"><img src="https://shots.codotx.com/kiban-structural/home-desktop.webp" width="260" alt="Kiban Structural"></a><br><a href="themes/kiban-structural">Kiban Structural</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/kiban-structural"><img src="https://shots.codotx.com/kiban-structural/home-desktop.webp" width="260" alt="Kiban Structural"></a><br><a href="themes/kiban-structural">Kiban Structural</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kikai-fair"><img src="https://shots.codotx.com/kikai-fair/home-desktop.webp" width="260" alt="Kikai Fair"></a><br><a href="themes/kikai-fair">Kikai Fair</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kikan-college"><img src="https://shots.codotx.com/kikan-college/home-desktop.webp" width="260" alt="Kikan College"></a><br><a href="themes/kikan-college">Kikan College</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/kikin-advisors"><img src="https://shots.codotx.com/kikin-advisors/home-desktop.webp" width="260" alt="Kikin Advisors"></a><br><a href="themes/kikin-advisors">Kikin Advisors</a></td>
