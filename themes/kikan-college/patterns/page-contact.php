@@ -225,16 +225,10 @@
 <div class="wp-block-group kc-formpanel">
 <?php
 ob_start(); ?>
-<!-- wp:buttons {"className":"kc-btns"} -->
 <div class="wp-block-buttons kc-btns">
-<!-- wp:button {"className":"kc-pill kc-pill--solid"} -->
 <div class="wp-block-button kc-pill kc-pill--solid"><a class="wp-block-button__link wp-element-button" href="mailto:hello@kikan-college.example?subject=<?php echo rawurlencode( kikan_college_t( 'contact_mail_subject' ) ); ?>"><?php echo esc_html( kikan_college_t( 'contact_email_button' ) ); ?></a></div>
-<!-- /wp:button -->
 </div>
-<!-- /wp:buttons -->
-<!-- wp:paragraph {"className":"kc-small"} -->
 <p class="kc-small"><?php echo esc_html( kikan_college_t( 'contact_fallback_note' ) ); ?></p>
-<!-- /wp:paragraph -->
 <?php
 $fallback = ob_get_clean();
 echo shippress_form_slot( array( 'kind' => 'contact', 'fallback' => $fallback ) );
