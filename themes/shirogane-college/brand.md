@@ -57,3 +57,12 @@ Phone +00 44 555 0172. Email admissions@shirogane-college.example. Bus 14 to Lin
 ## Do not claim
 
 No guarantees, employment rates, awards, real accreditation, real clinics, brands, media or real people. The college does not take emergencies.
+
+## Inner pages (all en, built from patterns/page-*.php)
+- About: story, three habits (calm handling, notes before memory, one tutor to six students), partner clinics, address and hours.
+- Course: six parts with taught hours (foundations 260, ward nursing 420, theatre assist 300, imaging and lab 200, pharmacy 140, placement 40 weeks), evening course and foundation certificate.
+- A training day: eight timed rows in three groups, a Monday-to-Friday week table.
+- Teaching ward: kennels, prep and theatre, imaging and lab; how animals are referred; five welfare rules.
+- Tutors, Admissions (five audience groups, six dated steps, eight questions), Fees (six items, what is included, instalments, bursaries, refunds), Students (three path descriptions, no outcome claims).
+- Visit and open days and Contact use the dynamic form slot with a mailto fallback; Newsletter is a standalone page with an email field in a pine panel. Privacy and Thank you complete the set.
+- Posts (category From the ward): open day, placement matching, low-stress handling.

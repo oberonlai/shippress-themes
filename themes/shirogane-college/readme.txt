@@ -20,6 +20,8 @@ A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-t
 
 On activation the theme sets itself up as a ready-to-use website (inc/demo-import.php): it creates its pages with all their text and images, a sample post with category and tags, the menu, and sets the front page and posts page. It never changes or deletes anything you wrote, and running it again creates nothing twice.
 
+Contact and visit forms: the Contact and Visit pages use the same dynamic form block. With Contact Form 7 or WPForms the first published form is shown; otherwise an email button with the subject filled in. Suggested contact fields: full name*, email*, phone, I am (career changer, school leaver, clinic staff, parent or supporter, partner clinic), question about, message*, consent* (link to /privacy/). Suggested visit fields: full name*, email*, phone*, visit type* (open day or ward visit), preferred Wednesday, visitors (1-3), access needs, consent*.
+
 Optional forms: the intake letter section uses a dynamic form block (inc/shippress-forms.php). Without a form plugin it shows an email field with a submit button that opens the visitor's email app with the request ready to send (the theme sends nothing itself). With MailPoet (explicit form ID) or Mailchimp for WP, that plugin's form is shown instead.
 
 Scroll effects: assets/sp-scroll.css and assets/sp-scroll.js (reveal, stagger, parallax). They respect prefers-reduced-motion and show everything without JavaScript.
@@ -42,6 +44,14 @@ Photographs are original images generated for this theme and released under GPL-
 - assets/images/student-leo.webp (GPL-2.0-or-later)
 - assets/images/tutor-handling.webp (GPL-2.0-or-later)
 - assets/images/ward-wide.webp (GPL-2.0-or-later)
+- assets/images/college-building.webp (GPL-2.0-or-later)
+- assets/images/imaging-position.webp (GPL-2.0-or-later)
+- assets/images/openday-talk.webp (GPL-2.0-or-later)
+- assets/images/pharmacy-count.webp (GPL-2.0-or-later)
+- assets/images/placement-clinic.webp (GPL-2.0-or-later)
+- assets/images/demo/hero-ward-cat.webp (GPL-2.0-or-later)
+- assets/images/demo/openday-talk.webp (GPL-2.0-or-later)
+- assets/images/demo/placement-clinic.webp (GPL-2.0-or-later)
 
 == Copyright ==
 
