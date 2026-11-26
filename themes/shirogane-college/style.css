@@ -131,10 +131,12 @@ a { text-underline-offset: 3px; }
 .sg-ico { flex: none; color: var(--sg-pine); }
 @media (max-width: 1023px) { .sg-audience__in a { font-size: .8125rem; gap: 0; letter-spacing: .03em; } .sg-audience__in .sg-ico { display: none; } }
 @media (max-width: 781px) {
-	.sg-audience__in { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; height: 48px; padding: 0; max-width: none; scrollbar-width: none; }
-	.sg-audience__in a { flex: none; padding: 0 16px; scroll-snap-align: start; font-size: .875rem; gap: 8px; }
+	.sg-audience__in { display: grid; grid-template-columns: repeat(2, 1fr); height: auto; padding: 0; max-width: none; }
+	.sg-audience__in a { padding: 12px 10px; font-size: .875rem; gap: 8px; justify-content: flex-start; border-bottom: 1px dotted var(--sg-dot); min-width: 0; }
+	.sg-audience__in a span { overflow-wrap: anywhere; }
+	.sg-audience__in a:nth-child(odd) { border-left: 0; }
+	.sg-audience__in a:last-child { grid-column: 1 / -1; border-right: 0; border-bottom: 0; }
 	.sg-audience__in .sg-ico { display: block; width: 18px; height: 18px; }
-	.sg-audience__in a:first-child { border-left: 0; }
 }
 
 /* ===== hero (split-photo-right, on-solid-panel) ===== */
@@ -400,3 +402,6 @@ a { text-underline-offset: 3px; }
 
 /* ===== form tokens (shippress-forms.css reads --sp-form-*) ===== */
 .sg-letter .sp-newsletter-fallback { max-width: 560px; }
+
+/* pale sage triangulated band behind "where to next" (decorative, no text) */
+.sg-sec--next { background-color: var(--sg-band); background-image: linear-gradient(135deg, rgba(255,255,255,.55) 25%, transparent 25%), linear-gradient(225deg, rgba(255,255,255,.55) 25%, transparent 25%); background-size: 160px 160px; }
