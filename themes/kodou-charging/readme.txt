@@ -33,7 +33,7 @@ Photographs are original images generated for this theme and released under GPL-
 - assets/images/check-cable-route.webp (GPL-2.0-or-later)
 - assets/images/check-report.webp (GPL-2.0-or-later)
 - assets/images/check-switchboard.webp (GPL-2.0-or-later)
-- assets/images/demo/check-cable-route.webp (GPL-2.0-or-later)
+- assets/images/demo/load-module.webp (GPL-2.0-or-later)
 - assets/images/fleet-bays.webp (GPL-2.0-or-later)
 - assets/images/hero-fitter-column.webp (GPL-2.0-or-later)
 - assets/images/site-band-wide.webp (GPL-2.0-or-later)
@@ -42,6 +42,10 @@ Photographs are original images generated for this theme and released under GPL-
 - assets/images/story-health-centre.webp (GPL-2.0-or-later)
 - assets/images/story-offices.webp (GPL-2.0-or-later)
 - assets/images/visit-walkthrough.webp (GPL-2.0-or-later)
+- assets/images/load-module.webp (GPL-2.0-or-later)
+- assets/images/team-yard.webp (GPL-2.0-or-later)
+- assets/images/twin-post.webp (GPL-2.0-or-later)
+- assets/images/wall-unit-detail.webp (GPL-2.0-or-later)
 
 == Copyright ==
 

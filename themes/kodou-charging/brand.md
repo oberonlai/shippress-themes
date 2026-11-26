@@ -53,8 +53,8 @@ Daily routine: the office desk opens at 08:00 and takes requests by form or emai
 - Harlow Lane print depot: 14 van bays, 4 twin posts, 3 days on site.
 - Northfield Health Centre: 6 visitor bays, 3 twin posts, 1 day on site.
 
-## Pages (stage 2 fills the inner pages)
-Home (one long page with an anchor menu), About, Site assessment, Services and pricing, Sites we fit, Case stories, Contact (request a visit), Newsletter (updates and early access), Site notes (posts), Privacy, Terms, Thanks.
+## Pages
+Home (one long page with an anchor menu), About (/about/), Site assessment (/site-assessment/), Services and pricing (/services/), Sites we fit (/sites/), Case stories (/stories/), Contact (/contact/), Newsletter (/newsletter/), Site notes (/news/, posts page), Privacy (/privacy/), Terms (/terms/), Thank you (/thanks/), plus one article in the Site notes category. Every inner page opens with a breadcrumb, a plain H1 and a 3:1 parallax photograph (not repeated on that page) and closes with the outlined request banner. Inner pages carry the techniques: About and Site assessment the centred statement with pictograms, Services and Sites the filled-cell tabs, Site assessment and Stories the framed photo cards, Contact and Newsletter a banner variant. 16 photographs in the theme, none repeated on one page.
 
 ## Signature techniques
 1. Full-width outlined notice banner (1 px teal border, 8 px radius, pictogram left, one bold sentence with a coloured phrase, outbound arrow at the far right) is the single repeated request: hero booking bar, after the price table, closing band.
