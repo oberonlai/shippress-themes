@@ -11,7 +11,7 @@
 <!-- wp:group {"align":"full","anchor":"top","className":"kc-hero","layout":{"type":"default"}} -->
 <div id="top" class="wp-block-group alignfull kc-hero"><!-- wp:group {"className":"kc-window","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-window"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-window__photo sp-parallax"} -->
-<figure class="wp-block-image size-full kc-window__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-ribbon-slab.webp' ) ); ?>" alt="Maker pouring a ribbon of dark tempered chocolate onto marble beside filled moulds."/></figure>
+<figure class="wp-block-image size-full kc-window__photo sp-parallax"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-ribbon-slab.webp' ) ); ?>" alt="Maker pouring a ribbon of dark tempered chocolate onto marble beside a row of clear moulds."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
