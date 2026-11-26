@@ -37,7 +37,7 @@
 <!-- wp:paragraph {"className":"kc-footer__h"} -->
 <p class="kc-footer__h"><?php echo esc_html( kodou_charging_t( 'ft_pages_h' ) ); ?></p>
 <!-- /wp:paragraph --><!-- wp:html -->
-<ul class="kc-footer__links"><li><a href="/about/"><?php echo esc_html( kodou_charging_t( 'fl_about' ) ); ?></a></li><li><a href="/site-assessment/"><?php echo esc_html( kodou_charging_t( 'fl_assess' ) ); ?></a></li><li><a href="/services/"><?php echo esc_html( kodou_charging_t( 'fl_services' ) ); ?></a></li><li><a href="/sites/"><?php echo esc_html( kodou_charging_t( 'fl_sites' ) ); ?></a></li><li><a href="/stories/"><?php echo esc_html( kodou_charging_t( 'fl_stories' ) ); ?></a></li><li><a href="/news/"><?php echo esc_html( kodou_charging_t( 'fl_news' ) ); ?></a></li><li><a href="/contact/"><?php echo esc_html( kodou_charging_t( 'fl_contact' ) ); ?></a></li><li><a href="/privacy/"><?php echo esc_html( kodou_charging_t( 'fl_privacy' ) ); ?></a></li></ul>
+<ul class="kc-footer__links"><li><a href="/#why"><?php echo esc_html( kodou_charging_t( 'fl_about' ) ); ?></a></li><li><a href="/#assessment"><?php echo esc_html( kodou_charging_t( 'fl_assess' ) ); ?></a></li><li><a href="/#pricing"><?php echo esc_html( kodou_charging_t( 'fl_services' ) ); ?></a></li><li><a href="/sites/"><?php echo esc_html( kodou_charging_t( 'fl_sites' ) ); ?></a></li><li><a href="/stories/"><?php echo esc_html( kodou_charging_t( 'fl_stories' ) ); ?></a></li><li><a href="/news/"><?php echo esc_html( kodou_charging_t( 'fl_news' ) ); ?></a></li><li><a href="/contact/"><?php echo esc_html( kodou_charging_t( 'fl_contact' ) ); ?></a></li></ul>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->
@@ -45,11 +45,9 @@
 <div class="wp-block-group kc-footer__col kc-footer__col--form">
 <!-- wp:paragraph {"className":"kc-footer__h"} -->
 <p class="kc-footer__h"><?php echo esc_html( kodou_charging_t( 'ft_news_h' ) ); ?></p>
-<!-- /wp:paragraph --><!-- wp:group {"className":"kc-formwrap kc-formwrap--dark","layout":{"type":"default"}} -->
-<div class="wp-block-group kc-formwrap kc-formwrap--dark">
-<?php echo shippress_form_slot( array( 'kind' => 'newsletter', 'email' => 'visits@kodou-charging.example', 'label' => kodou_charging_t( 'forms_email' ), 'submit' => kodou_charging_t( 'forms_subscribe' ), 'notice' => kodou_charging_t( 'forms_mail_notice' ), 'subject' => kodou_charging_t( 'forms_mail_subject' ) ) ); ?>
-</div>
-<!-- /wp:group -->
+<!-- /wp:paragraph --><!-- wp:html -->
+<p class="kc-footer__hours"><?php echo esc_html( kodou_charging_t( 'ft_news_x' ) ); ?></p><p class="kc-footer__more"><a href="/newsletter/"><?php echo esc_html( kodou_charging_t( 'ft_news_link' ) ); ?> &rarr;</a></p>
+<!-- /wp:html -->
 </div>
 <!-- /wp:group -->
 <!-- wp:group {"className":"kc-footer__base","layout":{"type":"default"}} -->

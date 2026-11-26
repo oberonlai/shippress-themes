@@ -70,6 +70,8 @@ return array(
 	'ft_h2' => 'Site visits Mon–Sat 07:30–16:00',
 	'ft_hours_h' => 'Hours',
 	'ft_news_h' => 'Updates',
+	'ft_news_x' => 'Site notes on workplace charging, a few times a year.',
+	'ft_news_link' => 'Subscribe on the newsletter page',
 	'ft_pages_h' => 'Pages',
 	'hero_eyebrow' => 'Workplace EV charging · Site assessment',
 	'hero_h1_a' => 'Charging for the car park ',
