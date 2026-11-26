@@ -24,7 +24,7 @@
 </div>
 <!-- /wp:group -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-phead__ph sp-parallax"} -->
-<figure class="wp-block-image size-full sg-phead__ph sp-parallax"><img src="<?php echo shirogane_college_img( 'college-building.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p17' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-phead__ph sp-parallax"><img src="<?php echo shirogane_college_img( 'college-building.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p17' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </section>
 <!-- /wp:group -->
@@ -47,7 +47,7 @@
 <!-- wp:group {"className":"sg-split__img","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-split__img">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--45"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--45"><img src="<?php echo shirogane_college_img( 'tutor-handling.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p09' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--45"><img src="<?php echo shirogane_college_img( 'tutor-handling.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p09' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -135,7 +135,7 @@
 <!-- wp:group {"className":"sg-split__img","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-split__img">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--32"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'placement-clinic.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p16' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'placement-clinic.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p16' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->

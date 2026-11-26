@@ -24,7 +24,7 @@
 </div>
 <!-- /wp:group -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-phead__ph sp-parallax"} -->
-<figure class="wp-block-image size-full sg-phead__ph sp-parallax"><img src="<?php echo shirogane_college_img( 'tutor-handling.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p09' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-phead__ph sp-parallax"><img src="<?php echo shirogane_college_img( 'tutor-handling.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p09' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </section>
 <!-- /wp:group -->
@@ -59,10 +59,10 @@
 <!-- wp:group {"className":"sg-tutside","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-tutside">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--11"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--11"><img src="<?php echo shirogane_college_img( 'student-leo.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p11' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--11"><img src="<?php echo shirogane_college_img( 'student-leo.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p11' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--32"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'hero-ward-cat.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p02' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'hero-ward-cat.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p02' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->

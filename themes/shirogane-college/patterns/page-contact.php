@@ -24,7 +24,7 @@
 </div>
 <!-- /wp:group -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-phead__ph sp-parallax"} -->
-<figure class="wp-block-image size-full sg-phead__ph sp-parallax"><img src="<?php echo shirogane_college_img( 'college-building.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p17' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-phead__ph sp-parallax"><img src="<?php echo shirogane_college_img( 'college-building.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p17' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </section>
 <!-- /wp:group -->

@@ -27,7 +27,7 @@
 <!-- wp:group {"className":"sg-split__img","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-split__img">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--45"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--45"><img src="<?php echo shirogane_college_img( 'tutor-handling.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p09' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--45"><img src="<?php echo shirogane_college_img( 'tutor-handling.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p09' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->

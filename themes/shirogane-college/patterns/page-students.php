@@ -24,7 +24,7 @@
 </div>
 <!-- /wp:group -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-phead__ph sp-parallax"} -->
-<figure class="wp-block-image size-full sg-phead__ph sp-parallax"><img src="<?php echo shirogane_college_img( 'student-hana.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p10' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-phead__ph sp-parallax"><img src="<?php echo shirogane_college_img( 'student-hana.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p10' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </section>
 <!-- /wp:group -->
@@ -49,10 +49,10 @@
 <!-- wp:group {"className":"sg-pair","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-pair">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--32"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'placement-clinic.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p16' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'placement-clinic.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p16' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--32"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'hero-ward-cat.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p02' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'hero-ward-cat.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p02' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -111,10 +111,10 @@
 <!-- wp:group {"className":"sg-pair","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-pair">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--32"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'student-leo.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p11' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'student-leo.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p11' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--32"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'openday-talk.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p18' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'openday-talk.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p18' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
@@ -147,10 +147,10 @@
 <!-- wp:group {"className":"sg-pair","layout":{"type":"default"}} -->
 <div class="wp-block-group sg-pair">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--32"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'student-grace.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p12' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'student-grace.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p12' ) ); ?>"/></figure>
 <!-- /wp:image -->
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sg-ph sg-ph--32"} -->
-<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'imaging-position.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p14' ) ); ?>" loading="eager"/></figure>
+<figure class="wp-block-image size-full sg-ph sg-ph--32"><img src="<?php echo shirogane_college_img( 'imaging-position.webp' ); ?>" alt="<?php echo esc_attr( shirogane_college_t( 'alt_p14' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
