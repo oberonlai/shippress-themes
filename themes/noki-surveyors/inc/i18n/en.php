@@ -1,5 +1,5 @@
 <?php
-/** en strings of the theme's patterns. */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
 	'about_0_b' => 'Ines Kovač founded the practice in 2011 in Elsmere Quay. Five people work from the office at 3 Ropewalk Yard. There is one van, one ladder and one pole camera, and the week\'s visits are booked by the request desk rather than by a call centre. Tomasz Wren, Adaeze Nwosu, Henrik Saari and Ines survey about twelve buildings a week.',
 	'about_0_c' => 'Lucía Pardo books every visit and writes the reply within one working day, with a fixed price and a slot. We spend about 90 minutes on a flat or small house and up to about four hours on a small commercial building, then write the report in plain words. The work stops at the report and the 30-minute call. The repair, if there is one, stays with the people who own that decision.',
@@ -128,6 +128,7 @@ return array(
 	'contact_l' => 'Contact',
 	'contact_mail_subject' => 'Message for Noki Surveyors',
 	'contact_t' => 'Contact',
+	'date_fmt' => 'j F Y',
 	'day1_l' => 'The van is loaded: ladder, pole camera, damp meter, torch.',
 	'day1_t' => '07:45',
 	'day2_l' => 'First visit.',
@@ -201,6 +202,8 @@ return array(
 	'hero_h1' => 'Read the house before you sign.',
 	'hero_lead' => 'Condition reports for houses and small commercial buildings within 40 km of Elsmere Quay. We spend 90 minutes to half a day on site and send the report in plain words within five working days.',
 	'hero_link' => 'What a report covers',
+	'k8cf04a97' => 'Home',
+	'kf69d2eb3' => 'hello@noki-surveyors.example',
 	'lang_label' => 'Language',
 	'led1_p' => 'Cracks, lintels, floors and the chimney, with the width and the direction of any movement we can see.',
 	'led1_t' => 'Structure and movement',
@@ -426,6 +429,7 @@ return array(
 	's_2' => 'and I want to know about',
 	's_a' => 'a house',
 	's_b' => 'cracks',
+	'search_results' => 'Search results for: %s',
 	'st1_l' => 'Commercial buildings and older houses.',
 	'st1_n' => 'Ines Kovač',
 	'st1_r' => 'Founder, lead surveyor',
