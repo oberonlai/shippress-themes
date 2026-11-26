@@ -24,8 +24,8 @@
 <!-- /wp:group -->
 <!-- wp:group {"align":"full","className":"kc-band kc-band--kv sp-parallax","layout":{"type":"default"},"style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-group alignfull kc-band kc-band--kv sp-parallax">
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-band__img"} -->
-<figure class="wp-block-image size-full kc-band__img"><img src="<?php echo kodou_charging_img( 'story-depot.webp' ); ?>" alt="<?php echo kodou_charging_a( 'alt_p11' ); ?>" style="object-position:50% 60%"/></figure>
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"kc-band__img kc-pos-sites"} -->
+<figure class="wp-block-image size-full kc-band__img kc-pos-sites"><img src="<?php echo kodou_charging_img( 'story-depot.webp' ); ?>" alt="<?php echo kodou_charging_a( 'alt_p11' ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
