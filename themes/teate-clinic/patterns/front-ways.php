@@ -40,7 +40,7 @@
 <!-- wp:group {"className":"tc-tilebox sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group tc-tilebox sp-reveal sp-reveal--up">
 <!-- wp:html -->
-<a class="tc-tile" href="/conditions/"><svg class="tc-ico" width="28" height="28" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 4c-6 4-6 9 0 13s6 9 0 13"/><circle cx="18" cy="9" r="2.2"/><circle cx="18" cy="18" r="2.2"/><circle cx="18" cy="27" r="2.2"/></svg><span class="tc-tile__label"><?php echo esc_html( teate_clinic_t( 'way_cond' ) ); ?></span></a>
+<a class="tc-tile" href="/conditions/"><svg class="tc-ico" width="28" height="28" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="11" y="4" width="14" height="7" rx="3.5"/><rect x="11" y="14.5" width="14" height="7" rx="3.5"/><rect x="11" y="25" width="14" height="7" rx="3.5"/></svg><span class="tc-tile__label"><?php echo esc_html( teate_clinic_t( 'way_cond' ) ); ?></span></a>
 <!-- /wp:html -->
 </div>
 <!-- /wp:group -->
