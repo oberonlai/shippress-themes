@@ -19,7 +19,7 @@
 
 <!-- wp:query {"queryId":4,"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"layout":{"type":"default"}} -->
 <div class="wp-block-query"><!-- wp:post-template {"className":"kc-rows","layout":{"type":"default"}} -->
-<!-- wp:group {"className":"kc-row","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<!-- wp:group {"className":"kc-row","layout":{"type":"default"}} -->
 <div class="wp-block-group kc-row"><!-- wp:post-featured-image {"isLink":true,"aspectRatio":"1","width":"100px","height":"100px","className":"kc-row__img"} /-->
 
 <!-- wp:group {"className":"kc-row__text","layout":{"type":"default"}} -->
