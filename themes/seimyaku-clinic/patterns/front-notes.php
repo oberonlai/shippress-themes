@@ -11,11 +11,11 @@
 <!-- wp:group {"tagName":"section","align":"full","anchor":"notes","className":"sz-notes","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-notes" id="notes"><!-- wp:group {"className":"sz-notes__head","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-notes__head"><!-- wp:paragraph {"className":"is-style-sz-chip"} -->
-<p class="is-style-sz-chip">From the clinic</p>
+<p class="is-style-sz-chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'kaecb448b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">Practical notes from our team</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'k526e5b67' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -32,6 +32,6 @@
 <!-- /wp:query -->
 
 <!-- wp:paragraph {"className":"sz-textlink sz-textlink--right"} -->
-<p class="sz-textlink sz-textlink--right"><a href="/news/">All notes</a></p>
+<p class="sz-textlink sz-textlink--right"><a href="/news/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k67bfaf2f' ) ); ?></a></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

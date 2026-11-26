@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-phead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-phead"><!-- wp:group {"className":"sz-phead__media sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-phead__media sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'bp-diary.webp' ); ?>" alt="Patient seated at a table with an upper-arm blood pressure cuff and a paper diary."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'bp-diary.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'a307f2af2' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"sz-veil sz-veil--static","layout":{"type":"default"}} -->
@@ -21,15 +21,15 @@
 
 <!-- wp:group {"className":"sz-phead__text","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-phead__text"><!-- wp:paragraph {"className":"is-style-sz-meta sz-crumbs"} -->
-<p class="is-style-sz-meta sz-crumbs"><span><a href="/">Home</a></span><span>Monitoring Pace</span></p>
+<p class="is-style-sz-meta sz-crumbs"><span><a href="/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k8cf04a97' ) ); ?></a></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k6f4ee09b' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"sz-phead__title"} -->
-<h1 class="wp-block-heading sz-phead__title">Monitoring Pace</h1>
+<h1 class="wp-block-heading sz-phead__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'k6f4ee09b' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sz-lead"} -->
-<p class="sz-lead">We pace follow-up appointments according to your kidney function and blood pressure numbers, establishing a regular rhythm rather than arbitrary calendar visits.</p>
+<p class="sz-lead"><?php echo wp_kses_post( seimyaku_clinic_t( 'k4d3425a0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -37,17 +37,17 @@
 <!-- wp:group {"tagName":"section","align":"full","anchor":"pace","className":"sz-care sz-care--inner","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-care sz-care--inner" id="pace"><!-- wp:group {"className":"sz-t4","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-t4"><!-- wp:paragraph {"className":"is-style-sz-chip"} -->
-<p class="is-style-sz-chip">Pacing</p>
+<p class="is-style-sz-chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'kfbca4a91' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"sz-giant"} -->
-<h2 class="wp-block-heading sz-giant">PACING</h2>
+<h2 class="wp-block-heading sz-giant"><?php echo wp_kses_post( seimyaku_clinic_t( 'k342d8344' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-care__intro","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-care__intro"><!-- wp:heading -->
-<h2 class="wp-block-heading">A rhythm set by your numbers</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'k47e37255' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -55,36 +55,36 @@
 <div class="wp-block-group sz-care__stack"><!-- wp:group {"className":"sz-sheet sz-sheet--1","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet sz-sheet--1"><!-- wp:group {"className":"sz-sheet__head","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group sz-sheet__head"><!-- wp:paragraph {"className":"sz-sheet__idx"} -->
-<p class="sz-sheet__idx">I</p>
+<p class="sz-sheet__idx"><?php echo wp_kses_post( seimyaku_clinic_t( 'kdd753679' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-sheet__title"} -->
-<p class="sz-sheet__title">Stages 1 to 2</p>
+<p class="sz-sheet__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'k39f24508' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-sheet__body","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__body"><!-- wp:group {"className":"sz-sheet__photo sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'lab-tubes.webp' ); ?>" alt="Gloved nurse labelling blood collection tubes arranged in a rack."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'lab-tubes.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'affa66508' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-sheet__text","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__text"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Once a year</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'ke542b571' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>For stable kidney function in stages 1 to 2, appointments occur once a year to confirm ongoing stability.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k6ee35ba4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Stable function is confirmed with one blood and urine panel and a visit in your anniversary month.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'ka5ff1249' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta sz-facts"} -->
-<p class="is-style-sz-meta sz-facts"><span>kidney function stable</span><span>once a year</span></p>
+<p class="is-style-sz-meta sz-facts"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k6084458a' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'kcdad0f1b' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -93,36 +93,36 @@
 <!-- wp:group {"className":"sz-sheet sz-sheet--2","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet sz-sheet--2"><!-- wp:group {"className":"sz-sheet__head","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group sz-sheet__head"><!-- wp:paragraph {"className":"sz-sheet__idx"} -->
-<p class="sz-sheet__idx">II</p>
+<p class="sz-sheet__idx"><?php echo wp_kses_post( seimyaku_clinic_t( 'k66cc12e3' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-sheet__title"} -->
-<p class="sz-sheet__title">Stage 3a</p>
+<p class="sz-sheet__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'k724b04ee' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-sheet__body","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__body"><!-- wp:group {"className":"sz-sheet__photo sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'urine-sample.webp' ); ?>" alt="Sample cups and a dipstick strip on a pale tray beside a nurse’s hand."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'urine-sample.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'aabfbeba5' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-sheet__text","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__text"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Every six months</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'k773083e4' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Patients at stage 3a visit every 6 months, allowing timely adjustments to medication and lifestyle factors.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'kda97ff15' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Each visit reads the trend in eGFR and urine protein beside your blood pressure diary.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k2c6a1f69' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta sz-facts"} -->
-<p class="is-style-sz-meta sz-facts"><span>stage 3a</span><span>every 6 months</span></p>
+<p class="is-style-sz-meta sz-facts"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'kd26117cd' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'kcdd7388f' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -131,36 +131,36 @@
 <!-- wp:group {"className":"sz-sheet sz-sheet--3","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet sz-sheet--3"><!-- wp:group {"className":"sz-sheet__head","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group sz-sheet__head"><!-- wp:paragraph {"className":"sz-sheet__idx"} -->
-<p class="sz-sheet__idx">III</p>
+<p class="sz-sheet__idx"><?php echo wp_kses_post( seimyaku_clinic_t( 'k51ac4581' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-sheet__title"} -->
-<p class="sz-sheet__title">Stage 3b</p>
+<p class="sz-sheet__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'k8c830d1e' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-sheet__body","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__body"><!-- wp:group {"className":"sz-sheet__photo sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'home-cuff-close.webp' ); ?>" alt="Close-up of an upper-arm cuff on a forearm resting on a table."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'home-cuff-close.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'a3cb3e50f' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-sheet__text","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__text"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Every three months</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'kdf98e094' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>If kidney function reaches stage 3b, we schedule consultations every 3 months to monitor filtration trends and mineral metabolism closely.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'kf8605f3a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Visits are shorter and more frequent, with your diary reviewed at each one.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k2f213f69' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta sz-facts"} -->
-<p class="is-style-sz-meta sz-facts"><span>stage 3b</span><span>every 3 months</span></p>
+<p class="is-style-sz-meta sz-facts"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'kf89d3205' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'ked1f58b3' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -169,40 +169,40 @@
 <!-- wp:group {"className":"sz-sheet sz-sheet--4","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet sz-sheet--4"><!-- wp:group {"className":"sz-sheet__head","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group sz-sheet__head"><!-- wp:paragraph {"className":"sz-sheet__idx"} -->
-<p class="sz-sheet__idx">IV</p>
+<p class="sz-sheet__idx"><?php echo wp_kses_post( seimyaku_clinic_t( 'kcf482c58' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-sheet__title"} -->
-<p class="sz-sheet__title">Stage 4</p>
+<p class="sz-sheet__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'kd19c1d06' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-sheet__body","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__body"><!-- wp:group {"className":"sz-sheet__photo sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__photo sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'dietitian-plate.webp' ); ?>" alt="Dietitian showing a plate model and food cards to a seated patient."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'dietitian-plate.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'a46d64a45' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-sheet__text","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-sheet__text"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Every six to eight weeks</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'kbb3e87cd' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>For stage 4, care occurs every 6 to 8 weeks, shared collaboratively with your local hospital renal unit.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'ke8f525f0' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>The dietitian joins your care, and we plan the next steps with the hospital unit.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k260e784e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta sz-facts"} -->
-<p class="is-style-sz-meta sz-facts"><span>stage 4</span><span>every 6–8 weeks</span></p>
+<p class="is-style-sz-meta sz-facts"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k83862d3c' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k829859d0' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-textlink"} -->
-<p class="sz-textlink"><a href="/conditions/">Who we see</a></p>
+<p class="sz-textlink"><a href="/conditions/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k605f009b' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -216,34 +216,34 @@
 
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-prose sz-prose--wide","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-prose sz-prose--wide"><!-- wp:paragraph {"className":"is-style-sz-chip"} -->
-<p class="is-style-sz-chip">Between visits</p>
+<p class="is-style-sz-chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'kd517df0e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Between Visits and the Home Diary</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'k2126eec4' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Effective monitoring does not pause between scheduled clinic consultations. We supply an upper-arm home blood pressure cuff protocol and a structured paper diary to record resting morning and evening blood pressures. Keeping consistent home readings filters out temporary clinic stress and reveals your true cardiovascular baseline.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( seimyaku_clinic_t( 'kf083d6ae' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Regular results calls and diary reviews are included in your standard care. If you experience persistent blood pressure spikes above your target threshold, noticeable fluid swelling in the ankles, or new medication side effects, you should call our nursing team immediately rather than waiting for your next appointment. Standard follow-up consultations last thirty minutes and are billed at €75 for self-paying patients.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( seimyaku_clinic_t( 'k3d0019be' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-note"} -->
-<p class="sz-note">Regardless of intervals, every patient attends an in-depth yearly review during their anniversary month of joining our practice.</p>
+<p class="sz-note"><?php echo wp_kses_post( seimyaku_clinic_t( 'kdfd17bdc' ) ); ?></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-cta","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-cta"><!-- wp:paragraph {"className":"sz-cta__line"} -->
-<p class="sz-cta__line">Want to know which pace is yours?</p>
+<p class="sz-cta__line"><?php echo wp_kses_post( seimyaku_clinic_t( 'k342b19d6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"sz-btn"} -->
-<div class="wp-block-button sz-btn"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a first consultation</a></div>
+<div class="wp-block-button sz-btn"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k43700e64' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></section>
 <!-- /wp:group -->

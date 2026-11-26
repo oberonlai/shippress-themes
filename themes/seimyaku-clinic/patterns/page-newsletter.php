@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-phead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-phead"><!-- wp:group {"className":"sz-phead__media sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-phead__media sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'street-morning.webp' ); ?>" alt="A quiet tree-lined street with low apartment buildings and a tram line in morning haze."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'street-morning.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'a50a6267c' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"sz-veil sz-veil--static","layout":{"type":"default"}} -->
@@ -21,80 +21,80 @@
 
 <!-- wp:group {"className":"sz-phead__text","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-phead__text"><!-- wp:paragraph {"className":"is-style-sz-meta sz-crumbs"} -->
-<p class="is-style-sz-meta sz-crumbs"><span><a href="/">Home</a></span><span>The Clinic Letter</span></p>
+<p class="is-style-sz-meta sz-crumbs"><span><a href="/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k8cf04a97' ) ); ?></a></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k785959f8' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"sz-phead__title"} -->
-<h1 class="wp-block-heading sz-phead__title">The Clinic Letter</h1>
+<h1 class="wp-block-heading sz-phead__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'k785959f8' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sz-lead"} -->
-<p class="sz-lead">Our quarterly publication offers thoughtful observations on kidney health, blood pressure management, and updates from our clinical team.</p>
+<p class="sz-lead"><?php echo wp_kses_post( seimyaku_clinic_t( 'kb2e1c65b' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-prose sz-prose--wide","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-prose sz-prose--wide"><!-- wp:paragraph {"className":"is-style-sz-chip"} -->
-<p class="is-style-sz-chip">The letter</p>
+<p class="is-style-sz-chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'k7a93eaa6' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">A Quarterly Letter from Our Clinicians</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'kd767b38b' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sp-reveal sp-reveal--up"} -->
-<p class="sp-reveal sp-reveal--up">Four times each year, Seimyaku Clinic distributes a quiet, focused newsletter written entirely by our own healthcare team. Rather than promotional marketing or general health trivia, our letter shares practical clinical updates directly relevant to patients managing kidney health and blood pressure.</p>
+<p class="sp-reveal sp-reveal--up"><?php echo wp_kses_post( seimyaku_clinic_t( 'k76494acb' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sz-valines sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-valines sp-stagger"><!-- wp:group {"className":"sz-valine sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-valine sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-valine__t"} -->
-<p class="sz-valine__t">Opening hours and holidays</p>
+<p class="sz-valine__t"><?php echo wp_kses_post( seimyaku_clinic_t( 'k2a9e5cfa' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-valine__d"} -->
-<p class="sz-valine__d">Notices of changed hours before they happen.</p>
+<p class="sz-valine__d"><?php echo wp_kses_post( seimyaku_clinic_t( 'k35bbad99' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-valine sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-valine sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-valine__t"} -->
-<p class="sz-valine__t">A column from our dietitian</p>
+<p class="sz-valine__t"><?php echo wp_kses_post( seimyaku_clinic_t( 'k71e562ec' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-valine__d"} -->
-<p class="sz-valine__d">Seasonal food advice from Priya Nair.</p>
+<p class="sz-valine__d"><?php echo wp_kses_post( seimyaku_clinic_t( 'k6acdb5ac' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-valine sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-valine sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-valine__t"} -->
-<p class="sz-valine__t">Vaccination clinic dates</p>
+<p class="sz-valine__t"><?php echo wp_kses_post( seimyaku_clinic_t( 'k2c351b3f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-valine__d"} -->
-<p class="sz-valine__d">Autumn flu and pneumonia immunisation dates.</p>
+<p class="sz-valine__d"><?php echo wp_kses_post( seimyaku_clinic_t( 'k916dd70f' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"sz-note"} -->
-<p class="sz-note">Four a year: January, April, July and October.</p>
+<p class="sz-note"><?php echo wp_kses_post( seimyaku_clinic_t( 'k47c29923' ) ); ?></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-formsec","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-formsec"><!-- wp:paragraph {"className":"is-style-sz-chip"} -->
-<p class="is-style-sz-chip">Subscribe</p>
+<p class="is-style-sz-chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'kb2691758' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">How to Subscribe</h2>
+<h2 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'k245bf65a' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Subscribing to our clinic letter is completely free and open to current patients, family members, and inquiring individuals alike. To join the mailing list, enter your preferred email address into our subscription form or email care@seimyaku-clinic.example with the subject line 'Clinic letter'.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'kca026289' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"anchor":"subscribe","className":"sz-formwrap","layout":{"type":"default"}} -->
@@ -113,6 +113,6 @@ echo shippress_form_slot( // phpcs:ignore WordPress.Security.EscapeOutput.Output
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"sz-note"} -->
-<p class="sz-note">Depending on your browser settings, submitting the form opens your standard email application; simply send the pre-addressed message to confirm your request, as you are not subscribed until that confirmation is dispatched. We never share subscriber addresses with third parties, and every email letter contains an immediate one-click unsubscribe mechanism. You may also pick up printed copies from our reception desk on Alder Row.</p>
+<p class="sz-note"><?php echo wp_kses_post( seimyaku_clinic_t( 'k6d3d5a38' ) ); ?></p>
 <!-- /wp:paragraph --></section>
 <!-- /wp:group -->

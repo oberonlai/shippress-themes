@@ -11,44 +11,44 @@
 <!-- wp:group {"tagName":"section","align":"full","anchor":"stories","className":"sz-stories","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-stories" id="stories"><!-- wp:group {"className":"sz-t4","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-t4"><!-- wp:paragraph {"className":"is-style-sz-chip"} -->
-<p class="is-style-sz-chip">Stories</p>
+<p class="is-style-sz-chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'kcbb37401' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"sz-giant"} -->
-<h2 class="wp-block-heading sz-giant">FOLLOWED</h2>
+<h2 class="wp-block-heading sz-giant"><?php echo wp_kses_post( seimyaku_clinic_t( 'k50978b25' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-feature","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-feature"><!-- wp:group {"className":"sz-feature__text sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-feature__text sp-reveal sp-reveal--up"><!-- wp:paragraph {"className":"sz-feature__kicker"} -->
-<p class="sz-feature__kicker">Ruth, 64 · Stage 3a</p>
+<p class="sz-feature__kicker"><?php echo wp_kses_post( seimyaku_clinic_t( 'k5959436a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-quote"} -->
-<p class="sz-quote">Eight years, the same room, the same doctor.</p>
+<p class="sz-quote"><?php echo wp_kses_post( seimyaku_clinic_t( 'kea7f500c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Ruth was referred after routine screening revealed reduced kidney function. For eight years, she has attended clinic reviews every six months for laboratory panels alongside an annual renal ultrasound.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k31d478b8' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Her reviews are booked a year ahead, and she sees the same doctor each time.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'kf9c4a299' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta"} -->
-<p class="is-style-sz-meta"><span>Stage 3a</span><span>every 6 months</span><span>8 years with us</span></p>
+<p class="is-style-sz-meta"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k724b04ee' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'kcdd7388f' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'kb59fa499' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-feature__photos","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-feature__photos"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sz-feature__main"} -->
-<figure class="wp-block-image size-full sz-feature__main"><img src="<?php echo seimyaku_clinic_img( 'story-ruth-walk.webp' ); ?>" alt="Mature woman walking outdoors along a paved park path in bright morning sunlight."/></figure>
+<figure class="wp-block-image size-full sz-feature__main"><img src="<?php echo seimyaku_clinic_img( 'story-ruth-walk.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'ac3af7676' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sz-feature__small"} -->
-<figure class="wp-block-image size-full sz-feature__small"><img src="<?php echo seimyaku_clinic_img( 'story-ruth-tea.webp' ); ?>" alt="Woman sitting comfortably at home holding a warm teacup and reading a medical letter."/></figure>
+<figure class="wp-block-image size-full sz-feature__small"><img src="<?php echo seimyaku_clinic_img( 'story-ruth-tea.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'aff76425e' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -56,48 +56,48 @@
 <!-- wp:group {"className":"sz-scards sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-scards sp-stagger"><!-- wp:group {"className":"sz-scard sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-scard sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'story-daniel-desk.webp' ); ?>" alt="Man at an office desk checking his wrist with a blood pressure monitor."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'story-daniel-desk.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'a9432612b' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"sz-scard__body","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-scard__body"><!-- wp:paragraph {"className":"sz-scard__kicker"} -->
-<p class="sz-scard__kicker">Daniel, 47</p>
+<p class="sz-scard__kicker"><?php echo wp_kses_post( seimyaku_clinic_t( 'k045ecb4b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sz-scard__title"} -->
-<h3 class="wp-block-heading sz-scard__title">A work check, then a 24-hour monitor</h3>
+<h3 class="wp-block-heading sz-scard__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'kb980e2c0' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Elevated blood pressure was flagged during an occupational health check. We fitted Daniel with a 24-hour monitor and set up a structured home diary. After three-month visits during his first year, his reviews now occur every six months.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k2606a57f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta"} -->
-<p class="is-style-sz-meta"><span>24-hour monitor</span><span>every 3, then 6 months</span></p>
+<p class="is-style-sz-meta"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k9c12634d' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k60405a67' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-scard sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-scard sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'story-amara-bike.webp' ); ?>" alt="Young woman securing her bicycle to a metal rack outside a modern clinic entrance."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'story-amara-bike.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'a39f6ca97' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"sz-scard__body","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-scard__body"><!-- wp:paragraph {"className":"sz-scard__kicker"} -->
-<p class="sz-scard__kicker">Amara, 38</p>
+<p class="sz-scard__kicker"><?php echo wp_kses_post( seimyaku_clinic_t( 'k617ad09b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sz-scard__title"} -->
-<h3 class="wp-block-heading sz-scard__title">After a kidney stone, a yearly review</h3>
+<h3 class="wp-block-heading sz-scard__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'k103eb4a5' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Following treatment for a kidney stone, Amara joined the clinic to reduce the risk of another. She adjusted her food and fluid habits with our renal dietitian, and returns each year for a routine review.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k0f55480c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta"} -->
-<p class="is-style-sz-meta"><span>dietitian</span><span>yearly review</span></p>
+<p class="is-style-sz-meta"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k8c58dba8' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k7cfb01b1' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

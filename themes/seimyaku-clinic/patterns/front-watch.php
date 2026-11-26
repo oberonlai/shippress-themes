@@ -11,11 +11,11 @@
 <!-- wp:group {"tagName":"section","align":"full","anchor":"watch","className":"sz-watch","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-watch" id="watch"><!-- wp:group {"className":"sz-t4","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-t4"><!-- wp:paragraph {"className":"is-style-sz-chip"} -->
-<p class="is-style-sz-chip">What we watch</p>
+<p class="is-style-sz-chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'k7c2b002b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"sz-giant"} -->
-<h2 class="wp-block-heading sz-giant">FOLLOW-UP</h2>
+<h2 class="wp-block-heading sz-giant"><?php echo wp_kses_post( seimyaku_clinic_t( 'k2a569447' ) ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -27,19 +27,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-row__kicker"} -->
-<p class="sz-row__kicker">Every visit</p>
+<p class="sz-row__kicker"><?php echo wp_kses_post( seimyaku_clinic_t( 'k68153a46' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sz-row__title"} -->
-<h3 class="wp-block-heading sz-row__title">Kidney function</h3>
+<h3 class="wp-block-heading sz-row__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'k33834903' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sz-row__text"} -->
-<p class="sz-row__text">We evaluate estimated glomerular filtration rate (eGFR), serum creatinine, and potassium levels to identify subtle shifts in filtration capacity across months and years.</p>
+<p class="sz-row__text"><?php echo wp_kses_post( seimyaku_clinic_t( 'kc309e496' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-row__chips"} -->
-<p class="sz-row__chips"><span>eGFR</span><span>creatinine</span><span>potassium</span></p>
+<p class="sz-row__chips"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k5fd23156' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k956bcec9' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'ka5a2ce0e' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sz-row__tab","layout":{"type":"default"}} -->
@@ -53,19 +53,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-row__kicker"} -->
-<p class="sz-row__kicker">Every visit</p>
+<p class="sz-row__kicker"><?php echo wp_kses_post( seimyaku_clinic_t( 'k68153a46' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sz-row__title"} -->
-<h3 class="wp-block-heading sz-row__title">Protein in urine</h3>
+<h3 class="wp-block-heading sz-row__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'k33716148' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sz-row__text"} -->
-<p class="sz-row__text">Routine urine albumin-to-creatinine ratio (ACR) and dipstick tests allow us to detect early signs of kidney strain long before symptoms appear.</p>
+<p class="sz-row__text"><?php echo wp_kses_post( seimyaku_clinic_t( 'kc27ab446' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-row__chips"} -->
-<p class="sz-row__chips"><span>urine ACR</span><span>dipstick</span></p>
+<p class="sz-row__chips"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'ka64b6b6a' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k20d242a7' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sz-row__tab","layout":{"type":"default"}} -->
@@ -79,19 +79,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-row__kicker"} -->
-<p class="sz-row__kicker">Between visits</p>
+<p class="sz-row__kicker"><?php echo wp_kses_post( seimyaku_clinic_t( 'kd517df0e' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sz-row__title"} -->
-<h3 class="wp-block-heading sz-row__title">Blood pressure</h3>
+<h3 class="wp-block-heading sz-row__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'k398b09b5' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sz-row__text"} -->
-<p class="sz-row__text">Continuous observation through structured home diaries, clinic measurements, and 24-hour ambulatory monitoring shows how your blood pressure behaves between visits.</p>
+<p class="sz-row__text"><?php echo wp_kses_post( seimyaku_clinic_t( 'k48ab7923' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-row__chips"} -->
-<p class="sz-row__chips"><span>home diary</span><span>24-hour monitor</span><span>clinic reading</span></p>
+<p class="sz-row__chips"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k65c66f21' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k9c12634d' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k38f3c5ae' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sz-row__tab","layout":{"type":"default"}} -->
@@ -105,19 +105,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-row__kicker"} -->
-<p class="sz-row__kicker">Each year</p>
+<p class="sz-row__kicker"><?php echo wp_kses_post( seimyaku_clinic_t( 'ke3bc3b39' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"className":"sz-row__title"} -->
-<h3 class="wp-block-heading sz-row__title">Medicines &amp; food</h3>
+<h3 class="wp-block-heading sz-row__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'k6f3fde98' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sz-row__text"} -->
-<p class="sz-row__text">Thorough medication reconciliation combined with personalised dietary consultations manages sodium intake, potassium balance, and overall kidney wellness.</p>
+<p class="sz-row__text"><?php echo wp_kses_post( seimyaku_clinic_t( 'kc1f67b8f' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-row__chips"} -->
-<p class="sz-row__chips"><span>medicine review</span><span>dietitian</span><span>salt and potassium</span></p>
+<p class="sz-row__chips"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'ked02b837' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k8c58dba8' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k27672bb0' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sz-row__tab","layout":{"type":"default"}} -->
@@ -128,15 +128,15 @@
 
 <!-- wp:group {"className":"sz-photos","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-photos"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sp-reveal sp-reveal--wipe sz-photo"} -->
-<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe sz-photo"><img src="<?php echo seimyaku_clinic_img( 'lab-tubes.webp' ); ?>" alt="Gloved healthcare worker labelling glass blood collection tubes arranged in a clinical laboratory rack."/></figure>
+<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe sz-photo"><img src="<?php echo seimyaku_clinic_img( 'lab-tubes.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'af8466614' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sp-reveal sp-reveal--wipe sz-photo"} -->
-<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe sz-photo"><img src="<?php echo seimyaku_clinic_img( 'urine-sample.webp' ); ?>" alt="Gloved hand holding a urine dipstick strip over specimen cups on a tray."/></figure>
+<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe sz-photo"><img src="<?php echo seimyaku_clinic_img( 'urine-sample.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'a878d1d9f' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sp-reveal sp-reveal--wipe sz-photo"} -->
-<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe sz-photo"><img src="<?php echo seimyaku_clinic_img( 'dietitian-plate.webp' ); ?>" alt="Dietitian showing a plate model and food cards to a seated patient."/></figure>
+<figure class="wp-block-image size-full sp-reveal sp-reveal--wipe sz-photo"><img src="<?php echo seimyaku_clinic_img( 'dietitian-plate.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'a46d64a45' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

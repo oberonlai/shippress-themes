@@ -12,11 +12,11 @@
 <section class="wp-block-group alignfull sz-letter" id="letter"><!-- wp:group {"className":"sz-letter__grid","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-letter__grid"><!-- wp:group {"className":"sz-letter__text","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-letter__text"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">A letter, four times a year</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'k0dc77f50' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Opening-hour changes, a note from our dietitian and flu-season dates. Never advertising, and we never share your address.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k8ab14eeb' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

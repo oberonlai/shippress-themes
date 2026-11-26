@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-hero","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-hero"><!-- wp:group {"className":"sz-hero__media sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-hero__media sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'hero-scan-consult.webp' ); ?>" alt="Doctor and patient reviewing a greyscale renal ultrasound monitor with results on the desk."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'hero-scan-consult.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'aa41cd29d' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"sz-veil sp-parallax__layer","layout":{"type":"default"}} -->
@@ -23,29 +23,29 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
-<a class="sz-pill" href="#message" aria-label="Scroll to the message"><svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" focusable="false"><path d="M8 2v10M3.5 8l4.5 4.5L12.5 8" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
+<a class="sz-pill" href="#message" aria-label="<?php echo esc_attr( seimyaku_clinic_t( 'a3e922820' ) ); ?>"><svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" focusable="false"><path d="M8 2v10M3.5 8l4.5 4.5L12.5 8" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></a>
 <!-- /wp:html --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-hero__text","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-hero__text"><!-- wp:group {"className":"sz-hero__head","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-hero__head"><!-- wp:paragraph {"className":"sz-eyebrow"} -->
-<p class="sz-eyebrow">Nephrology · Blood pressure · Since 2013</p>
+<p class="sz-eyebrow"><?php echo wp_kses_post( seimyaku_clinic_t( 'k848b604d' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"sz-hero__title"} -->
-<h1 class="wp-block-heading sz-hero__title">A year, not a visit.</h1>
+<h1 class="wp-block-heading sz-hero__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'ke412fda2' ) ); ?></h1>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-hero__lead","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-hero__lead"><!-- wp:paragraph {"className":"sz-lead"} -->
-<p class="sz-lead">We follow kidney disease and high blood pressure over years. Your first consultation takes ninety minutes; after that, we set the pace of your monitoring with you, and the same doctor reads every result.</p>
+<p class="sz-lead"><?php echo wp_kses_post( seimyaku_clinic_t( 'ke9853ee4' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"sz-btn"} -->
-<div class="wp-block-button sz-btn"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a first consultation</a></div>
+<div class="wp-block-button sz-btn"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k43700e64' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -54,57 +54,57 @@
 <!-- wp:group {"className":"sz-hero__cards","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-hero__cards"><!-- wp:group {"className":"sz-card","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-card"><!-- wp:paragraph {"className":"sz-card__chip"} -->
-<p class="sz-card__chip">First visit</p>
+<p class="sz-card__chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'kfc206df9' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-card__title"} -->
-<p class="sz-card__title"><a href="/first-visit/">Ninety minutes, with your past results</a></p>
+<p class="sz-card__title"><a href="/first-visit/"><?php echo wp_kses_post( seimyaku_clinic_t( 'kc6e86ca0' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta sz-card__meta"} -->
-<p class="is-style-sz-meta sz-card__meta"><span>Mon–Sat</span><span>bring letters &amp; lab sheets</span></p>
+<p class="is-style-sz-meta sz-card__meta"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k934d0edb' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'kcce70e28' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-card","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-card"><!-- wp:paragraph {"className":"sz-card__chip"} -->
-<p class="sz-card__chip">Monitoring</p>
+<p class="sz-card__chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'k423e555c' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-card__title"} -->
-<p class="sz-card__title"><a href="/monitoring/">Paced by your numbers, not the calendar</a></p>
+<p class="sz-card__title"><a href="/monitoring/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k100f6638' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta sz-card__meta"} -->
-<p class="is-style-sz-meta sz-card__meta"><span>every 6–8 weeks</span><span>to once a year</span></p>
+<p class="is-style-sz-meta sz-card__meta"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k829859d0' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'ke94b03fb' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-card","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-card"><!-- wp:paragraph {"className":"sz-card__chip"} -->
-<p class="sz-card__chip">Who we see</p>
+<p class="sz-card__chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'k605f009b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-card__title"} -->
-<p class="sz-card__title"><a href="/conditions/">Kidney disease, blood pressure, after a stone</a></p>
+<p class="sz-card__title"><a href="/conditions/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k3f930a8d' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta sz-card__meta"} -->
-<p class="is-style-sz-meta sz-card__meta"><span>adults 18+</span><span>referral not needed</span></p>
+<p class="is-style-sz-meta sz-card__meta"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k6456a81e' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'kbffb24bc' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-card","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-card"><!-- wp:paragraph {"className":"sz-card__chip"} -->
-<p class="sz-card__chip">Hours</p>
+<p class="sz-card__chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'k6a7e7316' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-card__title"} -->
-<p class="sz-card__title"><a href="/visit/">Mon–Fri 08:30–17:30, Wed to 19:30</a></p>
+<p class="sz-card__title"><a href="/visit/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k8a681b29' ) ); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta sz-card__meta"} -->
-<p class="is-style-sz-meta sz-card__meta"><span>Sat 09:00–12:30</span><span>Sun closed</span></p>
+<p class="is-style-sz-meta sz-card__meta"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k43f2f8f0' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k911bad98' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

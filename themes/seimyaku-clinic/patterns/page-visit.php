@@ -11,7 +11,7 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-phead","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-phead"><!-- wp:group {"className":"sz-phead__media sp-parallax","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-phead__media sp-parallax"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'entrance-stairs.webp' ); ?>" alt="The clinic entrance on the second floor, reached by a bright stair and lift."/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo seimyaku_clinic_img( 'entrance-stairs.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'a62444755' ) ); ?>"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"className":"sz-veil sz-veil--static","layout":{"type":"default"}} -->
@@ -21,15 +21,15 @@
 
 <!-- wp:group {"className":"sz-phead__text","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-phead__text"><!-- wp:paragraph {"className":"is-style-sz-meta sz-crumbs"} -->
-<p class="is-style-sz-meta sz-crumbs"><span><a href="/">Home</a></span><span>Visiting the Clinic</span></p>
+<p class="is-style-sz-meta sz-crumbs"><span><a href="/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k8cf04a97' ) ); ?></a></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'kda64d09f' ) ); ?></span></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"className":"sz-phead__title"} -->
-<h1 class="wp-block-heading sz-phead__title">Visiting the Clinic</h1>
+<h1 class="wp-block-heading sz-phead__title"><?php echo wp_kses_post( seimyaku_clinic_t( 'kda64d09f' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sz-lead"} -->
-<p class="sz-lead">Seimyaku Clinic is located in Wrenfield above the Alder Row pharmacy, designed as a quiet, welcoming environment for your appointments.</p>
+<p class="sz-lead"><?php echo wp_kses_post( seimyaku_clinic_t( 'k00e01349' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
@@ -37,97 +37,97 @@
 <!-- wp:group {"tagName":"section","align":"full","className":"sz-dockpage","layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull sz-dockpage"><!-- wp:group {"className":"sz-dockpage__dock","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-dockpage__dock"><!-- wp:paragraph {"className":"is-style-sz-chip"} -->
-<p class="is-style-sz-chip">Visit</p>
+<p class="is-style-sz-chip"><?php echo wp_kses_post( seimyaku_clinic_t( 'k5e706a9b' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2,"className":"sz-dock"} -->
-<h2 class="wp-block-heading sz-dock">Second floor, above the pharmacy</h2>
+<h2 class="wp-block-heading sz-dock"><?php echo wp_kses_post( seimyaku_clinic_t( 'k1fb581e1' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sz-dock__sub"} -->
-<p class="sz-dock__sub">Alder Row, Wrenfield. Step-free lift, fifty metres from the tram stop.</p>
+<p class="sz-dock__sub"><?php echo wp_kses_post( seimyaku_clinic_t( 'kaae9a66a' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-dockpage__body sp-stagger","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-dockpage__body sp-stagger"><!-- wp:group {"className":"sz-dp sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-dp sp-reveal sp-reveal--up"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Address</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'kdd7bf230' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2nd floor, 41 Alder Row, Wrenfield, directly above the Alder Row pharmacy. Phone +00 31 555 0148 · <a href="mailto:care@seimyaku-clinic.example">care@seimyaku-clinic.example</a></p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k730c7bbf' ) ); ?> <a href="mailto:care@seimyaku-clinic.example"><?php echo wp_kses_post( seimyaku_clinic_t( 'kd21eb933' ) ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-dp","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-dp"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Opening hours</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'k80a0c205' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:table {"className":"sz-hours","hasFixedLayout":false} -->
-<figure class="wp-block-table sz-hours"><table><thead><tr><th>Day</th><th>Hours</th></tr></thead><tbody><tr><td>Monday–Friday</td><td>08:30–17:30 (Wednesday to 19:30)</td></tr><tr><td>Saturday</td><td>09:00–12:30</td></tr><tr><td>Sunday and public holidays</td><td>Closed</td></tr></tbody></table></figure>
+<figure class="wp-block-table sz-hours"><table><thead><tr><th><?php echo wp_kses_post( seimyaku_clinic_t( 'k03727ac4' ) ); ?></th><th><?php echo wp_kses_post( seimyaku_clinic_t( 'k6a7e7316' ) ); ?></th></tr></thead><tbody><tr><td><?php echo wp_kses_post( seimyaku_clinic_t( 'k6ea62973' ) ); ?></td><td><?php echo wp_kses_post( seimyaku_clinic_t( 'k613edc53' ) ); ?></td></tr><tr><td><?php echo wp_kses_post( seimyaku_clinic_t( 'k8b705118' ) ); ?></td><td>09:00–12:30</td></tr><tr><td><?php echo wp_kses_post( seimyaku_clinic_t( 'k2d5cd99e' ) ); ?></td><td><?php echo wp_kses_post( seimyaku_clinic_t( 'k03f4a478' ) ); ?></td></tr></tbody></table></figure>
 <!-- /wp:table -->
 
 <!-- wp:paragraph {"className":"sz-note"} -->
-<p class="sz-note">Fasting blood samples are taken from 08:30.</p>
+<p class="sz-note"><?php echo wp_kses_post( seimyaku_clinic_t( 'k47df94d9' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-dp sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-dp sp-reveal sp-reveal--up"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"sz-dp__photo"} -->
-<figure class="wp-block-image size-full sz-dp__photo"><img src="<?php echo seimyaku_clinic_img( 'reception.webp' ); ?>" alt="A calm reception desk where a coordinator greets a patient, with plants nearby."/></figure>
+<figure class="wp-block-image size-full sz-dp__photo"><img src="<?php echo seimyaku_clinic_img( 'reception.webp' ); ?>" alt="<?php echo esc_attr( seimyaku_clinic_t( 'af9cecce8' ) ); ?>"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-dp sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-dp sp-reveal sp-reveal--up"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Getting here</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'k8c265388' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Reaching our clinic is straightforward via public transport. The Alder Row tram stop sits just fifty metres from our front door, and several municipal bus lines stop across the avenue. For those arriving by car, designated visitor parking bays are available behind the pharmacy building.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k65e8ed25' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-dp sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-dp sp-reveal sp-reveal--up"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">Step-free access</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'k90b77f74' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>A bright entrance hall and a step-free lift take you to the second floor. Tell the desk if you need a hand.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'kff9751f0' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"sz-dp sp-reveal sp-reveal--up","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-dp sp-reveal sp-reveal--up"><!-- wp:heading {"level":3} -->
-<h3 class="wp-block-heading">What to bring</h3>
+<h3 class="wp-block-heading"><?php echo wp_kses_post( seimyaku_clinic_t( 'k07e3e742' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>When attending your consultation, please remember to bring your past medical letters, recent laboratory test printouts, your complete medication packaging, and your completed home blood pressure diary if applicable.</p>
+<p><?php echo wp_kses_post( seimyaku_clinic_t( 'k36a7e1ea' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta sz-facts"} -->
-<p class="is-style-sz-meta sz-facts"><span>past letters</span><span>lab results</span><span>medicine list</span></p>
+<p class="is-style-sz-meta sz-facts"><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k0bffb310' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'k0d847a70' ) ); ?></span><span><?php echo wp_kses_post( seimyaku_clinic_t( 'kadd3b2b1' ) ); ?></span></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"className":"sz-note"} -->
-<p class="sz-note">Please note that Seimyaku Clinic is an outpatient monitoring practice and does not operate an accident or emergency department. In an emergency, call your local emergency number or proceed directly to the nearest hospital casualty ward.</p>
+<p class="sz-note"><?php echo wp_kses_post( seimyaku_clinic_t( 'k0669c01a' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"sz-visit__btns","layout":{"type":"default"}} -->
 <div class="wp-block-group sz-visit__btns"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"sz-btn"} -->
-<div class="wp-block-button sz-btn"><a class="wp-block-button__link wp-element-button" href="/contact/">Book a first consultation</a></div>
+<div class="wp-block-button sz-btn"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k43700e64' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/contact/">Ask a question</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/contact/"><?php echo wp_kses_post( seimyaku_clinic_t( 'k69d9a05e' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
