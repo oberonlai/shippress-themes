@@ -1,0 +1,13 @@
+# Reference ("our counterpart" filled from design-spec.md)
+Primary: https://www.ykkap.co.jp/ (YKK AP; pages /, /business/, /consumer/reform/window/). Secondary: https://www.agc.com/ (home hero only, for the diagonal solid-panel split).
+Imagery: photo (high-key product and site photography).
+Screens: `ref/ykk-first-*.png` (home), `ref/ykk-consumer-reform-window-*.png`, `ref/ykk-business-*.png`, `ref/sec-agccom-*.png`, `ref/scroll-*.png` (before/after pairs). Tokens: `reference-tokens.md`.
+
+| # | Reference device | Where seen | Our counterpart |
+|---|---|---|---|
+| 1 | Solid dark panel with slanted edge beside one photograph, slide caption and arrow link inside the panel (AGC) | AGC hero `ref/scroll-agc-before.png` | T1 home hero (diagonal-split / on-solid-panel / info-bar): slate #3B4044 panel, edge 52 % → 40 %, 15 px inset, H1 + inverted "Book a survey" box + static 3-square pager key; img-01 two fitters lifting a pane to an open aluminium frame, frame line draw + one sheen, sp-parallax 8 %; short slanted page head on every inner page |
+| 2 | Two-tier header: utility row + nav row, current item as a solid accent block touching the hairline, outlined button with circle arrow at the right (YKK) | `ref/ykk-consumer-reform-window-0.png` | T2 global header: 88 px utility row + 46 px sticky centred anchor nav, current item solid #0078A8 block on the #DBDBDB hairline, outlined "Book a survey" box with 16 px circle arrow (the single repeated CTA) |
+| 3 | Edge-to-edge photo strip with a centred white caption, then a centred two-line plain-language lead (YKK window reform) | `ref/ykk-consumer-reform-window-0.png` | S2 home strip: edge-to-edge 4.67:1 Cover (img-11) with 30 % scrim and centred white caption, sp-parallax 10 %; centred two-line leads under section H2s |
+| 4 | 4 x 2 square photo catalogue on a pale grey band, caption below each, centred light H2 with a 24px black bar (YKK) | `ref/scroll-ykk-after-900.png`, `ref/ykk-consumer-reform-window-900.png` | T3 home "What we replace": 4 x 2 squares 272 px r0 on #F6F7F7, captions below; every section H2 light 400 centred with a 24 x 2 bar; full catalogue on /replace/, 4 squares on /about/ |
+| 5 | Dated ruled rows with category chips (AGC news) | `ref/scroll-agc-after-900.png` | S1 ledger rows: home "A replacement, in order" (130 px day label, chip, #0078A8 title, 1 px rules, sp-reveal--wipe); survey minute-by-minute, About years, project ledgers, News list |
+| 6 | Sticky anchor scroll-spy; ease-out-cubic 0.2s hovers; header collapse | scripts | Sticky nav row (CSS only, our header collapse); hovers 0.2 s cubic-bezier(0.215,0.61,0.355,1); reveal--up 0.5 s / 24 px in the same easing; no scroll-spy script |
