@@ -62,3 +62,21 @@ We do not sell or arrange repairs. We do not work for the seller or the agent. A
 
 ## Pages
 Home (landing), The report, Findings, Visits & prices, Small commercial, Case notes, About, Request a survey, Contact, Notes (posts), Slot alerts (newsletter), Privacy, Terms, Thanks.
+
+## Inner pages (English sample content)
+- The report: the eight-section ledger in long form, how we write, the three priority columns, a strip of five photographs from recent reports.
+- Findings: five findings (slipped slates, tide mark, cracked lintel, sloping floor, ponding flat roof), each with what it usually means and what the report says.
+- Visits & prices: the six-row price table (EUR, including VAT), visit lengths, winter visits, travel within 40 km, payment after the report within 14 days, what a survey does not include.
+- Small commercial: shops, offices and workshops up to 400 m², what Henrik looks at, price row 4, the Sana Iqbal case, a three-card photograph strip.
+- Case notes: Ruth Bell (cracked lintel), Sana Iqbal (flat roof before exchange), Dev Anand (condensation at the skirting).
+- About: the practice, a day, the five people, what we are not, office and hours.
+- Request a survey: what to tell us, the sentence builder, price summary, the four-line flow, the request form slot with an email fallback.
+- Contact: address, phone, email, hours, the area covered, the contact form slot with an email fallback.
+- Notes: the posts page; sample post "A cracked lintel is not always a structural problem" (category Findings, tags lintels and brick).
+- Slot alerts: a standalone newsletter page with a newsletter form slot; without a plugin it opens the visitor's email app and says the signup is not complete until we reply.
+- Privacy, Terms, Thanks: plain text on a 720 px measure.
+
+## Forms (fields, for the site owner's own CF7 / WPForms / MailPoet forms)
+- Request: name, email, phone, property address, building type, approximate age, report needed by, who lets us in, main concern, message, consent; submit "Send request".
+- Contact: name, email, message, consent; submit "Send message".
+- Slot alerts: email (and a consent line in MailPoet / MC4WP forms); submit "Get slot alerts".

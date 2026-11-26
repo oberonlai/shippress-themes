@@ -31,6 +31,9 @@ WooCommerce: support is declared; the theme works fully without it.
 == Images ==
 
 Photographs are original images generated for this theme and released under GPL-2.0-or-later with the theme:
+- assets/images/about-team-table.webp (GPL-2.0-or-later)
+- assets/images/commercial-shopfront.webp (GPL-2.0-or-later)
+- assets/images/request-desk.webp (GPL-2.0-or-later)
 - assets/images/ask-crack-gauge.webp (GPL-2.0-or-later)
 - assets/images/ask-floorboards.webp (GPL-2.0-or-later)
 - assets/images/ask-pole-camera.webp (GPL-2.0-or-later)
