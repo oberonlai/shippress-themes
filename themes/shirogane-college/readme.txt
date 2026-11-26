@@ -36,6 +36,7 @@ Photographs are original images generated for this theme and released under GPL-
 - assets/images/hero-ward-bandage.webp (GPL-2.0-or-later)
 - assets/images/hero-ward-cat.webp (GPL-2.0-or-later)
 - assets/images/hero-ward-tray.webp (GPL-2.0-or-later)
+- assets/images/openday-tour.webp (GPL-2.0-or-later)
 - assets/images/student-grace.webp (GPL-2.0-or-later)
 - assets/images/student-hana.webp (GPL-2.0-or-later)
 - assets/images/student-leo.webp (GPL-2.0-or-later)
