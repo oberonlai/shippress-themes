@@ -35,7 +35,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-para sp-reveal sp-reveal--up"} -->
-<p class="sz-para sp-reveal sp-reveal--up">We founded Seimyaku Clinic around clinical continuity rather than episodic care. By tracking your numbers consistently across seasons and having the same doctor evaluate every laboratory panel and ultrasound scan, we can spot subtle patterns early and adjust your treatment thoughtfully before complications ever have the chance to develop.</p>
+<p class="sz-para sp-reveal sp-reveal--up">We founded Seimyaku Clinic around clinical continuity rather than episodic care. By tracking your numbers consistently across seasons and having the same doctor evaluate every laboratory panel and ultrasound scan, we can spot subtle patterns early and adjust your treatment thoughtfully and adjust your plan in good time.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-textlink sp-reveal sp-reveal--up"} -->

@@ -34,7 +34,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Regular, paced observation has kept her kidney numbers steady and avoided sudden crises.</p>
+<p>Her reviews are booked a year ahead, and she sees the same doctor each time.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"is-style-sz-meta"} -->

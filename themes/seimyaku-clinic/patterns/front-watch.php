@@ -87,7 +87,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"sz-row__text"} -->
-<p class="sz-row__text">Continuous observation through structured home diaries, clinic measurements, and 24-hour ambulatory monitoring shields delicate renal filtration units from hypertensive damage.</p>
+<p class="sz-row__text">Continuous observation through structured home diaries, clinic measurements, and 24-hour ambulatory monitoring shows how your blood pressure behaves between visits.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"className":"sz-row__chips"} -->

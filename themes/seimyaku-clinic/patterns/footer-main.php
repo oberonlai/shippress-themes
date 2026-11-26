@@ -51,18 +51,13 @@
 <p class="sz-foot__h">The clinic letter</p>
 <!-- /wp:paragraph -->
 
-<?php
-echo shippress_form_slot( // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-	array(
-		'kind'    => 'newsletter',
-		'email'   => 'care@seimyaku-clinic.example',
-		'label'   => seimyaku_clinic_t( 'forms_email' ),
-		'submit'  => seimyaku_clinic_t( 'forms_subscribe' ),
-		'notice'  => seimyaku_clinic_t( 'forms_mail_notice' ),
-		'subject' => seimyaku_clinic_t( 'forms_mail_subject' ),
-	)
-);
-?></div>
+<!-- wp:paragraph {"className":"sz-foot__text"} -->
+<p class="sz-foot__text">A short letter a few times a year: what we are watching and what changed at the clinic.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"sz-foot__text"} -->
+<p class="sz-foot__text"><a href="/#letter">Subscribe ↓</a></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
