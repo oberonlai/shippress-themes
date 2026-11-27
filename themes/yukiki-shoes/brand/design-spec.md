@@ -135,7 +135,7 @@ Reasoning: the hero grid (12 abutting tiles) and the tabbed 5-up numbered gatewa
 ---
 
 ## 6. Palette
-Source: REGAL tokens (a), adjusted ≤5% lightness where noted; main colour from the plan (煤竹 #6B5A4E) replaces REGAL's slate-blue notice (#4A66A8) because a blue bar reads as a corporate notice, not a quiet shop — same role, same ~4–5% share.
+Source: REGAL tokens (a), adjusted ≤5% lightness where noted; main colour from the plan (coal bamboo #6B5A4E) replaces REGAL's slate-blue notice (#4A66A8) because a blue bar reads as a corporate notice, not a quiet shop — same role, same ~4–5% share.
 | Token | Hex | Role | Share (first screen) | Source token |
 |---|---|---|---|---|
 | base | #FFFFFF | page ground, right hero column | ~35% | (a) ground #FFFFFF |
@@ -146,7 +146,7 @@ Source: REGAL tokens (a), adjusted ≤5% lightness where noted; main colour from
 | muted | #767069 | dates, sub-labels | — | (a) grey labels |
 | line | #D5D0CB | hairlines, rules | — | (a) #CCCCCC |
 | dot | #CCCCCC | pager/timeline dots, inactive tab | — | (d) #CCCCCC |
-| main | #6B5A4E | notice bar, timeline line, tab underline, hover | ~5% | plan 煤竹 (replaces #4A66A8 role) |
+| main | #6B5A4E | notice bar, timeline line, tab underline, hover | ~5% | plan colour coal bamboo (replaces #4A66A8 role) |
 | accent | #8F3A2C | numbered circles, active dot | ≤2% | (a) leather #CB5245, darkened |
 **First-screen saturated share (S>0.5, V>0.25):** target ≤ 8%, hard max 15% (leather in tiles + accent dots only). Check with scripts/check-first-screen.py.
 
@@ -207,8 +207,8 @@ Home notes row (T3) is **3-up** (F1–F3, 3 x 386px, gap 20px) to stay within 18
 |---|---|---|---|---|
 | Hero tile sequence | parent `sp-stagger`, tiles `sp-reveal` (opacity only) | Home hero photo grid only (not text) | IntersectionObserver on load, 0.5s, step 0.06s, cubic-bezier(.2,.7,.2,1) | REGAL slide opacity 0.3s + autoplay sequence |
 | Gateway / notes rise | parent `sp-stagger`, cards `sp-reveal sp-reveal--up` (20px) | Home §2 cards, §4 lasts, §6 notes; Who we fit, Lasts, Fitters pages | enter 15%, 0.6s, step 0.1s | REGAL tab switch / slick speed 500ms |
-| Shelf parallax | `sp-parallax` | Home §5 | CSS scroll-driven, linear | stage-a 轉化 3 |
-| Count | `sp-count` | the "640 boxes · 6 lasts · 45 minutes" line in §3 (not the price list) | 1.2s ease-out | stage-a 轉化 4 |
+| Shelf parallax | `sp-parallax` | Home §5 | CSS scroll-driven, linear | stage-a candidate 3 |
+| Count | `sp-count` | the "640 boxes · 6 lasts · 45 minutes" line in §3 (not the price list) | 1.2s ease-out | stage-a candidate 4 |
 Not on: hero text, forms, price lists, legal text, the newsletter band. Translate ≤ 20px.
 
 ## 12. Parallax (required)

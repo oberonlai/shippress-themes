@@ -30,6 +30,28 @@ WooCommerce: support is declared; the theme works fully without it.
 
 Photographs are original images generated for this theme and released under GPL-2.0-or-later with the theme.
 
+- assets/images/a1.webp (GPL-2.0-or-later)
+- assets/images/a2.webp (GPL-2.0-or-later)
+- assets/images/a3.webp (GPL-2.0-or-later)
+- assets/images/a4.webp (GPL-2.0-or-later)
+- assets/images/a5.webp (GPL-2.0-or-later)
+- assets/images/f1.webp (GPL-2.0-or-later)
+- assets/images/f2.webp (GPL-2.0-or-later)
+- assets/images/f3.webp (GPL-2.0-or-later)
+- assets/images/h1.webp (GPL-2.0-or-later)
+- assets/images/h2.webp (GPL-2.0-or-later)
+- assets/images/h3.webp (GPL-2.0-or-later)
+- assets/images/l1.webp (GPL-2.0-or-later)
+- assets/images/l2.webp (GPL-2.0-or-later)
+- assets/images/l3.webp (GPL-2.0-or-later)
+- assets/images/l4.webp (GPL-2.0-or-later)
+- assets/images/n1.webp (GPL-2.0-or-later)
+- assets/images/p1.webp (GPL-2.0-or-later)
+- assets/images/v1.webp (GPL-2.0-or-later)
+- assets/images/demo/f2.webp (GPL-2.0-or-later)
+- assets/images/demo/f3.webp (GPL-2.0-or-later)
+- assets/images/demo/h2.webp (GPL-2.0-or-later)
+
 == Copyright ==
 
 Yukiki Shoes, Copyright 2026 ShipPress. Licensed under GPL-2.0-or-later. Fonts (Inter Tight, Public Sans) are licensed under the SIL Open Font License 1.1; see assets/fonts. Photographs are generated for this theme and licensed under GPL-2.0-or-later.
