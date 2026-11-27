@@ -99,7 +99,7 @@ a { text-underline-offset: 3px; }
 .ys-tile img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; scale: var(--z, 1); transition: transform 6s linear; }
 .ys-tile:hover img { transform: scale(1.04); }
 .ys-peek { flex: 0 0 40px; margin-left: 10px; background: #1D1A18; overflow: hidden; }
-.ys-peek img { width: 100%; height: 100%; object-fit: cover; object-position: 20% 50%; display: block; }
+.ys-peek img { width: 100%; height: 100%; object-fit: cover; object-position: 30% 50%; display: block; }
 .ys-sheet.sp-stagger > .sp-reveal:nth-child(1) { --sp-delay: 0s; }
 .ys-sheet.sp-stagger > .sp-reveal:nth-child(2) { --sp-delay: .06s; }
 .ys-sheet.sp-stagger > .sp-reveal:nth-child(3) { --sp-delay: .12s; }
@@ -127,6 +127,7 @@ a { text-underline-offset: 3px; }
 .ys-tl__dot { display: block; width: 8px; height: 8px; border-radius: 50%; background: var(--ys-dot); position: relative; z-index: 1; }
 .ys-tl li.is-active .ys-tl__dot { background: var(--ys-accent); }
 .ys-tl__t { font-size: var(--wp--preset--font-size--s); color: var(--ys-ink); font-weight: 500; }
+.ys-tl__t b { font-weight: 500; }
 @media (prefers-reduced-motion: no-preference) {
 	html.sp-js:not(.sp-no-motion) .ys-tl .ys-tl__dot { animation: ys-dot 15s steps(1, end) infinite; }
 	html.sp-js:not(.sp-no-motion) .ys-tl li:nth-child(2) .ys-tl__dot { animation-delay: 3s; }
@@ -157,7 +158,7 @@ a { text-underline-offset: 3px; }
 .ys-card--last .ys-last__p { margin-top: 8px; font-size: .875rem; font-weight: 500; color: var(--ys-ink); white-space: nowrap; }
 
 /* how a fitting runs */
-.ys-how { display: grid; grid-template-columns: 4fr 8fr; gap: 56px; align-items: start; }
+.ys-how { display: grid; grid-template-columns: 4fr 8fr; gap: 56px; align-items: center; }
 .ys-count { font-family: var(--ys-display); font-weight: 500; font-size: 1.25rem; color: var(--ys-ink); border-top: 1px solid var(--ys-line); padding-top: 20px; margin-top: 28px !important; }
 .ys-steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; position: relative; }
 .ys-steps::before { content: ""; position: absolute; left: 0; right: 0; top: 5px; height: 1px; background: var(--ys-main); }
@@ -172,7 +173,7 @@ a { text-underline-offset: 3px; }
 .ys-shelf { min-height: 560px; align-items: center; justify-content: center; }
 .ys-shelf .wp-block-cover__inner-container { width: auto; max-width: 720px; }
 .ys-shelf__box { background: rgba(29, 26, 24, .55); padding: 24px 32px; text-align: center; }
-.ys-shelf__t { font-family: var(--ys-display); font-size: var(--wp--preset--font-size--lg); font-weight: 500; line-height: 1.2; color: #FFFFFF !important; margin: 0 !important; }
+.ys-shelf__t { text-wrap: balance; font-family: var(--ys-display); font-size: var(--wp--preset--font-size--lg); font-weight: 500; line-height: 1.2; color: #FFFFFF !important; margin: 0 !important; }
 
 /* fitter's notes */
 .ys-notes3 { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
@@ -262,7 +263,10 @@ body .ys-sec .ys-hours { list-style: none; padding: 0; margin: 0 0 28px; border-
 	.ys-hero__text { padding: 32px var(--ys-pad) 36px; }
 	.ys-h1 { font-size: clamp(2.75rem, 12vw, 3.25rem); }
 	.ys-tl__cap { gap: 20px; font-size: 1rem; flex-wrap: wrap; }
-	.ys-tl__t { font-size: 11px; }
+	.ys-tl__t { font-size: 11px; display: flex; flex-direction: column; gap: 2px; }
+	.ys-tl__t b { font-size: 12px; }
+	.ys-cards:not(.ys-cards--4) > .ys-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
+	.ys-cards:not(.ys-cards--4) > .ys-card:last-child:nth-child(odd) .ys-card__img { aspect-ratio: 2 / 1; }
 	.ys-cards { grid-template-columns: repeat(2, 1fr); }
 	.ys-steps { grid-template-columns: 1fr; gap: 24px; }
 	.ys-steps::before { display: none; }

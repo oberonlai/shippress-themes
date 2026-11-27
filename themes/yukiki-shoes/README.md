@@ -7,3 +7,5 @@ See `brand.md` and `brand/design-spec.md`.
 - Fonts: Inter Tight and Public Sans (OFL-1.1), loaded through `theme.json` fontFace.
 - Forms: the letter section uses the shared dynamic form block (`inc/shippress-forms.php`).
 - Scroll effects: `assets/sp-scroll.css` and `assets/sp-scroll.js` (stagger, reveal up, parallax, count); the gateway tabs use `assets/ys-tabs.js`.
+
+Stage 2 fix: the lasts are light-grey product shots, the main menu links to eight real short pages (About, Fittings, Who we fit, Lasts, Repairs, Fitters, Fees, Visit) plus News; the full inner pages, newsletter and contact pages, and the zh-TW, ja, fr and de languages follow in later steps.
