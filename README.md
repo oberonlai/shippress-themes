@@ -625,17 +625,20 @@ Each theme is a complete, standalone WordPress **block theme** (full-site editin
 </tr>
 <tr>
 <td align="center" valign="top" width="33%"><a href="themes/yuka-tiles"><img src="https://shots.codotx.com/yuka-tiles/home-desktop.webp" width="260" alt="Yuka Tiles"></a><br><a href="themes/yuka-tiles">Yuka Tiles</a></td>
+<td align="center" valign="top" width="33%"><a href="themes/yukiki-shoes"><img src="https://shots.codotx.com/yukiki-shoes/home-desktop.webp" width="260" alt="Yukiki Shoes"></a><br><a href="themes/yukiki-shoes">Yukiki Shoes</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yukimi-kakigori"><img src="https://shots.codotx.com/yukimi-kakigori/home-desktop.webp" width="260" alt="Yukimi Kakigori"></a><br><a href="themes/yukimi-kakigori">Yukimi Kakigori</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yukisaki-route"><img src="https://shots.codotx.com/yukisaki-route/home-desktop.webp" width="260" alt="Yukisaki Route"></a><br><a href="themes/yukisaki-route">Yukisaki Route</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yukisaki-route"><img src="https://shots.codotx.com/yukisaki-route/home-desktop.webp" width="260" alt="Yukisaki Route"></a><br><a href="themes/yukisaki-route">Yukisaki Route</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yukishiro-chalet"><img src="https://shots.codotx.com/yukishiro-chalet/home-desktop.webp" width="260" alt="Yukishiro Chalet"></a><br><a href="themes/yukishiro-chalet">Yukishiro Chalet</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yunagi-jazz"><img src="https://shots.codotx.com/yunagi-jazz/home-desktop.webp" width="260" alt="Yunagi Jazz"></a><br><a href="themes/yunagi-jazz">Yunagi Jazz</a></td>
-<td align="center" valign="top" width="33%"><a href="themes/yuragi-spa"><img src="https://shots.codotx.com/yuragi-spa/home-desktop.webp" width="260" alt="Yuragi Spa"></a><br><a href="themes/yuragi-spa">Yuragi Spa</a></td>
 </tr>
 <tr>
+<td align="center" valign="top" width="33%"><a href="themes/yuragi-spa"><img src="https://shots.codotx.com/yuragi-spa/home-desktop.webp" width="260" alt="Yuragi Spa"></a><br><a href="themes/yuragi-spa">Yuragi Spa</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzu-chaya"><img src="https://shots.codotx.com/yuzu-chaya/home-desktop.webp" width="260" alt="Yuzu Chaya"></a><br><a href="themes/yuzu-chaya">Yuzu Chaya</a></td>
 <td align="center" valign="top" width="33%"><a href="themes/yuzuriha-retreat"><img src="https://shots.codotx.com/yuzuriha-retreat/home-desktop.webp" width="260" alt="Yuzuriha Retreat"></a><br><a href="themes/yuzuriha-retreat">Yuzuriha Retreat</a></td>
+</tr>
+<tr>
 <td align="center" valign="top" width="33%"><a href="themes/zaseki-panel"><img src="https://shots.codotx.com/zaseki-panel/home-desktop.webp" width="260" alt="Zaseki Panel"></a><br><a href="themes/zaseki-panel">Zaseki Panel</a></td>
 </tr>
 </table>
