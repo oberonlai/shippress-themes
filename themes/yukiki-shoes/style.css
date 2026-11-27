@@ -22,6 +22,7 @@ Tags: block-patterns, full-site-editing, custom-colors, editor-style, translatio
 	--ys-tile: var(--wp--preset--color--tile);
 	--ys-line: var(--wp--preset--color--line);
 	--ys-dot: var(--wp--preset--color--dot);
+	--ys-dot-size: 7px;
 	--ys-main: var(--wp--preset--color--main);
 	--ys-accent: var(--wp--preset--color--accent);
 	--ys-display: var(--wp--preset--font-family--display);
@@ -124,7 +125,7 @@ a { text-underline-offset: 3px; }
 .ys-tl { list-style: none; margin: 0 !important; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); position: relative; }
 .ys-tl::before { content: ""; position: absolute; left: 0; right: 0; top: 3px; height: 1px; background: var(--ys-main); }
 .ys-tl li { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
-.ys-tl__dot { display: block; width: 8px; height: 8px; border-radius: 50%; background: var(--ys-dot); position: relative; z-index: 1; }
+.ys-tl__dot { display: block; width: var(--ys-dot-size); height: var(--ys-dot-size); border-radius: 50%; background: var(--ys-dot); position: relative; z-index: 1; }
 .ys-tl li.is-active .ys-tl__dot { background: var(--ys-accent); }
 .ys-tl__t { font-size: var(--wp--preset--font-size--s); color: var(--ys-ink); font-weight: 500; }
 .ys-tl__t b { font-weight: 500; }
@@ -161,9 +162,9 @@ a { text-underline-offset: 3px; }
 .ys-how { display: grid; grid-template-columns: 4fr 8fr; gap: 56px; align-items: center; }
 .ys-count { font-family: var(--ys-display); font-weight: 500; font-size: 1.25rem; color: var(--ys-ink); border-top: 1px solid var(--ys-line); padding-top: 20px; margin-top: 28px !important; }
 .ys-steps { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; position: relative; }
-.ys-steps::before { content: ""; position: absolute; left: 0; right: 0; top: 5px; height: 1px; background: var(--ys-main); }
+.ys-steps::before { content: ""; position: absolute; left: 0; right: 0; top: 3px; height: 1px; background: var(--ys-main); }
 .ys-steps li { position: relative; }
-.ys-step__dot { display: block; width: 12px; height: 12px; border-radius: 50%; background: var(--ys-dot); position: relative; z-index: 1; }
+.ys-step__dot { display: block; width: var(--ys-dot-size); height: var(--ys-dot-size); border-radius: 50%; background: var(--ys-dot); position: relative; z-index: 1; }
 .ys-steps li:first-child .ys-step__dot { background: var(--ys-accent); }
 .ys-step__time { display: block; margin-top: 14px; font-size: .8125rem; font-weight: 500; color: var(--ys-muted); }
 .ys-steps h3 { font-family: var(--ys-display); font-size: 1rem; font-weight: 500; margin: 4px 0 8px; color: var(--ys-ink); }
@@ -330,7 +331,7 @@ body .ys-sec .ys-hours { list-style: none; padding: 0; margin: 0 0 28px; border-
 	.ys-steps { grid-template-columns: 1fr; gap: 24px; }
 	.ys-steps::before { display: none; }
 	.ys-steps li { padding-left: 28px; }
-	.ys-step__dot { position: absolute; left: 0; top: 6px; width: 8px; height: 8px; }
+	.ys-step__dot { position: absolute; left: 0; top: 6px; }
 	.ys-notes3 { grid-template-columns: 1fr; }
 	.ys-shelf { min-height: 420px; --sp-par: 6%; }
 	.ys-shelf__t { font-size: 1.5rem; }
