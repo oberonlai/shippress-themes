@@ -93,7 +93,7 @@
 <!-- wp:group {"className":"ys-split2__i","layout":{"type":"default"}} -->
 <div class="wp-block-group ys-split2__i">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ys-split2__img sp-reveal"} -->
-<figure class="wp-block-image size-full ys-split2__img sp-reveal"><img src="<?php echo yukiki_shoes_img( 'f3.webp' ); ?>" alt="<?php echo esc_attr( yukiki_shoes_t( 'alt_f3' ) ); ?>" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full ys-split2__img sp-reveal"><img src="<?php echo yukiki_shoes_img( 'f3.webp' ); ?>" alt="<?php echo esc_attr( yukiki_shoes_t( 'alt_f3' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->

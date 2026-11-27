@@ -40,7 +40,7 @@
 <!-- wp:group {"className":"ys-visit__r","layout":{"type":"default"}} -->
 <div class="wp-block-group ys-visit__r">
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"ys-visit__img sp-reveal"} -->
-<figure class="wp-block-image size-full ys-visit__img sp-reveal"><img src="<?php echo yukiki_shoes_img( 'v1.webp' ); ?>" alt="<?php echo esc_attr( yukiki_shoes_t( 'alt_v1' ) ); ?>" loading="lazy" decoding="async"/></figure>
+<figure class="wp-block-image size-full ys-visit__img sp-reveal"><img src="<?php echo yukiki_shoes_img( 'v1.webp' ); ?>" alt="<?php echo esc_attr( yukiki_shoes_t( 'alt_v1' ) ); ?>"/></figure>
 <!-- /wp:image -->
 </div>
 <!-- /wp:group -->
