@@ -579,3 +579,24 @@ a { text-underline-offset: 3px; }
 .sg-legal__i p { margin: 0; font-size: 1rem; line-height: 1.8; color: var(--sg-body); }
 .sg-honeycomb--row .sg-hex__t { font-size: 1.25rem; }
 .sg-honeycomb--row .sg-hex__shape { padding: 0 44px; }
+
+/* Languages: Chinese and Japanese headings use a bundled Noto Sans subset (CJK characters only; Latin and figures stay in Manrope / Source Sans 3). Body uses system CJK sans. */
+:root:lang(zh) {
+	--wp--preset--font-family--display: "Manrope", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+	--wp--preset--font-family--body: "Source Sans 3", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", sans-serif;
+}
+:root:lang(ja) {
+	--wp--preset--font-family--display: "Manrope", "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+	--wp--preset--font-family--body: "Source Sans 3", "Hiragino Sans", "Yu Gothic", "Noto Sans CJK JP", sans-serif;
+}
+:is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: .04em; text-transform: none; }
+:is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
+:lang(ja) :is(h1, h2, h3) { word-break: auto-phrase; }
+:is(:lang(fr), :lang(de)) :is(p, h1, h2, h3, h4) { hyphens: auto; overflow-wrap: break-word; }
+:is(:lang(zh), :lang(ja)) .sg-hero__h1 { max-width: 560px; font-size: clamp(2.5rem, 1.6rem + 2.2vw, 3.375rem); font-weight: 700; line-height: 1.3; letter-spacing: .02em; }
+:is(:lang(fr), :lang(de)) .sg-hero__h1 { font-size: clamp(2.75rem, 1.9rem + 2.5vw, 3.9rem); line-height: 1.06; }
+@media (max-width: 781px) {
+	:is(:lang(zh), :lang(ja)) .sg-hero__h1 { font-size: 2.125rem; line-height: 1.3; }
+	:is(:lang(fr), :lang(de)) .sg-hero__h1 { font-size: 2.25rem; }
+}

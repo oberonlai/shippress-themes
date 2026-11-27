@@ -6,11 +6,11 @@ Requires PHP: 7.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Shirogane College is a veterinary nursing college founded in 2004 at 14 Linden Yard, Ashbourne Vale. The site sets out the two-year Diploma in Veterinary Nursing, the foundation certificate and the evening course, with the teaching ward, a training day from 07:45 to 17:00, and admissions for the February 2027 intake. It speaks plainly to career changers, school leavers, clinic staff, supporters and partner clinics. Typography is Manrope and Source Sans 3.
+Shirogane College is a veterinary nursing college founded in 2004 at 14 Linden Yard, Ashbourne Vale. The site sets out the two-year Diploma in Veterinary Nursing, the foundation certificate and the evening course, with the teaching ward, a training day from 07:45 to 17:00, and admissions for the February 2027 intake. It speaks plainly to career changers, school leavers, clinic staff, supporters and partner clinics. Typography is Manrope and Source Sans 3, with Noto Sans TC and Noto Sans JP subsets for Chinese and Japanese headings.
 
 == Description ==
 
-A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). See README.md for the design notes, templates and patterns. Fonts: Manrope and Source Sans 3 (SIL Open Font License 1.1).
+A WordPress block theme from ShipPress (https://github.com/oberonlai/shippress-themes). See README.md for the design notes, templates and patterns. Fonts: Manrope, Source Sans 3, Noto Sans TC and Noto Sans JP (SIL Open Font License 1.1).
 
 == Installation ==
 
@@ -55,4 +55,4 @@ Photographs are original images generated for this theme and released under GPL-
 
 == Copyright ==
 
-Shirogane College, Copyright 2026 ShipPress. Licensed under GPL-2.0-or-later. Fonts (Manrope, Source Sans 3) are licensed under the SIL Open Font License 1.1; see assets/fonts. Photographs are generated for this theme and licensed under GPL-2.0-or-later.
+Shirogane College, Copyright 2026 ShipPress. Licensed under GPL-2.0-or-later. Fonts (Manrope, Source Sans 3, Noto Sans TC, Noto Sans JP) are licensed under the SIL Open Font License 1.1; see assets/fonts. Photographs are generated for this theme and licensed under GPL-2.0-or-later.
