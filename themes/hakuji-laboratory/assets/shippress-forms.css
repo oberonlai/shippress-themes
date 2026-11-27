@@ -1,0 +1,62 @@
+/* Optional integrations only: no global input/form/button selectors. Override --sp-form-* from theme tokens. */
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form, .wp-block-form, .wp-block-jetpack-contact-form, .wp-block-jetpack-subscriptions, .sp-newsletter-fallback) {
+  --sp-form-border: currentColor;
+  color: inherit;
+  font: inherit;
+  max-width: 100%;
+}
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form, .wp-block-form, .wp-block-jetpack-contact-form, .wp-block-jetpack-subscriptions, .sp-newsletter-fallback) :is(input:not([type="submit"]):not([type="button"]):not([type="hidden"]):not([type="checkbox"]):not([type="radio"]), textarea, select) {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  padding: .8em 1em;
+  border: 1px solid var(--sp-form-border);
+  border-radius: var(--sp-form-radius, 0);
+  background: var(--sp-form-surface, transparent);
+  color: var(--sp-form-text, inherit);
+  font: inherit;
+  line-height: 1.5;
+}
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form, .wp-block-form, .wp-block-jetpack-contact-form, .wp-block-jetpack-subscriptions, .sp-newsletter-fallback) :is(label, legend) {
+  display: block;
+  margin-block: .5em;
+  color: inherit;
+  font: inherit;
+}
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form, .wp-block-form, .wp-block-jetpack-contact-form) :is(input[type="checkbox"], input[type="radio"]) {
+  width: auto;
+  accent-color: var(--sp-form-accent, currentColor);
+  margin-inline-end: .5em;
+}
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form, .wp-block-form, .wp-block-jetpack-contact-form, .wp-block-jetpack-subscriptions, .sp-newsletter-fallback) :is(button[type="submit"], input[type="submit"], .wpforms-submit) {
+  max-width: 100%;
+  padding: .85em 1.5em;
+  border: 1px solid currentColor;
+  border-radius: var(--sp-form-radius, 0);
+  background: var(--sp-form-accent, var(--wp--preset--color--primary, #263540));
+  color: var(--sp-form-on-accent, #fff);
+  font: inherit;
+  cursor: pointer;
+  white-space: normal;
+}
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form, .wp-block-form, .wp-block-jetpack-contact-form, .wp-block-jetpack-subscriptions, .sp-newsletter-fallback) :is(input, textarea, select, button):focus-visible {
+  outline: 2px solid var(--sp-form-focus, currentColor);
+  outline-offset: 3px;
+}
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form, .wp-block-form, .wp-block-jetpack-contact-form, .wp-block-jetpack-subscriptions, .sp-newsletter-fallback) :is(.wpcf7-response-output, .wpcf7-not-valid-tip, .wpforms-error, .wpforms-confirmation-container-full, .mailpoet_message, .mailpoet_validate_error, .mc4wp-response, .contact-form__error, .contact-form__success, .wp-block-form-submission-notification, .form-errors, .contact-form-submission) {
+  color: inherit;
+  background: var(--sp-form-surface, transparent);
+  border: 1px solid currentColor;
+  padding: .8em;
+  overflow-wrap: anywhere;
+}
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form, .wp-block-form, .wp-block-jetpack-contact-form) [aria-invalid="true"] {
+  border-width: 2px;
+  border-style: dashed;
+}
+:is(.wpcf7, .wpforms-container, .mailpoet_form, .mc4wp-form, .wp-block-form, .wp-block-jetpack-contact-form) select option {
+  background: var(--sp-form-surface, Canvas);
+  color: var(--sp-form-text, CanvasText);
+}
+/* Inherit foreground on dark grounds; map surface/text/accent/focus tokens on the enclosing theme section. */
+.sp-form-slot { color: inherit; max-width: 100%; }
