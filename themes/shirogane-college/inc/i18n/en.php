@@ -1,6 +1,7 @@
 <?php
-/** en strings of the theme's patterns (semantic keys). */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
+	'a1cdb526d' => 'Breadcrumb',
 	'ab_cl_h' => '22 clinics and animal hospitals',
 	'ab_cl_p' => 'Twenty-two clinics and animal hospitals take our students on placement, across the 40 weeks of the diploma. Each clinic takes 1 or 2 students in a block. Aisha Rahman, our placements coordinator, matches every student to a clinic by travel, interests and the skills still to practise, and visits during the block. Clinic names are given to students when their placement block is confirmed.',
 	'ab_clh' => 'Partner clinics',
@@ -215,6 +216,7 @@ return array(
 	'cta_apply' => 'Apply',
 	'cta_line' => 'Applications for February 2027 close on Friday 8 January.',
 	'cta_visit' => 'Book a ward visit',
+	'date_fmt' => 'j F Y',
 	'day1_c' => 'Ward desk',
 	'day1_h' => 'Ward handover',
 	'day1_p' => 'Six students and a tutor meet at the ward desk with the overnight notes. You hear which animals are in the kennels, what changed, and which tasks your group will take before rounds.',
@@ -348,6 +350,8 @@ return array(
 	'in_eb' => 'Next intake',
 	'in_h' => 'February 2027: twenty-four places.',
 	'in_p' => 'The February 2027 intake has 24 places on the diploma. Applications close on Friday 8 January 2027. Interviews and the handling session fall between 11 and 20 January, an offer follows within 10 working days, and induction week is 25 to 29 January. Term starts on Monday 1 February 2027.',
+	'k534a6c00' => ' 42  · admissions@shirogane-college.example',
+	'kc5a8006e' => 'admissions@shirogane-college.example',
 	'let_h' => 'The intake letter',
 	'let_p' => 'The intake letter carries open-day dates, application deadlines and one note from the ward. It is sent six times a year, including the dates for February 2027 and the September intake that follows.',
 	'list_h' => 'News from the ward',
@@ -421,6 +425,7 @@ return array(
 	'pv_p6' => 'You can ask us to show you what we hold, to correct it or to delete it, and you can ask us to stop sending the intake letter. Write to the admissions office at the address on the Contact page and we will answer within a month.',
 	'pv_title' => 'Privacy',
 	'read_more' => 'Read more',
+	'search_results' => 'Search results for: %s',
 	'st2_h' => 'Straight from school, foundation first',
 	'st2_k' => 'Leo Brandt, 19 · School leaver, 2024 intake',
 	'st2_p' => 'Leo came straight from school. He began with the foundation certificate, 10 weeks on Mondays and Thursdays, and then joined the diploma. His placement is in a mixed practice, one of the 22 partner clinics.',
