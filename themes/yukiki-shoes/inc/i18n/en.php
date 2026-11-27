@@ -1,6 +1,7 @@
 <?php
-/** en strings of the theme's patterns. */
+/** en strings of the theme's patterns (keys are hashes of the English text). */
 return array(
+	'a1cdb526d' => 'Breadcrumb',
 	'ab_h1' => 'About',
 	'ab_lead' => 'Yukiki Shoes was founded in 2011 by Mara Lindqvist at 14 Lantern Row, Halden. The shop still fits a pair on one stool before it leaves the shelf.',
 	'ab_s1_h' => 'Why fit comes first',
@@ -47,6 +48,7 @@ return array(
 	'ct_s2_p2' => 'It is step-free, and there is a bench seat if you need to wait. June Park is front of shop and will take a message if the fitter is at the stool. One fitting runs at a time, so a phone call is the sure way to hold a slot before you travel. Mara Lindqvist, Tomas Okafor, Inès Duval, and Leo Castillo fit.',
 	'ct_s2_p3' => 'Ravi Mehta has the bench. Hanna Weiss buys the lasts. If you are not sure who you need, write to hello@yukikishoes.example and we will put the note with the right person.',
 	'cta_book' => 'Book a fitting',
+	'date_fmt' => 'j F Y',
 	'fe0_n' => 'Fitting appointment',
 	'fe0_v' => '€20',
 	'fe1_n' => 'Arden oxford',
@@ -202,6 +204,9 @@ return array(
 	'hw_p2' => 'At the stool we try a last, not a size from memory. The six shapes are Arden, Hollis, Wren, Moor, Fen and Teal. Heel, instep and length are checked while you sit, still in the socks you came in.',
 	'hw_p3' => 'Then you walk the shop floor, which is the test. At forty-five minutes you decide: take the pair, or leave it in the box. The fitting is €20, credited to any pair you keep.',
 	'hw_s' => 'Forty-five minutes on the stool',
+	'k8b61cb1f' => 'Nothing on the shelf here right now.',
+	'k8cf04a97' => 'Home',
+	'kdd1ba187' => 'News',
 	'la0_d' => 'Round toe, standard',
 	'la0_n' => 'Arden oxford',
 	'la0_p' => '€265',
@@ -299,6 +304,7 @@ return array(
 	'sd2' => 'The last goes on at the stool. Heel, instep and toe are checked before you stand.',
 	'sd3' => 'You walk the shop-floor test strip. A pair that looked right in the chair can feel different here.',
 	'sd4' => 'Keep the pair, or leave it on the shelf. The €20 fitting is credited to any pair you take.',
+	'search_results' => 'Search results for: %s',
 	'st0_n' => 'Arrive',
 	'st0_t' => '10:00 Arrive',
 	'st1_n' => 'Measure',

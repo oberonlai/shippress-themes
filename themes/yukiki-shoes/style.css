@@ -293,9 +293,11 @@ body .ys-sec .ys-hours { list-style: none; padding: 0; margin: 0 0 28px; border-
 .ys-formbox { padding: 28px; background: var(--ys-band); }
 .ys-tabs:not(.is-on) .ys-panel + .ys-panel { margin-top: 24px; }
 
-/* CJK / hyphenation hooks (zh-TW, ja, fr, de are added in stage 2) */
-:root:lang(zh) { --wp--preset--font-family--display: "Inter Tight", "Noto Sans TC", sans-serif; }
+/* CJK / hyphenation (sans direction: Noto Sans TC / JP; zh-TW and ja use subsets of the sample text) */
+:root:lang(zh) { --wp--preset--font-family--display: "Inter Tight", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif; --wp--preset--font-family--body: "Public Sans", "Noto Sans TC", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif; }
 :root:lang(ja) { --wp--preset--font-family--display: "Inter Tight", "Noto Sans JP", sans-serif; }
+:root:lang(zh), :root:lang(ja) { --wp--preset--font-size--lg: 1.5rem; --wp--preset--font-size--xl: 2.25rem; --wp--preset--font-size--xxl: clamp(2rem, 4.2vw, 3.375rem); }
+:is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4, p, li, td) { overflow-wrap: anywhere; word-break: auto-phrase; }
 :is(:lang(zh), :lang(ja)) body { line-height: 1.85; letter-spacing: .03em; line-break: strict; }
 :is(:lang(zh), :lang(ja)) :is(h1, h2, h3, h4) { line-height: 1.4; letter-spacing: .04em; text-transform: none; }
 :is(:lang(zh), :lang(ja)) :is(em, i, cite) { font-style: normal; }
@@ -318,6 +320,7 @@ body .ys-sec .ys-hours { list-style: none; padding: 0; margin: 0 0 28px; border-
 	.ys-peek { display: none; }
 	.ys-hero__text { padding: 32px var(--ys-pad) 36px; }
 	.ys-h1 { font-size: clamp(2.75rem, 12vw, 3.25rem); }
+	:lang(zh) .ys-h1, :lang(ja) .ys-h1 { font-size: clamp(2.125rem, 9.5vw, 2.5rem); }
 	.ys-tl__cap { gap: 20px; font-size: 1rem; flex-wrap: wrap; }
 	.ys-tl__t { font-size: 11px; display: flex; flex-direction: column; gap: 2px; }
 	.ys-tl__t b { font-size: 12px; }
