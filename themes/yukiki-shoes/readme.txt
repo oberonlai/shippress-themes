@@ -51,6 +51,10 @@ Photographs are original images generated for this theme and released under GPL-
 - assets/images/demo/f2.webp (GPL-2.0-or-later)
 - assets/images/demo/f3.webp (GPL-2.0-or-later)
 - assets/images/demo/h2.webp (GPL-2.0-or-later)
+- assets/images/demo/l1.webp (GPL-2.0-or-later)
+- assets/images/demo/l2.webp (GPL-2.0-or-later)
+- assets/images/demo/l3.webp (GPL-2.0-or-later)
+- assets/images/demo/l4.webp (GPL-2.0-or-later)
 
 == Copyright ==
 
