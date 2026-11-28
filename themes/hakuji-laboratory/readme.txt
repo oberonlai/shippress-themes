@@ -54,3 +54,10 @@ Images: AI-generated for this theme with Grok Build image_gen as documentary hig
 - assets/images/img-16.webp (early access and thanks pages: a packed case box on a bench)
 - assets/images/img-17.webp (inner pages: a CAD designer at a monitor)
 - assets/images/demo/img-10.webp, assets/images/demo/img-12.webp, assets/images/demo/img-13.webp, assets/images/demo/img-14.webp and assets/images/demo/img-17.webp (copies of five photos used as notice featured images in the Media Library)
+
+== Changelog ==
+= 1.0.1 =
+* Fix the desktop header: the centred wordmark sat underneath the navigation bar, so the logo link could not be clicked. It now sits above the navigation.
+
+= 1.0.0 =
+* First release.
